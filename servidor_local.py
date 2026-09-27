@@ -20,7 +20,8 @@ ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
 ASSETS_DIR = ROOT_DIR / "assets"
 PORT = 8080
-SITE_URL = os.environ.get("SITE_URL", f"http://localhost:{PORT}").rstrip("/")
+_vercel_domain = os.environ.get("VERCEL_PROJECT_PRODUCTION_URL") or os.environ.get("VERCEL_URL")
+SITE_URL = (os.environ.get("SITE_URL") or (f"https://{_vercel_domain}" if _vercel_domain else f"http://localhost:{PORT}")).rstrip("/")
 _site_parts = urllib.parse.urlsplit(SITE_URL)
 if (_site_parts.scheme not in ("http", "https") or not _site_parts.hostname
         or _site_parts.path or _site_parts.query or _site_parts.fragment or _site_parts.username):
@@ -712,6 +713,20 @@ AFFILIATE_URLS.update(
     url for article in ALL_ARTICLES
     for url in re.findall(r"https://meli\.la/[A-Za-z0-9]+", article["body"])
 )
+
+def validate_affiliate_click(data):
+    """Valida el evento compartido por el servidor local y la entrada Flask."""
+    if not isinstance(data, dict):
+        raise ValueError("Invalid click event")
+    product = data.get("product", "")
+    page = data.get("page", "")
+    placement = data.get("placement", "")
+    if (product not in AFFILIATE_URLS or not isinstance(page, str)
+            or not page.startswith("/") or len(page) > 250
+            or not isinstance(placement, str)
+            or not re.fullmatch(r"[a-z0-9-]{1,64}", placement)):
+        raise ValueError("Invalid click event")
+    return {"at": datetime.now(timezone.utc).isoformat(), "product": product, "page": page, "placement": placement}
 
 def render_affiliate_shelf(section_id, products=None):
     """Muestra publicaciones concretas ya enlazadas en las guías del sitio."""
@@ -2028,6 +2043,23 @@ def render_article_page(article):
         LOGO_SRC=LOGO_SRC
     )
 
+def render_not_found(path):
+    not_found_content = f"""
+        <div style="text-align: center; padding: 5rem 1rem;">
+          <h1 style="font-size: 3rem; margin-bottom: 1rem; font-weight: 900; color: var(--orange);">404</h1>
+          <p style="color: var(--text-muted); margin-bottom: 2rem;">La página <code>{escape(path)}</code> no existe en TallerLab.</p>
+          <a href="/" class="btn-orange">Volver al Inicio</a>
+        </div>
+        """
+    return HTML_SHELL.format(
+        PAGE_TITLE="Página no encontrada",
+        CANONICAL_TAG='<meta name="robots" content="noindex">',
+        PAGE_DESC="Error 404",
+        PORT=PORT,
+        CONTENT=not_found_content,
+        LOGO_SRC=LOGO_SRC
+    )
+
 class TallerLabHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         if urllib.parse.urlparse(self.path).path != "/api/affiliate-click":
@@ -2038,12 +2070,7 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             if not 0 < size <= 2048:
                 raise ValueError("Invalid body size")
             data = json.loads(self.rfile.read(size))
-            product = data.get("product", "")
-            page = data.get("page", "")
-            placement = data.get("placement", "")
-            if product not in AFFILIATE_URLS or not isinstance(page, str) or not page.startswith("/") or len(page) > 250 or not isinstance(placement, str) or not re.fullmatch(r"[a-z0-9-]{1,64}", placement):
-                raise ValueError("Invalid click event")
-            event = {"at": datetime.now(timezone.utc).isoformat(), "product": product, "page": page, "placement": placement}
+            event = validate_affiliate_click(data)
             with CLICK_LOCK:
                 with CLICK_LOG.open("a", encoding="utf-8") as log:
                     log.write(json.dumps(event, ensure_ascii=False) + "\n")
@@ -2152,21 +2179,7 @@ class TallerLabHandler(BaseHTTPRequestHandler):
         self.send_response(404)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.end_headers()
-        not_found_content = f"""
-        <div style="text-align: center; padding: 5rem 1rem;">
-          <h1 style="font-size: 3rem; margin-bottom: 1rem; font-weight: 900; color: var(--orange);">404</h1>
-          <p style="color: var(--text-muted); margin-bottom: 2rem;">La página <code>{path}</code> no existe en TallerLab.</p>
-          <a href="/" class="btn-orange">Volver al Inicio</a>
-        </div>
-        """
-        self.wfile.write(HTML_SHELL.format(
-            PAGE_TITLE="Página no encontrada",
-            CANONICAL_TAG='<meta name="robots" content="noindex">',
-            PAGE_DESC="Error 404",
-            PORT=PORT,
-            CONTENT=not_found_content,
-            LOGO_SRC=LOGO_SRC
-        ).encode("utf-8"))
+        self.wfile.write(render_not_found(path).encode("utf-8"))
 
 def run():
     server = ThreadingHTTPServer(("127.0.0.1", PORT), TallerLabHandler)
