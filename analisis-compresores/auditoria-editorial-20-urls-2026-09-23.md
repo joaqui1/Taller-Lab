@@ -1,0 +1,55 @@
+# Auditoría editorial de las 20 URLs de compresores
+
+Fecha: 23/09/2026. Mercado: Argentina. Alcance: los 20 borradores Markdown en `paginas/compresores/`; no se comprobó una web publicada ni Search Console. Fuentes de demanda: `Desktop/keywords/keywords_compresores.csv` (Planificador de Google Ads, rangos redondeados), `Desktop/keywords/semrush/semrush_compresores.csv` y `semrush_consulta_adicional.csv` (volumen y KD de Semrush). La competencia de Google Ads no es dificultad orgánica. Los volúmenes de ambas herramientas no son intercambiables ni tráfico garantizado.
+
+## Diagnóstico
+
+- **Selección:** la mayoría de las 20 intenciones es válida. Para un dominio nuevo priorizar las consultas precisas y útiles de KD 5–12; KD 14–20 pueden trabajarse con mejor contenido y enlaces, sin asumir que el cociente volumen/KD predice posiciones.
+- **Titles y H1:** son únicos y generalmente alineados. Los cambios principales son hacer que el H1 incluya la consulta exacta en auto, acoples, filtros y 24 litros, y retirar promesas de «comparativa» o «modelos» donde faltan datos contrastados.
+- **H2 y enfoque:** casi todos tienen estructura lógica, pero abundan H2 genéricos de «Opciones/Precios en Mercado Libre» que no comparan ni muestran precios. Sustituirlos por criterios, modelos comprobados y una tabla útil; el enlace de afiliado puede quedar al final.
+- **Confianza:** se hacen afirmaciones exactas de dB, caudal FAD, tiempos de inflado, especificaciones eléctricas, repuestos y garantías sin fuentes o pruebas identificables. No publicarlas como hechos hasta validarlas con manuales/fichas del SKU o mediciones propias. Ejemplos: Lusqtoff 50 L, Gamma 50 L, Lusqtoff 100 L, BTA 25 L, Stanley y 50 L genérico.
+- **Enlaces internos:** solo se hallaron 2 enlaces Markdown a otras URLs de compresores entre los 20 archivos. Conectar las páginas de capacidad con marcas y usos, los accesorios con las guías de equipo, y las dos páginas de aerografía entre sí.
+- **Estado técnico:** las URLs son campos de frontmatter de borradores locales. No inferir indexación, canonicals, rendimiento ni títulos realmente renderizados sin comprobar la web publicada.
+
+## Revisión URL por URL
+
+**Mantener** significa que title, H1 y enfoque actuales son adecuados. Los H2 citados son los que requieren cambio o incorporación; no implica eliminar los demás.
+
+| URL | Demanda Semrush | Dictamen y edición concreta |
+|---|---|---|
+| `/compresores/para-auto/` | 4.400 / KD 20 | **Ajustar.** Title: «Compresor de aire para auto: 12 V o a batería, cuál elegir». H1: «Compresor de aire para auto: cuál elegir». H2: «Toma de 12 V, pinzas o batería: cuál conviene» y «Qué caudal necesita un auto o una camioneta». Mantener foco en inflado de cubiertas; enlazar a inalámbricos. Evitar tiempos de inflado universales no medidos. |
+| `/compresores/50-litros/` | 1.000 / KD 15 | **Ajustar.** Title: «Compresor de 50 litros: usos, caudal y cuál elegir». H1: «Compresor de 50 litros: cuál conviene según el uso». El H2 «Comparativa de marcas» debe convertirse en tabla de modelos con fuente, caudal a presión, precio/fecha y límite de uso; si no, llamarlo «Qué mirar en cada marca». Revisar la afirmación de que 50 L permite HVLP: manda el caudal efectivo de cada máquina. |
+| `/compresores/manguera/` | 590 / KD 9 | **Mantener.** Title y H1 responden a la intención. Añadir H2 «Qué diámetro elegir según el caudal de la herramienta» con ejemplos de conexión; enlazar acoples. |
+| `/compresores/kits-aerografo/` | 390 / KD 7 | **Mantener.** La página trata de kits completos, distinto de comprar solo compresor. Añadir H2 «Kit completo o compresor por separado» y enlace a `/para-aerografo/`; no mezclar equipos USB para uñas con kits para modelismo sin explicar límites. |
+| `/compresores/pistola-para-pintar/` | 590 / KD 11 | **Mantener con ajuste.** Title y H1 bien. El H2 más valioso es «Qué pistola admite tu compresor según caudal efectivo»; reforzarlo con una tabla de consumos basada en fichas de pistolas concretas. Esta URL vende/elige la pistola, no el compresor para pintar. |
+| `/compresores/acoples-rapidos/` | 260 / KD 5 | **Ajustar H1.** «Acople rápido para compresor: perfiles, roscas y medidas». H2 «Cómo identificar el perfil de tu acople» antes de proponer piezas. Enlazar manguera y kit. |
+| `/compresores/para-aerografo/` | 260 / KD 5 | **Mantener.** Foco en compresor suelto para alguien que ya tiene aerógrafo. Añadir H2 «Con tanque o sin tanque: qué cambia en sesiones largas» y enlazar kits. La mención «silencioso» (20 / KD 5) cabe como subsección, no pide URL aparte. |
+| `/compresores/aceite/` | 590 / KD 12 | **Mantener.** Title, H1 y secciones responden a «qué aceite lleva». Elevar al comienzo la regla de consultar el manual del modelo; no presentar ISO/SAE, cantidad o intervalos como universales. |
+| `/compresores/lusqtoff-50-litros/` | 590 / KD 16 | **Ajustar.** Title: «Compresor Lusqtoff 50 litros: modelos, usos y diferencias». Mantener H1 con término principal. El H2 «Diferencias entre modelos» solo debe incluir SKU y especificaciones confirmadas; quitar dB, tiempos y construcción no verificadas. Enlazar a 50 L genérico. |
+| `/compresores/filtros/` | 210 / KD 6 | **Ajustar foco.** Title: «Filtro de aire para compresor: admisión, medidas y repuestos». H1: «Filtro de aire para compresor: cómo elegir el repuesto». El buscador puede querer filtro de admisión; resolverlo primero. Mantener filtro de línea/trampa de agua como H2 secundario y distinguir ambas piezas. |
+| `/compresores/100-litros/` | 590 / KD 19 | **Ajustar.** Title: «Compresor de 100 litros: caudal, usos y modelos». H1 actual bien. Cambiar «Comparativa de modelos» por tabla con SKU y datos contrastados o «Modelos y qué comprobar antes de elegir». Enlazar Lusqtoff 100 L y 50 L. |
+| `/compresores/gamma-50-litros/` | 210 / KD 9 | **Ajustar.** Title: «Compresor Gamma 50 litros: ficha técnica, usos y límites». H1 actual bien. «Modelos y diferencias de equipamiento» necesita modelos Gamma identificados; la tabla actual compara tipos de compresor. Verificar SKU, repuestos y tolerancia eléctrica antes de afirmar ventajas frente a Lusqtoff. |
+| `/compresores/kits-accesorios/` | 210 / KD 9 | **Mantener.** Kit de accesorios es intención independiente del kit de aerografía. H2 «Qué trae un kit para inflar, soplar o pintar» puede sustituir el genérico «Qué incluye cada tipo de kit». Enlazar pistola, manguera y acoples. |
+| `/compresores/lusqtoff-100-litros/` | 170 / KD 8 | **Ajustar.** Title: «Compresor Lusqtoff 100 litros: ficha, caudal y usos». H1 actual bien. «Modelos y fichas técnicas» promete más de lo que ofrece una ficha genérica: identificar SKU y fuente o cambiar a «Qué verificar en la ficha técnica». Revisar instrucciones de instalación eléctrica con manual y profesional. |
+| `/compresores/sin-aceite/` | 170 / KD 8 | **Mantener.** Enfoque e intención claros. Añadir H2 «Cuándo elegir uno sin aceite según uso y ruido». Comparación con lubricados aquí; no crear otro artículo «con aceite vs sin aceite» (10 / KD 26). |
+| `/compresores/200-litros/` | 170 / KD 8 | **Ajustar.** Title: «Compresor de 200 litros: caudal, instalación y usos». H1 actual bien. Cambiar «Comparativa y precios» por «Qué comparar entre equipos de 200 litros» hasta disponer de una comparación real. Verificar requisitos eléctricos y normativos. |
+| `/compresores/bta-25-litros/` | 110 / KD 6 | **Ajustar.** Title: «Compresor BTA 25 litros: ficha, usos y límites». H1 actual bien. Identificar el modelo en «Modelos y características» o usar «Qué revisar en la ficha del BTA de 25 litros». Evitar atribuir un mismo caudal o componentes a toda la marca. Enlazar guía de 24 L. |
+| `/compresores/24-litros/` | 90 / KD 5 | **Ajustar H1.** «Compresor de 24 litros: para qué sirve y cuál elegir». Conservar 25 L como comparación en un H2; el H1 actual diluye la consulta exacta. La pregunta «¿Sirve para pintar?» se responde aquí; no crear URL de 20 / KD 26. |
+| `/compresores/inalambricos/` | 210 / KD 14 | **Ajustar foco.** Title: «Compresor inalámbrico a batería: autonomía y usos». H1 actual bien. Priorizar infladores compactos a batería; compresores con tanque como tipo distinto y secundario. Diferenciar esta intención de la página para auto. No prometer número de ruedas por carga sin modelo y prueba. |
+| `/compresores/stanley/` | 260 / KD 18 | **Ajustar.** Title: «Compresor Stanley: modelos, capacidades y cuál elegir». H1 actual bien. Convertir gamas en tabla de modelos disponibles y verificados en Argentina. No afirmar garantía, dB o compatibilidad universal de repuestos sin fuente. |
+
+## ¿Crear otra página?
+
+**Sí, una prioridad clara después de mejorar los borradores:** `/compresores/para-pintar/`, enfocada en **elegir el compresor para pintar**, no la pistola. Semrush mide «compresor de aire para pintar» 140 / KD 14 y «compresor para pintar paredes» 110 / KD 10; el Planificador agrupa variantes de «compresor para pintar» en el rango 500. Estructura sugerida: caudal efectivo que exige cada pistola; pintar muebles/rejas, paredes y autos; tanque de 24/50/100 L según caudal y tiempo de trabajo; humedad/filtrado; tabla de combinaciones de modelos verificados; enlaces a pistola, 50 L, 100 L y filtros. No prometer que el tamaño de tanque por sí solo define la compatibilidad. «Para pintar paredes» puede ser H2 inicialmente; separar URL solo si la SERP y Search Console muestran una intención propia.
+
+**Posible segunda fase:** `/compresores/silenciosos/` para elegir según ruido y uso interior: «compresor de aire silencioso» 110 / KD 14. Antes validar modelos, niveles sonoros comparables y que no duplique la página sin aceite. «Sin aceite» y «silencioso» no son sinónimos.
+
+**No abrir ahora:** 24 L para pintar, con aceite vs sin aceite, mejor 50 L, silencioso para aerógrafo, mejor para auto, ni páginas marca × litros adicionales sin modelos comprobados. Estas consultas caben en H2 de las URLs actuales o tienen demanda baja/indeterminada. Marcas nuevas como Daewoo 50 L (140 / KD 12), Gamma 25 L (110 / KD 9) o Niwa 50 L (110 / KD 8) solo tendrían sentido con producto disponible, ficha fiable y experiencia original suficiente para diferenciarse.
+
+## Orden de trabajo
+
+1. Validar las cifras, los SKU y las afirmaciones técnicas precisas de las 20 páginas con fuentes de fabricante o pruebas propias. Corregir cualquier dato que no se pueda sostener.
+2. Cambiar titles/H1/H2 indicados arriba y agregar comparaciones reales cuando el encabezado las promete.
+3. Añadir enlaces internos contextuales. Priorizar 50 L ↔ marcas 50 L, 100 L ↔ Lusqtoff 100 L, 24 L ↔ BTA 25 L, auto ↔ inalámbricos, aerógrafo ↔ kits, y accesorios ↔ guías de equipo.
+4. Publicar primero las intenciones precisas de KD 5–12 con contenido comprobable; después 50 L y para auto, que tienen más demanda pero mayor competencia. Medir impresiones/consultas en Search Console antes de ampliar el clúster.
+5. Crear `/compresores/para-pintar/` cuando se pueda documentar una tabla útil de necesidades de caudal y equipos concretos.

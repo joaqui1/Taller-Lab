@@ -1,0 +1,1209 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "phase": 1,
+      "url": "/amoladoras/",
+      "title": "Cómo elegir una amoladora: tipos, medidas y marcas",
+      "h1": "Qué amoladora comprar según el trabajo y el presupuesto",
+      "keywords": [
+        "como elegir una amoladora",
+        "mejores marcas de amoladoras",
+        "mejor amoladora calidad precio",
+        "mejor amoladora profesional"
+      ],
+      "h2": [
+        "Qué es una amoladora y para qué sirve",
+        "Angular, recta o de banco: diferencias",
+        "Qué tamaño y potencia necesitás",
+        "Con cable o a batería",
+        "Marcas y opciones según presupuesto",
+        "Cómo comparar precio, garantía y accesorios"
+      ],
+      "notes": "Guía central. Concentra elección general, precios y marcas; deriva a páginas específicas sin repetir sus comparativas. CTA a las alternativas concretas que se hayan documentado."
+    },
+    {
+      "id": 2,
+      "phase": 1,
+      "url": "/amoladoras/de-banco/",
+      "title": "Amoladora de banco: cómo elegir para tu taller",
+      "h1": "Amoladoras de banco: cuál elegir para afilar y desbastar",
+      "keywords": [
+        "amoladora de banco"
+      ],
+      "h2": [
+        "Para qué sirve una amoladora de banco",
+        "Diámetro de muela, potencia y régimen de trabajo",
+        "Muela, grano y compatibilidad con el material",
+        "Modelos para uso ocasional y taller",
+        "Qué revisar antes de instalarla y comprar"
+      ],
+      "notes": "Prioridad por demanda y KD. Integrar esmeril de banco, precios y marcas; comparar máquinas de banco, sin mezclar con angulares. CTA a la máquina y muela compatibles."
+    },
+    {
+      "id": 3,
+      "phase": 1,
+      "url": "/amoladoras/disco-flap/",
+      "title": "Disco flap: para qué sirve y qué grano elegir",
+      "h1": "Disco flap: cómo elegir grano, medida y abrasivo",
+      "keywords": [
+        "disco flap"
+      ],
+      "h2": [
+        "Qué es un disco flap y cuándo se usa",
+        "Granos 40, 60, 80 y 120: cómo compararlos",
+        "Óxido de aluminio, zirconio y cerámico",
+        "Flap, desbaste o lija: qué cambia",
+        "Diámetro, montaje y RPM compatibles",
+        "Opciones para comparar en Mercado Libre"
+      ],
+      "notes": "Gran puerta informativa con salida comercial a consumibles. Mostrar tabla grano/material/acabado con respaldo del fabricante; no una página por grano."
+    },
+    {
+      "id": 4,
+      "phase": 1,
+      "url": "/amoladoras/disco-de-desbaste/",
+      "title": "Disco de desbaste: cómo elegirlo para metal",
+      "h1": "Discos de desbaste para metal: usos, medidas y elección",
+      "keywords": [
+        "disco de desbaste"
+      ],
+      "h2": [
+        "Qué diferencia al desbaste del corte",
+        "Cómo elegir según el metal",
+        "Diámetro, espesor y velocidad máxima",
+        "Disco rígido o flap para la terminación",
+        "Cómo comparar duración y costo por trabajo"
+      ],
+      "notes": "Acotar esta URL a abrasivos para metal. La copa para hormigón tiene otra página. CTA al tipo de disco compatible; pruebas de duración solo si se realizan."
+    },
+    {
+      "id": 5,
+      "phase": 1,
+      "url": "/amoladoras/discos/",
+      "title": "Discos para amoladora: tipos y cómo elegir",
+      "h1": "Tipos de discos para amoladora y para qué sirve cada uno",
+      "keywords": [
+        "disco de corte para amoladora"
+      ],
+      "h2": [
+        "Qué disco corresponde a cada trabajo",
+        "Discos de corte para metal y mampostería",
+        "Flap, desbaste, cepillo y lijado",
+        "Cómo leer medida, eje y RPM",
+        "Errores de compatibilidad que debés evitar",
+        "Guías por material y opciones de compra"
+      ],
+      "notes": "Segunda página central, dedicada a accesorios. Integrar discos de amoladora, tipos de discos y precio discos de corte. CTA contextual por tarea; evitar catálogo indiscriminado."
+    },
+    {
+      "id": 6,
+      "phase": 1,
+      "url": "/amoladoras/recta/",
+      "title": "Amoladora recta: eléctrica o neumática, cuál elegir",
+      "h1": "Amoladoras rectas: usos y diferencias entre eléctricas y neumáticas",
+      "keywords": [
+        "amoladora recta",
+        "amoladora neumatica recta"
+      ],
+      "h2": [
+        "Para qué sirve una amoladora recta",
+        "Diferencias frente a una angular y un minitorno",
+        "Eléctrica o neumática según el trabajo",
+        "Pinza, accesorio y velocidad compatibles",
+        "Qué necesita la versión neumática",
+        "Modelos y accesorios para comparar"
+      ],
+      "notes": "La neumática empieza como sección propia, sin asumir que es igual a la eléctrica. Enlazar al futuro grupo de compresores. CTA a máquina, fresas compatibles y requisitos de aire."
+    },
+    {
+      "id": 7,
+      "phase": 1,
+      "url": "/amoladoras/dewalt/",
+      "title": "Amoladoras DeWalt: modelos y cómo elegir",
+      "h1": "Qué amoladora DeWalt elegir según el uso",
+      "keywords": [
+        "amoladora dewalt",
+        "amoladora dewalt dwe4020"
+      ],
+      "h2": [
+        "Qué modelos DeWalt se comparan",
+        "Medida, potencia y protecciones por modelo",
+        "DWE4020: prestaciones y límites documentados",
+        "Cuándo elegir cable o batería",
+        "Alternativas y precios a consultar"
+      ],
+      "notes": "La demanda principal justifica una guía de marca. DWE4020 empieza como H2; no crear ficha por sus 20 búsquedas si falta análisis propio. Normalizar de walt y dewalt."
+    },
+    {
+      "id": 8,
+      "phase": 1,
+      "url": "/amoladoras/makita/",
+      "title": "Amoladoras Makita: modelos y diferencias",
+      "h1": "Qué amoladora Makita elegir: modelos y diferencias de uso",
+      "keywords": [
+        "amoladora makita",
+        "amoladora makita 9557hpg",
+        "amoladora makita ga4530"
+      ],
+      "h2": [
+        "Qué modelos Makita conviene comparar",
+        "9557HPG y GA4530: diferencias verificadas",
+        "Diámetro, ergonomía y trabajo previsto",
+        "Cuándo considerar una máquina más grande",
+        "Qué incluye cada publicación y dónde consultar precio"
+      ],
+      "notes": "Integrar modelos como subsecciones, cada uno con ficha oficial y código exacto. No adjudicar experiencias de una versión a otra. CTA separado para cada modelo."
+    },
+    {
+      "id": 9,
+      "phase": 1,
+      "url": "/amoladoras/stanley/",
+      "title": "Amoladoras Stanley: cómo elegir el modelo",
+      "h1": "Amoladoras Stanley: modelos, usos y qué revisar antes de comprar",
+      "keywords": [
+        "amoladora stanley",
+        "amoladora stanley opiniones",
+        "amoladora stanley inalambrica"
+      ],
+      "h2": [
+        "Qué modelos Stanley están disponibles",
+        "Diferencias de potencia, tamaño y protección",
+        "Modelos con cable y a batería",
+        "Ventajas y límites según la ficha técnica",
+        "Qué revisar en garantía, kit y precio"
+      ],
+      "notes": "KD 8 para el término general; opiniones tiene volumen 0 y no necesita otra URL. Comparación editorial útil para competir con tiendas. CTA a SKU verificado."
+    },
+    {
+      "id": 10,
+      "phase": 1,
+      "url": "/amoladoras/ingco/",
+      "title": "Amoladoras Ingco: diferencias y guía de compra",
+      "h1": "Amoladoras Ingco: qué comparar antes de elegir",
+      "keywords": [
+        "amoladora ingco"
+      ],
+      "h2": [
+        "Gamas y modelos que estamos comparando",
+        "Potencia, diámetro y uso previsto",
+        "Cable o batería y costo del kit",
+        "Prestaciones que cambian entre versiones",
+        "Opciones equivalentes y precios a consultar"
+      ],
+      "notes": "KD 10 con demanda intermedia. Necesita diferenciación real entre modelos y fuentes oficiales; no afirmar calidad profesional solo por publicidad. CTA por versión."
+    },
+    {
+      "id": 11,
+      "phase": 1,
+      "url": "/amoladoras/9-pulgadas/",
+      "title": "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm",
+      "h1": "Amoladoras de 9 pulgadas y 230 mm: usos y elección",
+      "keywords": [
+        "amoladora 9 pulgadas"
+      ],
+      "h2": [
+        "Cuándo hace falta una amoladora de 230 mm",
+        "Qué cambia frente a 180 y 115 mm",
+        "Peso, agarre, potencia y protecciones",
+        "Discos compatibles y límites de uso",
+        "Modelos para comparar antes de comprar"
+      ],
+      "notes": "KD 5. Una URL para 9 pulgadas y 230 mm. Amoladora grande es ambigua: el hub explica 180 y 230 mm; no adjudicar todo su volumen a esta URL."
+    },
+    {
+      "id": 12,
+      "phase": 1,
+      "url": "/amoladoras/velocidad-variable/",
+      "title": "Amoladora con velocidad variable: cuándo conviene",
+      "h1": "Amoladoras con velocidad variable: qué mirar al elegir",
+      "keywords": [
+        "amoladora velocidad variable"
+      ],
+      "h2": [
+        "Qué permite regular la velocidad",
+        "RPM mínimas y máximas frente a velocidad constante",
+        "Compatibilidad del accesorio y el material",
+        "Qué funciones comparar entre modelos",
+        "Cuándo conviene otra herramienta"
+      ],
+      "notes": "Integrar regulador de velocidad y velocidad regulable. No prometer que cualquier angular reemplaza a una pulidora. Enlazar modelos compatibles de las guías de marca."
+    },
+    {
+      "id": 13,
+      "phase": 1,
+      "url": "/amoladoras/115-o-125/",
+      "title": "Amoladora de 115 o 125 mm: diferencias y elección",
+      "h1": "Amoladora de 115 o 125 mm: cuál elegir para tu trabajo",
+      "keywords": [
+        "amoladora 115",
+        "amoladora 125",
+        "mejor amoladora 125"
+      ],
+      "h2": [
+        "Qué significa el diámetro de una amoladora",
+        "115 y 125 mm: diferencias para elegir",
+        "Peso, potencia y capacidad según el modelo",
+        "Qué discos admite realmente cada máquina",
+        "Opciones para uso ocasional y frecuente"
+      ],
+      "notes": "Agrupación editorial inicial por decisión compartida, no porque sean equivalentes. Incluir 4 1/2 en el bloque de 115. Nunca recomendar adaptar un disco mayor. Separar URLs solo con evidencia de intención distinta y contenido suficiente."
+    },
+    {
+      "id": 14,
+      "phase": 1,
+      "url": "/amoladoras/bosch/",
+      "title": "Amoladoras Bosch: modelos y diferencias para elegir",
+      "h1": "Qué amoladora Bosch elegir según el trabajo",
+      "keywords": [
+        "amoladora bosch",
+        "amoladora bosch gws 850",
+        "amoladora bosch gws 700",
+        "amoladora bosch gws 9 125 s",
+        "amoladora bosch inalambrica 18v gws 180 li brushless"
+      ],
+      "h2": [
+        "Cómo comparar las gamas Bosch",
+        "GWS 700 y GWS 850: diferencias verificadas",
+        "GWS 9-125 S y regulación de velocidad",
+        "GWS 180-LI y costo del sistema a batería",
+        "Qué modelo corresponde a cada necesidad",
+        "Dónde consultar precio y contenido del kit"
+      ],
+      "notes": "Mayor volumen medido del grupo. KD 17 no invalida trabajarla, pero la competencia comercial exige más investigación. Los códigos y versiones deben validarse en Argentina antes de redactar fichas."
+    },
+    {
+      "id": 15,
+      "phase": 1,
+      "url": "/amoladoras/inalambricas/",
+      "title": "Amoladoras inalámbricas: cómo elegir batería y modelo",
+      "h1": "Amoladoras inalámbricas: qué conviene comprar y qué incluye el kit",
+      "keywords": [
+        "amoladora inalambrica",
+        "mejor amoladora a bateria",
+        "mini amoladora inalambrica"
+      ],
+      "h2": [
+        "Cuándo conviene una amoladora a batería",
+        "Máquina sola o kit con batería y cargador",
+        "Capacidad, plataforma y autonomía documentada",
+        "Diámetro y diferencia con una mini amoladora",
+        "Qué comparar entre marcas",
+        "Costo total y opciones en Mercado Libre"
+      ],
+      "notes": "Una URL para inalámbrica, a batería y con batería. Mini es una subcategoría distinta que debe explicarse, no tratarse como sinónimo universal. CTA a kits comparables; no prometer autonomía sin pruebas."
+    },
+    {
+      "id": 16,
+      "phase": 1,
+      "url": "/amoladoras/skil/",
+      "title": "Amoladoras Skil de 700 y 830 W: qué comparar",
+      "h1": "Amoladoras Skil de 700 y 830 W: diferencias para elegir",
+      "keywords": [
+        "amoladora skil 830w",
+        "amoladora skil 700w",
+        "amoladora skil 9002 opiniones"
+      ],
+      "h2": [
+        "Identificá el código y la versión de cada amoladora",
+        "Qué cambia entre las opciones de 700 y 830 W",
+        "Medida, ergonomía y equipamiento",
+        "Skil 9002: qué se puede afirmar con evidencia",
+        "Alternativas y precios de cada versión"
+      ],
+      "notes": "830 W tiene KD 5 y 700 W KD 16. Son dos productos a comparar, no el mismo modelo. No dar por hecho el código solo por los watts ni trasladar opiniones entre ellos."
+    },
+    {
+      "id": 17,
+      "phase": 1,
+      "url": "/amoladoras/discos-ceramica/",
+      "title": "Disco para cortar cerámica: cómo elegirlo",
+      "h1": "Qué disco elegir para cortar cerámica con amoladora",
+      "keywords": [
+        "disco para cortar ceramica",
+        "mejor disco para cortar ceramica"
+      ],
+      "h2": [
+        "Cerámica y porcelanato: por qué distinguirlos",
+        "Borde, espesor y material admitido",
+        "Diámetro, eje y compatibilidad con la máquina",
+        "Qué revisar para reducir roturas del acabado",
+        "Discos para comparar y cuándo usar otra cortadora"
+      ],
+      "notes": "Volumen 590 y KD 16. La variante mejor tiene KD 14 y volumen n/d, no 590. La página de porcelanato profundiza ese material sin duplicar esta guía."
+    },
+    {
+      "id": 18,
+      "phase": 1,
+      "url": "/amoladoras/uso-seguro/",
+      "title": "Cómo usar una amoladora: controles y uso seguro",
+      "h1": "Cómo usar una amoladora: qué revisar antes de trabajar",
+      "keywords": [],
+      "h2": [
+        "Identificá la máquina, el accesorio y el trabajo",
+        "Qué comprobar en el manual antes de empezar",
+        "Protección personal y sujeción de la pieza",
+        "Operaciones que requieren otra herramienta",
+        "Señales para detener el trabajo y revisar el equipo",
+        "Guías de discos y accesorios compatibles"
+      ],
+      "notes": "Página editorial de apoyo sin KD medido: atender consultas de uso presentes en la base y respaldar las recomendaciones. Revisión técnica obligatoria antes de publicar instrucciones. CTA secundario a protección y accesorios compatibles."
+    },
+    {
+      "id": 19,
+      "phase": 2,
+      "url": "/amoladoras/7-pulgadas/",
+      "title": "Amoladora de 7 pulgadas: cómo elegir una de 180 mm",
+      "h1": "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas",
+      "keywords": [
+        "amoladora 7 pulgadas"
+      ],
+      "h2": [
+        "Para qué trabajos considerar 180 mm",
+        "Qué cambia frente a 115 y 230 mm",
+        "Peso, potencia y prestaciones por modelo",
+        "Discos y accesorios admitidos",
+        "Qué comparar antes de comprar"
+      ],
+      "notes": "260 búsquedas, KD 12. Separar de 230 porque son elecciones y catálogos distintos; no repetir la introducción completa del hub. Comparativa transversal breve con enlaces."
+    },
+    {
+      "id": 20,
+      "phase": 2,
+      "url": "/amoladoras/einhell/",
+      "title": "Amoladoras Einhell a batería: modelos y kits",
+      "h1": "Amoladoras Einhell inalámbricas: qué comparar entre modelos y kits",
+      "keywords": [
+        "amoladora inalambrica einhell",
+        "amoladora einhell axxio",
+        "amoladora einhell opiniones"
+      ],
+      "h2": [
+        "Qué modelos y versiones se comparan",
+        "AXXIO: prestaciones según versión",
+        "Compatibilidad de batería y cargador",
+        "Máquina sola frente a kit completo",
+        "Ventajas, límites y alternativas"
+      ],
+      "notes": "Priorizar inalámbrica, 140/KD 8. Opiniones genéricas 30/KD 27 se tratan con alcance explícito: la guía no evalúa todas las Einhell con cable. CTA a la versión y kit exactos."
+    },
+    {
+      "id": 21,
+      "phase": 2,
+      "url": "/amoladoras/lusqtoff/",
+      "title": "Amoladoras Lusqtoff: modelos y qué revisar",
+      "h1": "Amoladoras Lusqtoff: cómo comparar modelos con cable y batería",
+      "keywords": [
+        "amoladora lusqtoff",
+        "amoladora lusqtoff 850w opiniones",
+        "amoladora lusqtoff a bateria"
+      ],
+      "h2": [
+        "Qué modelos Lusqtoff se comparan",
+        "Opciones de 850 W: identificá el código",
+        "Versiones a batería y contenido del kit",
+        "Garantía, repuestos y limitaciones documentadas",
+        "Alternativas y precios a consultar"
+      ],
+      "notes": "Término general 1.000/KD 18; 850w opiniones tiene KD 32 y volumen desconocido. No crear esa ficha al inicio ni asignarle el KD 18 de la marca."
+    },
+    {
+      "id": 22,
+      "phase": 2,
+      "url": "/amoladoras/black-decker/",
+      "title": "Amoladoras Black+Decker: G720 y otras opciones",
+      "h1": "Amoladoras Black+Decker: qué revisar en la G720 y otras versiones",
+      "keywords": [
+        "amoladora black decker g720",
+        "amoladora g720 black decker opiniones"
+      ],
+      "h2": [
+        "G720: código, versión y ficha técnica",
+        "Para qué uso está indicada según fabricante",
+        "Diferencias frente a otras Black+Decker",
+        "Qué sabemos y qué no sobre su desempeño",
+        "Qué revisar en precio, garantía y accesorios"
+      ],
+      "notes": "La métrica 260/KD 21 corresponde a G720, no a toda la marca. Orientar el contenido inicial a ella; integrar variaciones black decker, black and decker y black & decker. No equiparar automáticamente 820 W y G720."
+    },
+    {
+      "id": 23,
+      "phase": 2,
+      "url": "/amoladoras/daewoo/",
+      "title": "Amoladoras Daewoo: modelos y guía de elección",
+      "h1": "Amoladoras Daewoo: prestaciones y diferencias para elegir",
+      "keywords": [
+        "amoladora daewoo",
+        "amoladora daewoo 750w opiniones"
+      ],
+      "h2": [
+        "Identificación del modelo y su versión",
+        "Qué revisar en opciones de 750 W",
+        "Diámetro, protección y uso previsto",
+        "Ventajas y límites documentados",
+        "Alternativas y compra del modelo correcto"
+      ],
+      "notes": "260/KD 21 para la marca. La versión de 750 W empieza como apartado y se valida por código. CTA a máquina exacta y accesorios compatibles."
+    },
+    {
+      "id": 24,
+      "phase": 2,
+      "url": "/amoladoras/cepillo-de-alambre/",
+      "title": "Cepillo de alambre para amoladora: cuál elegir",
+      "h1": "Discos y cepillos de alambre para amoladora: tipos y usos",
+      "keywords": [
+        "disco de alambre para amoladora"
+      ],
+      "h2": [
+        "Cepillo de copa o circular: qué cambia",
+        "Alambre ondulado o trenzado según aplicación",
+        "Material de la pieza y del alambre",
+        "Montaje, diámetro y velocidad máxima",
+        "Opciones para comparar por tarea"
+      ],
+      "notes": "Agrupar cepillo acero, copa y alambre, diferenciando los tipos. No mezclar cepillos de banco. CTA con rosca/montaje verificados."
+    },
+    {
+      "id": 25,
+      "phase": 2,
+      "url": "/amoladoras/desbaste-hormigon/",
+      "title": "Disco de desbaste para hormigón: cómo elegir",
+      "h1": "Copas y discos para desbastar hormigón: compatibilidad y elección",
+      "keywords": [
+        "disco desbaste hormigon"
+      ],
+      "h2": [
+        "Qué accesorio corresponde al desbaste de hormigón",
+        "Copa diamantada y geometría según fabricante",
+        "Máquina, montaje y velocidad compatibles",
+        "Control del polvo y requisitos del equipo",
+        "Cómo comparar opciones y costo total"
+      ],
+      "notes": "170/KD 15. Integra concreto, cemento y copa diamantada solo cuando corresponde al mismo trabajo. Diferenciar pulido fino y máquinas de piso. CTA al sistema compatible completo."
+    },
+    {
+      "id": 26,
+      "phase": 2,
+      "url": "/amoladoras/discos-diamantados/",
+      "title": "Disco diamantado: segmentado, turbo o continuo",
+      "h1": "Discos diamantados: diferencias entre segmentado, turbo y continuo",
+      "keywords": [
+        "disco diamantado segmentado"
+      ],
+      "h2": [
+        "Qué es un disco diamantado",
+        "Segmentado, turbo y continuo: diferencias",
+        "Qué materiales admite cada referencia",
+        "Corte seco o húmedo según equipo y disco",
+        "Cómo elegir medida, eje y RPM",
+        "Guías específicas por material"
+      ],
+      "notes": "110/KD 5 corresponde a segmentado. No asignar el KD a diamantados genérico, que tiene 50.000 en la base sin validación. CTA por material, sin repetir las guías de cerámica y porcelanato."
+    },
+    {
+      "id": 27,
+      "phase": 2,
+      "url": "/amoladoras/discos-ladrillo/",
+      "title": "Disco para cortar ladrillo: cómo elegirlo",
+      "h1": "Qué disco elegir para cortar ladrillo con una máquina compatible",
+      "keywords": [
+        "disco para cortar ladrillo"
+      ],
+      "h2": [
+        "Identificá el tipo de ladrillo y el corte requerido",
+        "Qué discos admite el material según fabricante",
+        "Diámetro y capacidad de la máquina",
+        "Polvo, sujeción y condiciones de trabajo",
+        "Opciones de disco y cuándo usar otra cortadora"
+      ],
+      "notes": "170/KD 11. Intención por material suficientemente diferenciada; integrar ladrillo refractario solo con compatibilidad documentada. CTA a disco o cortadora apropiada."
+    },
+    {
+      "id": 28,
+      "phase": 2,
+      "url": "/amoladoras/discos-metal/",
+      "title": "Discos de corte para metal, chapa e inoxidable",
+      "h1": "Cómo elegir discos para cortar metal, chapa y acero inoxidable",
+      "keywords": [
+        "disco para cortar chapa",
+        "disco para amoladora para cortar acero inoxidable",
+        "mejores discos de corte para metal"
+      ],
+      "h2": [
+        "Qué metal y espesor necesitás cortar",
+        "Disco para chapa: qué características comparar",
+        "Qué exige el corte de acero inoxidable",
+        "Medida, espesor, eje y RPM",
+        "Cómo comparar discos y costo por corte"
+      ],
+      "notes": "Una guía inicial con secciones de chapa e inoxidable; volúmenes medidos 90 y 20. No separar microconsultas antes de demostrar demanda y diferencias editoriales. CTA por material."
+    },
+    {
+      "id": 29,
+      "phase": 2,
+      "url": "/amoladoras/discos-porcelanato/",
+      "title": "Disco para cortar porcelanato: cómo elegir",
+      "h1": "Qué disco elegir para cortar porcelanato y cuidar el acabado",
+      "keywords": [
+        "disco para cortar porcelanato",
+        "mejor disco para cortar porcelanato"
+      ],
+      "h2": [
+        "Por qué el porcelanato necesita una elección específica",
+        "Borde y espesor del disco según fabricante",
+        "Amoladora o cortadora dedicada",
+        "Factores que afectan el astillado",
+        "Discos para comparar y límites de cada opción"
+      ],
+      "notes": "590/KD 31 general; mejor tiene KD 19 pero n/d volumen. Publicar después de cerámica con ejemplos y evidencia propia; no vender como oportunidad KD 19 con volumen 590."
+    },
+    {
+      "id": 30,
+      "phase": 2,
+      "url": "/amoladoras/madera/",
+      "title": "Amoladora para madera: usos, límites y alternativas",
+      "h1": "Amoladora y madera: qué usos admite el equipo y qué alternativas hay",
+      "keywords": [],
+      "h2": [
+        "Cortar, lijar y desbastar son trabajos distintos",
+        "Qué usos autoriza el manual de la máquina",
+        "Por qué no alcanza con que el disco encaje",
+        "Cuándo elegir una sierra o una lijadora",
+        "Cómo comprar una herramienta adecuada al trabajo"
+      ],
+      "notes": "Demanda presente en la base, sin KD de estas consultas. Página de decisión y seguridad, no recomendación indiscriminada de discos dentados. CTA hacia herramientas apropiadas de los otros grupos. Requiere revisión técnica y medición antes de priorizar."
+    }
+  ],
+  "measured": [
+    {
+      "keyword": "amoladora de banco",
+      "intent": "C",
+      "volume": "3600",
+      "kd": "13",
+      "cpc": "0.05",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 2,
+      "decision": "/amoladoras/de-banco/"
+    },
+    {
+      "keyword": "disco flap",
+      "intent": "I, C",
+      "volume": "2900",
+      "kd": "9",
+      "cpc": "0.08",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 3,
+      "decision": "/amoladoras/disco-flap/"
+    },
+    {
+      "keyword": "disco de desbaste",
+      "intent": "I",
+      "volume": "1600",
+      "kd": "12",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 4,
+      "decision": "/amoladoras/disco-de-desbaste/"
+    },
+    {
+      "keyword": "amoladora recta",
+      "intent": "I, T",
+      "volume": "1000",
+      "kd": "12",
+      "cpc": "0.07",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 6,
+      "decision": "/amoladoras/recta/"
+    },
+    {
+      "keyword": "amoladora 7 pulgadas",
+      "intent": "C",
+      "volume": "260",
+      "kd": "12",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 19,
+      "decision": "/amoladoras/7-pulgadas/"
+    },
+    {
+      "keyword": "amoladora 9 pulgadas",
+      "intent": "I, C",
+      "volume": "260",
+      "kd": "5",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 11,
+      "decision": "/amoladoras/9-pulgadas/"
+    },
+    {
+      "keyword": "amoladora 115",
+      "intent": "I",
+      "volume": "210",
+      "kd": "14",
+      "cpc": "0.07",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 13,
+      "decision": "/amoladoras/115-o-125/"
+    },
+    {
+      "keyword": "disco para cortar ladrillo",
+      "intent": "I",
+      "volume": "170",
+      "kd": "11",
+      "cpc": "0.03",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 27,
+      "decision": "/amoladoras/discos-ladrillo/"
+    },
+    {
+      "keyword": "amoladora velocidad variable",
+      "intent": "C",
+      "volume": "140",
+      "kd": "9",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 12,
+      "decision": "/amoladoras/velocidad-variable/"
+    },
+    {
+      "keyword": "amoladora bosch gws 850",
+      "intent": "I, T",
+      "volume": "110",
+      "kd": "14",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 14,
+      "decision": "/amoladoras/bosch/"
+    },
+    {
+      "keyword": "disco para cortar chapa",
+      "intent": "I, C",
+      "volume": "90",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 28,
+      "decision": "/amoladoras/discos-metal/"
+    },
+    {
+      "keyword": "amoladora 125",
+      "intent": "C",
+      "volume": "30",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 13,
+      "decision": "/amoladoras/115-o-125/"
+    },
+    {
+      "keyword": "amoladora einhell opiniones",
+      "intent": "I",
+      "volume": "30",
+      "kd": "27",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 20,
+      "decision": "/amoladoras/einhell/"
+    },
+    {
+      "keyword": "amoladora dewalt dwe4020",
+      "intent": "I",
+      "volume": "20",
+      "kd": "8",
+      "cpc": "0.04",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 7,
+      "decision": "/amoladoras/dewalt/"
+    },
+    {
+      "keyword": "amoladora gamma opiniones",
+      "intent": "I, T",
+      "volume": "20",
+      "kd": "14",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": null,
+      "decision": "No crear URL todavía: 20 búsquedas. Considerar sección en la guía central solo con evidencia de producto."
+    },
+    {
+      "keyword": "amoladora makita 9557hpg",
+      "intent": "I, C",
+      "volume": "20",
+      "kd": "8",
+      "cpc": "0.06",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 8,
+      "decision": "/amoladoras/makita/"
+    },
+    {
+      "keyword": "amoladora makita ga4530",
+      "intent": "C",
+      "volume": "20",
+      "kd": "9",
+      "cpc": "0.03",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 8,
+      "decision": "/amoladoras/makita/"
+    },
+    {
+      "keyword": "amoladora skil 9002 opiniones",
+      "intent": "I, T",
+      "volume": "20",
+      "kd": "16",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 16,
+      "decision": "/amoladoras/skil/"
+    },
+    {
+      "keyword": "como elegir una amoladora",
+      "intent": "I",
+      "volume": "20",
+      "kd": "10",
+      "cpc": "0.02",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 1,
+      "decision": "/amoladoras/"
+    },
+    {
+      "keyword": "disco para amoladora para cortar acero inoxidable",
+      "intent": "C",
+      "volume": "20",
+      "kd": "9",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 28,
+      "decision": "/amoladoras/discos-metal/"
+    },
+    {
+      "keyword": "mejores marcas de amoladoras",
+      "intent": "I, C",
+      "volume": "20",
+      "kd": "11",
+      "cpc": "0.07",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 1,
+      "decision": "/amoladoras/"
+    },
+    {
+      "keyword": "amoladora stanley inalambrica",
+      "intent": "I",
+      "volume": "10",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 9,
+      "decision": "/amoladoras/stanley/"
+    },
+    {
+      "keyword": "amoladora stanley opiniones",
+      "intent": "I, C",
+      "volume": "0",
+      "kd": "12",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 9,
+      "decision": "/amoladoras/stanley/"
+    },
+    {
+      "keyword": "amoladora bosch gws 700",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "25",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 14,
+      "decision": "/amoladoras/bosch/"
+    },
+    {
+      "keyword": "amoladora bosch gws 9 125 s",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "19",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 14,
+      "decision": "/amoladoras/bosch/"
+    },
+    {
+      "keyword": "amoladora bosch inalambrica 18v gws 180 li brushless",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 14,
+      "decision": "/amoladoras/bosch/"
+    },
+    {
+      "keyword": "amoladora daewoo 750w opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "22",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 23,
+      "decision": "/amoladoras/daewoo/"
+    },
+    {
+      "keyword": "amoladora einhell axxio",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 20,
+      "decision": "/amoladoras/einhell/"
+    },
+    {
+      "keyword": "amoladora g720 black decker opiniones",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "31",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 22,
+      "decision": "/amoladoras/black-decker/"
+    },
+    {
+      "keyword": "amoladora lusqtoff 850w opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "32",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 21,
+      "decision": "/amoladoras/lusqtoff/"
+    },
+    {
+      "keyword": "amoladora lusqtoff a bateria",
+      "intent": "I, T",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 21,
+      "decision": "/amoladoras/lusqtoff/"
+    },
+    {
+      "keyword": "amoladora total opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "33",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": null,
+      "decision": "No crear URL todavía: KD 33 y volumen n/d. Medir primero la marca y sus modelos."
+    },
+    {
+      "keyword": "mejor amoladora 125",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "15",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 13,
+      "decision": "/amoladoras/115-o-125/"
+    },
+    {
+      "keyword": "mejor amoladora a bateria",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "27",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 15,
+      "decision": "/amoladoras/inalambricas/"
+    },
+    {
+      "keyword": "mejor amoladora calidad precio",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 1,
+      "decision": "/amoladoras/"
+    },
+    {
+      "keyword": "mejor amoladora profesional",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "15",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 1,
+      "decision": "/amoladoras/"
+    },
+    {
+      "keyword": "mejor disco para cortar ceramica",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 17,
+      "decision": "/amoladoras/discos-ceramica/"
+    },
+    {
+      "keyword": "mejor disco para cortar porcelanato",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "19",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 29,
+      "decision": "/amoladoras/discos-porcelanato/"
+    },
+    {
+      "keyword": "mejores discos de corte para metal",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "16",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 28,
+      "decision": "/amoladoras/discos-metal/"
+    },
+    {
+      "keyword": "mini amoladora inalambrica",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv",
+      "page_id": 15,
+      "decision": "/amoladoras/inalambricas/"
+    },
+    {
+      "keyword": "amoladora bosch",
+      "intent": "I, C",
+      "volume": "4400",
+      "kd": "17",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 14,
+      "decision": "/amoladoras/bosch/"
+    },
+    {
+      "keyword": "amoladora dewalt",
+      "intent": "C",
+      "volume": "2400",
+      "kd": "12",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 7,
+      "decision": "/amoladoras/dewalt/"
+    },
+    {
+      "keyword": "amoladora inalambrica",
+      "intent": "C",
+      "volume": "2400",
+      "kd": "16",
+      "cpc": "0,08",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 15,
+      "decision": "/amoladoras/inalambricas/"
+    },
+    {
+      "keyword": "disco de corte para amoladora",
+      "intent": "I",
+      "volume": "2400",
+      "kd": "12",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 5,
+      "decision": "/amoladoras/discos/"
+    },
+    {
+      "keyword": "amoladora lusqtoff",
+      "intent": "C",
+      "volume": "1000",
+      "kd": "18",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 21,
+      "decision": "/amoladoras/lusqtoff/"
+    },
+    {
+      "keyword": "disco para cortar ceramica",
+      "intent": "I",
+      "volume": "590",
+      "kd": "16",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 17,
+      "decision": "/amoladoras/discos-ceramica/"
+    },
+    {
+      "keyword": "disco para cortar porcelanato",
+      "intent": "I",
+      "volume": "590",
+      "kd": "31",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 29,
+      "decision": "/amoladoras/discos-porcelanato/"
+    },
+    {
+      "keyword": "amoladora stanley",
+      "intent": "I, C",
+      "volume": "390",
+      "kd": "8",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 9,
+      "decision": "/amoladoras/stanley/"
+    },
+    {
+      "keyword": "amoladora black decker g720",
+      "intent": "T, N",
+      "volume": "260",
+      "kd": "21",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 22,
+      "decision": "/amoladoras/black-decker/"
+    },
+    {
+      "keyword": "amoladora ingco",
+      "intent": "C",
+      "volume": "260",
+      "kd": "10",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 10,
+      "decision": "/amoladoras/ingco/"
+    },
+    {
+      "keyword": "disco de alambre para amoladora",
+      "intent": "I",
+      "volume": "260",
+      "kd": "19",
+      "cpc": "0,02",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 24,
+      "decision": "/amoladoras/cepillo-de-alambre/"
+    },
+    {
+      "keyword": "amoladora skil 830w",
+      "intent": "I, T",
+      "volume": "210",
+      "kd": "5",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 16,
+      "decision": "/amoladoras/skil/"
+    },
+    {
+      "keyword": "amoladora inalambrica einhell",
+      "intent": "I, T",
+      "volume": "140",
+      "kd": "8",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 20,
+      "decision": "/amoladoras/einhell/"
+    },
+    {
+      "keyword": "amoladora makita",
+      "intent": "C",
+      "volume": "1600",
+      "kd": "13",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 8,
+      "decision": "/amoladoras/makita/"
+    },
+    {
+      "keyword": "amoladora daewoo",
+      "intent": "I, T",
+      "volume": "260",
+      "kd": "21",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 23,
+      "decision": "/amoladoras/daewoo/"
+    },
+    {
+      "keyword": "amoladora skil 700w",
+      "intent": "I",
+      "volume": "260",
+      "kd": "16",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 16,
+      "decision": "/amoladoras/skil/"
+    },
+    {
+      "keyword": "disco desbaste hormigon",
+      "intent": "I, C",
+      "volume": "170",
+      "kd": "15",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 25,
+      "decision": "/amoladoras/desbaste-hormigon/"
+    },
+    {
+      "keyword": "amoladora neumatica recta",
+      "intent": "I",
+      "volume": "110",
+      "kd": "8",
+      "cpc": "0,07",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 6,
+      "decision": "/amoladoras/recta/"
+    },
+    {
+      "keyword": "disco diamantado segmentado",
+      "intent": "I, C",
+      "volume": "110",
+      "kd": "5",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv",
+      "page_id": 26,
+      "decision": "/amoladoras/discos-diamantados/"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "summary": {
+    "total_selected": 20,
+    "source": "Semrush (soldadoras, consumibles y accesorios)",
+    "criteria": "Prioridades de demanda y oportunidad Semrush",
+    "market": "Argentina",
+    "date": "2026-09-23"
+  },
+  "pages": [
+    {
+      "id": 1,
+      "keyword": "electrodo 7018",
+      "volume": 720,
+      "kd": 7,
+      "ratio": 102.86,
+      "slug": "electrodo-7018",
+      "url": "/soldadoras/electrodo-7018/",
+      "filename": "01-electrodo-7018.md",
+      "title": "Electrodo 7018: usos, amperaje y cuál comprar",
+      "h1": "Electrodo 7018: cómo elegirlo según el trabajo",
+      "h2": [
+        "Para qué sirve el 7018",
+        "Diámetros y amperaje según fabricante",
+        "Conservación y compatibilidad",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 2,
+      "keyword": "soldadora lusqtoff",
+      "volume": 1900,
+      "kd": 19,
+      "ratio": 100.0,
+      "slug": "lusqtoff",
+      "url": "/soldadoras/lusqtoff/",
+      "filename": "02-soldadora-lusqtoff.md",
+      "title": "Soldadoras Lusqtoff: modelos y cuál conviene comprar",
+      "h1": "Qué soldadora Lusqtoff elegir para casa o taller",
+      "h2": [
+        "Diferencias entre líneas y procesos",
+        "Comparativa de modelos",
+        "Cuál elegir según el trabajo",
+        "Opciones de compra y kits"
+      ]
+    },
+    {
+      "id": 3,
+      "keyword": "soldadora de punto",
+      "volume": 880,
+      "kd": 9,
+      "ratio": 97.78,
+      "slug": "soldadora-de-punto",
+      "url": "/soldadoras/soldadora-de-punto/",
+      "filename": "03-soldadora-de-punto.md",
+      "title": "Soldadora de punto: tipos, usos y cuál elegir",
+      "h1": "Soldadora de punto: cuál elegir para baterías o chapa",
+      "h2": [
+        "Equipos para baterías y para chapa",
+        "Capacidad y materiales compatibles",
+        "Portátil o de banco",
+        "Modelos y qué comparar"
+      ]
+    },
+    {
+      "id": 4,
+      "keyword": "soldadora mig con gas",
+      "volume": 1000,
+      "kd": 11,
+      "ratio": 90.91,
+      "slug": "soldadora-mig-con-gas",
+      "url": "/soldadoras/soldadora-mig-con-gas/",
+      "filename": "04-soldadora-mig-con-gas.md",
+      "title": "Soldadora MIG con gas: guía para elegir y comprar",
+      "h1": "Qué soldadora MIG con gas comprar",
+      "h2": [
+        "Cuándo conviene MIG con gas",
+        "Potencia y ciclo de trabajo",
+        "Gas, alambre y accesorios necesarios",
+        "Comparativa y costo del equipo completo"
+      ]
+    },
+    {
+      "id": 5,
+      "keyword": "guantes para soldar",
+      "volume": 590,
+      "kd": 7,
+      "ratio": 84.29,
+      "slug": "guantes",
+      "url": "/soldadoras/guantes/",
+      "filename": "05-guantes-para-soldar.md",
+      "title": "Guantes para soldar: cuáles elegir para MIG y TIG",
+      "h1": "Cómo elegir guantes para soldar según el proceso",
+      "h2": [
+        "Guantes para electrodo, MIG y TIG",
+        "Materiales y protección",
+        "Talle, comodidad y destreza",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 6,
+      "keyword": "soldadora tig",
+      "volume": 1300,
+      "kd": 19,
+      "ratio": 68.42,
+      "slug": "tig",
+      "url": "/soldadoras/tig/",
+      "filename": "06-soldadora-tig.md",
+      "title": "Soldadora TIG: qué es y qué equipo conviene comprar",
+      "h1": "Soldadoras TIG: guía para elegir tu equipo",
+      "h2": [
+        "Qué es TIG y para qué sirve",
+        "Diferencias entre DC y AC/DC",
+        "Encendido y funciones importantes",
+        "Equipos según uso y presupuesto"
+      ]
+    },
+    {
+      "id": 7,
+      "keyword": "soldadora mig sin gas",
+      "volume": 1600,
+      "kd": 25,
+      "ratio": 64.0,
+      "slug": "mig-sin-gas",
+      "url": "/soldadoras/mig-sin-gas/",
+      "filename": "07-soldadora-mig-sin-gas.md",
+      "title": "Soldadora MIG sin gas: comparativa y guía de compra",
+      "h1": "Qué soldadora MIG sin gas conviene comprar",
+      "h2": [
+        "Cómo funciona el alambre autoprotegido",
+        "Ventajas y limitaciones",
+        "Qué revisar antes de comprar",
+        "Comparativa de equipos y kits"
+      ]
+    },
+    {
+      "id": 8,
+      "keyword": "alambre para soldadura mig",
+      "volume": 320,
+      "kd": 5,
+      "ratio": 64.0,
+      "slug": "alambre-para-soldadura-mig",
+      "url": "/soldadoras/alambre-para-soldadura-mig/",
+      "filename": "08-alambre-para-soldadura-mig.md",
+      "title": "Alambre para soldadura MIG: tipos y cómo elegir",
+      "h1": "Alambre para soldadura MIG: tipos, diámetros y compatibilidad",
+      "h2": [
+        "Alambre según el material",
+        "Diámetros y compatibilidad",
+        "Gas y tamaño de bobina",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 9,
+      "keyword": "mascara de soldar fotosensible",
+      "volume": 880,
+      "kd": 14,
+      "ratio": 62.86,
+      "slug": "mascaras-fotosensibles",
+      "url": "/soldadoras/mascaras-fotosensibles/",
+      "filename": "09-mascara-de-soldar-fotosensible.md",
+      "title": "Máscara de soldar fotosensible: cómo elegir la mejor",
+      "h1": "Cómo elegir una máscara de soldar fotosensible",
+      "h2": [
+        "Oscurecimiento y compatibilidad con el proceso",
+        "Sensores, regulación y campo de visión",
+        "Comodidad y alimentación",
+        "Modelos y qué comparar"
+      ]
+    },
+    {
+      "id": 10,
+      "keyword": "electrodo 6013",
+      "volume": 880,
+      "kd": 14,
+      "ratio": 62.86,
+      "slug": "electrodo-6013",
+      "url": "/soldadoras/electrodo-6013/",
+      "filename": "10-electrodo-6013.md",
+      "title": "Electrodo 6013: para qué sirve y cuál comprar",
+      "h1": "Electrodo 6013: usos, medidas y qué elegir",
+      "h2": [
+        "Para qué trabajos sirve",
+        "Diámetro y amperaje según fabricante",
+        "Conservación y compatibilidad",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 11,
+      "keyword": "soldadora inverter 200 amp",
+      "volume": 720,
+      "kd": 12,
+      "ratio": 60.0,
+      "slug": "soldadora-inverter-200-amp",
+      "url": "/soldadoras/soldadora-inverter-200-amp/",
+      "filename": "11-soldadora-inverter-200-amp.md",
+      "title": "Soldadora inverter 200 A: modelos y cómo elegir",
+      "h1": "Qué soldadora inverter de 200 amperios comprar",
+      "h2": [
+        "Qué trabajos permite cada equipo",
+        "Amperaje declarado y ciclo de trabajo",
+        "Electrodos y alimentación compatibles",
+        "Modelos y qué comparar"
+      ]
+    },
+    {
+      "id": 12,
+      "keyword": "electrodo para fundicion",
+      "volume": 590,
+      "kd": 12,
+      "ratio": 49.17,
+      "slug": "electrodo-para-fundicion",
+      "url": "/soldadoras/electrodo-para-fundicion/",
+      "filename": "12-electrodo-para-fundicion.md",
+      "title": "Electrodo para fundición: tipos y cuál elegir",
+      "h1": "Cómo elegir un electrodo para fundición",
+      "h2": [
+        "Identificar el material y la reparación",
+        "Diferencias entre tipos de electrodos",
+        "Compatibilidad y ficha técnica",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 13,
+      "keyword": "alambre flux",
+      "volume": 480,
+      "kd": 11,
+      "ratio": 43.64,
+      "slug": "alambre-flux",
+      "url": "/soldadoras/alambre-flux/",
+      "filename": "13-alambre-flux.md",
+      "title": "Alambre flux: tipos, medidas y cuál comprar",
+      "h1": "Cómo elegir alambre flux para tu soldadora",
+      "h2": [
+        "Flux autoprotegido y con protección gaseosa",
+        "Diferencias entre 0,8 y 0,9 mm",
+        "Polaridad, rodillos y compatibilidad",
+        "Opciones de compra y bobinas"
+      ]
+    },
+    {
+      "id": 14,
+      "keyword": "soldadora dogo 180",
+      "volume": 110,
+      "kd": 3,
+      "ratio": 36.67,
+      "slug": "soldadora-dogo-180",
+      "url": "/soldadoras/soldadora-dogo-180/",
+      "filename": "14-soldadora-dogo-180.md",
+      "title": "Soldadora Dogo 180: características y qué revisar",
+      "h1": "Soldadora Dogo 180: guía antes de comprar",
+      "h2": [
+        "Identificar la versión exacta",
+        "Ficha técnica y ciclo de trabajo",
+        "Para qué usos conviene",
+        "Kit incluido, alternativas y qué comparar"
+      ]
+    },
+    {
+      "id": 15,
+      "keyword": "soldadora esab",
+      "volume": 590,
+      "kd": 20,
+      "ratio": 29.5,
+      "slug": "esab",
+      "url": "/soldadoras/esab/",
+      "filename": "15-soldadora-esab.md",
+      "title": "Soldadoras ESAB: modelos, diferencias y qué elegir",
+      "h1": "Qué soldadora ESAB elegir según tu trabajo",
+      "h2": [
+        "Líneas y procesos disponibles",
+        "Comparativa de modelos",
+        "Equipo para casa o taller",
+        "Accesorios, garantía y opciones de compra"
+      ]
+    },
+    {
+      "id": 16,
+      "keyword": "electrodo para acero inoxidable",
+      "volume": 480,
+      "kd": 22,
+      "ratio": 21.82,
+      "slug": "electrodo-para-acero-inoxidable",
+      "url": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "filename": "16-electrodo-para-acero-inoxidable.md",
+      "title": "Electrodo para acero inoxidable: cuál elegir",
+      "h1": "Cómo elegir electrodos para acero inoxidable",
+      "h2": [
+        "Identificar el acero y la unión",
+        "Diferencias entre clasificaciones",
+        "Diámetro y compatibilidad",
+        "Opciones de compra"
+      ]
+    },
+    {
+      "id": 17,
+      "keyword": "soldadora para aluminio",
+      "volume": 210,
+      "kd": 10,
+      "ratio": 21.0,
+      "slug": "para-aluminio",
+      "url": "/soldadoras/para-aluminio/",
+      "filename": "17-soldadora-para-aluminio.md",
+      "title": "Soldadora para aluminio: TIG o MIG, cuál elegir",
+      "h1": "Qué soldadora necesitás para soldar aluminio",
+      "h2": [
+        "Elegir entre TIG y MIG",
+        "Equipo según espesor y trabajo",
+        "Gas, aporte y accesorios compatibles",
+        "Comparativa del costo completo"
+      ]
+    },
+    {
+      "id": 18,
+      "keyword": "soldadora lusqtoff iron 250",
+      "volume": 320,
+      "kd": 17,
+      "ratio": 18.82,
+      "slug": "lusqtoff-iron-250",
+      "url": "/soldadoras/lusqtoff-iron-250/",
+      "filename": "18-soldadora-lusqtoff-iron-250.md",
+      "title": "Lusqtoff Iron 250: características y guía de compra",
+      "h1": "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar",
+      "h2": [
+        "Versión y especificaciones verificadas",
+        "Ciclo de trabajo y electrodos compatibles",
+        "Ventajas y limitaciones según ficha",
+        "Accesorios, alternativas y qué comparar"
+      ]
+    },
+    {
+      "id": 19,
+      "keyword": "soldadora tig ac dc",
+      "volume": 90,
+      "kd": 5,
+      "ratio": 18.0,
+      "slug": "soldadora-tig-ac-dc",
+      "url": "/soldadoras/soldadora-tig-ac-dc/",
+      "filename": "19-soldadora-tig-ac-dc.md",
+      "title": "Soldadora TIG AC/DC: funciones y qué modelo elegir",
+      "h1": "Cómo elegir una soldadora TIG AC/DC",
+      "h2": [
+        "Cuándo necesitás corriente alterna",
+        "Balance, frecuencia y pulso",
+        "Torcha, pedal y refrigeración",
+        "Modelos y qué comparar"
+      ]
+    },
+    {
+      "id": 20,
+      "keyword": "soldadora inverter 160 amp",
+      "volume": 210,
+      "kd": 14,
+      "ratio": 15.0,
+      "slug": "soldadora-inverter-160-amp",
+      "url": "/soldadoras/soldadora-inverter-160-amp/",
+      "filename": "20-soldadora-inverter-160-amp.md",
+      "title": "Soldadora inverter 160 A: comparativa y qué elegir",
+      "h1": "Qué soldadora inverter de 160 amperios elegir",
+      "h2": [
+        "Para qué trabajos alcanza",
+        "Electrodos y ciclo de trabajo",
+        "Cuándo conviene pasar a 200 A",
+        "Modelos, kits y qué comparar"
+      ]
+    }
+  ]
+}

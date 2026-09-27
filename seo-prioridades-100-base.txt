@@ -1,0 +1,100 @@
+compresor lusqtoff 50 litros|compresores/lusqtoff-50-litros|Completar la consulta comercial del modelo: solo medimos opiniones.
+hidrolavadora para autos|hidrolavadoras/para-autos|Medir la consulta principal del uso, no solo el ranking de mejores.
+hidrolavadora lusqtoff hl 120|hidrolavadoras/lusqtoff-hl-120|La consulta de opiniones ya tiene KD; falta la del equipo.
+amoladora black decker g720|amoladoras/black-decker-g720|Medir el modelo sin el modificador opiniones.
+sierra circular|sierras/circulares|Evaluar la categoría que organiza modelos y comparativas.
+sierra de banco|sierras/de-banco|Falta la categoría comercial pese a tener varias opiniones de modelos.
+sierra caladora|sierras/caladoras|Evaluar categoría con múltiples modelos y guías ya investigados.
+compresor de aire para auto|compresores/para-auto|La variante mejor tiene poco volumen; falta la consulta representativa.
+amoladora inalambrica|amoladoras/inalambricas|Familia comercial independiente con varias marcas disponibles.
+atornillador de impacto|taladros/atornilladores-de-impacto|Abrir categoría distinta del taladro percutor.
+hidrolavadora gamma hobby 120|hidrolavadoras/gamma-hobby-120|Modelo adicional a los Gamma 130, 150 y 170 ya medidos.
+soldadora para aluminio|soldadoras/para-aluminio|Reintentar: hay volumen Semrush de 210 y falta KD.
+compresor de aire silencioso|compresores/silenciosos|Medir término principal de una selección por ruido.
+hidrolavadora lusqtoff|hidrolavadoras/lusqtoff|Evaluar página de gama, distinta de cada modelo.
+taladro inalambrico|taladros/inalambricos|Comprobar categoría general; el percutor inalámbrico ya tiene señal favorable.
+hidrolavadora gamma|hidrolavadoras/gamma|Los modelos medidos tienen demanda y KD moderado o bajo.
+soldadora tig|soldadoras/tig|Medir familia general separada de la variante AC/DC ya conocida.
+sierra caladora black decker|sierras/caladoras-black-decker|Página de gama con modelos para comparar.
+compresor 24 litros|compresores/24-25-litros|Falta medir el tamaño de entrada como categoría.
+soldadora esab lhn 220i plus|soldadoras/esab-lhn-220i-plus|Modelo adicional para evaluar dentro de una gama con señales favorables.
+sierra circular lusqtoff|sierras/circulares-lusqtoff|Medir gama comercial frente a opiniones sin volumen disponible.
+ingletadora einhell|sierras/ingletadoras-einhell|Medir gama frente a la consulta de opiniones de 20 búsquedas.
+rotomartillo|taladros/rotomartillos|Familia distinta del taladro, con comparativa de tecnologías ya medida.
+disco para cortar porcelanato|amoladoras/discos-porcelanato|Medir producto representativo frente a mejor disco, sin volumen disponible.
+compresor para aerografo|compresores/para-aerografo|Término de uso principal frente a mejor compresor, con volumen cero.
+hidrolavadora black decker|hidrolavadoras/black-decker|Gama comercial que puede sumar varios modelos.
+amoladora lusqtoff|amoladoras/lusqtoff|Completar gama frente a opiniones de 850 W con KD 32.
+soldadora esab|soldadoras/esab|Página de gama respaldada por consultas de modelos ya medidas.
+taladro black decker|taladros/black-decker|Marca local comercial poco cubierta en la primera muestra.
+amoladora bosch|amoladoras/bosch|Comparar gama con modelos ya medidos, sin duplicar sus análisis.
+compresor 12v doble piston|compresores/12v-doble-piston|Selección específica para inflado y exigencias de uso.
+disco de corte para amoladora|amoladoras/discos-de-corte|Página de elección y compatibilidad para consumibles.
+sierra de banco einhell|sierras/de-banco-einhell|Falta consulta de compra; solo tenemos opiniones de bajo volumen.
+hidrolavadora para lavadero de autos|hidrolavadoras/para-lavadero|Necesidad profesional distinta del lavado doméstico del auto.
+hidrolavadora niwa|hidrolavadoras/niwa|Opiniones tiene 30 búsquedas y KD 6; medir la gama comercial.
+taladro percutor|taladros/percutores|Medir categoría general y evaluar relación con inalámbricos y cable.
+amoladora dewalt|amoladoras/dewalt|Gama comercial más amplia que DWE4020.
+soldadora lusqtoff|soldadoras/lusqtoff|IRON 250 y 180 tienen demanda; medir la página de gama.
+compresor bta 50 lts|compresores/bta-50-litros|Equipo adicional en un tamaño con demanda Semrush comprobada.
+taladro inalambrico einhell|taladros/inalambricos-einhell|Comparar gama frente a modelos con volumen sin datos.
+mejor hidrolavadora calidad precio|hidrolavadoras/comparativa-general|Reintentar: volumen Semrush 20 y KD ausente.
+hidrolavadora bosch|hidrolavadoras/bosch|Medir gama en vez de basar toda la oportunidad en AHR 900.
+sierra circular black and decker|sierras/circulares-black-decker|Gama adicional a las marcas ya medidas.
+ingletadora lusqtoff|sierras/ingletadoras-lusqtoff|Consulta principal de gama frente a opiniones con KD 26.
+electrodo 6013|soldadoras/electrodos-6013|Compra de consumibles; la comparativa 6013/7018 ya tiene KD 5.
+electrodo 7018|soldadoras/electrodos-7018|Consumible con aplicación propia y compra recurrente.
+taladro de banco|taladros/de-banco|Familia distinta con necesidad de precisión y uso de taller.
+amoladora stanley|amoladoras/stanley|Consulta comercial frente a opiniones con volumen cero.
+aerografo con compresor|compresores/kit-aerografo|Evaluar packs completos y solapamiento con compresor para aerógrafo.
+generador diesel|generadores/diesel|Hueco de combustible no cubierto en las 80 consultas de generadores.
+generador trifasico|generadores/trifasicos|Hueco técnico; publicar solo con oferta afiliable relevante.
+grupo electrogeno monofasico|generadores/monofasicos|Decisión por instalación y potencia; comprobar solapamiento con casa.
+generador portatil|generadores/portatiles|Consulta representativa frente a mejores portátiles, KD 32 y volumen sin datos.
+generador inverter silencioso|generadores/inverter-silenciosos|Comprobar si se integra en inverter o silenciosos; no crear página automática.
+hidrolavadora daewoo 1600w|hidrolavadoras/daewoo-1600w|Medir equipo sin opiniones, cuya demanda no está disponible.
+hidrolavadora hyundai|hidrolavadoras/hyundai|Marca adicional con señal en el archivo original.
+amoladora inalambrica einhell|amoladoras/inalambricas-einhell|Página de selección por plataforma de batería.
+caladora einhell|sierras/caladoras-einhell|Ampliación de gama doméstica no medida.
+sierra caladora stanley|sierras/caladoras-stanley|Gama adicional para comparativas locales.
+rotomartillo bosch|taladros/rotomartillos-bosch|Subfamilia comercial dentro de rotomartillos.
+atornillador bosch go|taladros/bosch-go|Modelo compacto y uso distinto de los taladros grandes.
+atornillador para durlock|taladros/para-durlock|La guía de elección tiene KD 11; falta la consulta de producto.
+soldadora esab 160i|soldadoras/esab-handy-arc-160i|Medir modelo comercial; opiniones tiene KD 8 y volumen 10.
+soldadora dogo mig 150|soldadoras/dogo-mig-150|Medir modelo comercial; opiniones tiene KD 5.
+compresor sin aceite|compresores/sin-aceite|Opiniones tiene KD 2; medir categoría y confirmar intención.
+compresor para moto|compresores/para-moto|Uso específico de inflado; revisar si merece separación de autos.
+compresor inalambrico|compresores/inalambricos|Familia por alimentación y portabilidad; distinguir infladores de taller.
+hidrolavadora stihl|hidrolavadoras/stihl|Gama adicional; revisar disponibilidad en ML antes de publicar.
+hidrolavadora gamma 127|hidrolavadoras/gamma-127|Modelo adicional; verificar versión y vigencia comercial.
+hidrolavadora karcher|hidrolavadoras/karcher|Consulta de gama para ordenar K1-K5 ya medidos.
+diferencias entre soldadura tig y mig|soldadoras/tig-vs-mig|Consulta propuesta previamente que falta en el CSV de Semrush.
+amoladora skil 830w|amoladoras/skil-830w|Consulta de equipo adicional; precisar versión en el contenido.
+disco de alambre para amoladora|amoladoras/cepillos-de-alambre|Accesorio distinto para limpieza y preparación de superficies.
+disco para cortar ceramica|amoladoras/discos-ceramica|Consulta principal frente a mejor disco, sin volumen disponible.
+sierra sable|sierras/sable|Categoría general adicional a la variante inalámbrica con KD 5.
+sensitiva|sierras/sensitivas|Familia de corte de metal con equipos propios.
+sierra de banco lusqtoff|sierras/de-banco-lusqtoff|Gama de banco adicional a Bosch y Einhell.
+ingletadora dewalt|sierras/ingletadoras-dewalt|Gama comercial adicional; priorizar modelos disponibles.
+taladro stanley|taladros/stanley|Medir gama frente a opiniones, KD 28 y volumen 20.
+taladro inalambrico bosch|taladros/inalambricos-bosch|Selección de gama con varias plataformas y modelos medidos.
+taladro inalambrico dewalt|taladros/inalambricos-dewalt|Ampliar consulta frente al DCD7781D2 sin volumen disponible.
+atornillador de impacto dewalt|taladros/impacto-dewalt|Subfamilia de compra cercana con modelos diferenciados.
+brocas para ceramica|taladros/brocas-ceramica|Consumible por material, útil para compras complementarias.
+mecha para porcelanato|taladros/brocas-porcelanato|Necesidad específica; revisar solapamiento con cerámica.
+puntas para atornillador de impacto|taladros/puntas-impacto|Accesorios con criterios de compatibilidad y resistencia.
+soldadora niwa 220|soldadoras/niwa-220|Equipo adicional a Niwa 180 y multiproceso ya medidos.
+soldadora lusqtoff tig|soldadoras/tig-lusqtoff|Subfamilia comercial; distinguir TIG Lift de equipos AC/DC.
+guantes para soldar|soldadoras/guantes|Consulta principal frente a mejores guantes, sin volumen disponible.
+mascara de soldar lusqtoff|soldadoras/mascaras-lusqtoff|Subfamilia de accesorios en un tema con demanda comprobada.
+alambre flux|soldadoras/alambre-flux|Consulta de familia, para integrar medidas como 0.8 mm en una página útil.
+hidrolavadora lusqtoff hl 150|hidrolavadoras/lusqtoff-hl-150|Medir modelo sin opiniones; esa variante tiene KD 32.
+hidrolavadora daewoo 1400w|hidrolavadoras/daewoo-1400w|Modelo adicional a 1600 W y 2000 W.
+compresor 200 litros|compresores/200-litros|Extensión a taller; confirmar compra en ML frente a venta por cotización.
+acople rapido para compresor|compresores/acoples-rapidos|Accesorio por compatibilidad, independiente de mangueras.
+sierra sin fin para metal|sierras/sin-fin-metal|Uso y equipos distintos de la página de madera ya medida.
+sierra circular makita|sierras/circulares-makita|Gama más amplia que HS7010, para comparar modelos locales.
+amoladora ingco|amoladoras/ingco|Gama adicional de marca no cubierta.
+taladro inalambrico lusqtoff|taladros/inalambricos-lusqtoff|Consulta comercial más específica que opiniones de marca.
+cortadora de plasma|soldadoras/cortadoras-plasma|Familia vecina de herramientas de corte; exploración de segunda etapa.
+hidrolavadora|hidrolavadoras/comparativa-general|Referencia general para arquitectura; no asumir que será la primera página en posicionar.

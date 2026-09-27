@@ -1,0 +1,388 @@
+{
+  "summary": {
+    "total_selected": 20,
+    "source": "Semrush (hidrolavadoras)",
+    "market": "Argentina",
+    "date": "2026-09-23"
+  },
+  "pages": [
+    {
+      "id": 1,
+      "keyword": "hidrolavadora",
+      "volume": 60500,
+      "kd": 23,
+      "slug": "comparativa-general",
+      "url": "/hidrolavadoras/comparativa-general/",
+      "title": "Hidrolavadoras: cuál comprar según uso y presupuesto",
+      "h1": "Cómo elegir una hidrolavadora para tu casa o trabajo",
+      "h2": [
+        "Qué tener en cuenta antes de comprar",
+        "Presión, caudal y motor: qué importa",
+        "Comparativa de marcas y precios",
+        "Qué elegir para auto, patio o trabajo",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora"
+    },
+    {
+      "id": 2,
+      "keyword": "hidrolavadora inalambrica",
+      "volume": 5400,
+      "kd": 27,
+      "slug": "inalambricas",
+      "url": "/hidrolavadoras/inalambricas/",
+      "title": "Hidrolavadora inalámbrica: comparativa y guía de compra",
+      "h1": "Qué hidrolavadora inalámbrica comprar y para qué sirve",
+      "h2": [
+        "Inalámbrica o eléctrica con cable",
+        "Presión real, autonomía y baterías",
+        "Modelos portátiles y autocebantes",
+        "Cuándo conviene y cuáles son sus límites",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora inalambrica"
+    },
+    {
+      "id": 3,
+      "keyword": "hidrolavadora lusqtoff",
+      "volume": 2400,
+      "kd": 19,
+      "slug": "lusqtoff",
+      "url": "/hidrolavadoras/lusqtoff/",
+      "title": "Hidrolavadoras Lusqtoff: modelos y cuál elegir",
+      "h1": "Qué hidrolavadora Lusqtoff elegir según el uso",
+      "h2": [
+        "Comparativa de la gama Lusqtoff",
+        "Diferencias entre HL 120 y HL 150",
+        "Repuestos, accesorios y garantía",
+        "Cuándo elegir otra marca",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora lusqtoff"
+    },
+    {
+      "id": 4,
+      "keyword": "hidrolavadora gamma",
+      "volume": 1900,
+      "kd": 22,
+      "slug": "gamma",
+      "url": "/hidrolavadoras/gamma/",
+      "title": "Hidrolavadoras Gamma: comparativa de modelos y precios",
+      "h1": "Qué hidrolavadora Gamma comprar",
+      "h2": [
+        "Comparativa de modelos Gamma",
+        "Diferencias entre 127, 130, 150 y 170",
+        "Qué modelo elegir según el trabajo",
+        "Repuestos y aspectos a revisar",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora gamma"
+    },
+    {
+      "id": 5,
+      "keyword": "hidrolavadora stihl",
+      "volume": 1600,
+      "kd": 19,
+      "slug": "stihl",
+      "url": "/hidrolavadoras/stihl/",
+      "title": "Hidrolavadoras Stihl: modelos, diferencias y precios",
+      "h1": "Cómo elegir una hidrolavadora Stihl",
+      "h2": [
+        "Comparativa de modelos de la línea RE",
+        "Qué elegir según frecuencia de uso",
+        "Accesorios, repuestos y servicio técnico",
+        "Stihl frente a otras marcas",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora stihl"
+    },
+    {
+      "id": 6,
+      "keyword": "hidrolavadora bosch",
+      "volume": 1900,
+      "kd": 23,
+      "slug": "bosch",
+      "url": "/hidrolavadoras/bosch/",
+      "title": "Hidrolavadoras Bosch: comparativa y guía de compra",
+      "h1": "Qué hidrolavadora Bosch elegir para casa y auto",
+      "h2": [
+        "Modelos Bosch y diferencias",
+        "Presión y caudal según el uso",
+        "Accesorios incluidos y opcionales",
+        "Qué revisar antes de comprar",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora bosch"
+    },
+    {
+      "id": 7,
+      "keyword": "hidrolavadora black decker",
+      "volume": 1300,
+      "kd": 18,
+      "slug": "black-decker",
+      "url": "/hidrolavadoras/black-decker/",
+      "title": "Hidrolavadoras Black+Decker: cuál conviene comprar",
+      "h1": "Qué hidrolavadora Black+Decker elegir",
+      "h2": [
+        "Comparativa de modelos y potencia",
+        "Qué ofrece la versión de 1300 W",
+        "Usos recomendados y limitaciones",
+        "Accesorios, repuestos y garantía",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora black decker"
+    },
+    {
+      "id": 8,
+      "keyword": "hidrolavadora karcher k2",
+      "volume": 880,
+      "kd": 13,
+      "slug": "karcher-k2",
+      "url": "/hidrolavadoras/karcher-k2/",
+      "title": "Kärcher K2: versiones, prestaciones y guía de compra",
+      "h1": "Hidrolavadora Kärcher K2: cuál elegir y para qué sirve",
+      "h2": [
+        "Diferencias entre versiones y kits",
+        "Qué trabajos puede hacer",
+        "Cómo usarla y revisar la falta de presión",
+        "K2 o K3: cuándo conviene cada una",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora karcher k2"
+    },
+    {
+      "id": 9,
+      "keyword": "hidrolavadora karcher k5",
+      "volume": 480,
+      "kd": 15,
+      "slug": "karcher-k5",
+      "url": "/hidrolavadoras/karcher-k5/",
+      "title": "Kärcher K5: prestaciones y cuándo conviene comprarla",
+      "h1": "Hidrolavadora Kärcher K5: guía de compra",
+      "h2": [
+        "Versiones y equipamiento incluido",
+        "Presión, caudal y usos recomendados",
+        "K5 frente a K4",
+        "Qué revisar para justificar la diferencia de precio",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora karcher k5"
+    },
+    {
+      "id": 10,
+      "keyword": "hidrolavadora gamma 150",
+      "volume": 320,
+      "kd": 10,
+      "slug": "gamma-150",
+      "url": "/hidrolavadoras/gamma-150/",
+      "title": "Gamma 150: características, uso y guía de compra",
+      "h1": "Hidrolavadora Gamma 150: qué revisar antes de comprar",
+      "h2": [
+        "Cómo identificar la versión exacta",
+        "Prestaciones y usos recomendados",
+        "Cómo conectarla y utilizarla",
+        "Gamma 150 frente a Gamma 130",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora gamma 150"
+    },
+    {
+      "id": 11,
+      "keyword": "hidrolavadora profesional",
+      "volume": 390,
+      "kd": 13,
+      "slug": "profesionales",
+      "url": "/hidrolavadoras/profesionales/",
+      "title": "Hidrolavadora profesional: cómo elegir para trabajar",
+      "h1": "Qué hidrolavadora profesional comprar para trabajar",
+      "h2": [
+        "Profesional, industrial o doméstica",
+        "Caudal, motor y régimen de trabajo",
+        "Qué necesita un lavadero de autos",
+        "Agua fría o caliente y mantenimiento",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora profesional"
+    },
+    {
+      "id": 12,
+      "keyword": "hidrolavadora karcher k3",
+      "volume": 480,
+      "kd": 21,
+      "slug": "karcher-k3",
+      "url": "/hidrolavadoras/karcher-k3/",
+      "title": "Kärcher K3: versiones y diferencias con K2 y K4",
+      "h1": "Hidrolavadora Kärcher K3: cuándo conviene elegirla",
+      "h2": [
+        "Versiones y accesorios incluidos",
+        "Usos y frecuencia de trabajo",
+        "Diferencias frente a K2 y K4",
+        "Mantenimiento y repuestos",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora karcher k3"
+    },
+    {
+      "id": 13,
+      "keyword": "hidrolavadora einhell",
+      "volume": 320,
+      "kd": 15,
+      "slug": "einhell",
+      "url": "/hidrolavadoras/einhell/",
+      "title": "Hidrolavadoras Einhell: modelos y guía de compra",
+      "h1": "Qué hidrolavadora Einhell comprar",
+      "h2": [
+        "Comparativa de modelos eléctricos",
+        "Opciones inalámbricas y baterías compatibles",
+        "Qué elegir según el uso",
+        "Accesorios, repuestos y garantía",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora einhell"
+    },
+    {
+      "id": 14,
+      "keyword": "hidrolavadora gamma 130",
+      "volume": 210,
+      "kd": 10,
+      "slug": "gamma-130",
+      "url": "/hidrolavadoras/gamma-130/",
+      "title": "Gamma 130: prestaciones y diferencias con Gamma 150",
+      "h1": "Hidrolavadora Gamma 130: guía para elegirla",
+      "h2": [
+        "Modelo exacto y ficha técnica",
+        "Para qué tareas alcanza",
+        "Gamma 130 frente a Gamma 150",
+        "Uso, mantenimiento y accesorios",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora gamma 130"
+    },
+    {
+      "id": 15,
+      "keyword": "hidrolavadora hyundai",
+      "volume": 140,
+      "kd": 7,
+      "slug": "hyundai",
+      "url": "/hidrolavadoras/hyundai/",
+      "title": "Hidrolavadoras Hyundai: modelos y cuál comprar",
+      "h1": "Qué hidrolavadora Hyundai elegir",
+      "h2": [
+        "Modelos y diferencias de prestaciones",
+        "Qué revisar en presión, caudal y motor",
+        "Accesorios y disponibilidad de repuestos",
+        "Alternativas de precio similar",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora hyundai"
+    },
+    {
+      "id": 16,
+      "keyword": "hidrolavadora lusqtoff hl 120",
+      "volume": 320,
+      "kd": 18,
+      "slug": "lusqtoff-hl-120",
+      "url": "/hidrolavadoras/lusqtoff-hl-120/",
+      "title": "Lusqtoff HL 120: prestaciones y guía de compra",
+      "h1": "Hidrolavadora Lusqtoff HL 120: para quién conviene",
+      "h2": [
+        "Ficha técnica y accesorios incluidos",
+        "Usos domésticos y limitaciones",
+        "Qué revisar en las opiniones de compradores",
+        "HL 120 frente a HL 150",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora lusqtoff hl 120"
+    },
+    {
+      "id": 17,
+      "keyword": "hidrolavadora karcher k4",
+      "volume": 390,
+      "kd": 22,
+      "slug": "karcher-k4",
+      "url": "/hidrolavadoras/karcher-k4/",
+      "title": "Kärcher K4: versiones y diferencias con K3 y K5",
+      "h1": "Hidrolavadora Kärcher K4: guía de compra",
+      "h2": [
+        "Versiones y equipamiento",
+        "Para qué usos conviene",
+        "Diferencias frente a K3 y K5",
+        "Accesorios y mantenimiento",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora karcher k4"
+    },
+    {
+      "id": 18,
+      "keyword": "hidrolavadora 150 bar",
+      "volume": 140,
+      "kd": 8,
+      "slug": "150-bar",
+      "url": "/hidrolavadoras/150-bar/",
+      "title": "Hidrolavadoras de 150 bar: comparativa y cómo elegir",
+      "h1": "Qué hidrolavadora de 150 bar comprar",
+      "h2": [
+        "Presión máxima frente a presión de trabajo",
+        "Caudal y motor: cómo comparar equipos",
+        "Modelos de 150 bar y usos recomendados",
+        "Cuándo alcanza una de menor presión",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora 150 bar"
+    },
+    {
+      "id": 19,
+      "keyword": "hidrolavadora 200 bar",
+      "volume": 140,
+      "kd": 8,
+      "slug": "200-bar",
+      "url": "/hidrolavadoras/200-bar/",
+      "title": "Hidrolavadoras de 200 bar: cuándo convienen",
+      "h1": "Cómo elegir una hidrolavadora de 200 bar",
+      "h2": [
+        "Cómo comprobar la presión declarada",
+        "Caudal, alimentación y régimen de trabajo",
+        "Modelos y aplicaciones exigentes",
+        "Cuándo conviene elegir 150 bar",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora 200 bar"
+    },
+    {
+      "id": 20,
+      "keyword": "hidrolavadora niwa",
+      "volume": 260,
+      "kd": 15,
+      "slug": "niwa",
+      "url": "/hidrolavadoras/niwa/",
+      "title": "Hidrolavadoras Niwa: modelos, opiniones y compra",
+      "h1": "Qué hidrolavadora Niwa elegir y qué revisar",
+      "h2": [
+        "Modelos Niwa y diferencias",
+        "Para qué usos conviene cada equipo",
+        "Opiniones: ventajas y problemas reportados",
+        "Repuestos, accesorios y alternativas",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora niwa"
+    },
+    {
+      "id": 21,
+      "keyword": "hidrolavadora karcher",
+      "volume": 5400,
+      "kd": 32,
+      "slug": "karcher",
+      "url": "/hidrolavadoras/karcher/",
+      "title": "Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar",
+      "h1": "Qué hidrolavadora Kärcher comprar: comparativa de modelos K2 a K5",
+      "h2": [
+        "Comparativa de la gama Kärcher: K2, K3, K4 y K5",
+        "Diferencias mecánicas: motor, bomba y refrigeración",
+        "Qué modelo Kärcher elegir según el uso",
+        "Tecnologías clave, repuestos y lanzas",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "hidrolavadora karcher"
+    }
+  ]
+}

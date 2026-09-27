@@ -1,0 +1,532 @@
+{
+  "summary": {
+    "base_rows": 4913,
+    "base_unique": 4892,
+    "volume_distribution": {
+      "50000.0": 1,
+      "5000.0": 27,
+      "500.0": 271,
+      "50.0": 4614
+    },
+    "sem_rows": 40,
+    "additional_rows": 19,
+    "sem_unique": 59,
+    "sem_missing_base": [],
+    "sem_volume_na": 17,
+    "sem_volume_zero": 1
+  },
+  "sem": [
+    {
+      "keyword": "amoladora de banco",
+      "intent": "C",
+      "volume": "3600",
+      "kd": "13",
+      "cpc": "0.05",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "disco flap",
+      "intent": "I, C",
+      "volume": "2900",
+      "kd": "9",
+      "cpc": "0.08",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "disco de desbaste",
+      "intent": "I",
+      "volume": "1600",
+      "kd": "12",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora recta",
+      "intent": "I, T",
+      "volume": "1000",
+      "kd": "12",
+      "cpc": "0.07",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora 7 pulgadas",
+      "intent": "C",
+      "volume": "260",
+      "kd": "12",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora 9 pulgadas",
+      "intent": "I, C",
+      "volume": "260",
+      "kd": "5",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora 115",
+      "intent": "I",
+      "volume": "210",
+      "kd": "14",
+      "cpc": "0.07",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "disco para cortar ladrillo",
+      "intent": "I",
+      "volume": "170",
+      "kd": "11",
+      "cpc": "0.03",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora velocidad variable",
+      "intent": "C",
+      "volume": "140",
+      "kd": "9",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora bosch gws 850",
+      "intent": "I, T",
+      "volume": "110",
+      "kd": "14",
+      "cpc": "0.06",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "disco para cortar chapa",
+      "intent": "I, C",
+      "volume": "90",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora 125",
+      "intent": "C",
+      "volume": "30",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "1 mes",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora einhell opiniones",
+      "intent": "I",
+      "volume": "30",
+      "kd": "27",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora dewalt dwe4020",
+      "intent": "I",
+      "volume": "20",
+      "kd": "8",
+      "cpc": "0.04",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora gamma opiniones",
+      "intent": "I, T",
+      "volume": "20",
+      "kd": "14",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora makita 9557hpg",
+      "intent": "I, C",
+      "volume": "20",
+      "kd": "8",
+      "cpc": "0.06",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora makita ga4530",
+      "intent": "C",
+      "volume": "20",
+      "kd": "9",
+      "cpc": "0.03",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora skil 9002 opiniones",
+      "intent": "I, T",
+      "volume": "20",
+      "kd": "16",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "como elegir una amoladora",
+      "intent": "I",
+      "volume": "20",
+      "kd": "10",
+      "cpc": "0.02",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "disco para amoladora para cortar acero inoxidable",
+      "intent": "C",
+      "volume": "20",
+      "kd": "9",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejores marcas de amoladoras",
+      "intent": "I, C",
+      "volume": "20",
+      "kd": "11",
+      "cpc": "0.07",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora stanley inalambrica",
+      "intent": "I",
+      "volume": "10",
+      "kd": "9",
+      "cpc": "0.04",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora stanley opiniones",
+      "intent": "I, C",
+      "volume": "0",
+      "kd": "12",
+      "cpc": "0.0",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora bosch gws 700",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "25",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora bosch gws 9 125 s",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "19",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora bosch inalambrica 18v gws 180 li brushless",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora daewoo 750w opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "22",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora einhell axxio",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora g720 black decker opiniones",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "31",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora lusqtoff 850w opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "32",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora lusqtoff a bateria",
+      "intent": "I, T",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora total opiniones",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "33",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor amoladora 125",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "15",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor amoladora a bateria",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "27",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor amoladora calidad precio",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor amoladora profesional",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "15",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor disco para cortar ceramica",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "14",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejor disco para cortar porcelanato",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "19",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mejores discos de corte para metal",
+      "intent": "C",
+      "volume": "n/d",
+      "kd": "16",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "mini amoladora inalambrica",
+      "intent": "I",
+      "volume": "n/d",
+      "kd": "17",
+      "cpc": "n/d",
+      "updated": "Ahora",
+      "source": "semrush_amoladoras.csv"
+    },
+    {
+      "keyword": "amoladora bosch",
+      "intent": "I, C",
+      "volume": "4400",
+      "kd": "17",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora dewalt",
+      "intent": "C",
+      "volume": "2400",
+      "kd": "12",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora inalambrica",
+      "intent": "C",
+      "volume": "2400",
+      "kd": "16",
+      "cpc": "0,08",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco de corte para amoladora",
+      "intent": "I",
+      "volume": "2400",
+      "kd": "12",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora lusqtoff",
+      "intent": "C",
+      "volume": "1000",
+      "kd": "18",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco para cortar ceramica",
+      "intent": "I",
+      "volume": "590",
+      "kd": "16",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco para cortar porcelanato",
+      "intent": "I",
+      "volume": "590",
+      "kd": "31",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora stanley",
+      "intent": "I, C",
+      "volume": "390",
+      "kd": "8",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora black decker g720",
+      "intent": "T, N",
+      "volume": "260",
+      "kd": "21",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora ingco",
+      "intent": "C",
+      "volume": "260",
+      "kd": "10",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco de alambre para amoladora",
+      "intent": "I",
+      "volume": "260",
+      "kd": "19",
+      "cpc": "0,02",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora skil 830w",
+      "intent": "I, T",
+      "volume": "210",
+      "kd": "5",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora inalambrica einhell",
+      "intent": "I, T",
+      "volume": "140",
+      "kd": "8",
+      "cpc": "0,06",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora makita",
+      "intent": "C",
+      "volume": "1600",
+      "kd": "13",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora daewoo",
+      "intent": "I, T",
+      "volume": "260",
+      "kd": "21",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora skil 700w",
+      "intent": "I",
+      "volume": "260",
+      "kd": "16",
+      "cpc": "0,03",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco desbaste hormigon",
+      "intent": "I, C",
+      "volume": "170",
+      "kd": "15",
+      "cpc": "0,05",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "amoladora neumatica recta",
+      "intent": "I",
+      "volume": "110",
+      "kd": "8",
+      "cpc": "0,07",
+      "source": "semrush_consulta_adicional.csv"
+    },
+    {
+      "keyword": "disco diamantado segmentado",
+      "intent": "I, C",
+      "volume": "110",
+      "kd": "5",
+      "cpc": "0,04",
+      "source": "semrush_consulta_adicional.csv"
+    }
+  ]
+}

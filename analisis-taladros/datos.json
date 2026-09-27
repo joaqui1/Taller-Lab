@@ -1,0 +1,350 @@
+{
+  "summary": {
+    "total_selected": 20,
+    "source": "Semrush (taladros y perforación)",
+    "market": "Argentina",
+    "date": "2026-09-23"
+  },
+  "pages": [
+    {
+      "id": 1,
+      "keyword": "taladro inalámbrico",
+      "volume": 9900,
+      "kd": 20,
+      "slug": "inalambricos",
+      "url": "/taladros/inalambricos/",
+      "title": "Taladro inalámbrico: cuál comprar en Argentina",
+      "h1": "Cómo elegir un taladro inalámbrico para tu trabajo",
+      "h2": [
+        "Modelos según uso y presupuesto",
+        "Torque, batería y mandril: qué comparar",
+        "Con o sin percusión",
+        "Qué incluye cada kit y dónde comprar"
+      ],
+      "ml_query": "taladro inalambrico"
+    },
+    {
+      "id": 2,
+      "keyword": "rotomartillo",
+      "volume": 8100,
+      "kd": 18,
+      "slug": "rotomartillos",
+      "url": "/taladros/rotomartillos/",
+      "title": "Rotomartillo: cuál elegir para concreto y obra",
+      "h1": "Qué rotomartillo comprar según el trabajo",
+      "h2": [
+        "Diferencias entre rotomartillo y taladro percutor",
+        "Joules, encastre y modos de trabajo",
+        "Modelos para casa y obra",
+        "Comparativa de equipos y precios"
+      ],
+      "ml_query": "rotomartillo"
+    },
+    {
+      "id": 3,
+      "keyword": "taladro percutor",
+      "volume": 5400,
+      "kd": 18,
+      "slug": "percutores",
+      "url": "/taladros/percutores/",
+      "title": "Taladro percutor: cuál comprar y cómo elegirlo",
+      "h1": "Cómo elegir un taladro percutor",
+      "h2": [
+        "Para qué sirve la percusión",
+        "Qué elegir para ladrillo, madera y metal",
+        "Modelos con cable y a batería",
+        "Cuándo conviene pasar a un rotomartillo"
+      ],
+      "ml_query": "taladro percutor"
+    },
+    {
+      "id": 4,
+      "keyword": "taladro de banco",
+      "volume": 2900,
+      "kd": 10,
+      "slug": "taladro-de-banco",
+      "url": "/taladros/taladro-de-banco/",
+      "title": "Taladro de banco: guía para elegir y comparar",
+      "h1": "Qué taladro de banco comprar para tu taller",
+      "h2": [
+        "Potencia, velocidades y capacidad del mandril",
+        "Recorrido y distancia a la columna",
+        "Modelos para madera y metal",
+        "Taladro de banco o soporte para taladro"
+      ],
+      "ml_query": "taladro de banco"
+    },
+    {
+      "id": 5,
+      "keyword": "atornillador de impacto",
+      "volume": 1600,
+      "kd": 16,
+      "slug": "atornilladores-de-impacto",
+      "url": "/taladros/atornilladores-de-impacto/",
+      "title": "Atornillador de impacto: cuál elegir y para qué sirve",
+      "h1": "Cómo elegir un atornillador de impacto",
+      "h2": [
+        "Diferencias con un taladro atornillador",
+        "Torque y control de velocidad",
+        "Puntas compatibles y accesorios",
+        "Comparativa de modelos y kits"
+      ],
+      "ml_query": "atornillador de impacto"
+    },
+    {
+      "id": 6,
+      "keyword": "rotomartillo Bosch",
+      "volume": 1000,
+      "kd": 12,
+      "slug": "rotomartillo-bosch",
+      "url": "/taladros/rotomartillo-bosch/",
+      "title": "Rotomartillo Bosch: modelos y cuál conviene comprar",
+      "h1": "Qué rotomartillo Bosch elegir",
+      "h2": [
+        "Comparativa de modelos por trabajo",
+        "SDS Plus o SDS Max",
+        "Con cable o a batería",
+        "Qué revisar antes de comprar"
+      ],
+      "ml_query": "rotomartillo bosch"
+    },
+    {
+      "id": 7,
+      "keyword": "taladro percutor inalámbrico",
+      "volume": 1000,
+      "kd": 15,
+      "slug": "taladro-percutor-inalambrico",
+      "url": "/taladros/taladro-percutor-inalambrico/",
+      "title": "Taladro percutor inalámbrico: modelos y comparativa",
+      "h1": "Qué taladro percutor inalámbrico comprar",
+      "h2": [
+        "Modelos con percusión según presupuesto",
+        "Capacidad en mampostería y límites en hormigón",
+        "Motor con o sin escobillas",
+        "Baterías, cargador y costo del kit"
+      ],
+      "ml_query": "taladro percutor inalambrico"
+    },
+    {
+      "id": 8,
+      "keyword": "atornillador para Durlock",
+      "volume": 320,
+      "kd": 5,
+      "slug": "para-durlock",
+      "url": "/taladros/para-durlock/",
+      "title": "Atornillador para Durlock: cuál comprar y por qué",
+      "h1": "Cómo elegir un atornillador para Durlock",
+      "h2": [
+        "Tope de profundidad y velocidad",
+        "Atornillador específico o taladro común",
+        "Con cable, a batería o con alimentador",
+        "Puntas y accesorios para instalar placas"
+      ],
+      "ml_query": "atornillador durlock"
+    },
+    {
+      "id": 9,
+      "keyword": "taladro Black Decker",
+      "volume": 1000,
+      "kd": 18,
+      "slug": "black-decker",
+      "url": "/taladros/black-decker/",
+      "title": "Taladro Black+Decker: qué modelo conviene comprar",
+      "h1": "Qué taladro Black+Decker elegir para casa",
+      "h2": [
+        "Modelos con cable e inalámbricos",
+        "Cuándo necesitás percusión",
+        "Diferencias entre equipos y kits",
+        "Ventajas y límites según el uso"
+      ],
+      "ml_query": "taladro black decker"
+    },
+    {
+      "id": 10,
+      "keyword": "rotomartillo Einhell",
+      "volume": 480,
+      "kd": 10,
+      "slug": "rotomartillo-einhell",
+      "url": "/taladros/rotomartillo-einhell/",
+      "title": "Rotomartillo Einhell: comparativa y guía de compra",
+      "h1": "Qué rotomartillo Einhell comprar",
+      "h2": [
+        "Diferencias entre modelos",
+        "Energía de impacto y modos de trabajo",
+        "Con cable o Power X-Change",
+        "Accesorios incluidos y costo total"
+      ],
+      "ml_query": "rotomartillo einhell"
+    },
+    {
+      "id": 11,
+      "keyword": "rotomartillo DeWalt",
+      "volume": 880,
+      "kd": 19,
+      "slug": "rotomartillo-dewalt",
+      "url": "/taladros/rotomartillo-dewalt/",
+      "title": "Rotomartillo DeWalt: cuál elegir para tu trabajo",
+      "h1": "Cómo elegir un rotomartillo DeWalt",
+      "h2": [
+        "Modelos según exigencia de trabajo",
+        "Encastre y energía de impacto",
+        "Equipos con cable y a batería",
+        "Máquina sola o kit completo"
+      ],
+      "ml_query": "rotomartillo dewalt"
+    },
+    {
+      "id": 12,
+      "keyword": "taladro inalámbrico Einhell",
+      "volume": 390,
+      "kd": 10,
+      "slug": "einhell-inalambrico",
+      "url": "/taladros/einhell-inalambrico/",
+      "title": "Taladro inalámbrico Einhell: cuál comprar",
+      "h1": "Qué taladro inalámbrico Einhell elegir",
+      "h2": [
+        "Comparativa de modelos de 18 V",
+        "Con percusión o sin percusión",
+        "Baterías y plataforma Power X-Change",
+        "Qué kit conviene según tu presupuesto"
+      ],
+      "ml_query": "taladro inalambrico einhell"
+    },
+    {
+      "id": 13,
+      "keyword": "taladro inalámbrico DeWalt",
+      "volume": 720,
+      "kd": 21,
+      "slug": "dewalt-inalambrico",
+      "url": "/taladros/dewalt-inalambrico/",
+      "title": "Taladro inalámbrico DeWalt: modelos y diferencias",
+      "h1": "Qué taladro inalámbrico DeWalt comprar",
+      "h2": [
+        "Modelos para uso doméstico y profesional",
+        "Torque, percusión y motor",
+        "Qué significan 18 V y 20 V MAX",
+        "Baterías incluidas y precio del kit"
+      ],
+      "ml_query": "taladro inalambrico dewalt"
+    },
+    {
+      "id": 14,
+      "keyword": "mecha para porcelanato",
+      "volume": 590,
+      "kd": 18,
+      "slug": "mecha-porcelanato",
+      "url": "/taladros/mecha-porcelanato/",
+      "title": "Mecha para porcelanato: cuál elegir y cómo usarla",
+      "h1": "Qué mecha usar para perforar porcelanato",
+      "h2": [
+        "Tipos de mechas y aplicaciones",
+        "Diámetro y compatibilidad con tu herramienta",
+        "Cómo perforar sin romper la pieza",
+        "Refrigeración y errores frecuentes"
+      ],
+      "ml_query": "mecha para porcelanato"
+    },
+    {
+      "id": 15,
+      "keyword": "taladro Milwaukee",
+      "volume": 480,
+      "kd": 16,
+      "slug": "milwaukee",
+      "url": "/taladros/milwaukee/",
+      "title": "Taladro Milwaukee: M12, M18 y cuál elegir",
+      "h1": "Qué taladro Milwaukee comprar según el uso",
+      "h2": [
+        "Diferencias entre M12 y M18",
+        "Qué ofrece la línea FUEL",
+        "Modelos con y sin percusión",
+        "Máquina sola o kit con baterías"
+      ],
+      "ml_query": "taladro milwaukee"
+    },
+    {
+      "id": 16,
+      "keyword": "taladro inalámbrico Lusqtoff",
+      "volume": 480,
+      "kd": 19,
+      "slug": "lusqtoff-inalambrico",
+      "url": "/taladros/lusqtoff-inalambrico/",
+      "title": "Taladro inalámbrico Lusqtoff: cuál conviene comprar",
+      "h1": "Cómo elegir un taladro inalámbrico Lusqtoff",
+      "h2": [
+        "Comparativa de modelos y prestaciones",
+        "Percusión, torque y velocidades",
+        "Baterías, cargador y accesorios",
+        "Para qué trabajos conviene cada opción"
+      ],
+      "ml_query": "taladro inalambrico lusqtoff"
+    },
+    {
+      "id": 17,
+      "keyword": "brocas para cerámica",
+      "volume": 390,
+      "kd": 16,
+      "slug": "brocas-ceramica",
+      "url": "/taladros/brocas-ceramica/",
+      "title": "Brocas para cerámica: cuáles usar y cómo perforar",
+      "h1": "Cómo elegir mechas para cerámica y azulejos",
+      "h2": [
+        "Tipos de punta y materiales compatibles",
+        "Diferencias entre cerámica y porcelanato",
+        "Cómo perforar un azulejo sin romperlo",
+        "Qué set comprar según el trabajo"
+      ],
+      "ml_query": "brocas para ceramica"
+    },
+    {
+      "id": 18,
+      "keyword": "taladro Stanley",
+      "volume": 320,
+      "kd": 16,
+      "slug": "stanley",
+      "url": "/taladros/stanley/",
+      "title": "Taladro Stanley: modelos y cuál conviene comprar",
+      "h1": "Qué taladro Stanley elegir",
+      "h2": [
+        "Modelos con cable e inalámbricos",
+        "Cuándo elegir percusión",
+        "Potencia, torque y capacidad de perforación",
+        "Comparativa de kits y precios"
+      ],
+      "ml_query": "taladro stanley"
+    },
+    {
+      "id": 19,
+      "keyword": "atornillador de impacto DeWalt",
+      "volume": 210,
+      "kd": 14,
+      "slug": "atornillador-impacto-dewalt",
+      "url": "/taladros/atornillador-impacto-dewalt/",
+      "title": "Atornillador de impacto DeWalt: cuál comprar",
+      "h1": "Qué atornillador de impacto DeWalt elegir",
+      "h2": [
+        "Diferencias entre modelos",
+        "Torque, velocidades y modos de control",
+        "Compatibilidad de puntas y baterías",
+        "Qué kit conviene comprar"
+      ],
+      "ml_query": "atornillador impacto dewalt"
+    },
+    {
+      "id": 20,
+      "keyword": "taladro inalámbrico Bosch",
+      "volume": 260,
+      "kd": 21,
+      "slug": "bosch-inalambrico",
+      "url": "/taladros/bosch-inalambrico/",
+      "title": "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir",
+      "h1": "Qué taladro inalámbrico Bosch comprar",
+      "h2": [
+        "Diferencias entre GSR y GSB",
+        "Cuándo elegir 12 V o 18 V",
+        "Compatibilidad de baterías y cargadores",
+        "Comparativa de modelos y kits"
+      ],
+      "ml_query": "taladro inalambrico bosch"
+    }
+  ]
+}

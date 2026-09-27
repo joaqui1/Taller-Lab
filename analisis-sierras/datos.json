@@ -1,0 +1,350 @@
+{
+  "summary": {
+    "total_selected": 20,
+    "source": "Semrush (sierras)",
+    "market": "Argentina",
+    "date": "2026-09-23"
+  },
+  "pages": [
+    {
+      "id": 1,
+      "keyword": "sierra circular",
+      "volume": 8100,
+      "kd": 23,
+      "slug": "circulares",
+      "url": "/sierras/circulares/",
+      "title": "Sierra circular: cuál elegir según uso y presupuesto",
+      "h1": "Cómo elegir una sierra circular para tus trabajos",
+      "h2": [
+        "Qué materiales y espesores necesitás cortar",
+        "Potencia, disco y profundidad de corte",
+        "Comparativa por presupuesto",
+        "Precios en Mercado Libre"
+      ],
+      "ml_query": "sierra circular"
+    },
+    {
+      "id": 2,
+      "keyword": "sensitiva",
+      "volume": 3600,
+      "kd": 13,
+      "slug": "sensitivas",
+      "url": "/sierras/sensitivas/",
+      "title": "Sensitiva: qué es y cuál comprar para cortar metal",
+      "h1": "Cómo elegir una sensitiva para cortar metal",
+      "h2": [
+        "Para qué sirve y qué puede cortar",
+        "Diferencias con una ingletadora",
+        "Disco, potencia y capacidad de corte",
+        "Modelos y precios en Mercado Libre"
+      ],
+      "ml_query": "sensitiva cortar metal"
+    },
+    {
+      "id": 3,
+      "keyword": "sierra sable",
+      "volume": 1900,
+      "kd": 10,
+      "slug": "sable",
+      "url": "/sierras/sable/",
+      "title": "Sierra sable: para qué sirve y cuál elegir",
+      "h1": "Sierra sable: guía de usos y compra",
+      "h2": [
+        "Qué podés cortar con una sierra sable",
+        "Con cable o a batería",
+        "Cómo elegir la hoja según el material",
+        "Comparativa y precios en Mercado Libre"
+      ],
+      "ml_query": "sierra sable"
+    },
+    {
+      "id": 4,
+      "keyword": "sierra caladora",
+      "volume": 2400,
+      "kd": 20,
+      "slug": "caladoras",
+      "url": "/sierras/caladoras/",
+      "title": "Sierra caladora: cómo elegir y qué modelos comparar",
+      "h1": "Cómo elegir una sierra caladora para madera y metal",
+      "h2": [
+        "Qué trabajos permite hacer",
+        "Potencia, velocidad y movimiento pendular",
+        "Hojas para madera, melamina y metal",
+        "Modelos por presupuesto en Mercado Libre"
+      ],
+      "ml_query": "sierra caladora"
+    },
+    {
+      "id": 5,
+      "keyword": "sierra sin fin para madera",
+      "volume": 720,
+      "kd": 8,
+      "slug": "sierra-sin-fin-para-madera",
+      "url": "/sierras/sierra-sin-fin-para-madera/",
+      "title": "Sierra sin fin para madera: cómo elegir la adecuada",
+      "h1": "Qué sierra sin fin para madera comprar",
+      "h2": [
+        "Altura de corte y ancho de garganta",
+        "Qué cinta elegir según el trabajo",
+        "Nueva o usada: qué revisar",
+        "Comparativa y precios en Mercado Libre"
+      ],
+      "ml_query": "sierra sin fin para madera"
+    },
+    {
+      "id": 6,
+      "keyword": "sierra de banco",
+      "volume": 1300,
+      "kd": 18,
+      "slug": "de-banco",
+      "url": "/sierras/de-banco/",
+      "title": "Sierra de banco: cuál elegir para tu taller",
+      "h1": "Cómo elegir una sierra de banco para madera",
+      "h2": [
+        "Sierra de banco, circular e ingletadora: diferencias",
+        "Mesa, guía paralela y capacidad de corte",
+        "Qué revisar para cortar melamina",
+        "Modelos en Mercado Libre"
+      ],
+      "ml_query": "sierra de banco madera"
+    },
+    {
+      "id": 7,
+      "keyword": "sierra sin fin para metal",
+      "volume": 480,
+      "kd": 7,
+      "slug": "sin-fin-metal",
+      "url": "/sierras/sin-fin-metal/",
+      "title": "Sierra sin fin para metal: tipos y cómo elegir",
+      "h1": "Cómo elegir una sierra sin fin para metal",
+      "h2": [
+        "Horizontal o vertical: cuál necesitás",
+        "Capacidad para tubos, perfiles y macizos",
+        "Velocidad y cinta según el material",
+        "Opciones en Mercado Libre"
+      ],
+      "ml_query": "sierra sin fin para metal"
+    },
+    {
+      "id": 8,
+      "keyword": "ingletadora einhell",
+      "volume": 320,
+      "kd": 8,
+      "slug": "ingletadoras-einhell",
+      "url": "/sierras/ingletadoras-einhell/",
+      "title": "Ingletadora Einhell: modelos y cuál conviene elegir",
+      "h1": "Qué ingletadora Einhell elegir según tus trabajos",
+      "h2": [
+        "Diferencias entre modelos",
+        "Fija o telescópica según el ancho de corte",
+        "Qué revisar antes de comprar",
+        "Comparativa de precios en Mercado Libre"
+      ],
+      "ml_query": "ingletadora einhell"
+    },
+    {
+      "id": 9,
+      "keyword": "sierra de banco einhell",
+      "volume": 210,
+      "kd": 6,
+      "slug": "de-banco-einhell",
+      "url": "/sierras/de-banco-einhell/",
+      "title": "Sierra de banco Einhell: comparativa y guía de compra",
+      "h1": "Qué sierra de banco Einhell elegir para tu taller",
+      "h2": [
+        "Modelos y capacidad de corte",
+        "Mesa, guía paralela y ajustes",
+        "Limitaciones según el trabajo",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "sierra de banco einhell"
+    },
+    {
+      "id": 10,
+      "keyword": "caladora skil",
+      "volume": 260,
+      "kd": 9,
+      "slug": "caladoras-skil",
+      "url": "/sierras/caladoras-skil/",
+      "title": "Caladora Skil: modelos, diferencias y cuál elegir",
+      "h1": "Cómo elegir una caladora Skil",
+      "h2": [
+        "Comparativa de modelos",
+        "Potencia, regulación y corte pendular",
+        "Hojas compatibles según el material",
+        "Precios en Mercado Libre"
+      ],
+      "ml_query": "caladora skil"
+    },
+    {
+      "id": 11,
+      "keyword": "guia para sierra circular",
+      "volume": 390,
+      "kd": 15,
+      "slug": "guia-para-sierra-circular",
+      "url": "/sierras/guia-para-sierra-circular/",
+      "title": "Guía para sierra circular: tipos y compatibilidad",
+      "h1": "Cómo elegir una guía para sierra circular",
+      "h2": [
+        "Guía paralela, regla y riel: diferencias",
+        "Cómo comprobar la compatibilidad",
+        "Longitud, sujeción y precisión",
+        "Guías para comprar en Mercado Libre"
+      ],
+      "ml_query": "guia para sierra circular"
+    },
+    {
+      "id": 12,
+      "keyword": "sensitiva dewalt",
+      "volume": 590,
+      "kd": 24,
+      "slug": "sensitivas-dewalt",
+      "url": "/sierras/sensitivas-dewalt/",
+      "title": "Sensitiva DeWalt: modelos y guía de compra",
+      "h1": "Sensitiva DeWalt: qué modelo elegir",
+      "h2": [
+        "Modelos y versión que estás comparando",
+        "Capacidad de corte y disco compatible",
+        "Qué revisar según la frecuencia de uso",
+        "Precios en Mercado Libre"
+      ],
+      "ml_query": "sensitiva dewalt"
+    },
+    {
+      "id": 13,
+      "keyword": "ingletadora dewalt",
+      "volume": 390,
+      "kd": 16,
+      "slug": "ingletadoras-dewalt",
+      "url": "/sierras/ingletadoras-dewalt/",
+      "title": "Ingletadora DeWalt: comparativa y guía de compra",
+      "h1": "Qué ingletadora DeWalt elegir",
+      "h2": [
+        "Modelos fijos y telescópicos",
+        "Capacidad de corte, inglete y bisel",
+        "Cuándo conviene cada modelo",
+        "Comparativa de precios en Mercado Libre"
+      ],
+      "ml_query": "ingletadora dewalt"
+    },
+    {
+      "id": 14,
+      "keyword": "ingletadora total",
+      "volume": 110,
+      "kd": 5,
+      "slug": "ingletadoras-total",
+      "url": "/sierras/ingletadoras-total/",
+      "title": "Ingletadora Total: modelos y qué revisar al comprar",
+      "h1": "Cómo elegir una ingletadora Total",
+      "h2": [
+        "Diferencias entre modelos",
+        "Disco, potencia y ancho de corte",
+        "Qué revisar en ajustes y accesorios",
+        "Precios y opciones en Mercado Libre"
+      ],
+      "ml_query": "ingletadora total"
+    },
+    {
+      "id": 15,
+      "keyword": "disco para sierra circular",
+      "volume": 170,
+      "kd": 8,
+      "slug": "disco-para-sierra-circular",
+      "url": "/sierras/disco-para-sierra-circular/",
+      "title": "Disco para sierra circular: cuál usar para cada corte",
+      "h1": "Cómo elegir un disco para sierra circular",
+      "h2": [
+        "Diámetro, eje y RPM compatibles",
+        "Cantidad de dientes y calidad del corte",
+        "Discos para madera, melamina y otros materiales",
+        "Opciones en Mercado Libre"
+      ],
+      "ml_query": "disco para sierra circular"
+    },
+    {
+      "id": 16,
+      "keyword": "sierra circular bosch gks 150",
+      "volume": 140,
+      "kd": 7,
+      "slug": "bosch-gks-150",
+      "url": "/sierras/bosch-gks-150/",
+      "title": "Bosch GKS 150: características y cuándo conviene",
+      "h1": "Sierra circular Bosch GKS 150: guía antes de comprar",
+      "h2": [
+        "Ficha técnica y capacidad de corte",
+        "Para qué trabajos conviene",
+        "Limitaciones, disco y accesorios",
+        "Qué incluye y cuánto cuesta en Mercado Libre"
+      ],
+      "ml_query": "sierra circular bosch gks 150"
+    },
+    {
+      "id": 17,
+      "keyword": "sierra circular black and decker",
+      "volume": 320,
+      "kd": 16,
+      "slug": "circulares-black-decker",
+      "url": "/sierras/circulares-black-decker/",
+      "title": "Sierra circular Black+Decker: qué modelo elegir",
+      "h1": "Cómo elegir una sierra circular Black+Decker",
+      "h2": [
+        "Diferencias entre modelos",
+        "Potencia, disco y profundidad de corte",
+        "Para qué trabajos conviene cada una",
+        "Precios en Mercado Libre"
+      ],
+      "ml_query": "sierra circular black decker"
+    },
+    {
+      "id": 18,
+      "keyword": "caladora einhell",
+      "volume": 110,
+      "kd": 6,
+      "slug": "caladoras-einhell",
+      "url": "/sierras/caladoras-einhell/",
+      "title": "Caladora Einhell: modelos con cable y a batería",
+      "h1": "Qué caladora Einhell elegir",
+      "h2": [
+        "Comparativa de modelos",
+        "Con cable o inalámbrica según el uso",
+        "Hojas, movimiento pendular y capacidad de corte",
+        "Precios y kits en Mercado Libre"
+      ],
+      "ml_query": "caladora einhell"
+    },
+    {
+      "id": 19,
+      "keyword": "sierra sable inalambrica",
+      "volume": 90,
+      "kd": 5,
+      "slug": "sierra-sable-inalambrica",
+      "url": "/sierras/sierra-sable-inalambrica/",
+      "title": "Sierra sable inalámbrica: cómo elegir y comparar",
+      "h1": "Qué sierra sable inalámbrica comprar",
+      "h2": [
+        "Modelos compactos y de dos manos",
+        "Batería, autonomía y plataforma compatible",
+        "Máquina sola o kit con batería y cargador",
+        "Comparativa en Mercado Libre"
+      ],
+      "ml_query": "sierra sable inalambrica"
+    },
+    {
+      "id": 20,
+      "keyword": "sierra circular lusqtoff",
+      "volume": 320,
+      "kd": 20,
+      "slug": "circulares-lusqtoff",
+      "url": "/sierras/circulares-lusqtoff/",
+      "title": "Sierra circular Lusqtoff: modelos y guía de compra",
+      "h1": "Qué sierra circular Lusqtoff elegir",
+      "h2": [
+        "Diferencias entre modelos",
+        "Potencia, disco y profundidad de corte",
+        "Qué revisar antes de comprar",
+        "Comparativa de precios en Mercado Libre"
+      ],
+      "ml_query": "sierra circular lusqtoff"
+    }
+  ]
+}
