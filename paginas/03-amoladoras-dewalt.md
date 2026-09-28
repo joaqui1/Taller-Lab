@@ -21,6 +21,17 @@ published: true
 
 Para una compra en Argentina, empezá por el código completo y la tensión de la variante; después definí el diámetro que requiere tu disco y el tipo de trabajo. Las referencias de la tabla tienen documentación DeWalt para Argentina o Latinoamérica. Las cifras describen las fichas y manuales, no una prueba comparativa de corte o desbaste.
 
+Como filtro rápido, empezá por la medida y alimentación que requiere tu trabajo. Los motivos de la tabla resumen datos publicados; no son un ranking de rendimiento.
+
+| Uso | Modelo | Medida | Cable/batería | Motivo para considerarlo |
+| :--- | :--- | :--- | :--- | :--- |
+| Trabajo con discos compactos de 115 mm | DWE4020-AR ([oferta afiliada](https://meli.la/2mNDqNf)) | 115 mm | Cable, 220 V | Manual regional: 800 W y 12.000 rpm; confirmar placa y sufijo en la publicación |
+| Trabajo con discos compactos de 115 mm | DWE4120-AR ([oferta afiliada](https://meli.la/13LHGQm)) | 115 mm | Cable, 220 V | Ficha argentina y manual regional; 900 W y 12.000 rpm publicados |
+| Si la tarea requiere una angular de 125 mm | DWE4212-AR | 125 mm | Cable, 220 V | Modelo regional de 1.200 W; manual de familia para accesorios de 115/125 mm |
+| Si buscás una opción cableada de 125 mm con más potencia nominal | DWE4314-AR | 125 mm | Cable, 220 V | Ficha argentina: 1.500 W y 11.000 rpm; confirmar accesorios en el manual del código |
+| Trabajo que requiere una angular grande de 180 mm | DWE4557-AR ([oferta afiliada](https://meli.la/31fLEjB)) | 180 mm | Cable, 220 V | Modelo regional de 2.400 W y 8.500 rpm publicados |
+| Prioridad a la movilidad sin cable | DCG45M, en combo DCK2225MP2T-AR | No indicado en la ficha del combo; confirmar el manual | Batería 20V XR; el combo citado incluye dos baterías de 5 Ah y cargador | DeWalt Argentina documenta el contenido del kit; falta confirmar el diámetro para compararla por medida |
+
 ## Modelos DeWalt que estamos comparando
 
 | Variante regional documentada | Disco indicado | Alimentación / tensión | Potencia publicada | Velocidad en vacío publicada |
@@ -40,6 +51,10 @@ Las DWE4020-AR y DWE4120-AR documentan discos de 115 mm. En los manuales regiona
 La DWE4212-AR y la DWE4314-AR corresponden a la familia de 125 mm. El manual regional de DWE4212/4314 enumera accesorios de 115 y 125 mm para esa familia; la página del producto DWE4314 también describe ambos formatos. Confirmá el tamaño máximo de la unidad y la guarda indicada por el código exacto, sobre todo si una publicación usa el nombre abreviado “5 pulgadas”.
 
 No intentes montar un disco más grande que el admitido por la máquina. Para comparar dimensiones compactas más allá de DeWalt, consultá la [guía de amoladoras de 115 o 125 mm](/amoladoras/115-o-125/).
+
+### Publicaciones DWE4214 y DWE4314N: confirmar variante
+
+Los enlaces recibidos corresponden a publicaciones tituladas **DWE4214** (115/125 mm, 1.200 W) y **DWE4314N** (125 mm, 1.500 W): [oferta afiliada DWE4214](https://meli.la/1xEdmtE) y [oferta afiliada DWE4314N](https://meli.la/1nUZAbK). Son códigos/sufijos distintos de las variantes **DWE4212-AR** y **DWE4314-AR** de la tabla; no les traslado automáticamente los datos de tensión ni las especificaciones regionales. Antes de comprar, pedí foto de placa, manual de ese código y confirmación del diámetro máximo permitido.
 
 ## Cable o batería
 

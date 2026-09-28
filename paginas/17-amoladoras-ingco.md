@@ -23,11 +23,11 @@ La oferta INGCO cambia según país, sufijo y armado. Para Argentina, conviene e
 
 | Necesidad | Modelo INGCO documentado para Argentina | Datos publicados | Estado y alcance de la documentación |
 | :--- | :--- | :--- | :--- |
-| Angular compacta con cable, 115 mm | AG7118-4 | 710 W; 115 mm; 220–240 V; catálogo local muestra 12.000 rpm y M14 | Listada por INGCO Store Argentina; disponibilidad cambia |
-| Más potencia nominal en formato 115 mm | AG8508-4 | 950 W; 115 mm; 220–240 V; 11.000 rpm y M14 en la ficha del AG8508 regional | El representante argentino publica el código -4; INGCO regional documenta la familia AG8508 |
+| Angular compacta con cable, 115 mm | AG7118-4 ([oferta afiliada](https://meli.la/1BuRQNe)) | 710 W; 115 mm; 220–240 V; catálogo local muestra 12.000 rpm y M14 | Listada por INGCO Store Argentina; disponibilidad cambia |
+| Más potencia nominal en formato 115 mm | AG8508-4 ([oferta afiliada](https://meli.la/1cFYHD3)) | 950 W; 115 mm; 220–240 V; 11.000 rpm y M14 en la ficha del AG8508 regional | El representante argentino publica el código -4; INGCO regional documenta la familia AG8508 |
 | Cable, disco 125 mm y velocidad variable | AG900285-4 | 900 W; 125 mm; M14; 5.000–12.000 rpm; control de velocidad; 220–240 V, IRAM | Ficha oficial INGCO Argentina |
 | Diámetro grande, 180 mm | AG200018-4 | 2.000 W; 180 mm; 8.450 rpm; M14; 220–240 V; 5,65 kg | Ficha argentina del producto; declara 12 meses de garantía |
-| Diámetro grande, 230 mm | AG24008-4 | 2.400 W; 230 mm; 220–240 V~50/60 Hz | Listado regional INGCO Argentina y tienda argentina; confirmar rpm, stock y contenido exacto |
+| Diámetro grande, 230 mm | AG24008-4 ([oferta afiliada](https://meli.la/2xnUc71)) | 2.400 W; 230 mm; 220–240 V~50/60 Hz | Listado regional INGCO Argentina y tienda argentina; confirmar rpm, stock y contenido exacto |
 | Inalámbrica 20 V, cuerpo solo | CAGLI211156 | Brushless; 115 mm; plataforma P20S; batería y cargador aparte | Figura próxima en la página del representante argentino; tienda local lista el código, su estado varía |
 | Inalámbrica 20 V en kit | CAGLI271532-4 | Brushless; 115 mm; 1.000 W máx. declarados; 2 baterías de 4 Ah, cargador y maletín | Tienda INGCO Argentina; confirmar disponibilidad y composición del lote |
 
@@ -58,11 +58,13 @@ Como kit, la CAGLI271532-4 está listada con dos baterías de 4 Ah, cargador y m
 
 Para comparar el costo real, sumá **cuerpo + batería compatible + cargador**, o contrastá ese total con el kit completo. Si ya tenés una batería INGCO P20S, comprobá que sea compatible con la amoladora y contá si necesitás otra para tu jornada. Los Ah expresan capacidad nominal, pero no permiten predecir minutos de corte sin condiciones de uso comparables.
 
+Para comparar estas configuraciones con plataformas y kits de otras marcas, seguí la [guía de amoladoras inalámbricas](/amoladoras/inalambricas/).
+
 ## Cómo decidir entre modelos
 
 - **Trabajos generales con cable y disco compacto:** compará AG7118-4 y AG8508-4 por potencia publicada, peso/contenido verificable, garantía y disponibilidad. No hay una prueba nuestra que permita declarar una como superior.
-- **Necesitás 125 mm y ajustar rpm:** revisá la AG900285-4; la ficha local especifica regulación de 5.000 a 12.000 rpm.
-- **Piezas y accesorios de mayor diámetro:** compará AG200018-4 de 180 mm con AG24008-4 de 230 mm y verificá peso, guarda, rpm, rosca, discos y servicio de la variante exacta.
+- **Necesitás 125 mm y ajustar rpm:** revisá la AG900285-4; la ficha local especifica regulación de 5.000 a 12.000 rpm. Para elegir entre diámetros compactos, consultá la [comparación de 115 o 125 mm](/amoladoras/115-o-125/).
+- **Piezas y accesorios de mayor diámetro:** compará AG200018-4 de 180 mm ([guía de 7 pulgadas](/amoladoras/7-pulgadas/)) con AG24008-4 de 230 mm ([guía de 9 pulgadas](/amoladoras/9-pulgadas/)) y verificá peso, guarda, rpm, rosca, discos y servicio de la variante exacta.
 - **Movilidad y plataforma ya iniciada:** compará CAGLI211156 solo con el costo del sistema completo y CAGLI271532-4 como kit. El kit tiene más capacidad nominal de batería instalada, pero autonomía y duración dependen de la carga, material y tarea; no publicamos una duración sin ensayo.
 
 ## Código, tensión y garantía local
@@ -76,7 +78,5 @@ Para compras locales, revisá que la etiqueta diga la tensión admitida y el di�
 - **Argentina / fabricante, importador y canal oficial:** [INGCO Argentina, catálogo de herramientas eléctricas](https://www.ingco.com.ar/herramientas-electricas); [AG200018-4, ficha local](https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html); [AG9608-4, ficha local](https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html); [INGCO Store Argentina, AG7118-4 de 115 mm](https://shop.ingcostore.ar/productos/AG7118-4/); [importador argentino, AG7118-4](https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w/); [representante argentino, AG8508-4/AG8508-14](https://www.ingcoargentina.com/index.php); [AG900285-4, ficha INGCO Argentina](https://ar.ingco.com/ar-en/product/angle-grinder/AG900285-4); [INGCO Store Argentina, AG24008-4 de 230 mm](https://shop.ingcostore.ar/productos/AG24008-4/); [INGCO Store Argentina, CAGLI211156 solo](https://shop.ingcostore.ar/productos/CAGLI211156/); [INGCO Store Argentina, kit CAGLI271532-4](https://shop.ingcostore.ar/productos/CAGLI271532-4/); [tiendas oficiales y red local INGCO](https://ingcostore.ar/).
 - **Ficha regional de apoyo:** [INGCO Chile, AG8508](https://www.ingco.com/cl-en/product/angle-grinder/AG8508); [INGCO Egipto, kit CAGLI271532](https://www.ingco.com/eg-en/product/cordless-angle-grinder/CAGLI271532). Las fichas internacionales respaldan la familia/modelo base, no prueban por sí solas oferta, garantía ni composición del SKU argentino.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [amoladoras inalámbricas](/amoladoras/inalambricas/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

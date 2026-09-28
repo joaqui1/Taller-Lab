@@ -90,10 +90,12 @@ Estos modelos amplían la comparación más allá de dos máquinas. No forman un
 
 | Modelo / código | Disco y datos publicados | Plataforma y paquete | Lo que aporta a la decisión |
 | :--- | :--- | :--- | :--- |
-| **Bosch GWS 18V-10 PC** (0 601 9G3 E0B) | 125 mm, 9.000 rpm, M14; 2,0 kg sin batería / 2,8 kg con batería | Bosch Professional 18 V; la ficha del producto consultada no incluye batería ni cargador | Formato de 125 mm y datos de peso en ambas configuraciones; declara funciones de control y freno. |
+| **Bosch GWS 18V-10 PC** (0 601 9G3 E0B; [oferta titulada “GWS 10”, código por confirmar](https://meli.la/2QuQtmd)) | 125 mm, 9.000 rpm, M14; 2,0 kg sin batería / 2,8 kg con batería | Bosch Professional 18 V; la ficha del producto consultada no incluye batería ni cargador | Formato de 125 mm y datos de peso en ambas configuraciones; declara funciones de control y freno. |
 | **INGCO CAGLI2111561-4** | 115 mm, 3.000/8.000 rpm, M14 | Kit local publicado con una batería de 4 Ah, cargador y estuche; la tienda declara entrada de cargador 220–240 V, 50/60 Hz | Opción de kit completo P20S; motor brushless y selector de dos velocidades declarados. |
 | **DeWalt DCG413H2-AR** | El fabricante documenta DCG413 de 4-1/2 in (115 mm), 9.000 rpm y 20V MAX | El vendedor local consultado ofrece dos baterías PowerStack de 5 Ah, cargador DCB1104 y bolso; verificar el paquete exacto antes de comprar | Ejemplo de kit con dos baterías; la familia 20V MAX también permite considerar herramientas compatibles. |
 | **Makita DGA467** (SKU local mostrado: DGA467Z) | 115 mm, velocidad variable publicada de 3.000–8.500 rpm; peso 2,4–3,1 kg según configuración | La página argentina tiene discrepancia: el nombre menciona DGA467RFE, el SKU dice DGA467Z y el texto afirma que no incluye batería ni cargador | No cerrar el costo ni asumir contenido de kit hasta que el vendedor confirme el código completo y la caja. |
+
+La publicación enlazada de Bosch se titula **GWS 10** y presenta campos comerciales de 18 V, 125 mm y 4.500–9.000 rpm, pero no muestra aquí el código completo para confirmar que sea **0 601 9G3 E0B / GWS 18V-10 PC**. No usamos esos campos para la tabla técnica; pedí foto de placa y manual del equipo ofrecido. El dato de “profundidad de corte de 1 m” del aviso no corresponde a una especificación que podamos atribuir a la amoladora.
 
 ## Costo de entrada: cuerpo + batería + cargador
 

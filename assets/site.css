@@ -219,6 +219,7 @@ footer p[style] { color: #96a2a1 !important; }
 .category-hub .category-hero .section-kicker { color: #ff9b62; }
 .category-hub .category-hero-copy > p { margin-top: 1rem; line-height: 1.7; }
 .category-hub .hub-byline { font-size: .8rem; }
+.hub-main-guide.markdown-body { margin-bottom: 2rem; border-top: 1px solid var(--border); border-radius: 4px; }
 .hub-byline a { color: #fff; text-decoration: underline; }
 .hub-nav { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0 0 1.5rem; }
 .hub-nav a { display: flex; align-items: center; gap: .7rem; padding: .8rem 1rem; background: var(--bg-card); border: 1px solid var(--border); color: var(--text); font-size: .86rem; font-weight: 700; }

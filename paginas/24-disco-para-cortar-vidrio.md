@@ -2,7 +2,7 @@
 title: "Disco para cortar vidrio: tipos, compatibilidad y límites"
 h1: "Disco para cortar vidrio: tipos, compatibilidad y límites"
 url: "/amoladoras/discos-vidrio/"
-description: "Discos diamantados Tork Craft documentados para vidrio y azulejos: medida, eje, RPM y límites de compatibilidad."
+description: "Discos para vidrio documentados por Tork Craft, Husqvarna y Lusqtoff: códigos, compatibilidad y límites de uso."
 author: "Joaquín Vallasciani"
 category: "Discos y accesorios"
 keywords: ["disco para cortar vidrio", "disco para cortar vidrio con amoladora", "disco corte vidrio 115mm", "disco diamantado para vidrio"]
@@ -28,8 +28,9 @@ Sí hay discos diamantados de amoladora que el fabricante declara para cortar vi
 | Botellas, vidrio, placas de piedra y azulejos | Tork Craft TCDB80115, borde continuo fino | 115 mm; eje 22,23 mm; máximo 13.300 rpm | Tipo de vidrio concreto y si la amoladora permite corte húmedo |
 | Vidrio y azulejos; corte y conformado | Tork Craft TCDB1240115, borde continuo con diseño de panal | 115 mm; eje 22,23 mm; máximo 13.300 rpm | Tipo de vidrio concreto y autorización de uso húmedo en la máquina elegida |
 | Vidrio y azulejos de vidrio | Husqvarna VARI-CUT S4, borde continuo | La ficha consultada documenta una variante 115 mm con eje 22,23 mm | La página consultada no basta para confirmar que sirva en toda amoladora ni el régimen máximo de esa variante; comprobar ficha y manual del código exacto |
+| Vidrio (uso indicado por la marca) | Lusqtoff DVC115-9 | El fabricante argentino confirma el código y lo denomina disco de corte para vidrio; comercio local lista 115 × 1,2 × 22,2 mm | Un comercio argentino lo mostraba con existencias. Las medidas y las 13.200 rpm máximas las publica el vendedor, no aparecen en texto en la ficha oficial; cotejá disco y documentación del lote antes de montarlo |
 
-El código de cada fila identifica una referencia concreta, pero las fuentes consultadas no confirman stock ni distribución en Argentina. Tampoco se ensayaron los discos. Antes de comprar o montar, verificá el código completo, el manual del accesorio y el de la máquina.
+La referencia Lusqtoff aporta un código y una oferta local verificables; el stock comercial puede cambiar. No confirmamos distribución argentina de las referencias Tork Craft y Husqvarna de la tabla. Tampoco se ensayaron los discos. Antes de comprar o montar, verificá el código completo, el manual del accesorio y el de la máquina.
 
 ## Qué tipo de vidrio cubren las fichas
 
@@ -63,6 +64,7 @@ La investigación es documental: no cortamos vidrio con estos productos ni medim
 
 - **Tork Craft, fabricante:** [TCDB80115: disco continuo fino para vidrio, placas de piedra y azulejos](https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING); [TCDB1240115: disco continuo con panal para vidrio y azulejos](https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial); [anuncio de la gama para amoladora de 115 mm](https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades).
 - **Husqvarna Construction, fabricante:** [VARI-CUT S4, aplicación para azulejo de vidrio y datos de una variante 115 × 22,23 mm](https://www.husqvarnaconstruction.com/ae/diamond-tools/diamond-blades/vari-cut-s4/).
+- **Referencia argentina Lusqtoff:** [ficha oficial DVC115-9](https://lusqtoff.com.ar/productos/DVC115-9), que lo identifica como disco de corte para vidrio; [Siglo 21, ficha comercial](https://siglo21myh.com.ar/tienda-online/disco-corte-vidrio-lusqtoff-dvc115-9-115mm/), con código y estado de existencias publicados; [Hook Mayorista](https://www.hook.ar/store/2152), vendedor local que publica dimensiones y RPM máximas.
 - **Bosch Professional, fabricante:** [ficha EXPERT Multi Material que contiene la FAQ «Which diamond cutting blade is suitable for glass?»](https://www.bosch-professional.com/gb/en/expert-multi-material-turbo-diamond-cutting-disc-3009595-ocs-ac/). La página informa la posición del catálogo Bosch y explica montaje, compatibilidad de diámetro y advertencia sobre corte húmedo con amoladoras eléctricas.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

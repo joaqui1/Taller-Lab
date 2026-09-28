@@ -37,19 +37,20 @@ Como ejemplo, Bosch describe la referencia citada para metal y acero, mientras q
 
 ## 115 vs 125 mm y otras medidas
 
-El diámetro condiciona qué amoladora puede montar el disco, el alcance y la profundidad de trabajo. No instales un diámetro mayor que el máximo previsto por la herramienta y su guarda. En la misma familia Bosch PRO Metal aparecen variantes documentadas de 115 y 125 mm con agujero de 22,23 mm; el catálogo de la gama también lista referencias de 180 y 230 mm. Cada diámetro requiere una máquina, guarda y régimen de giro compatibles.
+El diámetro condiciona qué amoladora puede montar el disco, el alcance y la profundidad de trabajo. No instales un diámetro mayor que el máximo previsto por la herramienta y su guarda. Bosch PRO Metal y Norton Clipper publican referencias de 115 mm; Bosch además muestra variantes de 125 mm con agujero de 22,23 mm y el catálogo de la gama lista referencias de 180 y 230 mm. Cada diámetro requiere una máquina, guarda y régimen de giro compatibles.
 
-| Ejemplo Bosch PRO Metal | Diámetro × espesor × agujero | Especificación publicada | Qué demuestra |
+| Fabricante y referencia | Diámetro × espesor × agujero | Especificación publicada | Material / dato adicional |
 | :--- | :--- | :--- | :--- |
-| 2 608 600 218 | 115 × 6 × 22,23 mm | A 30 T BF | Referencia de desbaste pequeña |
-| 2 608 600 223 | 125 × 6 × 22,23 mm | A 30 T BF | Variante de mayor diámetro; el código cambia |
-| 2 608 603 182 | 125 × 6 × 22,23 mm | A 24 R BF | Misma medida nominal, otra especificación |
+| Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal |
+| Bosch PRO Metal 2 608 600 223 | 125 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal; mayor diámetro de esta variante |
+| Bosch PRO Metal 2 608 603 182 | 125 × 6 × 22,23 mm | A 24 R BF | Misma medida nominal, otra especificación |
+| Norton Clipper Metal-Inox 66253371519 | 115 × 6,4 × 22,23 mm | A 30 P-BF27; óxido de aluminio | Para acero y acero inoxidable; tipo 27; velocidad máxima publicada: 80 m/s |
 
-Las dimensiones no son intercambiables por parecerse. Bosch lista más opciones de diámetro en su catálogo global; la disponibilidad local puede variar. Confirmá el código exacto y la compatibilidad en la documentación de la herramienta y del disco.
+Las dimensiones no son intercambiables por parecerse. La referencia Norton está documentada en la página española del fabricante; eso no confirma disponibilidad en Argentina. Bosch lista más opciones de diámetro en su catálogo global; la disponibilidad local puede variar. Confirmá el código exacto y la compatibilidad en la documentación de la herramienta y del disco.
 
 ## Qué significa la especificación abrasiva
 
-En el ejemplo Bosch, **A 30 T BF** es el código de especificación impreso en el producto. Bosch identifica la A con óxido de aluminio; en la convención habitual, 30 designa el tamaño de grano, la letra siguiente expresa el grado/dureza relativa del aglomerante y BF identifica un aglomerante resinoide reforzado. La equivalencia exacta de letras y comportamiento puede variar entre fabricantes: no compares dos códigos como si fueran una escala universal.
+En el ejemplo Bosch, **A 30 T BF** es el código de especificación impreso en el producto. Bosch identifica la A con óxido de aluminio; en la convención habitual, 30 designa el tamaño de grano, la letra siguiente expresa el grado/dureza relativa del aglomerante y BF identifica un aglomerante resinoide reforzado. Norton también identifica óxido de aluminio en la referencia **A 30 P-BF27**, pero no trasladamos la interpretación de las letras de una marca a otra ni comparamos ambos códigos como una escala universal.
 
 El número 30 de un disco rígido no es directamente equivalente a los granos P40, P60, P80 o P120 de un disco flap, que es un abrasivo revestido. En general, una granulometría más gruesa quita material con mayor rapidez y deja una marca más visible; una más fina prioriza una terminación más suave y puede trabajar más despacio. Elegí según el resultado buscado y la tabla del fabricante, no solo por el número.
 
@@ -84,7 +85,7 @@ No encontramos una comparación verificable de precio y vida útil entre discos 
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch PRO Metal para desbaste, catálogo Argentina](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [ficha Bosch de la gama PRO Metal para diámetros grandes](https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/); [catálogo Bosch de accesorios y especificaciones](https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf); [guía Norton sobre estructura y marcado de ruedas abrasivas](https://www.nortonabrasives.com/en-us/grinding-wheel-basics); [manual Bosch de amoladoras angulares](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).
+- **Documentación primaria:** [Bosch PRO Metal para desbaste, catálogo Argentina](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [Norton Clipper Metal-Inox para amoladora angular, variantes, materiales y velocidad máxima](https://www.nortonabrasives.com/es-es/productos/clipper-para-desbaste-con-amoladora-angular-en-metal-e-inox); [ficha Bosch de la gama PRO Metal para diámetros grandes](https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/); [catálogo Bosch de accesorios y especificaciones](https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf); [guía Norton sobre estructura y marcado de ruedas abrasivas](https://www.nortonabrasives.com/en-us/grinding-wheel-basics); [manual Bosch de amoladoras angulares](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).
 - **Seguridad:** verificá en la etiqueta que el accesorio sea apropiado para la herramienta y operación; no excedas las rpm indicadas ni retires la guarda.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

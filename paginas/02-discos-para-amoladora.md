@@ -19,15 +19,15 @@ published: true
 
 # Discos para amoladora: cuál usar según el trabajo
 
-Primero definí la operación y el material. Después elegí el tipo de disco cuya ficha incluya ese trabajo, y comprobá que sea compatible con tu amoladora. Que dos accesorios tengan el mismo diámetro o agujero no significa que sirvan para lo mismo.
+Seguí este recorrido: **operación → material → tipo de disco → guía específica**. Después comprobá la compatibilidad con tu amoladora: que dos accesorios tengan el mismo diámetro o agujero no significa que sirvan para lo mismo.
 
-| Quiero… | Elegí… | Guía para profundizar |
-| :--- | :--- | :--- |
-| Cortar metal | Disco abrasivo de corte para el metal indicado | [Discos de corte para amoladora](/amoladoras/disco-de-corte/) |
-| Desbastar metal | Disco rígido de desbaste, identificado para el metal | [Disco de desbaste](/amoladoras/disco-de-desbaste/) |
-| Terminar o lijar metal | Disco flap del abrasivo, grano y forma adecuados | [Cómo elegir un disco flap](/amoladoras/disco-flap/) |
-| Cortar hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
-| Cortar cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+| Operación | Material | Tipo de disco | Guía específica |
+| :--- | :--- | :--- | :--- |
+| Cortar | Metal | Disco abrasivo de corte para el metal indicado | [Discos de corte para amoladora](/amoladoras/disco-de-corte/) |
+| Desbastar | Metal | Disco rígido de desbaste, identificado para el metal | [Disco de desbaste](/amoladoras/disco-de-desbaste/) |
+| Terminar o lijar | Metal | Disco flap del abrasivo, grano y forma adecuados | [Cómo elegir un disco flap](/amoladoras/disco-flap/) |
+| Cortar | Hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
+| Cortar | Cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | [Discos para cerámica](/amoladoras/discos-ceramica/) |
 
 Esta ruta sirve para acotar la elección; no reemplaza la etiqueta del accesorio ni el manual de la máquina. Para vidrio, madera, aluminio u otro material que no aparezca expresamente en la ficha, no deduzcas compatibilidad por semejanza: buscá un disco y una herramienta con aplicación documentada.
 

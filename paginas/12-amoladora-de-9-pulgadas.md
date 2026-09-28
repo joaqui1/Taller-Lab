@@ -30,6 +30,17 @@ Una amoladora de **9 pulgadas** usa un disco nominal de **230 mm**. Tiene sentid
 
 Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no confirman que haya stock en todos los distribuidores. Verificá disponibilidad local y el código exacto antes de comprar.
 
+## Peso, potencia y funciones
+
+| Modelo documentado | Disco | Potencia publicada | Velocidad en vacío | Peso publicado | Funciones/datos destacados |
+|---|---:|---:|---:|---:|---|
+| Bosch GWS 25-230, cód. 0 601 8F4 1H0 ([oferta afiliada](https://meli.la/24LpMmr)) | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
+| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 ([oferta afiliada](https://meli.la/33JWgGN)) | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
+| Makita GA9020 ([oferta afiliada](https://meli.la/21s58cx)) | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
+| Stanley STGL2223-AR ([oferta afiliada; confirmar sufijo y tensión](https://meli.la/2mkrd45)) | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
+
+Los valores de peso no siempre se presentan con el mismo criterio; por ejemplo, la ficha Makita publica un rango. Tomalos como datos de catálogo y confirmá qué incluye la medición y el kit de la variante ofrecida. No inferimos cuál es “mejor” a partir de potencia, peso o funciones declaradas: ergonomía y rendimiento requieren comparación en condiciones equivalentes.
+
 ## Cuándo tiene sentido 230 mm
 
 El formato de 230 mm puede ser apropiado para cortes o desbastes donde el diámetro requerido y el tamaño de la pieza hacen útil una angular grande. Bosch describe sus amoladoras grandes para corte y desbastado exigentes; Makita presenta la GA9020 para corte y desbaste de metal en herrería, construcción, tornería, instalaciones y plomería. Son usos declarados por los fabricantes, no una recomendación para cualquier material o montaje.
@@ -41,17 +52,6 @@ Antes de subir de tamaño, considerá también el peso, el espacio para mover la
 La diferencia nominal entre los discos es de 50 mm de diámetro, o 25 mm de radio. Eso **no equivale** a 25 mm más de profundidad de corte en la pieza. El alcance efectivo depende de la geometría del cabezal, la guarda, el disco nuevo o gastado, la posición de trabajo y la forma y apoyo del material. Para una capacidad de corte real, buscá el dato de profundidad del fabricante para el modelo exacto; si no aparece, queda sin confirmar.
 
 La comparación de dos Bosch de la familia GWS 25 muestra además que los números de potencia y RPM pertenecen a cada modelo: el GWS 25-180 LVI R publica 2.500 W y 8.500 rpm en vacío; el GWS 25-230 publica 2.500 W y 6.500 rpm. El diámetro por sí solo no determina potencia, velocidad bajo carga ni capacidad de corte.
-
-## Peso, potencia y funciones
-
-| Modelo documentado | Disco | Potencia publicada | Velocidad en vacío | Peso publicado | Funciones/datos destacados |
-|---|---:|---:|---:|---:|---|
-| Bosch GWS 25-230, cód. 0 601 8F4 1H0 | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
-| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
-| Makita GA9020 | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
-| Stanley STGL2223-AR | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
-
-Los valores de peso no siempre se presentan con el mismo criterio; por ejemplo, la ficha Makita publica un rango. Tomalos como datos de catálogo y confirmá qué incluye la medición y el kit de la variante ofrecida. No inferimos cuál es “mejor” a partir de potencia, peso o funciones declaradas: ergonomía y rendimiento requieren comparación en condiciones equivalentes.
 
 ## Qué profundidad no puede deducirse solo del diámetro
 

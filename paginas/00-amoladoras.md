@@ -19,8 +19,6 @@ published: true
 
 # Qué amoladora comprar según el trabajo y el presupuesto
 
-La elección empieza por la tarea y el material; después se define el tipo de máquina y el diámetro de disco o muela que admite. Para trabajos manuales generales, una angular de 115 o 125 mm suele ser más manejable. Si necesitás mayor alcance de corte o desbaste, evaluá 180 o 230 mm, aceptando una herramienta más grande y exigente de controlar. Para afilar en un puesto fijo corresponde una amoladora de banco; para trabajar en zonas estrechas con puntas pequeñas, una recta.
-
 | Trabajo | Tipo de amoladora | Medida orientativa | Alimentación habitual | Guía específica |
 | :--- | :--- | :--- | :--- | :--- |
 | Cortes y desbastes manuales en piezas pequeñas o medianas | Angular compacta | 115 o 125 mm | Cable o batería, según disponibilidad y carga de trabajo | [115 o 125 mm: diferencias para elegir](/amoladoras/115-o-125/) |
@@ -29,6 +27,8 @@ La elección empieza por la tarea y el material; después se define el tipo de m
 | Afilar o desbastar piezas en un puesto fijo | De banco | Muela de 150 o 200 mm, según máquina | Cable | [Amoladoras de banco](/amoladoras/de-banco/) |
 | Rectificar o desbastar zonas estrechas con puntas compatibles | Recta | No usa los discos angulares de 115–230 mm; comprobar pinza y accesorio | Eléctrica o neumática, según equipo e instalación | [Amoladoras rectas](/amoladoras/recta/) |
 | Trabajar lejos de un tomacorriente o evitar el cable en tareas puntuales | Angular inalámbrica | Frecuentemente 115 o 125 mm; depende del modelo | Batería de la plataforma indicada por el fabricante | [Amoladoras inalámbricas](/amoladoras/inalambricas/) |
+
+La elección empieza por la tarea y el material; después se define el tipo de máquina y el diámetro de disco o muela que admite. Para trabajos manuales generales, una angular de 115 o 125 mm suele ser más manejable. Si necesitás mayor alcance de corte o desbaste, evaluá 180 o 230 mm, aceptando una herramienta más grande y exigente de controlar. Para afilar en un puesto fijo corresponde una amoladora de banco; para trabajar en zonas estrechas con puntas pequeñas, una recta.
 
 La medida de la tabla es una orientación para filtrar familias, no una autorización para montar cualquier accesorio de ese diámetro. Antes de elegir, verificá en el manual del modelo el diámetro, el eje, la guarda y las rpm admitidas para el trabajo y el accesorio. No adaptes una máquina para usar una medida mayor a la indicada.
 
@@ -101,7 +101,7 @@ Las fichas oficiales consultadas permiten ilustrar tres tamaños, pero no repres
 | :--- | ---: | ---: | ---: | ---: |
 | GWS 9-115 S | 115 mm | 900 W | 2.800–11.000 rpm | 1,9 kg |
 | GWS 25-180 LVI R | 180 mm | 2.500 W | 8.500 rpm | No consta en el recorte consultado |
-| GWS 25-230 | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
+| GWS 25-230 ([oferta afiliada](https://meli.la/24LpMmr)) | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
 
 **Alcance de los datos:** cada fila corresponde al modelo nombrado en la ficha Bosch. La ficha del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos consultados y no se estima por analogía. Las herramientas vendidas en distintos mercados pueden variar en tensión, código, interruptor y equipamiento.
 

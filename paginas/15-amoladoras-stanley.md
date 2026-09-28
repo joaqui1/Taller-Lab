@@ -23,9 +23,9 @@ Stanley Argentina lista varias amoladoras angulares con cable de **115 mm**, ent
 
 | Modelo | Mercado/fuente | Disco | Dato principal publicado | Qué tener presente |
 |---|---|---:|---:|---|
-| STGS7115-AR | Argentina | 115 mm | 710 W; manual: 11.000 rpm y 2,1 kg | Ficha local con 2 años de garantía limitada |
-| STGS8115-AR | Argentina | 115 mm | 850 W; manual: 11.000 rpm y 2,2 kg | Ficha local con 2 años de garantía limitada |
-| STGS9115-AR | Argentina | 115 mm | 900 W; manual: 12.000 rpm y 1,9 kg | Manual separa tensión/frecuencia por sufijo regional |
+| STGS7115-AR ([oferta afiliada; confirmar sufijo y tensión](https://meli.la/1aZ9J59)) | Argentina | 115 mm | 710 W; manual: 11.000 rpm y 2,1 kg | Ficha local con 2 años de garantía limitada |
+| STGS8115-AR ([oferta afiliada; confirmar sufijo y tensión](https://meli.la/2PxaVDv)) | Argentina | 115 mm | 850 W; manual: 11.000 rpm y 2,2 kg | Ficha local con 2 años de garantía limitada |
+| STGS9115-AR ([oferta afiliada; confirmar sufijo y tensión](https://meli.la/33ypj4z)) | Argentina | 115 mm | 900 W; manual: 12.000 rpm y 1,9 kg | Manual separa tensión/frecuencia por sufijo regional |
 | SCG400-B3 | México; V20 regional | 115 mm | 18 V nominales / 20 V máx.; 9.000 rpm | Herramienta sola, sin batería ni cargador; no prueba disponibilidad local |
 
 Las especificaciones de las tres herramientas con cable se contrastan con manuales Stanley; la lista argentina del fabricante confirma los códigos comercializados en su catálogo online. La potencia o las rpm en vacío no predicen por sí solas la velocidad de corte ni el rendimiento bajo carga.
@@ -49,6 +49,8 @@ Encontramos dos tipos de oferta oficial regional para la **SCG400** de 115 mm:
 - **SCG400-B3, herramienta sola:** la página Stanley México dice expresamente que no incluye batería ni cargador. El manual Stanley indica 18 V nominales (20 V máx.), 9.000 rpm y disco de 115 mm.
 - **SCG400M2K-B2, kit:** la página Stanley Perú lista la SCG400, dos baterías V20 de 4 Ah, cargador de 2 A y maleta. Ese sufijo y contenido pertenecen a la oferta peruana consultada; no los des por incluidos en una unidad vendida en Argentina.
 
+También recibimos una [oferta afiliada titulada SCG400-AR, 20 V y 115 mm](https://meli.la/21HUobE). Ese código no es el SCG400-B3 ni el SCG400M2K-B2 documentados arriba, y no encontramos una ficha oficial argentina de la variante `-AR`; verificá código, contenido, cargador y garantía con el vendedor antes de comprar.
+
 Argentina tiene un sistema V20 de Stanley con baterías intercambiables, pero la página local de productos V20 consultada no lista una amoladora. Para evaluar una importada, sumá el costo de herramienta, batería y cargador y confirmá garantía, servicio y repuestos en Argentina por escrito.
 
 ## Diferencias de códigos regionales
@@ -70,7 +72,7 @@ Stanley Argentina ofrece un buscador de **centros de servicio** y otro de distri
 | Una angular local de 115 mm para trabajos generales | STGS7115-AR | 710 W y 11.000 rpm documentados |
 | Una versión con más potencia nominal dentro de la línea local de 115 mm | STGS8115-AR o STGS9115-AR | 850 W o 900 W publicados; verificá peso, RPM, interruptor y accesorios en el manual de cada una |
 | Trabajar sin cable y ya tener batería V20 compatible | SCG400-B3 | Referencia regional de 115 mm; herramienta sola |
-| Empezar una plataforma inalámbrica con batería y cargador incluidos | SCG400M2K-B2 | El kit peruano incluye dos baterías de 4 Ah y cargador; confirmar la oferta y garantía del país donde se compra |
+| Empezar una plataforma inalámbrica con batería y cargador incluidos | SCG400M2K-B2 ([oferta afiliada](https://meli.la/32i4UNt)) | El kit peruano incluye dos baterías de 4 Ah y cargador; confirmar la oferta y garantía del país donde se compra |
 
 No llamamos “mejor” a un modelo por su potencia. Elegí por material y tipo de disco, tamaño permitido, alimentación, contenido del paquete y soporte al que realmente podés acceder.
 

@@ -25,10 +25,10 @@ La diferencia entre máquina sola y kit cambia el costo real. Antes de comparar 
 
 | Modelo/código | Alimentación | Medida y velocidad documentadas | Qué lo distingue |
 |---|---|---|---|
-| AML850-8 | Cable, 220 V~50 Hz | 115 mm; 11.000 rpm | 850 W, velocidad fija |
-| AML1010-8 | Cable, 220 V~50 Hz | Hasta 125 mm; 0–11.000 rpm | 1.010 W y seis posiciones de velocidad |
-| AML115-9B | Batería, 18 V | 115 mm; hasta 8.500 rpm | Herramienta sola: no incluye batería ni cargador |
-| AML115-9BK | Batería, 18 V | 115 mm; tres velocidades: 6.500/7.000/8.500 rpm | Kit con dos baterías de 4 Ah, cargador y accesorios |
+| AML850-8 ([oferta afiliada](https://meli.la/2YseJTk)) | Cable, 220 V~50 Hz | 115 mm; 11.000 rpm | 850 W, velocidad fija |
+| AML1010-8 ([oferta afiliada](https://meli.la/1GVNNxZ)) | Cable, 220 V~50 Hz | Hasta 125 mm; 0–11.000 rpm | 1.010 W y seis posiciones de velocidad |
+| AML115-9B ([oferta afiliada, cuerpo solo](https://meli.la/2Fjr3cp)) | Batería, 18 V | 115 mm; hasta 8.500 rpm | Herramienta sola: no incluye batería ni cargador |
+| AML115-9BK ([oferta afiliada, kit](https://meli.la/2iXGb4r)) | Batería, 18 V | 115 mm; tres velocidades: 6.500/7.000/8.500 rpm | Kit con dos baterías de 4 Ah, cargador y accesorios |
 
 Los datos describen fichas y catálogo del fabricante; no son una prueba comparativa de rendimiento. La potencia eléctrica, las RPM máximas y el diámetro admitido no permiten por sí solos anticipar la velocidad de corte o la duración de un trabajo.
 
@@ -50,6 +50,8 @@ Su configuración es sencilla: disco de 115 mm y velocidad fija. Tiene sentido c
 | Peso indicado | 2,60 kg | 2,60 kg |
 
 La AML1010-8 agrega 160 W nominales, compatibilidad documentada con disco de hasta 125 mm y regulación de velocidad. No significa que siempre trabaje más rápido ni que sea la elección automática: el ajuste de velocidad sirve cuando el accesorio y la tarea admiten distintos regímenes. En ambas, verificá que el disco sea compatible con el diámetro, eje y RPM de la máquina.
+
+Para comparar cuándo la regulación de velocidad resulta útil en otras máquinas, consultá la [guía de amoladoras de velocidad variable](/amoladoras/velocidad-variable/). Si la decisión es entre disco de 115 y 125 mm, usá también la [comparativa de esas medidas](/amoladoras/115-o-125/).
 
 ## Qué implica Iron Volt
 

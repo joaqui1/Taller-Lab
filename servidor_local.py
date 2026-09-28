@@ -1801,12 +1801,14 @@ def render_category_page(section_id):
     trunk = next((a for a in articles if a["url"] == f"/{section_id}/"), None)
     nav = "".join(f'<a href="#{anchor}"><span>{i:02d}</span>{label}</a>' for i, (_, anchor, label, _) in enumerate(HUB_STEPS, 1))
     criteria = "".join(f'<li>{escape(item)}</li>' for item in editorial["criteria"])
+    main_guide = render_article_page(trunk, embedded=True) if trunk and section_id == "amoladoras" else ""
     sections = []
     for i, (key, anchor, label, desc) in enumerate(HUB_STEPS, 1):
         cards = "".join(render_article_card(a, badge_text=label.upper(), action_text="Leer guía") for a in groups[key] if a != trunk)
         extra = ""
         if key == "general" and trunk:
-            extra = f'<details class="hub-documental"><summary>Leer guía principal documentada: {escape(trunk["h1"])}</summary>{render_article_page(trunk, embedded=True)}</details>'
+            if section_id != "amoladoras":
+                extra = f'<details class="hub-documental"><summary>Leer guía principal documentada: {escape(trunk["h1"])}</summary>{render_article_page(trunk, embedded=True)}</details>'
         if key == "marcas" and section_id == "soldadura-electronica":
             cards = "".join(f'<a class="hub-brand-link" href="{a["url"]}">{escape(a["title"])}</a>' for a in groups["modelos"])
             extra = '<p class="hub-note">Las guías disponibles de Gadnic y YiHUA comparan modelos concretos; no representan toda la gama de cada marca.</p>'
@@ -1818,6 +1820,7 @@ def render_category_page(section_id):
     content = f'''<div class="article-container category-hub">
       <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
       <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
+      {main_guide}
       <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
       <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
       {"".join(sections)}
@@ -1960,6 +1963,9 @@ def render_article_page(article, embedded=False):
     </section>'''
     if resource:
         transparency_html = f'<details class="research-detail"><summary>Método, revisión y alcance de la evidencia</summary>{transparency_html}</details>'
+
+    if embedded:
+        return f'<div class="hub-main-guide markdown-body">{rendered_body}</div>'
         
     if article["url"] == f"/{article['section']}/":
         breadcrumb_html = f"""<a href="/">Inicio</a> <span>/</span> <span style="color: #ffffff;">{sec_meta['name']}</span>"""

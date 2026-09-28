@@ -48,9 +48,9 @@ Los rangos siguientes son los publicados por cada fabricante para los códigos i
 
 | Modelo | Tensión publicada | Potencia | Disco máximo | Rango de velocidad en vacío | Eje |
 | :--- | :--- | ---: | ---: | :--- | :--- |
-| [Bosch GWS 12-125 S, cód. 0 601 3A6 0H0](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0) | 220 V | 1200 W | 125 mm | 2800–11.000 rpm | M14 |
-| [Dowen Pagio 9993224.2](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm) | 220 V, 50 Hz | 1250 W | 115/125 mm | 4000–12.000 rpm | M14 |
-| [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
+| [Bosch GWS 12-125 S, cód. 0 601 3A6 0H0](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0) ([oferta afiliada](https://meli.la/1jco51q)) | 220 V | 1200 W | 125 mm | 2800–11.000 rpm | M14 |
+| [Dowen Pagio 9993224.2](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm) ([oferta afiliada](https://meli.la/1x65DAe)) | 220 V, 50 Hz | 1250 W | 115/125 mm | 4000–12.000 rpm | M14 |
+| [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) ([oferta afiliada](https://meli.la/1KHbTXG)) | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
 
 Los mínimos y máximos describen el recorrido declarado del regulador. No son una prueba comparativa de potencia útil, precisión del selector, temperatura o rendimiento bajo carga. En el caso de Dowen, la ficha publica explícitamente la compatibilidad con discos de 115 y 125 mm; para los otros modelos, indica 125 mm como diámetro máximo.
 

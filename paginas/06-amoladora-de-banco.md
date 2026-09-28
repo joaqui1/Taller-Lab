@@ -74,7 +74,7 @@ La velocidad máxima admitida por la muela debe ser igual o superior a la veloci
 | Referencia de máquina | Medida de muela documentada | Velocidad publicada |
 | :--- | :--- | :--- |
 | Bosch GBG 35-15 | 150 × 20 mm; agujero 12,7/20 mm según variante/manual | 3.000 rpm a 50 Hz |
-| Lusqtoff AB-375 | 150 × 16 × 12,7 mm | 2.950 rpm |
+| Lusqtoff AB-375 ([oferta afiliada](https://meli.la/25xDSzM)) | 150 × 16 × 12,7 mm | 2.950 rpm |
 | Bosch GBG 60-20 | 200 × 25 × 32 mm | 3.000 rpm a 50 Hz; 3.600 rpm a 60 Hz |
 | Makita GB801 | 205 × 19 × 15,88 mm | 2.850 rpm a 50 Hz; 3.450 rpm a 60 Hz |
 

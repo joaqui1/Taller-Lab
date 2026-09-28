@@ -19,7 +19,7 @@ published: true
 
 # Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W
 
-La **Skil 9004** es la variante de 830 W para disco de 115 mm; la **9002** documentada tiene 700 W y el mismo diámetro. El manual de Skil identifica las versiones argentinas como **9004AR y 9002AR**, con alimentación de **220 V**. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontré una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
+La **Skil 9004** es la variante de 830 W para disco de 115 mm; el manual de Skil identifica las versiones argentinas **9004AR y 9002AR**, ambas de **220 V**, y especifica 700 W para 9002AR. [Consultar la oferta afiliada de 9004](https://meli.la/1ruBvJN), confirmando la placa y la tensión. También recibimos una [oferta afiliada de 9002](https://meli.la/1AK4cis): su título anuncia 650 W, en discrepancia con los 700 W del manual. Mantengo el dato del manual y no tomo los 650 W del aviso como especificación confirmada; pedí foto de placa y código antes de comprar. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontré una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
 
 | Dato del manual Skil 9002/9004 | 9002AR | 9004AR |
 |---|---:|---:|
@@ -56,7 +56,7 @@ El manual advierte que los accesorios ilustrados o descriptos pueden no venir in
 
 Las garantías publicadas no son uniformes: las páginas comerciales consultadas muestran plazos distintos según modelo y vendedor. No encontré una ficha oficial vigente de Skil Argentina que permita afirmar un plazo actual común a 9002AR y 9004AR. Antes de comprar, pedí que el vendedor indique por escrito quién brinda la garantía, por cuánto tiempo, dónde se tramita y qué código figura en la factura; no tomes el plazo de una publicación como garantía aplicable a cualquier sufijo.
 
-Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está disponible o necesitás una compra con información vigente, compará las amoladoras de [115 o 125 mm](/115-o-125/) y elegí por código, tensión, diámetro, peso y accesorios, no solo por los watts.
+Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está disponible o necesitás una compra con información vigente, compará las amoladoras de [115 o 125 mm](/amoladoras/115-o-125/) y elegí por código, tensión, diámetro, peso y accesorios, no solo por los watts.
 
 ## Fuentes consultadas
 

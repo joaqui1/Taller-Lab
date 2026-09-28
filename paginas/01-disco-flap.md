@@ -19,6 +19,17 @@ published: true
 
 # Disco flap: cómo elegir grano, medida y abrasivo
 
+Usá esta matriz como punto de partida: el grano y la forma dependen del trabajo y de lo que autorice la ficha del disco.
+
+| Necesidad | Grano orientativo | Forma a considerar | Qué comprobar |
+| :--- | :--- | :--- | :--- |
+| Remover rebabas o bastante material | 40, si la ficha admite la operación | T29 para cantos y contornos; en caras planas, seguir la recomendación del modelo | Metal admitido, presión/ángulo de contacto y RPM máximas |
+| Desbaste intermedio o transición | 60 | T29 en cantos/contornos; T27 en plano solo si la aplicación y el fabricante lo respaldan | Mineral, respaldo, material y compatibilidad con la guarda |
+| Suavizar marcas de desbaste o preparar la superficie | 80 | T27 para caras planas; T29 para contornos si lo indica la ficha | Acabado esperado, presión recomendada y código exacto |
+| Acabado más fino o preparación ligera | 120, si existe para ese producto y material | T27 en plano como orientación; para T29, respetar ángulo e indicación del fabricante | Que ese grano, forma y material estén ofrecidos en la misma familia |
+
+La tabla no es una regla universal ni garantiza un acabado: mineral, construcción de las láminas, pieza, presión y técnica también influyen. Las orientaciones de forma se deben confirmar en la ficha del disco concreto.
+
 Un disco flap reúne láminas de abrasivo revestido solapadas sobre un plato de respaldo. Sirve para desbastar y combinar ese trabajo con una terminación más uniforme en una sola operación, cuando la forma, el abrasivo y la máquina son compatibles. La selección se hace por material y trabajo, y luego por grano, forma, diámetro y rpm.
 
 ## Para qué sirve un disco flap

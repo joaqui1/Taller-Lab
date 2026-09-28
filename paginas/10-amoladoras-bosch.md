@@ -25,9 +25,9 @@ No hay una única Bosch para todos los trabajos. Empezá por el diámetro que ne
 
 | Perfil de uso | Modelos documentados | Diferencia útil para elegir |
 | :--- | :--- | :--- |
-| Angular de 115 mm con cable, gama compacta | GWS 700 y GWS 850 | La GWS 700 publica 710 W y 12.000 rpm; GWS 850, 850 W y 11.000 rpm. Ambas son 220 V en los códigos citados. |
-| Angular de 125 mm con cable y velocidad regulable | GWS 9-125 S | 900 W, rango de 2.800–11.000 rpm y una variante de 220 V identificada por código. |
-| Angular de 125 mm a batería | GWS 180-LI | Plataforma Bosch Professional 18 V; cuerpo documentado con peso publicado con y sin batería. |
+| Angular de 115 mm con cable, gama compacta | GWS 700 ([oferta afiliada](https://meli.la/1ZnbPHq)) y GWS 850 ([oferta afiliada](https://meli.la/1hDoFyN)) | La GWS 700 publica 710 W y 12.000 rpm; GWS 850, 850 W y 11.000 rpm. Ambas son 220 V en los códigos citados. |
+| Angular de 125 mm con cable y velocidad regulable | GWS 9-125 S ([oferta afiliada, 220 V](https://meli.la/2gxfffm)) | 900 W, rango de 2.800–11.000 rpm y una variante de 220 V identificada por código. |
+| Angular de 125 mm a batería | GWS 180-LI ([oferta afiliada](https://meli.la/27U6siB)) | Plataforma Bosch Professional 18 V; cuerpo documentado con peso publicado con y sin batería. |
 | Alternativa de 115 mm con cable | GWS 770 | Ficha Bosch Brasil de 220 V; confirmar código, distribución y garantía en la oferta argentina. |
 
 ## GWS 700 vs GWS 850
@@ -45,17 +45,23 @@ Las dos son amoladoras compactas con cable y disco de 115 mm; lo que publica Bos
 
 La GWS 850 declara **140 W más** y **1.000 rpm menos** en vacío que la GWS 700. Eso distingue sus datos nominales, pero no demuestra que corte más rápido o que soporte mejor un trabajo concreto. El peso de la 850 no queda uniforme entre la ficha argentina y el catálogo; no lo usamos para afirmar cuál es más liviana sin confirmar configuración y código de la unidad.
 
+Si estás eligiendo el tamaño compacto más allá de la marca, consultá la [comparación de amoladoras de 115 o 125 mm](/amoladoras/115-o-125/).
+
 ## GWS 9-125 S
 
 La GWS 9-125 S amplía la familia a **125 mm** y agrega selección de velocidad. Bosch Argentina documenta la variante de **220 V con código de pedido 0 601 396 1H0**: 900 W, 2.800–11.000 rpm, M14 y 1,9 kg.
 
 **El nombre GWS 9-125 S no identifica por sí solo la tensión.** La ficha argentina también muestra el código 0 601 396 1D0, cuya tensión publicada es 127 V. No trasladamos las especificaciones de un sufijo a otro. Si una publicación local no muestra la placa ni el código completo, pedí una foto y confirmación de tensión antes de pagar.
 
+Para comparar esta función con otras máquinas, consultá la [guía de amoladoras de velocidad variable](/amoladoras/velocidad-variable/).
+
 ## GWS 180-LI
 
 Es la alternativa inalámbrica Bosch Professional de **18 V** con disco de **125 mm**, 11.000 rpm y eje M14. Bosch declara 1,6 kg sin batería y 2,2 kg con batería instalada, y describe el motor brushless como equivalente a una herramienta con cable de 700 W. Esa equivalencia es una afirmación del fabricante, no un ensayo de TallerLab.
 
 La variante argentina consultada viene en caja con guarda, brida, tuerca, empuñadura y llave; la lista de contenido no incluye batería ni cargador. Si ya tenés herramientas Bosch Professional 18 V, verificá compatibilidad de batería y cargador; si empezás de cero, sumá ambos al precio de entrada y comprobá el código del pack/cargador local.
+
+Para comparar plataformas, kits y costos de otras marcas, seguí con la [guía de amoladoras inalámbricas](/amoladoras/inalambricas/).
 
 ## Modelo según trabajo
 

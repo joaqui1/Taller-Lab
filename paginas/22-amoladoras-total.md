@@ -23,9 +23,9 @@ Para comparar Total en Argentina conviene empezar por el **código completo**, i
 
 | Si necesitás… | Modelo con oferta local documentada | Datos publicados para el SKU | Qué mirar |
 | :--- | :--- | :--- | :--- |
-| Una máquina compacta de 115 mm | [TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm) | 710 W, 115 mm, 12.000 rpm, M14 | Confirmá que placa y caja digan el sufijo **-4** y sean compatibles con la red local. |
-| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/) | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
-| Una máquina para disco de 180 mm | [TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html) | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
+| Una máquina compacta de 115 mm | [TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm) ([oferta afiliada](https://meli.la/1WnXJFJ)) | 710 W, 115 mm, 12.000 rpm, M14 | Confirmá que placa y caja digan el sufijo **-4** y sean compatibles con la red local. |
+| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/) ([oferta afiliada](https://meli.la/2BE54o4)) | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
+| Una máquina para disco de 180 mm | [TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html) ([oferta afiliada](https://meli.la/2E31egQ)) | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
 
 Las páginas enlazadas mostraban disponibilidad comercial en Argentina al revisarlas el 28/09/2026; el stock y el precio pueden cambiar. La tabla no declara un “mejor modelo”: las tres medidas cubren configuraciones distintas y la elección depende del disco necesario y de la tarea.
 
@@ -43,6 +43,22 @@ Las dos páginas extranjeras que originaron la discrepancia hablan del código *
 
 Las fichas extranjeras no bastan para explicar por qué difieren entre sí: no identifican el sufijo `-4` de la variante documentada para Argentina. Lo que sí encontramos para el código local completo `TG10711576-4` es una especificación regional de 12.000 rpm, respaldada por el catálogo y una ficha argentina. Usamos esa cifra solo para ese SKU y no atribuimos la diferencia exclusivamente al sufijo; en la unidad concreta, prevalecen la placa/manual de la amoladora y las RPM máximas marcadas en el disco.
 
+## 115 vs 125 vs 180 mm dentro de Total
+
+La medida sirve para descartar máquinas que no admiten el disco que requiere el trabajo; no alcanza por sí sola para decidir cuál rinde más.
+
+- **115 mm — TG10711576-4:** formato compacto para trabajos donde alcanza un disco de ese diámetro y conviene maniobrar en una herramienta más chica. Elegila si tus accesorios y la tarea están planteados para 115 mm.
+- **125 mm — TG109125565-4:** alternativa cuando necesitás específicamente discos de 125 mm. Este código además ofrece velocidad variable según el catálogo regional; la regulación puede ser útil con accesorios compatibles que indiquen trabajar a distintas velocidades.
+- **180 mm — TG12018026-4:** corresponde a tareas que requieren una máquina y un disco de ese formato. Implica un conjunto de mayor tamaño que los modelos compactos; verificá que puedas controlarlo cómodamente y que la guarda, el disco y la operación sean compatibles.
+
+No deduzcas profundidad de corte, peso ni comodidad solo a partir del diámetro nominal. Revisá manual y placa del modelo, tipo de disco permitido, guarda y posición de trabajo antes de comprar.
+
+## Garantía, importador y servicio en Argentina
+
+ImpexPro S.A. se presenta como importadora y distribuidora de herramientas en Argentina y como representante oficial de TOTAL. En su canal, ImpexPro Shop publica 24 meses de garantía para herramientas TOTAL —para compras desde octubre de 2025— y 6 meses para baterías, cargadores y consumibles. ImpexPro también mantiene un buscador de distribuidores y servicios técnicos, con cobertura para herramientas eléctricas.
+
+Estas condiciones no confirman automáticamente la cobertura de cualquier unidad ofrecida por otro comercio. Antes de comprar, pedí factura y comprobá quién figura como vendedor y responsable de garantía, el código exacto de la máquina y el punto de servicio habilitado. El período y las condiciones aplicables deben coincidir con el comprobante y la política vigente para esa venta.
+
 ## Qué comprobar antes de comprar
 
 - **Código completo:** cotejá modelo y sufijo entre publicación, caja y placa. El código incompleto puede llevar a mezclar variantes de mercado.
@@ -56,6 +72,9 @@ Las fichas extranjeras no bastan para explicar por qué difieren entre sí: no i
 - [Dinet Argentina: TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm): código, 710 W, 115 mm y disponibilidad; la ficha indica datos tomados del catálogo del fabricante.
 - [S2 Herramientas: TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/): referencia local y estado comercial.
 - [Todoferretería: TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html): referencia local, especificaciones y stock publicado.
+- [ImpexPro: quiénes somos](https://impexproshop.com/quienes-somos/): se identifica como empresa importadora/distribuidora y representante oficial de TOTAL en Argentina.
+- [ImpexPro: garantía](https://impexproshop.com/garantia/): plazos y condiciones publicados para compras en su canal.
+- [ImpexPro: servicio técnico](https://www.impexpro.com.ar/servicio-tecnico/): buscador de distribuidores y servicios, y períodos de garantía informados.
 - **Contexto internacional para la discrepancia:** [Total Túnez, TG10711576](https://totaltunisia.com/products/meule-ang-115-710w-tg10711576) y [Total Tools Namibia, TG10711576](https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/).
 
 Para comparar una medida cercana, consultá [115 o 125 mm](/amoladoras/115-o-125/). Para explorar otras configuraciones, seguí por [las guías de amoladoras](/amoladoras/).
