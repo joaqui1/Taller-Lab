@@ -2,58 +2,88 @@
 title: "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm"
 h1: "Amoladoras de 9 pulgadas y 230 mm: usos y elección"
 url: "/amoladoras/9-pulgadas/"
-description: "Comparación documental de Bosch 180 y 230 mm que contrasta potencia, velocidad y dato de peso disponible."
+description: "Cuándo elegir una amoladora de 230 mm, qué cambia frente a 180 mm y qué modelos documentados comparar en Argentina."
 author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
-keywords: ["amoladora 9 pulgadas", "amoladora 230 mm", "amoladora grande", "dewalt dwe492", "makita ga9020"]
+keywords: ["amoladora 9 pulgadas", "amoladora 230 mm", "amoladora grande", "amoladora Makita GA9020", "Stanley STGL2223-AR", "Bosch GWS 25-230"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "GWS 25-230: 230 mm, 2.500 W y 6.500 rpm en vacío"
+information_asset: "Guía de decisión para amoladoras de 230 mm, diferencias con 180 mm y modelos con documentación del fabricante aplicable al mercado argentino."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Amoladoras de 9 pulgadas y 230 mm: usos y elección
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+Una amoladora de **9 pulgadas** usa un disco nominal de **230 mm**. Tiene sentido cuando necesitás trabajar con ese diámetro y una máquina más grande que las angulares de 115 o 125 mm; no es un reemplazo automático de una de 180 mm. El disco, la guarda, el material, el acceso al corte y el peso de la herramienta determinan si el formato sirve para tu trabajo.
 
-| Dato publicado | Bosch GWS 25-230 |
-| :--- | ---: |
-| Código de pedido | 0 601 8F4 1H0 |
-| Potencia absorbida | 2.500 W |
-| Diámetro de disco | 230 mm |
-| Velocidad en vacío | 6.500 rpm |
-| Peso | 5,9 kg |
-| Rosca del eje | M14 |
+| Trabajo que querés hacer | Tipo de accesorio que tenés que buscar | Qué comprobar antes de elegir la máquina |
+|---|---|---|
+| Cortar perfiles o piezas metálicas | Disco de corte abrasivo de 230 mm para el metal correspondiente | Espesor, orificio, RPM máximas, guarda y uso indicado en la etiqueta |
+| Desbastar soldaduras o superficies metálicas | Disco rígido de desbaste de 230 mm | Tipo de material, espesor, montaje y velocidad admisible |
+| Cortar mampostería u hormigón | Disco diamantado para material y operación concretos | Si es para corte seco o húmedo, material, RPM y condiciones indicadas por el fabricante |
+| Cortar baldosa/cerámica | Disco diamantado diseñado para esa pieza | Tipo de borde, acabado esperado, operación seca/húmeda y máquina permitida |
 
-**Dato documentado:** la fuente Bosch identifica el GWS 25-230 con estas especificaciones. El manual consultado es compartido con la variante GWS 25-180 LVI R, cuyas prestaciones deben leerse en su propia columna y no trasladarse al modelo de 230 mm.
+Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no confirman que haya stock en todos los distribuidores. Verificá disponibilidad local y el código exacto antes de comprar.
 
-**Análisis TallerLab:** frente al GWS 25-180 LVI R, este modelo admite un disco de 50 mm más de diámetro y declara 2.000 rpm menos en vacío; ambos publican 2.500 W. El cambio de diámetro no se traduce directamente en 25 mm más de profundidad de corte, porque intervienen el radio efectivo, la guarda y el disco. El dato de masa publicado, 5,9 kg, también debe considerarse al planificar el manejo de la herramienta.
+## Cuándo tiene sentido 230 mm
 
-**Declaración del fabricante:** Bosch lista funciones como arranque suave y control de retroceso para las variantes indicadas de la gama GWS 25 LVI R. La lista de funciones del modelo exacto y de su sufijo es la referencia; un código distinto puede cambiar interruptor o protecciones.
+El formato de 230 mm puede ser apropiado para cortes o desbastes donde el diámetro requerido y el tamaño de la pieza hacen útil una angular grande. Bosch describe sus amoladoras grandes para corte y desbastado exigentes; Makita presenta la GA9020 para corte y desbaste de metal en herrería, construcción, tornería, instalaciones y plomería. Son usos declarados por los fabricantes, no una recomendación para cualquier material o montaje.
 
-**Desconocido:** no se midió la profundidad útil de corte, la fatiga ni el rendimiento sobre metal o concreto. La ficha no constituye una recomendación para operar con una mano, sin guarda o con un disco de otra medida.
+Antes de subir de tamaño, considerá también el peso, el espacio para mover la herramienta, el tipo de trabajo y la frecuencia de uso. Para tareas más chicas, cortes de acceso limitado o manejo repetido, compará una angular de **180 mm** y una de **115/125 mm**. El disco más grande puede ser útil, pero una máquina de 230 mm exige sostener y controlar un conjunto más voluminoso.
 
-## Decisión por tamaño
+## Diferencias frente a 180 mm
 
-| Si comparás… | GWS 25-180 LVI R | GWS 25-230 |
-| :--- | ---: | ---: |
-| Diámetro máximo de disco | 180 mm | 230 mm |
-| Potencia absorbida | 2.500 W | 2.500 W |
-| Velocidad en vacío | 8.500 rpm | 6.500 rpm |
-| Peso publicado en las fichas revisadas | No indicado en el recorte usado | 5,9 kg |
+La diferencia nominal entre los discos es de 50 mm de diámetro, o 25 mm de radio. Eso **no equivale** a 25 mm más de profundidad de corte en la pieza. El alcance efectivo depende de la geometría del cabezal, la guarda, el disco nuevo o gastado, la posición de trabajo y la forma y apoyo del material. Para una capacidad de corte real, buscá el dato de profundidad del fabricante para el modelo exacto; si no aparece, queda sin confirmar.
 
-Esta tabla ayuda a reconocer la variante por medida. La elección final depende del acceso, material, profundidad necesaria, disco compatible y manejo previsto.
+La comparación de dos Bosch de la familia GWS 25 muestra además que los números de potencia y RPM pertenecen a cada modelo: el GWS 25-180 LVI R publica 2.500 W y 8.500 rpm en vacío; el GWS 25-230 publica 2.500 W y 6.500 rpm. El diámetro por sí solo no determina potencia, velocidad bajo carga ni capacidad de corte.
+
+## Peso, potencia y funciones
+
+| Modelo documentado | Disco | Potencia publicada | Velocidad en vacío | Peso publicado | Funciones/datos destacados |
+|---|---:|---:|---:|---:|---|
+| Bosch GWS 25-230, cód. 0 601 8F4 1H0 | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
+| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
+| Makita GA9020 | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
+| Stanley STGL2223-AR | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
+
+Los valores de peso no siempre se presentan con el mismo criterio; por ejemplo, la ficha Makita publica un rango. Tomalos como datos de catálogo y confirmá qué incluye la medición y el kit de la variante ofrecida. No inferimos cuál es “mejor” a partir de potencia, peso o funciones declaradas: ergonomía y rendimiento requieren comparación en condiciones equivalentes.
+
+## Qué profundidad no puede deducirse solo del diámetro
+
+El diámetro de 230 mm describe el accesorio admitido, no la profundidad de corte garantizada. El radio geométrico es 115 mm, pero el eje y el cuerpo de la herramienta ocupan parte de ese espacio; además, la guarda limita el acceso y el disco pierde diámetro a medida que se desgasta. También influyen la orientación del corte, la forma del material y el accesorio concreto.
+
+Por eso no uses el diámetro del disco ni una resta simple entre diámetro y cabezal para prometer una capacidad de corte. Si la profundidad es decisiva, contrastá la cifra publicada para el código completo y el disco especificado en su manual. Si el fabricante no publica esa cifra, medila solo con el método apropiado y sin retirar la guarda ni exceder las instrucciones del fabricante.
+
+## Qué modelo comparar
+
+- **Bosch GWS 25-230:** alternativa documentada de 2.500 W y 5,9 kg, con velocidad en vacío de 6.500 rpm. La ficha argentina ofrece localizador de distribuidores.
+- **Bosch GWS 30-230 PB:** sube a 2.800 W y agrega funciones de control y seguridad declaradas por Bosch; pesa los mismos 5,9 kg según la ficha consultada. El precio, garantía aplicable y disponibilidad se deben confirmar para el número de pedido de la unidad.
+- **Makita GA9020:** ficha de Makita Argentina, 2.200 W y 6.000 rpm; incluye empuñadura lateral, cubierta y llave según la página. El peso aparece como rango, sin explicación allí.
+- **Stanley STGL2223-AR:** la página oficial argentina identifica una amoladora de 230 mm y 2.200 W, informa garantía limitada de dos años y deriva a “Dónde comprar”. Su ficha pública consultada no permite completar velocidad ni peso.
+
+Para una comparación de compra, pedí foto de la placa y verificá **código completo, tensión de la unidad, kit, garantía y disponibilidad de servicio/repuestos**. Los modelos citados tienen documentación del fabricante dirigida al mercado argentino, pero eso no prueba inventario actual en una tienda concreta.
+
+## Disponibilidad de discos de 230 mm
+
+El formato tiene accesorios documentados por fabricantes para distintas tareas. Bosch Argentina lista discos abrasivos de corte de **230 × 3 × 22,23 mm** para metal y discos diamantados de 230 mm; Stanley Argentina lista un diamantado segmentado de **230 × 22,23 mm** para mampostería. Esto confirma que hay familias de accesorios publicadas en el mercado local, pero no la disponibilidad inmediata de cada referencia.
+
+No alcanza con que el diámetro coincida. Revisá material previsto, tipo y espesor de disco, diámetro del orificio y brida, RPM máximas, sentido de montaje y guarda. La velocidad máxima admisible del accesorio debe ser igual o superior a la velocidad en vacío de la máquina, según las instrucciones de ambos fabricantes. Para las diferencias entre accesorios, seguí con la [guía de discos para amoladora](/amoladoras/discos/); para corte, consultá también [discos de corte](/amoladoras/disco-de-corte/).
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GWS 25-230](https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0); [Bosch GWS 25-180 LVI R](https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1); [manual compartido de la serie](https://www.bosch-professional.com/binary/manualsmedia/o424644v21_160992A8T6_202306.pdf).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- [Bosch GWS 25-230, ficha argentina](https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0)
+- [Bosch GWS 30-230 PB, ficha argentina](https://www.bosch-professional.com/ar/es/products/gws-30-230-pb-06018G11H0)
+- [Bosch GWS 25-180 LVI R, ficha argentina](https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1)
+- [Makita GA9020, ficha argentina](https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/)
+- [Stanley STGL2223-AR, ficha argentina](https://ar.stanleytools.global/producto/stgl2223-ar/amoladora-angular-9-pulg-230mm-2200w)
+- [Disco Bosch de corte para metal, 230 mm](https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-grandes-orificio-de-22-23-mm-osa-3090751-ocs-ac/)
+- [Disco diamantado segmentado Stanley, 230 mm](https://ar.stanleytools.global/producto/sta47902l/disco-diamante-segmentada-9-x-78-230-x-2223-mm)
 
-Para seguir comparando: [amoladora de 7 pulgadas y 180 mm](/amoladoras/7-pulgadas/).
+Para un diámetro nominal menor, compará [amoladoras de 7 pulgadas y 180 mm](/amoladoras/7-pulgadas/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

@@ -2,7 +2,7 @@
 title: "Discos para amoladora: tipos, usos y compatibilidad"
 h1: "Discos para amoladora: cuál usar según el trabajo"
 url: "/amoladoras/discos/"
-description: "Matriz propia de cinco accesorios que separa corte, desbaste, flap y diamante por uso y material."
+description: "Elegí un disco para amoladora por operación y material; comprobá tipo, medida, montaje y rpm antes de comprar o instalarlo."
 author: "Joaquín Vallasciani"
 category: "Accesorios para amoladoras"
 keywords: ["discos para amoladora", "tipos de discos amoladora", "compatibilidad discos amoladora", "que disco usar amoladora"]
@@ -11,15 +11,81 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Matriz de compatibilidad Bosch: disco según operación y material declarado"
+information_asset: "Hub de decisión de accesorios por operación, material y compatibilidad con ejemplos Bosch documentados"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Discos para amoladora: cuál usar según el trabajo
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+Primero definí la operación y el material. Después elegí el tipo de disco cuya ficha incluya ese trabajo, y comprobá que sea compatible con tu amoladora. Que dos accesorios tengan el mismo diámetro o agujero no significa que sirvan para lo mismo.
+
+| Quiero… | Elegí… | Guía para profundizar |
+| :--- | :--- | :--- |
+| Cortar metal | Disco abrasivo de corte para el metal indicado | [Discos de corte para amoladora](/amoladoras/disco-de-corte/) |
+| Desbastar metal | Disco rígido de desbaste, identificado para el metal | [Disco de desbaste](/amoladoras/disco-de-desbaste/) |
+| Terminar o lijar metal | Disco flap del abrasivo, grano y forma adecuados | [Cómo elegir un disco flap](/amoladoras/disco-flap/) |
+| Cortar hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
+| Cortar cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+
+Esta ruta sirve para acotar la elección; no reemplaza la etiqueta del accesorio ni el manual de la máquina. Para vidrio, madera, aluminio u otro material que no aparezca expresamente en la ficha, no deduzcas compatibilidad por semejanza: buscá un disco y una herramienta con aplicación documentada.
+
+## Tipos de discos
+
+- **Disco abrasivo de corte:** delgado y diseñado para separar material, dentro de las aplicaciones que declara su fabricante. El material importa: no todos los discos de metal incluyen acero inoxidable.
+- **Disco rígido de desbaste:** más grueso que un disco de corte en los ejemplos consultados y destinado a retirar material mediante desbaste. No lo uses como disco de corte.
+- **Disco flap:** láminas abrasivas solapadas que permiten desbastar y mezclar marcas en una operación. El grano, el mineral y la forma (T27 o T29) cambian según producto. Consultá la [guía de flap](/amoladoras/disco-flap/).
+- **Disco diamantado:** tiene un borde con segmentos, turbo o continuo, según producto y aplicación declarada. “Diamantado” por sí solo no identifica el material compatible: hormigón, ladrillo y cerámica requieren comprobar la ficha del disco concreto.
+
+También existen cepillos y otros accesorios para máquinas compatibles; no son discos abrasivos y tienen sus propios límites de montaje y velocidad. Elegí siempre por el accesorio y el trabajo declarados, no solo por la forma exterior.
+
+## Qué disco según material
+
+| Material y tarea | Familia que conviene comparar | Qué confirmar en la ficha |
+| :--- | :--- | :--- |
+| Metal: separar una pieza | Disco abrasivo de corte | Tipo de metal, diámetro, espesor, agujero, fijación y rpm |
+| Metal: remover material de una cara o borde | Disco rígido de desbaste | Metal admitido, dimensiones y uso de desbaste |
+| Metal: suavizar marcas, rebabas o una unión | Flap compatible | Metal, grano, abrasivo, forma y rpm |
+| Hormigón: cortar | Diamantado para hormigón | Lista de materiales, diámetro, montaje y condiciones de uso indicadas |
+| Cerámica o azulejo: cortar | Diamantado para cerámica | Tipo de baldosa admitido, diseño del borde y montaje |
+| Porcelanato o pieza dura | Disco cuya ficha cubra explícitamente ese material | No trasladar compatibilidad desde una ficha que solo nombra azulejo o cerámica general |
+
+El nombre de una familia no garantiza que cubra todas las variantes del material. Por ejemplo, la [guía de disco segmentado](/amoladoras/disco-diamantado-segmentado/) compara referencias con listas de materiales distintas, mientras que la [guía de cerámica](/amoladoras/discos-ceramica/) separa diseños turbo y continuo. Para corte de metal, profundizá en la [guía de discos de corte](/amoladoras/disco-de-corte/); acá mantenemos el criterio general para no repetir esa comparación.
+
+## Medida y montaje
+
+Antes de comprar, cotejá la etiqueta del accesorio con la ficha y el manual de la amoladora:
+
+1. **Diámetro exterior:** no debe superar el máximo admitido por la herramienta y su guarda.
+2. **Espesor y geometría:** revisalos en discos abrasivos; deben corresponder al uso y al montaje indicados.
+3. **Agujero y fijación:** confirmá el diámetro interior y si el producto usa bridas/tuerca o un sistema como X-Lock. No des por permitido un adaptador si el fabricante no lo indica.
+4. **Material y operación:** buscá el trabajo y el material expresamente declarados para el código del accesorio.
+5. **Guarda y bridas:** usá las que corresponden a la herramienta y al accesorio, según manual.
+
+El dato “115 mm” solo expresa el diámetro nominal en estos ejemplos; no hace intercambiables un disco de corte de 1,6 mm, uno rígido de desbaste de 6 mm, un flap y uno diamantado. Tampoco basta con que el agujero parezca coincidir si el tipo de fijación es distinto.
+
+## RPM
+
+Buscá las revoluciones máximas del accesorio en su etiqueta o ficha. Ese límite debe ser igual o superior a las rpm máximas en vacío de la amoladora. Si falta el dato de una variante, no lo completes usando el de otro disco del mismo diámetro, marca o familia.
+
+La velocidad en vacío no describe por sí sola el rendimiento bajo carga. Nunca superes las rpm máximas del accesorio; confirmá también el sentido de giro, las instrucciones de montaje y cualquier condición de uso del manual correspondiente.
+
+## Errores de compatibilidad
+
+- Elegir por diámetro sin comprobar material, espesor, agujero y fijación.
+- Usar un disco de corte para desbastar o uno de desbaste para cortar.
+- Suponer que todo disco “para metal” admite acero inoxidable, aluminio u otras aleaciones.
+- Tratar un diamantado para hormigón como si también estuviera especificado para cerámica, porcelanato, ladrillo o vidrio.
+- Montar un diámetro mayor, retirar la guarda o improvisar un adaptador para que el disco encaje.
+- Instalar un disco cuyo límite de rpm sea inferior a la velocidad máxima de la amoladora.
+- Extrapolar medidas o velocidades de un modelo a otro porque comparten marca o apariencia.
+
+Si el modelo, fijación, material admitido o límite de velocidad no se pueden verificar, no lo elijas por parecido: consultá el manual y la ficha del código exacto.
+
+### Cinco referencias documentadas para comparar
+
+Estos ejemplos muestran cómo una tabla separa operación, material y geometría. Son cinco referencias Bosch, no un catálogo completo ni una recomendación universal:
 
 | Operación | Accesorio Bosch documentado | Material declarado | Dimensiones identificadas |
 | :--- | :--- | :--- | :--- |
@@ -29,29 +95,14 @@ published: true
 | Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
 | Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
-**Dato documentado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
-
-**Análisis TallerLab:** para evitar confusiones, identificá primero la operación (cortar, desbastar o lijar), luego el material y finalmente las dimensiones. En los ejemplos, el disco rígido de desbaste mide 6 mm de espesor, frente a 1,6 mm del disco de corte; el flap es un accesorio de láminas abrasivas. El diámetro común de 115 mm no hace que estos usos sean intercambiables.
-
-**Declaración del fabricante:** Bosch publica la velocidad máxima admisible y materiales por código de accesorio. El manual de la amoladora exige que rpm del accesorio sean compatibles con las de la herramienta y que se utilicen la guarda y bridas indicadas.
-
-**Desconocido:** no se deduce por el nombre de una categoría que el disco sirva para vidrio, aluminio u otro material no mostrado en la fila. La tabla tampoco fija una técnica o velocidad para la pieza. Comprobá la etiqueta del accesorio exacto y las indicaciones del manual.
-
-## Regla de lectura para la etiqueta
-
-| Campo de la etiqueta | Comprobación |
-| :--- | :--- |
-| Diámetro exterior | No debe superar el máximo de la amoladora |
-| Agujero y fijación | Debe coincidir con brida, tuerca o sistema X-Lock admitido |
-| Velocidad máxima | Debe ser igual o mayor que las rpm máximas de la herramienta |
-| Material y operación | Debe incluir expresamente el trabajo que vas a hacer |
+**Alcance de la matriz:** las aplicaciones y dimensiones corresponden a los códigos Bosch enlazados abajo. En los cinco casos aparece un diámetro de 115 mm, pero cambian la operación, el espesor, el diseño y el material declarado. No se deduce compatibilidad con otros materiales o fijaciones.
 
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch disco PRO Metal de corte](https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/); [Bosch disco PRO Metal de desbaste](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [Bosch flap PRO X571](https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/); [Bosch PRO Concrete](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/); [Bosch PRO Ceramic](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/).
-- **Seguridad:** [manual Bosch para amoladoras](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).
+- **Seguridad y montaje:** [manual Bosch para amoladoras](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf). Para otra marca o código, consultá el manual correspondiente.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [disco de corte para amoladora](/amoladoras/disco-de-corte/).
+Para profundizar: [discos de corte para metal](/amoladoras/disco-de-corte/), [disco de desbaste](/amoladoras/disco-de-desbaste/), [disco flap](/amoladoras/disco-flap/), [diamantados segmentados](/amoladoras/disco-diamantado-segmentado/) y [discos para cerámica](/amoladoras/discos-ceramica/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

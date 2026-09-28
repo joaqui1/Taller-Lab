@@ -2,7 +2,7 @@
 title: "Disco diamantado segmentado: usos y cómo elegir"
 h1: "Disco diamantado segmentado: para qué sirve y cuándo elegirlo"
 url: "/amoladoras/disco-diamantado-segmentado/"
-description: "Comparación por código de dos discos diamantados segmentados Bosch con igual geometría y distinto alcance declarado de materiales."
+description: "Qué significa segmentado, diferencias con turbo y continuo, materiales, medidas de 115 y 230 mm y compatibilidad del disco diamantado."
 author: "Joaquín Vallasciani"
 category: "Accesorios para amoladoras"
 keywords: ["disco diamantado segmentado", "disco segmentado hormigon", "disco para cortar ladrillo", "disco diamantado 115", "disco diamantado 230"]
@@ -11,44 +11,76 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Bosch PRO Concrete y EXPERT Multi Material: segmento, material y medida"
+information_asset: "Guía para elegir discos diamantados segmentados por perfil, material, diámetro, uso seco/húmedo e interfaz compatible."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Disco diamantado segmentado: para qué sirve y cuándo elegirlo
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+“Segmentado” describe el borde de corte dividido en secciones de diamante separadas por ranuras. Es una geometría común en discos para hormigón y mampostería, pero no define por sí sola los materiales permitidos ni si el disco se usa en seco o húmedo: eso lo determina la ficha y el manual del código concreto.
 
-| Disco Bosch | Materiales listados por el fabricante | Diámetro / agujero | Ancho de corte | Altura del segmento |
-| :--- | :--- | :--- | ---: | ---: |
-| PRO Concrete, 2 608 602 651 | Hormigón | 115 / 22,23 mm | 2,2 mm | 12 mm |
-| EXPERT Multi Material, 2 608 900 659 | Hormigón, ladrillo, teja y hormigón armado | 115 / 22,23 mm | 2,2 mm | 12 mm |
+| Ejemplo Bosch | Diámetro / orificio | Ancho / altura de segmento | Materiales publicados por el fabricante |
+|---|---|---|---|
+| PRO Concrete, 2 608 602 651 | 115 / 22,23 mm | 2,2 / 12 mm | Hormigón |
+| EXPERT Multi Material, 2 608 900 659 | 115 / 22,23 mm | 2,2 / 12 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
+| PRO Concrete, 2 608 602 655 | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón |
+| EXPERT Multi Material, 2 608 900 663 | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
 
-**Dato documentado:** la tabla transcribe medidas y aplicaciones de dos discos Bosch de 115 mm. Ambos aparecen con segmento de 12 mm; el segundo amplía en su ficha la lista de materiales. Esto no convierte a los discos en aptos para cualquier piedra o material de construcción.
+Los códigos de 115 y 230 mm no son intercambiables: cada amoladora admite un diámetro máximo específico. Las fichas de Bosch describen además geometrías, materiales y alturas distintas según tamaño; no extrapoles medidas de una variante a otra.
 
-**Declaración del fabricante:** Bosch describe los segmentos del EXPERT Multi Material como soldados con láser y sus laterales estriados para evacuar polvo. Para PRO Concrete la ficha identifica su uso en hormigón. Las páginas no atribuyen a TallerLab pruebas de velocidad, temperatura o vida útil.
+## Qué significa segmentado
 
-**Análisis TallerLab:** “segmentado” describe la geometría del borde, pero no alcanza para elegir el disco. En esta comparación el código y la lista de materiales diferencian dos productos que comparten diámetro, orificio, ancho y altura de segmento. Si la pieza es azulejo, la ficha de un disco cerámico continuo corresponde a otra aplicación ([comparación para cerámica](/amoladoras/discos-ceramica/)).
+En un disco segmentado, el borde diamantado se interrumpe por ranuras entre segmentos. Bosch describe en sus líneas Concrete y Multi Material segmentos de baja fricción y/o soldados con láser; en Multi Material, también indica laterales estriados para ayudar a eliminar el polvo. Esas son características de los modelos citados, no una garantía universal de que todo disco segmentado se comporte igual.
 
-**Desconocido:** no se deduce de estas fichas si una operación debe ser seca o húmeda ni la profundidad efectiva en una pieza. Confirmá esa instrucción, el sentido de giro, las rpm máximas y la guarda en el producto y manual exactos.
+Elegí primero por el material que vas a cortar y luego compará espesor, altura del segmento, diámetro y montaje. Un disco anunciado como “para hormigón” no queda automáticamente habilitado para ladrillo, piedra, cerámica o cualquier tipo de mampostería.
 
-## Comprobación de compatibilidad
+## Segmentado vs. turbo vs. continuo
 
-| Antes de montar | Dato de estas referencias |
-| :--- | :--- |
-| Diámetro de disco de la amoladora | 115 mm en ambos ejemplos |
-| Agujero y fijación | 22,23 mm, tuerca convencional según ficha |
-| Material de la pieza | Hormigón para PRO Concrete; materiales enumerados para EXPERT Multi Material |
-| Perfil del borde | Segmentado, 12 mm de altura de segmento en estas referencias |
+| Perfil del borde | Qué se ve | Aplicación documentada como referencia | Qué no asumir |
+|---|---|---|---|
+| Segmentado | Secciones de diamante separadas por ranuras | Bosch PRO Concrete para hormigón; Bosch EXPERT Multi Material para hormigón, ladrillo y piedra blanda | No todos los segmentados admiten los mismos materiales ni el mismo régimen seco/húmedo |
+| Turbo | Borde continuo con relieves/ondulaciones | Bosch PRO Ceramic declara segmento turbo para azulejos y lo asocia a acabado de alta calidad y avance suave | “Turbo” no significa que cualquier modelo sirva para cualquier azulejo o porcelanato |
+| Continuo | Borde diamantado sin interrupciones visibles | Bosch EXPERT HardCeramic declara borde continuo para cortar azulejos duros y minimizar astillado | El acabado depende también del material, disco, máquina y técnica; verificá la ficha del producto |
+
+El borde continuo se ofrece en líneas específicas de cerámica; turbo puede ser la opción declarada para acabados de azulejos; segmentado aparece en estas fichas para hormigón y mampostería. Tomá esas relaciones como guía de las referencias citadas, no como regla absoluta por forma.
+
+## Qué materiales puede cortar
+
+- **Hormigón:** Bosch PRO Concrete declara ese material para los códigos comparados. La variante EXPERT Multi Material añade hormigón armado, ladrillo y piedra blanda en su lista de materiales.
+- **Ladrillo y mampostería:** la ficha EXPERT Multi Material los incluye; la del PRO Concrete citado se centra en hormigón. Confirmá composición y dureza del bloque con la etiqueta del disco.
+- **Cerámica/azulejos:** buscá un disco específico para cerámica y el acabado deseado. Bosch PRO Ceramic señala azulejos de cerámica dura y un borde turbo; EXPERT HardCeramic promociona un borde continuo para reducir astillado. Para esa elección, ver [discos diamantados para cerámica](/amoladoras/discos-ceramica/).
+- **Porcelanato:** no lo des por equivalente a toda cerámica; verificá que el fabricante del disco nombre ese material y la medida requerida.
+
+## 115 vs. 230 mm
+
+El diámetro tiene que coincidir con el máximo indicado en el manual de la amoladora y con la guarda instalada. Por ejemplo, la página Bosch de EXPERT Multi Material lista la variante de **115 mm, código 2 608 900 659**, y la de **230 mm, código 2 608 900 663**; cambian el espesor de corte y la altura de segmento publicados. Una máquina de 115 mm no puede recibir el de 230 mm, y uno mayor tampoco se debe adaptar quitando la guarda.
+
+La medida exterior no basta: comprobá también el **orificio de 22,23 mm**, el tipo de brida y tuerca, la velocidad máxima del accesorio y que la flecha de giro coincida con la herramienta. Bosch indica que sus discos diamantados se desarrollan para máquinas y diámetros específicos y recomienda no ampliar el orificio del disco.
+
+## Uso seco o húmedo
+
+No hay una respuesta única para todos los discos segmentados. El catálogo Bosch Argentina 2015–2016 marca **“Seco”** para PRO Concrete código **2 608 602 651** de 115 mm. La ficha actual de EXPERT Multi Material **2 608 900 659** enumera materiales y dimensiones, pero la página de producto consultada no especifica ahí si admite corte seco o húmedo: seguí el manual de esa variante. No uses agua con una amoladora o disco salvo que las instrucciones de ambos lo permitan expresamente.
+
+## Compatibilidad antes de montar
+
+1. Confirmá el **diámetro máximo de disco** permitido por la herramienta y que corresponda la guarda para esa operación.
+2. Hacé coincidir el **orificio, la brida y la tuerca** según los manuales; no agrandes el agujero ni uses adaptadores improvisados.
+3. Verificá el **material**, el perfil de borde y el modo seco/húmedo que declara ese código.
+4. La RPM máxima marcada en el disco debe ser igual o superior a las RPM en vacío de la máquina.
+5. Respetá el sentido de giro indicado en disco y herramienta y usá los elementos de protección que exigen los manuales.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch PRO Concrete, disco de 115 mm](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/); [Bosch EXPERT Multi Material](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/).
-- **Seguridad:** verificar diámetro, montaje, velocidad y aplicación en etiqueta y manual.
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- [Bosch PRO Concrete 115 mm, código 2 608 602 651](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/)
+- [Bosch PRO Concrete, variantes hasta 230 mm](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-grandes-diametro-interior-de-22-23-mm-3088612-ocs-ac/)
+- [Bosch EXPERT Multi Material 115 mm, SKU seleccionado 2 608 900 659](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/?sku=2608900659). **Nota sobre el enlace:** el slug conserva el texto antiguo `expert-hard-ceramic`, pero la ficha y el SKU corresponden a EXPERT Multi Material, no a EXPERT HardCeramic.
+- [Bosch EXPERT Multi Material para amoladoras grandes, variantes 180 y 230 mm](https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-multimaterial-2868971-ocs-ac/)
+- [Bosch PRO Ceramic, referencia de borde turbo](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/)
+- [Bosch EXPERT HardCeramic, referencia de borde continuo](https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/?sku=2608900653)
+- [Catálogo de accesorios Bosch Argentina 2015–2016, referencia de uso seco para PRO Concrete 115 mm](https://www.bosch-professional.com/pa/media/country_content/service/download/catalogue/catalogo_accesorios_argentina_2015-2016_lowres.pdf)
 
-Para seguir comparando: [disco diamantado para cerámica](/amoladoras/discos-ceramica/).
+Para seguir comparando: [discos diamantados para cerámica](/amoladoras/discos-ceramica/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

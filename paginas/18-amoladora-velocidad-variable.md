@@ -2,57 +2,78 @@
 title: "Amoladora de velocidad variable: cuándo conviene"
 h1: "Amoladoras de velocidad variable: usos y modelos para comparar"
 url: "/amoladoras/velocidad-variable/"
-description: "Comparación aritmética entre rangos de rpm publicados en dos modelos de 900 W con variantes claramente identificadas."
+description: "Qué cambia al regular las RPM, qué revisar en los accesorios y tres amoladoras con tensión 220–240 V documentada."
 author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
-keywords: ["amoladora velocidad variable", "amoladora con regulador de velocidad", "amoladora para pulir", "amoladora rpm regulable", "bosch gws 9 125 s"]
+keywords: ["amoladora velocidad variable", "amoladora con regulador de velocidad", "amoladora para pulir", "amoladora rpm regulable"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Comparación de rango de velocidad documentado en Bosch GWS 9-125 S y Dowen Pagio 9993224.2."
+information_asset: "Guía de selección de amoladoras con velocidad variable y comparación de tres modelos 220–240 V documentados por sus fabricantes."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Amoladoras de velocidad variable: usos y modelos para comparar
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+Una amoladora con velocidad variable permite ajustar las revoluciones dentro del rango definido por su fabricante. Sirve cuando la tarea o el accesorio compatible requiere un régimen distinto al de una amoladora fija; el selector no convierte un accesorio incompatible en uno seguro ni establece una RPM universal para cada material.
 
-**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+Para comparar modelos, primero verificá tensión y rango de velocidad; después, diámetro máximo del disco, eje y compatibilidad con el accesorio concreto. Abajo comparamos tres opciones cuyas fichas locales documentan tensión de 220 V o 220–240 V.
 
-| Modelo | Potencia absorbida | Disco | Rango de velocidad en vacío | Otras especificaciones publicadas |
-| :--- | ---: | ---: | ---: | :--- |
-| Bosch GWS 9-125 S | 900 W | 125 mm | 2.800–11.000 rpm | M14; peso 1,9 kg; la ficha argentina consultada selecciona variante 127 V |
-| Dowen Pagio 9993224.2 | 900 W | 115/125 mm | 4.000–12.000 rpm | Regulador variable según página del producto |
+## Qué cambia frente a velocidad fija
 
-**Dato documentado:** las fichas y catálogos enlazados declaran ambos rangos ajustables. Para Bosch, la página argentina muestra una variante de 127 V; el código y la tensión deben cotejarse antes de aplicar esos datos a otra versión. La página Dowen identifica los diámetros 115/125 mm y anuncia regulador variable.
+Una máquina de velocidad fija gira a las revoluciones en vacío que declara su ficha. Una regulable permite seleccionar un punto dentro de su rango publicado. Eso amplía las posibilidades de ajuste, pero no demuestra por sí mismo mejor acabado, más duración del disco o mayor seguridad: esos resultados dependen de la herramienta, el accesorio, el montaje, la tarea y las instrucciones aplicables.
 
-**Análisis TallerLab:** los rangos no son equivalentes: el extremo inferior publicado para Bosch es 1.200 rpm menor y el superior de Dowen es 1.000 rpm mayor. La cuenta compara límites de ficha, no certifica exactitud del selector ni rpm bajo carga. Tampoco vuelve intercambiables los discos: cada accesorio debe respetar diámetro, velocidad máxima y aplicación indicados por su fabricante.
+| Tipo | Qué permite comparar | Qué no demuestra por sí solo |
+| :--- | :--- | :--- |
+| Velocidad fija | RPM en vacío declaradas y compatibilidad con cada accesorio | Que sea adecuada para cualquier accesorio que físicamente pueda montarse |
+| Velocidad variable | Rango de RPM en vacío y forma de selección | RPM exactas bajo carga, ni una combinación universal de RPM y material |
 
-## Cuándo sirve la regulación: criterio limitado
+Tomá el rango como un dato de ficha, no como una medición de velocidad durante el trabajo. Funciones como la electrónica constante bajo carga son especificaciones aparte: no deben darse por incluidas solo porque el modelo tenga regulador.
 
-La regulación es una característica medible de la herramienta. Para decidir si una velocidad es apropiada hay que contrastar el material, el accesorio y las instrucciones de ambos fabricantes. Esta guía no recomienda una rpm concreta para acero inoxidable, madera, resina o pulido porque las fuentes reunidas no validan un ajuste universal para esos trabajos.
+## Qué accesorios justifican regulación
 
-| Paso documental | Dato que debe coincidir |
-| :--- | :--- |
-| Identificar herramienta | Código, tensión y variante |
-| Identificar accesorio | Tipo, diámetro y velocidad máxima |
-| Leer ambos manuales | Material, montaje, protección y límites de operación |
-| Elegir ajuste | Dentro del rango de la herramienta y sin superar el límite del accesorio |
+La regulación es relevante cuando las instrucciones del accesorio o del proceso admiten o requieren trabajar a velocidades distintas y la herramienta ofrece ese rango. Puede ser útil, por ejemplo, en montajes de lijado o pulido que indiquen control de velocidad; antes de usarlos, confirmá que el fabricante autorice ese accesorio en una amoladora angular y que coincidan su fijación, diámetro, guarda y RPM permitidas.
 
-**Declaración del fabricante:** Bosch describe selección de revoluciones para trabajar con varios materiales; Dowen Pagio presenta un regulador de velocidad variable. Son características anunciadas, no resultados de ensayos de TallerLab.
+Para discos de corte, desbaste o diamantados, elegí por aplicación y compatibilidad documentada. No supongas que reducir las RPM permite usar cualquier disco: seguí el manual de la máquina y la velocidad máxima marcada por el accesorio. La regulación tampoco reemplaza la guarda ni autoriza retirar protecciones.
 
-**Desconocido:** no se midió estabilidad de rpm, temperatura, calidad del acabado, vibraciones ni diferencias de corte frente a modelos de velocidad fija. No afirmamos que bajar las rpm evite por sí solo quemaduras, deformación o accidentes.
+Como criterio práctico, si la ficha del accesorio no establece una necesidad de variar la velocidad, no atribuyas una ventaja concreta al regulador sin documentación. Para elegir la familia de accesorio, consultá la [guía de discos para amoladora](/amoladoras/discos/); para flap, la [guía de discos flap](/amoladoras/disco-flap/).
+
+## Rangos documentados
+
+Los rangos siguientes son los publicados por cada fabricante para los códigos indicados. Son velocidades en vacío y no una recomendación de ajuste para un material específico.
+
+| Modelo | Tensión publicada | Potencia | Disco máximo | Rango de velocidad en vacío | Eje |
+| :--- | :--- | ---: | ---: | :--- | :--- |
+| [Bosch GWS 12-125 S, cód. 0 601 3A6 0H0](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0) | 220 V | 1200 W | 125 mm | 2800–11.000 rpm | M14 |
+| [Dowen Pagio 9993224.2](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm) | 220 V, 50 Hz | 1250 W | 115/125 mm | 4000–12.000 rpm | M14 |
+| [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
+
+Los mínimos y máximos describen el recorrido declarado del regulador. No son una prueba comparativa de potencia útil, precisión del selector, temperatura o rendimiento bajo carga. En el caso de Dowen, la ficha publica explícitamente la compatibilidad con discos de 115 y 125 mm; para los otros modelos, indica 125 mm como diámetro máximo.
+
+## 115 y 125 mm
+
+El diámetro admitido lo define cada modelo, junto con su guarda y sistema de montaje. Que el selector reduzca las RPM no habilita a instalar un disco mayor al máximo indicado. La Dowen de la tabla declara 115/125 mm; Bosch y Hamilton declaran 125 mm. Confirmá siempre el código exacto de la herramienta y la medida grabada en el accesorio.
+
+La diferencia entre ambas medidas no se limita a la velocidad: cambian la compatibilidad y la profundidad geométrica disponible, mientras que la guarda y el diseño de la máquina condicionan el uso real. Para ese tema específico, seguí la [comparación entre amoladoras de 115 y 125 mm](/amoladoras/115-o-125/).
+
+## Modelos para comparar
+
+Las tres opciones de la tabla tienen documentación del fabricante con tensión apta para la red argentina. La tabla no es un ranking ni confirma disponibilidad, precio o condiciones de garantía de cada vendedor; cotejá el código y lo que incluye la publicación antes de comprar.
+
+- **Bosch GWS 12-125 S:** alternativa de 125 mm cuyo fabricante publica el rango más amplio hacia abajo entre estas tres fichas (2800–11.000 rpm), 220 V y 1200 W. La GWS 9-125 S citada en versiones anteriores de esta guía no se toma como opción local porque la variante consultada era de 127 V. Para comparar la gama por marca, consultá [amoladoras Bosch](/amoladoras/bosch/).
+- **Dowen Pagio 9993224.2:** 1250 W y montaje declarado para discos de 115 o 125 mm, con 4000–12.000 rpm. La ficha del fabricante indica 220 V y eje M14; declara que no incluye disco.
+- **Hamilton HAA002-A:** 1200 W, disco de 125 mm y rango de 4000–12.000 rpm. La ficha local declara 220–240 V, peso de 2,5 kg y garantía limitada de dos años; cotejá las condiciones vigentes con el fabricante o vendedor.
+
+La elección entre ellas depende del diámetro que necesites, el rango que exija el accesorio, el peso y agarre, las protecciones, el servicio técnico y el costo del conjunto ofrecido. La regulación es una característica, no un criterio suficiente para declarar un modelo “mejor”.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch Professional Argentina, GWS 9-125 S](https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961D0); [Dowen Pagio 9993224.2](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm); [catálogo Dowen Pagio 2025](https://www.dowenpagioweb.com.ar/inventario/Catalogo-Dowen-Pagio-2025.pdf).
-- **Seguridad:** verificar tensión, guarda, accesorio y rpm máxima en el manual de la variante exacta.
+- **Fichas primarias:** [Bosch Professional Argentina, GWS 12-125 S](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0); [Dowen Pagio, 9993224.2](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm); [Hamilton, HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/).
+- **Criterio de regulación:** [Makita, GA4590](https://makitatools.com/products/details/GA4590), explica que su dial variable permite ajustar las RPM según la aplicación. Se usa como principio general del fabricante, no como recomendación de velocidades para estos modelos ni para materiales concretos.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [comparación entre discos de 115 y 125 mm](/amoladoras/115-o-125/).
-
-Para explorar la categoría: [guías de amoladoras](/amoladoras/).
+Para explorar otras decisiones de compra, visitá la [guía de amoladoras](/amoladoras/).
