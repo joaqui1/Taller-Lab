@@ -2,80 +2,66 @@
 title: "Compresor Lusqtoff de 100 litros: guía de compra"
 h1: "Compresor Lusqtoff de 100 litros: prestaciones y usos"
 url: "/compresores/lusqtoff-100-litros/"
-description: "Guía de compra del compresor Lusqtoff de 100 litros: modelo LC-30100, motor de 3 HP a correa, caudal en l/min, herramientas compatibles y requisitos de taller."
+description: "Tabla de tres líneas Lüsqtoff de 100 L identificadas por código y tecnología; registra contradicciones de peso y evita completar un caudal actual no confirmado."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["compresor lusqtoff 100 litros", "lusqtoff lc 30100", "compresor lusqtoff 3 hp 100l", "compresor a correa lusqtoff"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tabla de tres líneas Lüsqtoff de 100 L identificadas por código y tecnología; registra contradicciones de peso y evita completar un caudal actual no confirmado."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Compresor Lusqtoff de 100 litros: prestaciones y usos
 
-El compresor Lusqtoff de 100 litros con transmisión por correa —representado principalmente por el modelo **LC-30100**— es una de las opciones más populares en el mercado argentino para quienes instalan un taller mecánico independiente, una carpintería industrial o un centro de chapa y pintura. Si te interesa analizar esta categoría frente a otras marcas, consultá nuestra guía técnica sobre [compresores de 100 litros](/compresores/100-litros/). Su cabezal bicilíndrico accionado mediante polea permite entregar un caudal constante de aire reduciendo el calentamiento y las revoluciones por minuto frente a los modelos coaxiales.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** analizamos la ficha técnica oficial del LC-30100, qué herramientas neumáticas permite utilizar sin interrupciones, qué requerimientos eléctricos exige en el tablero del taller y cómo se compara con sus rivales de segmento.
+**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Modelos y fichas técnicas
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-El modelo de referencia en la gama de 100 litros de Lusqtoff presenta las siguientes características de fábrica:
+| Modelo Lüsqtoff | Configuración | Potencia/capacidad | Caudal publicado | Peso y estado de evidencia |
+| :--- | :--- | :--- | ---: | :--- |
+| LC-30100 / LC30100-8 | Bicilíndrico a correa | 3 HP; tanque 100 L | 335 L/min | Manual: 115 kg; catálogos anteriores: 78–85 kg |
+| LC-40100 / LC40100-8 | Mando directo, dos cilindros | 4 HP; tanque 100 L | 360 L/min en manual y catálogo 2020/21 | Manual: 58 kg; la revisión actual de catálogo no confirma si sigue idéntico |
+| LCS100-8 | Sin aceite, 100 L | La gama actual lista el código, pero no se verificó una ficha técnica primaria completa | Desconocido | No asignamos valores de modelos discontinuados |
 
-| Parámetro | LC-30100 (Correa Bicilíndrico en V) | LC-25100 (Correa Estándar) | LCS-100 (Silencioso Oilless) |
-| :--- | :--- | :--- | :--- |
-| **Capacidad de tanque** | 100 Litros | 100 Litros | 100 Litros |
-| **Potencia de motor** | 3,0 HP (2.200 W) Monofásico | 2,5 HP (1.850 W) Monofásico | 3,0 HP (3 motores x 1.0 HP) |
-| **Configuración de cabezal** | Bicilíndrico en V de fundición | Bicilíndrico en línea | 6 pistones secos libres de aceite |
-| **Tipo de transmisión** | Polea y correa trapezoidal | Polea y correa trapezoidal | Directa múltiple sin correas |
-| **Régimen del cabezal** | Aprox. 1.050 RPM | Aprox. 1.150 RPM | 1.400 RPM |
-| **Caudal desplazado** | 360 l/min (12,7 CFM) | 300 l/min (10,6 CFM) | 240 l/min (8,5 CFM) |
-| **Caudal efectivo (FAD a 6 bar)** | ~250 a 270 l/min | ~210 a 230 l/min | ~170 a 185 l/min |
-| **Presión máxima** | 8 bar (116 PSI) | 8 bar (116 PSI) | 8 bar (116 PSI) |
-| **Nivel sonoro** | 78 dB | 80 dB | **62 dB (Ultra silencioso)** |
-| **Peso total** | Aprox. 70 kg | Aprox. 66 kg | Aprox. 68 kg |
-| **Ficha oficial** | [Ficha Oficial Lüsqtoff LC-30100](https://lusqtoff.com.ar/) | [Ficha Oficial Lüsqtoff](https://lusqtoff.com.ar/) | [Ficha Oficial Lüsqtoff](https://lusqtoff.com.ar/) |
+**Dato verificado:** el manual LC-30100 publica 3 HP, 2.200 W, 100 L, 115 PSI y 335 L/min. El mismo manual declara 115 kg, mientras catálogos previos de Lüsqtoff muestran 78–85 kg. Para LC-40100, el manual consultado informa 4 HP, 100 L, 360 L/min y 58 kg; su catálogo 2020/21 registra 56,8 kg. El catálogo actual de la marca lista LC30100-8, LC40100-8 y LCS100-8 como referencias de gama.
 
-El modelo insignia **LC-30100** cuenta con cabezal en V para una disipación térmica simétrica, mientras que las aspas integradas en la polea motriz generan un flujo forzado de aire fresco directo sobre las aletas del cilindro durante todo el tiempo de marcha.
+**Análisis TallerLab:** las diferencias de peso del LC-30100 (30–37 kg entre documentos) son demasiado grandes para colapsarlas en una cifra única; podrían reflejar documento/modelo distinto, y la evidencia consultada no lo resuelve. Los caudales de LC-30100 y LC-40100 son cifras nominales documentadas en generaciones distintas; no calculamos una ventaja de entrega efectiva ni presumimos que todas las revisiones actuales coincidan.
 
----
+## Criterio para cotejar una unidad de 100 L
 
-## Caudal disponible y herramientas compatibles
+| Verificación | Por qué importa |
+| :--- | :--- |
+| Código completo en placa y catálogo | Distingue correa, mando directo y versiones sin aceite |
+| Peso del documento de esa revisión | El LC-30100 presenta valores discordantes según manual/catálogo |
+| Caudal y condición de medición | L/min nominal no equivale a FAD bajo una presión dada |
+| Alimentación y fase | Confirmar con la placa y la instalación existente |
+| Mantenimiento y aceite | Seguir el manual del código exacto; no transferir instrucciones de otro modelo |
 
-Con un caudal efectivo real superior a los **250 l/min continuos**, el LC-30100 resuelve la demanda de herramientas pesadas que en el [compresor Lusqtoff de 50 litros](/compresores/lusqtoff-50-litros/) se ahogan a los pocos segundos por la limitación de caudal de un cabezal coaxial:
+**Desconocido:** no se encontraron datos suficientes para publicar especificaciones del LCS100-8 ni para resolver peso de placa actual de LC-30100-8. Se retiraron del borrador los valores FAD, ruido, RPM y compatibilidad con herramientas que no contaban con documentación primaria localizada.
 
-* **Pistolas de pintar HVLP profesionales**: Permite pulverizar paños completos sin variaciones de caudal en abanicos anchos con picos de 1,3 a 1,7 mm.
-* **Llaves de impacto neumáticas de 1/2"**: Desajuste y apriete sin demora de bulones de rueda y tuercas de semiejes en autos y camionetas.
-* **Lijadoras orbitales y roto-orbitales neumáticas**: Para preparación de superficies previa a pintura en madera o chapa.
-* **Clavadoras y engrapadoras de estructura pesada**: Utilizadas en la fabricación de pallets, tinglados y muebles macizos. Para instalaciones con varias bajadas simultáneas o arenado continuo, el escalón superior es el [compresor de 200 litros](/compresores/200-litros/).
+## Fuentes consultadas
 
----
+- **Documentación primaria:** [manual Lüsqtoff LC-30100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf); [manual Lüsqtoff LC-40100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf); [catálogo Lüsqtoff 2020/21](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [catálogo Lüsqtoff 2022/23](https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf); [gama actual de compresores Lüsqtoff](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
+- **Seguridad:** seguir placa y manual del modelo en instalación, lubricación y mantenimiento.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-## Requisitos de instalación
+Para seguir comparando: [compresores de 100 litros](/compresores/100-litros/).
 
-El motor de 3 HP (2,2 kW) monofásico del Lusqtoff LC-30100 no puede enchufarse en cualquier toma doméstica común:
+Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
 
-1. **Cableado del circuito**: Se debe tender una línea directa desde el tablero principal con conductores de **4 mm² de sección mínima** para distancias de hasta 15 metros.
-2. **Protección termomagnética**: Llave térmica bipolar de **20 A o 25 A curva C** para soportar el pico de arranque inductivo del motor con carga sin que salte la térmica.
-3. **Evitar prolongadores o zapatillas**: Los alargues de baja sección provocan caídas de tensión por debajo de 200 V. Si la tensión cae al arrancar, el motor no alcanza a vencer la inercia del cabezal y quema el capacitor de arranque.
-4. **Espacio de ventilación**: Ubicá el equipo separado al menos 50 cm de las paredes para permitir la correcta circulación del aire que genera la polea sobre las aletas de refrigeración.
-
----
-
-## Comparación con alternativas de 100 litros
-
-Frente a otras opciones del mercado:
-
-* **Frente a Gamma (G2803AR 100L)**: Rendimiento y caudal prácticamente idénticos. Lusqtoff suele ofrecer una ventaja de costo inicial y mayor disponibilidad de accesorios en kits de promoción.
-* **Frente a modelos coaxiales de 100 litros**: Existen compresores económicos de 100L de acople directo (sin correa). Aunque son más baratos y livianos, no se recomiendan para taller: giran al triple de velocidad (2.850 RPM), son muy ruidosos y tienen una vida útil mucho menor.
-* **Frente a compresores industriales Barbero o BTA**: Los modelos industriales pesados ofrecen calderines de chapa más gruesa y motores aptos para trabajo continuo al 100%, pero su costo duplica al del Lusqtoff.
-
----
-
-## Precios en Mercado Libre
-
-Al buscar el compresor Lusqtoff de 100 litros en Mercado Libre, prestá atención a:
-
-* **Tipo de envío**: Por superar los 70 kg, no aplica para la modalidad regular de Mercado Envíos en paquetería ligera. Muchos vendedores coordinan el envío por expreso (transporte de cargas) con retiro en depósito o flete particular en AMBA.
-* **Comprobación de garantía**: Verificá que la publicación sea de una Tienda Oficial Lusqtoff o distribuidor autorizado para contar con los 6 meses de garantía con respaldo de fábrica.
-* **Inclusión de lubricante**: Confirmá si el cárter ya viene con aceite de fábrica o si debés sumar un litro de aceite ISO VG 100 para el primer arranque.
-
-[Ver compresores Lusqtoff de 100 litros en Mercado Libre](https://listado.mercadolibre.com.ar/compresor-lusqtoff-100-litros){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de compresores](/compresores/).

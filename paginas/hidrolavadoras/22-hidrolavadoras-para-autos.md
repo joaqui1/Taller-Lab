@@ -2,36 +2,54 @@
 title: "Hidrolavadoras para autos: equipos y combos para elegir"
 h1: "Qué hidrolavadora comprar para lavar el auto"
 url: "/hidrolavadoras/para-autos/"
-description: "Guía de compra de hidrolavadoras para autos en Argentina: presión, caudal, largo de manguera y combos con aspiradora para limpieza interior y exterior."
+description: "Tabla de dos equipos recomendados/documentados para limpieza vehicular que compara presión máxima, caudal, manguera, boquillas y accesorios de detergente por SKU; no presenta esas cifras como prueba de seguridad sobre pintura."
 author: "Taller Lab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora para autos", "hidrolavadora para lavar autos", "combo hidrolavadora aspiradora", "hidrolavadora auto 110 bar"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tabla de dos equipos recomendados/documentados para limpieza vehicular que compara presión máxima, caudal, manguera, boquillas y accesorios de detergente por SKU; no presenta esas cifras como prueba de seguridad sobre pintura."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Qué hidrolavadora comprar para lavar el auto
 
-Para lavar un auto en casa importa más contar con un chorro regulable, suficiente caudal y una manguera cómoda que perseguir la cifra de presión más alta. Una hidrolavadora con cable sirve para enjuagar carrocería, llantas y pasaruedas; un combo con aspiradora suma la limpieza de alfombras y tapizados secos. Si necesitás comparar motores y bombas, empezá por nuestra [guía general de hidrolavadoras](/hidrolavadoras/comparativa-general/).
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-## Qué revisar antes de elegir
+**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
-1. **Presión y boquilla**: Los equipos de alrededor de 100 a 110 bar anunciados son candidatos para el lavado doméstico. Usá un abanico amplio y mantené distancia de la pintura, burletes, cámaras y conexiones eléctricas. La presión máxima publicada no equivale necesariamente a la presión de trabajo.
-2. **Largo de manguera**: Una manguera de 5 metros facilita llegar a ambos lados del vehículo. Medí el recorrido desde la canilla y comprobá también el largo del cable eléctrico.
-3. **Accesorios incluidos**: Confirmá si el kit trae pistola, lanza regulable, botella para detergente y adaptador de entrada. No supongas que dos publicaciones del mismo equipo incluyen lo mismo.
-4. **Aspiradora del combo**: Comprobá capacidad del depósito, filtros, accesorios para rincones y si admite líquidos cuando esa función te interesa. El título del combo por sí solo no confirma estas características.
+## Cómo investigamos esta guía
 
-## Equipos y combos para comparar
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-| Publicación | Para qué considerarla | Qué comprobar |
-|---|---|---|
-| [Combo Kit Aspiradora 15 Litros + Hidrolavadora 110 Bar \| Hogar / Auto](https://meli.la/2LV6co2){:target="_blank" rel="sponsored noopener noreferrer"} | Limpieza exterior e interior con dos equipos en un kit | Contenido exacto del combo, accesorios y funciones de la aspiradora |
-| [Combo Hidrolavadora Aspiradora Electrica Alta Presion Profesional Industrial 4 en 1 Trent Blast 1600W 1885PSI](https://meli.la/2N6NnE2){:target="_blank" rel="sponsored noopener noreferrer"} | Otro combo de hidrolavadora y aspiradora | Qué significa “4 en 1”, caudal, ciclo de trabajo y garantía; el nombre comercial no prueba aptitud industrial |
-| [Hidrolavadora 1600 PSI 1400 w 110 Bar Pistola Manguera 5 Metros con Ruedas hl1400r Upper](https://meli.la/12rTDgA){:target="_blank" rel="sponsored noopener noreferrer"} | Equipo individual anunciado con ruedas y manguera de 5 metros | Medida y tipo de conexión de la manguera, lanzas incluidas |
-| [Hidrolavadora Eléctrica Logus 1200W 105 Bar Alta Presión Compacta Con Pistola Y Lanza](https://meli.la/2Rcddpg){:target="_blank" rel="sponsored noopener noreferrer"} | Alternativa compacta para quien ya tiene aspiradora | Largo de manguera, caudal y accesorios incluidos |
+| Modelo/código | Presión publicada | Caudal publicado | Manguera | Elementos de fábrica citados |
+| :--- | ---: | ---: | ---: | :--- |
+| Kärcher K 2 Basic Black, 19943220 | 110 bar | 280 L/h | 3 m | Filtro de agua; boquillas y pistola detalladas en ficha |
+| Niwa HDNW-500, 1040550 | Máx. 130 bar; promedio 100 bar en ficha del importador | Nominal 360 L/h; máximo 420 L/h | 5 m | Pistola con boquilla spray y botella de detergente |
 
-Si no tenés canilla o toma eléctrica cerca del vehículo, consultá la [guía de hidrolavadoras inalámbricas](/hidrolavadoras/inalambricas/). Su portabilidad resulta útil para enjuagues puntuales, pero conviene revisar autonomía y presión real antes de elegir una para el auto completo.
+**Dato verificado:** Kärcher enumera la K2 Basic Black con uso ocasional, manguera de alta presión de 3 m, 110 bar y 280 L/h. Grupo Rumbo publica para Niwa HDNW-500 los códigos y valores de la tabla, con caudal máximo y nominal distinguidos y presión «de caudal promedio» de 100 bar. Los kits dependen del producto exacto y pueden variar por país.
 
-## Cómo lavar sin dañar el vehículo
+**Análisis TallerLab:** la HDNW-500 declara 2 m más de manguera que la K2 del SKU citado, pero también mayor peso (8 kg frente a 3,8 kg sin accesorios de Kärcher) y una fuente llama explícitamente «máximo» a parte de sus cifras. La tabla ayuda a comprobar alcance físico y accesorios publicados para una tarea en vehículo; no prueba que el chorro de cualquier boquilla sea adecuado para una pintura, calco, burlete o superficie dañada.
 
-Enjuagá primero la suciedad suelta, aplicá un producto apto para carrocería y retiralo con la lanza en abanico, a distancia prudente. Evitá dirigir el chorro concentrado de cerca hacia pintura dañada, juntas, sensores, ópticas o el compartimiento del motor. Para alfombras y habitáculo, seguí las indicaciones del fabricante de la aspiradora del kit.
+**Desconocido:** no hay pruebas comparables de remoción, tiempo de lavado, consumo real ni daño potencial sobre acabados. Consultar el manual del vehículo y de la hidrolavadora y las condiciones de la boquilla antes de usarla; no se prescribe presión/distancia universal. No se afirma que una aspiradora interior incluida en un combo comparta caudal o servicio con la hidrolavadora.
 
-Los enlaces anteriores son de afiliado. Precio, disponibilidad, cuotas y composición del kit pueden cambiar; verificá esos datos en cada publicación antes de comprar.
+## Fuentes consultadas
+
+- **Documentación primaria y del importador:** [Kärcher Argentina K2 Basic Black](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html); [Grupo Rumbo Niwa HDNW-500](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500-1040550).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
+
+Para seguir comparando: [Kärcher K2: SKU y accesorios locales](/hidrolavadoras/karcher-k2/).
+
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+
+Para explorar la categoría: [guías relacionadas](/hidrolavadoras/inalambricas/).

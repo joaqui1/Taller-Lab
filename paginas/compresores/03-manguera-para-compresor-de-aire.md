@@ -2,80 +2,58 @@
 title: "Manguera para compresor de aire: medidas y materiales"
 h1: "Cómo elegir una manguera para compresor de aire"
 url: "/compresores/manguera/"
-description: "Guía técnica sobre mangueras para compresor de aire: diámetros interiores (1/4\", 5/16\", 3/8\"), espiral vs recta, goma, PVC o PU y cómo evitar pérdidas de presión."
+description: "Tabla de dimensionamiento Parker que cruza conexión, largo, diámetro interno mínimo, presión y caudal; distingue esa tabla técnica de una recomendación universal."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["manguera para compresor de aire", "manguera espiralada compresor", "manguera neumatica 1/4", "manguera de aire comprimido"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tabla de dimensionamiento Parker que cruza conexión, largo, diámetro interno mínimo, presión y caudal; distingue esa tabla técnica de una recomendación universal."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Cómo elegir una manguera para compresor de aire
 
-La manguera de aire comprimido suele ser uno de los componentes más subestimados en la instalación del taller, considerándola muchas veces como un simple conducto de goma o plástico. Sin embargo, una manguera con diámetro interno inadecuado o longitud excesiva genera una severa caída de presión (*delta P*) que ahoga las herramientas de alto consumo, como pistolas de pintar y llaves de impacto, aun cuando el manómetro del compresor marque 8 bar.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** te explicamos cómo calcular el diámetro necesario, qué diferencias prácticas existen entre mangueras rectas y espiraladas, y cómo elegir el material que mejor resista la abrasión, el aceite y los roces de obra.
+**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Diámetro interior y pérdida de presión
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-El parámetro fundamental al comprar una manguera es el **diámetro interno (ID)**, no el grosor exterior de la pared:
+| Conexión indicada por Parker | Largo de manguera | Diámetro interno mínimo | Presión mínima de la tabla | Caudal a 6 bar publicado |
+| :--- | :--- | ---: | ---: | ---: |
+| 1/4″ | 0–10 m | 7 mm | 4 bar | 480 L/min |
+| 1/4″ | 10–20 m | 8 mm | 4 bar | 480 L/min |
+| 3/8″ | 0–10 m | 10 mm | 4 bar | 1.100 L/min |
+| 3/8″ | 10–20 m | 12 mm | 4 bar | 1.100 L/min |
+| 1/2″ | 0–10 m | 12 mm | 4 bar | 2.000 L/min |
+| 1/2″ | 10–20 m | 14 mm | 4 bar | 2.000 L/min |
 
-| Diámetro Interior | Caudal máximo recomendado | Caída de presión a 10 metros | Herramientas ideales |
-| :---: | :---: | :---: | :--- |
-| **6 mm (1/4")** | Hasta 150 l/min | Alta si se exige mucho caudal | Infladores, pistolas de soplado, aerógrafos, clavadoras livianas |
-| **8 mm (5/16")** | Hasta 250 l/min | Moderada | Pistolas de pintar HVLP/LVLP, llaves de impacto compactas de 1/2" |
-| **10 mm (3/8")** | Hasta 450 l/min | Muy baja | Lijadoras orbitales, amoladoras neumáticas, llaves de impacto pesadas |
-| **12,7 mm (1/2")** | Más de 600 l/min | Mínima | Líneas principales de distribución y talleres de gomería pesada |
+**Dato verificado:** la tabla Parker «Dimensioning of Compressed Air Hoses and Equipment» publica esos mínimos y caudales bajo sus propias condiciones de dimensionamiento. En esa tabla el tamaño de conexión y el diámetro interior de la manguera son columnas distintas; no se deben tratar como la misma medida.
 
-> **Principio físico en el taller**: A mayor longitud de manguera, mayor fricción del aire contra las paredes internas. Si vas a trabajar a más de 10 metros del compresor con una [pistola para pintar con compresor](/compresores/pistola-para-pintar/), **utilizá siempre manguera de 8 mm o 10 mm** de diámetro interior; de lo contrario, la atomización de la pintura será deficiente por falta de caudal dinámico.
+**Análisis TallerLab:** entre los tramos de hasta 10 m y los de 10–20 m, Parker aumenta 1 mm el diámetro mínimo indicado para conexión de 1/4″, y 2 mm para 3/8″ y 1/2″. Es una diferencia documental de dimensionamiento, no una medición de pérdida de presión de una manguera cualquiera. Para elegir también hay que cotejar el consumo y la presión exigidos por el equipo conectado, además de racores, longitud real y presión nominal de cada componente.
 
----
+**Desconocido:** no hay un diámetro universal para toda herramienta neumática ni una conversión directa entre diámetro de conexión nominal y diámetro interior. Los caudales Parker de esta tabla no certifican el caudal de una manguera sin marca, largo y construcción identificados.
 
-## Manguera espiral o recta
+## Fuentes consultadas
 
-El diseño geométrico influye directamente en la comodidad del puesto de trabajo y en el rendimiento del flujo:
+- **Documentación técnica primaria:** [Parker, catálogo neumático 0726-E, tabla de dimensionamiento de mangueras y equipos](https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/UPD_2010/Catalog_0726-E.pdf); [Parker, catálogo de mangueras industriales 4401UK](https://www.parker.com/static_content/parkerimages/euro_hpd/CAT_4401UK.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-### 1. Manguera espiralada (Poliuretano o Poliamida/Nailon)
-* **Ventajas**: Se auto-recoge sola, evitando enredos en el suelo y ahorrando espacio. Resulta ideal para bancos fijos de trabajo, estaciones de armado y soplado en línea de producción.
-* **Desventajas**: Debido a sus numerosas curvas cerradas y su diámetro interior típicamente reducido (5 mm o 6 mm), genera una restricción notable al paso del aire. Además, ejerce una fuerza de tracción continua que cansa la muñeca al pintar o manipular piezas móviles.
+Para seguir comparando: [kits y accesorios para compresor](/compresores/kits-accesorios/).
 
-### 2. Manguera recta tradicional
-* **Ventajas**: Ofrece el menor rozamiento interno y permite mantener el diámetro completo sin cuellos de botella. No tira de la mano del operador, lo que resulta fundamental para trazados de pintura parejos.
-* **Desventajas**: Requiere enrollado manual o el uso de un enrollador automático mural para evitar pisarla o tropezar en el taller.
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
----
-
-## Materiales y longitud
-
-El material de fabricación determina la flexibilidad, la resistencia a pinchazos y el peso:
-
-* **Poliuretano (PU)**: Ultra liviana, flexible incluso en bajas temperaturas de invierno y con excelente memoria elástica. Es el estándar moderno para espirales y líneas de aire limpias.
-* **Goma sintética mallada (EPDM / NBR)**: Es la más resistente al maltrato mecánico, aplastamiento de vehículos y contacto con aceites e hidrocarburos. Es pesada pero no se quiebra ni forma bucles molestos al desenrollarse en el piso de hormigón.
-* **PVC mallado (Híbrido)**: La alternativa más económica y accesible. Resistente a la presión media, aunque tiende a ponerse rígida con el frío invernal y es más vulnerable al desgaste por arrastre contra filos metálicos.
-
-En cuanto a la **longitud**, no compres metros de más: una tirada de 10 a 15 metros es el estándar para cubrir un garaje o taller chico sin penalizar el rendimiento del cabezal.
-
----
-
-## Compatibilidad de conexiones
-
-Una manguera no rinde si sus terminales tienen pérdidas o generan estrangulamiento:
-
-1. **Terminales prensados vs. abrazaderas sin fin**: Siempre que sea posible, optá por mangueras con conectores prensados de fábrica con resorte de protección antidoblez. Las abrazaderas sin fin en mangueras plásticas suelen aflojarse con las vibraciones y provocan cortes en el material.
-2. **Rosca estándar**: La mayoría de las mangueras comerciales finalizan en roscas macho o hembra de **1/4" NPT o BSP**.
-3. **Integración de acoples rápidos**: Colocá un [acople rápido para compresor](/compresores/acoples-rapidos/) hembra con válvula de cierre en el extremo de la herramienta y un conector macho hacia la salida del regulador del compresor para un desacople instantáneo y seguro.
-
----
-
-## Opciones en Mercado Libre
-
-En el catálogo de Mercado Libre encontrarás:
-
-* **Mangueras incluidas en [kits de accesorios para compresor](/compresores/kits-accesorios/)**: La opción más económica para iniciar el taller, que suele incluir manguera espiralada junto a pistolas de sopleteo e inflado.
-* **Kits de manguera espiralada de 5 a 15 metros** con acoples rápidos ya colocados (marcas Lusqtoff, Bremen, Truper, Hamilton).
-* **Rollos de manguera de goma pesada para taller por metro** (ideal para armar con terminales a medida).
-* **Carreteles enrolladores automáticos retráctiles**: Muy buscados para colgar en techos o columnas y mantener el piso completamente despejado.
-
-[Ver mangueras para compresor de aire en Mercado Libre](https://listado.mercadolibre.com.ar/manguera-para-compresor-de-aire){:target="_blank" rel="sponsored" .btn-mercado-libre}
-
-Si también necesitás pistolas para inflar, soplar y pintar, el [kit Lusqtoff de 5 piezas con manguera espiralada de 5 m](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"} reúne esos accesorios. Comprobá las conexiones antes de pedirlo para tu compresor.
+Para explorar la categoría: [guías relacionadas](/compresores/).

@@ -6,38 +6,43 @@ description: "Guía de la Stanley SC16-AR de 1.600 W: disco, capacidad de corte,
 author: "Taller Lab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular stanley sc16", "stanley sc16", "sierra circular stanley 1600w"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "SC16-AR: ficha y medida de disco"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Sierra circular Stanley SC16: guía de compra
 
-La **SC16-AR** es la sierra circular con cable de 1.600 W que Stanley muestra en su catálogo argentino. Puede interesarte si buscás una máquina manual para cortes rectos en madera y tableros. Antes de comprarla, verificá el código de variante y las medidas del disco: la página oficial mezcla «7-1/4 pulgadas» con «180 mm» en el nombre, así que esa descripción por sí sola no alcanza para elegir un repuesto.
+La denominación comercial 7-1/4 pulgadas aparece junto con 180 mm en la ficha argentina. El manual que incluye la variante -AR indica un diámetro máximo distinto; documentamos la discrepancia antes de recomendar un repuesto.
 
-Esta guía se basa en información del fabricante, no en una prueba de taller. Si aún comparás tipos de sierra, comenzá por la [guía de sierras circulares](/sierras/circulares/).
+## SC16-AR: ficha y medida de disco
 
-## Qué publica Stanley sobre la SC16-AR
+| Dato verificado | SC16-AR | Fuente |
+| :--- | :--- | :--- |
+| Potencia anunciada | 1.600 W | Ficha Stanley Argentina |
+| Diámetro anunciado | 180 mm | Ficha Stanley Argentina |
+| Diámetro máximo en manual | 190 mm | Manual Stanley SC16, tabla de variantes |
+| Orificio en manual | 16 mm | Manual Stanley SC16 |
+| Profundidad máxima a 90° / 45° en manual | 65 / 50 mm | Manual Stanley SC16 |
+| Alimentación | Con cable | Ficha Stanley Argentina |
+| Garantía publicada | 2 años limitada | Ficha Stanley Argentina |
 
-| Aspecto | Dato verificable |
-| :--- | :--- |
-| Código argentino | SC16-AR |
-| Potencia anunciada | 1.600 W |
-| Alimentación | Con cable |
-| Formato anunciado | Sierra circular 7-1/4 pulgadas |
-| Garantía indicada en la ficha | 2 años de garantía limitada; confirmar condiciones vigentes |
+**Análisis TallerLab.** La ficha dice «7-1/4 pulgadas» y «180 mm» en el mismo título. Como 7,25 × 25,4 = 184,15 mm, hay una diferencia de unos 4 mm entre ambas expresiones. El manual compartido de SC16, que incluye -AR en la tabla, permite hasta 190 mm y señala eje de 16 mm. Los documentos no explican por qué la página comercial ofrece 180 mm. Antes de instalar otro tamaño, confirmá la placa y el manual que acompañan la unidad concreta.
 
-Fuente: [página oficial de Stanley Argentina para la SC16-AR](https://ar.stanleytools.global/producto/sc16-ar/sierra-circular-7-14-pulg-180mm-1600w). Para diámetro exterior exacto, orificio del eje y RPM admisibles, consultá el manual y la placa de la unidad ofrecida. Las variantes SC16 de otros países pueden traer accesorios o especificaciones diferentes.
+**Desconocido.** No verificamos qué disco viene dentro de cada caja ni el rendimiento de corte. La ficha comercial no da profundidad; la cifra de la tabla proviene del manual y debe contrastarse con la revisión de la unidad ofrecida.
 
-## Disco y guía: dos comprobaciones importantes
+Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/). La potencia anunciada por sí sola no prueba calidad de corte.
 
-El número de watts no te dice qué tan limpio quedará el canto. La hoja incluida puede estar pensada para cortes rápidos en madera; si querés trabajar melamina, elegí un [disco compatible](/sierras/disco-para-sierra-circular/) indicado para ese material. Antes de comprarlo, verificá diámetro exterior, eje y RPM de la SC16-AR. No uses como única referencia la medida del título de una publicación.
+## Fuentes consultadas
 
-Si vas a dimensionar placas grandes, una regla recta bien sujeta puede mejorar la repetibilidad. Revisá las opciones de [guía para sierra circular](/sierras/guia-para-sierra-circular/) y comprobá cómo apoya la base de esta máquina. Un carril de otra marca no tiene por qué encastrar directamente.
+- **Documentación primaria:** [ficha Stanley SC16-AR](https://ar.stanleytools.global/producto/sc16-ar/sierra-circular-7-14-pulg-180mm-1600w); [manual Stanley SC16 con variante -AR](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SC16D2/1/Instruction_Manual/EN/N611276_SC16_T1_LAG.pdf).
+- **Información comercial:** no se utilizó para validar prestaciones.
+- **Opiniones:** no se revisó una muestra verificable.
 
-## Cuándo elegirla frente a otra circular
-
-En la ficha argentina, la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/) figura con 1.400 W y la [Bosch GKS 150](/sierras/bosch-gks-150/) con 1.500 W. La SC16 anuncia 1.600 W, pero esa diferencia aislada no permite afirmar que sea mejor. Compará profundidad a 90° y 45°, peso, base, accesorios, disponibilidad de repuestos y precio de un disco adecuado para tus trabajos. Si necesitás repetir cortes longitudinales con piezas pequeñas dentro del taller, la [sierra de banco](/sierras/de-banco/) puede ser más apropiada.
-
-## Qué pedirle al vendedor
-
-Confirmá **SC16-AR**, tensión, foto de la placa, manual y accesorios incluidos. Pedí la medida del disco y del eje de esa variante y comprobá la garantía aplicable a la compra. Si vas a usarla con una guía o aspiración, consultá qué adaptadores necesitás antes de sumar su precio al presupuesto.
-
-[Ver Stanley SC16 en Mercado Libre](https://listado.mercadolibre.com.ar/stanley-sc16){:target="_blank" rel="noopener noreferrer" .btn-mercado-libre}
+[Ver todas las guías de sierras](/sierras/).

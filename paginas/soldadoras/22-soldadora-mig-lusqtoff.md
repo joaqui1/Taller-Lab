@@ -2,38 +2,55 @@
 title: "Soldadora MIG Lusqtoff: modelos Flux y qué revisar"
 h1: "Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas"
 url: "/soldadoras/mig-lusqtoff/"
-description: "Compará soldadoras MIG Flux Lusqtoff por código de modelo, corriente, proceso, alambre y accesorios para evitar confundir SML120, SML130 y SML150."
+description: "Matriz de tres Lüsqtoff MIG/FCAW por proceso, amperaje, ciclo y consumible según fichas/manuales, con advertencia de discontinuidad y variante de kit para evitar homogeneizar la gama."
 author: "Taller Lab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora mig lusqtoff", "soldadora flux lusqtoff", "soldadora mig flux lusqtoff", "soldadora mig sin gas lusqtoff"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Matriz de tres Lüsqtoff MIG/FCAW por proceso, amperaje, ciclo y consumible según fichas/manuales, con advertencia de discontinuidad y variante de kit para evitar homogeneizar la gama."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas
 
-Al buscar una **soldadora MIG Lusqtoff** aparecen máquinas con nombres y kits parecidos. El dato decisivo es el **código de modelo de la placa**, no el amperaje que el vendedor coloca en el título. Una SML120-8D, una SML130-7 y una SML150-8 pertenecen a variantes diferentes; tampoco un combo con máscara convierte una máquina de una serie en otra.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-Esta página reúne la oferta de la marca. Si primero necesitás entender el proceso, consultá la [guía de MIG sin gas](/soldadoras/mig-sin-gas/). Si buscás una inverter de electrodo de la misma marca, empezá por [soldadoras Lusqtoff](/soldadoras/lusqtoff/): una MIG Flux lleva devanador y torcha, elementos que la Iron 100 no tiene.
+**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Identificá la máquina antes de comparar precios
+## Cómo investigamos esta guía
 
-| Lo que figura en la publicación | Qué revisar en la caja o placa | Por qué importa |
-| :--- | :--- | :--- |
-| SML120-8D o kit SML120-8DK | Código completo y contenido del combo | La máquina y los accesorios pueden tener códigos distintos. |
-| SML130-7 | Manual y tipo de alambre admitido | No hay que atribuirle especificaciones de SML120 o SML150. |
-| SML150-8 o SML150-8D | Sufijo final, alimentación y ficha del fabricante | El sufijo puede identificar una revisión diferente. |
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-La [ficha oficial SML120-8D](https://www.lusqtoff.com.ar/ver-producto/SML120-8D) declara proceso Flux de 20 a 120 A, MMA de 20 a 100 A y función Lift TIG de 20 a 100 A. Indica torcha Flux, pinzas y picos de contacto; **no describe todos los accesorios que puede sumar un vendedor**. No extrapoles estos datos a la SML150-8. Para la primera tenemos una [ficha dedicada](/soldadoras/lusqtoff-sml120-8d/); para la segunda, una [guía SML150-8](/soldadoras/lusqtoff-sml150-8/).
+| Modelo | Proceso/consumible documentado | Salida y ciclo publicados | Diferencia práctica documentada |
+| :--- | :--- | :--- | :--- |
+| SML120-8D | FLUX, MMA y Lift TIG | FLUX 20–120 A; MMA y Lift TIG 20–100 A; 25% a 25 °C | Tres procesos declarados; masa de máquina 6,6 kg |
+| SML130-7 | FCAW con tubular autoprotegido | 25–120 A; 120 A/10% y 50 A/60% a 40 °C | Fabricante la marca discontinuada; torcha MB-15 incluida en página |
+| SML150-8D | FLUX y MMA | MIG 20–120 A; MMA 20–100 A; STICK 20% a 100 A | Kit/ficha incluye rollo de 0,45 kg, máscara ST-1X y escuadras |
 
-## Qué alambre y consumibles comprar
+**Dato verificado:** cada fila procede de la página o manual del código indicado. La etiqueta «MIG» que Lüsqtoff usa para estas unidades no significa que todas requieran o acepten alambre macizo con gas: SML130-7 se describe para alambre tubular autoprotegido; SML120-8D y SML150-8D identifican modo FLUX.
 
-La máquina debe admitir el diámetro de alambre que pensás usar y un carrete del tamaño compatible con su devanador. Revisá en el manual el tipo de alambre, el diámetro de punta de contacto, el rodillo y la polaridad exigida por ese consumible. «Sin gas» suele referirse a **alambre tubular autoprotegido**; no implica que cualquier alambre MIG funcione sin cilindro. La [guía de alambre Flux](/soldadoras/alambre-flux/) explica cómo elegirlo sin comprar un rollo incompatible.
+**Análisis TallerLab:** para comparar, identificá el código y el proceso antes de mirar amperaje máximo. Las fichas expresan el ciclo en condiciones distintas (25 °C frente a 40 °C y puntos distintos), así que no conviene ordenarlas por porcentaje sin homogeneizar condiciones. También separá máquina suelta de kit: la ST-1X y el rollo figuran en algunas configuraciones, no necesariamente en todas las publicaciones.
 
-Para comparar dos ofertas, anotá por separado **máquina, torcha, pinzas, rollo, máscara, escuadras, garantía y envío**. Un precio menor puede corresponder a una versión sin accesorios o a un modelo distinto. En kits para principiantes, verificá que la máscara sea apta para arco y sumá [guantes de soldador](/soldadoras/guantes/).
+**Desconocido:** no se confirmaron disponibilidad local de SML130-7, garantía actual de equipos discontinuados, diferencias internas entre cada sufijo de kit ni aplicación para espesores específicos. No se probó ninguna unión ni se revisó una muestra de compradores.
 
-## Cuándo conviene MIG Flux
+## Fuentes consultadas
 
-Es práctica cuando necesitás cordones continuos y no querés trasladar un tubo de gas. En general requiere limpiar escoria y controlar las salpicaduras. Para chapa fina de carrocería y terminaciones más limpias, compará con una [MIG con gas](/soldadoras/soldadora-mig-con-gas/). La decisión depende de espesor, ventilación, lugar de trabajo y costo de consumibles, no solo del precio de la máquina.
+- **Documentación primaria:** [Lüsqtoff SML120-8D](https://www.lusqtoff.com.ar/ver-producto/SML120-8D); [Lüsqtoff SML130-7](https://lusqtoff.com.ar/ver-producto/SML130-7); [manual SML130-7](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf); [Lüsqtoff SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D); [manual SML150-8](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
+Para seguir comparando: [ficha y manual del modelo discontinuado SML130-7](/soldadoras/lusqtoff-sml130-7/).
 
-[Ver kit MIG Flux Lusqtoff con antiadherente](https://meli.la/26RsZRw){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+
+Para explorar la categoría: [guías relacionadas](/soldadoras/lusqtoff/).

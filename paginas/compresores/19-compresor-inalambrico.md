@@ -2,80 +2,64 @@
 title: "Compresor inalámbrico: autonomía y guía de compra"
 h1: "Cómo elegir un compresor inalámbrico a batería"
 url: "/compresores/inalambricos/"
-description: "Guía de compra sobre compresores inalámbricos a batería: infladores de mano vs compresores con tanque, plataformas 18V/20V, autonomía y tiempos de uso."
+description: "Comparación de infladores a batería con sus caudales declarados a distintas presiones; separa estos equipos sin tanque de los compresores para herramientas neumáticas."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["compresor inalambrico", "compresor a bateria", "inflador inalambrico auto", "compresor 18v"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Comparación de infladores a batería con sus caudales declarados a distintas presiones; separa estos equipos sin tanque de los compresores para herramientas neumáticas."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Cómo elegir un compresor inalámbrico a batería
 
-La evolución de las baterías de iones de litio (Li-Ion) y los motores sin escobillas (*brushless*) ha liberado al aire comprimido de su histórica dependencia de los cables de 220V y las mangueras pesadas. Hoy en día, un compresor inalámbrico a batería permite desde calibrar los cuatro neumáticos de un vehículo en medio de la ruta hasta clavar molduras de madera en un techo sin necesidad de extender alargues eléctricos.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** analizamos las dos grandes familias de compresores a batería, cómo evaluar la autonomía real en amperios-hora (Ah), qué ventajas ofrecen las plataformas de baterías intercambiables y qué aspectos técnicos revisar antes de comprar.
+**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Inflador compacto o compresor con tanque
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-El término "compresor inalámbrico" abarca dos formatos de herramientas con objetivos de trabajo completamente distintos:
+| Modelo a batería | Presión máxima | Caudal declarado | Tanque | Peso publicado |
+| :--- | ---: | :--- | ---: | ---: |
+| Einhell PRESSITO 18/25 | 11 bar | Aspiración 25 L/min; entrega 17 / 11 / 9 L/min a 0 / 4 / 7 bar | 0 L | 2,28 kg |
+| Einhell PRESSITO 18/21 | 10,5 bar | Aspiración 21 L/min; entrega 14 / 9 / 6 L/min a 0 / 4 / 7 bar | 0 L | 2,06 kg |
+| Makita DMP180Z | 8,3 bar | 12 / 8 / 7 L/min a 200 / 700 / 830 kPa | 0 L | 1,7 kg |
 
-| Tipo de Equipo | Formato y Peso | Presión máxima | Caudal de aire | Aplicación principal |
-| :--- | :--- | :---: | :---: | :--- |
-| **Inflador digital de mano (Pistola o petaca)** | Ultra compacto (0,5 a 1,5 kg) | Alta: hasta 150 PSI (10 bar) | Muy bajo (10 a 25 l/min) | Calibración de neumáticos de autos, motos, bicis y pelotas. |
-| **Compresor inalámbrico con tanque (Calderín 5 a 10 L)** | Caja de transporte o mochila (8 a 12 kg) | Media: hasta 115 PSI (8 bar) | Medio (45 a 85 l/min) | Clavadoras/engrapadoras neumáticas en obra, soplado liviano y retoques. |
+**Dato verificado:** Einhell identifica ambos PRESSITO como equipos Power X-Change de 18 V sin batería ni cargador incluidos en las configuraciones citadas; sus fichas publican tanque de 0 L. Makita DMP180Z es también un inflador portátil de batería con valores de caudal publicados por presión. No se confunden con compresores con calderín.
 
-* **Inflador de mano**: Diseñado específicamente como [compresor de aire para auto](/compresores/para-auto/) para llevar en el baúl o la guantera. Para comparar equipos compactos por alimentación, caudal y accesorios, consultá la guía de [infladores de neumáticos portátiles](/compresores/inflador-neumaticos-portatil/). Algunos modelos cuentan con pantalla digital y corte automático al llegar a la presión prefijada; comprobá ambas funciones en la ficha del equipo elegido.
-* **Compresor con tanque a batería**: Diseñado para carpinteros, instaladores de aberturas y obras sin conexión eléctrica terminada. Permite disparar cientos de clavos neumáticos con total libertad de movimiento.
+**Análisis TallerLab:** los caudales bajan al aumentar la presión en cada ficha, por lo que la cifra de aspiración no describe el caudal a presión alta. PRESSITO 18/25 declara 3 L/min más que 18/21 a 7 bar (50 % respecto de 6 L/min), pero no se usa esa diferencia para afirmar un tiempo real de inflado: condiciones, batería y medición no son un ensayo común. Tanque cero significa que estas fichas no respaldan su uso como depósito para alimentar de forma continua herramientas neumáticas.
 
----
+## ¿Qué tipo de trabajo cubre esta categoría?
 
-## Batería integrada o intercambiable
+| Si necesitás… | Evidencia que importa |
+| :--- | :--- |
+| Inflar un neumático o balón | Presión objetivo y caudal a esa presión |
+| Llevar el equipo en el vehículo | Batería compatible, accesorios y método de carga/energía |
+| Alimentar una herramienta neumática | Caudal continuo a presión de trabajo y reserva; los tres ejemplos de esta tabla no tienen tanque |
+| Comprar un kit listo para usar | Verificar si el código incluye batería, cargador, adaptadores y manguera |
 
-La fuente de energía determina la versatilidad de la máquina a largo plazo:
+**Desconocido:** no se compararon autonomía, tiempo de inflado por rueda, ruido o rendimiento con una batería común. Tampoco se afirma que la etiqueta “inalámbrico” implique tanque o compatibilidad con herramientas de taller.
 
-### 1. Batería interna recargable por USB (Modelos compactos urbanos)
-* **Ventajas**: No requiere comprar cargadores aparatosos ni baterías externas. Se recarga con el mismo cable USB-C del teléfono celular o mediante un adaptador de 12V en el auto.
-* **Límites**: Si se agota la batería en medio de una rueda, hay que esperar a que se recargue para continuar; cuando la celda interna se agota tras varios años de uso, suele ser difícil de reemplazar.
+## Fuentes consultadas
 
-### 2. Batería intercambiable de plataforma (18V / 20V)
-* **Ventajas**: Si ya poseés un taladro, amoladora o sierra de marcas como **DeWalt (20V MAX), Milwaukee (M18), Einhell (Power X-Change), Makita (18V LXT) o Total/Ingco (20V)**, podés comprar el compresor en versión "solo herramienta" (*bare tool*) a una fracción de su costo total y utilizar las mismas baterías que ya tenés en el taller.
-* **Rendimiento**: Entregan mayor amperaje instantáneo, permitiendo mayores caudales y tiempos de uso continuos.
+- **Documentación primaria:** [Einhell Argentina PRESSITO 18/25](https://www.einhell.com.ar/p/4020420-pressito-18-25/); [Einhell Argentina PRESSITO 18/21](https://www.einhell.com.ar/p/4020467-pressito-18-21/); [Makita Argentina DMP180Z](https://makita.com.ar/producto/978-inflador-inalambrico/); [catálogo Makita Argentina 2025](https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
----
+Para seguir comparando: [inflador portátil para neumáticos](/compresores/inflador-neumaticos-portatil/).
 
-## Autonomía, caudal y tiempo de uso
+Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
 
-La capacidad de la batería (medida en amperios-hora - Ah) define la autonomía real en el terreno:
-
-* **Batería de 2.0 Ah**: Permite calibrar y llevar a presión unas 8 a 12 cubiertas de auto que hayan perdido 3 o 4 PSI, o inflar 1 rueda vacía desde cero.
-* **Batería de 4.0 Ah o 5.0 Ah**: Autonomía suficiente para inflar 3 ruedas completas de rodado mediano o disparar más de 800 clavos en un compresor con calderín de obra.
-* **Ciclo de trabajo y calentamiento**: Los compresores inalámbricos compactos concentran mucho calor en poco volumen. La mayoría exige un descanso de 5 a 10 minutos tras cada 10 a 15 minutos de inflado continuo para proteger los aros del cilindro.
-
----
-
-## Qué incluye la compra
-
-Al comparar opciones en el mercado, prestá especial atención al código del producto:
-
-1. **Versión "Kit Completo"**: Incluye la herramienta, una o dos baterías de litio, cargador rápido y juego de picos adaptadores (para válvula Presta de bicicleta, aguja de fútbol y cono para inflables).
-2. **Versión "Herramienta Sola / Sin batería"**: Identificada usualmente con una letra "B" o "Z" en el código. Viene solo el compresor en caja de cartón. Solo conviene si ya tenés baterías y cargador de la misma marca y voltaje.
-3. **Modelos híbridos (Doble alimentación)**: Algunos modelos avanzados (como Einhell o DeWalt) pueden funcionar tanto con batería de 18V como enchufados a la toma de 12V del auto o a la red de 220V, brindando versatilidad absoluta.
-
----
-
-## Opciones en Mercado Libre
-
-En Mercado Libre podés explorar:
-
-* **Infladores portátiles inteligentes (Xiaomi Mi Portable, Lusqtoff, Daewoo)**: Los reyes del segmento compacto por practicidad y precisión del manómetro digital.
-* **Compresores de plataforma 18V/20V (Einhell Pressito, DeWalt DCC020I, Milwaukee M18)**: Para usuarios exigentes y contratistas.
-* **Compresores a batería con tanque de 6 a 10 litros**: Para montajes en seco, tapicería y trabajos de carpintería en obra.
-
-Opciones de infladores compactos a batería:
-
-[Ver Inflador Portátil Inalámbrico Inteligente De Mano Compresor en Mercado Libre](https://meli.la/2jnm3qc){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
-
-También podés ver el [Inflador Compresor De Aire Portatil Bateria Nictom Ie01 Auto](https://meli.la/2m7TJWQ){:target="_blank" rel="sponsored noopener"} o [comparar otros compresores inalámbricos](https://listado.mercadolibre.com.ar/compresor-inalambrico){:target="_blank" rel="sponsored noopener"}.
-
-Otra opción con batería interna es el [JD Air Master 5627](https://meli.la/2UYPcrB){:target="_blank" rel="sponsored noopener"}, con pantalla digital, linterna y función de batería externa según su publicación. Revisá autonomía y accesorios del modelo ofrecido.
+Para explorar la categoría: [guías de compresores](/compresores/).

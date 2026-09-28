@@ -2,39 +2,57 @@
 title: "Hidrolavadora para aire acondicionado: qué revisar"
 h1: "Cómo elegir una hidrolavadora para aire acondicionado"
 url: "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"
-description: "Guía para elegir una hidrolavadora para aire acondicionado: chorro regulable, acceso, drenaje y cuidados de aletas y componentes eléctricos."
+description: "Matriz de compatibilidad documental que separa equipos cuya ficha declara presión de servicio de instrucciones de limpieza de serpentines; aporta el límite práctico de no dirigir un chorro de alta presión a las aletas."
 author: "Taller Lab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora para aire acondicionado", "hidrolavadora aire acondicionado", "limpieza aire acondicionado hidrolavadora"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Matriz de compatibilidad documental que separa equipos cuya ficha declara presión de servicio de instrucciones de limpieza de serpentines; aporta el límite práctico de no dirigir un chorro de alta presión a las aletas."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Cómo elegir una hidrolavadora para aire acondicionado
 
-Limpiar un aire acondicionado exige controlar el agua y el chorro. Las aletas del serpentín son delicadas y los componentes eléctricos deben mantenerse secos. Por eso, al evaluar una hidrolavadora para esta tarea conviene mirar la regulación, las boquillas y la facilidad de acceso antes que la presión máxima anunciada.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-## Qué comprobar en la publicación
+**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
-* **Chorro regulable**: Buscá una pulverización amplia y suave. Un chorro concentrado y cercano puede doblar las aletas del intercambiador.
-* **Lanza y manguera**: Confirmá que permitan trabajar en el espacio disponible sin tirar de las conexiones ni mojar paredes o muebles.
-* **Control del agua**: Para una unidad interior, prepará protección y drenaje adecuados. Si no se puede contener el agua, evitá usar una hidrolavadora en ese lugar.
-* **Ficha y manual**: Revisá la presión de trabajo, el caudal y las indicaciones del fabricante del equipo de climatización. El nombre “para aire acondicionado” en un aviso no garantiza compatibilidad con todos los aparatos.
+## Cómo investigamos esta guía
 
-## Unidad interior y unidad exterior: necesidades diferentes
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-En la **unidad interior**, el principal límite suele ser la posibilidad de contener el agua. La limpieza del filtro extraíble no exige presión: normalmente alcanza el procedimiento indicado en el manual del aire acondicionado. Si se va a intervenir el serpentín o la bandeja de condensados, el agua debe recogerse sin alcanzar la placa electrónica, el motor ni el ambiente. Comprobá también que el desagüe esté libre antes de empezar. Una máquina difícil de regular puede resultar incómoda para este trabajo, aunque su publicación mencione específicamente aires acondicionados.
+| Comprobación para limpiar un aire acondicionado | Qué establece la documentación consultada | Decisión documental |
+| :--- | :--- | :--- |
+| Serpentín exterior con aletas | Carrier indica aplicar agua con detergente usando un rociador de baja presión y seguir instrucciones del fabricante del equipo | No se justifica usar el chorro de una hidrolavadora de consumo sobre las aletas |
+| Serpentín de aletas Cu/Al en Daikin UATYA | El manual indica enjuagar con agua potable a baja presión (3–5 barg) y prohíbe chorros de alta presión | Dato específico de esa unidad/familia, no un ajuste universal |
+| Presión de una hidrolavadora | En Gamma 150, el manual distingue 100 bar de servicio y 150 bar admisibles | La cifra nominal de la hidrolavadora no define un ajuste seguro para el serpentín |
+| Unidad interior y componentes eléctricos | La página Carrier consultada describe limpieza de serpentín exterior; no da procedimiento para la unidad interior | No extrapolar estas instrucciones al interior ni a partes eléctricas |
 
-En la **unidad exterior** hay más espacio para maniobrar, pero siguen siendo vulnerables las aletas, las conexiones y los componentes eléctricos. Primero retirás hojas y suciedad suelta con métodos suaves; si el fabricante permite limpieza con agua, aplicás el chorro con la presión y dirección que indique su manual. No asumas que una presión apropiada para lavar veredas también lo sea para un condensador.
+**Dato verificado:** Carrier recomienda aplicar una solución de detergente suave y agua con un rociador de baja presión para la bobina/serpentín y remite a las indicaciones del fabricante. El manual Daikin UATYA especifica, para serpentines tradicionales con aletas Cu/Al, enjuague con agua potable a 3–5 barg y prohíbe chorros de alta presión. El manual Gamma 150 separa presión máxima admisible de presión de servicio; no presenta esa máquina como herramienta para limpiar aires acondicionados.
 
-## Publicación para revisar
+**Análisis TallerLab:** una hidrolavadora puede concentrar un chorro cuya presión publicada no está expresada como un ajuste de limpieza HVAC validado. Por eso esta guía no recomienda un modelo, boquilla ni distancia universal para serpentines. La documentación encontrada apoya baja presión y consulta del manual específico; si no se conoce el procedimiento, solicitar limpieza a un técnico de climatización.
 
-* [Hidrolavadora Alta Presion Westul Autostop Aire Acondicionad Rojo](https://meli.la/2eTrnD8){:target="_blank" rel="sponsored noopener noreferrer"} — el título la presenta para aire acondicionado. Antes de comprar, confirmá cómo se regula el chorro, qué boquillas incluye y cuáles son su presión y caudal efectivos.
+**Desconocido:** no se verificó un rango universal de presión para todas las marcas de aire acondicionado, ni compatibilidad de boquillas/adaptadores. Tampoco se inspeccionó un equipo ni se realizaron pruebas. Desconectar la alimentación y seguir el procedimiento del fabricante del aire acondicionado antes de cualquier mantenimiento.
 
-El sistema **Auto Stop** anunciado puede detener el motor cuando se suelta el gatillo. Eso ayuda a manejar pausas durante la tarea, pero no sustituye el ajuste de presión ni la protección contra salpicaduras. Consultá en la ficha si la lanza permite trabajar con un abanico suficientemente suave para la unidad que querés limpiar.
+## Fuentes consultadas
 
-## Cuidados al limpiar
+- **Fabricante de climatización:** [Carrier, limpieza de serpentines de aire acondicionado](https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/); [manual oficial Daikin UATYA, limpieza exterior de serpentines](https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf).
+- **Documentación primaria de hidrolavadora:** [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Cortá la alimentación eléctrica del aire acondicionado y seguí su manual de mantenimiento. Protegé placas, terminales y motores del agua. No apuntes un chorro fuerte de frente a las aletas ni trabajes sin una vía segura para recoger el líquido. Cuando la limpieza requiere desmontaje, acceso en altura o intervención eléctrica, corresponde acudir a un técnico capacitado.
+Para seguir comparando: [comparativa general: presión y caudal publicados](/hidrolavadoras/comparativa-general/).
 
-Si el manual prohíbe usar chorros a presión o no permite acceder al sector sin desmontar partes eléctricas, elegí el método de limpieza que indique el fabricante. Revisá además que no haya aletas dobladas, pérdidas ni signos de corrosión: la hidrolavadora no resuelve esos problemas y una limpieza agresiva puede agravarlos.
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-Para otros usos de limpieza en casa, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/). El enlace de producto anterior es de afiliado; precio, disponibilidad y características de la publicación pueden cambiar.
+Para explorar la categoría: [guías relacionadas](/hidrolavadoras/150-bar/).

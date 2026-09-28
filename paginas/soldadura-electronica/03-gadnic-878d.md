@@ -2,35 +2,58 @@
 title: "Gadnic 878D: estación de cautín y aire caliente"
 h1: "Gadnic 878D: qué revisar antes de comprar la estación"
 url: "/soldadura-electronica/gadnic-878d/"
-description: "Revisá la estación Gadnic 878D para electrónica: cautín, aire caliente, potencia de la publicación, boquillas y accesorios."
+description: "Ficha documental de la Gadnic 878D: contraste entre los 750 W del texto comercial y los 370 W del cuadro técnico, accesorios y diferencias frente a Yihua."
 author: "Taller Lab"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldado gadnic 878d", "gadnic 878d", "gadnic estacion de soldado"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "comparación de potencia, rangos térmicos y contenido declarado para Gadnic 878D y Yihua 878D/898D, con discrepancia 750 W frente a 370 W visible"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Gadnic 878D: qué revisar antes de comprar la estación
 
-La **Gadnic 878D** combina un cautín con una herramienta de aire caliente para soldadura y retrabajo de componentes electrónicos. La [publicación de Gadnic/Bidcom](https://www.mercadolibre.com.ar/estacion-de-soldado-gadnic-878d-smd-370w-profesional/up/MLAU262167213) consultada describe una versión de **370 W**, con temperatura de aire de **100 a 450 °C** y temperatura de cautín de **200 a 480 °C**. Algunas búsquedas mezclan 878D con potencias distintas; comprobá la etiqueta del equipo ofrecido antes de usar una cifra en tu decisión.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-Si todavía no decidiste qué tipo de equipo necesitás, empezá por la [guía de estaciones para electrónica](/soldadura-electronica/estacion-de-soldadura/). Para trabajos simples de cableado, un [kit de soldador de estaño](/soldadura-electronica/kit-soldador-de-estano/) puede ser suficiente.
+**Dato verificado:** la página argentina de Gadnic identifica el producto como 878D y ofrece dos valores de potencia en la misma ficha: el texto descriptivo menciona 750 W, mientras que la tabla de especificaciones indica **370 W nominales**. La misma tabla declara alimentación de 220 V, aire a 100–450 °C, cautín a 200–480 °C, estabilidad de ±2 °C, caudal de 120 L/min y peso de 2,3 kg. Son datos publicados por el vendedor/fabricante; TallerLab no los midió.
 
-## Dos herramientas en una mesa
+| Equipo y fuente | Potencia publicada | Aire caliente | Cautín | Caudal / peso | Qué permite concluir |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Gadnic 878D, ficha argentina | 370 W en especificaciones; 750 W en descripción | 100–450 °C | 200–480 °C | 120 L/min; 2,3 kg | La propia página presenta una discrepancia de potencia que debe confirmarse en la etiqueta o manual de la unidad ofrecida |
+| Yihua 878D, serie OEM | 700 W ±10% máx. de máquina; aire 650 W | 100–450 °C | 200–480 °C, salida 50 W | 120 L/min máx.; 2,6 kg | Es otra ficha y no demuestra que la Gadnic tenga la misma configuración |
+| Yihua 898D/898D+ | 730 W de máquina; aire 650 W | 100–480 °C | 200–480 °C; 50/75 W según versión | 120 L/min máx.; 2,65 kg | El sufijo y la versión cambian los datos; no trasladarlos a la 878D |
 
-El cautín sirve para soldar terminales y componentes con contacto directo. El aire caliente permite calentar áreas SMD, retirar ciertos componentes y aplicar termorretráctil. Para placas pequeñas importan la regulación y las boquillas: un chorro demasiado amplio puede afectar piezas vecinas. La potencia total de la unidad no indica por sí sola cuánto calor llega a la unión.
+**Declaración del fabricante:** Gadnic enumera estación, cautín, soporte, paño de limpieza, bomba de aire, soporte para bomba, tres punteras y manual en español. La ficha ofrece garantía de 12 meses. Es preciso revisar el contenido de la oferta concreta porque los combos comerciales pueden modificarse.
 
-| Comprobación | Motivo |
-| :--- | :--- |
-| Código exacto y potencia de placa | Evita mezclar variantes publicadas como «878D». |
-| Cautín, soporte y puntas | Define si podés empezar a trabajar y conseguir repuestos. |
-| Mango de aire y boquillas | Determina la utilidad para los componentes que repararás. |
-| Alimentación y garantía | Confirma compatibilidad local y cobertura del vendedor. |
+**Análisis TallerLab:** la cifra de 750 W no queda conciliada con los 370 W del cuadro de especificaciones. Para comparar esta unidad, tomamos como referencia provisional el dato tabulado de 370 W, pero la diferencia sigue abierta hasta cotejar placa/manual del ejemplar vendido. La ficha OEM Yihua solo sirve como comparación documental entre modelos: ni acredita equivalencia técnica ni valida el dato de Gadnic. La potencia total tampoco permite deducir por sí sola la temperatura efectiva en la unión.
 
-La oferta revisada menciona **tres boquillas**, soporte de cautín y manual, entre otros accesorios. Verificá la lista de la publicación elegida, porque los combos pueden cambiar. Para inmovilizar una placa durante el trabajo, un [soporte con lupa y pinzas](/soldadura-electronica/soporte-para-soldar-con-lupa/) puede ayudar más que sumar otra boquilla.
+**Desconocido:** no se comprobó físicamente una unidad, la revisión del manual descargable no resolvió la discrepancia, y no se revisó una muestra de opiniones. Tampoco se confirma que los repuestos Yihua sean compatibles con esta Gadnic.
 
-## Alternativa comparable
+## Cómo investigamos esta guía
 
-La [Yihua 898D](/soldadura-electronica/yihua-898d/) también combina aire caliente y cautín. Antes de elegir entre ambas, compará repuestos disponibles, tamaño del equipo, control de temperatura y accesorios realmente incluidos. Mantené ventilación adecuada en el puesto y probá temperatura y flujo sobre material de descarte antes de intervenir una placa importante.
+- Tipo de análisis: documental.
+- Prueba física de TallerLab: no.
+- Especificaciones contrastadas: sí; discrepancia registrada, no resuelta.
+- Opiniones de compradores: no.
+- Fuentes primarias: sí.
+- Última revisión: 27/09/2026.
+
+## Fuentes consultadas
+
+- **Ficha local y datos publicados por Gadnic/Bidcom:** [Estación Gadnic 878D, código SOLD0002](https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w). La URL incluye “750w”, pero la ficha hoy presenta 370 W nominales en el apartado de especificaciones y 750 W en el texto descriptivo.
+- **Comparación de fabricante OEM, no equivalencia:** [Yihua serie 878/878A/878AD/878D](https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/) y [Yihua serie 898D/898D+](https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/).
+- **Opiniones:** no se analizó una muestra verificable.
+
+La selección depende de confirmar la potencia y la variante de la publicación. Consultá también la [estación de soldadura electrónica](/soldadura-electronica/estacion-de-soldadura/), el [kit de soldador de estaño](/soldadura-electronica/kit-soldador-de-estano/) y el [soporte con lupa](/soldadura-electronica/soporte-para-soldar-con-lupa/).
 
 **Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
 
-[Ver Gadnic 878D de 370 W en Mercado Libre](https://meli.la/21VNNVW){:target="_blank" rel="sponsored" .btn-mercado-libre}
+[Ver Gadnic 878D en Mercado Libre](https://meli.la/21VNNVW){:target="_blank" rel="sponsored" .btn-mercado-libre}
+
+[Ver metodología de TallerLab](/como-trabajamos/)

@@ -2,80 +2,45 @@
 title: "Bosch GKS 150: características y cuándo conviene"
 h1: "Sierra circular Bosch GKS 150: guía antes de comprar"
 url: "/sierras/bosch-gks-150/"
-description: "Guía técnica de Taller Lab sobre la sierra circular Bosch GKS 150: motor de 1500W, capacidad a 90° y 45°, disco Eco for Wood y precios en Argentina."
+description: "Ficha y manual de la Bosch GKS 150: potencia, disco, eje, corte a 90 grados y compatibilidad con guías."
 author: "Taller Lab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["bosch gks 150", "sierra circular bosch gks 150", "gks 150 caracteristicas", "sierra circular bosch 1500w", "opiniones bosch gks 150"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "GKS 150: ficha, manual y límite de corte"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Sierra circular Bosch GKS 150: guía antes de comprar
 
-Dentro de la prestigiosa línea Heavy Duty y profesional de la marca alemana, la sierra circular Bosch GKS 150 se ha convertido en una de las herramientas manuales más vendidas y recomendadas para el mercado de la construcción, carpintería de obra y remodelaciones en Argentina. Diseñada como una máquina robusta pero accesible dentro del segmento profesional azul de Bosch, la GKS 150 ofrece un balance muy calibrado entre potencia de motor, ergonomía de agarre y durabilidad mecánica en condiciones exigentes de obra.
+Contrastamos ficha argentina y manual del código 0 601 6B3 0H0. La capacidad del manual se refiere al disco de 184 mm indicado.
 
-Sin embargo, como ocurre con cualquier herramienta electroportátil, cuenta con particularidades de diseño —como el material de su base o los accesorios que incluye en su configuración estándar— que conviene conocer antes de tomar la decisión de compra. Compararla con rivales directos de DeWalt o Makita y evaluar si su configuración estándar se ajusta a tus proyectos cotidianos te evitará sorpresas.
+## GKS 150: ficha, manual y límite de corte
 
-En esta guía técnica de **Taller Lab** revisamos la ficha publicada de la Bosch GKS 150, los usos que permite su capacidad de corte y los puntos que conviene comprobar antes de comprarla. No presentamos mediciones propias de taller.
-
-
-<!-- enlaces-internos-sierras -->
-Para compararla con otros modelos de cable, revisá las fichas de la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/) y la [Stanley SC16](/sierras/stanley-sc16/), además de la [guía de sierras circulares](/sierras/circulares/). Para tableros grandes, comprobá qué [guía de corte](/sierras/guia-para-sierra-circular/) se adapta a su base y elegí un [disco compatible](/sierras/disco-para-sierra-circular/) según el material.
-<!-- /enlaces-internos-sierras -->
-
----
-
-## Ficha técnica y capacidad de corte
-
-La Bosch GKS 150 concentra especificaciones orientadas a soportar jornadas continuas de corte con un nivel de rendimiento sobresaliente:
-
-| Parámetro Técnico | Especificación Oficial Bosch GKS 150 |
+| Dato verificado | GKS 150 |
 | :--- | :--- |
-| **Potencia absorbida** | 1.500 W (potencia nominal a 220 V / 50 Hz) |
-| **Velocidad de giro en vacío** | 6.000 RPM (una de las más rápidas de su categoría) |
-| **Diámetro del disco** | 7-1/4" (184 mm) |
-| **Diámetro de orificio / eje** | 20 mm (con buje reductor a 5/8" / 15,87 mm) |
-| **Profundidad de corte a 90°** | Hasta **64 mm** (atraviesa tirantes de 2 pulgadas sin esfuerzo) |
-| **Profundidad de corte a 45°** | Hasta **45 mm** |
-| **Peso neto de la máquina** | 3,7 kg (liviana para su nivel de potencia) |
-| **Longitud del cable** | 2,5 metros de cable de goma vulcanizada resistente |
+| Potencia absorbida | 1.500 W |
+| Disco / eje | 184 mm / 20 mm |
+| Velocidad en vacío | 6.000 rpm |
+| Peso | 3,7 kg |
+| Profundidad máxima a 90° | 64 mm con disco de 184 mm |
+| Compatible con carril guía Bosch | La ficha indica que no |
 
-Gracias a sus **6.000 RPM**, la velocidad periférica del disco es muy alta, lo que redunda en cortes más limpios y con menor esfuerzo de avance por parte del usuario en comparación con máquinas convencionales que giran a 5.000 RPM.
+**Análisis TallerLab.** El dato de 64 mm responde a una condición concreta del manual: disco de 184 mm y corte perpendicular. Si tu pieza supera ese espesor, la potencia de 1.500 W no cambia el límite geométrico. El orificio de 20 mm también debe coincidir con el repuesto.
 
----
+**Declaración del fabricante.** Bosch lista guía paralela, llave y disco de 24 dientes en la variante argentina. Confirmá el contenido del kit al comprar. La ausencia de compatibilidad con carril guía en la ficha no impide usar una regla externa, pero exige comprobar el apoyo de la base.
 
-## Para qué trabajos conviene
+**Desconocido.** No se midió precisión, limpieza de canto ni duración de disco. Esos resultados dependen de hoja, material y ajuste. Compará con la [DWE560](/sierras/sierra-circular-dewalt-dwe560/) solo usando prestaciones publicadas para cada código.
 
-Por su configuración mecánica y equilibrio de peso, la GKS 150 es la máquina predilecta en diversos entornos de trabajo:
+## Fuentes consultadas
 
-1. **Carpintería de obra y techado**: El corte transversal y longitudinal de tirantes de madera maciza (pino, saligna, eucalipto) de 2x4, 2x5 y 2x6 pulgadas es su terreno natural. El motor de 1.500 W tiene suficiente reserva de torque para no frenarse cuando encuentra nudos duros.
-2. **Corte y dimensionado de terciados y fenólicos**: Excelente desempeño seccionando placas para encofrado de hormigón armado, entrepisos y tabiques estructurales.
-3. **Trabajos de techistas y armadores de estructuras**: Su peso contenido (3,7 kg) y su empuñadura auxiliar integrada en la carcasa permiten maniobrarla con comodidad en cortes sobre andamios o en posturas incómodas sobre techos de chapa o madera.
-4. **Instaladores y reformas integrales**: Ideal para acortar puertas de madera maciza, recortar mesadas o preparar placas de madera para revestimientos.
+- **Documentación primaria:** [ficha Bosch GKS 150 Argentina](https://www.bosch-professional.com/ar/es/products/gks-150-06016B30H0); [manual Bosch GKS 150](https://www.bosch-professional.com/binary/manualsmedia/o406577v21_160992A8F5_202212.pdf).
+- **Opiniones:** no se revisó una muestra verificable.
 
----
-
-## Limitaciones, disco y accesorios
-
-Para evaluar la máquina con total objetividad técnica, es necesario señalar ciertos aspectos de su diseño:
-
-* **Base de chapa de acero estampada**: A diferencia de los modelos tope de gama de la línea Bosch (como la GKS 65 que incorpora base de magnesio o aluminio fundido mecanizado), la GKS 150 equipa una base de acero estampado. Si bien es rígida y resistente al maltrato diario, no cuenta con las ranuras inferiores para deslizar directamente sobre los rieles guía oficiales de Bosch (FSN).
-* **Visibilidad de la línea de corte**: Dispone de un soplador de polvo integrado que despeja la viruta de la línea de trazo frontal, mejorando el seguimiento visual de la marca de lápiz. Sin embargo, no cuenta con luz LED de trabajo.
-* **El disco Eco for Wood incluido**: De fábrica suele venir con un disco Bosch Eco for Wood de **24 dientes**. Es un disco formidable para cortes rápidos y rústicos en tirantes, pero inadecuado si pretendés cortar melamina o MDF enchapado sin desportillar. Para ese uso, deberás adquirir por separado un disco de 60 dientes de corte fino.
-
-> **Regla de taller**: Para regular la profundidad en la GKS 150, aflojá la palanca lateral trasera y asegurate de que el disco sobresalga exactamente la altura de un diente por debajo de la tabla. Esto reduce la fricción en los laterales del disco, optimiza la evacuación de la viruta y disminuye drásticamente el riesgo de kickback.
-
----
-
-## Qué incluye y cuánto cuesta en Mercado Libre
-
-En Mercado Libre, la Bosch GKS 150 se ubica en el segmento más competitivo de las sierras profesionales, ofreciendo la confiabilidad de la marca azul a un valor muy cercano al de marcas del segmento intermedio:
-
-### Qué suele incluir la caja original:
-1. Sierra circular Bosch GKS 150 (código comercial 06016B30H0).
-2. Disco de sierra de 24 dientes de carburo de tungsteno (TCT).
-3. Guía paralela metálica graduada con mariposa de fijación.
-4. Llave allen para montaje y desmontaje del disco (alojada en el cuerpo de la máquina).
-5. Manual de usuario y certificado de garantía oficial.
-
-Al momento de comprar en Mercado Libre, verificá el código comercial de la variante, los accesorios incluidos y las condiciones de garantía vigentes en Argentina. La [ficha oficial de Bosch para la GKS 150](https://www.bosch-professional.com/ar/es/products/gks-150-06016B30H0) permite comprobar potencia, disco, peso y compatibilidad con carril guía.
-
-[Ver sierra circular Bosch GKS 150 en Mercado Libre](https://listado.mercadolibre.com.ar/sierra-circular-bosch-gks-150){:target="_blank" rel="noopener noreferrer" .btn-mercado-libre}
+[Ver todas las guías de sierras](/sierras/).

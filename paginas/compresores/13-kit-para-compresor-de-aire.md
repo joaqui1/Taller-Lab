@@ -2,74 +2,64 @@
 title: "Kit para compresor de aire: accesorios que convienen"
 h1: "Qué kit de accesorios comprar para un compresor"
 url: "/compresores/kits-accesorios/"
-description: "Guía de Taller Lab sobre kits de accesorios para compresor de aire: qué incluye el kit de 5 piezas, pistolas para inflar, soplar y pintar, y calidad de mangueras."
+description: "Comparación entre kits BTA de alimentación por gravedad y por succión, con piezas compartidas y condición de alimentación publicada."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["kit para compresor de aire", "kit 5 piezas compresor", "accesorios compresor de aire", "pistola soplete kit compresor"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Comparación entre kits BTA de alimentación por gravedad y por succión, con piezas compartidas y condición de alimentación publicada."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Qué kit de accesorios comprar para un compresor
 
-Comprar un compresor de aire sin un juego básico de accesorios equivale a tener un motor sin ruedas: la máquina genera la presión, pero son las pistolas, mangueras y boquillas las que transforman esa energía en trabajo útil. Para resolver de un solo golpe todas las tareas básicas del taller hogareño, los fabricantes ofrecen los populares **kits para compresor de 5 piezas**, paquetes integrales listos para enchufar y usar.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** analizamos qué herramientas trae cada tipo de kit, cómo evaluar la calidad de sus componentes metálicos y mangueras, y cuándo conviene comprar este paquete o armar tu propio set con accesorios profesionales por separado.
+**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Qué incluye cada tipo de kit
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-El formato más comercializado y estandarizado del mercado es el **kit de 5 piezas**, compuesto por:
+| BTA, código | Alimentación de pistola | Datos publicados | Elementos del conjunto que lista el catálogo |
+| :--- | :--- | :--- | :--- |
+| 279010 | Gravedad | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 600 cc con pico 1,5 mm, inflador con manómetro, soplete, pistola de lavado, manguera espiral de 5 m |
+| 279013 | Succión | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 750 cc con alimentación por succión y los accesorios de aire listados en el kit |
 
-1. **Pistola de sopletear (Pico de aire)**: Boquilla metálica con gatillo para limpieza profunda, remoción de polvo y viruta.
-2. **Inflador de neumáticos con manómetro**: Pico para válvula Schrader (auto/moto) con escala analógica de presión en PSI y bar.
-3. **Pistola de pintar con copa inferior (Succión)**: Depósito metálico de 750 a 1.000 ml para esmaltes sintéticos y pinturas al solvente.
-4. **Pistola pulverizadora o de lavar**: Depósito inferior con pico largo direccionable para aplicar desengrasantes, querosene o aceites de protección de chasis.
-5. **Manguera espiralada de 5 metros**: Manguera retráctil de polietileno o poliuretano con conectores rápidos o roscados montados.
+**Dato verificado:** BTA distingue sus kits multiuso por el mecanismo de alimentación de la pistola: gravedad para el código 279010 y succión para el 279013. El catálogo identifica accesorios compartidos y sugiere 2 HP/90 PSI; son valores publicados por BTA, no una medición de TallerLab.
 
-Existen también **micro-kits de 3 piezas** (solo soplete, inflador y manguera) para quienes no planean pintar, o **sets avanzados de 8 a 13 piezas** que añaden adaptadores de inflado de balones, colchones inflables, espigas de acople rápido adicionales y filtros trampa de agua en línea.
+**Análisis TallerLab:** elegir “kit para compresor” requiere revisar la herramienta concreta incluida, no solo contar piezas. Los depósitos de 600 y 750 cc pertenecen a pistolas con sistemas de alimentación diferentes; no implican que una tenga mayor caudal de aire ni que ambas sean intercambiables. La sugerencia de potencia/presión del catálogo tampoco demuestra que cualquier compresor de 2 HP mantenga el caudal que una pistola necesita.
 
----
+## Qué revisar en el anuncio
 
-## Accesorios para inflar, soplar y pintar
+| Variable | Confirmación necesaria |
+| :--- | :--- |
+| Código del kit | 279010 o 279013 y lista de componentes coincidente |
+| Pistola incluida | Tipo de alimentación, capacidad y pico declarados |
+| Compresor | Caudal disponible a presión de trabajo, además de potencia |
+| Conexión | Rosca/perfil de acople de manguera y herramienta |
+| Garantía | Plazo y cobertura en la unidad vendida por el distribuidor |
 
-Cada pieza cumple una función específica con diferentes niveles de exigencia técnica:
+**Desconocido:** el catálogo no demuestra cobertura con todos los compresores ni define tiempo de trabajo continuo para cada accesorio. No afirmamos resultados de acabado ni ausencia de pérdidas sin una prueba o fuente específica.
 
-| Accesorio | Utilidad en el taller | Nivel de rendimiento del kit económico |
-| :--- | :--- | :--- |
-| **Pistola de sopleteo** | Limpieza de filtros, secado rápido de piezas mecánicas lavadas y despolvoreo. | **Excelente**: estructura simple y confiable, sin partes de desgaste complejo. |
-| **Pistola de inflado** | Calibración de autos, motos, carretillas y bicicletas. | **Bueno a Regular**: el manómetro suele tener un margen de error de ±2 PSI; conviene contrastarlo con uno digital. |
-| **Pistola de lavar** | Aplicación a presión de desengrasantes en motores o piezas de transmisión. | **Muy bueno**: permite proyectar solventes en cavidades difíciles de alcanzar con pincel. |
-| **Pistola de pintar succión** | Aplicación de fondo antióxido, esmaltes y protectores para madera. | **Básico**: pulverización convencional con bastante niebla; no apta para acabados automotrices finos. |
+## Fuentes consultadas
 
----
+- **Documentación primaria:** [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [BTA, catálogo de productos para pintura](https://btatools.com.ar/producto-segmento/pintura?85441e4f_page=1); [BTA, compresor D-CA1-25-6 de referencia 2 HP](https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-## Calidad de mangueras y conexiones
+Para seguir comparando: [filtros y tratamiento de aire](/compresores/filtros/).
 
-El punto donde más recortan costos los fabricantes de kits económicos es en la manguera y en los terminales (para conocer diámetros y pérdidas de presión, revisá nuestra guía sobre [manguera para compresor de aire](/compresores/manguera/)):
+Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
 
-* **Manguera de polietileno (PE) naranja o negra rígida**: Es el plástico más común en kits de bajo precio. Tiende a estrangularse al doblarse, se pone quebradiza con el frío y su diámetro interno suele ser de apenas 5 mm, limitando el caudal de la pistola de pintar.
-* **Mangueras de poliuretano (PU) azul o amarilla**: Son notablemente más flexibles, no se deforman y recuperan su forma de resorte con suavidad.
-* **Conexiones roscadas vs. Acoples rápidos**: Muchos kits de entrada traen tuercas locas de 1/4" BSP roscadas que exigen usar una llave fija cada vez que querés cambiar de herramienta. Lo ideal es verificar que el kit traiga terminales prensados o sumar un juego de [acople rápido para compresor](/compresores/acoples-rapidos/) con espigas macho universales para agilizar el trabajo.
-
----
-
-## Kit completo o accesorios separados
-
-¿Cuándo conviene comprar el kit cerrado y cuándo ir por herramientas individuales?
-
-* **Comprá el kit de 5 piezas si**: Recién adquiriste tu primer [compresor de 24 litros](/compresores/24-litros/) o modelo de taller chico, hacés tareas de mantenimiento hogareño variado (inflar ruedas, limpiar herramientas, pintar una reja ocasional) y querés resolver todo con el menor presupuesto posible.
-* **Comprá accesorios separados si**: Tu objetivo principal es la pintura de acabado (te conviene una pistola HVLP o LVLP con copa de gravedad superior), herrería pesada o mecánica continua. En ese caso, la pistola de pintar del kit te quedará chica muy rápidamente.
-
----
-
-## Kits en Mercado Libre
-
-En Mercado Libre podés comparar kits de marcas de primera línea ferretera:
-
-* **Kits Lusqtoff, Hamilton, Bremen y Stanley**: Suelen utilizar cuerpos de aluminio fundido a presión en lugar de plásticos delgados y manómetros con protección de goma antigolpes.
-* **Kits con manguera de 10 o 15 metros**: Ideales para no tener que arrastrar el compresor pesado alrededor del vehículo al momento de calibrar o lavar.
-* **Packs combinados con compresor**: Si aún no compraste la máquina, muchas publicaciones bonifican gran parte del valor del kit al adquirirlo en combo junto al compresor.
-
-[Ver Kit Compresor Aire Lusqtoff 5 Piezas Pintar Set Acc Inflador en Mercado Libre](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
-
-[Comparar otros kits para compresor de aire](https://listado.mercadolibre.com.ar/kit-para-compresor-de-aire){:target="_blank" rel="sponsored noopener"}
+Para explorar la categoría: [guías de compresores](/compresores/).

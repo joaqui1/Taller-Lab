@@ -2,36 +2,50 @@
 title: "Lusqtoff SML150-8: diferencias, kit y qué comprobar"
 h1: "Soldadora Lusqtoff SML150-8: guía antes de comprar"
 url: "/soldadoras/lusqtoff-sml150-8/"
-description: "Qué comprobar en una Lusqtoff SML150-8 o SML150-8D: código exacto, proceso Flux, alambre, accesorios y diferencias con otras MIG de la marca."
-author: "Taller Lab"
+description: "Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes."
+author: "Equipo editorial TallerLab"
+reviewed: "27/09/2026"
+published: true
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "comparación entre SML150-8 y SML150-8D y discrepancia de unidad en la ficha SML150-8"
+asset_status: "verificado"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqtoff sml 150", "sml150-8d"]
 ---
 
 # Soldadora Lusqtoff SML150-8: guía antes de comprar
 
-La **Lusqtoff SML150-8** es una soldadora de alambre Flux que aparece en ofertas nuevas, usadas y de repuestos. La búsqueda también devuelve **SML150-8D** y otras máquinas MIG de la marca. Antes de comparar precios, confirmá el código completo en la placa y buscá el manual de esa revisión. Una publicación que diga solo «150» no basta para asegurar la corriente de salida, el ciclo de trabajo ni los accesorios.
+**Análisis TallerLab.** Pedí el código completo antes de comparar una SML150-8 con una SML150-8D. Las fichas de Lüsqtoff documentan procesos y kits distintos: la SML150-8 aparece como MIG Flux y discontinuada; la SML150-8D declara MIG Flux y MMA. El “150” del nombre no debe tomarse como corriente de soldadura continua.
 
-Consultá la [comparativa de MIG Lusqtoff](/soldadoras/mig-lusqtoff/) para ubicar este modelo frente a SML120 y SML130. Nuestra [guía de MIG sin gas](/soldadoras/mig-sin-gas/) explica cuándo elegir alambre autoprotegido frente a una máquina con cilindro.
+## Comparación de variantes documentadas
 
-## SML150-8 y SML150-8D: comprobación básica
+**Dato verificado en documentación primaria.** Contrastamos la [ficha SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), su [manual](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y la [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D). Las cifras siguientes son declaraciones del fabricante para cada código, no mediciones nuestras.
 
-Lusqtoff publica manuales separados para [SML150-8](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y [SML150-8D](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf). Por eso conviene pedir una foto legible de la placa o de la caja, especialmente si comprás una máquina usada o un kit armado por un vendedor. La letra final no es un detalle para completar por intuición.
+| Variable | SML150-8 | SML150-8D |
+| :--- | :--- | :--- |
+| Proceso indicado | MIG Flux | MIG Flux y MMA |
+| Corriente MIG declarada | 20–120 A | 20–120 A |
+| Corriente MMA declarada | No figura en la ficha consultada | 20–100 A |
+| Ciclo de trabajo publicado | Manual: 70 A al 100% en 10 min | MMA: 20% a 100 A |
+| Alimentación | 220 V, 50/60 Hz | 220 V, 50 Hz |
+| Estado en catálogo | Discontinuada | La ficha consultada no indica discontinuación |
+| Accesorios de la ficha | Máscara ST-1X, dos escuadras y rollo Flux | Máscara ST-1X, dos escuadras, rollo Flux, pinzas y torcha Flux |
 
-| Comprobación | Qué resuelve |
-| :--- | :--- |
-| Código y tensión de placa | Evita usar datos o manuales de otra variante. |
-| Procesos disponibles | Confirma si la publicación ofrece Flux, MMA u otra función. |
-| Diámetros y peso del carrete | Permite comprar alambre y puntas que efectivamente encajen. |
-| Torcha y consumibles | Facilita encontrar repuestos compatibles. |
-| Ciclo de trabajo a la corriente elegida | Indica cuánto tiempo puede mantenerse el arco antes de una pausa. |
+**Análisis TallerLab.** La diferencia documentada más útil es la función MMA en la variante **D**. Ninguna de las dos fichas permite concluir por sí sola cuál suelda mejor ni cuánto durará. Si necesitás MMA, verificá que la placa diga SML150-8D y que la publicación incluya la pinza portaelectrodo correspondiente.
 
-La búsqueda `SML150-8` puede mostrar también **placas electrónicas, motores de arrastre y puntas**. Revisá que el resultado sea la **soldadora completa** antes de abrir un enlace o comparar precios.
+## Una inconsistencia que conviene conocer
 
-## Qué incluye el equipo que conviene comprar
+**Dato verificado.** La ficha web de la SML150-8 escribe “ciclo de trabajo al 100 % durante 10 min.: 70 V”. El manual expresa ese dato como **70 A**. La unidad “V” de la ficha es inconsistente con la corriente a la que se informa un ciclo de trabajo. Para dimensionar tareas, consultá el manual y confirmá la placa de la unidad concreta; no conviertas ese renglón de la web en una prestación medida.
 
-En una publicación nueva verificá que figuren torcha, cable con pinza de masa, portaelectrodo si se ofrece MMA, puntas de contacto, manual y garantía. El rollo de [alambre Flux](/soldadoras/alambre-flux/), la [máscara fotosensible](/soldadoras/mascaras-fotosensibles/) y las escuadras pueden estar incluidos en un combo o venderse aparte. Compará el costo del conjunto completo, no solo el precio anunciado junto al título.
+**Desconocido.** No verificamos compatibilidad con alambre macizo y gas, espesor máximo soldable, vida útil ni opiniones de compradores. Tampoco inferimos que el kit de una publicación actual coincida con el contenido de la ficha histórica de un modelo discontinuado. Antes de pagar, pedí fotos de placa, conexiones, accesorios y garantía.
 
-Si tu objetivo es soldar chapa fina en interiores con mejor terminación, comprobá si necesitás una [MIG con gas](/soldadoras/soldadora-mig-con-gas/). No supongas que esta SML admite alambre macizo y gas por el mero hecho de llamarse «MIG» en un anuncio; debe confirmarlo el manual de la variante exacta.
+Para comparar procesos y otras máquinas, volvé al [hub de soldadoras](/soldadoras/).
 
-[Ver Lusqtoff SML150-8 en Mercado Libre](https://listado.mercadolibre.com.ar/soldadora-lusqtoff-sml150-8){:target="_blank" rel="sponsored" .btn-mercado-libre}
+## Fuentes consultadas
+
+- **Documentación primaria:** [ficha Lüsqtoff SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), [manual SML150-8](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D).
+- **Información comercial y opiniones:** no usadas para establecer rendimiento, disponibilidad o satisfacción de compradores.

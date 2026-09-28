@@ -2,96 +2,57 @@
 title: "Disco de desbaste: cómo elegirlo para metal"
 h1: "Discos de desbaste para metal: usos, medidas y elección"
 url: "/amoladoras/disco-de-desbaste/"
-description: "Guía técnica de Taller Lab sobre discos de desbaste para metal: diferencias con corte fino, espesores de 6 mm, ángulo de trabajo, seguridad y costos."
+description: "Ficha documentada de un disco de desbaste de 115 mm y comparación funcional con un disco de corte."
 author: "Taller Lab"
 category: "Accesorios para amoladoras"
 keywords: ["disco de desbaste", "disco de desbaste para metal", "espesor disco desbaste", "desbaste amoladora 115"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Bosch PRO Metal 115 × 6 mm: dimensiones y uso documentado de desbaste"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Discos de desbaste para metal: usos, medidas y elección
 
-El disco de desbaste aglomerado es la herramienta por excelencia para la remoción pesada y rápida de material en herrería, calderería y carpintería metálica. Su construcción robusta le permite soportar presiones mecánicas elevadas y fricción continua sobre cordones de soldadura macizos, cantos de fundición y piezas de acero al carbono estructural.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En este artículo técnico de **Taller Lab** detallamos cómo opera un disco de desbaste rígido, en qué se diferencia del corte fino, cómo elegir el mineral abrasivo adecuado para cada metal y qué parámetros mecánicos garantizan un trabajo seguro en la amoladora.
+| Dato de producto | Bosch PRO Metal, código 2 608 600 218 |
+| :--- | :--- |
+| Aplicación declarada | Desbaste de metal |
+| Diámetro exterior | 115 mm |
+| Espesor | 6 mm |
+| Orificio | 22,23 mm |
+| Especificación abrasiva | A 30 T BF |
+| Certificación indicada | oSa en la ficha |
 
----
+**Dato verificado:** Bosch publica estas medidas y especificación para el disco de desbaste PRO Metal citado. La misma página lista una variante de 125 × 6 × 22,23 mm y otra de 125 mm con especificación distinta; no combinar sus códigos ni granulometrías.
 
-## Qué diferencia al desbaste del corte
+**Análisis TallerLab:** la tabla permite comprobar tres condiciones geométricas antes de comprar: disco máximo admitido por la amoladora, orificio compatible con brida y tuerca, y espesor. Frente a un disco de corte de 115 × 1,6 × 22,23 mm, el disco de desbaste de 6 mm es 3,75 veces más grueso. No deben intercambiarse sus aplicaciones: Bosch identifica uno para desbaste y el otro para corte.
 
-Aunque tanto el [disco de corte](/amoladoras/disco-de-corte/) como el de desbaste se montan en el mismo husillo M14 de la amoladora, sus principios constructivos y esfuerzos de trabajo son radicalmente opuestos:
+**Declaración del fabricante:** Bosch describe el disco como destinado a desbastar metal, con granos de óxido de aluminio, matriz de resina y refuerzo de fibra de vidrio. Son características declaradas por el fabricante; no reportamos ensayos propios de duración o productividad.
 
-```
-            CORTE FINO (1,0 - 1,6 mm)            DESBASTE RÍGIDO (6,0 - 6,4 mm)
-           ───────────────────────────          ──────────────────────────────
-Fuerza:    Radial (90° sobre la pieza)          Lateral y oblicua (30° - 35°)
-Geometría: Centro plano o deprimido             Centro deprimido obligatorio (Tipo 27)
-Estructura: 2 telas de fibra de vidrio           3 a 4 telas de fibra de vidrio gruesas
-Función:   Seccionar con ranura fina            Remover viruta y masa superficial
-```
+**Desconocido:** el código consultado no autoriza una conclusión común para todos los metales, fundiciones o aceros inoxidables. Tampoco define por sí solo el ángulo de trabajo, presión o vida útil. Confirmá que el material esté indicado en la ficha del abrasivo exacto.
 
-### 1. Espesor y número de mallas de refuerzo
-Un disco de corte fino tiene un espesor de entre 1,0 y 1,6 mm reforzado generalmente con dos mallas de fibra de vidrio. Por el contrario, un disco de desbaste rígido tiene un espesor de **6,0 a 6,4 mm** y cuenta con **tres o cuatro capas de malla de fibra de vidrio de alta densidad** distribuidas en su masa aglomerada, lo que le confiere una rigidez torsional absoluta frente a esfuerzos laterales.
+## Diferenciar desbaste de corte
 
-### 2. Ángulo de ataque obligatorio (30° a 35°)
-Un disco de desbaste **nunca debe aplicarse en plano (0°)** sobre el material, ya que rozaría toda la cara inferior provocando sobrecalentamiento excesivo, vibración incontrolable y pérdida de control de la máquina. El ángulo de trabajo correcto es de **30° a 35° respecto de la superficie de la chapa o perfil**. Este ángulo asegura que solo trabaje el labio cónico exterior del disco, permitiendo un arranque de viruta limpio y un autoafilado continuo del abrasivo.
+| Accesorio de referencia | Dimensiones | Uso publicado | Lectura documental |
+| :--- | :--- | :--- | :--- |
+| Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm | Desbaste de metal | Disco más grueso en esta comparación |
+| Bosch PRO Metal 2 608 619 252 | 115 × 1,6 × 22,23 mm | Corte de metal | Código de disco de corte; no sustituye al de desbaste |
 
----
+Para remover material de una cara o borde, consultá la categoría “desbaste” y las indicaciones del fabricante. Para separar una pieza, usá un disco de corte admitido para el material y la amoladora.
 
-## Cómo elegir según el metal
+## Fuentes consultadas
 
-No todos los metales reaccionan de igual manera ante la fricción y temperatura de amolado. La elección del grano abrasivo y la dureza del aglomerante debe coincidir con el metal a procesar:
+- **Documentación primaria:** [Bosch PRO Metal para desbaste](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [Bosch PRO Metal para corte](https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/); [manual Bosch de amoladoras angulares](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).
+- **Seguridad:** nunca exceder las rpm indicadas en la etiqueta del disco ni retirar la guarda.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-| Metal a trabajar | Abrasivo recomendado | Dureza de liga | Riesgos de una mala elección |
-| :--- | :--- | :---: | :--- |
-| **Acero al carbono / Hierro comercial** | Óxido de aluminio regular (**A**) | Media-dura (**S** o **T**) | Desgaste prematuro si la liga es muy blanda; disco "vidriado" si es muy dura. |
-| **Acero inoxidable (AISI 304 / 316)** | Óxido de aluminio libre de contaminantes (*INOX*) | Media (**Q** o **R**) | **Contaminación férrica**: discos con trazas de hierro, azufre o cloro provocan corrosión galvánica y óxido superficial en el inoxidable. |
-| **Fundición gris y nodular** | Carburo de silicio (**C**) o mezcla Alúmina-Zirconio | Media-dura | La cáscara de fundición suele embotar rápidamente los discos convencionales de óxido de aluminio. |
-| **Aluminio y metales no ferrosos** | Carburo de silicio con aditivos antiadherentes | Blanda (**N**) | **Empaste total**: el aluminio se derrite por el calor y tapa los poros del disco; el disco deja de cortar y puede reventar por fricción térmica. |
+Para seguir comparando: [disco de corte para amoladora](/amoladoras/disco-de-corte/).
 
-> **Norma INOX en Taller Lab**: Al desbastar piezas de acero inoxidable que deban conservar resistencia a la corrosión o acabado sanitario, exigí siempre discos con la leyenda **INOX** o la indicación expresa de contenidos de **Fe + S + Cl < 0,1%**.
-
----
-
-## Diámetro, espesor y velocidad máxima
-
-Las dimensiones del disco deben coincidir estrictamente con la capacidad nominal de la amoladora y las revoluciones por minuto certificadas por el fabricante:
-
-| Diámetro nominal | Espesor habitual | Diámetro de eje | RPM máximas admisibles (80 m/s) | Máquinas compatibles |
-| :---: | :---: | :---: | :---: | :--- |
-| **115 mm (4 ½")** | 6,0 mm | 22,23 mm (7/8") | 13.300 RPM | Amoladoras angulares compactas de 700 W a 1200 W |
-| **125 mm (5")** | 6,4 mm | 22,23 mm (7/8") | 12.250 RPM | Amoladoras medianas de 900 W a 1500 W |
-| **180 mm (7")** | 6,4 mm a 7,0 mm | 22,23 mm (7/8") | 8.500 RPM | Amoladoras pesadas de 2000 W a 2400 W |
-| **230 mm (9")** | 6,4 mm a 8,0 mm | 22,23 mm (7/8") | 6.650 RPM | [Amoladoras de 9 pulgadas](/amoladoras/9-pulgadas/) de gran porte |
-
-### Centro deprimido (Tipo 27)
-Todos los discos de desbaste cuentan con centro deprimido. Esta depresión central en forma de cazuela es imprescindible para que la brida y la tuerca de apriete M14 queden rehundidas dentro del perfil del disco, evitando que el extremo roscado del husillo raye la pieza de trabajo durante el desbaste en ángulo.
-
----
-
-## Disco rígido o flap para la terminación
-
-Una de las preguntas más recurrentes en el taller es cuándo dejar el disco de desbaste rígido y pasar a un [disco flap](/amoladoras/disco-flap/):
-
-* **Usá disco de desbaste rígido cuando**:
-  * Necesitás arrancar gran volumen de metal en poco tiempo (cordones de electrodo básico 7018 o celulósico 6010 muy abultados).
-  * Realizás ranurados de raíz en uniones a tope antes de aplicar la segunda pasada de soldadura.
-  * Tenés que quitar chorreaduras, rebabas de corte con oxicorte o matar aristas en vigas estructurales pesadas.
-* **Cambiá a disco flap cuando**:
-  * Necesitás que la superficie quede nivelada, lisa y lista para pintar o galvanizar.
-  * Trabajás sobre caños estructurales de pared delgada (1,2 o 1,6 mm), donde el disco rígido puede perforar el caño por exceso de agresividad.
-  * Buscás reducir las vibraciones transmitidas a las muñecas del operador durante jornadas prolongadas.
-
----
-
-## Cómo comparar duración y costo por trabajo
-
-El precio de compra de un disco de desbaste no refleja su costo real en el taller. Un disco sumamente económico de liga blanda puede gastarse en 15 minutos de desbaste continuo en un perfil pesado, mientras que un disco profesional de primera línea (como Norton Classic/Quantum, Tyrolit Secur Extra o Pferd Polifan) dura entre 3 y 5 veces más:
-
-### Factores para calcular el costo real:
-1. **Tasa de remoción de material (G-Ratio)**: Relación entre los gramos de acero removidos por cada gramo de abrasivo consumido. Los discos de calidad superior mantienen granos afilados por más tiempo sin pulverizarse en polvo inerte.
-2. **Tiempo de parada por recambio**: Cada cambio de disco interrumpe el trabajo del operario. En líneas de producción o talleres con alta carga horaria, la mano de obra perdida en cambiar discos de baja duración supera ampliamente la diferencia de precio del consumible.
-3. **Generación de polvo en suspensión**: Los discos baratos que se desintegran con facilidad saturan el aire del taller con polvo aglomerante y resinas, ensuciando los motores de las amoladoras y exigiendo un esfuerzo mayor de filtración respiratoria.
-
-Para revisar cómo se integra el desbaste con el resto de los consumibles del taller, consultá nuestra [guía general de discos para amoladora](/amoladoras/discos/). Para talleres medianos y herrerías, adquirir cajas cerradas de 10 o 25 unidades de discos de 115 x 6 mm de marcas consolidadas en el mercado argentino es la vía más eficiente para optimizar el gasto de consumibles.
-
-[Consultar discos de desbaste para metal en Mercado Libre](https://listado.mercadolibre.com.ar/disco-desbaste-metal){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de amoladoras](/amoladoras/).

@@ -2,70 +2,57 @@
 title: "Rotomartillo DeWalt: cuál elegir para tu trabajo"
 h1: "Cómo elegir un rotomartillo DeWalt"
 url: "/taladros/rotomartillo-dewalt/"
-description: "Guía técnica de Taller Lab sobre rotomartillos DeWalt en Argentina: líneas D25133, D25263 y DCH273 inalámbrico, encastres SDS Plus y SDS Max, energía en Joules y opciones de kit."
+description: "Ficha documental del DeWalt DCH273B con atribución precisa de SHOCKS y límites de mercado y kit."
 author: "Taller Lab"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo dewalt", "dewalt d25133k", "rotomartillo dewalt 20v", "dewalt sds plus", "rotomartillo dewalt comprar"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "DCH273: especificaciones documentadas y alcance de SHOCKS"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Cómo elegir un rotomartillo DeWalt
 
-En el ámbito de la construcción civil pesada, las instalaciones electromecánicas y la obra pública en Argentina, la firma estadounidense **DeWalt** —con su inconfundible color amarillo y negro— es sinónimo de resistencia brutal, alta velocidad de avance y confiabilidad extrema bajo condiciones ambientales severas. Dentro de la familia de [rotomartillos](/taladros/rotomartillos/), sus equipos están concebidos para soportar caídas en andamios, exposición continua al polvo de cuarzo y jornadas de demolición prolongadas sin pérdida de rendimiento.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-A la hora de seleccionar un rotomartillo DeWalt, los compradores se encuentran ante una amplia variedad de modelos con cable tradicionales y la avanzada plataforma inalámbrica de 20 V MAX y 60 V MAX FLEXVOLT. En esta guía de **Taller Lab** analizamos qué equipo responde a tus exigencias laborales, cómo varían sus sistemas de amortiguación y qué conviene considerar entre máquina sola o kit cerrado.
+| Campo | Dato publicado para DCH273B |
+| :--- | :--- |
+| Plataforma de etiqueta | 20 V MAX; DeWalt indica 18 V nominales |
+| Motor | Brushless, según fabricante |
+| Energía de impacto | 2,1 J |
+| Portaherramientas | SDS plus |
+| Modos | Taladrado, taladrado con percusión y cincelado |
+| Alimentación de la variante consultada | Herramienta sola; batería y cargador no incluidos |
 
----
+**Dato verificado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
 
-## Modelos según exigencia de trabajo
+**Declaración del fabricante:** DeWalt describe SHOCKS como un sistema de control activo de vibración que reduce la vibración percibida en la empuñadura frente a la herramienta sin esa función. Esta declaración no equivale a afirmar protección de articulaciones, ausencia de riesgo ni una medición realizada por TallerLab.
 
-La línea de rotomartillos DeWalt clasifica sus máquinas según la intensidad del servicio y el diámetro del orificio proyectado:
+**Análisis TallerLab:** la ficha permite filtrar por SDS plus, tres modos y plataforma, pero no basta para concluir qué tan rápido perfora frente a otro modelo. La etiqueta 20 V MAX puede inducir a confusión: DeWalt explica que el valor nominal es 18 V. El sufijo B identifica la configuración de herramienta sola de la página consultada.
 
-| Modelo DeWalt | Alimentación | Potencia / Batería | Energía de Impacto | Encastre | Uso Recomendado |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **D25133K** | Cable 220 V | 800 W | 2,6 J | SDS Plus | El clásico de obra: perforaciones de 6 a 16 mm, anclajes y fijaciones generales. |
-| **D25263K** | Cable 220 V | 900 W | 3,0 J | SDS Plus | Mayor tasa de impacto con sistema de amortiguación *Shocks* en el mango. |
-| **D25481K** | Cable 220 V | 1.050 W | 6,1 J | SDS Max | Pasajes de cañerías sanitarias, perforación con mecha corona y picado medio. |
-| **DCH133B** | Batería 20V MAX | Motor Brushless | 2,6 J | SDS Plus | Inalámbrico de entrada profesional, ideal para instaladores y techistas. |
-| **DCH273B** | Batería 20V MAX | Brushless XR | 2,1 J | SDS Plus | Modelo de élite: sistema antivibración activo (*Active Vibration Control* < 6,6 m/s²). |
-| **DCH481** | Batería 60V FLEXVOLT | Motor Brushless | 6,1 J | SDS Max | Rotomartillo industrial a batería con la potencia de una máquina de cable pesada. |
+**Desconocido:** no verificamos autonomía, vibración medida en una prueba común, kit argentino, garantía local ni contenido de otras terminaciones. Para comparar con un rotomartillo con cable, considerá también batería y cargador si no los tenés.
 
-* **Para instaladores de durlock, plomería y electricidad**: El **D25133K** o el **DCH133** son opciones ideales por peso contenido, facilidad de maniobra en espacios confinados y excelente relación de Joules por kilo de máquina. En el segmento de obra tradicional, el D25133K rivaliza directamente con el [rotomartillo Bosch](/taladros/rotomartillo-bosch/) GBH 2-26 por el podio de durabilidad, mientras que frente a opciones semiprofesionales como las de [Einhell](/taladros/rotomartillo-einhell/) justifica su mayor precio en la robustez de sus sellos contra el polvo y blindaje de motor.
-* **Para albañilería intensiva y estructuras**: Equipos como el **D25263K** con amortiguación *Shocks* marcan una diferencia notable en salud ocupacional, reduciendo el entumecimiento de manos tras horas continuas de picado.
+## Matriz de compra por dato comprobable
 
----
+| Pregunta | Dato de esta ficha | Comprobación pendiente en el aviso |
+| :--- | :--- | :--- |
+| ¿Qué accesorio recibe? | SDS plus | Confirmar encastre en la unidad ofrecida |
+| ¿Incluye energía? | 2,1 J declarados | No confundir energía con impactos/min |
+| ¿Qué incluye el código B? | Herramienta sola según ficha | Baterías, cargador, valija y región |
+| ¿Qué significa SHOCKS? | Declaración de reducción de vibración en empuñadura | No asumir resultado clínico o prueba de TallerLab |
 
-## Encastre y energía de impacto
+## Fuentes consultadas
 
-El desempeño del rotomartillo depende de equilibrar la energía de golpe con el tamaño del accesorio:
+- **Documentación primaria:** [DeWalt DCH273B, ficha oficial](https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-sds-plus-brushless-1-l-shape-rotary-hammer-tool-only); [manual DeWalt D25133, referencia separada para la línea con cable](https://www.dewalt.com/GLOBALBOM/QU/D25133K/1/Instruction_Manual/EN/N401624_D25133.pdf).
+- **Seguridad:** seguir el manual de la variante y las indicaciones de EPP.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-### 1. Sistema DeWalt SDS Plus (Hasta 3,0 Joules)
-Es el estándar de la construcción residencial y comercial. Diseñado para orificios rápidos de anclaje de 6 mm a 14 mm en hormigón armado, alcanzando un límite máximo operativo de 26 mm con mechas sólidas. En este rango, DeWalt destaca por una de las velocidades de perforación más altas del mercado (*RPM por minuto en carga*).
+Para seguir comparando: [rotomartillos](/taladros/rotomartillos/).
 
-### 2. Sistema DeWalt SDS Max (De 6,0 a más de 13 Joules)
-Destinado a contratistas de infraestructura, demolición de losas y pasajes de ventilación. Incorpora embrague electrónico de doble etapa y embrague mecánico para evitar accidentes si la broca de 40 mm tropieza contra una barra de hierro corrugado del encofrado.
-
-> **Regla de taller**: Utilizá siempre la empuñadura lateral auxiliar provista con el equipo y ajustá el tope de profundidad metálico. El torque de desacople de un rotomartillo DeWalt es muy alto; sujetar la herramienta con ambas manos firmes es indispensable para evitar torceduras de muñeca ante trabas inesperadas.
-
----
-
-## Equipos con cable y a batería
-
-La transición hacia plataformas a batería en DeWalt ofrece soluciones adaptadas a cada necesidad operativa:
-
-* **Modelos con cable (Serie D25xxx)**: Ofrecen la mayor confiabilidad de servicio continuo ininterrumpido en obras con tendido eléctrico. Su costo inicial es accesible y su motor blindado de 220 V resiste caídas de tensión frecuentes en generadores de obra.
-* **Modelos 20V MAX XR (Serie DCHxxx)**: Equipados con motores sin carbones (*Brushless*) que maximizan el tiempo de trabajo por batería. Son insustituibles en trabajos en altura, silos, cubiertas industriales y obras sin conexión eléctrica habilitada.
-* **Plataforma 60V MAX FLEXVOLT**: Permite que una misma batería alimente herramientas pesadas de 60 V (como rotomartillos SDS Max) o cambie automáticamente su conexionado interno a 20 V para alimentar taladros percutores comunes.
-
----
-
-## Máquina sola o kit completo
-
-En Argentina, DeWalt utiliza una nomenclatura clara en el empaque que debés revisar atentamente al comprar:
-
-1. **Sufijo "B" (Bare Tool - Ej. DCH133B / DCH273B)**: Se comercializa como "herramienta sola" en caja de cartón, sin batería ni cargador. Es la opción inteligente si ya poseés taladros o amoladoras DeWalt de 20 V con sus acumuladores correspondientes.
-2. **Sufijo "K" (Kit con Valija - Ej. D25133K)**: En modelos con cable, indica que incluye la robusta valija plástica rígida de transporte tipo TSTAK con manija reforzada y compartimento para mechas.
-3. **Sufijo "D2" o "P2" (Kit inalámbrico completo)**: Incluye el rotomartillo, valija plástica, cargador rápido y **dos baterías** (habitualmente de 2,0 Ah en D2 o de 5,0 Ah en P2).
-
-Adquirir el kit cerrado con dos baterías de 4,0 Ah o 5,0 Ah garantiza jornadas completas de perforación en obra sin interrupciones por recarga.
-
-[Ver rotomartillos DeWalt en Mercado Libre](https://listado.mercadolibre.com.ar/rotomartillo-dewalt){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de taladros](/taladros/rotomartillos/).

@@ -2,42 +2,55 @@
 title: "Estación de soldadura electrónica: cautín o aire caliente"
 h1: "Estación de soldadura electrónica: cuál comprar para tu mesa"
 url: "/soldadura-electronica/estacion-de-soldadura/"
-description: "Compará estaciones de cautín, aire caliente y combinadas para electrónica: temperatura, flujo, repuestos, espacio y tareas SMD."
+description: "Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño."
 author: "Taller Lab"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldadura electronica", "estacion de soldadura para electronica", "estacion de soldar electronica", "estacion de soldadura aire caliente"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Estación de soldadura electrónica: cuál comprar para tu mesa
 
-Una **estación de soldadura electrónica** da un lugar fijo al cautín y, según el modelo, permite regular la temperatura de la punta o añadir una herramienta de aire caliente. Conviene elegir por la tarea que harás con frecuencia: cables y componentes pasantes, placas SMD, o ambas. «Estación de soldado» en el título puede referirse a cualquiera de esas configuraciones.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-Si recién empezás con trabajos puntuales, compará antes el costo de un [kit de soldador de estaño](/soldadura-electronica/kit-soldador-de-estano/). Esta página no trata máquinas MIG o inverter para herrería; para ellas tenés la [sección de soldadoras](/soldadoras/).
+**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Tres configuraciones distintas
+## Cómo investigamos esta guía
 
-| Tipo | Uso principal | Qué revisar |
-| :--- | :--- | :--- |
-| Cautín regulable | Cables, conectores, componentes pasantes | Puntas, estabilidad de temperatura, soporte y repuestos. |
-| Aire caliente | Retiro y montaje de SMD, termorretráctil | Flujo de aire, boquillas, apoyo del mango y control térmico. |
-| Combinada | Mesa que alterna ambas tareas | Que ambas herramientas sean realmente útiles y reemplazables. |
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-Una potencia anunciada alta no significa que sea adecuada para toda placa. Importan la transferencia de calor de la punta, el tamaño de la boquilla y la posibilidad de ajustar el proceso para no dañar componentes cercanos. Una estación de aire caliente tampoco reemplaza siempre al cautín al soldar conectores o cables gruesos.
+| Modelo | Herramientas integradas | Temperaturas declaradas | Aire / potencia | Diferencia documentada |
+| :--- | :--- | :--- | :--- | :--- |
+| YiHUA 878D | Pistola de aire caliente y cautín | Aire 100–480 °C; cautín 200–480 °C | Aire máx. 120 L/min; estación 700 W máx. | Ficha agrupa versiones 878/878A/878AD/878D; verificar variante exacta |
+| YiHUA 898D | Pistola de aire caliente y cautín | Aire 100–480 °C; cautín 200–480 °C | Aire máx. 120 L/min; estación 730 W | Dos pantallas LED y configuración de dos funciones |
+| Lüsqtoff ES3L45-8 | Cautín regulable; no declara pistola de aire | Cautín 200–480 °C | Consumo/capacidad de entrada no queda claro en ficha comercial consultada | Estación compacta para trabajo con cautín, no especificada como retrabajo de aire |
 
-## Modelos que aparecen en las búsquedas
+**Dato verificado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
 
-La [Gadnic 878D](/soldadura-electronica/gadnic-878d/) combina cautín y aire caliente. La [Yihua 898D](/soldadura-electronica/yihua-898d/) responde a la misma necesidad general. La **Yihua 936** del listado es una estación de cautín de 45 W; la **Yihua 858D** es una estación de aire caliente anunciada con 370 W. Si necesitás una sola función, compará una de estas dos antes de pagar por una combinada. Confirmá ficha y repuestos de la variante exacta: no copies temperatura, potencia o accesorios de un modelo a otro solo por compartir marca o numeración.
+**Análisis TallerLab:** si la tarea requiere retirar componentes SMD con aire, el tipo de herramienta incluida es una diferencia funcional que se puede verificar antes de comprar. Para soldadura puntual con cautín, comparar puntas, repuestos y control térmico del modelo exacto. Una lectura de temperatura de ficha no describe estabilidad real en la punta bajo carga.
 
-## Antes de pagar
+**Desconocido:** la página YiHUA agrupa variantes; no confirma qué versión llega en cada oferta argentina, enchufe local, garantía ni disponibilidad de boquillas/puntas. La ficha ES3L45-8 publica datos de entrada ambiguos; no se convierten a watts sin manual legible. No se verificó precisión térmica con instrumentos.
 
-Confirmá la alimentación local, las puntas y boquillas incluidas, la compatibilidad de repuestos y la superficie libre que necesita cada mango. Para sujetar una placa durante el trabajo, puede ser útil un [soporte con lupa](/soldadura-electronica/soporte-para-soldar-con-lupa/). Si el vendedor anuncia una potencia diferente a la ficha del modelo, pedí foto de la etiqueta: es mejor resolver la variante antes de elegir por precio.
+## Fuentes consultadas
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
+- **Documentación primaria:** [YiHUA 878/878A/878AD/878D](https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/); [YiHUA 898D/898D+](https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/); [Lüsqtoff ES3L45-8](https://lusqtoff.com.ar/ver-producto/ES3L45-8); [catálogo de soldadoras Lüsqtoff](https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-[Ver estación Gadnic 878D de 370 W](https://meli.la/21VNNVW){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para seguir comparando: [estación de retrabajo YiHUA 878D: modelo y rangos declarados](/soldadura-electronica/gadnic-878d/).
 
-[Ver estación Yihua 898D de 370 W](https://meli.la/2du1wYY){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-[Ver estación de cautín Yihua 936 de 45 W](https://meli.la/2Gvn7L1){:target="_blank" rel="sponsored" .btn-mercado-libre}
-
-[Ver estación de aire caliente Yihua 858D de 370 W](https://meli.la/31x9uwn){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías relacionadas](/soldadura-electronica/).

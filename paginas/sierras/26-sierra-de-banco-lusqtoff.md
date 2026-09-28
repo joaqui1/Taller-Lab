@@ -6,38 +6,39 @@ description: "Compará sierras de banco Lusqtoff SML2000-8, SML2000-9 y SML2000B
 author: "Taller Lab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco lusqtoff", "sierra circular de banco lusqtoff", "lusqtoff sml2000-8", "sierra de banco lusqtoff opiniones"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tres códigos de banco y una discrepancia documental"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Sierra de banco Lusqtoff: qué modelo conviene para tu taller
 
-La **Lusqtoff SML2000-8** que aparece en Mercado Libre es una sierra de mesa para cortes rectos y repetidos en madera y tableros. Su ficha argentina informa disco de 255 mm, mesa de 583 × 563 mm con extensiones laterales y profundidad máxima de 85 mm a 90°. Es una opción para quien necesita dimensionar piezas en un espacio de taller, pero el código exacto importa: Lusqtoff también vende variantes **SML2000-9** y **SML2000B-9**, con mesas y capacidades diferentes.
+Las fichas actuales y un catálogo de Lüsqtoff no expresan de igual modo la potencia y el disco de SML2000-8. Registramos la diferencia sin resolverla por suposición. **Dato verificado** significa aquí que la cifra aparece en el documento citado, no que haya sido medida por TallerLab.
 
-Si recién estás comparando tipos de máquinas, leé primero la [guía general de sierras de banco](/sierras/de-banco/). Para otra marca de entrada, consultá la [comparativa de sierras de banco Einhell](/sierras/de-banco-einhell/).
+## Tres códigos de banco y una discrepancia documental
 
-## SML2000-8: datos que sirven para decidir
+| Dato publicado | SML2000-8 | SML2000-9 | SML2000B-9 |
+| :--- | :--- | :--- | :--- |
+| Potencia anunciada en ficha | 2.000 W | 1.800 W de entrada; 2.000 W máx. S6 | 2.000 W máx. |
+| Diámetro en ficha | 255 mm | 255 mm | 255 mm |
+| Corte a 90° | 85 mm | 85 mm | 85 mm |
+| Peso publicado | 21,5 kg | 23 kg | 19,6 kg |
 
-Según la [ficha oficial SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8), la máquina trabaja a 220 V, declara 2000 W y 5000 rpm, usa disco de 255 mm y tiene una mesa de 583 × 563 mm. La capacidad publicada es **85 mm a 90° y 65 mm a 45°**. La ficha también enumera guía lateral, guía de inglete, guarda con conexión para aspiración, empujador, llaves y un disco de 24 dientes con eje de 30 mm.
+**Análisis TallerLab.** El catálogo 2024–2025 describe la SML2000-8 con 1.800 W de entrada y 2.000 W máximos S6 25 %, además de disco de 250 mm, mientras la ficha web anuncia 2.000 W y 255 mm. Son documentos del mismo fabricante con cifras distintas. Una diferencia de 5 mm en el disco afecta la compra de repuestos: pedí foto de la placa, manual y disco de la unidad ofrecida.
 
-Lusqtoff publicó en un catálogo anterior 1800 W y 2000 W como potencia máxima bajo régimen S6, junto a un disco de 250 mm. Esos datos difieren de la ficha web actual. Para comprar discos o comparar potencia continua, usá la **placa y el manual de la unidad que vende el comercio**, no una cifra aislada tomada de otro catálogo.
+La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclinados en madera gruesa, esa diferencia publicada de 5 mm importa más que comparar solo el nombre comercial.
 
-## Variantes que no conviene mezclar
+**Desconocido.** No probamos estabilidad de mesa, precisión de guía ni duración. Tampoco afirmamos que las potencias con distinta condición S6 sean directamente comparables.
 
-| Modelo | Diferencia publicada por Lusqtoff | Qué revisar |
-| :--- | :--- | :--- |
-| [SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8) | Mesa de 583 × 563 mm; extensiones de 583 × 165 mm; corte 85/65 mm a 90°/45° | Disco y accesorios de la publicación concreta |
-| [SML2000-9](https://www.lusqtoff.com.ar/productos/SML2000-9) | Extensiones laterales de otra medida; corte 85/60 mm a 90°/45° | Espacio total y configuración de guía |
-| [SML2000B-9](https://lusqtoff.com.ar/ver-producto/SML2000B-9) | Mesa de 583 × 608 mm; disco de 40 dientes; corte 85/55 mm a 90°/45° | Tipo de extensión y accesorios incluidos |
+## Fuentes consultadas
 
-Las cifras son especificaciones publicadas, no resultados de ensayos propios. No se puede afirmar que una variante corta con más precisión solo por tener más watts o una mesa más grande. Para eso importan la alineación de la guía, la estabilidad de la mesa, el estado del disco y la calibración.
+- **Documentación primaria:** [SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [SML2000-9](https://lusqtoff.com.ar/ver-producto/SML2000-9); [SML2000B-9](https://lusqtoff.com.ar/ver-producto/SML2000B-9); [catálogo Lüsqtoff 2024–2025](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf).
+- **Opiniones:** no se revisó una muestra verificable.
 
-## Elegir según el trabajo
-
-Para cortar listones al hilo o repetir piezas chicas, medí primero la **distancia útil entre disco y guía paralela**. Para placas grandes, comprobá el apoyo de entrada y salida: una extensión lateral no sustituye un soporte posterior. Si trabajás con melamina, el disco incluido de 24 dientes puede requerir reemplazo por uno apto para acabado fino y compatible con el diámetro, eje y RPM de la unidad. La [guía de discos para sierra circular](/sierras/disco-para-sierra-circular/) ayuda a entender dentado y materiales, pero comprobá la compatibilidad específica para una sierra de mesa.
-
-Si movés la máquina de obra en obra, compará peso, posibilidad de fijarla a un banco y espacio de guardado. Si solo necesitás trozar marcos o zócalos, una [ingletadora](/sierras/ingletadoras/) puede ser más práctica. Para comenzar cortes en placas completas, una [circular de mano](/sierras/circulares/) puede complementar a la mesa.
-
-## Lista antes de comprar
-
-Pedí foto de la **placa SML2000-8**, confirmá tensión, medidas del disco y del eje, accesorios incluidos, disponibilidad de repuestos y garantía. Contrastá las fotos de la guía y las extensiones con la ficha del modelo anunciado. No trates una SML2000-9 o SML2000B-9 como la misma publicación aunque compartan la potencia comercial de 2000 W.
-
-La [publicación de la Lusqtoff SML2000-8 en Mercado Libre](https://meli.la/2WFpTNp){:target="_blank" rel="sponsored noopener noreferrer"} identifica el modelo de esta guía. Antes de comprar, contrastá sus fotos y accesorios con la placa de la unidad y la ficha de Lusqtoff.
+[Ver todas las guías de sierras](/sierras/).

@@ -6,39 +6,38 @@ description: "Guía para elegir una ingletadora en Argentina: diferencias entre 
 author: "Taller Lab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["ingletadora", "sierra ingletadora", "ingletadora para madera", "ingletadora telescopica"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Elegir por sección de pieza, no solo por disco"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Ingletadoras: cuál elegir según el corte y el material
 
-Una ingletadora permite hacer cortes transversales repetidos en listones, zócalos, marcos y tirantes. Su mesa gira para definir el ángulo del inglete y el cabezal puede inclinarse para realizar un bisel. Si vas a comprar una, la primera decisión es cuánto ancho necesitás cortar: una ingletadora fija ocupa menos lugar; una telescópica desliza el cabezal y admite piezas más anchas.
+La capacidad publicada de dos máquinas Einhell con disco de 210 mm muestra cuánto cambia el ancho útil al incorporar un carro deslizante. **Dato verificado:** las capacidades de la tabla proceden de las dos fichas oficiales enlazadas.
 
-Esta guía compara criterios de compra, no declara un modelo ganador universal. Las capacidades dependen de cada equipo, del ángulo elegido y del disco instalado. Consultá la ficha de la variante que se vende en Argentina antes de pagar.
+## Elegir por sección de pieza, no solo por disco
 
-## Fija o telescópica: la decisión principal
+| Ancho de pieza que necesitás cortar a 90° | Dato documental | Decisión que permite |
+| :--- | :--- | :--- |
+| Hasta 120 mm | TC-MS 2112: 120 mm | Ambas entran por capacidad publicada |
+| Más de 120 y hasta 310 mm | TC-SM 2131/2 Dual: 310 mm | De estas dos, solo la deslizante cubre ese ancho |
+| Más de 310 mm | Ninguna de las dos lo documenta | Buscar otra máquina o método |
 
-En una **ingletadora fija**, el cabezal baja sobre un eje. Suele alcanzar para molduras, listones y zócalos angostos. Una **telescópica** agrega un recorrido horizontal: es más útil para tablas anchas, pisos flotantes y algunos tableros. También requiere más espacio sobre el banco y detrás de la máquina; verificá la profundidad total con el cabezal extendido.
+**Análisis TallerLab.** Las dos usan disco de 210 mm, pero sus anchos a 90° difieren 190 mm. El diámetro del disco por sí solo no predice ancho de corte. A 45°, la fija declara 80 mm y la deslizante 210 mm; medí la sección en la orientación real del trabajo. La profundidad a 90° es 55 y 62 mm, respectivamente: ancho y altura se deben comprobar por separado.
 
-Medí la pieza más ancha que cortás habitualmente y comparala con la **capacidad de corte a 90°** publicada para el modelo. Si hacés cortes a 45°, comprobá también esa capacidad: puede ser bastante menor. No elijas solo por los watts o por el diámetro del disco.
+**Declaración del fabricante.** Einhell publica 7,1 kg para la fija y 11 kg para la deslizante. Usá esas cifras si la vas a trasladar; no inferimos estabilidad o precisión por peso.
 
-## Disco, inglete y bisel
+**Desconocido.** No medimos espacio trasero con los carros extendidos ni exactitud de cortes. Antes de comprar, pedí dimensiones de instalación, sujeción de pieza, disco adecuado al material y tensión de la variante. Para los códigos exactos, consultá la [comparación Einhell](/sierras/ingletadoras-einhell/).
 
-El diámetro del disco condiciona la altura máxima de la pieza, pero la geometría del brazo y la guía determina el ancho útil. Revisá cuatro datos de la ficha técnica:
+## Fuentes consultadas
 
-1. **Capacidad a 90° y 45°**: buscá ancho y alto, no una sola cifra.
-2. **Bisel simple o doble**: el doble bisel facilita cortes compuestos sin dar vuelta piezas largas.
-3. **Diámetro exterior, eje y RPM del disco**: los tres deben ser compatibles con la máquina.
-4. **Sujeción y ajustes**: la prensa, los topes de ángulo y la posibilidad de calibrar la guía importan para repetir cortes.
+- **Documentación primaria:** [Einhell TC-MS 2112](https://www.einhell.com.ar/p/4300295-tc-ms-2112/); [Einhell TC-SM 2131/2 Dual](https://www.einhell.com.ar/p/4300390-tc-sm-2131-2-dual/).
+- **Opiniones:** no se revisó una muestra verificable.
 
-Para melamina, molduras delicadas o aluminio no alcanza con que el disco tenga muchos dientes. Elegí uno indicado por el fabricante para ese material y para las RPM de la ingletadora. Sujetá la pieza y seguí el manual; no uses un disco abrasivo de sensitiva en una ingletadora para madera.
-
-## Cuándo conviene otra sierra
-
-Si tu trabajo principal es dimensionar placas grandes o hacer muchos cortes longitudinales, compará una [sierra de banco](/sierras/de-banco/) o una [sierra circular de mano](/sierras/circulares/) con guía. Entre las circulares con cable podés contrastar la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/) y la [Stanley SC16](/sierras/stanley-sc16/). La ingletadora resulta especialmente cómoda para cortes transversales repetidos, zócalos, marcos y piezas que requieren un ángulo reproducible.
-
-## Qué modelos comparar en Argentina
-
-Antes de elegir marca, anotá el ancho máximo de tus piezas, el espacio disponible, la frecuencia de uso y si necesitás doble bisel. Después contrastá modelos concretos de [ingletadoras Einhell](/sierras/ingletadoras-einhell/), [ingletadoras DeWalt](/sierras/ingletadoras-dewalt/) e [ingletadoras Total](/sierras/ingletadoras-total/). En cada caso, comprobá el código exacto, la tensión, los accesorios, la garantía local y la disponibilidad de repuestos. Una oferta de un modelo distinto, aunque tenga el mismo diámetro de disco, puede cambiar la capacidad de corte.
-
-En Mercado Libre filtrá por código de modelo y revisá la ficha del fabricante antes de comparar precios. Confirmá si la publicación incluye disco, prensa y extensiones de mesa; esos accesorios cambian el costo final.
-
-[Ver ingletadoras en Mercado Libre](https://listado.mercadolibre.com.ar/ingletadora){:target="_blank" rel="noopener noreferrer" .btn-mercado-libre}
+[Ver todas las guías de sierras](/sierras/).

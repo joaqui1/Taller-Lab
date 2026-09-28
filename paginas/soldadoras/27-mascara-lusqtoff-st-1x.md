@@ -2,29 +2,54 @@
 title: "Máscara Lusqtoff ST-1X: qué revisar antes de comprar"
 h1: "Máscara fotosensible Lusqtoff ST-1X: guía de compra"
 url: "/soldadoras/mascara-lusqtoff-st-1x/"
-description: "Revisá el filtro, visor, sensores, ajuste y accesorios de la máscara Lusqtoff ST-1X antes de comprarla sola o en un kit."
+description: "Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia."
 author: "Taller Lab"
 category: "Soldadoras y Soldadura"
 keywords: ["lusqtoff st 1x", "mascara fotosensible lusqtoff st 1x", "mascara lusqtoff st 1x"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Máscara fotosensible Lusqtoff ST-1X: guía de compra
 
-La **Lusqtoff ST-1X** se vende sola y como parte de kits de soldadoras, incluido el [MEGAIRON100-8](/soldadoras/lusqtoff-iron-100/). Su función es oscurecer el visor al detectar el arco, de modo que puedas posicionar electrodo y pieza con las manos libres. Antes de comprar una máscara de un kit, confirmá que el código del casco y del filtro coincidan con lo anunciado.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-El [manual oficial del kit MEGAIRON100-8](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf) describe la ST-1X incluida con **dos sensores**, ventana de **92 × 42 mm** y rango de sombra **DIN 9–13**. Otras publicaciones de ST-1X muestran medidas o ajustes distintos; verificá la versión concreta y la etiqueta del filtro antes de extrapolar cifras.
+**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Comprobaciones importantes
+## Cómo investigamos esta guía
 
-| Punto | Por qué importa |
-| :--- | :--- |
-| Casco y filtro | El mismo nombre comercial puede aparecer en combos con accesorios o revisiones distintas. |
-| Rango de sombra | Debe ser adecuado a la corriente y al proceso que usás. |
-| Prueba del filtro | Confirmá que oscurece correctamente antes de iniciar el trabajo. |
-| Arnés y micas | Un casco cómodo y micas reemplazables prolongan su utilidad. |
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-La ST-1X puede ser una entrada para trabajos de electrodo y Flux, pero para TIG a baja corriente o uso diario conviene comparar sensibilidad, sensores y campo visual con modelos superiores en la [guía de máscaras fotosensibles](/soldadoras/mascaras-fotosensibles/). No supongas que una máscara incluida gratis en un kit es la mejor para todo proceso.
+| Modelo | Área de visión | Sensores | Tono declarado | Velocidad declarada | Estado en fuente consultada |
+| :--- | ---: | ---: | :--- | :--- | :--- |
+| ST-1X | 92 × 42 mm | 2 | DIN 4/9–13 | 1/15.000 s | Catálogo oficial 2020/21; aparece incluida en algunos kits actuales |
+| ST-1B | 98 × 43 mm | 4 | DIN 4/9–13 | 1/25.000 s | Ficha actual de producto |
 
-Guardá el filtro protegido del polvo y los golpes. Cambiá la mica rayada y no soldés si el filtro no responde como indica el manual. Complementá la protección ocular con [guantes para soldar](/soldadoras/guantes/) adecuados al calor y las salpicaduras del trabajo.
+**Dato verificado:** los datos ST-1X proceden del catálogo oficial histórico de Lüsqtoff; los ST-1B, de su página de producto actual. Lüsqtoff también identifica ST-1X como parte de ciertos kits de soldadora, pero eso no confirma que la máscara suelta conserve idénticas especificaciones o garantía.
 
-[Ver Lusqtoff ST-1X en Mercado Libre](https://listado.mercadolibre.com.ar/mascara-fotosensible-lusqtoff-st-1x){:target="_blank" rel="sponsored" .btn-mercado-libre}
+**Análisis TallerLab:** los números permiten distinguir dos filtros comercializados con códigos distintos; no equivalen a una prueba comparativa de protección, calidad óptica o tiempo real de respuesta. La rapidez indicada es una cifra nominal de ficha y depende de que el equipo esté intacto, ajustado y dentro de sus condiciones de operación.
+
+**Desconocido:** no se encontró ficha de producto vigente independiente para ST-1X ni se confirmó disponibilidad, certificación actual o garantía para una unidad suelta. Antes de comprar, comprobar el código impreso en filtro/casco, marcado de conformidad, tono, repuestos y fecha/lote.
+
+## Fuentes consultadas
+
+- **Documentación primaria:** [catálogo Lüsqtoff 2020/21, ST-1X](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [ficha actual Lüsqtoff ST-1B](https://lusqtoff.com.ar/ver-producto/ST-1B); [kit actual SML150-8D que lista ST-1X](https://www.lusqtoff.com.ar/ver-producto/SML150-8D).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
+
+Para seguir comparando: [qué accesorios enumera el kit SML120-8DK](/soldadoras/lusqtoff-sml120-8d/).
+
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+
+Para explorar la categoría: [guías relacionadas](/soldadoras/mascaras-fotosensibles/).

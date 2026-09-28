@@ -2,49 +2,59 @@
 title: "Combo taladro y amoladora: kits con cable y a batería"
 h1: "Qué combo de taladro y amoladora conviene comprar"
 url: "/taladros/combo-taladro-amoladora/"
-description: "Compará kits de taladro y amoladora con cable o a batería. Cuatro combos disponibles, accesorios, compatibilidad y criterios de compra para Argentina."
+description: "Ficha comprobable del combo Lusqtoff KATL-9BK y matriz de datos faltantes en otros kits anunciados."
 author: "Taller Lab"
 category: "Taladros y Atornilladores"
 keywords: ["combo taladro amoladora", "kit taladro y amoladora", "taladro y amoladora", "kit amoladora y taladro inalambrico"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Comparación documental de un combo Lusqtoff: herramientas, baterías y garantía"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Qué combo de taladro y amoladora conviene comprar
 
-Un **combo de taladro y amoladora** resuelve dos tareas habituales del taller: perforar o atornillar con el taladro y cortar o desbastar con la amoladora. La primera decisión es la alimentación. Los kits **con cable** sirven para trabajar cerca de un tomacorriente sin depender de cargas; los **inalámbricos** dan movilidad, pero requieren revisar baterías, cargador y compatibilidad.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta selección hay cuatro kits disponibles: dos con cable y dos a batería. Compará lo que trae cada caja antes de decidir por un descuento anunciado: discos, mechas, baterías y maletín cambian el costo real de empezar a trabajar.
+| Componente del kit Lusqtoff KATL-9BK | Dato de la ficha oficial |
+| :--- | :--- |
+| Amoladora | 18 V, disco de 115 mm, rosca M14, 6.500 / 7.000 / 8.500 rpm |
+| Taladro atornillador | 18 V, mandril de 10 mm, dos velocidades, 0–500 / 0–2.000 rpm |
+| Torque máximo publicado del taladro | 60 Nm |
+| Baterías incluidas | Una de 4 Ah y una de 2 Ah |
+| Cargador | Incluido |
+| Garantía informada por el fabricante | Herramientas: 3 años; baterías: 6 meses |
 
-## Comparativa de los cuatro combos
+**Dato verificado:** la tabla corresponde al código KATL-9BK que Lusqtoff publica como kit de amoladora angular y taladro inalámbrico. No trasladamos esos datos a otros combos de nombre o aspecto parecido.
 
-| Kit | Alimentación y equipo anunciado | Conviene mirar especialmente |
+**Análisis TallerLab:** el kit contiene dos baterías de capacidades distintas, 4 Ah y 2 Ah; la ficha no indica cuál se destina a cada herramienta. La amoladora tiene tres velocidades listadas, mientras el taladro ofrece dos velocidades mecánicas. La diferencia entre las baterías es de 2 Ah, pero ese valor no predice por sí solo cuántos cortes o agujeros permite cada una.
+
+**Declaración del fabricante:** el taladro se identifica como herramienta de 18 V con torque máximo de 60 Nm. La página del kit no detalla una función de percusión; queda **desconocida** para este código mientras no aparezca en la ficha o el manual.
+
+**Desconocido:** no comparamos el precio del kit con las dos herramientas compradas por separado; los precios y las ofertas cambian. Tampoco verificamos resultados bajo carga, autonomía, disponibilidad actual o garantía de una publicación particular. Para otro combo, contrastá por separado cada código, sus baterías, el cargador y los discos incluidos.
+
+## Comprobación de otros combos anunciados
+
+| Combo que aparece en ofertas comerciales | Qué puede tomarse del anuncio | Qué sigue sin documentación primaria en esta revisión |
 | :--- | :--- | :--- |
-| [Kommberg: amoladora 820 W + taladro 650 W](https://meli.la/2z7Capd){:target="_blank" rel="sponsored"} | Cable; incluye discos de corte según la oferta. | Diámetro de disco, si el taladro tiene percusión y contenido exacto del kit. |
-| [Daewoo: amoladora 750 W de 115 mm + taladro percutor de 13 mm](https://meli.la/31DsFxN){:target="_blank" rel="sponsored"} | Cable; el taladro se anuncia como percutor. | Accesorios incluidos y necesidad real de perforar mampostería. |
-| [Kommberg Brushless: taladro y amoladora inalámbricos](https://meli.la/2NKiKZy){:target="_blank" rel="sponsored"} | Baterías compartidas dentro del kit anunciado. | Cantidad y capacidad de baterías, cargador y función de percusión del taladro. |
-| [KLD Brushless 18 V: taladro percutor y amoladora de 115 mm](https://meli.la/2AoytBr){:target="_blank" rel="sponsored"} | A batería; la publicación revisada indica dos baterías, cargador y maletín. | Capacidad de cada batería y accesorios para empezar a cortar o perforar. |
+| Kommberg con cable | El anuncio identifica una amoladora de 820 W y un taladro de 650 W | Códigos de modelo, diámetros, rpm, percusión y contenido de accesorios |
+| Daewoo con cable | El anuncio describe amoladora de 750 W / 115 mm y taladro percutor | Modelo exacto, capacidades, manual y garantía |
+| Kommberg inalámbrico | El anuncio presenta ambas máquinas como inalámbricas | Plataforma, Ah, cantidad de baterías y cargador |
+| KLD 18 V | El anuncio menciona taladro percutor, amoladora 115 mm y dos baterías | Códigos, Ah, rendimiento y cobertura de garantía |
 
-Los enlaces llevan a fichas de producto; el vendedor, la oferta concreta y el contenido del paquete pueden cambiar. Confirmalos en la variante que vayas a comprar. Los vatios de las máquinas con cable y los voltios de las inalámbricas **no son magnitudes equivalentes** para ordenar estos kits de mayor a menor rendimiento.
+Los datos de esta tabla describen el texto de cada aviso, no quedan verificados como especificaciones del fabricante. Para una comparación de compra válida, el vendedor debe identificar cada modelo y el contenido exacto del paquete.
 
-## Cuándo elegir cable y cuándo batería
+## Fuentes consultadas
 
-**Elegí cable** si trabajás la mayor parte del tiempo en un banco o taller con electricidad. Evitás pausas de carga y podés dedicar el presupuesto a las máquinas y consumibles. El Kommberg anunciado incluye discos; el Daewoo especifica un taladro percutor para mampostería. Si esa función te importa, revisá también la guía de [taladros percutores](/taladros/percutores/).
+- **Documentación primaria:** [Lusqtoff KATL-9BK](https://www.lusqtoff.com.ar/productos/KATL-9BK); [Lusqtoff TAL60-9B](https://www.lusqtoff.com.ar/ver-producto/TAL60-9B), referencia del taladro incluido.
+- **Información comercial:** avisos enlazados en la tabla de combos, tratados únicamente como descripción de oferta.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-**Elegí batería** si cambiás de lugar con frecuencia, trabajás en montajes o ya usás baterías de la misma plataforma. En una amoladora inalámbrica la autonomía bajo corte puede ser mucho menor que la de un taladro con la misma batería: verificá los Ah de cada acumulador y la posibilidad de conseguir repuestos. Compará las [amoladoras inalámbricas](/amoladoras/inalambricas/) por separado si ya tenés taladro.
+Para seguir comparando: [taladro inalámbrico Lusqtoff](/taladros/lusqtoff-inalambrico/).
 
-## Cinco comprobaciones antes de pagar
-
-1. **Taladro:** mandril, percusión y materiales para los que lo vas a usar. Un atornillador taladro percutor no sustituye a un [rotomartillo](/taladros/rotomartillos/) en hormigón exigente.
-2. **Amoladora:** diámetro admitido, guarda y empuñadura. Comprá discos del diámetro y uso adecuados; la guía de [discos para amoladora](/amoladoras/discos/) ayuda a distinguirlos.
-3. **Baterías:** número, Ah y cargador incluidos. Dos herramientas en una misma plataforma no significan dos baterías en la caja.
-4. **Accesorios:** discos de corte, mechas, puntas y maletín. Confirmá cuáles son consumibles de muestra y cuáles necesitás comprar aparte.
-5. **Costo total:** compará el precio final con envío y el costo de consumibles o baterías adicionales. Los descuentos y cuotas de una publicación pueden variar.
-
-## Preguntas frecuentes
-
-**¿Un combo siempre sale más barato que comprar las herramientas por separado?** No necesariamente. Compará modelos equivalentes y sumá baterías, cargador y accesorios en ambas alternativas.
-
-**¿Puedo usar la batería del taladro en la amoladora?** Solo si ambas pertenecen a la misma plataforma compatible. Incluso en ese caso, una batería pequeña puede dar poca autonomía a la amoladora.
-
-**¿Qué kit conviene para empezar un taller doméstico?** Si tenés electricidad en el lugar de trabajo, empezá comparando los kits con cable. Si la movilidad es indispensable, priorizá un kit inalámbrico cuyo contenido y disponibilidad de baterías puedas verificar.
-
-[Ver combo Kommberg con cable](https://meli.la/2z7Capd){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de amoladoras](/taladros/).

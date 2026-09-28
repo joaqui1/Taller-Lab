@@ -2,107 +2,56 @@
 title: "Discos para amoladora: tipos, usos y compatibilidad"
 h1: "Discos para amoladora: cuál usar según el trabajo"
 url: "/amoladoras/discos/"
-description: "Guía general de Taller Lab sobre discos para amoladora: tipos de accesorios, qué disco usar según el material, medidas, lectura de RPM y errores de compatibilidad."
+description: "Matriz propia de cinco accesorios que separa corte, desbaste, flap y diamante por uso y material."
 author: "Taller Lab"
 category: "Accesorios para amoladoras"
 keywords: ["discos para amoladora", "tipos de discos amoladora", "compatibilidad discos amoladora", "que disco usar amoladora"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Matriz de compatibilidad Bosch: disco según operación y material declarado"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Discos para amoladora: cuál usar según el trabajo
 
-La amoladora angular debe gran parte de su versatilidad a la enorme variedad de accesorios intercambiables disponibles en el mercado. Sin embargo, elegir el consumible equivocado no solo arruina el material o sobrecarga el motor: representa uno de los mayores factores de riesgo de accidentes graves por rotura de disco o contragolpe (*kickback*).
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-Esta guía forma parte de nuestra [guía para elegir amoladora](/amoladoras/) y funciona como el **mapa general de consumibles de Taller Lab**: aquí clasificamos las familias de accesorios, resolvemos qué disco corresponde a cada material, cómo interpretar las medidas de seguridad y qué errores críticos de montaje debés evitar en el taller.
+| Operación | Accesorio Bosch documentado | Material declarado | Dimensiones identificadas |
+| :--- | :--- | :--- | :--- |
+| Cortar metal | PRO Metal 2 608 619 252 | Metal | 115 × 1,6 × 22,23 mm |
+| Desbastar metal | PRO Metal 2 608 600 218 | Metal | 115 × 6 × 22,23 mm |
+| Lijar/desbastar metal | Flap PRO X571, 2 608 607 322 | Acero y acero inoxidable en la familia | 115 mm, grano 40, agujero 22,23 mm |
+| Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
+| Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
----
+**Dato verificado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
 
-## Tipos de discos
+**Análisis TallerLab:** para evitar confusiones, identificá primero la operación (cortar, desbastar o lijar), luego el material y finalmente las dimensiones. En los ejemplos, el disco rígido de desbaste mide 6 mm de espesor, frente a 1,6 mm del disco de corte; el flap es un accesorio de láminas abrasivas. El diámetro común de 115 mm no hace que estos usos sean intercambiables.
 
-Cada operación mecánica somete al accesorio a esfuerzos térmicos y dinámicos distintos. Las familias principales se dividen en:
+**Declaración del fabricante:** Bosch publica la velocidad máxima admisible y materiales por código de accesorio. El manual de la amoladora exige que rpm del accesorio sean compatibles con las de la herramienta y que se utilicen la guarda y bridas indicadas.
 
-### 1. Discos de corte fino
-Diseñados exclusivamente para avance radial recto sobre la pieza. Su espesor reducido (entre 1,0 mm y 1,6 mm) ofrece cortes veloces con mínima pérdida de material y baja generación de calor, evitando rebabas en chapas y caños. Podés profundizar en nuestra [guía técnica de discos de corte para amoladora](/amoladoras/disco-de-corte/).
+**Desconocido:** no se deduce por el nombre de una categoría que el disco sirva para vidrio, aluminio u otro material no mostrado en la fila. La tabla tampoco fija una técnica o velocidad para la pieza. Comprobá la etiqueta del accesorio exacto y las indicaciones del manual.
 
-### 2. Discos de desbaste rígidos (Aglomerados)
-Herramientas gruesas (de 6,0 mm a 6,4 mm) con refuerzo multicapa de fibra de vidrio. Soportan elevadas presiones laterales a un ángulo de ataque de 30° a 35° para rebajar cordones pesados de soldadura, desbastar cantos y matar rebarbas de fundición. Conocé más en nuestra [guía técnica de discos de desbaste](/amoladoras/disco-de-desbaste/).
+## Regla de lectura para la etiqueta
 
-### 3. Discos flap de láminas abrasivas
-Compuestos por telas abrasivas solapadas en abanico sobre un plato de soporte. Combinan remoción controlada y acabado superficial parejo en una sola pasada, sin morder el metal. Para elegir granos y minerales, consultá la [guía completa de discos flap](/amoladoras/disco-flap/).
+| Campo de la etiqueta | Comprobación |
+| :--- | :--- |
+| Diámetro exterior | No debe superar el máximo de la amoladora |
+| Agujero y fijación | Debe coincidir con brida, tuerca o sistema X-Lock admitido |
+| Velocidad máxima | Debe ser igual o mayor que las rpm máximas de la herramienta |
+| Material y operación | Debe incluir expresamente el trabajo que vas a hacer |
 
-### 4. Discos diamantados (Segmentados, continuos y turbo)
-Cuentan con un alma de acero templado y una corona perimetral con diamantes industriales sinterizados:
-* **Segmentados**: Diseñados para corte rápido en seco de ladrillo, mampostería y hormigón. Revisá los detalles en la [guía de discos diamantados segmentados](/amoladoras/disco-diamantado-segmentado/).
-* **Banda continua**: Ideales para terminación quirúrgica sin astillar en azulejos, cerámicas y porcelanatos. Consultá la [guía de discos para cortar cerámica](/amoladoras/discos-ceramica/).
-* **Turbo**: Banda estriada intermedia para cortes universales de obra y tejas.
+## Fuentes consultadas
 
-### 5. Cepillos de alambre de acero (Copa y circulares)
-Mazas de alambre trenzado u ondulado que se roscan directamente al husillo M14. Se utilizan para remover cascarilla de laminación (*calamina*), óxido profundo y pintura vieja sin desgastar la pared del metal base.
+- **Documentación primaria:** [Bosch disco PRO Metal de corte](https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/); [Bosch disco PRO Metal de desbaste](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [Bosch flap PRO X571](https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/); [Bosch PRO Concrete](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/); [Bosch PRO Ceramic](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/).
+- **Seguridad:** [manual Bosch para amoladoras](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-### 6. Discos de lija de fibra con plato de apoyo
-Hojas circulares flexibles que requieren un plato de goma de respaldo rígido. Son la opción más económica para lijado de planchuelas y preparación de chapa previo a fondos epoxi o pintura.
+Para seguir comparando: [disco de corte para amoladora](/amoladoras/disco-de-corte/).
 
----
-
-## Qué disco usar según el material
-
-Identificar con precisión la composición de la pieza es el paso clave para elegir el consumible correcto:
-
-| Material a trabajar | Operación requerida | Accesorio recomendado |
-| :--- | :--- | :--- |
-| **Caños de hierro, planchuelas y perfiles** | Corte recto, rápido y limpio | Disco de corte fino (1,0 a 1,6 mm) |
-| **Cordones pesados de soldadura en acero** | Rebaje masivo inicial y biselado | Disco de desbaste rígido (6,0 mm) |
-| **Terminación y pulido de soldaduras** | Nivelado parejo y matado de cantos | Disco flap (granos 60 / 80 zirconio) |
-| **Acero inoxidable** | Corte y desbaste sin contaminación férrica | Discos libres de hierro/azufre (*etiqueta Inox*) |
-| **Ladrillo macizo, hueco y hormigón** | Corte rápido en obra seca | Disco diamantado segmentado |
-| **Cerámica esmaltada y azulejos** | Corte fino sin despostillar el esmalte | Disco diamantado continuo ultrafino |
-| **Porcelanato pulido o esmaltado** | Terminación de alta precisión | Disco diamantado continuo para porcelanato |
-| **Chapa oxidada y perfiles con herrumbre** | Limpieza superficial sin morder el acero | Cepillo de alambre trenzado tipo copa |
-| **Madera y tirantes de obra** | **HERRAMIENTA NO APTA** | **Peligro crítico de contragolpe** (ver errores) |
-
----
-
-## Medidas, eje y RPM
-
-La etiqueta estampada en la cara del disco contiene los datos técnicos obligatorios para verificar que el accesorio coincida con las especificaciones de tu máquina:
-
-```
-Ejemplo de lectura:  A 46 T - BF  /  115 x 1,0 x 22,23 mm  /  MAX 13.300 RPM  80 m/s
-```
-
-### 1. Dimensiones geométricas
-* **Diámetro exterior**: Los más comunes son 115 mm (4 ½") y 125 mm (5") en amoladoras compactas, y 180 mm (7") y 230 mm (9") en máquinas de gran porte.
-* **Espesor**: Varía entre 1,0 mm (corte fino rápido), 2,0 mm (diamantados de obra) y 6,0 mm (desbaste rígido).
-* **Diámetro del agujero central (Buje)**: El estándar internacional para amoladoras angulares portátiles es **22,23 mm** (7/8"), diseñado para calzar de forma concéntrica en el labio de la brida interior del husillo M14.
-
-### 2. Revoluciones máximas y velocidad lineal
-Todo disco declara sus **RPM máximas** y su **velocidad periférica** (típicamente 80 m/s en aglomerados reforzados). 
-* Una amoladora de 115 mm gira en vacío a unas 11.000–12.000 RPM, por lo que requiere discos certificados para al menos 13.300 RPM.
-* Las amoladoras de 230 mm giran a 6.500 RPM: **nunca se debe colocar un disco grande en una máquina chica**, ya que el exceso de velocidad centrífuga destruye el aglomerante.
-
-### 3. Fecha de caducidad en discos aglomerados
-Los discos de resina fenólica absorben humedad ambiental y pierden propiedades mecánicas con los años. En el anillo metálico central figura estampada la fecha de vencimiento (ejemplo: `V 06/2028`). Descartá consumibles vencidos o almacenados en talleres húmedos.
-
----
-
-## Errores de compatibilidad
-
-Evitá estas prácticas que ponen en riesgo la integridad física del operador y la vida útil de la máquina:
-
-1. **Desbastar con discos de corte fino**: Usar la cara lateral de un disco de 1 mm para pulir o emparejar debilita la malla de fibra de vidrio interna y suele terminar en la rotura instantánea del disco durante el siguiente corte.
-2. **Retirar la guarda protectora de la amoladora**: Quitar el cubre-disco para colocar un disco de mayor diámetro (por ejemplo, poner uno de 180 mm en una amoladora de 115 mm) expone al usuario a una explosión del disco por sobrevelocidad periférica.
-3. **Colocar la tuerca brida al revés**: La brida exterior M14 tiene una cara plana y un resalto escalonado. Para discos delgados de corte (1,0 a 3,0 mm), la cara plana debe apretar el disco; si se coloca el resalto hacia adentro, la tuerca hace tope en el eje y el disco queda suelto.
-4. **Montar hojas de sierra dentada para madera**: Jamás utilices discos dentados de carpintería (con pastillas de widia) en una amoladora manual. Al enganchar un nudo o clavo, la ausencia de base de apoyo y freno provoca contragolpes violentos e incontrolables.
-5. **Reutilizar discos golpeados o con melladuras**: Cualquier caída accidental sobre el piso del taller puede generar microfisuras internas invisibles que colapsan en cuanto la amoladora alcanza su régimen de giro.
-
----
-
-### Índice de guías especializadas de consumibles
-
-* **[Discos de corte para amoladora](/amoladoras/disco-de-corte/)**: Espesores finos de 1 mm, metales e inoxidable.
-* **[Discos flap de láminas](/amoladoras/disco-flap/)**: Granos, abrasivos y acabado en soldaduras.
-* **[Discos de desbaste para metal](/amoladoras/disco-de-desbaste/)**: Desbaste pesado, espesores de 6 mm y ángulo de ataque.
-* **[Discos diamantados segmentados](/amoladoras/disco-diamantado-segmentado/)**: Materiales de construcción, ladrillo y hormigón.
-* **[Discos para cortar cerámica](/amoladoras/discos-ceramica/)**: Banda continua para azulejos y porcelanatos.
-* **[Discos para cortar vidrio](/amoladoras/discos-vidrio/)**: Qué verificar antes de montar un disco de 115 mm y cuándo conviene otro método de corte.
-
-[Consultar packs de discos para amoladora en Mercado Libre](https://listado.mercadolibre.com.ar/discos-amoladora){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de amoladoras](/amoladoras/).

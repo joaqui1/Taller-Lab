@@ -2,56 +2,53 @@
 title: "Amoladora de 115 o 125 mm: diferencias y elección"
 h1: "Amoladora de 115 o 125 mm: cuál elegir para tu trabajo"
 url: "/amoladoras/115-o-125/"
-description: "Diferencias entre amoladoras de 115 y 125 mm, discos compatibles y modelos compactos de Gamma, Total, Dowen Pagio y Omaha para comparar."
-author: "Taller Lab"
+description: "Comparación documental de amoladoras de 115 y 125 mm de la misma serie: diámetro, potencia, peso y límites de la profundidad de corte."
+author: "Equipo editorial TallerLab"
+reviewed: "27/09/2026"
+published: true
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "comparación de variantes Bosch GWS 9-115 S y GWS 9-125 S"
+asset_status: "verificado"
 category: "Tipos de amoladoras"
 keywords: ["amoladora 115", "amoladora 125", "amoladora 115 o 125", "amoladora 4 1/2 pulgadas", "mejor amoladora 125"]
 ---
 
 # Amoladora de 115 o 125 mm: cuál elegir para tu trabajo
 
-Las amoladoras de **115 mm (4½ pulgadas)** y **125 mm (5 pulgadas)** cubren gran parte de los cortes y retoques habituales de taller. Los diez milímetros de diferencia no parecen mucho, pero determinan qué discos admite la máquina y cuánto alcance ofrece al cortar. Para decidir, primero definí el material y el espacio de trabajo; después compará modelos concretos.
+**Análisis TallerLab.** Si comparás dos máquinas de la misma serie con igual potencia y peso declarados, la diferencia comprobable aquí es el diámetro máximo del disco: 115 o 125 mm. El disco de 125 mm tiene 10 mm más de diámetro nominal, pero ese dato no permite prometer 5 mm adicionales de corte útil en cualquier equipo. La guarda, la brida, el disco y el material limitan la profundidad efectiva.
 
-## Qué significa el diámetro de una amoladora
+## Comparación de dos variantes de la misma serie
 
-La medida de 115 o 125 mm indica el **diámetro exterior máximo del disco para el que fue diseñada la máquina y su guarda**. No indica por sí sola la potencia, la profundidad útil de corte ni la calidad de fabricación. Ambas medidas pueden encontrarse con distintas potencias e interruptores.
+**Dato verificado en fichas del fabricante.** Elegimos las variantes Bosch [GWS 9-115 S](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103) y [GWS 9-125 S](https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104) para que la potencia y la familia de producto sean comparables. Son fichas del mercado español; antes de comprar en Argentina hay que confirmar el código y la tensión de la unidad ofrecida.
 
-## 115 y 125 mm: diferencias para elegir
-
-| Criterio | 115 mm | 125 mm |
+| Variable declarada | GWS 9-115 S | GWS 9-125 S |
 | :--- | :--- | :--- |
-| Trabajo habitual | Corte fino, mantenimiento y espacios reducidos | Corte y desbaste con algo más de superficie útil |
-| Disco | Debe estar aprobado para 115 mm y las RPM de la máquina | Debe estar aprobado para 125 mm y las RPM de la máquina |
-| Elección práctica | Priorizar tamaño y control | Priorizar algo más de alcance cuando la pieza lo pide |
+| Diámetro máximo del disco | 115 mm | 125 mm |
+| Potencia absorbida | 900 W | 900 W |
+| Velocidad en vacío | 2.800–11.000 rpm | 2.800–11.000 rpm |
+| Peso publicado | 1,9 kg | 1,9 kg |
+| Rosca del eje | M14 | M14 |
+| Tensión de estas variantes | 220–240 V | 220–240 V |
+| Profundidad útil de corte con disco convencional | No informada en estas fichas | No informada en estas fichas |
 
-No agrandes la medida retirando la guarda: una amoladora de 115 mm **no está preparada para un disco de 125 mm**. Tampoco presupongas que un disco menor es compatible con una máquina mayor sin comprobar las indicaciones del fabricante, el montaje y la protección instalada.
+**Análisis TallerLab.** En este par no se sostiene que 115 mm sea necesariamente más liviana ni que 125 mm tenga más potencia: las fichas muestran el mismo peso y los mismos 900 W. La ventaja geométrica nominal del disco de 125 mm es 10 mm de diámetro; su radio es 5 mm mayor. La profundidad útil depende también de cuánto espacio ocupan la guarda, el cuerpo de la máquina y el montaje.
 
-## Peso, potencia y capacidad según el modelo
+**Dato verificado, con alcance limitado.** La [ficha de la caperuza Bosch GDE 115/125 FC-T](https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK) declara una profundidad máxima de 20 mm con disco de 115 mm y 25 mm con disco de 125 mm. Es un dato de ese accesorio, no de las dos GWS 9 de la tabla: la ficha del accesorio no las enumera entre sus modelos compatibles.
 
-Entre los productos disponibles para comparar hay varias máquinas de **115 mm con cable**:
+## Qué falta comprobar antes de elegir
 
-| Modelo o publicación | Datos identificables | Qué conviene verificar |
-| :--- | :--- | :--- |
-| [Gamma G1910KAR](/amoladoras/gamma/) | Kit de 750 W con discos y maletín | Que la publicación sea el kit G1910KAR y no la G1910AR sola |
-| [Dowen Pagio 9993220.7](/amoladoras/dowen-pagio/) | Amoladora de 900 W y 115 mm | Que el código corresponda al modelo ofrecido |
-| [Total 710 W](/amoladoras/total/) | Publicación de 710 W y 115 mm | Código de modelo, garantía y contenido de la caja |
-| Omaha de 750 W | Publicación de 115 mm con bolso y discos | Código, discos incluidos y condiciones de garantía |
+**Desconocido.** Estas fichas no establecen qué discos hay hoy disponibles en tu zona, cuánto cuesta cada medida ni la profundidad efectiva con el disco que vas a usar. Tampoco acreditan una diferencia de durabilidad entre ambas variantes. No atribuimos experiencias a compradores porque no revisamos una muestra identificable de opiniones para esta guía.
 
-Estos datos sirven para identificar publicaciones, no para ordenar las máquinas por calidad. Las calificaciones, descuentos y precios de Mercado Libre pueden cambiar; leé la ficha del producto y las condiciones del vendedor antes de decidir.
+**Análisis TallerLab.** Elegí primero un disco apto para el material y verificá en el manual de tu modelo el diámetro máximo admitido, el orificio, la velocidad nominal y la guarda necesaria. No retires ni adaptes la guarda para montar un disco mayor al autorizado. Después compará precio, disponibilidad del disco concreto y condiciones de garantía de las ofertas locales.
 
-### Publicaciones para comparar
+Para otros criterios de selección, consultá la [guía de amoladoras](/amoladoras/) y la [guía de discos](/amoladoras/discos-para-amoladora/).
 
-* [Gamma G1910KAR, kit de 750 W](https://meli.la/12aMvrG){:target="_blank" rel="sponsored noopener"}
-* [Dowen Pagio 9993220.7, 900 W](https://meli.la/1QUvfns){:target="_blank" rel="sponsored noopener"}
-* [Total, 710 W y 115 mm](https://meli.la/1wX68V2){:target="_blank" rel="sponsored noopener"}
-* [Omaha, 750 W y 115 mm con bolso y discos](https://meli.la/1uvVdzg){:target="_blank" rel="sponsored noopener"}
+## Fuentes consultadas
 
-## Qué discos admite realmente cada máquina
-
-Para metal, elegí un [disco de corte](/amoladoras/disco-de-corte/) o de [desbaste](/amoladoras/disco-de-desbaste/) de la medida correspondiente. Para terminación de soldaduras, consultá los [discos flap](/amoladoras/disco-flap/). Verificá siempre diámetro, orificio central, RPM máximas y material permitido en la etiqueta del disco; un disco destinado a cerámica o vidrio no reemplaza a uno de metal.
-
-## Opciones para uso ocasional y frecuente
-
-Para uso ocasional, compará el costo total de la máquina con los accesorios que realmente necesitás: un kit puede convenir si los discos son adecuados para tu trabajo. Si la vas a usar con frecuencia, prestá más atención a la ergonomía, el servicio técnico y la disponibilidad de consumibles. Si necesitás mayor alcance para perfiles gruesos, revisá la [guía de 7 pulgadas](/amoladoras/7-pulgadas/) antes de elegir solo por potencia.
-
-Para conocer las familias de máquinas y otras marcas, consultá la [guía para elegir amoladora](/amoladoras/).
+- **Documentación primaria:** [Bosch GWS 9-115 S, ficha técnica](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103); [Bosch GWS 9-125 S, ficha técnica](https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104).
+- **Profundidad de corte:** [Bosch, ficha de la caperuza GDE 115/125 FC-T](https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK). La cifra no se extrapola a las máquinas de la tabla.
+- **Información comercial y opiniones:** no usadas para establecer las diferencias técnicas de esta guía.

@@ -2,40 +2,55 @@
 title: "Amoladoras Dowen Pagio: cómo elegir la de 900 W"
 h1: "Amoladoras Dowen Pagio: qué revisar en la 9993220.7"
 url: "/amoladoras/dowen-pagio/"
-description: "Análisis de la amoladora Dowen Pagio 9993220.7 de 900 W y 115 mm: ficha del fabricante, accesorios, discos compatibles y comparación con otras compactas."
+description: "Comparación de tres códigos Dowen Pagio según potencia, disco, rpm y control variable, usando catálogo de fabricante."
 author: "Taller Lab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora dowen pagio", "dowen pagio 9993220.7", "amoladora dowen pagio 900w", "amoladora 115 mm dowen pagio"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: potencia no es la única diferencia"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Amoladoras Dowen Pagio: qué revisar en la 9993220.7
 
-Para comparar **amoladoras Dowen Pagio** conviene usar el código del fabricante: evita mezclar máquinas parecidas que pueden tener distinta potencia o equipamiento. La publicación disponible corresponde a la **9993220.7**, una angular de **115 mm y 900 W**.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-## Ficha de la Dowen Pagio 9993220.7
+| Código Dowen Pagio | Potencia declarada | Disco máximo | Velocidad sin carga | Control de velocidad | Eje |
+| :--- | ---: | ---: | ---: | :--- | :--- |
+| 9993220.7 / AA115H4 | 900 W | 115 mm | 12.000 rpm | No indicado como variable | El catálogo imprime “M14 (5/8–11)” |
+| 9993220.9 / AA115SP2 | 1.050 W | 115 mm | 12.000 rpm | No indicado como variable | El catálogo imprime “M14 (5/8–11)” |
+| 9993224.2 / AA125SPL | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | El catálogo imprime “M14 (5/8–11)” |
 
-Según la [ficha oficial de Dowen Pagio](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-900-w), el modelo **9993220.7**, tipo **AA115H4**, declara **900 W**, **220 V / 50 Hz**, **12.000 RPM** en vacío y disco de **115 mm**. La marca menciona empuñadura lateral de tres posiciones, traba de eje y protector de disco con liberación rápida. También indica que **no incluye disco**: si una publicación muestra accesorios adicionales, verificá si son un agregado del vendedor.
+**Dato verificado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
 
-[Ver Dowen Pagio 9993220.7 en Mercado Libre](https://meli.la/1QUvfns){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+**Desconocido:** la ficha escribe “M14 (5/8–11)” para la rosca del eje. Esas designaciones son distintas; la ficha no aclara si está describiendo variantes o una equivalencia. Confirmá el manual y el eje de la unidad antes de comprar una brida o accesorio roscado.
 
-| Dato | 9993220.7 |
-| :--- | :--- |
-| Potencia declarada | 900 W |
-| Diámetro del disco | 115 mm |
-| Velocidad en vacío | 12.000 RPM |
-| Alimentación | 220 V / 50 Hz |
-| Disco incluido por el fabricante | No |
+**Análisis TallerLab:** el 9993220.9 declara 150 W más que el 9993220.7 y ambos publican 12.000 rpm sin carga y 115 mm. El 9993224.2 suma control variable y acepta 115/125 mm según el catálogo. Estas diferencias ayudan a identificar funciones y consumibles, pero no prueban más rapidez o calidad en uso.
 
-## Qué aporta frente a otras compactas
+**Declaración del fabricante:** el catálogo informa que los modelos 9993220.7 y 9993220.9 no incluyen disco de corte; no asumas que un kit comercial trae el mismo contenido. Verificá guardas, brida, interruptor y código completo al recibir el producto.
 
-La 9993220.7 ofrece una referencia verificable para quien busca una máquina con cable de 115 mm y quiere confirmar sus prestaciones antes de comprar. En potencia declarada se ubica por encima de las publicaciones de 710 y 750 W que también estamos comparando, pero la potencia por sí sola no demuestra mayor durabilidad ni reemplaza una evaluación de ergonomía, servicio y carga de trabajo.
+**Desconocido:** no se verificó disponibilidad, precio ni garantía de cada variante en el mercado actual. El catálogo no publica en la tabla una medida de peso común que permita comparar masa.
 
-Si comparás contra la [Gamma G1910KAR](/amoladoras/gamma/), tené presente que aquella es un kit con accesorios; para esta Dowen Pagio el fabricante declara la máquina sin disco. Sumá el costo de los [discos apropiados](/amoladoras/discos/) antes de decidir por precio. Para saber si el tamaño es adecuado para vos, revisá [115 frente a 125 mm](/amoladoras/115-o-125/).
+## Qué cambia entre estos códigos
 
-## Discos y montaje
+| Si necesitás… | Referencia documentada | Límite de esta comparación |
+| :--- | :--- | :--- |
+| Disco fijo de 115 mm | 9993220.7 o 9993220.9 | Potencia diferente, rpm iguales en catálogo |
+| Ajustar las rpm | 9993224.2 | Revisar rango y manual según accesorio |
+| Usar disco de 125 mm | 9993224.2 | Confirmar que la guarda y variante ofertada correspondan |
 
-Elegí consumibles de 115 mm cuya velocidad máxima permita el uso en esta máquina y cuyo material de aplicación coincida con el trabajo. Un [disco de corte de metal](/amoladoras/disco-de-corte/) y uno de [desbaste](/amoladoras/disco-de-desbaste/) cumplen funciones diferentes. Conservá la guarda y seguí el manual para el montaje; no uses discos de diámetro mayor.
+## Fuentes consultadas
 
-## Qué verificar en la publicación
+- **Documentación primaria:** [catálogo oficial Dowen Pagio 2025](https://www.dowenpagioweb.com.ar/inventario/Catalogo-Dowen-Pagio-2025.pdf).
+- **Seguridad:** usar discos compatibles con diámetro, agujero, velocidad y guarda del modelo.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Comprobá que el código sea **9993220.7**, que la tensión corresponda a la red donde la usarás y que la descripción detalle el contenido de la caja, la garantía y la factura. Una oferta con discos adicionales puede ser útil, pero compará sus especificaciones con el trabajo que pensás hacer. Para explorar otras marcas y medidas, consultá la [guía general de amoladoras](/amoladoras/).
+Para seguir comparando: [amoladoras Gamma](/amoladoras/gamma/).
+
+Para explorar la categoría: [guías de amoladoras](/amoladoras/).

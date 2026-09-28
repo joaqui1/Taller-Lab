@@ -1,0 +1,463 @@
+## Compresores y Neumática (23 URLs)
+
+### 26. `/compresores/para-auto/`
+- **Title:** Compresor de aire para auto: cuál elegir
+- **H1:** Compresor de aire para auto: cuál elegir
+- **H2:**
+  - Compresores de 12 V y a batería
+  - Caudal y tiempo de inflado
+  - Opciones para autos y camionetas
+  - Comparativa y precios en Mercado Libre
+- **Resumen:** Guía técnica para elegir un compresor de aire para auto: inflado y calibración de neumáticos, 12V vs batería, caudal real en l/min y modelos para autos y camionetas 4x4. Para el auto, elegí un inflador o compresor según el tamaño del neumático, la fuente de energía disponible y el tiempo de inflado tolerable. Compará caudal, ciclo de trabajo, longitud de cable y manómetro, no solo PSI máximos.
+
+### 27. `/compresores/50-litros/`
+- **Title:** Compresor de 50 litros: comparativa y guía de compra
+- **H1:** Compresores de 50 litros: cuál conviene según el uso
+- **H2:**
+  - Qué trabajos permite hacer
+  - Caudal, potencia y presión
+  - Comparativa de marcas
+  - Matriz TallerLab: datos que cambian la compra
+  - Cuándo conviene pasar a 100 litros
+  - Precios en Mercado Libre
+- **Resumen:** Compará compresores de 50 litros Lüsqtoff, Gamma y Einhell: potencia, caudal declarado, salida a presión de trabajo y límites según el uso. Un compresor de 50 litros ofrece más reserva que los modelos compactos de 24 litros o las versiones de compresor BTA de 25 litros. Que pueda alimentar una herramienta de forma continua depende del caudal que entrega a la presión de trabajo, además del tamaño del tanque. En esta guía de **Taller Lab** comparamos tres modelos identificados de 50 litros y explicamos qué datos pedir para evaluar si alcanzan para tu herramienta. La decisión entre 50 y 100 litros depende del caudal de salida, del consumo de aire y del ciclo de trabajo.
+
+### 28. `/compresores/manguera/`
+- **Title:** Manguera para compresor de aire: medidas y materiales
+- **H1:** Cómo elegir una manguera para compresor de aire
+- **H2:**
+  - Diámetro interior y pérdida de presión
+  - Manguera espiral o recta
+  - Materiales y longitud
+  - Compatibilidad de conexiones
+  - Opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre mangueras para compresor de aire: diámetros interiores (1/4\", 5/16\", 3/8\"), espiral vs recta, goma, PVC o PU y cómo evitar pérdidas de presión. Elegí la manguera de compresor por presión admisible, diámetro interior, longitud y acoples compatibles. Una manguera demasiado estrecha o larga puede limitar el caudal que recibe la herramienta.
+
+### 29. `/compresores/kits-aerografo/`
+- **Title:** Aerógrafo con compresor: qué kit comprar para empezar
+- **H1:** Kits de aerógrafo con compresor: guía para principiantes
+- **H2:**
+  - Qué debe incluir el kit
+  - Opciones para modelismo, uñas y repostería
+  - Boquillas y regulación de presión
+  - Kits completos en Mercado Libre
+- **Resumen:** Guía para principiantes sobre kits de aerógrafo con compresor: componentes esenciales, boquillas 0,2 a 0,5 mm, usos en repostería, modelismo y nail art. Para empezar con aerografía, elegí un kit que combine aerógrafo, compresor y regulador compatibles con el trabajo previsto. Confirmá boquilla, control de presión, manguera y disponibilidad de repuestos antes de comparar precios.
+
+### 30. `/compresores/pistola-para-pintar/`
+- **Title:** Pistola para pintar con compresor: cuál elegir
+- **H1:** Cómo elegir una pistola para pintar con compresor
+- **H2:**
+  - Diferencias entre HVLP, LVLP y convencional
+  - Boquilla según pintura y superficie
+  - Consumo de aire y compatibilidad
+  - Regulación y limpieza
+  - Opciones en Mercado Libre
+- **Resumen:** Guía de compra sobre pistolas para pintar con compresor: diferencias HVLP, LVLP y convencionales, boquillas 1.3 a 2.0 mm, consumo de CFM y compatibilidad con tu tanque. Elegí una pistola de pintar compatible con el caudal y la presión de salida de tu compresor. Boquilla, tipo de alimentación y material de pintura determinan el patrón y la preparación; la etiqueta HVLP no sustituye esas comprobaciones.
+
+### 31. `/compresores/acoples-rapidos/`
+- **Title:** Acople rápido para compresor: perfiles, roscas y medidas
+- **H1:** Acople rápido para compresor: perfiles, roscas y medidas
+- **H2:**
+  - Perfiles de conexión y compatibilidad
+  - Roscas, medidas y adaptadores
+  - Acoples macho y hembra
+  - Cómo evitar fugas
+  - Opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre acoples rápidos para compresor: perfiles Nitto, Orion y Milton, roscas 1/4 NPT y BSP, machos, hembras y cómo eliminar fugas de aire. Elegí un acople rápido comparando perfil, diámetro y rosca de las dos piezas que querés unir. Una conexión que parece encajar puede perder aire si el perfil o la rosca no corresponden.
+
+### 32. `/compresores/para-aerografo/`
+- **Title:** Compresor para aerógrafo: cómo elegir el adecuado
+- **H1:** Qué compresor comprar para tu aerógrafo
+- **H2:**
+  - Compresor con tanque o sin tanque
+  - Ruido y uso en interiores
+  - Caudal, presión y filtro de humedad
+  - Compatibilidad con tu aerógrafo
+  - Compresores sueltos en Mercado Libre
+- **Resumen:** Guía técnica para elegir compresor para aerógrafo: con tanque vs sin tanque, nivel sonoro (dB), regulación de presión, trampas de agua y compatibilidad. Para un aerógrafo, priorizá presión regulable y estable, ruido aceptable y una salida compatible con la manguera. El compresor debe sostener el caudal que pide la boquilla; el tamaño del tanque es secundario frente a ese dato.
+
+### 33. `/compresores/aceite/`
+- **Title:** Aceite para compresor de aire: cuál lleva y cómo elegir
+- **H1:** Qué aceite lleva un compresor de aire
+- **H2:**
+  - Cómo identificar la especificación del fabricante
+  - Viscosidad ISO y SAE
+  - Cantidad y frecuencia de cambio según modelo
+  - Errores al elegir lubricante
+  - Aceites en Mercado Libre
+- **Resumen:** Guía sobre aceite para compresor de aire: viscosidad ISO VG 68 y 100, SAE 30 no detergente, frecuencia de cambio y por qué no usar aceite de auto. El aceite correcto para un compresor es el que especifica el manual del modelo y su tipo de bomba. Identificá el código del equipo, la viscosidad exigida y el intervalo de cambio; los compresores sin aceite no reciben lubricante en el cárter.
+
+### 34. `/compresores/lusqtoff-50-litros/`
+- **Title:** Compresor Lusqtoff de 50 litros: modelos y compra
+- **H1:** Compresor Lusqtoff de 50 litros: cuál elegir
+- **H2:**
+  - Diferencias entre modelos
+  - Para qué trabajos alcanza
+  - Qué revisar antes de comprar
+  - Alternativas Gamma y otras marcas
+  - Precios y vendedores en Mercado Libre
+- **Resumen:** Guía de compra del compresor Lusqtoff de 50 litros: análisis de los modelos LC-2050, LC-2550 y línea silenciosa, rendimiento y comparativa con Gamma. Elegí un Lüsqtoff de 50 litros por código y caudal de salida comprobable, no solo por potencia o tanque. Las variantes pueden cambiar en accesorios y cabezal; pedí la ficha del equipo exacto y evitá convertir caudal aspirado en caudal útil por estimación.
+
+### 35. `/compresores/filtros/`
+- **Title:** Filtro de aire para compresor: cómo elegir el repuesto
+- **H1:** Filtro de aire para compresor: cómo elegir el repuesto
+- **H2:**
+  - Filtro de admisión y filtro de línea: diferencias
+  - Medidas y compatibilidad del repuesto
+  - Cuándo limpiar o reemplazar
+  - Cuándo necesitás una trampa de agua
+  - Repuestos en Mercado Libre
+- **Resumen:** Guía técnica sobre filtros de aire para compresor: cómo elegir el repuesto de admisión, roscas 1/2 y 3/8, mantenimiento y cuándo agregar una trampa de agua. Para reemplazar el filtro de aire de un compresor, buscá el código del cabezal o del filtro original y comprobá rosca, tamaño y capacidad. Un repuesto que encaja físicamente debe también permitir el caudal de admisión requerido.
+
+### 36. `/compresores/100-litros/`
+- **Title:** Compresor de 100 litros: comparativa y guía de compra
+- **H1:** Qué compresor de 100 litros elegir para tu taller
+- **H2:**
+  - Cuándo conviene frente a uno de 50 litros
+  - Caudal y herramientas compatibles
+  - Alimentación eléctrica y ciclo de trabajo
+  - Comparativa de modelos
+  - Precios en Mercado Libre
+- **Resumen:** Guía de compra de compresores de 100 litros por Taller Lab: transmisión por correa, 3 HP, herramientas compatibles, ciclo de trabajo y comparativa de modelos. Para elegir un compresor de 100 litros, calculá primero el consumo de aire de las herramientas a su presión de trabajo y comparalo con el caudal de salida del equipo. El tanque aporta reserva, pero no reemplaza un motor y cabezal capaces de reponer aire.
+
+### 37. `/compresores/gamma-50-litros/`
+- **Title:** Compresor Gamma de 50 litros: modelos y prestaciones
+- **H1:** Compresor Gamma de 50 litros: guía de compra
+- **H2:**
+  - Modelos y diferencias de equipamiento
+  - Prestaciones para pintar e inflar
+  - Mantenimiento y repuestos
+  - Comparación con Lusqtoff de 50 litros
+  - Opciones en Mercado Libre
+- **Resumen:** Guía de compra del compresor Gamma de 50 litros: modelo G2802AR, motor de 2 HP y 2.5 HP, caudal, prestaciones para pintura y comparativa con Lusqtoff. Antes de elegir un Gamma de 50 litros, confirmá si el aviso corresponde al G2802AR o al kit G2802KAR y qué accesorios incluye. Compará caudal de salida a la presión de uso; el desplazamiento declarado no demuestra rendimiento útil.
+
+### 38. `/compresores/kits-accesorios/`
+- **Title:** Kit para compresor de aire: accesorios que convienen
+- **H1:** Qué kit de accesorios comprar para un compresor
+- **H2:**
+  - Qué incluye cada tipo de kit
+  - Accesorios para inflar, soplar y pintar
+  - Calidad de mangueras y conexiones
+  - Kit completo o accesorios separados
+  - Kits en Mercado Libre
+- **Resumen:** Guía de Taller Lab sobre kits de accesorios para compresor de aire: qué incluye el kit de 5 piezas, pistolas para inflar, soplar y pintar, y calidad de mangueras. Comprá un kit para compresor según las tareas que vas a hacer y las conexiones que ya tiene tu equipo. Verificá perfil de acoples, roscas, longitud de manguera y consumo de cada pistola; un kit no incluye necesariamente el compresor.
+
+### 39. `/compresores/lusqtoff-100-litros/`
+- **Title:** Compresor Lusqtoff de 100 litros: guía de compra
+- **H1:** Compresor Lusqtoff de 100 litros: prestaciones y usos
+- **H2:**
+  - Modelos y fichas técnicas
+  - Caudal disponible y herramientas compatibles
+  - Requisitos de instalación
+  - Comparación con alternativas de 100 litros
+  - Precios en Mercado Libre
+- **Resumen:** Guía de compra del compresor Lusqtoff de 100 litros: modelo LC-30100, motor de 3 HP a correa, caudal en l/min, herramientas compatibles y requisitos de taller. Para decidir si un Lüsqtoff de 100 litros sirve a tu taller, verificá el modelo exacto y su caudal entregado a la presión que usan tus herramientas. El tanque, la potencia anunciada y el caudal aspirado no bastan para prometer trabajo continuo.
+
+### 40. `/compresores/sin-aceite/`
+- **Title:** Compresor sin aceite: ventajas y cuál comprar
+- **H1:** Compresores sin aceite: cuándo convienen
+- **H2:**
+  - Cómo funcionan y qué mantenimiento requieren
+  - Ventajas y limitaciones
+  - Diferencias frente a los lubricados
+  - Ruido y ciclo de trabajo
+  - Modelos en Mercado Libre
+- **Resumen:** Guía de compra sobre compresores sin aceite (oil-less): cómo funcionan, ventajas de aire puro, nivel de ruido reducido (dB) y cuándo convienen frente a los lubricados. Un compresor sin aceite conviene cuando priorizás menos mantenimiento de la bomba o querés evitar arrastre de lubricante; verificá igualmente el caudal y ciclo de trabajo que exige la herramienta. Compará ruido, servicio y costo total con uno lubricado.
+
+### 41. `/compresores/200-litros/`
+- **Title:** Compresor de 200 litros: cuál elegir para tu taller
+- **H1:** Compresores de 200 litros: guía de compra para taller
+- **H2:**
+  - Cuándo necesitás esta capacidad
+  - Caudal y uso simultáneo de herramientas
+  - Monofásico o trifásico
+  - Instalación y mantenimiento
+  - Comparativa y precios en Mercado Libre
+- **Resumen:** Guía técnica para elegir un compresor de 200 litros: trifásico vs monofásico, cabezales de alta y baja (dos etapas), caudal y uso simultáneo en taller. Elegí un compresor de 200 litros solo después de verificar el caudal de salida y el ciclo de trabajo que exige tu taller. Sumá espacio, alimentación eléctrica, mantenimiento y herramientas simultáneas al cálculo: el volumen del tanque no define el rendimiento continuo.
+
+### 42. `/compresores/bta-25-litros/`
+- **Title:** Compresor BTA de 25 litros: prestaciones y compra
+- **H1:** Compresor BTA de 25 litros: para quién conviene
+- **H2:**
+  - Modelos y características
+  - Usos domésticos y límites para pintar
+  - Accesorios compatibles
+  - Comparación con Gamma y Lusqtoff
+  - Precios en Mercado Libre
+- **Resumen:** Guía de compra sobre el compresor BTA de 25 litros: ficha técnica, motor de 2 HP, capacidad real para pintura, inflado y comparativa frente a Gamma y Lusqtoff. Un BTA de 25 litros conviene para tareas breves si su caudal útil alcanza para el accesorio que vas a usar. Confirmá el código del modelo, alimentación, presión de trabajo y contenido del kit antes de asumir que sirve para pintar de forma continua.
+
+### 43. `/compresores/24-litros/`
+- **Title:** Compresor de 24 litros: para qué sirve y cuál elegir
+- **H1:** Compresor de 24 litros: para qué sirve y cuál elegir
+- **H2:**
+  - Diferencias entre capacidades y modelos
+  - Qué trabajos permiten hacer
+  - ¿Sirven para pintar?
+  - Cuándo conviene uno de 50 litros
+  - Comparativa y precios en Mercado Libre
+- **Resumen:** Guía técnica sobre el compresor de 24 litros: qué trabajos permite hacer, rendimiento para pintar, diferencias con los modelos de 25L y cuándo conviene pasar a 50L. Un compresor de 24 litros sirve para inflado, soplado y herramientas de consumo intermitente si su caudal de salida alcanza para ellas. Para pintar o usar herramientas continuas, compará el consumo a la presión requerida antes de elegir un modelo.
+
+### 44. `/compresores/inalambricos/`
+- **Title:** Compresor inalámbrico: autonomía y guía de compra
+- **H1:** Cómo elegir un compresor inalámbrico a batería
+- **H2:**
+  - Inflador compacto o compresor con tanque
+  - Batería integrada o intercambiable
+  - Autonomía, caudal y tiempo de uso
+  - Qué incluye la compra
+  - Opciones en Mercado Libre
+- **Resumen:** Guía de compra sobre compresores inalámbricos a batería: infladores de mano vs compresores con tanque, plataformas 18V/20V, autonomía y tiempos de uso. Elegí un compresor inalámbrico según lo que necesitás inflar, el tiempo de trabajo y la batería incluida. Distinguí un inflador portátil de un compresor con tanque: no sirven para las mismas herramientas neumáticas.
+
+### 45. `/compresores/stanley/`
+- **Title:** Compresor Stanley: modelos y cuál elegir
+- **H1:** Compresores Stanley: comparativa y guía de compra
+- **H2:**
+  - Gamas y capacidades disponibles
+  - Modelos lubricados y sin aceite
+  - Cómo elegir según el trabajo
+  - Repuestos, accesorios y garantía
+  - Precios en Mercado Libre
+- **Resumen:** Guía de compra sobre compresores Stanley: modelos Fatmax, portátiles sin aceite, lubricados de 24 y 50L, insonorizados y comparativa de prestaciones. Para comparar compresores Stanley, identificá el código de cada modelo y separá capacidad de tanque, caudal de entrada y caudal entregado. Elegí por el consumo de tus herramientas, la presión necesaria y el soporte local, no solo por litros.
+
+### 46. `/compresores/para-pintar/`
+- **Title:** Compresor para pintar: caudal, capacidad y cuál elegir
+- **H1:** Qué compresor elegir para pintar
+- **H2:**
+  - Cuánto aire necesita una pistola para pintar
+  - ¿Alcanza un compresor de 24, 50 o 100 litros?
+  - Qué compresor usar para muebles, rejas, paredes y autos
+  - Cómo evitar agua y caídas de presión al pintar
+  - Modelos recomendados según el trabajo
+- **Resumen:** Guía técnica para elegir un compresor para pintar: caudal efectivo en l/min, capacidad en litros, pistolas HVLP vs LVLP, trampas de agua y modelos recomendados según el trabajo. Para pintar con compresor, compará el consumo de aire de la pistola con el caudal que entrega el equipo a la presión de aplicación. Elegí después tanque y ciclo de trabajo según el tamaño de la superficie y las pausas posibles.
+
+### 47. `/compresores/inflador-neumaticos-portatil/`
+- **Title:** Inflador de neumáticos portátil: cómo elegir uno para auto, moto o bicicleta
+- **H1:** Inflador de neumáticos portátil: cuál conviene según el uso
+- **H2:**
+  - A batería, de 12 V o con pinzas: qué formato elegir
+  - Qué datos importan más que los PSI máximos
+  - Qué conviene para auto, moto y bicicleta
+  - Modelos concretos para comparar
+- **Resumen:** Guía para elegir un inflador de neumáticos portátil: batería o 12 V, caudal, presión, autonomía y accesorios para auto, moto y bicicleta. Para elegir un inflador portátil, comprobá alimentación, caudal, manguera y precisión del manómetro para el tipo de neumático que usás. La presión máxima del anuncio no indica el tiempo que necesitará para inflarlo.
+
+### 48. `/compresores/12v-doble-piston/`
+- **Title:** Compresor 12V doble pistón: caudal, conexión y cuál elegir
+- **H1:** Compresor 12V doble pistón: guía para elegirlo
+- **H2:**
+  - Cuándo conviene un doble pistón
+  - Alimentación de 12 V: toma o pinzas
+  - Qué mirar en la ficha antes de comprar
+  - Dos modelos disponibles
+- **Resumen:** Qué revisar en un compresor 12V de doble pistón para neumáticos: caudal, consumo eléctrico, conexión, manguera y tiempo de uso. Un compresor de 12 V y doble pistón conviene si necesitás inflar neumáticos lejos de una toma de red. Compará caudal real, ciclo de trabajo, conexión eléctrica y alcance de la manguera; la presión máxima anunciada no indica por sí sola cuánto tarda en inflar.  ---  ## <a id="generadores"></a>Generadores y Grupos Electrógenos (21 URLs)
+
+## Generadores y Grupos Electrógenos (21 URLs)
+
+### 49. `/generadores/comparativa-general/`
+- **Title:** Grupos electrógenos: cómo elegir y comparar modelos
+- **H1:** Grupos electrógenos: guía para elegir el adecuado
+- **H2:**
+  - Cómo funciona un generador eléctrico
+  - Qué potencia necesitás
+  - Tipos de generadores
+  - Comparativa de marcas y modelos
+- **Resumen:** Guía completa de Taller Lab sobre grupos electrógenos en Argentina: funcionamiento, cálculo de potencia (kVA y kW), tipos, marcas (Honda, Gamma, Lusqtoff) y precios. Para elegir un grupo electrógeno, sumá la potencia de las cargas simultáneas, considerá los picos de arranque y dejá margen sobre la potencia continua del equipo. Después compará combustible, autonomía, ruido y tipo de salida para tu uso.
+
+### 50. `/generadores/precios/`
+- **Title:** Grupo electrógeno: precios de modelos y cómo comparar
+- **H1:** Cuánto cuesta un grupo electrógeno en Argentina
+- **H2:**
+  - Precios por potencia
+  - Qué encarece un generador
+  - Qué comparar según el uso
+  - Qué revisar antes de comprar en Mercado Libre
+- **Resumen:** Precios publicados de grupos electrógenos en Argentina, con modelos y fuentes consultadas. Compará opciones por potencia y tecnología antes de comprar. No hay un precio único para un grupo electrógeno en Argentina: cambia con la potencia continua, el combustible, la regulación y el vendedor. Para saber cuánto cuesta uno que te sirva, compará modelos equivalentes y sumá envío, instalación, combustible y mantenimiento; los valores concretos requieren fecha y oferta verificadas.
+
+### 51. `/generadores/honda/`
+- **Title:** Grupos electrógenos Honda: modelos y diferencias
+- **H1:** Qué grupo electrógeno Honda elegir
+- **H2:**
+  - Comparativa de modelos Honda
+  - Línea convencional e inverter
+  - Potencia y autonomía
+  - Garantía y servicio técnico
+- **Resumen:** Guía técnica sobre grupos electrógenos Honda en Argentina: comparativa de modelos (EU22i, EU30is, EG6500, EZ6500), línea convencional vs inverter, autonomía y garantía. Elegí un grupo electrógeno Honda por la carga eléctrica real y la frecuencia de uso, no solo por el nombre de la marca. Compará potencia continua, arranque, ruido, autonomía y soporte del modelo concreto.
+
+### 52. `/generadores/honda-6500/`
+- **Title:** Grupo electrógeno Honda 6500: potencia y precio
+- **H1:** Honda 6500: qué puede alimentar y qué revisar al comprar
+- **H2:**
+  - Cómo identificar el modelo exacto
+  - Potencia nominal y máxima
+  - Qué equipos puede alimentar
+  - Consumo, autonomía y precios
+- **Resumen:** Análisis del grupo electrógeno Honda 6500 en Argentina (EG6500CX, EZ6500CXS y EU65is): potencia real, qué electrodomésticos soporta, consumo y precio de compra. Para saber qué puede alimentar un Honda 6500, comprobá el código de la variante, su potencia continua y los picos de las cargas que arrancarán. Antes de comprar, revisá salidas, autonomía, estado o garantía según sea nuevo o usado.
+
+### 53. `/generadores/para-casa/`
+- **Title:** Generador eléctrico para casa: qué potencia necesitás
+- **H1:** Cómo elegir un generador eléctrico para tu casa
+- **H2:**
+  - Cómo calcular la potencia
+  - Heladera, luces y aire acondicionado
+  - Inverter o convencional
+  - Modelos según el consumo del hogar
+- **Resumen:** Guía técnica para elegir el generador eléctrico ideal para una casa en Argentina: cálculo de watts continuos y de arranque, heladera, aire acondicionado e inverter vs convencional. Para la casa, listá primero los aparatos indispensables durante un corte, sumá su consumo simultáneo y contemplá el arranque de heladera o bomba. Elegí un generador con potencia continua suficiente y revisá autonomía, ruido y conexión segura.
+
+### 54. `/generadores/inverter/`
+- **Title:** Generador inverter: qué es y cuál elegir
+- **H1:** Generadores inverter: cómo funcionan y cuál comprar
+- **H2:**
+  - Inverter frente a convencional
+  - Cuándo conviene esta tecnología
+  - Cómo elegir la potencia
+  - Comparativa de modelos y precios
+- **Resumen:** Guía técnica sobre generadores inverter en Argentina: qué es la tecnología inverter, distorsión armónica (THD), comparativa frente a convencionales y modelos líderes. Un generador inverter convierte la energía del alternador en corriente continua y luego la reconstruye como salida alterna controlada. Elegilo si esa regulación y el nivel de ruido justifican su costo; compará potencia continua, picos admisibles, autonomía y tomas.
+
+### 55. `/generadores/trifasicos/`
+- **Title:** Generador trifásico: potencia, usos y cómo elegir
+- **H1:** Cómo elegir un generador trifásico
+- **H2:**
+  - Cuándo necesitás alimentación trifásica
+  - Diferencias entre kVA y kW
+  - Distribución de cargas
+  - Modelos según el uso
+- **Resumen:** Guía técnica sobre generadores trifásicos (380V/220V) en Argentina: cuándo conviene, kVA vs kW, balanceo de fases y modelos para talleres e industrias. Elegí un generador trifásico solo si tus equipos necesitan esa alimentación y dimensioná cada fase según las cargas reales. Compará potencia continua, equilibrio de fases, arranques y protecciones antes de instalarlo.
+
+### 56. `/generadores/a-nafta/`
+- **Title:** Generador a nafta: consumo, autonomía y modelos
+- **H1:** Generadores a nafta: cuál conviene comprar
+- **H2:**
+  - Cuánto combustible consumen
+  - Autonomía según la carga
+  - Nafta frente a diésel y gas
+  - Comparativa de modelos
+- **Resumen:** Guía técnica sobre generadores a nafta en Argentina: consumo en litros/hora, autonomía por tamaño de tanque, comparativa frente a diésel y gas, y modelos recomendados. Elegí un generador a nafta sumando las cargas que funcionarán juntas y los picos de arranque de sus motores. Compará potencia continua, autonomía, ruido y tomas de salida, además del precio del equipo.
+
+### 57. `/generadores/hyundai/`
+- **Title:** Generadores Hyundai: modelos, potencia y precios
+- **H1:** Qué generador Hyundai elegir según tu consumo
+- **H2:**
+  - Comparativa de modelos
+  - Potencia nominal y arranque
+  - Consumo y autonomía
+  - Repuestos, garantía y precios
+- **Resumen:** Comparativa técnica de generadores Hyundai en Argentina: modelos HHY3000, HHY7200, línea inverter HY, potencia de arranque, autonomía y servicio postventa. Para elegir un generador Hyundai, calculá el consumo simultáneo de tus equipos y los picos de arranque. Contrastá esos valores con la potencia continua de cada modelo y revisá combustible, autonomía, ruido y salidas.
+
+### 58. `/generadores/gamma-6500/`
+- **Title:** Grupo electrógeno Gamma 6500: guía de compra
+- **H1:** Gamma 6500: versiones, potencia y usos
+- **H2:**
+  - Diferencias entre versiones
+  - Qué aparatos puede alimentar
+  - Consumo y autonomía
+  - Qué revisar antes de comprar
+- **Resumen:** Guía de compra del grupo electrógeno Gamma Elite 6500 en Argentina: versiones con arranque manual y eléctrico, qué artefactos soporta, consumo y qué verificar al comprar. Para evaluar un Gamma 6500, identificá la variante exacta y distinguí potencia continua de potencia máxima. Calculá las cargas simultáneas y los arranques antes de concluir qué puede alimentar; comprobá tomas, combustible y autonomía en la ficha.
+
+### 59. `/generadores/lusqtoff/`
+- **Title:** Generadores Lusqtoff: modelos y qué revisar
+- **H1:** Generadores Lusqtoff: cuál elegir
+- **H2:**
+  - Comparativa de modelos y potencias
+  - Convencionales e inverter
+  - Cómo evaluar opiniones de compradores
+  - Garantía, repuestos y precios
+- **Resumen:** Guía completa sobre generadores Lusqtoff en Argentina: comparativa de modelos (LG2500, LG3500, LG6500, LG2000i), convencionales vs inverter, opiniones y repuestos. Entre generadores Lüsqtoff, elegí el modelo cuya potencia continua cubra tus cargas y sus picos de arranque. Separá convencionales de inverter y comprobá combustible, salidas, autonomía y servicio antes de comparar precios.
+
+### 60. `/generadores/gamma/`
+- **Title:** Generadores Gamma: comparativa de modelos y precios
+- **H1:** Qué generador Gamma comprar según el uso
+- **H2:**
+  - Gama de modelos y diferencias
+  - Potencia para cada necesidad
+  - Consumo y mantenimiento
+  - Comparativa de precios
+- **Resumen:** Comparativa completa de generadores Gamma en Argentina: serie Elite, modelos 950 2T, 2500, 3500 y 6500, consumos, mantenimiento preventivo y precios. Elegí un generador Gamma según la potencia continua que exigen tus cargas y sus picos de arranque. Luego compará modelos concretos por combustible, autonomía, ruido y salidas; el número comercial no reemplaza la ficha técnica.
+
+### 61. `/generadores/monofasicos/`
+- **Title:** Grupo electrógeno monofásico: cómo elegir
+- **H1:** Grupos electrógenos monofásicos: potencia y usos
+- **H2:**
+  - Qué significa monofásico
+  - Cuándo conviene frente a trifásico
+  - Cómo calcular la carga
+  - Modelos para hogares y comercios
+- **Resumen:** Guía técnica sobre grupos electrógenos monofásicos (220V 50Hz) en Argentina: qué significa monofásico, comparativa con trifásico, cálculo de carga y modelos. Un grupo electrógeno monofásico conviene para cargas compatibles con su tensión y potencia de salida. Sumá consumos simultáneos y arranques, y verificá tomas y conexión antes de elegir capacidad.
+
+### 62. `/generadores/diesel/`
+- **Title:** Generador diésel: consumo, ventajas y modelos
+- **H1:** Cómo elegir un generador diésel
+- **H2:**
+  - Cuándo conviene un diésel
+  - Consumo según potencia y carga
+  - Costos de mantenimiento
+  - Modelos monofásicos y trifásicos
+- **Resumen:** Guía técnica sobre generadores diésel en Argentina: cuándo conviene frente a nafta, consumo de gasoil (l/h), costos de mantenimiento y modelos monofásicos y trifásicos. Elegí un generador diésel si la carga, las horas de uso y el mantenimiento justifican ese tipo de motor. Dimensioná potencia continua y arranque, y verificá consumo, ruido, servicio y condiciones de instalación del modelo.
+
+### 63. `/generadores/portatiles/`
+- **Title:** Generador portátil: cuál elegir según el uso
+- **H1:** Generadores portátiles para camping, viajes y trabajo
+- **H2:**
+  - Peso, tamaño y transporte
+  - Potencia y autonomía
+  - Ruido según el entorno
+  - Comparativa de modelos portátiles
+- **Resumen:** Guía de generadores portátiles en Argentina: modelos livianos tipo valija, peso, autonomía en camping y rodados, nivel de ruido y comparativa técnica. Elegí un generador portátil según las cargas que llevarás a camping, viaje u obra y las horas de autonomía necesarias. Compará potencia continua, peso, ruido, combustible y salidas antes de priorizar la facilidad de transporte.
+
+### 64. `/generadores/silenciosos/`
+- **Title:** Generador silencioso: cómo comparar ruido y potencia
+- **H1:** Cómo elegir un generador eléctrico silencioso
+- **H2:**
+  - Cómo comparar los decibeles declarados
+  - Inverter e insonorizados
+  - Ruido según carga y distancia
+  - Modelos para distintas necesidades
+- **Resumen:** Guía técnica sobre generadores silenciosos en Argentina: cómo medir e interpretar los decibeles (dBA a 7m), diferencias entre inverter y cabina insonorizada, y modelos. Para elegir un generador silencioso, compará el ruido declarado bajo condiciones equivalentes y a la carga de uso, además de la potencia continua. Revisá distancia de instalación, autonomía y ventilación; la palabra «silencioso» no sustituye una cifra medible.
+
+### 65. `/generadores/gamma-950/`
+- **Title:** Generador Gamma 950: qué puede alimentar
+- **H1:** Gamma 950: potencia, consumo y limitaciones
+- **H2:**
+  - Potencia nominal del modelo
+  - Qué se puede conectar
+  - Autonomía y mantenimiento
+  - Cuándo conviene elegir uno más potente
+- **Resumen:** Análisis del Gamma 950 GE3441AR: 570 W continuos según Gamma, motor 2 tiempos, usos y límites de este modelo discontinuado. El Gamma 950 debe compararse por potencia continua, combustible, consumo y tipo de carga permitida. Antes de conectarle un aparato con motor, verificá su pico de arranque y las salidas admitidas por el equipo.
+
+### 66. `/generadores/niwa/`
+- **Title:** Generadores Niwa: modelos, diferencias y precios
+- **H1:** Qué generador Niwa elegir
+- **H2:**
+  - Comparativa de la gama
+  - GNW 55 ER frente a GNW 70 ER
+  - Potencia y autonomía
+  - Garantía, repuestos y precios
+- **Resumen:** Guía técnica sobre generadores Niwa en Argentina: comparativa de la gama GNW, análisis frente a frente del GNW-55-ER vs GNW-70-ER, autonomía y servicio postventa. Elegí un Niwa a partir de la potencia continua que requieren tus equipos y los picos de arranque. Confirmá el código de modelo y compará combustible, autonomía, tomas y soporte local.
+
+### 67. `/generadores/a-gas/`
+- **Title:** Generador eléctrico a gas: tipos y cómo elegir
+- **H1:** Generadores a gas: opciones para respaldo eléctrico
+- **H2:**
+  - Gas natural, GLP y equipos duales
+  - Consumo y autonomía
+  - Requisitos de instalación
+  - Modelos y disponibilidad
+- **Resumen:** Guía técnica sobre generadores a gas en Argentina: gas natural de red vs garrafas GLP, kits de conversión dual, consumo, requisitos de instalación y modelos. Un generador a gas sirve como respaldo si su potencia continua y sus picos de arranque cubren las cargas previstas. Antes de elegir, comprobá combustible disponible, instalación, ventilación, mantenimiento y condiciones de servicio del modelo.
+
+### 68. `/generadores/estacion-de-energia-portatil/`
+- **Title:** Estación de energía portátil: capacidad y autonomía
+- **H1:** Cómo elegir una estación de energía portátil
+- **H2:**
+  - Diferencia entre watts y Wh
+  - Cómo calcular la autonomía
+  - Recarga solar y desde la red
+  - Comparativa de EcoFlow, Bluetti y alternativas
+- **Resumen:** Guía sobre estaciones de energía portátiles (solar generators) en Argentina: diferencia entre Watts y Wh, cálculo de autonomía, recarga y marcas EcoFlow vs Bluetti. Elegí una estación de energía portátil por energía útil en Wh, potencia de salida continua y picos que necesitan tus aparatos. Calculá autonomía con las cargas reales y comprobá cómo se recarga; la capacidad nominal por sí sola no asegura horas de uso.
+
+### 69. `/generadores/chicos/`
+- **Title:** Grupo electrógeno chico: Pektra 720 W y Konan 800 W
+- **H1:** Grupos electrógenos chicos: Pektra 720 W y Konan 800 W
+- **H2:**
+  - Dos opciones de baja potencia
+  - Qué puede alimentar un generador chico
+  - Qué revisar antes de comprar
+- **Resumen:** Compará dos grupos electrógenos chicos de 2 tiempos: Pektra 720 W y Konan 800 W. Potencia nominal, usos posibles y límites antes de comprar. Entre un grupo electrógeno chico Pektra de 720 W y uno Konan de 800 W, compará potencia continua verificable, salidas y tipo de carga prevista. Ninguno debe elegirse solo por la cifra máxima del título comercial.  ---  ## <a id="hidrolavadoras"></a>Hidrolavadoras (23 URLs)
+

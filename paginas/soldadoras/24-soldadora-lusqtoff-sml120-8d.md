@@ -2,37 +2,54 @@
 title: "Lusqtoff SML120-8D: ficha de la MIG Flux dual"
 h1: "Lusqtoff SML120-8D: qué revisar en la soldadora y el kit"
 url: "/soldadoras/lusqtoff-sml120-8d/"
-description: "Ficha de compra de la Lusqtoff SML120-8D: rangos Flux y MMA, accesorios incluidos y diferencias entre la máquina y los combos de Mercado Libre."
+description: "Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base."
 author: "Taller Lab"
 category: "Soldadoras y Soldadura"
 keywords: ["lusqtoff sml120 8d", "soldadora lusqtoff sml120-8d", "soldadora mig flux lusqtoff 120a"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Lusqtoff SML120-8D: qué revisar en la soldadora y el kit
 
-La **SML120-8D** es una inverter Lusqtoff con soldadura por alambre Flux y electrodo revestido. El [fabricante](https://www.lusqtoff.com.ar/ver-producto/SML120-8D) indica para Flux un rango de **20 a 120 A**, para MMA **20 a 100 A** y una función Lift TIG de **20 a 100 A**. Estos rangos corresponden a procesos distintos: no debe presentarse la máquina como una MMA de 120 A.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-La publicación «MIG alambre Flux Lusqtoff + antiadherente» que circula en Mercado Libre identifica el modelo SML120-8D, pero existen ofertas y combos con nombres muy parecidos. Compará el código de la publicación con el de la caja y la placa. Si todavía estás eligiendo proceso o marca, consultá [MIG Lusqtoff](/soldadoras/mig-lusqtoff/) y [MIG sin gas](/soldadoras/mig-sin-gas/).
+**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Datos oficiales y límites de la oferta
+## Cómo investigamos esta guía
 
-| Dato de la ficha Lusqtoff | Valor publicado |
-| :--- | :--- |
-| Alimentación | La página del fabricante consigna 200 V, 50 Hz; su manual menciona 220 V. Confirmá la placa de la unidad ofrecida. |
-| Flux | 20 a 120 A |
-| MMA | 20 a 100 A |
-| Lift TIG | 20 a 100 A; requiere confirmar torcha y gas por separado. |
-| Peso | 6,6 kg |
-| Accesorios en ficha de la máquina | Pinza de masa, portaelectrodo, torcha Flux y picos de contacto. |
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-La ficha también anuncia ciclo de trabajo del **25 % a 25 °C**, sin detallar en ese resumen la corriente asociada. No lo conviertas en una promesa de operación continua a 120 A. Para el uso real, consultá la [documentación del equipo](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML120-8D/SML120-8D.pdf) y la etiqueta de la unidad.
+| Referencia | Procesos y rango publicados | Peso de ficha | Accesorios publicados |
+| :--- | :--- | ---: | :--- |
+| SML120-8D, unidad | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 6,6 kg | Pinza de masa, portaelectrodos, torcha Flux y picos de contacto |
+| SML120-8DK, kit | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 8,1 kg | SML120-8D, máscara ST-1X, escuadras LQE-6001 y rollo LQFLUX045, además de pinzas |
 
-## Máquina sola o combo
+**Dato verificado:** las dos páginas oficiales identifican los procesos y rangos de la máquina base. El kit agrega accesorios y declara 1,5 kg más que la unidad suelta; esa diferencia es el cálculo TallerLab entre masas publicadas, no el peso medido de una caja abierta.
 
-Un vendedor puede sumar máscara, alambre, escuadras o aerosol antiadherente. Esos elementos no cambian las prestaciones eléctricas de la SML120-8D. Comprobá diámetro y peso del [alambre Flux](/soldadoras/alambre-flux/) incluido, más la disponibilidad de puntas de contacto compatibles. Confirmá también si la máscara es fotosensible, sus ajustes y si vienen micas de repuesto.
+**Análisis TallerLab:** el sufijo K diferencia una presentación de kit; no cambia los rangos de soldadura publicados para la fuente SML120-8D. El PVP visto en cada página puede variar y no garantiza que un distribuidor entregue el mismo paquete. La ficha de la unidad indica 200 V–50 Hz, por lo que conviene corroborar placa y red disponible antes de comprar.
 
-Para trabajos de herrería con alambre sin cilindro, esta máquina ofrece una entrada compacta al proceso. Si necesitás cordones largos a corrientes elevadas o un equipo con gas para carrocería, compará el ciclo de trabajo y las funciones declaradas con otras [MIG Lusqtoff](/soldadoras/mig-lusqtoff/) antes de decidir.
+**Desconocido:** las fuentes no publican aquí una masa separada para cada accesorio, ni confirman existencias, garantía de una oferta externa o consumibles incluidos más allá de los enumerados. No se comparó rendimiento de cordón ni se probó el equipo.
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
+## Fuentes consultadas
 
-[Ver el kit MIG Flux Lusqtoff con antiadherente en Mercado Libre](https://meli.la/26RsZRw){:target="_blank" rel="sponsored" .btn-mercado-libre}
+- **Documentación primaria:** [Lüsqtoff SML120-8D](https://www.lusqtoff.com.ar/ver-producto/SML120-8D); [Lüsqtoff SML120-8DK](https://lusqtoff.com.ar/ver-producto/SML120-8DK); [catálogo oficial de soldadoras inverter](https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
+
+Para seguir comparando: [comparativa de soldadoras MIG Flux Lüsqtoff por modelo](/soldadoras/mig-lusqtoff/).
+
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+
+Para explorar la categoría: [guías relacionadas](/soldadoras/lusqtoff/).

@@ -6,38 +6,39 @@ description: "Compará caladoras Bosch GST 650, GST 680, GST 75 E y GST 185-LI s
 author: "Taller Lab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra caladora bosch", "caladora bosch", "bosch gst 650", "bosch gst 680", "bosch gst 75 e"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tres códigos Bosch que conviene separar"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Sierra caladora Bosch: comparativa de modelos
 
-La búsqueda «sierra caladora Bosch» reúne máquinas con cable y a batería que sirven para trabajos distintos. Antes de comparar precios, definí qué material vas a cortar, cuánto tiempo la usarás y si ya tenés baterías Bosch Professional. Esta página ordena modelos con ficha oficial disponible en Argentina; los datos de capacidad y accesorios corresponden a la variante enlazada y pueden cambiar si el vendedor ofrece otro código.
+Comparamos fichas argentinas de GST 650, GST 680 y GST 185-LI. Una publicación de GST 75 E no debe usarse para completar los datos de estas variantes.
 
-Si todavía estás decidiendo qué características importan en cualquier marca, empezá por la [guía de sierras caladoras](/sierras/caladoras/). Aquí nos concentramos en la gama Bosch.
+## Tres códigos Bosch que conviene separar
 
-## Qué modelos Bosch comparar
-
-| Modelo | Alimentación | Dato publicado por Bosch | Decisión de compra |
+| Dato verificado | GST 650 | GST 680 | GST 185-LI |
 | :--- | :--- | :--- | :--- |
-| [GST 650](https://www.bosch-professional.com/ar/es/products/gst-650-06015A80H0) | Cable | 450 W; 800–3.100 carreras/min | Opción compacta para uso ocasional y cortes de menor exigencia. |
-| [GST 680](https://www.bosch-professional.com/ar/es/products/gst-680-06015B40H0) | Cable | 500 W; base inclinable hasta 45° | Paso intermedio si querés regulación de velocidad y mayor margen de potencia. |
-| [GST 75 E](https://www.bosch-professional.com/ar/es/products/gst-8000-e-060158H0H0) | Cable | 710 W; cuatro posiciones orbitales | Para quien usa la caladora con frecuencia y necesita alternar cortes rápidos y cuidadosos. |
-| [GST 185-LI](https://www.bosch-professional.com/ar/es/products/gst-185-li-06015B30E1) | Batería 18 V | Motor sin carbones; capacidad publicada de 125 mm en madera | Para trabajar sin cable, sobre todo si ya usás la plataforma Bosch Professional 18 V. |
+| Alimentación | Cable | Cable | Batería 18 V |
+| Potencia absorbida declarada | 450 W | 500 W | No comparable en W de red |
+| Carrera | 18 mm | 20 mm | Consultar ficha de variante |
+| Peso publicado | 1,9 kg | 2,07 kg | Consultar ficha de variante |
 
-Los watts de los modelos con cable no se comparan directamente con los 18 V de la inalámbrica. Tampoco equivalen a la calidad del corte: la hoja, el movimiento orbital, el apoyo de la base y el material cambian el resultado.
+**Análisis TallerLab.** Entre las dos máquinas con cable hay 50 W y 2 mm de diferencia en los valores publicados. Eso no demuestra una mejora visible en cada material: elección de hoja, velocidad y soporte de la pieza también intervienen. La GST 185-LI responde a otra decisión: acceso a una plataforma de baterías de 18 V. Su ficha argentina muestra una variante en caja con una hoja; no asumimos que incluya batería y cargador.
 
-## Cómo elegir según el trabajo
+**Declaración del fabricante.** Bosch atribuye a la GST 680 una rueda de preselección de velocidad y protección contra astillas en el kit indicado. Es una prestación declarada, no una medición de calidad de corte de TallerLab.
 
-Para **madera y MDF de espesor moderado**, una GST 650 o GST 680 puede cubrir tareas esporádicas si elegís la hoja correcta y no forzás el avance. Si vas a hacer cortes frecuentes o necesitás regular el péndulo según el acabado, la GST 75 E ofrece más opciones de ajuste. La GST 185-LI evita el cable, pero su costo real depende de que la publicación incluya batería y cargador o de que ya los tengas.
+**Desconocido.** No se cotejó la GST 75 E de la descripción histórica con una ficha argentina vigente. Confirmá código de pedido, contenido y garantía antes de aplicar la comparación a una oferta.
 
-En **melamina**, una hoja adecuada, un apoyo firme y una prueba sobre un sobrante importan más que comprar la máquina de mayor potencia. Para cortes rectos largos o dimensionado repetitivo de placas, puede convenirte otra herramienta; compará una [sierra circular de mano](/sierras/circulares/) o una [sierra de banco](/sierras/de-banco/).
+## Fuentes consultadas
 
-## Qué revisar antes de comprar
+- **Documentación primaria:** [Bosch GST 650](https://www.bosch-professional.com/ar/es/products/gst-650-06015A80H0); [Bosch GST 680](https://www.bosch-professional.com/ar/es/products/gst-680-06015B40H0); [Bosch GST 185-LI](https://www.bosch-professional.com/ar/es/products/gst-185-li-06015B30E1).
+- **Opiniones:** no se revisó una muestra verificable.
 
-1. **Código de variante y tensión.** Contrastá el código de la publicación con la ficha oficial argentina, especialmente en modelos con cable.
-2. **Kit inalámbrico.** En la GST 185-LI comprobá si recibís cuerpo solo, batería y cargador; no supongas que la foto muestra todo lo incluido.
-3. **Hojas y accesorios.** Verificá qué hoja trae la caja y cuál necesitás para madera, melamina o metal. Bosch detalla los accesorios incluidos por variante.
-4. **Uso real.** Si el trabajo es ocasional, compará también las [caladoras Skil](/sierras/caladoras-skil/) y [Einhell](/sierras/caladoras-einhell/) antes de pagar por funciones que no vas a usar.
-
-Esta comparativa utiliza fichas publicadas por Bosch; no es una prueba de taller. Confirmá stock, precio y garantía local con el vendedor antes de comprar.
-
-[Ver caladoras Bosch en Mercado Libre](https://listado.mercadolibre.com.ar/sierra-caladora-bosch){:target="_blank" rel="noopener noreferrer" .btn-mercado-libre}
+[Ver todas las guías de sierras](/sierras/).

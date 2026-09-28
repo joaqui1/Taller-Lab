@@ -1,0 +1,543 @@
+## Hidrolavadoras (23 URLs)
+
+### 70. `/hidrolavadoras/comparativa-general/`
+- **Title:** Hidrolavadoras: cuál comprar según uso y presupuesto
+- **H1:** Cómo elegir una hidrolavadora para tu casa o trabajo
+- **H2:**
+  - Qué tener en cuenta antes de comprar
+  - Presión, caudal y motor: qué importa
+  - Comparativa de marcas y precios
+  - Qué elegir para auto, patio o trabajo
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre hidrolavadoras en Argentina: presión bar vs psi, caudal, motores a inducción vs carbones, comparativa de marcas y precios. Elegí una hidrolavadora por la superficie y frecuencia de uso: compará presión de trabajo, caudal, tipo de bomba y accesorios.
+
+### 71. `/hidrolavadoras/inalambricas/`
+- **Title:** Hidrolavadora inalámbrica: comparativa y guía de compra
+- **H1:** Qué hidrolavadora inalámbrica comprar y para qué sirve
+- **H2:**
+  - Inalámbrica o eléctrica con cable
+  - Presión real, autonomía y baterías
+  - Modelos portátiles y autocebantes
+  - Cuándo conviene y cuáles son sus límites
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre hidrolavadoras inalámbricas a batería en Argentina: presión real (bar/psi), autonomía, sistemas autocebantes y comparativa frente a modelos con cable. Una hidrolavadora inalámbrica sirve para enjuagues y limpieza móvil cuando no tenés una toma cercana; elegila por caudal, presión de trabajo, autonomía y fuente de agua.
+
+### 72. `/hidrolavadoras/lusqtoff/`
+- **Title:** Hidrolavadoras Lusqtoff: modelos y cuál elegir
+- **H1:** Qué hidrolavadora Lusqtoff elegir según el uso
+- **H2:**
+  - Comparativa de la gama Lusqtoff
+  - Diferencias entre HL 120 y HL 150
+  - Repuestos, accesorios y garantía
+  - Cuándo elegir otra marca
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre hidrolavadoras Lusqtoff en Argentina: comparativa de modelos HL 120, HL 150, HL 160 y nafteras, repuestos y cuál comprar. Elegí una Lüsqtoff según la superficie y el ritmo de limpieza, identificando el código exacto de cada modelo.
+
+### 73. `/hidrolavadoras/gamma/`
+- **Title:** Hidrolavadoras Gamma: comparativa de modelos y precios
+- **H1:** Qué hidrolavadora Gamma comprar
+- **H2:**
+  - Comparativa de modelos Gamma
+  - Diferencias entre 127, 130, 150 y 170
+  - Qué modelo elegir según el trabajo
+  - Repuestos y aspectos a revisar
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Comparativa técnica de hidrolavadoras Gamma en Argentina por Taller Lab: diferencias entre modelos 127, 130, 150 y 170, presiones, repuestos y precios. Entre hidrolavadoras Gamma, elegí según superficie y frecuencia de limpieza, no por el número del nombre.
+
+### 74. `/hidrolavadoras/stihl/`
+- **Title:** Hidrolavadoras Stihl: modelos, diferencias y precios
+- **H1:** Cómo elegir una hidrolavadora Stihl
+- **H2:**
+  - Comparativa de modelos de la línea RE
+  - Qué elegir según frecuencia de uso
+  - Accesorios, repuestos y servicio técnico
+  - Stihl frente a otras marcas
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre hidrolavadoras Stihl línea RE en Argentina: comparativa RE 80 a RE 130 Plus, bombas de aluminio y latón, repuestos y precios. Elegí una Stihl según superficie y frecuencia de limpieza, comprobando presión de trabajo y caudal de la variante.
+
+### 75. `/hidrolavadoras/bosch/`
+- **Title:** Hidrolavadoras Bosch: comparativa y guía de compra
+- **H1:** Qué hidrolavadora Bosch elegir para casa y auto
+- **H2:**
+  - Modelos Bosch y diferencias
+  - Presión y caudal según el uso
+  - Accesorios incluidos y opcionales
+  - Qué revisar antes de comprar
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de hidrolavadoras Bosch en Argentina por Taller Lab: comparativa EasyAquatak, UniversalAquatak y AdvancedAquatak, bombas metálicas y accesorios. Para casa y auto, compará las Bosch por presión de trabajo, caudal, longitud de manguera y accesorios útiles para cada superficie.
+
+### 76. `/hidrolavadoras/black-decker/`
+- **Title:** Hidrolavadoras Black+Decker: cuál conviene comprar
+- **H1:** Qué hidrolavadora Black+Decker elegir
+- **H2:**
+  - Comparativa de modelos y potencia
+  - Qué ofrece la versión de 1300 W
+  - Usos recomendados y limitaciones
+  - Accesorios, repuestos y garantía
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía de compra de hidrolavadoras Black+Decker en Argentina: comparativa de modelos de 1300W a 2000W, potencias, presiones, repuestos y garantía. Elegí una hidrolavadora Black+Decker según superficie, frecuencia de limpieza, presión de trabajo y caudal.
+
+### 77. `/hidrolavadoras/karcher-k2/`
+- **Title:** Kärcher K2: versiones, prestaciones y guía de compra
+- **H1:** Hidrolavadora Kärcher K2: cuál elegir y para qué sirve
+- **H2:**
+  - Diferencias entre versiones y kits
+  - Qué trabajos puede hacer
+  - Cómo usarla y revisar la falta de presión
+  - K2 o K3: cuándo conviene cada una
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de la hidrolavadora Kärcher K2 en Argentina por Taller Lab: versiones Compact, Basic, Car y Home, prestaciones, solución a falta de presión y K2 vs K3. Una Kärcher K2 conviene para tareas domésticas compatibles con su caudal y presión de trabajo.
+
+### 78. `/hidrolavadoras/karcher-k5/`
+- **Title:** Kärcher K5: prestaciones y cuándo conviene comprarla
+- **H1:** Hidrolavadora Kärcher K5: guía de compra
+- **H2:**
+  - Versiones y equipamiento incluido
+  - Presión, caudal y usos recomendados
+  - K5 frente a K4
+  - Qué revisar para justificar la diferencia de precio
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de la hidrolavadora Kärcher K5 en Argentina por Taller Lab: motor refrigerado por agua, bomba de aluminio, K5 vs K4, presiones y cuándo comprarla. Una Kärcher K5 tiene sentido si las tareas y la frecuencia de uso justifican una gama superior.
+
+### 79. `/hidrolavadoras/gamma-150/`
+- **Title:** Gamma 150: características, uso y guía de compra
+- **H1:** Hidrolavadora Gamma 150: qué revisar antes de comprar
+- **H2:**
+  - Cómo identificar la versión exacta
+  - Prestaciones y usos recomendados
+  - Cómo conectarla y utilizarla
+  - Gamma 150 frente a Gamma 130
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de la hidrolavadora Gamma 150 en Argentina: código G2578AR, 2000W, 150 bar, ficha técnica, conexión eléctrica y comparativa con Gamma 130. Antes de comprar una Gamma 150, confirmá qué modelo identifica el aviso y qué presión y caudal declara su ficha.
+
+### 80. `/hidrolavadoras/profesionales/`
+- **Title:** Hidrolavadora profesional: cómo elegir para trabajar
+- **H1:** Qué hidrolavadora profesional comprar para trabajar
+- **H2:**
+  - Profesional, industrial o doméstica
+  - Caudal, motor y régimen de trabajo
+  - Qué necesita un lavadero de autos
+  - Agua fría o caliente y mantenimiento
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica para elegir una hidrolavadora profesional en Argentina: régimen de trabajo, motores de baja velocidad (1450 RPM), cabezales de latón y lavaderos. Para trabajo profesional, elegí una hidrolavadora por horas de uso, caudal sostenido, presión de trabajo y posibilidad de servicio.
+
+### 81. `/hidrolavadoras/karcher-k3/`
+- **Title:** Kärcher K3: versiones y diferencias con K2 y K4
+- **H1:** Hidrolavadora Kärcher K3: cuándo conviene elegirla
+- **H2:**
+  - Versiones y accesorios incluidos
+  - Usos y frecuencia de trabajo
+  - Diferencias frente a K2 y K4
+  - Mantenimiento y repuestos
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre la hidrolavadora Kärcher K3 en Argentina por Taller Lab: comparativa K3 vs K2 vs K4, presiones, caudal, accesorios y cuándo conviene comprarla. Considerá una Kärcher K3 cuando tus tareas domésticas piden más capacidad que la opción básica de la gama, pero verificá presión de trabajo, caudal y accesorios de la variante.
+
+### 82. `/hidrolavadoras/einhell/`
+- **Title:** Hidrolavadoras Einhell: modelos y guía de compra
+- **H1:** Qué hidrolavadora Einhell comprar
+- **H2:**
+  - Comparativa de modelos eléctricos
+  - Opciones inalámbricas y baterías compatibles
+  - Qué elegir según el uso
+  - Accesorios, repuestos y garantía
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de hidrolavadoras Einhell en Argentina por Taller Lab: comparativa TE-HP y TC-HP, modelos a batería Power X-Change de 18V, presiones y garantía. Elegí una Einhell según la tarea, la alimentación y el código exacto del modelo.
+
+### 83. `/hidrolavadoras/gamma-130/`
+- **Title:** Gamma 130: prestaciones y diferencias con Gamma 150
+- **H1:** Hidrolavadora Gamma 130: guía para elegirla
+- **H2:**
+  - Modelo exacto y ficha técnica
+  - Para qué tareas alcanza
+  - Gamma 130 frente a Gamma 150
+  - Uso, mantenimiento y accesorios
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de la hidrolavadora Gamma 130 en Argentina por Taller Lab: código G2577AR, 1600W, ficha técnica, usos, mantenimiento y comparativa con Gamma 150. Para evaluar una Gamma 130, verificá el código exacto y distinguí presión máxima de presión de trabajo.
+
+### 84. `/hidrolavadoras/hyundai/`
+- **Title:** Hidrolavadoras Hyundai: modelos y cuál comprar
+- **H1:** Qué hidrolavadora Hyundai elegir
+- **H2:**
+  - Modelos y diferencias de prestaciones
+  - Qué revisar en presión, caudal y motor
+  - Accesorios y disponibilidad de repuestos
+  - Alternativas de precio similar
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre hidrolavadoras Hyundai en Argentina por Taller Lab: comparativa de modelos HYAC y HYPW, presiones, caudal, repuestos y alternativas. Elegí una hidrolavadora Hyundai por superficie, frecuencia de uso y código de modelo.
+
+### 85. `/hidrolavadoras/lusqtoff-hl-120/`
+- **Title:** Lusqtoff HL 120: prestaciones y guía de compra
+- **H1:** Hidrolavadora Lusqtoff HL 120: para quién conviene
+- **H2:**
+  - Ficha técnica y accesorios incluidos
+  - Usos domésticos y limitaciones
+  - Qué revisar en las opiniones de compradores
+  - HL 120 frente a HL 150
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de la hidrolavadora Lusqtoff HL 120 en Argentina por Taller Lab: ficha técnica, 1200W, accesorios, opiniones reales y comparativa con HL 150. La Lüsqtoff HL-120 conviene para limpieza doméstica ligera si sus 70 bar de trabajo y 5,5 l/min declarados alcanzan para tu tarea.
+
+### 86. `/hidrolavadoras/karcher-k4/`
+- **Title:** Kärcher K4: versiones y diferencias con K3 y K5
+- **H1:** Hidrolavadora Kärcher K4: guía de compra
+- **H2:**
+  - Versiones y equipamiento
+  - Para qué usos conviene
+  - Diferencias frente a K3 y K5
+  - Accesorios y mantenimiento
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre la hidrolavadora Kärcher K4 en Argentina por Taller Lab: motor refrigerado por agua, bomba bimetálica, K4 vs K3 vs K5 y accesorios. Para decidir si una Kärcher K4 conviene, compará superficie, frecuencia de limpieza y datos de presión y caudal de la variante exacta.
+
+### 87. `/hidrolavadoras/150-bar/`
+- **Title:** Hidrolavadoras de 150 bar: comparativa y cómo elegir
+- **H1:** Qué hidrolavadora de 150 bar comprar
+- **H2:**
+  - Presión máxima frente a presión de trabajo
+  - Caudal y motor: cómo comparar equipos
+  - Modelos de 150 bar y usos recomendados
+  - Cuándo alcanza una de menor presión
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre hidrolavadoras de 150 bar en Argentina por Taller Lab: presión máxima vs trabajo, caudal, motores de 2000W a 2500W, comparativa y modelos. Para elegir una hidrolavadora anunciada de 150 bar, comprobá si esa cifra es máxima o de trabajo y compará caudal, bomba y tiempo de uso previsto.
+
+### 88. `/hidrolavadoras/200-bar/`
+- **Title:** Hidrolavadoras de 200 bar: cuándo convienen
+- **H1:** Cómo elegir una hidrolavadora de 200 bar
+- **H2:**
+  - Cómo comprobar la presión declarada
+  - Caudal, alimentación y régimen de trabajo
+  - Modelos y aplicaciones exigentes
+  - Cuándo conviene elegir 150 bar
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre hidrolavadoras de 200 bar en Argentina por Taller Lab: presión real vs declarada, caudal, alimentación nafta vs trifásica y aplicaciones exigentes. Una hidrolavadora de 200 bar solo conviene si el trabajo exige esa presión y el caudal y la bomba permiten sostenerla.
+
+### 89. `/hidrolavadoras/niwa/`
+- **Title:** Hidrolavadoras Niwa: modelos, opiniones y compra
+- **H1:** Qué hidrolavadora Niwa elegir y qué revisar
+- **H2:**
+  - Modelos Niwa y diferencias
+  - Para qué usos conviene cada equipo
+  - Opiniones: ventajas y problemas reportados
+  - Repuestos, accesorios y alternativas
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica sobre hidrolavadoras Niwa en Argentina por Taller Lab: comparativa modelos eléctricos y nafteros HNW, opiniones de compradores y repuestos. Para comparar hidrolavadoras Niwa, separá equipos eléctricos de los de motor a combustión y elegí según tarea y frecuencia.
+
+### 90. `/hidrolavadoras/karcher/`
+- **Title:** Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar
+- **H1:** Qué hidrolavadora Kärcher comprar: comparativa de modelos K2 a K5
+- **H2:**
+  - Comparativa de la gama Kärcher: K2, K3, K4 y K5
+  - Diferencias mecánicas: motor, bomba y refrigeración
+  - Qué modelo Kärcher elegir según el uso
+  - Tecnologías clave, repuestos y lanzas
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de hidrolavadoras Kärcher en Argentina por Taller Lab: comparativa entre K2, K3, K4 y K5, bombas N-Cor vs aluminio, motores y precios. Para elegir entre Kärcher K2, K3, K4 y K5, definí primero superficie y frecuencia de limpieza.
+
+### 91. `/hidrolavadoras/para-autos/`
+- **Title:** Hidrolavadoras para autos: equipos y combos para elegir
+- **H1:** Qué hidrolavadora comprar para lavar el auto
+- **H2:**
+  - Qué revisar antes de elegir
+  - Equipos y combos para comparar
+  - Cómo lavar sin dañar el vehículo
+- **Resumen:** Guía de compra de hidrolavadoras para autos en Argentina: presión, caudal, largo de manguera y combos con aspiradora para limpieza interior y exterior. Para lavar el auto en casa, priorizá un chorro regulable, caudal suficiente y una manguera que alcance ambos lados del vehículo; no persigas la presión máxima más alta.
+
+### 92. `/hidrolavadoras/hidrolavadora-para-aire-acondicionado/`
+- **Title:** Hidrolavadora para aire acondicionado: qué revisar
+- **H1:** Cómo elegir una hidrolavadora para aire acondicionado
+- **H2:**
+  - Qué comprobar en la publicación
+  - Unidad interior y unidad exterior: necesidades diferentes
+  - Publicación para revisar
+  - Cuidados al limpiar
+- **Resumen:** Guía para elegir una hidrolavadora para aire acondicionado: chorro regulable, acceso, drenaje y cuidados de aletas y componentes eléctricos. Para limpiar un aire acondicionado, priorizá un chorro controlable y accesorios que permitan trabajar sin mojar componentes eléctricos.
+
+## Sierras e Ingletadoras (29 URLs)
+
+### 93. `/sierras/circulares/`
+- **Title:** Sierra circular: cuál elegir según uso y presupuesto
+- **H1:** Cómo elegir una sierra circular para tus trabajos
+- **H2:**
+  - Qué materiales y espesores necesitás cortar
+  - Potencia, disco y profundidad de corte
+  - Comparativa por presupuesto
+  - Precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras circulares: potencia (W), diámetro de disco (7-1/4\"), profundidad de corte a 90° y 45°, comparativa y precios. Para elegir una sierra circular, definí material y espesor máximos y comprobá que la profundidad de corte a 90° y 45° alcance.
+
+### 94. `/sierras/sensitivas/`
+- **Title:** Sensitiva: qué es y cuál comprar para cortar metal
+- **H1:** Cómo elegir una sensitiva para cortar metal
+- **H2:**
+  - Para qué sirve y qué puede cortar
+  - Diferencias con una ingletadora
+  - Disco, potencia y capacidad de corte
+  - Modelos y precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras sensitivas de banco para metal: disco abrasivo de 14\", potencia en watts, capacidad de corte en perfiles y precios. Elegí una sensitiva por el metal y la sección que vas a cortar repetidamente.
+
+### 95. `/sierras/sable/`
+- **Title:** Sierra sable: para qué sirve y cuál elegir
+- **H1:** Sierra sable: guía de usos y compra
+- **H2:**
+  - Qué podés cortar con una sierra sable
+  - Con cable o a batería
+  - Cómo elegir la hoja según el material
+  - Comparativa y precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras sable: para qué sirve, con cable vs batería, selección de hojas de corte para metal, madera y demolición. Una sierra sable conviene para cortes de demolición o en lugares de difícil acceso; elegí hoja, carrera y alimentación según material y espesor.
+
+### 96. `/sierras/caladoras/`
+- **Title:** Sierra caladora: cómo elegir y qué modelos comparar
+- **H1:** Cómo elegir una sierra caladora para madera y metal
+- **H2:**
+  - Qué trabajos permite hacer
+  - Potencia, velocidad y movimiento pendular
+  - Hojas para madera, melamina y metal
+  - Caladoras disponibles para comparar
+- **Resumen:** Guía técnica de Taller Lab sobre sierras caladoras de banco y de mano: potencia en W, movimiento pendular, hojas con encastre T y precios. Elegí una sierra caladora por material, espesor y si harás cortes rectos o curvos.
+
+### 97. `/sierras/sierra-sin-fin-para-madera/`
+- **Title:** Sierra sin fin para madera: cómo elegir la adecuada
+- **H1:** Qué sierra sin fin para madera comprar
+- **H2:**
+  - Altura de corte y ancho de garganta
+  - Qué cinta elegir según el trabajo
+  - Nueva o usada: qué revisar
+  - Comparativa y precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras sin fin para madera de banco y pie: altura de corte, ancho de garganta, cintas dentadas y precios. Elegí una sierra sin fin para madera por altura de corte, ancho de garganta y piezas que trabajarás.
+
+### 98. `/sierras/de-banco/`
+- **Title:** Sierra de banco: cuál elegir para tu taller
+- **H1:** Cómo elegir una sierra de banco para madera
+- **H2:**
+  - Sierra de banco, circular e ingletadora: diferencias
+  - Mesa, guía paralela y capacidad de corte
+  - Qué revisar para cortar melamina
+  - Modelos en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras de banco para madera: guía paralela, capacidad de corte, corte de melamina sin astillar y modelos. Elegí una sierra de banco según tamaño de tableros, profundidad de corte y precisión de la guía.
+
+### 99. `/sierras/sin-fin-metal/`
+- **Title:** Sierra sin fin para metal: tipos y cómo elegir
+- **H1:** Cómo elegir una sierra sin fin para metal
+- **H2:**
+  - Horizontal o vertical: cuál necesitás
+  - Capacidad para tubos, perfiles y macizos
+  - Velocidad y cinta según el material
+  - Opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras sin fin para metal: horizontales vs verticales, corte de tubos y perfiles, lubricación y cintas bimetálicas. Elegí una sierra sin fin para metal según sección, material y número de cortes por jornada.
+
+### 100. `/sierras/ingletadoras-einhell/`
+- **Title:** Ingletadora Einhell: modelos y cuál conviene elegir
+- **H1:** Qué ingletadora Einhell elegir según tus trabajos
+- **H2:**
+  - Diferencias entre modelos
+  - Fija o telescópica según el ancho de corte
+  - Qué revisar antes de comprar
+  - Comparativa de precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre ingletadoras Einhell fijas y telescópicas: TC-MS 2112 vs TE-SM 2131 Dual, capacidades, ajustes y precios. Entre ingletadoras Einhell, definí ancho de pieza, material y ángulos de corte; luego compará capacidad, disco, mesa y protecciones.
+
+### 101. `/sierras/de-banco-einhell/`
+- **Title:** Sierra de banco Einhell: comparativa y guía de compra
+- **H1:** Qué sierra de banco Einhell elegir para tu taller
+- **H2:**
+  - Modelos y capacidad de corte
+  - Mesa, guía paralela y ajustes
+  - Limitaciones según el trabajo
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras de banco Einhell: TC-TS 2025/2 eco vs TE-CC 250 UF, potencia, guía paralela, ajustes y precios. Elegí una sierra de banco Einhell por tamaño de piezas, profundidad de corte, mesa y estabilidad.
+
+### 102. `/sierras/caladoras-skil/`
+- **Title:** Caladora Skil: modelos, diferencias y cuál elegir
+- **H1:** Cómo elegir una caladora Skil
+- **H2:**
+  - Comparativa de modelos
+  - Potencia, regulación y corte pendular
+  - Hojas compatibles según el material
+  - Precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras caladoras Skil: modelos 4380 vs 4550, potencia en watts, acción pendular, hojas compatibles y precios. Para elegir una caladora Skil, definí material y espesor, y compará velocidad, movimiento pendular, tipo de hoja y estabilidad de la base.
+
+### 103. `/sierras/guia-para-sierra-circular/`
+- **Title:** Guía para sierra circular: tipos y compatibilidad
+- **H1:** Cómo elegir una guía para sierra circular
+- **H2:**
+  - Guía paralela, regla y riel: diferencias
+  - Cómo comprobar la compatibilidad
+  - Longitud, sujeción y precisión
+  - Guías para comprar en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre guías para sierra circular: guía paralela vs regla vs riel de inmersión, sistemas universales Kreg y Wolfcraft. Elegí una guía que pueda fijarse con firmeza a la pieza y sea compatible con la base de tu sierra circular.
+
+### 104. `/sierras/sensitivas-dewalt/`
+- **Title:** Sensitiva DeWalt: modelos y guía de compra
+- **H1:** Sensitiva DeWalt: qué modelo elegir
+- **H2:**
+  - Modelos y versión que estás comparando
+  - Capacidad de corte y disco compatible
+  - Qué revisar según la frecuencia de uso
+  - Precios en Mercado Libre
+- **Resumen:** Qué revisar al elegir una sensitiva DeWalt en Argentina: modelo D28730, disco de 355 mm, morsa, capacidad de corte y accesorios. Elegí una sensitiva DeWalt por material, sección de la pieza y capacidad de corte, no solo por potencia.
+
+### 105. `/sierras/ingletadoras-dewalt/`
+- **Title:** Ingletadora DeWalt: comparativa y guía de compra
+- **H1:** Qué ingletadora DeWalt elegir
+- **H2:**
+  - Modelos fijos y telescópicos
+  - Capacidad de corte, inglete y bisel
+  - Cuándo conviene cada modelo
+  - Comparativa de precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre ingletadoras DeWalt: modelos fijos DWS713 vs telescópicos DWS779 / DWS780, sistema XPS, bisel y precios. Elegí una ingletadora DeWalt por ancho y alto de las piezas, ángulos requeridos y capacidad de corte real.
+
+### 106. `/sierras/ingletadoras-total/`
+- **Title:** Ingletadora Total: modelos y qué revisar al comprar
+- **H1:** Cómo elegir una ingletadora Total
+- **H2:**
+  - Diferencias entre modelos
+  - Disco, potencia y ancho de corte
+  - Qué revisar en ajustes y accesorios
+  - Precios y opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre ingletadoras Total Tools: modelos fijos de 8\", 10\" y telescópicas, potencia, capacidad de corte y precios. Elegí una ingletadora Total según la sección del material y los ángulos que necesitás cortar.
+
+### 107. `/sierras/disco-para-sierra-circular/`
+- **Title:** Disco para sierra circular: cuál usar para cada corte
+- **H1:** Cómo elegir un disco para sierra circular
+- **H2:**
+  - Diámetro, eje y RPM compatibles
+  - Cantidad de dientes y calidad del corte
+  - Discos para madera, melamina y otros materiales
+  - Opciones en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre discos para sierra circular: diámetro (7-1/4\", 10\"), eje y bujes, cantidad de dientes (24T a 80T), ATB vs TCG y precios. Elegí el disco de sierra circular por material, diámetro y eje admitidos por la máquina, además del acabado buscado.
+
+### 108. `/sierras/bosch-gks-150/`
+- **Title:** Bosch GKS 150: características y cuándo conviene
+- **H1:** Sierra circular Bosch GKS 150: guía antes de comprar
+- **H2:**
+  - Ficha técnica y capacidad de corte
+  - Para qué trabajos conviene
+  - Limitaciones, disco y accesorios
+  - Qué incluye y cuánto cuesta en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre la sierra circular Bosch GKS 150: motor de 1500W, capacidad a 90° y 45°, disco Eco for Wood y precios en Argentina. Antes de comprar una Bosch GKS 150, confirmá el código y compará profundidad de corte, disco admitido, peso y equipamiento con el material que vas a cortar.
+
+### 109. `/sierras/circulares-black-decker/`
+- **Title:** Sierra circular Black+Decker: qué modelo elegir
+- **H1:** Cómo elegir una sierra circular Black+Decker
+- **H2:**
+  - Diferencias entre modelos
+  - Potencia, disco y profundidad de corte
+  - Para qué trabajos conviene cada una
+  - Precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras circulares Black+Decker: modelos CS1004 vs CS1024, potencias de 1400W a 1500W, profundidad y precios. Elegí una circular Black+Decker según material y espesor, verificando profundidad de corte a 90° y 45°, disco compatible y base.
+
+### 110. `/sierras/caladoras-einhell/`
+- **Title:** Caladora Einhell: modelos con cable y a batería
+- **H1:** Qué caladora Einhell elegir
+- **H2:**
+  - Comparativa de modelos
+  - Con cable o inalámbrica según el uso
+  - Hojas, movimiento pendular y capacidad de corte
+  - Precios y kits en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre caladoras Einhell: modelos con cable TC-JS 80/85 vs inalámbricas a batería Power X-Change TE-JS 18 Li y precios. Elegí una caladora Einhell por el material y tipo de corte, comprobando velocidad, acción pendular, hoja compatible y profundidad admitida.
+
+### 111. `/sierras/sierra-sable-inalambrica/`
+- **Title:** Sierra sable inalámbrica: cómo elegir y comparar
+- **H1:** Qué sierra sable inalámbrica comprar
+- **H2:**
+  - Modelos compactos y de dos manos
+  - Batería, autonomía y plataforma compatible
+  - Máquina sola o kit con batería y cargador
+  - Comparativa en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras sable inalámbricas a batería (18V/20V): compactas de una mano vs dos manos, motores brushless y precios. Una sierra sable inalámbrica conviene cuando necesitás movilidad para cortes de demolición o acceso difícil.
+
+### 112. `/sierras/circulares-lusqtoff/`
+- **Title:** Sierra circular Lusqtoff: modelos y guía de compra
+- **H1:** Qué sierra circular Lusqtoff elegir
+- **H2:**
+  - Diferencias entre modelos
+  - Potencia, disco y profundidad de corte
+  - Qué revisar antes de comprar
+  - Comparativa de precios en Mercado Libre
+- **Resumen:** Guía técnica de Taller Lab sobre sierras circulares Lusqtoff: modelo CS1500-8 vs versiones a batería, potencia, capacidad de corte y precios. Entre circulares Lüsqtoff, elegí por el material y la profundidad de corte que pide tu trabajo.
+
+### 113. `/sierras/ingletadoras/`
+- **Title:** Ingletadoras: cómo elegir entre fija y telescópica
+- **H1:** Ingletadoras: cuál elegir según el corte y el material
+- **H2:**
+  - Fija o telescópica: la decisión principal
+  - Disco, inglete y bisel
+  - Cuándo conviene otra sierra
+  - Qué modelos comparar en Argentina
+- **Resumen:** Guía para elegir una ingletadora en Argentina: diferencias entre fija y telescópica, capacidad de corte, disco, bisel y modelos a comparar. Elegí una ingletadora por material, sección de la pieza y ángulos necesarios.
+
+### 114. `/sierras/sierra-caladora-bosch/`
+- **Title:** Sierra caladora Bosch: qué modelo elegir en Argentina
+- **H1:** Sierra caladora Bosch: comparativa de modelos
+- **H2:**
+  - Qué modelos Bosch comparar
+  - Cómo elegir según el trabajo
+  - Qué revisar antes de comprar
+- **Resumen:** Compará caladoras Bosch GST 650, GST 680, GST 75 E y GST 185-LI según potencia, batería, regulación y tipo de trabajo. Entre caladoras Bosch, elegí según material y espesor, control de velocidad, movimiento pendular y hoja compatible.
+
+### 115. `/sierras/sierra-circular-dewalt-dwe560/`
+- **Title:** DeWalt DWE560: ficha y guía de compra en Argentina
+- **H1:** Sierra circular DeWalt DWE560: qué revisar antes de comprar
+- **H2:**
+  - Datos publicados para la DWE560-AR
+  - Para qué trabajos puede convenir
+  - Comparación de compra: DWE560, GKS 150 y SC16
+  - Lista de verificación antes de pagar
+- **Resumen:** Datos oficiales de la DeWalt DWE560-AR y criterios de compra: potencia, disco, bisel, accesorios y usos frente a otras sierras. Antes de comprar la DeWalt DWE560, comprobá que su profundidad de corte, disco y base sirvan para tus piezas.
+
+### 116. `/sierras/stanley-sc16/`
+- **Title:** Stanley SC16: ficha y qué comprobar antes de comprar
+- **H1:** Sierra circular Stanley SC16: guía de compra
+- **H2:**
+  - Qué publica Stanley sobre la SC16-AR
+  - Disco y guía: dos comprobaciones importantes
+  - Cuándo elegirla frente a otra circular
+  - Qué pedirle al vendedor
+- **Resumen:** Guía de la Stanley SC16-AR de 1. 600 W: disco, capacidad de corte, accesorios y datos que conviene verificar en la variante argentina.
+
+### 117. `/sierras/caladoras-black-decker/`
+- **Title:** Caladoras Black+Decker: BES603 y qué modelo elegir
+- **H1:** Sierra caladora Black+Decker: cómo elegir entre modelos
+- **H2:**
+  - BES603 frente a BES602
+  - ¿Y la KS501?
+  - Hoja, material y calidad de corte
+  - Qué comprobar en la publicación
+- **Resumen:** Guía de caladoras Black+Decker en Argentina: diferencias entre BES603, BES602 y KS501, hojas, velocidad y criterios para comparar publicaciones. Entre caladoras Black+Decker, elegí según el material, espesor y precisión que necesitás.
+
+### 118. `/sierras/de-banco-lusqtoff/`
+- **Title:** Sierra de banco Lusqtoff: SML2000-8 y otras variantes
+- **H1:** Sierra de banco Lusqtoff: qué modelo conviene para tu taller
+- **H2:**
+  - SML2000-8: datos que sirven para decidir
+  - Variantes que no conviene mezclar
+  - Elegir según el trabajo
+  - Lista antes de comprar
+- **Resumen:** Compará sierras de banco Lusqtoff SML2000-8, SML2000-9 y SML2000B-9 por mesa, disco, profundidad, accesorios y espacio de trabajo. Para un taller, elegí entre sierras de banco Lüsqtoff por capacidad de corte, tamaño de mesa, guía y protecciones.
+
+### 119. `/sierras/sensitivas-lusqtoff/`
+- **Title:** Sensitiva Lusqtoff: CM-14K y qué revisar antes de comprar
+- **H1:** Sierra sensitiva Lusqtoff: guía de la CM-14K
+- **H2:**
+  - Qué publica Lusqtoff para la CM-14K
+  - CM-14K y CM14K-9 no son el mismo código
+  - Para qué trabajo conviene una sensitiva
+  - Lista de compra de la CM-14K
+- **Resumen:** Datos oficiales de la sensitiva Lusqtoff CM-14K, diferencias con otras variantes y criterios para elegir disco, capacidad y accesorios. Para evaluar la Lüsqtoff CM-14K, confirmá primero el código y el diámetro del disco en la ficha del equipo.
+
+### 120. `/sierras/sin-fin-lusqtoff/`
+- **Title:** Sierra sin fin Lusqtoff: modelos compactos y de taller
+- **H1:** Sierra sin fin Lusqtoff: SFL250-8, SFL300-8 o SFL1100-9
+- **H2:**
+  - SFL250-8: qué se sabe y qué falta comprobar
+  - Otras sierras sin fin Lusqtoff
+  - Cinta, material y seguridad
+  - Antes de pagar
+- **Resumen:** Compará sierras sin fin Lusqtoff para madera: la SFL250-8 discontinuada, la SFL300-8 compacta y la SFL1100-9 de mayor capacidad. Entre las Lüsqtoff SFL250-8, SFL300-8 y SFL1100-9, compará altura de corte, garganta, mesa y hoja admitida según tus piezas.
+
+### 121. `/sierras/sensitivas-total/`
+- **Title:** Sensitiva Total: cómo elegir y comprobar el modelo
+- **H1:** Sierra sensitiva Total: qué revisar en una de 355 mm
+- **H2:**
+  - Identificá la variante de la publicación
+  - Qué trabajo resuelve
+  - Qué comparar con la Lusqtoff CM-14K
+  - Antes de comprar
+- **Resumen:** Guía para comprar una sensitiva Total de 355 mm: identificación de modelo, disco, capacidad de corte y diferencias con una ingletadora. En una sensitiva Total de 355 mm, comprobá el código del modelo, la sección máxima que corta y las RPM admitidas por el disco.
+

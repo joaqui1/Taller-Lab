@@ -2,75 +2,64 @@
 title: "Aceite para compresor de aire: cuál lleva y cómo elegir"
 h1: "Qué aceite lleva un compresor de aire"
 url: "/compresores/aceite/"
-description: "Guía sobre aceite para compresor de aire: viscosidad ISO VG 68 y 100, SAE 30 no detergente, frecuencia de cambio y por qué no usar aceite de auto."
+description: "Contraste de grados e intervalos de aceite en manuales de tres compresores concretos; muestra por qué no hay una viscosidad universal."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["aceite para compresor de aire", "que aceite lleva un compresor", "aceite iso vg 68 compresor", "lubricante compresor piston"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Contraste de grados e intervalos de aceite en manuales de tres compresores concretos; muestra por qué no hay una viscosidad universal."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Qué aceite lleva un compresor de aire
 
-El cabezal de un compresor de pistón somete a las piezas móviles a condiciones de fricción severas, altas temperaturas por compresión adiabática del aire y presencia continua de humedad ambiental. Utilizar un lubricante inadecuado o descuidar el nivel en el cárter es la causa número uno de recalentamiento, rayado de cilindros, empaste de láminas de válvulas y agarrotamiento de bielas.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía técnica de **Taller Lab** te enseñamos a identificar el lubricante exacto que exige tu cabezal, cómo interpretar las tablas de viscosidad ISO y SAE, cada cuántas horas de trabajo realizar el recambio y qué errores habituales pueden destruir el motor.
+**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Cómo identificar la especificación del fabricante
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-Antes de comprar cualquier bidón, revisá la chapa identificatoria del cabezal o el manual de usuario. La lubricación en compresores a pistón responde a requerimientos muy específicos:
+| Modelo y documento | Lubricante indicado | Intervalo o control que sí aparece |
+| :--- | :--- | :--- |
+| Gamma G2802AR, 50 L | SAE 30 o L-DAB 100 sobre 10 °C; SAE 10 o L-DAB 68 bajo 10 °C | Primer cambio a las 10 h; luego cada 500 h |
+| Lüsqtoff LC-40100 | Aceite normal 40W, según manual | Cambio después de 50 h de uso |
+| Lüsqtoff LC-30100 | El manual consultado indica llenar hasta el punto rojo del visor, pero no fija un grado en el fragmento de mantenimiento revisado | Uso ocasional: cada 6 meses; uso diario: cada 1.000 h, según el manual |
 
-1. **Compresores lubricados por salpicadura (Cárter húmedo)**: La biela posee una cuchara metálica en su extremo inferior que, al girar a 2.850 RPM (en modelos coaxiales) o a 1.000 RPM (en modelos por correa), salpica aceite hacia las paredes del cilindro, el perno del pistón y los rodamientos del cigüeñal.
-2. **Propiedades indispensables del fluido**: Debe ser un aceite con base mineral o sintética de alta estabilidad térmica, **antiespumante** (la espuma no lubrica y provoca cavitación) y con aditivos desemulsionantes para separar el agua condensada que ingresa con el aire ambiente.
-3. **¿Tu compresor lleva aceite?**: Verificá si tu equipo tiene cárter con visor de vidrio (*ojo de buey*) y tapón de llenado. Los modelos denominados "libres de aceite", "oilless" o silenciosos poseen aros de PTFE (teflón) y rodamientos sellados: **no llevan ningún tipo de aceite**.
+**Dato verificado:** estas son instrucciones de los manuales de los modelos citados, no equivalencias creadas por TallerLab. Gamma establece grados distintos según temperatura; Lüsqtoff también presenta pautas que dependen del modelo. Un SAE no se debe convertir automáticamente a ISO VG con una tabla genérica para decidir qué poner en un equipo.
 
----
+**Análisis TallerLab:** la diferencia entre manuales basta para descartar «ISO VG 100» o «SAE 30» como respuesta universal. Para comprar, prevalece el manual del código y revisión exactos. Si la etiqueta, el manual disponible y el aceite recomendado por el servicio técnico difieren, registrá el código de serie y pedí confirmación al fabricante antes de rellenar.
 
-## Viscosidad ISO y SAE
+## Control documental antes de cargar aceite
 
-En la industria neumática, la viscosidad cinemática se mide comúnmente bajo la norma internacional **ISO VG (Viscosity Grade)** a 40 °C:
+| Paso | Qué cotejar | Límite |
+| :--- | :--- | :--- |
+| Identificar el equipo | Marca, código y si la bomba requiere lubricación | “Compresor de 50 litros” no identifica por sí solo el lubricante |
+| Consultar el manual | Grado, temperatura ambiente, nivel y primer cambio | No extrapolar intervalos de otro modelo |
+| Revisar el visor | Posición de nivel que especifica el manual | No llenar por volumen supuesto |
+| Desechar y mantener | Procedimiento de cambio y drenaje indicado para ese equipo | Esta guía no sustituye el procedimiento seguro del fabricante |
 
-| Grado de Viscosidad | Equivalencia aproximada SAE | Temperatura ambiente de trabajo | Tipo de compresor recomendado |
-| :---: | :---: | :---: | :--- |
-| **ISO VG 68** | SAE 20 | Ambientes fríos a templados (0 °C a 20 °C) | Compresores coaxiales de 24 y 50 litros en invierno. |
-| **ISO VG 100** | SAE 30 | Ambientes templados a cálidos (15 °C a 40 °C) | **El estándar universal**: cabezales por correa y coaxiales en verano. |
-| **ISO VG 150** | SAE 40 | Ambientes industriales de calor extremo (> 35 °C) | Cabezales de alta presión de dos etapas en servicio continuo. |
+**Desconocido:** no confirmamos una regla general sobre aceites detergentes, volúmenes en mililitros ni equivalencias SAE/ISO para todos los compresores. El manual LC-30100 consultado explica el nivel y los intervalos, pero no respalda por sí solo un grado que no aparece en esa instrucción.
 
-> **La regla del "No Detergente"**: Si utilizás una graduación expresada en SAE, el aceite debe ser explícitamente **SAE 30 Monogrado NO DETERGENTE**.
+## Fuentes consultadas
 
----
+- **Documentación primaria:** [manual Gamma G2802AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf); [manual Lüsqtoff LC-40100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf); [manual Lüsqtoff LC-30100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-## Cantidad y frecuencia de cambio según modelo
+Para seguir comparando: [compresor Gamma de 50 litros](/compresores/gamma-50-litros/).
 
-El cárter de un compresor contiene una cantidad de aceite sorprendentemente pequeña:
+Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
 
-* **Compresores de 24 y 50 litros coaxiales lubricados (2 a 2,5 HP)**: Equipos clásicos con cárter a pistón como el [compresor Lusqtoff LC-2050 de 50 litros](/compresores/lusqtoff-50-litros/) o el [compresor Gamma G2802AR de 50 litros](/compresores/gamma-50-litros/) cargan entre **250 y 350 ml** de aceite (a diferencia de las líneas silenciosas o secas de estas marcas, que prescinden de lubricante).
-* **Compresores de 100 y 200 litros con cabezal en V o en línea por correa**: Cargan entre **600 ml y 1 litro**.
-
-### ¿Cómo verificar el nivel correcto?
-Mirá el visor circular transparente con el compresor apagado y nivelado sobre el suelo: el menisco del aceite debe situarse exactamente en el **punto rojo central** o entre las dos marcas de máximo y mínimo. 
-
-### Intervalos de mantenimiento recomendados:
-1. **Primer cambio de asentamiento (Rodaje)**: A las **10 a 20 horas de uso inicial**. Este cambio es crucial para drenar las micropartículas metálicas desprendidas durante el hermanado de aros y cilindro.
-2. **Cambios regulares posteriores**: Cada **100 a 250 horas de trabajo** o como máximo **una vez al año** si el uso es ocasional, ya que el lubricante se degrada por oxidación y absorción de humedad.
-
----
-
-## Errores al elegir lubricante
-
-El error más destructivo y extendido es colocarle al compresor **aceite de motor de auto (como un 10W-40 o 15W-40 común)**:
-
-* **Peligro de los aditivos detergentes**: El aceite automotriz contiene detergentes diseñados para mantener el hollín de combustión en suspensión. En un compresor no hay hollín; los detergentes baten el aceite formando una emulsión espumosa que los aros no pueden barrer, haciendo que el compresor "escupa" aceite por la manguera y se quede sin lubricación en el fondo del cárter.
-* **Carbonización en las válvulas de láminas**: El aceite de auto se descompone térmicamente en la cámara de compresión, formando costras de carbón negro en las láminas (*flappers*) que impiden el cierre estanco del cilindro.
-
----
-
-## Aceites en Mercado Libre
-
-En Mercado Libre podés comprar lubricantes formulados específicamente para compresores de aire:
-
-* **Marcas reconocidas especializadas**: Motul (Air Compressor), Total (Dacnis), Shell (Corena), YPF (Montes), Lusqtoff y Gamma (presentaciones oficiales de 1 litro).
-* **Formatos de compra**: Botellas de 1 litro para reposición periódica o bidones de 5 litros para talleres con varios equipos en funcionamiento.
-* **Repuestos anexos**: Aprovechá para cambiar el visor de nivel acrílico o el tapón respiradero si se encuentran rajados o deformados.
-
-[Ver aceites para compresor de aire en Mercado Libre](https://listado.mercadolibre.com.ar/aceite-para-compresor-de-aire){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de compresores](/compresores/).

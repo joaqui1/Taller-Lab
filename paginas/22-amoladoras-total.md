@@ -2,40 +2,52 @@
 title: "Amoladoras Total: qué revisar en los modelos de 115 mm"
 h1: "Amoladoras Total: cómo elegir una de 115 mm"
 url: "/amoladoras/total/"
-description: "Qué comprobar antes de comprar una amoladora Total de 115 mm: código de modelo, potencia, accesorios, discos y garantía de la publicación."
+description: "Contraste del mismo código TG10711576 entre dos fichas regionales que discrepan en 1.000 rpm."
 author: "Taller Lab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora total", "amoladora total 710w", "amoladora total 115mm", "amoladora total opiniones"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tabla de una misma referencia Total con tensión y rpm que varían entre fichas regionales."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Amoladoras Total: cómo elegir una de 115 mm
 
-La oferta de **amoladoras Total** incluye variantes que pueden parecer iguales en los listados: mismo diámetro de disco, potencia cercana y fotografías similares. Para evitar comprar una versión distinta de la que buscabas, anotá el **código exacto de modelo** antes de comparar precios. Entre las publicaciones disponibles aparece una **amoladora angular eléctrica Total de 710 W y 115 mm**; el título compartido no incluye un código inequívoco.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-## Qué sabemos de la publicación de 710 W
+**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
-El anuncio la presenta como una amoladora de **710 W** para disco de **115 mm**. Eso permite ubicarla en la familia compacta, pero no confirma por sí solo el tipo de interruptor, las RPM, el contenido de la caja o la versión de garantía. Esos datos deben figurar en la ficha técnica o en la placa de la unidad antes de recomendar una publicación específica.
+| Referencia | Fuente consultada | Potencia | Disco | Velocidad en vacío | Tensión publicada |
+| :--- | :--- | ---: | ---: | ---: | :--- |
+| TG10711576 | Distribuidor autorizado Namibia | 710 W | 115 mm | 12.000 rpm | 220–240 V, 50/60 Hz |
+| TG10711576 | Sitio oficial Total Túnez | 710 W | 115 mm | 11.000 rpm | 230 V |
 
-[Ver amoladora Total de 710 W en Mercado Libre](https://meli.la/1wX68V2){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+**Dato verificado:** ambas fichas identifican el código TG10711576, 710 W y disco de 115 mm; difieren en las rpm publicadas (12.000 frente a 11.000) y describen su propio mercado/tensión. El dato de rosca M14 aparece en ambas fichas consultadas.
 
-| Dato para confirmar | Dónde buscarlo |
+**Análisis TallerLab:** la diferencia de 1.000 rpm es una discrepancia documental que no se resuelve promediando cifras. Sin una ficha que identifique la variante vendida en Argentina, no elegimos una cifra como universal. La tabla vuelve visible por qué el código de catálogo y la placa de la unidad importan tanto como el nombre de marca.
+
+| Al revisar una publicación | Qué cotejar |
 | :--- | :--- |
-| Código del modelo | Ficha, caja y placa de la herramienta |
-| Diámetro y RPM admitidas | Manual y placa técnica |
-| Tipo de interruptor y guarda | Fotos de la variante exacta y ficha |
-| Accesorios incluidos | Descripción detallada del vendedor |
-| Garantía y repuestos | Condiciones de venta y servicio local |
+| Código completo | TG10711576 y cualquier sufijo local del envase o la placa |
+| Red eléctrica | La tensión de la ficha debe coincidir con la instalación y el producto |
+| Límite de giro | Disco marcado para una velocidad máxima compatible con la herramienta |
+| Paquete | Las fichas consultadas listan mango auxiliar; confirmá guarda, llave y discos en el kit vendido |
+| Garantía | No se deduce de la ficha internacional; verificar cobertura argentina |
 
-## Cuándo conviene el formato de 115 mm
+**Desconocido:** no se verificó una ficha técnica del importador argentino que resuelva las rpm de esta unidad, ni una comparación de rendimiento, peso o vida de servicio. No se atribuyen estas diferencias a una falla del fabricante; pueden corresponder a variantes regionales o a documentación distinta.
 
-Una amoladora de 115 mm sirve para tareas compactas de corte y terminación siempre que el disco elegido sea compatible con el material, la máquina y sus RPM. Si necesitás más alcance o superficie de trabajo, compará primero las [diferencias entre 115 y 125 mm](/amoladoras/115-o-125/). Una máquina de 115 mm no debe recibir un disco de 125 mm quitando la guarda.
+## Fuentes consultadas
 
-Para perfiles de metal, buscá un [disco de corte](/amoladoras/disco-de-corte/) adecuado; para nivelar una soldadura, revisá [desbaste](/amoladoras/disco-de-desbaste/) o [discos flap](/amoladoras/disco-flap/) según el acabado que quieras. El tipo de disco cambia tanto como la potencia de la máquina.
+- **Documentación de producto por mercado:** [Total Tools, catálogo de productos](https://www.totalbusiness.com/kw-en/products/power-tools), donde figura la referencia TG10711576; [sitio Total Tools Túnez, ficha TG10711576](https://totaltunisia.com/products/meule-ang-115-710w-tg10711576).
+- **Distribuidor autorizado:** [Total Tools Namibia, TG10711576](https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-## Compararla con otras opciones compactas
+Para seguir comparando: [amoladoras de velocidad variable](/amoladoras/velocidad-variable/).
 
-Si el modelo Total publicado no informa su código, usá esa falta de información como criterio de selección: compará con la [Gamma G1910KAR](/amoladoras/gamma/) si querés un kit identificado, o con la [Dowen Pagio 9993220.7](/amoladoras/dowen-pagio/) si preferís contrastar una ficha de fabricante para una máquina de 115 mm. No extrapoles características de un modelo Total a otro solo por coincidir marca y potencia.
-
-## Antes de comprar
-
-Pedí o revisá una foto legible de la etiqueta del equipo, confirmá el contenido de la caja y calculá el costo de los discos adecuados para tu trabajo. Cuando tengamos el código exacto de la publicación de 710 W, podremos identificar la variante sin depender del título comercial. La [guía general de amoladoras](/amoladoras/) te ayuda a comparar otras marcas y tamaños.
+Para explorar la categoría: [guías de amoladoras](/amoladoras/).

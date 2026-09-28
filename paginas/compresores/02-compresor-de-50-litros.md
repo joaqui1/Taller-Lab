@@ -3,8 +3,16 @@ title: "Compresor de 50 litros: comparativa y guía de compra"
 h1: "Compresores de 50 litros: cuál conviene según el uso"
 url: "/compresores/50-litros/"
 description: "Compará compresores de 50 litros Lüsqtoff, Gamma y Einhell: potencia, caudal declarado, salida a presión de trabajo y límites según el uso."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 reviewed: "27/09/2026"
+published: true
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "matriz de caudal y discrepancia de potencia del Gamma G2802AR"
+asset_status: "verificado"
 category: "Compresores y Neumática"
 keywords: ["compresor 50 litros", "compresor de aire 50 litros", "compresor 2 hp 50 litros", "compresor lusqtoff 50l"]
 ---
@@ -57,6 +65,23 @@ Estas tres fichas identifican modelos de 50 litros y permiten comparar datos dec
 
 > **Nota técnica sobre condiciones de medición**: Einhell separa aspiración y salida a distintas presiones. Los datos publicados por Lüsqtoff y Gamma para estos modelos no permiten una comparación directa del caudal útil a 7 bar.
 
+La [página comercial de Gamma](https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/) indica 2 HP para el G2802AR, mientras que el manual enlazado indica 2,5 HP. Por esa discrepancia, confirmá el código y la placa del equipo con el vendedor antes de comparar potencia.
+
+## Matriz TallerLab: datos que cambian la compra
+
+Esta matriz cruza especificaciones con la decisión práctica. «No informado» significa que la fuente enlazada no permite afirmarlo; no supone que el producto carezca de esa característica.
+
+| Variable | Lüsqtoff LC2550B-8 | Gamma G2802AR | Einhell TE-AC 270/50 Silent | Decisión |
+| :--- | :--- | :--- | :--- | :--- |
+| Uso y caudal útil | 206 l/min de flujo, sin presión de medición | 203 l/min desplazados, sin salida a presión | 98 l/min a 7 bar | Para herramientas continuas, pedir salida a la presión de uso. Solo Einhell publica aquí un dato comparable con el consumo a 7 bar. |
+| Potencia declarada | 2,5 HP / 1750 W | 2,5 HP en manual; 2 HP en página comercial | 1650 W | Confirmar la variante Gamma; potencia de motor no equivale a caudal útil. |
+| Peso | 30 kg | 27 kg en página comercial | 34,45 kg | Considerar traslados y escalones; verificar si el aviso incluye ruedas. |
+| Plataforma de batería | No aplica: equipos de red | No aplica: equipos de red | No aplica: equipos de red | Confirmar tensión e instalación. |
+| Garantía y repuestos en Argentina | Consultar cobertura y repuesto del código exacto | Consultar cobertura y repuesto del código exacto | Consultar cobertura y repuesto del código exacto | Pedir condiciones por escrito al vendedor y servicio local antes de pagar. |
+| Precio y consumibles | Sin precio comparable verificado | Sin precio comparable verificado | Sin precio comparable verificado | Sumar envío, aceite si corresponde, filtros, manguera y accesorios del kit; comparar avisos de igual configuración. |
+
+**Lectura editorial:** Einhell ofrece el dato más útil para dimensionar una herramienta que pide aire a 7 bar. Eso no lo convierte automáticamente en la mejor compra: hay que comparar el consumo real de la herramienta, el ciclo de trabajo y el precio final. Las fichas disponibles no permiten ordenar los tres modelos por caudal útil.
+
 También podés consultar las guías de [Lüsqtoff de 50 litros](/compresores/lusqtoff-50-litros/) y [Gamma de 50 litros](/compresores/gamma-50-litros/). Antes de elegir, verificá el código exacto del modelo, el caudal de salida a la presión necesaria y el servicio disponible para esa unidad.
 
 ---
@@ -84,3 +109,15 @@ Al filtrar compresores de 50 litros en Mercado Libre, prestá atención a:
 Si ya compraste el compresor sin accesorios, el [kit Lusqtoff de 5 piezas](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"} es una compra separada para sumar manguera y pistolas. No incluye el compresor de 50 litros; revisá las conexiones antes de comprarlo.
 
 [Ver compresores de 50 litros en Mercado Libre](https://listado.mercadolibre.com.ar/compresor-50-litros){:target="_blank" rel="sponsored" .btn-mercado-libre}
+
+## Alcance de la evidencia
+
+**Dato verificado:** las cifras de la tabla comparativa proceden de las fichas de los modelos enlazados. **Declaración del fabricante:** potencia, caudal y presión son valores publicados por cada marca; TallerLab no los midió. **Análisis TallerLab:** la matriz distingue caudal aspirado de salida a presión y señala la discrepancia de potencia de Gamma. **Desconocido:** no disponemos de una medición propia ni de caudales de salida comparables para los tres equipos. No resumimos opiniones de compradores en esta guía.
+
+## Fuentes consultadas
+
+- **Documentación primaria:** [ficha Lüsqtoff LC2550B-8](https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8), [manual Gamma G2802AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf) y [ficha Einhell TE-AC 270/50 Silent](https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/).
+- **Información comercial:** [página Gamma G2802AR](https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/), usada solo para documentar la discrepancia con el manual.
+- **Opiniones:** no consultadas para las conclusiones de esta guía.
+
+Para comparar otras capacidades y accesorios, volvé al [hub de compresores](/compresores/).

@@ -2,46 +2,50 @@
 title: "Disco para cortar vidrio: cuál elegir y qué comprobar"
 h1: "Disco para cortar vidrio: tipos, compatibilidad y límites"
 url: "/amoladoras/discos-vidrio/"
-description: "Cómo elegir un disco para cortar vidrio sin confundirlo con uno de cerámica o metal. Medidas, RPM, montaje y diferencias frente al cortavidrios manual."
+description: "Matriz de comprobación para no dar por aprobados en vidrio discos anunciados para otros materiales."
 author: "Taller Lab"
 category: "Discos y accesorios"
 keywords: ["disco para cortar vidrio", "disco para cortar vidrio con amoladora", "disco corte vidrio 115mm", "disco diamantado para vidrio"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Vidrio y discos de amoladora: qué aplicación no queda confirmada"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Disco para cortar vidrio: tipos, compatibilidad y límites
 
-Un **disco para cortar vidrio** es un consumible especializado. Su nombre no garantiza que sirva para cualquier herramienta ni para cualquier tipo de vidrio: antes de comprar hay que comprobar el material permitido, el diámetro, el agujero central y la velocidad máxima marcada en el disco. En esta guía distinguimos los discos anunciados para amoladora de 115 mm de los métodos habituales para cortar una plancha de vidrio.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-## Disco para amoladora o cortavidrios manual
-
-Para un corte recto en una plancha de vidrio común, el **cortavidrios manual** marca la superficie para luego separar la pieza de forma controlada. Un disco giratorio trabaja de otra manera y puede tener sentido en piezas o terminaciones específicas cuando el fabricante del consumible y de la máquina admiten esa aplicación. No conviene elegir la amoladora solo porque ya está en el taller: compará el resultado que necesitás, la sujeción de la pieza y el riesgo de astillas.
-
-Si el vidrio es **templado**, no intentes cortarlo después del templado. Fabricantes de vidrio como [AGC](https://www.agc-yourglass.com/sites/default/files/2024-04/IG_FIX-IN_V15_EN.pdf) indican que el corte y el trabajo de bordes deben hacerse antes de ese proceso.
-
-## Qué verificar en un disco de 115 mm
-
-La publicación del **pack de tres discos Smart Ladike Design** lo describe como apto para vidrio y para amoladora angular. Declara **115 mm de diámetro exterior**, **1,5 mm de espesor** y **22,23 mm de agujero central**. Son datos de la publicación comercial; antes de montarlo, comprobá las indicaciones impresas en el disco y el manual de tu máquina.
-
-[Ver pack de 3 discos Smart Ladike Design en Mercado Libre](https://meli.la/1mM8RyC){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
-
-| Comprobación | Por qué importa |
+| Pregunta previa | Resultado de la fuente primaria consultada |
 | :--- | :--- |
-| Material permitido | «Vidrio», «cerámica» y «metal» no son aplicaciones intercambiables por defecto |
-| Diámetro exterior | Debe estar dentro del máximo admitido por la máquina y su guarda |
-| Agujero central y sistema de montaje | El disco debe quedar centrado y sujeto con las bridas correctas |
-| RPM máximas del disco | Deben superar la velocidad máxima de la amoladora |
-| Método de trabajo | Debe coincidir con las instrucciones del disco y de la herramienta |
+| ¿Bosch ofrece una hoja diamantada de amoladora diseñada para vidrio? | La página de preguntas frecuentes de Bosch dice que no dispone de una hoja diamantada para vidrio en su gama actual consultada |
+| ¿Un disco para cerámica queda aprobado para vidrio por esa razón? | No; la fuente no declara esa compatibilidad |
+| ¿Se puede trasladar una recomendación de cortavidrios manual a una amoladora? | No; son herramientas y procesos diferentes |
+| ¿Qué debe confirmar una ficha antes de usar disco rotativo? | Tipo de vidrio, máquina, diámetro, agujero, rpm, montaje y resguardo |
 
-La [guía de seguridad para amoladoras de OSHA](https://www.osha.gov/sites/default/files/2018-12/fy15_sh-27664-sh5_Toolbox_Angle_Grinder.pdf) exige usar un disco apropiado para el tamaño, la velocidad y el trabajo, conservar la guarda y revisar el disco antes de usarlo. **Si la publicación no informa las RPM máximas, pedí una foto legible del marcado del disco antes de comprar.**
+**Dato verificado:** Bosch indica en su FAQ de accesorios que no ofrece actualmente una hoja diamantada para vidrio en su gama consultada. Esto describe el catálogo de Bosch, no prueba que ningún fabricante venda un accesorio específico para vidrio.
 
-## Corte en seco o con agua: cuidado con la herramienta
+**Análisis TallerLab:** una oferta que diga “diamantado”, “cerámica” o “multiuso” no acredita por sí sola que el accesorio sea apto para cortar vidrio. En las fuentes consultadas no encontramos un disco Bosch para esa aplicación; por eso no publicamos una combinación de disco, vidrio y amoladora como recomendación verificada. La matriz anterior identifica qué dato debe aparecer en una fuente del fabricante antes de seguir.
 
-La descripción comercial del pack menciona usos en seco y en húmedo. Eso **no autoriza a aplicar agua sobre una amoladora eléctrica común**. Un sistema de corte húmedo requiere una herramienta y un procedimiento diseñados para ello, según las instrucciones del fabricante. Para una amoladora convencional, seguí el manual de la máquina y las indicaciones de seguridad del disco; no improvises refrigeración con agua.
+**Declaración del fabricante:** Bosch recomienda utilizar hojas de diamante únicamente en máquinas y diámetros indicados en los manuales de la herramienta, montar con brida y no usar la amoladora sin protector. Estas instrucciones son generales de Bosch para sus accesorios y no autorizan el corte de vidrio.
 
-## Vidrio, cerámica y metal no usan el mismo criterio
+**Desconocido:** no se verificó una ficha primaria de disco rotativo para vidrio que incluya forma de montaje, rpm y tipos de vidrio admitidos. Tampoco se evaluó un cortavidrios, un sistema de refrigeración o una técnica de corte. La composición del vidrio y la sujeción cambian los riesgos; consultá documentación del accesorio y equipo exactos.
 
-Un disco comercializado para vidrio puede mencionar otros materiales, pero esa declaración debe verificarse para cada aplicación y equipo. Para baldosas y azulejos, consultá la [guía de discos para cerámica](/amoladoras/discos-ceramica/). Para perfiles de hierro o acero, elegí un [disco de corte para metal](/amoladoras/disco-de-corte/). Si todavía estás comparando las familias de consumibles, empezá por la [guía general de discos para amoladora](/amoladoras/discos/).
+## Alternativa para corte recto
 
-## Antes de comprar el pack Smart Ladike Design
+**Análisis TallerLab:** si la tarea es una línea recta en una plancha, compará el proceso con un cortavidrios manual y una regla guía; la elección debe depender del tipo de vidrio y el acabado requerido. Esta página no declara que una técnica sirva para vidrio templado, laminado u otro tipo sin una fuente específica.
 
-Confirmá que la publicación corresponda al **pack de tres discos de 115 mm** y que el disco recibido tenga marcados legibles de material, medida, RPM y fabricante. Revisá también que tu amoladora permita ese diámetro y que conserve su guarda original. La selección del disco correcto es más importante que el descuento o la cantidad de unidades del pack.
+## Fuentes consultadas
+
+- **Documentación primaria:** [FAQ Bosch sobre discos de diamante y vidrio](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-x-lock-2867633-ocs-ac/); [manual Bosch de amoladora angular GWS 850](https://www.bosch-professional.com/binary/manualsmedia/o286626v21_gws_850-es-a3.pdf), para compatibilidad de accesorios, guarda y régimen de giro.
+- **Desconocido:** no se enlaza una oferta como recomendación técnica sin documentación del uso en vidrio.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
+
+Para seguir comparando: [disco para cerámica](/amoladoras/discos-ceramica/).
+
+Para explorar la categoría: [guías de amoladoras](/amoladoras/).

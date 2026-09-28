@@ -2,73 +2,64 @@
 title: "Filtro de aire para compresor: cómo elegir el repuesto"
 h1: "Filtro de aire para compresor: cómo elegir el repuesto"
 url: "/compresores/filtros/"
-description: "Guía técnica sobre filtros de aire para compresor: cómo elegir el repuesto de admisión, roscas 1/2 y 3/8, mantenimiento y cuándo agregar una trampa de agua."
+description: "Distingue el filtro de admisión de la unidad de filtro/regulador/lubricador BTA y registra dos caudales distintos en la ficha del conjunto."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["filtro de aire para compresor", "filtro admision compresor", "trampa de agua compresor", "repuesto filtro compresor"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Distingue el filtro de admisión de la unidad de filtro/regulador/lubricador BTA y registra dos caudales distintos en la ficha del conjunto."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Filtro de aire para compresor: cómo elegir el repuesto
 
-Cuando se busca un repuesto de filtro para un compresor, suelen confundirse dos elementos mecánicos con ubicaciones y finalidades completamente distintas: el **filtro de admisión de aire**, que protege las partes móviles del cabezal contra el polvo ambiental, y el **filtro de línea o trampa de agua**, que retiene la humedad condensada en la salida del tanque antes de llegar a las herramientas.
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** nos enfocamos primero en el filtro de admisión —el repuesto más crítico para prolongar la vida útil del motor—, cómo medir su rosca de acople y cuándo reemplazarlo, para luego explicar en qué casos necesitás instalar una trampa de agua en la línea de trabajo.
+**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Filtro de admisión y filtro de línea: diferencias
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-Para no equivocarte al comprar un repuesto, es indispensable distinguir en qué etapa del circuito actúa cada filtro:
+| Componente | Dónde trabaja | Dato de fabricante | Límite de lectura |
+| :--- | :--- | :--- | :--- |
+| Filtro de admisión del compresor | Entrada de aire de la bomba | El manual Gamma G2802AR ordena revisar y mantener limpio el filtro de admisión | No es el conjunto de tratamiento de línea |
+| Filtro-regulador-lubricador BTA AA-2040I, código 802834.1 | Línea neumática aguas abajo del tanque | Conexión 1/2″; elemento filtrante de 5–40 µm; drenaje automático/manual; presión máxima 145 psi | La ficha muestra 50 NI/min como “pulverizado (caudal)” y 4.000 NI/min como caudal mínimo de goteo |
 
-| Característica | Filtro de Admisión (Aspiración del Cabezal) | Filtro de Línea / Trampa de Agua (Salida) |
-| :--- | :--- | :--- |
-| **Ubicación** | Roscado directamente en la culata o tapa de cilindros. | Instalado a la salida del calderín o en la manguera. |
-| **Flujo de aire** | Purifica el aire atmosférico **antes** de ingresar al pistón. | Purifica el aire comprimido **después** de salir del tanque. |
-| **Qué retiene** | Polvo, aserrín, partículas abrasivas y pelusa ambiental. | Agua condensada, restos de óxido y vapores de aceite. |
-| **Elemento filtrante** | Esponja lavable de poliuretano o papel plisado celulósico. | Cartucho de bronce o polietileno sinterizado (5 a 20 micrones). |
-| **Consecuencia si falla** | Rayado de camisas, aros rotos y pérdida total de compresión. | Pintura con burbujas u ojos de pescado, herramientas oxidadas. |
+**Dato verificado:** el AA-2040I no es un repuesto de admisión: BTA lo describe como conjunto de filtro, regulador y lubricador para la línea de aire. Su propia ficha publica dos valores de caudal con rótulos distintos (50 y 4.000 NI/min), así que los transcribimos sin interpretarlos como una única capacidad de servicio.
 
----
+**Análisis TallerLab:** la selección empieza por la ubicación y función del componente. El filtro de admisión protege la entrada indicada por el fabricante del compresor; el conjunto de línea trata el aire y regula la presión después del tanque. Una rosca de 1/2″, una filtración en micrones y un caudal son campos diferentes y ninguno sustituye a los otros.
 
-## Medidas y compatibilidad del repuesto
+## Comprobaciones antes de elegir
 
-El filtro de admisión se conecta al cabezal mediante una rosca macho que debe coincidir con precisión con el puerto roscado de la tapa de cilindros:
+| Necesidad | Dato a cotejar |
+| :--- | :--- |
+| Reemplazar el elemento de entrada | Código del compresor y referencia de filtro indicada en su manual |
+| Instalar tratamiento de línea | Rosca, presión nominal, sentido de flujo y caudal requerido de la unidad FRL |
+| Filtrar partículas | Micronaje especificado y contaminante objetivo; no inferir pureza respirable |
+| Lubricar herramienta | Confirmar si la herramienta requiere lubricación y el lubricante indicado |
 
-* **Rosca 1/2" BSP / NPT (aprox. 20,5 mm de diámetro exterior)**: Es la medida estándar presente en más del 80% de los compresores de 24, 50 y 100 litros (marcas como Lusqtoff, Gamma, Daewoo, Einhell y BTA).
-* **Rosca 3/8" (aprox. 16,5 mm de diámetro)**: Habitual en motocompresores portátiles de 1 HP a 1.5 HP o equipos compactos tipo maletín.
-* **Rosca 3/4" o 1"**: Reservada para cabezales industriales bicilíndricos pesados de 200 litros o más.
-* **Carcasa metálica con silenciador vs. plástico**: Los repuestos con cuerpo de chapa o fundición de aluminio resisten vibraciones y golpes de traslado sin rajarse, e incorporan laberintos acústicos internos que atenúan varios decibelios el ruido de aspiración del pistón.
+**Desconocido:** BTA no aclara en la ficha consultada cómo se relacionan sus dos cifras de caudal ni las condiciones de medición. No deducimos que el conjunto quite toda el agua o todo contaminante, ni lo recomendamos para aire respirable o aplicaciones sensibles.
 
----
+## Fuentes consultadas
 
-## Cuándo limpiar o reemplazar
+- **Documentación primaria:** [BTA, filtro-regulador-lubricador AA-2040I](https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2); [manual Gamma G2802AR, mantenimiento del filtro de admisión](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf); [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf).
+- **Seguridad:** instalar y mantener cada componente según su manual y la presión permitida.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Un filtro de admisión saturado actúa como una obstrucción en la garganta del compresor: el motor trabaja forzado, genera vacío excesivo en el cárter, aspira aceite hacia la cámara de compresión y demora mucho más tiempo en llenar el depósito:
+Para seguir comparando: [acoples rápidos para compresor](/compresores/acoples-rapidos/).
 
-1. **Frecuencia de revisión**: En carpinterías, obras o herrerías con polvo en suspensión, revisá el filtro cada **15 días**. En ambientes limpios, cada 2 o 3 meses.
-2. **Procedimiento de limpieza**:
-   * Si el cartucho es de **esponja poliuretánica**, lavalo con agua tibia y detergente neutro, escurrilo sin retorcer y dejalo secar al 100% al sol antes de reinstalarlo.
-   * Si es de **papel plisado microporoso**, sopletealo suavemente con aire a baja presión (no más de 2 bar) desde el interior hacia el exterior. Jamás lo laves con solventes ni nafta.
-3. **Reemplazo definitivo**: Cambiá el filtro completo o el cartucho interno **cada 6 a 12 meses** o apenas notes que la esponja se degrada o el papel se torna rígido u oscuro por vapores de aceite.
+Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
 
----
-
-## Cuándo necesitás una trampa de agua
-
-Una vez protegido el cabezal con su filtro de admisión, entra en juego el tratamiento del aire comprimido a la salida. Al comprimir aire a 8 bar dentro del calderín, la humedad relativa ambiental se condensa en agua líquida en el fondo del tanque y es arrastrada por el flujo hacia la manguera:
-
-* **Para inflar neumáticos o sopletear**: No se requiere un filtro de alta pureza; basta con abrir la canilla de purga inferior del calderín semanalmente para drenar el líquido acumulado.
-* **Para pintar con soplete**: **La trampa de agua es indispensable**. Una sola microgota de condensado pulverizada por una [pistola para pintar con compresor](/compresores/pistola-para-pintar/) provocará "ojos de pescado", falta de adherencia y ampollas en el esmalte, arruinando horas de trabajo. Para conocer la configuración ideal de línea y presión de atomización, consultá nuestra guía técnica sobre [qué compresor elegir para pintar](/compresores/para-pintar/). Se recomienda un filtro regulador con vaso recolector a la salida del calderín y un minifiltro trampa montado en la base misma de la pistola.
-* **Para herramientas neumáticas (llaves de impacto, clavadoras)**: Conviene instalar una unidad FRL (Filtro + Regulador + Lubricador) que elimine el agua y dosifique una microgota de aceite neumático para proteger el rotor interno de la corrosión.
-
----
-
-## Repuestos en Mercado Libre
-
-En Mercado Libre podés encontrar repuestos y accesorios de filtrado según tu necesidad:
-
-* **Filtros de admisión con rosca 1/2" metálicos con silenciador**: Universales para cabezales de 2 HP y 3 HP.
-* **Trampas de agua con regulador y manómetro (1/4" o 1/2")**: Unidades con vaso de policarbonato reforzado y válvula de purga semiautomática o manual.
-* **Minifiltros trampa de condensado para pistola de pintar**: Cartuchos transparentes ultralivianos que se intercalan directamente entre el acople rápido y el mango de la pistola.
-
-[Ver filtros de aire para compresor en Mercado Libre](https://listado.mercadolibre.com.ar/filtro-de-aire-para-compresor){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías de compresores](/compresores/).

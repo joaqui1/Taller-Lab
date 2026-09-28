@@ -2,48 +2,56 @@
 title: "Grupo electrógeno chico: Pektra 720 W y Konan 800 W"
 h1: "Grupos electrógenos chicos: Pektra 720 W y Konan 800 W"
 url: "/generadores/chicos/"
-description: "Compará dos grupos electrógenos chicos de 2 tiempos: Pektra 720 W y Konan 800 W. Potencia nominal, usos posibles y límites antes de comprar."
+description: "Contraste entre los datos de publicación de Pektra GPK980 y la ficha de fabricante del Konan KGE/800; separa potencia nominal y máxima."
 author: "Taller Lab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupo electrógeno chico", "generador chico", "generador de luz chico", "generador chico a nafta"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Contraste entre los datos de publicación de Pektra GPK980 y la ficha de fabricante del Konan KGE/800; separa potencia nominal y máxima."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Grupos electrógenos chicos: Pektra 720 W y Konan 800 W
 
-Un **grupo electrógeno chico** puede servir para unas luces y cargadores, pero el tamaño por sí solo no dice si podrá arrancar una heladera. Para decidir, necesitás conocer la **potencia continua** del generador y el pico de arranque de cada aparato. Esta guía compara dos equipos 2T compactos. Si tu prioridad es el peso, el ruido o llevarlo de viaje, consultá también la [guía de generadores portátiles](/generadores/portatiles/).
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En estos dos modelos, los **720 W y 800 W del nombre son potencias máximas**, no cifras para usar durante horas. Las fichas consultadas declaran aproximadamente **650 W nominales** para cada uno. Comprobá que la publicación entregue el mismo modelo y revisá la placa y el manual antes de conectar cargas.
+**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
-## Dos opciones de baja potencia
+## Cómo investigamos esta guía
 
-| Producto publicado | Potencia nominal / máxima declarada | Lo que conviene comprobar |
-| :--- | :--- | :--- |
-| **Grupo Electrógeno 720W Pektra 0,72kva 3/4hp 980 Nafta Generador 2T** | 650 W / 720 W, según la [ficha del GPK980](https://www.mercadolibre.com.ar/grupo-electrogeno-pektra-072-kva-34-hp-generador-nafta/up/MLAU126543210) | Confirmar modelo, tensión, mezcla y carga admitida por la toma. |
-| **Generador Portatil Grupo Electrogeno Konan 800w 2hp 2t 220v** | 650 W / 800 W, según [Konan KGE/800](https://www.konan.com.ar/productos/generador-electrico-kge-800) | Confirmar modelo, mezcla, peso y protección de sobrecarga. |
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-### Para iluminación y cargas pequeñas
+| Modelo | Potencia nominal publicada | Potencia máxima publicada | Motor / datos disponibles | Estado de la evidencia |
+| :--- | ---: | ---: | :--- | :--- |
+| Pektra GPK980 | 650 W | 720 W | La publicación comercial lo identifica como 2 tiempos, mezcla, 220 V y arranque manual | Publicación de vendedor; no se halló manual o ficha del fabricante que confirme esos campos |
+| Konan KGE/800 | 650 W | 800 W | 2 tiempos, 63 cm³, 220 V–50 Hz, tanque 4 L y 4,5 h declaradas | Sitio del representante exclusivo publica ficha y manual |
+| Gamma GE3441AR / 950 | El fabricante llama al campo «energía generada contenida»: 0,57 kW | 0,87 kW | 2 tiempos, 63 cm³, producto discontinuado | Ficha oficial; el nombre del campo no se sustituye por «potencia nominal» |
 
-Los dos equipos 2T son candidatos para usos de baja demanda, como luces LED y cargadores, siempre que la suma de consumos quede por debajo de la **potencia continua confirmada**. No son una elección adecuada para alimentar una heladera, bomba, pava eléctrica o aire acondicionado. Un motor de 2 tiempos requiere combustible mezclado con el aceite indicado por el fabricante; verificá la proporción en el manual de cada modelo.
+**Dato verificado:** Konan informa 650 W nominales y 800 W máximos para KGE/800. Para Pektra GPK980, la fuente consultada es una publicación comercial cuyo título dice 720 W; una página de comercio que reproduce datos del vendedor enumera 650 W nominales y 720 W máximos. No localizamos documentación primaria del fabricante Pektra que confirme esos valores. Gamma publica para el GE3441AR máximo de 0,87 kW y «energía generada contenida» de 0,57 kW.
 
-[Ver Grupo Electrógeno 720W Pektra 0,72kva 3/4hp 980 Nafta Generador 2T en Mercado Libre](https://meli.la/2jcLSy1){:target="_blank" rel="sponsored" .btn-mercado-libre}
+**Análisis TallerLab:** en KGE/800, el valor máximo supera el nominal en 150 W (23,1 % sobre 650 W). En Pektra GPK980 la diferencia sería 70 W (10,8 %) si la cifra nominal de 650 W de la publicación comercial se confirma. Estas restas no son una prueba de arranque de motores ni de compatibilidad con una carga concreta; para seleccionar hay que cotejar potencia de funcionamiento y pico de arranque en las placas/manuales de los equipos conectados.
 
-[Ver Generador Portatil Grupo Electrogeno Konan 800w 2hp 2t 220v en Mercado Libre](https://meli.la/1rTFN2y){:target="_blank" rel="sponsored" .btn-mercado-libre}
+**Desconocido:** no se verificaron de forma primaria para Pektra el consumo, el peso, la autonomía ni la potencia nominal. En Gamma, la página consultada no rotula 0,57 kW como potencia nominal continua, así que conservamos su nombre original.
 
-## Qué puede alimentar un generador chico
+## Fuentes consultadas
 
-Anotá el consumo en watts de cada equipo que querés conectar al mismo tiempo. Sumá los consumos continuos y considerá por separado el mayor pico de arranque de los aparatos con motor. Compará ambos resultados con las cifras **continuas y máximas declaradas por el fabricante** del generador exacto. Si la ficha no distingue esas cifras, pedísela al vendedor antes de elegir.
+- **Documentación primaria:** [Konan, KGE/800 y especificaciones](https://www.konan.com.ar/productos/generador-electrico-kge-800); [catálogo oficial Konan 2025](https://konan.com.ar/media/descargas/KONAN-Catalogo-2025.pdf); [Gamma, GE3441AR/950 discontinuado](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-950/).
+- **Información comercial:** [publicación de Pektra GPK980 en Mercado Libre](https://listado.mercadolibre.com.ar/construccion/electricidad/grupos-electrogenos/nuevo/pektra/); [página comercial que reproduce los campos informados por un vendedor](https://mercadocordoba.com.ar/producto/163). Sus cifras no se atribuyen al fabricante.
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Como orientación, unas pocas luces LED y cargadores suelen requerir mucho menos que una heladera, una bomba o una herramienta eléctrica con motor. No uses los watts del nombre comercial como presupuesto disponible durante horas. Tampoco supongas que un generador chico o «portátil» es inverter o silencioso: son características diferentes que deben figurar en la ficha. Si priorizás la calidad de salida para electrónica sensible, revisá los [generadores inverter](/generadores/inverter/).
+Para seguir comparando: [Gamma 950 y sus límites documentales](/generadores/gamma-950/).
 
-Para consumos superiores, el **Pektra 2,2 kVA** y el **Philco 2500 W** pertenecen a un escalón distinto: motores de mayor cilindrada, tanque de 15 litros y peso cercano a 40 kg según sus publicaciones. Los ubicamos en la [guía de precios](/generadores/precios/) y en la [guía de generadores a nafta](/generadores/a-nafta/). Para respaldo doméstico, calculá primero la carga con la [guía de generadores para casa](/generadores/para-casa/).
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-## Qué revisar antes de comprar
-
-1. **Modelo y placa:** confirmá que la publicación entregue la misma variante anunciada, con potencia continua, potencia máxima y tensión de salida legibles.
-2. **Motor y combustible:** si es 2T, seguí la mezcla de nafta y aceite del manual del modelo concreto. Si es 4T, comprobá aceite de cárter, mantenimiento y combustible indicados.
-3. **Garantía y repuestos:** verificá vendedor, servicio técnico y disponibilidad de piezas para esa marca y modelo.
-4. **Uso seguro:** todo generador a combustión debe funcionar al aire libre, lejos de puertas, ventanas y ventilaciones. Para conectarlo a una instalación fija, consultá a un electricista matriculado y utilizá una transferencia adecuada; nunca lo conectes mediante un cable macho-macho a un tomacorriente.
-
-Si buscás comparar costos, consultá la [guía de precios de grupos electrógenos](/generadores/precios/). Los precios, descuentos, cuotas, calificaciones y disponibilidad de Mercado Libre cambian; por eso no se reproducen como atributos permanentes de estos productos.
-
-**Transparencia:** los dos enlaces a Mercado Libre de esta página son enlaces de afiliado proporcionados por el editor. Taller Lab puede recibir una comisión si comprás desde ellos, sin costo adicional para vos. La selección editorial se basa en el uso y en la potencia, no en la comisión.
+Para explorar la categoría: [guías de generadores](/generadores/).

@@ -12,6 +12,7 @@ from servidor_local import (
     render_article_page,
     render_category_page,
     render_home_page,
+    render_editorial_page,
     render_not_found,
     render_robots,
     render_search_cards,
@@ -69,9 +70,13 @@ def page(path):
 
     if url_path == "/":
         html = render_home_page()
+    elif url_path == "/como-trabajamos/":
+        html = render_editorial_page("metodologia")
+    elif url_path == "/equipo-editorial/":
+        html = render_editorial_page("equipo")
     elif url_path in ARTICLES_BY_URL:
         html = render_article_page(ARTICLES_BY_URL[url_path])
-    elif url_path.endswith("/") and url_path[1:-1] in CATEGORY_META:
+    elif url_path.endswith("/") and url_path in INDEXABLE_PATH_SET and url_path[1:-1] in CATEGORY_META:
         html = render_category_page(url_path[1:-1])
     else:
         return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")

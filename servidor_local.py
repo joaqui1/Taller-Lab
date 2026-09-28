@@ -31,6 +31,10 @@ MARKDOWN = MarkdownIt("commonmark", {"html": True}).enable("table")
 # Cargar imagen de logo en Base64 para garantizar carga 100% instantánea sin fallos
 LOGO_SRC = "/assets/logo_cropped.png"
 
+# Completar solo con personas y trayectorias confirmadas por TallerLab.
+# Campos: name, role, experience, evidence_url. Una lista vacía no muestra perfiles.
+EDITORIAL_MEMBERS = []
+
 def extract_frontmatter(content):
     """Extrae metadatos del frontmatter YAML básico."""
     fm = {}
@@ -269,6 +273,7 @@ SOURCE_CLAIMS = {
     "/compresores/50-litros/": [
         ("Lüsqtoff LC2550B-8: tanque, potencia, flujo declarado, presión y contenido", "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"),
         ("Gamma G2802AR: tanque, potencia, desplazamiento y presión según manual", "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf"),
+        ("Gamma G2802AR: página comercial con potencia discrepante y peso", "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/"),
         ("Einhell TE-AC 270/50 Silent: tanque, potencia, caudal a 7 bar y ruido", "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/"),
     ],
 }
@@ -296,7 +301,7 @@ def render_50l_models():
     ]
     cards = ""
     for brand, model, use, specs, includes, source, image, image_source in models:
-        photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'/assets/editorial/compresores.webp\';this.alt=\'Imagen ilustrativa de compresor\';this.parentElement.classList.add(\'fallback-photo\')">' if image else '<div class="illustrative-product"><img src="/assets/editorial/compresores.webp" alt="Imagen ilustrativa de compresor" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · foto del modelo pendiente</span></div>'
+        photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'/assets/editorial/compresores.webp\';this.alt=\'Imagen ilustrativa de compresor\';this.parentElement.classList.add(\'fallback-photo\')">' if image else '<div class="illustrative-product"><img src="/assets/editorial/compresores.webp" alt="Imagen ilustrativa de compresor" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo</span></div>'
         photo_source = f'<a class="offer-source" href="{escape(image_source, quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if image_source else ''
         search_url = 'https://listado.mercadolibre.com.ar/' + urllib.parse.quote(f'compresor {brand} {model}', safe='')
         cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p><a class="offer-source" href="{escape(source, quote=True)}" target="_blank" rel="noopener noreferrer">Ficha que respalda estos datos ↗</a>{photo_source}<div class="offer-actions"><a class="offer-button" href="{escape(search_url, quote=True)}" target="_blank" rel="nofollow noopener noreferrer">Buscar modelo en Mercado Libre ↗</a></div></article>'
@@ -636,7 +641,7 @@ def get_related_articles(curr, all_articles, taxonomy_map, limit=3):
     return [c[1] for c in scored[:limit]]
 
 def load_all_articles():
-    """Escanea y carga los 135 artículos markdown del repositorio."""
+    """Escanea y carga los artículos markdown del repositorio."""
     articles = []
     
     # 1. Amoladoras en la raíz de paginas/
@@ -657,6 +662,14 @@ def load_all_articles():
             "description": fm.get("description", ""),
             "author": fm.get("author", "Equipo Técnico de Taller Lab"),
             "reviewed": fm.get("reviewed", ""),
+            "published": fm.get("published", ""),
+            "research_type": fm.get("research_type", ""),
+            "physical_test": fm.get("physical_test", ""),
+            "specifications_contrasted": fm.get("specifications_contrasted", ""),
+            "buyer_opinions": fm.get("buyer_opinions", ""),
+            "primary_sources": fm.get("primary_sources", ""),
+            "information_asset": fm.get("information_asset", ""),
+            "asset_status": fm.get("asset_status", ""),
             "keywords": fm.get("keywords", []),
             "body": body,
             "word_count": len(body.split()),
@@ -683,6 +696,14 @@ def load_all_articles():
                     "description": fm.get("description", ""),
                     "author": fm.get("author", "Equipo Técnico de Taller Lab"),
                     "reviewed": fm.get("reviewed", ""),
+                    "published": fm.get("published", ""),
+                    "research_type": fm.get("research_type", ""),
+                    "physical_test": fm.get("physical_test", ""),
+                    "specifications_contrasted": fm.get("specifications_contrasted", ""),
+                    "buyer_opinions": fm.get("buyer_opinions", ""),
+                    "primary_sources": fm.get("primary_sources", ""),
+                    "information_asset": fm.get("information_asset", ""),
+                    "asset_status": fm.get("asset_status", ""),
                     "keywords": fm.get("keywords", []),
                     "body": body,
                     "word_count": len(body.split()),
@@ -690,9 +711,25 @@ def load_all_articles():
                 
     return articles
 
-ALL_ARTICLES = load_all_articles()
+_ALL_DRAFTS = load_all_articles()
+# La publicación requiere una decisión explícita y una revisión fechada.
+# Los archivos sin ambos campos permanecen en el repositorio, fuera del sitio.
+REQUIRED_RESEARCH_FIELDS = ("research_type", "physical_test", "specifications_contrasted", "buyer_opinions", "primary_sources", "information_asset", "asset_status")
+ALL_ARTICLES = [
+    a for a in _ALL_DRAFTS
+    if a.get("published") == "true" and a["reviewed"]
+    and all(a.get(field) for field in REQUIRED_RESEARCH_FIELDS)
+    and a["primary_sources"] == "sí" and a["specifications_contrasted"] == "sí"
+    and a["asset_status"] == "verificado"
+    and re.search(r'^## Fuentes consultadas\s*$', a["body"], re.MULTILINE)
+    and "Dato verificado" in a["body"]
+    and "Análisis TallerLab" in a["body"]
+]
+PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
 INDEXABLE_PATHS = tuple(dict.fromkeys(
-    ["/"] + [f"/{section}/" for section in CATEGORY_META] + [article["url"] for article in ALL_ARTICLES]
+    ["/", "/como-trabajamos/", "/equipo-editorial/"]
+    + [f"/{section}/" for section in PUBLIC_SECTIONS]
+    + [article["url"] for article in ALL_ARTICLES]
 ))
 INDEXABLE_PATH_SET = set(INDEXABLE_PATHS)
 
@@ -1386,14 +1423,9 @@ HTML_SHELL = """<!DOCTYPE html>
       </a>
       <nav class="nav-links">
         <a href="/" class="nav-btn">Inicio</a>
-        <a href="/hidrolavadoras/" class="nav-btn">Hidrolavadoras</a>
         <a href="/compresores/" class="nav-btn">Compresores</a>
-        <a href="/amoladoras/" class="nav-btn">Amoladoras</a>
-        <a href="/taladros/" class="nav-btn">Taladros</a>
-        <a href="/sierras/" class="nav-btn">Sierras</a>
-        <a href="/soldadoras/" class="nav-btn">Soldadura</a>
-        <a href="/soldadura-electronica/" class="nav-btn">Electrónica</a>
-        <a href="/generadores/" class="nav-btn">Generadores</a>
+        <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
+        <a href="/equipo-editorial/" class="nav-btn">Equipo editorial</a>
       </nav>
     </div>
   </header>
@@ -1407,6 +1439,7 @@ HTML_SHELL = """<!DOCTYPE html>
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
+      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/equipo-editorial/">Quiénes somos</a></p>
     </div>
   </footer>
 </body>
@@ -1528,359 +1561,91 @@ def render_search_cards():
         """)
     return "".join(cards)
 
-def render_home_page():
-    # 1. Strip horizontal de las 7 Familias
-    strip_items_html = ""
-    for sec_id, meta in CATEGORY_META.items():
-        count = sum(1 for a in ALL_ARTICLES if a["section"] == sec_id)
-        strip_items_html += f"""
-        <a href="/{sec_id}/" class="category-strip-item">
-          <span class="category-strip-icon" aria-hidden="true">{meta['icon']}</span>
-          <span>{meta['name']}</span>
-        </a>
-        """
+def render_editorial_page(kind):
+    members_html = ""
+    if kind == "metodologia":
+        title = "Cómo trabajamos"
+        path = "/como-trabajamos/"
+        body = """
+## De dónde salen los datos
 
-    # 2. Guías destacadas
-    top_3_html = ""
-    
-    # Taladro DeWalt
-    art_dewalt = next((a for a in ALL_ARTICLES if a["url"] == "/taladros/dewalt-inalambrico/"), None)
-    if art_dewalt:
-        top_3_html += render_article_card(art_dewalt, badge_text="GUÍA DE COMPRA", action_text="Leer guía")
+Identificamos el código exacto de cada modelo y consultamos fichas, manuales y catálogos del fabricante. Indicamos la fuente junto a cada cifra decisiva. Si una ficha comercial contradice un manual, mostramos la diferencia y pedimos confirmar la variante antes de comprar. Un dato no publicado queda como «no informado»; no lo estimamos a partir de otro modelo.
 
-    # Sierra circular
-    art_sierra = next((a for a in ALL_ARTICLES if a["url"] == "/sierras/circulares/"), None)
-    if art_sierra:
-        top_3_html += render_article_card(art_sierra, badge_text="GUÍA TÉCNICA", action_text="Leer guía")
+## Cómo clasificamos las afirmaciones
 
-    # Compresores de 50 litros
-    art_comp = next((a for a in ALL_ARTICLES if a["url"] == "/compresores/50-litros/"), None)
-    if art_comp:
-        top_3_html += render_article_card(art_comp, badge_text="GUÍA DE COMPRA", action_text="Leer guía")
+**Dato verificado** identifica una cifra o característica que comprobamos en una fuente enlazada. **Declaración del fabricante** atribuye expresamente al fabricante una prestación o beneficio que no medimos. **Experiencia de compradores** resume opiniones externas solo cuando identificamos plataforma, modelo, fecha y muestra consultada; no equivale a una prueba propia. **Análisis TallerLab** indica una comparación, cálculo o conclusión documental explicada en la guía. **Desconocido** marca lo que las fuentes disponibles no permiten afirmar. Estas etiquetas ayudan a leer la evidencia; no sustituyen la fuente de cada dato decisivo.
 
-    # 3. Resto de guías troncales para elegir
-    featured_guide_urls = [
-        "/hidrolavadoras/comparativa-general/",
-        "/amoladoras/inalambricas/",
-        "/soldadoras/mig-sin-gas/",
-        "/generadores/para-casa/",
-    ]
-    more_featured_html = ""
-    for url in featured_guide_urls:
-        match = next((a for a in ALL_ARTICLES if a["url"] == url), None)
-        if match:
-            more_featured_html += render_article_card(
-                match, 
-                badge_text="COMPARATIVA", 
-                action_text="Ver comparativa"
+## Cómo comparamos
+
+El marco TallerLab parte del trabajo que querés hacer. Para cada modelo registramos capacidad útil a la presión o condición relevante, potencia declarada, peso, alimentación o plataforma de batería, garantía, servicio y repuestos en Argentina, accesorios incluidos y costo de consumibles. Estas variables no tienen siempre el mismo peso: en compresores importa más el caudal de salida a la presión de uso que el volumen del tanque. Cuando faltan datos comparables, no damos un ganador ni una puntuación artificial.
+
+## Precios y Mercado Libre
+
+Los precios, el stock y el envío cambian por vendedor y fecha. No publicamos un «mejor precio» sin verificar la oferta concreta y registrar cuándo se consultó. Los enlaces de búsqueda de Mercado Libre sirven para comprobar opciones vigentes; no prueban disponibilidad ni prestaciones. Antes de comprar recomendamos comprobar código de modelo, tensión, accesorios, garantía y costo final con envío.
+
+## Opiniones y pruebas propias
+
+Las opiniones de compradores pueden señalar dudas recurrentes, pero no equivalen a una medición técnica. No trasladamos calificaciones ajenas a una reseña propia. Solo llamamos «prueba propia» a una evaluación realizada por TallerLab, con método, condiciones y resultados documentados en la página. Las guías actualmente publicadas son análisis documentales de especificaciones; no afirman uso directo de los equipos.
+
+## Afiliación y correcciones
+
+Algunos enlaces a productos pueden generar una comisión para TallerLab. La comisión no cambia el criterio de comparación y señalamos esos enlaces como patrocinados. Las búsquedas generales se distinguen de enlaces a un producto concreto. Corregimos una guía cuando cambia una fuente o encontramos un error; la fecha de revisión solo se actualiza después de verificar de nuevo las afirmaciones afectadas.
+
+## Cuándo publicamos
+
+Cada guía requiere fuentes identificadas, comprobación de cifras, límites explicados y revisión editorial documentada. Los borradores no se sirven como páginas públicas. Nuestra firma editorial y sus límites se explican en [Equipo editorial TallerLab](/equipo-editorial/).
+"""
+        desc = "Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab."
+    else:
+        title = "Equipo editorial TallerLab"
+        path = "/equipo-editorial/"
+        body = """
+TallerLab firma sus guías como **Equipo editorial TallerLab**. Es la identidad editorial del sitio; no implica que un experto certificado haya probado cada producto. Todavía no publicamos nombres individuales ni credenciales verificables, por lo que no se atribuyen títulos profesionales a esta firma.
+
+El trabajo editorial consiste en identificar modelos concretos, leer documentación técnica, separar datos declarados de conclusiones y explicar qué información falta para decidir. Antes de publicar, contrastamos las cifras decisivas con sus fuentes y revisamos los límites de cada recomendación.
+
+La guía publicada de compresores de 50 litros es una comparación documental. No hubo ensayo instrumental propio de esos equipos. Cuando publiquemos una prueba de taller, detallaremos quién la hizo, con qué equipo y bajo qué condiciones.
+
+Consultá [cómo trabajamos](/como-trabajamos/) para ver el proceso completo y el tratamiento de enlaces comerciales.
+"""
+        desc = "Quién firma y revisa los contenidos de TallerLab y qué experiencia se documenta."
+        if EDITORIAL_MEMBERS:
+            profiles = "".join(
+                '<article><h3>' + escape(member["name"]) + '</h3><p>'
+                + escape(member["role"]) + '</p><p>' + escape(member["experience"])
+                + '</p><a href="' + escape(member["evidence_url"], quote=True)
+                + '" rel="noopener noreferrer">Trayectoria verificable ↗</a></article>'
+                for member in EDITORIAL_MEMBERS
             )
+            members_html = '<section class="markdown-body"><h2>Integrantes</h2>' + profiles + '</section>'
+    content = f'<div class="article-container"><div class="article-header"><h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
+    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path), PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
-    home_offers = render_affiliate_shelf("inicio", [
-        ("amoladoras", AFFILIATE_PRODUCTS["amoladoras"][0]),
-        ("hidrolavadoras", AFFILIATE_PRODUCTS["hidrolavadoras"][0]),
-        ("soldadoras", AFFILIATE_PRODUCTS["soldadoras"][0]),
-    ])
 
-    content = f"""
-    <!-- Hero Principal estilo Maqueta TallerLab con split de dos columnas -->
-    <div class="hero-container">
-      <div class="hero-grid">
-        <div class="hero-col-left">
-          <div class="hero-eyebrow">
-            <span style="display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #ff5500;"></span>
-            TallerLab · Argentina
-          </div>
-          <h1 class="hero-title">Herramientas<br>que <span class="text-orange">dan resultados</span></h1>
-          <p class="hero-desc">Guías y comparativas basadas en especificaciones para que elijas mejor y compres con criterio.</p>
-          
-          <div style="margin-bottom: 1.5rem;">
-            <a href="#elegi-por-tarea" class="btn-orange">Encontrá tu herramienta →</a>
-          </div>
-          
-          <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <label class="visually-hidden" for="live-search">Buscar guías por herramienta, marca o tarea</label>
-            <input type="search" id="live-search" placeholder="Buscá por herramienta, marca o tarea..." oninput="filterArticles()">
-          </div>
-        </div>
+def render_home_page():
+    cards = "".join(render_article_card(article, badge_text="GUÍA REVISADA", action_text="Leer comparativa") for article in ALL_ARTICLES)
+    content = f'''<div class="article-container"><div class="article-header"><h1>Herramientas que dan resultados</h1><p class="article-lead">Comparaciones documentadas para elegir herramientas en Argentina.</p></div><div class="article-grid">{cards}</div><div class="markdown-body"><p><a href="/como-trabajamos/">Conocé nuestro método de comparación</a> y <a href="/equipo-editorial/">quién firma las guías</a>.</p></div></div>'''
+    return HTML_SHELL.format(PAGE_TITLE="Herramientas que dan resultados", CANONICAL_TAG=canonical_tag("/"), PAGE_DESC="Guías de herramientas revisadas y documentadas para Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
-        <div class="hero-col-right">
-          <div class="hero-media-wrapper">
-            <div class="hero-brand-mark" aria-hidden="true">TL<span>+</span></div>
-            <span class="hero-image-label">Imagen ilustrativa</span>
-            <div class="handwritten-sticker">
-              Investigamos<br>Comparamos<br>Te ayudamos<br>a elegir
-              <svg width="110" height="12" viewBox="0 0 110 12" style="display:block; margin: 3px auto 0;">
-                <path d="M5 6 Q 55 12 105 4" fill="none" stroke="#ff5500" stroke-width="2.5" stroke-linecap="round"/>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Resultados del buscador en vivo -->
-    <div id="search-results-section" style="display: none; margin-bottom: 3.5rem;" aria-live="polite">
-      <div class="section-header">
-        <h2 class="section-title" id="search-results-title">Resultados de búsqueda</h2>
-      </div>
-      <div class="article-grid" id="search-articles-container">
-      </div>
-    </div>
-
-    <div id="home-static-content">
-      <section id="elegi-por-tarea" class="task-entry" aria-labelledby="task-title">
-        <div><span class="section-kicker">PUNTO DE PARTIDA</span><h2 id="task-title">¿Qué vas a hacer?</h2></div>
-        <div class="task-links">
-          <a href="/hidrolavadoras/">Limpiar <span>Hidrolavadoras para superficies y vehículos →</span></a>
-          <a href="/amoladoras/">Cortar <span>Amoladoras y discos según material →</span></a>
-          <a href="/taladros/">Perforar <span>Taladros y rotomartillos según superficie →</span></a>
-        </div>
-      </section>
-      <!-- Barra Horizontal de las 7 Categorías -->
-      <div class="category-strip">
-        {strip_items_html}
-      </div>
-
-      {home_offers}
-
-      <!-- Últimos Contenidos (Mockup cards) -->
-      <div id="ultimos-contenidos" style="margin-bottom: 4rem;">
-        <div class="section-header">
-          <div>
-            <h2 class="section-title">Últimos contenidos</h2>
-            <p class="section-subtitle">Comparativas técnicas y guías para elegir con criterio.</p>
-          </div>
-          <span class="section-link">Destacados</span>
-        </div>
-        <div class="article-grid">
-          {top_3_html}
-          {more_featured_html}
-        </div>
-      </div>
-
-      <!-- Transparencia Comercial y Fuentes -->
-      <div class="trust-footer" style="margin-top: 2rem;">
-        <h3 style="color: #293134; font-size: 1.1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-          <span style="color: var(--orange);">⚙️</span> Criterio de Taller Lab y Enlaces Comerciales
-        </h3>
-        <p><strong>Criterio editorial:</strong> Las guías reúnen especificaciones publicadas por fabricantes y criterios técnicos de elección. Cuando una prueba es propia, se indica expresamente en el artículo.</p>
-        <p style="margin-top: 0.5rem;"><strong>Transparencia en compras:</strong> Los botones «Ver precio en Mercado Libre» llevan a enlaces de afiliado. Podemos recibir una comisión sin costo adicional para vos. Comprobá precio, stock y condiciones en Mercado Libre.</p>
-      </div>
-    </div>
-
-    <script>
-      let searchCardsPromise;
-      async function filterArticles() {{
-        const query = document.getElementById('live-search').value.trim().toLowerCase();
-        const searchSection = document.getElementById('search-results-section');
-        const staticContent = document.getElementById('home-static-content');
-        if (query.length >= 2) {{
-          if (!searchCardsPromise) {{
-            searchCardsPromise = fetch('/search-cards.html').then(response => {{
-              if (!response.ok) throw new Error('No se pudieron cargar las guías');
-              return response.text();
-            }}).then(html => {{
-              document.getElementById('search-articles-container').innerHTML = html;
-            }}).catch(error => {{ searchCardsPromise = null; throw error; }});
-          }}
-          try {{ await searchCardsPromise; }} catch (error) {{
-            document.getElementById('search-results-title').innerText = 'No se pudo cargar la búsqueda. Intentá de nuevo.';
-            searchSection.style.display = 'block';
-            return;
-          }}
-          if (query !== document.getElementById('live-search').value.trim().toLowerCase()) return;
-          const cards = document.querySelectorAll('.live-search-item');
-          let matches = 0;
-          searchSection.style.display = 'block';
-          staticContent.style.opacity = '0.25';
-          cards.forEach(card => {{
-            const title = card.getAttribute('data-title');
-            const desc = card.innerText.toLowerCase();
-            if (title.includes(query) || desc.includes(query)) {{
-              card.style.display = 'flex';
-              matches++;
-            }} else {{
-              card.style.display = 'none';
-            }}
-          }});
-          document.getElementById('search-results-title').innerText = 'Resultados para "' + query + '" (' + matches + ' encontrados)';
-        }} else {{
-          searchSection.style.display = 'none';
-          staticContent.style.opacity = '1';
-          document.querySelectorAll('.live-search-item').forEach(card => card.style.display = 'none');
-        }}
-      }}
-    </script>
-    """
-    return HTML_SHELL.format(
-        PAGE_TITLE="Herramientas que dan resultados",
-        CANONICAL_TAG=canonical_tag("/"),
-        PAGE_DESC="Portal técnico TallerLab para Argentina con análisis y guías de compra de herramientas.",
-        PORT=PORT,
-        CONTENT=content,
-        LOGO_SRC=LOGO_SRC
-    )
 
 def render_category_page(section_id):
-    meta = CATEGORY_META.get(section_id, {"name": section_id.capitalize(), "icon": "📁", "desc": "", "badge": "Herramientas", "intro": ""})
-    cat_articles = [a for a in ALL_ARTICLES if a["section"] == section_id]
-    affiliate_shelf = render_affiliate_shelf(section_id)
-    groups = TAXONOMY_MAP.get(section_id, {"general": [], "necesidad": [], "marcas": [], "modelos": [], "accesorios": []})
-    
-    # 1. Guía Principal destacada arriba
-    general_files = groups.get("general", [])
-    featured_guide_html = ""
-    if general_files:
-        gen_art = next((a for a in cat_articles if a["filename"] == general_files[0]), None)
-        if gen_art:
-            featured_guide_html = f"""
-            <div style="margin-bottom: 3.5rem;">
-              <div class="section-header">
-                <div>
-                  <h2 class="section-title">¿No sabés cuál comprar?</h2>
-                  <p class="section-subtitle">Guía principal para entender las diferencias técnicas y elegir según tu trabajo.</p>
-                </div>
-                <span class="thumb-badge" style="background: rgba(255, 85, 0, 0.2); color: var(--orange-light); border-color: rgba(255, 85, 0, 0.4);">PUNTO DE PARTIDA</span>
-              </div>
-              <a href="{gen_art['url']}" class="featured-hero-card">
-                <div>
-                  <span class="thumb-badge" style="background: var(--orange); color: #fff; border: none; margin-bottom: 0.65rem; display: inline-block;">GUÍA PRINCIPAL</span>
-                  <h3 style="font-size: 1.85rem; font-weight: 800; color: #fff; line-height: 1.25; margin: 0.5rem 0 0.75rem 0;">{gen_art['h1']}</h3>
-                  <p style="color: #94a3b8; font-size: 1.05rem; line-height: 1.6;">{gen_art['description']}</p>
-                </div>
-                <div style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--orange); font-weight: 700; font-size: 1.05rem;">
-                  <span>Leer guía completa paso a paso</span>
-                  <span>→</span>
-                </div>
-                <span class="featured-guide-symbol" aria-hidden="true">{meta['icon']}</span>
-              </a>
-            </div>
-            """
+    articles = [a for a in ALL_ARTICLES if a["section"] == section_id]
+    meta = CATEGORY_META[section_id]
+    cards = "".join(render_article_card(a, badge_text="GUÍA REVISADA", action_text="Leer guía") for a in articles)
+    content = f'<div class="article-container"><div class="article-header"><h1>{escape(meta["name"])}</h1><p class="article-lead">Guías publicadas después de verificar sus fuentes y conclusiones.</p></div><div class="article-grid">{cards}</div></div>'
+    return HTML_SHELL.format(PAGE_TITLE=meta["name"], CANONICAL_TAG=canonical_tag(f"/{section_id}/"), PAGE_DESC=f'Guías revisadas sobre {meta["name"].lower()} para Argentina.', PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
-    # 2. Tipos y Usos (Elegí según lo que necesitás)
-    necesidad_files = groups.get("necesidad", [])
-    necesidad_articles = [a for a in cat_articles if a["filename"] in necesidad_files]
-    necesidad_html = ""
-    if necesidad_articles:
-        cards = "".join([render_article_card(a, badge_text="TIPO / USO", action_text="Ver comparativa") for a in necesidad_articles])
-        necesidad_html = f"""
-        <div style="margin-bottom: 3.5rem;">
-          <div class="section-header">
-            <div>
-              <h2 class="section-title">Elegí según lo que necesitás</h2>
-              <p class="section-subtitle">Comparativas por tipo de trabajo, configuración y exigencia.</p>
-            </div>
-            <span class="section-subtitle">{len(necesidad_articles)} opciones</span>
-          </div>
-          <div class="article-grid">
-            {cards}
-          </div>
-        </div>
-        """
-
-    # 3. Marcas
-    marcas_files = groups.get("marcas", [])
-    marcas_articles = [a for a in cat_articles if a["filename"] in marcas_files]
-    marcas_html = ""
-    if marcas_articles:
-        cards = "".join([render_article_card(a, badge_text="MARCA", action_text="Comparar catálogo") for a in marcas_articles])
-        marcas_html = f"""
-        <div style="margin-bottom: 3.5rem;">
-          <div class="section-header">
-            <div>
-              <h2 class="section-title">Explorá por marca</h2>
-              <p class="section-subtitle">Evaluación de gamas de producto, disponibilidad de repuestos y servicio técnico oficial.</p>
-            </div>
-            <span class="section-subtitle">{len(marcas_articles)} marcas</span>
-          </div>
-          <div class="article-grid">
-            {cards}
-          </div>
-        </div>
-        """
-
-    # 4. Modelos concretos
-    modelos_files = groups.get("modelos", [])
-    modelos_articles = [a for a in cat_articles if a["filename"] in modelos_files]
-    modelos_html = ""
-    if modelos_articles:
-        cards = "".join([render_article_card(a, badge_text="MODELO", action_text="Ver ficha técnica") for a in modelos_articles])
-        modelos_html = f"""
-        <div style="margin-bottom: 3.5rem;">
-          <div class="section-header">
-            <div>
-              <h2 class="section-title">Buscá un modelo concreto</h2>
-              <p class="section-subtitle">Fichas de evaluación técnica, ventajas, limitaciones y verificación antes de comprar.</p>
-            </div>
-            <span class="section-subtitle">{len(modelos_articles)} fichas</span>
-          </div>
-          <div class="article-grid">
-            {cards}
-          </div>
-        </div>
-        """
-
-    # 5. Accesorios y consumibles
-    accesorios_files = groups.get("accesorios", [])
-    accesorios_articles = [a for a in cat_articles if a["filename"] in accesorios_files]
-    accesorios_html = ""
-    if accesorios_articles:
-        cards = "".join([render_article_card(a, badge_text="ACCESORIO", action_text="Ver medidas y tipos") for a in accesorios_articles])
-        accesorios_html = f"""
-        <div style="margin-bottom: 3.5rem;">
-          <div class="section-header">
-            <div>
-              <h2 class="section-title">Accesorios y consumibles</h2>
-              <p class="section-subtitle">Insumos y repuestos compatibles para sacar el máximo rendimiento a tu máquina.</p>
-            </div>
-            <span class="section-subtitle">{len(accesorios_articles)} guías</span>
-          </div>
-          <div class="article-grid">
-            {cards}
-          </div>
-        </div>
-        """
-
-    content = f"""
-    <div class="breadcrumb">
-      <a href="/">Inicio</a> <span>/</span> <span>{meta['name']}</span>
-    </div>
-
-    <!-- Category Hero Header -->
-    <div class="category-hero">
-      <div class="category-hero-copy">
-        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-          <span style="font-size: 2.2rem;">{meta['icon']}</span>
-          <h1 style="font-size: 2.4rem; font-weight: 900; letter-spacing: -0.03em; color: #ffffff;">{meta['name']}</h1>
-        </div>
-        <p style="color: #94a3b8; font-size: 1.1rem; max-width: 860px; line-height: 1.6;">
-          {meta.get('intro', meta['desc'])} ({len(cat_articles)} guías y análisis disponibles).
-        </p>
-      </div>
-      <div class="category-hero-symbol" aria-hidden="true">{meta['icon']}</div>
-    </div>
-
-    {featured_guide_html}
-    {affiliate_shelf}
-    {necesidad_html}
-    {marcas_html}
-    {modelos_html}
-    {accesorios_html}
-    """
-    return HTML_SHELL.format(
-        PAGE_TITLE=f"{meta['name']} · Guías Técnicas y Comparativas",
-        CANONICAL_TAG=canonical_tag(f"/{section_id}/"),
-        PAGE_DESC=meta['desc'],
-        PORT=PORT,
-        CONTENT=content,
-        LOGO_SRC=LOGO_SRC
-    )
 
 def render_article_page(article):
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
+    # No enlazar desde una guía publicada hacia borradores que devuelven 404.
+    clean_body = re.sub(
+        r'\[([^\]]+)\]\((/[^)]+)\)',
+        lambda m: m.group(0) if m.group(2) in INDEXABLE_PATH_SET else m.group(1),
+        clean_body,
+    )
     
     # 2. Formatear botones comerciales de Mercado Libre
     def render_ml_link(match):
@@ -1975,8 +1740,20 @@ def render_article_page(article):
         seen_sources.add(url)
         source_items.append(f'<li><a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(label)} ↗</a></li>')
     sources_html = ("<ul>" + "".join(source_items) + "</ul>") if source_items else "<p>Esta guía aún no cita una fuente externa para sus afirmaciones técnicas.</p>"
-    source_heading = "Fuentes y datos que respaldan:" if article["url"] in SOURCE_CLAIMS else "Enlaces externos del artículo (afirmaciones sin revisar):"
-    reviewed_label = f'Revisado: {escape(article["reviewed"])}' if article["reviewed"] else 'Revisión editorial pendiente'
+    sources_footer = "" if re.search(r'^## Fuentes consultadas\s*$', article["body"], re.MULTILINE) else f'<div class="article-sources"><strong>Fuentes consultadas:</strong>{sources_html}</div>'
+    reviewed_label = f'Revisado: {escape(article["reviewed"])}'
+    transparency_html = f'''<section class="article-sources" aria-label="Cómo investigamos esta guía">
+      <h2>Cómo investigamos esta guía</h2>
+      <ul>
+        <li>Tipo de análisis: {escape(article["research_type"])}</li>
+        <li>Prueba física de TallerLab: {escape(article["physical_test"])}</li>
+        <li>Especificaciones contrastadas: {escape(article["specifications_contrasted"])}</li>
+        <li>Opiniones de compradores: {escape(article["buyer_opinions"])}</li>
+        <li>Fuentes primarias: {escape(article["primary_sources"])}</li>
+        <li>Última revisión: {escape(article["reviewed"])}</li>
+      </ul>
+      <a href="/como-trabajamos/">Ver metodología de TallerLab</a>
+    </section>'''
         
     if article["url"] == f"/{article['section']}/":
         breadcrumb_html = f"""<a href="/">Inicio</a> <span>/</span> <span style="color: #ffffff;">{sec_meta['name']}</span>"""
@@ -1992,7 +1769,7 @@ def render_article_page(article):
       <div class="article-header">
         <div class="meta-bar">
           <span class="thumb-badge" style="background: rgba(255, 85, 0, 0.15); color: var(--orange); border-color: rgba(255, 85, 0, 0.3);">{sec_meta['name'].upper()}</span>
-          <span>Por {article['author']}</span>
+          <span>Por <a href="/equipo-editorial/">{escape(article['author'])}</a></span>
           <span>·</span>
           <span>{reviewed_label}</span>
           <span>·</span>
@@ -2012,9 +1789,10 @@ def render_article_page(article):
 
       <!-- Bloque de Confianza y Transparencia -->
       <div class="trust-footer">
+        {transparency_html}
         {trust_html}
-        <p><strong>Autor:</strong> {escape(article['author'])}. <strong>{reviewed_label}.</strong></p>
-        <div class="article-sources"><strong>{source_heading}</strong>{sources_html}</div>
+        <p><strong>Autor:</strong> <a href="/equipo-editorial/">{escape(article['author'])}</a>. <strong>{reviewed_label}.</strong> <a href="/como-trabajamos/">Cómo trabajamos</a>.</p>
+        {sources_footer}
       </div>
 
       <!-- Guías Relacionadas por Relevancia -->
@@ -2034,9 +1812,19 @@ def render_article_page(article):
     {body_script}
     """
     
+    article_schema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article["h1"],
+        "description": article["description"],
+        "mainEntityOfPage": absolute_url(article["url"]),
+        "author": {"@type": "Organization", "name": "Equipo editorial TallerLab", "url": absolute_url("/equipo-editorial/")},
+        "publisher": {"@type": "Organization", "name": "TallerLab"},
+    }
+    schema_tag = '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     return HTML_SHELL.format(
         PAGE_TITLE=article["title"],
-        CANONICAL_TAG=canonical_tag(article["url"]),
+        CANONICAL_TAG=canonical_tag(article["url"]) + schema_tag,
         PAGE_DESC=article["description"],
         PORT=PORT,
         CONTENT=content,
@@ -2156,6 +1944,13 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(render_home_page().encode("utf-8"))
             return
+        if path in ("/como-trabajamos/", "/equipo-editorial/"):
+            kind = "metodologia" if path == "/como-trabajamos/" else "equipo"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_editorial_page(kind).encode("utf-8"))
+            return
             
         # 3. Artículos específicos (incluyendo guías troncales con URL propia como /soldadoras/ y /amoladoras/)
         for a in ALL_ARTICLES:
@@ -2167,7 +1962,7 @@ class TallerLabHandler(BaseHTTPRequestHandler):
                 return
 
         # 4. Categorías restantes (/hidrolavadoras/, /compresores/, etc.)
-        for sec_id in CATEGORY_META.keys():
+        for sec_id in PUBLIC_SECTIONS:
             if path == f"/{sec_id}/":
                 self.send_response(200)
                 self.send_header("Content-Type", "text/html; charset=utf-8")

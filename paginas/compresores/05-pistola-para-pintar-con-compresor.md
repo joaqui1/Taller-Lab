@@ -2,79 +2,55 @@
 title: "Pistola para pintar con compresor: cuál elegir"
 h1: "Cómo elegir una pistola para pintar con compresor"
 url: "/compresores/pistola-para-pintar/"
-description: "Guía de compra sobre pistolas para pintar con compresor: diferencias HVLP, LVLP y convencionales, boquillas 1.3 a 2.0 mm, consumo de CFM y compatibilidad con tu tanque."
+description: "Tabla por código de tres pistolas BTA: contrasta consumo, presión, alimentación y tamaño de copa, sin inferir eficiencia ni continuidad."
 author: "Taller Lab"
 category: "Compresores y Neumática"
 keywords: ["pistola para pintar con compresor", "pistola hvlp compresor", "pistola lvlp", "pico soplete de pintar"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "Tabla por código de tres pistolas BTA: contrasta consumo, presión, alimentación y tamaño de copa, sin inferir eficiencia ni continuidad."
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Cómo elegir una pistola para pintar con compresor
 
-Lograr una terminación de pintura suave, uniforme y libre de gotas o marcas de brocha es una de las mayores satisfacciones al incorporar aire comprimido en el taller. Sin embargo, colocar cualquier pistola en un compresor chico es la receta directa para el fracaso: si la pistola consume más aire del que el cabezal puede reponer, la presión caerá en mitad de la pasada y la pintura saldrá pulverizada de forma irregular con efecto "piel de naranja".
+<!-- AUDITORIA_EDITORIAL_178 -->
 
-En esta guía de **Taller Lab** te explicamos las diferencias fundamentales entre los sistemas HVLP, LVLP y convencionales, cómo elegir el calibre de boquilla según el material a proyectar y cómo verificar la compatibilidad de consumo de aire con tu compresor.
+**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
----
+## Cómo investigamos esta guía
 
-## Diferencias entre HVLP, LVLP y convencional
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026
 
-El sistema de atomización define cuánta pintura llega a la pieza y cuánta se pierde en forma de niebla en el ambiente:
+| Código / modelo BTA | Alimentación / sistema | Consumo de aire publicado | Presión publicada | Copa |
+| :--- | :--- | ---: | :--- | ---: |
+| 279064.1 / AS-1021 | Baja presión; ficha de producto | Aprox. 85 L/min | 10–40 psi | 1 L |
+| 279063 / ASP1070 | Succión, HVLP | 119–201 L/min | Recomendada 29–51 psi; máxima 120 psi | 1.000 cm³ |
+| 279068 / ASPM1070 | Gravedad, alta presión; retoques | 68 L/min | Recomendada 43,5–58 psi; máxima 120 psi | 200 cm³ |
 
-| Sistema | Sigla / Significado | Presión de entrada | Eficiencia de transferencia | Consumo de aire |
-| :--- | :--- | :---: | :---: | :---: |
-| **HVLP** | High Volume Low Pressure (Alto volumen, baja presión) | 2,0 a 2,5 bar (30 PSI) | Alta (65% a 75%) | Alto (200 a 350 l/min / 7-12 CFM) |
-| **LVLP** | Low Volume Low Pressure (Bajo volumen, baja presión) | 1,5 a 2,0 bar (20-28 PSI) | Muy alta (70% a 80%) | **Bajo (120 a 190 l/min / 4-6.5 CFM)** |
-| **Convencional** | Alta presión tradicional (por succión o gravedad) | 3,5 a 5,0 bar (50-70 PSI) | Baja (30% a 40%) | Medio (180 a 250 l/min) |
+**Dato verificado:** el catálogo BTA 2026/27 identifica ASP1070 y ASPM1070 por códigos distintos y especifica sistemas de alimentación, presión, copa y consumo. La ficha de AS-1021 publica cerca de 85 L/min. En el catálogo, BTA sugiere compresor de 2 HP para ASP1070 y ASPM1070; esa recomendación aparece como campo del fabricante.
 
-* **HVLP**: Es el estándar actual en talleres de chapa y pintura profesional. Al proyectar la pintura a baja velocidad dentro de una cortina suave de aire, reduce el rebote y genera un acabado impecable. Requiere compresores de al menos 50L potentes o preferentemente 100L.
-* **LVLP**: La salvación para compresores chicos (24 a 50 litros). Logra atomizaciones muy finas consumiendo hasta un 40% menos de caudal que una HVLP.
-* **Convencional**: Desperdicia hasta un 60% de pintura en niebla ambiental suspendida. Hoy en día solo se justifica para aplicaciones rústicas de anticorrosivo o esmalte sintético en herrería pesada.
+**Análisis TallerLab:** la diferencia numérica entre los consumos publicados de ASP1070 (119–201 L/min) y ASPM1070 (68 L/min) es de 51–133 L/min, según el extremo del rango ASP1070 que se tome. No permite declarar mayor eficiencia: los documentos no explican una condición de medición común ni miden cobertura o transferencia de pintura. También cambia la aplicación declarada y el volumen de copa, así que primero corresponde emparejar proceso, presión y consumo, luego cotejar el FAD del compresor a esa presión.
 
----
+**Desconocido:** el catálogo no prueba qué compresor sostiene cada pistola en uso continuo, ni el acabado, desperdicio o superficie por hora. La sugerencia de 2 HP no sustituye el caudal de salida medido.
 
-## Boquilla según pintura y superficie
+## Fuentes consultadas
 
-El diámetro del conjunto aguja/pico/boquilla dosifica la viscosidad de los fluidos que pueden fluir sin obstrucciones:
+- **Documentación primaria:** [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [ficha BTA AS-1021](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
 
-* **Pico 1,0 mm a 1,2 mm (Mini pistolas / Spot repair)**: Barnices al agua livianos, tintas para madera, retoques puntuales de carrocería en paños pequeños.
-* **Pico 1,3 mm a 1,4 mm (El estándar de acabado)**: Bicapa automotriz, poliuretano, lacas brillantes y esmaltes sintéticos bien diluidos. Ofrece el patrón de pulverización más liso y parejo.
-* **Pico 1,7 mm a 1,8 mm**: Fondos, primers de relleno, masillas a soplete y esmaltes de terminación con mayor cuerpo.
-* **Pico 2,0 mm a 2,5 mm**: Pinturas látex de pared, protectores para chasis (*undercoating*) y pinturas espesas que requieren alto caudal de descarga.
+Para seguir comparando: [compresores para pintar](/compresores/para-pintar/).
 
----
+Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-## Consumo de aire y compatibilidad
-
-Antes de comprar una pistola, confrontá su consumo nominal en CFM o litros/minuto con el caudal real efectivo (FAD) de tu equipo. Para conocer en profundidad el cálculo de caudales y dimensionamiento del calderín, revisá nuestra guía sobre [qué compresor elegir para pintar](/compresores/para-pintar/):
-
-* **Compresor de 24 litros (1,5 a 2 HP)**: Entrega entre 100 y 130 l/min útiles. **Solo compatible con pistolas LVLP o mini pistolas de retoque**. Una HVLP estándar vaciará el depósito en menos de 20 segundos de gatilleo continuo.
-* **Compresor de 50 litros (2 a 2,5 HP)**: Entrega entre 140 y 170 l/min útiles. Permite operar pistolas LVLP o pistolas HVLP de consumo moderado en piezas aisladas, requiriendo pausas para recuperación de carga.
-* **Compresor de 100 litros (3 HP correa)**: Supera los 250 l/min útiles. Abastece pistolas profesionales HVLP continuas sin caídas de presión en el manómetro.
-
-> **Calidad del aire y conducción**: Para que la pistola rinda al 100%, es imprescindible usar una [manguera para compresor de aire](/compresores/manguera/) con diámetro interior de 8 mm o 10 mm (evitando cuellos de botella) e intercalar una [trampa de agua o filtro de línea](/compresores/filtros/) para que el condensado del tanque no llegue a la boquilla y arruine el acabado con ampollas u ojos de pescado.
-
----
-
-## Regulación y limpieza
-
-Una pistola de calidad posee tres tornillos de calibración fundamentales:
-
-1. **Regulador de caudal de pintura (aguja)**: Ajusta cuánto retrocede la aguja para limitar la cantidad de líquido que sale por la tobera.
-2. **Regulador de abanico**: Abre o cierra el flujo de aire en los cuernos de la boquilla, transformando el rociado desde un punto redondo hasta una franja ovalada vertical u horizontal.
-3. **Regulador de presión de entrada**: Micrómetro en la base del mango para ajustar los bar exactos.
-
-> **Regla de oro de mantenimiento**: Nunca sumerjas la pistola entera en un tacho con solvente o thinner, ya que esto reseca los retenes y empaquetaduras de teflón del interior. Desarmá solo la copa, la aguja y la tobera frontal, limpiándolas con cepillos de cerdas blandas inmediatamente después de terminar de pintar.
-
----
-
-## Opciones en Mercado Libre
-
-En Mercado Libre podés encontrar una variedad extensa según tu presupuesto:
-
-* **Pistolas LVLP (Bregant, Hamilton, Star)**: La alternativa ideal si tenés un compresor de 24 o 50L y buscás calidad automotriz sin cambiar de motor.
-* **Pistolas HVLP profesionales (Devilbiss, Sagola, Voylet, Lusqtoff)**: Con copas de gravedad de 600 ml fabricadas en nylon antigoteo y agujas de acero inoxidable.
-* **Pistolas convencionales con copa inferior de succión (1 litro)**: Para herrería, esmaltes sintéticos y mantenimiento rural de maquinaria agrícola.
-
-Si también necesitás manguera, inflador y pistola de sopleteo, el [kit Lusqtoff de 5 piezas](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"} incluye una pistola convencional para pintar. Confirmá la boquilla y el consumo de aire de esa pistola antes de conectarla a tu compresor; no reemplaza una HVLP o LVLP elegida para un acabado fino.
-
-[Ver pistolas para pintar con compresor en Mercado Libre](https://listado.mercadolibre.com.ar/pistola-para-pintar-con-compresor){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Para explorar la categoría: [guías relacionadas](/compresores/).

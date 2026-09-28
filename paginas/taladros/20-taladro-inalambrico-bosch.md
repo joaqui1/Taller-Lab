@@ -2,73 +2,48 @@
 title: "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir"
 h1: "Qué taladro inalámbrico Bosch comprar"
 url: "/taladros/bosch-inalambrico/"
-description: "Guía técnica de Taller Lab sobre taladros inalámbricos Bosch en Argentina: diferencias entre líneas GSR (atornillador) y GSB (percutor), 12V vs 18V, baterías ProCORE y kits recomendados."
+description: "Comparación documental Bosch GSR 120-LI y GSB 18V-50: plataforma, torque, mandril, peso y contenido de un kit identificado."
 author: "Taller Lab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico bosch", "bosch gsr 120-li", "bosch gsb 180-li", "taladro percutor bosch 18v", "bosch professional argentina"]
+research_type: "documental"
+physical_test: "no"
+specifications_contrasted: "sí"
+buyer_opinions: "no"
+primary_sources: "sí"
+information_asset: "GSR 120-LI o GSB 18V-50: distinguir plataforma y percusión"
+asset_status: "verificado"
+reviewed: "27/09/2026"
+published: true
 ---
 
 # Qué taladro inalámbrico Bosch comprar
 
-Dentro del segmento de [taladros inalámbricos](/taladros/inalambricos/) para uso profesional e industrial en Argentina, la línea azul **Bosch Professional** es ampliamente valorada por su durabilidad extrema, la suavidad y precisión de sus embragues de torque y la confiabilidad de sus componentes mecánicos. Ya sea para armadores de muebles que requieren precisión quirúrgica al atornillar bisagras o constructores que enfrentan perforaciones diarias en mampostería, Bosch cuenta con soluciones especializadas para cada oficio.
+**Dato verificado:** esta comparación usa fichas Bosch de dos códigos concretos: GSR 120-LI (12 V) y GSB 18V-50 (18 V). No extrapolamos las cifras a toda la línea Bosch.
 
-Sin embargo, al explorar la oferta de taladros a batería de la marca alemana surge una duda constante: ¿qué significan las siglas GSR y GSB, y qué plataforma de voltaje (12 V o 18 V) conviene adquirir? En esta guía de **Taller Lab** despejamos todas las incógnitas para que elijas el equipo exacto según tu trabajo.
+## GSR 120-LI o GSB 18V-50: distinguir plataforma y percusión
 
----
+| Dato publicado | GSR 120-LI | GSB 18V-50 |
+| :--- | ---: | ---: |
+| Plataforma | 12 V | 18 V |
+| Función | Atornillar y perforar | Atornillar, perforar y percutir |
+| Torque máximo publicado | 30 Nm (duro) | 50 Nm |
+| Velocidades sin carga | 0–400 / 0–1.500 rpm | 0–460 / 0–1.800 rpm |
+| Mandril | 0,8–10 mm | 1,5–13 mm, metálico |
+| Peso sin batería | 0,8 kg | 1,1 kg |
+| Kit documentado | Configuración depende del código | 0 601 9H5 1H0: 2 baterías de 2 Ah, cargador y L-CASE |
 
-## Diferencias entre GSR y GSB
+**Análisis TallerLab.** En estas dos fichas el GSB publica 20 Nm más de torque máximo y un mandril con apertura 3 mm mayor; también pesa 0,3 kg más sin batería. El GSB suma percusión. Estas diferencias sirven para filtrar por función y tamaño de accesorio, pero no son un ensayo de perforación ni prueban que un modelo sea mejor para cualquier tarea. El kit del GSR también cambia por número de pedido.
 
-La nomenclatura técnica de Bosch en taladros inalámbricos responde a una lógica alemana estricta que define sus capacidades:
+**Declaración del fabricante.** Bosch describe la percusión del GSB 18V-50 como una función para perforar mampostería y publica compatibilidad con baterías y cargadores Professional de 18 V. No trasladamos esa compatibilidad a la plataforma de 12 V.
 
-| Sigla Técnica | Denominación en Alemán | Función Principal | Modo Percutor | Mandril Típico | Ámbito de Trabajo |
-| :---: | :--- | :--- | :---: | :---: | :--- |
-| **GSR** | *Gewerblicher Schrauber Rotierend* (Atornillador Profesional) | Atornillado y perforación pura en madera, plástico y metales. | **No posee percusión** | 10 mm o 13 mm autoajustable | Carpintería, colocación de placas de yeso, electricidad y armado de tableros. |
-| **GSB** | *Gewerblicher Schlag-Bohrer* ([Taladro Percutor Inalámbrico](/taladros/taladro-percutor-inalambrico/) Profesional) | Atornillado, perforación rotativa y **perforación con impacto**. | **Sí posee percusión mecánica** | 10 mm o 13 mm metálico reforzado | Obra civil, instalaciones sanitarias, colocación de tarugos en paredes de ladrillo. |
+**Desconocido.** Las fichas consultadas no comparan autonomía bajo una misma carga, tiempo de perforación ni resultados sobre el mismo material. Confirmá el número de pedido, baterías, cargador y tensión del kit ofrecido.
 
-* **¿Por qué elegir un GSR?**: Al no tener el conjunto de levas de percusión dentro del cabezal, el modelo GSR es entre 2 y 3 centímetros más corto, pesa menos y carece por completo de juego axial en el mandril. Es el taladro predilecto de ebanistas y fabricantes de muebles de melamina.
-* **¿Por qué elegir un GSB?**: Si necesitás un [taladro percutor inalámbrico](/taladros/taladro-percutor-inalambrico/) versátil que pueda perforar paredes de ladrillo hueco, común o revoques de obra para fijar tarugos de 6, 8 o 10 mm, el modelo GSB es imprescindible. Podés revisar nuestra comparativa de [taladros percutores a batería](/taladros/taladro-percutor-inalambrico/) para evaluar rendimientos y especificaciones.
+Para ampliar la comparación entre plataformas, consultá la guía de [taladros inalámbricos](/taladros/inalambricos/).
 
----
+## Fuentes consultadas
 
-## Cuándo elegir 12 V o 18 V
+- **Documentación primaria:** [Bosch Argentina GSB 18V-50](https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2); [Bosch Ecuador GSR 120-LI](https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0).
+- **Opiniones:** no se revisó una muestra verificable.
 
-Bosch lidera el mercado con dos plataformas de batería netamente diferenciadas por su tamaño y capacidad de torque:
-
-### 1. Sistema Bosch Professional 12 V (GSR 120-LI / GSB 120-LI)
-* **Peso y ergonomía**: Las baterías tubulares de 12 V se alojan directamente dentro de la empuñadura, permitiendo un diseño ultracompacto con un peso inferior a 1 kg.
-* **Torque**: Entre **30 y 35 Nm**, suficiente para fijar tornillos autoperforantes de hasta 5 mm y perforar madera con brocas de hasta 20 mm.
-* **Uso óptimo**: Instaladores de alarmas, electricistas, técnicos de refrigeración y armadores de cocinas que trabajan todo el día con los brazos en alto o dentro de muebles estrechos.
-
-### 2. Sistema Bosch Professional 18 V (GSB 180-LI / GSB 18V-50 Brushless)
-* **Potencia y autonomía**: Baterías de base plana deslizante. Entregan torques de **54 a 65 Nm** en modelos estándar y más de **110 Nm** en gamas BiTurbo (GSB 18V-110 C).
-* **Mandril y percusión**: Mandriles metálicos de 13 mm (1/2") y tasas de impacto de hasta 27.000 golpes por minuto.
-* **Uso óptimo**: Obras de construcción, herrería pesada, colocación de brocas copa en metal y carpintería de postes estructurales.
-
-> **Regla de taller**: Los taladros Bosch de gama alta incorporan el sistema **KickBack Control**. Un sensor giroscópico apaga el motor en milisegundos si la broca se traba bruscamente en una varilla de acero o un nudo de madera, protegiendo las muñecas del operario contra torceduras y esguinces graves.
-
----
-
-## Compatibilidad de baterías y cargadores
-
-El ecosistema de baterías de Bosch Professional ofrece total compatibilidad hacia atrás y hacia adelante (*Professional 18V System*):
-
-1. **Compatibilidad total desde 2008**: Cualquier batería azul de 18 V de litio fabricada desde el año 2008 hasta hoy es 100% compatible con cualquier herramienta azul de 18 V de la marca.
-2. **Tecnología ProCORE 18 V**: Las baterías ProCORE emplean celdas 21700 de alta corriente y láminas de cobre soldadas por láser con tecnología *CoolPack 2.0*. Disipan el calor un 135% mejor que las baterías estándar, entregando hasta un 87% más de potencia continua.
-3. **Cargadores inteligentes (GAL)**: Cargadores como el GAL 18V-40 completan una batería estándar de 2,0 Ah en solo 35 minutos y monitorean la temperatura de las celdas durante la carga para maximizar su vida útil.
-
----
-
-## Comparativa de modelos y kits
-
-En Mercado Libre Argentina, los taladros inalámbricos Bosch se comercializan en diversas configuraciones según tu necesidad:
-
-| Modelo Bosch | Tensión | Torque Máx. | Motor | Incluye Percusión | Configuración de Kit Típica |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **GSR 120-LI** | 12 V | 30 Nm | Con carbones | No | Valija plástica + 2 baterías 2.0 Ah + cargador. |
-| **GSB 120-LI** | 12 V | 30 Nm | Con carbones | Sí | Valija plástica + 2 baterías 2.0 Ah + cargador. |
-| **GSB 180-LI** | 18 V | 54 Nm | Carbones cambiables | Sí | **El más vendido**: valija + 2 baterías 2.0 Ah + cargador. |
-| **GSB 18V-50** | 18 V | 50 Nm | Brushless sin carbones | Sí | Mandril metálico + valija L-BOXX + 2 baterías. |
-
-Al momento de comprar, asegurate de verificar que pertenezca a la **línea azul Professional** (no a la línea verde de bricolaje hogareño), lo que garantiza garantía oficial Bosch de 1 a 2 años y disponibilidad inmediata de repuestos en Argentina.
-
-[Ver taladros inalámbricos Bosch en Mercado Libre](https://listado.mercadolibre.com.ar/taladro-inalambrico-bosch){:target="_blank" rel="sponsored" .btn-mercado-libre}
+[Ver todas las guías de taladros](/taladros/).

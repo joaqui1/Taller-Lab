@@ -1,0 +1,559 @@
+## Soldadoras y Corte (29 URLs)
+
+### 122. `/soldadoras/`
+- **Title:** Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab
+- **H1:** Soldadoras: cuál elegir según el trabajo
+- **H2:**
+  - 1. Qué material y espesor vas a soldar
+  - 2. Soldadora inverter de electrodo: 160 o 200 amperios
+  - 3. MIG con gas o sin gas: diferencias y costo del equipo
+  - 4. Soldadora TIG: cuándo necesitás AC/DC
+  - 5. Soldadora de punto: baterías o chapa
+  - 6. Electrodos, alambres y protección necesarios
+  - 7. Qué revisar antes de comprar una soldadora
+  - 8. Guías de marcas y modelos
+  - Guías de modelos y accesorios
+- **Resumen:** Guía de Taller Lab para elegir soldadora según material, espesor y presupuesto: comparativa inverter MMA (160 vs 200 A), MIG con y sin gas, TIG AC/DC y soldadoras de punto. Elegí la soldadora por material, espesor, tipo de unión y lugar de trabajo; después compará proceso, corriente y ciclo de trabajo del modelo.
+
+### 123. `/soldadoras/electrodo-7018/`
+- **Title:** Electrodo 7018: usos, amperaje y cuál comprar
+- **H1:** Electrodo 7018: cómo elegirlo según el trabajo
+- **H2:**
+  - Para qué sirve el 7018
+  - Diámetros y amperaje según fabricante
+  - Conservación y compatibilidad
+  - Opciones de compra
+- **Resumen:** Guía técnica sobre el electrodo E7018 en Argentina: bajo hidrógeno, tabla de amperajes por diámetro, conservación en termo y marcas líderes como Conarco y Esab. Elegí un 7018 cuando la especificación de la unión requiere ese tipo de electrodo y podés controlar almacenamiento y preparación.
+
+### 124. `/soldadoras/lusqtoff/`
+- **Title:** Soldadoras Lusqtoff: modelos y cuál conviene comprar
+- **H1:** Qué soldadora Lusqtoff elegir para casa o taller
+- **H2:**
+  - Diferencias entre líneas y procesos
+  - Comparativa de modelos
+  - Cuál elegir según el trabajo
+  - Opciones de compra y kits
+- **Resumen:** Guía comparativa de soldadoras Lusqtoff en Argentina: líneas Iron, Mega Iron y MIG, ciclos de trabajo, potencia y opciones de compra. Elegí una soldadora Lüsqtoff por proceso, material y espesor, identificando el código exacto de cada equipo.
+
+### 125. `/soldadoras/soldadora-de-punto/`
+- **Title:** Soldadora de punto: tipos, usos y cuál elegir
+- **H1:** Soldadora de punto: cuál elegir para baterías o chapa
+- **H2:**
+  - Equipos para baterías y para chapa
+  - Capacidad y materiales compatibles
+  - Portátil o de banco
+  - Modelos y qué comparar
+- **Resumen:** Guía técnica de Taller Lab sobre soldadoras por puntos en Argentina: soldadoras para packs de baterías 18650, sacabollos para chapa de autos y equipos industriales. Elegí una soldadora de punto según si vas a unir chapa o pestañas de baterías: son trabajos con equipos y controles distintos.
+
+### 126. `/soldadoras/soldadora-mig-con-gas/`
+- **Title:** Soldadora MIG con gas: guía para elegir y comprar
+- **H1:** Qué soldadora MIG con gas comprar
+- **H2:**
+  - Cuándo conviene MIG con gas
+  - Potencia y ciclo de trabajo
+  - Gas, alambre y accesorios necesarios
+  - Comparativa y costo del equipo completo
+- **Resumen:** Guía técnica de Taller Lab sobre soldadoras MIG/MAG con gas en Argentina: ventajas frente a flux, mezclas de gas Atal y CO2, ciclo de trabajo y costos de equipamiento. Elegí una MIG con gas por material, espesor y volumen de trabajo.
+
+### 127. `/soldadoras/guantes/`
+- **Title:** Guantes para soldar: cuáles elegir para MIG y TIG
+- **H1:** Cómo elegir guantes para soldar según el proceso
+- **H2:**
+  - Guantes para electrodo, MIG y TIG
+  - Materiales y protección
+  - Talle, comodidad y destreza
+  - Opciones de compra
+- **Resumen:** Guía técnica de Taller Lab sobre guantes para soldar en Argentina: descarne pesado para electrodo, vaqueta para MIG y cabritilla suave para TIG. Elegí guantes de soldar según calor, salpicaduras y destreza que exige el proceso.
+
+### 128. `/soldadoras/tig/`
+- **Title:** Soldadora TIG: qué es y qué equipo conviene comprar
+- **H1:** Soldadoras TIG: guía para elegir tu equipo
+- **H2:**
+  - Qué es TIG y para qué sirve
+  - Diferencias entre DC y AC/DC
+  - Encendido y funciones importantes
+  - Equipos según uso y presupuesto
+- **Resumen:** Guía técnica sobre soldadoras TIG en Argentina: proceso GTAW, diferencias entre DC y AC/DC para aluminio, alta frecuencia, arco pulsado y modelos recomendados. Elegí una TIG según metal, espesor y calidad de terminación requerida.
+
+### 129. `/soldadoras/mig-sin-gas/`
+- **Title:** Soldadora MIG sin gas: comparativa y guía de compra
+- **H1:** Qué soldadora MIG sin gas conviene comprar
+- **H2:**
+  - Cómo funciona el alambre autoprotegido
+  - Ventajas y limitaciones
+  - Qué revisar antes de comprar
+  - Comparativa de equipos y kits
+- **Resumen:** Guía técnica de Taller Lab sobre soldadoras MIG sin gas (flux-core) en Argentina: funcionamiento del alambre autoprotegido, ventajas, limitaciones y mejores modelos. Elegí una MIG sin gas si el trabajo admite alambre flux y sus requisitos de limpieza y terminación.
+
+### 130. `/soldadoras/alambre-para-soldadura-mig/`
+- **Title:** Alambre para soldadura MIG: tipos y cómo elegir
+- **H1:** Alambre para soldadura MIG: tipos, diámetros y compatibilidad
+- **H2:**
+  - Alambre según el material
+  - Diámetros y compatibilidad
+  - Gas y tamaño de bobina
+  - Opciones de compra
+- **Resumen:** Guía técnica de Taller Lab sobre alambres macizos para soldadura MIG/MAG con gas: normas AWS ER70S-6, diámetros 0,8 y 1,0 mm, tipos de gas y bobinas de 5 y 15 kg. Elegí el alambre MIG por material base, proceso con gas o flux, diámetro compatible con rodillos y antorcha, y gas protector cuando corresponda.
+
+### 131. `/soldadoras/mascaras-fotosensibles/`
+- **Title:** Máscara de soldar fotosensible: cómo elegir la mejor
+- **H1:** Cómo elegir una máscara de soldar fotosensible
+- **H2:**
+  - Oscurecimiento y compatibilidad con el proceso
+  - Sensores, regulación y campo de visión
+  - Comodidad y alimentación
+  - Modelos y qué comparar
+- **Resumen:** Guía técnica de Taller Lab sobre máscaras de soldar fotosensibles en Argentina: tonalidades DIN, sensores ópticos, tiempo de respuesta en milisegundos y True Color. Elegí una máscara fotosensible por proceso, rango de sombra y sensibilidad ajustable.
+
+### 132. `/soldadoras/electrodo-6013/`
+- **Title:** Electrodo 6013: para qué sirve y cuál comprar
+- **H1:** Electrodo 6013: usos, medidas y qué elegir
+- **H2:**
+  - Para qué trabajos sirve
+  - Diámetro y amperaje según fabricante
+  - Conservación y compatibilidad
+  - Opciones de compra
+- **Resumen:** Guía técnica de Taller Lab sobre el electrodo rutílico E6013 en Argentina: usos en herrería, tabla de amperajes por diámetro, polaridades y marcas como Conarco y Esab. Elegí un 6013 según posición, espesor de la pieza y corriente que admite tu soldadora.
+
+### 133. `/soldadoras/soldadora-inverter-200-amp/`
+- **Title:** Soldadora inverter 200 A: modelos y cómo elegir
+- **H1:** Qué soldadora inverter de 200 amperios comprar
+- **H2:**
+  - Qué trabajos permite cada equipo
+  - Amperaje declarado y ciclo de trabajo
+  - Electrodos y alimentación compatibles
+  - Modelos y qué comparar
+- **Resumen:** Guía sobre soldadoras inverter de 200 amperios en Argentina: cómo leer el ciclo de trabajo, elegir electrodos y revisar la alimentación eléctrica. Una inverter de 200 A conviene cuando tu proceso y espesor exigen más corriente útil o margen de trabajo.
+
+### 134. `/soldadoras/electrodo-para-fundicion/`
+- **Title:** Electrodo para fundición: tipos y cuál elegir
+- **H1:** Cómo elegir un electrodo para fundición
+- **H2:**
+  - Identificar el material y la reparación
+  - Diferencias entre tipos de electrodos
+  - Compatibilidad y ficha técnica
+  - Opciones de compra
+- **Resumen:** Guía técnica de Taller Lab sobre electrodos para soldar fundición de hierro en Argentina: Ni-CI (níquel puro), NiFe-CI (ferroníquel), técnicas en frío y marcas como Conarco y Esab. Elegí el electrodo para fundición según el tipo de pieza, tamaño de la reparación y procedimiento térmico que requiere.
+
+### 135. `/soldadoras/alambre-flux/`
+- **Title:** Alambre flux: tipos, medidas y cuál comprar
+- **H1:** Cómo elegir alambre flux para tu soldadora
+- **H2:**
+  - Flux autoprotegido y con protección gaseosa
+  - Diferencias entre 0,8 y 0,9 mm
+  - Polaridad, rodillos y compatibilidad
+  - Opciones de compra y bobinas
+- **Resumen:** Guía de alambre tubular flux-core en Argentina: clasificaciones E71T-GS y E71T-11, diámetros de 0,8 y 0,9 mm, polaridad y opciones de compra. Elegí alambre flux por material, diámetro admitido por la máquina y polaridad que exige el consumible.
+
+### 136. `/soldadoras/soldadora-dogo-180/`
+- **Title:** Soldadora Dogo 180: características y qué revisar
+- **H1:** Soldadora Dogo 180: guía antes de comprar
+- **H2:**
+  - Identificar la versión exacta
+  - Ficha técnica y ciclo de trabajo
+  - Para qué usos conviene
+  - Kit incluido, alternativas y qué comparar
+- **Resumen:** Guía técnica sobre la soldadora Dogo 180 en Argentina: transformador clásico vs inverter, ciclo de trabajo real, electrodos compatibles y qué revisar antes de comprar. Antes de comprar una Dogo 180, identificá la variante y comprobá proceso, alimentación, corriente y ciclo de trabajo en su ficha.
+
+### 137. `/soldadoras/esab/`
+- **Title:** Soldadoras ESAB: modelos, diferencias y qué elegir
+- **H1:** Qué soldadora ESAB elegir según tu trabajo
+- **H2:**
+  - Líneas y procesos disponibles
+  - Comparativa de modelos
+  - Equipo para casa o taller
+  - Accesorios, garantía y opciones de compra
+- **Resumen:** Guía técnica comparativa sobre soldadoras ESAB en Argentina: líneas HandyArc, Bantam, Rogue y Rebel, ciclos de trabajo industriales, garantía y opciones de compra. Elegí una ESAB según proceso de soldadura, material, espesor y ritmo de trabajo.
+
+### 138. `/soldadoras/electrodo-para-acero-inoxidable/`
+- **Title:** Electrodo para acero inoxidable: cuál elegir
+- **H1:** Cómo elegir electrodos para acero inoxidable
+- **H2:**
+  - Identificar el acero y la unión
+  - Diferencias entre clasificaciones
+  - Diámetro y compatibilidad
+  - Opciones de compra
+- **Resumen:** Guía técnica de Taller Lab sobre electrodos para acero inoxidable en Argentina: normas AWS E308L, E316L y E309L para uniones disímiles, decapado y marcas como Conarco y Esab. Para inoxidable, elegí un electrodo compatible con el grado del metal base y el tipo de unión.
+
+### 139. `/soldadoras/para-aluminio/`
+- **Title:** Soldadora para aluminio: TIG o MIG, cuál elegir
+- **H1:** Qué soldadora necesitás para soldar aluminio
+- **H2:**
+  - Elegir entre TIG y MIG
+  - Equipo según espesor y trabajo
+  - Gas, aporte y accesorios compatibles
+  - Comparativa del costo completo
+- **Resumen:** Guía técnica de Taller Lab sobre soldadoras para aluminio en Argentina: comparativa TIG AC/DC vs MIG con Spool Gun, gases, alambres y costo del equipamiento. Para soldar aluminio, elegí primero el proceso adecuado a espesor y tipo de unión; después buscá una máquina y consumibles compatibles.
+
+### 140. `/soldadoras/lusqtoff-iron-250/`
+- **Title:** Lusqtoff Iron 250: características y guía de compra
+- **H1:** Soldadora Lusqtoff Iron 250: qué revisar antes de comprar
+- **H2:**
+  - Versión y especificaciones verificadas
+  - Ciclo de trabajo y electrodos compatibles
+  - Ventajas y limitaciones según ficha
+  - Accesorios, alternativas y qué comparar
+- **Resumen:** Guía de la soldadora inverter Lusqtoff Iron 250 en Argentina: ficha del fabricante, ciclo de trabajo, electrodos compatibles y opciones de compra. Antes de comprar una Iron 250, verificá corriente de soldadura, ciclo de trabajo, alimentación y conectores del modelo exacto.
+
+### 141. `/soldadoras/soldadora-tig-ac-dc/`
+- **Title:** Soldadora TIG AC/DC: funciones y qué modelo elegir
+- **H1:** Cómo elegir una soldadora TIG AC/DC
+- **H2:**
+  - Cuándo necesitás corriente alterna
+  - Balance, frecuencia y pulso
+  - Torcha, pedal y refrigeración
+  - Modelos y qué comparar
+- **Resumen:** Guía técnica sobre soldadoras TIG AC/DC en Argentina: funciones avanzadas para soldar aluminio, balance de onda, frecuencia en Hz, arco pulsado, torcha y refrigeración. Elegí una TIG AC/DC si necesitás los materiales y controles que ofrece cada modo, verificando espesor y corriente de trabajo.
+
+### 142. `/soldadoras/soldadora-inverter-160-amp/`
+- **Title:** Soldadora inverter 160 A: comparativa y qué elegir
+- **H1:** Qué soldadora inverter de 160 amperios elegir
+- **H2:**
+  - Para qué trabajos alcanza
+  - Electrodos y ciclo de trabajo
+  - Cuándo conviene pasar a 200 A
+  - Modelos, kits y qué comparar
+- **Resumen:** Guía técnica sobre soldadoras inverter de 160 amperios en Argentina: trabajos recomendados, electrodos de 2,5 y 3,25 mm, ciclo de trabajo, cuándo pasar a 200 A y qué comparar. Elegí una inverter de 160 A si su ciclo de trabajo y rango de corriente cubren tus electrodos y espesor.
+
+### 143. `/soldadoras/lusqtoff-iron-100/`
+- **Title:** Lusqtoff Iron 100: ficha del kit con máscara y escuadras
+- **H1:** Soldadora Lusqtoff Iron 100: qué incluye y para quién sirve
+- **H2:**
+  - Datos que importan al comprar
+  - Qué trae el kit y qué comprobar
+  - Cuándo elegirla
+- **Resumen:** Revisamos el kit MEGAIRON100-8 de Lusqtoff: corriente, ciclo de trabajo, electrodos admitidos, máscara ST-1X y dos escuadras magnéticas. La Lüsqtoff Iron 100 conviene solo si su corriente y ciclo de trabajo alcanzan para tus electrodos y espesor.
+
+### 144. `/soldadoras/mig-lusqtoff/`
+- **Title:** Soldadora MIG Lusqtoff: modelos Flux y qué revisar
+- **H1:** Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas
+- **H2:**
+  - Identificá la máquina antes de comparar precios
+  - Qué alambre y consumibles comprar
+  - Cuándo conviene MIG Flux
+- **Resumen:** Compará soldadoras MIG Flux Lusqtoff por código de modelo, corriente, proceso, alambre y accesorios para evitar confundir SML120, SML130 y SML150. Para una MIG Lüsqtoff sin gas, verificá que el equipo acepte alambre flux, su diámetro y polaridad, además de corriente y ciclo de trabajo.
+
+### 145. `/soldadoras/lusqtoff-sml150-8/`
+- **Title:** Lusqtoff SML150-8: diferencias, kit y qué comprobar
+- **H1:** Soldadora Lusqtoff SML150-8: guía antes de comprar
+- **H2:**
+  - SML150-8 y SML150-8D: comprobación básica
+  - Qué incluye el equipo que conviene comprar
+- **Resumen:** Qué comprobar en una Lusqtoff SML150-8 o SML150-8D: código exacto, proceso Flux, alambre, accesorios y diferencias con otras MIG de la marca. Para la SML150-8, verificá en la ficha del código exacto los procesos que admite, corriente útil y ciclo de trabajo.
+
+### 146. `/soldadoras/lusqtoff-sml120-8d/`
+- **Title:** Lusqtoff SML120-8D: ficha de la MIG Flux dual
+- **H1:** Lusqtoff SML120-8D: qué revisar en la soldadora y el kit
+- **H2:**
+  - Datos oficiales y límites de la oferta
+  - Máquina sola o combo
+- **Resumen:** Ficha de compra de la Lusqtoff SML120-8D: rangos Flux y MMA, accesorios incluidos y diferencias entre la máquina y los combos de Mercado Libre. En la Lüsqtoff SML120-8D, comprobá proceso, corriente y ciclo de trabajo antes de decidir por el kit.
+
+### 147. `/soldadoras/carro-para-soldadora-mig/`
+- **Title:** Carro para soldadora MIG: medidas, tubo y capacidad
+- **H1:** Carro para soldadora MIG: cómo elegir uno que entre en tu taller
+- **H2:**
+  - Medí antes de comprar
+  - Con o sin tubo de gas
+  - Compará el costo completo
+- **Resumen:** Guía para elegir carro para soldadora MIG, TIG o plasma: medidas de bandeja, carga, espacio para cilindro, ruedas y sujeción. Elegí un carro MIG que soporte el peso de máquina, cilindro y consumibles y que pase por puertas y espacios de tu taller.
+
+### 148. `/soldadoras/esab-handyarc-162i/`
+- **Title:** ESAB HandyArc 162i: corriente, ciclo de trabajo y compra
+- **H1:** ESAB HandyArc 162i: qué ofrece y qué comprobar
+- **H2:**
+  - Corriente y ciclo de trabajo
+  - Qué revisar en la publicación
+- **Resumen:** Ficha de compra de la ESAB HandyArc 162i para electrodo: 160 A máximos, ciclo de trabajo, alimentación y accesorios a revisar. La ESAB HandyArc 162i debe evaluarse por proceso, alimentación, corriente y ciclo de trabajo de su ficha, además de accesorios incluidos.
+
+### 149. `/soldadoras/mascara-lusqtoff-st-1x/`
+- **Title:** Máscara Lusqtoff ST-1X: qué revisar antes de comprar
+- **H1:** Máscara fotosensible Lusqtoff ST-1X: guía de compra
+- **H2:**
+  - Comprobaciones importantes
+- **Resumen:** Revisá el filtro, visor, sensores, ajuste y accesorios de la máscara Lusqtoff ST-1X antes de comprarla sola o en un kit. Para evaluar la máscara Lüsqtoff ST-1X, comprobá rango de sombra, tiempo de respuesta, sensores y ajuste a tu proceso.
+
+### 150. `/soldadoras/lusqtoff-sml130-7/`
+- **Title:** Lusqtoff SML130-7: modelo, alambre y qué revisar
+- **H1:** Soldadora Lusqtoff SML130-7: comprobaciones de compra
+- **H2:**
+  - Qué comprobar
+  - Compra usada o de stock anterior
+- **Resumen:** Guía para identificar la Lusqtoff SML130-7, revisar su manual, alambre y accesorios, y evitar confundirla con SML120 o SML150. Antes de elegir una SML130-7, confirmá el código de la máquina y contrastá alimentación, procesos, corriente y ciclo de trabajo con tu tarea.
+
+## Soldadura Electrónica (5 URLs)
+
+### 151. `/soldadura-electronica/kit-soldador-de-estano/`
+- **Title:** Kit soldador de estaño: qué debe incluir y cuál elegir
+- **H1:** Kit soldador de estaño: elegí el equipo según la reparación
+- **H2:**
+  - Equipo mínimo útil
+  - Kit Yihua y otras presentaciones
+- **Resumen:** Guía para comprar un kit soldador de estaño: lápiz, puntas, estaño, soporte, limpieza, desoldado y alternativas con control de temperatura. Para reparaciones sencillas de cables y componentes pasantes, elegí un kit con cautín, punta y soporte adecuados.
+
+### 152. `/soldadura-electronica/estacion-de-soldadura/`
+- **Title:** Estación de soldadura electrónica: cautín o aire caliente
+- **H1:** Estación de soldadura electrónica: cuál comprar para tu mesa
+- **H2:**
+  - Tres configuraciones distintas
+  - Modelos que aparecen en las búsquedas
+  - Antes de pagar
+- **Resumen:** Compará estaciones de cautín, aire caliente y combinadas para electrónica: temperatura, flujo, repuestos, espacio y tareas SMD. Para una mesa de electrónica, elegí una estación por control de temperatura, tipo de trabajo y disponibilidad de puntas o boquillas.
+
+### 153. `/soldadura-electronica/gadnic-878d/`
+- **Title:** Gadnic 878D: estación de cautín y aire caliente
+- **H1:** Gadnic 878D: qué revisar antes de comprar la estación
+- **H2:**
+  - Dos herramientas en una mesa
+  - Alternativa comparable
+- **Resumen:** Revisá la estación Gadnic 878D para electrónica: cautín, aire caliente, potencia de la publicación, boquillas y accesorios. Antes de comprar la Gadnic 878D, confirmá el código y qué funciones, boquillas y cautín incluye la publicación.
+
+### 154. `/soldadura-electronica/yihua-898d/`
+- **Title:** Yihua 898D: estación de aire caliente y cautín
+- **H1:** Yihua 898D: qué incluye y para qué trabajos sirve
+- **H2:**
+  - Cuándo conviene una combinada
+- **Resumen:** Ficha de compra de la Yihua 898D de 370 W: cautín, aire caliente, rangos térmicos y accesorios que conviene confirmar. La Yihua 898D combina cautín para uniones puntuales y aire caliente para retrabajo; conviene si necesitás ambos en la misma mesa.
+
+### 155. `/soldadura-electronica/soporte-para-soldar-con-lupa/`
+- **Title:** Soporte para soldar con lupa: pinzas, base y luz
+- **H1:** Soporte para soldar con lupa: qué revisar antes de comprar
+- **H2:**
+  - Cuatro puntos de compra
+  - Qué formato elegir
+- **Resumen:** Guía para elegir una tercera mano para electrónica: estabilidad de la base, brazos, pinzas, lupa e iluminación. Elegí un soporte con lupa por estabilidad, espacio de trabajo y aumento útil para las piezas que manipulás.
+
+## Taladros, Rotomartillos y Mechas (23 URLs)
+
+### 156. `/taladros/inalambricos/`
+- **Title:** Taladro inalámbrico: cuál comprar en Argentina
+- **H1:** Cómo elegir un taladro inalámbrico para tu trabajo
+- **H2:**
+  - Modelos según uso y presupuesto
+  - Torque, batería y mandril: qué comparar
+  - Con o sin percusión
+  - Qué incluye cada kit y dónde comprar
+- **Resumen:** Guía técnica de Taller Lab sobre taladros inalámbricos en Argentina: torque en Nm, baterías 12V vs 18V/20V, tipos de mandril, percusión y qué kit conviene según presupuesto. Elegí un taladro inalámbrico por material a perforar, tornillos, frecuencia de uso y autonomía.
+
+### 157. `/taladros/rotomartillos/`
+- **Title:** Rotomartillo: cuál elegir para concreto y obra
+- **H1:** Qué rotomartillo comprar según el trabajo
+- **H2:**
+  - Diferencias entre rotomartillo y taladro percutor
+  - Joules, encastre y modos de trabajo
+  - Modelos para casa y obra
+  - Comparativa de equipos y precios
+- **Resumen:** Guía técnica de Taller Lab sobre rotomartillos: diferencias con taladro percutor, energía de impacto en Joules, encastres SDS Plus y SDS Max, modos de trabajo y precios. Elegí un rotomartillo según diámetro y cantidad de perforaciones en hormigón o mampostería.
+
+### 158. `/taladros/percutores/`
+- **Title:** Taladro percutor: cuál comprar y cómo elegirlo
+- **H1:** Cómo elegir un taladro percutor
+- **H2:**
+  - Para qué sirve la percusión
+  - Qué elegir para ladrillo, madera y metal
+  - Modelos con cable y a batería
+  - Cuándo conviene pasar a un rotomartillo
+- **Resumen:** Guía técnica de Taller Lab sobre taladros percutores: para qué sirve la percusión, elección según material (madera, metal, ladrillo), modelos con cable vs batería y cuándo pasar a rotomartillo. Elegí un taladro percutor para perforación ocasional de mampostería, comprobando mandril, diámetro y alimentación.
+
+### 159. `/taladros/taladro-de-banco/`
+- **Title:** Taladro de banco: guía para elegir y comparar
+- **H1:** Qué taladro de banco comprar para tu taller
+- **H2:**
+  - Potencia, velocidades y capacidad del mandril
+  - Recorrido y distancia a la columna
+  - Modelos para madera y metal
+  - Taladro de banco o soporte para taladro
+  - Cinco taladros de banco para comparar
+- **Resumen:** Guía técnica de Taller Lab sobre taladros de banco o pedestal: potencia de motor, velocidades por poleas vs variador digital, recorrido de husillo, mandril y comparativa con soportes. Para tu taller, elegí un taladro de banco por tamaño de piezas, capacidad de perforación, recorrido del husillo y estabilidad de la mesa.
+
+### 160. `/taladros/atornilladores-de-impacto/`
+- **Title:** Atornillador de impacto: cuál elegir y para qué sirve
+- **H1:** Cómo elegir un atornillador de impacto
+- **H2:**
+  - Diferencias con un taladro atornillador
+  - Torque y control de velocidad
+  - Puntas compatibles y accesorios
+  - Comparativa de modelos y kits
+- **Resumen:** Guía técnica de Taller Lab sobre atornilladores de impacto: diferencias con el taladro convencional, mecanismo de impacto tangencial, torque en Nm, puntas hexagonales de 1/4\" y kits. Un atornillador de impacto conviene para fijaciones que requieren torque y uso repetido.
+
+### 161. `/taladros/rotomartillo-bosch/`
+- **Title:** Rotomartillo Bosch: modelos y cuál conviene comprar
+- **H1:** Qué rotomartillo Bosch elegir
+- **H2:**
+  - Comparativa de modelos por trabajo
+  - SDS Plus o SDS Max
+  - Con cable o a batería
+  - Qué revisar antes de comprar
+- **Resumen:** Guía técnica de Taller Lab sobre rotomartillos Bosch en Argentina: comparativa de la línea GBH (GBH 2-24 D, GBH 2-26 DRE, GBH 2-28 F), SDS Plus vs SDS Max, cable vs a batería y qué revisar antes de comprar. Elegí un rotomartillo Bosch según material, diámetro y frecuencia de perforación.
+
+### 162. `/taladros/taladro-percutor-inalambrico/`
+- **Title:** Taladro percutor inalámbrico: modelos y comparativa
+- **H1:** Qué taladro percutor inalámbrico comprar
+- **H2:**
+  - Modelos con percusión según presupuesto
+  - Capacidad en mampostería y límites en hormigón
+  - Motor con o sin escobillas
+  - Baterías, cargador y costo del kit
+- **Resumen:** Guía técnica de Taller Lab sobre taladros percutores inalámbricos en Argentina: modelos según presupuesto, capacidad en mampostería y límites en hormigón, motores Brushless y costos de kits. Un percutor inalámbrico conviene si además de atornillar perforás mampostería ocasionalmente y necesitás movilidad.
+
+### 163. `/taladros/para-durlock/`
+- **Title:** Atornillador para Durlock: cuál comprar y por qué
+- **H1:** Cómo elegir un atornillador para Durlock
+- **H2:**
+  - Tope de profundidad y velocidad
+  - Atornillador específico o taladro común
+  - Con cable, a batería o con alimentador
+  - Puntas y accesorios para instalar placas
+- **Resumen:** Guía técnica de Taller Lab sobre atornilladores para Durlock y placas de yeso: tope de profundidad mecánico, altas RPM (4000 a 4500), atornillador específico vs taladro común, con cable o batería y accesorios. Para Durlock, elegí un atornillador que permita fijar tornillos a profundidad constante sin romper la placa.
+
+### 164. `/taladros/black-decker/`
+- **Title:** Taladro Black+Decker: qué modelo conviene comprar
+- **H1:** Qué taladro Black+Decker elegir para casa
+- **H2:**
+  - Modelos con cable e inalámbricos
+  - Cuándo necesitás percusión
+  - Diferencias entre equipos y kits
+  - Ventajas y límites según el uso
+- **Resumen:** Guía técnica de Taller Lab sobre taladros Black+Decker en Argentina: modelos con cable vs inalámbricos (12V y 20V MAX), cuándo necesitás percusión, kits con accesorios y límites de uso. Para casa, elegí un Black+Decker según material y frecuencia de perforación: atornillar muebles, perforar madera o mampostería exigen funciones distintas.
+
+### 165. `/taladros/rotomartillo-einhell/`
+- **Title:** Rotomartillo Einhell: comparativa y guía de compra
+- **H1:** Qué rotomartillo Einhell comprar
+- **H2:**
+  - Diferencias entre modelos
+  - Energía de impacto y modos de trabajo
+  - Con cable o Power X-Change
+  - Accesorios incluidos y costo total
+- **Resumen:** Guía técnica de Taller Lab sobre rotomartillos Einhell en Argentina: comparativa de líneas Classic y Expert, energía de impacto en Joules, modelos con cable vs Power X-Change inalámbricos y accesorios incluidos. Elegí un rotomartillo Einhell por material y diámetro de perforación, comprobando energía de impacto, encastre SDS y modos.
+
+### 166. `/taladros/rotomartillo-dewalt/`
+- **Title:** Rotomartillo DeWalt: cuál elegir para tu trabajo
+- **H1:** Cómo elegir un rotomartillo DeWalt
+- **H2:**
+  - Modelos según exigencia de trabajo
+  - Encastre y energía de impacto
+  - Equipos con cable y a batería
+  - Máquina sola o kit completo
+- **Resumen:** Guía técnica de Taller Lab sobre rotomartillos DeWalt en Argentina: líneas D25133, D25263 y DCH273 inalámbrico, encastres SDS Plus y SDS Max, energía en Joules y opciones de kit. Para elegir un rotomartillo DeWalt, definí diámetro y frecuencia de agujeros en hormigón y compará energía de impacto, SDS, peso y vibración.
+
+### 167. `/taladros/einhell-inalambrico/`
+- **Title:** Taladro inalámbrico Einhell: cuál comprar
+- **H1:** Qué taladro inalámbrico Einhell elegir
+- **H2:**
+  - Comparativa de modelos de 18 V
+  - Con percusión o sin percusión
+  - Baterías y plataforma Power X-Change
+  - Qué kit conviene según tu presupuesto
+- **Resumen:** Guía técnica de Taller Lab sobre taladros inalámbricos Einhell 18V: comparativa de líneas Classic vs Expert, modelos con percusión (TP-CD / TE-CD), baterías Power X-Change y kits recomendados. Elegí un Einhell inalámbrico según material, torque y funciones que usás, comprobando compatibilidad con la plataforma de batería.
+
+### 168. `/taladros/dewalt-inalambrico/`
+- **Title:** Taladro inalámbrico DeWalt: modelos y diferencias
+- **H1:** Qué taladro inalámbrico DeWalt comprar
+- **H2:**
+  - Modelos para uso doméstico y profesional
+  - Torque, percusión y motor
+  - Qué significan 18 V y 20 V MAX
+  - Baterías incluidas y precio del kit
+- **Resumen:** Guía técnica de Taller Lab sobre taladros inalámbricos DeWalt: comparativa DCD710, DCD7781, DCD796 y DCD996, torque y motores Brushless XR, 18V vs 20V MAX y kits con baterías. Elegí un DeWalt inalámbrico por la tarea: mandril y torque para perforar o atornillar, percusión si corresponde y plataforma de batería.
+
+### 169. `/taladros/mecha-porcelanato/`
+- **Title:** Mecha para porcelanato: cuál elegir y cómo usarla
+- **H1:** Qué mecha usar para perforar porcelanato
+- **H2:**
+  - Tipos de mechas y aplicaciones
+  - Diámetro y compatibilidad con tu herramienta
+  - Cómo perforar sin romper la pieza
+  - Refrigeración y errores frecuentes
+- **Resumen:** Guía técnica de Taller Lab sobre mechas para porcelanato: brocas diamantadas vs punta flecha de carburo, compatibilidad con taladro o amoladora, técnicas para no romper piezas y refrigeración. Para perforar porcelanato, elegí una broca o corona diamantada compatible con el diámetro del agujero y la herramienta.
+
+### 170. `/taladros/milwaukee/`
+- **Title:** Taladro Milwaukee: M12, M18 y cuál elegir
+- **H1:** Qué taladro Milwaukee comprar según el uso
+- **H2:**
+  - Diferencias entre M12 y M18
+  - Qué ofrece la línea FUEL
+  - Modelos con y sin percusión
+  - Máquina sola o kit con baterías
+- **Resumen:** Guía técnica de Taller Lab sobre taladros Milwaukee en Argentina: comparativa plataformas M12 vs M18, tecnología FUEL sin carbones, modelos percutores y opciones bare tool vs kit. Elegí un taladro Milwaukee según material, mandril, torque y plataforma de batería, no solo por la marca.
+
+### 171. `/taladros/lusqtoff-inalambrico/`
+- **Title:** Taladro inalámbrico Lusqtoff: cuál conviene comprar
+- **H1:** Cómo elegir un taladro inalámbrico Lusqtoff
+- **H2:**
+  - Comparativa de modelos y prestaciones
+  - Percusión, torque y velocidades
+  - Baterías, cargador y accesorios
+  - Para qué trabajos conviene cada opción
+- **Resumen:** Guía técnica de Taller Lab sobre taladros inalámbricos Lusqtoff en Argentina: líneas 12V y 18V Powerlink, modelos con percusión (TG-18V / TGLI18), torque, baterías y para qué trabajos convienen. Para elegir un Lüsqtoff inalámbrico, identificá modelo y plataforma de batería y compará torque, mandril y funciones con tu tarea.
+
+### 172. `/taladros/brocas-ceramica/`
+- **Title:** Brocas para cerámica: cuáles usar y cómo perforar
+- **H1:** Cómo elegir mechas para cerámica y azulejos
+- **H2:**
+  - Tipos de punta y materiales compatibles
+  - Diferencias entre cerámica y porcelanato
+  - Cómo perforar un azulejo sin romperlo
+  - Qué set comprar según el trabajo
+- **Resumen:** Guía técnica de Taller Lab sobre brocas y mechas para cerámica y azulejos: tipos de punta (flecha de widia vs copa diamantada), diferencias con porcelanato, técnica para no rajar esmaltes y sets recomendados. Para cerámica o azulejos, elegí la mecha según dureza del revestimiento, diámetro del agujero y herramienta disponible.
+
+### 173. `/taladros/stanley/`
+- **Title:** Taladro Stanley: modelos y cuál conviene comprar
+- **H1:** Qué taladro Stanley elegir
+- **H2:**
+  - Modelos con cable e inalámbricos
+  - Cuándo elegir percusión
+  - Potencia, torque y capacidad de perforación
+  - Comparativa de kits y precios
+- **Resumen:** Guía técnica de Taller Lab sobre taladros Stanley en Argentina: comparativa modelos con cable SDH600 / SDH700 y plataforma Fatmax V20 inalámbrica, percusión, torque y kits con maletín. Elegí un taladro Stanley según material, mandril y frecuencia de uso.
+
+### 174. `/taladros/atornillador-impacto-dewalt/`
+- **Title:** Atornillador de impacto DeWalt: cuál comprar
+- **H1:** Qué atornillador de impacto DeWalt elegir
+- **H2:**
+  - Diferencias entre modelos
+  - Torque, velocidades y modos de control
+  - Compatibilidad de puntas y baterías
+  - Qué kit conviene comprar
+- **Resumen:** Guía técnica de Taller Lab sobre atornilladores de impacto DeWalt 20V MAX: comparativa DCF885, DCF809 y DCF887, torque de hasta 205 Nm, velocidades y modos Precision Drive. Elegí un atornillador de impacto DeWalt por tornillos, frecuencia de uso y plataforma de batería que ya tenés.
+
+### 175. `/taladros/bosch-inalambrico/`
+- **Title:** Taladro inalámbrico Bosch: GSR, GSB y cuál elegir
+- **H1:** Qué taladro inalámbrico Bosch comprar
+- **H2:**
+  - Diferencias entre GSR y GSB
+  - Cuándo elegir 12 V o 18 V
+  - Compatibilidad de baterías y cargadores
+  - Comparativa de modelos y kits
+- **Resumen:** Guía técnica de Taller Lab sobre taladros inalámbricos Bosch en Argentina: diferencias entre líneas GSR (atornillador) y GSB (percutor), 12V vs 18V, baterías ProCORE y kits recomendados. Elegí un Bosch inalámbrico por los materiales que perforás, el torque de atornillado y la batería disponible.
+
+### 176. `/taladros/mechas-escalonadas/`
+- **Title:** Mecha escalonada: cuál comprar para chapa y metal
+- **H1:** Qué mecha escalonada elegir y cómo usarla
+- **H2:**
+  - Opciones para comparar
+  - 4–20 mm o 4–32 mm: cuál conviene
+  - Materiales y límites de uso
+  - Cómo perforar sin deformar la chapa
+  - Preguntas frecuentes
+- **Resumen:** Compará mechas escalonadas de 4 a 20 y de 4 a 32 mm, y juegos de tres brocas. Usos en chapa, diámetros, compatibilidad y opciones de compra en Argentina.
+
+### 177. `/taladros/mecha-forstner-35-mm/`
+- **Title:** Mecha Forstner 35 mm: cuál usar para bisagras cazoleta
+- **H1:** Cómo elegir una mecha Forstner de 35 mm para bisagras
+- **H2:**
+  - Producto para este trabajo
+  - Qué revisar antes de perforar
+  - Instalación paso a paso
+  - Forstner o mecha escalonada
+- **Resumen:** Guía para elegir una mecha Forstner de 35 mm, con tope y plantilla, y perforar el alojamiento de bisagras cazoleta en madera y melamina. Para perforar el alojamiento de una bisagra de 35 mm, elegí una mecha Forstner de ese diámetro adecuada a la madera o tablero.
+
+### 178. `/taladros/combo-taladro-amoladora/`
+- **Title:** Combo taladro y amoladora: kits con cable y a batería
+- **H1:** Qué combo de taladro y amoladora conviene comprar
+- **H2:**
+  - Comparativa de los cuatro combos
+  - Cuándo elegir cable y cuándo batería
+  - Cinco comprobaciones antes de pagar
+  - Preguntas frecuentes
+- **Resumen:** Compará kits de taladro y amoladora con cable o a batería. Cuatro combos disponibles, accesorios, compatibilidad y criterios de compra para Argentina.
+
