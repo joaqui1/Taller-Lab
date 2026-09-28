@@ -7,7 +7,7 @@ from html import escape
 # `checks` are shown below the CTA, separately from the product comparison.
 AMOLADORA_CHOICES = {
     "/amoladoras/": {
-        "title": "Tres opciones para comparar según tu compra",
+        "title": "Tres opciones según trabajo, diámetro y alimentación",
         "items": [
             {
                 "name": "Gamma G1910KAR · kit de 115 mm",
@@ -17,18 +17,18 @@ AMOLADORA_CHOICES = {
                 "checks": ["Código G1910KAR y tensión de placa", "Granos, tipos y cantidad de discos incluidos", "Garantía, vendedor y contenido real del kit"],
             },
             {
-                "name": "Bosch GWS 770 · referencia compacta",
-                "url": "https://meli.la/1GRCAjZ",
-                "facts": ["770 W", "115 mm", "12.000 rpm"],
-                "reason": "Alternativa de marca para comparar una angular compacta con una ficha regional propia.",
-                "checks": ["Código 0 601 398 0E0 y tensión 220 V", "Correspondencia entre código, placa y manual", "Kit y garantía local de la unidad"],
+                "name": "Bosch Professional GWS 180-LI · inalámbrica",
+                "url": "https://meli.la/27U6siB",
+                "facts": ["18 V", "125 mm", "11.000 rpm según ficha Bosch"],
+                "reason": "Para quien prioriza movilidad y ya cuenta con baterías Bosch Professional de 18 V; contrasta con el kit cableado compacto de Gamma.",
+                "checks": ["Código GWS 180-LI y variante regional", "Confirmar si incluye batería y cargador", "Compatibilidad de pack, guarda, accesorios y garantía local"],
             },
             {
-                "name": "Omaha AA-750 · angular de 115 mm",
-                "url": "https://www.mercadolibre.com.ar/amoladora-angular-omaha-aa-750-roja-750w-disco-115mm-220v-con-accesorios/p/MLA22765820",
-                "facts": ["750 W", "115 mm", "10.000 rpm · 220 V"],
-                "reason": "Tercera referencia para comparar una opción compacta de 220 V junto al kit Gamma y la Bosch.",
-                "checks": ["Modelo AA-750 y placa 220 V", "La ficha del aviso indica que no incluye disco", "Protector, accesorios, vendedor y garantía"],
+                "name": "Makita GA9020 · angular de 230 mm",
+                "url": "https://meli.la/21s58cx",
+                "facts": ["2.200 W", "230 mm", "6.000 rpm"],
+                "reason": "Para trabajos que requieren un disco de gran diámetro; representa una necesidad distinta de las dos opciones compactas.",
+                "checks": ["Código GA9020 y tensión de placa", "Disco, guarda y bridas admitidos por el manual", "Peso/configuración, contenido y garantía local"],
             },
         ],
     },
@@ -36,7 +36,7 @@ AMOLADORA_CHOICES = {
         "title": "Opción para comparar: Lüsqtoff LQDFLAP60",
         "items": [{
             "name": "Lüsqtoff LQDFLAP60 · grano 60",
-            "url": "https://www.mercadolibre.com.ar/disco-flap-desbaste-grano-60-amoladora-metal-115mm-lusqtoff/up/MLAU2944968836",
+            "url": "https://meli.la/1hxMTX5",
             "facts": ["Código publicado: LQDFLAP60", "115 mm", "Grano 60 · zirconio según publicación"],
             "reason": "Coincide con una guía centrada en elegir grano, abrasivo y forma para un flap; no se recomienda una amoladora como sustituto del accesorio.",
             "checks": ["Código LQDFLAP60, grano y diámetro de 115 mm", "Agujero 22,23 mm, rpm máximas y tipo T27/T29 en etiqueta", "Metal admitido, unidad o pack y garantía/devolución"],
@@ -53,22 +53,28 @@ AMOLADORA_CHOICES = {
         }],
     },
     "/amoladoras/bosch/": {
-        "title": "Opción para comparar: Bosch GWS 770",
-        "items": [{"name": "Bosch GWS 770 · 0 601 398 0E0", "url": "https://meli.la/1GRCAjZ",
-            "facts": ["770 W", "115 mm", "12.000 rpm · variante 220 V según ficha regional"],
-            "reason": "La guía la documenta como referencia compacta Bosch; permite comparar esa compra con la GWS 850 sin mezclar códigos ni tensiones.",
-            "checks": ["Código 0 601 398 0E0 y tensión de placa", "Correspondencia entre código, manual y variante ofrecida", "Contenido del kit y garantía local"]}],
+        "title": "Opción para comparar: Bosch GWS 850",
+        "items": [{"name": "Bosch GWS 850 · 0 601 377 5H0", "url": "https://meli.la/1hDoFyN",
+            "facts": ["850 W", "115 mm", "11.000 rpm · 220 V según ficha Bosch Argentina"],
+            "reason": "Es la variante compacta que la guía desarrolla con ficha argentina; ofrece una referencia local clara para comparar diámetro, tensión y paquete.",
+            "checks": ["Código 0 601 377 5H0 y tensión de placa de 220 V", "Confirmar correspondencia entre código, manual y unidad ofrecida", "Contenido del paquete, peso/configuración y garantía local"]}],
     },
     "/amoladoras/gamma/": {
-        "title": "Opción para comparar: Gamma G1910KAR en kit",
-        "items": [{"name": "Gamma G1910KAR · 750 W", "url": "https://meli.la/12aMvrG",
-            "facts": ["115 mm", "11.000 rpm", "Kit con discos y maletín según ficha Gamma"],
-            "reason": "La diferencia útil frente a G1910AR es la presentación en kit que la ficha Gamma identifica.",
-            "checks": ["Código G1910KAR y 220 V~50 Hz", "Discos, cantidad, granos y maletín entregados", "Garantía, vendedor y costo final"]}],
+        "title": "Dos opciones Gamma: kit de 750 W o máquina de 850 W",
+        "items": [
+            {"name": "Gamma G1910KAR · kit de 750 W", "url": "https://meli.la/2v5oUyR",
+            "facts": ["115 mm", "11.000 rpm", "Kit con 10 discos y maletín según ficha Gamma"],
+            "reason": "Para quien empieza y necesita consumibles y guardado en el mismo paquete; el fabricante identifica el contenido de este código como kit.",
+            "checks": ["Código G1910KAR y 220 VCA / 50 Hz", "Cinco discos de corte, cinco de desbaste y maletín del kit", "Tipo/material de discos, garantía, vendedor y costo final"]},
+            {"name": "Gamma G1917AR · máquina de 850 W", "url": "https://meli.la/21zWjnh",
+            "facts": ["850 W según ficha técnica", "115 mm", "11.000 rpm · 220 VCA / 50 Hz"],
+            "reason": "Para quien prioriza la variante de 850 W y no necesita comprar un kit de discos; la ficha no detalla un maletín ni consumibles incluidos.",
+            "checks": ["Código G1917AR y placa de tensión", "La descripción oficial contiene una mención discordante a 710 W; cotejar ficha técnica, placa y manual", "Contenido real de caja y garantía local"]},
+        ],
     },
     "/amoladoras/dowen-pagio/": {
         "title": "Opción para comparar: Dowen Pagio 9993220.7",
-        "items": [{"name": "Dowen Pagio 9993220.7 / AA115H4", "url": "https://meli.la/1QUvfns",
+        "items": [{"name": "Dowen Pagio 9993220.7 / AA115H4", "url": "https://meli.la/11Nc9wu",
             "facts": ["900 W", "115 mm", "12.000 rpm · velocidad fija"],
             "reason": "Encaja con el código cableado de 115 mm que la guía distingue de la alternativa regulable y de 125 mm.",
             "checks": ["Código 9993220.7 / AA115H4 y tensión de placa", "Rosca/eje según manual y accesorios compatibles", "Disco, contenido y garantía del vendedor"]}],
@@ -81,11 +87,11 @@ AMOLADORA_CHOICES = {
             "checks": ["Código GA4534 y tensión de placa", "Interruptor, guarda y accesorios incluidos", "Garantía y repuestos para el mercado local"]}],
     },
     "/amoladoras/de-banco/": {
-        "title": "Opción para comparar: Shimura SH-A5506 de 150 mm",
-        "items": [{"name": "Shimura SH-A5506 · amoladora de banco", "url": "https://www.mercadolibre.com.ar/amoladora-de-banco-shimura-34-hp-550w-sha5506-cpiedras-color-amarillo-frecuencia-hz/p/MLA25161108",
-            "facts": ["550 W", "Muela de 150 mm", "2.950 rpm · 220 V según publicación"],
-            "reason": "Coincide con la búsqueda de una amoladora de banco de 150 mm; es una opción de banco, no una angular.",
-            "checks": ["Código SH-A5506 y tensión de placa", "Medida, ancho, agujero y rpm de las muelas; confirmar piedras incluidas", "Protectores, apoyos, garantía y contenido exacto"]}],
+        "title": "Opción documentada para comparar: Lüsqtoff AB-375",
+        "items": [{"name": "Lüsqtoff AB-375 · amoladora de banco de 150 mm", "url": "https://meli.la/25xDSzM",
+            "facts": ["375 W", "Muela de 150 × 16 × 12,7 mm", "2.950 rpm según ficha local"],
+            "reason": "La ficha local sustenta la medida, la muela y las rpm de esta referencia de 150 mm; el régimen de trabajo no está indicado en la documentación consultada.",
+            "checks": ["Código AB-375 y tensión/frecuencia de placa", "Muela de 150 × 16 × 12,7 mm y rpm máxima", "El régimen no figura en la ficha consultada; confirmar uso previsto, guardas y garantía"]}],
     },
     "/amoladoras/inalambricas/": {
         "title": "Opción para comparar: Bosch GWS 180-LI",
@@ -110,14 +116,14 @@ AMOLADORA_CHOICES = {
     },
     "/amoladoras/skil-830w/": {
         "title": "Opción para comparar: Skil 9004",
-        "items": [{"name": "Skil 9004 · amoladora angular", "url": "https://www.mercadolibre.com.ar/amoladora-angular-skil-metal-9004-de-50-hz60hz-negra-830w/p/MLA15453102",
+        "items": [{"name": "Skil 9004 · amoladora angular", "url": "https://meli.la/1ruBvJN",
             "facts": ["830 W", "115 mm", "4,7/5 y +10.000 vendidos según publicación (dato variable)"],
             "reason": "La búsqueda es específica de este modelo y la publicación corresponde a la Skil 9004 que la guía explica.",
             "checks": ["Código 9004 y tensión/frecuencia de la placa", "RPM, eje, guarda y accesorios de la variante entregada", "Contenido, garantía y vendedor de la publicación"]}],
     },
     "/amoladoras/disco-diamantado-segmentado/": {
         "title": "Opción para comparar: Hamilton DS115 segmentado de 115 mm",
-        "items": [{"name": "Hamilton DS115 · disco diamantado segmentado", "url": "https://www.mercadolibre.com.ar/disco-diamantado-segmentado-115mm-hamilton-ds115/p/MLA22673677",
+        "items": [{"name": "Hamilton DS115 · disco diamantado segmentado", "url": "https://meli.la/1Udt9Qm",
             "facts": ["115 mm", "Borde segmentado", "Distintivo “más vendido” en el aviso (dato variable)"],
             "reason": "Coincide con el formato de 115 mm tratado en esta guía; es una referencia comercial para quien busca corte segmentado.",
             "checks": ["Modelo DS115 y materiales indicados en etiqueta", "Agujero/buje, diámetro y RPM máxima compatibles", "Uso seco/húmedo, cantidad y vendedor del aviso"]}],
@@ -131,7 +137,7 @@ AMOLADORA_CHOICES = {
     },
     "/amoladoras/disco-de-corte/": {
         "title": "Opción para comparar: pack Bosch Standard for INOX & Metal",
-        "items": [{"name": "Bosch 2608619383 · disco de corte INOX & Metal", "url": "https://www.mercadolibre.com.ar/disco-corte-115-x-1mm-pack-x10-bosch-amoladora-4-12-metal/up/MLAU266464914",
+        "items": [{"name": "Bosch 2608619383 · disco de corte INOX & Metal", "url": "https://meli.la/2GzTkmk",
             "facts": ["Pack de 10 discos", "115 × 1 × 22,23 mm", "Para INOX y metal según código", "Código Bosch 2 608 619 383"],
             "reason": "Es un consumible de 115 mm que la ficha Bosch identifica para acero inoxidable y metal; el pack de 10 ofrece una entrada más doméstica que comprar una caja grande.",
             "checks": ["Código 2608619383 y materiales indicados en la etiqueta", "Agujero 22,23 mm y RPM máxima frente a tu amoladora", "Cantidad real del pack, vendedor y política de devolución"]}],
@@ -165,7 +171,7 @@ AMOLADORA_CHOICES = {
             "facts": ["850 W", "115 mm", "11.000 rpm · 220 V · código 0 601 377 5H0"],
             "reason": "Si el diámetro compacto de 115 mm alcanza para tu trabajo, esta es la referencia Bosch local que desarrolla la guía.",
             "checks": ["Código 0 601 377 5H0 y placa de 220 V", "Disco de 115 mm, eje M14 y guarda", "Contenido del paquete y garantía local"]},
-            {"name": "Elegí 125 mm · Bosch GWS 9-125", "url": "https://www.mercadolibre.com.ar/amoladora-angular-profesional-bosch-gws-9-125-900-w-5-125/up/MLAU3332295568",
+            {"name": "Elegí 125 mm · Bosch GWS 9-125", "url": "https://meli.la/2eifSLK",
             "cta_label": "Elegí 125 mm → Ver precio y disponibilidad en Mercado Libre",
             "facts": ["900 W", "125 mm", "11.000 rpm · 220 V según publicación"],
             "reason": "Si necesitás un disco de 125 mm y la máquina correspondiente, esta variante Bosch está documentada para Argentina.",
@@ -181,7 +187,7 @@ AMOLADORA_CHOICES = {
     },
     "/amoladoras/discos-vidrio/": {
         "title": "Opción para comparar: Smart Ladike Design pack de 3",
-        "items": [{"name": "Smart Ladike Design · disco diamantado para vidrio, pack x3", "url": "https://www.mercadolibre.com.ar/disco-para-cortar-vidrio-p-amoladora-angular-115mm-pack-x3-color-verde-lima/p/MLA57472920",
+        "items": [{"name": "Smart Ladike Design · disco diamantado para vidrio, pack x3", "url": "https://meli.la/1XvFwQP",
             "facts": ["Pack de 3 discos", "115 mm · 1,5 mm según publicación", "+5.000 vendidos · 4,7/5 en el aviso (dato variable)"],
             "reason": "La publicación identifica expresamente el corte de vidrio y coincide con la búsqueda de un consumible de 115 mm; el pack de tres permite comparar el costo por unidad.",
             "checks": ["Cantidad seleccionada y espesor declarados para la variante", "Agujero, RPM máxima y uso seco/húmedo en etiqueta/manual", "Tipo de vidrio admitido y compatibilidad con la amoladora"]}],
@@ -212,14 +218,19 @@ AMOLADORA_CHOICES = {
     },
     "/amoladoras/discos-ceramica/": {
         "title": "Opción para comparar: Ronix RH-3534 de borde continuo",
-        "items": [{"name": "Ronix RH-3534 · disco diamantado para cerámica", "url": "https://www.mercadolibre.com.ar/disco-diamantado-continuo-ronix-para-ceramica-de-115-mm/p/MLA54243319",
+        "items": [{"name": "Ronix RH-3534 · disco diamantado para cerámica", "url": "https://meli.la/2JS8i3Z",
             "facts": ["115 mm", "Borde diamantado continuo", "22,2 mm de agujero según publicación"],
             "reason": "Coincide con la búsqueda de un disco de borde continuo para cerámica; confirmá en el envase el material permitido y el modo de uso del código exacto.",
             "checks": ["Código RH-3534 y material admitido; no asumir porcelanato", "Diámetro, agujero, rpm máxima y sentido de giro", "Uso seco/húmedo solo según fabricante y equipo"]}],
     },
+}
+
+# Las variantes secundarias van en este mapa, separadas del CTA principal para
+# cada URL; no agregarlas como una segunda clave en AMOLADORA_CHOICES.
+CONTEXTUAL_CHOICES = {
     "/amoladoras/total/": {
         "name": "Total TG109125565-4 · 125 mm con velocidad variable",
-        "url": "https://www.mercadolibre.com.ar/amoladora-angular-total-900w-125-mm-velocidad-variable/up/MLAU3722400545",
+        "url": "https://meli.la/2BE54o4",
         "facts": ["900 W", "125 mm", "Velocidad variable · 220 V según publicación"],
         "reason": "Para quien necesita pasar de la opción compacta de 115 mm a 125 mm y quiere regulación de velocidad, según catálogo y publicación del código indicado.",
         "checks": ["Código TG109125565-4 y tensión de la unidad", "Confirmar rango de rpm en placa/manual, pues los avisos difieren", "Disco, guarda, M14, contenido y garantía local"],
@@ -233,34 +244,30 @@ AMOLADORA_CHOICES = {
     },
     "/amoladoras/discos-vidrio/": {
         "name": "Smart Ladike Design · disco para vidrio de 115 mm, unidad individual",
-        "url": "https://www.mercadolibre.com.ar/disco-para-cortar-vidrio-para-amoladora-angular-115mm-smart-verde-lima/p/MLA78726320",
-        "facts": ["1 disco", "115 mm", "4,7/5 y +5.000 vendidos en la publicación (dato variable)"],
-        "reason": "Alternativa para quien prefiere comprar una unidad en lugar del pack x3; es la misma familia de disco orientada a vidrio.",
-        "checks": ["Confirmar código y medidas de la unidad ofrecida", "Agujero, RPM máxima y proceso permitido", "Vidrio compatible según fabricante; no extrapolar a templado o laminado"],
+        "url": "https://meli.la/1Jfy2tP",
+        "compact": True,
+        "cta_label": "Ver unidad individual en Mercado Libre",
     },
-}
-
-CONTEXTUAL_CHOICES = {
     "/amoladoras/disco-flap/": {
         "name": "Lüsqtoff LQDFLAP80 · grano 80",
-        "url": "https://www.mercadolibre.com.ar/disco-flap-desbaste-115mm-grano-80-lusqtoff-lqdflap80/p/MLA32166032",
+        "url": "https://meli.la/12bdoSj",
         "facts": ["115 mm", "Grano 80", "Zirconio · 22,23 mm en la ficha de publicación"],
         "reason": "Si buscás una terminación más fina que la referencia G60, el grano 80 es una variante distinta para contrastar; no garantiza un acabado final por sí solo.",
         "checks": ["Código LQDFLAP80 y grano elegido", "Agujero, rpm máxima, forma y metal admitido", "Cantidad, vendedor y devolución"],
     },
     "/amoladoras/dewalt/": {
         "name": "DeWalt DWE4212-AR · angular de 125 mm",
-        "url": "https://www.mercadolibre.com.ar/amoladora-angular-115mm--125mm-1200w-dewalt-dwe4212-dewalt/up/MLAU279595785",
+        "url": "https://meli.la/1qMaTgD",
         "facts": ["1.200 W", "125 mm", "11.000 rpm · 220 V según publicación oficial"],
         "reason": "Opción contextual si el trabajo necesita el formato de 125 mm que no cubre la DWE4120-AR de 115 mm.",
         "checks": ["DWE4212-AR y placa 220 V", "Diámetro máximo, guarda y disco según manual", "Kit, accesorios y condiciones de garantía local"],
     },
     "/amoladoras/de-banco/": {
-        "name": "Makita GB801 · amoladora de banco de 205 mm",
-        "url": "https://articulo.mercadolibre.com.ar/MLA-619099060-oferta-amoladora-banco-makita-gb801-205mm-550w-clupaluz-_JM",
-        "facts": ["550 W", "Muela de 205 mm", "2.850 rpm a 50 Hz según catálogo Makita"],
-        "reason": "Para quien necesita una máquina de banco mayor que la Shimura de 150 mm y acepta la medida específica de 205 mm.",
-        "checks": ["Código GB801, tensión 220 V y frecuencia", "Muela de 205 × 19 mm, agujero 15,88 mm y rpm compatibles", "Stock, lupas/luces incluidas y garantía de la publicación"],
+        "name": "Shimura SH-A5506 · opción comercial de 150 mm",
+        "url": "https://meli.la/257tp4Q",
+        "facts": ["550 W", "Muela de 150 mm", "2.950 rpm · 220 V según publicación"],
+        "reason": "Opción comercial para quien busca una amoladora de banco de 150 mm y valora el kit de piedras que anuncia la publicación; sus datos comerciales no reemplazan las referencias documentadas por fabricante en la tabla.",
+        "checks": ["Código SH-A5506 y tensión de placa", "Medida, ancho, agujero y rpm de las muelas", "Confirmar piedras incluidas, protectores, garantía y contenido exacto"],
     },
     "/amoladoras/makita/": {
         "name": "Makita GA9020 · angular de 230 mm",
@@ -270,11 +277,11 @@ CONTEXTUAL_CHOICES = {
         "checks": ["Código GA9020 y tensión de placa", "Disco, guarda y bridas admitidos por el manual", "Peso, contenido del paquete y garantía local"],
     },
     "/amoladoras/inalambricas/": {
-        "name": "KTO TLD21-5 · kit inalámbrico de entrada",
-        "url": "https://www.mercadolibre.com.ar/kit-amoladora-angular-21v-ktotaladro-percutor-brushless-21v/p/MLA2062845699",
-        "facts": ["Kit de amoladora y herramientas", "La publicación ofrece dos baterías", "Familia anunciada como 21 V"],
-        "reason": "Alternativa de kit completo para quien empieza sin baterías; contrasta con la compra de ecosistema Bosch Professional.",
-        "checks": ["Confirmar código exacto TLD21-5 y tensión nominal", "Capacidad y cantidad de baterías, cargadores y accesorios entregados", "Garantía, repuestos y compatibilidad de baterías del kit"],
+        "name": "Lüsqtoff AML115-9BK · kit inalámbrico Iron Volt",
+        "url": "https://meli.la/2iXGb4r",
+        "facts": ["18 V · disco de 115 mm", "Tres velocidades: 6.500/7.000/8.500 rpm", "Kit documentado con 2 baterías de 4 Ah y cargador"],
+        "reason": "Alternativa local de kit completo para quien empieza sin baterías; contrasta con la Bosch GWS 180-LI, cuya caja se documenta sin batería ni cargador.",
+        "checks": ["Código AML115-9BK (no AML115-9B, que se vende sin batería ni cargador)", "Confirmar 2 baterías de 4 Ah, cargador y contenido del kit", "Tensión de entrada del cargador, compatibilidad Iron Volt y garantía aplicable al código"],
     },
     "/amoladoras/discos-ceramica/": {
         "name": "Bosch PRO Ceramic · 2 608 602 478",
@@ -284,11 +291,11 @@ CONTEXTUAL_CHOICES = {
         "checks": ["Código 2 608 602 478 y material declarado", "Diámetro, agujero, rpm máxima y guarda", "No asumir corte húmedo; seguir manual de disco y herramienta"],
     },
     "/amoladoras/bosch/": {
-        "name": "Bosch GWS 850 · alternativa de 115 mm",
-        "url": "https://meli.la/1hDoFyN",
-        "facts": ["850 W", "115 mm", "11.000 rpm · 220 V para el código argentino citado"],
-        "reason": "Alternativa con demanda de búsqueda propia para comparar frente a la GWS 770, sin tomar potencia o rpm como prueba de rendimiento.",
-        "checks": ["Código 0 601 377 5H0 y tensión 220 V", "Ficha, placa y contenido exactos de la unidad", "Garantía local y peso/configuración de la variante"],
+        "name": "Bosch GWS 770 · referencia regional compacta",
+        "url": "https://meli.la/1GRCAjZ",
+        "facts": ["770 W", "115 mm", "12.000 rpm · 220 V para el código regional citado"],
+        "reason": "Alternativa comercial compacta para comparar con la GWS 850; Bosch Brasil documenta este código, así que hay que confirmar procedencia y respaldo local.",
+        "checks": ["Código 0 601 398 0E0 y tensión de placa de 220 V", "Correspondencia entre código, manual y variante ofrecida", "Procedencia, contenido del paquete y garantía local"],
     },
     "/amoladoras/lusqtoff/": {
         "name": "Lüsqtoff AML1010-8 · más potencia y velocidad regulable",
@@ -306,7 +313,7 @@ CONTEXTUAL_CHOICES = {
     },
     "/amoladoras/disco-diamantado-segmentado/": {
         "name": "DeWalt DW47452L · segmentado de 115 mm",
-        "url": "https://www.mercadolibre.com.ar/disco-diamantado-4-12-dewalt-dw47452hp-segmentado-115mm/up/MLAU266079391",
+        "url": "https://meli.la/2JMaNXq",
         "facts": ["115 mm", "Borde segmentado", "Para concreto y bloque según publicación"],
         "reason": "Una segunda marca para comparar el formato segmentado de 115 mm; verificá el montaje exacto porque la publicación mezcla códigos DW47452L y DW47452HP.",
         "checks": ["Código grabado DW47452L/HP y materiales permitidos", "Agujero central y buje que correspondan al eje de la máquina", "RPM máxima y condiciones seco/húmedo de la etiqueta"],
@@ -320,21 +327,21 @@ CONTEXTUAL_CHOICES = {
     },
     "/amoladoras/ingco/": {
         "name": "INGCO CAGLI271532-4 · kit inalámbrico P20S de 20 V",
-        "url": "https://www.mercadolibre.com.ar/amoladora-angular-2-bat-4a-cargador-ingco-cagli271532/p/MLA49486654",
+        "url": "https://meli.la/2R9aYQA",
         "facts": ["115 mm · 3.000/6.000/9.000 rpm", "2 baterías de 4 Ah", "Cargador 20 V y 10 discos de corte según publicación"],
         "reason": "Alternativa para quien necesita movilidad y quiere entrar al kit P20S local; la AG7118-4 con cable sigue siendo la opción principal de uso general.",
         "checks": ["Confirmar SKU CAGLI271532-4 y contenido del lote", "Capacidad de baterías, modelo de cargador y entrada 220–240 V", "Garantía local y compatibilidad de otros packs P20S"],
     },
     "/amoladoras/velocidad-variable/": {
         "name": "Total TG109125565-4 · alternativa variable de 125 mm",
-        "url": "https://www.mercadolibre.com.ar/amoladora-angular-total-900w-125-mm-velocidad-variable/up/MLAU3722400545",
+        "url": "https://meli.la/2BE54o4",
         "facts": ["900 W", "125 mm", "Velocidad variable · 220 V según publicación"],
         "reason": "Una alternativa de entrada de 125 mm con regulador para comparar frente a la Dowen Pagio; no ofrece la misma potencia ni el mismo rango declarado.",
         "checks": ["Código TG109125565-4 y tensión 220 V", "La publicación muestra variaciones en el rango de rpm: confirmar en placa/manual", "Eje M14, contenido y garantía local"],
     },
     "/amoladoras/7-pulgadas/": {
         "name": "DeWalt DWE4557-AR · angular de 180 mm",
-        "url": "https://www.mercadolibre.com.ar/amoladora-angular-dwe4557ar-180mm-7-pulgadas-2400w/up/MLAU284272305",
+        "url": "https://meli.la/31fLEjB",
         "facts": ["2.400 W", "180 mm", "8.500 rpm · 220 V según publicación"],
         "reason": "Alternativa de 180 mm para comparar con la Bosch GWS 2200-180; la ficha del vendedor declara más potencia nominal, sin que eso sea una prueba de rendimiento.",
         "checks": ["Código DWE4557-AR y placa 220 V~50 Hz", "Guarda, disco de 180 mm, eje y accesorios del manual", "Peso y paquete varían entre publicaciones; confirmar garantía local"],
@@ -374,8 +381,22 @@ def render_contextual_choice(article_url):
     item = CONTEXTUAL_CHOICES.get(article_url)
     if not item:
         return ""
+    if item.get("compact"):
+        cta_label = escape(item.get("cta_label", "Ver producto en Mercado Libre"))
+        disclosure = (
+            "Enlace afiliado: puede generar una comisión para TallerLab, sin costo adicional para vos. Confirmá variante y disponibilidad en el aviso."
+            if item["url"].startswith("https://meli.la/")
+            else "Enlace directo; no se confirmó seguimiento de afiliado. Confirmá variante y disponibilidad en el aviso."
+        )
+        return f'''<p class="contextual-product-link">Si preferís comprar una unidad, <a href="{escape(item["url"], quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">{cta_label}</a>.</p>
+      <p class="buying-disclosure">{escape(disclosure)}</p>'''
     facts = "".join(f"<li>{escape(value)}</li>" for value in item["facts"])
     checks = "".join(f"<li>{escape(value)}</li>" for value in item["checks"])
+    buying_disclosure = (
+        "El enlace afiliado puede generar una comisión para TallerLab, sin costo adicional para vos. Confirmá precio, disponibilidad, variante y contenido del kit en el aviso."
+        if item["url"].startswith("https://meli.la/")
+        else "Enlace directo a la publicación; no se confirmó seguimiento de afiliado. Confirmá precio, disponibilidad, variante y contenido del kit en el aviso."
+    )
     return f'''<aside class="contextual-product-choice">
       <span class="resource-kicker">OTRA VARIANTE PARA ESTA NECESIDAD</span>
       <h3>{escape(item["name"])}</h3>
@@ -383,5 +404,5 @@ def render_contextual_choice(article_url):
       <p>{escape(item["reason"])}</p>
       <a class="buying-link btn-mercado-libre" href="{escape(item["url"], quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">Ver precio y disponibilidad en Mercado Libre</a>
       <div class="product-before-buying"><h4>Antes de comprar</h4><ul>{checks}</ul></div>
-      <p class="buying-disclosure">Enlace directo a la publicación; no se confirmó seguimiento de afiliado.</p>
+      <p class="buying-disclosure">{escape(buying_disclosure)}</p>
     </aside>'''

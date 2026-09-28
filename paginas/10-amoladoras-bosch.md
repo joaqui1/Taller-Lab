@@ -98,8 +98,6 @@ Bosch Argentina publica condiciones de garantía y registro adicional en su port
 
 La GWS 770 no es una de las variantes con ficha argentina que encabezan esta guía. Bosch Brasil documenta el código **0 601 398 0E0** como una máquina de 220 V, 770 W, 115 mm y 12.000 rpm. No trasladamos esas especificaciones a otras terminaciones ni aseguramos disponibilidad o garantía en Argentina con esa página regional.
 
-[Ver precio en Mercado Libre](https://meli.la/1GRCAjZ){:target="_blank" rel="sponsored noopener"}.
-
 Antes de comprar, confirmá en la unidad la placa 0 601 398 0E0, 220 V, guarda, accesorios y garantía local.
 
 ## Fuentes consultadas
