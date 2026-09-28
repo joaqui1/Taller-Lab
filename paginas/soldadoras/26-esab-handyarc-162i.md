@@ -3,7 +3,7 @@ title: "ESAB HandyArc 162i: corriente, ciclo de trabajo y compra"
 h1: "ESAB HandyArc 162i: qué ofrece y qué comprobar"
 url: "/soldadoras/esab-handyarc-162i/"
 description: "Tabla de ESAB HandyArc 162i, código 0409616: corriente MMA por ciclo de trabajo, rango, tensión, potencia aparente y generador recomendado; distingue máximo intermitente de salida continua."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["esab handyarc 162i", "esab 162i", "handyarc 162i", "handyarc 162i precio"]
 research_type: "documental"

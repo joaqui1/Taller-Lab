@@ -3,7 +3,7 @@ title: "Atornillador de impacto: cuál elegir y para qué sirve"
 h1: "Cómo elegir un atornillador de impacto"
 url: "/taladros/atornilladores-de-impacto/"
 description: "Comparación de encastres y modos entre Bosch GDR 18V-200, GDX 18V-200 y DeWalt DCF887; distingue torque de apriete y arranque."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["atornillador de impacto", "taladro de impacto", "torque atornillador impacto", "puntas para atornillador impacto", "atornillador impacto dewalt"]
 research_type: "documental"

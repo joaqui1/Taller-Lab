@@ -3,7 +3,7 @@ title: "Máscara Lusqtoff ST-1X: qué revisar antes de comprar"
 h1: "Máscara fotosensible Lusqtoff ST-1X: guía de compra"
 url: "/soldadoras/mascara-lusqtoff-st-1x/"
 description: "Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["lusqtoff st 1x", "mascara fotosensible lusqtoff st 1x", "mascara lusqtoff st 1x"]
 research_type: "documental"

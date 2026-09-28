@@ -3,7 +3,7 @@ title: "Hidrolavadoras de 200 bar: cuándo convienen"
 h1: "Cómo elegir una hidrolavadora de 200 bar"
 url: "/hidrolavadoras/200-bar/"
 description: "Contraste documental entre presión nominal, máxima y modo térmico en dos hidrolavadoras Gamma/Comet cuyo nombre comercial incluye 200; distingue una máquina trifásica calentadora de una Omega con presión máxima de 150 bar."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora 200 bar", "hidrolavadora 200 bar naftera", "hidrolavadora profesional 200 bar", "hidrolavadora trifasica 200 bar", "bomba 200 bar agua fria"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Sierra de banco Einhell: comparativa y guía de compra"
 h1: "Qué sierra de banco Einhell elegir para tu taller"
 url: "/sierras/de-banco-einhell/"
 description: "Comparación de las sierras de banco Einhell TC-TS 2025/2 U y TC-TS 2225 U por hoja y corte declarado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco einhell", "sierra de mesa einhell", "einhell tc-ts 2025", "einhell te-cc 250", "sierra circular de mesa einhell"]
 research_type: "documental"

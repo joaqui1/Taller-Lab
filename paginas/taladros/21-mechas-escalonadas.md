@@ -3,7 +3,7 @@ title: "Mecha escalonada: cuál comprar para chapa y metal"
 h1: "Qué mecha escalonada elegir y cómo usarla"
 url: "/taladros/mechas-escalonadas/"
 description: "Tabla dimensional y lista derivada de escalones de una broca Bosch HSS de 4–20 mm."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["mecha escalonada", "broca escalonada", "mecha cónica para metal", "mecha escalonada para metal", "mecha escalonada 4 a 32"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Bosch GKS 150: características y cuándo conviene"
 h1: "Sierra circular Bosch GKS 150: guía antes de comprar"
 url: "/sierras/bosch-gks-150/"
 description: "Ficha y manual de la Bosch GKS 150: potencia, disco, eje, corte a 90 grados y compatibilidad con guías."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["bosch gks 150", "sierra circular bosch gks 150", "gks 150 caracteristicas", "sierra circular bosch 1500w", "opiniones bosch gks 150"]
 research_type: "documental"

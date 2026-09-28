@@ -3,7 +3,7 @@ title: "Compresor inalámbrico: autonomía y guía de compra"
 h1: "Cómo elegir un compresor inalámbrico a batería"
 url: "/compresores/inalambricos/"
 description: "Comparación de infladores a batería con sus caudales declarados a distintas presiones; separa estos equipos sin tanque de los compresores para herramientas neumáticas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor inalambrico", "compresor a bateria", "inflador inalambrico auto", "compresor 18v"]
 research_type: "documental"

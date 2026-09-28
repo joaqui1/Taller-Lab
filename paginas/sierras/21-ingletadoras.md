@@ -3,7 +3,7 @@ title: "Ingletadoras: cómo elegir entre fija y telescópica"
 h1: "Ingletadoras: cuál elegir según el corte y el material"
 url: "/sierras/ingletadoras/"
 description: "Guía para elegir una ingletadora en Argentina: diferencias entre fija y telescópica, capacidad de corte, disco, bisel y modelos a comparar."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["ingletadora", "sierra ingletadora", "ingletadora para madera", "ingletadora telescopica"]
 research_type: "documental"

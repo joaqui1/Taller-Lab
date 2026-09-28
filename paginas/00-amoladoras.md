@@ -3,7 +3,7 @@ title: "Cómo elegir una amoladora: tipos, medidas y marcas"
 h1: "Qué amoladora comprar según el trabajo y el presupuesto"
 url: "/amoladoras/"
 description: "Tabla de tres amoladoras angulares Bosch para distinguir diámetros, potencia, rpm y peso documentado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Guías centrales"
 keywords: ["como elegir una amoladora", "que amoladora comprar", "mejores marcas de amoladoras", "tipos de amoladoras"]
 research_type: "documental"

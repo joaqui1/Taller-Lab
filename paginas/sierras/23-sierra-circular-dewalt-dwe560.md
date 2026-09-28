@@ -3,7 +3,7 @@ title: "DeWalt DWE560: ficha y guía de compra en Argentina"
 h1: "Sierra circular DeWalt DWE560: qué revisar antes de comprar"
 url: "/sierras/sierra-circular-dewalt-dwe560/"
 description: "Datos oficiales de la DeWalt DWE560-AR y criterios de compra: potencia, disco, bisel, accesorios y usos frente a otras sierras."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular dewalt dwe560", "dewalt dwe560", "dwe560 opiniones", "sierra circular dewalt 1400w"]
 research_type: "documental"

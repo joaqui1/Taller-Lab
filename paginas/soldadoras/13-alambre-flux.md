@@ -3,7 +3,7 @@ title: "Alambre flux: tipos, medidas y cuál comprar"
 h1: "Cómo elegir alambre flux para tu soldadora"
 url: "/soldadoras/alambre-flux/"
 description: "Compara dos alambres tubulares autoprotegidos concretos, Lincoln Steelcore 71T-GS y Innershield NR-211-MP E71T-11, por clasificación, polaridad, rangos de diámetro y límite de espesor que cada ficha publica."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["alambre flux", "alambre tubular flux core", "alambre flux 0.8", "alambre flux e71t gs", "alambre para soldar sin gas"]
 research_type: "documental"

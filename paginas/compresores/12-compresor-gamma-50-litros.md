@@ -3,7 +3,7 @@ title: "Compresor Gamma de 50 litros: modelos y prestaciones"
 h1: "Compresor Gamma de 50 litros: guía de compra"
 url: "/compresores/gamma-50-litros/"
 description: "Contraste del Gamma G2802AR con su versión en kit y exposición de la contradicción de potencia entre título, manual y tabla de producto."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor gamma 50 litros", "gamma g2802ar", "compresor gamma 2 hp 50l", "compresor gamma opiniones"]
 research_type: "documental"

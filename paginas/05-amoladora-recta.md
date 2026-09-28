@@ -3,7 +3,7 @@ title: "Amoladora recta: eléctrica o neumática, cuál elegir"
 h1: "Amoladoras rectas: usos y diferencias entre eléctricas y neumáticas"
 url: "/amoladoras/recta/"
 description: "Matriz eléctrica con diferencias calculadas y una lista explícita de evidencia neumática faltante."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Tipos de amoladoras"
 keywords: ["amoladora recta", "amoladora neumatica recta", "amoladora recta electrica", "fresas rotativas carburo", "die grinder"]
 research_type: "documental"

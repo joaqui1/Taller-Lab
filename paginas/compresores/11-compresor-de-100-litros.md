@@ -3,7 +3,7 @@ title: "Compresor de 100 litros: comparativa y guía de compra"
 h1: "Qué compresor de 100 litros elegir para tu taller"
 url: "/compresores/100-litros/"
 description: "Tabla de dos modelos de 100 L con caudales de placa, junto con una discrepancia documental de 30 kg en el LC-30100."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor de 100 litros", "compresor 100l correa", "compresor 3 hp taller", "compresor bicilindrico 100l"]
 research_type: "documental"

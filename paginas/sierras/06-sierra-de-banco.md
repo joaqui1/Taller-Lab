@@ -3,7 +3,7 @@ title: "Sierra de banco: cuál elegir para tu taller"
 h1: "Cómo elegir una sierra de banco para madera"
 url: "/sierras/de-banco/"
 description: "Criterios documentales para elegir una sierra de banco por corte, hoja, peso y superficie de apoyo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco", "sierra de mesa madera", "guia paralela sierra de banco", "cortar melamina sierra de banco", "sierra de banco carpinteria"]
 research_type: "documental"

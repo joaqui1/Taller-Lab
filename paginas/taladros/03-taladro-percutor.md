@@ -3,7 +3,7 @@ title: "Taladro percutor: cuál comprar y cómo elegirlo"
 h1: "Cómo elegir un taladro percutor"
 url: "/taladros/percutores/"
 description: "Matriz documental que distingue frecuencia de impactos, energía declarada, mandril y encastre SDS."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro percutor", "taladro percutor comprar", "percutor con cable", "taladro percutor bateria", "taladro para pared"]
 research_type: "documental"

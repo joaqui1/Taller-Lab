@@ -3,7 +3,7 @@ title: "Compresor Lusqtoff de 100 litros: guía de compra"
 h1: "Compresor Lusqtoff de 100 litros: prestaciones y usos"
 url: "/compresores/lusqtoff-100-litros/"
 description: "Tabla de tres líneas Lüsqtoff de 100 L identificadas por código y tecnología; registra contradicciones de peso y evita completar un caudal actual no confirmado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor lusqtoff 100 litros", "lusqtoff lc 30100", "compresor lusqtoff 3 hp 100l", "compresor a correa lusqtoff"]
 research_type: "documental"

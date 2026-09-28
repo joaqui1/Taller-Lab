@@ -3,7 +3,7 @@ title: "Sierra circular: cuál elegir según uso y presupuesto"
 h1: "Cómo elegir una sierra circular para tus trabajos"
 url: "/sierras/circulares/"
 description: "Guía de selección documental: disco admitido, eje y profundidad de corte publicados por modelo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular", "elegir sierra circular", "sierra circular de mano", "profundidad de corte sierra circular", "sierra circular carpinteria"]
 research_type: "documental"

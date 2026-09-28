@@ -3,7 +3,7 @@ title: "Sierra sin fin para metal: tipos y cómo elegir"
 h1: "Cómo elegir una sierra sin fin para metal"
 url: "/sierras/sin-fin-metal/"
 description: "Guía para diferenciar capacidades de sierras de banda portátiles para metal según sección de pieza."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sin fin para metal", "sierra de cinta metal", "sierra sin fin horizontal", "cintas bimetalicas para metal", "corte de perfiles metalicos"]
 research_type: "documental"

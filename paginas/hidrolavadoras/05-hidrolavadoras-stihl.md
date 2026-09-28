@@ -3,7 +3,7 @@ title: "Hidrolavadoras Stihl: modelos, diferencias y precios"
 h1: "Cómo elegir una hidrolavadora Stihl"
 url: "/hidrolavadoras/stihl/"
 description: "Comparación de tres fichas STIHL Argentina por referencia, tensión/potencia, peso y PVP sugerido capturado el 27/09/2026; separa datos actuales de presión/caudal no publicados en todos los modelos."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora stihl", "hidrolavadora stihl re 90", "stihl re 110 plus", "hidrolavadora stihl precios", "stihl hidrolavadoras argentina"]
 research_type: "documental"

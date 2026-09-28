@@ -74,10 +74,10 @@ def page(path):
         html = render_editorial_page("metodologia")
     elif url_path == "/equipo-editorial/":
         html = render_editorial_page("equipo")
-    elif url_path in ARTICLES_BY_URL:
-        html = render_article_page(ARTICLES_BY_URL[url_path])
     elif url_path.endswith("/") and url_path in INDEXABLE_PATH_SET and url_path[1:-1] in CATEGORY_META:
         html = render_category_page(url_path[1:-1])
+    elif url_path in ARTICLES_BY_URL:
+        html = render_article_page(ARTICLES_BY_URL[url_path])
     else:
         return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
 

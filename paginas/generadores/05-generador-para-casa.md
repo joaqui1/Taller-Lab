@@ -3,7 +3,7 @@ title: "Generador eléctrico para casa: qué potencia necesitás"
 h1: "Cómo elegir un generador eléctrico para tu casa"
 url: "/generadores/para-casa/"
 description: "Hoja de carga de vivienda con datos de arranque de motor tomados de manual Lüsqtoff y modelos de salida monofásica; muestra qué valores debe aportar el usuario."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador electrico para casa", "que generador necesito para una casa", "grupo electrogeno para casa", "generador aire acondicionado y heladera"]
 research_type: "documental"

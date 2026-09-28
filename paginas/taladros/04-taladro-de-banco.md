@@ -3,7 +3,7 @@ title: "Taladro de banco: guía para elegir y comparar"
 h1: "Qué taladro de banco comprar para tu taller"
 url: "/taladros/taladro-de-banco/"
 description: "Comparación de fichas oficiales de dos taladros de banco: recorrido, mandril, velocidades y régimen S2."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro de banco", "taladro de pedestal", "taladro de mesa taller", "comprar taladro de banco", "velocidades taladro banco"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Sierra sin fin para madera: cómo elegir la adecuada"
 h1: "Qué sierra sin fin para madera comprar"
 url: "/sierras/sierra-sin-fin-para-madera/"
 description: "Compara altura de corte, garganta, hoja y peso publicados para sierras sin fin Lüsqtoff."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sin fin para madera", "sierra de cinta madera", "ancho de garganta sierra sin fin", "cintas sierra sin fin", "sierra sin fin carpinteria"]
 research_type: "documental"

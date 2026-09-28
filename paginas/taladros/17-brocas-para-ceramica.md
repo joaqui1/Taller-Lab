@@ -3,7 +3,7 @@ title: "Brocas para cerámica: cuáles usar y cómo perforar"
 h1: "Cómo elegir mechas para cerámica y azulejos"
 url: "/taladros/brocas-ceramica/"
 description: "Matriz de compatibilidad entre dos familias Bosch de brocas para cerámica blanda y dura."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["brocas para ceramica", "mechas para azulejos", "perforar azulejo sin romper", "mecha punta flecha", "mecha widia ceramica"]
 research_type: "documental"

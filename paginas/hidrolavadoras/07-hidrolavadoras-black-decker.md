@@ -3,7 +3,7 @@ title: "Hidrolavadoras Black+Decker: cuál conviene comprar"
 h1: "Qué hidrolavadora Black+Decker elegir"
 url: "/hidrolavadoras/black-decker/"
 description: "Compara dos códigos BLACK+DECKER de la serie BXPW por potencia, presión de trabajo frente a máxima y caudal máximo según el manual; conserva la variante regional como límite."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora black decker", "hidrolavadora black decker 1300w", "black decker bw14", "hidrolavadora black decker opiniones", "repuestos hidrolavadora black decker"]
 research_type: "documental"

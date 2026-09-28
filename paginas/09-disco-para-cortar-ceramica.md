@@ -3,7 +3,7 @@ title: "Disco para cortar cerámica: cómo elegirlo"
 h1: "Qué disco elegir para cortar cerámica con amoladora"
 url: "/amoladoras/discos-ceramica/"
 description: "Comparación dimensional Bosch de discos para azulejo con segmentos turbo y borde continuo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Accesorios para amoladoras"
 keywords: ["disco para cortar ceramica", "disco diamantado continuo", "cortar ceramica con amoladora", "disco porcelanato amoladora"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir"
 h1: "Qué taladro inalámbrico Bosch comprar"
 url: "/taladros/bosch-inalambrico/"
 description: "Comparación documental Bosch GSR 120-LI y GSB 18V-50: plataforma, torque, mandril, peso y contenido de un kit identificado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico bosch", "bosch gsr 120-li", "bosch gsb 180-li", "taladro percutor bosch 18v", "bosch professional argentina"]
 research_type: "documental"

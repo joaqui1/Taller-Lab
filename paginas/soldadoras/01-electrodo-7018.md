@@ -3,7 +3,7 @@ title: "Electrodo 7018: usos, amperaje y cuál comprar"
 h1: "Electrodo 7018: cómo elegirlo según el trabajo"
 url: "/soldadoras/electrodo-7018/"
 description: "Tabla de corriente ESAB Atom Arc 7018 por diámetro y contraste con la corriente nominal de HandyArc 162i por ciclo de trabajo; separa consumible, fuente y almacenamiento sin generalizar los valores."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["electrodo 7018", "electrodo bajo hidrogeno", "amperaje electrodo 7018", "soldar con 7018", "conarco 7018"]
 research_type: "documental"

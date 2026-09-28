@@ -15,6 +15,7 @@ import urllib.parse
 from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
+from hubs import HUB_EDITORIAL, HUB_STEPS
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -60,10 +61,10 @@ CATEGORY_META = {
     "hidrolavadoras": {
         "name": "Hidrolavadoras",
         "icon": "💧",
-        "desc": "Presión bar, caudal real, bombas axiales y comparativa de marcas.",
+        "desc": "Presión declarada/documentada, caudal declarado/documentado y comparativa de marcas.",
         "badge": "Limpieza y Presión",
         "accent": "#0284c7",
-        "intro": "Presiones reales de trabajo, bombas con cabezal de aluminio vs compuesto plástico y comparativas de marcas para hogar y servicio continuo."
+        "intro": "Presión de trabajo y máxima documentadas por código, caudal declarado y límites de las fichas de cada modelo."
     },
     "compresores": {
         "name": "Compresores",
@@ -71,7 +72,7 @@ CATEGORY_META = {
         "desc": "Tanques de 24L a 200L, caudal CFM/PCM, lubricados y neumáticos.",
         "badge": "Aire Comprimido",
         "accent": "#f59e0b",
-        "intro": "Capacidad de tanque, caudal efectivo para pistolas de pintar y herramientas neumáticas, y modelos silenciosos libres de aceite."
+        "intro": "Capacidad de tanque, caudal declarado/documentado con su presión de referencia y consumo de herramientas neumáticas."
     },
     "amoladoras": {
         "name": "Amoladoras",
@@ -119,7 +120,7 @@ CATEGORY_META = {
         "desc": "Grupos electrógenos, inverter, cálculo de potencia kVA y nafta/gas.",
         "badge": "Energía y Respaldo",
         "accent": "#ca8a04",
-        "intro": "Cálculo de watts reales para heladeras y aires acondicionados, generadores inverter silenciosos y equipos a combustible dual."
+        "intro": "Potencia nominal y máxima documentadas, cargas con motor y diferencias entre generadores inverter y equipos por combustible."
     }
 }
 
@@ -163,7 +164,9 @@ AFFILIATE_PRODUCTS = {
     ],
 }
 
-# Datos contrastados con las fichas enlazadas. La imagen ilustra el modelo,
+# Datos declarados en las fuentes enlazadas, con su procedencia visible.
+# Las publicaciones comerciales no equivalen a documentación primaria.
+# La imagen ilustra el modelo,
 # no garantiza que la publicación de Mercado Libre incluya esa variante.
 PRODUCT_FACTS = {
     "https://meli.la/2xvJRJp": dict(brand="Ingco", model="CIDLI20668-4", use="Obra", power="Batería", specs=["20 V", "66 Nm", "Mandril 13 mm"], includes="Dos baterías, cargador y accesorios según la publicación; verificá el vendedor", image="https://supertoolsbd.com/wp-content/uploads/2024/11/ingco-CIDLI20668-3.jpg", source="https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463", image_source="https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"),
@@ -189,6 +192,43 @@ PRODUCT_FACTS = {
     "https://meli.la/1ntghna": dict(brand="Black+Decker", model="BES603", use="Hogar", power="Cable", specs=["400 W", "Hasta 3.000 rpm", "Sierra caladora"], includes="Contenido de la caja a confirmar en el aviso", image="https://http2.mlstatic.com/D_NQ_NP_829009-MLA84554917660_052025-O.webp", source="https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702"),
 }
 
+# Correcciones de procedencia y variantes frente a la documentación revisada.
+PRODUCT_FACTS["https://meli.la/26RsZRw"].update(
+    specs=["200 V según ficha", "MIG flux / MMA / Lift TIG", "FLUX 20–120 A; MMA/TIG 20–100 A"],
+    source="https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+    warning="La ficha oficial declara 200 V–50 Hz. Confirmá placa y tensión de la unidad ofrecida; 120 A corresponde a FLUX, no a todos los procesos.",
+)
+PRODUCT_FACTS["https://meli.la/1knTbU1"]["specs"] = ["220 V", "105 A al 30 % declarado", "MMA"]
+PRODUCT_FACTS["https://meli.la/1mZhwNS"].update(
+    specs=["220 V", "MMA", "160 A al 20 %; 72 A al 100 %"],
+    source="https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+    warning="Datos del código ESAB 0409616. Confirmá ese código en la oferta; corriente máxima y continua son distintas.",
+)
+PRODUCT_FACTS["https://meli.la/12aMvrG"]["source"] = "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/"
+PRODUCT_FACTS["https://meli.la/2Rcddpg"].update(
+    specs=["1200 W", "105 bar máximos declarados", "Caudal no informado"],
+    includes="Contenido a confirmar en el aviso y manual del código HL-105",
+)
+PRODUCT_FACTS["https://meli.la/1KQjHgT"].update(
+    specs=["Motor 6,5 hp", "154 bar declarados; tipo no informado", "Caudal no informado"],
+    source="https://logus.com.ar/productos/hidrolavadora-a-explosion-6-5hp-industrial-154-bar-ghl-150/",
+)
+PRODUCT_FACTS["https://meli.la/2xvJRJp"].update(
+    image="/assets/editorial/taladros.webp", illustrative=True,
+    warning="Datos declarados en la publicación comercial. La foto de CIDLI20668-3 no identifica CIDLI20668-4, por eso se usa una ilustración.",
+)
+PRODUCT_FACTS["https://meli.la/2xvJRJp"].pop("image_source", None)
+PRODUCT_FACTS["https://meli.la/2WFpTNp"].update(
+    specs=["Potencia: variante sin confirmar", "Disco: variante sin confirmar", "Velocidad: variante sin confirmar"],
+    warning="El aviso mezcla SML2000-8 y SML2000-9; no se asignan cifras de una variante a la otra. Las fichas y el catálogo también discrepan en potencia y diámetro: confirmá placa y manual.",
+)
+PRODUCT_FACTS["https://meli.la/1GRCAjZ"]["warning"] = "Fuente Bosch Brasil para 06013980E0; no confirma la variante, el kit ni la garantía de una oferta argentina."
+PRODUCT_FACTS["https://meli.la/1mLrBwo"]["warning"] = "La oferta identifica TS223558-4; la documentación de TS223558 sin sufijo no prueba que sean la misma variante."
+for facts in PRODUCT_FACTS.values():
+    host = urllib.parse.urlsplit(facts["source"]).hostname or ""
+    facts["source_type"] = "publicación comercial" if host.endswith("mercadolibre.com.ar") else "fabricante"
+    facts["evidence_label"] = "Declaración comercial" if facts["source_type"] == "publicación comercial" else "Datos documentados del fabricante"
+
 COMPARE_TYPES = {
     "https://meli.la/1KQjHgT": "hidrolavadora-nafta",
     "https://meli.la/2m7TJWQ": "inflador-portatil",
@@ -206,7 +246,7 @@ COMPARE_TYPES = {
 }
 COMPARE_ROWS = {
     "amoladoras": ("Potencia", "Diámetro de disco", "Velocidad", "Peso"),
-    "hidrolavadoras": ("Potencia o motor", "Presión máxima", "Caudal"),
+    "hidrolavadoras": ("Potencia o motor declarados", "Presión declarada/documentada", "Caudal declarado/documentado"),
     "compresores": ("Dato principal", "Dato secundario", "Dato adicional"),
     "taladros": ("Dato principal", "Dato secundario", "Dato adicional"),
     "sierras": ("Potencia", "Disco u hoja", "Velocidad"),
@@ -214,8 +254,8 @@ COMPARE_ROWS = {
     "generadores": ("Potencia nominal", "Potencia máxima", "Motor o tanque"),
 }
 COMPARE_ROWS.update({
-    "inflador-portatil": ("Caudal", "Presión máxima", "Peso"),
-    "hidrolavadora-nafta": ("Motor", "Presión máxima", "Caudal"),
+    "inflador-portatil": ("Caudal declarado/documentado", "Presión máxima declarada", "Peso declarado"),
+    "hidrolavadora-nafta": ("Motor declarado", "Presión declarada/documentada", "Caudal declarado/documentado"),
     "accesorio-neumatico": ("Piezas", "Manguera", "Pistola"),
     "taladro-de-banco": ("Potencia", "Mandril", "Velocidades"),
     "taladro-percutor": ("Voltaje", "Torque", "Mandril"),
@@ -232,9 +272,13 @@ COMPARE_DETAILS = {
     "https://meli.la/1GRCAjZ": ("770 W", "115 mm", "12.000 rpm", "1,37 kg según Bosch"),
     "https://meli.la/2m7TJWQ": ("16 L/min", "No informado", "480 g"),
     "https://meli.la/274KM8a": ("85 L/min", "150 PSI", "No informado"),
-    "https://meli.la/1knTbU1": ("220 V", "MMA", "Hasta 105 A"),
+    "https://meli.la/1knTbU1": ("220 V", "MMA", "105 A al 30 % declarado"),
     "https://meli.la/2bL6gVj": ("No informado", "2,2 kVA máximos", "Motor 5,5 hp"),
 }
+COMPARE_DETAILS.update({
+    "https://meli.la/26RsZRw": ("200 V según ficha", "FLUX / MMA / Lift TIG", "FLUX 20–120 A; MMA/TIG 20–100 A"),
+    "https://meli.la/1mZhwNS": ("220 V", "MMA", "160 A al 20 %; 72 A al 100 %"),
+})
 UNVERIFIED_SPECS = {
     "hidrolavadoras": ["Presión: verificar", "Caudal: verificar", "Potencia: verificar"],
     "compresores": ["Presión: verificar", "Caudal: verificar", "Tanque: verificar"],
@@ -252,10 +296,10 @@ CLICK_LOCK = Lock()
 QUICK_BY_SECTION = {
     "taladros": [("Hogar", "Taladro atornillador inalámbrico", "Cómodo para muebles y fijaciones", "Revisá si trae baterías y cargador", "/taladros/inalambricos/"), ("Taller", "Percutor inalámbrico", "Suma trabajo en ladrillo", "La percusión no sustituye un SDS en hormigón", "/taladros/taladro-percutor-inalambrico/"), ("Obra", "Rotomartillo SDS", "Mejor para perforación frecuente en hormigón", "Más peso y menos precisión para atornillar", "/taladros/rotomartillos/")],
     "amoladoras": [("Hogar", "Amoladora compacta de 115 mm", "Fácil de maniobrar", "Menor profundidad de corte", "/amoladoras/115-o-125/"), ("Taller", "Amoladora de 125 mm", "Equilibrio entre corte y manejo", "Elegí el disco según material", "/amoladoras/115-o-125/"), ("Obra", "Amoladora de 230 mm", "Mayor profundidad de corte", "Más peso y exigencia eléctrica", "/amoladoras/9-pulgadas/")],
-    "hidrolavadoras": [("Hogar", "Equipo compacto eléctrico", "Práctico para limpieza ocasional", "Compará caudal, no solo presión", "/hidrolavadoras/comparativa-general/"), ("Taller", "Equipo de mayor caudal", "Avanza mejor en superficies grandes", "Requiere suministro de agua adecuado", "/hidrolavadoras/comparativa-general/"), ("Obra", "Equipo profesional", "Adecuado para jornadas prolongadas", "Mayor costo y mantenimiento", "/hidrolavadoras/profesionales/")],
-    "compresores": [("Hogar", "Inflador portátil", "Ocupa poco espacio", "No sirve para herramientas neumáticas continuas", "/compresores/para-auto/"), ("Taller", "Compresor con tanque", "Permite usos intermitentes", "Verificá caudal efectivo", "/compresores/50-litros/"), ("Obra", "Mayor tanque y caudal", "Sostiene herramientas más exigentes", "Más peso, ruido y consumo", "/compresores/100-litros/")],
+    "hidrolavadoras": [("Hogar", "Equipo compacto eléctrico", "Práctico para limpieza ocasional", "Compará caudal, no solo presión", "/hidrolavadoras/comparativa-general/"), ("Taller", "Equipo de mayor caudal", "Avanza mejor en superficies grandes", "Requiere suministro de agua adecuado", "/hidrolavadoras/comparativa-general/"), ("Obra", "Equipo profesional", "Revisá el ciclo documentado para la tarea", "Mayor costo y mantenimiento", "/hidrolavadoras/profesionales/")],
+    "compresores": [("Hogar", "Inflador portátil", "Ocupa poco espacio", "No sirve para herramientas neumáticas continuas", "/compresores/para-auto/"), ("Taller", "Compresor con tanque", "Permite usos intermitentes", "Verificá caudal documentado a la presión de uso", "/compresores/50-litros/"), ("Obra", "Mayor tanque y caudal", "Compará caudal con el consumo de la herramienta", "Más peso, ruido y consumo", "/compresores/100-litros/")],
     "sierras": [("Hogar", "Sierra caladora", "Permite curvas y cortes ocasionales", "Menos rectitud en tramos largos", "/sierras/caladoras/"), ("Taller", "Sierra circular", "Cortes rectos rápidos", "Requiere guía y apoyo estable", "/sierras/circulares/"), ("Obra", "Sierra de banco o sensitiva según material", "Repetibilidad o corte de metal", "Equipo fijo y de mayor tamaño", "/sierras/")],
-    "soldadoras": [("Hogar", "Inverter MMA compacta", "Portable para reparaciones", "Exige práctica con electrodo", "/soldadoras/"), ("Taller", "MIG flux", "Alimentación continua de alambre", "Produce escoria y salpicaduras", "/soldadoras/mig-sin-gas/"), ("Obra", "Inverter según ciclo de trabajo", "Adecuada para uso prolongado", "Verificá alimentación y protección", "/soldadoras/")],
+    "soldadoras": [("Hogar", "Inverter MMA compacta", "Portable para reparaciones", "Exige práctica con electrodo", "/soldadoras/"), ("Taller", "MIG flux", "Alimentación continua de alambre", "Produce escoria y salpicaduras", "/soldadoras/mig-sin-gas/"), ("Obra", "Inverter según ciclo de trabajo", "Compará corriente y ciclo documentados", "Verificá alimentación y protección", "/soldadoras/")],
     "generadores": [("Hogar", "Generador según cargas esenciales", "Respaldo dimensionado", "Calculá picos de arranque", "/generadores/para-casa/"), ("Taller", "Equipo con margen de potencia", "Admite herramientas con motor", "Mayor consumo y ruido", "/generadores/a-nafta/"), ("Obra", "Generador de capacidad superior", "Alimenta varias cargas", "Requiere ventilación y mantenimiento", "/generadores/a-nafta/")],
     "soldadura-electronica": [("Hogar", "Kit de soldador de estaño", "Resuelve uniones sencillas", "Control de temperatura limitado", "/soldadura-electronica/kit-soldador-de-estano/"), ("Taller", "Estación de soldadura", "Mejor control de temperatura", "Ocupa más espacio", "/soldadura-electronica/estacion-de-soldadura/"), ("Reparación SMD", "Estación con aire caliente", "Permite trabajar componentes superficiales", "Requiere práctica para evitar daños", "/soldadura-electronica/estacion-de-soldadura/")],
 }
@@ -555,6 +599,20 @@ TAXONOMY_MAP = {
     }
 }
 
+# Completar el recorrido con las guías añadidas después del mapa original.
+TAXONOMY_MAP["taladros"]["accesorios"].extend([
+    "21-mechas-escalonadas.md", "22-mecha-forstner-35-mm.md",
+    "23-combo-taladro-amoladora.md",
+])
+TAXONOMY_MAP["soldadoras"]["modelos"].extend([
+    "21-soldadora-lusqtoff-iron-100.md", "22-soldadora-mig-lusqtoff.md",
+    "23-soldadora-lusqtoff-sml150-8.md", "24-soldadora-lusqtoff-sml120-8d.md",
+    "26-esab-handyarc-162i.md", "28-soldadora-lusqtoff-sml130-7.md",
+])
+TAXONOMY_MAP["soldadoras"]["accesorios"].extend([
+    "25-carro-para-soldadora-mig.md", "27-mascara-lusqtoff-st-1x.md",
+])
+
 BRANDS_LIST = [
     'karcher', 'gamma', 'lusqtoff', 'bosch', 'dewalt', 'stihl', 'einhell', 
     'makita', 'stanley', 'milwaukee', 'black-decker', 'black+decker', 'hyundai', 
@@ -660,7 +718,7 @@ def load_all_articles():
             "h1": fm.get("h1", p.stem),
             "url": url,
             "description": fm.get("description", ""),
-            "author": fm.get("author", "Equipo Técnico de Taller Lab"),
+            "author": fm.get("author", "Equipo editorial TallerLab"),
             "reviewed": fm.get("reviewed", ""),
             "published": fm.get("published", ""),
             "research_type": fm.get("research_type", ""),
@@ -694,7 +752,7 @@ def load_all_articles():
                     "h1": fm.get("h1", p.stem),
                     "url": url,
                     "description": fm.get("description", ""),
-                    "author": fm.get("author", "Equipo Técnico de Taller Lab"),
+                    "author": fm.get("author", "Equipo editorial TallerLab"),
                     "reviewed": fm.get("reviewed", ""),
                     "published": fm.get("published", ""),
                     "research_type": fm.get("research_type", ""),
@@ -778,15 +836,15 @@ def render_affiliate_shelf(section_id, products=None):
         model = facts["model"] if facts else "Modelo sin confirmar"
         use = facts["use"] if facts else "Uso a verificar"
         power = facts["power"] if facts else "Alimentación a verificar"
-        specs = facts["specs"] if facts else UNVERIFIED_SPECS.get(category, ["Ficha técnica pendiente"])
+        specs = facts["specs"] if facts else UNVERIFIED_SPECS.get(category, ["Ficha técnica no informada"])
         includes = facts["includes"] if facts else "Contenido del kit a confirmar en la publicación"
         if facts and facts.get("illustrative"):
-            media = f'<div class="illustrative-product"><img src="{escape(facts["image"], quote=True)}" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · foto del modelo pendiente</span></div>'
+            media = f'<div class="illustrative-product"><img src="{escape(facts["image"], quote=True)}" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
         elif facts and facts.get("image"):
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'/assets/editorial/{category}.webp\';this.alt=\'Imagen ilustrativa de {category}\';this.parentElement.classList.add(\'fallback-photo\')">'
         else:
-            media = f'<div class="illustrative-product"><img src="/assets/editorial/{category}.webp" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · foto del modelo pendiente</span></div>'
-        source = (f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Ficha del modelo ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Ficha aún sin fuente verificable</span>')
+            media = f'<div class="illustrative-product"><img src="/assets/editorial/{category}.webp" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
+        source = (f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p><a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
         compare_type = COMPARE_TYPES.get(url, category)
         compare_labels = escape(json.dumps(COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional"))), ensure_ascii=False), quote=True)
         compare_details = escape(json.dumps(COMPARE_DETAILS.get(url, specs[:3]), ensure_ascii=False), quote=True)
@@ -813,7 +871,7 @@ def render_affiliate_shelf(section_id, products=None):
     <section class="affiliate-shelf" aria-label="Publicaciones con enlace de afiliado">
       <div class="affiliate-heading">
         <div><span class="section-kicker">SELECCIÓN DE PRODUCTOS</span><h2>{title}</h2></div>
-        <p>Fotos y datos ilustran el modelo identificado; revisá variante, precio, accesorios y vendedor en Mercado Libre.</p>
+        <p>Datos declarados en la fuente indicada, sin medición propia. La presión máxima no equivale a presión de trabajo; el caudal sin condición de medición no acredita caudal entregado. Revisá código, kit y vendedor.</p>
       </div>
       <div class="offer-filters" aria-label="Filtrar productos">
         <label>Marca <select class="filter-brand"><option value="">Todas</option></select></label>
@@ -1604,7 +1662,7 @@ TallerLab firma sus guías como **Equipo editorial TallerLab**. Es la identidad 
 
 El trabajo editorial consiste en identificar modelos concretos, leer documentación técnica, separar datos declarados de conclusiones y explicar qué información falta para decidir. Antes de publicar, contrastamos las cifras decisivas con sus fuentes y revisamos los límites de cada recomendación.
 
-La guía publicada de compresores de 50 litros es una comparación documental. No hubo ensayo instrumental propio de esos equipos. Cuando publiquemos una prueba de taller, detallaremos quién la hizo, con qué equipo y bajo qué condiciones.
+Las guías publicadas son comparaciones documentales de fichas, manuales y catálogos. No hubo ensayo instrumental propio de esos equipos. Cuando publiquemos una prueba de taller, detallaremos quién la hizo, con qué equipo y bajo qué condiciones.
 
 Consultá [cómo trabajamos](/como-trabajamos/) para ver el proceso completo y el tratamiento de enlaces comerciales.
 """
@@ -1631,12 +1689,45 @@ def render_home_page():
 def render_category_page(section_id):
     articles = [a for a in ALL_ARTICLES if a["section"] == section_id]
     meta = CATEGORY_META[section_id]
-    cards = "".join(render_article_card(a, badge_text="GUÍA REVISADA", action_text="Leer guía") for a in articles)
-    content = f'<div class="article-container"><div class="article-header"><h1>{escape(meta["name"])}</h1><p class="article-lead">Guías publicadas después de verificar sus fuentes y conclusiones.</p></div><div class="article-grid">{cards}</div></div>'
-    return HTML_SHELL.format(PAGE_TITLE=meta["name"], CANONICAL_TAG=canonical_tag(f"/{section_id}/"), PAGE_DESC=f'Guías revisadas sobre {meta["name"].lower()} para Argentina.', PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    editorial = HUB_EDITORIAL[section_id]
+    taxonomy = TAXONOMY_MAP[section_id]
+    groups = {key: [a for a in articles if a["filename"] in taxonomy[key]] for key, *_ in HUB_STEPS}
+    if editorial.get("main"):
+        main = next(a for a in articles if a["filename"] == editorial["main"])
+        groups["general"].insert(0, main)
+        groups["necesidad"] = [a for a in groups["necesidad"] if a != main]
+    assigned = {a["url"] for group in groups.values() for a in group}
+    if assigned != {a["url"] for a in articles}:
+        raise ValueError(f"Hay guías sin recorrido editorial en {section_id}")
+    trunk = next((a for a in articles if a["url"] == f"/{section_id}/"), None)
+    nav = "".join(f'<a href="#{anchor}"><span>{i:02d}</span>{label}</a>' for i, (_, anchor, label, _) in enumerate(HUB_STEPS, 1))
+    criteria = "".join(f'<li>{escape(item)}</li>' for item in editorial["criteria"])
+    sections = []
+    for i, (key, anchor, label, desc) in enumerate(HUB_STEPS, 1):
+        cards = "".join(render_article_card(a, badge_text=label.upper(), action_text="Leer guía") for a in groups[key] if a != trunk)
+        extra = ""
+        if key == "general" and trunk:
+            extra = f'<details class="hub-documental"><summary>Leer guía principal documentada: {escape(trunk["h1"])}</summary>{render_article_page(trunk, embedded=True)}</details>'
+        if key == "marcas" and section_id == "soldadura-electronica":
+            cards = "".join(f'<a class="hub-brand-link" href="{a["url"]}">{escape(a["title"])}</a>' for a in groups["modelos"])
+            extra = '<p class="hub-note">Las guías disponibles de Gadnic y YiHUA comparan modelos concretos; no representan toda la gama de cada marca.</p>'
+        if key == "accesorios" and editorial.get("accessories"):
+            extra = '<ul class="hub-checklist">' + "".join(f'<li>{escape(item)}</li>' for item in editorial["accessories"]) + '</ul>'
+            extra += f'<p class="hub-note">Consultá los accesorios documentados en la <a href="{groups["general"][0]["url"]}">guía principal</a> y en las fichas de modelos de esta categoría.</p>'
+        sections.append(f'<section id="{anchor}" class="hub-section" aria-labelledby="{anchor}-title"><div class="hub-section-heading"><span class="hub-step">{i:02d}</span><div><h2 id="{anchor}-title">{label}</h2><p>{desc}</p></div></div>{extra}<div class="article-grid">{cards}</div></section>')
+    headline = trunk["h1"] if trunk else meta["name"]
+    content = f'''<div class="article-container category-hub">
+      <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
+      <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/equipo-editorial/">Equipo editorial TallerLab</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
+      <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
+      <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
+      {"".join(sections)}
+    </div>'''
+    schema = article_schema_tag(trunk) if trunk else ""
+    return HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else meta["name"], CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
-def render_article_page(article):
+def render_article_page(article, embedded=False):
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
@@ -1679,7 +1770,7 @@ def render_article_page(article):
         rendered_body = MARKDOWN.render(clean_body)
         body_script = ""
         trust_html = """
-        <p><strong>Criterio editorial:</strong> Esta guía reúne criterios de elección y, cuando corresponde, especificaciones publicadas por fabricantes. Las pruebas propias se identifican expresamente.</p>
+        <p><strong>Criterio editorial:</strong> Esta guía compara documentación de fabricantes; TallerLab no realizó una prueba física de los equipos. Las tarjetas comerciales indican su propia fuente y sus límites.</p>
         <p style="margin-top: 0.5rem;"><strong>Enlaces comerciales:</strong> Solo recomendamos una oferta cuando corresponde al producto descrito y contamos con un enlace de afiliado válido.</p>
         """
     else:
@@ -1812,6 +1903,16 @@ def render_article_page(article):
     {body_script}
     """
     
+    if embedded:
+        return content.replace("<h1>", "<h3>").replace("</h1>", "</h3>")
+    return HTML_SHELL.format(
+        PAGE_TITLE=article["title"],
+        CANONICAL_TAG=canonical_tag(article["url"]) + article_schema_tag(article),
+        PAGE_DESC=article["description"], PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC,
+    )
+
+
+def article_schema_tag(article):
     article_schema = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -1821,15 +1922,7 @@ def render_article_page(article):
         "author": {"@type": "Organization", "name": "Equipo editorial TallerLab", "url": absolute_url("/equipo-editorial/")},
         "publisher": {"@type": "Organization", "name": "TallerLab"},
     }
-    schema_tag = '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
-    return HTML_SHELL.format(
-        PAGE_TITLE=article["title"],
-        CANONICAL_TAG=canonical_tag(article["url"]) + schema_tag,
-        PAGE_DESC=article["description"],
-        PORT=PORT,
-        CONTENT=content,
-        LOGO_SRC=LOGO_SRC
-    )
+    return '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
 
 def render_not_found(path):
     not_found_content = f"""
@@ -1952,7 +2045,15 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.wfile.write(render_editorial_page(kind).encode("utf-8"))
             return
             
-        # 3. Artículos específicos (incluyendo guías troncales con URL propia como /soldadoras/ y /amoladoras/)
+        # Los ocho hubs tienen prioridad; sus guías troncales conservan Article.
+        if path[1:-1] in PUBLIC_SECTIONS and path.endswith("/"):
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_category_page(path[1:-1]).encode("utf-8"))
+            return
+
+        # 3. Artículos específicos
         for a in ALL_ARTICLES:
             if path == a["url"]:
                 self.send_response(200)

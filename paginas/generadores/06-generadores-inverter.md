@@ -3,7 +3,7 @@ title: "Generador inverter: qué es y cuál elegir"
 h1: "Generadores inverter: cómo funcionan y cuál comprar"
 url: "/generadores/inverter/"
 description: "Matriz que separa potencia nominal/máxima y ruido documentado en generadores inverter Honda y Lüsqtoff; evita equiparar tecnología, potencia y silencio."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador inverter", "generadores inverter que es", "generador inverter vs convencional", "mejor generador inverter", "generador silencioso inverter"]
 research_type: "documental"

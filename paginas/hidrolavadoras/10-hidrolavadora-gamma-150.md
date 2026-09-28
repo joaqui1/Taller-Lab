@@ -3,7 +3,7 @@ title: "Gamma 150: características, uso y guía de compra"
 h1: "Hidrolavadora Gamma 150: qué revisar antes de comprar"
 url: "/hidrolavadoras/gamma-150/"
 description: "Explica con el manual G2514AR que los 150 bar son presión máxima admisible y muestra los 100 bar de servicio junto con el caudal y los datos del código Gamma 130 comparado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora gamma 150", "gamma 150 g2578ar", "hidrolavadora gamma 150 opiniones", "gamma 150 vs 130", "repuestos hidrolavadora gamma 150"]
 research_type: "documental"

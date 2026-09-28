@@ -3,7 +3,7 @@ title: "Amoladoras Ingco: modelos con cable y a batería"
 h1: "Qué amoladora Ingco elegir según el uso"
 url: "/amoladoras/ingco/"
 description: "Tabla por código de cuatro amoladoras INGCO con dimensiones y mercados de las fichas oficiales consultadas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora ingco", "amoladora ingco a bateria", "amoladora ingco 115", "ingco 20v amoladora", "amoladora ingco opiniones"]
 research_type: "documental"

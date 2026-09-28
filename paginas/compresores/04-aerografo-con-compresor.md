@@ -3,7 +3,7 @@ title: "Aerógrafo con compresor: qué kit comprar para empezar"
 h1: "Kits de aerógrafo con compresor: guía para principiantes"
 url: "/compresores/kits-aerografo/"
 description: "Comprueba si el producto denominado kit incluye realmente compresor: BTA AP8 incluye aerógrafo y accesorios de conexión, mientras el compresor se sugiere aparte."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["aerografo con compresor", "kit aerografia principiantes", "aerografo reposteria", "aerografo modelismo"]
 research_type: "documental"

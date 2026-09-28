@@ -3,7 +3,7 @@ title: "Aceite para compresor de aire: cuál lleva y cómo elegir"
 h1: "Qué aceite lleva un compresor de aire"
 url: "/compresores/aceite/"
 description: "Contraste de grados e intervalos de aceite en manuales de tres compresores concretos; muestra por qué no hay una viscosidad universal."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["aceite para compresor de aire", "que aceite lleva un compresor", "aceite iso vg 68 compresor", "lubricante compresor piston"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Compresor Lusqtoff de 50 litros: modelos y compra"
 h1: "Compresor Lusqtoff de 50 litros: cuál elegir"
 url: "/compresores/lusqtoff-50-litros/"
 description: "Tabla de tres modelos Lüsqtoff de 50 L: separa datos completos de ficha, cifras de variantes y campos aún sin documentación primaria."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor lusqtoff 50 litros", "lusqtoff lc 2050", "compresor lusqtoff 50l opiniones", "compresor lusqtoff silencioso 50l"]
 research_type: "documental"

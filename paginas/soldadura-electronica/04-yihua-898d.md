@@ -3,7 +3,7 @@ title: "Yihua 898D: estación de aire caliente y cautín"
 h1: "Yihua 898D: qué incluye y para qué trabajos sirve"
 url: "/soldadura-electronica/yihua-898d/"
 description: "Ficha de la Yihua 898D: potencia, rangos y accesorios según fabricante, con diferencias explícitas frente a 898D+ y 878D."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldado yihua 898d", "yihua 898d", "estacion de soldadura yihua 898d"]
 research_type: "documental"

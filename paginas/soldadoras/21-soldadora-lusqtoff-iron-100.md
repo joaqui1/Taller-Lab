@@ -3,7 +3,7 @@ title: "Lusqtoff Iron 100: ficha del kit con máscara y escuadras"
 h1: "Soldadora Lusqtoff Iron 100: qué incluye y para quién sirve"
 url: "/soldadoras/lusqtoff-iron-100/"
 description: "Contrasta el IRON-100 de catálogo 2020/21 con el kit MEGAIRON100-8 actual: rango/ciclo, peso y contenido de caja, dejando visible que son códigos y generaciones distintas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora lusqtoff iron 100", "iron 100 lusqtoff", "lusqtoff iron 100", "megairon100-8"]
 research_type: "documental"

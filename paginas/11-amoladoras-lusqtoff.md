@@ -3,7 +3,7 @@ title: "Amoladoras Lusqtoff: modelos y qué revisar"
 h1: "Amoladoras Lusqtoff: cómo comparar modelos con cable y batería"
 url: "/amoladoras/lusqtoff/"
 description: "Comparación de fichas Lusqtoff con cable y batería: potencia, diámetro, rpm, peso y contenido de kit."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora lusqtoff", "amoladora lusqtoff 850w", "amoladora lusqtoff a bateria", "amoladora lusqtoff opiniones", "aml850-8"]
 research_type: "documental"

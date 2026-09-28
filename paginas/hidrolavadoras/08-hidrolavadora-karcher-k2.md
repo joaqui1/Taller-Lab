@@ -3,7 +3,7 @@ title: "Kärcher K2: versiones, prestaciones y guía de compra"
 h1: "Hidrolavadora Kärcher K2: cuál elegir y para qué sirve"
 url: "/hidrolavadoras/karcher-k2/"
 description: "Ficha comparativa de Kärcher K2 Basic Black argentino y K3 Black Edition: código, presión, caudal, peso, manguera y contenido publicado; evita tratar nombres de kits regionales como modelos equivalentes."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora karcher k2", "karcher k2 caracteristicas", "karcher k2 falta de presion", "karcher k2 car kit", "karcher k2 vs k3"]
 research_type: "documental"

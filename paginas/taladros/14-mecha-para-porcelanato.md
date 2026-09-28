@@ -3,7 +3,7 @@ title: "Mecha para porcelanato: cuál elegir y cómo usarla"
 h1: "Qué mecha usar para perforar porcelanato"
 url: "/taladros/mecha-porcelanato/"
 description: "Ficha de aplicación para una broca concreta para porcelanato, con diámetro, espesor y modo de trabajo documentados."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["mecha para porcelanato", "broca para porcelanato", "perforar porcelanato sin romper", "mecha diamantada porcelanato", "copa diamantada"]
 research_type: "documental"

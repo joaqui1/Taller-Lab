@@ -3,7 +3,7 @@ title: "Grupos electrógenos: cómo elegir y comparar modelos"
 h1: "Grupos electrógenos: guía para elegir el adecuado"
 url: "/generadores/comparativa-general/"
 description: "Tabla de potencia nominal y máxima en tres modelos documentados más una cuenta de carga reproducible a partir de voltios y amperes."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupos electrógenos", "generador electrico", "elegir grupo electrogeno", "grupo electrogeno argentina", "potencia generador"]
 research_type: "documental"

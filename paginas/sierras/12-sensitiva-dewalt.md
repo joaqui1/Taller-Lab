@@ -3,7 +3,7 @@ title: "Sensitiva DeWalt: modelos y guía de compra"
 h1: "Sensitiva DeWalt: qué modelo elegir"
 url: "/sierras/sensitivas-dewalt/"
 description: "Qué revisar al elegir una sensitiva DeWalt en Argentina: modelo D28730, disco de 355 mm, morsa, capacidad de corte y accesorios."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sensitiva dewalt", "sierra sensitiva dewalt", "dewalt d28730", "cortadora sensitiva dewalt 14"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Soldadora TIG: qué es y qué equipo conviene comprar"
 h1: "Soldadoras TIG: guía para elegir tu equipo"
 url: "/soldadoras/tig/"
 description: "Matriz de equipos TIG por proceso, corriente, ciclo y alimentación: distingue AC/DC ESAB ET 200i, TIG DC de Lüsqtoff ST-200 discontinuada y PROTIG180-8 con parámetros de ciclo publicados."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora tig", "soldadora tig inverter", "soldar tig argentina", "tig alta frecuencia", "soldadora tig ac dc"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Ingletadora Total: modelos y qué revisar al comprar"
 h1: "Cómo elegir una ingletadora Total"
 url: "/sierras/ingletadoras-total/"
 description: "Comparación de los códigos Total TS42142107 y TS42182553 con capacidades y discos publicados en catálogo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["ingletadora total", "sierra ingletadora total", "total tools ingletadora", "ingletadora telescopica total", "ingletadora 10 pulgadas total"]
 research_type: "documental"

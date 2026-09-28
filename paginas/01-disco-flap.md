@@ -3,7 +3,7 @@ title: "Disco flap: para qué sirve y qué grano elegir"
 h1: "Disco flap: cómo elegir grano, medida y abrasivo"
 url: "/amoladoras/disco-flap/"
 description: "Tabla de códigos Bosch X571 que cruza forma, grano y rpm máxima documentada."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Accesorios para amoladoras"
 keywords: ["disco flap", "granos disco flap", "flap zirconio", "disco flap amoladora 115"]
 research_type: "documental"

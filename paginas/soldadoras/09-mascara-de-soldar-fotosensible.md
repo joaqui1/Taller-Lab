@@ -3,7 +3,7 @@ title: "Máscara de soldar fotosensible: cómo elegir la mejor"
 h1: "Cómo elegir una máscara de soldar fotosensible"
 url: "/soldadoras/mascaras-fotosensibles/"
 description: "Compara filtros automáticos Lüsqtoff ST-1N, ST-1E y ST-1B por tono, sensores, área visible, alimentación y respuesta nominal, con especificaciones tomadas de fichas de cada modelo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["mascara de soldar fotosensible", "careta para soldar automatica", "mascara fotosensible lusqtoff", "mascara de soldar true color", "casco para soldar"]
 research_type: "documental"

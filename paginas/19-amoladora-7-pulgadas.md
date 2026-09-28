@@ -3,7 +3,7 @@ title: "Amoladora de 7 pulgadas: cómo elegir una de 180 mm"
 h1: "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas"
 url: "/amoladoras/7-pulgadas/"
 description: "Ficha con medidas y funciones de un modelo Bosch de 180 mm y cálculo transparente de la equivalencia comercial con 7 pulgadas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Tipos de amoladoras"
 keywords: ["amoladora 7 pulgadas", "amoladora 180 mm", "amoladora grande", "gladiator pro aa518/220"]
 research_type: "documental"

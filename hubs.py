@@ -1,0 +1,48 @@
+"""Recorridos editoriales de los ocho hubs; enlazan guías ya publicadas."""
+
+HUB_STEPS = (
+    ("general", "guia-principal", "Guía principal", "Empezá por los criterios de elección y los límites de los datos."),
+    ("necesidad", "usos", "Usos", "Buscá la tarea, el material y la alimentación que necesitás."),
+    ("marcas", "marcas", "Marcas", "Compará familias y códigos; una marca no garantiza prestaciones iguales."),
+    ("modelos", "modelos", "Modelos", "Revisá la variante exacta, las cifras documentadas y lo que falta confirmar."),
+    ("accesorios", "accesorios", "Accesorios", "Comprobá medidas, encastres y consumibles antes de completar el equipo."),
+)
+
+HUB_EDITORIAL = {
+    "hidrolavadoras": {
+        "intro": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+        "criteria": ["Presión de trabajo y máxima por separado", "Caudal con su condición de medición", "Manguera, conexión y alimentación de agua"],
+        "accessories": ["Confirmá el encastre de pistola, lanza y boquillas en el manual del código exacto.", "Revisá longitud y presión admisible de la manguera, y si el kit incluye dosificador.", "No deduzcas compatibilidad entre gamas por compartir marca."],
+    },
+    "compresores": {
+        "intro": "Partí del consumo de aire de tu tarea. Compará caudal declarado/documentado a la presión de uso, volumen del tanque y alimentación; la admisión no equivale al aire entregado.",
+        "criteria": ["Caudal de salida y presión de referencia", "Tanque, alimentación y ciclo documentado", "Mangueras, acoples y consumo de la herramienta"],
+    },
+    "amoladoras": {
+        "intro": "Empezá por el material y el disco compatible. Después compará diámetro, velocidad en vacío, alimentación y funciones documentadas por modelo.",
+        "criteria": ["Diámetro, eje y rpm del disco", "Tipo de corte o desbaste y material", "Código, alimentación y guarda indicada"],
+    },
+    "taladros": {
+        "intro": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
+        "main": "01-taladro-inalambrico.md",
+        "criteria": ["Función y material de trabajo", "Mandril o encastre SDS", "Plataforma y baterías incluidas por código"],
+    },
+    "sierras": {
+        "intro": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
+        "main": "01-sierra-circular.md",
+        "criteria": ["Material y tipo de corte", "Capacidad a cada ángulo publicado", "Diámetro, eje o encastre de la hoja"],
+    },
+    "soldadoras": {
+        "intro": "Elegí el proceso según el material y el consumible. Compará corriente con su ciclo de trabajo, tensión y accesorios del código exacto; el nombre comercial no prueba la salida continua.",
+        "criteria": ["Proceso y consumible compatible", "Corriente a cada ciclo de trabajo", "Tensión, conexiones y contenido del kit"],
+    },
+    "soldadura-electronica": {
+        "intro": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
+        "criteria": ["Cautín, aire caliente o ambos", "Tensión y rango de temperatura declarado", "Puntas, boquillas y soporte compatibles"],
+    },
+    "generadores": {
+        "intro": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
+        "criteria": ["Potencia nominal, máxima y unidad", "Fases, tensión y cargas previstas", "Combustible y autonomía con su condición"],
+        "accessories": ["Confirmá tomas, tensión y corriente admitida en el manual del generador.", "Consultá los consumibles de mantenimiento por código de motor; no uses una especificación universal.", "Para respaldo de una instalación, definí conexión y transferencia con un instalador habilitado."],
+    },
+}

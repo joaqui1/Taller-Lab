@@ -3,7 +3,7 @@ title: "Grupos electrógenos Honda: modelos y diferencias"
 h1: "Qué grupo electrógeno Honda elegir"
 url: "/generadores/honda/"
 description: "Tabla de la gama Honda publicada en Argentina que separa equipos inverter compactos, convencionales y un modelo de mayor tensión/fase."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupos electrogenos honda", "generador honda", "honda eu22i", "honda eg6500", "generador honda inverter"]
 research_type: "documental"

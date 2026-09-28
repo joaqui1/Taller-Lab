@@ -3,7 +3,7 @@ title: "Sierra caladora: cómo elegir y qué modelos comparar"
 h1: "Cómo elegir una sierra caladora para madera y metal"
 url: "/sierras/caladoras/"
 description: "Guía documental para comparar capacidad declarada, hoja, velocidad y alimentación en caladoras concretas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra caladora", "elegir sierra caladora", "caladora pendular", "hojas sierra caladora", "caladora para melamina"]
 research_type: "documental"

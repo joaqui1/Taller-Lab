@@ -3,7 +3,7 @@ title: "Estación de energía portátil: capacidad y autonomía"
 h1: "Cómo elegir una estación de energía portátil"
 url: "/generadores/estacion-de-energia-portatil/"
 description: "Comparación de EcoFlow DELTA 2 y BLUETTI AC70 que separa capacidad almacenada en Wh de límite instantáneo de salida en W y calcula autonomías ideales de referencia."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["estacion de energia portatil", "generador solar portatil", "ecoflow argentina", "bluetti argentina", "generador a bateria para departamento"]
 research_type: "documental"

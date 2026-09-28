@@ -3,7 +3,7 @@ title: "Electrodo para fundición: tipos y cuál elegir"
 h1: "Cómo elegir un electrodo para fundición"
 url: "/soldadoras/electrodo-para-fundicion/"
 description: "Compara dos electrodos ESAB clasificados ENi-CI y ENiFe-CI con porcentaje de níquel, unión descrita y rangos por diámetro; aporta criterios de clasificación sin reemplazar un procedimiento de reparación."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["electrodo para fundicion", "soldar fundicion de hierro", "electrodo niquel puro", "electrodo ferroniquel", "conarco fundicion"]
 research_type: "documental"

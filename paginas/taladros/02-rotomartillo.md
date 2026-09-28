@@ -3,7 +3,7 @@ title: "Rotomartillo: cuál elegir para concreto y obra"
 h1: "Qué rotomartillo comprar según el trabajo"
 url: "/taladros/rotomartillos/"
 description: "Comparación documental de tres rotomartillos SDS plus: energía, capacidad máxima, peso y función."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo", "rotomartillo sds plus", "rotomartillo para concreto", "rotomartillo demoledor", "joules rotomartillo"]
 research_type: "documental"

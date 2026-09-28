@@ -3,7 +3,7 @@ title: "Ingletadora DeWalt: comparativa y guía de compra"
 h1: "Qué ingletadora DeWalt elegir"
 url: "/sierras/ingletadoras-dewalt/"
 description: "Comparación documental de las DeWalt DWS713 y DWS780: capacidad publicada, bisel y diferencias de cabezal."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["ingletadora dewalt", "sierra ingletadora dewalt", "dewalt dws713", "dewalt dws780", "ingletadora telescopica dewalt"]
 research_type: "documental"

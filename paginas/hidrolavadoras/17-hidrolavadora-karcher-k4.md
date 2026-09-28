@@ -3,7 +3,7 @@ title: "Kärcher K4: versiones y diferencias con K3 y K5"
 h1: "Hidrolavadora Kärcher K4: guía de compra"
 url: "/hidrolavadoras/karcher-k4/"
 description: "Compara los SKU Kärcher Argentina K4 Power Control y K5: potencia documental, presión tal como la rotula cada ficha, caudal, manguera y peso."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora karcher k4", "karcher k4 power control", "karcher k4 vs k3", "karcher k4 vs k5", "karcher k4 precio argentina"]
 research_type: "documental"

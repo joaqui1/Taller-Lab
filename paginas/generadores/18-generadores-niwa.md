@@ -3,7 +3,7 @@ title: "Generadores Niwa: modelos, diferencias y precios"
 h1: "Qué generador Niwa elegir"
 url: "/generadores/niwa/"
 description: "Comparación de tres grupos Niwa respaldada por documentación del importador: potencia nominal/máxima, tanque y peso por código GNW."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generadores niwa", "generador niwa gnw 55 er", "niwa gnw 70er", "grupo electrogeno niwa", "generador niwa opiniones"]
 research_type: "documental"

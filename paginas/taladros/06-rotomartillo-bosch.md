@@ -3,7 +3,7 @@ title: "Rotomartillo Bosch: modelos y cuál conviene comprar"
 h1: "Qué rotomartillo Bosch elegir"
 url: "/taladros/rotomartillo-bosch/"
 description: "Comparación documental de rotomartillos Bosch GBH 220, GBH 2-26 DRE y GBH 18V-26 D."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo bosch", "bosch gbh 2-26 dre", "rotomartillo bosch profesional", "bosch sds plus", "rotomartillo bosch bateria"]
 research_type: "documental"

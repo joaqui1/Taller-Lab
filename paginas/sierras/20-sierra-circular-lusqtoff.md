@@ -3,7 +3,7 @@ title: "Sierra circular Lusqtoff: modelos y guía de compra"
 h1: "Qué sierra circular Lusqtoff elegir"
 url: "/sierras/circulares-lusqtoff/"
 description: "Datos documentados de las circulares Lusqtoff CSL1500-8 y SCL2200-8, con diferencias de capacidad y código."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular lusqtoff", "lusqtoff cs1500-8", "sierra circular lusqtoff opiniones", "sierra circular 1500w lusqtoff", "sierra de mano lusqtoff"]
 research_type: "documental"

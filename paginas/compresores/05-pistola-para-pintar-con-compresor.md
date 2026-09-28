@@ -3,7 +3,7 @@ title: "Pistola para pintar con compresor: cuál elegir"
 h1: "Cómo elegir una pistola para pintar con compresor"
 url: "/compresores/pistola-para-pintar/"
 description: "Tabla por código de tres pistolas BTA: contrasta consumo, presión, alimentación y tamaño de copa, sin inferir eficiencia ni continuidad."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["pistola para pintar con compresor", "pistola hvlp compresor", "pistola lvlp", "pico soplete de pintar"]
 research_type: "documental"

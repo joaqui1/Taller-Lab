@@ -3,7 +3,7 @@ title: "Amoladoras Stanley: cómo elegir el modelo"
 h1: "Amoladoras Stanley: modelos, usos y qué revisar antes de comprar"
 url: "/amoladoras/stanley/"
 description: "Comparación documental STGS7115/SG7115 que expone potencia y diferencias de código y mercado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora stanley", "stanley sg7115", "stanley stgs9115", "amoladora stanley 115", "amoladora stanley opiniones"]
 research_type: "documental"

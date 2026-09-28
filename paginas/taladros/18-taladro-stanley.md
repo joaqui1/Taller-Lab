@@ -3,7 +3,7 @@ title: "Taladro Stanley: modelos y cuál conviene comprar"
 h1: "Qué taladro Stanley elegir"
 url: "/taladros/stanley/"
 description: "Comparación documental Stanley SDH600 y SDH700: potencia, capacidad por material, mandril, velocidad, percusión y peso."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro stanley", "taladro percutor stanley", "stanley fatmax v20", "taladro stanley 20v", "comprar taladro stanley argentina"]
 research_type: "documental"

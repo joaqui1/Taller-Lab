@@ -3,7 +3,7 @@ title: "Compresor para pintar: caudal, capacidad y cuál elegir"
 h1: "Qué compresor elegir para pintar"
 url: "/compresores/para-pintar/"
 description: "Cruce documental entre consumo publicado por dos pistolas BTA y admisión publicada por compresores concretos; explicita que la admisión no equivale al aire entregado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor para pintar", "que compresor comprar para pintar", "compresor para pintar autos", "compresor pistola pintar caudal"]
 research_type: "documental"

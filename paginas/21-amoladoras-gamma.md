@@ -3,7 +3,7 @@ title: "Amoladoras Gamma: modelos y qué revisar antes de comprar"
 h1: "Amoladoras Gamma: cómo elegir entre máquina y kit"
 url: "/amoladoras/gamma/"
 description: "Ficha comparativa de Gamma G1910KAR y G1917AR, con contenido de kit atribuido al fabricante."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Marcas de amoladoras"
 keywords: ["amoladora gamma", "amoladora gamma g1910kar", "amoladora gamma 750w", "amoladora gamma opiniones"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Soldadoras Lusqtoff: modelos y cuál conviene comprar"
 h1: "Qué soldadora Lusqtoff elegir para casa o taller"
 url: "/soldadoras/lusqtoff/"
 description: "Matriz de tres modelos Lüsqtoff para distinguir MMA, FCAW/Flux y tridual; compara rangos/ciclos y presenta discontinuidad de SML130-7 sin mezclar kits ni generaciones."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora lusqtoff", "soldadora inverter lusqtoff", "lusqtoff iron", "soldadora mig lusqtoff", "lusqtoff opiniones"]
 research_type: "documental"

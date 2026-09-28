@@ -3,7 +3,7 @@ title: "Compresor 12V doble pistón: caudal, conexión y cuál elegir"
 h1: "Compresor 12V doble pistón: guía para elegirlo"
 url: "/compresores/12v-doble-piston/"
 description: "Comparación de dos fichas 12 V y detección de tres caudales contradictorios publicados para Gadnic AV000012."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor 12v doble piston", "compresor doble piston 12v", "compresor portatil doble piston", "inflador doble piston 12v"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Disco de corte para amoladora: cuál elegir según el material"
 h1: "Cómo elegir un disco de corte para amoladora"
 url: "/amoladoras/disco-de-corte/"
 description: "Matriz técnica de discos Bosch para separar corte, desbaste, dimensiones y códigos concretos."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Accesorios para amoladoras"
 keywords: ["disco de corte para amoladora", "disco de corte amoladora", "disco corte fino metal", "disco corte inox", "disco corte mamposteria"]
 research_type: "documental"

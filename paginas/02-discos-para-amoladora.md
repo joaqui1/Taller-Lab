@@ -3,7 +3,7 @@ title: "Discos para amoladora: tipos, usos y compatibilidad"
 h1: "Discos para amoladora: cuál usar según el trabajo"
 url: "/amoladoras/discos/"
 description: "Matriz propia de cinco accesorios que separa corte, desbaste, flap y diamante por uso y material."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Accesorios para amoladoras"
 keywords: ["discos para amoladora", "tipos de discos amoladora", "compatibilidad discos amoladora", "que disco usar amoladora"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Soldadora MIG sin gas: comparativa y guía de compra"
 h1: "Qué soldadora MIG sin gas conviene comprar"
 url: "/soldadoras/mig-sin-gas/"
 description: "Compara equipos que admiten alambre tubular autoprotegido por modos de proceso, rango, diámetro de alambre y límites documentales; separa FCAW-S de MIG con alambre macizo y gas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora mig sin gas", "soldadora flux", "soldadora mig sin gas opiniones", "soldadora flux core", "mig sin gas lusqtoff"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Gamma 130: prestaciones y diferencias con Gamma 150"
 h1: "Hidrolavadora Gamma 130: guía para elegirla"
 url: "/hidrolavadoras/gamma-130/"
 description: "Coteja los manuales Gamma 130 G2513AR y Gamma 150 G2514AR: diferencia presión máxima admisible de servicio y calcula cambios de potencia y caudal entre ambos códigos."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora gamma 130", "gamma 130 g2577ar", "gamma 130 ficha tecnica", "gamma 130 vs gamma 150", "repuestos hidrolavadora gamma 130"]
 research_type: "documental"

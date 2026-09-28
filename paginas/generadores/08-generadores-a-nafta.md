@@ -3,7 +3,7 @@ title: "Generador a nafta: consumo, autonomía y modelos"
 h1: "Generadores a nafta: cuál conviene comprar"
 url: "/generadores/a-nafta/"
 description: "Tabla de tres modelos Lüsqtoff a nafta que expone diferencias y contradicciones entre fichas y manual del LGI3.8-8 y la potencia del LG3000."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador a nafta", "consumo generador nafta", "cuanto gasta un grupo electrogeno", "generador naftero argentina"]
 research_type: "documental"

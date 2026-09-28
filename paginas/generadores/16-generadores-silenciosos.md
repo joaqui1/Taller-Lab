@@ -3,7 +3,7 @@ title: "Generador silencioso: cómo comparar ruido y potencia"
 h1: "Cómo elegir un generador eléctrico silencioso"
 url: "/generadores/silenciosos/"
 description: "Clasifica tres lecturas de ruido de generadores según distancia y carga especificadas; evita ordenar valores dB(A) que no comparten condiciones documentadas."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador silencioso", "generador electrico silencioso", "decibeles generador", "generador insonorizado", "grupo electrogeno silencioso"]
 research_type: "documental"

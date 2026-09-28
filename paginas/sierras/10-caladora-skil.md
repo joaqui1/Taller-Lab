@@ -3,7 +3,7 @@ title: "Caladora Skil: modelos, diferencias y cuál elegir"
 h1: "Cómo elegir una caladora Skil"
 url: "/sierras/caladoras-skil/"
 description: "Guía de caladoras SKIL 4380 y 4550: variantes de tensión documentadas y prestaciones confirmadas para cada modelo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["caladora skil", "sierra caladora skil", "skil 4380", "skil 4550", "caladora pendular skil"]
 research_type: "documental"

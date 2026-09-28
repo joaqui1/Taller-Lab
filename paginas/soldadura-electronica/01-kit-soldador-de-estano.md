@@ -3,7 +3,7 @@ title: "Kit soldador de estaño: qué debe incluir y cuál elegir"
 h1: "Kit soldador de estaño: elegí el equipo según la reparación"
 url: "/soldadura-electronica/kit-soldador-de-estano/"
 description: "Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadura Electrónica"
 keywords: ["kit soldador de estaño", "kit para soldar con estaño", "kit para soldar con cautin", "soldador de estaño kit"]
 research_type: "documental"

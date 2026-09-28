@@ -3,7 +3,7 @@ title: "Compresor para aerógrafo: cómo elegir el adecuado"
 h1: "Qué compresor comprar para tu aerógrafo"
 url: "/compresores/para-aerografo/"
 description: "Contraste entre un kit BTA de aerógrafo que no incluye compresor y el Fengda AS-186, con tanque y valores publicados de presión y caudal."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor para aerografo", "compresor aerografo silencioso", "compresor con tanque aerografia", "compresor fengda"]
 research_type: "documental"

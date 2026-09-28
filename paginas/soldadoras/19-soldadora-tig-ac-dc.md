@@ -3,7 +3,7 @@ title: "Soldadora TIG AC/DC: funciones y qué modelo elegir"
 h1: "Cómo elegir una soldadora TIG AC/DC"
 url: "/soldadoras/soldadora-tig-ac-dc/"
 description: "Compara equipos TIG AC/DC por corriente, ciclo, tensión de alimentación y fases: ESAB ET 200i 220 V, Lüsqtoff TIG350ACDC-9 380 V y SMART TIG-AC/DC200 de catálogo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora tig ac dc", "tig ac dc aluminio", "balance tig ac", "frecuencia tig ac", "soldadora tig profesional"]
 research_type: "documental"

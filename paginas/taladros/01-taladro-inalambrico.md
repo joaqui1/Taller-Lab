@@ -3,7 +3,7 @@ title: "Taladro inalámbrico: cuál comprar en Argentina"
 h1: "Cómo elegir un taladro inalámbrico para tu trabajo"
 url: "/taladros/inalambricos/"
 description: "Matriz TallerLab de tres taladros inalámbricos documentados: voltaje nominal, torque publicado, velocidad, mandril y percusión."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalámbrico", "taladro a bateria", "comprar taladro inalambrico argentina", "taladro atornillador", "torque taladro"]
 research_type: "documental"

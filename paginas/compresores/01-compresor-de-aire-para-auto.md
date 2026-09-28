@@ -3,7 +3,7 @@ title: "Compresor de aire para auto: cuál elegir"
 h1: "Compresor de aire para auto: cuál elegir"
 url: "/compresores/para-auto/"
 description: "Comparación documental de dos infladores 12 V y un criterio de selección basado en presión del vehículo; no equipara presión máxima con presión objetivo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor de aire para auto", "inflador de cubiertas auto", "calibrador de neumaticos 12v", "compresor portatil 4x4"]
 research_type: "documental"

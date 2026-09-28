@@ -3,7 +3,7 @@ title: "Taladro Milwaukee: M12, M18 y cuál elegir"
 h1: "Qué taladro Milwaukee comprar según el uso"
 url: "/taladros/milwaukee/"
 description: "Comparación documental Milwaukee M12 3404-20 y M18 2904-20: torque, peso sin batería, largo, función y alcance del kit."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Taladros y Atornilladores"
 keywords: ["taladro milwaukee", "milwaukee m12", "milwaukee m18 fuel", "taladro percutor milwaukee", "milwaukee argentina"]
 research_type: "documental"

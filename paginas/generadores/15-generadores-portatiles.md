@@ -3,7 +3,7 @@ title: "Generador portátil: cuál elegir según el uso"
 h1: "Generadores portátiles para camping, viajes y trabajo"
 url: "/generadores/portatiles/"
 description: "Tabla que compara dos generadores Honda portátiles: cuantifica peso y potencia máxima publicados, pero deja visibles sus diferencias de tanque y autonomía."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador portatil", "generadores portatiles para camping", "generador tipo valija", "generador liviano camping", "generador para motorhome"]
 research_type: "documental"

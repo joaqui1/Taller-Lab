@@ -3,7 +3,7 @@ title: "Hidrolavadoras Bosch: comparativa y guía de compra"
 h1: "Qué hidrolavadora Bosch elegir para casa y auto"
 url: "/hidrolavadoras/bosch/"
 description: "Tabla por código Bosch Easy, Universal y AdvancedAquatak con presión máxima, potencia, caudal, peso y temperatura de entrada; deja explícitos el mercado español de las fichas y los datos máximos."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora bosch", "bosch easyaquatak 120", "bosch universalaquatak 130", "hidrolavadora bosch opiniones", "hidrolavadora bosch auto"]
 research_type: "documental"

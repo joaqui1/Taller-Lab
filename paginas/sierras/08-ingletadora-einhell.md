@@ -3,7 +3,7 @@ title: "Ingletadora Einhell: modelos y cuál conviene elegir"
 h1: "Qué ingletadora Einhell elegir según tus trabajos"
 url: "/sierras/ingletadoras-einhell/"
 description: "Comparación documental de Einhell TC-MS 2112 y TC-SM 2131/2 Dual: ancho y profundidad de corte, peso y potencia según ciclo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["ingletadora einhell", "sierra ingletadora einhell", "ingletadora telescopica einhell", "einhell tc-ms 2112", "einhell te-sm 2131"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Kärcher K3: versiones y diferencias con K2 y K4"
 h1: "Hidrolavadora Kärcher K3: cuándo conviene elegirla"
 url: "/hidrolavadoras/karcher-k3/"
 description: "Compara las fichas Kärcher Argentina de K3 Black Edition y K4 Power Control: presión, caudal, tensión, manguera y peso por SKU, y deja visibles campos ausentes."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora karcher k3", "karcher k3 confort", "karcher k3 vs k2", "karcher k3 vs k4", "karcher k3 caracteristicas"]
 research_type: "documental"

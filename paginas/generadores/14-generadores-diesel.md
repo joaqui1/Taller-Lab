@@ -3,7 +3,7 @@ title: "Generador diésel: consumo, ventajas y modelos"
 h1: "Cómo elegir un generador diésel"
 url: "/generadores/diesel/"
 description: "Matriz de tres códigos diésel comercializados localmente que evidencia qué modelos tienen potencia continua publicada y cuáles solo informan máximo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador diesel", "grupo electrogeno diesel", "consumo generador diesel", "generador gasoil", "generador diesel insonorizado"]
 research_type: "documental"

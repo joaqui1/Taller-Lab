@@ -3,7 +3,7 @@ title: "Stanley SC16: ficha y qué comprobar antes de comprar"
 h1: "Sierra circular Stanley SC16: guía de compra"
 url: "/sierras/stanley-sc16/"
 description: "Guía de la Stanley SC16-AR de 1.600 W: disco, capacidad de corte, accesorios y datos que conviene verificar en la variante argentina."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular stanley sc16", "stanley sc16", "sierra circular stanley 1600w"]
 research_type: "documental"

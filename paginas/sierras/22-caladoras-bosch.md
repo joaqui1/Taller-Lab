@@ -3,7 +3,7 @@ title: "Sierra caladora Bosch: qué modelo elegir en Argentina"
 h1: "Sierra caladora Bosch: comparativa de modelos"
 url: "/sierras/sierra-caladora-bosch/"
 description: "Compará caladoras Bosch GST 650, GST 680, GST 75 E y GST 185-LI según potencia, batería, regulación y tipo de trabajo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra caladora bosch", "caladora bosch", "bosch gst 650", "bosch gst 680", "bosch gst 75 e"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Hidrolavadoras Niwa: modelos, opiniones y compra"
 h1: "Qué hidrolavadora Niwa elegir y qué revisar"
 url: "/hidrolavadoras/niwa/"
 description: "Compara hidrolavadoras Niwa eléctricas axiales y a explosión por modelo/código del importador Grupo Rumbo: presión máxima, caudal, potencia y peso; no mezcla generaciones de catálogo."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora niwa", "hidrolavadora niwa opiniones", "hidrolavadora niwa naftera", "niwa hnw", "repuestos hidrolavadora niwa"]
 research_type: "documental"

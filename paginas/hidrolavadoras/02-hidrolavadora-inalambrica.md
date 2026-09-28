@@ -3,7 +3,7 @@ title: "Hidrolavadora inalámbrica: comparativa y guía de compra"
 h1: "Qué hidrolavadora inalámbrica comprar y para qué sirve"
 url: "/hidrolavadoras/inalambricas/"
 description: "Compara dos limpiadoras a batería con fichas de fabricante: tensión, presión máxima, caudal, capacidad de autosucción y autonomía publicada; distingue una hidrolavadora Bosch de baja presión Lüsqtoff."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora inalambrica", "hidrolavadora a bateria", "hidrolavadora portatil autocebante", "hidrolavadora 20v argentina", "lavadora de presion portatil"]
 research_type: "documental"

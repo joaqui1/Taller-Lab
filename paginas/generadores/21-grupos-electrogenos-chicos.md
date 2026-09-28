@@ -3,7 +3,7 @@ title: "Grupo electrógeno chico: Pektra 720 W y Konan 800 W"
 h1: "Grupos electrógenos chicos: Pektra 720 W y Konan 800 W"
 url: "/generadores/chicos/"
 description: "Contraste entre los datos de publicación de Pektra GPK980 y la ficha de fabricante del Konan KGE/800; separa potencia nominal y máxima."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupo electrógeno chico", "generador chico", "generador de luz chico", "generador chico a nafta"]
 research_type: "documental"

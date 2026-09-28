@@ -3,7 +3,7 @@ title: "Hidrolavadora profesional: cómo elegir para trabajar"
 h1: "Qué hidrolavadora profesional comprar para trabajar"
 url: "/hidrolavadoras/profesionales/"
 description: "Matriz de dos modelos profesionales Comet comercializados por Gamma que separa presión nominal/máxima, caudal y requisitos eléctricos; explicita las diferencias de temperatura de salida y fases."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora profesional", "hidrolavadora lavadero de autos", "hidrolavadora industrial agua caliente", "hidrolavadora trifasica argentina", "bomba hidrolavadora laton"]
 research_type: "documental"

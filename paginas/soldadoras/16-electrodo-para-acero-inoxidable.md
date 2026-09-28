@@ -3,7 +3,7 @@ title: "Electrodo para acero inoxidable: cuál elegir"
 h1: "Cómo elegir electrodos para acero inoxidable"
 url: "/soldadoras/electrodo-para-acero-inoxidable/"
 description: "Matriz de tres referencias ESAB para 308L, 316L y 309L que conecta clasificación publicada con el tipo de metal base indicado por el fabricante; evita proponer una aleación única para todo inoxidable."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["electrodo para acero inoxidable", "electrodo e308l", "electrodo e316l", "electrodo e309l", "soldar acero inoxidable electrodo"]
 research_type: "documental"

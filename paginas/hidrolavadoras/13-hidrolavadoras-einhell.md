@@ -3,7 +3,7 @@ title: "Hidrolavadoras Einhell: modelos y guía de compra"
 h1: "Qué hidrolavadora Einhell comprar"
 url: "/hidrolavadoras/einhell/"
 description: "Contrasta la compacta TC-HP 90 y la TE-HP 140 por presión máxima, caudal, potencia, manguera y peso; separa presión admisible de presión de trabajo en el modelo TE."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora einhell", "hidrolavadora einhell a bateria", "einhell te-hp 140", "hidrolavadora einhell opiniones", "power x-change hidrolavadora"]
 research_type: "documental"

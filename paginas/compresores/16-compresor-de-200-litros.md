@@ -3,7 +3,7 @@ title: "Compresor de 200 litros: cuál elegir para tu taller"
 h1: "Compresores de 200 litros: guía de compra para taller"
 url: "/compresores/200-litros/"
 description: "Comparación documental que descubre el desfase entre la designación Schulz 20/200 y los 172,8 L del tanque publicado."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Compresores y Neumática"
 keywords: ["compresor de 200 litros", "compresor industrial 200l", "compresor trifasico taller", "compresor 4 hp 200 litros"]
 research_type: "documental"

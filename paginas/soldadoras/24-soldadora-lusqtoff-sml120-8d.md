@@ -3,7 +3,7 @@ title: "Lusqtoff SML120-8D: ficha de la MIG Flux dual"
 h1: "Lusqtoff SML120-8D: qué revisar en la soldadora y el kit"
 url: "/soldadoras/lusqtoff-sml120-8d/"
 description: "Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Soldadoras y Soldadura"
 keywords: ["lusqtoff sml120 8d", "soldadora lusqtoff sml120-8d", "soldadora mig flux lusqtoff 120a"]
 research_type: "documental"

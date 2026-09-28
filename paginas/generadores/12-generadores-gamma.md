@@ -3,7 +3,7 @@ title: "Generadores Gamma: comparativa de modelos y precios"
 h1: "Qué generador Gamma comprar según el uso"
 url: "/generadores/gamma/"
 description: "Mapa de modelos Gamma que distingue equipos actuales de discontinuados y compara cifras de potencia, tanque y autonomía solo donde la ficha las publica."
-author: "Taller Lab"
+author: "Equipo editorial TallerLab"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador gamma", "generadores gamma modelos", "grupo electrogeno gamma", "gamma elite 3500", "precios generadores gamma"]
 research_type: "documental"
