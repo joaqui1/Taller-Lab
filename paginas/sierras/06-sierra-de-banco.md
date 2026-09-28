@@ -3,7 +3,7 @@ title: "Sierra de banco: cuál elegir para tu taller"
 h1: "Cómo elegir una sierra de banco para madera"
 url: "/sierras/de-banco/"
 description: "Criterios documentales para elegir una sierra de banco por corte, hoja, peso y superficie de apoyo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco", "sierra de mesa madera", "guia paralela sierra de banco", "cortar melamina sierra de banco", "sierra de banco carpinteria"]
 research_type: "documental"
@@ -39,7 +39,7 @@ Antes de decidir, medí la pieza más alta, el ancho a rasgar y el espacio dispo
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Einhell TC-TS 2025/2 U](https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/); [Lüsqtoff SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [OSHA: resguardos para sierras de mesa](https://www.osha.gov/etools/machine-guarding/saws/table).
+- **Documentación primaria:** [Einhell TC-TS 2025/2 U](https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/); [Lüsqtoff SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [catálogo Lüsqtoff 2024–2025: discrepancia de diámetro SML2000-8](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [OSHA: resguardos para sierras de mesa](https://www.osha.gov/etools/machine-guarding/saws/table).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

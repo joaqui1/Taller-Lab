@@ -3,7 +3,7 @@ title: "Taladro Black+Decker: qué modelo conviene comprar"
 h1: "Qué taladro Black+Decker elegir para casa"
 url: "/taladros/black-decker/"
 description: "Ficha documentada del BLACK+DECKER LD120: voltaje nominal y máximo, torque, velocidad, mandril, batería y cargador regional."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro black decker", "taladro black and decker", "taladro percutor black decker", "taladro inalambrico black decker 20v", "black decker casa"]
 research_type: "documental"

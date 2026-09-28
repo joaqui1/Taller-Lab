@@ -3,7 +3,7 @@ title: "Hidrolavadoras Lusqtoff: modelos y cuál elegir"
 h1: "Qué hidrolavadora Lusqtoff elegir según el uso"
 url: "/hidrolavadoras/lusqtoff/"
 description: "Compara cuatro códigos Lüsqtoff de catálogo por potencia, presión de trabajo y admisible, caudal de trabajo/máximo y peso; deja los modelos a nafta fuera cuando la fuente primaria no resuelve sus datos."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora lusqtoff", "hidrolavadora lusqtoff hl 120", "hidrolavadora lusqtoff hl 150", "lusqtoff hidrolavadora repuestos", "hidrolavadora lusqtoff opiniones"]
 research_type: "documental"

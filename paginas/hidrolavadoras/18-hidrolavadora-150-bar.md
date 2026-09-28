@@ -3,7 +3,7 @@ title: "Hidrolavadoras de 150 bar: comparativa y cómo elegir"
 h1: "Qué hidrolavadora de 150 bar comprar"
 url: "/hidrolavadoras/150-bar/"
 description: "Tabla que contrasta presión máxima permitida y presión de trabajo en tres modelos marcados 150 bar; incluye caudal por modo para Lüsqtoff HL100-8."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora 150 bar", "hidrolavadora 150 bar precio", "mejor hidrolavadora 150 bar", "hidrolavadora 2000w 150 bar", "hidrolavadora semiprofesional 150 bar"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Compresor para pintar: caudal, capacidad y cuál elegir"
 h1: "Qué compresor elegir para pintar"
 url: "/compresores/para-pintar/"
 description: "Cruce documental entre consumo publicado por dos pistolas BTA y admisión publicada por compresores concretos; explicita que la admisión no equivale al aire entregado."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor para pintar", "que compresor comprar para pintar", "compresor para pintar autos", "compresor pistola pintar caudal"]
 research_type: "documental"
@@ -41,7 +41,7 @@ published: true
 
 **Dato verificado:** BTA especifica consumos distintos para las pistolas AS-1021 y ASP1070. En fichas separadas publica 206 L/min de admisión para el compresor de 25 L y 170 L/min para el de 24 L sin aceite. Los valores de pistola y compresor provienen de fichas/catálogo del mismo fabricante, pero el catálogo no presenta caudal de salida de ambos compresores medido bajo la presión de pulverización.
 
-**Análisis TallerLab:** el caudal de admisión del compresor de 25 L supera en 2 L/min el extremo alto publicado para ASP1070 y en 87 L/min su extremo bajo; esas restas no prueban suministro suficiente porque comparan admisión con consumo de herramienta y no incluyen pérdida ni condición de presión. Para AS-1021, la resta frente a 206 L/min también es solo una comparación nominal. Confirmá caudal efectivo (FAD) a la presión de trabajo y régimen de uso con el fabricante antes de afirmar continuidad de pulverización.
+**Análisis TallerLab:** el caudal de admisión del compresor de 25 L supera en 5 L/min el extremo alto publicado para ASP1070 y en 87 L/min su extremo bajo; esas restas no prueban suministro suficiente porque comparan admisión con consumo de herramienta y no incluyen pérdida ni condición de presión. Para AS-1021, la resta frente a 206 L/min también es solo una comparación nominal. Confirmá caudal efectivo (FAD) a la presión de trabajo y régimen de uso con el fabricante antes de afirmar continuidad de pulverización.
 
 **Desconocido:** las fuentes no documentan el resultado de pintar con estas combinaciones, recuperación entre pasadas ni el tiempo que cada compresor sostiene ese caudal. Los HP sugeridos o la capacidad del tanque, por sí solos, no contestan esas preguntas.
 

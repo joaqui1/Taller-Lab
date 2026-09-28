@@ -3,7 +3,7 @@ title: "Amoladora de velocidad variable: cuándo conviene"
 h1: "Amoladoras de velocidad variable: usos y modelos para comparar"
 url: "/amoladoras/velocidad-variable/"
 description: "Comparación aritmética entre rangos de rpm publicados en dos modelos de 900 W con variantes claramente identificadas."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
 keywords: ["amoladora velocidad variable", "amoladora con regulador de velocidad", "amoladora para pulir", "amoladora rpm regulable", "bosch gws 9 125 s"]
 research_type: "documental"

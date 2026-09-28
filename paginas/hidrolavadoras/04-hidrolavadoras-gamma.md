@@ -3,7 +3,7 @@ title: "Hidrolavadoras Gamma: comparativa de modelos y precios"
 h1: "Qué hidrolavadora Gamma comprar"
 url: "/hidrolavadoras/gamma/"
 description: "Compara cuatro modelos Gamma por código con presión de servicio y máxima admisible cuando el manual da ambas; expone que el rótulo Gamma 170 no permite inferir presión de trabajo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora gamma", "gamma 130 hidrolavadora", "gamma 150 hidrolavadora", "hidrolavadora gamma 127", "hidrolavadora gamma repuestos"]
 research_type: "documental"

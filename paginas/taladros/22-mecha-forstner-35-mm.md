@@ -3,7 +3,7 @@ title: "Mecha Forstner 35 mm: cuál usar para bisagras cazoleta"
 h1: "Cómo elegir una mecha Forstner de 35 mm para bisagras"
 url: "/taladros/mecha-forstner-35-mm/"
 description: "Ficha dimensional de una Forstner de 35 mm que distingue diámetro, largo útil y vástago."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["mecha forstner", "mecha forstner 35mm", "mecha para bisagra cazoleta", "mecha para bisagra cazoleta 35mm"]
 research_type: "documental"
@@ -52,6 +52,6 @@ published: true
 - **Seguridad:** sujetar la pieza y usar la broca conforme al manual del taladro.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [guías de taladros](/taladros/).
+Para seguir comparando: [taladros de banco: mandril, recorrido y apoyo](/taladros/taladro-de-banco/).
 
 Para explorar la categoría: [guías de taladros](/taladros/).

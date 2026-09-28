@@ -3,7 +3,7 @@ title: "Hidrolavadoras para autos: equipos y combos para elegir"
 h1: "Qué hidrolavadora comprar para lavar el auto"
 url: "/hidrolavadoras/para-autos/"
 description: "Tabla de dos equipos recomendados/documentados para limpieza vehicular que compara presión máxima, caudal, manguera, boquillas y accesorios de detergente por SKU; no presenta esas cifras como prueba de seguridad sobre pintura."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora para autos", "hidrolavadora para lavar autos", "combo hidrolavadora aspiradora", "hidrolavadora auto 110 bar"]
 research_type: "documental"

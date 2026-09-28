@@ -3,7 +3,7 @@ title: "Disco de desbaste: cómo elegirlo para metal"
 h1: "Discos de desbaste para metal: usos, medidas y elección"
 url: "/amoladoras/disco-de-desbaste/"
 description: "Ficha documentada de un disco de desbaste de 115 mm y comparación funcional con un disco de corte."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Accesorios para amoladoras"
 keywords: ["disco de desbaste", "disco de desbaste para metal", "espesor disco desbaste", "desbaste amoladora 115"]
 research_type: "documental"

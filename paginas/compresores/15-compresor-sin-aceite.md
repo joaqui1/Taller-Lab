@@ -3,7 +3,7 @@ title: "Compresor sin aceite: ventajas y cuál comprar"
 h1: "Compresores sin aceite: cuándo convienen"
 url: "/compresores/sin-aceite/"
 description: "Comparación de tres compresores sin aceite por código y admisión publicada; distingue mantenimiento sin aceite de usos que exigen aire certificado."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor sin aceite", "compresor oil free", "compresor silencioso libre de aceite", "compresor odontologico"]
 research_type: "documental"

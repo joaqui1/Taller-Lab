@@ -3,7 +3,7 @@ title: "Estación de soldadura electrónica: cautín o aire caliente"
 h1: "Estación de soldadura electrónica: cuál comprar para tu mesa"
 url: "/soldadura-electronica/estacion-de-soldadura/"
 description: "Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldadura electronica", "estacion de soldadura para electronica", "estacion de soldar electronica", "estacion de soldadura aire caliente"]
 research_type: "documental"

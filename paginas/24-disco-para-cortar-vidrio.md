@@ -3,7 +3,7 @@ title: "Disco para cortar vidrio: cuál elegir y qué comprobar"
 h1: "Disco para cortar vidrio: tipos, compatibilidad y límites"
 url: "/amoladoras/discos-vidrio/"
 description: "Matriz de comprobación para no dar por aprobados en vidrio discos anunciados para otros materiales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Discos y accesorios"
 keywords: ["disco para cortar vidrio", "disco para cortar vidrio con amoladora", "disco corte vidrio 115mm", "disco diamantado para vidrio"]
 research_type: "documental"

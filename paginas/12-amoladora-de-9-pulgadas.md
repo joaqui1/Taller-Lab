@@ -3,7 +3,7 @@ title: "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm"
 h1: "Amoladoras de 9 pulgadas y 230 mm: usos y elección"
 url: "/amoladoras/9-pulgadas/"
 description: "Comparación documental de Bosch 180 y 230 mm que contrasta potencia, velocidad y dato de peso disponible."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
 keywords: ["amoladora 9 pulgadas", "amoladora 230 mm", "amoladora grande", "dewalt dwe492", "makita ga9020"]
 research_type: "documental"

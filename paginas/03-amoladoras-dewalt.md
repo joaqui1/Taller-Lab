@@ -3,7 +3,7 @@ title: "Amoladoras DeWalt: modelos y cómo elegir"
 h1: "Qué amoladora DeWalt elegir según el uso"
 url: "/amoladoras/dewalt/"
 description: "Comparación de fichas DeWalt estadounidenses DWE402/DWE4120 con advertencia de tensión y mercado."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora dewalt", "dewalt dwe4020", "amoladora dewalt 115", "amoladora dewalt a bateria", "dewalt dwe4120"]
 research_type: "documental"

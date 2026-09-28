@@ -3,7 +3,7 @@ title: "Soldadora inverter 160 A: comparativa y qué elegir"
 h1: "Qué soldadora inverter de 160 amperios elegir"
 url: "/soldadoras/soldadora-inverter-160-amp/"
 description: "Compara fuentes con “160” en el código o salida máxima por proceso: ESAB HandyArc 162i MMA, ESAB MIG 160i GMAW/MMA y Dogo Dogostar 160 MMA, según ciclos y fichas propias."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora inverter 160 amp", "soldadora 160 amperios", "soldadora mma 160", "soldadora inverter para casa", "soldadora inverter 160 precios"]
 research_type: "documental"

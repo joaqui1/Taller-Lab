@@ -3,7 +3,7 @@ title: "Guía para sierra circular: tipos y compatibilidad"
 h1: "Cómo elegir una guía para sierra circular"
 url: "/sierras/guia-para-sierra-circular/"
 description: "Diferencias entre tope paralelo, riel de guía y regla sujeta; comprobación de compatibilidad por modelo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["guia para sierra circular", "riel guia sierra circular", "regla guia de corte", "guia paralela circular", "cortar melamina recto"]
 research_type: "documental"

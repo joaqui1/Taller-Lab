@@ -3,7 +3,7 @@ title: "Guantes para soldar: cuáles elegir para MIG y TIG"
 h1: "Cómo elegir guantes para soldar según el proceso"
 url: "/soldadoras/guantes/"
 description: "Compara dos guantes ESAB concretos por norma declarada, masa y construcción: Heavy Duty Black para MMA/MIG y TIG Basic; no extrapola la certificación a todo guante de cuero."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["guantes para soldar", "guantes de descarne", "guantes soldador tig", "guantes de vaqueta", "proteccion soldador"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Hidrolavadora para aire acondicionado: qué revisar"
 h1: "Cómo elegir una hidrolavadora para aire acondicionado"
 url: "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"
 description: "Matriz de compatibilidad documental que separa equipos cuya ficha declara presión de servicio de instrucciones de limpieza de serpentines; aporta el límite práctico de no dirigir un chorro de alta presión a las aletas."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora para aire acondicionado", "hidrolavadora aire acondicionado", "limpieza aire acondicionado hidrolavadora"]
 research_type: "documental"

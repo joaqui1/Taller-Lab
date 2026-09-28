@@ -3,7 +3,7 @@ title: "Amoladora de 115 o 125 mm: diferencias y elección"
 h1: "Amoladora de 115 o 125 mm: cuál elegir para tu trabajo"
 url: "/amoladoras/115-o-125/"
 description: "Comparación documental de amoladoras de 115 y 125 mm de la misma serie: diámetro, potencia, peso y límites de la profundidad de corte."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 reviewed: "27/09/2026"
 published: true
 research_type: "documental"

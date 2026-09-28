@@ -3,7 +3,7 @@ title: "Filtro de aire para compresor: cómo elegir el repuesto"
 h1: "Filtro de aire para compresor: cómo elegir el repuesto"
 url: "/compresores/filtros/"
 description: "Distingue el filtro de admisión de la unidad de filtro/regulador/lubricador BTA y registra dos caudales distintos en la ficha del conjunto."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["filtro de aire para compresor", "filtro admision compresor", "trampa de agua compresor", "repuesto filtro compresor"]
 research_type: "documental"

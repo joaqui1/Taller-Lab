@@ -3,7 +3,7 @@ title: "Taladro inalámbrico Einhell: cuál comprar"
 h1: "Qué taladro inalámbrico Einhell elegir"
 url: "/taladros/einhell-inalambrico/"
 description: "Comparación Einhell TE-CD 18/40 y TP-CD 18/50: torque y velocidad declarados, percusión, mandril y kits Solo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico einhell", "einhell 18v power x-change", "taladro percutor einhell", "taladro einhell brushless", "einhell argentina"]
 research_type: "documental"

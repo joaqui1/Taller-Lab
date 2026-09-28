@@ -3,7 +3,7 @@ title: "Soldadora MIG Lusqtoff: modelos Flux y qué revisar"
 h1: "Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas"
 url: "/soldadoras/mig-lusqtoff/"
 description: "Matriz de tres Lüsqtoff MIG/FCAW por proceso, amperaje, ciclo y consumible según fichas/manuales, con advertencia de discontinuidad y variante de kit para evitar homogeneizar la gama."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora mig lusqtoff", "soldadora flux lusqtoff", "soldadora mig flux lusqtoff", "soldadora mig sin gas lusqtoff"]
 research_type: "documental"

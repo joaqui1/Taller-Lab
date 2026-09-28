@@ -3,7 +3,7 @@ title: "Atornillador para Durlock: cuál comprar y por qué"
 h1: "Cómo elegir un atornillador para Durlock"
 url: "/taladros/para-durlock/"
 description: "Comparación documental entre dos atornilladores Bosch para placas: rpm, torque, peso y alimentación."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["atornillador para durlock", "atornillador placas de yeso", "atornillador drywall", "atornillador durlock dewalt", "tornillos t2 durlock"]
 research_type: "documental"

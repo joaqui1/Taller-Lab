@@ -3,7 +3,7 @@ title: "Lusqtoff Iron 250: características y guía de compra"
 h1: "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar"
 url: "/soldadoras/lusqtoff-iron-250/"
 description: "Examina la discrepancia entre el nombre MEGAIRON250/IRON-250 y la salida declarada de 180 A, además de los dos puntos de ciclo a 40 °C y contenido del kit fabricante."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora lusqtoff iron 250", "lusqtoff iron 250 opiniones", "iron 250 ficha tecnica", "lusqtoff iron 250 amperaje real", "soldadora inverter lusqtoff"]
 research_type: "documental"

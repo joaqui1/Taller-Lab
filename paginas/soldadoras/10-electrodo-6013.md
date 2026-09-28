@@ -3,7 +3,7 @@ title: "Electrodo 6013: para qué sirve y cuál comprar"
 h1: "Electrodo 6013: usos, medidas y qué elegir"
 url: "/soldadoras/electrodo-6013/"
 description: "Compara amperajes por diámetro de dos referencias ESAB E6013 (Sureweld 6013 y LBL BW E6013); deja claro que la clasificación por sí sola no fija el amperaje para todas las marcas."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["electrodo 6013", "electrodo rutilico", "amperaje electrodo 6013", "soldar con 6013", "conarco 6013"]
 research_type: "documental"

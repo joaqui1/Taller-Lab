@@ -3,7 +3,7 @@ title: "Soldadoras ESAB: modelos, diferencias y qué elegir"
 h1: "Qué soldadora ESAB elegir según tu trabajo"
 url: "/soldadoras/esab/"
 description: "Comparación documental de ESAB HandyArc 162i MMA y HandyArc MIG 160i por proceso, amperaje nominal, ciclo de trabajo, alimentación y código de producto en Argentina."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora esab", "esab argentina", "esab handyarc", "esab bantam", "esab rogue"]
 research_type: "documental"

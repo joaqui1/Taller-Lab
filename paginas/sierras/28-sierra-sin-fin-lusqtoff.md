@@ -3,7 +3,7 @@ title: "Sierra sin fin Lusqtoff: modelos compactos y de taller"
 h1: "Sierra sin fin Lusqtoff: SFL250-8, SFL300-8 o SFL1100-9"
 url: "/sierras/sin-fin-lusqtoff/"
 description: "Compará sierras sin fin Lusqtoff para madera: la SFL250-8 discontinuada, la SFL300-8 compacta y la SFL1100-9 de mayor capacidad."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sin fin lusqtoff", "sierra de cinta lusqtoff", "lusqtoff sfl250-8", "lusqtoff sfl1100-9"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Carro para soldadora MIG: medidas, tubo y capacidad"
 h1: "Carro para soldadora MIG: cómo elegir uno que entre en tu taller"
 url: "/soldadoras/carro-para-soldadora-mig/"
 description: "Compara dos carros documentados por fabricante, Telwin Federal 803091 y Lincoln K520, con huella, peso y límite de cilindro/carga cuando la documentación lo publica; permite cotejar medidas reales del taller."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["carro para soldadora mig", "carro para maquina de soldar mig", "carro soldadora mig", "carro porta soldadora"]
 research_type: "documental"

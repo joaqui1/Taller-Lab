@@ -3,7 +3,7 @@ title: "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab"
 h1: "Soldadoras: cuál elegir según el trabajo"
 url: "/soldadoras/"
 description: "Matriz de elección que enlaza proceso, consumible, gas y datos que debe confirmar la ficha: separa MMA, MIG/MAG, tubular autoprotegido, TIG y resistencia por alcance documental."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadura"
 keywords: ["soldadoras", "como elegir soldadora", "que soldadora comprar", "soldadora inverter vs mig", "soldadora mig sin gas", "soldadora tig ac dc", "soldadora de punto"]
 research_type: "documental"

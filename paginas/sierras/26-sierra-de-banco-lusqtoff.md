@@ -3,7 +3,7 @@ title: "Sierra de banco Lusqtoff: SML2000-8 y otras variantes"
 h1: "Sierra de banco Lusqtoff: qué modelo conviene para tu taller"
 url: "/sierras/de-banco-lusqtoff/"
 description: "Compará sierras de banco Lusqtoff SML2000-8, SML2000-9 y SML2000B-9 por mesa, disco, profundidad, accesorios y espacio de trabajo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco lusqtoff", "sierra circular de banco lusqtoff", "lusqtoff sml2000-8", "sierra de banco lusqtoff opiniones"]
 research_type: "documental"

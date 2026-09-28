@@ -3,7 +3,7 @@ title: "Alambre para soldadura MIG: tipos y cómo elegir"
 h1: "Alambre para soldadura MIG: tipos, diámetros y compatibilidad"
 url: "/soldadoras/alambre-para-soldadura-mig/"
 description: "Tabla de alambre macizo ESAB Weld 70S-6 por diámetro, corriente, tensión, velocidad de alimentación, deposición y gases publicados; separa ficha de producto de compatibilidad universal."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["alambre para soldadura mig", "alambre mig con gas", "alambre er70s 6", "alambre cobreado soldar", "rollo alambre mig"]
 research_type: "documental"

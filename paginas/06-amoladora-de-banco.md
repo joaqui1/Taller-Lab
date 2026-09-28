@@ -3,7 +3,7 @@ title: "Amoladora de banco: cómo elegir para tu taller"
 h1: "Amoladoras de banco: cuál elegir para afilar y desbastar"
 url: "/amoladoras/de-banco/"
 description: "Comparación dimensional y de ciclo de trabajo entre dos esmeriles de banco de 150 mm."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
 keywords: ["amoladora de banco", "esmeril de banco", "amoladora de banco 150 mm", "amoladora de banco 200 mm", "muelas para esmeril"]
 research_type: "documental"

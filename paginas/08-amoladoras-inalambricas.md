@@ -3,7 +3,7 @@ title: "Amoladoras inalámbricas: cómo elegir batería y modelo"
 h1: "Amoladoras inalámbricas: qué conviene comprar y qué incluye el kit"
 url: "/amoladoras/inalambricas/"
 description: "Comparación de dos amoladoras inalámbricas que separa plataforma, diámetro, velocidad y kit de batería."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
 keywords: ["amoladora inalambrica", "amoladora a bateria", "amoladora 18v", "amoladora brushless", "kit amoladora a bateria"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Amoladora Skil de 830 W: qué revisar antes de comprar"
 h1: "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W"
 url: "/amoladoras/skil-830w/"
 description: "Cálculo comparable de diferencia de potencia Skil 9004/9002 y control de peso embalado frente a peso neto."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora skil 830w", "skil 9004", "skil 9002", "amoladora skil 700w", "amoladora skil opiniones"]
 research_type: "documental"

@@ -16,6 +16,8 @@ from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
 from hubs import HUB_EDITORIAL, HUB_STEPS
+from recursos_editoriales import RESOURCES, render_resource
+from recursos_compra import BUYING_NOTES, render_buying_note
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -32,9 +34,9 @@ MARKDOWN = MarkdownIt("commonmark", {"html": True}).enable("table")
 # Cargar imagen de logo en Base64 para garantizar carga 100% instantánea sin fallos
 LOGO_SRC = "/assets/logo_cropped.png"
 
-# Completar solo con personas y trayectorias confirmadas por TallerLab.
-# Campos: name, role, experience, evidence_url. Una lista vacía no muestra perfiles.
-EDITORIAL_MEMBERS = []
+AUTHOR_NAME = "Joaquín Vallasciani"
+AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
+AUTHOR_PATH = "/equipo-editorial/"
 
 def extract_frontmatter(content):
     """Extrae metadatos del frontmatter YAML básico."""
@@ -224,6 +226,12 @@ PRODUCT_FACTS["https://meli.la/2WFpTNp"].update(
 )
 PRODUCT_FACTS["https://meli.la/1GRCAjZ"]["warning"] = "Fuente Bosch Brasil para 06013980E0; no confirma la variante, el kit ni la garantía de una oferta argentina."
 PRODUCT_FACTS["https://meli.la/1mLrBwo"]["warning"] = "La oferta identifica TS223558-4; la documentación de TS223558 sin sufijo no prueba que sean la misma variante."
+PRODUCT_FACTS["https://meli.la/1mLrBwo"].update(
+    specs=["2200 W anunciados", "Disco 355 mm anunciado", "Rpm: confirmar variante"],
+    warning="La oferta TS223558-4 anuncia 3.800 rpm; fábrica publica 3.700 rpm para TS223558. Confirmar placa y manual del sufijo -4; no tratar las dos fichas como equivalentes.",
+)
+PRODUCT_FACTS["https://meli.la/1ntghna"]["specs"] = ["400 W anunciados", "Velocidad variable: confirmar variante", "Caladora; hoja de movimiento alternativo"]
+PRODUCT_FACTS["https://meli.la/1ntghna"]["warning"] = "Black+Decker documenta hasta 3.000 carreras/min para BES603-B2 de 220 V; no son rpm. Confirmar sufijo, tensión y garantía de la oferta argentina."
 for facts in PRODUCT_FACTS.values():
     host = urllib.parse.urlsplit(facts["source"]).hostname or ""
     facts["source_type"] = "publicación comercial" if host.endswith("mercadolibre.com.ar") else "fabricante"
@@ -718,7 +726,7 @@ def load_all_articles():
             "h1": fm.get("h1", p.stem),
             "url": url,
             "description": fm.get("description", ""),
-            "author": fm.get("author", "Equipo editorial TallerLab"),
+            "author": fm.get("author", AUTHOR_NAME),
             "reviewed": fm.get("reviewed", ""),
             "published": fm.get("published", ""),
             "research_type": fm.get("research_type", ""),
@@ -752,7 +760,7 @@ def load_all_articles():
                     "h1": fm.get("h1", p.stem),
                     "url": url,
                     "description": fm.get("description", ""),
-                    "author": fm.get("author", "Equipo editorial TallerLab"),
+                    "author": fm.get("author", AUTHOR_NAME),
                     "reviewed": fm.get("reviewed", ""),
                     "published": fm.get("published", ""),
                     "research_type": fm.get("research_type", ""),
@@ -1497,7 +1505,7 @@ HTML_SHELL = """<!DOCTYPE html>
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
-      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/equipo-editorial/">Quiénes somos</a></p>
+      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/equipo-editorial/">Joaquín Vallasciani · Autor</a></p>
     </div>
   </footer>
 </body>
@@ -1629,6 +1637,8 @@ def render_editorial_page(kind):
 
 Identificamos el código exacto de cada modelo y consultamos fichas, manuales y catálogos del fabricante. Indicamos la fuente junto a cada cifra decisiva. Si una ficha comercial contradice un manual, mostramos la diferencia y pedimos confirmar la variante antes de comprar. Un dato no publicado queda como «no informado»; no lo estimamos a partir de otro modelo.
 
+El recorrido es: **documentación oficial → identificación del modelo y código → contraste de fichas, manuales y catálogos → cálculos cuando corresponden → contradicciones y datos desconocidos → conclusión**. Los cálculos explican sus entradas, unidades, supuestos y límites; una estimación documental no equivale a una medición del producto. Cada artículo muestra sus fuentes directamente, para que puedas consultar los documentos utilizados.
+
 ## Cómo clasificamos las afirmaciones
 
 **Dato verificado** identifica una cifra o característica que comprobamos en una fuente enlazada. **Declaración del fabricante** atribuye expresamente al fabricante una prestación o beneficio que no medimos. **Experiencia de compradores** resume opiniones externas solo cuando identificamos plataforma, modelo, fecha y muestra consultada; no equivale a una prueba propia. **Análisis TallerLab** indica una comparación, cálculo o conclusión documental explicada en la guía. **Desconocido** marca lo que las fuentes disponibles no permiten afirmar. Estas etiquetas ayudan a leer la evidencia; no sustituyen la fuente de cada dato decisivo.
@@ -1645,39 +1655,52 @@ Los precios, el stock y el envío cambian por vendedor y fecha. No publicamos un
 
 Las opiniones de compradores pueden señalar dudas recurrentes, pero no equivalen a una medición técnica. No trasladamos calificaciones ajenas a una reseña propia. Solo llamamos «prueba propia» a una evaluación realizada por TallerLab, con método, condiciones y resultados documentados en la página. Las guías actualmente publicadas son análisis documentales de especificaciones; no afirman uso directo de los equipos.
 
+**Prueba física: no realizada** en las guías actuales. TallerLab no realiza pruebas físicas sistemáticas de los productos.
+
 ## Afiliación y correcciones
 
-Algunos enlaces a productos pueden generar una comisión para TallerLab. La comisión no cambia el criterio de comparación y señalamos esos enlaces como patrocinados. Las búsquedas generales se distinguen de enlaces a un producto concreto. Corregimos una guía cuando cambia una fuente o encontramos un error; la fecha de revisión solo se actualiza después de verificar de nuevo las afirmaciones afectadas.
+Algunos enlaces a productos pueden generar una comisión para TallerLab. Cuando una opción encaja con el uso y tiene documentación suficiente, priorizamos ofrecer su enlace de afiliado. La comisión no convierte al producto en ganador ni reemplaza los criterios técnicos: conservamos alternativas y señalamos datos faltantes o contradictorios antes de recomendar. Identificamos los enlaces de afiliado como patrocinados; las búsquedas generales no llevan esa etiqueta. Corregimos una guía cuando cambia una fuente o encontramos un error; la fecha de revisión solo se actualiza después de verificar de nuevo las afirmaciones afectadas.
+
+La fecha visible corresponde a la última revisión documental registrada del artículo. Cambiar la firma, el diseño o un enlace de navegación no modifica esa fecha. Cuando corregimos un error importante, agregamos un **Historial de correcciones** en el artículo con la fecha, el dato corregido y su fuente. Los cambios menores de estilo no requieren una entrada. No reconstruimos fechas ni correcciones sin un registro que las respalde.
 
 ## Cuándo publicamos
 
-Cada guía requiere fuentes identificadas, comprobación de cifras, límites explicados y revisión editorial documentada. Los borradores no se sirven como páginas públicas. Nuestra firma editorial y sus límites se explican en [Equipo editorial TallerLab](/equipo-editorial/).
+Cada guía requiere fuentes identificadas, comprobación de cifras, límites explicados y revisión documental registrada. Los borradores no se sirven como páginas públicas. [Joaquín Vallasciani](/equipo-editorial/) es responsable de la investigación documental y edición de las guías. La firma identifica a su autor; no implica una revisión independiente por otra persona.
 """
         desc = "Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab."
     else:
-        title = "Equipo editorial TallerLab"
-        path = "/equipo-editorial/"
+        title = "Joaquín Vallasciani — Editor e investigador de TallerLab"
+        path = AUTHOR_PATH
         body = """
-TallerLab firma sus guías como **Equipo editorial TallerLab**. Es la identidad editorial del sitio; no implica que un experto certificado haya probado cada producto. Todavía no publicamos nombres individuales ni credenciales verificables, por lo que no se atribuyen títulos profesionales a esta firma.
+**Responsable de investigación documental de TallerLab.**
 
-El trabajo editorial consiste en identificar modelos concretos, leer documentación técnica, separar datos declarados de conclusiones y explicar qué información falta para decidir. Antes de publicar, contrastamos las cifras decisivas con sus fuentes y revisamos los límites de cada recomendación.
+Responsable de la investigación, comparación de fuentes y edición de las guías publicadas en TallerLab. El trabajo se basa principalmente en manuales, catálogos, fichas oficiales de fabricantes y documentación comercial identificada. Las guías distinguen los datos publicados por terceros de los cálculos y análisis realizados por TallerLab.
 
-Las guías publicadas son comparaciones documentales de fichas, manuales y catálogos. No hubo ensayo instrumental propio de esos equipos. Cuando publiquemos una prueba de taller, detallaremos quién la hizo, con qué equipo y bajo qué condiciones.
+Actualmente TallerLab no realiza pruebas físicas sistemáticas de los productos. Cuando un equipo no fue probado, esto se indica de forma explícita: **Prueba física: no realizada**.
 
-Consultá [cómo trabajamos](/como-trabajamos/) para ver el proceso completo y el tratamiento de enlaces comerciales.
+## Cómo investiga
+
+**Manual → ficha oficial → catálogo → comparación → inconsistencias → conclusión.**
+
+La investigación comienza con documentación oficial y la identificación del modelo, código y mercado. Se contrastan fichas y manuales, se realizan cálculos cuando corresponde y se señalan contradicciones y datos desconocidos. Las fuentes están enlazadas en cada artículo.
+
+## Áreas investigadas
+
+Amoladoras y discos · Compresores y accesorios neumáticos · Sierras · Taladros y mechas · Soldadura · Soldadura electrónica · Generadores · Hidrolavadoras.
+
+Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fechas de revisión, el historial de correcciones y el tratamiento de enlaces comerciales.
 """
-        desc = "Quién firma y revisa los contenidos de TallerLab y qué experiencia se documenta."
-        if EDITORIAL_MEMBERS:
-            profiles = "".join(
-                '<article><h3>' + escape(member["name"]) + '</h3><p>'
-                + escape(member["role"]) + '</p><p>' + escape(member["experience"])
-                + '</p><a href="' + escape(member["evidence_url"], quote=True)
-                + '" rel="noopener noreferrer">Trayectoria verificable ↗</a></article>'
-                for member in EDITORIAL_MEMBERS
-            )
-            members_html = '<section class="markdown-body"><h2>Integrantes</h2>' + profiles + '</section>'
+        desc = "Investigación documental y edición de las guías de TallerLab: fuentes, comparaciones y límites."
+        guide_groups = []
+        for section, meta in CATEGORY_META.items():
+            guides = sorted((a for a in ALL_ARTICLES if a["section"] == section and a["author"] == AUTHOR_NAME), key=lambda a: a["title"])
+            if guides:
+                links = "".join(f'<li><a href="{escape(a["url"], quote=True)}">{escape(a["h1"])}</a></li>' for a in guides)
+                guide_groups.append(f'<details class="author-guides"><summary>{escape(meta["name"])} · {len(guides)} guías</summary><ul>{links}</ul></details>')
+        members_html = '<section class="markdown-body"><h2>Guías de Joaquín Vallasciani</h2>' + "".join(guide_groups) + '</section>'
     content = f'<div class="article-container"><div class="article-header"><h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
-    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path), PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": author_schema()}, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path) + schema, PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
 def render_home_page():
@@ -1731,6 +1754,13 @@ def render_article_page(article, embedded=False):
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
+    resource = RESOURCES.get(article["url"])
+    if resource:
+        # La transparencia queda una vez, en el detalle de método del pie.
+        clean_body = re.sub(r'^## Cómo investigamos esta guía\s*\n(?:[ \t]*-[^\n]*\n)+\s*', '', clean_body, flags=re.MULTILINE)
+        # Retirar solo preámbulos comunes que explican las etiquetas, no datos.
+        clean_body = re.sub(r'^\*\*Dato verificado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
+        clean_body = re.sub(r'^- \*\*Opiniones(?: de compradores)?:\*\* no se revisó una muestra verificable\.\n?', '', clean_body, flags=re.MULTILINE)
     # No enlazar desde una guía publicada hacia borradores que devuelven 404.
     clean_body = re.sub(
         r'\[([^\]]+)\]\((/[^)]+)\)',
@@ -1749,7 +1779,7 @@ def render_article_page(article, embedded=False):
 
     clean_body = re.sub(
         r'\[([^\]]+)\]\((https://(?:meli\.la/[A-Za-z0-9]+|listado\.mercadolibre\.com\.ar/[^\)]+))\)'
-        r'\s*\{:target="_blank" rel="sponsored(?: noopener(?: noreferrer)?)?"( \.btn-mercado-libre)?\}',
+        r'\s*\{:target="_blank" rel="[^"]*"( \.btn-mercado-libre)?\}',
         render_ml_link,
         clean_body,
     )
@@ -1771,7 +1801,7 @@ def render_article_page(article, embedded=False):
         body_script = ""
         trust_html = """
         <p><strong>Criterio editorial:</strong> Esta guía compara documentación de fabricantes; TallerLab no realizó una prueba física de los equipos. Las tarjetas comerciales indican su propia fuente y sus límites.</p>
-        <p style="margin-top: 0.5rem;"><strong>Enlaces comerciales:</strong> Solo recomendamos una oferta cuando corresponde al producto descrito y contamos con un enlace de afiliado válido.</p>
+        <p style="margin-top: 0.5rem;"><strong>Enlaces comerciales:</strong> Priorizamos los productos enlazados cuando encajan con el uso y su documentación. Una variante sin identificar se presenta para contrastar, con sus límites visibles.</p>
         """
     else:
         rendered_body = MARKDOWN.render(clean_body)
@@ -1786,13 +1816,19 @@ def render_article_page(article, embedded=False):
         if not href_match:
             return tag
         href = href_match.group(1)
-        if not (href.startswith("https://meli.la/") or href.startswith("https://listado.mercadolibre.com.ar/")):
+        host = urllib.parse.urlsplit(href).hostname or ""
+        if not (host == "meli.la" or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar")):
             return tag
         tag = re.sub(r'\s(?:target|rel)="[^"]*"', '', tag)
         rel = "nofollow sponsored noopener noreferrer" if href.startswith("https://meli.la/") else "nofollow noopener noreferrer"
         return tag[:-1] + f' target="_blank" rel="{rel}">'
 
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
+    if resource:
+        source_heading = {"table": "Fichas detrás de la comparación", "selector": "Documentos de este recorrido", "checklist": "Documentos para estas comprobaciones"}.get(resource["kind"], "Fuentes del cálculo y sus límites")
+        rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
+        rendered_body = re.sub(r'<strong>(Dato verificado|Análisis TallerLab|Desconocido|Declaración del fabricante)([:.]?)</strong>', r'<strong class="evidence-label">\1\2</strong>', rendered_body)
+        body_script += '<script src="/assets/decision-tools.js?v=4" defer></script>'
     sec_meta = CATEGORY_META.get(article["section"], {"name": article["category"], "icon": "📁"})
     reading_time = max(3, article.get("word_count", 600) // 200)
     general_files = TAXONOMY_MAP.get(article["section"], {}).get("general", [])
@@ -1821,6 +1857,9 @@ def render_article_page(article, embedded=False):
         facts = PRODUCT_FACTS.get(product[2])
         if facts:
             cited_sources.append((facts["brand"] + " " + facts["model"] + ": ficha del producto mostrado", facts["source"]))
+    for url, label in BUYING_NOTES.get(article["url"], {}).get("urls", []):
+        facts = PRODUCT_FACTS[url]
+        cited_sources.append((label + ": " + facts["source_type"], facts["source"]))
     if article["url"] in SOURCE_CLAIMS:
         cited_sources = SOURCE_CLAIMS[article["url"]]
     source_items = []
@@ -1832,19 +1871,24 @@ def render_article_page(article, embedded=False):
         source_items.append(f'<li><a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(label)} ↗</a></li>')
     sources_html = ("<ul>" + "".join(source_items) + "</ul>") if source_items else "<p>Esta guía aún no cita una fuente externa para sus afirmaciones técnicas.</p>"
     sources_footer = "" if re.search(r'^## Fuentes consultadas\s*$', article["body"], re.MULTILINE) else f'<div class="article-sources"><strong>Fuentes consultadas:</strong>{sources_html}</div>'
-    reviewed_label = f'Revisado: {escape(article["reviewed"])}'
+    reviewed_label = f'Última revisión documental: {escape(article["reviewed"])}'
+    physical_label = "no realizada" if article["physical_test"] == "no" else escape(article["physical_test"])
+    primary_label = "Fuentes primarias consultadas" if article["primary_sources"] == "sí" else "Fuentes primarias: no documentadas"
     transparency_html = f'''<section class="article-sources" aria-label="Cómo investigamos esta guía">
       <h2>Cómo investigamos esta guía</h2>
       <ul>
         <li>Tipo de análisis: {escape(article["research_type"])}</li>
-        <li>Prueba física de TallerLab: {escape(article["physical_test"])}</li>
+        <li>Prueba física: {physical_label}</li>
         <li>Especificaciones contrastadas: {escape(article["specifications_contrasted"])}</li>
         <li>Opiniones de compradores: {escape(article["buyer_opinions"])}</li>
         <li>Fuentes primarias: {escape(article["primary_sources"])}</li>
         <li>Última revisión: {escape(article["reviewed"])}</li>
       </ul>
+      <p>Documentación oficial → identificación del modelo y código → contraste de fichas y manuales → cálculos si corresponden → contradicciones y datos desconocidos → conclusión.</p>
       <a href="/como-trabajamos/">Ver metodología de TallerLab</a>
     </section>'''
+    if resource:
+        transparency_html = f'<details class="research-detail"><summary>Método, revisión y alcance de la evidencia</summary>{transparency_html}</details>'
         
     if article["url"] == f"/{article['section']}/":
         breadcrumb_html = f"""<a href="/">Inicio</a> <span>/</span> <span style="color: #ffffff;">{sec_meta['name']}</span>"""
@@ -1870,6 +1914,8 @@ def render_article_page(article, embedded=False):
         <p class="article-lead">{article['description']}</p>
       </div>
 
+      {render_resource(article)}
+      {render_buying_note(article, PRODUCT_FACTS)}
       {render_quick_guide(article)}
       {render_50l_models() if article["url"] == "/compresores/50-litros/" else ""}
       {affiliate_shelf}
@@ -1882,7 +1928,12 @@ def render_article_page(article, embedded=False):
       <div class="trust-footer">
         {transparency_html}
         {trust_html}
-        <p><strong>Autor:</strong> <a href="/equipo-editorial/">{escape(article['author'])}</a>. <strong>{reviewed_label}.</strong> <a href="/como-trabajamos/">Cómo trabajamos</a>.</p>
+        <div class="article-authorship">
+          <p><strong>Investigación documental y edición: <a href="/equipo-editorial/">{escape(article['author'])}</a> · TallerLab</strong></p>
+          <p>{AUTHOR_ROLE}</p>
+          <p>{reviewed_label} · {primary_label} · <strong>Prueba física: {physical_label}</strong></p>
+          <p><a href="/como-trabajamos/">Cómo trabajamos</a></p>
+        </div>
         {sources_footer}
       </div>
 
@@ -1912,6 +1963,17 @@ def render_article_page(article, embedded=False):
     )
 
 
+def author_schema(name=AUTHOR_NAME):
+    return {
+        "@type": "Person",
+        "@id": absolute_url(AUTHOR_PATH) + "#joaquin-vallasciani",
+        "name": name,
+        "url": absolute_url(AUTHOR_PATH),
+        "jobTitle": AUTHOR_ROLE,
+        "worksFor": {"@type": "Organization", "name": "TallerLab"},
+    }
+
+
 def article_schema_tag(article):
     article_schema = {
         "@context": "https://schema.org",
@@ -1919,9 +1981,11 @@ def article_schema_tag(article):
         "headline": article["h1"],
         "description": article["description"],
         "mainEntityOfPage": absolute_url(article["url"]),
-        "author": {"@type": "Organization", "name": "Equipo editorial TallerLab", "url": absolute_url("/equipo-editorial/")},
+        "author": author_schema(article["author"]),
         "publisher": {"@type": "Organization", "name": "TallerLab"},
     }
+    if article.get("reviewed"):
+        article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
     return '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
 
 def render_not_found(path):

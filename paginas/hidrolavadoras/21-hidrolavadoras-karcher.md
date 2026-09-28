@@ -3,7 +3,7 @@ title: "Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar"
 h1: "Qué hidrolavadora Kärcher comprar: comparativa de modelos K2 a K5"
 url: "/hidrolavadoras/karcher/"
 description: "Tabla de cuatro fichas Kärcher Argentina (K2 Basic Black, K3 Black Edition, K4 Power Control y K5) con SKU, potencia, presión original, caudal y manguera; evita trasladar datos europeos a modelos locales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora karcher", "modelos hidrolavadoras karcher", "karcher k2 vs k3 vs k4 vs k5", "comprar hidrolavadora karcher", "precios karcher argentina"]
 research_type: "documental"

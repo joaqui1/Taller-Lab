@@ -3,7 +3,7 @@ title: "Gadnic 878D: estación de cautín y aire caliente"
 h1: "Gadnic 878D: qué revisar antes de comprar la estación"
 url: "/soldadura-electronica/gadnic-878d/"
 description: "Ficha documental de la Gadnic 878D: contraste entre los 750 W del texto comercial y los 370 W del cuadro técnico, accesorios y diferencias frente a Yihua."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldado gadnic 878d", "gadnic 878d", "gadnic estacion de soldado"]
 research_type: "documental"

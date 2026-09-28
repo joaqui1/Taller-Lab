@@ -3,7 +3,7 @@ title: "Sierra circular Black+Decker: qué modelo elegir"
 h1: "Cómo elegir una sierra circular Black+Decker"
 url: "/sierras/circulares-black-decker/"
 description: "Comparamos CS1004B2 de 220 V y CS1024-BR de 127 V con fichas oficiales regionales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular black and decker", "black decker cs1004", "black decker cs1024", "sierra circular 1400w", "sierra circular bricolaje"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Kit para compresor de aire: accesorios que convienen"
 h1: "Qué kit de accesorios comprar para un compresor"
 url: "/compresores/kits-accesorios/"
 description: "Comparación entre kits BTA de alimentación por gravedad y por succión, con piezas compartidas y condición de alimentación publicada."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["kit para compresor de aire", "kit 5 piezas compresor", "accesorios compresor de aire", "pistola soplete kit compresor"]
 research_type: "documental"

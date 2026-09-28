@@ -3,7 +3,7 @@ title: "Amoladoras Dowen Pagio: cómo elegir la de 900 W"
 h1: "Amoladoras Dowen Pagio: qué revisar en la 9993220.7"
 url: "/amoladoras/dowen-pagio/"
 description: "Comparación de tres códigos Dowen Pagio según potencia, disco, rpm y control variable, usando catálogo de fabricante."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora dowen pagio", "dowen pagio 9993220.7", "amoladora dowen pagio 900w", "amoladora 115 mm dowen pagio"]
 research_type: "documental"

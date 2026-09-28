@@ -3,7 +3,7 @@ title: "Yihua 898D: estación de aire caliente y cautín"
 h1: "Yihua 898D: qué incluye y para qué trabajos sirve"
 url: "/soldadura-electronica/yihua-898d/"
 description: "Ficha de la Yihua 898D: potencia, rangos y accesorios según fabricante, con diferencias explícitas frente a 898D+ y 878D."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadura Electrónica"
 keywords: ["estacion de soldado yihua 898d", "yihua 898d", "estacion de soldadura yihua 898d"]
 research_type: "documental"
@@ -55,7 +55,11 @@ published: true
 
 Si solo necesitás cautín, compará la [guía de estaciones electrónicas](/soldadura-electronica/estacion-de-soldadura/) y el [kit de estaño](/soldadura-electronica/kit-soldador-de-estano/). Para inmovilizar una placa, revisá el [soporte para soldar con lupa](/soldadura-electronica/soporte-para-soldar-con-lupa/).
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
+## Cuándo considerar esta oferta
+
+La 898D es una referencia para comparar cuando necesitás cautín y aire caliente en el mismo equipo. Si tu trabajo requiere solo cautín, cotejá primero una estación de esa función. Antes de elegir el paquete, pedí código 898D o 898D+, tensión de placa, modelo de mango y lista de accesorios: la ficha de serie no confirma la entrega de un vendedor argentino.
+
+**Aviso de afiliados:** TallerLab puede recibir una comisión por compras realizadas desde este enlace. Consultá precio, stock y condiciones actuales de la publicación.
 
 [Ver Yihua 898D en Mercado Libre](https://meli.la/2du1wYY){:target="_blank" rel="sponsored" .btn-mercado-libre}
 

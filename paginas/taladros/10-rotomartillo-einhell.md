@@ -3,7 +3,7 @@ title: "Rotomartillo Einhell: comparativa y guía de compra"
 h1: "Qué rotomartillo Einhell comprar"
 url: "/taladros/rotomartillo-einhell/"
 description: "Ficha contrastada del Einhell TE-RH 28 5F frente a Bosch GBH 2-26 DRE en potencia, joules, capacidad y peso."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo einhell", "rotomartillo einhell power x-change", "einhell sds plus", "rotomartillo einhell opiniones", "herramientas einhell argentina"]
 research_type: "documental"

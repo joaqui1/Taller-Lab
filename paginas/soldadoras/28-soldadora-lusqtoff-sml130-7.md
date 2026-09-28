@@ -3,7 +3,7 @@ title: "Lusqtoff SML130-7: modelo, alambre y qué revisar"
 h1: "Soldadora Lusqtoff SML130-7: comprobaciones de compra"
 url: "/soldadoras/lusqtoff-sml130-7/"
 description: "Contrasta ficha comercial y manual del modelo discontinuado SML130-7: ciclo, entrada, capacidad de alambre, dimensiones y discrepancia en cómo el fabricante expresa los puntos de corriente."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["lusqtoff sml130 7", "soldadora lusqtoff sml 130 7", "sml130 7", "soldadora mig lusqtoff 130"]
 research_type: "documental"

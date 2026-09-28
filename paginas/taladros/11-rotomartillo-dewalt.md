@@ -3,7 +3,7 @@ title: "Rotomartillo DeWalt: cuál elegir para tu trabajo"
 h1: "Cómo elegir un rotomartillo DeWalt"
 url: "/taladros/rotomartillo-dewalt/"
 description: "Ficha documental del DeWalt DCH273B con atribución precisa de SHOCKS y límites de mercado y kit."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo dewalt", "dewalt d25133k", "rotomartillo dewalt 20v", "dewalt sds plus", "rotomartillo dewalt comprar"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Taladro inalámbrico DeWalt: modelos y diferencias"
 h1: "Qué taladro inalámbrico DeWalt comprar"
 url: "/taladros/dewalt-inalambrico/"
 description: "Comparación documental de DeWalt DCD794 y DCD805: función, alimentación, mandril, velocidad y diferencia entre herramienta sola y kit."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico dewalt", "dewalt 20v max", "taladro percutor dewalt dcd7781", "dewalt brushless", "comprar taladro dewalt argentina"]
 research_type: "documental"

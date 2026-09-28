@@ -3,7 +3,7 @@ title: "Soldadora Dogo 180: características y qué revisar"
 h1: "Soldadora Dogo 180: guía antes de comprar"
 url: "/soldadoras/soldadora-dogo-180/"
 description: "Registra las especificaciones de la Dogo Dogostar 180 Moderna código DOG50045, incluido factor de servicio por electrodo, masa y límite de uso TIG por raspado con torcha adicional."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora dogo 180", "dogo 180 ficha tecnica", "dogo 180 opiniones", "soldadora dogo transformador", "dogo 180 inverter"]
 research_type: "documental"

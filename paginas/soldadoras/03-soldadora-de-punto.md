@@ -3,7 +3,7 @@ title: "Soldadora de punto: tipos, usos y cuál elegir"
 h1: "Soldadora de punto: cuál elegir para baterías o chapa"
 url: "/soldadoras/soldadora-de-punto/"
 description: "Compara dos equipos Telwin de resistencia documentados para reparación de chapa por espesor máximo, alimentación, corriente de punto y ciclo; muestra que spotters de carrocería requieren alimentación especializada."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora de punto", "soldadora por puntos", "soldadora de baterias 18650", "spotter chapista", "sacabollos soldadora punto"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Taladro inalámbrico Lusqtoff: cuál conviene comprar"
 h1: "Cómo elegir un taladro inalámbrico Lusqtoff"
 url: "/taladros/lusqtoff-inalambrico/"
 description: "Comparación de dos modelos Lusqtoff con códigos, torque, velocidad, contenido de kit y plataforma identificados."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico lusqtoff", "lusqtoff 18v", "taladro percutor lusqtoff", "taladro a bateria lusqtoff", "lusqtoff argentina"]
 research_type: "documental"

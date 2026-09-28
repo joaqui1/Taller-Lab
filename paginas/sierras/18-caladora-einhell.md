@@ -3,7 +3,7 @@ title: "Caladora Einhell: modelos con cable y a batería"
 h1: "Qué caladora Einhell elegir"
 url: "/sierras/caladoras-einhell/"
 description: "Compará TC-JS 85, TE-JS 100 y TC-JS 18 Li Solo por capacidades publicadas, peso y alimentación."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["caladora einhell", "sierra caladora einhell", "einhell te-js 18 li", "einhell power x-change caladora", "caladora pendular einhell"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Sensitiva: qué es y cuál comprar para cortar metal"
 h1: "Cómo elegir una sensitiva para cortar metal"
 url: "/sierras/sensitivas/"
 description: "Comparación documental de sensitivas de 355 mm por capacidad de corte según geometría del perfil."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sensitiva", "sierra sensitiva para metal", "cortadora sensitiva", "sensitiva 14 pulgadas", "sensitiva herreria"]
 research_type: "documental"

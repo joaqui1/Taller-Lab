@@ -3,7 +3,7 @@ title: "Generadores Lusqtoff: modelos y qué revisar"
 h1: "Generadores Lusqtoff: cuál elegir"
 url: "/generadores/lusqtoff/"
 description: "Compara cuatro modelos Lüsqtoff exactos por potencia y autonomía publicada; deja explícita la falta de potencia nominal del LG3500EXI y la diferencia ficha/manual del LGI3.8-8."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generadores lusqtoff", "generador lusqtoff opiniones", "lusqtoff lg3500ex", "generador lusqtoff inverter", "repuestos generador lusqtoff"]
 research_type: "documental"

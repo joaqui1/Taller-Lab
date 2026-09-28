@@ -3,7 +3,7 @@ title: "Compresor BTA de 25 litros: prestaciones y compra"
 h1: "Compresor BTA de 25 litros: para quién conviene"
 url: "/compresores/bta-25-litros/"
 description: "Comparación del BTA de 25 L lubricado con el BTA de 24 L sin aceite; deja explícito que admisión y entrega útil son magnitudes distintas."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor bta 25 litros", "compresor bta 2 hp", "compresor bta opiniones", "compresor de aire 25l"]
 research_type: "documental"

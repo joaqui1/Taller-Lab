@@ -3,7 +3,7 @@ title: "Disco diamantado segmentado: usos y cómo elegir"
 h1: "Disco diamantado segmentado: para qué sirve y cuándo elegirlo"
 url: "/amoladoras/disco-diamantado-segmentado/"
 description: "Comparación por código de dos discos diamantados segmentados Bosch con igual geometría y distinto alcance declarado de materiales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Accesorios para amoladoras"
 keywords: ["disco diamantado segmentado", "disco segmentado hormigon", "disco para cortar ladrillo", "disco diamantado 115", "disco diamantado 230"]
 research_type: "documental"

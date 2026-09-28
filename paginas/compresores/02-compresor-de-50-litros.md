@@ -3,7 +3,7 @@ title: "Compresor de 50 litros: comparativa y guía de compra"
 h1: "Compresores de 50 litros: cuál conviene según el uso"
 url: "/compresores/50-litros/"
 description: "Compará compresores de 50 litros Lüsqtoff, Gamma y Einhell: potencia, caudal declarado, salida a presión de trabajo y límites según el uso."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 reviewed: "27/09/2026"
 published: true
 research_type: "documental"
@@ -108,7 +108,7 @@ Al filtrar compresores de 50 litros en Mercado Libre, prestá atención a:
 
 Si ya compraste el compresor sin accesorios, el [kit Lusqtoff de 5 piezas](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"} es una compra separada para sumar manguera y pistolas. No incluye el compresor de 50 litros; revisá las conexiones antes de comprarlo.
 
-[Ver compresores de 50 litros en Mercado Libre](https://listado.mercadolibre.com.ar/compresor-50-litros){:target="_blank" rel="sponsored" .btn-mercado-libre}
+[Ver compresores de 50 litros en Mercado Libre](https://listado.mercadolibre.com.ar/compresor-50-litros){:target="_blank" rel="nofollow noopener noreferrer" .btn-mercado-libre}
 
 ## Alcance de la evidencia
 

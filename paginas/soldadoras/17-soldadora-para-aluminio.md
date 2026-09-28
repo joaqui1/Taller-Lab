@@ -3,7 +3,7 @@ title: "Soldadora para aluminio: TIG o MIG, cuál elegir"
 h1: "Qué soldadora necesitás para soldar aluminio"
 url: "/soldadoras/para-aluminio/"
 description: "Compara dos fuentes TIG AC/DC que fabricantes documentan para aluminio: ESAB ET 200i AC/DC monofásica y Lüsqtoff TIG350ACDC-9 trifásica, con ciclo, corriente y alimentación."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora para aluminio", "soldar aluminio tig o mig", "soldadora tig ac dc aluminio", "spool gun aluminio", "gas para soldar aluminio"]
 research_type: "documental"

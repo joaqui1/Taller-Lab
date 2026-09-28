@@ -3,7 +3,7 @@ title: "Kärcher K5: prestaciones y cuándo conviene comprarla"
 h1: "Hidrolavadora Kärcher K5: guía de compra"
 url: "/hidrolavadoras/karcher-k5/"
 description: "Compara las fichas argentinas K5 y K4 Power Control por código, presión en unidad original, caudal, manguera y peso; convierte psi a bar solo como cálculo identificado."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora karcher k5", "karcher k5 power control", "karcher k5 vs k4", "karcher k5 caracteristicas", "karcher k5 precio argentina"]
 research_type: "documental"

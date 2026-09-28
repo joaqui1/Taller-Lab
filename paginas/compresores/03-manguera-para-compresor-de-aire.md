@@ -3,7 +3,7 @@ title: "Manguera para compresor de aire: medidas y materiales"
 h1: "Cómo elegir una manguera para compresor de aire"
 url: "/compresores/manguera/"
 description: "Tabla de dimensionamiento Parker que cruza conexión, largo, diámetro interno mínimo, presión y caudal; distingue esa tabla técnica de una recomendación universal."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["manguera para compresor de aire", "manguera espiralada compresor", "manguera neumatica 1/4", "manguera de aire comprimido"]
 research_type: "documental"

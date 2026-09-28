@@ -3,7 +3,7 @@ title: "Combo taladro y amoladora: kits con cable y a batería"
 h1: "Qué combo de taladro y amoladora conviene comprar"
 url: "/taladros/combo-taladro-amoladora/"
 description: "Ficha comprobable del combo Lusqtoff KATL-9BK y matriz de datos faltantes en otros kits anunciados."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["combo taladro amoladora", "kit taladro y amoladora", "taladro y amoladora", "kit amoladora y taladro inalambrico"]
 research_type: "documental"
@@ -57,4 +57,4 @@ Los datos de esta tabla describen el texto de cada aviso, no quedan verificados 
 
 Para seguir comparando: [taladro inalámbrico Lusqtoff](/taladros/lusqtoff-inalambrico/).
 
-Para explorar la categoría: [guías de amoladoras](/taladros/).
+Para explorar la categoría: [guías de taladros y atornilladores](/taladros/).

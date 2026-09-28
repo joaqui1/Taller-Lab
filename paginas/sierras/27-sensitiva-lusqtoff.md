@@ -3,7 +3,7 @@ title: "Sensitiva Lusqtoff: CM-14K y qué revisar antes de comprar"
 h1: "Sierra sensitiva Lusqtoff: guía de la CM-14K"
 url: "/sierras/sensitivas-lusqtoff/"
 description: "Datos oficiales de la sensitiva Lusqtoff CM-14K, diferencias con otras variantes y criterios para elegir disco, capacidad y accesorios."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sensitiva lusqtoff", "sensitiva lusqtoff", "lusqtoff cm-14k", "sierra sensitiva lusqtoff opiniones"]
 research_type: "documental"

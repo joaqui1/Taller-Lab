@@ -3,7 +3,7 @@ title: "Sierra sable inalámbrica: cómo elegir y comparar"
 h1: "Qué sierra sable inalámbrica comprar"
 url: "/sierras/sierra-sable-inalambrica/"
 description: "Qué comparar en sierras sable inalámbricas: carrera, velocidad, tensión nominal y batería incluida."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sable inalambrica", "sierra sable a bateria", "sierra sable 18v", "sierra sable 20v brushless", "sierra sable compacta"]
 research_type: "documental"

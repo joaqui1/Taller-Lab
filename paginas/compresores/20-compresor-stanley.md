@@ -3,7 +3,7 @@ title: "Compresor Stanley: modelos y cuál elegir"
 h1: "Compresores Stanley: comparativa y guía de compra"
 url: "/compresores/stanley/"
 description: "Comparación de dos Stanley D210/8 del mismo catálogo: cuantifica qué cambia al pasar de tanque de 24 a 50 L y qué campos permanecen iguales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor stanley", "compresor stanley fatmax", "compresor stanley silencioso", "compresor stanley 24 litros"]
 research_type: "documental"

@@ -3,7 +3,7 @@ title: "Caladoras Black+Decker: BES603 y qué modelo elegir"
 h1: "Sierra caladora Black+Decker: cómo elegir entre modelos"
 url: "/sierras/caladoras-black-decker/"
 description: "Comparación documental de Black+Decker BES603-B2 y BES602-B2: velocidad, capacidades de ficha y diferencias de variante."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra caladora black decker", "caladora black decker", "black decker bes603", "caladora black and decker"]
 research_type: "documental"

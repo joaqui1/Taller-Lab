@@ -3,7 +3,7 @@ title: "Generador trifásico: potencia, usos y cómo elegir"
 h1: "Cómo elegir un generador trifásico"
 url: "/generadores/trifasicos/"
 description: "Matriz de potencia, tensión y fase de tres generadores trifásicos de combustibles distintos; separa kW de kVA y muestra la salida por código."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador trifasico", "grupo electrogeno trifasico", "generador 380v", "diferencia kva y kw", "balanceo de fases generador"]
 research_type: "documental"

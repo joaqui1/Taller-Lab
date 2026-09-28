@@ -3,7 +3,7 @@ title: "Soporte para soldar con lupa: pinzas, base y luz"
 h1: "Soporte para soldar con lupa: qué revisar antes de comprar"
 url: "/soldadura-electronica/soporte-para-soldar-con-lupa/"
 description: "Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadura Electrónica"
 keywords: ["soporte para soldar con lupa", "tercera mano para soldar", "lupa para soldar", "base para cautin con lupa"]
 research_type: "documental"

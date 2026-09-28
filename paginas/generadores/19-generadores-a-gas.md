@@ -3,7 +3,7 @@ title: "Generador eléctrico a gas: tipos y cómo elegir"
 h1: "Generadores a gas: opciones para respaldo eléctrico"
 url: "/generadores/a-gas/"
 description: "Matriz que separa grupos diseñados de fábrica para gas natural/GLP de kits de conversión para motores pequeños; agrega el límite de instalación regulada."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador electrico a gas", "generador a gas natural domiciliario", "generador dual nafta gas", "generador glp garrafa", "grupo electrogeno a gas"]
 research_type: "documental"

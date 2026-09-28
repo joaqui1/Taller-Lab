@@ -3,7 +3,7 @@ title: "Disco para sierra circular: cuál usar para cada corte"
 h1: "Cómo elegir un disco para sierra circular"
 url: "/sierras/disco-para-sierra-circular/"
 description: "Cómo validar diámetro, eje, RPM y aplicación de un disco circular con ejemplos de fichas oficiales."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["disco para sierra circular", "disco de corte madera", "disco para melamina", "cantidad de dientes disco circular", "disco carburo de tungsteno"]
 research_type: "documental"

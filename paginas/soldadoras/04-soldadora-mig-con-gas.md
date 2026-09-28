@@ -3,7 +3,7 @@ title: "Soldadora MIG con gas: guía para elegir y comprar"
 h1: "Qué soldadora MIG con gas comprar"
 url: "/soldadoras/soldadora-mig-con-gas/"
 description: "Compara una MIG/MAG ESAB HandyArc MIG 160i y una Lüsqtoff MIGDUAL200-9 por rango, alimentación de alambre, entrada y accesorios relacionados con conexión de gas que sus fichas enumeran."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora mig con gas", "soldadora mig mag", "gas para soldar mig", "atal soldadura", "soldadora mig profesional"]
 research_type: "documental"

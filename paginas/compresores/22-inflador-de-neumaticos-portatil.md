@@ -3,7 +3,7 @@ title: "Inflador de neumáticos portátil: cómo elegir uno para auto, moto o bi
 h1: "Inflador de neumáticos portátil: cuál conviene según el uso"
 url: "/compresores/inflador-neumaticos-portatil/"
 description: "Comparación de dos infladores portátiles con condiciones de caudal muy distintas; identifica por qué el número destacado de Gadnic no se puede rankear frente a caudales Makita medidos a presión especificada."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["inflador de neumáticos portátil", "inflador portátil para auto", "inflador de neumáticos a batería", "mini compresor para neumáticos"]
 research_type: "documental"

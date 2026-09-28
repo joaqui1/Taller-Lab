@@ -3,7 +3,7 @@ title: "Atornillador de impacto DeWalt: cuál comprar"
 h1: "Qué atornillador de impacto DeWalt elegir"
 url: "/taladros/atornillador-impacto-dewalt/"
 description: "Comparación documental DCF809/DCF887: torque máximo, modos de velocidad, portapuntas y diferencias entre torque declarado y apriete medido."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["atornillador de impacto dewalt", "dewalt dcf887", "dewalt dcf809", "atornillador impacto dewalt 20v", "dewalt brushless impacto"]
 research_type: "documental"

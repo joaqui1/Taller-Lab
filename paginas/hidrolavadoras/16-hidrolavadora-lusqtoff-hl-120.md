@@ -3,7 +3,7 @@ title: "Lusqtoff HL 120: prestaciones y guía de compra"
 h1: "Hidrolavadora Lusqtoff HL 120: para quién conviene"
 url: "/hidrolavadoras/lusqtoff-hl-120/"
 description: "Datos documentados de la Lüsqtoff HL-120: 70 bar de trabajo, 105 bar máximos permitidos, caudal, accesorios y límites de la ficha."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 reviewed: "27/09/2026"
 published: true
 research_type: "documental"

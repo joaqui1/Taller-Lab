@@ -3,7 +3,7 @@ title: "Grupo electrógeno: precios de modelos y cómo comparar"
 h1: "Cuánto cuesta un grupo electrógeno en Argentina"
 url: "/generadores/precios/"
 description: "Captura fechada de cuatro precios PVP publicados por Lüsqtoff para comparar cómo documentar precios por modelo, sin mezclarlos con cuotas o inferir valor por watt."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["precios grupos electrogenos", "cuanto cuesta un generador", "grupo electrogeno barato", "generador electrico mercado libre"]
 research_type: "documental"

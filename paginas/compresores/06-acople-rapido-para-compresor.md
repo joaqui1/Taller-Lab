@@ -3,7 +3,7 @@ title: "Acople rápido para compresor: perfiles, roscas y medidas"
 h1: "Acople rápido para compresor: perfiles, roscas y medidas"
 url: "/compresores/acoples-rapidos/"
 description: "Matriz que separa el perfil del enchufe rápido de la rosca de conexión; contrasta perfiles normalizados y un acople BTA identificado por código."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["acople rapido para compresor", "enchufe rapido aire comprimido", "acople neumatico 1/4", "conector rapido compresor"]
 research_type: "documental"

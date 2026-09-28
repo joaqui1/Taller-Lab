@@ -3,7 +3,7 @@ title: "Taladro percutor inalámbrico: modelos y comparativa"
 h1: "Qué taladro percutor inalámbrico comprar"
 url: "/taladros/taladro-percutor-inalambrico/"
 description: "Matriz documental de cuatro taladros percutores inalámbricos por modelo, torque/impactos publicados, mandril y contenido de kit."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro percutor inalambrico", "taladro percutor a bateria", "comprar taladro percutor inalambrico", "taladro percutor brushless", "baterias taladro 18v"]
 research_type: "documental"

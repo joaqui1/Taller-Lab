@@ -3,7 +3,7 @@ title: "Sensitiva Total: cómo elegir y comprobar el modelo"
 h1: "Sierra sensitiva Total: qué revisar en una de 355 mm"
 url: "/sierras/sensitivas-total/"
 description: "Datos de fábrica de la sensitiva Total TS223558 y comprobaciones para distinguir el sufijo de la oferta local."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sensitiva total", "sensitiva total", "sensitiva total 2200w", "sierra sensitiva total 355mm"]
 research_type: "documental"

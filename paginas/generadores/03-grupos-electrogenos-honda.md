@@ -3,7 +3,7 @@ title: "Grupos electrógenos Honda: modelos y diferencias"
 h1: "Qué grupo electrógeno Honda elegir"
 url: "/generadores/honda/"
 description: "Tabla de la gama Honda publicada en Argentina que separa equipos inverter compactos, convencionales y un modelo de mayor tensión/fase."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupos electrogenos honda", "generador honda", "honda eu22i", "honda eg6500", "generador honda inverter"]
 research_type: "documental"
@@ -42,7 +42,7 @@ published: true
 
 **Dato verificado:** las fichas oficiales de Honda permiten separar EU22i y EU30is, que identifican regulación inverter y potencias distintas, de EG/EZ6500CXS con AVR o D-AVR. La ficha de ET12000 lo describe como salida mono/trifásica 220/380 V y publica 11 kVA máximos. No inventamos una potencia nominal ausente en el fragmento usado.
 
-**Análisis TallerLab:** EU30is declara 1,2 kVA más de potencia máxima que EU22i (54,5 % respecto de 2,2 kVA), y pesa 38 kg más. Esta comparación de ficha no determina autonomía, nivel sonoro en una misma condición ni adecuación a una herramienta. En los modelos rotulados 6500, la potencia nominal tampoco coincide; conviene comparar el código completo, no el número comercial.
+**Análisis TallerLab:** EU30is declara 0,8 kVA más de potencia máxima que EU22i (36,4 % respecto de 2,2 kVA), y pesa 38 kg más. Esta comparación de ficha no determina autonomía, nivel sonoro en una misma condición ni adecuación a una herramienta. En los modelos rotulados 6500, la potencia nominal tampoco coincide; conviene comparar el código completo, no el número comercial.
 
 **Desconocido:** la categoría de marca no confirma stock, precio, garantía o revisión de cada unidad en Argentina. Para conectar cargas, cotejar potencia nominal, arranque, tensión, frecuencia, fase y factor de potencia; el rótulo inverter por sí solo no valida compatibilidad con todo dispositivo.
 

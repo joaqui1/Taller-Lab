@@ -3,7 +3,7 @@ title: "Hidrolavadoras: cuál comprar según uso y presupuesto"
 h1: "Cómo elegir una hidrolavadora para tu casa o trabajo"
 url: "/hidrolavadoras/comparativa-general/"
 description: "Comparativa derivada de cuatro manuales Gamma: separa presión máxima admisible y presión de servicio, y cuantifica los cambios de potencia/caudal entre códigos 127, 130, 150 y 170."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora", "comprar hidrolavadora", "mejor hidrolavadora argentina", "hidrolavadora precio calidad", "presion y caudal hidrolavadora"]
 research_type: "documental"

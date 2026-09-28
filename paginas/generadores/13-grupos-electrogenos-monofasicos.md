@@ -3,7 +3,7 @@ title: "Grupo electrógeno monofásico: cómo elegir"
 h1: "Grupos electrógenos monofásicos: potencia y usos"
 url: "/generadores/monofasicos/"
 description: "Matriz de tensión/fase para distinguir tres salidas monofásicas de 220 V de una máquina trifásica 380 V, con potencia y amperaje del código documentado."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["grupos electrogenos monofasicos", "generador monofasico", "generador 220v", "monofasico o trifasico generador", "calcular potencia generador monofasico"]
 research_type: "documental"

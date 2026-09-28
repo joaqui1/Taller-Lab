@@ -3,7 +3,7 @@ title: "Lusqtoff SML150-8: diferencias, kit y qué comprobar"
 h1: "Soldadora Lusqtoff SML150-8: guía antes de comprar"
 url: "/soldadoras/lusqtoff-sml150-8/"
 description: "Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 reviewed: "27/09/2026"
 published: true
 research_type: "documental"

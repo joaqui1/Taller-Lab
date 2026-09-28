@@ -3,7 +3,7 @@ title: "Amoladoras Makita: modelos y diferencias"
 h1: "Qué amoladora Makita elegir: modelos y diferencias de uso"
 url: "/amoladoras/makita/"
 description: "Comparación documental GA4534 vs 9557HPG; detecta y separa la diferencia de código GA4530/GA4534."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora makita", "makita ga4530", "makita 9557hpg", "amoladora makita 115", "makita ga9020"]
 research_type: "documental"

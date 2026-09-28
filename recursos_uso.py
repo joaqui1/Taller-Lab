@@ -1,0 +1,188 @@
+"""Tercera tanda: veinte decisiones de uso, montaje y presupuesto.
+
+Se conserva el alcance de la documentación; los filtros no certifican montajes.
+"""
+from recursos_compra import matrix, route
+
+
+def checklist(title, lead, checks, note):
+    return dict(kind="checklist", title=title, lead=lead, checks=checks, note=note)
+
+
+def calc(kind, title, lead, fields, note):
+    return dict(kind=kind, title=title, lead=lead,
+                fields=[dict(key=key, label=label, value=value, unit="mm", minimum=1) for key, label, value in fields], note=note)
+
+
+USE_RESOURCES = {
+    "/amoladoras/inalambricas/": matrix(
+        "El kit termina de definir el costo y el peso",
+        "Bosch GWS 18V-10 PC e INGCO CAGLI1151 pertenecen a plataformas distintas. Separá las partes que necesitás comprar de los datos que la ficha deja sin resolver.",
+        ["Parte de la decisión", "Bosch 0 601 9G3 E0B", "INGCO CAGLI1151"],
+        [["Batería / cargador", "Cotejar variante y sistema Professional 18 V", "Se venden por separado según ficha"],
+         ["Peso listo para trasladar", "2,0 kg sin batería / 2,8 kg con batería", "No publicado: pedir peso con la batería elegida"],
+         ["Consumible que presupuestar", "Disco admitido de hasta 125 mm", "Disco admitido de hasta 115 mm"],
+         ["Autonomía", "Sin ensayo común con INGCO", "20 V no predice ventaja sobre 18 V"]],
+        "En Bosch, la batería agrega 0,8 kg en la configuración publicada. La suma no incluye discos, embalaje o accesorios adicionales; no compara ergonomía ni compatibilidad entre marcas."),
+    "/amoladoras/115-o-125/": route(
+        "Qué cambia de verdad al pasar de 115 a 125 mm",
+        "En las dos GWS 9-S españolas comparadas coinciden potencia, peso y rango de rpm. Elegí el dato que necesitás resolver sin extrapolar la profundidad de otro accesorio.",
+        "¿Cuál es tu duda de compra?",
+        [["Quiero saber si 115 mm pesa menos", "Estas dos variantes pesan lo mismo: 1,9 kg", "El diámetro no permite generalizar peso entre máquinas. Ambos códigos publican 900 W."],
+         ["Quiero 5 mm más de profundidad útil", "El radio crece 5 mm; la profundidad útil no está publicada", "125 − 115 = 10 mm de diámetro. Guarda, brida y montaje impiden convertir esa resta en corte útil universal."],
+         ["Ya tengo discos de una medida", "Comprobar diámetro permitido y montaje de la unidad", "Verificar agujero, rpm, guarda y código local. La ficha española no identifica automáticamente la oferta argentina."]],
+        "Los 20/25 mm de profundidad publicados para GDE 115/125 FC-T pertenecen a esa caperuza; su ficha no enumera las dos GWS 9-S. No se trasladan a esta comparación."),
+    "/amoladoras/disco-de-corte/": checklist(
+        "Leé cinco campos antes de elegir el disco",
+        "Los tres códigos de la guía miden 115 mm, pero no cumplen la misma operación. Marcá lo que comprobaste en etiqueta y manual del accesorio y la amoladora.",
+        [["Material y operación identificados", "PRO Metal de corte, inoxidable o desbaste son aplicaciones distintas; 6 mm no convierte un disco de desbaste en uno de corte."],
+         ["Código de accesorio confirmado", "Contrastar la referencia completa, no solo la foto ni el nombre de familia."],
+         ["Diámetro y agujero admitidos", "115 y 22,23 mm en las filas citadas no prueban que tu equipo los admita."],
+         ["Sistema de fijación confirmado", "X-Lock y el montaje con tuerca requieren el centro y la herramienta correspondientes."],
+         ["Rpm y guarda cotejadas", "Leer el máximo del disco exacto y las indicaciones de ambos fabricantes; no copiar rpm de otro código."]],
+        "La lista registra comprobaciones que vos declarás realizadas. No autoriza el montaje ni prescribe técnica de corte; una casilla sin respaldo debe quedar sin marcar."),
+    "/compresores/para-aerografo/": checklist(
+        "Cerrá la pareja aerógrafo–compresor con datos comparables",
+        "El AP8 no incluye compresor y su consumo no está publicado en la ficha citada. Los 20–23 L/min sin carga del AS-186 no bastan para declarar compatible la pareja.",
+        [["Aerógrafo y compresor identificados", "Registrar AP8/279004.1 y AS-186/FD-186, o los códigos exactos que vas a comprar."],
+         ["Consumo del aerógrafo a presión de trabajo", "Pedir el dato que falta; los 10 bar máximos del AP8 no lo sustituyen."],
+         ["Salida del compresor a esa misma presión", "El flujo de aire libre sin carga no equivale al caudal entregado durante pulverización."],
+         ["Roscas, regulación y accesorios confirmados", "Cotejar manguera, adaptadores, regulador y contenido de ambas cajas."],
+         ["Ciclo de uso documentado", "Tanque de 3 L y corte a 4 bar no prueban continuidad ni acabado del conjunto."]],
+        "Completar la lista organiza evidencia; no realiza un ensayo de la combinación. No se reemplaza el consumo faltante por una recomendación genérica de HP."),
+    "/compresores/sin-aceite/": route(
+        "Sin aceite responde una pregunta; las otras siguen abiertas",
+        "CSA-24, CSA-50-2 y LC-0122 comparten una declaración de lubricación. Caudal bajo presión, ruido y calidad de aire necesitan documentación propia.",
+        "¿Qué requisito estás tratando de resolver?",
+        [["Quiero una bomba sin lubricación por aceite", "Los tres códigos se describen como sin aceite", "Compará tanque, alimentación y mantenimiento del manual; la categoría no significa mantenimiento inexistente."],
+         ["Necesito caudal para una herramienta continua", "Pedir salida a presión y ciclo", "170, 260 y 180 L/min son admisiones publicadas. No elegir por la mayor admisión como si fuese salida disponible."],
+         ["Necesito menos ruido", "Falta una medición comparable", "La palabra silenciado no es un valor dB(A) bajo condiciones comunes."],
+         ["Necesito aire con calidad certificada", "La bomba sin aceite no certifica el sistema completo", "Consultar la especificación y certificación para el uso concreto; no inferir aire médico, alimentario o respirable."]],
+        "La selección ordena requisitos y datos faltantes. No clasifica ninguno de estos modelos para un uso regulado por su nombre comercial."),
+    "/compresores/24-litros/": route(
+        "Tanque de 24 L: un filtro de tamaño, no de tarea",
+        "G2860AR y LC-0122 sí documentan 24 L. LC-2024 declara 40 L; el número del código no expresa por sí solo capacidad.",
+        "¿Qué estás evaluando?",
+        [["Necesito confirmar que entra en la categoría 24 L", "G2860AR y LC-0122 son los ejemplos documentados", "Para espacio y traslado, pedir medidas de la unidad y condiciones de peso; no usar LC-2024 como 24 L."],
+         ["Quiero pintar", "Faltan salida y consumo a la misma presión", "El tanque no determina minutos de pintura. Comparar pistola, tratamiento de aire y ciclo del compresor."],
+         ["Estoy eligiendo entre 24 y 25 L", "La diferencia de tanque es solo 1 L", "G2801AR es la referencia de 25 L. Ese litro adicional no acredita una ventaja de recuperación."],
+         ["Quiero usar una herramienta neumática continua", "Pedir salida documentada bajo presión", "236 L/min de Gamma y 180 de Lüsqtoff no tienen aquí condiciones comunes suficientes para ordenar rendimiento."]],
+        "El recorrido no calcula reserva de aire ni tiempo de trabajo a partir del tanque. Potencia, caudal y ciclo deben pertenecer al código que se entrega."),
+    "/hidrolavadoras/para-autos/": route(
+        "Alcance de manguera y kit antes de mirar máximos",
+        "Los SKU K2 Basic Black y HDNW-500 publican mangueras de 3 y 5 m. Esa diferencia puede ordenar la compra, sin convertir los máximos de presión en una receta para la pintura.",
+        "¿Qué necesitás comprobar para tu equipo?",
+        [["Me importa el alcance sin mover la máquina", "Niwa publica 2 m más de manguera", "5 m frente a 3 m del SKU Kärcher. Medí tu recorrido; una extensión requiere compatibilidad documentada."],
+         ["Quiero aplicar detergente", "Revisar accesorios del SKU concreto", "Niwa lista botella y boquilla spray. Pedir contenido y detergente permitido; una boquilla de otro combo no se presume compatible."],
+         ["Necesito transportarla", "Comparar condiciones de peso", "Niwa publica 8 kg; Kärcher 3,8 kg sin accesorios. Falta una condición completa común para ordenar masa lista para uso."],
+         ["Quiero saber qué presión usar sobre el auto", "La tabla no prescribe presión o distancia universal", "Revisar vehículo, boquilla y manual del equipo; los máximos no acreditan seguridad para todo acabado."]],
+        "Selector de compra y accesorios, sin prueba de lavado o remoción. Una aspiradora de un combo tiene requisitos propios, separados de los de la hidrolavadora."),
+    "/hidrolavadoras/lusqtoff-hl-120/": matrix(
+        "HL-120: el salto de trabajo a máximo, separado por variable",
+        "Leemos cada par dentro del mismo modelo. Los porcentajes ayudan a detectar por qué comparar un máximo con el dato de trabajo de otro equipo altera la lectura.",
+        ["Variable", "Trabajo / nominal", "Máximo", "Diferencia calculada"],
+        [["Presión", "70 bar", "105 bar permitidos", "+35 bar · +50 % sobre 70"],
+         ["Caudal", "5,5 L/min", "6,8 L/min", "+1,3 L/min · +23,6 % sobre 5,5"],
+         ["Lectura de compra", "Comparar con la condición relevante de la tarea", "No tratar ambos máximos como un punto simultáneo", "La resta no mide capacidad de limpieza"]],
+        "Porcentaje = (máximo − nominal) ÷ nominal × 100. No se extrapola a HL100-7, HL100-8 o HL-150 ni se convierte en duración de uso."),
+    "/hidrolavadoras/gamma-150/": matrix(
+        "Gamma 130 y 150: cuánto cambia el dato de servicio",
+        "El manual permite comparar G2513AR con G2514AR sin usar 150 bar como si fueran su valor de trabajo. Cada porcentaje conserva su variable y unidad.",
+        ["Dato de manual", "G2513AR", "G2514AR", "Cambio respecto de G2513AR"],
+        [["Presión máxima de servicio", "90 bar", "100 bar", "+10 bar · +11,1 %"],
+         ["Caudal publicado", "360 L/h", "400 L/h", "+40 L/h · +11,1 %"],
+         ["Potencia", "1.600 W", "1.800 W", "+200 W · +12,5 %"],
+         ["Máxima admisible", "130 bar", "150 bar", "Límites del equipo; separados de servicio"]],
+        "Cambio porcentual = diferencia ÷ valor de G2513AR × 100. Los incrementos no se multiplican entre sí para dar una puntuación ni prueban que una superficie se limpie más rápido."),
+    "/sierras/de-banco/": matrix(
+        "Extensión de mesa no equivale a ancho de corte",
+        "Einhell TC-TS 2025/2 U y SML2000-8 publican extensiones laterales de 165 mm. Separá apoyo, paso de pieza y repuesto al pedir los datos de la unidad.",
+        ["Tu medida", "Dato que aporta la guía", "Confirmación antes de elegir"],
+        [["Altura de pieza", "85 / 65 mm a 90° / 45° en las fichas", "Cotejar espesor y ángulo real; no usar el límite de 90° a 45°"],
+         ["Ancho a rasgar", "La extensión aporta apoyo", "Pedir capacidad entre guía y hoja; no sumar 165 mm al ancho de corte"],
+         ["Largo de la pieza", "No se documenta un apoyo universal", "Medir entrada, salida y soportes necesarios"],
+         ["Disco de repuesto", "250 × 30 frente a 255 × 30 mm en las fichas", "Manual y placa: SML2000-8 tiene discrepancia de diámetro con catálogo"]],
+        "La extensión no certifica estabilidad ni precisión. Para SML2000-8, catálogo y web difieren entre 250 y 255 mm; el diámetro permitido de la unidad debe aclararse antes de comprar hoja."),
+    "/sierras/disco-para-sierra-circular/": checklist(
+        "Una hoja compatible requiere cerrar más de un campo",
+        "5/8 in equivale aritméticamente a 15,875 mm; no se da por idéntico a un eje de 16 mm. Comprobá el montaje admitido, además de material y dientes.",
+        [["Máquina y hoja identificadas por código", "La referencia B+D 71-727 cita CS1004/CS1024; no acredita por eso montaje en SC16-AR."],
+         ["Diámetro exterior dentro del permitido", "184, 190 y 254 mm corresponden a hojas y equipos distintos."],
+         ["Agujero, buje y fijación documentados", "Un buje solo resuelve el agujero si su uso está permitido; no corrige diámetro o rpm."],
+         ["Velocidad máxima cotejada", "El límite de la hoja debe cubrir el máximo del equipo; leer la variante exacta."],
+         ["Aplicación y geometría indicadas", "ATB, TCG y cantidad de dientes no son una recomendación universal de material."]],
+        "Las marcas registran comprobaciones del lector, no una certificación de compatibilidad. Verificar también espesor, resguardos y condiciones de los manuales."),
+    "/sierras/ingletadoras/": calc(
+        "mitre", "¿La sección entra en los máximos de corte recto?",
+        "Ingresá ancho y altura de la pieza para corte a 90° × 90°. Contrastamos ambos campos a la vez: TC-MS 2112, 120 × 55 mm; TC-SM 2131/2 Dual, 310 × 62 mm.",
+        [("width", "Ancho de la pieza", 120), ("height", "Altura de la pieza", 60)],
+        "Filtro: ancho ≤ máximo y altura ≤ máximo para 90° × 90°. No se aplica a inglete, bisel, piezas curvas o montaje distinto; hoja, material, sujeción y manual también deben corresponder."),
+    "/taladros/bosch-inalambrico/": route(
+        "GSR o GSB: plataforma, función y número de pedido",
+        "GSR 120-LI y GSB 18V-50 no comparten plataforma. La decisión empieza por batería y función; el torque máximo queda como un dato de ficha.",
+        "¿Qué condición define tu compra?",
+        [["Ya tengo baterías Professional de 12 V", "Contrastar el código GSR 120-LI", "No trasladar compatibilidad al GSB 18 V; revisar herramienta y batería exactas."],
+         ["Necesito la función de percusión documentada", "GSB 18V-50 la incorpora", "El GSR de la comparación se presenta para perforar y atornillar. Percusión no equivale a encastre SDS."],
+         ["Busco un paquete con dos baterías", "Cotejar número de pedido completo", "0 601 9H5 1H0 documenta dos de 2 Ah, cargador y L-CASE; no heredar ese kit a 1E2 ni a cualquier GSB."],
+         ["Estoy comparando por peso", "0,8 frente a 1,1 kg: ambos sin batería", "La diferencia de 0,3 kg es del cuerpo. Pedir masa con la batería que vas a usar."]],
+        "Las fichas son de mercados Argentina y Ecuador. Confirmar disponibilidad, tensión del cargador, contenido y garantía local del número de pedido elegido."),
+    "/taladros/mecha-porcelanato/": checklist(
+        "Identificá la broca antes de aplicar sus límites",
+        "Esta revisión corresponde a HEX-9 HardCeramic de carburo. Sus instrucciones no se copian a coronas diamantadas, otras familias o accesorios M14.",
+        [["Nombre y referencia HEX-9 HardCeramic", "Identificar diámetro exacto de la gama 3–12 mm; no elegir solo por la palabra porcelanato."],
+         ["Sustrato y espesor dentro de la ficha", "La aplicación citada describe cerámica dura/porcelanato de hasta 10 mm; cotejar variante."],
+         ["Rotación sin percusión confirmada", "Revisar el modo de la herramienta y las instrucciones del accesorio."],
+         ["Velocidad según instrucciones Bosch", "La fuente de esta familia indica menos de 500 rpm; no generalizar el ajuste a otra broca."],
+         ["Encastre, herramienta y preparación cotejados", "Las condiciones de sujeción, presión y uso dependen de esta broca y del manual."]],
+        "Completar la lista no garantiza que el azulejo no se rompa. No prescribe refrigeración o configuración de corona diamantada no cubierta por estas fuentes."),
+    "/taladros/mecha-forstner-35-mm/": calc(
+        "blind-hole", "Diámetro de 35 mm y profundidad son decisiones distintas",
+        "Calculá la diferencia entre el espesor de tu tablero y la profundidad objetivo que exige tu herraje. Los 18 y 12 mm iniciales son un ejemplo editable, no una medida universal de bisagra.",
+        [("board", "Espesor medido del tablero", 18), ("depth", "Profundidad objetivo del herraje", 12)],
+        "Espesor restante teórico = tablero − profundidad objetivo. No incluye la punta central, tolerancias, tope ni espesor mínimo requerido por el herraje. Los 56 mm de largo de trabajo Bosch no son profundidad recomendada para una cazoleta."),
+    "/soldadoras/mig-sin-gas/": matrix(
+        "Sin cilindro: cuatro correspondencias del conjunto",
+        "La fuente y el carrete se comprueban como pareja. Tener modo MIG o FLUX no documenta por sí solo todos los consumibles ni su configuración.",
+        ["Campo", "Lo que necesitás en fuente y alambre", "Límite de las fichas reunidas"],
+        [["Protección", "Alambre tubular autoprotegido admitido", "No es alambre macizo utilizado sin gas"],
+         ["Diámetro / alimentación", "Diámetro admitido, rodillo y punta correspondientes", "ESAB MIG 160i publica hasta 0,9 mm; no copiarlo a otra máquina"],
+         ["Bobina", "Capacidad y montaje del carrete", "SML130-7 cita 0,5/1 kg; ESAB hasta 5 kg"],
+         ["Polaridad / ciclo", "Manual de la fuente y ficha del consumible", "Los ciclos citados no comparten todas las condiciones"]],
+        "No se identificó un carrete concreto en esta revisión; por eso la matriz organiza comprobaciones y no valida una combinación, espesor o unión estructural. SML130-7 figura discontinuada."),
+    "/soldadoras/soldadora-tig-ac-dc/": route(
+        "AC/DC empieza por la red que requiere el código",
+        "ET 200i y TIG350ACDC-9 documentan alimentaciones distintas. Filtrar por fase evita elegir un máximo de amperaje para una red que no corresponde.",
+        "¿Qué requisito tenés documentado?",
+        [["Red monofásica de 220 V", "ET 200i AC/DC: referencia de la comparación", "Código 0738827: 220 V ±10 %, monofásica. Confirmar instalación y manual; la selección no dimensiona protecciones."],
+         ["Red trifásica de 380 V", "TIG350ACDC-9: requiere esa alimentación", "315 A al 40 % publicados. La ficha indica cable de alimentación no incluido; no se presume lista para conectar."],
+         ["Me ofrecen SMART TIG-AC/DC200", "Confirmar versión actual antes de elegir", "Los 220 V y 200 A al 25 % proceden del catálogo. Falta validar las cifras y contenido de la oferta vigente."],
+         ["Necesito salida continua alta", "Comparar puntos de ciclo en condiciones equivalentes", "ET 200i publica 90 A al 100 %. No trasladar su curva a otra fuente ni interpolar ciclos."]],
+        "Selector de documentación y alimentación. No indica frecuencia, balance, corriente de junta o parámetros de soldadura de aluminio."),
+    "/soldadoras/mascaras-fotosensibles/": checklist(
+        "Del modelo al filtro que realmente vas a recibir",
+        "ST-1N, ST-1E y ST-1B publican tonos y baterías distintos. Una respuesta nominal rápida o más sensores no acreditan por sí solos protección para tu proceso.",
+        [["Código y marcado del filtro comprobados", "Verificar unidad, manual y documentación; no identificar protección por la foto del casco."],
+         ["Rango de tono cotejado con el trabajo", "ST-1N: DIN 4/11; ST-1E y ST-1B: DIN 4/9–13. Seguir instrucciones y evaluación del proceso."],
+         ["Alimentación y reemplazo de batería confirmados", "ST-1E cita CR2032; ST-1B CR2450. No usar esas referencias para ST-1N."],
+         ["Estado y comprobación del filtro revisados", "Seguir el test y límites del fabricante; revisar micas, sensores y ausencia de daños."],
+         ["Documentación de conformidad y lote disponible", "Las fichas reunidas no verifican certificados independientes de cada unidad."]],
+        "Lista de documentación y revisión declaradas por el lector; no certifica protección ni vuelve utilizable un filtro dañado o de conmutación irregular."),
+    "/generadores/monofasicos/": matrix(
+        "Tres comprobaciones antes de sumar la potencia",
+        "Honda EG6500CXS, Gamma GE3481AR y LG7500EXT no ofrecen el mismo esquema de salida. La potencia total no determina por sí sola la alimentación de tu carga.",
+        ["Comprobación", "Dato disponible", "Decisión pendiente"],
+        [["Tensión y fase", "Honda/Gamma: 220 V monofásicos; LG7500EXT: 380 V trifásicos", "Cotejar placa de cada carga y salidas del generador"],
+         ["Unidad de potencia", "Honda nominal 5,0 kVA; Gamma 5,5 kW", "No ordenar como una misma unidad sin factor de potencia"],
+         ["Potencia por fase", "LG7500EXT publica 6.500 W máximos totales", "Pedir capacidad por fase y condiciones de desbalanceo"],
+         ["Arranque", "No hay valor universal para las cargas", "Registrar marcha y arranque del aparato concreto"]],
+        "No se divide la potencia trifásica por tres para garantizar una carga monofásica ni se propone una conexión de vivienda. Consultar placa, manual y esquema adecuado de instalación."),
+    "/soldadura-electronica/yihua-898d/": matrix(
+        "898D y 898D+: separar función, serie y caja",
+        "La ficha conjunta documenta cautín y aire caliente, pero agrupa opciones del sufijo +. Contrastá la publicación afiliada por código y contenido, no solo por los máximos.",
+        ["Dato de decisión", "Lo que publica la serie", "Lo que debe confirmar la oferta"],
+        [["Potencia", "730 W de máquina; cautín 50/75 W según versión", "Qué mango/calentador trae la variante exacta"],
+         ["Control térmico", "Estabilidad ±5 °C estática", "No acredita estabilidad bajo carga ni perfil para una placa"],
+         ["Aire", "100–480 °C; máximo 120 L/min", "No tomar el máximo como caudal para toda reparación"],
+         ["Entrega", "Configuración estándar: boquillas de 5, 8 y 10 mm", "Lista de caja, tensión y garantía local"]],
+        "La referencia afiliada se consulta al pie de la guía. Los datos OEM describen la serie; no confirman stock, sufijo ni accesorios del vendedor. TallerLab no ensayó un perfil térmico."),
+}

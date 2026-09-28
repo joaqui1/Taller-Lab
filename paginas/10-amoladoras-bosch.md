@@ -3,7 +3,7 @@ title: "Amoladoras Bosch: modelos y diferencias para elegir"
 h1: "Qué amoladora Bosch elegir según el trabajo"
 url: "/amoladoras/bosch/"
 description: "Compará GWS 700, GWS 9-125 S y GWS 180-LI por disco, alimentación, velocidad y peso documentados."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora bosch", "bosch gws 850", "bosch gws 700", "bosch gws 9 125 s", "bosch gws 180 li"]
 research_type: "documental"
@@ -19,7 +19,7 @@ published: true
 
 # Qué amoladora Bosch elegir según el trabajo
 
-Reemplazamos la comparación previa por tres variantes con ficha Bosch Argentina: GWS 700, GWS 9-125 S y GWS 180-LI. La 9-125 S consultada corresponde a 127 V; no la presentamos como opción lista para enchufar en una instalación de 220 V.
+La elección empieza por el diámetro y la alimentación. Contrastamos tres variantes con ficha Bosch Argentina: GWS 700, GWS 9-125 S y GWS 180-LI. La 9-125 S consultada corresponde a 127 V; para una instalación de 220 V hace falta identificar otra variante compatible.
 
 ## Tres amoladoras Bosch con límites de variante
 

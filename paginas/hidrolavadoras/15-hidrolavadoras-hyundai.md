@@ -3,7 +3,7 @@ title: "Hidrolavadoras Hyundai: modelos y cuál comprar"
 h1: "Qué hidrolavadora Hyundai elegir"
 url: "/hidrolavadoras/hyundai/"
 description: "Compara tres códigos Hyundai del catálogo del distribuidor oficial británico por presión máxima, caudal y potencia; advierte que son variantes regionales y no confirman la ficha de Hyundai Argentina."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora hyundai", "hidrolavadora hyundai opiniones", "hyundai hypw", "hidrolavadora hyundai 1400w", "repuestos hidrolavadora hyundai"]
 research_type: "documental"

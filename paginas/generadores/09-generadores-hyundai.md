@@ -3,7 +3,7 @@ title: "Generadores Hyundai: modelos, potencia y precios"
 h1: "Qué generador Hyundai elegir según tu consumo"
 url: "/generadores/hyundai/"
 description: "Comparativa de modelos Hyundai publicados por el representante local: potencia de marcha y máxima en códigos pequeños, con una brecha aritmética por modelo."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador hyundai", "generadores hyundai opiniones", "hyundai hhy7200", "generador hyundai inverter", "precios generador hyundai"]
 research_type: "documental"

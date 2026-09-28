@@ -3,7 +3,7 @@ title: "Sierra sable: para qué sirve y cuál elegir"
 h1: "Sierra sable: guía de usos y compra"
 url: "/sierras/sable/"
 description: "Comparación de sierras sable Bosch con cable y batería por carrera, velocidad, peso y capacidad declarada."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sable", "que es sierra sable", "hojas sierra sable", "sierra sable para demolicion", "sierra sable a bateria"]
 research_type: "documental"

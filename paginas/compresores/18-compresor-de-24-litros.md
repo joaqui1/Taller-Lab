@@ -3,7 +3,7 @@ title: "Compresor de 24 litros: para qué sirve y cuál elegir"
 h1: "Compresor de 24 litros: para qué sirve y cuál elegir"
 url: "/compresores/24-litros/"
 description: "Comparación de dos modelos de 24 L y corrección del LC-2024: ficha del fabricante indica 40 L, no 24 L."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor de 24 litros", "compresor 24 litros sirve para pintar", "compresor 2 hp 24l", "compresor 24 o 25 litros"]
 research_type: "documental"
@@ -32,7 +32,7 @@ published: true
 
 **Análisis TallerLab:** las fichas publican una diferencia de 56 L/min y 750 W entre estos ejemplos, pero Gamma llama a su cifra “flujo continuo” y Lüsqtoff la llama “caudal”; no se especifican condiciones comunes suficientes para tratar esa resta como ventaja efectiva. El dato de presión máxima tampoco prueba que una herramienta mantenga su caudal durante una operación continua.
 
-**Dato verificado sobre la intención de búsqueda:** el modelo Lüsqtoff LC-2024 que aparecía en el borrador no es de 24 L: la página de fabricante lo identifica como modelo discontinuado de 40 L. Se retira como ejemplo de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
+**Dato verificado sobre capacidad:** Lüsqtoff LC-2024 corresponde a 40 L y figura discontinuado en la página del fabricante; el número de su código no indica un tanque de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
 
 | Uso que estás evaluando | Dato que conviene cotejar |
 | :--- | :--- |
@@ -52,3 +52,7 @@ published: true
 Para seguir comparando: [compresores de 50 litros](/compresores/50-litros/).
 
 Para explorar la categoría: [guías de compresores](/compresores/).
+
+## Historial de correcciones
+
+- **27/09/2026 — Capacidad del Lüsqtoff LC-2024:** se corrigió su inclusión como ejemplo de 24 L. La [ficha oficial del LC-2024](https://lusqtoff.com.ar/ver-producto/LC-2024) declara un tanque de 40 L; el código no permite deducir la capacidad. La comparación de 24 L utiliza LC-0122 y Gamma G2860AR. Corrección registrada en la revisión documental de esta fecha.

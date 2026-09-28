@@ -3,7 +3,7 @@ title: "Amoladoras Gamma: modelos y qué revisar antes de comprar"
 h1: "Amoladoras Gamma: cómo elegir entre máquina y kit"
 url: "/amoladoras/gamma/"
 description: "Ficha comparativa de Gamma G1910KAR y G1917AR, con contenido de kit atribuido al fabricante."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora gamma", "amoladora gamma g1910kar", "amoladora gamma 750w", "amoladora gamma opiniones"]
 research_type: "documental"
@@ -32,7 +32,7 @@ published: true
 
 **Dato verificado:** los datos proceden de las páginas oficiales Gamma para estos dos SKU. Gamma denomina el primero G1910KAR y al segundo G1917AR; no usar el sufijo “KAR” para asumir que otro modelo incluye accesorios.
 
-**Análisis TallerLab:** ambos modelos publican 11.000 rpm y disco de 115 mm. El G1917AR declara 100 W más; la diferencia útil del kit G1910KAR está en el contenido de caja publicado. No verificamos si el conjunto de discos cubre la tarea del comprador ni comparamos el precio del paquete con compras por separado.
+**Análisis TallerLab:** ambos modelos publican 11.000 rpm y disco de 115 mm. El G1917AR declara 100 W más; la diferencia útil del kit G1910KAR está en el contenido de caja publicado. Si necesitás esos consumibles y maletín, compará presupuestos completos en la calculadora. Usá precios confirmados y accesorios adecuados a tu tarea; la cuenta no convierte dos máquinas distintas en equivalentes.
 
 **Declaración del fabricante:** Gamma describe el G1910KAR para corte, desbaste y esmerilado de metal, piedra y hormigón; la página del G1917AR enumera metal, madera y otros materiales. Esta diferencia de redacción no amplía la aplicación permitida por la ficha de discos: el accesorio exacto debe estar indicado para el material.
 

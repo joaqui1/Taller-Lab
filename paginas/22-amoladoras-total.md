@@ -3,7 +3,7 @@ title: "Amoladoras Total: qué revisar en los modelos de 115 mm"
 h1: "Amoladoras Total: cómo elegir una de 115 mm"
 url: "/amoladoras/total/"
 description: "Contraste del mismo código TG10711576 entre dos fichas regionales que discrepan en 1.000 rpm."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Marcas de amoladoras"
 keywords: ["amoladora total", "amoladora total 710w", "amoladora total 115mm", "amoladora total opiniones"]
 research_type: "documental"

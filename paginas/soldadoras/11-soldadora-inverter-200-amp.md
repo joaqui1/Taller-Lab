@@ -3,7 +3,7 @@ title: "Soldadora inverter 200 A: modelos y cómo elegir"
 h1: "Qué soldadora inverter de 200 amperios comprar"
 url: "/soldadoras/soldadora-inverter-200-amp/"
 description: "Compara dos equipos MMA locales con salida máxima declarada de 200 A: Lüsqtoff SLCEL200-9 y Dogo Dogostar 200 DOG50046; distingue rango de corriente, ciclo y datos que faltan."
-author: "Equipo editorial TallerLab"
+author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora inverter 200 amp", "soldadora 200 amperios", "soldadora inverter profesional", "ciclo de trabajo 200a", "soldadora mma 200"]
 research_type: "documental"
