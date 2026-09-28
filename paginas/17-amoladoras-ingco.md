@@ -21,16 +21,19 @@ published: true
 
 La oferta INGCO cambia según país, sufijo y armado. Para Argentina, conviene empezar por los modelos que aparecen en el catálogo de INGCO local y su tienda, y cotejar el código completo de la máquina: una ficha global de la misma familia no confirma tensión, contenido de caja, garantía o disponibilidad local.
 
+
 | Necesidad | Modelo INGCO documentado para Argentina | Datos publicados | Estado y alcance de la documentación |
 | :--- | :--- | :--- | :--- |
-| Angular compacta con cable, 115 mm | AG7118-4 ([oferta afiliada](https://meli.la/1BuRQNe)) | 710 W; 115 mm; 220–240 V; catálogo local muestra 12.000 rpm y M14 | Listada por INGCO Store Argentina; disponibilidad cambia |
-| Más potencia nominal en formato 115 mm | AG8508-4 ([oferta afiliada](https://meli.la/1cFYHD3)) | 950 W; 115 mm; 220–240 V; 11.000 rpm y M14 en la ficha del AG8508 regional | El representante argentino publica el código -4; INGCO regional documenta la familia AG8508 |
+| Angular compacta con cable, 115 mm | AG7118-4 [Ver precio en Mercado Libre](https://meli.la/1BuRQNe){:target="_blank" rel="sponsored noopener"} | 710 W; 115 mm; 220–240 V; catálogo local muestra 12.000 rpm y M14 | Listada por INGCO Store Argentina; disponibilidad cambia |
+| Más potencia nominal en formato 115 mm | AG8508-4 [Ver precio en Mercado Libre](https://meli.la/1cFYHD3){:target="_blank" rel="sponsored noopener"} | 950 W; 115 mm; 220–240 V; 11.000 rpm y M14 en la ficha del AG8508 regional | El representante argentino publica el código -4; INGCO regional documenta la familia AG8508 |
 | Cable, disco 125 mm y velocidad variable | AG900285-4 | 900 W; 125 mm; M14; 5.000–12.000 rpm; control de velocidad; 220–240 V, IRAM | Ficha oficial INGCO Argentina |
 | Diámetro grande, 180 mm | AG200018-4 | 2.000 W; 180 mm; 8.450 rpm; M14; 220–240 V; 5,65 kg | Ficha argentina del producto; declara 12 meses de garantía |
-| Diámetro grande, 230 mm | AG24008-4 ([oferta afiliada](https://meli.la/2xnUc71)) | 2.400 W; 230 mm; 220–240 V~50/60 Hz | Listado regional INGCO Argentina y tienda argentina; confirmar rpm, stock y contenido exacto |
+| Diámetro grande, 230 mm | AG24008-4 [Ver precio en Mercado Libre](https://meli.la/2xnUc71){:target="_blank" rel="sponsored noopener"} | 2.400 W; 230 mm; 220–240 V~50/60 Hz | Listado regional INGCO Argentina y tienda argentina; confirmar rpm, stock y contenido exacto |
 | Inalámbrica 20 V, cuerpo solo | CAGLI211156 | Brushless; 115 mm; plataforma P20S; batería y cargador aparte | Figura próxima en la página del representante argentino; tienda local lista el código, su estado varía |
 | Inalámbrica 20 V en kit | CAGLI271532-4 | Brushless; 115 mm; 1.000 W máx. declarados; 2 baterías de 4 Ah, cargador y maletín | Tienda INGCO Argentina; confirmar disponibilidad y composición del lote |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las potencias indicadas son las publicadas por cada fuente, no una prueba comparativa de rendimiento. El catálogo comercial no demuestra qué variante está en stock en tu ciudad; usá los enlaces de cada fila para consultar el estado actual.
 
 ## Modelos con cable de 115 mm

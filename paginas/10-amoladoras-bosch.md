@@ -23,13 +23,16 @@ No hay una única Bosch para todos los trabajos. Empezá por el diámetro que ne
 
 ## Cómo se ordena la gama
 
+
 | Perfil de uso | Modelos documentados | Diferencia útil para elegir |
 | :--- | :--- | :--- |
-| Angular de 115 mm con cable, gama compacta | GWS 700 ([oferta afiliada](https://meli.la/1ZnbPHq)) y GWS 850 ([oferta afiliada](https://meli.la/1hDoFyN)) | La GWS 700 publica 710 W y 12.000 rpm; GWS 850, 850 W y 11.000 rpm. Ambas son 220 V en los códigos citados. |
-| Angular de 125 mm con cable y velocidad regulable | GWS 9-125 S ([oferta afiliada, 220 V](https://meli.la/2gxfffm)) | 900 W, rango de 2.800–11.000 rpm y una variante de 220 V identificada por código. |
-| Angular de 125 mm a batería | GWS 180-LI ([oferta afiliada](https://meli.la/27U6siB)) | Plataforma Bosch Professional 18 V; cuerpo documentado con peso publicado con y sin batería. |
+| Angular de 115 mm con cable, gama compacta | GWS 700 [Ver precio en Mercado Libre](https://meli.la/1ZnbPHq){:target="_blank" rel="sponsored noopener"} y GWS 850 [Ver precio en Mercado Libre](https://meli.la/1hDoFyN){:target="_blank" rel="sponsored noopener"} | La GWS 700 publica 710 W y 12.000 rpm; GWS 850, 850 W y 11.000 rpm. Ambas son 220 V en los códigos citados. |
+| Angular de 125 mm con cable y velocidad regulable | GWS 9-125 S [Ver precio en Mercado Libre](https://meli.la/2gxfffm){:target="_blank" rel="sponsored noopener"} | 900 W, rango de 2.800–11.000 rpm y una variante de 220 V identificada por código. |
+| Angular de 125 mm a batería | GWS 180-LI [Ver precio en Mercado Libre](https://meli.la/27U6siB){:target="_blank" rel="sponsored noopener"} | Plataforma Bosch Professional 18 V; cuerpo documentado con peso publicado con y sin batería. |
 | Alternativa de 115 mm con cable | GWS 770 | Ficha Bosch Brasil de 220 V; confirmar código, distribución y garantía en la oferta argentina. |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## GWS 700 vs GWS 850
 
 Las dos son amoladoras compactas con cable y disco de 115 mm; lo que publica Bosch cambia entre modelos:
@@ -91,7 +94,9 @@ Bosch Argentina publica condiciones de garantía y registro adicional en su port
 
 La GWS 770 no es una de las variantes con ficha argentina que encabezan esta guía. Bosch Brasil documenta el código **0 601 398 0E0** como una máquina de 220 V, 770 W, 115 mm y 12.000 rpm. No trasladamos esas especificaciones a otras terminaciones ni aseguramos disponibilidad o garantía en Argentina con esa página regional.
 
-[Consultar la oferta GWS 770](https://meli.la/1GRCAjZ). Enlace de afiliado: antes de comprar, confirmá en la unidad placa 0 601 398 0E0, 220 V, guarda, accesorios y garantía local.
+[Ver precio en Mercado Libre](https://meli.la/1GRCAjZ){:target="_blank" rel="sponsored noopener"}.
+
+Antes de comprar, confirmá en la unidad la placa 0 601 398 0E0, 220 V, guarda, accesorios y garantía local.
 
 ## Fuentes consultadas
 

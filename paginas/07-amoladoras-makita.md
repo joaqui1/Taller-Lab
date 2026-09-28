@@ -27,11 +27,14 @@ Makita comercializa amoladoras angulares en varios diámetros, con cable y a bat
 
 La comparación de partida conserva dos modelos con cable de 115 mm:
 
+
 | Modelo | Potencia absorbida | Disco | Velocidad en vacío | Peso publicado | Interruptor |
 | :--- | ---: | ---: | ---: | :--- | :--- |
-| GA4534 ([oferta afiliada](https://meli.la/1uKuW67)) | 720 W | 115 mm | 11.000 rpm | 1,98–2,31 kg | Paleta |
-| 9557HPG ([oferta afiliada](https://meli.la/1H9UWLN)) | 840 W | 115 mm | 11.000 rpm | 1,7–2,2 kg | Paleta |
+| GA4534 [Ver precio en Mercado Libre](https://meli.la/1uKuW67){:target="_blank" rel="sponsored noopener"} | 720 W | 115 mm | 11.000 rpm | 1,98–2,31 kg | Paleta |
+| 9557HPG [Ver precio en Mercado Libre](https://meli.la/1H9UWLN){:target="_blank" rel="sponsored noopener"} | 840 W | 115 mm | 11.000 rpm | 1,7–2,2 kg | Paleta |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Dato documentado:** la ficha argentina de Makita identifica estos valores para GA4534 y 9557HPG. 9557HPG declara 120 W más de potencia absorbida que GA4534 (16,7 % sobre 720 W), mientras ambas publican el mismo diámetro y velocidad en vacío. Es una diferencia de ficha; no predice rapidez de corte, resistencia bajo carga ni vida útil. Los rangos de peso se superponen y no permiten establecer una diferencia exacta sin fijar configuración y método de medición.
 
 La 9557HPG local se describe con cuerpo delgado, interruptor de paleta y barniz protector contra polvo o residuos. La GA4534 también usa interruptor de paleta; su ficha resalta el diseño compacto y la protección interna contra polvo. Son características declaradas por Makita, no resultados de ensayos propios.
@@ -52,8 +55,8 @@ Para piezas que admiten discos mayores que 115 mm, Makita Argentina documenta di
 
 | Código local | Diámetro de disco | Potencia | Velocidad en vacío | Peso publicado |
 | :--- | ---: | ---: | ---: | ---: |
-| [GA7020 · guía de 180 mm (7 pulgadas)](/amoladoras/7-pulgadas/) ([oferta afiliada](https://meli.la/31peCT3)) | 180 mm (7 in) | 2.200 W | 8.500 rpm | 5,56–6,06 kg |
-| [GA9020 · guía de 230 mm (9 pulgadas)](/amoladoras/9-pulgadas/) ([oferta afiliada](https://meli.la/21s58cx)) | 230 mm (9 in) | 2.200 W | 6.000 rpm | 5,76–8,05 kg |
+| [GA7020 · guía de 180 mm (7 pulgadas)](/amoladoras/7-pulgadas/) [Ver precio en Mercado Libre](https://meli.la/31peCT3){:target="_blank" rel="sponsored noopener"} | 180 mm (7 in) | 2.200 W | 8.500 rpm | 5,56–6,06 kg |
+| [GA9020 · guía de 230 mm (9 pulgadas)](/amoladoras/9-pulgadas/) [Ver precio en Mercado Libre](https://meli.la/21s58cx){:target="_blank" rel="sponsored noopener"} | 230 mm (9 in) | 2.200 W | 6.000 rpm | 5,76–8,05 kg |
 
 El mayor diámetro puede ampliar el alcance y la profundidad de trabajo permitidos por el conjunto, pero también cambia el tamaño y la masa de la herramienta. No uses un disco mayor que el diámetro admitido por la máquina y su guarda. Elegí por la operación, el tamaño de pieza y tu control de la máquina, no solo por comparar watts o rpm.
 
@@ -70,11 +73,11 @@ La batería puede convenir cuando necesitás moverte o trabajás lejos de una to
 | Necesidad | Referencias para comparar | Qué revisar |
 | :--- | :--- | :--- |
 | Corte/desbaste ocasional con disco chico | GA4534 o 9557HPG (115 mm) | Interruptor, peso, código del paquete y tipo de disco |
-| Código de búsqueda GA4530 | GA4530 regional ([oferta afiliada; confirmar variante y tensión](https://meli.la/2TiK8yZ)); GA4534 local documentada | Deslizable vs paleta; tensión y disponibilidad del código exacto |
-| Disco de 125 mm | GA5021C ([oferta afiliada](https://meli.la/2d6REio)), 1.450 W y 10.000 rpm; [comparar 115 vs 125 mm](/amoladoras/115-o-125/) | Diámetro permitido, peso (2,9–4,1 kg) y si hace falta su mayor tamaño |
+| Código de búsqueda GA4530 | GA4530 regional [Ver precio en Mercado Libre](https://meli.la/2TiK8yZ){:target="_blank" rel="sponsored noopener"}; GA4534 local documentada | Deslizable vs paleta; tensión y disponibilidad del código exacto |
+| Disco de 125 mm | GA5021C [Ver precio en Mercado Libre](https://meli.la/2d6REio){:target="_blank" rel="sponsored noopener"}, 1.450 W y 10.000 rpm; [comparar 115 vs 125 mm](/amoladoras/115-o-125/) | Diámetro permitido, peso (2,9–4,1 kg) y si hace falta su mayor tamaño |
 | Trabajo con disco de 180 mm | GA7020, 2.200 W y 8.500 rpm | Peso, agarre, guarda y tamaño de las piezas |
 | Trabajo con disco de 230 mm | GA9020, 2.200 W y 6.000 rpm | Control y postura; guarda y disco correctos |
-| Sin cable en 115 mm | DGA467Z ([oferta afiliada, sin baterías](https://meli.la/12iQ3As)); código/kit por confirmar | Si incluye baterías y cargador; autonomía necesaria |
+| Sin cable en 115 mm | DGA467Z [Ver precio en Mercado Libre](https://meli.la/12iQ3As){:target="_blank" rel="sponsored noopener"}; código/kit por confirmar | Si incluye baterías y cargador; autonomía necesaria |
 | Sin cable para disco de 180 mm | DGA700, código/kit por confirmar | Plataforma 18V × 2 y contenido completo del paquete |
 
 Esta tabla orienta la comparación por diámetro y alimentación; no declara un “mejor” modelo sin pruebas en la misma tarea, material, accesorio y duración.

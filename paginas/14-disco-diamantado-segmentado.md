@@ -21,13 +21,16 @@ published: true
 
 “Segmentado” describe el borde de corte dividido en secciones de diamante separadas por ranuras. Es una geometría común en discos para hormigón y mampostería, pero no define por sí sola los materiales permitidos ni si el disco se usa en seco o húmedo: eso lo determina la ficha y el manual del código concreto.
 
+
 | Ejemplo Bosch | Diámetro / orificio | Ancho / altura de segmento | Materiales publicados por el fabricante |
 |---|---|---|---|
 | PRO Concrete, 2 608 602 651 | 115 / 22,23 mm | 2,2 / 12 mm | Hormigón |
 | EXPERT Multi Material, 2 608 900 659 | 115 / 22,23 mm | 2,2 / 12 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
 | PRO Concrete, 2 608 602 655 | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón |
-| EXPERT Multi Material, 2 608 900 663 | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
+| EXPERT Multi Material, [2 608 900 663 · Ver precio en Mercado Libre](https://meli.la/2DjBcUT){:target="_blank" rel="sponsored noopener"} | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Los códigos de 115 y 230 mm no son intercambiables: cada amoladora admite un diámetro máximo específico. Las fichas de Bosch describen además geometrías, materiales y alturas distintas según tamaño; no extrapoles medidas de una variante a otra.
 
 ## Qué significa segmentado
@@ -55,7 +58,7 @@ El borde continuo se ofrece en líneas específicas de cerámica; turbo puede se
 
 ## 115 vs. 230 mm
 
-El diámetro tiene que coincidir con el máximo indicado en el manual de la amoladora y con la guarda instalada. Por ejemplo, la página Bosch de EXPERT Multi Material lista la variante de **115 mm, código 2 608 900 659**, y la de **230 mm, código 2 608 900 663**; cambian el espesor de corte y la altura de segmento publicados. Una máquina de 115 mm no puede recibir el de 230 mm, y uno mayor tampoco se debe adaptar quitando la guarda.
+El diámetro tiene que coincidir con el máximo indicado en el manual de la amoladora y con la guarda instalada. Por ejemplo, la página Bosch de EXPERT Multi Material lista la variante de **115 mm, código 2 608 900 659**, y la de **230 mm, código [2 608 900 663 · Ver precio en Mercado Libre](https://meli.la/2DjBcUT){:target="_blank" rel="sponsored noopener"}**; cambian el espesor de corte y la altura de segmento publicados. Una máquina de 115 mm no puede recibir el de 230 mm, y uno mayor tampoco se debe adaptar quitando la guarda.
 
 La medida exterior no basta: comprobá también el **orificio de 22,23 mm**, el tipo de brida y tuerca, la velocidad máxima del accesorio y que la flecha de giro coincida con la herramienta. Bosch indica que sus discos diamantados se desarrollan para máquinas y diámetros específicos y recomienda no ampliar el orificio del disco.
 

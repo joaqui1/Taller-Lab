@@ -51,8 +51,10 @@ published: true
 
 También podés comparar componentes individuales en la guía de [soportes con lupa](/soldadura-electronica/soporte-para-soldar-con-lupa/) y revisar estaciones de [aire caliente y cautín](/soldadura-electronica/gadnic-878d/).
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
 
-[Ver kit de soldador de estaño en Mercado Libre](https://meli.la/2q7fy7p){:target="_blank" rel="sponsored" .btn-mercado-libre}
 
+[Ver kit de soldador de estaño en Mercado Libre](https://meli.la/2q7fy7p){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 [Ver metodología de TallerLab](/como-trabajamos/)

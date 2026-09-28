@@ -19,7 +19,14 @@ published: true
 
 # Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W
 
-La **Skil 9004** es la variante de 830 W para disco de 115 mm; el manual de Skil identifica las versiones argentinas **9004AR y 9002AR**, ambas de **220 V**, y especifica 700 W para 9002AR. [Consultar la oferta afiliada de 9004](https://meli.la/1ruBvJN), confirmando la placa y la tensión. También recibimos una [oferta afiliada de 9002](https://meli.la/1AK4cis): su título anuncia 650 W, en discrepancia con los 700 W del manual. Mantengo el dato del manual y no tomo los 650 W del aviso como especificación confirmada; pedí foto de placa y código antes de comprar. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontré una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
+
+La **Skil 9004** es la variante de 830 W para disco de 115 mm; el manual identifica las versiones argentinas **9004AR y 9002AR**, ambas de **220 V**, y especifica 700 W para 9002AR.
+
+Publicaciones para comparar: [ver precio de la Skil 9004 en Mercado Libre](https://meli.la/1ruBvJN){:target="_blank" rel="sponsored noopener"} y [ver precio de la Skil 9002 en Mercado Libre](https://meli.la/1AK4cis){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del manual. Para esa unidad, confirmá placa y código con el vendedor; no tomamos los 650 W del aviso como especificación confirmada. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontramos una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
 
 | Dato del manual Skil 9002/9004 | 9002AR | 9004AR |
 |---|---:|---:|

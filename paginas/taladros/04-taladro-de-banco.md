@@ -61,7 +61,12 @@ published: true
 
 **Análisis TallerLab:** Omaha agrega otra configuración de mandril de 16 mm y cinco velocidades anunciadas. No lo elegimos por estar entre 450 y 710 W: faltan recorrido, rango de rpm y régimen para contrastar la tarea con los Lüsqtoff. Pedí también capacidad por material, peso y dimensiones de mesa.
 
-[Consultar Omaha AB550161K](https://meli.la/2Znq55m). Enlace de afiliado: verificá código, tensión, morsa incluida, vendedor y garantía antes de comparar el costo completo.
+
+[Ver precio del Omaha AB550161K en Mercado Libre](https://meli.la/2Znq55m){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+En la publicación, comprobá código, tensión, morsa incluida, vendedor y garantía antes de comparar el costo completo.
 
 ## Fuentes consultadas
 

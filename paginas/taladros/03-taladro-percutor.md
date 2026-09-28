@@ -46,8 +46,11 @@ published: true
 
 ## Una opción comercial de percutor inalámbrico
 
-El kit [Ingco CIDLI20668-4](https://meli.la/2xvJRJp) está registrado como percutor a batería con mandril de 13 mm, 20 V y 66 Nm anunciados, dos baterías y cargador. Es un enlace de afiliado; las cifras y el contenido provienen de la [publicación comercial](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463).
 
+La ficha de la [publicación del kit Ingco CIDLI20668-4](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463) registra un percutor a batería con mandril de 13 mm, 20 V y 66 Nm anunciados, dos baterías y cargador. [Ver precio del kit en Mercado Libre](https://meli.la/2xvJRJp){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Análisis TallerLab:** puede entrar en tu evaluación si buscás un percutor inalámbrico con mandril convencional y un kit de inicio. Pedí código completo, Ah/códigos de baterías, tensión del cargador y manual de la variante antes de elegir. No le atribuimos las capacidades del GSB 18V-50 ni energía/encastre SDS del GBH 220.
 
 **Desconocido:** no se confirmó la equivalencia de ese sufijo -4 con la [ficha oficial CIDLI20668](https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668), ni sus diámetros máximos por material. La oferta no permite concluir que sustituya un rotomartillo. Consultá la [guía del percutor inalámbrico](/taladros/taladro-percutor-inalambrico/) y la [comparación de plataformas a batería](/taladros/inalambricos/) según la decisión que necesites resolver.

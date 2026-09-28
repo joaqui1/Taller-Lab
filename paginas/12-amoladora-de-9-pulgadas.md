@@ -32,13 +32,16 @@ Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no 
 
 ## Peso, potencia y funciones
 
+
 | Modelo documentado | Disco | Potencia publicada | Velocidad en vacío | Peso publicado | Funciones/datos destacados |
 |---|---:|---:|---:|---:|---|
-| Bosch GWS 25-230, cód. 0 601 8F4 1H0 ([oferta afiliada](https://meli.la/24LpMmr)) | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
-| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 ([oferta afiliada](https://meli.la/33JWgGN)) | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
-| Makita GA9020 ([oferta afiliada](https://meli.la/21s58cx)) | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
-| Stanley STGL2223-AR ([oferta afiliada; confirmar sufijo y tensión](https://meli.la/2mkrd45)) | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
+| Bosch GWS 25-230, cód. 0 601 8F4 1H0 [Ver precio en Mercado Libre](https://meli.la/24LpMmr){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
+| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 [Ver precio en Mercado Libre](https://meli.la/33JWgGN){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
+| Makita GA9020 [Ver precio en Mercado Libre](https://meli.la/21s58cx){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
+| Stanley STGL2223-AR [Ver precio en Mercado Libre](https://meli.la/2mkrd45){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Los valores de peso no siempre se presentan con el mismo criterio; por ejemplo, la ficha Makita publica un rango. Tomalos como datos de catálogo y confirmá qué incluye la medición y el kit de la variante ofrecida. No inferimos cuál es “mejor” a partir de potencia, peso o funciones declaradas: ergonomía y rendimiento requieren comparación en condiciones equivalentes.
 
 ## Cuándo tiene sentido 230 mm

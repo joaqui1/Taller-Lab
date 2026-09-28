@@ -52,18 +52,21 @@ published: true
 
 ## Cuatro configuraciones: alimentación y pistones son campos distintos
 
+
 | Modelo | Alimentación | Construcción / controles publicados | Caudal declarado | Fuente y dato pendiente | Oferta |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Lüsqtoff MCL150-8 | 12 V; 275 W | Doble pistón; manómetro digital y parada automática | 60 L/min | Ficha Lüsqtoff; confirmar conexión y corriente | Referencia documental |
 | Gadnic AV000009 | 12 V; 23 A anunciados | Controles y conexión a confirmar | 85 L/min | Página comercial Gadnic; condición de caudal no indicada | Referencia documental |
-| Nictom IE01 | Batería incorporada | Pantalla digital, luz y PowerBank según la marca | 16 L/min máximos anunciados | Página Nictom; pedir manual, autonomía bajo carga y configuración | [Consultar IE01](https://meli.la/2m7TJWQ) |
-| JD Extreme 107 | 12 V | Doble pistón y manómetro anunciados | 85 L/min anunciados | Publicación comercial; corriente, ciclo y condición de caudal pendientes | [Consultar JD 107](https://meli.la/274KM8a) |
+| Nictom IE01 | Batería incorporada | Pantalla digital, luz y PowerBank según la marca | 16 L/min máximos anunciados | Página Nictom; pedir manual, autonomía bajo carga y configuración | [Ver precio en Mercado Libre](https://meli.la/2m7TJWQ){:target="_blank" rel="sponsored noopener"} |
+| JD Extreme 107 | 12 V | Doble pistón y manómetro anunciados | 85 L/min anunciados | Publicación comercial; corriente, ciclo y condición de caudal pendientes | [Ver precio en Mercado Libre](https://meli.la/274KM8a){:target="_blank" rel="sponsored noopener"} |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Dato documentado:** [Nictom IE01](https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/) tiene ficha de marca y acceso a manual. Sus afirmaciones de autonomía no representan una prueba de TallerLab. Para [JD Extreme 107](https://www.mercadolibre.com.ar/compresor-de-aire-portatil-jd-extreme-de-150-psi-con-doble-piston-para-auto-y-moto/p/MLA45403244), los campos anteriores provienen de la publicación comercial registrada.
 
 **Análisis TallerLab:** batería/12 V identifica alimentación; doble pistón identifica construcción. MCL150-8 y JD 107 pueden compartir doble pistón y seguir teniendo conexiones, controles y ciclos distintos. Para evitar depender de la toma del vehículo, comprobá batería/autonomía de IE01; para 12 V, primero corriente, conexión y protección admitida. No elegimos el más rápido por 16, 60 u 85 L/min: faltan puntos de presión y ensayos equivalentes.
 
-Los enlaces IE01 y JD 107 son de afiliado. Precio, stock, modelo, conexión y accesorios se confirman en cada aviso. La [guía de doble pistón 12 V](/compresores/12v-doble-piston/) detalla qué pedir para JD; la presión del neumático sigue siendo la de la etiqueta/manual del vehículo.
+En cada publicación podés revisar precio, stock, modelo, conexión y accesorios. La [guía de doble pistón 12 V](/compresores/12v-doble-piston/) detalla qué pedir para JD; la presión del neumático sigue siendo la de la etiqueta/manual del vehículo.
 
 ## Fuentes consultadas
 

@@ -52,8 +52,10 @@ published: true
 
 La selección depende de confirmar la potencia y la variante de la publicación. Consultá también la [estación de soldadura electrónica](/soldadura-electronica/estacion-de-soldadura/), el [kit de soldador de estaño](/soldadura-electronica/kit-soldador-de-estano/) y el [soporte con lupa](/soldadura-electronica/soporte-para-soldar-con-lupa/).
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
 
-[Ver Gadnic 878D en Mercado Libre](https://meli.la/21VNNVW){:target="_blank" rel="sponsored" .btn-mercado-libre}
 
+[Ver Gadnic 878D en Mercado Libre](https://meli.la/21VNNVW){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 [Ver metodología de TallerLab](/como-trabajamos/)

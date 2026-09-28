@@ -97,12 +97,15 @@ Estas guías reúnen modelos y códigos concretos; las diferencias entre version
 
 Las fichas oficiales consultadas permiten ilustrar tres tamaños, pero no representan todas las opciones del mercado:
 
+
 | Modelo Bosch consultado | Diámetro máximo de disco | Potencia absorbida | Velocidad en vacío | Peso publicado |
 | :--- | ---: | ---: | ---: | ---: |
 | GWS 9-115 S | 115 mm | 900 W | 2.800–11.000 rpm | 1,9 kg |
 | GWS 25-180 LVI R | 180 mm | 2.500 W | 8.500 rpm | No consta en el recorte consultado |
-| GWS 25-230 ([oferta afiliada](https://meli.la/24LpMmr)) | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
+| GWS 25-230 [Ver precio en Mercado Libre](https://meli.la/24LpMmr){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Alcance de los datos:** cada fila corresponde al modelo nombrado en la ficha Bosch. La ficha del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos consultados y no se estima por analogía. Las herramientas vendidas en distintos mercados pueden variar en tensión, código, interruptor y equipamiento.
 
 **Lectura de la comparación:** el diámetro, la velocidad en vacío y el peso declarado describen aspectos diferentes; no permiten predecir por sí solos la profundidad o el ritmo real de corte. Eso depende también del accesorio, la guarda, la geometría y el material. Bosch clasifica las angulares grandes para corte y desbaste de mayor exigencia y documenta funciones concretas en ciertos modelos; no se deben generalizar a toda la gama.

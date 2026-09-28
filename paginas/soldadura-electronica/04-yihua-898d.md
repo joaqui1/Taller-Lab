@@ -59,8 +59,11 @@ Si solo necesitás cautín, compará la [guía de estaciones electrónicas](/sol
 
 La 898D es una referencia para comparar cuando necesitás cautín y aire caliente en el mismo equipo. Si tu trabajo requiere solo cautín, cotejá primero una estación de esa función. Antes de elegir el paquete, pedí código 898D o 898D+, tensión de placa, modelo de mango y lista de accesorios: la ficha de serie no confirma la entrega de un vendedor argentino.
 
-**Aviso de afiliados:** TallerLab puede recibir una comisión por compras realizadas desde este enlace. Consultá precio, stock y condiciones actuales de la publicación.
 
-[Ver Yihua 898D en Mercado Libre](https://meli.la/2du1wYY){:target="_blank" rel="sponsored" .btn-mercado-libre}
+Consultá precio, stock y condiciones actuales en la publicación.
 
+[Ver Yihua 898D en Mercado Libre](https://meli.la/2du1wYY){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 [Ver metodología de TallerLab](/como-trabajamos/)

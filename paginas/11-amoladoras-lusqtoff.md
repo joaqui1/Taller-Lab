@@ -23,13 +23,16 @@ Para elegir una amoladora Lusqtoff, primero definí si necesitás trabajar lejos
 
 La diferencia entre máquina sola y kit cambia el costo real. Antes de comparar precios, comprobá el código completo, qué incluye la publicación y la compatibilidad exacta de batería y cargador.
 
+
 | Modelo/código | Alimentación | Medida y velocidad documentadas | Qué lo distingue |
 |---|---|---|---|
-| AML850-8 ([oferta afiliada](https://meli.la/2YseJTk)) | Cable, 220 V~50 Hz | 115 mm; 11.000 rpm | 850 W, velocidad fija |
-| AML1010-8 ([oferta afiliada](https://meli.la/1GVNNxZ)) | Cable, 220 V~50 Hz | Hasta 125 mm; 0–11.000 rpm | 1.010 W y seis posiciones de velocidad |
-| AML115-9B ([oferta afiliada, cuerpo solo](https://meli.la/2Fjr3cp)) | Batería, 18 V | 115 mm; hasta 8.500 rpm | Herramienta sola: no incluye batería ni cargador |
-| AML115-9BK ([oferta afiliada, kit](https://meli.la/2iXGb4r)) | Batería, 18 V | 115 mm; tres velocidades: 6.500/7.000/8.500 rpm | Kit con dos baterías de 4 Ah, cargador y accesorios |
+| AML850-8 [Ver precio en Mercado Libre](https://meli.la/2YseJTk){:target="_blank" rel="sponsored noopener"} | Cable, 220 V~50 Hz | 115 mm; 11.000 rpm | 850 W, velocidad fija |
+| AML1010-8 [Ver precio en Mercado Libre](https://meli.la/1GVNNxZ){:target="_blank" rel="sponsored noopener"} | Cable, 220 V~50 Hz | Hasta 125 mm; 0–11.000 rpm | 1.010 W y seis posiciones de velocidad |
+| AML115-9B [Ver precio en Mercado Libre](https://meli.la/2Fjr3cp){:target="_blank" rel="sponsored noopener"} | Batería, 18 V | 115 mm; hasta 8.500 rpm | Herramienta sola: no incluye batería ni cargador |
+| AML115-9BK [Ver precio en Mercado Libre](https://meli.la/2iXGb4r){:target="_blank" rel="sponsored noopener"} | Batería, 18 V | 115 mm; tres velocidades: 6.500/7.000/8.500 rpm | Kit con dos baterías de 4 Ah, cargador y accesorios |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Los datos describen fichas y catálogo del fabricante; no son una prueba comparativa de rendimiento. La potencia eléctrica, las RPM máximas y el diámetro admitido no permiten por sí solos anticipar la velocidad de corte o la duración de un trabajo.
 
 ## AML850-8 de 850 W

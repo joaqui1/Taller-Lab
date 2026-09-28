@@ -21,12 +21,15 @@ published: true
 
 Para comparar Total en Argentina conviene empezar por el **código completo**, incluido el sufijo regional. Encontramos tres referencias locales concretas de 115, 125 y 180 mm. Esta es una comparación documental de catálogos y publicaciones de venta; no probamos las máquinas ni evaluamos su duración.
 
+
 | Si necesitás… | Modelo con oferta local documentada | Datos publicados para el SKU | Qué mirar |
 | :--- | :--- | :--- | :--- |
-| Una máquina compacta de 115 mm | [TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm) ([oferta afiliada](https://meli.la/1WnXJFJ)) | 710 W, 115 mm, 12.000 rpm, M14 | Confirmá que placa y caja digan el sufijo **-4** y sean compatibles con la red local. |
-| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/) ([oferta afiliada](https://meli.la/2BE54o4)) | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
-| Una máquina para disco de 180 mm | [TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html) ([oferta afiliada](https://meli.la/2E31egQ)) | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
+| Una máquina compacta de 115 mm | [TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm) [Ver precio en Mercado Libre](https://meli.la/1WnXJFJ){:target="_blank" rel="sponsored noopener"} | 710 W, 115 mm, 12.000 rpm, M14 | Confirmá que placa y caja digan el sufijo **-4** y sean compatibles con la red local. |
+| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/) [Ver precio en Mercado Libre](https://meli.la/2BE54o4){:target="_blank" rel="sponsored noopener"} | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
+| Una máquina para disco de 180 mm | [TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html) [Ver precio en Mercado Libre](https://meli.la/2E31egQ){:target="_blank" rel="sponsored noopener"} | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las páginas enlazadas mostraban disponibilidad comercial en Argentina al revisarlas el 28/09/2026; el stock y el precio pueden cambiar. La tabla no declara un “mejor modelo”: las tres medidas cubren configuraciones distintas y la elección depende del disco necesario y de la tarea.
 
 ## Tres códigos regionales para seguir comparando

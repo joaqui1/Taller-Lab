@@ -58,7 +58,12 @@ published: true
 
 **Análisis TallerLab:** HL100-7 puede entrar en la comparación de eléctricas de menor potencia, pero no se declara equivalente al -8 por compartir «HL100». El ejemplo de consumo de agua de esta guía usa HL-120, cuyo caudal está publicado como de trabajo; no lo renombramos como si perteneciera al -7.
 
-[Consultar la oferta de HL100-7](https://meli.la/1cZXqxL). Enlace de afiliado: confirmá modelo, contenido, precio, stock y garantía con el vendedor. **Desconocido:** no hay prueba de limpieza común entre estos modelos ni condición de caudal suficiente para ordenar su rendimiento.
+
+[Ver precio de la HL100-7 en Mercado Libre](https://meli.la/1cZXqxL){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+En la publicación, comprobá modelo, contenido, precio, stock y garantía. **Desconocido:** no hay prueba de limpieza común entre estos modelos ni condición de caudal suficiente para ordenar su rendimiento.
 
 ## Fuentes consultadas
 

@@ -21,13 +21,16 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-Un disco de desbaste rígido sirve para remover material de una superficie, rebajar una soldadura o corregir un borde. Para elegirlo, comprobá primero que esté declarado para el material y el trabajo; después verificá diámetro, espesor, agujero, rpm y compatibilidad con la amoladora. El Bosch PRO Metal 2 608 600 218 es un ejemplo documentado de 115 × 6 × 22,23 mm, no una recomendación universal.
 
+Un disco de desbaste rígido sirve para remover material de una superficie, rebajar una soldadura o corregir un borde. Para elegirlo, comprobá primero que esté declarado para el material y el trabajo; después verificá diámetro, espesor, agujero, rpm y compatibilidad con la amoladora. El Bosch PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} es un ejemplo documentado de 115 × 6 × 22,23 mm, no una recomendación universal.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Qué es y para qué se usa
 
 El disco de desbaste es un abrasivo aglomerado y reforzado diseñado para retirar material con su superficie abrasiva. Se usa, según la aplicación que declare cada fabricante, para quitar rebabas, rebajar cordones de soldadura, suavizar bordes o retirar material de una pieza metálica. No es el accesorio indicado para separar una pieza: para eso se usa un disco de corte fino compatible.
 
-Bosch declara su PRO Metal 2 608 600 218 para desbastar metal. En esa referencia publica 115 mm de diámetro, 6 mm de espesor, agujero de 22,23 mm y especificación A 30 T BF. El fabricante describe granos de óxido de aluminio, matriz de resina y refuerzo de fibra de vidrio. Esos datos pertenecen a ese producto, no a todos los discos de desbaste.
+Bosch declara su PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} para desbastar metal. En esa referencia publica 115 mm de diámetro, 6 mm de espesor, agujero de 22,23 mm y especificación A 30 T BF. El fabricante describe granos de óxido de aluminio, matriz de resina y refuerzo de fibra de vidrio. Esos datos pertenecen a ese producto, no a todos los discos de desbaste.
 
 ## Qué cambia según el metal
 
@@ -41,8 +44,8 @@ El diámetro condiciona qué amoladora puede montar el disco, el alcance y la pr
 
 | Fabricante y referencia | Diámetro × espesor × agujero | Especificación publicada | Material / dato adicional |
 | :--- | :--- | :--- | :--- |
-| Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal |
-| Bosch PRO Metal 2 608 600 223 | 125 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal; mayor diámetro de esta variante |
+| Bosch PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} | 115 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal |
+| Bosch PRO Metal [2 608 600 223 · Ver precio en Mercado Libre](https://meli.la/2Q5Z1XZ){:target="_blank" rel="sponsored noopener"} | 125 × 6 × 22,23 mm | A 30 T BF | Desbaste de metal; mayor diámetro de esta variante |
 | Bosch PRO Metal 2 608 603 182 | 125 × 6 × 22,23 mm | A 24 R BF | Misma medida nominal, otra especificación |
 | Norton Clipper Metal-Inox 66253371519 | 115 × 6,4 × 22,23 mm | A 30 P-BF27; óxido de aluminio | Para acero y acero inoxidable; tipo 27; velocidad máxima publicada: 80 m/s |
 
@@ -64,7 +67,7 @@ Para quitar material con rapidez, usá el tipo que el fabricante especifique par
 
 | Accesorio de referencia | Dimensiones | Uso publicado | Lectura documental |
 | :--- | :--- | :--- | :--- |
-| Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm | Desbaste de metal | Disco más grueso en esta comparación |
+| Bosch PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} | 115 × 6 × 22,23 mm | Desbaste de metal | Disco más grueso en esta comparación |
 | Bosch PRO Metal 2 608 619 252 | 115 × 1,6 × 22,23 mm | Corte de metal | Código de disco de corte; no sustituye al de desbaste |
 
 El desbaste trabaja sobre la superficie; el corte separa la pieza con el borde del disco. No uses el costado de un disco de corte para desbastar ni inclines uno fino para hacer una operación para la que no fue diseñado. Para ampliar el tema, consultá la guía de [discos de corte para amoladora](/amoladoras/disco-de-corte/).

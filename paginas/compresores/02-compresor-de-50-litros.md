@@ -106,8 +106,13 @@ Al filtrar compresores de 50 litros en Mercado Libre, prestá atención a:
 * **Alimentación eléctrica**: Comprobá tensión, enchufe y requisitos de instalación en el manual del modelo exacto antes de conectarlo.
 * **Condiciones de envío**: Consultá peso, entrega a domicilio y costo de despacho de la publicación concreta.
 
-Si ya compraste el compresor sin accesorios, el [kit Lusqtoff de 5 piezas](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"} es una compra separada para sumar manguera y pistolas. No incluye el compresor de 50 litros; revisá las conexiones antes de comprarlo.
 
+Si ya compraste el compresor sin accesorios, [ver precio del kit Lusqtoff de 5 piezas en Mercado Libre](https://meli.la/32SJoX7){:target="_blank" rel="sponsored noopener"}.
+
+El kit suma manguera y pistolas; no incluye el compresor de 50 litros. Comprobá las conexiones antes de comprarlo.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 [Ver compresores de 50 litros en Mercado Libre](https://listado.mercadolibre.com.ar/compresor-50-litros){:target="_blank" rel="nofollow noopener noreferrer" .btn-mercado-libre}
 
 ## Alcance de la evidencia

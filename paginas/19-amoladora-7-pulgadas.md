@@ -51,13 +51,16 @@ La diferencia nominal entre discos de 180 y 230 mm es de 50 mm de diámetro, o 2
 
 Las fichas siguientes permiten comparar cuatro modelos de 180 mm documentados por Bosch, Makita y DeWalt para Argentina. Los pesos de Makita aparecen como rango y no se explica en esas fichas qué variantes o configuración abarca; para DeWalt, la ficha local consultada no publica peso. Los datos son de catálogo: no son resultados de pruebas de rendimiento ni una clasificación de cuál conviene más.
 
+
 | Modelo | Potencia absorbida | Velocidad en vacío | Peso publicado | Funciones o datos destacados | Tensión publicada |
 | :--- | ---: | ---: | ---: | :--- | :--- |
-| [Bosch GWS 2200-180, cód. 0 601 8F1 1H0](https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0) ([oferta afiliada](https://meli.la/1EzeM6d)) | 2200 W | 8500 rpm | 5 kg | Interruptor PROtection; eje M14; perforación 22,2 mm | 220 V |
-| [Makita GA7010C](https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/) ([oferta afiliada; el aviso anuncia 2000 W](https://meli.la/1AtQh58)) | 1800 W en ficha Makita | 8400 rpm | 4,2–4,7 kg | Velocidad constante, Soft Start, limitador electrónico de corriente, estructura antipolvo | No indicada en la ficha consultada |
-| [Makita GA7020](https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/) ([oferta afiliada](https://meli.la/31peCT3)) | 2200 W | 8500 rpm | 5,56–6,06 kg | Función anti-reinicio, empuñadura suave, estructura antipolvo | No indicada en la ficha consultada |
-| [DeWalt DWE4557-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm) ([oferta afiliada](https://meli.la/31fLEjB)) | 2400 W | 8500 rpm | No indicada en la ficha local consultada | Empuñaduras antivibración, expulsión de polvo y guarda de ajuste rápido | 220 V, 50 Hz según manual regional |
+| [Bosch GWS 2200-180, cód. 0 601 8F1 1H0](https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0) [Ver precio en Mercado Libre](https://meli.la/1EzeM6d){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5 kg | Interruptor PROtection; eje M14; perforación 22,2 mm | 220 V |
+| [Makita GA7010C](https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/) [Ver precio en Mercado Libre](https://meli.la/1AtQh58){:target="_blank" rel="sponsored noopener"} | 1800 W en ficha Makita | 8400 rpm | 4,2–4,7 kg | Velocidad constante, Soft Start, limitador electrónico de corriente, estructura antipolvo | No indicada en la ficha consultada |
+| [Makita GA7020](https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/) [Ver precio en Mercado Libre](https://meli.la/31peCT3){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5,56–6,06 kg | Función anti-reinicio, empuñadura suave, estructura antipolvo | No indicada en la ficha consultada |
+| [DeWalt DWE4557-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm) [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 2400 W | 8500 rpm | No indicada en la ficha local consultada | Empuñaduras antivibración, expulsión de polvo y guarda de ajuste rápido | 220 V, 50 Hz según manual regional |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 La ficha Bosch confirma 220 V para el código mostrado. Las fichas argentinas de Makita identifican los códigos y sus especificaciones, pero no indican la tensión en la página consultada: verificá la placa del ejemplar y el código completo antes de comprar. Tampoco se puede concluir que un modelo rinda más solo por declarar más watts; influyen la carga, el accesorio, el estado de la herramienta y el modo de trabajo.
 
 **Discrepancia de la oferta GA7010C:** el aviso afiliado anuncia **2.000 W**, mientras la ficha argentina de Makita citada indica **1.800 W**. La tabla conserva el dato del fabricante como especificación documentada; pedí una foto de la placa y confirmá el código antes de comprar. El título del aviso no alcanza para resolver la diferencia.

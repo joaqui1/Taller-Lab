@@ -35,9 +35,14 @@ Antes de comparar precios, comprobá si la caladora permite regular velocidad, s
 
 **Desconocido.** Esta guía no prueba los modelos ni cubre caladoras de banco. Tampoco presenta una capacidad universal para MDF, melamina o aluminio: las fichas enlazadas no publican los mismos materiales y protocolos en todos los casos.
 
-## Consultar BES603: primero confirmar la variante
+## Publicación de BES603: identificar la variante
 
-Si el máximo documentado de 65 mm en madera de BES603-B2 incluye el espesor que querés contrastar, podés [consultar la oferta Black+Decker BES603](https://meli.la/1ntghna) y pedir foto de placa, sufijo, 220 V, hoja tipo T y contenido del kit. Es un enlace de afiliado; el [registro comercial](https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702) identifica BES603 sin confirmar aquí el sufijo B2.
+
+Si el máximo documentado de 65 mm en madera de BES603-B2 cubre el espesor que querés cortar, [ver precio de BES603 en Mercado Libre](https://meli.la/1ntghna){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+El [registro comercial](https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702) identifica BES603, pero no confirma aquí el sufijo B2. Antes de comprar, comprobá placa, sufijo, 220 V, hoja tipo T y contenido del kit.
 
 **Dato documentado:** la ficha BES603-B2 citada dice hasta 6 mm en **metal**, sin identificar acero en ese campo. Por eso el filtro de acero compara solo las dos Einhell cuya documentación identifica ese material. Para BES603-B2, 6 mm de metal queda como dato separado pendiente de especificación del material; no se convierte en capacidad genérica de acero.
 

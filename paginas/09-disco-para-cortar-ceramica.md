@@ -23,19 +23,22 @@ Para cortar azulejo o baldosa cerámica con una amoladora, empezá por el materi
 
 Esta guía se concentra en discos para cerámica. **No extiende una ficha a todo porcelanato:** algunas referencias de fabricante incluyen porcelana o baldosas duras de forma explícita; otras solo nombran cerámica o azulejos. La futura guía de discos para porcelanato debe resolver por separado las referencias que el fabricante habilite expresamente para ese material.
 
+
 ## Cerámica vs porcelanato: no asumir equivalencia
 
 “Cerámica” se usa para revestimientos con propiedades y durezas distintas. El porcelanato suele ser una baldosa más densa, pero el nombre comercial del material no alcanza para elegir un accesorio. Revisá el envase o ficha del **modelo y código exactos**: buscá si menciona porcelanato, porcelana dura, gres porcelánico o baldosas duras, y respetá las instrucciones y límites que acompañan esa aplicación.
 
-En la documentación consultada, Bosch describe el **PRO Ceramic 2 608 602 478** para corte de azulejos, y su catálogo de accesorios también enumera porcelana dura y gres fino extremadamente duro para esa familia. El **EXPERT HardCeramic 2 608 900 654** se presenta para baldosas duras y su borde continuo; esa descripción no convierte a todos los discos de cerámica en adecuados para porcelanato. La futura guía de porcelanato debe comparar referencias cuyo fabricante nombre ese material de manera explícita.
+En la documentación consultada, Bosch describe el **PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"}** para corte de azulejos, y su catálogo de accesorios también enumera porcelana dura y gres fino extremadamente duro para esa familia. El **EXPERT HardCeramic 2 608 900 654** se presenta para baldosas duras y su borde continuo; esa descripción no convierte a todos los discos de cerámica en adecuados para porcelanato. La futura guía de porcelanato debe comparar referencias cuyo fabricante nombre ese material de manera explícita.
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Borde continuo o turbo
 
 El borde describe la geometría del segmento diamantado; no es por sí solo una garantía universal de acabado. En los dos ejemplos Bosch, el fabricante atribuye ventajas distintas a cada diseño:
 
 | Referencia documentada | Borde | Qué publica el fabricante | Lectura para elegir |
 | :--- | :--- | :--- | :--- |
-| PRO Ceramic, 2 608 602 478 | Turbo | Bosch lo describe para avance de corte suave y acabado de alta calidad; la ficha también habla de precisión en azulejos | Opción con perfil turbo documentado para azulejo/cerámica dentro de los materiales listados para esa referencia. |
+| PRO Ceramic, [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"} | Turbo | Bosch lo describe para avance de corte suave y acabado de alta calidad; la ficha también habla de precisión en azulejos | Opción con perfil turbo documentado para azulejo/cerámica dentro de los materiales listados para esa referencia. |
 | EXPERT HardCeramic, 2 608 900 654 | Continuo | Bosch atribuye al borde continuo corte de alta precisión y menor desconchado en baldosas duras; menciona hoja fina y centro reforzado para suavidad y menos vibración | Tiene sentido considerarlo cuando prima el acabado en la aplicación de baldosa dura que Bosch declara. |
 
 “Turbo” y “continuo” no describen todos los discos del mercado con el mismo resultado. También inciden el estado del disco, la baldosa, la estabilidad del apoyo, la máquina, el avance y la técnica; Bosch no publica un ensayo comparable de estas dos referencias en las fichas regionales consultadas.
@@ -77,7 +80,7 @@ Son afirmaciones del fabricante. No equivalen a una prueba de TallerLab ni permi
 
 | Disco Bosch | Diseño descrito | Diámetro / agujero | Ancho de corte | Altura de segmento |
 | :--- | :--- | :--- | ---: | ---: |
-| PRO Ceramic, 2 608 602 478 | Segmento turbo | 115 / 22,23 mm | 1,4 mm | 7 mm |
+| PRO Ceramic, [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"} | Segmento turbo | 115 / 22,23 mm | 1,4 mm | 7 mm |
 | EXPERT HardCeramic, 2 608 900 654 | Borde continuo | 115 / 22,23 mm | 1,4 mm | 10 mm |
 
 Las dimensiones permiten distinguir estas variantes de catálogo; no prueban cuál corta más rápido, dura más o deja mejor acabado en cada baldosa.

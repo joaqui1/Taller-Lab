@@ -71,13 +71,16 @@ Además del diámetro exterior, la ficha de la muela debe coincidir con el **anc
 
 La velocidad máxima admitida por la muela debe ser igual o superior a la velocidad en vacío de la máquina. Mirá el valor grabado en la muela y en el manual del esmeril; el desgaste reduce el diámetro, pero no habilita a instalar un diámetro incompatible ni a ignorar la velocidad nominal. No fuerces una muela sobre el eje ni uses bujes improvisados.
 
+
 | Referencia de máquina | Medida de muela documentada | Velocidad publicada |
 | :--- | :--- | :--- |
 | Bosch GBG 35-15 | 150 × 20 mm; agujero 12,7/20 mm según variante/manual | 3.000 rpm a 50 Hz |
-| Lusqtoff AB-375 ([oferta afiliada](https://meli.la/25xDSzM)) | 150 × 16 × 12,7 mm | 2.950 rpm |
+| Lusqtoff AB-375 [Ver precio en Mercado Libre](https://meli.la/25xDSzM){:target="_blank" rel="sponsored noopener"} | 150 × 16 × 12,7 mm | 2.950 rpm |
 | Bosch GBG 60-20 | 200 × 25 × 32 mm | 3.000 rpm a 50 Hz; 3.600 rpm a 60 Hz |
 | Makita GB801 | 205 × 19 × 15,88 mm | 2.850 rpm a 50 Hz; 3.450 rpm a 60 Hz |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Apoyo de pieza y protectores
 
 El apoyo sostiene la pieza cerca de la muela; el protector de chispas y la pantalla ocular ayudan a limitar la exposición. Usá la máquina con las protecciones instaladas, ajustá los apoyos según el manual y volvé a regularlos a medida que se desgaste la rueda. No sujetes la pieza en el aire ni la empujes contra un espacio grande entre apoyo y muela.

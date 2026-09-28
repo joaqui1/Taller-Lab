@@ -50,19 +50,22 @@ El manual Hyundai indica estimar la carga multiplicando voltios × amperes cuand
 
 ## Opciones comerciales por escala de carga
 
-Estas publicaciones con enlace de afiliado corresponden a equipos distintos de los Honda/Gamma de la tabla. La elección empieza por las cargas de marcha y arranque, la unidad de potencia y la placa del modelo que se entrega.
+Estas publicaciones de Mercado Libre corresponden a equipos distintos de los Honda/Gamma de la tabla. La elección empieza por las cargas de marcha y arranque, la unidad de potencia y la placa del modelo que se entrega.
+
 
 | Referencia registrada | Nominal | Máxima | Respaldo / qué falta | Consulta |
 | :--- | :--- | :--- | :--- | :--- |
-| Pektra GPK980, dos tiempos | 650 W anunciados | 720 W anunciados | Publicación comercial; confirmar nominal en placa/manual | [Consultar GPK980](https://meli.la/2jcLSy1) |
-| Pektra GPK2200, nafta | No confirmada | 2,2 kVA anunciados | Publicación comercial; pedir nominal y condiciones | [Consultar GPK2200](https://meli.la/2bL6gVj) |
-| Philco GE-PH2500ALP, nafta | 2.500 W anunciados | 2.800 W anunciados | Publicación comercial; contrastar manual de ese código | [Consultar Philco](https://meli.la/1nUAUuv) |
+| Pektra GPK980, dos tiempos | 650 W anunciados | 720 W anunciados | Publicación comercial; confirmar nominal en placa/manual | [Ver precio en Mercado Libre](https://meli.la/2jcLSy1){:target="_blank" rel="sponsored noopener"} |
+| Pektra GPK2200, nafta | No confirmada | 2,2 kVA anunciados | Publicación comercial; pedir nominal y condiciones | [Ver precio en Mercado Libre](https://meli.la/2bL6gVj){:target="_blank" rel="sponsored noopener"} |
+| Philco GE-PH2500ALP, nafta | 2.500 W anunciados | 2.800 W anunciados | Publicación comercial; contrastar manual de ese código | [Ver precio en Mercado Libre](https://meli.la/1nUAUuv){:target="_blank" rel="sponsored noopener"} |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Declaración comercial:** el respaldo registrado es el aviso de [Pektra GPK980](https://www.mercadolibre.com.ar/grupo-electrogeno-720w-pektra-072kva-34hp-980-nafta-generador-2t/p/MLA26044602), [Pektra GPK2200](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-pektra-22kva-55-hp-nafta/p/MLA20005447) y [Philco GE-PH2500ALP](https://www.mercadolibre.com.ar/generador-electrico-philco-2500w-65hp-196cc-tanque-15l/p/MLA29450496). No se presenta como documentación primaria confirmada de todas sus capacidades.
 
 **Análisis TallerLab:** GPK980 pertenece a una escala de carga pequeña; no se propone como sustituto de los Honda de varios kVA. GPK2200 queda condicionado a identificar nominal; GE-PH2500ALP requiere contrastar los W anunciados. No ordenamos 2,2 kVA contra 2.500 W ni elegimos por HP del motor. Calculá primero el [escenario de cargas de tu casa](/generadores/para-casa/) y revisá las guías de [equipos chicos](/generadores/chicos/) o [a nafta](/generadores/a-nafta/) según el requisito.
 
-Los enlaces son de afiliado y no certifican disponibilidad. Confirmá modelo, manual, combustible, precio, stock, garantía y condiciones de uso antes de decidir.
+Revisá en cada publicación el modelo, disponibilidad, precio, garantía y condiciones de uso antes de decidir.
 
 ## Fuentes consultadas
 

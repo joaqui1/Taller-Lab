@@ -56,20 +56,25 @@ published: true
 
 La comparación Gamma sirve para leer las fichas. Si querés consultar una oferta concreta, estas dos referencias eléctricas tienen enlaces de afiliado y documentación identificada:
 
+
 | Modelo | Potencia / alimentación | Presión nominal / máxima | Caudal en la fuente | Qué falta confirmar | Consulta comercial |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Lüsqtoff HL100-7 | 1.200 W; 220 V–50 Hz | 70 / 100 bar | 5,5 L/min; la ficha no precisa condición | Kit, vendedor y manual de la unidad | [Consultar HL100-7](https://meli.la/1cZXqxL) |
-| Logus HL-105 | 1.200 W; tensión de la unidad por confirmar | Nominal no localizada / 105 bar máximos | No localizado en la ficha consultada | Presión de servicio, caudal y accesorios | [Consultar HL-105](https://meli.la/2Rcddpg) |
+| Lüsqtoff HL100-7 | 1.200 W; 220 V–50 Hz | 70 / 100 bar | 5,5 L/min; la ficha no precisa condición | Kit, vendedor y manual de la unidad | [Ver precio en Mercado Libre](https://meli.la/1cZXqxL){:target="_blank" rel="sponsored noopener"} |
+| Logus HL-105 | 1.200 W; tensión de la unidad por confirmar | Nominal no localizada / 105 bar máximos | No localizado en la ficha consultada | Presión de servicio, caudal y accesorios | [Ver precio en Mercado Libre](https://meli.la/2Rcddpg){:target="_blank" rel="sponsored noopener"} |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Dato documentado:** [Lüsqtoff HL100-7](https://www.lusqtoff.com.ar/ver-producto/HL100-7) separa presión nominal y máxima. [Logus HL-105](https://logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/) publica el máximo; no completamos sus campos ausentes con los de Gamma o Lüsqtoff.
 
 **Análisis TallerLab:** HL100-7 permite contrastar su nominal de 70 bar con los campos nominales/de servicio de las fichas Gamma, conservando las condiciones de cada fuente. Los 105 bar máximos de HL-105 no prueban mayor capacidad de limpieza ni permiten compararla por presión de servicio.
 
 ### Si necesitás una opción a nafta
 
-La [Logus GHL150 con referido](https://meli.la/1KQjHgT) cambia la alimentación: su [ficha Logus](https://logus.com.ar/productos/hidrolavadora-a-explosion-6-5hp-industrial-154-bar-ghl-150/) identifica motor de 6,5 hp y 154 bar, sin un punto de presión de servicio/caudal comparable localizado. Consultá la [guía de 150 bar](/hidrolavadoras/150-bar/) para revisar sus límites. La potencia del motor no equivale a potencia eléctrica y esa cifra de presión no la convierte en sustituta de las eléctricas de esta tabla.
+Para comparar una alternativa a explosión, [ver la publicación de Logus GHL150 en Mercado Libre](https://meli.la/1KQjHgT){:target="_blank" rel="sponsored noopener"}.
 
-Los enlaces son de afiliado. La identidad de la unidad, precio, stock y condiciones del vendedor se comprueban en la publicación.
+Su [ficha Logus](https://logus.com.ar/productos/hidrolavadora-a-explosion-6-5hp-industrial-154-bar-ghl-150/) identifica motor de 6,5 hp y 154 bar; no encontramos un punto comparable de presión de servicio y caudal. Consultá la [guía de 150 bar](/hidrolavadoras/150-bar/) para revisar sus límites. La potencia del motor no equivale a potencia eléctrica y esa cifra de presión no la convierte en sustituta de las eléctricas de esta tabla.
+
+En cada publicación, comprobá la identidad de la unidad y las condiciones vigentes del vendedor.
 
 ## Fuentes consultadas
 

@@ -51,8 +51,10 @@ published: true
 
 Para el resto del puesto de trabajo, consultá el [kit de soldador de estaño](/soldadura-electronica/kit-soldador-de-estano/) y la [guía de estaciones electrónicas](/soldadura-electronica/estacion-de-soldadura/).
 
-**Aviso de afiliados:** Taller Lab puede recibir una comisión por compras realizadas desde estos enlaces.
 
-[Ver soporte con lupa en Mercado Libre](https://meli.la/1XdM9ut){:target="_blank" rel="sponsored" .btn-mercado-libre}
 
+[Ver soporte con lupa en Mercado Libre](https://meli.la/1XdM9ut){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 [Ver metodología de TallerLab](/como-trabajamos/)

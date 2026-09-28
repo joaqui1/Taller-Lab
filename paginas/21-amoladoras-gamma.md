@@ -25,14 +25,17 @@ En las fichas argentinas consultadas, Gamma publica amoladoras angulares con cab
 
 Esta tabla reúne las fichas de amoladoras angulares con cable disponibles en la gama online consultada. No equivale a una auditoría de todo el catálogo Gamma, ni confirma disponibilidad de cada SKU en comercios.
 
+
 | Modelo | Configuración que identifica la ficha | Potencia publicada | Disco | Velocidad en vacío | Alimentación publicada |
 | :--- | :--- | ---: | ---: | ---: | :--- |
-| [G1922AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/) ([oferta afiliada](https://meli.la/1pe68MA)) | Amoladora Gamma Select; la ficha no detalla discos o maletín como kit | 500 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
-| [G1923AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/) ([oferta afiliada](https://meli.la/2W5HHnq)) | Amoladora angular; la ficha consultada no enumera kit de consumibles | 710 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
-| [G1910AR](https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/) ([oferta afiliada](https://meli.la/2fZCTvU)) | Versión de 750 W sin contenido de kit de consumibles detallado en la ficha | 750 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
-| [G1910KAR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/) ([oferta afiliada](https://meli.la/2v5oUyR)) | Kit con discos y maletín descritos por Gamma | 750 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
-| [G1917AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/) ([oferta afiliada](https://meli.la/21zWjnh)) | Amoladora angular; la ficha consultada no detalla un kit de discos o maletín | 850 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
+| [G1922AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/) [Ver precio en Mercado Libre](https://meli.la/1pe68MA){:target="_blank" rel="sponsored noopener"} | Amoladora Gamma Select; la ficha no detalla discos o maletín como kit | 500 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
+| [G1923AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/) [Ver precio en Mercado Libre](https://meli.la/2W5HHnq){:target="_blank" rel="sponsored noopener"} | Amoladora angular; la ficha consultada no enumera kit de consumibles | 710 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
+| [G1910AR](https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/) [Ver precio en Mercado Libre](https://meli.la/2fZCTvU){:target="_blank" rel="sponsored noopener"} | Versión de 750 W sin contenido de kit de consumibles detallado en la ficha | 750 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
+| [G1910KAR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/) [Ver precio en Mercado Libre](https://meli.la/2v5oUyR){:target="_blank" rel="sponsored noopener"} | Kit con discos y maletín descritos por Gamma | 750 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
+| [G1917AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/) [Ver precio en Mercado Libre](https://meli.la/21zWjnh){:target="_blank" rel="sponsored noopener"} | Amoladora angular; la ficha consultada no detalla un kit de discos o maletín | 850 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las fichas de estos modelos publican eje M14 × 2. No todas especifican masa ni el contenido completo de caja. Cuando esos datos no aparecen en la ficha, pedí que el vendedor confirme el código exacto, la tensión de la unidad y los elementos incluidos.
 
 ## 750 vs 850 W

@@ -31,6 +31,7 @@ Seguí este recorrido: **operación → material → tipo de disco → guía esp
 
 Esta ruta sirve para acotar la elección; no reemplaza la etiqueta del accesorio ni el manual de la máquina. Para vidrio, madera, aluminio u otro material que no aparezca expresamente en la ficha, no deduzcas compatibilidad por semejanza: buscá un disco y una herramienta con aplicación documentada.
 
+
 ## Tipos de discos
 
 - **Disco abrasivo de corte:** delgado y diseñado para separar material, dentro de las aplicaciones que declara su fabricante. El material importa: no todos los discos de metal incluyen acero inoxidable.
@@ -90,11 +91,13 @@ Estos ejemplos muestran cómo una tabla separa operación, material y geometría
 | Operación | Accesorio Bosch documentado | Material declarado | Dimensiones identificadas |
 | :--- | :--- | :--- | :--- |
 | Cortar metal | PRO Metal 2 608 619 252 | Metal | 115 × 1,6 × 22,23 mm |
-| Desbastar metal | PRO Metal 2 608 600 218 | Metal | 115 × 6 × 22,23 mm |
+| Desbastar metal | PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} | Metal | 115 × 6 × 22,23 mm |
 | Lijar/desbastar metal | Flap PRO X571, 2 608 607 322 | Acero y acero inoxidable en la familia | 115 mm, grano 40, agujero 22,23 mm |
 | Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
-| Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
+| Cortar azulejo | PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"} | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Alcance de la matriz:** las aplicaciones y dimensiones corresponden a los códigos Bosch enlazados abajo. En los cinco casos aparece un diámetro de 115 mm, pero cambian la operación, el espesor, el diseño y el material declarado. No se deduce compatibilidad con otros materiales o fijaciones.
 
 ## Fuentes consultadas

@@ -47,7 +47,12 @@ Las guías de [Bosch](/taladros/bosch-inalambrico/) y [DeWalt](/taladros/dewalt-
 
 **Análisis TallerLab:** esta opción cambia la compra si necesitás percusión y empezar con baterías/cargador. Para comparar el costo de empezar, pedí el contenido completo de cada kit. No normalizamos su etiqueta 20 V a 18 V sin documentación de esa condición ni ordenamos 66 Nm comerciales contra los torques de la tabla como si fueran un ensayo común.
 
-[Consultar el kit Ingco CIDLI20668-4](https://meli.la/2xvJRJp). Enlace de afiliado: precio, stock, contenido y garantía se confirman en la oferta. Revisá también la [guía específica de percutores inalámbricos](/taladros/taladro-percutor-inalambrico/). Para hormigón y accesorios SDS, la decisión puede cambiar hacia un [rotomartillo](/taladros/rotomartillos/).
+
+[Ver precio del kit Ingco CIDLI20668-4 en Mercado Libre](https://meli.la/2xvJRJp){:target="_blank" rel="sponsored noopener"}.
+
+
+*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+En la publicación, comprobá precio, stock, contenido y garantía. Revisá también la [guía específica de percutores inalámbricos](/taladros/taladro-percutor-inalambrico/). Para hormigón y accesorios SDS, la decisión puede cambiar hacia un [rotomartillo](/taladros/rotomartillos/).
 
 ## Fuentes consultadas
 
