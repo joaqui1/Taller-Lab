@@ -21,13 +21,15 @@ published: true
 
 Seguí este recorrido: **operación → material → tipo de disco → guía específica**. Después comprobá la compatibilidad con tu amoladora: que dos accesorios tengan el mismo diámetro o agujero no significa que sirvan para lo mismo.
 
-| Operación | Material | Tipo de disco | Guía específica |
-| :--- | :--- | :--- | :--- |
-| Cortar | Metal | Disco abrasivo de corte para el metal indicado | [Discos de corte para amoladora](/amoladoras/disco-de-corte/) |
-| Desbastar | Metal | Disco rígido de desbaste, identificado para el metal | [Disco de desbaste](/amoladoras/disco-de-desbaste/) |
-| Terminar o lijar | Metal | Disco flap del abrasivo, grano y forma adecuados | [Cómo elegir un disco flap](/amoladoras/disco-flap/) |
-| Cortar | Hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
-| Cortar | Cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+| Operación | Material | Tipo de disco | Referencia para comparar | Datos de la referencia | CTA |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Cortar | Metal | Disco abrasivo de corte para el metal indicado | Bosch Standard for Inox 2608619742 | 115 × 1,6 × 22,23 mm; 13.300 rpm máx. según la publicación | [Ver precio y disponibilidad en Mercado Libre](https://www.mercadolibre.com.ar/disco-corte-para-acero-115x16x2223mm-bosch/up/MLAU125112616){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [discos de corte](/amoladoras/disco-de-corte/) |
+| Desbastar | Metal | Disco rígido de desbaste, identificado para el metal | Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm; A 30 T BF | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [guía de desbaste](/amoladoras/disco-de-desbaste/) |
+| Terminar o lijar | Metal | Disco flap del abrasivo, grano y forma adecuados | Lüsqtoff LQDFLAP60 | 115 mm; grano 60; zirconio según la publicación | [Ver precio y disponibilidad en Mercado Libre](https://www.mercadolibre.com.ar/disco-flap-desbaste-grano-60-amoladora-metal-115mm-lusqtoff/up/MLAU2944968836){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [guía de flap](/amoladoras/disco-flap/) |
+| Cortar | Hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | — | — | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
+| Cortar | Cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | — | — | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+
+**Antes de comprar:** hacé coincidir el código del disco, la operación y el material admitido; revisá diámetro, espesor, agujero y rpm máxima frente a la amoladora y su guarda. En publicaciones por pack, comprobá cantidad, variante y vendedor. Para estos accesorios no aplica una tensión propia: importa la tensión y el manual de la herramienta donde se montará.
 
 Esta ruta sirve para acotar la elección; no reemplaza la etiqueta del accesorio ni el manual de la máquina. Para vidrio, madera, aluminio u otro material que no aparezca expresamente en la ficha, no deduzcas compatibilidad por semejanza: buscá un disco y una herramienta con aplicación documentada.
 
@@ -91,10 +93,10 @@ Estos ejemplos muestran cómo una tabla separa operación, material y geometría
 | Operación | Accesorio Bosch documentado | Material declarado | Dimensiones identificadas |
 | :--- | :--- | :--- | :--- |
 | Cortar metal | PRO Metal 2 608 619 252 | Metal | 115 × 1,6 × 22,23 mm |
-| Desbastar metal | PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} | Metal | 115 × 6 × 22,23 mm |
+| Desbastar metal | PRO Metal 2 608 600 218 | Metal | 115 × 6 × 22,23 mm |
 | Lijar/desbastar metal | Flap PRO X571, 2 608 607 322 | Acero y acero inoxidable en la familia | 115 mm, grano 40, agujero 22,23 mm |
 | Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
-| Cortar azulejo | PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"} | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
+| Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*

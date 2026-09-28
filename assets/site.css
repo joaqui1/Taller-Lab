@@ -286,6 +286,19 @@ footer p[style] { color: #96a2a1 !important; }
 
 /* Selección editorial: motivo y comprobaciones preceden a la compra. */
 .buying-note { margin: 2rem 0 3rem; padding: 2rem; background: #eaf0ed; border-left: 4px solid #425e50; }
+.amoladora-editorial-choice { margin: 2rem 0 3rem; padding: 2rem; background: #eaf0ed; border-left: 4px solid #425e50; }
+.amoladora-editorial-choice > h2 { margin: .35rem 0 1.2rem; }
+.editorial-product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 1rem; }
+.editorial-product-choice { background: #fff; border: 1px solid #d7ddd8; padding: 1.15rem; }
+.contextual-product-choice { margin: 1.7rem 0; padding: 1.35rem; background: #f4f2ed; border-left: 3px solid #78867d; }
+.contextual-product-choice h3 { margin: .4rem 0 .65rem; font-size: 1.05rem; }
+.contextual-product-choice > p { line-height: 1.65; font-size: .9rem; }
+.editorial-product-choice h3 { margin: 0 0 .75rem; font-size: 1.05rem; }
+.editorial-product-choice > p { line-height: 1.65; font-size: .9rem; }
+.product-before-buying { margin-top: 1.1rem; padding-top: .75rem; border-top: 1px solid #d7ddd8; }
+.product-before-buying h4 { margin: 0 0 .45rem; font-size: .84rem; }
+.product-before-buying ul { margin: 0; padding-left: 1.2rem; line-height: 1.65; font-size: .82rem; }
+.buying-disclosure { margin: 1rem 0 0; font-size: .75rem; color: #495653; }
 .buying-note[data-buying-status="check"] { border-left-color: #ae652a; background: #f4eee5; }
 .buying-intro h2 { font-size: clamp(1.35rem, 2.8vw, 1.85rem); line-height: 1.3; letter-spacing: -.035em; max-width: 35ch; scroll-margin-top: 110px; }
 .buying-intro > p { margin-top: 1rem; line-height: 1.8; max-width: 75ch; }
@@ -303,7 +316,7 @@ footer p[style] { color: #96a2a1 !important; }
 .buying-sources, .buying-disclosure { margin-top: 1rem; font-size: .76rem; line-height: 1.8; color: #515956; }
 .buying-sources a { text-decoration: underline; overflow-wrap: anywhere; }
 .buying-disclosure { border-top: 1px solid #c2c9c3; padding-top: .8rem; }
-@media (max-width: 600px) { .buying-note { padding: 1.4rem 1.1rem; } .buying-reasons { grid-template-columns: 1fr; gap: 1rem; } .buying-actions { align-items: stretch; flex-direction: column; } .buying-link { text-align: center; } }
+@media (max-width: 600px) { .buying-note, .amoladora-editorial-choice { padding: 1.4rem 1.1rem; } .buying-reasons { grid-template-columns: 1fr; gap: 1rem; } .buying-actions { align-items: stretch; flex-direction: column; } .buying-link { text-align: center; } }
 @media (max-width: 600px) { .hub-nav { display: grid; grid-template-columns: 1fr; } .hub-nav a { padding: .7rem 1rem; } .hub-criteria ul { display: block; } .hub-criteria li { margin-bottom: .5rem; } .hub-section { margin-top: 2.5rem; } .hub-section-heading h2 { font-size: 1.5rem; } .hub-documental > .article-container { padding: 0 .5rem 1rem; } }
 /* Portada editorial: entradas elegidas, catálogo bajo demanda. */
 .home-page { max-width: 1240px; margin: 0 auto; }

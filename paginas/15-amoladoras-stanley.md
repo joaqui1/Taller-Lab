@@ -33,6 +33,8 @@ Stanley Argentina lista varias amoladoras angulares con cable de **115 mm**, ent
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las especificaciones de las tres herramientas con cable se contrastan con manuales Stanley; la lista argentina del fabricante confirma los códigos comercializados en su catálogo online. La potencia o las rpm en vacío no predicen por sí solas la velocidad de corte ni el rendimiento bajo carga.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Modelos Stanley
 
 La categoría argentina de “Esmeriles y Pulidoras” incluye los tres modelos comparados arriba y también la **SGS1045-AR de 1.050 W**, además de otros formatos. No incorporamos la SGS1045 a la comparación técnica porque la ficha argentina disponible no muestra allí las especificaciones detalladas; es un código adicional para pedir su manual y contrastarlo con la placa antes de elegir.
@@ -44,6 +46,8 @@ Las fichas de producto de STGS7115-AR, STGS8115-AR y STGS9115-AR ofrecen opción
 Los tres códigos locales de la tabla aceptan discos de 115 mm. Los manuales consultados especifican también rosca M14; antes de montar un disco, comprueba el diámetro permitido por la máquina, el orificio y brida, el tipo de accesorio y su límite de RPM.
 
 La STGS7115-AR y STGS8115-AR declaran respectivamente 710 W y 850 W, y ambas aparecen con 11.000 rpm en sus manuales. La STGS9115-AR sube a 900 W y 12.000 rpm en vacío. Son opciones para comparar por tarea, frecuencia, ergonomía y kit; estas cifras no son una prueba de corte entre modelos.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Amoladoras Stanley inalámbricas V20
 

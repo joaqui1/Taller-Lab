@@ -38,6 +38,8 @@ Se usa sobre todo para trabajar metal: quitar rebabas, suavizar cordones de sold
 
 La aplicación exacta depende de la etiqueta de cada producto. No des por hecho que un flap sirve para madera, pintura, acero inoxidable o cualquier otro material solo porque el diámetro encaje; comprobá los materiales admitidos por el fabricante.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Grano 40, 60, 80 y 120
 
 En una misma familia y con los demás datos comparables, el grano más bajo suele ser más grueso y agresivo; al subir el número, el abrasivo suele quitar menos material por pasada y dejar marcas más finas. Usá esto como punto de partida: la terminación también varía con el mineral, la densidad y respaldo de las láminas, la presión, la máquina y la pieza.
@@ -50,6 +52,8 @@ En una misma familia y con los demás datos comparables, el grano más bajo suel
 | 120 | Acabado más fino o preparación ligera, si el fabricante ofrece ese grano para la aplicación | Menos agresivo; no necesariamente deja un acabado final listo para cualquier proceso |
 
 Si no conocés la respuesta del producto sobre tu pieza, empezá por el grano menos agresivo que pueda resolver la tarea en un retazo o zona de prueba y avanzá en pasos. No saltes directamente a un grano grueso sobre una superficie visible. Los fabricantes ofrecen combinaciones distintas de granos, tipos y minerales; la tabla es orientativa, no una norma de acabado ni una promesa de resultado.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Zirconio vs óxido de aluminio vs cerámico
 

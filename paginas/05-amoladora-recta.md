@@ -60,6 +60,8 @@ Las especificaciones de potencia eléctrica y de consumo neumático no permiten 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. En estos dos ejemplos con cable, Bosch declara 100 W más (25 % sobre 400 W) y 8.000 rpm más en vacío (32 % sobre 25.000 rpm). Esas son diferencias aritméticas entre fichas, no una prueba de capacidad de desbaste.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Qué compresor requiere la neumática
 
 No alcanza con mirar el tamaño del tanque ni el caudal aspirado que figura destacado en una publicación de compresor. Compará el consumo de la herramienta con el caudal efectivo que el compresor entrega a la presión de trabajo, y sumá las herramientas que vayan a funcionar a la vez. También importan el ciclo de trabajo, las pérdidas de la instalación, el diámetro y la longitud de la manguera.

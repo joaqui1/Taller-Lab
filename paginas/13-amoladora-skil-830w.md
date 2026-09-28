@@ -22,9 +22,6 @@ published: true
 
 La **Skil 9004** es la variante de 830 W para disco de 115 mm; el manual identifica las versiones argentinas **9004AR y 9002AR**, ambas de **220 V**, y especifica 700 W para 9002AR.
 
-Publicaciones para comparar: [ver precio de la Skil 9004 en Mercado Libre](https://meli.la/1ruBvJN){:target="_blank" rel="sponsored noopener"} y [ver precio de la Skil 9002 en Mercado Libre](https://meli.la/1AK4cis){:target="_blank" rel="sponsored noopener"}.
-
-
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del manual. Para esa unidad, confirmá placa y código con el vendedor; no tomamos los 650 W del aviso como especificación confirmada. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontramos una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
 
@@ -38,6 +35,8 @@ En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del man
 | Peso según EPTA en el manual | 1,7 kg | 2,0 kg |
 
 **Análisis TallerLab:** los 130 W de diferencia equivalen al 18,6 % de la potencia nominal de 700 W. El diámetro y las RPM en vacío coinciden en el manual, pero eso no prueba que la 9004 corte más rápido ni que pueda sostener más carga en cualquier tarea; no se hizo una prueba comparativa.
+
+<!-- EDITORIAL-COMMERCE -->
 
 ## Estado actual de los modelos
 

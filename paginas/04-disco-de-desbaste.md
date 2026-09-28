@@ -32,6 +32,8 @@ El disco de desbaste es un abrasivo aglomerado y reforzado diseñado para retira
 
 Bosch declara su PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} para desbastar metal. En esa referencia publica 115 mm de diámetro, 6 mm de espesor, agujero de 22,23 mm y especificación A 30 T BF. El fabricante describe granos de óxido de aluminio, matriz de resina y refuerzo de fibra de vidrio. Esos datos pertenecen a ese producto, no a todos los discos de desbaste.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Qué cambia según el metal
 
 “Metal” no identifica por sí solo todas las aplicaciones. Acero al carbono, acero inoxidable, fundición y aluminio pueden requerir abrasivos o discos distintos. Leé el material indicado en la etiqueta y la ficha del disco específico; si no nombra la pieza que querés trabajar, no supongas que sirve por tener un color o una forma conocida.

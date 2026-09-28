@@ -50,6 +50,8 @@ Antes de pagar, confirmá por escrito:
 - accesorios y guarda incluidos;
 - garantía local, servicio técnico, disponibilidad de baterías y repuestos.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Qué significa entrar a una plataforma de batería
 
 Comprar la primera máquina también puede significar elegir un ecosistema. Las baterías suelen compartirse entre herramientas de una misma plataforma y generación, pero no entre marcas; tampoco conviene asumir compatibilidad entre todos los productos de una misma marca sin verificar el modelo y el manual.
@@ -66,7 +68,7 @@ Una batería de mayor capacidad puede extender el tiempo entre cargas, pero tamb
 
 Elegí el diámetro que acepte la herramienta y su guarda. **115 mm** es un formato compacto y común en las angulares a batería documentadas aquí; **125 mm** permite más profundidad de corte solo cuando herramienta, guarda y disco están certificados para ese diámetro. No fuerces un disco mayor ni retires la protección para ganar alcance.
 
-En esta muestra, Bosch publica 125 mm para GWS 18V-10 PC; INGCO CAGLI2111561-4 y Makita DGA467 publican 115 mm. DeWalt presenta la DCG413 como modelo de 4-1/2 pulgadas (115 mm) en su ficha de fabricante. No tomes los rpm en vacío como medida de rapidez de corte: no son una prueba bajo carga.
+En esta muestra, Bosch publica 125 mm para GWS 18V-10 PC y GWS 180-LI; INGCO CAGLI2111561-4 y Makita DGA467 publican 115 mm. DeWalt presenta la DCG413 como modelo de 4-1/2 pulgadas (115 mm) en su ficha de fabricante. No tomes los rpm en vacío como medida de rapidez de corte: no son una prueba bajo carga.
 
 ## Brushless
 
@@ -91,11 +93,14 @@ Estos modelos amplían la comparación más allá de dos máquinas. No forman un
 
 | Modelo / código | Disco y datos publicados | Plataforma y paquete | Lo que aporta a la decisión |
 | :--- | :--- | :--- | :--- |
+| **Bosch Professional GWS 180-LI** (0 601 9H9 0E0) | 125 mm, 11.000 rpm, M14; 1,6 kg sin batería / 2,2 kg con batería | Bosch Professional 18 V; caja con accesorios, sin batería ni cargador según ficha argentina | Alternativa compacta Bosch con costo de entrada a calcular si no tenés packs compatibles. |
 | **Bosch GWS 18V-10 PC** (0 601 9G3 E0B; [Ver publicación en Mercado Libre](https://meli.la/2QuQtmd){:target="_blank" rel="sponsored noopener"}) | 125 mm, 9.000 rpm, M14; 2,0 kg sin batería / 2,8 kg con batería | Bosch Professional 18 V; la ficha del producto consultada no incluye batería ni cargador | Formato de 125 mm y datos de peso en ambas configuraciones; declara funciones de control y freno. |
+| **KTO TLD21-5** | Angular incluida en kit anunciado como 21 V; verificar diámetro y velocidad del código exacto | La publicación anuncia dos baterías y cargadores; confirmar variante/capacidad y contenido entregado | Opción de entrada en paquete si empezás sin plataforma; el contenido del aviso requiere cotejo por SKU. |
 | **INGCO CAGLI2111561-4** | 115 mm, 3.000/8.000 rpm, M14 | Kit local publicado con una batería de 4 Ah, cargador y estuche; la tienda declara entrada de cargador 220–240 V, 50/60 Hz | Opción de kit completo P20S; motor brushless y selector de dos velocidades declarados. |
 | **DeWalt DCG413H2-AR** | El fabricante documenta DCG413 de 4-1/2 in (115 mm), 9.000 rpm y 20V MAX | El vendedor local consultado ofrece dos baterías PowerStack de 5 Ah, cargador DCB1104 y bolso; verificar el paquete exacto antes de comprar | Ejemplo de kit con dos baterías; la familia 20V MAX también permite considerar herramientas compatibles. |
 | **Makita DGA467** (SKU local mostrado: DGA467Z) | 115 mm, velocidad variable publicada de 3.000–8.500 rpm; peso 2,4–3,1 kg según configuración | La página argentina tiene discrepancia: el nombre menciona DGA467RFE, el SKU dice DGA467Z y el texto afirma que no incluye batería ni cargador | No cerrar el costo ni asumir contenido de kit hasta que el vendedor confirme el código completo y la caja. |
 
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 La publicación enlazada de Bosch se titula **GWS 10** y presenta campos comerciales de 18 V, 125 mm y 4.500–9.000 rpm, pero no muestra aquí el código completo para confirmar que sea **0 601 9G3 E0B / GWS 18V-10 PC**. No usamos esos campos para la tabla técnica; pedí foto de placa y manual del equipo ofrecido. El dato de “profundidad de corte de 1 m” del aviso no corresponde a una especificación que podamos atribuir a la amoladora.

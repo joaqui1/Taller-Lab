@@ -37,6 +37,8 @@ Una amoladora de banco sostiene dos muelas abrasivas giratorias para afilar, des
 
 **Análisis TallerLab:** ambos ejemplos usan muelas de 150 mm, pero difieren en ancho publicado en 4 mm y en régimen en 50 rpm. Bosch publica un peso 4 kg mayor. Es una diferencia aritmética de especificaciones, no evidencia de estabilidad o precisión. El dato S2 (60 min) de Bosch limita el tiempo de funcionamiento indicado por el fabricante; no equivale a permiso para usarla indefinidamente ni se debe trasladar al modelo Lusqtoff.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Para qué sirve una amoladora de banco
 
 Se usa en un puesto fijo para afilar herramientas, desbarbar bordes y rectificar metal con la muela apropiada. Dos muelas permiten tener dos granulometrías a mano, por ejemplo una para quitar material y otra para un acabado más fino. El manual Bosch GBG 35-15 contempla el afilado de herramientas y el trabajo de metal; la aplicación exacta depende de la muela y del equipo.
@@ -94,6 +96,8 @@ Usá protección ocular/facial y auditiva adecuada, mantené manos y ropa alejad
 Para afilados y desbarbados ocasionales de piezas pequeñas, una máquina de 150 mm puede ocupar menos espacio; compará la potencia, la muela incluida, el tamaño de apoyo y el régimen declarado con el trabajo que hacés. Los dos ejemplos de 150 mm aquí documentados son Bosch GBG 35-15 y Lusqtoff AB-375, pero la ficha incompleta de servicio de la AB-375 impide recomendarla para uso prolongado.
 
 Para un banco de trabajo con piezas más grandes o uso frecuente, un modelo de 200/205 mm ofrece una muela de mayor diámetro, pero requiere espacio, muelas específicas, anclaje y documentación de régimen adecuada. Bosch GBG 60-20 documenta S2 (60 min); Makita GB801 documenta medidas y potencia, pero en las fuentes consultadas no encontramos su clasificación de servicio. No llamamos “mejor” a ningún modelo sin una prueba en la misma tarea.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Qué revisar antes de comprar
 

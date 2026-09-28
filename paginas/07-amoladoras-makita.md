@@ -41,6 +41,8 @@ La 9557HPG local se describe con cuerpo delgado, interruptor de paleta y barniz 
 
 Si primero querés resolver el diámetro compacto y después elegir marca, consultá la [comparación entre amoladoras de 115 y 125 mm](/amoladoras/115-o-125/).
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## 9557HPG vs GA4534/GA4530: aclaración de códigos
 
 **GA4530 y GA4534 son códigos distintos**, no nombres alternativos para una misma herramienta. Las fichas de Makita Latinoamérica les asignan motor de 720 W, disco de 115 mm y 11.000 rpm, pero GA4530 tiene interruptor deslizable y GA4534 interruptor de paleta. También publican medidas y rangos de peso ligeramente distintos. Para decidir, importa qué interruptor querés y qué código figura en la placa, caja y factura.
@@ -59,6 +61,8 @@ Para piezas que admiten discos mayores que 115 mm, Makita Argentina documenta di
 | [GA9020 · guía de 230 mm (9 pulgadas)](/amoladoras/9-pulgadas/) [Ver precio en Mercado Libre](https://meli.la/21s58cx){:target="_blank" rel="sponsored noopener"} | 230 mm (9 in) | 2.200 W | 6.000 rpm | 5,76–8,05 kg |
 
 El mayor diámetro puede ampliar el alcance y la profundidad de trabajo permitidos por el conjunto, pero también cambia el tamaño y la masa de la herramienta. No uses un disco mayor que el diámetro admitido por la máquina y su guarda. Elegí por la operación, el tamaño de pieza y tu control de la máquina, no solo por comparar watts o rpm.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Si corresponde una opción inalámbrica
 

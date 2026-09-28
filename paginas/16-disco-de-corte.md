@@ -33,6 +33,8 @@ Para elegir un disco de corte, empezá por el material y verificá después diá
 
 La matriz general de accesorios está en [discos para amoladora](/amoladoras/discos/). Esta URL profundiza en el corte: el uso y el material declarados por el fabricante son el filtro principal, antes de comparar códigos o precios.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Metal
 
 Para acero u otra pieza metálica, seleccioná un disco abrasivo cuya etiqueta o ficha incluya la operación de corte y el material concreto. Las fichas pueden diferenciar metal de acero inoxidable; “para metal” no significa automáticamente que sirva para todas las aleaciones, ni para aluminio, fundición u otros metales no nombrados.

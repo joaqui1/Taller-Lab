@@ -32,6 +32,8 @@ Sí hay discos diamantados de amoladora que el fabricante declara para cortar vi
 
 La referencia Lusqtoff aporta un código y una oferta local verificables; el stock comercial puede cambiar. No confirmamos distribución argentina de las referencias Tork Craft y Husqvarna de la tabla. Tampoco se ensayaron los discos. Antes de comprar o montar, verificá el código completo, el manual del accesorio y el de la máquina.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Qué tipo de vidrio cubren las fichas
 
 Tork Craft nombra botellas y vidrio en general para el TCDB80115, y vidrio para ambos códigos; Husqvarna especifica azulejo de vidrio para VARI-CUT S4. Tork Craft presenta los discos como compatibles con amoladoras angulares de 115 mm. Las fuentes no precisan compatibilidad con vidrio templado, laminado, espejado, armado, de seguridad ni otros tipos de placa. No extrapoles la mención genérica “vidrio” a esos materiales: pedí confirmación del fabricante para el producto y el proceso exactos.
@@ -43,6 +45,8 @@ La página de preguntas frecuentes de Bosch, consultada en su ficha EXPERT Multi
 En TCDB80115 y TCDB1240115 el fabricante declara diámetro de 115 mm, agujero de 22,23 mm y velocidad máxima de 13.300 rpm. La amoladora debe admitir el diámetro y el accesorio debe asentarse en el eje y las bridas correctos. La velocidad máxima marcada en el disco no se debe superar; comprobá también el régimen de la máquina y seguí el manual de ambos.
 
 No agrandes el agujero ni retires la guarda para adaptar un disco. Bosch indica en su FAQ que los discos diamantados están definidos para máquinas y diámetros concretos, que el agujero debe coincidir y que no se debe trabajar sin protector. Esa instrucción general de montaje no convierte un producto Bosch en apto para vidrio.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Corte seco o húmedo
 

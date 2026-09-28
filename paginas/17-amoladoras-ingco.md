@@ -36,6 +36,8 @@ La oferta INGCO cambia según país, sufijo y armado. Para Argentina, conviene e
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las potencias indicadas son las publicadas por cada fuente, no una prueba comparativa de rendimiento. El catálogo comercial no demuestra qué variante está en stock en tu ciudad; usá los enlaces de cada fila para consultar el estado actual.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Modelos con cable de 115 mm
 
 El AG7118-4 es la referencia compacta de 710 W que INGCO Store Argentina publica para 115 mm y 220–240 V. El catálogo local del fabricante también identifica ese código y la versión con enchufe IRAM. Para quien busca una cifra de potencia nominal más alta, el AG8508-4 aparece en la oferta argentina del representante; la ficha oficial INGCO del AG8508 en Chile documenta 950 W, 11.000 rpm, 115 mm, 220–240 V y rosca M14. Como el sufijo de la SKU puede señalar una versión de mercado, revisá la etiqueta de la unidad vendida y no traslades automáticamente la caja o los accesorios de la ficha sin sufijo.
@@ -60,6 +62,8 @@ Como kit, la CAGLI271532-4 está listada con dos baterías de 4 Ah, cargador y m
 | CAGLI271532-4, kit | Amoladora, dos baterías de 4 Ah, cargador y maletín | Comparar precio total y revisar en la ficha de venta los amper-hora, modelo de cargador y accesorios incluidos |
 
 Para comparar el costo real, sumá **cuerpo + batería compatible + cargador**, o contrastá ese total con el kit completo. Si ya tenés una batería INGCO P20S, comprobá que sea compatible con la amoladora y contá si necesitás otra para tu jornada. Los Ah expresan capacidad nominal, pero no permiten predecir minutos de corte sin condiciones de uso comparables.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 Para comparar estas configuraciones con plataformas y kits de otras marcas, seguí la [guía de amoladoras inalámbricas](/amoladoras/inalambricas/).
 

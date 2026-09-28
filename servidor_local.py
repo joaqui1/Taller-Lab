@@ -19,6 +19,7 @@ from hubs import HUB_EDITORIAL, HUB_STEPS
 from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
+from amoladoras_comerciales import AMOLADORA_CHOICES, render_amoladora_choice, render_contextual_choice
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -1850,14 +1851,15 @@ def render_article_page(article, embedded=False):
     # 2. Formatear botones comerciales de Mercado Libre
     def render_ml_link(match):
         label, url, button = match.groups()
-        is_affiliate = url.startswith("https://meli.la/")
-        css_class = ' class="btn-mercado-libre"' if button and is_affiliate else (' class="catalog-link"' if button else '')
-        rel = "nofollow sponsored noopener noreferrer" if is_affiliate else "nofollow noopener noreferrer"
+        host = urllib.parse.urlsplit(url).hostname or ""
+        is_marketplace = host == "meli.la" or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar")
+        css_class = ' class="btn-mercado-libre"' if button and is_marketplace else (' class="catalog-link"' if button else '')
+        rel = "nofollow sponsored noopener noreferrer" if is_marketplace else "nofollow noopener noreferrer"
         suffix = ' ↗' if button else ''
         return f'<a href="{url}" target="_blank" rel="{rel}"{css_class}>{label}{suffix}</a>'
 
     clean_body = re.sub(
-        r'\[([^\]]+)\]\((https://(?:meli\.la/[A-Za-z0-9]+|listado\.mercadolibre\.com\.ar/[^\)]+))\)'
+        r'\[([^\]]+)\]\((https://(?:meli\.la/[A-Za-z0-9]+|(?:www\.)?mercadolibre\.com\.ar/[^\)]+|listado\.mercadolibre\.com\.ar/[^\)]+))\)'
         r'\s*\{:target="_blank" rel="[^"]*"( \.btn-mercado-libre)?\}',
         render_ml_link,
         clean_body,
@@ -1899,10 +1901,32 @@ def render_article_page(article, embedded=False):
         if not (host == "meli.la" or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar")):
             return tag
         tag = re.sub(r'\s(?:target|rel)="[^"]*"', '', tag)
-        rel = "nofollow sponsored noopener noreferrer" if href.startswith("https://meli.la/") else "nofollow noopener noreferrer"
+        rel = "nofollow sponsored noopener noreferrer" if href.startswith("https://meli.la/") or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar") else "nofollow noopener noreferrer"
         return tag[:-1] + f' target="_blank" rel="{rel}">'
 
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
+    if article["url"] in AMOLADORA_CHOICES:
+        # Affiliate CTAs live in one editorially placed comparison block. Keep
+        # product names in the technical tables, but do not repeat buy buttons.
+        if article["url"] != "/amoladoras/discos/":
+            def keep_only_selected_product_link(match):
+                href, label = match.groups()
+                host = urllib.parse.urlsplit(href).hostname or ""
+                if not (host == "meli.la" or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar")):
+                    return match.group(0)
+                label = re.sub(r"(?i)\s*(?:ver precio(?: y disponibilidad)?(?: de [^\]]+)?|ver publicación|consultar)(?: en mercado libre)?\s*", "", label).strip()
+                return label
+            rendered_body = re.sub(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', keep_only_selected_product_link, rendered_body, flags=re.DOTALL)
+        choice_html = render_amoladora_choice(article["url"])
+        if "<!-- EDITORIAL-COMMERCE -->" in rendered_body:
+            rendered_body = rendered_body.replace("<!-- EDITORIAL-COMMERCE -->", choice_html)
+        elif choice_html:
+            # Most pages place the offer after the first complete editorial
+            # section; pages can set the marker where their decision block ends.
+            editorial_section = re.search(r"(?s)(<h2\b.*?</h2>.*?)(?=<h2\b|$)", rendered_body)
+            if editorial_section:
+                rendered_body = rendered_body[:editorial_section.end(1)] + choice_html + rendered_body[editorial_section.end(1):]
+        rendered_body = rendered_body.replace("<!-- EDITORIAL-COMMERCE-SECONDARY -->", render_contextual_choice(article["url"]))
     if resource:
         source_heading = {"table": "Fichas detrás de la comparación", "selector": "Documentos de este recorrido", "checklist": "Documentos para estas comprobaciones"}.get(resource["kind"], "Fuentes del cálculo y sus límites")
         rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
@@ -1916,7 +1940,7 @@ def render_article_page(article, embedded=False):
         for item in AFFILIATE_PRODUCTS.get(article["section"], [])
         if (item[2] in assigned if assigned is not None else item[2] in article["body"])
     ]
-    affiliate_shelf = render_affiliate_shelf(article["section"], shelf_products) if shelf_products else ""
+    affiliate_shelf = render_affiliate_shelf(article["section"], shelf_products) if shelf_products and article["section"] != "amoladoras" else ""
     
     # 3. Enlazado interno contextual basado en algoritmo de relevancia
     related = get_related_articles(article, ALL_ARTICLES, TAXONOMY_MAP, limit=3)
@@ -1925,7 +1949,8 @@ def render_article_page(article, embedded=False):
     # realmente visible en esta página; nunca hereda fichas de toda la categoría.
     cited_sources = []
     for label, url in re.findall(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', article["body"]):
-        if not url.startswith(("https://meli.la/", "https://listado.mercadolibre.com.ar/")):
+        source_host = urllib.parse.urlsplit(url).hostname or ""
+        if not (source_host == "meli.la" or source_host == "mercadolibre.com.ar" or source_host.endswith(".mercadolibre.com.ar")):
             cited_sources.append((label, url))
     for category, product in shelf_products:
         facts = PRODUCT_FACTS.get(product[2])
@@ -1942,7 +1967,9 @@ def render_article_page(article, embedded=False):
         if url in seen_sources:
             continue
         seen_sources.add(url)
-        source_items.append(f'<li><a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(label)} ↗</a></li>')
+        source_host = urllib.parse.urlsplit(url).hostname or ""
+        source_rel = "nofollow sponsored noopener noreferrer" if source_host == "meli.la" or source_host == "mercadolibre.com.ar" or source_host.endswith(".mercadolibre.com.ar") else "noopener noreferrer"
+        source_items.append(f'<li><a href="{escape(url, quote=True)}" target="_blank" rel="{source_rel}">{escape(label)} ↗</a></li>')
     sources_html = ("<ul>" + "".join(source_items) + "</ul>") if source_items else "<p>Esta guía aún no cita una fuente externa para sus afirmaciones técnicas.</p>"
     sources_footer = "" if re.search(r'^## Fuentes consultadas\s*$', article["body"], re.MULTILINE) else f'<div class="article-sources"><strong>Fuentes consultadas:</strong>{sources_html}</div>'
     reviewed_label = f'Última revisión documental: {escape(article["reviewed"])}'
@@ -1991,15 +2018,18 @@ def render_article_page(article, embedded=False):
         <p class="article-lead">{article['description']}</p>
       </div>
 
-      {render_resource(article)}
-      {render_buying_note(article, PRODUCT_FACTS)}
-      {render_quick_guide(article)}
+      {render_resource(article) if article["section"] != "amoladoras" else ""}
+      {render_buying_note(article, PRODUCT_FACTS) if article["section"] != "amoladoras" else ""}
+      {render_quick_guide(article) if article["section"] != "amoladoras" else ""}
       {render_50l_models() if article["url"] == "/compresores/50-litros/" else ""}
       {affiliate_shelf}
 
       <div id="markdown-target" class="markdown-body">
         {rendered_body}
       </div>
+
+      {render_resource(article) if article["section"] == "amoladoras" else ""}
+      {render_quick_guide(article) if article["section"] == "amoladoras" else ""}
 
       <!-- Bloque de Confianza y Transparencia -->
       <div class="trust-footer">

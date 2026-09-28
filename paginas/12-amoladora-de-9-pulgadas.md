@@ -42,6 +42,9 @@ Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no 
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+
+<!-- EDITORIAL-COMMERCE -->
+
 Los valores de peso no siempre se presentan con el mismo criterio; por ejemplo, la ficha Makita publica un rango. Tomalos como datos de catálogo y confirmá qué incluye la medición y el kit de la variante ofrecida. No inferimos cuál es “mejor” a partir de potencia, peso o funciones declaradas: ergonomía y rendimiento requieren comparación en condiciones equivalentes.
 
 ## Cuándo tiene sentido 230 mm
@@ -70,6 +73,8 @@ Por eso no uses el diámetro del disco ni una resta simple entre diámetro y cab
 - **Stanley STGL2223-AR:** la página oficial argentina identifica una amoladora de 230 mm y 2.200 W, informa garantía limitada de dos años y deriva a “Dónde comprar”. Su ficha pública consultada no permite completar velocidad ni peso.
 
 Para una comparación de compra, pedí foto de la placa y verificá **código completo, tensión de la unidad, kit, garantía y disponibilidad de servicio/repuestos**. Los modelos citados tienen documentación del fabricante dirigida al mercado argentino, pero eso no prueba inventario actual en una tienda concreta.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Disponibilidad de discos de 230 mm
 

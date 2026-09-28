@@ -23,12 +23,16 @@ Para cortar azulejo o baldosa cerámica con una amoladora, empezá por el materi
 
 Esta guía se concentra en discos para cerámica. **No extiende una ficha a todo porcelanato:** algunas referencias de fabricante incluyen porcelana o baldosas duras de forma explícita; otras solo nombran cerámica o azulejos. La futura guía de discos para porcelanato debe resolver por separado las referencias que el fabricante habilite expresamente para ese material.
 
+<!-- EDITORIAL-COMMERCE -->
+
 
 ## Cerámica vs porcelanato: no asumir equivalencia
 
 “Cerámica” se usa para revestimientos con propiedades y durezas distintas. El porcelanato suele ser una baldosa más densa, pero el nombre comercial del material no alcanza para elegir un accesorio. Revisá el envase o ficha del **modelo y código exactos**: buscá si menciona porcelanato, porcelana dura, gres porcelánico o baldosas duras, y respetá las instrucciones y límites que acompañan esa aplicación.
 
 En la documentación consultada, Bosch describe el **PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"}** para corte de azulejos, y su catálogo de accesorios también enumera porcelana dura y gres fino extremadamente duro para esa familia. El **EXPERT HardCeramic 2 608 900 654** se presenta para baldosas duras y su borde continuo; esa descripción no convierte a todos los discos de cerámica en adecuados para porcelanato. La futura guía de porcelanato debe comparar referencias cuyo fabricante nombre ese material de manera explícita.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*

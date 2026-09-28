@@ -33,6 +33,9 @@ La diferencia entre máquina sola y kit cambia el costo real. Antes de comparar 
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+
+<!-- EDITORIAL-COMMERCE -->
+
 Los datos describen fichas y catálogo del fabricante; no son una prueba comparativa de rendimiento. La potencia eléctrica, las RPM máximas y el diámetro admitido no permiten por sí solos anticipar la velocidad de corte o la duración de un trabajo.
 
 ## AML850-8 de 850 W
@@ -55,6 +58,8 @@ Su configuración es sencilla: disco de 115 mm y velocidad fija. Tiene sentido c
 La AML1010-8 agrega 160 W nominales, compatibilidad documentada con disco de hasta 125 mm y regulación de velocidad. No significa que siempre trabaje más rápido ni que sea la elección automática: el ajuste de velocidad sirve cuando el accesorio y la tarea admiten distintos regímenes. En ambas, verificá que el disco sea compatible con el diámetro, eje y RPM de la máquina.
 
 Para comparar cuándo la regulación de velocidad resulta útil en otras máquinas, consultá la [guía de amoladoras de velocidad variable](/amoladoras/velocidad-variable/). Si la decisión es entre disco de 115 y 125 mm, usá también la [comparativa de esas medidas](/amoladoras/115-o-125/).
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Qué implica Iron Volt
 

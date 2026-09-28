@@ -32,6 +32,8 @@ Para comparar Total en Argentina conviene empezar por el **código completo**, i
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las páginas enlazadas mostraban disponibilidad comercial en Argentina al revisarlas el 28/09/2026; el stock y el precio pueden cambiar. La tabla no declara un “mejor modelo”: las tres medidas cubren configuraciones distintas y la elección depende del disco necesario y de la tarea.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## Tres códigos regionales para seguir comparando
 
 El **TG10711576-4** figura en un catálogo regional de 710 W, 115 mm, 12.000 rpm y rosca M14. La ficha de venta de Dinet Argentina identifica el código completo y lo marcaba disponible. No debe confundirse automáticamente con el código sin sufijo `TG10711576` de páginas de otros países.
@@ -55,6 +57,8 @@ La medida sirve para descartar máquinas que no admiten el disco que requiere el
 - **180 mm — TG12018026-4:** corresponde a tareas que requieren una máquina y un disco de ese formato. Implica un conjunto de mayor tamaño que los modelos compactos; verificá que puedas controlarlo cómodamente y que la guarda, el disco y la operación sean compatibles.
 
 No deduzcas profundidad de corte, peso ni comodidad solo a partir del diámetro nominal. Revisá manual y placa del modelo, tipo de disco permitido, guarda y posición de trabajo antes de comprar.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Garantía, importador y servicio en Argentina
 

@@ -33,6 +33,8 @@ No hay una única Bosch para todos los trabajos. Empezá por el diámetro que ne
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+
+<!-- EDITORIAL-COMMERCE -->
 ## GWS 700 vs GWS 850
 
 Las dos son amoladoras compactas con cable y disco de 115 mm; lo que publica Bosch cambia entre modelos:
@@ -49,6 +51,8 @@ Las dos son amoladoras compactas con cable y disco de 115 mm; lo que publica Bos
 La GWS 850 declara **140 W más** y **1.000 rpm menos** en vacío que la GWS 700. Eso distingue sus datos nominales, pero no demuestra que corte más rápido o que soporte mejor un trabajo concreto. El peso de la 850 no queda uniforme entre la ficha argentina y el catálogo; no lo usamos para afirmar cuál es más liviana sin confirmar configuración y código de la unidad.
 
 Si estás eligiendo el tamaño compacto más allá de la marca, consultá la [comparación de amoladoras de 115 o 125 mm](/amoladoras/115-o-125/).
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## GWS 9-125 S
 

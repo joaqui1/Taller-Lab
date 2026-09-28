@@ -36,6 +36,8 @@ published: true
 
 **Análisis TallerLab:** el 9993220.9 declara 150 W más que el 9993220.7 y ambos publican 12.000 rpm sin carga y 115 mm. El 9993224.2 suma control variable y acepta 115/125 mm según el catálogo. Estas diferencias ayudan a identificar funciones y consumibles, pero no prueban más rapidez o calidad en uso.
 
+<!-- EDITORIAL-COMMERCE -->
+
 **Declaración del fabricante:** el catálogo informa que los modelos 9993220.7 y 9993220.9 no incluyen disco de corte; no asumas que un kit comercial trae el mismo contenido. Verificá guardas, brida, interruptor y código completo al recibir el producto.
 
 ## Cuál elegir entre 9993220.7, 9993220.9 y 9993224.2
@@ -47,6 +49,8 @@ published: true
 | Elegir entre 115 y 125 mm o regular velocidad | 9993224.2 | 1.250 W; acepta 115/125 mm y declara 4.000–12.000 rpm. |
 
 La 9993220.7 y la 9993220.9 comparten diámetro máximo y velocidad publicada; la diferencia demostrable es la potencia nominal y el costo de compra. La 9993224.2 suma funciones y tamaños admitidos, que solo compensan si vas a usarlos. No hay pruebas de taller que permitan declarar una ganadora.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Costo de entrada y accesorios
 

@@ -47,6 +47,8 @@ Como filtro rápido, empezá por la medida y alimentación que requiere tu traba
 
 **Cómo leer estos datos:** el diámetro separa familias de accesorios; watts y rpm describen otros datos nominales. Las diferencias publicadas no demuestran cuál retira material más rápido, dura más o resulta más cómoda. Elegí solo entre códigos cuya placa y manual correspondan a la unidad ofrecida.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## 115/125 mm
 
 Las DWE4020-AR y DWE4120-AR documentan discos de 115 mm. En los manuales regionales, ambas aparecen con 220 V, 50 Hz y 12.000 rpm; publican 800 y 900 W respectivamente. Esas cifras permiten distinguir lo declarado, no afirmar una mejora de rendimiento entre ellas.
@@ -54,6 +56,8 @@ Las DWE4020-AR y DWE4120-AR documentan discos de 115 mm. En los manuales regiona
 La DWE4212-AR y la DWE4314-AR corresponden a la familia de 125 mm. El manual regional de DWE4212/4314 enumera accesorios de 115 y 125 mm para esa familia; la página del producto DWE4314 también describe ambos formatos. Confirmá el tamaño máximo de la unidad y la guarda indicada por el código exacto, sobre todo si una publicación usa el nombre abreviado “5 pulgadas”.
 
 No intentes montar un disco más grande que el admitido por la máquina. Para comparar dimensiones compactas más allá de DeWalt, consultá la [guía de amoladoras de 115 o 125 mm](/amoladoras/115-o-125/).
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ### Publicaciones DWE4214 y DWE4314N: confirmar variante
 

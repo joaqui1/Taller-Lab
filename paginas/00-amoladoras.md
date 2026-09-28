@@ -41,6 +41,8 @@ La medida de la tabla es una orientación para filtrar familias, no una autoriza
 
 Si todavía no definiste la operación, separá corte, desbaste, afilado y rectificado. La guía de [discos para amoladora](/amoladoras/discos/) ayuda a elegir el accesorio por trabajo y material.
 
+<!-- EDITORIAL-COMMERCE -->
+
 ## 115, 125, 180 o 230 mm
 
 El diámetro limita qué accesorios admite una máquina y es una manera útil de distinguir las angulares compactas de las grandes. No alcanza para comparar dos herramientas completas: revisá también el código exacto, el peso, la potencia o plataforma, la velocidad indicada y las funciones que el fabricante documenta.

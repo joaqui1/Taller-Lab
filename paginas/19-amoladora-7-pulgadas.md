@@ -61,6 +61,9 @@ Las fichas siguientes permiten comparar cuatro modelos de 180 mm documentados po
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
+
+<!-- EDITORIAL-COMMERCE -->
+
 La ficha Bosch confirma 220 V para el código mostrado. Las fichas argentinas de Makita identifican los códigos y sus especificaciones, pero no indican la tensión en la página consultada: verificá la placa del ejemplar y el código completo antes de comprar. Tampoco se puede concluir que un modelo rinda más solo por declarar más watts; influyen la carga, el accesorio, el estado de la herramienta y el modo de trabajo.
 
 **Discrepancia de la oferta GA7010C:** el aviso afiliado anuncia **2.000 W**, mientras la ficha argentina de Makita citada indica **1.800 W**. La tabla conserva el dato del fabricante como especificación documentada; pedí una foto de la placa y confirmá el código antes de comprar. El título del aviso no alcanza para resolver la diferencia.
@@ -73,6 +76,8 @@ La ficha Bosch confirma 220 V para el código mostrado. Las fichas argentinas de
 - **Para funciones concretas**, compará lo que cada fabricante declara para el código exacto: interruptor PROtection en Bosch; velocidad constante y Soft Start en GA7010C; anti-reinicio en GA7020; empuñaduras antivibración y guarda de ajuste rápido en DWE4557-AR. La presencia de una función no significa que elimine riesgos ni sustituye la técnica y las protecciones indicadas en el manual.
 
 Antes de decidir, pedí o verificá una foto legible de la placa, tensión, código, accesorios incluidos, garantía aplicable, servicio y disponibilidad de discos de 180 mm. No se revisó disponibilidad de stock de comercios ni una muestra verificable de opiniones de compradores.
+
+<!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Filtro de compatibilidad
 
