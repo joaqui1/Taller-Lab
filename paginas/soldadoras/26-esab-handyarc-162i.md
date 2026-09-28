@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -43,7 +43,7 @@ published: true
 | Generador recomendado por ESAB | 10,5 kVA |
 | Protección / norma | IP21S / IEC 60974-1 |
 
-**Dato verificado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
+**Dato documentado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
 
 **Análisis TallerLab:** la relación de la propia tabla impide interpretar «162» o «160 A» como corriente sostenida: el amperaje publicado varía según ciclo. El generador de 10,5 kVA es una recomendación de ESAB para el producto y no verifica por sí sola el tamaño de cualquier instalación, alargue o generador disponible.
 

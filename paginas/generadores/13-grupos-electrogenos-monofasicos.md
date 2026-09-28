@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Gamma GE3481AR / 6000V | 220 V CA, monofásico | 5,5 kW / 6 kW máxima | No en ficha consultada | La ficha aclara salida de 220 V CA y 12 V CC |
 | Lüsqtoff LG7500EXT | 380 V CA, 50 Hz, trifásico | 6.500 W máximos | No publicada en la ficha consultada | El código es trifásico, aunque la familia también tenga otros modelos |
 
-**Dato verificado:** Honda y Gamma publican los dos primeros modelos como equipos monofásicos de 220 V; Lüsqtoff identifica LG7500EXT como trifásico de 380 V–50 Hz con máximo de 6.500 W. No se infiere compatibilidad con una instalación solo por potencia total.
+**Dato documentado:** Honda y Gamma publican los dos primeros modelos como equipos monofásicos de 220 V; Lüsqtoff identifica LG7500EXT como trifásico de 380 V–50 Hz con máximo de 6.500 W. No se infiere compatibilidad con una instalación solo por potencia total.
 
 **Análisis TallerLab:** una carga que necesita 220 V monofásicos requiere verificar una salida y protección adecuadas; un generador trifásico distribuye su capacidad entre fases y la corriente/potencia disponible por fase debe comprobarse en su placa y manual. No convertimos potencia aparente kVA de Honda a potencia activa kW de Gamma sin el factor de potencia.
 

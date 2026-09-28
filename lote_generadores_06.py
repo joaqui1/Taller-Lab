@@ -14,7 +14,7 @@ PAGES = {
 | Lüsqtoff LGI3.8-8 | Inverter | 3,5 kW | 3,8 kW | 75 dB a 7 m, según la ficha Lüsqtoff |
 | Lüsqtoff LG3500EXI | Inverter | No publicada en la ficha consultada | 3.500 W | La ficha no aporta condición de medición comparable |
 
-**Dato verificado:** Honda identifica al EU22i como inverter y publica 1,8 kVA nominales, 2,2 kVA máximos y 57 dB(A) a 7 m a plena carga. Lüsqtoff identifica como inverter los modelos de la tabla y publica sus cifras en kVA o kW según modelo. No convertimos kVA a kW sin factor de potencia.
+**Dato documentado:** Honda identifica al EU22i como inverter y publica 1,8 kVA nominales, 2,2 kVA máximos y 57 dB(A) a 7 m a plena carga. Lüsqtoff identifica como inverter los modelos de la tabla y publica sus cifras en kVA o kW según modelo. No convertimos kVA a kW sin factor de potencia.
 
 **Análisis TallerLab:** la tabla muestra que “inverter” no es una medida de potencia: EU22i, LGI3.5-8 y LGI3.8-8 publican magnitudes nominales/máximas diferentes, mientras que la ficha de LG3500EXI solo da el máximo. Tampoco se puede ordenar ruido con estos números: la ficha Honda da distancia y carga; otras fuentes omiten una o ambas condiciones. El tipo de regulación por sí solo no certifica compatibilidad con cualquier carga sensible.
 
@@ -35,7 +35,7 @@ PAGES = {
 | LGI2.5-8 | Inverter, nafta | 2,2 kW | 2,5 kW | 6 L; no se usa autonomía comparativa sin condición común |
 | LGI3.8-8 | Inverter, nafta | Página: 3,5 kW | Página: 3,8 kW | 8 L; catálogo/manual da 27 kg frente a 28 kg en página |
 
-**Dato verificado:** la ficha Lüsqtoff de LG3500EX separa 2.450 W nominales de 3.500 W máximos; la de EXI informa 3.500 W máximos, pero no potencia nominal en el bloque consultado. Para LGI2.5-8 el catálogo de la marca informa 2,2/2,5 kW. En LGI3.8-8, página, catálogo/manual consultados discrepan en el peso (28/27 kg); se conserva el valor por documento, sin promediar.
+**Dato documentado:** la ficha Lüsqtoff de LG3500EX separa 2.450 W nominales de 3.500 W máximos; la de EXI informa 3.500 W máximos, pero no potencia nominal en el bloque consultado. Para LGI2.5-8 el catálogo de la marca informa 2,2/2,5 kW. En LGI3.8-8, página, catálogo/manual consultados discrepan en el peso (28/27 kg); se conserva el valor por documento, sin promediar.
 
 **Análisis TallerLab:** que LG3500EX y LG3500EXI compartan un máximo impreso de 3.500 W no demuestra igual potencia de servicio; la ficha del EXI consultada no resuelve su nominal. Los valores de autonomía tampoco son comparables sin la carga usada para medirlos. Para elegir, cotejar código de placa, potencia nominal, tensión, salida y manual de la variante vendida.
 
@@ -55,7 +55,7 @@ PAGES = {
 | Gamma GE3481AR / 6000V | 220 V CA, monofásico | 5,5 kW / 6 kW máxima | No en ficha consultada | La ficha aclara salida de 220 V CA y 12 V CC |
 | Lüsqtoff LG7500EXT | 380 V CA, 50 Hz, trifásico | 6.500 W máximos | No publicada en la ficha consultada | El código es trifásico, aunque la familia también tenga otros modelos |
 
-**Dato verificado:** Honda y Gamma publican los dos primeros modelos como equipos monofásicos de 220 V; Lüsqtoff identifica LG7500EXT como trifásico de 380 V–50 Hz con máximo de 6.500 W. No se infiere compatibilidad con una instalación solo por potencia total.
+**Dato documentado:** Honda y Gamma publican los dos primeros modelos como equipos monofásicos de 220 V; Lüsqtoff identifica LG7500EXT como trifásico de 380 V–50 Hz con máximo de 6.500 W. No se infiere compatibilidad con una instalación solo por potencia total.
 
 **Análisis TallerLab:** una carga que necesita 220 V monofásicos requiere verificar una salida y protección adecuadas; un generador trifásico distribuye su capacidad entre fases y la corriente/potencia disponible por fase debe comprobarse en su placa y manual. No convertimos potencia aparente kVA de Honda a potencia activa kW de Gamma sin el factor de potencia.
 
@@ -82,7 +82,7 @@ PAGES = {
 | GNW-55-ER | Monofásico, eléctrico, ruedas | 5 kVA | 5,5 kVA | 25 L / 93 kg en catálogo; otras fichas dan 92 kg netos |
 | GNW-70-ER | Monofásico, eléctrico, ruedas | 6 kVA | 7 kVA | 25 L / 95 kg bruto |
 
-**Dato verificado:** el catálogo Niwa distribuido por Grupo Rumbo publica para GNW-55-ER 5 kVA promedio y 5,5 kVA máximo; para GNW-70-ER, 6 kVA promedio y 7 kVA máximo. La ficha del importador identifica motores de 13 y 16 HP, 220 V–50 Hz, 25 L y 8 h de autonomía publicada para ambos. Los pesos cambian de rótulo/documento: 93 kg bruto en catálogo frente a 92 kg netos en otra ficha GNW-55-ER.
+**Dato documentado:** el catálogo Niwa distribuido por Grupo Rumbo publica para GNW-55-ER 5 kVA promedio y 5,5 kVA máximo; para GNW-70-ER, 6 kVA promedio y 7 kVA máximo. La ficha del importador identifica motores de 13 y 16 HP, 220 V–50 Hz, 25 L y 8 h de autonomía publicada para ambos. Los pesos cambian de rótulo/documento: 93 kg bruto en catálogo frente a 92 kg netos en otra ficha GNW-55-ER.
 
 **Análisis TallerLab:** entre GNW-55-ER y GNW-70-ER la potencia promedio publicada aumenta 1 kVA (20 % sobre 5 kVA) y la máxima aumenta 1,5 kVA (27,3 % sobre 5,5 kVA); el tanque se mantiene en 25 L. Esto compara campos del catálogo y no demuestra autonomía equivalente bajo la misma carga. Para peso, se mantiene el rótulo de cada fuente y no se calcula diferencia bruto-neto.
 
@@ -105,7 +105,7 @@ PAGES = {
 | Heladera o carga con motor | Dato de placa/manual | Consultar pico de arranque; no reemplazarlo por regla universal | Tensión/fase del artefacto | Manual del motor/artefacto |
 | Bomba o aire acondicionado | Dato de placa/manual | Dato de arranque del fabricante o instalador | Tensión/fase del equipo | Manual y placa exactos |
 
-**Dato verificado:** el manual Lüsqtoff LG2500 incluye un cuadro de ejemplo donde una heladera de 150 W aparece con 450–750 VA de arranque y 300 VA en trabajo; una lámpara fluorescente de 40 W aparece con 80 VA de arranque y 60 VA en trabajo. El propio manual presenta estas cifras como estimadas. No son valores universales de todas las heladeras o lámparas.
+**Dato documentado:** el manual Lüsqtoff LG2500 incluye un cuadro de ejemplo donde una heladera de 150 W aparece con 450–750 VA de arranque y 300 VA en trabajo; una lámpara fluorescente de 40 W aparece con 80 VA de arranque y 60 VA en trabajo. El propio manual presenta estas cifras como estimadas. No son valores universales de todas las heladeras o lámparas.
 
 ### Contraste con generadores documentados
 
@@ -131,7 +131,7 @@ PAGES = {
 | Honda EU22i | 1,8 / 2,2 kVA | 21 kg | Nafta, 3,6 L | 8,1 h en ECO-THROTTLE; ficha también indica 3,2 h en otra condición |
 | Honda EU30is | 2,8 / 3,0 kVA | 59 kg | Nafta, 13 L | 20 h en ECO-THROTTLE; 7,1 h en otra condición de la ficha |
 
-**Dato verificado:** ambas fichas Honda identifican modelos portátiles monofásicos, con salida de 220 V y tecnología inverter. EU30is declara 0,8 kVA más de máximo que EU22i, mientras pesa 38 kg más; sus tanques son 13 L y 3,6 L, respectivamente. La marca publica dos valores de uso continuo según condición en cada ficha.
+**Dato documentado:** ambas fichas Honda identifican modelos portátiles monofásicos, con salida de 220 V y tecnología inverter. EU30is declara 0,8 kVA más de máximo que EU22i, mientras pesa 38 kg más; sus tanques son 13 L y 3,6 L, respectivamente. La marca publica dos valores de uso continuo según condición en cada ficha.
 
 **Análisis TallerLab:** esta pareja muestra una compensación documental entre capacidad máxima y masa: la diferencia de peso equivale a 181 % del peso seco del EU22i, mientras el máximo sube 36,4 % respecto de 2,2 kVA. Es una división de datos de ficha, no una medida de facilidad real de traslado o rendimiento por kilogramo. Autonomías y tanque no se ordenan sin una carga común.
 
@@ -152,7 +152,7 @@ PAGES = {
 | LGI3.5-8 | Inverter, nafta | 3,5 kVA máximo; nominal no publicado en la página consultada | $1.339.499 | kVA no se convierte a kW sin factor de potencia |
 | LG3500EXI | Inverter, nafta | 3.500 W máximo; nominal no publicado en la página consultada | $1.968.699 | La ficha no detalla condición del precio ni nominal |
 
-**Dato verificado:** estos importes aparecen como PVP en las páginas oficiales de Lüsqtoff consultadas durante la revisión indicada. Son una captura de precios publicados para códigos concretos, no una cotización, precio de mercado promedio ni garantía de disponibilidad.
+**Dato documentado:** estos importes aparecen como PVP en las páginas oficiales de Lüsqtoff consultadas durante la revisión indicada. Son una captura de precios publicados para códigos concretos, no una cotización, precio de mercado promedio ni garantía de disponibilidad.
 
 **Análisis TallerLab:** aunque LG3500EX y LG3500EXI muestran 3.500 W máximos, sus fichas difieren en tecnología y no aportan el mismo dato de potencia nominal. Por eso no dividimos precio por watts máximos ni lo presentamos como una comparación de costo por capacidad útil. Las otras dos filas muestran tecnologías/capacidades diferentes y tampoco forman una comparación equivalente.
 
@@ -177,7 +177,7 @@ Al recotizar, registrar fecha y hora, vendedor, código exacto, precio de lista,
 | Gamma GE3480AR / 3000V | 70 dB en manual de serie V | No localizada | No localizada | Medición sin geometría/carga publicadas en el fragmento |
 | Lüsqtoff LGI3.8-8 | 75 dB a 7 m | 7 m | No localizada | La distancia aparece, carga no |
 
-**Dato verificado:** Honda especifica para EU22i 57 dB(A) a 7 m a plena carga. Gamma registra 70 dB para GE3480AR en su manual de serie V, pero el extracto no indica distancia o carga. Lüsqtoff publica 75 dB a 7 m para LGI3.8-8. Conservamos dB/dB(A) tal como aparecen en cada fuente.
+**Dato documentado:** Honda especifica para EU22i 57 dB(A) a 7 m a plena carga. Gamma registra 70 dB para GE3480AR en su manual de serie V, pero el extracto no indica distancia o carga. Lüsqtoff publica 75 dB a 7 m para LGI3.8-8. Conservamos dB/dB(A) tal como aparecen en cada fuente.
 
 **Análisis TallerLab:** el dato de EU22i tiene más contexto de medición que las otras filas; una resta directa de 57 frente a 70 o 75 dB no produciría una comparación controlada porque faltan condiciones comunes. Los decibeles son una magnitud logarítmica: tampoco interpretamos una diferencia numérica como porcentaje de “ruido”. La etiqueta comercial “silencioso” no reemplaza el protocolo y la posición de medición.
 
@@ -197,7 +197,7 @@ Al recotizar, registrar fecha y hora, vendedor, código exacto, precio de lista,
 | Honda ET12000 | Nafta | 380 V y 220 V; trifásico y monofásico | 11 kVA máximo | La ficha no se usa como equivalente directo de 6.500 W |
 | Gamma GE3494AR | Gas natural / GLP | 380 V, tres fases | 17 kW nominal / 18,7 kW máximo con GLP; 16/17,6 kW con GN | Consumo cambia por combustible y carga |
 
-**Dato verificado:** las páginas de fabricante identifican los códigos anteriores como salidas trifásicas. Gamma GE3494AR distingue expresamente potencia nominal y máxima según gas: 17/18,7 kW con GLP y 16/17,6 kW con GN. Honda ET12000 publica 11 kVA máximo, no kW; Lüsqtoff LG7500EXT especifica 6.500 W máximo a 380 V.
+**Dato documentado:** las páginas de fabricante identifican los códigos anteriores como salidas trifásicas. Gamma GE3494AR distingue expresamente potencia nominal y máxima según gas: 17/18,7 kW con GLP y 16/17,6 kW con GN. Honda ET12000 publica 11 kVA máximo, no kW; Lüsqtoff LG7500EXT especifica 6.500 W máximo a 380 V.
 
 **Análisis TallerLab:** este cuadro evita comparar solo el nombre comercial: las unidades y combustibles cambian, y la potencia trifásica total debe leerse junto con tensión, conexión y corriente por fase que indique la placa. Un tablero con cargas monofásicas también requiere conocer el desbalance permitido; la potencia total publicada no responde sola a esa pregunta.
 
@@ -217,7 +217,7 @@ Al recotizar, registrar fecha y hora, vendedor, código exacto, precio de lista,
 | Gamma 150 Elite G2514AR | Presión máxima admisible: 150 bar | No localizada en la ficha consultada | 400 L/h (6,67 L/min), sin condición de presión rotulada | 1.800 W |
 | Niwa HDNW-700 | Presión máxima: 150 bar | No localizada en la ficha consultada | Máximo 450 L/h (7,5 L/min) | No confirmada en la ficha consultada |
 
-**Dato verificado:** las fuentes llaman a 150 bar máximo/máximo permitido, no necesariamente presión de trabajo. El manual Lüsqtoff distingue claramente HL100-8: 100 bar de trabajo, 150 bar permitidos y 6,0 L/min de caudal de trabajo (7,5 L/min máximo). Gamma publica 150 bar máximos y 400 L/h; Grupo Rumbo publica para Niwa HDNW-700 150 bar máximos y 450 L/h.
+**Dato documentado:** las fuentes llaman a 150 bar máximo/máximo permitido, no necesariamente presión de trabajo. El manual Lüsqtoff distingue claramente HL100-8: 100 bar de trabajo, 150 bar permitidos y 6,0 L/min de caudal de trabajo (7,5 L/min máximo). Gamma publica 150 bar máximos y 400 L/h; Grupo Rumbo publica para Niwa HDNW-700 150 bar máximos y 450 L/h.
 
 **Análisis TallerLab:** las cifras revelan que leer solo «150 bar» oculta diferencias de rotulación: en HL100-8 los 150 bar no son el valor de trabajo; para Gamma y Niwa las fichas consultadas no informan una presión de trabajo comparable. Tampoco ordenamos los caudales porque las dos fichas resumen caudal sin una condición de presión común. Antes de elegir, pedir presión de trabajo y caudal bajo esa presión para el código exacto.
 
@@ -262,7 +262,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

@@ -27,7 +27,7 @@ published: true
 | AML1010-8 | Cable | 1.010 W; 220 V~50 Hz | Hasta 125 mm | Variable, 0–11.000 rpm; seis posiciones | 2,60 kg |
 | AML115-9B | Batería Iron Volt | 18 V | 115 mm | 0–8.500 rpm | 2,1 kg |
 
-**Dato verificado:** AML850-8 y AML1010-8 aparecen en el catálogo Lusqtoff 2024–2025; AML115-9B figura en el catálogo de herramientas inalámbricas Black Series. El peso y la configuración corresponden a esos códigos, no a toda la marca.
+**Dato documentado:** AML850-8 y AML1010-8 aparecen en el catálogo Lusqtoff 2024–2025; AML115-9B figura en el catálogo de herramientas inalámbricas Black Series. El peso y la configuración corresponden a esos códigos, no a toda la marca.
 
 **Análisis TallerLab:** AML1010-8 declara 160 W más que AML850-8 y agrega velocidad variable y soporte de disco de hasta 125 mm en catálogo. AML115-9B es inalámbrica y la ficha actual indica que no incluye batería ni cargador. Las rpm máximas publicadas no permiten comparar corte bajo carga entre cable y batería.
 

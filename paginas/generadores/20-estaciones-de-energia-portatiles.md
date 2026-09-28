@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | EcoFlow DELTA 2 | 1.024 Wh | 1.800 W | 2.700 W | Manual regional UE, 230 V |
 | BLUETTI AC70 | 768 Wh | 1.000 W | No se usa aquí un dato de pico | Catálogo del fabricante; variantes de tomacorriente por región |
 
-**Dato verificado:** el manual EcoFlow separa 1.024 Wh de capacidad de batería y 1.800 W de salida CA (2.700 W de pico). El catálogo BLUETTI declara para AC70 768 Wh y 1.000 W. Wh describe energía almacenada; W de salida describe el límite de potencia instantánea declarado.
+**Dato documentado:** el manual EcoFlow separa 1.024 Wh de capacidad de batería y 1.800 W de salida CA (2.700 W de pico). El catálogo BLUETTI declara para AC70 768 Wh y 1.000 W. Wh describe energía almacenada; W de salida describe el límite de potencia instantánea declarado.
 
 ### Una estimación matemática, no una prueba de autonomía
 

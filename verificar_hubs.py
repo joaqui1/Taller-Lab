@@ -36,6 +36,16 @@ def main():
         response = client.get(path)
         assert response.status_code == 200, path
         html = response.get_data(as_text=True)
+        assert "Equipo editorial TallerLab" not in html, path
+        assert 'href="/equipo-editorial/"' not in html, path
+        assert "Dato verificado" not in html, path
+        organizations = [json.loads(raw) for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html)]
+        organizations = [schema for schema in organizations if schema.get("@type") == "Organization"]
+        assert len(organizations) == 1, path
+        organization = organizations[0]
+        assert organization["@id"] == site.absolute_url("/") + "#organization", path
+        assert organization["url"] == site.absolute_url("/"), path
+        assert organization["logo"]["contentUrl"] == site.absolute_url(site.LOGO_SRC), path
         page = Page(html)
         assert page.canonicals == [site.absolute_url(path)], path
         assert page.headings == 1, path
@@ -52,20 +62,40 @@ def main():
             if href.startswith("#"):
                 assert href[1:] in page.ids, (path, href)
     for article in site.ALL_ARTICLES:
-        assert article["author"] == "Equipo editorial TallerLab", article["url"]
+        assert article["author"] == site.AUTHOR_NAME, article["url"]
         html = client.get(article["url"]).get_data(as_text=True)
         schemas = [json.loads(raw) for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html)]
         schemas = [schema for schema in schemas if schema.get("@type") == "Article"]
         assert len(schemas) == 1, article["url"]
         assert schemas[0]["mainEntityOfPage"] == site.absolute_url(article["url"]), article["url"]
         assert schemas[0]["headline"] == article["h1"], article["url"]
+        assert schemas[0]["author"]["@type"] == "Person", article["url"]
+        assert schemas[0]["author"]["name"] == site.AUTHOR_NAME, article["url"]
+        assert schemas[0]["author"]["url"] == site.absolute_url(site.AUTHOR_PATH), article["url"]
+        assert schemas[0]["publisher"]["@id"] == site.absolute_url("/") + "#organization", article["url"]
+        assert "Dato documentado" in article["body"], article["url"]
     for section in site.CATEGORY_META:
-        page = Page(client.get(f"/{section}/").get_data(as_text=True))
+        html = client.get(f"/{section}/").get_data(as_text=True)
+        page = Page(html)
+        assert f'Por <a href="{site.AUTHOR_PATH}">{site.AUTHOR_NAME}</a>' in html, section
         anchors = [anchor for _, anchor, _, _ in site.HUB_STEPS]
         assert [identifier for identifier in page.ids if identifier in anchors] == anchors, section
         for article in site.ALL_ARTICLES:
             if article["section"] == section:
                 assert article["url"] == f"/{section}/" or article["url"] in page.links, article["url"]
+    for old_path in ("/equipo-editorial", "/equipo-editorial/"):
+        redirect = client.get(old_path + "?origen=qa")
+        assert redirect.status_code == 301, old_path
+        assert redirect.headers["Location"] == site.AUTHOR_PATH + "?origen=qa", old_path
+        assert client.head(old_path).status_code == 301, old_path
+    sitemap = site.render_sitemap()
+    assert site.absolute_url(site.AUTHOR_PATH) in sitemap
+    assert "/equipo-editorial/" not in sitemap
+    profile = client.get(site.AUTHOR_PATH).get_data(as_text=True)
+    profile_schemas = [json.loads(raw) for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', profile)]
+    profiles = [schema for schema in profile_schemas if schema.get("@type") == "ProfilePage"]
+    assert len(profiles) == 1
+    assert profiles[0]["mainEntity"]["@id"] == site.author_schema()["@id"]
     assert client.get("/no-existe/").status_code == 404
     assert client.head("/sierras/").status_code == 200
     print(f"OK: {len(site.INDEXABLE_PATHS)} rutas y canonical; redirects con query; {len(site.ALL_ARTICLES)} autores y Article; 8 hubs completos; enlaces, anclas, H1, 404 y HEAD.")

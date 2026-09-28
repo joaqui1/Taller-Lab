@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | RE 90, RE020114544 | 2,10 kW | 8 kg | Máx. 100 bar; manguera 6 m | $232.396,70 |
 | RE 110, 49500114529 | 1,70 kW | 17,6 kg | El texto indica 110 bar; manguera 7 m | $676.955,30 |
 
-**Dato verificado:** las páginas STIHL Argentina publican las referencias, potencias, pesos operacionales y precios sugeridos de la tabla. La página de RE 90 indica presión entre 10 y 100 bar y manguera de 6 m; la de RE 110 anuncia 110 bar y manguera de 7 m, además de motor de inducción y cabezal de aluminio. Las fichas consultadas no muestran el mismo conjunto de campos para todos los modelos.
+**Dato documentado:** las páginas STIHL Argentina publican las referencias, potencias, pesos operacionales y precios sugeridos de la tabla. La página de RE 90 indica presión entre 10 y 100 bar y manguera de 6 m; la de RE 110 anuncia 110 bar y manguera de 7 m, además de motor de inducción y cabezal de aluminio. Las fichas consultadas no muestran el mismo conjunto de campos para todos los modelos.
 
 **Análisis TallerLab:** el cuadro sirve para comprobar la referencia y comparar los campos publicados, no para ordenar limpieza. Por ejemplo, las páginas muestran 2,10 kW para RE 90 y 1,70 kW para RE 110, mientras anuncian 100 y 110 bar, respectivamente; esos rótulos no son un ensayo común. El precio es PVP sugerido con IVA visto en páginas oficiales el 27/09/2026, no cotización, precio final de concesionario ni garantía de stock.
 

@@ -27,7 +27,7 @@ published: true
 | 9993220.9 / AA115SP2 | 1.050 W | 115 mm | 12.000 rpm | No indicado como variable | El catálogo imprime “M14 (5/8–11)” |
 | 9993224.2 / AA125SPL | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | El catálogo imprime “M14 (5/8–11)” |
 
-**Dato verificado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
+**Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
 
 **Desconocido:** la ficha escribe “M14 (5/8–11)” para la rosca del eje. Esas designaciones son distintas; la ficha no aclara si está describiendo variantes o una equivalencia. Confirmá el manual y el eje de la unidad antes de comprar una brida o accesorio roscado.
 

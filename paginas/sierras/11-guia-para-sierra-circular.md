@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una guía para sierra circular
 
-**Dato verificado:** las páginas de fabricante enumeran compatibilidad por modelo. Una ranura o una base que parece similar no demuestra que encastre con un riel de otra marca.
+**Dato documentado:** las páginas de fabricante enumeran compatibilidad por modelo. Una ranura o una base que parece similar no demuestra que encastre con un riel de otra marca.
 
 ## Guía paralela, regla y riel: no son lo mismo
 

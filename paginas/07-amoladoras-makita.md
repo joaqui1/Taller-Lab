@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Potencia absorbida | Disco | Velocidad en vacío | Peso publicado | Interruptor |
 | :--- | ---: | ---: | ---: | :--- | :--- |
 | GA4534 | 720 W | 115 mm | 11.000 rpm | 1,98–2,31 kg | Paleta |
 | 9557HPG | 840 W | 115 mm | 11.000 rpm | 1,7–2,2 kg | Paleta |
 
-**Dato verificado:** la ficha argentina de Makita identifica esos valores para GA4534 y 9557HPG. El borrador mencionaba GA4530 como modelo de 720 W; la documentación local consultada identifica como GA4534 a la variante de 720 W. No transferimos automáticamente las especificaciones entre códigos parecidos.
+**Dato documentado:** la ficha argentina de Makita identifica esos valores para GA4534 y 9557HPG. El borrador mencionaba GA4530 como modelo de 720 W; la documentación local consultada identifica como GA4534 a la variante de 720 W. No transferimos automáticamente las especificaciones entre códigos parecidos.
 
 **Análisis TallerLab:** en estas dos fichas, 9557HPG declara 120 W más de potencia absorbida que GA4534 —un 16,7 % respecto de 720 W—, mientras que ambas comparten diámetro y velocidad en vacío publicada. Esa cuenta compara datos de placa; no predice velocidad bajo carga, rapidez de corte ni vida útil. Los rangos de peso se superponen y no permiten establecer una diferencia exacta sin fijar la configuración y el método de medición.
 

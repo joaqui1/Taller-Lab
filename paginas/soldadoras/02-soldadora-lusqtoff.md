@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | SML130-7 | FCAW con tubular autoprotegido | 25–120 A; 120 A/10% y 50 A/60% a 40 °C en página | Discontinuada |
 | MEGAIRON100-8 | MMA | 105 A al 30% en página; rango completo no publicado allí | Kit incluye ST-1X y escuadras |
 
-**Dato verificado:** la tabla diferencia tres códigos según páginas/manuales de Lüsqtoff. No atribuye MIG/MMA/TIG a todos los equipos: la SML120-8D sí declara tres procesos, SML130-7 es un modelo de alambre tubular discontinuado y MEGAIRON100-8 se describe como MMA.
+**Dato documentado:** la tabla diferencia tres códigos según páginas/manuales de Lüsqtoff. No atribuye MIG/MMA/TIG a todos los equipos: la SML120-8D sí declara tres procesos, SML130-7 es un modelo de alambre tubular discontinuado y MEGAIRON100-8 se describe como MMA.
 
 **Análisis TallerLab:** elegí primero proceso y disponibilidad de consumibles; compará luego puntos de ciclo a la misma temperatura y condiciones. No es válido ordenar estos equipos solo por el número de amperios o por la palabra «kit»: SML130-7 figura discontinuada y los otros dos tienen procesos y presentaciones distintas. Confirmá si la ficha corresponde a máquina sola o paquete y revisá placa del ejemplar ofertado.
 

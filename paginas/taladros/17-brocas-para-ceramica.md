@@ -26,7 +26,7 @@ published: true
 | CYL-9 Soft Ceramic | Cerámica blanda | Rotación, a baja velocidad | 3–16 mm |
 | EXPERT HEX-9 HardCeramic | Cerámica dura, incluidos azulejos duros | Rotación; Bosch indica menos de 500 rpm | 3–12 mm en la gama consultada |
 
-**Dato verificado:** Bosch separa sus brocas por aplicación: CYL-9 Soft Ceramic se destina a cerámica blanda, mientras EXPERT HEX-9 HardCeramic se describe para cerámica dura. Las medidas disponibles varían por mercado y número de pieza; confirmar el diámetro exacto del producto publicado.
+**Dato documentado:** Bosch separa sus brocas por aplicación: CYL-9 Soft Ceramic se destina a cerámica blanda, mientras EXPERT HEX-9 HardCeramic se describe para cerámica dura. Las medidas disponibles varían por mercado y número de pieza; confirmar el diámetro exacto del producto publicado.
 
 **Declaración del fabricante:** para HEX-9, Bosch recomienda perforación rotativa sin percusión y velocidad inferior a 500 rpm. La guía de Bosch indica aplicar presión y mantener control de la herramienta; no convertimos recomendaciones de un modelo en regla universal para todas las brocas. Las pruebas de número de agujeros que publica Bosch son ensayos del fabricante, no experiencia de compradores ni prueba de TallerLab.
 

@@ -23,7 +23,7 @@ Las fichas argentinas permiten comparar dos modelos con cable y una versión a b
 
 ## Tres caladoras Einhell según alimentación y capacidad
 
-| Dato verificado | TC-JS 85 | TE-JS 100 | TC-JS 18 Li Solo |
+| Dato documentado | TC-JS 85 | TE-JS 100 | TC-JS 18 Li Solo |
 | :--- | :--- | :--- | :--- |
 | Alimentación | Cable | Cable | Batería 18 V |
 | Potencia / velocidad máxima | 620 W / 3.000 carreras/min | 750 W / 3.000 carreras/min | 2.700 carreras/min |

@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | K 4 Power Control | 16034020 | No publicada | 20–máx. 130 bar | Máx. 420 L/h | 8 m |
 | K 5 | 93982950 | 1.900 W | 2.100 psi | 420 L/h | 6 m |
 
-**Dato verificado:** las fichas de Kärcher Argentina identifican estos SKU y sus cifras. En K5, la unidad publicada para presión es psi; no sustituimos el dato original. Las páginas de K2/K3/K4/K5 corresponden a configuraciones distintas y no garantizan que nombres como «Car», «Home», «Compact», «Premium» o «Smart Control» describan el mismo paquete en cada mercado.
+**Dato documentado:** las fichas de Kärcher Argentina identifican estos SKU y sus cifras. En K5, la unidad publicada para presión es psi; no sustituimos el dato original. Las páginas de K2/K3/K4/K5 corresponden a configuraciones distintas y no garantizan que nombres como «Car», «Home», «Compact», «Premium» o «Smart Control» describan el mismo paquete en cada mercado.
 
 **Análisis TallerLab:** entre estos cuatro productos locales aumenta la potencia informada de 1.200 W en K2 a 1.900 W en K5, aunque K4 no publica ese campo en la página revisada. K2–K4 muestran en bar máximo de 110, 120 y 130; K5 figura en psi y puede convertirse aritméticamente a ≈144,8 bar, sin que esa conversión añada una etiqueta de presión de servicio. El caudal máximo pasa de 280 a 420 L/h entre extremos, pero K4 y K5 declaran ambos 420 L/h.
 

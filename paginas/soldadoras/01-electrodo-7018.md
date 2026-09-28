@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | ESAB Atom Arc 7018, hoja México | 4,0 mm | 130–220 A |
 | ESAB HandyArc 162i, salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
 
-**Dato verificado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
+**Dato documentado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
 
 **Análisis TallerLab:** los 160 A máximos de la máquina no son un ajuste continuo: el ciclo publicado baja a 92 A/60 % y 72 A/100 %. Además, el rango de 4,0 mm de la ficha del electrodo se extiende a 220 A, por encima de la salida máxima de esta máquina. Eso compara dos hojas técnicas, no dicta que un diámetro sea adecuado para una junta o que una fuente produzca el resultado requerido.
 

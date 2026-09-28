@@ -23,7 +23,7 @@ Comparamos las versiones B2 de 220 V publicadas por Black+Decker Brasil. El sufi
 
 ## BES603 y BES602: velocidad variable y variante
 
-| Dato verificado | BES603-B2 | BES602-B2 |
+| Dato documentado | BES603-B2 | BES602-B2 |
 | :--- | :--- | :--- |
 | Potencia | 400 W | 400 W |
 | Control de velocidad | Variable, hasta 3.000 carreras/min | La ficha informa 3.000 carreras/min |

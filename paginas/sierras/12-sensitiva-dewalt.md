@@ -23,7 +23,7 @@ El manual latinoamericano distingue D28730AR de otras versiones de tensión. Una
 
 ## D28730: identificar la variante argentina
 
-| Dato verificado en manual | D28730AR |
+| Dato documentado en manual | D28730AR |
 | :--- | :--- |
 | Tensión / frecuencia | 220 V / 50 Hz |
 | Potencia | 2.300 W |

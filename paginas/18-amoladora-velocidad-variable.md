@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Potencia absorbida | Disco | Rango de velocidad en vacío | Otras especificaciones publicadas |
 | :--- | ---: | ---: | ---: | :--- |
 | Bosch GWS 9-125 S | 900 W | 125 mm | 2.800–11.000 rpm | M14; peso 1,9 kg; la ficha argentina consultada selecciona variante 127 V |
 | Dowen Pagio 9993224.2 | 900 W | 115/125 mm | 4.000–12.000 rpm | Regulador variable según página del producto |
 
-**Dato verificado:** las fichas y catálogos enlazados declaran ambos rangos ajustables. Para Bosch, la página argentina muestra una variante de 127 V; el código y la tensión deben cotejarse antes de aplicar esos datos a otra versión. La página Dowen identifica los diámetros 115/125 mm y anuncia regulador variable.
+**Dato documentado:** las fichas y catálogos enlazados declaran ambos rangos ajustables. Para Bosch, la página argentina muestra una variante de 127 V; el código y la tensión deben cotejarse antes de aplicar esos datos a otra versión. La página Dowen identifica los diámetros 115/125 mm y anuncia regulador variable.
 
 **Análisis TallerLab:** los rangos no son equivalentes: el extremo inferior publicado para Bosch es 1.200 rpm menor y el superior de Dowen es 1.000 rpm mayor. La cuenta compara límites de ficha, no certifica exactitud del selector ni rpm bajo carga. Tampoco vuelve intercambiables los discos: cada accesorio debe respetar diámetro, velocidad máxima y aplicación indicados por su fabricante.
 

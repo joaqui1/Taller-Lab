@@ -23,7 +23,7 @@ El catálogo menciona tres escalas; la documentación pública consultada permit
 
 ## SFL250-8, SFL300-8 y SFL1100-9: qué está documentado
 
-| Dato verificado | SFL250-8 | SFL300-8 | SFL1100-9 |
+| Dato documentado | SFL250-8 | SFL300-8 | SFL1100-9 |
 | :--- | :--- | :--- | :--- |
 | Estado en catálogo/ficha | Discontinuada | Listada como banco 200 mm | Ficha activa |
 | Potencia | 250 W | Sin ficha detallada cotejada | 1.100 W |

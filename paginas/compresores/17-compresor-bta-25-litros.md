@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Compresor 25 L | 272057.1 / D-CA1-25-6 | 1,5 kW (2 HP) | 25 L | 8 bar | Admisión: 206 L/min |
 | Compresor portátil sin aceite 24 L | 272005 | 1,5 kW (2 HP) | 24 L | 8 bar | Admisión: 170 L/min en ficha consultada |
 
-**Dato verificado:** la ficha BTA del 25 L especifica 220 V~50 Hz, 2.850 rpm, admisión de 206 L/min y tanque de 25 L. BTA presenta el 24 L como una variante portátil sin aceite; sus cifras describen esa ficha y no se transfieren al equipo de 25 L.
+**Dato documentado:** la ficha BTA del 25 L especifica 220 V~50 Hz, 2.850 rpm, admisión de 206 L/min y tanque de 25 L. BTA presenta el 24 L como una variante portátil sin aceite; sus cifras describen esa ficha y no se transfieren al equipo de 25 L.
 
 **Análisis TallerLab:** el modelo de 25 L declara 36 L/min más de admisión que el 24 L (21,2 % respecto de 170 L/min), pero no se publica una condición común de medición ni un caudal efectivo de salida a presión de trabajo. La resta sirve para comparar lo impreso en las fichas; no permite asegurar tiempos de inflado o aptitud para una herramienta neumática continua.
 

@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro inalámbrico Bosch comprar
 
-**Dato verificado:** esta comparación usa fichas Bosch de dos códigos concretos: GSR 120-LI (12 V) y GSB 18V-50 (18 V). No extrapolamos las cifras a toda la línea Bosch.
+**Dato documentado:** esta comparación usa fichas Bosch de dos códigos concretos: GSR 120-LI (12 V) y GSB 18V-50 (18 V). No extrapolamos las cifras a toda la línea Bosch.
 
 ## GSR 120-LI o GSB 18V-50: distinguir plataforma y percusión
 

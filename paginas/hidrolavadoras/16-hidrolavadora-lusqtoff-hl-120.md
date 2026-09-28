@@ -23,7 +23,7 @@ keywords: ["hidrolavadora lusqtoff hl 120", "lusqtoff hl 120 opiniones", "hidrol
 
 ## Ficha contrastada: trabajo y máximos
 
-**Dato verificado en documentación primaria.** La [ficha oficial HL-120](https://www.lusqtoff.com.ar/ver-producto/HL-120) y el [manual del equipo](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf) permiten separar los valores de uso de los límites del equipo.
+**Dato documentado en documentación primaria.** La [ficha oficial HL-120](https://www.lusqtoff.com.ar/ver-producto/HL-120) y el [manual del equipo](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf) permiten separar los valores de uso de los límites del equipo.
 
 | Variable | Valor publicado | Cómo leerlo |
 | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ keywords: ["hidrolavadora lusqtoff hl 120", "lusqtoff hl 120 opiniones", "hidrol
 
 **Declaración del fabricante.** Lüsqtoff enumera bicicletas, motos, autos pequeños y hogar/jardín entre los usos recomendados. Esa lista describe el destino previsto por la marca; no certifica tiempos de limpieza, cuidado de pintura ni rendimiento frente a suciedad específica. La marca también informa control de parada automática.
 
-**Dato verificado en el manual.** El equipo incluye lanza, manguera de alta presión y conector rápido de entrada de agua. El manual indica que el motor se activa al accionar el gatillo y contiene instrucciones de conexión y seguridad. Revisá el manual y la publicación del código exacto para conocer accesorios, condiciones eléctricas y garantía de la unidad ofrecida.
+**Dato documentado en el manual.** El equipo incluye lanza, manguera de alta presión y conector rápido de entrada de agua. El manual indica que el motor se activa al accionar el gatillo y contiene instrucciones de conexión y seguridad. Revisá el manual y la publicación del código exacto para conocer accesorios, condiciones eléctricas y garantía de la unidad ofrecida.
 
 **Desconocido.** La ficha y el manual consultados no documentan una muestra de opiniones de compradores, la duración real del equipo ni un ciclo de trabajo de 15–20 minutos. Por eso esta guía no atribuye comentarios a “miles de usuarios” ni prescribe ese tiempo de uso. Tampoco ordena la HL-120 frente a una HL-150 sin contrastar la variante exacta de esta última.
 

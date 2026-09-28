@@ -1,0 +1,4256 @@
+{
+  "source_rows": 459,
+  "unique_keywords": 457,
+  "duplicate_keywords": 2,
+  "conflicts": [
+    {
+      "keyword": "soldadora para aluminio",
+      "records": [
+        {
+          "keyword": "soldadora para aluminio",
+          "intent": "n/d",
+          "volume": 210.0,
+          "kd": null,
+          "cpc": 0.07,
+          "source": "semrush_soldadoras.csv",
+          "line": 9
+        },
+        {
+          "keyword": "soldadora para aluminio",
+          "intent": "I, C",
+          "volume": 210.0,
+          "kd": 10.0,
+          "cpc": 0.07,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 71,
+          "priority_index": 10.5
+        }
+      ]
+    },
+    {
+      "keyword": "mejor hidrolavadora calidad precio",
+      "records": [
+        {
+          "keyword": "mejor hidrolavadora calidad precio",
+          "intent": "n/d",
+          "volume": 20.0,
+          "kd": null,
+          "cpc": 0.08,
+          "source": "semrush_hidrolavadoras.csv",
+          "line": 27
+        },
+        {
+          "keyword": "mejor hidrolavadora calidad precio",
+          "intent": "C",
+          "volume": 20.0,
+          "kd": 24.0,
+          "cpc": 0.08,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 93
+        }
+      ]
+    }
+  ],
+  "pages": 178,
+  "linked_pages": 26,
+  "qualified_pages": 103,
+  "strict_pages": 9,
+  "strict": [
+    {
+      "url": "/hidrolavadoras/comparativa-general/",
+      "title": "Hidrolavadoras: cuál comprar según uso y presupuesto",
+      "h1": "Cómo elegir una hidrolavadora para tu casa o trabajo",
+      "keywords": [
+        "hidrolavadora",
+        "comprar hidrolavadora",
+        "mejor hidrolavadora argentina",
+        "hidrolavadora precio calidad",
+        "presion y caudal hidrolavadora"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\01-hidrolavadoras.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1KQjHgT",
+        "https://meli.la/1cZXqxL",
+        "https://meli.la/2Rcddpg"
+      ],
+      "main": {
+        "keyword": "hidrolavadora",
+        "intent": "C",
+        "volume": 60500.0,
+        "kd": 23.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 2,
+        "priority_index": 1833.3333333333333
+      },
+      "other_queries": [],
+      "index": 1833.333,
+      "affiliate": true
+    },
+    {
+      "url": "/generadores/comparativa-general/",
+      "title": "Grupos electrógenos: cómo elegir y comparar modelos",
+      "h1": "Grupos electrógenos: guía para elegir el adecuado",
+      "keywords": [
+        "grupos electrógenos",
+        "generador electrico",
+        "elegir grupo electrogeno",
+        "grupo electrogeno argentina",
+        "potencia generador"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\01-grupos-electrogenos.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ],
+      "main": {
+        "keyword": "grupo electrogeno",
+        "intent": "I, C",
+        "volume": 6600.0,
+        "kd": 20.0,
+        "cpc": 0.48,
+        "source": "semrush_generadores.csv",
+        "line": 2,
+        "priority_index": 220.0
+      },
+      "other_queries": [
+        {
+          "keyword": "generador electrico",
+          "intent": "C",
+          "volume": 5400.0,
+          "kd": 25.0,
+          "cpc": 0.24,
+          "source": "semrush_generadores.csv",
+          "line": 3,
+          "priority_index": 154.28571428571428
+        }
+      ],
+      "index": 220.0,
+      "affiliate": true
+    },
+    {
+      "url": "/amoladoras/bosch/",
+      "title": "Amoladoras Bosch: modelos y diferencias para elegir",
+      "h1": "Qué amoladora Bosch elegir según el trabajo",
+      "keywords": [
+        "amoladora bosch",
+        "bosch gws 850",
+        "bosch gws 700",
+        "bosch gws 9 125 s",
+        "bosch gws 180 li"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\10-amoladoras-bosch.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1GRCAjZ"
+      ],
+      "main": {
+        "keyword": "amoladora bosch",
+        "intent": "I, C",
+        "volume": 4400.0,
+        "kd": 17.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 8,
+        "priority_index": 162.96296296296296
+      },
+      "other_queries": [],
+      "index": 162.963,
+      "affiliate": true
+    },
+    {
+      "url": "/generadores/precios/",
+      "title": "Grupo electrógeno: precios de modelos y cómo comparar",
+      "h1": "Cuánto cuesta un grupo electrógeno en Argentina",
+      "keywords": [
+        "precios grupos electrogenos",
+        "cuanto cuesta un generador",
+        "grupo electrogeno barato",
+        "generador electrico mercado libre"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\02-precios-de-grupos-electrogenos.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ],
+      "main": {
+        "keyword": "grupo electrogeno precio",
+        "intent": "T",
+        "volume": 1600.0,
+        "kd": 15.0,
+        "cpc": 0.24,
+        "source": "semrush_generadores.csv",
+        "line": 4,
+        "priority_index": 64.0
+      },
+      "other_queries": [],
+      "index": 64.0,
+      "affiliate": true
+    },
+    {
+      "url": "/compresores/50-litros/",
+      "title": "Compresor de 50 litros: comparativa y guía de compra",
+      "h1": "Compresores de 50 litros: cuál conviene según el uso",
+      "keywords": [
+        "compresor 50 litros",
+        "compresor de aire 50 litros",
+        "compresor 2 hp 50 litros",
+        "compresor lusqtoff 50l"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\02-compresor-de-50-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/32SJoX7"
+      ],
+      "main": {
+        "keyword": "compresor 50 litros",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 15.0,
+        "cpc": 0.21,
+        "source": "semrush_compresores.csv",
+        "line": 2,
+        "priority_index": 40.0
+      },
+      "other_queries": [],
+      "index": 40.0,
+      "affiliate": true
+    },
+    {
+      "url": "/taladros/taladro-percutor-inalambrico/",
+      "title": "Taladro percutor inalámbrico: modelos y comparativa",
+      "h1": "Qué taladro percutor inalámbrico comprar",
+      "keywords": [
+        "taladro percutor inalambrico",
+        "taladro percutor a bateria",
+        "comprar taladro percutor inalambrico",
+        "taladro percutor brushless",
+        "baterias taladro 18v"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\07-taladro-percutor-inalambrico.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/2xvJRJp"
+      ],
+      "main": {
+        "keyword": "taladro percutor inalambrico",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 15.0,
+        "cpc": 0.12,
+        "source": "semrush_taladros.csv",
+        "line": 2,
+        "priority_index": 40.0
+      },
+      "other_queries": [],
+      "index": 40.0,
+      "affiliate": true
+    },
+    {
+      "url": "/compresores/kits-accesorios/",
+      "title": "Kit para compresor de aire: accesorios que convienen",
+      "h1": "Qué kit de accesorios comprar para un compresor",
+      "keywords": [
+        "kit para compresor de aire",
+        "kit 5 piezas compresor",
+        "accesorios compresor de aire",
+        "pistola soplete kit compresor"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\13-kit-para-compresor-de-aire.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/32SJoX7"
+      ],
+      "main": {
+        "keyword": "kit para compresor de aire",
+        "intent": "I, C",
+        "volume": 210.0,
+        "kd": 9.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 118,
+        "priority_index": 11.052631578947368
+      },
+      "other_queries": [],
+      "index": 11.053,
+      "affiliate": true
+    },
+    {
+      "url": "/hidrolavadoras/150-bar/",
+      "title": "Hidrolavadoras de 150 bar: comparativa y cómo elegir",
+      "h1": "Qué hidrolavadora de 150 bar comprar",
+      "keywords": [
+        "hidrolavadora 150 bar",
+        "hidrolavadora 150 bar precio",
+        "mejor hidrolavadora 150 bar",
+        "hidrolavadora 2000w 150 bar",
+        "hidrolavadora semiprofesional 150 bar"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\18-hidrolavadora-150-bar.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1KQjHgT"
+      ],
+      "main": {
+        "keyword": "hidrolavadora 150 bar",
+        "intent": "I, T",
+        "volume": 140.0,
+        "kd": 8.0,
+        "cpc": 0.08,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 12,
+        "priority_index": 7.777777777777778
+      },
+      "other_queries": [],
+      "index": 7.778,
+      "affiliate": true
+    },
+    {
+      "url": "/sierras/de-banco-lusqtoff/",
+      "title": "Sierra de banco Lusqtoff: SML2000-8 y otras variantes",
+      "h1": "Sierra de banco Lusqtoff: qué modelo conviene para tu taller",
+      "keywords": [
+        "sierra de banco lusqtoff",
+        "sierra circular de banco lusqtoff",
+        "lusqtoff sml2000-8",
+        "sierra de banco lusqtoff opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\26-sierra-de-banco-lusqtoff.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/2WFpTNp"
+      ],
+      "main": {
+        "keyword": "sierra de banco lusqtoff",
+        "intent": "T",
+        "volume": 110.0,
+        "kd": 15.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 87,
+        "priority_index": 4.4
+      },
+      "other_queries": [],
+      "index": 4.4,
+      "affiliate": true
+    }
+  ],
+  "ranked": [
+    {
+      "url": "/hidrolavadoras/comparativa-general/",
+      "title": "Hidrolavadoras: cuál comprar según uso y presupuesto",
+      "h1": "Cómo elegir una hidrolavadora para tu casa o trabajo",
+      "keywords": [
+        "hidrolavadora",
+        "comprar hidrolavadora",
+        "mejor hidrolavadora argentina",
+        "hidrolavadora precio calidad",
+        "presion y caudal hidrolavadora"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\01-hidrolavadoras.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1KQjHgT",
+        "https://meli.la/1cZXqxL",
+        "https://meli.la/2Rcddpg"
+      ],
+      "main": {
+        "keyword": "hidrolavadora",
+        "intent": "C",
+        "volume": 60500.0,
+        "kd": 23.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 2,
+        "priority_index": 1833.3333333333333
+      },
+      "other_queries": [],
+      "index": 1833.333,
+      "affiliate": true
+    },
+    {
+      "url": "/taladros/inalambricos/",
+      "title": "Taladro inalámbrico: cuál comprar en Argentina",
+      "h1": "Cómo elegir un taladro inalámbrico para tu trabajo",
+      "keywords": [
+        "taladro inalámbrico",
+        "taladro a bateria",
+        "comprar taladro inalambrico argentina",
+        "taladro atornillador",
+        "torque taladro"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\01-taladro-inalambrico.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro inalambrico",
+        "intent": "I, C",
+        "volume": 9900.0,
+        "kd": 20.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 3,
+        "priority_index": 330.0
+      },
+      "other_queries": [],
+      "index": 330.0,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/rotomartillos/",
+      "title": "Rotomartillo: cuál elegir para concreto y obra",
+      "h1": "Qué rotomartillo comprar según el trabajo",
+      "keywords": [
+        "rotomartillo",
+        "rotomartillo sds plus",
+        "rotomartillo para concreto",
+        "rotomartillo demoledor",
+        "joules rotomartillo"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\02-rotomartillo.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "rotomartillo",
+        "intent": "I, C",
+        "volume": 8100.0,
+        "kd": 18.0,
+        "cpc": 0.15,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 4,
+        "priority_index": 289.2857142857143
+      },
+      "other_queries": [],
+      "index": 289.286,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/comparativa-general/",
+      "title": "Grupos electrógenos: cómo elegir y comparar modelos",
+      "h1": "Grupos electrógenos: guía para elegir el adecuado",
+      "keywords": [
+        "grupos electrógenos",
+        "generador electrico",
+        "elegir grupo electrogeno",
+        "grupo electrogeno argentina",
+        "potencia generador"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\01-grupos-electrogenos.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ],
+      "main": {
+        "keyword": "grupo electrogeno",
+        "intent": "I, C",
+        "volume": 6600.0,
+        "kd": 20.0,
+        "cpc": 0.48,
+        "source": "semrush_generadores.csv",
+        "line": 2,
+        "priority_index": 220.0
+      },
+      "other_queries": [
+        {
+          "keyword": "generador electrico",
+          "intent": "C",
+          "volume": 5400.0,
+          "kd": 25.0,
+          "cpc": 0.24,
+          "source": "semrush_generadores.csv",
+          "line": 3,
+          "priority_index": 154.28571428571428
+        }
+      ],
+      "index": 220.0,
+      "affiliate": true
+    },
+    {
+      "url": "/taladros/percutores/",
+      "title": "Taladro percutor: cuál comprar y cómo elegirlo",
+      "h1": "Cómo elegir un taladro percutor",
+      "keywords": [
+        "taladro percutor",
+        "taladro percutor comprar",
+        "percutor con cable",
+        "taladro percutor bateria",
+        "taladro para pared"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\03-taladro-percutor.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro percutor",
+        "intent": "I, C",
+        "volume": 5400.0,
+        "kd": 18.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 7,
+        "priority_index": 192.85714285714286
+      },
+      "other_queries": [],
+      "index": 192.857,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/bosch/",
+      "title": "Amoladoras Bosch: modelos y diferencias para elegir",
+      "h1": "Qué amoladora Bosch elegir según el trabajo",
+      "keywords": [
+        "amoladora bosch",
+        "bosch gws 850",
+        "bosch gws 700",
+        "bosch gws 9 125 s",
+        "bosch gws 180 li"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\10-amoladoras-bosch.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1GRCAjZ"
+      ],
+      "main": {
+        "keyword": "amoladora bosch",
+        "intent": "I, C",
+        "volume": 4400.0,
+        "kd": 17.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 8,
+        "priority_index": 162.96296296296296
+      },
+      "other_queries": [],
+      "index": 162.963,
+      "affiliate": true
+    },
+    {
+      "url": "/amoladoras/de-banco/",
+      "title": "Amoladora de banco: cómo elegir para tu taller",
+      "h1": "Amoladoras de banco: cuál elegir para afilar y desbastar",
+      "keywords": [
+        "amoladora de banco",
+        "esmeril de banco",
+        "amoladora de banco 150 mm",
+        "amoladora de banco 200 mm",
+        "muelas para esmeril"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\06-amoladora-de-banco.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora de banco",
+        "intent": "C",
+        "volume": 3600.0,
+        "kd": 13.0,
+        "cpc": 0.05,
+        "source": "semrush_amoladoras.csv",
+        "line": 2,
+        "priority_index": 156.52173913043478
+      },
+      "other_queries": [],
+      "index": 156.522,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/disco-flap/",
+      "title": "Disco flap: para qué sirve y qué grano elegir",
+      "h1": "Disco flap: cómo elegir grano, medida y abrasivo",
+      "keywords": [
+        "disco flap",
+        "granos disco flap",
+        "flap zirconio",
+        "disco flap amoladora 115"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\01-disco-flap.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "disco flap",
+        "intent": "I, C",
+        "volume": 2900.0,
+        "kd": 9.0,
+        "cpc": 0.08,
+        "source": "semrush_amoladoras.csv",
+        "line": 3,
+        "priority_index": 152.6315789473684
+      },
+      "other_queries": [],
+      "index": 152.632,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/para-auto/",
+      "title": "Compresor de aire para auto: cuál elegir",
+      "h1": "Compresor de aire para auto: cuál elegir",
+      "keywords": [
+        "compresor de aire para auto",
+        "inflador de cubiertas auto",
+        "calibrador de neumaticos 12v",
+        "compresor portatil 4x4"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\01-compresor-de-aire-para-auto.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor de aire para auto",
+        "intent": "I, C",
+        "volume": 4400.0,
+        "kd": 20.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 9,
+        "priority_index": 146.66666666666666
+      },
+      "other_queries": [],
+      "index": 146.667,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/taladro-de-banco/",
+      "title": "Taladro de banco: guía para elegir y comparar",
+      "h1": "Qué taladro de banco comprar para tu taller",
+      "keywords": [
+        "taladro de banco",
+        "taladro de pedestal",
+        "taladro de mesa taller",
+        "comprar taladro de banco",
+        "velocidades taladro banco"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\04-taladro-de-banco.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro de banco",
+        "intent": "C",
+        "volume": 2900.0,
+        "kd": 10.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 11,
+        "priority_index": 145.0
+      },
+      "other_queries": [],
+      "index": 145.0,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/dewalt/",
+      "title": "Amoladoras DeWalt: modelos y cómo elegir",
+      "h1": "Qué amoladora DeWalt elegir según el uso",
+      "keywords": [
+        "amoladora dewalt",
+        "dewalt dwe4020",
+        "amoladora dewalt 115",
+        "amoladora dewalt a bateria",
+        "dewalt dwe4120"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\03-amoladoras-dewalt.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora dewalt",
+        "intent": "C",
+        "volume": 2400.0,
+        "kd": 12.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 12,
+        "priority_index": 109.0909090909091
+      },
+      "other_queries": [],
+      "index": 109.091,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/inalambricas/",
+      "title": "Amoladoras inalámbricas: cómo elegir batería y modelo",
+      "h1": "Amoladoras inalámbricas: qué conviene comprar y qué incluye el kit",
+      "keywords": [
+        "amoladora inalambrica",
+        "amoladora a bateria",
+        "amoladora 18v",
+        "amoladora brushless",
+        "kit amoladora a bateria"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\08-amoladoras-inalambricas.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora inalambrica",
+        "intent": "C",
+        "volume": 2400.0,
+        "kd": 16.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 13,
+        "priority_index": 92.3076923076923
+      },
+      "other_queries": [],
+      "index": 92.308,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/lusqtoff/",
+      "title": "Hidrolavadoras Lusqtoff: modelos y cuál elegir",
+      "h1": "Qué hidrolavadora Lusqtoff elegir según el uso",
+      "keywords": [
+        "hidrolavadora lusqtoff",
+        "hidrolavadora lusqtoff hl 120",
+        "hidrolavadora lusqtoff hl 150",
+        "lusqtoff hidrolavadora repuestos",
+        "hidrolavadora lusqtoff opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\03-hidrolavadoras-lusqtoff.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora lusqtoff",
+        "intent": "I, T",
+        "volume": 2400.0,
+        "kd": 19.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 15,
+        "priority_index": 82.75862068965517
+      },
+      "other_queries": [
+        {
+          "keyword": "hidrolavadora lusqtoff hl 150",
+          "intent": "C",
+          "volume": 20.0,
+          "kd": 11.0,
+          "cpc": 0.05,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 92
+        }
+      ],
+      "index": 82.759,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/caladoras/",
+      "title": "Sierra caladora: cómo elegir y qué modelos comparar",
+      "h1": "Cómo elegir una sierra caladora para madera y metal",
+      "keywords": [
+        "sierra caladora",
+        "elegir sierra caladora",
+        "caladora pendular",
+        "hojas sierra caladora",
+        "caladora para melamina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\04-sierra-caladora.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra caladora",
+        "intent": "I, C",
+        "volume": 2400.0,
+        "kd": 20.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 16,
+        "priority_index": 80.0
+      },
+      "other_queries": [
+        {
+          "keyword": "caladora para melamina",
+          "intent": "I",
+          "volume": 20.0,
+          "kd": 28.0,
+          "cpc": 0.04,
+          "source": "semrush_sierras.csv",
+          "line": 16
+        }
+      ],
+      "index": 80.0,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/makita/",
+      "title": "Amoladoras Makita: modelos y diferencias",
+      "h1": "Qué amoladora Makita elegir: modelos y diferencias de uso",
+      "keywords": [
+        "amoladora makita",
+        "makita ga4530",
+        "makita 9557hpg",
+        "amoladora makita 115",
+        "makita ga9020"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\07-amoladoras-makita.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora makita",
+        "intent": "C",
+        "volume": 1600.0,
+        "kd": 13.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 102,
+        "priority_index": 69.56521739130434
+      },
+      "other_queries": [],
+      "index": 69.565,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/lusqtoff/",
+      "title": "Soldadoras Lusqtoff: modelos y cuál conviene comprar",
+      "h1": "Qué soldadora Lusqtoff elegir para casa o taller",
+      "keywords": [
+        "soldadora lusqtoff",
+        "soldadora inverter lusqtoff",
+        "lusqtoff iron",
+        "soldadora mig lusqtoff",
+        "lusqtoff opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\02-soldadora-lusqtoff.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora lusqtoff",
+        "intent": "I, T",
+        "volume": 1900.0,
+        "kd": 19.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 20,
+        "priority_index": 65.51724137931035
+      },
+      "other_queries": [],
+      "index": 65.517,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/precios/",
+      "title": "Grupo electrógeno: precios de modelos y cómo comparar",
+      "h1": "Cuánto cuesta un grupo electrógeno en Argentina",
+      "keywords": [
+        "precios grupos electrogenos",
+        "cuanto cuesta un generador",
+        "grupo electrogeno barato",
+        "generador electrico mercado libre"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\02-precios-de-grupos-electrogenos.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ],
+      "main": {
+        "keyword": "grupo electrogeno precio",
+        "intent": "T",
+        "volume": 1600.0,
+        "kd": 15.0,
+        "cpc": 0.24,
+        "source": "semrush_generadores.csv",
+        "line": 4,
+        "priority_index": 64.0
+      },
+      "other_queries": [],
+      "index": 64.0,
+      "affiliate": true
+    },
+    {
+      "url": "/taladros/atornilladores-de-impacto/",
+      "title": "Atornillador de impacto: cuál elegir y para qué sirve",
+      "h1": "Cómo elegir un atornillador de impacto",
+      "keywords": [
+        "atornillador de impacto",
+        "taladro de impacto",
+        "torque atornillador impacto",
+        "puntas para atornillador impacto",
+        "atornillador impacto dewalt"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\05-atornillador-de-impacto.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "atornillador de impacto",
+        "intent": "I, C",
+        "volume": 1600.0,
+        "kd": 16.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 21,
+        "priority_index": 61.53846153846154
+      },
+      "other_queries": [],
+      "index": 61.538,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/gamma/",
+      "title": "Hidrolavadoras Gamma: comparativa de modelos y precios",
+      "h1": "Qué hidrolavadora Gamma comprar",
+      "keywords": [
+        "hidrolavadora gamma",
+        "gamma 130 hidrolavadora",
+        "gamma 150 hidrolavadora",
+        "hidrolavadora gamma 127",
+        "hidrolavadora gamma repuestos"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\04-hidrolavadoras-gamma.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora gamma",
+        "intent": "C",
+        "volume": 1900.0,
+        "kd": 22.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 18,
+        "priority_index": 59.375
+      },
+      "other_queries": [
+        {
+          "keyword": "hidrolavadora gamma 127",
+          "intent": "I, C",
+          "volume": 140.0,
+          "kd": 9.0,
+          "cpc": 0.03,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 78,
+          "priority_index": 7.368421052631579
+        }
+      ],
+      "index": 59.375,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/bosch/",
+      "title": "Hidrolavadoras Bosch: comparativa y guía de compra",
+      "h1": "Qué hidrolavadora Bosch elegir para casa y auto",
+      "keywords": [
+        "hidrolavadora bosch",
+        "bosch easyaquatak 120",
+        "bosch universalaquatak 130",
+        "hidrolavadora bosch opiniones",
+        "hidrolavadora bosch auto"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\06-hidrolavadoras-bosch.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora bosch",
+        "intent": "C",
+        "volume": 1900.0,
+        "kd": 23.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 17,
+        "priority_index": 57.57575757575758
+      },
+      "other_queries": [],
+      "index": 57.576,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/stihl/",
+      "title": "Hidrolavadoras Stihl: modelos, diferencias y precios",
+      "h1": "Cómo elegir una hidrolavadora Stihl",
+      "keywords": [
+        "hidrolavadora stihl",
+        "hidrolavadora stihl re 90",
+        "stihl re 110 plus",
+        "hidrolavadora stihl precios",
+        "stihl hidrolavadoras argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\05-hidrolavadoras-stihl.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora stihl",
+        "intent": "I, T",
+        "volume": 1600.0,
+        "kd": 19.0,
+        "cpc": 0.1,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 22,
+        "priority_index": 55.172413793103445
+      },
+      "other_queries": [],
+      "index": 55.172,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/soldadora-mig-con-gas/",
+      "title": "Soldadora MIG con gas: guía para elegir y comprar",
+      "h1": "Qué soldadora MIG con gas comprar",
+      "keywords": [
+        "soldadora mig con gas",
+        "soldadora mig mag",
+        "gas para soldar mig",
+        "atal soldadura",
+        "soldadora mig profesional"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\04-soldadora-mig-con-gas.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora mig con gas",
+        "intent": "I, C",
+        "volume": 1000.0,
+        "kd": 11.0,
+        "cpc": 0.11,
+        "source": "semrush_soldadoras.csv",
+        "line": 3,
+        "priority_index": 47.61904761904762
+      },
+      "other_queries": [],
+      "index": 47.619,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/black-decker/",
+      "title": "Hidrolavadoras Black+Decker: cuál conviene comprar",
+      "h1": "Qué hidrolavadora Black+Decker elegir",
+      "keywords": [
+        "hidrolavadora black decker",
+        "hidrolavadora black decker 1300w",
+        "black decker bw14",
+        "hidrolavadora black decker opiniones",
+        "repuestos hidrolavadora black decker"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\07-hidrolavadoras-black-decker.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora black decker",
+        "intent": "C",
+        "volume": 1300.0,
+        "kd": 18.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 24,
+        "priority_index": 46.42857142857143
+      },
+      "other_queries": [
+        {
+          "keyword": "hidrolavadora black decker 1300w",
+          "intent": "I",
+          "volume": 110.0,
+          "kd": 12.0,
+          "cpc": 0.04,
+          "source": "semrush_hidrolavadoras.csv",
+          "line": 17
+        }
+      ],
+      "index": 46.429,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/de-banco/",
+      "title": "Sierra de banco: cuál elegir para tu taller",
+      "h1": "Cómo elegir una sierra de banco para madera",
+      "keywords": [
+        "sierra de banco",
+        "sierra de mesa madera",
+        "guia paralela sierra de banco",
+        "cortar melamina sierra de banco",
+        "sierra de banco carpinteria"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\06-sierra-de-banco.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra de banco",
+        "intent": "I, C",
+        "volume": 1300.0,
+        "kd": 18.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 25,
+        "priority_index": 46.42857142857143
+      },
+      "other_queries": [],
+      "index": 46.429,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/soldadora-de-punto/",
+      "title": "Soldadora de punto: tipos, usos y cuál elegir",
+      "h1": "Soldadora de punto: cuál elegir para baterías o chapa",
+      "keywords": [
+        "soldadora de punto",
+        "soldadora por puntos",
+        "soldadora de baterias 18650",
+        "spotter chapista",
+        "sacabollos soldadora punto"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\03-soldadora-de-punto.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora de punto",
+        "intent": "I, T",
+        "volume": 880.0,
+        "kd": 9.0,
+        "cpc": 0.16,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 104,
+        "priority_index": 46.31578947368421
+      },
+      "other_queries": [],
+      "index": 46.316,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/recta/",
+      "title": "Amoladora recta: eléctrica o neumática, cuál elegir",
+      "h1": "Amoladoras rectas: usos y diferencias entre eléctricas y neumáticas",
+      "keywords": [
+        "amoladora recta",
+        "amoladora neumatica recta",
+        "amoladora recta electrica",
+        "fresas rotativas carburo",
+        "die grinder"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\05-amoladora-recta.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora recta",
+        "intent": "I, T",
+        "volume": 1000.0,
+        "kd": 12.0,
+        "cpc": 0.07,
+        "source": "semrush_amoladoras.csv",
+        "line": 5,
+        "priority_index": 45.45454545454545
+      },
+      "other_queries": [
+        {
+          "keyword": "amoladora neumatica recta",
+          "intent": "I",
+          "volume": 110.0,
+          "kd": 8.0,
+          "cpc": 0.07,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 127
+        }
+      ],
+      "index": 45.455,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/rotomartillo-bosch/",
+      "title": "Rotomartillo Bosch: modelos y cuál conviene comprar",
+      "h1": "Qué rotomartillo Bosch elegir",
+      "keywords": [
+        "rotomartillo bosch",
+        "bosch gbh 2-26 dre",
+        "rotomartillo bosch profesional",
+        "bosch sds plus",
+        "rotomartillo bosch bateria"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\06-rotomartillo-bosch.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "rotomartillo bosch",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 12.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 28,
+        "priority_index": 45.45454545454545
+      },
+      "other_queries": [],
+      "index": 45.455,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/tig/",
+      "title": "Soldadora TIG: qué es y qué equipo conviene comprar",
+      "h1": "Soldadoras TIG: guía para elegir tu equipo",
+      "keywords": [
+        "soldadora tig",
+        "soldadora tig inverter",
+        "soldar tig argentina",
+        "tig alta frecuencia",
+        "soldadora tig ac dc"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\06-soldadora-tig.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora tig",
+        "intent": "I, C",
+        "volume": 1300.0,
+        "kd": 19.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 26,
+        "priority_index": 44.827586206896555
+      },
+      "other_queries": [],
+      "index": 44.828,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/electrodo-7018/",
+      "title": "Electrodo 7018: usos, amperaje y cuál comprar",
+      "h1": "Electrodo 7018: cómo elegirlo según el trabajo",
+      "keywords": [
+        "electrodo 7018",
+        "electrodo bajo hidrogeno",
+        "amperaje electrodo 7018",
+        "soldar con 7018",
+        "conarco 7018"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\01-electrodo-7018.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "electrodo 7018",
+        "intent": "I, C",
+        "volume": 720.0,
+        "kd": 7.0,
+        "cpc": 0.17,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 31,
+        "priority_index": 42.35294117647059
+      },
+      "other_queries": [],
+      "index": 42.353,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/50-litros/",
+      "title": "Compresor de 50 litros: comparativa y guía de compra",
+      "h1": "Compresores de 50 litros: cuál conviene según el uso",
+      "keywords": [
+        "compresor 50 litros",
+        "compresor de aire 50 litros",
+        "compresor 2 hp 50 litros",
+        "compresor lusqtoff 50l"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\02-compresor-de-50-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/32SJoX7"
+      ],
+      "main": {
+        "keyword": "compresor 50 litros",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 15.0,
+        "cpc": 0.21,
+        "source": "semrush_compresores.csv",
+        "line": 2,
+        "priority_index": 40.0
+      },
+      "other_queries": [],
+      "index": 40.0,
+      "affiliate": true
+    },
+    {
+      "url": "/taladros/taladro-percutor-inalambrico/",
+      "title": "Taladro percutor inalámbrico: modelos y comparativa",
+      "h1": "Qué taladro percutor inalámbrico comprar",
+      "keywords": [
+        "taladro percutor inalambrico",
+        "taladro percutor a bateria",
+        "comprar taladro percutor inalambrico",
+        "taladro percutor brushless",
+        "baterias taladro 18v"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\07-taladro-percutor-inalambrico.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/2xvJRJp"
+      ],
+      "main": {
+        "keyword": "taladro percutor inalambrico",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 15.0,
+        "cpc": 0.12,
+        "source": "semrush_taladros.csv",
+        "line": 2,
+        "priority_index": 40.0
+      },
+      "other_queries": [],
+      "index": 40.0,
+      "affiliate": true
+    },
+    {
+      "url": "/hidrolavadoras/karcher-k2/",
+      "title": "Kärcher K2: versiones, prestaciones y guía de compra",
+      "h1": "Hidrolavadora Kärcher K2: cuál elegir y para qué sirve",
+      "keywords": [
+        "hidrolavadora karcher k2",
+        "karcher k2 caracteristicas",
+        "karcher k2 falta de presion",
+        "karcher k2 car kit",
+        "karcher k2 vs k3"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\08-hidrolavadora-karcher-k2.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora karcher k2",
+        "intent": "C",
+        "volume": 880.0,
+        "kd": 13.0,
+        "cpc": 0.07,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 3,
+        "priority_index": 38.26086956521739
+      },
+      "other_queries": [],
+      "index": 38.261,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/mascaras-fotosensibles/",
+      "title": "Máscara de soldar fotosensible: cómo elegir la mejor",
+      "h1": "Cómo elegir una máscara de soldar fotosensible",
+      "keywords": [
+        "mascara de soldar fotosensible",
+        "careta para soldar automatica",
+        "mascara fotosensible lusqtoff",
+        "mascara de soldar true color",
+        "casco para soldar"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\09-mascara-de-soldar-fotosensible.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "mascara de soldar fotosensible",
+        "intent": "C",
+        "volume": 880.0,
+        "kd": 14.0,
+        "cpc": 0.06,
+        "source": "semrush_soldadoras.csv",
+        "line": 4,
+        "priority_index": 36.666666666666664
+      },
+      "other_queries": [],
+      "index": 36.667,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/honda-6500/",
+      "title": "Grupo electrógeno Honda 6500: potencia y precio",
+      "h1": "Honda 6500: qué puede alimentar y qué revisar al comprar",
+      "keywords": [
+        "honda 6500",
+        "grupo electrogeno honda 6500",
+        "generador honda 6500w",
+        "honda eg6500cx",
+        "precio honda 6500"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\04-honda-6500.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "grupo electrogeno honda 6500",
+        "intent": "I, T",
+        "volume": 720.0,
+        "kd": 10.0,
+        "cpc": 0.17,
+        "source": "semrush_generadores.csv",
+        "line": 5,
+        "priority_index": 36.0
+      },
+      "other_queries": [],
+      "index": 36.0,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/lusqtoff/",
+      "title": "Amoladoras Lusqtoff: modelos y qué revisar",
+      "h1": "Amoladoras Lusqtoff: cómo comparar modelos con cable y batería",
+      "keywords": [
+        "amoladora lusqtoff",
+        "amoladora lusqtoff 850w",
+        "amoladora lusqtoff a bateria",
+        "amoladora lusqtoff opiniones",
+        "aml850-8"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\11-amoladoras-lusqtoff.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora lusqtoff",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 18.0,
+        "cpc": 0.03,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 27,
+        "priority_index": 35.714285714285715
+      },
+      "other_queries": [
+        {
+          "keyword": "amoladora lusqtoff a bateria",
+          "intent": "I, T",
+          "volume": null,
+          "kd": 14.0,
+          "cpc": null,
+          "source": "semrush_amoladoras.csv",
+          "line": 32
+        }
+      ],
+      "index": 35.714,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/black-decker/",
+      "title": "Taladro Black+Decker: qué modelo conviene comprar",
+      "h1": "Qué taladro Black+Decker elegir para casa",
+      "keywords": [
+        "taladro black decker",
+        "taladro black and decker",
+        "taladro percutor black decker",
+        "taladro inalambrico black decker 20v",
+        "black decker casa"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\09-taladro-black-decker.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro black decker",
+        "intent": "C",
+        "volume": 1000.0,
+        "kd": 18.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 29,
+        "priority_index": 35.714285714285715
+      },
+      "other_queries": [],
+      "index": 35.714,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/guantes/",
+      "title": "Guantes para soldar: cuáles elegir para MIG y TIG",
+      "h1": "Cómo elegir guantes para soldar según el proceso",
+      "keywords": [
+        "guantes para soldar",
+        "guantes de descarne",
+        "guantes soldador tig",
+        "guantes de vaqueta",
+        "proteccion soldador"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\05-guantes-para-soldar.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "guantes para soldar",
+        "intent": "C",
+        "volume": 590.0,
+        "kd": 7.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 36,
+        "priority_index": 34.705882352941174
+      },
+      "other_queries": [],
+      "index": 34.706,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/manguera/",
+      "title": "Manguera para compresor de aire: medidas y materiales",
+      "h1": "Cómo elegir una manguera para compresor de aire",
+      "keywords": [
+        "manguera para compresor de aire",
+        "manguera espiralada compresor",
+        "manguera neumatica 1/4",
+        "manguera de aire comprimido"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\03-manguera-para-compresor-de-aire.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "manguera para compresor de aire",
+        "intent": "I, T",
+        "volume": 590.0,
+        "kd": 9.0,
+        "cpc": 0.06,
+        "source": "semrush_compresores.csv",
+        "line": 5,
+        "priority_index": 31.05263157894737
+      },
+      "other_queries": [],
+      "index": 31.053,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/rotomartillo-dewalt/",
+      "title": "Rotomartillo DeWalt: cuál elegir para tu trabajo",
+      "h1": "Cómo elegir un rotomartillo DeWalt",
+      "keywords": [
+        "rotomartillo dewalt",
+        "dewalt d25133k",
+        "rotomartillo dewalt 20v",
+        "dewalt sds plus",
+        "rotomartillo dewalt comprar"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\11-rotomartillo-dewalt.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "rotomartillo dewalt",
+        "intent": "I, C",
+        "volume": 880.0,
+        "kd": 19.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 103,
+        "priority_index": 30.344827586206897
+      },
+      "other_queries": [],
+      "index": 30.345,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/pistola-para-pintar/",
+      "title": "Pistola para pintar con compresor: cuál elegir",
+      "h1": "Cómo elegir una pistola para pintar con compresor",
+      "keywords": [
+        "pistola para pintar con compresor",
+        "pistola hvlp compresor",
+        "pistola lvlp",
+        "pico soplete de pintar"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\05-pistola-para-pintar-con-compresor.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "pistola para pintar con compresor",
+        "intent": "I, C",
+        "volume": 590.0,
+        "kd": 11.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 106,
+        "priority_index": 28.095238095238095
+      },
+      "other_queries": [],
+      "index": 28.095,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/electrodo-para-fundicion/",
+      "title": "Electrodo para fundición: tipos y cuál elegir",
+      "h1": "Cómo elegir un electrodo para fundición",
+      "keywords": [
+        "electrodo para fundicion",
+        "soldar fundicion de hierro",
+        "electrodo niquel puro",
+        "electrodo ferroniquel",
+        "conarco fundicion"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\12-electrodo-para-fundicion.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "electrodo para fundicion",
+        "intent": "I, C",
+        "volume": 590.0,
+        "kd": 12.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 105,
+        "priority_index": 26.818181818181817
+      },
+      "other_queries": [],
+      "index": 26.818,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/honda/",
+      "title": "Grupos electrógenos Honda: modelos y diferencias",
+      "h1": "Qué grupo electrógeno Honda elegir",
+      "keywords": [
+        "grupos electrogenos honda",
+        "generador honda",
+        "honda eu22i",
+        "honda eg6500",
+        "generador honda inverter"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\03-grupos-electrogenos-honda.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "grupo electrogeno honda",
+        "intent": "C",
+        "volume": 390.0,
+        "kd": 5.0,
+        "cpc": 0.23,
+        "source": "semrush_generadores.csv",
+        "line": 8,
+        "priority_index": 26.0
+      },
+      "other_queries": [
+        {
+          "keyword": "generador honda inverter",
+          "intent": "I, T",
+          "volume": 90.0,
+          "kd": 14.0,
+          "cpc": 0.25,
+          "source": "semrush_generadores.csv",
+          "line": 18
+        }
+      ],
+      "index": 26.0,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/inverter/",
+      "title": "Generador inverter: qué es y cuál elegir",
+      "h1": "Generadores inverter: cómo funcionan y cuál comprar",
+      "keywords": [
+        "generador inverter",
+        "generadores inverter que es",
+        "generador inverter vs convencional",
+        "mejor generador inverter",
+        "generador silencioso inverter"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\06-generadores-inverter.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador inverter",
+        "intent": "I, C",
+        "volume": 480.0,
+        "kd": 9.0,
+        "cpc": 0.23,
+        "source": "semrush_generadores.csv",
+        "line": 6,
+        "priority_index": 25.263157894736842
+      },
+      "other_queries": [
+        {
+          "keyword": "generador inverter vs convencional",
+          "intent": "C",
+          "volume": 20.0,
+          "kd": 8.0,
+          "cpc": 0.09,
+          "source": "semrush_generadores.csv",
+          "line": 26
+        }
+      ],
+      "index": 25.263,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/para-casa/",
+      "title": "Generador eléctrico para casa: qué potencia necesitás",
+      "h1": "Cómo elegir un generador eléctrico para tu casa",
+      "keywords": [
+        "generador electrico para casa",
+        "que generador necesito para una casa",
+        "grupo electrogeno para casa",
+        "generador aire acondicionado y heladera"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\05-generador-para-casa.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador electrico para casa",
+        "intent": "I, C",
+        "volume": 390.0,
+        "kd": 6.0,
+        "cpc": 0.23,
+        "source": "semrush_generadores.csv",
+        "line": 7,
+        "priority_index": 24.375
+      },
+      "other_queries": [
+        {
+          "keyword": "que generador necesito para una casa",
+          "intent": "I",
+          "volume": 20.0,
+          "kd": 19.0,
+          "cpc": 0.19,
+          "source": "semrush_generadores.csv",
+          "line": 29
+        }
+      ],
+      "index": 24.375,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/rotomartillo-einhell/",
+      "title": "Rotomartillo Einhell: comparativa y guía de compra",
+      "h1": "Qué rotomartillo Einhell comprar",
+      "keywords": [
+        "rotomartillo einhell",
+        "rotomartillo einhell power x-change",
+        "einhell sds plus",
+        "rotomartillo einhell opiniones",
+        "herramientas einhell argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\10-rotomartillo-einhell.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "rotomartillo einhell",
+        "intent": "C",
+        "volume": 480.0,
+        "kd": 10.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 109,
+        "priority_index": 24.0
+      },
+      "other_queries": [],
+      "index": 24.0,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/dewalt-inalambrico/",
+      "title": "Taladro inalámbrico DeWalt: modelos y diferencias",
+      "h1": "Qué taladro inalámbrico DeWalt comprar",
+      "keywords": [
+        "taladro inalambrico dewalt",
+        "dewalt 20v max",
+        "taladro percutor dewalt dcd7781",
+        "dewalt brushless",
+        "comprar taladro dewalt argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\13-taladro-inalambrico-dewalt.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro inalambrico dewalt",
+        "intent": "I, C",
+        "volume": 720.0,
+        "kd": 21.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 32,
+        "priority_index": 23.225806451612904
+      },
+      "other_queries": [],
+      "index": 23.226,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/kits-aerografo/",
+      "title": "Aerógrafo con compresor: qué kit comprar para empezar",
+      "h1": "Kits de aerógrafo con compresor: guía para principiantes",
+      "keywords": [
+        "aerografo con compresor",
+        "kit aerografia principiantes",
+        "aerografo reposteria",
+        "aerografo modelismo"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\04-aerografo-con-compresor.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "aerografo con compresor",
+        "intent": "C",
+        "volume": 390.0,
+        "kd": 7.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 42,
+        "priority_index": 22.941176470588236
+      },
+      "other_queries": [],
+      "index": 22.941,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/alambre-flux/",
+      "title": "Alambre flux: tipos, medidas y cuál comprar",
+      "h1": "Cómo elegir alambre flux para tu soldadora",
+      "keywords": [
+        "alambre flux",
+        "alambre tubular flux core",
+        "alambre flux 0.8",
+        "alambre flux e71t gs",
+        "alambre para soldar sin gas"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\13-alambre-flux.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "alambre flux",
+        "intent": "C",
+        "volume": 480.0,
+        "kd": 11.0,
+        "cpc": 0.08,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 39,
+        "priority_index": 22.857142857142858
+      },
+      "other_queries": [
+        {
+          "keyword": "alambre flux 0.8",
+          "intent": "I, T",
+          "volume": 70.0,
+          "kd": 11.0,
+          "cpc": 0.05,
+          "source": "semrush_soldadoras.csv",
+          "line": 13
+        }
+      ],
+      "index": 22.857,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/lusqtoff-50-litros/",
+      "title": "Compresor Lusqtoff de 50 litros: modelos y compra",
+      "h1": "Compresor Lusqtoff de 50 litros: cuál elegir",
+      "keywords": [
+        "compresor lusqtoff 50 litros",
+        "lusqtoff lc 2050",
+        "compresor lusqtoff 50l opiniones",
+        "compresor lusqtoff silencioso 50l"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\09-compresor-lusqtoff-50-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor lusqtoff 50 litros",
+        "intent": "C",
+        "volume": 590.0,
+        "kd": 16.0,
+        "cpc": 0.16,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 33,
+        "priority_index": 22.692307692307693
+      },
+      "other_queries": [],
+      "index": 22.692,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/stanley/",
+      "title": "Amoladoras Stanley: cómo elegir el modelo",
+      "h1": "Amoladoras Stanley: modelos, usos y qué revisar antes de comprar",
+      "keywords": [
+        "amoladora stanley",
+        "stanley sg7115",
+        "stanley stgs9115",
+        "amoladora stanley 115",
+        "amoladora stanley opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\15-amoladoras-stanley.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora stanley",
+        "intent": "I, C",
+        "volume": 390.0,
+        "kd": 8.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 43,
+        "priority_index": 21.666666666666668
+      },
+      "other_queries": [
+        {
+          "keyword": "amoladora stanley opiniones",
+          "intent": "I, C",
+          "volume": 0.0,
+          "kd": 12.0,
+          "cpc": 0.0,
+          "source": "semrush_amoladoras.csv",
+          "line": 24
+        }
+      ],
+      "index": 21.667,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/para-durlock/",
+      "title": "Atornillador para Durlock: cuál comprar y por qué",
+      "h1": "Cómo elegir un atornillador para Durlock",
+      "keywords": [
+        "atornillador para durlock",
+        "atornillador placas de yeso",
+        "atornillador drywall",
+        "atornillador durlock dewalt",
+        "tornillos t2 durlock"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\08-atornillador-para-durlock.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "atornillador para durlock",
+        "intent": "I, C",
+        "volume": 320.0,
+        "kd": 5.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 47,
+        "priority_index": 21.333333333333332
+      },
+      "other_queries": [],
+      "index": 21.333,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/100-litros/",
+      "title": "Compresor de 100 litros: comparativa y guía de compra",
+      "h1": "Qué compresor de 100 litros elegir para tu taller",
+      "keywords": [
+        "compresor de 100 litros",
+        "compresor 100l correa",
+        "compresor 3 hp taller",
+        "compresor bicilindrico 100l"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\11-compresor-de-100-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor 100 litros",
+        "intent": "I, C",
+        "volume": 590.0,
+        "kd": 19.0,
+        "cpc": 0.09,
+        "source": "semrush_compresores.csv",
+        "line": 4,
+        "priority_index": 20.344827586206897
+      },
+      "other_queries": [],
+      "index": 20.345,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/esab/",
+      "title": "Soldadoras ESAB: modelos, diferencias y qué elegir",
+      "h1": "Qué soldadora ESAB elegir según tu trabajo",
+      "keywords": [
+        "soldadora esab",
+        "esab argentina",
+        "esab handyarc",
+        "esab bantam",
+        "esab rogue"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\15-soldadora-esab.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora esab",
+        "intent": "N, C",
+        "volume": 590.0,
+        "kd": 20.0,
+        "cpc": 0.14,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 38,
+        "priority_index": 19.666666666666668
+      },
+      "other_queries": [],
+      "index": 19.667,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/einhell-inalambrico/",
+      "title": "Taladro inalámbrico Einhell: cuál comprar",
+      "h1": "Qué taladro inalámbrico Einhell elegir",
+      "keywords": [
+        "taladro inalambrico einhell",
+        "einhell 18v power x-change",
+        "taladro percutor einhell",
+        "taladro einhell brushless",
+        "einhell argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\12-taladro-inalambrico-einhell.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro inalambrico einhell",
+        "intent": "C",
+        "volume": 390.0,
+        "kd": 10.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 46,
+        "priority_index": 19.5
+      },
+      "other_queries": [],
+      "index": 19.5,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/ingletadoras-einhell/",
+      "title": "Ingletadora Einhell: modelos y cuál conviene elegir",
+      "h1": "Qué ingletadora Einhell elegir según tus trabajos",
+      "keywords": [
+        "ingletadora einhell",
+        "sierra ingletadora einhell",
+        "ingletadora telescopica einhell",
+        "einhell tc-ms 2112",
+        "einhell te-sm 2131"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\08-ingletadora-einhell.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "ingletadora einhell",
+        "intent": "I, T",
+        "volume": 320.0,
+        "kd": 8.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 49,
+        "priority_index": 17.77777777777778
+      },
+      "other_queries": [],
+      "index": 17.778,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/sensitivas-dewalt/",
+      "title": "Sensitiva DeWalt: modelos y guía de compra",
+      "h1": "Sensitiva DeWalt: qué modelo elegir",
+      "keywords": [
+        "sensitiva dewalt",
+        "sierra sensitiva dewalt",
+        "dewalt d28730",
+        "cortadora sensitiva dewalt 14"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\12-sensitiva-dewalt.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sensitiva dewalt",
+        "intent": "N, C",
+        "volume": 590.0,
+        "kd": 24.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 107,
+        "priority_index": 17.352941176470587
+      },
+      "other_queries": [],
+      "index": 17.353,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/9-pulgadas/",
+      "title": "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm",
+      "h1": "Amoladoras de 9 pulgadas y 230 mm: usos y elección",
+      "keywords": [
+        "amoladora 9 pulgadas",
+        "amoladora 230 mm",
+        "amoladora grande",
+        "dewalt dwe492",
+        "makita ga9020"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\12-amoladora-de-9-pulgadas.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora 9 pulgadas",
+        "intent": "I, C",
+        "volume": 260.0,
+        "kd": 5.0,
+        "cpc": 0.06,
+        "source": "semrush_amoladoras.csv",
+        "line": 7,
+        "priority_index": 17.333333333333332
+      },
+      "other_queries": [],
+      "index": 17.333,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/acoples-rapidos/",
+      "title": "Acople rápido para compresor: perfiles, roscas y medidas",
+      "h1": "Acople rápido para compresor: perfiles, roscas y medidas",
+      "keywords": [
+        "acople rapido para compresor",
+        "enchufe rapido aire comprimido",
+        "acople neumatico 1/4",
+        "conector rapido compresor"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\06-acople-rapido-para-compresor.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "acople rapido para compresor",
+        "intent": "I, C",
+        "volume": 260.0,
+        "kd": 5.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 53,
+        "priority_index": 17.333333333333332
+      },
+      "other_queries": [],
+      "index": 17.333,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/para-aerografo/",
+      "title": "Compresor para aerógrafo: cómo elegir el adecuado",
+      "h1": "Qué compresor comprar para tu aerógrafo",
+      "keywords": [
+        "compresor para aerografo",
+        "compresor aerografo silencioso",
+        "compresor con tanque aerografia",
+        "compresor fengda"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\07-compresor-para-aerografo.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor para aerografo",
+        "intent": "I, C",
+        "volume": 260.0,
+        "kd": 5.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 56,
+        "priority_index": 17.333333333333332
+      },
+      "other_queries": [],
+      "index": 17.333,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/profesionales/",
+      "title": "Hidrolavadora profesional: cómo elegir para trabajar",
+      "h1": "Qué hidrolavadora profesional comprar para trabajar",
+      "keywords": [
+        "hidrolavadora profesional",
+        "hidrolavadora lavadero de autos",
+        "hidrolavadora industrial agua caliente",
+        "hidrolavadora trifasica argentina",
+        "bomba hidrolavadora laton"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\11-hidrolavadora-profesional.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora profesional",
+        "intent": "I, T",
+        "volume": 390.0,
+        "kd": 13.0,
+        "cpc": 0.09,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 7,
+        "priority_index": 16.956521739130434
+      },
+      "other_queries": [],
+      "index": 16.957,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/lusqtoff-inalambrico/",
+      "title": "Taladro inalámbrico Lusqtoff: cuál conviene comprar",
+      "h1": "Cómo elegir un taladro inalámbrico Lusqtoff",
+      "keywords": [
+        "taladro inalambrico lusqtoff",
+        "lusqtoff 18v",
+        "taladro percutor lusqtoff",
+        "taladro a bateria lusqtoff",
+        "lusqtoff argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\16-taladro-inalambrico-lusqtoff.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro inalambrico lusqtoff",
+        "intent": "I, T",
+        "volume": 480.0,
+        "kd": 19.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 41,
+        "priority_index": 16.551724137931036
+      },
+      "other_queries": [],
+      "index": 16.552,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/gamma-150/",
+      "title": "Gamma 150: características, uso y guía de compra",
+      "h1": "Hidrolavadora Gamma 150: qué revisar antes de comprar",
+      "keywords": [
+        "hidrolavadora gamma 150",
+        "gamma 150 g2578ar",
+        "hidrolavadora gamma 150 opiniones",
+        "gamma 150 vs 130",
+        "repuestos hidrolavadora gamma 150"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\10-hidrolavadora-gamma-150.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora gamma 150",
+        "intent": "I, C",
+        "volume": 320.0,
+        "kd": 10.0,
+        "cpc": 0.03,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 8,
+        "priority_index": 16.0
+      },
+      "other_queries": [],
+      "index": 16.0,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/karcher-k3/",
+      "title": "Kärcher K3: versiones y diferencias con K2 y K4",
+      "h1": "Hidrolavadora Kärcher K3: cuándo conviene elegirla",
+      "keywords": [
+        "hidrolavadora karcher k3",
+        "karcher k3 confort",
+        "karcher k3 vs k2",
+        "karcher k3 vs k4",
+        "karcher k3 caracteristicas"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\12-hidrolavadora-karcher-k3.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora karcher k3",
+        "intent": "I, T",
+        "volume": 480.0,
+        "kd": 21.0,
+        "cpc": 0.05,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 4,
+        "priority_index": 15.483870967741936
+      },
+      "other_queries": [],
+      "index": 15.484,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "title": "Electrodo para acero inoxidable: cuál elegir",
+      "h1": "Cómo elegir electrodos para acero inoxidable",
+      "keywords": [
+        "electrodo para acero inoxidable",
+        "electrodo e308l",
+        "electrodo e316l",
+        "electrodo e309l",
+        "soldar acero inoxidable electrodo"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\16-electrodo-para-acero-inoxidable.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "electrodo para acero inoxidable",
+        "intent": "I, C",
+        "volume": 480.0,
+        "kd": 22.0,
+        "cpc": 0.09,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 108,
+        "priority_index": 15.0
+      },
+      "other_queries": [],
+      "index": 15.0,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/skil-830w/",
+      "title": "Amoladora Skil de 830 W: qué revisar antes de comprar",
+      "h1": "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W",
+      "keywords": [
+        "amoladora skil 830w",
+        "skil 9004",
+        "skil 9002",
+        "amoladora skil 700w",
+        "amoladora skil opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\13-amoladora-skil-830w.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora skil 830w",
+        "intent": "I, T",
+        "volume": 210.0,
+        "kd": 5.0,
+        "cpc": 0.03,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 63,
+        "priority_index": 14.0
+      },
+      "other_queries": [
+        {
+          "keyword": "amoladora skil 700w",
+          "intent": "I",
+          "volume": 260.0,
+          "kd": 16.0,
+          "cpc": 0.03,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 114
+        }
+      ],
+      "index": 14.0,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/de-banco-einhell/",
+      "title": "Sierra de banco Einhell: comparativa y guía de compra",
+      "h1": "Qué sierra de banco Einhell elegir para tu taller",
+      "keywords": [
+        "sierra de banco einhell",
+        "sierra de mesa einhell",
+        "einhell tc-ts 2025",
+        "einhell te-cc 250",
+        "sierra circular de mesa einhell"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\09-sierra-de-banco-einhell.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra de banco einhell",
+        "intent": "T",
+        "volume": 210.0,
+        "kd": 6.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 70,
+        "priority_index": 13.125
+      },
+      "other_queries": [],
+      "index": 13.125,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/ingco/",
+      "title": "Amoladoras Ingco: modelos con cable y a batería",
+      "h1": "Qué amoladora Ingco elegir según el uso",
+      "keywords": [
+        "amoladora ingco",
+        "amoladora ingco a bateria",
+        "amoladora ingco 115",
+        "ingco 20v amoladora",
+        "amoladora ingco opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\17-amoladoras-ingco.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora ingco",
+        "intent": "C",
+        "volume": 260.0,
+        "kd": 10.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 55,
+        "priority_index": 13.0
+      },
+      "other_queries": [],
+      "index": 13.0,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/lusqtoff/",
+      "title": "Generadores Lusqtoff: modelos y qué revisar",
+      "h1": "Generadores Lusqtoff: cuál elegir",
+      "keywords": [
+        "generadores lusqtoff",
+        "generador lusqtoff opiniones",
+        "lusqtoff lg3500ex",
+        "generador lusqtoff inverter",
+        "repuestos generador lusqtoff"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\11-generadores-lusqtoff.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador lusqtoff",
+        "intent": "T, N",
+        "volume": 260.0,
+        "kd": 10.0,
+        "cpc": 0.1,
+        "source": "semrush_generadores.csv",
+        "line": 9,
+        "priority_index": 13.0
+      },
+      "other_queries": [
+        {
+          "keyword": "generador lusqtoff opiniones",
+          "intent": "I",
+          "volume": 20.0,
+          "kd": 9.0,
+          "cpc": 0.13,
+          "source": "semrush_generadores.csv",
+          "line": 27
+        },
+        {
+          "keyword": "lusqtoff lg3500ex",
+          "intent": "I",
+          "volume": 20.0,
+          "kd": 12.0,
+          "cpc": 0.12,
+          "source": "semrush_generadores.csv",
+          "line": 53
+        }
+      ],
+      "index": 13.0,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/einhell/",
+      "title": "Hidrolavadoras Einhell: modelos y guía de compra",
+      "h1": "Qué hidrolavadora Einhell comprar",
+      "keywords": [
+        "hidrolavadora einhell",
+        "hidrolavadora einhell a bateria",
+        "einhell te-hp 140",
+        "hidrolavadora einhell opiniones",
+        "power x-change hidrolavadora"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\13-hidrolavadoras-einhell.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora einhell",
+        "intent": "I, T",
+        "volume": 320.0,
+        "kd": 15.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 112,
+        "priority_index": 12.8
+      },
+      "other_queries": [
+        {
+          "keyword": "hidrolavadora einhell opiniones",
+          "intent": "I",
+          "volume": 0.0,
+          "kd": 25.0,
+          "cpc": 0.0,
+          "source": "semrush_hidrolavadoras.csv",
+          "line": 33
+        }
+      ],
+      "index": 12.8,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/circulares-black-decker/",
+      "title": "Sierra circular Black+Decker: qué modelo elegir",
+      "h1": "Cómo elegir una sierra circular Black+Decker",
+      "keywords": [
+        "sierra circular black and decker",
+        "black decker cs1004",
+        "black decker cs1024",
+        "sierra circular 1400w",
+        "sierra circular bricolaje"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\17-sierra-circular-black-and-decker.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra circular black and decker",
+        "intent": "C",
+        "volume": 320.0,
+        "kd": 16.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 50,
+        "priority_index": 12.307692307692308
+      },
+      "other_queries": [],
+      "index": 12.308,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/karcher-k4/",
+      "title": "Kärcher K4: versiones y diferencias con K3 y K5",
+      "h1": "Hidrolavadora Kärcher K4: guía de compra",
+      "keywords": [
+        "hidrolavadora karcher k4",
+        "karcher k4 power control",
+        "karcher k4 vs k3",
+        "karcher k4 vs k5",
+        "karcher k4 precio argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\17-hidrolavadora-karcher-k4.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora karcher k4",
+        "intent": "C",
+        "volume": 390.0,
+        "kd": 22.0,
+        "cpc": 0.07,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 6,
+        "priority_index": 12.1875
+      },
+      "other_queries": [],
+      "index": 12.188,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/lusqtoff-iron-250/",
+      "title": "Lusqtoff Iron 250: características y guía de compra",
+      "h1": "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar",
+      "keywords": [
+        "soldadora lusqtoff iron 250",
+        "lusqtoff iron 250 opiniones",
+        "iron 250 ficha tecnica",
+        "lusqtoff iron 250 amperaje real",
+        "soldadora inverter lusqtoff"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\18-soldadora-lusqtoff-iron-250.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora lusqtoff iron 250",
+        "intent": "I, C",
+        "volume": 320.0,
+        "kd": 17.0,
+        "cpc": 0.05,
+        "source": "semrush_soldadoras.csv",
+        "line": 7,
+        "priority_index": 11.851851851851851
+      },
+      "other_queries": [],
+      "index": 11.852,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/7-pulgadas/",
+      "title": "Amoladora de 7 pulgadas: cómo elegir una de 180 mm",
+      "h1": "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas",
+      "keywords": [
+        "amoladora 7 pulgadas",
+        "amoladora 180 mm",
+        "amoladora grande",
+        "gladiator pro aa518/220"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\19-amoladora-7-pulgadas.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora 7 pulgadas",
+        "intent": "C",
+        "volume": 260.0,
+        "kd": 12.0,
+        "cpc": 0.06,
+        "source": "semrush_amoladoras.csv",
+        "line": 6,
+        "priority_index": 11.818181818181818
+      },
+      "other_queries": [],
+      "index": 11.818,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/lusqtoff-hl-120/",
+      "title": "Lusqtoff HL 120: prestaciones y guía de compra",
+      "h1": "Hidrolavadora Lusqtoff HL 120: para quién conviene",
+      "keywords": [
+        "hidrolavadora lusqtoff hl 120",
+        "lusqtoff hl 120 opiniones",
+        "hidrolavadora lusqtoff hl 120 caracteristicas",
+        "lusqtoff hl-120 precio",
+        "hl 120 vs hl 150"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\16-hidrolavadora-lusqtoff-hl-120.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora lusqtoff hl 120",
+        "intent": "I, T",
+        "volume": 320.0,
+        "kd": 18.0,
+        "cpc": 0.03,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 48,
+        "priority_index": 11.428571428571429
+      },
+      "other_queries": [],
+      "index": 11.429,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/gamma-50-litros/",
+      "title": "Compresor Gamma de 50 litros: modelos y prestaciones",
+      "h1": "Compresor Gamma de 50 litros: guía de compra",
+      "keywords": [
+        "compresor gamma 50 litros",
+        "gamma g2802ar",
+        "compresor gamma 2 hp 50l",
+        "compresor gamma opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\12-compresor-gamma-50-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor gamma 50 litros",
+        "intent": "C",
+        "volume": 210.0,
+        "kd": 9.0,
+        "cpc": 0.2,
+        "source": "semrush_compresores.csv",
+        "line": 6,
+        "priority_index": 11.052631578947368
+      },
+      "other_queries": [],
+      "index": 11.053,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/kits-accesorios/",
+      "title": "Kit para compresor de aire: accesorios que convienen",
+      "h1": "Qué kit de accesorios comprar para un compresor",
+      "keywords": [
+        "kit para compresor de aire",
+        "kit 5 piezas compresor",
+        "accesorios compresor de aire",
+        "pistola soplete kit compresor"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\13-kit-para-compresor-de-aire.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/32SJoX7"
+      ],
+      "main": {
+        "keyword": "kit para compresor de aire",
+        "intent": "I, C",
+        "volume": 210.0,
+        "kd": 9.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 118,
+        "priority_index": 11.052631578947368
+      },
+      "other_queries": [],
+      "index": 11.053,
+      "affiliate": true
+    },
+    {
+      "url": "/generadores/portatiles/",
+      "title": "Generador portátil: cuál elegir según el uso",
+      "h1": "Generadores portátiles para camping, viajes y trabajo",
+      "keywords": [
+        "generador portatil",
+        "generadores portatiles para camping",
+        "generador tipo valija",
+        "generador liviano camping",
+        "generador para motorhome"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\15-generadores-portatiles.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador portatil",
+        "intent": "C",
+        "volume": 260.0,
+        "kd": 14.0,
+        "cpc": 0.15,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 58,
+        "priority_index": 10.833333333333334
+      },
+      "other_queries": [],
+      "index": 10.833,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/circulares-lusqtoff/",
+      "title": "Sierra circular Lusqtoff: modelos y guía de compra",
+      "h1": "Qué sierra circular Lusqtoff elegir",
+      "keywords": [
+        "sierra circular lusqtoff",
+        "lusqtoff cs1500-8",
+        "sierra circular lusqtoff opiniones",
+        "sierra circular 1500w lusqtoff",
+        "sierra de mano lusqtoff"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\20-sierra-circular-lusqtoff.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra circular lusqtoff",
+        "intent": "I, T",
+        "volume": 320.0,
+        "kd": 20.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 51,
+        "priority_index": 10.666666666666666
+      },
+      "other_queries": [
+        {
+          "keyword": "sierra circular lusqtoff opiniones",
+          "intent": "C",
+          "volume": null,
+          "kd": 20.0,
+          "cpc": null,
+          "source": "semrush_sierras.csv",
+          "line": 37
+        }
+      ],
+      "index": 10.667,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/hyundai/",
+      "title": "Generadores Hyundai: modelos, potencia y precios",
+      "h1": "Qué generador Hyundai elegir según tu consumo",
+      "keywords": [
+        "generador hyundai",
+        "generadores hyundai opiniones",
+        "hyundai hhy7200",
+        "generador hyundai inverter",
+        "precios generador hyundai"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\09-generadores-hyundai.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador hyundai",
+        "intent": "C",
+        "volume": 170.0,
+        "kd": 6.0,
+        "cpc": 0.18,
+        "source": "semrush_generadores.csv",
+        "line": 11,
+        "priority_index": 10.625
+      },
+      "other_queries": [
+        {
+          "keyword": "generadores hyundai opiniones",
+          "intent": "C",
+          "volume": null,
+          "kd": 14.0,
+          "cpc": null,
+          "source": "semrush_generadores.csv",
+          "line": 39
+        }
+      ],
+      "index": 10.625,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/gamma-130/",
+      "title": "Gamma 130: prestaciones y diferencias con Gamma 150",
+      "h1": "Hidrolavadora Gamma 130: guía para elegirla",
+      "keywords": [
+        "hidrolavadora gamma 130",
+        "gamma 130 g2577ar",
+        "gamma 130 ficha tecnica",
+        "gamma 130 vs gamma 150",
+        "repuestos hidrolavadora gamma 130"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\14-hidrolavadora-gamma-130.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora gamma 130",
+        "intent": "I, C",
+        "volume": 210.0,
+        "kd": 10.0,
+        "cpc": 0.03,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 10,
+        "priority_index": 10.5
+      },
+      "other_queries": [],
+      "index": 10.5,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/para-aluminio/",
+      "title": "Soldadora para aluminio: TIG o MIG, cuál elegir",
+      "h1": "Qué soldadora necesitás para soldar aluminio",
+      "keywords": [
+        "soldadora para aluminio",
+        "soldar aluminio tig o mig",
+        "soldadora tig ac dc aluminio",
+        "spool gun aluminio",
+        "gas para soldar aluminio"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\17-soldadora-para-aluminio.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora para aluminio",
+        "intent": "I, C",
+        "volume": 210.0,
+        "kd": 10.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 71,
+        "priority_index": 10.5
+      },
+      "other_queries": [],
+      "index": 10.5,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/lusqtoff-100-litros/",
+      "title": "Compresor Lusqtoff de 100 litros: guía de compra",
+      "h1": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
+      "keywords": [
+        "compresor lusqtoff 100 litros",
+        "lusqtoff lc 30100",
+        "compresor lusqtoff 3 hp 100l",
+        "compresor a correa lusqtoff"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\14-compresor-lusqtoff-100-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor lusqtoff 100 litros",
+        "intent": "I, C",
+        "volume": 170.0,
+        "kd": 8.0,
+        "cpc": 0.05,
+        "source": "semrush_compresores.csv",
+        "line": 7,
+        "priority_index": 9.444444444444445
+      },
+      "other_queries": [],
+      "index": 9.444,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/sin-aceite/",
+      "title": "Compresor sin aceite: ventajas y cuál comprar",
+      "h1": "Compresores sin aceite: cuándo convienen",
+      "keywords": [
+        "compresor sin aceite",
+        "compresor oil free",
+        "compresor silencioso libre de aceite",
+        "compresor odontologico"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\15-compresor-sin-aceite.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor sin aceite",
+        "intent": "C",
+        "volume": 170.0,
+        "kd": 8.0,
+        "cpc": 0.2,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 73,
+        "priority_index": 9.444444444444445
+      },
+      "other_queries": [],
+      "index": 9.444,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/diesel/",
+      "title": "Generador diésel: consumo, ventajas y modelos",
+      "h1": "Cómo elegir un generador diésel",
+      "keywords": [
+        "generador diesel",
+        "grupo electrogeno diesel",
+        "consumo generador diesel",
+        "generador gasoil",
+        "generador diesel insonorizado"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\14-generadores-diesel.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador diesel",
+        "intent": "I, C",
+        "volume": 170.0,
+        "kd": 8.0,
+        "cpc": 0.6,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 74,
+        "priority_index": 9.444444444444445
+      },
+      "other_queries": [],
+      "index": 9.444,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/gamma-6500/",
+      "title": "Grupo electrógeno Gamma 6500: guía de compra",
+      "h1": "Gamma 6500: versiones, potencia y usos",
+      "keywords": [
+        "gamma 6500",
+        "grupo electrogeno gamma 6500",
+        "generador gamma 6500w",
+        "gamma elite 6500",
+        "precio gamma 6500"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\10-gamma-6500.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "grupo electrogeno gamma 6500",
+        "intent": "N, C",
+        "volume": 140.0,
+        "kd": 5.0,
+        "cpc": 0.1,
+        "source": "semrush_generadores.csv",
+        "line": 14,
+        "priority_index": 9.333333333333334
+      },
+      "other_queries": [],
+      "index": 9.333,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/stanley/",
+      "title": "Compresor Stanley: modelos y cuál elegir",
+      "h1": "Compresores Stanley: comparativa y guía de compra",
+      "keywords": [
+        "compresor stanley",
+        "compresor stanley fatmax",
+        "compresor stanley silencioso",
+        "compresor stanley 24 litros"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\20-compresor-stanley.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor stanley",
+        "intent": "C",
+        "volume": 260.0,
+        "kd": 18.0,
+        "cpc": 0.07,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 116,
+        "priority_index": 9.285714285714286
+      },
+      "other_queries": [
+        {
+          "keyword": "compresor stanley silencioso",
+          "intent": "I",
+          "volume": null,
+          "kd": 23.0,
+          "cpc": null,
+          "source": "semrush_compresores.csv",
+          "line": 35
+        }
+      ],
+      "index": 9.286,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/atornillador-impacto-dewalt/",
+      "title": "Atornillador de impacto DeWalt: cuál comprar",
+      "h1": "Qué atornillador de impacto DeWalt elegir",
+      "keywords": [
+        "atornillador de impacto dewalt",
+        "dewalt dcf887",
+        "dewalt dcf809",
+        "atornillador impacto dewalt 20v",
+        "dewalt brushless impacto"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\19-atornillador-de-impacto-dewalt.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "atornillador de impacto dewalt",
+        "intent": "C",
+        "volume": 210.0,
+        "kd": 14.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 64,
+        "priority_index": 8.75
+      },
+      "other_queries": [],
+      "index": 8.75,
+      "affiliate": false
+    },
+    {
+      "url": "/soldadoras/soldadora-dogo-180/",
+      "title": "Soldadora Dogo 180: características y qué revisar",
+      "h1": "Soldadora Dogo 180: guía antes de comprar",
+      "keywords": [
+        "soldadora dogo 180",
+        "dogo 180 ficha tecnica",
+        "dogo 180 opiniones",
+        "soldadora dogo transformador",
+        "dogo 180 inverter"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\14-soldadora-dogo-180.md",
+      "section": "soldadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "soldadora dogo 180",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 3.0,
+        "cpc": 0.08,
+        "source": "semrush_soldadoras.csv",
+        "line": 10,
+        "priority_index": 8.461538461538462
+      },
+      "other_queries": [],
+      "index": 8.462,
+      "affiliate": false
+    },
+    {
+      "url": "/taladros/bosch-inalambrico/",
+      "title": "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir",
+      "h1": "Qué taladro inalámbrico Bosch comprar",
+      "keywords": [
+        "taladro inalambrico bosch",
+        "bosch gsr 120-li",
+        "bosch gsb 180-li",
+        "taladro percutor bosch 18v",
+        "bosch professional argentina"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\20-taladro-inalambrico-bosch.md",
+      "section": "taladros",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "taladro inalambrico bosch",
+        "intent": "C",
+        "volume": 260.0,
+        "kd": 21.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 62,
+        "priority_index": 8.387096774193548
+      },
+      "other_queries": [],
+      "index": 8.387,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/hyundai/",
+      "title": "Hidrolavadoras Hyundai: modelos y cuál comprar",
+      "h1": "Qué hidrolavadora Hyundai elegir",
+      "keywords": [
+        "hidrolavadora hyundai",
+        "hidrolavadora hyundai opiniones",
+        "hyundai hypw",
+        "hidrolavadora hyundai 1400w",
+        "repuestos hidrolavadora hyundai"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\15-hidrolavadoras-hyundai.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora hyundai",
+        "intent": "C",
+        "volume": 140.0,
+        "kd": 7.0,
+        "cpc": 0.03,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 79,
+        "priority_index": 8.235294117647058
+      },
+      "other_queries": [],
+      "index": 8.235,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/bosch-gks-150/",
+      "title": "Bosch GKS 150: características y cuándo conviene",
+      "h1": "Sierra circular Bosch GKS 150: guía antes de comprar",
+      "keywords": [
+        "bosch gks 150",
+        "sierra circular bosch gks 150",
+        "gks 150 caracteristicas",
+        "sierra circular bosch 1500w",
+        "opiniones bosch gks 150"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\16-sierra-circular-bosch-gks-150.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra circular bosch gks 150",
+        "intent": "C",
+        "volume": 140.0,
+        "kd": 7.0,
+        "cpc": 0.06,
+        "source": "semrush_sierras.csv",
+        "line": 6,
+        "priority_index": 8.235294117647058
+      },
+      "other_queries": [],
+      "index": 8.235,
+      "affiliate": false
+    },
+    {
+      "url": "/hidrolavadoras/150-bar/",
+      "title": "Hidrolavadoras de 150 bar: comparativa y cómo elegir",
+      "h1": "Qué hidrolavadora de 150 bar comprar",
+      "keywords": [
+        "hidrolavadora 150 bar",
+        "hidrolavadora 150 bar precio",
+        "mejor hidrolavadora 150 bar",
+        "hidrolavadora 2000w 150 bar",
+        "hidrolavadora semiprofesional 150 bar"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\18-hidrolavadora-150-bar.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/1KQjHgT"
+      ],
+      "main": {
+        "keyword": "hidrolavadora 150 bar",
+        "intent": "I, T",
+        "volume": 140.0,
+        "kd": 8.0,
+        "cpc": 0.08,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 12,
+        "priority_index": 7.777777777777778
+      },
+      "other_queries": [],
+      "index": 7.778,
+      "affiliate": true
+    },
+    {
+      "url": "/hidrolavadoras/200-bar/",
+      "title": "Hidrolavadoras de 200 bar: cuándo convienen",
+      "h1": "Cómo elegir una hidrolavadora de 200 bar",
+      "keywords": [
+        "hidrolavadora 200 bar",
+        "hidrolavadora 200 bar naftera",
+        "hidrolavadora profesional 200 bar",
+        "hidrolavadora trifasica 200 bar",
+        "bomba 200 bar agua fria"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\19-hidrolavadora-200-bar.md",
+      "section": "hidrolavadoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "hidrolavadora 200 bar",
+        "intent": "I, T",
+        "volume": 140.0,
+        "kd": 8.0,
+        "cpc": 0.12,
+        "source": "semrush_hidrolavadoras.csv",
+        "line": 13,
+        "priority_index": 7.777777777777778
+      },
+      "other_queries": [],
+      "index": 7.778,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/velocidad-variable/",
+      "title": "Amoladora de velocidad variable: cuándo conviene",
+      "h1": "Amoladoras de velocidad variable: usos y modelos para comparar",
+      "keywords": [
+        "amoladora velocidad variable",
+        "amoladora con regulador de velocidad",
+        "amoladora para pulir",
+        "amoladora rpm regulable",
+        "bosch gws 9 125 s"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\18-amoladora-velocidad-variable.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "amoladora velocidad variable",
+        "intent": "C",
+        "volume": 140.0,
+        "kd": 9.0,
+        "cpc": 0.06,
+        "source": "semrush_amoladoras.csv",
+        "line": 10,
+        "priority_index": 7.368421052631579
+      },
+      "other_queries": [],
+      "index": 7.368,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/sierra-caladora-bosch/",
+      "title": "Sierra caladora Bosch: qué modelo elegir en Argentina",
+      "h1": "Sierra caladora Bosch: comparativa de modelos",
+      "keywords": [
+        "sierra caladora bosch",
+        "caladora bosch",
+        "bosch gst 650",
+        "bosch gst 680",
+        "bosch gst 75 e"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\22-caladoras-bosch.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "sierra caladora bosch",
+        "intent": "C",
+        "volume": 140.0,
+        "kd": 9.0,
+        "cpc": 0.08,
+        "source": "semrush_sierras.csv",
+        "line": 5,
+        "priority_index": 7.368421052631579
+      },
+      "other_queries": [],
+      "index": 7.368,
+      "affiliate": false
+    },
+    {
+      "url": "/amoladoras/disco-diamantado-segmentado/",
+      "title": "Disco diamantado segmentado: usos y cómo elegir",
+      "h1": "Disco diamantado segmentado: para qué sirve y cuándo elegirlo",
+      "keywords": [
+        "disco diamantado segmentado",
+        "disco segmentado hormigon",
+        "disco para cortar ladrillo",
+        "disco diamantado 115",
+        "disco diamantado 230"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\14-disco-diamantado-segmentado.md",
+      "section": "amoladoras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "disco diamantado segmentado",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 5.0,
+        "cpc": 0.04,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 130,
+        "priority_index": 7.333333333333333
+      },
+      "other_queries": [
+        {
+          "keyword": "disco para cortar ladrillo",
+          "intent": "I",
+          "volume": 170.0,
+          "kd": 11.0,
+          "cpc": 0.03,
+          "source": "semrush_amoladoras.csv",
+          "line": 9
+        }
+      ],
+      "index": 7.333,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/gamma/",
+      "title": "Generadores Gamma: comparativa de modelos y precios",
+      "h1": "Qué generador Gamma comprar según el uso",
+      "keywords": [
+        "generador gamma",
+        "generadores gamma modelos",
+        "grupo electrogeno gamma",
+        "gamma elite 3500",
+        "precios generadores gamma"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\12-generadores-gamma.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador gamma",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 5.0,
+        "cpc": 0.18,
+        "source": "semrush_generadores.csv",
+        "line": 16,
+        "priority_index": 7.333333333333333
+      },
+      "other_queries": [],
+      "index": 7.333,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/ingletadoras-total/",
+      "title": "Ingletadora Total: modelos y qué revisar al comprar",
+      "h1": "Cómo elegir una ingletadora Total",
+      "keywords": [
+        "ingletadora total",
+        "sierra ingletadora total",
+        "total tools ingletadora",
+        "ingletadora telescopica total",
+        "ingletadora 10 pulgadas total"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\14-ingletadora-total.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "ingletadora total",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 5.0,
+        "cpc": 0.06,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 131,
+        "priority_index": 7.333333333333333
+      },
+      "other_queries": [],
+      "index": 7.333,
+      "affiliate": false
+    },
+    {
+      "url": "/compresores/bta-25-litros/",
+      "title": "Compresor BTA de 25 litros: prestaciones y compra",
+      "h1": "Compresor BTA de 25 litros: para quién conviene",
+      "keywords": [
+        "compresor bta 25 litros",
+        "compresor bta 2 hp",
+        "compresor bta opiniones",
+        "compresor de aire 25l"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\17-compresor-bta-25-litros.md",
+      "section": "compresores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "compresor bta 25 litros",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 6.0,
+        "cpc": 0.03,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 129,
+        "priority_index": 6.875
+      },
+      "other_queries": [],
+      "index": 6.875,
+      "affiliate": false
+    },
+    {
+      "url": "/generadores/silenciosos/",
+      "title": "Generador silencioso: cómo comparar ruido y potencia",
+      "h1": "Cómo elegir un generador eléctrico silencioso",
+      "keywords": [
+        "generador silencioso",
+        "generador electrico silencioso",
+        "decibeles generador",
+        "generador insonorizado",
+        "grupo electrogeno silencioso"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\16-generadores-silenciosos.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador eléctrico silencioso",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 12.0,
+        "cpc": 0.28,
+        "source": "semrush_generadores.csv",
+        "line": 15,
+        "priority_index": 5.0
+      },
+      "other_queries": [],
+      "index": 5.0,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/de-banco-lusqtoff/",
+      "title": "Sierra de banco Lusqtoff: SML2000-8 y otras variantes",
+      "h1": "Sierra de banco Lusqtoff: qué modelo conviene para tu taller",
+      "keywords": [
+        "sierra de banco lusqtoff",
+        "sierra circular de banco lusqtoff",
+        "lusqtoff sml2000-8",
+        "sierra de banco lusqtoff opiniones"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\26-sierra-de-banco-lusqtoff.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [
+        "https://meli.la/2WFpTNp"
+      ],
+      "main": {
+        "keyword": "sierra de banco lusqtoff",
+        "intent": "T",
+        "volume": 110.0,
+        "kd": 15.0,
+        "cpc": 0.05,
+        "source": "semrush_consulta_adicional.csv",
+        "line": 87,
+        "priority_index": 4.4
+      },
+      "other_queries": [],
+      "index": 4.4,
+      "affiliate": true
+    },
+    {
+      "url": "/generadores/estacion-de-energia-portatil/",
+      "title": "Estación de energía portátil: capacidad y autonomía",
+      "h1": "Cómo elegir una estación de energía portátil",
+      "keywords": [
+        "estacion de energia portatil",
+        "generador solar portatil",
+        "ecoflow argentina",
+        "bluetti argentina",
+        "generador a bateria para departamento"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\20-estaciones-de-energia-portatiles.md",
+      "section": "generadores",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "generador solar portatil",
+        "intent": "C",
+        "volume": 140.0,
+        "kd": 23.0,
+        "cpc": 0.1,
+        "source": "semrush_generadores.csv",
+        "line": 13,
+        "priority_index": 4.242424242424242
+      },
+      "other_queries": [
+        {
+          "keyword": "estación de energía portátil",
+          "intent": "I, C",
+          "volume": null,
+          "kd": 9.0,
+          "cpc": null,
+          "source": "semrush_generadores.csv",
+          "line": 31
+        }
+      ],
+      "index": 4.242,
+      "affiliate": false
+    },
+    {
+      "url": "/sierras/ingletadoras/",
+      "title": "Ingletadoras: cómo elegir entre fija y telescópica",
+      "h1": "Ingletadoras: cuál elegir según el corte y el material",
+      "keywords": [
+        "ingletadora",
+        "sierra ingletadora",
+        "ingletadora para madera",
+        "ingletadora telescopica"
+      ],
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\21-ingletadoras.md",
+      "section": "sierras",
+      "published": true,
+      "rendered_links": [],
+      "main": {
+        "keyword": "ingletadora telescopica",
+        "intent": "I, C",
+        "volume": 110.0,
+        "kd": 18.0,
+        "cpc": 0.09,
+        "source": "semrush_sierras.csv",
+        "line": 9,
+        "priority_index": 3.9285714285714284
+      },
+      "other_queries": [],
+      "index": 3.929,
+      "affiliate": false
+    }
+  ],
+  "linked_audit": [
+    {
+      "url": "/amoladoras/",
+      "keywords": [
+        {
+          "keyword": "como elegir una amoladora",
+          "intent": "I",
+          "volume": 20.0,
+          "kd": 10.0,
+          "cpc": 0.02,
+          "source": "semrush_amoladoras.csv",
+          "line": 20
+        },
+        {
+          "keyword": "mejores marcas de amoladoras",
+          "intent": "I, C",
+          "volume": 20.0,
+          "kd": 11.0,
+          "cpc": 0.07,
+          "source": "semrush_amoladoras.csv",
+          "line": 22
+        }
+      ],
+      "qualified": false,
+      "links": [
+        "https://meli.la/12aMvrG",
+        "https://meli.la/1GRCAjZ",
+        "https://meli.la/1QUvfns"
+      ]
+    },
+    {
+      "url": "/amoladoras/bosch/",
+      "keywords": [
+        {
+          "keyword": "amoladora bosch",
+          "intent": "I, C",
+          "volume": 4400.0,
+          "kd": 17.0,
+          "cpc": 0.04,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 8,
+          "priority_index": 162.96296296296296
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/1GRCAjZ"
+      ]
+    },
+    {
+      "url": "/amoladoras/gamma/",
+      "keywords": [
+        {
+          "keyword": "amoladora gamma opiniones",
+          "intent": "I, T",
+          "volume": 20.0,
+          "kd": 14.0,
+          "cpc": 0.0,
+          "source": "semrush_amoladoras.csv",
+          "line": 16
+        }
+      ],
+      "qualified": false,
+      "links": [
+        "https://meli.la/12aMvrG"
+      ]
+    },
+    {
+      "url": "/amoladoras/dowen-pagio/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1QUvfns"
+      ]
+    },
+    {
+      "url": "/compresores/50-litros/",
+      "keywords": [
+        {
+          "keyword": "compresor 50 litros",
+          "intent": "C",
+          "volume": 1000.0,
+          "kd": 15.0,
+          "cpc": 0.21,
+          "source": "semrush_compresores.csv",
+          "line": 2,
+          "priority_index": 40.0
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/32SJoX7"
+      ]
+    },
+    {
+      "url": "/compresores/kits-accesorios/",
+      "keywords": [
+        {
+          "keyword": "kit para compresor de aire",
+          "intent": "I, C",
+          "volume": 210.0,
+          "kd": 9.0,
+          "cpc": 0.05,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 118,
+          "priority_index": 11.052631578947368
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/32SJoX7"
+      ]
+    },
+    {
+      "url": "/compresores/12v-doble-piston/",
+      "keywords": [
+        {
+          "keyword": "compresor 12v doble piston",
+          "intent": "I",
+          "volume": 140.0,
+          "kd": 20.0,
+          "cpc": 0.09,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 76
+        }
+      ],
+      "qualified": false,
+      "links": [
+        "https://meli.la/274KM8a"
+      ]
+    },
+    {
+      "url": "/generadores/comparativa-general/",
+      "keywords": [
+        {
+          "keyword": "grupo electrogeno",
+          "intent": "I, C",
+          "volume": 6600.0,
+          "kd": 20.0,
+          "cpc": 0.48,
+          "source": "semrush_generadores.csv",
+          "line": 2,
+          "priority_index": 220.0
+        },
+        {
+          "keyword": "generador electrico",
+          "intent": "C",
+          "volume": 5400.0,
+          "kd": 25.0,
+          "cpc": 0.24,
+          "source": "semrush_generadores.csv",
+          "line": 3,
+          "priority_index": 154.28571428571428
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ]
+    },
+    {
+      "url": "/generadores/precios/",
+      "keywords": [
+        {
+          "keyword": "grupo electrogeno precio",
+          "intent": "T",
+          "volume": 1600.0,
+          "kd": 15.0,
+          "cpc": 0.24,
+          "source": "semrush_generadores.csv",
+          "line": 4,
+          "priority_index": 64.0
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj",
+        "https://meli.la/2jcLSy1"
+      ]
+    },
+    {
+      "url": "/generadores/a-nafta/",
+      "keywords": [
+        {
+          "keyword": "generador a nafta",
+          "intent": "I",
+          "volume": 210.0,
+          "kd": 6.0,
+          "cpc": 0.15,
+          "source": "semrush_generadores.csv",
+          "line": 10
+        }
+      ],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1nUAUuv",
+        "https://meli.la/2bL6gVj"
+      ]
+    },
+    {
+      "url": "/generadores/chicos/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/2jcLSy1"
+      ]
+    },
+    {
+      "url": "/hidrolavadoras/comparativa-general/",
+      "keywords": [
+        {
+          "keyword": "hidrolavadora",
+          "intent": "C",
+          "volume": 60500.0,
+          "kd": 23.0,
+          "cpc": 0.06,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 2,
+          "priority_index": 1833.3333333333333
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/1KQjHgT",
+        "https://meli.la/1cZXqxL",
+        "https://meli.la/2Rcddpg"
+      ]
+    },
+    {
+      "url": "/hidrolavadoras/150-bar/",
+      "keywords": [
+        {
+          "keyword": "hidrolavadora 150 bar",
+          "intent": "I, T",
+          "volume": 140.0,
+          "kd": 8.0,
+          "cpc": 0.08,
+          "source": "semrush_hidrolavadoras.csv",
+          "line": 12,
+          "priority_index": 7.777777777777778
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/1KQjHgT"
+      ]
+    },
+    {
+      "url": "/sierras/caladoras-black-decker/",
+      "keywords": [
+        {
+          "keyword": "sierra caladora black decker",
+          "intent": "I",
+          "volume": 140.0,
+          "kd": 16.0,
+          "cpc": 0.05,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 81
+        }
+      ],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1ntghna"
+      ]
+    },
+    {
+      "url": "/sierras/de-banco-lusqtoff/",
+      "keywords": [
+        {
+          "keyword": "sierra de banco lusqtoff",
+          "intent": "T",
+          "volume": 110.0,
+          "kd": 15.0,
+          "cpc": 0.05,
+          "source": "semrush_consulta_adicional.csv",
+          "line": 87,
+          "priority_index": 4.4
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/2WFpTNp"
+      ]
+    },
+    {
+      "url": "/sierras/sensitivas-total/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1mLrBwo"
+      ]
+    },
+    {
+      "url": "/soldadoras/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1knTbU1",
+        "https://meli.la/1mZhwNS",
+        "https://meli.la/26RsZRw"
+      ]
+    },
+    {
+      "url": "/soldadoras/lusqtoff-iron-100/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1knTbU1"
+      ]
+    },
+    {
+      "url": "/soldadoras/mig-lusqtoff/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/26RsZRw"
+      ]
+    },
+    {
+      "url": "/soldadoras/esab-handyarc-162i/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1mZhwNS"
+      ]
+    },
+    {
+      "url": "/soldadura-electronica/kit-soldador-de-estano/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/2q7fy7p"
+      ]
+    },
+    {
+      "url": "/soldadura-electronica/gadnic-878d/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/21VNNVW"
+      ]
+    },
+    {
+      "url": "/soldadura-electronica/yihua-898d/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/2du1wYY"
+      ]
+    },
+    {
+      "url": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/1XdM9ut"
+      ]
+    },
+    {
+      "url": "/taladros/taladro-percutor-inalambrico/",
+      "keywords": [
+        {
+          "keyword": "taladro percutor inalambrico",
+          "intent": "C",
+          "volume": 1000.0,
+          "kd": 15.0,
+          "cpc": 0.12,
+          "source": "semrush_taladros.csv",
+          "line": 2,
+          "priority_index": 40.0
+        }
+      ],
+      "qualified": true,
+      "links": [
+        "https://meli.la/2xvJRJp"
+      ]
+    },
+    {
+      "url": "/taladros/combo-taladro-amoladora/",
+      "keywords": [],
+      "qualified": false,
+      "links": [
+        "https://meli.la/2z7Capd"
+      ]
+    }
+  ],
+  "unmatched_commercial": [
+    {
+      "keyword": "amoladora bosch gws 850",
+      "intent": "I, T",
+      "volume": 110.0,
+      "kd": 14.0,
+      "cpc": 0.06,
+      "source": "semrush_amoladoras.csv",
+      "line": 11
+    },
+    {
+      "keyword": "compresor lusqtoff 25 litros",
+      "intent": "C",
+      "volume": 140.0,
+      "kd": 13.0,
+      "cpc": 0.04,
+      "source": "semrush_compresores.csv",
+      "line": 10
+    },
+    {
+      "keyword": "compresor gamma 25 litros",
+      "intent": "C",
+      "volume": 110.0,
+      "kd": 9.0,
+      "cpc": 0.04,
+      "source": "semrush_compresores.csv",
+      "line": 11
+    },
+    {
+      "keyword": "cortadora de plasma",
+      "intent": "C",
+      "volume": 1300.0,
+      "kd": 30.0,
+      "cpc": 0.15,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 23
+    },
+    {
+      "keyword": "amoladora black decker g720",
+      "intent": "T, N",
+      "volume": 260.0,
+      "kd": 21.0,
+      "cpc": 0.03,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 54
+    },
+    {
+      "keyword": "hidrolavadora daewoo 1600w",
+      "intent": "I, C",
+      "volume": 210.0,
+      "kd": 13.0,
+      "cpc": 0.04,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 66
+    },
+    {
+      "keyword": "mascara de soldar lusqtoff",
+      "intent": "I, T",
+      "volume": 210.0,
+      "kd": 15.0,
+      "cpc": 0.04,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 68
+    },
+    {
+      "keyword": "sierra circular makita",
+      "intent": "I, T",
+      "volume": 210.0,
+      "kd": 14.0,
+      "cpc": 0.04,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 69
+    },
+    {
+      "keyword": "compresor 200 litros",
+      "intent": "I, C",
+      "volume": 170.0,
+      "kd": 8.0,
+      "cpc": 0.1,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 72
+    },
+    {
+      "keyword": "amoladora inalambrica einhell",
+      "intent": "I, T",
+      "volume": 140.0,
+      "kd": 8.0,
+      "cpc": 0.06,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 75
+    },
+    {
+      "keyword": "generador inverter silencioso",
+      "intent": "I, C",
+      "volume": 140.0,
+      "kd": 9.0,
+      "cpc": 0.19,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 77
+    },
+    {
+      "keyword": "hidrolavadora para lavadero de autos",
+      "intent": "T",
+      "volume": 140.0,
+      "kd": 28.0,
+      "cpc": 0.12,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 80
+    },
+    {
+      "keyword": "compresor de aire silencioso",
+      "intent": "I, C",
+      "volume": 110.0,
+      "kd": 14.0,
+      "cpc": 0.1,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 83
+    },
+    {
+      "keyword": "grupo electrogeno monofasico",
+      "intent": "C",
+      "volume": 110.0,
+      "kd": 5.0,
+      "cpc": 0.2,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 85
+    },
+    {
+      "keyword": "hidrolavadora gamma hobby 120",
+      "intent": "I, C",
+      "volume": 110.0,
+      "kd": 33.0,
+      "cpc": 0.02,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 86
+    },
+    {
+      "keyword": "amoladora daewoo",
+      "intent": "I, T",
+      "volume": 260.0,
+      "kd": 21.0,
+      "cpc": 0.03,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 113
+    },
+    {
+      "keyword": "sierra de banco dewalt",
+      "intent": "C",
+      "volume": 210.0,
+      "kd": 17.0,
+      "cpc": 0.06,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 119
+    },
+    {
+      "keyword": "sierra sable bosch",
+      "intent": "C",
+      "volume": 210.0,
+      "kd": 14.0,
+      "cpc": 0.05,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 120
+    },
+    {
+      "keyword": "compresor bta 100 litros",
+      "intent": "I, C",
+      "volume": 170.0,
+      "kd": 12.0,
+      "cpc": 0.06,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 121
+    },
+    {
+      "keyword": "disco desbaste hormigon",
+      "intent": "I, C",
+      "volume": 170.0,
+      "kd": 15.0,
+      "cpc": 0.05,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 122
+    },
+    {
+      "keyword": "ingletadora makita",
+      "intent": "T",
+      "volume": 170.0,
+      "kd": 11.0,
+      "cpc": 0.05,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 123
+    },
+    {
+      "keyword": "sierras copa para madera",
+      "intent": "C",
+      "volume": 170.0,
+      "kd": 18.0,
+      "cpc": 0.04,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 124
+    },
+    {
+      "keyword": "atornillador de impacto bosch",
+      "intent": "C",
+      "volume": 110.0,
+      "kd": 15.0,
+      "cpc": 0.07,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 128
+    },
+    {
+      "keyword": "sierra sable dewalt",
+      "intent": "C",
+      "volume": 110.0,
+      "kd": 27.0,
+      "cpc": 0.07,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 132
+    },
+    {
+      "keyword": "soldadora esab 200",
+      "intent": "I, C",
+      "volume": 110.0,
+      "kd": 19.0,
+      "cpc": 0.09,
+      "source": "semrush_consulta_adicional.csv",
+      "line": 134
+    },
+    {
+      "keyword": "generador niwa",
+      "intent": "C",
+      "volume": 140.0,
+      "kd": 15.0,
+      "cpc": 0.31,
+      "source": "semrush_generadores.csv",
+      "line": 12
+    },
+    {
+      "keyword": "hidrolavadora inalambrica einhell",
+      "intent": "I, T",
+      "volume": 170.0,
+      "kd": 13.0,
+      "cpc": 0.06,
+      "source": "semrush_hidrolavadoras.csv",
+      "line": 11
+    },
+    {
+      "keyword": "hidrolavadora karcher k1",
+      "intent": "I, T",
+      "volume": 140.0,
+      "kd": 23.0,
+      "cpc": 0.05,
+      "source": "semrush_hidrolavadoras.csv",
+      "line": 14
+    },
+    {
+      "keyword": "mejores marcas de hidrolavadoras",
+      "intent": "C",
+      "volume": 140.0,
+      "kd": 18.0,
+      "cpc": 0.09,
+      "source": "semrush_hidrolavadoras.csv",
+      "line": 15
+    },
+    {
+      "keyword": "hidrolavadora agua caliente",
+      "intent": "I, C",
+      "volume": 110.0,
+      "kd": 16.0,
+      "cpc": 0.08,
+      "source": "semrush_hidrolavadoras.csv",
+      "line": 16
+    },
+    {
+      "keyword": "soldadora lusqtoff iron 180",
+      "intent": "C",
+      "volume": 110.0,
+      "kd": 9.0,
+      "cpc": 0.05,
+      "source": "semrush_soldadoras.csv",
+      "line": 11
+    },
+    {
+      "keyword": "mejores marcas de taladros",
+      "intent": "I, C",
+      "volume": 140.0,
+      "kd": 12.0,
+      "cpc": 0.11,
+      "source": "semrush_taladros.csv",
+      "line": 3
+    },
+    {
+      "keyword": "taladro para madera",
+      "intent": "I, C",
+      "volume": 110.0,
+      "kd": 30.0,
+      "cpc": 0.05,
+      "source": "semrush_taladros.csv",
+      "line": 4
+    }
+  ],
+  "original_rows": 46703,
+  "original_unique": 46039,
+  "semrush_missing_original": [
+    "que puedo conectar a un generador de 3000 watts",
+    "bluetti eb3a",
+    "cuanto consume un generador de 5000 watts",
+    "ecoflow river 2",
+    "ecoflow vs bluetti",
+    "estacion de energia para heladera",
+    "generador inverter o estacion de energia",
+    "generador monofasico o trifasico para casa",
+    "generador nafta o gas",
+    "generador niwa inverter"
+  ]
+}

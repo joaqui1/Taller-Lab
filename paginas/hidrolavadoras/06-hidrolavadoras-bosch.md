@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | UniversalAquatak 130 | 1.700 W | 130 bar | 7 L/min | 8,4 kg | No indicada en la ficha de familia consultada |
 | AdvancedAquatak 150 | 2.200 W | 150 bar | 8,5 L/min | 22,1 kg | No indicada en la ficha de familia consultada |
 
-**Dato verificado:** la página oficial Bosch DIY España publica los datos de la tabla. Para EasyAquatak 120, la página de producto identifica el número de pedido 06008A7901 e incluye manguera de 5 m y boquillas variable, rotativa y de detergente de alta presión. Los valores de presión/caudal del cuadro son máximos publicados; no se rotulan como presión de trabajo.
+**Dato documentado:** la página oficial Bosch DIY España publica los datos de la tabla. Para EasyAquatak 120, la página de producto identifica el número de pedido 06008A7901 e incluye manguera de 5 m y boquillas variable, rotativa y de detergente de alta presión. Los valores de presión/caudal del cuadro son máximos publicados; no se rotulan como presión de trabajo.
 
 **Análisis TallerLab:** en esta selección la cifra máxima sube de 120 a 150 bar, pero también cambian caudal, peso y configuración. Las fichas consultadas corresponden al catálogo español: no confirman que códigos, tensión, accesorios, garantía o disponibilidad sean idénticos en Argentina. La comparación sirve para discriminar códigos y campos; no determina cuál limpia mejor una superficie.
 

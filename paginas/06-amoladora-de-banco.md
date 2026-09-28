@@ -31,7 +31,7 @@ published: true
 | Muelas declaradas | Granos 24 y 60 | Granos 36 y 60 |
 | Régimen de trabajo | S2 (60 min), según manual | No indicado en ficha citada |
 
-**Dato verificado:** los valores corresponden a las fichas oficiales y manual de cada código. Bosch informa orificios de muela de 12,7/20 mm en manual; la página del producto describe discos de 20 mm. Lusqtoff publica piedra de 150 × 16 × 12,7 mm. Verificá el diámetro de eje y los bujes antes de montar un repuesto.
+**Dato documentado:** los valores corresponden a las fichas oficiales y manual de cada código. Bosch informa orificios de muela de 12,7/20 mm en manual; la página del producto describe discos de 20 mm. Lusqtoff publica piedra de 150 × 16 × 12,7 mm. Verificá el diámetro de eje y los bujes antes de montar un repuesto.
 
 **Análisis TallerLab:** ambos ejemplos usan muelas de 150 mm, pero difieren en ancho publicado en 4 mm y en régimen en 50 rpm. Bosch publica un peso 4 kg mayor. Es una diferencia aritmética entre fichas, no evidencia de estabilidad o precisión. El dato S2 (60 min) de Bosch delimita el régimen de operación indicado por fabricante; no equivale a un permiso de funcionamiento indefinido.
 

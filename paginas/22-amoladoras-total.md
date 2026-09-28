@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Referencia | Fuente consultada | Potencia | Disco | Velocidad en vacío | Tensión publicada |
 | :--- | :--- | ---: | ---: | ---: | :--- |
 | TG10711576 | Distribuidor autorizado Namibia | 710 W | 115 mm | 12.000 rpm | 220–240 V, 50/60 Hz |
 | TG10711576 | Sitio oficial Total Túnez | 710 W | 115 mm | 11.000 rpm | 230 V |
 
-**Dato verificado:** ambas fichas identifican el código TG10711576, 710 W y disco de 115 mm; difieren en las rpm publicadas (12.000 frente a 11.000) y describen su propio mercado/tensión. El dato de rosca M14 aparece en ambas fichas consultadas.
+**Dato documentado:** ambas fichas identifican el código TG10711576, 710 W y disco de 115 mm; difieren en las rpm publicadas (12.000 frente a 11.000) y describen su propio mercado/tensión. El dato de rosca M14 aparece en ambas fichas consultadas.
 
 **Análisis TallerLab:** la diferencia de 1.000 rpm es una discrepancia documental que no se resuelve promediando cifras. Sin una ficha que identifique la variante vendida en Argentina, no elegimos una cifra como universal. La tabla vuelve visible por qué el código de catálogo y la placa de la unidad importan tanto como el nombre de marca.
 

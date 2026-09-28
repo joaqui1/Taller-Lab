@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro percutor inalámbrico comprar
 
-**Dato verificado:** esta matriz reúne cuatro taladros percutores identificados. Solo comparamos campos publicados; los datos de torque, percusión y peso no siguen necesariamente un protocolo común entre marcas.
+**Dato documentado:** esta matriz reúne cuatro taladros percutores identificados. Solo comparamos campos publicados; los datos de torque, percusión y peso no siguen necesariamente un protocolo común entre marcas.
 
 ## Percutores inalámbricos: la comparación empieza por datos comunes
 

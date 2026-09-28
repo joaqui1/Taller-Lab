@@ -23,7 +23,7 @@ Comparamos una Bosch de 18 V publicada para Argentina y una DeWalt estadounidens
 
 ## Carrera, tensión y batería incluida
 
-| Dato verificado | Bosch GSA 18V-24 | DeWalt DCS380B |
+| Dato documentado | Bosch GSA 18V-24 | DeWalt DCS380B |
 | :--- | ---: | ---: |
 | Etiqueta de plataforma | 18 V | 20V MAX; 18 V nominales |
 | Carrera | 24 mm | 1-1/8 in (28,6 mm) |

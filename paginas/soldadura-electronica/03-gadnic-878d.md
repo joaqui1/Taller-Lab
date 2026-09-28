@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** la página argentina de Gadnic identifica el producto como 878D y ofrece dos valores de potencia en la misma ficha: el texto descriptivo menciona 750 W, mientras que la tabla de especificaciones indica **370 W nominales**. La misma tabla declara alimentación de 220 V, aire a 100–450 °C, cautín a 200–480 °C, estabilidad de ±2 °C, caudal de 120 L/min y peso de 2,3 kg. Son datos publicados por el vendedor/fabricante; TallerLab no los midió.
+**Dato documentado:** la página argentina de Gadnic identifica el producto como 878D y ofrece dos valores de potencia en la misma ficha: el texto descriptivo menciona 750 W, mientras que la tabla de especificaciones indica **370 W nominales**. La misma tabla declara alimentación de 220 V, aire a 100–450 °C, cautín a 200–480 °C, estabilidad de ±2 °C, caudal de 120 L/min y peso de 2,3 kg. Son datos publicados por el vendedor/fabricante; TallerLab no los midió.
 
 | Equipo y fuente | Potencia publicada | Aire caliente | Cautín | Caudal / peso | Qué permite concluir |
 | :--- | :--- | :--- | :--- | :--- | :--- |

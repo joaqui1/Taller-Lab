@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | BXPW1300E | 1.300 W | 67 bar | 100 bar | 5 / 6,5 L/min |
 | BXPW1400E | 1.400 W | 74 bar | 110 bar | 5 / 6,5 L/min |
 
-**Dato verificado:** el manual BLACK+DECKER para la familia BXPW distingue presión de trabajo y máxima. Para 1300E informa 67/100 bar y para 1400E 74/110 bar; ambos indican caudal de trabajo de 5 L/min y máximo de 6,5 L/min. La ficha del 1400E en el sitio de BLACK+DECKER España menciona kit de accesorios y garantía de un año en esa región.
+**Dato documentado:** el manual BLACK+DECKER para la familia BXPW distingue presión de trabajo y máxima. Para 1300E informa 67/100 bar y para 1400E 74/110 bar; ambos indican caudal de trabajo de 5 L/min y máximo de 6,5 L/min. La ficha del 1400E en el sitio de BLACK+DECKER España menciona kit de accesorios y garantía de un año en esa región.
 
 **Análisis TallerLab:** entre estos dos códigos, el manual aumenta 100 W de potencia y 10 bar en cada campo de presión, mientras conserva los caudales publicados. Es una lectura de cifras de fabricante, no una medición de limpieza ni una prueba de que las versiones comercializadas en Argentina incluyan el mismo kit o garantía. Verificar sufijo, tensión/frecuencia de placa y contenido de caja de la unidad ofrecida.
 

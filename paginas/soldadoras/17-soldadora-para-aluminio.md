@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | ESAB ET 200i AC/DC (0738827) | TIG AC y DC; ESAB especifica AC para aluminio y DC para otros metales | 220 V ±10%, monofásica | 200 A/20%; 116 A/60%; 90 A/100% | 22 kg |
 | Lüsqtoff TIG350ACDC-9 | TIG AC/DC, trifásica | 380 V, 50 Hz | 315 A/40%; rango 5–315 A según la página | 31,5 kg |
 
-**Dato verificado:** las dos fichas identifican TIG AC/DC. ESAB explica que en ET 200i la salida AC se usa para aluminio y sus aleaciones; Lüsqtoff presenta TIG350ACDC-9 como equipo trifásico AC/DC y publica sus puntos de corriente/ciclo.
+**Dato documentado:** las dos fichas identifican TIG AC/DC. ESAB explica que en ET 200i la salida AC se usa para aluminio y sus aleaciones; Lüsqtoff presenta TIG350ACDC-9 como equipo trifásico AC/DC y publica sus puntos de corriente/ciclo.
 
 **Análisis TallerLab:** antes de comparar precio o amperaje, comprobá si la red disponible corresponde a una fuente monofásica de 220 V o trifásica de 380 V y leé ciclo, no solo corriente máxima. La tabla documenta especificaciones de fabricante; no determina espesor, aporte, gas, preparación, habilidad requerida ni calidad de cordón para una pieza concreta.
 

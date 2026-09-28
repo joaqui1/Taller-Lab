@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | YiHUA 898D | Pistola de aire caliente y cautín | Aire 100–480 °C; cautín 200–480 °C | Aire máx. 120 L/min; estación 730 W | Dos pantallas LED y configuración de dos funciones |
 | Lüsqtoff ES3L45-8 | Cautín regulable; no declara pistola de aire | Cautín 200–480 °C | Consumo/capacidad de entrada no queda claro en ficha comercial consultada | Estación compacta para trabajo con cautín, no especificada como retrabajo de aire |
 
-**Dato verificado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
+**Dato documentado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
 
 **Análisis TallerLab:** si la tarea requiere retirar componentes SMD con aire, el tipo de herramienta incluida es una diferencia funcional que se puede verificar antes de comprar. Para soldadura puntual con cautín, comparar puntas, repuestos y control térmico del modelo exacto. Una lectura de temperatura de ficha no describe estabilidad real en la punta bajo carga.
 

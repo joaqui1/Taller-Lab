@@ -31,7 +31,7 @@ published: true
 | Tensión indicada | 220 V |
 | Funciones listadas | Vibration Control, KickBack Control, Soft Start y Restart Protection |
 
-**Dato verificado:** Bosch publica estas especificaciones para el código GWS 25-180 LVI R. La página identifica una variante con tuerca y menciona accesorios incluidos; el contenido puede variar según el número de pedido completo.
+**Dato documentado:** Bosch publica estas especificaciones para el código GWS 25-180 LVI R. La página identifica una variante con tuerca y menciona accesorios incluidos; el contenido puede variar según el número de pedido completo.
 
 **Análisis TallerLab:** 7 pulgadas equivalen a 177,8 mm, mientras que el diámetro métrico publicado por el fabricante es 180 mm (aproximadamente 7,09 pulgadas). La diferencia es de 2,2 mm en el diámetro nominal. La etiqueta “7 pulgadas” es una denominación comercial redondeada; para comprar discos, manda la medida indicada en la herramienta y el accesorio. El diámetro mayor tampoco permite calcular por sí solo el corte útil.
 

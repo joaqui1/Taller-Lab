@@ -26,7 +26,7 @@ published: true
 | PRO Ceramic, 2 608 602 478 | Segmento turbo | 115 / 22,23 mm | 1,4 mm | 7 mm |
 | EXPERT HardCeramic, 2 608 900 654 | Borde continuo | 115 / 22,23 mm | 1,4 mm | 10 mm |
 
-**Dato verificado:** Bosch describe ambos productos para corte de azulejos/cerámica. Las fichas publican la misma medida nominal de 115 mm, agujero de 22,23 mm y ancho de corte de 1,4 mm; difieren en el diseño declarado del borde y la altura publicada.
+**Dato documentado:** Bosch describe ambos productos para corte de azulejos/cerámica. Las fichas publican la misma medida nominal de 115 mm, agujero de 22,23 mm y ancho de corte de 1,4 mm; difieren en el diseño declarado del borde y la altura publicada.
 
 **Declaración del fabricante:** Bosch atribuye al disco PRO Ceramic un segmento turbo y al EXPERT HardCeramic un borde continuo diseñado para cortes de precisión en baldosas duras. Las promesas de precisión y menor desconchado son afirmaciones del fabricante, no resultados propios de TallerLab.
 

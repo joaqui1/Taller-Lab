@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -40,7 +40,7 @@ published: true
 | Heladera o carga con motor | Dato de placa/manual | Consultar pico de arranque; no reemplazarlo por regla universal | Tensión/fase del artefacto | Manual del motor/artefacto |
 | Bomba o aire acondicionado | Dato de placa/manual | Dato de arranque del fabricante o instalador | Tensión/fase del equipo | Manual y placa exactos |
 
-**Dato verificado:** el manual Lüsqtoff LG2500 incluye un cuadro de ejemplo donde una heladera de 150 W aparece con 450–750 VA de arranque y 300 VA en trabajo; una lámpara fluorescente de 40 W aparece con 80 VA de arranque y 60 VA en trabajo. El propio manual presenta estas cifras como estimadas. No son valores universales de todas las heladeras o lámparas.
+**Dato documentado:** el manual Lüsqtoff LG2500 incluye un cuadro de ejemplo donde una heladera de 150 W aparece con 450–750 VA de arranque y 300 VA en trabajo; una lámpara fluorescente de 40 W aparece con 80 VA de arranque y 60 VA en trabajo. El propio manual presenta estas cifras como estimadas. No son valores universales de todas las heladeras o lámparas.
 
 ### Contraste con generadores documentados
 

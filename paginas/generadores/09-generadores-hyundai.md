@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | HHY2200F | 2.000 W | 2.200 W | 210 cm³ | 8 h |
 | HHY3000FE | 2.500 W | 2.800 W | 210 cm³ | 8 h |
 
-**Dato verificado:** el representante local Hyundai Herramientas publica para HYH960A 720 W continuos y 800 W máximos; para HHY2200F 2.000/2.200 W; y para HHY3000FE 2.500/2.800 W. Son datos de sus fichas comerciales y deben cotejarse con el manual y la placa de la unidad.
+**Dato documentado:** el representante local Hyundai Herramientas publica para HYH960A 720 W continuos y 800 W máximos; para HHY2200F 2.000/2.200 W; y para HHY3000FE 2.500/2.800 W. Son datos de sus fichas comerciales y deben cotejarse con el manual y la placa de la unidad.
 
 **Análisis TallerLab:** las diferencias máxima menos continua son 80 W en HYH960A, 200 W en HHY2200F y 300 W en HHY3000FE. Respecto de su potencia continua, equivalen a 11,1 %, 10 % y 12 %. El porcentaje compara únicamente cada ficha consigo misma; no representa potencia de arranque comprobada ni rendimiento.
 

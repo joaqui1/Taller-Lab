@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | BTA CSA-50-2, código 272009.2 | 50 L | 1,5 HP / 1.100 W | 260 L/min | 8 bar |
 | Lüsqtoff LC-0122 | 24 L | 1 HP / 750 W | 180 L/min | 115 psi |
 
-**Dato verificado:** las fichas identifican los tres como modelos sin aceite y publican los valores resumidos en la tabla. BTA declara 2.850 rpm para CSA-50-2 y 3.750 rpm para CSA-24; Lüsqtoff indica 24 kg para LC-0122. Las cifras de litros por minuto son de admisión publicadas por cada marca, no caudal efectivo de salida bajo presión.
+**Dato documentado:** las fichas identifican los tres como modelos sin aceite y publican los valores resumidos en la tabla. BTA declara 2.850 rpm para CSA-50-2 y 3.750 rpm para CSA-24; Lüsqtoff indica 24 kg para LC-0122. Las cifras de litros por minuto son de admisión publicadas por cada marca, no caudal efectivo de salida bajo presión.
 
 **Análisis TallerLab:** el CSA-50-2 declara 90 L/min más de admisión que el CSA-24, equivalente a 52,9 % respecto de 170 L/min, mientras su tanque duplica la capacidad nominal menos 2 L (50 frente a 24 L). Esa comparación describe fichas y no acredita mayor caudal entregado por minuto durante un uso real. Frente a LC-0122, las dos fichas de 24 L declaran admisiones de 170 y 180 L/min, pero sus potencias son distintas y no hay método común de medición publicado.
 

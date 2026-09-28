@@ -27,7 +27,7 @@ published: true
 | GBH 2-26 DRE | Cable, 800 W | 2,7 J | 26 mm | 2,9 kg | SDS plus |
 | GBH 18V-26 D | Batería 18 V | 2,5 J | 26 mm | 2,6 kg sin batería | SDS plus |
 
-**Dato verificado:** la tabla combina fichas Bosch de regiones distintas; el GBH 2-26 DRE consultado no es una confirmación de configuración argentina. En el GBH 18V-26 D, el peso explícitamente excluye la batería, por lo que no es directamente equivalente a los pesos de herramientas con cable.
+**Dato documentado:** la tabla combina fichas Bosch de regiones distintas; el GBH 2-26 DRE consultado no es una confirmación de configuración argentina. En el GBH 18V-26 D, el peso explícitamente excluye la batería, por lo que no es directamente equivalente a los pesos de herramientas con cable.
 
 **Análisis TallerLab:** frente al GBH 220, el GBH 2-26 DRE declara 0,7 J y 4 mm más de capacidad máxima; también publica 0,6 kg más de peso. El modelo 18V-26 D declara 0,5 J más y 4 mm más que el GBH 220, pero su peso sin batería impide una comparación de masa del conjunto listo para trabajar. Son diferencias de catálogo, no pruebas de perforación.
 

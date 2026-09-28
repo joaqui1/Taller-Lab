@@ -23,7 +23,7 @@ La ficha de TOTAL documenta el modelo TS223558. En Argentina se encuentra una of
 
 ## TS223558: código base y ficha de fábrica
 
-| Dato verificado para TS223558 | Especificación |
+| Dato documentado para TS223558 | Especificación |
 | :--- | :--- |
 | Tensión / frecuencia | 220–240 V / 50–60 Hz |
 | Potencia | 2.200 W |

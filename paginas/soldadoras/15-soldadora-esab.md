@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | HandyArc 162i, 0409616 | MMA | 160 A/20%; 92 A/60%; 72 A/100% | 220 V ±10%, monofásica; 3,7 kg |
 | HandyArc MIG 160i, 0410060 | GMAW (MIG/MAG) y MMA | GMAW: 160 A/15%, 80 A/60%, 62 A/100%; MMA: 140 A/15%, 70 A/60%, 54 A/100% | 220 V ±10%; 10,2 kg |
 
-**Dato verificado:** la tabla copia los puntos nominales que ESAB Argentina publica para dos equipos con procesos distintos. La 162i es una fuente MMA; la MIG 160i agrega proceso GMAW y alimentación de alambre. El nombre comercial «160» no significa el mismo ciclo ni las mismas funciones en ambos modelos.
+**Dato documentado:** la tabla copia los puntos nominales que ESAB Argentina publica para dos equipos con procesos distintos. La 162i es una fuente MMA; la MIG 160i agrega proceso GMAW y alimentación de alambre. El nombre comercial «160» no significa el mismo ciclo ni las mismas funciones en ambos modelos.
 
 **Análisis TallerLab:** al comparar ofertas, primero identificá el proceso requerido y el código; después leé juntos corriente, tensión y porcentaje de ciclo. En MMA, la 162i llega a 72 A al 100%; en GMAW, la MIG 160i declara 62 A al 100%. Son datos de placa/ficha, no una medición de TallerLab ni una recomendación de espesor.
 

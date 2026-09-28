@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | ST-1E | 92 × 42 mm | 2 | DIN 4/9–13 | Celda solar y CR2032 reemplazable | Respuesta 1/15.000 s; controles internos/externos según función |
 | ST-1B | 98 × 43 mm | 4 | DIN 4/9–13 | Celda solar y CR2450 reemplazable | Respuesta 1/25.000 s; función amolado declarada |
 
-**Dato verificado:** las tres filas reproducen fichas oficiales de los modelos, no una norma universal para máscaras fotosensibles. Todas las velocidades están presentadas como las publica Lüsqtoff; el fabricante no describe aquí una medición realizada por TallerLab.
+**Dato documentado:** las tres filas reproducen fichas oficiales de los modelos, no una norma universal para máscaras fotosensibles. Todas las velocidades están presentadas como las publica Lüsqtoff; el fabricante no describe aquí una medición realizada por TallerLab.
 
 **Análisis TallerLab:** la matriz ayuda a verificar si un filtro ofrece tono regulable o fijo, cuántos sensores declara, el tamaño visible y si su batería se reemplaza. Más sensores, ventana mayor o respuesta nominal diferente no prueban por sí solos mejor protección ni compatibilidad con una aplicación concreta. Elegí el filtro dentro del rango de sombra requerido por el proceso y corriente, según instrucciones del fabricante y evaluación de seguridad del trabajo.
 

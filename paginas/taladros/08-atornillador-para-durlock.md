@@ -31,7 +31,7 @@ published: true
 | Diámetro máximo de tornillo | 4 mm | 6 mm |
 | Control de profundidad | Tope de profundidad | Tope de profundidad |
 
-**Dato verificado:** los valores se extraen de las fichas Bosch indicadas. La denominación comercial puede variar por país; GTB 18V-45 aparece como GTB 185-LI en algunas páginas regionales. El peso inalámbrico excluye la batería y no se compara como peso del conjunto listo para usar.
+**Dato documentado:** los valores se extraen de las fichas Bosch indicadas. La denominación comercial puede variar por país; GTB 18V-45 aparece como GTB 185-LI en algunas páginas regionales. El peso inalámbrico excluye la batería y no se compara como peso del conjunto listo para usar.
 
 **Análisis TallerLab:** la GTB 650 publica 500 rpm más y 6 Nm más de torque; la variante a batería publica un diámetro máximo de tornillo 2 mm mayor y elimina el cable, pero la ficha citada informa 0,95 kg sin batería. Estas diferencias describen números de catálogo, no velocidad de fijación, autonomía, comodidad o calidad de acabado. Elegí con base en disponibilidad de energía, contenido del kit y los tornillos admitidos.
 

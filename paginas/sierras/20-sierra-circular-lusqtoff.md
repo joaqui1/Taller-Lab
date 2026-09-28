@@ -23,7 +23,7 @@ La ficha vigente muestra SCL2200-8; su manual descargable conserva el orden CSL2
 
 ## CSL1500-8 y SCL2200-8: capacidades documentadas
 
-| Dato verificado | CSL1500-8 | SCL2200-8 |
+| Dato documentado | CSL1500-8 | SCL2200-8 |
 | :--- | ---: | ---: |
 | Potencia / tensión | 1.500 W / 220 V | 2.200 W / 220 V |
 | Diámetro máximo publicado | 185 mm | Título: 230 mm; detalle/manual: 235 mm |

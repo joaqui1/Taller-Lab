@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Bosch UniversalAquatak 36V-100, 06008C7002 | 36 V; kit de ficha con 4 Ah | 100 bar | 1,7–3,1 L/min | Succión hasta 0,5 m; 45 min publicados |
 | Lüsqtoff LAPL3.6-8BK | 18 V; incluye 2 baterías de 2 Ah | 30 bar | Máx. 3,6 L/min | Toma agua desde recipiente; duración no publicada |
 
-**Dato verificado:** Bosch publica para el kit UniversalAquatak 36V-100 número 06008C7002 batería de 4 Ah, 45 min de autonomía, 100 bar máximos, caudal de 1,7–3,1 L/min y autosucción de hasta 0,5 m. Lüsqtoff publica para LAPL3.6-8BK 18 V, dos baterías de 2 Ah, 30 bar máximos, caudal máximo de 3,6 L/min y 4 kg; la ficha permite tomar agua de un balde o canilla.
+**Dato documentado:** Bosch publica para el kit UniversalAquatak 36V-100 número 06008C7002 batería de 4 Ah, 45 min de autonomía, 100 bar máximos, caudal de 1,7–3,1 L/min y autosucción de hasta 0,5 m. Lüsqtoff publica para LAPL3.6-8BK 18 V, dos baterías de 2 Ah, 30 bar máximos, caudal máximo de 3,6 L/min y 4 kg; la ficha permite tomar agua de un balde o canilla.
 
 **Análisis TallerLab:** el máximo de presión publicado para Bosch supera en 70 bar al del Lüsqtoff, mientras el caudal máximo de este último es 0,5 L/min mayor. Son puntos máximos de fichas distintas y no prueban presión/caudal simultáneos ni capacidad de limpieza comparable. La cifra de 45 min corresponde a la configuración de batería indicada por Bosch; Lüsqtoff no publica un tiempo de funcionamiento contrastable.
 

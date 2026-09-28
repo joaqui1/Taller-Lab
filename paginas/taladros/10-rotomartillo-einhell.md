@@ -30,7 +30,7 @@ published: true
 | Modos | 5 funciones según ficha del fabricante |
 | Peso publicado | 3,81 kg |
 
-**Dato verificado:** la fuente consultada es la ficha Einhell del artículo 4257970. La ficha nombra las cinco funciones, entre ellas taladrado, taladrado con percusión y cincelado; no suponemos que todo modelo TE o TC incluya el mismo selector.
+**Dato documentado:** la fuente consultada es la ficha Einhell del artículo 4257970. La ficha nombra las cinco funciones, entre ellas taladrado, taladrado con percusión y cincelado; no suponemos que todo modelo TE o TC incluya el mismo selector.
 
 **Análisis TallerLab:** frente al Bosch GBH 2-26 DRE (800 W, 2,7 J, máximo 26 mm y peso 2,9 kg), el Einhell declara 150 W y 0,3 J más, 2 mm más de capacidad máxima y 0,91 kg más de peso. Es una comparación aritmética de datos publicados. No demuestra mayor velocidad, vida útil ni conveniencia; las cifras de energía no se sometieron aquí a ensayo común.
 

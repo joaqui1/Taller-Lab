@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Rosca de montaje | Debe cotejarse en la ficha de cada pieza (por ejemplo, BSPP, BSPT o NPT) | No inferir NPT/BSP por el diámetro exterior aproximado |
 | Válvula y desconexión | CEJN eSafe Series 300 describe un acople con descarga de presión antes de separar | No todas las hembras tienen función de descarga de seguridad |
 
-**Dato verificado:** Parker y CEJN documentan varios perfiles de acople neumático. La ficha BTA del código 279106 identifica un conector hembra tipo italiano Ø 1/4″, lo que ofrece una referencia de producto local concreta; no certifica compatibilidad con cualquier macho comercializado como “universal”.
+**Dato documentado:** Parker y CEJN documentan varios perfiles de acople neumático. La ficha BTA del código 279106 identifica un conector hembra tipo italiano Ø 1/4″, lo que ofrece una referencia de producto local concreta; no certifica compatibilidad con cualquier macho comercializado como “universal”.
 
 **Análisis TallerLab:** para comprobar una pareja hacen falta al menos dos identificadores independientes: perfil de acople y tipo/medida de rosca. Una rosca compatible no hace coincidir perfiles distintos, y un perfil compatible no resuelve una rosca incorrecta. La tabla de intercambio del fabricante del acople es la referencia; una prueba de ajuste sin presión no demuestra estanqueidad bajo servicio.
 

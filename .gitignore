@@ -3,6 +3,7 @@ __pycache__/
 *.log
 .venv/
 .qa-deps/
+.integration-qa-deps/
 venv/
 .env
 .env.*

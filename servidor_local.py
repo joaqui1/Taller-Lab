@@ -36,7 +36,7 @@ LOGO_SRC = "/assets/logo_cropped.png"
 
 AUTHOR_NAME = "Joaquín Vallasciani"
 AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
-AUTHOR_PATH = "/equipo-editorial/"
+AUTHOR_PATH = "/autor/joaquin-vallasciani/"
 
 def extract_frontmatter(content):
     """Extrae metadatos del frontmatter YAML básico."""
@@ -231,11 +231,40 @@ PRODUCT_FACTS["https://meli.la/1mLrBwo"].update(
     warning="La oferta TS223558-4 anuncia 3.800 rpm; fábrica publica 3.700 rpm para TS223558. Confirmar placa y manual del sufijo -4; no tratar las dos fichas como equivalentes.",
 )
 PRODUCT_FACTS["https://meli.la/1ntghna"]["specs"] = ["400 W anunciados", "Velocidad variable: confirmar variante", "Caladora; hoja de movimiento alternativo"]
-PRODUCT_FACTS["https://meli.la/1ntghna"]["warning"] = "Black+Decker documenta hasta 3.000 carreras/min para BES603-B2 de 220 V; no son rpm. Confirmar sufijo, tensión y garantía de la oferta argentina."
+PRODUCT_FACTS["https://meli.la/1ntghna"]["warning"] = "BES603-B2 de 220 V declara 65 mm en madera y 6 mm en metal, sin identificar acero en ese campo. Confirmar sufijo, tensión y garantía de la oferta argentina."
+PRODUCT_FACTS["https://meli.la/1cZXqxL"].update(
+    source="https://www.lusqtoff.com.ar/ver-producto/HL100-7",
+    specs=["1200 W · 220 V–50 Hz", "70 bar nominales / 100 bar máximos", "Flujo: 5,5 L/min; condición no precisada"],
+    warning="HL100-7 tiene ficha propia; no hereda los datos de HL100-8. Confirmar código y contenido del kit en la unidad ofrecida.",
+)
+PRODUCT_FACTS["https://meli.la/2m7TJWQ"].update(
+    source="https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/",
+    specs=["Batería incorporada", "16 L/min máximos anunciados", "Pantalla digital y PowerBank"],
+    warning="Declaraciones de la marca; faltan ensayo de inflado común, condición de caudal y autonomía bajo carga. Confirmar configuración IE01.",
+)
+SOURCE_ROLES = {
+    "lusqtoff.com.ar": "fabricante", "www.lusqtoff.com.ar": "fabricante",
+    "logus.com.ar": "marca", "www.bosch-professional.com": "fabricante",
+    "www.gammaherramientas.com.ar": "fabricante", "esab.com": "fabricante",
+    "www.nictom.com.ar": "marca", "www.mercadolibre.com.ar": "publicación comercial",
+}
 for facts in PRODUCT_FACTS.values():
     host = urllib.parse.urlsplit(facts["source"]).hostname or ""
-    facts["source_type"] = "publicación comercial" if host.endswith("mercadolibre.com.ar") else "fabricante"
-    facts["evidence_label"] = "Declaración comercial" if facts["source_type"] == "publicación comercial" else "Datos documentados del fabricante"
+    facts["source_type"] = SOURCE_ROLES.get(host, "fuente comercial por identificar")
+    facts["evidence_label"] = {"fabricante": "Datos declarados por el fabricante", "marca": "Datos declarados por la marca"}.get(facts["source_type"], "Declaración comercial")
+
+# Las diez guías presentan ofertas contextualizadas en el cuerpo y la nota de
+# compra. La asignación por URL evita estanterías heredadas por categoría.
+ARTICLE_AFFILIATE_SHELVES = {
+    "/amoladoras/": ("https://meli.la/12aMvrG", "https://meli.la/1QUvfns", "https://meli.la/1GRCAjZ"),
+    "/soldadoras/": ("https://meli.la/1knTbU1", "https://meli.la/26RsZRw", "https://meli.la/1mZhwNS"),
+    "/compresores/50-litros/": (),
+    "/hidrolavadoras/comparativa-general/": (), "/hidrolavadoras/lusqtoff/": (),
+    "/taladros/inalambricos/": (), "/taladros/percutores/": (),
+    "/taladros/taladro-de-banco/": (), "/amoladoras/bosch/": (),
+    "/compresores/para-auto/": (), "/sierras/caladoras/": (),
+    "/generadores/comparativa-general/": (), "/generadores/precios/": (),
+}
 
 COMPARE_TYPES = {
     "https://meli.la/1KQjHgT": "hidrolavadora-nafta",
@@ -788,12 +817,12 @@ ALL_ARTICLES = [
     and a["primary_sources"] == "sí" and a["specifications_contrasted"] == "sí"
     and a["asset_status"] == "verificado"
     and re.search(r'^## Fuentes consultadas\s*$', a["body"], re.MULTILINE)
-    and "Dato verificado" in a["body"]
+    and "Dato documentado" in a["body"]
     and "Análisis TallerLab" in a["body"]
 ]
 PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
 INDEXABLE_PATHS = tuple(dict.fromkeys(
-    ["/", "/como-trabajamos/", "/equipo-editorial/"]
+    ["/", "/como-trabajamos/", "/autor/joaquin-vallasciani/"]
     + [f"/{section}/" for section in PUBLIC_SECTIONS]
     + [article["url"] for article in ALL_ARTICLES]
 ))
@@ -802,8 +831,26 @@ INDEXABLE_PATH_SET = set(INDEXABLE_PATHS)
 def absolute_url(path):
     return SITE_URL + path
 
+def organization_schema():
+    return {
+        "@type": "Organization",
+        "@id": absolute_url("/") + "#organization",
+        "name": "TallerLab",
+        "url": absolute_url("/"),
+        "logo": {
+            "@type": "ImageObject",
+            "@id": absolute_url(LOGO_SRC) + "#logo",
+            "url": absolute_url(LOGO_SRC),
+            "contentUrl": absolute_url(LOGO_SRC),
+            "caption": "TallerLab",
+        },
+        "description": "Guías de herramientas y equipamiento para Argentina basadas en investigación documental, comparación de fuentes y cálculos explicados.",
+    }
+
 def canonical_tag(path):
-    return f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">'
+    organization = {"@context": "https://schema.org", **organization_schema()}
+    schema = '<script type="application/ld+json">' + json.dumps(organization, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    return f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema
 
 def render_sitemap():
     entries = "".join(f"  <url><loc>{escape(absolute_url(path))}</loc></url>\n" for path in INDEXABLE_PATHS)
@@ -1491,7 +1538,7 @@ HTML_SHELL = """<!DOCTYPE html>
         <a href="/" class="nav-btn">Inicio</a>
         <a href="/compresores/" class="nav-btn">Compresores</a>
         <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
-        <a href="/equipo-editorial/" class="nav-btn">Equipo editorial</a>
+        <a href="/autor/joaquin-vallasciani/" class="nav-btn">Autor</a>
       </nav>
     </div>
   </header>
@@ -1505,7 +1552,7 @@ HTML_SHELL = """<!DOCTYPE html>
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
-      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/equipo-editorial/">Joaquín Vallasciani · Autor</a></p>
+      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a></p>
     </div>
   </footer>
 </body>
@@ -1641,7 +1688,7 @@ El recorrido es: **documentación oficial → identificación del modelo y códi
 
 ## Cómo clasificamos las afirmaciones
 
-**Dato verificado** identifica una cifra o característica que comprobamos en una fuente enlazada. **Declaración del fabricante** atribuye expresamente al fabricante una prestación o beneficio que no medimos. **Experiencia de compradores** resume opiniones externas solo cuando identificamos plataforma, modelo, fecha y muestra consultada; no equivale a una prueba propia. **Análisis TallerLab** indica una comparación, cálculo o conclusión documental explicada en la guía. **Desconocido** marca lo que las fuentes disponibles no permiten afirmar. Estas etiquetas ayudan a leer la evidencia; no sustituyen la fuente de cada dato decisivo.
+**Dato documentado** identifica una cifra o característica respaldada por una fuente enlazada; no implica una medición ni una comprobación física de TallerLab. **Declaración del fabricante** atribuye expresamente al fabricante una prestación o beneficio que no medimos. **Experiencia de compradores** resume opiniones externas solo cuando identificamos plataforma, modelo, fecha y muestra consultada; no equivale a una prueba propia. **Análisis TallerLab** indica una comparación, cálculo o conclusión documental explicada en la guía. **Desconocido** marca lo que las fuentes disponibles no permiten afirmar. Estas etiquetas ayudan a leer la evidencia; no sustituyen la fuente de cada dato decisivo.
 
 ## Cómo comparamos
 
@@ -1665,7 +1712,7 @@ La fecha visible corresponde a la última revisión documental registrada del ar
 
 ## Cuándo publicamos
 
-Cada guía requiere fuentes identificadas, comprobación de cifras, límites explicados y revisión documental registrada. Los borradores no se sirven como páginas públicas. [Joaquín Vallasciani](/equipo-editorial/) es responsable de la investigación documental y edición de las guías. La firma identifica a su autor; no implica una revisión independiente por otra persona.
+Cada guía requiere fuentes identificadas, comprobación de cifras, límites explicados y revisión documental registrada. Los borradores no se sirven como páginas públicas. [Joaquín Vallasciani](/autor/joaquin-vallasciani/) es responsable de la investigación documental y edición de las guías. La firma identifica a su autor; no implica una revisión independiente por otra persona.
 """
         desc = "Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab."
     else:
@@ -1705,7 +1752,7 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
 
 def render_home_page():
     cards = "".join(render_article_card(article, badge_text="GUÍA REVISADA", action_text="Leer comparativa") for article in ALL_ARTICLES)
-    content = f'''<div class="article-container"><div class="article-header"><h1>Herramientas que dan resultados</h1><p class="article-lead">Comparaciones documentadas para elegir herramientas en Argentina.</p></div><div class="article-grid">{cards}</div><div class="markdown-body"><p><a href="/como-trabajamos/">Conocé nuestro método de comparación</a> y <a href="/equipo-editorial/">quién firma las guías</a>.</p></div></div>'''
+    content = f'''<div class="article-container"><div class="article-header"><h1>Herramientas que dan resultados</h1><p class="article-lead">Comparaciones documentadas para elegir herramientas en Argentina.</p></div><div class="article-grid">{cards}</div><div class="markdown-body"><p><a href="/como-trabajamos/">Conocé nuestro método de comparación</a> y <a href="/autor/joaquin-vallasciani/">quién firma las guías</a>.</p></div></div>'''
     return HTML_SHELL.format(PAGE_TITLE="Herramientas que dan resultados", CANONICAL_TAG=canonical_tag("/"), PAGE_DESC="Guías de herramientas revisadas y documentadas para Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
@@ -1741,7 +1788,7 @@ def render_category_page(section_id):
     headline = trunk["h1"] if trunk else meta["name"]
     content = f'''<div class="article-container category-hub">
       <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
-      <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/equipo-editorial/">Equipo editorial TallerLab</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
+      <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
       <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
       <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
       {"".join(sections)}
@@ -1759,7 +1806,7 @@ def render_article_page(article, embedded=False):
         # La transparencia queda una vez, en el detalle de método del pie.
         clean_body = re.sub(r'^## Cómo investigamos esta guía\s*\n(?:[ \t]*-[^\n]*\n)+\s*', '', clean_body, flags=re.MULTILINE)
         # Retirar solo preámbulos comunes que explican las etiquetas, no datos.
-        clean_body = re.sub(r'^\*\*Dato verificado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
+        clean_body = re.sub(r'^\*\*Dato documentado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
         clean_body = re.sub(r'^- \*\*Opiniones(?: de compradores)?:\*\* no se revisó una muestra verificable\.\n?', '', clean_body, flags=re.MULTILINE)
     # No enlazar desde una guía publicada hacia borradores que devuelven 404.
     clean_body = re.sub(
@@ -1827,22 +1874,17 @@ def render_article_page(article, embedded=False):
     if resource:
         source_heading = {"table": "Fichas detrás de la comparación", "selector": "Documentos de este recorrido", "checklist": "Documentos para estas comprobaciones"}.get(resource["kind"], "Fuentes del cálculo y sus límites")
         rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
-        rendered_body = re.sub(r'<strong>(Dato verificado|Análisis TallerLab|Desconocido|Declaración del fabricante)([:.]?)</strong>', r'<strong class="evidence-label">\1\2</strong>', rendered_body)
+        rendered_body = re.sub(r'<strong>(Dato documentado|Análisis TallerLab|Desconocido|Declaración del fabricante)([:.]?)</strong>', r'<strong class="evidence-label">\1\2</strong>', rendered_body)
         body_script += '<script src="/assets/decision-tools.js?v=4" defer></script>'
     sec_meta = CATEGORY_META.get(article["section"], {"name": article["category"], "icon": "📁"})
     reading_time = max(3, article.get("word_count", 600) // 200)
-    general_files = TAXONOMY_MAP.get(article["section"], {}).get("general", [])
-    shelf_products = []
-    if article["url"] == "/compresores/50-litros/":
-        affiliate_shelf = ""
-    elif article["filename"] in general_files:
-        products = None
-        shelf_products = [(article["section"], item) for item in AFFILIATE_PRODUCTS.get(article["section"], [])]
-        affiliate_shelf = render_affiliate_shelf(article["section"], products)
-    else:
-        linked_products = [(article["section"], item) for item in AFFILIATE_PRODUCTS.get(article["section"], []) if item[2] in article["body"]]
-        shelf_products = linked_products
-        affiliate_shelf = render_affiliate_shelf(article["section"], linked_products) if linked_products else ""
+    assigned = ARTICLE_AFFILIATE_SHELVES.get(article["url"])
+    shelf_products = [
+        (article["section"], item)
+        for item in AFFILIATE_PRODUCTS.get(article["section"], [])
+        if (item[2] in assigned if assigned is not None else item[2] in article["body"])
+    ]
+    affiliate_shelf = render_affiliate_shelf(article["section"], shelf_products) if shelf_products else ""
     
     # 3. Enlazado interno contextual basado en algoritmo de relevancia
     related = get_related_articles(article, ALL_ARTICLES, TAXONOMY_MAP, limit=3)
@@ -1904,7 +1946,7 @@ def render_article_page(article, embedded=False):
       <div class="article-header">
         <div class="meta-bar">
           <span class="thumb-badge" style="background: rgba(255, 85, 0, 0.15); color: var(--orange); border-color: rgba(255, 85, 0, 0.3);">{sec_meta['name'].upper()}</span>
-          <span>Por <a href="/equipo-editorial/">{escape(article['author'])}</a></span>
+          <span>Por <a href="/autor/joaquin-vallasciani/">{escape(article['author'])}</a></span>
           <span>·</span>
           <span>{reviewed_label}</span>
           <span>·</span>
@@ -1929,7 +1971,7 @@ def render_article_page(article, embedded=False):
         {transparency_html}
         {trust_html}
         <div class="article-authorship">
-          <p><strong>Investigación documental y edición: <a href="/equipo-editorial/">{escape(article['author'])}</a> · TallerLab</strong></p>
+          <p><strong>Investigación documental y edición: <a href="/autor/joaquin-vallasciani/">{escape(article['author'])}</a> · TallerLab</strong></p>
           <p>{AUTHOR_ROLE}</p>
           <p>{reviewed_label} · {primary_label} · <strong>Prueba física: {physical_label}</strong></p>
           <p><a href="/como-trabajamos/">Cómo trabajamos</a></p>
@@ -1970,7 +2012,7 @@ def author_schema(name=AUTHOR_NAME):
         "name": name,
         "url": absolute_url(AUTHOR_PATH),
         "jobTitle": AUTHOR_ROLE,
-        "worksFor": {"@type": "Organization", "name": "TallerLab"},
+        "worksFor": {"@id": absolute_url("/") + "#organization"},
     }
 
 
@@ -1982,7 +2024,7 @@ def article_schema_tag(article):
         "description": article["description"],
         "mainEntityOfPage": absolute_url(article["url"]),
         "author": author_schema(article["author"]),
-        "publisher": {"@type": "Organization", "name": "TallerLab"},
+        "publisher": {"@id": absolute_url("/") + "#organization"},
     }
     if article.get("reviewed"):
         article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
@@ -2057,6 +2099,13 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.wfile.write(render_search_cards().encode("utf-8"))
             return
 
+        if path in ("/equipo-editorial", "/equipo-editorial/"):
+            self.send_response(301)
+            self.send_header("Location", AUTHOR_PATH + ("?" + parsed.query if parsed.query else ""))
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+
         if not path.endswith("/") and path + "/" in INDEXABLE_PATH_SET:
             self.send_response(301)
             self.send_header("Location", path + "/" + ("?" + parsed.query if parsed.query else ""))
@@ -2101,7 +2150,7 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(render_home_page().encode("utf-8"))
             return
-        if path in ("/como-trabajamos/", "/equipo-editorial/"):
+        if path in ("/como-trabajamos/", "/autor/joaquin-vallasciani/"):
             kind = "metodologia" if path == "/como-trabajamos/" else "equipo"
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")

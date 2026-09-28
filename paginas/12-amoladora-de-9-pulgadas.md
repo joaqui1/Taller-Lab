@@ -30,7 +30,7 @@ published: true
 | Peso | 5,9 kg |
 | Rosca del eje | M14 |
 
-**Dato verificado:** la fuente Bosch identifica el GWS 25-230 con estas especificaciones. El manual consultado es compartido con la variante GWS 25-180 LVI R, cuyas prestaciones deben leerse en su propia columna y no trasladarse al modelo de 230 mm.
+**Dato documentado:** la fuente Bosch identifica el GWS 25-230 con estas especificaciones. El manual consultado es compartido con la variante GWS 25-180 LVI R, cuyas prestaciones deben leerse en su propia columna y no trasladarse al modelo de 230 mm.
 
 **Análisis TallerLab:** frente al GWS 25-180 LVI R, este modelo admite un disco de 50 mm más de diámetro y declara 2.000 rpm menos en vacío; ambos publican 2.500 W. El cambio de diámetro no se traduce directamente en 25 mm más de profundidad de corte, porque intervienen el radio efectivo, la guarda y el disco. El dato de masa publicado, 5,9 kg, también debe considerarse al planificar el manejo de la herramienta.
 

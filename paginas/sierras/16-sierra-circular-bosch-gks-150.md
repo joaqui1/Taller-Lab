@@ -23,7 +23,7 @@ Contrastamos ficha argentina y manual del código 0 601 6B3 0H0. La capacidad de
 
 ## GKS 150: ficha, manual y límite de corte
 
-| Dato verificado | GKS 150 |
+| Dato documentado | GKS 150 |
 | :--- | :--- |
 | Potencia absorbida | 1.500 W |
 | Disco / eje | 184 mm / 20 mm |

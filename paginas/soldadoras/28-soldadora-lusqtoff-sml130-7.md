@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -41,7 +41,7 @@ published: true
 | Alambre y carrete | 0,6/0,8/0,9 mm; rollos 0,5 o 1 kg | 0,6–1,0 mm; incluye rollo flux de 0,45 kg |
 | Dimensiones/peso | 485 × 290 × 310 mm; 14,7 kg | Peso 14,7 kg |
 
-**Dato verificado:** Lüsqtoff etiqueta la página como discontinuada. Ambas fuentes identifican la SML130-7 para alambre tubular autoprotegido y muestran rango de salida 25–120 A; el manual lista un intervalo de diámetros más amplio que la ficha comercial. La página añade un punto a 50 A/60% que el extracto de manual consultado no reproduce.
+**Dato documentado:** Lüsqtoff etiqueta la página como discontinuada. Ambas fuentes identifican la SML130-7 para alambre tubular autoprotegido y muestran rango de salida 25–120 A; el manual lista un intervalo de diámetros más amplio que la ficha comercial. La página añade un punto a 50 A/60% que el extracto de manual consultado no reproduce.
 
 **Análisis TallerLab:** para comprar o reemplazar una unidad, el manual y la etiqueta del equipo deben gobernar la compatibilidad de alambre y los ajustes. No completamos la divergencia de 0,9 frente a 1,0 mm por inferencia. Los 120 A al 10% tampoco significan uso continuo a esa corriente.
 

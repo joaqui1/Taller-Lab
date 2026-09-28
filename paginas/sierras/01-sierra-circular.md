@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una sierra circular para tus trabajos
 
-**Dato verificado:** la matriz resume medidas que aparecen en manuales y fichas oficiales de estos tres modelos; no es una prueba comparativa. Muestra por qué el nombre comercial en pulgadas no basta para elegir disco o capacidad.
+**Dato documentado:** la matriz resume medidas que aparecen en manuales y fichas oficiales de estos tres modelos; no es una prueba comparativa. Muestra por qué el nombre comercial en pulgadas no basta para elegir disco o capacidad.
 
 ## Diámetro y espesor: dos límites separados
 

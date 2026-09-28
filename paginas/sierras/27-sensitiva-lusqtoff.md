@@ -23,7 +23,7 @@ Separamos CM-14K de la variante CM14K-9 y de catálogos antiguos porque las pote
 
 ## CM-14K: código, capacidad y contenido de caja
 
-| Dato verificado | CM-14K actual | CM14K-9 |
+| Dato documentado | CM-14K actual | CM14K-9 |
 | :--- | :--- | :--- |
 | Potencia anunciada | 2.000 W | 2.200 W |
 | Disco | 355 mm | Verificar ficha y unidad |

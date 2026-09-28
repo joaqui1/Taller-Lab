@@ -12,7 +12,7 @@ PAGES = {
 | HandyArc 162i, 0409616 | MMA | 160 A/20%; 92 A/60%; 72 A/100% | 220 V ±10%, monofásica; 3,7 kg |
 | HandyArc MIG 160i, 0410060 | GMAW (MIG/MAG) y MMA | GMAW: 160 A/15%, 80 A/60%, 62 A/100%; MMA: 140 A/15%, 70 A/60%, 54 A/100% | 220 V ±10%; 10,2 kg |
 
-**Dato verificado:** la tabla copia los puntos nominales que ESAB Argentina publica para dos equipos con procesos distintos. La 162i es una fuente MMA; la MIG 160i agrega proceso GMAW y alimentación de alambre. El nombre comercial «160» no significa el mismo ciclo ni las mismas funciones en ambos modelos.
+**Dato documentado:** la tabla copia los puntos nominales que ESAB Argentina publica para dos equipos con procesos distintos. La 162i es una fuente MMA; la MIG 160i agrega proceso GMAW y alimentación de alambre. El nombre comercial «160» no significa el mismo ciclo ni las mismas funciones en ambos modelos.
 
 **Análisis TallerLab:** al comparar ofertas, primero identificá el proceso requerido y el código; después leé juntos corriente, tensión y porcentaje de ciclo. En MMA, la 162i llega a 72 A al 100%; en GMAW, la MIG 160i declara 62 A al 100%. Son datos de placa/ficha, no una medición de TallerLab ni una recomendación de espesor.
 
@@ -38,7 +38,7 @@ PAGES = {
 | Heavy Duty Black, 0615465 | Guante de soldador general; la ficha lo agrupa con guantes Heavy Duty | Palma reforzada, pulgar palmeado y forro hasta el puño | EN 407 413X4X; EN 12477 Type A; EN 388 4134X | 350 g |
 | TIG Basic, 0700500460 | TIG | Cuero vacuno dividido y piel de cabra; sin forro | EN 407 413X4X; EN 12477 Type A; EN 388 2122X | 160 g |
 
-**Dato verificado:** las fichas ESAB publican las construcciones, masas y códigos de la tabla. La designación EN 12477 Type A y los códigos EN 388/EN 407 corresponden a esos productos concretos y a la documentación del fabricante.
+**Dato documentado:** las fichas ESAB publican las construcciones, masas y códigos de la tabla. La designación EN 12477 Type A y los códigos EN 388/EN 407 corresponden a esos productos concretos y a la documentación del fabricante.
 
 **Análisis TallerLab:** la comparación muestra diferencias comprobables (190 g entre los productos y construcción forrada frente a no forrada). No demuestra que uno sea más seguro para cualquier trabajo ni permite trasladar sus valores a guantes sin código y declaración de conformidad equivalentes. Para comprar, comprobar talla, etiqueta, daños, puño y estado del par; seguir la evaluación de riesgos del puesto y las instrucciones del fabricante.
 
@@ -57,7 +57,7 @@ PAGES = {
 | IRON-100, catálogo 2020/21 | Rango 10–105 A; no se transcribe un ciclo | 3,2 kg | No es una oferta de kit documentada en ese recorte |
 | MEGAIRON100-8, ficha actual | Ciclo MMA 105 A al 30%; la ficha de producto no informa rango completo | No publicado en ficha de producto citada | Soldadora, máscara ST-1X y dos escuadras magnéticas |
 
-**Dato verificado:** el catálogo histórico denomina al primer equipo IRON-100 y le asigna 220 V/50 Hz, proceso MMA, rango 10–105 A, peso 3,2 kg y garantía indicada de seis meses en esa edición. La página actual MEGAIRON100-8 describe otro código de kit, con ciclo MMA 30% a 105 A y los accesorios de la tabla. No hay evidencia de que las cifras de peso, rango y garantía de la primera referencia deban copiarse al segundo SKU.
+**Dato documentado:** el catálogo histórico denomina al primer equipo IRON-100 y le asigna 220 V/50 Hz, proceso MMA, rango 10–105 A, peso 3,2 kg y garantía indicada de seis meses en esa edición. La página actual MEGAIRON100-8 describe otro código de kit, con ciclo MMA 30% a 105 A y los accesorios de la tabla. No hay evidencia de que las cifras de peso, rango y garantía de la primera referencia deban copiarse al segundo SKU.
 
 **Análisis TallerLab:** «Iron 100» en un título de publicación puede referirse a la máquina anterior o al kit MEGAIRON100-8. Para comparar precio, peso o cobertura, confirmar código completo en placa/factura y separar fuente, máscara y escuadras. El amperaje máximo anunciado no indica por sí solo una salida continua: el kit 100-8 declara un punto de 105 A con ciclo del 30%.
 
@@ -81,7 +81,7 @@ PAGES = {
 | Masa publicada | 5 kg |
 | Accesorios del kit | Máscara ST-1X y dos escuadras magnéticas LQE-6001 |
 
-**Dato verificado:** aunque el nombre comercial incluye «250», la ficha de MEGAIRON250 identifica la máquina como IRON-250 y declara rango de salida hasta 180 A. La misma ficha publica los dos puntos de ciclo de trabajo en la tabla. Presentamos lo que dice esa página, no una medición independiente.
+**Dato documentado:** aunque el nombre comercial incluye «250», la ficha de MEGAIRON250 identifica la máquina como IRON-250 y declara rango de salida hasta 180 A. La misma ficha publica los dos puntos de ciclo de trabajo en la tabla. Presentamos lo que dice esa página, no una medición independiente.
 
 **Análisis TallerLab:** para comparar equipos, la salida máxima de ficha y el ciclo de trabajo describen aspectos distintos. En este caso, el fabricante publica 180 A al 40% y 114 A al 100%; el número «250» del nombre no debe leerse como corriente de salida verificada. Los 6,5 kW y 30 A de entrada también requieren verificar el circuito según la placa y normativa local.
 
@@ -100,7 +100,7 @@ PAGES = {
 | SML120-8D, unidad | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 6,6 kg | Pinza de masa, portaelectrodos, torcha Flux y picos de contacto |
 | SML120-8DK, kit | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 8,1 kg | SML120-8D, máscara ST-1X, escuadras LQE-6001 y rollo LQFLUX045, además de pinzas |
 
-**Dato verificado:** las dos páginas oficiales identifican los procesos y rangos de la máquina base. El kit agrega accesorios y declara 1,5 kg más que la unidad suelta; esa diferencia es el cálculo TallerLab entre masas publicadas, no el peso medido de una caja abierta.
+**Dato documentado:** las dos páginas oficiales identifican los procesos y rangos de la máquina base. El kit agrega accesorios y declara 1,5 kg más que la unidad suelta; esa diferencia es el cálculo TallerLab entre masas publicadas, no el peso medido de una caja abierta.
 
 **Análisis TallerLab:** el sufijo K diferencia una presentación de kit; no cambia los rangos de soldadura publicados para la fuente SML120-8D. El PVP visto en cada página puede variar y no garantiza que un distribuidor entregue el mismo paquete. La ficha de la unidad indica 200 V–50 Hz, por lo que conviene corroborar placa y red disponible antes de comprar.
 
@@ -123,7 +123,7 @@ PAGES = {
 | Alambre y carrete | 0,6/0,8/0,9 mm; rollos 0,5 o 1 kg | 0,6–1,0 mm; incluye rollo flux de 0,45 kg |
 | Dimensiones/peso | 485 × 290 × 310 mm; 14,7 kg | Peso 14,7 kg |
 
-**Dato verificado:** Lüsqtoff etiqueta la página como discontinuada. Ambas fuentes identifican la SML130-7 para alambre tubular autoprotegido y muestran rango de salida 25–120 A; el manual lista un intervalo de diámetros más amplio que la ficha comercial. La página añade un punto a 50 A/60% que el extracto de manual consultado no reproduce.
+**Dato documentado:** Lüsqtoff etiqueta la página como discontinuada. Ambas fuentes identifican la SML130-7 para alambre tubular autoprotegido y muestran rango de salida 25–120 A; el manual lista un intervalo de diámetros más amplio que la ficha comercial. La página añade un punto a 50 A/60% que el extracto de manual consultado no reproduce.
 
 **Análisis TallerLab:** para comprar o reemplazar una unidad, el manual y la etiqueta del equipo deben gobernar la compatibilidad de alambre y los ajustes. No completamos la divergencia de 0,9 frente a 1,0 mm por inferencia. Los 120 A al 10% tampoco significan uso continuo a esa corriente.
 
@@ -143,7 +143,7 @@ PAGES = {
 | SML130-7 | FCAW con tubular autoprotegido | 25–120 A; 120 A/10% y 50 A/60% a 40 °C en página | Discontinuada |
 | MEGAIRON100-8 | MMA | 105 A al 30% en página; rango completo no publicado allí | Kit incluye ST-1X y escuadras |
 
-**Dato verificado:** la tabla diferencia tres códigos según páginas/manuales de Lüsqtoff. No atribuye MIG/MMA/TIG a todos los equipos: la SML120-8D sí declara tres procesos, SML130-7 es un modelo de alambre tubular discontinuado y MEGAIRON100-8 se describe como MMA.
+**Dato documentado:** la tabla diferencia tres códigos según páginas/manuales de Lüsqtoff. No atribuye MIG/MMA/TIG a todos los equipos: la SML120-8D sí declara tres procesos, SML130-7 es un modelo de alambre tubular discontinuado y MEGAIRON100-8 se describe como MMA.
 
 **Análisis TallerLab:** elegí primero proceso y disponibilidad de consumibles; compará luego puntos de ciclo a la misma temperatura y condiciones. No es válido ordenar estos equipos solo por el número de amperios o por la palabra «kit»: SML130-7 figura discontinuada y los otros dos tienen procesos y presentaciones distintas. Confirmá si la ficha corresponde a máquina sola o paquete y revisá placa del ejemplar ofertado.
 
@@ -162,7 +162,7 @@ PAGES = {
 | ST-1X | 92 × 42 mm | 2 | DIN 4/9–13 | 1/15.000 s | Catálogo oficial 2020/21; aparece incluida en algunos kits actuales |
 | ST-1B | 98 × 43 mm | 4 | DIN 4/9–13 | 1/25.000 s | Ficha actual de producto |
 
-**Dato verificado:** los datos ST-1X proceden del catálogo oficial histórico de Lüsqtoff; los ST-1B, de su página de producto actual. Lüsqtoff también identifica ST-1X como parte de ciertos kits de soldadora, pero eso no confirma que la máscara suelta conserve idénticas especificaciones o garantía.
+**Dato documentado:** los datos ST-1X proceden del catálogo oficial histórico de Lüsqtoff; los ST-1B, de su página de producto actual. Lüsqtoff también identifica ST-1X como parte de ciertos kits de soldadora, pero eso no confirma que la máscara suelta conserve idénticas especificaciones o garantía.
 
 **Análisis TallerLab:** los números permiten distinguir dos filtros comercializados con códigos distintos; no equivalen a una prueba comparativa de protección, calidad óptica o tiempo real de respuesta. La rapidez indicada es una cifra nominal de ficha y depende de que el equipo esté intacto, ajustado y dentro de sus condiciones de operación.
 
@@ -182,7 +182,7 @@ PAGES = {
 | ST-1E | 92 × 42 mm | 2 | DIN 4/9–13 | Celda solar y CR2032 reemplazable | Respuesta 1/15.000 s; controles internos/externos según función |
 | ST-1B | 98 × 43 mm | 4 | DIN 4/9–13 | Celda solar y CR2450 reemplazable | Respuesta 1/25.000 s; función amolado declarada |
 
-**Dato verificado:** las tres filas reproducen fichas oficiales de los modelos, no una norma universal para máscaras fotosensibles. Todas las velocidades están presentadas como las publica Lüsqtoff; el fabricante no describe aquí una medición realizada por TallerLab.
+**Dato documentado:** las tres filas reproducen fichas oficiales de los modelos, no una norma universal para máscaras fotosensibles. Todas las velocidades están presentadas como las publica Lüsqtoff; el fabricante no describe aquí una medición realizada por TallerLab.
 
 **Análisis TallerLab:** la matriz ayuda a verificar si un filtro ofrece tono regulable o fijo, cuántos sensores declara, el tamaño visible y si su batería se reemplaza. Más sensores, ventana mayor o respuesta nominal diferente no prueban por sí solos mejor protección ni compatibilidad con una aplicación concreta. Elegí el filtro dentro del rango de sombra requerido por el proceso y corriente, según instrucciones del fabricante y evaluación de seguridad del trabajo.
 
@@ -202,7 +202,7 @@ PAGES = {
 | SML130-7 | FCAW con tubular autoprotegido | 25–120 A; 120 A/10% y 50 A/60% a 40 °C | Fabricante la marca discontinuada; torcha MB-15 incluida en página |
 | SML150-8D | FLUX y MMA | MIG 20–120 A; MMA 20–100 A; STICK 20% a 100 A | Kit/ficha incluye rollo de 0,45 kg, máscara ST-1X y escuadras |
 
-**Dato verificado:** cada fila procede de la página o manual del código indicado. La etiqueta «MIG» que Lüsqtoff usa para estas unidades no significa que todas requieran o acepten alambre macizo con gas: SML130-7 se describe para alambre tubular autoprotegido; SML120-8D y SML150-8D identifican modo FLUX.
+**Dato documentado:** cada fila procede de la página o manual del código indicado. La etiqueta «MIG» que Lüsqtoff usa para estas unidades no significa que todas requieran o acepten alambre macizo con gas: SML130-7 se describe para alambre tubular autoprotegido; SML120-8D y SML150-8D identifican modo FLUX.
 
 **Análisis TallerLab:** para comparar, identificá el código y el proceso antes de mirar amperaje máximo. Las fichas expresan el ciclo en condiciones distintas (25 °C frente a 40 °C y puntos distintos), así que no conviene ordenarlas por porcentaje sin homogeneizar condiciones. También separá máquina suelta de kit: la ST-1X y el rollo figuran en algunas configuraciones, no necesariamente en todas las publicaciones.
 
@@ -246,7 +246,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.\n\n"
+        f"**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

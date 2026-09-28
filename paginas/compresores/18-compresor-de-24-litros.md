@@ -21,18 +21,18 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Tanque | Motor/potencia | Presión máxima | Caudal publicado | Peso |
 | :--- | ---: | :--- | ---: | ---: | ---: |
 | Gamma G2860AR | 24 L | 1.500 W; 220 V; sin aceite | 8 bar / 116 psi | 236 L/min, descrito como flujo continuo | 21,3 kg |
 | Lüsqtoff LC-0122 | 24 L | 1 HP / 750 W; 220 V; sin aceite | 115 psi | 180 L/min | 24 kg |
 
-**Dato verificado:** las fichas de Gamma y Lüsqtoff identifican tanque de 24 L y publican los valores de la tabla. Gamma declara presión de conexión de 6 bar y desconexión a 8 bar; Lüsqtoff describe una unidad monofásica de pistón y mando directo.
+**Dato documentado:** las fichas de Gamma y Lüsqtoff identifican tanque de 24 L y publican los valores de la tabla. Gamma declara presión de conexión de 6 bar y desconexión a 8 bar; Lüsqtoff describe una unidad monofásica de pistón y mando directo.
 
 **Análisis TallerLab:** las fichas publican una diferencia de 56 L/min y 750 W entre estos ejemplos, pero Gamma llama a su cifra “flujo continuo” y Lüsqtoff la llama “caudal”; no se especifican condiciones comunes suficientes para tratar esa resta como ventaja efectiva. El dato de presión máxima tampoco prueba que una herramienta mantenga su caudal durante una operación continua.
 
-**Dato verificado sobre capacidad:** Lüsqtoff LC-2024 corresponde a 40 L y figura discontinuado en la página del fabricante; el número de su código no indica un tanque de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
+**Dato documentado sobre capacidad:** Lüsqtoff LC-2024 corresponde a 40 L y figura discontinuado en la página del fabricante; el número de su código no indica un tanque de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
 
 | Uso que estás evaluando | Dato que conviene cotejar |
 | :--- | :--- |

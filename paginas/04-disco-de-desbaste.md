@@ -30,7 +30,7 @@ published: true
 | Especificación abrasiva | A 30 T BF |
 | Certificación indicada | oSa en la ficha |
 
-**Dato verificado:** Bosch publica estas medidas y especificación para el disco de desbaste PRO Metal citado. La misma página lista una variante de 125 × 6 × 22,23 mm y otra de 125 mm con especificación distinta; no combinar sus códigos ni granulometrías.
+**Dato documentado:** Bosch publica estas medidas y especificación para el disco de desbaste PRO Metal citado. La misma página lista una variante de 125 × 6 × 22,23 mm y otra de 125 mm con especificación distinta; no combinar sus códigos ni granulometrías.
 
 **Análisis TallerLab:** la tabla permite comprobar tres condiciones geométricas antes de comprar: disco máximo admitido por la amoladora, orificio compatible con brida y tuerca, y espesor. Frente a un disco de corte de 115 × 1,6 × 22,23 mm, el disco de desbaste de 6 mm es 3,75 veces más grueso. No deben intercambiarse sus aplicaciones: Bosch identifica uno para desbaste y el otro para corte.
 

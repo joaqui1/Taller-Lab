@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Filtro de admisión del compresor | Entrada de aire de la bomba | El manual Gamma G2802AR ordena revisar y mantener limpio el filtro de admisión | No es el conjunto de tratamiento de línea |
 | Filtro-regulador-lubricador BTA AA-2040I, código 802834.1 | Línea neumática aguas abajo del tanque | Conexión 1/2″; elemento filtrante de 5–40 µm; drenaje automático/manual; presión máxima 145 psi | La ficha muestra 50 NI/min como “pulverizado (caudal)” y 4.000 NI/min como caudal mínimo de goteo |
 
-**Dato verificado:** el AA-2040I no es un repuesto de admisión: BTA lo describe como conjunto de filtro, regulador y lubricador para la línea de aire. Su propia ficha publica dos valores de caudal con rótulos distintos (50 y 4.000 NI/min), así que los transcribimos sin interpretarlos como una única capacidad de servicio.
+**Dato documentado:** el AA-2040I no es un repuesto de admisión: BTA lo describe como conjunto de filtro, regulador y lubricador para la línea de aire. Su propia ficha publica dos valores de caudal con rótulos distintos (50 y 4.000 NI/min), así que los transcribimos sin interpretarlos como una única capacidad de servicio.
 
 **Análisis TallerLab:** la selección empieza por la ubicación y función del componente. El filtro de admisión protege la entrada indicada por el fabricante del compresor; el conjunto de línea trata el aire y regula la presión después del tanque. Una rosca de 1/2″, una filtración en micrones y un caudal son campos diferentes y ninguno sustituye a los otros.
 

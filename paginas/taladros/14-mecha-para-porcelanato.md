@@ -29,7 +29,7 @@ published: true
 | Velocidad indicada por Bosch | Menos de 500 rpm |
 | Espesor descrito para esta aplicación | Hasta 10 mm, según página del fabricante |
 
-**Dato verificado:** estos límites corresponden a la familia Bosch EXPERT HEX-9 HardCeramic, no a todas las brocas para porcelanato. El espesor de hasta 10 mm y el rango de diámetros dependen de la variante y página de mercado consultada. Confirmá la referencia y el diámetro exactos antes de comprar.
+**Dato documentado:** estos límites corresponden a la familia Bosch EXPERT HEX-9 HardCeramic, no a todas las brocas para porcelanato. El espesor de hasta 10 mm y el rango de diámetros dependen de la variante y página de mercado consultada. Confirmá la referencia y el diámetro exactos antes de comprar.
 
 **Declaración del fabricante:** Bosch presenta HEX-9 HardCeramic como una broca de carburo para azulejo duro y recomienda velocidad baja, rotación sin percusión y presión controlada. El fabricante publica ensayos propios de perforación; esos resultados son declaraciones de Bosch y no pruebas realizadas por TallerLab.
 

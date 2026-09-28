@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -42,7 +42,7 @@ published: true
 | Peso bruto de catálogo | 24 kg | 36 kg |
 | Lubricación | Aceitado | Aceitado |
 
-**Dato verificado:** el catálogo Stanley para la serie D210/8 publica la misma potencia, presión, velocidad y desplazamiento para las variantes de 24 y 50 L. Cambia el tanque y el peso bruto de catálogo. El documento es un catálogo regional europeo alojado por un distribuidor; no prueba la disponibilidad, revisión ni garantía argentina de una unidad ofrecida hoy.
+**Dato documentado:** el catálogo Stanley para la serie D210/8 publica la misma potencia, presión, velocidad y desplazamiento para las variantes de 24 y 50 L. Cambia el tanque y el peso bruto de catálogo. El documento es un catálogo regional europeo alojado por un distribuidor; no prueba la disponibilidad, revisión ni garantía argentina de una unidad ofrecida hoy.
 
 **Análisis TallerLab:** el tanque aumenta 26 L (108,3 % sobre 24 L), mientras el peso bruto informado aumenta 12 kg (50 % sobre 24 kg). El desplazamiento publicado no aumenta junto con el tanque; ese dato no equivale a FAD ni permite comparar tiempo de recuperación sin curva y presión común. La tabla sirve para diferenciar capacidad de reserva de aire y tamaño del conjunto, no para afirmar rendimiento de taller.
 

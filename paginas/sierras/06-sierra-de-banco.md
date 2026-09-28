@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una sierra de banco para madera
 
-**Dato verificado:** comparamos dos fichas oficiales de equipos de banco y hoja cercana a 250 mm. Sirve para dimensionar pieza y espacio; no mide seguridad, estabilidad ni precisión real.
+**Dato documentado:** comparamos dos fichas oficiales de equipos de banco y hoja cercana a 250 mm. Sirve para dimensionar pieza y espacio; no mide seguridad, estabilidad ni precisión real.
 
 ## Elegir una sierra de banco por corte y apoyo
 

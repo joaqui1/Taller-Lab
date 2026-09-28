@@ -16,7 +16,7 @@ PAGES = {
 | Cargador | Incluido |
 | Garantía informada por el fabricante | Herramientas: 3 años; baterías: 6 meses |
 
-**Dato verificado:** la tabla corresponde al código KATL-9BK que Lusqtoff publica como kit de amoladora angular y taladro inalámbrico. No trasladamos esos datos a otros combos de nombre o aspecto parecido.
+**Dato documentado:** la tabla corresponde al código KATL-9BK que Lusqtoff publica como kit de amoladora angular y taladro inalámbrico. No trasladamos esos datos a otros combos de nombre o aspecto parecido.
 
 **Análisis TallerLab:** el kit contiene dos baterías de capacidades distintas, 4 Ah y 2 Ah; la ficha no indica cuál se destina a cada herramienta. La amoladora tiene tres velocidades listadas, mientras el taladro ofrece dos velocidades mecánicas. La diferencia entre las baterías es de 2 Ah, pero ese valor no predice por sí solo cuántos cortes o agujeros permite cada una.
 
@@ -57,7 +57,7 @@ Los datos de esta tabla describen el texto de cada aviso, no quedan verificados 
 | Batería/cargador | 2 baterías y cargador incluidos | No incluidos |
 | Garantía publicada | 2 años | 3 años |
 
-**Dato verificado:** la tabla reproduce fichas oficiales de los códigos TIL23-8B y TAL60-9B. La página de TIL23-8B no explica si el peso incluye baterías; el fabricante tampoco describe en esas fichas una condición de pesaje común. La comparación de masa queda limitada por esa diferencia documental.
+**Dato documentado:** la tabla reproduce fichas oficiales de los códigos TIL23-8B y TAL60-9B. La página de TIL23-8B no explica si el peso incluye baterías; el fabricante tampoco describe en esas fichas una condición de pesaje común. La comparación de masa queda limitada por esa diferencia documental.
 
 **Análisis TallerLab:** el TAL60-9B declara 37 Nm más de torque máximo y una velocidad máxima 1.290 rpm superior; se vende sin batería ni cargador. El TIL23-8B incluye dos baterías y cargador en la ficha consultada. No calculamos autonomía ni rapidez real con esos datos, y no presentamos el mayor torque como prueba de que un modelo sea mejor para toda tarea.
 
@@ -93,7 +93,7 @@ Los datos de esta tabla describen el texto de cada aviso, no quedan verificados 
 | Mesa | No declarada en la ficha consultada | 330 × 300 mm |
 | Peso | 33 kg | No publicado en la ficha consultada |
 
-**Dato verificado:** las cifras provienen de las páginas oficiales de Lusqtoff para TB-16 y TBL710-9D. En la ficha del TBL710-9D, 900 W aparece junto con la condición S2 de 5 minutos; no se debe presentar como potencia nominal para uso continuo. Una ficha anterior de TB-16 indica un recorrido de 50 mm y un peso de 31 kg, mientras la página actual publica 65 mm y 33 kg. Conservamos esa discrepancia en vez de mezclar versiones.
+**Dato documentado:** las cifras provienen de las páginas oficiales de Lusqtoff para TB-16 y TBL710-9D. En la ficha del TBL710-9D, 900 W aparece junto con la condición S2 de 5 minutos; no se debe presentar como potencia nominal para uso continuo. Una ficha anterior de TB-16 indica un recorrido de 50 mm y un peso de 31 kg, mientras la página actual publica 65 mm y 33 kg. Conservamos esa discrepancia en vez de mezclar versiones.
 
 **Análisis TallerLab:** el TB-16 declara un mandril 3 mm mayor que el TBL710-9D; el TBL710-9D publica hasta 35 mm más de recorrido frente a los 65 mm de la ficha actual del TB-16. El diámetro de mandril describe el vástago que puede sujetar: no demuestra por sí solo qué diámetro de agujero logra el motor en un material concreto.
 
@@ -127,7 +127,7 @@ Los datos de esta tabla describen el texto de cada aviso, no quedan verificados 
 | GWS 25-180 LVI R | 180 mm | 2.500 W | 8.500 rpm | No consta en el recorte consultado |
 | GWS 25-230 | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
 
-**Dato verificado:** cada fila corresponde al modelo indicado en las fichas Bosch. La página del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos citados aquí, por eso no completamos la celda por analogía. Las herramientas de otros países pueden diferir en tensión, variantes e interruptores.
+**Dato documentado:** cada fila corresponde al modelo indicado en las fichas Bosch. La página del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos citados aquí, por eso no completamos la celda por analogía. Las herramientas de otros países pueden diferir en tensión, variantes e interruptores.
 
 **Análisis TallerLab:** los tres diámetros muestran por qué la medida del accesorio es el primer filtro de compatibilidad: los discos de 115, 180 y 230 mm no son intercambiables en una máquina diseñada para otra medida. En la ficha del GWS 25-180 y GWS 25-230 la potencia declarada coincide, mientras que la velocidad en vacío y el diámetro difieren. Eso no determina la profundidad real de corte: depende del disco, guarda, geometría y material.
 
@@ -167,7 +167,7 @@ Elegí por tarea, pieza, disco compatible y forma de sujeción. Para una amolado
 | Tensión indicada | 220 V |
 | Funciones listadas | Vibration Control, KickBack Control, Soft Start y Restart Protection |
 
-**Dato verificado:** Bosch publica estas especificaciones para el código GWS 25-180 LVI R. La página identifica una variante con tuerca y menciona accesorios incluidos; el contenido puede variar según el número de pedido completo.
+**Dato documentado:** Bosch publica estas especificaciones para el código GWS 25-180 LVI R. La página identifica una variante con tuerca y menciona accesorios incluidos; el contenido puede variar según el número de pedido completo.
 
 **Análisis TallerLab:** 7 pulgadas equivalen a 177,8 mm, mientras que el diámetro métrico publicado por el fabricante es 180 mm (aproximadamente 7,09 pulgadas). La diferencia es de 2,2 mm en el diámetro nominal. La etiqueta “7 pulgadas” es una denominación comercial redondeada; para comprar discos, manda la medida indicada en la herramienta y el accesorio. El diámetro mayor tampoco permite calcular por sí solo el corte útil.
 
@@ -204,7 +204,7 @@ Elegí por tarea, pieza, disco compatible y forma de sujeción. Para una amolado
 | Peso | 5,9 kg |
 | Rosca del eje | M14 |
 
-**Dato verificado:** la fuente Bosch identifica el GWS 25-230 con estas especificaciones. El manual consultado es compartido con la variante GWS 25-180 LVI R, cuyas prestaciones deben leerse en su propia columna y no trasladarse al modelo de 230 mm.
+**Dato documentado:** la fuente Bosch identifica el GWS 25-230 con estas especificaciones. El manual consultado es compartido con la variante GWS 25-180 LVI R, cuyas prestaciones deben leerse en su propia columna y no trasladarse al modelo de 230 mm.
 
 **Análisis TallerLab:** frente al GWS 25-180 LVI R, este modelo admite un disco de 50 mm más de diámetro y declara 2.000 rpm menos en vacío; ambos publican 2.500 W. El cambio de diámetro no se traduce directamente en 25 mm más de profundidad de corte, porque intervienen el radio efectivo, la guarda y el disco. El dato de masa publicado, 5,9 kg, también debe considerarse al planificar el manejo de la herramienta.
 
@@ -244,7 +244,7 @@ Esta tabla ayuda a reconocer la variante por medida. La elección final depende 
 | Muelas declaradas | Granos 24 y 60 | Granos 36 y 60 |
 | Régimen de trabajo | S2 (60 min), según manual | No indicado en ficha citada |
 
-**Dato verificado:** los valores corresponden a las fichas oficiales y manual de cada código. Bosch informa orificios de muela de 12,7/20 mm en manual; la página del producto describe discos de 20 mm. Lusqtoff publica piedra de 150 × 16 × 12,7 mm. Verificá el diámetro de eje y los bujes antes de montar un repuesto.
+**Dato documentado:** los valores corresponden a las fichas oficiales y manual de cada código. Bosch informa orificios de muela de 12,7/20 mm en manual; la página del producto describe discos de 20 mm. Lusqtoff publica piedra de 150 × 16 × 12,7 mm. Verificá el diámetro de eje y los bujes antes de montar un repuesto.
 
 **Análisis TallerLab:** ambos ejemplos usan muelas de 150 mm, pero difieren en ancho publicado en 4 mm y en régimen en 50 rpm. Bosch publica un peso 4 kg mayor. Es una diferencia aritmética entre fichas, no evidencia de estabilidad o precisión. El dato S2 (60 min) de Bosch delimita el régimen de operación indicado por fabricante; no equivale a un permiso de funcionamiento indefinido.
 
@@ -285,7 +285,7 @@ No montes una muela basándote solo en el diámetro. Consultá su etiqueta y el 
 | Husillo | No transcrito en la fuente consultada | 5/8 in–11 |
 | Tensión de variante | 120 V, página de Estados Unidos | Mercado Estados Unidos; consultar placa |
 
-**Dato verificado:** las fuentes DeWalt identifican ambos productos como amoladoras con cable de 115 mm. La ficha DWE402 especifica 120 V y 11 A; DWE4120 declara 9 A, 12.000 rpm y rosca 5/8 in–11. Las páginas son estadounidenses y no confirman disponibilidad o especificaciones regionales de Argentina.
+**Dato documentado:** las fuentes DeWalt identifican ambos productos como amoladoras con cable de 115 mm. La ficha DWE402 especifica 120 V y 11 A; DWE4120 declara 9 A, 12.000 rpm y rosca 5/8 in–11. Las páginas son estadounidenses y no confirman disponibilidad o especificaciones regionales de Argentina.
 
 **Análisis TallerLab:** ambas herramientas admiten el diámetro nominal de 115 mm; la DWE4120 publica 1.000 rpm más en vacío, mientras la DWE402 publica 2 A más. Los amperes y rpm no permiten deducir por sí solos velocidad de remoción, torque o rendimiento bajo carga. Tampoco usamos esas cifras para elegir una herramienta con tensión distinta.
 
@@ -319,7 +319,7 @@ No montes una muela basándote solo en el diámetro. Consultá su etiqueta y el 
 | PRO Stainless Steel and Metal | Corte de acero inoxidable y metal | 115 × 1,0 × 22,23 mm | 2 608 619 261 |
 | PRO Metal de desbaste | Desbaste de metal | 115 × 6 × 22,23 mm | 2 608 600 218 |
 
-**Dato verificado:** dimensiones y usos declarados por Bosch para los códigos listados. X-Lock y el montaje con tuerca son sistemas que dependen del disco exacto; comprobar el tipo de centro y la herramienta antes de instalar. La ficha del disco PRO Metal consultada describe una opción X-Lock, mientras la tabla dimensional corresponde al código 2 608 619 252.
+**Dato documentado:** dimensiones y usos declarados por Bosch para los códigos listados. X-Lock y el montaje con tuerca son sistemas que dependen del disco exacto; comprobar el tipo de centro y la herramienta antes de instalar. La ficha del disco PRO Metal consultada describe una opción X-Lock, mientras la tabla dimensional corresponde al código 2 608 619 252.
 
 **Análisis TallerLab:** el disco de desbaste de 6 mm es seis veces más grueso que la variante de corte de 1 mm y 3,75 veces más grueso que la de corte de 1,6 mm. Esas medidas describen geometría, no calidad del corte. La diferencia práctica decisiva es el uso que el fabricante declara: corte o desbaste; no elijas solo por grosor o por el diámetro exterior.
 
@@ -358,7 +358,7 @@ No montes una muela basándote solo en el diámetro. Consultá su etiqueta y el 
 | Especificación abrasiva | A 30 T BF |
 | Certificación indicada | oSa en la ficha |
 
-**Dato verificado:** Bosch publica estas medidas y especificación para el disco de desbaste PRO Metal citado. La misma página lista una variante de 125 × 6 × 22,23 mm y otra de 125 mm con especificación distinta; no combinar sus códigos ni granulometrías.
+**Dato documentado:** Bosch publica estas medidas y especificación para el disco de desbaste PRO Metal citado. La misma página lista una variante de 125 × 6 × 22,23 mm y otra de 125 mm con especificación distinta; no combinar sus códigos ni granulometrías.
 
 **Análisis TallerLab:** la tabla permite comprobar tres condiciones geométricas antes de comprar: disco máximo admitido por la amoladora, orificio compatible con brida y tuerca, y espesor. Frente a un disco de corte de 115 × 1,6 × 22,23 mm, el disco de desbaste de 6 mm es 3,75 veces más grueso. No deben intercambiarse sus aplicaciones: Bosch identifica uno para desbaste y el otro para corte.
 

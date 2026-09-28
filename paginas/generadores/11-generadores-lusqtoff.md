@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | LGI2.5-8 | Inverter, nafta | 2,2 kW | 2,5 kW | 6 L; no se usa autonomía comparativa sin condición común |
 | LGI3.8-8 | Inverter, nafta | Página: 3,5 kW | Página: 3,8 kW | 8 L; catálogo/manual da 27 kg frente a 28 kg en página |
 
-**Dato verificado:** la ficha Lüsqtoff de LG3500EX separa 2.450 W nominales de 3.500 W máximos; la de EXI informa 3.500 W máximos, pero no potencia nominal en el bloque consultado. Para LGI2.5-8 el catálogo de la marca informa 2,2/2,5 kW. En LGI3.8-8, página, catálogo/manual consultados discrepan en el peso (28/27 kg); se conserva el valor por documento, sin promediar.
+**Dato documentado:** la ficha Lüsqtoff de LG3500EX separa 2.450 W nominales de 3.500 W máximos; la de EXI informa 3.500 W máximos, pero no potencia nominal en el bloque consultado. Para LGI2.5-8 el catálogo de la marca informa 2,2/2,5 kW. En LGI3.8-8, página, catálogo/manual consultados discrepan en el peso (28/27 kg); se conserva el valor por documento, sin promediar.
 
 **Análisis TallerLab:** que LG3500EX y LG3500EXI compartan un máximo impreso de 3.500 W no demuestra igual potencia de servicio; la ficha del EXI consultada no resuelve su nominal. Los valores de autonomía tampoco son comparables sin la carga usada para medirlos. Para elegir, cotejar código de placa, potencia nominal, tensión, salida y manual de la variante vendida.
 

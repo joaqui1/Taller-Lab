@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una sierra sin fin para metal
 
-**Dato verificado:** las dos referencias de la tabla son sierras de banda portátiles Milwaukee con capacidades publicadas. No equivalen a una sierra horizontal de banco y no son una recomendación de marca.
+**Dato documentado:** las dos referencias de la tabla son sierras de banda portátiles Milwaukee con capacidades publicadas. No equivalen a una sierra horizontal de banco y no son una recomendación de marca.
 
 ## Portátil o de banco: definir sección y entorno
 

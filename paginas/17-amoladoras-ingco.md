@@ -28,7 +28,7 @@ published: true
 | AG200018 | India | 2.000 W | 180 mm | 8.450 rpm | M14 |
 | CAGLI1151 | Ficha global | 20 V | 115 mm | 8.500 rpm | M14 |
 
-**Dato verificado:** cada fila corresponde a un código de la documentación oficial INGCO. Las páginas corresponden a mercados distintos y no prueban la disponibilidad, tensión de red o garantía de esos modelos en Argentina. AG750282 admite 100 mm, no 115 mm; no confundas variantes por la potencia publicada.
+**Dato documentado:** cada fila corresponde a un código de la documentación oficial INGCO. Las páginas corresponden a mercados distintos y no prueban la disponibilidad, tensión de red o garantía de esos modelos en Argentina. AG750282 admite 100 mm, no 115 mm; no confundas variantes por la potencia publicada.
 
 **Análisis TallerLab:** las fichas muestran que “amoladora INGCO” no identifica un único tamaño: esta selección cubre 100, 115 y 180 mm. El AG200018 declara 1.250 W más que el AG8508 y un diámetro 65 mm mayor, pero publica una velocidad en vacío menor; no se deduce de esos números el ritmo o la calidad de corte. CAGLI1151 usa una plataforma de batería y no se compara por vatios con los modelos con cable.
 

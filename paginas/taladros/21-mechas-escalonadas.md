@@ -29,7 +29,7 @@ published: true
 | Vástago | Hexagonal de 1/4 in |
 | Materiales listados | Metales, aluminio y plástico, según ficha |
 
-**Dato verificado:** los datos corresponden a la broca escalonada Bosch Professional HSS consultada. En el rango 4–20 mm con pasos de 4 mm, las medidas sucesivas son 4, 8, 12, 16 y 20 mm. El valor se deriva del paso y los extremos publicados.
+**Dato documentado:** los datos corresponden a la broca escalonada Bosch Professional HSS consultada. En el rango 4–20 mm con pasos de 4 mm, las medidas sucesivas son 4, 8, 12, 16 y 20 mm. El valor se deriva del paso y los extremos publicados.
 
 **Análisis TallerLab:** la utilidad de una escalonada es cubrir varios diámetros en una misma broca dentro de su rango; no ofrece todas las medidas intermedias. Para un agujero nominal de 10 mm, esta referencia no tiene un escalón de 10 mm según el intervalo indicado. El vástago hexagonal de 1/4 in debe sujetarse en un portabrocas compatible. El rango no informa por sí solo el espesor máximo de chapa.
 

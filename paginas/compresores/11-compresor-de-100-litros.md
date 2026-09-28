@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Tanque | Motor/alimentación | Caudal publicado | Presión máxima publicada | Peso publicado |
 | :--- | ---: | :--- | ---: | ---: | ---: |
 | Lüsqtoff LC-30100 | 100 L | 3 HP; 220 V; a correa; bicilíndrico | 335 L/min | 115 psi | 115 kg en manual; 85 kg en catálogo 2023–24 |
 | Gamma G2803AR | 100 L | 3 HP; 220 V; bicilíndrico | 250 L/min | 116 psi | No indicada en la ficha consultada |
 
-**Dato verificado:** ambas marcas publican depósito de 100 litros y motor de 3 HP. Lüsqtoff documenta 335 L/min en su manual LC-30100, mientras Gamma publica 250 L/min para G2803AR. Lüsqtoff publica dos pesos distintos en documentos consultados: el manual indica 115 kg y el catálogo 2023–2024 indica 85 kg.
+**Dato documentado:** ambas marcas publican depósito de 100 litros y motor de 3 HP. Lüsqtoff documenta 335 L/min en su manual LC-30100, mientras Gamma publica 250 L/min para G2803AR. Lüsqtoff publica dos pesos distintos en documentos consultados: el manual indica 115 kg y el catálogo 2023–2024 indica 85 kg.
 
 **Análisis TallerLab:** la diferencia aritmética de caudal publicado es 85 L/min (34 % respecto del valor Gamma). No equivale a una diferencia comprobada de caudal efectivo entregado: las páginas no identifican el mismo método de medición ni publican FAD a una presión de trabajo común. La discrepancia de peso de LC-30100 también impide mostrar un único valor sin más contexto; verificá placa, revisión del manual y unidad ofrecida.
 

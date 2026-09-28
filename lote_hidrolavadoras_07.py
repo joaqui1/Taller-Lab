@@ -12,7 +12,7 @@ PAGES = {
 | Comet KM Extra 8.16 16/200 T, C2586AR | Agua caliente, 400 V trifásica | 190 bar nominales hasta 108 °C | 200 bar hasta 108 °C; 32 bar máx. hasta 140 °C | 15 L/min nominales; 16 L/min máx. |
 | Gamma Omega Hynox 200, G2028AR | Con caldera; alimentación trifásica | La ficha publica 14,5 MPa | 15 MPa (150 bar) | No localizada en ficha consultada |
 
-**Dato verificado:** Gamma publica para la Comet KM Extra 8.16 presión nominal de 190 bar y máxima de 200 bar con salida hasta 108 °C; al elevar la temperatura máxima de salida a 140 °C, la ficha indica presión máxima de 32 bar. Para Gamma Omega Hynox 200, la ficha lista 14,5 MPa de presión y 15 MPa de presión máxima (150 bar). El «200» de este segundo nombre no corresponde a una presión de 200 bar en la ficha consultada.
+**Dato documentado:** Gamma publica para la Comet KM Extra 8.16 presión nominal de 190 bar y máxima de 200 bar con salida hasta 108 °C; al elevar la temperatura máxima de salida a 140 °C, la ficha indica presión máxima de 32 bar. Para Gamma Omega Hynox 200, la ficha lista 14,5 MPa de presión y 15 MPa de presión máxima (150 bar). El «200» de este segundo nombre no corresponde a una presión de 200 bar en la ficha consultada.
 
 **Análisis TallerLab:** el cuadro encuentra dos datos que impiden decidir por la cifra del título: la Comet sí publica 200 bar, pero es trifásica y calentadora; la Omega «200» no llega a 200 bar según su ficha. Presión, temperatura, tensión y caudal describen equipos distintos y no son sustitutos entre sí. Para una instalación residencial, comprobar alimentación eléctrica, caudal disponible y manual del código exacto antes de comparar.
 
@@ -31,7 +31,7 @@ PAGES = {
 | BXPW1300E | 1.300 W | 67 bar | 100 bar | 5 / 6,5 L/min |
 | BXPW1400E | 1.400 W | 74 bar | 110 bar | 5 / 6,5 L/min |
 
-**Dato verificado:** el manual BLACK+DECKER para la familia BXPW distingue presión de trabajo y máxima. Para 1300E informa 67/100 bar y para 1400E 74/110 bar; ambos indican caudal de trabajo de 5 L/min y máximo de 6,5 L/min. La ficha del 1400E en el sitio de BLACK+DECKER España menciona kit de accesorios y garantía de un año en esa región.
+**Dato documentado:** el manual BLACK+DECKER para la familia BXPW distingue presión de trabajo y máxima. Para 1300E informa 67/100 bar y para 1400E 74/110 bar; ambos indican caudal de trabajo de 5 L/min y máximo de 6,5 L/min. La ficha del 1400E en el sitio de BLACK+DECKER España menciona kit de accesorios y garantía de un año en esa región.
 
 **Análisis TallerLab:** entre estos dos códigos, el manual aumenta 100 W de potencia y 10 bar en cada campo de presión, mientras conserva los caudales publicados. Es una lectura de cifras de fabricante, no una medición de limpieza ni una prueba de que las versiones comercializadas en Argentina incluyan el mismo kit o garantía. Verificar sufijo, tensión/frecuencia de placa y contenido de caja de la unidad ofrecida.
 
@@ -51,7 +51,7 @@ PAGES = {
 | UniversalAquatak 130 | 1.700 W | 130 bar | 7 L/min | 8,4 kg | No indicada en la ficha de familia consultada |
 | AdvancedAquatak 150 | 2.200 W | 150 bar | 8,5 L/min | 22,1 kg | No indicada en la ficha de familia consultada |
 
-**Dato verificado:** la página oficial Bosch DIY España publica los datos de la tabla. Para EasyAquatak 120, la página de producto identifica el número de pedido 06008A7901 e incluye manguera de 5 m y boquillas variable, rotativa y de detergente de alta presión. Los valores de presión/caudal del cuadro son máximos publicados; no se rotulan como presión de trabajo.
+**Dato documentado:** la página oficial Bosch DIY España publica los datos de la tabla. Para EasyAquatak 120, la página de producto identifica el número de pedido 06008A7901 e incluye manguera de 5 m y boquillas variable, rotativa y de detergente de alta presión. Los valores de presión/caudal del cuadro son máximos publicados; no se rotulan como presión de trabajo.
 
 **Análisis TallerLab:** en esta selección la cifra máxima sube de 120 a 150 bar, pero también cambian caudal, peso y configuración. Las fichas consultadas corresponden al catálogo español: no confirman que códigos, tensión, accesorios, garantía o disponibilidad sean idénticos en Argentina. La comparación sirve para discriminar códigos y campos; no determina cuál limpia mejor una superficie.
 
@@ -72,7 +72,7 @@ PAGES = {
 | Gamma 150 Red Line, G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
 | Gamma 170 Elite, G2515AR | No localizada en página consultada | 170 bar | No localizada | 400 L/h (6,67 L/min) |
 
-**Dato verificado:** los manuales de Gamma 127, 130 y 150 usan dos campos distintos: máxima admisible y máxima de servicio. En los códigos citados, el valor de servicio es inferior al máximo admisible. Para Gamma 170, la página de producto publica 170 bar máximos admisibles y 400 L/h, pero no se halló allí el campo de servicio.
+**Dato documentado:** los manuales de Gamma 127, 130 y 150 usan dos campos distintos: máxima admisible y máxima de servicio. En los códigos citados, el valor de servicio es inferior al máximo admisible. Para Gamma 170, la página de producto publica 170 bar máximos admisibles y 400 L/h, pero no se halló allí el campo de servicio.
 
 **Análisis TallerLab:** del modelo 127 al 150, la potencia publicada aumenta 400 W y el caudal 70 L/h; la presión máxima de servicio pasa de 65 a 100 bar. En el 170, la cifra de 170 bar no alcanza para calcular el valor de servicio. Esta comparación entre documentos no demuestra superioridad ni predice el resultado sobre una tarea. El número del nombre comercial no es una escala común de presión de trabajo.
 
@@ -98,7 +98,7 @@ PAGES = {
 | TC-HP 90, art. 4140740 | 1.200 W | 90 bar | No publicada en ficha consultada | 372 L/h | 3 m / 4,3 kg |
 | TE-HP 140, art. 4140760 | 1.900 W | 140 bar | 100 bar | 420 L/h | 5 m / 10,56 kg |
 
-**Dato verificado:** las hojas de producto Einhell identifican para TC-HP 90 el artículo 4140740, 90 bar máximos, 372 L/h, manguera de 3 m y peso de 4,3 kg. La página oficial de TE-HP 140 distingue 140 bar máximos admisibles de 100 bar de trabajo, publica 420 L/h y 1.900 W, y enumera manguera de 5 m y peso de producto de 10,56 kg.
+**Dato documentado:** las hojas de producto Einhell identifican para TC-HP 90 el artículo 4140740, 90 bar máximos, 372 L/h, manguera de 3 m y peso de 4,3 kg. La página oficial de TE-HP 140 distingue 140 bar máximos admisibles de 100 bar de trabajo, publica 420 L/h y 1.900 W, y enumera manguera de 5 m y peso de producto de 10,56 kg.
 
 **Análisis TallerLab:** los códigos comparados difieren en 700 W, 50 bar de máximo admisible, 48 L/h de caudal máximo, 2 m de manguera y 6,26 kg de peso declarado. El manual/ficha consultados no dan una presión de trabajo para TC-HP 90, por eso no se enfrenta ese campo con los 100 bar de TE-HP 140. El caudal y presión máximos no representan necesariamente el mismo punto de funcionamiento.
 
@@ -117,7 +117,7 @@ PAGES = {
 | Gamma 130 Red Line, G2513AR | 1.600 W | 130 bar | 90 bar | 360 L/h (6 L/min) |
 | Gamma 150 Red Line, G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
 
-**Dato verificado:** los manuales Gamma asignan 130/90 bar (admisible/servicio) al G2513AR y 150/100 bar al G2514AR. También publican 1.600 frente a 1.800 W y 360 frente a 400 L/h. Ambos documentos permiten agua de entrada entre 5 °C y 35 °C e indican manguera de 5 m.
+**Dato documentado:** los manuales Gamma asignan 130/90 bar (admisible/servicio) al G2513AR y 150/100 bar al G2514AR. También publican 1.600 frente a 1.800 W y 360 frente a 400 L/h. Ambos documentos permiten agua de entrada entre 5 °C y 35 °C e indican manguera de 5 m.
 
 **Análisis TallerLab:** respecto del G2513AR, el G2514AR agrega 200 W, 20 bar de máximo admisible, 10 bar de presión de servicio y 40 L/h de caudal publicado. Las diferencias son cálculos sobre valores del fabricante; no significan que el equipo «150» limpie 20 bar mejor en una condición real. El dato de presión de servicio sigue siendo distinto del límite máximo admisible.
 
@@ -136,7 +136,7 @@ PAGES = {
 | Gamma 130 Red Line G2513AR | 1.600 W | 130 bar | 90 bar | 360 L/h (6 L/min) |
 | Gamma 150 Red Line G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
 
-**Dato verificado:** el manual del Gamma 150 G2514AR define 150 bar como presión máxima admisible y 100 bar como presión máxima de servicio. También informa motor de 1.800 W, caudal de 400 L/h, alimentación 220 VCA–50 Hz, agua de entrada entre 5 °C y 35 °C y manguera de 5 m. La tabla reproduce el manual de Gamma 130 para la fila comparativa.
+**Dato documentado:** el manual del Gamma 150 G2514AR define 150 bar como presión máxima admisible y 100 bar como presión máxima de servicio. También informa motor de 1.800 W, caudal de 400 L/h, alimentación 220 VCA–50 Hz, agua de entrada entre 5 °C y 35 °C y manguera de 5 m. La tabla reproduce el manual de Gamma 130 para la fila comparativa.
 
 **Análisis TallerLab:** llamar al equipo «Gamma 150» no equivale a decir que trabaje continuamente a 150 bar: el propio manual separa ese límite de los 100 bar de servicio. Frente al G2513AR, el código G2514AR declara 200 W y 40 L/h más, y 10 bar más de servicio. Son diferencias entre fichas, no evidencia de un resultado de limpieza ni del tiempo de vida.
 
@@ -157,7 +157,7 @@ PAGES = {
 | Gamma 150 Red Line G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h |
 | Gamma 170 Elite G2515AR | No localizada | 170 bar | No localizada | 400 L/h |
 
-**Dato verificado:** los manuales de los modelos 127, 130 y 150 distinguen dos presiones: máxima admisible y máxima de servicio. La página oficial del modelo 170 publica 170 bar admisibles y 400 L/h; la ficha consultada no da el valor de servicio. Las cifras corresponden a códigos y documentos específicos, no a todas las hidrolavadoras Gamma.
+**Dato documentado:** los manuales de los modelos 127, 130 y 150 distinguen dos presiones: máxima admisible y máxima de servicio. La página oficial del modelo 170 publica 170 bar admisibles y 400 L/h; la ficha consultada no da el valor de servicio. Las cifras corresponden a códigos y documentos específicos, no a todas las hidrolavadoras Gamma.
 
 **Análisis TallerLab:** al recorrer G2509AR, G2513AR y G2514AR suben los valores de potencia (1.400, 1.600 y 1.800 W), caudal (330, 360 y 400 L/h) y presión de servicio (65, 90 y 100 bar). El modelo 170 publica 400 L/h, igual que el 150, pero no aporta presión de servicio en la página revisada. No hay base aquí para deducir que el 170 entregue mayor caudal ni para comparar limpieza real.
 
@@ -178,7 +178,7 @@ PAGES = {
 | Presión de una hidrolavadora | En Gamma 150, el manual distingue 100 bar de servicio y 150 bar admisibles | La cifra nominal de la hidrolavadora no define un ajuste seguro para el serpentín |
 | Unidad interior y componentes eléctricos | La página Carrier consultada describe limpieza de serpentín exterior; no da procedimiento para la unidad interior | No extrapolar estas instrucciones al interior ni a partes eléctricas |
 
-**Dato verificado:** Carrier recomienda aplicar una solución de detergente suave y agua con un rociador de baja presión para la bobina/serpentín y remite a las indicaciones del fabricante. El manual Daikin UATYA especifica, para serpentines tradicionales con aletas Cu/Al, enjuague con agua potable a 3–5 barg y prohíbe chorros de alta presión. El manual Gamma 150 separa presión máxima admisible de presión de servicio; no presenta esa máquina como herramienta para limpiar aires acondicionados.
+**Dato documentado:** Carrier recomienda aplicar una solución de detergente suave y agua con un rociador de baja presión para la bobina/serpentín y remite a las indicaciones del fabricante. El manual Daikin UATYA especifica, para serpentines tradicionales con aletas Cu/Al, enjuague con agua potable a 3–5 barg y prohíbe chorros de alta presión. El manual Gamma 150 separa presión máxima admisible de presión de servicio; no presenta esa máquina como herramienta para limpiar aires acondicionados.
 
 **Análisis TallerLab:** una hidrolavadora puede concentrar un chorro cuya presión publicada no está expresada como un ajuste de limpieza HVAC validado. Por eso esta guía no recomienda un modelo, boquilla ni distancia universal para serpentines. La documentación encontrada apoya baja presión y consulta del manual específico; si no se conoce el procedimiento, solicitar limpieza a un técnico de climatización.
 
@@ -199,7 +199,7 @@ PAGES = {
 | HYW2000E | Reino Unido | 2.000 W | 150 bar | 7,5 L/min |
 | HYW2400E | Reino Unido | 2.400 W | 180 bar | 8 L/min |
 
-**Dato verificado:** el catálogo de Hyundai Power Products vendido por su distribuidor oficial británico lista HYW1600E, HYW2000E y HYW2400E con las cifras de la tabla. Son presiones máximas promocionadas en la ficha comercial; no se atribuyen como presión nominal/de servicio porque la página de catálogo consultada no da esa separación.
+**Dato documentado:** el catálogo de Hyundai Power Products vendido por su distribuidor oficial británico lista HYW1600E, HYW2000E y HYW2400E con las cifras de la tabla. Son presiones máximas promocionadas en la ficha comercial; no se atribuyen como presión nominal/de servicio porque la página de catálogo consultada no da esa separación.
 
 **Análisis TallerLab:** entre las tres fichas británicas, la potencia aumenta en pasos de 400 W y la presión máxima publicada en pasos de 15 bar para los dos primeros códigos y 30 bar entre HYW2000E y HYW2400E; el caudal sube 0,4 y luego 0,5 L/min. Es una comparación de catálogo regional, no una evaluación de limpieza ni prueba de compatibilidad entre países.
 
@@ -243,7 +243,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

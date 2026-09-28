@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Gamma 150 Red Line G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h |
 | Gamma 170 Elite G2515AR | No localizada | 170 bar | No localizada | 400 L/h |
 
-**Dato verificado:** los manuales de los modelos 127, 130 y 150 distinguen dos presiones: máxima admisible y máxima de servicio. La página oficial del modelo 170 publica 170 bar admisibles y 400 L/h; la ficha consultada no da el valor de servicio. Las cifras corresponden a códigos y documentos específicos, no a todas las hidrolavadoras Gamma.
+**Dato documentado:** los manuales de los modelos 127, 130 y 150 distinguen dos presiones: máxima admisible y máxima de servicio. La página oficial del modelo 170 publica 170 bar admisibles y 400 L/h; la ficha consultada no da el valor de servicio. Las cifras corresponden a códigos y documentos específicos, no a todas las hidrolavadoras Gamma.
 
 **Análisis TallerLab:** al recorrer G2509AR, G2513AR y G2514AR suben los valores de potencia (1.400, 1.600 y 1.800 W), caudal (330, 360 y 400 L/h) y presión de servicio (65, 90 y 100 bar). El modelo 170 publica 400 L/h, igual que el 150, pero no aporta presión de servicio en la página revisada. No hay base aquí para deducir que el 170 entregue mayor caudal ni para comparar limpieza real.
 

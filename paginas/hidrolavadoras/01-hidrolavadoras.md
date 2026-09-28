@@ -2,7 +2,7 @@
 title: "Hidrolavadoras: cuál comprar según uso y presupuesto"
 h1: "Cómo elegir una hidrolavadora para tu casa o trabajo"
 url: "/hidrolavadoras/comparativa-general/"
-description: "Comparativa derivada de cuatro manuales Gamma: separa presión máxima admisible y presión de servicio, y cuantifica los cambios de potencia/caudal entre códigos 127, 130, 150 y 170."
+description: "Compará cuatro fichas Gamma con las eléctricas Lüsqtoff HL100-7 y Logus HL-105. Separá presión nominal y máxima; evaluá Logus a nafta por su alimentación."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora", "comprar hidrolavadora", "mejor hidrolavadora argentina", "hidrolavadora precio calidad", "presion y caudal hidrolavadora"]
@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Comparativa derivada de cuatro manuales Gamma: separa presión máxima admisible y presión de servicio, y cuantifica los cambios de potencia/caudal entre códigos 127, 130, 150 y 170."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -30,7 +30,7 @@ published: true
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Última revisión: 28/09/2026
 
 | Modelo y código | Potencia | Máxima admisible publicada | Máxima de servicio publicada | Caudal |
 | :--- | ---: | ---: | ---: | ---: |
@@ -39,7 +39,7 @@ published: true
 | Gamma 150 Red Line, G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
 | Gamma 170 Elite, G2515AR | No localizada en página consultada | 170 bar | No localizada | 400 L/h (6,67 L/min) |
 
-**Dato verificado:** los manuales de Gamma 127, 130 y 150 usan dos campos distintos: máxima admisible y máxima de servicio. En los códigos citados, el valor de servicio es inferior al máximo admisible. Para Gamma 170, la página de producto publica 170 bar máximos admisibles y 400 L/h, pero no se halló allí el campo de servicio.
+**Dato documentado:** los manuales de Gamma 127, 130 y 150 usan dos campos distintos: máxima admisible y máxima de servicio. En los códigos citados, el valor de servicio es inferior al máximo admisible. Para Gamma 170, la página de producto publica 170 bar máximos admisibles y 400 L/h, pero no se halló allí el campo de servicio.
 
 **Análisis TallerLab:** del modelo 127 al 150, la potencia publicada aumenta 400 W y el caudal 70 L/h; la presión máxima de servicio pasa de 65 a 100 bar. En el 170, la cifra de 170 bar no alcanza para calcular el valor de servicio. Esta comparación entre documentos no demuestra superioridad ni predice el resultado sobre una tarea. El número del nombre comercial no es una escala común de presión de trabajo.
 
@@ -51,6 +51,25 @@ published: true
 | Accesorios | Boquilla y longitud de manguera incluidas para ese código |
 
 **Desconocido:** no se compararon precios vigentes, repuestos, niveles sonoros ni pruebas de limpieza bajo una superficie y método iguales.
+
+## Opciones eléctricas con enlace de compra
+
+La comparación Gamma sirve para leer las fichas. Si querés consultar una oferta concreta, estas dos referencias eléctricas tienen enlaces de afiliado y documentación identificada:
+
+| Modelo | Potencia / alimentación | Presión nominal / máxima | Caudal en la fuente | Qué falta confirmar | Consulta comercial |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Lüsqtoff HL100-7 | 1.200 W; 220 V–50 Hz | 70 / 100 bar | 5,5 L/min; la ficha no precisa condición | Kit, vendedor y manual de la unidad | [Consultar HL100-7](https://meli.la/1cZXqxL) |
+| Logus HL-105 | 1.200 W; tensión de la unidad por confirmar | Nominal no localizada / 105 bar máximos | No localizado en la ficha consultada | Presión de servicio, caudal y accesorios | [Consultar HL-105](https://meli.la/2Rcddpg) |
+
+**Dato documentado:** [Lüsqtoff HL100-7](https://www.lusqtoff.com.ar/ver-producto/HL100-7) separa presión nominal y máxima. [Logus HL-105](https://logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/) publica el máximo; no completamos sus campos ausentes con los de Gamma o Lüsqtoff.
+
+**Análisis TallerLab:** HL100-7 permite contrastar su nominal de 70 bar con los campos nominales/de servicio de las fichas Gamma, conservando las condiciones de cada fuente. Los 105 bar máximos de HL-105 no prueban mayor capacidad de limpieza ni permiten compararla por presión de servicio.
+
+### Si necesitás una opción a nafta
+
+La [Logus GHL150 con referido](https://meli.la/1KQjHgT) cambia la alimentación: su [ficha Logus](https://logus.com.ar/productos/hidrolavadora-a-explosion-6-5hp-industrial-154-bar-ghl-150/) identifica motor de 6,5 hp y 154 bar, sin un punto de presión de servicio/caudal comparable localizado. Consultá la [guía de 150 bar](/hidrolavadoras/150-bar/) para revisar sus límites. La potencia del motor no equivale a potencia eléctrica y esa cifra de presión no la convierte en sustituta de las eléctricas de esta tabla.
+
+Los enlaces son de afiliado. La identidad de la unidad, precio, stock y condiciones del vendedor se comprueban en la publicación.
 
 ## Fuentes consultadas
 

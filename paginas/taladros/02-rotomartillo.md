@@ -27,7 +27,7 @@ published: true
 | Bosch GBH 2-26 DRE | Cable, 800 W | 2,7 J | 26 mm | 2,9 kg | SDS plus |
 | Einhell TE-RH 28 5F | Cable, 950 W | 3,0 J | 28 mm | 3,81 kg | SDS plus |
 
-**Dato verificado:** las cifras corresponden a las fichas enlazadas y a esos modelos exactos. La ficha de Einhell indica además cinco modos de funcionamiento. Las capacidades máximas son límites publicados por cada fabricante, no una recomendación para mantener ese diámetro durante jornadas continuas.
+**Dato documentado:** las cifras corresponden a las fichas enlazadas y a esos modelos exactos. La ficha de Einhell indica además cinco modos de funcionamiento. Las capacidades máximas son límites publicados por cada fabricante, no una recomendación para mantener ese diámetro durante jornadas continuas.
 
 **Análisis TallerLab:** en esta selección, pasar del GBH 220 al GBH 2-26 DRE suma 0,7 J y 4 mm de capacidad máxima declarada; el TE-RH 28 5F declara 0,3 J y 2 mm más que el GBH 2-26 DRE, y pesa 0,91 kg más. Son diferencias aritméticas entre fichas, no resultados de una prueba común. No se debe ordenar marcas por joules sin confirmar que las magnitudes se midieron bajo el mismo protocolo.
 

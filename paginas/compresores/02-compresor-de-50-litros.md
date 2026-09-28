@@ -112,7 +112,7 @@ Si ya compraste el compresor sin accesorios, el [kit Lusqtoff de 5 piezas](https
 
 ## Alcance de la evidencia
 
-**Dato verificado:** las cifras de la tabla comparativa proceden de las fichas de los modelos enlazados. **Declaración del fabricante:** potencia, caudal y presión son valores publicados por cada marca; TallerLab no los midió. **Análisis TallerLab:** la matriz distingue caudal aspirado de salida a presión y señala la discrepancia de potencia de Gamma. **Desconocido:** no disponemos de una medición propia ni de caudales de salida comparables para los tres equipos. No resumimos opiniones de compradores en esta guía.
+**Dato documentado:** las cifras de la tabla comparativa proceden de las fichas de los modelos enlazados. **Declaración del fabricante:** potencia, caudal y presión son valores publicados por cada marca; TallerLab no los midió. **Análisis TallerLab:** la matriz distingue caudal aspirado de salida a presión y señala la discrepancia de potencia de Gamma. **Desconocido:** no disponemos de una medición propia ni de caudales de salida comparables para los tres equipos. No resumimos opiniones de compradores en esta guía.
 
 ## Fuentes consultadas
 

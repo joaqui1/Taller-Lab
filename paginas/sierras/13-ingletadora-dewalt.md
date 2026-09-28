@@ -19,7 +19,7 @@ published: true
 
 # Qué ingletadora DeWalt elegir
 
-**Dato verificado:** comparamos las capacidades y características que DeWalt publica para DWS713 y DWS780 en su catálogo estadounidense. No asumimos disponibilidad ni compatibilidad eléctrica local.
+**Dato documentado:** comparamos las capacidades y características que DeWalt publica para DWS713 y DWS780 en su catálogo estadounidense. No asumimos disponibilidad ni compatibilidad eléctrica local.
 
 ## DWS713 y DWS780: cabezal fijo o deslizante
 

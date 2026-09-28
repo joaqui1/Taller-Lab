@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las fichas de Pro’sKit y Velleman documentan kits de cautín con herramientas básicas para soldar y desoldar; Weller publica un kit regional de 60 W y 120 V. Son productos con distinta tensión y contenido, no tres variantes de un mismo modelo.
+**Dato documentado:** las fichas de Pro’sKit y Velleman documentan kits de cautín con herramientas básicas para soldar y desoldar; Weller publica un kit regional de 60 W y 120 V. Son productos con distinta tensión y contenido, no tres variantes de un mismo modelo.
 
 | Kit / mercado indicado | Cautín | Elementos incluidos según fabricante | Alimentación declarada | Límite de comparación |
 | :--- | :--- | :--- | :--- | :--- |

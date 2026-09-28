@@ -19,7 +19,7 @@ published: true
 
 # Qué atornillador de impacto DeWalt elegir
 
-**Dato verificado:** las cifras de la tabla proceden de manuales DeWalt para DCF809 y DCF887. Los valores de torque son máximos publicados por el fabricante, no valores de apriete que TallerLab haya medido en un tornillo.
+**Dato documentado:** las cifras de la tabla proceden de manuales DeWalt para DCF809 y DCF887. Los valores de torque son máximos publicados por el fabricante, no valores de apriete que TallerLab haya medido en un tornillo.
 
 ## DCF809 y DCF887: torque máximo y control no son lo mismo
 

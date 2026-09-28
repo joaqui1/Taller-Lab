@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Lüsqtoff LC-40100 | Aceite normal 40W, según manual | Cambio después de 50 h de uso |
 | Lüsqtoff LC-30100 | El manual consultado indica llenar hasta el punto rojo del visor, pero no fija un grado en el fragmento de mantenimiento revisado | Uso ocasional: cada 6 meses; uso diario: cada 1.000 h, según el manual |
 
-**Dato verificado:** estas son instrucciones de los manuales de los modelos citados, no equivalencias creadas por TallerLab. Gamma establece grados distintos según temperatura; Lüsqtoff también presenta pautas que dependen del modelo. Un SAE no se debe convertir automáticamente a ISO VG con una tabla genérica para decidir qué poner en un equipo.
+**Dato documentado:** estas son instrucciones de los manuales de los modelos citados, no equivalencias creadas por TallerLab. Gamma establece grados distintos según temperatura; Lüsqtoff también presenta pautas que dependen del modelo. Un SAE no se debe convertir automáticamente a ISO VG con una tabla genérica para decidir qué poner en un equipo.
 
 **Análisis TallerLab:** la diferencia entre manuales basta para descartar «ISO VG 100» o «SAE 30» como respuesta universal. Para comprar, prevalece el manual del código y revisión exactos. Si la etiqueta, el manual disponible y el aceite recomendado por el servicio técnico difieren, registrá el código de serie y pedí confirmación al fabricante antes de rellenar.
 

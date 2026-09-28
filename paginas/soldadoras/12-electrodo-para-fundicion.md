@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | OK Ni-CI, AWS A5.15 ENi-CI | Base níquel; análisis típico 94 % Ni en ficha | Reparación/unión de fundiciones grises, dúctiles y maleables; también hierro fundido con acero | 2,5 mm: 55–110 A; 3,2 mm: 80–140 A |
 | OK NiFe-CI, AWS A5.15 ENiFe-CI | Níquel-hierro; análisis típico 53 % Ni y 44 % Fe en ficha | Producto ESAB para fundición; confirmar el caso exacto en hoja técnica | 2,5 mm: 60–100 A; 3,2 mm: 80–150 A |
 
-**Dato verificado:** ESAB clasifica OK Ni-CI como ENi-CI y OK NiFe-CI como ENiFe-CI. Sus páginas informan composiciones típicas y rangos de corriente específicos para cada diámetro. ESAB describe OK Ni-CI para ciertos grados normales de fundición y uniones con acero; esas indicaciones corresponden a ese producto.
+**Dato documentado:** ESAB clasifica OK Ni-CI como ENi-CI y OK NiFe-CI como ENiFe-CI. Sus páginas informan composiciones típicas y rangos de corriente específicos para cada diámetro. ESAB describe OK Ni-CI para ciertos grados normales de fundición y uniones con acero; esas indicaciones corresponden a ese producto.
 
 **Análisis TallerLab:** la tabla permite comprobar clasificación y contenido nominal de aleación antes de comprar. No convierte «níquel puro» o «ferroníquel» en una selección suficiente: la fundición, contaminación, geometría, restricción y servicio de la pieza pueden cambiar el método requerido. Una reparación de componente presurizado, de seguridad o con carga exige procedimiento y personal calificado.
 

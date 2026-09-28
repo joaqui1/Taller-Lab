@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro Milwaukee comprar según el uso
 
-**Dato verificado:** comparamos los códigos Milwaukee 3404-20 (M12) y 2904-20 (M18). Las fichas estadounidenses no confirman disponibilidad, tensión de cargador ni garantía de la unidad vendida en Argentina.
+**Dato documentado:** comparamos los códigos Milwaukee 3404-20 (M12) y 2904-20 (M18). Las fichas estadounidenses no confirman disponibilidad, tensión de cargador ni garantía de la unidad vendida en Argentina.
 
 ## M12 3404 y M18 2904: comparar plataforma y función
 

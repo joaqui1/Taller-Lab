@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | BTA AP8, código 279004.1 | Aerógrafo, manguera, soporte y accesorios; sugiere compresor de 2 HP | No incluye | Presión máxima 10 bar; consumo de aire no indicado | Caudal requerido por el aerógrafo y contenido final del paquete |
 | Fengda AS-186 / FD-186 | Compresor para aerografía, sin aceite, un pistón | 3 L | Aire libre sin carga 20–23 L/min; arranque 3 bar y corte 4 bar | Compatibilidad concreta con AP8 no declarada por los fabricantes |
 
-**Dato verificado:** la lista de BTA para el AP8 incluye componentes de aerografía, pero no el compresor; «sugerido 2 HP» es la recomendación publicada, no una medición del consumo. Fengda publica para el AS-186 un tanque de 3 L, 20–23 L/min sin carga y control automático entre 3 y 4 bar.
+**Dato documentado:** la lista de BTA para el AP8 incluye componentes de aerografía, pero no el compresor; «sugerido 2 HP» es la recomendación publicada, no una medición del consumo. Fengda publica para el AS-186 un tanque de 3 L, 20–23 L/min sin carga y control automático entre 3 y 4 bar.
 
 **Análisis TallerLab:** las cifras no permiten declarar compatible al Fengda con el AP8: uno de los datos esenciales, el consumo de aire del aerógrafo, no está publicado en la ficha BTA consultada. Además, los 20–23 L/min de Fengda están identificados como flujo sin carga y no se comparan directamente con caudal requerido bajo pulverización. Antes de comprar un conjunto, pedí consumo a la presión de trabajo y compatibilidad de roscas/adaptadores para los códigos exactos.
 

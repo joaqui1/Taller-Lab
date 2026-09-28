@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Gamma G2802AR, manual | 50 L | 2,5 HP | Manual compartido para las variantes 25 L (2,2 HP) y 50 L (2,5 HP) |
 | Gamma G2802KAR, versión en kit | 50 L | 2,5 HP | La página presenta accesorios incluidos; confirmar su lista en la oferta concreta |
 
-**Dato verificado:** la página Gamma del G2802AR presenta ambas cifras de potencia: “2.5 HP” en su título y “2 HP” en la tabla. El manual del fabricante identifica 2,5 HP para la variante de 50 L. Esa diferencia queda visible; no se promedian ni se oculta. El G2802KAR es la presentación en kit identificada en otra página Gamma.
+**Dato documentado:** la página Gamma del G2802AR presenta ambas cifras de potencia: “2.5 HP” en su título y “2 HP” en la tabla. El manual del fabricante identifica 2,5 HP para la variante de 50 L. Esa diferencia queda visible; no se promedian ni se oculta. El G2802KAR es la presentación en kit identificada en otra página Gamma.
 
 **Análisis TallerLab:** para describir la variante de 50 L, el manual respalda 2,5 HP, mientras la tabla online conserva un valor contradictorio de 2 HP. La ficha disponible registra 27 kg, 220 V–50 Hz y 2.850 rpm. Antes de aplicar estas especificaciones a una unidad, cotejá placa y código completos; el sufijo KAR afecta la presentación del paquete.
 

@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Generac Guardian residencial, 8 kVA | Configuración para LP y gas natural | 8.000 VA máximo continuo en LP; 7.000 VA en gas natural | Ficha técnica de una familia diseñada para ambos combustibles |
 | Kit Lüsqtoff K1 | Conversión a gas envasado para motores compatibles | La ficha indica aplicación en motores de 5,5; 6,5 y 7 HP | Es un accesorio de conversión y no una autorización universal |
 
-**Dato verificado:** para el Guardian 8 kVA, la ficha Generac publica distinta potencia continua máxima según combustible: 8 kVA con LP y 7 kVA con gas natural. También especifica consumos y presiones de entrada por gas y carga. Lüsqtoff describe el kit K1 para ciertas potencias de motor; esos motores y el generador Guardian son categorías distintas y no se deben mezclar como si compartieran kit.
+**Dato documentado:** para el Guardian 8 kVA, la ficha Generac publica distinta potencia continua máxima según combustible: 8 kVA con LP y 7 kVA con gas natural. También especifica consumos y presiones de entrada por gas y carga. Lüsqtoff describe el kit K1 para ciertas potencias de motor; esos motores y el generador Guardian son categorías distintas y no se deben mezclar como si compartieran kit.
 
 **Análisis TallerLab:** “generador a gas” puede referirse a un equipo configurado de fábrica para gas o a un motor adaptado con un kit concreto. La ficha Guardian compara dos combustibles en una familia determinada; el K1 se limita a los motores que Lüsqtoff enumera. No deducimos que un generador cualquiera acepte gas ni extrapolamos la potencia nominal de nafta a gas.
 

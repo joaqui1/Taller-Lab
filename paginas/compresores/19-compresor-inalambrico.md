@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Einhell PRESSITO 18/21 | 10,5 bar | Aspiración 21 L/min; entrega 14 / 9 / 6 L/min a 0 / 4 / 7 bar | 0 L | 2,06 kg |
 | Makita DMP180Z | 8,3 bar | 12 / 8 / 7 L/min a 200 / 700 / 830 kPa | 0 L | 1,7 kg |
 
-**Dato verificado:** Einhell identifica ambos PRESSITO como equipos Power X-Change de 18 V sin batería ni cargador incluidos en las configuraciones citadas; sus fichas publican tanque de 0 L. Makita DMP180Z es también un inflador portátil de batería con valores de caudal publicados por presión. No se confunden con compresores con calderín.
+**Dato documentado:** Einhell identifica ambos PRESSITO como equipos Power X-Change de 18 V sin batería ni cargador incluidos en las configuraciones citadas; sus fichas publican tanque de 0 L. Makita DMP180Z es también un inflador portátil de batería con valores de caudal publicados por presión. No se confunden con compresores con calderín.
 
 **Análisis TallerLab:** los caudales bajan al aumentar la presión en cada ficha, por lo que la cifra de aspiración no describe el caudal a presión alta. PRESSITO 18/25 declara 3 L/min más que 18/21 a 7 bar (50 % respecto de 6 L/min), pero no se usa esa diferencia para afirmar un tiempo real de inflado: condiciones, batería y medición no son un ensayo común. Tanque cero significa que estas fichas no respaldan su uso como depósito para alimentar de forma continua herramientas neumáticas.
 

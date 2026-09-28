@@ -13,7 +13,7 @@ PAGES = {
 | Lüsqtoff LC-40100 | Aceite normal 40W, según manual | Cambio después de 50 h de uso |
 | Lüsqtoff LC-30100 | El manual consultado indica llenar hasta el punto rojo del visor, pero no fija un grado en el fragmento de mantenimiento revisado | Uso ocasional: cada 6 meses; uso diario: cada 1.000 h, según el manual |
 
-**Dato verificado:** estas son instrucciones de los manuales de los modelos citados, no equivalencias creadas por TallerLab. Gamma establece grados distintos según temperatura; Lüsqtoff también presenta pautas que dependen del modelo. Un SAE no se debe convertir automáticamente a ISO VG con una tabla genérica para decidir qué poner en un equipo.
+**Dato documentado:** estas son instrucciones de los manuales de los modelos citados, no equivalencias creadas por TallerLab. Gamma establece grados distintos según temperatura; Lüsqtoff también presenta pautas que dependen del modelo. Un SAE no se debe convertir automáticamente a ISO VG con una tabla genérica para decidir qué poner en un equipo.
 
 **Análisis TallerLab:** la diferencia entre manuales basta para descartar «ISO VG 100» o «SAE 30» como respuesta universal. Para comprar, prevalece el manual del código y revisión exactos. Si la etiqueta, el manual disponible y el aceite recomendado por el servicio técnico difieren, registrá el código de serie y pedí confirmación al fabricante antes de rellenar.
 
@@ -43,7 +43,7 @@ PAGES = {
 | Rosca de montaje | Debe cotejarse en la ficha de cada pieza (por ejemplo, BSPP, BSPT o NPT) | No inferir NPT/BSP por el diámetro exterior aproximado |
 | Válvula y desconexión | CEJN eSafe Series 300 describe un acople con descarga de presión antes de separar | No todas las hembras tienen función de descarga de seguridad |
 
-**Dato verificado:** Parker y CEJN documentan varios perfiles de acople neumático. La ficha BTA del código 279106 identifica un conector hembra tipo italiano Ø 1/4″, lo que ofrece una referencia de producto local concreta; no certifica compatibilidad con cualquier macho comercializado como “universal”.
+**Dato documentado:** Parker y CEJN documentan varios perfiles de acople neumático. La ficha BTA del código 279106 identifica un conector hembra tipo italiano Ø 1/4″, lo que ofrece una referencia de producto local concreta; no certifica compatibilidad con cualquier macho comercializado como “universal”.
 
 **Análisis TallerLab:** para comprobar una pareja hacen falta al menos dos identificadores independientes: perfil de acople y tipo/medida de rosca. Una rosca compatible no hace coincidir perfiles distintos, y un perfil compatible no resuelve una rosca incorrecta. La tabla de intercambio del fabricante del acople es la referencia; una prueba de ajuste sin presión no demuestra estanqueidad bajo servicio.
 
@@ -72,7 +72,7 @@ PAGES = {
 | Compresor 25 L | 272057.1 / D-CA1-25-6 | 1,5 kW (2 HP) | 25 L | 8 bar | Admisión: 206 L/min |
 | Compresor portátil sin aceite 24 L | 272005 | 1,5 kW (2 HP) | 24 L | 8 bar | Admisión: 170 L/min en ficha consultada |
 
-**Dato verificado:** la ficha BTA del 25 L especifica 220 V~50 Hz, 2.850 rpm, admisión de 206 L/min y tanque de 25 L. BTA presenta el 24 L como una variante portátil sin aceite; sus cifras describen esa ficha y no se transfieren al equipo de 25 L.
+**Dato documentado:** la ficha BTA del 25 L especifica 220 V~50 Hz, 2.850 rpm, admisión de 206 L/min y tanque de 25 L. BTA presenta el 24 L como una variante portátil sin aceite; sus cifras describen esa ficha y no se transfieren al equipo de 25 L.
 
 **Análisis TallerLab:** el modelo de 25 L declara 36 L/min más de admisión que el 24 L (21,2 % respecto de 170 L/min), pero no se publica una condición común de medición ni un caudal efectivo de salida a presión de trabajo. La resta sirve para comparar lo impreso en las fichas; no permite asegurar tiempos de inflado o aptitud para una herramienta neumática continua.
 
@@ -101,7 +101,7 @@ PAGES = {
 | Filtro de admisión del compresor | Entrada de aire de la bomba | El manual Gamma G2802AR ordena revisar y mantener limpio el filtro de admisión | No es el conjunto de tratamiento de línea |
 | Filtro-regulador-lubricador BTA AA-2040I, código 802834.1 | Línea neumática aguas abajo del tanque | Conexión 1/2″; elemento filtrante de 5–40 µm; drenaje automático/manual; presión máxima 145 psi | La ficha muestra 50 NI/min como “pulverizado (caudal)” y 4.000 NI/min como caudal mínimo de goteo |
 
-**Dato verificado:** el AA-2040I no es un repuesto de admisión: BTA lo describe como conjunto de filtro, regulador y lubricador para la línea de aire. Su propia ficha publica dos valores de caudal con rótulos distintos (50 y 4.000 NI/min), así que los transcribimos sin interpretarlos como una única capacidad de servicio.
+**Dato documentado:** el AA-2040I no es un repuesto de admisión: BTA lo describe como conjunto de filtro, regulador y lubricador para la línea de aire. Su propia ficha publica dos valores de caudal con rótulos distintos (50 y 4.000 NI/min), así que los transcribimos sin interpretarlos como una única capacidad de servicio.
 
 **Análisis TallerLab:** la selección empieza por la ubicación y función del componente. El filtro de admisión protege la entrada indicada por el fabricante del compresor; el conjunto de línea trata el aire y regula la presión después del tanque. Una rosca de 1/2″, una filtración en micrones y un caudal son campos diferentes y ninguno sustituye a los otros.
 
@@ -131,7 +131,7 @@ PAGES = {
 | Gamma G2802AR, manual | 50 L | 2,5 HP | Manual compartido para las variantes 25 L (2,2 HP) y 50 L (2,5 HP) |
 | Gamma G2802KAR, versión en kit | 50 L | 2,5 HP | La página presenta accesorios incluidos; confirmar su lista en la oferta concreta |
 
-**Dato verificado:** la página Gamma del G2802AR presenta ambas cifras de potencia: “2.5 HP” en su título y “2 HP” en la tabla. El manual del fabricante identifica 2,5 HP para la variante de 50 L. Esa diferencia queda visible; no se promedian ni se oculta. El G2802KAR es la presentación en kit identificada en otra página Gamma.
+**Dato documentado:** la página Gamma del G2802AR presenta ambas cifras de potencia: “2.5 HP” en su título y “2 HP” en la tabla. El manual del fabricante identifica 2,5 HP para la variante de 50 L. Esa diferencia queda visible; no se promedian ni se oculta. El G2802KAR es la presentación en kit identificada en otra página Gamma.
 
 **Análisis TallerLab:** para describir la variante de 50 L, el manual respalda 2,5 HP, mientras la tabla online conserva un valor contradictorio de 2 HP. La ficha disponible registra 27 kg, 220 V–50 Hz y 2.850 rpm. Antes de aplicar estas especificaciones a una unidad, cotejá placa y código completos; el sufijo KAR afecta la presentación del paquete.
 
@@ -160,7 +160,7 @@ PAGES = {
 | Einhell PRESSITO 18/21 | 10,5 bar | Aspiración 21 L/min; entrega 14 / 9 / 6 L/min a 0 / 4 / 7 bar | 0 L | 2,06 kg |
 | Makita DMP180Z | 8,3 bar | 12 / 8 / 7 L/min a 200 / 700 / 830 kPa | 0 L | 1,7 kg |
 
-**Dato verificado:** Einhell identifica ambos PRESSITO como equipos Power X-Change de 18 V sin batería ni cargador incluidos en las configuraciones citadas; sus fichas publican tanque de 0 L. Makita DMP180Z es también un inflador portátil de batería con valores de caudal publicados por presión. No se confunden con compresores con calderín.
+**Dato documentado:** Einhell identifica ambos PRESSITO como equipos Power X-Change de 18 V sin batería ni cargador incluidos en las configuraciones citadas; sus fichas publican tanque de 0 L. Makita DMP180Z es también un inflador portátil de batería con valores de caudal publicados por presión. No se confunden con compresores con calderín.
 
 **Análisis TallerLab:** los caudales bajan al aumentar la presión en cada ficha, por lo que la cifra de aspiración no describe el caudal a presión alta. PRESSITO 18/25 declara 3 L/min más que 18/21 a 7 bar (50 % respecto de 6 L/min), pero no se usa esa diferencia para afirmar un tiempo real de inflado: condiciones, batería y medición no son un ensayo común. Tanque cero significa que estas fichas no respaldan su uso como depósito para alimentar de forma continua herramientas neumáticas.
 
@@ -188,7 +188,7 @@ PAGES = {
 | Gadnic AV000009 | 12 V, conexión a batería | 150 PSI | 85 L/min en página; condición de presión no detallada junto al valor | 2,54 kg |
 | Makita DMP180Z | Batería 18 V | 8,3 bar | 12 L/min a 200 kPa; 8 a 700 kPa; 7 a 830 kPa | 1,7 kg |
 
-**Dato verificado:** Gadnic lista también 23 A máximos, doble cilindro y ciclo recomendado de 30 minutos, con un máximo de 40 minutos en su página. Makita publica caudales por presión y recomienda cotejar la configuración comercial, porque el sufijo Z corresponde al cuerpo de herramienta sin batería/cargador en la nomenclatura de esa ficha.
+**Dato documentado:** Gadnic lista también 23 A máximos, doble cilindro y ciclo recomendado de 30 minutos, con un máximo de 40 minutos en su página. Makita publica caudales por presión y recomienda cotejar la configuración comercial, porque el sufijo Z corresponde al cuerpo de herramienta sin batería/cargador en la nomenclatura de esa ficha.
 
 **Análisis TallerLab:** no es válida una clasificación simple entre 85 L/min de Gadnic y 7 L/min de Makita: la ficha Gadnic no presenta la condición de presión junto a su caudal, mientras Makita separa valores por presión. La tabla muestra qué dato falta para una comparación de tiempo de inflado: mismo volumen inicial/final, misma presión objetivo, fuente de energía y método de medición.
 
@@ -218,7 +218,7 @@ PAGES = {
 | 279010 | Gravedad | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 600 cc con pico 1,5 mm, inflador con manómetro, soplete, pistola de lavado, manguera espiral de 5 m |
 | 279013 | Succión | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 750 cc con alimentación por succión y los accesorios de aire listados en el kit |
 
-**Dato verificado:** BTA distingue sus kits multiuso por el mecanismo de alimentación de la pistola: gravedad para el código 279010 y succión para el 279013. El catálogo identifica accesorios compartidos y sugiere 2 HP/90 PSI; son valores publicados por BTA, no una medición de TallerLab.
+**Dato documentado:** BTA distingue sus kits multiuso por el mecanismo de alimentación de la pistola: gravedad para el código 279010 y succión para el 279013. El catálogo identifica accesorios compartidos y sugiere 2 HP/90 PSI; son valores publicados por BTA, no una medición de TallerLab.
 
 **Análisis TallerLab:** elegir “kit para compresor” requiere revisar la herramienta concreta incluida, no solo contar piezas. Los depósitos de 600 y 750 cc pertenecen a pistolas con sistemas de alimentación diferentes; no implican que una tenga mayor caudal de aire ni que ambas sean intercambiables. La sugerencia de potencia/presión del catálogo tampoco demuestra que cualquier compresor de 2 HP mantenga el caudal que una pistola necesita.
 
@@ -247,7 +247,7 @@ PAGES = {
 | BTA AP8, código 279004.1 | Aerógrafo, manguera, soporte, frasco de preparación, conector a línea y vaso pequeño; presión máxima publicada 10 bar; compresor sugerido 2 HP | La lista no incluye compresor ni especifica caudal de aire |
 | Badger 180-15 | Compresor para aerografía sin aceite; 1/6 HP, 20–23 L/min, rango 0–4 bar; manguera/conexiones según manual | No es el BTA AP8 y no se presenta como un paquete combinado con ese aerógrafo |
 
-**Dato verificado:** la ficha BTA del AP8 enumera los componentes del kit y sugiere un compresor de 2 HP; el compresor no aparece en el contenido incluido. El manual Badger describe un compresor distinto, con sus propios límites de caudal y presión. No se ha confirmado una pareja de estos dos productos.
+**Dato documentado:** la ficha BTA del AP8 enumera los componentes del kit y sugiere un compresor de 2 HP; el compresor no aparece en el contenido incluido. El manual Badger describe un compresor distinto, con sus propios límites de caudal y presión. No se ha confirmado una pareja de estos dos productos.
 
 **Análisis TallerLab:** antes de comparar precios de “aerógrafo con compresor”, separá el aerógrafo, la manguera y el suministro de aire. La potencia sugerida por BTA no basta para confirmar compatibilidad con un compresor sin conocer presión y consumo requeridos por el aerógrafo en uso. Una ficha de otro fabricante tampoco cubre el dato ausente del AP8.
 
@@ -276,7 +276,7 @@ PAGES = {
 | LC-40100 / LC40100-8 | Mando directo, dos cilindros | 4 HP; tanque 100 L | 360 L/min en manual y catálogo 2020/21 | Manual: 58 kg; la revisión actual de catálogo no confirma si sigue idéntico |
 | LCS100-8 | Sin aceite, 100 L | La gama actual lista el código, pero no se verificó una ficha técnica primaria completa | Desconocido | No asignamos valores de modelos discontinuados |
 
-**Dato verificado:** el manual LC-30100 publica 3 HP, 2.200 W, 100 L, 115 PSI y 335 L/min. El mismo manual declara 115 kg, mientras catálogos previos de Lüsqtoff muestran 78–85 kg. Para LC-40100, el manual consultado informa 4 HP, 100 L, 360 L/min y 58 kg; su catálogo 2020/21 registra 56,8 kg. El catálogo actual de la marca lista LC30100-8, LC40100-8 y LCS100-8 como referencias de gama.
+**Dato documentado:** el manual LC-30100 publica 3 HP, 2.200 W, 100 L, 115 PSI y 335 L/min. El mismo manual declara 115 kg, mientras catálogos previos de Lüsqtoff muestran 78–85 kg. Para LC-40100, el manual consultado informa 4 HP, 100 L, 360 L/min y 58 kg; su catálogo 2020/21 registra 56,8 kg. El catálogo actual de la marca lista LC30100-8, LC40100-8 y LCS100-8 como referencias de gama.
 
 **Análisis TallerLab:** las diferencias de peso del LC-30100 (30–37 kg entre documentos) son demasiado grandes para colapsarlas en una cifra única; podrían reflejar documento/modelo distinto, y la evidencia consultada no lo resuelve. Los caudales de LC-30100 y LC-40100 son cifras nominales documentadas en generaciones distintas; no calculamos una ventaja de entrega efectiva ni presumimos que todas las revisiones actuales coincidan.
 
@@ -331,7 +331,7 @@ for relpath, (asset, body, _hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

@@ -31,7 +31,7 @@ published: true
 | Husillo | No transcrito en la fuente consultada | 5/8 in–11 |
 | Tensión de variante | 120 V, página de Estados Unidos | Mercado Estados Unidos; consultar placa |
 
-**Dato verificado:** las fuentes DeWalt identifican ambos productos como amoladoras con cable de 115 mm. La ficha DWE402 especifica 120 V y 11 A; DWE4120 declara 9 A, 12.000 rpm y rosca 5/8 in–11. Las páginas son estadounidenses y no confirman disponibilidad o especificaciones regionales de Argentina.
+**Dato documentado:** las fuentes DeWalt identifican ambos productos como amoladoras con cable de 115 mm. La ficha DWE402 especifica 120 V y 11 A; DWE4120 declara 9 A, 12.000 rpm y rosca 5/8 in–11. Las páginas son estadounidenses y no confirman disponibilidad o especificaciones regionales de Argentina.
 
 **Análisis TallerLab:** ambas herramientas admiten el diámetro nominal de 115 mm; la DWE4120 publica 1.000 rpm más en vacío, mientras la DWE402 publica 2 A más. Los amperes y rpm no permiten deducir por sí solos velocidad de remoción, torque o rendimiento bajo carga. Tampoco usamos esas cifras para elegir una herramienta con tensión distinta.
 

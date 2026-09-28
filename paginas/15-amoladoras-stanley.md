@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Código exacto | Fuente y mercado | Potencia publicada | Diámetro | Velocidad | Peso |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | STGS7115 | Página Stanley Perú | 710 W | 115 mm | No indicada en la página consultada | No indicada |
 | SG7115 | Manual Stanley, variantes listadas | 750 W | 115 mm | 12.000 rpm | 1,7 kg |
 
-**Dato verificado:** Stanley publica STGS7115 como amoladora de 710 W y 115 mm. El manual de SG7115, que lista tensiones y frecuencias para varias regiones, informa 750 W, 12.000 rpm, eje M14 y 1,7 kg para esa familia.
+**Dato documentado:** Stanley publica STGS7115 como amoladora de 710 W y 115 mm. El manual de SG7115, que lista tensiones y frecuencias para varias regiones, informa 750 W, 12.000 rpm, eje M14 y 1,7 kg para esa familia.
 
 **Análisis TallerLab:** la diferencia aparente es de 40 W, pero los códigos no son idénticos y las fuentes describen variantes/regiones distintas. Por eso no se presenta como una evolución lineal ni como comparación de dos equipos locales equivalentes. La primera comprobación útil es leer la placa y el sufijo del producto ofrecido, y después usar el manual que coincide con tensión y código.
 

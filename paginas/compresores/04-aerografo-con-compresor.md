@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | BTA AP8, código 279004.1 | Aerógrafo, manguera, soporte, frasco de preparación, conector a línea y vaso pequeño; presión máxima publicada 10 bar; compresor sugerido 2 HP | La lista no incluye compresor ni especifica caudal de aire |
 | Badger 180-15 | Compresor para aerografía sin aceite; 1/6 HP, 20–23 L/min, rango 0–4 bar; manguera/conexiones según manual | No es el BTA AP8 y no se presenta como un paquete combinado con ese aerógrafo |
 
-**Dato verificado:** la ficha BTA del AP8 enumera los componentes del kit y sugiere un compresor de 2 HP; el compresor no aparece en el contenido incluido. El manual Badger describe un compresor distinto, con sus propios límites de caudal y presión. No se ha confirmado una pareja de estos dos productos.
+**Dato documentado:** la ficha BTA del AP8 enumera los componentes del kit y sugiere un compresor de 2 HP; el compresor no aparece en el contenido incluido. El manual Badger describe un compresor distinto, con sus propios límites de caudal y presión. No se ha confirmado una pareja de estos dos productos.
 
 **Análisis TallerLab:** antes de comparar precios de “aerógrafo con compresor”, separá el aerógrafo, la manguera y el suministro de aire. La potencia sugerida por BTA no basta para confirmar compatibilidad con un compresor sin conocer presión y consumo requeridos por el aerógrafo en uso. Una ficha de otro fabricante tampoco cubre el dato ausente del AP8.
 

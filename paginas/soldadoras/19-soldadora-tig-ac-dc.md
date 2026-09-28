@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Lüsqtoff TIG350ACDC-9 | 380 V, trifásica | 315 A/40%; rango de 5–315 A | 31,5 kg; fabricante dice que cable de alimentación no está incluido |
 | Lüsqtoff SMART TIG-AC/DC200, catálogo | 220 V monofásica ±10% | 200 A/25% en TIG AC y DC, según catálogo | Ficha de producto actual localizada no permite validar todas las cifras del catálogo |
 
-**Dato verificado:** ESAB publica salidas distintas al 20%, 60% y 100% para ET 200i. Lüsqtoff identifica TIG350ACDC-9 como trifásica y publica 315 A/40%. El SMART TIG-AC/DC200 aparece en catálogo Lüsqtoff con dos modos AC/DC y puntos de ciclo; los tratamos como dato de esa edición, no como ficha actual confirmada.
+**Dato documentado:** ESAB publica salidas distintas al 20%, 60% y 100% para ET 200i. Lüsqtoff identifica TIG350ACDC-9 como trifásica y publica 315 A/40%. El SMART TIG-AC/DC200 aparece en catálogo Lüsqtoff con dos modos AC/DC y puntos de ciclo; los tratamos como dato de esa edición, no como ficha actual confirmada.
 
 **Análisis TallerLab:** las necesidades eléctricas y ciclos separan claramente estas opciones: no se comparan solo por el número máximo. Comprobá fases disponibles, protección de red, ciclo a corriente de trabajo, accesorios y manual del modelo. Las descripciones de producto no bastan para elegir corriente, frecuencia/pulso o preparación de una junta.
 

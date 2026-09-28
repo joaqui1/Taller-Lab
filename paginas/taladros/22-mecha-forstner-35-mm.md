@@ -29,7 +29,7 @@ published: true
 | Largo de trabajo | 56 mm |
 | Material indicado | Madera |
 
-**Dato verificado:** Bosch publica estas dimensiones para la referencia indicada. La ficha de otra Forstner Bosch de 35 mm (2 608 596 977) informa 90 mm de largo total; no mezclar ambas referencias como si fueran idénticas.
+**Dato documentado:** Bosch publica estas dimensiones para la referencia indicada. La ficha de otra Forstner Bosch de 35 mm (2 608 596 977) informa 90 mm de largo total; no mezclar ambas referencias como si fueran idénticas.
 
 **Análisis TallerLab:** 35 mm describe el diámetro de la cavidad, no la profundidad máxima de perforación. En la Expert Wood consultada, el largo de trabajo publicado es 56 mm. El vástago de 10 mm también debe caber en el mandril. Para una bisagra cazoleta, plantilla, tope y guía ayudan a repetir posición y profundidad, pero esta ficha no certifica dimensiones universales de bisagras ni una configuración de plantilla concreta.
 

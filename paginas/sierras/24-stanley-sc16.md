@@ -23,7 +23,7 @@ La denominación comercial 7-1/4 pulgadas aparece junto con 180 mm en la ficha a
 
 ## SC16-AR: ficha y medida de disco
 
-| Dato verificado | SC16-AR | Fuente |
+| Dato documentado | SC16-AR | Fuente |
 | :--- | :--- | :--- |
 | Potencia anunciada | 1.600 W | Ficha Stanley Argentina |
 | Diámetro anunciado | 180 mm | Ficha Stanley Argentina |

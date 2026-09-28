@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -42,7 +42,7 @@ published: true
 | Masa publicada | 5 kg |
 | Accesorios del kit | Máscara ST-1X y dos escuadras magnéticas LQE-6001 |
 
-**Dato verificado:** aunque el nombre comercial incluye «250», la ficha de MEGAIRON250 identifica la máquina como IRON-250 y declara rango de salida hasta 180 A. La misma ficha publica los dos puntos de ciclo de trabajo en la tabla. Presentamos lo que dice esa página, no una medición independiente.
+**Dato documentado:** aunque el nombre comercial incluye «250», la ficha de MEGAIRON250 identifica la máquina como IRON-250 y declara rango de salida hasta 180 A. La misma ficha publica los dos puntos de ciclo de trabajo en la tabla. Presentamos lo que dice esa página, no una medición independiente.
 
 **Análisis TallerLab:** para comparar equipos, la salida máxima de ficha y el ciclo de trabajo describen aspectos distintos. En este caso, el fabricante publica 180 A al 40% y 114 A al 100%; el número «250» del nombre no debe leerse como corriente de salida verificada. Los 6,5 kW y 30 A de entrada también requieren verificar el circuito según la placa y normativa local.
 

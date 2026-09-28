@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las fichas de fabricante describen soportes con configuraciones distintas. Pro’sKit 608-391E declara lente de vidrio de 60 mm y aumento 3X, dos brazos ajustables con pinzas cocodrilo, bandeja para esponja y base de hierro fundido de 55 × 55 × 35 mm. Weller WLACCHHB-02 declara aumento 4X y dos pinzas cocodrilo con giro de cuatro vías. Velleman VTHH3N agrega lupa con luz LED y requiere tres pilas AAA según la declaración de conformidad.
+**Dato documentado:** las fichas de fabricante describen soportes con configuraciones distintas. Pro’sKit 608-391E declara lente de vidrio de 60 mm y aumento 3X, dos brazos ajustables con pinzas cocodrilo, bandeja para esponja y base de hierro fundido de 55 × 55 × 35 mm. Weller WLACCHHB-02 declara aumento 4X y dos pinzas cocodrilo con giro de cuatro vías. Velleman VTHH3N agrega lupa con luz LED y requiere tres pilas AAA según la declaración de conformidad.
 
 | Modelo | Aumento/lente declarado | Sujeción | Base, luz y límites publicados |
 | :--- | :--- | :--- | :--- |

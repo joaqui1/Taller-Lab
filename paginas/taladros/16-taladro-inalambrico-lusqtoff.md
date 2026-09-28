@@ -31,7 +31,7 @@ published: true
 | Batería/cargador | 2 baterías y cargador incluidos | No incluidos |
 | Garantía publicada | 2 años | 3 años |
 
-**Dato verificado:** la tabla reproduce fichas oficiales de los códigos TIL23-8B y TAL60-9B. La página de TIL23-8B no explica si el peso incluye baterías; el fabricante tampoco describe en esas fichas una condición de pesaje común. La comparación de masa queda limitada por esa diferencia documental.
+**Dato documentado:** la tabla reproduce fichas oficiales de los códigos TIL23-8B y TAL60-9B. La página de TIL23-8B no explica si el peso incluye baterías; el fabricante tampoco describe en esas fichas una condición de pesaje común. La comparación de masa queda limitada por esa diferencia documental.
 
 **Análisis TallerLab:** el TAL60-9B declara 37 Nm más de torque máximo y una velocidad máxima 1.290 rpm superior; se vende sin batería ni cargador. El TIL23-8B incluye dos baterías y cargador en la ficha consultada. No calculamos autonomía ni rapidez real con esos datos, y no presentamos el mayor torque como prueba de que un modelo sea mejor para toda tarea.
 

@@ -27,7 +27,7 @@ published: true
 | GWS 25-180 LVI R | 180 mm | 2.500 W | 8.500 rpm | No consta en el recorte consultado |
 | GWS 25-230 | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
 
-**Dato verificado:** cada fila corresponde al modelo indicado en las fichas Bosch. La página del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos citados aquí, por eso no completamos la celda por analogía. Las herramientas de otros países pueden diferir en tensión, variantes e interruptores.
+**Dato documentado:** cada fila corresponde al modelo indicado en las fichas Bosch. La página del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos citados aquí, por eso no completamos la celda por analogía. Las herramientas de otros países pueden diferir en tensión, variantes e interruptores.
 
 **Análisis TallerLab:** los tres diámetros muestran por qué la medida del accesorio es el primer filtro de compatibilidad: los discos de 115, 180 y 230 mm no son intercambiables en una máquina diseñada para otra medida. En la ficha del GWS 25-180 y GWS 25-230 la potencia declarada coincide, mientras que la velocidad en vacío y el diámetro difieren. Eso no determina la profundidad real de corte: depende del disco, guarda, geometría y material.
 

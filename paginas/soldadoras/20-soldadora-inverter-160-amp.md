@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | ESAB HandyArc MIG 160i, 0410060 | GMAW 30–160 A; MMA 10–140 A | GMAW: 160 A/15%, 80 A/60%, 62 A/100%; MMA: 140 A/15%, 70 A/60%, 54 A/100% | 10,2 kg |
 | Dogo Dogostar 160 Moderna | MMA, 20–160 A | Dogo lista 2,5 mm/100%, 3,2 mm/80% y 4 mm/60% | Ficha de producto: verificar el peso de la versión ofertada |
 
-**Dato verificado:** los dos modelos ESAB tienen fichas oficiales argentinas; la página Dogo identifica su Dogostar 160 y muestra el factor de servicio por consumible. El número “160” no establece que los procesos, puntos de ciclo, alimentación eléctrica o accesorios sean iguales.
+**Dato documentado:** los dos modelos ESAB tienen fichas oficiales argentinas; la página Dogo identifica su Dogostar 160 y muestra el factor de servicio por consumible. El número “160” no establece que los procesos, puntos de ciclo, alimentación eléctrica o accesorios sean iguales.
 
 **Análisis TallerLab:** HandyArc 162i y MIG 160i difieren en masa publicada en 6,5 kg (cálculo entre 10,2 y 3,7 kg), pero también en proceso y configuración. Ese dato no predice facilidad de uso ni el trabajo que puede completarse. Para una elección documental, compará el proceso necesario, ciclo a la corriente relevante, voltaje, tipo de consumible y disponibilidad de alimentación.
 

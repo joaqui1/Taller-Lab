@@ -30,7 +30,7 @@ published: true
 | Cargador | Incluido |
 | Garantía informada por el fabricante | Herramientas: 3 años; baterías: 6 meses |
 
-**Dato verificado:** la tabla corresponde al código KATL-9BK que Lusqtoff publica como kit de amoladora angular y taladro inalámbrico. No trasladamos esos datos a otros combos de nombre o aspecto parecido.
+**Dato documentado:** la tabla corresponde al código KATL-9BK que Lusqtoff publica como kit de amoladora angular y taladro inalámbrico. No trasladamos esos datos a otros combos de nombre o aspecto parecido.
 
 **Análisis TallerLab:** el kit contiene dos baterías de capacidades distintas, 4 Ah y 2 Ah; la ficha no indica cuál se destina a cada herramienta. La amoladora tiene tres velocidades listadas, mientras el taladro ofrece dos velocidades mecánicas. La diferencia entre las baterías es de 2 Ah, pero ese valor no predice por sí solo cuántos cortes o agujeros permite cada una.
 

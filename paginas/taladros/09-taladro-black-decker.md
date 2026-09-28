@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro Black+Decker elegir para casa
 
-**Dato verificado:** el manual regional de BLACK+DECKER LD120 publica tensión de etiqueta, velocidad, torque, mandril y batería. La marca 20 V MAX no equivale a tensión nominal bajo carga.
+**Dato documentado:** el manual regional de BLACK+DECKER LD120 publica tensión de etiqueta, velocidad, torque, mandril y batería. La marca 20 V MAX no equivale a tensión nominal bajo carga.
 
 ## LD120: ficha identificada y una precaución con 20 V MAX
 

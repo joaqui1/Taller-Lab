@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Hyundai 073G | 6.400 W | 5.800 W | 456 cm³; insonorizado según título comercial | El vendedor publica 6,5 h, pero no indica carga de ensayo |
 | Hyundai 080G | 8 kVA máximo | Desconocida | Trifásico; 456 cm³ | La página alterna rótulos kVA y kW en sus datos; confirmar placa |
 
-**Dato verificado:** el sitio local de Hyundai Herramientas lista los códigos 070G, 071G y 073G en su familia de generadores diésel. Sus fichas comerciales publican 8.000 W máximos para 070G y 071G; para 073G publican 5.800 W continuos y 6.400 W máximos. La ficha del 080G lo titula 8 kVA, mientras otros campos usan W; señalamos esa inconsistencia para cotejo con la placa y manual.
+**Dato documentado:** el sitio local de Hyundai Herramientas lista los códigos 070G, 071G y 073G en su familia de generadores diésel. Sus fichas comerciales publican 8.000 W máximos para 070G y 071G; para 073G publican 5.800 W continuos y 6.400 W máximos. La ficha del 080G lo titula 8 kVA, mientras otros campos usan W; señalamos esa inconsistencia para cotejo con la placa y manual.
 
 **Análisis TallerLab:** solo para 073G pueden calcularse ambas potencias desde los datos publicados: 6.400 − 5.800 = 600 W (10,3 % sobre la continua). No asignamos 5.800 W continuos a los códigos 070G o 071G por similitud de cilindrada o presentación. “Uso continuo 6,5 h” es duración declarada sin una carga identificada y no equivale a ciclo de trabajo ilimitado.
 

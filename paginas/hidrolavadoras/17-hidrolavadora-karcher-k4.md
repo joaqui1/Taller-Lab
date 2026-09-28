@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | K 4 Power Control | 16034020 | 20–máx. 130 bar | Máx. 420 L/h | No indicada / 8 m / 12,4 kg |
 | K 5 | 93982950 | 2.100 psi (≈144,8 bar, conversión) | 420 L/h | 1.900 W / 6 m / 13,3 kg |
 
-**Dato verificado:** la ficha argentina de K4 Power Control lista presión 20–máx. 130 bar, caudal máximo 420 L/h, manguera de 8 m, motor de inducción refrigerado por agua y peso sin accesorios de 12,4 kg. La página de K5 (93982950) lista 2.100 psi, 420 L/h, 1.900 W, manguera de 6 m y peso de 13,3 kg.
+**Dato documentado:** la ficha argentina de K4 Power Control lista presión 20–máx. 130 bar, caudal máximo 420 L/h, manguera de 8 m, motor de inducción refrigerado por agua y peso sin accesorios de 12,4 kg. La página de K5 (93982950) lista 2.100 psi, 420 L/h, 1.900 W, manguera de 6 m y peso de 13,3 kg.
 
 **Análisis TallerLab:** 2.100 psi equivalen aproximadamente a 144,8 bar mediante conversión de unidades; Kärcher no rotula ese campo del K5 como presión de servicio en la página consultada. El K4 y K5 declaran igual caudal máximo; el K4 informa una manguera 2 m más larga, mientras el K5 declara 1 kg adicional. La diferencia convertida de presión no permite afirmar una diferencia de limpieza.
 

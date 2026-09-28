@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Potencia absorbida | Disco | Velocidad en vacío | Peso publicado |
 | :--- | ---: | ---: | ---: | ---: |
 | Skil 9004 | 830 W | 115 mm | 11.000 rpm | 1,8 kg |
 | Skil 9002 | 700 W | 115 mm | 11.000 rpm | 1,8 kg |
 
-**Dato verificado:** el catálogo Skil Argentina 2019 consultado lista 830 W para 9004 y 700 W para 9002, además de diámetro, velocidad y peso. Un manual Skil/Bosch alojado por un distribuidor contiene instrucciones conjuntas para los modelos 9002 y 9004. La publicación de Sodimac para 9004 también indica 830 W, aunque su ficha de peso es peso embalado y no se usa para la comparación de peso neto.
+**Dato documentado:** el catálogo Skil Argentina 2019 consultado lista 830 W para 9004 y 700 W para 9002, además de diámetro, velocidad y peso. Un manual Skil/Bosch alojado por un distribuidor contiene instrucciones conjuntas para los modelos 9002 y 9004. La publicación de Sodimac para 9004 también indica 830 W, aunque su ficha de peso es peso embalado y no se usa para la comparación de peso neto.
 
 **Análisis TallerLab:** la diferencia nominal de entrada es 130 W, equivalente a 18,6 % respecto de 700 W; la velocidad y el diámetro son iguales en el catálogo consultado. La diferencia no demuestra que el modelo 9004 corte más rápido: para eso harían falta condiciones y una prueba comparativa controlada. La coincidencia de peso publicado (1,8 kg) tampoco incorpora variaciones por accesorios o mercado.
 

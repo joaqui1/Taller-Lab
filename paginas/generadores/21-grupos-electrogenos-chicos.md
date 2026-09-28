@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Konan KGE/800 | 650 W | 800 W | 2 tiempos, 63 cm³, 220 V–50 Hz, tanque 4 L y 4,5 h declaradas | Sitio del representante exclusivo publica ficha y manual |
 | Gamma GE3441AR / 950 | El fabricante llama al campo «energía generada contenida»: 0,57 kW | 0,87 kW | 2 tiempos, 63 cm³, producto discontinuado | Ficha oficial; el nombre del campo no se sustituye por «potencia nominal» |
 
-**Dato verificado:** Konan informa 650 W nominales y 800 W máximos para KGE/800. Para Pektra GPK980, la fuente consultada es una publicación comercial cuyo título dice 720 W; una página de comercio que reproduce datos del vendedor enumera 650 W nominales y 720 W máximos. No localizamos documentación primaria del fabricante Pektra que confirme esos valores. Gamma publica para el GE3441AR máximo de 0,87 kW y «energía generada contenida» de 0,57 kW.
+**Dato documentado:** Konan informa 650 W nominales y 800 W máximos para KGE/800. Para Pektra GPK980, la fuente consultada es una publicación comercial cuyo título dice 720 W; una página de comercio que reproduce datos del vendedor enumera 650 W nominales y 720 W máximos. No localizamos documentación primaria del fabricante Pektra que confirme esos valores. Gamma publica para el GE3441AR máximo de 0,87 kW y «energía generada contenida» de 0,57 kW.
 
 **Análisis TallerLab:** en KGE/800, el valor máximo supera el nominal en 150 W (23,1 % sobre 650 W). En Pektra GPK980 la diferencia sería 70 W (10,8 %) si la cifra nominal de 650 W de la publicación comercial se confirma. Estas restas no son una prueba de arranque de motores ni de compatibilidad con una carga concreta; para seleccionar hay que cotejar potencia de funcionamiento y pico de arranque en las placas/manuales de los equipos conectados.
 

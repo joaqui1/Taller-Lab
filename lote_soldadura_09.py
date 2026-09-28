@@ -13,7 +13,7 @@ PAGES = {
 | RE 90, RE020114544 | 2,10 kW | 8 kg | Máx. 100 bar; manguera 6 m | $232.396,70 |
 | RE 110, 49500114529 | 1,70 kW | 17,6 kg | El texto indica 110 bar; manguera 7 m | $676.955,30 |
 
-**Dato verificado:** las páginas STIHL Argentina publican las referencias, potencias, pesos operacionales y precios sugeridos de la tabla. La página de RE 90 indica presión entre 10 y 100 bar y manguera de 6 m; la de RE 110 anuncia 110 bar y manguera de 7 m, además de motor de inducción y cabezal de aluminio. Las fichas consultadas no muestran el mismo conjunto de campos para todos los modelos.
+**Dato documentado:** las páginas STIHL Argentina publican las referencias, potencias, pesos operacionales y precios sugeridos de la tabla. La página de RE 90 indica presión entre 10 y 100 bar y manguera de 6 m; la de RE 110 anuncia 110 bar y manguera de 7 m, además de motor de inducción y cabezal de aluminio. Las fichas consultadas no muestran el mismo conjunto de campos para todos los modelos.
 
 **Análisis TallerLab:** el cuadro sirve para comprobar la referencia y comparar los campos publicados, no para ordenar limpieza. Por ejemplo, las páginas muestran 2,10 kW para RE 90 y 1,70 kW para RE 110, mientras anuncian 100 y 110 bar, respectivamente; esos rótulos no son un ensayo común. El precio es PVP sugerido con IVA visto en páginas oficiales el 27/09/2026, no cotización, precio final de concesionario ni garantía de stock.
 
@@ -35,7 +35,7 @@ PAGES = {
 | TIG/GTAW | Varilla de aporte si corresponde y antorcha TIG | Gas externo según consumible/procedimiento | Corriente AC/DC, material y control térmico |
 | Soldadura por resistencia/punto | Electrodos de cobre de la máquina | No usa alambre/electrodo consumible revestido | Espesor, geometría, presión/corriente/tiempo que especifique el equipo |
 
-**Dato verificado:** ESAB identifica la HandyArc MIG 160i para MIG/MAG, alambre tubular y electrodo; su familia HandyArc 162i se especifica para MMA. ESAB Weld 70S-6 declara clasificación ER70S-6 y gas C1/M21; Lincoln identifica productos E71T-GS y E71T-11 como alambres tubulares autoprotegidos. Las fuentes citadas documentan esos productos concretos, no todos los consumibles con nombres similares.
+**Dato documentado:** ESAB identifica la HandyArc MIG 160i para MIG/MAG, alambre tubular y electrodo; su familia HandyArc 162i se especifica para MMA. ESAB Weld 70S-6 declara clasificación ER70S-6 y gas C1/M21; Lincoln identifica productos E71T-GS y E71T-11 como alambres tubulares autoprotegidos. Las fuentes citadas documentan esos productos concretos, no todos los consumibles con nombres similares.
 
 **Análisis TallerLab:** empezar por material y unión, luego verificar el proceso que permite controlar el equipo disponible y, por último, el consumible compatible con su polaridad/rango. La sigla del proceso no determina por sí sola el espesor soldable ni la calidad de una unión. Esta tabla orienta a la documentación necesaria; no es un procedimiento de soldadura ni reemplaza un WPS, código de construcción o calificación cuando aplique.
 
@@ -54,7 +54,7 @@ PAGES = {
 | Lincoln Steelcore 71T-GS | AWS A5.20 E71T-GS | 0,8 mm: 60–150 A; 0,9 mm: 60–180 A | DC− | 5 mm en ficha australiana |
 | Lincoln Innershield NR-211-MP | AWS E71T-11 | 0,8–1,1 mm; rango y parámetros dependen del diámetro | La tabla de la ficha específica define el ajuste | Hasta 7,9 mm para diámetros ≤1,1 mm en documento citado |
 
-**Dato verificado:** Lincoln identifica ambos productos como alambres tubulares autoprotegidos; la ficha Steelcore especifica E71T-GS y DC−, mientras NR-211-MP se clasifica E71T-11. Las tablas y límites de espesor de la matriz pertenecen a las fichas de fabricante enlazadas y a sus configuraciones concretas.
+**Dato documentado:** Lincoln identifica ambos productos como alambres tubulares autoprotegidos; la ficha Steelcore especifica E71T-GS y DC−, mientras NR-211-MP se clasifica E71T-11. Las tablas y límites de espesor de la matriz pertenecen a las fichas de fabricante enlazadas y a sus configuraciones concretas.
 
 **Análisis TallerLab:** que ambos se vendan como «flux» o «sin gas» no los vuelve intercambiables. La clasificación, el diámetro, la polaridad, la máquina y el espesor publicado deben coincidir con la ficha del alambre ofertado. El límite de espesor no es una garantía de unión estructural ni una recomendación para cualquier posición, preparación o código.
 
@@ -73,7 +73,7 @@ PAGES = {
 | 0,9 mm | 80–175 A | 17–22 V | 2,5–6,4 m/min | 0,7–1,8 kg/h | C1 (CO₂) o M21 |
 | 1,14 mm | 145–200 A | 19–21 V | 3,2–5,1 m/min | 1,5–2,5 kg/h | C1 (CO₂) o M21 |
 
-**Dato verificado:** ESAB clasifica Weld 70S-6 como alambre macizo ER70S-6 y publica gases de protección C1/M21 en su ficha. Los rangos por diámetro reproducen la tabla de depósito de ese producto y mercado; no describen todos los alambres ER70S-6 ni establecen un único ajuste para una máquina concreta.
+**Dato documentado:** ESAB clasifica Weld 70S-6 como alambre macizo ER70S-6 y publica gases de protección C1/M21 en su ficha. Los rangos por diámetro reproducen la tabla de depósito de ese producto y mercado; no describen todos los alambres ER70S-6 ni establecen un único ajuste para una máquina concreta.
 
 **Análisis TallerLab:** al pasar de 0,9 a 1,14 mm, la ficha del producto desplaza los intervalos de corriente y velocidad a valores mayores. En una instalación real también deben coincidir rodillos/guía, rango de la fuente, transferencia, gas y preparación de junta. No convertimos los datos de depósito de catálogo en velocidad de avance de la antorcha.
 
@@ -92,7 +92,7 @@ PAGES = {
 | Telwin Federal 803091 | 980 × 500 × 1.040 mm | 23,24 kg | Compartimento para cilindro; capacidad/tamaño no publicados en esa página | No publicado |
 | Lincoln K520/K520-1 | No localizado en manual citado | No localizado | Diámetro exterior máx. 20,6 cm; altura máx. 117 cm; peso máx. 45 kg | 45 kg soldadora sola; 90 kg soldadora + cilindro |
 
-**Dato verificado:** Telwin describe el modelo Federal 803091 con cuatro ruedas (dos giratorias), compartimento para cilindro y soporte de alimentador, e informa 980 × 500 × 1.040 mm y 23,24 kg. Lincoln documenta para K520/K520-1 los límites de cilindro y carga de la tabla.
+**Dato documentado:** Telwin describe el modelo Federal 803091 con cuatro ruedas (dos giratorias), compartimento para cilindro y soporte de alimentador, e informa 980 × 500 × 1.040 mm y 23,24 kg. Lincoln documenta para K520/K520-1 los límites de cilindro y carga de la tabla.
 
 **Análisis TallerLab:** antes de elegir, medir la huella de la máquina con conectores, la base y diámetro real del cilindro, el espacio de mangueras/cables y el recorrido de las ruedas. La tabla muestra dos diseños: Telwin publica dimensiones externas pero no capacidad; Lincoln sí pone límites de carga y cilindro en el manual consultado. No se debe inferir resistencia máxima para el Telwin por su peso propio.
 
@@ -120,7 +120,7 @@ PAGES = {
 | ESAB LBL BW E6013 | 2,5 mm | 70–90 A |
 | ESAB LBL BW E6013 | 3,2 mm | 95–125 A |
 
-**Dato verificado:** ambas fuentes identifican sus productos como E6013 y publican los rangos de corriente listados. Aunque las clasificaciones coinciden, las tablas son de líneas comerciales distintas y usan diámetros/presentaciones propios.
+**Dato documentado:** ambas fuentes identifican sus productos como E6013 y publican los rangos de corriente listados. Aunque las clasificaciones coinciden, las tablas son de líneas comerciales distintas y usan diámetros/presentaciones propios.
 
 **Análisis TallerLab:** para 3,2 mm, los dos rangos publicados se superponen entre 120 y 125 A, pero sus extremos difieren. Esto muestra por qué la corriente debe tomarse de la caja/ficha del fabricante del electrodo y ajustarse a la fuente y aplicación; no se puede formar una tabla universal sumando marcas. No se recomienda un amperaje para una pieza desconocida.
 
@@ -141,7 +141,7 @@ PAGES = {
 | ESAB Atom Arc 7018, hoja México | 4,0 mm | 130–220 A |
 | ESAB HandyArc 162i, salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
 
-**Dato verificado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
+**Dato documentado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
 
 **Análisis TallerLab:** los 160 A máximos de la máquina no son un ajuste continuo: el ciclo publicado baja a 92 A/60 % y 72 A/100 %. Además, el rango de 4,0 mm de la ficha del electrodo se extiende a 220 A, por encima de la salida máxima de esta máquina. Eso compara dos hojas técnicas, no dicta que un diámetro sea adecuado para una junta o que una fuente produzca el resultado requerido.
 
@@ -161,7 +161,7 @@ PAGES = {
 | Cromarco 316L-16 Premium | AWS A5.4 E316L-16 | AISI 316/316L | 2,4 mm: 40–80 A; 3,2 mm: 70–110 A; 4,0 mm: 100–145 A |
 | OK 67.61 N | SFA/AWS A5.4 E309L-16 | Clasificación confirmada en la página ESAB Argentina; no se extrapola aquí un procedimiento de unión disímil | Verificar corriente en la ficha/paquete del diámetro local |
 
-**Dato verificado:** las páginas de producto ESAB identifican las clasificaciones de la tabla. La ficha de Cromarco 316L-16 Premium señala uso en AISI 316/316L y publica corrientes por diámetro; OK 308L se describe para aceros 19Cr10Ni. Para OK 67.61 N, la página ESAB Argentina confirma E309L-16.
+**Dato documentado:** las páginas de producto ESAB identifican las clasificaciones de la tabla. La ficha de Cromarco 316L-16 Premium señala uso en AISI 316/316L y publica corrientes por diámetro; OK 308L se describe para aceros 19Cr10Ni. Para OK 67.61 N, la página ESAB Argentina confirma E309L-16.
 
 **Análisis TallerLab:** los sufijos y la clasificación cambian el metal de aporte; no basta decir «electrodo inoxidable». La tabla ayuda a cruzar el metal base con la descripción del producto exacto. Compatibilidad química, temperatura de servicio, corrosión, preparación y calificación requieren consultar el código/procedimiento aplicable; esta matriz no aprueba una unión para servicio crítico.
 
@@ -180,7 +180,7 @@ PAGES = {
 | OK Ni-CI, AWS A5.15 ENi-CI | Base níquel; análisis típico 94 % Ni en ficha | Reparación/unión de fundiciones grises, dúctiles y maleables; también hierro fundido con acero | 2,5 mm: 55–110 A; 3,2 mm: 80–140 A |
 | OK NiFe-CI, AWS A5.15 ENiFe-CI | Níquel-hierro; análisis típico 53 % Ni y 44 % Fe en ficha | Producto ESAB para fundición; confirmar el caso exacto en hoja técnica | 2,5 mm: 60–100 A; 3,2 mm: 80–150 A |
 
-**Dato verificado:** ESAB clasifica OK Ni-CI como ENi-CI y OK NiFe-CI como ENiFe-CI. Sus páginas informan composiciones típicas y rangos de corriente específicos para cada diámetro. ESAB describe OK Ni-CI para ciertos grados normales de fundición y uniones con acero; esas indicaciones corresponden a ese producto.
+**Dato documentado:** ESAB clasifica OK Ni-CI como ENi-CI y OK NiFe-CI como ENiFe-CI. Sus páginas informan composiciones típicas y rangos de corriente específicos para cada diámetro. ESAB describe OK Ni-CI para ciertos grados normales de fundición y uniones con acero; esas indicaciones corresponden a ese producto.
 
 **Análisis TallerLab:** la tabla permite comprobar clasificación y contenido nominal de aleación antes de comprar. No convierte «níquel puro» o «ferroníquel» en una selección suficiente: la fundición, contaminación, geometría, restricción y servicio de la pieza pueden cambiar el método requerido. Una reparación de componente presurizado, de seguridad o con carga exige procedimiento y personal calificado.
 
@@ -205,7 +205,7 @@ PAGES = {
 | Generador recomendado por ESAB | 10,5 kVA |
 | Protección / norma | IP21S / IEC 60974-1 |
 
-**Dato verificado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
+**Dato documentado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
 
 **Análisis TallerLab:** la relación de la propia tabla impide interpretar «162» o «160 A» como corriente sostenida: el amperaje publicado varía según ciclo. El generador de 10,5 kVA es una recomendación de ESAB para el producto y no verifica por sí sola el tamaño de cualquier instalación, alargue o generador disponible.
 
@@ -256,7 +256,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

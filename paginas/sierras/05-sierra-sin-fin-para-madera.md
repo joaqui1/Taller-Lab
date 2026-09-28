@@ -23,7 +23,7 @@ Contrastamos la SFL250-8 compacta con la SFL1100-9 de banco grande. La SFL300-8 
 
 ## Altura, garganta y repuestos: tres datos distintos
 
-| Dato verificado | SFL250-8 | SFL300-8 | SFL1100-9 |
+| Dato documentado | SFL250-8 | SFL300-8 | SFL1100-9 |
 | :--- | ---: | ---: | ---: |
 | Estado | Discontinuada | Listada como banco 200 mm | Ficha vigente consultada |
 | Altura máxima de corte | 80 mm | Desconocida | 206 mm |

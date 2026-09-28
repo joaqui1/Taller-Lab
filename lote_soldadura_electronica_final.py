@@ -8,7 +8,7 @@ PAGES = {
     "paginas/soldadura-electronica/03-gadnic-878d.md": {
         "asset": "comparación de potencia, rangos térmicos y contenido declarado para Gadnic 878D y Yihua 878D/898D, con discrepancia 750 W frente a 370 W visible",
         "description": "Ficha documental de la Gadnic 878D: contraste entre los 750 W del texto comercial y los 370 W del cuadro técnico, accesorios y diferencias frente a Yihua.",
-        "body": r'''**Dato verificado:** la página argentina de Gadnic identifica el producto como 878D y ofrece dos valores de potencia en la misma ficha: el texto descriptivo menciona 750 W, mientras que la tabla de especificaciones indica **370 W nominales**. La misma tabla declara alimentación de 220 V, aire a 100–450 °C, cautín a 200–480 °C, estabilidad de ±2 °C, caudal de 120 L/min y peso de 2,3 kg. Son datos publicados por el vendedor/fabricante; TallerLab no los midió.
+        "body": r'''**Dato documentado:** la página argentina de Gadnic identifica el producto como 878D y ofrece dos valores de potencia en la misma ficha: el texto descriptivo menciona 750 W, mientras que la tabla de especificaciones indica **370 W nominales**. La misma tabla declara alimentación de 220 V, aire a 100–450 °C, cautín a 200–480 °C, estabilidad de ±2 °C, caudal de 120 L/min y peso de 2,3 kg. Son datos publicados por el vendedor/fabricante; TallerLab no los midió.
 
 | Equipo y fuente | Potencia publicada | Aire caliente | Cautín | Caudal / peso | Qué permite concluir |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ La selección depende de confirmar la potencia y la variante de la publicación.
     "paginas/soldadura-electronica/04-yihua-898d.md": {
         "asset": "tabla documental de parámetros y accesorios declarados para Yihua 898D/898D+ frente a la serie Yihua 878D, con límites entre variantes",
         "description": "Ficha de la Yihua 898D: potencia, rangos y accesorios según fabricante, con diferencias explícitas frente a 898D+ y 878D.",
-        "body": r'''**Dato verificado:** Yihua publica la serie 898D/898D+ con tensión nominal de 220 V ±10% y potencia de máquina de 730 W. El fabricante declara para el aire caliente 650 W, rango de 100–480 °C y caudal máximo de 120 L/min; para el cautín, 200–480 °C y 50 W o 75 W según la variante. La ficha presenta estabilidad estática de ±5 °C para la tabla de la serie.
+        "body": r'''**Dato documentado:** Yihua publica la serie 898D/898D+ con tensión nominal de 220 V ±10% y potencia de máquina de 730 W. El fabricante declara para el aire caliente 650 W, rango de 100–480 °C y caudal máximo de 120 L/min; para el cautín, 200–480 °C y 50 W o 75 W según la variante. La ficha presenta estabilidad estática de ±5 °C para la tabla de la serie.
 
 | Parámetro publicado | Yihua 898D/898D+ | Comparación con serie 878D | Límite de lectura |
 | :--- | :--- | :--- | :--- |
@@ -93,7 +93,7 @@ Si solo necesitás cautín, compará la [guía de estaciones electrónicas](/sol
     "paginas/soldadura-electronica/05-soporte-para-soldar-con-lupa.md": {
         "asset": "comparación documental entre Pro'sKit 608-391E, Weller WLACCHHB-02 y Velleman VTHH3N por aumento, pinzas, base o luz; dimensiones faltantes señaladas",
         "description": "Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante.",
-        "body": r'''**Dato verificado:** las fichas de fabricante describen soportes con configuraciones distintas. Pro’sKit 608-391E declara lente de vidrio de 60 mm y aumento 3X, dos brazos ajustables con pinzas cocodrilo, bandeja para esponja y base de hierro fundido de 55 × 55 × 35 mm. Weller WLACCHHB-02 declara aumento 4X y dos pinzas cocodrilo con giro de cuatro vías. Velleman VTHH3N agrega lupa con luz LED y requiere tres pilas AAA según la declaración de conformidad.
+        "body": r'''**Dato documentado:** las fichas de fabricante describen soportes con configuraciones distintas. Pro’sKit 608-391E declara lente de vidrio de 60 mm y aumento 3X, dos brazos ajustables con pinzas cocodrilo, bandeja para esponja y base de hierro fundido de 55 × 55 × 35 mm. Weller WLACCHHB-02 declara aumento 4X y dos pinzas cocodrilo con giro de cuatro vías. Velleman VTHH3N agrega lupa con luz LED y requiere tres pilas AAA según la declaración de conformidad.
 
 | Modelo | Aumento/lente declarado | Sujeción | Base, luz y límites publicados |
 | :--- | :--- | :--- | :--- |
@@ -133,7 +133,7 @@ Para el resto del puesto de trabajo, consultá el [kit de soldador de estaño](/
     "paginas/soldadura-electronica/01-kit-soldador-de-estano.md": {
         "asset": "tabla comparativa de tres kits documentados por herramientas incluidas, potencia, tensión y límite de mercado; guía de elección según alcance",
         "description": "Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller.",
-        "body": r'''**Dato verificado:** las fichas de Pro’sKit y Velleman documentan kits de cautín con herramientas básicas para soldar y desoldar; Weller publica un kit regional de 60 W y 120 V. Son productos con distinta tensión y contenido, no tres variantes de un mismo modelo.
+        "body": r'''**Dato documentado:** las fichas de Pro’sKit y Velleman documentan kits de cautín con herramientas básicas para soldar y desoldar; Weller publica un kit regional de 60 W y 120 V. Son productos con distinta tensión y contenido, no tres variantes de un mismo modelo.
 
 | Kit / mercado indicado | Cautín | Elementos incluidos según fabricante | Alimentación declarada | Límite de comparación |
 | :--- | :--- | :--- | :--- | :--- |

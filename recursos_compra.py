@@ -27,7 +27,7 @@ EXTRA_RESOURCES = {
         "Elegí la familia Bosch por disco y alimentación",
         "Una GWS con cable de 115 mm, una variable de 125 mm y una de batería resuelven decisiones distintas. El código de pedido termina de identificar cada opción.",
         "¿Qué condición define tu compra?",
-        [["Quiero una referencia con cable de 115 mm", "GWS 700 en la comparación argentina", "710 W y 12.000 rpm documentadas. La oferta GWS 770 enlazada abajo es otro modelo: no hereda la ficha de GWS 700."],
+        [["Quiero una referencia con cable de 115 mm", "GWS 700 o GWS 770: contrastar el código", "GWS 700 tiene ficha argentina de 710 W. GWS 770 documenta 770 W, 115 mm y 220 V para 06013980E0 en Bosch Brasil; confirmá ese código en la oferta, kit y garantía local."],
          ["Necesito regular velocidad y usar 125 mm", "GWS 9-125 S: revisar tensión antes de elegir", "La variante 0 601 396 1D0 de la guía es de 127 V. Para una instalación de 220 V necesitás un código compatible documentado."],
          ["Quiero trabajar con batería", "GWS 180-LI: comprobar el equipo completo", "18 V y 125 mm. La masa publicada pasa de 1,6 kg sin batería a 2,2 kg con batería; confirmar batería y cargador del kit."]],
         "Selector de familias, sin ranking de rendimiento. La equivalencia a 700 W anunciada por Bosch para 180-LI no sustituye un ensayo común."),
@@ -275,6 +275,82 @@ BUYING_NOTES = {
         [("https://meli.la/1KQjHgT", "Consultar Logus GHL150 a nafta")],
         ("/hidrolavadoras/gamma/", "Comparar alternativas eléctricas documentadas")),
 }
+
+
+BUYING_NOTES.update({
+    "/hidrolavadoras/comparativa-general/": note(
+        "Dos eléctricas con documentación identificada",
+        "Para contrastar una compra eléctrica por presión nominal, alimentación y contenido.",
+        "HL100-7 tiene ficha propia de 70 bar nominales. HL-105 publica 105 bar máximos y deja nominal/caudal por completar; sus máximos no forman un ranking de limpieza.",
+        "GHL150 a nafta se trata en una sección separada del artículo. La identidad, el kit y la oferta vigente se confirman antes de elegir.",
+        ["HL100-7 o HL-105 en placa y manual", "Presión nominal y condición de caudal del código", "Contenido, vendedor y garantía"],
+        [("https://meli.la/1cZXqxL", "Consultar Lüsqtoff HL100-7"), ("https://meli.la/2Rcddpg", "Consultar Logus HL-105")],
+        ("/hidrolavadoras/150-bar/", "Evaluar por separado la alternativa a nafta")),
+    "/hidrolavadoras/lusqtoff/": note(
+        "HL100-7: elegí por el código completo",
+        "Para evaluar la eléctrica de 1.200 W y 70 bar nominales documentados por Lüsqtoff.",
+        "Su ficha separa nominal de máximo y permite incorporar el modelo realmente enlazado a esta guía.",
+        "HL100-7 no es HL100-8. La tasa de flujo no precisa aquí condición nominal/máxima; no hereda la del HL-120.",
+        ["HL100-7 y 220 V–50 Hz en placa", "Manguera y accesorios del kit", "Manual, repuestos y garantía de esa unidad"],
+        [("https://meli.la/1cZXqxL", "Consultar HL100-7")],
+        ("/hidrolavadoras/comparativa-general/", "Contrastar otras eléctricas")),
+    "/taladros/inalambricos/": note(
+        "Ingco: compará el costo de empezar con el kit",
+        "Para quien busca una opción anunciada con percusión, dos baterías y cargador.",
+        "El contenido del kit cambia la compra frente a una herramienta sola; la tabla separa sus datos comerciales de las fichas Bosch, Einhell y Black+Decker.",
+        "CIDLI20668-4 sigue condicionado a identificar la variante y los packs. Los 66 Nm anunciados no demuestran superioridad frente a torques de otras fichas.",
+        ["CIDLI20668-4 en placa y caja", "Ah, código y cantidad de baterías", "Cargador, manual del sufijo -4 y garantía"],
+        [("https://meli.la/2xvJRJp", "Consultar kit Ingco CIDLI20668-4")],
+        ("/taladros/taladro-percutor-inalambrico/", "Revisar el percutor inalámbrico")),
+    "/taladros/percutores/": note(
+        "Una opción percutora a batería para contrastar",
+        "Para evaluar un kit con mandril convencional, después de decidir si necesitás percusión o SDS.",
+        "El aviso Ingco anuncia percusión, mandril de 13 mm y dos baterías. Es otra referencia; los Bosch siguen explicando el mecanismo.",
+        "No se atribuyen diámetros Bosch ni joules/encastre SDS a Ingco. Faltan capacidades y manual del sufijo -4 para el material concreto.",
+        ["Material y diámetro admitidos por el manual", "CIDLI20668-4 y modo percutor", "Baterías, cargador y broca compatible"],
+        [("https://meli.la/2xvJRJp", "Consultar percutor Ingco")],
+        ("/taladros/rotomartillos/", "Revisar SDS si tu tarea lo requiere")),
+    "/taladros/taladro-de-banco/": note(
+        "Omaha AB550161K: cerrar recorrido y régimen",
+        "Para evaluar otra configuración de banco con mandril de 16 mm y cinco velocidades anunciadas.",
+        "La oferta permite pedir un kit identificado y comparar su costo con los Lüsqtoff de la guía.",
+        "550 W anunciados no bastan para elegir: faltan recorrido, rango de rpm, régimen y capacidad por material. No se heredan datos del TB-16.",
+        ["AB550161K en placa y manual", "Recorrido, rpm, régimen y capacidad", "Tensión, morsa, mesa, fijación y garantía"],
+        [("https://meli.la/2Znq55m", "Consultar Omaha AB550161K")],
+        ("/taladros/", "Explorar otras guías de taladros")),
+    "/compresores/para-auto/": note(
+        "Batería o 12 V: dos ofertas con decisiones distintas",
+        "Para contrastar IE01 a batería o JD Extreme 107 de 12 V con tu conexión y controles requeridos.",
+        "La ficha de marca IE01 identifica batería y pantalla; JD 107 tiene una publicación comercial que anuncia doble pistón.",
+        "No se ordena rapidez por caudal anunciado. JD requiere corriente, ciclo y conexión; IE01 requiere autonomía bajo carga y configuración.",
+        ["IE01 o JD 107 en la unidad", "Conexión, corriente y ciclo o batería", "Presión del vehículo, manguera y adaptadores"],
+        [("https://meli.la/2m7TJWQ", "Consultar Nictom IE01 a batería"), ("https://meli.la/274KM8a", "Consultar JD Extreme 107 de 12 V")],
+        ("/compresores/12v-doble-piston/", "Ver qué documentación pedir para JD")),
+    "/sierras/caladoras/": note(
+        "BES603: contrastá primero el sufijo",
+        "Para evaluar una caladora con regulación de velocidad cuando su variante coincide con la documentación de tu tarea.",
+        "BES603-B2 documenta hasta 65 mm en madera y 6 mm en metal; el filtro de acero conserva solo las Einhell con ese material identificado.",
+        "El aviso identifica BES603 sin confirmar B2. No se garantizan acero, acabado ni kit por el código base o por estar bajo un máximo.",
+        ["Sufijo B2, 220 V y manual de la unidad", "Material, espesor y hoja admitidos", "Hoja T, regulación, contenido y garantía local"],
+        [("https://meli.la/1ntghna", "Consultar y confirmar variante BES603")],
+        ("/sierras/caladoras-black-decker/", "Comparar variantes Black+Decker")),
+    "/generadores/comparativa-general/": note(
+        "Tres ofertas, distintas escalas de carga",
+        "Para consultar un generador identificado después de reunir marcha, arranque y alimentación de tus cargas.",
+        "GPK980 es una referencia pequeña; GPK2200 deja nominal pendiente y Philco anuncia nominal en W. El artículo separa esas condiciones y su respaldo comercial.",
+        "No sustituyen automáticamente los Honda/Gamma de la tabla. No se convierten kVA a W sin factor de potencia ni se dimensiona desde máximos.",
+        ["Modelo, nominal y manual de la unidad", "Marcha/arranque, tensión y fase de cada carga", "Combustible, precio, contenido y garantía"],
+        [("https://meli.la/2jcLSy1", "Consultar Pektra GPK980"), ("https://meli.la/2bL6gVj", "Consultar Pektra GPK2200"), ("https://meli.la/1nUAUuv", "Consultar Philco GE-PH2500ALP")],
+        ("/generadores/para-casa/", "Preparar el inventario de cargas")),
+    "/generadores/precios/": note(
+        "Cotizá la configuración que responde a tu carga",
+        "Para obtener importes confirmados de las publicaciones Pektra/Philco registradas, en una sección distinta de los PVP Lüsqtoff históricos.",
+        "Los enlaces permiten pedir precio, vendedor y configuración para completar la calculadora con datos propios.",
+        "No se recotizaron estos referidos ni se confirmó stock. Los PVP Lüsqtoff del 27/09/2026 no son sus precios ni validan equivalencia entre equipos.",
+        ["Modelo y nominal en la misma unidad", "Fecha/hora, vendedor y precio contado/financiado", "Envío, extras, stock observado y garantía"],
+        [("https://meli.la/2jcLSy1", "Consultar precio de GPK980"), ("https://meli.la/2bL6gVj", "Consultar precio de GPK2200"), ("https://meli.la/1nUAUuv", "Consultar precio de Philco")],
+        ("/generadores/comparativa-general/", "Elegir primero por carga y documentación")),
+})
 
 
 def render_buying_note(article, product_facts):

@@ -27,7 +27,7 @@ published: true
 | PRO Stainless Steel and Metal | Corte de acero inoxidable y metal | 115 × 1,0 × 22,23 mm | 2 608 619 261 |
 | PRO Metal de desbaste | Desbaste de metal | 115 × 6 × 22,23 mm | 2 608 600 218 |
 
-**Dato verificado:** dimensiones y usos declarados por Bosch para los códigos listados. X-Lock y el montaje con tuerca son sistemas que dependen del disco exacto; comprobar el tipo de centro y la herramienta antes de instalar. La ficha del disco PRO Metal consultada describe una opción X-Lock, mientras la tabla dimensional corresponde al código 2 608 619 252.
+**Dato documentado:** dimensiones y usos declarados por Bosch para los códigos listados. X-Lock y el montaje con tuerca son sistemas que dependen del disco exacto; comprobar el tipo de centro y la herramienta antes de instalar. La ficha del disco PRO Metal consultada describe una opción X-Lock, mientras la tabla dimensional corresponde al código 2 608 619 252.
 
 **Análisis TallerLab:** el disco de desbaste de 6 mm es seis veces más grueso que la variante de corte de 1 mm y 3,75 veces más grueso que la de corte de 1,6 mm. Esas medidas describen geometría, no calidad del corte. La diferencia práctica decisiva es el uso que el fabricante declara: corte o desbaste; no elijas solo por grosor o por el diámetro exterior.
 

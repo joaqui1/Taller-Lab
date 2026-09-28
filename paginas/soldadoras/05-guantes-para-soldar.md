@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Heavy Duty Black, 0615465 | Guante de soldador general; la ficha lo agrupa con guantes Heavy Duty | Palma reforzada, pulgar palmeado y forro hasta el puño | EN 407 413X4X; EN 12477 Type A; EN 388 4134X | 350 g |
 | TIG Basic, 0700500460 | TIG | Cuero vacuno dividido y piel de cabra; sin forro | EN 407 413X4X; EN 12477 Type A; EN 388 2122X | 160 g |
 
-**Dato verificado:** las fichas ESAB publican las construcciones, masas y códigos de la tabla. La designación EN 12477 Type A y los códigos EN 388/EN 407 corresponden a esos productos concretos y a la documentación del fabricante.
+**Dato documentado:** las fichas ESAB publican las construcciones, masas y códigos de la tabla. La designación EN 12477 Type A y los códigos EN 388/EN 407 corresponden a esos productos concretos y a la documentación del fabricante.
 
 **Análisis TallerLab:** la comparación muestra diferencias comprobables (190 g entre los productos y construcción forrada frente a no forrada). No demuestra que uno sea más seguro para cualquier trabajo ni permite trasladar sus valores a guantes sin código y declaración de conformidad equivalentes. Para comprar, comprobar talla, etiqueta, daños, puño y estado del par; seguir la evaluación de riesgos del puesto y las instrucciones del fabricante.
 

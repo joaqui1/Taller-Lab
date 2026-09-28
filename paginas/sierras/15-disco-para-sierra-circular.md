@@ -34,7 +34,7 @@ Una hoja se elige por cuatro límites de compatibilidad antes de mirar cantidad 
 
 Para ver cómo cambia una especificación sin generalizar, Bosch lista una hoja 254 × 30 mm, 24 dientes ATB, 6.000 rpm máximas, y otra variante de 254 mm con 80 dientes TCG y agujero de 16 mm, también con límite de 6.000 rpm. No es prueba de que ATB o TCG siempre sean la mejor opción para un material; seguí la aplicación indicada para cada producto.
 
-**Dato verificado.** Black+Decker identifica su disco 71-727 como 7-1/4 in, agujero 5/8 in y compatible con CS1004 y CS1024. Para Stanley SC16-AR el manual da un eje de 16 mm; no tomes el disco B+D como compatible.
+**Dato documentado.** Black+Decker identifica su disco 71-727 como 7-1/4 in, agujero 5/8 in y compatible con CS1004 y CS1024. Para Stanley SC16-AR el manual da un eje de 16 mm; no tomes el disco B+D como compatible.
 
 **Desconocido.** No ensayamos cortes ni recomendamos un número universal de dientes por material.
 

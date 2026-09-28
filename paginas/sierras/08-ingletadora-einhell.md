@@ -23,7 +23,7 @@ Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La varian
 
 ## Dos modelos Einhell con capacidades publicadas
 
-| Dato verificado | TC-MS 2112 (4300295) | TC-SM 2131/2 Dual (4300390) |
+| Dato documentado | TC-MS 2112 (4300295) | TC-SM 2131/2 Dual (4300390) |
 | :--- | :--- | :--- |
 | Mecanismo | Fijo | Deslizante |
 | Disco | 210 mm | 210 mm |

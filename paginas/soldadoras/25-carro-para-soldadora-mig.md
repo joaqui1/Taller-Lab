@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Telwin Federal 803091 | 980 × 500 × 1.040 mm | 23,24 kg | Compartimento para cilindro; capacidad/tamaño no publicados en esa página | No publicado |
 | Lincoln K520/K520-1 | No localizado en manual citado | No localizado | Diámetro exterior máx. 20,6 cm; altura máx. 117 cm; peso máx. 45 kg | 45 kg soldadora sola; 90 kg soldadora + cilindro |
 
-**Dato verificado:** Telwin describe el modelo Federal 803091 con cuatro ruedas (dos giratorias), compartimento para cilindro y soporte de alimentador, e informa 980 × 500 × 1.040 mm y 23,24 kg. Lincoln documenta para K520/K520-1 los límites de cilindro y carga de la tabla.
+**Dato documentado:** Telwin describe el modelo Federal 803091 con cuatro ruedas (dos giratorias), compartimento para cilindro y soporte de alimentador, e informa 980 × 500 × 1.040 mm y 23,24 kg. Lincoln documenta para K520/K520-1 los límites de cilindro y carga de la tabla.
 
 **Análisis TallerLab:** antes de elegir, medir la huella de la máquina con conectores, la base y diámetro real del cilindro, el espacio de mangueras/cables y el recorrido de las ruedas. La tabla muestra dos diseños: Telwin publica dimensiones externas pero no capacidad; Lincoln sí pone límites de carga y cilindro en el manual consultado. No se debe inferir resistencia máxima para el Telwin por su peso propio.
 

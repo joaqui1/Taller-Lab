@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Comet KM Extra 8.16 16/200 T, C2586AR | Agua caliente, 400 V trifásica | 190 bar nominales hasta 108 °C | 200 bar hasta 108 °C; 32 bar máx. hasta 140 °C | 15 L/min nominales; 16 L/min máx. |
 | Gamma Omega Hynox 200, G2028AR | Con caldera; alimentación trifásica | La ficha publica 14,5 MPa | 15 MPa (150 bar) | No localizada en ficha consultada |
 
-**Dato verificado:** Gamma publica para la Comet KM Extra 8.16 presión nominal de 190 bar y máxima de 200 bar con salida hasta 108 °C; al elevar la temperatura máxima de salida a 140 °C, la ficha indica presión máxima de 32 bar. Para Gamma Omega Hynox 200, la ficha lista 14,5 MPa de presión y 15 MPa de presión máxima (150 bar). El «200» de este segundo nombre no corresponde a una presión de 200 bar en la ficha consultada.
+**Dato documentado:** Gamma publica para la Comet KM Extra 8.16 presión nominal de 190 bar y máxima de 200 bar con salida hasta 108 °C; al elevar la temperatura máxima de salida a 140 °C, la ficha indica presión máxima de 32 bar. Para Gamma Omega Hynox 200, la ficha lista 14,5 MPa de presión y 15 MPa de presión máxima (150 bar). El «200» de este segundo nombre no corresponde a una presión de 200 bar en la ficha consultada.
 
 **Análisis TallerLab:** el cuadro encuentra dos datos que impiden decidir por la cifra del título: la Comet sí publica 200 bar, pero es trifásica y calentadora; la Omega «200» no llega a 200 bar según su ficha. Presión, temperatura, tensión y caudal describen equipos distintos y no son sustitutos entre sí. Para una instalación residencial, comprobar alimentación eléctrica, caudal disponible y manual del código exacto antes de comparar.
 

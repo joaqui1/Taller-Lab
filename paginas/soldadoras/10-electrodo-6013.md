@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | ESAB LBL BW E6013 | 2,5 mm | 70–90 A |
 | ESAB LBL BW E6013 | 3,2 mm | 95–125 A |
 
-**Dato verificado:** ambas fuentes identifican sus productos como E6013 y publican los rangos de corriente listados. Aunque las clasificaciones coinciden, las tablas son de líneas comerciales distintas y usan diámetros/presentaciones propios.
+**Dato documentado:** ambas fuentes identifican sus productos como E6013 y publican los rangos de corriente listados. Aunque las clasificaciones coinciden, las tablas son de líneas comerciales distintas y usan diámetros/presentaciones propios.
 
 **Análisis TallerLab:** para 3,2 mm, los dos rangos publicados se superponen entre 120 y 125 A, pero sus extremos difieren. Esto muestra por qué la corriente debe tomarse de la caja/ficha del fabricante del electrodo y ajustarse a la fuente y aplicación; no se puede formar una tabla universal sumando marcas. No se recomienda un amperaje para una pieza desconocida.
 

@@ -30,7 +30,7 @@ published: true
 | Peso | 2,0 kg sin batería; 2,8 kg con batería | No publicado en ficha consultada |
 | Batería y cargador | Bosch 18 V compatibles; la ficha depende de variante/kit | Se venden por separado |
 
-**Dato verificado:** las especificaciones se refieren a Bosch 0 601 9G3 E0B y al INGCO CAGLI1151 de la ficha oficial. La página INGCO no confirma disponibilidad en Argentina; la ficha Bosch sí pertenece al sitio regional argentino.
+**Dato documentado:** las especificaciones se refieren a Bosch 0 601 9G3 E0B y al INGCO CAGLI1151 de la ficha oficial. La página INGCO no confirma disponibilidad en Argentina; la ficha Bosch sí pertenece al sitio regional argentino.
 
 **Análisis TallerLab:** en estos dos códigos la herramienta Bosch admite un disco de 10 mm mayor y publica 500 rpm más sin carga. Es una diferencia de catálogo, no un ensayo de corte. Las etiquetas de 18 V y 20 V pertenecen a plataformas distintas y no permiten deducir autonomía, potencia bajo carga o compatibilidad cruzada.
 

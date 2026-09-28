@@ -2,7 +2,7 @@
 title: "Taladro percutor: cuál comprar y cómo elegirlo"
 h1: "Cómo elegir un taladro percutor"
 url: "/taladros/percutores/"
-description: "Matriz documental que distingue frecuencia de impactos, energía declarada, mandril y encastre SDS."
+description: "Elegí entre percusión y SDS por material, encastre y capacidades documentadas. Evaluá el kit Ingco sin atribuirle los datos de los ejemplos Bosch."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro percutor", "taladro percutor comprar", "percutor con cable", "taladro percutor bateria", "taladro para pared"]
@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Decisión de herramienta: percusión mecánica o mecanismo SDS"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -28,7 +28,7 @@ published: true
 | Inserción de accesorio | Mandril de 13 mm en el GSB 18V-50 | SDS plus en el GBH 220 |
 | Límite verificable | La ficha consultada no expresa energía por golpe | 22 mm máximo en hormigón para GBH 220 |
 
-**Dato verificado:** estas cifras describen dos ejemplos concretos, no todos los taladros percutores ni todos los rotomartillos. El GSB 18V-50 es un modelo a batería de 18 V; la cifra de 27.000 impactos/min aparece en su ficha de fabricante. Bosch publica 2,0 J y 22 mm como datos del GBH 220.
+**Dato documentado:** estas cifras describen dos ejemplos concretos, no todos los taladros percutores ni todos los rotomartillos. El GSB 18V-50 es un modelo a batería de 18 V; la cifra de 27.000 impactos/min aparece en su ficha de fabricante. Bosch publica 2,0 J y 22 mm como datos del GBH 220.
 
 **Análisis TallerLab:** las unidades publicadas no permiten comparar directamente “impactos por minuto” con “joules”. La primera expresa frecuencia; la segunda, energía por impacto según la ficha. Para elegir por documentación, primero verificá el material y diámetro requeridos, luego el tipo de mandril y el límite que publica el fabricante. No inferimos velocidad de perforación ni superioridad a partir de estas magnitudes diferentes.
 
@@ -43,6 +43,14 @@ published: true
 | Usar brocas cilíndricas de varios diámetros | Apertura y tipo de mandril | Que cualquier broca admita percusión |
 | Usar accesorios SDS plus | Que el equipo tenga portaherramientas SDS plus | Que SDS plus sea intercambiable con SDS max |
 | Taladrar mampostería | Capacidad indicada para material y diámetro | Que los impactos/min sean energía por golpe |
+
+## Una opción comercial de percutor inalámbrico
+
+El kit [Ingco CIDLI20668-4](https://meli.la/2xvJRJp) está registrado como percutor a batería con mandril de 13 mm, 20 V y 66 Nm anunciados, dos baterías y cargador. Es un enlace de afiliado; las cifras y el contenido provienen de la [publicación comercial](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463).
+
+**Análisis TallerLab:** puede entrar en tu evaluación si buscás un percutor inalámbrico con mandril convencional y un kit de inicio. Pedí código completo, Ah/códigos de baterías, tensión del cargador y manual de la variante antes de elegir. No le atribuimos las capacidades del GSB 18V-50 ni energía/encastre SDS del GBH 220.
+
+**Desconocido:** no se confirmó la equivalencia de ese sufijo -4 con la [ficha oficial CIDLI20668](https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668), ni sus diámetros máximos por material. La oferta no permite concluir que sustituya un rotomartillo. Consultá la [guía del percutor inalámbrico](/taladros/taladro-percutor-inalambrico/) y la [comparación de plataformas a batería](/taladros/inalambricos/) según la decisión que necesites resolver.
 
 ## Fuentes consultadas
 

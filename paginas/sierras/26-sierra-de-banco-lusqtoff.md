@@ -19,7 +19,7 @@ published: true
 
 # Sierra de banco Lusqtoff: qué modelo conviene para tu taller
 
-Las fichas actuales y un catálogo de Lüsqtoff no expresan de igual modo la potencia y el disco de SML2000-8. Registramos la diferencia sin resolverla por suposición. **Dato verificado** significa aquí que la cifra aparece en el documento citado, no que haya sido medida por TallerLab.
+Las fichas actuales y un catálogo de Lüsqtoff no expresan de igual modo la potencia y el disco de SML2000-8. Registramos la diferencia sin resolverla por suposición. **Dato documentado** significa aquí que la cifra aparece en el documento citado, no que haya sido medida por TallerLab.
 
 ## Tres códigos de banco y una discrepancia documental
 

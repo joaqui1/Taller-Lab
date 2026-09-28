@@ -13,7 +13,7 @@ PAGES = {
 | Konan KGE/800 | 650 W | 800 W | 2 tiempos, 63 cm³, 220 V–50 Hz, tanque 4 L y 4,5 h declaradas | Sitio del representante exclusivo publica ficha y manual |
 | Gamma GE3441AR / 950 | El fabricante llama al campo «energía generada contenida»: 0,57 kW | 0,87 kW | 2 tiempos, 63 cm³, producto discontinuado | Ficha oficial; el nombre del campo no se sustituye por «potencia nominal» |
 
-**Dato verificado:** Konan informa 650 W nominales y 800 W máximos para KGE/800. Para Pektra GPK980, la fuente consultada es una publicación comercial cuyo título dice 720 W; una página de comercio que reproduce datos del vendedor enumera 650 W nominales y 720 W máximos. No localizamos documentación primaria del fabricante Pektra que confirme esos valores. Gamma publica para el GE3441AR máximo de 0,87 kW y «energía generada contenida» de 0,57 kW.
+**Dato documentado:** Konan informa 650 W nominales y 800 W máximos para KGE/800. Para Pektra GPK980, la fuente consultada es una publicación comercial cuyo título dice 720 W; una página de comercio que reproduce datos del vendedor enumera 650 W nominales y 720 W máximos. No localizamos documentación primaria del fabricante Pektra que confirme esos valores. Gamma publica para el GE3441AR máximo de 0,87 kW y «energía generada contenida» de 0,57 kW.
 
 **Análisis TallerLab:** en KGE/800, el valor máximo supera el nominal en 150 W (23,1 % sobre 650 W). En Pektra GPK980 la diferencia sería 70 W (10,8 %) si la cifra nominal de 650 W de la publicación comercial se confirma. Estas restas no son una prueba de arranque de motores ni de compatibilidad con una carga concreta; para seleccionar hay que cotejar potencia de funcionamiento y pico de arranque en las placas/manuales de los equipos conectados.
 
@@ -34,7 +34,7 @@ PAGES = {
 | Honda EZ6500CXS | 5,5 kVA | 6,5 kVA | 220 V, monofásico | El pico no es la potencia nominal de servicio |
 | Gamma GE3481AR 6000V | 5,5 kW | 6,0 kW | 220 VCA, salida auxiliar 12 VCC | La ficha identifica los valores en kW |
 
-**Dato verificado:** las fichas de Honda separan nominal y máximo en kVA; Gamma publica para GE3481AR 5,5 kW de potencia y 6 kW máxima. No convertimos kVA a kW sin el factor de potencia aplicable a la carga.
+**Dato documentado:** las fichas de Honda separan nominal y máximo en kVA; Gamma publica para GE3481AR 5,5 kW de potencia y 6 kW máxima. No convertimos kVA a kW sin el factor de potencia aplicable a la carga.
 
 ### Una cuenta de carga que sí puede repetirse
 
@@ -59,7 +59,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | Hyundai 073G | 6.400 W | 5.800 W | 456 cm³; insonorizado según título comercial | El vendedor publica 6,5 h, pero no indica carga de ensayo |
 | Hyundai 080G | 8 kVA máximo | Desconocida | Trifásico; 456 cm³ | La página alterna rótulos kVA y kW en sus datos; confirmar placa |
 
-**Dato verificado:** el sitio local de Hyundai Herramientas lista los códigos 070G, 071G y 073G en su familia de generadores diésel. Sus fichas comerciales publican 8.000 W máximos para 070G y 071G; para 073G publican 5.800 W continuos y 6.400 W máximos. La ficha del 080G lo titula 8 kVA, mientras otros campos usan W; señalamos esa inconsistencia para cotejo con la placa y manual.
+**Dato documentado:** el sitio local de Hyundai Herramientas lista los códigos 070G, 071G y 073G en su familia de generadores diésel. Sus fichas comerciales publican 8.000 W máximos para 070G y 071G; para 073G publican 5.800 W continuos y 6.400 W máximos. La ficha del 080G lo titula 8 kVA, mientras otros campos usan W; señalamos esa inconsistencia para cotejo con la placa y manual.
 
 **Análisis TallerLab:** solo para 073G pueden calcularse ambas potencias desde los datos publicados: 6.400 − 5.800 = 600 W (10,3 % sobre la continua). No asignamos 5.800 W continuos a los códigos 070G o 071G por similitud de cilindrada o presentación. “Uso continuo 6,5 h” es duración declarada sin una carga identificada y no equivale a ciclo de trabajo ilimitado.
 
@@ -78,7 +78,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | EcoFlow DELTA 2 | 1.024 Wh | 1.800 W | 2.700 W | Manual regional UE, 230 V |
 | BLUETTI AC70 | 768 Wh | 1.000 W | No se usa aquí un dato de pico | Catálogo del fabricante; variantes de tomacorriente por región |
 
-**Dato verificado:** el manual EcoFlow separa 1.024 Wh de capacidad de batería y 1.800 W de salida CA (2.700 W de pico). El catálogo BLUETTI declara para AC70 768 Wh y 1.000 W. Wh describe energía almacenada; W de salida describe el límite de potencia instantánea declarado.
+**Dato documentado:** el manual EcoFlow separa 1.024 Wh de capacidad de batería y 1.800 W de salida CA (2.700 W de pico). El catálogo BLUETTI declara para AC70 768 Wh y 1.000 W. Wh describe energía almacenada; W de salida describe el límite de potencia instantánea declarado.
 
 ### Una estimación matemática, no una prueba de autonomía
 
@@ -108,7 +108,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | Arranque y batería | Eléctrico; batería no incluida | Confirmar batería compatible y estado en la unidad concreta |
 | Autonomía | La página de producto y manuales consultados no ofrecen una condición uniforme | No se publica como duración garantizada a una carga especificada |
 
-**Dato verificado:** Gamma marca el 6500V como discontinuado y lo identifica como GE3466AR. La ficha del fabricante publica 5,5 kW continuos y 6 kW máximos; informa 389 cm³, tanque de 25 L, arranque eléctrico y aclara que la batería no viene incluida.
+**Dato documentado:** Gamma marca el 6500V como discontinuado y lo identifica como GE3466AR. La ficha del fabricante publica 5,5 kW continuos y 6 kW máximos; informa 389 cm³, tanque de 25 L, arranque eléctrico y aclara que la batería no viene incluida.
 
 **Análisis TallerLab:** la potencia máxima publicada supera la continua en 500 W, equivalente a 9,1 % de la cifra continua. Para dimensionar una carga, la referencia debe ser la potencia continua y las instrucciones del manual del ejemplar; el margen máximo no se trata como régimen prolongado. Como el producto está discontinuado, una publicación comercial actual no prueba disponibilidad de repuestos, garantía o condición de una unidad usada.
 
@@ -130,7 +130,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | Motor y combustible | 2 tiempos, 63 cm³ | Gamma indica motor naftero 2T; no inferimos mezcla exacta sin seguir el manual |
 | Estado | Discontinuado | Confirmado en la página oficial Gamma |
 
-**Dato verificado:** Gamma publica para el modelo 950 GE3441AR 0,87 kW de potencia máxima y 0,57 kW bajo el campo «energía generada contenida», además de 220 V–50 Hz, motor naftero de 2 tiempos, tanque de 4,2 L y 22 kg. La marca indica que el producto está discontinuado.
+**Dato documentado:** Gamma publica para el modelo 950 GE3441AR 0,87 kW de potencia máxima y 0,57 kW bajo el campo «energía generada contenida», además de 220 V–50 Hz, motor naftero de 2 tiempos, tanque de 4,2 L y 22 kg. La marca indica que el producto está discontinuado.
 
 **Análisis TallerLab:** 0,87 − 0,57 = 0,30 kW (300 W); el máximo publicado es 52,6 % mayor que el valor de «energía generada contenida». Ese cálculo deja ver dos cifras distintas en la ficha, pero no determina por sí mismo cuántos watts puede sostener el equipo en uso prolongado: Gamma no define el segundo rótulo en la página consultada. No transformamos esas cifras en recomendación para cargas concretas.
 
@@ -152,7 +152,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | GE3466AR / 6500V | Discontinuado | 5,5 / 6,0 kW | 25 L | La página y los documentos consultados no dan una condición homogénea |
 | GE3441AR / 950 | Discontinuado | Máx. 0,87 kW; otro campo dice 0,57 kW «energía generada contenida» | 4,2 L | La página indica 2,8 h, sin carga de ensayo explícita |
 
-**Dato verificado:** Gamma publica para GE3480AR y GE3481AR potencias, autonomías por carga y tanques distintos. Para los códigos antiguos GE3464AR y GE3466AR, el archivo oficial de discontinuados los identifica como tales y su manual de serie V conserva especificaciones. El manual de GE3464AR expresa dos cifras de potencia, pero la transcripción consultada no conserva de forma clara los rótulos de columna; se muestran como par del documento y no se equiparan con la misma nomenclatura de las fichas actuales.
+**Dato documentado:** Gamma publica para GE3480AR y GE3481AR potencias, autonomías por carga y tanques distintos. Para los códigos antiguos GE3464AR y GE3466AR, el archivo oficial de discontinuados los identifica como tales y su manual de serie V conserva especificaciones. El manual de GE3464AR expresa dos cifras de potencia, pero la transcripción consultada no conserva de forma clara los rótulos de columna; se muestran como par del documento y no se equiparan con la misma nomenclatura de las fichas actuales.
 
 **Análisis TallerLab:** al pasar de GE3480AR a GE3481AR, el tanque aumenta 10 L (66,7 % respecto de 15 L) y la autonomía publicada a media carga baja de 13 a 10 h. No se debe interpretar como comparación de eficiencia sin mismo procedimiento y salida comparable. En el GE3441AR tampoco convertimos 0,57 kW en potencia nominal, porque Gamma usa otro rótulo.
 
@@ -176,7 +176,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | Peso en seco | 87 kg | 80 kg |
 | Regulación | D-AVR | AVR |
 
-**Dato verificado:** Honda lista para EG6500CXS 5,0 kVA nominales y 5,5 kVA máximos, con tanque de 24 L y 8,1 h declaradas. Para EZ6500CXS publica 5,5 kVA nominales y 6,5 kVA máximos, tanque de 15,5 L y 5,8 h. Ambas fichas informan motor GX390 de 389 cm³ y 220 V–50 Hz.
+**Dato documentado:** Honda lista para EG6500CXS 5,0 kVA nominales y 5,5 kVA máximos, con tanque de 24 L y 8,1 h declaradas. Para EZ6500CXS publica 5,5 kVA nominales y 6,5 kVA máximos, tanque de 15,5 L y 5,8 h. Ambas fichas informan motor GX390 de 389 cm³ y 220 V–50 Hz.
 
 **Análisis TallerLab:** el EZ6500CXS declara 1,0 kVA más de máximo que el EG6500CXS (18,2 % sobre 5,5 kVA), mientras el EG informa 8 kg más de peso en seco y 8,5 L más de capacidad de combustible. Las autonomías declaradas no permiten comparar rendimiento porque no se especifica una condición de carga equivalente. El número «6500» del EZ no debe sustituir la potencia nominal impresa en la ficha.
 
@@ -198,7 +198,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | EZ6500CXS | 5,5 kVA | 6,5 kVA | 220 V monofásica; AVR | 80 kg |
 | ET12000 | 11 kVA máxima publicada | 12 kVA nominal: desconocido en el fragmento consultado | 220/380 V, monofásico y trifásico; AVR | 162 kg |
 
-**Dato verificado:** las fichas oficiales de Honda permiten separar EU22i y EU30is, que identifican regulación inverter y potencias distintas, de EG/EZ6500CXS con AVR o D-AVR. La ficha de ET12000 lo describe como salida mono/trifásica 220/380 V y publica 11 kVA máximos. No inventamos una potencia nominal ausente en el fragmento usado.
+**Dato documentado:** las fichas oficiales de Honda permiten separar EU22i y EU30is, que identifican regulación inverter y potencias distintas, de EG/EZ6500CXS con AVR o D-AVR. La ficha de ET12000 lo describe como salida mono/trifásica 220/380 V y publica 11 kVA máximos. No inventamos una potencia nominal ausente en el fragmento usado.
 
 **Análisis TallerLab:** EU30is declara 1,2 kVA más de potencia máxima que EU22i (54,5 % respecto de 2,2 kVA), y pesa 38 kg más. Esta comparación de ficha no determina autonomía, nivel sonoro en una misma condición ni adecuación a una herramienta. En los modelos rotulados 6500, la potencia nominal tampoco coincide; conviene comparar el código completo, no el número comercial.
 
@@ -218,7 +218,7 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
 | HHY2200F | 2.000 W | 2.200 W | 210 cm³ | 8 h |
 | HHY3000FE | 2.500 W | 2.800 W | 210 cm³ | 8 h |
 
-**Dato verificado:** la tienda Hyundai Herramientas para Argentina publica para HYH960A 720 W continuos y 800 W máximos; para HHY2200F 2.000/2.200 W; y para HHY3000FE 2.500/2.800 W. Son datos de sus fichas comerciales y deben cotejarse con manual/placa de la unidad; las páginas consultadas también señalan falta de stock en varios productos.
+**Dato documentado:** la tienda Hyundai Herramientas para Argentina publica para HYH960A 720 W continuos y 800 W máximos; para HHY2200F 2.000/2.200 W; y para HHY3000FE 2.500/2.800 W. Son datos de sus fichas comerciales y deben cotejarse con manual/placa de la unidad; las páginas consultadas también señalan falta de stock en varios productos.
 
 **Análisis TallerLab:** las diferencias máxima menos continua son 80 W en HYH960A, 200 W en HHY2200F y 300 W en HHY3000FE. Respecto de su potencia continua, equivalen a 11,1 %, 10 % y 12 %. El porcentaje compara únicamente cada ficha consigo misma; no representa potencia de arranque comprobada ni rendimiento.
 
@@ -263,7 +263,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

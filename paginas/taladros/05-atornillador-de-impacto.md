@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir un atornillador de impacto
 
-**Dato verificado:** comparamos dos herramientas de impacto Bosch con interfaz distinta y el DeWalt DCF887 con modos documentados. El nombre comercial “de impacto” no alcanza para determinar qué accesorio admite cada modelo.
+**Dato documentado:** comparamos dos herramientas de impacto Bosch con interfaz distinta y el DeWalt DCF887 con modos documentados. El nombre comercial “de impacto” no alcanza para determinar qué accesorio admite cada modelo.
 
 ## Atornillador de impacto: hexagonal de 1/4 in frente a cuadrado de 1/2 in
 
@@ -31,7 +31,7 @@ published: true
 
 **Análisis TallerLab.** La comparación propia es funcional: el GDX combina dos encastres; GDR y DCF887 citados tienen portapuntas hexagonal. Una llave de impacto con cuadrado de 1/2 in se elige para dados, y no debe confundirse con un atornillador que solo sujeta puntas de 1/4 in. Aunque el GDX publica 350 Nm de arranque, ese número no se compara con los 200–205 Nm de apriete de los otros equipos: son magnitudes/condiciones diferentes.
 
-**Dato verificado.** Bosch publica 200 Nm para GDR 18V-200, y para GDX 18V-200 diferencia torque máximo y torque de arranque. DeWalt ofrece tres modos de control en el DCF887. Estas fichas permiten identificar compatibilidad y ajuste, no el resultado en una fijación específica.
+**Dato documentado.** Bosch publica 200 Nm para GDR 18V-200, y para GDX 18V-200 diferencia torque máximo y torque de arranque. DeWalt ofrece tres modos de control en el DCF887. Estas fichas permiten identificar compatibilidad y ajuste, no el resultado en una fijación específica.
 
 **Desconocido.** No medimos fuerza de apriete, precisión, vibración ni desempeño con un accesorio concreto. Confirmá retención, dimensiones del vástago, clasificación de impacto de la punta/dado y el manual antes de usar.
 

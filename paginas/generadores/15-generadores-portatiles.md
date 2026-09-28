@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Honda EU22i | 1,8 / 2,2 kVA | 21 kg | Nafta, 3,6 L | 8,1 h en ECO-THROTTLE; ficha también indica 3,2 h en otra condición |
 | Honda EU30is | 2,8 / 3,0 kVA | 59 kg | Nafta, 13 L | 20 h en ECO-THROTTLE; 7,1 h en otra condición de la ficha |
 
-**Dato verificado:** ambas fichas Honda identifican modelos portátiles monofásicos, con salida de 220 V y tecnología inverter. EU30is declara 0,8 kVA más de máximo que EU22i, mientras pesa 38 kg más; sus tanques son 13 L y 3,6 L, respectivamente. La marca publica dos valores de uso continuo según condición en cada ficha.
+**Dato documentado:** ambas fichas Honda identifican modelos portátiles monofásicos, con salida de 220 V y tecnología inverter. EU30is declara 0,8 kVA más de máximo que EU22i, mientras pesa 38 kg más; sus tanques son 13 L y 3,6 L, respectivamente. La marca publica dos valores de uso continuo según condición en cada ficha.
 
 **Análisis TallerLab:** esta pareja muestra una compensación documental entre capacidad máxima y masa: la diferencia de peso equivale a 181 % del peso seco del EU22i, mientras el máximo sube 36,4 % respecto de 2,2 kVA. Es una división de datos de ficha, no una medida de facilidad real de traslado o rendimiento por kilogramo. Autonomías y tanque no se ordenan sin una carga común.
 

@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una sensitiva para cortar metal
 
-**Dato verificado:** las dos fichas oficiales publican máximos diferentes para los perfiles listados. Las capacidades dependen de la forma de la pieza; no se extrapolan a otros cortes.
+**Dato documentado:** las dos fichas oficiales publican máximos diferentes para los perfiles listados. Las capacidades dependen de la forma de la pieza; no se extrapolan a otros cortes.
 
 ## Capacidad por perfil: no la deduzcas del diámetro
 

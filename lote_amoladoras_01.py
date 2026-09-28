@@ -12,7 +12,7 @@ PAGES = {
 | PRO Concrete, 2 608 602 651 | Hormigón | 115 / 22,23 mm | 2,2 mm | 12 mm |
 | EXPERT Multi Material, 2 608 900 659 | Hormigón, ladrillo, teja y hormigón armado | 115 / 22,23 mm | 2,2 mm | 12 mm |
 
-**Dato verificado:** la tabla transcribe medidas y aplicaciones de dos discos Bosch de 115 mm. Ambos aparecen con segmento de 12 mm; el segundo amplía en su ficha la lista de materiales. Esto no convierte a los discos en aptos para cualquier piedra o material de construcción.
+**Dato documentado:** la tabla transcribe medidas y aplicaciones de dos discos Bosch de 115 mm. Ambos aparecen con segmento de 12 mm; el segundo amplía en su ficha la lista de materiales. Esto no convierte a los discos en aptos para cualquier piedra o material de construcción.
 
 **Declaración del fabricante:** Bosch describe los segmentos del EXPERT Multi Material como soldados con láser y sus laterales estriados para evacuar polvo. Para PRO Concrete la ficha identifica su uso en hormigón. Las páginas no atribuyen a TallerLab pruebas de velocidad, temperatura o vida útil.
 
@@ -48,7 +48,7 @@ PAGES = {
 | 2 608 619 008 | Angular T29 | 40 | 115 / 22,23 mm | La ficha de esta variante no mostró el dato en el recorte consultado |
 | 2 608 619 010 | Angular T29 | 80 | 115 / 22,23 mm | 13.300 rpm |
 
-**Dato verificado:** las fichas Bosch identifican X571 con grano de circonio y uso de desbaste de metal. Los modelos rectos y angulares se ofrecen con varios granos; las tablas distinguen el código consultado para que no se atribuyan todos los datos a la familia completa.
+**Dato documentado:** las fichas Bosch identifican X571 con grano de circonio y uso de desbaste de metal. Los modelos rectos y angulares se ofrecen con varios granos; las tablas distinguen el código consultado para que no se atribuyan todos los datos a la familia completa.
 
 **Análisis TallerLab:** entre los códigos rectos 322 y 324 cambia el grano de 40 a 80, pero el diámetro, orificio y límite de rpm publicado coinciden. Esto permite filtrar accesorios por acabado buscado, pero no predice por sí solo cuánto material quitará por minuto ni la terminación real. La forma recta o angular también debe corresponder al apoyo y la aplicación indicados por el fabricante.
 
@@ -81,7 +81,7 @@ PAGES = {
 | PRO Ceramic, 2 608 602 478 | Segmento turbo | 115 / 22,23 mm | 1,4 mm | 7 mm |
 | EXPERT HardCeramic, 2 608 900 654 | Borde continuo | 115 / 22,23 mm | 1,4 mm | 10 mm |
 
-**Dato verificado:** Bosch describe ambos productos para corte de azulejos/cerámica. Las fichas publican la misma medida nominal de 115 mm, agujero de 22,23 mm y ancho de corte de 1,4 mm; difieren en el diseño declarado del borde y la altura publicada.
+**Dato documentado:** Bosch describe ambos productos para corte de azulejos/cerámica. Las fichas publican la misma medida nominal de 115 mm, agujero de 22,23 mm y ancho de corte de 1,4 mm; difieren en el diseño declarado del borde y la altura publicada.
 
 **Declaración del fabricante:** Bosch atribuye al disco PRO Ceramic un segmento turbo y al EXPERT HardCeramic un borde continuo diseñado para cortes de precisión en baldosas duras. Las promesas de precisión y menor desconchado son afirmaciones del fabricante, no resultados propios de TallerLab.
 
@@ -117,7 +117,7 @@ PAGES = {
 | ¿Se puede trasladar una recomendación de cortavidrios manual a una amoladora? | No; son herramientas y procesos diferentes |
 | ¿Qué debe confirmar una ficha antes de usar disco rotativo? | Tipo de vidrio, máquina, diámetro, agujero, rpm, montaje y resguardo |
 
-**Dato verificado:** Bosch indica en su FAQ de accesorios que no ofrece actualmente una hoja diamantada para vidrio en su gama consultada. Esto describe el catálogo de Bosch, no prueba que ningún fabricante venda un accesorio específico para vidrio.
+**Dato documentado:** Bosch indica en su FAQ de accesorios que no ofrece actualmente una hoja diamantada para vidrio en su gama consultada. Esto describe el catálogo de Bosch, no prueba que ningún fabricante venda un accesorio específico para vidrio.
 
 **Análisis TallerLab:** una oferta que diga “diamantado”, “cerámica” o “multiuso” no acredita por sí sola que el accesorio sea apto para cortar vidrio. En las fuentes consultadas no encontramos un disco Bosch para esa aplicación; por eso no publicamos una combinación de disco, vidrio y amoladora como recomendación verificada. La matriz anterior identifica qué dato debe aparecer en una fuente del fabricante antes de seguir.
 
@@ -149,7 +149,7 @@ PAGES = {
 | Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
 | Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
-**Dato verificado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
+**Dato documentado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
 
 **Análisis TallerLab:** para evitar confusiones, identificá primero la operación (cortar, desbastar o lijar), luego el material y finalmente las dimensiones. En los ejemplos, el disco rígido de desbaste mide 6 mm de espesor, frente a 1,6 mm del disco de corte; el flap es un accesorio de láminas abrasivas. El diámetro común de 115 mm no hace que estos usos sean intercambiables.
 
@@ -184,7 +184,7 @@ PAGES = {
 | 9993220.9 / AA115SP2 | 1.050 W | 115 mm | 12.000 rpm | No indicado como variable | M14 (5/8–11) |
 | 9993224.2 / AA125SPL | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | M14 (5/8–11) |
 
-**Dato verificado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
+**Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
 
 **Análisis TallerLab:** el 9993220.9 declara 150 W más que el 9993220.7 y ambos publican 12.000 rpm sin carga y 115 mm. El 9993224.2 suma control variable y acepta 115/125 mm según el catálogo. Estas diferencias ayudan a identificar funciones y consumibles, pero no prueban más rapidez o calidad en uso.
 
@@ -221,7 +221,7 @@ PAGES = {
 | Accesorios publicados | 5 discos de corte, 5 discos de desbaste y maletín | Mango, guarda y llave según página de producto |
 | Alimentación | 220 VCA / 50 Hz | 220 VCA / 50 Hz |
 
-**Dato verificado:** los datos proceden de las páginas oficiales Gamma para estos dos SKU. Gamma denomina el primero G1910KAR y al segundo G1917AR; no usar el sufijo “KAR” para asumir que otro modelo incluye accesorios.
+**Dato documentado:** los datos proceden de las páginas oficiales Gamma para estos dos SKU. Gamma denomina el primero G1910KAR y al segundo G1917AR; no usar el sufijo “KAR” para asumir que otro modelo incluye accesorios.
 
 **Análisis TallerLab:** ambos modelos publican 11.000 rpm y disco de 115 mm. El G1917AR declara 100 W más; la diferencia útil del kit G1910KAR está en el contenido de caja publicado. No verificamos si el conjunto de discos cubre la tarea del comprador ni comparamos el precio del paquete con compras por separado.
 
@@ -258,7 +258,7 @@ PAGES = {
 | Peso | 2,0 kg sin batería; 2,8 kg con batería | No publicado en ficha consultada |
 | Batería y cargador | Bosch 18 V compatibles; la ficha depende de variante/kit | Se venden por separado |
 
-**Dato verificado:** las especificaciones se refieren a Bosch 0 601 9G3 E0B y al INGCO CAGLI1151 de la ficha oficial. La página INGCO no confirma disponibilidad en Argentina; la ficha Bosch sí pertenece al sitio regional argentino.
+**Dato documentado:** las especificaciones se refieren a Bosch 0 601 9G3 E0B y al INGCO CAGLI1151 de la ficha oficial. La página INGCO no confirma disponibilidad en Argentina; la ficha Bosch sí pertenece al sitio regional argentino.
 
 **Análisis TallerLab:** en estos dos códigos la herramienta Bosch admite un disco de 10 mm mayor y publica 500 rpm más sin carga. Es una diferencia de catálogo, no un ensayo de corte. Las etiquetas de 18 V y 20 V pertenecen a plataformas distintas y no permiten deducir autonomía, potencia bajo carga o compatibilidad cruzada.
 
@@ -293,7 +293,7 @@ PAGES = {
 | AG200018 | India | 2.000 W | 180 mm | 8.450 rpm | M14 |
 | CAGLI1151 | Ficha global | 20 V | 115 mm | 8.500 rpm | M14 |
 
-**Dato verificado:** cada fila corresponde a un código de la documentación oficial INGCO. Las páginas corresponden a mercados distintos y no prueban la disponibilidad, tensión de red o garantía de esos modelos en Argentina. AG750282 admite 100 mm, no 115 mm; no confundas variantes por la potencia publicada.
+**Dato documentado:** cada fila corresponde a un código de la documentación oficial INGCO. Las páginas corresponden a mercados distintos y no prueban la disponibilidad, tensión de red o garantía de esos modelos en Argentina. AG750282 admite 100 mm, no 115 mm; no confundas variantes por la potencia publicada.
 
 **Análisis TallerLab:** las fichas muestran que “amoladora INGCO” no identifica un único tamaño: esta selección cubre 100, 115 y 180 mm. El AG200018 declara 1.250 W más que el AG8508 y un diámetro 65 mm mayor, pero publica una velocidad en vacío menor; no se deduce de esos números el ritmo o la calidad de corte. CAGLI1151 usa una plataforma de batería y no se compara por vatios con los modelos con cable.
 
@@ -327,7 +327,7 @@ PAGES = {
 | AML1010-8 | Cable | 1.010 W; 220 V~50 Hz | Hasta 125 mm | Variable, 0–11.000 rpm; seis posiciones | 2,60 kg |
 | AML115-9B | Batería Iron Volt | 18 V | 115 mm | 0–8.500 rpm | 2,1 kg |
 
-**Dato verificado:** AML850-8 y AML1010-8 aparecen en el catálogo Lusqtoff 2024–2025; AML115-9B figura en el catálogo de herramientas inalámbricas Black Series. El peso y la configuración corresponden a esos códigos, no a toda la marca.
+**Dato documentado:** AML850-8 y AML1010-8 aparecen en el catálogo Lusqtoff 2024–2025; AML115-9B figura en el catálogo de herramientas inalámbricas Black Series. El peso y la configuración corresponden a esos códigos, no a toda la marca.
 
 **Análisis TallerLab:** AML1010-8 declara 160 W más que AML850-8 y agrega velocidad variable y soporte de disco de hasta 125 mm en catálogo. AML115-9B es inalámbrica y la ficha actual indica que no incluye batería ni cargador. Las rpm máximas publicadas no permiten comparar corte bajo carga entre cable y batería.
 

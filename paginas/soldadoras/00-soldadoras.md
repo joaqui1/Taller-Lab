@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -40,7 +40,7 @@ published: true
 | TIG/GTAW | Varilla de aporte si corresponde y antorcha TIG | Gas externo según consumible/procedimiento | Corriente AC/DC, material y control térmico |
 | Soldadura por resistencia/punto | Electrodos de cobre de la máquina | No usa alambre/electrodo consumible revestido | Espesor, geometría, presión/corriente/tiempo que especifique el equipo |
 
-**Dato verificado:** ESAB identifica la HandyArc MIG 160i para MIG/MAG, alambre tubular y electrodo; su familia HandyArc 162i se especifica para MMA. ESAB Weld 70S-6 declara clasificación ER70S-6 y gas C1/M21; Lincoln identifica productos E71T-GS y E71T-11 como alambres tubulares autoprotegidos. Las fuentes citadas documentan esos productos concretos, no todos los consumibles con nombres similares.
+**Dato documentado:** ESAB identifica la HandyArc MIG 160i para MIG/MAG, alambre tubular y electrodo; su familia HandyArc 162i se especifica para MMA. ESAB Weld 70S-6 declara clasificación ER70S-6 y gas C1/M21; Lincoln identifica productos E71T-GS y E71T-11 como alambres tubulares autoprotegidos. Las fuentes citadas documentan esos productos concretos, no todos los consumibles con nombres similares.
 
 **Análisis TallerLab:** empezar por material y unión, luego verificar el proceso que permite controlar el equipo disponible y, por último, el consumible compatible con su polaridad/rango. La sigla del proceso no determina por sí sola el espesor soldable ni la calidad de una unión. Esta tabla orienta a la documentación necesaria; no es un procedimiento de soldadura ni reemplaza un WPS, código de construcción o calificación cuando aplique.
 

@@ -30,7 +30,7 @@ published: true
 | Modos | Taladrado, taladrado con percusión y cincelado |
 | Alimentación de la variante consultada | Herramienta sola; batería y cargador no incluidos |
 
-**Dato verificado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
+**Dato documentado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
 
 **Declaración del fabricante:** DeWalt describe SHOCKS como un sistema de control activo de vibración que reduce la vibración percibida en la empuñadura frente a la herramienta sin esa función. Esta declaración no equivale a afirmar protección de articulaciones, ausencia de riesgo ni una medición realizada por TallerLab.
 

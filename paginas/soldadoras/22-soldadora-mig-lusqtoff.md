@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | SML130-7 | FCAW con tubular autoprotegido | 25–120 A; 120 A/10% y 50 A/60% a 40 °C | Fabricante la marca discontinuada; torcha MB-15 incluida en página |
 | SML150-8D | FLUX y MMA | MIG 20–120 A; MMA 20–100 A; STICK 20% a 100 A | Kit/ficha incluye rollo de 0,45 kg, máscara ST-1X y escuadras |
 
-**Dato verificado:** cada fila procede de la página o manual del código indicado. La etiqueta «MIG» que Lüsqtoff usa para estas unidades no significa que todas requieran o acepten alambre macizo con gas: SML130-7 se describe para alambre tubular autoprotegido; SML120-8D y SML150-8D identifican modo FLUX.
+**Dato documentado:** cada fila procede de la página o manual del código indicado. La etiqueta «MIG» que Lüsqtoff usa para estas unidades no significa que todas requieran o acepten alambre macizo con gas: SML130-7 se describe para alambre tubular autoprotegido; SML120-8D y SML150-8D identifican modo FLUX.
 
 **Análisis TallerLab:** para comparar, identificá el código y el proceso antes de mirar amperaje máximo. Las fichas expresan el ciclo en condiciones distintas (25 °C frente a 40 °C y puntos distintos), así que no conviene ordenarlas por porcentaje sin homogeneizar condiciones. También separá máquina suelta de kit: la ST-1X y el rollo figuran en algunas configuraciones, no necesariamente en todas las publicaciones.
 

@@ -28,7 +28,7 @@ def inspect(article):
     body = article["body"]
     links = [url for url in EXTERNAL.findall(body) if not any(host in url for host in COMMERCIAL)]
     sources = bool(re.search(r"^## Fuentes consultadas\s*$", body, re.MULTILINE))
-    labels = "Dato verificado" in body and "Análisis TallerLab" in body
+    labels = "Dato documentado" in body and "Análisis TallerLab" in body
     asset = bool(article.get("information_asset"))
     hub = f'/{article["section"]}/' in body
     ready = (

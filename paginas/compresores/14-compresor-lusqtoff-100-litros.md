@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | LC-40100 / LC40100-8 | Mando directo, dos cilindros | 4 HP; tanque 100 L | 360 L/min en manual y catálogo 2020/21 | Manual: 58 kg; la revisión actual de catálogo no confirma si sigue idéntico |
 | LCS100-8 | Sin aceite, 100 L | La gama actual lista el código, pero no se verificó una ficha técnica primaria completa | Desconocido | No asignamos valores de modelos discontinuados |
 
-**Dato verificado:** el manual LC-30100 publica 3 HP, 2.200 W, 100 L, 115 PSI y 335 L/min. El mismo manual declara 115 kg, mientras catálogos previos de Lüsqtoff muestran 78–85 kg. Para LC-40100, el manual consultado informa 4 HP, 100 L, 360 L/min y 58 kg; su catálogo 2020/21 registra 56,8 kg. El catálogo actual de la marca lista LC30100-8, LC40100-8 y LCS100-8 como referencias de gama.
+**Dato documentado:** el manual LC-30100 publica 3 HP, 2.200 W, 100 L, 115 PSI y 335 L/min. El mismo manual declara 115 kg, mientras catálogos previos de Lüsqtoff muestran 78–85 kg. Para LC-40100, el manual consultado informa 4 HP, 100 L, 360 L/min y 58 kg; su catálogo 2020/21 registra 56,8 kg. El catálogo actual de la marca lista LC30100-8, LC40100-8 y LCS100-8 como referencias de gama.
 
 **Análisis TallerLab:** las diferencias de peso del LC-30100 (30–37 kg entre documentos) son demasiado grandes para colapsarlas en una cifra única; podrían reflejar documento/modelo distinto, y la evidencia consultada no lo resuelve. Los caudales de LC-30100 y LC-40100 son cifras nominales documentadas en generaciones distintas; no calculamos una ventaja de entrega efectiva ni presumimos que todas las revisiones actuales coincidan.
 

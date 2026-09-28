@@ -2,7 +2,7 @@
 title: "Taladro inalámbrico: cuál comprar en Argentina"
 h1: "Cómo elegir un taladro inalámbrico para tu trabajo"
 url: "/taladros/inalambricos/"
-description: "Matriz TallerLab de tres taladros inalámbricos documentados: voltaje nominal, torque publicado, velocidad, mandril y percusión."
+description: "Compará Bosch, Einhell y Black+Decker con el kit percutor Ingco anunciado. Revisá voltaje, mandril, baterías y qué datos del sufijo -4 faltan confirmar."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalámbrico", "taladro a bateria", "comprar taladro inalambrico argentina", "taladro atornillador", "torque taladro"]
@@ -13,13 +13,13 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Tres criterios para comparar taladros a batería documentados"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Cómo elegir un taladro inalámbrico para tu trabajo
 
-**Dato verificado:** esta matriz usa tres modelos identificados y fuentes de fabricante. Los valores de torque son los publicados por cada marca; no constituyen una prueba comparativa con un método común.
+**Dato documentado:** esta matriz usa tres modelos identificados y fuentes de fabricante. Los valores de torque son los publicados por cada marca; no constituyen una prueba comparativa con un método común.
 
 ## Tres criterios para comparar taladros a batería documentados
 
@@ -36,6 +36,18 @@ Para decidir, anotá primero si necesitás solo atornillar/perforar o también p
 **Desconocido.** No comparamos autonomía, velocidad bajo carga, vibración real ni durabilidad. El kit y el cargador cambian con el código de pedido: los tres registros de esta tabla no son una comparación de precio ni disponibilidad local.
 
 Las guías de [Bosch](/taladros/bosch-inalambrico/) y [DeWalt](/taladros/dewalt-inalambrico/) profundizan en modelos concretos.
+
+## Una alternativa con percusión y kit anunciado
+
+| Referencia de la oferta | Alimentación anunciada | Torque / mandril anunciados | Configuración anunciada | Dato pendiente |
+| :--- | :--- | :--- | :--- | :--- |
+| Ingco CIDLI20668-4 | 20 V; condición nominal/máxima por confirmar | 66 Nm / 13 mm | Percutor; dos baterías, cargador y accesorios | Ah y códigos de baterías, tensión del cargador, manual del sufijo -4 |
+
+**Declaración comercial:** esos datos corresponden a la [publicación Ingco registrada](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463). La [ficha oficial CIDLI20668](https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668) documenta el modelo base, pero no acredita por sí sola el kit argentino -4; sus Ah, rpm y accesorios no se transfieren automáticamente.
+
+**Análisis TallerLab:** esta opción cambia la compra si necesitás percusión y empezar con baterías/cargador. Para comparar el costo de empezar, pedí el contenido completo de cada kit. No normalizamos su etiqueta 20 V a 18 V sin documentación de esa condición ni ordenamos 66 Nm comerciales contra los torques de la tabla como si fueran un ensayo común.
+
+[Consultar el kit Ingco CIDLI20668-4](https://meli.la/2xvJRJp). Enlace de afiliado: precio, stock, contenido y garantía se confirman en la oferta. Revisá también la [guía específica de percutores inalámbricos](/taladros/taladro-percutor-inalambrico/). Para hormigón y accesorios SDS, la decisión puede cambiar hacia un [rotomartillo](/taladros/rotomartillos/).
 
 ## Fuentes consultadas
 

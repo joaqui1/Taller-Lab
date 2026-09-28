@@ -12,7 +12,7 @@ PAGES = {
 | Bosch UniversalAquatak 36V-100, 06008C7002 | 36 V; kit de ficha con 4 Ah | 100 bar | 1,7–3,1 L/min | Succión hasta 0,5 m; 45 min publicados |
 | Lüsqtoff LAPL3.6-8BK | 18 V; incluye 2 baterías de 2 Ah | 30 bar | Máx. 3,6 L/min | Toma agua desde recipiente; duración no publicada |
 
-**Dato verificado:** Bosch publica para el kit UniversalAquatak 36V-100 número 06008C7002 batería de 4 Ah, 45 min de autonomía, 100 bar máximos, caudal de 1,7–3,1 L/min y autosucción de hasta 0,5 m. Lüsqtoff publica para LAPL3.6-8BK 18 V, dos baterías de 2 Ah, 30 bar máximos, caudal máximo de 3,6 L/min y 4 kg; la ficha permite tomar agua de un balde o canilla.
+**Dato documentado:** Bosch publica para el kit UniversalAquatak 36V-100 número 06008C7002 batería de 4 Ah, 45 min de autonomía, 100 bar máximos, caudal de 1,7–3,1 L/min y autosucción de hasta 0,5 m. Lüsqtoff publica para LAPL3.6-8BK 18 V, dos baterías de 2 Ah, 30 bar máximos, caudal máximo de 3,6 L/min y 4 kg; la ficha permite tomar agua de un balde o canilla.
 
 **Análisis TallerLab:** el máximo de presión publicado para Bosch supera en 70 bar al del Lüsqtoff, mientras el caudal máximo de este último es 0,5 L/min mayor. Son puntos máximos de fichas distintas y no prueban presión/caudal simultáneos ni capacidad de limpieza comparable. La cifra de 45 min corresponde a la configuración de batería indicada por Bosch; Lüsqtoff no publica un tiempo de funcionamiento contrastable.
 
@@ -31,7 +31,7 @@ PAGES = {
 | K 2 Basic Black, 19943220 | 110 bar | 280 L/h | 1.200 W | 3 m / 3,8 kg |
 | K 3 Black Edition, 93983550 | 120 bar | 330 L/h | 1.500 W | No indicada en la ficha consultada / 7,3 kg |
 
-**Dato verificado:** Kärcher Argentina lista para K 2 Basic Black (19943220) 110 bar, 280 L/h, 220 V, 1.200 W, peso sin accesorios de 3,8 kg y manguera de 3 m. Para K 3 Black Edition (93983550) publica 120 bar, 330 L/h, 1.500 W y 7,3 kg. La ficha K2 incluye filtro de agua y accesorios indicados en su página; los paquetes Car/Home de otros mercados no se dan por incluidos.
+**Dato documentado:** Kärcher Argentina lista para K 2 Basic Black (19943220) 110 bar, 280 L/h, 220 V, 1.200 W, peso sin accesorios de 3,8 kg y manguera de 3 m. Para K 3 Black Edition (93983550) publica 120 bar, 330 L/h, 1.500 W y 7,3 kg. La ficha K2 incluye filtro de agua y accesorios indicados en su página; los paquetes Car/Home de otros mercados no se dan por incluidos.
 
 **Análisis TallerLab:** en estos dos SKU locales, la ficha K3 suma 10 bar y 50 L/h sobre la K2, y declara 300 W más. El peso sin accesorios crece 3,5 kg. Esta comparación usa cifras de catálogo; presión y caudal máximos no son por sí solos una prueba de rendimiento sobre una superficie.
 
@@ -50,7 +50,7 @@ PAGES = {
 | K 3 Black Edition | 93983550 | 120 bar | 330 L/h | Longitud no indicada / 7,3 kg |
 | K 4 Power Control | 16034020 | 20–máx. 130 bar | 420 L/h | 8 m / 12,4 kg |
 
-**Dato verificado:** la ficha local del K3 publica 120 bar, 330 L/h y 7,3 kg sin accesorios. Kärcher Argentina informa para el K4 Power Control tensión de 220 V–50 Hz, presión de 20 a 130 bar, caudal máximo de 420 L/h, manguera de 8 m y 12,4 kg sin accesorios; también describe motor de inducción refrigerado por agua y tres niveles de presión.
+**Dato documentado:** la ficha local del K3 publica 120 bar, 330 L/h y 7,3 kg sin accesorios. Kärcher Argentina informa para el K4 Power Control tensión de 220 V–50 Hz, presión de 20 a 130 bar, caudal máximo de 420 L/h, manguera de 8 m y 12,4 kg sin accesorios; también describe motor de inducción refrigerado por agua y tres niveles de presión.
 
 **Análisis TallerLab:** entre los SKU citados, el K4 declara 10 bar más de presión máxima y 90 L/h más de caudal máximo que el K3, junto con 5,1 kg de peso adicional. No se calculan diferencias de largo de manguera porque el dato del K3 no está en la ficha consultada. La presión mínima de 20 bar que muestra Kärcher para K4 tampoco es una medición de presión nominal sostenida.
 
@@ -69,7 +69,7 @@ PAGES = {
 | K 4 Power Control | 16034020 | 20–máx. 130 bar | Máx. 420 L/h | No indicada / 8 m / 12,4 kg |
 | K 5 | 93982950 | 2.100 psi (≈144,8 bar, conversión) | 420 L/h | 1.900 W / 6 m / 13,3 kg |
 
-**Dato verificado:** la ficha argentina de K4 Power Control lista presión 20–máx. 130 bar, caudal máximo 420 L/h, manguera de 8 m, motor de inducción refrigerado por agua y peso sin accesorios de 12,4 kg. La página de K5 (93982950) lista 2.100 psi, 420 L/h, 1.900 W, manguera de 6 m y peso de 13,3 kg.
+**Dato documentado:** la ficha argentina de K4 Power Control lista presión 20–máx. 130 bar, caudal máximo 420 L/h, manguera de 8 m, motor de inducción refrigerado por agua y peso sin accesorios de 12,4 kg. La página de K5 (93982950) lista 2.100 psi, 420 L/h, 1.900 W, manguera de 6 m y peso de 13,3 kg.
 
 **Análisis TallerLab:** 2.100 psi equivalen aproximadamente a 144,8 bar mediante conversión de unidades; Kärcher no rotula ese campo del K5 como presión de servicio en la página consultada. El K4 y K5 declaran igual caudal máximo; el K4 informa una manguera 2 m más larga, mientras el K5 declara 1 kg adicional. La diferencia convertida de presión no permite afirmar una diferencia de limpieza.
 
@@ -88,7 +88,7 @@ PAGES = {
 | Kärcher K 4 Power Control | 16034020 | 20–máx. 130 bar | Máx. 420 L/h | 8 m | 12,4 kg |
 | Kärcher K 5 | 93982950 | 2.100 psi (≈144,8 bar calculados) | 420 L/h | 6 m | 13,3 kg |
 
-**Dato verificado:** Kärcher Argentina identifica el K5 con motor de inducción, cabezal de aluminio, potencia de entrada de 1.900 W y los valores del cuadro. La ficha muestra 2.100 psi, no publica en el bloque consultado la presión de servicio en bar. K4 Power Control informa presión de 20 a 130 bar y el mismo caudal máximo de 420 L/h.
+**Dato documentado:** Kärcher Argentina identifica el K5 con motor de inducción, cabezal de aluminio, potencia de entrada de 1.900 W y los valores del cuadro. La ficha muestra 2.100 psi, no publica en el bloque consultado la presión de servicio en bar. K4 Power Control informa presión de 20 a 130 bar y el mismo caudal máximo de 420 L/h.
 
 **Análisis TallerLab:** la conversión 2.100 ÷ 14,5038 da aproximadamente 144,8 bar. Con los datos listados, ambas páginas declaran igual caudal máximo; K4 ofrece 2 m más de manguera y K5 pesa 0,9 kg más. Las diferencias son de ficha, no prueban productividad ni duración relativa.
 
@@ -109,7 +109,7 @@ PAGES = {
 | K 4 Power Control | 16034020 | No publicada | 20–máx. 130 bar | Máx. 420 L/h | 8 m |
 | K 5 | 93982950 | 1.900 W | 2.100 psi | 420 L/h | 6 m |
 
-**Dato verificado:** las fichas de Kärcher Argentina identifican estos SKU y sus cifras. En K5, la unidad publicada para presión es psi; no sustituimos el dato original. Las páginas de K2/K3/K4/K5 corresponden a configuraciones distintas y no garantizan que nombres como «Car», «Home», «Compact», «Premium» o «Smart Control» describan el mismo paquete en cada mercado.
+**Dato documentado:** las fichas de Kärcher Argentina identifican estos SKU y sus cifras. En K5, la unidad publicada para presión es psi; no sustituimos el dato original. Las páginas de K2/K3/K4/K5 corresponden a configuraciones distintas y no garantizan que nombres como «Car», «Home», «Compact», «Premium» o «Smart Control» describan el mismo paquete en cada mercado.
 
 **Análisis TallerLab:** entre estos cuatro productos locales aumenta la potencia informada de 1.200 W en K2 a 1.900 W en K5, aunque K4 no publica ese campo en la página revisada. K2–K4 muestran en bar máximo de 110, 120 y 130; K5 figura en psi y puede convertirse aritméticamente a ≈144,8 bar, sin que esa conversión añada una etiqueta de presión de servicio. El caudal máximo pasa de 280 a 420 L/h entre extremos, pero K4 y K5 declaran ambos 420 L/h.
 
@@ -130,7 +130,7 @@ PAGES = {
 | HL110-9 | 2.100 W | 110 bar | 165 bar | 6 / 7,5 L/min | 21 kg |
 | HL130-9 | 3.200 W | 150 bar | 225 bar | 7,5 / 9 L/min | 25 kg |
 
-**Dato verificado:** el catálogo Lüsqtoff 2023–2024 publica las especificaciones anteriores y separa presión de trabajo de la máxima permitida. Para HL-120, HL100-8, HL110-9 y HL130-9, la presión máxima permitida es mayor que la de trabajo; no se las toma como una sola cifra. Las medidas se asocian a los códigos del catálogo revisado.
+**Dato documentado:** el catálogo Lüsqtoff 2023–2024 publica las especificaciones anteriores y separa presión de trabajo de la máxima permitida. Para HL-120, HL100-8, HL110-9 y HL130-9, la presión máxima permitida es mayor que la de trabajo; no se las toma como una sola cifra. Las medidas se asocian a los códigos del catálogo revisado.
 
 **Análisis TallerLab:** de HL-120 a HL130-9, los datos publicados avanzan de 70 a 150 bar de trabajo y de 5,5 a 7,5 L/min de caudal de trabajo, mientras cambian potencia de 1.200 a 3.200 W y peso de 5,2 a 25 kg. Esa comparación no demuestra que toda la familia tenga bombas, ciclos o repuestos compatibles; tampoco equipara herramientas de distinto peso y uso.
 
@@ -151,7 +151,7 @@ PAGES = {
 | LNW-65, 1040065 | Nafta, 4T, axial | 6,5 HP | 180 bar | 8,3 L/min | 41,8 kg |
 | LNW-130, 1040130 | Nafta, 4T, cigüeñal | 13 HP | 252 bar | 18 L/min | 63 kg |
 
-**Dato verificado:** el catálogo Niwa de Grupo Rumbo publica para HDNW-200 y HDNW-500 las potencias, presiones máximas y caudales de la tabla. Para LNW-65 y LNW-130 publica motores nafteros de 6,5/13 HP, presiones máximas de 180/252 bar, caudales de 8,3/18 L/min y pesos de 41,8/63 kg. Son datos del catálogo del importador; no indican presión de trabajo para todos los modelos.
+**Dato documentado:** el catálogo Niwa de Grupo Rumbo publica para HDNW-200 y HDNW-500 las potencias, presiones máximas y caudales de la tabla. Para LNW-65 y LNW-130 publica motores nafteros de 6,5/13 HP, presiones máximas de 180/252 bar, caudales de 8,3/18 L/min y pesos de 41,8/63 kg. Son datos del catálogo del importador; no indican presión de trabajo para todos los modelos.
 
 **Análisis TallerLab:** las versiones a explosión de la tabla pesan aproximadamente 8,0 y 12,1 veces lo publicado para HDNW-200 (41,8/5,2 y 63/5,2); también declaran caudales superiores, con otra fuente de energía, construcción y escala. Es una división de cifras nominales del catálogo, no una evaluación de movilidad o productividad. No se infiere equivalencia entre los 252 bar máximos de LNW-130 y presión sostenida de servicio.
 
@@ -170,7 +170,7 @@ PAGES = {
 | Kärcher K 2 Basic Black, 19943220 | 110 bar | 280 L/h | 3 m | Filtro de agua; boquillas y pistola detalladas en ficha |
 | Niwa HDNW-500, 1040550 | Máx. 130 bar; promedio 100 bar en ficha del importador | Nominal 360 L/h; máximo 420 L/h | 5 m | Pistola con boquilla spray y botella de detergente |
 
-**Dato verificado:** Kärcher enumera la K2 Basic Black con uso ocasional, manguera de alta presión de 3 m, 110 bar y 280 L/h. Grupo Rumbo publica para Niwa HDNW-500 los códigos y valores de la tabla, con caudal máximo y nominal distinguidos y presión «de caudal promedio» de 100 bar. Los kits dependen del producto exacto y pueden variar por país.
+**Dato documentado:** Kärcher enumera la K2 Basic Black con uso ocasional, manguera de alta presión de 3 m, 110 bar y 280 L/h. Grupo Rumbo publica para Niwa HDNW-500 los códigos y valores de la tabla, con caudal máximo y nominal distinguidos y presión «de caudal promedio» de 100 bar. Los kits dependen del producto exacto y pueden variar por país.
 
 **Análisis TallerLab:** la HDNW-500 declara 2 m más de manguera que la K2 del SKU citado, pero también mayor peso (8 kg frente a 3,8 kg sin accesorios de Kärcher) y una fuente llama explícitamente «máximo» a parte de sus cifras. La tabla ayuda a comprobar alcance físico y accesorios publicados para una tarea en vehículo; no prueba que el chorro de cualquier boquilla sea adecuado para una pintura, calco, burlete o superficie dañada.
 
@@ -189,7 +189,7 @@ PAGES = {
 | KP Pro Classic 3.10 10/150 M, C2585AR | 230 V monofásica; 2,2 kW | 140 bar | 150 bar | 9 / 10 L/min |
 | KM Extra 8.16 16/200 T, C2586AR | 400 V trifásica; 6,5 kW | 190 bar a salida ≤108 °C | 200 bar a ≤108 °C; 32 bar máx. a ≤140 °C | 15 / 16 L/min |
 
-**Dato verificado:** Gamma publica para KP Pro Classic 3.10 10/150 M tensión monofásica de 230 V, presión nominal de 140 bar, máxima de 150 bar, caudal nominal de 9 L/min y máximo de 10 L/min. La KM Extra 8.16 16/200 T requiere 400 V trifásicos y 6,5 kW; su página detalla presión nominal/máxima y caudales diferenciados en la tabla. La máxima presión cambia con la temperatura de salida especificada por el fabricante.
+**Dato documentado:** Gamma publica para KP Pro Classic 3.10 10/150 M tensión monofásica de 230 V, presión nominal de 140 bar, máxima de 150 bar, caudal nominal de 9 L/min y máximo de 10 L/min. La KM Extra 8.16 16/200 T requiere 400 V trifásicos y 6,5 kW; su página detalla presión nominal/máxima y caudales diferenciados en la tabla. La máxima presión cambia con la temperatura de salida especificada por el fabricante.
 
 **Análisis TallerLab:** la KM declara 50 bar más de presión nominal y 6 L/min más de caudal nominal que la KP, pero exige suministro trifásico y una demanda eléctrica publicada mayor. La KP es monofásica, aunque sus 2,2 kW y 16 A de fusible también requieren revisar la instalación. No se debe seleccionar por presión sola: la fuente disponible, temperatura, caudal de alimentación, ciclo requerido y accesorios son parámetros distintos.
 
@@ -233,7 +233,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
+        f"**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

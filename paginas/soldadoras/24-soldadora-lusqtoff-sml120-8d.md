@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | SML120-8D, unidad | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 6,6 kg | Pinza de masa, portaelectrodos, torcha Flux y picos de contacto |
 | SML120-8DK, kit | FLUX 20–120 A; MMA 20–100 A; Lift TIG 20–100 A | 8,1 kg | SML120-8D, máscara ST-1X, escuadras LQE-6001 y rollo LQFLUX045, además de pinzas |
 
-**Dato verificado:** las dos páginas oficiales identifican los procesos y rangos de la máquina base. El kit agrega accesorios y declara 1,5 kg más que la unidad suelta; esa diferencia es el cálculo TallerLab entre masas publicadas, no el peso medido de una caja abierta.
+**Dato documentado:** las dos páginas oficiales identifican los procesos y rangos de la máquina base. El kit agrega accesorios y declara 1,5 kg más que la unidad suelta; esa diferencia es el cálculo TallerLab entre masas publicadas, no el peso medido de una caja abierta.
 
 **Análisis TallerLab:** el sufijo K diferencia una presentación de kit; no cambia los rangos de soldadura publicados para la fuente SML120-8D. El PVP visto en cada página puede variar y no garantiza que un distribuidor entregue el mismo paquete. La ficha de la unidad indica 200 V–50 Hz, por lo que conviene corroborar placa y red disponible antes de comprar.
 

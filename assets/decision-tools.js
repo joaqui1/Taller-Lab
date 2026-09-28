@@ -52,11 +52,13 @@
     if (kind === 'cut' || kind === 'hammer' || kind === 'jigsaw') {
       const requested = kind === 'hammer' ? values.diameter : values.thickness;
       if (requested <= 0) return invalid();
+      if (kind === 'jigsaw' && !['wood', 'steel'].includes(values.material)) return result('Elegí madera o acero', 'Usá un material identificado en las fichas. Los 6 mm de BES603-B2 están publicados como metal, sin identificar acero.');
       const models = kind === 'cut' ? [['Stanley SC16-AR', 65], ['Bosch GKS 150', 64], ['Lüsqtoff CSL1500-8', 63.5]]
         : kind === 'hammer' ? [['Bosch GBH 220', 22], ['Bosch GBH 2-26 DRE', 26], ['Einhell TE-RH 28 5F', 28]]
-        : values.material === 'steel' ? [['BES603-B2', 6], ['TC-JS 85', 8], ['TE-JS 100', 10]] : [['BES603-B2', 65], ['TC-JS 85', 85], ['TE-JS 100', 100]];
+        : values.material === 'steel' ? [['TC-JS 85', 8], ['TE-JS 100', 10]] : [['BES603-B2', 65], ['TC-JS 85', 85], ['TE-JS 100', 100]];
       const included = models.filter(([, maximum]) => requested <= maximum).map(([name, maximum]) => `${name}: máximo ${format(maximum)} mm`);
-      return result(included.length ? 'El dato entra en estos máximos de ficha' : 'Supera todos los máximos de esta selección', included.length ? `${included.join(' · ')}. El filtro no garantiza resultado, continuidad o compatibilidad de hoja/broca; cotejá las condiciones del manual.` : `Para ${format(requested)} mm no hay candidato dentro de los límites documentados de esta selección. No extrapolamos capacidades.`);
+      const scope = kind === 'jigsaw' && values.material === 'steel' ? ' BES603-B2 no se evalúa para acero: su ficha identifica metal sin precisar ese material.' : '';
+      return result(included.length ? 'El dato entra en estos máximos de ficha' : 'Supera todos los máximos de esta selección', (included.length ? `${included.join(' · ')}. El filtro no garantiza resultado, continuidad o compatibilidad de hoja/broca; cotejá las condiciones del manual.` : `Para ${format(requested)} mm no hay candidato dentro de los límites documentados de esta selección. No extrapolamos capacidades.`) + scope);
     }
     if (kind === 'cost') {
       if (values.priceA <= 0 || values.priceB <= 0) return result('Ingresá el precio confirmado de ambas ofertas', 'Usá los importes de las publicaciones que estás comparando. Envío y extras pueden ser cero si ya están incluidos.');

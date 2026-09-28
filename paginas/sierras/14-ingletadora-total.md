@@ -23,7 +23,7 @@ La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. El borrador 
 
 ## Dos códigos Total y una capacidad distinta
 
-| Dato verificado en catálogo | TS42142107 | TS42182553 |
+| Dato documentado en catálogo | TS42142107 | TS42182553 |
 | :--- | ---: | ---: |
 | Potencia | 1.400 W | 1.800 W |
 | Disco / eje | 210 × 25,4 mm | 254 × 30 mm |

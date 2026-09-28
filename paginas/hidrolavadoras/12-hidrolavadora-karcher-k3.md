@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | K 3 Black Edition | 93983550 | 120 bar | 330 L/h | Longitud no indicada / 7,3 kg |
 | K 4 Power Control | 16034020 | 20–máx. 130 bar | 420 L/h | 8 m / 12,4 kg |
 
-**Dato verificado:** la ficha local del K3 publica 120 bar, 330 L/h y 7,3 kg sin accesorios. Kärcher Argentina informa para el K4 Power Control tensión de 220 V–50 Hz, presión de 20 a 130 bar, caudal máximo de 420 L/h, manguera de 8 m y 12,4 kg sin accesorios; también describe motor de inducción refrigerado por agua y tres niveles de presión.
+**Dato documentado:** la ficha local del K3 publica 120 bar, 330 L/h y 7,3 kg sin accesorios. Kärcher Argentina informa para el K4 Power Control tensión de 220 V–50 Hz, presión de 20 a 130 bar, caudal máximo de 420 L/h, manguera de 8 m y 12,4 kg sin accesorios; también describe motor de inducción refrigerado por agua y tres niveles de presión.
 
 **Análisis TallerLab:** entre los SKU citados, el K4 declara 10 bar más de presión máxima y 90 L/h más de caudal máximo que el K3, junto con 5,1 kg de peso adicional. No se calculan diferencias de largo de manguera porque el dato del K3 no está en la ficha consultada. La presión mínima de 20 bar que muestra Kärcher para K4 tampoco es una medición de presión nominal sostenida.
 

@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | HYW2000E | Reino Unido | 2.000 W | 150 bar | 7,5 L/min |
 | HYW2400E | Reino Unido | 2.400 W | 180 bar | 8 L/min |
 
-**Dato verificado:** el catálogo de Hyundai Power Products vendido por su distribuidor oficial británico lista HYW1600E, HYW2000E y HYW2400E con las cifras de la tabla. Son presiones máximas promocionadas en la ficha comercial; no se atribuyen como presión nominal/de servicio porque la página de catálogo consultada no da esa separación.
+**Dato documentado:** el catálogo de Hyundai Power Products vendido por su distribuidor oficial británico lista HYW1600E, HYW2000E y HYW2400E con las cifras de la tabla. Son presiones máximas promocionadas en la ficha comercial; no se atribuyen como presión nominal/de servicio porque la página de catálogo consultada no da esa separación.
 
 **Análisis TallerLab:** entre las tres fichas británicas, la potencia aumenta en pasos de 400 W y la presión máxima publicada en pasos de 15 bar para los dos primeros códigos y 30 bar entre HYW2000E y HYW2400E; el caudal sube 0,4 y luego 0,5 L/min. Es una comparación de catálogo regional, no una evaluación de limpieza ni prueba de compatibilidad entre países.
 

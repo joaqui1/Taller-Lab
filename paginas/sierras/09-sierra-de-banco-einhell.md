@@ -23,7 +23,7 @@ La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limit
 
 ## TC-TS 2025/2 U y 2225 U: diferencias publicadas
 
-| Dato verificado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
+| Dato documentado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
 | :--- | ---: | ---: |
 | Hoja | 250 × 30 mm, 24 dientes | 254 mm, 48 dientes |
 | Potencia publicada | 1.800 W S1 / 2.000 W S6 | 2.200 W S6 |

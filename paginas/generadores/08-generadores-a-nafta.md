@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | LGI3.8-8 | 3,5 kW | 3,8 kW | 8 L | Página: 223 cm³ y 28 kg; manual: 233 cm³ y 27 kg |
 | LG3000 | 2,5 kVA | 2,8 kVA | 15 L; 12 h declaradas | La misma página también imprime 4,8 kW como “potencia máxima de salida” |
 
-**Dato verificado:** las fichas oficiales Lüsqtoff publican los valores resumidos. En LGI3.8-8, página de producto y manual discrepan en cilindrada (223/233 cm³) y peso (28/27 kg). En LG3000, los campos de 2,5 kVA nominal y 2,8 kVA máximo coexisten en la ficha con otro campo que dice 4,8 kW máximo. No resolvemos esas diferencias sin aclaración de la marca.
+**Dato documentado:** las fichas oficiales Lüsqtoff publican los valores resumidos. En LGI3.8-8, página de producto y manual discrepan en cilindrada (223/233 cm³) y peso (28/27 kg). En LG3000, los campos de 2,5 kVA nominal y 2,8 kVA máximo coexisten en la ficha con otro campo que dice 4,8 kW máximo. No resolvemos esas diferencias sin aclaración de la marca.
 
 **Análisis TallerLab:** estos casos muestran por qué hay que comparar potencia nominal con nominal y máxima con máxima, además de distinguir W de VA. Para LG3000, 4,8 kW no concuerda con el campo máximo de 2,8 kVA tal como está publicado; se deja registrada la inconsistencia sin elegir arbitrariamente una cifra. Las autonomías de 6–8, 11 y 12 horas tampoco son comparables sin carga y procedimiento equivalentes.
 

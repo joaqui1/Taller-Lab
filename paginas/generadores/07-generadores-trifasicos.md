@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Honda ET12000 | Nafta | 380 V y 220 V; trifásico y monofásico | 11 kVA máximo | La ficha no se usa como equivalente directo de 6.500 W |
 | Gamma GE3494AR | Gas natural / GLP | 380 V, tres fases | 17 kW nominal / 18,7 kW máximo con GLP; 16/17,6 kW con GN | Consumo cambia por combustible y carga |
 
-**Dato verificado:** las páginas de fabricante identifican los códigos anteriores como salidas trifásicas. Gamma GE3494AR distingue expresamente potencia nominal y máxima según gas: 17/18,7 kW con GLP y 16/17,6 kW con GN. Honda ET12000 publica 11 kVA máximo, no kW; Lüsqtoff LG7500EXT especifica 6.500 W máximo a 380 V.
+**Dato documentado:** las páginas de fabricante identifican los códigos anteriores como salidas trifásicas. Gamma GE3494AR distingue expresamente potencia nominal y máxima según gas: 17/18,7 kW con GLP y 16/17,6 kW con GN. Honda ET12000 publica 11 kVA máximo, no kW; Lüsqtoff LG7500EXT especifica 6.500 W máximo a 380 V.
 
 **Análisis TallerLab:** este cuadro evita comparar solo el nombre comercial: las unidades y combustibles cambian, y la potencia trifásica total debe leerse junto con tensión, conexión y corriente por fase que indique la placa. Un tablero con cargas monofásicas también requiere conocer el desbalance permitido; la potencia total publicada no responde sola a esa pregunta.
 

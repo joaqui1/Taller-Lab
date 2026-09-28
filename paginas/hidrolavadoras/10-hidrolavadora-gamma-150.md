@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Gamma 130 Red Line G2513AR | 1.600 W | 130 bar | 90 bar | 360 L/h (6 L/min) |
 | Gamma 150 Red Line G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
 
-**Dato verificado:** el manual del Gamma 150 G2514AR define 150 bar como presión máxima admisible y 100 bar como presión máxima de servicio. También informa motor de 1.800 W, caudal de 400 L/h, alimentación 220 VCA–50 Hz, agua de entrada entre 5 °C y 35 °C y manguera de 5 m. La tabla reproduce el manual de Gamma 130 para la fila comparativa.
+**Dato documentado:** el manual del Gamma 150 G2514AR define 150 bar como presión máxima admisible y 100 bar como presión máxima de servicio. También informa motor de 1.800 W, caudal de 400 L/h, alimentación 220 VCA–50 Hz, agua de entrada entre 5 °C y 35 °C y manguera de 5 m. La tabla reproduce el manual de Gamma 130 para la fila comparativa.
 
 **Análisis TallerLab:** llamar al equipo «Gamma 150» no equivale a decir que trabaje continuamente a 150 bar: el propio manual separa ese límite de los 100 bar de servicio. Frente al G2513AR, el código G2514AR declara 200 W y 40 L/h más, y 10 bar más de servicio. Son diferencias entre fichas, no evidencia de un resultado de limpieza ni del tiempo de vida.
 

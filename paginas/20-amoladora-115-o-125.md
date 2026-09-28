@@ -23,7 +23,7 @@ keywords: ["amoladora 115", "amoladora 125", "amoladora 115 o 125", "amoladora 4
 
 ## Comparación de dos variantes de la misma serie
 
-**Dato verificado en fichas del fabricante.** Elegimos las variantes Bosch [GWS 9-115 S](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103) y [GWS 9-125 S](https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104) para que la potencia y la familia de producto sean comparables. Son fichas del mercado español; antes de comprar en Argentina hay que confirmar el código y la tensión de la unidad ofrecida.
+**Dato documentado en fichas del fabricante.** Elegimos las variantes Bosch [GWS 9-115 S](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103) y [GWS 9-125 S](https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104) para que la potencia y la familia de producto sean comparables. Son fichas del mercado español; antes de comprar en Argentina hay que confirmar el código y la tensión de la unidad ofrecida.
 
 | Variable declarada | GWS 9-115 S | GWS 9-125 S |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ keywords: ["amoladora 115", "amoladora 125", "amoladora 115 o 125", "amoladora 4
 
 **Análisis TallerLab.** En este par no se sostiene que 115 mm sea necesariamente más liviana ni que 125 mm tenga más potencia: las fichas muestran el mismo peso y los mismos 900 W. La ventaja geométrica nominal del disco de 125 mm es 10 mm de diámetro; su radio es 5 mm mayor. La profundidad útil depende también de cuánto espacio ocupan la guarda, el cuerpo de la máquina y el montaje.
 
-**Dato verificado, con alcance limitado.** La [ficha de la caperuza Bosch GDE 115/125 FC-T](https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK) declara una profundidad máxima de 20 mm con disco de 115 mm y 25 mm con disco de 125 mm. Es un dato de ese accesorio, no de las dos GWS 9 de la tabla: la ficha del accesorio no las enumera entre sus modelos compatibles.
+**Dato documentado, con alcance limitado.** La [ficha de la caperuza Bosch GDE 115/125 FC-T](https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK) declara una profundidad máxima de 20 mm con disco de 115 mm y 25 mm con disco de 125 mm. Es un dato de ese accesorio, no de las dos GWS 9 de la tabla: la ficha del accesorio no las enumera entre sus modelos compatibles.
 
 ## Qué falta comprobar antes de elegir
 

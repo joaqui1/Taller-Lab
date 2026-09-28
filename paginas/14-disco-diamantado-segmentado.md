@@ -26,7 +26,7 @@ published: true
 | PRO Concrete, 2 608 602 651 | Hormigón | 115 / 22,23 mm | 2,2 mm | 12 mm |
 | EXPERT Multi Material, 2 608 900 659 | Hormigón, ladrillo, teja y hormigón armado | 115 / 22,23 mm | 2,2 mm | 12 mm |
 
-**Dato verificado:** la tabla transcribe medidas y aplicaciones de dos discos Bosch de 115 mm. Ambos aparecen con segmento de 12 mm; el segundo amplía en su ficha la lista de materiales. Esto no convierte a los discos en aptos para cualquier piedra o material de construcción.
+**Dato documentado:** la tabla transcribe medidas y aplicaciones de dos discos Bosch de 115 mm. Ambos aparecen con segmento de 12 mm; el segundo amplía en su ficha la lista de materiales. Esto no convierte a los discos en aptos para cualquier piedra o material de construcción.
 
 **Declaración del fabricante:** Bosch describe los segmentos del EXPERT Multi Material como soldados con láser y sus laterales estriados para evacuar polvo. Para PRO Concrete la ficha identifica su uso en hormigón. Las páginas no atribuyen a TallerLab pruebas de velocidad, temperatura o vida útil.
 

@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo eléctrico | Potencia absorbida | Velocidad en vacío | Peso | Dato de sujeción publicado |
 | :--- | ---: | ---: | ---: | :--- |
 | Bosch GGS 28 L, 0 601 224 0H0 | 500 W | 33.000 rpm | 1,4 kg | La página consultada no detalla el diámetro de pinza en el resumen |
 | Makita GD0600 | 400 W | 25.000 rpm | Desconocido en la ficha consultada | Desconocido en la ficha consultada |
 
-**Dato verificado:** Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. La ficha Bosch incluye un manual descargable para confirmar accesorios y montaje. No completamos la fila de Makita por analogía con otras rectas de la marca.
+**Dato documentado:** Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. La ficha Bosch incluye un manual descargable para confirmar accesorios y montaje. No completamos la fila de Makita por analogía con otras rectas de la marca.
 
 **Análisis TallerLab:** en estos dos ejemplos con cable, la ficha Bosch declara 100 W más (25 % sobre 400 W) y 8.000 rpm más en vacío (32 % sobre 25.000 rpm). Son diferencias aritméticas de especificaciones, no una prueba de capacidad de desbaste. Pinza, accesorio admitido y velocidad máxima del accesorio deben cotejarse por herramienta y operación.
 

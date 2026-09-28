@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | 279063 / ASP1070 | Succión, HVLP | 119–201 L/min | Recomendada 29–51 psi; máxima 120 psi | 1.000 cm³ |
 | 279068 / ASPM1070 | Gravedad, alta presión; retoques | 68 L/min | Recomendada 43,5–58 psi; máxima 120 psi | 200 cm³ |
 
-**Dato verificado:** el catálogo BTA 2026/27 identifica ASP1070 y ASPM1070 por códigos distintos y especifica sistemas de alimentación, presión, copa y consumo. La ficha de AS-1021 publica cerca de 85 L/min. En el catálogo, BTA sugiere compresor de 2 HP para ASP1070 y ASPM1070; esa recomendación aparece como campo del fabricante.
+**Dato documentado:** el catálogo BTA 2026/27 identifica ASP1070 y ASPM1070 por códigos distintos y especifica sistemas de alimentación, presión, copa y consumo. La ficha de AS-1021 publica cerca de 85 L/min. En el catálogo, BTA sugiere compresor de 2 HP para ASP1070 y ASPM1070; esa recomendación aparece como campo del fabricante.
 
 **Análisis TallerLab:** la diferencia numérica entre los consumos publicados de ASP1070 (119–201 L/min) y ASPM1070 (68 L/min) es de 51–133 L/min, según el extremo del rango ASP1070 que se tome. No permite declarar mayor eficiencia: los documentos no explican una condición de medición común ni miden cobertura o transferencia de pintura. También cambia la aplicación declarada y el volumen de copa, así que primero corresponde emparejar proceso, presión y consumo, luego cotejar el FAD del compresor a esa presión.
 

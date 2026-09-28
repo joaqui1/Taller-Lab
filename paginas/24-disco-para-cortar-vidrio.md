@@ -28,7 +28,7 @@ published: true
 | ¿Se puede trasladar una recomendación de cortavidrios manual a una amoladora? | No; son herramientas y procesos diferentes |
 | ¿Qué debe confirmar una ficha antes de usar disco rotativo? | Tipo de vidrio, máquina, diámetro, agujero, rpm, montaje y resguardo |
 
-**Dato verificado:** Bosch indica en su FAQ de accesorios que no ofrece actualmente una hoja diamantada para vidrio en su gama consultada. Esto describe el catálogo de Bosch, no prueba que ningún fabricante venda un accesorio específico para vidrio.
+**Dato documentado:** Bosch indica en su FAQ de accesorios que no ofrece actualmente una hoja diamantada para vidrio en su gama consultada. Esto describe el catálogo de Bosch, no prueba que ningún fabricante venda un accesorio específico para vidrio.
 
 **Análisis TallerLab:** una oferta que diga “diamantado”, “cerámica” o “multiuso” no acredita por sí sola que el accesorio sea apto para cortar vidrio. En las fuentes consultadas no encontramos un disco Bosch para esa aplicación; por eso no publicamos una combinación de disco, vidrio y amoladora como recomendación verificada. La matriz anterior identifica qué dato debe aparecer en una fuente del fabricante antes de seguir.
 

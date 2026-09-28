@@ -19,11 +19,11 @@ published: true
 
 # Qué taladro Stanley elegir
 
-**Dato verificado:** los manuales Stanley para SDH600 y SDH700 publican sus prestaciones y capacidades. Las cifras corresponden a variantes con tensión regional indicada en cada manual.
+**Dato documentado:** los manuales Stanley para SDH600 y SDH700 publican sus prestaciones y capacidades. Las cifras corresponden a variantes con tensión regional indicada en cada manual.
 
 ## SDH600 o SDH700: 600 W y 700 W no cuentan toda la historia
 
-| Dato verificado en manual | SDH600 | SDH700 |
+| Dato documentado en manual | SDH600 | SDH700 |
 | :--- | ---: | ---: |
 | Potencia nominal | 600 W | 700 W |
 | Velocidad sin carga | 0–2.900 rpm | 0–2.900 rpm |

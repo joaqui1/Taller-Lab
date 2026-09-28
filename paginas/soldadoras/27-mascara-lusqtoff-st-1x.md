@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | ST-1X | 92 × 42 mm | 2 | DIN 4/9–13 | 1/15.000 s | Catálogo oficial 2020/21; aparece incluida en algunos kits actuales |
 | ST-1B | 98 × 43 mm | 4 | DIN 4/9–13 | 1/25.000 s | Ficha actual de producto |
 
-**Dato verificado:** los datos ST-1X proceden del catálogo oficial histórico de Lüsqtoff; los ST-1B, de su página de producto actual. Lüsqtoff también identifica ST-1X como parte de ciertos kits de soldadora, pero eso no confirma que la máscara suelta conserve idénticas especificaciones o garantía.
+**Dato documentado:** los datos ST-1X proceden del catálogo oficial histórico de Lüsqtoff; los ST-1B, de su página de producto actual. Lüsqtoff también identifica ST-1X como parte de ciertos kits de soldadora, pero eso no confirma que la máscara suelta conserve idénticas especificaciones o garantía.
 
 **Análisis TallerLab:** los números permiten distinguir dos filtros comercializados con códigos distintos; no equivalen a una prueba comparativa de protección, calidad óptica o tiempo real de respuesta. La rapidez indicada es una cifra nominal de ficha y depende de que el equipo esté intacto, ajustado y dentro de sus condiciones de operación.
 

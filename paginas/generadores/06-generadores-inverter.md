@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Lüsqtoff LGI3.8-8 | Inverter | 3,5 kW | 3,8 kW | 75 dB a 7 m, según la ficha Lüsqtoff |
 | Lüsqtoff LG3500EXI | Inverter | No publicada en la ficha consultada | 3.500 W | La ficha no aporta condición de medición comparable |
 
-**Dato verificado:** Honda identifica al EU22i como inverter y publica 1,8 kVA nominales, 2,2 kVA máximos y 57 dB(A) a 7 m a plena carga. Lüsqtoff identifica como inverter los modelos de la tabla y publica sus cifras en kVA o kW según modelo. No convertimos kVA a kW sin factor de potencia.
+**Dato documentado:** Honda identifica al EU22i como inverter y publica 1,8 kVA nominales, 2,2 kVA máximos y 57 dB(A) a 7 m a plena carga. Lüsqtoff identifica como inverter los modelos de la tabla y publica sus cifras en kVA o kW según modelo. No convertimos kVA a kW sin factor de potencia.
 
 **Análisis TallerLab:** la tabla muestra que “inverter” no es una medida de potencia: EU22i, LGI3.5-8 y LGI3.8-8 publican magnitudes nominales/máximas diferentes, mientras que la ficha de LG3500EXI solo da el máximo. Tampoco se puede ordenar ruido con estos números: la ficha Honda da distancia y carga; otras fuentes omiten una o ambas condiciones. El tipo de regulación por sí solo no certifica compatibilidad con cualquier carga sensible.
 

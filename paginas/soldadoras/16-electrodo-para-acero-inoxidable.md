@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Cromarco 316L-16 Premium | AWS A5.4 E316L-16 | AISI 316/316L | 2,4 mm: 40–80 A; 3,2 mm: 70–110 A; 4,0 mm: 100–145 A |
 | OK 67.61 N | SFA/AWS A5.4 E309L-16 | Clasificación confirmada en la página ESAB Argentina; no se extrapola aquí un procedimiento de unión disímil | Verificar corriente en la ficha/paquete del diámetro local |
 
-**Dato verificado:** las páginas de producto ESAB identifican las clasificaciones de la tabla. La ficha de Cromarco 316L-16 Premium señala uso en AISI 316/316L y publica corrientes por diámetro; OK 308L se describe para aceros 19Cr10Ni. Para OK 67.61 N, la página ESAB Argentina confirma E309L-16.
+**Dato documentado:** las páginas de producto ESAB identifican las clasificaciones de la tabla. La ficha de Cromarco 316L-16 Premium señala uso en AISI 316/316L y publica corrientes por diámetro; OK 308L se describe para aceros 19Cr10Ni. Para OK 67.61 N, la página ESAB Argentina confirma E309L-16.
 
 **Análisis TallerLab:** los sufijos y la clasificación cambian el metal de aporte; no basta decir «electrodo inoxidable». La tabla ayuda a cruzar el metal base con la descripción del producto exacto. Compatibilidad química, temperatura de servicio, corrosión, preparación y calificación requieren consultar el código/procedimiento aplicable; esta matriz no aprueba una unión para servicio crítico.
 

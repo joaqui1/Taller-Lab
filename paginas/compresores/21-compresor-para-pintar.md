@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Compresor BTA 25 L, D-CA1-25-6 | Admisión 206 L/min; 2 HP; 8 bar | Admisión de la bomba, no caudal efectivo de salida |
 | Compresor BTA 24 L sin aceite, 272005 | Admisión 170 L/min; 2 HP; 8 bar | Admisión publicada; no usar como FAD |
 
-**Dato verificado:** BTA especifica consumos distintos para las pistolas AS-1021 y ASP1070. En fichas separadas publica 206 L/min de admisión para el compresor de 25 L y 170 L/min para el de 24 L sin aceite. Los valores de pistola y compresor provienen de fichas/catálogo del mismo fabricante, pero el catálogo no presenta caudal de salida de ambos compresores medido bajo la presión de pulverización.
+**Dato documentado:** BTA especifica consumos distintos para las pistolas AS-1021 y ASP1070. En fichas separadas publica 206 L/min de admisión para el compresor de 25 L y 170 L/min para el de 24 L sin aceite. Los valores de pistola y compresor provienen de fichas/catálogo del mismo fabricante, pero el catálogo no presenta caudal de salida de ambos compresores medido bajo la presión de pulverización.
 
 **Análisis TallerLab:** el caudal de admisión del compresor de 25 L supera en 5 L/min el extremo alto publicado para ASP1070 y en 87 L/min su extremo bajo; esas restas no prueban suministro suficiente porque comparan admisión con consumo de herramienta y no incluyen pérdida ni condición de presión. Para AS-1021, la resta frente a 206 L/min también es solo una comparación nominal. Confirmá caudal efectivo (FAD) a la presión de trabajo y régimen de uso con el fabricante antes de afirmar continuidad de pulverización.
 

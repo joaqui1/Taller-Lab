@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Lincoln Steelcore 71T-GS | AWS A5.20 E71T-GS | 0,8 mm: 60–150 A; 0,9 mm: 60–180 A | DC− | 5 mm en ficha australiana |
 | Lincoln Innershield NR-211-MP | AWS E71T-11 | 0,8–1,1 mm; rango y parámetros dependen del diámetro | La tabla de la ficha específica define el ajuste | Hasta 7,9 mm para diámetros ≤1,1 mm en documento citado |
 
-**Dato verificado:** Lincoln identifica ambos productos como alambres tubulares autoprotegidos; la ficha Steelcore especifica E71T-GS y DC−, mientras NR-211-MP se clasifica E71T-11. Las tablas y límites de espesor de la matriz pertenecen a las fichas de fabricante enlazadas y a sus configuraciones concretas.
+**Dato documentado:** Lincoln identifica ambos productos como alambres tubulares autoprotegidos; la ficha Steelcore especifica E71T-GS y DC−, mientras NR-211-MP se clasifica E71T-11. Las tablas y límites de espesor de la matriz pertenecen a las fichas de fabricante enlazadas y a sus configuraciones concretas.
 
 **Análisis TallerLab:** que ambos se vendan como «flux» o «sin gas» no los vuelve intercambiables. La clasificación, el diámetro, la polaridad, la máquina y el espesor publicado deben coincidir con la ficha del alambre ofertado. El límite de espesor no es una garantía de unión estructural ni una recomendación para cualquier posición, preparación o código.
 

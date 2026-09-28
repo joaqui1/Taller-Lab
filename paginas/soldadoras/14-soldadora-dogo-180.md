@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -41,7 +41,7 @@ published: true
 | Factor de servicio por diámetro informado | 2,5 mm: 100%; 3,2 mm: 80%; 4,0 mm: 60%; 5,0 mm: 30% |
 | TIG | La descripción indica TIG por raspado con torcha adicional |
 
-**Dato verificado:** la tabla corresponde al código DOG50045 de la ficha del fabricante. Dogo separa el máximo de 180 A del factor de servicio por diámetro; publica también que la función TIG requiere comprar una torcha adicional. Su campo de tipos de electrodos lista 1,5–4 mm, mientras el factor de servicio incluye un punto para 5 mm; conservamos ambas declaraciones sin inferir compatibilidad universal.
+**Dato documentado:** la tabla corresponde al código DOG50045 de la ficha del fabricante. Dogo separa el máximo de 180 A del factor de servicio por diámetro; publica también que la función TIG requiere comprar una torcha adicional. Su campo de tipos de electrodos lista 1,5–4 mm, mientras el factor de servicio incluye un punto para 5 mm; conservamos ambas declaraciones sin inferir compatibilidad universal.
 
 **Análisis TallerLab:** para comparar una oferta, verificá que código, tensión, accesorios y factores de servicio coincidan con DOG50045. Los porcentajes se atribuyen tal como Dogo los presenta; no prueban resultado de soldadura ni funcionamiento continuo fuera de esos valores.
 

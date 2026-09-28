@@ -13,7 +13,7 @@ PAGES = {
 | Lüsqtoff SML120-8D | FLUX, MMA y Lift TIG | FLUX 20–120 A; ciclo declarado 25% a 25 °C | La hoja consultada no aclara todos los parámetros del alambre |
 | ESAB HandyArc MIG 160i | MIG/MAG y tubular con o sin gas | GMAW 30–160 A; 160 A/15%, 80 A/60%, 62 A/100% | ESAB declara bobinas hasta 5 kg y alambre hasta 0,9 mm |
 
-**Dato verificado:** las fuentes oficiales separan alambre tubular autoprotegido de alambre macizo para MIG/MAG. La SML130-7 se describe para FCAW y aparece como discontinuada; ESAB declara que MIG 160i acepta alambres tubulares con y sin gas y también ofrece proceso MIG/MAG.
+**Dato documentado:** las fuentes oficiales separan alambre tubular autoprotegido de alambre macizo para MIG/MAG. La SML130-7 se describe para FCAW y aparece como discontinuada; ESAB declara que MIG 160i acepta alambres tubulares con y sin gas y también ofrece proceso MIG/MAG.
 
 **Análisis TallerLab:** para trabajar sin cilindro, el alambre debe ser autoprotegido y la fuente debe permitir su polaridad, diámetro y alimentación. La palabra “MIG” en el nombre no confirma por sí sola que la máquina admita alambre macizo sin gas. Comprobá manual de la máquina y ficha del consumible como un par compatible. Los puntos de ciclo de las dos máquinas no son comparables sin igualar proceso y temperatura de ensayo.
 
@@ -32,7 +32,7 @@ PAGES = {
 | ESAB ET 200i AC/DC (0738827) | TIG AC y DC; ESAB especifica AC para aluminio y DC para otros metales | 220 V ±10%, monofásica | 200 A/20%; 116 A/60%; 90 A/100% | 22 kg |
 | Lüsqtoff TIG350ACDC-9 | TIG AC/DC, trifásica | 380 V, 50 Hz | 315 A/40%; rango 5–315 A según la página | 31,5 kg |
 
-**Dato verificado:** las dos fichas identifican TIG AC/DC. ESAB explica que en ET 200i la salida AC se usa para aluminio y sus aleaciones; Lüsqtoff presenta TIG350ACDC-9 como equipo trifásico AC/DC y publica sus puntos de corriente/ciclo.
+**Dato documentado:** las dos fichas identifican TIG AC/DC. ESAB explica que en ET 200i la salida AC se usa para aluminio y sus aleaciones; Lüsqtoff presenta TIG350ACDC-9 como equipo trifásico AC/DC y publica sus puntos de corriente/ciclo.
 
 **Análisis TallerLab:** antes de comparar precio o amperaje, comprobá si la red disponible corresponde a una fuente monofásica de 220 V o trifásica de 380 V y leé ciclo, no solo corriente máxima. La tabla documenta especificaciones de fabricante; no determina espesor, aporte, gas, preparación, habilidad requerida ni calidad de cordón para una pieza concreta.
 
@@ -51,7 +51,7 @@ PAGES = {
 | Digital Car Spotter 5500, 823232 | Equipo de reparación; hasta 1,5 + 1,5 mm | 400 V, 50/60 Hz, dos fases | 3.000 A (pico 4.200 A) | 3%; 25 kg |
 | Digital Spotter 9000, 823195 | Soldadura por punto; hasta 3 + 3 mm | 400 V, 50/60 Hz, dos fases | 7.000 A | 3%; 78 kg |
 
-**Dato verificado:** Telwin presenta el 5500 como spotter electrónico de reparación de carrocerías con accesorios para tracción y punteo; el Digital Spotter 9000 admite puntos en chapas de hasta 3+3 mm. Las magnitudes de la tabla son los máximos que el fabricante publica para cada modelo.
+**Dato documentado:** Telwin presenta el 5500 como spotter electrónico de reparación de carrocerías con accesorios para tracción y punteo; el Digital Spotter 9000 admite puntos en chapas de hasta 3+3 mm. Las magnitudes de la tabla son los máximos que el fabricante publica para cada modelo.
 
 **Análisis TallerLab:** “soldadora de punto” puede referirse a una máquina de resistencia para unir chapas o a un spotter que también tracciona abolladuras. Estos ejemplos son equipos de carrocería que declaran alimentación de 400 V y ciclo del 3%; no representan una soldadora doméstica enchufable. El espesor máximo no valida cualquier material, geometría, recubrimiento, acceso o unión.
 
@@ -74,7 +74,7 @@ PAGES = {
 | Factor de servicio por diámetro informado | 2,5 mm: 100%; 3,2 mm: 80%; 4,0 mm: 60%; 5,0 mm: 30% |
 | TIG | La descripción indica TIG por raspado con torcha adicional |
 
-**Dato verificado:** la tabla corresponde al código DOG50045 de la ficha del fabricante. Dogo separa el máximo de 180 A del factor de servicio por diámetro; publica también que la función TIG requiere comprar una torcha adicional. Su campo de tipos de electrodos lista 1,5–4 mm, mientras el factor de servicio incluye un punto para 5 mm; conservamos ambas declaraciones sin inferir compatibilidad universal.
+**Dato documentado:** la tabla corresponde al código DOG50045 de la ficha del fabricante. Dogo separa el máximo de 180 A del factor de servicio por diámetro; publica también que la función TIG requiere comprar una torcha adicional. Su campo de tipos de electrodos lista 1,5–4 mm, mientras el factor de servicio incluye un punto para 5 mm; conservamos ambas declaraciones sin inferir compatibilidad universal.
 
 **Análisis TallerLab:** para comparar una oferta, verificá que código, tensión, accesorios y factores de servicio coincidan con DOG50045. Los porcentajes se atribuyen tal como Dogo los presenta; no prueban resultado de soldadura ni funcionamiento continuo fuera de esos valores.
 
@@ -94,7 +94,7 @@ PAGES = {
 | ESAB HandyArc MIG 160i, 0410060 | GMAW 30–160 A; MMA 10–140 A | GMAW: 160 A/15%, 80 A/60%, 62 A/100%; MMA: 140 A/15%, 70 A/60%, 54 A/100% | 10,2 kg |
 | Dogo Dogostar 160 Moderna | MMA, 20–160 A | Dogo lista 2,5 mm/100%, 3,2 mm/80% y 4 mm/60% | Ficha de producto: verificar el peso de la versión ofertada |
 
-**Dato verificado:** los dos modelos ESAB tienen fichas oficiales argentinas; la página Dogo identifica su Dogostar 160 y muestra el factor de servicio por consumible. El número “160” no establece que los procesos, puntos de ciclo, alimentación eléctrica o accesorios sean iguales.
+**Dato documentado:** los dos modelos ESAB tienen fichas oficiales argentinas; la página Dogo identifica su Dogostar 160 y muestra el factor de servicio por consumible. El número “160” no establece que los procesos, puntos de ciclo, alimentación eléctrica o accesorios sean iguales.
 
 **Análisis TallerLab:** HandyArc 162i y MIG 160i difieren en masa publicada en 6,5 kg (cálculo entre 10,2 y 3,7 kg), pero también en proceso y configuración. Ese dato no predice facilidad de uso ni el trabajo que puede completarse. Para una elección documental, compará el proceso necesario, ciclo a la corriente relevante, voltaje, tipo de consumible y disponibilidad de alimentación.
 
@@ -113,7 +113,7 @@ PAGES = {
 | Lüsqtoff SLCEL200-9 | 230 V monofásica; MMA, selector para celulósico; también lift TIG | 10–200 A | Para electrodo de 2,5 mm: 100 A al 100% | 6,9 kg |
 | Dogo Dogostar 200 Moderna, DOG50046 | 220 V; MMA; función TIG por raspado con torcha adicional | 20–200 A | Dogo lista 3,2 mm/100%, 4,0 mm/60% y 5,0 mm/50% | 3,3 kg |
 
-**Dato verificado:** ambas fuentes publican un máximo de 200 A, pero describen servicio de maneras diferentes. Lüsqtoff ofrece un punto continuo de 100 A para electrodo de 2,5 mm; Dogo presenta porcentajes asociados a diámetros. No convertimos esos campos en un ciclo común ni suponemos salida continua a 200 A.
+**Dato documentado:** ambas fuentes publican un máximo de 200 A, pero describen servicio de maneras diferentes. Lüsqtoff ofrece un punto continuo de 100 A para electrodo de 2,5 mm; Dogo presenta porcentajes asociados a diámetros. No convertimos esos campos en un ciclo común ni suponemos salida continua a 200 A.
 
 **Análisis TallerLab:** los 200 A del nombre son un máximo de rango. Para comparar uso sostenido, buscá condiciones de medición equivalentes, tensión de salida y temperatura; la documentación consultada no ofrece el mismo formato en ambos productos. La diferencia de entrada nominal (230 V frente a 220 V) merece comprobarse en la placa/manual y la instalación.
 
@@ -132,7 +132,7 @@ PAGES = {
 | ESAB HandyArc MIG 160i (0410060) | MIG/MAG, rango GMAW 30–160 A; ciclos 160 A/15%, 80 A/60%, 62 A/100% | Bobina hasta 5 kg; diámetro hasta 0,9 mm | Ficha admite alambres tubulares con gas y sin gas; verificar consumible y regulación para la aplicación |
 | Lüsqtoff MIGDUAL200-9 | MIG, MMA y pulso MIG; rango MIG informado hasta 200 A | Porta rollo de 5–15 kg; incluye torcha MIG y manguera | La lista de accesorios incluye manguera; confirmar regulador, gas y consumible requeridos en manual |
 
-**Dato verificado:** ESAB documenta los rangos, ciclos y capacidad del devanador para MIG 160i. Lüsqtoff publica los datos de MIGDUAL200-9 y enumera una manguera entre los elementos del kit. La presencia de manguera no identifica por sí sola el gas, regulador o configuración incluidos en una oferta comercial.
+**Dato documentado:** ESAB documenta los rangos, ciclos y capacidad del devanador para MIG 160i. Lüsqtoff publica los datos de MIGDUAL200-9 y enumera una manguera entre los elementos del kit. La presencia de manguera no identifica por sí sola el gas, regulador o configuración incluidos en una oferta comercial.
 
 **Análisis TallerLab:** para soldar con protección gaseosa, verificá compatibilidad de alambre, rodillo, punta, polaridad y sistema de gas en el manual del equipo y ficha del consumible. Los rangos de corriente de dos equipos no sustituyen esas comprobaciones y no son directamente comparables si difieren condiciones de ciclo.
 
@@ -152,7 +152,7 @@ PAGES = {
 | Lüsqtoff TIG350ACDC-9 | 380 V, trifásica | 315 A/40%; rango de 5–315 A | 31,5 kg; fabricante dice que cable de alimentación no está incluido |
 | Lüsqtoff SMART TIG-AC/DC200, catálogo | 220 V monofásica ±10% | 200 A/25% en TIG AC y DC, según catálogo | Ficha de producto actual localizada no permite validar todas las cifras del catálogo |
 
-**Dato verificado:** ESAB publica salidas distintas al 20%, 60% y 100% para ET 200i. Lüsqtoff identifica TIG350ACDC-9 como trifásica y publica 315 A/40%. El SMART TIG-AC/DC200 aparece en catálogo Lüsqtoff con dos modos AC/DC y puntos de ciclo; los tratamos como dato de esa edición, no como ficha actual confirmada.
+**Dato documentado:** ESAB publica salidas distintas al 20%, 60% y 100% para ET 200i. Lüsqtoff identifica TIG350ACDC-9 como trifásica y publica 315 A/40%. El SMART TIG-AC/DC200 aparece en catálogo Lüsqtoff con dos modos AC/DC y puntos de ciclo; los tratamos como dato de esa edición, no como ficha actual confirmada.
 
 **Análisis TallerLab:** las necesidades eléctricas y ciclos separan claramente estas opciones: no se comparan solo por el número máximo. Comprobá fases disponibles, protección de red, ciclo a corriente de trabajo, accesorios y manual del modelo. Las descripciones de producto no bastan para elegir corriente, frecuencia/pulso o preparación de una junta.
 
@@ -172,7 +172,7 @@ PAGES = {
 | Lüsqtoff ST-200 | TIG HF y MMA DC | TIG 10–200 A; 200 A/60%, 100 A/100% | Página la marca discontinuada; 220 V monofásica |
 | Lüsqtoff PROTIG180-8 | Inverter TIG y MMA; la página citada no especifica corriente AC | TIG 180 A al 30%; MMA 160 A al 30% | 220 V/50 Hz; 5,2 kg; ficha declara garantía de 2 años |
 
-**Dato verificado:** la ficha ESAB identifica explícitamente TIG AC/DC. Lüsqtoff ST-200 se describe como “TIG dual / DC-MMA” y está discontinuada. La página PROTIG180-8 informa corrientes y ciclo, pero no se usa para afirmar compatibilidad TIG AC.
+**Dato documentado:** la ficha ESAB identifica explícitamente TIG AC/DC. Lüsqtoff ST-200 se describe como “TIG dual / DC-MMA” y está discontinuada. La página PROTIG180-8 informa corrientes y ciclo, pero no se usa para afirmar compatibilidad TIG AC.
 
 **Análisis TallerLab:** un nombre “TIG” no confirma salida AC/DC, tipo de encendido ni proceso de electrodo. Si se necesita TIG AC para aluminio, confirmar esa función en la ficha/manual del código exacto; para cualquier compra, cotejar rango, ciclo, frecuencia de red y accesorios incluidos.
 
@@ -192,7 +192,7 @@ PAGES = {
 | YiHUA 898D | Pistola de aire caliente y cautín | Aire 100–480 °C; cautín 200–480 °C | Aire máx. 120 L/min; estación 730 W | Dos pantallas LED y configuración de dos funciones |
 | Lüsqtoff ES3L45-8 | Cautín regulable; no declara pistola de aire | Cautín 200–480 °C | Consumo/capacidad de entrada no queda claro en ficha comercial consultada | Estación compacta para trabajo con cautín, no especificada como retrabajo de aire |
 
-**Dato verificado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
+**Dato documentado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
 
 **Análisis TallerLab:** si la tarea requiere retirar componentes SMD con aire, el tipo de herramienta incluida es una diferencia funcional que se puede verificar antes de comprar. Para soldadura puntual con cautín, comparar puntas, repuestos y control térmico del modelo exacto. Una lectura de temperatura de ficha no describe estabilidad real en la punta bajo carga.
 
@@ -236,7 +236,7 @@ for relpath, (asset, body, hub, sibling, sibling_title) in PAGES.items():
         raise RuntimeError(f"Cambió title o URL al preparar {path}")
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.\n\n"
+        f"**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.\n\n"
         f"## Cómo investigamos esta guía\n\n"
         f"- Tipo de análisis: documental\n- Prueba física de TallerLab: no\n- Especificaciones contrastadas: sí\n- Opiniones de compradores: no\n- Fuentes primarias: sí\n- Última revisión: 27/09/2026\n\n"
         f"{body}\n\n"

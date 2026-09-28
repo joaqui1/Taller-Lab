@@ -23,7 +23,7 @@ Las fichas argentinas de GSA 1100 E y GSA 18V-24 publican el mismo máximo de co
 
 ## Cable o batería: dos fichas Bosch comparables
 
-| Dato verificado | GSA 1100 E | GSA 18V-24 |
+| Dato documentado | GSA 1100 E | GSA 18V-24 |
 | :--- | ---: | ---: |
 | Alimentación | Cable, 1.100 W | Batería 18 V |
 | Carrera | 28 mm | 24 mm |

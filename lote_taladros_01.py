@@ -7,7 +7,7 @@ ROOT = Path(__file__).parent
 PAGES = {
     "paginas/taladros/20-taladro-inalambrico-bosch.md": (
         "GSR 120-LI o GSB 18V-50: distinguir plataforma y percusión",
-        "**Dato verificado:** esta comparación usa fichas Bosch de dos códigos concretos: GSR 120-LI (12 V) y GSB 18V-50 (18 V). No extrapolamos las cifras a toda la línea Bosch.",
+        "**Dato documentado:** esta comparación usa fichas Bosch de dos códigos concretos: GSR 120-LI (12 V) y GSB 18V-50 (18 V). No extrapolamos las cifras a toda la línea Bosch.",
         """| Dato publicado | GSR 120-LI | GSB 18V-50 |
 | :--- | ---: | ---: |
 | Plataforma | 12 V | 18 V |
@@ -33,7 +33,7 @@ PAGES = {
     ),
     "paginas/taladros/13-taladro-inalambrico-dewalt.md": (
         "DCD794 y DCD805: separar taladro atornillador y percutor",
-        "**Dato verificado:** contrastamos dos modelos identificados en el catálogo DeWalt: DCD794 y DCD805. La documentación consultada corresponde al mercado estadounidense; no confirma la disponibilidad ni garantía de cada kit en Argentina.",
+        "**Dato documentado:** contrastamos dos modelos identificados en el catálogo DeWalt: DCD794 y DCD805. La documentación consultada corresponde al mercado estadounidense; no confirma la disponibilidad ni garantía de cada kit en Argentina.",
         """| Dato documentado | DCD794 | DCD805 |
 | :--- | :--- | :--- |
 | Categoría de ficha | Taladro atornillador | Taladro percutor/atornillador |
@@ -59,7 +59,7 @@ PAGES = {
     ),
     "paginas/taladros/12-taladro-inalambrico-einhell.md": (
         "TE-CD 18/40 y TP-CD 18/50: sin y con percusión",
-        "**Dato verificado:** la tabla reúne datos publicados para el Einhell TE-CD 18/40 Li y el TP-CD 18/50 Li-i BL (artículo 4513942). El sufijo del modelo y el contenido de caja importan: el TP-CD consultado es la versión Solo.",
+        "**Dato documentado:** la tabla reúne datos publicados para el Einhell TE-CD 18/40 Li y el TP-CD 18/50 Li-i BL (artículo 4513942). El sufijo del modelo y el contenido de caja importan: el TP-CD consultado es la versión Solo.",
         """| Dato documentado | TE-CD 18/40 Li | TP-CD 18/50 Li-i BL Solo |
 | :--- | ---: | ---: |
 | Plataforma | 18 V Power X-Change | 18 V Power X-Change |
@@ -85,8 +85,8 @@ PAGES = {
     ),
     "paginas/taladros/18-taladro-stanley.md": (
         "SDH600 o SDH700: 600 W y 700 W no cuentan toda la historia",
-        "**Dato verificado:** los manuales Stanley para SDH600 y SDH700 publican sus prestaciones y capacidades. Las cifras corresponden a variantes con tensión regional indicada en cada manual.",
-        """| Dato verificado en manual | SDH600 | SDH700 |
+        "**Dato documentado:** los manuales Stanley para SDH600 y SDH700 publican sus prestaciones y capacidades. Las cifras corresponden a variantes con tensión regional indicada en cada manual.",
+        """| Dato documentado en manual | SDH600 | SDH700 |
 | :--- | ---: | ---: |
 | Potencia nominal | 600 W | 700 W |
 | Velocidad sin carga | 0–2.900 rpm | 0–2.900 rpm |
@@ -111,7 +111,7 @@ PAGES = {
     ),
     "paginas/taladros/09-taladro-black-decker.md": (
         "LD120: ficha identificada y una precaución con 20 V MAX",
-        "**Dato verificado:** el manual regional de BLACK+DECKER LD120 publica tensión de etiqueta, velocidad, torque, mandril y batería. La marca 20 V MAX no equivale a tensión nominal bajo carga.",
+        "**Dato documentado:** el manual regional de BLACK+DECKER LD120 publica tensión de etiqueta, velocidad, torque, mandril y batería. La marca 20 V MAX no equivale a tensión nominal bajo carga.",
         """| Dato publicado para LD120 | Especificación |
 | :--- | :--- |
 | Alimentación indicada | 20 V MAX; 18 V nominales bajo carga según nota del manual |
@@ -137,7 +137,7 @@ El mandril de 10 mm y la ausencia de una función percutora en las especificacio
     ),
     "paginas/taladros/15-taladro-milwaukee.md": (
         "M12 3404 y M18 2904: comparar plataforma y función",
-        "**Dato verificado:** comparamos los códigos Milwaukee 3404-20 (M12) y 2904-20 (M18). Las fichas estadounidenses no confirman disponibilidad, tensión de cargador ni garantía de la unidad vendida en Argentina.",
+        "**Dato documentado:** comparamos los códigos Milwaukee 3404-20 (M12) y 2904-20 (M18). Las fichas estadounidenses no confirman disponibilidad, tensión de cargador ni garantía de la unidad vendida en Argentina.",
         """| Dato documentado | M12 FUEL 3404-20 | M18 FUEL 2904-20 |
 | :--- | ---: | ---: |
 | Plataforma | M12 | M18 |
@@ -162,7 +162,7 @@ El mandril de 10 mm y la ausencia de una función percutora en las especificacio
     ),
     "paginas/taladros/01-taladro-inalambrico.md": (
         "Tres criterios para comparar taladros a batería documentados",
-        "**Dato verificado:** esta matriz usa tres modelos identificados y fuentes de fabricante. Los valores de torque son los publicados por cada marca; no constituyen una prueba comparativa con un método común.",
+        "**Dato documentado:** esta matriz usa tres modelos identificados y fuentes de fabricante. Los valores de torque son los publicados por cada marca; no constituyen una prueba comparativa con un método común.",
         """| Modelo y fuente | Plataforma indicada | Torque publicado | Velocidad sin carga | Mandril | Función de percusión |
 | :--- | ---: | ---: | ---: | ---: | :--- |
 | Bosch GSR 120-LI | 12 V | 30 Nm duro | 0–400 / 0–1.500 rpm | hasta 10 mm | No indicada para GSR |
@@ -184,7 +184,7 @@ Para decidir, anotá primero si necesitás solo atornillar/perforar o también p
     ),
     "paginas/taladros/19-atornillador-de-impacto-dewalt.md": (
         "DCF809 y DCF887: torque máximo y control no son lo mismo",
-        "**Dato verificado:** las cifras de la tabla proceden de manuales DeWalt para DCF809 y DCF887. Los valores de torque son máximos publicados por el fabricante, no valores de apriete que TallerLab haya medido en un tornillo.",
+        "**Dato documentado:** las cifras de la tabla proceden de manuales DeWalt para DCF809 y DCF887. Los valores de torque son máximos publicados por el fabricante, no valores de apriete que TallerLab haya medido en un tornillo.",
         """| Dato de manual | DCF809 | DCF887 |
 | :--- | ---: | ---: |
 | Torque máximo declarado | 190 Nm | 205 Nm |
@@ -209,7 +209,7 @@ Para decidir, anotá primero si necesitás solo atornillar/perforar o también p
     ),
     "paginas/taladros/05-atornillador-de-impacto.md": (
         "Atornillador de impacto: hexagonal de 1/4 in frente a cuadrado de 1/2 in",
-        "**Dato verificado:** comparamos dos herramientas de impacto Bosch con interfaz distinta y el DeWalt DCF887 con modos documentados. El nombre comercial “de impacto” no alcanza para determinar qué accesorio admite cada modelo.",
+        "**Dato documentado:** comparamos dos herramientas de impacto Bosch con interfaz distinta y el DeWalt DCF887 con modos documentados. El nombre comercial “de impacto” no alcanza para determinar qué accesorio admite cada modelo.",
         """| Modelo documentado | Interfaz | Dato de torque publicado | Control publicado | Qué indica la interfaz |
 | :--- | :--- | ---: | :--- | :--- |
 | Bosch GDR 18V-200 | Hexagonal 1/4 in | 200 Nm máximo | Gatillo variable; 0–3.400 rpm | Puntas y accesorios con vástago hexagonal compatible |
@@ -218,7 +218,7 @@ Para decidir, anotá primero si necesitás solo atornillar/perforar o también p
 
 **Análisis TallerLab.** La comparación propia es funcional: el GDX combina dos encastres; GDR y DCF887 citados tienen portapuntas hexagonal. Una llave de impacto con cuadrado de 1/2 in se elige para dados, y no debe confundirse con un atornillador que solo sujeta puntas de 1/4 in. Aunque el GDX publica 350 Nm de arranque, ese número no se compara con los 200–205 Nm de apriete de los otros equipos: son magnitudes/condiciones diferentes.
 
-**Dato verificado.** Bosch publica 200 Nm para GDR 18V-200, y para GDX 18V-200 diferencia torque máximo y torque de arranque. DeWalt ofrece tres modos de control en el DCF887. Estas fichas permiten identificar compatibilidad y ajuste, no el resultado en una fijación específica.
+**Dato documentado.** Bosch publica 200 Nm para GDR 18V-200, y para GDX 18V-200 diferencia torque máximo y torque de arranque. DeWalt ofrece tres modos de control en el DCF887. Estas fichas permiten identificar compatibilidad y ajuste, no el resultado en una fijación específica.
 
 **Desconocido.** No medimos fuerza de apriete, precisión, vibración ni desempeño con un accesorio concreto. Confirmá retención, dimensiones del vástago, clasificación de impacto de la punta/dado y el manual antes de usar.
 
@@ -231,7 +231,7 @@ Para decidir, anotá primero si necesitás solo atornillar/perforar o también p
     ),
     "paginas/taladros/07-taladro-percutor-inalambrico.md": (
         "Percutores inalámbricos: la comparación empieza por datos comunes",
-        "**Dato verificado:** esta matriz reúne cuatro taladros percutores identificados. Solo comparamos campos publicados; los datos de torque, percusión y peso no siguen necesariamente un protocolo común entre marcas.",
+        "**Dato documentado:** esta matriz reúne cuatro taladros percutores identificados. Solo comparamos campos publicados; los datos de torque, percusión y peso no siguen necesariamente un protocolo común entre marcas.",
         """| Modelo | Plataforma | Torque máximo publicado | Percusión publicada | Mandril | Batería en código citado |
 | :--- | ---: | ---: | ---: | ---: | :--- |
 | Bosch GSB 18V-50 (0 601 9H5 1E2) | 18 V | 50 Nm | Hasta 27.000 impactos/min | Metálico, 1,5–13 mm | No incluida en variante de caja |

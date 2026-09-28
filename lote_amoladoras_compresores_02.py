@@ -12,7 +12,7 @@ PAGES = {
 | GA4534 | 720 W | 115 mm | 11.000 rpm | 1,98–2,31 kg | Paleta |
 | 9557HPG | 840 W | 115 mm | 11.000 rpm | 1,7–2,2 kg | Paleta |
 
-**Dato verificado:** la ficha argentina de Makita identifica esos valores para GA4534 y 9557HPG. El borrador mencionaba GA4530 como modelo de 720 W; la documentación local consultada identifica como GA4534 a la variante de 720 W. No transferimos automáticamente las especificaciones entre códigos parecidos.
+**Dato documentado:** la ficha argentina de Makita identifica esos valores para GA4534 y 9557HPG. El borrador mencionaba GA4530 como modelo de 720 W; la documentación local consultada identifica como GA4534 a la variante de 720 W. No transferimos automáticamente las especificaciones entre códigos parecidos.
 
 **Análisis TallerLab:** en estas dos fichas, 9557HPG declara 120 W más de potencia absorbida que GA4534 —un 16,7 % respecto de 720 W—, mientras que ambas comparten diámetro y velocidad en vacío publicada. Esa cuenta compara datos de placa; no predice velocidad bajo carga, rapidez de corte ni vida útil. Los rangos de peso se superponen y no permiten establecer una diferencia exacta sin fijar la configuración y el método de medición.
 
@@ -44,7 +44,7 @@ PAGES = {
 | Bosch GGS 28 L, 0 601 224 0H0 | 500 W | 33.000 rpm | 1,4 kg | La página consultada no detalla el diámetro de pinza en el resumen |
 | Makita GD0600 | 400 W | 25.000 rpm | Desconocido en la ficha consultada | Desconocido en la ficha consultada |
 
-**Dato verificado:** Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. La ficha Bosch incluye un manual descargable para confirmar accesorios y montaje. No completamos la fila de Makita por analogía con otras rectas de la marca.
+**Dato documentado:** Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. La ficha Bosch incluye un manual descargable para confirmar accesorios y montaje. No completamos la fila de Makita por analogía con otras rectas de la marca.
 
 **Análisis TallerLab:** en estos dos ejemplos con cable, la ficha Bosch declara 100 W más (25 % sobre 400 W) y 8.000 rpm más en vacío (32 % sobre 25.000 rpm). Son diferencias aritméticas de especificaciones, no una prueba de capacidad de desbaste. Pinza, accesorio admitido y velocidad máxima del accesorio deben cotejarse por herramienta y operación.
 
@@ -75,7 +75,7 @@ PAGES = {
 | Skil 9004 | 830 W | 115 mm | 11.000 rpm | 1,8 kg |
 | Skil 9002 | 700 W | 115 mm | 11.000 rpm | 1,8 kg |
 
-**Dato verificado:** el catálogo Skil Argentina 2019 consultado lista 830 W para 9004 y 700 W para 9002, además de diámetro, velocidad y peso. Un manual Skil/Bosch alojado por un distribuidor contiene instrucciones conjuntas para los modelos 9002 y 9004. La publicación de Sodimac para 9004 también indica 830 W, aunque su ficha de peso es peso embalado y no se usa para la comparación de peso neto.
+**Dato documentado:** el catálogo Skil Argentina 2019 consultado lista 830 W para 9004 y 700 W para 9002, además de diámetro, velocidad y peso. Un manual Skil/Bosch alojado por un distribuidor contiene instrucciones conjuntas para los modelos 9002 y 9004. La publicación de Sodimac para 9004 también indica 830 W, aunque su ficha de peso es peso embalado y no se usa para la comparación de peso neto.
 
 **Análisis TallerLab:** la diferencia nominal de entrada es 130 W, equivalente a 18,6 % respecto de 700 W; la velocidad y el diámetro son iguales en el catálogo consultado. La diferencia no demuestra que el modelo 9004 corte más rápido: para eso harían falta condiciones y una prueba comparativa controlada. La coincidencia de peso publicado (1,8 kg) tampoco incorpora variaciones por accesorios o mercado.
 
@@ -107,7 +107,7 @@ PAGES = {
 | STGS7115 | Página Stanley Perú | 710 W | 115 mm | No indicada en la página consultada | No indicada |
 | SG7115 | Manual Stanley, variantes listadas | 750 W | 115 mm | 12.000 rpm | 1,7 kg |
 
-**Dato verificado:** Stanley publica STGS7115 como amoladora de 710 W y 115 mm. El manual de SG7115, que lista tensiones y frecuencias para varias regiones, informa 750 W, 12.000 rpm, eje M14 y 1,7 kg para esa familia.
+**Dato documentado:** Stanley publica STGS7115 como amoladora de 710 W y 115 mm. El manual de SG7115, que lista tensiones y frecuencias para varias regiones, informa 750 W, 12.000 rpm, eje M14 y 1,7 kg para esa familia.
 
 **Análisis TallerLab:** la diferencia aparente es de 40 W, pero los códigos no son idénticos y las fuentes describen variantes/regiones distintas. Por eso no se presenta como una evolución lineal ni como comparación de dos equipos locales equivalentes. La primera comprobación útil es leer la placa y el sufijo del producto ofrecido, y después usar el manual que coincide con tensión y código.
 
@@ -139,7 +139,7 @@ El material verificable reunido cubre dos modelos compactos de 115 mm. No se enc
 | TG10711576 | Distribuidor autorizado Namibia | 710 W | 115 mm | 12.000 rpm | 220–240 V, 50/60 Hz |
 | TG10711576 | Sitio oficial Total Túnez | 710 W | 115 mm | 11.000 rpm | 230 V |
 
-**Dato verificado:** ambas fichas identifican el código TG10711576, 710 W y disco de 115 mm; difieren en las rpm publicadas (12.000 frente a 11.000) y describen su propio mercado/tensión. El dato de rosca M14 aparece en ambas fichas consultadas.
+**Dato documentado:** ambas fichas identifican el código TG10711576, 710 W y disco de 115 mm; difieren en las rpm publicadas (12.000 frente a 11.000) y describen su propio mercado/tensión. El dato de rosca M14 aparece en ambas fichas consultadas.
 
 **Análisis TallerLab:** la diferencia de 1.000 rpm es una discrepancia documental que no se resuelve promediando cifras. Sin una ficha que identifique la variante vendida en Argentina, no elegimos una cifra como universal. La tabla vuelve visible por qué el código de catálogo y la placa de la unidad importan tanto como el nombre de marca.
 
@@ -168,7 +168,7 @@ El material verificable reunido cubre dos modelos compactos de 115 mm. No se enc
 | Bosch GWS 9-125 S | 900 W | 125 mm | 2.800–11.000 rpm | M14; peso 1,9 kg; la ficha argentina consultada selecciona variante 127 V |
 | Dowen Pagio 9993224.2 | 900 W | 115/125 mm | 4.000–12.000 rpm | Regulador variable según página del producto |
 
-**Dato verificado:** las fichas y catálogos enlazados declaran ambos rangos ajustables. Para Bosch, la página argentina muestra una variante de 127 V; el código y la tensión deben cotejarse antes de aplicar esos datos a otra versión. La página Dowen identifica los diámetros 115/125 mm y anuncia regulador variable.
+**Dato documentado:** las fichas y catálogos enlazados declaran ambos rangos ajustables. Para Bosch, la página argentina muestra una variante de 127 V; el código y la tensión deben cotejarse antes de aplicar esos datos a otra versión. La página Dowen identifica los diámetros 115/125 mm y anuncia regulador variable.
 
 **Análisis TallerLab:** los rangos no son equivalentes: el extremo inferior publicado para Bosch es 1.200 rpm menor y el superior de Dowen es 1.000 rpm mayor. La cuenta compara límites de ficha, no certifica exactitud del selector ni rpm bajo carga. Tampoco vuelve intercambiables los discos: cada accesorio debe respetar diámetro, velocidad máxima y aplicación indicados por su fabricante.
 
@@ -202,7 +202,7 @@ La regulación es una característica medible de la herramienta. Para decidir si
 | Lüsqtoff LC-30100 | 100 L | 3 HP; 220 V; a correa; bicilíndrico | 335 L/min | 115 psi | 115 kg en manual; 85 kg en catálogo 2023–24 |
 | Gamma G2803AR | 100 L | 3 HP; 220 V; bicilíndrico | 250 L/min | 116 psi | No indicada en la ficha consultada |
 
-**Dato verificado:** ambas marcas publican depósito de 100 litros y motor de 3 HP. Lüsqtoff documenta 335 L/min en su manual LC-30100, mientras Gamma publica 250 L/min para G2803AR. Lüsqtoff publica dos pesos distintos en documentos consultados: el manual indica 115 kg y el catálogo 2023–2024 indica 85 kg.
+**Dato documentado:** ambas marcas publican depósito de 100 litros y motor de 3 HP. Lüsqtoff documenta 335 L/min en su manual LC-30100, mientras Gamma publica 250 L/min para G2803AR. Lüsqtoff publica dos pesos distintos en documentos consultados: el manual indica 115 kg y el catálogo 2023–2024 indica 85 kg.
 
 **Análisis TallerLab:** la diferencia aritmética de caudal publicado es 85 L/min (34 % respecto del valor Gamma). No equivale a una diferencia comprobada de caudal efectivo entregado: las páginas no identifican el mismo método de medición ni publican FAD a una presión de trabajo común. La discrepancia de peso de LC-30100 también impide mostrar un único valor sin más contexto; verificá placa, revisión del manual y unidad ofrecida.
 
@@ -232,7 +232,7 @@ La regulación es una característica medible de la herramienta. Para decidir si
 | AV000009 | 12 V | 150 PSI | 85 L/min | Doble | 30 min recomendado; 40 min máximo |
 | AV000012 | 12 V | 150 PSI | Título: 60 L/min; especificación: 35–60 L/min (la descripción también menciona 72 L/min) | Doble | 30 min recomendado; 40 min máximo |
 
-**Dato verificado:** la tienda Gadnic publica estas cifras y ambos productos indican conexión directa a batería. AV000009 lista 23 A máximos, manguera de 0,25 m más extensión de 5 m y peso de 2,54 kg. AV000012 lista 23 A máximos, cable de 3 m, manguera de 0,60 m más extensión de 2,90 m y peso de 1,4 kg.
+**Dato documentado:** la tienda Gadnic publica estas cifras y ambos productos indican conexión directa a batería. AV000009 lista 23 A máximos, manguera de 0,25 m más extensión de 5 m y peso de 2,54 kg. AV000012 lista 23 A máximos, cable de 3 m, manguera de 0,60 m más extensión de 2,90 m y peso de 1,4 kg.
 
 **Análisis TallerLab:** no comparamos AV000009 y AV000012 por rapidez de inflado. Para AV000012 el caudal aparece como 60, 35–60 y 72 L/min en distintas partes de la misma ficha; además, las páginas no precisan presión y método para hacer comparables los caudales. La discrepancia queda expuesta, no promediada. Un máximo de 150 PSI tampoco indica el tiempo para inflar una rueda concreta.
 
@@ -265,7 +265,7 @@ La regulación es una característica medible de la herramienta. Para decidir si
 | Lüsqtoff LC-30200 | 200 L | 3 HP; 220 V monofásico | 335 L/min | 115 psi | 95 kg (catálogo 2024–25) |
 | Schulz CSV 20/200, código 922.9303-0 | 172,8 L | 5 HP; 220 V | 566 L/min de desplazamiento teórico | 175 psi / 12,0 bar | 133,1 kg |
 
-**Dato verificado:** Lüsqtoff identifica LC-30200 como tanque de 200 L, 3 HP y 335 L/min en su catálogo 2025. Schulz comercializa CSV 20/200, pero la ficha técnica del código 922.9303-0 declara volumen de reservorio de 172,8 L y desplazamiento teórico de 566 L/min. Por tanto, la etiqueta “20/200” no basta para inferir que el calderín mida exactamente 200 L.
+**Dato documentado:** Lüsqtoff identifica LC-30200 como tanque de 200 L, 3 HP y 335 L/min en su catálogo 2025. Schulz comercializa CSV 20/200, pero la ficha técnica del código 922.9303-0 declara volumen de reservorio de 172,8 L y desplazamiento teórico de 566 L/min. Por tanto, la etiqueta “20/200” no basta para inferir que el calderín mida exactamente 200 L.
 
 **Análisis TallerLab:** el desplazamiento teórico Schulz supera en 231 L/min el caudal publicado para Lüsqtoff, pero las fuentes no confirman una metodología común ni un caudal efectivo en herramienta; esta resta no es un ranking de entrega útil. La comparación sirve para separar volumen nominal/anunciado, desplazamiento y presión, que son magnitudes distintas.
 
@@ -296,11 +296,11 @@ La regulación es una característica medible de la herramienta. Para decidir si
 | Gamma G2860AR | 24 L | 1.500 W; 220 V; sin aceite | 8 bar / 116 psi | 236 L/min, descrito como flujo continuo | 21,3 kg |
 | Lüsqtoff LC-0122 | 24 L | 1 HP / 750 W; 220 V; sin aceite | 115 psi | 180 L/min | 24 kg |
 
-**Dato verificado:** las fichas de Gamma y Lüsqtoff identifican tanque de 24 L y publican los valores de la tabla. Gamma declara presión de conexión de 6 bar y desconexión a 8 bar; Lüsqtoff describe una unidad monofásica de pistón y mando directo.
+**Dato documentado:** las fichas de Gamma y Lüsqtoff identifican tanque de 24 L y publican los valores de la tabla. Gamma declara presión de conexión de 6 bar y desconexión a 8 bar; Lüsqtoff describe una unidad monofásica de pistón y mando directo.
 
 **Análisis TallerLab:** las fichas publican una diferencia de 56 L/min y 750 W entre estos ejemplos, pero Gamma llama a su cifra “flujo continuo” y Lüsqtoff la llama “caudal”; no se especifican condiciones comunes suficientes para tratar esa resta como ventaja efectiva. El dato de presión máxima tampoco prueba que una herramienta mantenga su caudal durante una operación continua.
 
-**Dato verificado sobre la intención de búsqueda:** el modelo Lüsqtoff LC-2024 que aparecía en el borrador no es de 24 L: la página de fabricante lo identifica como modelo discontinuado de 40 L. Se retira como ejemplo de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
+**Dato documentado sobre la intención de búsqueda:** el modelo Lüsqtoff LC-2024 que aparecía en el borrador no es de 24 L: la página de fabricante lo identifica como modelo discontinuado de 40 L. Se retira como ejemplo de 24 L. Como referencia cercana de tamaño, Gamma G2801AR declara 25 L, 2 HP, 2.850 rpm y 27 kg; no es un modelo de 24 L y queda fuera de la comparación principal.
 
 | Uso que estás evaluando | Dato que conviene cotejar |
 | :--- | :--- |
@@ -346,7 +346,7 @@ for relpath, (asset, body, description, hub, sibling, sibling_title) in PAGES.it
             front += f"\n{key}: {value}"
     newbody = (
         f"# {h1_value}\n\n<!-- AUDITORIA_EDITORIAL_178 -->\n\n"
-        f"**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.\n\n"
+        f"**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.\n\n"
         f"{body}\n\n"
         f"Para seguir comparando: [{sibling_title}]({sibling}).\n\n"
         f"Para explorar la categoría: [guías de {('amoladoras' if '/amoladoras/' in hub else 'compresores')}]({hub}).\n"

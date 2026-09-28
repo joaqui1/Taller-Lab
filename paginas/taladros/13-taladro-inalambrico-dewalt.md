@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro inalámbrico DeWalt comprar
 
-**Dato verificado:** contrastamos dos modelos identificados en el catálogo DeWalt: DCD794 y DCD805. La documentación consultada corresponde al mercado estadounidense; no confirma la disponibilidad ni garantía de cada kit en Argentina.
+**Dato documentado:** contrastamos dos modelos identificados en el catálogo DeWalt: DCD794 y DCD805. La documentación consultada corresponde al mercado estadounidense; no confirma la disponibilidad ni garantía de cada kit en Argentina.
 
 ## DCD794 y DCD805: separar taladro atornillador y percutor
 

@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Gadnic AV000009 | 12 V, conexión a batería | 150 PSI | 85 L/min en página; condición de presión no detallada junto al valor | 2,54 kg |
 | Makita DMP180Z | Batería 18 V | 8,3 bar | 12 L/min a 200 kPa; 8 a 700 kPa; 7 a 830 kPa | 1,7 kg |
 
-**Dato verificado:** Gadnic lista también 23 A máximos, doble cilindro y ciclo recomendado de 30 minutos, con un máximo de 40 minutos en su página. Makita publica caudales por presión y recomienda cotejar la configuración comercial, porque el sufijo Z corresponde al cuerpo de herramienta sin batería/cargador en la nomenclatura de esa ficha.
+**Dato documentado:** Gadnic lista también 23 A máximos, doble cilindro y ciclo recomendado de 30 minutos, con un máximo de 40 minutos en su página. Makita publica caudales por presión y recomienda cotejar la configuración comercial, porque el sufijo Z corresponde al cuerpo de herramienta sin batería/cargador en la nomenclatura de esa ficha.
 
 **Análisis TallerLab:** no es válida una clasificación simple entre 85 L/min de Gadnic y 7 L/min de Makita: la ficha Gadnic no presenta la condición de presión junto a su caudal, mientras Makita separa valores por presión. La tabla muestra qué dato falta para una comparación de tiempo de inflado: mismo volumen inicial/final, misma presión objetivo, fuente de energía y método de medición.
 

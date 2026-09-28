@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | LNW-65, 1040065 | Nafta, 4T, axial | 6,5 HP | 180 bar | 8,3 L/min | 41,8 kg |
 | LNW-130, 1040130 | Nafta, 4T, cigüeñal | 13 HP | 252 bar | 18 L/min | 63 kg |
 
-**Dato verificado:** el catálogo Niwa de Grupo Rumbo publica para HDNW-200 y HDNW-500 las potencias, presiones máximas y caudales de la tabla. Para LNW-65 y LNW-130 publica motores nafteros de 6,5/13 HP, presiones máximas de 180/252 bar, caudales de 8,3/18 L/min y pesos de 41,8/63 kg. Son datos del catálogo del importador; no indican presión de trabajo para todos los modelos.
+**Dato documentado:** el catálogo Niwa de Grupo Rumbo publica para HDNW-200 y HDNW-500 las potencias, presiones máximas y caudales de la tabla. Para LNW-65 y LNW-130 publica motores nafteros de 6,5/13 HP, presiones máximas de 180/252 bar, caudales de 8,3/18 L/min y pesos de 41,8/63 kg. Son datos del catálogo del importador; no indican presión de trabajo para todos los modelos.
 
 **Análisis TallerLab:** las versiones a explosión de la tabla pesan aproximadamente 8,0 y 12,1 veces lo publicado para HDNW-200 (41,8/5,2 y 63/5,2); también declaran caudales superiores, con otra fuente de energía, construcción y escala. Es una división de cifras nominales del catálogo, no una evaluación de movilidad o productividad. No se infiere equivalencia entre los 252 bar máximos de LNW-130 y presión sostenida de servicio.
 

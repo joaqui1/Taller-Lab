@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | KP Pro Classic 3.10 10/150 M, C2585AR | 230 V monofásica; 2,2 kW | 140 bar | 150 bar | 9 / 10 L/min |
 | KM Extra 8.16 16/200 T, C2586AR | 400 V trifásica; 6,5 kW | 190 bar a salida ≤108 °C | 200 bar a ≤108 °C; 32 bar máx. a ≤140 °C | 15 / 16 L/min |
 
-**Dato verificado:** Gamma publica para KP Pro Classic 3.10 10/150 M tensión monofásica de 230 V, presión nominal de 140 bar, máxima de 150 bar, caudal nominal de 9 L/min y máximo de 10 L/min. La KM Extra 8.16 16/200 T requiere 400 V trifásicos y 6,5 kW; su página detalla presión nominal/máxima y caudales diferenciados en la tabla. La máxima presión cambia con la temperatura de salida especificada por el fabricante.
+**Dato documentado:** Gamma publica para KP Pro Classic 3.10 10/150 M tensión monofásica de 230 V, presión nominal de 140 bar, máxima de 150 bar, caudal nominal de 9 L/min y máximo de 10 L/min. La KM Extra 8.16 16/200 T requiere 400 V trifásicos y 6,5 kW; su página detalla presión nominal/máxima y caudales diferenciados en la tabla. La máxima presión cambia con la temperatura de salida especificada por el fabricante.
 
 **Análisis TallerLab:** la KM declara 50 bar más de presión nominal y 6 L/min más de caudal nominal que la KP, pero exige suministro trifásico y una demanda eléctrica publicada mayor. La KP es monofásica, aunque sus 2,2 kW y 16 A de fusible también requieren revisar la instalación. No se debe seleccionar por presión sola: la fuente disponible, temperatura, caudal de alimentación, ciclo requerido y accesorios son parámetros distintos.
 

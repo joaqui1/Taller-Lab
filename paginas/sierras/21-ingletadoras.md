@@ -19,7 +19,7 @@ published: true
 
 # Ingletadoras: cuál elegir según el corte y el material
 
-La capacidad publicada de dos máquinas Einhell con disco de 210 mm muestra cuánto cambia el ancho útil al incorporar un carro deslizante. **Dato verificado:** las capacidades de la tabla proceden de las dos fichas oficiales enlazadas.
+La capacidad publicada de dos máquinas Einhell con disco de 210 mm muestra cuánto cambia el ancho útil al incorporar un carro deslizante. **Dato documentado:** las capacidades de la tabla proceden de las dos fichas oficiales enlazadas.
 
 ## Elegir por sección de pieza, no solo por disco
 

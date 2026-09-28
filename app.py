@@ -6,6 +6,7 @@ from flask import Flask, Response, redirect, request, send_from_directory
 
 from servidor_local import (
     ALL_ARTICLES,
+    AUTHOR_PATH,
     ASSETS_DIR,
     CATEGORY_META,
     INDEXABLE_PATH_SET,
@@ -62,6 +63,12 @@ def page(path):
     if url_path in ("/favicon.ico", "/favicon.svg"):
         return Response(FAVICON, content_type="image/svg+xml")
 
+    if url_path in ("/equipo-editorial", "/equipo-editorial/"):
+        destination = AUTHOR_PATH
+        if request.query_string:
+            destination += "?" + request.query_string.decode("ascii")
+        return redirect(destination, code=301)
+
     if not url_path.endswith("/") and url_path + "/" in INDEXABLE_PATH_SET:
         destination = url_path + "/"
         if request.query_string:
@@ -72,7 +79,7 @@ def page(path):
         html = render_home_page()
     elif url_path == "/como-trabajamos/":
         html = render_editorial_page("metodologia")
-    elif url_path == "/equipo-editorial/":
+    elif url_path == AUTHOR_PATH:
         html = render_editorial_page("equipo")
     elif url_path.endswith("/") and url_path in INDEXABLE_PATH_SET and url_path[1:-1] in CATEGORY_META:
         html = render_category_page(url_path[1:-1])

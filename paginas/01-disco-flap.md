@@ -28,7 +28,7 @@ published: true
 | 2 608 619 008 | Angular T29 | 40 | 115 / 22,23 mm | La ficha de esta variante no mostró el dato en el recorte consultado |
 | 2 608 619 010 | Angular T29 | 80 | 115 / 22,23 mm | 13.300 rpm |
 
-**Dato verificado:** las fichas Bosch identifican X571 con grano de circonio y uso de desbaste de metal. Los modelos rectos y angulares se ofrecen con varios granos; las tablas distinguen el código consultado para que no se atribuyan todos los datos a la familia completa.
+**Dato documentado:** las fichas Bosch identifican X571 con grano de circonio y uso de desbaste de metal. Los modelos rectos y angulares se ofrecen con varios granos; las tablas distinguen el código consultado para que no se atribuyan todos los datos a la familia completa.
 
 **Análisis TallerLab:** entre los códigos rectos 322 y 324 cambia el grano de 40 a 80, pero el diámetro, orificio y límite de rpm publicado coinciden. Esto permite filtrar accesorios por acabado buscado, pero no predice por sí solo cuánto material quitará por minuto ni la terminación real. La forma recta o angular también debe corresponder al apoyo y la aplicación indicados por el fabricante.
 

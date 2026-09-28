@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | LC2550VS | Sin aceite, 50 L | 2,5 HP / 1.750 W | 230 L/min | No publicado en la ficha consultada | La presión acústica indicada es 72 dB; no se compara sin condiciones equivalentes |
 | LCS50-8 | La gama actual lista el código como compresor sin aceite de 50 L | Desconocida | Desconocido | Desconocido | No se localizó ficha primaria completa del código |
 
-**Dato verificado:** Lüsqtoff publica para el LC2550B-8 220 V–50 Hz, 115 psi, 206 L/min, tanque de 50 L y 30 kg. Para el LC2550VS publica el mismo tanque y potencia nominal, 115 psi y 230 L/min. Son datos de fichas distintas; la marca no explica en ellas una condición común para medir ambos caudales.
+**Dato documentado:** Lüsqtoff publica para el LC2550B-8 220 V–50 Hz, 115 psi, 206 L/min, tanque de 50 L y 30 kg. Para el LC2550VS publica el mismo tanque y potencia nominal, 115 psi y 230 L/min. Son datos de fichas distintas; la marca no explica en ellas una condición común para medir ambos caudales.
 
 **Análisis TallerLab:** la resta entre los flujos impresos es 24 L/min (11,7 % sobre 206), pero no demuestra que el VS entregue más aire útil bajo carga: no hay FAD ni método de medición común indicado. El LC2550B-8 y LC2550VS comparten capacidad y potencia declaradas, aunque difieren en lubricación y en los caudales publicados. Para LCS50-8 no transferimos cifras de otros modelos de 50 L.
 

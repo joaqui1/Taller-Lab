@@ -4,7 +4,7 @@ import re
 
 ROOT = Path(__file__).parent
 PAGES = {
-"paginas/sierras/10-caladora-skil.md": ("SKIL 4380 y 4550: separar tensión de prestaciones", "**Dato verificado:** el catálogo de servicio distingue variantes de 127 V y 220 V para ambos códigos; una ficha técnica del 4550 documenta sus prestaciones. No completamos las del 4380 con datos de vendedores.", """| Dato documentado | SKIL 4380 | SKIL 4550 |
+"paginas/sierras/10-caladora-skil.md": ("SKIL 4380 y 4550: separar tensión de prestaciones", "**Dato documentado:** el catálogo de servicio distingue variantes de 127 V y 220 V para ambos códigos; una ficha técnica del 4550 documenta sus prestaciones. No completamos las del 4380 con datos de vendedores.", """| Dato documentado | SKIL 4380 | SKIL 4550 |
 | :--- | :--- | :--- |
 | Código de variante 127 V | F0124380AB | F0124550AB |
 | Código de variante 220 V | F0124380JA | F0124550JA |
@@ -21,7 +21,7 @@ PAGES = {
 - **Documentación primaria:** [catálogo Bosch/Skil de repuestos con variantes 4380 y 4550](https://www.bosch-professional.com/br/media/country_content/service/after_sales_service/catalogues/catalogo_reposicao2_verso_final.pdf); [ficha técnica SKIL 4550 de Robert Bosch LLC](https://www.grainger.com.mx/static/ft/20028399_TD.PDF).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/13-ingletadora-dewalt.md": ("DWS713 y DWS780: cabezal fijo o deslizante", "**Dato verificado:** comparamos las capacidades y características que DeWalt publica para DWS713 y DWS780 en su catálogo estadounidense. No asumimos disponibilidad ni compatibilidad eléctrica local.", """| Dato publicado | DWS713 | DWS780 |
+"paginas/sierras/13-ingletadora-dewalt.md": ("DWS713 y DWS780: cabezal fijo o deslizante", "**Dato documentado:** comparamos las capacidades y características que DeWalt publica para DWS713 y DWS780 en su catálogo estadounidense. No asumimos disponibilidad ni compatibilidad eléctrica local.", """| Dato publicado | DWS713 | DWS780 |
 | :--- | :--- | :--- |
 | Diseño | Fija, bisel simple | Deslizante, doble bisel |
 | Disco | 10 in (254 mm) | 12 in (305 mm) |
@@ -40,7 +40,7 @@ PAGES = {
 - **Documentación primaria:** [DeWalt DWS713](https://www.dewalt.com/en-us/product/dws713/15a-10-single-bevel-compound-miter-saw); [DeWalt DWS780](https://www.dewalt.com/en-us/product/dws780/12-double-bevel-sliding-compound-miter-saw); [catálogo DeWalt de ingletadoras, con estado de DWS779](https://www.dewalt.com/en-us/products/power-tools/saws/miter-saws).
 - **Opiniones:** no se usaron las reseñas visibles en las páginas de producto.
 """),
-"paginas/sierras/14-ingletadora-total.md": ("Dos códigos Total y una capacidad distinta", "La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. El borrador mezclaba el TS42182552 con una supuesta versión deslizante; mantenemos los modelos que aparecen identificados en documentación técnica.", """| Dato verificado en catálogo | TS42142107 | TS42182553 |
+"paginas/sierras/14-ingletadora-total.md": ("Dos códigos Total y una capacidad distinta", "La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. El borrador mezclaba el TS42182552 con una supuesta versión deslizante; mantenemos los modelos que aparecen identificados en documentación técnica.", """| Dato documentado en catálogo | TS42142107 | TS42182553 |
 | :--- | ---: | ---: |
 | Potencia | 1.400 W | 1.800 W |
 | Disco / eje | 210 × 25,4 mm | 254 × 30 mm |
@@ -58,7 +58,7 @@ PAGES = {
 - **Documentación primaria:** [catálogo TOTAL 2026, códigos TS42142107 y TS42182553](https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures); [ficha técnica regional TS42182552, con capacidad publicada](https://totalmalaysia.my/ts42182552-mitre-saw/) — se incluye para distinguir el código similar, no como sustituto del 2553.
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/29-sensitiva-total.md": ("TS223558: código base y ficha de fábrica", "La ficha de TOTAL documenta el modelo TS223558. En Argentina se encuentra una oferta rotulada TS223558-4; ese sufijo necesita confirmación de placa antes de trasladar datos o garantía.", """| Dato verificado para TS223558 | Especificación |
+"paginas/sierras/29-sensitiva-total.md": ("TS223558: código base y ficha de fábrica", "La ficha de TOTAL documenta el modelo TS223558. En Argentina se encuentra una oferta rotulada TS223558-4; ese sufijo necesita confirmación de placa antes de trasladar datos o garantía.", """| Dato documentado para TS223558 | Especificación |
 | :--- | :--- |
 | Tensión / frecuencia | 220–240 V / 50–60 Hz |
 | Potencia | 2.200 W |
@@ -77,7 +77,7 @@ PAGES = {
 - **Información comercial argentina:** [publicación identificada como TS223558-4](https://articulo.mercadolibre.com.ar/MLA-1469785943-sierra-sensitiva-total-355mm-2200w-incluye-disco-ts223558-4-_JM) — útil para verificar sufijo local, no como fuente de capacidad.
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/02-sensitiva.md": ("Capacidad por perfil: no la deduzcas del diámetro", "**Dato verificado:** las dos fichas oficiales publican máximos diferentes para los perfiles listados. Las capacidades dependen de la forma de la pieza; no se extrapolan a otros cortes.", """| Modelo documentado | Disco | Tubo redondo | Sección cuadrada/rectangular publicada |
+"paginas/sierras/02-sensitiva.md": ("Capacidad por perfil: no la deduzcas del diámetro", "**Dato documentado:** las dos fichas oficiales publican máximos diferentes para los perfiles listados. Las capacidades dependen de la forma de la pieza; no se extrapolan a otros cortes.", """| Modelo documentado | Disco | Tubo redondo | Sección cuadrada/rectangular publicada |
 | :--- | ---: | ---: | :--- |
 | Lüsqtoff CM-14K | 355 mm; eje 1 in | 110 mm | Cuadrado 100 × 100 mm; ángulo 120 × 120 mm |
 | TOTAL TS223558 | 355 × 25,4 mm | 100 mm | Cuadrado 100 × 100 mm; rectangular 120 × 100 mm |
@@ -93,7 +93,7 @@ Los dos ejes publicados como 1 pulgada y 25,4 mm representan la misma medida nom
 - **Documentación primaria:** [Lüsqtoff CM-14K](https://www.lusqtoff.com.ar/ver-producto/CM-14K); [manual CM-14K](https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/CM-14K/MANUAL/CM-14k.pdf); [TOTAL TS223558](https://www.totalbusiness.com/ae/product/cut-off-saw/TS223558).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/03-sierra-sable.md": ("Cable o batería: dos fichas Bosch comparables", "Las fichas argentinas de GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. La diferencia documentada está en alimentación, carrera, peso del cuerpo y velocidad sin carga.", """| Dato verificado | GSA 1100 E | GSA 18V-24 |
+"paginas/sierras/03-sierra-sable.md": ("Cable o batería: dos fichas Bosch comparables", "Las fichas argentinas de GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. La diferencia documentada está en alimentación, carrera, peso del cuerpo y velocidad sin carga.", """| Dato documentado | GSA 1100 E | GSA 18V-24 |
 | :--- | ---: | ---: |
 | Alimentación | Cable, 1.100 W | Batería 18 V |
 | Carrera | 28 mm | 24 mm |
@@ -112,7 +112,7 @@ Los dos ejes publicados como 1 pulgada y 25,4 mm representan la misma medida nom
 - **Documentación primaria:** [Bosch GSA 1100 E](https://www.bosch-professional.com/py/es/products/gsa-1100-e-0601640800); [manual Bosch GSA 1100 E](https://www.bosch-professional.com/binary/manualsmedia/o109402v21_1619929L78_201207.pdf); [Bosch GSA 18V-24 Argentina](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/19-sierra-sable-inalambrica.md": ("Carrera, tensión y batería incluida", "Comparamos una Bosch de 18 V publicada para Argentina y una DeWalt estadounidense marcada 20V MAX. DeWalt aclara que esa cifra máxima equivale a 18 V nominales; ambas fichas exigen confirmar si la batería viene en el kit.", """| Dato verificado | Bosch GSA 18V-24 | DeWalt DCS380B |
+"paginas/sierras/19-sierra-sable-inalambrica.md": ("Carrera, tensión y batería incluida", "Comparamos una Bosch de 18 V publicada para Argentina y una DeWalt estadounidense marcada 20V MAX. DeWalt aclara que esa cifra máxima equivale a 18 V nominales; ambas fichas exigen confirmar si la batería viene en el kit.", """| Dato documentado | Bosch GSA 18V-24 | DeWalt DCS380B |
 | :--- | ---: | ---: |
 | Etiqueta de plataforma | 18 V | 20V MAX; 18 V nominales |
 | Carrera | 24 mm | 1-1/8 in (28,6 mm) |
@@ -129,7 +129,7 @@ Los dos ejes publicados como 1 pulgada y 25,4 mm representan la misma medida nom
 - **Documentación primaria:** [Bosch GSA 18V-24](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0); [DeWalt DCS380B, ficha y nota de voltaje nominal](https://www.dewalt.com/en-us/product/dcs380b/20v-max-cordless-reciprocating-saw-tool-only).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/05-sierra-sin-fin-para-madera.md": ("Altura, garganta y repuestos: tres datos distintos", "Contrastamos la SFL250-8 compacta con la SFL1100-9 de banco grande. La SFL300-8 aparece listada, pero no encontramos una ficha de capacidad suficiente para compararla.", """| Dato verificado | SFL250-8 | SFL300-8 | SFL1100-9 |
+"paginas/sierras/05-sierra-sin-fin-para-madera.md": ("Altura, garganta y repuestos: tres datos distintos", "Contrastamos la SFL250-8 compacta con la SFL1100-9 de banco grande. La SFL300-8 aparece listada, pero no encontramos una ficha de capacidad suficiente para compararla.", """| Dato documentado | SFL250-8 | SFL300-8 | SFL1100-9 |
 | :--- | ---: | ---: | ---: |
 | Estado | Discontinuada | Listada como banco 200 mm | Ficha vigente consultada |
 | Altura máxima de corte | 80 mm | Desconocida | 206 mm |
@@ -148,7 +148,7 @@ La ficha actual marca SFL250-8 como discontinuada. El catálogo de 2024–2025 p
 - **Documentación primaria:** [Lüsqtoff SFL250-8](https://www.lusqtoff.com.ar/ver-producto/SFL250-8); [catálogo Lüsqtoff 2024–2025](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [catálogo de modelos de banco y taller](https://www.lusqtoff.com.ar/ver-productos/12-herramientas-de-pie-y-banco); [SFL1100-9](https://lusqtoff.com.ar/ver-producto/SFL1100-9).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/sierras/07-sierra-sin-fin-para-metal.md": ("Portátil o de banco: definir sección y entorno", "**Dato verificado:** las dos referencias de la tabla son sierras de banda portátiles Milwaukee con capacidades publicadas. No equivalen a una sierra horizontal de banco y no son una recomendación de marca.", """| Modelo documentado | Capacidad máxima publicada | Alimentación / uso de la ficha |
+"paginas/sierras/07-sierra-sin-fin-para-metal.md": ("Portátil o de banco: definir sección y entorno", "**Dato documentado:** las dos referencias de la tabla son sierras de banda portátiles Milwaukee con capacidades publicadas. No equivalen a una sierra horizontal de banco y no son una recomendación de marca.", """| Modelo documentado | Capacidad máxima publicada | Alimentación / uso de la ficha |
 | :--- | :--- | :--- |
 | Milwaukee M12 2429-20 | 1-5/8 × 1-5/8 in (41,3 × 41,3 mm) | Batería M12; herramienta sola |
 | Milwaukee M18 2829-20 | 3-1/4 × 3-1/4 in (82,6 × 82,6 mm) | Batería M18; herramienta sola |
@@ -164,7 +164,7 @@ Al evaluar un equipo para metal, anotá primero el mayor diámetro o sección, s
 - **Documentación primaria:** [Milwaukee M12 2429-20](https://www.milwaukeetool.com/2429-20); [Milwaukee M18 compacta 2829-20](https://www.milwaukeetool.com/products/details/m18-fuel-compact-band-saw-tool-only/2829-20).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"paginas/10-amoladoras-bosch.md": ("Tres amoladoras Bosch con límites de variante", "Reemplazamos la comparación previa por tres variantes con ficha Bosch Argentina: GWS 700, GWS 9-125 S y GWS 180-LI. La 9-125 S consultada corresponde a 127 V; no la presentamos como opción lista para enchufar en una instalación de 220 V.", """| Dato verificado | GWS 700 | GWS 9-125 S (0 601 396 1D0) | GWS 180-LI |
+"paginas/10-amoladoras-bosch.md": ("Tres amoladoras Bosch con límites de variante", "Reemplazamos la comparación previa por tres variantes con ficha Bosch Argentina: GWS 700, GWS 9-125 S y GWS 180-LI. La 9-125 S consultada corresponde a 127 V; no la presentamos como opción lista para enchufar en una instalación de 220 V.", """| Dato documentado | GWS 700 | GWS 9-125 S (0 601 396 1D0) | GWS 180-LI |
 | :--- | ---: | ---: | ---: |
 | Alimentación | Cable | 127 V en la variante consultada | Batería 18 V |
 | Potencia / equivalencia declarada | 710 W | 900 W absorbidos; 450 W de salida | Bosch declara rendimiento equivalente a 700 W con cable |

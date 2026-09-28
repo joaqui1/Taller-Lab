@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro inalámbrico Einhell elegir
 
-**Dato verificado:** la tabla reúne datos publicados para el Einhell TE-CD 18/40 Li y el TP-CD 18/50 Li-i BL (artículo 4513942). El sufijo del modelo y el contenido de caja importan: el TP-CD consultado es la versión Solo.
+**Dato documentado:** la tabla reúne datos publicados para el Einhell TE-CD 18/40 Li y el TP-CD 18/50 Li-i BL (artículo 4513942). El sufijo del modelo y el contenido de caja importan: el TP-CD consultado es la versión Solo.
 
 ## TE-CD 18/40 y TP-CD 18/50: sin y con percusión
 

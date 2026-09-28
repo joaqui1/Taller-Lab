@@ -4,7 +4,7 @@ import re
 
 ROOT = Path(__file__).parent / "paginas" / "sierras"
 PAGES = {
-"24-stanley-sc16.md": ("SC16-AR: ficha y medida de disco", "La denominación comercial 7-1/4 pulgadas aparece junto con 180 mm en la ficha argentina. El manual que incluye la variante -AR indica un diámetro máximo distinto; documentamos la discrepancia antes de recomendar un repuesto.", """| Dato verificado | SC16-AR | Fuente |
+"24-stanley-sc16.md": ("SC16-AR: ficha y medida de disco", "La denominación comercial 7-1/4 pulgadas aparece junto con 180 mm en la ficha argentina. El manual que incluye la variante -AR indica un diámetro máximo distinto; documentamos la discrepancia antes de recomendar un repuesto.", """| Dato documentado | SC16-AR | Fuente |
 | :--- | :--- | :--- |
 | Potencia anunciada | 1.600 W | Ficha Stanley Argentina |
 | Diámetro anunciado | 180 mm | Ficha Stanley Argentina |
@@ -26,7 +26,7 @@ Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-
 - **Información comercial:** no se utilizó para validar prestaciones.
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"23-sierra-circular-dewalt-dwe560.md": ("DWE560-AR: prestaciones publicadas", "La variante argentina tiene datos suficientes para verificar potencia, disco y bisel; la profundidad de corte requiere documentación adicional.", """| Dato verificado | DWE560-AR |
+"23-sierra-circular-dewalt-dwe560.md": ("DWE560-AR: prestaciones publicadas", "La variante argentina tiene datos suficientes para verificar potencia, disco y bisel; la profundidad de corte requiere documentación adicional.", """| Dato documentado | DWE560-AR |
 | :--- | :--- |
 | Potencia | 1.400 W |
 | Disco anunciado | 185 mm |
@@ -48,7 +48,7 @@ Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-
 - **Información comercial:** no se usó como fuente técnica.
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"16-sierra-circular-bosch-gks-150.md": ("GKS 150: ficha, manual y límite de corte", "Contrastamos ficha argentina y manual del código 0 601 6B3 0H0. La capacidad del manual se refiere al disco de 184 mm indicado.", """| Dato verificado | GKS 150 |
+"16-sierra-circular-bosch-gks-150.md": ("GKS 150: ficha, manual y límite de corte", "Contrastamos ficha argentina y manual del código 0 601 6B3 0H0. La capacidad del manual se refiere al disco de 184 mm indicado.", """| Dato documentado | GKS 150 |
 | :--- | :--- |
 | Potencia absorbida | 1.500 W |
 | Disco / eje | 184 mm / 20 mm |
@@ -68,7 +68,7 @@ Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-
 - **Documentación primaria:** [ficha Bosch GKS 150 Argentina](https://www.bosch-professional.com/ar/es/products/gks-150-06016B30H0); [manual Bosch GKS 150](https://www.bosch-professional.com/binary/manualsmedia/o406577v21_160992A8F5_202212.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"22-caladoras-bosch.md": ("Tres códigos Bosch que conviene separar", "Comparamos fichas argentinas de GST 650, GST 680 y GST 185-LI. Una publicación de GST 75 E no debe usarse para completar los datos de estas variantes.", """| Dato verificado | GST 650 | GST 680 | GST 185-LI |
+"22-caladoras-bosch.md": ("Tres códigos Bosch que conviene separar", "Comparamos fichas argentinas de GST 650, GST 680 y GST 185-LI. Una publicación de GST 75 E no debe usarse para completar los datos de estas variantes.", """| Dato documentado | GST 650 | GST 680 | GST 185-LI |
 | :--- | :--- | :--- | :--- |
 | Alimentación | Cable | Cable | Batería 18 V |
 | Potencia absorbida declarada | 450 W | 500 W | No comparable en W de red |
@@ -86,7 +86,7 @@ Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-
 - **Documentación primaria:** [Bosch GST 650](https://www.bosch-professional.com/ar/es/products/gst-650-06015A80H0); [Bosch GST 680](https://www.bosch-professional.com/ar/es/products/gst-680-06015B40H0); [Bosch GST 185-LI](https://www.bosch-professional.com/ar/es/products/gst-185-li-06015B30E1).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"26-sierra-de-banco-lusqtoff.md": ("Tres códigos de banco y una discrepancia documental", "Las fichas actuales y un catálogo de Lüsqtoff no expresan de igual modo la potencia y el disco de SML2000-8. Registramos la diferencia sin resolverla por suposición. **Dato verificado** significa aquí que la cifra aparece en el documento citado, no que haya sido medida por TallerLab.", """| Dato publicado | SML2000-8 | SML2000-9 | SML2000B-9 |
+"26-sierra-de-banco-lusqtoff.md": ("Tres códigos de banco y una discrepancia documental", "Las fichas actuales y un catálogo de Lüsqtoff no expresan de igual modo la potencia y el disco de SML2000-8. Registramos la diferencia sin resolverla por suposición. **Dato documentado** significa aquí que la cifra aparece en el documento citado, no que haya sido medida por TallerLab.", """| Dato publicado | SML2000-8 | SML2000-9 | SML2000B-9 |
 | :--- | :--- | :--- | :--- |
 | Potencia anunciada en ficha | 2.000 W | 1.800 W de entrada; 2.000 W máx. S6 | 2.000 W máx. |
 | Diámetro en ficha | 255 mm | 255 mm | 255 mm |
@@ -104,7 +104,7 @@ La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclin
 - **Documentación primaria:** [SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [SML2000-9](https://lusqtoff.com.ar/ver-producto/SML2000-9); [SML2000B-9](https://lusqtoff.com.ar/ver-producto/SML2000B-9); [catálogo Lüsqtoff 2024–2025](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"28-sierra-sin-fin-lusqtoff.md": ("SFL250-8, SFL300-8 y SFL1100-9: qué está documentado", "El catálogo menciona tres escalas; la documentación pública consultada permite comparar con detalle dos códigos. El tercero queda deliberadamente incompleto.", """| Dato verificado | SFL250-8 | SFL300-8 | SFL1100-9 |
+"28-sierra-sin-fin-lusqtoff.md": ("SFL250-8, SFL300-8 y SFL1100-9: qué está documentado", "El catálogo menciona tres escalas; la documentación pública consultada permite comparar con detalle dos códigos. El tercero queda deliberadamente incompleto.", """| Dato documentado | SFL250-8 | SFL300-8 | SFL1100-9 |
 | :--- | :--- | :--- | :--- |
 | Estado en catálogo/ficha | Discontinuada | Listada como banco 200 mm | Ficha activa |
 | Potencia | 250 W | Sin ficha detallada cotejada | 1.100 W |
@@ -123,7 +123,7 @@ La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclin
 - **Documentación primaria:** [SFL250-8](https://www.lusqtoff.com.ar/ver-producto/SFL250-8); [catálogo de herramientas de pie y banco](https://lusqtoff.com.ar/categorias/herramientas-de-pie-y-banco); [SFL1100-9](https://lusqtoff.com.ar/ver-producto/SFL1100-9).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"27-sensitiva-lusqtoff.md": ("CM-14K: código, capacidad y contenido de caja", "Separamos CM-14K de la variante CM14K-9 y de catálogos antiguos porque las potencias y accesorios publicados difieren.", """| Dato verificado | CM-14K actual | CM14K-9 |
+"27-sensitiva-lusqtoff.md": ("CM-14K: código, capacidad y contenido de caja", "Separamos CM-14K de la variante CM14K-9 y de catálogos antiguos porque las potencias y accesorios publicados difieren.", """| Dato documentado | CM-14K actual | CM14K-9 |
 | :--- | :--- | :--- |
 | Potencia anunciada | 2.000 W | 2.200 W |
 | Disco | 355 mm | Verificar ficha y unidad |
@@ -142,7 +142,7 @@ La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclin
 - **Documentación primaria:** [CM-14K](https://www.lusqtoff.com.ar/ver-producto/CM-14K); [CM14K-9](https://www.lusqtoff.com.ar/ver-producto/CM14K-9); [catálogo histórico Lüsqtoff](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [manual CM-14K](https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/CM-14K/MANUAL/CM-14k.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"08-ingletadora-einhell.md": ("Dos modelos Einhell con capacidades publicadas", "Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La variante TC-SM no es la TE-SM 2131 Dual de la descripción histórica; son productos distintos.", """| Dato verificado | TC-MS 2112 (4300295) | TC-SM 2131/2 Dual (4300390) |
+"08-ingletadora-einhell.md": ("Dos modelos Einhell con capacidades publicadas", "Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La variante TC-SM no es la TE-SM 2131 Dual de la descripción histórica; son productos distintos.", """| Dato documentado | TC-MS 2112 (4300295) | TC-SM 2131/2 Dual (4300390) |
 | :--- | :--- | :--- |
 | Mecanismo | Fijo | Deslizante |
 | Disco | 210 mm | 210 mm |
@@ -163,7 +163,7 @@ La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclin
 - **Documentación primaria:** [TC-MS 2112](https://www.einhell.com.ar/p/4300295-tc-ms-2112/); [TC-SM 2131/2 Dual](https://www.einhell.com.ar/p/4300390-tc-sm-2131-2-dual/).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"12-sensitiva-dewalt.md": ("D28730: identificar la variante argentina", "El manual latinoamericano distingue D28730AR de otras versiones de tensión. Una oferta de D28730-B3 no basta para asegurar alimentación compatible en Argentina.", """| Dato verificado en manual | D28730AR |
+"12-sensitiva-dewalt.md": ("D28730: identificar la variante argentina", "El manual latinoamericano distingue D28730AR de otras versiones de tensión. Una oferta de D28730-B3 no basta para asegurar alimentación compatible en Argentina.", """| Dato documentado en manual | D28730AR |
 | :--- | :--- |
 | Tensión / frecuencia | 220 V / 50 Hz |
 | Potencia | 2.300 W |
@@ -182,7 +182,7 @@ La SML2000-9 publica 60 mm a 45°; la SML2000B-9, 55 mm. Si hacés cortes inclin
 - **Documentación primaria:** [manual D28730 para Latinoamérica](https://assets.dewalt.com.mx/GLOBALBOM/B3/D28730/1/Instruction_Manual/EN/NB075052_D28730_T1_LA.pdf); [ficha DeWalt D28730-B3, variante distinta](https://www.dewalt.com.mx/es-mx/producto/d28730-b3/cortadora-de-metal-de-14-355mm-con-cable).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"21-ingletadoras.md": ("Elegir por sección de pieza, no solo por disco", "La capacidad publicada de dos máquinas Einhell con disco de 210 mm muestra cuánto cambia el ancho útil al incorporar un carro deslizante. **Dato verificado:** las capacidades de la tabla proceden de las dos fichas oficiales enlazadas.", """| Ancho de pieza que necesitás cortar a 90° | Dato documental | Decisión que permite |
+"21-ingletadoras.md": ("Elegir por sección de pieza, no solo por disco", "La capacidad publicada de dos máquinas Einhell con disco de 210 mm muestra cuánto cambia el ancho útil al incorporar un carro deslizante. **Dato documentado:** las capacidades de la tabla proceden de las dos fichas oficiales enlazadas.", """| Ancho de pieza que necesitás cortar a 90° | Dato documental | Decisión que permite |
 | :--- | :--- | :--- |
 | Hasta 120 mm | TC-MS 2112: 120 mm | Ambas entran por capacidad publicada |
 | Más de 120 y hasta 310 mm | TC-SM 2131/2 Dual: 310 mm | De estas dos, solo la deslizante cubre ese ancho |

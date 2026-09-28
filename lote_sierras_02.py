@@ -4,7 +4,7 @@ import re
 
 ROOT = Path(__file__).parent / "paginas" / "sierras"
 PAGES = {
-"25-caladoras-black-decker.md": ("BES603 y BES602: velocidad variable y variante", "Comparamos las versiones B2 de 220 V publicadas por Black+Decker Brasil. El sufijo y la tensión son parte de la identificación: no damos por trasladada la garantía brasileña a una compra argentina.", """| Dato verificado | BES603-B2 | BES602-B2 |
+"25-caladoras-black-decker.md": ("BES603 y BES602: velocidad variable y variante", "Comparamos las versiones B2 de 220 V publicadas por Black+Decker Brasil. El sufijo y la tensión son parte de la identificación: no damos por trasladada la garantía brasileña a una compra argentina.", """| Dato documentado | BES603-B2 | BES602-B2 |
 | :--- | :--- | :--- |
 | Potencia | 400 W | 400 W |
 | Control de velocidad | Variable, hasta 3.000 carreras/min | La ficha informa 3.000 carreras/min |
@@ -23,7 +23,7 @@ PAGES = {
 - **Documentación primaria:** [BES603-B2](https://br.blackanddecker.global/produto/bes603-b2/serra-tico-tico-400w-220v-vvr); [BES602-B2](https://br.blackanddecker.global/produto/bes602-b2/serra-tico-tico-400w-220v).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"18-caladora-einhell.md": ("Tres caladoras Einhell según alimentación y capacidad", "Las fichas argentinas permiten comparar dos modelos con cable y una versión a batería Solo; esta última se vende sin batería ni cargador.", """| Dato verificado | TC-JS 85 | TE-JS 100 | TC-JS 18 Li Solo |
+"18-caladora-einhell.md": ("Tres caladoras Einhell según alimentación y capacidad", "Las fichas argentinas permiten comparar dos modelos con cable y una versión a batería Solo; esta última se vende sin batería ni cargador.", """| Dato documentado | TC-JS 85 | TE-JS 100 | TC-JS 18 Li Solo |
 | :--- | :--- | :--- | :--- |
 | Alimentación | Cable | Cable | Batería 18 V |
 | Potencia / velocidad máxima | 620 W / 3.000 carreras/min | 750 W / 3.000 carreras/min | 2.700 carreras/min |
@@ -43,7 +43,7 @@ PAGES = {
 - **Documentación primaria:** [Einhell TC-JS 85](https://www.einhell.com.ar/p/4321140-tc-js-85/); [TE-JS 100](https://www.einhell.com.ar/p/4321160-te-js-100/); [TC-JS 18 Li Solo](https://www.einhell.com.ar/p/4321209-tc-js-18-li-solo/).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"04-sierra-caladora.md": ("Comparación por capacidad declarada, no por watts", "**Dato verificado:** los límites de corte de la tabla aparecen en las fichas oficiales enlazadas. Son capacidades declaradas por sus fabricantes, no espesores recomendados para cualquier hoja, material o acabado.", """| Modelo documentado | Madera máxima | Acero máximo | Alimentación |
+"04-sierra-caladora.md": ("Comparación por capacidad declarada, no por watts", "**Dato documentado:** los límites de corte de la tabla aparecen en las fichas oficiales enlazadas. Son capacidades declaradas por sus fabricantes, no espesores recomendados para cualquier hoja, material o acabado.", """| Modelo documentado | Madera máxima | Acero máximo | Alimentación |
 | :--- | ---: | ---: | :--- |
 | Black+Decker BES603-B2 | 65 mm | 6 mm | 400 W, cable, 220 V |
 | Einhell TC-JS 85 | 85 mm | 8 mm | 620 W, cable |
@@ -60,7 +60,7 @@ Antes de comparar precios, comprobá si la caladora permite regular velocidad, s
 - **Documentación primaria:** [Black+Decker BES603-B2](https://br.blackanddecker.global/produto/bes603-b2/serra-tico-tico-400w-220v-vvr); [Einhell TC-JS 85](https://www.einhell.com.ar/p/4321140-tc-js-85/); [Einhell TE-JS 100](https://www.einhell.com.ar/p/4321160-te-js-100/).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"17-sierra-circular-black-and-decker.md": ("Códigos B+D: tensión y hoja incluida", "Comparamos CS1004B2 de 220 V con CS1024-BR de 127 V, según fichas oficiales regionales. Es una comparación de códigos, no una recomendación de conectar una variante de 127 V a la red argentina.", """| Dato verificado | CS1004B2 | CS1024-BR |
+"17-sierra-circular-black-and-decker.md": ("Códigos B+D: tensión y hoja incluida", "Comparamos CS1004B2 de 220 V con CS1024-BR de 127 V, según fichas oficiales regionales. Es una comparación de códigos, no una recomendación de conectar una variante de 127 V a la red argentina.", """| Dato documentado | CS1004B2 | CS1024-BR |
 | :--- | :--- | :--- |
 | Tensión indicada | 220 V | 127 V |
 | Potencia anunciada | 1.400 W | 1.500 W |
@@ -70,7 +70,7 @@ Antes de comparar precios, comprobá si la caladora permite regular velocidad, s
 
 **Análisis TallerLab.** El modelo CS1024 anuncia 100 W más, pero su ficha es para 127 V. La CS1004B2 indica 220 V, por lo que es el código eléctricamente coincidente con una red nominal argentina de 220 V. No traslades otras prestaciones de un código regional al otro.
 
-**Dato verificado.** Black+Decker lista un disco de accesorio 71-727 de 184 mm, agujero 5/8 in, compatible con CS1004 y CS1024. Para la variante argentina concreta, contrastá el diámetro interior y la placa/manual antes de comprar; el modelo del accesorio no reemplaza esa comprobación.
+**Dato documentado.** Black+Decker lista un disco de accesorio 71-727 de 184 mm, agujero 5/8 in, compatible con CS1004 y CS1024. Para la variante argentina concreta, contrastá el diámetro interior y la placa/manual antes de comprar; el modelo del accesorio no reemplaza esa comprobación.
 
 **Desconocido.** Las fichas brasileñas consultadas no documentan profundidad máxima ni peso para ambos códigos. No afirmamos que CS1004B2 sea idéntico a todas las versiones vendidas localmente.
 
@@ -79,7 +79,7 @@ Antes de comparar precios, comprobá si la caladora permite regular velocidad, s
 - **Documentación primaria:** [CS1004B2, 220 V](https://br.blackanddecker.global/produto/cs1004b2/serra-circular-7-14-184mm-1400w-220v); [CS1024-BR, 127 V](https://br.blackanddecker.global/produto/cs1024-br/serra-circular-7-14-184mm-1500w-127v); [disco 71-727 y compatibilidad publicada](https://br.blackanddecker.global/produto/71-727/disco-para-serra-circular).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"20-sierra-circular-lusqtoff.md": ("CSL1500-8 y SCL2200-8: capacidades documentadas", "La ficha vigente muestra SCL2200-8; su manual descargable conserva el orden CSL2200-8. También difieren el peso declarado y la medida del disco en el título y el detalle. Registramos esas discrepancias en lugar de mezclarlas.", """| Dato verificado | CSL1500-8 | SCL2200-8 |
+"20-sierra-circular-lusqtoff.md": ("CSL1500-8 y SCL2200-8: capacidades documentadas", "La ficha vigente muestra SCL2200-8; su manual descargable conserva el orden CSL2200-8. También difieren el peso declarado y la medida del disco en el título y el detalle. Registramos esas discrepancias en lugar de mezclarlas.", """| Dato documentado | CSL1500-8 | SCL2200-8 |
 | :--- | ---: | ---: |
 | Potencia / tensión | 1.500 W / 220 V | 2.200 W / 220 V |
 | Diámetro máximo publicado | 185 mm | Título: 230 mm; detalle/manual: 235 mm |
@@ -98,7 +98,7 @@ El disco de 235 mm no entra en una sierra que admite 185 mm. Además de diámetr
 - **Documentación primaria:** [ficha Lusqtoff CSL1500-8](https://www.lusqtoff.com.ar/ver-producto/CSL1500-8); [manual CSL1500-8](https://www.lusqtoff.com.ar/2023/uploads/Productos/11.%20HERRAMIENTAS%20EL%C3%89CTRICAS%20DE%20MANO/CSL1500-8/CSL1500-8.pdf); [ficha SCL2200-8](https://lusqtoff.com.ar/ver-producto/SCL2200-8); [manual SCL/CSL2200-8](https://lusqtoff.com.ar/2023/uploads/Productos/11.%20HERRAMIENTAS%20EL%C3%89CTRICAS%20DE%20MANO/SCL2200-8/SCL2200-8.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"01-sierra-circular.md": ("Diámetro y espesor: dos límites separados", "**Dato verificado:** la matriz resume medidas que aparecen en manuales y fichas oficiales de estos tres modelos; no es una prueba comparativa. Muestra por qué el nombre comercial en pulgadas no basta para elegir disco o capacidad.", """| Modelo exacto | Disco máximo documentado | Corte a 90° documentado | Eje/documentación |
+"01-sierra-circular.md": ("Diámetro y espesor: dos límites separados", "**Dato documentado:** la matriz resume medidas que aparecen en manuales y fichas oficiales de estos tres modelos; no es una prueba comparativa. Muestra por qué el nombre comercial en pulgadas no basta para elegir disco o capacidad.", """| Modelo exacto | Disco máximo documentado | Corte a 90° documentado | Eje/documentación |
 | :--- | ---: | ---: | ---: |
 | Stanley SC16-AR | 190 mm en manual; ficha comercial indica 180 mm | 65 mm en manual | 16 mm en manual |
 | Bosch GKS 150 | 184 mm | 64 mm | 20 mm |
@@ -115,7 +115,7 @@ Al elegir, anotá por separado: espesor máximo de la pieza, disco admitido por 
 - **Documentación primaria:** [manual y ficha Stanley SC16-AR](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SC16D2/1/Instruction_Manual/EN/N611276_SC16_T1_LAG.pdf) y [página comercial](https://ar.stanleytools.global/producto/sc16-ar/sierra-circular-7-14-pulg-180mm-1600w); [manual Bosch GKS 150](https://www.bosch-professional.com/binary/manualsmedia/o406577v21_160992A8F5_202212.pdf); [ficha Lusqtoff CSL1500-8](https://www.lusqtoff.com.ar/ver-producto/CSL1500-8).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"09-sierra-de-banco-einhell.md": ("TC-TS 2025/2 U y 2225 U: diferencias publicadas", "La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limita a dos códigos actuales con fichas argentinas accesibles, para no mantener afirmaciones sin respaldo.", """| Dato verificado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
+"09-sierra-de-banco-einhell.md": ("TC-TS 2025/2 U y 2225 U: diferencias publicadas", "La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limita a dos códigos actuales con fichas argentinas accesibles, para no mantener afirmaciones sin respaldo.", """| Dato documentado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
 | :--- | ---: | ---: |
 | Hoja | 250 × 30 mm, 24 dientes | 254 mm, 48 dientes |
 | Potencia publicada | 1.800 W S1 / 2.000 W S6 | 2.200 W S6 |
@@ -134,7 +134,7 @@ Las cifras de potencia usan condiciones distintas (S1 frente a S6 en una misma f
 - **Documentación primaria:** [TC-TS 2025/2 U](https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/); [TC-TS 2225 U](https://www.einhell.com.ar/p/4340515-tc-ts-2225-u/); [catálogo Einhell con alturas publicadas](https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-es/einhell-services-catalogues-complete-assortment-2022-es.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"06-sierra-de-banco.md": ("Elegir una sierra de banco por corte y apoyo", "**Dato verificado:** comparamos dos fichas oficiales de equipos de banco y hoja cercana a 250 mm. Sirve para dimensionar pieza y espacio; no mide seguridad, estabilidad ni precisión real.", """| Criterio de decisión | Einhell TC-TS 2025/2 U | Lüsqtoff SML2000-8 |
+"06-sierra-de-banco.md": ("Elegir una sierra de banco por corte y apoyo", "**Dato documentado:** comparamos dos fichas oficiales de equipos de banco y hoja cercana a 250 mm. Sirve para dimensionar pieza y espacio; no mide seguridad, estabilidad ni precisión real.", """| Criterio de decisión | Einhell TC-TS 2025/2 U | Lüsqtoff SML2000-8 |
 | :--- | ---: | ---: |
 | Hoja | 250 × 30 mm | 255 × 30 mm |
 | Corte máximo publicado a 90° / 45° | 85 / 65 mm | 85 / 65 mm |
@@ -164,7 +164,7 @@ Antes de decidir, medí la pieza más alta, el ancho a rasgar y el espacio dispo
 
 Para ver cómo cambia una especificación sin generalizar, Bosch lista una hoja 254 × 30 mm, 24 dientes ATB, 6.000 rpm máximas, y otra variante de 254 mm con 80 dientes TCG y agujero de 16 mm, también con límite de 6.000 rpm. No es prueba de que ATB o TCG siempre sean la mejor opción para un material; seguí la aplicación indicada para cada producto.
 
-**Dato verificado.** Black+Decker identifica su disco 71-727 como 7-1/4 in, agujero 5/8 in y compatible con CS1004 y CS1024. Para Stanley SC16-AR el manual da un eje de 16 mm; no tomes el disco B+D como compatible.
+**Dato documentado.** Black+Decker identifica su disco 71-727 como 7-1/4 in, agujero 5/8 in y compatible con CS1004 y CS1024. Para Stanley SC16-AR el manual da un eje de 16 mm; no tomes el disco B+D como compatible.
 
 **Desconocido.** No ensayamos cortes ni recomendamos un número universal de dientes por material.
 
@@ -173,7 +173,7 @@ Para ver cómo cambia una especificación sin generalizar, Bosch lista una hoja 
 - **Documentación primaria:** [Bosch PRO Wood 254 mm](https://www.bosch-professional.com/ar/es/hoja-de-sierra-circular-pro-wood-a-cable-para-sierras-ingletadoras-3089783-ocs-ac/); [Bosch PRO Multi Material 254 mm](https://www.bosch-professional.com/ar/es/hoja-de-sierra-circular-a-cable-pro-multi-material-para-sierras-ingletadoras-3089785-ocs-ac/); [disco B+D 71-727](https://br.blackanddecker.global/produto/71-727/disco-para-serra-circular); [manual Stanley SC16](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SC16D2/1/Instruction_Manual/EN/N611276_SC16_T1_LAG.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 """),
-"11-guia-para-sierra-circular.md": ("Guía paralela, regla y riel: no son lo mismo", "**Dato verificado:** las páginas de fabricante enumeran compatibilidad por modelo. Una ranura o una base que parece similar no demuestra que encastre con un riel de otra marca.", """| Sistema | Qué documenta la fuente | Para qué decisión sirve |
+"11-guia-para-sierra-circular.md": ("Guía paralela, regla y riel: no son lo mismo", "**Dato documentado:** las páginas de fabricante enumeran compatibilidad por modelo. Una ranura o una base que parece similar no demuestra que encastre con un riel de otra marca.", """| Sistema | Qué documenta la fuente | Para qué decisión sirve |
 | :--- | :--- | :--- |
 | Tope paralelo | Bosch lista topes compatibles con familias y modelos específicos | Cortes paralelos a un borde, dentro del alcance del tope |
 | Riel guía | Bosch declara modelos GKS compatibles con FSN; otra sierra puede declarar explícitamente que no es compatible | Cortes rectos guiados sobre un carril del sistema indicado |

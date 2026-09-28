@@ -30,7 +30,7 @@ published: true
 | Accesorios publicados | 5 discos de corte, 5 discos de desbaste y maletín | Mango, guarda y llave según página de producto |
 | Alimentación | 220 VCA / 50 Hz | 220 VCA / 50 Hz |
 
-**Dato verificado:** los datos proceden de las páginas oficiales Gamma para estos dos SKU. Gamma denomina el primero G1910KAR y al segundo G1917AR; no usar el sufijo “KAR” para asumir que otro modelo incluye accesorios.
+**Dato documentado:** los datos proceden de las páginas oficiales Gamma para estos dos SKU. Gamma denomina el primero G1910KAR y al segundo G1917AR; no usar el sufijo “KAR” para asumir que otro modelo incluye accesorios.
 
 **Análisis TallerLab:** ambos modelos publican 11.000 rpm y disco de 115 mm. El G1917AR declara 100 W más; la diferencia útil del kit G1910KAR está en el contenido de caja publicado. Si necesitás esos consumibles y maletín, compará presupuestos completos en la calculadora. Usá precios confirmados y accesorios adecuados a tu tarea; la cuenta no convierte dos máquinas distintas en equivalentes.
 

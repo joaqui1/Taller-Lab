@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Lüsqtoff ST-200 | TIG HF y MMA DC | TIG 10–200 A; 200 A/60%, 100 A/100% | Página la marca discontinuada; 220 V monofásica |
 | Lüsqtoff PROTIG180-8 | Inverter TIG y MMA; la página citada no especifica corriente AC | TIG 180 A al 30%; MMA 160 A al 30% | 220 V/50 Hz; 5,2 kg; ficha declara garantía de 2 años |
 
-**Dato verificado:** la ficha ESAB identifica explícitamente TIG AC/DC. Lüsqtoff ST-200 se describe como “TIG dual / DC-MMA” y está discontinuada. La página PROTIG180-8 informa corrientes y ciclo, pero no se usa para afirmar compatibilidad TIG AC.
+**Dato documentado:** la ficha ESAB identifica explícitamente TIG AC/DC. Lüsqtoff ST-200 se describe como “TIG dual / DC-MMA” y está discontinuada. La página PROTIG180-8 informa corrientes y ciclo, pero no se usa para afirmar compatibilidad TIG AC.
 
 **Análisis TallerLab:** un nombre “TIG” no confirma salida AC/DC, tipo de encendido ni proceso de electrodo. Si se necesita TIG AC para aluminio, confirmar esa función en la ficha/manual del código exacto; para cualquier compra, cotejar rango, ciclo, frecuencia de red y accesorios incluidos.
 

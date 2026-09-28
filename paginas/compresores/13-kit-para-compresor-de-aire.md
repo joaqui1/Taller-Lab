@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo que no se pudo confirmar queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | 279010 | Gravedad | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 600 cc con pico 1,5 mm, inflador con manómetro, soplete, pistola de lavado, manguera espiral de 5 m |
 | 279013 | Succión | Entrada 1/4″; 90 PSI sugeridos; compresor sugerido 2 HP | Pistola 750 cc con alimentación por succión y los accesorios de aire listados en el kit |
 
-**Dato verificado:** BTA distingue sus kits multiuso por el mecanismo de alimentación de la pistola: gravedad para el código 279010 y succión para el 279013. El catálogo identifica accesorios compartidos y sugiere 2 HP/90 PSI; son valores publicados por BTA, no una medición de TallerLab.
+**Dato documentado:** BTA distingue sus kits multiuso por el mecanismo de alimentación de la pistola: gravedad para el código 279010 y succión para el 279013. El catálogo identifica accesorios compartidos y sugiere 2 HP/90 PSI; son valores publicados por BTA, no una medición de TallerLab.
 
 **Análisis TallerLab:** elegir “kit para compresor” requiere revisar la herramienta concreta incluida, no solo contar piezas. Los depósitos de 600 y 750 cc pertenecen a pistolas con sistemas de alimentación diferentes; no implican que una tenga mayor caudal de aire ni que ambas sean intercambiables. La sugerencia de potencia/presión del catálogo tampoco demuestra que cualquier compresor de 2 HP mantenga el caudal que una pistola necesita.
 

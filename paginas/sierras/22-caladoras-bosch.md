@@ -23,7 +23,7 @@ Comparamos fichas argentinas de GST 650, GST 680 y GST 185-LI. Una publicación 
 
 ## Tres códigos Bosch que conviene separar
 
-| Dato verificado | GST 650 | GST 680 | GST 185-LI |
+| Dato documentado | GST 650 | GST 680 | GST 185-LI |
 | :--- | :--- | :--- | :--- |
 | Alimentación | Cable | Cable | Batería 18 V |
 | Potencia absorbida declarada | 450 W | 500 W | No comparable en W de red |

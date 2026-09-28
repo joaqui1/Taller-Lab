@@ -14,7 +14,7 @@ from servidor_local import _ALL_DRAFTS
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "afirmaciones-178.csv"
 LABELS = {
-    "dato verificado": "DATO VERIFICADO",
+    "dato documentado": "DATO DOCUMENTADO",
     "declaración del fabricante": "DECLARACIÓN DEL FABRICANTE",
     "experiencia de compradores": "EXPERIENCIA DE COMPRADORES",
     "análisis tallerlab": "ANÁLISIS TALLERLAB",

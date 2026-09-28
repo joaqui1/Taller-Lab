@@ -23,7 +23,7 @@ La variante argentina tiene datos suficientes para verificar potencia, disco y b
 
 ## DWE560-AR: prestaciones publicadas
 
-| Dato verificado | DWE560-AR |
+| Dato documentado | DWE560-AR |
 | :--- | :--- |
 | Potencia | 1.400 W |
 | Disco anunciado | 185 mm |

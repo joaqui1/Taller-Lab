@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Lüsqtoff SML120-8D | FLUX, MMA y Lift TIG | FLUX 20–120 A; ciclo declarado 25% a 25 °C | La hoja consultada no aclara todos los parámetros del alambre |
 | ESAB HandyArc MIG 160i | MIG/MAG y tubular con o sin gas | GMAW 30–160 A; 160 A/15%, 80 A/60%, 62 A/100% | ESAB declara bobinas hasta 5 kg y alambre hasta 0,9 mm |
 
-**Dato verificado:** las fuentes oficiales separan alambre tubular autoprotegido de alambre macizo para MIG/MAG. La SML130-7 se describe para FCAW y aparece como discontinuada; ESAB declara que MIG 160i acepta alambres tubulares con y sin gas y también ofrece proceso MIG/MAG.
+**Dato documentado:** las fuentes oficiales separan alambre tubular autoprotegido de alambre macizo para MIG/MAG. La SML130-7 se describe para FCAW y aparece como discontinuada; ESAB declara que MIG 160i acepta alambres tubulares con y sin gas y también ofrece proceso MIG/MAG.
 
 **Análisis TallerLab:** para trabajar sin cilindro, el alambre debe ser autoprotegido y la fuente debe permitir su polaridad, diámetro y alimentación. La palabra “MIG” en el nombre no confirma por sí sola que la máquina admita alambre macizo sin gas. Comprobá manual de la máquina y ficha del consumible como un par compatible. Los puntos de ciclo de las dos máquinas no son comparables sin igualar proceso y temperatura de ensayo.
 

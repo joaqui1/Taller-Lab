@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** Yihua publica la serie 898D/898D+ con tensión nominal de 220 V ±10% y potencia de máquina de 730 W. El fabricante declara para el aire caliente 650 W, rango de 100–480 °C y caudal máximo de 120 L/min; para el cautín, 200–480 °C y 50 W o 75 W según la variante. La ficha presenta estabilidad estática de ±5 °C para la tabla de la serie.
+**Dato documentado:** Yihua publica la serie 898D/898D+ con tensión nominal de 220 V ±10% y potencia de máquina de 730 W. El fabricante declara para el aire caliente 650 W, rango de 100–480 °C y caudal máximo de 120 L/min; para el cautín, 200–480 °C y 50 W o 75 W según la variante. La ficha presenta estabilidad estática de ±5 °C para la tabla de la serie.
 
 | Parámetro publicado | Yihua 898D/898D+ | Comparación con serie 878D | Límite de lectura |
 | :--- | :--- | :--- | :--- |

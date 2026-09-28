@@ -29,7 +29,7 @@ published: true
 | Cortar hormigón | PRO Concrete 2 608 602 651 | Hormigón | 115 mm, agujero 22,23 mm, segmento 12 mm |
 | Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
-**Dato verificado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
+**Dato documentado:** la matriz utiliza cinco códigos Bosch distintos. La categoría de material está tomada de la ficha de cada accesorio; la tabla no pretende cubrir todas las marcas, aleaciones ni modelos de disco.
 
 **Análisis TallerLab:** para evitar confusiones, identificá primero la operación (cortar, desbastar o lijar), luego el material y finalmente las dimensiones. En los ejemplos, el disco rígido de desbaste mide 6 mm de espesor, frente a 1,6 mm del disco de corte; el flap es un accesorio de láminas abrasivas. El diámetro común de 115 mm no hace que estos usos sean intercambiables.
 

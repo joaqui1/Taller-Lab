@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -39,7 +39,7 @@ published: true
 | Gamma GE3480AR / 3000V | 70 dB en manual de serie V | No localizada | No localizada | Medición sin geometría/carga publicadas en el fragmento |
 | Lüsqtoff LGI3.8-8 | 75 dB a 7 m | 7 m | No localizada | La distancia aparece, carga no |
 
-**Dato verificado:** Honda especifica para EU22i 57 dB(A) a 7 m a plena carga. Gamma registra 70 dB para GE3480AR en su manual de serie V, pero el extracto no indica distancia o carga. Lüsqtoff publica 75 dB a 7 m para LGI3.8-8. Conservamos dB/dB(A) tal como aparecen en cada fuente.
+**Dato documentado:** Honda especifica para EU22i 57 dB(A) a 7 m a plena carga. Gamma registra 70 dB para GE3480AR en su manual de serie V, pero el extracto no indica distancia o carga. Lüsqtoff publica 75 dB a 7 m para LGI3.8-8. Conservamos dB/dB(A) tal como aparecen en cada fuente.
 
 **Análisis TallerLab:** el dato de EU22i tiene más contexto de medición que las otras filas; una resta directa de 57 frente a 70 o 75 dB no produciría una comparación controlada porque faltan condiciones comunes. Los decibeles son una magnitud logarítmica: tampoco interpretamos una diferencia numérica como porcentaje de “ruido”. La etiqueta comercial “silencioso” no reemplaza el protocolo y la posición de medición.
 

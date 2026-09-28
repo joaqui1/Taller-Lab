@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una caladora Skil
 
-**Dato verificado:** el catálogo de servicio distingue variantes de 127 V y 220 V para ambos códigos; una ficha técnica del 4550 documenta sus prestaciones. No completamos las del 4380 con datos de vendedores.
+**Dato documentado:** el catálogo de servicio distingue variantes de 127 V y 220 V para ambos códigos; una ficha técnica del 4550 documenta sus prestaciones. No completamos las del 4380 con datos de vendedores.
 
 ## SKIL 4380 y 4550: separar tensión de prestaciones
 

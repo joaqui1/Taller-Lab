@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -40,7 +40,7 @@ published: true
 | EZ6500CXS | 5,5 kVA | 6,5 kVA | 220 V monofásica; AVR | 80 kg |
 | ET12000 | 11 kVA máxima publicada | 12 kVA nominal: desconocido en el fragmento consultado | 220/380 V, monofásico y trifásico; AVR | 162 kg |
 
-**Dato verificado:** las fichas oficiales de Honda permiten separar EU22i y EU30is, que identifican regulación inverter y potencias distintas, de EG/EZ6500CXS con AVR o D-AVR. La ficha de ET12000 lo describe como salida mono/trifásica 220/380 V y publica 11 kVA máximos. No inventamos una potencia nominal ausente en el fragmento usado.
+**Dato documentado:** las fichas oficiales de Honda permiten separar EU22i y EU30is, que identifican regulación inverter y potencias distintas, de EG/EZ6500CXS con AVR o D-AVR. La ficha de ET12000 lo describe como salida mono/trifásica 220/380 V y publica 11 kVA máximos. No inventamos una potencia nominal ausente en el fragmento usado.
 
 **Análisis TallerLab:** EU30is declara 0,8 kVA más de potencia máxima que EU22i (36,4 % respecto de 2,2 kVA), y pesa 38 kg más. Esta comparación de ficha no determina autonomía, nivel sonoro en una misma condición ni adecuación a una herramienta. En los modelos rotulados 6500, la potencia nominal tampoco coincide; conviene comparar el código completo, no el número comercial.
 

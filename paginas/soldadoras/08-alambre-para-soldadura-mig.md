@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | 0,9 mm | 80–175 A | 17–22 V | 2,5–6,4 m/min | 0,7–1,8 kg/h | C1 (CO₂) o M21 |
 | 1,14 mm | 145–200 A | 19–21 V | 3,2–5,1 m/min | 1,5–2,5 kg/h | C1 (CO₂) o M21 |
 
-**Dato verificado:** ESAB clasifica Weld 70S-6 como alambre macizo ER70S-6 y publica gases de protección C1/M21 en su ficha. Los rangos por diámetro reproducen la tabla de depósito de ese producto y mercado; no describen todos los alambres ER70S-6 ni establecen un único ajuste para una máquina concreta.
+**Dato documentado:** ESAB clasifica Weld 70S-6 como alambre macizo ER70S-6 y publica gases de protección C1/M21 en su ficha. Los rangos por diámetro reproducen la tabla de depósito de ese producto y mercado; no describen todos los alambres ER70S-6 ni establecen un único ajuste para una máquina concreta.
 
 **Análisis TallerLab:** al pasar de 0,9 a 1,14 mm, la ficha del producto desplaza los intervalos de corriente y velocidad a valores mayores. En una instalación real también deben coincidir rodillos/guía, rango de la fuente, transferencia, gas y preparación de junta. No convertimos los datos de depósito de catálogo en velocidad de avance de la antorcha.
 

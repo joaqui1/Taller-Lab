@@ -31,7 +31,8 @@ def main():
     assert len(EXTRA_RESOURCES) == 16 and len(USE_RESOURCES) == 20 and len(site.RESOURCES) == 72
     assert set(USE_RESOURCES).isdisjoint(EXTRA_RESOURCES)
     assert len({resource["title"] for resource in site.RESOURCES.values()}) == len(site.RESOURCES)
-    assert set(BUYING_NOTES) == set(EXTRA_RESOURCES)
+    assert set(EXTRA_RESOURCES) <= set(BUYING_NOTES)
+    assert set(BUYING_NOTES) <= set(site.RESOURCES)
     assert set(site.RESOURCES) <= article_map.keys()
     commercial = Counter()
     for article in site.ALL_ARTICLES:

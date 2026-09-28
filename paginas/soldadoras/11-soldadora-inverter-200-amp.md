@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | Lüsqtoff SLCEL200-9 | 230 V monofásica; MMA, selector para celulósico; también lift TIG | 10–200 A | Para electrodo de 2,5 mm: 100 A al 100% | 6,9 kg |
 | Dogo Dogostar 200 Moderna, DOG50046 | 220 V; MMA; función TIG por raspado con torcha adicional | 20–200 A | Dogo lista 3,2 mm/100%, 4,0 mm/60% y 5,0 mm/50% | 3,3 kg |
 
-**Dato verificado:** ambas fuentes publican un máximo de 200 A, pero describen servicio de maneras diferentes. Lüsqtoff ofrece un punto continuo de 100 A para electrodo de 2,5 mm; Dogo presenta porcentajes asociados a diámetros. No convertimos esos campos en un ciclo común ni suponemos salida continua a 200 A.
+**Dato documentado:** ambas fuentes publican un máximo de 200 A, pero describen servicio de maneras diferentes. Lüsqtoff ofrece un punto continuo de 100 A para electrodo de 2,5 mm; Dogo presenta porcentajes asociados a diámetros. No convertimos esos campos en un ciclo común ni suponemos salida continua a 200 A.
 
 **Análisis TallerLab:** los 200 A del nombre son un máximo de rango. Para comparar uso sostenido, buscá condiciones de medición equivalentes, tensión de salida y temperatura; la documentación consultada no ofrece el mismo formato en ambos productos. La diferencia de entrada nominal (230 V frente a 220 V) merece comprobarse en la placa/manual y la instalación.
 

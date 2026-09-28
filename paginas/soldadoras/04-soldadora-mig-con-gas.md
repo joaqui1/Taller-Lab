@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | ESAB HandyArc MIG 160i (0410060) | MIG/MAG, rango GMAW 30–160 A; ciclos 160 A/15%, 80 A/60%, 62 A/100% | Bobina hasta 5 kg; diámetro hasta 0,9 mm | Ficha admite alambres tubulares con gas y sin gas; verificar consumible y regulación para la aplicación |
 | Lüsqtoff MIGDUAL200-9 | MIG, MMA y pulso MIG; rango MIG informado hasta 200 A | Porta rollo de 5–15 kg; incluye torcha MIG y manguera | La lista de accesorios incluye manguera; confirmar regulador, gas y consumible requeridos en manual |
 
-**Dato verificado:** ESAB documenta los rangos, ciclos y capacidad del devanador para MIG 160i. Lüsqtoff publica los datos de MIGDUAL200-9 y enumera una manguera entre los elementos del kit. La presencia de manguera no identifica por sí sola el gas, regulador o configuración incluidos en una oferta comercial.
+**Dato documentado:** ESAB documenta los rangos, ciclos y capacidad del devanador para MIG 160i. Lüsqtoff publica los datos de MIGDUAL200-9 y enumera una manguera entre los elementos del kit. La presencia de manguera no identifica por sí sola el gas, regulador o configuración incluidos en una oferta comercial.
 
 **Análisis TallerLab:** para soldar con protección gaseosa, verificá compatibilidad de alambre, rodillo, punta, polaridad y sistema de gas en el manual del equipo y ficha del consumible. Los rangos de corriente de dos equipos no sustituyen esas comprobaciones y no son directamente comparables si difieren condiciones de ciclo.
 

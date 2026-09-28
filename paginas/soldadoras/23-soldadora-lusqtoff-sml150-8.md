@@ -23,7 +23,7 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 ## Comparación de variantes documentadas
 
-**Dato verificado en documentación primaria.** Contrastamos la [ficha SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), su [manual](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y la [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D). Las cifras siguientes son declaraciones del fabricante para cada código, no mediciones nuestras.
+**Dato documentado en documentación primaria.** Contrastamos la [ficha SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), su [manual](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y la [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D). Las cifras siguientes son declaraciones del fabricante para cada código, no mediciones nuestras.
 
 | Variable | SML150-8 | SML150-8D |
 | :--- | :--- | :--- |
@@ -39,7 +39,7 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 ## Una inconsistencia que conviene conocer
 
-**Dato verificado.** La ficha web de la SML150-8 escribe “ciclo de trabajo al 100 % durante 10 min.: 70 V”. El manual expresa ese dato como **70 A**. La unidad “V” de la ficha es inconsistente con la corriente a la que se informa un ciclo de trabajo. Para dimensionar tareas, consultá el manual y confirmá la placa de la unidad concreta; no conviertas ese renglón de la web en una prestación medida.
+**Dato documentado.** La ficha web de la SML150-8 escribe “ciclo de trabajo al 100 % durante 10 min.: 70 V”. El manual expresa ese dato como **70 A**. La unidad “V” de la ficha es inconsistente con la corriente a la que se informa un ciclo de trabajo. Para dimensionar tareas, consultá el manual y confirmá la placa de la unidad concreta; no conviertas ese renglón de la web en una prestación medida.
 
 **Desconocido.** No verificamos compatibilidad con alambre macizo y gas, espesor máximo soldable, vida útil ni opiniones de compradores. Tampoco inferimos que el kit de una publicación actual coincida con el contenido de la ficha histórica de un modelo discontinuado. Antes de pagar, pedí fotos de placa, conexiones, accesorios y garantía.
 

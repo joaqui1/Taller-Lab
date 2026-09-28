@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo | Tanque declarado | Potencia/tensión | Caudal o desplazamiento | Presión máxima | Peso neto |
 | :--- | ---: | :--- | ---: | ---: | ---: |
 | Lüsqtoff LC-30200 | 200 L | 3 HP; 220 V monofásico | 335 L/min | 115 psi | 95 kg (catálogo 2024–25) |
 | Schulz CSV 20/200, código 922.9303-0 | 172,8 L | 5 HP; 220 V | 566 L/min de desplazamiento teórico | 175 psi / 12,0 bar | 133,1 kg |
 
-**Dato verificado:** Lüsqtoff identifica LC-30200 como tanque de 200 L, 3 HP y 335 L/min en su catálogo 2025. Schulz comercializa CSV 20/200, pero la ficha técnica del código 922.9303-0 declara volumen de reservorio de 172,8 L y desplazamiento teórico de 566 L/min. Por tanto, la etiqueta “20/200” no basta para inferir que el calderín mida exactamente 200 L.
+**Dato documentado:** Lüsqtoff identifica LC-30200 como tanque de 200 L, 3 HP y 335 L/min en su catálogo 2025. Schulz comercializa CSV 20/200, pero la ficha técnica del código 922.9303-0 declara volumen de reservorio de 172,8 L y desplazamiento teórico de 566 L/min. Por tanto, la etiqueta “20/200” no basta para inferir que el calderín mida exactamente 200 L.
 
 **Análisis TallerLab:** el desplazamiento teórico Schulz supera en 231 L/min el caudal publicado para Lüsqtoff, pero las fuentes no confirman una metodología común ni un caudal efectivo en herramienta; esta resta no es un ranking de entrega útil. La comparación sirve para separar volumen nominal/anunciado, desplazamiento y presión, que son magnitudes distintas.
 

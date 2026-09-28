@@ -21,14 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
+**Dato documentado:** las cifras de las matrices se transcriben de las fuentes identificadas en cada tabla; las cuentas propias se señalan como **Análisis TallerLab** y los datos sin respaldo como **Desconocido**.
 
 | Modelo Gadnic | Tensión | Presión máxima | Caudal publicado | Cilindros | Uso continuo declarado |
 | :--- | ---: | ---: | ---: | :---: | :--- |
 | AV000009 | 12 V | 150 PSI | 85 L/min | Doble | 30 min recomendado; 40 min máximo |
 | AV000012 | 12 V | 150 PSI | Título: 60 L/min; especificación: 35–60 L/min (la descripción también menciona 72 L/min) | Doble | 30 min recomendado; 40 min máximo |
 
-**Dato verificado:** la tienda Gadnic publica estas cifras y ambos productos indican conexión directa a batería. AV000009 lista 23 A máximos, manguera de 0,25 m más extensión de 5 m y peso de 2,54 kg. AV000012 lista 23 A máximos, cable de 3 m, manguera de 0,60 m más extensión de 2,90 m y peso de 1,4 kg.
+**Dato documentado:** la tienda Gadnic publica estas cifras y ambos productos indican conexión directa a batería. AV000009 lista 23 A máximos, manguera de 0,25 m más extensión de 5 m y peso de 2,54 kg. AV000012 lista 23 A máximos, cable de 3 m, manguera de 0,60 m más extensión de 2,90 m y peso de 1,4 kg.
 
 **Análisis TallerLab:** no comparamos AV000009 y AV000012 por rapidez de inflado. Para AV000012 el caudal aparece como 60, 35–60 y 72 L/min en distintas partes de la misma ficha; además, las páginas no precisan presión y método para hacer comparables los caudales. La discrepancia queda expuesta, no promediada. Un máximo de 150 PSI tampoco indica el tiempo para inflar una rueda concreta.
 

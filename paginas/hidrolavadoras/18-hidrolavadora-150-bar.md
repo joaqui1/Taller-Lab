@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -38,7 +38,7 @@ published: true
 | Gamma 150 Elite G2514AR | Presión máxima admisible: 150 bar | No localizada en la ficha consultada | 400 L/h (6,67 L/min), sin condición de presión rotulada | 1.800 W |
 | Niwa HDNW-700 | Presión máxima: 150 bar | No localizada en la ficha consultada | Máximo 450 L/h (7,5 L/min) | No confirmada en la ficha consultada |
 
-**Dato verificado:** las fuentes llaman a 150 bar máximo/máximo permitido, no necesariamente presión de trabajo. El manual Lüsqtoff distingue claramente HL100-8: 100 bar de trabajo, 150 bar permitidos y 6,0 L/min de caudal de trabajo (7,5 L/min máximo). Gamma publica 150 bar máximos y 400 L/h; Grupo Rumbo publica para Niwa HDNW-700 150 bar máximos y 450 L/h.
+**Dato documentado:** las fuentes llaman a 150 bar máximo/máximo permitido, no necesariamente presión de trabajo. El manual Lüsqtoff distingue claramente HL100-8: 100 bar de trabajo, 150 bar permitidos y 6,0 L/min de caudal de trabajo (7,5 L/min máximo). Gamma publica 150 bar máximos y 400 L/h; Grupo Rumbo publica para Niwa HDNW-700 150 bar máximos y 450 L/h.
 
 **Análisis TallerLab:** las cifras revelan que leer solo «150 bar» oculta diferencias de rotulación: en HL100-8 los 150 bar no son el valor de trabajo; para Gamma y Niwa las fichas consultadas no informan una presión de trabajo comparable. Tampoco ordenamos los caudales porque las dos fichas resumen caudal sin una condición de presión común. Antes de elegir, pedir presión de trabajo y caudal bajo esa presión para el código exacto.
 

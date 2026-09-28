@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -41,7 +41,7 @@ published: true
 | 1/2″ | 0–10 m | 12 mm | 4 bar | 2.000 L/min |
 | 1/2″ | 10–20 m | 14 mm | 4 bar | 2.000 L/min |
 
-**Dato verificado:** la tabla Parker «Dimensioning of Compressed Air Hoses and Equipment» publica esos mínimos y caudales bajo sus propias condiciones de dimensionamiento. En esa tabla el tamaño de conexión y el diámetro interior de la manguera son columnas distintas; no se deben tratar como la misma medida.
+**Dato documentado:** la tabla Parker «Dimensioning of Compressed Air Hoses and Equipment» publica esos mínimos y caudales bajo sus propias condiciones de dimensionamiento. En esa tabla el tamaño de conexión y el diámetro interior de la manguera son columnas distintas; no se deben tratar como la misma medida.
 
 **Análisis TallerLab:** entre los tramos de hasta 10 m y los de 10–20 m, Parker aumenta 1 mm el diámetro mínimo indicado para conexión de 1/4″, y 2 mm para 3/8″ y 1/2″. Es una diferencia documental de dimensionamiento, no una medición de pérdida de presión de una manguera cualquiera. Para elegir también hay que cotejar el consumo y la presión exigidos por el equipo conectado, además de racores, longitud real y presión nominal de cada componente.
 

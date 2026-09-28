@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato verificado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -37,7 +37,7 @@ published: true
 | K 2 Basic Black, 19943220 | 110 bar | 280 L/h | 1.200 W | 3 m / 3,8 kg |
 | K 3 Black Edition, 93983550 | 120 bar | 330 L/h | 1.500 W | No indicada en la ficha consultada / 7,3 kg |
 
-**Dato verificado:** Kärcher Argentina lista para K 2 Basic Black (19943220) 110 bar, 280 L/h, 220 V, 1.200 W, peso sin accesorios de 3,8 kg y manguera de 3 m. Para K 3 Black Edition (93983550) publica 120 bar, 330 L/h, 1.500 W y 7,3 kg. La ficha K2 incluye filtro de agua y accesorios indicados en su página; los paquetes Car/Home de otros mercados no se dan por incluidos.
+**Dato documentado:** Kärcher Argentina lista para K 2 Basic Black (19943220) 110 bar, 280 L/h, 220 V, 1.200 W, peso sin accesorios de 3,8 kg y manguera de 3 m. Para K 3 Black Edition (93983550) publica 120 bar, 330 L/h, 1.500 W y 7,3 kg. La ficha K2 incluye filtro de agua y accesorios indicados en su página; los paquetes Car/Home de otros mercados no se dan por incluidos.
 
 **Análisis TallerLab:** en estos dos SKU locales, la ficha K3 suma 10 bar y 50 L/h sobre la K2, y declara 300 W más. El peso sin accesorios crece 3,5 kg. Esta comparación usa cifras de catálogo; presión y caudal máximos no son por sí solos una prueba de rendimiento sobre una superficie.
 

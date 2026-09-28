@@ -11,7 +11,7 @@ PAGES = {
 | Bosch GBH 2-26 DRE | Cable, 800 W | 2,7 J | 26 mm | 2,9 kg | SDS plus |
 | Einhell TE-RH 28 5F | Cable, 950 W | 3,0 J | 28 mm | 3,81 kg | SDS plus |
 
-**Dato verificado:** las cifras corresponden a las fichas enlazadas y a esos modelos exactos. La ficha de Einhell indica además cinco modos de funcionamiento. Las capacidades máximas son límites publicados por cada fabricante, no una recomendación para mantener ese diámetro durante jornadas continuas.
+**Dato documentado:** las cifras corresponden a las fichas enlazadas y a esos modelos exactos. La ficha de Einhell indica además cinco modos de funcionamiento. Las capacidades máximas son límites publicados por cada fabricante, no una recomendación para mantener ese diámetro durante jornadas continuas.
 
 **Análisis TallerLab:** en esta selección, pasar del GBH 220 al GBH 2-26 DRE suma 0,7 J y 4 mm de capacidad máxima declarada; el TE-RH 28 5F declara 0,3 J y 2 mm más que el GBH 2-26 DRE, y pesa 0,91 kg más. Son diferencias aritméticas entre fichas, no resultados de una prueba común. No se debe ordenar marcas por joules sin confirmar que las magnitudes se midieron bajo el mismo protocolo.
 
@@ -41,7 +41,7 @@ Esta comparación sirve para acotar modelos por ficha. No determina cuál perfor
 | Inserción de accesorio | Mandril de 13 mm en el GSB 18V-50 | SDS plus en el GBH 220 |
 | Límite verificable | La ficha consultada no expresa energía por golpe | 22 mm máximo en hormigón para GBH 220 |
 
-**Dato verificado:** estas cifras describen dos ejemplos concretos, no todos los taladros percutores ni todos los rotomartillos. El GSB 18V-50 es un modelo a batería de 18 V; la cifra de 27.000 impactos/min aparece en su ficha de fabricante. Bosch publica 2,0 J y 22 mm como datos del GBH 220.
+**Dato documentado:** estas cifras describen dos ejemplos concretos, no todos los taladros percutores ni todos los rotomartillos. El GSB 18V-50 es un modelo a batería de 18 V; la cifra de 27.000 impactos/min aparece en su ficha de fabricante. Bosch publica 2,0 J y 22 mm como datos del GBH 220.
 
 **Análisis TallerLab:** las unidades publicadas no permiten comparar directamente “impactos por minuto” con “joules”. La primera expresa frecuencia; la segunda, energía por impacto según la ficha. Para elegir por documentación, primero verificá el material y diámetro requeridos, luego el tipo de mandril y el límite que publica el fabricante. No inferimos velocidad de perforación ni superioridad a partir de estas magnitudes diferentes.
 
@@ -68,7 +68,7 @@ Esta comparación sirve para acotar modelos por ficha. No determina cuál perfor
 | GBH 2-26 DRE | Cable, 800 W | 2,7 J | 26 mm | 2,9 kg | SDS plus |
 | GBH 18V-26 D | Batería 18 V | 2,5 J | 26 mm | 2,6 kg sin batería | SDS plus |
 
-**Dato verificado:** la tabla combina fichas Bosch de regiones distintas; el GBH 2-26 DRE consultado no es una confirmación de configuración argentina. En el GBH 18V-26 D, el peso explícitamente excluye la batería, por lo que no es directamente equivalente a los pesos de herramientas con cable.
+**Dato documentado:** la tabla combina fichas Bosch de regiones distintas; el GBH 2-26 DRE consultado no es una confirmación de configuración argentina. En el GBH 18V-26 D, el peso explícitamente excluye la batería, por lo que no es directamente equivalente a los pesos de herramientas con cable.
 
 **Análisis TallerLab:** frente al GBH 220, el GBH 2-26 DRE declara 0,7 J y 4 mm más de capacidad máxima; también publica 0,6 kg más de peso. El modelo 18V-26 D declara 0,5 J más y 4 mm más que el GBH 220, pero su peso sin batería impide una comparación de masa del conjunto listo para trabajar. Son diferencias de catálogo, no pruebas de perforación.
 
@@ -98,7 +98,7 @@ Esta comparación sirve para acotar modelos por ficha. No determina cuál perfor
 | Modos | Taladrado, taladrado con percusión y cincelado |
 | Alimentación de la variante consultada | Herramienta sola; batería y cargador no incluidos |
 
-**Dato verificado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
+**Dato documentado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
 
 **Declaración del fabricante:** DeWalt describe SHOCKS como un sistema de control activo de vibración que reduce la vibración percibida en la empuñadura frente a la herramienta sin esa función. Esta declaración no equivale a afirmar protección de articulaciones, ausencia de riesgo ni una medición realizada por TallerLab.
 
@@ -129,7 +129,7 @@ Esta comparación sirve para acotar modelos por ficha. No determina cuál perfor
 | Modos | 5 funciones según ficha del fabricante |
 | Peso publicado | 3,81 kg |
 
-**Dato verificado:** la fuente consultada es la ficha Einhell del artículo 4257970. La ficha nombra las cinco funciones, entre ellas taladrado, taladrado con percusión y cincelado; no suponemos que todo modelo TE o TC incluya el mismo selector.
+**Dato documentado:** la fuente consultada es la ficha Einhell del artículo 4257970. La ficha nombra las cinco funciones, entre ellas taladrado, taladrado con percusión y cincelado; no suponemos que todo modelo TE o TC incluya el mismo selector.
 
 **Análisis TallerLab:** frente al Bosch GBH 2-26 DRE (800 W, 2,7 J, máximo 26 mm y peso 2,9 kg), el Einhell declara 150 W y 0,3 J más, 2 mm más de capacidad máxima y 0,91 kg más de peso. Es una comparación aritmética de datos publicados. No demuestra mayor velocidad, vida útil ni conveniencia; las cifras de energía no se sometieron aquí a ensayo común.
 
@@ -156,7 +156,7 @@ La selección ayuda a ver el compromiso entre valores de ficha y peso. El uso re
 | CYL-9 Soft Ceramic | Cerámica blanda | Rotación, a baja velocidad | 3–16 mm |
 | EXPERT HEX-9 HardCeramic | Cerámica dura, incluidos azulejos duros | Rotación; Bosch indica menos de 500 rpm | 3–12 mm en la gama consultada |
 
-**Dato verificado:** Bosch separa sus brocas por aplicación: CYL-9 Soft Ceramic se destina a cerámica blanda, mientras EXPERT HEX-9 HardCeramic se describe para cerámica dura. Las medidas disponibles varían por mercado y número de pieza; confirmar el diámetro exacto del producto publicado.
+**Dato documentado:** Bosch separa sus brocas por aplicación: CYL-9 Soft Ceramic se destina a cerámica blanda, mientras EXPERT HEX-9 HardCeramic se describe para cerámica dura. Las medidas disponibles varían por mercado y número de pieza; confirmar el diámetro exacto del producto publicado.
 
 **Declaración del fabricante:** para HEX-9, Bosch recomienda perforación rotativa sin percusión y velocidad inferior a 500 rpm. La guía de Bosch indica aplicar presión y mantener control de la herramienta; no convertimos recomendaciones de un modelo en regla universal para todas las brocas. Las pruebas de número de agujeros que publica Bosch son ensayos del fabricante, no experiencia de compradores ni prueba de TallerLab.
 
@@ -185,7 +185,7 @@ La selección ayuda a ver el compromiso entre valores de ficha y peso. El uso re
 | Velocidad indicada por Bosch | Menos de 500 rpm |
 | Espesor descrito para esta aplicación | Hasta 10 mm, según página del fabricante |
 
-**Dato verificado:** estos límites corresponden a la familia Bosch EXPERT HEX-9 HardCeramic, no a todas las brocas para porcelanato. El espesor de hasta 10 mm y el rango de diámetros dependen de la variante y página de mercado consultada. Confirmá la referencia y el diámetro exactos antes de comprar.
+**Dato documentado:** estos límites corresponden a la familia Bosch EXPERT HEX-9 HardCeramic, no a todas las brocas para porcelanato. El espesor de hasta 10 mm y el rango de diámetros dependen de la variante y página de mercado consultada. Confirmá la referencia y el diámetro exactos antes de comprar.
 
 **Declaración del fabricante:** Bosch presenta HEX-9 HardCeramic como una broca de carburo para azulejo duro y recomienda velocidad baja, rotación sin percusión y presión controlada. El fabricante publica ensayos propios de perforación; esos resultados son declaraciones de Bosch y no pruebas realizadas por TallerLab.
 
@@ -215,7 +215,7 @@ La selección ayuda a ver el compromiso entre valores de ficha y peso. El uso re
 | Largo de trabajo | 56 mm |
 | Material indicado | Madera |
 
-**Dato verificado:** Bosch publica estas dimensiones para la referencia indicada. La ficha de otra Forstner Bosch de 35 mm (2 608 596 977) informa 90 mm de largo total; no mezclar ambas referencias como si fueran idénticas.
+**Dato documentado:** Bosch publica estas dimensiones para la referencia indicada. La ficha de otra Forstner Bosch de 35 mm (2 608 596 977) informa 90 mm de largo total; no mezclar ambas referencias como si fueran idénticas.
 
 **Análisis TallerLab:** 35 mm describe el diámetro de la cavidad, no la profundidad máxima de perforación. En la Expert Wood consultada, el largo de trabajo publicado es 56 mm. El vástago de 10 mm también debe caber en el mandril. Para una bisagra cazoleta, plantilla, tope y guía ayudan a repetir posición y profundidad, pero esta ficha no certifica dimensiones universales de bisagras ni una configuración de plantilla concreta.
 
@@ -245,7 +245,7 @@ La selección ayuda a ver el compromiso entre valores de ficha y peso. El uso re
 | Vástago | Hexagonal de 1/4 in |
 | Materiales listados | Metales, aluminio y plástico, según ficha |
 
-**Dato verificado:** los datos corresponden a la broca escalonada Bosch Professional HSS consultada. En el rango 4–20 mm con pasos de 4 mm, las medidas sucesivas son 4, 8, 12, 16 y 20 mm. El valor se deriva del paso y los extremos publicados.
+**Dato documentado:** los datos corresponden a la broca escalonada Bosch Professional HSS consultada. En el rango 4–20 mm con pasos de 4 mm, las medidas sucesivas son 4, 8, 12, 16 y 20 mm. El valor se deriva del paso y los extremos publicados.
 
 **Análisis TallerLab:** la utilidad de una escalonada es cubrir varios diámetros en una misma broca dentro de su rango; no ofrece todas las medidas intermedias. Para un agujero nominal de 10 mm, esta referencia no tiene un escalón de 10 mm según el intervalo indicado. El vástago hexagonal de 1/4 in debe sujetarse en un portabrocas compatible. El rango no informa por sí solo el espesor máximo de chapa.
 
@@ -277,7 +277,7 @@ La selección ayuda a ver el compromiso entre valores de ficha y peso. El uso re
 | Diámetro máximo de tornillo | 4 mm | 6 mm |
 | Control de profundidad | Tope de profundidad | Tope de profundidad |
 
-**Dato verificado:** los valores se extraen de las fichas Bosch indicadas. La denominación comercial puede variar por país; GTB 18V-45 aparece como GTB 185-LI en algunas páginas regionales. El peso inalámbrico excluye la batería y no se compara como peso del conjunto listo para usar.
+**Dato documentado:** los valores se extraen de las fichas Bosch indicadas. La denominación comercial puede variar por país; GTB 18V-45 aparece como GTB 185-LI en algunas páginas regionales. El peso inalámbrico excluye la batería y no se compara como peso del conjunto listo para usar.
 
 **Análisis TallerLab:** la GTB 650 publica 500 rpm más y 6 Nm más de torque; la variante a batería publica un diámetro máximo de tornillo 2 mm mayor y elimina el cable, pero la ficha citada informa 0,95 kg sin batería. Estas diferencias describen números de catálogo, no velocidad de fijación, autonomía, comodidad o calidad de acabado. Elegí con base en disponibilidad de energía, contenido del kit y los tornillos admitidos.
 
