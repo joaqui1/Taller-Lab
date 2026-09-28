@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
 from hubs import HUB_EDITORIAL, HUB_STEPS
+from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
 
@@ -1525,7 +1526,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=5">
+  <link rel="stylesheet" href="/assets/site.css?v=6">
   <script src="/assets/commerce.js?v=2" defer></script>
 </head>
 <body>
@@ -1751,9 +1752,37 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
 
 
 def render_home_page():
-    cards = "".join(render_article_card(article, badge_text="GUÍA REVISADA", action_text="Leer comparativa") for article in ALL_ARTICLES)
-    content = f'''<div class="article-container"><div class="article-header"><h1>Herramientas que dan resultados</h1><p class="article-lead">Comparaciones documentadas para elegir herramientas en Argentina.</p></div><div class="article-grid">{cards}</div><div class="markdown-body"><p><a href="/como-trabajamos/">Conocé nuestro método de comparación</a> y <a href="/autor/joaquin-vallasciani/">quién firma las guías</a>.</p></div></div>'''
-    return HTML_SHELL.format(PAGE_TITLE="Herramientas que dan resultados", CANONICAL_TAG=canonical_tag("/"), PAGE_DESC="Guías de herramientas revisadas y documentadas para Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": absolute_url("/") + "#website",
+        "name": "TallerLab",
+        "url": absolute_url("/"),
+        "inLanguage": "es-AR",
+        "publisher": {"@id": absolute_url("/") + "#organization"},
+    }
+    website_tag = '<script type="application/ld+json">' + json.dumps(website, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    articles = {a["url"]: a for a in ALL_ARTICLES}
+    categories = "".join(f'''<a class="home-category" href="/{key}/"><span class="home-category-number">{i:02d}</span><div><h3>{escape(meta["name"])}</h3><p>{escape(HOME_CATEGORY_COPY[key])}</p></div><span aria-hidden="true">↗</span></a>''' for i, (key, meta) in enumerate(CATEGORY_META.items(), 1))
+    comparisons = []
+    for i, (url, title, description) in enumerate(HOME_COMPARISONS, 1):
+        article = articles[url]
+        comparisons.append(f'''<a class="home-comparison" href="{url}"><div class="home-comparison-top"><span>{i:02d} / COMPARATIVA</span><span>{escape(CATEGORY_META[article["section"]]["name"])}</span></div><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Comparar opciones <span aria-hidden="true">→</span></span></a>''')
+    tools = []
+    for url, kind, title, description, unit in HOME_TOOLS:
+        if url not in articles or url not in RESOURCES:
+            raise ValueError(f"Recurso de Home no publicado: {url}")
+        tools.append(f'''<a class="home-tool" href="{url}#resource-title"><span class="home-tool-unit" aria-hidden="true">{escape(unit)}</span><div><span class="home-kicker">{kind}</span><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Usar {kind.lower()} <span aria-hidden="true">→</span></span></div></a>''')
+    content = f'''<div class="home-page">
+      <section class="home-hero" aria-labelledby="home-title"><div class="home-hero-copy"><span class="home-kicker">TALLERLAB / HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Comparativas de herramientas <br><span>para elegir mejor en Argentina</span></h1><p>Compará modelos, entendé qué cambia y calculá lo que necesitás antes de comprar. Guías basadas en fichas y manuales, con opciones para consultar precios.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a><a class="home-secondary" href="#herramientas">Usar calculadoras ↗</a></div><a class="home-method" href="/como-trabajamos/">Fuentes identificadas · Conocé cómo comparamos →</a></div><div class="home-hero-media"><img src="/assets/drill_hero.png" alt="" width="500" height="200" fetchpriority="high"><span>LA COMPRA EMPIEZA POR LA TAREA.</span></div></section>
+      <section class="home-search" aria-labelledby="search-title"><div><h2 id="search-title">¿Ya sabés qué buscar?</h2><p>Una herramienta, una marca o un modelo.</p></div><form id="home-search-form" role="search"><label class="sr-only" for="home-query">Buscar guías de herramientas</label><input id="home-query" type="search" placeholder="Ej.: taladro inalámbrico, Bosch, compresor…" autocomplete="off" maxlength="120" aria-controls="home-search-results"><button type="submit">Buscar <span aria-hidden="true">→</span></button></form><noscript><p>Para buscar activá JavaScript, o explorá las categorías de abajo.</p></noscript></section>
+      <section id="home-search-results" class="home-results" aria-labelledby="home-results-title" hidden><div class="home-section-heading"><div><h2 id="home-results-title">Resultados de búsqueda</h2><p id="home-search-status" role="status" aria-live="polite"></p></div><button id="home-search-clear" type="button">Cerrar búsqueda ×</button></div><div id="home-search-grid" class="article-grid"></div><button id="home-search-more" type="button" hidden>Ver más resultados ↓</button></section>
+      <section id="categorias" class="home-section" aria-labelledby="home-categories-title"><div class="home-section-heading"><div><span class="home-kicker">01 / EXPLORÁ POR EQUIPO</span><h2 id="home-categories-title">Encontrá tu categoría</h2></div><p>Del trabajo que tenés al equipo que necesitás.</p></div><div class="home-category-grid">{categories}</div></section>
+      <section id="comparativas" class="home-section" aria-labelledby="home-comparisons-title"><div class="home-section-heading"><div><span class="home-kicker">02 / ANTES DE COMPRAR</span><h2 id="home-comparisons-title">Comparativas para empezar</h2></div><p>Opciones, diferencias y límites para decidir.</p></div><div class="home-comparison-grid">{"".join(comparisons)}</div></section>
+      <section id="herramientas" class="home-section home-tools-section" aria-labelledby="home-tools-title"><div class="home-section-heading"><div><span class="home-kicker">03 / RESOLVÉ TU DUDA</span><h2 id="home-tools-title">Menos suposiciones. Más números.</h2></div><p>Calculadoras y selectores con sus supuestos explicados.</p></div><div class="home-tool-grid">{"".join(tools)}</div></section>
+      <aside class="home-trust"><strong>La fuente también importa.</strong><p>Contrastamos documentación de modelos concretos y señalamos lo que falta confirmar. Algunos enlaces de productos pueden generar una comisión para TallerLab.</p><a href="/como-trabajamos/">Nuestro método →</a></aside>
+    </div><script src="/assets/home.js?v=1" defer></script>'''
+    return HTML_SHELL.format(PAGE_TITLE="Comparativas y calculadoras de herramientas en Argentina", CANONICAL_TAG=canonical_tag("/") + website_tag, PAGE_DESC="Elegí herramientas para tu trabajo: explorá 8 categorías, compará modelos y usá calculadoras de potencia, caudal y costos antes de comprar en Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
 def render_category_page(section_id):
