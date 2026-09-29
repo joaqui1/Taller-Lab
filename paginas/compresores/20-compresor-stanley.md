@@ -2,7 +2,7 @@
 title: "Compresores Stanley: comparativa y guía de compra"
 h1: "Compresores Stanley: comparativa y guía de compra"
 url: "/compresores/stanley/"
-description: "Comparativa documentada de compresores Stanley y Stanley Fatmax de 24, 50 y 100 litros: modelos lubricados, oil-free y criterios de elección según uso."
+description: "Comparativa documentada de compresores Stanley, incluido el FCCC404STC005 publicado en Argentina, y modelos Stanley Fatmax de 24, 50 y 100 litros."
 author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor stanley", "compresor stanley fatmax", "compresor stanley 24 litros", "compresor stanley 50 litros"]
@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Comparación de modelos Stanley documentados en fichas actuales del fabricante y catálogos técnicos anteriores, con alcance de disponibilidad local explícito."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -25,7 +25,7 @@ published: true
 
 Stanley tiene más de una configuración de compresor: hay equipos lubricados, modelos sin aceite y cabezales lubricados de por vida que no requieren agregar aceite según su ficha. También cambian el tamaño y la orientación del tanque, la potencia y, sobre todo, el caudal entregado bajo presión. Por eso, “2 HP” o “50 litros” no alcanzan para saber si un compresor sostendrá una herramienta.
 
-La comparación separa fichas activas del catálogo del fabricante Mecafer para productos Stanley/Stanley Fatmax de modelos de catálogos Stanley anteriores. Encontramos una publicación comercial argentina de un Stanley lubricado de 24 L con especificaciones coincidentes con la familia D210/8, pero la publicación no confirma claramente el código. No pudimos corroborar con catálogo oficial argentino una gama local completa ni stock actual de los modelos europeos; las fichas de Mecafer documentan modelos, no disponibilidad en Argentina.
+La comparación separa fichas activas del catálogo del fabricante Mecafer para productos Stanley/Stanley Fatmax, modelos de catálogos Stanley anteriores y un modelo identificado en una publicación comercial argentina. Esa publicación informa el código FCCC404STC005 para un Stanley lubricado de 24 L. La coincidencia de algunas especificaciones no demuestra que ese SKU sea el D210/8/24 histórico. Las fichas de Mecafer documentan modelos, no disponibilidad actual en Argentina.
 
 ## Modelos Stanley documentados
 
@@ -67,7 +67,7 @@ Un 24 L puede resultar práctico para inflado, soplado breve, clavado o engrapad
 
 | Uso previsto | Qué mirar en la ficha | Modelos documentados que se pueden evaluar | Límite antes de decidir |
 | :--- | :--- | :--- | :--- |
-| Inflar ruedas, soplar suciedad o tareas cortas | Tanque, regulador, presión y peso; el caudal importa menos si el uso es breve | FHY227/10/24V o el Stanley 24 L lubricado publicado en Argentina, después de confirmar código | La publicación local consultada no identifica claramente la revisión exacta; verificar manual y placa |
+| Inflar ruedas, soplar suciedad o tareas cortas | Tanque, regulador, presión y peso; el caudal importa menos si el uso es breve | FHY227/10/24V o Stanley FCCC404STC005, después de confirmar que la placa de la unidad ofrecida coincida | La publicación local identifica el SKU, pero no permite atribuirle el código histórico D210/8/24; verificar manual y placa |
 | Clavadora o engrapadora intermitente | Consumo de la herramienta y entrega del compresor a su presión de trabajo | FHY227/10/24V; D210/8 solo si la herramienta admite el rango y el manual de la revisión confirma su caudal útil | “222 L/min” de desplazamiento no es caudal de salida; sumar consumo si se usan varias herramientas |
 | Más reserva en tareas de taller discontinuas | Comparar salida a presión y tanque, además de dimensiones | FHY227/10/50V o D210/8/50 histórico; el primero publica 172 L/min a 7 bar | El tanque mayor no aumenta el caudal de la bomba FHY227 frente a su versión de 24 L |
 | Pintura ocasional | Consumo de la pistola a la presión indicada, caudal restituido y pausas entre pasadas | FHY227/10/50V o D270/10/100V, solo si el consumo de la pistola es menor que la entrega documentada y el ciclo alcanza | No se puede garantizar acabado ni continuidad sin cotejar el modelo exacto de pistola y el ciclo |
@@ -78,7 +78,11 @@ La presión máxima también debe superar la presión que necesita la herramient
 
 ## Disponibilidad local, garantía y servicio
 
-En una publicación comercial argentina revisada aparece un compresor Stanley de 24 L, 2 HP, 8 bar, lubricado, 222 L/min y 23 kg, ofrecido por una tienda marcada como oficial en el marketplace. Esas características coinciden con la familia D210/8/24, pero la publicación no alcanza para verificar el código de placa ni la revisión. No encontramos la misma confirmación local para las variantes de 50 y 100 L incluidas en las fichas europeas.
+Una publicación comercial argentina identifica como **Stanley FCCC404STC005** un compresor lubricado de 24 L. Informa 2 HP, alimentación de 220/230 V y 50 Hz, presión máxima de 8 bar, 2.850 rpm y desplazamiento de 222 L/min. La publicación también presenta un peso de 23 kg. Estos datos son los declarados en la oferta consultada; antes de comprar, cotejá el código de la placa y el manual de la unidad concreta.
+
+El código FCCC404STC005 es la identificación de esa publicación local. Aunque algunas características coinciden con las del D210/8/24 del catálogo Stanley 2017, las fuentes consultadas no confirman que sean el mismo modelo o revisión. **No atribuyas al FCCC404STC005 el caudal restituido publicado para otros modelos.** [Ver la publicación argentina del Stanley FCCC404STC005 en Mercado Libre](https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM).
+
+No encontramos la misma confirmación local para las variantes Stanley de 50 y 100 L incluidas en las fichas europeas.
 
 Stanley Argentina ofrece un canal de contacto para consultar especificaciones, repuestos y ubicación de centros de servicio. La duración de garantía publicada en Mecafer para algunas fichas es comercial y corresponde a ese mercado; no la traslado a una compra argentina. Antes de comprar, pedí por escrito el plazo de garantía para el SKU local, quién brinda el servicio y qué manual corresponde al código de placa.
 
@@ -99,7 +103,7 @@ El D230/10/50V figura en el catálogo Stanley de 2020: 50 L, 2 HP (1,5 kW), 10 b
 
 - **Fichas actuales del fabricante Mecafer para Stanley/Stanley Fatmax:** [FHY227/10/24V](https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-24l-2hp); [FHY227/10/50V](https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-50l-2hp); [FDV2-400-10-50](https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-50l-3hp); [FDV2-400-10-100](https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-100l-3hp); [D270/10/100V](https://www.mecafer.com/compresseurs/compresseur-vertical-100l-25hp); [D210/8/50](https://www.mecafer.com/compresseurs/compresseur-coaxial-lubrifie-50l-2hp).
 - **Catálogos y manuales Stanley:** [catálogo Stanley 2020](https://www.nuair.pl/images/katalogi/Catalogo_STANLEY_2020_EN_9990220_LR.pdf); [catálogo Stanley 2017, D210/8/24 y D210/8/50](https://www.nuair.pt/images/katalogi/Catalogo-STANLEY-2017.pdf); [manual oficial de STC24/STC50](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STC24/1/Instruction_Manual/EN/STC24_STC50.pdf).
-- **Disponibilidad y soporte local:** [publicación argentina del Stanley 24 L](https://www.mercadolibre.com.ar/compresor-de-aire-stanley-24-litros-2-hp-116psi-8-bar/p/MLA21818637); [contacto y soporte oficial de Stanley Argentina](https://ar.stanleytools.global/soporte/contacto).
+- **Disponibilidad y soporte local:** [publicación argentina del Stanley FCCC404STC005 de 24 L](https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM); [página de catálogo del Stanley 24 L](https://www.mercadolibre.com.ar/compresor-de-aire-stanley-24-litros-2-hp-116psi-8-bar/p/MLA21818637); [contacto y soporte oficial de Stanley Argentina](https://ar.stanleytools.global/soporte/contacto).
 - **Opiniones de compradores:** no se resumió una muestra independiente.
 
 Para seguir comparando: [compresores de 50 litros](/compresores/50-litros/).
