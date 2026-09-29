@@ -25,7 +25,6 @@ published: true
 Un disco de desbaste rígido sirve para remover material de una superficie, rebajar una soldadura o corregir un borde. Para elegirlo, comprobá primero que esté declarado para el material y el trabajo; después verificá diámetro, espesor, agujero, rpm y compatibilidad con la amoladora. El Bosch PRO Metal [2 608 600 218 · Ver precio en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener"} es un ejemplo documentado de 115 × 6 × 22,23 mm, no una recomendación universal.
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Qué es y para qué se usa
 
 El disco de desbaste es un abrasivo aglomerado y reforzado diseñado para retirar material con su superficie abrasiva. Se usa, según la aplicación que declare cada fabricante, para quitar rebabas, rebajar cordones de soldadura, suavizar bordes o retirar material de una pieza metálica. No es el accesorio indicado para separar una pieza: para eso se usa un disco de corte fino compatible.

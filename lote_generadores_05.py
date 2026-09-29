@@ -121,24 +121,26 @@ El manual Hyundai indica calcular watts como voltios × amperes cuando no está 
         "/generadores/", "/generadores/gamma/", "generadores Gamma por modelo",
     ),
     "paginas/generadores/17-gamma-950.md": (
-        "Calcula la diferencia entre las dos salidas que Gamma publica para GE3441AR y preserva el rótulo ambiguo del fabricante en vez de llamarlo potencia nominal.",
+        "Contrasta la potencia nominal del manual GE3441 con la ficha actual de Gamma y explica cargas pequeñas y autonomía sin convertir el rótulo ambiguo de 570 W en potencia continua.",
         """| Campo Gamma para GE3441AR | Valor publicado | Interpretación permitida |
 | :--- | ---: | :--- |
 | Potencia máxima | 0,87 kW | El fabricante lo denomina máximo |
 | «Energía generada contenida» | 0,57 kW | Se conserva el rótulo; la página no lo define como nominal/continua |
+| Potencia nominal | 0,37 kW | El manual GE3441 la identifica como nominal |
 | Tensión / frecuencia | 220 V / 50 Hz | Dato publicado por Gamma |
-| Motor y combustible | 2 tiempos, 63 cm³ | Gamma indica motor naftero 2T; no inferimos mezcla exacta sin seguir el manual |
+| Motor | Naftero 2T, 63 cm³ | Dato publicado por Gamma |
+| Mezcla de combustible | 30 ml mineral 2T o 15 ml sintético 2T por litro de nafta súper | Proporciones del manual GE3441 |
 | Estado | Discontinuado | Confirmado en la página oficial Gamma |
 
-**Dato documentado:** Gamma publica para el modelo 950 GE3441AR 0,87 kW de potencia máxima y 0,57 kW bajo el campo «energía generada contenida», además de 220 V–50 Hz, motor naftero de 2 tiempos, tanque de 4,2 L y 22 kg. La marca indica que el producto está discontinuado.
+**Dato documentado:** el manual del Gamma 950 GE3441 indica 0,37 kW nominales y 0,87 kW máximos. La ficha actual del modelo GE3441AR también publica 0,87 kW máximos y 0,57 kW bajo el campo «energía generada contenida», además de 220 V–50 Hz, motor naftero de 2 tiempos, tanque de 4,2 L y autonomía de 2,8 h. La marca indica que el producto está discontinuado.
 
-**Análisis TallerLab:** 0,87 − 0,57 = 0,30 kW (300 W); el máximo publicado es 52,6 % mayor que el valor de «energía generada contenida». Ese cálculo deja ver dos cifras distintas en la ficha, pero no determina por sí mismo cuántos watts puede sostener el equipo en uso prolongado: Gamma no define el segundo rótulo en la página consultada. No transformamos esas cifras en recomendación para cargas concretas.
+**Análisis TallerLab:** dividir 4,2 L por las 2,8 h de autonomía publicadas da cerca de 1,5 L/h. Es una estimación derivada, no una tasa medida a una carga conocida. Los escenarios de cargas pequeñas se comparan con los 370 W nominales que indica el manual; no certifican compatibilidad con artefactos concretos.
 
-**Desconocido:** no afirmamos una lista de artefactos compatibles, consumo horario ni autonomía a carga determinada a partir del tanque y las horas que aparecen en la ficha. Para una unidad usada, comprobar etiqueta y manual correspondiente.
+**Desconocido:** la ficha no especifica la carga a la que midió las 2,8 h de autonomía, por lo que no se puede asegurar el consumo a una carga concreta. Para una unidad usada, comprobar variante, etiqueta y manual correspondiente.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Gamma, ficha GE3441AR / Grupo Electrógeno 950](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-950/); [manual Gamma grupos electrógenos](https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf); [despiece Gamma GE3441AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-103-despiece.pdf).
+- **Documentación primaria:** [Gamma, ficha GE3441AR / Grupo Electrógeno 950](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-950/); [manual GE3441 enlazado por Gamma](https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-102-manual.pdf); [despiece Gamma GE3441AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-103-despiece.pdf).
 - **Opiniones de compradores:** no se revisó una muestra verificable.""",
         "/generadores/", "/generadores/chicos/", "generadores chicos: potencias documentadas",
     ),

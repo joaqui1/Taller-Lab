@@ -30,7 +30,6 @@ Stanley Argentina lista varias amoladoras angulares con cable de **115 mm**, ent
 | SCG400-B3 | México; V20 regional | 115 mm | 18 V nominales / 20 V máx.; 9.000 rpm | Herramienta sola, sin batería ni cargador; no prueba disponibilidad local |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las especificaciones de las tres herramientas con cable se contrastan con manuales Stanley; la lista argentina del fabricante confirma los códigos comercializados en su catálogo online. La potencia o las rpm en vacío no predicen por sí solas la velocidad de corte ni el rendimiento bajo carga.
 
 <!-- EDITORIAL-COMMERCE -->

@@ -2,18 +2,18 @@
 title: "Kärcher K3: versiones y diferencias con K2 y K4"
 h1: "Hidrolavadora Kärcher K3: cuándo conviene elegirla"
 url: "/hidrolavadoras/karcher-k3/"
-description: "Compara las fichas Kärcher Argentina de K3 Black Edition y K4 Power Control: presión, caudal, tensión, manguera y peso por SKU, y deja visibles campos ausentes."
+description: "La decisión alrededor de la Kärcher K3: comparación breve con K2 Basic y K4 Power Control argentinos, uso y frecuencia, kit local, mantenimiento y repuestos."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
-keywords: ["hidrolavadora karcher k3", "karcher k3 confort", "karcher k3 vs k2", "karcher k3 vs k4", "karcher k3 caracteristicas"]
+keywords: ["hidrolavadora karcher k3", "karcher k3 black edition", "karcher k3 vs k2", "karcher k3 vs k4", "karcher k3 caracteristicas"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Compara las fichas Kärcher Argentina de K3 Black Edition y K4 Power Control: presión, caudal, tensión, manguera y peso por SKU, y deja visibles campos ausentes."
+information_asset: "Guía centrada en la decisión alrededor de K3: compara los SKU argentinos K2 Basic Black, K3 Black Edition y K4 Power Control y explica su frecuencia de uso, kit, mantenimiento y repuestos."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,35 +21,48 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+La **K3 Black Edition (93983550)** tiene sentido como escalón intermedio si la K2 Basic te queda corta por frecuencia o caudal, pero todavía no necesitás el mayor caudal, alcance de manguera y motor refrigerado por agua publicados para la K4 Power Control. Kärcher Argentina describe la K3 para limpieza doméstica diaria más frecuente, no como equipo de uso comercial continuo.
 
-## Cómo investigamos esta guía
+## K2, K3 y K4 argentinos: dónde cae la K3
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 27/09/2026
+| Modelo y SKU local | Uso/frecuencia que publica Kärcher | Presión y caudal publicados | Manguera, peso y diferencia relevante |
+| :--- | :--- | :--- | :--- |
+| [K2 Basic Black, 19943220](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html) | Trabajos ocasionales y suciedad ligera: bicicletas, herramientas y muebles de jardín | 110 bar; 280 L/h; 1.200 W | Manguera de alta presión 3 m; 3,8 kg sin accesorios. El punto fuerte es el peso y la sencillez para uso ocasional. |
+| [K3 Black Edition, 93983550](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html) | Limpieza doméstica diaria más frecuente: garaje, patio, auto, bicicleta, moto, zona de pileta y jardín | 120 bar; 330 L/h; 1.500 W | 7,3 kg sin accesorios; el largo de la manguera no aparece en la ficha consultada. Suma 50 L/h publicados frente a K2, además de ruedas y kit más completo. |
+| [K4 Power Control, 16034020](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html) | Para quien necesita más caudal, alcance o rendimiento de superficie; declara hasta 30 m²/h | 20–máx. 130 bar; 420 L/h máx. | Manguera de 8 m; 12,4 kg sin accesorios; motor de inducción refrigerado por agua. Suma 90 L/h máximos publicados frente a K3 y permite cubrir más radio de trabajo. |
 
-| Producto Kärcher Argentina | SKU | Presión publicada | Caudal máx. | Manguera / peso sin accesorios |
-| :--- | :--- | ---: | ---: | :--- |
-| K 3 Black Edition | 93983550 | 120 bar | 330 L/h | Longitud no indicada / 7,3 kg |
-| K 4 Power Control | 16034020 | 20–máx. 130 bar | 420 L/h | 8 m / 12,4 kg |
+Las fichas rotulan la presión de manera distinta: K2 y K3 dan una cifra de presión, mientras K4 publica un intervalo hasta el máximo. Los caudales también son máximos en estas fichas, no promesas de caudal sostenido en cualquier boquilla o situación. La tabla es sólo el marco para decidir si quedarte en K3 o subir/bajar un escalón.
 
-**Dato documentado:** la ficha local del K3 publica 120 bar, 330 L/h y 7,3 kg sin accesorios. Kärcher Argentina informa para el K4 Power Control tensión de 220 V–50 Hz, presión de 20 a 130 bar, caudal máximo de 420 L/h, manguera de 8 m y 12,4 kg sin accesorios; también describe motor de inducción refrigerado por agua y tres niveles de presión.
+### Cuándo conviene quedarse con K3
 
-**Análisis TallerLab:** entre los SKU citados, el K4 declara 10 bar más de presión máxima y 90 L/h más de caudal máximo que el K3, junto con 5,1 kg de peso adicional. No se calculan diferencias de largo de manguera porque el dato del K3 no está en la ficha consultada. La presión mínima de 20 bar que muestra Kärcher para K4 tampoco es una medición de presión nominal sostenida.
+- **Frente a la K2:** elegí K3 si la máquina va a salir con frecuencia para patio, auto, moto y tareas de jardín, y te sirven el mayor caudal publicado, las ruedas y los accesorios del paquete Black Edition. Para bicicleta o muebles con suciedad ligera en limpiezas esporádicas, la K2 pesa bastante menos y puede alcanzar.
+- **Frente a la K4:** quedate con K3 si la limpieza es doméstica y el mayor caudal o los 8 m de manguera de K4 no justifican más tamaño y peso. Subí a K4 si limpias superficies más amplias con regularidad o el radio de la K3 te obliga a mover el equipo seguido.
+- **Para jornadas o trabajo pago:** la descripción local de K3 dice “diaria más frecuente”, pero no publica horas continuas ni ciclo de trabajo para la SKU 93983550. No leas esa frase como aptitud comercial: pedí el régimen permitido y condiciones de garantía antes de usarla como herramienta de trabajo.
 
-**Desconocido:** no se cotejaron versiones K3 Confort/Car/Home disponibles en Argentina ni configuraciones de la aplicación por región. Verificar SKU y accesorios exactos en la publicación.
+## K3 Black Edition local: kit y versiones
+
+La referencia argentina actual que encontré es **K3 Black Edition, SKU 93983550**. Kärcher Argentina lista cepillo de lavado, boquilla de espuma de 0,3 L, pistola Quick Connect, Vario Power Jet, lanza pulverizadora de un chorro y adaptador para manguera de riego de 3/4”; también declara filtro de agua integrado. Confirmá el contenido del paquete al comprar: nombres como K3 Comfort, Home, Car o Full Control pueden corresponder a otros kits o mercados.
+
+La ficha de producto argentina no indica el largo de la manguera de alta presión incluida. Kärcher sí lista una [manguera de repuesto de 4 m compatible con K3 Black Edition](https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html); eso no confirma por sí mismo el contenido de la caja. Si el largo te importa, pedí que el vendedor lo confirme para el SKU y lote concretos.
+
+## Uso y mantenimiento básico
+
+- **Prepará la bomba:** usá agua limpia y con caudal suficiente. Antes de iniciar, purgá el aire del circuito como indica el manual y no hagas funcionar el equipo sin alimentación de agua.
+- **Si cae la presión o el chorro pulsa:** revisá que la canilla esté abierta, que el caudal de entrada sea suficiente, que el filtro de agua no esté sucio y que no haya aire en el circuito. Después comprobá el ajuste de la lanza y si la boquilla está obstruida.
+- **Limpieza de filtro y boquilla:** desconectá el equipo antes de intervenir. Retirá y enjuagá el filtro de entrada; limpiá la boquilla con la aguja provista y enjuagala. El manual también indica quitar el aire hasta que el agua salga sin burbujas antes de volver a montar la lanza.
+- **Detergente:** usá detergente compatible con hidrolavadoras. Si no lo aspira, comprobá el ajuste previsto para detergente y limpiá el filtro/circuito de succión si corresponde a tu versión.
+- **Guardado:** descargá la presión, desconectá agua y electricidad, y vaciá el agua de la máquina y las mangueras antes de guardarla en un lugar protegido del congelamiento.
+
+La garantía Home & Garden publicada en Argentina es de 12 meses para fallas de fabricación/materiales y excluye el uso comercial. Para mantenimiento o una avería, consultá el centro de servicio oficial con la placa/código completo y comprobante de compra; no abras el equipo si querés conservar la cobertura. Kärcher permite buscar piezas originales por el número de pieza de la placa. No asumas que una manguera, lanza o repuesto K2 sirve también para K3: verificá compatibilidad exacta en el buscador de accesorios/repuestos.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Kärcher Argentina K 3 Black Edition](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html); [Kärcher Argentina K 4 Power Control](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- Kärcher Argentina: [K2 Basic Black 19943220](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html), [K3 Black Edition 93983550](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html), [K4 Power Control 16034020](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html).
+- Accesorios/repuestos: [manguera 4 m compatible con K3 Black Edition](https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html), [buscador de repuestos originales](https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion/repuestos-originales.html).
+- Mantenimiento y cobertura: [manual de usuario oficial que incluye K3 Black](https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5811717-000-00.pdf), [garantía y reparación Home & Garden Argentina](https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion.html).
 
-Para seguir comparando: [Kärcher K4: ficha y accesorios publicados](/hidrolavadoras/karcher-k4/).
+Esta guía es documental; no incluye prueba física ni una muestra verificable de opiniones de compradores. Se usan las fichas argentinas de esos SKU y no se trasladan prestaciones de otras K3 regionales.
+
+Para comparar la gama completa: [hidrolavadoras Kärcher](/hidrolavadoras/karcher/). También podés ver [Kärcher K2: cuándo subir al K3](/hidrolavadoras/karcher-k2/) y [Kärcher K4: cuándo subir al K5](/hidrolavadoras/karcher-k4/).
 
 Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/karcher-k2/).

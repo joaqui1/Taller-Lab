@@ -102,7 +102,6 @@ Estos modelos amplían la comparación más allá de dos máquinas. No forman un
 
 <!-- EDITORIAL-COMMERCE-SECONDARY -->
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 La publicación enlazada de Bosch se titula **GWS 10** y presenta campos comerciales de 18 V, 125 mm y 4.500–9.000 rpm, pero no muestra aquí el código completo para confirmar que sea **0 601 9G3 E0B / GWS 18V-10 PC**. No usamos esos campos para la tabla técnica; pedí foto de placa y manual del equipo ofrecido. El dato de “profundidad de corte de 1 m” del aviso no corresponde a una especificación que podamos atribuir a la amoladora.
 
 ## Costo de entrada: cuerpo + batería + cargador

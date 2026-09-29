@@ -107,7 +107,6 @@ Las fichas oficiales consultadas permiten ilustrar tres tamaños, pero no repres
 | GWS 25-230 [Ver precio en Mercado Libre](https://meli.la/24LpMmr){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Alcance de los datos:** cada fila corresponde al modelo nombrado en la ficha Bosch. La ficha del GWS 25-180 LVI R confirma 2.500 W, 8.500 rpm y disco de 180 mm; el peso no aparece en los datos consultados y no se estima por analogía. Las herramientas vendidas en distintos mercados pueden variar en tensión, código, interruptor y equipamiento.
 
 **Lectura de la comparación:** el diámetro, la velocidad en vacío y el peso declarado describen aspectos diferentes; no permiten predecir por sí solos la profundidad o el ritmo real de corte. Eso depende también del accesorio, la guarda, la geometría y el material. Bosch clasifica las angulares grandes para corte y desbaste de mayor exigencia y documenta funciones concretas en ciertos modelos; no se deben generalizar a toda la gama.

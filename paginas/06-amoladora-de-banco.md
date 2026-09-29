@@ -82,7 +82,6 @@ La velocidad máxima admitida por la muela debe ser igual o superior a la veloci
 | Makita GB801 | 205 × 19 × 15,88 mm | 2.850 rpm a 50 Hz; 3.450 rpm a 60 Hz |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Apoyo de pieza y protectores
 
 El apoyo sostiene la pieza cerca de la muela; el protector de chispas y la pantalla ocular ayudan a limitar la exposición. Usá la máquina con las protecciones instaladas, ajustá los apoyos según el manual y volvé a regularlos a medida que se desgaste la rueda. No sujetes la pieza en el aire ni la empujes contra un espacio grande entre apoyo y muela.

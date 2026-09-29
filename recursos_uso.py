@@ -167,6 +167,33 @@ USE_RESOURCES = {
          ["Estado y comprobación del filtro revisados", "Seguir el test y límites del fabricante; revisar micas, sensores y ausencia de daños."],
          ["Documentación de conformidad y lote disponible", "Las fichas reunidas no verifican certificados independientes de cada unidad."]],
         "Lista de documentación y revisión declaradas por el lector; no certifica protección ni vuelve utilizable un filtro dañado o de conmutación irregular."),
+    "/generadores/estacion-de-energia-portatil/": dict(
+        kind="station-runtime",
+        title="Estimá la autonomía con pérdidas y consumo propio",
+        lead="La precarga reproduce el ejemplo del manual BLUETTI AC70: 768 Wh, carga de 40 W, 90 % de descarga, 85 % de eficiencia y 15 W de consumo propio para una carga menor a 300 W. Cambiá cada dato según la ficha o una medición de tu estación y aparato.",
+        fields=[
+            dict(key="capacity", label="Capacidad nominal de batería", value=768, unit="Wh", minimum=1),
+            dict(key="load", label="Consumo promedio de la carga conectada", value=40, unit="W", minimum=1),
+            dict(key="depth", label="Fracción de batería utilizable (según manual o ajuste elegido)", value=90, unit="%", minimum=1, maximum=100),
+            dict(key="efficiency", label="Eficiencia de salida (0 = techo ideal sin pérdidas)", value=85, unit="%", minimum=0, maximum=100),
+            dict(key="idle", label="Consumo propio adicional de la estación, si está publicado", value=15, unit="W", minimum=0),
+        ],
+        note="Fórmula: Wh nominales × fracción utilizable × eficiencia ÷ (W de carga + consumo propio). El manual AC70 usa 90 % de descarga, eficiencia típicamente superior a 85 % y consumo propio aproximado de 15 W para cargas menores a 300 W. No copies esos factores a otra marca/modelo sin documentación; si no tenés eficiencia, ingresá 0 para ver solo el techo ideal.",
+    ),
+    "/generadores/diesel/": dict(
+        kind="diesel-cost",
+        title="Estimá el costo variable por hora de uso",
+        lead="El ejemplo precarga 1,46 L/h del Pramac S6500 al 75 % de carga y 200 h para el intervalo recurrente del motor Yanmar L100V. Reemplazá ambos con la condición y el manual aplicables a tu equipo; ingresá los precios actuales de tu zona.",
+        fields=[
+            dict(key="rate", label="Consumo de gasoil publicado o medido a la carga prevista", value=1.46, unit="L/h", minimum=0),
+            dict(key="fuelPrice", label="Precio local de gasoil", value=0, unit="$/L", minimum=0),
+            dict(key="oil", label="Aceite por servicio", value=0, unit="$", minimum=0),
+            dict(key="filters", label="Filtros por servicio", value=0, unit="$", minimum=0),
+            dict(key="labor", label="Mano de obra por servicio", value=0, unit="$", minimum=0),
+            dict(key="interval", label="Intervalo recurrente de mantenimiento del manual", value=200, unit="h", minimum=0),
+        ],
+        note="Costo/h = consumo (L/h) × precio del gasoil ($/L) + (aceite + filtros + mano de obra por servicio) ÷ intervalo de mantenimiento. El ejemplo de 200 h es el intervalo recurrente del manual Yanmar L100V; el primer cambio es a las 50 h. Usá el manual del grupo exacto, revisá intervalos por tiempo y condiciones severas, y compará consumos solo a carga equivalente. No incluye compra ni reparaciones.",
+    ),
     "/generadores/monofasicos/": matrix(
         "Tres comprobaciones antes de sumar la potencia",
         "Honda EG6500CXS, Gamma GE3481AR y LG7500EXT no ofrecen el mismo esquema de salida. La potencia total no determina por sí sola la alimentación de tu carga.",

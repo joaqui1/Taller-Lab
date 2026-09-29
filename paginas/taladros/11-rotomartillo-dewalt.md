@@ -2,7 +2,7 @@
 title: "Rotomartillo DeWalt: cuál elegir para tu trabajo"
 h1: "Cómo elegir un rotomartillo DeWalt"
 url: "/taladros/rotomartillo-dewalt/"
-description: "Ficha documental del DeWalt DCH273B con atribución precisa de SHOCKS y límites de mercado y kit."
+description: "Guía para elegir rotomartillo DeWalt por exigencia, encastre SDS Plus, alimentación y costo de herramienta o kit."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo dewalt", "dewalt d25133k", "rotomartillo dewalt 20v", "dewalt sds plus", "rotomartillo dewalt comprar"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "DCH273: especificaciones documentadas y alcance de SHOCKS"
+information_asset: "Comparación DeWalt SDS Plus con cable y batería según exigencia y kit"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,35 +21,41 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-| Campo | Dato publicado para DCH273B |
-| :--- | :--- |
-| Plataforma de etiqueta | 20 V MAX; DeWalt indica 18 V nominales |
-| Motor | Brushless, según fabricante |
-| Energía de impacto | 2,1 J |
-| Portaherramientas | SDS plus |
-| Modos | Taladrado, taladrado con percusión y cincelado |
-| Alimentación de la variante consultada | Herramienta sola; batería y cargador no incluidos |
+Las fichas oficiales de Estados Unidos y Europa permiten comparar dos rotomartillos SDS Plus a batería y una alternativa con cable. No confirman disponibilidad ni configuración en Argentina. Elegí primero por diámetro y frecuencia de perforación, necesidad de cincelar y acceso a red eléctrica; los joules y el máximo de hormigón son datos de catálogo, no una prueba común entre modelos.
 
-**Dato documentado:** las especificaciones corresponden al código DCH273B de la página estadounidense de DeWalt. No describen automáticamente el DCH273 vendido en otros mercados ni los modelos con cable D25133/D25263.
+## Modelos según exigencia
 
-**Declaración del fabricante:** DeWalt describe SHOCKS como un sistema de control activo de vibración que reduce la vibración percibida en la empuñadura frente a la herramienta sin esa función. Esta declaración no equivale a afirmar protección de articulaciones, ausencia de riesgo ni una medición realizada por TallerLab.
+| Modelo | Alimentación y encastre | Energía / capacidad publicada | Modos y perfil documentado |
+| :--- | :--- | :--- | :--- |
+| DCH273B | 20 V MAX (18 V nominales), SDS Plus, brushless | 2,1 J | Perforar, perforar con percusión y cincelar; DeWalt lo orienta a anclajes, bandejas y trabajos de instalación donde ayuda la movilidad. SHOCKS reduce la vibración percibida en las empuñaduras según el fabricante. |
+| DCH133B | 20 V MAX, SDS Plus, brushless | 2,6 J | Taladrar, taladrar con percusión y cincelar; escalón inalámbrico con más energía declarada que DCH273B. La variante B es herramienta sola. |
+| D25333K-QS | Cable 230 V, SDS Plus | 950 W; 3,5 J; perforación indicada en hormigón de 4–30 mm | Taladrar, perforar con percusión y cincelar ligero; incluye tope de profundidad, empuñadura lateral y caja TSTAK según ficha regional. |
 
-**Análisis TallerLab:** la ficha permite filtrar por SDS plus, tres modos y plataforma, pero no basta para concluir qué tan rápido perfora frente a otro modelo. La etiqueta 20 V MAX puede inducir a confusión: DeWalt explica que el valor nominal es 18 V. El sufijo B identifica la configuración de herramienta sola de la página consultada.
+El DCH273B prioriza movilidad y control de vibración declarado; el DCH133B publica más energía de impacto; el D25333K-QS suma alimentación continua y una capacidad máxima publicada mayor. El dato de 30 mm corresponde a la ficha europea QS y no debe trasladarse a otra variante regional D25333K sin verificar su manual. No concluimos que una cifra garantice mayor velocidad o vida útil: el resultado depende del diámetro, la broca, el material y el ritmo de trabajo.
 
-**Desconocido:** no verificamos autonomía, vibración medida en una prueba común, kit argentino, garantía local ni contenido de otras terminaciones. Para comparar con un rotomartillo con cable, considerá también batería y cargador si no los tenés.
+## Encastre y energía de impacto
 
-## Matriz de compra por dato comprobable
+Los tres modelos de la tabla usan SDS Plus. Elegí brocas o cinceles con ese encastre y verificá el diámetro permitido en el manual. El D25333K-QS se especifica para agujeros de anclaje de 4–30 mm en hormigón, y DCH133B/DCH273B se describen para perforación y cincelado SDS Plus; no interpretes el diámetro nominal del nombre comercial como rendimiento universal.
 
-| Pregunta | Dato de esta ficha | Comprobación pendiente en el aviso |
-| :--- | :--- | :--- |
-| ¿Qué accesorio recibe? | SDS plus | Confirmar encastre en la unidad ofrecida |
-| ¿Incluye energía? | 2,1 J declarados | No confundir energía con impactos/min |
-| ¿Qué incluye el código B? | Herramienta sola según ficha | Baterías, cargador, valija y región |
-| ¿Qué significa SHOCKS? | Declaración de reducción de vibración en empuñadura | No asumir resultado clínico o prueba de TallerLab |
+Los joules describen la energía de impacto declarada por ciclo. Sirven para situar modelos en una gama, pero también importan el rango de perforación y los modos. Para hormigón frecuente y agujeros pequeños/medianos SDS Plus puede cubrir la tarea. Si necesitás perforación repetida de gran diámetro, coronas grandes o cincelado intenso, buscá una clase SDS Max o un demoledor que esté especificado para ese trabajo.
+
+## Cable y batería
+
+Un rotomartillo con cable es práctico en un puesto fijo y en sesiones largas con una toma disponible: no tenés que programar recargas. El D25333K-QS consultado está especificado para 230 V; verificá que tensión y enchufe coincidan con tu instalación.
+
+Los DCH273B y DCH133B permiten desplazarte sin cable y usan el sistema 20 V MAX de DeWalt, que la marca expresa como 18 V nominales. La autonomía no se deduce solo de los joules: depende de capacidad de batería, broca, diámetro, concreto y pausas. Calculá también el peso del conjunto con batería, no solo el peso de herramienta si la ficha lo separa.
+
+SHOCKS queda como una característica adicional del DCH273B: DeWalt dice que reduce la vibración sentida en las empuñaduras frente a herramientas sin el sistema. No es una promesa de ausencia de riesgo ni una medición comparativa de este artículo; usá el manual, limitá la exposición y tomá descansos según la tarea.
+
+## Máquina sola o kit completo
+
+Los códigos DCH273B y DCH133B consultados son versiones de herramienta sola: no incluyen batería ni cargador. DeWalt publica también el DCH133M2, kit con dos baterías 20 V MAX, cargador, tope de profundidad, empuñadura y bolso; y el DCH273P2, con dos baterías de 5 Ah, cargador, caja y accesorios. En el D25333K-QS, la ficha incluye caja, tope y empuñadura lateral.
+
+Para comparar el costo de compra, sumá herramienta, batería y cargador si te faltan; para jornadas largas, considerá una segunda batería. Añadí brocas, cinceles y extracción de polvo si los necesitás y no están incluidos. Confirmá el sufijo completo y la región del modelo: los códigos, tensión y contenido de kit cambian entre mercados.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [DeWalt DCH273B, ficha oficial](https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-sds-plus-brushless-1-l-shape-rotary-hammer-tool-only); [manual DeWalt D25133, referencia separada para la línea con cable](https://www.dewalt.com/GLOBALBOM/QU/D25133K/1/Instruction_Manual/EN/N401624_D25133.pdf).
+- **Documentación primaria:** [DeWalt DCH273B, herramienta sola](https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-brushless-cordless-1-25mm-sds-plus-l-shape-rotary-hammer-tool-only); [DeWalt DCH133B, herramienta sola](https://www.dewalt.com/en-us/product/dch133b/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-tool-only); [DeWalt DCH133M2, kit](https://www.dewalt.com/en-us/product/dch133m2/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-kit); [DeWalt DCH273P2, kit](https://www.dewalt.com/en-us/product/dch273p2/20v-max-xr-1-brushless-sds-plus-l-shape-rotary-hammer-kit); [DeWalt D25333K-QS, con cable](https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j).
 - **Seguridad:** seguir el manual de la variante y las indicaciones de EPP.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

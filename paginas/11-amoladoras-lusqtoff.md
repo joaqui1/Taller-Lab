@@ -32,7 +32,6 @@ La diferencia entre máquina sola y kit cambia el costo real. Antes de comparar 
 | AML115-9BK [Ver precio en Mercado Libre](https://meli.la/2iXGb4r){:target="_blank" rel="sponsored noopener"} | Batería, 18 V | 115 mm; tres velocidades: 6.500/7.000/8.500 rpm | Kit con dos baterías de 4 Ah, cargador y accesorios |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 

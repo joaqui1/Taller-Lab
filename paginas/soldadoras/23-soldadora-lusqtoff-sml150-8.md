@@ -4,7 +4,7 @@ h1: "Soldadora Lusqtoff SML150-8: guía antes de comprar"
 url: "/soldadoras/lusqtoff-sml150-8/"
 description: "Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes."
 author: "Joaquín Vallasciani"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 research_type: "documental"
 physical_test: "no"
@@ -39,13 +39,26 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 ## Una inconsistencia que conviene conocer
 
-**Dato documentado.** La ficha web de la SML150-8 escribe “ciclo de trabajo al 100 % durante 10 min.: 70 V”. El manual expresa ese dato como **70 A**. La unidad “V” de la ficha es inconsistente con la corriente a la que se informa un ciclo de trabajo. Para dimensionar tareas, consultá el manual y confirmá la placa de la unidad concreta; no conviertas ese renglón de la web en una prestación medida.
+> **DATO A VERIFICAR — SML150-8:** La ficha web publica “ciclo de trabajo al 100 % durante 10 min.: **70 V**”; el manual expresa **70 A**. La V/A es una inconsistencia de unidad entre dos documentos del fabricante. No uses el renglón web como una salida confirmada: cotejá el manual y la placa de la unidad, y pedí al vendedor/fabricante que confirme el dato aplicable al código ofrecido.
+
+**Análisis TallerLab.** La diferencia de unidad importa al comparar una soldadora: un voltaje de carga y una corriente de salida son magnitudes distintas. La ficha web no permite corregir por cuenta propia “V” a “A”; el manual aporta un dato distinto, pero la placa y la confirmación para la unidad concreta siguen siendo la verificación de compra.
+
+### Checklist antes de comprar
+
+- **Código de placa:** confirmá el modelo/código completo de la máquina y que coincida con la publicación y factura; “SML150” sin sufijo no identifica la misma configuración.
+- **Versión D o no D:** SML150-8 declara FLUX; SML150-8D agrega MMA. Si necesitás electrodo, verificá la “D” en la placa y el manual, no sólo en el título de venta.
+- **Proceso y ciclo:** cotejá corriente/rango y el ciclo del modo que vas a usar. Para SML150-8, pedí confirmación escrita del dato publicado como 70 V y reportado como 70 A por el manual.
+- **Accesorios del paquete:** compará la lista de la oferta con la ficha del código: máscara, escuadras, rollo, pinza de masa, portaelectrodo y torcha Flux. No supongas que cada publicación trae todos los elementos.
+- **Alambre:** verificá que el manual de la versión admita el tipo y diámetro del alambre Flux que vas a usar, y que el rollo incluido coincida con lo ofrecido. No des por compatible alambre macizo con gas.
+- **Alimentación:** revisá tensión y frecuencia de la placa frente a la instalación disponible; las fichas consultadas listan 220 V, pero la frecuencia publicada varía entre 8 y 8D.
+- **Estado comercial:** Lüsqtoff marca SML150-8 como discontinuada. La ficha consultada de SML150-8D no la marca así, lo que no garantiza stock del vendedor. Si la 8 se ofrece, preguntá si es remanente, usada o reparada.
+- **Garantía y posventa:** pedí por escrito vigencia, cobertura, quién la otorga y servicio técnico disponible para esa unidad y código. No asumas que una garantía de la ficha histórica sigue vigente.
 
 **Desconocido.** No verificamos compatibilidad con alambre macizo y gas, espesor máximo soldable, vida útil ni opiniones de compradores. Tampoco inferimos que el kit de una publicación actual coincida con el contenido de la ficha histórica de un modelo discontinuado. Antes de pagar, pedí fotos de placa, conexiones, accesorios y garantía.
 
-Para comparar procesos y otras máquinas, volvé al [hub de soldadoras](/soldadoras/).
+Para comparar esta variante con SML120-8D y SML130-7, volvé a la [comparativa de la familia Flux Lüsqtoff](/soldadoras/mig-lusqtoff/). Para criterios generales de proceso y compatibilidad, consultá la [guía de MIG sin gas](/soldadoras/mig-sin-gas/).
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [ficha Lüsqtoff SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), [manual SML150-8](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf) y [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D).
+- **Documentación primaria:** [ficha Lüsqtoff SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8), [manual SML150-8](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf), [ficha SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D) y [manual SML150-8D](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf).
 - **Información comercial y opiniones:** no usadas para establecer rendimiento, disponibilidad o satisfacción de compradores.

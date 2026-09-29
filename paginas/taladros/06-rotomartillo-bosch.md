@@ -2,7 +2,7 @@
 title: "Rotomartillo Bosch: modelos y cuál conviene comprar"
 h1: "Qué rotomartillo Bosch elegir"
 url: "/taladros/rotomartillo-bosch/"
-description: "Comparación documental de rotomartillos Bosch GBH 220, GBH 2-26 DRE y GBH 18V-26 D."
+description: "Guía documental para elegir un rotomartillo Bosch SDS Plus o SDS Max según diámetro, alimentación y tipo de trabajo."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo bosch", "bosch gbh 2-26 dre", "rotomartillo bosch profesional", "bosch sds plus", "rotomartillo bosch bateria"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "GBH 220, GBH 2-26 DRE y GBH 18V-26 D: comparar datos de modelos identificados"
+information_asset: "Comparación de rotomartillos Bosch SDS Plus y SDS Max según trabajo documentado"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,31 +21,38 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-| Modelo | Alimentación | Energía declarada | Capacidad máxima en hormigón | Peso publicado | Encastre |
-| :--- | :--- | ---: | ---: | ---: | :--- |
-| GBH 220 | Cable, 720 W | 2,0 J | 22 mm | 2,3 kg | SDS plus |
-| GBH 2-26 DRE | Cable, 800 W | 2,7 J | 26 mm | 2,9 kg | SDS plus |
-| GBH 18V-26 D | Batería 18 V | 2,5 J | 26 mm | 2,6 kg sin batería | SDS plus |
+La elección depende primero del diámetro y la frecuencia de perforación, y después de si necesitás cincelar o trabajar lejos de una toma. Los modelos SDS Plus cubren los agujeros pequeños y medianos habituales; para diámetros mayores y trabajo más exigente, Bosch ofrece SDS Max.
 
-**Dato documentado:** la tabla combina fichas Bosch de regiones distintas; el GBH 2-26 DRE consultado no es una confirmación de configuración argentina. En el GBH 18V-26 D, el peso explícitamente excluye la batería, por lo que no es directamente equivalente a los pesos de herramientas con cable.
+## Comparativa de modelos por trabajo
 
-**Análisis TallerLab:** frente al GBH 220, el GBH 2-26 DRE declara 0,7 J y 4 mm más de capacidad máxima; también publica 0,6 kg más de peso. El modelo 18V-26 D declara 0,5 J más y 4 mm más que el GBH 220, pero su peso sin batería impide una comparación de masa del conjunto listo para trabajar. Son diferencias de catálogo, no pruebas de perforación.
+| Modelo | Alimentación y encastre | Datos publicados por Bosch | Uso típico compatible con los datos |
+| :--- | :--- | :--- | :--- |
+| GBH 220 | Cable, SDS Plus | 720 W; 2,0 J; hasta 22 mm en hormigón; 2,3 kg | Agujeros ocasionales pequeños o medianos en hormigón y mampostería. |
+| GBH 2-26 DRE | Cable, SDS Plus | 800 W; 2,7 J; rango óptimo 8–16 mm y máximo 26 mm en hormigón; 2,9 kg | Perforación repetitiva de diámetros habituales dentro del rango óptimo; admite hasta 26 mm según la ficha. |
+| GBH 18V-26 D | Batería 18 V, SDS Plus | 2,5 J; máximo 26 mm en hormigón; 2,6 kg sin batería | Trabajo a batería cuando la movilidad o la falta de red eléctrica pesa más que el peso y la autonomía del conjunto. |
+| GBH 8-45 DV | Cable, SDS Max | 1500 W; 12,5 J; rango óptimo 20–40 mm y máximo 45 mm en hormigón; 8,9 kg | Perforaciones grandes y repetitivas y cincelado de mayor exigencia que los modelos SDS Plus; Bosch lo describe para cincelado medio. |
 
-**Declaración del fabricante:** Bosch identifica SDS plus en los tres modelos. El GBH 18V-26 D publica 0–4350 impactos/min y 0–980 rpm; la versión “D” y la versión “F” tienen configuraciones distintas, y no trasladamos a este modelo los datos del mandril intercambiable de la versión F.
+Los usos de la última columna orientan a partir de los límites publicados; no son resultados de una prueba comparativa. El diámetro máximo no significa que sea conveniente trabajar continuamente a ese diámetro. Para cincelado pesado y continuo o demolición, compará un martillo demoledor dedicado: Bosch describe el GBH 8-45 DV para cincelado medio.
 
-**Desconocido:** no confirmamos que todos los códigos estén disponibles actualmente en Argentina, qué batería/cargador incluye cada publicación ni garantía local. Confirmá el número de pedido completo y el contenido del kit.
+## SDS Plus o SDS Max
 
-## Lectura de la tabla
+SDS Plus tiene sentido para tareas generales, agujeros pequeños y medianos, y herramientas más compactas. El GBH 220 llega a 22 mm y el GBH 2-26 DRE publica un rango óptimo de 8–16 mm con máximo de 26 mm. Para perforaciones repetidas de mayor diámetro, coronas o cincelado más exigente, SDS Max abre una categoría de herramienta mayor: el GBH 8-45 DV pesa 8,9 kg y su rango óptimo documentado es 20–40 mm.
 
-| Prioridad de compra | Campo relevante | Qué queda por verificar |
-| :--- | :--- | :--- |
-| Menor peso con cable | Peso y alcance de cable | No hay comparación de peso con el cable incluido expresamente |
-| Trabajo sin cable | Peso sin batería y plataforma | Peso de batería y cargador compatibles |
-| Diámetro máximo publicado | Capacidad en hormigón | El máximo no representa ritmo de uso continuo |
+Los encastres SDS Plus y SDS Max requieren accesorios de su interfaz correspondiente; no supongas que una broca o un cincel sirve en ambos. Elegí también por diámetro de accesorio, material, duración de la tarea y posibilidad de controlar la herramienta con seguridad. Los joules ayudan a ubicar la clase, pero no describen por sí solos el avance real ni sustituyen el diámetro y el ciclo de trabajo.
+
+## Cable o batería
+
+Un modelo con cable evita planificar recargas y suele convenir para una estación fija o trabajo sostenido con toma disponible. El GBH 18V-26 D permite moverse sin red, pero sus 2,6 kg publicados excluyen la batería: calculá el peso listo para usar, la autonomía con el tipo de broca y hormigón previstos, y el costo de batería y cargador si el kit no los incluye. No compares directamente esos 2,6 kg con el peso de una herramienta con cable.
+
+## Variantes regionales y contenido del kit
+
+La comparación anterior citaba una ficha boliviana del GBH 2-26 DRE, código 0 611 253 7E0. Bosch Argentina publica el GBH 2-26 DRE con código 0 611 253 7H0 y especificaciones locales de 800 W, 2,7 J, máximo 26 mm en hormigón y 2,9 kg. La ficha argentina complementa la referencia regional; antes de comprar, verificá el código completo de pedido, la configuración y la garantía del vendedor.
+
+Para el modelo a batería, comprobá si el precio corresponde a herramienta sola o incluye batería, cargador y maletín, y cuántas baterías trae. El nombre comercial puede cubrir kits distintos.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GBH 220 Argentina](https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0); [Bosch GBH 2-26 DRE](https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0); [Bosch GBH 18V-26 D Argentina](https://www.bosch-professional.com/ar/es/products/gbh-18v-26-d-0611916001).
+- **Documentación primaria:** [Bosch GBH 220 Argentina](https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0); [Bosch GBH 2-26 DRE Argentina](https://www.bosch-professional.com/ar/es/products/gbh-2-26-dre-06112537H0); [Bosch GBH 2-26 DRE Bolivia](https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0); [Bosch GBH 18V-26 D Argentina](https://www.bosch-professional.com/ar/es/products/gbh-18v-26-d-0611916001); [Bosch GBH 8-45 DV Argentina, SDS Max](https://www.bosch-professional.com/ar/es/products/gbh-8-45-dv-06112650H0).
 - **Seguridad:** consultar manual y límites del accesorio del modelo exacto.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

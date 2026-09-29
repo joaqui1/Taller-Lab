@@ -2,7 +2,7 @@
 title: "Hidrolavadoras Lusqtoff: modelos y cuál elegir"
 h1: "Qué hidrolavadora Lusqtoff elegir según el uso"
 url: "/hidrolavadoras/lusqtoff/"
-description: "Compará HL-120, HL100-8, HL110-9 y HL130-9 con la ficha propia de HL100-7. Diferenciá códigos, presión y condición de caudal antes de consultar su oferta."
+description: "Elegí una hidrolavadora Lüsqtoff por tarea: compara HL-120, HL100-8, HL110-9 y HL130-9 por presión de trabajo, caudal, peso, alimentación y accesorios documentados."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora lusqtoff", "hidrolavadora lusqtoff hl 120", "hidrolavadora lusqtoff hl 150", "lusqtoff hidrolavadora repuestos", "hidrolavadora lusqtoff opiniones"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Compara cuatro códigos Lüsqtoff de catálogo por potencia, presión de trabajo y admisible, caudal de trabajo/máximo y peso; deja los modelos a nafta fuera cuando la fuente primaria no resuelve sus datos."
+information_asset: "Selector por uso de cuatro hidrolavadoras Lüsqtoff eléctricas, con comparación de presión de trabajo, caudal, peso, alimentación, mangueras, accesorios y condiciones documentadas de posventa."
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true
@@ -21,57 +21,64 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Guía documental, sin prueba física.** El selector se basa en tareas recomendadas por Lüsqtoff y en datos de catálogo/manual. Para decidir, mirá primero presión de trabajo, caudal y peso; los valores máximos no sustituyen esos datos.
 
-## Cómo investigamos esta guía
+## Comparativa de la gama Lüsqtoff
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
+| Modelo | Qué tarea recomienda el fabricante | Presión de trabajo / máxima permitida | Caudal de trabajo / máximo | Potencia y alimentación | Peso |
+| :--- | :--- | ---: | ---: | :--- | ---: |
+| HL-120 | Bicicletas, motos, autos pequeños, hogar y jardín | 70 / 105 bar | 5,5 / 6,8 L/min | 1.200 W; 220 V ~ 50 Hz | 5,2 kg |
+| HL100-8 | Bicicletas, motos, autos y utilitarios, cercos, hogar/jardín y herramientas de jardín | 100 / 150 bar | 6 / 7,5 L/min | 2.000 W; 220 V ~ 50 Hz | 10,5 kg |
+| HL110-9 | Bicicletas, motos, autos, cercos, hogar/jardín, losas, paredes, puertas y portones | 110 / 165 bar | 6 / 7,5 L/min | 2.100 W; 220 V ~ 50 Hz | 21 kg |
+| HL130-9 | Las tareas anteriores, más máquinas de jardín, industria, camiones, tractores y chasis | 150 / 225 bar | 7,5 / 9 L/min | 3.200 W; 220 V ~ 50 Hz | 25 kg |
 
-| Modelo/código | Potencia | Presión de trabajo | Presión máxima permitida | Caudal trabajo / máximo | Peso publicado |
-| :--- | ---: | ---: | ---: | ---: | ---: |
-| HL-120 | 1.200 W | 70 bar | 105 bar | 5,5 / 6,8 L/min | 5,2 kg |
-| HL100-8 | 2.000 W | 100 bar | 150 bar | 6 / 7,5 L/min | 10,5 kg |
-| HL110-9 | 2.100 W | 110 bar | 165 bar | 6 / 7,5 L/min | 21 kg |
-| HL130-9 | 3.200 W | 150 bar | 225 bar | 7,5 / 9 L/min | 25 kg |
+**Cómo elegir:** HL-120 es la opción más liviana para los usos domésticos que lista el fabricante. HL100-8 mantiene la categoría doméstica con mayores valores de trabajo y pesa más. HL110-9 añade losas y paredes en la lista de usos, con caudal de trabajo igual al HL100-8 y el doble de peso. HL130-9 sube a 150 bar y 7,5 L/min de trabajo y la marca lo destina además a tareas de industria y vehículos pesados; pesa 25 kg.
 
-**Dato documentado:** el catálogo Lüsqtoff 2023–2024 publica las especificaciones anteriores y separa presión de trabajo de la máxima permitida. Para HL-120, HL100-8, HL110-9 y HL130-9, la presión máxima permitida es mayor que la de trabajo; no se las toma como una sola cifra. Las medidas se asocian a los códigos del catálogo revisado.
+La alimentación publicada para los cuatro códigos es 220 V ~ 50 Hz. El salto entre modelos cambia sobre todo potencia, presión/caudal de trabajo, peso y tareas recomendadas; no convierte el dato de presión máxima permitida en presión de trabajo.
 
-**Análisis TallerLab:** de HL-120 a HL130-9, los datos publicados avanzan de 70 a 150 bar de trabajo y de 5,5 a 7,5 L/min de caudal de trabajo, mientras cambian potencia de 1.200 a 3.200 W y peso de 5,2 a 25 kg. Esa comparación no demuestra que toda la familia tenga bombas, ciclos o repuestos compatibles; tampoco equipara herramientas de distinto peso y uso.
+| Modelo | Manguera y accesorios documentados |
+| :--- | :--- |
+| HL-120 | El manual incluye lanza, manguera de alta presión y conector rápido de entrada. El catálogo oficial de accesorios identifica una manguera de repuesto compatible de 3 m y una lanza completa compatible. |
+| HL100-8 | La ficha técnica consultada no precisa largo de manguera ni contenido completo de caja. Confirmá que el kit ofrecido incluya manguera, pistola/lanza y boquillas para el código HL100-8. |
+| HL110-9 | El catálogo técnico enumera varios usos y el catálogo oficial de accesorios identifica una manguera de repuesto compatible, código RHL11092R16. La longitud del accesorio no aparece en la ficha oficial consultada. |
+| HL130-9 | El catálogo 2024–2025 declara manguera de alta presión de 8 m, lanza y pistola, set de boquillas y dos ruedas. El catálogo oficial de accesorios también lista manguera y lanza compatibles con HL130-9. |
 
-**Desconocido:** no se verificaron precios actuales, disponibilidad de la gama completa, garantía por vendedor ni especificaciones de equipos a nafta. Para esos modelos se necesita la placa/manual del código exacto; no se rellena la tabla con datos de otra marca.
+## Diferencias entre HL 120 y HL 150
 
-## HL100-7: la referencia enlazada tiene ficha propia
+HL-150 es otro código de la línea, no el HL130-9. En el catálogo Lüsqtoff 2024–2025, HL-150 figura con 1.500 W, 90 bar de trabajo, 7,5 L/min de trabajo y 8 kg; incluye manguera de alta presión, ruedas y botella de detergente. Por contraste, HL-120 publica 70 bar, 5,5 L/min y 5,2 kg. HL-150 puede interesarte si buscás ese punto intermedio de caudal/peso y confirmás que la oferta corresponde exactamente al código; «150» no significa 150 bar de trabajo.
 
-| Campo | HL100-7: ficha oficial | Qué comprobar en la oferta |
-| :--- | :--- | :--- |
-| Potencia y red | 1.200 W; 220 V–50 Hz | Código HL100-7 y placa de la unidad |
-| Presión nominal / máxima | 70 / 100 bar | No confundir el máximo con presión de servicio |
-| Tasa de flujo | 5,5 L/min | La ficha no precisa si es nominal o máxima |
-| Cable | 5 m | Manguera y accesorios del kit entregado |
+No confundir HL-150 con HL130-9: este último declara 150 bar de trabajo, 225 bar máximos permitidos y 25 kg. Para una oferta, verificá la placa del equipo y no decidas sólo por el número del nombre.
 
-**Dato documentado:** la [ficha oficial HL100-7](https://www.lusqtoff.com.ar/ver-producto/HL100-7) identifica ese código y los campos anteriores. Es distinta de HL100-8: en la comparación de catálogo, el -8 publica 2.000 W y 100 bar de trabajo. No trasladamos bomba, accesorios, repuestos ni datos de una variante a otra.
+## Repuestos, accesorios y garantía
 
-**Análisis TallerLab:** HL100-7 puede entrar en la comparación de eléctricas de menor potencia, pero no se declara equivalente al -8 por compartir «HL100». El ejemplo de consumo de agua de esta guía usa HL-120, cuyo caudal está publicado como de trabajo; no lo renombramos como si perteneciera al -7.
+Lüsqtoff informa que repuestos y accesorios se adquieren en puntos de venta o a través de su red de servicios técnicos oficiales. También publica accesorios compatibles identificados por código: manguera y lanza para HL-120; manguera RHL11092R16 para HL110-9; manguera RHL13092R19 y lanza RHL13092R18 para HL130-9. En las fuentes revisadas no encontré una pieza marcada explícitamente compatible con HL100-8; consultá al servicio técnico con el modelo y número de serie antes de comprar una manguera o lanza.
 
+La política oficial de posventa establece garantía de **6 meses o 2 años, según el producto**, por defectos de fabricación verificados por servicio técnico. No asigna en esa página un plazo a cada modelo de esta tabla. Confirmá el plazo aplicable al código exacto en la factura o certificado, además de stock y compatibilidad de los repuestos.
 
-[Ver precio de la HL100-7 en Mercado Libre](https://meli.la/1cZXqxL){:target="_blank" rel="sponsored noopener"}.
+## Cuándo elegir otra marca
 
+Compará otras marcas si necesitás un peso distinto, otro caudal de trabajo, accesorios específicos o una garantía cuyo plazo esté identificado para el código vendido. Poné lado a lado presión de trabajo, caudal de trabajo, peso, alimentación, largo de manguera y contenido del kit; descartá listados que sólo repitan una cifra máxima sin identificar modelo y variante.
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-En la publicación, comprobá modelo, contenido, precio, stock y garantía. **Desconocido:** no hay prueba de limpieza común entre estos modelos ni condición de caudal suficiente para ordenar su rendimiento.
+## Precios y opciones en Mercado Libre
+
+Los avisos de Mercado Libre cambian por vendedor, stock y kit, así que abrí la búsqueda del código y comprobá la placa, la presión de trabajo, la potencia y el contenido antes de comparar:
+
+- [Buscar Lüsqtoff HL-120](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl-120).
+- [Buscar Lüsqtoff HL100-8](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl100-8).
+- [Buscar Lüsqtoff HL110-9](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl110-9).
+- [Buscar Lüsqtoff HL130-9](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl130-9).
+
+En una publicación consultada, el nombre HL130-9 aparecía junto a 2.500 W y 130 bar, mientras el catálogo de fabricante para HL130-9 especifica 3.200 W, 150 bar de trabajo y 225 bar máximos permitidos. No tomes esos avisos como comparación de precio del mismo modelo hasta verificar variante, placa y ficha de la unidad.
+
+HL100-7 queda fuera de este selector: es otro modelo, con ficha propia, y su enlace comercial no determina qué equipos se incluyen en la guía.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [catálogo oficial Lüsqtoff 2023–2024, fichas de hidrolavadoras](https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf); [manual Lüsqtoff HL110-9](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL110-9/MANUAL/Manual%20HL110-9_compressed.pdf); [manual Lüsqtoff HL100-8](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- [Lüsqtoff HL-120, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/HL-120) y [manual HL-120](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf).
+- [Catálogo Lüsqtoff 2024–2025](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf) — códigos HL-150, HL100-8, HL110-9 y HL130-9, características y usos recomendados.
+- [Catálogo oficial de accesorios 2024](https://lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf); [lanza compatible HL-120](https://lusqtoff.com.ar/productos/RHL120BR34); [manguera compatible HL-120](https://lusqtoff.com.ar/productos/RHL120BR35); [manguera compatible HL130-9](https://lusqtoff.com.ar/productos/RHL13092R19); [lanza compatible HL130-9](https://lusqtoff.com.ar/productos/RHL13092R18).
+- [Manguera RHL11092R16, compatible con HL110-9](https://lusqtoff.com.ar/productos/RHL11092R16).
+- [Política oficial de posventa, repuestos y garantía](https://lusqtoff.com.ar/posventa); [servicios y puntos de venta](https://www.lusqtoff.com.ar/catalogos).
+- [Publicación consultada HL130-9 en Mercado Libre](https://www.mercadolibre.com.ar/hidrolavadora-alta-presion-lusqtoff-2500w-130-bar-hl130-9-color-naranja/p/MLA20542666).
 
-Para seguir comparando: [Niwa: presión y caudal por código](/hidrolavadoras/niwa/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/karcher/).
+Para conocer el criterio editorial: [metodología de TallerLab](/como-trabajamos/). Para comparar otras marcas y usos, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

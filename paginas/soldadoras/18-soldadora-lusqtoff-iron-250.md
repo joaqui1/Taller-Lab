@@ -2,7 +2,7 @@
 title: "Lusqtoff Iron 250: características y guía de compra"
 h1: "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar"
 url: "/soldadoras/lusqtoff-iron-250/"
-description: "Examina la discrepancia entre el nombre MEGAIRON250/IRON-250 y la salida declarada de 180 A, además de los dos puntos de ciclo a 40 °C y contenido del kit fabricante."
+description: "Guía de compra de la MEGAIRON250/IRON-250: por qué su nombre no significa 250 A, qué publican su rango y ciclo, qué electrodos declara y qué exige revisar en la instalación."
 author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora lusqtoff iron 250", "lusqtoff iron 250 opiniones", "iron 250 ficha tecnica", "lusqtoff iron 250 amperaje real", "soldadora inverter lusqtoff"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Examina la discrepancia entre el nombre MEGAIRON250/IRON-250 y la salida declarada de 180 A, además de los dos puntos de ciclo a 40 °C y contenido del kit fabricante."
+information_asset: "Guía breve de MEGAIRON250/IRON-250 que distingue nombre comercial, salida máxima, ciclo, electrodos, instalación y contenido del kit frente a alternativas documentadas."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al código indicado. Esta guía es documental, sin prueba física ni muestra de opiniones; el número del nombre comercial no se toma como medición de salida.
 
 ## Cómo investigamos esta guía
 
@@ -30,30 +30,51 @@ published: true
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Última revisión: 28/09/2026
 
-| Dato del kit Lüsqtoff MEGAIRON250 | Declaración del fabricante |
+## Versión y especificaciones verificadas
+
+La referencia consultada es el **kit Lüsqtoff MEGAIRON250**, que incluye la fuente identificada como **IRON-250**. Su ficha argentina publica un rango de salida de **20–180 A**, no 250 A. El “250” del nombre comercial no acredita una salida máxima de 250 A: compará el dato de salida de la ficha y la placa del equipo.
+
+| Dato MEGAIRON250 / IRON-250 | Declaración publicada por Lüsqtoff |
 | :--- | :--- |
-| Equipo incluido | Soldadora identificada como IRON-250 dentro de kit MEGAIRON250 |
-| Tensión/frecuencia | 220 V ±15%; 50 Hz; monofásica |
-| Rango de salida publicado | 20–180 A |
-| Ciclo a 40 °C | 180 A / 27,2 V al 40%; 114 A / 24,2 V al 100% |
-| Entrada nominal | 6,5 kW; corriente de entrada 30 A |
-| Masa publicada | 5 kg |
-| Accesorios del kit | Máscara ST-1X y dos escuadras magnéticas LQE-6001 |
+| Identidad | Kit MEGAIRON250; máquina incluida identificada como IRON-250 |
+| Proceso / red | MMA; 220 V monofásica ±15 %, 50 Hz |
+| Rango de salida | 20–180 A |
+| Ciclo de trabajo indicado a 40 °C | 180 A / 27,2 V al 40 %; 114 A / 24,2 V al 100 % |
+| Entrada nominal | 30 A; 6,5 kW |
+| Masa de la fuente | 5 kg |
+| Funciones publicadas | Anti-stick; refrigeración forzada |
 
-**Dato documentado:** aunque el nombre comercial incluye «250», la ficha de MEGAIRON250 identifica la máquina como IRON-250 y declara rango de salida hasta 180 A. La misma ficha publica los dos puntos de ciclo de trabajo en la tabla. Presentamos lo que dice esa página, no una medición independiente.
+## Ciclo de trabajo y electrodos compatibles
 
-**Análisis TallerLab:** para comparar equipos, la salida máxima de ficha y el ciclo de trabajo describen aspectos distintos. En este caso, el fabricante publica 180 A al 40% y 114 A al 100%; el número «250» del nombre no debe leerse como corriente de salida verificada. Los 6,5 kW y 30 A de entrada también requieren verificar el circuito según la placa y normativa local.
+La ficha asocia **180 A con un ciclo del 40 %**, y publica **114 A al 100 %**. Por eso “250” no debe usarse como corriente máxima y “180 A” tampoco como salida continua. Para dimensionar el trabajo, mirá corriente **y** ciclo en el punto de operación.
 
-**Desconocido:** no se confirmó si el vendedor entrega exactamente la máscara, escuadras y configuración de la ficha, ni precio vigente, garantía aplicable, longitud/sección de cables o desempeño con un electrodo y unión particulares. Confirmar código y manual con el vendedor.
+Lüsqtoff describe la fuente como “especial para electrodos de 3,25 mm en continuo” y declara que “trabaja hasta electrodos de 5 mm”. Tomalo como declaración del fabricante, no como garantía de que cualquier electrodo de esos diámetros pueda usarse continuamente: la ficha consultada no asocia cada diámetro con un amperaje/ciclo. Cotejá el rango recomendado en la ficha del electrodo con los puntos publicados de la máquina; el diámetro por sí solo no determina consumo ni resultado.
+
+## Ventajas y limitaciones según ficha
+
+- **A favor:** fuente liviana de 5 kg, alimentación monofásica de 220 V, función anti-stick y dato de salida continua publicado (114 A/100 %). El fabricante destaca el electrodo de 3,25 mm para uso continuo.
+- **Límite de salida:** rango máximo publicado de 180 A, aunque el kit se llama MEGAIRON250.
+- **Uso con electrodos mayores:** se anuncia trabajo hasta 5 mm, pero el punto más alto publicado es 180 A al 40 %; no lo leas como capacidad de sostener ese amperaje todo el tiempo ni como confirmación de compatibilidad de todos los consumibles de 5 mm.
+- **Instalación:** los 30 A y 6,5 kW son valores nominales de entrada que hay que comprobar con la placa/manual y la instalación disponible. Antes de conectarla, hacé verificar por un electricista la capacidad del circuito, conductores, toma y protección requeridos; no deduzcas que cualquier toma domiciliaria soporta la demanda por ser de 220 V.
+
+## Accesorios, alternativas y qué comparar
+
+La oferta oficial consultada lista **una máscara ST-1X, la soldadora IRON-250 y dos escuadras magnéticas LQE-6001**. Esa lista no menciona cables ni pinzas de soldadura; pedí al vendedor el contenido exacto del paquete y confirmá que la unidad y el código de la placa coincidan con la ficha.
+
+| Alternativa documentada | Dato de trabajo publicado | Cuándo compararla con la Iron 250 |
+| :--- | :--- | :--- |
+| [Lüsqtoff MEGAIRON100-8](/soldadoras/lusqtoff-iron-100/) | 105 A al 30 %; entrada declarada 18,4 A/4,2 kW. La guía distingue este kit del IRON-100 histórico. | Si alcanza el rango/ciclo de tus electrodos y querés contrastar una fuente de menor salida y menor entrada nominal. No atribuyas a este kit los datos del IRON-100 antiguo. |
+| [Dogo Dogostar 180 Moderna, DOG50045](/soldadoras/soldadora-dogo-180/) | 20–180 A; ciclo listado por diámetro: 3,2 mm 80 %, 4 mm 60 %, 5 mm 30 %. La ficha enumera tipos de electrodo hasta 4 mm pese a ese dato para 5 mm. | Si estás cotejando equipos con 180 A máximos: revisá los ciclos por diámetro y la discrepancia publicada para 5 mm. |
+| [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) | 20–160 A; 160 A/20 %, 92 A/60 %, 72 A/100 %. | Si importa portabilidad y querés comparar los puntos de ciclo de una fuente de menor amperaje máximo; no equipares los máximos como salida continua. |
+
+Los ciclos se publican en puntos diferentes y no todos vienen expresados de la misma forma. Para decidir, compará los amperajes y ciclos del electrodo que efectivamente usás, red/circuito disponible, accesorios incluidos, cables, garantía escrita y servicio/repuestos. No hay una prueba física ni una comparación de soldadura entre estas máquinas.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Lüsqtoff MEGAIRON250, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250); [catálogo Lüsqtoff 2023/24](https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [sitio oficial de soldadoras inverter Lüsqtoff](https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter).
+- **Documentación primaria:** [Lüsqtoff MEGAIRON250, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250); [Lüsqtoff MEGAIRON100-8](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8); [Dogo Dogostar 180 Moderna, código DOG50045](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma); [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [kit MEGAIRON100-8: ciclo y contenidos declarados](/soldadoras/lusqtoff-iron-100/).
 
 Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 

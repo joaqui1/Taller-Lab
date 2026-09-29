@@ -34,7 +34,6 @@ Como filtro rápido, empezá por la medida y alimentación que requiere tu traba
 | Prioridad a la movilidad sin cable | DCG45M, en combo DCK2225MP2T-AR | No indicado en la ficha del combo; confirmar el manual | Batería 20V XR; el combo citado incluye dos baterías de 5 Ah y cargador | DeWalt Argentina documenta el contenido del kit; falta confirmar el diámetro para compararla por medida |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Modelos DeWalt que estamos comparando
 
 | Variante regional documentada | Disco indicado | Alimentación / tensión | Potencia publicada | Velocidad en vacío publicada |

@@ -29,7 +29,6 @@ published: true
 | 9993224.2 / AA125SPL [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target="_blank" rel="sponsored noopener"} | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | M14 (5/8–11) |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
 
 **Aclaración de montaje:** “M14 (5/8–11)” no es una equivalencia técnica. M14 designa una rosca métrica; 5/8–11 UNC pertenece al sistema unificado en pulgadas. Son estándares distintos y no se debe asumir que una pieza roscada de uno sirve en el otro. La ficha oficial actual de cada modelo y el catálogo oficial 2025 repiten la notación doble, pero no encontramos un manual de usuario que identifique por separado la rosca física de cada código. Por eso queda sin resolver qué rosca equipa cada unidad; no compres plato de respaldo, cepillo u otro accesorio roscado hasta comprobar el manual específico o la rosca de la máquina.

@@ -32,13 +32,30 @@ published: true
 - Fuentes primarias: sí
 - Última revisión: 27/09/2026
 
-| Proceso | Consumible/documento de referencia | Gas de protección | Dato que cambia la elección |
-| :--- | :--- | :--- | :--- |
-| MMA/SMAW | Electrodo revestido, p. ej. E6013 o E7018 del fabricante exacto | No requiere gas externo | Tipo de metal base, clasificación completa, diámetro, corriente y posición |
-| MIG/MAG/GMAW con alambre macizo | ER70S-6; ESAB publica gases C1 y M21 para su producto | Sí; gas especificado por alambre/procedimiento | Composición/gas, diámetro, alimentación y rango de la fuente |
-| Alambre tubular autoprotegido (FCAW-S) | Ejemplos de fabricante: E71T-GS y E71T-11 | El producto indicado se clasifica como autoprotegido; sin gas externo | Clasificación completa, diámetro, polaridad y límite de aplicación del fabricante |
-| TIG/GTAW | Varilla de aporte si corresponde y antorcha TIG | Gas externo según consumible/procedimiento | Corriente AC/DC, material y control térmico |
-| Soldadura por resistencia/punto | Electrodos de cobre de la máquina | No usa alambre/electrodo consumible revestido | Espesor, geometría, presión/corriente/tiempo que especifique el equipo |
+## Qué proceso elegir según el trabajo
+
+La elección es una primera orientación: el material, la unión y las especificaciones del equipo pueden cambiarla. En particular, “sin gas” no significa que cualquier alambre tubular sirva para cualquier máquina, y una soldadora inverter describe la electrónica de la fuente, no un proceso único.
+
+| Trabajo | Proceso a considerar | Gas/consumible | Principal ventaja | Principal limitación | Alimentación a comprobar | Guía interna |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Reparación exterior | MMA/SMAW; tubular autoprotegido (FCAW-S) si la máquina lo admite | MMA: electrodo revestido; FCAW-S: alambre tubular autoprotegido específico. No requieren gas externo | El viento no dispersa un gas de protección; MMA es versátil en obra | Escoria y limpieza; el tubular exige compatibilidad de polaridad, diámetro y alimentación | Tensión y fases de entrada, corriente máxima absorbida y circuito requerido por la máquina | [Soldadora inverter MMA: modelos y datos a comprobar](/soldadoras/soldadora-inverter-200-amp/) |
+| Chapa fina | MIG/MAG con alambre macizo y gas; TIG si prima el control y el acabado | MIG: alambre y gas compatibles; TIG: tungsteno, gas de protección y aporte si hace falta | Permiten controlar el aporte de calor y trabajar material delgado con ajuste adecuado | Riesgo de perforar o deformar; TIG suele avanzar más lento y requiere más destreza | Tensión/fases y corriente de entrada; rango mínimo de corriente y ciclo de trabajo a la salida | [MIG con gas para chapa y trabajos de taller](/soldadoras/soldadora-mig-con-gas/) |
+| Taller con gas disponible | MIG/MAG con alambre macizo | Alambre macizo y gas indicado para ese alambre/procedimiento (por ejemplo, C1 o M21 según producto) | Aporte continuo y buena productividad en trabajos repetitivos | Necesita cilindro, regulador y protección del gas frente a corrientes de aire | Tensión/fases, corriente de entrada, protección del circuito y compatibilidad de la instalación | [Guía de soldadoras MIG con gas](/soldadoras/soldadora-mig-con-gas/) |
+| Inoxidable | TIG para uniones controladas; también MIG/MAG o electrodo si el trabajo y el material lo permiten | Aporte y gas compatibles con el grado de inoxidable y el procedimiento; electrodo específico en MMA | TIG facilita controlar el aporte y el acabado en piezas delgadas | Más lento; limpieza, técnica y control térmico importan para evitar contaminación o deformación | Tensión/fases y corriente de entrada; confirmar salida AC/DC y rango útil para el proceso elegido | [Guía de soldadura TIG](/soldadoras/tig/) |
+| Aluminio | TIG AC o MIG preparado para aluminio | TIG: tungsteno, gas y varilla compatibles; MIG: alambre, gas y sistema de alimentación adecuados | TIG AC ofrece control en piezas y uniones que lo requieren; MIG puede dar más productividad | No toda fuente TIG/MIG sirve: revisar AC/DC, alimentador, antorcha y consumibles; el aluminio exige preparación | Tensión/fases, corriente absorbida, salida AC para TIG y capacidad del circuito para el equipo concreto | [Cómo elegir una soldadora para aluminio](/soldadoras/para-aluminio/) |
+| Punto/chapa | Soldadura por resistencia por puntos | Electrodos de cobre de la máquina; sin alambre ni gas externo | Une chapas superpuestas sin cordón continuo ni aporte de alambre | Limitada por acceso, geometría, espesor combinado y capacidad del equipo | Tensión/fases, corriente requerida y circuito indicado por el fabricante; no asumir que una toma doméstica alcanza | [Soldadora de punto: usos y elección](/soldadoras/soldadora-de-punto/) |
+| Baterías | Soldadura por puntos para pestañas o tiras, si la celda y el equipo son compatibles | Electrodos/puntas del equipo; tira de níquel u otro material especificado; sin gas | Permite unir pestañas con aporte térmico localizado cuando el equipo está diseñado para ello | No es una soldadora general ni sirve para soldar directamente cualquier celda; confirmar materiales, espesor y parámetros para evitar perforar o sobrecalentar la celda | Alimentación y energía de pulso especificadas, tipo de celda compatible y límites de corriente del equipo | [Guía de soldadoras de punto para baterías o chapa](/soldadoras/soldadora-de-punto/) |
+
+## Antes de comprar
+
+- **Material:** identificá el metal y, si corresponde, su aleación o grado. Para inoxidable y aluminio, confirmá también el aporte y el gas que exige el consumible elegido.
+- **Espesor y unión:** anotá el espesor real, si son piezas superpuestas o a tope, el acceso y la posición. Contrastalos con el rango de trabajo publicado por el fabricante; el amperaje máximo por sí solo no garantiza que el equipo sirva.
+- **Ubicación:** en exterior, el viento puede afectar la protección con gas; considerá MMA o un tubular autoprotegido compatible. En interior, asegurá ventilación y espacio para cilindros si elegís MIG/TIG con gas.
+- **Continuidad de trabajo:** estimá cuánto tiempo soldarás y con qué pausas. Compará el ciclo de trabajo declarado a la corriente que vas a usar, además de la capacidad de enfriamiento.
+- **Red disponible:** verificá tensión, cantidad de fases, corriente de entrada, protección y circuito requeridos en la ficha/manual, y comparalos con la instalación donde usarás la máquina.
+- **Consumibles y accesorios:** confirmá disponibilidad local y compatibilidad de electrodos, alambre, gas, regulador, antorcha, tungsteno, puntas y repuestos. Incluí esos costos junto al precio del equipo.
+
+**Análisis TallerLab:** si varios procesos parecen posibles, descartá primero los que no coincidan con la red, el material o el entorno; luego compará control, velocidad, consumibles y ciclo de trabajo según la frecuencia real de uso.
 
 **Dato documentado:** ESAB identifica la HandyArc MIG 160i para MIG/MAG, alambre tubular y electrodo; su familia HandyArc 162i se especifica para MMA. ESAB Weld 70S-6 declara clasificación ER70S-6 y gas C1/M21; Lincoln identifica productos E71T-GS y E71T-11 como alambres tubulares autoprotegidos. Las fuentes citadas documentan esos productos concretos, no todos los consumibles con nombres similares.
 
@@ -55,4 +72,10 @@ Para seguir comparando: [ficha ESAB HandyArc 162i por número de producto](/sold
 
 Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-Para explorar la categoría: [guías relacionadas](/soldadoras/).
+## Seguí con la guía del proceso
+
+- [Soldadora MIG con gas: equipos y elección](/soldadoras/soldadora-mig-con-gas/)
+- [Soldadora MIG sin gas: alambre tubular y compatibilidad](/soldadoras/mig-sin-gas/)
+- [Soldadoras TIG: proceso y equipo](/soldadoras/tig/)
+- [Soldadora inverter: guía de amperajes y modelos](/soldadoras/soldadora-inverter-160-amp/)
+- [Soldadora de punto: usos, chapa y baterías](/soldadoras/soldadora-de-punto/)

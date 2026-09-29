@@ -60,13 +60,12 @@ Las fichas siguientes permiten comparar cuatro modelos de 180 mm documentados po
 | [DeWalt DWE4557-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm) [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 2400 W | 8500 rpm | No indicada en la ficha local consultada | Empuñaduras antivibración, expulsión de polvo y guarda de ajuste rápido | 220 V, 50 Hz según manual regional |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 
 La ficha Bosch confirma 220 V para el código mostrado. Las fichas argentinas de Makita identifican los códigos y sus especificaciones, pero no indican la tensión en la página consultada: verificá la placa del ejemplar y el código completo antes de comprar. Tampoco se puede concluir que un modelo rinda más solo por declarar más watts; influyen la carga, el accesorio, el estado de la herramienta y el modo de trabajo.
 
-**Discrepancia de la oferta GA7010C:** el aviso afiliado anuncia **2.000 W**, mientras la ficha argentina de Makita citada indica **1.800 W**. La tabla conserva el dato del fabricante como especificación documentada; pedí una foto de la placa y confirmá el código antes de comprar. El título del aviso no alcanza para resolver la diferencia.
+**Discrepancia de la oferta GA7010C:** el aviso comercial anuncia **2.000 W**, mientras la ficha argentina de Makita citada indica **1.800 W**. La tabla conserva el dato del fabricante como especificación documentada; pedí una foto de la placa y confirmá el código antes de comprar. El título del aviso no alcanza para resolver la diferencia.
 
 ## Cómo elegir entre estos modelos
 

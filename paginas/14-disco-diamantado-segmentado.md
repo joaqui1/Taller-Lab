@@ -30,7 +30,6 @@ published: true
 | EXPERT Multi Material, [2 608 900 663 · Ver precio en Mercado Libre](https://meli.la/2DjBcUT){:target="_blank" rel="sponsored noopener"} | 230 / 22,23 mm | 2,4 / 15 mm | Hormigón, hormigón armado, ladrillo y piedra blanda |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 

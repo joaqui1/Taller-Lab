@@ -35,7 +35,6 @@ En la documentación consultada, Bosch describe el **PRO Ceramic [2 608 602 478 
 <!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 ## Borde continuo o turbo
 
 El borde describe la geometría del segmento diamantado; no es por sí solo una garantía universal de acabado. En los dos ejemplos Bosch, el fabricante atribuye ventajas distintas a cada diseño:

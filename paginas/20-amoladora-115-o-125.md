@@ -51,7 +51,6 @@ Estas referencias tienen fichas publicadas por Bosch Professional Argentina o Ma
 | [Bosch GWS 9-125, cód. 0 601 3A9 0H0](https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0) | 125 mm | 900 W | 11.000 rpm | 1,9 kg | 220 V |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 El ejemplo deja claro por qué no conviene deducir el peso o la potencia del diámetro por sí solo: el Bosch GWS 9-125 de la tabla publica menos peso que el Bosch GWS 850 de 115 mm, y son series distintas. En Makita, la página local confirma modelo y datos mecánicos, pero no informa tensión; cotejá la placa de la unidad ofrecida.
 
 <!-- EDITORIAL-COMMERCE -->

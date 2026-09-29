@@ -2,7 +2,7 @@
 title: "Disco para sierra circular: cuál usar para cada corte"
 h1: "Cómo elegir un disco para sierra circular"
 url: "/sierras/disco-para-sierra-circular/"
-description: "Cómo validar diámetro, eje, RPM y aplicación de un disco circular con ejemplos de fichas oficiales."
+description: "Cómo elegir un disco para madera, tableros, MDF y aluminio, y comprobar diámetro, eje y RPM compatibles."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["disco para sierra circular", "disco de corte madera", "disco para melamina", "cantidad de dientes disco circular", "disco carburo de tungsteno"]
@@ -11,36 +11,55 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Compatibilidad de hoja: diámetro, eje, RPM y material"
+information_asset: "Selección por corte, material y compatibilidad"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Cómo elegir un disco para sierra circular
 
-Una hoja se elige por cuatro límites de compatibilidad antes de mirar cantidad de dientes: máquina, agujero, velocidad y aplicación documentada.
+Elegí primero según el material y el tipo de corte; después comprobá que el disco sea compatible con la sierra. Los ejemplos de abajo son hojas de 184 o 190 mm para sierras manuales cuando la ficha lo indica. No extrapoles sus medidas a una ingletadora ni a otra máquina.
 
-## Compatibilidad de hoja: diámetro, eje, RPM y material
+## Qué disco usar según el corte
 
-| Comprobación | Ejemplo de ficha | Qué validar en tu máquina |
+Esta tabla reúne aplicaciones que fabricantes declaran para discos concretos. Sirve para orientar la búsqueda, no para convertir un dentado en una regla universal: el mismo número de dientes puede variar en geometría, ancho de corte y materiales admitidos según el disco.
+
+| Trabajo | Geometría/dentado documentado en un ejemplo | Objetivo declarado por el fabricante |
 | :--- | :--- | :--- |
-| Diámetro | Bosch publica variantes de 184 y 190 mm | El diámetro máximo permitido y la guarda |
-| Eje (calibre) | 20 mm en Bosch GKS 150; 5/8 in en B+D 71-727 | Medida de eje y buje exactos |
-| Velocidad máxima del disco | Bosch lista límites de RPM por variante | Que la máquina no supere ese límite |
-| Dientes / geometría | Bosch publica opciones ATB y TCG | Material y tipo de corte indicado |
+| Corte longitudinal en madera maciza | Diablo D0760A de 7 1/4 in (184 mm), 60 dientes ATB; la ficha incluye cortes longitudinales y transversales en madera | Cortes limpios; la ficha lo recomienda también para roble, pino y molduras |
+| Corte transversal en madera | Diablo D0760A, 60 ATB; Bosch también cataloga opciones de 184 y 190 mm para madera con distintas cantidades y formas de diente | Diablo lo describe como disco Ultra Finish para corte limpio; elegí la aplicación según la pieza y la ficha concreta |
+| Contrachapado y melamina | Diablo D0760A, 60 ATB; para tableros laminados, Bosch Expert for Laminated Panel de 190 mm, 60 ATB | Reducir astillado y dejar superficie suave, según la aplicación declarada por cada fabricante |
+| MDF | Bosch PRO Multi Material de 190 mm, 54 HLTCG | La ficha incluye MDF y clasifica el resultado de corte como fino |
+| Aluminio u otro no ferroso | Bosch PRO Multi Material de 190 mm, 54 HLTCG, solo si el fabricante de la sierra manual también permite cortar ese material | Aplicación multimaterial; la ficha del disco incluye aluminio y otros metales. Confirmá pieza, espesor y condiciones en ambos manuales |
 
-**Análisis TallerLab.** El diámetro y el eje son condiciones de montaje; la velocidad máxima es una condición de operación. Un buje reductor solo resuelve la diferencia de agujero cuando el fabricante del disco lo permite: no corrige diámetro externo incompatible, espesor inadecuado o velocidad nominal insuficiente.
+Las recomendaciones de corte fino o reducción de astillado son declaraciones del fabricante, no una prueba comparativa de TallerLab. Una hoja diseñada para laminados puede ser una referencia para melamina, pero comprobá que su ficha incluya el tipo de tablero y que la máquina admita el disco.
 
-Para ver cómo cambia una especificación sin generalizar, Bosch lista una hoja 254 × 30 mm, 24 dientes ATB, 6.000 rpm máximas, y otra variante de 254 mm con 80 dientes TCG y agujero de 16 mm, también con límite de 6.000 rpm. No es prueba de que ATB o TCG siempre sean la mejor opción para un material; seguí la aplicación indicada para cada producto.
+## Geometría, dientes y ancho de corte
 
-**Dato documentado.** Black+Decker identifica su disco 71-727 como 7-1/4 in, agujero 5/8 in y compatible con CS1004 y CS1024. Para Stanley SC16-AR el manual da un eje de 16 mm; no tomes el disco B+D como compatible.
+- **ATB (Alternate Top Bevel):** dentado alternado con biseles hacia lados opuestos. Bosch lo usa, por ejemplo, en discos de madera y laminados; la aplicación indicada por la ficha sigue siendo la referencia para elegirlo.
+- **TCG (Triple Chip Grind):** alterna dientes planos y trapezoidales; Bosch describe el patrón como triple filo. En el ejemplo multimaterial de 190 mm, Bosch identifica la geometría como HLTCG. La forma ayuda a reconocer el dentado, pero la lista de aplicaciones del disco determina para qué material está indicado.
+- **Kerf o ancho de corte:** es el ancho que abre la hoja al cortar. No es igual al espesor del cuerpo del disco. Como ejemplo, el Bosch PRO Multi Material de 190 mm declara 2,4 mm de ancho de corte y 1,8 mm de espesor; verificá que el espesor sea compatible con la sierra y su cuchillo divisor cuando corresponda.
+- **Cantidad de dientes:** como orientación general para sus discos, Bosch asocia más dientes con acabado más preciso y menos dientes con mayor velocidad de corte. Es una guía de selección, no una garantía para todo material o máquina: verificá también aplicación, geometría, ancho de corte y resultado declarado para el disco exacto. El Diablo D0760A de 184 mm, por ejemplo, combina 60 dientes ATB con una aplicación de corte limpio en madera y tableros.
 
-**Desconocido.** No ensayamos cortes ni recomendamos un número universal de dientes por material.
+## Compatibilidad: diámetro, eje y RPM
+
+| Comprobación | Ejemplo documentado | Qué validar en tu máquina |
+| :--- | :--- | :--- |
+| Diámetro | Bosch publica discos manuales de 184 y 190 mm | El diámetro permitido por la sierra y que la guarda funcione correctamente |
+| Eje (agujero) | Bosch PRO Multi Material 190 mm: eje de 30 mm; Diablo D0760A 7 1/4 in: eje de 5/8 in | Agujero y buje exactos; un reductor solo si la ficha del disco lo permite |
+| RPM máximas del disco | Bosch PRO Multi Material 190 mm: 8.000 rpm; Diablo D0760A: 8.000 rpm | Las RPM de la máquina no deben exceder el máximo marcado para el disco |
+| Aplicación y dentado | Ejemplos ATB para madera/laminados y HLTCG para multimaterial | Material, geometría y tipo de corte expresamente admitidos |
+
+El diámetro y el eje son condiciones de montaje; la velocidad máxima es una condición de operación. Un buje reductor solo resuelve la diferencia de agujero cuando el fabricante del disco lo permite: no corrige diámetro externo incompatible, espesor inadecuado o velocidad nominal insuficiente. La cifra de RPM del disco es un límite máximo, no una velocidad que la sierra deba alcanzar.
+
+Antes de montar, ubicá la flecha de giro marcada en el disco y alineala con la flecha de rotación de la sierra. Seguí el manual para orientación de dientes, arandelas y apriete; no elijas la orientación por la impresión de la etiqueta o por cómo queda más visible.
+
+Los ejemplos dimensionales son referencias de sus propios fabricantes, no una afirmación de compatibilidad entre marcas. Por ejemplo, que una hoja de 184 mm tenga un agujero de 16 mm no permite montarla automáticamente en cualquier sierra con disco de 184 mm.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch PRO Wood 254 mm](https://www.bosch-professional.com/ar/es/hoja-de-sierra-circular-pro-wood-a-cable-para-sierras-ingletadoras-3089783-ocs-ac/); [Bosch PRO Multi Material 254 mm](https://www.bosch-professional.com/ar/es/hoja-de-sierra-circular-a-cable-pro-multi-material-para-sierras-ingletadoras-3089785-ocs-ac/); [disco B+D 71-727](https://br.blackanddecker.global/produto/71-727/disco-para-serra-circular); [manual Stanley SC16](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SC16D2/1/Instruction_Manual/EN/N611276_SC16_T1_LAG.pdf).
+- **Documentación primaria:** [catálogo Bosch para sierras portátiles, discos de 184/190 mm, geometrías y guía de cantidad de dientes](https://www.bosch-professional.com/es/media/service_relaunch/downloads/kataloge/2026_t2/sierra_circular_pocket_finder_2025_es.pdf); [Diablo D0760A de 7 1/4 in para madera, contrachapado y melamina](https://diablotools.com/products/D0760A); [Bosch Expert for Laminated Panel 190 mm](https://www.bosch-professional.com/gb/en/expert-for-laminated-panel-circular-saw-blades-for-hand-held-saws-2867557-ocs-ac/); [Bosch PRO Multi Material para sierra manual, 190 mm](https://www.bosch-professional.com/gh/en/pro-multi-material-corded-circular-saw-blade-for-hand-held-saws-3089780-ocs-ac/); [manual Bosch sobre montaje y dirección de giro](https://www.bosch-professional.com/binary/manualsmedia/o114595v21_1619929L18_201210.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 
-[Ver todas las guías de sierras](/sierras/).
+[Ver todas las guías de sierras](/sierras/)

@@ -29,7 +29,6 @@ Para comparar Total en Argentina conviene empezar por el **código completo**, i
 | Una máquina para disco de 180 mm | [TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html) [Ver precio en Mercado Libre](https://meli.la/2E31egQ){:target="_blank" rel="sponsored noopener"} | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las páginas enlazadas mostraban disponibilidad comercial en Argentina al revisarlas el 28/09/2026; el stock y el precio pueden cambiar. La tabla no declara un “mejor modelo”: las tres medidas cubren configuraciones distintas y la elección depende del disco necesario y de la tarea.
 
 <!-- EDITORIAL-COMMERCE -->

@@ -367,13 +367,11 @@ def render_amoladora_choice(article_url):
         </article>''')
     if not rendered_items:
         return ""
-    affiliate_note = "Los enlaces afiliados cortos pueden generar una comisión para TallerLab." if any(item["url"].startswith("https://meli.la/") for item in choice["items"]) else "El enlace abre una publicación directa; no se confirmó seguimiento de afiliado."
-    direct_note = " Las publicaciones enlazadas pueden cambiar de precio, disponibilidad, variante y contenido." if any(not item["url"].startswith("https://meli.la/") for item in choice["items"]) else " Confirmá precio, disponibilidad y variante en el aviso."
     return f'''<aside class="amoladora-editorial-choice" aria-label="{escape(choice["title"], quote=True)}">
       <span class="resource-kicker">OPCIONES PARA ESTA GUÍA · TALLERLAB</span>
       <h2>{escape(choice["title"])}</h2>
       <div class="editorial-product-grid">{"".join(rendered_items)}</div>
-      <p class="buying-disclosure">{escape(affiliate_note + direct_note)}</p>
+      <p class="buying-disclosure">Las publicaciones pueden cambiar de precio, disponibilidad, variante y contenido. Confirmá los detalles en el aviso.</p>
     </aside>'''
 
 
@@ -383,20 +381,9 @@ def render_contextual_choice(article_url):
         return ""
     if item.get("compact"):
         cta_label = escape(item.get("cta_label", "Ver producto en Mercado Libre"))
-        disclosure = (
-            "Enlace afiliado: puede generar una comisión para TallerLab, sin costo adicional para vos. Confirmá variante y disponibilidad en el aviso."
-            if item["url"].startswith("https://meli.la/")
-            else "Enlace directo; no se confirmó seguimiento de afiliado. Confirmá variante y disponibilidad en el aviso."
-        )
-        return f'''<p class="contextual-product-link">Si preferís comprar una unidad, <a href="{escape(item["url"], quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">{cta_label}</a>.</p>
-      <p class="buying-disclosure">{escape(disclosure)}</p>'''
+        return f'''<p class="contextual-product-link">Si preferís comprar una unidad, <a href="{escape(item["url"], quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">{cta_label}</a>.</p>'''
     facts = "".join(f"<li>{escape(value)}</li>" for value in item["facts"])
     checks = "".join(f"<li>{escape(value)}</li>" for value in item["checks"])
-    buying_disclosure = (
-        "El enlace afiliado puede generar una comisión para TallerLab, sin costo adicional para vos. Confirmá precio, disponibilidad, variante y contenido del kit en el aviso."
-        if item["url"].startswith("https://meli.la/")
-        else "Enlace directo a la publicación; no se confirmó seguimiento de afiliado. Confirmá precio, disponibilidad, variante y contenido del kit en el aviso."
-    )
     return f'''<aside class="contextual-product-choice">
       <span class="resource-kicker">OTRA VARIANTE PARA ESTA NECESIDAD</span>
       <h3>{escape(item["name"])}</h3>
@@ -404,5 +391,5 @@ def render_contextual_choice(article_url):
       <p>{escape(item["reason"])}</p>
       <a class="buying-link btn-mercado-libre" href="{escape(item["url"], quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">Ver precio y disponibilidad en Mercado Libre</a>
       <div class="product-before-buying"><h4>Antes de comprar</h4><ul>{checks}</ul></div>
-      <p class="buying-disclosure">{escape(buying_disclosure)}</p>
+      <p class="buying-disclosure">Confirmá precio, disponibilidad, variante y contenido en el aviso.</p>
     </aside>'''

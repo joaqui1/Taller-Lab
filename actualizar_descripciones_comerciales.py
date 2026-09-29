@@ -11,7 +11,7 @@ descriptions = {
 'paginas/compresores/01-compresor-de-aire-para-auto.md': 'Compará Lüsqtoff, Gadnic, Nictom IE01 y JD Extreme 107 por alimentación, conexión y controles. Distinguí batería, 12 V y construcción de doble pistón.',
 'paginas/sierras/04-sierra-caladora.md': 'Compará BES603-B2, TC-JS 85 y TE-JS 100 por material y capacidad publicada. Confirmá el sufijo BES603; metal sin especificar no equivale a acero.',
 'paginas/generadores/01-grupos-electrogenos.md': 'Compará nominal y máxima en fichas Honda/Gamma y evaluá ofertas Pektra/Philco por escala de carga. Conservá W, kVA y respaldo comercial separados.',
-'paginas/generadores/02-precios-de-grupos-electrogenos.md': 'Revisá PVP Lüsqtoff capturados el 27/09/2026 y consultá ofertas Pektra/Philco sin precios recotizados. Calculá envío y extras con importes confirmados.',
+'paginas/generadores/02-precios-de-grupos-electrogenos.md': 'Consultá ocho precios publicados de grupos electrógenos por escala, revisá cuotas y armá el costo final con envío y extras antes de comprar.',
 }
 for relative, description in descriptions.items():
     path=Path(relative)

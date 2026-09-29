@@ -2,7 +2,7 @@
 title: "Generador eléctrico para casa: qué potencia necesitás"
 h1: "Cómo elegir un generador eléctrico para tu casa"
 url: "/generadores/para-casa/"
-description: "Hoja de carga de vivienda con datos de arranque de motor tomados de manual Lüsqtoff y modelos de salida monofásica; muestra qué valores debe aportar el usuario."
+description: "Calculá las cargas simultáneas y sus arranques, compará generadores por escala de potencia y revisá las medidas de seguridad para una vivienda."
 author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador electrico para casa", "que generador necesito para una casa", "grupo electrogeno para casa", "generador aire acondicionado y heladera"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Hoja de carga de vivienda con datos de arranque de motor tomados de manual Lüsqtoff y modelos de salida monofásica; muestra qué valores debe aportar el usuario."
+information_asset: "Calculadora de cargas simultáneas con escenarios basados en manuales y fichas, referencias de equipos por escala y seguridad de instalación."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,41 +21,80 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+Para dimensionar un generador para una vivienda, definí primero qué cargas querés mantener encendidas al mismo tiempo. Después sumá su consumo de marcha y comprobá qué pasa cuando arranca el motor más exigente. El ejemplo de abajo completa la hoja de cálculo con valores publicados, para que puedas reemplazarlos por los de tus equipos.
 
-## Cómo investigamos esta guía
+La potencia por sí sola no decide la compra: también hay que revisar tensión, fase, tipo de regulación y cómo se va a conectar el equipo. Si querés alimentar circuitos de la casa, necesitás una transferencia instalada por un profesional; las medidas de seguridad aparecen antes de las referencias de modelos.
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 27/09/2026
+## Cómo calcular la potencia
 
-### Plantilla documental para sumar cargas de una vivienda
+Anotá solo los artefactos que querés usar durante un corte. De sus placas o manuales, copiá potencia o corriente de marcha, tensión, fase y dato de arranque. Si la carga informa amperios, calculá potencia aparente como **VA = voltios × amperios**. Si informa watts y factor de potencia (PF), estimá **VA = W ÷ PF**. Para una carga resistiva con PF 1, W y VA coinciden aproximadamente.
 
-| Carga identificada | Potencia de marcha según placa/manual | Corriente o potencia de arranque | Tensión/fase | Fuente que debe consultarse |
+La suma de marcha muestra la carga simultánea sostenida. Para el pico, mantené las otras cargas que estarán encendidas y reemplazá la marcha del motor por su valor de arranque. Elegí usando la potencia nominal del generador para marcha y verificá también que el pico calculado quede dentro de lo que el manual permite; la potencia máxima no es una capacidad continua.
+
+| Carga que vas a conectar | Marcha: dato de placa/manual | Arranque: dato de placa/manual | Tensión y fase | Fuente consultada |
 | :--- | :--- | :--- | :--- | :--- |
-| Iluminación u otra carga resistiva | Dato del aparato | Puede coincidir con marcha solo si placa/manual lo indica | 220 V, si corresponde | Etiqueta del artefacto |
-| Heladera o carga con motor | Dato de placa/manual | Consultar pico de arranque; no reemplazarlo por regla universal | Tensión/fase del artefacto | Manual del motor/artefacto |
-| Bomba o aire acondicionado | Dato de placa/manual | Dato de arranque del fabricante o instalador | Tensión/fase del equipo | Manual y placa exactos |
+| Heladera / motor | ______ VA o W | ______ VA o A | ______ | ______ |
+| Iluminación | ______ VA o W | ______ VA o A | ______ | ______ |
+| Aire acondicionado | ______ VA o W | ______ VA o A | ______ | ______ |
+| Bomba u otra carga | ______ VA o W | ______ VA o A | ______ | ______ |
+| **Total de marcha simultánea** | **______ VA** |  |  |  |
+| **Pico con el motor más exigente arrancando** |  | **______ VA** |  |  |
 
-**Dato documentado:** el manual Lüsqtoff LG2500 incluye un cuadro de ejemplo donde una heladera de 150 W aparece con 450–750 VA de arranque y 300 VA en trabajo; una lámpara fluorescente de 40 W aparece con 80 VA de arranque y 60 VA en trabajo. El propio manual presenta estas cifras como estimadas. No son valores universales de todas las heladeras o lámparas.
+### Ejemplo completado: heladera y luces
 
-### Contraste con generadores documentados
+El manual del generador Lüsqtoff LG2500 usa un ejemplo estimado de heladera de 150 W: indica 300 VA en trabajo y 450–750 VA al arrancar. En la misma tabla, una lámpara incandescente de 100 W aparece con 100 VA tanto en arranque como en trabajo. No son valores universales; sirven para mostrar la operación.
 
-| Modelo | Salida | Potencia nominal publicada | Potencia máxima publicada |
-| :--- | :--- | ---: | ---: |
-| Honda EG6500CXS | 220 V monofásica | 5,0 kVA | 5,5 kVA |
-| Gamma GE3481AR | 220 V monofásica | 5,5 kW | 6 kW |
+Supongamos tres lámparas de ese tipo encendidas junto con la heladera:
 
-**Análisis TallerLab:** para armar un escenario de emergencia hay que completar las cuatro columnas de la plantilla con los aparatos reales, sumar las cargas de marcha en unidades compatibles y luego cotejar sus picos con el manual del generador. La tabla Lüsqtoff funciona como advertencia de que un motor puede pedir más potencia aparente al arrancar; no alcanza para prometer que un grupo concreto sostendrá una combinación de cargas domésticas.
+- **Marcha:** 300 VA de heladera + (3 × 100 VA de lámparas) = **600 VA**.
+- **Pico al arrancar la heladera:** 450–750 VA + 300 VA de luces = **750–1.050 VA**.
+- La hoja queda completa para esas cargas: la marcha suma 0,6 kVA y el pico estimado, 0,75–1,05 kVA.
 
-**Desconocido:** sin inventario, placa, picos de arranque, factor de potencia y tensión de cada vivienda, no existe una potencia única que se pueda recomendar para “una casa”. Esta guía no valida una conexión de generador a la instalación fija; el proyecto de transferencia y protecciones requiere técnico calificado según normativa local.
+Al hacer tu cuenta, sustituí la heladera y las lámparas de este ejemplo por los datos de placa reales. Si el fabricante no da el arranque de la heladera, buscá la corriente LRA/pico en su etiqueta o manual; no la deduzcas aplicando un multiplicador universal.
+
+### Escenario con aire acondicionado: una cuenta de placa
+
+LG publica para el modelo inverter US-W096WSG3 una potencia de entrada de 815 W y una corriente de refrigeración de 5 A. A 220 V, la corriente corresponde a **1.100 VA** (220 × 5). Para combinarlo con la heladera estimada y las tres lámparas anteriores:
+
+- **Marcha simultánea:** 1.100 VA del aire + 300 VA de heladera + 300 VA de luces = **1.700 VA (1,7 kVA)**.
+- **Pico si arranca la heladera mientras el aire ya funciona:** 1.100 + 300 + 450–750 = **1.850–2.150 VA (1,85–2,15 kVA)**.
+
+La página de LG consultada no informa el pico de arranque del aire acondicionado. Por eso esta segunda cuenta **no valida el arranque simultáneo del compresor del aire**. Revisá el manual/placa del código exacto o pedí ese dato al fabricante antes de dimensionar para esa combinación. Un equipo inverter puede variar su consumo mientras regula; usá el máximo eléctrico publicado, si está disponible, y no las frigorías como si fueran watts eléctricos.
+
+## Inverter o convencional
+
+| Qué necesitás priorizar | Qué revisar en un inverter | Qué revisar en un convencional |
+| :--- | :--- | :--- |
+| Electrónica y cargas sensibles | Tipo de onda declarado, tensión/frecuencia y límites de potencia; la tecnología inverter no reemplaza la compatibilidad indicada por el fabricante del aparato | Tipo de regulación (por ejemplo AVR) y especificación de tensión/frecuencia bajo carga; no asumir que toda electrónica es compatible |
+| Cargas con motor y arranques | Potencia nominal, máxima y respuesta/pico admitido; una salida estable no significa capacidad de arranque suficiente | Potencia nominal y máxima, corriente de arranque admitida y regulación de tensión |
+| Uso con carga variable o baja | Si tiene modo económico y cómo afecta autonomía y potencia disponible | Consumo y autonomía publicados para distintas cargas, si el fabricante los informa |
+| Portabilidad y uso cerca de personas | Peso y ruido medido con condición comparable | Peso, ruido y ubicación necesaria; no inferir nivel sonoro por ser convencional |
+
+Compará las cifras del manual del modelo concreto. “Inverter” describe una tecnología de generación/regulación; no es sinónimo de más potencia, arranque más fácil ni silencio garantizado.
+
+## Seguridad antes de conectar cargas
+
+- **Monóxido de carbono:** usá el generador portátil solo al aire libre, lejos de puertas, ventanas y ventilaciones, con el escape orientado en sentido contrario a la vivienda. Nunca lo uses dentro de la casa, garaje, galpón o espacio semicerrado, aunque abras ventanas. Mantené alarmas de monóxido operativas en la vivienda. La CPSC recomienda separarlo al menos 20 pies (unos 6 m) de la casa; seguí además la distancia y ubicación que indique el manual del equipo y las condiciones del lugar.
+- **Conexión a la vivienda:** no conectes un generador a un tomacorriente de la casa para energizar la instalación. Para alimentar circuitos fijos, un electricista habilitado debe instalar el sistema de transferencia y las protecciones adecuadas para impedir el retorno hacia la red.
+- **Tierra y protecciones:** no agregues una jabalina ni unas el neutro a tierra por una regla genérica. El esquema depende del equipo, su manual, la transferencia y la instalación. Que un profesional verifique puesta a tierra, disyuntor, interruptores y protecciones conforme al generador y normativa aplicable.
+- **Intemperie y extensiones:** mantené el equipo seco y ventilado; usá cables aptos para exterior, con sección y corriente adecuadas a la carga, sin fichas dañadas ni conexiones improvisadas. Seguí las instrucciones del fabricante sobre lluvia, combustible, ventilación y distancia.
+
+## Modelos según el consumo del hogar
+
+Estos modelos sirven como **escalones de potencia documentados**, no como un ranking ni como garantía para una lista de aparatos. Compará la carga nominal calculada con la potencia nominal del generador y el pico con la capacidad máxima y el manual de arranque. Si las cargas superan esos valores o hay varios motores, pasá al escalón siguiente y verificá cada pico.
+
+| Escala de carga calculada | Referencia documentada | Salida publicada | Cómo usarla en la comparación |
+| :--- | :--- | :--- | :--- |
+| Cargas esenciales acotadas, como la cuenta ilustrativa de 0,6 kVA en marcha y hasta 1,05 kVA de pico | Honda EU22i, inverter | 1,8 kVA nominal / 2,2 kVA máxima; 220 V monofásica | La cuenta del ejemplo queda por debajo de las cifras publicadas. Confirmá tus cargas reales y el arranque en el manual. |
+| Cargas simultáneas mayores o escenario que se acerca al pico del EU22i | Honda EU30is, inverter | 2,8 kVA nominal / 3,0 kVA máxima; 220 V monofásica | Compará su salida nominal y máxima con tu suma; el mayor tamaño no confirma un arranque que el fabricante no documente. |
+| Varias cargas simultáneas, si su suma medida justifica este rango | Honda EG6500CXS, convencional con D-AVR | 5,0 kVA nominal / 5,5 kVA máxima; 220 V monofásica | Referencia de mayor escala. Dimensioná con 5,0 kVA nominales para marcha; revisá los picos con el manual y el instalador. |
+| Cargas que, tras convertir correctamente a unidades comparables, requieren más que el escalón anterior | Gamma GE3481AR / 6000V | 5,5 kW nominal / 6 kW máxima; 220 V monofásica | Gamma expresa estos datos en kW. Para compararlos con kVA, necesitás el factor de potencia de la carga; no equipares kW y kVA sin ese dato. |
+
+El escenario con aire de 1,7 kVA de marcha y 1,85–2,15 kVA de pico estimado queda cerca del máximo publicado del EU22i. Además falta el dato de arranque del aire acondicionado. Para esa combinación, no decidas por la cifra máxima aislada: confirmá el arranque con el fabricante y cotejá una opción con más capacidad nominal si buscás margen para nuevas cargas.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [manual Lüsqtoff LG2500, tabla ilustrativa de cargas](https://lusqtoff.com.ar/2023/uploads/Productos/9.%20GRUPOS%20ELECTR%C3%93GENOS/LG2500/LG2500.pdf); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Gamma GE3481AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/).
+- **Documentación primaria:** [manual Lüsqtoff LG2500, tabla estimada de cargas](https://lusqtoff.com.ar/2023/uploads/Productos/9.%20GRUPOS%20ELECTR%C3%93GENOS/LG2500/LG2500.pdf); [LG US-W096WSG3, ficha de aire acondicionado](https://www.lg.com/ar/aire-acondicionado/lg-US-W096WSG3-inverter); [Honda EU22i](https://pf.honda.com.ar/producto/EU22i); [Honda EU30is](https://pf.honda.com.ar/producto/EU30is); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Gamma GE3481AR / 6000V](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/); [CPSC, seguridad de generadores y monóxido](https://www.cpsc.gov/Safety-Education/Safety-Guides/Carbon-Monoxide-Home/Generators-and-Engine-Driven-Tools); [CPSC, conexión segura a circuitos domésticos](https://www.cpsc.gov/s3fs-public/pdfs/foia_PortableGenerators.pdf). Consulta: 28/09/2026.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [generadores monofásicos: fase y tensión](/generadores/monofasicos/).

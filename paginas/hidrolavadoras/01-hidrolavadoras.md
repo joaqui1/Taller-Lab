@@ -2,7 +2,7 @@
 title: "Hidrolavadoras: cuál comprar según uso y presupuesto"
 h1: "Cómo elegir una hidrolavadora para tu casa o trabajo"
 url: "/hidrolavadoras/comparativa-general/"
-description: "Compará cuatro fichas Gamma con las eléctricas Lüsqtoff HL100-7 y Logus HL-105. Separá presión nominal y máxima; evaluá Logus a nafta por su alimentación."
+description: "Matriz para elegir hidrolavadora según tarea, con presión de trabajo, caudal, manguera, alimentación, peso y accesorios. Compara modelos de varias marcas y precios relevados con fecha."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora", "comprar hidrolavadora", "mejor hidrolavadora argentina", "hidrolavadora precio calidad", "presion y caudal hidrolavadora"]
@@ -21,68 +21,51 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** guía documental, sin prueba física de TallerLab. La matriz traduce la tarea en criterios de compra; los valores de cada modelo se mantienen ligados a su propia ficha.
 
-## Cómo investigamos esta guía
+## Elegí por tarea
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
+| Uso | Presión de trabajo | Caudal | Manguera | Alimentación | Peso y traslado | Accesorios útiles |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Auto | Confirmá presión nominal/de servicio y que la lanza permita abrir el chorro; empezá con distancia prudente y baja agresividad | Priorizá un caudal que enjuague bien sin alargar el lavado | 5 m como referencia práctica para rodear el vehículo sin mover el equipo | Eléctrica con cable suele alcanzar en casa; revisá tensión y toma disponibles | Ruedas y asa ayudan a moverla alrededor del auto | Boquilla regulable, filtro de entrada y aplicador de detergente; cepillo si lavás carrocería |
+| Bicicleta | Regulación amplia y chorro suave; evitá concentrar el chorro en rodamientos y retenes | No hace falta perseguir el mayor caudal: importa poder enjuagar con control | Una manguera liviana y flexible reduce tirones al trabajar cerca | Eléctrica; batería solo si la movilidad compensa su autonomía y caudal limitados | Bajo peso facilita llevarla al patio o guardarla | Lanza regulable, espuma y conexión/filtro adecuados |
+| Patio o vereda | Buscá presión de servicio suficiente para suciedad adherida y una lanza que deje ajustar el impacto | Más caudal ayuda a cubrir superficie y retirar barro; comprobá también el suministro de agua | 6–8 m o carrete mejora el alcance en superficies amplias | Eléctrica si hay toma segura y próxima; nafta para trabajar lejos de la red | Ruedas grandes y asa cómoda importan más en recorridos largos | Boquilla turbo para zonas resistentes, limpiador de superficies y filtro |
+| Paredes o pileta | Que la presión se pueda reducir: pintura, juntas y revestimientos pueden dañarse con un chorro concentrado | Un caudal moderado y controlable permite trabajar por paños | Alcance suficiente para no tensar la manguera ni apoyar el equipo sobre bordes | Eléctrica para limpieza periódica; verificá cableado y distancia al agua | Liviana y estable para reposicionarla con frecuencia | Boquilla abanico/regulable; limpiador de superficies compatible. Evitá turbo en revestimientos delicados |
+| Suciedad pesada | Compará presión nominal/de servicio y ciclo de trabajo; no elijas por el pico máximo anunciado | Priorizá caudal documentado para arrastrar residuos, además de presión adecuada | Manguera reforzada, larga y con repuestos disponibles | Eléctrica robusta si hay red; nafta cuando se necesita autonomía en lugares sin toma | Las unidades más robustas pesan más; ruedas y carrete reducen esfuerzo | Boquillas intercambiables, filtro, acoples compatibles y repuestos |
+| Uso frecuente | Buscá presión de servicio y régimen continuo declarados para las horas reales de uso | Caudal sostenido y suministro de agua suficiente reducen tiempos muertos | Revisá material, longitud, temperatura admitida y disponibilidad de reemplazo | Elegí la fuente que puedas sostener en el lugar de trabajo; para nafta sumá combustible y mantenimiento | Considerá peso junto con ruedas, asa y facilidad de carga | Filtro lavable, boquillas de recambio, manguera y servicio técnico local |
+| Trabajo o servicio móvil | Pedí valores de trabajo, no solo máximos, y confirmá que equipo, boquilla y tarea sean compatibles | Caudal y ciclo de trabajo son claves en jornadas largas | Buscá manguera de alta presión reemplazable y longitud apropiada al puesto | Nafta si no hay red eléctrica; eléctrica profesional cuando sí la hay y el entorno permite conexión segura | Una máquina pesada puede convenir si tiene ruedas y carga sencilla; considerá transporte en vehículo | Carrete, filtro, picos intercambiables, conexiones estándar y repuestos disponibles |
 
-| Modelo y código | Potencia | Máxima admisible publicada | Máxima de servicio publicada | Caudal |
-| :--- | ---: | ---: | ---: | ---: |
-| Gamma 127 Red Line, G2509AR | 1.400 W | 100 bar | 65 bar | 330 L/h (5,5 L/min) |
-| Gamma 130 Red Line, G2513AR | 1.600 W | 130 bar | 90 bar | 360 L/h (6 L/min) |
-| Gamma 150 Red Line, G2514AR | 1.800 W | 150 bar | 100 bar | 400 L/h (6,67 L/min) |
-| Gamma 170 Elite, G2515AR | No localizada en página consultada | 170 bar | No localizada | 400 L/h (6,67 L/min) |
+**Criterio de lectura:** presión y caudal describen aspectos distintos del trabajo. Compará primero presión nominal/de servicio con presión nominal/de servicio, y caudal bajo la misma condición; la presión máxima sirve como límite publicado, no como medida única de desempeño.
 
-**Dato documentado:** los manuales de Gamma 127, 130 y 150 usan dos campos distintos: máxima admisible y máxima de servicio. En los códigos citados, el valor de servicio es inferior al máximo admisible. Para Gamma 170, la página de producto publica 170 bar máximos admisibles y 400 L/h, pero no se halló allí el campo de servicio.
+## Modelos concretos y precios observados
 
-**Análisis TallerLab:** del modelo 127 al 150, la potencia publicada aumenta 400 W y el caudal 70 L/h; la presión máxima de servicio pasa de 65 a 100 bar. En el 170, la cifra de 170 bar no alcanza para calcular el valor de servicio. Esta comparación entre documentos no demuestra superioridad ni predice el resultado sobre una tarea. El número del nombre comercial no es una escala común de presión de trabajo.
+Precios relevados el **28/09/2026** en las páginas enlazadas. Son importes publicados al momento de la consulta, sujetos a cambios por vendedor, medio de pago, envío, stock y variante. No se hizo una prueba comparativa de limpieza.
 
-| Antes de elegir | Dato que debe verificarse |
-| :--- | :--- |
-| Presión | Si el valor es nominal/de servicio o máximo admisible |
-| Caudal | Si es nominal, de trabajo o máximo |
-| Conexión | Tensión y frecuencia de la variante exacta |
-| Accesorios | Boquilla y longitud de manguera incluidas para ese código |
+| Modelo | Datos útiles para comparar | Precio observado (28/09/2026) | Para quién puede tener sentido |
+| :--- | :--- | ---: | :--- |
+| Kärcher K2 Basic | 1.200 W, 110 bar máximos, caudal 280 L/h; ficha del producto lista manguera de 3 m | $250.000 en Mercado Libre | Auto, bicicleta y trabajos domésticos puntuales; considerá la manguera corta si necesitás rodear el vehículo |
+| Lüsqtoff HL100-7 | 1.200 W, 220 V–50 Hz; 70 bar nominales, 100 bar máximos y 5,5 L/min; cable de 5 m | $124.449,05 en Mercado Libre; la página consultada también mostró otras ofertas | Casa, auto y patio chico si querés una ficha que separa nominal y máximo |
+| Logus HL-105 | 1.200 W, 105 bar máximos; la publicación consultada indica manguera de 5 m. Presión nominal y caudal: no publicados en la ficha citada | $104.016; $78.012 por transferencia en la tienda Logus | Alternativa doméstica compacta; pedí confirmación de caudal y kit antes de compararla con modelos que sí los informan |
+| Logus GHL-150 a nafta | Motor 6,5 hp; 154 bar máximos, 7,5 L/min, manguera de 8 m y 27 kg según publicación | $561.900 en Mercado Libre | Trabajo sin red eléctrica y suciedad más exigente; el peso, el combustible y el mantenimiento forman parte del costo de uso |
 
-**Desconocido:** no se compararon precios vigentes, repuestos, niveles sonoros ni pruebas de limpieza bajo una superficie y método iguales.
+**Gamma como ejemplo de ficha, no como comparativa completa:** los manuales de Gamma 127, 130 y 150 separan presión máxima admisible y máxima de servicio. Por ejemplo, G2513AR publica 130 y 90 bar, respectivamente, además de 360 L/h (6 L/min). La [comparativa Gamma](/hidrolavadoras/gamma/) reúne los cuatro códigos y sus diferencias; para una compra general, cotejá esos datos con los de otras marcas y con la tarea.
 
-## Opciones eléctricas con enlace de compra
+### Qué conviene verificar antes de pagar
 
-La comparación Gamma sirve para leer las fichas. Si querés consultar una oferta concreta, estas dos referencias eléctricas tienen enlaces de afiliado y documentación identificada:
-
-
-| Modelo | Potencia / alimentación | Presión nominal / máxima | Caudal en la fuente | Qué falta confirmar | Consulta comercial |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Lüsqtoff HL100-7 | 1.200 W; 220 V–50 Hz | 70 / 100 bar | 5,5 L/min; la ficha no precisa condición | Kit, vendedor y manual de la unidad | [Ver precio en Mercado Libre](https://meli.la/1cZXqxL){:target="_blank" rel="sponsored noopener"} |
-| Logus HL-105 | 1.200 W; tensión de la unidad por confirmar | Nominal no localizada / 105 bar máximos | No localizado en la ficha consultada | Presión de servicio, caudal y accesorios | [Ver precio en Mercado Libre](https://meli.la/2Rcddpg){:target="_blank" rel="sponsored noopener"} |
-
+- Código y versión exactos, tensión/frecuencia y garantía del vendedor.
+- Presión nominal o de servicio y caudal, junto con la condición de cada valor.
+- Largo y tipo de manguera, boquillas y accesorios incluidos en esa publicación.
+- Peso neto, ruedas, acoples y disponibilidad de manguera, filtros y servicio técnico.
+- Precio final con envío y forma de pago; guardá la fecha porque las ofertas cambian.
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-**Dato documentado:** [Lüsqtoff HL100-7](https://www.lusqtoff.com.ar/ver-producto/HL100-7) separa presión nominal y máxima. [Logus HL-105](https://logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/) publica el máximo; no completamos sus campos ausentes con los de Gamma o Lüsqtoff.
-
-**Análisis TallerLab:** HL100-7 permite contrastar su nominal de 70 bar con los campos nominales/de servicio de las fichas Gamma, conservando las condiciones de cada fuente. Los 105 bar máximos de HL-105 no prueban mayor capacidad de limpieza ni permiten compararla por presión de servicio.
-
-### Si necesitás una opción a nafta
-
-Para comparar una alternativa a explosión, [ver la publicación de Logus GHL150 en Mercado Libre](https://meli.la/1KQjHgT){:target="_blank" rel="sponsored noopener"}.
-
-Su [ficha Logus](https://logus.com.ar/productos/hidrolavadora-a-explosion-6-5hp-industrial-154-bar-ghl-150/) identifica motor de 6,5 hp y 154 bar; no encontramos un punto comparable de presión de servicio y caudal. Consultá la [guía de 150 bar](/hidrolavadoras/150-bar/) para revisar sus límites. La potencia del motor no equivale a potencia eléctrica y esa cifra de presión no la convierte en sustituta de las eléctricas de esta tabla.
-
-En cada publicación, comprobá la identidad de la unidad y las condiciones vigentes del vendedor.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [manual Gamma 127, G2509AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-127-gamma-elite_G2509AR-102-manual.pdf); [manual Gamma 130, G2513AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf); [manual Gamma 150, G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf); [Gamma 170 Elite, ficha de producto](https://www.gammaherramientas.com.ar/producto/hidrolavadora-170-elite/).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- [Kärcher K2 Basic en Mercado Libre](https://listado.mercadolibre.com.ar/karcher-k2) — precio observado y resultados publicados; ficha de prestaciones del [producto K2 Basic Black](https://www.mercadolibre.com.ar/hidrolavadora-karcher-k2-basic-black/up/MLAU278914440).
+- [Lüsqtoff HL100-7, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/HL100-7) y [publicación consultada en Mercado Libre](https://www.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl100-7-100-bar-1200w/p/MLA29665124?forceInApp=true).
+- [Logus HL-105, tienda oficial](https://www.logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/) y [publicación en Mercado Libre](https://www.mercadolibre.com.ar/hidrolavadora-logus-105-bar-presion-1200w-pistola-lanza-logus-hl-105-azul-marino/p/MLA15900120?offer_type=BEST_PRICE).
+- [Logus GHL-150, publicación en Mercado Libre](https://www.mercadolibre.com.ar/hidrolavadora-nafta-logus-154-bar-65hp-a-explosion-uso-intensivo/p/MLA52112649).
+- **Documentación primaria Gamma:** [manual Gamma 127 G2509AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-127-gamma-elite_G2509AR-102-manual.pdf); [manual Gamma 130 G2513AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf); [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf); [Gamma 170 Elite, ficha oficial](https://www.gammaherramientas.com.ar/producto/hidrolavadora-170-elite/).
 
-Para seguir comparando: [Gamma: códigos y campos de presión](/hidrolavadoras/gamma/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/150-bar/).
+Para conocer el criterio editorial: [metodología de TallerLab](/como-trabajamos/). Para otras opciones por tarea: [hidrolavadoras para autos](/hidrolavadoras/para-autos/) y [modelos profesionales](/hidrolavadoras/profesionales/).

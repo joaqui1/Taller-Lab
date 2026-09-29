@@ -2,7 +2,7 @@
 title: "Taladro Milwaukee: M12, M18 y cuál elegir"
 h1: "Qué taladro Milwaukee comprar según el uso"
 url: "/taladros/milwaukee/"
-description: "Comparación documental Milwaukee M12 3404-20 y M18 2904-20: torque, peso sin batería, largo, función y alcance del kit."
+description: "Compara taladros Milwaukee M12 y M18 con y sin percusión, entiende la línea FUEL y elige plataforma y kit según tu trabajo."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro milwaukee", "milwaukee m12", "milwaukee m18 fuel", "taladro percutor milwaukee", "milwaukee argentina"]
@@ -11,38 +11,66 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "M12 3404 y M18 2904: comparar plataforma y función"
+information_asset: "Comparación de taladros M12 y M18 con y sin percusión, línea FUEL y configuraciones de kit"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Qué taladro Milwaukee comprar según el uso
 
-**Dato documentado:** comparamos los códigos Milwaukee 3404-20 (M12) y 2904-20 (M18). Las fichas estadounidenses no confirman disponibilidad, tensión de cargador ni garantía de la unidad vendida en Argentina.
+La elección empieza por la tarea. Para muebles, montaje y agujeros en madera o metal donde no necesitás percusión, considerá los taladros/destornilladores M12 FUEL 3403-20 o M18 Compact Brushless 3601-20. Si también vas a perforar mampostería, los percutores M12 FUEL 3404-20 y M18 FUEL 2904-20 agregan esa función. Son modelos documentados en fichas estadounidenses; no confirmamos disponibilidad, kit regional ni garantía argentina.
 
-## M12 3404 y M18 2904: comparar plataforma y función
+## Diferencias entre M12 y M18
 
-| Dato documentado | M12 FUEL 3404-20 | M18 FUEL 2904-20 |
-| :--- | ---: | ---: |
-| Plataforma | M12 | M18 |
-| Función | Taladro percutor/atornillador | Taladro percutor/atornillador |
-| Torque máximo publicado | 400 in-lb (≈45 Nm) | 1.400 in-lb (≈158 Nm) |
-| Largo de herramienta | 6 in | 6,9 in |
-| Peso publicado sin batería | 2,6 lb (≈1,18 kg) | 3,3 lb (≈1,50 kg) |
-| Kit / herramienta sola | 3404-20: herramienta y clip | 2904-20: herramienta y mango lateral; la ficha de kit 2904-22 incluye 2 baterías XC5.0 y cargador |
+M12 y M18 son plataformas de batería distintas. M12 corresponde al sistema de 12 V y M18 al de 18 V; las baterías y cargadores deben coincidir con su plataforma y no se intercambian entre sí. Dentro de cada plataforma, el peso y tamaño dependen también del modelo y la batería montada.
 
-**Análisis TallerLab.** Los valores máximos de torque publicados difieren por un factor de 3,5 y los pesos de herramienta sola por unos 0,32 kg. Convertimos unidades para facilitar lectura, no para afirmar una prueba común: las fichas no especifican un protocolo comparativo compartido. Ambos modelos tienen percusión; el 3404-20 usa batería M12 y el 2904-20 pertenece a M18. El código “-20” no debe confundirse con el contenido del kit “-22”.
+| Modelo documentado | Plataforma y función | Tamaño y peso publicados sin batería | Torque máximo publicado | Lectura práctica |
+| :--- | :--- | :--- | :--- | :--- |
+| M12 FUEL 3403-20 | M12; taladro/destornillador sin percusión | 5,9 in (≈15,0 cm); 2,5 lb (≈1,13 kg) | 400 in-lb (≈45 Nm) | Formato subcompacto para montaje, perforación común y lugares estrechos; no tiene percusión. |
+| M12 FUEL 3404-20 | M12; taladro percutor/destornillador | 6 in (≈15,2 cm); 2,6 lb (≈1,18 kg) | 400 in-lb (≈45 Nm) | Opción compacta si además necesitás percusión ocasional en mampostería. |
+| M18 Compact Brushless 3601-20 | M18; taladro/destornillador sin percusión | 5,7 in (≈14,5 cm); 2,3 lb (≈1,04 kg) | 550 in-lb (≈62 Nm) | Taladro sin percusión de la plataforma M18; alternativa si ya tenés baterías M18 o querés esa plataforma. |
+| M18 FUEL 2904-20 | M18; taladro percutor/destornillador | 6,9 in (≈17,5 cm); 3,3 lb (≈1,50 kg) | 1.400 in-lb (≈158 Nm) | Para quien necesita el mayor torque publicado de estos ejemplos y percusión; tiene más volumen y peso sin batería. |
 
-**Declaración del fabricante.** Milwaukee describe el 3404-20 como brushless y parte del sistema M12. La ficha 2904-20 describe motor POWERSTATE sin escobillas y sistema M18. No inferimos autonomía ni duración a partir de la plataforma o el tipo de motor.
+Las cifras de torque provienen de fichas distintas y no de una prueba comparativa común. No uses el torque máximo como única medida de rendimiento ni como regla para decidir por sí solo entre M12 y M18: pensá en diámetro y material de perforación, frecuencia de uso, acceso, peso con batería y herramientas Milwaukee que ya tengas.
 
-**Desconocido.** No cotejamos variantes argentinas, baterías incluidas en publicaciones locales ni servicio de garantía. No se hizo prueba de perforación ni comparación de rendimiento bajo carga.
+## Qué ofrece la línea FUEL
+
+FUEL no es una plataforma de batería aparte: hay herramientas FUEL M12 y M18, y cada una usa las baterías de su propio sistema. Milwaukee describe FUEL como la integración de motor sin escobillas POWERSTATE, batería REDLITHIUM y electrónica REDLINK PLUS. El M18 Compact Brushless 3601-20 muestra también que existe un taladro sin percusión y brushless que no lleva el nombre FUEL.
+
+En esta selección, 3403-20 y 3404-20 son ambos M12 FUEL, pero uno es taladro/destornillador y el otro suma percusión. Por eso el nombre FUEL no te dice si la máquina tiene percusión: verificá la función en el título y la ficha del SKU exacto.
+
+## Modelos con y sin percusión
+
+La percusión mecánica está pensada para ayudar en mampostería liviana cuando la ficha del taladro y la broca lo permiten. Para madera, metal, atornillado y tareas donde no hace falta golpear, un taladro/destornillador sin percusión puede ser suficiente y evita pagar por una función que no vas a usar. Para hormigón frecuente, agujeros grandes o trabajo de obra exigente, evaluá un rotomartillo SDS adecuado.
+
+| Necesidad | Modelos de esta guía | Antes de elegir |
+| :--- | :--- | :--- |
+| Atornillado, muebles y perforación común; formato compacto | M12 FUEL 3403-20 | No tiene percusión. Revisá si M12 te alcanza para los materiales, diámetros y ritmo de trabajo previstos. |
+| Mismas tareas, con percusión ocasional | M12 FUEL 3404-20 | El modo de percusión no convierte al taladro en rotomartillo; comprobá los límites del fabricante para mampostería. |
+| Sin percusión y preferencia por M18 | M18 Compact Brushless 3601-20 | Es un taladro/destornillador M18 brushless, no FUEL, y la ficha lo lista como herramienta sola. |
+| Más capacidad publicada y percusión dentro de esta comparación | M18 FUEL 2904-20 | Es el más pesado de los ejemplos; contemplá el peso con batería, el mango lateral y si necesitás realmente esa potencia. |
+
+## Máquina sola o kit con baterías
+
+El costo para empezar depende de lo que ya tengas. Si ya contás con baterías y cargador Milwaukee de la plataforma elegida, una máquina sola puede convenir. Si empezás desde cero, compará el costo total de herramienta, baterías compatibles y cargador; un kit puede traer además bolso u otros accesorios. Una batería M12 no alimenta una herramienta M18 ni viceversa.
+
+| Referencia consultada | Contenido declarado por Milwaukee | Qué significa para la compra |
+| :--- | :--- | :--- |
+| 3403-20 | Taladro/destornillador y clip de cinturón; la página lo presenta como herramienta sola. | No incluye batería ni cargador en la caja descrita. |
+| 3404-20 | Taladro percutor y clip; modelo identificado como herramienta sola. | Presupuestá batería y cargador M12 si no los tenés. |
+| 3601-20 | Taladro M18 y clip; herramienta sola. | Requiere batería y cargador M18 que se venden por separado en esta configuración. |
+| 2904-22 | Kit del 2904-20 con dos baterías XC5.0 y cargador, según la ficha del kit. | Comparalo con comprar herramienta sola más baterías y cargador; confirmá tensión del cargador, enchufe y garantía de la versión local. |
+
+Los sufijos y el contenido varían por número de catálogo y mercado. En estas fichas, “-20” identifica una configuración de herramienta sola y “-22” el kit del 2904 con baterías y cargador; no generalices esa regla a todos los productos Milwaukee. Antes de pagar, compará el SKU completo con lo que realmente incluye la publicación argentina.
+
+**Límite de la comparación:** las cuatro referencias tienen documentación oficial de Estados Unidos. No cotejamos importadores, stock, voltaje del cargador o cobertura de garantía en Argentina, ni hicimos pruebas de perforación. Usá los datos como comparación de modelos identificados y verificá el SKU local.
 
 La guía de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) reúne otros modelos con esa función.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Milwaukee M12 FUEL 3404-20](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [Milwaukee M18 FUEL 2904-20](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22).
+- **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

@@ -78,9 +78,9 @@ entries = {
         "Porcentaje = (máxima − nominal) ÷ nominal × 100, para las fichas identificadas. No representa arranque validado; no se ordenan kVA y W como la misma unidad."),''',
 '/generadores/precios/': '''    "/generadores/precios/": calculator(
         "cost", "Armá el costo final de dos ofertas comparables",
-        "Los PVP Lüsqtoff conservan su captura del 27/09/2026. Pektra/Philco no se recotizaron: usá importes que hayas confirmado para equipos que cubran la misma necesidad.",
+        "La guía reúne ocho precios publicados consultados el 28/09/2026 y conserva una referencia PVP Lüsqtoff del día anterior. Cargá dos configuraciones que cubran la misma necesidad para sumar sus costos finales.",
         [field("priceA", "Oferta A · precio confirmado", 0, "$"), field("shippingA", "Oferta A · envío", 0, "$"), field("extrasA", "Oferta A · extras necesarios", 0, "$"), field("priceB", "Oferta B · precio confirmado", 0, "$"), field("shippingB", "Oferta B · envío", 0, "$"), field("extrasB", "Oferta B · extras necesarios", 0, "$")],
-        "Costo = precio + envío + extras, sin financiación ni mantenimiento. Confirmá fecha, vendedor y configuración. La suma no valida equivalencia entre equipos ni costo por watt máximo."),''',
+        "Costo = precio + envío + extras, sin costo financiero. Confirmá fecha, vendedor, modelo y configuración; compará nominales y requisitos de carga antes de usar el resultado."),''',
 }
 path = Path('recursos_editoriales.py')
 text = path.read_text(encoding='utf-8')

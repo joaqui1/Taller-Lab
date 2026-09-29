@@ -2,7 +2,7 @@
 title: "Sierra de banco: cuál elegir para tu taller"
 h1: "Cómo elegir una sierra de banco para madera"
 url: "/sierras/de-banco/"
-description: "Criterios documentales para elegir una sierra de banco por corte, hoja, peso y superficie de apoyo."
+description: "Cómo elegir una sierra de banco según el tipo de corte, el ancho de rasgado, la guía, la mesa, la hoja y el apoyo de las piezas."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra de banco", "sierra de mesa madera", "guia paralela sierra de banco", "cortar melamina sierra de banco", "sierra de banco carpinteria"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Elegir una sierra de banco por corte y apoyo"
+information_asset: "Elegir una sierra de banco por capacidad de corte y apoyo"
 asset_status: "verificado"
 reviewed: "27/09/2026"
 published: true
@@ -19,7 +19,7 @@ published: true
 
 # Cómo elegir una sierra de banco para madera
 
-**Dato documentado:** comparamos dos fichas oficiales de equipos de banco y hoja cercana a 250 mm. Sirve para dimensionar pieza y espacio; no mide seguridad, estabilidad ni precisión real.
+**Dato documentado:** comparamos las fichas oficiales de dos equipos de banco con hoja cercana a 250 mm. Sirve para dimensionar piezas y espacio; no mide estabilidad ni precisión real.
 
 ## Elegir una sierra de banco por corte y apoyo
 
@@ -31,15 +31,39 @@ published: true
 | Extensiones informadas | 165 mm a cada lado | 165 mm de ancho adicional a izquierda y derecha |
 | Guía / accesorio declarado | Tope paralelo y tope angular | Regla lateral, compás, guarda y barra de empuje |
 
+### No mires solo la altura de corte
+
+La altura máxima indica el grosor que admite la hoja en una pasada; para abrir una tabla a lo largo también importa cuánto espacio ofrece la guía a la derecha o izquierda de la hoja. Esa capacidad longitudinal o *rip* no aparece como una cifra en las fichas de estos dos modelos. Pedí el rango de ajuste de la guía del modelo exacto y comparalo con el ancho que necesitás cortar.
+
+El tamaño de la mesa y las extensiones describen superficie de apoyo, no necesariamente el máximo ancho cortable. La TC-TS 2025/2 U y la SML2000-8 publican mesa de alrededor de 583 × 563 mm y extensiones de 165 mm a ambos lados. Pensá también dónde va a descansar la tabla antes y después de la hoja: para piezas largas o anchas hace falta un apoyo estable, nivelado con la mesa y que no interfiera con el avance.
+
+### Qué revisar en la guía paralela
+
+Comprobá cómo se fija y dónde traba, si el ajuste queda firme al bloquearlo y cuál es su rango documentado desde la hoja. En la Einhell, el fabricante describe fijación frontal con palanca excéntrica y una escala con lente; la ficha consultada no publica un ancho máximo de rasgado. Para la Lüsqtoff SML2000-8 se declara una regla guía lateral, pero no encontramos publicado su rango ni el mecanismo de fijación. No atribuimos tolerancias ni precisión que no medimos: si el ancho de corte es decisivo, pedí el dato para el código exacto y verificá el ajuste en la unidad.
+
+### Qué necesitás para melamina y tableros
+
+Elegí una hoja cuyo fabricante indique el material y el tipo de máquina: existen hojas dedicadas a paneles laminados, pero no toda hoja incluida ni todo número de dientes garantiza un borde sin astillado. Respetá diámetro, eje, espesor y RPM admitidos por la sierra. Para paneles grandes, prepará apoyo continuo a ambos lados del corte, mantené la cara apoyada y la guía bien ajustada, y hacé una prueba en un retazo; una sierra de banco compacta no reemplaza por sí sola el sistema de incisor de una seccionadora.
+
+### Sierra de banco, circular o ingletadora
+
+| Trabajo principal | Herramienta que suele encajar | Qué tener en cuenta |
+| :--- | :--- | :--- |
+| Rasgar tablas o repetir cortes longitudinales | Sierra de banco | Revisá el rango de la guía paralela y el apoyo de entrada y salida. |
+| Cortar tableros grandes en obra o en un espacio reducido | Sierra circular con guía | La pieza puede quedar apoyada plana; consultá la [guía para sierras circulares](/sierras/circulares/). |
+| Repetir cortes transversales o ingletes en piezas de largo moderado | Ingletadora | Comprobá capacidad de corte y apoyos laterales; no está pensada para rasgar tableros. Ver [ingletadoras](/sierras/ingletadoras/). |
+
 **Análisis TallerLab.** Las fichas declaran la misma altura máxima a 90° y 45°. El disco Lüsqtoff es 5 mm mayor de diámetro y el conjunto pesa 2,26 kg más. No deducimos por eso mayor rigidez ni mejor acabado. La diferencia crítica para comprar repuesto está en el diámetro: hojas de 250 y 255 mm no son intercambiables si exceden el máximo admitido por la máquina.
 
-Antes de decidir, medí la pieza más alta, el ancho a rasgar y el espacio disponible para apoyar la tabla. Confirmá si la extensión suma superficie de apoyo o capacidad de corte y qué accesorios vienen efectivamente en caja. No uses una mesa extensible como sustituto de soportes adecuados para piezas largas.
+### Resguardo, cuchillo divisor y empujador
 
-**Seguridad.** OSHA describe resguardos autoajustables, bastón de empuje para piezas pequeñas y manos fuera de la línea de corte para sierras de mesa en su guía laboral estadounidense. Es una referencia técnica general, no una norma argentina ni reemplaza el manual del equipo.
+Antes de comprar, verificá qué elementos incluye la versión y qué indica su manual. El manual Einhell TC-TS 2025/2 U enumera protector de hoja, cuchillo divisor y empujador en el equipo y en el suministro; para rasgados de piezas de menos de 150 mm indica usar el empujador, y para piezas de 50 mm o menos indica una madera de empuje. Lüsqtoff declara para la SML2000-8 guarda protectora con adaptador de aspiración y barra de empuje. La ficha de este modelo no menciona un cuchillo divisor: confirmalo en el manual de la unidad. En ambos casos, montá y usá los dispositivos según las instrucciones del fabricante.
+
+OSHA también describe resguardos y bastones de empuje para sierras de mesa, pero es una referencia laboral estadounidense, no una norma argentina ni sustituto del manual del equipo.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Einhell TC-TS 2025/2 U](https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/); [Lüsqtoff SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [catálogo Lüsqtoff 2024–2025: discrepancia de diámetro SML2000-8](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [OSHA: resguardos para sierras de mesa](https://www.osha.gov/etools/machine-guarding/saws/table).
+- **Documentación primaria:** [Einhell TC-TS 2025/2 U](https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/); [manual Einhell TC-TS 2025/2 U](https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_70ul9aa9bd67rfuavpn5t7ue5m?attachment%3Bfilename=4340490_21023_001_SPK13.pdf); [Lüsqtoff SML2000-8](https://lusqtoff.com.ar/ver-producto/SML2000-8); [catálogo Lüsqtoff 2024–2025: discrepancia de diámetro SML2000-8](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [hojas Freud para paneles laminados](https://www.freudtools.com/worldwide/en/products/circular-saw-blades/portable-machines/laminated-panel/); [OSHA: resguardos para sierras de mesa](https://www.osha.gov/etools/machine-guarding/saws/table).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

@@ -714,13 +714,13 @@
 
 ### 65. `/generadores/gamma-950/`
 - **Title:** Generador Gamma 950: qué puede alimentar
-- **H1:** Gamma 950: potencia, consumo y limitaciones
+- **H1:** Gamma 950: potencia nominal, autonomía y consumo estimado
 - **H2:**
   - Potencia nominal del modelo
   - Qué se puede conectar
   - Autonomía y mantenimiento
   - Cuándo conviene elegir uno más potente
-- **Resumen:** Análisis del Gamma 950 GE3441AR: 570 W continuos según Gamma, motor 2 tiempos, usos y límites de este modelo discontinuado. El Gamma 950 debe compararse por potencia continua, combustible, consumo y tipo de carga permitida. Antes de conectarle un aparato con motor, verificá su pico de arranque y las salidas admitidas por el equipo.
+- **Resumen:** Análisis documental del Gamma 950 GE3441AR: el manual indica 370 W nominales y 870 W máximos; la ficha actual publica 870 W máximos y 570 W bajo el rótulo ambiguo «Energía Generada Contenida». Incluye escenarios ilustrativos de cargas pequeñas, combustible 2T, mezcla según manual y una estimación de 1,5 L/h derivada de 4,2 L y 2,8 h, no de una prueba a carga determinada.
 
 ### 66. `/generadores/niwa/`
 - **Title:** Generadores Niwa: modelos, diferencias y precios

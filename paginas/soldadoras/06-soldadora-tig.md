@@ -2,7 +2,7 @@
 title: "Soldadora TIG: qué es y qué equipo conviene comprar"
 h1: "Soldadoras TIG: guía para elegir tu equipo"
 url: "/soldadoras/tig/"
-description: "Matriz de equipos TIG por proceso, corriente, ciclo y alimentación: distingue AC/DC ESAB ET 200i, TIG DC de Lüsqtoff ST-200 discontinuada y PROTIG180-8 con parámetros de ciclo publicados."
+description: "Guía para elegir TIG por material, corriente AC/DC, encendido, ciclo de trabajo y alimentación; compara equipos ESAB y Lüsqtoff documentados."
 author: "Joaquín Vallasciani"
 category: "Soldadoras y Soldadura"
 keywords: ["soldadora tig", "soldadora tig inverter", "soldar tig argentina", "tig alta frecuencia", "soldadora tig ac dc"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Matriz de equipos TIG por proceso, corriente, ciclo y alimentación: distingue AC/DC ESAB ET 200i, TIG DC de Lüsqtoff ST-200 discontinuada y PROTIG180-8 con parámetros de ciclo publicados."
+information_asset: "Criterios de elección TIG por material, funciones, ciclo y alimentación, con matriz de necesidades y comparación documentada de equipos."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
+**Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo indicado. Esta guía es documental, sin prueba física ni muestra de opiniones. Las funciones que una ficha no confirma se identifican como **No confirmado**.
 
 ## Cómo investigamos esta guía
 
@@ -30,27 +30,61 @@ published: true
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Última revisión: 28/09/2026
 
-| Modelo | Proceso que declara el fabricante | Rango / puntos de ciclo TIG | Estado o restricción visible |
+## Qué es TIG y para qué sirve
+
+TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumible, protegido por gas. El material de aporte se agrega por separado cuando la junta lo necesita. Este control del arco y del aporte sirve para trabajos donde importan el acabado y el control del baño, por ejemplo en acero al carbono e inoxidable. El resultado también depende de la preparación, el espesor, la junta y la práctica del soldador; que una máquina diga “TIG” no basta para confirmar todos los materiales o funciones.
+
+En una fuente TIG también hay que revisar qué incluye el conjunto: como mínimo pueden hacer falta antorcha compatible, tungsteno, gas y su regulación, material de aporte apropiado y protección personal. Los accesorios incluidos cambian según modelo y publicación.
+
+## Diferencias entre DC y AC/DC
+
+En la [ficha de la ESAB ET 200i AC/DC](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/), la marca declara salida TIG AC y DC, con salida AC para aluminio y aleaciones indicadas, y DC para los demás metales. Para elegir una TIG destinada a aluminio, buscá que la ficha del modelo y su versión declaren explícitamente TIG AC; la sigla del nombre por sí sola no alcanza.
+
+Una TIG DC puede servir para acero al carbono e inoxidable cuando el fabricante identifica esos materiales, pero no debe presentarse como solución para aluminio sin confirmación de corriente AC. La [Lüsqtoff ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) se describe como TIG DC/MMA y la [PROTIG180-8](https://lusqtoff.com.ar/ver-producto/PROTIG180-8) no publica en su ficha consultada una salida TIG AC: por eso no las recomendamos para aluminio sobre la base de esta documentación.
+
+## Encendido y funciones importantes
+
+- **HF (alta frecuencia):** inicia el arco sin que el tungsteno toque la pieza. ESAB lo destaca en la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) para facilitar el encendido y evitar contaminación de tungsteno y pieza. El [manual ST-200](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf) también identifica encendido HF.
+- **Lift TIG:** requiere tocar y levantar la antorcha para iniciar el arco. La [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) declara Lift TIG además de HF. Que una fuente ofrezca Lift no significa que también tenga HF; verificá ambos modos si necesitás elegir entre ellos.
+- **AC/DC:** en TIG, la salida AC/DC de la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) permite seleccionar los modos que ESAB asocia con aluminio y otros metales. No extrapoles esta capacidad a una máquina que sólo declara TIG DC.
+- **Pulso:** la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) documenta TIG pulsado en AC o DC y señala control del aporte de calor, en particular para espesores pequeños. No es un requisito universal: comprobá que la función figure en el equipo concreto.
+- **2T/4T:** la [ficha ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) y su [manual](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf) documentan ambos modos. El manual describe una secuencia de 4T donde se suelta y vuelve a accionar el interruptor durante la soldadura, con rampas y cierre de gas según el ajuste; sirve para gestionar la secuencia sin mantener apretado el gatillo todo el tiempo. No es lo mismo que cuatro niveles de corriente.
+- **Pedal:** es un mando remoto que puede iniciar/detener y regular la corriente de manera continua, según la [ficha del accesorio ESAB T1](https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/). **No confirmado** como compatible con los modelos comparados aquí: antes de comprar, verificá conexión, compatibilidad y si viene incluido.
+- **Pre y post gas:** el preflujo hace circular gas antes del arco y el postflujo lo mantiene al finalizar. [ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) declara un preflujo de 0,1 s y postflujo ajustable; no tomes esos valores como universales ni los atribuyas a otros equipos. [ESAB describe el postflujo](https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/) como protección del tungsteno y del metal caliente frente a la oxidación.
+
+## Equipos según uso y presupuesto
+
+Primero resolvé material, duración de las pasadas y red disponible. Después compará modelos. Sin precios equivalentes y vigentes para todos los equipos y accesorios, no asignamos rangos monetarios: el costo de entrada también depende del gas, el regulador, la antorcha y los consumibles que haya que sumar.
+
+| Necesidad | Criterio de elección | Ruta interna |
+| :--- | :--- | :--- |
+| Acero al carbono o inoxidable | Elegí TIG DC si la ficha del modelo confirma el material y el ciclo de trabajo alcanza para tus pasadas. | [Comparar fuentes TIG AC/DC y alimentación](/soldadoras/soldadora-tig-ac-dc/) |
+| Aluminio | Exigí TIG AC explícito; compará además rango y ciclo en AC. La ET 200i declara AC/DC; la TIG350ACDC-9 es una alternativa trifásica documentada. | [Ver equipos TIG AC/DC para aluminio](/soldadoras/soldadora-tig-ac-dc/) |
+| Trabajo eventual | Priorizá la compatibilidad con la red y los materiales, facilidad de encendido y accesorios incluidos. El amperaje máximo no describe por sí solo la duración de trabajo. | [Ver guía de soldadoras para casa y taller](/soldadoras/) |
+| Trabajo prolongado o repetitivo | Compará el ciclo de trabajo a la corriente que realmente necesitás. Si la aplicación demanda pasadas largas, no extrapoles un punto de ciclo a otro amperaje. | [Comparar ciclos TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) |
+| Red monofásica de 220 V | Las ET 200i, ST-200 y PROTIG180-8 aquí documentadas declaran alimentación monofásica de 220 V. Aun así, cotejá corriente de entrada y requisitos de instalación con el manual del modelo exacto. | [Ver la comparación por tensión y fases](/soldadoras/soldadora-tig-ac-dc/) |
+| Red trifásica de 380 V | La TIG350ACDC-9 declara 380 V trifásicos; confirmá disponibilidad de esa red y que los accesorios necesarios estén incluidos (la marca informa que su cable de alimentación no está incluido). | [Ver TIG AC/DC de 220 V y 380 V](/soldadoras/soldadora-tig-ac-dc/) |
+
+### Modelos documentados
+
+| Modelo | Proceso y funciones que declara la fuente | Corriente / ciclo TIG publicados | Alimentación, estado y qué tener en cuenta |
 | :--- | :--- | :--- | :--- |
-| ESAB ET 200i AC/DC | TIG AC/DC y MMA | 5–200 A; 200 A/20%, 116 A/60%, 90 A/100% | 220 V monofásica; 22 kg |
-| Lüsqtoff ST-200 | TIG HF y MMA DC | TIG 10–200 A; 200 A/60%, 100 A/100% | Página la marca discontinuada; 220 V monofásica |
-| Lüsqtoff PROTIG180-8 | Inverter TIG y MMA; la página citada no especifica corriente AC | TIG 180 A al 30%; MMA 160 A al 30% | 220 V/50 Hz; 5,2 kg; ficha declara garantía de 2 años |
+| ESAB ET 200i AC/DC (0738827) | TIG AC/DC y MMA; HF, Lift y pulso TIG AC/DC | 200 A/20%; 116 A/60%; 90 A/100% | 220 V ±10%, monofásica; 22 kg. Consultá el kit exacto para confirmar accesorios. |
+| Lüsqtoff ST-200 | TIG DC y MMA; HF y Lift, modos 2T/4T, pre/post gas y rampa de descenso | 10–200 A; 200 A/60%, 100 A/100% | 220 V monofásica; 8 kg. La marca la identifica como **discontinuada**; tomar sólo como referencia documental o unidad usada, con estado y accesorios por verificar. |
+| Lüsqtoff PROTIG180-8 | Inverter TIG y MMA. **No confirmado:** salida AC/DC, tipo de encendido, pulso, 2T/4T, pedal y secuencia de gas en la ficha consultada. | TIG 180 A al 30% | 220 V/50 Hz; 5,2 kg. La ficha lista antorcha WP-17 de 4 m, pinza de masa con cable de 2 m y pinza portaelectrodo. |
+| Lüsqtoff TIG350ACDC-9 | TIG AC/DC y MMA según ficha del modelo | 5–315 A; 315 A/40% | 380 V trifásica; 31,5 kg. La marca indica que el cable de alimentación no está incluido. |
 
-**Dato documentado:** la ficha ESAB identifica explícitamente TIG AC/DC. Lüsqtoff ST-200 se describe como “TIG dual / DC-MMA” y está discontinuada. La página PROTIG180-8 informa corrientes y ciclo, pero no se usa para afirmar compatibilidad TIG AC.
+**Análisis TallerLab:** para uso ocasional en acero/inoxidable, una fuente TIG DC puede cubrir la necesidad si coincide el ciclo, el encendido y la instalación. Para aluminio, priorizá una fuente con TIG AC explícito. Para pasadas prolongadas, compará ciclo a la corriente de trabajo, y para decidir entre monofásica y trifásica, partí de la red realmente disponible, no sólo del amperaje máximo.
 
-**Análisis TallerLab:** un nombre “TIG” no confirma salida AC/DC, tipo de encendido ni proceso de electrodo. Si se necesita TIG AC para aluminio, confirmar esa función en la ficha/manual del código exacto; para cualquier compra, cotejar rango, ciclo, frecuencia de red y accesorios incluidos.
-
-**Desconocido:** no se determinaron aleación, espesor, corriente necesaria, gas, electrodo de tungsteno ni aporte para una pieza específica. La disponibilidad actual de ST-200 no está confirmada y no extrapolamos su ficha a otro modelo.
+**Desconocido:** no se determinaron aleación, espesor, corriente necesaria ni preparación de una pieza concreta. Tampoco se confirmó compatibilidad con pedal para los tres modelos comparados inicialmente, precio actualizado común, ni el contenido de todas las publicaciones comerciales.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [ESAB ET 200i AC/DC](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [Lüsqtoff ST-200, modelo discontinuado](https://lusqtoff.com.ar/ver-producto/ST-200); [Lüsqtoff PROTIG180-8](https://lusqtoff.com.ar/ver-producto/PROTIG180-8); [catálogo oficial de soldadoras](https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter).
+- **Documentación primaria:** [ESAB ET 200i AC/DC, funciones y especificaciones](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [Lüsqtoff ST-200, ficha y estado discontinuado](https://lusqtoff.com.ar/ver-producto/ST-200); [manual oficial ST-200](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf); [Lüsqtoff PROTIG180-8, ficha e incluidos](https://lusqtoff.com.ar/ver-producto/PROTIG180-8); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9); [guía técnica TIG de ESAB](https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/); [pedal TIG ESAB T1](https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [fichas de fuentes TIG AC/DC y alimentación](/soldadoras/soldadora-tig-ac-dc/).
 
 Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadoras/).

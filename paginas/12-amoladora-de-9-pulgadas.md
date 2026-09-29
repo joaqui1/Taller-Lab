@@ -41,7 +41,6 @@ Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no 
 | Stanley STGL2223-AR [Ver precio en Mercado Libre](https://meli.la/2mkrd45){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 

@@ -1,45 +1,69 @@
 ---
-title: "Ingletadora DeWalt: comparativa y guía de compra"
+title: "Ingletadora DeWalt: modelos regionales y guía de compra"
 h1: "Qué ingletadora DeWalt elegir"
 url: "/sierras/ingletadoras-dewalt/"
-description: "Comparación documental de las DeWalt DWS713 y DWS780: capacidad publicada, bisel y diferencias de cabezal."
+description: "Compará las ingletadoras DeWalt regionales DWS713-AR y DWS780-AR por capacidad, disco, bisel, peso y espacio de trabajo."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
-keywords: ["ingletadora dewalt", "sierra ingletadora dewalt", "dewalt dws713", "dewalt dws780", "ingletadora telescopica dewalt"]
+keywords: ["ingletadora dewalt", "sierra ingletadora dewalt", "dewalt dws713-ar", "dewalt dws780-ar", "ingletadora telescopica dewalt"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "DWS713 y DWS780: cabezal fijo o deslizante"
+information_asset: "Fija o telescópica: comparación con variantes regionales"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Qué ingletadora DeWalt elegir
 
-**Dato documentado:** comparamos las capacidades y características que DeWalt publica para DWS713 y DWS780 en su catálogo estadounidense. No asumimos disponibilidad ni compatibilidad eléctrica local.
+Para comparar una fija con una telescópica, tomamos dos códigos regionales documentados: DWS713-AR y DWS780-AR. Los manuales consultados identifican versiones de 220 V y 50 Hz. Eso permite orientar la elección por tamaño y tipo de trabajo; no confirma que toda oferta con esos nombres corresponda a esa tensión o a la misma revisión.
 
-## DWS713 y DWS780: cabezal fijo o deslizante
+## DWS713-AR o DWS780-AR
 
-| Dato publicado | DWS713 | DWS780 |
+| Dato documentado | DWS713-AR, manual regional | DWS780-AR, manual regional |
 | :--- | :--- | :--- |
-| Diseño | Fija, bisel simple | Deslizante, doble bisel |
+| Mecanismo | Cabezal fijo, bisel simple | Cabezal deslizante, doble bisel |
+| Alimentación | 220 V / 50 Hz | 220 V / 50 Hz |
+| Potencia y velocidad | 2.200 W; 5.000 rpm | 1.675 W; 3.800 rpm |
 | Disco | 10 in (254 mm) | 12 in (305 mm) |
-| Capacidad a 90° | Madera 2 × 6 in | Madera 2 × 14 in |
-| Capacidad a 45° | Madera 2 × 4 in | Madera 2 × 10 in |
-| Bisel | 0–48° izquierda; 0–3° derecha | 49° izquierda y derecha |
+| Eje/encastre de hoja | Orificio de mandril de 5/8 in (16 mm) | El manual describe adaptador para hojas con orificio de 1 in (25,4 mm); hay diferencias con el catálogo regional, detalladas abajo |
+| Inglete | 50° a izquierda y derecha | 50° a izquierda; 60° a derecha |
+| Bisel | 48° izquierda; 3° derecha | 49° a izquierda y derecha |
+| Capacidad a inglete 0° | Máximo de 155 mm de ancho y 89 mm de alto; no son necesariamente simultáneos. A 155 mm de ancho, el diagrama indica 32 mm de alto resultante | Máximo de 349 mm de ancho con 76 mm de alto resultante; a 112 mm de alto, el ancho resultante es 231 mm |
+| Capacidad a inglete 45° | Máximo de 107 mm de ancho y 89 mm de alto; a 107 mm de ancho, 61 mm de alto resultante | Máximo de 244 mm de ancho con 76 mm de alto resultante; a 112 mm de alto, el ancho resultante es 147 mm |
+| Peso publicado | No figura en el manual regional consultado | 24 kg en el catálogo regional consultado |
+| Contenido de caja documentado | Hoja, llave, bolsa para polvo, bloqueo de inglete y prensa vertical | Hoja, llave, bolsa para polvo y prensa; confirmá accesorios de la unidad ofrecida |
 
-**Análisis TallerLab.** En las capacidades publicadas a 90°, DWS780 agrega 8 in de ancho nominal frente a DWS713; a 45°, agrega 6 in. Es una diferencia de ficha y no una prueba de corte. El carro deslizante y el disco mayor son relevantes si la pieza supera el límite del modelo fijo; si no, agregan volumen sin resolver una necesidad de capacidad.
+La capacidad no es una sola medida: depende de la combinación de ancho, alto, inglete y bisel. Para dimensionar una moldura o tabla, usá el diagrama del manual de la revisión exacta; no supongas que los máximos de ancho y altura se pueden alcanzar juntos.
 
-**Declaración del fabricante.** DeWalt ofrece DWS780 con sistema XPS de alineación de línea de corte; DWS713 utiliza topes de inglete y bisel simple. No medimos precisión de ninguno.
+### Cuál elegir según el trabajo
 
-**Desconocido.** La fuente estadounidense lista DWS779 como discontinuada. Los códigos DWS713 y DWS780 consultados no son una validación de venta argentina; verificá placa, tensión, garantía y manual del producto ofrecido. El DWS780 de la ficha consultada indica 110 V.
+- **Cortes transversales e ingletes en piezas de hasta la capacidad de la DWS713-AR:** el cabezal fijo resuelve esos cortes sin el recorrido de rieles de una telescópica. Compará la sección completa de la pieza con el diagrama del manual.
+- **Tablas anchas, cortes repetitivos o biseles hacia ambos lados:** la DWS780-AR documenta mayor capacidad transversal y doble bisel. Su carro necesita espacio para deslizarse y apoyo para las piezas largas.
+- **Taller con poco espacio o traslado frecuente:** considerá el diseño sin carro telescópico de la DWS713-AR. El manual consultado no publica su peso; no extrapoles el peso de otra variante DW713.
+- **Trabajos que combinan inglete y bisel:** revisá el rango y la capacidad para el ángulo compuesto exacto. La capacidad máxima a 90° no describe ese corte.
+
+### Disco, mesa y espacio de trabajo
+
+El diámetro de hoja no basta para comprar un repuesto: verificá diámetro, orificio, espesor y velocidad permitida contra el manual y el conjunto de bridas de la sierra. El manual regional de DWS713-AR prescribe una hoja de 254 mm con orificio de 16 mm. Para DWS780-AR, la documentación no coincide entre revisiones: el manual explica un adaptador para hoja de 25,4 mm, mientras que el catálogo argentino consultado publica eje de 30 mm. Confirmá el tipo de la máquina y la brida antes de comprar una hoja.
+
+La DWS713-AR no requiere recorrido de rieles; dejá lugar para colocar y sostener la pieza a ambos lados de la hoja. La DWS780-AR sí necesita despeje en el sentido de deslizamiento, además del espacio para el largo del material. No encontramos una medida oficial única del área total de instalación. Presentá la sierra en su posición de uso, recorré el carro completo sin energía y medí también el espacio de apoyo antes de fijar el banco.
+
+### Antes de comprar: confirmá el código y la revisión
+
+Los documentos regionales no siempre coinciden. El manual DWS780-AR consultado especifica 3.800 rpm y un adaptador para hojas con orificio de 25,4 mm; el catálogo argentino consultado publica 3.600 rpm, eje de 30 mm, 406 mm de ancho máximo y 100 mm de altura máxima a 90°. El manual, en cambio, presenta combinaciones de ancho y alto distintas en su tabla. Además, una página DeWalt latinoamericana para DWS780 sin sufijo AR indica 110 V. Para la DWS713-AR, el manual regional actual consultado publica 2.200 W; un catálogo argentino anterior describe DW713-AR (sin la “S”) con 1.600 W. No mezcles códigos ni trasladés datos de una revisión a otra.
+
+Antes de pagar, pedí foto de la placa y del código completo, el manual que corresponde al tipo de la unidad y confirmación escrita de tensión, disco/eje, accesorios, garantía y servicio local. La disponibilidad del código puede cambiar; la documentación técnica no prueba stock actual.
+
+**Alcance:** no probamos exactitud, calidad de acabado, duración ni capacidad real de corte. Las cifras son especificaciones documentales, no resultados de un ensayo comparativo.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [DeWalt DWS713](https://www.dewalt.com/en-us/product/dws713/15a-10-single-bevel-compound-miter-saw); [DeWalt DWS780](https://www.dewalt.com/en-us/product/dws780/12-double-bevel-sliding-compound-miter-saw); [catálogo DeWalt de ingletadoras, con estado de DWS779](https://www.dewalt.com/en-us/products/power-tools/saws/miter-saws).
-- **Opiniones:** no se usaron las reseñas visibles en las páginas de producto.
+- **Documentación primaria:** [manual DeWalt DWS713-AR, tipo 20](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS713/20/Instruction_Manual/EN/NA423966_DWS713_AR.pdf); [manual regional DWS780-AR](https://ec.dewalt.global/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf); [catálogo argentino DeWalt 2018, DW713-AR y DWS780-AR](https://www.adbarbieri.com/hubfs/WEB2018/especificaciones-tecnicas/Dewalt-catalogo.pdf?hsLang=es); [página DeWalt regional DWS780](https://www.dewalt.com.co/es-co/producto/dws780/sierra-ingleteadora-telescopica-de-12-305mm-de-1675w), que muestra 110 V para el producto publicado allí.
+- **Disponibilidad local observada:** [oferta argentina DWS780-AR](https://www.fava.com.ar/sierra-ingletadora-dws780-ar-fvering015); es una referencia de venta, no una fuente para resolver diferencias técnicas entre revisiones.
+- **Opiniones:** no se usó una muestra verificable.
 
-[Ver todas las guías de sierras](/sierras/).
+[Ver la guía general de ingletadoras](/sierras/ingletadoras/). [Ver todas las guías de sierras](/sierras/).

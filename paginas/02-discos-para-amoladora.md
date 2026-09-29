@@ -99,7 +99,6 @@ Estos ejemplos muestran cómo una tabla separa operación, material y geometría
 | Cortar azulejo | PRO Ceramic 2 608 602 478 | Azulejos/cerámica | 115 × 1,4 × 22,23 mm |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Alcance de la matriz:** las aplicaciones y dimensiones corresponden a los códigos Bosch enlazados abajo. En los cinco casos aparece un diámetro de 115 mm, pero cambian la operación, el espesor, el diseño y el material declarado. No se deduce compatibilidad con otros materiales o fijaciones.
 
 ## Fuentes consultadas

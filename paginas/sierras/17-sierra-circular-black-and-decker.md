@@ -2,7 +2,7 @@
 title: "Sierra circular Black+Decker: qué modelo elegir"
 h1: "Cómo elegir una sierra circular Black+Decker"
 url: "/sierras/circulares-black-decker/"
-description: "Comparamos CS1004B2 de 220 V y CS1024-BR de 127 V con fichas oficiales regionales."
+description: "Compará sierras circulares Black+Decker regionales de 220 V por capacidad, disco, bisel, peso y accesorios documentados."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra circular black and decker", "black decker cs1004", "black decker cs1024", "sierra circular 1400w", "sierra circular bricolaje"]
@@ -11,35 +11,46 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Códigos B+D: tensión y hoja incluida"
+information_asset: "Variantes Black+Decker de 220 V y sus límites documentados"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Cómo elegir una sierra circular Black+Decker
 
-Comparamos CS1004B2 de 220 V con CS1024-BR de 127 V, según fichas oficiales regionales. Es una comparación de códigos, no una recomendación de conectar una variante de 127 V a la red argentina.
+Para el público argentino, comparo la CS1004-AR con la variante de 220 V documentada en el manual de la CS1350P. La CS1024-BR queda como advertencia: sus 1.500 W no compensan que esa variante esté especificada para 127 V. Comprobá siempre el sufijo y la placa de la unidad ofrecida.
 
-## Códigos B+D: tensión y hoja incluida
+## Dos sierras regionales de 220 V
 
-| Dato documentado | CS1004B2 | CS1024-BR |
+| Dato publicado | CS1004-AR | CS1350P (variante AR) |
 | :--- | :--- | :--- |
-| Tensión indicada | 220 V | 127 V |
-| Potencia anunciada | 1.400 W | 1.500 W |
-| Disco anunciado | 184 mm (7-1/4 in) | 184 mm (7-1/4 in) |
-| Hoja incluida | 18 dientes | 18 dientes |
-| Garantía publicada en la ficha regional | 1 año | 1 año |
+| Tensión | 220 V, 50 Hz | 220 V, 50 Hz |
+| Potencia | 1.400 W | 1.350 W |
+| Diámetro del disco | 184 mm | 184 mm |
+| Eje / agujero | 15,9 mm (5/8 in) | 15,9 mm (5/8 in) |
+| Profundidad máxima publicada | 62 mm; el cuadro no indica el ángulo | 62 mm; el cuadro no indica el ángulo |
+| Profundidad a 45° | No especificada en el manual consultado | No especificada en el manual consultado |
+| Bisel | Hasta 45° | Hasta 45° |
+| Peso | 3,6 kg | 3,2 kg |
+| Guía paralela | La ficha argentina incluye una | El manual no confirma si viene incluida |
+| Extracción de polvo | No se documenta un puerto o sistema en ficha/manual | No se documenta un puerto o sistema en el manual |
 
-**Análisis TallerLab.** El modelo CS1024 anuncia 100 W más, pero su ficha es para 127 V. La CS1004B2 indica 220 V, por lo que es el código eléctricamente coincidente con una red nominal argentina de 220 V. No traslades otras prestaciones de un código regional al otro.
+Los manuales consultados indican que ambas máquinas están diseñadas para cortar madera. Sus profundidades máximas publicadas son 62 mm, pero no las presentan como una capacidad distinta para cortes a 90° y 45°; no infiero una cifra para el corte inclinado. El bisel máximo de 45° describe el ángulo de la base, no la profundidad a ese ángulo.
 
-**Dato documentado.** Black+Decker lista un disco de accesorio 71-727 de 184 mm, agujero 5/8 in, compatible con CS1004 y CS1024. Para la variante argentina concreta, contrastá el diámetro interior y la placa/manual antes de comprar; el modelo del accesorio no reemplaza esa comprobación.
+### Cuál cubre cada situación
 
-**Desconocido.** Las fichas brasileñas consultadas no documentan profundidad máxima ni peso para ambos códigos. No afirmamos que CS1004B2 sea idéntico a todas las versiones vendidas localmente.
+Las dos variantes de 220 V documentan uso para madera y una profundidad máxima de 62 mm. Por eso cubren cortes manuales en piezas de madera que entren en ese límite publicado; para cortes longitudinales, la guía paralela de la CS1004-AR ayuda a seguir el borde de la pieza. La cifra de 62 mm no especifica el ángulo y no demuestra que cada modelo tenga la misma capacidad en cualquier posición de bisel.
+
+- **Cortes de madera y guía incluida:** la CS1004-AR es la alternativa con ficha local y guía paralela identificada en el contenido de caja.
+- **Querés una segunda variante regional documentada:** el manual de CS1350P identifica 220 V, 50 Hz para la variante AR y publica peso, bisel y profundidad máxima. Antes de comprar, verificá que la placa coincida con esa variante y preguntá qué incluye el paquete: no encontré una página de producto argentina que confirme el kit.
+- **Aparece una CS1024-BR de 1.500 W:** tratala como variante de 127 V, no como una opción para conectar directamente a la red argentina de 220 V. Los 100 W nominales adicionales no cambian ese límite eléctrico.
+
+Los valores del manual de CS1350P corresponden a la variante regional identificada como AR, no a CS1350P-BR de 127 V. No transfieras profundidad, peso o voltaje entre sufijos.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [CS1004B2, 220 V](https://br.blackanddecker.global/produto/cs1004b2/serra-circular-7-14-184mm-1400w-220v); [CS1024-BR, 127 V](https://br.blackanddecker.global/produto/cs1024-br/serra-circular-7-14-184mm-1500w-127v); [disco 71-727 y compatibilidad publicada](https://br.blackanddecker.global/produto/71-727/disco-para-serra-circular).
+- **Documentación primaria:** [ficha Black+Decker Argentina CS1004-AR](https://ar.blackanddecker.global/producto/cs1004-ar/sierra-circular-1400-w); [manual CS1004, con especificaciones para la variante AR de 220 V](https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/BR/CS1004/1/Instruction_Manual/EN/90638887_CS1004.pdf); [manual Black+Decker CS1350P, con fila de especificaciones AR 220 V](https://support.blackanddecker.com/hc/pt/article_attachments/360018582394); [ficha CS1024-BR, 127 V](https://br.blackanddecker.global/produto/cs1024-br/serra-circular-7-14-184mm-1500w-127v).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

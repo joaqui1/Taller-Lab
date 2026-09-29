@@ -342,14 +342,6 @@ BUYING_NOTES.update({
         ["Modelo, nominal y manual de la unidad", "Marcha/arranque, tensión y fase de cada carga", "Combustible, precio, contenido y garantía"],
         [("https://meli.la/2jcLSy1", "Consultar Pektra GPK980"), ("https://meli.la/2bL6gVj", "Consultar Pektra GPK2200"), ("https://meli.la/1nUAUuv", "Consultar Philco GE-PH2500ALP")],
         ("/generadores/para-casa/", "Preparar el inventario de cargas")),
-    "/generadores/precios/": note(
-        "Cotizá la configuración que responde a tu carga",
-        "Para obtener importes confirmados de las publicaciones Pektra/Philco registradas, en una sección distinta de los PVP Lüsqtoff históricos.",
-        "Los enlaces permiten pedir precio, vendedor y configuración para completar la calculadora con datos propios.",
-        "No se recotizaron estos referidos ni se confirmó stock. Los PVP Lüsqtoff del 27/09/2026 no son sus precios ni validan equivalencia entre equipos.",
-        ["Modelo y nominal en la misma unidad", "Fecha/hora, vendedor y precio contado/financiado", "Envío, extras, stock observado y garantía"],
-        [("https://meli.la/2jcLSy1", "Consultar precio de GPK980"), ("https://meli.la/2bL6gVj", "Consultar precio de GPK2200"), ("https://meli.la/1nUAUuv", "Consultar precio de Philco")],
-        ("/generadores/comparativa-general/", "Elegir primero por carga y documentación")),
 })
 
 

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "TS223558: código base y ficha de fábrica"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -32,9 +32,23 @@ La ficha de TOTAL documenta el modelo TS223558. En Argentina se encuentra una of
 | Capacidad máxima declarada | Redondo 100 mm; cuadrado 100 × 100 mm; rectangular 120 × 100 mm; barra 50 mm |
 | Disco incluido | 1 disco de 355 mm |
 
-**Análisis TallerLab.** El disco de 355 mm no representa la sección que la máquina puede cortar. La tabla de TOTAL declara límites por geometría; no los extrapolamos a otras formas, cortes en ángulo o materiales. El sufijo -4 aparece en una publicación argentina de un vendedor, mientras la ficha técnica de fábrica consultada usa TS223558. Confirmá el código completo y garantía del importador.
+### Checklist antes de comprar
 
-**Desconocido.** La ficha de fábrica no publica aquí peso, ciclo de trabajo ni contenido completo de caja. No afirmamos uso continuo ni “industrial”. Para contrastarla con otra sensitiva, consultá la [CM-14K de Lüsqtoff](/sierras/sensitivas-lusqtoff/) y compará capacidad por forma, no solo potencia.
+- Pedí una foto legible de la placa y verificá el código completo, incluido cualquier sufijo como **-4**.
+- Confirmá que la placa indique **220–240 V** y sea compatible con la instalación donde la vas a usar.
+- Verificá el disco: **355 × 25,4 mm**. La ficha de fábrica del código base no especifica el espesor, así que confirmá ese dato y que el consumible corresponda al material que cortarás.
+- Contrastá las **3.700 rpm** de velocidad en vacío de la ficha con la unidad y con la velocidad admisible del disco.
+- Compará la sección real de tus piezas con la capacidad declarada para su geometría: tubo redondo hasta 100 mm, cuadrado hasta 100 × 100 mm, rectangular hasta 120 × 100 mm y barra hasta 50 mm. No extrapoles estas medidas a otros perfiles ni a cortes angulares.
+- Pedí una lista o foto del **contenido de caja**. La ficha de fábrica declara un disco de corte de 355 mm; no detalla otros accesorios.
+- Revisá por escrito quién importa el producto en Argentina, quién responde por la garantía y qué documentación acompaña la venta.
+
+**Análisis TallerLab.** El disco de 355 mm no representa por sí solo la sección que la máquina puede cortar. La ficha de TOTAL declara límites por geometría; no los extrapolamos a otras formas, cortes en ángulo o materiales.
+
+**Datos sin confirmar en documentación primaria consultada.** La ficha de fábrica no indica el peso ni detalla apertura/tipo de morsa, regulación angular o protección contra chispas. Verificalos en el manual o la unidad identificada por su código completo antes de atribuirle esas características.
+
+El sufijo **-4** aparece en una publicación argentina de vendedor, mientras la ficha técnica de fábrica consultada usa **TS223558**. Esa publicación sirve para comprobar que la variante local se ofrece con ese sufijo, no para derivar especificaciones técnicas.
+
+**Alcance de esta guía.** La ficha de fábrica no publica ciclo de trabajo; por eso no afirmamos que admita uso continuo. Para contrastarla con otra sensitiva, consultá la [CM-14K de Lüsqtoff](/sierras/sensitivas-lusqtoff/) y compará capacidad por forma, no solo potencia.
 
 ## Fuentes consultadas
 

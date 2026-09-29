@@ -34,7 +34,6 @@ La comparación de partida conserva dos modelos con cable de 115 mm:
 | 9557HPG [Ver precio en Mercado Libre](https://meli.la/1H9UWLN){:target="_blank" rel="sponsored noopener"} | 840 W | 115 mm | 11.000 rpm | 1,7–2,2 kg | Paleta |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 **Dato documentado:** la ficha argentina de Makita identifica estos valores para GA4534 y 9557HPG. 9557HPG declara 120 W más de potencia absorbida que GA4534 (16,7 % sobre 720 W), mientras ambas publican el mismo diámetro y velocidad en vacío. Es una diferencia de ficha; no predice rapidez de corte, resistencia bajo carga ni vida útil. Los rangos de peso se superponen y no permiten establecer una diferencia exacta sin fijar configuración y método de medición.
 
 La 9557HPG local se describe con cuerpo delgado, interruptor de paleta y barniz protector contra polvo o residuos. La GA4534 también usa interruptor de paleta; su ficha resalta el diseño compacto y la protección interna contra polvo. Son características declaradas por Makita, no resultados de ensayos propios.

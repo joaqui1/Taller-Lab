@@ -55,7 +55,6 @@ Los rangos siguientes son los publicados para los códigos indicados. Son veloci
 | [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) [Ver precio en Mercado Libre](https://meli.la/1KHbTXG){:target="_blank" rel="sponsored noopener"} | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 

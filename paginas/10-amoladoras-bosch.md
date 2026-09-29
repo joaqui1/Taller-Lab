@@ -32,7 +32,6 @@ No hay una única Bosch para todos los trabajos. Empezá por el diámetro que ne
 | Alternativa de 115 mm con cable | GWS 770 | Ficha Bosch Brasil de 220 V; confirmar código, distribución y garantía en la oferta argentina. |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 <!-- EDITORIAL-COMMERCE -->
 ## GWS 700 vs GWS 850

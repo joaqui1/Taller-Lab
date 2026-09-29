@@ -2,7 +2,7 @@
 title: "Sierra sable: para qué sirve y cuál elegir"
 h1: "Sierra sable: guía de usos y compra"
 url: "/sierras/sable/"
-description: "Comparación de sierras sable Bosch con cable y batería por carrera, velocidad, peso y capacidad declarada."
+description: "Usos de la sierra sable, elección de hoja por material y comparación Bosch entre modelos con cable y batería."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["sierra sable", "que es sierra sable", "hojas sierra sable", "sierra sable para demolicion", "sierra sable a bateria"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Cable o batería: dos fichas Bosch comparables"
+information_asset: "Usos, selección de hoja y cable frente a batería"
 asset_status: "verificado"
 reviewed: "27/09/2026"
 published: true
@@ -19,9 +19,33 @@ published: true
 
 # Sierra sable: guía de usos y compra
 
-Las fichas argentinas de GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. La diferencia documentada está en alimentación, carrera, peso del cuerpo y velocidad sin carga.
+## Usos y criterios de elección
 
-## Cable o batería: dos fichas Bosch comparables
+### Qué podés cortar con una sierra sable
+
+Una sierra sable puede cortar madera, caños y perfiles metálicos cuando la hoja está indicada para ese material y espesor. También se usa en trabajos de demolición, por ejemplo para separar madera con clavos si se monta una hoja que el fabricante especifica para esa combinación. El cuerpo alargado permite abordar cortes en rincones o lugares donde cuesta maniobrar una sierra con base grande. La máquina no determina por sí sola el uso: revisá hoja, capacidad y recomendaciones de ambos fabricantes.
+
+### Cuándo una sable no es la herramienta indicada
+
+- **Cortes limpios y controlados en tableros:** elegí una [caladora](/sierras/caladoras/) para seguir trazos o hacer cortes con control de apoyo; para cortes largos y rectos, una sierra circular con guía puede ser más adecuada.
+- **Perfiles repetitivos a medida:** una [sensitiva](/sierras/sensitivas/) o una [sierra de banda para metal](/sierras/sin-fin-metal/) mantiene la pieza apoyada y sujeta durante cada corte; compará capacidad para la sección exacta.
+- **Cortes longitudinales precisos:** una [sierra circular](/sierras/circulares/) con guía o una [sierra de banco](/sierras/de-banco/) ofrece apoyo continuo para llevar el corte recto. La sable es más libre, pero el resultado depende mucho de cómo se guíen herramienta y pieza.
+
+### Cómo elegir la hoja
+
+La tabla muestra ejemplos de hojas Bosch con uso, TPI y longitud publicados por su fabricante. Son referencias de productos concretos, no una regla universal: comprobá el espesor/capacidad declarados y el encastre de la hoja antes de instalarla.
+
+| Material o trabajo | Ejemplo de hoja del fabricante | TPI | Longitud total |
+| :--- | :--- | ---: | ---: |
+| Madera de construcción | Bosch S 644 D, HCS, indicada para madera de construcción | 6 | 150 mm |
+| Tubos o perfiles metálicos de pared delgada (1,5–4 mm, según Bosch) | Bosch S 922 EF, bimetálica, indicada para metal | 18 | 150 mm |
+| Madera con clavos blandos o piezas de metal no ferroso/acero suave incrustadas en madera | Bosch S 922 VF, bimetálica de dentado variable | 10–14 | 150 mm |
+
+En la fila de metal, el rango de espesor recomendado corresponde específicamente a la S 922 EF. La longitud total no es profundidad de corte: Bosch publica para estas hojas una capacidad máxima de hasta 100 mm, sujeta a la geometría y la configuración de corte indicadas para cada hoja. Para demolición más exigente, buscá una hoja cuya ficha mencione ese material y el tipo de clavo o elemento que vas a encontrar; no conviertas el ejemplo S 922 VF en autorización para cortar cualquier metal incrustado.
+
+### Cable o batería
+
+Las fichas argentinas de Bosch GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. La diferencia documentada está en alimentación, carrera, peso del cuerpo y velocidad sin carga.
 
 | Dato documentado | GSA 1100 E | GSA 18V-24 |
 | :--- | ---: | ---: |
@@ -37,9 +61,19 @@ Las fichas argentinas de GSA 1100 E y GSA 18V-24 publican el mismo máximo de co
 
 **Desconocido.** Esta comparación cubre dos modelos Bosch; no define prestaciones de todas las sierras sable con cable o a batería. El corte en acero/tubo requiere consultar la tabla de capacidad del manual para el diámetro y hoja específicos.
 
+### Qué mirar en una inalámbrica
+
+- **Plataforma:** confirmá voltaje nominal, familia de baterías y compatibilidad con las baterías/cargadores que ya tenés. Las etiquetas comerciales de voltaje pueden expresar valores distintos para una misma tensión nominal.
+- **Batería incluida:** compará el kit exacto, no solo el cuerpo de la herramienta; revisá cantidad y capacidad de baterías y si incluye cargador.
+- **Carrera y carreras por minuto:** son datos publicados que describen movimiento y velocidad sin carga; por separado no predicen el ritmo real de corte.
+- **Peso con batería:** la ficha GSA 18V-24 consultada informa el peso sin batería. Buscá el peso del conjunto que realmente vas a sostener.
+- **Cambio de hoja:** comprobá qué encastre admite y si el sistema permite cambiar la hoja sin llave; Bosch describe encastre SDS en la GSA 18V-24. Confirmá compatibilidad de vástago y manual antes de comprar hojas.
+
+Si el trabajo va a ser principalmente inalámbrico, mirá también la guía de [sierras sable inalámbricas](/sierras/sierra-sable-inalambrica/) para revisar kits y plataformas de otros modelos.
+
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GSA 1100 E](https://www.bosch-professional.com/py/es/products/gsa-1100-e-0601640800); [manual Bosch GSA 1100 E](https://www.bosch-professional.com/binary/manualsmedia/o109402v21_1619929L78_201207.pdf); [Bosch GSA 18V-24 Argentina](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0).
+- **Documentación primaria:** [Bosch GSA 1100 E](https://www.bosch-professional.com/py/es/products/gsa-1100-e-0601640800); [manual Bosch GSA 1100 E](https://www.bosch-professional.com/binary/manualsmedia/o109402v21_1619929L78_201207.pdf); [Bosch GSA 18V-24 Argentina](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0); [hoja Bosch S 644 D para madera](https://www.bosch-professional.com/es/es/hoja-de-sierra-sable-wood-clean-s644d-8485969-ocs-ac/); [hoja Bosch S 922 EF para metal](https://www.bosch-professional.com/es/es/hoja-de-sierra-sable-thin-metal-s922ef-8485949-ocs-ac/); [hoja Bosch S 922 VF para madera con metal incrustado](https://www.bosch-professional.com/gb/en/s-922-vf-flexible-for-wood-and-metal-recip-blades-2867471-ocs-ac/).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

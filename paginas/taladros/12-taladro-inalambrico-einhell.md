@@ -2,7 +2,7 @@
 title: "Taladro inalámbrico Einhell: cuál comprar"
 h1: "Qué taladro inalámbrico Einhell elegir"
 url: "/taladros/einhell-inalambrico/"
-description: "Comparación Einhell TE-CD 18/40 y TP-CD 18/50: torque y velocidad declarados, percusión, mandril y kits Solo."
+description: "Guía para elegir taladro inalámbrico Einhell por trabajo, percusión, plataforma Power X-Change y costo del kit."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro inalambrico einhell", "einhell 18v power x-change", "taladro percutor einhell", "taladro einhell brushless", "einhell argentina"]
@@ -11,19 +11,19 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "TE-CD 18/40 y TP-CD 18/50: sin y con percusión"
+information_asset: "Escenarios de compra Einhell TE-CD 18/40 y TP-CD 18/50 con y sin batería Power X-Change"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Qué taladro inalámbrico Einhell elegir
 
-**Dato documentado:** la tabla reúne datos publicados para el Einhell TE-CD 18/40 Li y el TP-CD 18/50 Li-i BL (artículo 4513942). El sufijo del modelo y el contenido de caja importan: el TP-CD consultado es la versión Solo.
+Los dos modelos cubren tareas distintas: el TE-CD 18/40 Li es un taladro atornillador sin percusión, y el TP-CD 18/50 Li-i BL suma percusión para mampostería ocasional. Ambos trabajan con baterías Power X-Change de 18 V. La variante Solo del TP-CD consultada no incluye batería ni cargador.
 
 ## TE-CD 18/40 y TP-CD 18/50: sin y con percusión
 
-| Dato documentado | TE-CD 18/40 Li | TP-CD 18/50 Li-i BL Solo |
+| Dato documentado | TE-CD 18/40 Li Solo (4513925) | TP-CD 18/50 Li-i BL Solo (4513942) |
 | :--- | ---: | ---: |
 | Plataforma | 18 V Power X-Change | 18 V Power X-Change |
 | Torque duro declarado | 40 Nm | 50 Nm |
@@ -31,19 +31,41 @@ published: true
 | Mandril | Hasta 13 mm | Metálico, hasta 13 mm |
 | Percusión | No indicada en la ficha/manual consultado | Sí; hasta 28.800 impactos/min en velocidad 2 |
 | Motor | No se declara brushless en la ficha consultada | Brushless |
-| Batería/cargador | Varía por código de kit | No incluidos en la versión Solo |
+| Batería/cargador | No incluidos en el código Solo | No incluidos en el código Solo |
 
-**Análisis TallerLab.** El TP-CD declara 10 Nm más y agrega percusión; la velocidad máxima sin carga publicada supera a la del TE-CD en 300 rpm. Son diferencias de ficha, no una comparación de rapidez real. El TE-CD es el modelo de rotación sin percusión dentro de las fuentes citadas; el TP-CD permite seleccionar atornillado, perforación o percusión. La batería Power X-Change debe identificarse como gasto aparte cuando la oferta sea Solo.
+## 18 V y Power X-Change
 
-**Declaración del fabricante.** Einhell identifica al TP-CD 18/50 Li-i BL Solo como brushless y compatible con el sistema Power X-Change. La garantía especial de motor requiere registro en los términos del fabricante; no equivale a la garantía general de la herramienta.
+18 V es la tensión nominal de la plataforma Einhell Power X-Change. La batería es intercambiable con otros equipos compatibles del sistema; eso tiene valor comercial si ya tenés batería y cargador. Confirmá que el equipo y el acumulador sean Power X-Change de 18 V, y revisá la capacidad en Ah según el peso y la autonomía que necesites.
 
-**Desconocido.** La ficha consultada no valida qué kits TE-CD se ofrecen hoy en Argentina ni su garantía local. No afirmamos autonomía, ventaja de durabilidad ni capacidad universal en hormigón. Confirmá código de artículo, batería y cargador antes de comparar precio.
+## Con o sin percusión
+
+### Montaje y muebles
+
+Para atornillar muebles, instalar herrajes y hacer agujeros domésticos en madera, el TE-CD 18/40 Li alcanza según su ficha de taladro atornillador. Sus 21 posiciones de torque ayudan a limitar la fuerza al atornillar; no necesitás pagar por percusión si no vas a perforar mampostería.
+
+### Madera y metal
+
+Los dos modelos tienen mandril de hasta 13 mm y dos velocidades para perforar o atornillar. El TP-CD publica 50 Nm de torque duro y 0–1.800 rpm en segunda velocidad, frente a 40 Nm y 0–1.500 rpm del TE-CD. Son datos declarados y no una prueba comparativa; elegí la broca correcta, empezá con percusión desactivada y seguí el manual para cada material.
+
+### Pared ocasional
+
+Para algunos agujeros en ladrillo o mampostería, el TP-CD 18/50 Li-i BL permite activar percusión y publica hasta 28.800 impactos/min. El TE-CD 18/40 Li no declara esa función en la ficha consultada. Si vas a perforar hormigón repetidamente o con diámetros grandes, compará un rotomartillo SDS: un taladro percutor con mandril común no lo reemplaza.
+
+## Kit según presupuesto
+
+Si ya tenés una batería y un cargador Power X-Change compatibles, una versión Solo puede reducir el costo de entrada: pagás la herramienta y aprovechás el equipo que ya usás. El ahorro depende de que la batería y el cargador sean compatibles y estén disponibles para la tarea.
+
+Si empezás desde cero, no compares el precio Solo con un kit completo. Sumá al costo de la herramienta una batería y un cargador; considerá una segunda batería si necesitás continuidad de trabajo. Einhell ofrece kits de inicio PXC de distintas capacidades y cargadores; en las fichas consultadas, el TE-CD Solo ofrece starter kits de batería/cargador de 2,5, 4 y 5,2 Ah, y el TP-CD Solo ofrece como opción el starter kit 4512042 de 4 Ah con cargador. Una versión Solo puede terminar costando más que un conjunto que ya incluya batería/cargador: compará el total de los componentes para empezar, no solo el precio de la máquina.
+
+El TE-CD 18/40 Li Solo y el TP-CD 18/50 Li-i BL Solo citados corresponden a códigos sin batería/cargador. El fabricante también vende variantes de kit y accesorios bajo códigos diferentes. Verificá el número de artículo completo, capacidad de batería, cargador y contenido de caja en la publicación local. No usamos los precios europeos de las fichas como referencia de precio argentino.
+
+Einhell identifica al TP-CD 18/50 Li-i BL Solo como brushless y publica una garantía de motor de 10 años con registro bajo sus condiciones. Es una declaración del fabricante, no una medición de TallerLab ni una extensión automática de la garantía general. Tampoco afirmamos autonomía o rendimiento medido.
 
 Para comparar con otras plataformas y modelos, seguí por la guía de [taladros inalámbricos](/taladros/inalambricos/).
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [ficha técnica Einhell TE-CD 18/40 Li Solo](https://www.einhell.de/p/4513925-te-cd-18-40-li-solo/); [catálogo técnico Einhell 2026 con RPM del TE-CD 18/40](https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-de/einhell-services-catalogue-tools-diy-2026-de.pdf); [ficha Einhell TP-CD 18/50 Li-i BL Solo](https://www.einhell.de/p/4513942).
+- **Documentación primaria:** [ficha técnica Einhell TE-CD 18/40 Li Solo](https://www.einhell.de/en/p/4513925-te-cd-18-40-li-solo/); [catálogo técnico Einhell 2026 con RPM del TE-CD 18/40](https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-de/einhell-services-catalogue-tools-diy-2026-de.pdf); [ficha Einhell TP-CD 18/50 Li-i BL Solo](https://www.einhell.de/en/p/4513942-tp-cd-18-50-li-i-bl-solo); [baterías Power X-Change y compatibilidad](https://www.einhell.de/en/c/batteries/).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

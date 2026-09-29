@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Tabla de ESAB HandyArc 162i, código 0409616: corriente MMA por ciclo de trabajo, rango, tensión, potencia aparente y generador recomendado; distingue máximo intermitente de salida continua."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -30,7 +30,7 @@ published: true
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Última revisión: 28/09/2026
 
 | Parámetro HandyArc 162i (0409616) | Dato publicado por ESAB Argentina |
 | :--- | :--- |
@@ -54,11 +54,33 @@ published: true
 | Consumible | Diámetro, clasificación, polaridad y amperaje de la ficha del electrodo |
 | Accesorios/garantía | Lista de entrega, distribuidor, cobertura y servicio vigentes |
 
+## Cruce práctico con electrodos 6013 y 7018
+
+La [guía de E6013](/soldadoras/electrodo-6013/) y la [guía de E7018](/soldadoras/electrodo-7018/) contienen aplicaciones, clasificación y contexto de cada consumible. Este cruce usa sólo rangos publicados para productos concretos y los compara con el rango MMA **20–160 A** y los puntos de ciclo ESAB para la HandyArc 162i: **160 A/20 %, 92 A/60 % y 72 A/100 %**.
+
+| Consumible documentado y diámetro | Rango de corriente de su ficha | Cruce con los puntos publicados de HandyArc 162i |
+| :--- | :--- | :--- |
+| [ESAB Sureweld E6013, 2,4 mm](/soldadoras/electrodo-6013/) | 60–90 A | El punto de 72 A/100 % cae dentro de ese rango. Es una coincidencia entre dos fichas, no una garantía de resultado para cualquier junta/posición. |
+| [ESAB LBL BW E6013, 2,5 mm](/soldadoras/electrodo-6013/) | 70–90 A | El punto de 72 A/100 % también cae dentro del rango publicado para este SKU. |
+| [ESAB Sureweld E6013, 3,2 mm](/soldadoras/electrodo-6013/) | 120–135 A | El rango de salida de la fuente incluye esa corriente, pero ESAB no publica en la ficha consultada un punto de ciclo específico entre 92 y 160 A. No atribuirle 60 % o 100 % a 120–135 A. |
+| [ESAB LBL BW E6013, 3,2 mm](/soldadoras/electrodo-6013/) | 95–125 A | La ficha del electrodo difiere de Sureweld 3,2 mm; 92 A/60 % queda por debajo del mínimo publicado y no hay un punto de ciclo de la fuente en 95–125 A. |
+| [ESAB Atom Arc E7018, 2,4 mm](/soldadoras/electrodo-7018/) | 70–110 A | Los puntos 72 A/100 % y 92 A/60 % caen dentro del rango de este producto. Hay que respetar clasificación, polaridad y procedimiento del consumible exacto. |
+| [ESAB Atom Arc E7018, 3,2 mm](/soldadoras/electrodo-7018/) | 90–160 A | Los puntos 92 A/60 % y 160 A/20 % coinciden con el rango publicado; eso no asigna esos puntos a cualquier trabajo ni reemplaza el procedimiento. |
+| [ESAB Atom Arc E7018, 4,0 mm](/soldadoras/electrodo-7018/) | 130–220 A | El rango del consumible supera los 160 A máximos de la máquina. La zona 130–160 A coincide con el rango regulable, pero la hoja ESAB no publica allí un ciclo de la fuente; por eso no se puede asegurar continuidad a esa corriente. |
+
+**Lectura práctica:** elegí el diámetro y producto por la unión, posición y ficha del electrodo; después cotejá su rango con la corriente/ciclo que la fuente publica. En particular, dos E6013 de 3,2 mm no necesariamente comparten el mismo rango. Los tres puntos de ciclo de la HandyArc no describen todas las corrientes intermedias.
+
+## Proceso y funciones documentadas
+
+El producto **HandyArc 162i, código 0409616**, figura en ESAB Argentina como soldadora de electrodo revestido (MMA/SMAW). “Inverter” describe la tecnología de la fuente; no significa que sea multiproceso. Si necesitás MIG/MAG, buscá un equipo con ese proceso y alimentador de alambre documentados. Si necesitás TIG AC, elegí una fuente que declare TIG AC/DC: la ficha 0409616 no anuncia MIG ni TIG AC para la HandyArc 162i.
+
+La ficha oficial consultada destaca el ajuste de corriente/diámetro del electrodo, turbo ventilación y sensor de sobrecalentamiento. No documenta Hot Start, Arc Force ni Anti-Stick para el código 0409616; no los des por incluidos por inferencia. Confirmá funciones y accesorios en la ficha/manual que coincidan con el código de placa.
+
 **Desconocido:** no se inspeccionó unidad física, precio local, contenido de una oferta ni resultados de soldadura. La página comercial no basta para confirmar qué pinza, cable u otros accesorios incluye cada paquete.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/); [hoja técnica ESAB HandyArc 162i](https://assets.esab.com/assetbank-esab/assetfile/41560.pdf).
+- **Documentación primaria:** [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/); [hoja técnica ESAB HandyArc 162i](https://assets.esab.com/assetbank-esab/assetfile/41560.pdf); [ESAB Sureweld 6013](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/); [ESAB LBL BW E6013](https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/); [ESAB Atom Arc 7018](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [amperajes de electrodos E7018 según ficha](/soldadoras/electrodo-7018/).

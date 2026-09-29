@@ -2,7 +2,7 @@
 title: "Atornillador para Durlock: cuál comprar y por qué"
 h1: "Cómo elegir un atornillador para Durlock"
 url: "/taladros/para-durlock/"
-description: "Comparación documental entre dos atornilladores Bosch para placas: rpm, torque, peso y alimentación."
+description: "Guía para elegir atornillador para Durlock: velocidad, tope de profundidad, alimentación, alimentador y accesorios."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["atornillador para durlock", "atornillador placas de yeso", "atornillador drywall", "atornillador durlock dewalt", "tornillos t2 durlock"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Bosch GTB 650 y GTB 18V-45: comparar cable, batería y control de profundidad"
+information_asset: "Comparación de atornilladores para Durlock Bosch y DeWalt por velocidad, profundidad y alimentación"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,36 +21,43 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-| Dato publicado | Bosch GTB 650 | Bosch GTB 18V-45 / GTB 185-LI |
-| :--- | ---: | ---: |
-| Alimentación | Cable, 650 W | Batería 18 V |
-| Velocidad sin carga | 0–5.000 rpm | Hasta 4.500 rpm |
-| Torque máximo publicado | 12 Nm | 6 Nm |
-| Portapuntas | Hexagonal 1/4 in | Hexagonal 1/4 in |
-| Peso publicado | 1,4 kg | 0,95 kg sin batería |
-| Diámetro máximo de tornillo | 4 mm | 6 mm |
-| Control de profundidad | Tope de profundidad | Tope de profundidad |
+Para elegir, pensá cuántos tornillos vas a colocar, si trabajás en un puesto fijo o te movés por la obra, y qué sistema de alimentación ya tenés. En una instalación extensa, la velocidad, el tope de profundidad y la posibilidad de cargar tornillos en cinta reducen interrupciones. Para reparar una placa o hacer una obra chica, un taladro atornillador común con control de velocidad puede alcanzar.
 
-**Dato documentado:** los valores se extraen de las fichas Bosch indicadas. La denominación comercial puede variar por país; GTB 18V-45 aparece como GTB 185-LI en algunas páginas regionales. El peso inalámbrico excluye la batería y no se compara como peso del conjunto listo para usar.
+| Modelo | Alimentación | Velocidad sin carga | Tope de profundidad | Alimentador compatible |
+| :--- | :--- | ---: | :--- | :--- |
+| Bosch GTB 650 | Cable, 650 W | 0–5.000 rpm | Sí; reversible | Bosch MA55 / GMA55, según denominación regional |
+| Bosch GTB 18V-45 / GTB 185-LI | Batería 18 V | Hasta 4.500 rpm | Sí | Bosch MA55 / GMA55, según modelo y código |
+| DeWalt DCF620 | Batería 20 V MAX (18 V nominales) | 0–4.400 rpm | Localizador ajustable en el manual | DeWalt DCF6202, vendido como accesorio aparte |
 
-**Análisis TallerLab:** la GTB 650 publica 500 rpm más y 6 Nm más de torque; la variante a batería publica un diámetro máximo de tornillo 2 mm mayor y elimina el cable, pero la ficha citada informa 0,95 kg sin batería. Estas diferencias describen números de catálogo, no velocidad de fijación, autonomía, comodidad o calidad de acabado. Elegí con base en disponibilidad de energía, contenido del kit y los tornillos admitidos.
+La GTB 650 publica además 12 Nm y 1,4 kg; la ficha de la GTB 18V-45 informa 6 Nm y 0,95 kg sin batería. DeWalt identifica la velocidad y el ajuste de profundidad en su manual. Son datos de fichas distintas: no permiten concluir cuál coloca tornillos más rápido ni cuál ofrece mejor acabado.
 
-**Declaración del fabricante:** Bosch indica que la GTB 650 puede trabajar con el alimentador MA55 compatible. La compatibilidad del alimentador y su disponibilidad deben comprobarse por código. Para placas, la función del tope es limitar la profundidad según el ajuste; no garantiza por sí sola que cada tornillo quede correctamente asentado.
+## Tope de profundidad y velocidad
 
-**Desconocido:** no se verificó una configuración idéntica de batería/cargador para Argentina ni una garantía local actual de la variante 18 V. No hay ensayo propio sobre placas, tornillos T1/T2 o ritmo de colocación. Consultá el manual del código concreto y la especificación del tornillo/placa.
+El tope permite repetir la profundidad de asentamiento sin depender solo de cuánto apretás el gatillo. Ajustalo para que la cabeza del tornillo quede apenas por debajo de la superficie del cartón, sin romperlo; si queda salido, puede interferir con el acabado, y si atraviesa el papel, pierde agarre en la placa. Probá el ajuste en un retazo del mismo material y con el mismo tornillo antes de producir.
 
-## Qué cambia la decisión
+Las 4.500–5.000 rpm de estos atornilladores específicos favorecen el ritmo de una tarea repetitiva: el motor alcanza rápidamente la velocidad de trabajo al apoyar cada tornillo. La ventaja se nota cuando hay muchos tornillos y la mano repite el movimiento. Las rpm máximas no equivalen a tornillos por minuto: también influyen la longitud y tipo de tornillo, la estructura, la técnica y las pausas.
 
-| Prioridad | Revisar en la ficha o publicación | Límite |
-| :--- | :--- | :--- |
-| Trabajo fijo en un ambiente | Cable y alimentación local | Requiere acceso al tomacorriente |
-| Movimiento entre puestos | Plataforma, batería y cargador incluidos | El peso publicado puede excluir batería |
-| Repetir profundidad | Tope compatible y ajuste | No reemplaza la técnica ni verifica el acabado |
-| Alimentación automática | Compatibilidad MA55 por modelo | No asumir que viene incluido |
+## Atornillador específico o taladro común
+
+Un atornillador para placas combina velocidad alta con un localizador/tope ajustable y portapuntas hexagonal. Está pensado para repetir el asentamiento y se adapta a accesorios alimentadores compatibles. Un taladro atornillador común puede resolver reparaciones y trabajos cortos si permite controlar la velocidad y se usa una punta con limitador de profundidad; su embrague, por sí solo, regula fuerza de giro y no fija una profundidad exacta.
+
+Para una habitación pequeña o unos pocos tornillos, comprar un atornillador específico y sus accesorios puede no amortizarse. Practicá el ajuste en un recorte y revisá cada fijación. Si la colocación es diaria, extensa o debe mantener una profundidad uniforme a lo largo de muchas placas, la herramienta específica reduce la necesidad de controlar cada tornillo a puro tacto.
+
+## Cable, batería o alimentador
+
+El cable conviene en un área fija con toma accesible y jornadas largas: no requiere gestionar recargas, aunque limita el movimiento. La batería facilita subir escaleras y cambiar de ambiente; compará el peso real con batería, la autonomía para tu jornada y el costo de batería y cargador si no vienen incluidos.
+
+El alimentador usa tornillos unidos en tiras y presenta el siguiente tornillo al accesorio, de modo que no tenés que tomar y posicionar uno por uno. Puede agilizar paredes o cielorrasos con muchas fijaciones repetidas, pero suma costo, peso y volumen, y exige tiras compatibles. Bosch especifica GMA55 para tornillos de 25–55 mm; DeWalt indica que su DCF6202 se acopla al DCF620 y permite ajustar largo y profundidad. Para una obra chica, pocas placas o sectores estrechos con muchos encuentros, puede no compensar comprarlo: terminá el trabajo con alimentación manual y reservá ese gasto para trabajos repetidos.
+
+## Puntas y accesorios
+
+Usá una punta Phillips PH2 en buen estado cuando corresponda al tornillo y un portapuntas de 1/4 in compatible con la herramienta. Una punta gastada o que no encaja bien puede barrer la cabeza y dificulta mantener el eje. Para colocar tiras, comprobá largo y formato de tornillo aceptados por el alimentador: Bosch GMA55 publica 25–55 mm; DeWalt DCF6202 se conecta al DCF620 y permite ajustar el largo, pero verificá en el manual de la variante el rango de tornillos que admite. Revisá el código exacto antes de comprar; el accesorio no necesariamente viene con el atornillador.
+
+En un kit a batería sumá la herramienta, batería, cargador y, si necesitás continuidad, una segunda batería. Añadí alimentador y tiras compatibles solo si el volumen de trabajo justifica ese costo. La ficha Bosch argentina lista la GTB 650 con maletín; verificá qué incluye cada variante y la disponibilidad regional del modelo y accesorio.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GTB 650 Argentina](https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0); [Bosch GTB 18V-45 / GTB 185-LI](https://www.bosch-professional.com/gb/en/products/gtb-185-li-06019K7000); [atornilladores Bosch con limitador de profundidad](https://www.bosch-professional.com/ar/es/atornilladores-con-limitador-de-profundidad-131443-ocs-c/).
+- **Documentación primaria:** [Bosch GTB 650 Argentina](https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0); [Bosch GTB 18V-45 / GTB 185-LI](https://www.bosch-professional.com/gb/en/products/gtb-185-li-06019K7000); [catálogo Bosch 2025, GTB 650 y alimentador GMA55](https://www.bosch-professional.com/pe/media/country_content/service/download/catalogue/6343_trade_-_3_es_220v_-_instalador_-_web.pdf); [atornilladores Bosch con limitador de profundidad](https://www.bosch-professional.com/ar/es/atornilladores-con-limitador-de-profundidad-131443-ocs-c/); [DeWalt DCF620, manual](https://www.dewalt.com/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf); [DeWalt DCF6202, alimentador de tornillos](https://www.dewalt.com/en-us/product/dcf6202/collated-drywall-screw-gun-attachment).
 - **Seguridad:** consultar manual para ajuste de profundidad, tornillos y accesorios.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

@@ -13,13 +13,13 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Tres caladoras Einhell según alimentación y capacidad"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Qué caladora Einhell elegir
 
-Las fichas argentinas permiten comparar dos modelos con cable y una versión a batería Solo; esta última se vende sin batería ni cargador.
+Las fichas argentinas permiten comparar dos modelos con cable y una versión a batería Solo; esta última se vende sin batería ni cargador. Para elegir, además de la profundidad declarada, conviene mirar el control, el encastre de hoja, el bisel y cómo vas a alimentar o aspirar la máquina.
 
 ## Tres caladoras Einhell según alimentación y capacidad
 
@@ -30,13 +30,43 @@ Las fichas argentinas permiten comparar dos modelos con cable y una versión a b
 | Corte máximo en madera | 85 mm | 100 mm | 70 mm |
 | Corte máximo en acero | 8 mm | 10 mm | 8 mm |
 | Peso publicado | 1,91 kg | 2,3 kg | 1,62 kg sin batería |
+| Movimiento pendular | 4 posiciones | 4 posiciones | Regulable; la ficha no indica cuántas posiciones |
+| Control de velocidad | Electrónico | Electrónico | No especificado; la ficha publica 2.700 carreras/min como máximo |
+| Vástago de hoja | T | La descripción indica T y U; el cuadro técnico lista T | T |
+| Bisel | Base inclinable hasta 45° | 0–45° | Hasta 45° |
+| Polvo | Adaptador de aspiración de 36 mm y soplado seleccionable | Adaptador de aspiración de 35 mm y soplado | Conexión de aspiración de 36 mm en datos técnicos; la descripción destaca el soplado |
 | Batería y cargador incluidos | — | — | No |
 
 **Análisis TallerLab.** La TE-JS 100 declara 15 mm más de capacidad en madera que la TC-JS 85, y pesa 0,39 kg más. La inalámbrica TC-JS 18 Li declara 15 mm menos que la TC-JS 85 y 0,29 kg menos antes de sumar la batería. Estas restas comparan cifras de ficha; no miden velocidad ni calidad del corte.
 
-**Declaración del fabricante.** La TE-JS 100 permite hojas con vástago T y U; las dos caladoras a batería incluidas en las fuentes usan vástago T. Confirmá el encastre exacto de la máquina antes de comprar hojas.
+**Declaración del fabricante.** La TE-JS 100 presenta una diferencia dentro de su propia ficha: la descripción indica que admite vástagos T y U, pero el cuadro técnico lista T. Confirmá el encastre de la unidad y de la hoja antes de comprar. Entre las tres máquinas de esta comparación, solo la TC-JS 18 Li Solo es a batería.
 
-**Desconocido.** No se midió autonomía real; dependerá de batería, carga y material. La TC-JS 18 Li Solo no trae batería/cargador, por lo que su costo de entrada cambia si todavía no tenés Power X-Change.
+## Qué modelo elegir según tu trabajo
+
+- **Más capacidad declarada en madera:** la TE-JS 100 llega a 100 mm y suma velocidad electrónica, cuatro posiciones pendulares, bisel de 0–45°, guía paralela y maletín. Es la opción documentada para una pieza más gruesa dentro de esta comparación; la cifra máxima no garantiza por sí sola una terminación mejor.
+- **Trabajo con cable y capacidad intermedia:** la TC-JS 85 declara hasta 85 mm en madera. También ofrece cuatro posiciones pendulares y regulación electrónica, más adaptador de aspiración y soplado seleccionable.
+- **Necesitás trabajar sin cable:** la TC-JS 18 Li Solo declara hasta 70 mm en madera y pesa 1,62 kg sin batería. Tené en cuenta que ese peso no incluye la batería y que la ficha consultada no especifica control electrónico de velocidad.
+- **Vas a cortar metal:** las fichas declaran capacidades máximas en acero, pero elegí una hoja indicada para ese material y respetá sus límites. La capacidad máxima de la caladora no sustituye la compatibilidad de la hoja.
+
+### Si ya tenés Power X-Change, qué cambia en la decisión
+
+La TC-JS 18 Li Solo usa el sistema Power X-Change de 18 V. Si ya tenés una batería PXC compatible, podés aprovecharla; si no, sumá al costo la batería y el cargador, porque esta versión no incluye ninguno. Einhell no especifica en la ficha consultada una capacidad mínima de batería en Ah. El peso publicado de 1,62 kg es el del cuerpo sin batería.
+
+La autonomía real no está medida aquí: cambia según batería, material y carga. Por eso, la libertad de no depender del cable puede pesar más que la diferencia de capacidad publicada, pero no permite inferir cuántos cortes vas a hacer por carga.
+
+## Qué conviene verificar antes de comprar
+
+### Movimiento pendular y control de velocidad
+
+La TC-JS 85 y la TE-JS 100 declaran cuatro posiciones pendulares y regulación electrónica de velocidad. La TC-JS 18 Li Solo declara movimiento pendular regulable, pero su ficha local no precisa el número de posiciones ni confirma regulación electrónica de velocidad. Si necesitás ajustar el avance a distintos trabajos, compará esas funciones tal como aparecen para el código exacto.
+
+### Vástago de la hoja y bisel
+
+Las TC-JS 85 y TC-JS 18 Li Solo declaran vástago tipo T. Para la TE-JS 100, la descripción menciona T y U, mientras que el cuadro técnico solo indica T; verificá el porta-hoja de la unidad. Las tres fichas contemplan inclinación hasta 45°, aunque la TE-JS 100 publica el rango como 0–45°.
+
+### Extracción de polvo
+
+La TC-JS 85 incluye adaptador de aspiración de 36 mm y soplado seleccionable; la TE-JS 100 declara adaptador de 35 mm y soplado. Para la TC-JS 18 Li Solo, los datos técnicos consignan una conexión de 36 mm, pero la descripción consultada destaca el soplado. Confirmá qué adaptador y accesorios vienen incluidos y si coinciden con tu aspiradora.
 
 ## Fuentes consultadas
 

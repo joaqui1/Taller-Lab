@@ -19,9 +19,42 @@ published: true
 
 # Cómo elegir una sierra circular para tus trabajos
 
-**Dato documentado:** la matriz resume medidas que aparecen en manuales y fichas oficiales de estos tres modelos; no es una prueba comparativa. Muestra por qué el nombre comercial en pulgadas no basta para elegir disco o capacidad.
-
 ## Diámetro y espesor: dos límites separados
+
+### Elegí primero según el trabajo que vas a hacer
+
+| Trabajo | Qué mirar |
+| :--- | :--- |
+| Cortar tableros | Profundidad suficiente para el espesor, una guía o regla para mantener el corte y un disco indicado para el material. Mirá la guía de [discos para sierra circular](/sierras/disco-para-sierra-circular/) y la de [guías para sierra circular](/sierras/guia-para-sierra-circular/). |
+| Cortar madera maciza | El espesor real de la pieza y la profundidad máxima a 90° publicada para la máquina. |
+| Hacer cortes a 45° | La profundidad publicada a 45°; suele ser menor que a 90°, así que no alcanza con comprobar solo el corte recto. |
+| Hacer cortes largos rectos | Que puedas usar una guía compatible, un tope paralelo o una regla externa bien sujeta; confirmá cómo apoya la base. |
+| Trabajar con frecuencia | Peso de la herramienta, extracción de polvo si está documentada y disponibilidad local de discos compatibles por diámetro, eje y RPM. |
+
+### Qué medidas tenés que conocer antes de comprar
+
+Medí primero el espesor máximo real de tus piezas y comparalo con la profundidad de corte publicada. Revisá también estas especificaciones en la ficha o el manual del código exacto:
+
+- **Diámetro máximo del disco:** la hoja debe estar dentro del diámetro permitido por la sierra y su guarda. El número comercial en pulgadas no confirma por sí solo la medida en milímetros.
+- **Eje u orificio:** tiene que coincidir con el eje de la máquina; no supongas que discos del mismo diámetro son intercambiables.
+- **Profundidad a 90° y a 45°:** usá la medida correspondiente al ángulo en que vas a cortar. La profundidad indicada a 90° no sirve para dimensionar un corte inclinado.
+- **RPM:** la velocidad máxima admisible del disco debe ser igual o superior a las revoluciones de la máquina. Verificá también que diámetro y espesor sean compatibles.
+- **Espesor máximo real:** considerá la pieza concreta y no el diámetro del disco como sustituto de la capacidad de corte. Si la ficha no publica una profundidad, pedí confirmación para esa variante antes de comprarla para una medida límite.
+
+### Qué no te dice la potencia en watts
+
+Los watts publicados describen potencia eléctrica absorbida o anunciada según la ficha; por sí solos no indican cuánto tarda el corte, la calidad del borde, la capacidad máxima ni el desempeño bajo carga. Por ejemplo, las fichas de la [Stanley SC16-AR](/sierras/stanley-sc16/), la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) publican potencias distintas, pero esa diferencia no constituye una prueba comparativa. Elegí primero por capacidad, hoja compatible y tipo de corte; tomá los watts como un dato más, junto con el resto de la ficha.
+
+### Qué sierra tiene sentido según tu caso
+
+- **Piezas de hasta unos 60 mm:** como primera selección, las tres sierras de la matriz entran por las capacidades a 90° que documentan: 63,5 mm para la Lüsqtoff CSL1500-8, 64 mm para la Bosch GKS 150 y 65 mm para la Stanley SC16-AR. Dejá margen para tolerancias y confirmá que el manual corresponda a la unidad ofrecida.
+- **Piezas de más de 64–65 mm:** esos tres modelos ya no cubren el trabajo según sus capacidades publicadas a 90°. Buscá una sierra con profundidad documentada suficiente para el espesor y el ángulo requeridos.
+- **Si necesitás un riel propietario:** la ficha de la Bosch GKS 150 declara que no es compatible con carril guía Bosch. Revisá la [guía de compatibilidad de guías](/sierras/guia-para-sierra-circular/) o confirmá el sistema admitido por el modelo antes de comprar el riel.
+- **Si necesitás cortes repetitivos con la pieza apoyada y guiada en una mesa:** compará una [sierra de banco](/sierras/de-banco/), comprobando capacidad de corte, apoyo y espacio disponible.
+
+### Capacidades documentadas de tres modelos
+
+**Dato documentado:** la siguiente matriz resume medidas de manuales y fichas oficiales; no es una prueba comparativa. Muestra por qué el diámetro comercial en pulgadas no alcanza para elegir disco o capacidad.
 
 | Modelo exacto | Disco máximo documentado | Corte a 90° documentado | Eje/documentación |
 | :--- | ---: | ---: | ---: |
@@ -29,11 +62,9 @@ published: true
 | Bosch GKS 150 | 184 mm | 64 mm | 20 mm |
 | Lüsqtoff CSL1500-8 | 185 mm | 63,5 mm | Verificar manual y placa para el eje |
 
-**Análisis TallerLab.** El mayor corte a 90° de esta tabla es 65 mm y el menor 63,5 mm: una diferencia de 1,5 mm entre los valores publicados de modelos distintos. No alcanza para concluir cuál corta más rápido o con mejor terminación. En la SC16-AR, además, el manual y la página comercial dan 190 y 180 mm para el disco; por seguridad, no resuelvas esa diferencia por conversión de pulgadas.
+**Análisis TallerLab.** Las profundidades publicadas a 90° van de 63,5 a 65 mm, una diferencia de 1,5 mm que no permite concluir cuál corta más rápido o deja mejor terminación. En la SC16-AR, el manual y la ficha comercial discrepan: indican 190 y 180 mm para el disco, respectivamente. Confirmá la placa y el manual de la unidad antes de elegir un repuesto; no resuelvas la diferencia convirtiendo pulgadas.
 
-Al elegir, anotá por separado: espesor máximo de la pieza, disco admitido por la máquina, diámetro del eje y RPM máximas del disco. El diámetro comercial (7-1/4 in) no es una medida de profundidad de corte ni confirma compatibilidad.
-
-**Desconocido.** No existe una “potencia adecuada” universal por material en las fuentes comparadas. La guía no califica corte, durabilidad ni precisión.
+La ficha consultada de la Bosch GKS 150 publica 6.000 rpm y la de la Lüsqtoff CSL1500-8, 5.500 rpm. Para la SC16-AR, comprobá las RPM de la unidad en su ficha o manual y respetá siempre el límite marcado en el disco. Tampoco inferimos una potencia universal adecuada para cada material: no se midieron velocidad de corte, durabilidad ni precisión.
 
 ## Fuentes consultadas
 

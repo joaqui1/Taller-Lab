@@ -33,7 +33,6 @@ La oferta INGCO cambia según país, sufijo y armado. Para Argentina, conviene e
 | Inalámbrica 20 V en kit | CAGLI271532-4 | Brushless; 115 mm; 1.000 W máx. declarados; 2 baterías de 4 Ah, cargador y maletín | Tienda INGCO Argentina; confirmar disponibilidad y composición del lote |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las potencias indicadas son las publicadas por cada fuente, no una prueba comparativa de rendimiento. El catálogo comercial no demuestra qué variante está en stock en tu ciudad; usá los enlaces de cada fila para consultar el estado actual.
 
 <!-- EDITORIAL-COMMERCE -->

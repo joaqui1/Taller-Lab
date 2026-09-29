@@ -2,7 +2,7 @@
 title: "Caladora Skil: modelos, diferencias y cuál elegir"
 h1: "Cómo elegir una caladora Skil"
 url: "/sierras/caladoras-skil/"
-description: "Guía de caladoras SKIL 4380 y 4550: variantes de tensión documentadas y prestaciones confirmadas para cada modelo."
+description: "Compará las caladoras SKIL 4380 y 4550 por capacidad en madera y metal, velocidad, movimiento pendular y hojas compatibles."
 author: "Joaquín Vallasciani"
 category: "Sierras y Máquinas de Corte"
 keywords: ["caladora skil", "sierra caladora skil", "skil 4380", "skil 4550", "caladora pendular skil"]
@@ -19,25 +19,43 @@ published: true
 
 # Cómo elegir una caladora Skil
 
-**Dato documentado:** el catálogo de servicio distingue variantes de 127 V y 220 V para ambos códigos; una ficha técnica del 4550 documenta sus prestaciones. No completamos las del 4380 con datos de vendedores.
+**Dato documentado:** el manual SKIL 4380/4400 publica potencia, velocidad, carrera y capacidades de la 4380; la ficha y el manual de la 4550 permiten contrastar sus controles y límites. El catálogo de servicio también distingue variantes de 127 V y 220 V.
 
-## SKIL 4380 y 4550: separar tensión de prestaciones
+## Elegir entre la SKIL 4380 y la 4550
 
-| Dato documentado | SKIL 4380 | SKIL 4550 |
-| :--- | :--- | :--- |
-| Código de variante 127 V | F0124380AB | F0124550AB |
-| Código de variante 220 V | F0124380JA | F0124550JA |
-| Potencia documentada | Desconocida en las fuentes consultadas | 550 W |
-| Velocidad documentada | Desconocida | 800–3.000 carreras/min |
-| Acción pendular | Desconocida | 3 posiciones, según ficha técnica |
+Las dos son caladoras con cable, pero cubren capacidades y controles distintos. La 4380 declara menor profundidad máxima y velocidad fija; la 4550 suma regulación de velocidad y acción pendular. Antes de elegir, compará el material y espesor reales con los máximos publicados para cada código.
 
-**Análisis TallerLab.** La primera comprobación útil de una oferta argentina es la terminación del código: el catálogo de servicio diferencia 127 V de 220 V con sufijos distintos. La ficha de SKIL 4550 especifica capacidades, pero no transferimos sus prestaciones a la 4380 solo porque ambos sean modelos de caladora.
+### Capacidad publicada por material
 
-**Desconocido.** No hallamos una ficha primaria actual que confirme potencia y capacidad máxima de corte de la 4380. Por eso retiramos las cifras del borrador que no pudimos verificar. La hoja también debe coincidir con el vástago de la variante y con el uso indicado por su fabricante.
+| Modelo | Madera | Aluminio | Acero | Alimentación y carrera |
+| :--- | ---: | ---: | ---: | :--- |
+| SKIL 4380 | 55 mm | 10 mm | 4 mm | 380 W; 3.000 carreras/min; carrera de 22 mm |
+| SKIL 4550 | 75 mm | 10 mm | 5 mm | 550 W; 800–3.000 carreras/min; carrera de 18 mm |
+
+Son límites máximos publicados, no una promesa de acabado ni una recomendación para cualquier hoja. Elegí una hoja indicada para el material y espesor, y verificá las condiciones de uso del manual. La capacidad en madera no permite inferir la capacidad en metal: compará cada material por separado.
+
+### Encastre de hoja
+
+La documentación de la SKIL 4380 admite hojas con encastre T o U. El manual de la 4550 indica encastre T. Revisá el manual de la variante que vas a comprar y el tipo de vástago de la hoja antes de pagar; no lo deduzcas por la forma de la mordaza ni porque una hoja parezca entrar.
+
+### Regulación de velocidad y movimiento pendular
+
+La 4380 publica una velocidad de 3.000 carreras/min y su manual no documenta regulación variable ni acción pendular. La 4550 publica una rueda de regulación con 800–3.000 carreras/min y tres etapas de péndulo. La velocidad variable permite adaptar las carreras al trabajo; el péndulo cambia el avance de la hoja y puede acelerar el corte, mientras que reducirlo o apagarlo favorece un borde más limpio, según las indicaciones del manual. Probá el ajuste con un retazo y seguí la recomendación de la hoja y el manual.
+
+### Qué caladora SKIL elegir según el trabajo
+
+- **Madera de hasta 55 mm y trabajo sencillo con velocidad fija:** la 4380 cubre ese máximo publicado. También admite hojas T y U según su manual.
+- **Madera de más de 55 y hasta 75 mm:** la 4550 publica mayor capacidad en madera. Confirmá que la hoja y el corte previsto correspondan a ese espesor.
+- **Aluminio de hasta 10 mm:** ambas declaran ese máximo; la capacidad publicada no es una indicación de acabado ni sustituye la elección de una hoja para aluminio.
+- **Acero de hasta 4 mm:** ambas alcanzan el máximo documentado de la 4380; la 4550 publica hasta 5 mm. Usá una hoja indicada para acero y las condiciones de corte del fabricante.
+- **Necesitás variar la velocidad o ajustar el péndulo:** la 4550 tiene controles documentados para ambas funciones. En la 4380 consultada no se documentan esas prestaciones.
+- **Tu oferta menciona 127 V o 220 V:** comprobá la tensión en la placa y el código completo de la unidad. El catálogo de servicio distingue variantes por sufijo; no asumas que el voltaje coincide entre publicaciones del mismo modelo.
+
+La potencia en watts no determina por sí sola el acabado, la velocidad efectiva o la conveniencia: también influyen la hoja, el material, el control de velocidad, el péndulo y la forma de apoyar y guiar la máquina.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [catálogo Bosch/Skil de repuestos con variantes 4380 y 4550](https://www.bosch-professional.com/br/media/country_content/service/after_sales_service/catalogues/catalogo_reposicao2_verso_final.pdf); [ficha técnica SKIL 4550 de Robert Bosch LLC](https://www.grainger.com.mx/static/ft/20028399_TD.PDF).
+- **Documentación primaria:** [manual SKIL 4380/4400 con especificaciones y compatibilidad de hojas de la 4380](https://s3.sa-east-1.amazonaws.com/bd-sp.canaldapeca.com.br/BOSCH/11032020/4380_4400.pdf); [manual SKIL 4550](https://es.scribd.com/document/1014405248/serra-tico-tico-profissional-skil-4550-550-watts-manual); [ficha técnica SKIL 4550 de Robert Bosch LLC](https://www.grainger.com.mx/static/ft/20028399_TD.PDF); [catálogo SKIL 2019 con capacidades de 4380 y 4550](https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf); [catálogo Bosch/Skil de repuestos con variantes 4380 y 4550](https://www.bosch-professional.com/br/media/country_content/service/after_sales_service/catalogues/catalogo_reposicao2_verso_final.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

@@ -35,8 +35,9 @@ Esta tabla reúne las fichas de amoladoras angulares con cable disponibles en la
 | [G1917AR](https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/) [Ver precio en Mercado Libre](https://meli.la/21zWjnh){:target="_blank" rel="sponsored noopener"} | Amoladora angular; la ficha consultada no detalla un kit de discos o maletín | 850 W | 115 mm | 11.000 rpm | 220 VCA / 50 Hz |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Las fichas de estos modelos publican eje M14 × 2. No todas especifican masa ni el contenido completo de caja. Cuando esos datos no aparecen en la ficha, pedí que el vendedor confirme el código exacto, la tensión de la unidad y los elementos incluidos.
+
+<!-- EDITORIAL-COMMERCE -->
 
 ## 750 vs 850 W
 

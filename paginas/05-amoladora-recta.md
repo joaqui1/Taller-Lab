@@ -57,7 +57,6 @@ Las especificaciones de potencia eléctrica y de consumo neumático no permiten 
 | Makita GD0600 [Ver precio en Mercado Libre](https://meli.la/1vUCzGL){:target="_blank" rel="sponsored noopener"} | 400 W | 25.000 rpm | Desconocido en la ficha consultada | Desconocido en la ficha consultada |
 
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 Bosch presenta la GGS 28 L como rectificadora eléctrica de 500 W y 33.000 rpm; Makita Argentina publica 400 W y 25.000 rpm para GD0600. En estos dos ejemplos con cable, Bosch declara 100 W más (25 % sobre 400 W) y 8.000 rpm más en vacío (32 % sobre 25.000 rpm). Esas son diferencias aritméticas entre fichas, no una prueba de capacidad de desbaste.
 
 <!-- EDITORIAL-COMMERCE -->

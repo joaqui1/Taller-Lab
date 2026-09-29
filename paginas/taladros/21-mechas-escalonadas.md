@@ -2,7 +2,7 @@
 title: "Mecha escalonada: cuál comprar para chapa y metal"
 h1: "Qué mecha escalonada elegir y cómo usarla"
 url: "/taladros/mechas-escalonadas/"
-description: "Tabla dimensional y lista derivada de escalones de una broca Bosch HSS de 4–20 mm."
+description: "Compará mechas escalonadas 4–20 y 4–32 mm por diámetros reales, espesor admitido y materiales; guía de uso, velocidad y lubricación según fabricante."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["mecha escalonada", "broca escalonada", "mecha cónica para metal", "mecha escalonada para metal", "mecha escalonada 4 a 32"]
@@ -11,47 +11,75 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Bosch HSS 4–20 mm: pasos y compatibilidad de una broca escalonada"
+information_asset: "Elegir el rango y los escalones de una mecha escalonada"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Qué mecha escalonada elegir y cómo usarla
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+Elegí el rango por el diámetro final que necesitás y comprobá los diámetros intermedios: un rango 4–20 no significa que tenga cada medida de 4 a 20 mm. Revisá también el espesor máximo de material declarado para ese código. Por ejemplo, la Högert HT6D323 4–32 mm especifica hasta 4 mm de espesor; Bosch no publica un máximo de espesor para la referencia 4–20 consultada.
 
-| Dato publicado | Bosch HSS Step Drill Bit |
-| :--- | :--- |
-| Rango de diámetros | 4–20 mm |
-| Incremento entre escalones | 4 mm |
-| Largo total | 70,5 mm |
-| Vástago | Hexagonal de 1/4 in |
-| Materiales listados | Metales, aluminio y plástico, según ficha |
+## Opciones para comparar
 
-**Dato documentado:** los datos corresponden a la broca escalonada Bosch Professional HSS consultada. En el rango 4–20 mm con pasos de 4 mm, las medidas sucesivas son 4, 8, 12, 16 y 20 mm. El valor se deriva del paso y los extremos publicados.
+| Referencia documentada | Rango y medidas de corte | Materiales declarados | Espesor máximo publicado |
+| :--- | :--- | :--- | :--- |
+| Bosch Professional HSS 4–20 mm, 2 608 597 524 | 4, 6, 8, 10, 12, 14, 16, 18 y 20 mm; nueve medidas, con 2 mm entre diámetros. La ficha también publica una altura de escalón de 4 mm, que es una dimensión física, no el incremento del diámetro. | Metales, metales no ferrosos, aluminio, plástico y panel sándwich, según las categorías de la ficha. | No indicado en la ficha o catálogo consultados. |
+| Högert HT6D323 HSS 4–32 mm | 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 y 32 mm; 15 medidas, con 2 mm entre diámetros. | Distintos aceros, metales no ferrosos, cobre, latón, aluminio, acero inoxidable, plásticos y madera, según fabricante. | Hasta 4 mm. |
 
-**Análisis TallerLab:** la utilidad de una escalonada es cubrir varios diámetros en una misma broca dentro de su rango; no ofrece todas las medidas intermedias. Para un agujero nominal de 10 mm, esta referencia no tiene un escalón de 10 mm según el intervalo indicado. El vástago hexagonal de 1/4 in debe sujetarse en un portabrocas compatible. El rango no informa por sí solo el espesor máximo de chapa.
+La 4–20 cubre agujeros de hasta 20 mm y la 4–32 extiende el rango hasta 32 mm con escalones cada 2 mm. Si todos tus agujeros son de 10, 12, 14 o 20 mm, ambas listas incluyen esas medidas; la de 4–32 suma las de 22 a 32 mm. Verificá siempre el grabado y número de parte: existen mechas con igual diámetro máximo pero distinta secuencia.
 
-**Declaración del fabricante:** Bosch lista uso con taladros y atornilladores de rotación/impacto según la ficha de la familia; la presencia de una herramienta percutora no autoriza a activar percusión para perforar chapa. El tratamiento superficial o material exacto debe leerse en el código del accesorio vendido.
+## 4–20 mm o 4–32 mm: cuál conviene
 
-**Desconocido:** no se verificó una ficha primaria equivalente para variantes de 4–32 mm ni para juegos de tres piezas mencionados en borradores comerciales. No inferimos que tengan el mismo paso, acero, recubrimiento o espesor admisible. Consultá esos valores en la referencia exacta.
+Elegí **4–20 mm** si el agujero más grande que necesitás no supera 20 mm y querés una herramienta más corta: la Bosch citada mide 70,5 mm en total y tiene vástago hexagonal de 1/4 in. Para agujeros mayores, la **Högert 4–32 mm** llega a 32 mm, tiene 15 escalones cada 2 mm y declara un espesor máximo de 4 mm.
 
-## Revisión antes de comprar
+Antes de comprar, anotá el diámetro final de cada agujero y buscá ese número exacto en la lista de escalones. Si necesitás un diámetro ausente, esa mecha no lo produce como medida nominal. Compará además la forma y el diámetro del vástago con el portabrocas o porta-puntas de tu taladro.
 
-| Necesidad | Lo que permite confirmar la fuente | Lo que sigue pendiente |
-| :--- | :--- | :--- |
-| Abrir distintos diámetros | Escalones de 4, 8, 12, 16 y 20 mm | La medida de cada referencia concreta |
-| Montaje rápido | Hexágono de 1/4 in | Compatibilidad y retención del portaherramientas |
-| Perforar chapa | Metales listados por Bosch | Espesor, lubricación y velocidad para la pieza concreta |
-| Alcanzar 32 mm | Nada en esta ficha | Elegir otro código con ese rango declarado |
+No supongas que una medida de espesor máximo vale para cualquier broca escalonada. Högert publica hasta 4 mm para la HT6D323; Bosch no especifica ese dato en la ficha 4–20 consultada. Para chapa más gruesa, perfiles o agujeros repetidos en material macizo, buscá una herramienta cuya ficha autorice ese trabajo.
+
+## Materiales y límites de uso
+
+Las referencias citadas son HSS, pero cada fabricante enumera sus propios materiales compatibles. Bosch lista metales, no ferrosos, aluminio, plástico y panel sándwich para su broca 4–20; Högert lista varios aceros, incluidos inoxidable, además de cobre, latón, aluminio, plásticos y madera para la HT6D323. No extrapoles el catálogo de una marca a otra geometría, recubrimiento o código.
+
+Usá **rotación sin percusión** en chapa. La acción de golpeteo no ayuda a cortar una lámina y puede hacer que la herramienta salte, marque o deforme la pieza. Sujetá la chapa firmemente y apoyala cerca del agujero para que no gire ni vibre. Bosch cataloga su broca para taladros rotativos y también percutores, pero eso describe compatibilidad de herramienta; no es una instrucción para activar el modo percutor al perforar metal.
+
+## Cómo perforar sin deformar la chapa
+
+1. **Confirmá el diámetro y el espesor.** Elegí un escalón que coincida con el agujero final y revisá el máximo de espesor declarado para esa referencia.
+2. **Sujetá la pieza.** Fijá la chapa para que no rote ni vibre; protegé la cara visible y despejá la zona de salida.
+3. **Montá la mecha y alineala.** Asegurá el vástago en un mandril compatible. Bosch indica que su vástago hexagonal de 1/4 in admite mandril de tres mordazas y porta-puntas hexagonal interno.
+4. **Perforá en rotación, con avance controlado.** Mantené la broca perpendicular y aplicá presión firme pero moderada. Evitá percusión y no fuerces si la viruta no evacua o la broca se calienta.
+5. **Detenete en el escalón elegido.** Observá las marcas de diámetro. Frená cuando el borde de corte de la medida buscada haya atravesado la chapa y antes de que empiece a cortar el escalón siguiente. No empujes hasta que el cono completo pase por el agujero: eso lo agranda.
+6. **Retirá y revisá.** Detené el taladro antes de retirar la herramienta. Comprobá el diámetro y quitá la rebaba solo con el método adecuado para la pieza.
+
+### Velocidad y lubricación
+
+No hay una velocidad única para todos los materiales, diámetros y mechas. Bosch no publica rpm ni lubricante para la broca HSS 4–20 consultada. Como ejemplo específico, RUKO publica para su mecha HSS 4–20 (tamaño 1) una tabla por material, con espesor de chapa de hasta 4 mm: para acero estructural al carbono de hasta 700 N/mm² indica 500–2400 rpm y spray de corte; para aluminio de aleación hasta 11 % de silicio, 500–2400 rpm y spray de corte. Esos rangos corresponden a esa tabla de RUKO, no son una especificación de Bosch o Högert.
+
+La tabla RUKO también distingue diámetros y materiales y recomienda velocidades bajas en taladros manuales. Si el fabricante de tu referencia publica una tabla, seguí esa tabla y sus condiciones. Si no la publica, consultá el manual del accesorio o al fabricante antes de fijar rpm o añadir lubricante; no deduzcas un valor universal por el color o recubrimiento de la mecha.
+
+## Preguntas frecuentes
+
+### ¿La mecha 4–20 tiene escalones cada 4 mm?
+
+No en el ejemplo Bosch documentado: tiene nueve diámetros, cada 2 mm de 4 a 20 mm. El dato “altura de escalón: 4 mm” describe la altura geométrica de cada tramo, no la diferencia entre medidas de corte.
+
+### ¿La 4–32 admite chapa de más de 4 mm?
+
+La ficha de la Högert HT6D323 especifica un máximo de 4 mm. No la uses por encima de ese límite indicado. Para la Bosch 4–20 consultada no encontramos un espesor máximo publicado, así que no le asignamos uno.
+
+### ¿Puedo perforar con percusión?
+
+No para chapa. Usá rotación sin percusión y fijá la pieza. Que una ficha diga que la broca es compatible con un taladro percutor no significa que se deba activar el golpeteo.
+
+### ¿Cuándo agrego lubricante?
+
+Solo según el accesorio, el material y la guía de su fabricante. La tabla RUKO citada recomienda spray de corte para determinados aceros y aluminio, pero no traslada esa recomendación a todas las brocas escalonadas.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch Professional HSS Step Drill Bit 4–20 mm](https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/).
-- **Seguridad:** seguir las instrucciones de velocidad, fijación de la pieza y protección del manual.
+- **Documentación primaria:** [Bosch Professional HSS Step Drill Bit 4–20 mm](https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/); [catálogo de accesorios Bosch con los nueve diámetros de la 4–20](https://www.bosch-professional.com/gb/media/service_relaunch/downloads/kataloge/2024_ac/20231115_1133_rc_gb_en-web.pdf); [Högert HT6D323 4–32 mm: materiales, pasos y espesor](https://en.hoegert.com/product/step-drill-4-32-mm/); [RUKO, brocas escalonadas HSS y tabla de velocidades/lubricación](https://ruko.de/en/products/step-drills/step-drill-hss/); [catálogo RUKO con tabla de corte](https://ddr456.saas.contentserv.com/admin/ImageServer.php?ID=bd3684bdb97d785fa6f0bf6e0588004c03b3a93ca8e5eb869d30570457e314d3%3A26251%40ddr456&download=true&downloadname=RUKO_Step_drills_en.pdf&rand=ac093ee023aefb64f663f2d7cfb37059).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [guías de taladros](/taladros/).
-
-Para explorar la categoría: [guías de taladros](/taladros/).

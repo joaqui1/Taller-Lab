@@ -13,31 +13,44 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "SC16-AR: ficha y medida de disco"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Sierra circular Stanley SC16: guía de compra
 
-La denominación comercial 7-1/4 pulgadas aparece junto con 180 mm en la ficha argentina. El manual que incluye la variante -AR indica un diámetro máximo distinto; documentamos la discrepancia antes de recomendar un repuesto.
+Para piezas de hasta unos 60 mm, la SC16-AR tiene margen según la profundidad máxima publicada en el manual compartido: 65 mm a 90° y 50 mm a 45°. Antes de usar esa capacidad para decidir, comprobá que la placa y el manual de la unidad ofrecida correspondan a la variante -AR.
 
-## SC16-AR: ficha y medida de disco
+## Capacidad y datos para elegir la SC16-AR
 
-| Dato documentado | SC16-AR | Fuente |
+| Dato | SC16-AR | Fuente |
 | :--- | :--- | :--- |
 | Potencia anunciada | 1.600 W | Ficha Stanley Argentina |
-| Diámetro anunciado | 180 mm | Ficha Stanley Argentina |
-| Diámetro máximo en manual | 190 mm | Manual Stanley SC16, tabla de variantes |
-| Orificio en manual | 16 mm | Manual Stanley SC16 |
-| Profundidad máxima a 90° / 45° en manual | 65 / 50 mm | Manual Stanley SC16 |
-| Alimentación | Con cable | Ficha Stanley Argentina |
+| Profundidad máxima de corte | 65 mm a 90°; 50 mm a 45° | Manual Stanley SC16, tabla que incluye -AR |
+| Diámetro máximo indicado | 190 mm | Manual Stanley SC16, tabla de variantes; confirmar unidad concreta |
+| Agujero/eje de hoja | 16 mm | Manual Stanley SC16 |
+| Bisel máximo | 45° | Manual Stanley SC16 |
+| Velocidad sin carga | 5.500 rpm | Manual Stanley SC16 |
+| Peso | 3,9 kg | Manual Stanley SC16 |
+| Alimentación | 220 V, 50 Hz para variante -AR | Manual Stanley SC16 |
 | Garantía publicada | 2 años limitada | Ficha Stanley Argentina |
+| Contenido indicado en el manual | Sierra, hoja, llave, guía paralela y manual | Manual Stanley SC16; confirmar el contenido de la caja ofrecida |
 
-**Análisis TallerLab.** La ficha dice «7-1/4 pulgadas» y «180 mm» en el mismo título. Como 7,25 × 25,4 = 184,15 mm, hay una diferencia de unos 4 mm entre ambas expresiones. El manual compartido de SC16, que incluye -AR en la tabla, permite hasta 190 mm y señala eje de 16 mm. Los documentos no explican por qué la página comercial ofrece 180 mm. Antes de instalar otro tamaño, confirmá la placa y el manual que acompañan la unidad concreta.
+> **No instales un disco de 190 mm únicamente porque el manual compartido lo enumere.** La ficha argentina anuncia 180 mm y el manual genérico de SC16, cuya tabla incluye -AR, admite hasta 190 mm. Confirmá en la placa y el manual que acompañan la unidad concreta qué diámetro acepta esa sierra.
 
-**Desconocido.** No verificamos qué disco viene dentro de cada caja ni el rendimiento de corte. La ficha comercial no da profundidad; la cifra de la tabla proviene del manual y debe contrastarse con la revisión de la unidad ofrecida.
+## Para qué espesores tiene sentido
 
-Para comparar capacidades documentadas, mirá la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/). La potencia anunciada por sí sola no prueba calidad de corte.
+Si tus cortes habituales son en piezas de hasta unos 60 mm a 90°, la SC16-AR entra por la capacidad máxima de 65 mm documentada para esa variante; dejá margen y verificá la unidad. Para biselar, el manual informa hasta 50 mm a 45°. Si la pieza supera esas capacidades, esta ficha no respalda elegirla para ese corte.
+
+La herramienta está destinada a cortar madera. Para cortes al hilo, el manual recomienda una guía paralela y explica cómo instalarla en la base; también la lista en el contenido de caja. Como los accesorios pueden variar según la oferta, confirmá que la guía venga incluida. Para cortes rectos largos, compará con una [guía para sierra circular](/sierras/guia-para-sierra-circular/) compatible.
+
+## Qué disco de reemplazo comprar
+
+La página argentina anuncia 7-1/4 pulgadas y 180 mm en el mismo título; 7-1/4″ equivale a 184,15 mm, así que esos datos no coinciden. El manual de SC16 incluye -AR en su tabla y señala 190 mm como diámetro máximo y 16 mm para el agujero de la hoja. Los documentos consultados no explican la discrepancia entre ficha y manual.
+
+No compres el repuesto por la conversión de pulgadas ni por el dato de 190 mm aislado. Confirmá el diámetro admitido, el agujero de 16 mm y la forma de montaje en la placa/manual de la unidad concreta; además, el manual exige que las RPM máximas marcadas en el disco igualen o superen las 5.500 rpm de la sierra. Para criterios generales, consultá [cómo elegir un disco para sierra circular](/sierras/disco-para-sierra-circular/).
+
+La profundidad documentada permite contrastar la SC16-AR con la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/), pero no demuestra por sí sola mejor velocidad, terminación ni desempeño bajo carga.
 
 ## Fuentes consultadas
 

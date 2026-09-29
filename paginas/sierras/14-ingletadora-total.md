@@ -13,32 +13,60 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Dos códigos Total y una capacidad distinta"
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
 # Cómo elegir una ingletadora Total
 
-La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. El borrador mezclaba el TS42182552 con una supuesta versión deslizante; mantenemos los modelos que aparecen identificados en documentación técnica.
+La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. Para elegir, empezá por las dimensiones de la pieza y los cortes que vas a repetir; la potencia por sí sola no define qué modelo te sirve.
 
-## Dos códigos Total y una capacidad distinta
+## Comparación y decisión entre los dos modelos
 
-| Dato documentado en catálogo | TS42142107 | TS42182553 |
+### Qué cambia realmente entre los dos modelos
+
+| Dato publicado | TS42142107 | TS42182553 |
 | :--- | ---: | ---: |
-| Potencia | 1.400 W | 1.800 W |
+| Potencia de entrada | 1.400 W | 1.800 W |
+| Velocidad sin carga | 5.000 rpm | 4.500 rpm |
 | Disco / eje | 210 × 25,4 mm | 254 × 30 mm |
-| Capacidad máxima a 90° | 60 × 120 mm | 75 × 130 mm |
-| Peso publicado | 7,4 kg | 17,3 kg |
-| Ajuste de inglete | 45° a izquierda y derecha | 52° a izquierda y derecha |
-| Bisel | 45° a izquierda | 45° a izquierda |
+| Capacidad a 90° de inglete y 0° de bisel | 60 × 120 mm | 75 × 130 mm |
+| Peso | 7,4 kg | 17,3 kg |
+| Rango de inglete | 0–45° izquierda/derecha | 0–52° izquierda/derecha |
+| Bisel | 0–45° a izquierda | 0–45° a izquierda |
+| Accesorios que lista el catálogo | Disco TCT y bolsa para polvo | 2 barras de extensión, disco y bolsa para polvo |
 
-**Análisis TallerLab.** La TS42182553 publica 15 mm más de altura y 10 mm más de ancho máximo a 90°; su peso de catálogo supera al de TS42142107 en 9,9 kg. Son dos escalas y capacidades distintas. El disco de 254 mm no es reemplazo del de 210 mm y los ejes también difieren: 30 frente a 25,4 mm.
+La TS42182553 declara más capacidad y un rango de inglete mayor, pero también pesa 9,9 kg más y usa un disco y eje distintos. La TS42142107 declara más rpm sin carga; esa cifra y los watts no permiten, por sí solos, deducir cuál cortará más rápido o dejará mejor terminación en tu material. Elegí con las capacidades de corte, el espacio de trabajo, el peso y el consumible que necesitás.
 
-**Desconocido.** El catálogo no confirma stock, kit o garantía de estos códigos en Argentina. No identificamos aquí una ficha primaria cotejada para la TS42182557 que figuraba en el borrador; no la tratamos como telescópica ni le atribuimos especificaciones. Pedí foto de placa y manual de la oferta concreta.
+El catálogo lista barras de extensión para la TS42182553, pero no especifica si el cabezal es deslizante en ninguno de los dos códigos. No tomes esas barras como prueba de mecanismo telescópico. Tampoco se deben confundir estos modelos con el código parecido TS42182552: sus datos no son intercambiables.
+
+### Cuál cubre cada tamaño de pieza
+
+Para un corte recto a 90° de inglete y 0° de bisel, el catálogo declara 60 × 120 mm para la TS42142107 y 75 × 130 mm para la TS42182553. Si la pieza supera cualquiera de las dos dimensiones declaradas, ese corte queda fuera de la capacidad publicada.
+
+En cortes angulados, la capacidad baja. Estas son las combinaciones que publica TOTAL; verificá que las dimensiones de tu pieza entren en la fila correspondiente y no extrapoles la capacidad recta a un corte compuesto.
+
+| Configuración de corte | TS42142107 | TS42182553 |
+| :--- | ---: | ---: |
+| Inglete 45° izquierda/derecha, bisel 0° | 60 × 85 mm | 75 × 90 mm |
+| Inglete 0°, bisel 45° izquierda | 34 × 120 mm | 45 × 130 mm |
+| Inglete 45°, bisel 45° | 34 × 85 mm | 40 × 90 mm |
+
+Si necesitás cortar piezas más grandes, ninguno de estos dos códigos cubre el trabajo según esos máximos publicados. Para cortes a medida repetidos, además de la capacidad, comprobá cómo se sujeta y apoya la pieza.
+
+### Qué confirmar en la oferta argentina
+
+- **Código exacto:** pedí que el código de la publicación coincida con la placa de la máquina. No aceptes que TS42182552 o TS42182557 se presenten como equivalentes sin documentación de esa variante.
+- **Tensión y frecuencia:** el catálogo consultado lista 220–240 V y 50/60 Hz para los dos códigos. Confirmá esos valores en la unidad ofrecida y que correspondan a la instalación donde la vas a usar.
+- **Disco compatible:** TS42142107 declara disco de 210 mm con eje de 25,4 mm; TS42182553, 254 mm con eje de 30 mm. Verificá ambos datos antes de comprar discos de repuesto.
+- **Contenido de caja:** el catálogo enumera los accesorios de la tabla, pero confirmá por escrito qué incluye el paquete vendido.
+- **Garantía y servicio:** consultá condiciones vigentes en Argentina para el código y vendedor concretos.
+
+No baso la elección en stock: la disponibilidad cambia y no está confirmada por el catálogo. Compará la oferta que encuentres con el código y las especificaciones anteriores.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [catálogo TOTAL 2026, códigos TS42142107 y TS42182553](https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures); [ficha técnica regional TS42182552, con capacidad publicada](https://totalmalaysia.my/ts42182552-mitre-saw/) — se incluye para distinguir el código similar, no como sustituto del 2553.
+- **Documentación primaria:** [catálogo TOTAL 2026, códigos TS42142107 y TS42182553](https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures); [ficha técnica regional TS42182552](https://totalmalaysia.my/ts42182552-mitre-saw/) — código similar, citado solo para advertir que no debe confundirse con TS42182553.
 - **Opiniones:** no se revisó una muestra verificable.
 
-[Ver todas las guías de sierras](/sierras/).
+[Ver todas las guías de sierras](/sierras/)

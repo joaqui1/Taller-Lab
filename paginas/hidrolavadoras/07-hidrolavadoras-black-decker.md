@@ -2,18 +2,18 @@
 title: "Hidrolavadoras Black+Decker: cuál conviene comprar"
 h1: "Qué hidrolavadora Black+Decker elegir"
 url: "/hidrolavadoras/black-decker/"
-description: "Compara dos códigos BLACK+DECKER de la serie BXPW por potencia, presión de trabajo frente a máxima y caudal máximo según el manual; conserva la variante regional como límite."
+description: "Qué Black+Decker elegir para casa, auto o patio: compara los códigos argentinos BEPW1300-AR, BEPW1520, BEPW1800T-AR y BEPW2200-AR con datos locales."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
-keywords: ["hidrolavadora black decker", "hidrolavadora black decker 1300w", "black decker bw14", "hidrolavadora black decker opiniones", "repuestos hidrolavadora black decker"]
+keywords: ["hidrolavadora black decker", "hidrolavadora black decker 1300w", "black decker BEPW", "hidrolavadora black decker opiniones", "repuestos hidrolavadora black decker"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Compara dos códigos BLACK+DECKER de la serie BXPW por potencia, presión de trabajo frente a máxima y caudal máximo según el manual; conserva la variante regional como límite."
+information_asset: "Guía por uso de los códigos Black+Decker que aparecen en el catálogo argentino, con presión de trabajo/máxima, caudal, manguera, accesorios, repuestos y garantía local cuando se publican."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
@@ -21,35 +21,52 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+La gama argentina publicada por BLACK+DECKER incluye **BEPW1300-AR, BEPW1520-AR, BEPW1520L-AR, BEPW1800T-AR y BEPW2200-AR**, además de la lavadora inalámbrica BCPC20D1-AR. La guía se centra en los modelos eléctricos con cable; la inalámbrica es otra clase de equipo.
 
-## Cómo investigamos esta guía
+## Qué elegir para casa y auto
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- **Auto, bicicleta y limpieza ocasional:** mirá BEPW1300-AR o los dos BEPW1520. El catálogo argentino anuncia para BEPW1300-AR 1200 W y 1300 PSI (90 bar); ojo: “1300” en este nombre refiere a PSI, no a watts. Los BEPW1520-AR y BEPW1520L-AR se anuncian con 1400 W y 1520 PSI (105 bar). Para vehículos, usá la boquilla ajustable y un chorro abierto a distancia prudente.
+- **Auto y tareas domésticas con manguera más larga:** BEPW1800T-AR ofrece 125 bar máximos, manguera de 6 m y 1700 W en el manual argentino. Incluye botella de espuma y función de autoaspirado para tomar agua de un recipiente si se prepara según el manual.
+- **Patio amplio o suciedad más persistente:** BEPW2200-AR da el mayor salto documentado: 105 bar nominales/de trabajo, 150 bar máximos, 5,8 L/min nominales y 7,5 L/min máximos. Suma manguera de 6 m, boquilla turbo y botella de espuma.
+- **BCPC20D1-AR inalámbrica:** figura en el catálogo local como lavadora de 350 PSI. Es una opción portátil de menor presión; no la compares como equivalente de las hidrolavadoras eléctricas de 90–150 bar.
 
-| Modelo | Potencia | Presión de trabajo en manual | Presión máxima | Caudal de trabajo / máximo |
-| :--- | ---: | ---: | ---: | ---: |
-| BXPW1300E | 1.300 W | 67 bar | 100 bar | 5 / 6,5 L/min |
-| BXPW1400E | 1.400 W | 74 bar | 110 bar | 5 / 6,5 L/min |
+Para pintar o lavar carrocería, empezá con boquilla abanico/ajustable y distancia; reservá la turbo para superficies resistentes. No elijas sólo por la presión máxima: cuando el manual local publica presión nominal/de trabajo y caudal de trabajo, esos campos permiten una comparación más útil.
 
-**Dato documentado:** el manual BLACK+DECKER para la familia BXPW distingue presión de trabajo y máxima. Para 1300E informa 67/100 bar y para 1400E 74/110 bar; ambos indican caudal de trabajo de 5 L/min y máximo de 6,5 L/min. La ficha del 1400E en el sitio de BLACK+DECKER España menciona kit de accesorios y garantía de un año en esa región.
+## Modelos y diferencias documentadas
 
-**Análisis TallerLab:** entre estos dos códigos, el manual aumenta 100 W de potencia y 10 bar en cada campo de presión, mientras conserva los caudales publicados. Es una lectura de cifras de fabricante, no una medición de limpieza ni una prueba de que las versiones comercializadas en Argentina incluyan el mismo kit o garantía. Verificar sufijo, tensión/frecuencia de placa y contenido de caja de la unidad ofrecida.
+| Modelo argentino | Potencia anunciada/documentada | Presión de trabajo o nominal | Presión máxima | Caudal nominal/de trabajo y máximo | Manguera y kit que se pudo documentar |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| **BEPW1300-AR** | 1200 W; el “1300” del nombre de catálogo es PSI | No localizada para este código exacto en la ficha local | 90 bar/1300 PSI según catálogo argentino | No localizado en ficha oficial de esta referencia | El listado argentino no detalla largo ni kit completo. Confirmar caja/código antes de pagar. |
+| **BEPW1520-AR** | 1400 W | No publicada para este código en la ficha argentina consultada | 105 bar/1520 PSI | No publicada para esta referencia exacta en la ficha argentina | La página oficial lista lanza con boquilla ajustable, boquilla de pulverización, manguera, filtro, conexión rápida y pasador de limpieza; el largo no figura allí. Incluye autosucción. |
+| **BEPW1520L-AR** | 1400 W | No publicada para este código en la ficha argentina consultada | 105 bar/1520 PSI, según nombre oficial | No publicada para esta referencia exacta | El catálogo argentino la muestra como código aparte con la misma potencia/presión nominal de portada que BEPW1520-AR; no encontré una ficha local que documente diferencias técnicas o de kit entre sufijos. |
+| **BEPW1800T-AR** | 1700 W en manual local | 83,5 bar nominales | 125 bar | 5,5 L/min nominales; 6,8 L/min máximos | Manguera 6 m; pistola, lanza ajustable, filtro, conexión rápida, botella de espuma y pasador de limpieza. Autoaspirado y bomba de aluminio en la ficha argentina. |
+| **BEPW2200-AR** | 2000 W en manual local | 105 bar nominales/de trabajo | 150 bar | 5,8 L/min nominales/de trabajo; 7,5 L/min máximos | Manguera 6 m; pistola, lanza ajustable, boquilla turbo, filtro, conexión rápida, botella de espuma y pasador. Autoaspirado, conexión pivotante y almacenamiento integrado. |
 
-**Desconocido:** el manual citado no identifica disponibilidad argentina actual ni equivalencia de accesorios por país. No se compara precio, servicio posventa local ni rendimiento sobre superficies.
+### Cómo interpretar los códigos
+
+La gama vigente de la web argentina usa códigos **BEPW**; los códigos españoles **BXPW1300E/BXPW1400E** no son una base fiable para comprar acá. Además, BEPW1300-AR significa 1300 PSI en el título comercial, aunque la potencia indicada por el catálogo es 1200 W. Los sufijos BEPW1520 y BEPW1520L aparecen como productos distintos, pero el catálogo sólo permite confirmar los mismos 1400 W y 1520 PSI: no atribuyo al sufijo “L” una ventaja de presión, caudal o accesorios que el fabricante no documenta.
+
+## Uso, repuestos y garantía en Argentina
+
+Los modelos con cable de la tabla son para limpieza doméstica: auto, bicicleta, muebles y superficies exteriores, con la elección según caudal nominal, manguera y boquillas. BEPW1800T y BEPW2200 añaden bomba de aluminio y autoaspiración; el BEPW2200 ofrece más presión de trabajo y caudal nominal documentados en el manual. Eso lo hace más adecuado para patios y suciedad adherida, pero no es evidencia de ciclo profesional continuo.
+
+BLACK+DECKER Argentina ofrece buscador de [centros de servicio](https://ar.blackanddecker.global/centros-servicio) y [soporte/manuales](https://ar.blackanddecker.global/soporte). Las fichas argentinas consultadas de BEPW1520, BEPW1800T y BEPW2200 indican **un año de garantía**. Conservá factura y certificado y verificá cobertura exacta con el código de placa; para manguera, pistola, boquillas o bomba, pedí el repuesto por código en un centro autorizado.
+
+## Una nota de alcance
+
+El catálogo argentino identifica los modelos y sus nombres comerciales, pero no publica presión de trabajo, caudal y contenido de caja para todos los códigos. Para BEPW1800T y BEPW2200, la tabla usa el manual que identifica la variante eléctrica Argentina 220 V/50 Hz; sus cifras de caudal máximo difieren de algunos textos comerciales de página. Para los otros modelos dejé fuera campos que no pude verificar en la ficha argentina exacta. Antes de comprar, cotejá código, tensión, manual y accesorios de la unidad ofrecida. No agrego una sección de opiniones: no reuní una muestra verificable de compradores de estas variantes argentinas.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [manual de la familia BLACK+DECKER BXPW1300E–BXPW1600E](https://www.blackanddecker.es/GLOBALBOM/QS/BXPW1400PE/1/Instruction_Manual/EN/BXPW1300E_BXPW1400E_BXPW1500E_BXPW1600E_BX1700E_T1_TR.pdf); [página BLACK+DECKER BXPW1400E](https://www.blackanddecker.es/producto/bxpw1400e/1400w-hidrolimpiadora-de-alta-presion).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- [Catálogo oficial de hidrolavadoras BLACK+DECKER Argentina](https://ar.blackanddecker.global/productos/exteriores/hidrolavadoras-bombas-y-mangueras/hidrolavadoras) — códigos actuales y potencias/presiones comerciales.
+- [BEPW1520-AR, página oficial argentina](https://ar.blackanddecker.global/producto/bepw1520-ar/hidrolavora-1520-psi-1400w) — 1400 W, 105 bar máximos, autosucción, accesorios y garantía local.
+- [BEPW1800T-AR, página oficial argentina](https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar) — uso, autoaspiración, manguera, kit y garantía.
+- [BEPW1800T/BEPW2200, manual del fabricante para Argentina](https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/AR/BEPW2200/1/Instruction_Manual/EN/NA090017_BEPW_1600_1600L_1750_1800_2200-T1-LA.pdf) — especificaciones de las variantes AR 220 V/50 Hz.
+- [BEPW2200-AR, página oficial argentina](https://ar.blackanddecker.global/producto/bepw2200-ar/hidrolavadora-2175-psi-150-bar) — accesorios, autosucción, bomba, manguera y garantía.
+- [Centros de servicio BLACK+DECKER Argentina](https://ar.blackanddecker.global/centros-servicio); [soporte, manuales y garantía](https://ar.blackanddecker.global/soporte).
 
 Para seguir comparando: [comparativa de hidrolavadoras: presión y caudal](/hidrolavadoras/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Para conocer el criterio editorial: [metodología de TallerLab](/como-trabajamos/).
 
 Para explorar la categoría: [guías relacionadas](/hidrolavadoras/bosch/).

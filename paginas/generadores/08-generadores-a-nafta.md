@@ -1,8 +1,8 @@
 ---
 title: "Generador a nafta: consumo, autonomía y modelos"
-h1: "Generadores a nafta: cuál conviene comprar"
+h1: "Generador a nafta: consumo, autonomía y cuál elegir"
 url: "/generadores/a-nafta/"
-description: "Tabla de tres modelos Lüsqtoff a nafta que expone diferencias y contradicciones entre fichas y manual del LGI3.8-8 y la potencia del LG3000."
+description: "Cómo leer el consumo y la autonomía de un generador a nafta, comparar modelos con condiciones publicadas y decidir cuándo conviene nafta, diésel o gas."
 author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
 keywords: ["generador a nafta", "consumo generador nafta", "cuanto gasta un grupo electrogeno", "generador naftero argentina"]
@@ -11,17 +11,23 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Tabla de tres modelos Lüsqtoff a nafta que expone diferencias y contradicciones entre fichas y manual del LGI3.8-8 y la potencia del LG3000."
+information_asset: "Comparación de consumo y autonomía con condición declarada, junto con una guía de combustible según el tipo de uso."
 asset_status: "verificado"
-reviewed: "27/09/2026"
+reviewed: "28/09/2026"
 published: true
 ---
 
-# Generadores a nafta: cuál conviene comprar
+# Generador a nafta: consumo, autonomía y cuál elegir
+
+Un generador a nafta puede ser una opción portátil para cortes de luz, una obra o un uso ocasional, pero el tamaño del tanque no alcanza para estimar cuánto va a gastar. El consumo cambia con la carga y el fabricante no siempre publica la condición del dato. Para comparar, buscá litros por hora a una carga identificada o una autonomía expresada a 50% o 100% de carga; si la ficha solo dice “hasta 8 horas”, tomalo como una referencia sin condición de ensayo.
+
+Antes de mirar modelos, sumá la potencia de marcha de los equipos que querés alimentar y verificá sus picos de arranque. Elegí por potencia nominal para el uso sostenido; la potencia máxima sirve para picos breves según lo que permita el fabricante. También definí cuántas horas seguidas necesitás, si vas a mover el generador y dónde vas a guardar el combustible.
+
+En esta guía comparamos cifras publicadas para Gamma, Honda y Lüsqtoff. Cuando consumo, autonomía o ruido no tienen una condición comparable, lo marcamos. No hay un ganador universal: el modelo adecuado depende de la carga, las horas previstas, la movilidad y el precio que encuentres.
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
+**Dato documentado:** las especificaciones se atribuyen al fabricante o al vendedor indicado. Los cálculos de litros por hora equivalentes se identifican como **Análisis TallerLab**. Los precios son capturas de tiendas y pueden cambiar. Esta guía es documental y no incluye prueba física.
 
 ## Cómo investigamos esta guía
 
@@ -29,29 +35,98 @@ published: true
 - Prueba física de TallerLab: no
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Fuentes primarias para especificaciones: sí
+- Última revisión: 28/09/2026
 
-| Modelo | Potencia continua/nominal publicada | Máxima publicada | Tanque / autonomía | Observación documental |
-| :--- | ---: | ---: | :--- | :--- |
-| LG3500EX | 2.450 W nominales | 3.500 W | 15 L; aprox. 6–8 h según ficha | Motor 4 tiempos; 45 kg |
-| LG3500EXI | No especificada en la ficha consultada | 3.500 W | 15 L; 11 h declaradas | Inverter; autonomía sin condición de carga detallada en la ficha |
-| LGI3.8-8 | 3,5 kW | 3,8 kW | 8 L | Página: 223 cm³ y 28 kg; manual: 233 cm³ y 27 kg |
-| LG3000 | 2,5 kVA | 2,8 kVA | 15 L; 12 h declaradas | La misma página también imprime 4,8 kW como “potencia máxima de salida” |
+## Cuánto combustible consume un generador a nafta
 
-**Dato documentado:** las fichas oficiales Lüsqtoff publican los valores resumidos. En LGI3.8-8, página de producto y manual discrepan en cilindrada (223/233 cm³) y peso (28/27 kg). En LG3000, los campos de 2,5 kVA nominal y 2,8 kVA máximo coexisten en la ficha con otro campo que dice 4,8 kW máximo. No resolvemos esas diferencias sin aclaración de la marca.
+El consumo se expresa en litros por hora (L/h), pero ese valor solo sirve para comparar si se conoce la condición. Un generador que informa 3,5 L/h a 3600 rpm no está diciendo necesariamente que gaste eso en cualquier carga: la ficha debe aclarar potencia entregada o porcentaje de carga para que el dato represente una situación de uso.
 
-**Análisis TallerLab:** estos casos muestran por qué hay que comparar potencia nominal con nominal y máxima con máxima, además de distinguir W de VA. Para LG3000, 4,8 kW no concuerda con el campo máximo de 2,8 kVA tal como está publicado; se deja registrada la inconsistencia sin elegir arbitrariamente una cifra. Las autonomías de 6–8, 11 y 12 horas tampoco son comparables sin carga y procedimiento equivalentes.
+| Modelo | Consumo publicado | Condición declarada | Qué se puede concluir |
+| :--- | ---: | :--- | :--- |
+| Gamma GE3481AR 6000V | 2,2 L/h al 50%; 3,6 L/h al 100% | Manual, según porcentaje de carga | Es la referencia más directa de esta selección para comparar dos cargas. |
+| Honda EU22i | 0,88 L/h | A 3600 rpm; carga no informada | No es una estimación para una carga doméstica concreta. |
+| Honda EG6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | La ficha no permite traducir esta cifra a un costo por hora de uso típico. |
+| Honda EZ6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | Misma limitación: falta el porcentaje de carga del dato. |
+| Lüsqtoff LG3500EX / LGI3.8-8 | No publicado en las páginas consultadas | — | No estimamos el gasto con potencia del motor, cilindrada o tamaño del tanque. |
 
-**Desconocido:** no se convierte el consumo LG3000 de 360 g/kWh a litros por hora sin conocer potencia entregada y densidad del combustible en la condición de ensayo. La evidencia consultada tampoco confirma autonomía con una carga específica, contenido de kit, garantía vigente o potencia recomendada para cada artefacto.
+En el Gamma, el manual publica 2,2 L/h al 50% y 3,6 L/h al 100%. La página del producto, a su vez, declara autonomía de 10 horas al 50% y 6 horas al 100% con un tanque de 25 litros. Son datos útiles, pero no coinciden exactamente si se calcula 25 L dividido por las horas: dan 2,5 y 4,17 L/h. **Análisis TallerLab:** se deben conservar ambas cifras con su fuente; no reemplazar una por la otra ni asumir que el tanque completo está disponible durante toda la prueba.
+
+Honda publica cifras de consumo a 3600 rpm y también autonomía por tanque, pero no asigna una carga a esas cifras. Por eso las mostramos por separado y no afirmamos que sean dos mediciones de la misma condición. En el EU22i, además, la ficha informa 8,1 horas con Eco Throttle y presenta también “8,1 hs* - 3,2 hs” sin detallar qué condición corresponde a cada valor. La carga no está identificada.
+
+Para estimar tu gasto, usá el consumo del manual para la carga más cercana a la que vas a conectar. Multiplicá litros por hora por las horas de funcionamiento previstas y sumá un margen operativo: el consumo real varía con la carga, los arranques, el mantenimiento, la temperatura y la altitud. Si el fabricante no informa consumo con carga, pedile ese dato antes de presupuestar muchas horas de uso.
+
+## Autonomía según la carga
+
+La autonomía depende de la cantidad de combustible y de la carga. La tabla incluye únicamente condiciones que el fabricante publica; “carga no informada” significa que la cifra no se debe interpretar como autonomía a media o plena carga.
+
+| Modelo | Carga o condición publicada | Autonomía publicada | Tanque |
+| :--- | :--- | ---: | ---: |
+| Gamma GE3481AR 6000V | 50% de carga | 10 h | 25 L |
+| Gamma GE3481AR 6000V | 100% de carga | 6 h | 25 L |
+| Honda EU22i | Eco Throttle; carga no informada | 8,1 h | 3,6 L |
+| Honda EU22i | La ficha enumera también 3,2 h, sin condición aclarada | 3,2 h | 3,6 L |
+| Honda EG6500CXS | Uso continuo; carga no informada | 8,1 h | 24 L |
+| Honda EZ6500CXS | Uso continuo; carga no informada | 5,8 h | 15,5 L |
+| Lüsqtoff LG3500EX | “Dependiendo el consumo”; carga no informada | Aproximadamente 6–8 h | 15 L |
+
+Una cifra de horas sin carga especificada no permite asegurar que el generador dure eso con tus equipos conectados. No conviene comparar directamente las 8,1 horas del Honda EG6500CXS con las 6 horas al 100% del Gamma: solo Gamma explicita los porcentajes de carga.
+
+## Nafta frente a diésel y gas
+
+El combustible cambia la logística tanto como el consumo. Compará equipos de potencia y uso semejantes: comparar solo el precio del litro o el tamaño del tanque puede dar una conclusión equivocada. Para estimar costo de operación necesitás consumo del modelo a la carga prevista y precio local del combustible. En una comparación económica completa sumá precio de compra, combustible para las horas previstas, mantenimiento y cualquier instalación requerida; no atribuyas una diferencia de costo al combustible sin igualar esas condiciones.
+
+| Criterio | Nafta | Diésel | Gas natural o GLP |
+| :--- | :--- | :--- | :--- |
+| Uso a investigar | Modelos portátiles para respaldo ocasional, movilidad y jornadas intermitentes. La duración real se verifica en la ficha. | Generadores disponibles para trabajo planificado y equipos de mayor tamaño; confirmar potencia continua, mantenimiento y consumo en el modelo exacto. | Respaldo fijo o uso con suministro disponible; confirmar si admite gas natural, GLP o ambos y qué potencia entrega con cada combustible. |
+| Horas previstas | Revisar L/h o autonomía a una carga publicada y planificar las recargas. | Revisar L/h a carga parcial y plena, volumen del tanque y frecuencia de abastecimiento. | Con red de gas no se recarga un tanque de combustible del equipo; con GLP depende del tamaño y cambio de garrafas/tanque. El suministro y la instalación determinan la continuidad. |
+| Almacenamiento y abastecimiento | Requiere combustible líquido almacenado y manipulado según el manual y las normas locales. | También requiere almacenamiento seguro de combustible líquido; revisar especificación, filtrado y plan de abastecimiento. | Gas natural requiere conexión; GLP requiere recipientes e instalación aprobados para el equipo. No improvisar conexiones. |
+| Instalación y movilidad | Hay versiones portátiles. Aunque sea móvil, funciona al aire libre, lejos de aberturas y con escape despejado. | Hay equipos portátiles y estacionarios; peso, dimensiones, ventilación y acceso para servicio dependen del modelo. | Requiere suministro compatible y una instalación revisada por un instalador matriculado; algunos equipos son estacionarios. |
+| Peso y costo | No se deducen del combustible: comparar peso, precio, potencia nominal, ruido y servicio del modelo. | Revisar peso y precio del conjunto completo, incluidos transporte, instalación y mantenimiento. | Incluir equipo, instalación, suministro de gas, regulación y accesorios. La inversión total no se compara solo con el precio del generador. |
+
+**No hay un combustible ganador para todos.** Para un equipo que se traslada y se usa algunas horas, mirá primero portabilidad, autonomía bajo carga y disponibilidad de nafta. Si prevés muchas horas de operación, pedí consumos comparables de las opciones diésel y naftera. Si buscás respaldo fijo con gas, verificá que la potencia corresponda al combustible elegido y cotizá la instalación completa. ENARGAS indica que las modificaciones de instalaciones internas de gas deben ser realizadas por instaladores matriculados; pedí que el generador y su conexión queden dentro del alcance aprobado para el lugar.
+
+## Comparativa de modelos a nafta
+
+La potencia nominal es la referencia para el uso sostenido. La máxima corresponde a una condición de pico y no debe tratarse como potencia permanente. Los precios se consultaron el 28/09/2026 en las tiendas enlazadas; no incluyen necesariamente envío ni instalación.
+
+| Modelo | Nominal / máxima | Tanque | Arranque | Peso | Autonomía publicada | Ruido publicado | Precio observado al 28/09/2026 |
+| :--- | :--- | ---: | :--- | ---: | :--- | :--- | :--- |
+| [Honda EU22i](https://pf.honda.com.ar/producto/EU22i) | 1,8 / 2,2 kVA | 3,6 L | Manual | 21 kg | 8,1 h con Eco Throttle; carga no informada. La misma ficha también lista 3,2 h sin condición clara. | 57 dB(A) a 7 m, a plena carga | $2.799.999 en [MOBI Motos](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); 6 cuotas sin interés publicadas. |
+| [Lüsqtoff LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8) | 3,5 / 3,8 kW | 8 L | Manual, retroceso | 28 kg | No publicada en la página consultada | 75 dB a 7 m; carga no aclarada | PVP $1.023.099 en [Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI3.8-8). |
+| [Gamma GE3481AR 6000V](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/) | 5,5 / 6 kW | 25 L | Eléctrico; batería no incluida | 72 kg | 10 h al 50%; 6 h al 100% | 75 dB en manual; condición de medición no informada | $1.884.125,52 en [TiendaSoyMat](https://tiendasoymat.com.ar/productos/grupo-electrogeno-6000v-gamma/); transferencia publicada con descuento. |
+| [Honda EZ6500CXS](https://pf.honda.com.ar/producto/EZ6500CXS) | 5,5 / 6,5 kVA | 15,5 L | Manual y eléctrico | 80 kg | 5,8 h; carga no informada | 99 dB(A); condición de medición no informada | $2.499.999 en [MOBI Motos](https://www.mobimotos.com.ar/productos/generador-honda-ez6500cxs-ra-5500w-monofasico-4t-electrico/); 6 cuotas sin interés publicadas. |
+| [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS) | 5 / 5,5 kVA | 24 L | Eléctrico | 87 kg | 8,1 h; carga no informada | 99 dB(A); condición de medición no informada | $4.630.817,04 en [Bulonera Patagónica](https://www.bulonerapatagonica.com.ar/herramientas-industriales/generadores/). |
+| [Lüsqtoff LG3500EX](https://lusqtoff.com.ar/ver-producto/LG3500EX) | 2.450 / 3.500 W | 15 L | No especificado en la ficha consultada | 45 kg | Aproximadamente 6–8 h, según consumo | No publicado | PVP $922.499 en [Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG3500EX). |
+
+Los ruidos no son una comparación directa: las fichas no siempre aclaran distancia, carga o método. Los precios son una captura puntual, no una cotización garantizada. Confirmá código, disponibilidad, batería incluida, accesorios, garantía y costo de entrega antes de comprar. Las cifras de potencia en kVA y kW se mantienen en sus unidades publicadas; no son intercambiables sin conocer el factor de potencia.
+
+### Qué mirar según tu prioridad
+
+- **Poco peso y equipos sensibles:** compará un inverter portátil como EU22i, verificando la potencia nominal frente a la suma de cargas y los picos de arranque.
+- **Portabilidad y potencia intermedia:** el LGI3.8-8 es inverter, pesa 28 kg y declara 3,5 kW nominales; la ficha consultada no permite estimar autonomía.
+- **Uso con carga conocida durante varias horas:** el Gamma publica autonomía a 50% y 100%; tené en cuenta que requiere batería para el arranque eléctrico y que su peso declarado es 72 kg.
+- **Cargas monofásicas mayores:** EG6500CXS y EZ6500CXS publican potencias nominales y máximas, pero sus autonomías no están asociadas a una carga. Pedí ese dato si las horas son decisivas.
+
+## Cómo elegir según las horas de uso
+
+1. Anotá los equipos que van a funcionar al mismo tiempo, su potencia de marcha y sus picos de arranque.
+2. Elegí un generador cuya potencia nominal cubra la carga sostenida. No uses la potencia máxima como si fuera la nominal.
+3. Estimá horas por jornada y buscá consumo o autonomía para una carga equivalente. Si no está publicada, considerá el dato faltante antes de comprar.
+4. Sumá movilidad, ruido medido en condiciones comparables, arranque, disponibilidad de combustible, mantenimiento y costo de instalación si es fijo.
+
+## El LG3000: dato a verificar
+
+La página consultada para el Lüsqtoff LG3000E publica 2,5 kVA nominales y 2,8 kVA máximos, pero también imprime 4,8 kW como “potencia máxima de salida”, además de 15 L de tanque y 12 horas de autonomía sin condición de carga. Las unidades y cifras de potencia no encajan como una sola especificación inequívoca. Lo dejamos como un dato a verificar con Lüsqtoff o el manual correspondiente, no como referencia para comparar consumos o dimensionar cargas.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Lüsqtoff LG3500EX](https://lusqtoff.com.ar/ver-producto/LG3500EX); [Lüsqtoff LG3500EXI](https://www.lusqtoff.com.ar/ver-producto/LG3500EXI); [Lüsqtoff LGI3.8-8](https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8); [manual Lüsqtoff LGI3.8-8](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/GRUPOS_ELECTROGENES/LGI38-8/LGI3-8-8.pdf); [Lüsqtoff LG3000](https://lusqtoff.com.ar/ver-producto/LG3000).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
+- **Fabricantes y documentación primaria:** [Honda EU22i](https://pf.honda.com.ar/producto/EU22i); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Honda EZ6500CXS](https://pf.honda.com.ar/producto/EZ6500CXS); [Gamma GE3481AR 6000V](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/); [manual Gamma GE3480AR/GE3481AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf); [Lüsqtoff LG3500EX](https://lusqtoff.com.ar/ver-producto/LG3500EX); [Lüsqtoff LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8); [Lüsqtoff LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E).
+- **Precios observados:** [MOBI Motos EU22i](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); [MOBI Motos EZ6500CXS](https://www.mobimotos.com.ar/productos/generador-honda-ez6500cxs-ra-5500w-monofasico-4t-electrico/); [TiendaSoyMat Gamma GE3481AR](https://tiendasoymat.com.ar/productos/grupo-electrogeno-6000v-gamma/); [Bulonera Patagónica, catálogo Honda](https://www.bulonerapatagonica.com.ar/herramientas-industriales/generadores/).
+- **Seguridad de instalaciones de gas:** [ENARGAS, preguntas frecuentes sobre instalaciones internas](https://www.enargas.gob.ar/secciones/seguridad-en-el-hogar/preguntas-frecuentes.php).
 
 Para seguir comparando: [generadores a gas](/generadores/a-gas/).
 
 Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías relacionadas](/generadores/)

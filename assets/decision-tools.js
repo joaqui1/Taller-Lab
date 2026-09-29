@@ -66,6 +66,22 @@
       const b = values.priceB + values.shippingB + values.extrasB;
       return result(`Total A: $${format(a)} · Total B: $${format(b)}`, `Diferencia absoluta: $${format(Math.abs(a - b))}. Revisá que sean la misma variante y configuración; el cálculo no compara prestaciones ni financiación.`);
     }
+    if (kind === 'diesel-cost') {
+      if (values.rate <= 0 || values.fuelPrice <= 0 || values.interval <= 0) return result('Completá consumo, precio e intervalo', 'Ingresá el consumo de combustible del generador a la carga que esperás usar, el precio por litro y el intervalo indicado en el manual del código.');
+      const fuelPerHour = values.rate * values.fuelPrice;
+      const maintenancePerHour = (values.oil + values.filters + values.labor) / values.interval;
+      return result(`Costo variable estimado: $${format(fuelPerHour + maintenancePerHour)} por hora`, `Combustible: ${format(values.rate)} L/h × $${format(values.fuelPrice)}/L = $${format(fuelPerHour)}/h. Mantenimiento: ($${format(values.oil)} aceite + $${format(values.filters)} filtros + $${format(values.labor)} mano de obra) ÷ ${format(values.interval)} h = $${format(maintenancePerHour)}/h. No incluye compra, reparaciones ni costos que no ingresaste; el consumo corresponde solo a la condición de carga indicada por su fuente.`);
+    }
+    if (kind === 'station-runtime') {
+      if (values.capacity <= 0 || values.load <= 0 || values.depth <= 0 || values.depth > 100 || values.efficiency > 100) return invalid();
+      const efficiency = values.efficiency === 0 ? 100 : values.efficiency;
+      const usable = values.capacity * (values.depth / 100) * (efficiency / 100);
+      const draw = values.load + values.idle;
+      const hours = usable / draw;
+      const ideal = values.capacity / values.load;
+      const efficiencyText = values.efficiency === 0 ? 'No ingresaste eficiencia: se usa 100 % como techo ideal, sin pérdidas.' : `Se aplica la eficiencia que ingresaste: ${format(values.efficiency)} %.`;
+      return result(`${values.efficiency === 0 ? 'Techo ideal' : 'Autonomía modelada'}: ${format(hours)} h`, `${format(values.capacity)} Wh × ${format(values.depth)} % de energía utilizable × ${format(efficiency)} % de rendimiento ÷ (${format(values.load)} W de carga + ${format(values.idle)} W de consumo propio) = ${format(hours)} h. Wh ÷ W sin descuentos daría ${format(ideal)} h; ese valor es solo un techo teórico. ${efficiencyText} El resultado no es una medición y cambia con temperatura, carga variable, reserva de batería y pérdidas reales.`);
+    }
     if (kind === 'house') {
       const selected = loads.filter(load => load.name.trim() || load.run !== '' || load.start !== '');
       if (!selected.length) return result('Agregá una carga documentada', 'Completá nombre, watts de marcha y de arranque del aparato concreto.');

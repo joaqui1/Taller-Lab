@@ -2,7 +2,7 @@
 title: "Taladro percutor: cuál comprar y cómo elegirlo"
 h1: "Cómo elegir un taladro percutor"
 url: "/taladros/percutores/"
-description: "Elegí entre percusión y SDS por material, encastre y capacidades documentadas. Evaluá el kit Ingco sin atribuirle los datos de los ejemplos Bosch."
+description: "Elegí un taladro percutor según el material, el tipo de broca, el modo de trabajo y si te conviene cable o batería."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro percutor", "taladro percutor comprar", "percutor con cable", "taladro percutor bateria", "taladro para pared"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Decisión de herramienta: percusión mecánica o mecanismo SDS"
+information_asset: "Guía de elección por material, modo y alimentación"
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true
@@ -19,48 +19,44 @@ published: true
 
 # Cómo elegir un taladro percutor
 
-<!-- AUDITORIA_EDITORIAL_178 -->
+Un taladro percutor con mandril convencional sirve para atornillar y perforar madera, metal y mampostería. Para elegir, identificá primero el material y diámetro más exigentes; luego confirmá broca, modo, capacidad de la herramienta y si la comodidad de una batería compensa su costo y autonomía.
 
-| Criterio documental | Taladro percutor | Rotomartillo SDS plus |
-| :--- | :--- | :--- |
-| Mecanismo | Percusión mecánica asociada a la rotación | Percusión electro-neumática con portaherramientas SDS |
-| Ejemplo oficial consultado | Bosch GSB 18V-50: hasta 27.000 impactos/min | Bosch GBH 220: 2,0 J declarados |
-| Inserción de accesorio | Mandril de 13 mm en el GSB 18V-50 | SDS plus en el GBH 220 |
-| Límite verificable | La ficha consultada no expresa energía por golpe | 22 mm máximo en hormigón para GBH 220 |
+## Para qué sirve la percusión
 
-**Dato documentado:** estas cifras describen dos ejemplos concretos, no todos los taladros percutores ni todos los rotomartillos. El GSB 18V-50 es un modelo a batería de 18 V; la cifra de 27.000 impactos/min aparece en su ficha de fabricante. Bosch publica 2,0 J y 22 mm como datos del GBH 220.
+La percusión suma golpes cortos al giro de la broca y ayuda a avanzar en mampostería. El selector suele ofrecer giro solo y giro con percusión; usá el modo con golpes únicamente en materiales para los que el fabricante permite esa función. La frecuencia de impactos por minuto describe cuántos golpes aplica el equipo, no su energía: comparala dentro de las especificaciones del modelo, no con joules de un rotomartillo.
 
-**Análisis TallerLab:** las unidades publicadas no permiten comparar directamente “impactos por minuto” con “joules”. La primera expresa frecuencia; la segunda, energía por impacto según la ficha. Para elegir por documentación, primero verificá el material y diámetro requeridos, luego el tipo de mandril y el límite que publica el fabricante. No inferimos velocidad de perforación ni superioridad a partir de estas magnitudes diferentes.
+Para madera y metal, apagá la percusión. Así trabajás con rotación y la broca adecuada, sin golpes que no ayudan al corte. En piezas frágiles, ladrillo hueco o perforaciones cerca de bordes, empezá en giro solo y seguí las indicaciones del fabricante del material y de la herramienta para reducir el riesgo de dañar la pieza.
 
-**Declaración del fabricante:** el GSB 18V-50 incorpora selección de atornillado, perforación y percusión. En ambos tipos de máquina, el accesorio y el modo deben seguir el manual del modelo y del material.
+## Qué elegir para ladrillo, madera y metal
 
-**Desconocido:** no hay una prueba comparativa bajo el mismo hormigón, diámetro, broca y operador. Las fichas citadas no determinan qué herramienta resulta más conveniente para un trabajo específico.
+| Material o trabajo | Broca | Modo recomendado | Criterio práctico |
+| :--- | :--- | :--- | :--- |
+| Ladrillo macizo y mampostería compatible | Broca para mampostería con punta de carburo, del diámetro de tarugo previsto | Giro con percusión; probá giro solo si el ladrillo se desgrana | Comprobá en la ficha del taladro el diámetro máximo en mampostería. Para ladrillo hueco o frágil, empezá sin percusión y activala solo si hace falta, según el manual. |
+| Madera | Broca para madera, como punta centradora o helicoidal | Giro solo | Revisá el diámetro máximo publicado para madera; elegí velocidad y broca según el agujero y la especie de madera. |
+| Metal | Broca HSS para el metal y diámetro previstos | Giro solo | Sujetá bien la pieza y trabajá a una velocidad apropiada para el diámetro; la percusión no se usa para cortar metal. |
+| Hormigón o muchas perforaciones en concreto | Broca SDS compatible | No fuerces el mandril convencional | Compará un rotomartillo si el taladro percutor avanza lento, exige mucha presión o la tarea es frecuente. |
 
-## Matriz rápida de decisión
+Usá el diámetro de perforación publicado para **ese modelo y material**, no el diámetro máximo del mandril como capacidad de perforación. Los datos de una marca o modelo no se trasladan a otro taladro por tener los mismos watts, voltaje o impactos por minuto.
 
-| Si el requisito es… | Verificá… | No deduzcas… |
-| :--- | :--- | :--- |
-| Usar brocas cilíndricas de varios diámetros | Apertura y tipo de mandril | Que cualquier broca admita percusión |
-| Usar accesorios SDS plus | Que el equipo tenga portaherramientas SDS plus | Que SDS plus sea intercambiable con SDS max |
-| Taladrar mampostería | Capacidad indicada para material y diámetro | Que los impactos/min sean energía por golpe |
+## Modelos con cable y a batería
 
-## Una opción comercial de percutor inalámbrico
+| Alimentación y ejemplo documentado | Datos de fabricante | Puede convenir si… | Antes de comprar |
+| :--- | :--- | :--- | :--- |
+| **Cable: Bosch GSB 550**, 220 V | 550 W; mandril hasta 13 mm; 1,3 kg; hasta 13 mm en mampostería y concreto, 25 mm en madera | Trabajás cerca de un tomacorriente y querés usarlo en tandas largas sin planificar recargas. | Confirmá tensión local, largo del cable, peso y capacidad para cada material. Los watts no describen por sí solos el avance de perforación. |
+| **Batería: Bosch GSB 18V-50**, plataforma Professional 18 V | 27.000 impactos/min; mandril de 13 mm; 1,1 kg sin batería | Necesitás moverte entre ambientes, trabajar lejos de una toma o ya tenés baterías compatibles de esa plataforma. | Sumá el peso de la batería, capacidad en Ah, autonomía para tu uso, cargador y costo del kit completo. Revisá compatibilidad por plataforma y modelo. |
 
+Para **cable**, mirá la potencia, las velocidades y el peso; es una opción práctica para trabajo continuo cerca de una toma. Para **batería**, compará la plataforma y su disponibilidad, el peso con batería, los Ah, la autonomía y si necesitás una batería de repuesto. Calculá el costo de herramienta, batería(s) y cargador si la publicación no incluye todo; una herramienta sola puede salir menos al inicio, pero el kit completo puede ser más conveniente si todavía no tenés esa plataforma.
 
-La ficha de la [publicación del kit Ingco CIDLI20668-4](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463) registra un percutor a batería con mandril de 13 mm, 20 V y 66 Nm anunciados, dos baterías y cargador. [Ver precio del kit en Mercado Libre](https://meli.la/2xvJRJp){:target="_blank" rel="sponsored noopener"}.
+## Cuándo conviene pasar a un rotomartillo
 
+Pasá a un **rotomartillo SDS Plus** si vas a perforar hormigón con frecuencia, necesitás agujeros de mayor diámetro o el taladro percutor te obliga a insistir y aplicar mucha presión. El mecanismo electroneumático está diseñado para esas tareas y el portaherramientas SDS admite brocas específicas para martillo.
 
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-**Análisis TallerLab:** puede entrar en tu evaluación si buscás un percutor inalámbrico con mandril convencional y un kit de inicio. Pedí código completo, Ah/códigos de baterías, tensión del cargador y manual de la variante antes de elegir. No le atribuimos las capacidades del GSB 18V-50 ni energía/encastre SDS del GBH 220.
-
-**Desconocido:** no se confirmó la equivalencia de ese sufijo -4 con la [ficha oficial CIDLI20668](https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668), ni sus diámetros máximos por material. La oferta no permite concluir que sustituya un rotomartillo. Consultá la [guía del percutor inalámbrico](/taladros/taladro-percutor-inalambrico/) y la [comparación de plataformas a batería](/taladros/inalambricos/) según la decisión que necesites resolver.
+Si además necesitás cincelar o perforar diámetros grandes, verificá que el rotomartillo tenga el modo y la capacidad correspondientes; para demolición sostenida puede convenir un demoledor. Consultá la [guía de rotomartillos](/taladros/rotomartillos/) para elegir por diámetro, encastre, modos y ciclo de trabajo, o la guía de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) para comparar equipos a batería.
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GSB 18V-50 Argentina](https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2); [Bosch GBH 220 Argentina](https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0).
-- **Seguridad:** respetar modo, broca y material indicados en el manual.
+- **Documentación primaria:** [Bosch GSB 550 Argentina](https://www.bosch-professional.com/ar/es/products/gsb-550-06011B60H0); [Bosch GSB 18V-50 Argentina](https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2); [Bosch GSB 20-2: modos, materiales y capacidades](https://www.bosch-professional.com/es/es/products/gsb-20-2-060117B401).
+- **Seguridad:** elegí broca y modo de acuerdo con el material y el manual del código exacto.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [rotomartillos](/taladros/rotomartillos/).
-
-Para explorar la categoría: [guías de taladros](/taladros/rotomartillos/).
+[Ver todas las guías de taladros](/taladros/).
