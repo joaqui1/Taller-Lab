@@ -23,6 +23,10 @@ Si buscás el **repuesto del filtro del compresor**, empezá por el filtro de ad
 
 Antes de comprar, anotá el **modelo y código exacto del compresor** y buscá la referencia del filtro en el manual o despiece. Si no aparece, compará la conexión —tipo y medida de rosca—, el diámetro, la forma y las dimensiones de la pieza con la entrada de la bomba. Una foto puede ayudar al vendedor, pero no reemplaza confirmar la compatibilidad: dos filtros parecidos pueden tener distinta rosca, sello o altura.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Cómo identificar el filtro de admisión correcto
 
 Seguí este orden para pedir el repuesto:

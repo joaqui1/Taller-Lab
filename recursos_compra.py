@@ -334,7 +334,7 @@ BUYING_NOTES.update({
         "La ficha de marca IE01 identifica batería y pantalla; JD 107 tiene una publicación comercial que anuncia doble pistón.",
         "No se ordena rapidez por caudal anunciado. JD requiere corriente, ciclo y conexión; IE01 requiere autonomía bajo carga y configuración.",
         ["IE01 o JD 107 en la unidad", "Conexión, corriente y ciclo o batería", "Presión del vehículo, manguera y adaptadores"],
-        [("https://meli.la/2m7TJWQ", "Consultar Nictom IE01 a batería"), ("https://meli.la/274KM8a", "Consultar JD Extreme 107 de 12 V")],
+        [("https://meli.la/2Xv53zX", "Consultar Nictom IE01 a batería"), ("https://meli.la/274KM8a", "Consultar JD Extreme 107 de 12 V")],
         ("/compresores/12v-doble-piston/", "Ver qué documentación pedir para JD")),
     "/sierras/caladoras/": note(
         "BES603: contrastá primero el sufijo",

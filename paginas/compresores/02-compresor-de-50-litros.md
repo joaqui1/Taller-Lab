@@ -65,11 +65,11 @@ Al comparar fichas técnicas de compresores de 50 litros, es fundamental disting
 
 Estas tres fichas identifican modelos de 50 litros y permiten comparar datos declarados por los fabricantes. Los caudales no son directamente equivalentes cuando se miden en condiciones distintas:
 
-| Modelo | Potencia | Caudal declarado | Presión máxima | Ficha del modelo |
-| :--- | :---: | :--- | :---: | :--- |
-| **Lüsqtoff LC2550B-8** | 2,5 HP / 1750 W | 206 l/min de flujo declarado; la ficha no indica salida a una presión concreta | 115 PSI | [Lüsqtoff](https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8) |
-| **Gamma G2802AR** | 2,5 HP | 203 l/min desplazados; el manual no indica salida a una presión concreta | 8 bar | [Manual Gamma](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf) |
-| **Einhell TE-AC 270/50 Silent** | 1650 W | 270 l/min de aspiración; 98 l/min de salida a 7 bar | 10 bar | [Einhell](https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/) |
+| Modelo | Potencia | Caudal declarado | Presión máxima | Ficha del modelo | Oferta |
+| :--- | :---: | :--- | :---: | :--- | :--- |
+| **Lüsqtoff LC2550B-8** | 2,5 HP / 1750 W | 206 l/min de flujo declarado; la ficha no indica salida a una presión concreta | 115 PSI | [Lüsqtoff](https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8) | [Ver precio y disponibilidad](https://meli.la/2dyFK5e) |
+| **Gamma G2802AR** | 2,5 HP | 203 l/min desplazados; el manual no indica salida a una presión concreta | 8 bar | [Manual Gamma](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf) | — |
+| **Einhell TE-AC 270/50 Silent** | 1650 W | 270 l/min de aspiración; 98 l/min de salida a 7 bar | 10 bar | [Einhell](https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/) | — |
 
 > **Nota técnica sobre condiciones de medición**: Einhell separa aspiración y salida a distintas presiones. Los datos publicados por Lüsqtoff y Gamma para estos modelos no permiten una comparación directa del caudal útil a 7 bar.
 
@@ -87,6 +87,9 @@ Esta matriz cruza especificaciones con la decisión práctica. «No informado» 
 | Plataforma de batería | No aplica: equipos de red | No aplica: equipos de red | No aplica: equipos de red | Confirmar tensión e instalación. |
 | Garantía y repuestos en Argentina | Consultar cobertura y repuesto del código exacto | Consultar cobertura y repuesto del código exacto | Consultar cobertura y repuesto del código exacto | Pedir condiciones por escrito al vendedor y servicio local antes de pagar. |
 | Precio y consumibles | Sin precio comparable verificado | Sin precio comparable verificado | Sin precio comparable verificado | Sumar envío, aceite si corresponde, filtros, manguera y accesorios del kit; comparar avisos de igual configuración. |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 **Lectura editorial:** Einhell ofrece el dato más útil para dimensionar una herramienta que pide aire a 7 bar. Eso no lo convierte automáticamente en la mejor compra: hay que comparar el consumo real de la herramienta, el ciclo de trabajo y el precio final. Las fichas disponibles no permiten ordenar los tres modelos por caudal útil.
 

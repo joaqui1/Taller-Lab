@@ -1,0 +1,463 @@
+{
+  "/compresores/para-auto/": {
+    "number": 1,
+    "file": "paginas/compresores/01-compresor-de-aire-para-auto.md",
+    "heading": "Qué cambia según la alimentación",
+    "cards_heading": "Qué cambia según la alimentación",
+    "mode": "table",
+    "models": [
+      "Nictom IE01",
+      "Lüsqtoff MCL150-8",
+      "Gadnic AV000009"
+    ],
+    "offers": [
+      {
+        "model": "Nictom IE01",
+        "url": "https://meli.la/2Xv53zX",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff MCL150-8",
+        "url": "https://meli.la/2r8uZXD",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "Gadnic AV000009"
+    ]
+  },
+  "/compresores/50-litros/": {
+    "number": 2,
+    "file": "paginas/compresores/02-compresor-de-50-litros.md",
+    "heading": "Comparativa de marcas",
+    "cards_heading": "Matriz TallerLab: datos que cambian la compra",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff LC2550B-8",
+      "Gamma G2802AR",
+      "Einhell TE-AC 270/50 Silent"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC2550B-8",
+        "url": "https://meli.la/2dyFK5e",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "Gamma G2802AR",
+      "Einhell TE-AC 270/50 Silent"
+    ]
+  },
+  "/compresores/kits-aerografo/": {
+    "number": 4,
+    "file": "paginas/compresores/04-aerografo-con-compresor.md",
+    "heading": "Kits reales con contenido publicado",
+    "cards_heading": "Kits reales con contenido publicado",
+    "mode": "table",
+    "models": [
+      "Fengda FD-186K"
+    ],
+    "offers": [],
+    "pending": [
+      "Fengda FD-186K"
+    ]
+  },
+  "/compresores/pistola-para-pintar/": {
+    "number": 5,
+    "file": "paginas/compresores/05-pistola-para-pintar-con-compresor.md",
+    "heading": "Comparación documentada: tres pistolas BTA",
+    "cards_heading": "Comparación documentada: tres pistolas BTA",
+    "mode": "table",
+    "models": [
+      "BTA AS-1021",
+      "BTA ASP1070",
+      "BTA ASPM1070"
+    ],
+    "offers": [
+      {
+        "model": "BTA AS-1021",
+        "url": "https://meli.la/1EdvSrw",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BTA ASP1070",
+        "url": "https://meli.la/1EKjbss",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BTA ASPM1070",
+        "url": "https://meli.la/2Vpe8U4",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/para-aerografo/": {
+    "number": 7,
+    "file": "paginas/compresores/07-compresor-para-aerografo.md",
+    "heading": "Cinco compresores diseñados para aerografía",
+    "cards_heading": "Cinco compresores diseñados para aerografía",
+    "mode": "table",
+    "models": [
+      "Fengda AS-186",
+      "Fengda AS-196"
+    ],
+    "offers": [],
+    "pending": [
+      "Fengda AS-186",
+      "Fengda AS-196"
+    ]
+  },
+  "/compresores/lusqtoff-50-litros/": {
+    "number": 9,
+    "file": "paginas/compresores/09-compresor-lusqtoff-50-litros.md",
+    "heading": "Variantes Lüsqtoff de 50 litros",
+    "cards_heading": "Qué modelo considerar según tu prioridad",
+    "mode": "section",
+    "models": [
+      "Lüsqtoff LC2550B-8",
+      "Lüsqtoff LC2550BK-8",
+      "Lüsqtoff LC-3550BK"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC2550B-8",
+        "url": "https://meli.la/2dyFK5e",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff LC2550BK-8",
+        "url": "https://meli.la/2FtyGQc",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff LC-3550BK",
+        "url": "https://meli.la/21xNVUN",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/100-litros/": {
+    "number": 11,
+    "file": "paginas/compresores/11-compresor-de-100-litros.md",
+    "heading": "Qué compresor de 100 L conviene según el uso del taller",
+    "cards_heading": "Qué compresor de 100 L conviene según el uso del taller",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff LC-30100",
+      "Lüsqtoff LC-40100",
+      "Gamma G2858AR"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC-30100",
+        "url": "https://meli.la/2r6QkaT",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff LC-40100",
+        "url": "https://meli.la/127ZaQu",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Gamma G2858AR",
+        "url": "https://meli.la/2TdnN1F",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/gamma-50-litros/": {
+    "number": 12,
+    "file": "paginas/compresores/12-compresor-gamma-50-litros.md",
+    "heading": "G2802AR y G2802KAR: qué cambia",
+    "cards_heading": "G2802AR y G2802KAR: qué cambia",
+    "mode": "table",
+    "models": [
+      "Gamma G2802AR",
+      "Gamma G2802KAR"
+    ],
+    "offers": [],
+    "pending": [
+      "Gamma G2802AR",
+      "Gamma G2802KAR"
+    ]
+  },
+  "/compresores/kits-accesorios/": {
+    "number": 13,
+    "file": "paginas/compresores/13-kit-para-compresor-de-aire.md",
+    "heading": "Kits documentados: qué trae cada presentación",
+    "cards_heading": "Kits documentados: qué trae cada presentación",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff AA-5000K",
+      "BTA 279010",
+      "BTA 279013"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff AA-5000K",
+        "url": "https://meli.la/1xhuQgp",
+        "cta": "Ver precio del kit"
+      },
+      {
+        "model": "BTA 279010",
+        "url": "https://meli.la/2W1Y9Zs",
+        "cta": "Ver precio del kit"
+      },
+      {
+        "model": "BTA 279013",
+        "url": "https://meli.la/16F7cCu",
+        "cta": "Ver precio del kit"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/lusqtoff-100-litros/": {
+    "number": 14,
+    "file": "paginas/compresores/14-compresor-lusqtoff-100-litros.md",
+    "heading": "Prestaciones documentadas: qué cambia entre modelos",
+    "cards_heading": "Qué compresor Lüsqtoff de 100 L buscar según el uso",
+    "mode": "section",
+    "models": [
+      "Lüsqtoff LC-30100",
+      "Lüsqtoff LC-40100"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC-30100",
+        "url": "https://meli.la/2r6QkaT",
+        "cta": "Ver precio del LC-30100"
+      },
+      {
+        "model": "Lüsqtoff LC-40100",
+        "url": "https://meli.la/127ZaQu",
+        "cta": "Ver precio del LC-40100"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/sin-aceite/": {
+    "number": 15,
+    "file": "paginas/compresores/15-compresor-sin-aceite.md",
+    "heading": "Modelos sin aceite con datos publicados",
+    "cards_heading": "Modelos sin aceite con datos publicados",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff LC-0122",
+      "BTA CSA-24-1",
+      "BTA CSA-50-2"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC-0122",
+        "url": "https://meli.la/19aFAKp",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BTA CSA-24-1",
+        "url": "https://meli.la/2kTMPof",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "BTA CSA-50-2"
+    ]
+  },
+  "/compresores/200-litros/": {
+    "number": 16,
+    "file": "paginas/compresores/16-compresor-de-200-litros.md",
+    "heading": "Tres modelos documentados de 200 L",
+    "cards_heading": "Tres modelos documentados de 200 L",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff LC-30200",
+      "Lüsqtoff LC-40200"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff LC-30200",
+        "url": "https://meli.la/2vfnWE7",
+        "cta": "Ver precio del LC-30200"
+      }
+    ],
+    "pending": [
+      "Lüsqtoff LC-40200"
+    ]
+  },
+  "/compresores/bta-25-litros/": {
+    "number": 17,
+    "file": "paginas/compresores/17-compresor-bta-25-litros.md",
+    "heading": "Ficha del BTA 272057.1",
+    "cards_heading": "Ficha del BTA 272057.1",
+    "mode": "section",
+    "models": [
+      "BTA D-CA1-25-6"
+    ],
+    "offers": [
+      {
+        "model": "BTA D-CA1-25-6",
+        "url": "https://meli.la/14USeGB",
+        "cta": "Ver precio del BTA D-CA1-25-6"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/24-litros/": {
+    "number": 18,
+    "file": "paginas/compresores/18-compresor-de-24-litros.md",
+    "heading": "Cuál compresor de 24 litros elegir",
+    "cards_heading": "Cuál compresor de 24 litros elegir",
+    "mode": "table",
+    "models": [
+      "Gamma G2860AR",
+      "Lüsqtoff LC-0122",
+      "BTA CSA-24-1"
+    ],
+    "offers": [
+      {
+        "model": "Gamma G2860AR",
+        "url": "https://meli.la/14tM2Xh",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff LC-0122",
+        "url": "https://meli.la/19aFAKp",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BTA CSA-24-1",
+        "url": "https://meli.la/2kTMPof",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/inalambricos/": {
+    "number": 19,
+    "file": "paginas/compresores/19-compresor-inalambrico.md",
+    "heading": "Presión, caudal y uso: qué dato mirar",
+    "cards_heading": "Presión, caudal y uso: qué dato mirar",
+    "mode": "table",
+    "models": [
+      "Einhell PRESSITO 18/25",
+      "Einhell PRESSITO 18/21",
+      "Makita DMP180Z"
+    ],
+    "offers": [
+      {
+        "model": "Einhell PRESSITO 18/25",
+        "url": "https://meli.la/14u7fCt",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Einhell PRESSITO 18/21",
+        "url": "https://meli.la/1iNDq73",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Makita DMP180Z",
+        "url": "https://meli.la/2uRPKYD",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/stanley/": {
+    "number": 20,
+    "file": "paginas/compresores/20-compresor-stanley.md",
+    "heading": "Disponibilidad local, garantía y servicio",
+    "cards_heading": "Disponibilidad local, garantía y servicio",
+    "mode": "section",
+    "models": [
+      "Stanley FCCC404STC005"
+    ],
+    "offers": [
+      {
+        "model": "Stanley FCCC404STC005",
+        "url": "https://meli.la/26gU4mL",
+        "cta": "Ver precio del Stanley FCCC404STC005"
+      }
+    ],
+    "pending": []
+  },
+  "/compresores/para-pintar/": {
+    "number": 21,
+    "file": "paginas/compresores/21-compresor-para-pintar.md",
+    "heading": "Combinaciones documentadas: qué se puede validar",
+    "cards_heading": "Combinaciones documentadas: qué se puede validar",
+    "mode": "section",
+    "models": [
+      "Einhell TC-AC 190/24/8 I OF",
+      "Einhell TE-AC 270/50 Silent",
+      "Einhell TE-AC 430/90/10"
+    ],
+    "offers": [
+      {
+        "model": "Einhell TC-AC 190/24/8 I OF",
+        "url": "https://meli.la/2NsPCBP",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "Einhell TE-AC 270/50 Silent",
+      "Einhell TE-AC 430/90/10"
+    ]
+  },
+  "/compresores/inflador-neumaticos-portatil/": {
+    "number": 22,
+    "file": "paginas/compresores/22-inflador-de-neumaticos-portatil.md",
+    "heading": "Cinco infladores portátiles documentados",
+    "cards_heading": "Cinco infladores portátiles documentados",
+    "mode": "table",
+    "models": [
+      "Gadnic AV000009",
+      "Makita DMP180Z",
+      "Einhell PRESSITO 18/25"
+    ],
+    "offers": [
+      {
+        "model": "Makita DMP180Z",
+        "url": "https://meli.la/2uRPKYD",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Einhell PRESSITO 18/25",
+        "url": "https://meli.la/14u7fCt",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "Gadnic AV000009"
+    ]
+  },
+  "/compresores/12v-doble-piston/": {
+    "number": 23,
+    "file": "paginas/compresores/23-compresor-12v-doble-piston.md",
+    "heading": "Cuatro modelos 12 V doble pistón documentados",
+    "cards_heading": "Cuatro modelos 12 V doble pistón documentados",
+    "mode": "table",
+    "models": [
+      "Lüsqtoff MCL150-8",
+      "Gadnic AV000009",
+      "Gadnic AV37-TY"
+    ],
+    "offers": [
+      {
+        "model": "Lüsqtoff MCL150-8",
+        "url": "https://meli.la/2r8uZXD",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Gadnic AV37-TY",
+        "url": "https://meli.la/2aSkmx1",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "pending": [
+      "Gadnic AV000009"
+    ]
+  }
+}

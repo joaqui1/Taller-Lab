@@ -42,10 +42,13 @@ Para elegir, empezá por la forma de alimentación que te sirve y la compatibili
 
 | Configuración o modelo | Alimentación y conexión publicada | Construcción y controles publicados | Caudal y presión anunciados | Qué falta confirmar | Ficha o compra |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Lüsqtoff MCL150-8 | 12 V; 275 W; conexión por confirmar | Doble pistón; parada automática, luz LED y manómetro digital; 2,63 kg | 60 L/min; 150 PSI máximo | Tipo de conexión, corriente y ciclo de trabajo | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/MCL150-8) |
+| Lüsqtoff MCL150-8 | 12 V; 275 W; conexión por confirmar | Doble pistón; parada automática, luz LED y manómetro digital; 2,63 kg | 60 L/min; 150 PSI máximo | Tipo de conexión, corriente y ciclo de trabajo | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/MCL150-8) · [Ver precio](https://meli.la/2r8uZXD) |
 | Gadnic AV000009 | 12 V; 23 A según página comercial; conexión por confirmar | Controles por confirmar; 2,54 kg | 85 L/min; 150 PSI máximo | Condición de medición del caudal, conexión, ciclo y controles | [Ficha Gadnic](https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min) |
-| Nictom IE01 | Batería incorporada; funcionamiento inalámbrico según la marca | Pantalla digital, luz y función PowerBank anunciadas | 16 L/min máximo anunciado | Autonomía bajo carga, presión máxima, tiempo de uso y enfriamiento según manual | [Ficha Nictom](https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/) · [Ver precio](https://meli.la/2m7TJWQ){:target="_blank" rel="sponsored noopener"} |
+| Nictom IE01 | Batería incorporada; funcionamiento inalámbrico según la marca | Pantalla digital, luz y función PowerBank anunciadas | 16 L/min máximo anunciado | Autonomía bajo carga, presión máxima, tiempo de uso y enfriamiento según manual | [Ficha Nictom](https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/) · [Ver precio](https://meli.la/2Xv53zX) |
 | JD Extreme 107 | 12 V; tipo de conexión por confirmar | Doble pistón y manómetro anunciados | 85 L/min y 150 PSI anunciados | Corriente, fusible, ciclo, controles y condición de medición del caudal | [Publicación](https://www.mercadolibre.com.ar/compresor-de-aire-portatil-jd-extreme-de-150-psi-con-doble-piston-para-auto-y-moto/p/MLA45403244) · [Ver precio](https://meli.la/274KM8a){:target="_blank" rel="sponsored noopener"} |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 **Dato documentado:** Lüsqtoff declara para MCL150-8 12 V, 275 W, máximo de 150 PSI y flujo de 60 L/min. Gadnic publica 150 PSI y 85 L/min para AV000009, pero no indica una condición de presión para ese caudal. Las fichas no usan un método de medición compartido que permita concluir que un modelo infla más rápido. Los otros datos de la tabla provienen de las fichas o publicaciones enlazadas abajo; un dato ausente o no verificable figura como pendiente.
 

@@ -27,6 +27,8 @@ La ficha puede indicar un grado SAE, ISO VG u otra designación propia del lubri
 
 **Dato documentado:** las cifras se atribuyen a los manuales indicados en cada tabla. Esta guía es documental y no incluye prueba física.
 
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Cómo encontrar la especificación correcta
 
 1. **Leé la placa del compresor.** Anotá marca, código completo, variante y número de serie. “Compresor de 50 litros” o “de 2 HP” no alcanza.

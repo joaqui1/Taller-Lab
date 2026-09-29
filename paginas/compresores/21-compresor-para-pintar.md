@@ -120,6 +120,9 @@ Estas comparaciones son un filtro inicial, no una prueba de funcionamiento. El c
 
 Este método evita una conclusión engañosa como “206 menos 201 da 5, entonces alcanza”. La cuenta solo tiene sentido después de comparar caudal **entregado** con consumo, a presión de trabajo, y comprobar ciclo, reserva, caída de presión y recuperación.
 
+<!-- COMPRESORES-OFFERS -->
+
+
 ## Regulador, filtro, humedad y manguera
 
 La presión que importa es la que llega a la pistola mientras fluye aire. Regulá el compresor y, si la configuración lo admite, colocá un manómetro/regulador cerca de la herramienta para comprobar la presión dinámica. Un regulador ajustado con el gatillo cerrado puede mostrar presión estática y ocultar una caída durante la pulverización.

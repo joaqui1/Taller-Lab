@@ -51,11 +51,14 @@ Una cifra de **admisión** indica cuánto aire toma la bomba; no dice por sí so
 
 Estas tres opciones identifican con claridad tanque de 24 L y se presentan como sin aceite. La ficha del Gamma es la más detallada para uso de taller pequeño; BTA destaca transporte y accesorios; Lüsqtoff es la opción publicada de menor potencia. No son un ranking de caudal efectivo, porque las marcas no describen una medición común.
 
-| Modelo | Datos publicados | Portabilidad y equipo | Qué considerar al elegir |
-| :--- | :--- | :--- | :--- |
-| **Gamma G2860AR** | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 2.850 rpm; 8 bar máx.; conexión a 6 bar y corte a 8 bar; 236 L/min que Gamma denomina “flujo continuo”; 21,3 kg | Sin aceite; Gamma dice que admite accesorios como clavadoras, engrampadoras, pistolas de pintar e infladores | Tiene los datos de uso más completos de las tres fichas. El nivel sonoro no está publicado en dB y “flujo continuo” no viene acompañado por condición de ensayo o FAD comparable |
-| **Lüsqtoff LC-0122** | 24 L; 1 HP / 750 W; 220 V–50 Hz; 115 PSI máx.; 180 L/min publicados; 24 kg | Sin aceite, monocilíndrico y mando directo; ruedas, salida simple y doble manómetro. El fabricante lo llama trasladable, no portátil | Elegilo si 1 HP y su reserva responden al uso previsto; confirmá caudal a presión, ya que el “caudal” publicado no viene definido como FAD |
-| **BTA CSA-24-1**, código 272005 | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 3.750 rpm; 8 bar máx.; admisión 170 L/min | Sin aceite; BTA lo anuncia como portátil e incluye regulador, doble manómetro y empuñadura | Es el que la marca describe más claramente para mover. La ficha no publica peso, ruido, FAD ni ciclo de trabajo |
+| Modelo | Datos publicados | Portabilidad y equipo | Qué considerar al elegir | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gamma G2860AR** | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 2.850 rpm; 8 bar máx.; conexión a 6 bar y corte a 8 bar; 236 L/min que Gamma denomina “flujo continuo”; 21,3 kg | Sin aceite; Gamma dice que admite accesorios como clavadoras, engrampadoras, pistolas de pintar e infladores | Tiene los datos de uso más completos de las tres fichas. El nivel sonoro no está publicado en dB y “flujo continuo” no viene acompañado por condición de ensayo o FAD comparable | [Ver precio y disponibilidad](https://meli.la/14tM2Xh) |
+| **Lüsqtoff LC-0122** | 24 L; 1 HP / 750 W; 220 V–50 Hz; 115 PSI máx.; 180 L/min publicados; 24 kg | Sin aceite, monocilíndrico y mando directo; ruedas, salida simple y doble manómetro. El fabricante lo llama trasladable, no portátil | Elegilo si 1 HP y su reserva responden al uso previsto; confirmá caudal a presión, ya que el “caudal” publicado no viene definido como FAD | [Ver precio y disponibilidad](https://meli.la/19aFAKp) |
+| **BTA CSA-24-1**, código 272005 | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 3.750 rpm; 8 bar máx.; admisión 170 L/min | Sin aceite; BTA lo anuncia como portátil e incluye regulador, doble manómetro y empuñadura | Es el que la marca describe más claramente para mover. La ficha no publica peso, ruido, FAD ni ciclo de trabajo | [Ver precio y disponibilidad](https://meli.la/2kTMPof) |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 ### Según qué priorices
 

@@ -29,11 +29,11 @@ En la gama Lüsqtoff aparecen configuraciones distintas: el LC-30100 es a correa
 
 ## Prestaciones documentadas: qué cambia entre modelos
 
-| Modelo | Configuración y datos publicados | Qué permite comparar | Qué falta confirmar en la unidad ofrecida |
-| :--- | :--- | :--- | :--- |
-| **LC-30100 / LC30100-8** | Bicilíndrico a correa, lubricado; 100 L; 3 HP / 2.200 W; 220 V–50 Hz; 115 PSI; 335 L/min publicados | Opción a correa con tanque de 100 L y caudal nominal declarado | FAD/caudal entregado a la presión de la herramienta, ciclo de trabajo y peso de la revisión concreta |
-| **LC-40100 / LC40100-8** | Bicilíndrico de mando directo, lubricado; 100 L; 4 HP; 220 V–50 Hz; 115 PSI; 360 L/min en manual | Opción de mando directo con cifras de manual identificables | Caudal efectivo comparable, ciclo de trabajo y correspondencia entre revisión del equipo y manual |
-| **LCS100-8** | El catálogo actual de Lüsqtoff lo identifica como compresor sin aceite de 100 L | Permite identificar una configuración oil-free, cuyo mantenimiento de lubricación es distinto | Potencia, tensión, presión, caudal, peso, ruido, ciclo y aplicaciones recomendadas |
+| Modelo | Configuración y datos publicados | Qué permite comparar | Qué falta confirmar en la unidad ofrecida | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **LC-30100 / LC30100-8** | Bicilíndrico a correa, lubricado; 100 L; 3 HP / 2.200 W; 220 V–50 Hz; 115 PSI; 335 L/min publicados | Opción a correa con tanque de 100 L y caudal nominal declarado | FAD/caudal entregado a la presión de la herramienta, ciclo de trabajo y peso de la revisión concreta | [Ver precio del LC-30100](https://meli.la/2r6QkaT) |
+| **LC-40100 / LC40100-8** | Bicilíndrico de mando directo, lubricado; 100 L; 4 HP; 220 V–50 Hz; 115 PSI; 360 L/min en manual | Opción de mando directo con cifras de manual identificables | Caudal efectivo comparable, ciclo de trabajo y correspondencia entre revisión del equipo y manual | [Ver precio del LC-40100](https://meli.la/127ZaQu) |
+| **LCS100-8** | El catálogo actual de Lüsqtoff lo identifica como compresor sin aceite de 100 L | Permite identificar una configuración oil-free, cuyo mantenimiento de lubricación es distinto | Potencia, tensión, presión, caudal, peso, ruido, ciclo y aplicaciones recomendadas | — |
 
 **Análisis TallerLab:** 335 y 360 L/min son valores publicados para LC-30100 y LC-40100, pero las fuentes no documentan un método común ni confirman que sean caudal efectivo (FAD) a una misma presión. No se deben usar para afirmar que uno sostiene mejor una herramienta. Pedí el caudal de salida/FAD a la presión requerida y el ciclo de trabajo de la revisión que vas a comprar.
 
@@ -83,6 +83,9 @@ El LC-40100 también tiene una diferencia menor entre fuentes: **58 kg** en el m
 | Una configuración lubricada de mando directo | LC-40100 | Caudal entregado comparable y ciclo permitido; no elegir solo por 4 HP o 360 L/min nominales |
 | Pintar o lijar durante períodos largos | Cualquiera solo después de confirmar compatibilidad con la herramienta exacta | Consumo y presión de la herramienta frente a FAD y ciclo del compresor; si no están publicados, consultar al fabricante |
 | Usar arenador o varias herramientas de alto consumo | No decidir por tanque de 100 L ni por L/min nominales | Dimensionamiento del caudal continuo a presión de trabajo; los consumos de referencia pueden llegar a cientos de L/min |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 ## Cómo investigamos esta guía
 

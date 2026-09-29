@@ -86,6 +86,9 @@ No encontramos la misma confirmación local para las variantes Stanley de 50 y 1
 
 Stanley Argentina ofrece un canal de contacto para consultar especificaciones, repuestos y ubicación de centros de servicio. La duración de garantía publicada en Mecafer para algunas fichas es comercial y corresponde a ese mercado; no la traslado a una compra argentina. Antes de comprar, pedí por escrito el plazo de garantía para el SKU local, quién brinda el servicio y qué manual corresponde al código de placa.
 
+<!-- COMPRESORES-OFFERS -->
+
+
 ## Modelos identificados con evidencia limitada
 
 El D230/10/50V figura en el catálogo Stanley de 2020: 50 L, 2 HP (1,5 kW), 10 bar, accionamiento directo sin aceite, 222 L/min de aire desplazado y 24,9 kg de peso bruto. El catálogo no da caudal restituido a 3 o 7 bar. Se conserva como referencia de gama documentada, pero no permite una recomendación por compatibilidad con herramientas ni confirma disponibilidad local.

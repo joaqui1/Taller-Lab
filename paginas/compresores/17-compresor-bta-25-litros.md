@@ -44,6 +44,9 @@ El BTA **272057.1 / D-CA1-25-6** es un compresor de 2 HP con tanque de 25 L que 
 
 **Admisión no es salida efectiva:** los 206 L/min indican el aire que toma la bomba según la ficha; no equivalen automáticamente al aire que llega a una herramienta cuando trabaja. La presión máxima de 8 bar tampoco es una recomendación para cualquier accesorio. Para una tarea exigente, cotejá consumo, presión de servicio y FAD a esa presión.
 
+<!-- COMPRESORES-OFFERS -->
+
+
 ## Diferencia con el BTA 24 L sin aceite
 
 | Característica | BTA 272057.1 / D-CA1-25-6 | BTA 272005 / CSA-24-1 |

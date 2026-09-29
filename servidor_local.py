@@ -20,6 +20,7 @@ from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
 from amoladoras_comerciales import AMOLADORA_CHOICES, render_amoladora_choice, render_contextual_choice
+from compresores_comerciales import install_catalog
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -330,6 +331,11 @@ UNVERIFIED_SPECS = {
     "generadores": ["Potencia: verificar", "Combustible: verificar", "Salidas: verificar"],
 }
 
+COMPRESORES_OFFERS = json.loads((ROOT_DIR / 'compresores-ofertas.json').read_text(encoding='utf-8'))
+install_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, COMPRESORES_OFFERS)
+# Las cards de estas guías se insertan en su marcador editorial, sin repetirlas al pie.
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in COMPRESORES_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({f'/compresores/{slug}/': () for slug in ('manguera', 'acoples-rapidos', 'aceite', 'filtros')})
 AFFILIATE_URLS = {item[2] for group in AFFILIATE_PRODUCTS.values() for item in group}
 CLICK_LOG = ROOT_DIR / "affiliate-clicks.jsonl"
 CLICK_LOCK = Lock()
@@ -881,7 +887,7 @@ def validate_affiliate_click(data):
         raise ValueError("Invalid click event")
     return {"at": datetime.now(timezone.utc).isoformat(), "product": product, "page": page, "placement": placement}
 
-def render_affiliate_shelf(section_id, products=None):
+def render_affiliate_shelf(section_id, products=None, ctas=None):
     """Muestra publicaciones concretas ya enlazadas en las guías del sitio."""
     selected = products if products is not None else [(section_id, item) for item in AFFILIATE_PRODUCTS.get(section_id, [])]
     if not selected:
@@ -918,7 +924,7 @@ def render_affiliate_shelf(section_id, products=None):
           <p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p>
           {source}
           <div class="offer-actions">
-            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">Ver precio en Mercado Libre ↗</a>
+            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">{escape((ctas or {}).get(url, 'Ver precio en Mercado Libre'))} ↗</a>
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
           <label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>
@@ -1942,6 +1948,14 @@ def render_article_page(article, embedded=False):
         rel = "nofollow sponsored noopener noreferrer" if href.startswith("https://meli.la/") or host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar") else "nofollow noopener noreferrer"
         return tag[:-1] + f' target="_blank" rel="{rel}">'
 
+    compressor_config = COMPRESORES_OFFERS.get(article['url'])
+    if compressor_config:
+        selected = [
+            ('compresores', (offer['model'], next(item[1] for item in AFFILIATE_PRODUCTS['compresores'] if item[2] == offer['url']), offer['url'], article['url']))
+            for offer in compressor_config['offers']
+        ]
+        contextual_shelf = render_affiliate_shelf('compresores', selected, {offer['url']: offer['cta'] for offer in compressor_config['offers']})
+        rendered_body = rendered_body.replace('<!-- COMPRESORES-OFFERS -->', contextual_shelf)
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
     if article["url"] in AMOLADORA_CHOICES:
         # Affiliate CTAs live in one editorially placed comparison block. Keep

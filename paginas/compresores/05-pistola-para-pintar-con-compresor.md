@@ -23,6 +23,10 @@ La elección empieza por el trabajo y el material: una pistola para cubrir un pa
 
 También importa el sistema de pulverización. HVLP describe un sistema de alto volumen y baja presión; las fichas BTA también identifican pistolas de alta presión. No alcanza con que el nombre comercial diga “HVLP” o “LVLP”: hay que consultar el consumo de aire y la presión de trabajo de esa pistola concreta. BTA publica presión, consumo y boquilla por modelo.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Qué pistola elegir según el trabajo
 
 | Trabajo | Tipo de pistola a considerar | Boquilla | Consumo de aire a verificar |
@@ -60,11 +64,14 @@ Para cruzar pistola y compresor:
 
 ## Comparación documentada: tres pistolas BTA
 
-| Código / modelo BTA | Alimentación / sistema | Pico | Consumo de aire publicado | Presión publicada | Copa |
-| :--- | :--- | ---: | ---: | :--- | ---: |
-| 279064.1 / AS-1021 | Ficha: baja presión | No informado en la ficha consultada | Aprox. 85 L/min | 10–40 psi | 1 L |
-| 279063 / ASP1070 | Succión, HVLP | 1,3 mm | 119–201 L/min | Recomendada 29–51 psi; máxima 120 psi | 1.000 cm³ |
-| 279068 / ASPM1070 | Gravedad, alta presión; retoques | 1,3 mm | 68 L/min | Recomendada 43,5–58 psi; máxima 120 psi | 200 cm³ |
+| Código / modelo BTA | Alimentación / sistema | Pico | Consumo de aire publicado | Presión publicada | Copa | Oferta |
+| :--- | :--- | ---: | ---: | :--- | ---: | :--- |
+| 279064.1 / AS-1021 | Ficha: baja presión | No informado en la ficha consultada | Aprox. 85 L/min | 10–40 psi | 1 L | [Ver precio y disponibilidad](https://meli.la/1EdvSrw) |
+| 279063 / ASP1070 | Succión, HVLP | 1,3 mm | 119–201 L/min | Recomendada 29–51 psi; máxima 120 psi | 1.000 cm³ | [Ver precio y disponibilidad](https://meli.la/1EKjbss) |
+| 279068 / ASPM1070 | Gravedad, alta presión; retoques | 1,3 mm | 68 L/min | Recomendada 43,5–58 psi; máxima 120 psi | 200 cm³ | [Ver precio y disponibilidad](https://meli.la/2Vpe8U4) |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 El rango publicado para ASP1070 no se puede convertir en una comparación de eficiencia con los 68 L/min de ASPM1070: las fichas no documentan condiciones de medición comunes ni comparan acabado, cobertura o consumo de pintura. La aplicación declarada y la copa también difieren. Primero elegí el tipo de trabajo; después verificá presión y caudal.
 

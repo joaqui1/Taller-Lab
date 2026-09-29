@@ -23,15 +23,22 @@ Elegí el kit por el trabajo que realmente vas a hacer: pintar, inflar, soplar, 
 
 Antes de comprar, leé la lista exacta de contenido y buscá el código de cada pieza cuando esté disponible. Revisá tipo de alimentación y boquilla de la pistola, presión y consumo de aire, largo y diámetro de la manguera, presión nominal y conexiones. Si el aviso solo dice “kit universal” o “completo”, pedí esos datos.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Kits documentados: qué trae cada presentación
 
-| Kit o presentación | Piezas publicadas | Datos que ayudan a elegir | Lo que la ficha no permite asegurar |
-| :--- | :--- | :--- | :--- |
-| **BTA 279010**, 5 piezas por gravedad | Pistola de pintar de alta presión con recipiente de 600 cm³ y boquilla de 1,5 mm; inflador con manómetro; soplete; pistola de lavado con recipiente de 1.000 cm³; manguera espiralada de 5 m | Entrada 1/4″; presión de operación 90 PSI; BTA sugiere compresor de 2 HP | El catálogo no publica consumo de aire de la pistola incluida ni garantiza que cualquier compresor de 2 HP la sostenga. |
-| **BTA 279013**, 5 piezas por succión | Pistola de pintar de alta presión con recipiente de 750 cm³; inflador con manómetro; soplete; pistola de lavado con recipiente de 1.000 cm³; manguera espiralada de 5 m | Entrada 1/4″; presión de operación 90 PSI; BTA sugiere compresor de 2 HP | Tampoco publica consumo de aire de la pistola incluida. El recipiente mayor no demuestra menor consumo ni mejor acabado. |
-| **Lüsqtoff AA-5000K**, 5 piezas | Pistola de pintar de alta presión con recipiente de 600 ml y boquilla de 1,5 mm; pistola de inflado con manómetro; pistola para sopletear; pistola para lavar con recipiente de 1.000 ml; manguera espiralada de 5 m | Lüsqtoff lo identifica como semiprofesional y publica 2,2 kg | La página no indica consumo de aire, presión de trabajo de la pistola ni perfil de los acoples incluidos. |
-| **Gamma G2802KAR**, compresor vendido con accesorios | Pistola para pintar; pistola para inflar con manómetro; manguera espiralada | Gamma publica alimentación monofásica 220 V–50 Hz y tanque de 50 L para el compresor | La página no precisa tipo/consumo de la pistola ni medida y presión nominal de la manguera. Es una presentación de compresor más accesorios, no un kit independiente. |
-| **Lüsqtoff LC2550BK-8**, compresor vendido con kit | Pistola HVLP; pistola para sopletear; manguera espiralada de 5 m | Lüsqtoff publica para el compresor 50 L, 2,5 HP, 115 PSI y 206 L/min de caudal | La cifra de 206 L/min no identifica condiciones de medición ni caudal efectivo; no valida por sí sola uso continuo de la pistola. Tampoco es un kit independiente. |
+| Kit o presentación | Piezas publicadas | Datos que ayudan a elegir | Lo que la ficha no permite asegurar | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **BTA 279010**, 5 piezas por gravedad | Pistola de pintar de alta presión con recipiente de 600 cm³ y boquilla de 1,5 mm; inflador con manómetro; soplete; pistola de lavado con recipiente de 1.000 cm³; manguera espiralada de 5 m | Entrada 1/4″; presión de operación 90 PSI; BTA sugiere compresor de 2 HP | El catálogo no publica consumo de aire de la pistola incluida ni garantiza que cualquier compresor de 2 HP la sostenga. | [Ver precio del kit](https://meli.la/2W1Y9Zs) |
+| **BTA 279013**, 5 piezas por succión | Pistola de pintar de alta presión con recipiente de 750 cm³; inflador con manómetro; soplete; pistola de lavado con recipiente de 1.000 cm³; manguera espiralada de 5 m | Entrada 1/4″; presión de operación 90 PSI; BTA sugiere compresor de 2 HP | Tampoco publica consumo de aire de la pistola incluida. El recipiente mayor no demuestra menor consumo ni mejor acabado. | [Ver precio del kit](https://meli.la/16F7cCu) |
+| **Lüsqtoff AA-5000K**, 5 piezas | Pistola de pintar de alta presión con recipiente de 600 ml y boquilla de 1,5 mm; pistola de inflado con manómetro; pistola para sopletear; pistola para lavar con recipiente de 1.000 ml; manguera espiralada de 5 m | Lüsqtoff lo identifica como semiprofesional y publica 2,2 kg | La página no indica consumo de aire, presión de trabajo de la pistola ni perfil de los acoples incluidos. | [Ver precio del kit](https://meli.la/1xhuQgp) |
+| **Gamma G2802KAR**, compresor vendido con accesorios | Pistola para pintar; pistola para inflar con manómetro; manguera espiralada | Gamma publica alimentación monofásica 220 V–50 Hz y tanque de 50 L para el compresor | La página no precisa tipo/consumo de la pistola ni medida y presión nominal de la manguera. Es una presentación de compresor más accesorios, no un kit independiente. | — |
+| **Lüsqtoff LC2550BK-8**, compresor vendido con kit | Pistola HVLP; pistola para sopletear; manguera espiralada de 5 m | Lüsqtoff publica para el compresor 50 L, 2,5 HP, 115 PSI y 206 L/min de caudal | La cifra de 206 L/min no identifica condiciones de medición ni caudal efectivo; no valida por sí sola uso continuo de la pistola. Tampoco es un kit independiente. | — |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 Las listas cambian entre marcas e incluso entre publicaciones del mismo código. Contrastá el paquete entregado con la ficha y el contenido del vendedor: no supongas que un modelo incluye inflador, acoples o soplete solo porque otro kit sí los trae.
 

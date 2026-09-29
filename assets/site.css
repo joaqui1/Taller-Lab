@@ -107,6 +107,7 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .offer-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .55rem 1rem; margin-top: auto; }
 .offer-button { display: inline-flex; justify-content: center; align-items: center; background: var(--orange); color: white; font-size: .77rem; font-weight: 800; padding: .7rem .85rem; border-radius: 3px; }
 .offer-button:hover { background: var(--orange-hover); color: white; }
+.markdown-body .affiliate-shelf a.offer-button { color: white; text-decoration: none; }
 .offer-guide { color: #9e410e; font-size: .75rem; font-weight: 800; }
 .offer-guide:hover { text-decoration: underline; text-underline-offset: 3px; }
 .article-container > .affiliate-shelf { margin: 0; padding: 2rem; background: #eeebe5; border: 1px solid var(--border); border-top: 0; }

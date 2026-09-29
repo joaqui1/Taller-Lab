@@ -27,6 +27,8 @@ Buscá regulación de presión, manómetro y filtrado de humedad. Después verif
 
 **Dato documentado:** las cifras se atribuyen al fabricante o documento indicado en cada tabla. Esta guía es documental y no incluye pruebas físicas.
 
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Qué necesita el aerógrafo
 
 El compresor tiene que entregar aire limpio y regulable dentro de la presión de trabajo indicada por el fabricante del aerógrafo. Como ejemplo, Iwata publica presiones óptimas distintas según el modelo: 15–25 psi para su HP-BH y 20–30 psi para su Revolution HP-SAR. No uses el rango de una marca como presión universal para cualquier aerógrafo o pintura.

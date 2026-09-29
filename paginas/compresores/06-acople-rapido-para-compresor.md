@@ -23,6 +23,10 @@ Antes de comprar, identificá cuatro datos de la pieza existente: **perfil del a
 
 La idea clave es **perfil ≠ rosca**. El perfil determina cómo encastran el macho y la hembra del acople rápido. La rosca conecta ese acople a la manguera, herramienta o salida del compresor. Ambas partes tienen que coincidir con sus correspondientes piezas.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Identificá la pieza en este orden
 
 1. **Despresurizá y separá la conexión.** No intentes medir, desenroscar ni forzar un acople presurizado.
@@ -81,7 +85,9 @@ Si aparece una fuga, localizá de dónde viene: puede haber perfil incompatible,
 
 Para líneas con herramientas de alto consumo, revisá también el caudal que admite el acople: el diámetro nominal del enchufe no es una garantía de caudal idéntico entre series. Parker publica caudales y perfiles por serie, además de su matriz de intercambiabilidad.
 
-## Referencias para identificar perfiles
+## Fuentes consultadas
+
+Referencias para identificar perfiles:
 
 | Referencia | Qué aporta |
 | :--- | :--- |

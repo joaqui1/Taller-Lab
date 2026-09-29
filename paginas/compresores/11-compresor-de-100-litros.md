@@ -25,14 +25,21 @@ La elección empieza por la herramienta que más aire consume y por cuánto tiem
 
 Entre las opciones documentadas hay compresores Lüsqtoff a correa y de mando directo, además de modelos Gamma. Las fichas no publican de forma homogénea el caudal efectivo a una presión de trabajo ni el ciclo de trabajo. Por eso la tabla orienta qué datos cotejar, pero no declara que una máquina sea compatible con una herramienta solo por tener 3 o 4 HP o un tanque de 100 L.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Qué compresor de 100 L conviene según el uso del taller
 
-| Modelo | Configuración y datos de fabricante | Para qué sirve como punto de comparación | Qué falta confirmar |
-| :--- | :--- | :--- | :--- |
-| **Lüsqtoff LC-30100 / LC30100-8** | 100 L; 3 HP; 220 V–50 Hz; bicilíndrico a correa; 115 PSI; 335 L/min publicados | Permite comparar una configuración a correa con las de mando directo. El manual y el catálogo discrepan en el peso: 115 kg frente a 85 kg en el catálogo 2023–24. | Caudal efectivo (FAD) a la presión de tu herramienta, ciclo de trabajo y peso de la unidad ofrecida. |
-| **Lüsqtoff LC-40100 / LC40100-8** | 100 L; 4 HP; 220 V–50 Hz; bicilíndrico de mando directo; 115 PSI; 360 L/min; 58 kg en manual | Alternativa de mayor potencia nominal y mando directo dentro de esta comparación. Un catálogo anterior la describe como de alta recuperación y uso profesional. | Caudal efectivo comparable, ciclo de trabajo y correspondencia entre revisión del equipo y manual. |
-| **Gamma G2803AR** | 100 L; 3 HP; 220 V–50 Hz; 116 PSI; 250 L/min; velocidad sin carga 1.060 rpm | Referencia Gamma de 3 HP. La página del fabricante indica usos domésticos como inflar, soplar, lavar o sopletear; no presenta un ciclo para uso continuo de taller. | La ficha consultada no especifica la transmisión ni un caudal efectivo a presión de trabajo; cotejá placa y manual de la unidad. |
-| **Gamma G2858AR** | 100 L; bicilíndrico; 3 HP / 2.200 W; 220 V–50 Hz; 8 bar / 116 PSI; 316 L/min que la ficha denomina “flujo continuo”; 45,4 kg; aceite SAE 30 | Modelo Gamma con ficha actual más detallada, que declara presión de conexión y desconexión, regulador, protector térmico y tipo de aceite. | La ficha no identifica correa o mando directo ni define la condición de ensayo del flujo o el ciclo admisible. |
+| Modelo | Configuración y datos de fabricante | Para qué sirve como punto de comparación | Qué falta confirmar | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **Lüsqtoff LC-30100 / LC30100-8** | 100 L; 3 HP; 220 V–50 Hz; bicilíndrico a correa; 115 PSI; 335 L/min publicados | Permite comparar una configuración a correa con las de mando directo. El manual y el catálogo discrepan en el peso: 115 kg frente a 85 kg en el catálogo 2023–24. | Caudal efectivo (FAD) a la presión de tu herramienta, ciclo de trabajo y peso de la unidad ofrecida. | [Ver precio y disponibilidad](https://meli.la/2r6QkaT) |
+| **Lüsqtoff LC-40100 / LC40100-8** | 100 L; 4 HP; 220 V–50 Hz; bicilíndrico de mando directo; 115 PSI; 360 L/min; 58 kg en manual | Alternativa de mayor potencia nominal y mando directo dentro de esta comparación. Un catálogo anterior la describe como de alta recuperación y uso profesional. | Caudal efectivo comparable, ciclo de trabajo y correspondencia entre revisión del equipo y manual. | [Ver precio y disponibilidad](https://meli.la/127ZaQu) |
+| **Gamma G2803AR** | 100 L; 3 HP; 220 V–50 Hz; 116 PSI; 250 L/min; velocidad sin carga 1.060 rpm | Referencia Gamma de 3 HP. La página del fabricante indica usos domésticos como inflar, soplar, lavar o sopletear; no presenta un ciclo para uso continuo de taller. | La ficha consultada no especifica la transmisión ni un caudal efectivo a presión de trabajo; cotejá placa y manual de la unidad. | — |
+| **Gamma G2858AR** | 100 L; bicilíndrico; 3 HP / 2.200 W; 220 V–50 Hz; 8 bar / 116 PSI; 316 L/min que la ficha denomina “flujo continuo”; 45,4 kg; aceite SAE 30 | Modelo Gamma con ficha actual más detallada, que declara presión de conexión y desconexión, regulador, protector térmico y tipo de aceite. | La ficha no identifica correa o mando directo ni define la condición de ensayo del flujo o el ciclo admisible. | [Ver precio y disponibilidad](https://meli.la/2TdnN1F) |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 **Sobre el peso del LC-30100:** la diferencia de 30 kg entre el manual y un catálogo anterior permanece sin resolver. Es un dato para verificar en la placa y en la unidad concreta, no la razón principal para elegir el compresor.
 

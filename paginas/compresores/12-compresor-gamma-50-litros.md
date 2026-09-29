@@ -25,6 +25,10 @@ Hay una diferencia documental que conviene conservar a la vista: la ficha web de
 
 Gamma presenta estos equipos para usos domésticos como inflar, soplar, lavar o sopletear. Esos usos publicados no confirman que el compresor sostenga una pistola de pintura o herramienta neumática concreta durante una sesión prolongada: para evaluarlo hacen falta el consumo y la presión requeridos por la herramienta, el caudal de salida del compresor bajo esa presión y el ciclo de trabajo.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## G2802AR y G2802KAR: qué cambia
 
 | Dato | G2802AR | G2802KAR |

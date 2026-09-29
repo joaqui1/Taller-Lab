@@ -29,6 +29,8 @@ Antes de mirar la presión máxima, definí qué vas a inflar. Para un auto o un
 
 También elegí la plataforma de batería. Si ya tenés baterías compatibles, una herramienta sola puede evitar comprar otra; si no, compará el costo del kit con batería y cargador. Confirmá el contenido del código exacto antes de comprar: dentro de una misma familia puede haber versiones con y sin batería, cargador o adaptadores.
 
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Qué cambia entre presión alta y alto volumen
 
 Una bomba de alta presión sirve para neumáticos y balones: llega a una presión elevada, pero su caudal disminuye al acercarse a esa presión. Una bomba de baja presión mueve mucho aire para colchones o inflables recreativos, que requieren volumen y poca presión. Algunos modelos combinan ambos modos y pueden incluir una función de succión para desinflar.
@@ -51,11 +53,14 @@ En un auto común, buscá una presión máxima superior al valor indicado por el
 
 Usá la presión recomendada en la etiqueta del vehículo o en el manual, con los neumáticos fríos cuando así se indique. El valor “11 bar máximo” del aparato no es la presión correcta para el neumático: solo indica hasta dónde puede trabajar el inflador.
 
-| Modelo documentado | Plataforma | Presión máxima | Caudal publicado | Modos y accesorios documentados |
-| :--- | :--- | ---: | :--- | :--- |
-| Einhell PRESSITO 18/25 | Power X-Change, 18 V; batería y cargador aparte | 11 bar | Alta presión: 17 / 11 / 9 L/min a 0 / 4 / 7 bar; baja presión: hasta 450 L/min en inflado | Alta y baja presión, succión de baja presión, adaptador para neumático, aguja para balón y adaptador cónico; mangueras de 71 cm y 1,6 m |
-| Einhell PRESSITO 18/21 | Power X-Change, 18 V; batería y cargador aparte | 10,5 bar | 14 / 9 / 6 L/min a 0 / 4 / 7 bar | Alta y baja presión, succión, pantalla digital, corte automático y set de inflado de 3 piezas |
-| Makita DMP180Z | LXT, 18 V; verificar batería/cargador incluidos en el SKU | 8,3 bar | 12 / 8 / 7 L/min a 200 / 700 / 830 kPa | Selector digital, parada automática, luz LED, maletín y boquilla para neumáticos de auto/moto según la ficha local |
+| Modelo documentado | Plataforma | Presión máxima | Caudal publicado | Modos y accesorios documentados | Oferta |
+| :--- | :--- | ---: | :--- | :--- | :--- |
+| Einhell PRESSITO 18/25 | Power X-Change, 18 V; batería y cargador aparte | 11 bar | Alta presión: 17 / 11 / 9 L/min a 0 / 4 / 7 bar; baja presión: hasta 450 L/min en inflado | Alta y baja presión, succión de baja presión, adaptador para neumático, aguja para balón y adaptador cónico; mangueras de 71 cm y 1,6 m | [Ver precio y disponibilidad](https://meli.la/14u7fCt) |
+| Einhell PRESSITO 18/21 | Power X-Change, 18 V; batería y cargador aparte | 10,5 bar | 14 / 9 / 6 L/min a 0 / 4 / 7 bar | Alta y baja presión, succión, pantalla digital, corte automático y set de inflado de 3 piezas | [Ver precio y disponibilidad](https://meli.la/1iNDq73) |
+| Makita DMP180Z | LXT, 18 V; verificar batería/cargador incluidos en el SKU | 8,3 bar | 12 / 8 / 7 L/min a 200 / 700 / 830 kPa | Selector digital, parada automática, luz LED, maletín y boquilla para neumáticos de auto/moto según la ficha local | [Ver precio y disponibilidad](https://meli.la/2uRPKYD) |
+
+<!-- COMPRESORES-OFFERS -->
+
 
 Los PRESSITO muestran que dos modelos de la misma plataforma pueden diferir en presión y entrega declarada. El DMP180Z publica puntos de caudal en kPa, no exactamente en los mismos puntos que Einhell; por eso la tabla permite orientar la comparación, pero no demuestra una prueba directa de velocidad entre marcas. Ninguno de estos valores autoriza por sí solo a prometer un tiempo para una rueda concreta.
 

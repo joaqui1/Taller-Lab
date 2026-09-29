@@ -25,14 +25,18 @@ La decisión práctica depende de si preferís evitar el control de aceite, si n
 
 La marca presenta el LC2550BK-8 para uso hogareño o talleres chicos y al LC-3550BK como semiprofesional o para talleres chicos. Eso describe el uso sugerido por Lüsqtoff, no garantiza que puedan sostener cualquier herramienta o una tarea continua. Para pintura u otra herramienta neumática, verificá también su consumo, presión y ciclo de trabajo.
 
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fichas y documentos enlazados. Un dato no publicado queda pendiente de confirmación.
+
+**Análisis TallerLab:** los criterios de elección interpretan esa documentación según el uso previsto; no constituyen una prueba física ni garantizan compatibilidad sin comprobar los requisitos del equipo concreto.
+
 ## Variantes Lüsqtoff de 50 litros
 
-| Modelo | Configuración documentada | Datos publicados | Diferencia práctica y límite |
-| :--- | :--- | :--- | :--- |
-| **LC2550B-8** | 2,5 HP, 50 L, 220 V monofásico | 115 PSI, 206 L/min, 30 kg; incluye filtro y ruedas | Es la versión básica. La ficha comercial no explica el método de medición del caudal. Confirmá en el manual de tu unidad qué aceite lleva y qué mantenimiento corresponde. |
-| **LC2550BK-8** | 2,5 HP, 50 L, **lubricado**, pistón de mando directo, monocilíndrico | 115 PSI, 206 L/min, 29,5 kg; dos salidas, manómetro doble, medidor de aceite y protector térmico | Se vende con pistola HVLP, pistola de sopletear y manguera espiralada de 5 m. Lüsqtoff lo recomienda para el hogar o talleres chicos; eso no confirma compatibilidad con pintura continua. |
-| **LC-2550VS** | 2,5 HP, 50 L, monocilíndrico, **sin aceite** | 115 PSI, 230 L/min; salida simple; presión acústica publicada: 72 dB | Evita el control y cambio de aceite de la bomba. La ficha no da peso ni condiciones de medición acústica; no se puede concluir cuánto más silencioso es frente a los otros. Tiene ficha individual vigente, aunque no aparece en la lista actual de la categoría. |
-| **LC-3550BK** | 3,5 HP, 50 L, **lubricado**, bicilíndrico, pistón de mando directo | 115 PSI, 300 L/min, 39 kg; dos salidas, manómetro doble, medidor de aceite y protector térmico | Incluye pistola HVLP, pistola de sopletear y manguera espiralada de 5 m. La marca lo ubica en uso semiprofesional o talleres chicos. No se publica el caudal efectivo ni el ciclo de trabajo. |
+| Modelo | Configuración documentada | Datos publicados | Diferencia práctica y límite | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **LC2550B-8** | 2,5 HP, 50 L, 220 V monofásico | 115 PSI, 206 L/min, 30 kg; incluye filtro y ruedas | Es la versión básica. La ficha comercial no explica el método de medición del caudal. Confirmá en el manual de tu unidad qué aceite lleva y qué mantenimiento corresponde. | [Ver precio y disponibilidad](https://meli.la/2dyFK5e) |
+| **LC2550BK-8** | 2,5 HP, 50 L, **lubricado**, pistón de mando directo, monocilíndrico | 115 PSI, 206 L/min, 29,5 kg; dos salidas, manómetro doble, medidor de aceite y protector térmico | Se vende con pistola HVLP, pistola de sopletear y manguera espiralada de 5 m. Lüsqtoff lo recomienda para el hogar o talleres chicos; eso no confirma compatibilidad con pintura continua. | [Ver precio y disponibilidad](https://meli.la/2FtyGQc) |
+| **LC-2550VS** | 2,5 HP, 50 L, monocilíndrico, **sin aceite** | 115 PSI, 230 L/min; salida simple; presión acústica publicada: 72 dB | Evita el control y cambio de aceite de la bomba. La ficha no da peso ni condiciones de medición acústica; no se puede concluir cuánto más silencioso es frente a los otros. Tiene ficha individual vigente, aunque no aparece en la lista actual de la categoría. | — |
+| **LC-3550BK** | 3,5 HP, 50 L, **lubricado**, bicilíndrico, pistón de mando directo | 115 PSI, 300 L/min, 39 kg; dos salidas, manómetro doble, medidor de aceite y protector térmico | Incluye pistola HVLP, pistola de sopletear y manguera espiralada de 5 m. La marca lo ubica en uso semiprofesional o talleres chicos. No se publica el caudal efectivo ni el ciclo de trabajo. | [Ver precio y disponibilidad](https://meli.la/21xNVUN) |
 
 ### Modelo identificado pero sin datos suficientes
 
@@ -63,6 +67,9 @@ En los compresores con tanque, drená periódicamente el condensado con el equip
 | Estoy mirando el LCS50-8 | **Esperar ficha o manual del código exacto** | Solo se confirma en la gama que es de 50 L y sin aceite; faltan datos para contrastarlo o asignarle un uso. |
 
 La capacidad del tanque ayuda a almacenar aire y amortiguar la demanda, pero no convierte por sí sola a un compresor en apto para una herramienta de alto consumo. Para trabajos sostenidos, el dato decisivo es el aire que entrega a la presión necesaria y durante cuánto tiempo puede trabajar.
+
+<!-- COMPRESORES-OFFERS -->
+
 
 ## Fuentes consultadas
 
