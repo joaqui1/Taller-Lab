@@ -23,20 +23,9 @@ Para elegir, primero sumá los watts de marcha de las cargas que realmente funci
 
 La gama publicada localmente va desde 720 W continuos hasta equipos rotulados en 12.000 W, con alternativas inverter, convencionales, monofásicas y trifásicas. Eso permite armar una primera escala, pero varias fichas no separan potencia nominal y máxima y otras no tienen stock en el sitio del representante. Por eso indicamos qué dato se puede usar y cuál conviene confirmar en la placa y el manual del código exacto.
 
-> **¿Lo querés para una vivienda?** Seguí con la guía de [cómo elegir un generador para casa](/generadores/para-casa/), que ayuda a inventariar cargas y estimar la potencia necesaria.
-
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al representante local Hyundai Herramientas o al vendedor citado. Las autonomías sin carga indicada no se usan para ordenar modelos. Esta guía es documental y no incluye prueba física.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Potencia nominal y arranque: compará tu inventario
 
@@ -51,9 +40,9 @@ Usá estos tramos como filtro inicial, no como garantía para cualquier artefact
 
 Ejemplo de suma: si las placas de cuatro cargas simultáneas dicen 180 W, 240 W, 310 W y 420 W, la marcha suma 1.150 W. Ese total cae dentro del tramo nominal de 2.000 W del HHY2200F, pero todavía falta revisar picos de arranque y las recomendaciones de los equipos; la suma por sí sola no confirma compatibilidad.
 
-## Comparativa de modelos Hyundai
+## Modelos nafteros: comparativa Hyundai
 
-El listado del representante en Argentina tiene 17 referencias de generadores. En la consulta del 28/09/2026, los productos de sus páginas estaban señalados sin existencias; vendedores locales sí publicaban algunos códigos con stock. La tabla combina modelos de nafta a varias escalas. Separa los códigos trifásicos y diésel en el texto para no mezclarlos con una compra monofásica doméstica.
+El listado del representante en Argentina tiene 17 referencias de generadores. En la consulta del 28/09/2026, los productos de sus páginas estaban señalados sin existencias; vendedores locales sí publicaban algunos códigos con stock. Esta tabla reúne modelos de nafta a varias escalas; las variantes diésel y trifásicas quedan separadas abajo.
 
 | Modelo | Potencia continua/nominal publicada | Potencia máxima o rótulo publicado | Arranque | Tanque / peso publicados | Autonomía publicada y condición |
 | :--- | ---: | ---: | :--- | :--- | :--- |
@@ -68,7 +57,13 @@ El HHY3000FE merece una verificación puntual: la ficha del representante local 
 
 En el HHY9500LE, el representante publica 8.000 W máximos, pero no una potencia nominal. Vendedores consultados discrepan entre 6,3, 7,0 y 7,2 kW continuos, y entre 85 y 88 kg. Usá el dato de placa del equipo ofrecido para compararlo; no tomes el “uso continuo 7 h” como régimen de potencia.
 
-HY7500LE-3 y HY9500LE-3 también figuran en el catálogo local como variantes trifásicas, de 7.000 W y 8.000 W máximos respectivamente. La página local del HY7500LE-3 publica 380 V / 50 Hz; confirmá tensión, fases, potencia por fase y distribución de cargas antes de conectarlo. No es un reemplazo directo de una versión monofásica solo porque comparta el número de watts.
+### Modelos diésel
+
+Para referencias Hyundai como 070G y 080G, consultá la guía de [generadores diésel](/generadores/diesel/), que reúne sus datos publicados y los puntos que faltan confirmar.
+
+### Variantes trifásicas
+
+HY7500LE-3 y HY9500LE-3 también figuran en el catálogo local como variantes trifásicas, de 7.000 W y 8.000 W máximos respectivamente. La página local del HY7500LE-3 publica 380 V / 50 Hz; confirmá tensión, fases, potencia por fase y distribución de cargas antes de conectarlo. No es un reemplazo directo de una versión monofásica solo porque comparta el número de watts. Para dimensionar estas salidas, consultá [generadores trifásicos](/generadores/trifasicos/).
 
 También aparecen a la venta local el HHY6800FE y el inverter HIG10501. No los incorporamos a la comparación principal porque no encontramos para ambos una ficha local del fabricante con datos consistentes: para HIG10501, distintos vendedores difieren incluso en la potencia nominal y máxima. Son códigos para pedir ficha y placa antes de cotizar.
 
@@ -112,7 +107,7 @@ Son precios de publicaciones puntuales, no precios recomendados por Hyundai ni u
 - **Cerca de 2.500 W:** evaluá el HHY3000FE solo después de confirmar su potencia nominal en placa, porque las fuentes consultadas discrepan.
 - **Más de 2.500 W:** revisá códigos mayores por potencia nominal, no solo por el número máximo de su título. HY7500LE y HHY9500LE no muestran potencia continua en la ficha local consultada.
 - **Necesidad trifásica:** cotejá la potencia disponible por fase y tus cargas reales antes de comparar HY7500LE-3 o HY9500LE-3 con un grupo monofásico.
-- **Uso doméstico:** usá la [guía de generador para casa](/generadores/para-casa/) para sumar cargas, incluir picos de arranque y decidir si necesitás respaldo parcial o de más circuitos.
+- **Uso doméstico:** usá la guía de [generador para casa](/generadores/para-casa/) para sumar cargas, incluir picos de arranque y decidir si necesitás respaldo parcial o de más circuitos.
 
 ## Fuentes consultadas
 
@@ -121,8 +116,6 @@ Son precios de publicaciones puntuales, no precios recomendados por Hyundai ni u
 - **Otros modelos localizados en vendedores argentinos:** [catálogo Reginato con HIG10501 inverter](https://tienda.reginato.com.ar/catalogo/?marca_id=3968); especificaciones publicadas para ese código varían entre vendedores y requieren confirmar ficha/placa.
 - **Documentación técnica:** manual genérico de la serie HHY para seguridad e instrucciones generales; no sustituye el manual del código exacto: [manual HHY](https://hyundaiherramientas.com.ar/wp-content/uploads/Manuales_Fichas/019-0010.pdf).
 
-Para seguir comparando: [generadores chicos: potencia continua y máxima](/generadores/chicos/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Para seguir comparando: [generadores chicos](/generadores/chicos/), [inverter](/generadores/inverter/) y [precios de generadores](/generadores/precios/); consultá la [comparativa general de generadores](/generadores/comparativa-general/) para otros modelos y configuraciones.
 
 Para explorar la categoría: [guías de generadores](/generadores/)

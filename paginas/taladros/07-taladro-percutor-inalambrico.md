@@ -25,10 +25,10 @@ La compra depende de qué vas a perforar y de si ya tenés baterías compatibles
 
 | Modelo | Datos básicos publicados | Capacidad publicada por material | Motor | Contenido del código citado |
 | :--- | :--- | :--- | :--- | :--- |
-| Bosch GSB 18V-50 (0 601 9H5 1E2) | 50 Nm máx.; hasta 27.000 impactos/min; mandril metálico 1,5–13 mm | Ladrillo: hasta 13 mm; madera: 35 mm; acero: 13 mm | Brushless | Caja de cartón, sin batería ni cargador. Bosch ofrece otras variantes con baterías, cargador y maletín. |
-| DeWalt DCD805B | Torque no incluido en la ficha consultada; modo percutor; mandril metálico 1/2 in | Mampostería: 6,4 mm; madera: hasta 65 mm con broca autoalimentada; acero: 13 mm | Brushless | Herramienta sola, sin batería ni cargador. |
-| Einhell TP-CD 18/50 Li-i BL Solo (4513942) | 50 Nm duro; hasta 28.800 impactos/min; mandril metálico hasta 13 mm | La ficha consultada no especifica diámetro máximo por material | Brushless | Versión Solo: requiere batería Power X-Change de 18 V y cargador, vendidos por separado. |
-| Milwaukee M18 FUEL 2904-20 | 1.400 in-lb (≈158 Nm); hasta 33.000 impactos/min; mandril metálico 1/2 in | Mampostería: 16 mm; madera: hasta 65 mm con broca autoalimentada; acero: 13 mm | Brushless | Herramienta sola; incluye empuñadura lateral y clip, no batería ni cargador. |
+| [Bosch GSB 18V-50](/taladros/bosch-inalambrico/) (0 601 9H5 1E2) | 50 Nm máx.; hasta 27.000 impactos/min; mandril metálico 1,5–13 mm | Ladrillo: hasta 13 mm; madera: 35 mm; acero: 13 mm | Brushless | Caja de cartón, sin batería ni cargador. Bosch ofrece otras variantes con baterías, cargador y maletín. |
+| [DeWalt DCD805B](/taladros/dewalt-inalambrico/) | Torque no incluido en la ficha consultada; modo percutor; mandril metálico 1/2 in | Mampostería: 6,4 mm; madera: hasta 65 mm con broca autoalimentada; acero: 13 mm | Brushless | Herramienta sola, sin batería ni cargador. |
+| [Einhell TP-CD 18/50 Li-i BL Solo](/taladros/einhell-inalambrico/) (4513942) | 50 Nm duro; hasta 28.800 impactos/min; mandril metálico hasta 13 mm | La ficha consultada no especifica diámetro máximo por material | Brushless | Versión Solo: requiere batería Power X-Change de 18 V y cargador, vendidos por separado. |
+| [Milwaukee M18 FUEL 2904-20](/taladros/milwaukee/) | 1.400 in-lb (≈158 Nm); hasta 33.000 impactos/min; mandril metálico 1/2 in | Mampostería: 16 mm; madera: hasta 65 mm con broca autoalimentada; acero: 13 mm | Brushless | Herramienta sola; incluye empuñadura lateral y clip, no batería ni cargador. |
 
 Las capacidades máximas dependen del tipo de broca y no son comparables como una prueba entre marcas. Bosch expresa la mampostería como ladrillo; DeWalt usa mampostería y Milwaukee indica mampostería en su manual. La cifra de Einhell no aparece en la ficha consultada, así que no la completamos por analogía con otros modelos.
 
@@ -51,6 +51,12 @@ Los cuatro modelos de esta tabla declaran motor brushless, es decir, sin escobil
 Si comparás con otro modelo con escobillas, mirá además capacidad y precio de baterías, cargador, peso del conjunto y si el modo percutor alcanza para el material real. La etiqueta brushless no reemplaza esos datos.
 
 Para contrastar el uso con cable y la función de percusión, visitá [taladros percutores](/taladros/percutores/).
+
+## Elegir por tarea
+
+- **Mampostería ocasional:** un taladro percutor puede alcanzar para agujeros puntuales dentro de la capacidad publicada; mantené la percusión apagada en madera y metal.
+- **Montaje y atornillado:** priorizá control, embrague, peso y compatibilidad de batería; compará también un [taladro inalámbrico](/taladros/inalambricos/) si no necesitás percusión.
+- **Hormigón frecuente:** compará un [rotomartillo SDS](/taladros/rotomartillos/) por encastre, diámetro y frecuencia de trabajo.
 
 ## Fuentes consultadas
 

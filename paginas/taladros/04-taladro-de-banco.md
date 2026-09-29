@@ -63,6 +63,8 @@ Para metal, el diámetro de broca cambia la velocidad periférica: al aumentar e
 | Madera con brocas grandes o Forstner | Velocidad baja disponible, carrera suficiente y espacio entre mandril y mesa para pieza, broca y sujeción | TBL710-9D: mínimo publicado de 170 rpm y recorrido de 100 mm; verificá que el diámetro de broca y el material estén dentro de sus límites. |
 | Metal | Velocidades bajas, sujeción rígida y capacidad publicada para el tipo de metal y diámetro | Compará velocidades de ambos modelos y consultá los datos de la broca. El mandril de 16 mm del TB-16 no equivale a capacidad de perforar acero de 16 mm. |
 
+**La broca también define el trabajo.** Para cavidades de fondo plano en madera, una [mecha Forstner de 35 mm](/taladros/mecha-forstner-35-mm/) puede servir si el taladro tiene la velocidad, el recorrido y la capacidad adecuados. Para abrir o agrandar agujeros en chapa, compará una [mecha escalonada para chapa](/taladros/mechas-escalonadas/) y respetá el rango de espesores y diámetros indicado para la broca.
+
 ## Taladro de banco o soporte para taladro
 
 | Criterio | Taladro de banco | Soporte para taladro manual |

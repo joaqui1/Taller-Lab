@@ -2,7 +2,7 @@
 title: "Taladro Stanley: modelos y cuál conviene comprar"
 h1: "Qué taladro Stanley elegir"
 url: "/taladros/stanley/"
-description: "Compara taladros Stanley con cable y V20, con y sin percusión, y revisa capacidad, torque y contenido de los kits."
+description: "Comparamos los Stanley SDH600/700 con cable y V20 SBD710/SBD715, según percusión, capacidades y configuración de kit."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro stanley", "taladro percutor stanley", "stanley fatmax v20", "taladro stanley 20v", "comprar taladro stanley argentina"]
@@ -21,6 +21,8 @@ published: true
 
 Para uso cerca de un tomacorriente y sin límite de batería, Stanley ofrece percutores con cable SDH600-AR y SDH700. Si priorizás movilidad, la plataforma inalámbrica V20 incluye taladros atornilladores sin percusión y percutores: entre los modelos documentados están SBD710C2K-AR y SBD715C2K-AR. Elegí según material, necesidad de percusión, frecuencia de trabajo y si el kit trae las baterías y el cargador que necesitás.
 
+Para comparar esta plataforma con otras marcas, consultá la guía general de [taladros inalámbricos](/taladros/inalambricos/).
+
 ## Modelos con cable e inalámbricos
 
 | Modelo | Alimentación y función | Prestaciones publicadas | Configuración / uso a considerar |
@@ -34,7 +36,7 @@ Las potencias en watts de los modelos con cable y los torques en Nm de los inal�
 
 ## Cuándo elegir percusión
 
-La percusión ayuda al taladro a avanzar en mampostería cuando el fabricante admite ese uso y se usa una broca adecuada. Está disponible en SDH600-AR, SDH700 y SBD715C2K-AR. El SBD710C2K-AR es la alternativa V20 documentada sin percusión confirmada: para madera, metal y atornillado no hace falta comprar esa función.
+La percusión ayuda al taladro a avanzar en mampostería cuando el fabricante admite ese uso y se usa una broca adecuada. Está disponible en SDH600-AR, SDH700 y SBD715C2K-AR. El SBD710C2K-AR es la alternativa V20 documentada sin percusión confirmada: para madera, metal y atornillado no hace falta comprar esa función. Para contrastar el SBD715 con otros equipos a batería, consultá la comparativa de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/).
 
 Para hormigón frecuente, diámetros grandes o trabajo sostenido, considerá un rotomartillo SDS. La percusión de un taladro no reemplaza el mecanismo de un rotomartillo; consultá la guía de [taladros percutores](/taladros/percutores/) para comparar categorías.
 
@@ -44,7 +46,7 @@ En los modelos con cable, Stanley publica potencia eléctrica (600 W para SDH600
 
 Los manuales SBD710/SBD715 consultados publican capacidad de 13 mm en acero y 30 mm en madera; el SBD715 también declara hasta 13 mm en mampostería. Para SDH600/700, las capacidades indicadas son 13 mm en concreto y metal, con 25/30 mm en madera, respectivamente. Usá esos números como máximos documentados, no como recomendación de perforar continuamente a ese diámetro. Si necesitás un diámetro concreto, confirmá broca admitida, material, velocidad y modo en el manual exacto.
 
-## Comparativa de kits y precios
+## Comparativa de kits y configuraciones
 
 | Opción | Qué se conecta o incluye según la documentación consultada | Qué comparar al comprar |
 | :--- | :--- | :--- |

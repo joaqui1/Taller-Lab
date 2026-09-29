@@ -21,27 +21,24 @@ published: true
 
 La ficha argentina confirma la potencia, el diámetro anunciado y el ajuste de bisel. Para decidir si cubre una pieza concreta, la profundidad máxima es un dato clave que la documentación consultada no publica: no conviene deducirla solo del diámetro del disco.
 
-## Qué revisar antes de comprar la DWE560-AR
+## DWE560 frente a GKS150 y SC16
 
-| Dato | DWE560-AR |
-| :--- | :--- |
-| Potencia | 1.400 W |
-| Disco | La ficha argentina anuncia 185 mm; el manual identifica la hoja como 7-1/4" (184 mm) |
-| Eje de la hoja | El manual recomienda hojas con árbol redondo de 5/8"; verificá también la forma y medida del agujero y las arandelas de montaje |
-| Profundidad máxima a 90° | No publicada en las fuentes oficiales consultadas |
-| Profundidad máxima a 45° | No publicada en las fuentes oficiales consultadas |
-| Bisel máximo | 48°; topes a 22,5° y 45° |
-| Alimentación y motor | 220 V, 50 Hz; motor con carbones |
-| Velocidad sin carga | 5.500 rpm según el manual |
-| Peso | No publicado en las fuentes oficiales consultadas |
-| Polvo y aserrín | La ficha anuncia expulsión de polvillo y aserrín; no especifica un puerto ni adaptador de extracción |
-| Incluye según ficha | Llave de ajuste y disco de 24 dientes; la ficha no confirma una guía paralela incluida |
+La comparación reúne datos publicados para DWE560-AR, GKS 150 (código 0 601 6B3 0H0) y SC16-AR. “No informado” indica que no encontramos esa capacidad en las fuentes oficiales consultadas; no se estima a partir del diámetro del disco.
 
-La ficha comercial argentina y el manual difieren en el redondeo del diámetro (185 y 184 mm). Para comprar un repuesto, comprobá la medida indicada en la máquina y su manual, el agujero central compatible con el eje y que la velocidad máxima del disco sea igual o superior a las 5.500 rpm de la sierra. No alcanza con que el diámetro nominal coincida.
+| Dato publicado | DeWalt DWE560-AR | [Bosch GKS 150](/sierras/bosch-gks-150/) | [Stanley SC16](/sierras/stanley-sc16/) |
+| :--- | :--- | :--- | :--- |
+| Potencia | 1.400 W | 1.500 W | 1.600 W |
+| Velocidad sin carga | 5.500 rpm | 6.000 rpm | 5.500 rpm |
+| Profundidad máxima a 90° | No informada | 64 mm | 65 mm |
+| Profundidad máxima a 45° | No informada | No informada en las fuentes consultadas | 50 mm |
+| Disco / eje publicados | Ficha: 185 mm; manual: 7-1/4 in (184 mm) / árbol redondo de 5/8 in | 184 mm / 20 mm | Ficha: 180 mm; manual: 190 mm / 16 mm |
+| Peso publicado | No informado en las fuentes consultadas | 3,7 kg | 3,9 kg |
 
-## Para qué trabajo puede servir
+Los datos no establecen un ganador: las fuentes difieren en diámetros de disco para DWE560 y SC16, y DeWalt no publica profundidad máxima de corte en las fuentes revisadas. Antes de comprar, usá el código exacto y la placa/manual de la unidad para confirmar montaje y capacidad, en vez de deducirla del diámetro.
 
-La DWE560-AR puede tener sentido para cortes rectos portátiles en madera cuando la hoja elegida corresponde al material y la capacidad real alcanza el espesor de la pieza. Para cortes al hilo, el manual recomienda usar una guía de borde recto o la guía para cortes longitudinales DEWALT DW3278. La ficha argentina no la incluye entre los accesorios suministrados, así que confirmá disponibilidad y compatibilidad antes de contar con ella.
+## Guía y uso previsto
+
+La DWE560-AR puede servir para cortes rectos portátiles en madera cuando la hoja corresponde al material y la capacidad real alcanza el espesor de la pieza. Para cortes al hilo, el manual recomienda una guía de borde recto o la DEWALT DW3278. La ficha argentina no la incluye entre los accesorios suministrados, así que confirmá disponibilidad y compatibilidad antes de contar con ella. Para comparar opciones, revisá la guía de [sierra circular](/sierras/circulares/) y la [guía para sierra circular](/sierras/guia-para-sierra-circular/).
 
 Si vas a cortar piezas de un espesor específico, pedí a DeWalt o al vendedor una confirmación de la capacidad a 90° y, si necesitás biselar, a 45° para el código exacto DWE560-AR. El manual enseña a regular la profundidad de la hoja para el material, pero no publica una profundidad máxima de corte; el disco de 185 mm por sí solo no resuelve esa decisión.
 
@@ -49,11 +46,15 @@ La ficha describe expulsión de aserrín. Eso no confirma una conexión para asp
 
 ## Qué mirar al elegir el disco y la guía
 
-Elegí el disco por la aplicación y el material admitido, y verificá diámetro, agujero central, forma de montaje y RPM. El manual enumera hojas con árbol redondo de 5/8" y distingue usos por dentado; eso no sustituye la comprobación del disco específico ni autoriza a montar una hoja que no coincida con los herrajes de la sierra.
+Elegí el disco por la aplicación y el material admitido, y verificá diámetro, agujero central, forma de montaje y RPM. El manual enumera hojas con árbol redondo de 5/8" y distingue usos por dentado; eso no sustituye la comprobación del disco específico ni autoriza a montar una hoja que no coincida con los herrajes de la sierra. Consultá la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/) para revisar compatibilidad.
 
 Para cortes longitudinales, el manual indica un tope-guía o una guía recta y recomienda la guía DEWALT DW3278. Si pensás usar una regla externa o un riel, comprobá la distancia entre el borde de la base y la hoja y la compatibilidad de sujeción; la ficha argentina no declara un sistema de riel propietario.
 
 La guarda retráctil y la zapata de 3 mm son características que destaca el fabricante. La mención a una guarda diseñada para cortes en distintos ángulos es una afirmación de DeWalt, no una prueba independiente de prevención de atascos o durabilidad.
+
+## Para quién tiene sentido la DWE560
+
+Puede tener sentido si buscás una circular con cable de 220 V para cortes portátiles en madera y confirmás que la capacidad de corte alcanza para tus piezas. Las fuentes oficiales revisadas no informan la profundidad máxima: si ese dato define la compra, pedí confirmación para el código DWE560-AR antes de decidir. Compará con GKS 150 y SC16 usando las diferencias de disco de la tabla y la documentación de la unidad concreta.
 
 ## Fuentes consultadas
 

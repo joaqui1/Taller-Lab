@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía centrada en la decisión alrededor de K3: compara los SKU argentinos K2 Basic Black, K3 Black Edition y K4 Power Control y explica su frecuencia de uso, kit, mantenimiento y repuestos."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-La **K3 Black Edition (93983550)** tiene sentido como escalón intermedio si la K2 Basic te queda corta por frecuencia o caudal, pero todavía no necesitás el mayor caudal, alcance de manguera y motor refrigerado por agua publicados para la K4 Power Control. Kärcher Argentina describe la K3 para limpieza doméstica diaria más frecuente, no como equipo de uso comercial continuo.
+La **K3 Black Edition (93983550)** ocupa el escalón intermedio si la K2 Basic te queda corta por frecuencia o caudal, pero todavía no necesitás el mayor caudal, alcance de manguera y motor refrigerado por agua de la K4 Power Control. Kärcher Argentina la orienta a limpieza doméstica más frecuente, no a uso comercial continuo. Si la elegís para el auto, confirmá que el kit del SKU incluya los accesorios que querés usar.
 
 ## K2, K3 y K4 argentinos: dónde cae la K3
 
@@ -33,17 +33,17 @@ La **K3 Black Edition (93983550)** tiene sentido como escalón intermedio si la 
 
 Las fichas rotulan la presión de manera distinta: K2 y K3 dan una cifra de presión, mientras K4 publica un intervalo hasta el máximo. Los caudales también son máximos en estas fichas, no promesas de caudal sostenido en cualquier boquilla o situación. La tabla es sólo el marco para decidir si quedarte en K3 o subir/bajar un escalón.
 
-### Cuándo conviene quedarse con K3
-
-- **Frente a la K2:** elegí K3 si la máquina va a salir con frecuencia para patio, auto, moto y tareas de jardín, y te sirven el mayor caudal publicado, las ruedas y los accesorios del paquete Black Edition. Para bicicleta o muebles con suciedad ligera en limpiezas esporádicas, la K2 pesa bastante menos y puede alcanzar.
-- **Frente a la K4:** quedate con K3 si la limpieza es doméstica y el mayor caudal o los 8 m de manguera de K4 no justifican más tamaño y peso. Subí a K4 si limpias superficies más amplias con regularidad o el radio de la K3 te obliga a mover el equipo seguido.
-- **Para jornadas o trabajo pago:** la descripción local de K3 dice “diaria más frecuente”, pero no publica horas continuas ni ciclo de trabajo para la SKU 93983550. No leas esa frase como aptitud comercial: pedí el régimen permitido y condiciones de garantía antes de usarla como herramienta de trabajo.
+**Conclusión:** K3 es una opción doméstica intermedia: mejora caudal y kit respecto de K2, mientras K4 agrega más caudal, manguera de 8 m y motor refrigerado por agua. Las fichas no publican ciclo continuo de K3; para trabajo pago, verificá régimen y garantía antes de usarla.
 
 ## K3 Black Edition local: kit y versiones
 
 La referencia argentina actual que encontré es **K3 Black Edition, SKU 93983550**. Kärcher Argentina lista cepillo de lavado, boquilla de espuma de 0,3 L, pistola Quick Connect, Vario Power Jet, lanza pulverizadora de un chorro y adaptador para manguera de riego de 3/4”; también declara filtro de agua integrado. Confirmá el contenido del paquete al comprar: nombres como K3 Comfort, Home, Car o Full Control pueden corresponder a otros kits o mercados.
 
 La ficha de producto argentina no indica el largo de la manguera de alta presión incluida. Kärcher sí lista una [manguera de repuesto de 4 m compatible con K3 Black Edition](https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html); eso no confirma por sí mismo el contenido de la caja. Si el largo te importa, pedí que el vendedor lo confirme para el SKU y lote concretos.
+
+## Precio y stock de la K3 Black Edition
+
+**Consulta del 29/09/2026:** Abastecedora del Sur publica la K3 Black **9.398-355.0** a **$324.400 con IVA** y ofrece compra directa/agregar al carrito; la ficha no informa cantidad de unidades, así que confirmá stock y que la caja corresponda al SKU local **93983550** antes de pagar. Es una referencia de tienda, no un precio sugerido por Kärcher.
 
 ## Uso y mantenimiento básico
 
@@ -58,11 +58,10 @@ La garantía Home & Garden publicada en Argentina es de 12 meses para fallas de 
 ## Fuentes consultadas
 
 - Kärcher Argentina: [K2 Basic Black 19943220](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html), [K3 Black Edition 93983550](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html), [K4 Power Control 16034020](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html).
+- Precio/venta local: [K3 Black 9.398-355.0 en Abastecedora del Sur](https://abastecedoradelsur.com.ar/productos/hidrolavadora-k3-black-9398-3550-krc015/).
 - Accesorios/repuestos: [manguera 4 m compatible con K3 Black Edition](https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html), [buscador de repuestos originales](https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion/repuestos-originales.html).
 - Mantenimiento y cobertura: [manual de usuario oficial que incluye K3 Black](https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5811717-000-00.pdf), [garantía y reparación Home & Garden Argentina](https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion.html).
 
 Esta guía es documental; no incluye prueba física ni una muestra verificable de opiniones de compradores. Se usan las fichas argentinas de esos SKU y no se trasladan prestaciones de otras K3 regionales.
 
-Para comparar la gama completa: [hidrolavadoras Kärcher](/hidrolavadoras/karcher/). También podés ver [Kärcher K2: cuándo subir al K3](/hidrolavadoras/karcher-k2/) y [Kärcher K4: cuándo subir al K5](/hidrolavadoras/karcher-k4/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Para comparar la gama completa: [hidrolavadoras Kärcher](/hidrolavadoras/karcher/), [Kärcher K2: cuándo subir al K3](/hidrolavadoras/karcher-k2/) y [Kärcher K4: cuándo subir al K5](/hidrolavadoras/karcher-k4/). Si tu uso principal es el vehículo, revisá también [hidrolavadoras para autos](/hidrolavadoras/para-autos/).

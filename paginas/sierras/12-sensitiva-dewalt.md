@@ -21,7 +21,7 @@ published: true
 
 El D28730-AR figura en el catálogo argentino de DeWalt de 2023. También hay documentación primaria para el D28720-AR, una variante regional anterior que aparece en un catálogo argentino de 2018 y en el catálogo de servicio de DeWalt para Latinoamérica. Puede servir para comparar una unidad usada o de stock remanente; confirmá disponibilidad, garantía y repuestos antes de comprar.
 
-## D28720-AR o D28730-AR: comparación documentada
+## D28720 o D28730: cuál tiene sentido según el trabajo
 
 | Dato | D28720-AR | D28730-AR |
 | :--- | :--- | :--- |
@@ -64,6 +64,8 @@ El manual da capacidades máximas distintas para cortes a 90° y 45°. Las cifra
 El sufijo cambia la alimentación: el manual latinoamericano lista D28730-AR para 220 V y 50 Hz, y distingue la D28730-B3 de 120 V y 60 Hz. La B3 mexicana sirve como advertencia de variante, no como referencia de compra para una instalación argentina. Verificá la placa, el enchufe, el código completo y la cobertura de garantía de la unidad ofrecida.
 
 **Desconocido.** No probamos capacidad, rebaba, escuadra, calentamiento ni rendimiento en una misma pieza. Las cifras provienen de manuales y catálogos distintos; no son el resultado de un ensayo comparativo.
+
+Para criterios generales, consultá [cómo elegir una sensitiva](/sierras/sensitivas/). Si comparás otra marca, revisá la [sensitiva Lusqtoff](/sierras/sensitivas-lusqtoff/) y verificá el código y la capacidad por perfil.
 
 ## Fuentes consultadas
 

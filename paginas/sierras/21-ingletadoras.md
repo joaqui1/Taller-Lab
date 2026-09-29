@@ -23,11 +23,18 @@ Elegí por el material, el tipo de ángulo y la sección completa de la pieza (a
 
 ## Qué mecanismo, ángulo y material necesitás
 
-### Fija o telescópica
+## Fija o telescópica
 
 Una ingletadora fija baja el cabezal desde un pivote, sin un carro que avance la hoja por rieles. Una telescópica suma un recorrido deslizante que puede aumentar el ancho de corte; también requiere espacio libre para mover el carro. La capacidad real sigue dependiendo del tamaño de la pieza y de los ángulos configurados.
 
-Dos Einhell de 210 mm muestran esa diferencia en sus fichas: la TC-MS 2112 fija declara hasta 120 mm de ancho a 90°, mientras que la TC-SM 2131/2 Dual deslizante declara 310 mm. El diámetro del disco no predice por sí solo el ancho que puede cubrir la máquina.
+Dos Einhell con disco de 210 mm muestran esa diferencia: la TC-MS 2112 fija declara hasta 120 mm de ancho a 90°, mientras que la TC-SM 2131/2 Dual deslizante declara 310 mm. El diámetro del disco no predice por sí solo el ancho que puede cubrir la máquina.
+
+| Trabajo o tamaño de pieza | Mecanismo que puede encajar | Capacidad publicada en los ejemplos Einhell |
+| :--- | :--- | :--- |
+| Piezas de hasta 120 × 55 mm en corte recto a 90° | Fija: alcanza para esa sección y ocupa menos que un carro deslizante | TC-MS 2112: 120 × 55 mm |
+| Piezas más anchas, hasta 310 × 62 mm en corte recto a 90° | Telescópica: el carro amplía el ancho; reservá despeje para su recorrido | TC-SM 2131/2 Dual: 310 × 62 mm |
+| Corte compuesto a 45° de inglete y 45° de bisel | Elegí según la sección que permita el manual para esa combinación; la capacidad máxima a 90° no aplica | TC-MS 2112: 80 × 32 mm; TC-SM 2131/2 Dual: 210 × 36 mm |
+| Ángulos distintos o pieza fuera de esas medidas | Ninguno se puede recomendar solo con estas cifras: comprobá la fila exacta del código y el espacio de instalación | Consultá el manual de la variante ofrecida |
 
 ### Inglete y bisel no son lo mismo
 
@@ -35,18 +42,10 @@ Dos Einhell de 210 mm muestran esa diferencia en sus fichas: la TC-MS 2112 fija 
 - **Bisel:** inclina el cabezal y la hoja respecto de la vertical para cortar en ángulo a través del espesor de la pieza.
 - **Corte compuesto:** combina giro de inglete e inclinación de bisel. La capacidad puede cambiar al combinar ambos; usá la fila o el diagrama del manual del modelo, no la capacidad máxima a 90°.
 
-### Qué sección de pieza necesitás cortar
+### Medí la sección y el ángulo
 
 Medí **ancho × altura** en la orientación en que vas a apoyar la pieza. Ambos valores deben caber a la vez en la capacidad correspondiente al ángulo: que entre por ancho no garantiza que entre por alto.
-
-| Configuración de corte | TC-MS 2112 fija | TC-SM 2131/2 Dual deslizante |
-| :--- | ---: | ---: |
-| 90° inglete × 0° bisel (recto) | 120 × 55 mm | 310 × 62 mm |
-| Capacidad publicada a 45° × 45° | 80 × 32 mm | 210 × 36 mm |
-
-Las medidas son capacidades máximas publicadas para esas configuraciones. Si tu corte usa solo inglete a 45° o solo bisel a 45°, consultá esa combinación específica en el manual; no tomes la capacidad 45° × 45° como sustituto.
-
-**Ejemplo documentado:** aunque ambas máquinas usan disco de 210 mm, a 90° el ancho publicado cambia de 120 a 310 mm. La fija pesa 7,1 kg y la deslizante 11 kg según Einhell; esos valores sirven para planificar traslado, no para deducir precisión.
+Las medidas de la tabla son máximos publicados, no una recomendación para trabajar justo al límite. Si tu corte usa solo inglete a 45° o solo bisel a 45°, consultá esa combinación específica en el manual. La fija pesa 7,1 kg y la deslizante 11 kg según Einhell; esos valores sirven para planificar traslado, no para deducir precisión.
 
 ### Qué disco necesita cada material
 
@@ -59,9 +58,13 @@ Usá únicamente un disco cuya aplicación publicada incluya el material y el ti
 | Plástico | También figura entre las aplicaciones de TC-MS 2112. Confirmá que la hoja y la velocidad sean las aprobadas para el plástico concreto. |
 | Acero u otros metales | No asumas que una ingletadora para madera sirve. Las fuentes enlazadas para los modelos Einhell de esta página no documentan corte de metal; usá una máquina y un disco/hoja expresamente indicados para ese material. |
 
-No trasladamos aplicaciones entre modelos ni recomendamos cortar metal con un disco de madera. Para perfiles metálicos, revisá la guía de [sensitivas](/sierras/sensitivas/), que distingue sensitivas abrasivas, equipos de corte en frío y sierras de banda para metal.
+No trasladamos aplicaciones entre modelos ni recomendamos cortar metal con un disco de madera.
 
-### Ingletadora vs sensitiva
+### Ingletadora para aluminio: qué comprobar
+
+Antes de cortar un perfil de aluminio, verificá que el manual de la ingletadora autorice ese material y que el fabricante de la hoja declare compatibilidad con aluminio y con esa máquina. Comprobá diámetro, eje, RPM, ancho × alto del perfil y capacidad para el ángulo previsto; asegurá la pieza con el dispositivo indicado y respetá las instrucciones de guarda. Las fuentes citadas para las Einhell de esta guía no confirman corte de aluminio, así que no trasladamos a ellas capacidades de otros modelos.
+
+### Metal ≠ lo mismo: ingletadora y sensitiva
 
 | Necesidad | Ingletadora convencional | Sensitiva |
 | :--- | :--- | :--- |

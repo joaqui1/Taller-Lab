@@ -77,7 +77,7 @@ En la tienda de Grupo Rumbo, la diferencia publicada entre 55-ER y 70-ER era de 
 
 Las fichas del importador expresan 93 kg **brutos** para 55-ER y 95 kg brutos para 70-ER. Algunas fichas comerciales del GNW-55-ER publican 92 kg **netos**. Son rótulos de medición distintos; no corresponde restarlos ni presentarlos como una diferencia entre modelos. En esta decisión, el 55-ER y el 70-ER son grupos pesados y su diferencia de peso publicada es secundaria frente a la capacidad que necesitás.
 
-## Fuentes y método
+## Fuentes consultadas
 
 - **Fichas técnicas de Grupo Rumbo:** [GNW-28-E](https://www.rumbosrl.com.ar/printficha.php?product_id=124), [GNW-55-ER](https://www.rumbosrl.com.ar/printficha.php?product_id=127) y [GNW-70-ER](https://www.rumbosrl.com.ar/printficha.php?product_id=128). Respaldan arranque, tanques, tomas AC, ruedas, autonomía publicada y pesos brutos. Para las potencias nominales del 28-E, 55-ER y 70-ER se contrastó el [catálogo Niwa de Grupo Rumbo](https://www.rumbosrl.com.ar/uploads/resources/Niwa-catalogo-prod-de-fuerza-4002-ED202209-01.pdf); la ficha del 70-ER publica 7 kVA máximo.
 - **Manual de operación** para GNW 28/E, 55/E/ER y 70ER/73ER, [distribuido por Grupo Rumbo](https://cdn.rumbosrl.com.ar/uploads/products/pdfs/manuales/1025552_om.pdf). Incluye instrucciones de arranque y mantenimiento y declara que el distribuidor posee repuestos.
@@ -86,8 +86,8 @@ Las fichas del importador expresan 93 kg **brutos** para 55-ER y 95 kg brutos pa
 - **Precios:** [Impulso Repuestos](https://impulsorepuestos.com.ar/herramientas-niwa/generadores/) y [tienda de Grupo Rumbo, grupos nafteros](https://tienda.rumbosrl.com.ar/tienda/ferreteria/productos-de-fuerza/generacion/grupos-electrogenos-nafteros), consultados el 28/09/2026. Se conserva el precio de lista publicado, sin aplicar descuentos de transferencia.
 - Tipo de análisis: documental; prueba física de TallerLab: no; opiniones de compradores: no se revisó una muestra verificable. Las estimaciones de escenarios son una guía para preseleccionar, no resultados de ensayo.
 
-Para seguir comparando: [modelos Lüsqtoff por código](/generadores/lusqtoff/).
+Si estás comparando un equipo para vivienda o comercio chico, podés [elegir un generador para casa](/generadores/para-casa/). Para comparar el costo, mirá los [precios de grupos electrógenos](/generadores/precios/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Para seguir: [comparativa general de generadores](/generadores/comparativa-general/) y [generadores monofásicos](/generadores/monofasicos/).
 
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

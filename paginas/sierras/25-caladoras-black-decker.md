@@ -37,7 +37,7 @@ Comparamos BES603-B2 y BES602-B2 según las fichas y el manual de Black+Decker. 
 | Extracción de polvo | Puerto de aspirado; la ficha lo describe como extractor integrado | Puerto de aspirado; la ficha lo describe como extractor integrado |
 | Hoja y accesorios incluidos | La ficha no especifica el contenido de caja; confirmar en la oferta | La ficha indica que no incluye accesorios; confirmar si la publicación ofrece otro kit |
 
-### Cuándo aporta valor la velocidad variable de BES603
+## BES602 o BES603: cuándo aporta la velocidad variable
 
 La BES603 permite regular la velocidad hasta 3.000 carreras por minuto; puede servir para adaptar la velocidad a la aplicación y a la hoja, siguiendo sus indicaciones. Eso amplía el control disponible frente a la BES602, cuya ficha publica 3.000 carreras por minuto sin anunciar regulación variable. No prueba por sí mismo un corte más limpio, rápido o preciso: la terminación depende también de la hoja, el material, el apoyo y el avance.
 
@@ -60,7 +60,7 @@ Las fichas anuncian extracción integrada y el manual describe un puerto trasero
 
 ### Recomendación editorial
 
-Si necesitás cortes variados y querés regular la velocidad, la BES603-B2 tiene una ventaja funcional documentada sobre la BES602-B2. Si no necesitás esa regulación, la BES602 comparte las capacidades publicadas. Para ambas, decidí por material, espesor y hoja compatible antes de mirar precio; las capacidades máximas no son una promesa de acabado ni confirman qué accesorio trae cada publicación. Verificá código completo, 220 V, hoja y garantía local antes de comprar. Para comparar otras familias, consultá la [guía general de caladoras](/sierras/caladoras/).
+Si necesitás cortes variados y querés regular la velocidad, la BES603-B2 tiene una ventaja funcional documentada sobre la BES602-B2. Si no necesitás esa regulación, la BES602 comparte las capacidades publicadas. Para ambas, decidí por material, espesor y hoja compatible antes de mirar precio; las capacidades máximas no son una promesa de acabado ni confirman qué accesorio trae cada publicación. Verificá código completo, 220 V, hoja y garantía local antes de comprar. Para comparar otras familias, consultá la [guía general de caladoras](/sierras/caladoras/) y las [caladoras Einhell](/sierras/caladoras-einhell/).
 
 ## Fuentes consultadas
 

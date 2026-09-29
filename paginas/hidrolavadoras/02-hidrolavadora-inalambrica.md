@@ -21,7 +21,19 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Guía documental; no hicimos pruebas físicas.** La primera decisión es qué clase de equipo necesitás: una limpiadora portátil para enjuague y suciedad liviana, o una hidrolavadora a batería con más presión para trabajos localizados más exigentes. Que ambas funcionen con batería no las vuelve sustitutas.
+**Guía documental; no hicimos pruebas físicas.** Una inalámbrica prioriza movilidad y puede tomar agua desde un recipiente; una eléctrica con cable permite trabajar sin pausas para recargar y suele ofrecer más caudal para cubrir superficies. La tabla resume las diferencias prácticas.
+
+## Inalámbrica o eléctrica con cable
+
+| Qué comparar | Inalámbrica | Eléctrica con cable |
+| :--- | :--- | :--- |
+| Autonomía | Limitada por la carga y el modo: Einhell publica, por ejemplo, entre 7 y 55 min para la HYPRESSO 18/24 según batería y ajuste; la 36/105 declara hasta 45 min en ECO con dos baterías de 8 Ah. Llevá baterías de repuesto o pausá para cargar. | No depende de batería; el trabajo continuo queda sujeto al ciclo indicado por el fabricante, el suministro de agua y una conexión eléctrica segura. |
+| Batería y cargador | Revisá el código del kit. Lüsqtoff LAPL3.6-8BK incluye dos baterías y cargador; los kits Bosch 06008C7002 los incluyen; las Einhell HYPRESSO 18/24 y 36/105 se venden sin ambos. | No usa batería ni cargador; necesita toma eléctrica y cable de extensión adecuado si el fabricante lo permite. |
+| Agua desde balde | Algunos modelos autocebantes lo permiten con filtro y manguera de aspiración; Lüsqtoff, Bosch y las HYPRESSO lo declaran, con límites y accesorios propios de cada equipo. | La mayoría se conecta a una canilla. No supongas que puede succionar desde un balde: confirmalo en el manual del modelo. |
+| Presión y caudal | Mirá el valor de trabajo cuando se publica: la Einhell 36/105 declara 70 bar de trabajo y 105 bar permitidos; la Lüsqtoff portátil declara 30 bar máximos y la Bosch del kit comparado hasta 100 bar, sin presión de trabajo publicada en esa ficha. El pico máximo no permite compararlas por sí solo. | Puede sostener el trabajo sin recargar y suele entregar más caudal; contrastá presión de trabajo y caudal del modelo concreto. |
+| Tareas donde encaja | Enjuague de bicicletas, muebles, herramientas, macetas y suciedad liviana o localizada lejos de una toma; algunos modelos de mayor presión sirven para zonas puntuales. | Lavado de vehículo con mayor ritmo, patios, veredas y sesiones largas, siempre que presión, boquilla y superficie sean compatibles. |
+
+Si la batería es importante para vos, compará las [hidrolavadoras Einhell a batería](/hidrolavadoras/einhell/) y verificá batería, cargador, mangueras de succión y autonomía del SKU ofrecido.
 
 ## Elegí por tipo de equipo
 
@@ -41,7 +53,7 @@ La Lüsqtoff LAPL3.6-8BK está pensada para movilidad, enjuague y limpieza liger
 
 ### Hidrolavadora a batería de mayor presión
 
-La Bosch UniversalAquatak 36V-100, código 06008C7002, ofrece modos ECO y High para tareas pequeñas o medianas. La ficha de ese kit publica hasta 100 bar y 3,1 L/min. La cifra de presión es un máximo; elegila por la tarea y la posibilidad de regular el chorro, no por el número aislado.
+La Bosch UniversalAquatak 36V-100, código 06008C7002, ofrece modos ECO y High para tareas pequeñas o medianas. La ficha de ese kit publica hasta 100 bar y 3,1 L/min. La presión de trabajo no aparece en la ficha consultada, así que esos 100 bar no bastan para compararla directamente con una máquina que declara presión de servicio.
 
 | Dato de compra | Bosch UniversalAquatak 36V-100, 06008C7002 |
 | :--- | :--- |
@@ -53,7 +65,7 @@ La Bosch UniversalAquatak 36V-100, código 06008C7002, ofrece modos ECO y High p
 | Peso | Bosch informa 3,6 kg sin accesorios y también lista 4,6 kg; confirmá el peso del kit exacto y si incluye batería |
 | Accesorios | Boquilla 3 en 1, modos ECO/High y sistema de espuma a alta presión; revisá contenido y código del kit vendido en Argentina |
 
-Las dos fichas usan condiciones y categorías distintas; no ordenamos estos productos como si fueran equivalentes. Para grandes superficies o trabajo sostenido, compará con una eléctrica con cable por caudal, tiempo de trabajo y costo de recambio de batería.
+Para grandes superficies o trabajo sostenido, compará con una eléctrica con cable por caudal, tiempo de trabajo y costo de recambio de batería.
 
 ## Conviene / no conviene según la tarea
 
@@ -65,6 +77,17 @@ Las dos fichas usan condiciones y categorías distintas; no ordenamos estos prod
 | Agua desde balde | **Conviene**: la ficha declara aspiración desde balde y trae filtro | **Conviene** hasta la altura de autosucción declarada de 0,5 m, si el kit comprado trae el accesorio de aspiración. **No conviene** sin verificar ese accesorio y el cebado indicado por el manual |
 | Patio grande | **No conviene** como equipo principal: caudal y presión publicados son de una limpiadora portátil | **No conviene** como primera opción para cubrir grandes superficies de manera habitual; compará una máquina con cable y mayor caudal sostenido |
 | Suciedad incrustada | **No conviene**: 30 bar máximos la ubican en tareas livianas | **Conviene** para zonas puntuales con modo High y accesorio apropiado, comprobando que la superficie lo tolere. **No conviene** para producción continua o áreas grandes |
+
+Para [lavar un vehículo](/hidrolavadoras/para-autos/), la Lüsqtoff alcanza para enjuague liviano; elegí un modelo de mayor caudal si buscás retirar barro adherido o terminar más rápido.
+
+## Precios observados
+
+Precios consultados el **29/09/2026**. Son referencias de publicaciones con código de artículo visible; pueden cambiar por stock, medio de pago y vendedor. Las dos HYPRESSO publicadas abajo se ofrecen sin batería ni cargador.
+
+| Modelo y SKU verificado | Precio publicado (29/09/2026) | Batería y cargador |
+| :--- | ---: | :--- |
+| Einhell HYPRESSO 18/24-1 Li, **4140135** | $489.000 | No incluidos |
+| Einhell HYPRESSO 36/105, **4140160** | $499.000 en oferta (precio de referencia: $729.000) | No incluidos |
 
 ## Qué comprobar antes de comprar
 
@@ -80,8 +103,7 @@ Las dos fichas usan condiciones y categorías distintas; no ordenamos estos prod
 
 - [Lüsqtoff LAPL3.6-8BK, ficha oficial argentina](https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk).
 - [Bosch UniversalAquatak 36V-100, ficha oficial Bosch DIY España](https://www.bosch-diy.com/es/es/p/universalaquatak-36v-100-06008c7002) — códigos de kit, plataforma, batería, autonomía, autosucción, manguera y peso. Los códigos y paquetes descritos son de esa ficha regional; confirmá los ofrecidos localmente.
+- Precios y contenido de caja Einhell: [HYPRESSO 18/24-1 Li, SKU 4140135](https://www.herramientaseinhell.com.ar/producto/lavadora-a-presion-hypresso-18-24-li-a-bateria/); [ficha de HYPRESSO 36/105, SKU 4140160](https://www.herramientaseinhell.com.ar/producto/hidrolavadora-inalambrica-hypresso-36-105/) y su [oferta publicada](https://www.herramientaseinhell.com.ar/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para comparar otra opción por uso: [hidrolavadoras para autos](/hidrolavadoras/para-autos/). Para las alternativas con cable, consultá la [comparativa general](/hidrolavadoras/comparativa-general/).
-
-Para conocer el criterio editorial: [metodología de TallerLab](/como-trabajamos/).
+Si no necesitás batería, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

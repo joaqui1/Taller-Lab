@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Comparación de Comet KM Extra 8.16, K 250 TSR 13/190 y Emona F 200, con Comet KP Pro 150 como referencia y Omega Hynox 200 como advertencia de nombre comercial."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -33,6 +33,16 @@ Las hidrolavadoras cercanas a 200 bar que encontramos en Argentina apuntan a **u
 
 Las fichas no usan una etiqueta de presión uniforme: Comet distingue nominal y máxima; Emona publica “presión de salida”. Por eso no ordenamos estos equipos sólo por 190 frente a 200. Caudal sostenido, alimentación disponible, agua caliente, ciclo de trabajo y bomba reparable pueden ser criterios más decisivos.
 
+## Precios, cotización y disponibilidad publicados (29/09/2026)
+
+| Modelo y código | Referencia comercial | Disponibilidad informada |
+| :--- | :--- | :--- |
+| Comet KM Extra 8.16 16/200 T (C2586AR) | [$14.374.117,20 en Punto Gardenia](https://puntogardenia.com.ar/productos/hidrolavadora-6-5kw-7..5hp-km-extra-8-16-16-200-t-c-caldera-comet-c2586ar/). | La publicación señala **última unidad**. Confirmá modelo, configuración y entrega al cotizar. |
+| Comet K 250 TSR 13/190 T Classic (C2583AR) | [$4.739.280 efectivo o transferencia en Vagolnet](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html). | El comercio informa **en stock**; consultá instalación trifásica, accesorios y fecha de entrega. |
+| Emona F 200, 10 HP | [Cotización directa con Emona](https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios). | No publica precio ni stock; la ficha invita a consultar por configuración fija o con carrito. |
+
+Son precios/cotizaciones visibles al 29/09/2026, no presupuestos garantizados. Solicitá cotización final con flete, puesta eléctrica, accesorios, garantía y disponibilidad del código exacto.
+
 ## Referencia profesional de 150 bar: qué cambia
 
 La Comet KP Pro Classic 3.10 10/150 M (C2585AR) publica **140 bar nominales / 150 bar máximos**, caudal de trabajo de 280–600 L/h, alimentación monofásica de 230 V y 2,2 kW. Tiene bomba LW-KP y caldera a diésel; entrega agua hasta 110 °C. Frente a los modelos de 190–200 bar de arriba, es una alternativa profesional de presión menor que puede servir si 600 L/h y hasta 140 bar de trabajo cubren la tarea y la instalación monofásica importa. No es una comparación de equipos domésticos: también requiere valorar agua caliente, uso y caudal mínimo de alimentación.
@@ -41,7 +51,7 @@ Como referencia de agua fría, Gamma también publica la Annovi 935 Blue Clean: 
 
 ### 150 vs. 200 bar: no es una escala universal de “mejor”
 
-- **150 bar profesionales** pueden alcanzar si la presión nominal y el caudal de trabajo cubren la suciedad y el ritmo previsto; el KP Pro, por ejemplo, informa 140 bar nominales y un rango de 280–600 L/h.
+- **150 bar profesionales** pueden alcanzar si la presión nominal y el caudal de trabajo cubren la suciedad y el ritmo previsto; el KP Pro, por ejemplo, informa 140 bar nominales y un rango de 280–600 L/h. Para comparar si te alcanza ese escalón, leé [cuándo alcanza una hidrolavadora de 150 bar](/hidrolavadoras/150-bar/).
 - **190–200 bar** puede aportar más margen para suciedad adherida y uso intensivo, pero exige un sistema de agua que entregue el caudal requerido y, para los ejemplos de esta tabla, alimentación trifásica. En el Comet con caldera, los 200 bar corresponden a una temperatura de salida de hasta 108 °C; a 140 °C la presión máxima publicada cae a 32 bar.
 - Si la instalación no tiene 380/400 V trifásicos o no suministra el caudal mínimo requerido, primero dimensioná la instalación o elegí otro equipo. Más presión nominal no compensa falta de agua o alimentación insuficiente.
 
@@ -57,15 +67,14 @@ Gamma la lista como hidrolavadora profesional **con caldera**, para talleres, la
 4. Definí si necesitás agua caliente: una caldera añade consumo de combustible, mantenimiento y requisitos de instalación.
 5. Consultá disponibilidad de bomba, pistones, válvulas, service y mangueras para el código exacto.
 
-Comparación documental, sin prueba física ni muestra de opiniones de compradores. Los modelos y condiciones comerciales publicados pueden cambiar; disponibilidad y cotización deben confirmarse con el proveedor. Datos revisados el **28/09/2026**.
+Para un lavadero o trabajo frecuente, dimensioná instalación, horas de uso, caudal y repuestos con esta guía de [cómo dimensionar una hidrolavadora profesional](/hidrolavadoras/profesionales/). Si necesitás movilidad a combustión cerca de 200 bar, la Niwa LNW-70 declara 207 bar y 600 L/h; revisá el código y la aplicación dentro de la [gama de hidrolavadoras Niwa](/hidrolavadoras/niwa/).
+
+Comparación documental, sin prueba física ni muestra de opiniones de compradores. Los modelos y condiciones comerciales publicados pueden cambiar; disponibilidad y cotización deben confirmarse con el proveedor. Datos revisados el **29/09/2026**.
 
 ## Fuentes consultadas
 
 - **Documentación de fabricantes/proveedores locales:** [Gamma/Comet KM Extra 8.16 16/200 T, C2586AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/); [Gamma/Comet K 250 TSR 13/190 T Classic, C2583AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/); [Emona F 200, 10 HP](https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios); [Gamma/Comet KP Pro Classic 3.10 10/150 M, C2585AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-kp-pro-classic-3-10-10-150-m/); [Gamma Annovi 935 Blue Clean](https://www.gammaherramientas.com.ar/producto/annovi-935/); [Gamma Omega Hynox 200, G2028AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-omega-hynox-200/).
+- **Precios y disponibilidad:** [Punto Gardenia, Comet C2586AR](https://puntogardenia.com.ar/productos/hidrolavadora-6-5kw-7..5hp-km-extra-8-16-16-200-t-c-caldera-comet-c2586ar/); [Vagolnet, Comet C2583AR](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html); Emona, contacto de cotización enlazado arriba.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [hidrolavadoras de 150 bar: presión de trabajo](/hidrolavadoras/150-bar/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/150-bar/).
+Para explorar la categoría: [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

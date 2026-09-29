@@ -35,6 +35,10 @@ El atornillador de impacto aplica golpes **rotativos** cuando aumenta la resiste
 
 Si tu trabajo mezcla perforación y atornillado ocasional, un taladro/atornillador puede cubrir más tareas con una sola compra. El impacto se justifica cuando repetís fijaciones exigentes; no reemplaza automáticamente al taladro.
 
+## Atornillador de impacto vs atornillador para placas
+
+El atornillador de impacto hexagonal está pensado para fijaciones que requieren más giro, como tirafondos y tornillos largos; no tiene el localizador que limita la profundidad de cada tornillo en una placa. Para colocar placas con asentamiento repetible, compará un [atornillador para Durlock](/taladros/para-durlock/), que permite ajustar el tope de profundidad. Además, no confundas el portapuntas hexagonal de 1/4 in del atornillador de impacto con el cuadrado macho de una llave de impacto: el primero recibe puntas y el segundo, dados para tuercas y pernos.
+
 ## Torque y control de velocidad
 
 El torque máximo publicado describe un límite del modelo bajo condiciones del fabricante; no es el torque final garantizado de cada tornillo. Las cifras de apriete y de arranque/despegue describen situaciones distintas, así que no las ordenes como si fueran mediciones equivalentes.

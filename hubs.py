@@ -31,6 +31,16 @@ HUB_EDITORIAL = {
         "intro": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
         "main": "01-sierra-circular.md",
         "criteria": ["Material y tipo de corte", "Capacidad a cada ángulo publicado", "Diámetro, eje o encastre de la hoja"],
+        "task_selector": [
+            ("Cortes rectos portátiles en madera", "Sierra circular", "/sierras/circulares/"),
+            ("Cortes curvos o siguiendo un trazo", "Sierra caladora", "/sierras/caladoras/"),
+            ("Demolición y cortes en lugares de acceso difícil", "Sierra sable", "/sierras/sable/"),
+            ("Cortes longitudinales repetidos con la pieza sobre una mesa", "Sierra de banco", "/sierras/de-banco/"),
+            ("Cortes transversales e ingletes repetidos", "Ingletadora", "/sierras/ingletadoras/"),
+            ("Cortes curvos o piezas anchas de madera apoyadas en mesa", "Sierra sin fin para madera", "/sierras/sierra-sin-fin-para-madera/"),
+            ("Cortes repetidos de perfiles metálicos sujetos en una base", "Sensitiva", "/sierras/sensitivas/"),
+            ("Cortes de perfiles metálicos con cinta dentada", "Sierra sin fin para metal", "/sierras/sin-fin-metal/"),
+        ],
     },
     "soldadoras": {
         "intro": "Elegí el proceso según el material y el consumible. Compará corriente con su ciclo de trabajo, tensión y accesorios del código exacto; el nombre comercial no prueba la salida continua.",
@@ -43,6 +53,11 @@ HUB_EDITORIAL = {
     "generadores": {
         "intro": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
         "criteria": ["Potencia nominal, máxima y unidad", "Fases, tensión y cargas previstas", "Combustible y autonomía con su condición"],
+        "start_links": [
+            ("Elegir generador", "/generadores/comparativa-general/"),
+            ("Calcular para casa", "/generadores/para-casa/"),
+            ("Ver precios", "/generadores/precios/"),
+        ],
         "accessories": ["Confirmá tomas, tensión y corriente admitida en el manual del generador.", "Consultá los consumibles de mantenimiento por código de motor; no uses una especificación universal.", "Para respaldo de una instalación, definí conexión y transferencia con un instalador habilitado."],
     },
 }

@@ -43,6 +43,8 @@ El tanque almacena aire para cubrir picos cortos. Cuando se vacía, la bomba deb
 
 La pistola BTA AS-1021, clasificada para hobby, declara **85 L/min aproximados** y trabaja entre **10 y 40 PSI**. Es una referencia útil para conocer la demanda de una pistola de baja presión, no una garantía de compatibilidad con un compresor de 24 L: para afirmarla hace falta el caudal efectivo a esa presión y el ciclo de la bomba. Para retoques cortos puede ser un conjunto a evaluar; para pintar paños grandes o sostener pasadas largas, confirmá esos datos antes.
 
+Para comparar la pistola con el suministro y el ciclo de otros equipos, consultá la guía de [compresor para pintar](/compresores/para-pintar/).
+
 Una cifra de **admisión** indica cuánto aire toma la bomba; no dice por sí sola cuánto llega a la pistola bajo carga. Y la presión máxima del tanque tampoco es la presión de pulverización: regulá según la ficha de la pistola y el material.
 
 ## Cuál compresor de 24 litros elegir

@@ -84,6 +84,8 @@ Si el fabricante publica protección contra sobretemperatura, verificá si prote
 | Varias ruedas en una sesión | Pausas/ciclo de trabajo indicados en el manual, batería de capacidad compatible y disponibilidad de una segunda batería |
 | Querés alimentar herramientas neumáticas | Un compresor con tanque y caudal continuo especificado; estos infladores portátiles no están documentados para ese uso |
 
+Si el uso principal es inflar neumáticos del auto, consultá la guía de [compresores de aire para auto](/compresores/para-auto/), que compara alimentación de 12 V, alcance, cableado y fusible.
+
 ## Cómo investigamos esta guía
 
 - Tipo de análisis: documental
@@ -100,6 +102,6 @@ Si el fabricante publica protección contra sobretemperatura, verificá si prote
 
 Para seguir comparando: [inflador portátil para neumáticos](/compresores/inflador-neumaticos-portatil/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

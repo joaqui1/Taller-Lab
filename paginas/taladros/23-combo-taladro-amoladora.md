@@ -2,7 +2,7 @@
 title: "Combo taladro y amoladora: kits con cable y a batería"
 h1: "Qué combo de taladro y amoladora conviene comprar"
 url: "/taladros/combo-taladro-amoladora/"
-description: "Comparación documental de combos de taladro y amoladora, baterías, plataforma y accesorios para evaluar qué kit conviene."
+description: "Comparamos cuatro combos de taladro y amoladora y calculamos su costo frente a comprar taladro, amoladora, baterías y cargador por separado."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["combo taladro amoladora", "kit taladro y amoladora", "taladro y amoladora", "kit amoladora y taladro inalambrico"]
@@ -38,7 +38,7 @@ El diámetro de disco depende de la variante exacta de GWS 180-LI y del mercado:
 
 ## Cuándo elegir cable y cuándo batería
 
-Un kit a batería da movilidad y comparte cargador y baterías entre máquinas; suma costo de reposición y autonomía limitada, sobre todo al usar la amoladora. Para trabajo continuo cerca de una toma, las versiones con cable evitan las pausas para cargar, pero cada máquina funciona por separado y no hay plataforma de batería común. En cualquier caso, elegí el taladro por la tarea: para atornillar y perforar madera o metal alcanza un taladro atornillador; para pared ocasional hace falta percusión; para perforaciones repetidas en hormigón conviene un rotomartillo.
+Un kit a batería da movilidad y comparte cargador y baterías entre máquinas; suma costo de reposición y autonomía limitada, sobre todo al usar la amoladora. Para trabajo continuo cerca de una toma, las versiones con cable evitan las pausas para cargar, pero cada máquina funciona por separado y no hay plataforma de batería común. En cualquier caso, elegí el taladro por la tarea: para atornillar y perforar madera o metal alcanza un taladro atornillador; para pared ocasional hace falta percusión; para perforaciones repetidas en hormigón conviene un rotomartillo. Si estás comparando plataformas y modelos, seguí por [taladros inalámbricos](/taladros/inalambricos/).
 
 ## Cinco comprobaciones antes de pagar
 
@@ -58,7 +58,7 @@ No necesariamente. Las baterías incluidas son recursos compartidos: una debe al
 
 ### ¿Conviene comprar taladro percutor y amoladora juntos?
 
-Solo si necesitás ambas herramientas. La percusión ayuda en mampostería liviana con broca adecuada; para perforaciones frecuentes en hormigón, evaluá un rotomartillo SDS. Una amoladora a batería también exige baterías suficientes para el ritmo de trabajo.
+Solo si necesitás ambas herramientas. La percusión ayuda en mampostería liviana con broca adecuada; compará qué ofrece un [taladro percutor](/taladros/percutores/) para ese uso. Para perforaciones frecuentes en hormigón, evaluá un rotomartillo SDS. Una amoladora a batería también exige baterías suficientes para el ritmo de trabajo.
 
 ### ¿Cómo sé si el kit es más barato que comprar por separado?
 

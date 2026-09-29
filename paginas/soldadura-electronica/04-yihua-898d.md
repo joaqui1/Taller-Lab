@@ -66,4 +66,3 @@ Consultá precio, stock y condiciones actuales en la publicación.
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-[Ver metodología de TallerLab](/como-trabajamos/)

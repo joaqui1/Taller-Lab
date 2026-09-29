@@ -19,7 +19,7 @@ keywords: ["hidrolavadora lusqtoff hl 120", "lusqtoff hl 120 opiniones", "hidrol
 
 # Hidrolavadora Lusqtoff HL 120: para quién conviene
 
-La **Lüsqtoff HL-120** es una hidrolavadora eléctrica compacta para uso doméstico. El fabricante recomienda bicicletas, motos, autos pequeños y tareas de hogar/jardín. Para decidir, tomá como referencia sus **70 bar de trabajo** y **5,5 l/min de caudal máximo de trabajo**; los **105 bar** son el límite máximo permitido, no una presión sostenida.
+La **Lüsqtoff HL-120** es una hidrolavadora eléctrica compacta para uso doméstico; podés ubicarla dentro de la gama en la [comparativa de hidrolavadoras Lusqtoff](/hidrolavadoras/lusqtoff/). El fabricante recomienda bicicletas, motos, autos pequeños y tareas de hogar/jardín. Para decidir, tomá como referencia sus **70 bar de trabajo** y **5,5 l/min de caudal máximo de trabajo**; los **105 bar** son el límite máximo permitido, no una presión sostenida.
 
 ## Ficha contrastada: trabajo y máximos
 
@@ -46,6 +46,8 @@ La ficha separa caudal máximo de trabajo (5,5 l/min) de tasa máxima de flujo (
 | Valorás un equipo de 5,2 kg y tenés un tomacorriente 220 V/50 Hz cerca. | Necesitás una manguera larga: la de alta presión compatible que figura en el catálogo de accesorios mide 3 m. |
 | El trabajo es doméstico y te sirven 70 bar de trabajo y 5,5 l/min de caudal máximo de trabajo. | Estás eligiendo por los 105 bar máximos permitidos como si fueran su presión constante de trabajo. |
 
+Para elegir un equipo según el tipo de vehículo, consultá también [hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/).
+
 ## Kit, manguera y accesorios
 
 El catálogo de Lüsqtoff 2020–2021 enumera para la HL-120 **una lanza y una manguera de alta presión**. El catálogo oficial de accesorios identifica la manguera compatible **RHL120BR35 de 3 m**, con conexión roscada a la máquina y acople rápido a la lanza. La ficha vigente no lista un depósito de detergente ni publica una lista completa del kit, así que confirmá el contenido de la caja de la unidad que vas a comprar.
@@ -64,6 +66,8 @@ Acá **HL-150** significa la hidrolavadora eléctrica Lüsqtoff de **1500 W**, n
 | Manguera y kit | Lanza + manguera de alta presión; repuesto compatible de 3 m | Manguera, ruedas y botella de detergente; el catálogo no especifica el largo |
 
 La HL-150 agrega potencia y caudal publicados y trae ruedas y aplicador de detergente según el catálogo; también pesa 2,8 kg más. Tiene sentido si necesitás más caudal, más alcance móvil y esos accesorios. Si tus tareas coinciden con el uso doméstico liviano publicado y priorizás menor peso y precio, la HL-120 puede alcanzar. No infieras un salto de rendimiento sólo de la cifra máxima en bar.
+
+Si todavía estás definiendo la compra doméstica entre distintas marcas y tipos de equipo, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).
 
 ## Precio relevado
 

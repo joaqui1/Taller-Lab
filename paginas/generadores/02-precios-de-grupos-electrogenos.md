@@ -29,16 +29,18 @@ La muestra recorre equipos chicos, de aproximadamente 2–3 kW, de 5–6 kW y de
 
 | Escala del anuncio | Modelo y potencia documentada | Precio principal publicado | Cuotas publicadas | Total del plan publicado | Publicación consultada |
 | :--- | :--- | ---: | :--- | ---: | :--- |
-| Chico | Honda EG1000: 0,75 / 0,85 kVA nominal/máxima según Honda; el aviso anuncia 820 W / 1 kW | $1.290.000 | 6 × $290.228,50 | $1.741.371,00 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v/p/MLA10743915) |
+| Chico | [Honda EG1000](/generadores/honda/): 0,75 / 0,85 kVA nominal/máxima según Honda; el aviso anuncia 820 W / 1 kW | $1.290.000 | 6 × $290.228,50 | $1.741.371,00 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v/p/MLA10743915) |
 | ≈2–3 kW | CMC 3000 W: 2,5 kW nominales / 3 kW máximo | $550.000 | 12 × $45.833,33; mismo precio | $550.000 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr/p/MLA21251497) |
-| ≈2–3 kW anunciados | Honda EZ3000CX: 2,3 / 2,5 kVA nominal/máxima según Honda; el aviso anuncia 2,8 / 3 kW | $1.151.650 | 6 × $259.102,06 | $1.554.612,36 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v/p/MLA15958687) |
+| ≈2–3 kW anunciados | [Honda EZ3000CX](/generadores/honda/): 2,3 / 2,5 kVA nominal/máxima según Honda; el aviso anuncia 2,8 / 3 kW | $1.151.650 | 6 × $259.102,06 | $1.554.612,36 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v/p/MLA15958687) |
 | ≈5–6 kW | Dyllu DTGEAB08-4 inverter: 5 kW nominales / 5,5 kW máximo | $1.765.792,55 | 6 × $397.273,89 | $2.383.643,34 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil/p/MLA49298058) |
 | ≈5–6 kW | Konan KGE/6500E: 6 kW nominales / 6,5 kW máximo | $1.190.422,41 | 12 × $99.201,87; mismo precio | $1.190.422,41 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-electrico-monofasico-konan-6500w/up/MLAU3623879031) |
 | ≈5–6 kW anunciados | Nebraska NEGE06500E: 6,5 kW máximo; la publicación consultada no identifica potencia nominal | $1.499.999 | 6 × $337.474,78 | $2.024.848,68 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman/p/MLA50165960) |
-| Alta | Lüsqtoff LGI8.0-9 inverter: 7,5 kW nominales / 8 kW máximo | $1.801.199 | 6 × $405.239,76 | $2.431.438,56 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc/p/MLA51973346) |
-| Alta | Gamma GE3482AR: 8,5 kW máximo; la ficha del fabricante consultada no publica nominal | $1.426.384,03 | 9 × $158.487,11; mismo precio | $1.426.384,03 | [Ver publicación](https://www.mercadolibre.com.ar/generador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v/up/MLAU166723439) |
+| Alta | [Lüsqtoff LGI8.0-9](/generadores/lusqtoff/), inverter: 7,5 kW nominales / 8 kW máximo | $1.801.199 | 6 × $405.239,76 | $2.431.438,56 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc/p/MLA51973346) |
+| Alta | [Gamma GE3482AR](/generadores/gamma/): 8,5 kW máximo; la ficha del fabricante consultada no publica nominal | $1.426.384,03 | 9 × $158.487,11; mismo precio | $1.426.384,03 | [Ver publicación](https://www.mercadolibre.com.ar/generador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v/up/MLAU166723439) |
 
 Las filas no son equipos equivalentes ni una recomendación de compra. Conservamos nominal y máximo según ficha de fabricante cuando está disponible; en dos modelos Honda, el aviso consultado anuncia valores distintos de la ficha y mostramos ambos para que se pueda verificar el código antes de pagar. En otras filas la fuente disponible identifica solo el máximo. Para comparar capacidad, priorizá nominal, tensión/fase y el dato de arranque de tus cargas. El modelo con menor precio de la tabla no necesariamente tiene el menor costo de contado ni entrega la potencia que necesitás.
+
+Si todavía no sabés qué potencia necesitás, elegila primero por carga: [cómo elegir la potencia de un grupo electrógeno](/generadores/comparativa-general/).
 
 ## Qué encarece un generador
 
@@ -53,7 +55,7 @@ El precio de publicación no incluye necesariamente batería, ruedas, tablero de
 
 ## Qué comparar según el uso
 
-Estos ejemplos sirven para armar un presupuesto inicial de equipo. No afirman que un modelo alcance para una casa o tarea concreta: primero sumá las cargas simultáneas y revisá sus picos de arranque en la [guía para elegir por carga](/generadores/comparativa-general/).
+Estos ejemplos sirven para armar un presupuesto inicial de equipo. No afirman que un modelo alcance para una casa o tarea concreta: primero sumá las cargas simultáneas y revisá sus picos de arranque.
 
 | Escenario de presupuesto | Referencias de precio de esta captura | Qué definir antes de elegir |
 | :--- | :--- | :--- |
@@ -93,8 +95,6 @@ Son precios publicados para códigos concretos, no cotizaciones ni un promedio d
 - **Fichas de fabricante para contrastar los avisos:** [Honda EG1000](https://pf.honda.com.ar/producto/EG1000); [Honda EZ3000CX](https://pf.honda.com.ar/producto/EZ3000CX); [Lüsqtoff LGI8.0-9](https://www.lusqtoff.com/ver-producto/LGI8.0-9); [Gamma GE3482AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/); [Lüsqtoff LG3500EX](https://lusqtoff.com.ar/ver-producto/LG3500EX); [Lüsqtoff LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8); [Lüsqtoff LGI3.5-8](https://lusqtoff.com.ar/productos/generador-inverter-35-kva-lgi35-8); [Lüsqtoff LG3500EXI](https://www.lusqtoff.com.ar/ver-producto/LG3500EXI).
 - **Opiniones de compradores:** no se hizo una muestra comparativa de opiniones.
 
-Para seguir comparando: [generadores Lüsqtoff por código](/generadores/lusqtoff/).
+Para elegir según el uso, compará [generadores para casa](/generadores/para-casa/) y [generadores a nafta](/generadores/a-nafta/), [diésel](/generadores/diesel/) o [inverter](/generadores/inverter/); para comprobar potencia y configuración, volvé a la [comparativa general](/generadores/comparativa-general/). También podés revisar las páginas de [generadores Honda](/generadores/honda/), [generadores Lüsqtoff](/generadores/lusqtoff/) y [generadores Gamma](/generadores/gamma/) para los modelos de esas marcas incluidos en la muestra.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

@@ -19,18 +19,19 @@ published: true
 
 # Cómo elegir un electrodo para fundición
 
+## Orientación inicial: tipo de fundición y reparación
+
+La primera decisión depende del grado de fundición confirmado y del tipo de reparación. La tabla orienta qué ficha comparar; no sustituye identificación del metal ni procedimiento.
+
+| Material/reparación | Primera ficha que conviene revisar |
+| :--- | :--- |
+| Fundición gris identificada; grieta o reparación que luego debe mecanizarse | Ni-CI, si la aplicación coincide con la ficha del producto y su depósito mecanizable es pertinente |
+| Fundición unida a acero, o reparación donde se valora un depósito más resistente y resistencia a fisuración en caliente | NiFe-CI, si el grado y la aplicación están cubiertos por la ficha exacta |
+| Grado desconocido, pieza contaminada o componente crítico | Identificá el material y evaluá la reparación antes de elegir consumible; no selecciones sólo por aspecto o por “níquel” |
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Identificar el material y la reparación
 
@@ -85,8 +86,15 @@ Antes de comprar, cotejá en la ficha vigente y en el envase:
 - **Referencia técnica:** [TWI: tipos de fundición y soldabilidad](https://www.twi-global.com/technical-knowledge/faqs/faq-what-are-the-different-types-of-cast-iron-which-can-be-welded).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [fuente MMA y rango de corriente de ESAB HandyArc](/soldadoras/esab-handyarc-162i/).
+Cuando la aplicación necesite una fuente MMA, contrastá consumible y ciclo con una [soldadora inverter de 200 A](/soldadora-inverter-200-amp/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Guía general: [soldadoras](/soldadoras/).
 
-Para explorar la categoría: [guías relacionadas](/soldadoras/electrodo-para-acero-inoxidable/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

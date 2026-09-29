@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de compra basada en los siete modelos listados por Hyundai Herramientas Argentina, con comparación de prestaciones locales y comprobaciones de kit, disponibilidad y repuestos."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -21,7 +21,14 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-Hyundai Herramientas Argentina publica **siete hidrolavadoras**: cinco eléctricas (HYEW65, 810H, HYEW100, 820H y una ficha de 1.600 W identificada por SKU) y dos a nafta (835H y 840H). Para elegir, primero decidí si tenés tomacorriente junto al lugar de trabajo; después compará **presión de servicio**, caudal y kit. La presión máxima admisible no es la presión de trabajo.
+Hyundai Herramientas Argentina publica **siete hidrolavadoras**: cinco eléctricas (HYEW65, 810H, HYEW100, 820H y una ficha de 1.600 W identificada por SKU) y dos a nafta (835H y 840H). Para elegir, primero decidí si tenés tomacorriente junto al lugar de trabajo; después compará presión de servicio, caudal y kit.
+
+## Qué datos cambian el resultado
+
+- **Presión de trabajo y presión máxima:** la de trabajo es la referencia útil para dimensionar una limpieza sostenida; la máxima indica el límite admisible o pico declarado, no la presión que el equipo mantiene durante el uso. Por eso la tabla las muestra por separado y las recomendaciones se basan en presión de trabajo cuando está publicada.
+- **Caudal:** litros por minuto; más caudal ayuda a arrastrar suciedad y cubrir superficie, siempre que haya agua suficiente en la toma. Si la ficha no lo publica, no se puede comparar la velocidad de lavado con rigor.
+- **Motor y bomba:** la potencia en watts por sí sola no predice el rendimiento. Importan el tipo de motor (por ejemplo, inducción, si está declarado), la bomba y el régimen de uso admitido; pedí el manual cuando la ficha no identifica esos datos.
+- **Manguera:** su largo define cuánto rodeás el auto o te alejás del tomacorriente sin mover el equipo. Verificá también si el largo corresponde a la manguera de alta presión y si viene en el kit.
 
 ## Gama Hyundai publicada en Argentina
 
@@ -41,12 +48,23 @@ Hyundai Herramientas Argentina publica **siete hidrolavadoras**: cinco eléctric
 
 | Necesidad | Orientación de compra |
 | :--- | :--- |
-| Auto, moto, herramientas o patio chico con toma eléctrica cerca | HYEW65 si priorizás una opción doméstica de 90 bar de servicio; compará el precio local con 810H si necesitás más presión de servicio. |
+| Auto, moto, herramientas o patio chico con toma eléctrica cerca | HYEW65 si priorizás una opción doméstica de 90 bar de servicio; compará el precio local con 810H si necesitás más presión de servicio. Para elegir por el tipo de vehículo, mirá también [hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/). |
 | Más presión de servicio en un equipo eléctrico | 810H (100 bar) o HYEW100/820H (120 bar). Entre HYEW100 y 820H, verificá qué cambia en motor, accesorios y manguera: las fichas publicadas no permiten inferirlo todo por potencia o nombre. |
 | No hay tomacorriente donde limpiar | Una opción a nafta puede evitar depender de un cable de red, pero exige confirmar presión de trabajo, caudal, manguera, peso, kit y condiciones de uso del modelo concreto. La ficha local no aporta todos esos datos para 835H/840H. |
-| Suciedad pesada o trabajo frecuente | No elijas sólo por la presión máxima del título. Confirmá caudal, régimen de uso admitido, manguera y repuestos del SKU; si esos datos no están en la ficha, pedí el manual antes de pagar. |
+| Suciedad pesada o trabajo frecuente | Confirmá caudal, régimen de uso admitido, manguera y repuestos del SKU; si esos datos no están en la ficha, pedí el manual antes de pagar. |
 
-La categoría oficial marca actualmente los siete productos como **agotados** y no muestra precios (revisión 28/09/2026). Por eso, esta guía identifica la gama argentina publicada y ayuda a comparar códigos, pero no supone que haya stock comprable hoy ni recomienda basándose en una oferta activa.
+## Precios y alternativas comparables (29/09/2026)
+
+La ficha oficial argentina consultada para la 820H (SKU 019-0820) figura **sin existencias** y no publica precio. Encontré una [publicación local de la 820H por $493.274](https://www.coniferaltienda.com.ar/productos/hidrolavadora-hyundai-2500w-200bar-820h-1mlmt/), con una unidad disponible al consultar; sin embargo, el título del comercio anuncia 2.500 W y 200 bar, mientras que Hyundai publica para el mismo código 1.800 W, 120 bar de trabajo y 160 bar máximos. Es una discrepancia material: verificá placa, kit y modelo exacto con el vendedor antes de comprar. Para los otros códigos de la tabla no encontré precio local comparable vigente y verificable en esta revisión.
+
+Como referencias de rango cercano —no como equivalencias técnicas— estas opciones tienen ficha y disponibilidad publicadas:
+
+| Opción local | Precio y disponibilidad consultados | Prestaciones publicadas | Cómo se compara |
+| :--- | :--- | :--- | :--- |
+| [Black+Decker BEPW2200 comparable por precio](/hidrolavadoras/black-decker/) | $495.000 lista / $451.143 efectivo; [en stock en Vagolnet](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-150-bar-black-decker-2000w-bepw2200-2175-psi-naranja-50-hz60-hz-159609.html). | 2.000 W y 150 bar máximos; el comercio no publica presión de trabajo en la ficha consultada. | Queda en el mismo rango de precio; contrastá presión de trabajo y kit antes de decidir. |
+| [Niwa HDNW-750 comparable por precio y prestaciones](/hidrolavadoras/niwa/) | $403.237; [una unidad disponible en Siglo 21](https://siglo21myh.com.ar/tienda-online/niwa-hidrolavadora-elec-2500w-160bar/). | 2.500 W, 130 bar promedio, 160 bar máximos, 5 m de manguera y bomba axial a pistón, según el comercio. | Precio inferior y presión de caudal promedio publicada; es una referencia más completa para contrastar con la ficha local del 820H, aunque el kit y el motor no son idénticos. |
+
+La categoría oficial no ofrece un precio de compra para los modelos agotados. La disponibilidad y los precios de comercios cambian; esta tabla registra lo publicado el 29/09/2026, no garantiza que siga vigente al comprar.
 
 ## Accesorios, repuestos y servicio posventa
 
@@ -59,10 +77,6 @@ El representante local indica que realiza internamente las reparaciones en garan
 - Hyundai Herramientas Argentina: [categoría de hidrolavadoras](https://hyundaiherramientas.com.ar/categoria-producto/hidrolavadoras/), [HYEW65](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600-w-hyew65/), [810H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1700-w-hyew100/), [HYEW100](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1800-w-hyew100/), [820H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-2500w-hyew125/), [019-0803](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600w-120-bar/), [840H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-a-nafta-13hp-840h/).
 - Representante local: [quiénes somos](https://hyundaiherramientas.com.ar/quienes-somos-2/), [servicio técnico oficial](https://hyundaiherramientas.com.ar/servicio-tecnico/).
 
-Revisión documental: 28/09/2026. Sin prueba física ni muestra verificable de opiniones. Cuando la ficha argentina no publica una especificación o presenta campos dudosos, queda señalado en la tabla y se convierte en un punto de comprobación antes de comprar.
+Revisión documental: 29/09/2026. Sin prueba física ni muestra verificable de opiniones. Cuando la ficha argentina no publica una especificación o presenta campos dudosos, queda señalado en la tabla y se convierte en un punto de comprobación antes de comprar.
 
-Para seguir comparando: [BLACK+DECKER: presión de servicio y máxima](/hidrolavadoras/black-decker/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/comparativa-general/).
+Para elegir por tarea y comparar otras gamas: [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

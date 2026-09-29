@@ -23,15 +23,6 @@ published: true
 
 **Alcance:** esta guía usa las fichas de Honda Argentina consultadas el 28/09/2026. La selección depende de tus cargas simultáneas, sus picos de arranque y la tensión/fase requerida; los grupos de abajo orientan la comparación, no garantizan que un modelo alcance para una instalación.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
 ## Comparativa de modelos Honda
 
 | Modelo | Potencia nominal / máxima CA | Salida y regulación | Arranque | Peso en seco | Tanque | Autonomía indicada por Honda |
@@ -48,7 +39,7 @@ Las cifras de autonomía no permiten comparar todos estos equipos en una única 
 
 ## Línea convencional e inverter
 
-La línea **EU** de esta tabla usa regulación inverter. Comparala cuando priorices un formato portátil o una salida cuya especificación eléctrica se ajuste a tus equipos; aun así, revisá la carga admisible y la compatibilidad indicada para cada aparato. La Honda EU22i pesa 21 kg y la EU30is 59 kg, así que el segundo escalón de potencia implica un cambio importante de masa.
+La línea **EU** de esta tabla usa regulación inverter. Comparala cuando priorices un formato portátil o una salida cuya especificación eléctrica se ajuste a tus equipos; aun así, revisá la carga admisible y la compatibilidad indicada para cada aparato. Para ver más opciones, consultá [generadores inverter](/generadores/inverter/). La Honda EU22i pesa 21 kg y la EU30is 59 kg, así que el segundo escalón de potencia implica un cambio importante de masa.
 
 Los **EG/EZ** de 6500 usan regulación D-AVR o AVR, no inverter. Tienen más potencia nominal que los EU de esta tabla, pero son equipos más pesados y con distintos tanques, arranque y máximo. En el EG6500CXS, Honda describe D-AVR como regulación digital; el EZ6500CXS publica AVR. Elegí por ficha completa y cargas, no por asumir que una tecnología es siempre superior.
 
@@ -56,7 +47,7 @@ Los **EG/EZ** de 6500 usan regulación D-AVR o AVR, no inverter. Tienen más pot
 
 - **Cargas pequeñas y portabilidad → EU22i.** 1,8 kVA nominales, hasta 2,2 kVA máximos y 21 kg en seco. Contrastá los picos de arranque: que una suma de marcha entre en la cifra nominal no prueba que todos los equipos puedan arrancar juntos.
 - **Un escalón de potencia → EU30is.** 2,8 kVA nominales y 3,0 kVA máximos; la ficha describe herramientas eléctricas medianas y respaldo doméstico, pero verificá cada carga y asumí sus 59 kg al planificar transporte.
-- **Alrededor de 5 kVA monofásicos → EG6500CXS o EZ6500CXS.** Compará 5,0/5,5 kVA del EG con D-AVR frente a 5,5/6,5 kVA del EZ con AVR; también cambian peso, tanque y arranque. Revisá qué autonomía corresponde a tu porcentaje de carga.
+- **Alrededor de 5 kVA monofásicos → [Honda 6500](/generadores/honda-6500/): EG6500CXS o EZ6500CXS.** Compará 5,0/5,5 kVA del EG con D-AVR frente a 5,5/6,5 kVA del EZ con AVR; también cambian peso, tanque y arranque. Revisá qué autonomía corresponde a tu porcentaje de carga.
 - **Mayor necesidad monofásica o instalación trifásica → ET12000.** Elegilo solo si la potencia total y la fase de tus cargas lo justifican. En trifásica, dimensioná cada fase con 2,7 kVA nominales y 3,0 kVA máximos por fase; no uses los 10/11 kVA totales como potencia disponible por fase.
 
 Antes de decidir, anotá las cargas simultáneas, sumá potencia nominal de marcha, identificá los picos documentados y confirmá tensión, frecuencia y fase. Usá máxima solo bajo el régimen y tiempo que indique el manual. Para un caso doméstico, seguí con [cómo elegir un generador para casa](/generadores/para-casa/); para ver otras marcas y tamaños, revisá la [comparativa general](/generadores/comparativa-general/).
@@ -65,17 +56,13 @@ Antes de decidir, anotá las cargas simultáneas, sumá potencia nominal de marc
 
 Honda Motor de Argentina informa que comercializa sus productos a través de concesionarios oficiales y brinda posventa por servicios oficiales. Consultá el [listado de concesionarios y servicios de Productos de Fuerza](https://pf.honda.com.ar/concesionarios-y-servicios) por provincia antes de cerrar la compra.
 
-Las páginas de los generadores no indican un plazo único de garantía aplicable a toda la gama. Honda señala que las condiciones vigentes para cada producto se consultan con un concesionario o servicio oficial antes de comprar. Pedí por escrito el plazo y alcance para el **código completo** que vas a recibir; no extrapoles condiciones de autos o motos a un generador. La garantía oficial corresponde a productos fabricados o importados por Honda Motor de Argentina.
-
-Para comprobar una oferta, compará el modelo y sufijo de la publicación con la ficha/manual, la placa del equipo y la factura; pedí al concesionario oficial que confirme origen, garantía, batería incluida y repuestos/servicio para ese código. La [red oficial](https://pf.honda.com.ar/concesionarios-y-servicios) y el [aviso de Honda Argentina sobre canales de venta y posventa](https://www.honda.com.ar/aviso-importante.php) son los puntos de partida.
+Las páginas de los generadores no indican un plazo único de garantía aplicable a toda la gama. Pedí al concesionario oficial que confirme por escrito el plazo y alcance para el **código completo** que vas a recibir; la cobertura oficial corresponde a productos fabricados o importados por Honda Motor de Argentina. Antes de comprar, cotejá el modelo y sufijo de la publicación con la ficha/manual, la placa y la factura, y confirmá también batería incluida y servicio/repuestos para ese código. Consultá la [red oficial](https://pf.honda.com.ar/concesionarios-y-servicios) y el [aviso de Honda Argentina sobre canales de venta y posventa](https://www.honda.com.ar/aviso-importante.php).
 
 ## Fuentes consultadas
 
 - **Documentación primaria:** [catálogo de generadores Honda Argentina](https://pf.honda.com.ar/categoria-producto/generadores); [Honda EU22i](https://pf.honda.com.ar/producto/EU22i); [Honda EU30is](https://pf.honda.com.ar/producto/EU30is); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Honda EZ6500CXS](https://pf.honda.com.ar/producto/EZ6500CXS); [Honda ET12000](https://pf.honda.com.ar/producto/ET12000); [red oficial de Productos de Fuerza](https://pf.honda.com.ar/concesionarios-y-servicios); [aviso de Honda Argentina sobre venta y posventa](https://www.honda.com.ar/aviso-importante.php); [información legal sobre garantías de productos](https://www.honda.com.ar/informacion-legal.php).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [Honda 6500: diferencias entre EG y EZ](/generadores/honda-6500/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Para seguir comparando: [Honda 6500: diferencias entre EG y EZ](/generadores/honda-6500/), [generadores inverter](/generadores/inverter/), [generadores para casa](/generadores/para-casa/), [precios de grupos electrógenos](/generadores/precios/) y la [comparativa general](/generadores/comparativa-general/).
 
 Para explorar la categoría: [guías de generadores](/generadores/).

@@ -51,6 +51,14 @@ En GST 680, el manual permite hojas de vástago T o U. En GST 185-LI, la ficha d
 
 **Nota sobre GST 75 E usada.** Puede aparecer en el mercado de segunda mano. Es un modelo distinto y no forma parte de esta comparación de códigos argentinos actuales; si evaluás una usada, pedí foto de placa y manual de esa unidad y confirmá encastre, estado, accesorios y repuestos antes de comparar sus datos.
 
+## Qué Bosch elegir según el trabajo
+
+- **Cable básica:** GST 650, si te alcanza su capacidad publicada para la pieza y confirmás el porta-hoja de la unidad, dada la diferencia entre manual y caja local.
+- **Cable más completa:** GST 680, con 68 mm declarados en madera y opción de hojas T o U según el manual. Conviene si valorás trabajar conectada y necesitás esa capacidad; verificá el peso publicado en ambas fuentes.
+- **Batería y mayor capacidad en esta comparación:** GST 185-LI, con hasta 125 mm en madera y batería de 18 V. La variante de caja consultada no lista batería ni cargador: sumalos si no tenés Bosch Professional 18 V compatible. Para metal, las capacidades de la tabla son por material (aluminio y acero sin alear) y exigen una hoja indicada para cada uno.
+
+Para criterios generales de capacidad y tipo de corte, consultá [cómo elegir una sierra caladora](/sierras/caladoras/). También podés comparar [caladoras Einhell](/sierras/caladoras-einhell/) y [caladoras Black+Decker](/sierras/caladoras-black-decker/).
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch GST 650 Argentina](https://www.bosch-professional.com/ar/es/products/gst-650-06015A80H0); [manual Bosch GST 650](https://www.bosch-professional.com/binary/manualsmedia/o282087v21_160992A406_201802.pdf); [Bosch GST 680 Argentina](https://www.bosch-professional.com/ar/es/products/gst-680-06015B40H0); [manual Bosch GST 680](https://www.bosch-professional.com/binary/manualsmedia/o567998v21_160992AC2U_202503.pdf); [Bosch GST 185-LI Argentina](https://www.bosch-professional.com/ar/es/products/gst-185-li-06015B30E1); [manual Bosch GST 185-LI](https://www.bosch-professional.com/binary/manualsmedia/o606338v21_160992AD26_202509.pdf).

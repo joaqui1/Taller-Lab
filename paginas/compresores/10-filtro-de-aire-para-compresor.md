@@ -51,6 +51,8 @@ Limpiá el elemento solo si el manual explica cómo hacerlo. Reemplazalo si est�
 
 El filtro de admisión protege la entrada de la bomba frente a partículas del ambiente. El tratamiento de línea se coloca aguas abajo del tanque para tratar el aire comprimido y, según el conjunto, regular presión o añadir lubricante. Una trampa de agua ayuda a separar condensado; no sustituye al filtro de admisión ni necesariamente elimina toda la humedad del aire.
 
+En pintura, la humedad y las partículas pueden afectar la aplicación: elegí el drenaje y filtrado según el recubrimiento, regulá la presión al valor que pide la pistola y asegurate de que el conjunto sostenga el caudal requerido. La guía de [compresor para pintar](/compresores/para-pintar/) ayuda a relacionar la demanda de la pistola con el suministro. Si estás armando la línea con varias piezas, también podés consultar [kits de accesorios](/compresores/kits-accesorios/).
+
 Para elegir una unidad de línea, cotejá:
 
 - **Rosca de entrada y salida:** debe coincidir con la instalación o usar adaptadores compatibles sin reducir el paso necesario.
@@ -84,6 +86,6 @@ La ficha presenta además 50 NI/min bajo “pulverizado (caudal)” y 4.000 NI/m
 
 Para seguir comparando: [acoples rápidos para compresor](/compresores/acoples-rapidos/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

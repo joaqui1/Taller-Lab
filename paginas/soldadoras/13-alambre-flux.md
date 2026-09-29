@@ -19,18 +19,20 @@ published: true
 
 # Cómo elegir alambre flux para tu soldadora
 
+**Esta página trata el consumible (alambre Flux), no la máquina.** La fuente debe admitir su clasificación, diámetro, polaridad y recorrido de alimentación.
+
+## 0,8 vs. 0,9 mm: compará todo el sistema
+
+| Diámetro | Ejemplo de rango publicado | Polaridad del ejemplo | Qué deben admitir alimentador y antorcha |
+| :--- | :--- | :--- | :--- |
+| 0,8 mm | Steelcore 71T-GS: 60–150 A | DC− | Rodillo/ranura, guía y punta de 0,8 mm compatibles |
+| 0,9 mm | Steelcore 71T-GS: 60–180 A; NR-211-MP publica condiciones propias para ese diámetro | DC− en los ejemplos citados | Rodillo, guía y punta de 0,9 mm compatibles; el manual del FC-90 especifica esa combinación para NR-211-MP |
+
+Son datos de alambres y configuraciones concretos: 0,9 mm no es automáticamente mejor ni más apropiado. Confirmá ficha del carrete, polaridad y manual de la soldadora antes de comprar.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Flux autoprotegido y con protección gaseosa
 
@@ -40,11 +42,7 @@ Los dos ejemplos de la tabla son autoprotegidos: Steelcore 71T-GS (E71T-GS) e In
 
 Un ejemplo aparte de FCAW-G es Lincoln UltraCore 71C, clasificado E71T-1C-H8/E71T-9C-H8: su ficha pide gas externo 100% CO₂, DC+ y presenta otros diámetros y parámetros. No mezcles ese montaje con un rollo autoprotegido ni apliques su polaridad a otros alambres. [Ficha Lincoln UltraCore 71C](https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af).
 
-## Diferencias entre 0,8 y 0,9 mm
-
-Elegí el diámetro por la combinación de material/junta, rango y estabilidad de la fuente, velocidad de alimentación disponible y parámetros publicados por el fabricante. No existe una regla universal de que 0,8 mm sea siempre para chapa fina o de que 0,9 mm sea “más potente”.
-
-La ficha Steelcore de esta página muestra la diferencia para **ese** producto: publica 60–150 A para 0,8 mm y 60–180 A para 0,9 mm; también cambia voltaje, velocidad de alambre y CTWD recomendados. NR-211-MP E71T-11 publica procedimientos distintos para ambos diámetros: por ejemplo, 0,8 mm trabaja en sus tablas típicas hasta 140 A y 0,9 mm hasta 155 A. Son datos de modelos y condiciones concretos, no rangos intercambiables ni límites universales. Si la soldadora sólo tiene ajustes o rodillo para uno, verificá el manual antes de comprar el otro diámetro.
+Para elegir el equipo que alimentará el consumible, consultá la guía de [MIG sin gas](/mig-sin-gas/).
 
 ## Polaridad, rodillos y compatibilidad
 
@@ -66,6 +64,8 @@ Antes de pagar, verificá:
 
 Si la aplicación exige clasificación, posición o propiedades mecánicas concretas, seguí el procedimiento aprobado y la ficha vigente; los límites de espesor de una tabla comercial no certifican la unión para cualquier uso.
 
+Para ver equipos de la marca que trabaja con esta familia de consumibles, consultá [soldadoras MIG Flux Lusqtoff](/mig-lusqtoff/). Si comparás con alambre macizo, revisá [alambre MIG macizo](/alambre-para-soldadura-mig/).
+
 | Producto/fuente | Clasificación publicada | Diámetro y rango publicado | Polaridad | Espesor máximo indicado por fabricante |
 | :--- | :--- | :--- | :--- | :--- |
 | Lincoln Steelcore 71T-GS | AWS A5.20 E71T-GS | 0,8 mm: 60–150 A; 0,9 mm: 60–180 A | DC− | 5 mm en ficha australiana |
@@ -82,8 +82,11 @@ Si la aplicación exige clasificación, posición o propiedades mecánicas concr
 - **Documentación primaria:** [Lincoln Electric Steelcore 71T-GS, ficha técnica](https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd); [Lincoln Electric Innershield NR-211-MP, ficha técnica](https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da); [Lincoln, guía de proceso FCAW autoprotegido y con gas](https://ch-delivery.lincolnelectric.com/api/public/content/5b1a00933782415e98e56639deb63f45?v=405651b4); [Lincoln UltraCore 71C, FCAW-G](https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af); [Lincoln FC-90, manual de alimentación y configuración NR-211-MP](https://ch-delivery.lincolnelectric.com/api/public/content/7ced52781f354fde8bad8431deefb134?v=7e3cd2a7); [Lincoln Flex Feed 74 HT, kits de rodillos para tubular](https://ch-delivery.lincolnelectric.com/api/public/content/1249e1096b6542c18ae63e7e28056477?v=b459a9f2).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [alambre MIG macizo: clasificación y gas](/soldadoras/alambre-para-soldadura-mig/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadoras/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

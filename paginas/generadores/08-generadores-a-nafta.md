@@ -29,15 +29,6 @@ En esta guía comparamos cifras publicadas para Gamma, Honda y Lüsqtoff. Cuando
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante o al vendedor indicado. Los cálculos de litros por hora equivalentes se identifican como **Análisis TallerLab**. Los precios son capturas de tiendas y pueden cambiar. Esta guía es documental y no incluye prueba física.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias para especificaciones: sí
-- Última revisión: 28/09/2026
-
 ## Cuánto combustible consume un generador a nafta
 
 El consumo se expresa en litros por hora (L/h), pero ese valor solo sirve para comparar si se conoce la condición. Un generador que informa 3,5 L/h a 3600 rpm no está diciendo necesariamente que gaste eso en cualquier carga: la ficha debe aclarar potencia entregada o porcentaje de carga para que el dato represente una situación de uso.
@@ -74,7 +65,7 @@ Una cifra de horas sin carga especificada no permite asegurar que el generador d
 
 ## Nafta frente a diésel y gas
 
-El combustible cambia la logística tanto como el consumo. Compará equipos de potencia y uso semejantes: comparar solo el precio del litro o el tamaño del tanque puede dar una conclusión equivocada. Para estimar costo de operación necesitás consumo del modelo a la carga prevista y precio local del combustible. En una comparación económica completa sumá precio de compra, combustible para las horas previstas, mantenimiento y cualquier instalación requerida; no atribuyas una diferencia de costo al combustible sin igualar esas condiciones.
+El combustible cambia la logística tanto como el consumo. Compará [generadores diésel](/generadores/diesel/) y nafteros de potencia y uso semejantes: comparar solo el precio del litro o el tamaño del tanque puede dar una conclusión equivocada. Para estimar costo de operación necesitás consumo del modelo a la carga prevista y precio local del combustible. En una comparación económica completa sumá precio de compra, combustible para las horas previstas, mantenimiento y cualquier instalación requerida; no atribuyas una diferencia de costo al combustible sin igualar esas condiciones. Para alternativas con suministro fijo o GLP, revisá también [generadores a gas](/generadores/a-gas/).
 
 | Criterio | Nafta | Diésel | Gas natural o GLP |
 | :--- | :--- | :--- | :--- |
@@ -103,17 +94,12 @@ Los ruidos no son una comparación directa: las fichas no siempre aclaran distan
 
 ### Qué mirar según tu prioridad
 
+Si todavía estás definiendo la potencia, empezá por la [guía general para elegir un grupo electrógeno](/generadores/comparativa-general/). Para un uso doméstico, consultá la guía de [generador para casa](/generadores/para-casa/).
+
 - **Poco peso y equipos sensibles:** compará un inverter portátil como EU22i, verificando la potencia nominal frente a la suma de cargas y los picos de arranque.
 - **Portabilidad y potencia intermedia:** el LGI3.8-8 es inverter, pesa 28 kg y declara 3,5 kW nominales; la ficha consultada no permite estimar autonomía.
 - **Uso con carga conocida durante varias horas:** el Gamma publica autonomía a 50% y 100%; tené en cuenta que requiere batería para el arranque eléctrico y que su peso declarado es 72 kg.
 - **Cargas monofásicas mayores:** EG6500CXS y EZ6500CXS publican potencias nominales y máximas, pero sus autonomías no están asociadas a una carga. Pedí ese dato si las horas son decisivas.
-
-## Cómo elegir según las horas de uso
-
-1. Anotá los equipos que van a funcionar al mismo tiempo, su potencia de marcha y sus picos de arranque.
-2. Elegí un generador cuya potencia nominal cubra la carga sostenida. No uses la potencia máxima como si fuera la nominal.
-3. Estimá horas por jornada y buscá consumo o autonomía para una carga equivalente. Si no está publicada, considerá el dato faltante antes de comprar.
-4. Sumá movilidad, ruido medido en condiciones comparables, arranque, disponibilidad de combustible, mantenimiento y costo de instalación si es fijo.
 
 ## El LG3000: dato a verificar
 
@@ -125,8 +111,6 @@ La página consultada para el Lüsqtoff LG3000E publica 2,5 kVA nominales y 2,8 
 - **Precios observados:** [MOBI Motos EU22i](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); [MOBI Motos EZ6500CXS](https://www.mobimotos.com.ar/productos/generador-honda-ez6500cxs-ra-5500w-monofasico-4t-electrico/); [TiendaSoyMat Gamma GE3481AR](https://tiendasoymat.com.ar/productos/grupo-electrogeno-6000v-gamma/); [Bulonera Patagónica, catálogo Honda](https://www.bulonerapatagonica.com.ar/herramientas-industriales/generadores/).
 - **Seguridad de instalaciones de gas:** [ENARGAS, preguntas frecuentes sobre instalaciones internas](https://www.enargas.gob.ar/secciones/seguridad-en-el-hogar/preguntas-frecuentes.php).
 
-Para seguir comparando: [generadores a gas](/generadores/a-gas/).
+Para comparar también tecnología y formato, consultá [generadores inverter](/generadores/inverter/) y [generadores portátiles](/generadores/portatiles/); revisá los [precios de generadores](/generadores/precios/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/)
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/)

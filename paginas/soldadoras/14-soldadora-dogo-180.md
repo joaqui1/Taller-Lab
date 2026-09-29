@@ -19,24 +19,17 @@ published: true
 
 # Soldadora Dogo 180: guía antes de comprar
 
+## Modelo documentado, máximo y ciclo
+
+La referencia documentada aquí es la **Dogo Dogostar 180 Moderna, código DOG50045**. “180” es el máximo publicado del rango de salida (20–180 A), no una corriente continua. Dogo publica servicio de 2,5 mm al 100%, 3,2 mm al 80%, 4 mm al 60% y 5 mm al 30%; la ficha también limita su lista de electrodos a 4 mm, así que confirmá el dato de 5 mm para la unidad exacta.
+
+## Para quién tiene sentido
+
+Puede tener sentido para MMA ocasional o herrería liviana si la corriente, el ciclo de trabajo por electrodo y la red de 220 V coinciden con tu uso. Para cordones largos o repetidos, pedí el amperaje asociado a cada porcentaje antes de decidir.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
-## Identificar la versión exacta
-
-Esta página trata sólo de la **Dogo Dogostar 180 Moderna, código DOG50045**. Antes de comprar, hacé coincidir nombre y código en la publicación, caja y placa del equipo: el nombre “Dogo 180” por sí solo no confirma que sea esta versión, ni sus accesorios o especificaciones.
-
-La página de Dogo la describe como inverter IGBT para MMA, alimentación 220 V, masa de 3 kg y funciones adicionales de display digital y TIG por raspado. Si el vendedor usa otro sufijo, otra generación o una foto de catálogo sin código legible, pedí etiqueta y manual de esa unidad.
 
 ## Ficha técnica y ciclo de trabajo
 
@@ -76,7 +69,7 @@ En una reparación ocasional o herrería liviana, decidí por el diámetro que r
 | Dogostar 180 Moderna, DOG50045 | 180 A / 3 kg | 2,5 mm: 100%; 3,2 mm: 80%; 4 mm: 60%; 5 mm: 30% | La ficha añade un punto de servicio para 5 mm, aunque declara tipos de electrodo hasta 4 mm; confirmar esa discrepancia. |
 | Dogostar 200 Moderna, DOG50046 | 200 A / 3,3 kg | 2,5 mm: 100%; 3,2 mm: 100%; 4 mm: 60%; 5 mm: 50% | Dogo publica mayor servicio para 3,2 y 5 mm que en la DOG50045; compará también corriente/tensión asociada y requisitos de alimentación. |
 
-Los tres datos vienen del mismo formato de fichas del fabricante, pero no permiten afirmar por sí solos resultados equivalentes a una corriente dada. Para una comparación de fuentes de varias marcas y cómo leer sus ciclos, consultá la [guía de inverter alrededor de 160 A](/soldadoras/soldadora-inverter-160-amp/) y la [comparativa de inverter de 200 A](/soldadoras/soldadora-inverter-200-amp/).
+Los tres datos vienen del mismo formato de fichas del fabricante, pero no permiten afirmar por sí solos resultados equivalentes a una corriente dada. Para comparar con otras capacidades, consultá la [soldadora inverter de 160 A](/soldadora-inverter-160-amp/) y la [inverter de 200 A](/soldadora-inverter-200-amp/).
 
 ## Kit incluido, alternativas y qué comparar
 
@@ -91,8 +84,11 @@ Elegí la DOG50045 si su servicio por diámetro y las pausas previstas cuadran c
 - **Documentación primaria:** [Dogo Dogostar 180 Moderna, código DOG50045](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma); [Dogostar 160 Moderna, DOG50044](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma); [Dogostar 200 Moderna, DOG50046](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma); [catálogo oficial Dogo](https://www.dogoherramientas.com.ar/Pubs/Public/Catalogo/DOGO-LABOR%20FINAL%2001-09%20B.pdf); [torchas TIG Dogo y sus conectores](https://www.dogoherramientas.com.ar/tienda/soldadura/torchas-tig).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [comparativa de inverter alrededor de 160 A](/soldadoras/soldadora-inverter-160-amp/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadoras/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

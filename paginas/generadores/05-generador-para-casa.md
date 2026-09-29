@@ -21,7 +21,9 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-Para dimensionar un generador para una vivienda, definí primero qué cargas querés mantener encendidas al mismo tiempo. Después sumá su consumo de marcha y comprobá qué pasa cuando arranca el motor más exigente. El ejemplo de abajo completa la hoja de cálculo con valores publicados, para que puedas reemplazarlos por los de tus equipos.
+Para dimensionar un generador para una vivienda, definí primero qué cargas querés mantener encendidas al mismo tiempo. Después sumá su consumo de marcha y comprobá qué pasa cuando arranca el motor más exigente. Los ejemplos de abajo muestran cómo usar valores publicados y reemplazarlos por los de tus equipos.
+
+Para comparar otros tamaños y configuraciones, consultá la [guía general para elegir un grupo electrógeno](/generadores/comparativa-general/).
 
 La potencia por sí sola no decide la compra: también hay que revisar tensión, fase, tipo de regulación y cómo se va a conectar el equipo. Si querés alimentar circuitos de la casa, necesitás una transferencia instalada por un profesional; las medidas de seguridad aparecen antes de las referencias de modelos.
 
@@ -39,6 +41,8 @@ La suma de marcha muestra la carga simultánea sostenida. Para el pico, mantené
 | Bomba u otra carga | ______ VA o W | ______ VA o A | ______ | ______ |
 | **Total de marcha simultánea** | **______ VA** |  |  |  |
 | **Pico con el motor más exigente arrancando** |  | **______ VA** |  |  |
+
+## Heladera, luces y aire acondicionado
 
 ### Ejemplo completado: heladera y luces
 
@@ -72,6 +76,8 @@ La página de LG consultada no informa el pico de arranque del aire acondicionad
 
 Compará las cifras del manual del modelo concreto. “Inverter” describe una tecnología de generación/regulación; no es sinónimo de más potencia, arranque más fácil ni silencio garantizado.
 
+Para comparar modelos, consultá [generadores inverter](/generadores/inverter/) y revisá la salida nominal y la capacidad de arranque de cada uno.
+
 ## Seguridad antes de conectar cargas
 
 - **Monóxido de carbono:** usá el generador portátil solo al aire libre, lejos de puertas, ventanas y ventilaciones, con el escape orientado en sentido contrario a la vivienda. Nunca lo uses dentro de la casa, garaje, galpón o espacio semicerrado, aunque abras ventanas. Mantené alarmas de monóxido operativas en la vivienda. La CPSC recomienda separarlo al menos 20 pies (unos 6 m) de la casa; seguí además la distancia y ubicación que indique el manual del equipo y las condiciones del lugar.
@@ -97,8 +103,6 @@ El escenario con aire de 1,7 kVA de marcha y 1,85–2,15 kVA de pico estimado qu
 - **Documentación primaria:** [manual Lüsqtoff LG2500, tabla estimada de cargas](https://lusqtoff.com.ar/2023/uploads/Productos/9.%20GRUPOS%20ELECTR%C3%93GENOS/LG2500/LG2500.pdf); [LG US-W096WSG3, ficha de aire acondicionado](https://www.lg.com/ar/aire-acondicionado/lg-US-W096WSG3-inverter); [Honda EU22i](https://pf.honda.com.ar/producto/EU22i); [Honda EU30is](https://pf.honda.com.ar/producto/EU30is); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Gamma GE3481AR / 6000V](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/); [CPSC, seguridad de generadores y monóxido](https://www.cpsc.gov/Safety-Education/Safety-Guides/Carbon-Monoxide-Home/Generators-and-Engine-Driven-Tools); [CPSC, conexión segura a circuitos domésticos](https://www.cpsc.gov/s3fs-public/pdfs/foia_PortableGenerators.pdf). Consulta: 28/09/2026.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [generadores monofásicos: fase y tensión](/generadores/monofasicos/).
+Después de elegir potencia, compará [precios de grupos electrógenos](/generadores/precios/). Para seguir por configuración, consultá [grupos electrógenos monofásicos](/generadores/monofasicos/), [inverter](/generadores/inverter/), [silenciosos](/generadores/silenciosos/), [a gas](/generadores/a-gas/) y [a nafta](/generadores/a-nafta/); para más tamaños y criterios, volvé a la [guía general para elegir un grupo electrógeno](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

@@ -19,18 +19,13 @@ published: true
 
 # Máscara fotosensible Lusqtoff ST-1X: guía de compra
 
+## Qué comprobar antes de comprar una ST-1X
+
+Confirmá código y lote, manual aplicable, estado del filtro y discrepancia publicada de velocidad antes de aceptar stock viejo o usado. La ST-1B es otro modelo: no uses sus especificaciones para completar datos de ST-1X.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 | Modelo | Área de visión | Sensores | Tono declarado | Velocidad declarada | Estado en fuente consultada |
 | :--- | ---: | ---: | :--- | :--- | :--- |
@@ -53,6 +48,8 @@ En Argentina, las páginas oficiales consultadas incluyen ST-1X en kits como [SM
 
 Las fuentes consultadas no identifican números de pieza compatibles para mica exterior/interior o filtro de recambio ST-1X, ni especifican de forma inequívoca el tipo y reemplazabilidad de su batería. No extrapoles la batería CR2032 que indica el manual de ST-1B ni medidas genéricas de mica. Antes de comprar repuestos, pedí código de parte y confirmación escrita del fabricante/servicio técnico para el modelo exacto.
 
+Hub de marca: [soldadoras/equipamiento Lusqtoff](/lusqtoff/).
+
 **Marcado disponible:** el catálogo histórico 2020/21 muestra junto a ST-1X un sello gráfico “APROBADO American Welding Society”. En las fuentes revisadas no aparece para ST-1X una declaración concreta de norma/certificación CE, ANSI o EN 379 que permita verificar alcance y conformidad del ejemplar. El sello del catálogo no sustituye revisar el marcado real del filtro y casco: fotografialo y cotejalo con la documentación de esa unidad. No trasladar a ST-1X las declaraciones de otra máscara.
 
 ## Checklist para stock viejo o usado
@@ -64,13 +61,18 @@ Las fuentes consultadas no identifican números de pieza compatibles para mica e
 - Confirmá batería y repuestos por escrito para ST-1X. No compres micas por parecido de tamaño ni asumas que la batería es reemplazable.
 - Revisá el marcado real, accesorios, condición, garantía aplicable al stock usado/antiguo y política de devolución. La garantía anunciada para otra versión no prueba cobertura de este ejemplar.
 
-Para elegir tecnología, sombra, sensores y funciones entre máscaras de distintos tipos, consultá la [guía general de máscaras fotosensibles](/soldadoras/mascaras-fotosensibles/).
+Para elegir tecnología, sombra, sensores y funciones entre máscaras de distintos tipos, consultá [máscaras fotosensibles](/mascaras-fotosensibles/).
 
 ## Fuentes consultadas
 
 - **Documentación primaria:** [manual/cuadro comparativo de máscaras Lüsqtoff alojado por el fabricante, fila ST-1X](https://www.lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1l/ST-1L.pdf); [manual SML150-8D, accesorios ST-1X](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf); [manual MEGAIRON100-8, ficha de ST-1X incluida](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf); [catálogo oficial Lüsqtoff Uruguay 2024/25, ST-1X individual](https://lusqtoff.com.uy/Public/archivos/Catalogo-Lusqtoff-2024.pdf); [catálogo oficial Lüsqtoff 2020/21](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [categoría argentina actual de máscaras](https://www.lusqtoff.com.ar/categorias/mascaras-fotosensibles); [ficha actual ST-1B, sólo como modelo distinto de comparación](https://lusqtoff.com.ar/ver-producto/ST-1B); [kits oficiales SML120-8DK](https://lusqtoff.com.ar/ver-producto/SML120-8DK), [SML150-8D](https://www.lusqtoff.com.ar/ver-producto/SML150-8D) y [MEGAIRON250](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
 
-Para elegir entre procesos y tipos de filtro: [guía general de máscaras fotosensibles](/soldadoras/mascaras-fotosensibles/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

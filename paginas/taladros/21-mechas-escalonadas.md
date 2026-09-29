@@ -44,6 +44,10 @@ Las referencias citadas son HSS, pero cada fabricante enumera sus propios materi
 
 Usá **rotación sin percusión** en chapa. La acción de golpeteo no ayuda a cortar una lámina y puede hacer que la herramienta salte, marque o deforme la pieza. Sujetá la chapa firmemente y apoyala cerca del agujero para que no gire ni vibre. Bosch cataloga su broca para taladros rotativos y también percutores, pero eso describe compatibilidad de herramienta; no es una instrucción para activar el modo percutor al perforar metal.
 
+## Qué taladro usar con una mecha escalonada
+
+Necesitás un taladro que trabaje en **rotación, sin percusión**, y permita controlar la velocidad para avanzar sin forzar ni agrandar de más el agujero. Sujetá la chapa antes de perforar y respetá los materiales y el espesor máximo publicados para la mecha: no todos los modelos admiten lo mismo. Para agujeros repetidos o una posición estable, un [taladro de banco](/taladros/taladro-de-banco/) con la pieza bien fijada facilita mantener el eje; para un trabajo portátil, alcanza un [taladro inalámbrico](/taladros/inalambricos/) compatible con el vástago y los límites del accesorio.
+
 ## Cómo perforar sin deformar la chapa
 
 1. **Confirmá el diámetro y el espesor.** Elegí un escalón que coincida con el agujero final y revisá el máximo de espesor declarado para esa referencia.

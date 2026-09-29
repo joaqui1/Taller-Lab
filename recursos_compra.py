@@ -22,6 +22,17 @@ def cost(title, lead, a, b, note):
     return dict(kind="cost", title=title, lead=lead, fields=fields, note=note)
 
 
+def combo_cost(title, lead, note):
+    fields = [
+        dict(key="bundle", label="Precio total del combo", value=0, unit="$", minimum=0),
+        dict(key="drill", label="Taladro por separado", value=0, unit="$", minimum=0),
+        dict(key="grinder", label="Amoladora por separado", value=0, unit="$", minimum=0),
+        dict(key="batteries", label="Baterías necesarias", value=0, unit="$", minimum=0),
+        dict(key="charger", label="Cargador necesario", value=0, unit="$", minimum=0),
+    ]
+    return dict(kind="combo-cost", title=title, lead=lead, fields=fields, note=note)
+
+
 EXTRA_RESOURCES = {
     "/amoladoras/bosch/": route(
         "Elegí la familia Bosch por disco y alimentación",
@@ -71,11 +82,10 @@ EXTRA_RESOURCES = {
          ["Cargador", "Cotizar el compatible por separado", "Confirmar inclusión y tensión de entrada"],
          ["Comparación económica", "Sumar lo que falta para usar el equipo", "Valorar solo los accesorios que necesitás"]],
         "Los 66 Nm y 20 V del aviso Ingco son declaraciones comerciales; no prueban ventaja frente a valores de otro fabricante. La plataforma debe validarse por código, no solo por voltaje."),
-    "/taladros/combo-taladro-amoladora/": cost(
-        "Dos herramientas: precio del combo frente a la misma compra separada",
-        "El Kommberg con cable y el KATL-9BK de batería pertenecen a configuraciones distintas. Para saber si un combo ahorra, compará primero los mismos códigos.",
-        "Combo elegido", "Mismos códigos separados",
-        "A y B deben tener iguales herramientas y contenido útil. Precio B = suma de ambas máquinas; extras B = accesorios faltantes. Total = precio + envío + extras. La cuenta no declara equivalentes un kit con cable y otro a batería."),
+    "/taladros/combo-taladro-amoladora/": combo_cost(
+        "¿Combo o herramientas por separado?",
+        "Ingresá los precios del combo y de cada componente para comparar el desembolso total: taladro + amoladora + baterías + cargador.",
+        "Compará los mismos modelos y cantidades de baterías. Poné 0 si ya tenés un componente o no hace falta comprarlo; incluí envío en los importes de cada alternativa si querés contemplarlo. Es una diferencia aritmética según tus datos: no compara prestaciones, garantía ni financiación."),
     "/sierras/caladoras-black-decker/": route(
         "BES603 o BES602: la velocidad es la diferencia documentada",
         "Las variantes B2 citadas tienen la misma potencia y capacidades máximas. La BES603 agrega regulación; esa función es un criterio concreto para comparar.",

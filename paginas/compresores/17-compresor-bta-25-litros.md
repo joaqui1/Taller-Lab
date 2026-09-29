@@ -113,6 +113,6 @@ No lo elegiría como única fuente de aire para lijado neumático continuo, pint
 
 Para seguir comparando: [compresores de 24 litros](/compresores/24-litros/) y [compresores de 50 litros](/compresores/50-litros/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

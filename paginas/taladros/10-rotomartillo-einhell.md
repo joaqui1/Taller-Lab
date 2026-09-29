@@ -2,7 +2,7 @@
 title: "Rotomartillo Einhell: comparativa y guía de compra"
 h1: "Qué rotomartillo Einhell comprar"
 url: "/taladros/rotomartillo-einhell/"
-description: "Guía para elegir un rotomartillo Einhell SDS Plus de cable o Power X-Change según trabajo, modos y costo del kit."
+description: "Comparamos los rotomartillos Einhell TC-RH 620 4F, TE-RH 28 5F y TE-HD 18/20 Li SDS Plus, a cable y batería."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo einhell", "rotomartillo einhell power x-change", "einhell sds plus", "rotomartillo einhell opiniones", "herramientas einhell argentina"]
@@ -49,6 +49,8 @@ El TC-RH 620 4F (4257990) y el TE-RH 28 5F (4257970) se publican con maletín E-
 
 Para cualquiera, verificá qué accesorios trae el código vendido: brocas SDS Plus, cinceles, tope de profundidad, portabrocas auxiliar y estuche pueden variar por kit y mercado. Calculá el costo de herramienta, batería/cargador cuando correspondan y accesorios necesarios; no uses el precio de una versión Solo como si incluyera el sistema de batería.
 
+Para comparar los taladros inalámbricos de la plataforma, seguí por [taladros inalámbricos Einhell Power X-Change](/taladros/einhell-inalambrico/).
+
 Como referencia secundaria de otra marca, Bosch Argentina documenta el GBH 2-26 DRE con cable, 800 W, 2,7 J y máximo de 26 mm en hormigón. Ese dato sirve para ubicar una alternativa, pero la guía compara principalmente modelos Einhell y no establece un ganador por cifras de catálogo.
 
 ## Fuentes consultadas
@@ -57,6 +59,6 @@ Como referencia secundaria de otra marca, Bosch Argentina documenta el GBH 2-26 
 - **Seguridad:** verificar tensión y seguir el manual de la unidad.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [rotomartillos](/taladros/rotomartillos/).
+[Comparativa de rotomartillos](/taladros/rotomartillos/).
 
-Para explorar la categoría: [guías de taladros](/taladros/rotomartillos/).
+[Ver todas las guías de taladros](/taladros/).

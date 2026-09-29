@@ -113,6 +113,4 @@ Si trabajás al aire libre o con frío, revisá la temperatura mínima y si el f
 
 Para seguir comparando: [kits y accesorios para compresor](/compresores/kits-accesorios/) y [acoples rápidos](/compresores/acoples-rapidos/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

@@ -32,6 +32,18 @@ Empezá por el material y la frecuencia de uso. Después verificá que el portab
 
 Tomá la fila como punto de partida, no como garantía de rendimiento: la capacidad de perforación cambia según modelo, broca y material. Para comparar opciones de una marca, consultá las guías de [Bosch](/taladros/bosch-inalambrico/), [Einhell](/taladros/einhell-inalambrico/) y [DeWalt](/taladros/dewalt-inalambrico/).
 
+### Comparar por marca/plataforma
+
+| Marca y plataforma | Guía por marca |
+| :--- | :--- |
+| Bosch Professional 12/18V | [Taladros inalámbricos Bosch](/taladros/bosch-inalambrico/) |
+| DeWalt 20V MAX | [Taladros inalámbricos DeWalt](/taladros/dewalt-inalambrico/) |
+| Einhell PXC | [Taladros inalámbricos Einhell](/taladros/einhell-inalambrico/) |
+| Milwaukee M12/M18 | [Taladros Milwaukee M12 y M18](/taladros/milwaukee/) |
+| Lusqtoff | [Taladros inalámbricos Lusqtoff](/taladros/lusqtoff-inalambrico/) |
+| Stanley V20 | [Taladros Stanley V20](/taladros/stanley/) |
+| Black+Decker | [Taladros Black+Decker](/taladros/black-decker/) |
+
 ## Torque, batería y mandril: qué comparar
 
 El torque máximo, expresado en Nm, sirve como referencia de fuerza de giro, pero las marcas pueden medirlo con condiciones distintas. Para atornillar también importa el embrague: sus posiciones limitan el giro para reducir el riesgo de hundir demasiado el tornillo o dañar la pieza. Usá un ajuste bajo para empezar y subilo según el tornillo y el material; el modo de perforación suele dejar trabajar sin el límite del embrague.

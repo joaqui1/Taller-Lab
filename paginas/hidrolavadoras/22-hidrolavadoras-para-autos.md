@@ -72,8 +72,6 @@ La recomendación de jabón, boquilla y técnica depende del estado de la pintur
 - **Documentación primaria y del representante local:** [Kärcher Argentina K2 Basic Black](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html); [K3 Black Edition](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html); combos y stock en [tienda oficial Kärcher Argentina](https://www.karcheronline.com.ar/equipos/hidrolavadoras); [Grupo Rumbo Niwa HDNW-500](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500-1040550); [consejos de limpieza de vehículos Kärcher](https://www.kaercher.com/ar/home-garden/consejos-de-utilizacion/limpieza-de-vehiculos.html).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [Kärcher K2: SKU y accesorios locales](/hidrolavadoras/karcher-k2/) y [Kärcher K3](/hidrolavadoras/karcher-k3/).
+Para lavar sin una toma eléctrica cercana, compará [hidrolavadoras inalámbricas para lavar sin una toma cercana](/hidrolavadoras/inalambricas/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/inalambricas/).
+Para comparar equipos de otras categorías y usos, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

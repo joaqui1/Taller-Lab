@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-Una TIG AC/DC permite soldar en corriente continua y alterna, pero que una máquina ofrezca ambas no alcanza para elegirla. Primero definí el metal y el trabajo; después comprobá qué ajustes ofrece el equipo, qué red requiere y si la torcha y los controles incluidos soportan el ciclo previsto.
+Si soldás acero o inoxidable, TIG DC puede ser suficiente. AC se vuelve necesaria especialmente para aluminio y aleaciones que el fabricante especifique; elegí TIG AC/DC según ajustes, ciclo y trabajo. Para la introducción, consultá la [guía general de soldadura TIG](/tig/).
 
 **Dato documentado:** las especificaciones de equipos se atribuyen al fabricante y al modelo indicado. Esta guía es documental, sin prueba física ni muestra de opiniones. Los valores de ajustes son propios de los manuales citados y no deben trasladarse como configuraciones universales.
 
@@ -29,7 +29,7 @@ Una TIG AC/DC permite soldar en corriente continua y alterna, pero que una máqu
 
 La corriente continua es la opción habitual para acero al carbono e inoxidable. Para aluminio, la alterna permite combinar durante el ciclo la acción de limpieza de la superficie con la penetración; por eso conviene una fuente AC/DC cuando el trabajo incluye aluminio y también materiales que se sueldan en DC. ESAB documenta TIG AC para aluminio, aleaciones y magnesio, y TIG DC para otros metales en la ET 200i.
 
-La necesidad de AC depende del material y del procedimiento, no de que el equipo tenga más amperaje. Si sólo vas a trabajar acero o inoxidable, una TIG DC puede cubrir el proceso; si necesitás aluminio, verificá que la ficha ofrezca TIG AC y consultá qué control de balance y frecuencia permite. Las capacidades reales también dependen de preparación, espesor, aporte y procedimiento.
+La necesidad de AC depende del material y del procedimiento, no de que el equipo tenga más amperaje. Si sólo vas a trabajar acero o inoxidable, una TIG DC puede cubrir el proceso; si necesitás aluminio, verificá que la ficha ofrezca TIG AC y consultá qué control de balance y frecuencia permite. Para elegir una [soldadora para aluminio](/para-aluminio/), cotejá además preparación, espesor, aporte y procedimiento.
 
 ## Balance, frecuencia y pulso
 
@@ -73,6 +73,12 @@ La guía de torchas Miller distingue opciones refrigeradas por aire y por agua s
 
 **Desconocido:** la disponibilidad comercial y el contenido de un kit pueden variar por vendedor. Las páginas consultadas no confirman todas las opciones de torcha/pedal ni refrigeración de la torcha para cada paquete. Pedí número de modelo, ficha y lista de componentes de la unidad ofrecida.
 
+## Fuentes consultadas
+
+- **Fabricantes y manuales:** [ESAB ET 200i AC/DC, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [manual ESAB ET 200i AC/DC](https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9); [Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20); [manual Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf).
+- **Función de frecuencia AC y elección de torcha:** [manual Miller, frecuencia de salida AC](https://www.millerwelds.com/files/owners-manuals/O281426A_MIL.pdf); [Miller, factores para elegir una torcha TIG](https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch).
+- **Opiniones de compradores:** no se revisó una muestra verificable.
+
 ## Cómo investigamos esta guía
 
 - Tipo de análisis: documental
@@ -81,13 +87,3 @@ La guía de torchas Miller distingue opciones refrigeradas por aire y por agua s
 - Opiniones de compradores: no
 - Fuentes primarias: sí
 - Última revisión: 28/09/2026
-
-## Fuentes consultadas
-
-- **Fabricantes y manuales:** [ESAB ET 200i AC/DC, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [manual ESAB ET 200i AC/DC](https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9); [Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20); [manual Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf).
-- **Función de frecuencia AC y elección de torcha:** [manual Miller, frecuencia de salida AC](https://www.millerwelds.com/files/owners-manuals/O281426A_MIL.pdf); [Miller, factores para elegir una torcha TIG](https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch).
-- **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [soldadura TIG: procesos y fichas de equipos](/soldadoras/tig/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).

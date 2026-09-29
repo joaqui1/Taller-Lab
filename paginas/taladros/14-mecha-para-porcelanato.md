@@ -2,7 +2,7 @@
 title: "Mecha para porcelanato: cuál elegir y cómo usarla"
 h1: "Qué mecha usar para perforar porcelanato"
 url: "/taladros/mecha-porcelanato/"
-description: "Compara brocas de carburo y diamante para porcelanato, elige por diámetro y aprende a perforar según el accesorio y su refrigeración."
+description: "Compara brocas de carburo, diamante seco y diamante húmedo para porcelanato; elegí por diámetro, herramienta y refrigeración."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["mecha para porcelanato", "broca para porcelanato", "perforar porcelanato sin romper", "mecha diamantada porcelanato", "copa diamantada"]
@@ -22,6 +22,8 @@ published: true
 Para un agujero chico —por ejemplo, para un tarugo— elegí una broca cuya ficha nombre porcelanato o cerámica dura y cuyo diámetro coincida con el anclaje. La Bosch EXPERT HEX-9 HardCeramic es de carburo y cubre 3–12 mm; Bosch también indica rotación sin percusión y menos de 500 rpm para esa familia. Para perforaciones con diamante hay opciones en seco, como RUBI DRYGRES 4DRILL para taladro, y en húmedo, como RUBI EASYGRES. Para agujeros amplios de instalaciones se usan coronas diamantadas del diámetro exacto, con la herramienta y conexión que especifique cada modelo.
 
 No hay una velocidad o método único para todos los accesorios. En particular, las menos de 500 rpm son una indicación de Bosch para HEX-9 HardCeramic, no una regla universal: RUBI, por ejemplo, recomienda 1000–2500 rpm para DRYGRES 4DRILL y hasta 1000 rpm para EASYGRES. Seguí siempre la ficha de la referencia concreta.
+
+Para las mechas de taladro, necesitás un **taladro sin percusión y con control de rpm** para ajustar la velocidad a la ficha del accesorio. Las coronas destinadas a amoladora requieren la herramienta y conexión indicadas para esa referencia. Si vas a usar batería, compará un [taladro inalámbrico con control de velocidad](/taladros/inalambricos/) que permita regular las rpm para la broca elegida.
 
 ## Tipos de broca para porcelanato
 

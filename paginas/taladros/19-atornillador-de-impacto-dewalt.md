@@ -2,7 +2,7 @@
 title: "Atornillador de impacto DeWalt: cuál comprar"
 h1: "Qué atornillador de impacto DeWalt elegir"
 url: "/taladros/atornillador-impacto-dewalt/"
-description: "Comparación de los DeWalt DCF809, DCF887 y DCF850: control por modos, tamaño, peso, compatibilidad de puntas y qué revisar al comprar un kit."
+description: "Comparamos los DeWalt DCF809, DCF887 y DCF850 por control, tamaño y configuración de kit para elegir un atornillador de impacto."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["atornillador de impacto dewalt", "dewalt dcf887", "dewalt dcf809", "dewalt dcf850", "atornillador impacto dewalt 20v"]
@@ -20,6 +20,8 @@ published: true
 # Qué atornillador de impacto DeWalt elegir
 
 Para elegir entre estos modelos, fijate primero en el espacio de trabajo y cuánto control necesitás. El DCF809 es sencillo y compacto; el DCF887 suma tres modos seleccionables; el DCF850 combina tres modos con un cuerpo aún más corto. La ficha oficial consultada para el DCF850 corresponde al mercado estadounidense: no confirma distribución ni kit para Argentina.
+
+Si además necesitás perforar madera o metal y alternar atornillados, un [taladro inalámbrico DeWalt](/taladros/dewalt-inalambrico/) ofrece mandril y embrague. Pasá a un atornillador de impacto cuando repitas tirafondos o fijaciones exigentes: sus golpes rotativos ayudan a avanzar, pero no sustituyen el taladro para usar brocas comunes ni ofrecen el mismo control de embrague.
 
 ## Diferencias entre modelos
 

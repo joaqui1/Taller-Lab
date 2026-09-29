@@ -39,11 +39,11 @@ La percusión de un taladro puede servir para mampostería liviana si el fabrica
 
 ## Baterías, cargador y accesorios
 
-El TAL60-9B pertenece a Iron Volt, pero Lusqtoff lo vende como herramienta sola. Si empezás desde cero, presupuestá batería y cargador compatibles. Lusqtoff lista el set LBC1820-8 con batería Iron Volt de 18 V y 2 Ah más cargador; la ficha publica un PVP de $71.299. Sumado al PVP de $171.099 del TAL60-9B, el costo de referencia para empezar con esa combinación es **$242.398**.
+El TAL60-9B pertenece a Iron Volt, pero Lusqtoff lo vende como herramienta sola. Si empezás desde cero, sumá al precio vigente de la herramienta el de una batería y un cargador compatibles. Lusqtoff lista el set LBC1820-8 con batería Iron Volt de 18 V y 2 Ah más cargador; verificá que el kit y el código de la herramienta coincidan con la publicación local.
 
-Como comparación de entrada lista para usar, Lusqtoff publica el TIL45131-8BK percutor con batería de 2 Ah, cargador y maletín por **$133.299**. A esos PVP, completar el TAL60-9B cuesta **$109.099 más** que el kit percutor. No son equipos equivalentes: cambia el modelo y la ficha del TIL45131-8BK no informa torque máximo. El contraste permite ver el costo de entrar a Iron Volt por ambas configuraciones, pero no compara su rendimiento.
+Como alternativa lista para usar, Lusqtoff publica el TIL45131-8BK percutor con batería de 2 Ah, cargador y maletín. No son equipos equivalentes: cambia el modelo y la ficha del TIL45131-8BK no informa torque máximo. Para decidir entre configuraciones, compará el precio vigente de cada conjunto completo y no el costo de la herramienta sola contra el del kit.
 
-Los importes son PVP indicados en el sitio oficial, consultados el 28/09/2026; pueden cambiar y no representan necesariamente el precio de venta de cada comercio. Si ya tenés batería y cargador Iron Volt compatibles, el TAL60-9B solo evita recomprar esos componentes. Confirmá modelo, amperaje, cargador y contenido de caja del aviso antes de pagar.
+Si ya tenés batería y cargador Iron Volt compatibles, el TAL60-9B solo evita recomprar esos componentes. Confirmá modelo, amperaje, cargador y contenido de caja del aviso antes de pagar.
 
 ## Para qué trabajos conviene cada opción
 
@@ -56,7 +56,7 @@ Los importes son PVP indicados en el sitio oficial, consultados el 28/09/2026; p
 
 **Alcance de la revisión:** usamos documentación oficial de Lusqtoff. No hicimos pruebas físicas y no verificamos precios de terceros, stock por localidad ni opiniones de compradores.
 
-La guía de [rotomartillos](/taladros/rotomartillos/) explica cuándo conviene pasar de un taladro percutor a un SDS.
+Para ampliar la comparación por plataforma, seguí con la [comparativa de taladros inalámbricos](/taladros/inalambricos/) o la guía de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/). Si vas a perforar hormigón con frecuencia o hacer agujeros grandes, compará un [rotomartillo SDS](/taladros/rotomartillos/) adecuado.
 
 ## Fuentes consultadas
 

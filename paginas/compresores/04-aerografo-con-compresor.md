@@ -105,6 +105,4 @@ El [BTA AP8, código 279004.1](https://btatools.com.ar/producto/aerografo-profes
 
 Para comparar equipos por separado, seguí con [qué compresor comprar para tu aerógrafo](/compresores/para-aerografo/) y [kits de accesorios para compresor](/compresores/kits-accesorios/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

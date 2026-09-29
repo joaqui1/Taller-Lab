@@ -504,7 +504,8 @@ TAXONOMY_MAP = {
             "04-taladro-de-banco.md",
             "05-atornillador-de-impacto.md",
             "07-taladro-percutor-inalambrico.md",
-            "08-atornillador-para-durlock.md"
+            "08-atornillador-para-durlock.md",
+            "23-combo-taladro-amoladora.md",
         ],
         "marcas": [
             "09-taladro-black-decker.md",
@@ -523,7 +524,9 @@ TAXONOMY_MAP = {
         ],
         "accesorios": [
             "14-mecha-para-porcelanato.md",
-            "17-brocas-para-ceramica.md"
+            "17-brocas-para-ceramica.md",
+            "21-mechas-escalonadas.md",
+            "22-mecha-forstner-35-mm.md"
         ]
     },
     "sierras": {
@@ -641,10 +644,6 @@ TAXONOMY_MAP = {
 }
 
 # Completar el recorrido con las guías añadidas después del mapa original.
-TAXONOMY_MAP["taladros"]["accesorios"].extend([
-    "21-mechas-escalonadas.md", "22-mecha-forstner-35-mm.md",
-    "23-combo-taladro-amoladora.md",
-])
 TAXONOMY_MAP["soldadoras"]["modelos"].extend([
     "21-soldadora-lusqtoff-iron-100.md", "22-soldadora-mig-lusqtoff.md",
     "23-soldadora-lusqtoff-sml150-8.md", "24-soldadora-lusqtoff-sml120-8d.md",
@@ -1802,11 +1801,41 @@ def render_category_page(section_id):
     if assigned != {a["url"] for a in articles}:
         raise ValueError(f"Hay guías sin recorrido editorial en {section_id}")
     trunk = next((a for a in articles if a["url"] == f"/{section_id}/"), None)
-    nav = "".join(f'<a href="#{anchor}"><span>{i:02d}</span>{label}</a>' for i, (_, anchor, label, _) in enumerate(HUB_STEPS, 1))
+    visible_steps = [step for step in HUB_STEPS if section_id != "taladros" or step[0] != "general"]
+    step_labels = {
+        "necesidad": "Tipo de herramienta",
+        "marcas": "Marca",
+        "modelos": "Modelos",
+        "accesorios": "Mechas y accesorios",
+    } if section_id == "taladros" else {}
+    nav = "".join(
+        f'<a href="#{anchor}"><span>{i:02d}</span>{escape(step_labels.get(key, label))}</a>'
+        for i, (key, anchor, label, _) in enumerate(visible_steps, 1)
+    )
     criteria = "".join(f'<li>{escape(item)}</li>' for item in editorial["criteria"])
+    start_links = ""
+    if editorial.get("start_links"):
+        links = "".join(f'<a href="{url}">{escape(label)} <span aria-hidden="true">→</span></a>' for label, url in editorial["start_links"])
+        start_links = f'<aside class="hub-start"><strong>Empezá por acá</strong><nav aria-label="Accesos rápidos">{links}</nav></aside>'
+    task_selector = ""
+    if editorial.get("task_selector"):
+        rows = "".join(
+            f'<tr><th scope="row">{escape(task)}</th><td><a href="{url}">{escape(tool)}</a></td></tr>'
+            for task, tool, url in editorial["task_selector"]
+        )
+        task_selector = f'<section class="hub-task-selector" aria-labelledby="hub-task-selector-title"><div class="hub-section-heading"><div><h2 id="hub-task-selector-title">Qué tipo de sierra necesitás</h2><p>Empezá por el trabajo y abrí la guía de la herramienta que puede resolverlo.</p></div></div><div class="table-scroll"><table><thead><tr><th scope="col">Trabajo</th><th scope="col">Herramienta</th></tr></thead><tbody>{rows}</tbody></table></div></section>'
     main_guide = render_article_page(trunk, embedded=True) if trunk and section_id == "amoladoras" else ""
     sections = []
-    for i, (key, anchor, label, desc) in enumerate(HUB_STEPS, 1):
+    for i, (key, anchor, default_label, default_desc) in enumerate(visible_steps, 1):
+        label = step_labels.get(key, default_label)
+        desc = default_desc
+        if section_id == "taladros":
+            desc = {
+                "necesidad": "Elegí primero la herramienta según la tarea y el material.",
+                "marcas": "Explorá las guías disponibles por fabricante.",
+                "modelos": "Compará modelos concretos y sus variantes.",
+                "accesorios": "Revisá mechas y accesorios según material y encastre.",
+            }[key]
         cards = "".join(render_article_card(a, badge_text=label.upper(), action_text="Leer guía") for a in groups[key] if a != trunk)
         extra = ""
         if key == "general" and trunk:
@@ -1823,7 +1852,9 @@ def render_category_page(section_id):
     content = f'''<div class="article-container category-hub">
       <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
       <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
+      {task_selector}
       {main_guide}
+      {start_links}
       <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
       <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
       {"".join(sections)}
@@ -1938,7 +1969,7 @@ def render_article_page(article, embedded=False):
         source_heading = {"table": "Fichas detrás de la comparación", "selector": "Documentos de este recorrido", "checklist": "Documentos para estas comprobaciones"}.get(resource["kind"], "Fuentes del cálculo y sus límites")
         rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
         rendered_body = re.sub(r'<strong>(Dato documentado|Análisis TallerLab|Desconocido|Declaración del fabricante)([:.]?)</strong>', r'<strong class="evidence-label">\1\2</strong>', rendered_body)
-        body_script += '<script src="/assets/decision-tools.js?v=4" defer></script>'
+        body_script += '<script src="/assets/decision-tools.js?v=5" defer></script>'
     sec_meta = CATEGORY_META.get(article["section"], {"name": article["category"], "icon": "📁"})
     reading_time = max(3, article.get("word_count", 600) // 200)
     assigned = ARTICLE_AFFILIATE_SHELVES.get(article["url"])

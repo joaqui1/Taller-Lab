@@ -19,9 +19,11 @@ published: true
 
 # Cómo elegir una sierra circular Black+Decker
 
-Para el público argentino, comparo la CS1004-AR con la variante de 220 V documentada en el manual de la CS1350P. La CS1024-BR queda como advertencia: sus 1.500 W no compensan que esa variante esté especificada para 127 V. Comprobá siempre el sufijo y la placa de la unidad ofrecida.
+Para el público argentino, comparo la CS1004-AR con la **CS1350P en variante AR de 220 V**. La CS1024-BR es una variante de 127 V: no la confundas con una máquina apta para conectarse directamente a la red de 220 V. En estas sierras, el código completo y la placa de tensión importan más que el nombre corto o la potencia del aviso.
 
-## Dos sierras regionales de 220 V
+## Qué Black+Decker elegir según el trabajo
+
+Primero identificá el código exacto: CS1004-AR y CS1350P (variante AR) son las opciones de 220 V documentadas aquí. La CS1024-BR aparece solo como contraste de tensión, no como alternativa para conectar directamente a 220 V.
 
 | Dato publicado | CS1004-AR | CS1350P (variante AR) |
 | :--- | :--- | :--- |
@@ -46,7 +48,7 @@ Las dos variantes de 220 V documentan uso para madera y una profundidad máxima 
 - **Querés una segunda variante regional documentada:** el manual de CS1350P identifica 220 V, 50 Hz para la variante AR y publica peso, bisel y profundidad máxima. Antes de comprar, verificá que la placa coincida con esa variante y preguntá qué incluye el paquete: no encontré una página de producto argentina que confirme el kit.
 - **Aparece una CS1024-BR de 1.500 W:** tratala como variante de 127 V, no como una opción para conectar directamente a la red argentina de 220 V. Los 100 W nominales adicionales no cambian ese límite eléctrico.
 
-Los valores del manual de CS1350P corresponden a la variante regional identificada como AR, no a CS1350P-BR de 127 V. No transfieras profundidad, peso o voltaje entre sufijos.
+Los valores del manual de CS1350P corresponden a la variante regional identificada como AR, no a CS1350P-BR de 127 V. No transfieras profundidad, peso o voltaje entre sufijos. Para una decisión general por profundidad, guía y tipo de corte, consultá [cómo elegir una sierra circular](/sierras/circulares/). Como otra comparativa de marca, podés ver [sierras circulares Lusqtoff](/sierras/circulares-lusqtoff/) y la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/).
 
 ## Fuentes consultadas
 

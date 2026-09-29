@@ -101,5 +101,3 @@ El LC-40100 también tiene una diferencia menor entre fuentes: **58 kg** en el m
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para comparar capacidades y otras marcas: [compresores de 100 litros](/compresores/100-litros/) y [compresores Lüsqtoff de 50 litros](/compresores/lusqtoff-50-litros/).
-
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).

@@ -71,7 +71,9 @@ Estos equipos muestran aplicaciones y escalas distintas; no son un ranking. Ante
 | :--- | :--- | :--- | :--- |
 | Obra móvil con una máquina que requiere 380 V trifásicos | Lüsqtoff LG7500EXT | 380 V, 50 Hz, trifásico; 6.500 W máximos; tanque 25 L. El fabricante no publica potencia nominal en la página consultada. | Corriente máxima por fase, potencia nominal y capacidad de arranque del motor de la máquina. No dimensionar usando solo 6.500 W máximos. |
 | Servicio o taller con demanda trifásica intermedia y algunas salidas 220 V | Honda ET12000 | 380/220 V, 10/11 kVA trifásicos nominal/máximo; 3 × 2,7/3,0 kVA nominal/máximo en salida monofásica. | En qué configuración se usará, capacidad de cada salida, arranque de motores y distribución de cargas 220 V. |
-| Taller fijo o instalación de mayor potencia, con suministro a gas | Gamma GE3494AR | 380 V, 3 fases; 17/18,7 kW nominal/máxima con GLP y 16/17,6 kW con GN; arranque automático. | Corriente y kVA por fase, factor de potencia, cargas de arranque, ATS requerido, gas, baterías e instalación. Gamma indica que requiere tablero ATS GE3495AR. |
+| Taller fijo o instalación de mayor potencia, con suministro a gas | Gamma GE3494AR ([generadores a gas](/generadores/a-gas/)) | 380 V, 3 fases; 17/18,7 kW nominal/máxima con GLP y 16/17,6 kW con GN; arranque automático. | Corriente y kVA por fase, factor de potencia, cargas de arranque, ATS requerido, gas, baterías e instalación. Gamma indica que requiere tablero ATS GE3495AR. |
+
+Para otras configuraciones de mayor uso horario, compará también [generadores diésel](/generadores/diesel/) y sus datos de consumo y fase publicados.
 
 ## Instalación y conexión
 
@@ -82,8 +84,6 @@ Una conexión a tablero o instalación fija debe proyectarla y ejecutarla un ele
 - **Documentación primaria:** [Honda ET12000](https://pf.honda.com.ar/producto/ET12000) y [ficha técnica Honda ET12000](https://pf.honda.com.ar/descargar/ficha_tecnica/ET12000.pdf); [Lüsqtoff LG7500EXT](https://www.lusqtoff.com.ar/ver-producto/LG7500EXT); [Gamma GE3494AR](https://www.gammaherramientas.com.ar/producto/grupo-estacionario-17kw/) y [manual Gamma GE3493AR/GE3494AR](https://gammaherramientas.com.ar/web/wp-content/uploads/2025/12/GE3493AR_GE3494AR_MANUAL_web.pdf); [tabla técnica WEG W22 IE3, corrientes y factores de potencia](https://static.weg.net/medias/downloadcenter/h40/hc6/WEG-maniobra-y-proteccion-de-motores-y-circuitos-electricos-50112294-es.pdf); [manual Generac MGG100M](https://legacy.genconnect.generac.com/Media/vwDoc.axd?d=08d4c3d6-258a-4f62-98d1-218e72bdec3d). Consulta: 28/09/2026.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [grupos monofásicos: cómo distinguir la salida](/generadores/monofasicos/).
+Para seguir comparando: [grupos monofásicos](/generadores/monofasicos/), [generadores diésel](/generadores/diesel/) y la [guía general de grupos electrógenos](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

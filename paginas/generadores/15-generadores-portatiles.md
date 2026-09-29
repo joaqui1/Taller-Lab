@@ -49,6 +49,14 @@ La autonomía publicada depende de la carga y del modo de funcionamiento. No con
 | Honda EU30is | 2,8 kVA nominales / 3 kVA máxima | 20 h en Eco Throttle; la ficha también lista 7,1 h bajo otra condición | Los dos valores no especifican una carga comparable con Gamma |
 | Honda EU70is | 5,5 kVA nominales / 7 kVA máxima | La ficha lista 12,2 h y 6,5 h; no identifica con claridad en esa tabla las cargas correspondientes | Usar como referencia de ficha y pedir condición de autonomía para el trabajo previsto |
 
+## Tipo de generador portátil según el uso
+
+| Uso | Qué priorizar | Qué revisar | Tipo de modelo a investigar |
+| :--- | :--- | :--- | :--- |
+| Camping | Poco peso, cargas simultáneas pequeñas y ruido compatible con las reglas del predio | dB(A), distancia y carga de medición; picos de arranque; restricciones de horario y lugar para el combustible | Un portátil liviano tipo valija; para baja potencia, compará [generadores chicos](/generadores/chicos/) |
+| Viaje o motorhome | Medidas, peso y traslado seguro, junto con autonomía para los aparatos que usarás a la vez | Espacio de guardado y acceso, consumo/autonomía a carga conocida, ventilación y datos de arranque de heladera, bomba o aire | Un portátil compacto con potencia nominal suficiente y agarres o transporte que se ajusten al vehículo |
+| Trabajo | Potencia nominal para la jornada, duración de uso, robustez y movimiento entre frentes | Ciclo de trabajo, picos, tomas/fases, protección frente a polvo y agua, peso con combustible y método de carga | Un portátil de mayor potencia con ruedas/manijas o transporte asistido, según el peso |
+
 ### Para camping
 
 Para luces, cargadores y otros aparatos de baja potencia, sumá sus watts de placa y comprobá también si algún equipo tiene motor o pico de arranque. Si priorizás el ruido, mirá el valor en dB(A), la distancia y la carga de medición: un número sin esas condiciones no permite saber qué pasará en el camping. Consultá además las reglas del predio; algunos sitios restringen el horario o directamente el uso de generadores.
@@ -98,4 +106,4 @@ Si el criterio principal es el ruido, seguí con [generadores silenciosos](/gene
 - **Lüsqtoff:** [LGI3.8-8, potencia, peso, tanque y ruido a 7 m](https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8).
 - **Ruido de Gamma convencional, para contexto de protocolo:** [manual de GE3480AR/GE3481AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf).
 
-Para comparar otras categorías: [generadores para casa](/generadores/para-casa/) y [guía general de generadores](/generadores/comparativa-general/). Para conocer el criterio editorial: [metodología de TallerLab](/como-trabajamos/).
+Para comparar otras categorías: [generadores chicos](/generadores/chicos/), [para casa](/generadores/para-casa/) y la [guía general](/generadores/comparativa-general/).

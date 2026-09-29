@@ -19,13 +19,17 @@ published: true
 
 # Qué sierra sin fin para madera comprar
 
-## Criterios para elegir una sierra sin fin
+## Qué capacidad necesitás
 
 ### Altura de corte y garganta: qué determina cada una
 
 La **altura de corte** limita cuánto alto puede ser el material que pasa bajo la guía superior. La **garganta** mide el espacio horizontal desde la cinta hasta el marco: determina cuánto puede sobresalir la pieza hacia el interior de la máquina. Una tabla alta y angosta puede caber por altura, pero no por garganta; una tabla ancha puede entrar de canto y aun así superar la altura permitida.
 
 Ejemplos: para volver a aserrar una tabla de 180 mm de alto necesitás más de 180 mm de altura de corte y una cinta adecuada; una sierra de 80 mm queda fuera por altura aunque tenga una garganta amplia. Para cortar una curva en una pieza de 120 mm de ancho, verificá el espacio a la columna y el radio que permite la cinta. En cortes inclinados, usá la capacidad publicada para ese ángulo, no la cifra a 90°.
+
+### Mesa y guías: apoyo y control
+
+La **mesa** tiene que sostener la pieza sin bamboleo y dejar espacio para guiarla durante todo el recorrido; sus dimensiones no equivalen a altura ni garganta. Ajustá las **guías superior e inferior de la cinta** cerca de la pieza según el manual, y comprobá que puedan regularse para el espesor de corte previsto.
 
 ### Qué cinta necesitás según el trabajo
 
@@ -38,11 +42,11 @@ La cinta debe tener la longitud y sección admitidas por la sierra. Después ele
 | Material delgado o acabado más fino | Elegí un paso más fino, comprobando que queden aproximadamente 3–6 dientes dentro de la pieza durante el corte. Más dientes dan un corte más lento y fino; muy pocos pueden engancharse y dañarse. | Confirmá longitud, ancho y espesor compatibles en el manual. |
 | Material grueso o corte rápido | Un paso más grueso permite evacuar aserrín y avanzar más rápido, con un borde más áspero. Laguna cita para su hoja de 4 TPI en contrachapado de ¾ in un corte rápido y para 14 TPI uno más lento y suave: es un ejemplo de esa marca, no una receta para cualquier madera. | Usá la longitud exacta indicada para el modelo. |
 
-Las fichas consultadas publican estas dimensiones de cinta: SFL250-8, 1.400 × 6,5 × 0,35 mm; SFL300-8, 1.405 × 6,35 × 0,3 mm; SFL1100-9, 2.360 mm de largo. En la ficha de la SFL1100-9 no aparece el ancho ni el espesor permitidos: pedí esos límites al fabricante o revisá el manual antes de encargar una cinta.
+Confirmá largo, ancho y espesor de cinta admitidos para el modelo exacto. Si la ficha no publica todas las medidas, consultá el manual o al fabricante antes de encargar un repuesto.
 
 ### Qué revisar en una sierra usada
 
-La SFL250-8 figura como discontinuada, así que al revisar una usada comprobá el estado y la posibilidad de reemplazar consumibles y piezas:
+Al revisar una sierra usada, comprobá el estado de sus piezas y la posibilidad de reemplazar consumibles:
 
 - **Ruedas y neumáticos:** buscá grietas, desgaste irregular, piezas flojas o juego lateral. Girá la rueda a mano solo con la máquina desenchufada y siguiendo el manual.
 - **Guías:** comprobá que los apoyos y rodamientos no tengan daño o juego excesivo y que puedan ajustarse respecto de la cinta.
@@ -50,27 +54,24 @@ La SFL250-8 figura como discontinuada, así que al revisar una usada comprobá e
 - **Mesa:** revisá que no esté doblada, muy oxidada o floja, que incline y trabe en los ángulos anunciados, y que quede a escuadra con la cinta cuando la regulación lo permita.
 - **Alineación:** revisá si la cinta se desplaza lateralmente o se atasca en las guías. Si requiere ajuste, pedí una demostración según el manual del modelo.
 - **Cinta compatible:** confirmá largo, ancho y espesor exactos, y que haya repuesto disponible localmente. Inspeccioná la cinta instalada por fisuras, dientes faltantes y daño en la soldadura.
-- **Piezas y servicio:** consultá antes de pagar por disponibilidad y precio de neumáticos, guías, rodamientos, insertos de mesa y piezas del tensor. La ficha de SFL250-8 la marca discontinuada; que todavía acepte una cinta de medida común no garantiza que haya otros repuestos.
+- **Piezas y servicio:** consultá antes de pagar por disponibilidad y precio de neumáticos, guías, rodamientos, insertos de mesa y piezas del tensor. Que una máquina acepte una cinta de medida común no garantiza que haya otros repuestos.
 
 Estas comprobaciones siguen elementos que los manuales de sierras de cinta mandan revisar y ajustar —tensión, seguimiento, ruedas y guías—, pero los procedimientos varían por modelo. No operes la máquina con tapas o protecciones retiradas.
 
-### Compacta o máquina de taller
+## Sierra sin fin o sierra de banco
 
-Las SFL250-8 y SFL300-8 son más livianas y compactas que la SFL1100-9; la diferencia se nota tanto en capacidad como en instalación. La tabla conserva el nombre exacto del dato horizontal publicado, porque Lüsqtoff no usa la misma etiqueta en las tres fichas.
+| Trabajo principal | Opción a comparar | Qué revisar |
+| :--- | :--- | :--- |
+| Cortes curvos, reaserrado o tablas anchas guiadas sobre mesa | Sierra sin fin para madera | Altura, garganta, cinta y radio que admite la hoja. |
+| Rasgados rectos repetidos con una guía paralela | [Sierra de banco](/sierras/de-banco/) | Ancho máximo de rasgado, fijación de la guía y apoyos de entrada y salida. |
 
-| Dato publicado | SFL250-8 | SFL300-8 | SFL1100-9 |
-| :--- | ---: | ---: | ---: |
-| Estado en la página de la marca | Discontinuada | Listada en catálogo y con ficha de producto | Ficha de producto consultada |
-| Potencia | 250 W | 350 W | 1.100 W |
-| Altura máxima publicada | 80 mm; la ficha no indica ángulo | 80 mm a 90° / 50 mm a 45° | 206 mm; la ficha no indica ángulo |
-| Medida horizontal publicada | Ancho máximo 200 mm en ficha; 300 mm en catálogo 2024–2025 | Ancho máximo de corte 230 mm | Garganta 305 mm |
-| Cinta publicada | 1.400 × 6,5 × 0,35 mm | 1.405 × 6,35 × 0,3 mm | 2.360 mm de largo; ancho y espesor no publicados |
-| Mesa | 290 × 290 mm; inclina 0–45° | 300 × 300 mm; inclina 0–45° | 548 × 400 mm; ajusta −8–45° |
-| Peso publicado | 16,5 kg en la ficha; catálogo anterior indica 15,5 kg | 17,5 kg | 84 kg |
+No son herramientas intercambiables: la sierra sin fin usa una cinta continua y permite seguir curvas con la pieza apoyada en la mesa; la sierra de banco usa una hoja circular y una guía paralela para cortes rectos. Elegí según la forma del corte, las dimensiones de la pieza y el sistema de apoyo disponible.
 
-Si necesitás mover la máquina y vas a trabajar piezas de hasta unos 80 mm de alto, las dos compactas documentan esa altura máxima; verificá sección, ángulo, cinta y estado real antes de decidir. Para material que supere esa altura, la SFL1100-9 publica 206 mm y una garganta de 305 mm, pero pesa 84 kg y requiere más espacio de instalación. Es un ejemplo de máquina de taller frente a las compactas, no una afirmación de mejor precisión o terminación.
+### No confundir la sierra sin fin para madera con la de metal
 
-La ficha propia de SFL300-8 aporta sus capacidades, cinta y peso; no hace falta interpretar el “200 mm” del encabezado de categoría como capacidad: la página de producto indica 230 mm de ancho máximo de corte. En SFL250-8, la ficha de producto y el catálogo 2024–2025 discrepan tanto en peso (16,5/15,5 kg) como en ancho máximo publicado (200/300 mm). Como la unidad está discontinuada, contrastá placa, año y manual antes de basar la compra en esos dos datos.
+El material y la cinta aprobados dependen del modelo. Para perfiles metálicos, revisá la guía de [sierra sin fin para metal](/sierras/sin-fin-metal/) y verificá capacidad y cinta para la sección real; no montes en una sierra para madera una hoja destinada a otra máquina.
+
+Para comparar los códigos Lusqtoff, sus capacidades, las cintas y el estado de cada modelo, consultá la guía específica de [sierras sin fin Lusqtoff](/sierras/sin-fin-lusqtoff/).
 
 ## Fuentes consultadas
 

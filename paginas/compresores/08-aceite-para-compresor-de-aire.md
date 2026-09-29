@@ -65,6 +65,8 @@ Respetá el primer cambio de asentamiento y luego el intervalo de horas o calend
 
 Para cambiarlo, consultá el procedimiento del manual sobre enfriamiento, drenaje, tapón, disposición del aceite usado y nivel de llenado. Desenchufá el equipo, liberá el aire del tanque y evitá abrir el cárter caliente o presurizado. El cambio de aceite del cárter no es lo mismo que purgar el condensado del tanque.
 
+Estas instrucciones de control y cambio de aceite no aplican a equipos oil-free. Si tu compresor es sin aceite, consultá la guía de [compresor sin aceite](/compresores/sin-aceite/).
+
 ## Errores comunes
 
 - Elegir aceite solo por capacidad, potencia, color o porque otro compresor usa ese grado.
@@ -90,6 +92,6 @@ Hasta resolver la diferencia, no combines indicaciones ni completes con una equi
 
 Para seguir comparando: [compresor Gamma de 50 litros](/compresores/gamma-50-litros/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

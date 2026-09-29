@@ -19,18 +19,20 @@ published: true
 
 # Electrodo 7018: cómo elegirlo según el trabajo
 
+## Cuándo conviene usar 7018
+
+Considerá un E7018 cuando el trabajo requiera un electrodo de bajo hidrógeno o una clasificación y propiedades concretas. La elección depende del material base, la unión, el servicio y el procedimiento; el número 70 por sí solo no determina que sea la opción adecuada.
+
+| Electrodo | Rasgo de la clasificación/producto documentado | Cuándo comparar su ficha |
+| :--- | :--- | :--- |
+| E7018 H4R | ESAB Atom Arc 7018 documenta bajo hidrógeno y resistencia a la absorción de humedad; la clasificación completa y el procedimiento aplicable son determinantes | Aceros al carbono o de baja aleación cuando el trabajo exige verificar esas propiedades |
+| E6013 | ESAB 6013 SV es rutílico y destaca facilidad de aplicación y arco estable; el fabricante también señala chapas delgadas, carrocerías y herrería | Trabajos generales o chapa fina, confirmando la ficha del producto exacto |
+
+No hay un ganador universal: compará clasificación, corriente/polaridad, diámetro y requisitos del trabajo. [Electrodo 6013](/electrodo-6013/).
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 27/09/2026
 
 ## Para qué sirve el 7018
 
@@ -38,7 +40,7 @@ En la clasificación AWS, **E** identifica un electrodo revestido; **70** indica
 
 ESAB presenta este Atom Arc 7018 para aceros al carbono y de baja aleación, y enumera fabricación industrial, automotriz, vagones, equipos móviles, embarcaciones, puentes y construcción civil entre sus industrias. Eso describe el producto y sus aprobaciones; no sustituye la selección del metal de aporte según material base, unión, servicio y procedimiento aplicable.
 
-Frente a un **E6013**, la diferencia conceptual no es que uno sea siempre “mejor”: el ejemplo E6013 SV de ESAB es rutílico y destaca por fácil aplicación, arco estable y uso en chapas delgadas, carrocerías y herrería. El E7018 H4R documentado es un electrodo de bajo hidrógeno y aporta una clasificación de resistencia a humedad. Si el trabajo exige limitar hidrógeno o cumplir propiedades/códigos concretos, la clasificación completa y el procedimiento mandan; para trabajos generales o chapa fina, compará el E6013 exacto y su ficha en lugar de elegir solo por el número 70.
+Frente a un **E6013**, el E7018 H4R documentado incorpora una clasificación de bajo hidrógeno y resistencia a la absorción de humedad. Eso no convierte a uno en “mejor” para todo: elegí según el procedimiento y el trabajo.
 
 ## Diámetros y amperaje según fabricante
 
@@ -49,19 +51,19 @@ Los rangos siguientes corresponden a la ficha de ESAB Atom Arc 7018 México. No 
 | ESAB Atom Arc 7018, hoja México | 2,4 mm | 70–110 A |
 | ESAB Atom Arc 7018, hoja México | 3,2 mm | 90–160 A |
 | ESAB Atom Arc 7018, hoja México | 4,0 mm | 130–220 A |
-| ESAB HandyArc 162i, salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
+| [ESAB HandyArc 162i](/esab-handyarc-162i/), salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
 
 **Dato documentado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
 
 **Análisis TallerLab:** los 160 A máximos de la máquina no son un ajuste continuo: el ciclo publicado baja a 92 A/60 % y 72 A/100 %. Además, el rango de 4,0 mm de la ficha del electrodo se extiende a 220 A, por encima de la salida máxima de esta máquina. Eso compara dos hojas técnicas, no dicta que un diámetro sea adecuado para una junta o que una fuente produzca el resultado requerido.
 
+Si el rango o el ciclo de trabajo de una máquina no cubre la necesidad definida, compará [soldadoras inverter de 200 A](/soldadora-inverter-200-amp/) y verificá la ficha del modelo exacto.
+
 **Desconocido:** Atom Arc 7018 H4R es un producto concreto y su rango no se aplica automáticamente a cualquier E7018, marca o lote local. No se indica un procedimiento de secado/horneado universal; seguir etiqueta, empaque y manual del consumible exacto, especialmente para electrodos bajo hidrógeno.
 
 ## Conservación y compatibilidad
 
-El revestimiento de un electrodo bajo en hidrógeno puede captar humedad si se expone al ambiente. Esa humedad puede elevar el hidrógeno que llega al metal depositado y perjudicar el desempeño que busca la clasificación; en uniones susceptibles, el hidrógeno difusible puede contribuir al agrietamiento. La marca **R** indica resistencia a la absorción de humedad según la clasificación, pero no significa que el electrodo pueda dejarse expuesto sin límite ni que todos los productos se conserven igual.
-
-Conservá el envase y consultá la etiqueta, la ficha y el manual de la marca y modelo exactos para almacenamiento, tiempo de exposición, secado/reacondicionamiento y reutilización. Las instrucciones pueden variar por producto y empaque; no apliques una temperatura o un tiempo universal. Si el envase está abierto, dañado o la exposición es incierta, confirmá con el fabricante/distribuidor antes de usarlo en un trabajo crítico. Además, verificá que la fuente admita la corriente requerida y la polaridad indicada por ese electrodo, y que su ciclo de trabajo alcance para la tarea.
+El revestimiento del E7018 puede captar humedad: la clasificación **R** no implica exposición ilimitada. Para almacenamiento, exposición o reacondicionamiento, seguí la etiqueta, ficha y manual del producto exacto; no apliques tiempos o temperaturas universales. Verificá también la corriente, polaridad y ciclo de trabajo que requiere la aplicación.
 
 ## Opciones de compra
 
@@ -82,6 +84,11 @@ Antes de elegir una caja o presentación, comprobá:
 
 Para seguir comparando: [electrodos inoxidables: clasificación y metal base](/soldadoras/electrodo-para-acero-inoxidable/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
 
-Para comparar con un electrodo rutílico: [E6013: usos y características según fabricante](/soldadoras/electrodo-6013/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 27/09/2026

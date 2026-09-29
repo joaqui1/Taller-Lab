@@ -19,18 +19,18 @@ published: true
 
 # Qué soldadora inverter de 200 amperios comprar
 
+## 200 A máximos no significan 200 A continuos
+
+El máximo describe el extremo superior del rango de salida, no el tiempo que la máquina puede sostenerlo. Compará siempre corriente y ciclo de trabajo publicados para el punto que usarás.
+
+| Capacidad nominal | Qué aporta a la comparación |
+| :--- | :--- |
+| 160 A | Puede alcanzar para trabajos que encajen en su rango y ciclo; un máximo menor no significa automáticamente menor continuidad. |
+| 200 A | Da más margen máximo en la salida, pero el ciclo puede reducir la corriente sostenible. Confirmá amperaje, porcentaje y condiciones de ficha. |
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Qué trabajos permite cada equipo
 
@@ -64,12 +64,14 @@ El ciclo de trabajo relaciona una corriente de salida con el tiempo de uso dentr
 
 ## Modelos y qué comparar
 
-- **Si usás mayormente 2,5 mm y necesitás un dato de continuidad explícito:** la SLCEL200-9 publica 100 A al 100% para ese diámetro. Comprueba si esos 100 A satisfacen el electrodo, la junta y el ritmo de tu trabajo y si tu instalación admite los datos de entrada publicados.
-- **Si tu trabajo requiere 3,2 mm:** Dogo DOG50046 lista ese diámetro al 100%, pero sin publicar allí el amperaje asociado; pedí esa condición antes de seleccionarla para cordones prolongados. En ambas alternativas, cruza el rango del electrodo exacto con la salida de la fuente.
-- **Si alternás electrodos hasta 5 mm o querés display digital:** Dogo declara ambos elementos en la ficha. Para 4 y 5 mm publica servicio inferior a 100%; falta en esa tabla el amperaje correspondiente, así que confirma el manual y la necesidad real de pausa.
-- **Si te interesa Lift TIG:** Lüsqtoff lo lista como función integrada. Dogo lista TIG por raspado con una torcha adicional. En cualquiera, comprobá compatibilidad de torcha y consumibles, controles disponibles y contenido del kit antes de pagar.
-- **Si comparás kits:** la página Lüsqtoff enumera pinza de masa, portaelectrodo y piqueta; Dogo enumera pinza de masa y portaelectrodos. Verificá que la publicación y la caja de la unidad incluyan esos accesorios y consulta aparte la torcha TIG, que Dogo condiciona a su adquisición adicional.
-- **Si tus trabajos son cortos y no requieren más de la salida que una fuente menor sostiene:** compará también la [guía de soldadoras inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/). Contrasta rango, ciclos a la corriente que vas a usar, consumible, alimentación y peso; un número nominal mayor no garantiza por sí solo mejor continuidad ni ajuste para tu trabajo.
+Usá estas guías para comparar opciones próximas o alternativas por proceso y rango. Los modelos y códigos de esta comparación están reunidos aquí, sin tomar el máximo nominal como medida de continuidad:
+
+| Modelo o guía | Cuándo compararlo | Ficha |
+| :--- | :--- | :--- |
+| Inverter de 160 A | Si el trabajo puede quedar dentro de un rango menor y priorizás peso o servicio suficiente a la corriente real | [Soldadora inverter de 160 A](/soldadora-inverter-160-amp/) |
+| Dogo 180 | Como referencia de rango máximo menor y ciclo por diámetro publicado | [Dogo 180](/soldadora-dogo-180/) |
+| Lusqtoff Iron 250 | Si el procedimiento exige más margen máximo de salida; cotejá ciclo y alimentación del modelo exacto | [Lusqtoff Iron 250](/lusqtoff-iron-250/) |
+| ESAB HandyArc 162i | Para contrastar ciclo documentado en una fuente MMA compacta | [ESAB HandyArc 162i](/esab-handyarc-162i/) |
 
 Antes de decidir, anotá el electrodo y diámetro concretos, corriente de ficha, cuánto tiempo soldás antes de pausar, tensión y capacidad de red disponibles, y qué funciones/accesorios necesitás. Elegí el modelo sólo después de hacer coincidir esos datos con el manual de su código exacto.
 
@@ -78,4 +80,11 @@ Antes de decidir, anotá el electrodo y diámetro concretos, corriente de ficha,
 - **Documentación primaria:** [Lüsqtoff SLCEL200-9](https://lusqtoff.com.ar/ver-producto/SLCEL200-9); [manual Lüsqtoff SLCEL200-9](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SLCEL200-9/MANUAL/Manual%20SLCEL200-9curvas_compressed.pdf); [Dogo Dogostar 200 Moderna, DOG50046](https://dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

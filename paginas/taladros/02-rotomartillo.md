@@ -58,6 +58,14 @@ Elegí **batería** si te movés entre sectores, trabajás en altura o no tenés
 
 La capacidad máxima publicada no equivale al diámetro recomendado para trabajar todo el día. Si hay hormigón armado, además de herramienta y diámetro importan la broca compatible, el armado y el procedimiento de trabajo. Detenete y consultá el plano o a un profesional si no conocés la ubicación de instalaciones o barras.
 
+### Comparativas por marca
+
+| Marca | Guía |
+| :--- | :--- |
+| Bosch | [Rotomartillos Bosch](/taladros/rotomartillo-bosch/) |
+| Einhell | [Rotomartillos Einhell](/taladros/rotomartillo-einhell/) |
+| DeWalt | [Rotomartillos DeWalt](/taladros/rotomartillo-dewalt/) |
+
 ## Comparativa de equipos y precios
 
 | Modelo de referencia | Alimentación y encastre | Datos publicados | Precio observado en Argentina |

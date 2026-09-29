@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de decisión argentina alrededor de K4: compara K3, K4 estándar, K4 Power Control y K5, con diferencias de uso, equipo y mantenimiento."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -21,9 +21,16 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-**Respuesta rápida:** K4 tiene sentido si vas a lavar con frecuencia auto, motos, bicis, patio o equipos de jardín y valorás más caudal y equipamiento que el K3. En Argentina hay un K4 estándar y un K4 Power Control: no comparten exactamente cifras ni kit. Si el uso es ocasional y querés un equipo más liviano, K3 puede alcanzar; si buscás más presión publicada para suciedad incrustada, K5 sube otro escalón.
+**Respuesta rápida:** K4 tiene sentido si vas a lavar con frecuencia auto, motos, bicis, patio o equipos de jardín y valorás más caudal y equipamiento que el K3. En Argentina hay un K4 estándar y un K4 Power Control: no comparten exactamente cifras ni kit. Si el uso es ocasional y querés un equipo más liviano, K3 puede alcanzar; si buscás más presión publicada para suciedad incrustada, K5 sube otro escalón. Para ubicar ambas versiones en la [comparativa completa Kärcher](/hidrolavadoras/karcher/) o revisar cuándo conviene el [Kärcher K3](/hidrolavadoras/karcher-k3/) y el [Kärcher K5](/hidrolavadoras/karcher-k5/), compará siempre el SKU local.
 
-Las fichas oficiales consultadas no muestran precios de venta. Antes de comprar, compará el precio del SKU exacto y el contenido del kit en comercios argentinos; las variantes de otros países no prueban que sean la misma versión local.
+## Precio local por versión (29/09/2026)
+
+| Versión y código | Precio publicado | Stock y observación |
+| :--- | :--- | :--- |
+| K4 estándar, 93982940 | [$569.999 en ICBC Mall](https://mall.icbc.com.ar/maquinaria/104997835-hidrolavadora-karcher-k4-9-398-294-0-1700w-1880229-7891374107098.html), vendedor Radar. | La publicación no indica stock en el detalle consultado. Confirmá disponibilidad y kit del SKU antes de pagar. |
+| K4 Power Control, 1.603-402.0 | [$818.572,48 en efectivo o transferencia en Reginato](https://tienda.reginato.com.ar/producto/87911/hidrolavadora-karcher-k4-power-control-limpieza-de-alta-presion-domestica/). | Figura en stock. El vendedor muestra para este SKU 120 bar, 380 L/h y 1.800 W, distintos de la ficha oficial argentina, que informa hasta 130 bar y 420 L/h y no declara potencia. Verificá la placa y el contenido del kit ofrecido. |
+
+Son referencias publicadas, no precios garantizados. No mezcles estos códigos con K4 de otros mercados o kits que compartan el nombre comercial.
 
 ## K3, K4 o K5: qué cambia
 
@@ -36,7 +43,7 @@ Las fichas oficiales consultadas no muestran precios de venta. Antes de comprar,
 
 **Cómo leer la tabla:** las páginas de producto no usan todas la misma unidad ni rotulan la presión del mismo modo. En K4 estándar y K5, bar son conversiones aproximadas desde PSI; no son una declaración adicional del fabricante sobre presión de servicio. Caudal y presión máximos tampoco describen por sí solos el resultado en cada superficie. La ficha de K4 Power Control sí publica presión de 20 a 130 bar y caudal máximo de 420 L/h.
 
-El salto a K4 estándar frente al K3 Black Edition implica, según las fichas, 30 L/h más de caudal, 200 W más de potencia, una boquilla turbo incluida y una máquina 5,4 kg más pesada. A K4 Power Control le corresponde una comparación distinta: declara 420 L/h y manguera de 8 m, pero Kärcher no publica potencia en esa página; no extrapoles las cifras del K4 estándar.
+**Conclusión breve:** frente al K3, ambas K4 priorizan mayor caudal/equipamiento y pesan alrededor de 5 kg más. Entre las K4, el estándar declara 1700 W, 360 L/h y 6 m; Power Control declara hasta 420 L/h y 8 m, suma ajuste desde la pistola y no publica potencia en la ficha oficial argentina. No extrapoles cifras de una versión a la otra.
 
 ## ¿Para qué tareas conviene una K4?
 
@@ -59,13 +66,7 @@ La recomendación cubre los usos que Kärcher publica para estos equipos Home & 
 
 El K4 estándar ofrece dos lanzas indicadas en su suministro; el Power Control añade ajuste en la pistola, guía desde la app, sistema de detergente Plug ’n’ Clean y 2 m extra de manguera. Elegí por ese equipamiento y por el SKU, no sólo por la etiqueta “K4”. El Power Control también declara un caudal máximo mayor, mientras que el estándar declara 1700 W y cabezal de aluminio: las fichas no permiten una comparación completa de potencia entre ambos.
 
-## Cuánto ganás frente a K3 y qué resignás frente a K5
-
-**K3 → K4:** el K4 estándar agrega caudal (360 frente a 330 L/h), potencia (1700 frente a 1500 W) y boquilla turbo en el kit; la ficha K4 también publica motor de inducción y cabezal de aluminio. El costo práctico es el peso: pasa de 7,3 a 12,7 kg. En el Power Control, el aumento de caudal publicado es mayor (420 L/h) y la manguera mide 8 m, pero no hay potencia indicada para cotejar.
-
-**K4 → K5:** frente al K4 Power Control, ambos publican 420 L/h. K5 publica 2100 PSI (≈144,8 bar convertido), 1900 W, motor de inducción y cabezal de aluminio; Power Control publica hasta 130 bar, 30 m²/h, pistola con presión regulable y manguera de 8 m. La K5 trae 6 m de manguera y pesa 13,3 kg, 0,9 kg más que Power Control. Tiene sentido pagar el escalón si vas a aprovechar el uso intensivo y la suciedad incrustada que Kärcher le atribuye; si priorizás alcance, ajuste y detergente integrado en el equipo, el kit K4 PC tiene ventajas concretas.
-
-Frente al K4 estándar, K5 comparte motor de inducción, cabezal de aluminio y manguera de 6 m, pero publica 2100 PSI y 420 L/h frente a 1885 PSI y 360 L/h del K4. Ambos listan Vario Power y boquilla turbo; el K4 estándar agrega la lanza pulverizadora de un chorro en su suministro publicado.
+Para decidir si vale subir a K5, mirá su ficha: publica más presión máxima y está orientada a suciedad más adherida; la K4 Power Control conserva ventajas de alcance y ajuste con su manguera de 8 m. Si el uso será en auto, la guía ayuda a dimensionar presión y accesorios.
 
 ## Accesorios: comprobá el contenido del SKU
 
@@ -91,10 +92,4 @@ Comparación documental, sin prueba física ni muestra de opiniones de comprador
 
 - Fichas oficiales: [K 3 Black Edition, SKU 93983550](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html); [K 4, SKU 93982940](https://www.kaercher.com/ar/home-garden/hidrolavadora/k4-93982940.html); [K 4 Power Control, SKU 16034020](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html); [K 5, SKU 93982950](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-5-93982950.html).
 - [FAQ y soporte oficial Kärcher Argentina](https://www.kaercher.com/ar/servicios/asistencia/faq.html).
-- Datos revisados el **28/09/2026**. Las páginas oficiales consultadas no publican precio de venta.
-
-Para seguir comparando: [Kärcher K5: cifras de la ficha argentina](/hidrolavadoras/karcher-k5/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [Kärcher K3 y sus alternativas](/hidrolavadoras/karcher-k3/).
+- Datos y precios publicados revisados el **29/09/2026**. La ficha oficial no publica precio de venta.

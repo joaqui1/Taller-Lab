@@ -27,7 +27,7 @@ Una sierra sable puede cortar madera, caños y perfiles metálicos cuando la hoj
 
 ### Cuándo una sable no es la herramienta indicada
 
-- **Cortes limpios y controlados en tableros:** elegí una [caladora](/sierras/caladoras/) para seguir trazos o hacer cortes con control de apoyo; para cortes largos y rectos, una sierra circular con guía puede ser más adecuada.
+- **Cortes limpios y controlados en tableros:** elegí una [sierra caladora](/sierras/caladoras/) para seguir trazos o hacer cortes con control de apoyo; para cortes largos y rectos, una sierra circular con guía puede ser más adecuada.
 - **Perfiles repetitivos a medida:** una [sensitiva](/sierras/sensitivas/) o una [sierra de banda para metal](/sierras/sin-fin-metal/) mantiene la pieza apoyada y sujeta durante cada corte; compará capacidad para la sección exacta.
 - **Cortes longitudinales precisos:** una [sierra circular](/sierras/circulares/) con guía o una [sierra de banco](/sierras/de-banco/) ofrece apoyo continuo para llevar el corte recto. La sable es más libre, pero el resultado depende mucho de cómo se guíen herramienta y pieza.
 
@@ -43,17 +43,20 @@ La tabla muestra ejemplos de hojas Bosch con uso, TPI y longitud publicados por 
 
 En la fila de metal, el rango de espesor recomendado corresponde específicamente a la S 922 EF. La longitud total no es profundidad de corte: Bosch publica para estas hojas una capacidad máxima de hasta 100 mm, sujeta a la geometría y la configuración de corte indicadas para cada hoja. Para demolición más exigente, buscá una hoja cuya ficha mencione ese material y el tipo de clavo o elemento que vas a encontrar; no conviertas el ejemplo S 922 VF en autorización para cortar cualquier metal incrustado.
 
-### Cable o batería
+## Sierra sable con cable o inalámbrica
 
-Las fichas argentinas de Bosch GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. La diferencia documentada está en alimentación, carrera, peso del cuerpo y velocidad sin carga.
+Las fichas argentinas de Bosch GSA 1100 E y GSA 18V-24 publican el mismo máximo de corte en madera. Esta comparación Bosch usa dos referencias con documentación disponible, no limita la elección a una marca: la guía de [sierras sable inalámbricas](/sierras/sierra-sable-inalambrica/) también compara una DeWalt DCS380B.
 
-| Dato documentado | GSA 1100 E | GSA 18V-24 |
+| Criterio | GSA 1100 E con cable | GSA 18V-24 inalámbrica |
 | :--- | ---: | ---: |
+| Movilidad | Necesita un tomacorriente y el cable condiciona el alcance. | La batería permite trabajar lejos de un tomacorriente; el kit exacto determina qué batería llevás. |
+| Autonomía | Alimentación de red mientras está conectada; no se publica un ciclo de trabajo. | Depende de la batería y la tarea; no se publica una autonomía comparable para este uso. |
+| Peso publicado | 3,6 kg | 1,7 kg sin batería; sumá el peso del pack para comparar el conjunto. |
+| Trabajo continuo | El ciclo térmico no está documentado en las fuentes consultadas. | La duración depende del pack y las pausas de carga; el ciclo de trabajo tampoco está documentado. |
 | Alimentación | Cable, 1.100 W | Batería 18 V |
 | Carrera | 28 mm | 24 mm |
 | Velocidad sin carga | 0–2.700 carreras/min | 0–3.100 carreras/min |
 | Corte máximo en madera | 230 mm | 230 mm |
-| Peso publicado | 3,6 kg | 1,7 kg sin batería |
 
 **Análisis TallerLab.** El cuerpo de la inalámbrica pesa 1,9 kg menos que el dato publicado para la GSA 1100 E, pero la cifra no incluye batería. Los máximos declarados en madera coinciden (230 mm); eso no demuestra igual velocidad, autonomía o resultado en el mismo material. Para corte repetido, evaluá batería disponible y ciclos de trabajo, datos no comparados aquí.
 

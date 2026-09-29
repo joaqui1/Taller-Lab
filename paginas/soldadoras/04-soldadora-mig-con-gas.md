@@ -19,24 +19,21 @@ published: true
 
 # Qué soldadora MIG con gas comprar
 
+## Cuándo conviene MIG con gas
+
+Conviene cuando soldás en un lugar protegido del viento, buscás aporte continuo y menos limpieza de escoria, y podés sumar cilindro, regulador y gas compatible. Verificá que la fuente admita el alambre y el gas del trabajo.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Cómo investigamos esta guía
+El gas de protección requiere cilindro, regulador/caudalímetro y una conexión sin fugas; una ráfaga puede desplazar la protección. Para exterior ventoso, un alambre tubular autoprotegido puede ser más práctico si máquina y consumible son compatibles. FLUX genera escoria y no es lo mismo que MIG/MAG con alambre macizo.
 
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
+No supongas que una máquina cuyo nombre dice “MIG” acepta cualquier alambre macizo ni que el modo FLUX sirve con gas. Confirmá en el manual proceso, polaridad, diámetro, rodillo y punta. Para comparar procesos, consultá [MIG sin gas](/mig-sin-gas/).
 
-## Cuándo conviene MIG con gas
+## MIG con gas para chapa fina
 
-MIG/MAG con alambre macizo tiene sentido cuando vas a trabajar principalmente en un lugar protegido del viento, querés cordón continuo con menos limpieza de escoria y necesitás elegir un alambre y gas adecuados al material. El gas de protección requiere cilindro, regulador/caudalímetro y una conexión sin fugas; una ráfaga puede desplazar la protección. Para trabajar afuera con viento o reducir equipo de gas, un alambre tubular **autoprotegido** FLUX/FCAW-S puede resultar más práctico si la máquina y el consumible son compatibles. FLUX genera escoria y no es lo mismo que MIG/MAG con alambre macizo.
-
-No supongas que una máquina cuyo nombre dice “MIG” acepta cualquier alambre macizo ni que el modo FLUX de un equipo sirve con gas. Confirmá en el manual proceso, polaridad, diámetro de alambre, rodillo, punta y modo de conexión. Para comparar los procesos, consultá la [guía de MIG sin gas y alambre tubular](/soldadoras/mig-sin-gas/).
+El alambre macizo con gas puede servir para chapa fina si el equipo permite ajustar una corriente y velocidad de alambre bajas y estables. Confirmá el rango mínimo, la alimentación, el ciclo al amperaje de uso y el espesor recomendado por el fabricante; practicá con retazos del mismo material para ajustar la técnica.
 
 ## Potencia y ciclo de trabajo
 
@@ -51,7 +48,7 @@ No supongas que una máquina cuyo nombre dice “MIG” acepta cualquier alambre
 
 ## Gas, alambre y accesorios necesarios
 
-Para completar el sistema, cada pieza tiene que corresponder al material, diámetro y consumible elegidos. Por ejemplo, la ficha de ESAB Weld 70S-6 publica gases C1 y M21 para ese alambre específico; no es una recomendación universal para cualquier alambre o metal. Consultá la [guía de alambre MIG macizo y gases documentados](/soldadoras/alambre-para-soldadura-mig/) y luego el manual del equipo.
+Para completar el sistema, cada pieza tiene que corresponder al material, diámetro y consumible elegidos. Por ejemplo, la ficha de ESAB Weld 70S-6 publica gases C1 y M21 para ese alambre específico; no es una recomendación universal. Consultá [alambre para soldadura MIG](/alambre-para-soldadura-mig/) y luego el manual del equipo. Para un trabajo en aluminio, revisá también la guía de [soldadora para aluminio](/para-aluminio/).
 
 | Componente | Qué debe coincidir | ESAB HandyArc MIG 160i, suministro documentado | Lüsqtoff MIGDUAL200-9, suministro documentado |
 | :--- | :--- | :--- | :--- |
@@ -83,6 +80,8 @@ No hay un precio total fiable que se pueda calcular solo desde estas fichas: no 
 
 **Análisis TallerLab:** calculá **fuente + consumibles iniciales + suministro de gas + accesorios faltantes + puesta a punto de la red + reposición prevista**. Repetí la suma para los dos equipos con la misma mezcla y tamaño de cilindro, el mismo peso de carrete y los accesorios que efectivamente usarás. No usamos los precios que las páginas comerciales puedan mostrar porque cambian y no constituyen una cotización entregada al usuario.
 
+Si necesitás mover la fuente y el cilindro dentro del taller, contemplá también un [carro para soldadora MIG](/carro-para-soldadora-mig/) en el equipamiento completo.
+
 **Desconocido:** no se informa qué regulador, cilindro, gas ni carrete incluye cada vendedor ni qué mezcla conviene para una aleación y unión concretas. No se probó arco ni se recomendaron parámetros de procedimiento.
 
 ## Fuentes consultadas
@@ -90,6 +89,11 @@ No hay un precio total fiable que se pueda calcular solo desde estas fichas: no 
 - **Documentación primaria:** [ESAB HandyArc MIG 160i, ficha Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/); [ficha técnica ESAB HandyArc MIG 160i con componentes suministrados y opcionales](https://assets.esab.com/asset-bank/assetfile/131055); [Lüsqtoff MIGDUAL200-9, producto y accesorios listados](https://lusqtoff.com.ar/ver-producto/MIGDUAL200-9); [catálogo oficial Lüsqtoff 2024/25](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [ESAB Weld 70S-6, gases publicados para el producto](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/); [Miller, comparación de alambre macizo y tubular](https://www.millerwelds.com/en-us/resources/knowledge-hub/mig-welding/how-to/solid-wire-versus-flux-cored-wire-when-to-use-them-and-why).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [MIG sin gas y alambre tubular autoprotegido](/soldadoras/mig-sin-gas/) o [alambre MIG macizo: clasificación y gases](/soldadoras/alambre-para-soldadura-mig/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

@@ -19,30 +19,19 @@ published: true
 
 # Soldadoras TIG: guía para elegir tu equipo
 
+## DC o AC/DC
+
+TIG DC suele cubrir trabajos en acero al carbono e inoxidable si la ficha del equipo confirma el material. AC/DC se vuelve especialmente relevante para soldar aluminio: comprobá que la fuente declare salida TIG AC y que su rango y ciclo sirvan para la pieza. Revisá la ficha de la [soldadora TIG AC/DC](/soldadora-tig-ac-dc/) y la guía para [soldar aluminio](/para-aluminio/).
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo indicado. Esta guía es documental, sin prueba física ni muestra de opiniones. Las funciones que una ficha no confirma se identifican como **No confirmado**.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
 ## Qué es TIG y para qué sirve
 
-TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumible, protegido por gas. El material de aporte se agrega por separado cuando la junta lo necesita. Este control del arco y del aporte sirve para trabajos donde importan el acabado y el control del baño, por ejemplo en acero al carbono e inoxidable. El resultado también depende de la preparación, el espesor, la junta y la práctica del soldador; que una máquina diga “TIG” no basta para confirmar todos los materiales o funciones.
+TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumible, protegido por gas. El material de aporte se agrega por separado cuando la junta lo necesita. Este control del arco y del aporte sirve para trabajos donde importan el acabado y el control del baño, por ejemplo en acero al carbono e inoxidable; para este último, revisá también los [electrodos para acero inoxidable](/electrodo-para-acero-inoxidable/). El resultado depende de la preparación, el espesor, la junta y la práctica del soldador; que una máquina diga “TIG” no basta para confirmar todos los materiales o funciones.
 
 En una fuente TIG también hay que revisar qué incluye el conjunto: como mínimo pueden hacer falta antorcha compatible, tungsteno, gas y su regulación, material de aporte apropiado y protección personal. Los accesorios incluidos cambian según modelo y publicación.
-
-## Diferencias entre DC y AC/DC
-
-En la [ficha de la ESAB ET 200i AC/DC](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/), la marca declara salida TIG AC y DC, con salida AC para aluminio y aleaciones indicadas, y DC para los demás metales. Para elegir una TIG destinada a aluminio, buscá que la ficha del modelo y su versión declaren explícitamente TIG AC; la sigla del nombre por sí sola no alcanza.
-
-Una TIG DC puede servir para acero al carbono e inoxidable cuando el fabricante identifica esos materiales, pero no debe presentarse como solución para aluminio sin confirmación de corriente AC. La [Lüsqtoff ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) se describe como TIG DC/MMA y la [PROTIG180-8](https://lusqtoff.com.ar/ver-producto/PROTIG180-8) no publica en su ficha consultada una salida TIG AC: por eso no las recomendamos para aluminio sobre la base de esta documentación.
 
 ## Encendido y funciones importantes
 
@@ -58,14 +47,14 @@ Una TIG DC puede servir para acero al carbono e inoxidable cuando el fabricante 
 
 Primero resolvé material, duración de las pasadas y red disponible. Después compará modelos. Sin precios equivalentes y vigentes para todos los equipos y accesorios, no asignamos rangos monetarios: el costo de entrada también depende del gas, el regulador, la antorcha y los consumibles que haya que sumar.
 
-| Necesidad | Criterio de elección | Ruta interna |
-| :--- | :--- | :--- |
-| Acero al carbono o inoxidable | Elegí TIG DC si la ficha del modelo confirma el material y el ciclo de trabajo alcanza para tus pasadas. | [Comparar fuentes TIG AC/DC y alimentación](/soldadoras/soldadora-tig-ac-dc/) |
-| Aluminio | Exigí TIG AC explícito; compará además rango y ciclo en AC. La ET 200i declara AC/DC; la TIG350ACDC-9 es una alternativa trifásica documentada. | [Ver equipos TIG AC/DC para aluminio](/soldadoras/soldadora-tig-ac-dc/) |
-| Trabajo eventual | Priorizá la compatibilidad con la red y los materiales, facilidad de encendido y accesorios incluidos. El amperaje máximo no describe por sí solo la duración de trabajo. | [Ver guía de soldadoras para casa y taller](/soldadoras/) |
-| Trabajo prolongado o repetitivo | Compará el ciclo de trabajo a la corriente que realmente necesitás. Si la aplicación demanda pasadas largas, no extrapoles un punto de ciclo a otro amperaje. | [Comparar ciclos TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) |
-| Red monofásica de 220 V | Las ET 200i, ST-200 y PROTIG180-8 aquí documentadas declaran alimentación monofásica de 220 V. Aun así, cotejá corriente de entrada y requisitos de instalación con el manual del modelo exacto. | [Ver la comparación por tensión y fases](/soldadoras/soldadora-tig-ac-dc/) |
-| Red trifásica de 380 V | La TIG350ACDC-9 declara 380 V trifásicos; confirmá disponibilidad de esa red y que los accesorios necesarios estén incluidos (la marca informa que su cable de alimentación no está incluido). | [Ver TIG AC/DC de 220 V y 380 V](/soldadoras/soldadora-tig-ac-dc/) |
+| Necesidad | Criterio de elección |
+| :--- | :--- |
+| Acero al carbono o inoxidable | Elegí TIG DC si la ficha del modelo confirma el material y el ciclo de trabajo alcanza para tus pasadas. |
+| Aluminio | Exigí TIG AC explícito; compará además rango y ciclo en AC. La ET 200i declara AC/DC; la TIG350ACDC-9 es una alternativa trifásica documentada. |
+| Trabajo eventual | Priorizá la compatibilidad con la red y los materiales, facilidad de encendido y accesorios incluidos. El amperaje máximo no describe por sí solo la duración de trabajo. |
+| Trabajo prolongado o repetitivo | Compará el ciclo de trabajo a la corriente que realmente necesitás. Si la aplicación demanda pasadas largas, no extrapoles un punto de ciclo a otro amperaje. |
+| Red monofásica de 220 V | Las ET 200i, ST-200 y PROTIG180-8 aquí documentadas declaran alimentación monofásica de 220 V. Aun así, cotejá corriente de entrada y requisitos de instalación con el manual del modelo exacto. |
+| Red trifásica de 380 V | La TIG350ACDC-9 declara 380 V trifásicos; confirmá disponibilidad de esa red y que los accesorios necesarios estén incluidos (la marca informa que su cable de alimentación no está incluido). |
 
 ### Modelos documentados
 
@@ -85,6 +74,11 @@ Primero resolvé material, duración de las pasadas y red disponible. Después c
 - **Documentación primaria:** [ESAB ET 200i AC/DC, funciones y especificaciones](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [Lüsqtoff ST-200, ficha y estado discontinuado](https://lusqtoff.com.ar/ver-producto/ST-200); [manual oficial ST-200](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf); [Lüsqtoff PROTIG180-8, ficha e incluidos](https://lusqtoff.com.ar/ver-producto/PROTIG180-8); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9); [guía técnica TIG de ESAB](https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/); [pedal TIG ESAB T1](https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [fichas de fuentes TIG AC/DC y alimentación](/soldadoras/soldadora-tig-ac-dc/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

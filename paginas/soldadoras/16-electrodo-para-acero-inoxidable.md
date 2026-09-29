@@ -19,26 +19,7 @@ published: true
 
 # Cómo elegir electrodos para acero inoxidable
 
-<!-- AUDITORIA_EDITORIAL_178 -->
-
-**Dato documentado:** los datos de producto se atribuyen a la ficha indicada. Esta guía es documental; no incluye prueba física ni sustituye una especificación de procedimiento.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
-## Identificar el acero y la unión
-
-Antes de elegir el electrodo, identificá el grado exacto del metal base mediante marcado, certificado, plano o trazabilidad del material. “Inoxidable” agrupa aleaciones distintas: la familia 308L, 316L o 309L no se elige sólo por el aspecto de la pieza ni porque ambas partes sean inoxidables.
-
-También anotá qué une la junta (mismo grado o materiales disímiles), el espesor y la preparación, y dónde trabajará la pieza: temperatura, humedad, sales/cloruros, químicos, limpieza requerida y consecuencias de una falla. Esos factores pueden exigir resistencia a la corrosión, control de calidad y procedimiento calificado; cuando el servicio sea crítico, confirmá la selección con ingeniería o con el procedimiento aplicable.
-
-### Metal base o unión → familia de aporte orientativa
+## Metal base o unión → familia de aporte orientativa
 
 | Metal base / unión que se pudo documentar | Familia de aporte a revisar | Alcance de la referencia |
 | :--- | :--- | :--- |
@@ -46,7 +27,19 @@ También anotá qué une la junta (mismo grado o materiales disímiles), el espe
 | AISI 316 o 316L | 316L | La ficha de Cromarco 316L-16 Premium E316L-16 declara esa aplicación; también menciona resistencia al pitting en industrias textil, papelera y química. |
 | Aceros disímiles o inoxidables de composiciones similares | 309L | La página argentina de ESAB para OK 67.61 describe ese uso y publica E309L-16. No identifica en esa descripción cada pareja posible: verificá la combinación exacta en ficha y procedimiento. |
 
-Esta matriz refleja **esas fichas concretas**, no una tabla universal de equivalencias ni una aprobación de cualquier junta hecha con esa familia. Si no conocés el grado, si la unión es disímil o si el servicio es exigente, no elijas por el nombre comercial del acero: confirmá metal base, aporte y procedimiento antes de soldar.
+La matriz refleja **esas fichas concretas**, no equivalencias universales ni aprobación de cualquier junta. Identificá el grado y verificá la combinación de metal, aporte y procedimiento.
+
+<!-- AUDITORIA_EDITORIAL_178 -->
+
+**Dato documentado:** los datos de producto se atribuyen a la ficha indicada. Esta guía es documental; no incluye prueba física ni sustituye una especificación de procedimiento.
+
+## Identificar el acero y la unión
+
+Antes de elegir el electrodo, identificá el grado exacto del metal base mediante marcado, certificado, plano o trazabilidad del material. “Inoxidable” agrupa aleaciones distintas: la familia 308L, 316L o 309L no se elige sólo por el aspecto de la pieza ni porque ambas partes sean inoxidables.
+
+También anotá qué une la junta (mismo grado o materiales disímiles), el espesor y la preparación, y dónde trabajará la pieza: temperatura, humedad, sales/cloruros, químicos, limpieza requerida y consecuencias de una falla. Esos factores pueden exigir resistencia a la corrosión, control de calidad y procedimiento calificado; cuando el servicio sea crítico, confirmá la selección con ingeniería o con el procedimiento aplicable.
+
+Si no conocés el grado, si la unión es disímil o si el servicio es exigente, no elijas por el nombre comercial del acero: confirmá metal base, aporte y procedimiento antes de soldar. Si estás comparando otro proceso, consultá la guía de [soldadura TIG](/tig/).
 
 ## Diferencias entre clasificaciones
 
@@ -69,6 +62,8 @@ Elegí diámetro y corriente según el espesor, la posición, el acceso y el con
 | ESAB OK 67.61 N, E309L-16 | 2,5 mm: 50–90 A; 3,2 mm: 80–120 A; 4,0 mm: 95–170 A; 5,0 mm: 120–230 A. La página indica CC+ o CA. |
 
 Estos son datos de las páginas de producto enlazadas, no una recomendación de amperaje para toda unión. Revisá también si tu equipo entrega la corriente y polaridad indicadas, el diámetro que admite y la alimentación disponible; en caso de discrepancia, prevalece la ficha vigente del paquete comprado.
+
+Si necesitás más margen de salida MMA, compará el consumible y su ciclo con una [inverter de 200 A](/soldadora-inverter-200-amp/).
 
 ## Contaminación, limpieza y servicio
 
@@ -102,8 +97,13 @@ Antes de pedir, cotejá estos puntos con el proveedor y con la ficha vigente:
 - **Limpieza, fabricación y servicio:** [Applications for Stainless Steel in the Water Industry, Water Industry Specifications Board](https://standards-board.water.org.uk/wp-content/uploads/2023/08/IGN-4-25-02-Issue-2-August-2023-published-version-1.pdf) (secciones de fabricación, contaminación y mantenimiento).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [electrodo para fundición: Ni-CI y NiFe-CI](/soldadoras/electrodo-para-fundicion/).
+Para otra aplicación de reparación: [electrodo para fundición: Ni-CI y NiFe-CI](/soldadoras/electrodo-para-fundicion/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
 
-Para explorar la categoría: [guías relacionadas](/soldadoras/electrodo-7018/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

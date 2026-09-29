@@ -89,7 +89,7 @@ Los litros describen la capacidad del tanque, no el caudal sostenido. Hay modelo
 
 - **24 L:** portátil y con poca reserva. Tiene sentido mirar esta capacidad para retoques o tareas breves solo si el FAD cubre el consumo y el ciclo admite la frecuencia de uso. No elijas por “2 HP” sin la salida efectiva.
 - **50 L:** más reserva y menos arranques que un tanque menor ante consumos similares, pero el tamaño no corrige una bomba que entrega menos aire que la pistola requiere. En fichas BTA, 25 y 50 L publican la misma admisión de 206 L/min y no publican FAD.
-- **100 L:** puede extender el tiempo entre recuperaciones y favorecer trabajos de mayor duración, según la bomba. No se debe suponer que entrega más aire por tener el tanque más grande. Para pintura continua, buscá primero FAD y ciclo; luego elegí volumen de tanque suficiente para reserva y recuperación.
+- **[100 L](/compresores/100-litros/):** puede extender el tiempo entre recuperaciones y favorecer trabajos de mayor duración, según la bomba. No se debe suponer que entrega más aire por tener el tanque más grande. Para pintura continua, buscá primero FAD y ciclo; luego elegí volumen de tanque suficiente para reserva y recuperación.
 
 **Análisis TallerLab:** la comparación Einhell sirve porque informa caudal de salida a presiones concretas: el equipo de 24 L publica 75 L/min a 4 bar, el de 50 L 135 L/min a 4 bar y el de 90 L 210 L/min a 4 bar. Esos datos ayudan a descartar o preseleccionar, pero no se deben trasladar a otra presión con una regla de tres ni asumir que el tanque por sí solo resuelve un déficit sostenido.
 
@@ -158,6 +158,4 @@ Si el vendedor solo informa HP, litros, presión máxima o admisión, preguntá 
 
 Para seguir comparando: [pistolas para pintar con compresor](/compresores/pistola-para-pintar/), [compresores de 24 litros](/compresores/24-litros/) y [compresores de 50 litros](/compresores/50-litros/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

@@ -55,11 +55,11 @@ En los D210/8 antiguos, Stanley declara lubricación convencional. Para mantenim
 
 Los FHY227/10/24V y FHY227/10/50V se describen como de accionamiento lubricado, pero con cabeza “lubricada de por vida” que no necesita agregado de aceite. No los confundas con bombas oil-free: consultá el manual de la unidad para el mantenimiento que sí corresponde.
 
-El D270/10/100V y el D230/10/50V de la documentación Stanley 2020 son ejemplos de accionamiento directo sin aceite. Esto evita controlar y cambiar aceite de bomba, pero no elimina tareas como drenar condensado, limpiar admisión ni respetar el ciclo de trabajo.
+El D270/10/100V y el D230/10/50V de la documentación Stanley 2020 son ejemplos de accionamiento directo [sin aceite](/compresores/sin-aceite/). Esto evita controlar y cambiar aceite de bomba, pero no elimina tareas como drenar condensado, limpiar admisión ni respetar el ciclo de trabajo.
 
 ## Qué cambia entre 24, 50 y 100 litros
 
-El tanque es una reserva, no una medida de producción de aire. Si dos equipos tienen la misma bomba y caudal útil, uno de 50 L puede sostener una demanda momentánea durante más tiempo antes de recuperar presión, pero también ocupa más lugar y pesa más. Para uso repetido, verificá salida a presión de trabajo y ciclo, además de capacidad.
+El tanque es una reserva, no una medida de producción de aire. Al pasar de [24 litros](/compresores/24-litros/) a [50 litros](/compresores/50-litros/) o [100 litros](/compresores/100-litros/), aumenta la reserva antes de recuperar presión, no la producción propia de la bomba. Si dos equipos tienen la misma bomba y caudal útil, el tanque más grande puede sostener una demanda momentánea durante más tiempo, pero también ocupa más lugar y pesa más. Para uso repetido, verificá salida a presión de trabajo y ciclo, además de capacidad.
 
 Un 24 L puede resultar práctico para inflado, soplado breve, clavado o engrapado intermitente si el caudal requerido cabe en lo que entrega el modelo. Un 50 L agrega reserva para ciclos de trabajo más largos, pero hay mucha diferencia entre 126, 135 y 172 L/min entregados a 7 bar según los ejemplos de esta guía. Un tanque de 100 L ayuda a espaciar arranques; no convierte por sí solo una bomba de 135 L/min en una de mayor caudal.
 
@@ -104,6 +104,4 @@ El D230/10/50V figura en el catálogo Stanley de 2020: 50 L, 2 HP (1,5 kW), 10 b
 
 Para seguir comparando: [compresores de 50 litros](/compresores/50-litros/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

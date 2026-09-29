@@ -23,15 +23,6 @@ published: true
 
 Esta es la página central para elegir entre **K2, K3, K4 y K5 vendidos para Argentina**. La recomendación rápida está abajo; cada enlace abre la guía del escalón para ver variantes, mantenimiento y comparación detallada. Los SKU identifican configuraciones concretas: no todas las cajas “Car”, “Home” o “Power Control” traen lo mismo.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
 ## Selector rápido: cuál Kärcher elegir según el trabajo
 
 | Elegí… | Conviene si… | No pagues el salto si… | Qué cambia en la ficha argentina |
@@ -40,6 +31,8 @@ Esta es la página central para elegir entre **K2, K3, K4 y K5 vendidos para Arg
 | [**K3 Black Edition**](/hidrolavadoras/karcher-k3/) · SKU 9.398-355.0 | Lavarás auto, moto, patio o jardín con frecuencia doméstica y te sirven ruedas, guardado de accesorios y boquilla de espuma del kit publicado. | La usás poco y sólo con suciedad ligera (K2); o precisás el alcance de manguera de 8 m documentado en K4 PC. | 120 bar, 330 L/h, 1.500 W, 7,3 kg sin accesorios; Vario Power y boquilla de espuma. La ficha argentina consultada no publica largo de manguera. |
 | [**K4 Power Control**](/hidrolavadoras/karcher-k4/) · SKU 1.603-402.0 | Querés un escalón doméstico más capaz para autos, patio, piscina o exteriores y valorás control de presión en la pistola, manguera de 8 m y motor refrigerado por agua. | No necesitás esos accesorios/alcance o el precio y disponibilidad de la versión no justifican el extra. La tienda oficial consultada la marcaba sin disponibilidad. | 130 bar, hasta 420 L/h, 1.800 W, 8 m; motor de inducción refrigerado por agua, pistola Power Control, Vario Power y boquilla turbo. |
 | [**K5**](/hidrolavadoras/karcher-k5/) · SKU 9.398-295.0 | La suciedad es más pesada/adherida, cubrís superficies grandes o además querés trabajar vehículos grandes; Kärcher la destina a limpieza más exigente y declara motor de inducción y cabezal de aluminio. | Tus tareas son ocasionales y chicas: el caudal, tamaño y costo adicional probablemente no se aprovechen. | 2.100 psi (≈145 bar por conversión), 420 L/h, 1.900 W, manguera HP 6 m; motor de inducción, cabezal de aluminio, Vario Power y turbo. |
+
+Si la prioridad es el vehículo, usá la [guía de hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/) para elegir por frecuencia, manguera y accesorios.
 
 **Regla práctica, no ranking de laboratorio:** al subir de escalón importan el caudal, la continuidad/alcance de trabajo, el kit y la construcción declarada; el número de presión por sí solo no predice cuánto tardarás ni autoriza acercar la boquilla a pintura, juntas o materiales delicados. Para superficies sensibles, regulá presión/ángulo y probá primero en un sector poco visible.
 
@@ -85,4 +78,4 @@ Para equipos Kärcher Home & Garden, la marca informa **12 meses de garantía** 
 - Garantía/service: [FAQ y asistencia oficial argentina](https://www.kaercher.com/ar/servicios/asistencia.html).
 - Investigación documental; no se hizo prueba física ni se analizó una muestra de opiniones de compradores.
 
-Para un uso profesional o jornadas prolongadas, consultá la [guía de dimensionamiento profesional](/hidrolavadoras/profesionales/). Para elegir por tarea entre marcas, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).
+Para elegir por tarea entre marcas, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

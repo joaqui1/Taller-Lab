@@ -23,16 +23,7 @@ published: true
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
-### SML120-8D vs SML120-8DK
+## SML120-8D vs SML120-8DK
 
 | Dato | SML120-8D: unidad | SML120-8DK: kit |
 | :--- | :--- | :--- |
@@ -43,11 +34,33 @@ published: true
 | Accesorios declarados para la unidad | Pinza de masa, pinza portaelectrodo, torcha Flux y picos de contacto. | La ficha de kit lista la soldadora SML120-8D y pinzas; la página también enumera careta ST-1X, dos escuadras magnéticas LQE-6001 y rollo Flux LQFLUX045. Verificá la lista de la oferta concreta. |
 | Qué diferencia la presentación | Máquina y accesorios listados para SML120-8D; no asumir que incluya máscara, escuadras o bobina. | Presentación de kit con accesorios adicionales declarados por el fabricante. |
 
+## 200 V vs 220 V
+
 > **TENSIÓN A VERIFICAR ANTES DE CONECTAR:** La ficha oficial de la unidad y la ficha oficial del kit publican 200 V; el manual de la fuente SML120-8D y algunas publicaciones del kit indican 220 V. Es una discrepancia entre fuentes, no evidencia suficiente para elegir una de las tensiones. No la resolvemos por inferencia: pedí la foto legible de la placa y el manual correspondiente al código exacto de la unidad que vas a recibir, y confirmá la alimentación con el vendedor/fabricante antes de conectarla.
 
 **Análisis TallerLab:** el sufijo K identifica la presentación en kit; las fuentes publican los mismos procesos y rangos de la fuente base. Las masas difieren en 1,5 kg entre las fichas (8,1 menos 6,6 kg), pero eso no demuestra que todo el delta sea sólo la caja y los accesorios. El dato de tensión sí difiere según referencia: ficha de 8D, ficha de 8DK, manual de la fuente base y publicaciones de vendedores deben cotejarse con la placa del equipo entregado.
 
+## Qué incluye el kit
+
+La ficha del 8DK enumera la soldadora SML120-8D, máscara ST-1X, dos escuadras LQE-6001 y bobina Flux LQFLUX045. Confirmá la lista y el estado de cada elemento en la oferta concreta.
+
+## Qué comprobar antes de comprar
+
+- Código completo en la placa, ficha y factura: SML120-8D o kit SML120-8DK.
+- Tensión de placa y manual para la unidad entregada; resolvé la discrepancia 200/220 V antes de conectarla.
+- Corriente, ciclo y proceso que necesitás; verificá manual y consumibles admitidos.
+- Accesorios efectivamente incluidos, estado del carrete y garantía del vendedor.
+
 **Desconocido:** las fuentes no publican aquí una masa separada para cada accesorio, ni confirman existencias, garantía de una oferta externa o consumibles incluidos más allá de los enumerados. No se comparó rendimiento de cordón ni se probó el equipo.
+
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026
 
 ## Fuentes consultadas
 
@@ -55,8 +68,4 @@ published: true
 - **Publicación comercial consultada para contraste:** [Lüsqtoff Bera, SML120-8DK](https://www.lusqtoffbera.com.ar/productos/soldadora-inverter-dual-mig-mma-flux-electrodo-120a-lusqtoff/), que publica 220 V; no sustituye placa ni manual del fabricante.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [comparativa de soldadoras MIG Flux Lüsqtoff por modelo](/soldadoras/mig-lusqtoff/).
-
-Para criterios generales sobre alambre autoprotegido, polaridad y alimentación: [guía de soldadoras MIG sin gas](/soldadoras/mig-sin-gas/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Familia: [MIG Flux Lusqtoff](/mig-lusqtoff/). Proceso y compatibilidad: [MIG sin gas](/mig-sin-gas/). Marca: [soldadoras Lusqtoff](/lusqtoff/).

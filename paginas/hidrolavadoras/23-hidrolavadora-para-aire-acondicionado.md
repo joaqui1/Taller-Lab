@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Selector de requisitos para equipos de limpieza HVAC, diferenciado por unidad interior y exterior, con advertencia contra el uso directo de hidrolavadoras domésticas de alta presión."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -30,7 +30,7 @@ La búsqueda suele llevar a hidrolavadoras domésticas, pero limpiar un aire aco
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 27/09/2026
+- Última revisión: 29/09/2026
 
 ## Qué comprobar en la publicación
 
@@ -56,7 +56,15 @@ Las instrucciones dependen del diseño de la unidad. Carrier recomienda para su 
 
 ## Publicación para revisar
 
-Usá esta lista al evaluar el producto concreto, no sólo el nombre comercial:
+### SpeedClean CoilJet CJ-125: equipo HVAC publicado en Argentina
+
+Este sí es un limpiador portátil diseñado para serpentines de condensadores y evaporadores HVAC, no una hidrolavadora doméstica genérica. El [manual del fabricante](https://speedclean.com/wp-content/uploads/2015/07/CJ125_Manual_0415.pdf) publica **125 PSI (8,5 bar) de salida**, **0,7 GPM (2,6 L/min)**, bomba de diafragma, batería recargable VRLA de 12 V, tanque de agua integrado de 12,5 L, tanque químico de 1,6 L y peso seco de 10 kg. Está pensado para llevar su propia agua y aplicar limpiador de serpentines seguido de un enjuague.
+
+Una [publicación de Mercado Libre Argentina](https://www.mercadolibre.com.ar/limpiador-evaporable-speedclean-cj-125-portatil-para-condens/p/MLA2089995030) lo ofrece por **$3.802.000**, con **5 unidades publicadas** y preparación estimada de 12 días; el vendedor aclara que lo importa a pedido. Precio y disponibilidad consultados el **29/09/2026**. No es stock local de entrega inmediata ni prueba de servicio oficial argentino: antes de comprar, confirmá plazo, factura, garantía, cargador/enchufe compatible, kit completo y disponibilidad de repuestos. El manual admite cargador 115/230 V, pero verificá que la unidad importada incluya la versión adecuada.
+
+Su presión de salida mucho menor que la de una hidrolavadora doméstica no lo convierte en seguro para cualquier serpentín o químico: seguí el manual del CoilJet, las indicaciones del producto limpiador y las instrucciones del fabricante del aire acondicionado. El modelo sirve como ejemplo de herramienta diseñada para la tarea; no reemplaza la verificación de acceso, drenaje, técnica y compatibilidad en cada unidad.
+
+Usá esta lista al evaluar esta u otra publicación, no sólo el nombre comercial:
 
 1. ¿Dice explícitamente “limpieza de serpentines”, “HVAC” o identifica las unidades compatibles?
 2. ¿Publica el **rango de presión/control**, caudal y boquillas incluidos, y el manual explica cómo configurarlos para serpentines?
@@ -69,7 +77,7 @@ Si la publicación sólo ofrece una hidrolavadora común por presión máxima, s
 
 ## Cuidados al limpiar
 
-La conclusión importante se mantiene: **no dirijas directamente a las aletas el chorro de una hidrolavadora doméstica de 100–150 bar**. Puede deformarlas y las especificaciones comerciales no declaran una presión/boquilla/distancia segura para todos los serpentines. En el manual Gamma 150, por ejemplo, 100 bar es presión máxima de servicio y 150 bar es presión máxima admisible; ninguna cifra la convierte en herramienta HVAC.
+La conclusión importante se mantiene: **no dirijas directamente a las aletas el chorro de una hidrolavadora doméstica de 100–150 bar**. Puede deformarlas y las especificaciones comerciales no declaran una presión/boquilla/distancia segura para todos los serpentines. El manual Gamma 150, por ejemplo, distingue **100 bar de presión de trabajo** y **150 bar máximos admisibles**; leé la [diferencia entre presión de trabajo y 150 bar máximos](/hidrolavadoras/150-bar/) antes de interpretar esa cifra como aptitud HVAC.
 
 - Cortá y aislá la alimentación según el manual del aire acondicionado antes de cualquier mantenimiento; si no sabés cómo hacerlo con seguridad, encargá la tarea a un técnico.
 - Seguí el procedimiento del fabricante para filtros, carcasa, ventilador, serpentín, químicos y secado. No mojes placas, sensores, motores, conexiones ni controles.
@@ -81,10 +89,7 @@ Esta guía es documental: no se hicieron pruebas con equipos ni se validó un mo
 ### Fuentes consultadas
 
 - **Fabricante de climatización:** [Carrier, limpieza de serpentines de aire acondicionado](https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/); [manual oficial Daikin UATYA, limpieza exterior de serpentines](https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf).
+- **Equipo HVAC:** [manual oficial SpeedClean CoilJet CJ-125](https://speedclean.com/wp-content/uploads/2015/07/CJ125_Manual_0415.pdf); publicación local importada a pedido en [Mercado Libre Argentina](https://www.mercadolibre.com.ar/limpiador-evaporable-speedclean-cj-125-portatil-para-condens/p/MLA2089995030), consultada el 29/09/2026.
 - **Documentación primaria de hidrolavadora:** [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
 
 Para otras tareas con equipos domésticos, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/150-bar/).

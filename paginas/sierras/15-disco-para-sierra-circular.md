@@ -35,6 +35,18 @@ Esta tabla reúne aplicaciones que fabricantes declaran para discos concretos. S
 
 Las recomendaciones de corte fino o reducción de astillado son declaraciones del fabricante, no una prueba comparativa de TallerLab. Una hoja diseñada para laminados puede ser una referencia para melamina, pero comprobá que su ficha incluya el tipo de tablero y que la máquina admita el disco.
 
+## Qué disco usar para cortar melamina
+
+La melamina es un revestimiento frágil sobre un tablero: importan el soporte (MDF o aglomerado), la cara visible, el estado de la hoja y cómo se sostiene y avanza la pieza. No hay un número de dientes que garantice por sí solo un canto sin astillas.
+
+| Material | Acabado buscado | Dientes y geometría en ejemplos documentados | Comprobaciones antes de cortar |
+| :--- | :--- | :--- | :--- |
+| Tablero aglomerado o MDF melaminado | Reducir el astillado del revestimiento en la cara visible | Bosch Expert for Laminated Panel de 190 mm: 60 dientes ATB; la ficha lo destina a paneles laminados | Confirmá que el fabricante incluya el tablero en la aplicación; diámetro y agujero admitidos; velocidad máxima; lado de salida del diente y sentido de avance según el manual |
+| Contrachapado o tablero revestido | Canto limpio en el tipo de tablero indicado | Diablo D0760A, 184 mm y 60 dientes ATB: el fabricante declara uso en contrachapado y melamina | Revisá la aplicación exacta, el espesor del disco y la compatibilidad con la máquina; usá apoyo y sujeción adecuados |
+| MDF sin revestimiento | Corte fino según la aplicación de la hoja | Bosch PRO Multi Material de 190 mm: 54 dientes HLTCG; la ficha declara MDF | No asumir que un disco multimaterial está indicado para melamina; verificá material, geometría, ancho de corte y límites de la sierra |
+
+El acabado también depende del tablero y del montaje. Elegí una [sierra circular](/sierras/circulares/) adecuada al trabajo y, para cortes largos, revisá la [guía para sierra circular](/sierras/guia-para-sierra-circular/). En los ejemplos de compatibilidad, las fichas de la [Bosch GKS 150](/sierras/bosch-gks-150/), la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/) y la [Stanley SC16](/sierras/stanley-sc16/) muestran por qué hay que comprobar diámetro y eje para cada máquina: no extrapoles la medida de una a las otras.
+
 ## Geometría, dientes y ancho de corte
 
 - **ATB (Alternate Top Bevel):** dentado alternado con biseles hacia lados opuestos. Bosch lo usa, por ejemplo, en discos de madera y laminados; la aplicación indicada por la ficha sigue siendo la referencia para elegirlo.

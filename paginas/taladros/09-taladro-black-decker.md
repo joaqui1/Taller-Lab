@@ -2,7 +2,7 @@
 title: "Taladro Black+Decker: qué modelo conviene comprar"
 h1: "Qué taladro Black+Decker elegir para casa"
 url: "/taladros/black-decker/"
-description: "Guía para elegir un taladro BLACK+DECKER inalámbrico, percutor o con cable según el uso doméstico y el kit."
+description: "Comparamos los taladros BLACK+DECKER BCD702C1, BLD783D1 y DR260C, y sumamos la referencia oficial argentina BCD702C1-AR."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro black decker", "taladro black and decker", "taladro percutor black decker", "taladro inalambrico black decker 20v", "black decker casa"]
@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro Black+Decker elegir para casa
 
-Las fichas oficiales de BLACK+DECKER muestran tres opciones para necesidades distintas. Esta comparación se basa en modelos identificados en el catálogo oficial de Estados Unidos; no confirma que los mismos códigos o kits se vendan hoy en Argentina. Revisá el código, la tensión del cargador y la garantía local del producto ofrecido.
+Las fichas oficiales de BLACK+DECKER muestran tres opciones para necesidades distintas. La tabla compara las variantes identificadas en el catálogo de Estados Unidos; para Argentina, la página oficial local publica el BCD702C1-AR, con batería, cargador bivolt, punta doble y garantía de dos años. Es una referencia regional de la familia BCD702, no confirma que los otros códigos o kits se vendan localmente. Revisá el código y la garantía del producto ofrecido.
 
 ## Modelos con cable e inalámbricos
 
@@ -35,7 +35,7 @@ Las especificaciones no son una prueba comparativa: no hay datos homogéneos par
 
 La percusión del BLD783D1 suma golpes al giro para ayudar en mampostería y agujeros ocasionales en materiales duros. La ficha del fabricante declara hasta 30.000 impactos/min y anuncia hasta 23 agujeros por carga con broca de mampostería de 3/8 in en concreto y batería de 2 Ah; es una condición específica del fabricante, no una garantía de rendimiento en cualquier hormigón.
 
-Para colgar algunos cuadros en ladrillo o hacer perforaciones pequeñas, un percutor puede resultar práctico. Si vas a perforar hormigón con frecuencia, usar diámetros grandes o cincelar, pasá a un rotomartillo SDS: el taladro percutor no tiene el mecanismo ni el encastre SDS. Compará [rotomartillos](/taladros/rotomartillos/) para ese trabajo. En madera y metal, desactivá la percusión.
+Para colgar algunos cuadros en ladrillo o hacer perforaciones pequeñas, un percutor puede resultar práctico. Consultá [cómo elegir un taladro percutor](/taladros/percutores/) según material y diámetro. Si vas a perforar hormigón con frecuencia, usar diámetros grandes o cincelar, pasá a un rotomartillo SDS: el taladro percutor no tiene el mecanismo ni el encastre SDS. Compará [rotomartillos](/taladros/rotomartillos/) para ese trabajo. En madera y metal, desactivá la percusión.
 
 ## Diferencias entre equipos y kits
 
@@ -56,7 +56,7 @@ Para comparar mandriles, torque y baterías entre marcas, consultá [taladros in
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [BLACK+DECKER BCD702C1, taladro inalámbrico básico](https://www.blackanddecker.com/products/bcd702c1); [BLACK+DECKER BLD783D1, taladro percutor inalámbrico](https://www.blackanddecker.com/products/bld783d1); [BLACK+DECKER DR260C, taladro con cable](https://www.blackanddecker.com/products/dr260c); [manual regional BLACK+DECKER LD120, referencia del modelo anterior](https://support.blackanddecker.com/hc/es/article_attachments/115004285093).
+- **Documentación primaria:** [BLACK+DECKER Argentina BCD702C1-AR](https://ar.blackanddecker.global/producto/bcd702c1-ar/taladro-inalambrico-20v-max-litio); [BLACK+DECKER BCD702C1, taladro inalámbrico básico](https://www.blackanddecker.com/products/bcd702c1); [BLACK+DECKER BLD783D1, taladro percutor inalámbrico](https://www.blackanddecker.com/products/bld783d1); [BLACK+DECKER DR260C, taladro con cable](https://www.blackanddecker.com/products/dr260c); [manual regional BLACK+DECKER LD120, referencia del modelo anterior](https://support.blackanddecker.com/hc/es/article_attachments/115004285093).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

@@ -37,6 +37,16 @@ Para elegir entre estas sierras, primero cotejá la mesa y el espacio que tenés
 | Peso | 21,5 kg | 23 kg | 19,6 kg |
 | Potencia publicada | 2.000 W en ficha; catálogo indica 1.800 W de entrada y 2.000 W máx. S6 25 % | 1.800 W de entrada; 2.000 W máx. S6 | 2.000 W máx. |
 
+### Qué está confirmado, contradicho y no informado
+
+| Código | Confirmado en documentos consultados | Contradictorio | No informado |
+| :--- | :--- | :--- | :--- |
+| SML2000-8 | Las fuentes publican mesa, inclinación, profundidades a 90°/45°, peso y datos de disco/potencia | Ficha web: disco 255 mm y 2.000 W; catálogo: disco Ø250 mm y 1.800 W de entrada / 2.000 W máx. S6 25 % | Capacidad longitudinal máxima, rango de la guía y huella total con extensiones abiertas |
+| SML2000-9 | Las fuentes publican medidas parciales de mesa, profundidades a 90°/45°, disco, peso y potencia con condición S6 | No identificamos una discrepancia entre las fuentes consultadas para los datos resumidos | Capacidad longitudinal máxima, fondo total de mesa y rango/fijación de la guía |
+| SML2000B-9 | Las fuentes publican mesa, profundidades a 90°/45°, disco, peso y potencia máxima | No identificamos una discrepancia entre las fuentes consultadas para los datos resumidos | Capacidad longitudinal máxima, rango de la guía y conexión/adaptador de aspiración |
+
+La tabla clasifica lo que encontramos; “no informado” no significa que la máquina carezca de esa prestación. Para la SML2000-8, la contradicción de disco y potencia sigue sin resolverse y no elegimos una cifra por encima de la otra.
+
 **Análisis TallerLab.** El catálogo 2024–2025 describe la SML2000-8 con 1.800 W de entrada y 2.000 W máximos S6 25 %, además de disco de 250 mm, mientras la ficha web anuncia 2.000 W y 255 mm. Son documentos del mismo fabricante con cifras distintas. Una diferencia de 5 mm en el disco afecta la compra de repuestos: pedí foto de la placa, manual y disco de la unidad ofrecida.
 
 La ficha actual de la SML2000-8 publica 65 mm a 45°; la SML2000-9, 60 mm; la SML2000B-9, 55 mm. Si hacés cortes inclinados en madera gruesa, compará ese máximo con el espesor real de tu pieza y confirmá el dato para el código de la unidad.
@@ -55,6 +65,8 @@ Las dimensiones publicadas no bastan para conocer el espacio total de instalaci�
 | Cambiar el disco | Comprobá diámetro, agujero y montaje en la placa y el disco de la unidad. Para SML2000-8 persiste la diferencia 250/255 mm entre catálogo y ficha. |
 
 No hay un ganador único con los datos publicados: la decisión depende de la longitud de rasgado, el bisel, el espacio disponible y los accesorios que realmente vengan con la unidad.
+
+Para criterios generales de capacidad, seguridad y espacio de trabajo, consultá [cómo elegir una sierra de banco](/sierras/de-banco/). También podés comparar la [sierra de banco Einhell](/sierras/de-banco-einhell/).
 
 **Oferta afiliada con variante a confirmar.** La publicación enlazada mezcla los códigos SML2000-8 y SML2000-9. Usala solo para verificar qué unidad se ofrece: pedí foto de placa, manual, disco y accesorios del equipo concreto. La publicación no permite asignar inequívocamente los datos de una de las dos variantes.
 

@@ -2,7 +2,7 @@
 title: "Rotomartillo DeWalt: cuál elegir para tu trabajo"
 h1: "Cómo elegir un rotomartillo DeWalt"
 url: "/taladros/rotomartillo-dewalt/"
-description: "Guía para elegir rotomartillo DeWalt por exigencia, encastre SDS Plus, alimentación y costo de herramienta o kit."
+description: "Comparamos los rotomartillos DeWalt DCH273B, DCH133B y D25333K-QS por energía, encastre SDS Plus y alimentación."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["rotomartillo dewalt", "dewalt d25133k", "rotomartillo dewalt 20v", "dewalt sds plus", "rotomartillo dewalt comprar"]
@@ -22,6 +22,10 @@ published: true
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 Las fichas oficiales de Estados Unidos y Europa permiten comparar dos rotomartillos SDS Plus a batería y una alternativa con cable. No confirman disponibilidad ni configuración en Argentina. Elegí primero por diámetro y frecuencia de perforación, necesidad de cincelar y acceso a red eléctrica; los joules y el máximo de hormigón son datos de catálogo, no una prueba común entre modelos.
+
+### Percutor vs SDS DeWalt
+
+Un taladro percutor DeWalt, como los DCD796 o DCD805, usa mandril convencional y puede cubrir perforaciones ocasionales en mampostería. Para hormigón frecuente, brocas SDS Plus o cincelado, la familia DCH ofrece el encastre y el mecanismo de rotomartillo. Compará [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) con esta guía SDS y revisá también [taladros inalámbricos DeWalt](/taladros/dewalt-inalambrico/) por uso y plataforma.
 
 ## Modelos según exigencia
 
@@ -59,6 +63,6 @@ Para comparar el costo de compra, sumá herramienta, batería y cargador si te f
 - **Seguridad:** seguir el manual de la variante y las indicaciones de EPP.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [rotomartillos](/taladros/rotomartillos/).
+[Comparativa de rotomartillos](/taladros/rotomartillos/).
 
-Para explorar la categoría: [guías de taladros](/taladros/rotomartillos/).
+[Ver todas las guías de taladros](/taladros/).

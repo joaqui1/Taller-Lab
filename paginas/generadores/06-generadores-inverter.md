@@ -38,6 +38,8 @@ En un convencional, la velocidad del motor y la frecuencia de salida están más
 
 Un inverter merece atención cuando necesitás mover el generador, valorás una salida con tensión y frecuencia controladas, tenés cargas que varían durante el uso o el modelo ofrece mediciones de ruido y autonomía adecuadas a tu situación. Para aparatos electrónicos, verificá los valores eléctricos y la compatibilidad que pida su manual; no tomes la etiqueta inverter como una garantía universal.
 
+Si la carga es pequeña y no necesitás alimentar motores, compará también una [estación de energía portátil](/generadores/estacion-de-energia-portatil/): funciona con batería y no requiere un motor de combustión durante el uso; revisá su potencia y autonomía publicadas.
+
 Compará un convencional cuando priorices más capacidad por el presupuesto disponible, las cargas sean estables y compatibles con su regulación, o el generador vaya a quedar fijo en un lugar donde su tamaño y ruido no condicionen el uso. En ambos casos, la potencia nominal, los picos y la instalación deciden si sirve para tu carga.
 
 ## Cómo elegir la potencia: marcha y picos
@@ -75,8 +77,6 @@ Las cifras de ruido sirven solo con distancia y condición de medición. Honda p
 - **Precio observado de Honda EU22i:** publicación [Mobimotos](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/). Consulta: 28/09/2026.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [generadores portátiles: comparar formato y datos](/generadores/portatiles/).
+Para seguir comparando: [generador eléctrico para casa](/generadores/para-casa/), [generadores silenciosos](/generadores/silenciosos/), [portátiles](/generadores/portatiles/) y [estación de energía portátil](/generadores/estacion-de-energia-portatil/); para comparar otros tipos y escalas, consultá la [comparativa general](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Ayuda a decidir si la Gamma 130 G2513AR alcanza para tareas domésticas y cuándo conviene el escalón de Gamma 150 G2514AR, con prestaciones y usos oficiales."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -57,7 +57,7 @@ La **Gamma 150 Elite Red Line G2514AR** sigue siendo de uso doméstico, pero pub
 | :--- | ---: | ---: | ---: |
 | Potencia | 1.600 W | 1.800 W | +200 W |
 | Presión máxima de servicio | 90 bar | 100 bar | +10 bar |
-| Presión máxima admisible | 130 bar | 150 bar | +20 bar |
+ | Presión máxima admisible | 130 bar | 150 bar | +20 bar; comparar también hidrolavadoras de 150 bar |
 | Caudal | 360 L/h | 400 L/h | +40 L/h |
 | Manguera | 5 m | 5 m | Sin diferencia publicada |
 | Detergente | Tanque | Tanque; dosificador regulable con control desde la lanza indicado por Gamma | Revisá si la regulación adicional te sirve |
@@ -66,15 +66,27 @@ Ambos modelos incluyen AutoStop, ruedas y se describen para uso doméstico. Las 
 
 Antes de pagar más, compará el precio de los dos artículos disponibles, el contenido exacto de la caja y el accesorio de detergente que trae cada versión. La página oficial consultada ofrece “Dónde comprar”, pero no muestra un precio único de venta; los valores pueden variar entre distribuidores.
 
+## Uso, mantenimiento y accesorios
+
+La G2513AR se entrega con tanque de detergente y manguera de alta presión de **5 m**; confirmá con el vendedor si pistola, lanza, filtro de entrada, adaptador y boquillas están incluidos en la unidad cotizada. No confundas la manguera de alta presión con la manguera de alimentación que va de la canilla a la entrada de agua.
+
+1. **Antes de encender:** conectá la alimentación de agua y la manguera de alta presión, abrí la canilla y apretá el gatillo con la máquina apagada hasta que el agua salga continua y sin aire. Recién entonces encendé el motor; no la hagas funcionar en seco.
+2. **Filtro y caudal:** usá agua limpia con caudal suficiente para los 360 L/h publicados. Revisá el filtro de entrada y enjuagalo si tiene sedimentos; una manguera doblada, una canilla con poco caudal o aire en el circuito pueden hacer pulsar o perder fuerza al chorro.
+3. **Boquilla y lanza:** empezá con el abanico abierto y a distancia prudente. Si baja la presión, apagá y desenchufá antes de desmontar; limpiá la boquilla con el accesorio indicado en el manual y enjuagala. No la destapes con la máquina conectada ni con el gatillo presionado.
+4. **Detergente:** usá sólo producto compatible con hidrolavadoras y el tanque/dosificador de la unidad. Aplicalo según el manual y enjuagá el circuito con agua limpia después para que no queden restos.
+5. **Al terminar y guardar:** apagá el equipo, cerrá el agua, apretá el gatillo para descargar presión, desenchufá y vaciá el agua de la máquina y las mangueras. Guardalas sin torsión, protegidas del sol fuerte y de temperaturas bajo cero.
+
+Para una falla, pérdida o reparación de bomba, llevá el código **G2513AR** y la factura a un service Gamma; antes de comprar repuestos, confirmá compatibilidad con el modelo y disponibilidad local.
+
+## Precio y stock de Gamma 130 G2513AR
+
+**Relevamiento: 29/09/2026.** [Ruggeri Hogar publica $199.998](https://www.ruggerihogar.com.ar/productos/hidrolavadora-gamma-g2513ar-elite130-1600w/) para el código **G2513AR**, en 3 cuotas sin interés; su ficha no declara unidades disponibles, por lo que hay que confirmar stock antes de comprar. La ficha del vendedor muestra tanto 360 como 330 L/h en dos líneas de especificaciones; Gamma informa 360 L/h para el G2513AR. Tomá la cifra oficial como referencia y pedí al vendedor confirmar el SKU y ficha que acompañan la unidad.
+
 ## Fuentes y alcance
 
 - Gamma Argentina: [Gamma 130 Elite G2513AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/), [manual Gamma 130 G2513AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf).
 - Gamma Argentina: [Gamma 150 Elite G2514AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/), [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
 
-Revisión documental: 28/09/2026. No incluye prueba física ni una muestra verificable de opiniones de compradores. La disponibilidad y el precio final dependen del distribuidor; comprobá que la placa indique el código de modelo correcto.
+Revisión documental: 29/09/2026. No incluye prueba física ni una muestra verificable de opiniones de compradores. La disponibilidad y el precio final dependen del distribuidor; comprobá que la placa indique el código de modelo correcto.
 
-Para seguir comparando: [Gamma 150: diferencias documentadas con Gamma 130](/hidrolavadoras/gamma-150/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/gamma/).
+Para seguir comparando: [hidrolavadoras Gamma](/hidrolavadoras/gamma/), [Gamma 150: qué cambia frente a la 130](/hidrolavadoras/gamma-150/) y [hidrolavadoras de 150 bar](/hidrolavadoras/150-bar/).

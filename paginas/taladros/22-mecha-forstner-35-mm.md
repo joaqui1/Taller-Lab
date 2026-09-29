@@ -2,7 +2,7 @@
 title: "Mecha Forstner 35 mm: cuál usar para bisagras cazoleta"
 h1: "Cómo elegir una mecha Forstner de 35 mm para bisagras"
 url: "/taladros/mecha-forstner-35-mm/"
-description: "Elegí una mecha Forstner de 35 mm según la bisagra: compará diámetro, profundidad de cazoleta, distancia al borde, plantilla y control de perforación."
+description: "Elegí una mecha Forstner de 35 mm según el herraje: compará diámetro, profundidad de cazoleta, cota al borde y fijaciones para instalar la bisagra."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["mecha forstner", "mecha forstner 35mm", "mecha para bisagra cazoleta", "mecha para bisagra cazoleta 35mm"]
@@ -62,7 +62,7 @@ Blum describe su ECODRILL como una guía manual accionada por taladro para reali
 
 ## Forstner o mecha escalonada
 
-Para alojar una cazoleta en una puerta de madera, usá una Forstner del diámetro indicado: corta una cavidad plana y ciega que permite controlar la profundidad. Una mecha escalonada está pensada para abrir o ampliar agujeros en materiales delgados, como chapa; su forma escalonada no produce el fondo plano y la profundidad regulada que requiere el alojamiento de una bisagra.
+Para alojar una cazoleta en una puerta de madera, usá una Forstner del diámetro indicado: corta una cavidad plana y ciega que permite controlar la profundidad. Una [mecha escalonada para chapa y metal](/taladros/mechas-escalonadas/) está pensada para abrir o ampliar agujeros en materiales delgados; su forma escalonada no produce el fondo plano y la profundidad regulada que requiere el alojamiento de una bisagra.
 
 La Forstner Bosch consultada es para madera. Si la puerta es de melamina sobre aglomerado, MDF, madera maciza u otro tablero, hacé una prueba en un recorte y consultá la ficha del accesorio y del herraje para ese material. El claim de Bosch de “hasta 3 veces más vida útil” frente a una Forstner Bosch estándar queda como dato comercial secundario: no cambia la geometría de montaje ni sustituye el plano de la bisagra.
 

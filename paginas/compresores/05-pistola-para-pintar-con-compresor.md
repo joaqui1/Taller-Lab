@@ -86,7 +86,7 @@ Al terminar, vaciá la copa y limpiá la pistola cuanto antes con el producto o 
 - Diámetros de pico/aguja disponibles y recomendación de boquilla del fabricante del recubrimiento.
 - Capacidad y posición de la copa, peso cargado y frecuencia de recarga.
 - Caudal efectivo del compresor a la presión requerida, más pérdidas en la instalación.
-- Regulador/manómetro, filtro de humedad, manguera y acoples compatibles.
+- Regulador/manómetro, filtro de humedad, manguera y [acoples compatibles](/compresores/acoples-rapidos/).
 - Procedimiento de limpieza y disponibilidad de repuestos para aguja, pico y sellos.
 
 ## Fuentes consultadas
@@ -96,6 +96,4 @@ Al terminar, vaciá la copa y limpiá la pistola cuanto antes con el producto o 
 
 Para seguir comparando: [compresores para pintar](/compresores/para-pintar/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

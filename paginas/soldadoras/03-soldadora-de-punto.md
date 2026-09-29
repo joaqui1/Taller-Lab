@@ -21,20 +21,15 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+## Para baterías
+
+Una soldadora para baterías une pestañas o tiras conductoras con los terminales de celdas mediante pulsos controlados y electrodos pequeños. Se elige por los materiales y espesores admitidos, el ajuste de pulso y el formato de trabajo.
+
+## Para chapa
+
+Un equipo para chapa une láminas superpuestas con pinzas/electrodos de resistencia; un spotter también puede incluir accesorios de tracción para reparar carrocería. Los Telwin de esta guía pertenecen a este grupo. Sus amperajes de punto no se comparan con los valores de energía de una soldadora para pestañas.
+
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
-## Equipos para baterías y para chapa
-
-Son aplicaciones distintas y sus cifras no se comparan entre sí. Para **baterías**, el equipo une pestañas o tiras conductoras con los terminales de celdas mediante pulsos controlados y electrodos pequeños; hay fuentes portátiles alimentadas por una batería externa y sistemas de banco con energía ajustable. Para **chapa/carrocería**, el equipo une chapas superpuestas con pinzas/electrodos de resistencia o trabaja como spotter de reparación con accesorios de tracción. Los Telwin de esta guía pertenecen a este segundo grupo: sus amperajes de punto no describen la capacidad de un soldador de pestañas.
 
 ## Capacidad y materiales compatibles
 
@@ -44,7 +39,7 @@ En chapa, verificá material y recubrimiento, espesor de cada lámina y combinac
 
 ## Portátil o de banco
 
-Para trabajos ocasionales en celdas y pestañas, un controlador portátil puede usar una batería de alta descarga como fuente de soldadura: **no es una soldadora autónoma** si la batería, los cables gruesos, terminales y puntas se compran aparte. Por ejemplo, el fabricante del Malectrics V4 recomienda una batería de automóvil de 12 V con 400–600 CCA y especifica tiras de níquel de 0,1–0,25 mm como rango recomendado para su sistema. CCA describe la batería que lo alimenta, no amperios de soldadura comparables con un spotter de carrocería.
+Para trabajos ocasionales en pestañas, un controlador portátil puede usar una batería de alta descarga como fuente: **no es una soldadora autónoma** si la batería, cables, terminales y puntas se compran aparte. Malectrics V4 recomienda una batería de automóvil de 12 V con 400–600 CCA y tiras de níquel de 0,1–0,25 mm para su sistema. CCA describe la batería de entrada, no amperios de soldadura comparables con un spotter de carrocería.
 
 Para lotes repetibles, más control de parámetros o automatización, un equipo de banco con cabezal de soldadura puede ofrecer ajustes de energía, doble pulso y monitoreo. Sunstone describe su CDDP-A como sistema de descarga capacitiva para pestañas de batería, en variantes de 200, 400, 600 o 1200 Ws, con cabezales y controles según la configuración. Confirmá qué cabezal, pedal y accesorios incluye la cotización.
 
@@ -80,4 +75,11 @@ Los valores Malectrics en **CCA** y los valores Sunstone en **Ws** describen fue
 - **Documentación primaria para chapa/carrocería:** [Telwin Digital Car Spotter 5500 400V](https://www.telwin.com/intl/en/products/repair-systems/823232-digital-car-spotter-5500-400v); [Telwin Digital Spotter 9000](https://www.telwin.com/intl/en/products/spot-welding-machines/823195-digital-spotter-9000); [manual Telwin de soldadora por resistencia](https://www.telwin.com/ExternalAssets/risc6000/954534_L.PDF).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

@@ -66,6 +66,17 @@
       const b = values.priceB + values.shippingB + values.extrasB;
       return result(`Total A: $${format(a)} · Total B: $${format(b)}`, `Diferencia absoluta: $${format(Math.abs(a - b))}. Revisá que sean la misma variante y configuración; el cálculo no compara prestaciones ni financiación.`);
     }
+    if (kind === 'combo-cost') {
+      if (values.bundle <= 0 || values.drill <= 0 || values.grinder <= 0) return result('Ingresá precios para ambas alternativas', 'Completá el precio del combo, del taladro y de la amoladora. Baterías y cargador pueden quedar en cero si ya los tenés, vienen incluidos o no hacen falta.');
+      const separate = values.drill + values.grinder + values.batteries + values.charger;
+      const difference = Math.abs(values.bundle - separate);
+      const comparison = values.bundle === separate
+        ? 'Los dos totales ingresados coinciden.'
+        : values.bundle < separate
+          ? `El combo queda $${format(difference)} por debajo del total separado ingresado.`
+          : `La compra separada queda $${format(difference)} por debajo del precio del combo ingresado.`;
+      return result(`Combo: $${format(values.bundle)} · Por separado: $${format(separate)}`, `${comparison} El total separado suma taladro + amoladora + baterías + cargador. El resultado depende de que hayas cargado la misma configuración y no evalúa calidad, prestaciones, garantía ni financiación.`);
+    }
     if (kind === 'diesel-cost') {
       if (values.rate <= 0 || values.fuelPrice <= 0 || values.interval <= 0) return result('Completá consumo, precio e intervalo', 'Ingresá el consumo de combustible del generador a la carga que esperás usar, el precio por litro y el intervalo indicado en el manual del código.');
       const fuelPerHour = values.rate * values.fuelPrice;

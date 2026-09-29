@@ -21,7 +21,7 @@ published: true
 
 Para agujeros pequeños de fijación, elegí una broca específica para baldosas: Bosch CYL-9 Soft Ceramic está destinada a cerámica blanda; Bosch EXPERT HEX-9 HardCeramic, a baldosas duras. Para una abertura de mayor diámetro, se usa una corona diamantada compatible con el revestimiento y la herramienta. El diámetro del accesorio debe corresponder al agujero final y la ficha debe confirmar el material.
 
-Cerámica y azulejo abarcan revestimientos con dureza distinta. No decidas solo por el color o el nombre “punta flecha”: verificá la aplicación indicada por el fabricante. Si la pieza es porcelanato o no sabés si es una baldosa dura, consultá la [guía de mechas para porcelanato](/taladros/mecha-porcelanato/), que compara accesorios y condiciones específicas para ese material.
+Cerámica y azulejo abarcan revestimientos con dureza distinta. No decidas solo por el color o el nombre “punta flecha”: verificá la aplicación indicada por el fabricante. Si la pieza es porcelanato o no sabés si es una baldosa dura, confirmá en la ficha que el accesorio admita ese material.
 
 ## Tipos de punta y materiales compatibles
 
@@ -31,13 +31,13 @@ Cerámica y azulejo abarcan revestimientos con dureza distinta. No decidas solo 
 | Broca de carburo para baldosa dura | Bosch EXPERT HEX-9 HardCeramic; diámetros publicados de 3 a 12 mm | Agujeros pequeños y medianos en baldosa dura. Bosch indica rotación sin percusión y menos de 500 rpm para esta familia. |
 | Corona diamantada | Modelos para corte seco o húmedo, según referencia | Aberturas grandes para caños u otras instalaciones. Verificá diámetro, refrigeración, conexión y herramienta permitida en la ficha exacta. |
 
-CYL-9 y HEX-9 son ejemplos concretos, no una lista de todas las brocas cerámicas. Una broca de mampostería común no sustituye automáticamente a una broca para baldosa; y una corona diamantada requiere sus propias instrucciones. Consultá la página específica de [porcelanato y coronas diamantadas](/taladros/mecha-porcelanato/) para ver los modelos, medidas y conexiones documentados allí.
+CYL-9 y HEX-9 son ejemplos concretos, no una lista de todas las brocas cerámicas. Una broca de mampostería común no sustituye automáticamente a una broca para baldosa; y una corona diamantada requiere sus propias instrucciones de diámetro, conexión y refrigeración.
 
 ## Diferencias entre cerámica y porcelanato
 
 La distinción útil para elegir accesorio es la dureza que declara el fabricante y la compatibilidad explícita del modelo. Bosch ofrece CYL-9 para baldosa cerámica blanda y HEX-9 HardCeramic para baldosa dura; la línea HEX-9 también declara aplicación en baldosas de porcelana. Las gamas y medidas no son iguales, así que confirmá el código y diámetro de la pieza antes de comprar.
 
-Si necesitás un agujero grande, una corona diamantada puede ser más adecuada que una broca puntual, pero no todas las coronas aceptan el mismo taladro, amoladora o método de refrigeración. La guía de [mechas para porcelanato](/taladros/mecha-porcelanato/) cubre esta elección en detalle; esta página se concentra en las categorías y el procedimiento general para baldosas.
+Si necesitás un agujero grande, una corona diamantada puede ser más adecuada que una broca puntual, pero no todas las coronas aceptan el mismo taladro, amoladora o método de refrigeración. La guía de [mechas para porcelanato](/taladros/mecha-porcelanato/) compara diámetros, conexiones y cortes secos o húmedos para esa elección.
 
 ## Cómo perforar un azulejo sin romperlo
 
@@ -54,7 +54,7 @@ El calor, la vibración y la presión excesiva aumentan el riesgo de dañar la p
 
 Para una sola fijación, compra la broca del diámetro exacto que pide el tarugo o el accesorio que vas a instalar. Si vas a hacer agujeros de varios tamaños, un set puede reducir compras repetidas, pero revisá que incluya los diámetros necesarios y que la familia corresponda a la dureza de tus baldosas. No compres un set de CYL-9 para resolver porcelanato solo porque contenga el diámetro buscado.
 
-Para desagües, grifería o pasos de caño, compará coronas diamantadas por el diámetro de paso y el tipo de máquina; algunas trabajan en húmedo y otras en seco. Como las medidas, roscas, rpm y refrigeración varían por modelo, consultá la [comparativa de brocas y coronas para porcelanato](/taladros/mecha-porcelanato/) antes de elegir.
+Para desagües, grifería o pasos de caño, compará coronas diamantadas por el diámetro de paso y el tipo de máquina; algunas trabajan en húmedo y otras en seco. Como las medidas, roscas, rpm y refrigeración varían por modelo, seguí la ficha de la corona antes de elegir.
 
 ## Fuentes consultadas
 

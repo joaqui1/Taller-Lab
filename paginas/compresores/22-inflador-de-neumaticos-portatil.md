@@ -113,6 +113,6 @@ Para el auto, la presión correcta es la indicada por el manual o la etiqueta de
 
 Para seguir comparando: [infladores inalámbricos](/compresores/inalambricos/) y [compresores para auto](/compresores/para-auto/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

@@ -21,7 +21,7 @@ published: true
 
 Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La variante TC-SM no es la TE-SM 2131 Dual de la descripción histórica; son productos distintos.
 
-## Dos modelos Einhell con capacidades publicadas
+## TC-MS 2112 o TC-SM 2131/2 Dual: cuál tiene sentido
 
 | Dato documentado | TC-MS 2112 (4300295) | TC-SM 2131/2 Dual (4300390) |
 | :--- | :--- | :--- |
@@ -51,6 +51,8 @@ La TC-SM 2131/2 es deslizante: además del espacio de la base, necesitás despej
 
 La fija TC-MS 2112 no tiene recorrido telescópico, así que ocupa menos espacio de avance, aunque también limita el ancho de corte a 120 mm a 90°. La deslizante pesa 3,9 kg más según las fichas; tené en cuenta el traslado y el lugar de guardado.
 
+**Conclusión de uso:** si tus cortes habituales entran en los 120 mm de ancho publicados a 90° y valorás una máquina más liviana que necesite menos espacio de avance, la TC-MS 2112 puede alcanzar. El deslizamiento de la TC-SM 2131/2 Dual tiene sentido cuando necesitás el ancho adicional documentado —hasta 310 mm a 90° o 210 mm a 45°— y tenés despeje para recorrer los rieles. No elijas la función telescópica solo por el nombre: debe resolver una medida de pieza que la fija no cubre.
+
 ### Qué revisar antes de comprar
 
 - **Código completo:** TC-MS 2112 es 4300295; TC-SM 2131/2 Dual es 4300390. No la confundas con TE-SM 2131 Dual, que es otra variante.
@@ -59,6 +61,8 @@ La fija TC-MS 2112 no tiene recorrido telescópico, así que ocupa menos espacio
 - **Accesorios:** comprobá en la oferta qué disco, mordaza, soportes, bolsa de aserrín y demás elementos vienen realmente en caja.
 - **Sujeción:** ambas fichas declaran dispositivo de sujeción; revisá su rango y si permite fijar la forma y longitud de tu pieza sin interferir con el corte.
 - **Garantía y servicio local:** pedí las condiciones por escrito para el código vendido en Argentina y confirmá disponibilidad de repuestos y servicio técnico.
+
+Para criterios generales, consultá [cómo elegir una ingletadora](/sierras/ingletadoras/); para comparar otra marca, revisá [ingletadoras DeWalt](/sierras/ingletadoras-dewalt/).
 
 **Análisis TallerLab.** Según ficha, la deslizante admite 190 mm más de ancho a 90° y 130 mm más a 45°, y pesa 3,9 kg más. Los watts no se comparan sin atender a S1, S2 y S6: son condiciones de servicio diferentes.
 

@@ -21,7 +21,7 @@ published: true
 
 Para comparar una fija con una telescópica, tomamos dos códigos regionales documentados: DWS713-AR y DWS780-AR. Los manuales consultados identifican versiones de 220 V y 50 Hz. Eso permite orientar la elección por tamaño y tipo de trabajo; no confirma que toda oferta con esos nombres corresponda a esa tensión o a la misma revisión.
 
-## DWS713-AR o DWS780-AR
+## Fija o telescópica: cuándo compensa la DWS780
 
 | Dato documentado | DWS713-AR, manual regional | DWS780-AR, manual regional |
 | :--- | :--- | :--- |
@@ -51,6 +51,12 @@ La capacidad no es una sola medida: depende de la combinación de ancho, alto, i
 El diámetro de hoja no basta para comprar un repuesto: verificá diámetro, orificio, espesor y velocidad permitida contra el manual y el conjunto de bridas de la sierra. El manual regional de DWS713-AR prescribe una hoja de 254 mm con orificio de 16 mm. Para DWS780-AR, la documentación no coincide entre revisiones: el manual explica un adaptador para hoja de 25,4 mm, mientras que el catálogo argentino consultado publica eje de 30 mm. Confirmá el tipo de la máquina y la brida antes de comprar una hoja.
 
 La DWS713-AR no requiere recorrido de rieles; dejá lugar para colocar y sostener la pieza a ambos lados de la hoja. La DWS780-AR sí necesita despeje en el sentido de deslizamiento, además del espacio para el largo del material. No encontramos una medida oficial única del área total de instalación. Presentá la sierra en su posición de uso, recorré el carro completo sin energía y medí también el espacio de apoyo antes de fijar el banco.
+
+### Cuándo compensa el carro telescópico
+
+La DWS780 compensa cuando el ancho de la pieza supera lo que cubre la fija y la medida alto × ancho cabe en una combinación publicada para el ángulo real. A 90°, el manual muestra hasta 349 × 76 mm; si la pieza mide 112 mm de alto, el ancho resultante baja a 231 mm. A 45° de inglete, publica 244 × 76 mm y, con 112 mm de alto, 147 mm de ancho. Esos pares ilustran por qué no se deben combinar los máximos de alto y ancho como si fueran simultáneos. La DWS713 no tiene carro y ocupa menos espacio de avance, pero limita el ancho publicado a 155 mm a 90°; a ese ancho, el diagrama da 32 mm de alto resultante.
+
+Si una ingletadora fija cubre tus cortes habituales y no necesitás esos anchos, el carro añade peso y despeje sin resolver una medida pendiente. Para ver una alternativa fija y liviana, compará la TC-MS 2112 dentro de [ingletadoras Einhell](/sierras/ingletadoras-einhell/) y verificá su capacidad para tu pieza.
 
 ### Antes de comprar: confirmá el código y la revisión
 

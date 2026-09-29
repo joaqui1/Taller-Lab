@@ -19,18 +19,11 @@ published: true
 
 # Soldadora Lusqtoff Iron 250: qué revisar antes de comprar
 
+**Iron 250 es una denominación comercial; mirá la corriente y el ciclo publicados en la ficha concreta.** En la documentación consultada, el kit MEGAIRON250 incluye una fuente IRON-250 con rango de 20–180 A.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al código indicado. Esta guía es documental, sin prueba física ni muestra de opiniones; el número del nombre comercial no se toma como medición de salida.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Versión y especificaciones verificadas
 
@@ -65,9 +58,10 @@ La oferta oficial consultada lista **una máscara ST-1X, la soldadora IRON-250 y
 
 | Alternativa documentada | Dato de trabajo publicado | Cuándo compararla con la Iron 250 |
 | :--- | :--- | :--- |
-| [Lüsqtoff MEGAIRON100-8](/soldadoras/lusqtoff-iron-100/) | 105 A al 30 %; entrada declarada 18,4 A/4,2 kW. La guía distingue este kit del IRON-100 histórico. | Si alcanza el rango/ciclo de tus electrodos y querés contrastar una fuente de menor salida y menor entrada nominal. No atribuyas a este kit los datos del IRON-100 antiguo. |
-| [Dogo Dogostar 180 Moderna, DOG50045](/soldadoras/soldadora-dogo-180/) | 20–180 A; ciclo listado por diámetro: 3,2 mm 80 %, 4 mm 60 %, 5 mm 30 %. La ficha enumera tipos de electrodo hasta 4 mm pese a ese dato para 5 mm. | Si estás cotejando equipos con 180 A máximos: revisá los ciclos por diámetro y la discrepancia publicada para 5 mm. |
-| [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) | 20–160 A; 160 A/20 %, 92 A/60 %, 72 A/100 %. | Si importa portabilidad y querés comparar los puntos de ciclo de una fuente de menor amperaje máximo; no equipares los máximos como salida continua. |
+| [Iron 100](/lusqtoff-iron-100/) | 105 A al 30 %; entrada declarada 18,4 A/4,2 kW. La guía distingue este kit del IRON-100 histórico. | Si alcanza el rango/ciclo de tus electrodos y querés contrastar una fuente de menor salida y menor entrada nominal. No atribuyas a este kit los datos del IRON-100 antiguo. |
+| [Dogo 180](/soldadora-dogo-180/) | 20–180 A; ciclo listado por diámetro: 3,2 mm 80 %, 4 mm 60 %, 5 mm 30 %. La ficha enumera tipos de electrodo hasta 4 mm pese a ese dato para 5 mm. | Útil para cotejar equipos con 180 A máximos: revisá los ciclos por diámetro y la discrepancia publicada para 5 mm. |
+| [ESAB HandyArc 162i](/esab-handyarc-162i/) | 20–160 A; 160 A/20 %, 92 A/60 %, 72 A/100 %. | Si importa portabilidad y querés comparar los puntos de ciclo de una fuente de menor amperaje máximo; no equipares los máximos como salida continua. |
+| [Inverter de 200 A](/soldadora-inverter-200-amp/) | Compara fuentes con hasta 200 A nominales, ciclos, electrodos y alimentación. | Si necesitás más margen de salida, compará corriente y ciclo útiles, no sólo el número comercial. |
 
 Los ciclos se publican en puntos diferentes y no todos vienen expresados de la misma forma. Para decidir, compará los amperajes y ciclos del electrodo que efectivamente usás, red/circuito disponible, accesorios incluidos, cables, garantía escrita y servicio/repuestos. No hay una prueba física ni una comparación de soldadura entre estas máquinas.
 
@@ -76,6 +70,13 @@ Los ciclos se publican en puntos diferentes y no todos vienen expresados de la m
 - **Documentación primaria:** [Lüsqtoff MEGAIRON250, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250); [Lüsqtoff MEGAIRON100-8](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8); [Dogo Dogostar 180 Moderna, código DOG50045](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma); [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
 
-Para explorar la categoría: [guías relacionadas](/soldadoras/lusqtoff/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de la gama Einhell publicada para Argentina: compara modelos eléctricos TC/TE y a batería HYPRESSO por tipo de uso, presión de trabajo, caudal, autonomía, alimentación, accesorios y contenido del kit."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
-Einhell Argentina ofrece opciones **con cable** y **a batería**. No cumplen el mismo papel: las TC-HP/TE-HP se conectan a 220–240 V y son la elección cuando se busca mayor presión y trabajo sin depender de una batería; las HYPRESSO permiten limpiar lejos de un tomacorriente y tomar agua de un recipiente, pero la 18/24 Li es una limpiadora compacta de presión media, mientras que la 36/105 es una hidrolavadora a batería de mayor presión.
+Einhell Argentina ofrece equipos **con cable** para trabajar conectados a 220–240 V y modelos **a batería** para ganar movilidad. La decisión depende del caudal, el tiempo de trabajo, la fuente de agua y si ya tenés baterías compatibles. En HYPRESSO también cambia el tipo de herramienta y kit; la comparación detallada aparece en una sola tabla más abajo.
 
 ## Selector por uso
 
@@ -30,8 +30,7 @@ Einhell Argentina ofrece opciones **con cable** y **a batería**. No cumplen el 
 | Una máquina chica para suciedad liviana y uso móvil con enchufe cerca | **TC-HP 90** | Compacta, 4,3 kg, manguera de alta presión de 3 m; la ficha la dirige a superficies levemente sucias. |
 | Más alcance y accesorios manteniendo conexión eléctrica | **TC-HP 130** | Einhell Argentina la ubica con la TC-HP 90 entre los modelos livianos para suciedad superficial; el catálogo local identifica 390 L/h y manguera de 5 m. |
 | Una superficie grande o suciedad más persistente con cable | **TE-HP 140 o TE-HP 170** | Línea Expert cableada; la guía de Einhell Argentina destaca sus accesorios para patios/superficies y el mayor rendimiento. |
-| Bicicleta, muebles de jardín, riego y enjuague suave lejos del grifo/tomacorriente | **HYPRESSO 18/24 Li** | Presión media de 24 bar; puede aspirar desde balde, bidón o estanque por una manguera de succión de 5 m. |
-| Más presión sin cable y toma de agua de un depósito | **HYPRESSO 36/105** | Hasta 70 bar de trabajo y 105 bar permitidos, 270 L/h, 2 baterías PXC de 18 V y mangueras de presión/succión separadas. |
+| Movilidad sin enchufe para enjuagar, regar o limpiar de forma localizada | **HYPRESSO 18/24 Li o 36/105** | Compará autonomía, presión, fuente de agua y contenido de batería/cargador en la tabla HYPRESSO. |
 
 Las descripciones de “uso diario”, “limpieza rápida” o “suciedad intensa” son las aplicaciones publicadas por Einhell, no un ciclo profesional garantizado. Si el uso será prolongado, comprobá en el manual del artículo el régimen de trabajo y las pausas admitidas.
 
@@ -48,53 +47,54 @@ Las descripciones de “uso diario”, “limpieza rápida” o “suciedad inte
 
 La página de gama argentina nombra TC-HP 90/130 y TE-HP 140/170. Los detalles de artículo y especificaciones de los otros tres modelos se encuentran en el [catálogo oficial de Einhell Argentina](https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf); confirmá existencia local, artículo, contenido de caja y stock con el distribuidor antes de comprar.
 
-## Einhell inalámbricas: cuál HYPRESSO
+## HYPRESSO 18/24 vs HYPRESSO 36/105
 
-### HYPRESSO 18/24 Li: presión media para tareas ligeras
+La HYPRESSO 18/24-1 es una pistola limpiadora de presión media para enjuague, riego y suciedad ligera; la 36/105 es una hidrolavadora portátil con mayor presión, pensada para tareas localizadas más exigentes. Ninguna reemplaza una eléctrica con cable cuando necesitás cubrir superficies amplias o trabajar durante sesiones largas.
 
-La [HYPRESSO 18/24 Li, artículo 4140130](https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/) usa **una batería Power X-Change de 18 V** y entrega hasta **24 bar** y **240 L/h**. Pesa 2,1 kg sin batería. Es adecuada para enjuagar bicicletas, muebles y herramientas de jardín, regar o lavar con presión moderada; no pretende sustituir una máquina cableada para suciedad muy adherida o superficies extensas.
-
-Incluye manguera de aspiración de 5 m con filtro, boquilla multifunción de cuatro posiciones, boquilla rotativa, botella de espuma, lanza(s) de extensión y bolsa de accesorios. Puede tomar agua de un balde, bidón o estanque, o conectarse a una manguera de jardín. **La versión Solo viene sin batería y sin cargador.** Einhell declara autonomía orientativa de 7–13 min con batería de 2,0 Ah, 15–27 min con 4,0 Ah y 30–55 min con 8,0 Ah; depende del nivel configurado.
-
-Einhell también publica la **HYPRESSO 18/24-1, artículo 4140135**. La ficha conserva el formato de 24 bar/240 L/h, pero detalla accesorios adicionales como adaptador para botella PET y funda protectora para batería. Revisá el número de artículo en la oferta para saber qué kit se vende; ambas referencias se suministran sin batería ni cargador.
-
-### HYPRESSO 36/105: a batería y con más presión
-
-La [HYPRESSO 36/105, artículo 4140160](https://www.einhell.com.ar/p/4140160-hypresso-36-105/) requiere **dos baterías PXC de 18 V**. Su ficha distingue **70 bar máxima de trabajo** de **105 bar máxima permitida**, con caudal de 270 L/h. No es la misma clase de equipo que la pistola 18/24: se acerca más a una hidrolavadora portátil de mayor presión, aunque mantiene menos caudal que las opciones cableadas TE.
-
-Incluye manguera de alta presión de 4 m, manguera de aspiración de 5 m con filtro y flotador, lanza de extensión, boquillas concentrada/ancha y rotativa, cepillo y guardado integrado. La batería y el cargador se venden por separado. Einhell indica autonomía ECO orientativa desde 11 min con dos baterías de 2,0 Ah hasta 45 min con dos de 8,0 Ah; con dos baterías de distinta capacidad, rige la menor autonomía.
-
-### Comparación rápida de las inalámbricas
-
-| Dato | HYPRESSO 18/24 Li / 4140130 | HYPRESSO 36/105 / 4140160 |
+| Dato | HYPRESSO 18/24 Li / 4140130 o 4140135 | HYPRESSO 36/105 / 4140160 |
 | :--- | :--- | :--- |
-| Tipo | Pistola limpiadora de presión media | Hidrolavadora a batería de mayor presión |
-| Baterías requeridas | 1 × 18 V PXC | 2 × 18 V PXC (Twin-Pack) |
-| Trabajo / permitida | Máx. 24 bar | 70 / 105 bar |
+| Tipo y presión | Pistola de presión media; 24 bar máximos | Hidrolavadora portátil; 70 bar de trabajo y 105 bar máximos permitidos |
 | Caudal máximo | 240 L/h | 270 L/h |
-| Manguera de succión | 5 m | 5 m |
-| Manguera de presión | Conexión a manguera de jardín; no se publica manguera de alta presión separada | 4 m |
-| Batería/cargador incluidos | No / no | No / no |
-| Mejor encaje | Riego y enjuague suave, bicicleta, muebles y suciedad ligera | Limpieza portátil con mayor presión, herramientas, bicis y superficies de jardín |
+| Baterías requeridas | 1 × 18 V PXC | 2 × 18 V PXC (Twin-Pack) |
+| Batería y cargador incluidos | **No / no** en 4140130 y 4140135 | **No / no** en 4140160 |
+| Autonomía publicada | Einhell informa 7–13 min con 2 Ah, 15–27 min con 4 Ah y 30–55 min con 8 Ah; depende del ajuste | ECO: 11 min con dos baterías de 2 Ah hasta 45 min con dos de 8 Ah; depende de uso y ajuste |
+| Entrada de agua | Manguera de succión de 5 m con filtro; toma desde balde/estanque o manguera de jardín | Manguera de succión de 5 m con filtro y flotador; también puede usar depósito |
+| Manguera de presión | Se conecta a manguera de jardín; no figura una manguera de alta presión separada | 4 m |
+| Diferencia entre kits | 4140135 incluye adaptador para botella PET y funda protectora de batería, además de accesorios comunes; 4140130 es la referencia anterior con kit diferente | El artículo 4140160 es Solo: equipo y accesorios, sin las dos baterías ni cargador |
+| Para qué encaja | Enjuague, riego, bicis, muebles/herramientas y suciedad ligera | Limpieza móvil localizada donde 24 bar no alcanzan; sigue limitada por autonomía y caudal frente a un equipo con cable |
 
-## Accesorios, baterías y qué comprobar antes de comprar
+Para ruedas, herramientas o zonas puntuales con suciedad adherida, la 36/105 ofrece más presión; para riego y enjuague liviano, la 18/24 es más sencilla. Para autos completos, patios o trabajo prolongado, compará primero el caudal y el uso previsto de las opciones cableadas.
 
-- **Compará el artículo y el kit:** TC-HP 90 y 130 pueden traer contenidos distintos. El catálogo local muestra boquilla rotativa, cepillo y productor de espuma para TC-HP 130, mientras el TC-HP 90 local incluye pistola, lanza y boquilla fina/ancha.
-- **En inalámbricas, calculá el costo del sistema:** verificá si ya tenés baterías PXC y cargador compatibles. La 18/24 precisa una batería de 18 V; la 36/105 necesita dos, idealmente del mismo estado/capacidad para un tiempo de uso parejo. En ambos artículos vistos se venden por separado.
-- **Agua desde depósito:** HYPRESSO 18/24 y 36/105 incluyen manguera de succión y filtro. En la 36/105 se declara además flotador/bola tope para mantener la toma en el depósito. Esto no significa que todas las TC/TE puedan autocebarse.
-- **Mangueras y accesorios:** medí el radio de trabajo y comprobá conexión, presión y largo del repuesto para el número de artículo exacto. Einhell Argentina ofrece accesorios y buscador de piezas en las fichas de producto.
+## Kits, baterías y qué comprobar antes de comprar
+
+- **Cableadas:** los accesorios varían por modelo y artículo. La TC-HP 130 y la TE-HP 140/170 incluyen kits de boquillas/cepillo y limpiador de superficies según catálogo; verificá el contenido de caja del SKU ofrecido.
+- **A batería:** sumá el costo de baterías y cargador si no tenés PXC compatibles. La 18/24 requiere una batería de 18 V y la 36/105 dos; capacidad y modo alteran la autonomía.
+- **Autocebado:** las HYPRESSO listadas tienen manguera de succión y filtro, pero no des por hecho que una TC/TE puede tomar agua desde un balde. Confirmalo en la ficha/manual de ese modelo.
+- **Mangueras y servicio:** comprobá largo y conexión de cada manguera, compatibilidad de repuestos y quién presta service local para el artículo exacto.
 - **Service local:** Einhell Argentina publica un buscador de servicios técnicos autorizados. Antes de elegir para uso frecuente, confirmá quién atiende la hidrolavadora y disponibilidad de pistola, manguera, filtro y boquillas compatibles.
+
+## Precios y disponibilidad por artículo
+
+Precios revisados el **29/09/2026**. El PVP sugerido no confirma stock; cuando la publicación del comercio no informa unidades o está agotada, lo indico en la tabla. En HYPRESSO, los precios corresponden al equipo Solo, sin baterías ni cargador.
+
+| Modelo y artículo | Precio observado | Stock/kit |
+| :--- | :--- | :--- |
+| TC-HP 90 · 4140740 | **$179.000** PVP sugerido por Einhell Argentina | Stock por distribuidor; la ficha oficial no confirma inventario. |
+| TC-HP 130 · 4140750 | **$237.279** en Toolminator | La publicación consultada mostraba 6 unidades. |
+| TE-HP 140 · 4140760 | **$479.000** en Herramientas Einhell | Esa tienda lo marcaba temporalmente sin stock. |
+| TE-HP 170 · 4140770 | **Sin precio local comparable verificado al 29/09/2026** | Consultar a distribuidor con el artículo exacto. |
+| HYPRESSO 18/24-1 · 4140135 | **$489.000** PVP sugerido por Einhell; Zentienda publicaba $435.240 o $369.954 por transferencia | PVP oficial sin stock asociado; Zentienda mostraba 5 unidades. **Sin batería ni cargador.** |
+| HYPRESSO 36/105 · 4140160 | **$729.000** PVP sugerido por Einhell; Bulonera Luro publicaba $814.757,59 o $733.281,83 por transferencia | El vendedor mostraba 10 unidades. **Sin dos baterías ni cargador.** |
+
+El artículo 4140130 corresponde a una HYPRESSO 18/24 previa y no debe confundirse con 4140135: compará el número de artículo y los accesorios enumerados. En la 4140135 y 4140160, Einhell confirma expresamente que el equipo viene sin batería ni cargador.
 
 ## Fuentes y alcance
 
-- Einhell Argentina: [gama de hidrolavadoras](https://www.einhell.com.ar/c/hidrolavadoras/), [TC-HP 90](https://www.einhell.com.ar/p/4140740-tc-hp-90/), [HYPRESSO 18/24 Li](https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/), [HYPRESSO 18/24-1](https://www.einhell.com.ar/p/4140135-hypresso-18-24-1/), [HYPRESSO 36/105](https://www.einhell.com.ar/p/4140160-hypresso-36-105/).
+- Einhell Argentina: [gama de hidrolavadoras](https://www.einhell.com.ar/c/hidrolavadoras/), [TC-HP 90](https://www.einhell.com.ar/p/4140740-tc-hp-90/), [HYPRESSO 18/24 Li, art. 4140130](https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/), [HYPRESSO 18/24-1, art. 4140135](https://www.einhell.com.ar/p/4140135-hypresso-18-24-1/), [HYPRESSO 36/105, art. 4140160](https://www.einhell.com.ar/p/4140160-hypresso-36-105/).
 - Catálogo oficial alojado en Einhell Argentina: [datos de TC-HP 130 y TE-HP 140/170](https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf).
+- Precios/stock consultados: [Toolminator TC-HP 130](https://www.toolminator.com.ar/productos/hidrolavadora-einhell-tc-hp-130-390l-h-130bar-1500w/), [Herramientas Einhell TE-HP 140](https://www.herramientaseinhell.com.ar/producto/hidrolavadora-te-hp-140/), [Zentienda HYPRESSO 18/24-1](https://www.zentienda.com.ar/productos/hidrolavadora-einhell-hypresso-18-24-1-sin-bateria-4140135/) y [Bulonera Luro HYPRESSO 36/105](https://www.buloneraluro.com.ar/productos/einhell-4140160-hypresso-36-105-hidrolavadora-inalambrica-alta-presion/).
 - [Servicios técnicos autorizados Einhell Argentina](https://www.einhell.com.ar/servicio/servicios-tecnicos-autorizados/).
 
 Esta guía es documental; no incluye prueba física ni una muestra verificable de opiniones de compradores. Los valores “máximo”, “de trabajo” y “permitido” se mantienen con el rótulo de cada fuente. Las baterías, cargadores, artículos, promociones y disponibilidad se deben verificar al momento de comprar.
 
-Para seguir comparando: [Bosch: comparación por modelo y código](/hidrolavadoras/bosch/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/gamma-130/).
+Desde HYPRESSO: [comparativa de hidrolavadoras inalámbricas](/hidrolavadoras/inalambricas/). Como alternativa a batería, mirá las [hidrolavadoras Bosch](/hidrolavadoras/bosch/); si no necesitás baterías, seguí con la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

@@ -31,6 +31,8 @@ Las tablas conservan las unidades que usa cada ficha. **W y kW miden potencia ac
 
 ### Generadores convencionales
 
+Para comparar consumo, formato y autonomía de esta familia, consultá [generadores a nafta](/generadores/a-nafta/).
+
 | Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 |
 | :--- | ---: | ---: | :--- | ---: |
 | [LG950P](https://lusqtoff.com.ar/ver-producto/LG950P) | 0,65 kVA | 0,8 kVA | Nafta/mezcla, motor 2T; 220 V, monofásico; tanque 4 L; 16,2 kg. | $286.199 |
@@ -38,14 +40,14 @@ Las tablas conservan las unidades que usa cada ficha. **W y kW miden potencia ac
 | [LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E) | 2,5 kVA | 2,8 kVA | Nafta, 4T; arranque eléctrico; tanque 15 L. La ficha también muestra “potencia máxima de salida 4,8 kW”, dato que no coincide con el campo 2,8 kVA y hay que aclarar por código/placa. | $745.299 |
 | [LG3500EX](https://www.lusqtoff.com.ar/ver-producto/LG3500EX) | 2.450 W | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; incluye ruedas y manija. | $875.199 |
 | [LG7500EX](https://lusqtoff.com.ar/ver-producto/LG7500EX) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; monofásico; tanque 25 L; arranque manual/eléctrico; peso publicado 82 kg. Autonomía anunciada: 8 h, sin carga definida. | $1.747.699 |
-| [LG7500EXT](https://lusqtoff.com.ar/ver-producto/LG7500EXT) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; **trifásico, 380 V/50 Hz**; tanque 25 L; arranque eléctrico. Confirmá en la placa la salida disponible para cargas monofásicas. | $1.775.399 |
+| [LG7500EXT](https://lusqtoff.com.ar/ver-producto/LG7500EXT) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; trifásico, 380 V/50 Hz ([generadores trifásicos](/generadores/trifasicos/)); tanque 25 L; arranque eléctrico. Confirmá en la placa la salida disponible para cargas monofásicas. | $1.775.399 |
 | [10GF-4](https://www.lusqtoff.com.ar/ver-producto/10GF-4) | 10 kVA | La ficha menciona 11 kVA como “potencia del motor”, no con un campo inequívoco de potencia máxima del generador. | Nafta, 4T; 220 V, monofásico; tanque 23 L; arranque eléctrico; 152 kg. | $4.086.799 |
 
 ### Generadores inverter
 
 | Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 |
 | :--- | ---: | ---: | :--- | ---: |
-| [LGI2.5-8](https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8) | 2,2 kW | 2,5 kW | Nafta, 4T; arranque manual; tanque 6 L; ruido publicado: 75 dB a 7 m; 23 kg. | $737.499 |
+| [LGI2.5-8](https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8) ([generadores inverter](/generadores/inverter/)) | 2,2 kW | 2,5 kW | Nafta, 4T; arranque manual; tanque 6 L; ruido publicado: 75 dB a 7 m; 23 kg. | $737.499 |
 | [LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8) | 3,5 kW | 3,8 kW | Nafta, 4T; arranque manual; tanque 8 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m. La página indica 28 kg y el catálogo/manual consultados 27 kg. | $1.049.699 |
 | [LG3500EXI](https://www.lusqtoff.com.ar/ver-producto/LG3500EXI) | No publicada en la ficha consultada | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; 44 kg; autonomía publicada: 11 h sin carga de ensayo indicada. | $1.968.699 |
 | [LGI5.0-9](https://lusqtoff.com.ar/ver-producto/LGI5.0-9) | 4,2 kW | 4,5 kW | Nafta, 4T; arranque manual; tanque 12 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m; 43 kg. | $1.591.999 |
@@ -117,8 +119,6 @@ Los precios de las tablas son una captura del **PVP que mostraban las páginas d
 - **Fuentes primarias:** [categoría de grupos electrógenos Lüsqtoff](https://lusqtoff.com.ar/categorias/grupos-electrogenos); páginas de producto enlazadas en las tablas; [catálogo Lüsqtoff 2026–27](https://www.lusqtoff.com.ar/catalogos); [posventa y garantía](https://lusqtoff.com.ar/posventa); [servicios técnicos oficiales](https://www.lusqtoff.com.ar/servicios-tecnicos); [dónde comprar](https://lusqtoff.com.ar/donde-comprar).
 - **Opiniones de compradores:** no se analizó una muestra; la sección explica qué señales revisar para no atribuir testimonios no verificados a la marca.
 
-Para dimensionar por uso: [generador para casa](/generadores/para-casa/) y [comparativa general de generadores](/generadores/comparativa-general/).
+Para dimensionar por uso y comparar alternativas, consultá [generador para casa](/generadores/para-casa/), [generadores inverter](/generadores/inverter/), los [precios de generadores](/generadores/precios/) y la [comparativa general](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

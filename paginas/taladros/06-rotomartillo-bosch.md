@@ -44,6 +44,8 @@ Los encastres SDS Plus y SDS Max requieren accesorios de su interfaz correspondi
 
 Un modelo con cable evita planificar recargas y suele convenir para una estación fija o trabajo sostenido con toma disponible. El GBH 18V-26 D permite moverse sin red, pero sus 2,6 kg publicados excluyen la batería: calculá el peso listo para usar, la autonomía con el tipo de broca y hormigón previstos, y el costo de batería y cargador si el kit no los incluye. No compares directamente esos 2,6 kg con el peso de una herramienta con cable.
 
+Si ya tenés un Bosch GSB, su percusión puede alcanzar para agujeros ocasionales en mampostería dentro de la capacidad del modelo. Cuando el hormigón, el diámetro o la frecuencia de perforación exigen más, pasá a un GBH con encastre SDS; compará la [comparativa de rotomartillos](/taladros/rotomartillos/) por capacidad y encastre. Para perforación y atornillado general, también podés comparar [taladros inalámbricos Bosch GSR y GSB](/taladros/bosch-inalambrico/).
+
 ## Variantes regionales y contenido del kit
 
 La comparación anterior citaba una ficha boliviana del GBH 2-26 DRE, código 0 611 253 7E0. Bosch Argentina publica el GBH 2-26 DRE con código 0 611 253 7H0 y especificaciones locales de 800 W, 2,7 J, máximo 26 mm en hormigón y 2,9 kg. La ficha argentina complementa la referencia regional; antes de comprar, verificá el código completo de pedido, la configuración y la garantía del vendedor.
@@ -56,6 +58,4 @@ Para el modelo a batería, comprobá si el precio corresponde a herramienta sola
 - **Seguridad:** consultar manual y límites del accesorio del modelo exacto.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [rotomartillos](/taladros/rotomartillos/).
-
-Para explorar la categoría: [guías de taladros](/taladros/rotomartillos/).
+[Ver todas las guías de taladros](/taladros/).

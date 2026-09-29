@@ -58,6 +58,8 @@ El depósito almacena aire y cubre temporalmente una demanda mayor que la produc
 
 Para inflar, sopletear alguna pieza o usar herramientas de manera esporádica, un 100 L puede ocupar más espacio y ser menos práctico que uno de 50 L. Si el trabajo del taller combina una llave de impacto intermitente, una pistola de pintura de consumo conocido o más de una salida, el mayor depósito puede aportar reserva, siempre que el compresor también tenga caudal efectivo suficiente.
 
+Si necesitás más reserva para varios consumos intermitentes o para una instalación de mayor demanda, compará también [compresores de 200 litros](/compresores/200-litros/). Un tanque más grande aporta almacenamiento, pero no reemplaza el caudal efectivo ni el ciclo de trabajo que exige la herramienta.
+
 ## Correa o mando directo
 
 El **LC-30100** es bicilíndrico a correa. En esta arquitectura, una correa transmite el movimiento del motor al cabezal; suma una pieza que requiere inspección y mantenimiento según el manual, y conviene verificar que la guarda esté instalada. La marca publica 3 HP y 335 L/min para ese código.
@@ -102,6 +104,6 @@ Los cuatro ejemplos publican alimentación monofásica de **220 V–50 Hz**. Con
 
 Para seguir comparando: [compresor Lüsqtoff de 100 litros](/compresores/lusqtoff-100-litros/) y [compresores de 50 litros](/compresores/50-litros/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

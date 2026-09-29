@@ -52,6 +52,8 @@ Para una clavadora o una herramienta que consume aire por disparos, el tanque pu
 
 Ninguno de los dos tipos gana para todas las situaciones. Si lo que querés es evitar controlar aceite de bomba en un equipo para tareas breves, oil-free puede ser una elección cómoda. Si necesitás trabajo repetido durante períodos largos, compará ciclo, FAD, presión y mantenimiento del modelo concreto, incluso si eso te lleva a considerar una bomba lubricada.
 
+Si se trata de un compresor lubricado, revisá qué aceite corresponde al código exacto en la placa y el manual; podés consultar la guía sobre [qué aceite lleva un compresor](/compresores/aceite/).
+
 ## Qué significa —y qué no— “aire sin aceite”
 
 En una ficha de compresor, **“sin aceite” suele describir la construcción de la bomba**, no una certificación de pureza del aire en el extremo de la manguera. El aire de admisión puede traer polvo, humedad, hidrocarburos u otros contaminantes; el tanque, las cañerías y los accesorios también pueden incorporar agua o partículas. Una especificación de calidad de aire se expresa para el sistema y sus contaminantes, no solo por el tipo de bomba.
@@ -88,6 +90,8 @@ El manual del **Lüsqtoff LC-0122** indica limpiar el tanque al menos dos veces 
 
 **Análisis TallerLab:** estos tres ejemplos sirven para mostrar qué datos pedir y cómo difieren tanque, potencia, accesorios y nivel sonoro publicado. No permiten ordenar el rendimiento por sus L/min de admisión: BTA y Lüsqtoff no documentan un método común ni el caudal efectivo a una presión de herramienta.
 
+Para comparar estos modelos con otras configuraciones del mismo tamaño, seguí con la guía general de [compresores de 50 litros](/compresores/50-litros/) y la comparación de [Gamma de 50 litros](/compresores/gamma-50-litros/).
+
 ## Qué buscar antes de elegir
 
 1. **Anotá la tarea y el ritmo:** inflado ocasional, aerografía, clavadora por pulsos, o herramienta que consume aire durante varios minutos.
@@ -117,6 +121,4 @@ Si la ficha solo informa HP, tanque, presión máxima y admisión, alcanza para 
 
 Para seguir comparando: [compresores para aerógrafo](/compresores/para-aerografo/) y [compresores de 50 litros](/compresores/50-litros/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

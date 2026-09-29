@@ -70,7 +70,7 @@ Estas cinco referencias documentadas muestran escalas distintas, sin formar un r
 | Convencional de alrededor de 5 kVA | **Honda EG6500CXS**, D-AVR | 220 V, monofásico; **5 kVA nominal / 5,5 kVA máxima** | Usá 5 kVA para dimensionar marcha; verificá picos de motores y salida de cada toma. Honda publica 87 kg en seco. |
 | Convencional de alrededor de 5,5 kW | **Gamma GE3481AR / 6000V**, AVR | 220 V CA, 50 Hz; **5,5 kW y 6 kW máxima** | No equivale automáticamente al Honda de 5 kVA: Gamma lo expresa en kW. Confirmá PF, corriente, picos y batería de arranque, que no viene incluida. |
 
-Los equipos Honda mencionados son referencias de pequeña a mayor escala, y los Gamma aportan alternativas convencionales documentadas en kW. Una tecnología inverter, AVR o D-AVR describe regulación, pero por sí sola no garantiza que un generador cubra los picos ni todas las exigencias de una carga sensible.
+Para una instalación residencial, usá también la guía de [generador eléctrico para casa](/generadores/para-casa/) y reemplazá sus ejemplos por las cargas de tu vivienda. Los equipos Honda mencionados son referencias de pequeña a mayor escala, y los Gamma aportan alternativas convencionales documentadas en kW. Una tecnología inverter, AVR o D-AVR describe regulación, pero por sí sola no garantiza que un generador cubra los picos ni todas las exigencias de una carga sensible.
 
 ## Corriente, tomas y protecciones antes de conectar
 
@@ -89,8 +89,6 @@ Antes de conectar:
 - **Recurso interactivo:** la comprobación mono/tri asociada a esta guía ordena tensión, unidad de potencia, capacidad por fase y datos de arranque que todavía hay que verificar.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [generadores trifásicos: fases, potencia y distribución](/generadores/trifasicos/).
+Para seguir comparando: la [guía general para elegir un grupo electrógeno](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

@@ -19,18 +19,16 @@ published: true
 
 # Carro para soldadora MIG: cómo elegir uno que entre en tu taller
 
+| Carro | Máquina | Cilindro | Ancho / fondo | Carga máxima publicada | Ruedas |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Telwin Federal 803091 | Superficie para fuente y alimentador; medidas útiles no publicadas | Compartimento; dimensiones admitidas no publicadas | 980 × 500 mm exteriores | No publicada | 4: 2 giratorias y 2 fijas |
+| Lincoln K520/K520-1 | Compatibilidad limitada a modelos Lincoln listados en el manual | Hasta 20,6 cm de diámetro, 117 cm de alto y 45 kg | No publicada | 45 kg con soldadora; 90 kg con soldadora y cilindro | 2 traseras grandes y 2 delanteras giratorias |
+
+Para un sistema con cilindro, compará también una [soldadora MIG con gas](/soldadora-mig-con-gas/); para equipos compactos Flux, consultá [MIG Flux Lusqtoff](/mig-lusqtoff/).
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 | Carro/código | Huella y ruedas publicadas | Espacio/cilindro | Carga máxima publicada | Qué falta medir o confirmar |
 | :--- | :--- | :--- | :--- | :--- |
@@ -123,8 +121,11 @@ ________________________________________________________________
 - **Documentación primaria:** [Telwin Federal 803091](https://www.telwin.com/intl/en/products/trolleys/803091-trolley-federal); [manual Lincoln K520/K520-1](https://ch-delivery.lincolnelectric.com/api/public/content/0543dfa0438b451096025e84d666a015?v=a71a7ecf).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [dimensiones y corriente de la ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadoras/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

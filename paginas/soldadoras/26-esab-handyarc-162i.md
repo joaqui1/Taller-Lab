@@ -19,6 +19,10 @@ published: true
 
 # ESAB HandyArc 162i: qué ofrece y qué comprobar
 
+## Para quién sí / para quién no
+
+**Sí:** si necesitás una fuente MMA portátil, usás electrodos dentro del rango documentado y podés trabajar al ciclo publicado. **No:** si buscás MIG/MAG, TIG AC o una salida continua de 160 A; este modelo no documenta esos usos.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
@@ -56,17 +60,19 @@ published: true
 
 ## Cruce práctico con electrodos 6013 y 7018
 
-La [guía de E6013](/soldadoras/electrodo-6013/) y la [guía de E7018](/soldadoras/electrodo-7018/) contienen aplicaciones, clasificación y contexto de cada consumible. Este cruce usa sólo rangos publicados para productos concretos y los compara con el rango MMA **20–160 A** y los puntos de ciclo ESAB para la HandyArc 162i: **160 A/20 %, 92 A/60 % y 72 A/100 %**.
+Las guías E6013 y E7018 contienen aplicaciones, clasificación y contexto de cada consumible. Este cruce usa sólo rangos publicados para productos concretos y los compara con el rango MMA **20–160 A** y los puntos de ciclo ESAB para la HandyArc 162i: **160 A/20 %, 92 A/60 % y 72 A/100 %**.
+
+Antes de la tabla, compará las guías de [electrodo 6013](/electrodo-6013/) y [electrodo 7018](/electrodo-7018/) para revisar clasificación, polaridad y rango propio del consumible.
 
 | Consumible documentado y diámetro | Rango de corriente de su ficha | Cruce con los puntos publicados de HandyArc 162i |
 | :--- | :--- | :--- |
-| [ESAB Sureweld E6013, 2,4 mm](/soldadoras/electrodo-6013/) | 60–90 A | El punto de 72 A/100 % cae dentro de ese rango. Es una coincidencia entre dos fichas, no una garantía de resultado para cualquier junta/posición. |
-| [ESAB LBL BW E6013, 2,5 mm](/soldadoras/electrodo-6013/) | 70–90 A | El punto de 72 A/100 % también cae dentro del rango publicado para este SKU. |
-| [ESAB Sureweld E6013, 3,2 mm](/soldadoras/electrodo-6013/) | 120–135 A | El rango de salida de la fuente incluye esa corriente, pero ESAB no publica en la ficha consultada un punto de ciclo específico entre 92 y 160 A. No atribuirle 60 % o 100 % a 120–135 A. |
-| [ESAB LBL BW E6013, 3,2 mm](/soldadoras/electrodo-6013/) | 95–125 A | La ficha del electrodo difiere de Sureweld 3,2 mm; 92 A/60 % queda por debajo del mínimo publicado y no hay un punto de ciclo de la fuente en 95–125 A. |
-| [ESAB Atom Arc E7018, 2,4 mm](/soldadoras/electrodo-7018/) | 70–110 A | Los puntos 72 A/100 % y 92 A/60 % caen dentro del rango de este producto. Hay que respetar clasificación, polaridad y procedimiento del consumible exacto. |
-| [ESAB Atom Arc E7018, 3,2 mm](/soldadoras/electrodo-7018/) | 90–160 A | Los puntos 92 A/60 % y 160 A/20 % coinciden con el rango publicado; eso no asigna esos puntos a cualquier trabajo ni reemplaza el procedimiento. |
-| [ESAB Atom Arc E7018, 4,0 mm](/soldadoras/electrodo-7018/) | 130–220 A | El rango del consumible supera los 160 A máximos de la máquina. La zona 130–160 A coincide con el rango regulable, pero la hoja ESAB no publica allí un ciclo de la fuente; por eso no se puede asegurar continuidad a esa corriente. |
+| ESAB Sureweld E6013, 2,4 mm | 60–90 A | El punto de 72 A/100 % cae dentro de ese rango. Es una coincidencia entre dos fichas, no una garantía de resultado para cualquier junta/posición. |
+| ESAB LBL BW E6013, 2,5 mm | 70–90 A | El punto de 72 A/100 % también cae dentro del rango publicado para este SKU. |
+| ESAB Sureweld E6013, 3,2 mm | 120–135 A | El rango de salida de la fuente incluye esa corriente, pero ESAB no publica en la ficha consultada un punto de ciclo específico entre 92 y 160 A. No atribuirle 60 % o 100 % a 120–135 A. |
+| ESAB LBL BW E6013, 3,2 mm | 95–125 A | La ficha del electrodo difiere de Sureweld 3,2 mm; 92 A/60 % queda por debajo del mínimo publicado y no hay un punto de ciclo de la fuente en 95–125 A. |
+| ESAB Atom Arc E7018, 2,4 mm | 70–110 A | Los puntos 72 A/100 % y 92 A/60 % caen dentro del rango de este producto. Hay que respetar clasificación, polaridad y procedimiento del consumible exacto. |
+| ESAB Atom Arc E7018, 3,2 mm | 90–160 A | Los puntos 92 A/60 % y 160 A/20 % coinciden con el rango publicado; eso no asigna esos puntos a cualquier trabajo ni reemplaza el procedimiento. |
+| ESAB Atom Arc E7018, 4,0 mm | 130–220 A | El rango del consumible supera los 160 A máximos de la máquina. La zona 130–160 A coincide con el rango regulable, pero la hoja ESAB no publica allí un ciclo de la fuente; por eso no se puede asegurar continuidad a esa corriente. |
 
 **Lectura práctica:** elegí el diámetro y producto por la unión, posición y ficha del electrodo; después cotejá su rango con la corriente/ciclo que la fuente publica. En particular, dos E6013 de 3,2 mm no necesariamente comparten el mismo rango. Los tres puntos de ciclo de la HandyArc no describen todas las corrientes intermedias.
 
@@ -78,13 +84,9 @@ La ficha oficial consultada destaca el ajuste de corriente/diámetro del electro
 
 **Desconocido:** no se inspeccionó unidad física, precio local, contenido de una oferta ni resultados de soldadura. La página comercial no basta para confirmar qué pinza, cable u otros accesorios incluye cada paquete.
 
+Si comparás MMA por ciclo y corriente de trabajo, revisá la guía de [inverter de 160 A](/soldadora-inverter-160-amp/). Para otros modelos y procesos de la marca, consultá [soldadoras ESAB](/esab/).
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/); [hoja técnica ESAB HandyArc 162i](https://assets.esab.com/assetbank-esab/assetfile/41560.pdf); [ESAB Sureweld 6013](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/); [ESAB LBL BW E6013](https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/); [ESAB Atom Arc 7018](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [amperajes de electrodos E7018 según ficha](/soldadoras/electrodo-7018/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadoras/).

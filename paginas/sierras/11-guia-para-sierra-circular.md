@@ -43,17 +43,19 @@ La guía debe cubrir toda la trayectoria de corte y sostener la base antes de qu
 
 **Ejemplo:** para un corte de 1.200 mm, si la base necesita 80 mm de guía antes del comienzo y 120 mm después del final, buscá una regla con al menos 1.400 mm de longitud útil (1.200 + 80 + 120). Esos tramos se miden en la configuración real; no hay una entrada o salida universal para todas las sierras. Con un riel propietario, usá los largos y conectores que el fabricante documenta para ese sistema y comprobá que la sierra permanezca apoyada durante todo el recorrido.
 
-### Compatibilidad por modelo
+## Compatibilidad con GKS150, DWE560 y SC16
 
-| Sierra | Riel propietario | Guía paralela | Regla externa |
-| :--- | :--- | :--- | :--- |
-| [Bosch GKS 150](/sierras/bosch-gks-150/) | No: Bosch indica que no es compatible con carril guía | Sí: Bosch identifica la guía paralela en el kit de la variante 0 601 6B3 0H0 | Posible con la base apoyada contra una regla sujeta; medir el desplazamiento y comprobar el despeje de las prensas |
-| [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) | No confirmado en la documentación consultada | Sí: el manual describe la guía DW3278 para cortes longitudinales; verificar si viene en el kit ofrecido | Sí como guía de borde recto sujeta; el manual la recomienda para cortes al hilo |
-| [Stanley SC16-AR](/sierras/stanley-sc16/) | No confirmado en la documentación consultada | Sí: el manual describe una guía paralela que se inserta en la base; confirmar inclusión y código del repuesto | Sí como guía recta sujeta; el manual la admite para cortes al hilo |
+| Sierra | Guía paralela | Regla externa | Riel | Estado documental |
+| :--- | :--- | :--- | :--- | :--- |
+| [Bosch GKS 150](/sierras/bosch-gks-150/) | Confirmada para el kit 0 601 6B3 0H0; revisar contenido de la oferta | Puede usarse si se mide el desplazamiento de base y se comprueba el despeje de prensas | Bosch confirma que no es compatible con su carril guía | Guía paralela y no compatibilidad con riel confirmadas para la variante citada |
+| [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) | El manual describe la guía DW3278 para cortes longitudinales; verificar si viene en el kit | El manual recomienda guía de borde recto sujeta para cortes al hilo | No informado en la documentación consultada | Guía paralela/regla informadas; riel no informado |
+| [Stanley SC16-AR](/sierras/stanley-sc16/) | El manual describe una guía paralela insertable; confirmar inclusión y código del repuesto | El manual admite una guía recta sujeta para cortes al hilo | No informado en la documentación consultada | Guía paralela/regla informadas; riel no informado |
 
 La compatibilidad con rieles no se deduce de que la sierra tenga una guía paralela o una base plana. Por ejemplo, la GKS 150 incluye guía paralela pero Bosch marca que no es compatible con su sistema de carril. Para la DWE560 y la SC16 no encontramos una confirmación del fabricante de riel propietario; por eso quedan como **no confirmado**, no como incompatibles.
 
 **Desconocido.** No medimos desviación, repetibilidad ni calidad del borde con guías de terceros. La tabla describe lo que indican fichas o manuales, no resultados de prueba.
+
+Para comparar criterios generales, consultá [cómo elegir una sierra circular](/sierras/circulares/) y la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/).
 
 ## Fuentes consultadas
 

@@ -19,18 +19,19 @@ published: true
 
 # Cómo elegir una máscara de soldar fotosensible
 
+| Criterio | Qué comprobar antes de elegir |
+| :--- | :--- |
+| DIN | Que el rango de sombra cubra el proceso y la corriente de trabajo |
+| Sensores | Cantidad, posición y riesgo de que pieza o antorcha los tapen |
+| Sensibilidad | Que pueda ajustarse y que la ficha indique la detección requerida |
+| TIG de bajo amperaje | Umbral TIG explícito en ficha o manual; no inferirlo de una perilla |
+| Área visible | Medidas del visor y visibilidad periférica que necesitás |
+| Alimentación | Tipo de batería, posibilidad de reemplazo e indicación de carga |
+| Repuestos | Disponibilidad del código correcto de micas internas/externas, arnés y batería |
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los rangos de sombra de orientación citados provienen de OSHA de Estados Unidos y no reemplazan los requisitos aplicables en Argentina, el análisis de riesgo ni el manual del filtro. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Oscurecimiento y compatibilidad con el proceso
 
@@ -83,6 +84,8 @@ Estos tres Lüsqtoff ilustran decisiones distintas; no representan toda la gama 
 
 Al comparar cualquier marca, cotejá primero tono requerido y procesos compatibles; luego respuesta documentada para TIG de baja corriente, sensibilidad/delay, sensores, modo amolado, ventana, ajuste del arnés, batería, repuestos y marcado. La velocidad de conmutación, el número de sensores o el tamaño de visor aislados no bastan para establecer seguridad o calidad comparativa.
 
+Como EPP complementario, revisá también [guantes para soldar](/guantes/).
+
 **Dato documentado:** para los ST-1N, ST-1E y ST-1B, la tabla reproduce las páginas actuales de Lüsqtoff; el valor TIG en amperes procede del manual ST-1B. No se verificó certificación independiente de cada lote ni se ensayó la detección del ADF.
 
 **Desconocido:** no se confirmó la disponibilidad de todas las micas/arneses de repuesto, vida útil, respuesta real bajo TIG en uso ni conformidad de una unidad concreta. Verificá marcado, manual y código antes de comprar; reemplazá el filtro si el fabricante lo indica o presenta fallas.
@@ -93,6 +96,13 @@ Al comparar cualquier marca, cotejá primero tono requerido y procesos compatibl
 - **Documentación primaria de modelos:** [Lüsqtoff ST-1N](https://lusqtoff.com.ar/ver-producto/ST-1N); [Lüsqtoff ST-1E](https://lusqtoff.com.ar/ver-producto/ST-1E); [Lüsqtoff ST-1B](https://lusqtoff.com.ar/ver-producto/ST-1B); [manual Lüsqtoff ST-1B, clasificación TIG](https://lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1B/ST-1B.pdf); [catálogo Lüsqtoff de máscaras](https://lusqtoff.com.ar/ver-productos/14-mascaras-fotosensibles).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para ver una ficha de generación anterior y sus límites de vigencia: [Máscara Lüsqtoff ST-1X](/soldadoras/mascara-lusqtoff-st-1x/).
+Para ver una ficha de generación anterior y sus límites de vigencia: [Lusqtoff ST-1X](/mascara-lusqtoff-st-1x/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

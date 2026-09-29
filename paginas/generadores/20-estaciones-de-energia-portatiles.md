@@ -89,10 +89,14 @@ En Anker, los 2.400 W corresponden a la función SurgePad para cargas compatible
 6. **EPS/UPS:** tiempo de transferencia y compatibilidad con la carga; una salida de emergencia portátil no necesariamente sustituye un UPS diseñado para esa función.
 7. **Variante local:** tensión, frecuencia, tomas, plug, certificación aplicable, garantía, repuestos y servicio del vendedor local.
 
+## Cuándo elegir una estación o un generador a combustible
+
+Elegí una estación para cargas acotadas, silencio y cero emisiones locales si alcanza su potencia y autonomía. Un generador a combustible se adapta mejor a demandas sostenidas o respaldos largos, si podés operarlo al aire libre y resolver combustible, ruido y mantenimiento. Para movilidad, mirá [generadores portátiles](/generadores/portatiles/); para respaldo residencial, un [generador para casa](/generadores/para-casa/). Si manda el ruido, consultá [generadores silenciosos](/generadores/silenciosos/).
+
 ## Fuentes consultadas
 
 - **EcoFlow:** [manual DELTA 2 en español para región UE](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), [página oficial UE del DELTA 2](https://www.ecoflow.com/eu/delta-2-portable-power-station) y [distribuidor EcoFlow Argentina](https://ecoflow.com.ar/).
 - **BLUETTI AC70:** [manual oficial con autonomía, entrada, UPS y especificaciones de la variante UE](https://s4.bluettipower.com/bluetti_lgf/support/2025/05/64b84129-bc32-4821-9066-016fcc7c6366.pdf), [página BLUETTI UK](https://shop.bluettipower.com/uk/products/ac70-portable-power-station) y [página BLUETTI Brasil](https://br.bluettipower.com/products/ac70-estacao-de-energia-portatil).
 - **Anker SOLIX C1000 A1761:** [guía oficial en español para la variante de 230 V](https://support.ankersolix.com/s/article/Anker-SOLIX-C1000-C1000X-Portable-Power-Station-GU%C3%8DA-DEL-USUARIO-A1761) y [página oficial europea](https://www.ankersolix.com/eu/products/a1761-c1000).
 
-Para entender otra alternativa de respaldo, compará [generadores portátiles](/generadores/portatiles/) o la [guía general de generadores](/generadores/comparativa-general/). Para conocer el criterio editorial, leé la [metodología de TallerLab](/como-trabajamos/).
+Para comparar ambas alternativas y otras configuraciones, consultá la [comparativa general](/generadores/comparativa-general/).

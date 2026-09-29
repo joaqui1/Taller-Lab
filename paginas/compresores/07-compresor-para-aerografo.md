@@ -103,6 +103,4 @@ Para sesiones largas o repetidas, priorizá un ciclo de trabajo claro, protecci�
 
 Para seguir comparando: [kits de aerógrafo con compresor](/compresores/kits-aerografo/) y [guías de compresores](/compresores/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

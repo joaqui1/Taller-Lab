@@ -19,18 +19,17 @@ published: true
 
 # Qué soldadora MIG sin gas conviene comprar
 
+## Conviene si…
+
+Buscás trabajar sin cilindro externo, hacer reparaciones o soldar en exterior, y aceptás retirar escoria y confirmar que el alambre tubular autoprotegido sea compatible con la máquina.
+
+## No es la mejor opción si…
+
+Necesitás un cordón sin escoria o el trabajo exige un alambre/procedimiento que requiere gas. En ese caso, compará un sistema [MIG con gas](/soldadora-mig-con-gas/).
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** “MIG sin gas” suele usarse como nombre comercial; el proceso tratado aquí es FCAW-S, con alambre tubular autoprotegido. No es MIG/MAG con alambre macizo ni alambre tubular que requiere gas. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Cómo funciona el alambre autoprotegido
 
@@ -47,6 +46,8 @@ El alambre tubular lleva fundente en su interior. Al consumirse en el arco, ese 
 | Polaridad | La define el consumible. Por ejemplo, ESAB especifica DCEN para su Coreshield 11; Miller documenta alambres autoprotegidos de clases distintas que usan DCEN o DCEP. | No conectes por una regla memorizada: confirmá la polaridad exigida por el carrete concreto y que la máquina permita configurarla. |
 
 **Análisis TallerLab:** la gran conveniencia es reducir equipo y montaje para trabajos donde el tubular autoprotegido sea adecuado. Las contrapartidas típicas son la escoria y la necesidad de compatibilizar fuente, alimentación, polaridad y consumible. La ficha de un alambre —no sólo el nombre “Flux”— define sus aplicaciones y límites.
+
+Para elegir el [alambre Flux](/alambre-flux/), confirmá clasificación, diámetro, polaridad y materiales admitidos en su ficha.
 
 ## Qué revisar antes de comprar
 
@@ -78,8 +79,13 @@ Estos equipos son ejemplos documentados para mostrar qué confirmar; no represen
 - **Documentación primaria:** [ESAB HandyArc MIG 160i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/); [Lüsqtoff SML120-8D](https://www.lusqtoff.com.ar/ver-producto/SML120-8D); [Lüsqtoff SML120-8DK](https://lusqtoff.com.ar/ver-producto/SML120-8DK); [Lüsqtoff SML130-7](https://lusqtoff.com.ar/ver-producto/SML130-7); [manual SML130-7](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf); [Lüsqtoff SML150-8](https://lusqtoff.com.ar/ver-producto/SML150-8); [Lüsqtoff SML150-8D](https://lusqtoff.com.ar/ver-producto/SML150-8D); [Miller, fundamentos de FCAW autoprotegido, escoria y uso exterior](https://www.millerwelds.com/en-US/resources/knowledge-hub/welding-basics/flux-cored-welding-the-basics-for-mild-steel); [ESAB Coreshield 11, ficha de alambre y polaridad DCEN](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/coreshield-11/); [Miller, alambres autoprotegidos T-6/T-8 y polaridad](https://www.millerwelds.com/en-US/resources/knowledge-hub/field-welding/jobsite-productivity/column-splice-and-moment-weld-connections-in-field-welding); [Miller, rodillos y alimentación de tubular](https://www.millerwelds.com/en-US/resources/knowledge-hub/mig-welding/how-to/flux-cored-welding-the-basics-for-mild-steel).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para comparar el proceso con protección gaseosa: [soldadura MIG con gas, consumibles y equipos](/soldadoras/soldadora-mig-con-gas/).
+Para ver la gama de la marca: [soldadoras MIG Flux Lusqtoff](/mig-lusqtoff/).
 
-Para ver la gama de una marca y las fichas de sus variantes: [comparativa de soldadoras Flux Lüsqtoff](/soldadoras/mig-lusqtoff/).
+## Cómo investigamos esta guía
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

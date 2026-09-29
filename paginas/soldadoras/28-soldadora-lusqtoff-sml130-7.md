@@ -19,18 +19,11 @@ published: true
 
 # Soldadora Lusqtoff SML130-7: comprobaciones de compra
 
+**Modelo discontinuado.** Aún vale consultar su ficha si evaluás stock viejo o usado: la ficha y el manual difieren en ciclo, diámetro máximo y peso del rollo, y esas diferencias afectan la compatibilidad del consumible.
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 | Campo SML130-7 | Página oficial de producto | Manual del fabricante |
 | :--- | :--- | :--- |
@@ -65,16 +58,21 @@ La familia oficial hoy presenta la **SML120-8D** y la **SML150-8D** como opcione
 
 | Alternativa | Diferencia documentada que puede importar | Qué confirmar antes de elegir |
 | :--- | :--- | :--- |
-| [SML120-8D / kit SML120-8DK](/soldadoras/lusqtoff-sml120-8d/) | La documentación argentina del kit enumera FLUX/MIG, MMA y Lift TIG; para FLUX publica hasta 120 A. | La oferta consultada del kit publica 200 V, mientras la unidad SML120-8D tiene documentación/publicaciones con tensiones distintas. Confirmar placa/manual del SKU exacto; verificar diámetro/rodillo, carrete, torcha y contenido del kit. |
-| [SML150-8D y variantes de la familia](/soldadoras/lusqtoff-sml150-8/) | La página oficial SML150-8D publica MIG/FLUX hasta 120 A y también MMA hasta 100 A. | Confirmar disponibilidad y garantía actuales, tensión de placa, ciclo según proceso, diámetro y accesorios incluidos en la variante concreta. La unidad y el kit no necesariamente traen lo mismo. |
+| [SML120-8D](/lusqtoff-sml120-8d/) | La documentación argentina del kit enumera FLUX/MIG, MMA y Lift TIG; para FLUX publica hasta 120 A. | La oferta consultada del kit publica 200 V, mientras la unidad SML120-8D tiene documentación/publicaciones con tensiones distintas. Confirmar placa/manual del SKU exacto; verificar diámetro/rodillo, carrete, torcha y contenido del kit. |
+| [SML150-8](/lusqtoff-sml150-8/) | La página oficial SML150-8D publica MIG/FLUX hasta 120 A y también MMA hasta 100 A. | Confirmar disponibilidad y garantía actuales, tensión de placa, ciclo según proceso, diámetro y accesorios incluidos en la variante concreta. La unidad y el kit no necesariamente traen lo mismo. |
 
-Si la SML130-7 ya está instalada, la discontinuación no obliga a cambiarla: la decisión depende de su estado y de que puedas conseguir consumibles compatibles y servicio para esa unidad. Para criterios comunes de alambre tubular, consultá la [guía de MIG sin gas](/soldadoras/mig-sin-gas/); la [comparativa de la familia MIG/Flux Lüsqtoff](/soldadoras/mig-lusqtoff/) ubica estos modelos dentro de la línea.
+Si la SML130-7 ya está instalada, la discontinuación no obliga a cambiarla: la decisión depende de su estado y de que puedas conseguir consumibles compatibles y servicio para esa unidad. Para criterios comunes de alambre tubular, consultá [MIG sin gas](/mig-sin-gas/); la [familia MIG Flux Lusqtoff](/mig-lusqtoff/) ubica estos modelos dentro de la línea. Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
 
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Lüsqtoff SML130-7, ficha oficial marcada discontinuada](https://lusqtoff.com.ar/ver-producto/SML130-7); [manual de usuario SML130-7](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf); [posventa y garantía general Lüsqtoff](https://www.lusqtoff.com.ar/posventa); [red de servicios técnicos](https://lusqtoff.com.ar/servicios-tecnicos); [SML120-8DK, página de kit oficial](https://lusqtoff.com.ar/ver-producto/SML120-8DK); [SML150-8D, página oficial](https://lusqtoff.com.ar/ver-producto/SML150-8D); [familia de soldadoras inverter Lüsqtoff](https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
 
-Para comparar modelos de esta familia: [guía de MIG/Flux Lüsqtoff](/soldadoras/mig-lusqtoff/).
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

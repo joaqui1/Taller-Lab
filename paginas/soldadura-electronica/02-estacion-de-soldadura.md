@@ -51,6 +51,4 @@ published: true
 
 Para seguir comparando: [estación de retrabajo YiHUA 878D: modelo y rangos declarados](/soldadura-electronica/gadnic-878d/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/soldadura-electronica/).
+Para explorar la categoría: [guías de estaciones y herramientas de soldadura electrónica](/soldadura-electronica/).

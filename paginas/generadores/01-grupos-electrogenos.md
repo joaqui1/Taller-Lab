@@ -64,10 +64,10 @@ Para una bomba o heladera, el mismo total de marcha no alcanza: necesitás el da
 
 | Decisión | Opciones | Cuándo conviene investigarlas |
 | :--- | :--- | :--- |
-| Regulación | Convencional con AVR/D-AVR; inverter | Compará el tipo de carga, la forma de onda y la distorsión armónica total si está publicada. Para electrónica sensible, buscá especificaciones eléctricas completas; la palabra “inverter” no garantiza por sí sola que cualquier carga sea compatible. AVR regula tensión; el inverter convierte y regula electrónicamente la salida. |
-| Combustible | Nafta; diésel; gas natural (GN), GLP o trifuel | En nafta, cotejá portabilidad, tanque y consumo a la carga de uso. Para uso prolongado o de mayor escala, investigá diésel, peso, mantenimiento y consumo. Para gas o trifuel, verificá potencia disponible con cada combustible, suministro, regulador, instalación y requisitos de seguridad. |
-| Salida | Monofásica 220 V; trifásica 380/220 V | Elegí según las placas de los equipos. Un trifásico distribuye potencia por fase: comprobá lo disponible en cada fase y si tu carga es mono o trifásica; la potencia total no necesariamente queda disponible en una sola salida monofásica. |
-| Montaje | Portátil; estacionario | Portátil si necesitás moverlo y lo usarás en distintos puntos; verificá peso, ruedas, ruido, arranque y autonomía. Estacionario para respaldo fijo o conexión a transferencia automática; investigá instalación, ventilación, escape, combustible, tablero ATS y servicio técnico. |
+| Regulación | Convencional con AVR/D-AVR; [inverter](/generadores/inverter/) | Compará el tipo de carga, la forma de onda y la distorsión armónica total si está publicada. Para electrónica sensible, buscá especificaciones eléctricas completas; la palabra “inverter” no garantiza por sí sola que cualquier carga sea compatible. AVR regula tensión; el inverter convierte y regula electrónicamente la salida. |
+| Combustible | [Generadores a nafta](/generadores/a-nafta/); [generadores diésel](/generadores/diesel/); [generadores a gas](/generadores/a-gas/) (GN), GLP o trifuel | En nafta, cotejá portabilidad, tanque y consumo a la carga de uso. Para uso prolongado o de mayor escala, investigá diésel, peso, mantenimiento y consumo. Para gas o trifuel, verificá potencia disponible con cada combustible, suministro, regulador, instalación y requisitos de seguridad. |
+| Salida | [Grupos electrógenos monofásicos](/generadores/monofasicos/); [generadores trifásicos](/generadores/trifasicos/) | Elegí según las placas de los equipos. Un trifásico distribuye potencia por fase: comprobá lo disponible en cada fase y si tu carga es mono o trifásica; la potencia total no necesariamente queda disponible en una sola salida monofásica. |
+| Montaje | [Generadores portátiles](/generadores/portatiles/); estacionario | Portátil si necesitás moverlo y lo usarás en distintos puntos; verificá peso, ruedas y autonomía. Para comparar [generadores silenciosos](/generadores/silenciosos/) o [estaciones de energía portátiles](/generadores/estacion-de-energia-portatil/), revisá sus límites y diferencias de uso. Estacionario para respaldo fijo o conexión a transferencia automática; investigá instalación, ventilación, escape, combustible, tablero ATS y servicio técnico. |
 
 ## Comparativa de marcas y modelos por escala de carga
 
@@ -105,11 +105,11 @@ Las publicaciones pueden ayudar a localizar modelos chicos, pero sus cifras no r
 
 Si buscás un generador para una vivienda, seguí con la guía de [generadores para casa](/generadores/para-casa/). También podés revisar [inverter](/generadores/inverter/), [trifásicos](/generadores/trifasicos/), [diésel](/generadores/diesel/) o [generadores a gas](/generadores/a-gas/) según el tipo de instalación.
 
+Después de definir potencia, compará [precios de grupos electrógenos](/generadores/precios/).
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Honda EU22i](https://pf.honda.com.ar/producto/EU22i); [Honda EZ3000CX](https://pf.honda.com.ar/producto/EZ3000CX); [Honda EU30is](https://pf.honda.com.ar/producto/EU30is); [Honda EG6500CXS](https://pf.honda.com.ar/producto/EG6500CXS); [Honda EZ6500CXS](https://pf.honda.com.ar/producto/EZ6500CXS); [Honda ET12000](https://pf.honda.com.ar/producto/ET12000); [Gamma GE3480AR, manual de generadores](https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf); [Gamma GE3481AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/); [Gamma, selección de grupo electrógeno](https://www.gammaherramientas.com.ar/como-elegir-correctamente-un-grupo-electrogeno-adecuado/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
 
 Para explorar la categoría: [guías de generadores](/generadores/).

@@ -21,7 +21,7 @@ published: true
 
 La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. Para elegir, empezá por las dimensiones de la pieza y los cortes que vas a repetir; la potencia por sí sola no define qué modelo te sirve.
 
-## Comparación y decisión entre los dos modelos
+## Qué modelo Total elegir según ancho y ángulo
 
 ### Qué cambia realmente entre los dos modelos
 
@@ -63,6 +63,8 @@ Si necesitás cortar piezas más grandes, ninguno de estos dos códigos cubre el
 - **Garantía y servicio:** consultá condiciones vigentes en Argentina para el código y vendedor concretos.
 
 No baso la elección en stock: la disponibilidad cambia y no está confirmada por el catálogo. Compará la oferta que encuentres con el código y las especificaciones anteriores.
+
+Para criterios generales, consultá [cómo elegir una ingletadora](/sierras/ingletadoras/). Como alternativa de otra marca, podés comparar [ingletadoras Einhell](/sierras/ingletadoras-einhell/) según ancho, alto y ángulo requeridos.
 
 ## Fuentes consultadas
 

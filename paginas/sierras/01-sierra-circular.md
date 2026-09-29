@@ -19,17 +19,17 @@ published: true
 
 # Cómo elegir una sierra circular para tus trabajos
 
+## Qué sierra circular elegir según el trabajo
+
+Antes de comparar modelos, anotá el espesor máximo, el ángulo y la longitud del corte. Usá esta tabla para identificar qué especificación revisar en cada tarea; la capacidad efectiva siempre corresponde al modelo y al disco admitido.
+
+| Trabajo | Profundidad | Base y apoyo | Guía | Disco | Peso |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Cortar tableros | Compará el espesor máximo con la capacidad a 90° o al ángulo previsto. | Comprobá que la base apoye estable y que el tablero tenga soporte. | Para cortes largos, usá una regla sujeta o una guía compatible con el modelo. | Elegí por material y corte; verificá diámetro, eje y RPM. Ver [discos para sierra circular](/sierras/disco-para-sierra-circular/). | Consideralo si vas a sostener la máquina durante muchos cortes; contrastá el peso publicado del código exacto. |
+| Cortar madera maciza | Revisá la profundidad publicada para el espesor y el ángulo real; la cifra a 90° no reemplaza la de 45°. | Verificá que la pieza quede apoyada sin interferir con la guarda ni con la hoja. | Para cortes al hilo, comprobá el tope paralelo o una guía recta bien sujeta. | Confirmá que la hoja admita madera y el tipo de corte; no elijas solo por diámetro o cantidad de dientes. | Compará el peso del conjunto que vas a sostener, incluidos los accesorios que uses. |
+| Hacer cortes largos rectos o repetidos | Calculá la capacidad por el espesor; si cambia el ángulo, usá el dato específico de ese ángulo. | La base debe deslizar apoyada y sin obstáculos a lo largo de toda la pieza. | Confirmá compatibilidad del tope, regla o riel; revisá la [guía para sierras circulares](/sierras/guia-para-sierra-circular/). Para series con la pieza sobre mesa, compará una [sierra de banco](/sierras/de-banco/). | Verificá material, ancho de corte, diámetro, eje y RPM en máquina y disco. | El peso afecta la maniobra portátil; para trabajo frecuente, contrastalo con el apoyo y el método de corte previstos. |
+
 ## Diámetro y espesor: dos límites separados
-
-### Elegí primero según el trabajo que vas a hacer
-
-| Trabajo | Qué mirar |
-| :--- | :--- |
-| Cortar tableros | Profundidad suficiente para el espesor, una guía o regla para mantener el corte y un disco indicado para el material. Mirá la guía de [discos para sierra circular](/sierras/disco-para-sierra-circular/) y la de [guías para sierra circular](/sierras/guia-para-sierra-circular/). |
-| Cortar madera maciza | El espesor real de la pieza y la profundidad máxima a 90° publicada para la máquina. |
-| Hacer cortes a 45° | La profundidad publicada a 45°; suele ser menor que a 90°, así que no alcanza con comprobar solo el corte recto. |
-| Hacer cortes largos rectos | Que puedas usar una guía compatible, un tope paralelo o una regla externa bien sujeta; confirmá cómo apoya la base. |
-| Trabajar con frecuencia | Peso de la herramienta, extracción de polvo si está documentada y disponibilidad local de discos compatibles por diámetro, eje y RPM. |
 
 ### Qué medidas tenés que conocer antes de comprar
 
@@ -45,12 +45,16 @@ Medí primero el espesor máximo real de tus piezas y comparalo con la profundid
 
 Los watts publicados describen potencia eléctrica absorbida o anunciada según la ficha; por sí solos no indican cuánto tarda el corte, la calidad del borde, la capacidad máxima ni el desempeño bajo carga. Por ejemplo, las fichas de la [Stanley SC16-AR](/sierras/stanley-sc16/), la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) publican potencias distintas, pero esa diferencia no constituye una prueba comparativa. Elegí primero por capacidad, hoja compatible y tipo de corte; tomá los watts como un dato más, junto con el resto de la ficha.
 
-### Qué sierra tiene sentido según tu caso
+### Qué capacidad tiene sentido según tu caso
 
-- **Piezas de hasta unos 60 mm:** como primera selección, las tres sierras de la matriz entran por las capacidades a 90° que documentan: 63,5 mm para la Lüsqtoff CSL1500-8, 64 mm para la Bosch GKS 150 y 65 mm para la Stanley SC16-AR. Dejá margen para tolerancias y confirmá que el manual corresponda a la unidad ofrecida.
+- **Piezas de hasta unos 60 mm:** como primera selección, las tres sierras de la matriz entran por las capacidades a 90° que documentan: 63,5 mm para la Lüsqtoff CSL1500-8, 64 mm para la Bosch GKS 150 y 65 mm para la Stanley SC16-AR. Dejá margen para tolerancias y confirmá que el manual corresponda a la unidad ofrecida. Revisá sus fichas: [Lüsqtoff CSL1500-8](/sierras/circulares-lusqtoff/), [Bosch GKS 150](/sierras/bosch-gks-150/) y [Stanley SC16-AR](/sierras/stanley-sc16/).
 - **Piezas de más de 64–65 mm:** esos tres modelos ya no cubren el trabajo según sus capacidades publicadas a 90°. Buscá una sierra con profundidad documentada suficiente para el espesor y el ángulo requeridos.
 - **Si necesitás un riel propietario:** la ficha de la Bosch GKS 150 declara que no es compatible con carril guía Bosch. Revisá la [guía de compatibilidad de guías](/sierras/guia-para-sierra-circular/) o confirmá el sistema admitido por el modelo antes de comprar el riel.
 - **Si necesitás cortes repetitivos con la pieza apoyada y guiada en una mesa:** compará una [sierra de banco](/sierras/de-banco/), comprobando capacidad de corte, apoyo y espacio disponible.
+
+## Modelos y marcas para comparar
+
+La comparación general sirve para filtrar por capacidad y compatibilidad. Para confirmar kit, variantes, accesorios y límites de cada código, seguí a la ficha individual. La [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) no tiene profundidad máxima publicada en las fuentes oficiales consultadas; la [Bosch GKS 150](/sierras/bosch-gks-150/) declara 64 mm a 90° y no es compatible con carril guía Bosch. La [Stanley SC16-AR](/sierras/stanley-sc16/) publica 65 mm a 90°, con discrepancia de diámetro de disco entre su manual y ficha. También podés comparar [sierra circular Black+Decker](/sierras/circulares-black-decker/) y [sierra circular Lusqtoff](/sierras/circulares-lusqtoff/) por código y documentación regional.
 
 ### Capacidades documentadas de tres modelos
 

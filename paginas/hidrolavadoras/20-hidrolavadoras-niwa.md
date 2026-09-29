@@ -13,7 +13,7 @@ buyer_opinions: "sí"
 primary_sources: "sí"
 information_asset: "Selector de gama Niwa Argentina entre eléctricas domésticas, profesionales y a combustión; corrige el código HDNW-500 y analiza una muestra declarada de opiniones HDNW-700."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -25,8 +25,8 @@ published: true
 
 - **Casa y limpieza ocasional:** HDNW-200 o HDNW-300, enchufe de 220 V y bomba axial; la 300 está descrita por Rumbo como doméstica. Elegí entre ambas por peso, caudal y precio del código disponible.
 - **Casa con patio o pequeño taller:** HDNW-500 (1040550). Rumbo la ubica expresamente para hogar y pequeño taller/negocio; entrega 100 bar de presión promedio, 360 L/h nominales y 420 L/h máximos.
-- **Más margen en eléctrica doméstica:** HDNW-700 (1040700), con 120 bar promedio y caudal nominal publicado de 390 L/h. Sigue siendo de 220 V y bomba axial; el peso bruto publicado sube a 15,1 kg.
-- **Tareas intensivas con electricidad monofásica:** HDNW PRO-10 (1040900), 220 V, bomba con cigüeñal y biela, 8 m de manguera; Rumbo la presenta como profesional. No la confundas con una máquina industrial de uso continuo.
+- **Más margen en eléctrica doméstica:** HDNW-700 (1040700), con 120 bar promedio y caudal nominal publicado de 390 L/h. Sigue siendo de 220 V y bomba axial; el peso bruto publicado sube a 15,1 kg. Compará su escalón en la [comparativa de hidrolavadoras de 150 bar](/hidrolavadoras/150-bar/).
+- **Tareas intensivas con electricidad monofásica:** HDNW PRO-10 (1040900), 220 V, bomba con cigüeñal y biela, 8 m de manguera; Rumbo la presenta como profesional. No la confundas con una máquina industrial de uso continuo. Si el uso será frecuente, revisá cómo dimensionar una [hidrolavadora profesional](/hidrolavadoras/profesionales/).
 - **Campo, exteriores sin tomacorriente cercano o trabajo móvil ocasional:** una LNW a combustión evita depender de conexión eléctrica, pero agrega motor a nafta, combustible, mantenimiento y mucho más peso. Para jornada de lavadero o tarea intensiva, verificá modelo y servicio requerido; la LNW-150 se anuncia para lavaderos y trabajo intensivo.
 
 ## Gama Niwa publicada por Grupo Rumbo: eléctricas
@@ -42,6 +42,20 @@ Las presiones siguientes se presentan como las rotula el distribuidor: **presió
 | [HDNW PRO-10, 1040900](https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10-1040900) | Línea eléctrica profesional | 100 / 130 bar | 384 / 474 L/h | 2200 W, 220 V/50 Hz, bomba con cigüeñal y biela, manguera 8 m, 20 kg bruto. |
 
 Grupo Rumbo también lista HDNW-750 (1040750), y la describe como modelo elegido por pintores. **Antes de compararla por caudal, pedí confirmación de la ficha:** la página informa 468 L/h nominales y 420 L/h máximos, valores internamente invertidos. El resto de la gama profesional eléctrica incluye HDNWP-3M (1040920), HDNWP-4M (1040940), HDNWP-5M (1040960) y HDNWP-5T trifásica (1040980); verificá tensión, bomba, filtro, manómetro y ciclo de trabajo en la ficha de cada código.
+
+## Precios y disponibilidad publicada (29/09/2026)
+
+Precios de la tienda de Grupo Rumbo; el distribuidor muestra sucursales de retiro inmediato o disponibilidad en 72 horas según localidad. Esa disponibilidad no garantiza inventario en todos los puntos: confirmá por código y código postal antes de pagar.
+
+| Modelo / código | Precio publicado | Referencia de disponibilidad | Perfil |
+| :--- | ---: | :--- | :--- |
+| HDNW-500 / 1040550 | $190.912 | La tienda muestra retiro inmediato y/o entrega en 72 h en sucursales listadas. | Eléctrica para hogar y pequeño taller, 100 bar promedio. |
+| HDNW-700 / 1040700 | $275.758 | La tienda muestra retiro inmediato y/o entrega en 72 h según sucursal. | Eléctrica doméstica, 120 bar promedio; bomba axial. |
+| HDNW PRO-10 / 1040900 | $671.737 | La tienda muestra retiro inmediato y/o entrega en 72 h según sucursal. | Profesional monofásica, bomba con cigüeñal y biela. |
+| LNW-70 / 1040070 | $801.376 | La tienda lista sucursales con retiro y disponibilidad en 72 h; verificar la elegida. | A combustión, 207 bar y 600 L/h. |
+| LNW-150 / 1040130 | $1.496.670 | La tienda lista sucursales con retiro y disponibilidad en 72 h; verificar la elegida. | A combustión, 252 bar, bomba con cigüeñal y biela, uso intensivo. |
+
+Los importes corresponden a publicaciones consultadas el 29/09/2026 y pueden cambiar; el vendedor puede ofrecer descuentos por transferencia.
 
 ### HDNW-500: código corregido y elección práctica
 
@@ -63,7 +77,7 @@ La combustión no significa automáticamente más conveniencia: las LNW son equi
 | Modelo y código | Presión / caudal publicados | Motor y bomba | Manguera, accesorios y peso | Uso indicado |
 | :--- | :--- | :--- | :--- | :--- |
 | [LNW-65 (1040065)](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-65-1040065) | 175 bar; caudal no indicado en la ficha actual consultada | 7 HP; bomba axial | 8 m; 5 picos; 41,8 kg bruto | Trabajo en campo o ciudad, según Rumbo. |
-| [LNW-70 (1040070)](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70-1040070) | 207 bar; 600 L/h | 7 HP, 208 cc; bomba LTP202H | Cuatro boquillas; 35 kg | Hogar/semiprofesional y trabajos ocasionales que requieren más rendimiento. |
+| [LNW-70 (1040070)](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70-1040070) | 207 bar; 600 L/h | 7 HP, 208 cc; bomba LTP202H | Cuatro boquillas; 35 kg | Hogar/semiprofesional y trabajos ocasionales; por presión, compará con [hidrolavadoras cercanas a 200 bar](/hidrolavadoras/200-bar/). |
 | [LNW-150 (1040130)](https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150-1040130) | 252 bar; caudal no indicado en la ficha actual consultada | 15 HP; bomba de cigüeñal y biela | 8 m; cinco picos; 63 kg bruto | Lavaderos y tareas intensivas. |
 
 Atención a la generación del último código: documentación anterior de 1040130 puede aparecer como **LNW-130**, mientras la página vigente de Rumbo identifica ese código como **LNW-150** y enlaza un despiece 2026. Al comprar, compará placa, manual y SKU del equipo ofrecido; no cruces repuestos basándote sólo en el nombre antiguo.
@@ -88,15 +102,12 @@ En los cinco comentarios aparecen valoraciones positivas de potencia o rendimien
 4. Si elegís nafta, confirmá peso, boquillas, manguera, caudal y modelo de bomba; si elegís eléctrica, verificá tensión y circuito.
 5. Pedí manual/despiece, garantía, piezas de desgaste y service disponible para ese código en tu localidad.
 
-Datos del importador y opiniones revisados el **28/09/2026**. Sin prueba física; las reseñas citadas no permiten concluir fiabilidad a largo plazo.
+Datos del importador revisados el **29/09/2026**; opiniones revisadas el **28/09/2026**. Sin prueba física; las reseñas citadas no permiten concluir fiabilidad a largo plazo.
 
 ## Fuentes consultadas
 
 - **Fuentes de producto y postventa:** [gama eléctrica de Grupo Rumbo](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas); [gama a combustión de Niwa](https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion); páginas oficiales de cada modelo enlazadas arriba, que incluyen manuales y/o despieces según el SKU.
+- **Precios consultados el 29/09/2026:** [HDNW-500](https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500), [HDNW-700](https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700), [HDNW PRO-10](https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10), [LNW-70](https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70), [LNW-150](https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150).
 - **Opiniones:** ficha HDNW-700 en Mercado Libre, calificación agregada y muestra cualitativa de cinco comentarios visibles; datos revisados el 28/09/2026.
 
-Para seguir comparando: [hidrolavadoras profesionales: magnitudes y conexión](/hidrolavadoras/profesionales/).
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/hidrolavadoras/lusqtoff/).
+Para explorar la categoría: [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

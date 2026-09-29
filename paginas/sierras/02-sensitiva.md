@@ -25,7 +25,7 @@ published: true
 
 Una sensitiva sirve para cortar perfiles metálicos a medida en un banco: caños, perfiles redondos y cuadrados, ángulos y planchuelas, siempre que el manual y el consumible admitan ese material y sección. Su cabezal baja sobre la pieza, que queda apoyada en la base y sujeta con una morsa. Ese formato resulta práctico para repetir cortes rectos o angulares con una longitud marcada y una sujeción estable; la capacidad publicada debe coincidir con la geometría real de la pieza.
 
-### Sensitiva, ingletadora o sierra sin fin para metal
+## Sensitiva o sierra sin fin para metal
 
 La palabra «ingletadora» también se usa para equipos diseñados para madera. Para metal, compará una máquina expresamente indicada para ese material y seguí su manual: una hoja o disco compatible por diámetro no vuelve apta una herramienta que no fue diseñada para ese uso.
 
@@ -41,7 +41,7 @@ La palabra «ingletadora» también se usa para equipos diseñados para madera. 
 
 La comparación es por tipo de máquina, no una promesa de rendimiento. Como referencias de fabricante, DeWalt describe la D28730 con disco abrasivo y morsa rápida; Evolution publica una sensitiva de corte en frío con hoja de carburo; Milwaukee documenta una sierra sin fin portátil para metal con hoja de banda. En todos los casos, mandan el modelo exacto y su manual.
 
-### Qué capacidad necesitás según el perfil
+## Qué capacidad necesitás según la forma del perfil
 
 Identificá la forma y las dimensiones exteriores de la sección antes de comparar capacidades. «Tubo de 100 mm» no significa lo mismo que un cuadrado de 100 × 100 mm o un perfil rectangular: la orientación cambia la altura y el ancho que debe alojar la máquina. En ángulos, comprobá cómo apoya cada ala; el manual DeWalt indica que se apoyen ambas patas contra la base y la guía. La fila de la tabla debe corresponder al perfil y al ángulo de corte que realmente vas a hacer.
 

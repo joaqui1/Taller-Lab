@@ -19,21 +19,21 @@ published: true
 
 # Qué sierra sable inalámbrica comprar
 
-La plataforma de batería, el tipo de hoja y el peso armado pueden cambiar la compra tanto como la carrera y las carreras por minuto. Esta comparación usa la Bosch GSA 18V-24 y la DeWalt DCS380B publicada por DeWalt Argentina; la DCS380B se ofrece como herramienta sola.
+La inalámbrica conviene cuando necesitás moverte sin cable, trabajás en lugares sin toma cercana o ya tenés una plataforma compatible. Para jornadas largas en un puesto fijo, compará el costo de batería y cargador con la continuidad de una herramienta con cable. Esta página no compara una sierra sable con cable específica: reúne datos de la Bosch GSA 18V-24 y la DeWalt DCS380B regionales.
 
-## Comparación de los modelos documentados
+## Cuándo conviene inalámbrica frente a cable
 
 | Dato documentado | Bosch GSA 18V-24 | DeWalt DCS380B |
-| :--- | ---: | ---: |
-| Plataforma | Bosch Professional 18 V | DeWalt 20V MAX; 18 V nominales |
-| Carrera | 24 mm | 1-1/8 in (28,6 mm) |
-| Velocidad sin carga | 0–3.100 carreras/min | 0–3.000 carreras/min |
+| :--- | :--- | :--- |
+| Plataforma | Bosch Professional 18 V | DeWalt 20V MAX (18 V nominales) |
+| Carrera / velocidad sin carga | 24 mm / 0–3.100 carreras/min | 28,6 mm / 0–3.000 carreras/min |
 | Capacidad publicada en madera | Hasta 230 mm | No publicada en la ficha argentina consultada |
-| Peso publicado | 1,7 kg sin batería | No publicado en la ficha argentina consultada |
-| Batería y cargador | Confirmar el código/kit ofrecido | Herramienta sola; no incluye batería |
-| Cambio y sujeción de hoja | SDS, cambio sin herramientas | Abrazadera de 4 posiciones; cambio por palanca |
+| Batería y cargador | La variante Bosch consultada lista hojas, no batería/cargador; confirmá el código/kit ofrecido | Herramienta sola; no incluye batería ni cargador |
+| Peso de herramienta | 1,7 kg sin batería | No publicado en la ficha argentina consultada |
+| Peso armado | No informado para una combinación concreta de batería | No informado |
+| Cambio de hoja | SDS, sin herramientas | Abrazadera de 4 posiciones; cambio por palanca |
 
-**Análisis TallerLab.** La carrera publicada de DeWalt es 4,6 mm mayor; Bosch declara 100 carreras/min más de velocidad máxima sin carga. Ninguna de esas cifras por sí sola permite concluir cuál corta más rápido: también influyen hoja, material, apoyo y forma de avance. La etiqueta DeWalt 20V MAX indica tensión inicial sin carga; su ficha argentina aclara que la tensión nominal es 18 V.
+La diferencia de carrera y velocidad sin carga no alcanza para concluir cuál corta más rápido: también influyen hoja, material, apoyo y forma de avance. En la etiqueta DeWalt, 20V MAX es tensión inicial sin carga; la ficha argentina aclara que la tensión nominal es 18 V.
 
 ### La plataforma de batería puede decidir la compra
 
@@ -51,7 +51,7 @@ Si empezás de cero, compará el costo total: máquina, batería, cargador y hoj
 | Accesorios | Hojas, caja y otros elementos incluidos para esa variante |
 | Costo de entrada | Precio del conjunto necesario si todavía no tenés batería/cargador compatibles |
 
-En la DCS380B regional, el fabricante declara que incluye una sierra sable y especifica que es solo herramienta, sin batería. Para la GSA 18V-24, revisá la variante y el código que vende el comercio: Bosch publica versiones con hojas y números de pedido distintos.
+En la DCS380B regional, el fabricante especifica que es solo herramienta, sin batería ni cargador. Para la GSA 18V-24, revisá la variante y el código que vende el comercio: Bosch publica versiones con hojas y números de pedido distintos.
 
 ### Qué hoja y capacidad necesitás
 
@@ -69,11 +69,11 @@ La DCS380B regional no publica una capacidad máxima de corte en madera, tubos o
 
 Bosch publica 1,7 kg sin batería; DeWalt Argentina no informa el peso de la DCS380B en la ficha consultada. Por eso no es una comparación de peso completa. Para saber cuánto vas a sostener, sumá al peso de la herramienta la batería exacta que usarías; si la cifra no está en la ficha, pedí el peso armado o pesá la unidad con batería antes de decidir.
 
-La capacidad de batería también afecta el peso y la autonomía, así que anotá qué batería se usó al comparar. No deduzcas cuánto dura una carga a partir de los Ah ni de las carreras/min: no hay una prueba directa de autonomía o rendimiento entre estos dos modelos.
+La capacidad de batería afecta el peso y la autonomía, así que anotá qué batería se usó al comparar. No deduzcas cuánto dura una carga a partir de los Ah ni de las carreras/min: no hay una prueba directa de autonomía o rendimiento entre estos dos modelos. Para cortes de mayor precisión o curvas controladas, compará si una [sierra caladora](/sierras/caladoras/) corresponde mejor; para otros usos y variantes con cable, consultá la guía de [sierra sable](/sierras/sable/).
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GSA 18V-24 Argentina](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0); [DeWalt DCS380B Argentina](https://www.dewalt.com.ar/es-ar/producto/dcs380b/sierra-sable-de-20v-max-no-incluye-bateria).
+- **Documentación primaria:** [Bosch GSA 18V-24 Argentina](https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0); [manual Bosch GSA 18V-24](https://www.bosch-professional.com/binary/manualsmedia/o584962v21_160992AD3F_202506.pdf); [DeWalt DCS380B Argentina](https://www.dewalt.com.ar/es-ar/producto/dcs380b/sierra-sable-de-20v-max-no-incluye-bateria).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

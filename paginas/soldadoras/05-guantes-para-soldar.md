@@ -19,30 +19,17 @@ published: true
 
 # Cómo elegir guantes para soldar según el proceso
 
+## Prioridad según el proceso
+
+| Proceso | Prioridad | Qué buscar |
+| :--- | :--- | :--- |
+| TIG | Más destreza, manteniendo la protección térmica requerida para la tarea | Ajuste preciso y palma flexible que permita manejar antorcha y varilla |
+| MIG | Equilibrio entre destreza y protección térmica ante salpicadura y piezas calientes | Movilidad para controlar la antorcha, con palma y puño protegidos |
+| MMA | Mayor protección térmica y mecánica ante chispas, escoria y abrasión | Construcción robusta, costuras resistentes y puño largo |
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
-
-## Guantes para electrodo, MIG y TIG
-
-El proceso orienta sobre qué mirar, pero no reemplaza la evaluación de riesgos del puesto ni la selección de un guante marcado para soldadura.
-
-| Proceso | Protección térmica y contra abrasión: qué priorizar | Destreza que suele exigir la tarea | Orientación de construcción |
-| :--- | :--- | :--- | :--- |
-| Electrodo revestido (MMA) | Protección sostenida ante chispas, salpicadura, escoria caliente, calor de contacto y manipulación abrasiva | Media: sujetar el porta-electrodo, cambiar electrodos y limpiar/posicionar piezas | Guante robusto con palma y dorso protegidos, costuras cubiertas o resistentes y puño largo que cubra la muñeca sobre la manga |
-| MIG/MAG | Protección ante salpicadura y piezas calientes; abrasión al preparar y acomodar material | Media a alta: controlar la antorcha, gatillo, ángulo y posición de la mano | Buen equilibrio entre protección y movilidad de dedos; revisar que el puño cubra la unión con la manga y que el refuerzo no impida agarrar la antorcha |
-| TIG | La protección térmica sigue dependiendo de corriente, duración, material y cercanía a la pieza; no la reduzcas solo para ganar tacto | Alta: manejar antorcha y aporte fino, en ocasiones alimentando varilla con la otra mano | Ajuste preciso y palma flexible que permita manipulación fina, conservando el marcado de protección requerido para el trabajo |
-
-Son prioridades relativas de selección, no niveles de certificación. Un guante pensado para TIG no queda automáticamente validado para toda tarea TIG; las chispas, la radiación térmica, el tiempo de contacto y la exposición de cada mano dependen del trabajo real.
 
 ## Materiales y protección
 
@@ -81,6 +68,15 @@ Elegí primero el proceso y los riesgos reales; después compará el código de 
 - **Referencia de seguridad:** [OSHA, evaluación de EPP y guantes de cuero para chispas, calor y abrasión](https://www.osha.gov/training/library/personal-protective-equipment/assessment); [ESAB, guantes secos y sin agujeros antes de operar](https://na-email.esab.com/hubfs/ESAB_June2022/pdfs/0-5596%20GB.pdf).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando protección del soldador: [máscaras fotosensibles: datos declarados por modelo](/soldadoras/mascaras-fotosensibles/).
+Para seguir comparando protección facial: [máscara de soldar fotosensible](/mascaras-fotosensibles/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+Guía general: [soldadoras](/soldadoras/).
+
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Comparación de configuraciones GN/GLP de fábrica y conversiones con kits, modelos residenciales publicados en Argentina, potencias y consumos por combustible y criterios seguros de instalación."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "29/09/2026"
 published: true
 ---
 
@@ -36,7 +36,7 @@ GN y GLP tampoco son intercambiables sin más. La presión y el caudal disponibl
 
 ## Modelos de respaldo publicados en Argentina
 
-La familia residencial estacionaria disponible en los catálogos consultados comprende opciones Generac Guardian y Gamma. Gamma también publica un grupo trifuel portátil que puede operar con gas; por formato y transferencia, no equivale a los estacionarios automáticos.
+La familia residencial estacionaria disponible en los catálogos consultados comprende opciones Generac Guardian y Gamma. Para conocer otras líneas, consultá [generadores Gamma](/generadores/gamma/). Gamma también publica un grupo trifuel portátil que puede operar con gas; por formato y transferencia, no equivale a los estacionarios automáticos.
 
 | Familia/modelo publicado | Configuración | Potencia nominal publicada con GLP | Potencia nominal publicada con GN | Uso/transferencia informado |
 | :--- | :--- | ---: | ---: | :--- |
@@ -45,12 +45,22 @@ La familia residencial estacionaria disponible en los catálogos consultados com
 | Generac Guardian G007046-0, 13 kVA | GN o GLP, equipo residencial | 13 kVA | 13 kVA | Estacionario; compatible con transferencia Generac RTSI |
 | Gamma GE3492AR, estacionario 8,5 kW | GN o GLP, residencial | 8,5 kW | 7,7 kW | Estacionario automático; requiere ATS GE3495AR |
 | Gamma GE3493AR, estacionario 13 kW | GN o GLP, residencial | 13 kW | 12 kW | Estacionario automático; requiere ATS GE3495AR |
-| Gamma GE3494AR, estacionario 17 kW | GN o GLP, residencial | 17 kW | 16 kW | Estacionario automático; requiere ATS GE3495AR; 380 V trifásico |
+| Gamma GE3494AR, estacionario 17 kW | GN o GLP, residencial | 17 kW | 16 kW | Estacionario automático; requiere ATS GE3495AR; equipo de 380 V; ver [generadores trifásicos](/generadores/trifasicos/) |
 | Gamma TF8500, portátil trifuel | Nafta, GLP o GN; selector de combustible | 7,2 kW | 6,4 kW | Portátil, ATSReady; autonomía publicada con tanque de nafta |
 
 **Lectura de potencia:** el Guardian de 8 kVA pierde 1 kVA de potencia continua al operar con GN frente a GLP; en los modelos Guardian de 10 y 13 kVA la ficha consultada da la misma potencia para ambos gases. En Gamma estacionario, la potencia GN también es menor que la GLP. El TF8500 publica además 8 kW continuos con nafta: al cambiar a GLP o GN baja a 7,2 o 6,4 kW. Son valores por modelo, no una regla porcentual extrapolable a otros generadores.
 
 Estos son modelos y configuraciones que aparecen en páginas de fabricante/importador consultadas el 28/09/2026; la publicación no confirma stock en cada localidad. Pedí cotización para el código exacto, combustible, tensión/fases y accesorios incluidos. En Gamma, los estacionarios no incluyen batería, instalación ni conexiones de gas; el fabricante indica que necesitan el ATS GE3495AR.
+
+## Precios y disponibilidad observados en Argentina
+
+Consulta de páginas comerciales realizada el **29/09/2026**. Son publicaciones observadas, no cotizaciones: pueden cambiar por medio de pago, envío o localidad. “Agregar al carrito” no confirma stock físico ni fecha de entrega; confirmá código, combustible, tensión y disponibilidad con cada vendedor.
+
+| Modelo ya comparado | Distribuidor / fabricante | Precio publicado | Disponibilidad observada (29/09/2026) |
+| :--- | :--- | ---: | :--- |
+| Gamma TF8500 / GE3490AR | [Cupra](https://cupra.com.ar/grupos-electrogenos-generadores/10672-grupo-electrogeno-gamma-8500-ve-85-kw-trifuel-nafta-glp-y-gn-4t-nafta-iva-105-arrelectrico.html) | $2.557.939,92 (IVA incluido) | La página indica “últimas unidades”; también muestra 1 artículo en stock. |
+| Gamma GE3493AR, 13 kW | [Indupro](https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3493ar-13-kw/) | $12.251.444,80 | Publicado con opción de agregar al carrito; stock físico no indicado. |
+| Gamma GE3494AR, 17 kW | [Indupro](https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3494ar-17kw-185ra/) | $14.756.381,60 | Publicado con opción de agregar al carrito; stock físico no indicado. |
 
 ## Consumo y autonomía: mirar combustible y carga
 
@@ -88,8 +98,6 @@ Antes de considerar un kit, pedí confirmación escrita para el motor y modelo e
 - **Instalación y normativa:** [Generac Argentina, instaladores y documentación técnica](https://www.generac.com.ar/instaladores); [ENARGAS, preguntas frecuentes sobre instalaciones internas](https://www.enargas.gob.ar/secciones/seguridad-en-el-hogar/preguntas-frecuentes.php).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [generadores a nafta](/generadores/a-nafta/).
+Para seguir comparando: [generadores a nafta](/generadores/a-nafta/), [generadores diésel](/generadores/diesel/) y [cómo dimensionar un generador para casa](/generadores/para-casa/); después, revisá la [comparativa general](/generadores/comparativa-general/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/generadores/).
+Para explorar la categoría: [guías de generadores y grupos electrógenos](/generadores/).

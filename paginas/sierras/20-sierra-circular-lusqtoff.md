@@ -21,7 +21,11 @@ published: true
 
 La CSL1500-8 publica 63,5 mm de profundidad a 90°; la ficha de la SCL2200-8 declara 84 mm. Pero la documentación de esta última se contradice en el código, el diámetro de disco y el peso. Por eso, la cifra de profundidad sirve para orientar la comparación, no para identificar por sí sola qué unidad o repuesto estás comprando.
 
-## CSL1500-8 y SCL2200-8: capacidades documentadas
+## Qué modelo elegir según profundidad de corte
+
+La CSL1500-8 publica 63,5 mm a 90° y 46 mm a 45°. La SCL2200-8 declara 84 mm a 90° y 56 mm a 45°, aunque su documentación también presenta discrepancias que conviene resolver antes de comprar.
+
+### CSL1500-8 y SCL2200-8: capacidades documentadas
 
 | Dato documentado | CSL1500-8 | SCL2200-8 |
 | :--- | ---: | ---: |
@@ -32,7 +36,7 @@ La CSL1500-8 publica 63,5 mm de profundidad a 90°; la ficha de la SCL2200-8 dec
 | Peso publicado | 4,40 kg | Ficha actual: 4,75 kg; manual: 16 kg |
 
 **Análisis TallerLab.** La profundidad a 90° publicada para la SCL2200-8 supera en 20,5 mm a la de la CSL1500-8. Es una comparación entre cifras de ficha; en el modelo mayor confirmá que el código y la capacidad correspondan a la unidad concreta antes de basar la compra en esa diferencia.
-### Datos que tenés que confirmar en la unidad antes de comprar
+## Datos que se contradicen entre documentos
 
 > **No te guíes solo por el nombre SCL2200-8 de la publicación.** La ficha oficial titula el disco como 230 mm, pero el detalle declara 235 mm; la página publica 4,75 kg, mientras el manual vinculado indica 16 kg y la llama CSL2200-8. El catálogo oficial también mezcla las formas SCL y CSL.
 
@@ -45,7 +49,7 @@ Antes de pagar o encargar discos, pedí al vendedor una foto legible de la placa
 
 Para resolver la discrepancia directamente con la marca, Lusqtoff publica el correo de Posventa [asistenciatecnica@lusqtoff.com.ar](mailto:asistenciatecnica@lusqtoff.com.ar). En la consulta, adjuntá las fotos de la placa y del manual de la unidad y pedí que confirmen código, disco, eje y peso. **Las fuentes públicas consultadas no resuelven estas diferencias; no tenemos una respuesta directa de la marca para atribuirle una confirmación.**
 
-### Elegí según la profundidad que exige la pieza
+### Decidí según la profundidad que exige la pieza
 
 - **Hasta 63,5 mm a 90°:** la capacidad publicada de la CSL1500-8 alcanza ese espesor; la SCL2200-8 también lo cubre según sus 84 mm publicados. Elegí por el resto de las necesidades y verificá que el disco instalado corresponda a la máquina.
 - **Más de 63,5 y hasta 84 mm a 90°:** solo la cifra publicada de la SCL2200-8 cubre ese rango. Como sus fuentes no coinciden en modelo ni peso, confirmá primero la placa y la capacidad del ejemplar que vas a comprar.
@@ -57,6 +61,8 @@ Las profundidades son datos de ficha y no sustituyen la comprobación de la piez
 El disco de 235 mm no entra en una sierra que admite 185 mm. Además de diámetro, verificá eje, RPM máximas, espesor y guarda. La ficha de CSL1500-8 especifica eje de 20 mm en el accesorio circular compatible enlazado; no trasladamos ese eje al modelo mayor sin una fuente específica.
 
 **Desconocido.** No probamos calidad de corte, calentamiento ni compatibilidad real de discos de terceros.
+
+Para comparar capacidades y tipos de máquina, consultá la guía de [sierra circular](/sierras/circulares/). También podés revisar [sierras circulares Black+Decker](/sierras/circulares-black-decker/) y los criterios para elegir [discos para sierra circular](/sierras/disco-para-sierra-circular/).
 
 ## Fuentes consultadas
 

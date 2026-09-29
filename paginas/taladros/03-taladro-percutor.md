@@ -47,6 +47,12 @@ Usá el diámetro de perforación publicado para **ese modelo y material**, no e
 
 Para **cable**, mirá la potencia, las velocidades y el peso; es una opción práctica para trabajo continuo cerca de una toma. Para **batería**, compará la plataforma y su disponibilidad, el peso con batería, los Ah, la autonomía y si necesitás una batería de repuesto. Calculá el costo de herramienta, batería(s) y cargador si la publicación no incluye todo; una herramienta sola puede salir menos al inicio, pero el kit completo puede ser más conveniente si todavía no tenés esa plataforma.
 
+### Seguir por marca
+
+[Black+Decker](/taladros/black-decker/) · [Stanley](/taladros/stanley/) · [Bosch](/taladros/bosch-inalambrico/) · [DeWalt](/taladros/dewalt-inalambrico/) · [Einhell](/taladros/einhell-inalambrico/) · [Milwaukee](/taladros/milwaukee/)
+
+Subtema principal: [taladro percutor inalámbrico](/taladros/taladro-percutor-inalambrico/).
+
 ## Cuándo conviene pasar a un rotomartillo
 
 Pasá a un **rotomartillo SDS Plus** si vas a perforar hormigón con frecuencia, necesitás agujeros de mayor diámetro o el taladro percutor te obliga a insistir y aplicar mucha presión. El mecanismo electroneumático está diseñado para esas tareas y el portaherramientas SDS admite brocas específicas para martillo.

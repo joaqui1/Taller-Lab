@@ -57,4 +57,3 @@ También podés comparar componentes individuales en la guía de [soportes con l
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-[Ver metodología de TallerLab](/como-trabajamos/)

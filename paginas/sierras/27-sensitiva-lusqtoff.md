@@ -19,7 +19,7 @@ published: true
 
 # Sierra sensitiva Lusqtoff: guía de la CM-14K
 
-Para elegir una sensitiva, empezá por la sección y la forma del material que necesitás cortar. Que una máquina use un disco de 355 mm no significa que admita cualquier perfil de ese tamaño: la capacidad cambia según la geometría y el ángulo. La ficha argentina vigente de la CM-14K declara los límites de la tabla siguiente.
+Que una sensitiva use un disco de 355 mm no determina por sí solo el tamaño de perfil que corta: la capacidad depende de su forma y del ángulo. Para los criterios generales, consultá [cómo elegir una sensitiva](/sierras/sensitivas/); la ficha argentina vigente de la CM-14K publica los límites de esta tabla.
 
 ## Capacidades y datos publicados de la CM-14K
 
@@ -38,19 +38,17 @@ Para elegir una sensitiva, empezá por la sección y la forma del material que n
 | Morsa | La ficha web no detalla apertura ni capacidad de sujeción; verificá la morsa de la unidad y cómo se ajusta antes de comprar |
 | Contenido de caja | 1 disco de corte, según la ficha web vigente |
 
-**Para dimensionar el trabajo.** Compará la sección completa del material con la capacidad correspondiente: redondo con redondo, cuadrado con cuadrado y ángulo con ángulo. La ficha no publica capacidad para perfiles rectangulares ni una tabla de capacidades separada para cada posición entre 0° y 45°. Si tu pieza tiene una geometría distinta, pedí confirmación al vendedor o al fabricante; no uses el dato del disco como sustituto.
-
 ### Qué disco de reemplazo buscar
 
 La ficha vigente especifica disco de corte de 355 mm y eje de 1 pulgada (25,4 mm), pero no informa el espesor ni la composición del disco incluido. Para reemplazarlo, comprobá que el disco esté indicado para el material que vas a cortar, que su diámetro y agujero coincidan, y que su velocidad máxima admisible sea igual o superior a las 3.800 rpm de la máquina. No fuerces un disco que no calce ni retires el resguardo; seguí las indicaciones de montaje del manual que corresponda a la unidad.
 
-### Datos que conviene confirmar en la unidad
+## CM-14K y CM14K-9: qué cambia y qué confirmar
 
-La ficha web vigente informa 15 kg y un disco incluido; catálogos anteriores de Lüsqtoff consignan 13,5 kg y tres discos. El manual actualmente enlazado en la página, además, presenta una tabla genérica para discos de 14 pulgadas con cifras distintas de potencia, RPM y peso. No conviene trasladar esas cifras a la CM-14K sin confirmar que el documento y la placa correspondan a la misma versión. Antes de pagar, pedí foto de la placa, del manual que acompaña esa unidad y de los accesorios incluidos. Confirmá también apertura y ajuste de la morsa, ya que esos datos no aparecen en la ficha web.
+La CM-14K figura en la ficha vigente; la CM14K-9 está marcada como discontinuada. En publicaciones o catálogos antiguos, los 2.200 W y los tres discos atribuidos a CM14K-9 no deben trasladarse a la CM-14K actual. Para esta última, la ficha web publica 15 kg y un disco; catálogos anteriores señalan 13,5 kg y tres discos, y el manual enlazado incluye una tabla genérica con otras cifras de potencia, RPM y peso.
 
-### CM14K-9: una advertencia para publicaciones antiguas
+Antes de comprar, pedí foto de la placa, del manual que acompaña la unidad y del contenido de caja. Confirmá también apertura y ajuste de la morsa, ya que esos datos no aparecen en la ficha web. Si aparece una CM14K-9, consultá disponibilidad de consumibles, accesorios y repuestos para ese código discontinuado.
 
-Lüsqtoff marca la CM14K-9 como discontinuada. Si aparece en una publicación, verificá que el código de la oferta coincida con la placa y consultá consumibles, accesorios y disponibilidad de repuestos. No tomes sus 2.200 W ni su contenido declarado de tres discos como especificaciones de la CM-14K actual: son códigos y fichas distintos.
+Como alternativa de otra marca, compará con la [sensitiva Total](/sierras/sensitivas-total/) y verificá los datos para el código completo.
 
 ## Fuentes consultadas
 

@@ -21,7 +21,7 @@ published: true
 
 La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limita a dos códigos actuales con fichas argentinas accesibles, para no mantener afirmaciones sin respaldo.
 
-## TC-TS 2025/2 U y 2225 U: diferencias publicadas
+## Cuál elegir según tamaño de pieza y espacio
 
 | Dato documentado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
 | :--- | ---: | ---: |
@@ -50,6 +50,10 @@ Einhell documenta que ambas sirven para cortes longitudinales y que llevan guía
 - **Uso con aspiradora:** ambas documentan conexiones en la carcasa y el protector de hoja; revisá el diámetro de conexión de 36 mm y qué manguera/adaptador trae la unidad ofrecida.
 
 La 2025/2 U tiene 5 mm más de altura a 90° y 10 mm más a 45°; la 2225 U tiene mayor superficie de apoyo publicada con sus extensiones. Las potencias usan regímenes distintos —S1 y S6—, así que no las ordenamos restando watts. El peso también difiere entre las fichas web y los manuales de ambos equipos: verificá el dato para el código y la versión que vas a recibir.
+
+**Conclusión:** la TC-TS 2025/2 U tiene sentido si la mesa principal y las extensiones laterales alcanzan para tus piezas y priorizás la mayor altura publicada entre estas dos. La TC-TS 2225 U conviene considerar cuando necesitás apoyo posterior y lateral adicional para piezas grandes. Como ninguna publica el ancho máximo de rasgado, confirmá esa medida antes de decidirte por cortes longitudinales anchos.
+
+Para criterios generales, leé [cómo elegir una sierra de banco](/sierras/de-banco/); para comparar otras variantes, consultá [sierras de banco Lusqtoff](/sierras/de-banco-lusqtoff/).
 
 **Desconocido.** No medimos paralelismo, vibración ni tolerancia de corte. El borrador refería a la TE-CC 250 UF, que no forma parte de esta comparación revisada.
 

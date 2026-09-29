@@ -31,21 +31,21 @@ La categoría actual del fabricante incluye los modelos de la tabla. “Vigente�
 
 | Código y modelo | Tipo y combustible | Potencia publicada | Datos útiles para comparar |
 | :--- | :--- | :--- | :--- |
-| **GE3497AR Inverter 2 kW** | Portátil, nafta, inverter | 2 kW; pico 2,2 kW | Tanque 4 L; autonomía publicada 3 h nominal y 4,5 h al 50 %; 17 kg. La ficha lo presenta para equipos con microprocesadores, pero no publica THD. |
+| **GE3497AR Inverter 2 kW** ([generadores inverter](/generadores/inverter/)) | Portátil, nafta, inverter | 2 kW; pico 2,2 kW | Tanque 4 L; autonomía publicada 3 h nominal y 4,5 h al 50 %; 17 kg. La ficha lo presenta para equipos con microprocesadores, pero no publica THD. |
 | **GE3480AR 3000V** | Portátil, nafta, convencional con AVR | 2,7 kW continua; 3 kW máxima | Tanque 15 L; 13 h al 50 % y 8 h al 100 %; 212 cc; aceite 0,55 L. Arranque eléctrico, batería no incluida. |
 | **GE3496AR 4500V** | Portátil, nafta, convencional con AVR | 4,5 kW continua; 5 kW máxima | Tanque 21 L; autonomía publicada 10 h al 50 % y 7 h al 100 %; 292 cc; aceite 0,75 L. Arranque eléctrico, batería no incluida. La ficha da consumo específico de 395 g/kWh; no equivale a L/h. |
 | **GE3481AR 6000V** | Portátil, nafta, convencional con AVR | 5,5 kW continua; 6 kW máxima | Tanque 25 L; 10 h al 50 % y 6 h al 100 %; 420 cc; aceite 1 L. Arranque eléctrico, batería no incluida. |
 | **GE3482AR 8500V** | Portátil, nafta, convencional con AVR | 8,5 kW máxima | Tanque 25 L; la ficha y el manual publican “energía generada contenida” de 8 kW, no un rótulo inequívoco de potencia continua. No dimensionar una carga sostenida suponiendo que esos 8 kW son nominales sin confirmación para la versión exacta. |
 | **GE3490AR TF8500** | Portátil trifuel: nafta, GLP o gas natural | Continua: 8 / 7,2 / 6,4 kW; máxima: 8,5 / 7,8 / 7 kW, respectivamente | Tanque 32 L; 500 cc; autonomía publicada 10 h al 50 % y 6,5 h al 100 %. La potencia cambia según el combustible; manguera/regulador de gas no incluidos. |
 | **GE3491AR TF10000** | Portátil trifuel: nafta, GLP o gas natural | Continua: 9 / 8,1 / 7,2 kW; máxima: 10 / 9 / 8 kW, respectivamente | Tanque 50 L; autonomía publicada 12 h al 50 % y 8 h al 100 %; 670 cc; aceite 1,7 L. Revisá en el manual la conexión y configuración para cada combustible. |
-| **GE3492AR 8,5 kW / GE3493AR 13 kW / GE3494AR 17 kW** | Estacionarios a gas, GLP/GN; GE3494 trifásico | La potencia depende del modelo y combustible; GE3494 es trifásico | Son equipos de instalación fija. Los modelos requieren ATS compatible y dos baterías; Gamma indica que instalación y conexiones de gas no están incluidas. Confirmá tensión, fase y potencia por combustible en la ficha del código exacto. |
+| **GE3492AR 8,5 kW / GE3493AR 13 kW / GE3494AR 17 kW** | Estacionarios a gas, GLP/GN ([generadores a gas](/generadores/a-gas/)); GE3494 trifásico | La potencia depende del modelo y combustible; GE3494 es trifásico | Son equipos de instalación fija. Los modelos requieren ATS compatible y dos baterías; Gamma indica que instalación y conexiones de gas no están incluidas. Confirmá tensión, fase y potencia por combustible en la ficha del código exacto. |
 
 Fuentes de las especificaciones: fichas de [GE3497AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/), [GE3480AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/), [GE3496AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogenos-4500v/), [GE3481AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/), [GE3482AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/), [GE3490AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf8500/), [GE3491AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/) y [categoría de estacionarios Gamma](https://www.gammaherramientas.com.ar/categoria-producto/grupos-electrogenos/).
 
 ### Qué cambia entre las familias
 
 - **Inverter:** el GE3497AR está orientado a cargas pequeñas y entrega regulación inverter. Gamma lo describe como apto para equipos con microprocesadores sin fuentes estabilizadas, pero no publica una cifra THD en la ficha consultada. Verificá el requisito del aparato que vas a conectar.
-- **Convencional a nafta:** los 3000V, 4500V, 6000V y 8500V son escalones portátiles; cotejá potencia continua y máxima por separado. AVR no sustituye la comprobación de compatibilidad eléctrica de una carga.
+- **Convencional a nafta:** los 3000V, 4500V, 6000V y 8500V son escalones portátiles de [generadores a nafta](/generadores/a-nafta/); cotejá potencia continua y máxima por separado. AVR no sustituye la comprobación de compatibilidad eléctrica de una carga.
 - **Trifuel:** permite elegir entre nafta, GLP y gas natural, con potencia distinta para cada combustible. Compará la potencia continua correspondiente al combustible que efectivamente usarás.
 - **Estacionario a gas:** requiere resolver instalación, transferencia automática y alimentación de gas; no es simplemente un portátil de más kW. La categoría oficial indica ATS, baterías, instalación y conexiones como requisitos o elementos no incluidos según modelo.
 
@@ -114,8 +114,6 @@ La categoría oficial de [productos discontinuados Gamma](https://www.gammaherra
 - **Precios:** categoría [Grupos electrógenos de Gamma Market](https://www.gammamarket.com.ar/grupos-electrogenos), observada el 28/09/2026.
 - **Opiniones de compradores:** no se analizó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para comparar por necesidad: [generador para casa](/generadores/para-casa/) · [generador inverter](/generadores/inverter/) · [Gamma 950](/generadores/gamma-950/) · [Gamma 6500](/generadores/gamma-6500/).
+Para comparar por necesidad: [generadores para casa](/generadores/para-casa/) · [generadores inverter](/generadores/inverter/) · [precios de generadores](/generadores/precios/) · [comparativa general](/generadores/comparativa-general/) · [Gamma 950](/generadores/gamma-950/) · [Gamma 6500](/generadores/gamma-6500/).
 
 Para explorar la categoría: [guías de generadores](/generadores/).

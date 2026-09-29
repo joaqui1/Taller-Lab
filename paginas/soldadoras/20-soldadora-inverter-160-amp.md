@@ -25,7 +25,7 @@ El número 160 reúne equipos distintos: puede señalar el máximo de salida MMA
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante, modelo y proceso indicados. Esta guía es documental, sin prueba física ni muestra de opiniones. Los porcentajes publicados por ESAB y Dogo no se convierten en una comparación directa cuando se presentan con condiciones diferentes.
 
-## Para qué trabajos alcanza
+## Cuándo alcanza una inverter de 160 A
 
 ### MMA de 160 A: HandyArc 162i y Dogostar 160
 
@@ -42,6 +42,8 @@ La HandyArc MIG 160i (0410060) no es otra MMA de 160 A: entrega 30–160 A en GM
 | ESAB HandyArc 162i (0409616) | 220 V ±10%, monofásica, 50/60 Hz | 160 A/20%; 92 A/60%; 72 A/100% | ESAB indica rango de 20–160 A y electrodos hasta 3,25 mm. Compará la corriente indicada por el fabricante del electrodo con el ciclo al que vas a trabajar. |
 | Dogo Dogostar 160 Moderna (DOG50044) | 220 V, 50/60 Hz según ficha Dogo | Rango 20–160 A; la ficha publica porcentajes por diámetro, sin indicar la corriente asociada a cada uno | La página enumera electrodos de 1,5 a 4 mm; factor publicado: 2,5 mm/100%, 3,2 mm/80% y 4,0 mm/60%, entre otros puntos. Pedí la corriente de ensayo para cotejarla con el electrodo y la tarea. |
 
+Para cotejar el consumible con la corriente y polaridad del equipo, revisá las guías de [electrodo 6013](/electrodo-6013/) y [electrodo 7018](/electrodo-7018/).
+
 El ciclo relaciona corriente de salida y tiempo de trabajo en las condiciones que declara el fabricante. En HandyArc 162i, 160 A corresponden al 20%, no a una salida continua; la ficha publica 72 A al 100%. En Dogo, la tabla de servicio está expresada por diámetro sin asociar amperaje, así que no equivale a un punto ESAB de corriente y ciclo. Usá el dato del electrodo (clasificación, diámetro, rango de corriente y polaridad) junto con el de la fuente; no decidas sólo por “160 A”.
 
 ## Cuándo conviene pasar a 200 A
@@ -57,14 +59,15 @@ Antes de cambiar de categoría, anotá el electrodo y diámetro exactos, corrien
 | Electrodo mayor o procedimiento que pide más corriente | Confirmá primero el rango del consumible y si la MMA de 160 A puede alcanzarlo dentro del ciclo requerido. Si no, consultá máquinas con mayor salida y ciclo adecuado. |
 | También necesitás MIG/MAG o tubular | La HandyArc MIG 160i ofrece GMAW y MMA, aunque su MMA alcanza 140 A y sus ciclos son diferentes por proceso. Compará con una MIG por el sistema de alambre, no con una MMA sólo por compartir “160”. |
 
-Ver la [comparativa de fuentes MMA de hasta 200 A](/soldadoras/soldadora-inverter-200-amp/) para cotejar ciclos, electrodos y alimentación publicados.
+Ver la comparación de [inverter de 200 A](/soldadora-inverter-200-amp/) para cotejar ciclos, electrodos y alimentación publicados.
 
 ## Modelos, kits y qué comparar
 
 | Modelo | Proceso que corresponde a esta comparación | Corriente y ciclo publicado | Presentación/accesorios que confirmar |
 | :--- | :--- | :--- | :--- |
-| [ESAB HandyArc 162i, ficha individual](/soldadoras/esab-handyarc-162i/) (0409616) | MMA | 20–160 A; 160 A/20%, 92 A/60%, 72 A/100% | ESAB describe portaelectrodos y pinza de masa con cables para la fuente. Verificá el código, el contenido de la caja y los accesorios exactos con el vendedor. |
+| [ESAB HandyArc 162i](/esab-handyarc-162i/) (0409616) | MMA | 20–160 A; 160 A/20%, 92 A/60%, 72 A/100% | ESAB describe portaelectrodos y pinza de masa con cables para la fuente. Verificá el código, el contenido de la caja y los accesorios exactos con el vendedor. |
 | Dogo Dogostar 160 Moderna (DOG50044) | MMA; función TIG por raspado con torcha adicional | 20–160 A; servicio publicado por diámetro (no asocia corriente en la tabla) | La ficha del fabricante lista pinza de masa y portaelectrodo. La torcha TIG se adquiere aparte según esa página. Confirmá cables, versión y contenido del kit ofertado. |
+| [Dogo 180](/soldadora-dogo-180/) (DOG50045) | MMA; versión de 180 A máximos para comparar si hace falta más margen de salida | Servicio publicado por diámetro, sin asociar corriente a cada porcentaje | Confirmá el código, el punto de trabajo y los accesorios de esa versión. |
 | ESAB HandyArc MIG 160i (0410060) | GMAW/MIG-MAG, tubular con y sin gas, y MMA | GMAW: 30–160 A (160 A/15%; 80 A/60%; 62 A/100%). MMA: 10–140 A (140 A/15%; 70 A/60%; 54 A/100%). | ESAB publica capacidad para bobina de hasta 5 kg y alambre hasta 0,9 mm. La ficha del equipo no sustituye la lista de componentes del kit de cada vendedor; verificá torcha, cables, rodillos, puntas y consumibles. |
 
 **Antes de comprar:** cotejá proceso requerido, corriente/ciclo en ese proceso, diámetro/tipo de electrodo o alambre, alimentación disponible y protecciones, accesorios realmente incluidos y manual correspondiente al código. Para la MIG 160i, revisá también qué necesitás para alambre macizo con gas o tubular autoprotegido y qué viene en el paquete. La [guía de MIG con gas](/soldadoras/soldadora-mig-con-gas/) y la [guía de MIG sin gas](/soldadoras/mig-sin-gas/) explican esas diferencias.
@@ -86,5 +89,3 @@ Ver la [comparativa de fuentes MMA de hasta 200 A](/soldadoras/soldadora-inverte
 
 - **Fabricantes:** [ESAB HandyArc 142i/162i, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/); [ESAB HandyArc MIG 160i, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/); [Dogo Dogostar 160 Moderna, DOG50044](https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).

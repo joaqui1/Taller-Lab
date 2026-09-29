@@ -52,6 +52,8 @@ El manual confirma que el G2802AR y el G2802KAR son compresores **lubricados**. 
 
 Revisá el nivel y mantené limpio el filtro de admisión conforme al manual. El tanque tiene válvula de desagote para evacuar condensado; vacialo con el equipo apagado y despresurizado según las instrucciones. Para intervalo de cambio de aceite, cantidad exacta y cualquier diferencia entre una revisión del manual y la placa, seguí la documentación entregada con esa unidad o consultá al servicio técnico Gamma. No completes con otro grado por semejanza con un compresor distinto.
 
+Para elegir y controlar el lubricante según el modelo, consultá la guía de [aceite para compresor de aire](/compresores/aceite/).
+
 ## Qué podés evaluar y qué no se puede garantizar
 
 | Trabajo que te interesa | Qué permite afirmar la documentación | Qué falta para confirmar compatibilidad |
@@ -85,6 +87,6 @@ No comparamos el flujo: Gamma publica **203 L/min de desplazamiento**, mientras 
 
 Para seguir comparando: [compresor BTA de 25 litros](/compresores/bta-25-litros/), [compresores de 50 litros](/compresores/50-litros/) y [compresores Lüsqtoff de 50 litros](/compresores/lusqtoff-50-litros/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

@@ -43,10 +43,12 @@ Las fichas argentinas permiten comparar dos modelos con cable y una versión a b
 
 ## Qué modelo elegir según tu trabajo
 
-- **Más capacidad declarada en madera:** la TE-JS 100 llega a 100 mm y suma velocidad electrónica, cuatro posiciones pendulares, bisel de 0–45°, guía paralela y maletín. Es la opción documentada para una pieza más gruesa dentro de esta comparación; la cifra máxima no garantiza por sí sola una terminación mejor.
-- **Trabajo con cable y capacidad intermedia:** la TC-JS 85 declara hasta 85 mm en madera. También ofrece cuatro posiciones pendulares y regulación electrónica, más adaptador de aspiración y soplado seleccionable.
-- **Necesitás trabajar sin cable:** la TC-JS 18 Li Solo declara hasta 70 mm en madera y pesa 1,62 kg sin batería. Tené en cuenta que ese peso no incluye la batería y que la ficha consultada no especifica control electrónico de velocidad.
+- **Cable básica:** TC-JS 85, con hasta 85 mm declarados en madera. Es suficiente si no necesitás la mayor capacidad de corte de las dos opciones con cable.
+- **Cable más completa:** TE-JS 100, con hasta 100 mm declarados y más funciones y accesorios publicados. Tiene sentido si aprovechás esa capacidad y sus controles; no implica por sí sola un mejor acabado.
+- **Batería:** TC-JS 18 Li Solo, con hasta 70 mm declarados en madera. Conviene si priorizás movilidad o ya tenés baterías Power X-Change; la versión Solo no incluye batería ni cargador, y el peso publicado es sin batería.
 - **Vas a cortar metal:** las fichas declaran capacidades máximas en acero, pero elegí una hoja indicada para ese material y respetá sus límites. La capacidad máxima de la caladora no sustituye la compatibilidad de la hoja.
+
+Para criterios generales de capacidad y tipo de trabajo, consultá [cómo elegir una caladora](/sierras/caladoras/). También podés comparar las opciones de [caladoras Bosch](/sierras/sierra-caladora-bosch/) y [caladoras Black+Decker](/sierras/caladoras-black-decker/).
 
 ### Si ya tenés Power X-Change, qué cambia en la decisión
 

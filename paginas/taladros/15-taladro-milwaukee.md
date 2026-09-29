@@ -19,7 +19,7 @@ published: true
 
 # Qué taladro Milwaukee comprar según el uso
 
-La elección empieza por la tarea. Para muebles, montaje y agujeros en madera o metal donde no necesitás percusión, considerá los taladros/destornilladores M12 FUEL 3403-20 o M18 Compact Brushless 3601-20. Si también vas a perforar mampostería, los percutores M12 FUEL 3404-20 y M18 FUEL 2904-20 agregan esa función. Son modelos documentados en fichas estadounidenses; no confirmamos disponibilidad, kit regional ni garantía argentina.
+La elección empieza por la tarea. Para muebles, montaje y agujeros en madera o metal donde no necesitás percusión, considerá los taladros/destornilladores M12 FUEL 3403-20 o M18 Compact Brushless 3601-20. Si también vas a perforar mampostería, los percutores M12 FUEL 3404-20 y M18 FUEL 2904-20 agregan esa función. Son modelos documentados en fichas estadounidenses; no encontramos confirmación oficial de disponibilidad local de esos SKU. El certificado oficial de garantía Cono Sur incluye Argentina, pero verificá con el vendedor que la unidad concreta tenga cobertura y respaldo en el país.
 
 ## Diferencias entre M12 y M18
 
@@ -66,11 +66,12 @@ Los sufijos y el contenido varían por número de catálogo y mercado. En estas 
 
 **Límite de la comparación:** las cuatro referencias tienen documentación oficial de Estados Unidos. No cotejamos importadores, stock, voltaje del cargador o cobertura de garantía en Argentina, ni hicimos pruebas de perforación. Usá los datos como comparación de modelos identificados y verificá el SKU local.
 
-La guía de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) reúne otros modelos con esa función.
+Para hormigón frecuente, agujeros grandes o trabajo de obra exigente, compará [rotomartillos](/taladros/rotomartillos/) SDS adecuados por encastre y capacidad. La guía de [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) reúne otros modelos con esa función. Para ampliar la comparación entre marcas, consultá [taladros inalámbricos](/taladros/inalambricos/).
 
 ## Fuentes consultadas
 
 - **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery).
+- **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery); [certificado oficial de garantía Milwaukee Cono Sur, incluye Argentina](https://documents.milwaukeetool.com/58-14-9945d2.pdf).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

@@ -21,7 +21,7 @@ published: true
 
 Un compresor de 12 V se alimenta desde una toma del vehículo o, en algunos modelos, con pinzas conectadas directamente a la batería. La toma es más simple, pero hay que confirmar que soporte el consumo del equipo. La conexión directa evita depender de esa toma, aunque exige usar las pinzas y la protección indicadas por el fabricante.
 
-Un modelo inalámbrico lleva batería incorporada: no necesita estar conectado al auto mientras infla, pero su autonomía depende de la batería y del trabajo realizado. Revisá si el fabricante declara cuántos neumáticos puede atender por carga y bajo qué condiciones; si no lo informa, ese dato queda desconocido. “Doble pistón” describe la construcción, no la alimentación ni el ciclo de trabajo.
+Un [compresor/inflador inalámbrico](/compresores/inalambricos/) lleva batería incorporada: no necesita estar conectado al auto mientras infla, pero su autonomía depende de la batería y del trabajo realizado. Revisá si el fabricante declara cuántos neumáticos puede atender por carga y bajo qué condiciones; si no lo informa, ese dato queda desconocido. “Doble pistón” describe la construcción, no la alimentación ni el ciclo de trabajo.
 
 Para elegir, empezá por la forma de alimentación que te sirve y la compatibilidad eléctrica del vehículo. Después compará el ciclo permitido, el alcance de cable y manguera, y los controles. Que el envase diga 150 PSI máximo no significa que esa sea la presión que debés ponerle al neumático: el valor correcto está en la etiqueta del vehículo o en su manual.
 
@@ -50,6 +50,8 @@ Para elegir, empezá por la forma de alimentación que te sirve y la compatibili
 **Dato documentado:** Lüsqtoff declara para MCL150-8 12 V, 275 W, máximo de 150 PSI y flujo de 60 L/min. Gadnic publica 150 PSI y 85 L/min para AV000009, pero no indica una condición de presión para ese caudal. Las fichas no usan un método de medición compartido que permita concluir que un modelo infla más rápido. Los otros datos de la tabla provienen de las fichas o publicaciones enlazadas abajo; un dato ausente o no verificable figura como pendiente.
 
 **Análisis TallerLab:** batería, 12 V y doble pistón describen características distintas. Al comparar, no tomes el caudal máximo como una promesa de tiempo de inflado ni supongas que dos modelos de doble pistón tienen la misma conexión o ciclo. La ficha técnica y el manual del código exacto deben confirmar esos puntos.
+
+Como alternativa de gama para comparar por marca, también podés revisar [compresores Stanley](/compresores/stanley/).
 
 ## Corriente, fusible y conexión: qué revisar
 
@@ -98,8 +100,6 @@ El corte automático detiene el inflado al llegar al valor configurado, si esa f
 - **Seguridad e información del fabricante del neumático:** [Michelin, cómo comprobar e inflar neumáticos](https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [compresores de 12 V](/compresores/12v/) y [compresores de doble pistón 12 V](/compresores/12v-doble-piston/).
+Para seguir comparando: [infladores de neumáticos portátiles](/compresores/inflador-neumaticos-portatil/) y [compresores 12 V de doble pistón](/compresores/12v-doble-piston/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

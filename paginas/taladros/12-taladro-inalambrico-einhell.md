@@ -51,6 +51,8 @@ Los dos modelos tienen mandril de hasta 13 mm y dos velocidades para perforar o 
 
 Para algunos agujeros en ladrillo o mampostería, el TP-CD 18/50 Li-i BL permite activar percusión y publica hasta 28.800 impactos/min. El TE-CD 18/40 Li no declara esa función en la ficha consultada. Si vas a perforar hormigón repetidamente o con diámetros grandes, compará un rotomartillo SDS: un taladro percutor con mandril común no lo reemplaza.
 
+El recorrido es simple: sin percusión para montaje, percusión para mampostería ocasional —consultá la [comparativa de percutores inalámbricos](/taladros/taladro-percutor-inalambrico/)— y SDS para hormigón frecuente, con los [rotomartillos Einhell](/taladros/rotomartillo-einhell/).
+
 ## Kit según presupuesto
 
 Si ya tenés una batería y un cargador Power X-Change compatibles, una versión Solo puede reducir el costo de entrada: pagás la herramienta y aprovechás el equipo que ya usás. El ahorro depende de que la batería y el cargador sean compatibles y estén disponibles para la tarea.

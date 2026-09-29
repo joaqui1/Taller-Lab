@@ -43,6 +43,8 @@ Un atornillador para placas combina velocidad alta con un localizador/tope ajust
 
 Para una habitación pequeña o unos pocos tornillos, comprar un atornillador específico y sus accesorios puede no amortizarse. Practicá el ajuste en un recorte y revisá cada fijación. Si la colocación es diaria, extensa o debe mantener una profundidad uniforme a lo largo de muchas placas, la herramienta específica reduce la necesidad de controlar cada tornillo a puro tacto.
 
+Si también necesitás perforar madera o metal y hacer atornillados variados, un [taladro/atornillador inalámbrico](/taladros/inalambricos/) ofrece más versatilidad. Un [atornillador de impacto](/taladros/atornilladores-de-impacto/) sirve para tirafondos y fijaciones exigentes, pero sus golpes rotativos no controlan la profundidad de asentamiento como el tope de una herramienta para placas.
+
 ## Cable, batería o alimentador
 
 El cable conviene en un área fija con toma accesible y jornadas largas: no requiere gestionar recargas, aunque limita el movimiento. La batería facilita subir escaleras y cambiar de ambiente; compará el peso real con batería, la autonomía para tu jornada y el costo de batería y cargador si no vienen incluidos.
@@ -61,6 +63,4 @@ En un kit a batería sumá la herramienta, batería, cargador y, si necesitás c
 - **Seguridad:** consultar manual para ajuste de profundidad, tornillos y accesorios.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [guías de taladros](/taladros/).
-
-Para explorar la categoría: [guías de taladros](/taladros/).
+[Ver todas las guías de taladros](/taladros/).

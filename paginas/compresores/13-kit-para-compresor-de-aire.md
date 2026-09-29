@@ -93,6 +93,6 @@ Para comparar **calidad**, buscá especificación de materiales y presión de tr
 
 Para seguir comparando: [filtros y tratamiento de aire](/compresores/filtros/), [mangueras para compresor](/compresores/manguera/) y [acoples rápidos](/compresores/acoples-rapidos/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

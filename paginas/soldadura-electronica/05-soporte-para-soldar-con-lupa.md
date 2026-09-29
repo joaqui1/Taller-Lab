@@ -57,4 +57,3 @@ Para el resto del puesto de trabajo, consultá el [kit de soldador de estaño](/
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-[Ver metodología de TallerLab](/como-trabajamos/)

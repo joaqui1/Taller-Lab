@@ -71,6 +71,4 @@ La capacidad del tanque ayuda a almacenar aire y amortiguar la demanda, pero no 
 
 Para seguir comparando: [compresor Lüsqtoff de 100 litros](/compresores/lusqtoff-100-litros/).
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
-
-Para explorar la categoría: [guías relacionadas](/compresores/).
+Para explorar la categoría: [guías de compresores y herramientas neumáticas](/compresores/).

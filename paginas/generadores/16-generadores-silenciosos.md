@@ -75,4 +75,4 @@ Usá los generadores de combustión al aire libre, lejos de ventanas, puertas y 
 - **Honda EU22i:** [ficha oficial](https://pf.honda.com.ar/producto/EU22i) y [ficha técnica descargable](https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf).
 - **EcoFlow DELTA 2 y BLUETTI AC70:** [manual EcoFlow](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), [catálogo BLUETTI](https://bluetti.com/wp-content/uploads/2024/09/%EF%BC%88%E7%94%B5%E5%AD%90%E7%89%88%EF%BC%89Product-Catalog-EN-V4.2-1.pdf) y [página AC70](https://www.bluettipower.com/products/ac70).
 
-Para comparar la tecnología de salida, seguí con [generadores inverter](/generadores/inverter/). Para evaluar portabilidad y otros modelos, consultá [generadores portátiles](/generadores/portatiles/). Para conocer el criterio editorial, leé la [metodología de TallerLab](/como-trabajamos/).
+Para comparar la tecnología de salida, seguí con [generadores inverter](/generadores/inverter/). Para evaluar portabilidad y otros modelos, consultá [generadores portátiles](/generadores/portatiles/).

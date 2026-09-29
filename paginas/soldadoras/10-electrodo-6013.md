@@ -19,18 +19,18 @@ published: true
 
 # Electrodo 6013: usos, medidas y qué elegir
 
+## Para qué trabajos sirve y cuándo preferirlo sobre 7018
+
+| Opción | Considerala cuando… |
+| :--- | :--- |
+| E6013 | Buscás un electrodo rutílico de propósito general; las fichas consultadas documentan trabajos de taller, herrería y chapa fina. Confirmá aplicación y posición en el producto exacto. |
+| E7018 | El trabajo o procedimiento requiere un electrodo de bajo hidrógeno o propiedades/clasificación específicas. |
+
+Ninguno es mejor para todos los trabajos: elegí según metal base, junta, servicio y procedimiento. Compará la guía de [electrodo 7018](/electrodo-7018/).
+
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las aplicaciones y cifras se atribuyen a la ficha del producto indicado. Esta guía es documental y no incluye prueba física ni muestra de opiniones.
-
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
 
 ## Para qué trabajos sirve
 
@@ -40,7 +40,7 @@ Las fichas consultadas documentan usos generales en acero al carbono/acero dulce
 
 Las posiciones y polaridades tampoco se deben atribuir automáticamente a toda caja E6013. Sureweld 6013 declara uso en todas las posiciones y corriente AC o DC+/-; Weld 6013 de ESAB declara todas las posiciones excepto vertical descendente y AC o DC+. La ficha LBL BW E6013 consultada declara uso general en todas las posiciones, pero no publica polaridad en la página. Revisá la ficha del SKU comprado antes de conectar o soldar.
 
-Si el procedimiento, el metal base o el servicio requiere otra clasificación —por ejemplo, un electrodo bajo en hidrógeno con requisitos asociados— no elijas un E6013 sólo por ser de uso general. Consultá la [guía E7018 según el trabajo](/soldadoras/electrodo-7018/) y la especificación del proyecto.
+Si el procedimiento, el metal base o el servicio requiere otra clasificación —por ejemplo, un electrodo bajo en hidrógeno con requisitos asociados— no elijas un E6013 sólo por ser de uso general. Seguí la especificación del proyecto y la ficha del consumible.
 
 ## Diámetro y amperaje según fabricante
 
@@ -56,6 +56,8 @@ Estos rangos pertenecen a productos y fichas concretos. El ejemplo central es im
 **Dato documentado:** ambos productos se clasifican E6013, pero sus fichas publican para 3,2 mm rangos con extremos distintos: 120–135 A para Sureweld y 95–125 A para LBL BW. Se superponen entre 120 y 125 A; esa coincidencia no convierte uno en el ajuste correcto para toda tarea ni hace equivalentes sus tablas.
 
 **Análisis TallerLab:** tomá el rango de la caja/ficha del electrodo exacto y cotejalo con la corriente que la fuente puede sostener, diámetro, posición, junta y trabajo. El amperaje máximo de la soldadora o una regla por milímetro no reemplazan las indicaciones del consumible.
+
+Como referencia de equipo, consultá la [ESAB HandyArc 162i](/esab-handyarc-162i/) y compará su ciclo con el rango del electrodo. Una [inverter de 160 A](/soldadora-inverter-160-amp/) puede ser suficiente para algunos usos documentados; si el rango requerido o el ciclo queda corto, evaluá [200 A](/soldadora-inverter-200-amp/) según la ficha y la instalación eléctrica.
 
 ## Conservación y compatibilidad
 
@@ -82,4 +84,11 @@ Elegí primero el uso y la clasificación requerida; después el diámetro que c
 - **Documentación primaria:** [ESAB explica la designación AWS y la selección de corriente](https://esab.com/br/sam_pt/esab-university/articles/como-identificar-o-eletrodo-e-a-corrente-corretos-para-soldagem/); [ESAB Sureweld 6013](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/); [ESAB LBL BW E6013](https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/); [ESAB Weld 6013](https://esab.com/au/apc_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/weld-6013/); [ESAB 6013 SV](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-6013-sv/); [ESAB sobre almacenamiento y reacondicionamiento de electrodos](https://esab.com/au/apc_en/esab-university/blogs/storing-and-redrying-stick-electrodes-the-right-way/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para conocer el criterio editorial: [Ver metodología de TallerLab](/como-trabajamos/).
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

@@ -71,7 +71,7 @@ Para identificar una rosca sin código, medí el diámetro exterior si es macho 
 
 Una pieza puede tener, por ejemplo, un niple rápido macho y una rosca macho; o un cuerpo rápido hembra con rosca hembra. Al pedir un repuesto, describí cada extremo por separado para evitar ambigüedades.
 
-El diámetro nominal de la rosca tampoco es el diámetro interior de una manguera. Si la conexión es una espiga para manguera, hay que cotejar el diámetro interior de la manguera con el diámetro y tipo de espiga indicados por el fabricante.
+El diámetro nominal de la rosca tampoco es el diámetro interior de una manguera. Si la conexión es una espiga para manguera, hay que cotejar el diámetro interior de la manguera con el diámetro y tipo de espiga indicados por el fabricante. Si vas a reemplazar o armar la línea completa, comprobá también diámetro interior y conexiones de la [manguera para compresor de aire](/compresores/manguera/).
 
 ## Qué pasa si el acople no es compatible
 
@@ -95,6 +95,6 @@ La tabla de intercambio de Parker y la guía de CEJN son referencias para contra
 
 Para seguir comparando: [kits de accesorios para compresor](/compresores/kits-accesorios/).
 
-Para conocer el criterio editorial: [Cómo trabajamos](/como-trabajamos/).
+
 
 Para explorar la categoría: [guías de compresores](/compresores/).

@@ -31,6 +31,10 @@ Las fichas oficiales permiten comparar un taladro atornillador sin percusión, u
 
 Para perforar y atornillar en madera, metal y plástico sin necesidad de percusión, el DCD794B cubre el perfil de taladro atornillador compacto. Si necesitás agujeros ocasionales en mampostería, los DCD796D2-AR y DCD805D2 incluyen modo percutor. El DCD796D2-AR da una referencia de kit listado por DeWalt Argentina; el DCD805D2 suma velocidad publicada de hasta 2.000 rpm y un kit documentado en EE. UU. No ordenamos estos modelos por rendimiento real: las fichas no ofrecen una prueba común.
 
+## Taladro/atornillador o atornillador de impacto DeWalt
+
+Para perforar y alternar con atornillados que requieren control fino, elegí un taladro/atornillador con mandril y embrague; para repetir tirafondos y fijaciones exigentes, compará los [atornilladores de impacto DeWalt](/taladros/atornillador-impacto-dewalt/). El impacto usa puntas hexagonales y no reemplaza el mandril ni el control de profundidad del taladro. Esta guía forma parte de [taladros inalámbricos](/taladros/inalambricos/).
+
 ## Torque, percusión y motor
 
 En un taladro atornillador, el embrague de torque ayuda a ajustar la fuerza para atornillar sin barrer la cabeza. La percusión agrega golpes para perforar mampostería; no convierte el equipo en un rotomartillo SDS. El DCD794B es la opción de la tabla sin percusión declarada. Para perforar hormigón con frecuencia, usar brocas SDS o cincelar, compará [rotomartillos](/taladros/rotomartillos/).

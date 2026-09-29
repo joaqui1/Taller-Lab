@@ -19,7 +19,15 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 # Soldadora Lusqtoff SML150-8: guía antes de comprar
 
-**Análisis TallerLab.** Pedí el código completo antes de comparar una SML150-8 con una SML150-8D. Las fichas de Lüsqtoff documentan procesos y kits distintos: la SML150-8 aparece como MIG Flux y discontinuada; la SML150-8D declara MIG Flux y MMA. El “150” del nombre no debe tomarse como corriente de soldadura continua.
+## SML150-8 vs SML150-8D: respuesta corta
+
+Pedí el código completo: **SML150-8** aparece como Flux y discontinuada; **SML150-8D** agrega MMA. El “150” del nombre no indica corriente continua.
+
+## SML150-8: 70 V vs 70 A a verificar
+
+> **DATO A VERIFICAR:** La ficha web publica “ciclo de trabajo al 100 % durante 10 min.: **70 V**”; el manual expresa **70 A**. Son magnitudes distintas. No corrijas la ficha por inferencia: cotejá manual y placa y pedí confirmación para el código ofrecido.
+
+La discrepancia importa al comparar una soldadora: un voltaje de carga y una corriente de salida no son equivalentes. El manual da un dato distinto, pero la placa y la confirmación para la unidad concreta siguen siendo necesarias.
 
 ## Comparación de variantes documentadas
 
@@ -37,12 +45,6 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 **Análisis TallerLab.** La diferencia documentada más útil es la función MMA en la variante **D**. Ninguna de las dos fichas permite concluir por sí sola cuál suelda mejor ni cuánto durará. Si necesitás MMA, verificá que la placa diga SML150-8D y que la publicación incluya la pinza portaelectrodo correspondiente.
 
-## Una inconsistencia que conviene conocer
-
-> **DATO A VERIFICAR — SML150-8:** La ficha web publica “ciclo de trabajo al 100 % durante 10 min.: **70 V**”; el manual expresa **70 A**. La V/A es una inconsistencia de unidad entre dos documentos del fabricante. No uses el renglón web como una salida confirmada: cotejá el manual y la placa de la unidad, y pedí al vendedor/fabricante que confirme el dato aplicable al código ofrecido.
-
-**Análisis TallerLab.** La diferencia de unidad importa al comparar una soldadora: un voltaje de carga y una corriente de salida son magnitudes distintas. La ficha web no permite corregir por cuenta propia “V” a “A”; el manual aporta un dato distinto, pero la placa y la confirmación para la unidad concreta siguen siendo la verificación de compra.
-
 ### Checklist antes de comprar
 
 - **Código de placa:** confirmá el modelo/código completo de la máquina y que coincida con la publicación y factura; “SML150” sin sufijo no identifica la misma configuración.
@@ -56,7 +58,7 @@ keywords: ["soldadora lusqtoff sml 150 8", "lusqtoff sml150-8", "soldadora lusqt
 
 **Desconocido.** No verificamos compatibilidad con alambre macizo y gas, espesor máximo soldable, vida útil ni opiniones de compradores. Tampoco inferimos que el kit de una publicación actual coincida con el contenido de la ficha histórica de un modelo discontinuado. Antes de pagar, pedí fotos de placa, conexiones, accesorios y garantía.
 
-Para comparar esta variante con SML120-8D y SML130-7, volvé a la [comparativa de la familia Flux Lüsqtoff](/soldadoras/mig-lusqtoff/). Para criterios generales de proceso y compatibilidad, consultá la [guía de MIG sin gas](/soldadoras/mig-sin-gas/).
+Para comparar modelos, consultá la [familia MIG Flux Lusqtoff](/mig-lusqtoff/); para criterios generales del proceso y compatibilidad, la [guía de MIG sin gas](/mig-sin-gas/). Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
 
 ## Fuentes consultadas
 

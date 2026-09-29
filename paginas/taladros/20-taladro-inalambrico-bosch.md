@@ -36,6 +36,16 @@ En la nomenclatura de Bosch Professional, **GSR** identifica taladros/atornillad
 
 Estas cifras comparan dos modelos concretos. El GSB 18V-50 agrega percusión, admite brocas de hasta 13 mm según su mandril y pesa 0,3 kg más que el GSR sin batería. No son resultados de una prueba comparativa de perforación ni significan que toda GSB tenga esos valores.
 
+## GSR vs GSB vs GBH
+
+| Familia Bosch | Función que la distingue | Camino para seguir |
+| :--- | :--- | :--- |
+| **GSR** | Perforar y atornillar, sin percusión. | Elegila para montaje y agujeros en madera o metal. |
+| **GSB** | Suma percusión para mampostería ocasional; no es SDS. | Compará [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/). |
+| **GBH** | Rotomartillo con encastre SDS para perforación en mampostería y hormigón según modelo. | Pasá a [rotomartillos Bosch GBH](/taladros/rotomartillo-bosch/) cuando el trabajo requiera SDS. |
+
+La secuencia ayuda a leer la nomenclatura, pero no reemplaza la ficha: revisá el código completo, la plataforma y la capacidad del modelo concreto.
+
 ## Cuándo elegir 12 V o 18 V
 
 Un modelo Professional de **12 V**, como el GSR 120-LI, es una opción liviana y compacta para montaje, muebles y perforación habitual en madera, metal o plástico dentro de los límites publicados. Elegilo si priorizás maniobrabilidad y las tareas no requieren percusión.

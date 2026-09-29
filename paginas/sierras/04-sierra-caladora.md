@@ -43,14 +43,22 @@ Por eso, una capacidad máxima mayor en la ficha no garantiza mejor terminación
 
 Antes de comprar hojas, buscá en el manual o ficha de la caladora el tipo de encastre que acepta. Algunas máquinas reciben solo vástago T, otras solo U y ciertos modelos admiten ambos: por ejemplo, la ficha Einhell TE-JS 100 acepta T y U, mientras que BES603-B2 especifica T. No deduzcas compatibilidad por la forma de la mordaza ni porque la hoja parezca entrar; compará el tipo de vástago publicado para ambos códigos y verificá que la hoja también corresponda al material y capacidad del corte.
 
-### Qué caladora elegir según el trabajo
+## Qué caladora elegir según el trabajo
 
-- **Cortes curvos:** la caladora es apropiada para seguir curvas y contornos. Elegí una hoja adecuada al material y a la curva; una hoja angosta o específica para curvas puede facilitar el giro si su ficha lo permite.
-- **Tablero fino:** buscá una hoja de longitud y aplicación indicadas para ese espesor. Para laminado, el ejemplo Bosch T 101 BIF se especifica para 1,5–15 mm; reducí o apagá el pendular si el manual recomienda ese ajuste para un canto más limpio.
-- **Trabajo frecuente:** priorizá control de velocidad, opciones de pendular y cambio de hoja práctico; considerá peso, vibración, extracción de polvo y disponibilidad de hojas para los materiales que usás. La potencia por sí sola no decide el ritmo ni la calidad.
-- **Madera gruesa:** medí el espesor real y comparalo con la capacidad documentada del código exacto y con la hoja elegida. En las tres máquinas de la tabla de abajo, las fichas publican máximos distintos: 65, 85 y 100 mm.
-- **Trabajo con metal:** elegí una máquina y una hoja cuyas fichas nombren el material concreto, y compará la capacidad publicada para ese mismo material.
-- **Necesidad de batería:** compará plataforma, batería y cargador incluidos y peso con batería. Mirá las opciones inalámbricas de [Einhell](/sierras/caladoras-einhell/) y [Bosch](/sierras/sierra-caladora-bosch/) si ya tenés una de esas plataformas o necesitás trabajar lejos de un tomacorriente.
+| Trabajo | Qué priorizar | Hoja, control y apoyo |
+| :--- | :--- | :--- |
+| Madera | Espesor real frente a la capacidad publicada para el modelo exacto; las tres referencias de abajo declaran 65, 85 y 100 mm. | Hoja indicada para la madera y el tipo de corte; ajustá velocidad y pendular según manual. |
+| Melamina o laminado | Confirmá el rango de espesor admitido por la hoja y sujetá el tablero con apoyo continuo. | Una hoja de diente fino específica para laminados puede ayudar a controlar el borde; probá antes en un retazo. |
+| Curvas | Radio, grosor y apoyo de la pieza. | Elegí una hoja angosta o indicada para curvas, si el fabricante la admite para ese material y radio. |
+| Metal | Material concreto y espesor admitido por máquina y hoja; no equipares “metal” con “acero” si la ficha no lo aclara. | Usá hoja para ese metal y regulá velocidad/pendular según manual; sujetá la pieza. |
+| Movilidad | Para trabajar lejos del tomacorriente, sumá batería, cargador y peso del conjunto. | Compará la plataforma y el kit exactos; hay opciones inalámbricas de [Einhell](/sierras/caladoras-einhell/) y [Bosch](/sierras/sierra-caladora-bosch/). |
+| Cortes rectos largos | La caladora puede desviarse en recorridos largos; priorizá apoyo y guiado. | Para tramos rectos largos en tableros, compará una [sierra circular con guía](/sierras/circulares/). |
+
+### Caladora para melamina
+
+Para laminado o melamina, elegí una hoja cuya ficha nombre ese material y el rango de espesor. Como ejemplo, la Bosch T 101 BIF está indicada para paneles laminados/HPL de 1,5–15 mm; esa aplicación no se extiende a cualquier hoja ni a todos los tableros. Usá apoyo estable, controlá el pendular según el manual y hacé una prueba en un retazo. La hoja no reemplaza la capacidad de la caladora ni garantiza por sí sola un borde sin astillado.
+
+El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, consultá [caladoras Skil](/sierras/caladoras-skil/). No hay una URL separada para melamina: los criterios y la hoja compatible se resuelven en esta guía.
 
 **Dato documentado:** los límites de la tabla proceden de las fichas oficiales enlazadas. Son máximos declarados por fabricante y por código, no espesores recomendados para cualquier hoja, material o acabado.
 
