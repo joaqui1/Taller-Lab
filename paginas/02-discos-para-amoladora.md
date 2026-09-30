@@ -21,6 +21,10 @@ published: true
 
 Seguí este recorrido: **operación → material → tipo de disco → guía específica**. Después comprobá la compatibilidad con tu amoladora: que dos accesorios tengan el mismo diámetro o agujero no significa que sirvan para lo mismo.
 
+**Dato documentado:** las referencias, medidas y aplicaciones comparadas en esta guía corresponden a los códigos y fuentes enlazadas. Confirmá el código exacto del disco antes de aplicar esos datos a una publicación comercial.
+
+**Análisis TallerLab:** la comparación organiza las referencias documentadas según operación, material y compatibilidad indicada por sus fuentes; no se realizó una prueba física comparativa de estos discos.
+
 | Operación | Material | Tipo de disco | Referencia para comparar | Datos de la referencia | CTA |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Cortar | Metal | Disco abrasivo de corte para el metal indicado | Bosch 2608619383 · pack x10 | 115 × 1 × 22,23 mm; pack de 10 según publicación | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/2GzTkmk){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [discos de corte](/amoladoras/disco-de-corte/) |
