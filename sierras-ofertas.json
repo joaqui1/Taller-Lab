@@ -58,18 +58,12 @@
   "/sierras/sable/": {
     "file": "03-sierra-sable.md",
     "models": [
-      "GSA1100E",
       "GSA18V24",
       "DCS380B"
     ],
     "anchor": "Sierra sable con cable o inalámbrica",
     "position": "section",
     "offers": [
-      {
-        "model": "GSA1100E",
-        "url": "https://meli.la/2cEAQKh",
-        "cta": "Ver precio →"
-      },
       {
         "model": "GSA18V24",
         "url": "https://meli.la/2mTTC3F",
@@ -81,7 +75,12 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [
+      {
+        "model": "GSA1100E",
+        "reason": "Pendiente: retirar la publicación cuyo título dice 110 W; falta una oferta activa con título y datos consistentes."
+      }
+    ]
   },
   "/sierras/caladoras/": {
     "file": "04-sierra-caladora.md",
@@ -137,7 +136,7 @@
     "file": "06-sierra-de-banco.md",
     "models": [
       "TC-TS2025",
-      "SML2000-8"
+      "SML2000-9"
     ],
     "anchor": "Qué sierra de banco elegir según el tamaño de pieza",
     "position": "table",
@@ -148,9 +147,9 @@
         "cta": "Ver precio →"
       },
       {
-        "model": "SML2000-8",
-        "url": "https://meli.la/119eQpU",
-        "cta": "Ver precio →"
+        "model": "SML2000-9",
+        "url": "https://meli.la/1iPupw6",
+        "cta": "Ver precio de Lüsqtoff SML2000-9 →"
       }
     ],
     "pending": []
@@ -265,8 +264,8 @@
       "D28720",
       "D28730"
     ],
-    "anchor": "D28720 o D28730: cuál tiene sentido según el trabajo",
-    "position": "heading",
+    "anchor": "Cuál elegir según el trabajo",
+    "position": "section",
     "offers": [
       {
         "model": "D28720",
@@ -363,15 +362,19 @@
   },
   "/sierras/circulares-black-decker/": {
     "file": "17-sierra-circular-black-and-decker.md",
-    "models": [],
+    "models": [
+      "CS1004-AR"
+    ],
     "anchor": "Qué Black+Decker elegir según el trabajo",
     "position": "table",
-    "offers": [],
-    "pending": [
+    "offers": [
       {
         "model": "CS1004-AR",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
-      },
+        "url": "https://meli.la/2oUJyrQ",
+        "cta": "Ver precio de Black+Decker CS1004-AR →"
+      }
+    ],
+    "pending": [
       {
         "model": "CS1350P",
         "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
@@ -382,7 +385,8 @@
     "file": "18-caladora-einhell.md",
     "models": [
       "TC-JS85",
-      "TE-JS100"
+      "TE-JS100",
+      "TC-JS18"
     ],
     "anchor": "Tres caladoras Einhell según alimentación y capacidad",
     "position": "table",
@@ -396,14 +400,14 @@
         "model": "TE-JS100",
         "url": "https://meli.la/2N5KYMc",
         "cta": "Ver precio →"
-      }
-    ],
-    "pending": [
+      },
       {
         "model": "TC-JS18",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/2wgYnKe",
+        "cta": "Ver precio de Einhell TC-JS 18 Li-Solo →"
       }
-    ]
+    ],
+    "pending": []
   },
   "/sierras/sierra-sable-inalambrica/": {
     "file": "19-sierra-sable-inalambrica.md",
@@ -483,24 +487,31 @@
   },
   "/sierras/sierra-caladora-bosch/": {
     "file": "22-caladoras-bosch.md",
-    "models": [],
+    "models": [
+      "GST650",
+      "GST680",
+      "GST185LI"
+    ],
     "anchor": "Comparación de GST 650, GST 680 y GST 185-LI",
     "position": "table",
-    "offers": [],
-    "pending": [
+    "offers": [
       {
         "model": "GST650",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/1qHMrQ3",
+        "cta": "Ver precio de Bosch GST 650 →"
       },
       {
         "model": "GST680",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/1X2VNJN",
+        "cta": "Ver precio de Bosch GST 680 →"
       },
       {
         "model": "GST185LI",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/2ZgxAEr",
+        "cta": "Ver precio de Bosch GST 185-LI →"
       }
-    ]
+    ],
+    "pending": []
   },
   "/sierras/sierra-circular-dewalt-dwe560/": {
     "file": "23-sierra-circular-dewalt-dwe560.md",
@@ -558,27 +569,24 @@
   "/sierras/de-banco-lusqtoff/": {
     "file": "26-sierra-de-banco-lusqtoff.md",
     "models": [
-      "SML2000-8"
+      "SML2000-9",
+      "SML2000B-9"
     ],
     "anchor": "Tres códigos de banco y una discrepancia documental",
     "position": "table",
     "offers": [
       {
-        "model": "SML2000-8",
-        "url": "https://meli.la/119eQpU",
-        "cta": "Ver precio →"
-      }
-    ],
-    "pending": [
-      {
         "model": "SML2000-9",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/1iPupw6",
+        "cta": "Ver precio de Lüsqtoff SML2000-9 →"
       },
       {
         "model": "SML2000B-9",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/12UHKbr",
+        "cta": "Ver precio de Lüsqtoff SML2000B-9 →"
       }
-    ]
+    ],
+    "pending": []
   },
   "/sierras/sensitivas-lusqtoff/": {
     "file": "27-sensitiva-lusqtoff.md",

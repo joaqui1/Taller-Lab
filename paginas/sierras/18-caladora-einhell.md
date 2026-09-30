@@ -45,6 +45,7 @@ Las fichas argentinas permiten comparar dos modelos con cable y una versión a b
 | :--- | :--- | :--- |
 | Einhell TC-JS 85 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/1PmtLAQ) |
 | Einhell TE-JS 100 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/2N5KYMc) |
+| Einhell TC-JS 18 Li-Solo | Versión Solo: herramienta sin batería ni cargador. Confirmá código y compatibilidad Power X-Change de 18 V. | [Ver precio de Einhell TC-JS 18 Li-Solo →](https://meli.la/2wgYnKe) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 

@@ -19,6 +19,8 @@ published: true
 
 # Cómo elegir electrodos para acero inoxidable
 
+**Análisis TallerLab:** los criterios de selección interpretan las fuentes citadas según proceso, consumible y trabajo previsto. No se realizaron pruebas físicas de los productos ni se verificó el contenido actual de las ofertas recibidas.
+
 ## Metal base o unión → familia de aporte orientativa
 
 | Metal base / unión que se pudo documentar | Familia de aporte a revisar | Alcance de la referencia |
@@ -82,6 +84,12 @@ Antes de pedir, cotejá estos puntos con el proveedor y con la ficha vigente:
 - Requisitos del servicio: corrosión, temperatura, limpieza, inspección y procedimiento.
 - Etiqueta, lote, estado del envase y condiciones de conservación indicadas por el fabricante.
 - Precio y disponibilidad local al momento de compra; no se verificaron aquí.
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones de compra"><div class="affiliate-heading"><h3>Electrodos inoxidables 308L y 316L · 3,2 mm × 2 kg</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lastrade Infinity E308L-16 · 3,2 mm × 2 kg</h3><p class="offer-description">La publicación identifica el modelo Infinity E308L-16, diámetro 3,2 mm y peso 2 kg. Contrastá metal base, polaridad y corriente con el procedimiento y la ficha vigente.</p><div class="offer-actions"><a class="offer-button" href="https://www.mercadolibre.com.ar/electrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg/up/MLAU3927244096" target="_blank" rel="nofollow noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver publicación y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>AWS A5.4 E316L-16 · 3,2 mm × 2 kg</h3><p class="offer-description">La publicación declara un electrodo E316L-16 de 3,2 mm y 2 kg. Verificá el metal base, la corriente y la polaridad requeridas para la unión.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1AYv6rw" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## Comparativa de referencias documentadas
 

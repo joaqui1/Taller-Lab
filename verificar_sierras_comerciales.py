@@ -14,11 +14,21 @@ class Links(HTMLParser):
     def __init__(self, html):
         super().__init__()
         self.links = []
+        self.active_link = None
         self.feed(html)
 
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
-            self.links.append(dict(attrs))
+            self.active_link = dict(attrs, text='')
+            self.links.append(self.active_link)
+
+    def handle_data(self, data):
+        if self.active_link is not None:
+            self.active_link['text'] += data
+
+    def handle_endtag(self, tag):
+        if tag == 'a':
+            self.active_link = None
 
 def main():
     articles = {article['url']: article for article in s.ALL_ARTICLES}
@@ -29,6 +39,11 @@ def main():
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/sierras/' + config['file']]).decode('utf-8')
         assert all(heading in text for heading in re.findall(r'(?m)^#{1,3} .+$', original)), path
+        # Los enlaces comerciales pueden cambiar; las tablas documentales se conservan.
+        marker = r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->'
+        original_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', original, flags=re.S))
+        current_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', text, flags=re.S))
+        assert original_tables == current_tables, ('Tabla documental modificada', path)
         if not config['offers']:
             assert '<!-- SIERRAS-OFERTAS -->' not in text, path
             continue
@@ -52,6 +67,7 @@ def main():
         for offer in config['offers']:
             matches = [link for link in doc.links if link.get('href') == offer['url']]
             assert len(matches) == 1, (path, offer['model'], len(matches))
+            assert matches[0]['text'].strip() == offer['cta'], (path, offer['model'], 'Texto CTA')
             assert matches[0].get('target') == '_blank', path
             assert set(matches[0]['rel'].split()) == {'nofollow', 'sponsored', 'noopener', 'noreferrer'}, path
             s.validate_affiliate_click(dict(product=offer['url'], page=path, placement='qa-sierras'))

@@ -34,12 +34,6 @@ published: true
 | Accesorios declarados para la unidad | Pinza de masa, pinza portaelectrodo, torcha Flux y picos de contacto. | La ficha de kit lista la soldadora SML120-8D y pinzas; la página también enumera careta ST-1X, dos escuadras magnéticas LQE-6001 y rollo Flux LQFLUX045. Verificá la lista de la oferta concreta. |
 | Qué diferencia la presentación | Máquina y accesorios listados para SML120-8D; no asumir que incluya máscara, escuadras o bobina. | Presentación de kit con accesorios adicionales declarados por el fabricante. |
 
-<!-- SOLDADORAS-OFERTAS -->
-
-<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá el kit 8DK y otra alternativa actual</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML120-8DK</h3><p class="offer-description">Flux / MMA: distinguí el kit 8DK del equipo 8D; confirmá máscara, bobina y accesorios entregados.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26xX924" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML150-8D</h3><p class="offer-description">Flux / MMA: alternativa a la SML150-8 discontinuada. El título dice 20 A: cotejá rango y ciclo con placa/manual.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1UGCFFq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
-
-<!-- /SOLDADORAS-OFERTAS -->
-
 ## 200 V vs 220 V
 
 > **TENSIÓN A VERIFICAR ANTES DE CONECTAR:** La ficha oficial de la unidad y la ficha oficial del kit publican 200 V; el manual de la fuente SML120-8D y algunas publicaciones del kit indican 220 V. Es una discrepancia entre fuentes, no evidencia suficiente para elegir una de las tensiones. No la resolvemos por inferencia: pedí la foto legible de la placa y el manual correspondiente al código exacto de la unidad que vas a recibir, y confirmá la alimentación con el vendedor/fabricante antes de conectarla.
@@ -58,6 +52,12 @@ La ficha del 8DK enumera la soldadora SML120-8D, máscara ST-1X, dos escuadras L
 - Accesorios efectivamente incluidos, estado del carrete y garantía del vendedor.
 
 **Desconocido:** las fuentes no publican aquí una masa separada para cada accesorio, ni confirman existencias, garantía de una oferta externa o consumibles incluidos más allá de los enumerados. No se comparó rendimiento de cordón ni se probó el equipo.
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones de compra"><div class="affiliate-heading"><h3>Opciones después de verificar tensión y kit</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML120-8DK</h3><p class="offer-description">Flux / MMA: distinguí el kit 8DK del equipo 8D; confirmá máscara, bobina y accesorios entregados.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26xX924" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML150-8D</h3><p class="offer-description">Flux / MMA: verificá el código SML150-8D y contrastá rango, ciclo y accesorios con la ficha y la placa de la unidad.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1UGCFFq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## Cómo investigamos esta guía
 

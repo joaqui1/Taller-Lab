@@ -43,7 +43,8 @@ Para elegir entre estas sierras, primero cotejá la mesa y el espacio que tenés
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
-| Lüsqtoff SML2000-8 | Confirmá placa, potencia y disco: los documentos de este código presentan discrepancias. | [Ver precio →](https://meli.la/119eQpU) |
+| Lüsqtoff SML2000-9 | Confirmá código SML2000-9, potencia nominal, disco y accesorios: el título recibido dice 250 mm y la ficha documental publica 255 mm. | [Ver precio de Lüsqtoff SML2000-9 →](https://meli.la/1iPupw6) |
+| Lüsqtoff SML2000B-9 | Confirmá que la unidad sea SML2000B-9 y revisá disco, accesorios y garantía del vendedor. | [Ver precio de Lüsqtoff SML2000B-9 →](https://meli.la/12UHKbr) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 
@@ -80,7 +81,7 @@ No hay un ganador único con los datos publicados: la decisión depende de la lo
 
 Para criterios generales de capacidad, seguridad y espacio de trabajo, consultá [cómo elegir una sierra de banco](/sierras/de-banco/). También podés comparar la [sierra de banco Einhell](/sierras/de-banco-einhell/).
 
-**Oferta afiliada con variante a confirmar.** La publicación enlazada mezcla los códigos SML2000-8 y SML2000-9. Usala solo para verificar qué unidad se ofrece: pedí foto de placa, manual, disco y accesorios del equipo concreto. La publicación no permite asignar inequívocamente los datos de una de las dos variantes.
+**Publicaciones comerciales.** Los títulos recibidos identifican SML2000-9 y SML2000B-9. Antes de comprar, confirmá el código de la unidad y revisá placa, disco y accesorios incluidos; para SML2000-9, el título anuncia 250 mm y la ficha documental publica 255 mm.
 
 **Desconocido.** No probamos estabilidad de mesa, precisión de guía ni duración. Tampoco afirmamos que las potencias con distinta condición S6 sean directamente comparables.
 

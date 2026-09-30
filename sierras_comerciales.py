@@ -6,16 +6,23 @@ OFFERS = {
     'CSL1500-8': ('Lüsqtoff CSL1500-8', '2XbUjXk', 'Revisá disco, eje y capacidad del código exacto.'),
     'CM-14K': ('Lüsqtoff CM-14K', '28Unx3L', 'Confirmá código y capacidad según la forma del perfil.'),
     'TS223558-4': ('TOTAL TS223558-4', '194gVdS', 'Confirmá sufijo -4 y RPM en placa/manual; no trasladés datos del código base.'),
-    'GSA1100E': ('Bosch GSA 1100 E', '2cEAQKh', 'El título recibido dice 110 W; comprobá la potencia en la placa del modelo, sin usar ese título como ficha técnica.'),
+    'GSA1100E': ('Bosch GSA 1100 E', '2cEAQKh', 'Pendiente: retirar la publicación cuyo título dice 110 W; falta una oferta activa con título y datos consistentes.'),
     'GSA18V24': ('Bosch GSA 18V-24', '2mTTC3F', 'La oferta menciona GSA18V-24N: confirmá código y si incluye batería y cargador.'),
     'DCS380B': ('DeWalt DCS380B', '2UW9Bfk', 'Confirmá plataforma y contenido: cuerpo, batería y cargador se verifican por separado.'),
     'BES603': ('Black+Decker BES603', '2azLzTF', 'Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida.'),
     'TC-JS85': ('Einhell TC-JS 85', '1PmtLAQ', 'Consultá código, hojas y accesorios incluidos.'),
     'TE-JS100': ('Einhell TE-JS 100', '2N5KYMc', 'Consultá código, hojas y accesorios incluidos.'),
+    'CS1004-AR': ('Black+Decker CS1004-AR', '2oUJyrQ', 'Confirmá variante CS1004-AR, 220 V y disco incluido.'),
+    'TC-JS18': ('Einhell TC-JS 18 Li-Solo', '2wgYnKe', 'Versión Solo: herramienta sin batería ni cargador. Confirmá código y compatibilidad Power X-Change de 18 V.'),
+    'GST650': ('Bosch GST 650', '1qHMrQ3', 'La publicación recibida anuncia hoja para madera. Confirmá código, encastre y hoja incluida.'),
+    'GST680': ('Bosch GST 680', '1X2VNJN', 'Confirmá modelo GST 680, 220 V y accesorios incluidos.'),
+    'GST185LI': ('Bosch GST 185-LI', '2ZgxAEr', 'Herramienta sola/sin batería, según el título recibido. Confirmá contenido del kit y si incluye cargador; sumá batería y cargador Bosch Professional 18 V compatibles si los necesitás.'),
     'SFL300-8': ('Lüsqtoff SFL300-8', '27H5LQK', 'Confirmá altura de corte, garganta y medida de cinta para este código.'),
     'SFL1100-9': ('Lüsqtoff SFL1100-9', '2Pg3D6X', 'Confirmá altura de corte, garganta y medida de cinta para este código.'),
     'TC-TS2025': ('Einhell TC-TS 2025/2 U', '2mWYUA8', 'Verificá código completo, mesa y accesorios incluidos.'),
     'SML2000-8': ('Lüsqtoff SML2000-8', '119eQpU', 'Confirmá placa, potencia y disco: los documentos de este código presentan discrepancias.'),
+    'SML2000-9': ('Lüsqtoff SML2000-9', '1iPupw6', 'Confirmá código SML2000-9, potencia nominal, disco y accesorios: el título recibido dice 250 mm y la ficha documental publica 255 mm.'),
+    'SML2000B-9': ('Lüsqtoff SML2000B-9', '12UHKbr', 'Confirmá que la unidad sea SML2000B-9 y revisá disco, accesorios y garantía del vendedor.'),
     '646003': ('BTA Tools 646003', '1fovw5N', 'Confirmá código, capacidad por perfil y posiciones de trabajo.'),
     '646001': ('BTA Tools 646001', '1rjCMVL', 'Confirmá código, capacidad por perfil y posiciones de trabajo.'),
     'TC-MS2112': ('Einhell TC-MS 2112', '1SD2tF3', 'Confirmá capacidad al ángulo previsto y disco adecuado al material.'),
@@ -30,7 +37,9 @@ OFFERS = {
     'DWS780': ('DeWalt DWS780', '11C2Bud', 'Confirmá variante regional, revisión y espacio para el carro telescópico.'),
     'TS42142107': ('TOTAL TS42142107', '1ci9crb', 'Confirmá código, tensión y capacidad al ángulo que necesitás.'),
 }
-PENDING = {'4380', '4550'}
+PENDING = {'4380', '4550', 'GSA1100E', 'SML2000-8'}
+CTAS = {key: f'Ver precio de {OFFERS[key][0]} →' for key in (
+    'CS1004-AR', 'TC-JS18', 'GST650', 'GST680', 'GST185LI', 'SML2000-9', 'SML2000B-9')}
 # Número de archivo: modelos, encabezado de referencia, punto de inserción.
 PLACEMENTS = {
     1: (['GKS150', 'SC16', 'DWE560', 'CSL1500-8'], 'Diámetro y espesor: dos límites separados', 'section'),
@@ -38,13 +47,13 @@ PLACEMENTS = {
     3: (['GSA1100E', 'GSA18V24', 'DCS380B'], 'Sierra sable con cable o inalámbrica', 'section'),
     4: (['BES603', 'TC-JS85', 'TE-JS100'], 'Capacidad publicada de tres modelos', 'table'),
     5: (['SFL300-8', 'SFL1100-9'], 'Altura de corte y garganta: qué determina cada una', 'section'),
-    6: (['TC-TS2025', 'SML2000-8'], 'Qué sierra de banco elegir según el tamaño de pieza', 'table'),
+    6: (['TC-TS2025', 'SML2000-9'], 'Qué sierra de banco elegir según el tamaño de pieza', 'table'),
     7: (['646003', '646001'], 'Portátil o de banco', 'section'),
     8: (['TC-MS2112', 'TC-SM2131'], 'TC-MS 2112 o TC-SM 2131/2 Dual: cuál tiene sentido', 'table'),
     9: (['TC-TS2025', 'TC-TS2225'], 'Cuál elegir según tamaño de pieza y espacio', 'table'),
     10: (['4380', '4550'], 'Vigencia y disponibilidad de los modelos', 'section'),
     11: (['KMA2685', 'SURPLEE-DW3278'], 'Compatibilidad con GKS150, DWE560 y SC16', 'table'),
-    12: (['D28720', 'D28730'], 'D28720 o D28730: cuál tiene sentido según el trabajo', 'heading'),
+    12: (['D28720', 'D28730'], 'Cuál elegir según el trabajo', 'section'),
     13: (['DWS713', 'DWS780'], 'Fija o telescópica: cuándo compensa la DWS780', 'table'),
     14: (['TS42142107', 'TS42182553'], 'Qué cambia realmente entre los dos modelos', 'table'),
     15: (['D0760A', 'EXPERT19060', 'PRO19054'], 'Qué disco usar según el corte', 'section'),
@@ -58,14 +67,18 @@ PLACEMENTS = {
     23: (['DWE560'], 'Para quién tiene sentido la DWE560', 'section'),
     24: (['SC16'], 'Para qué espesores tiene sentido', 'section'),
     25: (['BES603', 'BES602'], 'BES603 y BES602: velocidad variable y variante', 'table'),
-    26: (['SML2000-8', 'SML2000-9', 'SML2000B-9'], 'Tres códigos de banco y una discrepancia documental', 'table'),
+    26: (['SML2000-9', 'SML2000B-9'], 'Tres códigos de banco y una discrepancia documental', 'table'),
     27: (['CM-14K'], 'Capacidades y datos publicados de la CM-14K', 'table'),
     28: (['SFL300-8', 'SFL1100-9'], 'SFL250-8 vs SFL300-8 vs SFL1100-9', 'table'),
     29: (['TS223558-4'], 'TS223558 vs TS223558-4: qué sabemos realmente', 'section'),
 }
 
 def url(key):
-    return 'https://meli.la/' + OFFERS[key][1]
+    link = OFFERS[key][1]
+    return link if link.startswith('https://') else 'https://meli.la/' + link
+
+def cta(key):
+    return CTAS.get(key, 'Ver precio →')
 
 def install_catalog(products, facts, configs):
     for key, (name, code, note) in OFFERS.items():

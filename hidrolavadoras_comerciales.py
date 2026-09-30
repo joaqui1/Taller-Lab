@@ -19,6 +19,7 @@ OFFERS = {
     'N700': ('Niwa', 'HDNW-700 · 1040700', '2dFtHcP', 'Doméstica de mayor prestación'),
     'NPRO': ('Niwa', 'HDNW PRO-10 · 1040900', '2ChQa9Z', 'Evaluar instalación y caudal antes de comprar'),
     'B1300': ('BLACK+DECKER', 'BEPW1300-AR', '1zzNj8Z', 'Limpieza doméstica ocasional'),
+    'B1520': ('BLACK+DECKER', 'BEPW1520-AR', '1iVgFke', 'Portátil para auto y limpieza doméstica ocasional'),
     'B2200': ('BLACK+DECKER', 'BEPW2200-AR', '2MJE81D', 'Mayor prestación dentro de esta selección'),
     'GHP180': ('Bosch', 'GHP 180', '1wNMwSL', 'Auto y tareas domésticas ocasionales'),
     'GHP200': ('Bosch', 'GHP 200', '1zrcYor', 'Auto y patio; comparar caudal y manguera'),
@@ -48,7 +49,7 @@ PLACEMENTS = {
     4: ('Qué Gamma elegir según la tarea', ['MASTER', 'G130', 'PREMIUM']),
     5: ('Elegí por frecuencia de uso', ['RE80', 'RE90']),
     6: ('Cuál conviene para casa y auto', ['GHP180', 'GHP200', 'GHP220']),
-    7: ('Qué elegir para casa y auto', ['B1300', 'B1800', 'B2200']),
+    7: ('Qué elegir para casa y auto', ['B1300', 'B1520', 'B1800', 'B2200']),
     8: ('Qué K2 conviene para cada trabajo', ['K2', 'K2CAR']),
     9: ('Cuándo conviene comprar una K5', ['K5', 'K5PC']),
     10: ('Selector rápido', ['G150']),
@@ -59,7 +60,7 @@ PLACEMENTS = {
     15: ('', ['HYUNDAI_LIST']),
     16: ('Conviene si / no conviene si', ['HL120']),
     17: ('Precio local por versión', ['K4', 'K4PC']),
-    18: ('Comparación: presión de trabajo, caudal y alimentación', ['G150', 'HL1008', 'N700']),
+    18: ('Comparación: presión de trabajo, caudal y alimentación', ['G150', 'HL1008', 'N700', 'B2200']),
     19: ('', ['200BAR_LIST']),
     20: ('Respuesta rápida: elegir por entorno y ritmo', ['N300', 'N700', 'NPRO']),
     21: ('Selector rápido', ['K2', 'K3', 'K4PC', 'K5']),
@@ -67,6 +68,27 @@ PLACEMENTS = {
     23: ('Equipo específico para limpieza de aire acondicionado', ['C30S']),
 }
 REPEATS = {10: 'Precio de Gamma 150', 12: 'Precio y stock', 14: 'Precio y stock', 16: 'Precio relevado'}
+
+# Fichas editoriales usadas por las cards; los límites evitan que la card
+# reduzca el modelo a una referencia de catálogo sin contexto de compra.
+CARD_FACTS = {
+    'K2': dict(specs=['110 bar máximos', '280 L/h', 'Manguera HP de 3 m'],
+        includes='Manguera HP de 3 m; revisá el kit y la variante regional.',
+        warning='Alcance corto para rodear un vehículo grande.',
+        source='https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html'),
+    'N700': dict(specs=['120 bar promedio / 150 bar máx.', '390 L/h nominales', '2.200 W · 220 V / 50 Hz'],
+        includes='Manguera de 5 m y botella de detergente; confirmá el contenido de la publicación.',
+        warning='15,1 kg brutos; tené en cuenta el peso al moverla.',
+        source='https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700-1040700'),
+    'B1520': dict(specs=['1.400 W', '1.520 PSI / 105 bar máx.', 'Portátil · autosucción'],
+        includes='Lanza ajustable, boquilla de pulverización, manguera, filtro y conexión rápida; largo de manguera no publicado en la ficha.',
+        warning='La presión de trabajo y el caudal no están publicados para este código local.',
+        source='https://ar.blackanddecker.global/producto/bepw1520-ar/hidrolavora-1520-psi-1400w'),
+    'B2200': dict(specs=['105 bar nominales / 150 bar máx.', '5,8 L/min nominales · 7,5 L/min máx.', '2.000 W · manguera de 6 m'],
+        includes='Boquilla turbo, botella de espuma, filtro y autoaspirado.',
+        warning='Para uso doméstico exigente; la documentación no acredita ciclo profesional continuo.',
+        source='https://ar.blackanddecker.global/producto/bepw2200-ar/hidrolavadora-2175-psi-150-bar'),
+}
 
 def url(key):
     return 'https://meli.la/' + OFFERS[key][2]
@@ -78,10 +100,14 @@ def install_catalog(products, facts, configs):
         if key in PENDING:
             continue
         guide = next(path for path, config in configs.items() if key in config['models'])
+        editorial = CARD_FACTS.get(key, {})
         products['hidrolavadoras'].append((brand + ' ' + model, use, url(key), guide))
         facts[url(key)] = dict(brand=brand, model=model, use=use,
             power='Batería' if key in {'LAPL', 'HYPRESSO'} else 'Cable',
-            specs=['Referencia a cotejar: ' + model],
-            includes='Confirmar accesorios, versión regional y contenido con el vendedor',
-            image=None, source=guide, source_type='guía documental del modelo',
-            evidence_label='Enlace suministrado; publicación sin verificar')
+            specs=editorial.get('specs', ['Modelo: ' + model, use]),
+            includes=editorial.get('includes', 'Confirmá accesorios, versión regional y contenido con el vendedor.'),
+            warning=editorial.get('warning'),
+            image=None, source=guide, source_type='guía documental del modelo')
+        if editorial.get('source'):
+            facts[url(key)].update(source=editorial['source'], source_type='fabricante' if brand in {'Kärcher', 'BLACK+DECKER'} else 'distribuidor local',
+                evidence_label='Especificaciones documentadas; oferta sin verificar')

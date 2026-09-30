@@ -159,7 +159,6 @@ AFFILIATE_PRODUCTS = {
     ],
     "sierras": [
         ("Black+Decker BES603 · 400 W", "Caladora de velocidad variable", "https://meli.la/1ntghna", "/sierras/caladoras-black-decker/"),
-        ("Lüsqtoff SML2000-8 / SML2000-9", "Oferta con variante a confirmar: la publicación muestra dos códigos de modelo", "https://meli.la/2WFpTNp", "/sierras/de-banco-lusqtoff/"),
         ("Total · 2200 W y disco de 355 mm", "Sensitiva para metal", "https://meli.la/1mLrBwo", "/sierras/sensitivas-total/"),
     ],
     "soldadoras": [
@@ -194,7 +193,6 @@ PRODUCT_FACTS = {
     "https://meli.la/2jcLSy1": dict(brand="Pektra", model="GPK980", use="Hogar", power="Nafta", specs=["650 W nominales", "720 W máximos", "Motor 2 tiempos"], includes="Manual según la publicación", image="https://images.fravega.com/f1000/61d549f6e6e598ecafc73b1f4c5e1bd9.jpg", source="https://www.mercadolibre.com.ar/grupo-electrogeno-720w-pektra-072kva-34hp-980-nafta-generador-2t/p/MLA26044602", image_source="https://www.fravega.com/p/grupo-electrogeno-pektra-gpk980-720w-63-cc-310651/"),
     "https://meli.la/2bL6gVj": dict(brand="Pektra", model="GPK2200", use="Obra", power="Nafta", specs=["2,2 kVA máximos", "Motor 5,5 hp", "AVR"], includes="Contenido adicional a verificar en la publicación", image="https://images.fravega.com/f500/eb4c5afca76f256ad4ea980d91d2b83b.jpg", source="https://www.mercadolibre.com.ar/grupo-electrogeno-generador-pektra-22kva-55-hp-nafta/p/MLA20005447", image_source="https://www.fravega.com/p/grupo-electrogeno-generador-pektra-2-2kva-5-5-hp-nafta-990049032/"),
     "https://meli.la/1nUAUuv": dict(brand="Philco", model="GE-PH2500ALP", use="Hogar", power="Nafta", specs=["2500 W nominales", "2800 W máximos", "Tanque 15 L"], includes="Contenido adicional a verificar en la publicación", image="/assets/editorial/generadores.webp", illustrative=True, source="https://www.mercadolibre.com.ar/generador-electrico-philco-2500w-65hp-196cc-tanque-15l/p/MLA29450496"),
-    "https://meli.la/2WFpTNp": dict(brand="Lüsqtoff", model="SML2000-8 / SML2000-9", use="Oferta con variante a confirmar", power="Cable", specs=["Potencia: variante sin confirmar", "Disco: variante sin confirmar", "Velocidad: variante sin confirmar"], includes="Disco, guía y empujador; confirmar variante exacta", image=None, source="https://www.mercadolibre.com.ar/sierra-circular-de-banco-mesa-255mm-2000w-lusqtoff-sml20008/up/MLAU3099321771", warning="El aviso mezcla los códigos SML2000-8 y SML2000-9. No es posible atribuirle inequívocamente las prestaciones de uno de ellos: confirmá modelo, placa, disco y contenido con el vendedor."),
     "https://meli.la/2Rcddpg": dict(brand="Logus", model="HL-105", use="Hogar", power="Cable", specs=["1200 W", "105 bar máx.", "6,5 L/min"], includes="Lanza, manguera y dosificador según ficha del fabricante; verificá el aviso", image="https://acdn-us.mitiendanube.com/stores/006/185/083/products/2-58a6bef53d49637ba217507716217358-1024-1024.webp", source="https://logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/"),
     "https://meli.la/12aMvrG": dict(brand="Gamma", model="G1910KAR", use="Taller", power="Cable", specs=["750 W", "Disco 115 mm", "11.000 rpm"], includes="Configuración del kit a confirmar en el aviso", image="https://acdn-us.mitiendanube.com/stores/001/417/257/products/d_788148-mla42150887122_062020-b-c125585f91790a4ad617636443422920-1024-1024.webp", source="https://www.gramabi.com.ar/productos/amoladora-angular-750w-gamma-115mm-kit-g1910kar-caja-discos-celeste-60-hz-vvvco/"),
     "https://meli.la/1GRCAjZ": dict(brand="Bosch", model="GWS 770", use="Taller", power="Cable", specs=["770 W", "Disco 115 mm", "12.000 rpm"], includes="Empuñadura y protector según ficha del fabricante; verificá el aviso", image="https://static.titaferramentas.com.br/public/titaferramentas/imagens/produtos/esmerilhadeira-4-1-2-770w-220v-gws-770-06013980e0-bosch-6a42d2dfa97eb.png", source="https://www.bosch-professional.com/br/pt/products/gws-770-06013980E0", image_source="https://www.titaferramentas.com.br/esmerilhadeira-angular-4-1-2-770w-220v-gws-770-06013980e0-bosch/p/4053423348033"),
@@ -228,10 +226,6 @@ PRODUCT_FACTS["https://meli.la/2xvJRJp"].update(
     warning="Datos declarados en la publicación comercial. La foto de CIDLI20668-3 no identifica CIDLI20668-4, por eso se usa una ilustración.",
 )
 PRODUCT_FACTS["https://meli.la/2xvJRJp"].pop("image_source", None)
-PRODUCT_FACTS["https://meli.la/2WFpTNp"].update(
-    specs=["Potencia: variante sin confirmar", "Disco: variante sin confirmar", "Velocidad: variante sin confirmar"],
-    warning="La publicación mezcla los códigos SML2000-8 y SML2000-9. No permite atribuir inequívocamente prestaciones a uno de ellos: confirmá modelo, placa, disco y accesorios con el vendedor. La ficha y el catálogo también discrepan sobre la SML2000-8.",
-)
 PRODUCT_FACTS["https://meli.la/1GRCAjZ"]["warning"] = "Fuente Bosch Brasil para 06013980E0; no confirma la variante, el kit ni la garantía de una oferta argentina."
 PRODUCT_FACTS["https://meli.la/1mLrBwo"]["warning"] = "La oferta identifica TS223558-4; la documentación de TS223558 sin sufijo no prueba que sean la misma variante."
 PRODUCT_FACTS["https://meli.la/1mLrBwo"].update(
@@ -265,7 +259,6 @@ for facts in PRODUCT_FACTS.values():
 # por URL evita estanterías heredadas por categoría.
 ARTICLE_AFFILIATE_SHELVES = {
     "/sierras/caladoras-black-decker/": ("https://meli.la/1ntghna",),
-    "/sierras/de-banco-lusqtoff/": ("https://meli.la/2WFpTNp",),
     "/amoladoras/": ("https://meli.la/12aMvrG", "https://meli.la/1QUvfns", "https://meli.la/1GRCAjZ"),
     "/soldadoras/": ("https://meli.la/1knTbU1", "https://meli.la/26RsZRw", "https://meli.la/1mZhwNS"),
     "/compresores/50-litros/": (),
@@ -285,7 +278,6 @@ COMPARE_TYPES = {
     "https://meli.la/2z7Capd": "kit-mixto",
     "https://meli.la/2xvJRJp": "taladro-percutor",
     "https://meli.la/1ntghna": "sierra-caladora",
-    "https://meli.la/2WFpTNp": "sierra-de-banco",
     "https://meli.la/1mLrBwo": "sierra-sensitiva",
     "https://meli.la/1knTbU1": "soldadora-mma",
     "https://meli.la/26RsZRw": "soldadora-mig",
@@ -928,7 +920,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'/assets/editorial/{category}.webp\';this.alt=\'Imagen ilustrativa de {category}\';this.parentElement.classList.add(\'fallback-photo\')">'
         else:
             media = f'<div class="illustrative-product"><img src="/assets/editorial/{category}.webp" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
-        source = (f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p><a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
+        source = ((f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts.get("evidence_label") else '') + f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
         compare_type = COMPARE_TYPES.get(url, category)
         compare_labels = escape(json.dumps(COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional"))), ensure_ascii=False), quote=True)
         compare_details = escape(json.dumps(COMPARE_DETAILS.get(url, specs[:3]), ensure_ascii=False), quote=True)
@@ -944,7 +936,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
           <p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p>
           {source}
           <div class="offer-actions">
-            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">{escape((ctas or {}).get(url, 'Ver precio en Mercado Libre'))} ↗</a>
+            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre')))} ↗</a>
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
           <label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>

@@ -28,19 +28,6 @@ El D28730-AR figura en el catálogo argentino de DeWalt de 2023. También hay do
 
 ## D28720 o D28730: cuál tiene sentido según el trabajo
 
-<!-- SIERRAS-OFERTAS -->
-
-### Consultá estas opciones en Mercado Libre
-
-| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
-| :--- | :--- | :--- |
-| DeWalt D28720 | Confirmá variante D28720-AR y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2ZwgGLw) |
-| DeWalt D28730 | Confirmá variante regional y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2LmS81p) |
-
-*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
-
-<!-- /SIERRAS-OFERTAS -->
-
 | Dato | D28720-AR | D28730-AR |
 | :--- | :--- | :--- |
 | Variante documentada | 220 V / 50 Hz | 220 V / 50 Hz |
@@ -76,6 +63,19 @@ El manual da capacidades máximas distintas para cortes a 90° y 45°. Las cifra
 - **Cortás perfiles de secciones distintas:** compará la fila exacta de redondo, cuadrado, rectangular o ángulo y el inglete que necesitás. No alcanza con comparar el diámetro de la rueda.
 - **Hacés cortes repetitivos:** ambos modelos documentan morsa de desplazamiento rápido y guía ajustable. Revisá que la forma de la pieza quede firme y que la máquina concreta permita repetir el ajuste que necesitás; los manuales no publican un ciclo de trabajo ni una frecuencia máxima de cortes.
 - **El uso será diario o prolongado:** no elijas solo por la diferencia entre 2.200 y 2.300 W. Confirmá el ciclo de trabajo recomendado para la variante, el servicio disponible y el costo y stock de ruedas abrasivas compatibles; no encontramos un ciclo de trabajo publicado para estos modelos.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| DeWalt D28720 | Confirmá variante D28720-AR y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2ZwgGLw) |
+| DeWalt D28730 | Confirmá variante regional y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2LmS81p) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ### Identificá la variante antes de comprar
 

@@ -21,6 +21,11 @@ published: true
 
 Para el público argentino, comparo la CS1004-AR con la **CS1350P en variante AR de 220 V**. La CS1024-BR es una variante de 127 V: no la confundas con una máquina apta para conectarse directamente a la red de 220 V. En estas sierras, el código completo y la placa de tensión importan más que el nombre corto o la potencia del aviso.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué Black+Decker elegir según el trabajo
 
 Primero identificá el código exacto: CS1004-AR y CS1350P (variante AR) son las opciones de 220 V documentadas aquí. La CS1024-BR aparece solo como contraste de tensión, no como alternativa para conectar directamente a 220 V.
@@ -37,6 +42,18 @@ Primero identificá el código exacto: CS1004-AR y CS1350P (variante AR) son las
 | Peso | 3,6 kg | 3,2 kg |
 | Guía paralela | La ficha argentina incluye una | El manual no confirma si viene incluida |
 | Extracción de polvo | No se documenta un puerto o sistema en ficha/manual | No se documenta un puerto o sistema en el manual |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Black+Decker CS1004-AR | Confirmá variante CS1004-AR, 220 V y disco incluido. | [Ver precio de Black+Decker CS1004-AR →](https://meli.la/2oUJyrQ) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 Los manuales consultados indican que ambas máquinas están diseñadas para cortar madera. Sus profundidades máximas publicadas son 62 mm, pero no las presentan como una capacidad distinta para cortes a 90° y 45°; no infiero una cifra para el corte inclinado. El bisel máximo de 45° describe el ángulo de la base, no la profundidad a ese ángulo.
 

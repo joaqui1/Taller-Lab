@@ -38,6 +38,20 @@ Comparamos tres variantes publicadas para Argentina: dos con cable y una de 18 V
 | Peso publicado | 1,9 kg | 2,07 kg en ficha; 2,0 kg en manual | 2,0 kg sin batería |
 | Variante/caja documentada | Caja, hoja T111C y llave hexagonal | Protección contra astillas y llave hexagonal; no lista hoja | Caja y hoja T144D; la variante consultada no lista batería/cargador |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Bosch GST 650 | La publicación recibida anuncia hoja para madera. Confirmá código, encastre y hoja incluida. | [Ver precio de Bosch GST 650 →](https://meli.la/1qHMrQ3) |
+| Bosch GST 680 | Confirmá modelo GST 680, 220 V y accesorios incluidos. | [Ver precio de Bosch GST 680 →](https://meli.la/1X2VNJN) |
+| Bosch GST 185-LI | Herramienta sola/sin batería, según el título recibido. Confirmá contenido del kit y si incluye cargador; sumá batería y cargador Bosch Professional 18 V compatibles si los necesitás. | [Ver precio de Bosch GST 185-LI →](https://meli.la/2ZgxAEr) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 Las capacidades de aluminio y acero provienen de los manuales Bosch para los códigos/modelos correspondientes; no las agrupamos bajo una sola columna de «metal». Verificá el material y la sección concreta de la pieza y usá una hoja indicada para esa aplicación.
 
 **Análisis TallerLab.** La GST 185-LI declara la mayor capacidad publicada en madera de estas tres (125 mm) y funciona con batería de 18 V; la ficha consultada pesa el cuerpo sin batería. Para las dos versiones con cable, la GST 680 supera a la GST 650 por 3 mm de capacidad publicada en madera. Estas diferencias no permiten deducir por sí solas velocidad real ni terminación.

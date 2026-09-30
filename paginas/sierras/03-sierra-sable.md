@@ -83,7 +83,6 @@ Si el trabajo va a ser principalmente inalámbrico, mirá también la guía de [
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
-| Bosch GSA 1100 E | El título recibido dice 110 W; comprobá la potencia en la placa del modelo, sin usar ese título como ficha técnica. | [Ver precio →](https://meli.la/2cEAQKh) |
 | Bosch GSA 18V-24 | La oferta menciona GSA18V-24N: confirmá código y si incluye batería y cargador. | [Ver precio →](https://meli.la/2mTTC3F) |
 | DeWalt DCS380B | Confirmá plataforma y contenido: cuerpo, batería y cargador se verifican por separado. | [Ver precio →](https://meli.la/2UW9Bfk) |
 

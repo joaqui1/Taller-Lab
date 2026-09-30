@@ -2,7 +2,7 @@
 import json
 import re
 from pathlib import Path
-from sierras_comerciales import OFFERS, PENDING, PLACEMENTS, url
+from sierras_comerciales import OFFERS, PENDING, PLACEMENTS, cta, url
 
 ROOT = Path(__file__).parent
 MARKER = re.compile(r'\n*<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->\n*', re.S)
@@ -35,9 +35,13 @@ def main():
             rows = ['| Producto de la oferta | Qué confirmar | Precio y disponibilidad |', '| :--- | :--- | :--- |']
             for key in keys:
                 name, _, note = OFFERS[key]
-                rows.append(f'| {name} | {note} | [Ver precio →]({url(key)}) |')
+                rows.append(f'| {name} | {note} | [{cta(key)}]({url(key)}) |')
             block = '\n\n<!-- SIERRAS-OFERTAS -->\n\n### Consultá estas opciones en Mercado Libre\n\n' + '\n'.join(rows)
-            block += '\n\n*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*\n\n<!-- /SIERRAS-OFERTAS -->\n\n'
+            if any(not url(key).startswith('https://meli.la/') for key in keys):
+                disclosure = 'Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional. Consultá precio, stock y condiciones de cada publicación.'
+            else:
+                disclosure = 'Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.'
+            block += f'\n\n*{disclosure}*\n\n<!-- /SIERRAS-OFERTAS -->\n\n'
             position = insertion(text, heading, mode)
             text = text[:position].rstrip() + block + text[position:].lstrip('\n')
             labels = []
@@ -50,7 +54,7 @@ def main():
                 text = text[:position] + '\n\n' + '\n\n'.join(labels) + '\n' + text[position:]
             file.write_text(text, encoding='utf-8')
         configs[path] = dict(file=file.name, models=keys, anchor=heading, position=mode,
-            offers=[dict(model=key, url=url(key), cta='Ver precio →') for key in keys],
+            offers=[dict(model=key, url=url(key), cta=cta(key)) for key in keys],
             pending=[dict(model=key, reason=OFFERS[key][2] if key in PENDING else 'Falta enlace; conservar condición de variante/código de la propuesta.') for key in requested if key not in keys])
     (ROOT / 'sierras-ofertas.json').write_text(json.dumps(configs, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'{sum(bool(c["models"]) for c in configs.values())} guías; {sum(len(c["offers"]) for c in configs.values())} CTA; {len(OFFERS)-len(PENDING)} productos activos; {len(PENDING)} referidos pendientes')

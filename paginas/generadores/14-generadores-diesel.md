@@ -66,14 +66,24 @@ No se puede calcular un costo local de aceite, filtros o mano de obra sin precio
 
 La fase debe coincidir con las cargas y la instalación. No alcanza con que el título diga “8 kVA”: confirmá tensión, potencia continua, potencia por fase y límites de salida monofásica en la placa y el manual.
 
-| Modelo | Fase / formato documentado | Potencia publicada | Consumo documentado | Qué falta confirmar |
-| :--- | :--- | :--- | :--- | :--- |
-| Hyundai 070G | Monofásico; ficha local lo identifica así | Máxima: 8.000 W | No publicado por carga | Potencia continua, tanque, autonomía y L/h |
-| Pramac S6500 | Monofásico, 230 V; portátil | COP 4,4 kW / 4,8 kVA; ESP 5,3 kW / 5,9 kVA | 1,46 L/h al 75 % | Compatibilidad con las cargas de arranque de la instalación |
-| Hyundai 080G | Trifásico según título de ficha local | El título indica 8 kVA; un campo de ficha informa máximo 8,0 con rótulo inconsistente | No publicado por carga | Unidad y potencia continua: cotejar con placa/manual |
-| Pramac S6000 | Trifásico, 400/230 V; portátil | COP 4,5 kW / 5,6 kVA; ESP 5,5 kW / 6,9 kVA; salida monofásica máxima 3,2 kVA | 1,45 L/h al 75 % | Reparto permitido por fase y límite para cargas monofásicas |
-| Pramac S10000 | Trifásico; aplicación estacionaria según ficha | COP 8,4 kW / 10,5 kVA; ESP 9,4 kW / 11,8 kVA | 2,44 L/h al 75 % | Instalación y disponibilidad local; la ficha señala que no tiene motor Stage V |
-| Hyundai 073G | La ficha local consultada no especifica la fase | Continua: 5.800 W; máxima: 6.400 W | No publicado por carga | Fase, tanque, autonomía y consumo por carga |
+| Modelo | Fase / formato documentado | Potencia publicada | Consumo documentado | Qué falta confirmar | Oferta |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Hyundai 070G | Monofásico; ficha local lo identifica así | Máxima: 8.000 W | No publicado por carga | Potencia continua, tanque, autonomía y L/h | — |
+| Pramac S6500 | Monofásico, 230 V; portátil | COP 4,4 kW / 4,8 kVA; ESP 5,3 kW / 5,9 kVA | 1,46 L/h al 75 % | Compatibilidad con las cargas de arranque de la instalación | — |
+| Daihatsu GES7500ED | Monofásico, según el nombre del producto | 6,5 kVA; motor 11 HP y 455 cc, según el título de la publicación | No informado en los datos compartidos | Potencia continua, consumo por carga, tanque y autonomía | [Ver precio →](https://meli.la/1JHeiwp) |
+| Lüsqtoff LGD8000-8 | Fase no indicada en los datos compartidos | 8 kVA, según el título de la publicación | No informado en los datos compartidos | Fase, potencia continua, consumo por carga, tanque y autonomía | [Ver precio →](https://meli.la/1Sm6ykb) |
+| Hyundai 080G | Trifásico según título de ficha local | El título indica 8 kVA; un campo de ficha informa máximo 8,0 con rótulo inconsistente | No publicado por carga | Unidad y potencia continua: cotejar con placa/manual | — |
+| Pramac S6000 | Trifásico, 400/230 V; portátil | COP 4,5 kW / 5,6 kVA; ESP 5,5 kW / 6,9 kVA; salida monofásica máxima 3,2 kVA | 1,45 L/h al 75 % | Reparto permitido por fase y límite para cargas monofásicas | — |
+| Pramac S10000 | Trifásico; aplicación estacionaria según ficha | COP 8,4 kW / 10,5 kVA; ESP 9,4 kW / 11,8 kVA | 2,44 L/h al 75 % | Instalación y disponibilidad local; la ficha señala que no tiene motor Stage V | — |
+| Hyundai 073G | La ficha local consultada no especifica la fase | Continua: 5.800 W; máxima: 6.400 W | No publicado por carga | Fase, tanque, autonomía y consumo por carga | — |
+
+**Daihatsu GES7500ED**
+
+[Ver precio del Daihatsu GES7500ED](https://meli.la/1JHeiwp)
+
+**Lüsqtoff LGD8000-8**
+
+[Ver precio del Lüsqtoff LGD8000-8](https://meli.la/1Sm6ykb)
 
 **Importante:** en un generador trifásico, no supongas que toda la potencia total queda disponible para una sola carga monofásica. Revisá el límite monofásico y el balance de fases publicados por el fabricante. Para motores y otras cargas de arranque, dimensioná con potencia de marcha y pico de arranque.
 

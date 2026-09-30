@@ -166,7 +166,7 @@
     "pending": [
       {
         "model": "ESABWIRE5",
-        "reason": "Falta referido ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg; el suministrado es 1,6 mm × 18 kg."
+        "reason": "Falta referido específico ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg para esta ubicación."
       }
     ]
   },
@@ -274,7 +274,7 @@
     "file": "08-alambre-para-soldadura-mig.md",
     "models": [
       "BREMEN8240",
-      "ESABWIRE18"
+      "ESABAUTROD5"
     ],
     "offers": [
       {
@@ -283,7 +283,7 @@
         "cta": "Ver precio y disponibilidad"
       },
       {
-        "model": "ESABWIRE18",
+        "model": "ESABAUTROD5",
         "url": "https://meli.la/1fzxaCM",
         "cta": "Ver precio y disponibilidad"
       }
@@ -292,19 +292,14 @@
       {
         "models": [
           "BREMEN8240",
-          "ESABWIRE18"
+          "ESABAUTROD5"
         ],
         "anchor": "Opciones de compra",
         "position": "section",
-        "title": "Alambre MIG macizo: diámetros y bobinas distintos"
+        "title": "Alambre MIG macizo · 0,8 mm × 5 kg"
       }
     ],
-    "pending": [
-      {
-        "model": "ESABWIRE5",
-        "reason": "Falta referido ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg; el suministrado es 1,6 mm × 18 kg."
-      }
-    ]
+    "pending": []
   },
   "/soldadoras/mascaras-fotosensibles/": {
     "file": "09-mascara-de-soldar-fotosensible.md",
@@ -433,33 +428,36 @@
   "/soldadoras/alambre-flux/": {
     "file": "13-alambre-flux.md",
     "models": [
-      "GASFREE5"
+      "GASFREE5",
+      "BREMENFLUX"
     ],
     "offers": [
       {
         "model": "GASFREE5",
         "url": "https://meli.la/2x4GdMW",
         "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BREMENFLUX",
+        "url": "https://meli.la/1XfEzR2",
+        "cta": "Ver precio y disponibilidad"
       }
     ],
     "placements": [
       {
         "models": [
-          "GASFREE5"
+          "GASFREE5",
+          "BREMENFLUX"
         ],
         "anchor": "Opciones de compra y bobinas",
         "position": "section",
-        "title": "Oferta Flux recibida: verificá clasificación y bobina"
+        "title": "E71T-GS de 0,8 mm: compará bobinas de 1 kg y 5 kg"
       }
     ],
     "pending": [
       {
-        "model": "BREMENFLUX",
-        "reason": "Falta referido Bremen E71T-GS 0,8 mm × 1 kg; el Bremen 8240 recibido es macizo."
-      },
-      {
         "model": "ESABFLUX1",
-        "reason": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; el recibido dice 0,8 mm × 5 kg y no confirma AWS."
+        "reason": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; la referencia disponible es E71T-GS de 0,8 mm × 5 kg."
       }
     ]
   },
@@ -478,7 +476,7 @@
       },
       {
         "model": "DOG160",
-        "url": "https://meli.la/1iiKCDU",
+        "url": "https://meli.la/18UJAGt",
         "cta": "Ver precio y disponibilidad"
       },
       {
@@ -562,9 +560,33 @@
   },
   "/soldadoras/electrodo-para-acero-inoxidable/": {
     "file": "16-electrodo-para-acero-inoxidable.md",
-    "models": [],
-    "offers": [],
-    "placements": [],
+    "models": [
+      "INX308LASTRADE",
+      "INX316L"
+    ],
+    "offers": [
+      {
+        "model": "INX308LASTRADE",
+        "url": "https://www.mercadolibre.com.ar/electrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg/up/MLAU3927244096",
+        "cta": "Ver publicación y disponibilidad"
+      },
+      {
+        "model": "INX316L",
+        "url": "https://meli.la/1AYv6rw",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "INX308LASTRADE",
+          "INX316L"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Electrodos inoxidables 308L y 316L · 3,2 mm × 2 kg"
+      }
+    ],
     "pending": []
   },
   "/soldadoras/para-aluminio/": {
@@ -696,7 +718,7 @@
       },
       {
         "model": "DOG160",
-        "url": "https://meli.la/1iiKCDU",
+        "url": "https://meli.la/18UJAGt",
         "cta": "Ver precio y disponibilidad"
       },
       {
@@ -709,12 +731,19 @@
       {
         "models": [
           "ESAB162",
-          "DOG160",
+          "DOG160"
+        ],
+        "anchor": "MMA de 160 A: HandyArc 162i y Dogostar 160",
+        "position": "section",
+        "title": "Comparación principal · soldadoras MMA de 160 A"
+      },
+      {
+        "models": [
           "ESABMIG160"
         ],
-        "anchor": "Modelos, kits y qué comparar",
-        "position": "table",
-        "title": "MMA de 160 A y una alternativa MIG de otro proceso"
+        "anchor": "HandyArc MIG 160i: MIG/MAG y tubular, además de MMA",
+        "position": "section",
+        "title": "Si en realidad buscás MIG/MAG o tubular"
       }
     ],
     "pending": []
@@ -850,9 +879,9 @@
           "SML120",
           "SML150"
         ],
-        "anchor": "SML120-8D vs SML120-8DK",
-        "position": "table",
-        "title": "Consultá el kit 8DK y otra alternativa actual"
+        "anchor": "Qué comprobar antes de comprar",
+        "position": "section",
+        "title": "Opciones después de verificar tensión y kit"
       }
     ],
     "pending": []
@@ -879,7 +908,7 @@
       },
       {
         "model": "DOG160",
-        "url": "https://meli.la/1iiKCDU",
+        "url": "https://meli.la/18UJAGt",
         "cta": "Ver precio y disponibilidad"
       },
       {

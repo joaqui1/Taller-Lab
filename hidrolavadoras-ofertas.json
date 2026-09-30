@@ -143,12 +143,17 @@
     "anchor": "Qué elegir para casa y auto",
     "models": [
       "B1300",
+      "B1520",
       "B2200"
     ],
     "offers": [
       {
         "model": "B1300",
         "url": "https://meli.la/1zzNj8Z"
+      },
+      {
+        "model": "B1520",
+        "url": "https://meli.la/1iVgFke"
       },
       {
         "model": "B2200",
@@ -328,12 +333,17 @@
     "file": "18-hidrolavadora-150-bar.md",
     "anchor": "Comparación: presión de trabajo, caudal y alimentación",
     "models": [
-      "N700"
+      "N700",
+      "B2200"
     ],
     "offers": [
       {
         "model": "N700",
         "url": "https://meli.la/2dFtHcP"
+      },
+      {
+        "model": "B2200",
+        "url": "https://meli.la/2MJE81D"
       }
     ],
     "pending": {

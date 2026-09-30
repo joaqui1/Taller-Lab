@@ -43,7 +43,7 @@ Elegí una sierra de banco a partir del tamaño y la forma de tus piezas. La alt
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | Einhell TC-TS 2025/2 U | Verificá código completo, mesa y accesorios incluidos. | [Ver precio →](https://meli.la/2mWYUA8) |
-| Lüsqtoff SML2000-8 | Confirmá placa, potencia y disco: los documentos de este código presentan discrepancias. | [Ver precio →](https://meli.la/119eQpU) |
+| Lüsqtoff SML2000-9 | Confirmá código SML2000-9, potencia nominal, disco y accesorios: el título recibido dice 250 mm y la ficha documental publica 255 mm. | [Ver precio de Lüsqtoff SML2000-9 →](https://meli.la/1iPupw6) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 
