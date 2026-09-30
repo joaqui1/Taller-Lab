@@ -24,9 +24,9 @@ published: true
 
 | Código Dowen Pagio | Potencia declarada | Disco admitido | Velocidad sin carga | Control de velocidad | Rosca publicada |
 | :--- | ---: | ---: | ---: | :--- | :--- |
-| 9993220.7 / AA115H4 [Ver precio en Mercado Libre](https://meli.la/11Nc9wu){:target="_blank" rel="sponsored noopener"} | 900 W | 115 mm | 12.000 rpm | No indicada como variable | M14 (5/8–11) |
-| 9993220.9 / AA115SP2 [Ver precio en Mercado Libre](https://meli.la/15HesDT){:target="_blank" rel="sponsored noopener"} | 1.050 W | 115 mm | 12.000 rpm | No indicada como variable | M14 (5/8–11) |
-| 9993224.2 / AA125SPL [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target="_blank" rel="sponsored noopener"} | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | M14 (5/8–11) |
+| [9993220.7](/amoladoras/115-o-125/) / AA115H4 [Ver precio en Mercado Libre](https://meli.la/11Nc9wu){:target="_blank" rel="sponsored noopener"} | 900 W | 115 mm | 12.000 rpm | No indicada como variable | M14 (5/8–11) |
+| [9993220.9](/amoladoras/115-o-125/) / AA115SP2 [Ver precio en Mercado Libre](https://meli.la/15HesDT){:target="_blank" rel="sponsored noopener"} | 1.050 W | 115 mm | 12.000 rpm | No indicada como variable | M14 (5/8–11) |
+| [9993224.2](/amoladoras/velocidad-variable/) / AA125SPL [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target="_blank" rel="sponsored noopener"} | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | M14 (5/8–11) |
 
 
 **Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
@@ -81,7 +81,5 @@ Para discos abrasivos planos de agujero central, la rosca del eje no es la medid
 - **Precios consultados:** [9993220.7 y 9993220.9, Tu Máquina](https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/); [9993224.2, Todoferretería](https://www.todoferreteria.com/products/view/4815-amoladora-angular-125mm-dowen-pagio-aa125spl-9993224.2.html); [disco 115 × 1 × 22,23 mm, Neomat](https://neomat.com.ar/productos/disco-de-corte-115x1-0x22-231/).
 - **Seguridad:** usar discos compatibles con diámetro, agujero, velocidad y guarda del modelo.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [amoladoras Gamma](/amoladoras/gamma/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

@@ -21,6 +21,8 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+> **Inverter no significa automáticamente silencioso.** Esta página compara tecnología y calidad de energía; para decidir por nivel de ruido, consultá la guía de [generadores silenciosos](/generadores/silenciosos/) y compará mediciones hechas a distancia y carga similares.
+
 Un generador inverter convierte la energía en varias etapas: el motor mueve un alternador que produce corriente alterna; la electrónica la rectifica a corriente continua y luego un inversor vuelve a generar corriente alterna con tensión y frecuencia controladas. La salida depende del diseño y las protecciones de cada modelo; la palabra *inverter* por sí sola no certifica una cifra de distorsión armónica ni compatibilidad con todo aparato electrónico.
 
 En un convencional, la velocidad del motor y la frecuencia de salida están más directamente relacionadas. En un inverter con control de régimen, el motor puede bajar vueltas cuando la demanda es baja y aumentarlas cuando sube la carga. Eso puede mejorar el consumo y el ruido en ciertas condiciones, pero no significa que cualquier modelo tenga el mismo modo económico, potencia, peso o nivel sonoro.
@@ -90,9 +92,9 @@ Honda publica 2,8 kVA nominales y 3 kVA máximos, con salida monofásica de 220 
 
 [Ver precio del Honda EU30is](https://meli.la/2X86187)
 
-### Dyllu DTGEAB08-4: escalón de alrededor de 5 kW
+### Referencia comercial de precio: Dyllu DTGEAB08-4
 
-La publicación documentada en la [guía de precios](/generadores/precios/) anuncia 5 kW nominales y 5,5 kW máximos para este inverter. Son datos comerciales de esa publicación, sin ensayo físico de TallerLab; confirmá placa y manual de la unidad ofrecida.
+La [guía de precios](/generadores/precios/) incluye una publicación comercial del Dyllu DTGEAB08-4 como referencia de precio. No contamos aquí con documentación primaria para respaldar sus prestaciones, así que no usamos los datos del anuncio para comparar capacidad ni recomendarlo; confirmá placa y manual de la unidad ofrecida.
 
 [Ver precio del Dyllu DTGEAB08-4](https://meli.la/221u1rq)
 

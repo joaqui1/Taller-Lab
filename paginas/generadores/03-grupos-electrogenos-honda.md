@@ -42,6 +42,8 @@ En el ET12000, la ficha técnica especifica **10 kVA nominales y 11 kVA máximos
 
 Las cifras de autonomía no permiten comparar todos estos equipos en una única condición. En EU22i y EU30is, Honda publica más de una duración asociada al Eco Throttle; conservamos esos valores como aparecen en la ficha, sin inferir una carga de prueba común. Tanque más grande no significa automáticamente más horas: cotejá el consumo o autonomía publicados para la carga que prevés y confirmá en el manual las condiciones de medición.
 
+Como referencia de gama, en las publicaciones consultadas el **28/09/2026**, los Honda EG6500CXS y EZ6500CXS tenían precios principales de **$2.912.807 a $3.699.999**; [compará ambos códigos y sus precios observados](/generadores/honda-6500/). Para comparar marcas, potencias y publicaciones del mercado, consultá la [comparativa de precios de grupos electrógenos](/generadores/precios/).
+
 ## Línea convencional e inverter
 
 La línea **EU** de esta tabla usa regulación inverter. Comparala cuando priorices un formato portátil o una salida cuya especificación eléctrica se ajuste a tus equipos; aun así, revisá la carga admisible y la compatibilidad indicada para cada aparato. Para ver más opciones, consultá [generadores inverter](/generadores/inverter/). La Honda EU22i pesa 21 kg y la EU30is 59 kg, así que el segundo escalón de potencia implica un cambio importante de masa.

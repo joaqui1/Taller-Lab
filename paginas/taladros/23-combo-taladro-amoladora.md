@@ -2,7 +2,7 @@
 title: "Combo taladro y amoladora: kits con cable y a batería"
 h1: "Qué combo de taladro y amoladora conviene comprar"
 url: "/taladros/combo-taladro-amoladora/"
-description: "Comparamos cuatro combos de taladro y amoladora y calculamos su costo frente a comprar taladro, amoladora, baterías y cargador por separado."
+description: "Guía para comparar combos de taladro y amoladora según sus herramientas, plataforma de batería, accesorios y garantía documentados."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["combo taladro amoladora", "kit taladro y amoladora", "taladro y amoladora", "kit amoladora y taladro inalambrico"]
@@ -27,14 +27,17 @@ Un combo conviene cuando las dos herramientas resuelven tareas que realmente hac
 
 **Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
 
-## Comparativa de los cuatro combos
+## Combos documentados
 
 | Combo y mercado documentado | Plataforma y taladro | Amoladora | Baterías y cargador | Motor, garantía y costo |
 | :--- | :--- | :--- | :--- | :--- |
 | Lusqtoff KATL-9BK, Argentina | Iron Volt 18 V; taladro atornillador de 10 mm, 2 velocidades y 60 Nm; la ficha no confirma percusión | 115 mm, M14; tres velocidades publicadas | 1 × 4 Ah + 1 × 2 Ah; cargador incluido | La ficha del combo no declara si los motores son brushless. Lusqtoff informa 3 años para herramientas y 6 meses para baterías. No hay comparación documentada contra compra separada. |
 | Bosch GSR 18V-50 + GWS 180-LI, kit 0 615 990 M47, ficha oficial de Ucrania | Bosch Professional 18 V; GSR 18V-50 es atornillador sin percusión | GWS 180-LI, variante 0 601 9H9 020: 125 mm | 1 × 2 Ah + 1 × 5 Ah; cargador GAL 18V-40 y XL-BOXX incluidos | Bosch declara motor sin escobillas en ambos modelos. La página regional enlaza garantía europea; no equivale a cobertura argentina. Sin precio local comparable con compra por separado. |
 | Bosch GBH 180-LI + GSR 18V-50 + GWS 180-LI, kit 0 615 990 M32, ficha oficial de Croacia | Bosch Professional 18 V compartido; suma un rotomartillo GBH 180-LI SDS Plus al GSR 18V-50 sin percusión | GWS 180-LI, variante 0 601 9H9 020: 125 mm | 2 × 5 Ah; cargador GAL 1880 CV y bolso incluidos | El fabricante declara brushless para GBH 180-LI, GSR 18V-50 y GWS 180-LI. Garantía local y precio contra compra separada no verificados. Es un kit de tres herramientas, no una comparación equivalente al de dos. |
-| Kommberg, Daewoo y KLD publicados por comercios | Códigos y plataformas no confirmados en fichas primarias consultadas | Las medidas varían según cada aviso y no se verificaron en manuales del fabricante | Ah, cantidad de baterías y cargadores sin corroborar de forma primaria | Garantía y costo del combo frente a las herramientas separadas pendientes de verificar. No usar estos avisos para decidir hasta confirmar los códigos exactos. |
+
+## Ofertas argentinas pendientes de verificación
+
+Se encontraron ofertas comerciales de **Kommberg, Daewoo y KLD**, pero sus códigos exactos, composición del combo, plataforma, baterías, cargador y garantía no están contrastados con fichas primarias. Pedí el código completo, fotos legibles de las placas y manuales, además del detalle de baterías, cargador y cobertura, antes de compararlas con los combos documentados.
 
 En el KATL-9BK, las dos baterías tienen capacidades distintas y la documentación consultada no asigna una a cada herramienta. En los kits Bosch, ambas herramientas usan la plataforma Professional de 18 V; eso permite intercambiar baterías compatibles de la misma plataforma. La GSR 18V-50 no tiene percusión: el kit M47 sirve para perforar madera y metal según la ficha, mientras que el M32 agrega un rotomartillo SDS Plus para mampostería y hormigón dentro de sus límites.
 
@@ -51,8 +54,6 @@ Un kit a batería da movilidad y comparte cargador y baterías entre máquinas; 
 3. **Amoladora.** Confirmá diámetro de disco, rosca, velocidad y protecciones para la tarea prevista.
 4. **Taladro.** Verificá si tiene percusión, capacidad del mandril y si el uso en mampostería requiere saltar a SDS.
 5. **Costo y garantía del conjunto.** Compará el precio del kit contra las mismas máquinas, baterías y cargador comprados por separado en el mismo país y fecha. Confirmá por escrito la cobertura local y qué piezas cubre.
-
-No hay datos primarios suficientes para recomendar los combos Kommberg, Daewoo y KLD de los avisos encontrados. Quedan como **ofertas pendientes de verificación**: antes de considerarlos, pedí fotos legibles de las placas, manuales y detalle de baterías, cargador y garantía. No tomamos sus especificaciones comerciales como hechos.
 
 ## Preguntas frecuentes
 

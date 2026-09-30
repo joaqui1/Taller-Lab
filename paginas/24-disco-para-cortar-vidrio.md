@@ -23,6 +23,8 @@ published: true
 
 Sí hay discos diamantados de amoladora que el fabricante declara para cortar vidrio. Tork Craft publica dos variantes de 115 mm para vidrio y azulejos: ambas usan eje de 22,23 mm y admiten hasta 13.300 rpm. La ficha del TCDB80115 nombra botellas, vidrio, placas de piedra y azulejos; la del TCDB1240115 menciona vidrio y azulejos. Es evidencia para esas aplicaciones declaradas, no una autorización general para cualquier vidrio.
 
+Para explorar otras familias de accesorios, consultá la [guía de discos para amoladora](/amoladoras/discos/).
+
 | Tarea/material declarado | Accesorio documentado | Medida y montaje | Límite que queda por confirmar |
 | :--- | :--- | :--- | :--- |
 | Botellas, vidrio, placas de piedra y azulejos | Tork Craft TCDB80115, borde continuo fino | 115 mm; eje 22,23 mm; máximo 13.300 rpm | Tipo de vidrio concreto y si la amoladora permite corte húmedo |
@@ -57,6 +59,8 @@ Por eso, “apto para húmedo” en la ficha del disco no significa “apto para
 ## Disco de vidrio frente a uno para cerámica
 
 La etiqueta “diamantado”, “cerámica” o “multiuso” no basta para acreditar uso en vidrio. Elegí un código cuya ficha mencione explícitamente el vidrio y comprobá también el montaje, el diámetro y las RPM. Para azulejos de vidrio, la Husqvarna VARI-CUT S4 declara esa aplicación específica; para placas o botellas, Tork Craft publica las referencias indicadas arriba.
+
+La [guía de discos de corte para amoladora](/amoladoras/disco-de-corte/) organiza otros accesorios de corte por material; para vidrio, usá únicamente una referencia cuya ficha declare expresamente esa aplicación.
 
 Un cortavidrios manual y una sierra de mesa húmeda son procesos diferentes. No trasladamos sus instrucciones a una amoladora. Para cortes de acabado, materiales frágiles o piezas cuyo tipo no esté cubierto por la ficha, consultá al fabricante o a un vidriero y elegí el sistema indicado para esa pieza.
 

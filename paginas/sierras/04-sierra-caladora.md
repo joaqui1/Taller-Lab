@@ -84,21 +84,15 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 
 <!-- /SIERRAS-OFERTAS -->
 
+## Comparar caladoras por marca
+
+Explorá las guías disponibles de [Black+Decker](/sierras/caladoras-black-decker/), [Einhell](/sierras/caladoras-einhell/), [Bosch](/sierras/sierra-caladora-bosch/) y [Skil](/sierras/caladoras-skil/).
+
 **Análisis TallerLab.** La tabla ordena máximos publicados, no resultados de una prueba común. Entre BES603-B2 y TE-JS 100 la diferencia declarada es 35 mm en madera. No significa que una caladora sea “mejor”: las capacidades pueden variar con hoja, geometría, material y condiciones del fabricante. Medí el espesor real y buscá una hoja indicada para él.
 
 **Metal y acero:** la ficha BES603-B2 declara hasta 6 mm en “metal”, sin identificar el tipo; las fichas Einhell TC-JS 85 y TE-JS 100 declaran hasta 8 y 10 mm en “acero”. Son afirmaciones distintas y no se deben comparar como si describieran necesariamente el mismo material. Elegí una hoja cuya aplicación documentada incluya el material que vas a cortar y comprobá también el máximo de la máquina.
 
 **Análisis TallerLab.** No se probaron los modelos ni se midieron acabado, velocidad o precisión. Las fichas no establecen una capacidad universal para MDF, melamina o aluminio; elegí por los materiales y límites que identifica cada una.
-
-## Publicación de BES603: identificar la variante
-
-
-
-
-*Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
-El [registro comercial](https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702) identifica BES603, pero no confirma aquí el sufijo B2. Antes de comprar, comprobá placa, sufijo, 220 V, hoja tipo T y contenido del kit.
-
-La BES603-B2 de esta publicación debe coincidir con la tensión, el sufijo y el contenido de kit de la unidad ofrecida. Para comparar variantes y control de velocidad, revisá la [guía de caladoras Black+Decker](/sierras/caladoras-black-decker/).
 
 ## Fuentes consultadas
 

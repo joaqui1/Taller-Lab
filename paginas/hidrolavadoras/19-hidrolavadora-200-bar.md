@@ -28,6 +28,16 @@ Las hidrolavadoras cercanas a 200 bar que encontramos en Argentina apuntan a **u
 
 **Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
 
+## Requisitos de instalación antes de cotizar
+
+1. Confirmá tensión y fases disponibles: 230 V monofásica frente a 380/400 V trifásica.
+2. Compará presión nominal/de trabajo y presión máxima por separado, junto con caudal nominal y máximo.
+3. Verificá que la red de agua sostenga el caudal mínimo solicitado por el fabricante.
+4. Definí si necesitás agua caliente: una caldera añade consumo de combustible, mantenimiento y requisitos de instalación.
+5. Consultá disponibilidad de bomba, pistones, válvulas, service y mangueras para el código exacto.
+
+Para un lavadero o trabajo frecuente, dimensioná instalación, horas de uso, caudal y repuestos con esta guía de [cómo dimensionar una hidrolavadora profesional](/hidrolavadoras/profesionales/). Si necesitás movilidad a combustión cerca de 200 bar, la Niwa LNW-70 declara 207 bar y 600 L/h; revisá el código y la aplicación dentro de la [gama de hidrolavadoras Niwa](/hidrolavadoras/niwa/).
+
 ## Equipos publicados en Argentina cerca de 200 bar
 
 | Modelo y código | Presión publicada | Caudal publicado | Alimentación / potencia | Bomba y temperatura | Para quién / qué revisar |
@@ -63,16 +73,6 @@ Como referencia de agua fría, Gamma también publica la Annovi 935 Blue Clean: 
 ### El nombre comercial puede engañar: Gamma Omega Hynox 200
 
 Gamma la lista como hidrolavadora profesional **con caldera**, para talleres, lavaderos, fábricas y vehículos grandes. Sin embargo, su página publica **14,5 MPa (145 bar) de presión y 15 MPa (150 bar) de presión máxima**, alimentación trifásica, 145 kg, caldera de 58 kW y temperatura máxima de 90 °C. El “200” identifica el modelo; no lo conviertas en un dato de presión ni lo uses como candidato de 200 bar.
-
-## Antes de comprar una máquina profesional
-
-1. Confirmá tensión y fases disponibles: 230 V monofásica frente a 380/400 V trifásica.
-2. Compará presión nominal/de trabajo y presión máxima por separado, junto con caudal nominal y máximo.
-3. Verificá que la red de agua sostenga el caudal mínimo solicitado por el fabricante.
-4. Definí si necesitás agua caliente: una caldera añade consumo de combustible, mantenimiento y requisitos de instalación.
-5. Consultá disponibilidad de bomba, pistones, válvulas, service y mangueras para el código exacto.
-
-Para un lavadero o trabajo frecuente, dimensioná instalación, horas de uso, caudal y repuestos con esta guía de [cómo dimensionar una hidrolavadora profesional](/hidrolavadoras/profesionales/). Si necesitás movilidad a combustión cerca de 200 bar, la Niwa LNW-70 declara 207 bar y 600 L/h; revisá el código y la aplicación dentro de la [gama de hidrolavadoras Niwa](/hidrolavadoras/niwa/).
 
 Comparación documental, sin prueba física ni muestra de opiniones de compradores. Los modelos y condiciones comerciales publicados pueden cambiar; disponibilidad y cotización deben confirmarse con el proveedor. Datos revisados el **29/09/2026**.
 

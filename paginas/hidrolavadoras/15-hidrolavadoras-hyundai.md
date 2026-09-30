@@ -58,7 +58,7 @@ Hyundai Herramientas Argentina publica **siete hidrolavadoras**: cinco eléctric
 | No hay tomacorriente donde limpiar | Una opción a nafta puede evitar depender de un cable de red, pero exige confirmar presión de trabajo, caudal, manguera, peso, kit y condiciones de uso del modelo concreto. La ficha local no aporta todos esos datos para 835H/840H. |
 | Suciedad pesada o trabajo frecuente | Confirmá caudal, régimen de uso admitido, manguera y repuestos del SKU; si esos datos no están en la ficha, pedí el manual antes de pagar. |
 
-## Precios y alternativas comparables (29/09/2026)
+## Precio Hyundai y qué comparar si no hay stock
 
 La ficha oficial argentina consultada para la 820H (SKU 019-0820) figura **sin existencias** y no publica precio. Encontré una [publicación local de la 820H por $493.274](https://www.coniferaltienda.com.ar/productos/hidrolavadora-hyundai-2500w-200bar-820h-1mlmt/), con una unidad disponible al consultar; sin embargo, el título del comercio anuncia 2.500 W y 200 bar, mientras que Hyundai publica para el mismo código 1.800 W, 120 bar de trabajo y 160 bar máximos. Es una discrepancia material: verificá placa, kit y modelo exacto con el vendedor antes de comprar. Para los otros códigos de la tabla no encontré precio local comparable vigente y verificable en esta revisión.
 

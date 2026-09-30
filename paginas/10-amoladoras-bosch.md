@@ -21,6 +21,10 @@ published: true
 
 No hay una única Bosch para todos los trabajos. Empezá por el diámetro que necesitás y por si la herramienta va a trabajar con cable o batería; después compará potencia, regulación, peso y contenido del paquete. Las cifras siguientes describen variantes concretas y no son pruebas comparativas de rapidez o durabilidad.
 
+**Dato documentado:** las especificaciones comparadas en esta guía corresponden a los modelos y códigos indicados en las fuentes enlazadas. Confirmá el código exacto de la unidad antes de aplicar esos datos a una publicación comercial.
+
+**Análisis TallerLab:** las comparaciones relacionan la documentación disponible con distintos tipos de uso; no se realizó una prueba física comparativa de estos equipos.
+
 ## Cómo se ordena la gama
 
 

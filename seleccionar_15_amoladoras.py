@@ -6,17 +6,18 @@ data=json.loads((out/'plan-estructurado.json').read_text(encoding='utf-8'))
 with Path(r'C:\Users\joaqu\Desktop\keywords\keywords_amoladora.csv').open(encoding='utf-8-sig',newline='') as f:
     ads={r['Keyword']:r['Avg. monthly searches'] for r in csv.DictReader(f)}
 measured={r['keyword']:r for r in data['measured']}
-selected=[(3,'disco flap'),(5,'disco de corte para amoladora'),(7,'amoladora dewalt'),(4,'disco de desbaste'),(6,'amoladora recta'),(2,'amoladora de banco'),(8,'amoladora makita'),(15,'amoladora inalambrica'),(17,'disco para cortar ceramica'),(14,'amoladora bosch'),(21,'amoladora lusqtoff'),(11,'amoladora 9 pulgadas'),(16,'amoladora skil 830w'),(26,'disco diamantado segmentado'),(9,'amoladora stanley')]
-text=['# Las 15 páginas de amoladoras seleccionadas por volumen Ads y KD\n\nActualización: 23/09/2026. Esta selección sustituye la propuesta de 30 páginas como alcance inicial.\n\nSe prioriza primero la banda de 5.000 de Google Ads con KD hasta 18. Después se seleccionan tres consultas de 500 y KD 5, y Stanley (500/KD 8) frente a otras empatadas por su mayor volumen Semrush. No se divide volumen por KD: KD no es una escala lineal de esfuerzo ni una probabilidad de posicionar. El orden de la tabla sigue banda Ads, KD y, en los empates, volumen Semrush.\n\nLos valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.000 y 50.000): no representan precisión suficiente para proyectar visitas. El volumen Semrush se incluye para contrastar. Cada KD pertenece a la consulta exacta indicada, no al conjunto de variantes ni a todos los H2. Mercado asumido: Argentina; falta confirmar país de la exportación Semrush.\n\n| Nº | Keyword exacta | Volumen Ads | Volumen Semrush | KD |\n|---:|---|---:|---:|---:|\n']
+selected=[(3,'disco flap'),(5,'tipos de discos para amoladora'),(7,'amoladora dewalt'),(4,'disco de desbaste'),(6,'amoladora recta'),(2,'amoladora de banco'),(8,'amoladora makita'),(15,'amoladora inalambrica'),(17,'disco para cortar ceramica'),(14,'amoladora bosch'),(21,'amoladora lusqtoff'),(11,'amoladora 9 pulgadas'),(16,'amoladora skil 830w'),(26,'disco diamantado segmentado'),(9,'amoladora stanley')]
+text=['# Las 15 páginas de amoladoras priorizadas por volumen Ads y KD\n\nActualización: 23/09/2026. Esta selección sustituye la propuesta de 30 páginas como alcance inicial.\n\nSe prioriza primero la banda de 5.000 de Google Ads con KD hasta 18 cuando existe medición Semrush para la consulta exacta. La URL general `/amoladoras/discos/` se incluye por su intención de tipos de discos para amoladora; la consulta de referencia tiene volumen Ads, pero no medición Semrush exacta asignada aquí. No se divide volumen por KD: KD no es una escala lineal de esfuerzo ni una probabilidad de posicionar.\n\nLos valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.000 y 50.000): no representan precisión suficiente para proyectar visitas. Cada volumen Semrush y KD pertenece a la consulta exacta indicada, no al conjunto de variantes ni a todos los H2. Mercado asumido: Argentina; falta confirmar país de la exportación Semrush.\n\n| Nº | Keyword objetivo | Volumen Ads | Volumen Semrush | KD |\n|---:|---|---:|---:|---:|\n']
 briefs=[]
 for i,(pid,k) in enumerate(selected,1):
-    p=dict(data['pages'][pid-1]); s=measured[k]; a=int(float(ads[k]))
-    text.append(f'| {i} | {k} | {a:,}'.replace(',','.')+f" | {int(s['volume']):,}".replace(',','.')+f" | {s['kd']} |\n")
+    p=dict(data['pages'][pid-1]); s=measured.get(k); a=int(float(ads[k]))
+    text.append(f'| {i} | {k} | {a:,}'.replace(',','.')+f" | {int(s['volume']):,}".replace(',','.')+f" | {s['kd']} |\n" if s else f'| {i} | {k} | {a:,}'.replace(',','.')+' | s/m | s/m |\n')
     if pid==16:
         p.update(title='Amoladora Skil de 830 W: qué revisar antes de comprar',h1='Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W',h2=['Cómo identificar el modelo Skil de 830 W','Diámetro, potencia y equipamiento según la ficha oficial','Qué cambia frente a las opciones Skil de 700 W','Para qué trabajos está indicada y cuáles son sus límites','Qué incluye la publicación y dónde consultar precio'])
     if pid==26:
         p.update(title='Disco diamantado segmentado: usos y cómo elegir',h1='Disco diamantado segmentado: para qué sirve y cuándo elegirlo',h2=['Qué caracteriza a un disco diamantado segmentado','Qué materiales admite cada referencia','Diferencias frente a los discos turbo y continuos','Diámetro, eje, RPM y corte seco o húmedo','Qué revisar antes de comprar un disco compatible'])
-    briefs.append(f"\n## {i}. {k}\n\n**Volumen Ads:** {a:,} · **KD:** {s['kd']} · **Volumen Semrush:** {s['volume']}\n\n**URL propuesta:** `{p['url']}`\n\n**Title:** {p['title']}\n\n**H1:** {p['h1']}\n\n**H2:**\n\n".replace(f'{a:,}',f'{a:,}'.replace(',','.'))+'\n'.join('- '+h for h in p['h2'])+'\n')
+    metrics=f"**Volumen Ads:** {a:,} · **KD:** {s['kd']} · **Volumen Semrush:** {s['volume']}" if s else f"**Volumen Ads:** {a:,} · **KD y volumen Semrush:** s/m para esta consulta exacta"
+    briefs.append(f"\n## {i}. {k}\n\n{metrics}\n\n**URL propuesta:** `{p['url']}`\n\n**Title:** {p['title']}\n\n**H1:** {p['h1']}\n\n**H2:**\n\n".replace(f'{a:,}',f'{a:,}'.replace(',','.'))+'\n'.join('- '+h for h in p['h2'])+'\n')
 text.extend(briefs)
 text.append('''
 ## Publicación y agrupación
@@ -35,11 +36,11 @@ La salida a Mercado Libre debe corresponder al modelo, kit o disco explicado, co
 - [Semrush: amoladoras](C:/Users/joaqu/Desktop/keywords/semrush/semrush_amoladoras.csv)
 - [Semrush: consultas adicionales](C:/Users/joaqu/Desktop/keywords/semrush/semrush_consulta_adicional.csv)
 
-Las fuentes se conservaron sin cambios. La selección contiene 15 keywords distintas, 15 URLs distintas y KD exactos entre 5 y 18.
+Las fuentes se conservaron sin cambios. La selección contiene 15 intenciones y 15 URLs distintas; 14 consultas tienen KD Semrush exacto y una conserva solo la referencia de Google Ads, sin heredar métricas de otra consulta.
 ''')
 assert len(selected)==15 and len({x[0] for x in selected})==15
-assert all(k in ads and k in measured for _,k in selected)
+assert all(k in ads for _,k in selected)
 report=''.join(text)
 assert report.count('**Title:**')==15 and report.count('**H1:**')==15
 (out/'15-paginas-prioritarias-amoladoras.md').write_text(report,encoding='utf-8')
-print('Verificado: 15 páginas con volumen Ads y KD exactos; 15 titles, H1 y esquemas H2.')
+print('Verificado: 15 páginas con referencia Ads; métricas Semrush incluidas solo cuando existen para la consulta exacta; 15 titles, H1 y esquemas H2.')

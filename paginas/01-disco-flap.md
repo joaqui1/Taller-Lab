@@ -76,7 +76,7 @@ La forma cambia cómo apoyan las láminas y qué ángulo de trabajo suele recome
 
 Esos ángulos son recomendaciones publicadas por Norton, no valores universales para cualquier disco flap. Seguí la etiqueta y el manual del accesorio y de la amoladora; no extrapoles el ángulo de una marca a otra.
 
-## Flap vs disco rígido de desbaste
+## Flap vs [disco rígido de desbaste](/amoladoras/disco-de-desbaste/)
 
 | Criterio | Flap | Disco rígido de desbaste |
 | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ Esos ángulos son recomendaciones publicadas por Norton, no valores universales 
 | Contacto | Las láminas pueden adaptarse más al contorno y ayudar a suavizar la transición | Contacto más rígido; puede dejar una marca distinta y requiere el apoyo previsto por el fabricante |
 | Elección | Cuando importa combinar remoción y una superficie más mezclada | Cuando prima el desbaste y la pieza permite ese método |
 
-Como ejemplo documentado, las fichas Bosch consultadas muestran un disco rígido PRO Metal de 115 × 6 mm y un flap X571 de 115 mm, grano 40 y agujero de 22,23 mm. El espesor de ese disco rígido no representa todos los modelos, y compartir diámetro no vuelve intercambiables los accesorios. Para corte de material corresponde un disco de corte compatible, no uno de desbaste ni un flap.
+Como ejemplo documentado, las fichas Bosch consultadas muestran un disco rígido PRO Metal de 115 × 6 mm y un flap X571 de 115 mm, grano 40 y agujero de 22,23 mm. El espesor de ese disco rígido no representa todos los modelos, y compartir diámetro no vuelve intercambiables los accesorios. Para corte de material corresponde un [disco de corte](/amoladoras/disco-de-corte/) compatible, no uno de desbaste ni un flap.
 
 ## Cómo verificar medida, eje y RPM
 

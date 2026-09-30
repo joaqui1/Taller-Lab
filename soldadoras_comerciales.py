@@ -45,7 +45,7 @@ PENDING = {
 PLACEMENTS = {
     0: [(['IRON100', 'SML120', 'ESABMIG160', 'ESABET200'], 'Qué soldadora elegir según el trabajo', 'section', 'Una oferta por proceso: MMA, Flux, MIG y TIG')],
     1: [(['7018-25', '7018-32'], 'Opciones de compra', 'section', 'Compará diámetro y presentación del 7018')],
-    2: [(['IRON100', 'IRON250'], 'MMA', 'table', 'Opciones MMA de la familia Iron'), (['SML120', 'MIGDUAL200'], 'Flux/MIG', 'table', 'Opciones Flux y MIG: verificá el proceso')],
+    2: [(['IRON100', 'IRON250'], 'MMA', 'table', 'Opciones MMA de la familia Iron'), (['MIGDUAL200'], 'MIG/MAG con gas', 'table', 'MIG/MAG Lüsqtoff: confirmá la configuración'), (['SML120'], 'Flux', 'table', 'Opción Flux Lüsqtoff: distinguí equipo y kit')],
     3: [],
     4: [(['ESABMIG160', 'MIGDUAL200'], 'Comparativa y costo del equipo completo', 'table', 'Máquinas MIG con gas para comparar'), (['ESABWIRE5'], 'Gas, alambre y accesorios necesarios', 'section', 'Alambre compatible: oferta pendiente')],
     5: [(['GUANTES'], 'Opciones de compra', 'section', 'Consultá talle y protección del guante')],
@@ -69,7 +69,7 @@ PLACEMENTS = {
     23: [(['SML150', 'SML120'], 'Comparación de variantes documentadas', 'table', 'Alternativas actuales a la SML150-8 discontinuada')],
     24: [(['SML120', 'SML150'], 'Qué comprobar antes de comprar', 'section', 'Opciones después de verificar tensión y kit')],
     25: [],
-    26: [(['ESAB162'], 'Cómo investigamos esta guía', 'table', 'Consultá HandyArc 162i: verificá código 0409616'), (['DOG160', 'DOG180'], 'Proceso y funciones documentadas', 'section', 'Alternativas MMA Dogo: confirmá códigos')],
+    26: [(['ESAB162'], 'Especificaciones técnicas y ciclo de trabajo', 'table', 'Consultá HandyArc 162i: verificá código 0409616'), (['DOG160', 'DOG180'], 'Proceso y funciones documentadas', 'section', 'Alternativas MMA Dogo: confirmá códigos')],
     27: [(['ST1B', 'ST1X'], 'Identificar ST-1X y diferenciarla de ST-1B', 'section', 'ST-1B como alternativa; ST-1X por código y lote')],
     28: [(['SML120', 'SML150'], 'Cuándo conviene pasar a una alternativa actual', 'section', 'Alternativas actuales a la SML130-7')],
 }

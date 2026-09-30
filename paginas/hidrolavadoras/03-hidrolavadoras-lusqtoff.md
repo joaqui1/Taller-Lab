@@ -86,19 +86,6 @@ Precios consultados el **29/09/2026**. Son importes de publicaciones de vendedor
 | HL130-9 | — | Sin precio comparable verificado al 29/09/2026: los avisos encontrados mezclan la denominación con especificaciones distintas a las del catálogo para HL130-9. |
 | HL-150 eléctrica | $276.731 | [Mercado Libre](https://www.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl-150-naranja-y-negro-1500w-135-bar-50hz/p/MLA6066861); coincide en modelo, 1.500 W y 135 bar máximos publicados. |
 
-## Más avisos en Mercado Libre
-
-Los avisos de Mercado Libre cambian por vendedor, stock y kit, así que abrí la búsqueda del código y comprobá la placa, la presión de trabajo, la potencia y el contenido antes de comparar:
-
-- [Buscar Lüsqtoff HL-120](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl-120).
-- [Buscar Lüsqtoff HL100-8](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl100-8).
-- [Buscar Lüsqtoff HL110-9](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl110-9).
-- [Buscar Lüsqtoff HL130-9](https://listado.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl130-9).
-
-En algunas publicaciones, el nombre HL130-9 aparece junto a 2.500 W y 130 bar, mientras el catálogo del fabricante para HL130-9 especifica 3.200 W, 150 bar de trabajo y 225 bar máximos permitidos. Por eso no presento esos avisos como precio comparable hasta verificar variante, placa y ficha de la unidad.
-
-HL100-7 queda fuera de este selector: es otro modelo, con ficha propia, y su enlace comercial no determina qué equipos se incluyen en la guía.
-
 ## Fuentes consultadas
 
 - [Lüsqtoff HL-120, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/HL-120) y [manual HL-120](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf).

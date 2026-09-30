@@ -1,5 +1,5 @@
 ---
-title: "Máscara de soldar fotosensible: cómo elegir la mejor"
+title: "Máscara de soldar fotosensible: criterios y modelos"
 h1: "Cómo elegir una máscara de soldar fotosensible"
 url: "/soldadoras/mascaras-fotosensibles/"
 description: "Guía de máscaras fotosensibles por proceso y sombra, sensores, sensibilidad, retardo, campo visual, alimentación, marcado y repuestos, con tres modelos documentados como ejemplos."

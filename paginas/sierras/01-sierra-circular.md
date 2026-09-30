@@ -1,5 +1,5 @@
 ---
-title: "Sierra circular: cuál elegir según uso y presupuesto"
+title: "Sierra circular: cuál elegir según trabajo y capacidad"
 h1: "Cómo elegir una sierra circular para tus trabajos"
 url: "/sierras/circulares/"
 description: "Guía de selección documental: disco admitido, eje y profundidad de corte publicados por modelo."
@@ -66,6 +66,10 @@ Los watts publicados describen potencia eléctrica absorbida o anunciada según 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 
 <!-- /SIERRAS-OFERTAS -->
+
+## ¿Sierra circular con cable o inalámbrica?
+
+Si necesitás moverte sin depender de un tomacorriente, compará una [sierra circular inalámbrica](/sierras/sierra-circular-inalambrica/) y verificá batería, cargador y capacidad del modelo. Para elegir entre ambas, partí de la tarea y el kit completo; la alimentación por sí sola no indica cuánto puede cortar.
 
 ## Modelos y marcas para comparar
 

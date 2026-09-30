@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Guía de selección con una comparación de modelos Gamma bajo mediciones de ruido compatibles, una referencia Honda con dB(A) y una alternativa de energía almacenada sin motor."
+information_asset: "Tabla de mediciones de ruido publicadas por Gamma, Honda y Lüsqtoff, con protocolos y límites de comparabilidad; caso histórico Gamma discontinuado y alternativa de energía almacenada sin motor."
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true
@@ -32,7 +32,7 @@ También separá dos características que pueden aparecer juntas: **inverter** d
 
 Leé cada medición en este orden: unidad (dB o dB(A)), distancia al equipo, carga de ensayo y si el valor representa presión sonora o potencia sonora. Para comparar dos modelos, buscá que esas condiciones coincidan. Los decibeles usan una escala logarítmica, así que una diferencia numérica no equivale al mismo porcentaje de ruido.
 
-Una comparación útil dentro de una misma familia es la de Gamma GE3497AR y el GE3470AR documentado en un manual anterior: ambos informan ruido a 7 m, al 50 % y al 100 % de carga, con la misma unidad `dB`. El GE3470AR figura como discontinuado; la comparación aparece con su estado histórico identificado, no como recomendación de compra actual.
+Para entender cómo cambia el ruido con la carga, la ficha del Gamma GE3497AR informa dos puntos medidos a 7 m: 63 dB al 50 % y 69 dB al 100 %. La ficha escribe `dB` sin indicar ponderación A, así que esos valores no se comparan directamente con los publicados en dB(A) por Honda.
 
 ## Inverter e insonorizados: qué resuelve cada uno
 
@@ -41,23 +41,28 @@ Una comparación útil dentro de una misma familia es la de Gamma GE3497AR y el 
 - **Ambas características:** un mismo generador puede ser inverter e insonorizado, como Honda describe al EU22i. Aun así, verificá su valor de dB(A), distancia y carga; las palabras comerciales no aseguran un nivel adecuado para cualquier entorno.
 - **Convencional abierto:** también puede ser opción para una obra u otro lugar donde el ruido sea menos restrictivo, pero compará la medición real, potencia y peso. No supongas que todo equipo abierto es igual de ruidoso.
 
-## Ruido según carga y distancia
+## Modelos actuales: ruido según carga y distancia
 
-El ruido cambia con la carga; por eso conviene pedir un dato a la carga que vas a usar. La medición Gamma muestra el cambio entre mitad de carga y plena carga en la misma posición. Honda aporta un punto a plena carga, que ayuda a caracterizar el EU22i pero no completa una curva.
+Las fichas oficiales actuales de Gamma, Honda y Lüsqtoff publican estos datos acústicos. Tener un número en común no basta: si cambian unidad, distancia o condición de carga, la cifra no sirve para establecer un ranking directo.
 
-| Referencia | Condición acústica publicada | Datos de uso que ayudan a dimensionar | Oferta |
-| :--- | :--- | :--- | :--- |
-| Gamma GE3497AR | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 2 kW nominales, 2,2 kW pico, 17 kg; autonomía 4,5 h al 50 % y 3 h a potencia nominal | [Ver precio →](https://meli.la/1B4sjDN) |
-| Gamma GE3470AR, histórico/discontinuado | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 1,8 kW nominales, 2 kW pico, 24,5 kg; autonomía 6 h al 50 % y 3,5 h a potencia nominal | — |
-| Honda EU22i | 57 dB(A) a 7 m y plena carga | 1,8 kVA nominales, 2,2 kVA máximos, 21 kg; la ficha anuncia 8,1 h en Eco Throttle sin carga asociada a esa autonomía | [Ver precio →](https://meli.la/2AwxqaH) |
+| Modelo | Ruido declarado | Distancia | Carga o modo declarado | Fuente oficial | Comparabilidad | Precio |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Gamma GE3497AR | 63 dB / 69 dB | 7 m | 50 % / 100 % de carga | [Ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/) | Los dos puntos permiten ver el cambio por carga en este modelo. La ficha no especifica dB(A), por lo que no se compara directamente con los valores Honda. | [Ver precio →](https://meli.la/1B4sjDN) |
+| Honda EU22i | 57 dB(A) | 7 m | Plena carga | [Ficha Honda](https://pf.honda.com.ar/producto/EU22i) | Medición con distancia y carga declaradas; no equivale a cifras que omiten esas condiciones ni a Gamma, que no indica ponderación A. | [Ver precio →](https://meli.la/2AwxqaH) |
+| Honda EU30is | 58 dB(A) | No indicada | No indicada | [Ficha Honda](https://pf.honda.com.ar/producto/EU30is) | No comparable directamente con EU22i: la ficha no indica distancia ni carga para el dato de ruido. | [Ver precio →](https://meli.la/2X86187) |
+| Honda EU70is | 91 dB(A) | No indicada | No indicada | [Ficha Honda](https://pf.honda.com.ar/producto/EU70is) | Sin protocolo de distancia y carga no se puede contrastar directamente con los otros modelos. | — |
+| Lüsqtoff LGI5.5-8 | 62 dB | No indicada | No indicada | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | La ficha no describe el protocolo; no ordenar este valor frente a 57 o 58 dB(A) de Honda. | [Ver precio →](https://meli.la/1pJFrBq) |
+| Lüsqtoff LGI7.5-8 | 63 dB | No indicada | No indicada | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI7.5-8) | La ficha no describe el protocolo; no concluir que sea más ruidoso o silencioso por la cifra sola. | — |
 
-Las dos filas Gamma permiten comparar ruido a idénticos puntos declarados. Según esos datos, el GE3497AR pesa 7,5 kg menos y ofrece más potencia nominal; el manual del GE3470AR declara más autonomía bajo cargas identificadas. Confirmá el estado del modelo antes de comprar: GE3470AR está discontinuado.
+**Lectura práctica:** no compares “62 vs. 58 dB” como si fuera un resultado de laboratorio bajo la misma condición. Entre LGI5.5-8 y EU30is faltan distancia y carga/modo en las fichas; también falta ponderación A en el dato Lüsqtoff. Pedí esas condiciones si el nivel acústico será decisivo.
 
-Honda publica para el EU22i **57 dB(A) a 7 m y plena carga**, además de 1,8 kVA nominales, 2,2 kVA máximos, 21 kg y 8,1 h en Eco Throttle. Es una referencia con condiciones acústicas claras. La ficha Gamma escribe `dB` sin indicar ponderación A, por lo que no usamos 57 frente a 69 como una resta o ranking directo entre marcas. La autonomía Honda tampoco especifica en esa cifra la carga del aparato conectado.
+## Caso histórico: Gamma GE3470AR discontinuado
+
+El manual anterior del Gamma GE3470AR publica 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m; el catálogo oficial lo clasifica como discontinuado. Se conserva solo para reconocer o evaluar una unidad usada. No forma parte de la tabla de modelos actuales ni es una recomendación de compra vigente.
 
 ## Modelos para distintas necesidades
 
-**Camping o descanso al aire libre.** Si la carga es pequeña y el peso importa, empezá comparando formatos de 17–21 kg como GE3497AR y EU22i. Para ruido, el dato Honda de 57 dB(A) a 7 m y plena carga está mejor especificado; verificá el requisito acústico del camping y tené en cuenta que la ficha Gamma da 63/69 dB sin ponderación A. Sumá placas de los equipos y picos de arranque antes de decidir.
+**Camping o descanso al aire libre.** Si la carga es pequeña y el peso importa, empezá comparando formatos de 17–21 kg como GE3497AR y EU22i. Para ruido, verificá el requisito acústico del camping; la cifra Honda de 57 dB(A) sí indica 7 m y plena carga. Sumá placas de los equipos y picos de arranque antes de decidir.
 
 **Viaje o motorhome.** Además de ruido y potencia, medí el espacio de guardado y revisá el acceso para sacar el equipo. La autonomía publicada debe corresponder a una carga comparable con heladera, bomba, cargadores o aire acondicionado; las horas en Eco Throttle no son una promesa para esa combinación. Para equipos de mayor potencia, el peso crece y puede exigir ruedas o ayuda para cargar.
 
@@ -67,7 +72,7 @@ Honda publica para el EU22i **57 dB(A) a 7 m y plena carga**, además de 1,8 kVA
 
 ### Lüsqtoff LGI5.5-8: inverter de mayor salida
 
-La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) publica 5,2 kVA máximos, tanque de 10 L y 30 kg; no encontramos potencia nominal en esa ficha. Publica 62 dB sin distancia ni carga: esa cifra no permite compararlo directamente con las mediciones Honda/Gamma.
+La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) publica 5,2 kVA máximos, tanque de 10 L y 30 kg; no encontramos potencia nominal en esa ficha. Si la evaluás, compará cargas con la potencia nominal de la placa, no con el máximo anunciado.
 
 [Ver precio del Lüsqtoff LGI5.5-8](https://meli.la/1pJFrBq)
 
@@ -87,7 +92,8 @@ Usá los generadores de combustión al aire libre, lejos de ventanas, puertas y 
 
 - **Gamma GE3497AR:** [ficha oficial con peso, autonomía y mediciones a 7 m bajo dos cargas](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/).
 - **Gamma GE3470AR:** [manual oficial con especificaciones, autonomía y ruido](https://gammaherramientas.com.ar/web/wp-content/uploads/2020/10/GE3470AR_MANUAL.pdf); [catálogo de discontinuados](https://www.gammaherramientas.com.ar/categoria-producto/discontinuos/).
-- **Honda EU22i:** [ficha oficial](https://pf.honda.com.ar/producto/EU22i) y [ficha técnica descargable](https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf).
+- **Honda:** fichas oficiales de [EU22i](https://pf.honda.com.ar/producto/EU22i), [EU30is](https://pf.honda.com.ar/producto/EU30is) y [EU70is](https://pf.honda.com.ar/producto/EU70is); [ficha técnica descargable EU22i](https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf).
+- **Lüsqtoff:** fichas oficiales de [LGI5.5-8](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) y [LGI7.5-8](https://lusqtoff.com.ar/ver-producto/LGI7.5-8).
 - **EcoFlow DELTA 2 y BLUETTI AC70:** [manual EcoFlow](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), [catálogo BLUETTI](https://bluetti.com/wp-content/uploads/2024/09/%EF%BC%88%E7%94%B5%E5%AD%90%E7%89%88%EF%BC%89Product-Catalog-EN-V4.2-1.pdf) y [página AC70](https://www.bluettipower.com/products/ac70).
 
 Para comparar la tecnología de salida, seguí con [generadores inverter](/generadores/inverter/). Para evaluar portabilidad y otros modelos, consultá [generadores portátiles](/generadores/portatiles/).

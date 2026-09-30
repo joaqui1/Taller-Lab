@@ -19,6 +19,8 @@ published: true
 
 # Grupos electrógenos chicos: Pektra 720 W y Konan 800 W
 
+Acá comparamos generadores de baja potencia; si tu prioridad es transportarlo, aunque tenga más potencia, mirá [generadores portátiles](/generadores/portatiles/).
+
 En esta categoría, 720 u 800 W suele ser el valor máximo anunciado, no la potencia que conviene mantener como carga continua. El Konan KGE/800 publica 650 W nominales y 800 W máximos en la ficha de su fabricante. Para el Pektra GPK980 encontramos 650 W nominales y 720 W máximos en datos informados por un vendedor; no encontramos una ficha primaria que confirme esos campos.
 
 La diferencia publicada entre ambos máximos es de 80 W, pero no alcanza para declarar un ganador. Para una compra concreta también importan la mezcla 2T indicada por el manual, combustible/autonomía, traslado, toma disponible, garantía y potencia continua con respaldo documental. En varios de esos datos, la documentación consultada es incompleta.
@@ -45,9 +47,9 @@ La diferencia publicada entre ambos máximos es de 80 W, pero no alcanza para de
 
 <!-- GENERADORES-EXTRAS -->
 
-### Alternativa nueva de baja potencia: Lüsqtoff LG950P
+### Otra alternativa documentada de baja potencia: Lüsqtoff LG950P
 
-La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG950P) publica 0,65 kVA nominales y 0,8 kVA máximos; motor 2T, tanque de 4 L y peso de 16,2 kg. Usá la mezcla indicada en su propio manual. Es otro modelo, con especificaciones propias.
+La [ficha oficial de Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG950P) publica 220 V, 0,65 kVA nominales y 0,8 kVA máximos; motor 2T, tanque de 4 L y peso de 16,2 kg. Usá la mezcla indicada en su propio manual. Es una alternativa con especificaciones propias, no una equivalencia directa con los modelos comparados arriba.
 
 [Ver precio del Lüsqtoff LG950P](https://meli.la/2oCYsWY)
 

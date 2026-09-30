@@ -2,7 +2,7 @@
 title: "Taladro percutor inalámbrico: modelos y comparativa"
 h1: "Qué taladro percutor inalámbrico comprar"
 url: "/taladros/taladro-percutor-inalambrico/"
-description: "Guía para elegir un taladro percutor inalámbrico por presupuesto, capacidad en cada material, motor y costo completo del kit."
+description: "Guía para elegir un taladro percutor inalámbrico según la capacidad en cada material, el motor y la configuración de batería y cargador."
 author: "Joaquín Vallasciani"
 category: "Taladros y Atornilladores"
 keywords: ["taladro percutor inalambrico", "taladro percutor a bateria", "comprar taladro percutor inalambrico", "taladro percutor brushless", "baterias taladro 18v"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Comparativa de percutores inalámbricos por trabajo, capacidades y costo para empezar"
+information_asset: "Comparativa de percutores inalámbricos por trabajo, capacidades y contenido del kit"
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true
@@ -25,7 +25,7 @@ La compra depende de qué vas a perforar y de si ya tenés baterías compatibles
 
 **Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
 
-## Modelos con percusión según presupuesto
+## Modelos con percusión: capacidad, plataforma y configuración
 
 | Modelo | Datos básicos publicados | Capacidad publicada por material | Motor | Contenido del código citado |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,11 +36,9 @@ La compra depende de qué vas a perforar y de si ya tenés baterías compatibles
 
 Las capacidades máximas dependen del tipo de broca y no son comparables como una prueba entre marcas. Bosch expresa la mampostería como ladrillo; DeWalt usa mampostería y Milwaukee indica mampostería en su manual. La cifra de Einhell no aparece en la ficha consultada, así que no la completamos por analogía con otros modelos.
 
-## Baterías, cargador y costo del kit
+## Baterías, cargador y configuración del kit
 
-Si ya tenés una batería y un cargador de la plataforma compatible, el costo para empezar puede ser el de la herramienta sola. Si no, sumá al precio de la herramienta una batería, un cargador y, según la continuidad requerida, una segunda batería. Incluí también maletín y brocas si los necesitás para el trabajo previsto. Compará kits equivalentes: la variante Bosch 0 601 9H5 1E2, DeWalt DCD805B, Einhell Solo y Milwaukee 2904-20 citadas en la tabla se venden sin batería ni cargador; Bosch publica además variantes de kit con batería, cargador y maletín. Confirmá el precio argentino y el contenido del código ofrecido antes de comparar el total.
-
-Si estás empezando desde cero, ordená las opciones por costo del conjunto que necesitás comprar, no por el precio de la máquina sola. Si ya compartís plataforma con otras herramientas, revisá voltaje y compatibilidad exacta de batería/cargador antes de contar ese costo como cubierto.
+El contenido cambia según el código. Las variantes Bosch 0 601 9H5 1E2, DeWalt DCD805B, Einhell Solo y Milwaukee 2904-20 de la tabla se ofrecen sin batería ni cargador; Bosch también publica variantes con batería, cargador y maletín. Revisá la plataforma, el voltaje y la compatibilidad exacta de batería y cargador, y confirmá qué accesorios incluye la publicación del código elegido.
 
 ## Capacidad en mampostería y límites en hormigón
 
@@ -52,7 +50,7 @@ Para pocos agujeros pequeños, el modo percutor puede alcanzar. Si vas a perfora
 
 Los cuatro modelos de esta tabla declaran motor brushless, es decir, sin escobillas de carbón. Bosch destaca eficiencia y vida útil; Einhell declara más potencia y tiempo de funcionamiento frente a motores con escobillas; DeWalt y Milwaukee identifican también motores brushless en sus páginas. Son afirmaciones del fabricante, no mediciones comparativas de este artículo. No permiten prometer una autonomía concreta: esta depende de la batería, la broca, el material, el diámetro y el ritmo de uso.
 
-Si comparás con otro modelo con escobillas, mirá además capacidad y precio de baterías, cargador, peso del conjunto y si el modo percutor alcanza para el material real. La etiqueta brushless no reemplaza esos datos.
+Si comparás con otro modelo con escobillas, mirá además la capacidad y compatibilidad de la batería, el cargador, el peso del conjunto y si el modo percutor alcanza para el material real. La etiqueta brushless no reemplaza esos datos.
 
 Para contrastar el uso con cable y la función de percusión, visitá [taladros percutores](/taladros/percutores/).
 

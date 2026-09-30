@@ -15,9 +15,9 @@ specs = [
 ('disco-de-desbaste','Disco de desbaste: cómo elegirlo para metal','Discos de desbaste para metal: usos, medidas y elección','disco de desbaste',
 'Qué diferencia al desbaste del corte|Cómo elegir según el metal|Diámetro, espesor y velocidad máxima|Disco rígido o flap para la terminación|Cómo comparar duración y costo por trabajo',
 'Acotar esta URL a abrasivos para metal. La copa para hormigón tiene otra página. CTA al tipo de disco compatible; pruebas de duración solo si se realizan.'),
-('discos','Discos para amoladora: tipos y cómo elegir','Tipos de discos para amoladora y para qué sirve cada uno','disco de corte para amoladora',
+('discos','Discos para amoladora: tipos y cómo elegir','Tipos de discos para amoladora y para qué sirve cada uno','',
 'Qué disco corresponde a cada trabajo|Discos de corte para metal y mampostería|Flap, desbaste, cepillo y lijado|Cómo leer medida, eje y RPM|Errores de compatibilidad que debés evitar|Guías por material y opciones de compra',
-'Segunda página central, dedicada a accesorios. Integrar discos de amoladora, tipos de discos y precio discos de corte. CTA contextual por tarea; evitar catálogo indiscriminado.'),
+'Subhub para discos para amoladora y tipos de discos para amoladora: organiza accesorios por operación, material y compatibilidad. La consulta específica de disco de corte para amoladora corresponde a /amoladoras/disco-de-corte/. CTA contextual por tarea; evitar catálogo indiscriminado.'),
 ('recta','Amoladora recta: eléctrica o neumática, cuál elegir','Amoladoras rectas: usos y diferencias entre eléctricas y neumáticas','amoladora recta|amoladora neumatica recta',
 'Para qué sirve una amoladora recta|Diferencias frente a una angular y un minitorno|Eléctrica o neumática según el trabajo|Pinza, accesorio y velocidad compatibles|Qué necesita la versión neumática|Modelos y accesorios para comparar',
 'La neumática empieza como sección propia, sin asumir que es igual a la eléctrica. Enlazar al futuro grupo de compresores. CTA a máquina, fresas compatibles y requisitos de aire.'),
@@ -97,18 +97,20 @@ specs = [
 pages=[]; owners={}
 for i,(slug,title,h1,keywords,h2,notes) in enumerate(specs,1):
     p=dict(id=i,phase=1 if i<=18 else 2,url='/amoladoras/'+(slug+'/' if slug else ''),title=title,h1=h1,keywords=keywords.split('|') if keywords else [],h2=h2.split('|'),notes=notes)
+    if slug=='discos': p['target_queries']=['discos para amoladora','tipos de discos para amoladora']
     pages.append(p)
     for k in p['keywords']:
         assert norm(k) not in owners,k
         owners[norm(k)]=i
 deferred={'amoladora gamma opiniones':'No crear URL todavía: 20 búsquedas. Considerar sección en la guía central solo con evidencia de producto.', 'amoladora total opiniones':'No crear URL todavía: KD 33 y volumen n/d. Medir primero la marca y sus modelos.'}
+existing_routes={'disco de corte para amoladora':'/amoladoras/disco-de-corte/'}
 assert len(pages)==30
 assert len({p['url'] for p in pages})==30
-assert all(norm(r['keyword']) in owners or norm(r['keyword']) in deferred for r in allsem)
+assert all(norm(r['keyword']) in owners or norm(r['keyword']) in deferred or norm(r['keyword']) in existing_routes for r in allsem)
 assert set(owners).issubset({norm(r['keyword']) for r in allsem})
 for r in allsem:
     r['page_id']=owners.get(norm(r['keyword']))
-    r['decision']=pages[r['page_id']-1]['url'] if r['page_id'] else deferred[norm(r['keyword'])]
+    r['decision']=pages[r['page_id']-1]['url'] if r['page_id'] else existing_routes.get(norm(r['keyword']),deferred.get(norm(r['keyword'])))
 (OUT/'plan-estructurado.json').write_text(json.dumps(dict(pages=pages,measured=allsem),ensure_ascii=False,indent=2),encoding='utf-8')
 
 intro='''# Plan SEO de amoladoras para un dominio nuevo
@@ -176,7 +178,8 @@ Volumen y KD que siguen pertenecen a la consulta de referencia, **no a toda la p
 lookup={norm(r['keyword']):r for r in allsem}
 for p in pages:
     r=lookup[norm(p['keywords'][0])] if p['keywords'] else None
-    parts.append(f"| {p['id']:02} | `{p['url']}` | {r['keyword'] if r else 'Apoyo editorial; ver brief'} | {r['volume'] if r else 's/m'} | {r['kd'] if r else 's/m'} |\n")
+    query='discos para amoladora / tipos de discos para amoladora' if p['id']==5 else (r['keyword'] if r else 'Apoyo editorial; ver brief')
+    parts.append(f"| {p['id']:02} | `{p['url']}` | {query} | {r['volume'] if r else 's/m'} | {r['kd'] if r else 's/m'} |\n")
 parts.append('''
 ### Secuencia práctica
 
@@ -198,6 +201,8 @@ Los titles se mantienen descriptivos, sin año que envejezca y sin “mejor” c
 for p in pages:
     parts.append(f"### {p['id']:02}. {p['url']} — tanda {p['phase']}\n\n**Title:** {p['title']}\n\n**H1:** {p['h1']}\n\n**H2 propuestos, en orden:**\n\n")
     parts.extend(f'{i}. {h}\n' for i,h in enumerate(p['h2'],1))
+    if p.get('target_queries'):
+        parts.append('\n**Intención principal:** '+ ' / '.join(p['target_queries'])+'. Sin métricas Semrush exactas asignadas en esta planificación.\n')
     if p['keywords']:
         parts.append('\n**Consultas medidas asignadas:** '+ '; '.join(f"{k} ({lookup[norm(k)]['volume']}; KD {lookup[norm(k)]['kd']})" for k in p['keywords'])+'.\n')
     parts.append('\n**Enfoque y conversión:** '+p['notes']+'\n\n')
@@ -266,7 +271,7 @@ Antes de publicar: verificar sitemap con URLs canónicas e indexables, respuesta
 
 ## Anexo: trazabilidad de las 59 consultas Semrush
 
-La asignación conserva una única página propietaria por consulta. 57 consultas se integran en páginas y 2 se posponen. Se mantiene cada volumen y KD original; el mapping no afirma equivalencia técnica entre modelos. Origen A = `semrush_amoladoras.csv`; origen B = `semrush_consulta_adicional.csv`.
+La asignación conserva una única URL por consulta: 56 consultas se integran en las 30 páginas planificadas, una apunta a la guía específica de corte ya existente y dos se posponen. Se mantiene cada volumen y KD original; el mapping no afirma equivalencia técnica entre modelos. Origen A = `semrush_amoladoras.csv`; origen B = `semrush_consulta_adicional.csv`.
 
 | Keyword exacta | Volumen | KD | Origen | Página / decisión |
 |---|---:|---:|---|---|
@@ -287,5 +292,5 @@ report=''.join(parts)
 (OUT/'plan-seo-amoladoras.md').write_text(report,encoding='utf-8')
 assert report.count('**Title:**')==30
 assert report.count('**H1:**')==30
-print('VERIFICADO: 30 páginas; 18 + 12; 59 consultas medidas; 57 asignadas y 2 pospuestas; titles/H1/URLs únicos:',len({p['title'] for p in pages}),len({p['h1'] for p in pages}),len({p['url'] for p in pages}))
+print('VERIFICADO: 30 páginas; 18 + 12; 59 consultas medidas; 56 asignadas, 1 a URL existente y 2 pospuestas; titles/H1/URLs únicos:',len({p['title'] for p in pages}),len({p['h1'] for p in pages}),len({p['url'] for p in pages}))
 print('Informe:',OUT/'plan-seo-amoladoras.md')

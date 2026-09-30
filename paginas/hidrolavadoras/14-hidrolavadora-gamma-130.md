@@ -5,7 +5,7 @@ url: "/hidrolavadoras/gamma-130/"
 description: "Guía de compra Gamma 130 G2513AR: presión de trabajo y máxima, caudal, manguera, detergente, AutoStop, usos domésticos y cuándo conviene pasar a Gamma 150."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
-keywords: ["hidrolavadora gamma 130", "gamma 130 g2577ar", "gamma 130 ficha tecnica", "gamma 130 vs gamma 150", "repuestos hidrolavadora gamma 130"]
+keywords: ["hidrolavadora gamma 130", "gamma 130 g2513ar", "gamma 130 ficha tecnica", "gamma 130 vs gamma 150", "repuestos hidrolavadora gamma 130"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"

@@ -20,7 +20,7 @@ Las ofertas aparecen después de la comparación o sección que explica su funci
 | `/taladros/rotomartillo-einhell/` | TC-RH 620 4F, TE-RH 28/1 5F |
 | `/taladros/rotomartillo-dewalt/` | DCH273B |
 | `/taladros/mecha-porcelanato/` | Bosch EXPERT HEX-9 6 mm, RUBI EASYGRES 6 mm |
-| `/taladros/milwaukee/` | M12 FUEL 3404-20, M18 FUEL 2904-259A |
+| `/taladros/milwaukee/` | M12 FUEL 3404-20, M18 FUEL 2904-20 y kit 2904-259A |
 | `/taladros/lusqtoff-inalambrico/` | TIL23-8B, TAL60-9B, TIL45131-8BK |
 | `/taladros/brocas-ceramica/` | Bosch CYL-9 6 mm |
 | `/taladros/stanley/` | SDH700, SBD715C2K |
@@ -33,10 +33,10 @@ Las fichas y tablas existentes se conservan. Estas diferencias se explican en la
 - **TBL16-7 / TB-16:** el título de la oferta no confirma el modelo TB-16 documentado; no se trasladan velocidades, recorrido ni peso.
 - **TBL710-9D:** el título recibido dice 230 W; la ficha de la guía declara 710 W nominales y 900 W S2/5 min. Se pide cotejar placa y modelo.
 - **TP-CD 18/50:** el título omite «Li-i»; la percusión documentada requiere confirmar modelo y código 4513942.
-- **TE-RH 28/1 5F:** la tabla cita TE-RH 28 5F (4257970). No se presupone que modos y accesorios sean iguales.
+- **TE-RH 28/1 5F:** Einhell confirma el modelo separado con código 4257972. Se actualizó la guía para distinguirlo del TE-RH 28 5F (4257970), con sus datos de ficha y CTA con código; verificar que la publicación comercial corresponda a esa variante.
 - **GBH 180-LI:** se presenta como otro modelo, sin heredar las cifras de GBH 18V-26 D.
 - **DCD805B:** herramienta sola; no hereda las dos baterías ni el contenido del kit DCD805D2.
-- **Milwaukee 2904-259A:** se pide confirmar máquina y contenido del paquete frente al 2904-20 documentado.
+- **Milwaukee 2904-259A:** se identifica como bundle del taladro técnico 2904-20; se actualizan la guía y el CTA, con verificación pendiente del contenido exacto de la publicación.
 - **CYL-9:** se identifica la familia Soft Ceramic para cerámica blanda; «EXPERT» en el título no acredita aptitud para porcelanato duro.
 - **Bosch escalonada:** la oferta identifica 2608597519 y la tabla 2608597524; se pide confirmar vástago, diámetros y espesor de la referencia ofrecida.
 

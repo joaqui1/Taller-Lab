@@ -30,7 +30,7 @@ Como filtro rápido, empezá por la medida y alimentación que requiere tu traba
 | Trabajo con discos compactos de 115 mm | DWE4120-AR [Ver precio en Mercado Libre](https://meli.la/13LHGQm){:target="_blank" rel="sponsored noopener"} | 115 mm | Cable, 220 V | Ficha argentina y manual regional; 900 W y 12.000 rpm publicados |
 | Si la tarea requiere una angular de 125 mm | DWE4212-AR | 125 mm | Cable, 220 V | Modelo regional de 1.200 W; manual de familia para accesorios de 115/125 mm |
 | Si buscás una opción cableada de 125 mm con más potencia nominal | DWE4314-AR | 125 mm | Cable, 220 V | Ficha argentina: 1.500 W y 11.000 rpm; confirmar accesorios en el manual del código |
-| Trabajo que requiere una angular grande de 180 mm | DWE4557-AR [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 180 mm | Cable, 220 V | Modelo regional de 2.400 W y 8.500 rpm publicados |
+| Trabajo que requiere una angular grande de [180 mm (7 pulgadas)](/amoladoras/7-pulgadas/) | DWE4557-AR [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 180 mm | Cable, 220 V | Modelo regional de 2.400 W y 8.500 rpm publicados |
 | Prioridad a la movilidad sin cable | DCG45M, en combo DCK2225MP2T-AR | No indicado en la ficha del combo; confirmar el manual | Batería 20V XR; el combo citado incluye dos baterías de 5 Ah y cargador | DeWalt Argentina documenta el contenido del kit; falta confirmar el diámetro para compararla por medida |
 
 
@@ -98,7 +98,7 @@ Usá estos criterios para reducir opciones, sin convertirlos en un ranking:
 
 - **Si el accesorio que necesitás es de 115 mm:** compará primero DWE4020-AR y DWE4120-AR por sus códigos, 800/900 W publicados y contenido real de la oferta. La diferencia nominal no sustituye una prueba bajo carga.
 - **Si necesitás 125 mm:** revisá DWE4212-AR y DWE4314-AR. Compará peso, interruptor, guarda y funciones documentadas según la variante; no elijas solo por la cifra de potencia.
-- **Si el trabajo requiere 180 mm:** DWE4557-AR es la referencia regional de esa medida en esta selección. Verificá que ese diámetro, el porte de la herramienta y el manual correspondan a tu operación.
+- **Si el trabajo requiere 180 mm:** DWE4557-AR es la referencia regional de esa medida en esta selección. Consultá también la guía de [amoladoras de 7 pulgadas](/amoladoras/7-pulgadas/) y verificá que ese diámetro, el porte de la herramienta y el manual correspondan a tu operación.
 - **Si necesitás movilidad:** considerá el kit DCG45M solo después de comprobar el diámetro admitido, el contenido exacto y el costo de reemplazo de batería/cargador.
 
 No llamamos “mejor” a ninguna: no realizamos una prueba común de capacidad de corte, duración, temperatura, ergonomía o vida útil.

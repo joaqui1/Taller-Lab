@@ -641,5 +641,33 @@
       }
     ],
     "pending": []
+  },
+  "/sierras/sierra-circular-inalambrica/": {
+    "file": "30-sierra-circular-inalambrica.md",
+    "models": [
+      "TPC190",
+      "GKS185LI",
+      "DCS570B"
+    ],
+    "anchor": "Ejemplos documentados de modelos a batería",
+    "position": "inline",
+    "offers": [
+      {
+        "model": "TPC190",
+        "url": "https://meli.la/2HJq7zg",
+        "cta": "Ver precio de Einhell TP-CS 18/190 Li BL-Solo →"
+      },
+      {
+        "model": "GKS185LI",
+        "url": "https://meli.la/27m2VS2",
+        "cta": "Ver precio de Bosch GKS 185-LI →"
+      },
+      {
+        "model": "DCS570B",
+        "url": "https://meli.la/342aujj",
+        "cta": "Ver precio de DeWalt DCS570B →"
+      }
+    ],
+    "pending": []
   }
 }

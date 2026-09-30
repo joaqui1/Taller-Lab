@@ -83,9 +83,7 @@
       "url": "/amoladoras/discos/",
       "title": "Discos para amoladora: tipos y cómo elegir",
       "h1": "Tipos de discos para amoladora y para qué sirve cada uno",
-      "keywords": [
-        "disco de corte para amoladora"
-      ],
+      "keywords": [],
       "h2": [
         "Qué disco corresponde a cada trabajo",
         "Discos de corte para metal y mampostería",
@@ -94,7 +92,11 @@
         "Errores de compatibilidad que debés evitar",
         "Guías por material y opciones de compra"
       ],
-      "notes": "Segunda página central, dedicada a accesorios. Integrar discos de amoladora, tipos de discos y precio discos de corte. CTA contextual por tarea; evitar catálogo indiscriminado."
+      "notes": "Subhub para discos para amoladora y tipos de discos para amoladora: organiza accesorios por operación, material y compatibilidad. La consulta específica de disco de corte para amoladora corresponde a /amoladoras/disco-de-corte/. CTA contextual por tarea; evitar catálogo indiscriminado.",
+      "target_queries": [
+        "discos para amoladora",
+        "tipos de discos para amoladora"
+      ]
     },
     {
       "id": 6,
@@ -1052,8 +1054,8 @@
       "kd": "12",
       "cpc": "0,04",
       "source": "semrush_consulta_adicional.csv",
-      "page_id": 5,
-      "decision": "/amoladoras/discos/"
+      "page_id": null,
+      "decision": "/amoladoras/disco-de-corte/"
     },
     {
       "keyword": "amoladora lusqtoff",

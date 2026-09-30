@@ -21,6 +21,12 @@ keywords: ["amoladora 115", "amoladora 125", "amoladora 115 o 125", "amoladora 4
 
 **Análisis TallerLab.** Si comparás dos máquinas de la misma serie con igual potencia y peso declarados, la diferencia comprobable aquí es el diámetro máximo del disco: 115 o 125 mm. El disco de 125 mm tiene 10 mm más de diámetro nominal, pero ese dato no permite prometer 5 mm adicionales de corte útil en cualquier equipo. La guarda, la brida, el disco y el material limitan la profundidad efectiva.
 
+**Decisión rápida:**
+
+- **115 mm conviene cuando** priorizás una herramienta compacta o el acceso a la pieza, y el modelo admite el disco necesario para el trabajo.
+- **125 mm conviene cuando** necesitás ese diámetro y la máquina, la guarda y el accesorio están especificados para usarlo; ofrece 10 mm más de diámetro nominal que 115 mm.
+- **No decidas solo por** la medida: compará peso, agarre, potencia, RPM, guarda, compatibilidad del disco y especificaciones del código concreto. El diámetro no garantiza por sí solo más profundidad útil ni mejor rendimiento.
+
 ## Comparación de dos variantes de la misma serie
 
 **Dato documentado en fichas del fabricante.** Elegimos las variantes Bosch [GWS 9-115 S](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103) y [GWS 9-125 S](https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104) para que la potencia y la familia de producto sean comparables. Son fichas del mercado español; antes de comprar en Argentina hay que confirmar el código y la tensión de la unidad ofrecida.
@@ -46,12 +52,12 @@ Estas referencias tienen fichas publicadas por Bosch Professional Argentina o Ma
 
 | Modelo y página del fabricante | Disco | Potencia | Velocidad en vacío | Peso publicado | Tensión publicada |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| [Bosch GWS 850, cód. 0 601 377 5H0](https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0) [Ver precio en Mercado Libre](https://meli.la/1hDoFyN){:target="_blank" rel="sponsored noopener"} | 115 mm | 850 W | 11.000 rpm | 2 kg | 220 V |
-| [Makita GA4534](https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/) [Ver precio en Mercado Libre](https://meli.la/1uKuW67){:target="_blank" rel="sponsored noopener"} | 115 mm | 720 W | 11.000 rpm | 1,98–2,31 kg | No indicada en la ficha consultada |
-| [Bosch GWS 9-125, cód. 0 601 3A9 0H0](https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0) | 125 mm | 900 W | 11.000 rpm | 1,9 kg | 220 V |
+| [Bosch GWS 850, cód. 0 601 377 5H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0)) [Ver precio en Mercado Libre](https://meli.la/1hDoFyN){:target="_blank" rel="sponsored noopener"} | 115 mm | 850 W | 11.000 rpm | 2 kg | 220 V |
+| [Makita GA4534](/amoladoras/makita/) ([ficha Makita](https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/)) [Ver precio en Mercado Libre](https://meli.la/1uKuW67){:target="_blank" rel="sponsored noopener"} | 115 mm | 720 W | 11.000 rpm | 1,98–2,31 kg | No indicada en la ficha consultada |
+| [Bosch GWS 9-125, cód. 0 601 3A9 0H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0)) | 125 mm | 900 W | 11.000 rpm | 1,9 kg | 220 V |
 
 
-El ejemplo deja claro por qué no conviene deducir el peso o la potencia del diámetro por sí solo: el Bosch GWS 9-125 de la tabla publica menos peso que el Bosch GWS 850 de 115 mm, y son series distintas. En Makita, la página local confirma modelo y datos mecánicos, pero no informa tensión; cotejá la placa de la unidad ofrecida.
+El ejemplo deja claro por qué no conviene deducir el peso o la potencia del diámetro por sí solo: el Bosch GWS 9-125 de la tabla publica menos peso que el Bosch GWS 850 de 115 mm, y son series distintas. Para revisar los códigos y variantes de esa marca, consultá la [guía de amoladoras Bosch](/amoladoras/bosch/). En Makita, la página local confirma modelo y datos mecánicos, pero no informa tensión; cotejá la placa de la unidad ofrecida.
 
 <!-- EDITORIAL-COMMERCE -->
 

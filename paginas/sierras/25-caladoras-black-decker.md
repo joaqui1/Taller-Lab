@@ -40,6 +40,10 @@ Comparamos BES603-B2 y BES602-B2 según las fichas y el manual de Black+Decker. 
 | Extracción de polvo | Puerto de aspirado; la ficha lo describe como extractor integrado | Puerto de aspirado; la ficha lo describe como extractor integrado |
 | Hoja y accesorios incluidos | La ficha no especifica el contenido de caja; confirmar en la oferta | La ficha indica que no incluye accesorios; confirmar si la publicación ofrece otro kit |
 
+### Qué variante BES603 confirmar en Argentina
+
+La ficha oficial consultada identifica la BES603-B2 como una versión de 220 V. El manual reúne variantes con sufijos AR y B2, pero la publicación comercial consultada la nombra solo como “BES603”; ese título no permite confirmar qué sufijo ni qué tensión tiene la unidad ofrecida. Antes de comprar, pedí una foto legible de la placa y cotejá el código completo y la tensión con el manual de esa variante. No traslades automáticamente las especificaciones de BES603-B2 a una publicación que no identifique el sufijo.
+
 <!-- SIERRAS-OFERTAS -->
 
 ### Consultá estas opciones en Mercado Libre

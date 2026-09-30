@@ -54,10 +54,10 @@ Las fichas siguientes permiten comparar cuatro modelos de 180 mm documentados po
 
 | Modelo | Potencia absorbida | Velocidad en vacío | Peso publicado | Funciones o datos destacados | Tensión publicada |
 | :--- | ---: | ---: | ---: | :--- | :--- |
-| [Bosch GWS 2200-180, cód. 0 601 8F1 1H0](https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0) [Ver precio en Mercado Libre](https://meli.la/1EzeM6d){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5 kg | Interruptor PROtection; eje M14; perforación 22,2 mm | 220 V |
-| [Makita GA7010C](https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/) [Ver precio en Mercado Libre](https://meli.la/1AtQh58){:target="_blank" rel="sponsored noopener"} | 1800 W en ficha Makita | 8400 rpm | 4,2–4,7 kg | Velocidad constante, Soft Start, limitador electrónico de corriente, estructura antipolvo | No indicada en la ficha consultada |
-| [Makita GA7020](https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/) [Ver precio en Mercado Libre](https://meli.la/31peCT3){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5,56–6,06 kg | Función anti-reinicio, empuñadura suave, estructura antipolvo | No indicada en la ficha consultada |
-| [DeWalt DWE4557-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm) [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 2400 W | 8500 rpm | No indicada en la ficha local consultada | Empuñaduras antivibración, expulsión de polvo y guarda de ajuste rápido | 220 V, 50 Hz según manual regional |
+| [Bosch GWS 2200-180, cód. 0 601 8F1 1H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0)) [Ver precio en Mercado Libre](https://meli.la/1EzeM6d){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5 kg | Interruptor PROtection; eje M14; perforación 22,2 mm | 220 V |
+| [Makita GA7010C](/amoladoras/makita/) ([ficha Makita](https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/)) [Ver precio en Mercado Libre](https://meli.la/1AtQh58){:target="_blank" rel="sponsored noopener"} | 1800 W en ficha Makita | 8400 rpm | 4,2–4,7 kg | Velocidad constante, Soft Start, limitador electrónico de corriente, estructura antipolvo | No indicada en la ficha consultada |
+| [Makita GA7020](/amoladoras/makita/) ([ficha Makita](https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/)) [Ver precio en Mercado Libre](https://meli.la/31peCT3){:target="_blank" rel="sponsored noopener"} | 2200 W | 8500 rpm | 5,56–6,06 kg | Función anti-reinicio, empuñadura suave, estructura antipolvo | No indicada en la ficha consultada |
+| [DeWalt DWE4557-AR](/amoladoras/dewalt/) ([ficha DeWalt](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm)) [Ver precio en Mercado Libre](https://meli.la/31fLEjB){:target="_blank" rel="sponsored noopener"} | 2400 W | 8500 rpm | No indicada en la ficha local consultada | Empuñaduras antivibración, expulsión de polvo y guarda de ajuste rápido | 220 V, 50 Hz según manual regional |
 
 
 
@@ -87,6 +87,8 @@ Antes de decidir, pedí o verificá una foto legible de la placa, tensión, cód
 | RPM | La velocidad máxima del accesorio y las instrucciones de la herramienta |
 | Uso | Material y operación permitidos: corte, desbaste u otra aplicación indicada |
 | Protección | Guarda compatible, colocada y ajustada según el manual |
+
+Para elegir primero el accesorio por tarea y material, consultá la [guía general de discos para amoladora](/amoladoras/discos/); si la operación es corte, seguí con la [guía de discos de corte](/amoladoras/disco-de-corte/).
 
 ## Fuentes consultadas
 

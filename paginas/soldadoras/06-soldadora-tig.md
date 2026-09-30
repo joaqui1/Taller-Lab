@@ -19,9 +19,14 @@ published: true
 
 # Soldadoras TIG: guía para elegir tu equipo
 
-## DC o AC/DC
+## TIG DC vs AC/DC: elegí según el material
 
-TIG DC suele cubrir trabajos en acero al carbono e inoxidable si la ficha del equipo confirma el material. AC/DC se vuelve especialmente relevante para soldar aluminio: comprobá que la fuente declare salida TIG AC y que su rango y ciclo sirvan para la pieza. Revisá la ficha de la [soldadora TIG AC/DC](/soldadora-tig-ac-dc/) y la guía para [soldar aluminio](/para-aluminio/).
+TIG DC suele ser la opción a evaluar para acero al carbono e inoxidable, siempre que la ficha del equipo confirme el material y el rango/ciclo necesarios. Para soldar aluminio, comprobá que la fuente declare **TIG AC**: que la máquina diga «TIG» o tenga salida DC no acredita ese modo. En un equipo AC/DC, revisá además el rango y el ciclo publicados en TIG AC; las cifras de MMA no los reemplazan. Consultá la [guía de TIG AC/DC](/soldadora-tig-ac-dc/) y la comparación de procesos para [soldar aluminio](/para-aluminio/).
+
+| Salida TIG | Cuándo evaluarla | Qué verificar |
+| :--- | :--- | :--- |
+| DC | Acero al carbono o inoxidable, si el fabricante confirma el material y el trabajo | Corriente y ciclo en TIG DC; no asumir que permite soldar aluminio en TIG |
+| AC/DC | Cuando necesitás TIG AC, especialmente para aluminio | Que AC esté declarado para el modo TIG y que rango, ciclo y alimentación sirvan para la pieza |
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
@@ -33,11 +38,15 @@ TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumibl
 
 En una fuente TIG también hay que revisar qué incluye el conjunto: como mínimo pueden hacer falta antorcha compatible, tungsteno, gas y su regulación, material de aporte apropiado y protección personal. Los accesorios incluidos cambian según modelo y publicación.
 
-## Encendido y funciones importantes
+## HF vs Lift TIG: cómo se inicia el arco
 
-- **HF (alta frecuencia):** inicia el arco sin que el tungsteno toque la pieza. ESAB lo destaca en la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) para facilitar el encendido y evitar contaminación de tungsteno y pieza. El [manual ST-200](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf) también identifica encendido HF.
-- **Lift TIG:** requiere tocar y levantar la antorcha para iniciar el arco. La [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) declara Lift TIG además de HF. Que una fuente ofrezca Lift no significa que también tenga HF; verificá ambos modos si necesitás elegir entre ellos.
-- **AC/DC:** en TIG, la salida AC/DC de la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) permite seleccionar los modos que ESAB asocia con aluminio y otros metales. No extrapoles esta capacidad a una máquina que sólo declara TIG DC.
+- **HF:** inicia el arco sin que el tungsteno toque la pieza. ESAB destaca este encendido en la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) para evitar contaminación del tungsteno y la pieza; el [manual ST-200](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf) también declara HF.
+- **Lift TIG:** inicia el arco al tocar y levantar la antorcha. La [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) y la [ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) documentan Lift además de HF.
+
+Si necesitás empezar sin apoyar el tungsteno en la pieza, comprobá que el equipo declare **HF**. Si vas a usar **Lift**, verificá que ese modo figure en la ficha/manual y seguí su secuencia de inicio. Algunas fuentes documentan ambos modos, pero Lift no implica HF y HF no implica Lift. El encendido no determina si la salida es DC o AC/DC: confirmá también el proceso y el modo de corriente requeridos para el material.
+
+## Otras funciones TIG a comprobar
+
 - **Pulso:** la [ET 200i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/) documenta TIG pulsado en AC o DC y señala control del aporte de calor, en particular para espesores pequeños. No es un requisito universal: comprobá que la función figure en el equipo concreto.
 - **2T/4T:** la [ficha ST-200](https://lusqtoff.com.ar/ver-producto/ST-200) y su [manual](https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf) documentan ambos modos. El manual describe una secuencia de 4T donde se suelta y vuelve a accionar el interruptor durante la soldadura, con rampas y cierre de gas según el ajuste; sirve para gestionar la secuencia sin mantener apretado el gatillo todo el tiempo. No es lo mismo que cuatro niveles de corriente.
 - **Pedal:** es un mando remoto que puede iniciar/detener y regular la corriente de manera continua, según la [ficha del accesorio ESAB T1](https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/). **No confirmado** como compatible con los modelos comparados aquí: antes de comprar, verificá conexión, compatibilidad y si viene incluido.

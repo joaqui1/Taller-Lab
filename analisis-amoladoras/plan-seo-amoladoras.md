@@ -79,7 +79,7 @@ Volumen y KD que siguen pertenecen a la consulta de referencia, **no a toda la p
 | 02 | `/amoladoras/de-banco/` | amoladora de banco | 3600 | 13 |
 | 03 | `/amoladoras/disco-flap/` | disco flap | 2900 | 9 |
 | 04 | `/amoladoras/disco-de-desbaste/` | disco de desbaste | 1600 | 12 |
-| 05 | `/amoladoras/discos/` | disco de corte para amoladora | 2400 | 12 |
+| 05 | `/amoladoras/discos/` | discos para amoladora / tipos de discos para amoladora | s/m | s/m |
 | 06 | `/amoladoras/recta/` | amoladora recta | 1000 | 12 |
 | 07 | `/amoladoras/dewalt/` | amoladora dewalt | 2400 | 12 |
 | 08 | `/amoladoras/makita/` | amoladora makita | 1600 | 13 |
@@ -211,9 +211,9 @@ Los titles se mantienen descriptivos, sin año que envejezca y sin “mejor” c
 5. Errores de compatibilidad que debés evitar
 6. Guías por material y opciones de compra
 
-**Consultas medidas asignadas:** disco de corte para amoladora (2400; KD 12).
+**Intención principal:** discos para amoladora / tipos de discos para amoladora. Sin métricas Semrush exactas asignadas en esta planificación.
 
-**Enfoque y conversión:** Segunda página central, dedicada a accesorios. Integrar discos de amoladora, tipos de discos y precio discos de corte. CTA contextual por tarea; evitar catálogo indiscriminado.
+**Enfoque y conversión:** Subhub para discos para amoladora y tipos de discos para amoladora: organiza accesorios por operación, material y compatibilidad. La consulta específica de disco de corte para amoladora corresponde a /amoladoras/disco-de-corte/. CTA contextual por tarea; evitar catálogo indiscriminado.
 
 ### 06. /amoladoras/recta/ — tanda 1
 
@@ -730,7 +730,7 @@ Antes de publicar: verificar sitemap con URLs canónicas e indexables, respuesta
 
 ## Anexo: trazabilidad de las 59 consultas Semrush
 
-La asignación conserva una única página propietaria por consulta. 57 consultas se integran en páginas y 2 se posponen. Se mantiene cada volumen y KD original; el mapping no afirma equivalencia técnica entre modelos. Origen A = `semrush_amoladoras.csv`; origen B = `semrush_consulta_adicional.csv`.
+La asignación conserva una única URL por consulta: 56 consultas se integran en las 30 páginas planificadas, una apunta a la guía específica de corte ya existente y dos se posponen. Se mantiene cada volumen y KD original; el mapping no afirma equivalencia técnica entre modelos. Origen A = `semrush_amoladoras.csv`; origen B = `semrush_consulta_adicional.csv`.
 
 | Keyword exacta | Volumen | KD | Origen | Página / decisión |
 |---|---:|---:|---|---|
@@ -777,7 +777,7 @@ La asignación conserva una única página propietaria por consulta. 57 consulta
 | amoladora bosch | 4400 | 17 | B | 14 · /amoladoras/bosch/ |
 | amoladora dewalt | 2400 | 12 | B | 07 · /amoladoras/dewalt/ |
 | amoladora inalambrica | 2400 | 16 | B | 15 · /amoladoras/inalambricas/ |
-| disco de corte para amoladora | 2400 | 12 | B | 05 · /amoladoras/discos/ |
+| disco de corte para amoladora | 2400 | 12 | B | /amoladoras/disco-de-corte/ |
 | amoladora lusqtoff | 1000 | 18 | B | 21 · /amoladoras/lusqtoff/ |
 | disco para cortar ceramica | 590 | 16 | B | 17 · /amoladoras/discos-ceramica/ |
 | disco para cortar porcelanato | 590 | 31 | B | 29 · /amoladoras/discos-porcelanato/ |

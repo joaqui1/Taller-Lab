@@ -48,18 +48,24 @@ def main():
             assert '<!-- SIERRAS-OFERTAS -->' not in text, path
             continue
         assert path in articles, ('No publicada', path)
-        block = re.search(r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->', text, re.S)
-        assert block and text.count('<!-- SIERRAS-OFERTAS -->') == 1, path
-        prefix = text[:block.start()].rstrip()
-        assert config['anchor'] in prefix, path
-        if config['position'] == 'table':
-            assert prefix.endswith('|'), ('No sigue a tabla', path)
-        elif config['position'] == 'heading':
-            assert prefix.endswith(config['anchor']), path
+        if config['position'] == 'inline':
+            assert '<!-- SIERRAS-OFERTAS -->' not in text, path
+            for heading, offer in zip(('Einhell TP-CS 18/190 Li BL-Solo', 'Bosch GKS 185-LI', 'DeWalt DCS570B'), config['offers']):
+                section = text.split('### ' + heading, 1)[1].split('\n### ', 1)[0]
+                assert offer['url'] in section, (path, offer['model'], 'CTA fuera del H3')
         else:
-            anchor = re.search(r'(?m)^(#{2,3}) ' + re.escape(config['anchor']) + r'$', prefix)
-            level = len(anchor[1])
-            assert not re.search(r'(?m)^#{1,' + str(level) + r'} ', prefix[anchor.end():]), path
+            block = re.search(r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->', text, re.S)
+            assert block and text.count('<!-- SIERRAS-OFERTAS -->') == 1, path
+            prefix = text[:block.start()].rstrip()
+            assert config['anchor'] in prefix, path
+            if config['position'] == 'table':
+                assert prefix.endswith('|'), ('No sigue a tabla', path)
+            elif config['position'] == 'heading':
+                assert prefix.endswith(config['anchor']), path
+            else:
+                anchor = re.search(r'(?m)^(#{2,3}) ' + re.escape(config['anchor']) + r'$', prefix)
+                level = len(anchor[1])
+                assert not re.search(r'(?m)^#{1,' + str(level) + r'} ', prefix[anchor.end():]), path
         for table in re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', text):
             assert len({len(row.split('|')) for row in table.splitlines()}) == 1, path
         html = s.render_article_page(articles[path])

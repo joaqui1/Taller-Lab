@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Comparación de taladros M12 y M18 con y sin percusión, línea FUEL y configuraciones de kit"
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "30/09/2026"
 published: true
 ---
 
@@ -40,7 +40,7 @@ Las cifras de torque provienen de fichas distintas y no de una prueba comparativ
 
 <!-- TALADROS-OFERTAS -->
 
-<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Milwaukee: compará plataforma y contenido</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M12 FUEL 3404-20</h3><p class="offer-description">Taladro percutor/atornillador M12. Confirmá herramienta sola o kit, batería M12, cargador y garantía local.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1zxo6Um" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Milwaukee 3404-20 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M18 FUEL 2904-259A</h3><p class="offer-description">Taladro percutor/atornillador según el título recibido. La tabla cita 2904-20; confirmá máquina y contenido del kit 2904-259A antes de aplicar sus datos.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/157Rjx8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Milwaukee M18 FUEL ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Milwaukee: compará plataforma y contenido</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M12 FUEL 3404-20</h3><p class="offer-description">Taladro percutor/atornillador M12. Confirmá herramienta sola o kit, batería M12, cargador y garantía local.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1zxo6Um" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Milwaukee 3404-20 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M18 FUEL 2904-259A</h3><p class="offer-description">Kit/bundle con el taladro percutor M18 FUEL 2904-20 de la tabla. Confirmá baterías, cargador, accesorios y contenido de esta publicación.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/157Rjx8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del kit Milwaukee 2904-259A ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
 
 <!-- /TALADROS-OFERTAS -->
 
@@ -65,14 +65,15 @@ La percusión mecánica está pensada para ayudar en mampostería liviana cuando
 
 El costo para empezar depende de lo que ya tengas. Si ya contás con baterías y cargador Milwaukee de la plataforma elegida, una máquina sola puede convenir. Si empezás desde cero, compará el costo total de herramienta, baterías compatibles y cargador; un kit puede traer además bolso u otros accesorios. Una batería M12 no alimenta una herramienta M18 ni viceversa.
 
-| Referencia consultada | Contenido declarado por Milwaukee | Qué significa para la compra |
+| Referencia consultada | Configuración o contenido publicado | Qué significa para la compra |
 | :--- | :--- | :--- |
 | 3403-20 | Taladro/destornillador y clip de cinturón; la página lo presenta como herramienta sola. | No incluye batería ni cargador en la caja descrita. |
 | 3404-20 | Taladro percutor y clip; modelo identificado como herramienta sola. | Presupuestá batería y cargador M12 si no los tenés. |
 | 3601-20 | Taladro M18 y clip; herramienta sola. | Requiere batería y cargador M18 que se venden por separado en esta configuración. |
 | 2904-22 | Kit del 2904-20 con dos baterías XC5.0 y cargador, según la ficha del kit. | Comparalo con comprar herramienta sola más baterías y cargador; confirmá tensión del cargador, enchufe y garantía de la versión local. |
+| 2904-259A | Kit/bundle con el taladro percutor 2904-20; una publicación argentina lista dos baterías XC 5.0 Ah, cargador M18/M12, mango lateral, clip y maletín. | El SKU técnico de la herramienta sigue siendo 2904-20. Confirmá los componentes y el cargador de la publicación concreta. |
 
-Los sufijos y el contenido varían por número de catálogo y mercado. En estas fichas, “-20” identifica una configuración de herramienta sola y “-22” el kit del 2904 con baterías y cargador; no generalices esa regla a todos los productos Milwaukee. Antes de pagar, compará el SKU completo con lo que realmente incluye la publicación argentina.
+Los sufijos y el contenido varían por número de catálogo y mercado. En estas fichas, “-20” identifica una configuración de herramienta sola; 2904-22 y 2904-259A son presentaciones de kit distintas del mismo taladro 2904-20. No generalices esa regla a todos los productos Milwaukee. Antes de pagar, compará el SKU completo con lo que realmente incluye la publicación argentina.
 
 **Límite de la comparación:** las cuatro referencias tienen documentación oficial de Estados Unidos. No cotejamos importadores, stock, voltaje del cargador o cobertura de garantía en Argentina, ni hicimos pruebas de perforación. Usá los datos como comparación de modelos identificados y verificá el SKU local.
 
@@ -80,8 +81,8 @@ Para hormigón frecuente, agujeros grandes o trabajo de obra exigente, compará 
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery).
-- **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión](https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery); [certificado oficial de garantía Milwaukee Cono Sur, incluye Argentina](https://documents.milwaukeetool.com/58-14-9945d2.pdf).
+- **Documentación primaria:** [M12 FUEL 3403-20, sin percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20); [M12 FUEL 3404-20, con percusión](https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20); [M18 Compact Brushless 3601-20, sin percusión](https://www.milwaukeetool.com/3601-20); [M18 FUEL 2904-20, con percusión y herramienta sola](https://www.milwaukeetool.com/2904-20); [contenido del kit 2904-22](https://www.milwaukeetool.com/2904-22); [qué es FUEL](https://www.milwaukeetool.com/Innovations/M18-Fuel); [compatibilidad de baterías M12 y M18](https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery); [certificado oficial de garantía Milwaukee Cono Sur, incluye Argentina](https://documents.milwaukeetool.com/58-14-9945d2.pdf).
+- **Referencia comercial del kit:** [publicación argentina del 2904-259A, identifica al 2904-20 como herramienta del bundle y detalla sus componentes](https://espacio-industria.com/products/taladro-percutor-inalambrico-fuel-m18-milwaukee-2904-259-color-rojo). El contenido de la publicación enlazada en la oferta puede variar y no se verificó.
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

@@ -29,6 +29,7 @@ Para elegir un disco de corte, empezá por el material y verificá después diá
 | Cortar chapa metálica | Disco abrasivo indicado para el metal y el tipo de trabajo | No extrapolar desde una ficha que solo dice “metal”; revisar espesor del disco y de la pieza | Esta guía |
 | Cortar acero inoxidable | Disco que declare acero inoxidable/INOX | Aplicación explícita para inoxidable y especificación del fabricante | Esta guía |
 | Cortar cerámica o azulejo | Diamantado para la baldosa y el acabado buscado | Material, borde, montaje y condiciones de uso indicadas | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+| Cortar vidrio | Disco específico para vidrio, solo si el fabricante declara ese material y operación | Tipo de vidrio, compatibilidad, montaje y condiciones de uso documentadas | [Discos específicos para vidrio](/amoladoras/discos-vidrio/) |
 | Cortar hormigón o ladrillo | Diamantado cuya ficha nombre el material | Uso seco/húmedo solo si la ficha lo permite | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
 
 La matriz general de accesorios está en [discos para amoladora](/amoladoras/discos/). Esta URL profundiza en el corte: el uso y el material declarados por el fabricante son el filtro principal, antes de comparar códigos o precios.

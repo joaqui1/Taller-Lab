@@ -54,8 +54,6 @@ Para elegir, empezá por la forma de alimentación que te sirve y la compatibili
 
 **Análisis TallerLab:** batería, 12 V y doble pistón describen características distintas. Al comparar, no tomes el caudal máximo como una promesa de tiempo de inflado ni supongas que dos modelos de doble pistón tienen la misma conexión o ciclo. La ficha técnica y el manual del código exacto deben confirmar esos puntos.
 
-Como alternativa de gama para comparar por marca, también podés revisar [compresores Stanley](/compresores/stanley/).
-
 ## Corriente, fusible y conexión: qué revisar
 
 Antes de conectar un compresor de 12 V, compará la corriente que pide con el límite de la toma del vehículo y con la indicación del manual del auto. Algunos equipos se conectan a una toma de accesorios y otros requieren pinzas directas a la batería; no intercambies las conexiones ni uses una toma que no admita ese consumo.

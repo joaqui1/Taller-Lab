@@ -2,10 +2,10 @@
 title: "Generadores Lüsqtoff: cuál elegir según potencia y tecnología"
 h1: "Generadores Lüsqtoff: cuál elegir"
 url: "/generadores/lusqtoff/"
-description: "Mapa de generadores Lüsqtoff convencionales e inverter por potencia publicada, fases y precio de lista; criterios para elegir, revisar opiniones y consultar garantía."
+description: "Mapa de generadores Lüsqtoff convencionales e inverter por potencia publicada, fases y precio de lista; criterios para elegir, verificar el equipo y consultar garantía y servicio."
 author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
-keywords: ["generadores lusqtoff", "generador lusqtoff opiniones", "lusqtoff lg3500ex", "generador lusqtoff inverter", "repuestos generador lusqtoff"]
+keywords: ["generadores lusqtoff", "lusqtoff lg3500ex", "generador lusqtoff inverter", "repuestos generador lusqtoff"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"
@@ -106,20 +106,12 @@ La marca organiza su categoría también en generadores nafteros, a gas, diésel
 
 Las fichas Lüsqtoff no publican la potencia nominal para todos los modelos. En esos casos no es posible concluir por la potencia máxima qué carga sostendrán continuamente. La inconsistencia puntual del LG3000E (2,8 kVA como máxima y 4,8 kW en otro campo) requiere confirmar la placa/manual del código vendido antes de dimensionar.
 
-## Cómo evaluar opiniones de compradores
+## Qué verificar antes de comprar un generador Lüsqtoff
 
-No contamos con una muestra de opiniones verificable para comparar toda la gama, así que no asignamos calificaciones ni afirmamos que un modelo tenga una tasa particular de fallas. Si leés comentarios de un equipo, primero comprobá que correspondan al **código exacto** y a la misma versión eléctrica.
-
-En reseñas y publicaciones, buscá detalles comprobables sobre:
-
-- arranque en frío y funcionamiento después de calentarse;
-- caída de tensión/frecuencia cuando arranca una carga con motor;
-- autonomía junto con carga conectada, tiempo y combustible usado;
-- ruido con distancia de medición y tipo de carga;
-- piezas que faltaban al recibirlo y atención del vendedor/servicio;
-- fallas repetidas por varias personas, separándolas de una unidad aislada o de un problema de transporte.
-
-Una reseña que solo dice “anda bien” o “es ruidoso” no permite estimar rendimiento. Registrá modelo, fecha de consulta, cantidad de reseñas y condición de uso antes de comparar testimonios.
+- **Código exacto:** hacé coincidir modelo y sufijo de la publicación con la placa y el manual. No traslades especificaciones entre variantes parecidas.
+- **Potencia y salida:** compará potencia nominal y máxima por separado, junto con combustible, tensión y fases. Si la ficha no informa nominal, no uses el máximo como capacidad continua.
+- **Equipo entregado:** confirmá arranque, batería, ruedas, accesorios y tomas incluidos para ese código y vendedor.
+- **Precio y disponibilidad:** cotejá el precio final, envío, medio de pago y stock del mismo modelo; los PVP de esta guía son una captura fechada, no una cotización.
 
 ## Garantía, repuestos, servicio y precios
 
@@ -132,7 +124,7 @@ Los precios de las tablas son una captura del **PVP que mostraban las páginas d
 ## Fuentes consultadas
 
 - **Fuentes primarias:** [categoría de grupos electrógenos Lüsqtoff](https://lusqtoff.com.ar/categorias/grupos-electrogenos); páginas de producto enlazadas en las tablas; [catálogo Lüsqtoff 2026–27](https://www.lusqtoff.com.ar/catalogos); [posventa y garantía](https://lusqtoff.com.ar/posventa); [servicios técnicos oficiales](https://www.lusqtoff.com.ar/servicios-tecnicos); [dónde comprar](https://lusqtoff.com.ar/donde-comprar).
-- **Opiniones de compradores:** no se analizó una muestra; la sección explica qué señales revisar para no atribuir testimonios no verificados a la marca.
+- **Opiniones de compradores:** no se analizó una muestra verificable.
 
 Para dimensionar por uso y comparar alternativas, consultá [generador para casa](/generadores/para-casa/), [generadores inverter](/generadores/inverter/), los [precios de generadores](/generadores/precios/) y la [comparativa general](/generadores/comparativa-general/).
 

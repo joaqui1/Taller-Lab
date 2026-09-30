@@ -69,7 +69,7 @@ Las dos fichas Chicago Pneumatic dan referencias distintas: la CP9104Q especific
 
 La CP872 especifica una manguera mínima de 10 mm para una longitud de 5 m. Respetá la recomendación de manguera, conexión, filtrado, lubricación y presión del manual del modelo exacto; no extrapoles el requisito de una herramienta a otra.
 
-Para elegir el equipo que alimentará la herramienta, seguí la [guía de compresores](/compresores/) y compará el caudal efectivo a la presión de trabajo, no solo el tamaño del tanque.
+Para dimensionar la alimentación neumática, consultá la [guía de caudal y consumo de herramientas neumáticas en compresores de 50 litros](/compresores/50-litros/): compara consumo y caudal efectivo a presión de trabajo, y explica por qué el tanque no reemplaza la capacidad de entrega de la bomba.
 
 ## Pinzas y accesorios
 

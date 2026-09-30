@@ -108,6 +108,4 @@ Makita Argentina informa una garantía de **un año desde la compra** y pide con
 - **Garantía y servicio técnico:** [Makita Argentina, servicios oficiales y garantía](https://makita.com.ar/blog/visita-nuestros-services-oficiales/); [buscador de servicio técnico y repuestos](https://makita.com.ar/soporte/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [amoladoras DeWalt](/amoladoras/dewalt/).
-
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

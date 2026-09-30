@@ -19,6 +19,8 @@ published: true
 
 # Generadores portátiles para camping, viajes y trabajo
 
+> **Portátil ≠ chico ≠ silencioso.** Elegí esta categoría por el traslado y el contexto de uso: peso, dimensiones, agarres, ruedas o carro para camping, motorhome u obra; la potencia y el ruido se evalúan por separado.
+
 “Portátil” no siempre significa que una persona pueda levantar el equipo y llevarlo como una valija. Un generador de 17–21 kg puede acercarse a ese formato; uno de 59 kg ya requiere planificar cómo subirlo al vehículo y moverlo en destino; uno de 118 kg necesita transporte asistido, aunque tenga ruedas y manijas.
 
 Elegí por la carga real, el lugar de uso y la forma de traslado. Calculá la potencia de marcha y los picos de arranque de los aparatos; comparalos con la potencia **nominal**, no solamente con la máxima. Después cotejá autonomía, ruido bajo una condición de medición comparable, dimensiones y accesorios de transporte de la versión concreta.
@@ -56,17 +58,9 @@ La autonomía publicada depende de la carga y del modo de funcionamiento. No con
 
 <!-- GENERADORES-EXTRAS -->
 
-### Konan KGE/800: opción de baja potencia
+### Generadores chicos: referencia breve
 
-La [guía de generadores chicos](/generadores/chicos/) documenta 650 W nominales y 800 W máximos según Konan, motor 2T y tanque de 4 L. Confirmá peso y dimensiones de la unidad ofrecida, porque los vendedores publican cifras diferentes.
-
-[Ver precio del Konan KGE/800](https://meli.la/19gLhpz)
-
-### Alternativa nueva de baja potencia: Lüsqtoff LG950P
-
-La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG950P) publica 0,65 kVA nominales y 0,8 kVA máximos; motor 2T, tanque de 4 L y peso de 16,2 kg. Usá la mezcla indicada en su propio manual. Es otro modelo, con especificaciones propias.
-
-[Ver precio del Lüsqtoff LG950P](https://meli.la/2oCYsWY)
+Si buscás un equipo de baja potencia como el Konan KGE/800 o el Lüsqtoff LG950P, consultá la [comparativa de generadores chicos](/generadores/chicos/) para ver potencias, dimensiones y límites de los datos publicados.
 
 <!-- /GENERADORES-EXTRAS -->
 

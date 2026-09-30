@@ -23,6 +23,17 @@ Un generador diésel se elige cruzando tres datos: cuántas horas va a trabajar,
 
 Para pocas horas ocasionales y cargas pequeñas, también conviene comparar con un equipo a nafta. Para muchas horas, una carga sostenida o una instalación fija, un diésel puede ser una opción a estudiar, siempre que su potencia continua, consumo y mantenimiento documentados cierren para ese uso. No se puede deducir el consumo real a partir de la cilindrada, los litros del tanque ni la potencia máxima.
 
+## Modelos diésel disponibles actualmente en Argentina
+
+Las fichas oficiales argentinas de Lüsqtoff listan estos dos modelos diésel. Que aparezcan en el catálogo no confirma stock en un comercio: consultá disponibilidad y plazo para el código exacto.
+
+| Modelo y ficha oficial | Potencia publicada | Tensión y configuración | Datos útiles para preseleccionar | Precio / consulta |
+| :--- | :--- | :--- | :--- | :--- |
+| [LGD8000-8 — Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGD8000-8) | 6,5 kVA máximos; la ficha no identifica potencia nominal | 220 V, 50 Hz; la ficha no indica el número de fases | Diésel, arranque eléctrico, tanque 12,5 L, 117 kg. Pedí potencia nominal y fase de la unidad ofrecida antes de dimensionar. | [Ver precio →](https://meli.la/1Sm6ykb) |
+| [LGD10000-8T — Lüsqtoff](https://www.lusqtoff.com.ar/productos/generador-diesel-trifasico-9kw) | 8 kW / 10 kVA nominales; 9 kW / 11,2 kVA máximos | 220/380 V, trifásico, 50 Hz | Diésel, arranque eléctrico, tanque 25 L, ruedas, 151 kg. Confirmá corriente y potencia disponibles por fase para tus cargas. | Consultar stock en distribuidor |
+
+En la [categoría oficial de grupos electrógenos de Lüsqtoff](https://lusqtoff.com.ar/categorias/grupos-electrogenos) se pueden consultar dónde comprar y los servicios técnicos. La ficha de un producto no garantiza disponibilidad inmediata en tu zona.
+
 ## Cuándo conviene un generador diésel
 
 Pensá primero en el patrón de trabajo. Anotá horas por jornada, días al mes, tiempo seguido por sesión y carga aproximada. Un equipo que funcionará muchas horas o alimentará cargas sostenidas necesita una comparación de consumo y de intervalos de servicio; uno de respaldo ocasional puede priorizar costo inicial, facilidad de arranque, almacenamiento del combustible y disponibilidad local de repuestos.
@@ -71,7 +82,6 @@ La fase debe coincidir con las cargas y la instalación. No alcanza con que el t
 | Hyundai 070G | Monofásico; ficha local lo identifica así | Máxima: 8.000 W | No publicado por carga | Potencia continua, tanque, autonomía y L/h | — |
 | Pramac S6500 | Monofásico, 230 V; portátil | COP 4,4 kW / 4,8 kVA; ESP 5,3 kW / 5,9 kVA | 1,46 L/h al 75 % | Compatibilidad con las cargas de arranque de la instalación | — |
 | Daihatsu GES7500ED | Monofásico, según el nombre del producto | 6,5 kVA; motor 11 HP y 455 cc, según el título de la publicación | No informado en los datos compartidos | Potencia continua, consumo por carga, tanque y autonomía | [Ver precio →](https://meli.la/1JHeiwp) |
-| Lüsqtoff LGD8000-8 | Fase no indicada en los datos compartidos | 8 kVA, según el título de la publicación | No informado en los datos compartidos | Fase, potencia continua, consumo por carga, tanque y autonomía | [Ver precio →](https://meli.la/1Sm6ykb) |
 | Hyundai 080G | Trifásico según título de ficha local | El título indica 8 kVA; un campo de ficha informa máximo 8,0 con rótulo inconsistente | No publicado por carga | Unidad y potencia continua: cotejar con placa/manual | — |
 | Pramac S6000 | Trifásico, 400/230 V; portátil | COP 4,5 kW / 5,6 kVA; ESP 5,5 kW / 6,9 kVA; salida monofásica máxima 3,2 kVA | 1,45 L/h al 75 % | Reparto permitido por fase y límite para cargas monofásicas | — |
 | Pramac S10000 | Trifásico; aplicación estacionaria según ficha | COP 8,4 kW / 10,5 kVA; ESP 9,4 kW / 11,8 kVA | 2,44 L/h al 75 % | Instalación y disponibilidad local; la ficha señala que no tiene motor Stage V | — |
@@ -80,10 +90,6 @@ La fase debe coincidir con las cargas y la instalación. No alcanza con que el t
 **Daihatsu GES7500ED**
 
 [Ver precio del Daihatsu GES7500ED](https://meli.la/1JHeiwp)
-
-**Lüsqtoff LGD8000-8**
-
-[Ver precio del Lüsqtoff LGD8000-8](https://meli.la/1Sm6ykb)
 
 **Importante:** en un generador trifásico, no supongas que toda la potencia total queda disponible para una sola carga monofásica. Revisá el límite monofásico y el balance de fases publicados por el fabricante. Para motores y otras cargas de arranque, dimensioná con potencia de marcha y pico de arranque.
 
@@ -112,6 +118,7 @@ En Hyundai 071G, la ficha local lo presenta como insonorizado y publica 8.000 W 
 - **Pramac, fichas oficiales:** [S6500 monofásico](https://www.pramac.com/es_ES/product?folder=74&product=2423), [S6000 trifásico](https://www.pramac.com/product?folder=74&product=2438) y [folleto técnico con consumos y datos S6500/S6000/S10000](https://pramac.com/file/51089).
 - **Generac, ficha oficial SD050:** [consumo de combustible por porcentaje de carga](https://www.generac.com/globalassets/products/business/stationary-generators/diesel-industrial-generators/spec-sheets/sd050-50kw-diesel-generator-specsheet.pdf).
 - **Yanmar, manual oficial de operación de la serie YDG:** [mantenimiento de los motores](https://www.yanmar.com/eu/industrial/wp-content/uploads/sites/11/2021/06/YANMAR-Operation-Manual-YDG-Series.pdf).
+- **Lüsqtoff Argentina:** fichas de [LGD8000-8](https://lusqtoff.com.ar/ver-producto/LGD8000-8) y [LGD10000-8T](https://www.lusqtoff.com.ar/productos/generador-diesel-trifasico-9kw), además de la [categoría oficial de grupos electrógenos](https://lusqtoff.com.ar/categorias/grupos-electrogenos). La inclusión en catálogo no confirma stock local.
 - **Información local Hyundai Herramientas:** [070G monofásico](https://hyundaiherramientas.com.ar/producto/generador-diesel-monofasico-8kva-070g/), [071G insonorizado](https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-071g/), [073G insonorizado](https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-073g) y [080G trifásico](https://hyundaiherramientas.com.ar/producto/generador-diesel-trifasico-con-arranque-electrico-8-kva-080g/).
 
 Para comparar opciones, consultá [generadores a nafta](/generadores/a-nafta/), [a gas](/generadores/a-gas/) y [generadores trifásicos](/generadores/trifasicos/), junto con los [precios de generadores](/generadores/precios/) y la [comparativa general](/generadores/comparativa-general/).

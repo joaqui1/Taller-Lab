@@ -35,10 +35,10 @@ Los enlaces de fabricante sirven para identificar modelos y accesorios, pero no 
 
 | Modelo documentado | Disco | Potencia publicada | Velocidad en vacío | Peso publicado | Funciones/datos destacados |
 |---|---:|---:|---:|---:|---|
-| Bosch GWS 25-230, cód. 0 601 8F4 1H0 [Ver precio en Mercado Libre](https://meli.la/24LpMmr){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
-| Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0 [Ver precio en Mercado Libre](https://meli.la/33JWgGN){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
-| Makita GA9020 [Ver precio en Mercado Libre](https://meli.la/21s58cx){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
-| Stanley STGL2223-AR [Ver precio en Mercado Libre](https://meli.la/2mkrd45){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
+| [Bosch GWS 25-230, cód. 0 601 8F4 1H0](/amoladoras/bosch/) [Ver precio en Mercado Libre](https://meli.la/24LpMmr){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.500 W | 6.500 rpm | 5,9 kg | Bosch publica reducción de vibraciones; el interruptor de paleta depende de la variante |
+| [Bosch GWS 30-230 PB, cód. 0 601 8G1 1H0](/amoladoras/bosch/) [Ver precio en Mercado Libre](https://meli.la/33JWgGN){:target="_blank" rel="sponsored noopener"} | 230 mm | 2.800 W | 6.500 rpm | 5,9 kg | Motor brushless, KickBack Control, arranque suave, protección contra rearranque, freno e interruptor PROtection |
+| [Makita GA9020](/amoladoras/makita/) [Ver precio en Mercado Libre](https://meli.la/21s58cx){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | 6.000 rpm | 5,76–8,05 kg en la ficha | Sistema anti-reinicio; la ficha publica un rango de peso sin aclarar su base |
+| [Stanley STGL2223-AR](/amoladoras/stanley/) [Ver precio en Mercado Libre](https://meli.la/2mkrd45){:target="_blank" rel="sponsored noopener"} | 230 mm (9") | 2.200 W | No indicado en la ficha de producto consultada | No indicado en esa ficha | Página argentina del fabricante con opción “Dónde comprar” y garantía limitada de 2 años |
 
 
 

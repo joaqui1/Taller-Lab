@@ -34,7 +34,7 @@ Para dimensionarlo, calculá la potencia de marcha y el pico de arranque del equ
 
 Buscá una salida trifásica si la placa de la carga indica `3~`, tres fases o tensión entre fases de 380/400 V, y el manual del equipo pide esa alimentación. Es habitual en motores de máquinas de taller, compresores industriales, bombas de mayor tamaño, equipos de elevación y algunas soldadoras. Confirmá el modelo exacto y su diagrama: una máquina de la misma clase puede venir en versión monofásica.
 
-Si todos tus equipos son 220 V monofásicos, un generador trifásico no es automáticamente la mejor opción. Necesitás que el generador entregue esa tensión y que sus salidas monofásicas soporten la corriente y distribución de tus cargas, además de cumplir el límite de desbalance indicado por su fabricante.
+> **Si todas tus cargas son monofásicas de 220 V, no elijas un trifásico solo porque muestra más kVA.** Necesitás que entregue esa tensión y que sus salidas monofásicas soporten la corriente y distribución de tus cargas, además de cumplir el límite de desbalance indicado por su fabricante.
 
 ## Diferencias entre kVA y kW
 

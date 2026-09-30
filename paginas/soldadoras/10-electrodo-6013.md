@@ -19,7 +19,7 @@ published: true
 
 # Electrodo 6013: usos, medidas y qué elegir
 
-## Para qué trabajos sirve y cuándo preferirlo sobre 7018
+## Usos del E6013 y cuándo elegirlo frente al E7018
 
 | Opción | Considerala cuando… |
 | :--- | :--- |
@@ -31,8 +31,6 @@ Ninguno es mejor para todos los trabajos: elegí según metal base, junta, servi
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las aplicaciones y cifras se atribuyen a la ficha del producto indicado. Esta guía es documental y no incluye prueba física ni muestra de opiniones.
-
-## Para qué trabajos sirve
 
 En la clasificación AWS **E6013**, la **E** identifica un electrodo revestido; **60** refiere a una resistencia mínima a la tracción de 60.000 psi para el metal depositado; **1** corresponde a todas las posiciones según la clasificación; y **3** identifica características del revestimiento y de la corriente. ESAB describe 6013 como electrodo rutílico de propósito general, pero la posición, corriente y aplicación deben confirmarse en la ficha del producto y no deducirse sólo del número. [ESAB explica la clasificación](https://esab.com/br/sam_pt/esab-university/articles/como-identificar-o-eletrodo-e-a-corrente-corretos-para-soldagem/) y la [ficha Sureweld 6013](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/) identifica su propio producto como rutílico para fabricación de acero dulce.
 

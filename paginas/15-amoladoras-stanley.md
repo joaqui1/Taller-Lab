@@ -46,6 +46,8 @@ Los tres códigos locales de la tabla aceptan discos de 115 mm. Los manuales con
 
 La STGS7115-AR y STGS8115-AR declaran respectivamente 710 W y 850 W, y ambas aparecen con 11.000 rpm en sus manuales. La STGS9115-AR sube a 900 W y 12.000 rpm en vacío. Son opciones para comparar por tarea, frecuencia, ergonomía y kit; estas cifras no son una prueba de corte entre modelos.
 
+Si todavía estás decidiendo entre los diámetros compactos, consultá la [comparación de amoladoras de 115 o 125 mm](/amoladoras/115-o-125/).
+
 <!-- EDITORIAL-COMMERCE-SECONDARY -->
 
 ## Amoladoras Stanley inalámbricas V20
@@ -60,6 +62,8 @@ Para la publicación SCG400-AR, [ver precio en Mercado Libre](https://meli.la/21
 La publicación usa el código SCG400-AR, distinto del SCG400-B3 y SCG400M2K-B2 documentados arriba. No encontramos una ficha oficial argentina de la variante `-AR`; verificá código, contenido, cargador y garantía con el vendedor.
 
 Argentina tiene un sistema V20 de Stanley con baterías intercambiables, pero la página local de productos V20 consultada no lista una amoladora. Para evaluar una importada, sumá el costo de herramienta, batería y cargador y confirmá garantía, servicio y repuestos en Argentina por escrito.
+
+Para comparar esta referencia V20 con otras plataformas y modelos a batería, consultá la [guía de amoladoras inalámbricas](/amoladoras/inalambricas/).
 
 ## Diferencias de códigos regionales
 
@@ -92,7 +96,5 @@ No llamamos “mejor” a un modelo por su potencia. Elegí por material y tipo 
 - **V20 regionales:** [SCG400-B3, herramienta sola en México](https://mx.stanleytools.global/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20) y [SCG400M2K-B2, kit en Perú](https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20).
 - **Soporte local:** [garantías y atención Stanley Argentina](https://ar.stanleytools.global/soporte) y [centros de servicio](https://ar.stanleytools.global/centros-servicios).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [amoladoras Total de 115 mm](/amoladoras/total/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

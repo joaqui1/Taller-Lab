@@ -1,15 +1,15 @@
-# Las 15 páginas de amoladoras seleccionadas por volumen Ads y KD
+# Las 15 páginas de amoladoras priorizadas por volumen Ads y KD
 
 Actualización: 23/09/2026. Esta selección sustituye la propuesta de 30 páginas como alcance inicial.
 
-Se prioriza primero la banda de 5.000 de Google Ads con KD hasta 18. Después se seleccionan tres consultas de 500 y KD 5, y Stanley (500/KD 8) frente a otras empatadas por su mayor volumen Semrush. No se divide volumen por KD: KD no es una escala lineal de esfuerzo ni una probabilidad de posicionar. El orden de la tabla sigue banda Ads, KD y, en los empates, volumen Semrush.
+Se prioriza primero la banda de 5.000 de Google Ads con KD hasta 18 cuando existe medición Semrush para la consulta exacta. La URL general `/amoladoras/discos/` se incluye por su intención de tipos de discos para amoladora; la consulta de referencia tiene volumen Ads, pero no medición Semrush exacta asignada aquí. No se divide volumen por KD: KD no es una escala lineal de esfuerzo ni una probabilidad de posicionar.
 
-Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.000 y 50.000): no representan precisión suficiente para proyectar visitas. El volumen Semrush se incluye para contrastar. Cada KD pertenece a la consulta exacta indicada, no al conjunto de variantes ni a todos los H2. Mercado asumido: Argentina; falta confirmar país de la exportación Semrush.
+Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.000 y 50.000): no representan precisión suficiente para proyectar visitas. Cada volumen Semrush y KD pertenece a la consulta exacta indicada, no al conjunto de variantes ni a todos los H2. Mercado asumido: Argentina; falta confirmar país de la exportación Semrush.
 
-| Nº | Keyword exacta | Volumen Ads | Volumen Semrush | KD |
+| Nº | Keyword objetivo | Volumen Ads | Volumen Semrush | KD |
 |---:|---|---:|---:|---:|
 | 1 | disco flap | 5.000 | 2.900 | 9 |
-| 2 | discos para amoladora | 5.000 | 2.400 | 12 |
+| 2 | tipos de discos para amoladora | 500 | s/m | s/m |
 | 3 | amoladora dewalt | 5.000 | 2.400 | 12 |
 | 4 | disco de desbaste | 5.000 | 1.600 | 12 |
 | 5 | amoladora recta | 5.000 | 1.000 | 12 |
@@ -23,9 +23,6 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 | 13 | amoladora skil 830w | 500 | 210 | 5 |
 | 14 | disco diamantado segmentado | 500 | 110 | 5 |
 | 15 | amoladora stanley | 500 | 390 | 8 |
-| 16 | disco de corte para amoladora | 5.000 | 2.400 | 12 |
-| 17 | amoladora ingco | 500 | 260 | 10 |
-| 18 | amoladora velocidad variable | 500 | 140 | 9 |
 
 ## 1. disco flap
 
@@ -46,22 +43,24 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 - Diámetro, montaje y RPM compatibles
 - Opciones para comparar en Mercado Libre
 
-## 2. disco de corte para amoladora
+## 2. tipos de discos para amoladora
 
-**Volumen Ads:** 5.000 · **KD:** 12 · **Volumen Semrush:** 2400
+**Volumen Ads:** 500 · **KD y volumen Semrush:** s/m para esta consulta exacta
 
 **URL propuesta:** `/amoladoras/discos/`
 
-**Title:** Discos para amoladora: tipos, usos y compatibilidad
+**Title:** Discos para amoladora: tipos y cómo elegir
 
-**H1:** Discos para amoladora: cuál usar según el trabajo
+**H1:** Tipos de discos para amoladora y para qué sirve cada uno
 
 **H2:**
 
-- Tipos de discos
-- Qué disco usar según el material
-- Medidas, eje y RPM
-- Errores de compatibilidad
+- Qué disco corresponde a cada trabajo
+- Discos de corte para metal y mampostería
+- Flap, desbaste, cepillo y lijado
+- Cómo leer medida, eje y RPM
+- Errores de compatibilidad que debés evitar
+- Guías por material y opciones de compra
 
 ## 3. amoladora dewalt
 
@@ -250,7 +249,7 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 
 **Volumen Ads:** 500 · **KD:** 5 · **Volumen Semrush:** 210
 
-**URL propuesta:** `/amoladoras/skil-830w/`
+**URL propuesta:** `/amoladoras/skil/`
 
 **Title:** Amoladora Skil de 830 W: qué revisar antes de comprar
 
@@ -258,17 +257,17 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 
 **H2:**
 
-- Identificar el modelo
-- Ficha verificada
-- Diferencias con 700 W
-- Qué incluye el kit
-- Para quién conviene
+- Cómo identificar el modelo Skil de 830 W
+- Diámetro, potencia y equipamiento según la ficha oficial
+- Qué cambia frente a las opciones Skil de 700 W
+- Para qué trabajos está indicada y cuáles son sus límites
+- Qué incluye la publicación y dónde consultar precio
 
 ## 14. disco diamantado segmentado
 
 **Volumen Ads:** 500 · **KD:** 5 · **Volumen Semrush:** 110
 
-**URL propuesta:** `/amoladoras/disco-diamantado-segmentado/`
+**URL propuesta:** `/amoladoras/discos-diamantados/`
 
 **Title:** Disco diamantado segmentado: usos y cómo elegir
 
@@ -276,11 +275,11 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 
 **H2:**
 
-- Materiales admitidos
-- Segmentado frente a continuo y turbo
-- Corte seco o húmedo
-- Medida y RPM
-- Cómo elegir
+- Qué caracteriza a un disco diamantado segmentado
+- Qué materiales admite cada referencia
+- Diferencias frente a los discos turbo y continuos
+- Diámetro, eje, RPM y corte seco o húmedo
+- Qué revisar antes de comprar un disco compatible
 
 ## 15. amoladora stanley
 
@@ -300,60 +299,6 @@ Los valores Ads son exactamente los del CSV y están muy agrupados (50, 500, 5.0
 - Ventajas y límites según la ficha técnica
 - Qué revisar en garantía, kit y precio
 
-## 16. disco de corte para amoladora
-
-**Volumen Ads:** 5.000 · **KD:** 12 · **Volumen Semrush:** 2.400
-
-**URL propuesta:** `/amoladoras/disco-de-corte/`
-
-**Title:** Disco de corte para amoladora: cuál elegir según el material
-
-**H1:** Cómo elegir un disco de corte para amoladora
-
-**H2:**
-
-- Metal e inoxidable
-- Ladrillo y mampostería
-- Espesor y diámetro
-- RPM y montaje
-- Comparación de opciones
-
-## 17. amoladora ingco
-
-**Volumen Ads:** 500 · **KD:** 10 · **Volumen Semrush:** 260
-
-**URL propuesta:** `/amoladoras/ingco/`
-
-**Title:** Amoladoras Ingco: modelos con cable y a batería
-
-**H1:** Qué amoladora Ingco elegir según el uso
-
-**H2:**
-
-- Modelos disponibles
-- Cable frente a batería
-- Diámetro y potencia
-- Herramienta sola frente a kit
-- Límites y alternativas
-
-## 18. amoladora velocidad variable
-
-**Volumen Ads:** 500 · **KD:** 9 · **Volumen Semrush:** 140
-
-**URL propuesta:** `/amoladoras/velocidad-variable/`
-
-**Title:** Amoladora de velocidad variable: cuándo conviene
-
-**H1:** Amoladoras de velocidad variable: usos y modelos para comparar
-
-**H2:**
-
-- Para qué sirve regular RPM
-- Discos y accesorios compatibles
-- Qué revisar en el control de velocidad
-- Modelos y diferencias
-- Cuándo no hace falta
-
 ## Publicación y agrupación
 
 Para arrancar producción priorizaría disco flap, banco, discos para amoladora, desbaste y recta; después las comparativas de marcas y el resto de esta selección. KD bajo por sí solo no asegura espacio para guías en búsquedas dominadas por tiendas: el muestreo previo fue orientativo y falta validar cada SERP local antes de producir.
@@ -370,4 +315,4 @@ La salida a Mercado Libre debe corresponder al modelo, kit o disco explicado, co
 - [Semrush: amoladoras](C:/Users/joaqu/Desktop/keywords/semrush/semrush_amoladoras.csv)
 - [Semrush: consultas adicionales](C:/Users/joaqu/Desktop/keywords/semrush/semrush_consulta_adicional.csv)
 
-Las fuentes se conservaron sin cambios. La selección contiene 15 keywords distintas, 15 URLs distintas y KD exactos entre 5 y 18.
+Las fuentes se conservaron sin cambios. La selección contiene 15 intenciones y 15 URLs distintas; 14 consultas tienen KD Semrush exacto y una conserva solo la referencia de Google Ads, sin heredar métricas de otra consulta.

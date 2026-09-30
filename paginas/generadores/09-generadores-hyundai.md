@@ -5,7 +5,7 @@ url: "/generadores/hyundai/"
 description: "Comparativa de generadores Hyundai comercializados en Argentina: rangos de carga por potencia nominal, autonomía con sus condiciones y precios locales fechados."
 author: "Joaquín Vallasciani"
 category: "Generadores y Grupos Electrógenos"
-keywords: ["generador hyundai", "generadores hyundai opiniones", "hyundai hhy7200", "generador hyundai inverter", "precios generador hyundai"]
+keywords: ["generador hyundai", "hyundai hhy7200", "generador hyundai inverter", "precios generador hyundai"]
 research_type: "documental"
 physical_test: "no"
 specifications_contrasted: "sí"

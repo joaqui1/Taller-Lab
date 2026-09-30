@@ -23,6 +23,12 @@ published: true
 
 Esta página compara la familia Lüsqtoff SML120/SML130/SML150 y sus variantes documentadas. Para entender el alambre autoprotegido, la escoria, la polaridad y la compatibilidad del proceso, consultá [MIG sin gas](/mig-sin-gas/).
 
+## MIG/MAG y Flux Lüsqtoff: qué diferencia hay
+
+En MIG/MAG convencional se usa alambre macizo y gas de protección externo. En Flux autoprotegido, el alambre tubular genera la protección durante la soldadura: no requiere cilindro externo y deja escoria que se debe retirar. Son configuraciones distintas, aunque en publicaciones comerciales aparezca la palabra «MIG» para ambas; la [guía de MIG sin gas](/mig-sin-gas/) explica el proceso tubular con más detalle.
+
+En esta familia, las fichas consultadas identifican como FLUX a SML120-8D y SML150-8; la SML130-7 se describe para alambre tubular autoprotegido. Eso no confirma que estos modelos trabajen con alambre macizo y gas. Para elegir, revisá el código y el proceso que admite su ficha o manual: también cambian las funciones entre variantes, como MMA o Lift TIG. La comparativa de abajo se centra en esas diferencias de modelos, ciclo publicado y kit.
+
 **Dato documentado:** cada dato corresponde al código indicado y se atribuye a una ficha/manual de Lüsqtoff. Esta comparación es documental, sin prueba física ni opiniones de compradores. Los ciclos están publicados bajo condiciones distintas y no se ordenan como si fueran pruebas equivalentes.
 
 ## Comparativa de la familia SML

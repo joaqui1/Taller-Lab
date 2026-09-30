@@ -117,12 +117,19 @@
       },
       {
         "models": [
-          "SML120",
           "MIGDUAL200"
         ],
-        "anchor": "Flux/MIG",
+        "anchor": "MIG/MAG con gas",
         "position": "table",
-        "title": "Opciones Flux y MIG: verificá el proceso"
+        "title": "MIG/MAG Lüsqtoff: confirmá la configuración"
+      },
+      {
+        "models": [
+          "SML120"
+        ],
+        "anchor": "Flux",
+        "position": "table",
+        "title": "Opción Flux Lüsqtoff: distinguí equipo y kit"
       }
     ],
     "pending": []
@@ -922,7 +929,7 @@
         "models": [
           "ESAB162"
         ],
-        "anchor": "Cómo investigamos esta guía",
+        "anchor": "Especificaciones técnicas y ciclo de trabajo",
         "position": "table",
         "title": "Consultá HandyArc 162i: verificá código 0409616"
       },

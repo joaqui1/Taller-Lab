@@ -38,6 +38,8 @@ Anotá solo los artefactos que querés usar durante un corte. De sus placas o ma
 
 La suma de marcha muestra la carga simultánea sostenida. Para el pico, mantené las otras cargas que estarán encendidas y reemplazá la marcha del motor por su valor de arranque. Elegí usando la potencia nominal del generador para marcha y verificá también que el pico calculado quede dentro de lo que el manual permite; la potencia máxima no es una capacidad continua.
 
+> **Completá la hoja de cálculo de cargas** con los datos de placa o manual. Sumá la marcha de los equipos simultáneos y calculá aparte el pico cuando arranca el motor más exigente.
+
 | Carga que vas a conectar | Marcha: dato de placa/manual | Arranque: dato de placa/manual | Tensión y fase | Fuente consultada |
 | :--- | :--- | :--- | :--- | :--- |
 | Heladera / motor | ______ VA o W | ______ VA o A | ______ | ______ |

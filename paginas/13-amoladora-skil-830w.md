@@ -69,6 +69,4 @@ Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está d
 - **Contraste comercial, no fuente de especificación definitiva:** [publicación Sodimac 9004](https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/), [publicación Sodimac 9002](https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/) y [publicación de 9004JR](https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [amoladoras Makita por código](/amoladoras/makita/).
-
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

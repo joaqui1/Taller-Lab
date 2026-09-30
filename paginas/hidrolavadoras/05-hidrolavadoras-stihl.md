@@ -2,7 +2,7 @@
 title: "Hidrolavadoras Stihl: modelos, diferencias y precios"
 h1: "Cómo elegir una hidrolavadora Stihl"
 url: "/hidrolavadoras/stihl/"
-description: "Elegí entre STIHL RE 80 X, RE 90 y RE 110 por frecuencia, peso, alcance, presión, accesorios y servicio; incluye PVP sugeridos relevados con fecha."
+description: "Compará la gama eléctrica STIHL RE 80 X, RE 90, RE 110, RE 120, RE 145 y RE 150; separa RCA 20 a batería y RB a gasolina por alimentación y segmento."
 author: "Joaquín Vallasciani"
 category: "Hidrolavadoras y Limpieza"
 keywords: ["hidrolavadora stihl", "hidrolavadora stihl re 90", "stihl re 110 plus", "hidrolavadora stihl precios", "stihl hidrolavadoras argentina"]
@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Guía de compra por frecuencia de uso y características de RE 80 X, RE 90 y RE 110, con diferencias por modelo, servicio y PVP relevados con fecha."
+information_asset: "Comparativa de la gama STIHL RE eléctrica y de los segmentos RCA a batería y RB a gasolina, con presión, caudal, alcance y límites de los datos publicados."
 asset_status: "verificado"
-reviewed: "29/09/2026"
+reviewed: "30/09/2026"
 published: true
 ---
 
@@ -21,18 +21,24 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+**Dato documentado:** la gama eléctrica local incluye seis modelos de la serie RE. La comparación conserva por separado la presión de trabajo y la máxima cuando la ficha las identifica; una cifra máxima aislada no representa el rendimiento sostenido.
 
-**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+**Análisis TallerLab:** los grupos orientan por frecuencia, movilidad y construcción; no son resultados de una prueba física.
 
-**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+## Gama eléctrica con cable
 
-## Elegí por frecuencia de uso
+La tabla recorre la línea publicada en STIHL Argentina desde la RE 80 X hasta la RE 150. Peso y manguera ayudan a dimensionar el traslado y el alcance; los valores de presión y caudal sólo son comparables si la ficha usa la misma condición.
 
-- **RE 80 X — uso ocasional y tareas domésticas puntuales.** Es la más compacta del grupo: 7 kg operacionales y manguera de 5 m. STIHL la recomienda para terrazas, escaleras, muebles de jardín y limpieza doméstica. Es la opción lógica si priorizás llevarla y guardarla con facilidad.
-- **RE 90 — uso ocasional en casa y jardín con más alcance.** También está dirigida al usuario ocasional, pero suma un metro de manguera frente a la RE 80 X y declara ruedas y asa para moverla entre sectores. Considerala para patios, escaleras y muebles; el precio y el peso publicados son algo mayores.
-- **RE 110 — sesiones más exigentes y suciedad más persistente en casa o jardín.** El motor de inducción, el cabezal de bomba de aluminio, la boquilla rotativa y el set de detergente apuntan a una construcción y un kit más completos. Sus 17,6 kg y tamaño con ruedas convienen si se queda en un lugar o se traslada rodando, no si vas a cargarla con frecuencia.
+| Modelo / referencia | Presión publicada | Caudal máximo publicado | Manguera | Peso operacional | Orientación y diferencia útil |
+| :--- | :--- | ---: | ---: | ---: | :--- |
+| **RE 80 X** · RE020114551 | Rango 10–100 bar en la ficha local; la tienda separa un valor máximo | hasta 430 L/h | 5 m | 7 kg | Compacta para tareas ocasionales; es la más liviana de esta serie. |
+| **RE 90** · RE020114544 | 10–100 bar; la tienda indica máximo de 100 bar | hasta 440 L/h | 6 m | 8 kg | Para casa y jardín ocasionales; suma un metro de manguera, ruedas y asa frente a RE 80 X. |
+| **RE 110** · 49500114529 | Trabajo 10–110 bar en el catálogo técnico local | 440 L/h | 7 m | 17,6 kg | Motor de inducción y cabezal de bomba de aluminio; más equipada y pesada que RE 80 X y RE 90. |
+| **RE 120** · 49500114544 | Máxima 160 bar; la ficha local consultada no publica presión de trabajo | hasta 480 L/h | 8 m | 20 kg | Motor de inducción, bomba de aluminio y kit de ruedas; una configuración doméstica más equipada. |
+| **RE 145** · 49500114598 | Máxima 160 bar; la ficha local consultada no publica presión de trabajo | No informado en la ficha consultada | 8 m | 19,6 kg | Motor de inducción, cabezal de latón y chasis plegable con ruedas; STIHL la orienta a limpieza de tamaño medio. |
+| **RE 150** · RE010114515 | Trabajo 120 bar / máxima 180 bar | hasta 468 L/h | No informado en la ficha consultada | 30 kg | STIHL la dirige a usuarios exigentes y tareas semiprofesionales; pesa bastante más que RE 120 y RE 145. |
 
-Los tres modelos son eléctricos con cable, tensión nominal 220–230 V en las fichas STIHL. Para uso diario profesional, compará también ciclo de trabajo y disponibilidad de repuestos para el modelo exacto.
+**Lectura de las cifras:** RE 120 y RE 145 publican 160 bar como presión máxima, pero las fichas consultadas no informan su presión de trabajo. No las ordenes frente a RE 110 o RE 150 usando sólo ese máximo. El caudal máximo tampoco equivale necesariamente al caudal entregado a una presión concreta.
 
 <!-- HIDROLAVADORAS-COMERCIO -->
 
@@ -40,94 +46,53 @@ Los tres modelos son eléctricos con cable, tensión nominal 220–230 V en las 
 
 <!-- /HIDROLAVADORAS-COMERCIO -->
 
-## Comparativa de modelos STIHL y alternativas similares
+## Otros segmentos: batería y gasolina
 
-La **presión de trabajo** es la referencia útil para comparar la fuerza sostenida durante la limpieza; la **presión máxima** es el pico declarado y no describe por sí sola el rendimiento continuo. También importan el caudal (cuánta agua entrega), la longitud de manguera (alcance sin mover el equipo), el peso y la construcción del motor y la bomba. Los precios son publicaciones observadas en Argentina el **29/09/2026**; pueden cambiar y no garantizan stock.
+### RCA 20 a batería
 
-### Compactas para tareas ocasionales: RE 80 X y RE 90 frente a Kärcher K2
+La RCA 20 es una limpiadora compacta para tareas pequeñas y movilidad. El set local consultado incluye dos baterías AS 2, cargador AL 1, manguera de succión de 5 m y bolsa de agua de 20 L; puede trabajar sin conexión eléctrica ni toma de agua cercana. Declara 24 bar de presión máxima y pesa 1,3 kg. Por presión, caudal y autonomía pertenece a otro segmento que las RE con cable: sirve para bicicletas, muebles de jardín y limpiezas puntuales, no para reemplazar una RE en superficies extensas o suciedad adherida.
 
-| Modelo / referencia | Presión publicada | Caudal publicado | Manguera | Peso operacional | Motor / bomba | Precio publicado al 29/09/2026 |
-| :--- | :--- | ---: | ---: | ---: | :--- | ---: |
-| STIHL RE 80 X / RE020114551 | 10–100 bar en la ficha local; la tienda también presenta un dato de presión máxima distinto | hasta 430 L/h | 5 m | 7 kg | 1,70 kW; la ficha consultada no identifica tipo de motor o bomba | $193.974,18, tienda oficial STIHL |
-| STIHL RE 90 / RE020114544 | 10–100 bar; máximo 100 bar en la tienda oficial | hasta 440 L/h | 6 m | 8 kg | 2,10 kW; la ficha consultada no identifica tipo de motor o bomba | $234.897,22, tienda oficial STIHL |
-| Kärcher K2 Basic Black / 1.994-322.0 | hasta 110 bar; la ficha local no informa presión de trabajo | 280 L/h | 3 m en la ficha Kärcher Argentina; la tienda oficial de fábrica anuncia 4 m para su publicación | 3,8 kg sin accesorios | 1,2 kW; bomba axial de 3 pistones | $250.000, tienda oficial de fábrica Kärcher |
+### RB 200 y RB 600 a gasolina
 
-La K2 es más liviana y compacta, pero declara menos caudal y tiene una manguera más corta. Hay una diferencia entre la longitud de manguera informada en la ficha local y la publicación de la tienda para esa referencia: confirmá qué kit entrega el vendedor. Las RE 80 X y RE 90 priorizan más alcance y caudal publicado; esos datos no sustituyen una prueba comparable. Para lavar el auto, revisá la guía de [hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/). La [gama Kärcher K2 a K5](/hidrolavadoras/karcher/) permite ver las otras configuraciones de la marca.
+| Modelo | Presión publicada | Caudal | Peso | Segmento documentado |
+| :--- | :--- | ---: | ---: | :--- |
+| **RB 200** · 47890124609 | Hasta 170 bar | No informado en la ficha local consultada | No informado en la ficha local consultada | Equipo a gasolina de 5 hp para limpieza doméstica exterior. |
+| **RB 600** · 47910124600 | 10–220 bar | 680 L/h | 53,5 kg | Trabajo pesado; STIHL destaca bomba Triplex de grado comercial y aplicación profesional. |
 
-### Más alcance y construcción: RE 110 frente a Bosch GHP 220
+Los datos de presión, caudal y peso de RB 600 provienen del catálogo técnico argentino; para RB 200, la ficha del producto informa motor y presión máxima. Confirmá referencia, configuración y especificaciones en el manual entregado con la unidad. Una máquina a gasolina no es intercambiable con una eléctrica sólo por compartir un rango de presión: también cambian ruido, emisiones, movilidad, mantenimiento y ritmo de trabajo.
 
-| Modelo / referencia | Presión de trabajo / máxima | Caudal nominal publicado | Manguera | Peso | Motor / bomba | Precio publicado al 29/09/2026 |
-| :--- | :--- | ---: | ---: | ---: | :--- | ---: |
-| STIHL RE 110 / 49500114529 | 10–110 bar | 440 L/h | 7 m | 17,6 kg | inducción sin escobillas; cabezal de bomba de aluminio | $684.238,96, tienda oficial STIHL |
-| Bosch GHP 220 / 0600910EH0 | 101,2 / 151,8 bar | 6,1 L/min (366 L/h) | 8 m | aprox. 18 kg | inducción; bomba de placa oscilante y pistones triples de acero inoxidable | $699.191,65; $632.752,62 por transferencia, Bulonería Santa Fe |
+## Benchmark breve frente a otras marcas
 
-En precio publicado están cerca; Bosch suma un metro de manguera y STIHL declara 440 L/h frente a 6,1 L/min nominales (366 L/h) en Bosch. Para contrastar más opciones Bosch, consultá [hidrolavadoras Bosch](/hidrolavadoras/bosch/).
+Kärcher K2 sirve como referencia compacta para uso doméstico; Bosch GHP 220 permite ubicar una alternativa eléctrica más pesada y equipada cerca de RE 110/RE 120. En Bosch, la ficha consultada publica 101,2 bar nominales y 151,8 bar máximos; en K2 se informa hasta 110 bar, sin presión de trabajo local. No compares esos máximos como si fueran presión sostenida.
 
-### Qué cambia al subir de RE 80 X a RE 90 y RE 110
-
-| Salto de modelo | Qué suma | Qué cambia o se sacrifica |
+| Referencia | Datos útiles publicados | Diferencia frente a la gama STIHL |
 | :--- | :--- | :--- |
-| **RE 80 X → RE 90** | 1 m más de manguera (5 a 6 m), ruedas y asa de transporte documentadas; potencia declarada pasa de 1,70 a 2,10 kW. | El peso sube de 7 a 8 kg. Ambas se presentan para limpieza ocasional y el rango de presión de trabajo publicado por STIHL es 10–100 bar; la ficha consultada no demuestra más presión de trabajo para la RE 90. |
-| **RE 90 → RE 110** | 1 m más de manguera (6 a 7 m), motor de inducción sin escobillas, bomba con cabezal de aluminio, mango telescópico, compartimiento de accesorios, boquilla variable, boquilla rotativa y kit de detergente. La ficha de RE 110 anuncia hasta 110 bar y el catálogo argentino publica 440 L/h. | El peso sube de 8 a 17,6 kg. El mayor tamaño y precio sólo tienen sentido si necesitás el conjunto de funciones y una construcción más robusta. |
+| Kärcher K2 Basic Black · 1.994-322.0 | Hasta 110 bar, 280 L/h, manguera de 3 m y 3,8 kg sin accesorios | Más liviana y de menor alcance/caudal publicado que RE 80 X y RE 90. |
+| Bosch GHP 220 · 0600910EH0 | 101,2 bar nominales / 151,8 máximos, 366 L/h, manguera de 8 m y aprox. 18 kg | Longitud y peso cercanos a RE 110/RE 120; la presión y el caudal deben leerse con sus condiciones declaradas. |
 
-Los cambios se basan en lo publicado para cada referencia; no son resultado de una prueba de limpieza realizada en condiciones iguales.
+Para ampliar las gamas, consultá las guías de [Kärcher](/hidrolavadoras/karcher/) y [Bosch](/hidrolavadoras/bosch/).
 
-### Peso y traslado
+## Qué conviene revisar antes de elegir
 
-| Modelo | Peso operacional publicado | Lo que implica para el uso |
-| :--- | ---: | :--- |
-| RE 80 X, RE020114551 | 7 kg | La más fácil de cargar y guardar; no se publican ruedas en la ficha del modelo. |
-| RE 90, RE020114544 | 8 kg | Un kilo más que la RE 80 X; la ficha destaca asa larga y ruedas integradas para cambiarla de sector. |
-| RE 110, 49500114529 | 17,6 kg | Más del doble que la RE 80 X; las ruedas grandes y el asa/mango telescópico facilitan rodarla, aunque levantarla requiere más esfuerzo. |
-
-### Presión y caudal publicados
-
-| Modelo | Presión publicada | Caudal publicado | Cómo comparar |
-| :--- | :--- | :--- | :--- |
-| RE 80 X | STIHL Argentina describe rango de 10–100 bar; la tienda oficial también muestra un dato separado de presión máxima. | La tienda oficial publica hasta 430 L/h. | La ficha y la tienda no rotulan de forma idéntica la presión: confirmá el dato asociado al código y al manual de la unidad. |
-| RE 90 | STIHL Argentina describe rango de 10–100 bar; su tienda publica hasta 440 L/h. | Hasta 440 L/h. | El dato publicado no demuestra por sí solo más presión de trabajo que la RE 80 X. |
-| RE 110 | La página del modelo anuncia 110 bar; el catálogo técnico argentino especifica 10–110 bar. | 440 L/h en el catálogo técnico argentino. | La diferencia publicada es pequeña en caudal frente a RE 90; el peso, motor, bomba, manguera y equipamiento también forman parte del salto. |
-
-### Manguera y accesorios
-
-- **RE 80 X:** manguera de alta presión de 5 m, boquilla de chorro plano ajustable, boquilla rotativa y kit de pulverización de detergente incluidos según la ficha STIHL. Los acoplamientos rápidos permiten conectar manguera y pistola; la lanza, manguera y accesorios estándar se guardan en el equipo.
-- **RE 90:** manguera de alta presión de 6 m, boquilla de chorro plano regulable, boquilla rotativa, kit de pulverización de detergente, acoplamientos rápidos, asa y ruedas integradas. Los accesorios estándar y el cable tienen espacio/ganchos para guardado.
-- **RE 110:** manguera de alta presión de 7 m, acople rápido antitorsión, pistola con mango suave, tubo/lanza regulable, boquilla rotativa, boquilla plana con presión variable, kit pulverizador de detergente, ruedas grandes y mango telescópico.
-
-Para lavar autos o superficies delicadas, usá una boquilla regulable y mantené distancia; reservá la boquilla rotativa para superficies resistentes y suciedad incrustada.
-
-### Sistema de detergente
-
-Las fichas de RE 80 X, RE 90 y RE 110 incluyen un **set pulverizador de detergente** que se acopla a la lanza para añadir producto al chorro. No se documenta un depósito integrado con dosificación regulable en estos tres modelos. Si querés aplicar un detergente específico, comprobá que sea apto para hidrolavadoras y la superficie que vas a limpiar.
+- **Uso ocasional y traslado frecuente:** empezá por RE 80 X o RE 90. La RE 90 publica un metro más de manguera y ruedas; el rango de presión informado no demuestra una presión de trabajo mayor.
+- **Más alcance y equipo integrado:** RE 110 y RE 120 suman mangueras de 7 y 8 m, respectivamente, junto con motor de inducción y bomba de aluminio. Revisá el peso antes de decidir si vas a cargarla o moverla rodando.
+- **Tareas más exigentes:** RE 145 añade una bomba con cabezal de latón y chasis plegable con ruedas. RE 150 declara 120 bar de trabajo y está dirigida a usos semiprofesionales, pero pesa 30 kg.
+- **Sin red eléctrica o toma de agua:** evaluá la RCA 20 para limpieza chica y móvil; para trabajos a gasolina, compará la RB 200 o RB 600 según ritmo, superficie y mantenimiento disponible.
+- Confirmá código exacto, tensión, caudal en la condición de uso, contenido de caja, manguera y boquillas. Presión máxima, presión de trabajo y caudal máximo son datos distintos.
 
 ## Repuestos y servicio técnico
 
-STIHL Argentina vende estos modelos por medio de concesionarios oficiales y ofrece búsqueda de distribuidores, manuales y servicio de reparación/mantenimiento en la red especializada. La política argentina de garantía vigente consultada asigna **12 meses** a RE 80 X, RE 90 y RE 110 para uso hobby u ocasional; se aplican los términos del certificado y la factura.
+STIHL Argentina comercializa mediante concesionarios oficiales y ofrece búsqueda de distribuidores, manuales y servicio de reparación y mantenimiento. La política local consultada asigna 12 meses de garantía a RE 80 X, RE 90 y RE 110 para uso hobby u ocasional; no extiendo ese plazo a los modelos agregados sin una confirmación por referencia. Pedí por escrito la cobertura aplicable al código y uso previstos.
 
-Antes de comprar, pedí al concesionario el código exacto de manguera, pistola, acoples y boquillas de recambio para la referencia del equipo. La existencia de una red de servicio no confirma el stock inmediato de cada repuesto en cada localidad.
-
-## Precios STIHL relevados
-
-Precios capturados en la tienda oficial STIHL Argentina el **29/09/2026**. Son precios publicados con IVA; no garantizan disponibilidad en un concesionario.
-
-| Modelo / referencia | Potencia | Peso operacional | Precio relevado 29/09/2026 |
-| :--- | ---: | ---: | ---: |
-| RE 80 X, RE020114551 | 1,70 kW | 7 kg | $193.974,18 |
-| RE 90, RE020114544 | 2,10 kW | 8 kg | $234.897,22 |
-| RE 110, 49500114529 | 1,70 kW | 17,6 kg | $684.238,96 |
-
-## Una nota sobre las fichas
-
-Las páginas STIHL y su tienda no siempre rotulan igual los campos de presión máxima y de trabajo, en especial para RE 80 X. Se conserva el rango descrito en la ficha local y se señala la diferencia; verificá manual, placa y contenido de caja para el código vendido. El caudal tampoco aparece con el mismo nivel de detalle en todas las fichas.
+Antes de comprar, confirmá con el concesionario los códigos y la disponibilidad de manguera, pistola, acoples y boquillas de recambio para tu modelo. La existencia de una red de servicio no confirma stock inmediato en cada localidad.
 
 ## Fuentes consultadas
 
-- [STIHL RE 80 X, ficha de producto](https://www.stihl.com.ar/es/ap/re-80-x-141950) y [tienda oficial STIHL RE 80 X](https://tienda.stihl.com.ar/hidrolavadora-re80/p).
-- [STIHL RE 90, ficha de producto](https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963) y [tienda oficial STIHL RE 90](https://tienda.stihl.com.ar/hidrolavadora-re90/p).
-- [STIHL RE 110, ficha de producto](https://www.stihl.com.ar/es/ap/re-110-81523) y [catálogo oficial de hidrolavadoras STIHL Argentina](https://www.stihl.com.ar/es/c/hidrolavadoras-98132).
-- [Tienda oficial STIHL Argentina: hidrolavadoras y precios](https://tienda.stihl.com.ar/limpieza-y-hogar/hidrolavadoras); [Kärcher K2 Basic Black, precio y equipo](https://www.karcheronline.com.ar/hidrolavadora-k2-basic-black/p) y [ficha técnica Kärcher Argentina](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html).
-- [Manual oficial Bosch GHP 220, datos de la variante de 50 Hz](https://www.bosch-professional.com/binary/manualsmedia/o485788v21_F016L94691_202408.pdf); precio local en [Bulonería Santa Fe](https://buloneriasantafe.odoo.com/shop/1bohidro150d2100wb-hidrolavadora-2100-w-150-bar-bosch-ghp-220-0600910eh0-000-135592).
-- [Catálogo técnico STIHL Argentina](https://www.stihl.com.ar/content/dam/stihl/vu/ar/es/download-files/pdf-files/Argentina_spanish.pdf) — especificaciones de caudal de RE 110.
-- [Garantía oficial STIHL Argentina](https://tienda.stihl.com.ar/garantia); [manuales de usuario STIHL Argentina](https://tienda.stihl.com.ar/manuales); [servicio y localización de concesionarios](https://www.stihl.com.ar/es/c/servicios-tiendas-especialistas-98122).
+- [Catálogo vigente de hidrolavadoras STIHL Argentina](https://www.stihl.com.ar/es/c/hidrolavadoras-98132) — modelos y referencias listados; [catálogo técnico argentino](https://www.stihl.com.ar/content/dam/stihl/vu/ar/es/download-files/pdf-files/Argentina_spanish.pdf) — presión, caudal y peso publicados para RE 110 y RB 600.
+- Fichas oficiales: [RE 80 X](https://www.stihl.com.ar/es/ap/re-80-x-141950), [RE 90](https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963), [RE 110](https://www.stihl.com.ar/es/ap/re-110-81523), [RE 120](https://www.stihl.com.ar/es/p/hidrolavadoras-re-120-81512), [RE 145](https://www.stihl.com.ar/es/p/hidrolavadoras-re-145-167165) y [RE 150](https://www.stihl.com.ar/es/p/hidrolavadoras-re-150-109158).
+- Tienda oficial STIHL Argentina: [RCA 20](https://tienda.stihl.com.ar/hidrolavadora-rca20/p), [RE 120](https://tienda.stihl.com.ar/hidrolavadora-re120/p) y [RE 150](https://tienda.stihl.com.ar/hidrolavadora-re150/p).
+- [RB 200 a gasolina, ficha STIHL Argentina](https://www.stihl.com.ar/es/p/hidrolavadoras-rb-200-1003184); [RB 600 a gasolina, ficha STIHL Argentina](https://www.stihl.com.ar/es/p/hidrolavadoras-rb-600-78573).
+- Comparativas: [Kärcher K2 Basic Black, ficha argentina](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html); [manual oficial Bosch GHP 220, variante de 50 Hz](https://www.bosch-professional.com/binary/manualsmedia/o485788v21_F016L94691_202408.pdf).
+- [Garantía STIHL Argentina](https://tienda.stihl.com.ar/garantia), [manuales de usuario](https://tienda.stihl.com.ar/manuales) y [servicio y concesionarios oficiales](https://www.stihl.com.ar/es/c/servicios-tiendas-especialistas-98122).
 
-Para una decisión por tipo de tarea, consultá la [comparativa de hidrolavadoras por uso](/hidrolavadoras/comparativa-general/).
+Para elegir según la tarea, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

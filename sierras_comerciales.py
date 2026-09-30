@@ -36,10 +36,14 @@ OFFERS = {
     'DWS713': ('DeWalt DWS713', '1cgXhkN', 'Confirmá variante regional, revisión y contenido del kit.'),
     'DWS780': ('DeWalt DWS780', '11C2Bud', 'Confirmá variante regional, revisión y espacio para el carro telescópico.'),
     'TS42142107': ('TOTAL TS42142107', '1ci9crb', 'Confirmá código, tensión y capacidad al ángulo que necesitás.'),
+    'TPC190': ('Einhell TP-CS 18/190 Li BL-Solo', '2HJq7zg', 'Confirmá código exacto y contenido: la ficha argentina y el manual consultados publican distintas medidas/capacidades.'),
+    'GKS185LI': ('Bosch GKS 185-LI', '27m2VS2', 'Confirmá número de pedido 0 601 6C1 2E1 y si la publicación incluye batería y cargador.'),
+    'DCS570B': ('DeWalt DCS570B', '342aujj', 'Confirmá DCS570B, plataforma 20V MAX y contenido del kit; el fabricante indica batería y cargador por separado.'),
 }
 PENDING = {'4380', '4550', 'GSA1100E', 'SML2000-8'}
 CTAS = {key: f'Ver precio de {OFFERS[key][0]} →' for key in (
-    'CS1004-AR', 'TC-JS18', 'GST650', 'GST680', 'GST185LI', 'SML2000-9', 'SML2000B-9')}
+    'CS1004-AR', 'TC-JS18', 'GST650', 'GST680', 'GST185LI', 'SML2000-9', 'SML2000B-9',
+    'TPC190', 'GKS185LI', 'DCS570B')}
 # Número de archivo: modelos, encabezado de referencia, punto de inserción.
 PLACEMENTS = {
     1: (['GKS150', 'SC16', 'DWE560', 'CSL1500-8'], 'Diámetro y espesor: dos límites separados', 'section'),
@@ -71,6 +75,7 @@ PLACEMENTS = {
     27: (['CM-14K'], 'Capacidades y datos publicados de la CM-14K', 'table'),
     28: (['SFL300-8', 'SFL1100-9'], 'SFL250-8 vs SFL300-8 vs SFL1100-9', 'table'),
     29: (['TS223558-4'], 'TS223558 vs TS223558-4: qué sabemos realmente', 'section'),
+    30: (['TPC190', 'GKS185LI', 'DCS570B'], 'Ejemplos documentados de modelos a batería', 'inline'),
 }
 
 def url(key):

@@ -47,7 +47,7 @@ Para perforar y alternar con atornillados que requieren control fino, elegí un 
 
 ## Torque, percusión y motor
 
-En un taladro atornillador, el embrague de torque ayuda a ajustar la fuerza para atornillar sin barrer la cabeza. La percusión agrega golpes para perforar mampostería; no convierte el equipo en un rotomartillo SDS. El DCD794B es la opción de la tabla sin percusión declarada. Para perforar hormigón con frecuencia, usar brocas SDS o cincelar, compará [rotomartillos](/taladros/rotomartillos/).
+En un taladro atornillador, el embrague de torque ayuda a ajustar la fuerza para atornillar sin barrer la cabeza. La percusión agrega golpes para perforar mampostería; no convierte el equipo en un rotomartillo SDS. El DCD794B es la opción de la tabla sin percusión declarada. Para perforar hormigón con frecuencia, usar brocas SDS o cincelar, compará [rotomartillos](/taladros/rotomartillos/). Para la línea DeWalt DCH, seguí [DCH → rotomartillos DeWalt](/taladros/rotomartillo-dewalt/).
 
 Los tres códigos identifican motores brushless en las fichas consultadas. DeWalt presenta la tecnología sin carbones como eficiente y de menor mantenimiento, pero no medimos autonomía ni vida útil. La marca publica 404 UWO para el DCD794 y una comparación de potencia de salida entre DCD805 y DCD796 bajo condiciones indicadas por ella; UWO y las posiciones de embrague no deben leerse como valores de torque intercambiables entre modelos.
 

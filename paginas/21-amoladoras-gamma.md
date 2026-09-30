@@ -58,6 +58,8 @@ La ficha oficial del **G1910KAR** publica un conjunto de:
 
 Gamma no identifica en esa página la marca, el material, el espesor ni la especificación detallada de cada disco incluido. Por eso, no des por hecho que el lote sirve para cualquier metal, mampostería u operación: verificá las etiquetas de los discos y sus usos permitidos. La ficha del **G1910AR** de 750 W no describe el mismo paquete de diez discos y maletín; confirmá con el vendedor qué accesorios trae su caja concreta.
 
+Para identificar qué accesorio corresponde a cada operación y material, consultá la [guía de discos para amoladora](/amoladoras/discos/).
+
 Para comparar el costo, armá dos presupuestos: el G1910KAR completo y el G1910AR más los discos y el guardado que realmente necesitás. Usá precio final, envío y garantía vigentes; la diferencia de configuración puede justificar el kit, pero no implica que sea la mejor compra para quien ya tiene consumibles compatibles.
 
 ## Qué elegir según la necesidad
@@ -82,7 +84,5 @@ Gamma publica **24 meses de garantía para sus productos** y declara contar con 
 - **Gama y fichas de producto:** [Gamma G1922AR, 500 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/); [Gamma G1923AR, 710 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/); [Gamma G1910AR, 750 W](https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/); [Gamma G1910KAR, kit de 750 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/); [Gamma G1917AR, 850 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/).
 - **Garantía y red de servicio:** [Gamma, Servicio Técnico Oficial](https://www.gammaherramientas.com.ar/servicio-tecnico/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
-
-Para seguir comparando: [amoladoras Dowen Pagio](/amoladoras/dowen-pagio/).
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

@@ -11,9 +11,9 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Selector de requisitos para equipos de limpieza HVAC, diferenciado por unidad interior y exterior, con advertencia contra el uso directo de hidrolavadoras domésticas de alta presión."
+information_asset: "Selector que distingue hidrolavadoras domésticas, equipos HVAC de baja presión, limpiadoras a vapor HVAC y portátiles genéricas; incluye requisitos para unidades interiores y exteriores."
 asset_status: "verificado"
-reviewed: "29/09/2026"
+reviewed: "30/09/2026"
 published: true
 ---
 
@@ -23,6 +23,15 @@ published: true
 
 La búsqueda suele llevar a hidrolavadoras domésticas, pero limpiar un aire acondicionado requiere **caudal y presión controlables a baja presión**, método para recoger el agua cuando se trabaja en interiores y compatibilidad con el serpentín y los productos de limpieza. Para muchas tareas, el equipo indicado es un rociador de baja presión o una lavadora específica para serpentines, no una hidrolavadora doméstica.
 
+| Tipo de equipo | Para qué sirve | Qué tener en cuenta |
+| :--- | :--- | :--- |
+| **Hidrolavadora doméstica de alta presión** | Limpieza general de patios, vehículos y superficies resistentes. | No es una lavadora HVAC por tener boquilla regulable. No dirijas el chorro de alta presión a las aletas. |
+| **Equipo HVAC de baja presión** | Enjuague controlado de serpentines con un rociador o equipo diseñado para esa tarea. | Comprobá presión y caudal de trabajo publicados, control efectivo y patrón de boquilla; para unidades interiores, también recogida y drenaje. |
+| **Limpiadora a vapor HVAC — WIPCOOL C30S** | Máquina específica de limpieza de aire acondicionado con vapor, agua caliente/fría, pulso y ozono. | El fabricante publica 3–6 bar y hasta 3 L/min. Confirmá variante eléctrica, temperatura del modo y compatibilidad con el procedimiento de la unidad. |
+| **Portátil genérica** | Tareas chicas y móviles cuando importan peso o independencia de una toma cercana. | Puede no ser un equipo HVAC. Revisá presión, caudal, autonomía y alimentación de agua de la variante exacta; no deduzcas aptitud para serpentines por su tamaño. |
+
+La tabla separa categorías de uso: no implica que una portátil genérica o una máquina doméstica sustituya un equipo HVAC dedicado. En todos los casos, seguí las instrucciones del fabricante del aire acondicionado.
+
 ### Cómo investigamos esta guía
 
 - Tipo de análisis: documental
@@ -30,7 +39,7 @@ La búsqueda suele llevar a hidrolavadoras domésticas, pero limpiar un aire aco
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 29/09/2026
+- Última revisión: 30/09/2026
 
 
 **Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
@@ -61,11 +70,11 @@ Las instrucciones dependen del diseño de la unidad. Carrier recomienda para su 
 
 ## Equipo específico para limpieza de aire acondicionado
 
-### WIPCOOL C30S: agua y vapor para tareas HVAC
+### WIPCOOL C30S: máquina de limpieza a vapor para HVAC
 
-WIPCOOL presenta el **C30S** como un equipo de limpieza de aire acondicionado con modos de agua fría, agua caliente y vapor. El uso en cada unidad depende de las instrucciones del fabricante del aire acondicionado: elegí el modo compatible con sus materiales, componentes y procedimiento de mantenimiento.
+WIPCOOL clasifica el **C30S** como una máquina de limpieza a vapor dentro de su línea de mantenimiento HVAC; no es una hidrolavadora doméstica convencional. La ficha publica cinco modos: vapor, agua caliente, agua fría, pulso y tratamiento con ozono. El uso en cada unidad depende de las instrucciones del fabricante del aire acondicionado: elegí el modo compatible con sus materiales, componentes y procedimiento de mantenimiento.
 
-La [ficha del fabricante WIPCOOL](https://www.wipcool.com/high-quality-for-refrigeration-hand-oil-pump-steam-cleaning-machine-c30s-wipcool-product/) distingue versiones eléctricas y declara 3–6 bar de trabajo y hasta 3 L/min. La versión de 230 V figura con 3.300 W máximos, mientras que el título del enlace suministrado anuncia 3.000 W: **confirmá potencia, tensión y placa de la unidad ofrecida**, además del manual y el kit.
+La [ficha oficial del C30S](https://www.wipcool.com/steam-cleaning-machine-c30s-product/) declara 3–6 bar en el campo de presión de trabajo y hasta 3 L/min. Distingue la versión de 230 V (3.300 W máximos; vapor a 130–150 °C y agua hasta 60–85 °C) de la versión de 100–120 V (2.000 W; vapor a 120–130 °C y agua hasta 50–75 °C). Verificá cuál versión ofrece el vendedor y no supongas que vapor, agua caliente, pulso u ozono son adecuados para cualquier unidad o recubrimiento.
 
 Antes de comprar, comprobá las boquillas, mangueras, regulación, garantía y repuestos locales. Para un split interior, verificá también bolsa de lavado y drenaje; no damos por incluidos esos accesorios. El agua caliente y el vapor requieren compatibilidad explícita con la unidad y sus recubrimientos. Esta guía no incluye una prueba física del C30S ni verifica precio o stock de la publicación enlazada.
 
@@ -89,7 +98,7 @@ Esta guía es documental: no se hicieron pruebas con equipos ni se validó un mo
 ## Fuentes consultadas
 
 - **Fabricante de climatización:** [Carrier, limpieza de serpentines de aire acondicionado](https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/); [manual oficial Daikin UATYA, limpieza exterior de serpentines](https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf).
-- **Equipo HVAC:** [ficha oficial WIPCOOL C30S, versiones eléctricas y modos](https://www.wipcool.com/high-quality-for-refrigeration-hand-oil-pump-steam-cleaning-machine-c30s-wipcool-product/).
+- **Equipo HVAC:** [ficha oficial WIPCOOL C30S, máquina de limpieza a vapor, especificaciones por tensión y modos](https://www.wipcool.com/steam-cleaning-machine-c30s-product/).
 - **Documentación primaria de hidrolavadora:** [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
 
 Para otras tareas con equipos domésticos, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

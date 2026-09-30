@@ -23,10 +23,6 @@ published: true
 
 La referencia documentada aquí es la **Dogo Dogostar 180 Moderna, código DOG50045**. “180” es el máximo publicado del rango de salida (20–180 A), no una corriente continua. Dogo publica servicio de 2,5 mm al 100%, 3,2 mm al 80%, 4 mm al 60% y 5 mm al 30%; la ficha también limita su lista de electrodos a 4 mm, así que confirmá el dato de 5 mm para la unidad exacta.
 
-## Para quién tiene sentido
-
-Puede tener sentido para MMA ocasional o herrería liviana si la corriente, el ciclo de trabajo por electrodo y la red de 220 V coinciden con tu uso. Para cordones largos o repetidos, pedí el amperaje asociado a cada porcentaje antes de decidir.
-
 <!-- AUDITORIA_EDITORIAL_178 -->
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental, sin prueba física ni muestra de opiniones.
@@ -56,7 +52,7 @@ Puede tener sentido para MMA ocasional o herrería liviana si la corriente, el c
 
 ## Para qué usos conviene
 
-Usá los porcentajes publicados para anticipar pausas según el electrodo habitual. Dogo no asocia en la ficha el amperaje exacto con cada porcentaje, así que el porcentaje y el diámetro por sí solos no determinan qué corriente podés sostener:
+Puede tener sentido para MMA ocasional o herrería liviana si la corriente, el ciclo de trabajo por electrodo y la red de 220 V coinciden con tu uso. Usá los porcentajes publicados para anticipar pausas según el electrodo habitual; Dogo no asocia en la ficha el amperaje exacto con cada porcentaje, por lo que el porcentaje y el diámetro por sí solos no determinan qué corriente podés sostener. Para cordones largos o repetidos, pedí ese dato antes de decidir.
 
 | Si tu trabajo suele usar… | Qué dice la ficha DOG50045 | Criterio práctico |
 | :--- | :--- | :--- |
@@ -65,7 +61,7 @@ Usá los porcentajes publicados para anticipar pausas según el electrodo habitu
 | 4,0 mm | 60% | Corresponde a servicio intermitente según la tabla del fabricante; confirma corriente requerida, junta y ritmo de trabajo. |
 | 5,0 mm | 30% | La tabla publica este porcentaje, pero el campo “tipos de electrodos” de la ficha termina en 4 mm. No tomes el 30% como aval general de compatibilidad del electrodo de 5 mm: pedí confirmación a Dogo para DOG50045. |
 
-En una reparación ocasional o herrería liviana, decidí por el diámetro que realmente usás, el ajuste publicado del consumible y las pausas tolerables. Si trabajás repetidamente con 3,2 o 4 mm, compará los factores de servicio del equipo alternativo y pedí su corriente asociada; los datos de la tienda no bastan para estimar producción continua. La descripción del fabricante enumera electrodos celulósicos, rutílicos, básicos, inoxidables y de fundición limable, pero la ficha del electrodo debe confirmar corriente, polaridad y compatibilidad con la tarea.
+Si trabajás repetidamente con 3,2 o 4 mm, compará los factores de servicio del equipo alternativo y pedí su corriente asociada; los datos de la tienda no bastan para estimar producción continua. La descripción del fabricante enumera electrodos celulósicos, rutílicos, básicos, inoxidables y de fundición limable, pero la ficha del electrodo debe confirmar corriente, polaridad y compatibilidad con la tarea.
 
 ### Comparación contextual con Dogo 160 y 200
 
@@ -89,7 +85,7 @@ La ficha DOG50045 lista **pinza de masa y portaelectrodos**. No presenta la torc
 
 Para probar TIG por raspado, además de la máquina necesitás una **torcha TIG que Dogo confirme compatible con DOG50045**; la tienda vende por separado distintas antorchas y conectores, pero no conviene inferir compatibilidad sólo por amperaje o por el nombre “DogoStar”. También verificá suministro de argón con regulador/caudalímetro, electrodo de tungsteno, pinza/collet y consumibles de la torcha; la página del equipo no dice que estos elementos estén incluidos. El TIG por raspado es una función auxiliar declarada, no evidencia de encendido HF, AC/DC para aluminio o controles de una TIG dedicada.
 
-Elegí la DOG50045 si su servicio por diámetro y las pausas previstas cuadran con tu trabajo y confirmaste el consumible y la red de 220 V. Pasá a la DOG50044 si el servicio publicado de 160 A cubre tus necesidades sin buscar el punto de 5 mm; compará la DOG50046 si la continuidad con 3,2 mm o el 5 mm con servicio parcial es decisiva, pero pedí el amperaje asociado. Revisá también garantía, servicio local, repuestos, placa/manual, kit real y precio vigente: la disponibilidad y las ofertas de la tienda cambian.
+Antes de comprar, revisá garantía, servicio local, repuestos, placa/manual y kit real; confirmá el precio y la disponibilidad de la oferta vigente.
 
 ## Fuentes consultadas
 

@@ -78,7 +78,8 @@ def main():
         html = client.get(f"/{section}/").get_data(as_text=True)
         page = Page(html)
         assert f'Por <a href="{site.AUTHOR_PATH}">{site.AUTHOR_NAME}</a>' in html, section
-        anchors = [anchor for _, anchor, _, _ in site.HUB_STEPS]
+        steps = site.COMPRESSOR_HUB_STEPS if section == "compresores" else site.HUB_STEPS
+        anchors = [anchor for _, anchor, _, _ in steps]
         assert [identifier for identifier in page.ids if identifier in anchors] == anchors, section
         for article in site.ALL_ARTICLES:
             if article["section"] == section:

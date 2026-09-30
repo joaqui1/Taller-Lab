@@ -74,7 +74,7 @@ Una opción de menor precio puede resolver un uso ocasional si corresponde al tr
 
 ## Qué características importan y cuáles engañan
 
-**Importan:** el diámetro y montaje del accesorio admitido, las rpm máximas del accesorio frente a la máquina, la guarda indicada, el peso, el agarre, el cable o la plataforma de batería y las funciones concretas descritas en el manual. En una amoladora de banco, compará además diámetro, espesor y orificio de la muela.
+**Importan:** el diámetro y montaje del accesorio admitido, las rpm máximas del accesorio frente a la máquina, la guarda indicada, el peso, el agarre, el cable o la plataforma de batería y las funciones concretas descritas en el manual. Si necesitás ajustar las rpm al accesorio o al trabajo, compará [amoladoras de velocidad variable](/amoladoras/velocidad-variable/). En una amoladora de banco, compará además diámetro, espesor y orificio de la muela.
 
 **Pueden engañar si se leen solas:** los watts no prueban que una máquina corte más rápido que otra de otra familia; las rpm en vacío no equivalen a velocidad bajo carga; y una etiqueta como “profesional”, “brushless” o “de alto rendimiento” no reemplaza datos comparables ni pruebas. Tampoco se debe deducir autonomía a partir del voltaje o de la capacidad nominal de una batería sin condiciones de uso.
 

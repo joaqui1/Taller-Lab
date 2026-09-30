@@ -15,7 +15,7 @@ import urllib.parse
 from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
-from hubs import HUB_EDITORIAL, HUB_STEPS
+from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_EDITORIAL, HUB_STEPS
 from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
@@ -366,6 +366,12 @@ QUICK_BY_SECTION = {
 # Las selecciones editoriales de una guía se declaran por URL. No se reutiliza
 # una recomendación de categoría en artículos con necesidades distintas.
 QUICK_BY_ARTICLE = {
+    "/hidrolavadoras/comparativa-general/": [
+        ("Auto", "Guía para lavar el auto", "Compará manguera, caudal y accesorios para el vehículo", "Elegí un chorro controlable y mantené distancia prudente", "/hidrolavadoras/para-autos/"),
+        ("Sin enchufe", "Hidrolavadora inalámbrica", "Priorizá movilidad cuando no tenés una toma cercana", "Autonomía y caudal pueden ser más limitados", "/hidrolavadoras/inalambricas/"),
+        ("Trabajo frecuente", "Hidrolavadora profesional", "Dimensioná la máquina para las horas de uso previstas", "Verificá alimentación, ciclo de trabajo y servicio técnico", "/hidrolavadoras/profesionales/"),
+        ("HVAC", "Limpieza de aire acondicionado", "Revisá presión controlable, drenaje y acceso", "Seguí el procedimiento indicado para la unidad", "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"),
+    ],
     "/compresores/50-litros/": [
         ("Uso intermitente", "Lüsqtoff LC2550B-8", "50 L y 206 L/min de flujo declarados", "El caudal entregado a presión de trabajo no está informado", "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"),
         ("Inflar y sopletear", "Gamma G2802AR", "Tanque de 50 L y motor de 2,5 HP según su manual", "La página comercial y el manual discrepan en la potencia; confirmá la variante", "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf"),
@@ -392,7 +398,8 @@ def render_quick_guide(article):
     if not rows:
         return ""
     cards = "".join(f'<article><span>{escape(need)}</span><h3>{escape(choice)}</h3><p><strong>Ventaja:</strong> {escape(advantage)}</p><p><strong>Límite:</strong> {escape(limit)}</p><a href="{escape(path, quote=True)}"{(" target=\"_blank\" rel=\"noopener noreferrer\"" if path.startswith("https://") else "")}>{"Ver fuente ↗" if path.startswith("https://") else "Ver guía →"}</a></article>' for need, choice, advantage, limit, path in rows)
-    kicker = 'MODELOS CON FICHA CONSULTADA' if article["url"] in QUICK_BY_ARTICLE else 'ORIENTACIÓN POR TAREA'
+    has_product_sources = bool(rows) and all(path.startswith("https://") for *_, path in rows)
+    kicker = 'MODELOS CON FICHA CONSULTADA' if has_product_sources else 'ORIENTACIÓN POR TAREA'
     return f'<section class="quick-guide" aria-label="Recomendación rápida"><span class="section-kicker">ANTES DE LEER · {kicker}</span><h2>Elegí según tu tarea</h2><div class="quick-grid">{cards}</div></section>'
 
 def render_50l_models():
@@ -558,11 +565,13 @@ TAXONOMY_MAP = {
             "06-sierra-de-banco.md",
             "07-sierra-sin-fin-para-metal.md",
             "21-ingletadoras.md",
-            "19-sierra-sable-inalambrica.md"
+            "19-sierra-sable-inalambrica.md",
+            "30-sierra-circular-inalambrica.md"
         ],
         "marcas": [
             "08-ingletadora-einhell.md",
             "10-caladora-skil.md",
+            "09-sierra-de-banco-einhell.md",
             "12-sensitiva-dewalt.md",
             "27-sensitiva-lusqtoff.md",
             "29-sensitiva-total.md",
@@ -577,7 +586,6 @@ TAXONOMY_MAP = {
             "28-sierra-sin-fin-lusqtoff.md"
         ],
         "modelos": [
-            "09-sierra-de-banco-einhell.md",
             "16-sierra-circular-bosch-gks-150.md",
             "23-sierra-circular-dewalt-dwe560.md",
             "24-stanley-sc16.md"
@@ -1785,8 +1793,11 @@ def render_home_page():
     articles = {a["url"]: a for a in ALL_ARTICLES}
     categories = "".join(f'''<a class="home-category" href="/{key}/"><span class="home-category-number">{i:02d}</span><div><h3>{escape(meta["name"])}</h3><p>{escape(HOME_CATEGORY_COPY[key])}</p></div><span aria-hidden="true">↗</span></a>''' for i, (key, meta) in enumerate(CATEGORY_META.items(), 1))
     comparisons = []
-    for i, (url, title, description) in enumerate(HOME_COMPARISONS, 1):
-        article = articles[url]
+    for url, title, description in HOME_COMPARISONS:
+        article = articles.get(url)
+        if article is None:
+            continue
+        i = len(comparisons) + 1
         comparisons.append(f'''<a class="home-comparison" href="{url}"><div class="home-comparison-top"><span>{i:02d} / COMPARATIVA</span><span>{escape(CATEGORY_META[article["section"]]["name"])}</span></div><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Comparar opciones <span aria-hidden="true">→</span></span></a>''')
     tools = []
     for url, kind, title, description, unit in HOME_TOOLS:
@@ -1810,16 +1821,25 @@ def render_category_page(section_id):
     meta = CATEGORY_META[section_id]
     editorial = HUB_EDITORIAL[section_id]
     taxonomy = TAXONOMY_MAP[section_id]
-    groups = {key: [a for a in articles if a["filename"] in taxonomy[key]] for key, *_ in HUB_STEPS}
+    if section_id == "compresores":
+        groups = {key: [a for a in articles if a["filename"] in COMPRESSOR_HUB_FILES[key]] for key, *_ in COMPRESSOR_HUB_STEPS}
+    else:
+        groups = {key: [a for a in articles if a["filename"] in taxonomy[key]] for key, *_ in HUB_STEPS}
     if editorial.get("main"):
         main = next(a for a in articles if a["filename"] == editorial["main"])
         groups["general"].insert(0, main)
         groups["necesidad"] = [a for a in groups["necesidad"] if a != main]
+    separate_category = editorial.get("separate_category")
+    separate_article = next((a for a in articles if separate_category and a["filename"] == separate_category["filename"]), None)
+    if separate_article:
+        groups = {key: [a for a in group if a != separate_article] for key, group in groups.items()}
     assigned = {a["url"] for group in groups.values() for a in group}
+    if separate_article:
+        assigned.add(separate_article["url"])
     if assigned != {a["url"] for a in articles}:
         raise ValueError(f"Hay guías sin recorrido editorial en {section_id}")
     trunk = next((a for a in articles if a["url"] == f"/{section_id}/"), None)
-    visible_steps = [step for step in HUB_STEPS if section_id != "taladros" or step[0] != "general"]
+    visible_steps = COMPRESSOR_HUB_STEPS if section_id == "compresores" else [step for step in HUB_STEPS if section_id != "taladros" or step[0] != "general"]
     step_labels = {
         "necesidad": "Tipo de herramienta",
         "marcas": "Marca",
@@ -1835,13 +1855,24 @@ def render_category_page(section_id):
     if editorial.get("start_links"):
         links = "".join(f'<a href="{url}">{escape(label)} <span aria-hidden="true">→</span></a>' for label, url in editorial["start_links"])
         start_links = f'<aside class="hub-start"><strong>Empezá por acá</strong><nav aria-label="Accesos rápidos">{links}</nav></aside>'
+    separate_category_html = ""
+    if separate_category and separate_article:
+        card = render_article_card(separate_article, badge_text="ALTERNATIVA", action_text="Ver guía")
+        separate_category_html = f'<section class="hub-section hub-alternative" aria-labelledby="hub-alternative-title"><div class="hub-section-heading"><span class="hub-step" aria-hidden="true">↗</span><div><h2 id="hub-alternative-title">{escape(separate_category["title"])}</h2><p>{escape(separate_category["description"])}</p></div></div><div class="article-grid">{card}</div></section>'
     task_selector = ""
     if editorial.get("task_selector"):
-        rows = "".join(
-            f'<tr><th scope="row">{escape(task)}</th><td><a href="{url}">{escape(tool)}</a></td></tr>'
-            for task, tool, url in editorial["task_selector"]
-        )
-        task_selector = f'<section class="hub-task-selector" aria-labelledby="hub-task-selector-title"><div class="hub-section-heading"><div><h2 id="hub-task-selector-title">Qué tipo de sierra necesitás</h2><p>Empezá por el trabajo y abrí la guía de la herramienta que puede resolverlo.</p></div></div><div class="table-scroll"><table><thead><tr><th scope="col">Trabajo</th><th scope="col">Herramienta</th></tr></thead><tbody>{rows}</tbody></table></div></section>'
+        if section_id == "taladros":
+            cards = "".join(
+                f'<a class="hub-task-card" href="{escape(url, quote=True)}"><span class="hub-task-number" aria-hidden="true">{i:02}</span><span class="hub-task-name">{escape(task)}</span><span class="hub-task-type">{escape(tool)}</span><span class="hub-task-description">{escape(description)}</span><span class="hub-task-action">Ver guía <span aria-hidden="true">→</span></span></a>'
+                for i, (task, tool, description, url) in enumerate(editorial["task_selector"], 1)
+            )
+            task_selector = f'<section class="hub-task-selector" aria-labelledby="hub-task-selector-title"><div class="hub-section-heading"><div><h2 id="hub-task-selector-title">Elegí por tarea</h2><p>¿Qué necesitás hacer? Abrí la guía correspondiente al material o al tipo de trabajo.</p></div></div><div class="hub-task-grid">{cards}</div></section>'
+        else:
+            rows = "".join(
+                f'<tr><th scope="row">{escape(task)}</th><td><a href="{url}">{escape(tool)}</a></td></tr>'
+                for task, tool, url in editorial["task_selector"]
+            )
+            task_selector = f'<section class="hub-task-selector" aria-labelledby="hub-task-selector-title"><div class="hub-section-heading"><div><h2 id="hub-task-selector-title">Qué tipo de sierra necesitás</h2><p>Empezá por el trabajo y abrí la guía de la herramienta que puede resolverlo.</p></div></div><div class="table-scroll"><table><thead><tr><th scope="col">Trabajo</th><th scope="col">Herramienta</th></tr></thead><tbody>{rows}</tbody></table></div></section>'
     main_guide = render_article_page(trunk, embedded=True) if trunk and section_id == "amoladoras" else ""
     sections = []
     for i, (key, anchor, default_label, default_desc) in enumerate(visible_steps, 1):
@@ -1875,12 +1906,13 @@ def render_category_page(section_id):
       {task_selector}
       {main_guide}
       {start_links}
+      {separate_category_html}
       <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
       <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
       {"".join(sections)}
     </div>'''
     schema = article_schema_tag(trunk) if trunk else ""
-    return HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else meta["name"], CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    return HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
 def render_article_page(article, embedded=False):

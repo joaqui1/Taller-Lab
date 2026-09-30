@@ -25,7 +25,7 @@ Empezá por el material y la frecuencia de uso. Después verificá que el portab
 
 **Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
 
-## Modelos según uso y presupuesto
+## Modelos según uso y nivel de exigencia
 
 | Trabajo habitual | Tipo de equipo para comparar | En qué fijarte antes de comprar |
 | :--- | :--- | :--- |

@@ -8,9 +8,58 @@ HUB_STEPS = (
     ("accesorios", "accesorios", "Accesorios", "Comprobá medidas, encastres y consumibles antes de completar el equipo."),
 )
 
+COMPRESSOR_HUB_STEPS = (
+    ("uso", "elegir-por-uso", "Elegir por uso", "Empezá por la tarea: inflar, pintar, aerografiar o alimentar herramientas neumáticas."),
+    ("capacidad", "capacidad-y-tipo", "Capacidad y tipo", "Compará tanque, alimentación y construcción según el trabajo y el ciclo previsto."),
+    ("marcas-modelos", "marcas-y-modelos", "Marcas y modelos", "Revisá fabricantes y códigos concretos con sus datos documentados."),
+    ("linea", "linea-de-aire-y-accesorios", "Línea de aire y accesorios", "Comprobá mangueras, conexiones, consumibles y herramientas compatibles."),
+)
+
+COMPRESSOR_HUB_FILES = {
+    "uso": [
+        "01-compresor-de-aire-para-auto.md",
+        "04-aerografo-con-compresor.md",
+        "07-compresor-para-aerografo.md",
+        "21-compresor-para-pintar.md",
+        "22-inflador-de-neumaticos-portatil.md",
+    ],
+    "capacidad": [
+        "02-compresor-de-50-litros.md",
+        "11-compresor-de-100-litros.md",
+        "15-compresor-sin-aceite.md",
+        "16-compresor-de-200-litros.md",
+        "18-compresor-de-24-litros.md",
+        "19-compresor-inalambrico.md",
+        "23-compresor-12v-doble-piston.md",
+    ],
+    "marcas-modelos": [
+        "09-compresor-lusqtoff-50-litros.md",
+        "12-compresor-gamma-50-litros.md",
+        "14-compresor-lusqtoff-100-litros.md",
+        "17-compresor-bta-25-litros.md",
+        "20-compresor-stanley.md",
+    ],
+    "linea": [
+        "03-manguera-para-compresor-de-aire.md",
+        "05-pistola-para-pintar-con-compresor.md",
+        "06-acople-rapido-para-compresor.md",
+        "08-aceite-para-compresor-de-aire.md",
+        "10-filtro-de-aire-para-compresor.md",
+        "13-kit-para-compresor-de-aire.md",
+    ],
+}
+
 HUB_EDITORIAL = {
     "hidrolavadoras": {
+        "page_title": "Hidrolavadoras: guías, marcas y comparativas",
         "intro": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+        "start_links": [
+            ("Comparativa general", "/hidrolavadoras/comparativa-general/"),
+            ("Para autos", "/hidrolavadoras/para-autos/"),
+            ("Inalámbricas", "/hidrolavadoras/inalambricas/"),
+            ("Profesionales", "/hidrolavadoras/profesionales/"),
+            ("Aire acondicionado", "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"),
+        ],
         "criteria": ["Presión de trabajo y máxima por separado", "Caudal con su condición de medición", "Manguera, conexión y alimentación de agua"],
         "accessories": ["Confirmá el encastre de pistola, lanza y boquillas en el manual del código exacto.", "Revisá longitud y presión admisible de la manguera, y si el kit incluye dosificador.", "No deduzcas compatibilidad entre gamas por compartir marca."],
     },
@@ -25,10 +74,20 @@ HUB_EDITORIAL = {
     "taladros": {
         "intro": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
         "main": "01-taladro-inalambrico.md",
-        "start_links": [("Comparar taladros inalámbricos", "/taladros/inalambricos/")],
         "criteria": ["Función y material de trabajo", "Mandril o encastre SDS", "Plataforma y baterías incluidas por código"],
+        "task_selector": [
+            ("Atornillar y perforar sin cable", "Inalámbricos", "Para madera, metal y tareas cotidianas donde importa la movilidad.", "/taladros/inalambricos/"),
+            ("Perforar ladrillo y mampostería", "Percutores", "La percusión ayuda en mampostería; elegí la broca según el material.", "/taladros/percutores/"),
+            ("Perforar hormigón o cincelar", "Rotomartillos", "Sistema SDS para perforaciones exigentes y trabajos de cincelado compatibles.", "/taladros/rotomartillos/"),
+            ("Ajustar fijaciones exigentes", "Atornilladores de impacto", "Encastre hexagonal y golpes tangenciales para atornillar; no reemplaza un taladro.", "/taladros/atornilladores-de-impacto/"),
+            ("Atornillar placas de yeso", "Durlock", "Controlá la profundidad para colocar tornillos de forma pareja.", "/taladros/para-durlock/"),
+            ("Perforar recto y en serie", "Taladros de banco", "La pieza queda apoyada mientras la broca baja guiada por la columna.", "/taladros/taladro-de-banco/"),
+            ("Perforar cerámica", "Brocas para cerámica", "Usá una broca adecuada y evitá la percusión para reducir roturas.", "/taladros/brocas-ceramica/"),
+            ("Perforar porcelanato", "Mechas para porcelanato", "Elegí una mecha específica y seguí las indicaciones para ese material.", "/taladros/mecha-porcelanato/"),
+        ],
     },
     "sierras": {
+        "page_title": "Sierras: tipos y cómo elegir según el trabajo",
         "intro": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
         "main": "01-sierra-circular.md",
         "criteria": ["Material y tipo de corte", "Capacidad a cada ángulo publicado", "Diámetro, eje o encastre de la hoja"],
@@ -54,6 +113,11 @@ HUB_EDITORIAL = {
     "generadores": {
         "intro": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
         "criteria": ["Potencia nominal, máxima y unidad", "Fases, tensión y cargas previstas", "Combustible y autonomía con su condición"],
+        "separate_category": {
+            "filename": "20-estaciones-de-energia-portatiles.md",
+            "title": "Estaciones de energía / baterías",
+            "description": "Una alternativa a la combustión para cargas compatibles: compará energía almacenada, potencia de salida y formas de recarga.",
+        },
         "start_links": [
             ("Elegir generador", "/generadores/comparativa-general/"),
             ("Calcular para casa", "/generadores/para-casa/"),

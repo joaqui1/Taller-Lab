@@ -27,14 +27,7 @@ published: true
 
 **Dato documentado:** las cifras se atribuyen al documento indicado en cada tabla. Los cálculos se identifican como **Análisis TallerLab**; lo no confirmado queda como **Desconocido**. Esta guía es documental y no incluye prueba física.
 
-## Cómo investigamos esta guía
-
-- Tipo de análisis: documental
-- Prueba física de TallerLab: no
-- Especificaciones contrastadas: sí
-- Opiniones de compradores: no
-- Fuentes primarias: sí
-- Última revisión: 28/09/2026
+## Especificaciones técnicas y ciclo de trabajo
 
 | Parámetro HandyArc 162i (0409616) | Dato publicado por ESAB Argentina |
 | :--- | :--- |
@@ -56,6 +49,8 @@ published: true
 **Dato documentado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
 
 **Análisis TallerLab:** la relación de la propia tabla impide interpretar «162» o «160 A» como corriente sostenida: el amperaje publicado varía según ciclo. El generador de 10,5 kVA es una recomendación de ESAB para el producto y no verifica por sí sola el tamaño de cualquier instalación, alargue o generador disponible.
+
+## Qué revisar antes de comprar
 
 | Antes de comprar | Confirmación necesaria |
 | :--- | :--- |
@@ -102,3 +97,12 @@ Si comparás MMA por ciclo y corriente de trabajo, revisá la guía de [inverter
 
 - **Documentación primaria:** [ESAB HandyArc 142i/162i, página oficial Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/); [hoja técnica ESAB HandyArc 162i](https://assets.esab.com/assetbank-esab/assetfile/41560.pdf); [ESAB Sureweld 6013](https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/); [ESAB LBL BW E6013](https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/); [ESAB Atom Arc 7018](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
+
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026

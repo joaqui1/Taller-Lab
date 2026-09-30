@@ -23,6 +23,18 @@ published: true
 
 **Dato documentado:** las especificaciones se atribuyen a las fuentes identificadas. Los cálculos del ejemplo se marcan como **Análisis TallerLab**. Esta guía es documental y no incluye prueba física.
 
+## Elegí según tu necesidad
+
+| Necesidad | Guía |
+| :--- | :--- |
+| Casa | [Generadores para casa](/generadores/para-casa/) |
+| Bajo ruido | [Generadores silenciosos](/generadores/silenciosos/) |
+| Electrónica | [Generadores inverter](/generadores/inverter/) |
+| 380 V | [Generadores trifásicos](/generadores/trifasicos/) |
+| Uso prolongado | [Generadores diésel](/generadores/diesel/) |
+| Gas | [Generadores a gas](/generadores/a-gas/) |
+| Movilidad | [Generadores portátiles](/generadores/portatiles/) |
+
 ## Cómo investigamos esta guía
 
 - Tipo de análisis: documental

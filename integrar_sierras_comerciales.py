@@ -29,6 +29,13 @@ def main():
         path = re.search(r'^url: "([^"]+)"', text, re.M)[1]
         keys = [key for key in requested if key in OFFERS and key not in PENDING]
         if keys:
+            if mode == 'inline':
+                offers = [dict(model=key, url=url(key), cta=cta(key)) for key in keys]
+                if not all(text.count(offer['url']) == 1 for offer in offers):
+                    raise ValueError(f'Los CTA inline deben aparecer una vez en {file.name}')
+                configs[path] = dict(file=file.name, models=keys, anchor=heading, position=mode,
+                    offers=offers, pending=[])
+                continue
             if number == 4:
                 # Sustituir el CTA antiguo; mantener su fuente y explicación de variante.
                 text = re.sub(r'(?m)^Si el máximo documentado.*https://meli\.la/1ntghna.*\n', '', text)

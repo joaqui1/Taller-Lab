@@ -117,7 +117,7 @@ La [ficha y manual Gamma](https://www.gammaherramientas.com.ar/producto/grupo-el
 
 ### Lüsqtoff LG3000: escalón de 2–3 kVA
 
-La [ficha Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LG3000) publica 2,5 kVA nominales / 2,8 kVA máximos, arranque manual y tanque de 15 L. La [guía a nafta](/generadores/a-nafta/) conserva la discrepancia entre esos campos y otro rótulo de potencia del fabricante; confirmá placa y manual.
+La [ficha Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LG3000) publica 2,5 kVA nominales / 2,8 kVA máximos, arranque manual y tanque de 15 L. También presenta una discrepancia en otro rótulo de potencia, detallada abajo; confirmá la placa y el manual del equipo ofrecido.
 
 [Ver precio del Lüsqtoff LG3000](https://meli.la/2fhftj7)
 

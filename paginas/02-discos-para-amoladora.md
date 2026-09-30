@@ -53,8 +53,9 @@ También existen cepillos y otros accesorios para máquinas compatibles; no son 
 | Hormigón: cortar | Diamantado para hormigón | Lista de materiales, diámetro, montaje y condiciones de uso indicadas |
 | Cerámica o azulejo: cortar | Diamantado para cerámica | Tipo de baldosa admitido, diseño del borde y montaje |
 | Porcelanato o pieza dura | Disco cuya ficha cubra explícitamente ese material | No trasladar compatibilidad desde una ficha que solo nombra azulejo o cerámica general |
+| Vidrio: cortar | Disco cuya ficha declare explícitamente vidrio y el tipo de corte | Compatibilidad con el vidrio, montaje y condiciones de uso |
 
-El nombre de una familia no garantiza que cubra todas las variantes del material. Por ejemplo, la [guía de disco segmentado](/amoladoras/disco-diamantado-segmentado/) compara referencias con listas de materiales distintas, mientras que la [guía de cerámica](/amoladoras/discos-ceramica/) separa diseños turbo y continuo. Para corte de metal, profundizá en la [guía de discos de corte](/amoladoras/disco-de-corte/); acá mantenemos el criterio general para no repetir esa comparación.
+El nombre de una familia no garantiza que cubra todas las variantes del material. Por ejemplo, la [guía de disco segmentado](/amoladoras/disco-diamantado-segmentado/) compara referencias con listas de materiales distintas, mientras que la [guía de cerámica](/amoladoras/discos-ceramica/) separa diseños turbo y continuo. Para vidrio, consultá [discos para vidrio](/amoladoras/discos-vidrio/) y verificá que la ficha cubra el tipo de pieza y de corte. Para corte de metal, profundizá en la [guía de discos de corte](/amoladoras/disco-de-corte/); acá mantenemos el criterio general para no repetir esa comparación.
 
 ## Medida y montaje
 

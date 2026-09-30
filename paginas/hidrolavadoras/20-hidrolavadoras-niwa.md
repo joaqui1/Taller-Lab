@@ -1,5 +1,5 @@
 ---
-title: "Hidrolavadoras Niwa: modelos, opiniones y compra"
+title: "Hidrolavadoras Niwa: modelos, opiniones y cuál elegir"
 h1: "Qué hidrolavadora Niwa elegir y qué revisar"
 url: "/hidrolavadoras/niwa/"
 description: "Guía Niwa para Argentina: compara eléctricas y a combustión con códigos actuales de Grupo Rumbo, usos, presión de trabajo, caudal y opiniones verificables."

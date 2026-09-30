@@ -21,6 +21,8 @@ published: true
 
 **TIG AC/DC = más control y acabado; MIG preparado para aluminio = más productividad.** La elección depende de la geometría, espesor, longitud del cordón y equipo completo.
 
+## TIG vs MIG para aluminio
+
 | Si priorizás… | [TIG AC/DC](/soldadora-tig-ac-dc/) | [MIG con gas](/soldadora-mig-con-gas/) preparado para aluminio |
 | :--- | :--- | :--- |
 | Cordones cortos, control del baño, pieza fina o visible | Suele ser la opción más controlable; requiere alimentar la varilla por separado y coordinación manual. | Puede ser más exigente en piezas delgadas por la velocidad de aporte y el calor; modos pulsados pueden ayudar sólo si fuente y procedimiento los documentan. |
