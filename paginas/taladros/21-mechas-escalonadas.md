@@ -21,6 +21,10 @@ published: true
 
 Elegí el rango por el diámetro final que necesitás y comprobá los diámetros intermedios: un rango 4–20 no significa que tenga cada medida de 4 a 20 mm. Revisá también el espesor máximo de material declarado para ese código. Por ejemplo, la Högert HT6D323 4–32 mm especifica hasta 4 mm de espesor; Bosch no publica un máximo de espesor para la referencia 4–20 consultada.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Opciones para comparar
 
 | Referencia documentada | Rango y medidas de corte | Materiales declarados | Espesor máximo publicado |
@@ -29,6 +33,12 @@ Elegí el rango por el diámetro final que necesitás y comprobá los diámetros
 | Högert HT6D323 HSS 4–32 mm | 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 y 32 mm; 15 medidas, con 2 mm entre diámetros. | Distintos aceros, metales no ferrosos, cobre, latón, aluminio, acero inoxidable, plásticos y madera, según fabricante. | Hasta 4 mm. |
 
 La 4–20 cubre agujeros de hasta 20 mm y la 4–32 extiende el rango hasta 32 mm con escalones cada 2 mm. Si todos tus agujeros son de 10, 12, 14 o 20 mm, ambas listas incluyen esas medidas; la de 4–32 suma las de 22 a 32 mm. Verificá siempre el grabado y número de parte: existen mechas con igual diámetro máximo pero distinta secuencia.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá la referencia Bosch HSS 4–20 mm</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch HSS escalonada 4–20 mm · 2608597519</h3><p class="offer-description">La oferta identifica 2608597519; la tabla documenta 2608597524. Confirmá vástago, secuencia de diámetros y espesor admitido de esta referencia, sin trasladar datos de la otra.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2TD7cMx" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio de la Bosch HSS 4–20 mm ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## 4–20 mm o 4–32 mm: cuál conviene
 

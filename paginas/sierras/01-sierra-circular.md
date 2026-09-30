@@ -52,6 +52,21 @@ Los watts publicados describen potencia eléctrica absorbida o anunciada según 
 - **Si necesitás un riel propietario:** la ficha de la Bosch GKS 150 declara que no es compatible con carril guía Bosch. Revisá la [guía de compatibilidad de guías](/sierras/guia-para-sierra-circular/) o confirmá el sistema admitido por el modelo antes de comprar el riel.
 - **Si necesitás cortes repetitivos con la pieza apoyada y guiada en una mesa:** compará una [sierra de banco](/sierras/de-banco/), comprobando capacidad de corte, apoyo y espacio disponible.
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Bosch GKS 150 | Confirmá código 0 601 6B3 0H0 y contenido del kit. | [Ver precio →](https://meli.la/1Chp49C) |
+| Stanley SC16 | Confirmá variante SC16-AR, tensión y disco admitido en placa/manual. | [Ver precio →](https://meli.la/1WX3aEo) |
+| DeWalt DWE560 | Confirmá variante DWE560-AR y tensión de la unidad ofrecida. | [Ver precio →](https://meli.la/2zyLxUA) |
+| Lüsqtoff CSL1500-8 | Revisá disco, eje y capacidad del código exacto. | [Ver precio →](https://meli.la/2XbUjXk) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 ## Modelos y marcas para comparar
 
 La comparación general sirve para filtrar por capacidad y compatibilidad. Para confirmar kit, variantes, accesorios y límites de cada código, seguí a la ficha individual. La [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) no tiene profundidad máxima publicada en las fuentes oficiales consultadas; la [Bosch GKS 150](/sierras/bosch-gks-150/) declara 64 mm a 90° y no es compatible con carril guía Bosch. La [Stanley SC16-AR](/sierras/stanley-sc16/) publica 65 mm a 90°, con discrepancia de diámetro de disco entre su manual y ficha. También podés comparar [sierra circular Black+Decker](/sierras/circulares-black-decker/) y [sierra circular Lusqtoff](/sierras/circulares-lusqtoff/) por código y documentación regional.

@@ -27,16 +27,19 @@ La gama publicada localmente va desde 720 W continuos hasta equipos rotulados en
 
 **Dato documentado:** las especificaciones se atribuyen al representante local Hyundai Herramientas o al vendedor citado. Las autonomías sin carga indicada no se usan para ordenar modelos. Esta guía es documental y no incluye prueba física.
 
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Potencia nominal y arranque: compará tu inventario
 
 Usá estos tramos como filtro inicial, no como garantía para cualquier artefacto. Sumá la potencia de placa de las cargas simultáneas y comprobá por separado sus picos de arranque. Si el manual de un equipo eléctrico pide un generador de cierta potencia, seguí esa indicación. No uses los watts máximos publicados como si fueran potencia continua.
 
-| Carga simultánea de marcha que figura en tus placas | Escalón Hyundai que se puede investigar | Qué falta confirmar |
-| :--- | :--- | :--- |
-| Hasta 720 W | HYH960A: 720 W continuos y 800 W máximos publicados | Que el pico de arranque no supere el límite aplicable; mezcla de cargas y ciclos indicados en su manual. |
-| De 721 a 2.000 W | HHY2200F: 2.000 W continuos y 2.200 W máximos publicados | Pico combinado de motores; tensión de cada carga y suma real en simultáneo. |
-| De 2.001 a 2.500 W | HHY3000FE: una ficha local publica 2.500 W continuos y 2.800 W máximos | Hay publicaciones comerciales que dan otros pares de potencia para el mismo código. Confirmá los valores de la unidad antes de dimensionar cerca del límite. |
-| Más de 2.500 W | Pasá a comparar HY7500LE, HHY9500LE u opciones mayores | La ficha local no informa potencia nominal para todos estos equipos; no conviertas su cifra máxima en potencia continua. |
+| Carga simultánea de marcha que figura en tus placas | Escalón Hyundai que se puede investigar | Qué falta confirmar | Oferta |
+| :--- | :--- | :--- | :--- |
+| Hasta 720 W | HYH960A: 720 W continuos y 800 W máximos publicados | Que el pico de arranque no supere el límite aplicable; mezcla de cargas y ciclos indicados en su manual. | — |
+| De 721 a 2.000 W | HHY2200F: 2.000 W continuos y 2.200 W máximos publicados | Pico combinado de motores; tensión de cada carga y suma real en simultáneo. | — |
+| De 2.001 a 2.500 W | HHY3000FE: una ficha local publica 2.500 W continuos y 2.800 W máximos | Hay publicaciones comerciales que dan otros pares de potencia para el mismo código. Confirmá los valores de la unidad antes de dimensionar cerca del límite. | — |
+| Más de 2.500 W | Pasá a comparar HY7500LE, HHY9500LE u opciones mayores | La ficha local no informa potencia nominal para todos estos equipos; no conviertas su cifra máxima en potencia continua. | [Ver precio →](https://meli.la/1oUjAJk) |
 
 Ejemplo de suma: si las placas de cuatro cargas simultáneas dicen 180 W, 240 W, 310 W y 420 W, la marcha suma 1.150 W. Ese total cae dentro del tramo nominal de 2.000 W del HHY2200F, pero todavía falta revisar picos de arranque y las recomendaciones de los equipos; la suma por sí sola no confirma compatibilidad.
 

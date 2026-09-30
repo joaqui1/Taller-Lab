@@ -21,6 +21,10 @@ published: true
 
 Las fichas oficiales de BLACK+DECKER muestran tres opciones para necesidades distintas. La tabla compara las variantes identificadas en el catálogo de Estados Unidos; para Argentina, la página oficial local publica el BCD702C1-AR, con batería, cargador bivolt, punta doble y garantía de dos años. Es una referencia regional de la familia BCD702, no confirma que los otros códigos o kits se vendan localmente. Revisá el código y la garantía del producto ofrecido.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos con cable e inalámbricos
 
 | Modelo | Tipo y datos publicados | Kit / perfil de uso |
@@ -30,6 +34,12 @@ Las fichas oficiales de BLACK+DECKER muestran tres opciones para necesidades dis
 | DR260C | Taladro/atornillador con cable, mandril de 3/8 in y gatillo de velocidad variable. | Incluye una punta doble; no requiere comprar baterías. Es una opción para trabajo estacionario cerca de una toma. La ficha consultada no publica rpm. |
 
 Las especificaciones no son una prueba comparativa: no hay datos homogéneos para ordenar torque, capacidad o velocidad entre estos modelos. En particular, no atribuimos percusión al BCD702C1 ni al DR260C porque sus fichas consultadas no la declaran.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Black+Decker: sin percusión o con percusión</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Black+Decker BCD702C1-AR</h3><p class="offer-description">Taladro/atornillador sin percusión. Confirmá sufijo AR, batería y cargador de la publicación local.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1eiXebK" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del BCD702C1 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Black+Decker BLD783D1</h3><p class="offer-description">Taladro percutor inalámbrico Powerconnect. Confirmá batería, cargador, tensión del cargador y configuración del kit local.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2GYZ2VP" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del BLD783D1 ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Cuándo necesitás percusión
 

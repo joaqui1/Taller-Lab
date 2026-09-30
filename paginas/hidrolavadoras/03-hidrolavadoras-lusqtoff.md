@@ -23,6 +23,11 @@ published: true
 
 **Guía documental, sin prueba física.** El selector se basa en tareas recomendadas por Lüsqtoff y en datos de catálogo/manual. Para decidir, mirá primero presión de trabajo, caudal y peso; los valores máximos no sustituyen esos datos.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Comparativa de la gama Lüsqtoff
 
 | Modelo | Qué tarea recomienda el fabricante | Presión de trabajo / máxima permitida | Caudal de trabajo / máximo | Potencia y alimentación | Peso |
@@ -46,6 +51,12 @@ La alimentación publicada para los cuatro códigos es 220 V ~ 50 Hz. El salto e
 | HL100-8 | La ficha técnica consultada no precisa largo de manguera ni contenido completo de caja. Confirmá que el kit ofrecido incluya manguera, pistola/lanza y boquillas para el código HL100-8. |
 | HL110-9 | El catálogo técnico enumera varios usos y el catálogo oficial de accesorios identifica una manguera de repuesto compatible, código RHL11092R16. La longitud del accesorio no aparece en la ficha oficial consultada. |
 | HL130-9 | El catálogo 2024–2025 declara manguera de alta presión de 8 m, lanza y pistola, set de boquillas y dos ruedas. El catálogo oficial de accesorios también lista manguera y lanza compatibles con HL130-9. |
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Diferencias entre HL 120 y HL 150
 

@@ -23,6 +23,11 @@ published: true
 
 **Respuesta rápida:** K4 tiene sentido si vas a lavar con frecuencia auto, motos, bicis, patio o equipos de jardín y valorás más caudal y equipamiento que el K3. En Argentina hay un K4 estándar y un K4 Power Control: no comparten exactamente cifras ni kit. Si el uso es ocasional y querés un equipo más liviano, K3 puede alcanzar; si buscás más presión publicada para suciedad incrustada, K5 sube otro escalón. Para ubicar ambas versiones en la [comparativa completa Kärcher](/hidrolavadoras/karcher/) o revisar cuándo conviene el [Kärcher K3](/hidrolavadoras/karcher-k3/) y el [Kärcher K5](/hidrolavadoras/karcher-k5/), compará siempre el SKU local.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Precio local por versión (29/09/2026)
 
 | Versión y código | Precio publicado | Stock y observación |
@@ -31,6 +36,12 @@ published: true
 | K4 Power Control, 1.603-402.0 | [$818.572,48 en efectivo o transferencia en Reginato](https://tienda.reginato.com.ar/producto/87911/hidrolavadora-karcher-k4-power-control-limpieza-de-alta-presion-domestica/). | Figura en stock. El vendedor muestra para este SKU 120 bar, 380 L/h y 1.800 W, distintos de la ficha oficial argentina, que informa hasta 130 bar y 420 L/h y no declara potencia. Verificá la placa y el contenido del kit ofrecido. |
 
 Son referencias publicadas, no precios garantizados. No mezcles estos códigos con K4 de otros mercados o kits que compartan el nombre comercial.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## K3, K4 o K5: qué cambia
 

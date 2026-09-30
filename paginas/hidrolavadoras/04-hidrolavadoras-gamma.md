@@ -23,6 +23,11 @@ published: true
 
 La elección depende de la tarea, el caudal y el alcance que necesitás, no sólo de la presión máxima impresa en la caja. Esta guía conserva la comparación buscada de los cuatro códigos Elite y, por separado, muestra otras familias que Gamma incluye hoy en su catálogo en línea.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Elite histórica / línea actual
 
 La tabla conserva los cuatro códigos **Elite** (127, 130, 150 y 170) por separado de las familias que completan el catálogo actual, como Pro Wash, Master Wash y Premium Wash. Que un modelo aparezca en el catálogo de Gamma no confirma stock en un vendedor.
@@ -48,6 +53,12 @@ Los datos de cada producto no siempre usan la misma condición de medición: “
 | Paredes, pisos y suciedad adherida | G2518AR, G2519AR o G2520AR | Compará presión de servicio cuando está publicada, caudal, largo de manguera y accesorios. G2518AR informa 110 bar de servicio; para G2519AR y G2520AR la ficha consultada destaca presión máxima, no un dato comparable de servicio. | En revoques, juntas o pintura, probá primero en un sector discreto y mantené distancia. |
 | Limpieza con función extra | G2522AR o G2524AR | G2522AR suma aspiración; G2524AR suma vapor. | Son opciones por función combinada; no asumir que esa función las vuelve sustitutos de un modelo de mayor caudal. |
 | Uso frecuente o trabajo | Comparar G2518AR, G2519AR y G2520AR con la tarea concreta | Pedí al vendedor o servicio técnico el régimen de trabajo admitido, presión de servicio, garantía y disponibilidad de repuestos del código exacto. | Las fichas consultadas no bastan para recomendar una de estas máquinas para jornadas profesionales continuas. |
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Comparación de los cuatro Gamma Elite
 

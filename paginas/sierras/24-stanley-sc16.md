@@ -21,6 +21,11 @@ published: true
 
 Para piezas de hasta unos 60 mm, la SC16-AR tiene margen según la profundidad máxima publicada en el manual compartido: 65 mm a 90° y 50 mm a 45°. Antes de usar esa capacidad para decidir, comprobá que la placa y el manual de la unidad ofrecida correspondan a la variante -AR.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Capacidad y datos para elegir la SC16-AR
 
 | Dato | SC16-AR | Fuente |
@@ -56,6 +61,18 @@ Las fuentes confirman que son cifras de documentos distintos, no una prueba de d
 Si tus cortes habituales son en piezas de hasta unos 60 mm a 90°, la SC16-AR entra por la capacidad máxima de 65 mm documentada para esa variante; dejá margen y verificá la unidad. Para biselar, el manual informa hasta 50 mm a 45°. Si la pieza supera esas capacidades, esta ficha no respalda elegirla para ese corte.
 
 La herramienta está destinada a cortar madera. Para cortes al hilo, el manual recomienda una guía paralela y explica cómo instalarla en la base; también la lista en el contenido de caja. Como los accesorios pueden variar según la oferta, confirmá que la guía venga incluida. Para cortes rectos largos, compará con una [guía para sierra circular](/sierras/guia-para-sierra-circular/) compatible.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Stanley SC16 | Confirmá variante SC16-AR, tensión y disco admitido en placa/manual. | [Ver precio →](https://meli.la/1WX3aEo) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Qué disco de reemplazo comprar
 

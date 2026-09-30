@@ -21,6 +21,9 @@ published: true
 
 Para comparar una fija con una telescópica, tomamos dos códigos regionales documentados: DWS713-AR y DWS780-AR. Los manuales consultados identifican versiones de 220 V y 50 Hz. Eso permite orientar la elección por tamaño y tipo de trabajo; no confirma que toda oferta con esos nombres corresponda a esa tensión o a la misma revisión.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Fija o telescópica: cuándo compensa la DWS780
 
 | Dato documentado | DWS713-AR, manual regional | DWS780-AR, manual regional |
@@ -36,6 +39,19 @@ Para comparar una fija con una telescópica, tomamos dos códigos regionales doc
 | Capacidad a inglete 45° | Máximo de 107 mm de ancho y 89 mm de alto; a 107 mm de ancho, 61 mm de alto resultante | Máximo de 244 mm de ancho con 76 mm de alto resultante; a 112 mm de alto, el ancho resultante es 147 mm |
 | Peso publicado | No figura en el manual regional consultado | 24 kg en el catálogo regional consultado |
 | Contenido de caja documentado | Hoja, llave, bolsa para polvo, bloqueo de inglete y prensa vertical | Hoja, llave, bolsa para polvo y prensa; confirmá accesorios de la unidad ofrecida |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| DeWalt DWS713 | Confirmá variante regional, revisión y contenido del kit. | [Ver precio →](https://meli.la/1cgXhkN) |
+| DeWalt DWS780 | Confirmá variante regional, revisión y espacio para el carro telescópico. | [Ver precio →](https://meli.la/11C2Bud) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 La capacidad no es una sola medida: depende de la combinación de ancho, alto, inglete y bisel. Para dimensionar una moldura o tabla, usá el diagrama del manual de la revisión exacta; no supongas que los máximos de ancho y altura se pueden alcanzar juntos.
 

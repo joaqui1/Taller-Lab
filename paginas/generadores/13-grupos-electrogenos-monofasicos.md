@@ -23,6 +23,11 @@ Si tus cargas indican **220 V monofásicos**, empezá por un generador con salid
 
 La comprobación interactiva de esta página ayuda a ordenar tensión, fases, unidad de potencia y arranque antes de comprar. Sirve como filtro documental: para una vivienda o tablero, la conexión y las protecciones deben definirse con el manual del generador y un profesional calificado.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Qué significa monofásico: 220 V, W, VA y corriente
 
 Una salida monofásica entrega tensión alterna entre dos conductores; en la instalación habitual se identifican como fase y neutro. El vínculo entre neutro y tierra depende del generador y su esquema de conexión, así que no hay que asumirlo. En una instalación residencial argentina es común encontrar cargas de **220 V y 50 Hz**, pero comprobá siempre la placa del artefacto y la salida del generador.
@@ -62,13 +67,13 @@ Como contraste, el **Lüsqtoff LG7500EXT** publica salida trifásica de 380 V–
 
 Estas cinco referencias documentadas muestran escalas distintas, sin formar un ranking. La unidad publicada cambia entre marcas: Honda expresa potencia en kVA y Gamma en kW. Usá las cifras para ubicar un rango y volvé a la cuenta de tus cargas antes de elegir.
 
-| Escala orientativa | Modelo documentado | Salida y potencia publicada | Qué cotejar en tu caso |
-| :--- | :--- | :--- | :--- |
-| Portátil, cargas pequeñas | **Honda EU22i**, inverter | 220 V, monofásico; **1,8 kVA nominal / 2,2 kVA máxima** | La suma de marcha debe caber en nominal; motores y cargas con electrónica requieren verificar pico y compatibilidad. Honda publica 21 kg y arranque manual. |
-| Portátil, siguiente escalón | **Honda EU30is**, inverter | 220 V, monofásico; **2,8 kVA nominal / 3 kVA máxima** | Compará marcha con 2,8 kVA y arranque con los datos del equipo conectado; pesa 59 kg según Honda. |
-| Convencional de alrededor de 3 kW | **Gamma GE3480AR / 3000V**, AVR | 220 V CA, 50 Hz; **2,7 kW y 3 kW máxima** | Gamma publica las cifras en kW, no kVA. Revisá PF de las cargas antes de cruzarlas con VA. Arranque eléctrico; batería no incluida. |
-| Convencional de alrededor de 5 kVA | **Honda EG6500CXS**, D-AVR | 220 V, monofásico; **5 kVA nominal / 5,5 kVA máxima** | Usá 5 kVA para dimensionar marcha; verificá picos de motores y salida de cada toma. Honda publica 87 kg en seco. |
-| Convencional de alrededor de 5,5 kW | **Gamma GE3481AR / 6000V**, AVR | 220 V CA, 50 Hz; **5,5 kW y 6 kW máxima** | No equivale automáticamente al Honda de 5 kVA: Gamma lo expresa en kW. Confirmá PF, corriente, picos y batería de arranque, que no viene incluida. |
+| Escala orientativa | Modelo documentado | Salida y potencia publicada | Qué cotejar en tu caso | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| Portátil, cargas pequeñas | **Honda EU22i**, inverter | 220 V, monofásico; **1,8 kVA nominal / 2,2 kVA máxima** | La suma de marcha debe caber en nominal; motores y cargas con electrónica requieren verificar pico y compatibilidad. Honda publica 21 kg y arranque manual. | [Ver precio →](https://meli.la/2AwxqaH) |
+| Portátil, siguiente escalón | **Honda EU30is**, inverter | 220 V, monofásico; **2,8 kVA nominal / 3 kVA máxima** | Compará marcha con 2,8 kVA y arranque con los datos del equipo conectado; pesa 59 kg según Honda. | [Ver precio →](https://meli.la/2X86187) |
+| Convencional de alrededor de 3 kW | **Gamma GE3480AR / 3000V**, AVR | 220 V CA, 50 Hz; **2,7 kW y 3 kW máxima** | Gamma publica las cifras en kW, no kVA. Revisá PF de las cargas antes de cruzarlas con VA. Arranque eléctrico; batería no incluida. | [Ver precio →](https://meli.la/31SZbvv) |
+| Convencional de alrededor de 5 kVA | **Honda EG6500CXS**, D-AVR | 220 V, monofásico; **5 kVA nominal / 5,5 kVA máxima** | Usá 5 kVA para dimensionar marcha; verificá picos de motores y salida de cada toma. Honda publica 87 kg en seco. | [Ver precio →](https://meli.la/1sxNfJ5) |
+| Convencional de alrededor de 5,5 kW | **Gamma GE3481AR / 6000V**, AVR | 220 V CA, 50 Hz; **5,5 kW y 6 kW máxima** | No equivale automáticamente al Honda de 5 kVA: Gamma lo expresa en kW. Confirmá PF, corriente, picos y batería de arranque, que no viene incluida. | [Ver precio →](https://meli.la/15vKtBp) |
 
 Para una instalación residencial, usá también la guía de [generador eléctrico para casa](/generadores/para-casa/) y reemplazá sus ejemplos por las cargas de tu vivienda. Los equipos Honda mencionados son referencias de pequeña a mayor escala, y los Gamma aportan alternativas convencionales documentadas en kW. Una tecnología inverter, AVR o D-AVR describe regulación, pero por sí sola no garantiza que un generador cubra los picos ni todas las exigencias de una carga sensible.
 

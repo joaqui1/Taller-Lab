@@ -21,6 +21,10 @@ published: true
 
 **35 mm es el diámetro de la cazoleta de muchas bisagras ocultas, pero no define por sí solo dónde ni cuán profundo perforar.** La profundidad, la distancia del agujero al canto de la puerta y las posiciones de fijación cambian según el modelo de bisagra, la aplicación (superpuesta, semisuperpuesta o embutida), el espesor de la puerta y la placa elegida. Buscá primero el número de modelo del herraje y seguí su plano de montaje.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Producto para este trabajo
 
 La Bosch Expert Forstner Wood de 35 mm, referencia 2 608 901 837, es una opción documentada para cavidades en madera. Su ficha publica diámetro de corte de 35 mm, vástago de 10 mm, largo total de 88 mm y largo de trabajo de 56 mm. El largo de trabajo describe la capacidad de la broca; no indica la profundidad a la que debe instalarse una bisagra.

@@ -80,6 +80,12 @@ Antes de comprar, cotejá en la ficha vigente y en el envase:
 
 **Opciones documentadas en esta comparación:** OK Ni-CI y OK NiFe-CI son ejemplos concretos, no las únicas alternativas del mercado. Solicitá al fabricante o distribuidor que confirme la compatibilidad con el grado identificado y el servicio real antes de comprar.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá la referencia de níquel para fundición</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB 92.18 Ni-100 · 3,2 mm × 1 kg</h3><p class="offer-description">Confirmá identificación OK 92.18 y clasificación ENi-CI en etiqueta/ficha; Ni-100 no equivale a NiFe.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1mXhaLW" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [ESAB OK Ni-CI](https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/); [ESAB OK NiFe-CI](https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/) y [ficha estadounidense con aplicaciones ampliadas](https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/); [Castolin EutecTrode 244](https://www.castolin.com/en-US/product/eutectroder-244).

@@ -25,6 +25,11 @@ La gama publicada por Lüsqtoff incluye generadores convencionales e inverter, d
 
 Esta guía compara datos de páginas y documentos del fabricante disponibles al **28/09/2026**. No hicimos pruebas físicas. La gama y los precios pueden cambiar: los PVP de abajo son los publicados en las fichas web oficiales consultadas en esa fecha, no una cotización ni una confirmación de stock en un comercio.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Mapa de modelos y escalones de potencia
 
 Las tablas conservan las unidades que usa cada ficha. **W y kW miden potencia activa; VA y kVA son potencia aparente.** No conviertas entre ellas sin conocer el factor de potencia. “Máxima” tampoco significa potencia continua: cuando la ficha no informa nominal, queda expresamente señalado.
@@ -33,27 +38,27 @@ Las tablas conservan las unidades que usa cada ficha. **W y kW miden potencia ac
 
 Para comparar consumo, formato y autonomía de esta familia, consultá [generadores a nafta](/generadores/a-nafta/).
 
-| Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 |
-| :--- | ---: | ---: | :--- | ---: |
-| [LG950P](https://lusqtoff.com.ar/ver-producto/LG950P) | 0,65 kVA | 0,8 kVA | Nafta/mezcla, motor 2T; 220 V, monofásico; tanque 4 L; 16,2 kg. | $286.199 |
-| [LG3000](https://www.lusqtoff.com.ar/ver-producto/LG3000) | 2,5 kVA | 2,8 kVA | Nafta, 4T; 220 V; arranque manual; tanque 15 L. | $614.399 |
-| [LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E) | 2,5 kVA | 2,8 kVA | Nafta, 4T; arranque eléctrico; tanque 15 L. La ficha también muestra “potencia máxima de salida 4,8 kW”, dato que no coincide con el campo 2,8 kVA y hay que aclarar por código/placa. | $745.299 |
-| [LG3500EX](https://www.lusqtoff.com.ar/ver-producto/LG3500EX) | 2.450 W | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; incluye ruedas y manija. | $875.199 |
-| [LG7500EX](https://lusqtoff.com.ar/ver-producto/LG7500EX) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; monofásico; tanque 25 L; arranque manual/eléctrico; peso publicado 82 kg. Autonomía anunciada: 8 h, sin carga definida. | $1.747.699 |
-| [LG7500EXT](https://lusqtoff.com.ar/ver-producto/LG7500EXT) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; trifásico, 380 V/50 Hz ([generadores trifásicos](/generadores/trifasicos/)); tanque 25 L; arranque eléctrico. Confirmá en la placa la salida disponible para cargas monofásicas. | $1.775.399 |
-| [10GF-4](https://www.lusqtoff.com.ar/ver-producto/10GF-4) | 10 kVA | La ficha menciona 11 kVA como “potencia del motor”, no con un campo inequívoco de potencia máxima del generador. | Nafta, 4T; 220 V, monofásico; tanque 23 L; arranque eléctrico; 152 kg. | $4.086.799 |
+| Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 | Oferta |
+| :--- | ---: | ---: | :--- | ---: | :--- |
+| [LG950P](https://lusqtoff.com.ar/ver-producto/LG950P) | 0,65 kVA | 0,8 kVA | Nafta/mezcla, motor 2T; 220 V, monofásico; tanque 4 L; 16,2 kg. | $286.199 | [Ver precio →](https://meli.la/2oCYsWY) |
+| [LG3000](https://www.lusqtoff.com.ar/ver-producto/LG3000) | 2,5 kVA | 2,8 kVA | Nafta, 4T; 220 V; arranque manual; tanque 15 L. | $614.399 | [Ver precio →](https://meli.la/2fhftj7) |
+| [LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E) | 2,5 kVA | 2,8 kVA | Nafta, 4T; arranque eléctrico; tanque 15 L. La ficha también muestra “potencia máxima de salida 4,8 kW”, dato que no coincide con el campo 2,8 kVA y hay que aclarar por código/placa. | $745.299 | — |
+| [LG3500EX](https://www.lusqtoff.com.ar/ver-producto/LG3500EX) | 2.450 W | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; incluye ruedas y manija. | $875.199 | — |
+| [LG7500EX](https://lusqtoff.com.ar/ver-producto/LG7500EX) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; monofásico; tanque 25 L; arranque manual/eléctrico; peso publicado 82 kg. Autonomía anunciada: 8 h, sin carga definida. | $1.747.699 | — |
+| [LG7500EXT](https://lusqtoff.com.ar/ver-producto/LG7500EXT) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; trifásico, 380 V/50 Hz ([generadores trifásicos](/generadores/trifasicos/)); tanque 25 L; arranque eléctrico. Confirmá en la placa la salida disponible para cargas monofásicas. | $1.775.399 | [Ver precio →](https://meli.la/1k8qxpL) |
+| [10GF-4](https://www.lusqtoff.com.ar/ver-producto/10GF-4) | 10 kVA | La ficha menciona 11 kVA como “potencia del motor”, no con un campo inequívoco de potencia máxima del generador. | Nafta, 4T; 220 V, monofásico; tanque 23 L; arranque eléctrico; 152 kg. | $4.086.799 | — |
 
 ### Generadores inverter
 
-| Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 |
-| :--- | ---: | ---: | :--- | ---: |
-| [LGI2.5-8](https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8) ([generadores inverter](/generadores/inverter/)) | 2,2 kW | 2,5 kW | Nafta, 4T; arranque manual; tanque 6 L; ruido publicado: 75 dB a 7 m; 23 kg. | $737.499 |
-| [LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8) | 3,5 kW | 3,8 kW | Nafta, 4T; arranque manual; tanque 8 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m. La página indica 28 kg y el catálogo/manual consultados 27 kg. | $1.049.699 |
-| [LG3500EXI](https://www.lusqtoff.com.ar/ver-producto/LG3500EXI) | No publicada en la ficha consultada | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; 44 kg; autonomía publicada: 11 h sin carga de ensayo indicada. | $1.968.699 |
-| [LGI5.0-9](https://lusqtoff.com.ar/ver-producto/LGI5.0-9) | 4,2 kW | 4,5 kW | Nafta, 4T; arranque manual; tanque 12 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m; 43 kg. | $1.591.999 |
-| [LGI5.5-8](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | No publicada en la ficha consultada | 5,2 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque manual/eléctrico; tanque 10 L; ruido publicado: 62 dB; 30 kg. | $1.824.399 |
-| [LGI7.5-8](https://lusqtoff.com.ar/ver-producto/LGI7.5-8) | No publicada en la ficha consultada | 5,5 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque eléctrico; tanque 11 L; ruido publicado: 63 dB; 30 kg. | $2.278.099 |
-| [LGI11.0-9](https://lusqtoff.com.ar/ver-producto/LGI11.0-9) | 10 kVA | 11 kVA | Nafta, 4T; salida 220/380 V; factor de potencia 1,0/0,8; arranque eléctrico; tanque 35 L; 86 kg. | $2.721.399 |
+| Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 | Oferta |
+| :--- | ---: | ---: | :--- | ---: | :--- |
+| [LGI2.5-8](https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8) ([generadores inverter](/generadores/inverter/)) | 2,2 kW | 2,5 kW | Nafta, 4T; arranque manual; tanque 6 L; ruido publicado: 75 dB a 7 m; 23 kg. | $737.499 | — |
+| [LGI3.8-8](https://lusqtoff.com.ar/ver-producto/LGI3.8-8) | 3,5 kW | 3,8 kW | Nafta, 4T; arranque manual; tanque 8 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m. La página indica 28 kg y el catálogo/manual consultados 27 kg. | $1.049.699 | — |
+| [LG3500EXI](https://www.lusqtoff.com.ar/ver-producto/LG3500EXI) | No publicada en la ficha consultada | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; 44 kg; autonomía publicada: 11 h sin carga de ensayo indicada. | $1.968.699 | — |
+| [LGI5.0-9](https://lusqtoff.com.ar/ver-producto/LGI5.0-9) | 4,2 kW | 4,5 kW | Nafta, 4T; arranque manual; tanque 12 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m; 43 kg. | $1.591.999 | — |
+| [LGI5.5-8](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | No publicada en la ficha consultada | 5,2 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque manual/eléctrico; tanque 10 L; ruido publicado: 62 dB; 30 kg. | $1.824.399 | [Ver precio →](https://meli.la/1pJFrBq) |
+| [LGI7.5-8](https://lusqtoff.com.ar/ver-producto/LGI7.5-8) | No publicada en la ficha consultada | 5,5 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque eléctrico; tanque 11 L; ruido publicado: 63 dB; 30 kg. | $2.278.099 | — |
+| [LGI11.0-9](https://lusqtoff.com.ar/ver-producto/LGI11.0-9) | 10 kVA | 11 kVA | Nafta, 4T; salida 220/380 V; factor de potencia 1,0/0,8; arranque eléctrico; tanque 35 L; 86 kg. | $2.721.399 | — |
 
 El nombre del modelo no siempre coincide con la potencia nominal: por ejemplo, LGI5.5-8 publica un máximo de 5,2 kVA y LGI7.5-8 uno de 5,5 kVA. Compará cada placa y ficha por separado, no el orden de los códigos.
 
@@ -66,6 +71,16 @@ La tabla sirve para armar un mapa, no para declarar disponibilidad. El [catálog
 - Para un equipo con alrededor de 3 kW de carga continua, el **LGI3.8-8** publica 3,5 kW nominales. El **LG3500EX** lleva “3500” en el nombre y publica 3.500 W máximos, pero su nominal es 2.450 W; no los compares usando solo el máximo.
 - En el tramo superior, el **LGI5.0-9** sí declara 4,2 kW nominales. El **LG7500EX** anuncia 6.500 W máximos, pero su ficha no da nominal: falta un dato clave para una carga sostenida. El **LG7500EXT** además es trifásico; elegilo solo si la tensión y distribución por fase coinciden con las cargas.
 - El **LGI11.0-9** publica 10 kVA nominales y salida 220/380 V. Antes de decidir, cotejá factor de potencia, fase y potencia requerida, además del límite de cada salida.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Alternativa con función motosoldadora
+
+El **LGIS3.8-8** es la motosoldadora: su código es distinto del **LGI3.8-8** de la comparativa. La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGIS3.8-8) publica 3,5 kW nominales / 3,8 kW máximos como generador y función MMA de 20–130 A. No incluye pinza porta masa ni porta electrodos.
+
+[Ver precio del Lüsqtoff LGIS3.8-8](https://meli.la/2TcYRTK)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Convencional o inverter: cómo decidir
 

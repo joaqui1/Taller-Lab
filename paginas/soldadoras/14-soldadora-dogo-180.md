@@ -48,6 +48,12 @@ Puede tener sentido para MMA ocasional o herrería liviana si la corriente, el c
 
 **Desconocido:** la página oficial no detalla corriente/tensión de salida en cada punto de servicio, longitud/sección de cables ni condiciones de garantía en el extracto citado. Confirmar esos campos en manual y etiqueta antes de comprar; los precios y disponibilidad cambian.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá la Dogo 180 Moderna</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar 180 Moderna</h3><p class="offer-description">MMA: confirmá código DOG50045, corriente asociada al servicio por diámetro y kit real.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2KQQEjE" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Para qué usos conviene
 
 Usá los porcentajes publicados para anticipar pausas según el electrodo habitual. Dogo no asocia en la ficha el amperaje exacto con cada porcentaje, así que el porcentaje y el diámetro por sí solos no determinan qué corriente podés sostener:
@@ -68,6 +74,12 @@ En una reparación ocasional o herrería liviana, decidí por el diámetro que r
 | Dogostar 160 Moderna, DOG50044 | 160 A / 3 kg | 2,5 mm: 100%; 3,2 mm: 80%; 4 mm: 60% | Mismos porcentajes listados que DOG50045 para diámetros hasta 4 mm; si no necesitás el punto de 5 mm, verificá cuál satisface la corriente concreta del electrodo. |
 | Dogostar 180 Moderna, DOG50045 | 180 A / 3 kg | 2,5 mm: 100%; 3,2 mm: 80%; 4 mm: 60%; 5 mm: 30% | La ficha añade un punto de servicio para 5 mm, aunque declara tipos de electrodo hasta 4 mm; confirmar esa discrepancia. |
 | Dogostar 200 Moderna, DOG50046 | 200 A / 3,3 kg | 2,5 mm: 100%; 3,2 mm: 100%; 4 mm: 60%; 5 mm: 50% | Dogo publica mayor servicio para 3,2 y 5 mm que en la DOG50045; compará también corriente/tensión asociada y requisitos de alimentación. |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Alternativas MMA de 160 y 200 A</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar MMA 160</h3><p class="offer-description">MMA: el título no confirma Moderna DOG50044. Pedí código/placa antes de aplicar la ficha de la guía.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1iiKCDU" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar 200 Moderna DOG50046</h3><p class="offer-description">MMA: verificá placa DOG50046, servicio por diámetro y contenido; 200 A máximos no acreditan salida continua.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2XwX5wy" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 Los tres datos vienen del mismo formato de fichas del fabricante, pero no permiten afirmar por sí solos resultados equivalentes a una corriente dada. Para comparar con otras capacidades, consultá la [soldadora inverter de 160 A](/soldadora-inverter-160-amp/) y la [inverter de 200 A](/soldadora-inverter-200-amp/).
 

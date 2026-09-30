@@ -23,6 +23,9 @@ published: true
 
 **Dato documentado:** las potencias y consumos se atribuyen a la ficha indicada en cada tabla. Esta guía es documental; no incluye prueba física ni instrucciones para conectar o convertir equipos.
 
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## GN, GLP y equipos duales: qué cambia
 
 Un generador **a gas natural (GN)** usa el suministro de red; uno **a GLP** funciona con gas licuado envasado o tanque compatible. Los equipos **duales** admiten dos combustibles según su diseño: por ejemplo, nafta y GLP, o GN y GLP. Un trifuel admite nafta, GN y GLP. El selector o ajuste de combustible debe corresponder al modelo y seguir el manual.
@@ -51,6 +54,16 @@ La familia residencial estacionaria disponible en los catálogos consultados com
 **Lectura de potencia:** el Guardian de 8 kVA pierde 1 kVA de potencia continua al operar con GN frente a GLP; en los modelos Guardian de 10 y 13 kVA la ficha consultada da la misma potencia para ambos gases. En Gamma estacionario, la potencia GN también es menor que la GLP. El TF8500 publica además 8 kW continuos con nafta: al cambiar a GLP o GN baja a 7,2 o 6,4 kW. Son valores por modelo, no una regla porcentual extrapolable a otros generadores.
 
 Estos son modelos y configuraciones que aparecen en páginas de fabricante/importador consultadas el 28/09/2026; la publicación no confirma stock en cada localidad. Pedí cotización para el código exacto, combustible, tensión/fases y accesorios incluidos. En Gamma, los estacionarios no incluyen batería, instalación ni conexiones de gas; el fabricante indica que necesitan el ATS GE3495AR.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Opción trifuel: Gamma TF10000
+
+El **GE3491AR / TF10000** es una opción comercial distinta del TF8500 documentado en esta guía. La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/) publica potencias continuas de 9 / 8,1 / 7,2 kW y máximas de 10 / 9 / 8 kW con nafta / GLP / gas natural, respectivamente. Elegí por el combustible que usarás y verificá los requisitos de conexión.
+
+[Ver precio del Gamma TF10000](https://meli.la/2sRF5ic)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Precios y disponibilidad observados en Argentina
 

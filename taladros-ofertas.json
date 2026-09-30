@@ -1,0 +1,364 @@
+{
+  "/taladros/percutores/": {
+    "file": "03-taladro-percutor.md",
+    "models": [
+      "GSB550"
+    ],
+    "anchor": "Modelos con cable y a batería",
+    "position": "section",
+    "title": "Consultá el percutor Bosch con cable",
+    "offers": [
+      {
+        "model": "GSB550",
+        "url": "https://meli.la/18iubWD",
+        "cta": "Ver precio del Bosch GSB 550 RE"
+      }
+    ]
+  },
+  "/taladros/taladro-de-banco/": {
+    "file": "04-taladro-de-banco.md",
+    "models": [
+      "TBL167",
+      "TBL710"
+    ],
+    "anchor": "Potencia, velocidades y capacidad del mandril",
+    "position": "section",
+    "title": "Dos publicaciones de banco: confirmá modelo y potencia",
+    "offers": [
+      {
+        "model": "TBL167",
+        "url": "https://meli.la/2ehG4uD",
+        "cta": "Ver publicación del Lüsqtoff TBL16-7"
+      },
+      {
+        "model": "TBL710",
+        "url": "https://meli.la/1MCEYGV",
+        "cta": "Ver precio del TBL710-9D"
+      }
+    ]
+  },
+  "/taladros/rotomartillo-bosch/": {
+    "file": "06-rotomartillo-bosch.md",
+    "models": [
+      "GBH220",
+      "GBH226",
+      "GBH180"
+    ],
+    "anchor": "Comparativa de modelos por trabajo",
+    "position": "section",
+    "title": "Rotomartillos Bosch SDS Plus: cable o batería",
+    "offers": [
+      {
+        "model": "GBH220",
+        "url": "https://meli.la/2cRLSJx",
+        "cta": "Ver precio del Bosch GBH 220"
+      },
+      {
+        "model": "GBH226",
+        "url": "https://meli.la/16mozwd",
+        "cta": "Ver precio del Bosch GBH 2-26 DRE"
+      },
+      {
+        "model": "GBH180",
+        "url": "https://meli.la/29WzeN7",
+        "cta": "Ver precio del Bosch GBH 180-LI"
+      }
+    ]
+  },
+  "/taladros/para-durlock/": {
+    "file": "08-atornillador-para-durlock.md",
+    "models": [
+      "GTB650",
+      "DCF620"
+    ],
+    "anchor": "Cable, batería o alimentador",
+    "position": "section",
+    "title": "Atornilladores específicos para placas",
+    "offers": [
+      {
+        "model": "GTB650",
+        "url": "https://meli.la/2DibsdV",
+        "cta": "Ver precio del Bosch GTB 650"
+      },
+      {
+        "model": "DCF620",
+        "url": "https://meli.la/2Rfk4Q2",
+        "cta": "Ver precio del DeWalt DCF620B"
+      }
+    ]
+  },
+  "/taladros/black-decker/": {
+    "file": "09-taladro-black-decker.md",
+    "models": [
+      "BCD702",
+      "BLD783"
+    ],
+    "anchor": "Modelos con cable e inalámbricos",
+    "position": "section",
+    "title": "Black+Decker: sin percusión o con percusión",
+    "offers": [
+      {
+        "model": "BCD702",
+        "url": "https://meli.la/1eiXebK",
+        "cta": "Ver precio del BCD702C1"
+      },
+      {
+        "model": "BLD783",
+        "url": "https://meli.la/2GYZ2VP",
+        "cta": "Ver precio del BLD783D1"
+      }
+    ]
+  },
+  "/taladros/rotomartillo-einhell/": {
+    "file": "10-rotomartillo-einhell.md",
+    "models": [
+      "TCRH620",
+      "TERH281"
+    ],
+    "anchor": "Diferencias entre modelos",
+    "position": "section",
+    "title": "Rotomartillos Einhell: comprobá la variante",
+    "offers": [
+      {
+        "model": "TCRH620",
+        "url": "https://meli.la/2fHsXDs",
+        "cta": "Ver precio del TC-RH 620 4F"
+      },
+      {
+        "model": "TERH281",
+        "url": "https://meli.la/1gnYgwd",
+        "cta": "Ver publicación del TE-RH 28/1 5F"
+      }
+    ]
+  },
+  "/taladros/rotomartillo-dewalt/": {
+    "file": "11-rotomartillo-dewalt.md",
+    "models": [
+      "DCH273"
+    ],
+    "anchor": "Modelos según exigencia",
+    "position": "section",
+    "title": "Consultá el rotomartillo DeWalt DCH273B",
+    "offers": [
+      {
+        "model": "DCH273",
+        "url": "https://meli.la/1uYbzCV",
+        "cta": "Ver precio del DeWalt DCH273B"
+      }
+    ]
+  },
+  "/taladros/einhell-inalambrico/": {
+    "file": "12-taladro-inalambrico-einhell.md",
+    "models": [
+      "TECD1840",
+      "TPCD1850"
+    ],
+    "anchor": "TE-CD 18/40 y TP-CD 18/50: sin y con percusión",
+    "position": "section",
+    "title": "Einhell Solo: confirmá función y presupuesto completo",
+    "offers": [
+      {
+        "model": "TECD1840",
+        "url": "https://meli.la/2A1rX5b",
+        "cta": "Ver precio del TE-CD 18/40 Li"
+      },
+      {
+        "model": "TPCD1850",
+        "url": "https://meli.la/1sp5STW",
+        "cta": "Ver precio del TP-CD 18/50 Li-i BL"
+      }
+    ]
+  },
+  "/taladros/dewalt-inalambrico/": {
+    "file": "13-taladro-inalambrico-dewalt.md",
+    "models": [
+      "DCD796",
+      "DCD805"
+    ],
+    "anchor": "Modelos para uso doméstico y profesional",
+    "position": "section",
+    "title": "DeWalt: kit D2 o herramienta sola B",
+    "offers": [
+      {
+        "model": "DCD796",
+        "url": "https://meli.la/1STm31d",
+        "cta": "Ver precio del DeWalt DCD796D2"
+      },
+      {
+        "model": "DCD805",
+        "url": "https://meli.la/1R9rAch",
+        "cta": "Ver precio del DCD805B sin batería"
+      }
+    ]
+  },
+  "/taladros/mecha-porcelanato/": {
+    "file": "14-mecha-para-porcelanato.md",
+    "models": [
+      "HEX9",
+      "EASYGRES"
+    ],
+    "anchor": "Tipos de broca para porcelanato",
+    "position": "section",
+    "title": "Mechas de 6 mm: carburo o diamante húmedo",
+    "offers": [
+      {
+        "model": "HEX9",
+        "url": "https://meli.la/2XU7X44",
+        "cta": "Ver precio de la Bosch HEX-9 6 mm"
+      },
+      {
+        "model": "EASYGRES",
+        "url": "https://meli.la/1SEcMe1",
+        "cta": "Ver precio de la Rubi Easy Gres 6 mm"
+      }
+    ]
+  },
+  "/taladros/milwaukee/": {
+    "file": "15-taladro-milwaukee.md",
+    "models": [
+      "M123404",
+      "M182904"
+    ],
+    "anchor": "Diferencias entre M12 y M18",
+    "position": "section",
+    "title": "Milwaukee: compará plataforma y contenido",
+    "offers": [
+      {
+        "model": "M123404",
+        "url": "https://meli.la/1zxo6Um",
+        "cta": "Ver precio del Milwaukee 3404-20"
+      },
+      {
+        "model": "M182904",
+        "url": "https://meli.la/157Rjx8",
+        "cta": "Ver precio del Milwaukee M18 FUEL"
+      }
+    ]
+  },
+  "/taladros/lusqtoff-inalambrico/": {
+    "file": "16-taladro-inalambrico-lusqtoff.md",
+    "models": [
+      "TIL23",
+      "TAL60",
+      "TIL45131"
+    ],
+    "anchor": "Comparativa de modelos y prestaciones",
+    "position": "section",
+    "title": "Lüsqtoff: 12 V, Iron Volt y percusión",
+    "offers": [
+      {
+        "model": "TIL23",
+        "url": "https://meli.la/113Ew5S",
+        "cta": "Ver precio del TIL23-8B"
+      },
+      {
+        "model": "TAL60",
+        "url": "https://meli.la/1KgRGVw",
+        "cta": "Ver precio del TAL60-9B"
+      },
+      {
+        "model": "TIL45131",
+        "url": "https://meli.la/1UgHPbY",
+        "cta": "Ver precio del TIL45131-8BK"
+      }
+    ]
+  },
+  "/taladros/brocas-ceramica/": {
+    "file": "17-brocas-para-ceramica.md",
+    "models": [
+      "CYL9"
+    ],
+    "anchor": "Tipos de punta y materiales compatibles",
+    "position": "section",
+    "title": "Consultá la mecha CYL-9 para cerámica blanda",
+    "offers": [
+      {
+        "model": "CYL9",
+        "url": "https://meli.la/2wKN4UX",
+        "cta": "Ver precio de la Bosch CYL-9 6 mm"
+      }
+    ]
+  },
+  "/taladros/stanley/": {
+    "file": "18-taladro-stanley.md",
+    "models": [
+      "SDH700",
+      "SBD715"
+    ],
+    "anchor": "Modelos con cable e inalámbricos",
+    "position": "section",
+    "title": "Stanley: percusión con cable o V20",
+    "offers": [
+      {
+        "model": "SDH700",
+        "url": "https://meli.la/1b2mqhW",
+        "cta": "Ver precio del Stanley SDH700"
+      },
+      {
+        "model": "SBD715",
+        "url": "https://meli.la/2B5Nkky",
+        "cta": "Ver precio del Stanley SBD715C2K"
+      }
+    ]
+  },
+  "/taladros/atornillador-impacto-dewalt/": {
+    "file": "19-atornillador-de-impacto-dewalt.md",
+    "models": [
+      "DCF887",
+      "DCF850"
+    ],
+    "anchor": "Diferencias entre modelos",
+    "position": "section",
+    "title": "Atornilladores de impacto DeWalt",
+    "offers": [
+      {
+        "model": "DCF887",
+        "url": "https://meli.la/1hh4SkK",
+        "cta": "Ver precio del DeWalt DCF887B"
+      },
+      {
+        "model": "DCF850",
+        "url": "https://meli.la/1xNiZKX",
+        "cta": "Ver precio del DeWalt DCF850B"
+      }
+    ]
+  },
+  "/taladros/bosch-inalambrico/": {
+    "file": "20-taladro-inalambrico-bosch.md",
+    "models": [
+      "GSR120",
+      "GSB1850"
+    ],
+    "anchor": "Diferencias entre GSR y GSB",
+    "position": "section",
+    "title": "Bosch: GSR 12 V sin percusión o GSB 18 V percutor",
+    "offers": [
+      {
+        "model": "GSR120",
+        "url": "https://meli.la/2hBcHa8",
+        "cta": "Ver precio del Bosch GSR 120-LI"
+      },
+      {
+        "model": "GSB1850",
+        "url": "https://www.mercadolibre.com.ar/up/MLAU364309887?pdp_filters=item_id:MLA1755860026#origin=share&sid=share&wid=MLA1755860026&action=copy",
+        "cta": "Ver precio del Bosch GSB 18V-50"
+      }
+    ]
+  },
+  "/taladros/mechas-escalonadas/": {
+    "file": "21-mechas-escalonadas.md",
+    "models": [
+      "HSS420"
+    ],
+    "anchor": "Opciones para comparar",
+    "position": "section",
+    "title": "Consultá la referencia Bosch HSS 4–20 mm",
+    "offers": [
+      {
+        "model": "HSS420",
+        "url": "https://meli.la/2TD7cMx",
+        "cta": "Ver precio de la Bosch HSS 4–20 mm"
+      }
+    ]
+  }
+}

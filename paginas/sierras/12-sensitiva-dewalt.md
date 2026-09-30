@@ -21,7 +21,25 @@ published: true
 
 El D28730-AR figura en el catálogo argentino de DeWalt de 2023. También hay documentación primaria para el D28720-AR, una variante regional anterior que aparece en un catálogo argentino de 2018 y en el catálogo de servicio de DeWalt para Latinoamérica. Puede servir para comparar una unidad usada o de stock remanente; confirmá disponibilidad, garantía y repuestos antes de comprar.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## D28720 o D28730: cuál tiene sentido según el trabajo
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| DeWalt D28720 | Confirmá variante D28720-AR y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2ZwgGLw) |
+| DeWalt D28730 | Confirmá variante regional y capacidad para el perfil previsto. | [Ver precio →](https://meli.la/2LmS81p) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 | Dato | D28720-AR | D28730-AR |
 | :--- | :--- | :--- |

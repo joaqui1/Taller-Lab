@@ -21,6 +21,9 @@ published: true
 
 La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limita a dos códigos actuales con fichas argentinas accesibles, para no mantener afirmaciones sin respaldo.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Cuál elegir según tamaño de pieza y espacio
 
 | Dato documentado | TC-TS 2025/2 U (4340490) | TC-TS 2225 U (4340515) |
@@ -37,6 +40,19 @@ La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limit
 | Base y altura de trabajo | Bastidor base; fabricante anuncia 850 mm | Bastidor inferior y extensión posterior; fabricante anuncia 870 mm |
 | Elementos principales incluidos | Hoja, guía paralela, tope transversal, protector, cuchillo divisor, empujador, manguera de aspiración y estructura con extensiones | Hoja, guía paralela, tope transversal, protector/cuchillo divisor, empujador, patas, extensiones laterales y posterior, herrajes y llaves |
 | Peso publicado | Ficha web: 19,24 kg; manual: aprox. 18 kg | Ficha web: 22,09 kg; manual: aprox. 26,5 kg |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Einhell TC-TS 2025/2 U | Verificá código completo, mesa y accesorios incluidos. | [Ver precio →](https://meli.la/2mWYUA8) |
+| Einhell TC-TS 2225 U | Verificá código completo, mesa y accesorios incluidos. | [Ver precio →](https://meli.la/1SQmxVn) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 La cantidad de dientes describe la hoja que viene instalada; por sí sola no demuestra que una sierra sea mejor ni anticipa el acabado para todos los materiales. Para cambiarla, respetá diámetro, eje, espesor, RPM y aplicación admitidos por la máquina.
 

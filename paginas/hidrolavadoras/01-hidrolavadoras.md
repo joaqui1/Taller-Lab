@@ -23,6 +23,9 @@ published: true
 
 **Dato documentado:** guía documental, sin prueba física de TallerLab. La matriz traduce la tarea en criterios de compra; los valores de cada modelo se mantienen ligados a su propia ficha.
 
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Elegí por tarea
 
 ### Cómo interpretar las especificaciones
@@ -45,6 +48,12 @@ Estas variables se leen en conjunto: si vas a lavar el auto, compará [hidrolava
 | Trabajo o servicio móvil | Confirmá que presión de trabajo, boquilla y tarea sean compatibles | Caudal y ciclo de trabajo son claves en jornadas largas | Buscá manguera de alta presión reemplazable y longitud apropiada al puesto | Nafta si no hay red eléctrica; eléctrica profesional cuando sí la hay y el entorno permite conexión segura | Una máquina pesada puede convenir si tiene ruedas y carga sencilla; considerá transporte en vehículo | Carrete, filtro, picos intercambiables, conexiones estándar y repuestos disponibles |
 
 **Criterio de lectura:** presión y caudal describen aspectos distintos del trabajo. Compará presión de trabajo con presión de trabajo, y caudal bajo la misma condición.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Modelos concretos y precios observados
 

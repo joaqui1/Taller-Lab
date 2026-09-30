@@ -23,24 +23,45 @@ published: true
 
 **Alcance de esta captura:** precios visibles en publicaciones de Mercado Libre consultadas el **28/09/2026**. Son ejemplos puntuales, no un promedio de mercado ni una cotización garantizada. Los precios y las cuotas cambian por vendedor, zona, medio de pago y disponibilidad; confirmá el importe antes de comprar.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Precios por potencia
 
 La muestra recorre equipos chicos, de aproximadamente 2–3 kW, de 5–6 kW y de mayor potencia. La primera columna monetaria transcribe el precio principal visible en la publicación; la financiación queda aparte. Cuando el vendedor dice “mismo precio en cuotas”, lo indicamos. En los demás casos no suponemos que el precio principal sea un precio de contado o transferencia: consultalo. El total de cuotas marcado como **cálculo TallerLab** es el valor de cada cuota multiplicado por la cantidad publicada.
 
-| Escala del anuncio | Modelo y potencia documentada | Precio principal publicado | Cuotas publicadas | Total del plan publicado | Publicación consultada |
-| :--- | :--- | ---: | :--- | ---: | :--- |
-| Chico | [Honda EG1000](/generadores/honda/): 0,75 / 0,85 kVA nominal/máxima según Honda; el aviso anuncia 820 W / 1 kW | $1.290.000 | 6 × $290.228,50 | $1.741.371,00 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v/p/MLA10743915) |
-| ≈2–3 kW | CMC 3000 W: 2,5 kW nominales / 3 kW máximo | $550.000 | 12 × $45.833,33; mismo precio | $550.000 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr/p/MLA21251497) |
-| ≈2–3 kW anunciados | [Honda EZ3000CX](/generadores/honda/): 2,3 / 2,5 kVA nominal/máxima según Honda; el aviso anuncia 2,8 / 3 kW | $1.151.650 | 6 × $259.102,06 | $1.554.612,36 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v/p/MLA15958687) |
-| ≈5–6 kW | Dyllu DTGEAB08-4 inverter: 5 kW nominales / 5,5 kW máximo | $1.765.792,55 | 6 × $397.273,89 | $2.383.643,34 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil/p/MLA49298058) |
-| ≈5–6 kW | Konan KGE/6500E: 6 kW nominales / 6,5 kW máximo | $1.190.422,41 | 12 × $99.201,87; mismo precio | $1.190.422,41 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-electrico-monofasico-konan-6500w/up/MLAU3623879031) |
-| ≈5–6 kW anunciados | Nebraska NEGE06500E: 6,5 kW máximo; la publicación consultada no identifica potencia nominal | $1.499.999 | 6 × $337.474,78 | $2.024.848,68 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman/p/MLA50165960) |
-| Alta | [Lüsqtoff LGI8.0-9](/generadores/lusqtoff/), inverter: 7,5 kW nominales / 8 kW máximo | $1.801.199 | 6 × $405.239,76 | $2.431.438,56 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc/p/MLA51973346) |
-| Alta | [Gamma GE3482AR](/generadores/gamma/): 8,5 kW máximo; la ficha del fabricante consultada no publica nominal | $1.426.384,03 | 9 × $158.487,11; mismo precio | $1.426.384,03 | [Ver publicación](https://www.mercadolibre.com.ar/generador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v/up/MLAU166723439) |
+| Escala del anuncio | Modelo y potencia documentada | Precio principal publicado | Cuotas publicadas | Total del plan publicado | Publicación consultada | Oferta |
+| :--- | :--- | ---: | :--- | ---: | :--- | :--- |
+| Chico | [Honda EG1000](/generadores/honda/): 0,75 / 0,85 kVA nominal/máxima según Honda; el aviso anuncia 820 W / 1 kW | $1.290.000 | 6 × $290.228,50 | $1.741.371,00 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v/p/MLA10743915) | — |
+| ≈2–3 kW | CMC 3000 W: 2,5 kW nominales / 3 kW máximo | $550.000 | 12 × $45.833,33; mismo precio | $550.000 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr/p/MLA21251497) | [Ver precio →](https://meli.la/2r7eRux) |
+| ≈2–3 kW anunciados | [Honda EZ3000CX](/generadores/honda/): 2,3 / 2,5 kVA nominal/máxima según Honda; el aviso anuncia 2,8 / 3 kW | $1.151.650 | 6 × $259.102,06 | $1.554.612,36 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/generador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v/p/MLA15958687) | [Ver precio →](https://meli.la/2dryX8a) |
+| ≈5–6 kW | Dyllu DTGEAB08-4 inverter: 5 kW nominales / 5,5 kW máximo | $1.765.792,55 | 6 × $397.273,89 | $2.383.643,34 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil/p/MLA49298058) | [Ver precio →](https://meli.la/221u1rq) |
+| ≈5–6 kW | Konan KGE/6500E: 6 kW nominales / 6,5 kW máximo | $1.190.422,41 | 12 × $99.201,87; mismo precio | $1.190.422,41 | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-electrico-monofasico-konan-6500w/up/MLAU3623879031) | — |
+| ≈5–6 kW anunciados | Nebraska NEGE06500E: 6,5 kW máximo; la publicación consultada no identifica potencia nominal | $1.499.999 | 6 × $337.474,78 | $2.024.848,68 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman/p/MLA50165960) | — |
+| Alta | [Lüsqtoff LGI8.0-9](/generadores/lusqtoff/), inverter: 7,5 kW nominales / 8 kW máximo | $1.801.199 | 6 × $405.239,76 | $2.431.438,56 *(cálculo TallerLab)* | [Ver publicación](https://www.mercadolibre.com.ar/grupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc/p/MLA51973346) | [Ver precio →](https://meli.la/2xPEW5s) |
+| Alta | [Gamma GE3482AR](/generadores/gamma/): 8,5 kW máximo; la ficha del fabricante consultada no publica nominal | $1.426.384,03 | 9 × $158.487,11; mismo precio | $1.426.384,03 | [Ver publicación](https://www.mercadolibre.com.ar/generador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v/up/MLAU166723439) | [Ver precio →](https://meli.la/1Ha3UGR) |
 
 Las filas no son equipos equivalentes ni una recomendación de compra. Conservamos nominal y máximo según ficha de fabricante cuando está disponible; en dos modelos Honda, el aviso consultado anuncia valores distintos de la ficha y mostramos ambos para que se pueda verificar el código antes de pagar. En otras filas la fuente disponible identifica solo el máximo. Para comparar capacidad, priorizá nominal, tensión/fase y el dato de arranque de tus cargas. El modelo con menor precio de la tabla no necesariamente tiene el menor costo de contado ni entrega la potencia que necesitás.
 
 Si todavía no sabés qué potencia necesitás, elegila primero por carga: [cómo elegir la potencia de un grupo electrógeno](/generadores/comparativa-general/).
+
+<!-- GENERADORES-EXTRAS -->
+
+### Alternativa Gamma actual: 6000V
+
+El GE3481AR / 6000V es un modelo distinto del Gamma 6500V. Su manual publica 5,5 kW nominales y 6 kW máximos; tanque de 25 L y arranque eléctrico, con batería no incluida. [Ficha y manual Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/).
+
+[Ver precio del Gamma 6000V](https://meli.la/15vKtBp)
+
+### Lüsqtoff LG3000: escalón de 2–3 kVA
+
+La [ficha Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LG3000) publica 2,5 kVA nominales / 2,8 kVA máximos, arranque manual y tanque de 15 L. La [guía a nafta](/generadores/a-nafta/) conserva la discrepancia entre esos campos y otro rótulo de potencia del fabricante; confirmá placa y manual.
+
+[Ver precio del Lüsqtoff LG3000](https://meli.la/2fhftj7)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Qué encarece un generador
 

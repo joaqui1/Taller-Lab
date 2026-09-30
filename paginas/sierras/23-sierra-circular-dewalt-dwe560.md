@@ -21,6 +21,11 @@ published: true
 
 La ficha argentina confirma la potencia, el diámetro anunciado y el ajuste de bisel. Para decidir si cubre una pieza concreta, la profundidad máxima es un dato clave que la documentación consultada no publica: no conviene deducirla solo del diámetro del disco.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## DWE560 frente a GKS150 y SC16
 
 La comparación reúne datos publicados para DWE560-AR, GKS 150 (código 0 601 6B3 0H0) y SC16-AR. “No informado” indica que no encontramos esa capacidad en las fuentes oficiales consultadas; no se estima a partir del diámetro del disco.
@@ -55,6 +60,18 @@ La guarda retráctil y la zapata de 3 mm son características que destaca el fab
 ## Para quién tiene sentido la DWE560
 
 Puede tener sentido si buscás una circular con cable de 220 V para cortes portátiles en madera y confirmás que la capacidad de corte alcanza para tus piezas. Las fuentes oficiales revisadas no informan la profundidad máxima: si ese dato define la compra, pedí confirmación para el código DWE560-AR antes de decidir. Compará con GKS 150 y SC16 usando las diferencias de disco de la tabla y la documentación de la unidad concreta.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| DeWalt DWE560 | Confirmá variante DWE560-AR y tensión de la unidad ofrecida. | [Ver precio →](https://meli.la/2zyLxUA) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Fuentes consultadas
 

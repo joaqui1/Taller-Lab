@@ -23,15 +23,20 @@ published: true
 
 **Alcance:** esta guía usa las fichas de Honda Argentina consultadas el 28/09/2026. La selección depende de tus cargas simultáneas, sus picos de arranque y la tensión/fase requerida; los grupos de abajo orientan la comparación, no garantizan que un modelo alcance para una instalación.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Comparativa de modelos Honda
 
-| Modelo | Potencia nominal / máxima CA | Salida y regulación | Arranque | Peso en seco | Tanque | Autonomía indicada por Honda |
-| :--- | :--- | :--- | :--- | ---: | ---: | :--- |
-| EU22i | 1,8 / 2,2 kVA | 220 V monofásica; inverter | Manual | 21 kg | 3,6 L | La página menciona 8,1 h con Eco Throttle; la tabla técnica también muestra 3,2 h bajo otra condición. |
-| EU30is | 2,8 / 3,0 kVA | 220 V monofásica; inverter | Eléctrico | 59 kg | 13 L | 20 h con Eco Throttle; la ficha técnica también registra 7,1 h. |
-| EG6500CXS | 5,0 / 5,5 kVA | 220 V monofásica; D-AVR | Eléctrico; la descripción también menciona manual | 87 kg | 24 L | 8,1 h de uso continuo, según ficha. |
-| EZ6500CXS | 5,5 / 6,5 kVA | 220 V monofásica; AVR | Manual y eléctrico | 80 kg | 15,5 L | 5,8 h de uso continuo, según ficha. |
-| ET12000 | 10 / 11 kVA total; trifásica: 3 × 2,7 / 3 × 3,0 kVA nominal/máxima | 220 V monofásica o 380 V trifásica; AVR | Eléctrico | 150 kg en tabla técnica; 162 kg en resumen de Honda | 31 L | 6,5 h de uso continuo, según ficha. |
+| Modelo | Potencia nominal / máxima CA | Salida y regulación | Arranque | Peso en seco | Tanque | Autonomía indicada por Honda | Oferta |
+| :--- | :--- | :--- | :--- | ---: | ---: | :--- | :--- |
+| EU22i | 1,8 / 2,2 kVA | 220 V monofásica; inverter | Manual | 21 kg | 3,6 L | La página menciona 8,1 h con Eco Throttle; la tabla técnica también muestra 3,2 h bajo otra condición. | [Ver precio →](https://meli.la/2AwxqaH) |
+| EU30is | 2,8 / 3,0 kVA | 220 V monofásica; inverter | Eléctrico | 59 kg | 13 L | 20 h con Eco Throttle; la ficha técnica también registra 7,1 h. | [Ver precio →](https://meli.la/2X86187) |
+| EG6500CXS | 5,0 / 5,5 kVA | 220 V monofásica; D-AVR | Eléctrico; la descripción también menciona manual | 87 kg | 24 L | 8,1 h de uso continuo, según ficha. | [Ver precio →](https://meli.la/1sxNfJ5) |
+| EZ6500CXS | 5,5 / 6,5 kVA | 220 V monofásica; AVR | Manual y eléctrico | 80 kg | 15,5 L | 5,8 h de uso continuo, según ficha. | [Ver precio →](https://meli.la/2Kt6i6Y) |
+| ET12000 | 10 / 11 kVA total; trifásica: 3 × 2,7 / 3 × 3,0 kVA nominal/máxima | 220 V monofásica o 380 V trifásica; AVR | Eléctrico | 150 kg en tabla técnica; 162 kg en resumen de Honda | 31 L | 6,5 h de uso continuo, según ficha. | [Ver precio →](https://meli.la/2WRqiZR) |
 
 En el ET12000, la ficha técnica especifica **10 kVA nominales y 11 kVA máximos**. Para salida trifásica especifica **3 × 2,7 kVA nominales y 3 × 3,0 kVA máximos**. Honda muestra dos masas en seco en la misma página: 162 kg en el resumen y 150 kg en la tabla técnica; mantenemos la discrepancia y no elegimos una cifra sin aclaración de Honda.
 

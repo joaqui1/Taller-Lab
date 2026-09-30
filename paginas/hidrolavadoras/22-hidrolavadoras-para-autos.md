@@ -32,6 +32,11 @@ Esta guía prioriza lo que cambia la experiencia al lavar un auto: posibilidad d
 - Fuentes primarias: sí
 - Última revisión: 28/09/2026
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Qué revisar antes de elegir
 
 | Qué revisar | Por qué importa al lavar un auto |
@@ -44,6 +49,12 @@ Esta guía prioriza lo que cambia la experiencia al lavar un auto: posibilidad d
 | **Accesorios incluidos y compatibilidad** | Cepillo de lavado, boquilla de espuma y filtro pueden venir en un kit concreto o venderse aparte. Comprobá SKU y acople antes de contar con un accesorio. |
 
 **Según frecuencia:** para uno o dos lavados ocasionales al mes y vehículos chicos, una K2 liviana puede ser suficiente si el kit cubre espuma/cepillo. Si lavás seguido, tenés más de un auto o buscás más caudal y alcance, compará un escalón superior; la ficha K3 declara 330 L/h, pero no informa el largo de manguera del SKU local consultado. Para taller o jornadas extensas, una máquina hogareña no debe elegirse por la cifra de presión: revisá el ciclo de uso admitido y dimensioná un equipo profesional.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Equipos y combos para comparar
 
@@ -67,7 +78,7 @@ Esta guía prioriza lo que cambia la experiencia al lavar un auto: posibilidad d
 
 La recomendación de jabón, boquilla y técnica depende del estado de la pintura y del manual de cada vehículo/equipo. No se hicieron pruebas físicas ni ensayos comparativos de daño o tiempo de lavado.
 
-### Fuentes consultadas
+## Fuentes consultadas
 
 - **Documentación primaria y del representante local:** [Kärcher Argentina K2 Basic Black](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html); [K3 Black Edition](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html); combos y stock en [tienda oficial Kärcher Argentina](https://www.karcheronline.com.ar/equipos/hidrolavadoras); [Grupo Rumbo Niwa HDNW-500](https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500-1040550); [consejos de limpieza de vehículos Kärcher](https://www.kaercher.com/ar/home-garden/consejos-de-utilizacion/limpieza-de-vehiculos.html).
 - **Opiniones de compradores:** no se revisó una muestra verificable.

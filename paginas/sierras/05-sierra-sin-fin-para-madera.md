@@ -19,6 +19,11 @@ published: true
 
 # Qué sierra sin fin para madera comprar
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué capacidad necesitás
 
 ### Altura de corte y garganta: qué determina cada una
@@ -26,6 +31,19 @@ published: true
 La **altura de corte** limita cuánto alto puede ser el material que pasa bajo la guía superior. La **garganta** mide el espacio horizontal desde la cinta hasta el marco: determina cuánto puede sobresalir la pieza hacia el interior de la máquina. Una tabla alta y angosta puede caber por altura, pero no por garganta; una tabla ancha puede entrar de canto y aun así superar la altura permitida.
 
 Ejemplos: para volver a aserrar una tabla de 180 mm de alto necesitás más de 180 mm de altura de corte y una cinta adecuada; una sierra de 80 mm queda fuera por altura aunque tenga una garganta amplia. Para cortar una curva en una pieza de 120 mm de ancho, verificá el espacio a la columna y el radio que permite la cinta. En cortes inclinados, usá la capacidad publicada para ese ángulo, no la cifra a 90°.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff SFL300-8 | Confirmá altura de corte, garganta y medida de cinta para este código. | [Ver precio →](https://meli.la/27H5LQK) |
+| Lüsqtoff SFL1100-9 | Confirmá altura de corte, garganta y medida de cinta para este código. | [Ver precio →](https://meli.la/2Pg3D6X) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ### Mesa y guías: apoyo y control
 

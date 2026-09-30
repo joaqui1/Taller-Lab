@@ -1,0 +1,637 @@
+{
+  "/sierras/circulares/": {
+    "file": "01-sierra-circular.md",
+    "models": [
+      "GKS150",
+      "SC16",
+      "DWE560",
+      "CSL1500-8"
+    ],
+    "anchor": "Diámetro y espesor: dos límites separados",
+    "position": "section",
+    "offers": [
+      {
+        "model": "GKS150",
+        "url": "https://meli.la/1Chp49C",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SC16",
+        "url": "https://meli.la/1WX3aEo",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWE560",
+        "url": "https://meli.la/2zyLxUA",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "CSL1500-8",
+        "url": "https://meli.la/2XbUjXk",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sensitivas/": {
+    "file": "02-sensitiva.md",
+    "models": [
+      "CM-14K",
+      "TS223558-4"
+    ],
+    "anchor": "Qué capacidad necesitás según la forma del perfil",
+    "position": "section",
+    "offers": [
+      {
+        "model": "CM-14K",
+        "url": "https://meli.la/28Unx3L",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TS223558-4",
+        "url": "https://meli.la/194gVdS",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sable/": {
+    "file": "03-sierra-sable.md",
+    "models": [
+      "GSA1100E",
+      "GSA18V24",
+      "DCS380B"
+    ],
+    "anchor": "Sierra sable con cable o inalámbrica",
+    "position": "section",
+    "offers": [
+      {
+        "model": "GSA1100E",
+        "url": "https://meli.la/2cEAQKh",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "GSA18V24",
+        "url": "https://meli.la/2mTTC3F",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DCS380B",
+        "url": "https://meli.la/2UW9Bfk",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/caladoras/": {
+    "file": "04-sierra-caladora.md",
+    "models": [
+      "BES603",
+      "TC-JS85",
+      "TE-JS100"
+    ],
+    "anchor": "Capacidad publicada de tres modelos",
+    "position": "table",
+    "offers": [
+      {
+        "model": "BES603",
+        "url": "https://meli.la/2azLzTF",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TC-JS85",
+        "url": "https://meli.la/1PmtLAQ",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TE-JS100",
+        "url": "https://meli.la/2N5KYMc",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sierra-sin-fin-para-madera/": {
+    "file": "05-sierra-sin-fin-para-madera.md",
+    "models": [
+      "SFL300-8",
+      "SFL1100-9"
+    ],
+    "anchor": "Altura de corte y garganta: qué determina cada una",
+    "position": "section",
+    "offers": [
+      {
+        "model": "SFL300-8",
+        "url": "https://meli.la/27H5LQK",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SFL1100-9",
+        "url": "https://meli.la/2Pg3D6X",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/de-banco/": {
+    "file": "06-sierra-de-banco.md",
+    "models": [
+      "TC-TS2025",
+      "SML2000-8"
+    ],
+    "anchor": "Qué sierra de banco elegir según el tamaño de pieza",
+    "position": "table",
+    "offers": [
+      {
+        "model": "TC-TS2025",
+        "url": "https://meli.la/2mWYUA8",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SML2000-8",
+        "url": "https://meli.la/119eQpU",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sin-fin-metal/": {
+    "file": "07-sierra-sin-fin-para-metal.md",
+    "models": [
+      "646003",
+      "646001"
+    ],
+    "anchor": "Portátil o de banco",
+    "position": "section",
+    "offers": [
+      {
+        "model": "646003",
+        "url": "https://meli.la/1fovw5N",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "646001",
+        "url": "https://meli.la/1rjCMVL",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/ingletadoras-einhell/": {
+    "file": "08-ingletadora-einhell.md",
+    "models": [
+      "TC-MS2112"
+    ],
+    "anchor": "TC-MS 2112 o TC-SM 2131/2 Dual: cuál tiene sentido",
+    "position": "table",
+    "offers": [
+      {
+        "model": "TC-MS2112",
+        "url": "https://meli.la/1SD2tF3",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "TC-SM2131",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/de-banco-einhell/": {
+    "file": "09-sierra-de-banco-einhell.md",
+    "models": [
+      "TC-TS2025",
+      "TC-TS2225"
+    ],
+    "anchor": "Cuál elegir según tamaño de pieza y espacio",
+    "position": "table",
+    "offers": [
+      {
+        "model": "TC-TS2025",
+        "url": "https://meli.la/2mWYUA8",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TC-TS2225",
+        "url": "https://meli.la/1SQmxVn",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/caladoras-skil/": {
+    "file": "10-caladora-skil.md",
+    "models": [],
+    "anchor": "Vigencia y disponibilidad de los modelos",
+    "position": "section",
+    "offers": [],
+    "pending": [
+      {
+        "model": "4380",
+        "reason": "Pendiente: unidad nueva exacta, tensión local y habilitación por Afiliados."
+      },
+      {
+        "model": "4550",
+        "reason": "Pendiente: unidad nueva exacta, tensión local y habilitación por Afiliados."
+      }
+    ]
+  },
+  "/sierras/guia-para-sierra-circular/": {
+    "file": "11-guia-para-sierra-circular.md",
+    "models": [
+      "KMA2685",
+      "SURPLEE-DW3278"
+    ],
+    "anchor": "Compatibilidad con GKS150, DWE560 y SC16",
+    "position": "table",
+    "offers": [
+      {
+        "model": "KMA2685",
+        "url": "https://meli.la/2zYHZrk",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SURPLEE-DW3278",
+        "url": "https://meli.la/1xjT5i9",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sensitivas-dewalt/": {
+    "file": "12-sensitiva-dewalt.md",
+    "models": [
+      "D28720",
+      "D28730"
+    ],
+    "anchor": "D28720 o D28730: cuál tiene sentido según el trabajo",
+    "position": "heading",
+    "offers": [
+      {
+        "model": "D28720",
+        "url": "https://meli.la/2ZwgGLw",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "D28730",
+        "url": "https://meli.la/2LmS81p",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/ingletadoras-dewalt/": {
+    "file": "13-ingletadora-dewalt.md",
+    "models": [
+      "DWS713",
+      "DWS780"
+    ],
+    "anchor": "Fija o telescópica: cuándo compensa la DWS780",
+    "position": "table",
+    "offers": [
+      {
+        "model": "DWS713",
+        "url": "https://meli.la/1cgXhkN",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWS780",
+        "url": "https://meli.la/11C2Bud",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/ingletadoras-total/": {
+    "file": "14-ingletadora-total.md",
+    "models": [
+      "TS42142107"
+    ],
+    "anchor": "Qué cambia realmente entre los dos modelos",
+    "position": "table",
+    "offers": [
+      {
+        "model": "TS42142107",
+        "url": "https://meli.la/1ci9crb",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "TS42182553",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/disco-para-sierra-circular/": {
+    "file": "15-disco-para-sierra-circular.md",
+    "models": [],
+    "anchor": "Qué disco usar según el corte",
+    "position": "section",
+    "offers": [],
+    "pending": [
+      {
+        "model": "D0760A",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "EXPERT19060",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "PRO19054",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/bosch-gks-150/": {
+    "file": "16-sierra-circular-bosch-gks-150.md",
+    "models": [
+      "GKS150"
+    ],
+    "anchor": "Para quién tiene sentido la GKS150",
+    "position": "section",
+    "offers": [
+      {
+        "model": "GKS150",
+        "url": "https://meli.la/1Chp49C",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/circulares-black-decker/": {
+    "file": "17-sierra-circular-black-and-decker.md",
+    "models": [],
+    "anchor": "Qué Black+Decker elegir según el trabajo",
+    "position": "table",
+    "offers": [],
+    "pending": [
+      {
+        "model": "CS1004-AR",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "CS1350P",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/caladoras-einhell/": {
+    "file": "18-caladora-einhell.md",
+    "models": [
+      "TC-JS85",
+      "TE-JS100"
+    ],
+    "anchor": "Tres caladoras Einhell según alimentación y capacidad",
+    "position": "table",
+    "offers": [
+      {
+        "model": "TC-JS85",
+        "url": "https://meli.la/1PmtLAQ",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TE-JS100",
+        "url": "https://meli.la/2N5KYMc",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "TC-JS18",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/sierra-sable-inalambrica/": {
+    "file": "19-sierra-sable-inalambrica.md",
+    "models": [
+      "GSA18V24",
+      "DCS380B"
+    ],
+    "anchor": "La plataforma de batería puede decidir la compra",
+    "position": "section",
+    "offers": [
+      {
+        "model": "GSA18V24",
+        "url": "https://meli.la/2mTTC3F",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DCS380B",
+        "url": "https://meli.la/2UW9Bfk",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/circulares-lusqtoff/": {
+    "file": "20-sierra-circular-lusqtoff.md",
+    "models": [
+      "CSL1500-8"
+    ],
+    "anchor": "CSL1500-8 y SCL2200-8: capacidades documentadas",
+    "position": "table",
+    "offers": [
+      {
+        "model": "CSL1500-8",
+        "url": "https://meli.la/2XbUjXk",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "SCL2200-8",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/ingletadoras/": {
+    "file": "21-ingletadoras.md",
+    "models": [
+      "TC-MS2112",
+      "DWS713",
+      "DWS780"
+    ],
+    "anchor": "Fija o telescópica",
+    "position": "section",
+    "offers": [
+      {
+        "model": "TC-MS2112",
+        "url": "https://meli.la/1SD2tF3",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWS713",
+        "url": "https://meli.la/1cgXhkN",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWS780",
+        "url": "https://meli.la/11C2Bud",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "TC-SM2131",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/sierra-caladora-bosch/": {
+    "file": "22-caladoras-bosch.md",
+    "models": [],
+    "anchor": "Comparación de GST 650, GST 680 y GST 185-LI",
+    "position": "table",
+    "offers": [],
+    "pending": [
+      {
+        "model": "GST650",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "GST680",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "GST185LI",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/sierra-circular-dewalt-dwe560/": {
+    "file": "23-sierra-circular-dewalt-dwe560.md",
+    "models": [
+      "DWE560"
+    ],
+    "anchor": "Para quién tiene sentido la DWE560",
+    "position": "section",
+    "offers": [
+      {
+        "model": "DWE560",
+        "url": "https://meli.la/2zyLxUA",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/stanley-sc16/": {
+    "file": "24-stanley-sc16.md",
+    "models": [
+      "SC16"
+    ],
+    "anchor": "Para qué espesores tiene sentido",
+    "position": "section",
+    "offers": [
+      {
+        "model": "SC16",
+        "url": "https://meli.la/1WX3aEo",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/caladoras-black-decker/": {
+    "file": "25-caladoras-black-decker.md",
+    "models": [
+      "BES603"
+    ],
+    "anchor": "BES603 y BES602: velocidad variable y variante",
+    "position": "table",
+    "offers": [
+      {
+        "model": "BES603",
+        "url": "https://meli.la/2azLzTF",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "BES602",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/de-banco-lusqtoff/": {
+    "file": "26-sierra-de-banco-lusqtoff.md",
+    "models": [
+      "SML2000-8"
+    ],
+    "anchor": "Tres códigos de banco y una discrepancia documental",
+    "position": "table",
+    "offers": [
+      {
+        "model": "SML2000-8",
+        "url": "https://meli.la/119eQpU",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": [
+      {
+        "model": "SML2000-9",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      },
+      {
+        "model": "SML2000B-9",
+        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+      }
+    ]
+  },
+  "/sierras/sensitivas-lusqtoff/": {
+    "file": "27-sensitiva-lusqtoff.md",
+    "models": [
+      "CM-14K"
+    ],
+    "anchor": "Capacidades y datos publicados de la CM-14K",
+    "position": "table",
+    "offers": [
+      {
+        "model": "CM-14K",
+        "url": "https://meli.la/28Unx3L",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sin-fin-lusqtoff/": {
+    "file": "28-sierra-sin-fin-lusqtoff.md",
+    "models": [
+      "SFL300-8",
+      "SFL1100-9"
+    ],
+    "anchor": "SFL250-8 vs SFL300-8 vs SFL1100-9",
+    "position": "table",
+    "offers": [
+      {
+        "model": "SFL300-8",
+        "url": "https://meli.la/27H5LQK",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SFL1100-9",
+        "url": "https://meli.la/2Pg3D6X",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  },
+  "/sierras/sensitivas-total/": {
+    "file": "29-sensitiva-total.md",
+    "models": [
+      "TS223558-4"
+    ],
+    "anchor": "TS223558 vs TS223558-4: qué sabemos realmente",
+    "position": "section",
+    "offers": [
+      {
+        "model": "TS223558-4",
+        "url": "https://meli.la/194gVdS",
+        "cta": "Ver precio →"
+      }
+    ],
+    "pending": []
+  }
+}

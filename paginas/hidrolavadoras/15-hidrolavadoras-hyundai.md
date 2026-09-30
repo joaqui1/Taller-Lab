@@ -23,6 +23,11 @@ published: true
 
 Hyundai Herramientas Argentina publica **siete hidrolavadoras**: cinco eléctricas (HYEW65, 810H, HYEW100, 820H y una ficha de 1.600 W identificada por SKU) y dos a nafta (835H y 840H). Para elegir, primero decidí si tenés tomacorriente junto al lugar de trabajo; después compará presión de servicio, caudal y kit.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Qué datos cambian el resultado
 
 - **Presión de trabajo y presión máxima:** la de trabajo es la referencia útil para dimensionar una limpieza sostenida; la máxima indica el límite admisible o pico declarado, no la presión que el equipo mantiene durante el uso. Por eso la tabla las muestra por separado y las recomendaciones se basan en presión de trabajo cuando está publicada.
@@ -72,7 +77,7 @@ Las páginas argentinas no detallan de forma consistente el kit de manguera, pis
 
 El representante local indica que realiza internamente las reparaciones en garantía y que mantiene stock de repuestos para sus máquinas Hyundai. También publica una red de [servicio técnico oficial en el país](https://hyundaiherramientas.com.ar/servicio-tecnico/). Para confirmar disponibilidad real, consultá el repuesto por SKU y número de pieza: una declaración general de stock no acredita que cada manguera, bomba o boquilla esté disponible en este momento.
 
-## Fuentes y alcance
+## Fuentes consultadas
 
 - Hyundai Herramientas Argentina: [categoría de hidrolavadoras](https://hyundaiherramientas.com.ar/categoria-producto/hidrolavadoras/), [HYEW65](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600-w-hyew65/), [810H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1700-w-hyew100/), [HYEW100](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1800-w-hyew100/), [820H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-2500w-hyew125/), [019-0803](https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600w-120-bar/), [840H](https://hyundaiherramientas.com.ar/producto/hidrolavadora-a-nafta-13hp-840h/).
 - Representante local: [quiénes somos](https://hyundaiherramientas.com.ar/quienes-somos-2/), [servicio técnico oficial](https://hyundaiherramientas.com.ar/servicio-tecnico/).

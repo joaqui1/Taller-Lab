@@ -25,6 +25,11 @@ Un generador inverter convierte la energía en varias etapas: el motor mueve un 
 
 En un convencional, la velocidad del motor y la frecuencia de salida están más directamente relacionadas. En un inverter con control de régimen, el motor puede bajar vueltas cuando la demanda es baja y aumentarlas cuando sube la carga. Eso puede mejorar el consumo y el ruido en ciertas condiciones, pero no significa que cualquier modelo tenga el mismo modo económico, potencia, peso o nivel sonoro.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Inverter frente a convencional
 
 | Necesidad | Qué aporta o permite buscar en un inverter | Cuándo comparar también un convencional |
@@ -54,12 +59,12 @@ Compará un convencional cuando priorices más capacidad por el presupuesto disp
 
 Los modelos siguientes ilustran distintos escalones de salida. Las fichas usan **kVA** y **kW** según el equipo; no son intercambiables sin conocer el factor de potencia. Los renglones con potencia nominal no publicada por el fabricante quedan incompletos para dimensionar marcha: pedí la ficha correspondiente antes de decidir.
 
-| Escala / modelo | Potencia nominal | Potencia máxima | Peso publicado | Ruido publicado | Tanque | Precio observado al 28/09/2026 |
-| :--- | ---: | ---: | ---: | :--- | ---: | ---: |
-| **Alrededor de 2 kVA — Honda EU22i** | 1,8 kVA | 2,2 kVA | 21 kg en seco | 57 dB(A) a 7 m y plena carga | 3,6 L | $2.799.999 en [Mobimotos](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); 10% menos por transferencia/efectivo según publicación |
-| **3–4 kW — Lüsqtoff LGI3.8-8** | 3,5 kW | 3,8 kW | 28 kg | 75 dB a 7 m; carga de medición no especificada | 8 L | PVP de fabricante: $1.023.099 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8) |
-| **Alrededor de 5 kVA — Lüsqtoff LGI5.5-8** | No localizada en la página técnica de fabricante consultada | 5,2 kVA | 30 kg | 62 dB; distancia/carga no especificadas | 10 L | PVP de fabricante: $1.811.599 en [Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) |
-| **Alrededor de 10 kVA — Lüsqtoff LGI11.0-9** | 10 kVA | 11 kVA | 86 kg | No publicado en la ficha consultada | 35 L | PVP de fabricante: $2.721.399 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9) |
+| Escala / modelo | Potencia nominal | Potencia máxima | Peso publicado | Ruido publicado | Tanque | Precio observado al 28/09/2026 | Oferta |
+| :--- | ---: | ---: | ---: | :--- | ---: | ---: | :--- |
+| **Alrededor de 2 kVA — Honda EU22i** | 1,8 kVA | 2,2 kVA | 21 kg en seco | 57 dB(A) a 7 m y plena carga | 3,6 L | $2.799.999 en [Mobimotos](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); 10% menos por transferencia/efectivo según publicación | [Ver precio →](https://meli.la/2AwxqaH) |
+| **3–4 kW — Lüsqtoff LGI3.8-8** | 3,5 kW | 3,8 kW | 28 kg | 75 dB a 7 m; carga de medición no especificada | 8 L | PVP de fabricante: $1.023.099 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8) | — |
+| **Alrededor de 5 kVA — Lüsqtoff LGI5.5-8** | No localizada en la página técnica de fabricante consultada | 5,2 kVA | 30 kg | 62 dB; distancia/carga no especificadas | 10 L | PVP de fabricante: $1.811.599 en [Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | [Ver precio →](https://meli.la/1pJFrBq) |
+| **Alrededor de 10 kVA — Lüsqtoff LGI11.0-9** | 10 kVA | 11 kVA | 86 kg | No publicado en la ficha consultada | 35 L | PVP de fabricante: $2.721.399 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9) | — |
 
 El precio del EU22i es el publicado por un comercio; los otros tres son PVP visible en la página del fabricante. La modalidad de precio y el canal no son equivalentes: verificá stock, cuotas, descuento, envío y valor final antes de comprar. La fecha identifica cuándo se consultaron estas publicaciones, no garantiza que sigan vigentes.
 
@@ -70,6 +75,28 @@ El precio del EU22i es el publicado por un comercio; los otros tres son PVP visi
 ### Nota metodológica sobre el ruido
 
 Las cifras de ruido sirven solo con distancia y condición de medición. Honda publica 57 dB(A) para EU22i a 7 m y plena carga; la página de Lüsqtoff para LGI3.5-8 publica 68 dB sin especificar distancia ni carga; para LGI3.8-8 publica 75 dB a 7 m, pero no indica la carga usada. La ficha del LGI5.5-8 informa 62 dB sin esos detalles. No se pueden ordenar estos cuatro valores como si fueran mediciones comparables ni suponer que el uso real repetirá el dato de catálogo.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Gamma Inverter 2 kW
+
+La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/) publica 2 kW nominales y 2,2 kW de pico; tanque de 4 L y 17 kg. Para el ruido, la documentación de esta categoría indica 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m.
+
+[Ver precio del Gamma Inverter 2 kW](https://meli.la/1B4sjDN)
+
+### Honda EU30is: siguiente escalón inverter
+
+Honda publica 2,8 kVA nominales y 3 kVA máximos, con salida monofásica de 220 V. Compará la carga de marcha y sus picos por separado. [Ficha Honda](https://pf.honda.com.ar/producto/EU30is).
+
+[Ver precio del Honda EU30is](https://meli.la/2X86187)
+
+### Dyllu DTGEAB08-4: escalón de alrededor de 5 kW
+
+La publicación documentada en la [guía de precios](/generadores/precios/) anuncia 5 kW nominales y 5,5 kW máximos para este inverter. Son datos comerciales de esa publicación, sin ensayo físico de TallerLab; confirmá placa y manual de la unidad ofrecida.
+
+[Ver precio del Dyllu DTGEAB08-4](https://meli.la/221u1rq)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Fuentes consultadas
 

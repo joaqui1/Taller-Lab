@@ -21,6 +21,11 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Elegí por frecuencia de uso
 
 - **RE 80 X — uso ocasional y tareas domésticas puntuales.** Es la más compacta del grupo: 7 kg operacionales y manguera de 5 m. STIHL la recomienda para terrazas, escaleras, muebles de jardín y limpieza doméstica. Es la opción lógica si priorizás llevarla y guardarla con facilidad.
@@ -28,6 +33,12 @@ published: true
 - **RE 110 — sesiones más exigentes y suciedad más persistente en casa o jardín.** El motor de inducción, el cabezal de bomba de aluminio, la boquilla rotativa y el set de detergente apuntan a una construcción y un kit más completos. Sus 17,6 kg y tamaño con ruedas convienen si se queda en un lugar o se traslada rodando, no si vas a cargarla con frecuencia.
 
 Los tres modelos son eléctricos con cable, tensión nominal 220–230 V en las fichas STIHL. Para uso diario profesional, compará también ciclo de trabajo y disponibilidad de repuestos para el modelo exacto.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Comparativa de modelos STIHL y alternativas similares
 

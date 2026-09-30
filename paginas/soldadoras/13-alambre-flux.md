@@ -77,6 +77,12 @@ Para ver equipos de la marca que trabaja con esta familia de consumibles, consul
 
 **Desconocido:** las fichas consultadas corresponden a mercados de Australia/EE. UU.; no confirman homologación, disponibilidad o parámetros de la bobina vendida en Argentina. No extrapolamos sus rangos a alambres genéricos E71T-GS o E71T-11.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Oferta Flux recibida: verificá clasificación y bobina</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB Gas Free · 0,8 mm × 5 kg</h3><p class="offer-description">Confirmá clasificación AWS, diámetro, polaridad y medidas del carrete de 5 kg; no trasladar parámetros de otras bobinas.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2x4GdMW" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Lincoln Electric Steelcore 71T-GS, ficha técnica](https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd); [Lincoln Electric Innershield NR-211-MP, ficha técnica](https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da); [Lincoln, guía de proceso FCAW autoprotegido y con gas](https://ch-delivery.lincolnelectric.com/api/public/content/5b1a00933782415e98e56639deb63f45?v=405651b4); [Lincoln UltraCore 71C, FCAW-G](https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af); [Lincoln FC-90, manual de alimentación y configuración NR-211-MP](https://ch-delivery.lincolnelectric.com/api/public/content/7ced52781f354fde8bad8431deefb134?v=7e3cd2a7); [Lincoln Flex Feed 74 HT, kits de rodillos para tubular](https://ch-delivery.lincolnelectric.com/api/public/content/1249e1096b6542c18ae63e7e28056477?v=b459a9f2).

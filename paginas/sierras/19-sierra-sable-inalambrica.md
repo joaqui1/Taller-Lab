@@ -21,6 +21,9 @@ published: true
 
 La inalámbrica conviene cuando necesitás moverte sin cable, trabajás en lugares sin toma cercana o ya tenés una plataforma compatible. Para jornadas largas en un puesto fijo, compará el costo de batería y cargador con la continuidad de una herramienta con cable. Esta página no compara una sierra sable con cable específica: reúne datos de la Bosch GSA 18V-24 y la DeWalt DCS380B regionales.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Cuándo conviene inalámbrica frente a cable
 
 | Dato documentado | Bosch GSA 18V-24 | DeWalt DCS380B |
@@ -40,6 +43,19 @@ La diferencia de carrera y velocidad sin carga no alcanza para concluir cuál co
 Si ya tenés baterías y cargador de Bosch Professional 18 V o DeWalt 20V MAX, una herramienta compatible con esa misma plataforma puede evitarte comprar otro sistema. Verificá el modelo de batería y la compatibilidad que declara el fabricante para el código exacto; las etiquetas 18 V y 20V MAX no convierten ambas plataformas en intercambiables.
 
 Si empezás de cero, compará el costo total: máquina, batería, cargador y hojas iniciales. La DCS380B publicada en Argentina es herramienta sola y no incluye batería. En Bosch, la página ofrece variantes con distintos códigos y hojas, pero no alcanza con el nombre del modelo para saber qué batería, cargador y accesorios incluye la oferta concreta.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Bosch GSA 18V-24 | La oferta menciona GSA18V-24N: confirmá código y si incluye batería y cargador. | [Ver precio →](https://meli.la/2mTTC3F) |
+| DeWalt DCS380B | Confirmá plataforma y contenido: cuerpo, batería y cargador se verifican por separado. | [Ver precio →](https://meli.la/2UW9Bfk) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ### Máquina sola o kit
 

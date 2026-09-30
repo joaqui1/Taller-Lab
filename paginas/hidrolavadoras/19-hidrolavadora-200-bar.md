@@ -23,6 +23,11 @@ published: true
 
 Las hidrolavadoras cercanas a 200 bar que encontramos en Argentina apuntan a **uso profesional**: requieren caudal de alimentación alto y, en varios casos, red trifásica. El Comet KM Extra declara **190 bar nominales y 200 bar máximos** con agua de salida hasta 108 °C; el modelo Omega Hynox 200 de Gamma se conserva aquí como advertencia porque su ficha declara **145 bar y 150 bar máximos**, no 200.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Equipos publicados en Argentina cerca de 200 bar
 
 | Modelo y código | Presión publicada | Caudal publicado | Alimentación / potencia | Bomba y temperatura | Para quién / qué revisar |

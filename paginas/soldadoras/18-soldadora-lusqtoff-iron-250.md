@@ -25,6 +25,8 @@ published: true
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al código indicado. Esta guía es documental, sin prueba física ni muestra de opiniones; el número del nombre comercial no se toma como medición de salida.
 
+**Análisis TallerLab:** los criterios de selección interpretan las fuentes citadas según proceso, consumible y trabajo previsto. No se realizaron pruebas físicas de los productos ni se verificó el contenido actual de las ofertas recibidas.
+
 ## Versión y especificaciones verificadas
 
 La referencia consultada es el **kit Lüsqtoff MEGAIRON250**, que incluye la fuente identificada como **IRON-250**. Su ficha argentina publica un rango de salida de **20–180 A**, no 250 A. El “250” del nombre comercial no acredita una salida máxima de 250 A: compará el dato de salida de la ficha y la placa del equipo.
@@ -38,6 +40,12 @@ La referencia consultada es el **kit Lüsqtoff MEGAIRON250**, que incluye la fue
 | Entrada nominal | 30 A; 6,5 kW |
 | Masa de la fuente | 5 kg |
 | Funciones publicadas | Anti-stick; refrigeración forzada |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá el kit MEGAIRON250</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff MEGAIRON250 + máscara + kit</h3><p class="offer-description">MMA: confirmá equipo IRON-250, ciclo de trabajo y accesorios; el nombre 250 no acredita 250 A de salida.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26R9o7z" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## Ciclo de trabajo y electrodos compatibles
 
@@ -62,6 +70,12 @@ La oferta oficial consultada lista **una máscara ST-1X, la soldadora IRON-250 y
 | [Dogo 180](/soldadora-dogo-180/) | 20–180 A; ciclo listado por diámetro: 3,2 mm 80 %, 4 mm 60 %, 5 mm 30 %. La ficha enumera tipos de electrodo hasta 4 mm pese a ese dato para 5 mm. | Útil para cotejar equipos con 180 A máximos: revisá los ciclos por diámetro y la discrepancia publicada para 5 mm. |
 | [ESAB HandyArc 162i](/esab-handyarc-162i/) | 20–160 A; 160 A/20 %, 92 A/60 %, 72 A/100 %. | Si importa portabilidad y querés comparar los puntos de ciclo de una fuente de menor amperaje máximo; no equipares los máximos como salida continua. |
 | [Inverter de 200 A](/soldadora-inverter-200-amp/) | Compara fuentes con hasta 200 A nominales, ciclos, electrodos y alimentación. | Si necesitás más margen de salida, compará corriente y ciclo útiles, no sólo el número comercial. |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Alternativas MMA para comparar</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar 180 Moderna</h3><p class="offer-description">MMA: confirmá código DOG50045, corriente asociada al servicio por diámetro y kit real.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2KQQEjE" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc 162i</h3><p class="offer-description">MMA: confirmá código 0409616 y accesorios. Los 160 A máximos son intermitentes según el ciclo documentado.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1bLo7UL" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 Los ciclos se publican en puntos diferentes y no todos vienen expresados de la misma forma. Para decidir, compará los amperajes y ciclos del electrodo que efectivamente usás, red/circuito disponible, accesorios incluidos, cables, garantía escrita y servicio/repuestos. No hay una prueba física ni una comparación de soldadura entre estas máquinas.
 

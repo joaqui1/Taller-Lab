@@ -23,6 +23,8 @@ published: true
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Esta guía consulta páginas oficiales ESAB Argentina; no es confirmación de inventario, oferta local ni prueba física.
 
+**Análisis TallerLab:** los criterios de selección interpretan las fuentes citadas según proceso, consumible y trabajo previsto. No se realizaron pruebas físicas de los productos ni se verificó el contenido actual de las ofertas recibidas.
+
 ## MMA
 
 | Modelo/código | Datos MMA publicados | Entrada y observaciones |
@@ -31,6 +33,12 @@ published: true
 | Rogue LHN 202i (0742917) | 200 A/25%; 129 A/60%; 100 A/100% | 220 V monofásica; 8,1 kg |
 | Rogue LHN 242i (0409617) | 200 A/40%; 126 A/100% | 220 V monofásica; 8,9 kg |
 | Rebel EMP 215ic | 180 A/25% a 230 V | Entrada publicada 120/230 V; 20,6 kg. También es multiproceso. |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Oferta ESAB MMA</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc 162i</h3><p class="offer-description">MMA: confirmá código 0409616 y accesorios. Los 160 A máximos son intermitentes según el ciclo documentado.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1bLo7UL" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## MIG
 
@@ -41,6 +49,12 @@ Si tu trabajo requiere aporte continuo con alambre macizo y protección gaseosa,
 | HandyArc MIG 160i (0410060) | MIG/MAG, tubular con/sin gas y MMA; GMAW 160 A/15%, 80 A/60%, 62 A/100%; MMA 140 A/15%, 70 A/60%, 54 A/100% | 220 V monofásica; 10,2 kg; bobina hasta 5 kg y alambre hasta 0,9 mm |
 | Rogue EM 180 (0700301091) | MIG/MAG y MMA; GMAW 180 A/25%, 116 A/60%, 90 A/100%; MMA 150 A/25%, 97 A/60%, 75 A/100% | 230 V monofásica; 16,2 kg |
 | Rebel EMP 215ic | MIG/MAG, tubular, MMA y Lift TIG; GMAW 205 A/25% a 230 V | Entrada monofásica publicada 120/230 V; 20,6 kg |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Oferta ESAB MIG</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc MIG 160i</h3><p class="offer-description">MIG/MAG y tubular, además de MMA: confirmá código 0410060, rodillo, bobina y polaridad. Es otro proceso que HandyArc 162i.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2V4LNfM" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## TIG
 
@@ -54,6 +68,12 @@ Para una introducción al proceso, consultá la guía [TIG](/tig/). La corriente
 | Rebel EMP 215ic | Lift TIG, MIG/MAG, tubular y MMA | 180 A/30% a 230 V | Entrada publicada 120/230 V; verificar configuración del kit |
 
 Los valores son máximos o puntos de ciclo tal como aparecen en cada ficha; no compares corrientes sin distinguir proceso y condición de ensayo. En todos los casos comprobá tensión, fases, corriente de entrada, protección del circuito y accesorios del código exacto. La presencia de una función TIG no confirma AC/DC ni que la antorcha venga incluida. ESAB anuncia 2 años de garantía para la línea HandyArc; no extrapoles ese plazo a Rogue, Rebel o ET. Revisá cobertura, registro y servicio con el [localizador ESAB](https://esab.com/ar/sam_es/support/warranty/warranty-coverage/).
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Oferta ESAB TIG AC/DC</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB ET 200i AC/DC</h3><p class="offer-description">TIG AC/DC: confirmá código 0738827, torcha, control y sistema de gas incluidos en la oferta.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1vSNzRV" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## Fuentes consultadas
 

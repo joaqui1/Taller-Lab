@@ -19,6 +19,8 @@ published: true
 
 # Qué soldadora inverter de 200 amperios comprar
 
+**Análisis TallerLab:** los criterios de selección interpretan las fuentes citadas según proceso, consumible y trabajo previsto. No se realizaron pruebas físicas de los productos ni se verificó el contenido actual de las ofertas recibidas.
+
 ## 200 A máximos no significan 200 A continuos
 
 El máximo describe el extremo superior del rango de salida, no el tiempo que la máquina puede sostenerlo. Compará siempre corriente y ciclo de trabajo publicados para el punto que usarás.
@@ -72,6 +74,12 @@ Usá estas guías para comparar opciones próximas o alternativas por proceso y 
 | Dogo 180 | Como referencia de rango máximo menor y ciclo por diámetro publicado | [Dogo 180](/soldadora-dogo-180/) |
 | Lusqtoff Iron 250 | Si el procedimiento exige más margen máximo de salida; cotejá ciclo y alimentación del modelo exacto | [Lusqtoff Iron 250](/lusqtoff-iron-250/) |
 | ESAB HandyArc 162i | Para contrastar ciclo documentado en una fuente MMA compacta | [ESAB HandyArc 162i](/esab-handyarc-162i/) |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Opciones de 200 A: revisá el ciclo de trabajo</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SLCEL200-9 Black Series</h3><p class="offer-description">MMA / Lift TIG: verificá ciclo, electrodo admitido y si la torcha TIG se vende aparte.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26RyVcZ" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar 200 Moderna DOG50046</h3><p class="offer-description">MMA: verificá placa DOG50046, servicio por diámetro y contenido; 200 A máximos no acreditan salida continua.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2XwX5wy" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 Antes de decidir, anotá el electrodo y diámetro concretos, corriente de ficha, cuánto tiempo soldás antes de pausar, tensión y capacidad de red disponibles, y qué funciones/accesorios necesitás. Elegí el modelo sólo después de hacer coincidir esos datos con el manual de su código exacto.
 

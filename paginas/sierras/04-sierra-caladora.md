@@ -70,6 +70,20 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 | Einhell TC-JS 85 | 85 mm | Acero: 8 mm | 620 W, cable |
 | Einhell TE-JS 100 | 100 mm | Acero: 10 mm | 750 W, cable |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Black+Decker BES603 | Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida. | [Ver precio →](https://meli.la/2azLzTF) |
+| Einhell TC-JS 85 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/1PmtLAQ) |
+| Einhell TE-JS 100 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/2N5KYMc) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 **Análisis TallerLab.** La tabla ordena máximos publicados, no resultados de una prueba común. Entre BES603-B2 y TE-JS 100 la diferencia declarada es 35 mm en madera. No significa que una caladora sea “mejor”: las capacidades pueden variar con hoja, geometría, material y condiciones del fabricante. Medí el espesor real y buscá una hoja indicada para él.
 
 **Metal y acero:** la ficha BES603-B2 declara hasta 6 mm en “metal”, sin identificar el tipo; las fichas Einhell TC-JS 85 y TE-JS 100 declaran hasta 8 y 10 mm en “acero”. Son afirmaciones distintas y no se deben comparar como si describieran necesariamente el mismo material. Elegí una hoja cuya aplicación documentada incluya el material que vas a cortar y comprobá también el máximo de la máquina.
@@ -79,7 +93,6 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 ## Publicación de BES603: identificar la variante
 
 
-Si el máximo documentado de 65 mm en madera de BES603-B2 cubre el espesor que querés cortar, [ver precio de BES603 en Mercado Libre](https://meli.la/1ntghna){:target="_blank" rel="sponsored noopener"}.
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*

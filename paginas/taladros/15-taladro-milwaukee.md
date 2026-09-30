@@ -21,6 +21,10 @@ published: true
 
 La elección empieza por la tarea. Para muebles, montaje y agujeros en madera o metal donde no necesitás percusión, considerá los taladros/destornilladores M12 FUEL 3403-20 o M18 Compact Brushless 3601-20. Si también vas a perforar mampostería, los percutores M12 FUEL 3404-20 y M18 FUEL 2904-20 agregan esa función. Son modelos documentados en fichas estadounidenses; no encontramos confirmación oficial de disponibilidad local de esos SKU. El certificado oficial de garantía Cono Sur incluye Argentina, pero verificá con el vendedor que la unidad concreta tenga cobertura y respaldo en el país.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias entre M12 y M18
 
 M12 y M18 son plataformas de batería distintas. M12 corresponde al sistema de 12 V y M18 al de 18 V; las baterías y cargadores deben coincidir con su plataforma y no se intercambian entre sí. Dentro de cada plataforma, el peso y tamaño dependen también del modelo y la batería montada.
@@ -33,6 +37,12 @@ M12 y M18 son plataformas de batería distintas. M12 corresponde al sistema de 1
 | M18 FUEL 2904-20 | M18; taladro percutor/destornillador | 6,9 in (≈17,5 cm); 3,3 lb (≈1,50 kg) | 1.400 in-lb (≈158 Nm) | Para quien necesita el mayor torque publicado de estos ejemplos y percusión; tiene más volumen y peso sin batería. |
 
 Las cifras de torque provienen de fichas distintas y no de una prueba comparativa común. No uses el torque máximo como única medida de rendimiento ni como regla para decidir por sí solo entre M12 y M18: pensá en diámetro y material de perforación, frecuencia de uso, acceso, peso con batería y herramientas Milwaukee que ya tengas.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Milwaukee: compará plataforma y contenido</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M12 FUEL 3404-20</h3><p class="offer-description">Taladro percutor/atornillador M12. Confirmá herramienta sola o kit, batería M12, cargador y garantía local.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1zxo6Um" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Milwaukee 3404-20 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Milwaukee M18 FUEL 2904-259A</h3><p class="offer-description">Taladro percutor/atornillador según el título recibido. La tabla cita 2904-20; confirmá máquina y contenido del kit 2904-259A antes de aplicar sus datos.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/157Rjx8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Milwaukee M18 FUEL ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Qué ofrece la línea FUEL
 

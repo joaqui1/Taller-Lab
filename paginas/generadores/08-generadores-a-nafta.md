@@ -33,13 +33,13 @@ En esta guía comparamos cifras publicadas para Gamma, Honda y Lüsqtoff. Cuando
 
 El consumo se expresa en litros por hora (L/h), pero ese valor solo sirve para comparar si se conoce la condición. Un generador que informa 3,5 L/h a 3600 rpm no está diciendo necesariamente que gaste eso en cualquier carga: la ficha debe aclarar potencia entregada o porcentaje de carga para que el dato represente una situación de uso.
 
-| Modelo | Consumo publicado | Condición declarada | Qué se puede concluir |
-| :--- | ---: | :--- | :--- |
-| Gamma GE3481AR 6000V | 2,2 L/h al 50%; 3,6 L/h al 100% | Manual, según porcentaje de carga | Es la referencia más directa de esta selección para comparar dos cargas. |
-| Honda EU22i | 0,88 L/h | A 3600 rpm; carga no informada | No es una estimación para una carga doméstica concreta. |
-| Honda EG6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | La ficha no permite traducir esta cifra a un costo por hora de uso típico. |
-| Honda EZ6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | Misma limitación: falta el porcentaje de carga del dato. |
-| Lüsqtoff LG3500EX / LGI3.8-8 | No publicado en las páginas consultadas | — | No estimamos el gasto con potencia del motor, cilindrada o tamaño del tanque. |
+| Modelo | Consumo publicado | Condición declarada | Qué se puede concluir | Oferta |
+| :--- | ---: | :--- | :--- | :--- |
+| Gamma GE3481AR 6000V | 2,2 L/h al 50%; 3,6 L/h al 100% | Manual, según porcentaje de carga | Es la referencia más directa de esta selección para comparar dos cargas. | [Ver precio →](https://meli.la/15vKtBp) |
+| Honda EU22i | 0,88 L/h | A 3600 rpm; carga no informada | No es una estimación para una carga doméstica concreta. | [Ver precio →](https://meli.la/2AwxqaH) |
+| Honda EG6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | La ficha no permite traducir esta cifra a un costo por hora de uso típico. | [Ver precio →](https://meli.la/1sxNfJ5) |
+| Honda EZ6500CXS | 3,5 L/h | A 3600 rpm; carga no informada | Misma limitación: falta el porcentaje de carga del dato. | [Ver precio →](https://meli.la/2Kt6i6Y) |
+| Lüsqtoff LG3500EX / LGI3.8-8 | No publicado en las páginas consultadas | — | No estimamos el gasto con potencia del motor, cilindrada o tamaño del tanque. | — |
 
 En el Gamma, el manual publica 2,2 L/h al 50% y 3,6 L/h al 100%. La página del producto, a su vez, declara autonomía de 10 horas al 50% y 6 horas al 100% con un tanque de 25 litros. Son datos útiles, pero no coinciden exactamente si se calcula 25 L dividido por las horas: dan 2,5 y 4,17 L/h. **Análisis TallerLab:** se deben conservar ambas cifras con su fuente; no reemplazar una por la otra ni asumir que el tanque completo está disponible durante toda la prueba.
 
@@ -100,6 +100,34 @@ Si todavía estás definiendo la potencia, empezá por la [guía general para el
 - **Portabilidad y potencia intermedia:** el LGI3.8-8 es inverter, pesa 28 kg y declara 3,5 kW nominales; la ficha consultada no permite estimar autonomía.
 - **Uso con carga conocida durante varias horas:** el Gamma publica autonomía a 50% y 100%; tené en cuenta que requiere batería para el arranque eléctrico y que su peso declarado es 72 kg.
 - **Cargas monofásicas mayores:** EG6500CXS y EZ6500CXS publican potencias nominales y máximas, pero sus autonomías no están asociadas a una carga. Pedí ese dato si las horas son decisivas.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Gamma Inverter 2 kW
+
+La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/) publica 2 kW nominales y 2,2 kW de pico; tanque de 4 L y 17 kg. Para el ruido, la documentación de esta categoría indica 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m.
+
+[Ver precio del Gamma Inverter 2 kW](https://meli.la/1B4sjDN)
+
+### Gamma 3000V / GE3480AR
+
+La [ficha y manual Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/) documentan 2,7 kW nominales y 3 kW máximos, salida de 220 V, nafta y tanque de 15 L. Confirmá los picos de las cargas y la batería de arranque, que no está incluida.
+
+[Ver precio del Gamma 3000V](https://meli.la/31SZbvv)
+
+### Lüsqtoff LG3000: escalón de 2–3 kVA
+
+La [ficha Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LG3000) publica 2,5 kVA nominales / 2,8 kVA máximos, arranque manual y tanque de 15 L. La [guía a nafta](/generadores/a-nafta/) conserva la discrepancia entre esos campos y otro rótulo de potencia del fabricante; confirmá placa y manual.
+
+[Ver precio del Lüsqtoff LG3000](https://meli.la/2fhftj7)
+
+### Gamma 8500V / GE3482AR
+
+La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/) publica 8,5 kW máximos. El rótulo de 8 kW no identifica inequívocamente potencia continua: pedí confirmación para el código exacto antes de dimensionar una carga sostenida.
+
+[Ver precio del Gamma 8500V](https://meli.la/1Ha3UGR)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## El LG3000: dato a verificar
 

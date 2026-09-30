@@ -25,6 +25,10 @@ No hay una velocidad o método único para todos los accesorios. En particular, 
 
 Para las mechas de taladro, necesitás un **taladro sin percusión y con control de rpm** para ajustar la velocidad a la ficha del accesorio. Las coronas destinadas a amoladora requieren la herramienta y conexión indicadas para esa referencia. Si vas a usar batería, compará un [taladro inalámbrico con control de velocidad](/taladros/inalambricos/) que permita regular las rpm para la broca elegida.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Tipos de broca para porcelanato
 
 | Tipo y accesorio documentado | Para qué agujero sirve | Herramienta, modo y condición documentada |
@@ -35,6 +39,12 @@ Para las mechas de taladro, necesitás un **taladro sin percusión y con control
 | Corona diamantada RUBI DRYGRES, por ejemplo ref. 04914 de 50 mm | Paso de caños y otras aberturas mayores; la gama tiene diámetros y conexiones diferentes según referencia. | El producto de 50 mm citado es para amoladora, corte en seco y máximo 14 000 rpm. No lo montes en un taladro salvo que la referencia incluya o admita el adaptador correspondiente. |
 
 El carburo HEX-9 y las brocas diamantadas no son intercambiables por la palabra “porcelanato” del envase: cada una tiene su propia gama de diámetros, espesor, encastre, velocidad y método de refrigeración. La ficha de Bosch distingue además la HEX-9 para la baldosa: una vez atravesada, indica cambiar a una broca apropiada para la mampostería que está detrás.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Mechas de 6 mm: carburo o diamante húmedo</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch EXPERT HEX-9 HardCeramic · 6 mm</h3><p class="offer-description">Mecha para baldosa dura/porcelanato. Confirmá referencia y medida de 6 mm; rotación sin percusión y condiciones de su ficha.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2XU7X44" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio de la Bosch HEX-9 6 mm ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>RUBI EASYGRES · 6 mm · corte húmedo</h3><p class="offer-description">Mecha diamantada para corte húmedo, sin percusión. Confirmá si se vende la mecha sola y qué guía o sistema de agua requiere.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1SEcMe1" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio de la Rubi Easy Gres 6 mm ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Diámetro y compatibilidad: cuál elegir
 

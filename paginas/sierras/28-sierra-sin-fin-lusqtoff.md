@@ -21,6 +21,11 @@ published: true
 
 Compará los códigos por altura de corte, alcance horizontal, sección que admite a 45° y cinta compatible. Solo la SFL1100-9 identifica explícitamente una garganta de 305 mm; las fichas de las compactas informan ancho máximo de corte. Para los criterios generales de altura, garganta y hojas, consultá [cómo elegir una sierra sin fin para madera](/sierras/sierra-sin-fin-para-madera/).
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## SFL250-8 vs SFL300-8 vs SFL1100-9
 
 | Dato | SFL250-8 | SFL300-8 | SFL1100-9 |
@@ -34,6 +39,19 @@ Compará los códigos por altura de corte, alcance horizontal, sección que admi
 | Cinta | 1.400 × 6,5 × 0,35 mm | 1.405 × 6,35 × 0,3 mm | Largo: 2.360 mm; ancho no indicado |
 | Mesa | 290 × 290 mm; inclinación 0–45° | 300 × 300 mm; inclinación 0–45° | 548 × 400 mm; ajuste de −8° a 45° |
 | Peso | Ficha: 16,5 kg; catálogo anterior: 15,5 kg | 17,5 kg | 84 kg |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff SFL300-8 | Confirmá altura de corte, garganta y medida de cinta para este código. | [Ver precio →](https://meli.la/27H5LQK) |
+| Lüsqtoff SFL1100-9 | Confirmá altura de corte, garganta y medida de cinta para este código. | [Ver precio →](https://meli.la/2Pg3D6X) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 El título comercial “200 mm” de la SFL300-8 se refiere al diámetro de la polea/rueda en la ficha, no a la altura de corte ni al ancho máximo.
 

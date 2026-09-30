@@ -21,6 +21,11 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Qué K2 conviene para cada trabajo
 
 La K2 está pensada para limpiezas ocasionales y suciedad ligera. Para elegir entre ofertas locales, mirá el **código completo y el contenido de la caja**: «Car» puede identificar otra configuración y no sólo una Basic con accesorios agregados.
@@ -32,6 +37,12 @@ La K2 está pensada para limpiezas ocasionales y suciedad ligera. Para elegir en
 | **K 2 Home / Car & Home u otros kits** | — | No los tomaría como una variante local confirmada. | No encontré un SKU argentino actual en el catálogo oficial para esos nombres. Las versiones y cajas de otros países no prueban qué incluye una oferta argentina. |
 
 **Elección rápida:** la **K 2 Basic Black** es el paquete sencillo para tareas ocasionales; la **K 2 Car Black** añade cepillo y boquilla de espuma, además de manguera de 4 m según la ficha de tienda local. El kit Car no aumenta presión ni caudal: elegilo si esos accesorios te sirven y la caja/código coinciden. Para patio grande o uso frecuente, mirá un equipo de otra clase.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Precios locales y disponibilidad al 29/09/2026
 

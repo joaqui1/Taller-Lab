@@ -66,6 +66,19 @@ Para verificar los datos de cada oferta, revisá las páginas de la [sensitiva D
 
 **Desconocido.** No probamos rebaba, escuadra, calentamiento o duración del disco. Las capacidades máximas de catálogo no equivalen a una recomendación para todos los materiales.
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff CM-14K | Confirmá código y capacidad según la forma del perfil. | [Ver precio →](https://meli.la/28Unx3L) |
+| TOTAL TS223558-4 | Confirmá sufijo -4 y RPM en placa/manual; no trasladés datos del código base. | [Ver precio →](https://meli.la/194gVdS) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Lüsqtoff CM-14K](https://www.lusqtoff.com.ar/ver-producto/CM-14K); [manual CM-14K](https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/CM-14K/MANUAL/CM-14k.pdf); [TOTAL TS223558](https://www.totalbusiness.com/ae/product/cut-off-saw/TS223558); [DeWalt D28730 y sus funciones de morsa y guía a 45°](https://www.dewalt.com/en-us/product/d28730/14-355mm-chop-saw); [manual DeWalt D28730 sobre sujeción, ángulos y apoyo de perfiles](https://www.dewalt.com/GLOBALBOM/QU/D28730/1/Instruction_Manual/EN/NA266962_D28730_NA.pdf); [Evolution S355MCS-G2 de corte en frío](https://shop.evolutionpowertools.com/pages/evolution-s355mcs-g2-355mm-mitre-chop-saw); [sierra sin fin Milwaukee M12 para metal](https://www.milwaukeetool.com/2429-20).

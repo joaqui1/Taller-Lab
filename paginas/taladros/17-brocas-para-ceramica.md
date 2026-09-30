@@ -23,6 +23,10 @@ Para agujeros pequeños de fijación, elegí una broca específica para baldosas
 
 Cerámica y azulejo abarcan revestimientos con dureza distinta. No decidas solo por el color o el nombre “punta flecha”: verificá la aplicación indicada por el fabricante. Si la pieza es porcelanato o no sabés si es una baldosa dura, confirmá en la ficha que el accesorio admita ese material.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Tipos de punta y materiales compatibles
 
 | Categoría de accesorio | Ejemplo documentado | Uso a considerar |
@@ -32,6 +36,12 @@ Cerámica y azulejo abarcan revestimientos con dureza distinta. No decidas solo 
 | Corona diamantada | Modelos para corte seco o húmedo, según referencia | Aberturas grandes para caños u otras instalaciones. Verificá diámetro, refrigeración, conexión y herramienta permitida en la ficha exacta. |
 
 CYL-9 y HEX-9 son ejemplos concretos, no una lista de todas las brocas cerámicas. Una broca de mampostería común no sustituye automáticamente a una broca para baldosa; y una corona diamantada requiere sus propias instrucciones de diámetro, conexión y refrigeración.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá la mecha CYL-9 para cerámica blanda</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch CYL-9 · 6 mm · cerámica/azulejo</h3><p class="offer-description">Confirmá CYL-9 Soft Ceramic de 6 mm: la familia citada es para cerámica blanda. El nombre EXPERT del título no acredita compatibilidad con porcelanato duro.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2wKN4UX" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio de la Bosch CYL-9 6 mm ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Diferencias entre cerámica y porcelanato
 

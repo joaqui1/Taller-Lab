@@ -25,6 +25,11 @@ published: true
 
 La **Gamma 150 Elite G2514AR** es una hidrolavadora eléctrica doméstica de agua fría. El manual distingue **100 bar de presión máxima de servicio** de los **150 bar máximos admisibles**: esta última cifra es el límite de presión, no la presión sostenida de trabajo. Para decidir, compará caudal, accesorios y precio de una unidad disponible con garantía local.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Selector rápido
 
 Para auto, paredes, pileta y jardín en una casa, la G2514AR reúne 400 L/h, tanque de detergente y AutoStop. Si el uso será ocasional y el presupuesto pesa más, comparala con la [Gamma 130 G2513AR](/hidrolavadoras/gamma-130/), de menor caudal y 90 bar de servicio. Gamma define la G2514AR como doméstica y no publica un ciclo de trabajo intensivo.
@@ -84,7 +89,7 @@ El manual recomienda que la conexión eléctrica cumpla la normativa aplicable y
 
 Antes de pagar, pedí precio final y stock, verificá que sea **G2514AR**, qué accesorios trae la caja y las condiciones de garantía de Gamma. La ficha oficial de Gamma identifica el modelo, pero remite a “Dónde comprar” y no publica PVP.
 
-## Fuentes y alcance
+## Fuentes consultadas
 
 - [Ficha oficial Gamma 150 Elite](https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/) y [manual oficial G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
 - [Ficha oficial Gamma 130 Elite](https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/) y [manual oficial G2513AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf).

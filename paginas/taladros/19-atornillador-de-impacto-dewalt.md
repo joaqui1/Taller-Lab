@@ -23,6 +23,10 @@ Para elegir entre estos modelos, fijate primero en el espacio de trabajo y cuán
 
 Si además necesitás perforar madera o metal y alternar atornillados, un [taladro inalámbrico DeWalt](/taladros/dewalt-inalambrico/) ofrece mandril y embrague. Pasá a un atornillador de impacto cuando repitas tirafondos o fijaciones exigentes: sus golpes rotativos ayudan a avanzar, pero no sustituyen el taladro para usar brocas comunes ni ofrecen el mismo control de embrague.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias entre modelos
 
 | Modelo | Control y torque máximo publicado | Largo del cuerpo | Peso sin batería | Lectura práctica |
@@ -32,6 +36,12 @@ Si además necesitás perforar madera o metal y alternar atornillados, un [talad
 | DCF850 | Tres modos; hasta 206,2 Nm según manual. Menos de 4 in (aprox. 102 mm) de frente a atrás. | Menos de 102 mm | 0,95 kg | Alternativa compacta con selector de modos; sus medidas y peso provienen del manual/ficha de otra región. |
 
 Las cifras máximas de torque no son mediciones de apriete de TallerLab. El manual del DCF809 declara 190 Nm, mientras que la ficha argentina convierte 1700 lb-pulg a 192 Nm; esa pequeña diferencia responde a las cifras publicadas y su conversión. Entre el DCF887 y el DCF850, el criterio que más distingue la compra es el largo: el segundo es sensiblemente más corto, mientras que los dos ofrecen tres modos. El peso publicado es de la herramienta sin batería, así que el conjunto en mano será más pesado.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Atornilladores de impacto DeWalt</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCF887B</h3><p class="offer-description">Atornillador de impacto con encastre hexagonal de 1/4, para fijaciones. No es un taladro; la variante B es herramienta sola.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1hh4SkK" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DeWalt DCF887B ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCF850B</h3><p class="offer-description">Atornillador de impacto compacto con encastre de 1/4. No es un taladro; herramienta sola, sin batería ni cargador.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1xNiZKX" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DeWalt DCF850B ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Torque, modos y dimensiones
 

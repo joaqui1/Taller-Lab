@@ -37,6 +37,18 @@ Para elegir entre estas sierras, primero cotejá la mesa y el espacio que tenés
 | Peso | 21,5 kg | 23 kg | 19,6 kg |
 | Potencia publicada | 2.000 W en ficha; catálogo indica 1.800 W de entrada y 2.000 W máx. S6 25 % | 1.800 W de entrada; 2.000 W máx. S6 | 2.000 W máx. |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff SML2000-8 | Confirmá placa, potencia y disco: los documentos de este código presentan discrepancias. | [Ver precio →](https://meli.la/119eQpU) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 ### Qué está confirmado, contradicho y no informado
 
 | Código | Confirmado en documentos consultados | Contradictorio | No informado |

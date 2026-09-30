@@ -43,6 +43,12 @@ La discrepancia importa al comparar una soldadora: un voltaje de carga y una cor
 | Estado en catálogo | Discontinuada | La ficha consultada no indica discontinuación |
 | Accesorios de la ficha | Máscara ST-1X, dos escuadras y rollo Flux | Máscara ST-1X, dos escuadras, rollo Flux, pinzas y torcha Flux |
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Alternativas actuales a la SML150-8 discontinuada</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML150-8D</h3><p class="offer-description">Flux / MMA: alternativa a la SML150-8 discontinuada. El título dice 20 A: cotejá rango y ciclo con placa/manual.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1UGCFFq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio de la alternativa actual ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML120-8DK</h3><p class="offer-description">Flux / MMA: distinguí el kit 8DK del equipo 8D; confirmá máscara, bobina y accesorios entregados.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26xX924" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio de la alternativa actual ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 **Análisis TallerLab.** La diferencia documentada más útil es la función MMA en la variante **D**. Ninguna de las dos fichas permite concluir por sí sola cuál suelda mejor ni cuánto durará. Si necesitás MMA, verificá que la placa diga SML150-8D y que la publicación incluya la pinza portaelectrodo correspondiente.
 
 ### Checklist antes de comprar

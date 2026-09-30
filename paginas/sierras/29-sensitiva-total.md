@@ -21,6 +21,9 @@ published: true
 
 La ficha de TOTAL documenta el modelo TS223558. En Argentina se encuentra una oferta rotulada TS223558-4; ese sufijo necesita confirmación de placa antes de trasladar datos o garantía.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Capacidad según forma del material
 
 | Dato documentado para TS223558 | Especificación |
@@ -60,6 +63,18 @@ El disco de 355 mm no determina por sí solo la sección que la máquina puede c
 El sufijo **-4** aparece en una publicación argentina de vendedor, mientras la ficha técnica de fábrica consultada usa **TS223558**. Esa publicación sirve para comprobar que la variante local se ofrece con ese sufijo, no para derivar especificaciones técnicas.
 
 **Alcance de esta guía.** La ficha de fábrica no publica ciclo de trabajo; por eso no afirmamos que admita uso continuo. Para contrastarla con otra marca, consultá la [sensitiva Lusqtoff](/sierras/sensitivas-lusqtoff/) y compará capacidad por forma, no solo potencia.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| TOTAL TS223558-4 | Confirmá sufijo -4 y RPM en placa/manual; no trasladés datos del código base. | [Ver precio →](https://meli.la/194gVdS) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Fuentes consultadas
 

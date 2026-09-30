@@ -23,6 +23,10 @@ published: true
 
 Un combo conviene cuando las dos herramientas resuelven tareas que realmente hacés y comparten una plataforma de batería. Antes de mirar precio, confirmá modelo exacto, tipo de taladro, diámetro de disco y qué incluye la caja. Esta comparación usa fichas de fabricante; los kits Bosch citados son ofertas oficiales de otros mercados y su disponibilidad, garantía y precio en Argentina deben verificarse localmente.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Comparativa de los cuatro combos
 
 | Combo y mercado documentado | Plataforma y taladro | Amoladora | Baterías y cargador | Motor, garantía y costo |

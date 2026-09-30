@@ -25,20 +25,25 @@ Gamma publica grupos portátiles a nafta, equipos trifuel y generadores estacion
 
 La tabla de modelos vigentes va primero. Los GE3441AR 950, GE3464AR 3500V y GE3466AR 6500V aparecen en el archivo oficial de discontinuados, por lo que quedan en un bloque histórico aparte. Una denominación parecida o una cifra máxima similar no los convierte en alternativas equivalentes a los productos actuales.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Gama Gamma vigente: modelos y diferencias
 
 La categoría actual del fabricante incluye los modelos de la tabla. “Vigente” significa que el código aparece en esa categoría al revisar esta guía; la existencia de una ficha no garantiza stock en cada distribuidor.
 
-| Código y modelo | Tipo y combustible | Potencia publicada | Datos útiles para comparar |
-| :--- | :--- | :--- | :--- |
-| **GE3497AR Inverter 2 kW** ([generadores inverter](/generadores/inverter/)) | Portátil, nafta, inverter | 2 kW; pico 2,2 kW | Tanque 4 L; autonomía publicada 3 h nominal y 4,5 h al 50 %; 17 kg. La ficha lo presenta para equipos con microprocesadores, pero no publica THD. |
-| **GE3480AR 3000V** | Portátil, nafta, convencional con AVR | 2,7 kW continua; 3 kW máxima | Tanque 15 L; 13 h al 50 % y 8 h al 100 %; 212 cc; aceite 0,55 L. Arranque eléctrico, batería no incluida. |
-| **GE3496AR 4500V** | Portátil, nafta, convencional con AVR | 4,5 kW continua; 5 kW máxima | Tanque 21 L; autonomía publicada 10 h al 50 % y 7 h al 100 %; 292 cc; aceite 0,75 L. Arranque eléctrico, batería no incluida. La ficha da consumo específico de 395 g/kWh; no equivale a L/h. |
-| **GE3481AR 6000V** | Portátil, nafta, convencional con AVR | 5,5 kW continua; 6 kW máxima | Tanque 25 L; 10 h al 50 % y 6 h al 100 %; 420 cc; aceite 1 L. Arranque eléctrico, batería no incluida. |
-| **GE3482AR 8500V** | Portátil, nafta, convencional con AVR | 8,5 kW máxima | Tanque 25 L; la ficha y el manual publican “energía generada contenida” de 8 kW, no un rótulo inequívoco de potencia continua. No dimensionar una carga sostenida suponiendo que esos 8 kW son nominales sin confirmación para la versión exacta. |
-| **GE3490AR TF8500** | Portátil trifuel: nafta, GLP o gas natural | Continua: 8 / 7,2 / 6,4 kW; máxima: 8,5 / 7,8 / 7 kW, respectivamente | Tanque 32 L; 500 cc; autonomía publicada 10 h al 50 % y 6,5 h al 100 %. La potencia cambia según el combustible; manguera/regulador de gas no incluidos. |
-| **GE3491AR TF10000** | Portátil trifuel: nafta, GLP o gas natural | Continua: 9 / 8,1 / 7,2 kW; máxima: 10 / 9 / 8 kW, respectivamente | Tanque 50 L; autonomía publicada 12 h al 50 % y 8 h al 100 %; 670 cc; aceite 1,7 L. Revisá en el manual la conexión y configuración para cada combustible. |
-| **GE3492AR 8,5 kW / GE3493AR 13 kW / GE3494AR 17 kW** | Estacionarios a gas, GLP/GN ([generadores a gas](/generadores/a-gas/)); GE3494 trifásico | La potencia depende del modelo y combustible; GE3494 es trifásico | Son equipos de instalación fija. Los modelos requieren ATS compatible y dos baterías; Gamma indica que instalación y conexiones de gas no están incluidas. Confirmá tensión, fase y potencia por combustible en la ficha del código exacto. |
+| Código y modelo | Tipo y combustible | Potencia publicada | Datos útiles para comparar | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| **GE3497AR Inverter 2 kW** ([generadores inverter](/generadores/inverter/)) | Portátil, nafta, inverter | 2 kW; pico 2,2 kW | Tanque 4 L; autonomía publicada 3 h nominal y 4,5 h al 50 %; 17 kg. La ficha lo presenta para equipos con microprocesadores, pero no publica THD. | [Ver precio →](https://meli.la/1B4sjDN) |
+| **GE3480AR 3000V** | Portátil, nafta, convencional con AVR | 2,7 kW continua; 3 kW máxima | Tanque 15 L; 13 h al 50 % y 8 h al 100 %; 212 cc; aceite 0,55 L. Arranque eléctrico, batería no incluida. | [Ver precio →](https://meli.la/31SZbvv) |
+| **GE3496AR 4500V** | Portátil, nafta, convencional con AVR | 4,5 kW continua; 5 kW máxima | Tanque 21 L; autonomía publicada 10 h al 50 % y 7 h al 100 %; 292 cc; aceite 0,75 L. Arranque eléctrico, batería no incluida. La ficha da consumo específico de 395 g/kWh; no equivale a L/h. | — |
+| **GE3481AR 6000V** | Portátil, nafta, convencional con AVR | 5,5 kW continua; 6 kW máxima | Tanque 25 L; 10 h al 50 % y 6 h al 100 %; 420 cc; aceite 1 L. Arranque eléctrico, batería no incluida. | [Ver precio →](https://meli.la/15vKtBp) |
+| **GE3482AR 8500V** | Portátil, nafta, convencional con AVR | 8,5 kW máxima | Tanque 25 L; la ficha y el manual publican “energía generada contenida” de 8 kW, no un rótulo inequívoco de potencia continua. No dimensionar una carga sostenida suponiendo que esos 8 kW son nominales sin confirmación para la versión exacta. | [Ver precio →](https://meli.la/1Ha3UGR) |
+| **GE3490AR TF8500** | Portátil trifuel: nafta, GLP o gas natural | Continua: 8 / 7,2 / 6,4 kW; máxima: 8,5 / 7,8 / 7 kW, respectivamente | Tanque 32 L; 500 cc; autonomía publicada 10 h al 50 % y 6,5 h al 100 %. La potencia cambia según el combustible; manguera/regulador de gas no incluidos. | — |
+| **GE3491AR TF10000** | Portátil trifuel: nafta, GLP o gas natural | Continua: 9 / 8,1 / 7,2 kW; máxima: 10 / 9 / 8 kW, respectivamente | Tanque 50 L; autonomía publicada 12 h al 50 % y 8 h al 100 %; 670 cc; aceite 1,7 L. Revisá en el manual la conexión y configuración para cada combustible. | [Ver precio →](https://meli.la/2sRF5ic) |
+| **GE3492AR 8,5 kW / GE3493AR 13 kW / GE3494AR 17 kW** | Estacionarios a gas, GLP/GN ([generadores a gas](/generadores/a-gas/)); GE3494 trifásico | La potencia depende del modelo y combustible; GE3494 es trifásico | Son equipos de instalación fija. Los modelos requieren ATS compatible y dos baterías; Gamma indica que instalación y conexiones de gas no están incluidas. Confirmá tensión, fase y potencia por combustible en la ficha del código exacto. | — |
 
 Fuentes de las especificaciones: fichas de [GE3497AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/), [GE3480AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/), [GE3496AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogenos-4500v/), [GE3481AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/), [GE3482AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/), [GE3490AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf8500/), [GE3491AR](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/) y [categoría de estacionarios Gamma](https://www.gammaherramientas.com.ar/categoria-producto/grupos-electrogenos/).
 

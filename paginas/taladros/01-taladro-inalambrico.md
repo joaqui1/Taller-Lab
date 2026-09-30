@@ -21,6 +21,10 @@ published: true
 
 Empezá por el material y la frecuencia de uso. Después verificá que el portabrocas acepte tus brocas, que el equipo tenga el control necesario para atornillar y que la batería pertenezca a una plataforma que te sirva a futuro.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos según uso y presupuesto
 
 | Trabajo habitual | Tipo de equipo para comparar | En qué fijarte antes de comprar |

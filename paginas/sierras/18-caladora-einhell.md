@@ -37,6 +37,19 @@ Las fichas argentinas permiten comparar dos modelos con cable y una versión a b
 | Polvo | Adaptador de aspiración de 36 mm y soplado seleccionable | Adaptador de aspiración de 35 mm y soplado | Conexión de aspiración de 36 mm en datos técnicos; la descripción destaca el soplado |
 | Batería y cargador incluidos | — | — | No |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Einhell TC-JS 85 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/1PmtLAQ) |
+| Einhell TE-JS 100 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/2N5KYMc) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 **Análisis TallerLab.** La TE-JS 100 declara 15 mm más de capacidad en madera que la TC-JS 85, y pesa 0,39 kg más. La inalámbrica TC-JS 18 Li declara 15 mm menos que la TC-JS 85 y 0,29 kg menos antes de sumar la batería. Estas restas comparan cifras de ficha; no miden velocidad ni calidad del corte.
 
 **Declaración del fabricante.** La TE-JS 100 presenta una diferencia dentro de su propia ficha: la descripción indica que admite vástagos T y U, pero el cuadro técnico lista T. Confirmá el encastre de la unidad y de la hoja antes de comprar. Entre las tres máquinas de esta comparación, solo la TC-JS 18 Li Solo es a batería.

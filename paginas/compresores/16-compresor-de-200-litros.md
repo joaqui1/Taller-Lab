@@ -32,7 +32,7 @@ Antes de pasar de 100 a 200 L, anotá qué herramientas se usarán juntas, duran
 | Modelo | Configuración publicada | Potencia y alimentación | Presión y caudal publicado | Peso publicado | Oferta |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | **Lüsqtoff LC-30200** | Tanque 200 L; bicilíndrico a correa | 3 HP; 220 V–50 Hz; monofásico | Máx. 115 PSI; 335 L/min en catálogo 2024–25 | 95 kg | [Ver precio del LC-30200](https://meli.la/2vfnWE7) |
-| **Lüsqtoff LC-40200** | Tanque 200 L; tricilíndrico a correa | 4 HP; 380 V–50 Hz; trifásico | Máx. 115 PSI; 700 L/min en catálogo 2024–25 | 130 kg | — |
+| **Lüsqtoff LC-40200** | Tanque 200 L; tricilíndrico a correa | 4 HP; 380 V–50 Hz; trifásico | Máx. 115 PSI; 700 L/min en catálogo 2024–25 | 130 kg | [Ver precio del LC-40200](https://meli.la/2sTx6pa) |
 | **Schulz MAX CSV 20/200**, código 922.9303-0 | Dos etapas, pistones en V; depósito publicado de 172,8 L | 5 HP; 220 V monofásico en catálogo | Máx. 175 PSI; desplazamiento teórico 566 L/min | 133,1 kg netos | — |
 
 <!-- COMPRESORES-OFFERS -->

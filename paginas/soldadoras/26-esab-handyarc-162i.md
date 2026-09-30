@@ -47,6 +47,12 @@ published: true
 | Generador recomendado por ESAB | 10,5 kVA |
 | Protección / norma | IP21S / IEC 60974-1 |
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá HandyArc 162i: verificá código 0409616</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc 162i</h3><p class="offer-description">MMA: confirmá código 0409616 y accesorios. Los 160 A máximos son intermitentes según el ciclo documentado.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1bLo7UL" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 **Dato documentado:** ESAB Argentina publica los datos anteriores para HandyArc 162i, número de producto 0409616. El ciclo de trabajo identifica puntos distintos de corriente/tensión nominal; 160 A aparece al 20 %, mientras que la salida indicada al 100 % es 72 A.
 
 **Análisis TallerLab:** la relación de la propia tabla impide interpretar «162» o «160 A» como corriente sostenida: el amperaje publicado varía según ciclo. El generador de 10,5 kVA es una recomendación de ESAB para el producto y no verifica por sí sola el tamaño de cualquier instalación, alargue o generador disponible.
@@ -85,6 +91,12 @@ La ficha oficial consultada destaca el ajuste de corriente/diámetro del electro
 **Desconocido:** no se inspeccionó unidad física, precio local, contenido de una oferta ni resultados de soldadura. La página comercial no basta para confirmar qué pinza, cable u otros accesorios incluye cada paquete.
 
 Si comparás MMA por ciclo y corriente de trabajo, revisá la guía de [inverter de 160 A](/soldadora-inverter-160-amp/). Para otros modelos y procesos de la marca, consultá [soldadoras ESAB](/esab/).
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Alternativas MMA Dogo: confirmá códigos</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar MMA 160</h3><p class="offer-description">MMA: el título no confirma Moderna DOG50044. Pedí código/placa antes de aplicar la ficha de la guía.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1iiKCDU" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Dogo Dogostar 180 Moderna</h3><p class="offer-description">MMA: confirmá código DOG50045, corriente asociada al servicio por diámetro y kit real.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2KQQEjE" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 ## Fuentes consultadas
 

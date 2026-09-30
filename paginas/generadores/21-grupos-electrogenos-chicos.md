@@ -23,6 +23,11 @@ En esta categoría, 720 u 800 W suele ser el valor máximo anunciado, no la pote
 
 La diferencia publicada entre ambos máximos es de 80 W, pero no alcanza para declarar un ganador. Para una compra concreta también importan la mezcla 2T indicada por el manual, combustible/autonomía, traslado, toma disponible, garantía y potencia continua con respaldo documental. En varios de esos datos, la documentación consultada es incompleta.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Dos opciones de baja potencia
 
 | Dato de compra | Pektra GPK980 | Konan KGE/800 | Fuente y límite |
@@ -34,8 +39,19 @@ La diferencia publicada entre ambos máximos es de 80 W, pero no alcanza para de
 | Tensión / tomas | 220 V monofásicos según vendedor; cantidad, formato y protección de las tomas no verificados | 220 V, 50 Hz según fabricante; la ficha oficial no detalla cantidad ni formato de tomas | Verificar físicamente el panel, manual y ficha del código que se entrega |
 | Garantía / procedencia | No identificadas de forma primaria en la documentación reunida | El sitio Konan identifica a Morano Máquinas y Herramientas como representante exclusivo en Argentina; garantía y país de origen de esta unidad no aparecen en la ficha consultada | Pedir condiciones por escrito y conservar factura, código y manual |
 | Nivel de evidencia | Bajo: publicación comercial reproduce datos atribuidos a un vendedor de Mercado Libre; falta documento del fabricante | Más alto para potencia, motor, tanque y tensión: ficha del fabricante y catálogo Konan | El nivel de evidencia no es una prueba de rendimiento real |
+| Oferta | — | [Ver precio →](https://meli.la/19gLhpz) | — |
 
 **Qué cambia al leer la tabla:** el KGE/800 ofrece 800 W máximos publicados por fabricante frente a 720 W informados para el GPK980 en una publicación comercial. Ambos comparten 650 W nominales en las fuentes disponibles, pero esa cifra del Pektra todavía no tiene confirmación primaria. No usamos 800 W ni 720 W como potencia continua.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Alternativa nueva de baja potencia: Lüsqtoff LG950P
+
+La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG950P) publica 0,65 kVA nominales y 0,8 kVA máximos; motor 2T, tanque de 4 L y peso de 16,2 kg. Usá la mezcla indicada en su propio manual. Es otro modelo, con especificaciones propias.
+
+[Ver precio del Lüsqtoff LG950P](https://meli.la/2oCYsWY)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Qué puede alimentar un generador chico
 

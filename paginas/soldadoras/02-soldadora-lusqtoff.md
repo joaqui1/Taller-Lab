@@ -28,6 +28,12 @@ Hub de modelos Lusqtoff: las tablas separan equipos para electrodo revestido (MM
 | Iron 100 | MMA | Soldadura con electrodo revestido en trabajos compatibles con la capacidad del modelo | [Iron 100](/lusqtoff-iron-100/) |
 | Iron 250 | MMA; TIG por raspaje figura en catálogo histórico | Comparar una fuente MMA de la familia Iron; verificar función y código exacto de la oferta | [Iron 250](/lusqtoff-iron-250/) |
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Opciones MMA de la familia Iron</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff Mega Iron 100 + máscara</h3><p class="offer-description">MMA: confirmá MEGAIRON100-8 en placa y qué máscara incluye el paquete.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1p8rvV8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff MEGAIRON250 + máscara + kit</h3><p class="offer-description">MMA: confirmá equipo IRON-250, ciclo de trabajo y accesorios; el nombre 250 no acredita 250 A de salida.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26R9o7z" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Flux/MIG
 
 | Modelo | Proceso | Para qué sirve | Ficha |
@@ -36,6 +42,12 @@ Hub de modelos Lusqtoff: las tablas separan equipos para electrodo revestido (MM
 | SML120-8D | FLUX, MMA y Lift TIG | Una opción de varios procesos; distinguir la unidad del kit 8DK | [SML120-8D](/lusqtoff-sml120-8d/) |
 | SML130-7 | Tubular autoprotegido (FCAW-S/FLUX) | Comparar si aparece una unidad discontinuada; verificar estado y garantía | [SML130-7](/lusqtoff-sml130-7/) |
 | SML150-8 | FLUX | Modelo de generación anterior; revisar diferencias frente a variantes posteriores | [SML150-8](/lusqtoff-sml150-8/) |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Opciones Flux y MIG: verificá el proceso</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML120-8DK</h3><p class="offer-description">Flux / MMA: distinguí el kit 8DK del equipo 8D; confirmá máscara, bobina y accesorios entregados.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26xX924" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff MIGDUAL200-9</h3><p class="offer-description">MIG con gas / MMA: comprobá configuración, rodillos y kit. Los 38 A del título no identifican la corriente de salida.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/252cwEq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 

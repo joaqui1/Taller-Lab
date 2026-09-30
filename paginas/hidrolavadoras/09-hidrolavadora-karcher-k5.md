@@ -21,6 +21,11 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Cuándo conviene comprar una K5
 
 La K5 tiene sentido si limpiás **con frecuencia** patios, cocheras, vehículos, zona de pileta o superficies exteriores con suciedad adherida y el mayor caudal y alcance te ahorran tiempo. Para lavar un auto de vez en cuando o hacer tareas puntuales en un balcón, una K4 suele cubrir el trabajo con menor desembolso.
@@ -35,6 +40,12 @@ Hay dos ofertas que conviene distinguir por código. La página de Kärcher Arge
 ¹ La página argentina del SKU 93982950 expresa la presión en psi: 2100 ÷ 14,5038 ≈ 144,8 bar. Es una conversión de unidad, no una cifra de presión de servicio publicada por esa ficha.
 
 **Recomendación:** si querés específicamente más radio de trabajo, la manguera de 10 m de la K5 Power Control pesa más en la decisión que el número K5 del nombre. Para suciedad de jardín, auto y patio recurrentes, sus 480 L/h máximos y el rendimiento de superficie publicado de hasta 40 m²/h son una mejora tangible frente a K4. Kärcher Argentina describe la K5 93982950 como apta para limpieza a fondo e intensiva, aunque no publica ahí una frecuencia/ciclo horario concreto.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Qué revisar para justificar la diferencia de precio
 

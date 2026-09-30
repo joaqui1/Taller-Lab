@@ -33,6 +33,18 @@ Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La varian
 | Peso | 7,1 kg | 11 kg |
 | Potencia publicada | 1.600 W S6 40 % | 1.500 W S1 / 1.800 W S2 |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Einhell TC-MS 2112 | Confirmá capacidad al ángulo previsto y disco adecuado al material. | [Ver precio →](https://meli.la/1SD2tF3) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 ### Cuál cubre tu pieza
 
 - **Hasta 120 mm de ancho a 90°:** la fija TC-MS 2112 entra según la ficha, siempre que la altura de la pieza no supere sus 55 mm publicados a 90°.

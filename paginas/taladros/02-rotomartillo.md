@@ -21,6 +21,10 @@ published: true
 
 La elección empieza por el diámetro y el material de los agujeros, cuántos vas a hacer y si también necesitás cincelar. Un rotomartillo SDS Plus cubre muchas tareas de instalación y mantenimiento; para perforaciones grandes o demolición sostenida puede convenir una máquina SDS Max o un demoledor dedicado.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias entre rotomartillo y taladro percutor
 
 Un **taladro percutor** combina el giro con golpes mecánicos de menor recorrido. Puede servir para agujeros ocasionales en mampostería, pero el avance depende bastante de la presión que aplica quien lo usa y la mayoría no permite cincelar.

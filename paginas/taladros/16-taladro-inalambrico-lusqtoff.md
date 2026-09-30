@@ -21,6 +21,10 @@ published: true
 
 Primero definí si necesitás percusión. El TIL23-8B es un atornillador de 12 V con dos baterías y cargador; el TAL60-9B es un atornillador brushless de 18 V Iron Volt que se vende sin batería; y el TIL45131-8BK es un percutor de 18 V Iron Volt con una batería de 2 Ah y cargador incluidos. La ficha del TIL45131-8BK no publica torque máximo, así que no lo ubicamos frente a los otros dos por esa cifra.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Comparativa de modelos y prestaciones
 
 | Modelo | Plataforma y función confirmada | Prestaciones publicadas | Batería y cargador |
@@ -30,6 +34,12 @@ Primero definí si necesitás percusión. El TIL23-8B es un atornillador de 12 V
 | TIL45131-8BK | 18 V Iron Volt; taladro percutor brushless | 1500 rpm publicados; 3 velocidades electrónicas y 2 mecánicas; 20 posiciones de torque; peso declarado 3,2 kg. La ficha consultada no informa torque máximo ni capacidad por material. | Incluye 1 batería de 2 Ah, cargador, maletín y clip de cinturón |
 
 Las fichas no especifican un método de pesaje común, ni aclaran para todos los modelos si el peso incluye batería. Por eso el peso declarado orienta, pero no es una comparación controlada. La descripción de prestaciones tampoco sustituye límites de perforación publicados por diámetro y material: consultá el manual antes de definir una capacidad concreta.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Lüsqtoff: 12 V, Iron Volt y percusión</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff TIL23-8B</h3><p class="offer-description">Taladro/atornillador de 12 V sin percusión confirmada. Verificá baterías, capacidad en Ah y cargador de la oferta.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/113Ew5S" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TIL23-8B ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff TAL60-9B</h3><p class="offer-description">Taladro/atornillador brushless sin percusión, plataforma Iron Volt. La ficha citada lo vende sin batería ni cargador: confirmá contenido.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1KgRGVw" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TAL60-9B ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff TIL45131-8BK</h3><p class="offer-description">Taladro percutor/atornillador brushless Iron Volt. Confirmá batería de 2 Ah, cargador, maletín y código del kit.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1UgHPbY" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TIL45131-8BK ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Percusión, torque y velocidades
 

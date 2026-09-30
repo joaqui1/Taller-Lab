@@ -25,6 +25,7 @@ HUB_EDITORIAL = {
     "taladros": {
         "intro": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
         "main": "01-taladro-inalambrico.md",
+        "start_links": [("Comparar taladros inalámbricos", "/taladros/inalambricos/")],
         "criteria": ["Función y material de trabajo", "Mandril o encastre SDS", "Plataforma y baterías incluidas por código"],
     },
     "sierras": {

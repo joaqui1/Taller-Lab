@@ -23,6 +23,11 @@ published: true
 
 La **Gamma 130 Elite Red Line G2513AR** es una hidrolavadora eléctrica doméstica de agua fría. La pregunta práctica es si el caudal y los accesorios alcanzan para tus tareas habituales: Gamma la destina a vehículos, máquinas, embarcaciones, piletas, paredes y jardines. Sus **90 bar de presión máxima de servicio** son el dato de trabajo; **130 bar es la presión máxima admisible**, no la presión sostenida que debés esperar durante la limpieza.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Gamma 130 G2513AR: prestaciones para decidir
 
 | Dato | Gamma 130 Elite Red Line G2513AR |
@@ -48,6 +53,12 @@ La **Gamma 130 Elite Red Line G2513AR** es una hidrolavadora eléctrica domésti
 | Grandes superficies o varias tareas repetidas en cada jornada | **Considerá subir de equipo** | La G2513AR está clasificada como doméstica. Si necesitás más caudal y tenés una diferencia de precio razonable, compará la Gamma 150 G2514AR; para trabajo sostenido, buscá un modelo dimensionado para uso intensivo. |
 
 La guía de Gamma no asigna metros cuadrados por hora ni un ciclo continuo garantizado a la G2513AR. Por eso, “alcanza” aquí significa que el fabricante incluye esa clase de tarea entre sus usos domésticos; no promete una velocidad fija para cualquier superficie o suciedad.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Cuándo conviene pasar a la Gamma 150
 
@@ -82,7 +93,13 @@ Para una falla, pérdida o reparación de bomba, llevá el código **G2513AR** y
 
 **Relevamiento: 29/09/2026.** [Ruggeri Hogar publica $199.998](https://www.ruggerihogar.com.ar/productos/hidrolavadora-gamma-g2513ar-elite130-1600w/) para el código **G2513AR**, en 3 cuotas sin interés; su ficha no declara unidades disponibles, por lo que hay que confirmar stock antes de comprar. La ficha del vendedor muestra tanto 360 como 330 L/h en dos líneas de especificaciones; Gamma informa 360 L/h para el G2513AR. Tomá la cifra oficial como referencia y pedí al vendedor confirmar el SKU y ficha que acompañan la unidad.
 
-## Fuentes y alcance
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+[Ver precio de Gamma 130 Elite Red Line · G2513AR](https://meli.la/2SuGMdL)
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
+
+## Fuentes consultadas
 
 - Gamma Argentina: [Gamma 130 Elite G2513AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/), [manual Gamma 130 G2513AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf).
 - Gamma Argentina: [Gamma 150 Elite G2514AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/), [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).

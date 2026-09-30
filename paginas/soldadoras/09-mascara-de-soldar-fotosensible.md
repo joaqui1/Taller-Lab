@@ -33,6 +33,8 @@ published: true
 
 **Dato documentado:** las especificaciones se atribuyen al fabricante y al modelo/código indicado. Los rangos de sombra de orientación citados provienen de OSHA de Estados Unidos y no reemplazan los requisitos aplicables en Argentina, el análisis de riesgo ni el manual del filtro. Esta guía es documental, sin prueba física ni muestra de opiniones.
 
+**Análisis TallerLab:** los criterios de selección interpretan las fuentes citadas según proceso, consumible y trabajo previsto. No se realizaron pruebas físicas de los productos ni se verificó el contenido actual de las ofertas recibidas.
+
 ## Oscurecimiento y compatibilidad con el proceso
 
 El tono DIN de trabajo tiene que corresponder al proceso y la corriente. Como referencia de seguridad reconocida, la tabla de [OSHA 1910.133](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133) publica estos **mínimos protectores** para filtro de soldadura por arco:
@@ -81,6 +83,12 @@ Estos tres Lüsqtoff ilustran decisiones distintas; no representan toda la gama 
 | [Lüsqtoff ST-1N](https://lusqtoff.com.ar/ver-producto/ST-1N) | DIN 4/11 fijo; 2 sensores; 90 × 35 mm | Sombra y sensibilidad automáticas; la página lista MMA y MIG/MAG. | Banda solar y batería integrada; batería reemplazable **no confirmada**. TIG de baja corriente **no confirmado**. |
 | [Lüsqtoff ST-1E](https://lusqtoff.com.ar/ver-producto/ST-1E) | DIN 4/9–13; 2 sensores; 92 × 42 mm | Sensibilidad y retardo ajustables; control de tono; página lista MMA y MIG/MAG, sin declarar TIG. | Banda solar y batería CR2032 reemplazable. TIG de baja corriente **no confirmado**. |
 | [Lüsqtoff ST-1B](https://lusqtoff.com.ar/ver-producto/ST-1B) | DIN 4/9–13; 4 sensores; 98 × 43 mm | Sensibilidad, retardo y tono ajustables; amolado; página lista MMA/MIG-MAG/TIG. | Banda solar y batería CR2450 reemplazable; manual declara TIG DC ≥5 A y AC ≥5 A. |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Tres máscaras para decisiones distintas</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff ST-1N</h3><p class="offer-description">Para comparar una máscara de tono fijo: verificá filtro y procesos admitidos; TIG de baja corriente no confirmado en la guía.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1oPpFmw" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff ST-1E</h3><p class="offer-description">Para comparar regulación de sombra y sensibilidad: confirmá controles y especificaciones del filtro ofrecido.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1W1WXvh" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff ST-1B</h3><p class="offer-description">Para comparar el modelo de cuatro sensores documentado: confirmá filtro y rango TIG; no extrapolar datos a ST-1X.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1L34ttG" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 Al comparar cualquier marca, cotejá primero tono requerido y procesos compatibles; luego respuesta documentada para TIG de baja corriente, sensibilidad/delay, sensores, modo amolado, ventana, ajuste del arnés, batería, repuestos y marcado. La velocidad de conmutación, el número de sensores o el tamaño de visor aislados no bastan para establecer seguridad o calidad comparativa.
 

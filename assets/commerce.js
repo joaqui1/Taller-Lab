@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ['use', shelf.querySelector('.filter-use')],
       ['power', shelf.querySelector('.filter-power')],
     ];
+    // Los bloques contextuales solo tienen tarjetas y CTA, sin filtros ni comparador.
+    if (fields.some(([, select]) => !select)) return;
     fields.forEach(([key, select]) => {
       [...new Set(cards.map(card => card.dataset[key]))].sort().forEach(value => {
         const option = document.createElement('option');
@@ -85,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.addEventListener('click', event => {
-    const link = event.target.closest('a[href^="https://meli.la/"]');
+    const link = event.target.closest('a[href^="https://meli.la/"], a[data-affiliate-placement]');
     if (!link) return;
     const payload = JSON.stringify({
       product: link.href,

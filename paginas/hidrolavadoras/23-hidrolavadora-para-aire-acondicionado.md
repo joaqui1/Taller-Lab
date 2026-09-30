@@ -32,6 +32,11 @@ La búsqueda suele llevar a hidrolavadoras domésticas, pero limpiar un aire aco
 - Fuentes primarias: sí
 - Última revisión: 29/09/2026
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Qué comprobar en la publicación
 
 Antes de comprar, verificá que la publicación describa un equipo para serpentines o limpieza HVAC y que detalle cómo se controla la presión. Buscá estos puntos:
@@ -54,26 +59,21 @@ Un equipo apto suele ser un **pulverizador/rociador de baja presión** o una **l
 
 Las instrucciones dependen del diseño de la unidad. Carrier recomienda para su procedimiento de limpieza del serpentín una solución de detergente suave aplicada con rociador de baja presión y remite a las instrucciones del fabricante. Daikin indica para la familia UATYA citada un enjuague de baja presión de 3–5 barg y prohíbe el chorro de alta presión; ese valor es **específico de esa familia**, no una regla universal.
 
-## Publicación para revisar
+## Equipo específico para limpieza de aire acondicionado
 
-### SpeedClean CoilJet CJ-125: equipo HVAC publicado en Argentina
+### WIPCOOL C30S: agua y vapor para tareas HVAC
 
-Este sí es un limpiador portátil diseñado para serpentines de condensadores y evaporadores HVAC, no una hidrolavadora doméstica genérica. El [manual del fabricante](https://speedclean.com/wp-content/uploads/2015/07/CJ125_Manual_0415.pdf) publica **125 PSI (8,5 bar) de salida**, **0,7 GPM (2,6 L/min)**, bomba de diafragma, batería recargable VRLA de 12 V, tanque de agua integrado de 12,5 L, tanque químico de 1,6 L y peso seco de 10 kg. Está pensado para llevar su propia agua y aplicar limpiador de serpentines seguido de un enjuague.
+WIPCOOL presenta el **C30S** como un equipo de limpieza de aire acondicionado con modos de agua fría, agua caliente y vapor. El uso en cada unidad depende de las instrucciones del fabricante del aire acondicionado: elegí el modo compatible con sus materiales, componentes y procedimiento de mantenimiento.
 
-Una [publicación de Mercado Libre Argentina](https://www.mercadolibre.com.ar/limpiador-evaporable-speedclean-cj-125-portatil-para-condens/p/MLA2089995030) lo ofrece por **$3.802.000**, con **5 unidades publicadas** y preparación estimada de 12 días; el vendedor aclara que lo importa a pedido. Precio y disponibilidad consultados el **29/09/2026**. No es stock local de entrega inmediata ni prueba de servicio oficial argentino: antes de comprar, confirmá plazo, factura, garantía, cargador/enchufe compatible, kit completo y disponibilidad de repuestos. El manual admite cargador 115/230 V, pero verificá que la unidad importada incluya la versión adecuada.
+La [ficha del fabricante WIPCOOL](https://www.wipcool.com/high-quality-for-refrigeration-hand-oil-pump-steam-cleaning-machine-c30s-wipcool-product/) distingue versiones eléctricas y declara 3–6 bar de trabajo y hasta 3 L/min. La versión de 230 V figura con 3.300 W máximos, mientras que el título del enlace suministrado anuncia 3.000 W: **confirmá potencia, tensión y placa de la unidad ofrecida**, además del manual y el kit.
 
-Su presión de salida mucho menor que la de una hidrolavadora doméstica no lo convierte en seguro para cualquier serpentín o químico: seguí el manual del CoilJet, las indicaciones del producto limpiador y las instrucciones del fabricante del aire acondicionado. El modelo sirve como ejemplo de herramienta diseñada para la tarea; no reemplaza la verificación de acceso, drenaje, técnica y compatibilidad en cada unidad.
+Antes de comprar, comprobá las boquillas, mangueras, regulación, garantía y repuestos locales. Para un split interior, verificá también bolsa de lavado y drenaje; no damos por incluidos esos accesorios. El agua caliente y el vapor requieren compatibilidad explícita con la unidad y sus recubrimientos. Esta guía no incluye una prueba física del C30S ni verifica precio o stock de la publicación enlazada.
 
-Usá esta lista al evaluar esta u otra publicación, no sólo el nombre comercial:
+<!-- HIDROLAVADORAS-COMERCIO -->
 
-1. ¿Dice explícitamente “limpieza de serpentines”, “HVAC” o identifica las unidades compatibles?
-2. ¿Publica el **rango de presión/control**, caudal y boquillas incluidos, y el manual explica cómo configurarlos para serpentines?
-3. Para un split interior, ¿incluye o especifica una bolsa de lavado con dimensiones, drenaje y manguera de descarga compatibles?
-4. ¿Separa lo incluido de lo que se compra aparte (batería, cargador, manguera, bolsa, filtro y pulverizador)?
-5. ¿Aclara qué químicos admite y cuáles son sus requisitos de dilución y enjuague?
-6. ¿Identifica servicio, repuestos, garantía local y SKU del equipo?
+<!-- HIDROLAVADORAS-OFERTAS -->
 
-Si la publicación sólo ofrece una hidrolavadora común por presión máxima, sin rango de baja presión validado ni procedimiento HVAC, buscá otro tipo de equipo o consultá a un técnico de climatización. No recomiendo un modelo doméstico para cubrir esta búsqueda.
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Cuidados al limpiar
 
@@ -86,10 +86,10 @@ La conclusión importante se mantiene: **no dirijas directamente a las aletas el
 
 Esta guía es documental: no se hicieron pruebas con equipos ni se validó un modelo universal. Las referencias de presión citadas son instrucciones particulares de fabricantes, no presets intercambiables.
 
-### Fuentes consultadas
+## Fuentes consultadas
 
 - **Fabricante de climatización:** [Carrier, limpieza de serpentines de aire acondicionado](https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/); [manual oficial Daikin UATYA, limpieza exterior de serpentines](https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf).
-- **Equipo HVAC:** [manual oficial SpeedClean CoilJet CJ-125](https://speedclean.com/wp-content/uploads/2015/07/CJ125_Manual_0415.pdf); publicación local importada a pedido en [Mercado Libre Argentina](https://www.mercadolibre.com.ar/limpiador-evaporable-speedclean-cj-125-portatil-para-condens/p/MLA2089995030), consultada el 29/09/2026.
+- **Equipo HVAC:** [ficha oficial WIPCOOL C30S, versiones eléctricas y modos](https://www.wipcool.com/high-quality-for-refrigeration-hand-oil-pump-steam-cleaning-machine-c30s-wipcool-product/).
 - **Documentación primaria de hidrolavadora:** [manual Gamma 150 G2514AR](https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf).
 
 Para otras tareas con equipos domésticos, consultá la [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

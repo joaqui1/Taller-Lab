@@ -21,6 +21,11 @@ published: true
 
 La elección empieza por la forma de trabajar —en banco, de pie o sobre una pieza instalada— y por la sección real del metal. Las cifras de capacidad solo valen para el modelo, orientación y ángulo publicados.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Portátil o de banco
 
 | Formato | Qué problema resuelve | Límites prácticos a considerar |
@@ -30,6 +35,19 @@ La elección empieza por la forma de trabajar —en banco, de pie o sobre una pi
 | Vertical con mesa | Guiar manualmente una pieza apoyada en una mesa, útil cuando el equipo y la hoja admiten ese modo o se necesitan cortes con otra orientación. | No presupongas que toda sierra horizontal puede usarse vertical: debe traer mesa y permitirlo en su manual. La pieza sigue necesitando apoyo y control seguros. |
 
 Hay máquinas combinadas: por ejemplo, el fabricante describe el BTA 646003 como vertical/horizontal. En una horizontal, el arco y la morsa definen la envolvente de corte; en portátil, la garganta de la herramienta limita cuánto puede entrar el perfil. La ficha del modelo exacto manda.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| BTA Tools 646003 | Confirmá código, capacidad por perfil y posiciones de trabajo. | [Ver precio →](https://meli.la/1fovw5N) |
+| BTA Tools 646001 | Confirmá código, capacidad por perfil y posiciones de trabajo. | [Ver precio →](https://meli.la/1rjCMVL) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Capacidad según perfil
 

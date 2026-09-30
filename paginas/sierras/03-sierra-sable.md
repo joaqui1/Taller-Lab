@@ -19,6 +19,9 @@ published: true
 
 # Sierra sable: guía de usos y compra
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
 ## Usos y criterios de elección
 
 ### Qué podés cortar con una sierra sable
@@ -73,6 +76,20 @@ Las fichas argentinas de Bosch GSA 1100 E y GSA 18V-24 publican el mismo máximo
 - **Cambio de hoja:** comprobá qué encastre admite y si el sistema permite cambiar la hoja sin llave; Bosch describe encastre SDS en la GSA 18V-24. Confirmá compatibilidad de vástago y manual antes de comprar hojas.
 
 Si el trabajo va a ser principalmente inalámbrico, mirá también la guía de [sierras sable inalámbricas](/sierras/sierra-sable-inalambrica/) para revisar kits y plataformas de otros modelos.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Bosch GSA 1100 E | El título recibido dice 110 W; comprobá la potencia en la placa del modelo, sin usar ese título como ficha técnica. | [Ver precio →](https://meli.la/2cEAQKh) |
+| Bosch GSA 18V-24 | La oferta menciona GSA18V-24N: confirmá código y si incluye batería y cargador. | [Ver precio →](https://meli.la/2mTTC3F) |
+| DeWalt DCS380B | Confirmá plataforma y contenido: cuerpo, batería y cargador se verifican por separado. | [Ver precio →](https://meli.la/2UW9Bfk) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Fuentes consultadas
 

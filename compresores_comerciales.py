@@ -32,12 +32,14 @@ OFFERS = {
     'Stanley FCCC404STC005': ('26gU4mL', 'Oferta anunciada como 50 L y 2 HP; confirmar capacidad en placa'),
     'Einhell TC-AC 190/24/8 I OF': ('2NsPCBP', 'Compresor TC-AC 190/24/8 I OF; confirmar configuración'),
     'Gadnic AV37-TY': ('2aSkmx1', 'Doble cilindro 12 V; digital, corte automático y linterna anunciados'),
+    'Gadnic AV000009': ('2MHTmab', '12 V; 85 L/min, doble cilindro, 150 PSI y conexión directa a batería, anunciados'),
+    'BTA CSA-50-2': ('1b6KCiM', 'Código 272009.2; sin aceite, 50 L y 1,5 HP anunciados'),
+    'Lüsqtoff LC-40200': ('2sTx6pa', 'Oferta titulada 4 HP, 200 L y trifásica; confirmar que sea LC-40200'),
 }
 PENDING_MODELS = (
-    'Gadnic AV000009', 'Gamma G2802AR', 'Gamma G2802KAR',
+    'Gamma G2802AR', 'Gamma G2802KAR',
     'Fengda FD-186K', 'Fengda AS-186', 'Fengda AS-196',
     'Einhell TE-AC 270/50 Silent', 'Einhell TE-AC 430/90/10',
-    'Lüsqtoff LC-40200', 'BTA CSA-50-2',
 )
 # número de archivo, sección de enlaces, sección de cards, modelos, colocación.
 PLACEMENTS = [
@@ -83,6 +85,9 @@ def install_catalog(products, facts, placements):
             source_type='publicación comercial', evidence_label='Título de la oferta suministrado; destino sin verificar',
             warning=('El título recibido indica 50 L; la publicación histórica citada en la guía indica 24 L para este código. Confirmá placa, capacidad y manual antes de comprar.' if model.startswith('Stanley') else
                      'La oferta no incluye el sufijo -8 en su título. Confirmá código de placa y kit antes de trasladar los datos de LC2550BK-8.' if model == 'Lüsqtoff LC2550BK-8' else ''))
+        if model == 'Lüsqtoff LC-40200':
+            facts[url].update(brand='Compresor trifásico', model='código por confirmar · 200 L · 4 HP',
+                warning='El título de la publicación anuncia 200 L, 4 HP y trifásica, pero no identifica la marca ni el código LC-40200. Confirmá placa y manual; las especificaciones de la fila LC-40200 son de Lüsqtoff y no quedan atribuidas a esta oferta.')
         if model == 'Nictom IE01':
             facts[url]['source'] = facts['https://meli.la/2m7TJWQ']['source']
             facts[url]['source_type'] = 'marca'

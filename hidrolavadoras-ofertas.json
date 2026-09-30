@@ -1,0 +1,447 @@
+{
+  "/hidrolavadoras/comparativa-general/": {
+    "file": "01-hidrolavadoras.md",
+    "anchor": "Elegí por tarea",
+    "models": [
+      "K2",
+      "G130",
+      "N700",
+      "K4PC"
+    ],
+    "offers": [
+      {
+        "model": "K2",
+        "url": "https://meli.la/2izv76H"
+      },
+      {
+        "model": "G130",
+        "url": "https://meli.la/2SuGMdL"
+      },
+      {
+        "model": "N700",
+        "url": "https://meli.la/2dFtHcP"
+      },
+      {
+        "model": "K4PC",
+        "url": "https://meli.la/149NjG2"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/inalambricas/": {
+    "file": "02-hidrolavadora-inalambrica.md",
+    "anchor": "Elegí por tipo de equipo",
+    "models": [
+      "LAPL",
+      "HYPRESSO"
+    ],
+    "offers": [
+      {
+        "model": "LAPL",
+        "url": "https://meli.la/1YbCQgP"
+      },
+      {
+        "model": "HYPRESSO",
+        "url": "https://meli.la/1TRSxkF"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/lusqtoff/": {
+    "file": "03-hidrolavadoras-lusqtoff.md",
+    "anchor": "Comparativa de la gama Lüsqtoff",
+    "models": [
+      "HL120",
+      "HL150",
+      "HL1109"
+    ],
+    "offers": [
+      {
+        "model": "HL120",
+        "url": "https://meli.la/1qPbvWX"
+      },
+      {
+        "model": "HL150",
+        "url": "https://meli.la/1X9cSf1"
+      },
+      {
+        "model": "HL1109",
+        "url": "https://meli.la/1uvMFdz"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/gamma/": {
+    "file": "04-hidrolavadoras-gamma.md",
+    "anchor": "Qué Gamma elegir según la tarea",
+    "models": [
+      "MASTER",
+      "G130",
+      "PREMIUM"
+    ],
+    "offers": [
+      {
+        "model": "MASTER",
+        "url": "https://meli.la/1zWPTU6"
+      },
+      {
+        "model": "G130",
+        "url": "https://meli.la/2SuGMdL"
+      },
+      {
+        "model": "PREMIUM",
+        "url": "https://meli.la/2nquiBB"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/stihl/": {
+    "file": "05-hidrolavadoras-stihl.md",
+    "anchor": "Elegí por frecuencia de uso",
+    "models": [
+      "RE80"
+    ],
+    "offers": [
+      {
+        "model": "RE80",
+        "url": "https://meli.la/1wzSW2u"
+      }
+    ],
+    "pending": {
+      "RE90": "El título indica 60 Hz: confirmar placa compatible con la instalación argentina de 50 Hz."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/bosch/": {
+    "file": "06-hidrolavadoras-bosch.md",
+    "anchor": "Cuál conviene para casa y auto",
+    "models": [
+      "GHP180",
+      "GHP200"
+    ],
+    "offers": [
+      {
+        "model": "GHP180",
+        "url": "https://meli.la/1wNMwSL"
+      },
+      {
+        "model": "GHP200",
+        "url": "https://meli.la/1zrcYor"
+      }
+    ],
+    "pending": {
+      "GHP220": "Falta acreditar código argentino 0600910EH0 y frecuencia de placa; el título dice 50/60 Hz."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/black-decker/": {
+    "file": "07-hidrolavadoras-black-decker.md",
+    "anchor": "Qué elegir para casa y auto",
+    "models": [
+      "B1300",
+      "B2200"
+    ],
+    "offers": [
+      {
+        "model": "B1300",
+        "url": "https://meli.la/1zzNj8Z"
+      },
+      {
+        "model": "B2200",
+        "url": "https://meli.la/2MJE81D"
+      }
+    ],
+    "pending": {
+      "B1800": "Falta enlace de BEPW1800T-AR."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/karcher-k2/": {
+    "file": "08-hidrolavadora-karcher-k2.md",
+    "anchor": "Qué K2 conviene para cada trabajo",
+    "models": [
+      "K2",
+      "K2CAR"
+    ],
+    "offers": [
+      {
+        "model": "K2",
+        "url": "https://meli.la/2izv76H"
+      },
+      {
+        "model": "K2CAR",
+        "url": "https://meli.la/2Cq2ivp"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/karcher-k5/": {
+    "file": "09-hidrolavadora-karcher-k5.md",
+    "anchor": "Cuándo conviene comprar una K5",
+    "models": [
+      "K5PC"
+    ],
+    "offers": [
+      {
+        "model": "K5PC",
+        "url": "https://meli.la/1wCKV4R"
+      }
+    ],
+    "pending": {
+      "K5": "El título suministrado dice 380 L/h: falta confirmar el código 9.398-295.0 y la variante."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/gamma-150/": {
+    "file": "10-hidrolavadora-gamma-150.md",
+    "anchor": "Selector rápido",
+    "models": [],
+    "offers": [],
+    "pending": {
+      "G150": "Falta enlace de Gamma 150 Elite G2514AR."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/profesionales/": {
+    "file": "11-hidrolavadora-profesional.md",
+    "anchor": "Qué necesita un lavadero de autos",
+    "models": [
+      "NPRO"
+    ],
+    "offers": [
+      {
+        "model": "NPRO",
+        "url": "https://meli.la/2ChQa9Z"
+      }
+    ],
+    "pending": {
+      "GHP220": "Falta acreditar código argentino 0600910EH0 y frecuencia de placa; el título dice 50/60 Hz."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/karcher-k3/": {
+    "file": "12-hidrolavadora-karcher-k3.md",
+    "anchor": "K2, K3 y K4 argentinos: dónde cae la K3",
+    "models": [
+      "K3"
+    ],
+    "offers": [
+      {
+        "model": "K3",
+        "url": "https://meli.la/1LYmDeG"
+      }
+    ],
+    "pending": {},
+    "repeat": true
+  },
+  "/hidrolavadoras/einhell/": {
+    "file": "13-hidrolavadoras-einhell.md",
+    "anchor": "Selector por uso",
+    "models": [
+      "TC130",
+      "TE140",
+      "HYPRESSO"
+    ],
+    "offers": [
+      {
+        "model": "TC130",
+        "url": "https://meli.la/2Qpd7no"
+      },
+      {
+        "model": "TE140",
+        "url": "https://meli.la/26hgiky"
+      },
+      {
+        "model": "HYPRESSO",
+        "url": "https://meli.la/1TRSxkF"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/gamma-130/": {
+    "file": "14-hidrolavadora-gamma-130.md",
+    "anchor": "¿Me alcanza la Gamma 130?",
+    "models": [
+      "G130"
+    ],
+    "offers": [
+      {
+        "model": "G130",
+        "url": "https://meli.la/2SuGMdL"
+      }
+    ],
+    "pending": {},
+    "repeat": true
+  },
+  "/hidrolavadoras/hyundai/": {
+    "file": "15-hidrolavadoras-hyundai.md",
+    "anchor": "",
+    "models": [],
+    "offers": [],
+    "pending": {
+      "HYUNDAI_LIST": "Falta lista afiliada Hyundai."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/lusqtoff-hl-120/": {
+    "file": "16-hidrolavadora-lusqtoff-hl-120.md",
+    "anchor": "Conviene si / no conviene si",
+    "models": [
+      "HL120"
+    ],
+    "offers": [
+      {
+        "model": "HL120",
+        "url": "https://meli.la/1qPbvWX"
+      }
+    ],
+    "pending": {},
+    "repeat": true
+  },
+  "/hidrolavadoras/karcher-k4/": {
+    "file": "17-hidrolavadora-karcher-k4.md",
+    "anchor": "Precio local por versión",
+    "models": [
+      "K4",
+      "K4PC"
+    ],
+    "offers": [
+      {
+        "model": "K4",
+        "url": "https://meli.la/2SvkJCm"
+      },
+      {
+        "model": "K4PC",
+        "url": "https://meli.la/149NjG2"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/150-bar/": {
+    "file": "18-hidrolavadora-150-bar.md",
+    "anchor": "Comparación: presión de trabajo, caudal y alimentación",
+    "models": [
+      "N700"
+    ],
+    "offers": [
+      {
+        "model": "N700",
+        "url": "https://meli.la/2dFtHcP"
+      }
+    ],
+    "pending": {
+      "G150": "Falta enlace de Gamma 150 Elite G2514AR.",
+      "HL1008": "Falta enlace de Lüsqtoff HL100-8."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/200-bar/": {
+    "file": "19-hidrolavadora-200-bar.md",
+    "anchor": "",
+    "models": [],
+    "offers": [],
+    "pending": {
+      "200BAR_LIST": "Falta lista afiliada de 200 bar."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/niwa/": {
+    "file": "20-hidrolavadoras-niwa.md",
+    "anchor": "Respuesta rápida: elegir por entorno y ritmo",
+    "models": [
+      "N300",
+      "N700",
+      "NPRO"
+    ],
+    "offers": [
+      {
+        "model": "N300",
+        "url": "https://meli.la/1Dy1F8P"
+      },
+      {
+        "model": "N700",
+        "url": "https://meli.la/2dFtHcP"
+      },
+      {
+        "model": "NPRO",
+        "url": "https://meli.la/2ChQa9Z"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/karcher/": {
+    "file": "21-hidrolavadoras-karcher.md",
+    "anchor": "Selector rápido",
+    "models": [
+      "K2",
+      "K3",
+      "K4PC"
+    ],
+    "offers": [
+      {
+        "model": "K2",
+        "url": "https://meli.la/2izv76H"
+      },
+      {
+        "model": "K3",
+        "url": "https://meli.la/1LYmDeG"
+      },
+      {
+        "model": "K4PC",
+        "url": "https://meli.la/149NjG2"
+      }
+    ],
+    "pending": {
+      "K5": "El título suministrado dice 380 L/h: falta confirmar el código 9.398-295.0 y la variante."
+    },
+    "repeat": false
+  },
+  "/hidrolavadoras/para-autos/": {
+    "file": "22-hidrolavadoras-para-autos.md",
+    "anchor": "Qué revisar antes de elegir",
+    "models": [
+      "K2",
+      "K3",
+      "N500"
+    ],
+    "offers": [
+      {
+        "model": "K2",
+        "url": "https://meli.la/2izv76H"
+      },
+      {
+        "model": "K3",
+        "url": "https://meli.la/1LYmDeG"
+      },
+      {
+        "model": "N500",
+        "url": "https://meli.la/15xwrHT"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  },
+  "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/": {
+    "file": "23-hidrolavadora-para-aire-acondicionado.md",
+    "anchor": "Equipo específico para limpieza de aire acondicionado",
+    "models": [
+      "C30S"
+    ],
+    "offers": [
+      {
+        "model": "C30S",
+        "url": "https://meli.la/2CieWYz"
+      }
+    ],
+    "pending": {},
+    "repeat": false
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "/soldadoras/": {
+    "file": "00-soldadoras.md",
+    "models": [
+      "IRON100",
+      "SML120",
+      "ESABMIG160",
+      "ESABET200"
+    ],
+    "offers": [
+      {
+        "model": "IRON100",
+        "url": "https://meli.la/1p8rvV8",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABMIG160",
+        "url": "https://meli.la/2V4LNfM",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABET200",
+        "url": "https://meli.la/1vSNzRV",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "IRON100",
+          "SML120",
+          "ESABMIG160",
+          "ESABET200"
+        ],
+        "anchor": "Qué soldadora elegir según el trabajo",
+        "position": "section",
+        "title": "Una oferta por proceso: MMA, Flux, MIG y TIG"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/electrodo-7018/": {
+    "file": "01-electrodo-7018.md",
+    "models": [
+      "7018-25",
+      "7018-32"
+    ],
+    "offers": [
+      {
+        "model": "7018-25",
+        "url": "https://meli.la/2fBaR3k",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "7018-32",
+        "url": "https://meli.la/1W8ddJX",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "7018-25",
+          "7018-32"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Compará diámetro y presentación del 7018"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff/": {
+    "file": "02-soldadora-lusqtoff.md",
+    "models": [
+      "IRON100",
+      "IRON250",
+      "SML120",
+      "MIGDUAL200"
+    ],
+    "offers": [
+      {
+        "model": "IRON100",
+        "url": "https://meli.la/1p8rvV8",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "IRON250",
+        "url": "https://meli.la/26R9o7z",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "MIGDUAL200",
+        "url": "https://meli.la/252cwEq",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "IRON100",
+          "IRON250"
+        ],
+        "anchor": "MMA",
+        "position": "table",
+        "title": "Opciones MMA de la familia Iron"
+      },
+      {
+        "models": [
+          "SML120",
+          "MIGDUAL200"
+        ],
+        "anchor": "Flux/MIG",
+        "position": "table",
+        "title": "Opciones Flux y MIG: verificá el proceso"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/soldadora-de-punto/": {
+    "file": "03-soldadora-de-punto.md",
+    "models": [],
+    "offers": [],
+    "placements": [],
+    "pending": []
+  },
+  "/soldadoras/soldadora-mig-con-gas/": {
+    "file": "04-soldadora-mig-con-gas.md",
+    "models": [
+      "ESABMIG160",
+      "MIGDUAL200"
+    ],
+    "offers": [
+      {
+        "model": "ESABMIG160",
+        "url": "https://meli.la/2V4LNfM",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "MIGDUAL200",
+        "url": "https://meli.la/252cwEq",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESABMIG160",
+          "MIGDUAL200"
+        ],
+        "anchor": "Comparativa y costo del equipo completo",
+        "position": "table",
+        "title": "Máquinas MIG con gas para comparar"
+      }
+    ],
+    "pending": [
+      {
+        "model": "ESABWIRE5",
+        "reason": "Falta referido ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg; el suministrado es 1,6 mm × 18 kg."
+      }
+    ]
+  },
+  "/soldadoras/guantes/": {
+    "file": "05-guantes-para-soldar.md",
+    "models": [
+      "GUANTES"
+    ],
+    "offers": [
+      {
+        "model": "GUANTES",
+        "url": "https://meli.la/2HuWpap",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "GUANTES"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Consultá talle y protección del guante"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/tig/": {
+    "file": "06-soldadora-tig.md",
+    "models": [
+      "PROTIG180",
+      "SMARTTIG",
+      "ESABET200"
+    ],
+    "offers": [
+      {
+        "model": "PROTIG180",
+        "url": "https://meli.la/2J6hGMz",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SMARTTIG",
+        "url": "https://meli.la/2vsBinj",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABET200",
+        "url": "https://meli.la/1vSNzRV",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "PROTIG180",
+          "SMARTTIG",
+          "ESABET200"
+        ],
+        "anchor": "Modelos documentados",
+        "position": "table",
+        "title": "Compará TIG DC y TIG AC/DC"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/mig-sin-gas/": {
+    "file": "07-soldadora-mig-sin-gas.md",
+    "models": [
+      "SML120",
+      "SML150",
+      "ESABMIG160"
+    ],
+    "offers": [
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SML150",
+        "url": "https://meli.la/1UGCFFq",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABMIG160",
+        "url": "https://meli.la/2V4LNfM",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SML120",
+          "SML150",
+          "ESABMIG160"
+        ],
+        "anchor": "Comparativa de equipos y kits",
+        "position": "table",
+        "title": "Opciones para alambre tubular: confirmá montaje"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/alambre-para-soldadura-mig/": {
+    "file": "08-alambre-para-soldadura-mig.md",
+    "models": [
+      "BREMEN8240",
+      "ESABWIRE18"
+    ],
+    "offers": [
+      {
+        "model": "BREMEN8240",
+        "url": "https://meli.la/1RwSNLU",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABWIRE18",
+        "url": "https://meli.la/1fzxaCM",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "BREMEN8240",
+          "ESABWIRE18"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Alambre MIG macizo: diámetros y bobinas distintos"
+      }
+    ],
+    "pending": [
+      {
+        "model": "ESABWIRE5",
+        "reason": "Falta referido ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg; el suministrado es 1,6 mm × 18 kg."
+      }
+    ]
+  },
+  "/soldadoras/mascaras-fotosensibles/": {
+    "file": "09-mascara-de-soldar-fotosensible.md",
+    "models": [
+      "ST1N",
+      "ST1E",
+      "ST1B"
+    ],
+    "offers": [
+      {
+        "model": "ST1N",
+        "url": "https://meli.la/1oPpFmw",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ST1E",
+        "url": "https://meli.la/1W1WXvh",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ST1B",
+        "url": "https://meli.la/1L34ttG",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ST1N",
+          "ST1E",
+          "ST1B"
+        ],
+        "anchor": "Modelos y qué comparar",
+        "position": "table",
+        "title": "Tres máscaras para decisiones distintas"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/electrodo-6013/": {
+    "file": "10-electrodo-6013.md",
+    "models": [
+      "6013-25",
+      "6013-325"
+    ],
+    "offers": [
+      {
+        "model": "6013-25",
+        "url": "https://meli.la/1Xxa67E",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "6013-325",
+        "url": "https://meli.la/1EF3Gcn",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "6013-25",
+          "6013-325"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Compará las presentaciones Conarco 13A"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/soldadora-inverter-200-amp/": {
+    "file": "11-soldadora-inverter-200-amp.md",
+    "models": [
+      "SLCEL200",
+      "DOG200"
+    ],
+    "offers": [
+      {
+        "model": "SLCEL200",
+        "url": "https://meli.la/26RyVcZ",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG200",
+        "url": "https://meli.la/2XwX5wy",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SLCEL200",
+          "DOG200"
+        ],
+        "anchor": "Modelos y qué comparar",
+        "position": "table",
+        "title": "Opciones de 200 A: revisá el ciclo de trabajo"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/electrodo-para-fundicion/": {
+    "file": "12-electrodo-para-fundicion.md",
+    "models": [
+      "NI100"
+    ],
+    "offers": [
+      {
+        "model": "NI100",
+        "url": "https://meli.la/1mXhaLW",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "NI100"
+        ],
+        "anchor": "Opciones de compra",
+        "position": "section",
+        "title": "Consultá la referencia de níquel para fundición"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/alambre-flux/": {
+    "file": "13-alambre-flux.md",
+    "models": [
+      "GASFREE5"
+    ],
+    "offers": [
+      {
+        "model": "GASFREE5",
+        "url": "https://meli.la/2x4GdMW",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "GASFREE5"
+        ],
+        "anchor": "Opciones de compra y bobinas",
+        "position": "section",
+        "title": "Oferta Flux recibida: verificá clasificación y bobina"
+      }
+    ],
+    "pending": [
+      {
+        "model": "BREMENFLUX",
+        "reason": "Falta referido Bremen E71T-GS 0,8 mm × 1 kg; el Bremen 8240 recibido es macizo."
+      },
+      {
+        "model": "ESABFLUX1",
+        "reason": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; el recibido dice 0,8 mm × 5 kg y no confirma AWS."
+      }
+    ]
+  },
+  "/soldadoras/soldadora-dogo-180/": {
+    "file": "14-soldadora-dogo-180.md",
+    "models": [
+      "DOG180",
+      "DOG160",
+      "DOG200"
+    ],
+    "offers": [
+      {
+        "model": "DOG180",
+        "url": "https://meli.la/2KQQEjE",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG160",
+        "url": "https://meli.la/1iiKCDU",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG200",
+        "url": "https://meli.la/2XwX5wy",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "DOG180"
+        ],
+        "anchor": "Ficha técnica y ciclo de trabajo",
+        "position": "section",
+        "title": "Consultá la Dogo 180 Moderna"
+      },
+      {
+        "models": [
+          "DOG160",
+          "DOG200"
+        ],
+        "anchor": "Comparación contextual con Dogo 160 y 200",
+        "position": "table",
+        "title": "Alternativas MMA de 160 y 200 A"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/esab/": {
+    "file": "15-soldadora-esab.md",
+    "models": [
+      "ESAB162",
+      "ESABMIG160",
+      "ESABET200"
+    ],
+    "offers": [
+      {
+        "model": "ESAB162",
+        "url": "https://meli.la/1bLo7UL",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABMIG160",
+        "url": "https://meli.la/2V4LNfM",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABET200",
+        "url": "https://meli.la/1vSNzRV",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESAB162"
+        ],
+        "anchor": "MMA",
+        "position": "section",
+        "title": "Oferta ESAB MMA"
+      },
+      {
+        "models": [
+          "ESABMIG160"
+        ],
+        "anchor": "MIG",
+        "position": "section",
+        "title": "Oferta ESAB MIG"
+      },
+      {
+        "models": [
+          "ESABET200"
+        ],
+        "anchor": "TIG",
+        "position": "section",
+        "title": "Oferta ESAB TIG AC/DC"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/electrodo-para-acero-inoxidable/": {
+    "file": "16-electrodo-para-acero-inoxidable.md",
+    "models": [],
+    "offers": [],
+    "placements": [],
+    "pending": []
+  },
+  "/soldadoras/para-aluminio/": {
+    "file": "17-soldadora-para-aluminio.md",
+    "models": [
+      "ESABET200",
+      "TIG350"
+    ],
+    "offers": [
+      {
+        "model": "ESABET200",
+        "url": "https://meli.la/1vSNzRV",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "TIG350",
+        "url": "https://meli.la/1dRAroP",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESABET200",
+          "TIG350"
+        ],
+        "anchor": "Referencias de equipo documentadas",
+        "position": "table",
+        "title": "Opciones TIG AC/DC: verificá la red disponible"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff-iron-250/": {
+    "file": "18-soldadora-lusqtoff-iron-250.md",
+    "models": [
+      "IRON250",
+      "DOG180",
+      "ESAB162"
+    ],
+    "offers": [
+      {
+        "model": "IRON250",
+        "url": "https://meli.la/26R9o7z",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG180",
+        "url": "https://meli.la/2KQQEjE",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESAB162",
+        "url": "https://meli.la/1bLo7UL",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "IRON250"
+        ],
+        "anchor": "Versión y especificaciones verificadas",
+        "position": "section",
+        "title": "Consultá el kit MEGAIRON250"
+      },
+      {
+        "models": [
+          "DOG180",
+          "ESAB162"
+        ],
+        "anchor": "Accesorios, alternativas y qué comparar",
+        "position": "table",
+        "title": "Alternativas MMA para comparar"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/soldadora-tig-ac-dc/": {
+    "file": "19-soldadora-tig-ac-dc.md",
+    "models": [
+      "ESABET200",
+      "SMARTTIG",
+      "TIG350"
+    ],
+    "offers": [
+      {
+        "model": "ESABET200",
+        "url": "https://meli.la/1vSNzRV",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SMARTTIG",
+        "url": "https://meli.la/2vsBinj",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "TIG350",
+        "url": "https://meli.la/1dRAroP",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESABET200",
+          "SMARTTIG",
+          "TIG350"
+        ],
+        "anchor": "Modelos y qué comparar",
+        "position": "table",
+        "title": "Opciones TIG AC/DC y alimentación eléctrica"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/soldadora-inverter-160-amp/": {
+    "file": "20-soldadora-inverter-160-amp.md",
+    "models": [
+      "ESAB162",
+      "DOG160",
+      "ESABMIG160"
+    ],
+    "offers": [
+      {
+        "model": "ESAB162",
+        "url": "https://meli.la/1bLo7UL",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG160",
+        "url": "https://meli.la/1iiKCDU",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABMIG160",
+        "url": "https://meli.la/2V4LNfM",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESAB162",
+          "DOG160",
+          "ESABMIG160"
+        ],
+        "anchor": "Modelos, kits y qué comparar",
+        "position": "table",
+        "title": "MMA de 160 A y una alternativa MIG de otro proceso"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff-iron-100/": {
+    "file": "21-soldadora-lusqtoff-iron-100.md",
+    "models": [
+      "IRON100",
+      "IRON250",
+      "ESAB162"
+    ],
+    "offers": [
+      {
+        "model": "IRON100",
+        "url": "https://meli.la/1p8rvV8",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "IRON250",
+        "url": "https://meli.la/26R9o7z",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESAB162",
+        "url": "https://meli.la/1bLo7UL",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "IRON100"
+        ],
+        "anchor": "Qué incluye MEGAIRON100-8",
+        "position": "section",
+        "title": "Consultá el paquete Iron 100"
+      },
+      {
+        "models": [
+          "IRON250",
+          "ESAB162"
+        ],
+        "anchor": "Comparación con Iron 250 y HandyArc 162i",
+        "position": "table",
+        "title": "Alternativas MMA para comparar"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/mig-lusqtoff/": {
+    "file": "22-soldadora-mig-lusqtoff.md",
+    "models": [
+      "SML120",
+      "SML150"
+    ],
+    "offers": [
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SML150",
+        "url": "https://meli.la/1UGCFFq",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SML120",
+          "SML150"
+        ],
+        "anchor": "Comparativa de la familia SML",
+        "position": "table",
+        "title": "Opciones actuales de la familia SML"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff-sml150-8/": {
+    "file": "23-soldadora-lusqtoff-sml150-8.md",
+    "models": [
+      "SML150",
+      "SML120"
+    ],
+    "offers": [
+      {
+        "model": "SML150",
+        "url": "https://meli.la/1UGCFFq",
+        "cta": "Ver precio de la alternativa actual"
+      },
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio de la alternativa actual"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SML150",
+          "SML120"
+        ],
+        "anchor": "Comparación de variantes documentadas",
+        "position": "table",
+        "title": "Alternativas actuales a la SML150-8 discontinuada"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff-sml120-8d/": {
+    "file": "24-soldadora-lusqtoff-sml120-8d.md",
+    "models": [
+      "SML120",
+      "SML150"
+    ],
+    "offers": [
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "SML150",
+        "url": "https://meli.la/1UGCFFq",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SML120",
+          "SML150"
+        ],
+        "anchor": "SML120-8D vs SML120-8DK",
+        "position": "table",
+        "title": "Consultá el kit 8DK y otra alternativa actual"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/carro-para-soldadora-mig/": {
+    "file": "25-carro-para-soldadora-mig.md",
+    "models": [],
+    "offers": [],
+    "placements": [],
+    "pending": []
+  },
+  "/soldadoras/esab-handyarc-162i/": {
+    "file": "26-esab-handyarc-162i.md",
+    "models": [
+      "ESAB162",
+      "DOG160",
+      "DOG180"
+    ],
+    "offers": [
+      {
+        "model": "ESAB162",
+        "url": "https://meli.la/1bLo7UL",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG160",
+        "url": "https://meli.la/1iiKCDU",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "DOG180",
+        "url": "https://meli.la/2KQQEjE",
+        "cta": "Ver precio y disponibilidad"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ESAB162"
+        ],
+        "anchor": "Cómo investigamos esta guía",
+        "position": "table",
+        "title": "Consultá HandyArc 162i: verificá código 0409616"
+      },
+      {
+        "models": [
+          "DOG160",
+          "DOG180"
+        ],
+        "anchor": "Proceso y funciones documentadas",
+        "position": "section",
+        "title": "Alternativas MMA Dogo: confirmá códigos"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/mascara-lusqtoff-st-1x/": {
+    "file": "27-mascara-lusqtoff-st-1x.md",
+    "models": [
+      "ST1B",
+      "ST1X"
+    ],
+    "offers": [
+      {
+        "model": "ST1B",
+        "url": "https://meli.la/1L34ttG",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ST1X",
+        "url": "https://meli.la/2uoDsq6",
+        "cta": "Ver disponibilidad y verificar lote"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "ST1B",
+          "ST1X"
+        ],
+        "anchor": "Identificar ST-1X y diferenciarla de ST-1B",
+        "position": "section",
+        "title": "ST-1B como alternativa; ST-1X por código y lote"
+      }
+    ],
+    "pending": []
+  },
+  "/soldadoras/lusqtoff-sml130-7/": {
+    "file": "28-soldadora-lusqtoff-sml130-7.md",
+    "models": [
+      "SML120",
+      "SML150"
+    ],
+    "offers": [
+      {
+        "model": "SML120",
+        "url": "https://meli.la/26xX924",
+        "cta": "Ver precio de la alternativa actual"
+      },
+      {
+        "model": "SML150",
+        "url": "https://meli.la/1UGCFFq",
+        "cta": "Ver precio de la alternativa actual"
+      }
+    ],
+    "placements": [
+      {
+        "models": [
+          "SML120",
+          "SML150"
+        ],
+        "anchor": "Cuándo conviene pasar a una alternativa actual",
+        "position": "section",
+        "title": "Alternativas actuales a la SML130-7"
+      }
+    ],
+    "pending": []
+  }
+}

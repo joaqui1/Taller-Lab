@@ -27,6 +27,11 @@ Para comparar otros tamaños y configuraciones, consultá la [guía general para
 
 La potencia por sí sola no decide la compra: también hay que revisar tensión, fase, tipo de regulación y cómo se va a conectar el equipo. Si querés alimentar circuitos de la casa, necesitás una transferencia instalada por un profesional; las medidas de seguridad aparecen antes de las referencias de modelos.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Cómo calcular la potencia
 
 Anotá solo los artefactos que querés usar durante un corte. De sus placas o manuales, copiá potencia o corriente de marcha, tensión, fase y dato de arranque. Si la carga informa amperios, calculá potencia aparente como **VA = voltios × amperios**. Si informa watts y factor de potencia (PF), estimá **VA = W ÷ PF**. Para una carga resistiva con PF 1, W y VA coinciden aproximadamente.
@@ -89,14 +94,24 @@ Para comparar modelos, consultá [generadores inverter](/generadores/inverter/) 
 
 Estos modelos sirven como **escalones de potencia documentados**, no como un ranking ni como garantía para una lista de aparatos. Compará la carga nominal calculada con la potencia nominal del generador y el pico con la capacidad máxima y el manual de arranque. Si las cargas superan esos valores o hay varios motores, pasá al escalón siguiente y verificá cada pico.
 
-| Escala de carga calculada | Referencia documentada | Salida publicada | Cómo usarla en la comparación |
-| :--- | :--- | :--- | :--- |
-| Cargas esenciales acotadas, como la cuenta ilustrativa de 0,6 kVA en marcha y hasta 1,05 kVA de pico | Honda EU22i, inverter | 1,8 kVA nominal / 2,2 kVA máxima; 220 V monofásica | La cuenta del ejemplo queda por debajo de las cifras publicadas. Confirmá tus cargas reales y el arranque en el manual. |
-| Cargas simultáneas mayores o escenario que se acerca al pico del EU22i | Honda EU30is, inverter | 2,8 kVA nominal / 3,0 kVA máxima; 220 V monofásica | Compará su salida nominal y máxima con tu suma; el mayor tamaño no confirma un arranque que el fabricante no documente. |
-| Varias cargas simultáneas, si su suma medida justifica este rango | Honda EG6500CXS, convencional con D-AVR | 5,0 kVA nominal / 5,5 kVA máxima; 220 V monofásica | Referencia de mayor escala. Dimensioná con 5,0 kVA nominales para marcha; revisá los picos con el manual y el instalador. |
-| Cargas que, tras convertir correctamente a unidades comparables, requieren más que el escalón anterior | Gamma GE3481AR / 6000V | 5,5 kW nominal / 6 kW máxima; 220 V monofásica | Gamma expresa estos datos en kW. Para compararlos con kVA, necesitás el factor de potencia de la carga; no equipares kW y kVA sin ese dato. |
+| Escala de carga calculada | Referencia documentada | Salida publicada | Cómo usarla en la comparación | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| Cargas esenciales acotadas, como la cuenta ilustrativa de 0,6 kVA en marcha y hasta 1,05 kVA de pico | Honda EU22i, inverter | 1,8 kVA nominal / 2,2 kVA máxima; 220 V monofásica | La cuenta del ejemplo queda por debajo de las cifras publicadas. Confirmá tus cargas reales y el arranque en el manual. | [Ver precio →](https://meli.la/2AwxqaH) |
+| Cargas simultáneas mayores o escenario que se acerca al pico del EU22i | Honda EU30is, inverter | 2,8 kVA nominal / 3,0 kVA máxima; 220 V monofásica | Compará su salida nominal y máxima con tu suma; el mayor tamaño no confirma un arranque que el fabricante no documente. | [Ver precio →](https://meli.la/2X86187) |
+| Varias cargas simultáneas, si su suma medida justifica este rango | Honda EG6500CXS, convencional con D-AVR | 5,0 kVA nominal / 5,5 kVA máxima; 220 V monofásica | Referencia de mayor escala. Dimensioná con 5,0 kVA nominales para marcha; revisá los picos con el manual y el instalador. | [Ver precio →](https://meli.la/1sxNfJ5) |
+| Cargas que, tras convertir correctamente a unidades comparables, requieren más que el escalón anterior | Gamma GE3481AR / 6000V | 5,5 kW nominal / 6 kW máxima; 220 V monofásica | Gamma expresa estos datos en kW. Para compararlos con kVA, necesitás el factor de potencia de la carga; no equipares kW y kVA sin ese dato. | [Ver precio →](https://meli.la/15vKtBp) |
 
 El escenario con aire de 1,7 kVA de marcha y 1,85–2,15 kVA de pico estimado queda cerca del máximo publicado del EU22i. Además falta el dato de arranque del aire acondicionado. Para esa combinación, no decidas por la cifra máxima aislada: confirmá el arranque con el fabricante y cotejá una opción con más capacidad nominal si buscás margen para nuevas cargas.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Gamma 3000V / GE3480AR
+
+La [ficha y manual Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/) documentan 2,7 kW nominales y 3 kW máximos, salida de 220 V, nafta y tanque de 15 L. Confirmá los picos de las cargas y la batería de arranque, que no está incluida.
+
+[Ver precio del Gamma 3000V](https://meli.la/31SZbvv)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Fuentes consultadas
 

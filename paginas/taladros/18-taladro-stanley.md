@@ -23,6 +23,10 @@ Para uso cerca de un tomacorriente y sin límite de batería, Stanley ofrece per
 
 Para comparar esta plataforma con otras marcas, consultá la guía general de [taladros inalámbricos](/taladros/inalambricos/).
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos con cable e inalámbricos
 
 | Modelo | Alimentación y función | Prestaciones publicadas | Configuración / uso a considerar |
@@ -33,6 +37,12 @@ Para comparar esta plataforma con otras marcas, consultá la guía general de [t
 | SBD715C2K-AR | V20 inalámbrico brushless; taladro percutor | 18 V nominales (20 V MAX); 60 Nm; 0–600/0–1.900 rpm; mandril hasta 13 mm; capacidad en acero/madera/mampostería: 13/30/13 mm; peso 1,2 kg sin batería | La ficha Argentina lo lista como kit con 2 baterías y maleta. La ficha del kit debe confirmar cargador y contenido exactos. |
 
 Las potencias en watts de los modelos con cable y los torques en Nm de los inalámbricos miden aspectos distintos; no sirven para ordenar los cuatro modelos en una escala común. Las capacidades máximas también dependen de la broca, el material, el modo y el tiempo de trabajo. Los datos de SDH600/700 proceden de manuales específicos; el número de catálogo completo y la tensión deben coincidir con el equipo ofrecido.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Stanley: percusión con cable o V20</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Stanley SDH700</h3><p class="offer-description">Taladro percutor con cable. Confirmá variante AR, placa de 220 V/50 Hz y accesorios incluidos.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1b2mqhW" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Stanley SDH700 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Stanley SBD715C2K</h3><p class="offer-description">Taladro percutor inalámbrico V20. Confirmá sufijo AR, dos baterías, cargador, maleta y el accesorio anunciado.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2B5Nkky" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Stanley SBD715C2K ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Cuándo elegir percusión
 

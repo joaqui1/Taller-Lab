@@ -23,6 +23,11 @@ published: true
 
 Einhell Argentina ofrece equipos **con cable** para trabajar conectados a 220–240 V y modelos **a batería** para ganar movilidad. La decisión depende del caudal, el tiempo de trabajo, la fuente de agua y si ya tenés baterías compatibles. En HYPRESSO también cambia el tipo de herramienta y kit; la comparación detallada aparece en una sola tabla más abajo.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Selector por uso
 
 | Si priorizás… | Mirá primero… | Por qué |
@@ -33,6 +38,12 @@ Einhell Argentina ofrece equipos **con cable** para trabajar conectados a 220–
 | Movilidad sin enchufe para enjuagar, regar o limpiar de forma localizada | **HYPRESSO 18/24 Li o 36/105** | Compará autonomía, presión, fuente de agua y contenido de batería/cargador en la tabla HYPRESSO. |
 
 Las descripciones de “uso diario”, “limpieza rápida” o “suciedad intensa” son las aplicaciones publicadas por Einhell, no un ciclo profesional garantizado. Si el uso será prolongado, comprobá en el manual del artículo el régimen de trabajo y las pausas admitidas.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Einhell con cable: TC-HP y TE-HP
 
@@ -88,7 +99,7 @@ Precios revisados el **29/09/2026**. El PVP sugerido no confirma stock; cuando l
 
 El artículo 4140130 corresponde a una HYPRESSO 18/24 previa y no debe confundirse con 4140135: compará el número de artículo y los accesorios enumerados. En la 4140135 y 4140160, Einhell confirma expresamente que el equipo viene sin batería ni cargador.
 
-## Fuentes y alcance
+## Fuentes consultadas
 
 - Einhell Argentina: [gama de hidrolavadoras](https://www.einhell.com.ar/c/hidrolavadoras/), [TC-HP 90](https://www.einhell.com.ar/p/4140740-tc-hp-90/), [HYPRESSO 18/24 Li, art. 4140130](https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/), [HYPRESSO 18/24-1, art. 4140135](https://www.einhell.com.ar/p/4140135-hypresso-18-24-1/), [HYPRESSO 36/105, art. 4140160](https://www.einhell.com.ar/p/4140160-hypresso-36-105/).
 - Catálogo oficial alojado en Einhell Argentina: [datos de TC-HP 130 y TE-HP 140/170](https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf).

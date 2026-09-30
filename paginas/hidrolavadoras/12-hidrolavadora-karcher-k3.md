@@ -23,6 +23,11 @@ published: true
 
 La **K3 Black Edition (93983550)** ocupa el escalón intermedio si la K2 Basic te queda corta por frecuencia o caudal, pero todavía no necesitás el mayor caudal, alcance de manguera y motor refrigerado por agua de la K4 Power Control. Kärcher Argentina la orienta a limpieza doméstica más frecuente, no a uso comercial continuo. Si la elegís para el auto, confirmá que el kit del SKU incluya los accesorios que querés usar.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## K2, K3 y K4 argentinos: dónde cae la K3
 
 | Modelo y SKU local | Uso/frecuencia que publica Kärcher | Presión y caudal publicados | Manguera, peso y diferencia relevante |
@@ -35,6 +40,12 @@ Las fichas rotulan la presión de manera distinta: K2 y K3 dan una cifra de pres
 
 **Conclusión:** K3 es una opción doméstica intermedia: mejora caudal y kit respecto de K2, mientras K4 agrega más caudal, manguera de 8 m y motor refrigerado por agua. Las fichas no publican ciclo continuo de K3; para trabajo pago, verificá régimen y garantía antes de usarla.
 
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
+
 ## K3 Black Edition local: kit y versiones
 
 La referencia argentina actual que encontré es **K3 Black Edition, SKU 93983550**. Kärcher Argentina lista cepillo de lavado, boquilla de espuma de 0,3 L, pistola Quick Connect, Vario Power Jet, lanza pulverizadora de un chorro y adaptador para manguera de riego de 3/4”; también declara filtro de agua integrado. Confirmá el contenido del paquete al comprar: nombres como K3 Comfort, Home, Car o Full Control pueden corresponder a otros kits o mercados.
@@ -44,6 +55,12 @@ La ficha de producto argentina no indica el largo de la manguera de alta presió
 ## Precio y stock de la K3 Black Edition
 
 **Consulta del 29/09/2026:** Abastecedora del Sur publica la K3 Black **9.398-355.0** a **$324.400 con IVA** y ofrece compra directa/agregar al carrito; la ficha no informa cantidad de unidades, así que confirmá stock y que la caja corresponda al SKU local **93983550** antes de pagar. Es una referencia de tienda, no un precio sugerido por Kärcher.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+[Ver precio de Kärcher K3 Black Edition · 9.398-355.0](https://meli.la/1LYmDeG)
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Uso y mantenimiento básico
 

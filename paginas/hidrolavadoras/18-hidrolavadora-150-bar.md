@@ -23,6 +23,11 @@ published: true
 
 **Presión máxima** es el límite que admite el equipo; **presión de servicio** es la referencia de presión durante el trabajo. No son cifras intercambiables: un rótulo de “150 bar” no significa que la máquina mantenga esa presión al limpiar. En esta comparación, Gamma declara 100 bar de servicio y 150 máximos; Niwa informa 120 bar promedio y 150 máximos; Lüsqtoff separa 100 bar de trabajo de 150 permitidos.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Comparación: presión de trabajo, caudal y alimentación
 
 | Modelo | Presión de trabajo / presión de caudal promedio | Presión máxima admisible | Caudal | Alimentación y potencia | Uso documentado |
@@ -40,6 +45,12 @@ El **caudal** (litros por hora o minuto) indica cuánta agua mueve y ayuda a arr
 - **Niwa HDNW-700:** el distribuidor publica 120 bar promedio, 390 L/h nominales y 2200 W; confirmá accesorios, garantía y disponibilidad de servicio con el vendedor local. Para revisar la [gama de hidrolavadoras Niwa](/hidrolavadoras/niwa/) y sus otras prestaciones, compará el código exacto.
 
 Las fichas no documentan ensayos comparativos en condiciones iguales; esta tabla sirve para filtrar opciones, no para prometer cuál termina antes una tarea.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Precios y disponibilidad publicados (29/09/2026)
 

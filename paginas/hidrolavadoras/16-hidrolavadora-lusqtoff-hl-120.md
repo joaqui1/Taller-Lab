@@ -21,6 +21,9 @@ keywords: ["hidrolavadora lusqtoff hl 120", "lusqtoff hl 120 opiniones", "hidrol
 
 La **Lüsqtoff HL-120** es una hidrolavadora eléctrica compacta para uso doméstico; podés ubicarla dentro de la gama en la [comparativa de hidrolavadoras Lusqtoff](/hidrolavadoras/lusqtoff/). El fabricante recomienda bicicletas, motos, autos pequeños y tareas de hogar/jardín. Para decidir, tomá como referencia sus **70 bar de trabajo** y **5,5 l/min de caudal máximo de trabajo**; los **105 bar** son el límite máximo permitido, no una presión sostenida.
 
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Ficha contrastada: trabajo y máximos
 
 **Dato documentado en documentación primaria.** La [ficha oficial HL-120](https://www.lusqtoff.com.ar/ver-producto/HL-120) y el [manual del equipo](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf) permiten separar los valores de uso de los límites del equipo.
@@ -48,6 +51,12 @@ La ficha separa caudal máximo de trabajo (5,5 l/min) de tasa máxima de flujo (
 
 Para elegir un equipo según el tipo de vehículo, consultá también [hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/).
 
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
+
 ## Kit, manguera y accesorios
 
 El catálogo de Lüsqtoff 2020–2021 enumera para la HL-120 **una lanza y una manguera de alta presión**. El catálogo oficial de accesorios identifica la manguera compatible **RHL120BR35 de 3 m**, con conexión roscada a la máquina y acople rápido a la lanza. La ficha vigente no lista un depósito de detergente ni publica una lista completa del kit, así que confirmá el contenido de la caja de la unidad que vas a comprar.
@@ -73,6 +82,12 @@ Si todavía estás definiendo la compra doméstica entre distintas marcas y tipo
 
 **PVP oficial HL-120: $158.499 ARS, consultado el 28/09/2026** en la ficha argentina de Lüsqtoff. Es el precio de lista mostrado por la marca; el importe final puede variar por comercio, medio de pago, envío y promociones. No encontré un PVP vigente oficial para la HL-150 en la ficha consultada.
 
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+[Ver precio de Lüsqtoff HL-120](https://meli.la/1qPbvWX)
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
+
 ## Opiniones de compradores: muestra y patrones observados
 
 La página de producto de Mercado Libre para HL-120 muestra **4,7/5 sobre 4.936 calificaciones y 2.507 comentarios escritos**; aclara que incluye opiniones de otros países. En una lectura manual de **cinco comentarios visibles**, aparecen como puntos favorables el tamaño/guardado y el uso doméstico para auto o patio. Entre las salvedades, un comentario califica de corta la manguera de 3 m y otro cuenta que el chorro dañó un revestimiento de pared. Son ejemplos de cinco comentarios visibles, no una muestra aleatoria ni evidencia de vida útil; usá boquilla y distancia adecuadas para cada superficie.
@@ -83,7 +98,7 @@ El manual de HL-120 recomienda inspeccionar el filtro de entrada y la boquilla a
 
 Lüsqtoff informa que se pueden conseguir repuestos y accesorios en puntos de venta y servicios técnicos oficiales. Antes de comprar una manguera, lanza u otra pieza, confirmá compatibilidad por el modelo HL-120 y el código de repuesto.
 
-## Fuentes
+## Fuentes consultadas
 
 - **Lüsqtoff:** [ficha oficial HL-120](https://www.lusqtoff.com.ar/ver-producto/HL-120), [manual HL-120](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf), [catálogo 2020–2021](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf), [catálogo oficial 2023–2024](https://www.lusqtoff.com.ar/files/catalogo-lusqtoff-2023-2024.pdf), [catálogo oficial de accesorios 2024](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf), [posventa y repuestos](https://lusqtoff.com.ar/posventa).
 - [HL-150 eléctrica, catálogo oficial 2023–2024](https://www.lusqtoff.com.ar/files/catalogo-lusqtoff-2023-2024.pdf) y [ficha comercial argentina con presión nominal/máxima](https://www.lusqtoffbera.com.ar/productos/hidrolavadora-electrica-1500-w-90-bar-lusqtoff-hl-150/).

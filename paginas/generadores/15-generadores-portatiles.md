@@ -23,17 +23,22 @@ published: true
 
 Elegí por la carga real, el lugar de uso y la forma de traslado. Calculá la potencia de marcha y los picos de arranque de los aparatos; comparalos con la potencia **nominal**, no solamente con la máxima. Después cotejá autonomía, ruido bajo una condición de medición comparable, dimensiones y accesorios de transporte de la versión concreta.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Peso, tamaño y transporte
 
 Revisá el peso en seco y las dimensiones del equipo, y preguntá si la variante ofrecida incluye manija, ruedas o carro. Una foto del gabinete no confirma que esos elementos estén incluidos. El peso total para cargar también será mayor con combustible y accesorios.
 
-| Modelo | Potencia nominal / máxima publicada | Peso y dimensiones | Transporte documentado |
-| :--- | :--- | :--- | :--- |
-| Gamma GE3497AR | 2 / 2,2 kW | 17 kg; 440 × 290 × 440 mm | Gamma lo describe como fácil de transportar; la ficha no especifica ruedas o manija |
-| Honda EU22i | 1,8 / 2,2 kVA | 21 kg; 510 × 290 × 425 mm | Honda destaca su bajo peso y facilidad de transporte; verificar cómo se lleva en la unidad ofrecida |
-| Lüsqtoff LGI3.8-8 | 3,5 / 3,8 kW | 28 kg; dimensiones no localizadas en la ficha consultada | La ficha indica peso, pero no describe ruedas, carro o manija |
-| Honda EU30is | 2,8 / 3 kVA | 59 kg; 655 × 445 × 555 mm | No es formato tipo valija: planificá carga y descarga asistidas y confirmá si la versión incluye kit de traslado |
-| Honda EU70is | 5,5 / 7 kVA | 118 kg; 848 × 700 × 721 mm, largo extendido de 1.198 mm | Honda Argentina documenta ruedas integradas y manijas plegables; es transporte asistido, no para cargar a mano |
+| Modelo | Potencia nominal / máxima publicada | Peso y dimensiones | Transporte documentado | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| Gamma GE3497AR | 2 / 2,2 kW | 17 kg; 440 × 290 × 440 mm | Gamma lo describe como fácil de transportar; la ficha no especifica ruedas o manija | [Ver precio →](https://meli.la/1B4sjDN) |
+| Honda EU22i | 1,8 / 2,2 kVA | 21 kg; 510 × 290 × 425 mm | Honda destaca su bajo peso y facilidad de transporte; verificar cómo se lleva en la unidad ofrecida | [Ver precio →](https://meli.la/2AwxqaH) |
+| Lüsqtoff LGI3.8-8 | 3,5 / 3,8 kW | 28 kg; dimensiones no localizadas en la ficha consultada | La ficha indica peso, pero no describe ruedas, carro o manija | — |
+| Honda EU30is | 2,8 / 3 kVA | 59 kg; 655 × 445 × 555 mm | No es formato tipo valija: planificá carga y descarga asistidas y confirmá si la versión incluye kit de traslado | [Ver precio →](https://meli.la/2X86187) |
+| Honda EU70is | 5,5 / 7 kVA | 118 kg; 848 × 700 × 721 mm, largo extendido de 1.198 mm | Honda Argentina documenta ruedas integradas y manijas plegables; es transporte asistido, no para cargar a mano | — |
 
 Los pesos y dimensiones corresponden a lo publicado por cada fuente; no necesariamente incluyen combustible, embalaje o accesorios. Como criterio práctico, pensá en **tipo valija** solo si el peso y los puntos de agarre permiten llevarlo de forma segura. En los escalones de 59 kg y 118 kg, resolvé antes el traslado desde el vehículo hasta el lugar de uso.
 
@@ -48,6 +53,22 @@ La autonomía publicada depende de la carga y del modo de funcionamiento. No con
 | Lüsqtoff LGI3.8-8 | 3,5 kW nominales / 3,8 kW máxima | No publicada en la ficha consultada | No estimar con tanque de 8 L sin una curva o consumo bajo carga |
 | Honda EU30is | 2,8 kVA nominales / 3 kVA máxima | 20 h en Eco Throttle; la ficha también lista 7,1 h bajo otra condición | Los dos valores no especifican una carga comparable con Gamma |
 | Honda EU70is | 5,5 kVA nominales / 7 kVA máxima | La ficha lista 12,2 h y 6,5 h; no identifica con claridad en esa tabla las cargas correspondientes | Usar como referencia de ficha y pedir condición de autonomía para el trabajo previsto |
+
+<!-- GENERADORES-EXTRAS -->
+
+### Konan KGE/800: opción de baja potencia
+
+La [guía de generadores chicos](/generadores/chicos/) documenta 650 W nominales y 800 W máximos según Konan, motor 2T y tanque de 4 L. Confirmá peso y dimensiones de la unidad ofrecida, porque los vendedores publican cifras diferentes.
+
+[Ver precio del Konan KGE/800](https://meli.la/19gLhpz)
+
+### Alternativa nueva de baja potencia: Lüsqtoff LG950P
+
+La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LG950P) publica 0,65 kVA nominales y 0,8 kVA máximos; motor 2T, tanque de 4 L y peso de 16,2 kg. Usá la mezcla indicada en su propio manual. Es otro modelo, con especificaciones propias.
+
+[Ver precio del Lüsqtoff LG950P](https://meli.la/2oCYsWY)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Tipo de generador portátil según el uso
 

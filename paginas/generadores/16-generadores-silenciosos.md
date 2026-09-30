@@ -23,6 +23,11 @@ Si necesitás bajar el ruido, compará el dato acústico con la potencia, el pes
 
 También separá dos características que pueden aparecer juntas: **inverter** describe cómo se regula la salida eléctrica; **insonorizado** describe una solución acústica del gabinete y otros componentes. Una no implica automáticamente la otra.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Cómo comparar los decibeles declarados
 
 Leé cada medición en este orden: unidad (dB o dB(A)), distancia al equipo, carga de ensayo y si el valor representa presión sonora o potencia sonora. Para comparar dos modelos, buscá que esas condiciones coincidan. Los decibeles usan una escala logarítmica, así que una diferencia numérica no equivale al mismo porcentaje de ruido.
@@ -40,11 +45,11 @@ Una comparación útil dentro de una misma familia es la de Gamma GE3497AR y el 
 
 El ruido cambia con la carga; por eso conviene pedir un dato a la carga que vas a usar. La medición Gamma muestra el cambio entre mitad de carga y plena carga en la misma posición. Honda aporta un punto a plena carga, que ayuda a caracterizar el EU22i pero no completa una curva.
 
-| Referencia | Condición acústica publicada | Datos de uso que ayudan a dimensionar |
-| :--- | :--- | :--- |
-| Gamma GE3497AR | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 2 kW nominales, 2,2 kW pico, 17 kg; autonomía 4,5 h al 50 % y 3 h a potencia nominal |
-| Gamma GE3470AR, histórico/discontinuado | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 1,8 kW nominales, 2 kW pico, 24,5 kg; autonomía 6 h al 50 % y 3,5 h a potencia nominal |
-| Honda EU22i | 57 dB(A) a 7 m y plena carga | 1,8 kVA nominales, 2,2 kVA máximos, 21 kg; la ficha anuncia 8,1 h en Eco Throttle sin carga asociada a esa autonomía |
+| Referencia | Condición acústica publicada | Datos de uso que ayudan a dimensionar | Oferta |
+| :--- | :--- | :--- | :--- |
+| Gamma GE3497AR | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 2 kW nominales, 2,2 kW pico, 17 kg; autonomía 4,5 h al 50 % y 3 h a potencia nominal | [Ver precio →](https://meli.la/1B4sjDN) |
+| Gamma GE3470AR, histórico/discontinuado | 63 dB al 50 % y 69 dB al 100 %, ambos a 7 m | 1,8 kW nominales, 2 kW pico, 24,5 kg; autonomía 6 h al 50 % y 3,5 h a potencia nominal | — |
+| Honda EU22i | 57 dB(A) a 7 m y plena carga | 1,8 kVA nominales, 2,2 kVA máximos, 21 kg; la ficha anuncia 8,1 h en Eco Throttle sin carga asociada a esa autonomía | [Ver precio →](https://meli.la/2AwxqaH) |
 
 Las dos filas Gamma permiten comparar ruido a idénticos puntos declarados. Según esos datos, el GE3497AR pesa 7,5 kg menos y ofrece más potencia nominal; el manual del GE3470AR declara más autonomía bajo cargas identificadas. Confirmá el estado del modelo antes de comprar: GE3470AR está discontinuado.
 
@@ -57,6 +62,16 @@ Honda publica para el EU22i **57 dB(A) a 7 m y plena carga**, además de 1,8 kVA
 **Viaje o motorhome.** Además de ruido y potencia, medí el espacio de guardado y revisá el acceso para sacar el equipo. La autonomía publicada debe corresponder a una carga comparable con heladera, bomba, cargadores o aire acondicionado; las horas en Eco Throttle no son una promesa para esa combinación. Para equipos de mayor potencia, el peso crece y puede exigir ruedas o ayuda para cargar.
 
 **Trabajo y herramientas.** Priorizá potencia nominal, arranque de motores, horas de uso, protección frente al entorno y transporte entre frentes. Una sierra, bomba o compresor puede tener un pico que no se deduce de su consumo de marcha. Si el ruido se puede manejar por ubicación y horario, compará también un generador convencional con especificaciones completas; no pagues por una característica acústica si no mejora el uso concreto.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Lüsqtoff LGI5.5-8: inverter de mayor salida
+
+La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) publica 5,2 kVA máximos, tanque de 10 L y 30 kg; no encontramos potencia nominal en esa ficha. Publica 62 dB sin distancia ni carga: esa cifra no permite compararlo directamente con las mediciones Honda/Gamma.
+
+[Ver precio del Lüsqtoff LGI5.5-8](https://meli.la/1pJFrBq)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Alternativa sin motor: estación de energía portátil
 

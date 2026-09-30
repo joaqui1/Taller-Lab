@@ -52,12 +52,24 @@ La página oficial de MEGAIRON100-8 lista una soldadora MEGAIRON100-8, una másc
 - **Garantía:** solicitá vigencia, plazo, cobertura y servicio autorizado por escrito al vendedor/fabricante. Los seis meses del catálogo histórico IRON-100 no prueban la garantía vigente del kit MEGAIRON100-8.
 - **Kit:** revisá cada accesorio y sus cables en la lista de la unidad entregada, no por una imagen o un título genérico.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá el paquete Iron 100</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff Mega Iron 100 + máscara</h3><p class="offer-description">MMA: confirmá MEGAIRON100-8 en placa y qué máscara incluye el paquete.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1p8rvV8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Comparación con Iron 250 y HandyArc 162i
 
 | Alternativa | Datos publicados relevantes | Cuándo tiene sentido compararla |
 | :--- | :--- | :--- |
 | [Iron 250](/lusqtoff-iron-250/) | 20–180 A; 180 A/40 % y 114 A/100 %; entrada 220 V; 30 A/6,5 kW nominales. | Si el consumible y el trabajo necesitan más salida que el máximo publicado de 105 A en MEGAIRON100-8, o si buscás un punto continuo explícito. Verificá que instalación, circuito y protección admitan los datos de entrada. “250” es parte del nombre del kit, no su salida publicada. |
 | [ESAB HandyArc 162i](/esab-handyarc-162i/) | MMA 20–160 A; 160 A/20 %, 92 A/60 % y 72 A/100 %; 220 V monofásica. | Si necesitás contrastar una fuente MMA portátil de mayor salida máxima. Sus puntos de ciclo no son los mismos que los de MEGAIRON100-8, por lo que no permiten afirmar cuál sostiene 105 A por más tiempo sin una ficha comparable a esa corriente. |
+
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Alternativas MMA para comparar</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff MEGAIRON250 + máscara + kit</h3><p class="offer-description">MMA: confirmá equipo IRON-250, ciclo de trabajo y accesorios; el nombre 250 no acredita 250 A de salida.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26R9o7z" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc 162i</h3><p class="offer-description">MMA: confirmá código 0409616 y accesorios. Los 160 A máximos son intermitentes según el ciclo documentado.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1bLo7UL" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
 
 Para comparar otra opción MMA de capacidad cercana, revisá la [inverter de 160 A](/soldadora-inverter-160-amp/) según el rango y ciclo que necesitás.
 

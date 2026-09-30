@@ -21,6 +21,11 @@ published: true
 
 Contrastamos ficha argentina y manual del código 0 601 6B3 0H0. La capacidad del manual se refiere al disco de 184 mm indicado.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## GKS 150 frente a alternativas similares
 
 La tabla reúne datos publicados para variantes regionales identificables. La falta de una cifra significa que no quedó confirmada en la documentación consultada; no equivale a cero ni permite inferir el rendimiento.
@@ -38,6 +43,18 @@ Estas cifras no forman un ranking de calidad: la capacidad de corte es solo una 
 La GKS 150 tiene sentido si la capacidad publicada de 64 mm a 90° alcanza para las piezas previstas y valorás la configuración documentada para el código argentino. Bosch indica que no es compatible con su carril guía; la variante local lista guía paralela, llave y disco de 24 dientes, aunque conviene confirmar el contenido del kit al comprar. Para cortes rectos largos, una regla externa bien sujeta puede ser una solución, pero no la convierte en un sistema de riel compatible.
 
 Si necesitás comparar otras fichas, consultá la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/) y la [Stanley SC16](/sierras/stanley-sc16/). Para cortes estacionarios repetitivos, una [sierra de banco](/sierras/de-banco/) puede encajar mejor según el tamaño de la pieza y el espacio disponible. No se midieron precisión, limpieza de canto ni duración de disco.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Bosch GKS 150 | Confirmá código 0 601 6B3 0H0 y contenido del kit. | [Ver precio →](https://meli.la/1Chp49C) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Fuentes consultadas
 

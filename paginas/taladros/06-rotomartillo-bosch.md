@@ -23,6 +23,10 @@ published: true
 
 La elección depende primero del diámetro y la frecuencia de perforación, y después de si necesitás cincelar o trabajar lejos de una toma. Los modelos SDS Plus cubren los agujeros pequeños y medianos habituales; para diámetros mayores y trabajo más exigente, Bosch ofrece SDS Max.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Comparativa de modelos por trabajo
 
 | Modelo | Alimentación y encastre | Datos publicados por Bosch | Uso típico compatible con los datos |
@@ -33,6 +37,12 @@ La elección depende primero del diámetro y la frecuencia de perforación, y de
 | GBH 8-45 DV | Cable, SDS Max | 1500 W; 12,5 J; rango óptimo 20–40 mm y máximo 45 mm en hormigón; 8,9 kg | Perforaciones grandes y repetitivas y cincelado de mayor exigencia que los modelos SDS Plus; Bosch lo describe para cincelado medio. |
 
 Los usos de la última columna orientan a partir de los límites publicados; no son resultados de una prueba comparativa. El diámetro máximo no significa que sea conveniente trabajar continuamente a ese diámetro. Para cincelado pesado y continuo o demolición, compará un martillo demoledor dedicado: Bosch describe el GBH 8-45 DV para cincelado medio.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Rotomartillos Bosch SDS Plus: cable o batería</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GBH 220</h3><p class="offer-description">Rotomartillo con cable y encastre SDS Plus. Confirmá 220 V, código completo y accesorios.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2cRLSJx" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GBH 220 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GBH 2-26 DRE</h3><p class="offer-description">Rotomartillo con cable y encastre SDS Plus. Confirmá variante DRE, tensión y contenido del maletín.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/16mozwd" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GBH 2-26 DRE ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GBH 180-LI</h3><p class="offer-description">Rotomartillo inalámbrico SDS Plus. Es otro modelo que el GBH 18V-26 D de la tabla: no hereda su energía, capacidad ni peso. Confirmá kit y ficha propia.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/29WzeN7" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GBH 180-LI ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## SDS Plus o SDS Max
 

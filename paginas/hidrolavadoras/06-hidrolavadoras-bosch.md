@@ -23,6 +23,11 @@ published: true
 
 Esta guía toma como base la gama que Bosch Professional Argentina publica: **GHP 180, GHP 200, GHP 220 y GHP 4-50**. Las referencias 0600910CH0, 0600910DH0, 0600910EH0 y 0600910FH0 identifican las variantes consultadas en el sitio local.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Cuál conviene para casa y auto
 
 - **Auto y limpieza ocasional de patio/muebles:** GHP 180. Es la entrada de esta selección por presión de trabajo y caudal nominal: 83 bar y 4 L/min. Incluye aplicador de detergente de 450 ml, boquilla variable y turbo giratoria; la manguera es de 5 m. Para más criterios de cuidado de pintura, consultá [hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/).
@@ -31,6 +36,12 @@ Esta guía toma como base la gama que Bosch Professional Argentina publica: **GH
 - **Uso exigente, limpieza dura y mayor alcance:** GHP 4-50. Tiene la mayor presión de trabajo publicada de estos cuatro (115,5 bar), manguera armada de acero de 9 m, bomba de cuatro pistones y motor de inducción. Es más equipo del necesario para un lavado ocasional de auto; elegilo si también necesitás limpiar zonas duras o equipos con mayor frecuencia.
 
 Todas requieren conexión eléctrica de 220 V según las fichas consultadas. La decisión para el auto no se basa en la presión máxima: importan presión de trabajo, caudal nominal, regulación del chorro y distancia a la superficie.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Comparación de la gama Bosch Argentina
 

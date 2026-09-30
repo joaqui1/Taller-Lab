@@ -21,6 +21,10 @@ published: true
 
 Las fichas oficiales de Einhell documentan tres alternativas SDS Plus para usos distintos: una de entrada con cable, una opción con más capacidad publicada y una a batería del sistema Power X-Change. La disponibilidad de estos códigos y kits puede variar por país; verificá el código completo, la tensión y el contenido de la caja antes de comprar.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias entre modelos
 
 | Nivel / modelo | Alimentación | Energía de impacto | Capacidad máxima en hormigón | Funciones y contenido publicado |
@@ -30,6 +34,12 @@ Las fichas oficiales de Einhell documentan tres alternativas SDS Plus para usos 
 | Power X-Change: TE-HD 18/20 Li Solo (4514260) | Batería 18 V | 1,8 J | 20 mm | Cuatro funciones, SDS Plus, tope de profundidad; se vende sin batería ni cargador. |
 
 El TC-RH 620 4F apunta a tareas domésticas de menor diámetro; el TE-RH 28 5F amplía el máximo publicado y añade dos velocidades y cinco funciones; el TE-HD 18/20 Li permite trabajar sin cable, con menor energía declarada y batería aparte. Los máximos de catálogo no son diámetros recomendados para uso continuo ni resultados de una prueba común.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Rotomartillos Einhell: comprobá la variante</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Einhell TC-RH 620 4F</h3><p class="offer-description">Rotomartillo con cable y encastre SDS Plus. Confirmá código 4257990, tensión y accesorios del paquete.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2fHsXDs" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TC-RH 620 4F ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Einhell TE-RH 28/1 5F</h3><p class="offer-description">El título recibido identifica 28/1; la tabla documenta TE-RH 28 5F (4257970). Confirmá código y manual propios: no trasladar modos o accesorios entre variantes.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1gnYgwd" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver publicación del TE-RH 28/1 5F ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Energía de impacto y modos
 

@@ -25,6 +25,11 @@ published: true
 
 El **GNW-28-E** es la opción compacta de esta selección: 2,5 kVA nominales para cargas esenciales moderadas. No equivale a un grupo para respaldar toda una vivienda con varios consumos exigentes.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Comparativa de la gama
 
 | Modelo | Potencia nominal / máxima | Tanque | Peso publicado | Arranque | Ruedas | Tomas / salidas CA |
@@ -47,6 +52,22 @@ Los tres son monofásicos, 220 V y 50 Hz, con AVR y alerta de aceite según las 
 | Peso bruto de ficha | 93 kg | 95 kg | El 70 declara 2 kg más en estas fichas |
 
 **En síntesis:** el 55-ER alcanza para una demanda simultánea calculada por debajo de 5 kVA con margen para los arranques. El 70-ER es la elección más cómoda si esa suma queda entre 5 y 6 kVA o si hay motores con picos que hacen justo al 55. Si tu demanda supera 6 kVA sostenidos, ninguno de estos dos es una solución dimensionada sin revisar cargas y simultaneidad.
+
+<!-- GENERADORES-EXTRAS -->
+
+### GNW-55-E: otra variante disponible
+
+La oferta suministrada identifica **GNW-55-E**, un código distinto del **GNW-55-ER** comparado arriba. No trasladamos al E la potencia, el arranque, el peso ni las ruedas del ER: pedí placa y ficha del código ofrecido antes de dimensionarlo.
+
+[Ver precio del Niwa GNW-55-E](https://meli.la/1JRpbcM)
+
+### Consultar el Niwa GNW-70-ER
+
+El 70-ER de la comparación publica 6 kVA nominales y 7 kVA máximos, arranque eléctrico, ruedas y tanque de 25 L. Contrastá la carga y sus picos antes de elegir ese margen sobre el 55-ER. [Ficha del importador](https://www.rumbosrl.com.ar/printficha.php?product_id=128).
+
+[Ver precio del Niwa GNW-70-ER](https://meli.la/18BCMV2)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Potencia y autonomía: escenarios de uso
 

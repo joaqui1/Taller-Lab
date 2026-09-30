@@ -21,6 +21,10 @@ published: true
 
 Elegí según el material y el diámetro de las brocas que vas a usar con más frecuencia. Después comprobá que la máquina tenga el rango de velocidades y el espacio de trabajo necesarios para acomodar la pieza, la mordaza y la broca sin interferencias.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Potencia, velocidades y capacidad del mandril
 
 La potencia ayuda a describir el motor, pero no determina por sí sola qué diámetro puede perforar ni durante cuánto tiempo. Compará la potencia nominal y el régimen declarado con la capacidad publicada para cada material.
@@ -34,6 +38,12 @@ El mandril indica el diámetro de vástago que sujeta, no el diámetro de agujer
 | Omaha AB550161K, datos del anuncio | 550 W; régimen no verificado | hasta 16 mm anunciado | No confirmado | Cinco velocidades anunciadas; rango de rpm no confirmado | No confirmado |
 
 Las fichas de Lüsqtoff describen los dos primeros modelos. Los datos Omaha provienen de un [anuncio comercial](https://www.mercadolibre.com.ar/taladro-agujereadora-de-banco-16mm-550w-34-hp-5-vel-morsa/p/MLA68679095), no de una ficha primaria contrastada. Antes de comprarlo, pedí el manual y confirmá código, velocidades, recorrido y régimen de trabajo.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Dos publicaciones de banco: confirmá modelo y potencia</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff TBL16-7</h3><p class="offer-description">Taladro de banco según el título recibido. TBL16-7 no confirma el TB-16 de las tablas: pedí placa/manual antes de atribuirle velocidades, recorrido o peso.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2ehG4uD" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver publicación del Lüsqtoff TBL16-7 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff TBL710-9D</h3><p class="offer-description">Taladro de banco: el título recibido dice 230 W, mientras la ficha citada publica 710 W nominales y 900 W S2/5 min. Confirmá placa y modelo antes de comparar.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1MCEYGV" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TBL710-9D ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Recorrido y distancia a la columna
 

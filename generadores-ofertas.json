@@ -1,0 +1,591 @@
+{
+  "/generadores/comparativa-general/": {
+    "file": "01-grupos-electrogenos.md",
+    "models": [
+      "EU22i",
+      "GE3480AR",
+      "GE3481AR",
+      "EG6500CXS",
+      "EZ6500CXS",
+      "ET12000",
+      "EZ3000CX"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3480AR",
+        "url": "https://meli.la/31SZbvv",
+        "cta": "Ver precio del Gamma 3000V"
+      },
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      },
+      {
+        "model": "EZ6500CXS",
+        "url": "https://meli.la/2Kt6i6Y",
+        "cta": "Ver precio del Honda EZ6500CXS"
+      },
+      {
+        "model": "ET12000",
+        "url": "https://meli.la/2WRqiZR",
+        "cta": "Ver precio del Honda ET12000"
+      },
+      {
+        "model": "EZ3000CX",
+        "url": "https://meli.la/2dryX8a",
+        "cta": "Ver precio del Honda EZ3000CX"
+      }
+    ]
+  },
+  "/generadores/precios/": {
+    "file": "02-precios-de-grupos-electrogenos.md",
+    "models": [
+      "GE3481AR",
+      "LG3000",
+      "LGI8.0-9",
+      "GE3482AR",
+      "EZ3000CX",
+      "DTGEAB08-4",
+      "CMC 3000 W"
+    ],
+    "offers": [
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "LG3000",
+        "url": "https://meli.la/2fhftj7",
+        "cta": "Ver precio del Lüsqtoff LG3000"
+      },
+      {
+        "model": "LGI8.0-9",
+        "url": "https://meli.la/2xPEW5s",
+        "cta": "Ver precio del Lüsqtoff LGI8.0-9"
+      },
+      {
+        "model": "GE3482AR",
+        "url": "https://meli.la/1Ha3UGR",
+        "cta": "Ver precio del Gamma 8500V"
+      },
+      {
+        "model": "EZ3000CX",
+        "url": "https://meli.la/2dryX8a",
+        "cta": "Ver precio del Honda EZ3000CX"
+      },
+      {
+        "model": "DTGEAB08-4",
+        "url": "https://meli.la/221u1rq",
+        "cta": "Ver precio del Dyllu DTGEAB08-4"
+      },
+      {
+        "model": "CMC 3000 W",
+        "url": "https://meli.la/2r7eRux",
+        "cta": "Ver precio del CMC 3000 W"
+      }
+    ]
+  },
+  "/generadores/honda/": {
+    "file": "03-grupos-electrogenos-honda.md",
+    "models": [
+      "EU22i",
+      "EU30is",
+      "EG6500CXS",
+      "EZ6500CXS",
+      "ET12000"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "EU30is",
+        "url": "https://meli.la/2X86187",
+        "cta": "Ver precio del Honda EU30is"
+      },
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      },
+      {
+        "model": "EZ6500CXS",
+        "url": "https://meli.la/2Kt6i6Y",
+        "cta": "Ver precio del Honda EZ6500CXS"
+      },
+      {
+        "model": "ET12000",
+        "url": "https://meli.la/2WRqiZR",
+        "cta": "Ver precio del Honda ET12000"
+      }
+    ]
+  },
+  "/generadores/honda-6500/": {
+    "file": "04-honda-6500.md",
+    "models": [
+      "EG6500CXS",
+      "EZ6500CXS"
+    ],
+    "offers": [
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      },
+      {
+        "model": "EZ6500CXS",
+        "url": "https://meli.la/2Kt6i6Y",
+        "cta": "Ver precio del Honda EZ6500CXS"
+      }
+    ]
+  },
+  "/generadores/para-casa/": {
+    "file": "05-generador-para-casa.md",
+    "models": [
+      "EU22i",
+      "GE3480AR",
+      "GE3481AR",
+      "EU30is",
+      "EG6500CXS"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3480AR",
+        "url": "https://meli.la/31SZbvv",
+        "cta": "Ver precio del Gamma 3000V"
+      },
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "EU30is",
+        "url": "https://meli.la/2X86187",
+        "cta": "Ver precio del Honda EU30is"
+      },
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      }
+    ]
+  },
+  "/generadores/inverter/": {
+    "file": "06-generadores-inverter.md",
+    "models": [
+      "EU22i",
+      "GE3497AR",
+      "EU30is",
+      "LGI5.5-8",
+      "DTGEAB08-4"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3497AR",
+        "url": "https://meli.la/1B4sjDN",
+        "cta": "Ver precio del Gamma Inverter 2 kW"
+      },
+      {
+        "model": "EU30is",
+        "url": "https://meli.la/2X86187",
+        "cta": "Ver precio del Honda EU30is"
+      },
+      {
+        "model": "LGI5.5-8",
+        "url": "https://meli.la/1pJFrBq",
+        "cta": "Ver precio del Lüsqtoff LGI5.5-8"
+      },
+      {
+        "model": "DTGEAB08-4",
+        "url": "https://meli.la/221u1rq",
+        "cta": "Ver precio del Dyllu DTGEAB08-4"
+      }
+    ]
+  },
+  "/generadores/trifasicos/": {
+    "file": "07-generadores-trifasicos.md",
+    "models": [
+      "LG7500EXT",
+      "ET12000"
+    ],
+    "offers": [
+      {
+        "model": "LG7500EXT",
+        "url": "https://meli.la/1k8qxpL",
+        "cta": "Ver precio del Lüsqtoff LG7500EXT"
+      },
+      {
+        "model": "ET12000",
+        "url": "https://meli.la/2WRqiZR",
+        "cta": "Ver precio del Honda ET12000"
+      }
+    ]
+  },
+  "/generadores/a-nafta/": {
+    "file": "08-generadores-a-nafta.md",
+    "models": [
+      "EU22i",
+      "GE3497AR",
+      "GE3480AR",
+      "GE3481AR",
+      "EG6500CXS",
+      "EZ6500CXS",
+      "LG3000",
+      "GE3482AR"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3497AR",
+        "url": "https://meli.la/1B4sjDN",
+        "cta": "Ver precio del Gamma Inverter 2 kW"
+      },
+      {
+        "model": "GE3480AR",
+        "url": "https://meli.la/31SZbvv",
+        "cta": "Ver precio del Gamma 3000V"
+      },
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      },
+      {
+        "model": "EZ6500CXS",
+        "url": "https://meli.la/2Kt6i6Y",
+        "cta": "Ver precio del Honda EZ6500CXS"
+      },
+      {
+        "model": "LG3000",
+        "url": "https://meli.la/2fhftj7",
+        "cta": "Ver precio del Lüsqtoff LG3000"
+      },
+      {
+        "model": "GE3482AR",
+        "url": "https://meli.la/1Ha3UGR",
+        "cta": "Ver precio del Gamma 8500V"
+      }
+    ]
+  },
+  "/generadores/hyundai/": {
+    "file": "09-generadores-hyundai.md",
+    "models": [
+      "HY7500LE"
+    ],
+    "offers": [
+      {
+        "model": "HY7500LE",
+        "url": "https://meli.la/1oUjAJk",
+        "cta": "Ver precio del Hyundai HY7500LE"
+      }
+    ]
+  },
+  "/generadores/gamma-6500/": {
+    "file": "10-gamma-6500.md",
+    "models": [
+      "GE3481AR"
+    ],
+    "offers": [
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      }
+    ]
+  },
+  "/generadores/lusqtoff/": {
+    "file": "11-generadores-lusqtoff.md",
+    "models": [
+      "LGIS3.8-8",
+      "LG950P",
+      "LGI5.5-8",
+      "LG7500EXT",
+      "LG3000"
+    ],
+    "offers": [
+      {
+        "model": "LGIS3.8-8",
+        "url": "https://meli.la/2TcYRTK",
+        "cta": "Ver precio del Lüsqtoff LGIS3.8-8"
+      },
+      {
+        "model": "LG950P",
+        "url": "https://meli.la/2oCYsWY",
+        "cta": "Ver precio del Lüsqtoff LG950P"
+      },
+      {
+        "model": "LGI5.5-8",
+        "url": "https://meli.la/1pJFrBq",
+        "cta": "Ver precio del Lüsqtoff LGI5.5-8"
+      },
+      {
+        "model": "LG7500EXT",
+        "url": "https://meli.la/1k8qxpL",
+        "cta": "Ver precio del Lüsqtoff LG7500EXT"
+      },
+      {
+        "model": "LG3000",
+        "url": "https://meli.la/2fhftj7",
+        "cta": "Ver precio del Lüsqtoff LG3000"
+      }
+    ]
+  },
+  "/generadores/gamma/": {
+    "file": "12-generadores-gamma.md",
+    "models": [
+      "GE3497AR",
+      "GE3480AR",
+      "GE3481AR",
+      "GE3491AR",
+      "GE3482AR"
+    ],
+    "offers": [
+      {
+        "model": "GE3497AR",
+        "url": "https://meli.la/1B4sjDN",
+        "cta": "Ver precio del Gamma Inverter 2 kW"
+      },
+      {
+        "model": "GE3480AR",
+        "url": "https://meli.la/31SZbvv",
+        "cta": "Ver precio del Gamma 3000V"
+      },
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "GE3491AR",
+        "url": "https://meli.la/2sRF5ic",
+        "cta": "Ver precio del Gamma TF10000"
+      },
+      {
+        "model": "GE3482AR",
+        "url": "https://meli.la/1Ha3UGR",
+        "cta": "Ver precio del Gamma 8500V"
+      }
+    ]
+  },
+  "/generadores/monofasicos/": {
+    "file": "13-grupos-electrogenos-monofasicos.md",
+    "models": [
+      "EU22i",
+      "GE3480AR",
+      "GE3481AR",
+      "EU30is",
+      "EG6500CXS"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3480AR",
+        "url": "https://meli.la/31SZbvv",
+        "cta": "Ver precio del Gamma 3000V"
+      },
+      {
+        "model": "GE3481AR",
+        "url": "https://meli.la/15vKtBp",
+        "cta": "Ver precio del Gamma 6000V"
+      },
+      {
+        "model": "EU30is",
+        "url": "https://meli.la/2X86187",
+        "cta": "Ver precio del Honda EU30is"
+      },
+      {
+        "model": "EG6500CXS",
+        "url": "https://meli.la/1sxNfJ5",
+        "cta": "Ver precio del Honda EG6500CXS"
+      }
+    ]
+  },
+  "/generadores/diesel/": {
+    "file": "14-generadores-diesel.md",
+    "models": [],
+    "offers": []
+  },
+  "/generadores/portatiles/": {
+    "file": "15-generadores-portatiles.md",
+    "models": [
+      "EU22i",
+      "GE3497AR",
+      "EU30is",
+      "KGE/800",
+      "LG950P"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3497AR",
+        "url": "https://meli.la/1B4sjDN",
+        "cta": "Ver precio del Gamma Inverter 2 kW"
+      },
+      {
+        "model": "EU30is",
+        "url": "https://meli.la/2X86187",
+        "cta": "Ver precio del Honda EU30is"
+      },
+      {
+        "model": "KGE/800",
+        "url": "https://meli.la/19gLhpz",
+        "cta": "Ver precio del Konan KGE/800"
+      },
+      {
+        "model": "LG950P",
+        "url": "https://meli.la/2oCYsWY",
+        "cta": "Ver precio del Lüsqtoff LG950P"
+      }
+    ]
+  },
+  "/generadores/silenciosos/": {
+    "file": "16-generadores-silenciosos.md",
+    "models": [
+      "EU22i",
+      "GE3497AR",
+      "LGI5.5-8"
+    ],
+    "offers": [
+      {
+        "model": "EU22i",
+        "url": "https://meli.la/2AwxqaH",
+        "cta": "Ver precio del Honda EU22i"
+      },
+      {
+        "model": "GE3497AR",
+        "url": "https://meli.la/1B4sjDN",
+        "cta": "Ver precio del Gamma Inverter 2 kW"
+      },
+      {
+        "model": "LGI5.5-8",
+        "url": "https://meli.la/1pJFrBq",
+        "cta": "Ver precio del Lüsqtoff LGI5.5-8"
+      }
+    ]
+  },
+  "/generadores/gamma-950/": {
+    "file": "17-gamma-950.md",
+    "models": [
+      "LG950P"
+    ],
+    "offers": [
+      {
+        "model": "LG950P",
+        "url": "https://meli.la/2oCYsWY",
+        "cta": "Ver precio del Lüsqtoff LG950P"
+      }
+    ]
+  },
+  "/generadores/niwa/": {
+    "file": "18-generadores-niwa.md",
+    "models": [
+      "GNW-55-E",
+      "GNW-70-ER"
+    ],
+    "offers": [
+      {
+        "model": "GNW-55-E",
+        "url": "https://meli.la/1JRpbcM",
+        "cta": "Ver precio del Niwa GNW-55-E"
+      },
+      {
+        "model": "GNW-70-ER",
+        "url": "https://meli.la/18BCMV2",
+        "cta": "Ver precio del Niwa GNW-70-ER"
+      }
+    ]
+  },
+  "/generadores/a-gas/": {
+    "file": "19-generadores-a-gas.md",
+    "models": [
+      "GE3491AR"
+    ],
+    "offers": [
+      {
+        "model": "GE3491AR",
+        "url": "https://meli.la/2sRF5ic",
+        "cta": "Ver precio del Gamma TF10000"
+      }
+    ]
+  },
+  "/generadores/estacion-de-energia-portatil/": {
+    "file": "20-estaciones-de-energia-portatiles.md",
+    "models": [
+      "DELTA 2 Max",
+      "AC70P"
+    ],
+    "offers": [
+      {
+        "model": "DELTA 2 Max",
+        "url": "https://meli.la/2N74aN6",
+        "cta": "Ver precio de EcoFlow DELTA 2 Max"
+      },
+      {
+        "model": "AC70P",
+        "url": "https://meli.la/1z4M5aB",
+        "cta": "Ver precio de BLUETTI AC70P"
+      }
+    ]
+  },
+  "/generadores/chicos/": {
+    "file": "21-grupos-electrogenos-chicos.md",
+    "models": [
+      "KGE/800",
+      "LG950P"
+    ],
+    "offers": [
+      {
+        "model": "KGE/800",
+        "url": "https://meli.la/19gLhpz",
+        "cta": "Ver precio del Konan KGE/800"
+      },
+      {
+        "model": "LG950P",
+        "url": "https://meli.la/2oCYsWY",
+        "cta": "Ver precio del Lüsqtoff LG950P"
+      }
+    ]
+  }
+}

@@ -33,6 +33,12 @@ Esta página compara la familia Lüsqtoff SML120/SML130/SML150 y sus variantes d
 | [SML130-7](/lusqtoff-sml130-7/) | FCAW con alambre tubular autoprotegido | Discontinuada | Publica puntos a 40 °C; ficha y manual difieren en algunos detalles de ciclo, diámetro y peso de bobina. |
 | [SML150-8 / 8D](/lusqtoff-sml150-8/) | 8: FLUX. 8D: FLUX y MMA | SML150-8 discontinuada; la ficha consultada de 8D no la marca así | La variante 8D agrega MMA; en la 8 existe una discrepancia publicada de unidad 70 V vs. 70 A. |
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Opciones actuales de la familia SML</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML120-8DK</h3><p class="offer-description">Flux / MMA: distinguí el kit 8DK del equipo 8D; confirmá máscara, bobina y accesorios entregados.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/26xX924" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff SML150-8D</h3><p class="offer-description">Flux / MMA: alternativa a la SML150-8 discontinuada. El título dice 20 A: cotejá rango y ciclo con placa/manual.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1UGCFFq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Cómo elegir entre las variantes
 
 - **Querés también MMA y Lift TIG:** la SML120-8D ofrece esos tres modos según la ficha. Compará sus rangos por proceso, la alimentación publicada y qué ciclo necesitas; la bobina de 0,45 kg está confirmada como contenido del kit 8DK, no como capacidad máxima de la máquina.

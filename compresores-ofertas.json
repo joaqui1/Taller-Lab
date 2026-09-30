@@ -20,11 +20,14 @@
         "model": "Lüsqtoff MCL150-8",
         "url": "https://meli.la/2r8uZXD",
         "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Gadnic AV000009",
+        "url": "https://meli.la/2MHTmab",
+        "cta": "Ver precio y disponibilidad"
       }
     ],
-    "pending": [
-      "Gadnic AV000009"
-    ]
+    "pending": []
   },
   "/compresores/50-litros/": {
     "number": 2,
@@ -260,11 +263,14 @@
         "model": "BTA CSA-24-1",
         "url": "https://meli.la/2kTMPof",
         "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "BTA CSA-50-2",
+        "url": "https://meli.la/1b6KCiM",
+        "cta": "Ver precio y disponibilidad"
       }
     ],
-    "pending": [
-      "BTA CSA-50-2"
-    ]
+    "pending": []
   },
   "/compresores/200-litros/": {
     "number": 16,
@@ -281,11 +287,14 @@
         "model": "Lüsqtoff LC-30200",
         "url": "https://meli.la/2vfnWE7",
         "cta": "Ver precio del LC-30200"
+      },
+      {
+        "model": "Lüsqtoff LC-40200",
+        "url": "https://meli.la/2sTx6pa",
+        "cta": "Ver precio del LC-40200"
       }
     ],
-    "pending": [
-      "Lüsqtoff LC-40200"
-    ]
+    "pending": []
   },
   "/compresores/bta-25-litros/": {
     "number": 17,
@@ -419,6 +428,11 @@
     ],
     "offers": [
       {
+        "model": "Gadnic AV000009",
+        "url": "https://meli.la/2MHTmab",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
         "model": "Makita DMP180Z",
         "url": "https://meli.la/2uRPKYD",
         "cta": "Ver precio y disponibilidad"
@@ -429,9 +443,7 @@
         "cta": "Ver precio y disponibilidad"
       }
     ],
-    "pending": [
-      "Gadnic AV000009"
-    ]
+    "pending": []
   },
   "/compresores/12v-doble-piston/": {
     "number": 23,
@@ -451,13 +463,16 @@
         "cta": "Ver precio y disponibilidad"
       },
       {
+        "model": "Gadnic AV000009",
+        "url": "https://meli.la/2MHTmab",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
         "model": "Gadnic AV37-TY",
         "url": "https://meli.la/2aSkmx1",
         "cta": "Ver precio y disponibilidad"
       }
     ],
-    "pending": [
-      "Gadnic AV000009"
-    ]
+    "pending": []
   }
 }

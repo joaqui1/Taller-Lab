@@ -78,6 +78,12 @@ No hay un precio total fiable que se pueda calcular solo desde estas fichas: no 
 | Manguera y conexiones | Verificar si el paquete incluye la manguera y conexiones; no figuran en la lista citada | Manguera y abrazaderas figuran incluidas; revisar compatibilidad de conexiones |
 | Costos de uso | Alambre, gas, puntas, liner/sirga y mantenimiento | Alambre, gas, puntas, liner/sirga y mantenimiento |
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Máquinas MIG con gas para comparar</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB HandyArc MIG 160i</h3><p class="offer-description">MIG/MAG y tubular, además de MMA: confirmá código 0410060, rodillo, bobina y polaridad. Es otro proceso que HandyArc 162i.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2V4LNfM" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Lüsqtoff MIGDUAL200-9</h3><p class="offer-description">MIG con gas / MMA: comprobá configuración, rodillos y kit. Los 38 A del título no identifican la corriente de salida.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/252cwEq" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 **Análisis TallerLab:** calculá **fuente + consumibles iniciales + suministro de gas + accesorios faltantes + puesta a punto de la red + reposición prevista**. Repetí la suma para los dos equipos con la misma mezcla y tamaño de cilindro, el mismo peso de carrete y los accesorios que efectivamente usarás. No usamos los precios que las páginas comerciales puedan mostrar porque cambian y no constituyen una cotización entregada al usuario.
 
 Si necesitás mover la fuente y el cilindro dentro del taller, contemplá también un [carro para soldadora MIG](/carro-para-soldadora-mig/) en el equipamiento completo.

@@ -27,6 +27,10 @@ Las fichas oficiales de Estados Unidos y Europa permiten comparar dos rotomartil
 
 Un taladro percutor DeWalt, como los DCD796 o DCD805, usa mandril convencional y puede cubrir perforaciones ocasionales en mampostería. Para hormigón frecuente, brocas SDS Plus o cincelado, la familia DCH ofrece el encastre y el mecanismo de rotomartillo. Compará [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) con esta guía SDS y revisá también [taladros inalámbricos DeWalt](/taladros/dewalt-inalambrico/) por uso y plataforma.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos según exigencia
 
 | Modelo | Alimentación y encastre | Energía / capacidad publicada | Modos y perfil documentado |
@@ -36,6 +40,12 @@ Un taladro percutor DeWalt, como los DCD796 o DCD805, usa mandril convencional y
 | D25333K-QS | Cable 230 V, SDS Plus | 950 W; 3,5 J; perforación indicada en hormigón de 4–30 mm | Taladrar, perforar con percusión y cincelar ligero; incluye tope de profundidad, empuñadura lateral y caja TSTAK según ficha regional. |
 
 El DCH273B prioriza movilidad y control de vibración declarado; el DCH133B publica más energía de impacto; el D25333K-QS suma alimentación continua y una capacidad máxima publicada mayor. El dato de 30 mm corresponde a la ficha europea QS y no debe trasladarse a otra variante regional D25333K sin verificar su manual. No concluimos que una cifra garantice mayor velocidad o vida útil: el resultado depende del diámetro, la broca, el material y el ritmo de trabajo.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá el rotomartillo DeWalt DCH273B</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCH273B</h3><p class="offer-description">Rotomartillo inalámbrico SDS Plus. La variante B es herramienta sola; sumá batería y cargador compatibles al costo.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1uYbzCV" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DeWalt DCH273B ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Encastre y energía de impacto
 

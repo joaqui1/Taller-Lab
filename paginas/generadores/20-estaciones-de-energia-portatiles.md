@@ -23,6 +23,11 @@ Una estación de energía guarda electricidad en una batería. Para elegirla, se
 
 Una batería de 1.024 Wh no entrega necesariamente 1.024 Wh útiles en CA: hay energía reservada, pérdidas del inversor y consumo propio. La autonomía requiere el consumo promedio real de la carga y los factores publicados o medidos para esa estación. La calculadora al comienzo de la página usa el ejemplo del manual AC70 y deja editables todos sus supuestos.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Diferencia entre watts y Wh
 
 - **W (watts):** potencia instantánea. Una salida CA nominal de 1.000 W no equivale a 1.000 Wh de energía, y una carga puede exceder ese límite al arrancar.
@@ -78,6 +83,22 @@ En Anker, los 2.400 W corresponden a la función SurgePad para cargas compatible
 | Punto a confirmar en Argentina | SKU 230 V, enchufe, garantía y cable solar incluido | SKU 230 V, tipo de toma y diferencia entre manual/sitio en potencia de entrada | SKU 230 V y garantía local; la fuente consultada es el manual regional UE |
 
 **EPS/UPS no significa conmutación sin corte:** las tres fichas declaran tiempos distintos de 20–30 ms. No conectes servidores, equipos médicos u otros aparatos que exijan 0 ms sin verificar la compatibilidad del aparato y el sistema de respaldo; para una instalación fija o transferencia a circuitos, consultá a un profesional.
+
+<!-- GENERADORES-EXTRAS -->
+
+### Opciones de mayor capacidad: EcoFlow DELTA 2 Max
+
+Es un modelo distinto del DELTA 2 de las tablas. [EcoFlow](https://www.ecoflow.com/us/delta-2-max-portable-power-station) publica **2.048 Wh** y **2.400 W de salida CA** para DELTA 2 Max. La fuente corresponde a la versión estadounidense: confirmá tensión, enchufes y manual de la unidad ofrecida para Argentina.
+
+[Ver precio de EcoFlow DELTA 2 Max](https://meli.la/2N74aN6)
+
+### BLUETTI AC70P: variante separada del AC70
+
+La **AC70P** tiene **864 Wh** y **1.000 W continuos** según [BLUETTI](https://shop.bluettipower.com/products/bluetti-ac70p?_pos=1&_sid=ed8d94c8e&_ss=r). No es la AC70 de 768 Wh de la tabla. Confirmá tensión y versión regional en la publicación antes de comprar.
+
+[Ver precio de BLUETTI AC70P](https://meli.la/1z4M5aB)
+
+<!-- /GENERADORES-EXTRAS -->
 
 ## Qué revisar antes de comprar
 

@@ -21,6 +21,10 @@ published: true
 
 Las fichas oficiales permiten comparar un taladro atornillador sin percusión, un percutor con kit documentado para Argentina y un percutor compacto de mayor configuración. Las dos referencias DCD794 y DCD805 provienen del catálogo estadounidense; el DCD796D2-AR aparece en el catálogo oficial argentino. Confirmá el código completo y el contenido del kit en cada publicación.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos para uso doméstico y profesional
 
 | Modelo | Función y motor | Mandril / velocidad publicada | Configuración documentada |
@@ -30,6 +34,12 @@ Las fichas oficiales permiten comparar un taladro atornillador sin percusión, u
 | DCD805D2 | Taladro percutor/atornillador brushless; 20 V MAX | 1/2 in (13 mm), metálico; 0–650 / 0–2.000 rpm | D2: kit estadounidense con 2 baterías de 2 Ah, cargador y bolso. |
 
 Para perforar y atornillar en madera, metal y plástico sin necesidad de percusión, el DCD794B cubre el perfil de taladro atornillador compacto. Si necesitás agujeros ocasionales en mampostería, los DCD796D2-AR y DCD805D2 incluyen modo percutor. El DCD796D2-AR da una referencia de kit listado por DeWalt Argentina; el DCD805D2 suma velocidad publicada de hasta 2.000 rpm y un kit documentado en EE. UU. No ordenamos estos modelos por rendimiento real: las fichas no ofrecen una prueba común.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>DeWalt: kit D2 o herramienta sola B</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCD796D2</h3><p class="offer-description">Taladro percutor/atornillador. Confirmá sufijo regional, capacidad de las dos baterías, cargador y contenido del kit D2.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1STm31d" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DeWalt DCD796D2 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCD805B · sin batería</h3><p class="offer-description">Taladro percutor inalámbrico, herramienta sola. La tabla describe un kit DCD805D2: sus dos baterías, cargador y bolso no se incluyen por el nombre DCD805B.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1R9rAch" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DCD805B sin batería ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Taladro/atornillador o atornillador de impacto DeWalt
 

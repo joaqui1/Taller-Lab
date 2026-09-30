@@ -21,6 +21,11 @@ published: true
 
 La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. Para elegir, empezá por las dimensiones de la pieza y los cortes que vas a repetir; la potencia por sí sola no define qué modelo te sirve.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué modelo Total elegir según ancho y ángulo
 
 ### Qué cambia realmente entre los dos modelos
@@ -35,6 +40,18 @@ La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. Para elegir,
 | Rango de inglete | 0–45° izquierda/derecha | 0–52° izquierda/derecha |
 | Bisel | 0–45° a izquierda | 0–45° a izquierda |
 | Accesorios que lista el catálogo | Disco TCT y bolsa para polvo | 2 barras de extensión, disco y bolsa para polvo |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| TOTAL TS42142107 | Confirmá código, tensión y capacidad al ángulo que necesitás. | [Ver precio →](https://meli.la/1ci9crb) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 La TS42182553 declara más capacidad y un rango de inglete mayor, pero también pesa 9,9 kg más y usa un disco y eje distintos. La TS42142107 declara más rpm sin carga; esa cifra y los watts no permiten, por sí solos, deducir cuál cortará más rápido o dejará mejor terminación en tu material. Elegí con las capacidades de corte, el espacio de trabajo, el peso y el consumible que necesitás.
 

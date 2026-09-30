@@ -21,6 +21,9 @@ published: true
 
 Comparamos BES603-B2 y BES602-B2 según las fichas y el manual de Black+Decker. Las versiones B2 son de 220 V; eso no confirma por sí solo que una publicación argentina entregue ese sufijo, la misma hoja o la misma garantía.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## BES603 y BES602: velocidad variable y variante
 
 | Dato documentado | BES603-B2 | BES602-B2 |
@@ -36,6 +39,18 @@ Comparamos BES603-B2 y BES602-B2 según las fichas y el manual de Black+Decker. 
 | Cambio de hoja | Sin llave | Sin llave |
 | Extracción de polvo | Puerto de aspirado; la ficha lo describe como extractor integrado | Puerto de aspirado; la ficha lo describe como extractor integrado |
 | Hoja y accesorios incluidos | La ficha no especifica el contenido de caja; confirmar en la oferta | La ficha indica que no incluye accesorios; confirmar si la publicación ofrece otro kit |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Black+Decker BES603 | Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida. | [Ver precio →](https://meli.la/2azLzTF) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## BES602 o BES603: cuándo aporta la velocidad variable
 

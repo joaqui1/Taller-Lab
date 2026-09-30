@@ -23,6 +23,11 @@ published: true
 
 Esta es la página central para elegir entre **K2, K3, K4 y K5 vendidos para Argentina**. La recomendación rápida está abajo; cada enlace abre la guía del escalón para ver variantes, mantenimiento y comparación detallada. Los SKU identifican configuraciones concretas: no todas las cajas “Car”, “Home” o “Power Control” traen lo mismo.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Selector rápido: cuál Kärcher elegir según el trabajo
 
 | Elegí… | Conviene si… | No pagues el salto si… | Qué cambia en la ficha argentina |
@@ -35,6 +40,12 @@ Esta es la página central para elegir entre **K2, K3, K4 y K5 vendidos para Arg
 Si la prioridad es el vehículo, usá la [guía de hidrolavadoras para lavar el auto](/hidrolavadoras/para-autos/) para elegir por frecuencia, manguera y accesorios.
 
 **Regla práctica, no ranking de laboratorio:** al subir de escalón importan el caudal, la continuidad/alcance de trabajo, el kit y la construcción declarada; el número de presión por sí solo no predice cuánto tardarás ni autoriza acercar la boquilla a pintura, juntas o materiales delicados. Para superficies sensibles, regulá presión/ángulo y probá primero en un sector poco visible.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Diferencias que justifican el salto
 
@@ -72,7 +83,7 @@ Las versiones y el stock cambian; la tienda oficial también lista otros kits K2
 
 Para equipos Kärcher Home & Garden, la marca informa **12 meses de garantía** en su [FAQ argentina](https://www.kaercher.com/ar/servicios/asistencia/faq.html); el uso comercial y las reparaciones no autorizadas pueden afectar su cobertura. Antes de comprar para trabajo, confirmá por escrito el uso permitido y las condiciones del vendedor. Localizá un [servicio técnico oficial](https://www.kaercher.com/ar/servicios/asistencia.html) y consultá disponibilidad de repuestos/accesorios con el SKU y número de serie: esta guía no encontró una lista pública comparable de stock de piezas para los cuatro modelos.
 
-## Fuentes y alcance
+## Fuentes consultadas
 
 - Prestaciones y accesorios: [K2 Basic Black](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html), [K3 Black Edition](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html), [K4 Power Control](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html) y [K5](https://www.kaercher.com/ar/home-garden/hidrolavadora/k-5-93982950.html), fichas de Kärcher Argentina; precios y disponibilidad: tienda oficial argentina enlazada en cada fila, observados el 28/09/2026.
 - Garantía/service: [FAQ y asistencia oficial argentina](https://www.kaercher.com/ar/servicios/asistencia.html).

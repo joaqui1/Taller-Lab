@@ -23,6 +23,11 @@ published: true
 
 Una hidrolavadora se elige por **horas reales de trabajo, caudal sostenido y condiciones de agua y electricidad**, no por la presión máxima del nombre. Antes de comparar marcas, anotá duración del ciclo más largo, cantidad de puestos simultáneos, suciedad, superficie y distancia entre máquina y trabajo.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Doméstica, profesional o industrial: qué cambia
 
 No hay un umbral universal de horas que separe estas categorías; manda el ciclo de trabajo que el fabricante garantiza para el código exacto y qué cubre la garantía.
@@ -88,6 +93,12 @@ Antes de cotizar, definí el ritmo del lavadero: **horas abierto**, horas efecti
 
 Pedí una cotización para la configuración completa: equipo y código exacto, instalación eléctrica e hidráulica, mangueras/accesorios, flete, puesta en marcha, garantía con uso comercial y repuestos críticos. Con vehículos/día y caudal de entrada en mano, el proveedor puede justificar si alcanza una bomba monofásica de agua fría o si se necesita más caudal, trifásica o caldera.
 
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
+
 ## Ejemplos de configuraciones disponibles en Argentina
 
 Estos pocos códigos muestran compromisos diferentes de alimentación, presión/caudal y temperatura; no son una recomendación de marca ni una lista de compra exhaustiva. Mirá primero los requisitos del lavadero y usá cada fila como ejemplo del tipo de dato que hay que confirmar.
@@ -114,7 +125,7 @@ Mandale al vendedor o servicio técnico una ficha breve con:
 
 Si no pueden responder el ciclo de trabajo, el caudal de entrada requerido o el soporte de la bomba, compará otra configuración antes de decidir. Una ficha completa permite elegir entre monofásica/trifásica, fría/caliente y diferentes caudales; no se resuelve ordenando sólo por bar.
 
-## Fuentes y alcance
+## Fuentes consultadas
 
 - [Catálogo local de hidrolavadoras Comet](https://www.gammaherramientas.com.ar/categoria-producto/hidrolavadoras-comet/) y fichas oficiales: [K 250 C2582AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-10-150-classic/), [K 250 TSR C2583AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/), [KP Pro C2585AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-kp-pro-classic-3-10-10-150-m/) y [KM Extra C2586AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/).
 - [Red de servicio técnico y empresa Gamma](https://www.gammaherramientas.com.ar/la-empresa/).

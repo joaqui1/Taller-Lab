@@ -31,6 +31,10 @@ Para elegir, pensá cuántos tornillos vas a colocar, si trabajás en un puesto 
 
 La GTB 650 publica además 12 Nm y 1,4 kg; la ficha de la GTB 18V-45 informa 6 Nm y 0,95 kg sin batería. DeWalt identifica la velocidad y el ajuste de profundidad en su manual. Son datos de fichas distintas: no permiten concluir cuál coloca tornillos más rápido ni cuál ofrece mejor acabado.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Tope de profundidad y velocidad
 
 El tope permite repetir la profundidad de asentamiento sin depender solo de cuánto apretás el gatillo. Ajustalo para que la cabeza del tornillo quede apenas por debajo de la superficie del cartón, sin romperlo; si queda salido, puede interferir con el acabado, y si atraviesa el papel, pierde agarre en la placa. Probá el ajuste en un retazo del mismo material y con el mismo tornillo antes de producir.
@@ -50,6 +54,12 @@ Si también necesitás perforar madera o metal y hacer atornillados variados, un
 El cable conviene en un área fija con toma accesible y jornadas largas: no requiere gestionar recargas, aunque limita el movimiento. La batería facilita subir escaleras y cambiar de ambiente; compará el peso real con batería, la autonomía para tu jornada y el costo de batería y cargador si no vienen incluidos.
 
 El alimentador usa tornillos unidos en tiras y presenta el siguiente tornillo al accesorio, de modo que no tenés que tomar y posicionar uno por uno. Puede agilizar paredes o cielorrasos con muchas fijaciones repetidas, pero suma costo, peso y volumen, y exige tiras compatibles. Bosch especifica GMA55 para tornillos de 25–55 mm; DeWalt indica que su DCF6202 se acopla al DCF620 y permite ajustar largo y profundidad. Para una obra chica, pocas placas o sectores estrechos con muchos encuentros, puede no compensar comprarlo: terminá el trabajo con alimentación manual y reservá ese gasto para trabajos repetidos.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Atornilladores específicos para placas</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GTB 650</h3><p class="offer-description">Atornillador con tope de profundidad para placas, con cable. Confirmá tensión, puntas y accesorios; no es un taladro ni un atornillador de impacto.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2DibsdV" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GTB 650 ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>DeWalt DCF620B</h3><p class="offer-description">Atornillador brushless para drywall con tope de profundidad. Herramienta sola: confirmá batería, cargador y alimentador que necesitás comprar aparte.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2Rfk4Q2" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del DeWalt DCF620B ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## Puntas y accesorios
 

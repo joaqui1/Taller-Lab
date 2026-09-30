@@ -21,6 +21,11 @@ published: true
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Respuesta rápida: elegir por entorno y ritmo
 
 - **Casa y limpieza ocasional:** HDNW-200 o HDNW-300, enchufe de 220 V y bomba axial; la 300 está descrita por Rumbo como doméstica. Elegí entre ambas por peso, caudal y precio del código disponible.
@@ -28,6 +33,12 @@ published: true
 - **Más margen en eléctrica doméstica:** HDNW-700 (1040700), con 120 bar promedio y caudal nominal publicado de 390 L/h. Sigue siendo de 220 V y bomba axial; el peso bruto publicado sube a 15,1 kg. Compará su escalón en la [comparativa de hidrolavadoras de 150 bar](/hidrolavadoras/150-bar/).
 - **Tareas intensivas con electricidad monofásica:** HDNW PRO-10 (1040900), 220 V, bomba con cigüeñal y biela, 8 m de manguera; Rumbo la presenta como profesional. No la confundas con una máquina industrial de uso continuo. Si el uso será frecuente, revisá cómo dimensionar una [hidrolavadora profesional](/hidrolavadoras/profesionales/).
 - **Campo, exteriores sin tomacorriente cercano o trabajo móvil ocasional:** una LNW a combustión evita depender de conexión eléctrica, pero agrega motor a nafta, combustible, mantenimiento y mucho más peso. Para jornada de lavadero o tarea intensiva, verificá modelo y servicio requerido; la LNW-150 se anuncia para lavaderos y trabajo intensivo.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Gama Niwa publicada por Grupo Rumbo: eléctricas
 

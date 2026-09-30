@@ -21,6 +21,10 @@ published: true
 
 El atornillador de impacto vale la pena cuando colocás muchos tornillos o tirafondos, usás fijaciones largas o necesitás avanzar con menos reacción de giro en la mano. Para agujeros, materiales delicados o tornillos pequeños que necesitan ajuste fino, un taladro/atornillador con embrague suele ser más versátil y fácil de controlar.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias con un taladro atornillador
 
 El atornillador de impacto aplica golpes **rotativos** cuando aumenta la resistencia de la fijación. Se usa sobre todo para atornillar; no es un taladro percutor para hormigón, que golpea en el eje de la broca. La punta hexagonal de 1/4 in permite cambios rápidos entre puntas de atornillar.

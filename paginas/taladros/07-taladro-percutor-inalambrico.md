@@ -21,6 +21,10 @@ published: true
 
 La compra depende de qué vas a perforar y de si ya tenés baterías compatibles. Un percutor inalámbrico sirve para agujeros puntuales en mampostería, además de madera, metal y atornillado. Para perforar hormigón con frecuencia o usar brocas SDS, pasá a un rotomartillo: el mecanismo y el encastre están diseñados para ese trabajo.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Modelos con percusión según presupuesto
 
 | Modelo | Datos básicos publicados | Capacidad publicada por material | Motor | Contenido del código citado |

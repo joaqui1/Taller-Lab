@@ -21,6 +21,11 @@ published: true
 
 Que una sensitiva use un disco de 355 mm no determina por sí solo el tamaño de perfil que corta: la capacidad depende de su forma y del ángulo. Para los criterios generales, consultá [cómo elegir una sensitiva](/sierras/sensitivas/); la ficha argentina vigente de la CM-14K publica los límites de esta tabla.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Capacidades y datos publicados de la CM-14K
 
 | Dato | CM-14K, ficha oficial vigente |
@@ -37,6 +42,18 @@ Que una sensitiva use un disco de 355 mm no determina por sí solo el tamaño de
 | Corte angular | Regulación publicada de 0° a 45° |
 | Morsa | La ficha web no detalla apertura ni capacidad de sujeción; verificá la morsa de la unidad y cómo se ajusta antes de comprar |
 | Contenido de caja | 1 disco de corte, según la ficha web vigente |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff CM-14K | Confirmá código y capacidad según la forma del perfil. | [Ver precio →](https://meli.la/28Unx3L) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ### Qué disco de reemplazo buscar
 

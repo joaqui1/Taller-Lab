@@ -21,6 +21,11 @@ published: true
 
 Elegí por el material, el tipo de ángulo y la sección completa de la pieza (ancho × alto), no solo por el diámetro del disco. Una ingletadora fija y una telescópica pueden montar discos iguales y, aun así, admitir anchos distintos.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué mecanismo, ángulo y material necesitás
 
 ## Fija o telescópica
@@ -73,6 +78,20 @@ Antes de cortar un perfil de aluminio, verificá que el manual de la ingletadora
 | Uso típico | Ingletes y biseles en piezas de madera y otros materiales expresamente admitidos. | Seccionar tubos, ángulos, planchuelas y perfiles metálicos compatibles, con la pieza sujeta en la base. |
 
 Si tu trabajo principal es metal, no compres una ingletadora convencional por su nombre o porque tenga capacidad angular: elegí una máquina diseñada y documentada para metal. Consultá la comparación de [sensitivas para metal](/sierras/sensitivas/) y verificá consumible, sección y sujeción en la ficha del modelo.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Einhell TC-MS 2112 | Confirmá capacidad al ángulo previsto y disco adecuado al material. | [Ver precio →](https://meli.la/1SD2tF3) |
+| DeWalt DWS713 | Confirmá variante regional, revisión y contenido del kit. | [Ver precio →](https://meli.la/1cgXhkN) |
+| DeWalt DWS780 | Confirmá variante regional, revisión y espacio para el carro telescópico. | [Ver precio →](https://meli.la/11C2Bud) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Compará modelos por marca
 

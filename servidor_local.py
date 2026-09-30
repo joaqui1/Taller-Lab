@@ -21,6 +21,11 @@ from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
 from amoladoras_comerciales import AMOLADORA_CHOICES, render_amoladora_choice, render_contextual_choice
 from compresores_comerciales import install_catalog
+from generadores_comerciales import install_catalog as install_generator_catalog
+from hidrolavadoras_comerciales import install_catalog as install_pressure_washer_catalog
+from sierras_comerciales import install_catalog as install_saw_catalog
+from soldadoras_comerciales import install_catalog as install_welder_catalog
+from taladros_comerciales import install_catalog as install_drill_catalog
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -333,8 +338,23 @@ UNVERIFIED_SPECS = {
 
 COMPRESORES_OFFERS = json.loads((ROOT_DIR / 'compresores-ofertas.json').read_text(encoding='utf-8'))
 install_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, COMPRESORES_OFFERS)
+GENERADORES_OFFERS = json.loads((ROOT_DIR / 'generadores-ofertas.json').read_text(encoding='utf-8'))
+install_generator_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, GENERADORES_OFFERS)
+HIDROLAVADORAS_OFFERS = json.loads((ROOT_DIR / 'hidrolavadoras-ofertas.json').read_text(encoding='utf-8'))
+install_pressure_washer_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, HIDROLAVADORAS_OFFERS)
+SIERRAS_OFFERS = json.loads((ROOT_DIR / 'sierras-ofertas.json').read_text(encoding='utf-8'))
+install_saw_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, SIERRAS_OFFERS)
+SOLDADORAS_OFFERS = json.loads((ROOT_DIR / 'soldadoras-ofertas.json').read_text(encoding='utf-8'))
+install_welder_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, SOLDADORAS_OFFERS)
+TALADROS_OFFERS = json.loads((ROOT_DIR / 'taladros-ofertas.json').read_text(encoding='utf-8'))
+install_drill_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, TALADROS_OFFERS)
 # Las cards de estas guías se insertan en su marcador editorial, sin repetirlas al pie.
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in COMPRESORES_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in GENERADORES_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in HIDROLAVADORAS_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in SIERRAS_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in SOLDADORAS_OFFERS})
+ARTICLE_AFFILIATE_SHELVES.update({path: () for path in TALADROS_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({f'/compresores/{slug}/': () for slug in ('manguera', 'acoples-rapidos', 'aceite', 'filtros')})
 AFFILIATE_URLS = {item[2] for group in AFFILIATE_PRODUCTS.values() for item in group}
 CLICK_LOG = ROOT_DIR / "affiliate-clicks.jsonl"
@@ -1535,7 +1555,7 @@ HTML_SHELL = """<!DOCTYPE html>
     }}
   </style>
   <link rel="stylesheet" href="/assets/site.css?v=6">
-  <script src="/assets/commerce.js?v=2" defer></script>
+  <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>
   <header>
@@ -1847,6 +1867,8 @@ def render_category_page(section_id):
         if key == "general" and trunk:
             if section_id != "amoladoras":
                 extra = f'<details class="hub-documental"><summary>Leer guía principal documentada: {escape(trunk["h1"])}</summary>{render_article_page(trunk, embedded=True)}</details>'
+                if section_id == 'soldadoras':
+                    extra = render_article_page(trunk, embedded=True)
         if key == "marcas" and section_id == "soldadura-electronica":
             cards = "".join(f'<a class="hub-brand-link" href="{a["url"]}">{escape(a["title"])}</a>' for a in groups["modelos"])
             extra = '<p class="hub-note">Las guías disponibles de Gadnic y YiHUA comparan modelos concretos; no representan toda la gama de cada marca.</p>'
@@ -1956,6 +1978,15 @@ def render_article_page(article, embedded=False):
         ]
         contextual_shelf = render_affiliate_shelf('compresores', selected, {offer['url']: offer['cta'] for offer in compressor_config['offers']})
         rendered_body = rendered_body.replace('<!-- COMPRESORES-OFFERS -->', contextual_shelf)
+    washer_config = HIDROLAVADORAS_OFFERS.get(article['url'])
+    if washer_config and washer_config['offers']:
+        catalog = {item[2]: item for item in AFFILIATE_PRODUCTS['hidrolavadoras']}
+        selected = [('hidrolavadoras', (*catalog[offer['url']][:3], article['url'])) for offer in washer_config['offers']]
+        ctas = {offer['url']: 'Ver precio de ' + catalog[offer['url']][0] for offer in washer_config['offers']}
+        contextual_shelf = render_affiliate_shelf('hidrolavadoras', selected, ctas)
+        title = 'Nuestra selección según el uso' if article['url'] == '/hidrolavadoras/comparativa-general/' else 'Compará estas opciones en Mercado Libre'
+        contextual_shelf = contextual_shelf.replace('<h2>Publicaciones para comparar</h2>', '<h3>' + title + '</h3>')
+        rendered_body = rendered_body.replace('<!-- HIDROLAVADORAS-OFERTAS -->', contextual_shelf)
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
     if article["url"] in AMOLADORA_CHOICES:
         # Affiliate CTAs live in one editorially placed comparison block. Keep
@@ -2008,7 +2039,8 @@ def render_article_page(article, embedded=False):
         facts = PRODUCT_FACTS.get(product[2])
         if facts:
             cited_sources.append((facts["brand"] + " " + facts["model"] + ": ficha del producto mostrado", facts["source"]))
-    for url, label in BUYING_NOTES.get(article["url"], {}).get("urls", []):
+    buying_urls = [] if article['url'] in HIDROLAVADORAS_OFFERS or article['url'] in SIERRAS_OFFERS or article['url'] in SOLDADORAS_OFFERS or article['url'] in TALADROS_OFFERS else BUYING_NOTES.get(article["url"], {}).get("urls", [])
+    for url, label in buying_urls:
         facts = PRODUCT_FACTS[url]
         cited_sources.append((label + ": " + facts["source_type"], facts["source"]))
     if article["url"] in SOURCE_CLAIMS:
@@ -2071,7 +2103,7 @@ def render_article_page(article, embedded=False):
       </div>
 
       {render_resource(article) if article["section"] != "amoladoras" else ""}
-      {render_buying_note(article, PRODUCT_FACTS) if article["section"] != "amoladoras" else ""}
+      {render_buying_note(article, PRODUCT_FACTS) if article["section"] != "amoladoras" and article['url'] not in HIDROLAVADORAS_OFFERS and article['url'] not in SIERRAS_OFFERS and article['url'] not in SOLDADORAS_OFFERS and article['url'] not in TALADROS_OFFERS else ""}
       {render_quick_guide(article) if article["section"] != "amoladoras" else ""}
       {render_50l_models() if article["url"] == "/compresores/50-litros/" else ""}
       {affiliate_shelf}

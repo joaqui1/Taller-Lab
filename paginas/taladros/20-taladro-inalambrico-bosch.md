@@ -21,6 +21,10 @@ published: true
 
 La decisión empieza por dos preguntas: ¿necesitás percusión para mampostería? ¿Ya tenés baterías Bosch Professional de 12 V o de 18 V? GSR 120-LI y GSB 18V-50 sirven para mostrar las diferencias, pero son ejemplos de sus familias, no representan todas las opciones disponibles.
 
+**Dato documentado:** las cifras y funciones de esta guía se atribuyen a las fuentes citadas; el título de una oferta no confirma el código, la variante ni su contenido.
+
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## Diferencias entre GSR y GSB
 
 En la nomenclatura de Bosch Professional, **GSR** identifica taladros/atornilladores para atornillar y perforar; **GSB** identifica modelos con función de percusión para perforar mampostería. La función percutora se suma a la perforación convencional: no convierte al GSB en un rotomartillo SDS ni lo hace adecuado para perforación repetida de hormigón duro.
@@ -35,6 +39,12 @@ En la nomenclatura de Bosch Professional, **GSR** identifica taladros/atornillad
 | Peso sin batería | 0,8 kg | 1,1 kg |
 
 Estas cifras comparan dos modelos concretos. El GSB 18V-50 agrega percusión, admite brocas de hasta 13 mm según su mandril y pesa 0,3 kg más que el GSR sin batería. No son resultados de una prueba comparativa de perforación ni significan que toda GSB tenga esos valores.
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Bosch: GSR 12 V sin percusión o GSB 18 V percutor</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GSR 120-LI</h3><p class="offer-description">Taladro/atornillador Professional 12 V sin percusión. Confirmá baterías, cargador y número de pedido del kit.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2hBcHa8" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GSR 120-LI ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Bosch GSB 18V-50</h3><p class="offer-description">Taladro percutor Professional 18 V. Confirmá si es herramienta sola o kit; el enlace recibido es una publicación directa de Mercado Libre.</p><div class="offer-actions"><a class="offer-button" href="https://www.mercadolibre.com.ar/up/MLAU364309887?pdp_filters=item_id:MLA1755860026#origin=share&amp;sid=share&amp;wid=MLA1755860026&amp;action=copy" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del Bosch GSB 18V-50 ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## GSR vs GSB vs GBH
 

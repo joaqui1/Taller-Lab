@@ -21,6 +21,11 @@ published: true
 
 Elegí una sierra de banco a partir del tamaño y la forma de tus piezas. La altura de corte, el ancho longitudinal, el área de apoyo y el espacio que necesita la máquina son medidas distintas; compará cada una por separado.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué sierra de banco elegir según el tamaño de pieza
 
 | Tamaño o tarea | Qué capacidad revisar | Apoyo y configuración |
@@ -30,6 +35,19 @@ Elegí una sierra de banco a partir del tamaño y la forma de tus piezas. La alt
 | Pieza larga o pesada | Dimensiones de mesa y extensión, además de la huella de la máquina. | Planeá apoyos firmes y nivelados antes y después de la hoja, sin interferir con el avance. |
 | Melamina o tablero laminado | Material aprobado para la hoja y compatibilidad con diámetro, eje, espesor y RPM. | Alineá la guía, apoyá el panel de manera continua y probá primero en un retazo. |
 | Cortes repetidos en taller | Rango y fijación de la guía, capacidad por ángulo y ciclo de trabajo publicado. | Revisá si la máquina puede quedar instalada con espacio suficiente para alimentar la pieza. |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Einhell TC-TS 2025/2 U | Verificá código completo, mesa y accesorios incluidos. | [Ver precio →](https://meli.la/2mWYUA8) |
+| Lüsqtoff SML2000-8 | Confirmá placa, potencia y disco: los documentos de este código presentan discrepancias. | [Ver precio →](https://meli.la/119eQpU) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ### No mires solo la altura de corte
 

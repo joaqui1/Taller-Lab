@@ -23,6 +23,11 @@ published: true
 
 La gama argentina publicada por BLACK+DECKER incluye **BEPW1300-AR, BEPW1520-AR, BEPW1520L-AR, BEPW1800T-AR y BEPW2200-AR**, además de la lavadora inalámbrica BCPC20D1-AR. La guía se centra en los modelos eléctricos con cable; la inalámbrica es otra clase de equipo.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Qué elegir para casa y auto
 
 - **Auto, bicicleta y limpieza ocasional:** mirá BEPW1300-AR o los dos BEPW1520. Los BEPW1520-AR y BEPW1520L-AR se anuncian con 1400 W y 1520 PSI (105 bar). Para vehículos, usá la boquilla ajustable y un chorro abierto a distancia prudente.
@@ -31,6 +36,12 @@ La gama argentina publicada por BLACK+DECKER incluye **BEPW1300-AR, BEPW1520-AR,
 - **BCPC20D1-AR inalámbrica:** figura en el catálogo local como lavadora de 350 PSI. Es una opción portátil de menor presión; no la compares como equivalente de las hidrolavadoras eléctricas de 90–150 bar.
 
 Para pintar o lavar carrocería, empezá con boquilla abanico/ajustable y distancia; reservá la turbo para superficies resistentes. No elijas sólo por la presión máxima: cuando el manual local publica presión nominal/de trabajo y caudal de trabajo, esos campos permiten una comparación más útil.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## ¿La BEPW1300-AR es de 1300 W?
 

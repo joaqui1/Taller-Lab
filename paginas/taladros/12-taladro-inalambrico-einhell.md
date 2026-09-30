@@ -21,6 +21,8 @@ published: true
 
 Los dos modelos cubren tareas distintas: el TE-CD 18/40 Li es un taladro atornillador sin percusión, y el TP-CD 18/50 Li-i BL suma percusión para mampostería ocasional. Ambos trabajan con baterías Power X-Change de 18 V. La variante Solo del TP-CD consultada no incluye batería ni cargador.
 
+**Análisis TallerLab:** los criterios de elección comparan documentación según el trabajo, material y plataforma. No se realizaron pruebas físicas ni se verificaron precio, stock o contenido actual de las publicaciones recibidas.
+
 ## TE-CD 18/40 y TP-CD 18/50: sin y con percusión
 
 | Dato documentado | TE-CD 18/40 Li Solo (4513925) | TP-CD 18/50 Li-i BL Solo (4513942) |
@@ -32,6 +34,12 @@ Los dos modelos cubren tareas distintas: el TE-CD 18/40 Li es un taladro atornil
 | Percusión | No indicada en la ficha/manual consultado | Sí; hasta 28.800 impactos/min en velocidad 2 |
 | Motor | No se declara brushless en la ficha consultada | Brushless |
 | Batería/cargador | No incluidos en el código Solo | No incluidos en el código Solo |
+
+<!-- TALADROS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Einhell Solo: confirmá función y presupuesto completo</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Einhell TE-CD 18/40 Li Solo</h3><p class="offer-description">Taladro/atornillador sin percusión, Power X-Change 18 V. Solo: batería y cargador se compran aparte.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2A1rX5b" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TE-CD 18/40 Li ↗</a></div></article><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>Einhell TP-CD 18/50 Li- BL Solo · sufijo a confirmar</h3><p class="offer-description">El título recibido omite Li-i. Confirmá TP-CD 18/50 Li-i BL y código 4513942 antes de atribuirle la percusión de la tabla. Solo: sin batería ni cargador.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/1sp5STW" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="taladros-contextual">Ver precio del TP-CD 18/50 Li-i BL ↗</a></div></article></div><p>Enlaces comerciales suministrados por el usuario. TallerLab puede recibir una comisión por los enlaces de afiliado, sin costo adicional para vos. Confirmá modelo, contenido, precio y stock en la publicación; no se verificó su contenido actual.</p></section>
+
+<!-- /TALADROS-OFERTAS -->
 
 ## 18 V y Power X-Change
 

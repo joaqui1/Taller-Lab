@@ -62,6 +62,12 @@ Elegí primero el proceso y los riesgos reales; después compará el código de 
 
 **Desconocido:** no se verificó temperatura de contacto admisible, vida útil, stock local ni certificación de guantes genéricos. Una descripción comercial del cuero o la costura no reemplaza el marcado y ficha del EPP.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones con enlace de afiliado"><div class="affiliate-heading"><h3>Consultá talle y protección del guante</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB Heavy Duty Black</h3><p class="offer-description">Verificá modelo, talle y protección declarada para tu proceso; no se presenta como guante TIG de precisión.</p><div class="offer-actions"><a class="offer-button" href="https://meli.la/2HuWpap" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Fuentes consultadas
 
 - **Documentación primaria de producto:** [ESAB Guantes Heavy Duty Black](https://esab.com/pe/sam_es/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-black-gloves/); [ESAB TIG Basic Glove](https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/tig-basic-glove/); [ESAB Heavy Duty EXL](https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-exl/).

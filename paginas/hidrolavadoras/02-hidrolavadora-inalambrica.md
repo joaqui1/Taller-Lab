@@ -23,6 +23,11 @@ published: true
 
 **Guía documental; no hicimos pruebas físicas.** Una inalámbrica prioriza movilidad y puede tomar agua desde un recipiente; una eléctrica con cable permite trabajar sin pausas para recargar y suele ofrecer más caudal para cubrir superficies. La tabla resume las diferencias prácticas.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes citadas; las publicaciones comerciales y sus variantes deben cotejarse por código.
+
+**Análisis TallerLab:** la selección interpreta la documentación según la tarea; no se realizaron pruebas físicas de estos equipos.
+
 ## Inalámbrica o eléctrica con cable
 
 | Qué comparar | Inalámbrica | Eléctrica con cable |
@@ -66,6 +71,12 @@ La Bosch UniversalAquatak 36V-100, código 06008C7002, ofrece modos ECO y High p
 | Accesorios | Boquilla 3 en 1, modos ECO/High y sistema de espuma a alta presión; revisá contenido y código del kit vendido en Argentina |
 
 Para grandes superficies o trabajo sostenido, compará con una eléctrica con cable por caudal, tiempo de trabajo y costo de recambio de batería.
+
+<!-- HIDROLAVADORAS-COMERCIO -->
+
+<!-- HIDROLAVADORAS-OFERTAS -->
+
+<!-- /HIDROLAVADORAS-COMERCIO -->
 
 ## Conviene / no conviene según la tarea
 

@@ -35,6 +35,18 @@ La CSL1500-8 publica 63,5 mm a 90° y 46 mm a 45°. La SCL2200-8 declara 84 mm a
 | Profundidad a 90° / 45° | 63,5 / 46 mm | 84 / 56 mm |
 | Peso publicado | 4,40 kg | Ficha actual: 4,75 kg; manual: 16 kg |
 
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Lüsqtoff CSL1500-8 | Revisá disco, eje y capacidad del código exacto. | [Ver precio →](https://meli.la/2XbUjXk) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
+
 **Análisis TallerLab.** La profundidad a 90° publicada para la SCL2200-8 supera en 20,5 mm a la de la CSL1500-8. Es una comparación entre cifras de ficha; en el modelo mayor confirmá que el código y la capacidad correspondan a la unidad concreta antes de basar la compra en esa diferencia.
 ## Datos que se contradicen entre documentos
 

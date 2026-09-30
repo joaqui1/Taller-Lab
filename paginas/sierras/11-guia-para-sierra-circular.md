@@ -21,6 +21,9 @@ published: true
 
 **Dato documentado:** las fichas y manuales especifican compatibilidad para cada modelo. Una ranura o una base que parece similar no demuestra que encastre con un riel de otra marca.
 
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Guía paralela, regla y riel: no son lo mismo
 
 | Sistema | Qué documenta la fuente | Para qué decisión sirve |
@@ -50,6 +53,19 @@ La guía debe cubrir toda la trayectoria de corte y sostener la base antes de qu
 | [Bosch GKS 150](/sierras/bosch-gks-150/) | Confirmada para el kit 0 601 6B3 0H0; revisar contenido de la oferta | Puede usarse si se mide el desplazamiento de base y se comprueba el despeje de prensas | Bosch confirma que no es compatible con su carril guía | Guía paralela y no compatibilidad con riel confirmadas para la variante citada |
 | [DeWalt DWE560-AR](/sierras/sierra-circular-dewalt-dwe560/) | El manual describe la guía DW3278 para cortes longitudinales; verificar si viene en el kit | El manual recomienda guía de borde recto sujeta para cortes al hilo | No informado en la documentación consultada | Guía paralela/regla informadas; riel no informado |
 | [Stanley SC16-AR](/sierras/stanley-sc16/) | El manual describe una guía paralela insertable; confirmar inclusión y código del repuesto | El manual admite una guía recta sujeta para cortes al hilo | No informado en la documentación consultada | Guía paralela/regla informadas; riel no informado |
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Kreg Rip-Cut KMA2685 | Confirmá que la base y el montaje de tu sierra sean compatibles; no equivale a un riel propietario. | [Ver precio →](https://meli.la/2zYHZrk) |
+| Surplee compatible con DW3278 | Accesorio de terceros, no identificado como DeWalt original. Confirmá medidas y compatibilidad con tu sierra. | [Ver precio →](https://meli.la/1xjT5i9) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 La compatibilidad con rieles no se deduce de que la sierra tenga una guía paralela o una base plana. Por ejemplo, la GKS 150 incluye guía paralela pero Bosch marca que no es compatible con su sistema de carril. Para la DWE560 y la SC16 no encontramos una confirmación del fabricante de riel propietario; por eso quedan como **no confirmado**, no como incompatibles.
 

@@ -25,6 +25,11 @@ Un generador trifásico se justifica cuando una máquina necesita tres fases seg
 
 Para dimensionarlo, calculá la potencia de marcha y el pico de arranque del equipo más exigente, luego revisá la corriente admisible en cada fase. La potencia total en la tapa del generador no garantiza que alcance en una fase concreta ni que soporte un arranque de motor.
 
+
+**Dato documentado:** las especificaciones se atribuyen a las fuentes enlazadas; los datos comerciales y las variantes se identifican por separado.
+
+**Análisis TallerLab:** los criterios de selección interpretan la documentación según la carga prevista; esta guía no incluye prueba física de los equipos.
+
 ## Cuándo necesitás alimentación trifásica
 
 Buscá una salida trifásica si la placa de la carga indica `3~`, tres fases o tensión entre fases de 380/400 V, y el manual del equipo pide esa alimentación. Es habitual en motores de máquinas de taller, compresores industriales, bombas de mayor tamaño, equipos de elevación y algunas soldadoras. Confirmá el modelo exacto y su diagrama: una máquina de la misma clase puede venir en versión monofásica.
@@ -67,11 +72,11 @@ Los límites de desbalance son **propios de cada equipo**. Como ejemplo de esa v
 
 Estos equipos muestran aplicaciones y escalas distintas; no son un ranking. Antes de elegir, hacé coincidir salida, tensión, fase, potencia nominal, corriente por fase y método de arranque con las cargas reales.
 
-| Aplicación para evaluar | Modelo documentado | Datos de salida que sirven para cotejar | Qué confirmar antes de decidir |
-| :--- | :--- | :--- | :--- |
-| Obra móvil con una máquina que requiere 380 V trifásicos | Lüsqtoff LG7500EXT | 380 V, 50 Hz, trifásico; 6.500 W máximos; tanque 25 L. El fabricante no publica potencia nominal en la página consultada. | Corriente máxima por fase, potencia nominal y capacidad de arranque del motor de la máquina. No dimensionar usando solo 6.500 W máximos. |
-| Servicio o taller con demanda trifásica intermedia y algunas salidas 220 V | Honda ET12000 | 380/220 V, 10/11 kVA trifásicos nominal/máximo; 3 × 2,7/3,0 kVA nominal/máximo en salida monofásica. | En qué configuración se usará, capacidad de cada salida, arranque de motores y distribución de cargas 220 V. |
-| Taller fijo o instalación de mayor potencia, con suministro a gas | Gamma GE3494AR ([generadores a gas](/generadores/a-gas/)) | 380 V, 3 fases; 17/18,7 kW nominal/máxima con GLP y 16/17,6 kW con GN; arranque automático. | Corriente y kVA por fase, factor de potencia, cargas de arranque, ATS requerido, gas, baterías e instalación. Gamma indica que requiere tablero ATS GE3495AR. |
+| Aplicación para evaluar | Modelo documentado | Datos de salida que sirven para cotejar | Qué confirmar antes de decidir | Oferta |
+| :--- | :--- | :--- | :--- | :--- |
+| Obra móvil con una máquina que requiere 380 V trifásicos | Lüsqtoff LG7500EXT | 380 V, 50 Hz, trifásico; 6.500 W máximos; tanque 25 L. El fabricante no publica potencia nominal en la página consultada. | Corriente máxima por fase, potencia nominal y capacidad de arranque del motor de la máquina. No dimensionar usando solo 6.500 W máximos. | [Ver precio →](https://meli.la/1k8qxpL) |
+| Servicio o taller con demanda trifásica intermedia y algunas salidas 220 V | Honda ET12000 | 380/220 V, 10/11 kVA trifásicos nominal/máximo; 3 × 2,7/3,0 kVA nominal/máximo en salida monofásica. | En qué configuración se usará, capacidad de cada salida, arranque de motores y distribución de cargas 220 V. | [Ver precio →](https://meli.la/2WRqiZR) |
+| Taller fijo o instalación de mayor potencia, con suministro a gas | Gamma GE3494AR ([generadores a gas](/generadores/a-gas/)) | 380 V, 3 fases; 17/18,7 kW nominal/máxima con GLP y 16/17,6 kW con GN; arranque automático. | Corriente y kVA por fase, factor de potencia, cargas de arranque, ATS requerido, gas, baterías e instalación. Gamma indica que requiere tablero ATS GE3495AR. | — |
 
 Para otras configuraciones de mayor uso horario, compará también [generadores diésel](/generadores/diesel/) y sus datos de consumo y fase publicados.
 
