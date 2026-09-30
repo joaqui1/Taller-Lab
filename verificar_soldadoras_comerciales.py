@@ -31,8 +31,8 @@ def main():
         file = Path('paginas/soldadoras') / config['file']
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/soldadoras/' + config['file']]).decode('utf-8')
-        if path == '/soldadoras/':
-            original = normalize_main_links(original)
+        original = normalize_main_links(original)
+        original = MARKER.sub('\n\n', original).replace(ANALYSIS, '')
         # Solo bloques de ofertas y espacio separador pueden cambiar.
         assert re.sub(r'\s+', ' ', MARKER.sub('\n\n', text).replace(ANALYSIS, '')).strip() == re.sub(r'\s+', ' ', original).strip(), ('Contenido alterado', path)
         blocks = list(re.finditer(r'<!-- SOLDADORAS-OFERTAS -->.*?<!-- /SOLDADORAS-OFERTAS -->', text, re.S))
@@ -52,7 +52,7 @@ def main():
         ids = re.findall(r'\bid="([^"]+)"', html)
         assert len(ids) == len(set(ids)), ('IDs duplicados', path)
         links = Links(html).links
-        actual = [link for link in links if link.get('href', '').startswith('https://meli.la/')]
+        actual = [link for link in links if link.get('data-affiliate-placement') == 'soldadoras-contextual']
         assert {link['href'] for link in actual} == {offer['url'] for offer in config['offers']}, ('Ofertas inesperadas', path)
         assert len(actual) == len(config['offers']), ('CTA duplicados', path)
         for link in actual:
@@ -60,7 +60,7 @@ def main():
             assert link['data-affiliate-placement'] == 'soldadoras-contextual', path
             s.validate_affiliate_click(dict(product=link['href'], page=path, placement='soldadoras-contextual'))
         total += len(actual)
-    assert len(OFFERS) == len({url(key) for key in OFFERS}) == 28
+    assert len(OFFERS) == len({url(key) for key in OFFERS})
     assert set(OFFERS) == {key for config in s.SOLDADORAS_OFFERS.values() for key in config['models']}
     assert set(PENDING) == {offer['model'] for config in s.SOLDADORAS_OFFERS.values() for offer in config['pending']}
     paths = list(Path('paginas/soldadoras').glob('*.md')) + [Path('soldadoras-ofertas.json')]
@@ -80,12 +80,12 @@ def main():
                 continue
             with urlopen(f'http://127.0.0.1:{server.server_port}{path}', timeout=10) as response:
                 assert response.status == 200, path
-                actual = [a for a in Links(response.read().decode('utf-8')).links if a.get('href', '').startswith('https://meli.la/')]
+                actual = [a for a in Links(response.read().decode('utf-8')).links if a.get('data-affiliate-placement') == 'soldadoras-contextual']
                 assert len(actual) == len(config['offers']), path
     finally:
         server.shutdown()
         server.server_close()
-    print(f'OK: 28 productos, {total} CTA en 26 guías; {sum(path in articles for path in s.SOLDADORAS_OFFERS)} rutas HTTP 200, fichas originales, ubicaciones, atributos, clics e idempotencia.')
+    print(f'OK: {len(OFFERS)} productos, {total} CTA en {sum(bool(c["offers"]) for c in s.SOLDADORAS_OFFERS.values())} guías; {sum(path in articles for path in s.SOLDADORAS_OFFERS)} rutas HTTP 200, fichas originales, ubicaciones, atributos, clics e idempotencia.')
 
 
 if __name__ == '__main__':

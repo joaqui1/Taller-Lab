@@ -65,7 +65,7 @@ Las dos variantes de 220 V documentan uso para madera y una profundidad máxima 
 - **Querés una segunda variante regional documentada:** el manual de CS1350P identifica 220 V, 50 Hz para la variante AR y publica peso, bisel y profundidad máxima. Antes de comprar, verificá que la placa coincida con esa variante y preguntá qué incluye el paquete: no encontré una página de producto argentina que confirme el kit.
 - **Aparece una CS1024-BR de 1.500 W:** tratala como variante de 127 V, no como una opción para conectar directamente a la red argentina de 220 V. Los 100 W nominales adicionales no cambian ese límite eléctrico.
 
-Los valores del manual de CS1350P corresponden a la variante regional identificada como AR, no a CS1350P-BR de 127 V. No transfieras profundidad, peso o voltaje entre sufijos. Para una decisión general por profundidad, guía y tipo de corte, consultá [cómo elegir una sierra circular](/sierras/circulares/). Como otra comparativa de marca, podés ver [sierras circulares Lusqtoff](/sierras/circulares-lusqtoff/) y la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/).
+Los valores del manual de CS1350P corresponden a la variante regional identificada como AR, no a CS1350P-BR de 127 V. No transfieras profundidad, peso o voltaje entre sufijos. Para una decisión general por profundidad, guía y tipo de corte, consultá [cómo elegir una sierra circular](/sierras/circulares/). Como otra comparativa de marca, podés ver [sierras circulares Lusqtoff](/sierras/circulares-lusqtoff/) y la guía de disco para sierra circular.
 
 ## Fuentes consultadas
 

@@ -63,7 +63,7 @@ La GWS 9-125 S amplía la familia a **125 mm** y agrega selección de velocidad.
 
 **El nombre GWS 9-125 S no identifica por sí solo la tensión.** La ficha argentina también muestra el código 0 601 396 1D0, cuya tensión publicada es 127 V. No trasladamos las especificaciones de un sufijo a otro. Si una publicación local no muestra la placa ni el código completo, pedí una foto y confirmación de tensión antes de pagar.
 
-Para comparar esta función con otras máquinas, consultá la [guía de amoladoras de velocidad variable](/amoladoras/velocidad-variable/).
+Para comparar esta función con otras máquinas, consultá la guía de amoladoras de velocidad variable.
 
 ## GWS 180-LI
 
@@ -71,7 +71,7 @@ Es la alternativa inalámbrica Bosch Professional de **18 V** con disco de **125
 
 La variante argentina consultada viene en caja con guarda, brida, tuerca, empuñadura y llave; la lista de contenido no incluye batería ni cargador. Si ya tenés herramientas Bosch Professional 18 V, verificá compatibilidad de batería y cargador; si empezás de cero, sumá ambos al precio de entrada y comprobá el código del pack/cargador local.
 
-Para comparar plataformas, kits y costos de otras marcas, seguí con la [guía de amoladoras inalámbricas](/amoladoras/inalambricas/).
+Para comparar plataformas, kits y costos de otras marcas, seguí con la guía de amoladoras inalámbricas.
 
 ## Modelo según trabajo
 

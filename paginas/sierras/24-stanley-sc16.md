@@ -78,7 +78,7 @@ La herramienta está destinada a cortar madera. Para cortes al hilo, el manual r
 
 La página argentina anuncia 7-1/4 pulgadas y 180 mm en el mismo título; 7-1/4″ equivale a 184,15 mm, así que esos datos no coinciden. El manual de SC16 incluye -AR en su tabla y señala 190 mm como diámetro máximo y 16 mm para el agujero de la hoja. Los documentos consultados no explican la discrepancia entre ficha y manual.
 
-No compres el repuesto por la conversión de pulgadas ni por el dato de 190 mm aislado. Confirmá el diámetro admitido, el agujero de 16 mm y la forma de montaje en la placa/manual de la unidad concreta; además, el manual exige que las RPM máximas marcadas en el disco igualen o superen las 5.500 rpm de la sierra. Para criterios generales, consultá [cómo elegir un disco para sierra circular](/sierras/disco-para-sierra-circular/).
+No compres el repuesto por la conversión de pulgadas ni por el dato de 190 mm aislado. Confirmá el diámetro admitido, el agujero de 16 mm y la forma de montaje en la placa/manual de la unidad concreta; además, el manual exige que las RPM máximas marcadas en el disco igualen o superen las 5.500 rpm de la sierra. Para criterios generales, consultá cómo elegir un disco para sierra circular.
 
 La profundidad documentada permite contrastar la SC16-AR con la [Bosch GKS 150](/sierras/bosch-gks-150/) y la [DeWalt DWE560](/sierras/sierra-circular-dewalt-dwe560/), pero no demuestra por sí sola mejor velocidad, terminación ni desempeño bajo carga.
 

@@ -27,11 +27,11 @@ Seguí este recorrido: **operación → material → tipo de disco → guía esp
 
 | Operación | Material | Tipo de disco | Referencia para comparar | Datos de la referencia | CTA |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Cortar | Metal | Disco abrasivo de corte para el metal indicado | Bosch 2608619383 · pack x10 | 115 × 1 × 22,23 mm; pack de 10 según publicación | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/2GzTkmk){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [discos de corte](/amoladoras/disco-de-corte/) |
-| Desbastar | Metal | Disco rígido de desbaste, identificado para el metal | Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm; A 30 T BF | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [guía de desbaste](/amoladoras/disco-de-desbaste/) |
-| Terminar o lijar | Metal | Disco flap del abrasivo, grano y forma adecuados | Lüsqtoff LQDFLAP60 | 115 mm; grano 60; zirconio según publicación | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/1hxMTX5){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; [guía de flap](/amoladoras/disco-flap/) |
-| Cortar | Hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | — | — | [Disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/) |
-| Cortar | Cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | — | — | [Discos para cerámica](/amoladoras/discos-ceramica/) |
+| Cortar | Metal | Disco abrasivo de corte para el metal indicado | Bosch 2608619383 · pack x10 | 115 × 1 × 22,23 mm; pack de 10 según publicación | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/2GzTkmk){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; discos de corte |
+| Desbastar | Metal | Disco rígido de desbaste, identificado para el metal | Bosch PRO Metal 2 608 600 218 | 115 × 6 × 22,23 mm; A 30 T BF | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/1tL91SZ){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; guía de desbaste |
+| Terminar o lijar | Metal | Disco flap del abrasivo, grano y forma adecuados | Lüsqtoff LQDFLAP60 | 115 mm; grano 60; zirconio según publicación | [Ver precio y disponibilidad en Mercado Libre](https://meli.la/1hxMTX5){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}; guía de flap |
+| Cortar | Hormigón | Disco diamantado cuya ficha declare hormigón y el tipo de corte | — | — | Disco diamantado segmentado |
+| Cortar | Cerámica o azulejo | Disco específico para cerámica, según tipo de pieza y acabado buscado | — | — | Discos para cerámica |
 
 **Antes de comprar:** hacé coincidir el código del disco, la operación y el material admitido; revisá diámetro, espesor, agujero y rpm máxima frente a la amoladora y su guarda. En publicaciones por pack, comprobá cantidad, variante y vendedor. Para estos accesorios no aplica una tensión propia: importa la tensión y el manual de la herramienta donde se montará.
 
@@ -42,7 +42,7 @@ Esta ruta sirve para acotar la elección; no reemplaza la etiqueta del accesorio
 
 - **Disco abrasivo de corte:** delgado y diseñado para separar material, dentro de las aplicaciones que declara su fabricante. El material importa: no todos los discos de metal incluyen acero inoxidable.
 - **Disco rígido de desbaste:** más grueso que un disco de corte en los ejemplos consultados y destinado a retirar material mediante desbaste. No lo uses como disco de corte.
-- **Disco flap:** láminas abrasivas solapadas que permiten desbastar y mezclar marcas en una operación. El grano, el mineral y la forma (T27 o T29) cambian según producto. Consultá la [guía de flap](/amoladoras/disco-flap/).
+- **Disco flap:** láminas abrasivas solapadas que permiten desbastar y mezclar marcas en una operación. El grano, el mineral y la forma (T27 o T29) cambian según producto. Consultá la guía de flap.
 - **Disco diamantado:** tiene un borde con segmentos, turbo o continuo, según producto y aplicación declarada. “Diamantado” por sí solo no identifica el material compatible: hormigón, ladrillo y cerámica requieren comprobar la ficha del disco concreto.
 
 También existen cepillos y otros accesorios para máquinas compatibles; no son discos abrasivos y tienen sus propios límites de montaje y velocidad. Elegí siempre por el accesorio y el trabajo declarados, no solo por la forma exterior.
@@ -59,7 +59,7 @@ También existen cepillos y otros accesorios para máquinas compatibles; no son 
 | Porcelanato o pieza dura | Disco cuya ficha cubra explícitamente ese material | No trasladar compatibilidad desde una ficha que solo nombra azulejo o cerámica general |
 | Vidrio: cortar | Disco cuya ficha declare explícitamente vidrio y el tipo de corte | Compatibilidad con el vidrio, montaje y condiciones de uso |
 
-El nombre de una familia no garantiza que cubra todas las variantes del material. Por ejemplo, la [guía de disco segmentado](/amoladoras/disco-diamantado-segmentado/) compara referencias con listas de materiales distintas, mientras que la [guía de cerámica](/amoladoras/discos-ceramica/) separa diseños turbo y continuo. Para vidrio, consultá [discos para vidrio](/amoladoras/discos-vidrio/) y verificá que la ficha cubra el tipo de pieza y de corte. Para corte de metal, profundizá en la [guía de discos de corte](/amoladoras/disco-de-corte/); acá mantenemos el criterio general para no repetir esa comparación.
+El nombre de una familia no garantiza que cubra todas las variantes del material. Por ejemplo, la guía de disco segmentado compara referencias con listas de materiales distintas, mientras que la guía de cerámica separa diseños turbo y continuo. Para vidrio, consultá discos para vidrio y verificá que la ficha cubra el tipo de pieza y de corte. Para corte de metal, profundizá en la guía de discos de corte; acá mantenemos el criterio general para no repetir esa comparación.
 
 ## Medida y montaje
 
@@ -112,6 +112,6 @@ Estos ejemplos muestran cómo una tabla separa operación, material y geometría
 - **Seguridad y montaje:** [manual Bosch para amoladoras](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf). Para otra marca o código, consultá el manual correspondiente.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para profundizar: [discos de corte para metal](/amoladoras/disco-de-corte/), [disco de desbaste](/amoladoras/disco-de-desbaste/), [disco flap](/amoladoras/disco-flap/), [diamantados segmentados](/amoladoras/disco-diamantado-segmentado/) y [discos para cerámica](/amoladoras/discos-ceramica/).
+Para profundizar: discos de corte para metal, disco de desbaste, disco flap, diamantados segmentados y discos para cerámica.
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).

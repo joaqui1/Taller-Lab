@@ -58,7 +58,7 @@ Antes de comprar hojas, buscá en el manual o ficha de la caladora el tipo de en
 
 Para laminado o melamina, elegí una hoja cuya ficha nombre ese material y el rango de espesor. Como ejemplo, la Bosch T 101 BIF está indicada para paneles laminados/HPL de 1,5–15 mm; esa aplicación no se extiende a cualquier hoja ni a todos los tableros. Usá apoyo estable, controlá el pendular según el manual y hacé una prueba en un retazo. La hoja no reemplaza la capacidad de la caladora ni garantiza por sí sola un borde sin astillado.
 
-El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, consultá [caladoras Skil](/sierras/caladoras-skil/). No hay una URL separada para melamina: los criterios y la hoja compatible se resuelven en esta guía.
+El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, consultá caladoras Skil. No hay una URL separada para melamina: los criterios y la hoja compatible se resuelven en esta guía.
 
 **Dato documentado:** los límites de la tabla proceden de las fichas oficiales enlazadas. Son máximos declarados por fabricante y por código, no espesores recomendados para cualquier hoja, material o acabado.
 
@@ -86,7 +86,7 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 
 ## Comparar caladoras por marca
 
-Explorá las guías disponibles de [Black+Decker](/sierras/caladoras-black-decker/), [Einhell](/sierras/caladoras-einhell/), [Bosch](/sierras/sierra-caladora-bosch/) y [Skil](/sierras/caladoras-skil/).
+Explorá las guías disponibles de [Black+Decker](/sierras/caladoras-black-decker/), [Einhell](/sierras/caladoras-einhell/), [Bosch](/sierras/sierra-caladora-bosch/) y Skil.
 
 **Análisis TallerLab.** La tabla ordena máximos publicados, no resultados de una prueba común. Entre BES603-B2 y TE-JS 100 la diferencia declarada es 35 mm en madera. No significa que una caladora sea “mejor”: las capacidades pueden variar con hoja, geometría, material y condiciones del fabricante. Medí el espesor real y buscá una hoja indicada para él.
 

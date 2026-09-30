@@ -21,7 +21,7 @@ published: true
 
 ## TIG DC vs AC/DC: elegí según el material
 
-TIG DC suele ser la opción a evaluar para acero al carbono e inoxidable, siempre que la ficha del equipo confirme el material y el rango/ciclo necesarios. Para soldar aluminio, comprobá que la fuente declare **TIG AC**: que la máquina diga «TIG» o tenga salida DC no acredita ese modo. En un equipo AC/DC, revisá además el rango y el ciclo publicados en TIG AC; las cifras de MMA no los reemplazan. Consultá la [guía de TIG AC/DC](/soldadora-tig-ac-dc/) y la comparación de procesos para [soldar aluminio](/para-aluminio/).
+TIG DC suele ser la opción a evaluar para acero al carbono e inoxidable, siempre que la ficha del equipo confirme el material y el rango/ciclo necesarios. Para soldar aluminio, comprobá que la fuente declare **TIG AC**: que la máquina diga «TIG» o tenga salida DC no acredita ese modo. En un equipo AC/DC, revisá además el rango y el ciclo publicados en TIG AC; las cifras de MMA no los reemplazan. Consultá la [guía de TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) y la comparación de procesos para [soldar aluminio](/soldadoras/para-aluminio/).
 
 | Salida TIG | Cuándo evaluarla | Qué verificar |
 | :--- | :--- | :--- |
@@ -34,7 +34,7 @@ TIG DC suele ser la opción a evaluar para acero al carbono e inoxidable, siempr
 
 ## Qué es TIG y para qué sirve
 
-TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumible, protegido por gas. El material de aporte se agrega por separado cuando la junta lo necesita. Este control del arco y del aporte sirve para trabajos donde importan el acabado y el control del baño, por ejemplo en acero al carbono e inoxidable; para este último, revisá también los [electrodos para acero inoxidable](/electrodo-para-acero-inoxidable/). El resultado depende de la preparación, el espesor, la junta y la práctica del soldador; que una máquina diga “TIG” no basta para confirmar todos los materiales o funciones.
+TIG (GTAW) forma el arco entre la pieza y un electrodo de tungsteno no consumible, protegido por gas. El material de aporte se agrega por separado cuando la junta lo necesita. Este control del arco y del aporte sirve para trabajos donde importan el acabado y el control del baño, por ejemplo en acero al carbono e inoxidable; para este último, revisá también los [electrodos para acero inoxidable](/soldadoras/electrodo-para-acero-inoxidable/). El resultado depende de la preparación, el espesor, la junta y la práctica del soldador; que una máquina diga “TIG” no basta para confirmar todos los materiales o funciones.
 
 En una fuente TIG también hay que revisar qué incluye el conjunto: como mínimo pueden hacer falta antorcha compatible, tungsteno, gas y su regulación, material de aporte apropiado y protección personal. Los accesorios incluidos cambian según modelo y publicación.
 

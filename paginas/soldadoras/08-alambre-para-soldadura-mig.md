@@ -25,7 +25,7 @@ Esta guía trata principalmente **alambre macizo para MIG/MAG**. El alambre tubu
 | :--- | :--- | :--- | :--- |
 | Acero al carbono | ER70S-6, por ejemplo [ESAB Weld 70S-6](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/) | Lincoln ofrece ER70S-6 de 0,6 mm; ESAB publica parámetros Weld 70S-6 para 0,9 mm. Confirmá diámetro y SKU | C1 o M21 para Weld 70S-6 |
 | Acero inoxidable | ER308LSi, por ejemplo [ESAB Sureweld 308LSi](https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/) | 0,8 mm en la ficha citada | M12 o M13 |
-| Aluminio | ER4043 y ER5356 son familias distintas; revisá cuál corresponde a la aleación base. [Soldar aluminio con MIG](/para-aluminio/) | Varía por referencia; la ficha del equipo y el sistema de alimentación deben admitirlo | I1 o I3 para OK Autrod 4043 |
+| Aluminio | ER4043 y ER5356 son familias distintas; revisá cuál corresponde a la aleación base. [Soldar aluminio con MIG](/soldadoras/para-aluminio/) | Varía por referencia; la ficha del equipo y el sistema de alimentación deben admitirlo | I1 o I3 para OK Autrod 4043 |
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
@@ -50,7 +50,7 @@ El diámetro debe coincidir a lo largo de la alimentación, pero también import
 | 0,9 mm | [HandyArc MIG 160i](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/) declara carga de bobina hasta 0,9 mm; ESAB Weld 70S-6 publica parámetros específicos para 0,9 mm. | El máximo documentado de esa fuente no se puede aplicar a otra máquina; tampoco garantiza que 0,9 mm funcione para cualquier material o diámetro de punta. |
 | 1,0 mm y mayores | ESAB publica, por ejemplo, ER70S-6 de 1,0/1,1/1,14 mm y ER5356 de 1,0/1,2 mm. | Son diámetros de producto, no una promesa de compatibilidad con una soldadora compacta. Revisá capacidad de fuente, rodillo, liner, punta y carrete para el SKU concreto. |
 
-El rango de una hoja de producto tampoco es una recomendación de espesor universal. Contrastá corriente, tensión y alimentación de alambre publicados con la salida y el ciclo de la máquina; el valor máximo de amperaje no alcanza para decidir. Para tubular autoprotegido, consultá [alambre Flux](/alambre-flux/) y la guía de [MIG sin gas](/mig-sin-gas/).
+El rango de una hoja de producto tampoco es una recomendación de espesor universal. Contrastá corriente, tensión y alimentación de alambre publicados con la salida y el ciclo de la máquina; el valor máximo de amperaje no alcanza para decidir. Para tubular autoprotegido, consultá [alambre Flux](/soldadoras/alambre-flux/) y la guía de [MIG sin gas](/soldadoras/mig-sin-gas/).
 
 ## Gas y tamaño de bobina
 
@@ -58,7 +58,7 @@ El gas depende del material, la clasificación, el producto y el procedimiento. 
 
 La bobina también limita la compatibilidad: el diámetro de alambre no indica por sí solo el peso o diámetro exterior del carrete. Por ejemplo, la HandyArc MIG 160i de ESAB acepta bobinas de hasta 5 kg y alambre de hasta 0,9 mm; Lüsqtoff MIGDUAL200-9 publica un porta rollo de 5 a 15 kg. Son límites de esos modelos. Confirmá tipo de cubo, dimensiones, peso y orientación de carrete del equipo que vas a usar.
 
-Para comparar una fuente y los componentes de un conjunto MIG/MAG con gas, revisá la guía de [soldadora MIG con gas](/soldadora-mig-con-gas/).
+Para comparar una fuente y los componentes de un conjunto MIG/MAG con gas, revisá la guía de [soldadora MIG con gas](/soldadoras/soldadora-mig-con-gas/).
 
 | Ejemplo documentado | Gas | Bobina / presentación indicada |
 | :--- | :--- | :--- |

@@ -36,7 +36,7 @@ La tabla reúne datos publicados para variantes regionales identificables. La fa
 | DeWalt DWE560-AR | 1.400 W | 5.500 rpm | No informada en la documentación consultada |
 | Stanley SC16-AR | 1.600 W | 5.500 rpm | 65 mm |
 
-Estas cifras no forman un ranking de calidad: la capacidad de corte es solo una dimensión, y la potencia nominal no determina por sí sola el avance o el acabado. En la DWE560, además, la documentación consultada difiere entre 184 y 185 mm para el diámetro de disco; verificá el manual del código y la unidad ofrecida antes de comprar hojas. Para las tres, contrastá diámetro, eje y aplicación de la hoja con su documentación. La guía para [elegir una sierra circular](/sierras/circulares/), la [comparativa de guías](/sierras/guia-para-sierra-circular/) y la guía de [discos para sierra circular](/sierras/disco-para-sierra-circular/) cubren esas decisiones.
+Estas cifras no forman un ranking de calidad: la capacidad de corte es solo una dimensión, y la potencia nominal no determina por sí sola el avance o el acabado. En la DWE560, además, la documentación consultada difiere entre 184 y 185 mm para el diámetro de disco; verificá el manual del código y la unidad ofrecida antes de comprar hojas. Para las tres, contrastá diámetro, eje y aplicación de la hoja con su documentación. La guía para [elegir una sierra circular](/sierras/circulares/), la [comparativa de guías](/sierras/guia-para-sierra-circular/) y la guía de discos para sierra circular cubren esas decisiones.
 
 ## Para quién tiene sentido la GKS150
 

@@ -29,7 +29,7 @@ published: true
 
 | Modelo/código | Datos MMA publicados | Entrada y observaciones |
 | :--- | :--- | :--- |
-| [ESAB HandyArc 162i](/esab-handyarc-162i/) (0409616) | 160 A/20%; 92 A/60%; 72 A/100% | 220 V monofásica; 3,7 kg |
+| [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) (0409616) | 160 A/20%; 92 A/60%; 72 A/100% | 220 V monofásica; 3,7 kg |
 | Rogue LHN 202i (0742917) | 200 A/25%; 129 A/60%; 100 A/100% | 220 V monofásica; 8,1 kg |
 | Rogue LHN 242i (0409617) | 200 A/40%; 126 A/100% | 220 V monofásica; 8,9 kg |
 | Rebel EMP 215ic | 180 A/25% a 230 V | Entrada publicada 120/230 V; 20,6 kg. También es multiproceso. |
@@ -42,7 +42,7 @@ published: true
 
 ## MIG
 
-Si tu trabajo requiere aporte continuo con alambre macizo y protección gaseosa, revisá la guía de [MIG con gas](/soldadora-mig-con-gas/). Confirmá alambre, bobina, rodillos, torcha, gas y accesorios por código.
+Si tu trabajo requiere aporte continuo con alambre macizo y protección gaseosa, revisá la guía de [MIG con gas](/soldadoras/soldadora-mig-con-gas/). Confirmá alambre, bobina, rodillos, torcha, gas y accesorios por código.
 
 | Modelo/código | Procesos y puntos de ciclo publicados | Entrada y masa |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ Si tu trabajo requiere aporte continuo con alambre macizo y protección gaseosa,
 
 ## TIG
 
-Para una introducción al proceso, consultá la guía [TIG](/tig/). La corriente AC/DC es especialmente relevante para los materiales y aplicaciones que la ficha de la máquina especifica; la ET 200i es la línea documentada para [TIG AC/DC](/soldadora-tig-ac-dc/).
+Para una introducción al proceso, consultá la guía [TIG](/soldadoras/tig/). La corriente AC/DC es especialmente relevante para los materiales y aplicaciones que la ficha de la máquina especifica; la ET 200i es la línea documentada para [TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/).
 
 | Modelo/código | Proceso y funciones declarados | Ciclo TIG publicado | Entrada y observaciones |
 | :--- | :--- | :--- | :--- |

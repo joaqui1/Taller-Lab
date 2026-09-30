@@ -62,8 +62,8 @@ La página oficial de MEGAIRON100-8 lista una soldadora MEGAIRON100-8, una másc
 
 | Alternativa | Datos publicados relevantes | Cuándo tiene sentido compararla |
 | :--- | :--- | :--- |
-| [Iron 250](/lusqtoff-iron-250/) | 20–180 A; 180 A/40 % y 114 A/100 %; entrada 220 V; 30 A/6,5 kW nominales. | Si el consumible y el trabajo necesitan más salida que el máximo publicado de 105 A en MEGAIRON100-8, o si buscás un punto continuo explícito. Verificá que instalación, circuito y protección admitan los datos de entrada. “250” es parte del nombre del kit, no su salida publicada. |
-| [ESAB HandyArc 162i](/esab-handyarc-162i/) | MMA 20–160 A; 160 A/20 %, 92 A/60 % y 72 A/100 %; 220 V monofásica. | Si necesitás contrastar una fuente MMA portátil de mayor salida máxima. Sus puntos de ciclo no son los mismos que los de MEGAIRON100-8, por lo que no permiten afirmar cuál sostiene 105 A por más tiempo sin una ficha comparable a esa corriente. |
+| [Iron 250](/soldadoras/lusqtoff-iron-250/) | 20–180 A; 180 A/40 % y 114 A/100 %; entrada 220 V; 30 A/6,5 kW nominales. | Si el consumible y el trabajo necesitan más salida que el máximo publicado de 105 A en MEGAIRON100-8, o si buscás un punto continuo explícito. Verificá que instalación, circuito y protección admitan los datos de entrada. “250” es parte del nombre del kit, no su salida publicada. |
+| [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) | MMA 20–160 A; 160 A/20 %, 92 A/60 % y 72 A/100 %; 220 V monofásica. | Si necesitás contrastar una fuente MMA portátil de mayor salida máxima. Sus puntos de ciclo no son los mismos que los de MEGAIRON100-8, por lo que no permiten afirmar cuál sostiene 105 A por más tiempo sin una ficha comparable a esa corriente. |
 
 <!-- SOLDADORAS-OFERTAS -->
 
@@ -71,7 +71,7 @@ La página oficial de MEGAIRON100-8 lista una soldadora MEGAIRON100-8, una másc
 
 <!-- /SOLDADORAS-OFERTAS -->
 
-Para comparar otra opción MMA de capacidad cercana, revisá la [inverter de 160 A](/soldadora-inverter-160-amp/) según el rango y ciclo que necesitás.
+Para comparar otra opción MMA de capacidad cercana, revisá la [inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/) según el rango y ciclo que necesitás.
 
 **Análisis TallerLab:** elegí por el electrodo y la corriente que vas a usar, el tiempo de arco/pausa y la red disponible. El punto de 114 A/100 % de IRON-250 y los puntos 160/92/72 A de HandyArc 162i aportan contexto, pero no son una comparación bajo condiciones idénticas al dato 105 A/30 % de MEGAIRON100-8.
 
@@ -82,7 +82,7 @@ Para comparar otra opción MMA de capacidad cercana, revisá la [inverter de 160
 - **Documentación primaria:** [Lüsqtoff MEGAIRON100-8](https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8); [catálogo oficial Lüsqtoff 2020/21, IRON-100](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [manual oficial MEGAIRON100-8](https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf); [ESAB HandyArc 162i, ficha Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
+Hub de marca: [soldadoras Lusqtoff](/soldadoras/lusqtoff/).
 
 ## Cómo investigamos esta guía
 

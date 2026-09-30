@@ -64,7 +64,7 @@ La discrepancia importa al comparar una soldadora: un voltaje de carga y una cor
 
 **Desconocido.** No verificamos compatibilidad con alambre macizo y gas, espesor máximo soldable, vida útil ni opiniones de compradores. Tampoco inferimos que el kit de una publicación actual coincida con el contenido de la ficha histórica de un modelo discontinuado. Antes de pagar, pedí fotos de placa, conexiones, accesorios y garantía.
 
-Para comparar modelos, consultá la [familia MIG Flux Lusqtoff](/mig-lusqtoff/); para criterios generales del proceso y compatibilidad, la [guía de MIG sin gas](/mig-sin-gas/). Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
+Para comparar modelos, consultá la [familia MIG Flux Lusqtoff](/soldadoras/mig-lusqtoff/); para criterios generales del proceso y compatibilidad, la [guía de MIG sin gas](/soldadoras/mig-sin-gas/). Hub de marca: [soldadoras Lusqtoff](/soldadoras/lusqtoff/).
 
 ## Fuentes consultadas
 

@@ -41,7 +41,7 @@ Antes de elegir el electrodo, identificá el grado exacto del metal base mediant
 
 También anotá qué une la junta (mismo grado o materiales disímiles), el espesor y la preparación, y dónde trabajará la pieza: temperatura, humedad, sales/cloruros, químicos, limpieza requerida y consecuencias de una falla. Esos factores pueden exigir resistencia a la corrosión, control de calidad y procedimiento calificado; cuando el servicio sea crítico, confirmá la selección con ingeniería o con el procedimiento aplicable.
 
-Si no conocés el grado, si la unión es disímil o si el servicio es exigente, no elijas por el nombre comercial del acero: confirmá metal base, aporte y procedimiento antes de soldar. Si estás comparando otro proceso, consultá la guía de [soldadura TIG](/tig/).
+Si no conocés el grado, si la unión es disímil o si el servicio es exigente, no elijas por el nombre comercial del acero: confirmá metal base, aporte y procedimiento antes de soldar. Si estás comparando otro proceso, consultá la guía de [soldadura TIG](/soldadoras/tig/).
 
 ## Diferencias entre clasificaciones
 
@@ -65,7 +65,7 @@ Elegí diámetro y corriente según el espesor, la posición, el acceso y el con
 
 Estos son datos de las páginas de producto enlazadas, no una recomendación de amperaje para toda unión. Revisá también si tu equipo entrega la corriente y polaridad indicadas, el diámetro que admite y la alimentación disponible; en caso de discrepancia, prevalece la ficha vigente del paquete comprado.
 
-Si necesitás más margen de salida MMA, compará el consumible y su ciclo con una [inverter de 200 A](/soldadora-inverter-200-amp/).
+Si necesitás más margen de salida MMA, compará el consumible y su ciclo con una [inverter de 200 A](/soldadoras/soldadora-inverter-200-amp/).
 
 ## Contaminación, limpieza y servicio
 

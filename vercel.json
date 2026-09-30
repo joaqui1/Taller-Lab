@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "env": {
+    "SITE_URL": "https://www.tallerlab.com.ar"
+  }
+}

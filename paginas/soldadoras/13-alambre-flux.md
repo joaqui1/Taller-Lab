@@ -42,7 +42,7 @@ Los dos ejemplos de la tabla son autoprotegidos: Steelcore 71T-GS (E71T-GS) e In
 
 Un ejemplo aparte de FCAW-G es Lincoln UltraCore 71C, clasificado E71T-1C-H8/E71T-9C-H8: su ficha pide gas externo 100% CO₂, DC+ y presenta otros diámetros y parámetros. No mezcles ese montaje con un rollo autoprotegido ni apliques su polaridad a otros alambres. [Ficha Lincoln UltraCore 71C](https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af).
 
-Para elegir el equipo que alimentará el consumible, consultá la guía de [MIG sin gas](/mig-sin-gas/).
+Para elegir el equipo que alimentará el consumible, consultá la guía de [MIG sin gas](/soldadoras/mig-sin-gas/).
 
 ## Polaridad, rodillos y compatibilidad
 
@@ -64,7 +64,7 @@ Antes de pagar, verificá:
 
 Si la aplicación exige clasificación, posición o propiedades mecánicas concretas, seguí el procedimiento aprobado y la ficha vigente; los límites de espesor de una tabla comercial no certifican la unión para cualquier uso.
 
-Para ver equipos de la marca que trabaja con esta familia de consumibles, consultá [soldadoras MIG Flux Lusqtoff](/mig-lusqtoff/). Si comparás con alambre macizo, revisá [alambre MIG macizo](/alambre-para-soldadura-mig/).
+Para ver equipos de la marca que trabaja con esta familia de consumibles, consultá [soldadoras MIG Flux Lusqtoff](/soldadoras/mig-lusqtoff/). Si comparás con alambre macizo, revisá [alambre MIG macizo](/soldadoras/alambre-para-soldadura-mig/).
 
 | Producto/fuente | Clasificación publicada | Diámetro y rango publicado | Polaridad | Espesor máximo indicado por fabricante |
 | :--- | :--- | :--- | :--- | :--- |

@@ -74,7 +74,7 @@ El disco de 235 mm no entra en una sierra que admite 185 mm. Además de diámetr
 
 **Desconocido.** No probamos calidad de corte, calentamiento ni compatibilidad real de discos de terceros.
 
-Para comparar capacidades y tipos de máquina, consultá la guía de [sierra circular](/sierras/circulares/). También podés revisar [sierras circulares Black+Decker](/sierras/circulares-black-decker/) y los criterios para elegir [discos para sierra circular](/sierras/disco-para-sierra-circular/).
+Para comparar capacidades y tipos de máquina, consultá la guía de [sierra circular](/sierras/circulares/). También podés revisar [sierras circulares Black+Decker](/sierras/circulares-black-decker/) y los criterios para elegir discos para sierra circular.
 
 ## Fuentes consultadas
 

@@ -92,7 +92,7 @@ Estos tres Lüsqtoff ilustran decisiones distintas; no representan toda la gama 
 
 Al comparar cualquier marca, cotejá primero tono requerido y procesos compatibles; luego respuesta documentada para TIG de baja corriente, sensibilidad/delay, sensores, modo amolado, ventana, ajuste del arnés, batería, repuestos y marcado. La velocidad de conmutación, el número de sensores o el tamaño de visor aislados no bastan para establecer seguridad o calidad comparativa.
 
-Como EPP complementario, revisá también [guantes para soldar](/guantes/).
+Como EPP complementario, revisá también [guantes para soldar](/soldadoras/guantes/).
 
 **Dato documentado:** para los ST-1N, ST-1E y ST-1B, la tabla reproduce las páginas actuales de Lüsqtoff; el valor TIG en amperes procede del manual ST-1B. No se verificó certificación independiente de cada lote ni se ensayó la detección del ADF.
 
@@ -104,7 +104,7 @@ Como EPP complementario, revisá también [guantes para soldar](/guantes/).
 - **Documentación primaria de modelos:** [Lüsqtoff ST-1N](https://lusqtoff.com.ar/ver-producto/ST-1N); [Lüsqtoff ST-1E](https://lusqtoff.com.ar/ver-producto/ST-1E); [Lüsqtoff ST-1B](https://lusqtoff.com.ar/ver-producto/ST-1B); [manual Lüsqtoff ST-1B, clasificación TIG](https://lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1B/ST-1B.pdf); [catálogo Lüsqtoff de máscaras](https://lusqtoff.com.ar/ver-productos/14-mascaras-fotosensibles).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para ver una ficha de generación anterior y sus límites de vigencia: [Lusqtoff ST-1X](/mascara-lusqtoff-st-1x/).
+Para ver una ficha de generación anterior y sus límites de vigencia: [Lusqtoff ST-1X](/soldadoras/mascara-lusqtoff-st-1x/).
 
 ## Cómo investigamos esta guía
 

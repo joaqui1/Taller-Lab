@@ -24,7 +24,7 @@ published: true
 | Telwin Federal 803091 | Superficie para fuente y alimentador; medidas útiles no publicadas | Compartimento; dimensiones admitidas no publicadas | 980 × 500 mm exteriores | No publicada | 4: 2 giratorias y 2 fijas |
 | Lincoln K520/K520-1 | Compatibilidad limitada a modelos Lincoln listados en el manual | Hasta 20,6 cm de diámetro, 117 cm de alto y 45 kg | No publicada | 45 kg con soldadora; 90 kg con soldadora y cilindro | 2 traseras grandes y 2 delanteras giratorias |
 
-Para un sistema con cilindro, compará también una [soldadora MIG con gas](/soldadora-mig-con-gas/); para equipos compactos Flux, consultá [MIG Flux Lusqtoff](/mig-lusqtoff/).
+Para un sistema con cilindro, compará también una [soldadora MIG con gas](/soldadoras/soldadora-mig-con-gas/); para equipos compactos Flux, consultá [MIG Flux Lusqtoff](/soldadoras/mig-lusqtoff/).
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 

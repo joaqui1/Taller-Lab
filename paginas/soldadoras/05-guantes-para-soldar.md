@@ -74,7 +74,7 @@ Elegí primero el proceso y los riesgos reales; después compará el código de 
 - **Referencia de seguridad:** [OSHA, evaluación de EPP y guantes de cuero para chispas, calor y abrasión](https://www.osha.gov/training/library/personal-protective-equipment/assessment); [ESAB, guantes secos y sin agujeros antes de operar](https://na-email.esab.com/hubfs/ESAB_June2022/pdfs/0-5596%20GB.pdf).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando protección facial: [máscara de soldar fotosensible](/mascaras-fotosensibles/).
+Para seguir comparando protección facial: [máscara de soldar fotosensible](/soldadoras/mascaras-fotosensibles/).
 
 Guía general: [soldadoras](/soldadoras/).
 

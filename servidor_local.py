@@ -15,6 +15,7 @@ import urllib.parse
 from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
+from validacion_enlaces import validar_html
 from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_EDITORIAL, HUB_STEPS
 from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
@@ -31,12 +32,17 @@ ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
 ASSETS_DIR = ROOT_DIR / "assets"
 PORT = 8080
-_vercel_domain = os.environ.get("VERCEL_PROJECT_PRODUCTION_URL") or os.environ.get("VERCEL_URL")
-SITE_URL = (os.environ.get("SITE_URL") or (f"https://{_vercel_domain}" if _vercel_domain else f"http://localhost:{PORT}")).rstrip("/")
+IS_PRODUCTION = os.environ.get("VERCEL_ENV") == "production" or os.environ.get("APP_ENV") == "production"
+if IS_PRODUCTION and not os.environ.get("SITE_URL", "").strip():
+    raise ValueError("Producción requiere SITE_URL con el dominio canónico definitivo")
+SITE_URL = (os.environ.get("SITE_URL", "").strip() or f"http://localhost:{PORT}").rstrip("/")
 _site_parts = urllib.parse.urlsplit(SITE_URL)
 if (_site_parts.scheme not in ("http", "https") or not _site_parts.hostname
         or _site_parts.path or _site_parts.query or _site_parts.fragment or _site_parts.username):
     raise ValueError("SITE_URL debe ser un origen absoluto, por ejemplo https://tudominio.com")
+if IS_PRODUCTION and (_site_parts.scheme != "https" or _site_parts.hostname in ("localhost", "127.0.0.1", "::1")
+                      or _site_parts.hostname.endswith(".vercel.app")):
+    raise ValueError("SITE_URL de producción debe usar HTTPS y el dominio canónico propio")
 MARKDOWN = MarkdownIt("commonmark", {"html": True}).enable("table")
 
 # Cargar imagen de logo en Base64 para garantizar carga 100% instantánea sin fallos
@@ -856,6 +862,19 @@ INDEXABLE_PATHS = tuple(dict.fromkeys(
     + [article["url"] for article in ALL_ARTICLES]
 ))
 INDEXABLE_PATH_SET = set(INDEXABLE_PATHS)
+
+def validate_published_links():
+    """Falla al iniciar si cualquier artículo publicado contiene una ruta inválida."""
+    errors = []
+    for article in ALL_ARTICLES:
+        try:
+            validar_html(MARKDOWN.render(article["body"]), article["url"], INDEXABLE_PATH_SET, SITE_URL)
+        except ValueError as error:
+            errors.append(f"{article['filename']}: {error}")
+    if errors:
+        raise ValueError("Validación de publicación fallida:\n" + "\n".join(errors))
+
+validate_published_links()
 
 def absolute_url(path):
     return SITE_URL + path
@@ -1918,6 +1937,7 @@ def render_category_page(section_id):
 
 
 def render_article_page(article, embedded=False):
+    validar_html(MARKDOWN.render(article["body"]), article["url"], INDEXABLE_PATH_SET, SITE_URL)
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
@@ -1928,12 +1948,6 @@ def render_article_page(article, embedded=False):
         # Retirar solo preámbulos comunes que explican las etiquetas, no datos.
         clean_body = re.sub(r'^\*\*Dato documentado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
         clean_body = re.sub(r'^- \*\*Opiniones(?: de compradores)?:\*\* no se revisó una muestra verificable\.\n?', '', clean_body, flags=re.MULTILINE)
-    # No enlazar desde una guía publicada hacia borradores que devuelven 404.
-    clean_body = re.sub(
-        r'\[([^\]]+)\]\((/[^)]+)\)',
-        lambda m: m.group(0) if m.group(2) in INDEXABLE_PATH_SET else m.group(1),
-        clean_body,
-    )
     
     # 2. Formatear botones comerciales de Mercado Libre
     def render_ml_link(match):

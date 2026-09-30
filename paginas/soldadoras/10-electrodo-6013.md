@@ -26,7 +26,7 @@ published: true
 | E6013 | Buscás un electrodo rutílico de propósito general; las fichas consultadas documentan trabajos de taller, herrería y chapa fina. Confirmá aplicación y posición en el producto exacto. |
 | E7018 | El trabajo o procedimiento requiere un electrodo de bajo hidrógeno o propiedades/clasificación específicas. |
 
-Ninguno es mejor para todos los trabajos: elegí según metal base, junta, servicio y procedimiento. Compará la guía de [electrodo 7018](/electrodo-7018/).
+Ninguno es mejor para todos los trabajos: elegí según metal base, junta, servicio y procedimiento. Compará la guía de [electrodo 7018](/soldadoras/electrodo-7018/).
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
@@ -55,7 +55,7 @@ Estos rangos pertenecen a productos y fichas concretos. El ejemplo central es im
 
 **Análisis TallerLab:** tomá el rango de la caja/ficha del electrodo exacto y cotejalo con la corriente que la fuente puede sostener, diámetro, posición, junta y trabajo. El amperaje máximo de la soldadora o una regla por milímetro no reemplazan las indicaciones del consumible.
 
-Como referencia de equipo, consultá la [ESAB HandyArc 162i](/esab-handyarc-162i/) y compará su ciclo con el rango del electrodo. Una [inverter de 160 A](/soldadora-inverter-160-amp/) puede ser suficiente para algunos usos documentados; si el rango requerido o el ciclo queda corto, evaluá [200 A](/soldadora-inverter-200-amp/) según la ficha y la instalación eléctrica.
+Como referencia de equipo, consultá la [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) y compará su ciclo con el rango del electrodo. Una [inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/) puede ser suficiente para algunos usos documentados; si el rango requerido o el ciclo queda corto, evaluá [200 A](/soldadoras/soldadora-inverter-200-amp/) según la ficha y la instalación eléctrica.
 
 ## Conservación y compatibilidad
 

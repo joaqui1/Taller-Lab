@@ -77,7 +77,7 @@ Si trabajás repetidamente con 3,2 o 4 mm, compará los factores de servicio del
 
 <!-- /SOLDADORAS-OFERTAS -->
 
-Los tres datos vienen del mismo formato de fichas del fabricante, pero no permiten afirmar por sí solos resultados equivalentes a una corriente dada. Para comparar con otras capacidades, consultá la [soldadora inverter de 160 A](/soldadora-inverter-160-amp/) y la [inverter de 200 A](/soldadora-inverter-200-amp/).
+Los tres datos vienen del mismo formato de fichas del fabricante, pero no permiten afirmar por sí solos resultados equivalentes a una corriente dada. Para comparar con otras capacidades, consultá la [soldadora inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/) y la [inverter de 200 A](/soldadoras/soldadora-inverter-200-amp/).
 
 ## Kit incluido, alternativas y qué comparar
 

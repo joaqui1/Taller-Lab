@@ -28,7 +28,7 @@ Considerá un E7018 cuando el trabajo requiera un electrodo de bajo hidrógeno o
 | E7018 H4R | ESAB Atom Arc 7018 documenta bajo hidrógeno y resistencia a la absorción de humedad; la clasificación completa y el procedimiento aplicable son determinantes | Aceros al carbono o de baja aleación cuando el trabajo exige verificar esas propiedades |
 | E6013 | ESAB 6013 SV es rutílico y destaca facilidad de aplicación y arco estable; el fabricante también señala chapas delgadas, carrocerías y herrería | Trabajos generales o chapa fina, confirmando la ficha del producto exacto |
 
-No hay un ganador universal: compará clasificación, corriente/polaridad, diámetro y requisitos del trabajo. [Electrodo 6013](/electrodo-6013/).
+No hay un ganador universal: compará clasificación, corriente/polaridad, diámetro y requisitos del trabajo. [Electrodo 6013](/soldadoras/electrodo-6013/).
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 
@@ -51,13 +51,13 @@ Los rangos siguientes corresponden a la ficha de ESAB Atom Arc 7018 México. No 
 | ESAB Atom Arc 7018, hoja México | 2,4 mm | 70–110 A |
 | ESAB Atom Arc 7018, hoja México | 3,2 mm | 90–160 A |
 | ESAB Atom Arc 7018, hoja México | 4,0 mm | 130–220 A |
-| [ESAB HandyArc 162i](/esab-handyarc-162i/), salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
+| [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/), salida MMA | Corriente máxima de fuente | 160 A al 20 %; 92 A al 60 %; 72 A al 100 % |
 
 **Dato documentado:** ESAB clasifica Atom Arc 7018 como E7018 H4R y publica los rangos por diámetro de la tabla. La ficha de HandyArc 162i publica corriente nominal de salida de 160 A al 20 % de ciclo, 92 A al 60 % y 72 A al 100 % a 220 V.
 
 **Análisis TallerLab:** los 160 A máximos de la máquina no son un ajuste continuo: el ciclo publicado baja a 92 A/60 % y 72 A/100 %. Además, el rango de 4,0 mm de la ficha del electrodo se extiende a 220 A, por encima de la salida máxima de esta máquina. Eso compara dos hojas técnicas, no dicta que un diámetro sea adecuado para una junta o que una fuente produzca el resultado requerido.
 
-Si el rango o el ciclo de trabajo de una máquina no cubre la necesidad definida, compará [soldadoras inverter de 200 A](/soldadora-inverter-200-amp/) y verificá la ficha del modelo exacto.
+Si el rango o el ciclo de trabajo de una máquina no cubre la necesidad definida, compará [soldadoras inverter de 200 A](/soldadoras/soldadora-inverter-200-amp/) y verificá la ficha del modelo exacto.
 
 **Desconocido:** Atom Arc 7018 H4R es un producto concreto y su rango no se aplica automáticamente a cualquier E7018, marca o lote local. No se indica un procedimiento de secado/horneado universal; seguir etiqueta, empaque y manual del consumible exacto, especialmente para electrodos bajo hidrógeno.
 

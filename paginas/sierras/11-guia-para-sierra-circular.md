@@ -71,7 +71,7 @@ La compatibilidad con rieles no se deduce de que la sierra tenga una guía paral
 
 **Desconocido.** No medimos desviación, repetibilidad ni calidad del borde con guías de terceros. La tabla describe lo que indican fichas o manuales, no resultados de prueba.
 
-Para comparar criterios generales, consultá [cómo elegir una sierra circular](/sierras/circulares/) y la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/).
+Para comparar criterios generales, consultá [cómo elegir una sierra circular](/sierras/circulares/) y la guía de disco para sierra circular.
 
 ## Fuentes consultadas
 

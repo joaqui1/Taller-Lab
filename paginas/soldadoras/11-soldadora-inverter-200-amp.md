@@ -70,10 +70,10 @@ Usá estas guías para comparar opciones próximas o alternativas por proceso y 
 
 | Modelo o guía | Cuándo compararlo | Ficha |
 | :--- | :--- | :--- |
-| Inverter de 160 A | Si el trabajo puede quedar dentro de un rango menor y priorizás peso o servicio suficiente a la corriente real | [Soldadora inverter de 160 A](/soldadora-inverter-160-amp/) |
-| Dogo 180 | Como referencia de rango máximo menor y ciclo por diámetro publicado | [Dogo 180](/soldadora-dogo-180/) |
-| Lusqtoff Iron 250 | Si el procedimiento exige más margen máximo de salida; cotejá ciclo y alimentación del modelo exacto | [Lusqtoff Iron 250](/lusqtoff-iron-250/) |
-| ESAB HandyArc 162i | Para contrastar ciclo documentado en una fuente MMA compacta | [ESAB HandyArc 162i](/esab-handyarc-162i/) |
+| Inverter de 160 A | Si el trabajo puede quedar dentro de un rango menor y priorizás peso o servicio suficiente a la corriente real | [Soldadora inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/) |
+| Dogo 180 | Como referencia de rango máximo menor y ciclo por diámetro publicado | [Dogo 180](/soldadoras/soldadora-dogo-180/) |
+| Lusqtoff Iron 250 | Si el procedimiento exige más margen máximo de salida; cotejá ciclo y alimentación del modelo exacto | [Lusqtoff Iron 250](/soldadoras/lusqtoff-iron-250/) |
+| ESAB HandyArc 162i | Para contrastar ciclo documentado en una fuente MMA compacta | [ESAB HandyArc 162i](/soldadoras/esab-handyarc-162i/) |
 
 <!-- SOLDADORAS-OFERTAS -->
 

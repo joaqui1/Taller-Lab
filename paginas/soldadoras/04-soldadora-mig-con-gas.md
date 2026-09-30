@@ -29,7 +29,7 @@ Conviene cuando soldás en un lugar protegido del viento, buscás aporte continu
 
 El gas de protección requiere cilindro, regulador/caudalímetro y una conexión sin fugas; una ráfaga puede desplazar la protección. Para exterior ventoso, un alambre tubular autoprotegido puede ser más práctico si máquina y consumible son compatibles. FLUX genera escoria y no es lo mismo que MIG/MAG con alambre macizo.
 
-No supongas que una máquina cuyo nombre dice “MIG” acepta cualquier alambre macizo ni que el modo FLUX sirve con gas. Confirmá en el manual proceso, polaridad, diámetro, rodillo y punta. Para comparar procesos, consultá [MIG sin gas](/mig-sin-gas/).
+No supongas que una máquina cuyo nombre dice “MIG” acepta cualquier alambre macizo ni que el modo FLUX sirve con gas. Confirmá en el manual proceso, polaridad, diámetro, rodillo y punta. Para comparar procesos, consultá [MIG sin gas](/soldadoras/mig-sin-gas/).
 
 ## MIG con gas para chapa fina
 
@@ -48,7 +48,7 @@ El alambre macizo con gas puede servir para chapa fina si el equipo permite ajus
 
 ## Gas, alambre y accesorios necesarios
 
-Para completar el sistema, cada pieza tiene que corresponder al material, diámetro y consumible elegidos. Por ejemplo, la ficha de ESAB Weld 70S-6 publica gases C1 y M21 para ese alambre específico; no es una recomendación universal. Consultá [alambre para soldadura MIG](/alambre-para-soldadura-mig/) y luego el manual del equipo. Para un trabajo en aluminio, revisá también la guía de [soldadora para aluminio](/para-aluminio/).
+Para completar el sistema, cada pieza tiene que corresponder al material, diámetro y consumible elegidos. Por ejemplo, la ficha de ESAB Weld 70S-6 publica gases C1 y M21 para ese alambre específico; no es una recomendación universal. Consultá [alambre para soldadura MIG](/soldadoras/alambre-para-soldadura-mig/) y luego el manual del equipo. Para un trabajo en aluminio, revisá también la guía de [soldadora para aluminio](/soldadoras/para-aluminio/).
 
 | Componente | Qué debe coincidir | ESAB HandyArc MIG 160i, suministro documentado | Lüsqtoff MIGDUAL200-9, suministro documentado |
 | :--- | :--- | :--- | :--- |
@@ -86,7 +86,7 @@ No hay un precio total fiable que se pueda calcular solo desde estas fichas: no 
 
 **Análisis TallerLab:** calculá **fuente + consumibles iniciales + suministro de gas + accesorios faltantes + puesta a punto de la red + reposición prevista**. Repetí la suma para los dos equipos con la misma mezcla y tamaño de cilindro, el mismo peso de carrete y los accesorios que efectivamente usarás. No usamos los precios que las páginas comerciales puedan mostrar porque cambian y no constituyen una cotización entregada al usuario.
 
-Si necesitás mover la fuente y el cilindro dentro del taller, contemplá también un [carro para soldadora MIG](/carro-para-soldadora-mig/) en el equipamiento completo.
+Si necesitás mover la fuente y el cilindro dentro del taller, contemplá también un [carro para soldadora MIG](/soldadoras/carro-para-soldadora-mig/) en el equipamiento completo.
 
 **Desconocido:** no se informa qué regulador, cilindro, gas ni carrete incluye cada vendedor ni qué mezcla conviene para una aleación y unión concretas. No se probó arco ni se recomendaron parámetros de procedimiento.
 

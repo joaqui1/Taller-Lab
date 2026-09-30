@@ -74,4 +74,4 @@ La ficha del 8DK enumera la soldadora SML120-8D, máscara ST-1X, dos escuadras L
 - **Publicación comercial consultada para contraste:** [Lüsqtoff Bera, SML120-8DK](https://www.lusqtoffbera.com.ar/productos/soldadora-inverter-dual-mig-mma-flux-electrodo-120a-lusqtoff/), que publica 220 V; no sustituye placa ni manual del fabricante.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Familia: [MIG Flux Lusqtoff](/mig-lusqtoff/). Proceso y compatibilidad: [MIG sin gas](/mig-sin-gas/). Marca: [soldadoras Lusqtoff](/lusqtoff/).
+Familia: [MIG Flux Lusqtoff](/soldadoras/mig-lusqtoff/). Proceso y compatibilidad: [MIG sin gas](/soldadoras/mig-sin-gas/). Marca: [soldadoras Lusqtoff](/soldadoras/lusqtoff/).

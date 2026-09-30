@@ -54,7 +54,7 @@ En Argentina, las páginas oficiales consultadas incluyen ST-1X en kits como [SM
 
 Las fuentes consultadas no identifican números de pieza compatibles para mica exterior/interior o filtro de recambio ST-1X, ni especifican de forma inequívoca el tipo y reemplazabilidad de su batería. No extrapoles la batería CR2032 que indica el manual de ST-1B ni medidas genéricas de mica. Antes de comprar repuestos, pedí código de parte y confirmación escrita del fabricante/servicio técnico para el modelo exacto.
 
-Hub de marca: [soldadoras/equipamiento Lusqtoff](/lusqtoff/).
+Hub de marca: [soldadoras/equipamiento Lusqtoff](/soldadoras/lusqtoff/).
 
 **Marcado disponible:** el catálogo histórico 2020/21 muestra junto a ST-1X un sello gráfico “APROBADO American Welding Society”. En las fuentes revisadas no aparece para ST-1X una declaración concreta de norma/certificación CE, ANSI o EN 379 que permita verificar alcance y conformidad del ejemplar. El sello del catálogo no sustituye revisar el marcado real del filtro y casco: fotografialo y cotejalo con la documentación de esa unidad. No trasladar a ST-1X las declaraciones de otra máscara.
 
@@ -67,7 +67,7 @@ Hub de marca: [soldadoras/equipamiento Lusqtoff](/lusqtoff/).
 - Confirmá batería y repuestos por escrito para ST-1X. No compres micas por parecido de tamaño ni asumas que la batería es reemplazable.
 - Revisá el marcado real, accesorios, condición, garantía aplicable al stock usado/antiguo y política de devolución. La garantía anunciada para otra versión no prueba cobertura de este ejemplar.
 
-Para elegir tecnología, sombra, sensores y funciones entre máscaras de distintos tipos, consultá [máscaras fotosensibles](/mascaras-fotosensibles/).
+Para elegir tecnología, sombra, sensores y funciones entre máscaras de distintos tipos, consultá [máscaras fotosensibles](/soldadoras/mascaras-fotosensibles/).
 
 ## Fuentes consultadas
 

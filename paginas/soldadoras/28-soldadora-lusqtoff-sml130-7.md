@@ -58,10 +58,10 @@ La familia oficial hoy presenta la **SML120-8D** y la **SML150-8D** como opcione
 
 | Alternativa | Diferencia documentada que puede importar | Qué confirmar antes de elegir |
 | :--- | :--- | :--- |
-| [SML120-8D](/lusqtoff-sml120-8d/) | La documentación argentina del kit enumera FLUX/MIG, MMA y Lift TIG; para FLUX publica hasta 120 A. | La oferta consultada del kit publica 200 V, mientras la unidad SML120-8D tiene documentación/publicaciones con tensiones distintas. Confirmar placa/manual del SKU exacto; verificar diámetro/rodillo, carrete, torcha y contenido del kit. |
-| [SML150-8](/lusqtoff-sml150-8/) | La página oficial SML150-8D publica MIG/FLUX hasta 120 A y también MMA hasta 100 A. | Confirmar disponibilidad y garantía actuales, tensión de placa, ciclo según proceso, diámetro y accesorios incluidos en la variante concreta. La unidad y el kit no necesariamente traen lo mismo. |
+| [SML120-8D](/soldadoras/lusqtoff-sml120-8d/) | La documentación argentina del kit enumera FLUX/MIG, MMA y Lift TIG; para FLUX publica hasta 120 A. | La oferta consultada del kit publica 200 V, mientras la unidad SML120-8D tiene documentación/publicaciones con tensiones distintas. Confirmar placa/manual del SKU exacto; verificar diámetro/rodillo, carrete, torcha y contenido del kit. |
+| [SML150-8](/soldadoras/lusqtoff-sml150-8/) | La página oficial SML150-8D publica MIG/FLUX hasta 120 A y también MMA hasta 100 A. | Confirmar disponibilidad y garantía actuales, tensión de placa, ciclo según proceso, diámetro y accesorios incluidos en la variante concreta. La unidad y el kit no necesariamente traen lo mismo. |
 
-Si la SML130-7 ya está instalada, la discontinuación no obliga a cambiarla: la decisión depende de su estado y de que puedas conseguir consumibles compatibles y servicio para esa unidad. Para criterios comunes de alambre tubular, consultá [MIG sin gas](/mig-sin-gas/); la [familia MIG Flux Lusqtoff](/mig-lusqtoff/) ubica estos modelos dentro de la línea. Hub de marca: [soldadoras Lusqtoff](/lusqtoff/).
+Si la SML130-7 ya está instalada, la discontinuación no obliga a cambiarla: la decisión depende de su estado y de que puedas conseguir consumibles compatibles y servicio para esa unidad. Para criterios comunes de alambre tubular, consultá [MIG sin gas](/soldadoras/mig-sin-gas/); la [familia MIG Flux Lusqtoff](/soldadoras/mig-lusqtoff/) ubica estos modelos dentro de la línea. Hub de marca: [soldadoras Lusqtoff](/soldadoras/lusqtoff/).
 
 <!-- SOLDADORAS-OFERTAS -->
 

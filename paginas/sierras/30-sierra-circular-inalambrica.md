@@ -44,7 +44,7 @@ Medí el mayor espesor que vas a cortar y definí si necesitás un corte recto o
 - **Guía y apoyo:** verificá si la máquina admite el riel o tope que pensás usar. No todas las circulares a batería son compatibles con un mismo sistema de guía.
 - **Peso armado:** compará la herramienta con la batería concreta que usarías; el dato sin batería no representa el peso que vas a sostener.
 
-La guía general de [sierra circular](/sierras/circulares/) explica cómo comparar profundidad, disco y apoyo; para revisar consumibles, consultá también [discos para sierra circular](/sierras/disco-para-sierra-circular/).
+La guía general de [sierra circular](/sierras/circulares/) explica cómo comparar profundidad, disco y apoyo; para revisar consumibles, consultá también discos para sierra circular.
 
 ## Batería, plataforma y contenido del kit
 

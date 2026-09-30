@@ -63,7 +63,7 @@ published: true
 
 Las guías E6013 y E7018 contienen aplicaciones, clasificación y contexto de cada consumible. Este cruce usa sólo rangos publicados para productos concretos y los compara con el rango MMA **20–160 A** y los puntos de ciclo ESAB para la HandyArc 162i: **160 A/20 %, 92 A/60 % y 72 A/100 %**.
 
-Antes de la tabla, compará las guías de [electrodo 6013](/electrodo-6013/) y [electrodo 7018](/electrodo-7018/) para revisar clasificación, polaridad y rango propio del consumible.
+Antes de la tabla, compará las guías de [electrodo 6013](/soldadoras/electrodo-6013/) y [electrodo 7018](/soldadoras/electrodo-7018/) para revisar clasificación, polaridad y rango propio del consumible.
 
 | Consumible documentado y diámetro | Rango de corriente de su ficha | Cruce con los puntos publicados de HandyArc 162i |
 | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ La ficha oficial consultada destaca el ajuste de corriente/diámetro del electro
 
 **Desconocido:** no se inspeccionó unidad física, precio local, contenido de una oferta ni resultados de soldadura. La página comercial no basta para confirmar qué pinza, cable u otros accesorios incluye cada paquete.
 
-Si comparás MMA por ciclo y corriente de trabajo, revisá la guía de [inverter de 160 A](/soldadora-inverter-160-amp/). Para otros modelos y procesos de la marca, consultá [soldadoras ESAB](/esab/).
+Si comparás MMA por ciclo y corriente de trabajo, revisá la guía de [inverter de 160 A](/soldadoras/soldadora-inverter-160-amp/). Para otros modelos y procesos de la marca, consultá [soldadoras ESAB](/soldadoras/esab/).
 
 <!-- SOLDADORAS-OFERTAS -->
 

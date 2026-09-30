@@ -23,7 +23,7 @@ published: true
 
 ## TIG vs MIG para aluminio
 
-| Si priorizás… | [TIG AC/DC](/soldadora-tig-ac-dc/) | [MIG con gas](/soldadora-mig-con-gas/) preparado para aluminio |
+| Si priorizás… | [TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) | [MIG con gas](/soldadoras/soldadora-mig-con-gas/) preparado para aluminio |
 | :--- | :--- | :--- |
 | Cordones cortos, control del baño, pieza fina o visible | Suele ser la opción más controlable; requiere alimentar la varilla por separado y coordinación manual. | Puede ser más exigente en piezas delgadas por la velocidad de aporte y el calor; modos pulsados pueden ayudar sólo si fuente y procedimiento los documentan. |
 | Cordones largos, repetición o mayor deposición | Posible, pero avanzar y aportar varilla manualmente reduce el ritmo. | Mejor orientado a productividad; el alambre continuo permite mantener ritmo y repetibilidad una vez ajustado. |
@@ -36,7 +36,7 @@ published: true
 
 Los dos procesos pueden soldar aluminio, pero resuelven trabajos distintos. La guía comparativa de ESAB describe TIG AC para más control en piezas finas, geometrías ajustadas y cordones visibles; MIG para depositar más alambre y avanzar con mayor productividad en uniones largas, repetitivas o secciones medianas. Como referencia general de esa guía, ubica aplicaciones típicas TIG en 1–3 mm y MIG en 3–12 mm; **no son límites universales ni promesa de capacidad de una fuente determinada**.
 
-Para ampliar las opciones de [soldadoras TIG](/tig/), revisá ciclo, rango y funciones del modelo exacto.
+Para ampliar las opciones de [soldadoras TIG](/soldadoras/tig/), revisá ciclo, rango y funciones del modelo exacto.
 
 Una spool gun es una antorcha MIG con un carrete pequeño montado en la propia pistola. Al reducir el recorrido del alambre blando, limita problemas de alimentación como pliegues o “nido de pájaro”; no convierte cualquier MIG en compatible: la fuente debe tener conexión, mando y modo admitidos por su fabricante. Para recorridos largos o trabajo de volumen, los fabricantes también documentan sistemas push-pull/alimentadores específicos.
 
@@ -79,7 +79,7 @@ Para los equipos y referencias de aluminio consultados, ESAB indica argón de al
 
 ### Varilla TIG o alambre MIG
 
-Elegí primero según la aleación base y el servicio, mediante una tabla de selección del fabricante del consumible; 4043, 5356 y 5183 **no son intercambiables por defecto**. ESAB caracteriza 4043 como aporte Al-Si de uso común, con buena fluidez y menor sensibilidad a fisuración en las aplicaciones en que su tabla lo admite; no lo recomienda para piezas que se anodizarán. 5356, una aleación Al-Mg, puede ser preferible cuando la selección lo autoriza y se busca mayor resistencia al corte o mejor coincidencia de color tras anodizado, pero ESAB advierte sobre servicio sostenido por encima de aproximadamente 65 °C. Para aleación base 5083 y otras de alto magnesio, ESAB señala que 5183 fue desarrollado para responder a requisitos de resistencia que 5356 puede no alcanzar consistentemente. Para MIG, consultá también la guía de [alambre MIG](/alambre-para-soldadura-mig/) y confirmá siempre la pareja base/aporte y temperatura en su ficha.
+Elegí primero según la aleación base y el servicio, mediante una tabla de selección del fabricante del consumible; 4043, 5356 y 5183 **no son intercambiables por defecto**. ESAB caracteriza 4043 como aporte Al-Si de uso común, con buena fluidez y menor sensibilidad a fisuración en las aplicaciones en que su tabla lo admite; no lo recomienda para piezas que se anodizarán. 5356, una aleación Al-Mg, puede ser preferible cuando la selección lo autoriza y se busca mayor resistencia al corte o mejor coincidencia de color tras anodizado, pero ESAB advierte sobre servicio sostenido por encima de aproximadamente 65 °C. Para aleación base 5083 y otras de alto magnesio, ESAB señala que 5183 fue desarrollado para responder a requisitos de resistencia que 5356 puede no alcanzar consistentemente. Para MIG, consultá también la guía de [alambre MIG](/soldadoras/alambre-para-soldadura-mig/) y confirmá siempre la pareja base/aporte y temperatura en su ficha.
 
 Usá la forma correspondiente al proceso: varilla TIG para aporte manual, o alambre continuo de carrete/mini-bobina para MIG. Un código de aleación como 4043 o 5356 no define por sí mismo diámetro, gas, polaridad ni parámetros de una soldadura específica.
 

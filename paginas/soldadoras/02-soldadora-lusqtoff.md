@@ -25,8 +25,8 @@ Hub de modelos Lüsqtoff: las ramas separan MMA, MIG/MAG con gas, Flux y TIG. La
 
 | Modelo | Proceso | Para qué sirve | Ficha |
 | :--- | :--- | :--- | :--- |
-| Iron 100 | MMA | Soldadura con electrodo revestido en trabajos compatibles con la capacidad del modelo | [Iron 100](/lusqtoff-iron-100/) |
-| Iron 250 | MMA; TIG por raspaje figura en catálogo histórico | Comparar una fuente MMA de la familia Iron; verificar función y código exacto de la oferta | [Iron 250](/lusqtoff-iron-250/) |
+| Iron 100 | MMA | Soldadura con electrodo revestido en trabajos compatibles con la capacidad del modelo | [Iron 100](/soldadoras/lusqtoff-iron-100/) |
+| Iron 250 | MMA; TIG por raspaje figura en catálogo histórico | Comparar una fuente MMA de la familia Iron; verificar función y código exacto de la oferta | [Iron 250](/soldadoras/lusqtoff-iron-250/) |
 
 <!-- SOLDADORAS-OFERTAS -->
 
@@ -38,7 +38,7 @@ Hub de modelos Lüsqtoff: las ramas separan MMA, MIG/MAG con gas, Flux y TIG. La
 
 | Modelo | Proceso | Para qué sirve | Ficha |
 | :--- | :--- | :--- | :--- |
-| MIGDUAL200-9 | MIG con gas, MMA y pulso MIG según ficha | Comparar la fuente y los accesorios necesarios para completar el sistema | [Guía MIG con gas y ficha del modelo](/soldadora-mig-con-gas/) |
+| MIGDUAL200-9 | MIG con gas, MMA y pulso MIG según ficha | Comparar la fuente y los accesorios necesarios para completar el sistema | [Guía MIG con gas y ficha del modelo](/soldadoras/soldadora-mig-con-gas/) |
 
 <!-- SOLDADORAS-OFERTAS -->
 
@@ -48,14 +48,14 @@ Hub de modelos Lüsqtoff: las ramas separan MMA, MIG/MAG con gas, Flux y TIG. La
 
 ## Flux
 
-La línea Flux agrupa los modelos SML comparados en la [familia MIG/Flux Lüsqtoff](/mig-lusqtoff/). Flux autoprotegido no equivale a MIG/MAG con alambre macizo y gas; consultá también la guía de [MIG sin gas](/mig-sin-gas/) y confirmá el proceso que admite cada código.
+La línea Flux agrupa los modelos SML comparados en la [familia MIG/Flux Lüsqtoff](/soldadoras/mig-lusqtoff/). Flux autoprotegido no equivale a MIG/MAG con alambre macizo y gas; consultá también la guía de [MIG sin gas](/soldadoras/mig-sin-gas/) y confirmá el proceso que admite cada código.
 
 | Modelo | Proceso documentado | Para qué sirve | Ficha |
 | :--- | :--- | :--- | :--- |
-| Familia SML | Flux y variantes según modelo | Comparar diferencias de proceso, ciclo publicado, estado y kit | [Familia MIG/Flux Lüsqtoff](/mig-lusqtoff/) |
-| SML120-8D / 8DK | FLUX; la unidad 8D también declara MMA y Lift TIG | Distinguir la unidad del kit 8DK y sus accesorios | [SML120-8D y variante 8DK](/lusqtoff-sml120-8d/) |
-| SML130-7 | FCAW-S con alambre tubular autoprotegido; discontinuada | Revisar estado, consumible y garantía si aparece una unidad usada o remanente | [SML130-7](/lusqtoff-sml130-7/) |
-| SML150-8 / 8D | FLUX; la variante 8D también declara MMA | Comparar variante y generación; la SML150-8 figura discontinuada | [SML150-8 y SML150-8D](/lusqtoff-sml150-8/) |
+| Familia SML | Flux y variantes según modelo | Comparar diferencias de proceso, ciclo publicado, estado y kit | [Familia MIG/Flux Lüsqtoff](/soldadoras/mig-lusqtoff/) |
+| SML120-8D / 8DK | FLUX; la unidad 8D también declara MMA y Lift TIG | Distinguir la unidad del kit 8DK y sus accesorios | [SML120-8D y variante 8DK](/soldadoras/lusqtoff-sml120-8d/) |
+| SML130-7 | FCAW-S con alambre tubular autoprotegido; discontinuada | Revisar estado, consumible y garantía si aparece una unidad usada o remanente | [SML130-7](/soldadoras/lusqtoff-sml130-7/) |
+| SML150-8 / 8D | FLUX; la variante 8D también declara MMA | Comparar variante y generación; la SML150-8 figura discontinuada | [SML150-8 y SML150-8D](/soldadoras/lusqtoff-sml150-8/) |
 
 <!-- SOLDADORAS-OFERTAS -->
 
@@ -65,13 +65,13 @@ La línea Flux agrupa los modelos SML comparados en la [familia MIG/Flux Lüsqto
 
 ## TIG
 
-Además del Lift TIG declarado en la SML120-8D, Lüsqtoff ofrece referencias dedicadas TIG DC y TIG AC/DC en la documentación consultada. Elegí por corriente, tipo de salida y red disponible; para comparar funciones, consultá la [guía TIG](/tig/) y la rama [TIG AC/DC](/soldadora-tig-ac-dc/).
+Además del Lift TIG declarado en la SML120-8D, Lüsqtoff ofrece referencias dedicadas TIG DC y TIG AC/DC en la documentación consultada. Elegí por corriente, tipo de salida y red disponible; para comparar funciones, consultá la [guía TIG](/soldadoras/tig/) y la rama [TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/).
 
 | Modelo | Proceso documentado | Para qué sirve | Ficha |
 | :--- | :--- | :--- | :--- |
-| PROTIG180-8 | TIG y MMA; salida AC/DC no confirmada en la ficha consultada | Referencia TIG DC; verificá funciones y accesorios del código exacto | [Guía TIG](/tig/) |
-| SMARTTIG-ACDC-20 | TIG AC/DC y MMA | Comparar una opción AC/DC monofásica; confirmar controles y contenido del kit | [Guía TIG AC/DC](/soldadora-tig-ac-dc/) |
-| TIG350ACDC-9 | TIG AC/DC y MMA | Alternativa trifásica: requiere red de 380 V según ficha | [Guía TIG AC/DC](/soldadora-tig-ac-dc/) |
+| PROTIG180-8 | TIG y MMA; salida AC/DC no confirmada en la ficha consultada | Referencia TIG DC; verificá funciones y accesorios del código exacto | [Guía TIG](/soldadoras/tig/) |
+| SMARTTIG-ACDC-20 | TIG AC/DC y MMA | Comparar una opción AC/DC monofásica; confirmar controles y contenido del kit | [Guía TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) |
+| TIG350ACDC-9 | TIG AC/DC y MMA | Alternativa trifásica: requiere red de 380 V según ficha | [Guía TIG AC/DC](/soldadoras/soldadora-tig-ac-dc/) |
 
 <!-- AUDITORIA_EDITORIAL_178 -->
 

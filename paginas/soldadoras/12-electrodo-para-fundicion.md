@@ -92,7 +92,7 @@ Antes de comprar, cotejá en la ficha vigente y en el envase:
 - **Referencia técnica:** [TWI: tipos de fundición y soldabilidad](https://www.twi-global.com/technical-knowledge/faqs/faq-what-are-the-different-types-of-cast-iron-which-can-be-welded).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Cuando la aplicación necesite una fuente MMA, contrastá consumible y ciclo con una [soldadora inverter de 200 A](/soldadora-inverter-200-amp/).
+Cuando la aplicación necesite una fuente MMA, contrastá consumible y ciclo con una [soldadora inverter de 200 A](/soldadoras/soldadora-inverter-200-amp/).
 
 Guía general: [soldadoras](/soldadoras/).
 

@@ -53,7 +53,7 @@ Estas referencias tienen fichas publicadas por Bosch Professional Argentina o Ma
 | Modelo y página del fabricante | Disco | Potencia | Velocidad en vacío | Peso publicado | Tensión publicada |
 | :--- | ---: | ---: | ---: | ---: | :--- |
 | [Bosch GWS 850, cód. 0 601 377 5H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0)) [Ver precio en Mercado Libre](https://meli.la/1hDoFyN){:target="_blank" rel="sponsored noopener"} | 115 mm | 850 W | 11.000 rpm | 2 kg | 220 V |
-| [Makita GA4534](/amoladoras/makita/) ([ficha Makita](https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/)) [Ver precio en Mercado Libre](https://meli.la/1uKuW67){:target="_blank" rel="sponsored noopener"} | 115 mm | 720 W | 11.000 rpm | 1,98–2,31 kg | No indicada en la ficha consultada |
+| Makita GA4534 ([ficha Makita](https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/)) [Ver precio en Mercado Libre](https://meli.la/1uKuW67){:target="_blank" rel="sponsored noopener"} | 115 mm | 720 W | 11.000 rpm | 1,98–2,31 kg | No indicada en la ficha consultada |
 | [Bosch GWS 9-125, cód. 0 601 3A9 0H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0)) | 125 mm | 900 W | 11.000 rpm | 1,9 kg | 220 V |
 
 

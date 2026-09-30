@@ -5,6 +5,8 @@ __pycache__/
 .qa-deps/
 .integration-qa-deps/
 .taladros-qa-deps/
+.seo-qa-deps/
+.publication-qa-deps/
 venv/
 .env
 .env.*

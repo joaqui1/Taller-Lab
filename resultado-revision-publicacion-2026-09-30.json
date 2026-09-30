@@ -1,0 +1,1831 @@
+{
+  "drafts": 179,
+  "served_articles": 157,
+  "indexable_routes": 167,
+  "excluded": [
+    {
+      "url": "/amoladoras/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\00-amoladoras.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/disco-flap/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\01-disco-flap.md",
+      "reasons": [
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/dewalt/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\03-amoladoras-dewalt.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/disco-de-desbaste/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\04-disco-de-desbaste.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/recta/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\05-amoladora-recta.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/makita/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\07-amoladoras-makita.md",
+      "reasons": [
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/inalambricas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\08-amoladoras-inalambricas.md",
+      "reasons": [
+        "Falta encabezado exacto de fuentes",
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/discos-ceramica/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\09-disco-para-cortar-ceramica.md",
+      "reasons": [
+        "Falta encabezado exacto de fuentes",
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/lusqtoff/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\11-amoladoras-lusqtoff.md",
+      "reasons": [
+        "Falta encabezado exacto de fuentes",
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/9-pulgadas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\12-amoladora-de-9-pulgadas.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/skil-830w/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\13-amoladora-skil-830w.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/disco-diamantado-segmentado/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\14-disco-diamantado-segmentado.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/stanley/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\15-amoladoras-stanley.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/disco-de-corte/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\16-disco-de-corte.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/ingco/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\17-amoladoras-ingco.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/velocidad-variable/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\18-amoladora-velocidad-variable.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/7-pulgadas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\19-amoladora-7-pulgadas.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/gamma/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\21-amoladoras-gamma.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/total/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\22-amoladoras-total.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/amoladoras/discos-vidrio/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\24-disco-para-cortar-vidrio.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/sierras/caladoras-skil/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\10-caladora-skil.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    },
+    {
+      "url": "/sierras/disco-para-sierra-circular/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\15-disco-para-sierra-circular.md",
+      "reasons": [
+        "Falta etiqueta Dato documentado",
+        "Falta etiqueta Análisis TallerLab"
+      ],
+      "published": "true"
+    }
+  ],
+  "missing_offers": [
+    {
+      "page": "/generadores/portatiles/",
+      "model": "KGE/800",
+      "url": "https://meli.la/19gLhpz",
+      "cta": "Ver precio del Konan KGE/800"
+    },
+    {
+      "page": "/generadores/portatiles/",
+      "model": "LG950P",
+      "url": "https://meli.la/2oCYsWY",
+      "cta": "Ver precio del Lüsqtoff LG950P"
+    },
+    {
+      "page": "/sierras/sable/",
+      "model": "GSA18V24",
+      "url": "https://meli.la/2mTTC3F",
+      "cta": "Ver precio →"
+    },
+    {
+      "page": "/sierras/sable/",
+      "model": "DCS380B",
+      "url": "https://meli.la/2UW9Bfk",
+      "cta": "Ver precio →"
+    }
+  ],
+  "remote": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/"
+    },
+    {
+      "path": "/amoladoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/"
+    },
+    {
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/115-o-125/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/115-o-125/"
+    },
+    {
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/bosch/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/bosch/"
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/de-banco/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/de-banco/"
+    },
+    {
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/discos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/discos/"
+    },
+    {
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/dowen-pagio/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/dowen-pagio/"
+    },
+    {
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/autor/joaquin-vallasciani/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/autor/joaquin-vallasciani/"
+    },
+    {
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/como-trabajamos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/como-trabajamos/"
+    },
+    {
+      "path": "/compresores/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/"
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/100-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/100-litros/"
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/12v-doble-piston/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/12v-doble-piston/"
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/200-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/200-litros/"
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/24-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/24-litros/"
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/50-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/50-litros/"
+    },
+    {
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/aceite/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/aceite/"
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/acoples-rapidos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/acoples-rapidos/"
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/bta-25-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/bta-25-litros/"
+    },
+    {
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/filtros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/filtros/"
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/gamma-50-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/gamma-50-litros/"
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/inalambricos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/inalambricos/"
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/inflador-neumaticos-portatil/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/inflador-neumaticos-portatil/"
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/kits-accesorios/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/kits-accesorios/"
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/kits-aerografo/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/kits-aerografo/"
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/"
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/"
+    },
+    {
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/manguera/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/manguera/"
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/para-aerografo/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/para-aerografo/"
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/para-auto/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/para-auto/"
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/para-pintar/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/para-pintar/"
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/pistola-para-pintar/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/pistola-para-pintar/"
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/sin-aceite/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/sin-aceite/"
+    },
+    {
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/compresores/stanley/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/compresores/stanley/"
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/"
+    },
+    {
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/a-gas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/a-gas/"
+    },
+    {
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/a-nafta/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/a-nafta/"
+    },
+    {
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/chicos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/chicos/"
+    },
+    {
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/comparativa-general/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/comparativa-general/"
+    },
+    {
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/diesel/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/diesel/"
+    },
+    {
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/estacion-de-energia-portatil/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/estacion-de-energia-portatil/"
+    },
+    {
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/gamma-6500/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/gamma-6500/"
+    },
+    {
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/gamma-950/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/gamma-950/"
+    },
+    {
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/gamma/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/gamma/"
+    },
+    {
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/honda-6500/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/honda-6500/"
+    },
+    {
+      "path": "/generadores/honda/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/honda/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/honda/"
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/hyundai/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/hyundai/"
+    },
+    {
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/inverter/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/inverter/"
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/lusqtoff/"
+    },
+    {
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/monofasicos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/monofasicos/"
+    },
+    {
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/niwa/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/niwa/"
+    },
+    {
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/para-casa/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/para-casa/"
+    },
+    {
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/portatiles/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/portatiles/"
+    },
+    {
+      "path": "/generadores/precios/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/precios/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/precios/"
+    },
+    {
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/silenciosos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/silenciosos/"
+    },
+    {
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/generadores/trifasicos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/generadores/trifasicos/"
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/"
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/150-bar/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/150-bar/"
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/200-bar/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/200-bar/"
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/black-decker/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/black-decker/"
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/bosch/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/bosch/"
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/comparativa-general/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/comparativa-general/"
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/einhell/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/einhell/"
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/"
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/"
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/gamma/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/gamma/"
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"
+    },
+    {
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/hyundai/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/hyundai/"
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/inalambricas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/inalambricas/"
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/"
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/"
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/"
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/"
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/karcher/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/karcher/"
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/"
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff/"
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/niwa/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/niwa/"
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/para-autos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/para-autos/"
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/profesionales/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/profesionales/"
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/hidrolavadoras/stihl/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/hidrolavadoras/stihl/"
+    },
+    {
+      "path": "/sierras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/"
+    },
+    {
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/bosch-gks-150/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/bosch-gks-150/"
+    },
+    {
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/caladoras-black-decker/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/caladoras-black-decker/"
+    },
+    {
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/caladoras-einhell/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/caladoras-einhell/"
+    },
+    {
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/caladoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/caladoras/"
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/circulares-black-decker/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/circulares-black-decker/"
+    },
+    {
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/circulares-lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/circulares-lusqtoff/"
+    },
+    {
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/circulares/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/circulares/"
+    },
+    {
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/de-banco-einhell/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/de-banco-einhell/"
+    },
+    {
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/de-banco-lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/de-banco-lusqtoff/"
+    },
+    {
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/de-banco/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/de-banco/"
+    },
+    {
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/guia-para-sierra-circular/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/guia-para-sierra-circular/"
+    },
+    {
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/ingletadoras-dewalt/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/ingletadoras-dewalt/"
+    },
+    {
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/ingletadoras-einhell/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/ingletadoras-einhell/"
+    },
+    {
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/ingletadoras-total/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/ingletadoras-total/"
+    },
+    {
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/ingletadoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/ingletadoras/"
+    },
+    {
+      "path": "/sierras/sable/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sable/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sable/"
+    },
+    {
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sensitivas-dewalt/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sensitivas-dewalt/"
+    },
+    {
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/"
+    },
+    {
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sensitivas-total/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sensitivas-total/"
+    },
+    {
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sensitivas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sensitivas/"
+    },
+    {
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sierra-caladora-bosch/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sierra-caladora-bosch/"
+    },
+    {
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sierra-circular-dewalt-dwe560/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sierra-circular-dewalt-dwe560/"
+    },
+    {
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/"
+    },
+    {
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sierra-sable-inalambrica/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sierra-sable-inalambrica/"
+    },
+    {
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sierra-sin-fin-para-madera/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sierra-sin-fin-para-madera/"
+    },
+    {
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/"
+    },
+    {
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/sin-fin-metal/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/sin-fin-metal/"
+    },
+    {
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/sierras/stanley-sc16/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/sierras/stanley-sc16/"
+    },
+    {
+      "path": "/soldadoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/"
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/alambre-flux/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/alambre-flux/"
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/"
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/carro-para-soldadora-mig/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/carro-para-soldadora-mig/"
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/electrodo-6013/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/electrodo-6013/"
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/electrodo-7018/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/electrodo-7018/"
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/electrodo-para-acero-inoxidable/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/electrodo-para-acero-inoxidable/"
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/"
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/esab-handyarc-162i/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/esab-handyarc-162i/"
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/esab/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/esab/"
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/guantes/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/guantes/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-100/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-100/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-250/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-250/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml120-8d/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml120-8d/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml130-7/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml130-7/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml150-8/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml150-8/"
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/lusqtoff/"
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/mascara-lusqtoff-st-1x/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/mascara-lusqtoff-st-1x/"
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/"
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/mig-lusqtoff/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/mig-lusqtoff/"
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/"
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/para-aluminio/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/para-aluminio/"
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-de-punto/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-de-punto/"
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/"
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-160-amp/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-160-amp/"
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/"
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-mig-con-gas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-mig-con-gas/"
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/soldadora-tig-ac-dc/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/soldadora-tig-ac-dc/"
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadoras/tig/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadoras/tig/"
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/"
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/estacion-de-soldadura/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/estacion-de-soldadura/"
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/gadnic-878d/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/gadnic-878d/"
+    },
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/kit-soldador-de-estano/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/kit-soldador-de-estano/"
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/soporte-para-soldar-con-lupa/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/soporte-para-soldar-con-lupa/"
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/soldadura-electronica/yihua-898d/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/soldadura-electronica/yihua-898d/"
+    },
+    {
+      "path": "/taladros/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/"
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/atornillador-impacto-dewalt/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/atornillador-impacto-dewalt/"
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/atornilladores-de-impacto/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/atornilladores-de-impacto/"
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/black-decker/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/black-decker/"
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/bosch-inalambrico/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/bosch-inalambrico/"
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/brocas-ceramica/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/brocas-ceramica/"
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/"
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/dewalt-inalambrico/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/dewalt-inalambrico/"
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/einhell-inalambrico/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/einhell-inalambrico/"
+    },
+    {
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/inalambricos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/inalambricos/"
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/lusqtoff-inalambrico/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/lusqtoff-inalambrico/"
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/"
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/mecha-porcelanato/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/mecha-porcelanato/"
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/mechas-escalonadas/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/mechas-escalonadas/"
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/milwaukee/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/milwaukee/"
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/para-durlock/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/para-durlock/"
+    },
+    {
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/percutores/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/percutores/"
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/rotomartillo-bosch/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/rotomartillo-bosch/"
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/rotomartillo-dewalt/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/rotomartillo-dewalt/"
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/rotomartillo-einhell/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/rotomartillo-einhell/"
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/rotomartillos/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/rotomartillos/"
+    },
+    {
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/stanley/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/stanley/"
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/taladro-de-banco/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/taladro-de-banco/"
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/taladros/taladro-percutor-inalambrico/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/taladros/taladro-percutor-inalambrico/"
+    }
+  ],
+  "excluded_remote": [
+    {
+      "path": "/amoladoras/",
+      "status": 200,
+      "canonical": [
+        "https://www.tallerlab.com.ar/amoladoras/"
+      ],
+      "canonical_ok": true,
+      "final_url": "https://www.tallerlab.com.ar/amoladoras/"
+    },
+    {
+      "path": "/amoladoras/disco-flap/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/dewalt/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/recta/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/makita/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/inalambricas/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/lusqtoff/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/stanley/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/ingco/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/gamma/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/total/",
+      "status": 404
+    },
+    {
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 404
+    },
+    {
+      "path": "/sierras/caladoras-skil/",
+      "status": 404
+    },
+    {
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 404
+    }
+  ]
+}

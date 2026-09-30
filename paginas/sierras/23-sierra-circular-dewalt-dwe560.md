@@ -51,7 +51,7 @@ La ficha describe expulsión de aserrín. Eso no confirma una conexión para asp
 
 ## Qué mirar al elegir el disco y la guía
 
-Elegí el disco por la aplicación y el material admitido, y verificá diámetro, agujero central, forma de montaje y RPM. El manual enumera hojas con árbol redondo de 5/8" y distingue usos por dentado; eso no sustituye la comprobación del disco específico ni autoriza a montar una hoja que no coincida con los herrajes de la sierra. Consultá la guía de [disco para sierra circular](/sierras/disco-para-sierra-circular/) para revisar compatibilidad.
+Elegí el disco por la aplicación y el material admitido, y verificá diámetro, agujero central, forma de montaje y RPM. El manual enumera hojas con árbol redondo de 5/8" y distingue usos por dentado; eso no sustituye la comprobación del disco específico ni autoriza a montar una hoja que no coincida con los herrajes de la sierra. Consultá la guía de disco para sierra circular para revisar compatibilidad.
 
 Para cortes longitudinales, el manual indica un tope-guía o una guía recta y recomienda la guía DEWALT DW3278. Si pensás usar una regla externa o un riel, comprobá la distancia entre el borde de la base y la hoja y la compatibilidad de sujeción; la ficha argentina no declara un sistema de riel propietario.
 

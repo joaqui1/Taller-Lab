@@ -127,6 +127,6 @@ No montes una muela basándote solo en el diámetro. Consultá su etiqueta y el 
 - **Seguridad:** ajustá apoyos y protectores según el manual específico; usá siempre la guarda y protección ocular/facial.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
-Para seguir comparando: [amoladora recta](/amoladoras/recta/).
+Para seguir comparando: amoladora recta.
 
 Para explorar la categoría: [guías de amoladoras](/amoladoras/).
