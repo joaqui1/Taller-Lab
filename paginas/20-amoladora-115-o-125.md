@@ -23,8 +23,8 @@ keywords: ["amoladora 115", "amoladora 125", "amoladora 115 o 125", "amoladora 4
 
 **Decisión rápida:**
 
-- **115 mm conviene cuando** priorizás una herramienta compacta o el acceso a la pieza, y el modelo admite el disco necesario para el trabajo.
-- **125 mm conviene cuando** necesitás ese diámetro y la máquina, la guarda y el accesorio están especificados para usarlo; ofrece 10 mm más de diámetro nominal que 115 mm.
+- **115 mm conviene cuando** el trabajo y el accesorio se resuelven con discos de 115 mm y el modelo concreto ofrece el tamaño, peso y manejo que necesitás.
+- **125 mm conviene cuando** necesitás admitir discos de hasta 125 mm y ese diámetro aporta una ventaja útil para la tarea que vas a realizar.
 - **No decidas solo por** la medida: compará peso, agarre, potencia, RPM, guarda, compatibilidad del disco y especificaciones del código concreto. El diámetro no garantiza por sí solo más profundidad útil ni mejor rendimiento.
 
 ## Comparación de dos variantes de la misma serie
