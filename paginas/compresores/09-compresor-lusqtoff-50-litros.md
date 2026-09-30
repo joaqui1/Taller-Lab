@@ -21,6 +21,8 @@ published: true
 
 Que dos compresores tengan un tanque de 50 litros no significa que entreguen el mismo aire ni que sirvan para el mismo ritmo de trabajo. Para elegir entre los Lüsqtoff de esta capacidad, primero identificá el código: LC2550B-8 es la versión básica de 2,5 HP; LC2550BK-8 suma un kit de accesorios; LC-2550VS es una alternativa sin aceite; y LC-3550BK sube a 3,5 HP y dos cilindros. La gama vigente de la marca también incluye el LCS50-8 sin aceite, pero su página de categoría no aporta una ficha técnica completa.
 
+Si todavía no definiste marca, primero podés comparar [compresores de 50 litros](/compresores/50-litros/) por caudal, tipo de bomba y uso previsto.
+
 La decisión práctica depende de si preferís evitar el control de aceite, si necesitás accesorios incluidos y qué herramienta vas a conectar. Las fichas publican caudales de 206, 230 o 300 L/min, pero no detallan una condición de medición común ni el caudal efectivo a presión de trabajo. Por eso no alcanza con ordenar los modelos por el número de caudal ni con comparar sus HP.
 
 La marca presenta el LC2550BK-8 para uso hogareño o talleres chicos y al LC-3550BK como semiprofesional o para talleres chicos. Eso describe el uso sugerido por Lüsqtoff, no garantiza que puedan sostener cualquier herramienta o una tarea continua. Para pintura u otra herramienta neumática, verificá también su consumo, presión y ciclo de trabajo.
@@ -52,7 +54,7 @@ No uses los 115 PSI máximos como si fueran el caudal disponible ni como prueba 
 
 El **LC-2550VS** está identificado expresamente por Lüsqtoff como sin aceite. No requiere revisar el nivel ni renovar aceite de la bomba, aunque siguen correspondiendo el drenaje del agua del tanque, la limpieza del filtro y la inspección de conexiones según su manual.
 
-En el **LC2550BK-8** y el **LC-3550BK**, la marca publica medidor de aceite. El manual del LC2550BK pide aceite ISO VG 100 y un primer cambio a las 50 horas, pero luego presenta el intervalo como “cada seis meses o 50 horas”. Como esas indicaciones no son totalmente consistentes, confirmá el intervalo con el manual que vino con tu unidad o con posventa. No transfieras automáticamente ese grado al LC2550B-8 o a otro código: buscá el código completo en la placa y seguí su manual antes de completar o cambiar el aceite. No se publica aquí una cantidad de carga universal para los modelos de 50 L.
+En el **LC2550BK-8** y el **LC-3550BK**, la marca publica medidor de aceite. El manual del LC2550BK pide aceite ISO VG 100 y un primer cambio a las 50 horas, pero luego presenta el intervalo como “cada seis meses o 50 horas”. Como esas indicaciones no son totalmente consistentes, confirmá el intervalo con el manual que vino con tu unidad o con posventa. No transfieras automáticamente ese grado al LC2550B-8 o a otro código: buscá el código completo en la placa y seguí su manual antes de completar o cambiar el aceite. No se publica aquí una cantidad de carga universal para los modelos de 50 L. Para entender qué datos comprobar, consultá también la guía sobre [aceite para compresor](/compresores/aceite/) y seguí siempre la especificación del manual del código exacto.
 
 En los compresores con tanque, drená periódicamente el condensado con el equipo despresurizado, apagado y desconectado, siguiendo el procedimiento del manual. El agua acumulada favorece la corrosión y puede llegar a la línea de aire. La rutina y frecuencia exactas dependen del uso, la humedad ambiente y las instrucciones del fabricante.
 

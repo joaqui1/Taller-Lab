@@ -38,7 +38,9 @@ Las variantes AR/B2 y los kits se identifican como datos a confirmar: no se afir
 
 El referido `https://meli.la/1xjT5i9` se presenta como **Surplee compatible con DW3278**, acorde al título recibido. No se rotula como producto original DeWalt ni se afirma compatibilidad universal. Kreg KMA2685 conserva una comprobación de base y montaje.
 
-## Pendientes
+## Pendientes históricos del 29/09
+
+Esta lista registra el estado de aquel lote. Las resoluciones recibidas el 30/09 figuran en `integracion-sierras-2026-09-30.md`; los modelos declarados sin afiliado ya no se consideran pendientes.
 
 - GSA 1100 E: sin CTA activo hasta hallar una oferta disponible cuyo título y datos sean coherentes.
 - Lüsqtoff SML2000-8: sin CTA activo por discrepancias entre documentos y una publicación que mezcla variantes; las guías enlazan por separado SML2000-9 y SML2000B-9.

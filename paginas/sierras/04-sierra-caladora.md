@@ -76,7 +76,7 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
-| Black+Decker BES603 | Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida. | [Ver precio →](https://meli.la/2azLzTF) |
+| Black+Decker BES603 | Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida. | [Ver precio de Black+Decker BES603 →](https://meli.la/2azLzTF) |
 | Einhell TC-JS 85 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/1PmtLAQ) |
 | Einhell TE-JS 100 | Consultá código, hojas y accesorios incluidos. | [Ver precio →](https://meli.la/2N5KYMc) |
 

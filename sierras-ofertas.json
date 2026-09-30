@@ -95,7 +95,7 @@
       {
         "model": "BES603",
         "url": "https://meli.la/2azLzTF",
-        "cta": "Ver precio →"
+        "cta": "Ver precio de Black+Decker BES603 →"
       },
       {
         "model": "TC-JS85",
@@ -108,7 +108,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sierra-sin-fin-para-madera/": {
     "file": "05-sierra-sin-fin-para-madera.md",
@@ -190,10 +191,11 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": [
+    "pending": [],
+    "unmonetized": [
       {
         "model": "TC-SM2131",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Sin afiliado por decisión del usuario."
       }
     ]
   },
@@ -221,20 +223,26 @@
   },
   "/sierras/caladoras-skil/": {
     "file": "10-caladora-skil.md",
-    "models": [],
+    "models": [
+      "4380",
+      "4550"
+    ],
     "anchor": "Vigencia y disponibilidad de los modelos",
     "position": "section",
-    "offers": [],
-    "pending": [
+    "offers": [
       {
         "model": "4380",
-        "reason": "Pendiente: unidad nueva exacta, tensión local y habilitación por Afiliados."
+        "url": "https://meli.la/1cCuNwX",
+        "cta": "Ver precio de SKIL 4380 →"
       },
       {
         "model": "4550",
-        "reason": "Pendiente: unidad nueva exacta, tensión local y habilitación por Afiliados."
+        "url": "https://meli.la/2nTwNzm",
+        "cta": "Ver precio de SKIL 4550 →"
       }
-    ]
+    ],
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/guia-para-sierra-circular/": {
     "file": "11-guia-para-sierra-circular.md",
@@ -316,31 +324,42 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": [
+    "pending": [],
+    "unmonetized": [
       {
         "model": "TS42182553",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Sin afiliado por decisión del usuario."
       }
     ]
   },
   "/sierras/disco-para-sierra-circular/": {
     "file": "15-disco-para-sierra-circular.md",
-    "models": [],
+    "models": [
+      "D0760X"
+    ],
     "anchor": "Qué disco usar según el corte",
     "position": "section",
-    "offers": [],
+    "offers": [
+      {
+        "model": "D0760X",
+        "url": "https://meli.la/158XrS6",
+        "cta": "Ver precio de Diablo D0760X Ultra Finish 7 1/4 in, 60 dientes →"
+      }
+    ],
     "pending": [
       {
+        "model": "PRO19054",
+        "reason": "Falta enlace; monetización de discos sin urgencia."
+      }
+    ],
+    "unmonetized": [
+      {
         "model": "D0760A",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Referencia documental; oferta comercial D0760X registrada por separado."
       },
       {
         "model": "EXPERT19060",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
-      },
-      {
-        "model": "PRO19054",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Sin afiliado por decisión del usuario; monetización de discos sin urgencia."
       }
     ]
   },
@@ -374,10 +393,11 @@
         "cta": "Ver precio de Black+Decker CS1004-AR →"
       }
     ],
-    "pending": [
+    "pending": [],
+    "unmonetized": [
       {
         "model": "CS1350P",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Sin afiliado por decisión del usuario."
       }
     ]
   },
@@ -434,7 +454,8 @@
   "/sierras/circulares-lusqtoff/": {
     "file": "20-sierra-circular-lusqtoff.md",
     "models": [
-      "CSL1500-8"
+      "CSL1500-8",
+      "SCL2200-8"
     ],
     "anchor": "CSL1500-8 y SCL2200-8: capacidades documentadas",
     "position": "table",
@@ -443,14 +464,15 @@
         "model": "CSL1500-8",
         "url": "https://meli.la/2XbUjXk",
         "cta": "Ver precio →"
-      }
-    ],
-    "pending": [
+      },
       {
         "model": "SCL2200-8",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "url": "https://meli.la/33Aphuu",
+        "cta": "Ver precio de Lüsqtoff SCL2200-8 →"
       }
-    ]
+    ],
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/ingletadoras/": {
     "file": "21-ingletadoras.md",
@@ -478,10 +500,11 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": [
+    "pending": [],
+    "unmonetized": [
       {
         "model": "TC-SM2131",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Sin afiliado por decisión del usuario."
       }
     ]
   },
@@ -550,19 +573,20 @@
     "models": [
       "BES603"
     ],
-    "anchor": "BES603 y BES602: velocidad variable y variante",
+    "anchor": "BES603: capacidad, velocidad y variante",
     "position": "table",
     "offers": [
       {
         "model": "BES603",
         "url": "https://meli.la/2azLzTF",
-        "cta": "Ver precio →"
+        "cta": "Ver precio de Black+Decker BES603 →"
       }
     ],
-    "pending": [
+    "pending": [],
+    "unmonetized": [
       {
         "model": "BES602",
-        "reason": "Falta enlace; conservar condición de variante/código de la propuesta."
+        "reason": "Reemplazada por BES603 en la guía y la selección comercial."
       }
     ]
   },
@@ -646,8 +670,11 @@
     "file": "30-sierra-circular-inalambrica.md",
     "models": [
       "TPC190",
+      "PXC18-4AH",
       "GKS185LI",
-      "DCS570B"
+      "BOSCH1600A015TD",
+      "DCS570B",
+      "DCBP034C"
     ],
     "anchor": "Ejemplos documentados de modelos a batería",
     "position": "inline",
@@ -655,17 +682,38 @@
       {
         "model": "TPC190",
         "url": "https://meli.la/2HJq7zg",
-        "cta": "Ver precio de Einhell TP-CS 18/190 Li BL-Solo →"
+        "cta": "Ver precio de Einhell TP-CS 18/190 Li BL-Solo →",
+        "section": "Einhell TP-CS 18/190 Li BL-Solo"
+      },
+      {
+        "model": "PXC18-4AH",
+        "url": "https://meli.la/2Ut4FSd",
+        "cta": "Ver precio de Starter Kit Einhell Power X-Change 18 V 4 Ah →",
+        "section": "Einhell TP-CS 18/190 Li BL-Solo"
       },
       {
         "model": "GKS185LI",
         "url": "https://meli.la/27m2VS2",
-        "cta": "Ver precio de Bosch GKS 185-LI →"
+        "cta": "Ver precio de Bosch GKS 185-LI →",
+        "section": "Bosch GKS 185-LI"
+      },
+      {
+        "model": "BOSCH1600A015TD",
+        "url": "https://meli.la/1aD8WYE",
+        "cta": "Ver precio de Kit Bosch Professional 18 V 1600A015TD →",
+        "section": "Bosch GKS 185-LI"
       },
       {
         "model": "DCS570B",
         "url": "https://meli.la/342aujj",
-        "cta": "Ver precio de DeWalt DCS570B →"
+        "cta": "Ver precio de DeWalt DCS570B →",
+        "section": "DeWalt DCS570B"
+      },
+      {
+        "model": "DCBP034C",
+        "url": "https://meli.la/237pWXz",
+        "cta": "Ver precio de Kit DeWalt 20V MAX POWERSTACK DCBP034C →",
+        "section": "DeWalt DCS570B"
       }
     ],
     "pending": []

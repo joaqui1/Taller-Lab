@@ -75,7 +75,7 @@ El consumo del aerógrafo puede cambiar con la presión, la boquilla y el gatill
 
 ## Regulador, manómetro, humedad y conexión
 
-El **regulador** permite ajustar la presión que llega al aerógrafo. Preferí un conjunto con manómetro legible y regulá con el aire fluyendo. El **filtro de humedad** retiene condensación; en ambientes húmedos, sesiones largas o líneas que se enfrían puede juntarse agua, así que importa que el filtro tenga purga accesible y que el tanque pueda drenarse.
+El **regulador** permite ajustar la presión que llega al aerógrafo. Preferí un conjunto con manómetro legible y regulá con el aire fluyendo. El **filtro de humedad** retiene condensación; en ambientes húmedos, sesiones largas o líneas que se enfrían puede juntarse agua, así que importa que el filtro tenga purga accesible y que el tanque pueda drenarse. Si necesitás controlar humedad o partículas en la línea, revisá también los [filtros para compresor](/compresores/filtros/) y distinguí filtrado de admisión de filtrado de línea.
 
 Comprobá ambos extremos de la manguera: un aerógrafo puede usar una rosca distinta a la salida del compresor. Fengda publica salida G1/8 para AS-186 y AS-196. El manual del Sparmax TC-610H indica conexión estándar 1/8″ PS y dice que incluye adaptadores para Aztek, Badger y Paasche. No compres por una descripción genérica como “universal”: cotejá tipo de rosca, medida, género y perfil de los acoples. Si necesitás adaptador, confirmá que no reduzca indebidamente el paso de aire.
 

@@ -1906,7 +1906,8 @@ def render_category_page(section_id):
                 "modelos": "Compará modelos concretos y sus variantes.",
                 "accesorios": "Revisá mechas y accesorios según material y encastre.",
             }[key]
-        cards = "".join(render_article_card(a, badge_text=label.upper(), action_text="Leer guía") for a in groups[key] if a != trunk)
+        action = "Comparar hidrolavadoras" if section_id == "hidrolavadoras" and key == "general" else "Leer guía"
+        cards = "".join(render_article_card(a, badge_text=label.upper(), action_text=action) for a in groups[key] if a != trunk)
         extra = ""
         if key == "general" and trunk:
             if section_id != "amoladoras":
@@ -1933,7 +1934,10 @@ def render_category_page(section_id):
       {"".join(sections)}
     </div>'''
     schema = article_schema_tag(trunk) if trunk else ""
-    return HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    page = HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    if section_id == "hidrolavadoras":
+        page = page.replace(f'<title>{editorial["page_title"]} · TallerLab</title>', f'<title>{editorial["page_title"]}</title>', 1)
+    return page
 
 
 def render_article_page(article, embedded=False):

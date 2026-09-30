@@ -62,6 +62,8 @@ En una ficha de compresor, **“sin aceite” suele describir la construcción d
 
 La propia ficha de Lüsqtoff para LC-0122 menciona usos médico, odontológico, alimentario y de laboratorio por su bajo nivel de ruido; esa recomendación comercial no reemplaza la especificación ni certificación de calidad del aire que exija cada aplicación. La norma ISO 8573, por ejemplo, distingue contaminantes y clases de pureza del aire comprimido; “sin aceite” no acredita por sí solo una clase completa.
 
+Para evaluar el tratamiento de humedad y partículas en aplicaciones sensibles, revisá también el [filtrado de la línea de aire](/compresores/filtros/). La etiqueta oil-free no reemplaza esa evaluación.
+
 ## Ruido: revisar el dato del modelo
 
 No todos los compresores sin aceite son silenciosos. Las rpm, el número y diseño de pistones, la carcasa, los soportes y el lugar de uso influyen en el ruido. Si el nivel sonoro importa —por ejemplo, en una vivienda, consultorio o espacio compartido— buscá un valor en dB para el modelo exacto y la condición de medición. Los nombres comerciales “silenciado” o “bajo nivel de ruido” no permiten comparar por sí solos.

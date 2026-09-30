@@ -21,6 +21,11 @@ published: true
 
 Elegí primero según el material y el tipo de corte; después comprobá que el disco sea compatible con la sierra. Los ejemplos de abajo son hojas de 184 o 190 mm para sierras manuales cuando la ficha lo indica. No extrapoles sus medidas a una ingletadora ni a otra máquina.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Qué disco usar según el corte
 
 Esta tabla reúne aplicaciones que fabricantes declaran para discos concretos. Sirve para orientar la búsqueda, no para convertir un dentado en una regla universal: el mismo número de dientes puede variar en geometría, ancho de corte y materiales admitidos según el disco.
@@ -34,6 +39,18 @@ Esta tabla reúne aplicaciones que fabricantes declaran para discos concretos. S
 | Aluminio u otro no ferroso | Bosch PRO Multi Material de 190 mm, 54 HLTCG, solo si el fabricante de la sierra manual también permite cortar ese material | Aplicación multimaterial; la ficha del disco incluye aluminio y otros metales. Confirmá pieza, espesor y condiciones en ambos manuales |
 
 Las recomendaciones de corte fino o reducción de astillado son declaraciones del fabricante, no una prueba comparativa de TallerLab. Una hoja diseñada para laminados puede ser una referencia para melamina, pero comprobá que su ficha incluya el tipo de tablero y que la máquina admita el disco.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| Diablo D0760X Ultra Finish 7 1/4 in, 60 dientes | El título recibido identifica D0760X, no D0760A. Confirmá código, diámetro, eje, RPM y aplicación; no trasladés automáticamente la ficha del D0760A. | [Ver precio de Diablo D0760X Ultra Finish 7 1/4 in, 60 dientes →](https://meli.la/158XrS6) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## Qué disco usar para cortar melamina
 

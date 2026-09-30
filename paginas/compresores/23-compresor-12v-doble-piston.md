@@ -36,6 +36,8 @@ Un compresor portátil de 12 V doble pistón se elige cuando querés inflar neum
 
 Antes de comprar, comprobá cómo se conecta y cuánta corriente requiere, qué caudal entrega a la presión de tu neumático, cuánto puede funcionar antes de descansar y si el cable y la manguera alcanzan las ruedas. Dos cilindros y 150 PSI máximos no responden esas preguntas por sí solos.
 
+Si tu prioridad es evitar cables y conexión al vehículo, compará esta arquitectura con los [compresores e infladores inalámbricos](/compresores/inalambricos/), donde también necesitás comprobar batería, autonomía y ciclo de trabajo documentado.
+
 ## Qué significa doble pistón
 
 Un cabezal doble usa dos pistones/cilindros para comprimir aire. Frente a un diseño simple comparable, esa configuración puede buscar mover más aire por ciclo; el caudal real también depende del diámetro y recorrido de los pistones, velocidad, motor, válvulas, sellado y temperatura. Por eso “doble pistón” describe una arquitectura, no un resultado medido.

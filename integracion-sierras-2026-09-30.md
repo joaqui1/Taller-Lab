@@ -20,4 +20,28 @@ Los siete enlaces cortos no fueron accesibles mediante la herramienta web. Los t
 
 `python verificar_sierras_comerciales.py`: OK. Se comprobaron los 50 CTA, sus textos visibles, ubicación, atributos, ausencia de enlaces excluidos, registro de clics, conservación de tablas y encabezados, integración idempotente y 27 rutas HTTP 200. También se cotejaron los siete referidos exactos y el orden solicitado en las cinco guías.
 
-Esta ampliación resuelve los pendientes de CS1004-AR, TC-JS 18 Li-Solo y los tres Bosch GST. Continúan los pendientes de los otros modelos del informe del 29/09; SML2000-8 queda como referido excluido, reemplazado comercialmente por SML2000-9.
+Esta primera ampliación resolvió los pendientes de CS1004-AR, TC-JS 18 Li-Solo y los tres Bosch GST. El estado actual después del segundo lote se detalla abajo; SML2000-8 queda como referido excluido, reemplazado comercialmente por SML2000-9.
+
+## Segundo lote del 30/09: afiliados y kits complementarios
+
+Se activaron SKIL 4380 (`1cCuNwX`) y 4550 (`2nTwNzm`), Diablo D0760X (`158XrS6`) y Lüsqtoff SCL2200-8 (`33Aphuu`). La oferta D0760X está identificada por separado del D0760A de las tablas documentales; no se presupone equivalencia entre códigos.
+
+La guía `/sierras/caladoras-black-decker/` ahora trata la BES603 en lugar de comparar con la BES602: conserva íntegros los datos documentados de BES603-B2, la comprobación de variante y el afiliado `2azLzTF`. El CTA de BES603 también identifica marca y modelo en la guía general de caladoras.
+
+En `/sierras/sierra-circular-inalambrica/` se incorporaron tres kits, cada uno debajo del CTA de su sierra:
+
+| Sierra | Complementario | Referido |
+| --- | --- | --- |
+| Einhell TP-CS 18/190 Li BL-Solo | Starter Kit Power X-Change 18 V 4 Ah, batería y cargador rápido según el título recibido | `2Ut4FSd` |
+| Bosch GKS 185-LI | Kit Professional 18 V 1600A015TD, dos baterías de 4 Ah y cargador según el título recibido | `1aD8WYE` |
+| DeWalt DCS570B | Kit 20V MAX POWERSTACK DCBP034C, batería y cargador según el título recibido | `237pWXz` |
+
+Se retiraron de pendientes TC-SM 2131/2 Dual en sus dos guías, TOTAL TS42182553, EXPERT19060 y CS1350P. Permanecen como referencias sin afiliado por decisión del usuario. BES602 queda registrada como reemplazada; D0760A, como referencia documental con oferta D0760X separada. PRO19054 sigue sin enlace y con monetización sin urgencia. GSA 1100 E continúa pendiente de una publicación coherente; SML2000-8 permanece excluida.
+
+El manifiesto actual registra **60 CTA en 30 guías y 42 productos activos**; este lote suma siete CTA respecto del manifiesto anterior (53). Los totales de los informes anteriores son históricos y no sustituyen el manifiesto actual. No se realizó despliegue externo.
+
+La herramienta web no pudo acceder a los ocho referidos cortos consultados. Los títulos de ofertas proceden del usuario; no se verificaron destinos, stock, precio, contenido ni tensión de los cargadores. Junto a cada kit se solicita confirmar plataforma y tensión de entrada del cargador.
+
+Verificación de este lote: `python verificar_sierras_comerciales.py --pages 4 8 10 14 15 17 20 21 25 30`, OK: **21 CTA en 10 rutas HTTP 200**, ubicación de los kits, textos, atributos, registro de clics e idempotencia. Se comprueba la conservación de tablas documentales, proyectando la columna BES603 para la sustitución solicitada.
+
+Se agregó `--pages` a integración y verificación para actualizar solo las guías seleccionadas. La ejecución global ya tenía una desincronización ajena a este lote: la guía de sable no contiene el encabezado «Sierra sable con cable o inalámbrica» indicado por su configuración histórica. Esa guía no se modificó.

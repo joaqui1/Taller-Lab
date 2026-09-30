@@ -50,7 +50,7 @@ Leé la ficha como tres datos separados: DI de la manguera en milímetros o pulg
 
 Buscá el consumo de aire de la herramienta en L/min y a qué presión lo especifica el fabricante. Comparalo con la salida del compresor a una presión de trabajo equivalente. Elegí el tramo más corto que llegue cómodamente al lugar de trabajo. Si necesitás más largo, aumentá el diámetro interior según la tabla de dimensionamiento: más largo y más fino puede aumentar la caída de presión y reducir el rendimiento de la herramienta.
 
-Una manguera fina puede convertirse en el cuello de botella aunque el compresor tenga caudal suficiente. Un tramo largo agrega resistencia al paso del aire. Acoples de paso reducido, adaptadores y enrolladores también forman parte del recorrido: el conjunto queda limitado por su sección más restrictiva.
+Una manguera fina puede convertirse en el cuello de botella aunque el compresor tenga caudal suficiente. Un tramo largo agrega resistencia al paso del aire. Acoples de paso reducido, adaptadores y enrolladores también forman parte del recorrido: el conjunto queda limitado por su sección más restrictiva. El dimensionamiento de la línea también incluye los [filtros de línea para compresor](/compresores/filtros/): verificá su caudal nominal y la caída de presión indicada por el fabricante para evitar restricciones por una elección inadecuada.
 
 ### Material: PVC, PU, goma o híbrida
 

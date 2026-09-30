@@ -86,7 +86,7 @@ Elegí **24–25 L** para tareas más breves, uso de hobby y si el tamaño/movim
 
 ## Aceite, mantenimiento y límites de las fichas
 
-Gamma G2860AR, Lüsqtoff LC-0122 y BTA CSA-24-1 se publican como **sin aceite**. Para el 25 L BTA 272057.1, la ficha no identifica el sistema de lubricación: verificá el manual del código antes de usarlo. Gamma G2852AR de 25 L sí describe cabezal lubricado. En todos los casos, seguí el manual para filtro de admisión, purga de condensado, protección térmica y tiempos de trabajo; oil-free elimina el cambio de aceite de bomba, no el resto del mantenimiento.
+Gamma G2860AR [sin aceite](/compresores/sin-aceite/), Lüsqtoff LC-0122 y BTA CSA-24-1 se publican con bombas oil-free. Para el 25 L BTA 272057.1, la ficha no identifica el sistema de lubricación: verificá el manual del código antes de usarlo. Gamma G2852AR de 25 L es lubricado; revisá también qué verificar sobre [aceite para compresor](/compresores/aceite/). En todos los casos, seguí el manual para filtro de admisión, purga de condensado, protección térmica y tiempos de trabajo; oil-free elimina el cambio de aceite de bomba, no el resto del mantenimiento.
 
 En las fichas consultadas, ninguna de las tres opciones de 24 L informa FAD a una presión común ni ciclo de trabajo cuantificado. Gamma publica un “flujo continuo”, Lüsqtoff publica “caudal” y BTA publica “admisión”: son etiquetas distintas. Para herramientas continuas o de alto consumo, pedí el aire efectivamente entregado bajo carga.
 

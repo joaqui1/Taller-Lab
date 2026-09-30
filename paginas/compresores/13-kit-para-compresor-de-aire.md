@@ -52,6 +52,8 @@ Las listas cambian entre marcas e incluso entre publicaciones del mismo código.
 | **Lavar** | Pistola de lavado con recipiente y tubo de succión | Compatibilidad de los materiales con el líquido y el método de limpieza; el accesorio no convierte al compresor en hidrolavadora. |
 | **Hacer varias tareas ocasionales** | Kit multiuso con los accesorios que de verdad vayas a utilizar | Presión, caudal requerido por la herramienta más demandante, calidad de manguera y acoples. Comprobá si se pueden conseguir repuestos para la pieza que más se desgaste. |
 
+Si el kit incluye una pistola de pintura, no alcanza con que el acople encaje: compará también boquilla, presión y consumo de aire en la guía de [pistolas para pintar con compresor](/compresores/pistola-para-pintar/).
+
 ### Gravedad y succión: dos kits BTA como ejemplo
 
 En la pistola **por gravedad**, el recipiente queda arriba y el producto alimenta el cuerpo de la pistola desde esa posición. En la **de succión**, el recipiente queda debajo y la pistola aspira el producto. BTA usa esas dos configuraciones en los kits 279010 y 279013: el primero declara recipiente de 600 cm³ y el segundo, de 750 cm³.

@@ -49,6 +49,8 @@ Un auto, una moto y una bicicleta no piden lo mismo: varían el volumen del neum
 
 En equipos de 12 V, no reemplaces el cable original por uno más largo o fino sin verificar la corriente y la sección recomendada: puede provocar caída de tensión, calentamiento o disparo del fusible. Apoyá el inflador en un lugar estable y seguí el manual para ventilación y pausas.
 
+Dentro de los equipos conectados al vehículo también existen configuraciones de mayor tamaño; si estás evaluando una, revisá qué significa realmente un [compresor 12 V de doble pistón](/compresores/12v-doble-piston/).
+
 ## Alto volumen o alta presión
 
 - **Alta presión:** es el modo habitual para neumáticos de auto, moto, bici y pelotas. El inflador entrega poco volumen por ciclo en comparación con una bomba de colchón. La ficha útil muestra cuánto caudal queda disponible a presiones como 200, 400 o 700 kPa.

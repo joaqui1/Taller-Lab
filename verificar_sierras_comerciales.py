@@ -1,13 +1,14 @@
 """Comprueba referidos, publicación, ubicación editorial y repetibilidad."""
 import hashlib
 import re
+import argparse
 import subprocess
 from pathlib import Path
 from html.parser import HTMLParser
 from http.server import ThreadingHTTPServer
 from threading import Thread
 from urllib.request import urlopen
-from sierras_comerciales import OFFERS, PENDING, url
+from sierras_comerciales import OFFERS, PENDING, UNMONETIZED, url
 import servidor_local as s
 
 class Links(HTMLParser):
@@ -30,19 +31,29 @@ class Links(HTMLParser):
         if tag == 'a':
             self.active_link = None
 
-def main():
+def main(pages=None):
     articles = {article['url']: article for article in s.ALL_ARTICLES}
     total = 0
     routes = []
+    assert not any(pending['model'] in UNMONETIZED for config in s.SIERRAS_OFFERS.values() for pending in config['pending']), 'Modelo sin afiliado volvió a pendientes'
     for path, config in s.SIERRAS_OFFERS.items():
+        if pages and int(config['file'][:2]) not in pages:
+            continue
         file = Path('paginas/sierras') / config['file']
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/sierras/' + config['file']]).decode('utf-8')
-        assert all(heading in text for heading in re.findall(r'(?m)^#{1,3} .+$', original)), path
+        headings = re.findall(r'(?m)^#{1,3} .+$', original)
+        if config['file'] == '25-caladoras-black-decker.md':
+            headings = [heading.replace('Sierra caladora Black+Decker: cómo elegir entre modelos', 'Sierra caladora Black+Decker BES603: capacidad y usos').replace('BES603 y BES602: velocidad variable y variante', 'BES603: capacidad, velocidad y variante').replace('BES602 o BES603: cuándo aporta la velocidad variable', 'BES603: cuándo aporta la velocidad variable') for heading in headings]
+        assert all(heading in text for heading in headings), path
         # Los enlaces comerciales pueden cambiar; las tablas documentales se conservan.
         marker = r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->'
         original_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', original, flags=re.S))
         current_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', text, flags=re.S))
+        if config['file'] == '25-caladoras-black-decker.md':
+            # La sustitución solicitada conserva todos los datos de la columna BES603.
+            original_tables = ['\n'.join('| ' + ' | '.join(cell.strip() for cell in row.split('|')[1:3]) + ' |' for row in table.splitlines()) + '\n' for table in original_tables]
+            assert 'BES602' not in re.sub(r'https://[^)\s]+', '', text), path
         assert original_tables == current_tables, ('Tabla documental modificada', path)
         if not config['offers']:
             assert '<!-- SIERRAS-OFERTAS -->' not in text, path
@@ -50,9 +61,12 @@ def main():
         assert path in articles, ('No publicada', path)
         if config['position'] == 'inline':
             assert '<!-- SIERRAS-OFERTAS -->' not in text, path
-            for heading, offer in zip(('Einhell TP-CS 18/190 Li BL-Solo', 'Bosch GKS 185-LI', 'DeWalt DCS570B'), config['offers']):
-                section = text.split('### ' + heading, 1)[1].split('\n### ', 1)[0]
+            for offer in config['offers']:
+                section = text.split('### ' + offer['section'], 1)[1].split('\n### ', 1)[0]
                 assert offer['url'] in section, (path, offer['model'], 'CTA fuera del H3')
+            for saw, kit in zip(config['offers'][::2], config['offers'][1::2]):
+                assert text.index(saw['url']) < text.index(kit['url']), (path, 'Kit antes de la sierra')
+            assert 'enlace de compra pendiente' not in text, path
         else:
             block = re.search(r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->', text, re.S)
             assert block and text.count('<!-- SIERRAS-OFERTAS -->') == 1, path
@@ -79,11 +93,14 @@ def main():
             s.validate_affiliate_click(dict(product=offer['url'], page=path, placement='qa-sierras'))
             total += 1
         assert not any(url(key) in html for key in PENDING), path
-        assert not any(old in html for old in ['https://meli.la/1ntghna', 'https://meli.la/2WFpTNp', 'https://meli.la/1mLrBwo']), path
+        assert not any(old in html for old in ['https://meli.la/1ntghna', 'https://meli.la/2WFpTNp', 'https://meli.la/1mLrBwo', 'https://meli.la/1aq4mGc']), path
         routes.append(path)
     paths = list(Path('paginas/sierras').glob('*.md')) + [Path('sierras-ofertas.json')]
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
-    subprocess.run(['python', 'integrar_sierras_comerciales.py'], check=True)
+    command = ['python', 'integrar_sierras_comerciales.py']
+    if pages:
+        command += ['--pages', *map(str, pages)]
+    subprocess.run(command, check=True)
     assert before == {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}, 'No idempotente'
     class QuietHandler(s.TallerLabHandler):
         def log_message(self, *args):
@@ -102,4 +119,6 @@ def main():
     print(f'OK: {total} CTA, {len(OFFERS)-len(PENDING)} productos y {len(routes)} rutas HTTP 200; ubicaciones, atributos, registro de clics e idempotencia.')
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--pages', nargs='+', type=int)
+    main(parser.parse_args().pages)

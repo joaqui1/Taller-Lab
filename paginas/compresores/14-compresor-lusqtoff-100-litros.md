@@ -61,7 +61,11 @@ Como referencia de dimensionamiento, herramientas BTA concretas publican consumo
 
 La lijadora y la pistola de pintura suelen pedir aire durante pasadas más prolongadas; una llave de impacto suele trabajar por pulsos, donde el tanque ayuda a cubrir picos y luego necesita recuperarse. El arenado puede exigir mucho caudal. Para cualquiera de estas herramientas, no compares esos consumos directamente con los L/min nominales de admisión del compresor: pedí caudal de salida a la presión requerida y ciclo admisible. Si el fabricante no ofrece esos datos, la ficha no alcanza para decidir con seguridad si sostendrá el trabajo previsto.
 
+Si el consumo sostenido supera lo que puede reponer el equipo que evaluás, compará también qué cambia al pasar a un [compresor de 200 litros](/compresores/200-litros/). Revisá caudal efectivo y ciclo de trabajo: aumentar solo el tanque aporta reserva temporal, pero no resuelve una reposición insuficiente.
+
 ## Mantenimiento: seguir el código exacto
+
+Cuando el código corresponda a una bomba lubricada, verificá viscosidad, nivel e intervalo en su documentación. La guía de [aceite para compresor](/compresores/aceite/) explica qué datos conviene revisar sin asumir que todos los modelos usan el mismo lubricante.
 
 - **LC-30100:** el manual consultado indica controlar el nivel y llenar hasta el punto rojo del visor. Para uso ocasional indica cambio cada seis meses y para uso diario cada 1.000 horas. No extrapoles estas instrucciones a otros códigos.
 - **LC-40100:** el manual indica aceite “normal 40W”, cambio tras las primeras 50 horas y vaciado semanal del agua condensada del tanque. No convertimos “40W” a otra norma ni trasladamos esa especificación al LC-30100.
@@ -104,3 +108,5 @@ El LC-40100 también tiene una diferencia menor entre fuentes: **58 kg** en el m
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para comparar capacidades y otras marcas: [compresores de 100 litros](/compresores/100-litros/) y [compresores Lüsqtoff de 50 litros](/compresores/lusqtoff-50-litros/).
+
+Para explorar otras capacidades, marcas y usos: [guías de compresores](/compresores/).

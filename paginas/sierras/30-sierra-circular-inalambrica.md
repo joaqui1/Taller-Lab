@@ -62,7 +62,9 @@ Pertenece a Power X-Change de 18 V y se vende sin batería ni cargador. El manua
 
 [Ver precio de Einhell TP-CS 18/190 Li BL-Solo →](https://meli.la/2HJq7zg){:target="_blank" rel="sponsored noopener noreferrer"}
 
-**Kit de batería:** Starter Kit Einhell Power X-Change 18 V 4 Ah (enlace de compra pendiente).
+**Kit complementario:** Starter Kit Einhell Power X-Change 18 V 4 Ah. El título recibido anuncia batería de 4 Ah y cargador rápido. Confirmá plataforma Power X-Change y tensión de entrada del cargador.
+
+[Ver precio de Starter Kit Einhell Power X-Change 18 V 4 Ah →](https://meli.la/2Ut4FSd){:target="_blank" rel="sponsored noopener noreferrer"}
 
 ### Bosch GKS 185-LI
 
@@ -70,7 +72,9 @@ La Bosch Professional GKS 185-LI trabaja con baterías Professional de 18 V. Par
 
 [Ver precio de Bosch GKS 185-LI →](https://meli.la/27m2VS2){:target="_blank" rel="sponsored noopener noreferrer"}
 
-**Kit de batería:** Bosch Professional 18 V con baterías y cargador compatibles (enlace de compra pendiente).
+**Kit complementario:** Bosch Professional 18 V 1600A015TD, con dos baterías de 4 Ah y cargador según el título recibido. El título recibido anuncia dos baterías de 4 Ah y cargador. Confirmá compatibilidad Professional 18 V, código y tensión del cargador.
+
+[Ver precio de Kit Bosch Professional 18 V 1600A015TD →](https://meli.la/1aD8WYE){:target="_blank" rel="sponsored noopener noreferrer"}
 
 ### DeWalt DCS570B
 
@@ -78,7 +82,9 @@ La DCS570B usa la plataforma 20V MAX, disco de 184 mm y alcanza 5.500 rpm. DeWal
 
 [Ver precio de DeWalt DCS570B →](https://meli.la/342aujj){:target="_blank" rel="sponsored noopener noreferrer"}
 
-**Kit de batería:** DeWalt 20V MAX con baterías y cargador compatibles (enlace de compra pendiente).
+**Kit complementario:** DeWalt 20V MAX POWERSTACK DCBP034C, con batería y cargador según el título recibido. El título recibido anuncia batería y cargador. Confirmá contenido, compatibilidad 20V MAX y tensión de entrada del cargador.
+
+[Ver precio de Kit DeWalt 20V MAX POWERSTACK DCBP034C →](https://meli.la/237pWXz){:target="_blank" rel="sponsored noopener noreferrer"}
 
 ### Makita DHS710Z
 

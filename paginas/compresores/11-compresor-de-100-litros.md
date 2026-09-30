@@ -87,6 +87,8 @@ Los cuatro ejemplos publican alimentación monofásica de **220 V–50 Hz**. Con
 
 ### Mantenimiento
 
+Si el modelo utiliza una bomba lubricada, verificá el lubricante indicado por el fabricante; podés usar nuestra guía de [aceite para compresor](/compresores/aceite/) para entender qué datos comprobar.
+
 - **Aceite:** LC-40100 requiere lubricación; su manual indica aceite normal 40W y llenar hasta el visor. El G2858AR publica aceite SAE 30. Son instrucciones de códigos distintos: no intercambies grados ni cantidades; seguí el manual exacto de la unidad.
 - **Primer cambio y controles:** el manual LC-40100 indica cambiar el aceite tras las primeras 50 horas. Consultá el resto del intervalo en el manual entregado con el equipo y controlá el nivel antes de usarlo.
 - **Condensado:** el manual LC-40100 indica vaciar semanalmente el agua del tanque. La frecuencia real debe seguir el manual y las condiciones de humedad y uso.

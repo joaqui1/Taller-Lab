@@ -1,107 +1,85 @@
+"""Audita todas las guías actuales y la separación entre hub y comparativa."""
+import json
+import re
 from pathlib import Path
-import json, re
+import xml.etree.ElementTree as ET
+
+import servidor_local as site
+from app import app
+from validacion_enlaces import EnlacesHTML, validar_html
 
 ROOT = Path(__file__).parent
 PAGES_DIR = ROOT / 'paginas' / 'hidrolavadoras'
-DATA_FILE = ROOT / 'analisis-hidrolavadoras' / 'datos.json'
 
-data = json.loads(DATA_FILE.read_text(encoding='utf-8'))
-specs = data['pages']
 
-filenames = {
-    1: "01-hidrolavadoras.md",
-    2: "02-hidrolavadora-inalambrica.md",
-    3: "03-hidrolavadoras-lusqtoff.md",
-    4: "04-hidrolavadoras-gamma.md",
-    5: "05-hidrolavadoras-stihl.md",
-    6: "06-hidrolavadoras-bosch.md",
-    7: "07-hidrolavadoras-black-decker.md",
-    8: "08-hidrolavadora-karcher-k2.md",
-    9: "09-hidrolavadora-karcher-k5.md",
-    10: "10-hidrolavadora-gamma-150.md",
-    11: "11-hidrolavadora-profesional.md",
-    12: "12-hidrolavadora-karcher-k3.md",
-    13: "13-hidrolavadoras-einhell.md",
-    14: "14-hidrolavadora-gamma-130.md",
-    15: "15-hidrolavadoras-hyundai.md",
-    16: "16-hidrolavadora-lusqtoff-hl-120.md",
-    17: "17-hidrolavadora-karcher-k4.md",
-    18: "18-hidrolavadora-150-bar.md",
-    19: "19-hidrolavadora-200-bar.md",
-    20: "20-hidrolavadoras-niwa.md",
-    21: "21-hidrolavadoras-karcher.md",
-}
+def schemas(html):
+    return [json.loads(raw) for raw in re.findall(
+        r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)]
 
-errors = []
-success_count = 0
 
-for spec in specs:
-    pid = spec['id']
-    filename = filenames[pid]
-    filepath = PAGES_DIR / filename
-    
-    if not filepath.exists():
-        errors.append(f"Archivo no encontrado: {filename}")
-        continue
-        
-    content = filepath.read_text(encoding='utf-8')
-    lines = content.splitlines()
-    
-    # Check frontmatter
-    if not content.startswith('---\n'):
-        errors.append(f"{filename}: Falta apertura de frontmatter")
-        continue
-    
-    fm_match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
-    if not fm_match:
-        errors.append(f"{filename}: Frontmatter mal formado")
-        continue
-        
-    fm_text = fm_match.group(1)
-    
-    for req_key in ['title:', 'h1:', 'url:', 'description:', 'author:', 'category:', 'keywords:']:
-        if req_key not in fm_text:
-            errors.append(f"{filename}: Falta clave en frontmatter: {req_key}")
-            
-    # Check Title and H1 match
-    if f'title: "{spec["title"]}"' not in fm_text:
-        errors.append(f"{filename}: Title no coincide exactamente con el spec. Esperado: {spec['title']}")
-        
-    if f'h1: "{spec["h1"]}"' not in fm_text:
-        errors.append(f"{filename}: H1 en frontmatter no coincide exactamente. Esperado: {spec['h1']}")
-        
-    if f'# {spec["h1"]}' not in content:
-        errors.append(f"{filename}: H1 en cuerpo de markdown no encontrado. Esperado: # {spec['h1']}")
-        
-    # Check all H2s
-    for h2 in spec['h2']:
-        if f"## {h2}" not in content:
-            errors.append(f"{filename}: Falta sección H2: '## {h2}'")
-            
-    # Check Mercado Libre link
-    if 'listado.mercadolibre.com.ar' not in content or 'rel="sponsored"' not in content:
-        errors.append(f"{filename}: Falta enlace de afiliación a Mercado Libre con rel=\"sponsored\"")
-        
-    # Check substantial body content (> 400 words)
-    words = len(content.split())
-    if words < 400:
-        errors.append(f"{filename}: Contenido demasiado corto ({words} palabras)")
-        
-    success_count += 1
+def main():
+    files = sorted(PAGES_DIR.glob('*.md'))
+    articles = {a['filename']: a for a in site.ALL_ARTICLES if a['section'] == 'hidrolavadoras'}
+    client = app.test_client()
+    errors, urls = [], set()
+    verified = 0
+    sitemap = {node.text for node in ET.fromstring(site.render_sitemap()).findall(
+        './/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+    for path in files:
+        try:
+            content = path.read_text(encoding='utf-8')
+            assert re.match(r'^---\n.*?\n---\n', content, re.DOTALL), 'Frontmatter mal formado'
+            fm, body = site.extract_frontmatter(content)
+            for key in ('title', 'h1', 'url', 'description', 'author', 'category', 'keywords'):
+                assert fm.get(key), f'Falta {key}'
+            assert re.findall(r'^# (.+)$', body, re.MULTILINE) == [fm['h1']], 'H1 del cuerpo y metadatos inconsistentes'
+            url = fm['url']
+            assert url.startswith('/hidrolavadoras/') and url.endswith('/'), 'URL fuera de categoría o sin barra final'
+            assert url not in urls, 'URL duplicada'
+            urls.add(url)
+            assert len(body.split()) >= 400, 'Contenido menor a 400 palabras'
+            assert path.name in articles, 'Guía excluida por el filtro editorial'
+            response = client.get(url)
+            assert response.status_code == 200, f'HTTP {response.status_code}'
+            html = response.get_data(as_text=True)
+            assert len(re.findall(r'<h1\b', html)) == 1, 'El HTML debe tener un H1'
+            canonical = site.absolute_url(url)
+            assert f'<link rel="canonical" href="{canonical}">' in html, 'Canonical incorrecto'
+            assert canonical in sitemap, 'URL ausente del sitemap'
+            article_schemas = [s for s in schemas(html) if s.get('@type') == 'Article']
+            assert len(article_schemas) == 1, 'Debe haber un Article'
+            assert article_schemas[0]['mainEntityOfPage'] == canonical, 'Article apunta a otra página'
+            assert article_schemas[0]['headline'] == fm['h1'], 'Headline inconsistente'
+            validar_html(html, url, site.INDEXABLE_PATH_SET, site.SITE_URL)
+            for attrs in re.findall(r'<a\b([^>]+)>', html):
+                if re.search(r'href="https://(?:meli\.la|www\.mercadolibre\.com/sec)/', attrs):
+                    rel = re.search(r'rel="([^"]*)"', attrs)
+                    assert rel and 'sponsored' in rel[1].split(), 'Enlace afiliado sin sponsored'
+            verified += 1
+        except (AssertionError, ValueError, KeyError) as error:
+            errors.append(f'{path.name}: {error}')
+    try:
+        response = client.get('/hidrolavadoras/')
+        assert response.status_code == 200, 'Hub sin HTTP 200'
+        html = response.get_data(as_text=True)
+        assert '<h1>Hidrolavadoras</h1>' in html, 'H1 del hub incorrecto'
+        assert '<title>Hidrolavadoras: guías, marcas y comparativas</title>' in html, 'Title del hub incorrecto'
+        assert not any(s.get('@type') == 'Article' for s in schemas(html)), 'El hub carga Article'
+        assert 'class="hub-documental"' not in html, 'Guía incrustada en el hub'
+        assert 'Comparar hidrolavadoras' in html, 'Falta enlace destacado'
+        assert f'<link rel="canonical" href="{site.absolute_url("/hidrolavadoras/")}">' in html, 'Canonical del hub incorrecto'
+        assert urls.issubset(EnlacesHTML(html).enlaces), 'El hub no enlaza todas las guías'
+        main_article = articles['01-hidrolavadoras.md']
+        assert main_article['body'] not in html, 'Comparativa incrustada'
+        assert 'class="article-body"' not in html, 'Cuerpo de artículo incrustado'
+    except (AssertionError, ValueError, KeyError) as error:
+        errors.append(f'Hub: {error}')
+    print(f'Guías detectadas: {len(files)}; verificadas sin errores: {verified}; hub auditado: 1')
+    if errors:
+        print('\n'.join(errors))
+        raise SystemExit(1)
+    print(f'OK: {verified} guías y hub; publicación, enlaces, canonical, sitemap y Article.')
 
-print(f"Total especificaciones: {len(specs)}")
-print(f"Páginas verificadas con éxito: {success_count}")
-for spec in specs:
-    pid = spec['id']
-    fn = filenames[pid]
-    fp = PAGES_DIR / fn
-    w = len(fp.read_text(encoding='utf-8').split())
-    print(f" - {fn}: {w} palabras")
 
-if errors:
-    print(f"\nERRORES ENCONTRADOS ({len(errors)}):")
-    for err in errors:
-        print(f" - {err}")
-    exit(1)
-else:
-    print("\nTODAS LAS 20 PÁGINAS CUMPLEN EL 100% DE LAS ESPECIFICACIONES TÉCNICAS Y EDITORIALES.")
+if __name__ == '__main__':
+    main()

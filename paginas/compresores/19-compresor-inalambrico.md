@@ -25,6 +25,8 @@ published: true
 
 Un compresor inalámbrico evita depender de un toma de 12 V o de la red mientras inflás. En esta guía, “compresor” se refiere a infladores portátiles a batería para neumáticos y objetos inflables. No son compresores con tanque para alimentar de manera sostenida una pistola de pintura, una llave de impacto u otra herramienta neumática.
 
+Si preferís alimentación desde el vehículo y priorizás caudal y ciclo de trabajo antes que autonomía de batería, compará también los [compresores 12 V de doble pistón](/compresores/12v-doble-piston/). Verificá esos datos en cada modelo: la conexión al vehículo y el número de pistones no garantizan mayor rendimiento.
+
 Antes de mirar la presión máxima, definí qué vas a inflar. Para un auto o una moto importan la presión objetivo, el caudal que entrega el equipo a esa presión y la longitud de la manguera. Para una bici, revisá además que el adaptador coincida con la válvula. Para colchones, botes y otros objetos grandes, necesitás una bomba de alto volumen y baja presión: que el inflador alcance muchos bar no significa que llene rápido un objeto grande.
 
 También elegí la plataforma de batería. Si ya tenés baterías compatibles, una herramienta sola puede evitar comprar otra; si no, compará el costo del kit con batería y cargador. Confirmá el contenido del código exacto antes de comprar: dentro de una misma familia puede haber versiones con y sin batería, cargador o adaptadores.

@@ -21,9 +21,27 @@ published: true
 
 Esta comparación separa el manual SKIL/Bosch de la 4380 de las fichas y copias de catálogo disponibles para la 4550. Las especificaciones de la 4550 se atribuyen a las fuentes que las reportan y no se toman como una confirmación vigente del fabricante para cualquier unidad ofrecida.
 
+
+**Dato documentado:** las especificaciones de esta guía se atribuyen a las fuentes enlazadas; confirmá el código de la oferta antes de aplicar esos datos a una unidad.
+
+**Análisis TallerLab:** los criterios de selección comparan documentación según el trabajo previsto; no se realizó una prueba física de los equipos.
+
 ## Vigencia y disponibilidad de los modelos
 
 > **Estado por confirmar antes de comprar:** el catálogo oficial de repuestos Bosch/Skil lista referencias 4380 de 127 V y 220 V, y referencias 4550 de 127 V y 220 V. Esas filas confirman códigos de servicio y variantes eléctricas; no prueban que hoy se fabriquen o haya unidades nuevas disponibles. En las fuentes revisadas no localicé una ficha de venta regional vigente para estos modelos. No los marcamos como discontinuados: verificá placa, tensión, garantía y disponibilidad de repuestos con el vendedor o servicio local.
+
+<!-- SIERRAS-OFERTAS -->
+
+### Consultá estas opciones en Mercado Libre
+
+| Producto de la oferta | Qué confirmar | Precio y disponibilidad |
+| :--- | :--- | :--- |
+| SKIL 4380 | La publicación recibida anuncia base ajustable. Confirmá código, tensión local, estado nuevo y garantía. | [Ver precio de SKIL 4380 →](https://meli.la/1cCuNwX) |
+| SKIL 4550 | El título recibido anuncia 550 W, velocidad variable y maletín. Confirmá placa, tensión, estado y contenido del kit. | [Ver precio de SKIL 4550 →](https://meli.la/2nTwNzm) |
+
+*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+
+<!-- /SIERRAS-OFERTAS -->
 
 ## 4380 o 4550: qué cambia en el uso
 

@@ -1,8 +1,9 @@
 """Inserta referidos en puntos explícitos sin modificar las tablas documentales."""
 import json
 import re
+import argparse
 from pathlib import Path
-from sierras_comerciales import OFFERS, PENDING, PLACEMENTS, cta, url
+from sierras_comerciales import OFFERS, PENDING, UNMONETIZED, PLACEMENTS, INLINE_SECTIONS, cta, url
 
 ROOT = Path(__file__).parent
 MARKER = re.compile(r'\n*<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->\n*', re.S)
@@ -21,16 +22,18 @@ def insertion(text, heading, mode):
     following = re.search(r'(?m)^#{1,' + str(len(anchor[1])) + r'} ', text[anchor.end():])
     return anchor.end() + following.start() if following else len(text)
 
-def main():
-    configs = {}
+def main(pages=None):
+    configs = json.loads((ROOT / 'sierras-ofertas.json').read_text(encoding='utf-8')) if pages else {}
     for number, (requested, heading, mode) in PLACEMENTS.items():
+        if pages and number not in pages:
+            continue
         file = next((ROOT / 'paginas/sierras').glob(f'{number:02d}-*.md'))
         text = MARKER.sub('\n\n', file.read_text(encoding='utf-8'))
         path = re.search(r'^url: "([^"]+)"', text, re.M)[1]
         keys = [key for key in requested if key in OFFERS and key not in PENDING]
         if keys:
             if mode == 'inline':
-                offers = [dict(model=key, url=url(key), cta=cta(key)) for key in keys]
+                offers = [dict(model=key, url=url(key), cta=cta(key), section=INLINE_SECTIONS[key]) for key in keys]
                 if not all(text.count(offer['url']) == 1 for offer in offers):
                     raise ValueError(f'Los CTA inline deben aparecer una vez en {file.name}')
                 configs[path] = dict(file=file.name, models=keys, anchor=heading, position=mode,
@@ -62,9 +65,12 @@ def main():
             file.write_text(text, encoding='utf-8')
         configs[path] = dict(file=file.name, models=keys, anchor=heading, position=mode,
             offers=[dict(model=key, url=url(key), cta=cta(key)) for key in keys],
-            pending=[dict(model=key, reason=OFFERS[key][2] if key in PENDING else 'Falta enlace; conservar condición de variante/código de la propuesta.') for key in requested if key not in keys])
+            pending=[dict(model=key, reason=OFFERS[key][2] if key in PENDING else 'Falta enlace; monetización de discos sin urgencia.' if key == 'PRO19054' else 'Falta enlace; conservar condición de variante/código de la propuesta.') for key in requested if key not in keys and key not in UNMONETIZED],
+            unmonetized=[dict(model=key, reason=UNMONETIZED[key]) for key in requested if key in UNMONETIZED])
     (ROOT / 'sierras-ofertas.json').write_text(json.dumps(configs, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'{sum(bool(c["models"]) for c in configs.values())} guías; {sum(len(c["offers"]) for c in configs.values())} CTA; {len(OFFERS)-len(PENDING)} productos activos; {len(PENDING)} referidos pendientes')
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--pages', nargs='+', type=int, help='Actualizar solo las guías indicadas, conservando las demás configuraciones.')
+    main(parser.parse_args().pages)

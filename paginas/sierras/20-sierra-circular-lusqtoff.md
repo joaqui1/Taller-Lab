@@ -42,6 +42,7 @@ La CSL1500-8 publica 63,5 mm a 90° y 46 mm a 45°. La SCL2200-8 declara 84 mm a
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | Lüsqtoff CSL1500-8 | Revisá disco, eje y capacidad del código exacto. | [Ver precio →](https://meli.la/2XbUjXk) |
+| Lüsqtoff SCL2200-8 | El título recibido anuncia 2.200 W, disco de 235 mm y guía. Confirmá placa, diámetro admitido y accesorios por las discrepancias de la documentación. | [Ver precio de Lüsqtoff SCL2200-8 →](https://meli.la/33Aphuu) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 
