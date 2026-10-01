@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     // Los bloques contextuales solo tienen tarjetas y CTA, sin filtros ni comparador.
     if (fields.some(([, select]) => !select)) return;
+    const heading = shelf.querySelector('.affiliate-heading h2, .affiliate-heading h3');
+    const originalHeading = heading?.textContent;
     fields.forEach(([key, select]) => {
       [...new Set(cards.map(card => card.dataset[key]))].sort().forEach(value => {
         const option = document.createElement('option');
@@ -28,11 +30,22 @@ document.addEventListener('DOMContentLoaded', () => {
           if (!card.hidden) visible++;
         });
         shelf.querySelector('.offer-empty').hidden = visible !== 0;
+        if (heading) heading.textContent = visible === 1 ? 'Publicación que coincide con los filtros' : visible === 0 ? 'Sin publicaciones con estos filtros' : originalHeading;
+        const visibleTypes = new Map();
+        cards.filter(card => !card.hidden).forEach(card => visibleTypes.set(card.dataset.compareType, (visibleTypes.get(card.dataset.compareType) || 0) + 1));
+        let cleared = false;
+        checks.forEach(check => {
+          const card = check.closest('.offer-card');
+          check.disabled = card.hidden || visibleTypes.get(card.dataset.compareType) < 2;
+          check.closest('.compare-select').hidden = check.disabled;
+          if (check.disabled && check.checked) { check.checked = false; cleared = true; }
+        });
+        if (cleared) checks[0].dispatchEvent(new Event('change'));
       });
     });
 
     const panel = shelf.querySelector('.compare-panel');
-    const checks = cards.map(card => card.querySelector('.compare-checkbox'));
+    const checks = cards.map(card => card.querySelector('.compare-checkbox')).filter(Boolean);
     checks.forEach(check => check.addEventListener('change', () => {
       let chosen = checks.filter(item => item.checked);
       const types = new Set(chosen.map(item => item.closest('.offer-card').dataset.compareType));
@@ -51,6 +64,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!chosen.length) {
         panel.hidden = true;
         panel.replaceChildren();
+        return;
+      }
+      if (chosen.length === 1) {
+        panel.hidden = false;
+        panel.textContent = 'Elegí otro producto del mismo tipo para comparar.';
         return;
       }
       const table = document.createElement('table');

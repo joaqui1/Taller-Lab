@@ -42,12 +42,22 @@ const base=process.env.QA_BASE_URL||'http://127.0.0.1:5058';
     }
     for(const shelf of document.querySelectorAll('.affiliate-shelf')){
      const cards=[...shelf.querySelectorAll('.offer-card')];
+     if(cards.length===1){
+      check(!shelf.querySelector('.offer-filters,.compare-checkbox,.compare-panel,.offer-empty'),'Una sola publicación muestra filtros o comparador');
+      const heading=shelf.querySelector('.affiliate-heading h2,.affiliate-heading h3')?.textContent||'';
+      check(!/compar|opciones|Publicaciones/i.test(heading),'Una sola publicación promete comparación o plural');
+     }
      const fields=[['brand','.filter-brand'],['use','.filter-use'],['power','.filter-power']];
      for(const [key,selector] of fields){
       const select=shelf.querySelector(selector);if(!select)continue;filters++;
       for(const value of [...new Set(cards.map(c=>c.dataset[key]))]){
        select.value=value;select.dispatchEvent(new Event('change',{bubbles:true}));
        check(cards.filter(c=>!c.hidden).length===cards.filter(c=>c.dataset[key]===value).length,'Filtro incorrecto: '+key);
+       if(cards.filter(c=>!c.hidden).length===1){
+        check(shelf.querySelector('.affiliate-heading h2,.affiliate-heading h3').textContent==='Publicación que coincide con los filtros','Filtro con una opción mantiene promesa plural');
+        check(![...shelf.querySelectorAll('.compare-checkbox')].some(c=>!c.disabled),'Filtro con una opción permite comparar');
+        check(![...shelf.querySelectorAll('.compare-select')].some(label=>getComputedStyle(label).display!=='none'),'Filtro con una opción muestra casilla de comparación');
+       }
       }
       select.value='';select.dispatchEvent(new Event('change',{bubbles:true}));
      }
@@ -55,9 +65,12 @@ const base=process.env.QA_BASE_URL||'http://127.0.0.1:5058';
      if(!checks.length)continue;comparisons++;
      const panel=shelf.querySelector('.compare-panel');
      checks[0].checked=true;checks[0].dispatchEvent(new Event('change',{bubbles:true}));
-     check(!panel.hidden&&panel.querySelector('table')?.textContent.includes(cards[0].querySelector('h3').textContent),'Comparación no muestra modelo');
+     check(!panel.hidden&&!panel.querySelector('table')&&panel.textContent.includes('Elegí otro producto'),'Una selección presenta comparación incompleta');
      const firstType=checks[0].closest('.offer-card').dataset.compareType;
      const same=checks.filter(c=>c.closest('.offer-card').dataset.compareType===firstType);
+     check(same.length>=2,'Comparador sin segunda opción del mismo tipo');
+     same[1].checked=true;same[1].dispatchEvent(new Event('change',{bubbles:true}));
+     check(!panel.hidden&&panel.querySelector('table')?.textContent.includes(checks[0].closest('.offer-card').querySelector('h3').textContent),'Comparación de dos no muestra modelo');
      for(const c of same.slice(1,4)){c.checked=true;c.dispatchEvent(new Event('change',{bubbles:true}));}
      check(checks.filter(c=>c.checked).length<=3,'Comparación acepta más de tres');
      const other=checks.find(c=>c.closest('.offer-card').dataset.compareType!==firstType);

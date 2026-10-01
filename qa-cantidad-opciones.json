@@ -1,0 +1,827 @@
+{
+  "pages": 190,
+  "shelves": 89,
+  "singletons": [
+    {
+      "path": "/compresores/50-litros/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/stanley/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "count": 1,
+      "heading": "MIG/MAG Lüsqtoff: confirmá la configuración",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "count": 1,
+      "heading": "Opción Flux Lüsqtoff: distinguí equipo y kit",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "count": 1,
+      "heading": "Consultá talle y protección del guante",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "count": 1,
+      "heading": "Alambre MIG macizo · 0,8 mm × 5 kg",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "count": 1,
+      "heading": "Consultá la referencia de níquel para fundición",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "count": 1,
+      "heading": "Consultá la Dogo 180 Moderna",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB MMA",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB MIG",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB TIG AC/DC",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "count": 1,
+      "heading": "Consultá el kit MEGAIRON250",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "count": 1,
+      "heading": "Si en realidad buscás MIG/MAG o tubular",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "count": 1,
+      "heading": "Consultá el paquete Iron 100",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "count": 1,
+      "heading": "Consultá HandyArc 162i: verificá código 0409616",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/percutores/",
+      "count": 1,
+      "heading": "Consultá el percutor Bosch con cable",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "count": 1,
+      "heading": "Consultá el rotomartillo DeWalt DCH273B",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "count": 1,
+      "heading": "Consultá la mecha CYL-9 para cerámica blanda",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "count": 1,
+      "heading": "Consultá la referencia Bosch HSS 4–20 mm",
+      "filters": 0,
+      "checks": 0
+    }
+  ],
+  "rows": [
+    {
+      "path": "/soldadoras/",
+      "count": 4,
+      "heading": "Una oferta por proceso: MMA, Flux, MIG y TIG",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "count": 2,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "count": 2,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/stanley/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "count": 1,
+      "heading": "Publicación disponible en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "count": 3,
+      "heading": "Publicaciones para comparar",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "count": 4,
+      "heading": "Nuestra selección según el uso",
+      "filters": 3,
+      "checks": 4
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "count": 2,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "count": 2,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "count": 2,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "count": 2,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "count": 2,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "count": 3,
+      "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "count": 1,
+      "heading": "Consultá esta publicación en Mercado Libre",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "count": 2,
+      "heading": "Compará diámetro y presentación del 7018",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "count": 2,
+      "heading": "Opciones MMA de la familia Iron",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "count": 1,
+      "heading": "MIG/MAG Lüsqtoff: confirmá la configuración",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "count": 1,
+      "heading": "Opción Flux Lüsqtoff: distinguí equipo y kit",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "count": 2,
+      "heading": "Máquinas MIG con gas para comparar",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "count": 1,
+      "heading": "Consultá talle y protección del guante",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "count": 3,
+      "heading": "Compará TIG DC y TIG AC/DC",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "count": 3,
+      "heading": "Opciones para alambre tubular: confirmá montaje",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "count": 1,
+      "heading": "Alambre MIG macizo · 0,8 mm × 5 kg",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "count": 3,
+      "heading": "Tres máscaras para decisiones distintas",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "count": 2,
+      "heading": "Compará las presentaciones Conarco 13A",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "count": 2,
+      "heading": "Opciones de 200 A: revisá el ciclo de trabajo",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "count": 1,
+      "heading": "Consultá la referencia de níquel para fundición",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "count": 2,
+      "heading": "E71T-GS de 0,8 mm: compará bobinas de 1 kg y 5 kg",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "count": 1,
+      "heading": "Consultá la Dogo 180 Moderna",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "count": 2,
+      "heading": "Alternativas MMA de 160 y 200 A",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB MMA",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB MIG",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "count": 1,
+      "heading": "Oferta ESAB TIG AC/DC",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "count": 2,
+      "heading": "Electrodos inoxidables 308L y 316L · 3,2 mm × 2 kg",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "count": 2,
+      "heading": "Opciones TIG AC/DC: verificá la red disponible",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "count": 1,
+      "heading": "Consultá el kit MEGAIRON250",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "count": 2,
+      "heading": "Alternativas MMA para comparar",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "count": 3,
+      "heading": "Opciones TIG AC/DC y alimentación eléctrica",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "count": 2,
+      "heading": "Comparación principal · soldadoras MMA de 160 A",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "count": 1,
+      "heading": "Si en realidad buscás MIG/MAG o tubular",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "count": 1,
+      "heading": "Consultá el paquete Iron 100",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "count": 2,
+      "heading": "Alternativas MMA para comparar",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "count": 2,
+      "heading": "Opciones actuales de la familia SML",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "count": 2,
+      "heading": "Alternativas actuales a la SML150-8 discontinuada",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "count": 2,
+      "heading": "Opciones después de verificar tensión y kit",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "count": 1,
+      "heading": "Consultá HandyArc 162i: verificá código 0409616",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "count": 2,
+      "heading": "Alternativas MMA Dogo: confirmá códigos",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "count": 2,
+      "heading": "ST-1B como alternativa; ST-1X por código y lote",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "count": 2,
+      "heading": "Alternativas actuales a la SML130-7",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/percutores/",
+      "count": 1,
+      "heading": "Consultá el percutor Bosch con cable",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "count": 2,
+      "heading": "Dos publicaciones de banco: confirmá modelo y potencia",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "count": 3,
+      "heading": "Rotomartillos Bosch SDS Plus: cable o batería",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "count": 2,
+      "heading": "Atornilladores específicos para placas",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "count": 2,
+      "heading": "Black+Decker: sin percusión o con percusión",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "count": 2,
+      "heading": "Rotomartillos Einhell: comprobá la variante",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "count": 1,
+      "heading": "Consultá el rotomartillo DeWalt DCH273B",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "count": 2,
+      "heading": "Einhell Solo: confirmá función y presupuesto completo",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "count": 2,
+      "heading": "DeWalt: kit D2 o herramienta sola B",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "count": 2,
+      "heading": "Mechas de 6 mm: carburo o diamante húmedo",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "count": 2,
+      "heading": "Milwaukee: compará plataforma y contenido",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "count": 3,
+      "heading": "Lüsqtoff: 12 V, Iron Volt y percusión",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "count": 1,
+      "heading": "Consultá la mecha CYL-9 para cerámica blanda",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/stanley/",
+      "count": 2,
+      "heading": "Stanley: percusión con cable o V20",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "count": 2,
+      "heading": "Atornilladores de impacto DeWalt",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "count": 2,
+      "heading": "Bosch: GSR 12 V sin percusión o GSB 18 V percutor",
+      "filters": 0,
+      "checks": 0
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "count": 1,
+      "heading": "Consultá la referencia Bosch HSS 4–20 mm",
+      "filters": 0,
+      "checks": 0
+    }
+  ]
+}

@@ -172,6 +172,7 @@ footer p[style] { color: #96a2a1 !important; }
 .offer-button { min-height: 44px; align-items: center; text-align: center; }
 .compare-select { display: flex; align-items: center; gap: .55rem; padding: .8rem 0; border-top: 1px solid var(--border-subtle); font-size: .8rem; font-weight: 700; cursor: pointer; }
 .compare-select input { width: 18px; height: 18px; accent-color: var(--orange); }
+.compare-select[hidden] { display: none; }
 .offer-empty { padding: 1rem; background: white; color: #4e595b; }
 .compare-panel { overflow-x: auto; margin-top: 1rem; padding: 1rem; background: white; border: 1px solid var(--border); font-size: .78rem; }
 .compare-panel[hidden] { display: none; }

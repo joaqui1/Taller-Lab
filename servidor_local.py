@@ -974,6 +974,11 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
     selected = products if products is not None else [(section_id, item) for item in AFFILIATE_PRODUCTS.get(section_id, [])]
     if not selected:
         return ""
+    type_counts = {}
+    for category, (_, _, url, _) in selected:
+        kind = COMPARE_TYPES.get(url, category)
+        type_counts[kind] = type_counts.get(kind, 0) + 1
+    has_comparison = any(count >= 2 for count in type_counts.values())
     cards = ""
     for index, (category, (name, detail, url, guide)) in enumerate(selected, 1):
         category_name = CATEGORY_META[category]["name"]
@@ -1007,24 +1012,27 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
             <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre')))} ↗</a>
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
-          <label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>
+          {'<label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>' if type_counts[compare_type] >= 2 else ''}
         </article>
         """
-    title = "Publicaciones para comparar" if section_id != "inicio" else "Del taller a la compra"
+    title = "Publicación disponible en Mercado Libre" if len(selected) == 1 else ("Publicaciones para comparar" if has_comparison else "Publicaciones disponibles")
+    if section_id == "inicio" and len(selected) > 1:
+        title = "Del taller a la compra"
+    filters = '''<div class="offer-filters" aria-label="Filtrar productos">
+        <label>Marca <select class="filter-brand"><option value="">Todas</option></select></label>
+        <label>Uso <select class="filter-use"><option value="">Todos</option></select></label>
+        <label>Alimentación <select class="filter-power"><option value="">Todas</option></select></label>
+      </div>''' if len(selected) > 1 else ''
     return f"""
     <section class="affiliate-shelf" aria-label="Publicaciones con enlace de afiliado">
       <div class="affiliate-heading">
         <div><span class="section-kicker">SELECCIÓN DE PRODUCTOS</span><h2>{title}</h2></div>
         <p>Datos declarados en la fuente indicada, sin medición propia. La presión máxima no equivale a presión de trabajo; el caudal sin condición de medición no acredita caudal entregado. Revisá código, kit y vendedor.</p>
       </div>
-      <div class="offer-filters" aria-label="Filtrar productos">
-        <label>Marca <select class="filter-brand"><option value="">Todas</option></select></label>
-        <label>Uso <select class="filter-use"><option value="">Todos</option></select></label>
-        <label>Alimentación <select class="filter-power"><option value="">Todas</option></select></label>
-      </div>
+      {filters}
       <div class="offer-grid">{cards}</div>
-      <p class="offer-empty" hidden>No hay productos con esos filtros.</p>
-      <div class="compare-panel" hidden aria-live="polite"></div>
+      {'<p class="offer-empty" hidden>No hay productos con esos filtros.</p>' if filters else ''}
+      {'<div class="compare-panel" hidden aria-live="polite"></div>' if has_comparison else ''}
     </section>
     """
 
@@ -1613,8 +1621,8 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=11">
-  <script src="/assets/commerce.js?v=3" defer></script>
+  <link rel="stylesheet" href="/assets/site.css?v=12">
+  <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
@@ -2088,8 +2096,11 @@ def render_article_page(article, embedded=False):
         selected = [('hidrolavadoras', (*catalog[offer['url']][:3], article['url'])) for offer in washer_config['offers']]
         ctas = {offer['url']: 'Ver precio de ' + catalog[offer['url']][0] for offer in washer_config['offers']}
         contextual_shelf = render_affiliate_shelf('hidrolavadoras', selected, ctas)
-        title = 'Nuestra selección según el uso' if article['url'] == '/hidrolavadoras/comparativa-general/' else 'Compará estas opciones en Mercado Libre'
+        title = ('Consultá esta publicación en Mercado Libre' if len(selected) == 1 else
+                 'Nuestra selección según el uso' if article['url'] == '/hidrolavadoras/comparativa-general/' else
+                 'Compará estas opciones en Mercado Libre')
         contextual_shelf = contextual_shelf.replace('<h2>Publicaciones para comparar</h2>', '<h3>' + title + '</h3>')
+        contextual_shelf = contextual_shelf.replace('<h2>Publicación disponible en Mercado Libre</h2>', '<h3>' + title + '</h3>')
         rendered_body = rendered_body.replace('<!-- HIDROLAVADORAS-OFERTAS -->', contextual_shelf)
     rendered_body = add_photos_to_cards(rendered_body)
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
