@@ -318,5 +318,45 @@
     "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
     "notes": "Lectura completa: conservar tres escalones Einhell de 24/50/90 L con salida documentada; las variantes BTA permanecen enlazadas en tabla con admisión y FAD desconocido, sin presentarlas como combinaciones validadas. Corregida tarjeta TE-AC 430/90/10 de 155 a 200 L/min a 7 bar: ficha oficial confirma 210 a 4 bar, 200 a 7 bar, 3000 W S1 y tanque 90 L. No se interpolan caudales ni se validan pistolas a otra presión. Corregidos consumo aproximado AS-1021 y longitud de descripción. Pendiente contraste completo del catálogo BTA y de las pistolas.",
     "full_claim_verification": "pendiente"
+  },
+  "/compresores/24-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-02",
+    "body_sha256": "1927fed208c4f05f0e6c49931c1976f7cf91f51eb0b91a50f96c63921469855d",
+    "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
+    "notes": "Lectura completa: conservar tres modelos de 24 L Gamma G2860AR, LC-0122 y BTA CSA-24-1. Contrastadas sus fichas y las alternativas Gamma 25 L/BTA 25 y 50 L: las cifras y métricas coinciden. LC-2024 es 40 L y discontinuado en la ficha, no candidato de 24 L. Las tres fotos cargan y usan contain a 320/390/1440. Enriquecidas las tarjetas Gamma y Lüsqtoff con tanque, caudal atribuido y potencia; no convierte flujo continuo o caudal sin presión en FAD.",
+    "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+  },
+  "/compresores/bta-25-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-02",
+    "body_sha256": "0c1cd3989fba135f86f4c43ef0cb17a8c61b6879e3c57f847c1a446114b58a2a",
+    "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
+    "notes": "Lectura completa y contraste de fichas BTA 272057.1/272005/272057.2: 25 L y 50 L publican 206 L/min de admisión y 2 HP; CSA-24-1 publica 170 L/min y oil-free. Mantener esas tres alternativas, no afirmar lubricación del 25 L desde la foto o desde las instrucciones SAE30 del 50 L. Fotos completas y sin desborde en tres anchos. Los afiliados ya recibidos corresponden a las tres referencias registradas; esta ronda no reconfirma stock de Mercado Libre.",
+    "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+  },
+  "/compresores/sin-aceite/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-02",
+    "body_sha256": "2dae6b614a546e07bdbf11ee2c24ff1a7628870730ea1273151526de1660b932",
+    "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
+    "notes": "Lectura completa: tres modelos BTA CSA-24-1/CSA-50-2 y LC-0122 con distintas reservas y cifras de aire. Corregido LC-0122: fabricante llama caudal a 180 L/min, no admisión. Contrastadas fichas BTA y manual LC-0122 p.3: limpieza del tanque dos veces por semana, válvula y silenciador a 500 h, anillo a 1500 h. Fotos completas a tres anchos. Tarjetas ahora muestran datos primarios. La etiqueta sin aceite no certifica calidad de aire ni uso médico; contraste completo de normas queda pendiente.",
+    "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+  },
+  "/compresores/aceite/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-02",
+    "body_sha256": "91d2b9c4d5b65c8e667f5995a169fcfaf41fe367ac1a0d100cf757c2723e5f75",
+    "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
+    "notes": "Lectura completa y contraste visual de tres manuales. Gamma p.5 indica 20W40 y punto rojo; p.6/8 SAE30/10 según 10C y mantenimiento L-DAB100/68, primer cambio 10 h/luego 500 h. Corregida la omisión de esa diferencia. LC-30100 sí publica SAE30 invierno/SAE40 verano, p.5; punto rojo y 6 meses/1000 h, p.6. LC-40100 p.4 dice normal40W, visor y cambio50 h. Se añaden datos ausentes en la guía sin inventar equivalencias o cantidades. Sin tarjetas de aceites universales porque el producto debe cumplir la especificación del equipo.",
+    "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+  },
+  "/compresores/gamma-50-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-02",
+    "body_sha256": "b60bfe15546853fdd90f32e3b8b6fe88ac7e5e735254000b07b8ee7080f315c2",
+    "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
+    "notes": "Lectura completa: G2802AR y G2802KAR comparten 50 L/2,5 HP/203 L/min desplazados en manual p.2. Ficha KIT confirma pistolas y manguera. Corregido mantenimiento para incluir todas las indicaciones del manual: 20W40 p.5 frente a SAE30/10 p.6/8 y L-DAB100/68, cambio inicial10 h/luego500 h. Se conserva diferencia de potencia 2/2,5 HP en página del AR. Dos espacios de afiliados ya preparados; no usar una oferta del AR como KIT. Contraste de variantes y lubricante que rige cada unidad requiere respuesta del fabricante.",
+    "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
   }
 }

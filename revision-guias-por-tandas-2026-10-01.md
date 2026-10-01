@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 36. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 41. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -40,6 +40,14 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/compresores/50-litros/](https://www.tallerlab.com.ar/compresores/50-litros/): Lectura completa: conservar tres modelos concretos LC2550B-8, G2802AR y TE-AC 270/50 Silent. No sumar un 100 L a la comparación de 50 L. La tabla distingue flujo/desplazamiento de salida a presión y mantiene la discrepancia Gamma 2/2,5 HP. Contrastada ficha Einhell: 135 L/min a 4 bar, 98 a 7 bar, 1650 W S3 50%, 50 L y 34,45 kg. No convertir el requisito de tanque de una llave de impacto en compatibilidad de cualquier compresor.
 - [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/): Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.
 - [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/): Lectura completa: conservar tres escalones Einhell de 24/50/90 L con salida documentada; las variantes BTA permanecen enlazadas en tabla con admisión y FAD desconocido, sin presentarlas como combinaciones validadas. Corregida tarjeta TE-AC 430/90/10 de 155 a 200 L/min a 7 bar: ficha oficial confirma 210 a 4 bar, 200 a 7 bar, 3000 W S1 y tanque 90 L. No se interpolan caudales ni se validan pistolas a otra presión. Corregidos consumo aproximado AS-1021 y longitud de descripción. Pendiente contraste completo del catálogo BTA y de las pistolas.
+
+## Tanda compresores-02
+
+- [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/): Lectura completa y contraste visual de tres manuales. Gamma p.5 indica 20W40 y punto rojo; p.6/8 SAE30/10 según 10C y mantenimiento L-DAB100/68, primer cambio 10 h/luego 500 h. Corregida la omisión de esa diferencia. LC-30100 sí publica SAE30 invierno/SAE40 verano, p.5; punto rojo y 6 meses/1000 h, p.6. LC-40100 p.4 dice normal40W, visor y cambio50 h. Se añaden datos ausentes en la guía sin inventar equivalencias o cantidades. Sin tarjetas de aceites universales porque el producto debe cumplir la especificación del equipo.
+- [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/): Lectura completa: G2802AR y G2802KAR comparten 50 L/2,5 HP/203 L/min desplazados en manual p.2. Ficha KIT confirma pistolas y manguera. Corregido mantenimiento para incluir todas las indicaciones del manual: 20W40 p.5 frente a SAE30/10 p.6/8 y L-DAB100/68, cambio inicial10 h/luego500 h. Se conserva diferencia de potencia 2/2,5 HP en página del AR. Dos espacios de afiliados ya preparados; no usar una oferta del AR como KIT. Contraste de variantes y lubricante que rige cada unidad requiere respuesta del fabricante.
+- [/compresores/sin-aceite/](https://www.tallerlab.com.ar/compresores/sin-aceite/): Lectura completa: tres modelos BTA CSA-24-1/CSA-50-2 y LC-0122 con distintas reservas y cifras de aire. Corregido LC-0122: fabricante llama caudal a 180 L/min, no admisión. Contrastadas fichas BTA y manual LC-0122 p.3: limpieza del tanque dos veces por semana, válvula y silenciador a 500 h, anillo a 1500 h. Fotos completas a tres anchos. Tarjetas ahora muestran datos primarios. La etiqueta sin aceite no certifica calidad de aire ni uso médico; contraste completo de normas queda pendiente.
+- [/compresores/bta-25-litros/](https://www.tallerlab.com.ar/compresores/bta-25-litros/): Lectura completa y contraste de fichas BTA 272057.1/272005/272057.2: 25 L y 50 L publican 206 L/min de admisión y 2 HP; CSA-24-1 publica 170 L/min y oil-free. Mantener esas tres alternativas, no afirmar lubricación del 25 L desde la foto o desde las instrucciones SAE30 del 50 L. Fotos completas y sin desborde en tres anchos. Los afiliados ya recibidos corresponden a las tres referencias registradas; esta ronda no reconfirma stock de Mercado Libre.
+- [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/): Lectura completa: conservar tres modelos de 24 L Gamma G2860AR, LC-0122 y BTA CSA-24-1. Contrastadas sus fichas y las alternativas Gamma 25 L/BTA 25 y 50 L: las cifras y métricas coinciden. LC-2024 es 40 L y discontinuado en la ficha, no candidato de 24 L. Las tres fotos cargan y usan contain a 320/390/1440. Enriquecidas las tarjetas Gamma y Lüsqtoff con tanque, caudal atribuido y potencia; no convierte flujo continuo o caudal sin presión en FAD.
 
 ## Tanda consumibles-01
 
@@ -98,17 +106,17 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/compresores/pistola-para-pintar/](https://www.tallerlab.com.ar/compresores/pistola-para-pintar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/acoples-rapidos/](https://www.tallerlab.com.ar/compresores/acoples-rapidos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/para-aerografo/](https://www.tallerlab.com.ar/compresores/para-aerografo/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
-| [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/kits-accesorios/](https://www.tallerlab.com.ar/compresores/kits-accesorios/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/sin-aceite/](https://www.tallerlab.com.ar/compresores/sin-aceite/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/sin-aceite/](https://www.tallerlab.com.ar/compresores/sin-aceite/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/200-litros/](https://www.tallerlab.com.ar/compresores/200-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/bta-25-litros/](https://www.tallerlab.com.ar/compresores/bta-25-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/bta-25-litros/](https://www.tallerlab.com.ar/compresores/bta-25-litros/) | Sin fallas detectadas | revisión editorial registrada |
+| [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/inalambricos/](https://www.tallerlab.com.ar/compresores/inalambricos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/stanley/](https://www.tallerlab.com.ar/compresores/stanley/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |

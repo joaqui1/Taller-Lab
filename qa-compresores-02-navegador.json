@@ -1,0 +1,485 @@
+{
+  "checked": "2026-10-01",
+  "results": [
+    {
+      "path": "/compresores/24-litros/",
+      "width": 320,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/gammag2860ar-807a31316c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "width": 320,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/btadca1256-a19ab14272.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btadca2506-effbf316e1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "width": 320,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa502-027af31d2a.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/aceite/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/gammag2860ar-807a31316c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/btadca1256-a19ab14272.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btadca2506-effbf316e1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa502-027af31d2a.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/aceite/",
+      "width": 390,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "width": 390,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/gammag2860ar-807a31316c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/btadca1256-a19ab14272.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/btadca2506-effbf316e1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa241-bd01728064.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/btacsa502-027af31d2a.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            300,
+            300
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "cards": 3,
+      "errors": []
+    },
+    {
+      "path": "/compresores/aceite/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "cards": 0,
+      "errors": []
+    }
+  ]
+}

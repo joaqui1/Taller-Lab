@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía para identificar lubricante, nivel e intervalo por modelo, con contraste de manuales Gamma y Lüsqtoff y aclaración entre SAE e ISO VG."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -41,15 +41,15 @@ La ficha puede indicar un grado SAE, ISO VG u otra designación propia del lubri
 
 **SAE** e **ISO VG** son clasificaciones de viscosidad, pero pertenecen a sistemas distintos. SAE J300 clasifica aceites para motores; ISO 3448 clasifica lubricantes industriales por viscosidad cinemática, con grados definidos alrededor de la medición a 40 °C. Los números no son una tabla de equivalencias directa: “SAE 30” no significa automáticamente “ISO VG 100”, ni SAE 40W identifica por sí solo cualquier aceite para compresor.
 
-El manual Gamma G2802AR ofrece pares de alternativas para **ese modelo y temperatura**: SAE 30 o L-DAB 100 por encima de 10 °C; SAE 10 o L-DAB 68 por debajo de 10 °C. Es una instrucción del fabricante para ese compresor, no una conversión universal entre SAE e ISO VG. Si otro fabricante solo publica una de las designaciones, no asumas que un grado parecido pertenece a una categoría aprobada.
+El manual Gamma G2802AR publica SAE 30 o L-DAB 100 por encima de 10 °C y SAE 10 o L-DAB 68 por debajo de 10 °C en mantenimiento (página 8 del PDF), pero indica **20W40 para reponer** en el apartado de armado (página 5). No presenta esos grados como equivalentes ni explica cómo conciliar las instrucciones: pedí al servicio Gamma la especificación para la revisión de tu equipo antes de cargar. Estos pares tampoco son una conversión universal entre SAE e ISO VG.
 
 ## Ejemplos documentados por modelo
 
 | Modelo y manual consultado | Aceite indicado | Nivel y cantidad | Cuándo controlar o cambiar, según el manual |
 | :--- | :--- | :--- | :--- |
-| Gamma G2802AR, 50 L | SAE 30 o L-DAB 100 arriba de 10 °C; SAE 10 o L-DAB 68 abajo de 10 °C | Cantidad de carga no especificada en el manual consultado | Primer cambio a las 10 h; luego cada 500 h |
-| Lüsqtoff LC-40100 | El manual dice “aceite normal 40W”. No conviene completar esa frase con una conversión no indicada | Cantidad y referencia visual de nivel no confirmadas en el pasaje consultado | Cambio después de 50 h de uso, según el manual consultado; no extrapolar ese intervalo a otros Lüsqtoff |
-| Lüsqtoff LC-30100 | El pasaje de mantenimiento consultado no fija grado | Indica llenar hasta el punto rojo del visor. Cantidad en mililitros no especificada | Uso ocasional: cada 6 meses; uso diario: cada 1.000 h, según el manual |
+| Gamma G2802AR, 50 L | Armado, p.5: 20W40 para reponer. Mantenimiento, p.8: SAE 30 / L-DAB 100 arriba de 10 °C y SAE 10 / L-DAB 68 abajo de 10 °C. Confirmar con Gamma la instrucción aplicable | Punto rojo del visor, p.5; cantidad en mililitros no especificada | Primer cambio a las 10 h; luego cada 500 h, p.8 |
+| Lüsqtoff LC-40100 | “Aceite normal 40W”, p.4 del PDF; no convertir esa designación por cuenta propia | Llenar conforme al visor de aceite; no publica una cantidad ni una marca concreta en ese pasaje | Cambio después de 50 h de uso, p.4; no extrapolar a otros modelos |
+| Lüsqtoff LC-30100 | SAE 30 en invierno y SAE 40 en verano, p.5 del PDF; no fija una temperatura de cambio entre grados | Punto rojo del visor, p.6; cantidad en mililitros no especificada | Uso no periódico: cada 6 meses; uso diario: cada 1.000 h, p.6 |
 
 La comparación Gamma/Lüsqtoff muestra que **no hay una viscosidad universal**. Los intervalos y los grados de la tabla son instrucciones atribuidas a esos modelos; no representan una recomendación para todos los compresores de la marca.
 

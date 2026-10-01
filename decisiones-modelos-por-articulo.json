@@ -1091,8 +1091,8 @@
   {
     "path": "/compresores/aceite/",
     "title": "Qué aceite lleva un compresor de aire",
-    "decision": "Criterio propuesto",
-    "reason": "Conservar los ejemplos por código y manual; no presentar aceites como sustitutos universales.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste visual de tres manuales. Gamma p.5 indica 20W40 y punto rojo; p.6/8 SAE30/10 según 10C y mantenimiento L-DAB100/68, primer cambio 10 h/luego 500 h. Corregida la omisión de esa diferencia. LC-30100 sí publica SAE30 invierno/SAE40 verano, p.5; punto rojo y 6 meses/1000 h, p.6. LC-40100 p.4 dice normal40W, visor y cambio50 h. Se añaden datos ausentes en la guía sin inventar equivalencias o cantidades. Sin tarjetas de aceites universales porque el producto debe cumplir la especificación del equipo.",
     "tables": [
       {
         "heading": "Ejemplos documentados por modelo",
@@ -1210,8 +1210,8 @@
   {
     "path": "/compresores/gamma-50-litros/",
     "title": "Compresor Gamma de 50 litros: guía de compra",
-    "decision": "Criterio propuesto",
-    "reason": "Ya contrasta G2802AR y G2802KAR en el documento. Los referidos siguen pendientes; no convertir el compresor en un kit sin acreditar contenido.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: G2802AR y G2802KAR comparten 50 L/2,5 HP/203 L/min desplazados en manual p.2. Ficha KIT confirma pistolas y manguera. Corregido mantenimiento para incluir todas las indicaciones del manual: 20W40 p.5 frente a SAE30/10 p.6/8 y L-DAB100/68, cambio inicial10 h/luego500 h. Se conserva diferencia de potencia 2/2,5 HP en página del AR. Dos espacios de afiliados ya preparados; no usar una oferta del AR como KIT. Contraste de variantes y lubricante que rige cada unidad requiere respuesta del fabricante.",
     "tables": [
       {
         "heading": "G2802AR y G2802KAR: qué cambia",
@@ -1318,8 +1318,8 @@
   {
     "path": "/compresores/sin-aceite/",
     "title": "Compresores sin aceite: cuándo convienen",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Qué significa que un compresor sea oil-free, qué mantenimiento requiere y cuándo conviene para tareas domésticas, aerografía o aplicaciones sensibles.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: tres modelos BTA CSA-24-1/CSA-50-2 y LC-0122 con distintas reservas y cifras de aire. Corregido LC-0122: fabricante llama caudal a 180 L/min, no admisión. Contrastadas fichas BTA y manual LC-0122 p.3: limpieza del tanque dos veces por semana, válvula y silenciador a 500 h, anillo a 1500 h. Fotos completas a tres anchos. Tarjetas ahora muestran datos primarios. La etiqueta sin aceite no certifica calidad de aire ni uso médico; contraste completo de normas queda pendiente.",
     "tables": [
       {
         "heading": "Cuándo conviene un compresor sin aceite",
@@ -1455,8 +1455,8 @@
   {
     "path": "/compresores/24-litros/",
     "title": "Compresor de 24 litros: para qué sirve y cuál elegir",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: conservar tres modelos de 24 L Gamma G2860AR, LC-0122 y BTA CSA-24-1. Contrastadas sus fichas y las alternativas Gamma 25 L/BTA 25 y 50 L: las cifras y métricas coinciden. LC-2024 es 40 L y discontinuado en la ficha, no candidato de 24 L. Las tres fotos cargan y usan contain a 320/390/1440. Enriquecidas las tarjetas Gamma y Lüsqtoff con tanque, caudal atribuido y potencia; no convierte flujo continuo o caudal sin presión en FAD.",
     "tables": [
       {
         "heading": "Para qué sirve un compresor de 24 litros",

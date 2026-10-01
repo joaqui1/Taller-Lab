@@ -1,0 +1,75 @@
+{
+  "checked": "2026-10-01",
+  "records": [
+    {
+      "source": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
+      "sha256": "32c71a441bdbfd3b4b3a879a151d65547f77457265f4de027e1c70011b0448c6",
+      "visually_checked": true,
+      "fields": {
+        "pdf_pages": [
+          2,
+          5,
+          6,
+          8
+        ],
+        "models": [
+          "G2802AR",
+          "G2802KAR"
+        ],
+        "oil_replenishment": "20W40 p.5",
+        "oil_maintenance": "SAE30/L-DAB100 above 10C; SAE10/L-DAB68 below 10C p.8",
+        "level": "red point on sight glass p.5",
+        "oil_change_hours": [
+          10,
+          500
+        ],
+        "tank_l": 50,
+        "power_hp": 2.5,
+        "displacement_lpm": 203
+      }
+    },
+    {
+      "source": "https://www.lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-0122/MANUAL/LC-0122.pdf",
+      "sha256": "995a4f903588320f25487fb1f9275a9c6cc45719760ca27eba1d77d2d8ffd4f5",
+      "visually_checked": true,
+      "fields": {
+        "pdf_pages": [
+          3
+        ],
+        "maintenance": "tank cleaning at least twice weekly; air valve cleaning and silencer element replacement every 500h; piston ring replacement every 1500h"
+      }
+    },
+    {
+      "source": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
+      "sha256": "b8c3188b5964b83f2d817a4871af00347d7c594b70606b6b90708b1efb137fdf",
+      "visually_checked": true,
+      "fields": {
+        "pdf_pages": [
+          4
+        ],
+        "oil": "normal 40W",
+        "level": "according to sight glass; no exact mark in passage",
+        "change_hours": 50,
+        "tank_l": 100,
+        "power_hp": 4,
+        "flow_lpm": 360,
+        "weight_kg": 58
+      }
+    },
+    {
+      "source": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
+      "sha256": "9073b19cdf88ef6786ce4313571435222d2753f366d989f9ce118ee534f789f7",
+      "visually_checked": true,
+      "fields": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "oil": "SAE30 winter; SAE40 summer; no numeric temperature boundary",
+        "level": "red point on sight glass",
+        "change_calendar_months": 6,
+        "change_daily_use_hours": 1000
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de compra de los Gamma G2802AR y G2802KAR con datos de manual, contenido del kit, mantenimiento y límites de compatibilidad."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -52,9 +52,11 @@ El manual llama **desplazamiento** a los 203 L/min del G2802AR/KAR. Es el volume
 
 ## Aceite y mantenimiento
 
-El manual confirma que el G2802AR y el G2802KAR son compresores **lubricados**. Antes de ponerlo en marcha, Gamma indica reemplazar el tapón ciego de transporte por el tapón con venteo provisto y comprobar el nivel de aceite en el visor. Si hace falta reponer, el manual especifica aceite **20W40** y nivel hasta la marca roja. No publica en la información consultada una cantidad de carga que pueda recomendarse como universal.
+El manual confirma que el G2802AR y el G2802KAR son compresores **lubricados**. Antes de ponerlo en marcha, Gamma indica reemplazar el tapón ciego de transporte por el tapón con venteo provisto y comprobar el nivel hasta el punto rojo del visor. No publica una cantidad de carga en mililitros.
 
-Revisá el nivel y mantené limpio el filtro de admisión conforme al manual. El tanque tiene válvula de desagote para evacuar condensado; vacialo con el equipo apagado y despresurizado según las instrucciones. Para intervalo de cambio de aceite, cantidad exacta y cualquier diferencia entre una revisión del manual y la placa, seguí la documentación entregada con esa unidad o consultá al servicio técnico Gamma. No completes con otro grado por semejanza con un compresor distinto.
+**Aceite por revisión del equipo:** la página 5 del PDF indica **20W40 para reponer**, mientras que las páginas 6 y 8 indican **SAE 30** por encima de 10 °C y **SAE 10** por debajo; mantenimiento también cita L-DAB 100 y L-DAB 68, respectivamente. El documento no explica cómo conciliar esos grados. Pedí al servicio Gamma la indicación para tu código y revisión antes de cargar; no los mezcles ni los tomes como equivalentes.
+
+El apartado de mantenimiento (página 8 del PDF) indica **primer cambio a las 10 horas y luego cada 500 horas**, y purga diaria del condensado. Revisá el nivel y mantené limpio el filtro de admisión conforme al manual. Para intervenir, apagá, desconectá y despresurizá el equipo según su procedimiento. Seguí la documentación de la revisión de tu unidad si difiere del documento enlazado.
 
 Para elegir y controlar el lubricante según el modelo, consultá la guía de [aceite para compresor de aire](/compresores/aceite/).
 

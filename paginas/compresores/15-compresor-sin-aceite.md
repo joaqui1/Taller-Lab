@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía práctica de ventajas, límites, mantenimiento y usos de compresores sin aceite, con modelos identificados y datos cotejables."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -88,12 +88,12 @@ El manual del **Lüsqtoff LC-0122** indica limpiar el tanque al menos dos veces 
 | :--- | :--- | :--- | :--- | :--- |
 | **BTA CSA-24-1**, código 272005 | Tanque 24 L; 2 HP / 1.500 W; admisión 170 L/min; presión máxima 8 bar; 220 V–50 Hz; regulador y doble manómetro | Equipo más compacto de estos ejemplos; la ficha identifica tanque, potencia, presión máxima y regulación | No hay nivel sonoro ni ciclo de trabajo publicado en la ficha consultada. Los 170 L/min son admisión, no FAD confirmado | [Ver precio y disponibilidad](https://meli.la/2kTMPof) |
 | **BTA CSA-50-2**, código 272009.2 | Tanque 50 L; 1,5 HP / 1.100 W; admisión 260 L/min; presión máxima 8 bar; 220 V–50 Hz; 65 dB; regulador con filtro y doble manómetro | Mayor reserva nominal que un tanque de 24 L y nivel sonoro publicado por BTA | La ficha no define el método/condición del dato acústico ni confirma FAD o ciclo para herramientas sostenidas | [Ver precio y disponibilidad](https://meli.la/1b6KCiM) |
-| **Lüsqtoff LC-0122** | Tanque 24 L; 1 HP / 750 W; admisión 180 L/min; presión máxima 115 PSI; 220 V–50 Hz; monocilíndrico de mando directo; 24 kg | La marca documenta el código, partes, mantenimiento y describe el modelo como de bajo ruido | No publica cifra comparable de dB ni FAD/ciclo en la ficha consultada. Su recomendación comercial de usos sensibles no certifica la calidad de aire | [Ver precio y disponibilidad](https://meli.la/19aFAKp) |
+| **Lüsqtoff LC-0122** | Tanque 24 L; 1 HP / 750 W; caudal publicado de 180 L/min, sin condición de medición indicada; presión máxima 115 PSI; 220 V–50 Hz; monocilíndrico de mando directo; 24 kg | La marca documenta el código, partes, mantenimiento y describe el modelo como de bajo ruido | No publica cifra comparable de dB ni FAD/ciclo en la ficha consultada. Su recomendación comercial de usos sensibles no certifica la calidad de aire | [Ver precio y disponibilidad](https://meli.la/19aFAKp) |
 
 <!-- COMPRESORES-OFFERS -->
 
 
-**Análisis TallerLab:** estos tres ejemplos sirven para mostrar qué datos pedir y cómo difieren tanque, potencia, accesorios y nivel sonoro publicado. No permiten ordenar el rendimiento por sus L/min de admisión: BTA y Lüsqtoff no documentan un método común ni el caudal efectivo a una presión de herramienta.
+**Análisis TallerLab:** estos tres ejemplos sirven para mostrar qué datos pedir y cómo difieren tanque, potencia, accesorios y nivel sonoro publicado. BTA informa admisión y Lüsqtoff solo denomina «caudal» a sus 180 L/min: no publican una condición común ni salida a presión de herramienta que permita ordenar el rendimiento.
 
 Para comparar estos modelos con otras configuraciones del mismo tamaño, seguí con la guía general de [compresores de 50 litros](/compresores/50-litros/) y la comparación de [Gamma de 50 litros](/compresores/gamma-50-litros/).
 
@@ -115,7 +115,7 @@ Si la ficha solo informa HP, tanque, presión máxima y admisión, alcanza para 
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 28/09/2026
+- Última revisión: 01/10/2026
 
 ## Fuentes consultadas
 
