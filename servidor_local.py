@@ -1613,7 +1613,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=10">
+  <link rel="stylesheet" href="/assets/site.css?v=11">
   <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>
@@ -1726,12 +1726,14 @@ def render_card_thumb(a, badge_text, reading_time, image_src=None):
     photo_class = 'product-guide-thumb' if cover['kind'] == 'product' else 'context-guide-thumb'
     return f"""
         <div class="card-thumb editorial-thumb {photo_class}">
-          <img class="thumb-img" src="{escape(image_src or cover['image'], quote=True)}"
-               alt="{escape(cover['alt'], quote=True)}" width="{cover['width']}" height="{cover['height']}"
-               loading="lazy" decoding="async">
           <div class="thumb-overlay">
             <span class="thumb-badge">{escape(badge_text)}</span>
             <span class="thumb-time">{reading_time}</span>
+          </div>
+          <div class="thumb-photo">
+            <img class="thumb-img" src="{escape(image_src or cover['image'], quote=True)}"
+                 alt="{escape(cover['alt'], quote=True)}" width="{cover['width']}" height="{cover['height']}"
+                 loading="lazy" decoding="async">
           </div>
           <span class="editorial-label">{escape(cover['label'])}</span>
         </div>
