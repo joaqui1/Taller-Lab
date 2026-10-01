@@ -104,6 +104,14 @@ Estos productos sirven para mostrar cómo verificar la descripción, las dimensi
 
 Los tres primeros códigos figuran en catálogos Bosch regionales/Argentina; el listado y la disponibilidad pueden cambiar. Antes de comprar, cotejá el código con la ficha actual y la amoladora. El último disco se incluye como contraste para identificar por qué no se debe elegir solo por marca o diámetro.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas y el catálogo Bosch citados identifican discos de corte PRO Metal y Stainless Steel and Metal y los distinguen de los accesorios de desbaste. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz empieza por material y operación y después verifica medida, espesor, fijación y RPM. Igual diámetro no prueba compatibilidad de montaje ni habilita usar lateralmente un disco destinado a corte.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch PRO Metal de corte, 115 × 1,6 mm](https://www.bosch-professional.com/es/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-osa-3090750-ocs-ac/); [Bosch PRO Stainless Steel and Metal, variantes 115/125 mm](https://www.bosch-professional.com/ar/es/disco-de-corte-pro-stainless-steel-and-metal-abrasivo-y-de-larga-duracion-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3090743-ocs-ac/); [catálogo Bosch Argentina 2024](https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf); [Bosch PRO Metal de desbaste](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [manual Bosch de amoladoras](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).

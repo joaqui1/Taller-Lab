@@ -23,7 +23,7 @@ published: true
 
 Las fichas oficiales de Estados Unidos y Europa permiten comparar dos rotomartillos SDS Plus a batería y una alternativa con cable. No confirman disponibilidad ni configuración en Argentina. Elegí primero por diámetro y frecuencia de perforación, necesidad de cincelar y acceso a red eléctrica; los joules y el máximo de hormigón son datos de catálogo, no una prueba común entre modelos.
 
-### Percutor vs SDS DeWalt
+## Percutor vs SDS DeWalt
 
 Un taladro percutor DeWalt, como los DCD796 o DCD805, usa mandril convencional y puede cubrir perforaciones ocasionales en mampostería. Para hormigón frecuente, brocas SDS Plus o cincelado, la familia DCH ofrece el encastre y el mecanismo de rotomartillo. Compará [percutores inalámbricos](/taladros/taladro-percutor-inalambrico/) con esta guía SDS y revisá también [taladros inalámbricos DeWalt](/taladros/dewalt-inalambrico/) por uso y plataforma.
 

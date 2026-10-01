@@ -1,0 +1,2091 @@
+{
+  "routes": 190,
+  "articles": 179,
+  "assets": 10,
+  "external_images": [
+    "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_qid1e9h9vd42rb1sou1jcfh14q/-FJPG-FWEBP-B800",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_813264-MLA110043387697_042026-O.webp"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Comparativas y calculadoras de herramientas en Argentina · TallerLab",
+      "description": "Elegí herramientas para tu trabajo: explorá 8 categorías, compará modelos y usá calculadoras de potencia, caudal y costos antes de comprar en Argentina.",
+      "schemas": [
+        "Organization",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "title": "Cómo trabajamos · TallerLab",
+      "description": "Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "title": "Joaquín Vallasciani — Editor e investigador de TallerLab · TallerLab",
+      "description": "Investigación documental y edición de las guías de TallerLab: fuentes, comparaciones y límites.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "ProfilePage"
+      ]
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "title": "Contacto y correcciones · TallerLab",
+      "description": "Consultas y correcciones de las guías documentales de TallerLab.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/privacidad/",
+      "status": 200,
+      "title": "Privacidad y datos · TallerLab",
+      "description": "Registros de navegación, clics comerciales y servicios externos de TallerLab.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/compresores/",
+      "status": 200,
+      "title": "Compresores · TallerLab",
+      "description": "Partí del consumo de aire de tu tarea. Compará caudal declarado/documentado a la presión de uso, volumen del tanque y alimentación; la admisión no equivale al aire entregado.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/taladros/",
+      "status": 200,
+      "title": "Taladros y atornilladores · TallerLab",
+      "description": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/soldadoras/",
+      "status": 200,
+      "title": "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab · TallerLab",
+      "description": "Elegí el proceso según el material y el consumible. Compará corriente con su ciclo de trabajo, tensión y accesorios del código exacto; el nombre comercial no prueba la salida continua.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "title": "Hidrolavadoras: guías, marcas y comparativas",
+      "description": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/sierras/",
+      "status": 200,
+      "title": "Sierras: tipos y cómo elegir según el trabajo · TallerLab",
+      "description": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "title": "Generadores · TallerLab",
+      "description": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "title": "Soldadura electrónica · TallerLab",
+      "description": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/amoladoras/",
+      "status": 200,
+      "title": "Cómo elegir una amoladora: tipos, medidas y marcas · TallerLab",
+      "description": "Empezá por el material y el disco compatible. Después compará diámetro, velocidad en vacío, alimentación y funciones documentadas por modelo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "title": "Disco flap: para qué sirve y qué grano elegir · TallerLab",
+      "description": "Guía de discos flap: usos, granos 40 a 120, abrasivos, formas T27/T29 y comprobación de medida, eje y rpm.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "title": "Discos para amoladora: tipos, usos y compatibilidad · TallerLab",
+      "description": "Elegí un disco para amoladora por operación y material; comprobá tipo, medida, montaje y rpm antes de comprar o instalarlo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "title": "Amoladoras DeWalt: modelos y cómo elegir · TallerLab",
+      "description": "Compará amoladoras DeWalt regionales de 115, 125 y 180 mm por código, alimentación y datos de ficha; verificá tensión, kit y garantía.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "title": "Disco de desbaste: cómo elegirlo para metal · TallerLab",
+      "description": "Qué revisar al elegir un disco de desbaste: aplicación, medida, abrasivo, montaje y diferencias con flap y corte.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "title": "Amoladora recta: eléctrica o neumática, cuál elegir · TallerLab",
+      "description": "Compará amoladoras rectas eléctricas y neumáticas por aplicación, rpm, pinza y requisitos de alimentación y compresor.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "title": "Amoladora de banco: cómo elegir para tu taller · TallerLab",
+      "description": "Guía para elegir amoladora de banco por diámetro, potencia, régimen, muela, apoyos y tipo de uso, con ejemplos de 150, 200 y 205 mm.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "title": "Amoladoras Makita: modelos y diferencias · TallerLab",
+      "description": "Compará amoladoras Makita de 115 a 230 mm, con cable y a batería, y revisá los códigos, accesorios y garantía local antes de elegir.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "title": "Amoladoras inalámbricas: cómo elegir batería y modelo · TallerLab",
+      "description": "Guía para elegir amoladora a batería por trabajo, diámetro, plataforma, batería, kit y costo total de entrada.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "title": "Disco para cortar cerámica: cómo elegirlo · TallerLab",
+      "description": "Guía de discos diamantados para cerámica: borde continuo o turbo, ancho de corte, montaje, RPM y límites de uso.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "title": "Amoladoras Bosch: modelos y diferencias para elegir · TallerLab",
+      "description": "Compará amoladoras Bosch por trabajo, diámetro, alimentación, tensión, variante y contenido del paquete.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "title": "Amoladoras Lusqtoff: modelos y qué revisar · TallerLab",
+      "description": "Comparamos las amoladoras Lusqtoff AML850-8, AML1010-8 y AML115-9B: potencia, medidas, Iron Volt, kits, garantía y para qué uso tiene sentido cada una.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "title": "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm · TallerLab",
+      "description": "Cuándo elegir una amoladora de 230 mm, qué cambia frente a 180 mm y qué modelos documentados comparar en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "title": "Amoladora Skil de 830 W: qué revisar antes de comprar · TallerLab",
+      "description": "Datos de las Skil 9004 y 9002, códigos argentinos, tensión, contenido de publicación y qué se sabe hoy de su disponibilidad y garantía.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "title": "Disco diamantado segmentado: usos y cómo elegir · TallerLab",
+      "description": "Qué significa segmentado, diferencias con turbo y continuo, materiales, medidas de 115 y 230 mm y compatibilidad del disco diamantado.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "title": "Amoladoras Stanley: cómo elegir el modelo · TallerLab",
+      "description": "Modelos Stanley documentados en Argentina y LatAm: angulares con cable de 115 mm, opciones V20 inalámbricas, diferencias de códigos y garantía.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "title": "Disco de corte para amoladora: cuál elegir según el material · TallerLab",
+      "description": "Cómo elegir un disco de corte para metal, chapa o inoxidable: material, espesor, diámetro, eje, fijación y rpm.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "title": "Amoladoras Ingco: modelos con cable y a batería · TallerLab",
+      "description": "Comparación de amoladoras INGCO documentadas para Argentina: 115, 125, 180 y 230 mm, modelos a cable y kits 20 V.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "title": "Amoladora de velocidad variable: cuándo conviene · TallerLab",
+      "description": "Qué cambia al regular las RPM, qué revisar en los accesorios y cuatro amoladoras con tensión 220–240 V documentada.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "title": "Amoladora de 7 pulgadas: cómo elegir una de 180 mm · TallerLab",
+      "description": "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "title": "Amoladora de 115 o 125 mm: diferencias y elección · TallerLab",
+      "description": "Comparación de amoladoras de 115 y 125 mm: profundidad, compatibilidad, modelos disponibles en Argentina y diferencias de consumibles.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "title": "Amoladoras Gamma: modelos y qué revisar antes de comprar · TallerLab",
+      "description": "Gama Gamma publicada en Argentina, diferencias entre modelos de 750 y 850 W, contenido del kit G1910KAR y garantía oficial.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "title": "Amoladoras Total: modelos de 115, 125 y 180 mm · TallerLab",
+      "description": "Comparamos tres amoladoras Total con códigos completos documentados en Argentina: 115 mm, 125 mm con velocidad variable y 180 mm.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "title": "Amoladoras Dowen Pagio: 9993220.7, 9993220.9 y 9993224.2 · TallerLab",
+      "description": "Comparamos las Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: diferencias, costo inicial y la ambigua rosca del eje.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "title": "Disco para cortar vidrio: tipos, compatibilidad y límites · TallerLab",
+      "description": "Discos para vidrio documentados por Tork Craft, Husqvarna y Lusqtoff: códigos, compatibilidad y límites de uso.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "title": "Compresor de aire para auto: cuál elegir · TallerLab",
+      "description": "Elegí un compresor para auto según alimentación, corriente, ciclo de trabajo y alcance. Compará opciones 12 V e inalámbricas sin confundir PSI máximo con presión del neumático.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "title": "Compresor de 50 litros: comparativa y guía de compra · TallerLab",
+      "description": "Compará compresores de 50 litros Lüsqtoff, Gamma y Einhell: potencia, caudal declarado, salida a presión de trabajo y límites según el uso.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "title": "Manguera para compresor de aire: medidas y materiales · TallerLab",
+      "description": "Elegí una manguera para compresor por caudal, diámetro interior, largo, material, presión y acoples. Diferenciá conexión de 1/4 o 3/8 de la medida interna.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "title": "Aerógrafo con compresor: qué kit comprar para empezar · TallerLab",
+      "description": "Qué debe incluir un kit de aerografía, qué cambia entre acción simple y doble, y ejemplos documentados para modelismo, uñas, repostería y detalle.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "title": "Pistola para pintar con compresor: cuál elegir · TallerLab",
+      "description": "Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal de salida a presión de trabajo del compresor. Incluye datos BTA documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "title": "Acople rápido para compresor: perfiles, roscas y medidas · TallerLab",
+      "description": "Identificá un acople rápido para compresor separando perfil, rosca, género y medida antes de comprar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "title": "Compresor para aerógrafo: cómo elegir el adecuado · TallerLab",
+      "description": "Compará compresores para aerografía por tanque, presión, caudal, regulador, filtro, conexiones y ciclo de uso.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "title": "Aceite para compresor de aire: cuál lleva y cómo elegir · TallerLab",
+      "description": "Identificá el aceite de tu compresor por código y manual. Ejemplos Gamma y Lüsqtoff, lectura de visor, intervalos y diferencia entre SAE e ISO VG.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "title": "Compresor Lusqtoff de 50 litros: cuál elegir · TallerLab",
+      "description": "Comparamos las variantes Lüsqtoff de 50 L por lubricación, caudal publicado, accesorios y uso documentado; señalamos qué datos todavía hay que confirmar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "title": "Filtro de aire para compresor: cómo elegir el repuesto · TallerLab",
+      "description": "Primero identifica y compra el filtro de admisión compatible con tu compresor; después compara filtro de línea, regulador, micronaje y drenaje.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "title": "Qué compresor de 100 litros elegir para tu taller · TallerLab",
+      "description": "Guía para dimensionar un compresor de 100 L según las herramientas, transmisión, caudal publicado, alimentación y mantenimiento del taller.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "title": "Compresor Gamma de 50 litros: guía de compra · TallerLab",
+      "description": "Identificá las diferencias entre Gamma G2802AR y G2802KAR: potencia publicada, tanque, alimentación, caudal, aceite y accesorios del kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "title": "Qué kit de accesorios comprar para un compresor · TallerLab",
+      "description": "Compara kits de aire por uso, piezas incluidas, tipo de pistola, manguera, conexiones y consumo antes de comprar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos · TallerLab",
+      "description": "Comparamos LC-30100, LC-40100 y LCS100-8 por tecnología, presión y caudal documentados, y explicamos qué falta para elegirlos según el uso del taller.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "title": "Compresores sin aceite: cuándo convienen · TallerLab",
+      "description": "Qué significa que un compresor sea oil-free, qué mantenimiento requiere y cuándo conviene para tareas domésticas, aerografía o aplicaciones sensibles.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "title": "Compresores de 200 litros: guía de compra para taller · TallerLab",
+      "description": "Cuándo pasar de 100 a 200 L, cómo cruzar caudal, presión y simultaneidad, y qué revisar en tres compresores de taller documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "title": "Compresor BTA de 25 litros: para quién conviene · TallerLab",
+      "description": "Ficha del BTA 272057.1, diferencias frente al CSA-24 sin aceite, tareas adecuadas, límites y cuándo elegir la versión de 50 litros.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "title": "Compresor de 24 litros: para qué sirve y cuál elegir · TallerLab",
+      "description": "Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "title": "Cómo elegir un compresor inalámbrico a batería · TallerLab",
+      "description": "Qué mirar en un inflador a batería: plataforma, batería, presión, caudal, accesorios y diferencias entre inflar neumáticos y objetos de gran volumen.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "title": "Compresores Stanley: comparativa y guía de compra · TallerLab",
+      "description": "Comparativa documentada de compresores Stanley, incluido el FCCC404STC005 publicado en Argentina, y modelos Stanley Fatmax de 24, 50 y 100 litros.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "title": "Compresor para pintar: cómo elegirlo según la pistola y el trabajo · TallerLab",
+      "description": "Guía para cruzar consumo y presión de la pistola con caudal entregado, tanque y ciclo del compresor; incluye ejemplos documentados para retoques, muebles, rejas, paredes y autos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "title": "Inflador de neumáticos portátil: cómo elegirlo para auto, moto o bicicleta · TallerLab",
+      "description": "Compara infladores portátiles de 12 V y a batería según uso, caudal a presión, autonomía, tamaño, manguera, cable y accesorios.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "title": "Compresor 12 V doble pistón: qué revisar antes de elegir · TallerLab",
+      "description": "Guía para elegir un compresor portátil 12 V de doble pistón por corriente, conexión a batería, caudal a presión, ciclo, temperatura y alcance.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "title": "Grupos electrógenos: cómo elegir y comparar modelos · TallerLab",
+      "description": "Calculá la carga simultánea, elegí tipo y combustible, y compará ocho grupos electrógenos por escala de potencia y configuración.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/precios/",
+      "status": 200,
+      "title": "Grupo electrógeno: precios por potencia y cómo comparar · TallerLab",
+      "description": "Precios publicados de ocho grupos electrógenos en Argentina, consultados el 28/09/2026, separados por potencia y cuotas; compará costo final y qué revisar antes de comprar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/honda/",
+      "status": 200,
+      "title": "Grupos electrógenos Honda: modelos y diferencias · TallerLab",
+      "description": "Compará generadores Honda por potencia nominal, tipo de salida, peso, tanque y regulación; elegí una escala según tus cargas y la fase requerida.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "title": "Grupo electrógeno Honda 6500: potencia y precio · TallerLab",
+      "description": "Diferencias entre Honda EG6500CXS y EZ6500CXS, potencia nominal y máxima, escenarios de carga calculados y precios observados por código.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "title": "Generador eléctrico para casa: qué potencia necesitás · TallerLab",
+      "description": "Calculá las cargas simultáneas y sus arranques, compará generadores por escala de potencia y revisá las medidas de seguridad para una vivienda.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "title": "Generador inverter: cómo funciona y cuándo conviene · TallerLab",
+      "description": "Qué hace la tecnología inverter, cuándo elegirla, cómo comparar potencia de marcha y picos, y modelos con precios observados por escalón.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "title": "Generador trifásico: cómo dimensionarlo y elegir · TallerLab",
+      "description": "Aprendé a calcular kVA y kW, dimensionar el arranque de un motor trifásico y distribuir cargas por fase antes de comparar generadores.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "title": "Generador a nafta: consumo, autonomía y modelos · TallerLab",
+      "description": "Cómo leer el consumo y la autonomía de un generador a nafta, comparar modelos con condiciones publicadas y decidir cuándo conviene nafta, diésel o gas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "title": "Generadores Hyundai: modelos, potencia y precios · TallerLab",
+      "description": "Comparativa de generadores Hyundai comercializados en Argentina: rangos de carga por potencia nominal, autonomía con sus condiciones y precios locales fechados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "title": "Gamma 6500 usado: versiones, potencia y qué revisar · TallerLab",
+      "description": "Guía para identificar los Gamma 6500 discontinuados, entender sus datos de potencia y autonomía, calcular cargas y revisar una unidad usada.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "title": "Generadores Lüsqtoff: cuál elegir según potencia y tecnología · TallerLab",
+      "description": "Mapa de generadores Lüsqtoff convencionales e inverter por potencia publicada, fases y precio de lista; criterios para elegir, verificar el equipo y consultar garantía y servicio.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "title": "Generadores Gamma: modelos vigentes, usos y precios · TallerLab",
+      "description": "Guía para distinguir los generadores Gamma vigentes de los discontinuados, dimensionar la potencia según la carga y consultar precios fechados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "title": "Generador monofásico: cómo elegir por potencia y uso · TallerLab",
+      "description": "Aprendé qué significan 220 V, W, VA y amperios, calculá una carga monofásica y compará generadores por escala sin confundirlos con trifásicos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "title": "Generador diésel: cuándo conviene, consumo y mantenimiento · TallerLab",
+      "description": "Guía para elegir un generador diésel por horas de uso, carga, fase, consumo publicado y mantenimiento, con referencias de equipos portátiles e industriales.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "title": "Generadores portátiles: cómo elegir para camping, viaje o trabajo · TallerLab",
+      "description": "Compará generadores portátiles por potencia, autonomía, peso, dimensiones, transporte y ruido según el uso, sin confundir un equipo tipo valija con uno pesado asistido.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "title": "Generador silencioso: modelos y cómo comparar el ruido · TallerLab",
+      "description": "Qué mirar en decibeles, carga y distancia, cómo distinguir inverter de insonorizado y qué modelos tienen mediciones de ruido útiles para decidir.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "title": "Generador Gamma 950: qué puede alimentar · TallerLab",
+      "description": "El manual del Gamma 950 indica 370 W nominales; la ficha actual publica 870 W máximos y 570 W bajo un rótulo sin definir. Usos pequeños, autonomía y combustible 2T.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "title": "Generadores Niwa: modelos, diferencias y precios · TallerLab",
+      "description": "Compará GNW-28-E, GNW-55-ER y GNW-70-ER por potencia útil, autonomía publicada, equipo y precios en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "title": "Generadores a gas: GN, GLP, equipos duales y modelos · TallerLab",
+      "description": "Compara generadores residenciales a GN y GLP, equipos duales y trifuel, potencia y consumo por combustible, instalación y kits de conversión.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "title": "Estación de energía portátil: cómo elegir y estimar autonomía · TallerLab",
+      "description": "Calculá autonomía con consumo y pérdidas, compará recarga de red y solar, y revisá capacidad, salida, batería, EPS, expansión y tensión regional.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "title": "Generadores chicos: Pektra GPK980 frente a Konan KGE/800 · TallerLab",
+      "description": "Comparación del Pektra GPK980 y el Konan KGE/800 por potencia, combustible, autonomía, traslado y datos de toma, con el nivel de evidencia de cada ficha.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "title": "Hidrolavadoras: cuál comprar según uso y presupuesto · TallerLab",
+      "description": "Matriz para elegir hidrolavadora según tarea, con presión de trabajo, caudal, manguera, alimentación, peso y accesorios. Compara modelos de varias marcas y precios relevados con fecha.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "title": "Hidrolavadora inalámbrica: comparativa y guía de compra · TallerLab",
+      "description": "Qué limpiadora a batería conviene según la tarea: distingue una portátil de 30 bar de una hidrolavadora Bosch de 100 bar, con guía de uso, batería, autonomía y toma de agua.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "title": "Hidrolavadoras Lusqtoff: modelos y cuál elegir · TallerLab",
+      "description": "Elegí una hidrolavadora Lüsqtoff por tarea: compara HL-120, HL100-8, HL110-9 y HL130-9 por presión de trabajo, caudal, peso, alimentación y accesorios documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "title": "Hidrolavadoras Gamma: comparativa de modelos y precios · TallerLab",
+      "description": "Compara modelos Gamma Elite y la línea actual por tarea, especificaciones verificadas y precios relevados con fecha.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "title": "Hidrolavadoras Stihl: modelos, diferencias y precios · TallerLab",
+      "description": "Compará la gama eléctrica STIHL RE 80 X, RE 90, RE 110, RE 120, RE 145 y RE 150; separa RCA 20 a batería y RB a gasolina por alimentación y segmento.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "title": "Hidrolavadoras Bosch: comparativa y guía de compra · TallerLab",
+      "description": "Comparativa de Bosch GHP 180, GHP 200, GHP 220 y GHP 4-50 de la gama Professional Argentina: códigos locales, presión de trabajo y máxima, caudal y manguera.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "title": "Hidrolavadoras Black+Decker: cuál conviene comprar · TallerLab",
+      "description": "Qué Black+Decker elegir para casa, auto o patio: compara los códigos argentinos BEPW1300-AR, BEPW1520, BEPW1800T-AR y BEPW2200-AR con datos locales.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "title": "Kärcher K2: versiones, prestaciones y guía de compra · TallerLab",
+      "description": "Qué K2 argentina conviene según el trabajo: Basic Black y el kit Car ofrecido localmente, accesorios, manguera, detergente, diagnóstico de falta de presión y comparación final con K3.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "title": "Kärcher K5: prestaciones y cuándo conviene comprarla · TallerLab",
+      "description": "Cuándo conviene pasar a una Kärcher K5: compara K5 y K5 Power Control argentinos con K4 Power Control por caudal, presión, motor, manguera, kit y precios relevados con fecha.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "title": "Gamma 150: características, uso y guía de compra · TallerLab",
+      "description": "Guía de compra de la Gamma 150 Elite G2514AR: presión de servicio, caudal, accesorios, conexión, mantenimiento, comparación con G2513AR y precio relevado.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "title": "Hidrolavadora profesional: cómo elegir para trabajar · TallerLab",
+      "description": "Guía para dimensionar una hidrolavadora profesional según horas de uso, presión de trabajo, caudal, bomba, alimentación eléctrica, temperatura, manguera y servicio.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "title": "Kärcher K3: versiones y diferencias con K2 y K4 · TallerLab",
+      "description": "La decisión alrededor de la Kärcher K3: comparación breve con K2 Basic y K4 Power Control argentinos, uso y frecuencia, kit local, mantenimiento y repuestos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "title": "Hidrolavadoras Einhell: modelos y guía de compra · TallerLab",
+      "description": "Guía de la gama Einhell publicada para Argentina: modelos eléctricos TC/TE y opciones a batería HYPRESSO 18/24 y 36/105, usos, presión de trabajo y accesorios.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "title": "Gamma 130: prestaciones y diferencias con Gamma 150 · TallerLab",
+      "description": "Guía de compra Gamma 130 G2513AR: presión de trabajo y máxima, caudal, manguera, detergente, AutoStop, usos domésticos y cuándo conviene pasar a Gamma 150.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "title": "Hidrolavadoras Hyundai: modelos y cuál comprar · TallerLab",
+      "description": "Compara la gama Hyundai publicada en Argentina por código, presión de servicio y máxima, alimentación y potencia; revisa usos, accesorios, stock y servicio local.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "title": "Lusqtoff HL 120: prestaciones y guía de compra · TallerLab",
+      "description": "Guía de compra Lüsqtoff HL-120: usos, kit, peso, manguera, mantenimiento, precio actualizado y comparación con la HL-150 eléctrica.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "title": "Kärcher K4: versiones y diferencias con K3 y K5 · TallerLab",
+      "description": "Compara K3, las dos versiones argentinas K4 y K5 para decidir cuándo conviene el escalón K4: caudal, presión publicada, manguera, peso y accesorios.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "title": "Hidrolavadoras de 150 bar: comparativa y cómo elegir · TallerLab",
+      "description": "Compara cuatro hidrolavadoras rotuladas 150 bar por presión de servicio, caudal y alimentación; identifica dos opciones con enlace comercial y cuándo alcanza una de menor presión.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "title": "Hidrolavadoras de 200 bar: cuándo convienen · TallerLab",
+      "description": "Compara hidrolavadoras profesionales de 190–200 bar disponibles en Argentina por presión nominal y máxima, caudal, alimentación, bomba y agua fría o caliente.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "title": "Hidrolavadoras Niwa: modelos, opiniones y cuál elegir · TallerLab",
+      "description": "Guía Niwa para Argentina: compara eléctricas y a combustión con códigos actuales de Grupo Rumbo, usos, presión de trabajo, caudal y opiniones verificables.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "title": "Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar · TallerLab",
+      "description": "Selector central de Kärcher K2, K3, K4 y K5 argentinos: qué modelo conviene por tarea, qué cambia en motor, caudal y accesorios, precios relevados y enlaces a cada guía detallada.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "title": "Hidrolavadoras para autos: equipos y combos para elegir · TallerLab",
+      "description": "Guía para elegir hidrolavadora y combos para lavar el auto: qué revisar en boquilla, manguera, caudal, espuma, peso y alcance, con opciones argentinas por uso y frecuencia.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "title": "Hidrolavadora para aire acondicionado: qué revisar · TallerLab",
+      "description": "Qué equipo elegir para limpiar un aire acondicionado: comprobá baja presión controlable, drenaje para unidad interior, acceso, químicos compatibles y el procedimiento del fabricante.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "title": "Sierra circular: cuál elegir según trabajo y capacidad · TallerLab",
+      "description": "Guía de selección documental: disco admitido, eje y profundidad de corte publicados por modelo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "title": "Sensitiva: qué es y cuál comprar para cortar metal · TallerLab",
+      "description": "Comparación documental de sensitivas de 355 mm por capacidad de corte según geometría del perfil.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sable/",
+      "status": 200,
+      "title": "Sierra sable: para qué sirve y cuál elegir · TallerLab",
+      "description": "Usos de la sierra sable y elección de hoja según el material, espesor y tipo de corte.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "title": "Sierra caladora: cómo elegir y qué modelos comparar · TallerLab",
+      "description": "Elegí hoja, control de velocidad, acción pendular y capacidad para el material y trabajo de tu caladora.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "title": "Sierra sin fin para madera: cómo elegir la adecuada · TallerLab",
+      "description": "Elegí sierra sin fin por altura, garganta, cinta y tipo de corte; compará modelos compactos y de taller.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "title": "Sierra de banco: cuál elegir para tu taller · TallerLab",
+      "description": "Cómo elegir una sierra de banco según el tipo de corte, el ancho de rasgado, la guía, la mesa, la hoja y el apoyo de las piezas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "title": "Sierra sin fin para metal: tipos y cómo elegir · TallerLab",
+      "description": "Elegí una sierra sin fin para metal según formato, sección, velocidad de cinta, dentado y sujeción; compará modelos horizontales y portátiles documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "title": "Ingletadora Einhell: modelos y cuál conviene elegir · TallerLab",
+      "description": "Elegí entre las ingletadoras Einhell fija y deslizante según el ancho y alto de la pieza, el doble bisel, el espacio de trabajo y los datos que debés revisar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "title": "Sierra de banco Einhell: comparativa y guía de compra · TallerLab",
+      "description": "Compará las sierras de banco Einhell TC-TS 2025/2 U y 2225 U por mesa, extensiones, guía, aspiración, accesorios y capacidad publicada.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "title": "Caladora Skil: modelos, diferencias y cuál elegir · TallerLab",
+      "description": "Compará las caladoras SKIL 4380 y 4550 por capacidad en madera y metal, velocidad, movimiento pendular y hojas compatibles.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "title": "Guía para sierra circular: tipos y compatibilidad · TallerLab",
+      "description": "Aprendé a calcular el desplazamiento de una regla externa, elegir la longitud de guía y revisar compatibilidad por modelo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "title": "Sensitiva DeWalt: comparación de modelos y guía de compra · TallerLab",
+      "description": "Compará las sensitivas DeWalt D28720-AR y D28730-AR por capacidad según perfil, disco, guía, morsa, peso y uso.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "title": "Ingletadora DeWalt: modelos regionales y guía de compra · TallerLab",
+      "description": "Compará las ingletadoras DeWalt regionales DWS713-AR y DWS780-AR por capacidad, disco, bisel, peso y espacio de trabajo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "title": "Ingletadora Total: modelos y qué revisar al comprar · TallerLab",
+      "description": "Comparación de los códigos Total TS42142107 y TS42182553 con capacidades y discos publicados en catálogo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "title": "Disco para sierra circular: cuál usar para cada corte · TallerLab",
+      "description": "Cómo elegir un disco para madera, tableros, MDF y aluminio, y comprobar diámetro, eje y RPM compatibles.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "title": "Bosch GKS 150: características y cuándo conviene · TallerLab",
+      "description": "Ficha y manual de la Bosch GKS 150: potencia, disco, eje, corte a 90 grados y compatibilidad con guías.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "title": "Sierra circular Black+Decker: qué modelo elegir · TallerLab",
+      "description": "Compará sierras circulares Black+Decker regionales de 220 V por capacidad, disco, bisel, peso y accesorios documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "title": "Caladora Einhell: modelos con cable y a batería · TallerLab",
+      "description": "Compará TC-JS 85, TE-JS 100 y TC-JS 18 Li Solo por capacidades publicadas, peso y alimentación.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "title": "Qué sierra sable inalámbrica comprar: guía y comparación · TallerLab",
+      "description": "Elegí una sierra sable a batería según plataforma, kit, hoja, capacidad de corte y peso con batería.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "title": "Sierra circular Lusqtoff: modelos y guía de compra · TallerLab",
+      "description": "Datos documentados de las circulares Lusqtoff CSL1500-8 y SCL2200-8, con diferencias de capacidad y código.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "title": "Ingletadoras: cómo elegir entre fija y telescópica · TallerLab",
+      "description": "Guía para elegir una ingletadora en Argentina: diferencias entre fija y telescópica, capacidad de corte, disco, bisel y modelos a comparar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "title": "Sierra caladora Bosch: comparativa de modelos en Argentina · TallerLab",
+      "description": "Compará GST 650, GST 680 y GST 185-LI por capacidad, carrera, velocidad, hoja, peso y kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "title": "DeWalt DWE560: ficha y guía de compra en Argentina · TallerLab",
+      "description": "Qué revisar en la DeWalt DWE560-AR: disco y eje, bisel, profundidad de corte, guía, extracción de aserrín y trabajos adecuados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "title": "Stanley SC16: ficha y qué comprobar antes de comprar · TallerLab",
+      "description": "Guía de la Stanley SC16-AR de 1.600 W: disco, capacidad de corte, accesorios y datos que conviene verificar en la variante argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "title": "Caladora Black+Decker BES603: capacidad y usos · TallerLab",
+      "description": "Conocé la Black+Decker BES603: 400 W, velocidad variable, capacidad, bisel, hojas y variante que conviene confirmar antes de comprar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "title": "Sierra de banco Lusqtoff: SML2000-8 y otras variantes · TallerLab",
+      "description": "Compará las sierras de banco Lüsqtoff SML2000-8, SML2000-9 y SML2000B-9 por mesa, capacidad longitudinal, bisel, disco, extracción y espacio de taller.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "title": "Sensitiva Lusqtoff: CM-14K y qué revisar antes de comprar · TallerLab",
+      "description": "Capacidades por geometría, tensión, RPM, eje, peso y disco de la sensitiva Lusqtoff CM-14K, con advertencias para verificar variantes y publicaciones antiguas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "title": "Sierra sin fin Lusqtoff: modelos compactos y de taller · TallerLab",
+      "description": "Compará lo que está documentado de las sierras sin fin Lusqtoff SFL250-8, SFL300-8 y SFL1100-9, y qué confirmar sobre cintas y repuestos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "title": "Sensitiva Total: cómo elegir y comprobar el modelo · TallerLab",
+      "description": "Datos de fábrica de la sensitiva Total TS223558 y comprobaciones para distinguir el sufijo de la oferta local.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "title": "Sierra circular inalámbrica: cómo elegir según el trabajo · TallerLab",
+      "description": "Elegí una sierra circular inalámbrica por capacidad, hoja, batería y kit; compará sus límites con el trabajo y la variante exacta.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "title": "Electrodo 7018: usos, amperaje y cuál comprar · TallerLab",
+      "description": "Tabla de corriente ESAB Atom Arc 7018 por diámetro y contraste con la corriente nominal de HandyArc 162i por ciclo de trabajo; separa consumible, fuente y almacenamiento sin generalizar los valores.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "title": "Soldadoras Lusqtoff: modelos y cuál conviene comprar · TallerLab",
+      "description": "Matriz de soldadoras Lüsqtoff MMA, MIG/MAG, Flux y TIG: compara modelos, procesos, variantes y kits con enlaces a sus guías y fichas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "title": "Soldadora de punto: tipos, usos y cuál elegir · TallerLab",
+      "description": "Distingue soldadoras por puntos para pestañas de baterías de los spotters de chapa Telwin; compara materiales, pulsos, capacidad, alimentación y formato con unidades separadas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "title": "Soldadora MIG con gas: guía para elegir y comprar · TallerLab",
+      "description": "Guía para elegir MIG con gas como sistema completo: cuándo preferirlo a FLUX, potencia y ciclo, consumibles, accesorios incluidos y componentes a cotizar con ESAB HandyArc MIG 160i o Lüsqtoff MIGDUAL200-9.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "title": "Guantes para soldar: cuáles elegir para MIG y TIG · TallerLab",
+      "description": "Guía para elegir guantes de soldar por proceso, protección térmica y mecánica, destreza, ajuste e inspección; compara tres modelos ESAB con sus normas exactas, sin generalizarlas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "title": "Soldadora TIG: qué es y qué equipo conviene comprar · TallerLab",
+      "description": "Guía para elegir TIG por material, corriente AC/DC, encendido, ciclo de trabajo y alimentación; compara equipos ESAB y Lüsqtoff documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "title": "Soldadora MIG sin gas: comparativa y guía de compra · TallerLab",
+      "description": "Guía de alambre tubular autoprotegido: funcionamiento, escoria, exterior, polaridad y consumibles; compara equipos FLUX y kits documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "title": "Alambre para soldadura MIG: tipos y cómo elegir · TallerLab",
+      "description": "Guía de alambre MIG por material, clasificación, diámetro, rodillo, liner, punta, gas y bobina, con ejemplos documentados para equipos compactos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "title": "Máscara de soldar fotosensible: criterios y modelos · TallerLab",
+      "description": "Guía de máscaras fotosensibles por proceso y sombra, sensores, sensibilidad, retardo, campo visual, alimentación, marcado y repuestos, con tres modelos documentados como ejemplos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "title": "Electrodo 6013: para qué sirve y cuál comprar · TallerLab",
+      "description": "Guía E6013 para acero al carbono: usos de fabricante, posiciones, corriente y polaridad documentadas, comparación de rangos por diámetro, conservación y compra.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "title": "Soldadora inverter 200 A: modelos y cómo elegir · TallerLab",
+      "description": "Compara fuentes MMA con máximo declarado de 200 A por uso, ciclo de trabajo, electrodos, alimentación y funciones documentadas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "title": "Electrodo para fundición: tipos y cuál elegir · TallerLab",
+      "description": "Compara dos electrodos ESAB clasificados ENi-CI y ENiFe-CI con porcentaje de níquel, unión descrita y rangos por diámetro; aporta criterios de clasificación sin reemplazar un procedimiento de reparación.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "title": "Alambre flux: tipos, medidas y cuál comprar · TallerLab",
+      "description": "Guía para elegir alambre flux: distingue autoprotegido y con gas, compara E71T-GS y E71T-11, calibres 0,8/0,9 mm, polaridad, rodillos y bobinas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "title": "Soldadora Dogo 180: características y qué revisar · TallerLab",
+      "description": "Guía de compra de la Dogo Dogostar 180 Moderna DOG50045: versión, ciclo por diámetro, accesorios realmente listados, TIG por raspado y comparación con 160/200 A.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "title": "Soldadoras ESAB: modelos, diferencias y qué elegir · TallerLab",
+      "description": "Compara líneas ESAB con fichas oficiales de Argentina: MMA, MIG/MAG y TIG, desde HandyArc a Rogue, Rebel y ET 200i; elige por proceso, ciclo y red.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "title": "Electrodo para acero inoxidable: cuál elegir · TallerLab",
+      "description": "Guía para identificar metal base y unión, comparar electrodos 308L, 316L y 309L según fichas concretas, revisar diámetro y evitar contaminación antes de comprar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "title": "Soldadora para aluminio: TIG o MIG, cuál elegir · TallerLab",
+      "description": "Comparación de TIG AC/DC y MIG con spool gun para aluminio: criterios por espesor y trabajo, gas, aporte, alimentación del alambre y costo del sistema completo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "title": "Lusqtoff Iron 250: características y guía de compra · TallerLab",
+      "description": "Guía de compra de la MEGAIRON250/IRON-250: por qué su nombre no significa 250 A, qué publican su rango y ciclo, qué electrodos declara y qué exige revisar en la instalación.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "title": "Soldadora TIG AC/DC: funciones y qué modelo elegir · TallerLab",
+      "description": "Guía para elegir TIG AC/DC: cuándo usar AC, qué hacen balance, frecuencia y pulso, y cómo comparar red, ciclo, torcha, pedal y refrigeración.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "title": "Soldadora inverter 160 A: comparativa y qué elegir · TallerLab",
+      "description": "Guía para elegir una soldadora de 160 A: separa equipos MMA de la HandyArc MIG 160i y compara ciclo por proceso, electrodos, alimentación y kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "title": "Lusqtoff Iron 100: ficha del kit con máscara y escuadras · TallerLab",
+      "description": "Contrasta el IRON-100 de catálogo 2020/21 con el kit MEGAIRON100-8 actual: rango/ciclo, peso y contenido de caja, dejando visible que son códigos y generaciones distintas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "title": "Soldadora MIG Lusqtoff: modelos Flux y qué revisar · TallerLab",
+      "description": "Comparativa de la familia Lüsqtoff SML120, SML130 y SML150: procesos, ciclo publicado, bobina, estado comercial y diferencias de kit, con enlaces a cada ficha.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "title": "Lusqtoff SML150-8: diferencias, kit y qué comprobar · TallerLab",
+      "description": "Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "title": "Lusqtoff SML120-8D: ficha de la MIG Flux dual · TallerLab",
+      "description": "Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "title": "Carro para soldadora MIG: medidas, tubo y capacidad · TallerLab",
+      "description": "Guía para medir base, conectores, cilindro, carga y recorrido antes de elegir un carro MIG; compara Telwin Federal 803091 y Lincoln K520/K520-1 y ofrece una ficha imprimible.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "title": "ESAB HandyArc 162i: corriente, ciclo de trabajo y compra · TallerLab",
+      "description": "Tabla de ESAB HandyArc 162i, código 0409616: corriente MMA por ciclo de trabajo, rango, tensión, potencia aparente y generador recomendado; distingue máximo intermitente de salida continua.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "title": "Máscara Lusqtoff ST-1X: qué revisar antes de comprar · TallerLab",
+      "description": "Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "title": "Lusqtoff SML130-7: modelo, alambre y qué revisar · TallerLab",
+      "description": "Contrasta ficha comercial y manual del modelo discontinuado SML130-7: ciclo, entrada, capacidad de alambre, dimensiones y discrepancia en cómo el fabricante expresa los puntos de corriente.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "title": "Kit soldador de estaño: qué debe incluir y cuál elegir · TallerLab",
+      "description": "Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "title": "Estación de soldadura electrónica: cautín o aire caliente · TallerLab",
+      "description": "Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "title": "Gadnic 878D: estación de cautín y aire caliente · TallerLab",
+      "description": "Ficha documental de la Gadnic 878D: contraste entre los 750 W del texto comercial y los 370 W del cuadro técnico, accesorios y diferencias frente a Yihua.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "title": "Yihua 898D: estación de aire caliente y cautín · TallerLab",
+      "description": "Ficha de la Yihua 898D: potencia, rangos y accesorios según fabricante, con diferencias explícitas frente a 898D+ y 878D.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "title": "Soporte para soldar con lupa: pinzas, base y luz · TallerLab",
+      "description": "Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "title": "Taladro inalámbrico: cuál comprar en Argentina · TallerLab",
+      "description": "Elegí un taladro inalámbrico según la tarea, el mandril, el torque, la batería y el contenido del kit. Comparamos referencias Bosch, Einhell y Black+Decker.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "title": "Rotomartillo: cuál elegir para concreto y obra · TallerLab",
+      "description": "Elegí rotomartillo según diámetro, frecuencia, cincelado y acceso a corriente. Compará SDS Plus y SDS Max, cable y batería, con precios consultados y fechados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "title": "Taladro percutor: cuál comprar y cómo elegirlo · TallerLab",
+      "description": "Elegí un taladro percutor según el material, el tipo de broca, el modo de trabajo y si te conviene cable o batería.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "title": "Taladro de banco: guía para elegir y comparar · TallerLab",
+      "description": "Elegí taladro de banco por material, velocidad, recorrido, garganta, espacio de mesa y repetibilidad. Comparamos datos publicados y señalamos lo que falta verificar.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "title": "Atornillador de impacto: cuál elegir y para qué sirve · TallerLab",
+      "description": "Elegí entre atornillador de impacto hexagonal, llave de impacto y Bosch GDX híbrido. Compará usos, control, puntas compatibles y costo del kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "title": "Rotomartillo Bosch: modelos y cuál conviene comprar · TallerLab",
+      "description": "Guía documental para elegir un rotomartillo Bosch SDS Plus o SDS Max según diámetro, alimentación y tipo de trabajo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "title": "Taladro percutor inalámbrico: modelos y comparativa · TallerLab",
+      "description": "Guía para elegir un taladro percutor inalámbrico según la capacidad en cada material, el motor y la configuración de batería y cargador.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "title": "Atornillador para Durlock: cuál comprar y por qué · TallerLab",
+      "description": "Guía para elegir atornillador para Durlock: velocidad, tope de profundidad, alimentación, alimentador y accesorios.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "title": "Taladro Black+Decker: qué modelo conviene comprar · TallerLab",
+      "description": "Comparamos los taladros BLACK+DECKER BCD702C1, BLD783D1 y DR260C, y sumamos la referencia oficial argentina BCD702C1-AR.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "title": "Rotomartillo Einhell: comparativa y guía de compra · TallerLab",
+      "description": "Comparativa de rotomartillos Einhell: TC-RH 620 4F, TE-RH 28 5F, TE-RH 28/1 5F y TE-HD 18/20 Li, con cable o batería.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "title": "Rotomartillo DeWalt: cuál elegir para tu trabajo · TallerLab",
+      "description": "Comparamos los rotomartillos DeWalt DCH273B, DCH133B y D25333K-QS por energía, encastre SDS Plus y alimentación.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "title": "Taladro inalámbrico Einhell: cuál comprar · TallerLab",
+      "description": "Guía para elegir taladro inalámbrico Einhell por trabajo, percusión, plataforma Power X-Change y costo del kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "title": "Taladro inalámbrico DeWalt: modelos y diferencias · TallerLab",
+      "description": "Guía para elegir taladro inalámbrico DeWalt: compara modelos de uso general y percutores por motor, kit y plataforma.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "title": "Mecha para porcelanato: cuál elegir y cómo usarla · TallerLab",
+      "description": "Compara brocas de carburo, diamante seco y diamante húmedo para porcelanato; elegí por diámetro, herramienta y refrigeración.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "title": "Taladro Milwaukee: M12, M18 y cuál elegir · TallerLab",
+      "description": "Compara taladros Milwaukee M12 y M18 con y sin percusión, entiende la línea FUEL y elige plataforma y kit según tu trabajo.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "title": "Taladro inalámbrico Lusqtoff: cuál conviene comprar · TallerLab",
+      "description": "Compara taladros Lusqtoff de 12 y 18 V, con y sin percusión, y calcula el costo de empezar con Iron Volt según el kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "title": "Brocas para cerámica: cuáles usar y cómo perforar · TallerLab",
+      "description": "Elegí mecha o corona para azulejos por dureza, diámetro y agujero; compara CYL-9 y HEX-9 y sigue el procedimiento indicado por el fabricante.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "title": "Taladro Stanley: modelos y cuál conviene comprar · TallerLab",
+      "description": "Comparamos los Stanley SDH600/700 con cable y V20 SBD710/SBD715, según percusión, capacidades y configuración de kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "title": "Atornillador de impacto DeWalt: cuál comprar · TallerLab",
+      "description": "Comparamos los DeWalt DCF809, DCF887 y DCF850 por control, tamaño y configuración de kit para elegir un atornillador de impacto.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "title": "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir · TallerLab",
+      "description": "Comparación Bosch GSR 120-LI y GSB 18V-50: familias GSR y GSB, plataformas de 12 y 18 V, compatibilidad de baterías y variantes de kit.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "title": "Mecha escalonada: cuál comprar para chapa y metal · TallerLab",
+      "description": "Compará mechas escalonadas 4–20 y 4–32 mm por diámetros reales, espesor admitido y materiales; guía de uso, velocidad y lubricación según fabricante.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "title": "Mecha Forstner 35 mm: cuál usar para bisagras cazoleta · TallerLab",
+      "description": "Elegí una mecha Forstner de 35 mm según el herraje: compará diámetro, profundidad de cazoleta, cota al borde y fijaciones para instalar la bisagra.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "title": "Combo taladro y amoladora: kits con cable y a batería · TallerLab",
+      "description": "Guía para comparar combos de taladro y amoladora según sus herramientas, plataforma de batería, accesorios y garantía documentados.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Article"
+      ]
+    }
+  ]
+}

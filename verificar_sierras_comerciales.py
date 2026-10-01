@@ -43,14 +43,14 @@ def main(pages=None):
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/sierras/' + config['file']]).decode('utf-8')
         headings = re.findall(r'(?m)^#{1,3} .+$', original)
-        if config['file'] == '25-caladoras-black-decker.md':
+        if config['file'] == '25-caladoras-black-decker.md' and 'BES602' in re.sub(r'https://[^)\s]+', '', original):
             headings = [heading.replace('Sierra caladora Black+Decker: cómo elegir entre modelos', 'Sierra caladora Black+Decker BES603: capacidad y usos').replace('BES603 y BES602: velocidad variable y variante', 'BES603: capacidad, velocidad y variante').replace('BES602 o BES603: cuándo aporta la velocidad variable', 'BES603: cuándo aporta la velocidad variable') for heading in headings]
         assert all(heading in text for heading in headings), path
         # Los enlaces comerciales pueden cambiar; las tablas documentales se conservan.
         marker = r'<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->'
         original_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', original, flags=re.S))
         current_tables = re.findall(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', re.sub(marker, '', text, flags=re.S))
-        if config['file'] == '25-caladoras-black-decker.md':
+        if config['file'] == '25-caladoras-black-decker.md' and any('BES602' in table for table in original_tables):
             # La sustitución solicitada conserva todos los datos de la columna BES603.
             original_tables = ['\n'.join('| ' + ' | '.join(cell.strip() for cell in row.split('|')[1:3]) + ' |' for row in table.splitlines()) + '\n' for table in original_tables]
             assert 'BES602' not in re.sub(r'https://[^)\s]+', '', text), path

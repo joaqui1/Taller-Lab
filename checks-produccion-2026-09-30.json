@@ -1,0 +1,68 @@
+[
+  {
+    "script": "verificar_produccion.py",
+    "status": 0,
+    "stdout": "OK: 190 rutas, 179 guías, 10 imágenes/recursos; canonical, metadatos únicos, JSON-LD, migas, anclas, afiliación, sitemap, 404 y eventos inválidos.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_hubs.py",
+    "status": 0,
+    "stdout": "OK: 190 rutas y canonical; redirects con query; 179 autores y Article; 8 hubs completos; enlaces, anclas, H1, 404 y HEAD.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_enlaces_publicados.py",
+    "status": 0,
+    "stdout": "OK: 179 guías, 190 rutas HTTP 200, 7082 enlaces HTML; fuentes, renderer, canonical, sitemap, robots, dominio de producción y rechazo de regresiones.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_compresores_comerciales.py",
+    "status": 0,
+    "stdout": "OK: las 23 URLs de compresores responden HTTP 200 en el servidor local.\nOK: 19 asignaciones, 38 cards en 16 guías; 4 páginas sin monetizar; identidad, CTAs, ubicación y eventos válidos.\n",
+    "stderr": "127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/para-auto/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/50-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/manguera/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/kits-aerografo/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/pistola-para-pintar/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/acoples-rapidos/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/para-aerografo/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/aceite/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/lusqtoff-50-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/filtros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/100-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/gamma-50-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/kits-accesorios/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/lusqtoff-100-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/sin-aceite/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/200-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/bta-25-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/24-litros/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/inalambricos/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/stanley/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/para-pintar/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/inflador-neumaticos-portatil/ HTTP/1.1\" 200 -\n127.0.0.1 - - [30/Sep/2026 21:43:40] \"GET /compresores/12v-doble-piston/ HTTP/1.1\" 200 -\n"
+  },
+  {
+    "script": "verificar_generadores_comerciales.py",
+    "status": 0,
+    "stdout": "20 guías; 72 asociaciones; 25 productos; 1 pendiente\nOK: 72 CTA en 20 guías HTTP 200; 25 productos, atributos, tablas e idempotencia verificados.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_hidrolavadoras_comerciales.py",
+    "status": 0,
+    "stdout": "20 guías con ofertas; 42 asociaciones\nOK: 23 guías HTTP 200; 20 con bloques, 26 productos, 45 CTA; ubicación, exclusiones, atributos, tablas e idempotencia.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_sierras_comerciales.py",
+    "status": 0,
+    "stdout": "29 guías; 58 CTA; 42 productos activos; 2 referidos pendientes\nOK: 58 CTA, 42 productos y 29 rutas HTTP 200; ubicaciones, atributos, registro de clics e idempotencia.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_soldadoras_comerciales.py",
+    "status": 0,
+    "stdout": "30 productos; 65 CTA en 27 guías\nOK: 30 productos, 65 CTA en 27 guías; 29 rutas HTTP 200, fichas originales, ubicaciones, atributos, clics e idempotencia.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_taladros_comerciales.py",
+    "status": 0,
+    "stdout": "32 productos, 32 CTA en 17 guías; 23 guías con etiquetas de evidencia.\nOK: 32 productos/CTA en 17 guías; 23 rutas HTTP 200, integridad documental, ubicaciones, clics, sitemap e idempotencia.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_seleccion.py",
+    "status": 0,
+    "stdout": "OK: 74 recursos; 24 bloques de compra; variante dudosa sin recomendación; 451 enlaces afiliados y 83 generales con rel correcto.\n",
+    "stderr": ""
+  },
+  {
+    "script": "verificar_integracion_comercial.py",
+    "status": 0,
+    "stdout": "OK: ofertas prioritarias conservadas, 179 guías y 453 CTA registrados; atribución, variantes retiradas y PVP históricos.\n",
+    "stderr": ""
+  }
+]

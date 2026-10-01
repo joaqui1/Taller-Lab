@@ -97,7 +97,7 @@ Para comparar **calidad**, buscá especificación de materiales y presión de tr
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [catálogo BTA 2026/27, kits 279010 y 279013](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [Lüsqtoff AA-5000K, kit de cinco piezas](https://lusqtoff.com.ar/ver-producto/AA-5000K); [Gamma G2802KAR, compresor con accesorios](https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/); [Lüsqtoff LC2550BK-8, compresor con kit](https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk); [BTA AS-1021, ejemplo de pistola de baja presión con consumo publicado](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion).
+- **Documentación primaria:** [catálogo BTA 2026/27, kits 279010 y 279013](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); [Lüsqtoff AA-5000K, kit de cinco piezas](https://lusqtoff.com.ar/ver-producto/AA-5000K); [Gamma G2802KAR, compresor con accesorios](https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/); [Lüsqtoff LC2550BK-8, compresor con kit](https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk); [BTA AS-1021, ejemplo de pistola de baja presión con consumo publicado](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [filtros y tratamiento de aire](/compresores/filtros/), [mangueras para compresor](/compresores/manguera/) y [acoples rápidos](/compresores/acoples-rapidos/).

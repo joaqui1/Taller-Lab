@@ -111,7 +111,7 @@ No lo elegiría como única fuente de aire para lijado neumático continuo, pint
 
 ## Fuentes consultadas
 
-- **BTA:** [ficha 272057.1 / D-CA1-25-6](https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp); [ficha 272005 / CSA-24-1 sin aceite](https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite); [ficha 272057.2 / D-CA2-50-6](https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp); [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [pistola AS-1021 de baja presión](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion).
+- **BTA:** [ficha 272057.1 / D-CA1-25-6](https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp); [ficha 272005 / CSA-24-1 sin aceite](https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite); [ficha 272057.2 / D-CA2-50-6](https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp); [catálogo BTA 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); [pistola AS-1021 de baja presión](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [compresores de 24 litros](/compresores/24-litros/) y [compresores de 50 litros](/compresores/50-litros/).

@@ -32,7 +32,7 @@ La búsqueda suele llevar a hidrolavadoras domésticas, pero limpiar un aire aco
 
 La tabla separa categorías de uso: no implica que una portátil genérica o una máquina doméstica sustituya un equipo HVAC dedicado. En todos los casos, seguí las instrucciones del fabricante del aire acondicionado.
 
-### Cómo investigamos esta guía
+## Cómo investigamos esta guía
 
 - Tipo de análisis: documental
 - Prueba física de TallerLab: no

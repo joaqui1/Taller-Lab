@@ -82,7 +82,7 @@ La guía de torchas Miller distingue opciones refrigeradas por aire y por agua s
 ## Fuentes consultadas
 
 - **Fabricantes y manuales:** [ESAB ET 200i AC/DC, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [manual ESAB ET 200i AC/DC](https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9); [Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20); [manual Lüsqtoff SMARTTIG-ACDC-20](https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf).
-- **Función de frecuencia AC y elección de torcha:** [manual Miller, frecuencia de salida AC](https://www.millerwelds.com/files/owners-manuals/O281426A_MIL.pdf); [Miller, factores para elegir una torcha TIG](https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch).
+- **Función de frecuencia AC y elección de torcha:** [manual Miller, frecuencia de salida AC](https://www.millerwelds.com/files/owners-manuals/O281426C_MIL.pdf); [Miller, factores para elegir una torcha TIG](https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 ## Cómo investigamos esta guía

@@ -115,9 +115,17 @@ Antes de comprar, comprobá en la publicación y en la documentación de la vari
 
 DeWalt Argentina ofrece [soporte, manuales, centros de servicio y política de garantía](https://www.dewalt.com.ar/es-ar/soporte). Esa página orienta a los canales oficiales; la cobertura final depende del modelo, el país de compra y los términos vigentes.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas y manuales regionales enlazados identifican las variantes DWE4020-AR, DWE4120-AR, DWE4212-AR, DWE4314-AR y DWE4557-AR. La DWE402 estadounidense es una referencia diferente. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La tabla distingue código, medida y alimentación antes de comparar potencia. Una oferta DWE4214 o DWE4314N requiere su propia placa y manual: no hereda automáticamente las especificaciones de los códigos -AR comparados.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
-- **Documentación regional primaria:** [manual DeWalt DWE4020 (incluye especificación DWE4020-AR)](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf); [manual DWE4120 (especificaciones AR/B2/B3)](https://support.dewalt.com/hc/pt/article_attachments/360019232853); [manual DWE4212/DWE4314 (especificaciones regionales y accesorios)](https://co.dewalt.global/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf); [manual DWE4557 (especificaciones DWE4557-AR)](https://support.dewalt.com/hc/pt/article_attachments/360019232453).
+- **Documentación regional primaria:** [manual DeWalt DWE4020 (incluye especificación DWE4020-AR)](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf); [manual DWE4120 (especificaciones AR/B2/B3)](https://support.dewalt.com/hc/pt/article_attachments/360019232853); [manual DWE4212/DWE4314 (especificaciones regionales y accesorios)](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf); [manual DWE4557 (especificaciones DWE4557-AR)](https://support.dewalt.com/hc/pt/article_attachments/360019232453).
 - **Páginas de productos DeWalt Argentina:** [DWE4120-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm); [DWE4212-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4212-ar/amoladora-angular-5-pulg-125mm); [DWE4314-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4314-ar/amoladora-angular-5-pulg-125mm); [DWE4557-AR](https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm); [combo DCK2225MP2T-AR con amoladora DCG45M](https://www.dewalt.com.ar/es-ar/producto/dck2225mp2t-ar/dewalt-x-mclaren-kit-de-valor-agregado-taladro-combinado-20v-xr-con-2).
 - **Comparación de EE.UU. preservada:** [DeWalt DWE402, 120 V](https://www.dewalt.com/en-us/product/dwe402/4-12-115mm-small-angle-grinder); [DeWalt DWE4120, página estadounidense](https://www.dewalt.com/en-us/product/dwe4120/angle-grinder-tool-4-12-paddle-switch).
 - **Opiniones de compradores:** no se revisó una muestra verificable.

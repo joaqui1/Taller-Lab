@@ -68,6 +68,14 @@ Un cortavidrios manual y una sierra de mesa húmeda son procesos diferentes. No 
 
 La investigación es documental: no cortamos vidrio con estos productos ni medimos acabado, duración, astillado o costo por corte. Las fuentes no resuelven vidrio templado o laminado, disponibilidad local, espesor máximo de pieza ni una combinación universal de disco y amoladora. El tipo de vidrio, su soporte y la técnica cambian el resultado; confirmá esos puntos antes de decidir.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Tork Craft y Husqvarna citadas declaran aplicaciones específicas en vidrio o azulejo de vidrio; las fuentes Lüsqtoff identifican DVC115-9 como referencia local. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz distingue material autorizado, medida, RPM y uso seco o húmedo. Una ficha de vidrio no autoriza cualquier vidrio templado o laminado; no se extrapola el uso de agua a una amoladora eléctrica común.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Tork Craft, fabricante:** [TCDB80115: disco continuo fino para vidrio, placas de piedra y azulejos](https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING); [TCDB1240115: disco continuo con panal para vidrio y azulejos](https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial); [anuncio de la gama para amoladora de 115 mm](https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades).

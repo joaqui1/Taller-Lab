@@ -25,7 +25,7 @@ Para comparar Total en Argentina conviene empezar por el **código completo**, i
 | Si necesitás… | Modelo con oferta local documentada | Datos publicados para el SKU | Qué mirar |
 | :--- | :--- | :--- | :--- |
 | Una máquina compacta de 115 mm | [TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm) [Ver precio en Mercado Libre](https://meli.la/1WnXJFJ){:target="_blank" rel="sponsored noopener"} | 710 W, 115 mm, 12.000 rpm, M14 | Confirmá que placa y caja digan el sufijo **-4** y sean compatibles con la red local. |
-| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](/amoladoras/velocidad-variable/) ([ficha](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/)) [Ver precio en Mercado Libre](https://meli.la/2BE54o4){:target="_blank" rel="sponsored noopener"} | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
+| Disco de 125 mm y ajuste de velocidad | [TG109125565-4](/amoladoras/velocidad-variable/) ([ficha](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/)) | 900 W, 125 mm, velocidad variable; el catálogo regional publica 5.000–12.000 rpm y M14 | El rango publicado corresponde a ese SKU en el catálogo regional; cotejalo con el manual de la unidad concreta. |
 | Una máquina para disco de 180 mm | [TG12018026-4](/amoladoras/7-pulgadas/) ([ficha](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html)) [Ver precio en Mercado Libre](https://meli.la/2E31egQ){:target="_blank" rel="sponsored noopener"} | 2.000 W, 180 mm, 8.450 rpm, M14 | Comprobá el diámetro admitido por la guarda y comprá discos de 180 mm con RPM compatible. |
 
 
@@ -72,9 +72,17 @@ Estas condiciones no confirman automáticamente la cobertura de cualquier unidad
 - **RPM:** usá discos con velocidad máxima admisible igual o superior a la velocidad indicada para esa variante. No extrapoles el dato de un SKU parecido.
 - **Contenido y garantía:** revisá qué incluye la publicación y quién cubre la garantía en Argentina. No deducimos el paquete ni la cobertura local de una ficha de otro país.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** El catálogo regional y las publicaciones locales citadas identifican TG10711576-4, TG109125565-4 y TG12018026-4; las fuentes extranjeras sin sufijo muestran una discrepancia de RPM. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz compara referencias locales completas por medida y regulación. No se atribuye la discrepancia extranjera exclusivamente al sufijo ni se deduce profundidad de corte del diámetro; prevalecen la placa y el manual de la unidad.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
-- [Catálogo Total 2025 publicado por Todo Herramientas (PDF)](https://todoherramientas.com.ar/wp-content/uploads/2026/01/CATALOGO-TOTAL-2025.pdf): referencias TG10711576-4 y TG109125565-4 con velocidad, potencia, medida y M14.
+- Catálogo Total 2025 publicado por Todo Herramientas (PDF) (referencia documental histórica; enlace original no disponible al 30/09/2026): referencias TG10711576-4 y TG109125565-4 con velocidad, potencia, medida y M14.
 - [Dinet Argentina: TG10711576-4](https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm): código, 710 W, 115 mm y disponibilidad; la ficha indica datos tomados del catálogo del fabricante.
 - [S2 Herramientas: TG109125565-4](https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/): referencia local y estado comercial.
 - [Todoferretería: TG12018026-4](https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html): referencia local, especificaciones y stock publicado.

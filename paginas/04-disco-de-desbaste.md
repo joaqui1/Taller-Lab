@@ -87,6 +87,14 @@ El desbaste trabaja sobre la superficie; el corte separa la pieza con el borde d
 
 No encontramos una comparación verificable de precio y vida útil entre discos de desbaste probados sobre el mismo metal, herramienta, presión, tarea y criterio de desgaste. Por eso no publicamos un costo por trabajo ni afirmamos que una referencia dure más que otra. Para compararlas, harían falta precios de la misma fecha y mercado y ensayos repetidos bajo condiciones equivalentes, midiendo material removido hasta un criterio de descarte común.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Bosch PRO Metal y Norton Clipper publican referencias concretas con dimensiones y especificación abrasiva; la tabla conserva el código y la aplicación de cada una. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** Compartir medida no vuelve equivalentes dos abrasivos. La comparación sirve para identificar compatibilidad y material autorizado; sin una prueba común no permite ordenar duración, costo por trabajo ni remoción.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch PRO Metal para desbaste, catálogo Argentina](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/); [Norton Clipper Metal-Inox para amoladora angular, variantes, materiales y velocidad máxima](https://www.nortonabrasives.com/es-es/productos/clipper-para-desbaste-con-amoladora-angular-en-metal-e-inox); [ficha Bosch de la gama PRO Metal para diámetros grandes](https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/); [catálogo Bosch de accesorios y especificaciones](https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf); [guía Norton sobre estructura y marcado de ruedas abrasivas](https://www.nortonabrasives.com/en-us/grinding-wheel-basics); [manual Bosch de amoladoras angulares](https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf).

@@ -115,6 +115,14 @@ Estas referencias documentan una familia concreta de flap para metal; no represe
 
 **Desconocido:** no se midieron tasa de remoción, temperatura, vida útil ni acabado en una prueba común. Tampoco se extrapolan rpm entre referencias. Revisá siempre el dato de cada variante.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las referencias Bosch PRO X571 identifican forma, grano, diámetro y orificio; Norton y 3M aportan criterios de abrasivo y geometría en las fuentes enlazadas. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz cruza la terminación buscada con grano, forma y material permitido. No se compararon remoción por minuto, temperatura ni vida útil; las RPM deben comprobarse en la variante exacta.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch PRO X571 recto](https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/); [Bosch PRO X571 angular](https://www.bosch-professional.com/ar/es/disco-flap-pro-metal-x571-para-amoladoras-angulares-pequenas-version-en-angulo-fibra-3065169-ocs-ac/); [Bosch PRO Metal, disco rígido de desbaste](https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/).

@@ -45,11 +45,11 @@ Para entender cómo cambia el ruido con la carga, la ficha del Gamma GE3497AR in
 
 Las fichas oficiales actuales de Gamma, Honda y Lüsqtoff publican estos datos acústicos. Tener un número en común no basta: si cambian unidad, distancia o condición de carga, la cifra no sirve para establecer un ranking directo.
 
-| Modelo | Ruido declarado | Distancia | Carga o modo declarado | Fuente oficial | Comparabilidad | Precio |
+| Modelo | Ruido declarado | Distancia | Carga o modo declarado | Fuente oficial | Comparabilidad | Oferta |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Gamma GE3497AR | 63 dB / 69 dB | 7 m | 50 % / 100 % de carga | [Ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/) | Los dos puntos permiten ver el cambio por carga en este modelo. La ficha no especifica dB(A), por lo que no se compara directamente con los valores Honda. | [Ver precio →](https://meli.la/1B4sjDN) |
 | Honda EU22i | 57 dB(A) | 7 m | Plena carga | [Ficha Honda](https://pf.honda.com.ar/producto/EU22i) | Medición con distancia y carga declaradas; no equivale a cifras que omiten esas condiciones ni a Gamma, que no indica ponderación A. | [Ver precio →](https://meli.la/2AwxqaH) |
-| Honda EU30is | 58 dB(A) | No indicada | No indicada | [Ficha Honda](https://pf.honda.com.ar/producto/EU30is) | No comparable directamente con EU22i: la ficha no indica distancia ni carga para el dato de ruido. | [Ver precio →](https://meli.la/2X86187) |
+| Honda EU30is | 58 dB(A) | No indicada | No indicada | [Ficha Honda](https://pf.honda.com.ar/producto/EU30is) | No comparable directamente con EU22i: la ficha no indica distancia ni carga para el dato de ruido. | — |
 | Honda EU70is | 91 dB(A) | No indicada | No indicada | [Ficha Honda](https://pf.honda.com.ar/producto/EU70is) | Sin protocolo de distancia y carga no se puede contrastar directamente con los otros modelos. | — |
 | Lüsqtoff LGI5.5-8 | 62 dB | No indicada | No indicada | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | La ficha no describe el protocolo; no ordenar este valor frente a 57 o 58 dB(A) de Honda. | [Ver precio →](https://meli.la/1pJFrBq) |
 | Lüsqtoff LGI7.5-8 | 63 dB | No indicada | No indicada | [Ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI7.5-8) | La ficha no describe el protocolo; no concluir que sea más ruidoso o silencioso por la cifra sola. | — |
@@ -68,16 +68,6 @@ El manual anterior del Gamma GE3470AR publica 63 dB al 50 % y 69 dB al 100 %, am
 
 **Trabajo y herramientas.** Priorizá potencia nominal, arranque de motores, horas de uso, protección frente al entorno y transporte entre frentes. Una sierra, bomba o compresor puede tener un pico que no se deduce de su consumo de marcha. Si el ruido se puede manejar por ubicación y horario, compará también un generador convencional con especificaciones completas; no pagues por una característica acústica si no mejora el uso concreto.
 
-<!-- GENERADORES-EXTRAS -->
-
-### Lüsqtoff LGI5.5-8: inverter de mayor salida
-
-La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) publica 5,2 kVA máximos, tanque de 10 L y 30 kg; no encontramos potencia nominal en esa ficha. Si la evaluás, compará cargas con la potencia nominal de la placa, no con el máximo anunciado.
-
-[Ver precio del Lüsqtoff LGI5.5-8](https://meli.la/1pJFrBq)
-
-<!-- /GENERADORES-EXTRAS -->
-
 ## Alternativa sin motor: estación de energía portátil
 
 Una estación de energía almacena electricidad en una batería; no lleva un motor de combustión ni genera ruido de motor o gases de escape durante el uso. La energía disponible es finita y la salida tiene límites de potencia: por ejemplo, la guía de [estaciones de energía portátiles](/generadores/estacion-de-energia-portatil/) compara EcoFlow DELTA 2 (1.024 Wh almacenados, salida nominal CA 1.800 W) y BLUETTI AC70 (768 Wh, salida nominal CA 1.000 W). Contrastá esos valores con la potencia y el tiempo que necesitás; los ventiladores y otras partes electrónicas todavía pueden producir sonido.
@@ -94,6 +84,6 @@ Usá los generadores de combustión al aire libre, lejos de ventanas, puertas y 
 - **Gamma GE3470AR:** [manual oficial con especificaciones, autonomía y ruido](https://gammaherramientas.com.ar/web/wp-content/uploads/2020/10/GE3470AR_MANUAL.pdf); [catálogo de discontinuados](https://www.gammaherramientas.com.ar/categoria-producto/discontinuos/).
 - **Honda:** fichas oficiales de [EU22i](https://pf.honda.com.ar/producto/EU22i), [EU30is](https://pf.honda.com.ar/producto/EU30is) y [EU70is](https://pf.honda.com.ar/producto/EU70is); [ficha técnica descargable EU22i](https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf).
 - **Lüsqtoff:** fichas oficiales de [LGI5.5-8](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) y [LGI7.5-8](https://lusqtoff.com.ar/ver-producto/LGI7.5-8).
-- **EcoFlow DELTA 2 y BLUETTI AC70:** [manual EcoFlow](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), [catálogo BLUETTI](https://bluetti.com/wp-content/uploads/2024/09/%EF%BC%88%E7%94%B5%E5%AD%90%E7%89%88%EF%BC%89Product-Catalog-EN-V4.2-1.pdf) y [página AC70](https://www.bluettipower.com/products/ac70).
+- **EcoFlow DELTA 2 y BLUETTI AC70:** [manual EcoFlow](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), catálogo BLUETTI (referencia documental histórica; enlace original no disponible al 30/09/2026) y [página AC70](https://www.bluettipower.com/products/ac70).
 
 Para comparar la tecnología de salida, seguí con [generadores inverter](/generadores/inverter/). Para evaluar portabilidad y otros modelos, consultá [generadores portátiles](/generadores/portatiles/).

@@ -123,8 +123,8 @@ Si el vendedor solo puede confirmar tanque, HP, presión máxima y desplazamient
 ## Fuentes consultadas
 
 - **Lüsqtoff:** [catálogo 2024–2025](https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [catálogo 2020–2021](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [gama actual de compresores](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
-- **Schulz:** [catálogo general, CSV 20/200, código 922.9303-0](https://www.schulz.com.br/wp-content/uploads/2023/06/Super-Catalogo-Geral-dez24-MI.pdf).
-- **Consumo de herramientas:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf).
+- **Schulz:** catálogo general, CSV 20/200, código 922.9303-0 (referencia documental histórica; enlace original no disponible al 30/09/2026).
+- **Consumo de herramientas:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view).
 - **Seguridad:** dimensionamiento eléctrico, instalación del tanque y mantenimiento deben seguir placa, manual y normativa local aplicable.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

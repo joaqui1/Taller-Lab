@@ -97,8 +97,15 @@ El canal oficial de posventa indica que repuestos y accesorios se gestionan en p
 - [Amoladoras inalámbricas: comparar plataformas y kits](/amoladoras/inalambricas/)
 - [Más guías de amoladoras](/amoladoras/)
 
-## Fuentes del fabricante
+## Lectura de la evidencia de esta comparación
 
+**Dato documentado:** Las fichas Lüsqtoff enlazadas separan AML850-8, AML1010-8, AML115-9B y AML115-9BK, incluidos diámetro, regulación y composición publicada de cuerpo o kit. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz compara configuraciones completas: el cuerpo sin batería tiene costos pendientes y el kit exige verificar el contenido ofrecido. Potencia nominal, velocidades y tensión no demuestran autonomía ni rendimiento bajo carga.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
+## Fuentes consultadas
 - [Catálogo Lusqtoff 2024–2025 (PDF)](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf)
 - [Ficha AML1010-8](https://lusqtoff.com.ar/ver-producto/AML1010-8)
 - [Ficha AML115-9B, herramienta sola](https://lusqtoff.com.ar/ver-producto/AML115-9B)

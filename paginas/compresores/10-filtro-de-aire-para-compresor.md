@@ -84,7 +84,7 @@ La ficha presenta además 50 NI/min bajo “pulverizado (caudal)” y 4.000 NI/m
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [manual Gamma G2802AR, revisión y limpieza del filtro de admisión](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf); [BTA, filtro-regulador-lubricador AA-2040I](https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2); [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf).
+- **Documentación primaria:** [manual Gamma G2802AR, revisión y limpieza del filtro de admisión](https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf); [BTA, filtro-regulador-lubricador AA-2040I](https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2); [catálogo BTA 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view).
 - **Seguridad:** instalá, limpiá y mantené el filtro y cada componente de la línea según el manual específico y dentro de su presión nominal.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

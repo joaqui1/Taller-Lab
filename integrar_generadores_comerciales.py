@@ -21,7 +21,7 @@ NOTES = {
     'LGI5.5-8': ('Lüsqtoff LGI5.5-8: inverter de mayor salida', 'La [ficha Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) publica 5,2 kVA máximos, tanque de 10 L y 30 kg; no encontramos potencia nominal en esa ficha. Publica 62 dB sin distancia ni carga: esa cifra no permite compararlo directamente con las mediciones Honda/Gamma.'),
     'GE3491AR': ('Opción trifuel: Gamma TF10000', 'El **GE3491AR / TF10000** es una opción comercial distinta del TF8500 documentado en esta guía. La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/) publica potencias continuas de 9 / 8,1 / 7,2 kW y máximas de 10 / 9 / 8 kW con nafta / GLP / gas natural, respectivamente. Elegí por el combustible que usarás y verificá los requisitos de conexión.'),
     'DELTA 2 Max': ('Opciones de mayor capacidad: EcoFlow DELTA 2 Max', 'Es un modelo distinto del DELTA 2 de las tablas. [EcoFlow](https://www.ecoflow.com/us/delta-2-max-portable-power-station) publica **2.048 Wh** y **2.400 W de salida CA** para DELTA 2 Max. La fuente corresponde a la versión estadounidense: confirmá tensión, enchufes y manual de la unidad ofrecida para Argentina.'),
-    'AC70P': ('BLUETTI AC70P: variante separada del AC70', 'La **AC70P** tiene **864 Wh** y **1.000 W continuos** según [BLUETTI](https://shop.bluettipower.com/products/bluetti-ac70p?_pos=1&_sid=ed8d94c8e&_ss=r). No es la AC70 de 768 Wh de la tabla. Confirmá tensión y versión regional en la publicación antes de comprar.'),
+    'AC70P': ('BLUETTI AC70P: variante separada del AC70', 'La **AC70P** tiene **864 Wh** y **1.000 W continuos** según el [manual multirregional de BLUETTI](https://s4.bluettipower.com/bluetti_lgf/support/2025/06/c7116c12-6152-460d-8380-f044baa7c75f.pdf). No es la AC70 de 768 Wh de la tabla. Confirmá tensión y versión regional en la publicación antes de comprar.'),
     'DTGEAB08-4': ('Dyllu DTGEAB08-4: escalón de alrededor de 5 kW', 'La publicación documentada en la [guía de precios](/generadores/precios/) anuncia 5 kW nominales y 5,5 kW máximos para este inverter. Son datos comerciales de esa publicación, sin ensayo físico de TallerLab; confirmá placa y manual de la unidad ofrecida.'),
     'LG3000': ('Lüsqtoff LG3000: escalón de 2–3 kVA', 'La [ficha Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LG3000) publica 2,5 kVA nominales / 2,8 kVA máximos, arranque manual y tanque de 15 L. La [guía a nafta](/generadores/a-nafta/) conserva la discrepancia entre esos campos y otro rótulo de potencia del fabricante; confirmá placa y manual.'),
 }
@@ -42,11 +42,12 @@ def main():
                 position = text.index('\n## ')
                 text = text[:position] + '\n\n' + '\n\n'.join(labels) + '\n' + text[position:]
         # Reconstruir siempre desde el contenido editorial, sin acumular columnas/bloques.
+        previous_extras = re.findall(r'<!-- GENERADORES-EXTRAS -->\s*(.*?)\s*<!-- /GENERADORES-EXTRAS -->', text, flags=re.S)
         text = re.sub(r'\n*<!-- GENERADORES-EXTRAS -->.*?<!-- /GENERADORES-EXTRAS -->\n*', '\n\n', text, flags=re.S)
         def clean_table(m):
             rows = m[0].splitlines()
             rows = [row for row in rows if not row.startswith('| Oferta |') or row == rows[0]]
-            if rows[0].rstrip().endswith('| Oferta |'):
+            if rows[0].rstrip().endswith(('| Oferta |', '| Precio |')):
                 rows = [row[:row.rfind('|', 0, row.rfind('|')) + 1].rstrip() for row in rows]
             return '\n'.join(rows) + '\n'
         text = re.sub(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+', clean_table, text)
@@ -89,6 +90,14 @@ def main():
                 continue
             heading, note = NOTES[key]
             extras.append(f'### {heading}\n\n{note}\n\n[{cta(key)}]({url(key)})')
+        for previous in previous_extras:
+            old_urls = set(re.findall(r'https://meli\.la/[A-Za-z0-9]+', previous))
+            new_urls = {url(k) for k in keys if k not in matched}
+            if old_urls and old_urls == new_urls:
+                extras = [previous]
+                break
+        if number == 15:
+            extras.append('### Generadores chicos: referencia breve\n\nSi buscás un equipo de baja potencia como el Konan KGE/800 o el Lüsqtoff LG950P, consultá la [comparativa de generadores chicos](/generadores/chicos/) para ver potencias, dimensiones y límites de los datos publicados.')
         if extras:
             # Situar las alternativas tras la tabla de modelos pertinente.
             candidates = list(re.finditer(r'(?m)^## [^\n]+\n(?:(?!^## ).*\n)*', text))

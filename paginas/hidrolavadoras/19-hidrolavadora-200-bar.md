@@ -52,7 +52,7 @@ Las fichas no usan una etiqueta de presión uniforme: Comet distingue nominal y 
 
 | Modelo y código | Referencia comercial | Disponibilidad informada |
 | :--- | :--- | :--- |
-| Comet KM Extra 8.16 16/200 T (C2586AR) | [$14.374.117,20 en Punto Gardenia](https://puntogardenia.com.ar/productos/hidrolavadora-6-5kw-7..5hp-km-extra-8-16-16-200-t-c-caldera-comet-c2586ar/). | La publicación señala **última unidad**. Confirmá modelo, configuración y entrega al cotizar. |
+| Comet KM Extra 8.16 16/200 T (C2586AR) | $14.374.117,20 en Punto Gardenia (referencia documental histórica; enlace original no disponible al 30/09/2026). | La publicación señala **última unidad**. Confirmá modelo, configuración y entrega al cotizar. |
 | Comet K 250 TSR 13/190 T Classic (C2583AR) | [$4.739.280 efectivo o transferencia en Vagolnet](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html). | El comercio informa **en stock**; consultá instalación trifásica, accesorios y fecha de entrega. |
 | Emona F 200, 10 HP | [Cotización directa con Emona](https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios). | No publica precio ni stock; la ficha invita a consultar por configuración fija o con carrito. |
 
@@ -79,7 +79,7 @@ Comparación documental, sin prueba física ni muestra de opiniones de comprador
 ## Fuentes consultadas
 
 - **Documentación de fabricantes/proveedores locales:** [Gamma/Comet KM Extra 8.16 16/200 T, C2586AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/); [Gamma/Comet K 250 TSR 13/190 T Classic, C2583AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/); [Emona F 200, 10 HP](https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios); [Gamma/Comet KP Pro Classic 3.10 10/150 M, C2585AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-kp-pro-classic-3-10-10-150-m/); [Gamma Annovi 935 Blue Clean](https://www.gammaherramientas.com.ar/producto/annovi-935/); [Gamma Omega Hynox 200, G2028AR](https://www.gammaherramientas.com.ar/producto/hidrolavadora-omega-hynox-200/).
-- **Precios y disponibilidad:** [Punto Gardenia, Comet C2586AR](https://puntogardenia.com.ar/productos/hidrolavadora-6-5kw-7..5hp-km-extra-8-16-16-200-t-c-caldera-comet-c2586ar/); [Vagolnet, Comet C2583AR](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html); Emona, contacto de cotización enlazado arriba.
+- **Precios y disponibilidad:** Punto Gardenia, Comet C2586AR (referencia documental histórica; enlace original no disponible al 30/09/2026); [Vagolnet, Comet C2583AR](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html); Emona, contacto de cotización enlazado arriba.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para explorar la categoría: [comparativa general de hidrolavadoras](/hidrolavadoras/comparativa-general/).

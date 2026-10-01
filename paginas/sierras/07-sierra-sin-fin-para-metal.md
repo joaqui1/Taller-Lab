@@ -86,7 +86,7 @@ No confundas la máquina por el nombre: una [sierra sin fin para madera](/sierra
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [BTA 646003](https://btatools.com.ar/producto/sierra-sin-fin-para-metales-115-mm); [BTA 646001](https://btatools.com.ar/producto/sierra-sin-fin-para-metales-180-mm); [catálogo BTA 2026–2027](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [catálogo BTA con formatos vertical/horizontal y TPI del 646003](https://btatools.com.ar/wp-content/uploads/Catalogo-BtaTools.pdf); [guía de dentado para bandas metálicas Addler](https://www.addler.com.au/wp-content/uploads/2022/05/ADDLER-Bandsaw-Blade-Tooth-Selection-Guide_High-Res.pdf); [Milwaukee M12 2429-20](https://www.milwaukeetool.com/2429-20); [Milwaukee M18 compacta 2829-20](https://www.milwaukeetool.com/products/details/m18-fuel-compact-band-saw-tool-only/2829-20).
+- **Documentación primaria:** [BTA 646003](https://btatools.com.ar/producto/sierra-sin-fin-para-metales-115-mm); [BTA 646001](https://btatools.com.ar/producto/sierra-sin-fin-para-metales-180-mm); [catálogo BTA 2026–2027](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); catálogo BTA con formatos vertical/horizontal y TPI del 646003 (referencia documental histórica; enlace original no disponible al 30/09/2026); [guía de dentado para bandas metálicas Addler](https://www.addler.com.au/wp-content/uploads/2022/05/ADDLER-Bandsaw-Blade-Tooth-Selection-Guide_High-Res.pdf); [Milwaukee M12 2429-20](https://www.milwaukeetool.com/2429-20); [Milwaukee M18 compacta 2829-20](https://www.milwaukeetool.com/products/details/m18-fuel-compact-band-saw-tool-only/2829-20).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

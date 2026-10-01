@@ -280,33 +280,31 @@
   "/soldadoras/alambre-para-soldadura-mig/": {
     "file": "08-alambre-para-soldadura-mig.md",
     "models": [
-      "BREMEN8240",
-      "ESABAUTROD5"
+      "BREMEN8240"
     ],
     "offers": [
       {
         "model": "BREMEN8240",
         "url": "https://meli.la/1RwSNLU",
         "cta": "Ver precio y disponibilidad"
-      },
-      {
-        "model": "ESABAUTROD5",
-        "url": "https://meli.la/1fzxaCM",
-        "cta": "Ver precio y disponibilidad"
       }
     ],
     "placements": [
       {
         "models": [
-          "BREMEN8240",
-          "ESABAUTROD5"
+          "BREMEN8240"
         ],
         "anchor": "Opciones de compra",
         "position": "section",
         "title": "Alambre MIG macizo · 0,8 mm × 5 kg"
       }
     ],
-    "pending": []
+    "pending": [
+      {
+        "model": "ESABAUTROD5",
+        "reason": "Referido retirado: el destino consultado el 30/09/2026 anuncia 1,6 mm × 18 kg, no la presentación 0,8 mm × 5 kg de esta comparación."
+      }
+    ]
   },
   "/soldadoras/mascaras-fotosensibles/": {
     "file": "09-mascara-de-soldar-fotosensible.md",

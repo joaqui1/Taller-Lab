@@ -71,7 +71,7 @@ INLINE_SECTIONS = {
 PLACEMENTS = {
     1: (['GKS150', 'SC16', 'DWE560', 'CSL1500-8'], 'Diámetro y espesor: dos límites separados', 'section'),
     2: (['CM-14K', 'TS223558-4'], 'Qué capacidad necesitás según la forma del perfil', 'section'),
-    3: (['GSA1100E', 'GSA18V24', 'DCS380B'], 'Sierra sable con cable o inalámbrica', 'section'),
+    3: (['GSA1100E'], '', 'section'),
     4: (['BES603', 'TC-JS85', 'TE-JS100'], 'Capacidad publicada de tres modelos', 'table'),
     5: (['SFL300-8', 'SFL1100-9'], 'Altura de corte y garganta: qué determina cada una', 'section'),
     6: (['TC-TS2025', 'SML2000-9'], 'Qué sierra de banco elegir según el tamaño de pieza', 'table'),

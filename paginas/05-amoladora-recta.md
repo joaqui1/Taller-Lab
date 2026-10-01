@@ -90,6 +90,14 @@ Son referencias documentadas internacionales, no una recomendación de compra ni
 
 La tabla eléctrica anterior conserva los datos publicados por Bosch y Makita. La ficha Bosch incluye un manual descargable para confirmar accesorios y montaje. No completamos los campos ausentes de Makita por analogía con otros modelos de la marca.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Bosch GGS 28 L, Makita GD0600 y Chicago Pneumatic CP9104Q/CP872 documentan modelos distintos; las fichas neumáticas diferencian consumo promedio y con carga. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La conversión de litros por segundo a litros por minuto usa el factor 60. Para elegir la instalación se debe comparar salida a la presión requerida, ciclo y pérdidas; potencia eléctrica y consumo neumático no son una escala común de rendimiento.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch Professional Argentina, GGS 28 L](https://www.bosch-professional.com/ar/es/products/ggs-28-l-06012240H0); [Makita Argentina, GD0600](https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/); [Chicago Pneumatic CP9104Q, ficha y datos técnicos](https://tools.cp.com/es_mx/products/grinders/diegrinders/cp9104q); [Chicago Pneumatic CP872, ficha y datos técnicos](https://tools.cp.com/en-in/products/grinders/cp872-skuT025373); [manual Chicago Pneumatic CP9104Q](https://www.cp.com/content/dam/pim/itba/cp/technical-documents/8940168669.pdf).

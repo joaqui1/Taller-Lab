@@ -228,13 +228,6 @@ AMOLADORA_CHOICES = {
 # Las variantes secundarias van en este mapa, separadas del CTA principal para
 # cada URL; no agregarlas como una segunda clave en AMOLADORA_CHOICES.
 CONTEXTUAL_CHOICES = {
-    "/amoladoras/total/": {
-        "name": "Total TG109125565-4 · 125 mm con velocidad variable",
-        "url": "https://meli.la/2BE54o4",
-        "facts": ["900 W", "125 mm", "Velocidad variable · 220 V según publicación"],
-        "reason": "Para quien necesita pasar de la opción compacta de 115 mm a 125 mm y quiere regulación de velocidad, según catálogo y publicación del código indicado.",
-        "checks": ["Código TG109125565-4 y tensión de la unidad", "Confirmar rango de rpm en placa/manual, pues los avisos difieren", "Disco, guarda, M14, contenido y garantía local"],
-    },
     "/amoladoras/dowen-pagio/": {
         "name": "Dowen Pagio 9993224.2 / AA125SPL · velocidad variable",
         "url": "https://meli.la/1x65DAe",
@@ -331,13 +324,6 @@ CONTEXTUAL_CHOICES = {
         "facts": ["115 mm · 3.000/6.000/9.000 rpm", "2 baterías de 4 Ah", "Cargador 20 V y 10 discos de corte según publicación"],
         "reason": "Alternativa para quien necesita movilidad y quiere entrar al kit P20S local; la AG7118-4 con cable sigue siendo la opción principal de uso general.",
         "checks": ["Confirmar SKU CAGLI271532-4 y contenido del lote", "Capacidad de baterías, modelo de cargador y entrada 220–240 V", "Garantía local y compatibilidad de otros packs P20S"],
-    },
-    "/amoladoras/velocidad-variable/": {
-        "name": "Total TG109125565-4 · alternativa variable de 125 mm",
-        "url": "https://meli.la/2BE54o4",
-        "facts": ["900 W", "125 mm", "Velocidad variable · 220 V según publicación"],
-        "reason": "Una alternativa de entrada de 125 mm con regulador para comparar frente a la Dowen Pagio; no ofrece la misma potencia ni el mismo rango declarado.",
-        "checks": ["Código TG109125565-4 y tensión 220 V", "La publicación muestra variaciones en el rango de rpm: confirmar en placa/manual", "Eje M14, contenido y garantía local"],
     },
     "/amoladoras/7-pulgadas/": {
         "name": "DeWalt DWE4557-AR · angular de 180 mm",

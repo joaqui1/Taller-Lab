@@ -84,7 +84,7 @@ Antes de pagar, pedí foto de la placa y del código completo, el manual que cor
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [manual DeWalt DWS713-AR, tipo 20](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS713/20/Instruction_Manual/EN/NA423966_DWS713_AR.pdf); [manual regional DWS780-AR](https://ec.dewalt.global/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf); [catálogo argentino DeWalt 2018, DW713-AR y DWS780-AR](https://www.adbarbieri.com/hubfs/WEB2018/especificaciones-tecnicas/Dewalt-catalogo.pdf?hsLang=es); [página DeWalt regional DWS780](https://www.dewalt.com.co/es-co/producto/dws780/sierra-ingleteadora-telescopica-de-12-305mm-de-1675w), que muestra 110 V para el producto publicado allí.
+- **Documentación primaria:** [manual DeWalt DWS713-AR, tipo 20](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS713/20/Instruction_Manual/EN/NA423966_DWS713_AR.pdf); [manual regional DWS780-AR](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf); [catálogo argentino DeWalt 2018, DW713-AR y DWS780-AR](https://www.adbarbieri.com/hubfs/WEB2018/especificaciones-tecnicas/Dewalt-catalogo.pdf?hsLang=es); [página DeWalt regional DWS780](https://www.dewalt.com.co/es-co/producto/dws780/sierra-ingleteadora-telescopica-de-12-305mm-de-1675w), que muestra 110 V para el producto publicado allí.
 - **Disponibilidad local observada:** [oferta argentina DWS780-AR](https://www.fava.com.ar/sierra-ingletadora-dws780-ar-fvering015); es una referencia de venta, no una fuente para resolver diferencias técnicas entre revisiones.
 - **Opiniones:** no se usó una muestra verificable.
 

@@ -111,6 +111,14 @@ Las fichas oficiales consultadas permiten ilustrar tres tamaños, pero no repres
 
 **Lectura de la comparación:** el diámetro, la velocidad en vacío y el peso declarado describen aspectos diferentes; no permiten predecir por sí solos la profundidad o el ritmo real de corte. Eso depende también del accesorio, la guarda, la geometría y el material. Bosch clasifica las angulares grandes para corte y desbaste de mayor exigencia y documenta funciones concretas en ciertos modelos; no se deben generalizar a toda la gama.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Bosch citadas separan las angulares compactas de las variantes de 180 y 230 mm, con potencia y velocidad publicadas para cada código. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz inicial organiza la elección por operación, diámetro y alimentación. El diámetro no demuestra profundidad efectiva ni ritmo de corte: faltan una geometría y un ensayo comparables.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria:** [Bosch GWS 9-115 S](https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103); [Bosch GWS 25-180 LVI R](https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1); [Bosch GWS 25-230](https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0).

@@ -44,7 +44,7 @@ PLACEMENTS = {
     12: ['GE3497AR', 'GE3480AR', 'GE3481AR', 'GE3491AR', 'GE3482AR'],
     13: ['EU22i', 'GE3480AR', 'GE3481AR', 'EU30is', 'EG6500CXS'],
     14: [],
-    15: ['EU22i', 'GE3497AR', 'EU30is', 'KGE/800', 'LG950P'],
+    15: ['EU22i', 'GE3497AR', 'EU30is'],
     16: ['EU22i', 'GE3497AR', 'LGI5.5-8'],
     17: ['LG950P'],
     18: ['GNW-55-E', 'GNW-70-ER'],

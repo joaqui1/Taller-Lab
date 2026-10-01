@@ -47,7 +47,7 @@ PLACEMENTS = {
     2: ('Elegí por tipo de equipo', ['LAPL', 'HYPRESSO']),
     3: ('Comparativa de la gama Lüsqtoff', ['HL120', 'HL150', 'HL1109']),
     4: ('Qué Gamma elegir según la tarea', ['MASTER', 'G130', 'PREMIUM']),
-    5: ('Elegí por frecuencia de uso', ['RE80', 'RE90']),
+    5: ('Gama eléctrica con cable', ['RE80', 'RE90']),
     6: ('Cuál conviene para casa y auto', ['GHP180', 'GHP200', 'GHP220']),
     7: ('Qué elegir para casa y auto', ['B1300', 'B1520', 'B1800', 'B2200']),
     8: ('Qué K2 conviene para cada trabajo', ['K2', 'K2CAR']),

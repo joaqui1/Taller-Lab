@@ -63,6 +63,14 @@ Las garantías publicadas no son uniformes: las páginas comerciales consultadas
 
 Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está disponible o necesitás una compra con información vigente, compará las amoladoras de [115 o 125 mm](/amoladoras/115-o-125/) y elegí por código, tensión, diámetro, peso y accesorios, no solo por los watts.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** El manual histórico Skil 9002/9004 y el catálogo argentino enlazados distinguen 9002AR de 9004AR, con tensión, potencia, diámetro y peso para esas referencias. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** El cálculo de diferencia nominal de potencia no representa una mejora medida de corte. La contradicción del título comercial de 9002 y las diferencias de kits requieren confirmación de placa y caja; no se certifica vigencia del catálogo ni stock actual.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria histórica:** [manual Skil 9002/9004, edición 2015](https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf); [catálogo Skil Argentina 2019](https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf).

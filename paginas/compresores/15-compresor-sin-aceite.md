@@ -119,7 +119,7 @@ Si la ficha solo informa HP, tanque, presión máxima y admisión, alcanza para 
 
 ## Fuentes consultadas
 
-- **BTA:** [CSA-24-1, compresor sin aceite de 24 L](https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite); [CSA-50-2, compresor sin aceite de 50 L](https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite); [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf).
+- **BTA:** [CSA-24-1, compresor sin aceite de 24 L](https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite); [CSA-50-2, compresor sin aceite de 50 L](https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite); [catálogo BTA 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view).
 - **Lüsqtoff:** [ficha LC-0122](https://www.lusqtoff.com.ar/ver-producto/LC-0122); [manual LC-0122](https://www.lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-0122/MANUAL/LC-0122.pdf).
 - **Calidad del aire:** [catálogo ISO 8573 de contaminantes y clases de pureza](https://www.iso.org/committee/51882/x/catalogue/); [OSHA, requisitos y controles de aire respirable comprimido](https://www.osha.gov/otm/section-8-ppe/chapter-2).
 - **Opiniones de compradores:** no se revisó una muestra verificable.

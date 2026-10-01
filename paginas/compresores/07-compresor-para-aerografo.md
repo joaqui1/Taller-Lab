@@ -100,7 +100,7 @@ Para sesiones largas o repetidas, priorizá un ciclo de trabajo claro, protecci�
 
 - **Compresores:** [Fengda AS-186](https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186); [Fengda AS-196](https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196); [Sparmax TC-501N](https://www.sparmaxair.com/compressor-master-1/tc-501n); [Sparmax TC-610H y manual](https://www.sparmaxair.com/compressor-legend-1/tc-610h); [Iwata Smart Jet Pro](https://www.iwata-airbrush.com/iwata-smart-jet-pro.html).
 - **Aerógrafos y ajuste:** [Iwata, selección de compresor y características](https://www.iwata-airbrush.com/airbrush-compressors.html); [Iwata HP-BH, presión de trabajo](https://www.iwata-airbrush.com/hp-bh-hi-line-airbrush.html); [Iwata Revolution HP-SAR, presión de trabajo](https://www.iwata-airbrush.com/revolution-single-action.html).
-- **AP8:** [BTA, aerógrafo profesional código 279004.1](https://btatools.com.ar/producto/aerografo-profesional); [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf).
+- **AP8:** [BTA, aerógrafo profesional código 279004.1](https://btatools.com.ar/producto/aerografo-profesional); [catálogo BTA 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [kits de aerógrafo con compresor](/compresores/kits-aerografo/) y [guías de compresores](/compresores/).

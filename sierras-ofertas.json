@@ -31,7 +31,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sensitivas/": {
     "file": "02-sensitiva.md",
@@ -53,34 +54,22 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sable/": {
     "file": "03-sierra-sable.md",
-    "models": [
-      "GSA18V24",
-      "DCS380B"
-    ],
-    "anchor": "Sierra sable con cable o inalámbrica",
+    "models": [],
+    "anchor": "",
     "position": "section",
-    "offers": [
-      {
-        "model": "GSA18V24",
-        "url": "https://meli.la/2mTTC3F",
-        "cta": "Ver precio →"
-      },
-      {
-        "model": "DCS380B",
-        "url": "https://meli.la/2UW9Bfk",
-        "cta": "Ver precio →"
-      }
-    ],
+    "offers": [],
     "pending": [
       {
         "model": "GSA1100E",
         "reason": "Pendiente: retirar la publicación cuyo título dice 110 W; falta una oferta activa con título y datos consistentes."
       }
-    ]
+    ],
+    "unmonetized": []
   },
   "/sierras/caladoras/": {
     "file": "04-sierra-caladora.md",
@@ -131,7 +120,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/de-banco/": {
     "file": "06-sierra-de-banco.md",
@@ -153,7 +143,8 @@
         "cta": "Ver precio de Lüsqtoff SML2000-9 →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sin-fin-metal/": {
     "file": "07-sierra-sin-fin-para-metal.md",
@@ -175,7 +166,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/ingletadoras-einhell/": {
     "file": "08-ingletadora-einhell.md",
@@ -219,7 +211,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/caladoras-skil/": {
     "file": "10-caladora-skil.md",
@@ -264,7 +257,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sensitivas-dewalt/": {
     "file": "12-sensitiva-dewalt.md",
@@ -286,7 +280,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/ingletadoras-dewalt/": {
     "file": "13-ingletadora-dewalt.md",
@@ -308,7 +303,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/ingletadoras-total/": {
     "file": "14-ingletadora-total.md",
@@ -377,7 +373,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/circulares-black-decker/": {
     "file": "17-sierra-circular-black-and-decker.md",
@@ -427,7 +424,8 @@
         "cta": "Ver precio de Einhell TC-JS 18 Li-Solo →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sierra-sable-inalambrica/": {
     "file": "19-sierra-sable-inalambrica.md",
@@ -449,7 +447,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/circulares-lusqtoff/": {
     "file": "20-sierra-circular-lusqtoff.md",
@@ -534,7 +533,8 @@
         "cta": "Ver precio de Bosch GST 185-LI →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sierra-circular-dewalt-dwe560/": {
     "file": "23-sierra-circular-dewalt-dwe560.md",
@@ -550,7 +550,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/stanley-sc16/": {
     "file": "24-stanley-sc16.md",
@@ -566,7 +567,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/caladoras-black-decker/": {
     "file": "25-caladoras-black-decker.md",
@@ -610,7 +612,8 @@
         "cta": "Ver precio de Lüsqtoff SML2000B-9 →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sensitivas-lusqtoff/": {
     "file": "27-sensitiva-lusqtoff.md",
@@ -626,7 +629,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sin-fin-lusqtoff/": {
     "file": "28-sierra-sin-fin-lusqtoff.md",
@@ -648,7 +652,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sensitivas-total/": {
     "file": "29-sensitiva-total.md",
@@ -664,7 +669,8 @@
         "cta": "Ver precio →"
       }
     ],
-    "pending": []
+    "pending": [],
+    "unmonetized": []
   },
   "/sierras/sierra-circular-inalambrica/": {
     "file": "30-sierra-circular-inalambrica.md",

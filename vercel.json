@@ -1,5 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "python preparar_assets_publicos.py",
+  "headers": [
+    {"source": "/assets/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
+    {"source": "/assets/fonts/(.*).woff2", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]}
+  ],
   "env": {
     "SITE_URL": "https://www.tallerlab.com.ar"
   }

@@ -4,6 +4,9 @@ Los títulos recibidos identifican las ofertas; no acreditan stock ni equivalenc
 entre códigos distintos. None conserva los modelos pendientes sin monetizarlos.
 """
 DEFAULT_CTA = 'Ver precio y disponibilidad'
+import json
+from pathlib import Path
+DESTINATIONS = json.loads((Path(__file__).parent / 'compresores-destinos-consultados.json').read_text(encoding='utf-8'))
 # modelo: (referido, descripción del título recibido)
 OFFERS = {
     'Nictom IE01': ('2Xv53zX', 'Inflador a batería; color negro anunciado'),
@@ -92,3 +95,5 @@ def install_catalog(products, facts, placements):
             facts[url]['source'] = facts['https://meli.la/2m7TJWQ']['source']
             facts[url]['source_type'] = 'marca'
             facts[url]['evidence_label'] = 'Modelo documentado por la marca; oferta negra suministrada, sin verificar destino'
+        if url in DESTINATIONS:
+            facts[url]['evidence_label'] = 'Título del destino consultado el ' + DESTINATIONS[url]['consulted'] + '; confirmá código, kit y disponibilidad con el vendedor'

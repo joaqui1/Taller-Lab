@@ -88,8 +88,15 @@ Son afirmaciones del fabricante. No equivalen a una prueba de TallerLab ni permi
 
 Las dimensiones permiten distinguir estas variantes de catálogo; no prueban cuál corta más rápido, dura más o deja mejor acabado en cada baldosa.
 
-## Fuentes y alcance
+## Lectura de la evidencia de esta comparación
 
+**Dato documentado:** Bosch publica geometrías turbo y continua para las referencias PRO Ceramic y EXPERT HardCeramic de la tabla, junto con diámetro, orificio y dimensiones del segmento. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La matriz distingue geometría y aplicación documentada. El perfil del borde no garantiza el acabado ni autoriza cualquier porcelanato; deben coincidir el material, código, fijación y condiciones de trabajo de las instrucciones.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
+## Fuentes consultadas
 - **Documentación primaria:** [Bosch PRO Ceramic, Argentina](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/); [Bosch EXPERT HardCeramic, Argentina](https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/); [catálogo argentino de accesorios Bosch 2024](https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf).
 - No se realizaron pruebas de corte, astillado, velocidad, vibración ni durabilidad. Las descripciones de acabado y rendimiento se atribuyen a Bosch.
 - Para una matriz general por operación y material, consultá [discos para amoladora](/amoladoras/discos/); para identificar formatos de segmentado, [disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/).

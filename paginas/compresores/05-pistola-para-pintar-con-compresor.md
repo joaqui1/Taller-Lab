@@ -2,7 +2,7 @@
 title: "Pistola para pintar con compresor: cuál elegir"
 h1: "Cómo elegir una pistola para pintar con compresor"
 url: "/compresores/pistola-para-pintar/"
-description: "Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal real del compresor. Incluye datos BTA documentados."
+description: "Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal de salida a presión de trabajo del compresor. Incluye datos BTA documentados."
 author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["pistola para pintar con compresor", "pistola hvlp compresor", "pistola para pintar auto", "pico soplete de pintar"]
@@ -98,7 +98,7 @@ Al terminar, vaciá la copa y limpiá la pistola cuanto antes con el producto o 
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [catálogo BTA 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [ficha BTA AS-1021](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion); [catálogo BTA 2022/23, definición de HVLP y fichas técnicas](https://btatools.com.ar/wp-content/catalogo/Catalogo-BTA-2022-2023.pdf); [Graco, selección del juego de aguja y boquilla](https://www.graco.com/us/en/contractor/solutions/articles/selecting-the-right-hvlp-needle-nozzle-set.html).
+- **Documentación primaria:** [catálogo BTA 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); [ficha BTA AS-1021](https://btatools.com.ar/producto/pistola-para-pintar-baja-presion); catálogo BTA 2022/23, definición de HVLP y fichas técnicas (referencia documental histórica; enlace original no disponible al 30/09/2026); [Graco, selección del juego de aguja y boquilla](https://www.graco.com/us/en/contractor/solutions/articles/selecting-the-right-hvlp-needle-nozzle-set.html).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 
 Para seguir comparando: [compresores para pintar](/compresores/para-pintar/).

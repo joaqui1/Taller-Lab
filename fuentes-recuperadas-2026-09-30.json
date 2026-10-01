@@ -1,0 +1,245 @@
+[
+  {
+    "old": "https://co.dewalt.global/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\03-amoladoras-dewalt.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 2.43
+    }
+  },
+  {
+    "old": "https://mx.stanleytools.global/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+    "candidate": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\15-amoladoras-stanley.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+      "content_type": "application/pdf",
+      "seconds": 2.43
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/D28730/1/Instruction_Manual/EN/NA266962_D28730_NA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/D28730/1/Instruction_Manual/EN/NA266962_D28730_NA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\sierras\\02-sensitiva.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/D28730/1/Instruction_Manual/EN/NA266962_D28730_NA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/D28730/1/Instruction_Manual/EN/NA266962_D28730_NA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 2.38
+    }
+  },
+  {
+    "old": "https://ec.dewalt.global/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\sierras\\13-ingletadora-dewalt.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf",
+      "content_type": "application/pdf",
+      "seconds": 2.7
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\sierras\\30-sierra-circular-inalambrica.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf",
+      "content_type": "application/pdf",
+      "seconds": 2.55
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\05-atornillador-de-impacto.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 1.11
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\07-taladro-percutor-inalambrico.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.69
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\08-atornillador-para-durlock.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.72
+    }
+  },
+  {
+    "old": "https://mx.stanleytools.global/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\18-taladro-stanley.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.81
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\19-atornillador-de-impacto-dewalt.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.78
+    }
+  },
+  {
+    "old": "https://www.dewalt.com/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+    "candidate": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+    "replaced": true,
+    "files": [
+      "paginas\\taladros\\19-atornillador-de-impacto-dewalt.md"
+    ],
+    "response": {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.73
+    }
+  },
+  {
+    "old": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-l-3-hp/",
+    "candidate": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
+    "replaced": true,
+    "files": [
+      "paginas\\compresores\\11-compresor-de-100-litros.md"
+    ],
+    "response": {
+      "url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "og_title": null,
+      "description": null,
+      "canonical_hint": null,
+      "challenge": false,
+      "seconds": 1.97
+    }
+  },
+  {
+    "old": "https://konan.com.ar/media/descargas/KONAN-Catalogo-2025.pdf",
+    "candidate": "https://www.konan.com.ar/media/descargas/KONAN-Catalogo.pdf",
+    "replaced": false,
+    "files": [],
+    "response": {
+      "url": "https://www.konan.com.ar/media/descargas/KONAN-Catalogo.pdf",
+      "status": 404,
+      "final_url": "https://www.konan.com.ar/media/descargas/KONAN-Catalogo.pdf",
+      "error": "HTTP Error 404: Not Found"
+    }
+  },
+  {
+    "old": "https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf",
+    "candidate": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+    "replaced": true,
+    "files": [
+      "paginas\\compresores\\05-pistola-para-pintar-con-compresor.md",
+      "paginas\\compresores\\06-acople-rapido-para-compresor.md",
+      "paginas\\compresores\\07-compresor-para-aerografo.md",
+      "paginas\\compresores\\10-filtro-de-aire-para-compresor.md",
+      "paginas\\compresores\\11-compresor-de-100-litros.md",
+      "paginas\\compresores\\13-kit-para-compresor-de-aire.md",
+      "paginas\\compresores\\14-compresor-lusqtoff-100-litros.md",
+      "paginas\\compresores\\15-compresor-sin-aceite.md",
+      "paginas\\compresores\\16-compresor-de-200-litros.md",
+      "paginas\\compresores\\17-compresor-bta-25-litros.md",
+      "paginas\\compresores\\21-compresor-para-pintar.md",
+      "paginas\\sierras\\07-sierra-sin-fin-para-metal.md"
+    ],
+    "response": {
+      "url": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+      "status": 200,
+      "final_url": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Catálogo BTA 2026-27.pdf - Google Drive",
+      "og_title": "Catálogo BTA 2026-27.pdf",
+      "description": null,
+      "canonical_hint": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view?usp=embed_facebook",
+      "challenge": false,
+      "seconds": 0.39
+    }
+  },
+  {
+    "old": "https://www.millerwelds.com/files/owners-manuals/O281426A_MIL.pdf",
+    "candidate": "https://www.millerwelds.com/files/owners-manuals/O281426C_MIL.pdf",
+    "replaced": true,
+    "files": [
+      "paginas/soldadoras/19-soldadora-tig-ac-dc.md"
+    ],
+    "response": {
+      "url": "https://www.millerwelds.com/files/owners-manuals/O281426C_MIL.pdf",
+      "status": 200,
+      "final_url": "https://contenthub.itwwelding.com/api/public/content/miller-electric-mfg-llc/owners-manual/9ccd60-o281426c_mil.pdf",
+      "content_type": "application/pdf",
+      "seconds": 0.37
+    }
+  }
+]

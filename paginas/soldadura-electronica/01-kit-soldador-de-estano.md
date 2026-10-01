@@ -53,7 +53,7 @@ También podés comparar componentes individuales en la guía de [soportes con l
 
 
 
-[Ver kit de soldador de estaño en Mercado Libre](https://meli.la/2q7fy7p){:target="_blank" rel="sponsored noopener" .btn-mercado-libre}
+[Buscar kits de soldador de estaño en Mercado Libre](https://listado.mercadolibre.com.ar/kit-soldador-estano){:target="_blank" rel="noopener noreferrer"} — búsqueda general: compará el contenido de cada kit; no identifica un equipo probado por TallerLab.
 
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*

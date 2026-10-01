@@ -94,7 +94,7 @@ Es un modelo distinto del DELTA 2 de las tablas. [EcoFlow](https://www.ecoflow.c
 
 ### BLUETTI AC70P: variante separada del AC70
 
-La **AC70P** tiene **864 Wh** y **1.000 W continuos** según [BLUETTI](https://shop.bluettipower.com/products/bluetti-ac70p?_pos=1&_sid=ed8d94c8e&_ss=r). No es la AC70 de 768 Wh de la tabla. Confirmá tensión y versión regional en la publicación antes de comprar.
+La **AC70P** tiene **864 Wh** y **1.000 W continuos** según el [manual multirregional de BLUETTI](https://s4.bluettipower.com/bluetti_lgf/support/2025/06/c7116c12-6152-460d-8380-f044baa7c75f.pdf). No es la AC70 de 768 Wh de la tabla. Confirmá tensión y versión regional en la publicación antes de comprar.
 
 [Ver precio de BLUETTI AC70P](https://meli.la/1z4M5aB)
 
@@ -117,7 +117,7 @@ Elegí una estación para cargas acotadas, silencio y cero emisiones locales si 
 ## Fuentes consultadas
 
 - **EcoFlow:** [manual DELTA 2 en español para región UE](https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES), [página oficial UE del DELTA 2](https://www.ecoflow.com/eu/delta-2-portable-power-station) y [distribuidor EcoFlow Argentina](https://ecoflow.com.ar/).
-- **BLUETTI AC70:** [manual oficial con autonomía, entrada, UPS y especificaciones de la variante UE](https://s4.bluettipower.com/bluetti_lgf/support/2025/05/64b84129-bc32-4821-9066-016fcc7c6366.pdf), [página BLUETTI UK](https://shop.bluettipower.com/uk/products/ac70-portable-power-station) y [página BLUETTI Brasil](https://br.bluettipower.com/products/ac70-estacao-de-energia-portatil).
+- **BLUETTI AC70:** [manual oficial con autonomía, entrada, UPS y especificaciones de la variante UE](https://s4.bluettipower.com/bluetti_lgf/support/2025/05/64b84129-bc32-4821-9066-016fcc7c6366.pdf), página BLUETTI UK (referencia regional histórica; enlace retirado el 30/09/2026 porque no abre la ficha) y [página BLUETTI Brasil](https://br.bluettipower.com/products/ac70-estacao-de-energia-portatil).
 - **Anker SOLIX C1000 A1761:** [guía oficial en español para la variante de 230 V](https://support.ankersolix.com/s/article/Anker-SOLIX-C1000-C1000X-Portable-Power-Station-GU%C3%8DA-DEL-USUARIO-A1761) y [página oficial europea](https://www.ankersolix.com/eu/products/a1761-c1000).
 
 Para comparar ambas alternativas y otras configuraciones, consultá la [comparativa general](/generadores/comparativa-general/).

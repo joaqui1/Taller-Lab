@@ -13,6 +13,7 @@ import servidor_local as s
 from app import app
 from integrar_taladros_comerciales import ANALYSIS, DOCUMENTED, MARKER, insertion
 from taladros_comerciales import OFFERS
+from normalizar_citas_qa import normalized_citations
 
 
 class Page(HTMLParser):
@@ -55,6 +56,9 @@ def main():
         file = article['path']
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/taladros/' + file.name]).decode('utf-8')
+        original = MARKER.sub('\n\n', original).replace(DOCUMENTED, '').replace(ANALYSIS, '')
+        original = original.replace('### Percutor vs SDS DeWalt', '## Percutor vs SDS DeWalt')
+        original = normalized_citations(original)
         clean = MARKER.sub('\n\n', text).replace(DOCUMENTED, '').replace(ANALYSIS, '')
         assert re.sub(r'\s+', ' ', clean).strip() == re.sub(r'\s+', ' ', original).strip(), ('Documento alterado', path)
         response = client.get(path)

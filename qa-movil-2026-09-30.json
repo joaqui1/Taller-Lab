@@ -1,0 +1,26 @@
+{
+  "routes": 190,
+  "widths": [
+    320,
+    390
+  ],
+  "checks": [
+    "ancho sin desbordamiento",
+    "un H1",
+    "imágenes cargadas sin error"
+  ],
+  "issues": [],
+  "search": {
+    "query": "compresor",
+    "matches": 24,
+    "shown": 12,
+    "empty_query": "zzsincoincidenciaszz",
+    "empty_state": true
+  },
+  "water_calculator": {
+    "flow": 6,
+    "minutes": 20,
+    "litres": 120,
+    "negative_value_rejected": true
+  }
+}

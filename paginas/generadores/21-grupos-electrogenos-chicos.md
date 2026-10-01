@@ -80,7 +80,7 @@ Gamma GE3441AR / 950 no forma parte de la comparación Pektra–Konan. Gamma cla
 
 ## Fuentes consultadas
 
-- **Konan:** [ficha oficial KGE/800 y manual](https://www.konan.com.ar/productos/generador-electrico-kge-800); [catálogo oficial Konan 2025](https://konan.com.ar/media/descargas/KONAN-Catalogo-2025.pdf). El sitio identifica a Morano Máquinas y Herramientas como representante exclusivo en Argentina.
+- **Konan:** [ficha oficial KGE/800 y manual](https://www.konan.com.ar/productos/generador-electrico-kge-800); catálogo oficial Konan 2025 (referencia documental histórica; enlace original no disponible al 30/09/2026). El sitio identifica a Morano Máquinas y Herramientas como representante exclusivo en Argentina.
 - **Pektra GPK980:** [datos aportados por vendedor y reproducidos por MercadoCórdoba](https://mercadocordoba.com.ar/producto/163). No encontramos manual o ficha técnica del fabricante para verificar estas cifras.
 - **Dimensiones y peso comerciales Konan:** [Grupo Attain, 15 kg y 32 × 35 × 35 cm](https://attain.com.ar/shop/5991-generador-portatil-grupo-electrogeno-konan-800w-2hp-2t-220v-1137) y [Bosquetec, aproximadamente 21 kg y 46 × 37 × 38 cm](https://bosquetec.com.ar/producto/konan-generador-electrico-kge800/). Son publicaciones de vendedores con datos incompatibles; confirmar la unidad exacta.
 

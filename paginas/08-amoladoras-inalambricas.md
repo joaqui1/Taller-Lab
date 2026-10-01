@@ -125,8 +125,15 @@ Los dos importes de kit no son una prueba de mejor relación precio/rendimiento:
 - **La vas a usar en trabajo continuo:** revisá si una herramienta con cable resulta más práctica y económica para tu puesto.
 - **Necesitás movilidad diaria:** valorá una batería de recambio, servicio técnico y disponibilidad local antes de decidir por voltaje o por una cifra de Ah.
 
-## Fuentes y alcance
+## Lectura de la evidencia de esta comparación
 
+**Dato documentado:** Las fuentes Bosch, INGCO, DeWalt y Makita enlazadas describen modelos y plataformas; las fuentes comerciales locales permiten distinguir cuerpo solo de kit. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** El costo de entrada debe incluir cuerpo, batería y cargador compatibles. Voltaje y Ah no permiten predecir cortes por carga o autonomía entre equipos distintos; esas prestaciones no se midieron.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
+## Fuentes consultadas
 - **Fabricantes:** [Bosch GWS 18V-10 PC Argentina](https://www.bosch-professional.com/ar/es/products/gws-18v-10-pc-06019G3E0B); [INGCO CAGLI1151](https://www.ingco.com/product/cordless-angle-grinder/CAGLI1151); [INGCO CAGLI2111561](https://www.ingco.com/md/product/cordless-angle-grinder/CAGLI2111561); [plataforma INGCO P20S](https://www.ingco.com/cl-en/products/cordless-tools); [DeWalt DCG413B](https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only).
 - **Paquetes y precios locales:** [INGCO Argentina, CAGLI2111561-4](https://shop.ingcostore.ar/productos/CAGLI2111561-4/); [Ofertools, kit DeWalt DCG413H2-AR](https://www.ofertools.com.ar/productos/amoladora-dewalt-dcg413h2-ar-2-baterias-cargador/).
 - **Makita Argentina:** [DGA467, página cuyo nombre de variante y SKU no coinciden](https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/).

@@ -103,7 +103,7 @@ El LC-40100 también tiene una diferencia menor entre fuentes: **58 kg** en el m
 ## Fuentes consultadas
 
 - **Lüsqtoff:** [manual LC-30100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf); [manual LC-40100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf); [catálogo Lüsqtoff 2020/21](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [catálogo Lüsqtoff 2022/23](https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf); [catálogo Lüsqtoff 2023/24](https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf); [gama actual de compresores](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
-- **Herramientas, ejemplos de consumo:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf); [arenador BTA AA-2040I](https://btatools.com.ar/producto/arenador-portatil-alta-presion).
+- **Herramientas, ejemplos de consumo:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); [arenador BTA AA-2040I](https://btatools.com.ar/producto/arenador-portatil-alta-presion).
 - **Seguridad:** respetar placa, manual y presiones nominales; para instalación eléctrica y mantenimiento, aplicar indicaciones del fabricante y normativa local.
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

@@ -20,7 +20,7 @@ from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_EDITORIAL, HUB_
 from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
-from amoladoras_comerciales import AMOLADORA_CHOICES, render_amoladora_choice, render_contextual_choice
+from amoladoras_comerciales import AMOLADORA_CHOICES, CONTEXTUAL_CHOICES, render_amoladora_choice, render_contextual_choice
 from compresores_comerciales import install_catalog
 from generadores_comerciales import install_catalog as install_generator_catalog
 from hidrolavadoras_comerciales import install_catalog as install_pressure_washer_catalog
@@ -46,7 +46,7 @@ if IS_PRODUCTION and (_site_parts.scheme != "https" or _site_parts.hostname in (
 MARKDOWN = MarkdownIt("commonmark", {"html": True}).enable("table")
 
 # Cargar imagen de logo en Base64 para garantizar carga 100% instantánea sin fallos
-LOGO_SRC = "/assets/logo_cropped.png"
+LOGO_SRC = "/assets/logo_cropped.webp"
 
 AUTHOR_NAME = "Joaquín Vallasciani"
 AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
@@ -857,7 +857,7 @@ ALL_ARTICLES = [
 ]
 PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
 INDEXABLE_PATHS = tuple(dict.fromkeys(
-    ["/", "/como-trabajamos/", "/autor/joaquin-vallasciani/"]
+    ["/", "/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"]
     + [f"/{section}/" for section in PUBLIC_SECTIONS]
     + [article["url"] for article in ALL_ARTICLES]
 ))
@@ -898,7 +898,38 @@ def organization_schema():
 def canonical_tag(path):
     organization = {"@context": "https://schema.org", **organization_schema()}
     schema = '<script type="application/ld+json">' + json.dumps(organization, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
-    return f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema
+    article = next((a for a in ALL_ARTICLES if a["url"] == path), None)
+    section = path.strip("/").split("/")[0]
+    editorial = {
+        "/": ("Comparativas de herramientas para elegir mejor en Argentina", "Guías documentales y comparativas para elegir herramientas en Argentina."),
+        "/como-trabajamos/": ("Cómo trabajamos en TallerLab", "Fuentes, método de comparación, límites de las pruebas y afiliación."),
+        AUTHOR_PATH: (AUTHOR_NAME, "Investigación documental y edición de las guías de TallerLab."),
+        "/contacto/": ("Contacto y correcciones", "Cómo enviar consultas y reportar errores en las guías de TallerLab."),
+        "/privacidad/": ("Privacidad y datos", "Qué datos se registran al visitar TallerLab y usar sus enlaces comerciales."),
+    }
+    title, description = editorial.get(path, (CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
+    if article:
+        title, description = article["h1"], article["description"]
+    image_path = f"/assets/editorial/{section}.webp" if (ASSETS_DIR / "editorial" / f"{section}.webp").is_file() else LOGO_SRC
+    image_url = absolute_url(image_path)
+    tags = {
+        "og:type": "article" if article else "website", "og:locale": "es_AR",
+        "og:site_name": "TallerLab", "og:title": title, "og:description": description,
+        "og:url": absolute_url(path), "og:image": image_url,
+        "og:image:alt": f"Ilustración editorial de {CATEGORY_META[section]['name']}" if section in CATEGORY_META else "TallerLab",
+        "twitter:card": "summary_large_image", "twitter:title": title,
+        "twitter:description": description, "twitter:image": image_url,
+    }
+    social = "".join(f'<meta {"name" if key.startswith("twitter:") else "property"}="{key}" content="{escape(value, quote=True)}">' for key, value in tags.items())
+    breadcrumb = ""
+    if path != "/":
+        items = [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": absolute_url("/")}]
+        category_path = f"/{section}/"
+        if section in CATEGORY_META and path != category_path:
+            items.append({"@type": "ListItem", "position": 2, "name": CATEGORY_META[section]["name"], "item": absolute_url(category_path)})
+        items.append({"@type": "ListItem", "position": len(items) + 1, "name": title, "item": absolute_url(path)})
+        breadcrumb = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    return f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema + social + breadcrumb
 
 def render_sitemap():
     entries = "".join(f"  <url><loc>{escape(absolute_url(path))}</loc></url>\n" for path in INDEXABLE_PATHS)
@@ -911,6 +942,10 @@ AFFILIATE_URLS.update(
     url for article in ALL_ARTICLES
     for url in re.findall(r"https://meli\.la/[A-Za-z0-9]+", article["body"])
 )
+AFFILIATE_URLS.update(item['url'] for path, choice in AMOLADORA_CHOICES.items()
+                      if path in INDEXABLE_PATH_SET for item in choice['items'])
+AFFILIATE_URLS.update(item['url'] for path, item in CONTEXTUAL_CHOICES.items()
+                      if path in INDEXABLE_PATH_SET)
 
 def validate_affiliate_click(data):
     """Valida el evento compartido por el servidor local y la entrada Flask."""
@@ -994,11 +1029,10 @@ HTML_SHELL = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{PAGE_TITLE} · TallerLab</title>
   <meta name="description" content="{PAGE_DESC}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   {CANONICAL_TAG}
-  <!-- Tipografía Plus Jakarta Sans & Caveat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-v1.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/fonts/fonts.css?v=1">
   <style>
     :root {{
       --bg: #0d1117;
@@ -1573,10 +1607,11 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=6">
+  <link rel="stylesheet" href="/assets/site.css?v=7">
   <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
   <header>
     <div class="nav-container">
       <a href="/" class="logo">
@@ -1591,7 +1626,7 @@ HTML_SHELL = """<!DOCTYPE html>
     </div>
   </header>
 
-  <main>
+  <main id="contenido-principal" tabindex="-1">
     {CONTENT}
   </main>
 
@@ -1600,7 +1635,7 @@ HTML_SHELL = """<!DOCTYPE html>
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
-      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a></p>
+      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a></p>
     </div>
   </footer>
 </body>
@@ -1723,6 +1758,16 @@ def render_search_cards():
     return "".join(cards)
 
 def render_editorial_page(kind):
+    if kind in ("contacto", "privacidad"):
+        from paginas_institucionales import CONTACT, PRIVACY
+        path = f"/{kind}/"
+        title = "Contacto y correcciones" if kind == "contacto" else "Privacidad y datos"
+        desc = "Consultas y correcciones de las guías documentales de TallerLab." if kind == "contacto" else "Registros de navegación, clics comerciales y servicios externos de TallerLab."
+        email = os.environ.get("CONTACT_EMAIL", "").strip()
+        email_link = f'<p>Consultas: <a href="mailto:{escape(email, quote=True)}">{escape(email)}</a>.</p>' if kind == "contacto" and re.fullmatch(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+", email) else ""
+        breadcrumbs = f'<nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>{title}</span></nav>'
+        content = f'<article class="markdown-body">{breadcrumbs}<h1>{title}</h1>{email_link}{MARKDOWN.render(CONTACT if kind == "contacto" else PRIVACY)}</article>'
+        return HTML_SHELL.format(PAGE_TITLE=title, PAGE_DESC=desc, CANONICAL_TAG=canonical_tag(path), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
     members_html = ""
     if kind == "metodologia":
         title = "Cómo trabajamos"
@@ -1826,7 +1871,7 @@ def render_home_page():
     tools_section = f'''<section id="herramientas" class="home-section home-tools-section" aria-labelledby="home-tools-title"><div class="home-section-heading"><div><span class="home-kicker">03 / RESOLVÉ TU DUDA</span><h2 id="home-tools-title">Menos suposiciones. Más números.</h2></div><p>Calculadoras y selectores con sus supuestos explicados.</p></div><div class="home-tool-grid">{"".join(tools)}</div></section>''' if tools else ""
     tools_action = '<a class="home-secondary" href="#herramientas">Usar calculadoras ↗</a>' if tools else '<a class="home-secondary" href="#categorias">Explorar categorías ↗</a>'
     content = f'''<div class="home-page">
-      <section class="home-hero" aria-labelledby="home-title"><div class="home-hero-copy"><span class="home-kicker">TALLERLAB / HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Comparativas de herramientas <br><span>para elegir mejor en Argentina</span></h1><p>Compará modelos, entendé qué cambia y calculá lo que necesitás antes de comprar. Guías basadas en fichas y manuales, con opciones para consultar precios.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a>{tools_action}</div><a class="home-method" href="/como-trabajamos/">Fuentes identificadas · Conocé cómo comparamos →</a></div><div class="home-hero-media"><img src="/assets/drill_hero.png" alt="" width="500" height="200" fetchpriority="high"><span>LA COMPRA EMPIEZA POR LA TAREA.</span></div></section>
+      <section class="home-hero" aria-labelledby="home-title"><div class="home-hero-copy"><span class="home-kicker">TALLERLAB / HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Comparativas de herramientas <br><span>para elegir mejor en Argentina</span></h1><p>Compará modelos, entendé qué cambia y calculá lo que necesitás antes de comprar. Guías basadas en fichas y manuales, con opciones para consultar precios.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a>{tools_action}</div><a class="home-method" href="/como-trabajamos/">Fuentes identificadas · Conocé cómo comparamos →</a></div><div class="home-hero-media"><img src="/assets/drill_hero.webp" alt="" width="500" height="200" fetchpriority="high"><span>LA COMPRA EMPIEZA POR LA TAREA.</span></div></section>
       <section class="home-search" aria-labelledby="search-title"><div><h2 id="search-title">¿Ya sabés qué buscar?</h2><p>Una herramienta, una marca o un modelo.</p></div><form id="home-search-form" role="search"><label class="sr-only" for="home-query">Buscar guías de herramientas</label><input id="home-query" type="search" placeholder="Ej.: taladro inalámbrico, Bosch, compresor…" autocomplete="off" maxlength="120" aria-controls="home-search-results"><button type="submit">Buscar <span aria-hidden="true">→</span></button></form><noscript><p>Para buscar activá JavaScript, o explorá las categorías de abajo.</p></noscript></section>
       <section id="home-search-results" class="home-results" aria-labelledby="home-results-title" hidden><div class="home-section-heading"><div><h2 id="home-results-title">Resultados de búsqueda</h2><p id="home-search-status" role="status" aria-live="polite"></p></div><button id="home-search-clear" type="button">Cerrar búsqueda ×</button></div><div id="home-search-grid" class="article-grid"></div><button id="home-search-more" type="button" hidden>Ver más resultados ↓</button></section>
       <section id="categorias" class="home-section" aria-labelledby="home-categories-title"><div class="home-section-heading"><div><span class="home-kicker">01 / EXPLORÁ POR EQUIPO</span><h2 id="home-categories-title">Encontrá tu categoría</h2></div><p>Del trabajo que tenés al equipo que necesitás.</p></div><div class="home-category-grid">{categories}</div></section>
@@ -2054,9 +2099,10 @@ def render_article_page(article, embedded=False):
             if editorial_section:
                 rendered_body = rendered_body[:editorial_section.end(1)] + choice_html + rendered_body[editorial_section.end(1):]
         rendered_body = rendered_body.replace("<!-- EDITORIAL-COMMERCE-SECONDARY -->", render_contextual_choice(article["url"]))
+    rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', '<h2 id="fuentes-consultadas">Fuentes consultadas</h2>')
     if resource:
         source_heading = {"table": "Fichas detrás de la comparación", "selector": "Documentos de este recorrido", "checklist": "Documentos para estas comprobaciones"}.get(resource["kind"], "Fuentes del cálculo y sus límites")
-        rendered_body = rendered_body.replace('<h2>Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
+        rendered_body = rendered_body.replace('<h2 id="fuentes-consultadas">Fuentes consultadas</h2>', f'<h2 id="fuentes-consultadas">{source_heading}</h2>')
         rendered_body = re.sub(r'<strong>(Dato documentado|Análisis TallerLab|Desconocido|Declaración del fabricante)([:.]?)</strong>', r'<strong class="evidence-label">\1\2</strong>', rendered_body)
         body_script += '<script src="/assets/decision-tools.js?v=5" defer></script>'
     sec_meta = CATEGORY_META.get(article["section"], {"name": article["category"], "icon": "📁"})
@@ -2221,6 +2267,9 @@ def article_schema_tag(article):
     }
     if article.get("reviewed"):
         article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
+    image = ASSETS_DIR / "editorial" / f"{article['section']}.webp"
+    if image.is_file():
+        article_schema["image"] = absolute_url(f"/assets/editorial/{article['section']}.webp")
     return '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
 
 def render_not_found(path):
@@ -2343,8 +2392,8 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(render_home_page().encode("utf-8"))
             return
-        if path in ("/como-trabajamos/", "/autor/joaquin-vallasciani/"):
-            kind = "metodologia" if path == "/como-trabajamos/" else "equipo"
+        if path in ("/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"):
+            kind = {"/como-trabajamos/": "metodologia", AUTHOR_PATH: "equipo", "/contacto/": "contacto", "/privacidad/": "privacidad"}[path]
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()

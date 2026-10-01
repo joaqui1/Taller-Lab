@@ -80,6 +80,14 @@ No hay una respuesta única para todos los discos segmentados. El catálogo Bosc
 4. La RPM máxima marcada en el disco debe ser igual o superior a las RPM en vacío de la máquina.
 5. Respetá el sentido de giro indicado en disco y herramienta y usá los elementos de protección que exigen los manuales.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Bosch publica referencias PRO Concrete y EXPERT Multi Material por código, con materiales y dimensiones diferentes para 115 y 230 mm. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** Segmentado describe una geometría, no una autorización universal de material o uso húmedo. La matriz separa perfil, aplicación y montaje; no se extrapolan dimensiones ni régimen de uso entre variantes.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - [Bosch PRO Concrete 115 mm, código 2 608 602 651](https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/)

@@ -28,7 +28,7 @@ class Document(HTMLParser):
 
 def main():
     article_map = {article["url"]: article for article in site.ALL_ARTICLES}
-    assert len(EXTRA_RESOURCES) == 16 and len(USE_RESOURCES) == 20 and len(site.RESOURCES) == 72
+    assert len(EXTRA_RESOURCES) == 16 and len(USE_RESOURCES) == 22 and len(site.RESOURCES) == 74
     assert set(USE_RESOURCES).isdisjoint(EXTRA_RESOURCES)
     assert len({resource["title"] for resource in site.RESOURCES.values()}) == len(site.RESOURCES)
     assert set(EXTRA_RESOURCES) <= set(BUYING_NOTES)
@@ -41,7 +41,12 @@ def main():
         assert len(document.resources) == int(selected), article["url"]
         if selected:
             assert document.source_ids == 1, article["url"]
-        assert len(document.notes) == int(article["url"] in BUYING_NOTES), article["url"]
+        legacy_note = (article['url'] in BUYING_NOTES and article['section'] != 'amoladoras'
+                       and article['url'] not in site.HIDROLAVADORAS_OFFERS
+                       and article['url'] not in site.SIERRAS_OFFERS
+                       and article['url'] not in site.SOLDADORAS_OFFERS
+                       and article['url'] not in site.TALADROS_OFFERS)
+        assert len(document.notes) == int(legacy_note), article["url"]
         for link in document.links:
             href = link.get("href", "")
             host = urlsplit(href).hostname or ""
@@ -50,9 +55,11 @@ def main():
                 assert "sponsored" in link.get("rel", "").split(), href
                 commercial["affiliate"] += 1
             elif host == "mercadolibre.com.ar" or host.endswith(".mercadolibre.com.ar"):
-                assert "sponsored" not in link.get("rel", "").split(), href
+                assert 'noopener' in link.get('rel', '').split(), href
+                if href in site.AFFILIATE_URLS:
+                    assert 'sponsored' in link.get('rel', '').split(), href
                 commercial["general"] += 1
-        if article["url"] in BUYING_NOTES:
+        if legacy_note:
             expected = BUYING_NOTES[article["url"]]
             actions = [link for link in document.links if link.get("data-affiliate-placement") == "editorial-choice"]
             assert [link["href"] for link in actions] == [url for url, _ in expected["urls"]]

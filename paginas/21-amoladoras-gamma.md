@@ -79,6 +79,14 @@ Si estás decidiendo si 115 mm alcanza o te conviene pasar a 125 mm, consultá l
 
 Gamma publica **24 meses de garantía para sus productos** y declara contar con **150 servicios técnicos oficiales**. La cobertura se tramita con comprobante de compra y conforme a los términos de garantía; guardá la factura, verificá que el modelo de la placa coincida con ella y localizá un servicio que atienda herramientas eléctricas antes de comprar.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Gamma citadas distinguen modelos G1922AR, G1923AR, G1910AR, G1910KAR y G1917AR. El fabricante enumera el contenido del kit G1910KAR y publica condiciones de servicio. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** G1910AR y G1910KAR se distinguen por configuración, no por una mejora de potencia. La decisión debe cotejar código y caja; las declaraciones de garantía y red de servicio no prueban inventario ni cobertura de una oferta concreta.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Gama y fichas de producto:** [Gamma G1922AR, 500 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/); [Gamma G1923AR, 710 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/); [Gamma G1910AR, 750 W](https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/); [Gamma G1910KAR, kit de 750 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/); [Gamma G1917AR, 850 W](https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/).

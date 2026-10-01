@@ -62,7 +62,8 @@ def main():
         assert doc.shelves == 0
         assert not any(link.get('href', '').startswith('https://meli.la/') for link in doc.links), path
     # No trasladar AV37-TY a AV000009, ni el 50 L convencional al oil-free.
-    assert not any('AV000009' == s.PRODUCT_FACTS[url]['model'] for url in s.PRODUCT_FACTS)
+    assert s.PRODUCT_FACTS['https://meli.la/2aSkmx1']['model'] == 'AV37-TY'
+    assert s.PRODUCT_FACTS['https://meli.la/2MHTmab']['model'] == 'AV000009'
     assert 'https://meli.la/1nobM6T' not in articles['/compresores/sin-aceite/']['body']
     stanley = s.render_article_page(articles['/compresores/stanley/'])
     assert stanley.index('Disponibilidad local, garantía y servicio') < stanley.index('data-product="https://meli.la/26gU4mL"')

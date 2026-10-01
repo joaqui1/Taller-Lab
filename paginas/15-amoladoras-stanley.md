@@ -88,11 +88,19 @@ Stanley Argentina ofrece un buscador de **centros de servicio** y otro de distri
 
 No llamamos “mejor” a un modelo por su potencia. Elegí por material y tipo de disco, tamaño permitido, alimentación, contenido del paquete y soporte al que realmente podés acceder.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas y manuales Stanley separan STGS7115-AR, STGS8115-AR y STGS9115-AR de las variantes V20 regionales; las fuentes de garantía corresponden al mercado indicado. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La comparación conserva sufijos y mercados para no trasladar tensión, contenido o cobertura de un país a otro. La mayor potencia nominal no demuestra mejor desempeño; el cuerpo V20 solo requiere batería y cargador compatibles adicionales.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Catálogo argentino de herramientas Stanley:** [Esmeriles y Pulidoras](https://ar.stanleytools.global/productos/herramientas-electricas/esmeriles-y-pulidoras).
 - **Fichas argentinas:** [STGS7115-AR](https://ar.stanleytools.global/producto/stgs7115-ar/amoladora-angular-4-12-pulg-115mm-710w), [STGS8115-AR](https://ar.stanleytools.global/producto/stgs8115-ar/amoladora-angular-4-12-pulg-115mm-850w), [STGS9115-AR](https://ar.stanleytools.global/producto/stgs9115-ar/amoladora-angular-4-12-pulg-115mm-900-w), [SGS1045-AR](https://ar.stanleytools.global/producto/sgs1045-ar/amoladora-angular-4-12-pulg-115mm-1050w) y [SG7115-AR](https://ar.stanleytools.global/productos/herramientas-electricas/esmeriles-y-pulidoras).
-- **Manuales del fabricante:** [STGS7115](https://mx.stanleytools.global/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf), [STGS8115](https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf), [STGS9115, versiones regionales](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf), [SG7115/SG6115](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf) y [SCG400 V20](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf).
+- **Manuales del fabricante:** [STGS7115](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf), [STGS8115](https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf), [STGS9115, versiones regionales](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf), [SG7115/SG6115](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf) y [SCG400 V20](https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf).
 - **V20 regionales:** [SCG400-B3, herramienta sola en México](https://mx.stanleytools.global/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20) y [SCG400M2K-B2, kit en Perú](https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20).
 - **Soporte local:** [garantías y atención Stanley Argentina](https://ar.stanleytools.global/soporte) y [centros de servicio](https://ar.stanleytools.global/centros-servicios).
 - **Opiniones de compradores:** no se revisó una muestra verificable.

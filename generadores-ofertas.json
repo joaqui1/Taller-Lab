@@ -448,9 +448,7 @@
     "models": [
       "EU22i",
       "GE3497AR",
-      "EU30is",
-      "KGE/800",
-      "LG950P"
+      "EU30is"
     ],
     "offers": [
       {
@@ -467,16 +465,6 @@
         "model": "EU30is",
         "url": "https://meli.la/2X86187",
         "cta": "Ver precio del Honda EU30is"
-      },
-      {
-        "model": "KGE/800",
-        "url": "https://meli.la/19gLhpz",
-        "cta": "Ver precio del Konan KGE/800"
-      },
-      {
-        "model": "LG950P",
-        "url": "https://meli.la/2oCYsWY",
-        "cta": "Ver precio del Lüsqtoff LG950P"
       }
     ]
   },

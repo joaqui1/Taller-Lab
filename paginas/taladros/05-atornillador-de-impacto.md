@@ -78,7 +78,7 @@ La guía de [atornilladores de impacto DeWalt](/taladros/atornillador-impacto-de
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GDR 18V-200](https://www.bosch-professional.com/es/es/products/gdr-18v-200-06019J2107); [Bosch Argentina GDX 18V-200](https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0); [Bosch GDS 18V-400, catálogo Argentina](https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_5_es_220v_-_ind_metal_-_web.pdf); [manual DeWalt DCF887, modos y control](https://www.dewalt.com/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf); [Bosch PRO Impact, puntas con clasificación de impacto](https://www.bosch-professional.com/mx/es/punta-pro-phillips-impact-3095561-ocs-ac/).
+- **Documentación primaria:** [Bosch GDR 18V-200](https://www.bosch-professional.com/es/es/products/gdr-18v-200-06019J2107); [Bosch Argentina GDX 18V-200](https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0); [Bosch GDS 18V-400, catálogo Argentina](https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_5_es_220v_-_ind_metal_-_web.pdf); [manual DeWalt DCF887, modos y control](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf); [Bosch PRO Impact, puntas con clasificación de impacto](https://www.bosch-professional.com/mx/es/punta-pro-phillips-impact-3095561-ocs-ac/).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).

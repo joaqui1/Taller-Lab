@@ -90,6 +90,14 @@ Antes de decidir, pedí o verificá una foto legible de la placa, tensión, cód
 
 Para elegir primero el accesorio por tarea y material, consultá la [guía general de discos para amoladora](/amoladoras/discos/); si la operación es corte, seguí con la [guía de discos de corte](/amoladoras/disco-de-corte/).
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Bosch GWS 2200-180, Makita GA7010C/GA7020 y DeWalt DWE4557-AR documentan referencias de 180 mm, con características propias por código. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La comparación separa diámetro, potencia, peso y funciones. Ninguno de esos campos aislado acredita rendimiento o profundidad efectiva; la elección depende del disco autorizado, acceso a la pieza y control de la herramienta.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - [Bosch Professional Argentina, GWS 2200-180](https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0).

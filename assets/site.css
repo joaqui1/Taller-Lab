@@ -14,6 +14,9 @@
   --orange-bg: #fff0e5;
 }
 
+.skip-link { position: fixed; top: .5rem; left: .5rem; z-index: 1000; padding: .8rem 1rem; background: #20262a; color: #fff; border-radius: 4px; transform: translateY(-150%); }
+.skip-link:focus { transform: translateY(0); outline: 3px solid #ff5a0a; }
+
 .article-authorship { margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
 .article-authorship p { margin: .5rem 0; line-height: 1.8; }
 .author-guides { padding: 1rem 0; border-bottom: 1px solid var(--border); }
@@ -90,6 +93,8 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .markdown-body th { background: #f0eee9; color: #a53c05; }
 .markdown-body blockquote { background: var(--orange-bg); color: #514338; border-radius: 0 4px 4px 0; }
 .markdown-body code { background: #eeeae3; color: #8d3a0a; }
+.markdown-body pre { max-width: 100%; overflow-x: auto; }
+.markdown-body { overflow-wrap: anywhere; }
 .btn-mercado-libre, a[href*="mercadolibre.com.ar"] { border-radius: 4px; box-shadow: none; }
 .trust-footer { background: #ebe8e1; border: 1px solid #dedbd3; border-left: 4px solid var(--orange); border-radius: 3px; color: #5b6465; margin-top: 2.5rem; }
 .trust-footer strong { color: #293134; }
@@ -135,8 +140,8 @@ footer p[style] { color: #96a2a1 !important; }
 .task-links a span { font-size: .77rem; font-weight: 600; color: #5a6263; }
 .task-links a:hover { background: var(--orange-bg); }
 .offer-filters { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: 1rem; }
-.offer-filters label { display: flex; flex-direction: column; gap: .25rem; color: #465053; font-size: .74rem; font-weight: 800; flex: 1 1 170px; }
-.offer-filters select { appearance: auto; min-height: 44px; padding: .6rem; border: 1px solid #b7bdbb; border-radius: 3px; color: var(--text); background: #fff; font: inherit; }
+.offer-filters label { display: flex; flex-direction: column; gap: .25rem; color: #465053; font-size: .74rem; font-weight: 800; flex: 1 1 170px; min-width: 0; }
+.offer-filters select { appearance: auto; min-height: 44px; width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; padding: .6rem; border: 1px solid #b7bdbb; border-radius: 3px; color: var(--text); background: #fff; font: inherit; }
 .offer-filters select:focus-visible, .compare-select input:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
 .offer-card { min-height: 0; padding: 0; overflow: hidden; }
 .offer-card[hidden] { display: none; }

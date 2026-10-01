@@ -93,7 +93,7 @@ Referencias para identificar perfiles:
 | :--- | :--- |
 | [Parker, tabla de intercambio de acoples neumáticos](https://www.parker.com/content/dam/Parker-com/Divisions-2011/Quick-Coupling-Division/SupportAssets/PneuInterchgChart.pdf) | Matriz para contrastar perfiles de enchufes rápidos |
 | [CEJN, guía de identificación de niples](https://www.cejn.com/guides-support/toolbox/compressed-air-nipple-guide/) | Comparación visual de perfiles y series |
-| [BTA, catálogo 2026/27](https://btatools.com.ar/catalogo/catalogo-bta-2026-27-1.pdf) | Ejemplo local de producto denominado “tipo italiano”, código 279106 |
+| [BTA, catálogo 2026/27](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view) | Ejemplo local de producto denominado “tipo italiano”, código 279106 |
 | [Swagelok, identificación de roscas y conexiones](https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx) | Diferencias entre roscas paralelas/cónicas y cómo medirlas |
 | [Airex, acoples universales](https://www.airex.it/en/catalog/attacchi-rapidi/universal-series-quick-couplings-and-fittings/) | Ejemplo de fabricante que declara compatibilidad multiperfil para una serie universal concreta |
 

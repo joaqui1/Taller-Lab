@@ -108,7 +108,7 @@ En las referencias de esta página, ESAB Argentina no informa el contenido de ve
 ## Fuentes consultadas
 
 - **Fuentes TIG:** [ESAB ET 200i AC/DC, Argentina](https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/); [Lüsqtoff TIG350ACDC-9](https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9).
-- **MIG con spool gun:** [TAURO PCI 3001, fabricante](https://www.tauro.com.ar/page/producto?id=PCI-3001); [Manual TAURO PCI 3001](https://www.tauro.com.ar/themes/tauro/assets/pdf/PCI-3001.pdf); [Miller: elegir fuente y spool gun para aluminio](https://www.millerwelds.com/en-us/resources/knowledge-hub/aluminum-welding/mig/mig-aluminum-diy-selecting-the-right-welder-spool-gun-and-filler-wire).
+- **MIG con spool gun:** TAURO PCI 3001, fabricante (referencia documental histórica; enlace original no disponible al 30/09/2026); Manual TAURO PCI 3001 (referencia documental histórica; enlace original no disponible al 30/09/2026); [Miller: elegir fuente y spool gun para aluminio](https://www.millerwelds.com/en-us/resources/knowledge-hub/aluminum-welding/mig/mig-aluminum-diy-selecting-the-right-welder-spool-gun-and-filler-wire).
 - **Criterio técnico de proceso y aporte:** [ESAB, MIG vs TIG para aluminio](https://esab.com/ee/eur_en/esab-university/articles/mig-vs-tig-for-aluminium-process-selection-guide/); [ESAB, aleaciones de aporte 4043, 5356 y 4047](https://esab.com/lv/eur_en/esab-university/blogs/should-i-use-4043-or-5356-filler-alloy/); [Lincoln Electric, manual de spool gun Magnum 100SG](https://ch-delivery.lincolnelectric.com/api/public/content/9d3e3c30cbe14e449aab15c4ffb3b016?v=b128a11c).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

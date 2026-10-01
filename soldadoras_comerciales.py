@@ -20,7 +20,6 @@ OFFERS = {
     'ESABMIG160': ('ESAB HandyArc MIG 160i', '2V4LNfM', 'MIG/MAG y tubular, además de MMA: confirmá código 0410060, rodillo, bobina y polaridad. Es otro proceso que HandyArc 162i.'),
     'ESABET200': ('ESAB ET 200i AC/DC', '1vSNzRV', 'TIG AC/DC: confirmá código 0738827, torcha, control y sistema de gas incluidos en la oferta.'),
     'GUANTES': ('ESAB Heavy Duty Black', '2HuWpap', 'Verificá modelo, talle y protección declarada para tu proceso; no se presenta como guante TIG de precisión.'),
-    'ESABAUTROD5': ('ESAB/Conarco ER70S-6 / OK Autrod 12.51 · 0,8 mm × 5 kg', '1fzxaCM', 'La publicación declara AWS A5.18 ER70S-6, Ø0,8 mm y bobina de 5 kg. Alambre macizo para MIG con gas: verificá gas indicado, rodillo y tamaño del carrete.'),
     'NI100': ('ESAB 92.18 Ni-100 · 3,2 mm × 1 kg', '1mXhaLW', 'Confirmá identificación OK 92.18 y clasificación ENi-CI en etiqueta/ficha; Ni-100 no equivale a NiFe.'),
     'GASFREE5': ('ESAB Gas Free E71T-GS · 0,8 mm × 5 kg', '2x4GdMW', 'Alambre tubular autoprotegido AWS E71T-GS de 0,8 mm. Confirmá polaridad, compatibilidad del alimentador y medidas del carrete de 5 kg.'),
     'BREMENFLUX': ('Bremen 7992 AWS E71T-GS · 0,8 mm × 1 kg', '1XfEzR2', 'Alambre tubular autoprotegido AWS E71T-GS de 0,8 mm en bobina de 1 kg. Confirmá polaridad y compatibilidad del alimentador de tu soldadora.'),
@@ -37,6 +36,7 @@ OFFERS = {
 }
 
 PENDING = {
+    'ESABAUTROD5': 'Referido retirado: el destino consultado el 30/09/2026 anuncia 1,6 mm × 18 kg, no la presentación 0,8 mm × 5 kg de esta comparación.',
     'ESABWIRE5': 'Falta referido específico ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg para esta ubicación.',
     'ESABFLUX1': 'Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; la referencia disponible es E71T-GS de 0,8 mm × 5 kg.',
 }

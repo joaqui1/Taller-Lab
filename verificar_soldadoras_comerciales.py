@@ -11,6 +11,7 @@ from urllib.request import urlopen
 import servidor_local as s
 from integrar_soldadoras_comerciales import ANALYSIS, MARKER, insertion, normalize_main_links
 from soldadoras_comerciales import OFFERS, PENDING, url
+from normalizar_citas_qa import normalized_citations
 
 
 class Links(HTMLParser):
@@ -32,6 +33,7 @@ def main():
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/soldadoras/' + config['file']]).decode('utf-8')
         original = normalize_main_links(original)
+        original = normalized_citations(original)
         original = MARKER.sub('\n\n', original).replace(ANALYSIS, '')
         # Solo bloques de ofertas y espacio separador pueden cambiar.
         assert re.sub(r'\s+', ' ', MARKER.sub('\n\n', text).replace(ANALYSIS, '')).strip() == re.sub(r'\s+', ' ', original).strip(), ('Contenido alterado', path)

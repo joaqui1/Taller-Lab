@@ -52,7 +52,7 @@ Los rangos siguientes son los publicados para los códigos indicados. Son veloci
 | [Bosch GWS 12-125 S, cód. 0 601 3A6 0H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0)) [Ver precio en Mercado Libre](https://meli.la/1jco51q){:target="_blank" rel="sponsored noopener"} | 220 V | 1200 W | 125 mm | 2800–11.000 rpm | M14 |
 | [Dowen Pagio 9993224.2](/amoladoras/dowen-pagio/) ([ficha Dowen Pagio](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm)) [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target="_blank" rel="sponsored noopener"} | 220 V, 50 Hz | 1250 W | 115/125 mm | 4000–12.000 rpm | M14 |
 | [Total TG109125565-4](/amoladoras/total/), aviso de Mercado Libre | 220 V según publicación | 900 W | 125 mm | 5.000–12.000 rpm según texto del aviso; otros campos muestran 11.000 rpm | M14 |
-| [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) [Ver precio en Mercado Libre](https://meli.la/1KHbTXG){:target="_blank" rel="sponsored noopener"} | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
+| [Hamilton HAA002-A](https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/) | 220–240 V, 50/60 Hz | 1200 W | 125 mm | 4000–12.000 rpm | No informado en la ficha consultada |
 
 
 
@@ -78,6 +78,14 @@ Los cuatro modelos de la tabla muestran tensión indicada para la red argentina.
 - **Hamilton HAA002-A:** 1200 W, disco de 125 mm y rango de 4000–12.000 rpm. La ficha local declara 220–240 V, peso de 2,5 kg y garantía limitada de dos años; cotejá las condiciones vigentes con el fabricante o vendedor.
 
 La elección entre ellas depende del diámetro que necesites, el rango que exija el accesorio, el peso y agarre, las protecciones, el servicio técnico y el costo del conjunto ofrecido. La regulación es una característica, no un criterio suficiente para declarar un modelo “mejor”.
+
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Bosch, Dowen Pagio y Hamilton y las fuentes identificadas de Total publican rangos de velocidad en vacío; la tabla señala los campos discordantes o no informados. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** Un regulador permite seleccionar dentro del rango declarado, pero no mide las RPM bajo carga ni autoriza accesorios incompatibles. No se asigna una velocidad universal por material y debe confirmarse el máximo de la variante Total ofrecida.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
 
 ## Fuentes consultadas
 

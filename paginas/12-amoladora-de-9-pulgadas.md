@@ -81,6 +81,14 @@ El formato tiene accesorios documentados por fabricantes para distintas tareas. 
 
 No alcanza con que el diámetro coincida. Revisá material previsto, tipo y espesor de disco, diámetro del orificio y brida, RPM máximas, sentido de montaje y guarda. La velocidad máxima admisible del accesorio debe ser igual o superior a la velocidad en vacío de la máquina, según las instrucciones de ambos fabricantes. Para las diferencias entre accesorios, seguí con la [guía de discos para amoladora](/amoladoras/discos/); para corte, consultá también [discos de corte](/amoladoras/disco-de-corte/).
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas argentinas citadas identifican Bosch GWS 25-230 y GWS 30-230 PB, Makita GA9020 y Stanley STGL2223-AR; la tabla mantiene desconocidos los campos no publicados. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La diferencia geométrica entre 180 y 230 mm no equivale a la misma diferencia de profundidad de corte. Guarda, cabezal, desgaste y pieza condicionan el alcance; no se deduce capacidad efectiva solo del diámetro.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - [Bosch GWS 25-230, ficha argentina](https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0)

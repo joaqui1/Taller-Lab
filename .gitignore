@@ -7,6 +7,9 @@ __pycache__/
 .taladros-qa-deps/
 .seo-qa-deps/
 .publication-qa-deps/
+.consultor-seo-deps/
+.seo-tools/
+public/assets/
 venv/
 .env
 .env.*

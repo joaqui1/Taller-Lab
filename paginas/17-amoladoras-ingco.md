@@ -79,6 +79,14 @@ No mezcles códigos que parecen próximos. El AG8508 y el SKU argentino AG8508-4
 
 Para compras locales, revisá que la etiqueta diga la tensión admitida y el diámetro máximo de disco, y que el enchufe/fijación coincida con la ficha. Solo la AG200018-4 tiene una garantía cuantificada de 12 meses en la ficha argentina consultada; no generalices ese plazo a otros modelos. La red de [tiendas oficiales INGCO Argentina](https://ingcostore.ar/) publica puntos de venta, atención y servicio. Confirmá con el vendedor el comprobante, la garantía aplicable a ese SKU y disponibilidad de repuestos antes de comprar.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fuentes argentinas y regionales INGCO identifican códigos con cable y P20S; la tabla conserva las diferencias entre máquina sola, kit y referencias anunciadas como próximas. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La decisión compara SKU y configuración completa. Un catálogo regional no confirma stock, garantía ni contenido de caja argentino; las discrepancias entre listados requieren confirmar la oferta concreta.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Argentina / fabricante, importador y canal oficial:** [INGCO Argentina, catálogo de herramientas eléctricas](https://www.ingco.com.ar/herramientas-electricas); [AG200018-4, ficha local](https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html); [AG9608-4, ficha local](https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html); [INGCO Store Argentina, AG7118-4 de 115 mm](https://shop.ingcostore.ar/productos/AG7118-4/); [importador argentino, AG7118-4](https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w/); [representante argentino, AG8508-4/AG8508-14](https://www.ingcoargentina.com/index.php); [AG900285-4, ficha INGCO Argentina](https://ar.ingco.com/ar-en/product/angle-grinder/AG900285-4); [INGCO Store Argentina, AG24008-4 de 230 mm](https://shop.ingcostore.ar/productos/AG24008-4/); [INGCO Store Argentina, CAGLI211156 solo](https://shop.ingcostore.ar/productos/CAGLI211156/); [INGCO Store Argentina, kit CAGLI271532-4](https://shop.ingcostore.ar/productos/CAGLI271532-4/); [tiendas oficiales y red local INGCO](https://ingcostore.ar/).

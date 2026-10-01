@@ -101,6 +101,14 @@ Makita Argentina informa una garantía de **un año desde la compra** y pide con
 - **Contenido del kit:** compará lista de caja, no solamente fotos ilustrativas; preguntá expresamente por batería, cargador, guarda, empuñadura, llave y disco.
 - **Garantía, factura y repuestos:** verificá que el vendedor entregue comprobante y consultá servicio técnico y repuestos oficiales para tu zona.
 
+## Lectura de la evidencia de esta comparación
+
+**Dato documentado:** Las fichas Makita Argentina y Latinoamérica citadas identifican diámetros, códigos e interruptores. La guía registra la discrepancia entre el nombre de variante y el SKU de una página inalámbrica. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+
+**Análisis TallerLab:** La elección parte del código completo y el diámetro. No se trasladan automáticamente datos de GA4530 a GA4534 ni se resuelve una discrepancia de SKU por semejanza de nombres; hace falta confirmar la unidad y su manual.
+
+**Límites:** investigación documental, sin prueba física propia ni muestra verificable de opiniones de compradores. Precio, stock y configuración deben comprobarse en la publicación del vendedor.
+
 ## Fuentes consultadas
 
 - **Documentación primaria local:** [Makita Argentina, GA4534](https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/); [Makita Argentina, 9557HPG](https://makita.com.ar/producto/387-amoladora-makita-115mm-4-1-2-840-w/); [Makita Argentina, DGA467 (página y SKU no coinciden)](https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/); [Makita Argentina, GA5021C de 125 mm](https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/); [Makita Argentina, GA7020 de 180 mm](https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/); [Makita Argentina, GA9020 de 230 mm](https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/); [Makita Argentina, DGA700 18V × 2](https://makita.com.ar/producto/418-amoladora-makita-inalmbrica-180mm-7-18v-x-2/).

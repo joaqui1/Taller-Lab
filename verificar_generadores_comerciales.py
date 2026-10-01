@@ -30,7 +30,8 @@ def main():
         article = articles[path]
         text = article['body']
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/generadores/' + config['file']]).decode('utf-8')
-        for heading in re.findall(r'(?m)^#{1,3} .+$', original):
+        editorial = re.sub(r'<!-- GENERADORES-EXTRAS -->.*?<!-- /GENERADORES-EXTRAS -->', '', original, flags=re.S)
+        for heading in re.findall(r'(?m)^#{1,3} .+$', editorial):
             assert heading in text, (path, heading)
         html = s.render_article_page(article)
         doc = Document(html)

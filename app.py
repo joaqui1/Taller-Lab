@@ -29,7 +29,7 @@ FAVICON = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text 
 @app.route("/assets/<path:filename>", methods=["GET", "HEAD"])
 def asset(filename):
     response = send_from_directory(ASSETS_DIR, filename)
-    response.headers["Cache-Control"] = "no-store" if filename.endswith(".css") else "public, max-age=3600"
+    response.headers["Cache-Control"] = "public, max-age=31536000, immutable" if filename.endswith(".woff2") else "public, max-age=86400"
     return response
 
 
@@ -81,6 +81,8 @@ def page(path):
         html = render_editorial_page("metodologia")
     elif url_path == AUTHOR_PATH:
         html = render_editorial_page("equipo")
+    elif url_path in ("/contacto/", "/privacidad/"):
+        html = render_editorial_page(url_path.strip("/"))
     elif url_path.endswith("/") and url_path in INDEXABLE_PATH_SET and url_path[1:-1] in CATEGORY_META:
         html = render_category_page(url_path[1:-1])
     elif url_path in ARTICLES_BY_URL:
