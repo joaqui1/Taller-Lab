@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 33. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 36. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -34,6 +34,12 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/amoladoras/total/](https://www.tallerlab.com.ar/amoladoras/total/): Lectura completa: tres SKUs -4 de 115, 125 variable y 180 mm, diferenciados de familias extranjeras sin sufijo. El catálogo 2025 es referencia histórica sin enlace disponible; la tensión, máximo de rpm, stock y garantía del lote deben cotejarse. Mantener la discrepancia internacional 11000/12000 sin atribuirla automáticamente al sufijo.
 - [/amoladoras/dowen-pagio/](https://www.tallerlab.com.ar/amoladoras/dowen-pagio/): Lectura completa: tres referencias 900/1050/1250 W y regulación sólo en 9993224.2. Confirmada ficha actual con M14 (5/8–11), 220 V/50 Hz, 4000–12000 rpm y disco 115/125; la ambigüedad de rosca sigue sin resolver. Corregida frase redundante de medida y comparación de costo para que se atribuya al relevamiento fechado, sin prometer el precio actual.
 - [/amoladoras/discos-vidrio/](https://www.tallerlab.com.ar/amoladoras/discos-vidrio/): Lectura completa: dos Tork Craft, Husqvarna para azulejo de vidrio y Lüsqtoff local no habilitan cualquier vidrio o montaje húmedo. Contrastada ficha TCDB80115 (115/22,23 mm/13300 rpm; seco/húmedo condicionado a la máquina). Mantener variantes concretas, procedencia de medidas comerciales DVC115-9 y límites para templado/laminado.
+
+## Tanda compresores-01
+
+- [/compresores/50-litros/](https://www.tallerlab.com.ar/compresores/50-litros/): Lectura completa: conservar tres modelos concretos LC2550B-8, G2802AR y TE-AC 270/50 Silent. No sumar un 100 L a la comparación de 50 L. La tabla distingue flujo/desplazamiento de salida a presión y mantiene la discrepancia Gamma 2/2,5 HP. Contrastada ficha Einhell: 135 L/min a 4 bar, 98 a 7 bar, 1650 W S3 50%, 50 L y 34,45 kg. No convertir el requisito de tanque de una llave de impacto en compatibilidad de cualquier compresor.
+- [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/): Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.
+- [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/): Lectura completa: conservar tres escalones Einhell de 24/50/90 L con salida documentada; las variantes BTA permanecen enlazadas en tabla con admisión y FAD desconocido, sin presentarlas como combinaciones validadas. Corregida tarjeta TE-AC 430/90/10 de 155 a 200 L/min a 7 bar: ficha oficial confirma 210 a 4 bar, 200 a 7 bar, 3000 W S1 y tanque 90 L. No se interpolan caudales ni se validan pistolas a otra presión. Corregidos consumo aproximado AS-1021 y longitud de descripción. Pendiente contraste completo del catálogo BTA y de las pistolas.
 
 ## Tanda consumibles-01
 
@@ -86,7 +92,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/amoladoras/dowen-pagio/](https://www.tallerlab.com.ar/amoladoras/dowen-pagio/) | Sin fallas detectadas | revisión editorial registrada |
 | [/amoladoras/discos-vidrio/](https://www.tallerlab.com.ar/amoladoras/discos-vidrio/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/para-auto/](https://www.tallerlab.com.ar/compresores/para-auto/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/50-litros/](https://www.tallerlab.com.ar/compresores/50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/50-litros/](https://www.tallerlab.com.ar/compresores/50-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/manguera/](https://www.tallerlab.com.ar/compresores/manguera/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/kits-aerografo/](https://www.tallerlab.com.ar/compresores/kits-aerografo/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/pistola-para-pintar/](https://www.tallerlab.com.ar/compresores/pistola-para-pintar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -95,7 +101,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/kits-accesorios/](https://www.tallerlab.com.ar/compresores/kits-accesorios/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -105,7 +111,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/inalambricos/](https://www.tallerlab.com.ar/compresores/inalambricos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/stanley/](https://www.tallerlab.com.ar/compresores/stanley/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/inflador-neumaticos-portatil/](https://www.tallerlab.com.ar/compresores/inflador-neumaticos-portatil/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/12v-doble-piston/](https://www.tallerlab.com.ar/compresores/12v-doble-piston/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/generadores/comparativa-general/](https://www.tallerlab.com.ar/generadores/comparativa-general/) | Sin fallas detectadas | pendiente de revisión editorial actual |

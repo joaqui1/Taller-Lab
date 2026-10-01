@@ -294,5 +294,29 @@
     "scope": "lectura completa; elección por material y control; revisión de fuentes",
     "notes": "Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.",
     "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
+  },
+  "/compresores/50-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-01",
+    "body_sha256": "c1f412d85faf3bb1012089dda2d8dc0e5fc488ff5516a53bb856bcfd3b5a23cb",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura completa: conservar tres modelos concretos LC2550B-8, G2802AR y TE-AC 270/50 Silent. No sumar un 100 L a la comparación de 50 L. La tabla distingue flujo/desplazamiento de salida a presión y mantiene la discrepancia Gamma 2/2,5 HP. Contrastada ficha Einhell: 135 L/min a 4 bar, 98 a 7 bar, 1650 W S3 50%, 50 L y 34,45 kg. No convertir el requisito de tanque de una llave de impacto en compatibilidad de cualquier compresor.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/100-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-01",
+    "body_sha256": "ea9b8fdffc0560342ec3bbceccd2d232d30f8863454265df37d4566f6ea90661",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/para-pintar/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-01",
+    "body_sha256": "00024da84fbbf08625fed4f0a949e367924c2c0850b07cef47defa306ff46978",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura completa: conservar tres escalones Einhell de 24/50/90 L con salida documentada; las variantes BTA permanecen enlazadas en tabla con admisión y FAD desconocido, sin presentarlas como combinaciones validadas. Corregida tarjeta TE-AC 430/90/10 de 155 a 200 L/min a 7 bar: ficha oficial confirma 210 a 4 bar, 200 a 7 bar, 3000 W S1 y tanque 90 L. No se interpolan caudales ni se validan pistolas a otra presión. Corregidos consumo aproximado AS-1021 y longitud de descripción. Pendiente contraste completo del catálogo BTA y de las pistolas.",
+    "full_claim_verification": "pendiente"
   }
 }

@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-01T21:03:01.841536+00:00",
+  "checked": "2026-10-01T21:21:32.704993+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1094,8 +1094,15 @@
       ],
       "tables": 4,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-01",
+        "body_sha256": "c1f412d85faf3bb1012089dda2d8dc0e5fc488ff5516a53bb856bcfd3b5a23cb",
+        "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+        "notes": "Lectura completa: conservar tres modelos concretos LC2550B-8, G2802AR y TE-AC 270/50 Silent. No sumar un 100 L a la comparación de 50 L. La tabla distingue flujo/desplazamiento de salida a presión y mantiene la discrepancia Gamma 2/2,5 HP. Contrastada ficha Einhell: 135 L/min a 4 bar, 98 a 7 bar, 1650 W S3 50%, 50 L y 34,45 kg. No convertir el requisito de tanque de una llave de impacto en compatibilidad de cualquier compresor.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/manguera/",
@@ -1270,8 +1277,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-01",
+        "body_sha256": "ea9b8fdffc0560342ec3bbceccd2d232d30f8863454265df37d4566f6ea90661",
+        "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+        "notes": "Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/gamma-50-litros/",
@@ -1451,7 +1465,7 @@
     {
       "path": "/compresores/para-pintar/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\21-compresor-para-pintar.md",
-      "body_sha256": "c9ceda8b294f33fee571dfe151ce4059cd37ec0d89b3c0a82e842e39e12b9eab",
+      "body_sha256": "00024da84fbbf08625fed4f0a949e367924c2c0850b07cef47defa306ff46978",
       "title": "Qué compresor elegir para pintar",
       "issues": [],
       "sources": [
@@ -1470,8 +1484,15 @@
       ],
       "tables": 5,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-01",
+        "body_sha256": "00024da84fbbf08625fed4f0a949e367924c2c0850b07cef47defa306ff46978",
+        "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+        "notes": "Lectura completa: conservar tres escalones Einhell de 24/50/90 L con salida documentada; las variantes BTA permanecen enlazadas en tabla con admisión y FAD desconocido, sin presentarlas como combinaciones validadas. Corregida tarjeta TE-AC 430/90/10 de 155 a 200 L/min a 7 bar: ficha oficial confirma 210 a 4 bar, 200 a 7 bar, 3000 W S1 y tanque 90 L. No se interpolan caudales ni se validan pistolas a otra presión. Corregidos consumo aproximado AS-1021 y longitud de descripción. Pendiente contraste completo del catálogo BTA y de las pistolas.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/inflador-neumaticos-portatil/",

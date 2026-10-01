@@ -1168,8 +1168,8 @@
   {
     "path": "/compresores/100-litros/",
     "title": "Qué compresor de 100 litros elegir para tu taller",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para dimensionar un compresor de 100 L según las herramientas, transmisión, caudal publicado, alimentación y mantenimiento del taller.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.",
     "tables": [
       {
         "heading": "Qué compresor de 100 L conviene según el uso del taller",

@@ -2,7 +2,7 @@
 title: "Compresor para pintar: cómo elegirlo según la pistola y el trabajo"
 h1: "Qué compresor elegir para pintar"
 url: "/compresores/para-pintar/"
-description: "Guía para cruzar consumo y presión de la pistola con caudal entregado, tanque y ciclo del compresor; incluye ejemplos documentados para retoques, muebles, rejas, paredes y autos."
+description: "Elegí un compresor para pintar por consumo y presión de la pistola, caudal entregado y ciclo: ejemplos para retoques, muebles, rejas, paredes y autos."
 author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor para pintar", "que compresor comprar para pintar", "compresor para pintar autos", "compresor para pistola pintar caudal"]
@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de dimensionamiento que cruza el consumo y la presión publicados por pistolas reales con el caudal de salida publicado por compresores, y señala los casos que requieren validación adicional."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -30,7 +30,7 @@ published: true
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 28/09/2026
+- Última revisión: 01/10/2026
 
 Para elegir un compresor para pintar, empezá por la pistola y el material: buscá en la ficha de la pistola su consumo de aire y su presión de trabajo. Después compará esos valores con el **caudal entregado por el compresor a una presión equivalente** y con el ciclo de trabajo permitido. La capacidad del tanque ayuda a cubrir picos y pausas; no reemplaza el caudal que la bomba puede reponer mientras pintás.
 
@@ -80,7 +80,7 @@ Los litros describen la capacidad del tanque, no el caudal sostenido. Hay modelo
 | Compresor documentado | Tanque y configuración | Caudal de salida publicado | Lectura para pintura |
 | :--- | :--- | :--- | :--- |
 | Einhell TC-AC 190/24/8 I OF | 24 L; sin aceite; 1.100 W; S3 50% | 75 L/min a 4 bar; 55 L/min a 7 bar | Su salida publicada queda apenas por encima de los 68 L/min declarados para la BTA de retoque, pero el punto está a 4 bar, el extremo alto de la presión recomendada. No acredita margen después de filtro, regulador, acoples y manguera ni uso continuo. [Ficha Einhell](https://www.einhell.com.ar/p/4007375-tc-ac-190-24-8-i-of/) |
-| Einhell TE-AC 270/50 Silent | 50 L; sin aceite; 1.650 W; S3 50% | 135 L/min a 4 bar; 98 L/min a 7 bar | A 4 bar supera el mínimo publicado de la BTA AS-1021 (85 L/min), pero falta cruzar a la presión efectiva de esa pistola y comprobar ciclo y pérdidas. A 4 bar no alcanza los 201 L/min del extremo superior de ASP1070. [Ficha Einhell](https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/) |
+| Einhell TE-AC 270/50 Silent | 50 L; sin aceite; 1.650 W; S3 50% | 135 L/min a 4 bar; 98 L/min a 7 bar | A 4 bar supera los aproximadamente 85 L/min publicados para BTA AS-1021, pero falta cruzar a la presión efectiva de esa pistola y comprobar ciclo y pérdidas. A 4 bar no alcanza los 201 L/min del extremo superior de ASP1070. [Ficha Einhell](https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/) |
 | Einhell TE-AC 430/90/10 | 90 L; accionamiento por correa; lubricado | 210 L/min a 4 bar; 200 L/min a 7 bar | Puede entrar en una preselección para una pistola con consumo publicado de hasta 201 L/min, pero los valores publicados no coinciden exactamente con la presión recomendada de ASP1070. Pedí dato a 2–3,5 bar y confirmá el ciclo; no es garantía de pintar un auto completo. [Ficha Einhell](https://www.einhell.com.ar/p/4010800-te-ac-430-90-10/) |
 | BTA 272057.1 de 25 L / 272057.2 de 50 L | Mando directo; 2 HP; 220 V; 8 bar máximos | 206 L/min de admisión; FAD no publicado en las fichas consultadas | No se puede confirmar compatibilidad comparando ese dato con los L/min de una pistola. En el 50 L, el tanque más grande aporta reserva respecto del 25 L, pero la admisión publicada sigue siendo 206 L/min. [Ficha BTA 25 L](https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp) · [Ficha BTA 50 L](https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp) |
 | BTA 272058.3 / 273020.3 / 272063.3 | 100 L; 2 HP, 3 HP y 3 HP bicilíndrico; 220 V | 206 / 320 / 390 L/min de admisión, respectivamente | Son variantes concretas de 100 L, pero esas fichas publican admisión, no FAD a presión de pintura. La cifra mayor de admisión no confirma cuánto aire útil entregan. [2 HP](https://btatools.com.ar/producto/compresor-de-aire-100-litros-2-0-hp) · [3 HP](https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp) · [3 HP bicilíndrico](https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp-bicilindrico) |
