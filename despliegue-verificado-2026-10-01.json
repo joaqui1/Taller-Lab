@@ -1,0 +1,3595 @@
+{
+  "routes": 190,
+  "sitemap": 190,
+  "failures": [],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Comparativas y calculadoras de herramientas en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo trabajamos · TallerLab"
+      ]
+    },
+    {
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Joaquín Vallasciani — Editor e investigador de TallerLab · TallerLab"
+      ]
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Contacto y correcciones · TallerLab"
+      ]
+    },
+    {
+      "path": "/privacidad/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Privacidad y datos · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo elegir una amoladora: tipos, medidas y marcas · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras: guías, marcas y comparativas"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadura electrónica · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladros y atornilladores · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierras: tipos y cómo elegir según el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco flap: para qué sirve y qué grano elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Discos para amoladora: tipos, usos y compatibilidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras DeWalt: modelos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco de desbaste: cómo elegirlo para metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora recta: eléctrica o neumática, cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de banco: cómo elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Makita: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras inalámbricas: cómo elegir batería y modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para cortar cerámica: cómo elegirlo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Bosch: modelos y diferencias para elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Lusqtoff: modelos y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora Skil de 830 W: qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco diamantado segmentado: usos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Stanley: cómo elegir el modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco de corte para amoladora: cuál elegir según el material · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Ingco: modelos con cable y a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de velocidad variable: cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 7 pulgadas: cómo elegir una de 180 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 115 o 125 mm: diferencias y elección · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Gamma: modelos y qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Total: modelos de 115, 125 y 180 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Dowen Pagio: 9993220.7, 9993220.9 y 9993224.2 · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para cortar vidrio: tipos, compatibilidad y límites · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de aire para auto: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de 50 litros: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Manguera para compresor de aire: medidas y materiales · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Aerógrafo con compresor: qué kit comprar para empezar · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Pistola para pintar con compresor: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Acople rápido para compresor: perfiles, roscas y medidas · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor para aerógrafo: cómo elegir el adecuado · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Aceite para compresor de aire: cuál lleva y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Lusqtoff de 50 litros: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Filtro de aire para compresor: cómo elegir el repuesto · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué compresor de 100 litros elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Gamma de 50 litros: guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué kit de accesorios comprar para un compresor · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Lusqtoff de 100 litros: prestaciones y usos · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores sin aceite: cuándo convienen · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores de 200 litros: guía de compra para taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor BTA de 25 litros: para quién conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de 24 litros: para qué sirve y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo elegir un compresor inalámbrico a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores Stanley: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor para pintar: cómo elegirlo según la pistola y el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Inflador de neumáticos portátil: cómo elegirlo para auto, moto o bicicleta · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor 12 V doble pistón: qué revisar antes de elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupos electrógenos: cómo elegir y comparar modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/precios/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupo electrógeno: precios por potencia y cómo comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/honda/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupos electrógenos Honda: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupo electrógeno Honda 6500: potencia y precio · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador eléctrico para casa: qué potencia necesitás · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador inverter: cómo funciona y cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador trifásico: cómo dimensionarlo y elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador a nafta: consumo, autonomía y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Hyundai: modelos, potencia y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 6500 usado: versiones, potencia y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Lüsqtoff: cuál elegir según potencia y tecnología · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Gamma: modelos vigentes, usos y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador monofásico: cómo elegir por potencia y uso · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador diésel: cuándo conviene, consumo y mantenimiento · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores portátiles: cómo elegir para camping, viaje o trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador silencioso: modelos y cómo comparar el ruido · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador Gamma 950: qué puede alimentar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Niwa: modelos, diferencias y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores a gas: GN, GLP, equipos duales y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Estación de energía portátil: cómo elegir y estimar autonomía · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores chicos: Pektra GPK980 frente a Konan KGE/800 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras: cuál comprar según uso y presupuesto · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora inalámbrica: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Lusqtoff: modelos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Gamma: comparativa de modelos y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Stihl: modelos, diferencias y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Bosch: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Black+Decker: cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K2: versiones, prestaciones y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K5: prestaciones y cuándo conviene comprarla · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 150: características, uso y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora profesional: cómo elegir para trabajar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K3: versiones y diferencias con K2 y K4 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Einhell: modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 130: prestaciones y diferencias con Gamma 150 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Hyundai: modelos y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff HL 120: prestaciones y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K4: versiones y diferencias con K3 y K5 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras de 150 bar: comparativa y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras de 200 bar: cuándo convienen · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Niwa: modelos, opiniones y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras para autos: equipos y combos para elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora para aire acondicionado: qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular: cuál elegir según trabajo y capacidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva: qué es y cuál comprar para cortar metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sable: para qué sirve y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra caladora: cómo elegir y qué modelos comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin para madera: cómo elegir la adecuada · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco: cuál elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin para metal: tipos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora Einhell: modelos y cuál conviene elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco Einhell: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Skil: modelos, diferencias y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Guía para sierra circular: tipos y compatibilidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva DeWalt: comparación de modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora DeWalt: modelos regionales y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora Total: modelos y qué revisar al comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para sierra circular: cuál usar para cada corte · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Bosch GKS 150: características y cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular Black+Decker: qué modelo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Einhell: modelos con cable y a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué sierra sable inalámbrica comprar: guía y comparación · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular Lusqtoff: modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadoras: cómo elegir entre fija y telescópica · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra caladora Bosch: comparativa de modelos en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "DeWalt DWE560: ficha y guía de compra en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Stanley SC16: ficha y qué comprobar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Black+Decker BES603: capacidad y usos · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco Lusqtoff: SML2000-8 y otras variantes · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva Lusqtoff: CM-14K y qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin Lusqtoff: modelos compactos y de taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva Total: cómo elegir y comprobar el modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular inalámbrica: cómo elegir según el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo 7018: usos, amperaje y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras Lusqtoff: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora de punto: tipos, usos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG con gas: guía para elegir y comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Guantes para soldar: cuáles elegir para MIG y TIG · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora TIG: qué es y qué equipo conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG sin gas: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Alambre para soldadura MIG: tipos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Máscara de soldar fotosensible: criterios y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo 6013: para qué sirve y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora inverter 200 A: modelos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo para fundición: tipos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Alambre flux: tipos, medidas y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora Dogo 180: características y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras ESAB: modelos, diferencias y qué elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo para acero inoxidable: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora para aluminio: TIG o MIG, cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff Iron 250: características y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora TIG AC/DC: funciones y qué modelo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora inverter 160 A: comparativa y qué elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff Iron 100: ficha del kit con máscara y escuadras · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG Lusqtoff: modelos Flux y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML150-8: diferencias, kit y qué comprobar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML120-8D: ficha de la MIG Flux dual · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Carro para soldadora MIG: medidas, tubo y capacidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "ESAB HandyArc 162i: corriente, ciclo de trabajo y compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Máscara Lusqtoff ST-1X: qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML130-7: modelo, alambre y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kit soldador de estaño: qué debe incluir y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Estación de soldadura electrónica: cautín o aire caliente · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gadnic 878D: estación de cautín y aire caliente · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Yihua 898D: estación de aire caliente y cautín · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soporte para soldar con lupa: pinzas, base y luz · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico: cuál comprar en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo: cuál elegir para concreto y obra · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro percutor: cuál comprar y cómo elegirlo · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro de banco: guía para elegir y comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador de impacto: cuál elegir y para qué sirve · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo Bosch: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro percutor inalámbrico: modelos y comparativa · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador para Durlock: cuál comprar y por qué · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Black+Decker: qué modelo conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo Einhell: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo DeWalt: cuál elegir para tu trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Einhell: cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico DeWalt: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha para porcelanato: cuál elegir y cómo usarla · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Milwaukee: M12, M18 y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Lusqtoff: cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Brocas para cerámica: cuáles usar y cómo perforar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Stanley: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador de impacto DeWalt: cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha escalonada: cuál comprar para chapa y metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha Forstner 35 mm: cuál usar para bisagras cazoleta · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Combo taladro y amoladora: kits con cable y a batería · TallerLab"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/commerce.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/decision-tools.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/drill_hero.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/editorial/amoladoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/compresores.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/generadores.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/hidrolavadoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/sierras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/soldadoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/soldadura-electronica.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/taladros.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/fonts.css",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/jetbrains-mono-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/jetbrains-mono-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/fonts/jetbrainsmono-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/plus-jakarta-sans-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/plus-jakarta-sans-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/fonts/plusjakartasans-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/home.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/logo_cropped.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/compresores-675f2a6860.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/generadores-fc8463dffc.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/mechas-b087a170ea.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/neumaticos-f7c9ddfa76.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/sierras-b6913ab51d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/soldadoras-9d555a6f51.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/portadas/taladros-a33087af2e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/blackdeckerbcd702c1ar-c1e6002218.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/blackdeckerbepw1520ar-a9c4d061b8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/blackdeckerbepw2200ar-8d6312d6f1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/blackdeckerbld783d1-f4849eb027.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/bluettiac70p-704e68e23b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgbh180li-d74dd9e226.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgbh226dre-1137970a00.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschghp180-2c785d8b82.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschghp200-aa8e38eb49.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgks150-9003def49f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgks185li-3a58a6d0f1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgsb18v50-abde91bb81.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgsb550re-501dd8929c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgst185li-386101f0ac.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgst650-15aadfa845.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgst680-eb63575d4d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/boschgtb650-02c8496d60.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgws30230pb-fc54309c9e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgws770-537a72f385.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschgws850-ac6f1144fb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/bta279013-480bb0ef6b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btaas1021-adc05c8711.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/btaasp1070-2639a99c3b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btaaspm1070-6db4e437cd.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btacsa241-bd01728064.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btacsa502-027af31d2a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btadca1256-a19ab14272.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/btadca2506-effbf316e1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/btatools646003-e51900b70b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-127ZaQu-6b52071b44.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/completada-1RwSNLU-8c76cd41f8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-1XfEzR2-716c8bf8f8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/completada-1rjCMVL-f0ebe4a19c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2SuGMdL-76ec1dec11.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2XwX5wy-bb873f231f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/completada-2ZwgGLw-8d31e0bbb1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/completada-2z7Capd-4dc39f08b2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltd28730-1c9badec77.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdcd796d2-fce7e90882.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdcd805bsinbateria-b337c27dfd.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdcf620b-2c2c044d61.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdcf850b-d32fe38f7f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdcs380b-f83dd7a811.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdcs570b-ca110cc9a5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdw47452l-15df5c7cdd.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdwe4212ar-1f65e5bb06.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdwe4557ar-88c026a990.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltdws780-f9ed62e42e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/diablod0760xultrafinish714in60dientes-ef53168cbf.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dogodogostarstar160dog50044-b8930b98e7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dowenpagio99932207-23d3964a5e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dylludtgeab084-8cb9584942.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/ecoflowdelta2max-7013906c82.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhellhypresso18241li4140135-2dc8f27e6d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhellpressito1821-b9f80ee124.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhellpressito1825-1952c2d4c2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltchp1304140750-40e628d48f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcjs18lisolo-125ba5bc2f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhelltcjs85-94a2df091c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltcts2225u-e146160aca.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhellteac27050silent-3be5fe51bb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhelltecd1840lisolo-b7e735daa5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltehp1404140760-677876f277.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhelltejs100-8a8ffb952d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhellterh2815f-c9dfe0bc08.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhelltpcd1850liblsolosufijoaconfirmar-dc0ca9f7a5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/einhelltpcs18190liblsolo-5812794fbc.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/elegi125mm-59293db74a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gadnicav000009-ed85ac108e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gadnicav37ty-5c6437797c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammag1917ar-5fbe846b3b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammag2858ar-7b40cd31f8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/gammag2860ar-807a31316c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammage3480ar-92a1479fb7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammage3482ar-de20080edd.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/gammage3491artf10000-c3b01a1dab.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammage3497ar-8065289e35.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/gammapremiumwash3000g2520ar-a286a03f05.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/hamiltonds115-016d58cc2f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/hondaeg6500cxs-ab1e8def5c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/hondaet12000-adeea7de08.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/hondaeu30is-4c8cd7b0af.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/hondaez3000cx-cf6e9572f1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/hondaez6500cxs-9d25a23812.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/hyundaihy7500le-0c27e4300d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/ingcocagli2715324-e352f44986.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/jdextreme107-f5b93022f7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/karcherk2carblack19940520-f5459f1eed.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/karcherk3blackedition93983550-6bd5c64f82.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/karcherk4powercontrol16034020-f8f5455736.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/karcherk5powercontrol16035010-cc6cb22cc7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/kitboschprofessional18v1600a015td-884a061c25.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/kitdewalt20vmaxpowerstackdcbp034c-136ae25cdb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/konankge800-2cf298b748.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/logusghl150-79fb8d72a1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/logushl105-678a25cb07.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffaa5000k-3d25dcd60a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffab375-c0df1812e7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffaml10108-0c788cd8d8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffaml1159bk-8e9bdd13d3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffaml8508-79bb71a188.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffhl1007-7521d3a50c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffhl150-08a87f1a6b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflapl368bk-7bcc8c6725.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc2550bk8-e67abf0182.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflc3550bk-0008247cd1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflg3000-4ce50bc801.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflg7500ext-b15e57b4a2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflgi558-c3357cf9a5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflgi809-aa09c4c76f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofflgis388-5e02458b07.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofflqdflap80-6f56253f77.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffmegairon1008-9c0c5a14a7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffmigdual2009-7f83d77503.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffprotig1808-1b06cfdb6b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffscl22008-2c5868374e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsfl11009-978abd6ba3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsmarttigacdc20-a162867912.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtoffsml2000b9-dd713c36c7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffst1b-6cf5df1eeb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffst1e-0ef3586769.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtoffst1n-8da3055de5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofftal609b-89134f3c4a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofftbl167-56f428bd34.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofftbl7109d-b1b12b6f7a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofftig350acdc9blackseries-f38a438251.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/lusqtofftil238b-366900275b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/lusqtofftil451318bk-10b3f4a88c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/makitadmp180z-2ac6d756df.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/makitaga4534-235dbd4cb8.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/makitaga9020-f1228627b2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/makitagd0600-28ffb034a0.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/milwaukeem18fuel2904259a-3f975f85fc.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/nictomie01-06ac504f73.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/niwagnw55e-de4b1fab06.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/niwagnw70er-70ebc80546.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/niwahdnw3001040300-4945537d99.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/niwahdnw5001040550-6f727778b5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/niwahdnw7001040700-83ad50b7c0.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1AYv6rw-dd35e91252.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-1EF3Gcn-4e5991a479.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-1Jfy2tP-47502ffe97.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-1W8ddJX-a16c05e200.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-1XvFwQP-d938d32818.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-1xjT5i9-539c394967.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-26R9o7z-eeef90ef2a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-2Ut4FSd-af35a221c9.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-2fBaR3k-b8ab4ac7ba.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/oferta-2r7eRux-cdfd0565e7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-2sTx6pa-706b6b204d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/oferta-lastrade-308l-e25ec4637c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/omahaab550161k-6145d317f3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/pektragpk2200-0cf969159c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/pektragpk980-efb918d4a7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/philcogeph2500alp-96ff4fcf70.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-1khPuL9-64ab01263e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-1uvMFdz-8d48296a28.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/revision-1x65DAe-0365b0ad8f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-1zzNj8Z-4102eaab55.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2W1Y9Zs-a8120324de.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/ronixrh3534-150decdc06.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/rubieasygres6mmcortehumedo-418ba30f97.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/shimurasha5506-c3a3038322.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/skil4380-262e48e9e6.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/skil4550-fce1cd0067.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/stanleysbd715c2k-cdcf5ccbdb.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/stanleysc16-83cc2adbdc.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stanleystgs9115ar-c34cbfcc11.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stihlre80x-569c6db0f3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/totalts2235584-ba61612a34.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/totalts42142107-4fb8c64816.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/wipcoolc30s-f315e9227a.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/site.css?v=9",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "HIT"
+    }
+  ]
+}

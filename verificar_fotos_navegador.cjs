@@ -8,7 +8,7 @@ const fs=require('fs');
   await page.setViewportSize({width,height:900});
   for(const path of paths){
    const errors=[];const listener=e=>errors.push(e.message);page.on('pageerror',listener);
-   const response=await page.goto('http://127.0.0.1:5058'+path,{waitUntil:'load'});
+   const response=await page.goto((process.env.QA_BASE_URL||'http://127.0.0.1:5058')+path,{waitUntil:'load'});
    const result=await page.evaluate(async()=>{
     const photos=[...document.querySelectorAll('img[src*="/assets/productos/"],img[src*="/assets/portadas/"]')];
     await Promise.all(photos.map(async i=>{i.loading='eager';if(!i.complete)await new Promise(resolve=>{i.addEventListener('load',resolve,{once:true});i.addEventListener('error',resolve,{once:true});});await i.decode().catch(()=>{i.dataset.decodeError='true';});}));
@@ -20,6 +20,6 @@ const fs=require('fs');
   }
   console.log(JSON.stringify({width,pages:paths.length,failures:failures.filter(r=>r.width===width).length}));
  }
- fs.writeFileSync('qa-fotos-navegador.json',JSON.stringify({pages:paths.length,viewports:[320,390,1440],results,failures},null,2));
+ fs.writeFileSync(process.env.QA_REPORT||'qa-fotos-navegador.json',JSON.stringify({pages:paths.length,viewports:[320,390,1440],results,failures},null,2));
  await browser.close();if(failures.length){console.log(JSON.stringify(failures.slice(0,8)));process.exitCode=1;}
 })().catch(e=>{console.error(e);process.exitCode=1;});

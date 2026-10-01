@@ -1,0 +1,5711 @@
+{
+  "pages": 190,
+  "viewports": [
+    320,
+    390,
+    1440
+  ],
+  "results": [
+    {
+      "width": 320,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/contacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/privacidad/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 22,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 27,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 16,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/precios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/honda/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/contacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/privacidad/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 22,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 27,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 16,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/precios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/honda/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/contacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/privacidad/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 22,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 27,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 10,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 16,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/precios/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/honda/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "fallbacks": 0
+    }
+  ],
+  "failures": []
+}
