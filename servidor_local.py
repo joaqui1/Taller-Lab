@@ -346,6 +346,8 @@ SOLDADORAS_OFFERS = json.loads((ROOT_DIR / 'soldadoras-ofertas.json').read_text(
 install_welder_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, SOLDADORAS_OFFERS)
 TALADROS_OFFERS = json.loads((ROOT_DIR / 'taladros-ofertas.json').read_text(encoding='utf-8'))
 install_drill_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, TALADROS_OFFERS)
+from fotos_productos import apply_photos, photo_for, render_photo, add_photos_to_cards
+apply_photos(PRODUCT_FACTS)
 # Las cards de estas guías se insertan en su marcador editorial, sin repetirlas al pie.
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in COMPRESORES_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in GENERADORES_OFFERS})
@@ -417,6 +419,9 @@ def render_50l_models():
     ]
     cards = ""
     for brand, model, use, specs, includes, source, image, image_source in models:
+        local_photo = photo_for(brand=brand, model=model)
+        if local_photo:
+            image, image_source = local_photo['image'], local_photo['source']
         photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'/assets/editorial/compresores.webp\';this.alt=\'Imagen ilustrativa de compresor\';this.parentElement.classList.add(\'fallback-photo\')">' if image else '<div class="illustrative-product"><img src="/assets/editorial/compresores.webp" alt="Imagen ilustrativa de compresor" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo</span></div>'
         photo_source = f'<a class="offer-source" href="{escape(image_source, quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if image_source else ''
         search_url = 'https://listado.mercadolibre.com.ar/' + urllib.parse.quote(f'compresor {brand} {model}', safe='')
@@ -979,7 +984,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
         if facts and facts.get("illustrative"):
             media = f'<div class="illustrative-product"><img src="{escape(facts["image"], quote=True)}" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
         elif facts and facts.get("image"):
-            media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'/assets/editorial/{category}.webp\';this.alt=\'Imagen ilustrativa de {category}\';this.parentElement.classList.add(\'fallback-photo\')">'
+            media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'/assets/editorial/{category}.webp\';this.alt=\'Imagen ilustrativa de {category}\';this.parentElement.classList.add(\'fallback-photo\')">'
         else:
             media = f'<div class="illustrative-product"><img src="/assets/editorial/{category}.webp" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
         source = ((f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts.get("evidence_label") else '') + f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
@@ -1607,7 +1612,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=8">
+  <link rel="stylesheet" href="/assets/site.css?v=9">
   <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>
@@ -1713,14 +1718,21 @@ def render_thumb_svg(section_id, badge_label="GUÍA", reading_time="5 min"):
     """
 
 def render_card_thumb(a, badge_text, reading_time, image_src=None):
-    symbol = CATEGORY_META.get(a["section"], {}).get("icon", "◆")
+    from portadas_guias import guide_cover
+    cover = guide_cover(a)
+    if not cover:
+        raise ValueError('Guía sin portada: ' + a['url'])
+    photo_class = 'product-guide-thumb' if cover['kind'] == 'product' else 'context-guide-thumb'
     return f"""
-        <div class="card-thumb editorial-thumb graphic-thumb">
-          <span class="thumb-symbol" aria-hidden="true">{symbol}</span>
+        <div class="card-thumb editorial-thumb {photo_class}">
+          <img class="thumb-img" src="{escape(image_src or cover['image'], quote=True)}"
+               alt="{escape(cover['alt'], quote=True)}" width="{cover['width']}" height="{cover['height']}"
+               loading="lazy" decoding="async">
           <div class="thumb-overlay">
             <span class="thumb-badge">{escape(badge_text)}</span>
             <span class="thumb-time">{reading_time}</span>
           </div>
+          <span class="editorial-label">{escape(cover['label'])}</span>
         </div>
     """
 
@@ -2076,6 +2088,7 @@ def render_article_page(article, embedded=False):
         title = 'Nuestra selección según el uso' if article['url'] == '/hidrolavadoras/comparativa-general/' else 'Compará estas opciones en Mercado Libre'
         contextual_shelf = contextual_shelf.replace('<h2>Publicaciones para comparar</h2>', '<h3>' + title + '</h3>')
         rendered_body = rendered_body.replace('<!-- HIDROLAVADORAS-OFERTAS -->', contextual_shelf)
+    rendered_body = add_photos_to_cards(rendered_body)
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
     if article["url"] in AMOLADORA_CHOICES:
         # Affiliate CTAs live in one editorially placed comparison block. Keep

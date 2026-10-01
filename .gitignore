@@ -16,3 +16,4 @@ venv/
 !.env.example
 .vercel/
 affiliate-clicks.jsonl
+.fotos-cache/

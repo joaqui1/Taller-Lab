@@ -29,7 +29,8 @@ FAVICON = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text 
 @app.route("/assets/<path:filename>", methods=["GET", "HEAD"])
 def asset(filename):
     response = send_from_directory(ASSETS_DIR, filename)
-    response.headers["Cache-Control"] = "public, max-age=31536000, immutable" if filename.endswith(".woff2") else "public, max-age=86400"
+    versioned = filename.endswith(".woff2") or (filename.startswith(("productos/", "portadas/")) and filename.endswith(".webp"))
+    response.headers["Cache-Control"] = "public, max-age=31536000, immutable" if versioned else "public, max-age=86400"
     return response
 
 

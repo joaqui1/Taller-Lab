@@ -1,0 +1,1792 @@
+{
+  "/amoladoras/": {
+    "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 11366,
+    "source": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma G1910KAR"
+  },
+  "/amoladoras/disco-flap/": {
+    "image": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
+    "width": 639,
+    "height": 640,
+    "bytes": 33504,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LQDFLAP60",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LQDFLAP60"
+  },
+  "/amoladoras/discos/": {
+    "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 25226,
+    "source": "https://www.camiopar.com.br/disco-corte-metal-115mm-bosch-2608619383",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch 2608619383"
+  },
+  "/amoladoras/dewalt/": {
+    "image": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
+    "width": 640,
+    "height": 341,
+    "bytes": 14308,
+    "source": "https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DWE4120-AR"
+  },
+  "/amoladoras/disco-de-desbaste/": {
+    "image": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
+    "width": 499,
+    "height": 500,
+    "bytes": 33682,
+    "source": "https://meli.la/1tL91SZ",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Disco abrasivo Bosch 2608600218 Expert 4,1/2x1/4x7/8"
+  },
+  "/amoladoras/recta/": {
+    "image": "/assets/productos/makitagd0600-28ffb034a0.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 9680,
+    "source": "https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Makita GD0600"
+  },
+  "/amoladoras/de-banco/": {
+    "image": "/assets/productos/lusqtoffab375-c0df1812e7.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 17330,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/AB-375",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff AB-375"
+  },
+  "/amoladoras/makita/": {
+    "image": "/assets/productos/makitaga4534-235dbd4cb8.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15280,
+    "source": "https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Makita GA4534"
+  },
+  "/amoladoras/inalambricas/": {
+    "image": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
+    "width": 640,
+    "height": 482,
+    "bytes": 38884,
+    "source": "https://www.bosch-professional.com/ar/es/products/gws-180-li-06019H90E0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GWS 180-LI"
+  },
+  "/amoladoras/discos-ceramica/": {
+    "image": "/assets/productos/ronixrh3534-150decdc06.webp",
+    "width": 238,
+    "height": 238,
+    "bytes": 4328,
+    "source": "https://ronixtools.com/en/product/ceramic-cutting-disc-rh-3534/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Ronix RH-3534"
+  },
+  "/amoladoras/bosch/": {
+    "image": "/assets/productos/boschgws850-ac6f1144fb.webp",
+    "width": 640,
+    "height": 385,
+    "bytes": 34308,
+    "source": "https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GWS 850"
+  },
+  "/amoladoras/lusqtoff/": {
+    "image": "/assets/productos/lusqtoffaml8508-79bb71a188.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15184,
+    "source": "https://www.maquitools.com.ar/producto/amoladora-angular-115mm-4-5-820w-aml850-8-lusqtoff/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff AML850-8"
+  },
+  "/amoladoras/9-pulgadas/": {
+    "image": "/assets/productos/makitaga9020-f1228627b2.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 10066,
+    "source": "https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Makita GA9020"
+  },
+  "/amoladoras/skil-830w/": {
+    "image": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
+    "width": 640,
+    "height": 466,
+    "bytes": 12608,
+    "source": "https://www.todoferreteria.com/products/view/2472.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Skil 9004"
+  },
+  "/amoladoras/disco-diamantado-segmentado/": {
+    "image": "/assets/productos/hamiltonds115-016d58cc2f.webp",
+    "width": 400,
+    "height": 300,
+    "bytes": 15264,
+    "source": "https://www.freshendistribuye.com.ar/herramienta/disco-diamantado-segmentado-115mm-hamilton-ds115-2470.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Hamilton DS115"
+  },
+  "/amoladoras/stanley/": {
+    "image": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 6738,
+    "source": "https://ar.stanleytools.global/producto/stgs8115-ar/amoladora-angular-4-12-pulg-115mm-850w",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Stanley STGS8115-AR"
+  },
+  "/amoladoras/disco-de-corte/": {
+    "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 25226,
+    "source": "https://www.camiopar.com.br/disco-corte-metal-115mm-bosch-2608619383",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch 2608619383"
+  },
+  "/amoladoras/ingco/": {
+    "image": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14266,
+    "source": "https://shop.ingcostore.ar/productos/AG7118-4/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "INGCO AG7118-4"
+  },
+  "/amoladoras/velocidad-variable/": {
+    "image": "/assets/productos/revision-1x65DAe-0365b0ad8f.webp",
+    "width": 640,
+    "height": 267,
+    "bytes": 12964,
+    "source": "https://tradermotorstore.com.ar/producto/amoladora-angular-dowen-pagio-vel-variable-115-y-125mm-1250w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Dowen Pagio 9993224.2 / AA125SPL"
+  },
+  "/amoladoras/7-pulgadas/": {
+    "image": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
+    "width": 640,
+    "height": 315,
+    "bytes": 13218,
+    "source": "https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GWS 2200-180"
+  },
+  "/amoladoras/115-o-125/": {
+    "image": "/assets/productos/elegi125mm-59293db74a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 12870,
+    "source": "https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Elegí 125 mm"
+  },
+  "/amoladoras/gamma/": {
+    "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 11366,
+    "source": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma G1910KAR"
+  },
+  "/amoladoras/total/": {
+    "image": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
+    "width": 640,
+    "height": 568,
+    "bytes": 12224,
+    "source": "https://falherramientas.com.ar/productos/amoladora-angular-710w-115mm-tg10711576-4",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Total TG10711576-4"
+  },
+  "/amoladoras/dowen-pagio/": {
+    "image": "/assets/productos/dowenpagio99932207-23d3964a5e.webp",
+    "width": 640,
+    "height": 317,
+    "bytes": 11184,
+    "source": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Dowen Pagio 9993220.7 / AA115H4"
+  },
+  "/amoladoras/discos-vidrio/": {
+    "image": "/assets/productos/oferta-1XvFwQP-d938d32818.webp",
+    "width": 500,
+    "height": 465,
+    "bytes": 17854,
+    "source": "https://meli.la/1XvFwQP",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Disco Corte Vidrio 115mm Smart Ladike Design Amoladora Pack 3"
+  },
+  "/compresores/para-auto/": {
+    "image": "/assets/productos/nictomie01-06ac504f73.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 9318,
+    "source": "https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Nictom IE01"
+  },
+  "/compresores/50-litros/": {
+    "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 33604,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LC2550B-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC2550B-8"
+  },
+  "/compresores/manguera/": {
+    "image": "/assets/portadas/neumaticos-f7c9ddfa76.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34220,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/neumaticos.webp",
+    "alt": "Ilustración contextual de Manguera para compresor de aire: medidas y materiales"
+  },
+  "/compresores/kits-aerografo/": {
+    "image": "/assets/portadas/neumaticos-f7c9ddfa76.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34220,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/neumaticos.webp",
+    "alt": "Ilustración contextual de Aerógrafo con compresor: qué kit comprar para empezar"
+  },
+  "/compresores/pistola-para-pintar/": {
+    "image": "/assets/productos/btaas1021-adc05c8711.webp",
+    "width": 300,
+    "height": 300,
+    "bytes": 5716,
+    "source": "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "BTA AS-1021"
+  },
+  "/compresores/acoples-rapidos/": {
+    "image": "/assets/portadas/neumaticos-f7c9ddfa76.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34220,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/neumaticos.webp",
+    "alt": "Ilustración contextual de Acople rápido para compresor: perfiles, roscas y medidas"
+  },
+  "/compresores/para-aerografo/": {
+    "image": "/assets/portadas/compresores-675f2a6860.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34806,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/compresores.webp",
+    "alt": "Ilustración contextual de Compresor para aerógrafo: cómo elegir el adecuado"
+  },
+  "/compresores/aceite/": {
+    "image": "/assets/portadas/compresores-675f2a6860.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34806,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/compresores.webp",
+    "alt": "Ilustración contextual de Aceite para compresor de aire: cuál lleva y cómo elegir"
+  },
+  "/compresores/lusqtoff-50-litros/": {
+    "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 33604,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LC2550B-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC2550B-8"
+  },
+  "/compresores/filtros/": {
+    "image": "/assets/portadas/compresores-675f2a6860.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34806,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/compresores.webp",
+    "alt": "Ilustración contextual de Filtro de aire para compresor: cómo elegir el repuesto"
+  },
+  "/compresores/100-litros/": {
+    "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+    "width": 640,
+    "height": 576,
+    "bytes": 36178,
+    "source": "https://tyt.com.uy/producto/compresor-de-aire-electrico-lusqtoff-lc-30100-100l-3hp/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC-30100"
+  },
+  "/compresores/gamma-50-litros/": {
+    "image": "/assets/portadas/compresores-675f2a6860.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 34806,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/compresores.webp",
+    "alt": "Ilustración contextual de Compresor Gamma de 50 litros: guía de compra"
+  },
+  "/compresores/kits-accesorios/": {
+    "image": "/assets/productos/lusqtoffaa5000k-3d25dcd60a.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 31486,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/AA-5000K",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff AA-5000K"
+  },
+  "/compresores/lusqtoff-100-litros/": {
+    "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+    "width": 640,
+    "height": 576,
+    "bytes": 36178,
+    "source": "https://tyt.com.uy/producto/compresor-de-aire-electrico-lusqtoff-lc-30100-100l-3hp/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC-30100"
+  },
+  "/compresores/sin-aceite/": {
+    "image": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 32228,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LC-0122",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC-0122"
+  },
+  "/compresores/200-litros/": {
+    "image": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 25044,
+    "source": "https://dember.com.ar/producto/compresor-de-aire-bicilindrico-3-hp-200-l-a-correa-lusqtoff-lc-30200/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LC-30200"
+  },
+  "/compresores/bta-25-litros/": {
+    "image": "/assets/productos/btadca1256-a19ab14272.webp",
+    "width": 300,
+    "height": 300,
+    "bytes": 11850,
+    "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "BTA D-CA1-25-6"
+  },
+  "/compresores/24-litros/": {
+    "image": "/assets/productos/gammag2860ar-807a31316c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 37140,
+    "source": "https://www.gammaherramientas.com.ar/producto/compresor-sin-aceite-24-l-2-hp/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma G2860AR"
+  },
+  "/compresores/inalambricos/": {
+    "image": "/assets/productos/einhellpressito1825-1952c2d4c2.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 37050,
+    "source": "https://www.einhell.com.ar/p/4020420-pressito-18-25/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell PRESSITO 18/25"
+  },
+  "/compresores/stanley/": {
+    "image": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
+    "width": 500,
+    "height": 500,
+    "bytes": 15648,
+    "source": "https://meli.la/26gU4mL",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Compresor De Aire Stanley 50 Litros 2 Hp Acople Rapido 1/4 Amarillo 50 Hz Monofásica"
+  },
+  "/compresores/para-pintar/": {
+    "image": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 21148,
+    "source": "https://www.einhell.com.ar/p/4007375-tc-ac-190-24-8-i-of/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-AC 190/24/8 I OF"
+  },
+  "/compresores/inflador-neumaticos-portatil/": {
+    "image": "/assets/productos/gadnicav000009-ed85ac108e.webp",
+    "width": 500,
+    "height": 494,
+    "bytes": 25156,
+    "source": "https://www.aecohogar.com.ar/products/compresor-de-aire-gadnic-para-auto-12v-portatil-mod-av000009",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gadnic AV000009"
+  },
+  "/compresores/12v-doble-piston/": {
+    "image": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 27902,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/MCL150-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff MCL150-8"
+  },
+  "/generadores/comparativa-general/": {
+    "image": "/assets/portadas/generadores-fc8463dffc.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 36068,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/generadores.webp",
+    "alt": "Ilustración contextual de Grupos electrógenos: cómo elegir y comparar modelos"
+  },
+  "/generadores/precios/": {
+    "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 37456,
+    "source": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma GE3481AR"
+  },
+  "/generadores/honda/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/honda-6500/": {
+    "image": "/assets/productos/hondaeg6500cxs-ab1e8def5c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 26790,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-eg6500cxs-ra-5500w-4t-electrico-monofasico/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EG6500CXS"
+  },
+  "/generadores/para-casa/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/inverter/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/trifasicos/": {
+    "image": "/assets/productos/lusqtofflg7500ext-b15e57b4a2.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 36204,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LG7500EXT",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LG7500EXT"
+  },
+  "/generadores/a-nafta/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/hyundai/": {
+    "image": "/assets/productos/hyundaihy7500le-0c27e4300d.webp",
+    "width": 507,
+    "height": 640,
+    "bytes": 23672,
+    "source": "https://hyundaiherramientas.com.ar/producto/generador-7000w-hy7500le/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Hyundai HY7500LE"
+  },
+  "/generadores/gamma-6500/": {
+    "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 37456,
+    "source": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma GE3481AR"
+  },
+  "/generadores/lusqtoff/": {
+    "image": "/assets/productos/lusqtofflgis388-5e02458b07.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 36252,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LGIS3.8-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LGIS3.8-8"
+  },
+  "/generadores/gamma/": {
+    "image": "/assets/productos/gammage3497ar-8065289e35.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 20074,
+    "source": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma GE3497AR"
+  },
+  "/generadores/monofasicos/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/diesel/": {
+    "image": "/assets/portadas/generadores-fc8463dffc.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 36068,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/generadores.webp",
+    "alt": "Ilustración contextual de Generador diésel: cuándo conviene, consumo y mantenimiento"
+  },
+  "/generadores/portatiles/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/silenciosos/": {
+    "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+    "width": 640,
+    "height": 619,
+    "bytes": 27694,
+    "source": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Honda EU22i"
+  },
+  "/generadores/gamma-950/": {
+    "image": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 40100,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LG950P",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LG950P"
+  },
+  "/generadores/niwa/": {
+    "image": "/assets/productos/niwagnw55e-de4b1fab06.webp",
+    "width": 640,
+    "height": 524,
+    "bytes": 26796,
+    "source": "https://www.todomaq.com.ar/shop/rr1025551-generador-grupo-niwa-gnw-55-e-5-5kva-monofasico-ar-electrico-77652",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Niwa GNW-55-E"
+  },
+  "/generadores/a-gas/": {
+    "image": "/assets/productos/gammage3491artf10000-c3b01a1dab.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 36464,
+    "source": "https://www.gammamarket.com.ar/grupo-electrogeno-trifuel-ge3491ar/p",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma GE3491AR TF10000"
+  },
+  "/generadores/estacion-de-energia-portatil/": {
+    "image": "/assets/productos/ecoflowdelta2max-7013906c82.webp",
+    "width": 320,
+    "height": 321,
+    "bytes": 4252,
+    "source": "https://www.ecoflow.com/us/delta-2-max-portable-power-station",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "EcoFlow DELTA 2 Max"
+  },
+  "/generadores/chicos/": {
+    "image": "/assets/productos/konankge800-2cf298b748.webp",
+    "width": 300,
+    "height": 300,
+    "bytes": 5880,
+    "source": "https://www.konan.com.ar/productos/generador-electrico-kge-800",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Konan KGE/800"
+  },
+  "/hidrolavadoras/comparativa-general/": {
+    "image": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 37914,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/hidrolavadoras.webp",
+    "alt": "Ilustración contextual de Hidrolavadoras: cuál comprar según uso y presupuesto"
+  },
+  "/hidrolavadoras/inalambricas/": {
+    "image": "/assets/productos/lusqtofflapl368bk-7bcc8c6725.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 9446,
+    "source": "https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff LAPL3.6-8BK"
+  },
+  "/hidrolavadoras/lusqtoff/": {
+    "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 21950,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/HL-120",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff HL-120"
+  },
+  "/hidrolavadoras/gamma/": {
+    "image": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 13158,
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-master-wash-1500-1200w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma Master Wash 1500"
+  },
+  "/hidrolavadoras/stihl/": {
+    "image": "/assets/productos/stihlre80x-569c6db0f3.webp",
+    "width": 427,
+    "height": 640,
+    "bytes": 6284,
+    "source": "https://www.stihl.com.ar/es/ap/re-80-x-141950",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "STIHL RE 80 X"
+  },
+  "/hidrolavadoras/bosch/": {
+    "image": "/assets/productos/boschghp180-2c785d8b82.webp",
+    "width": 422,
+    "height": 422,
+    "bytes": 9546,
+    "source": "https://www.bosch-professional.com/ar/es/products/ghp-180-0600910CH0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GHP 180"
+  },
+  "/hidrolavadoras/black-decker/": {
+    "image": "/assets/productos/revision-1zzNj8Z-4102eaab55.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 12938,
+    "source": "https://ar.blackanddecker.global/producto/bepw1300-ar/hidrolavadora-1300-psi-1200w",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "BLACK+DECKER BEPW1300-AR"
+  },
+  "/hidrolavadoras/karcher-k2/": {
+    "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15164,
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K2 Basic Black"
+  },
+  "/hidrolavadoras/karcher-k5/": {
+    "image": "/assets/productos/karcherk5powercontrol16035010-cc6cb22cc7.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 19300,
+    "source": "https://abastecedoradelsur.com.ar/productos/hidrolavadora-k5-powercontrol-karcher-1603-5010-krc501",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K5 Power Control"
+  },
+  "/hidrolavadoras/gamma-150/": {
+    "image": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 37914,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/hidrolavadoras.webp",
+    "alt": "Ilustración contextual de Gamma 150: características, uso y guía de compra"
+  },
+  "/hidrolavadoras/profesionales/": {
+    "image": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 41434,
+    "source": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10-1040900",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Niwa HDNW PRO-10"
+  },
+  "/hidrolavadoras/karcher-k3/": {
+    "image": "/assets/productos/karcherk3blackedition93983550-6bd5c64f82.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 17144,
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K3 Black Edition"
+  },
+  "/hidrolavadoras/einhell/": {
+    "image": "/assets/productos/einhelltchp1304140750-40e628d48f.webp",
+    "width": 640,
+    "height": 336,
+    "bytes": 58558,
+    "source": "https://www.einhell.com.ar/p/4140750-tc-hp-130/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-HP 130"
+  },
+  "/hidrolavadoras/gamma-130/": {
+    "image": "/assets/productos/completada-2SuGMdL-76ec1dec11.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14554,
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Gamma 130 Elite Red Line · G2513AR"
+  },
+  "/hidrolavadoras/hyundai/": {
+    "image": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 37914,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/hidrolavadoras.webp",
+    "alt": "Ilustración contextual de Hidrolavadoras Hyundai: modelos y cuál comprar"
+  },
+  "/hidrolavadoras/lusqtoff-hl-120/": {
+    "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 21950,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/HL-120",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff HL-120"
+  },
+  "/hidrolavadoras/karcher-k4/": {
+    "image": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 19302,
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k4-93982940.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K4"
+  },
+  "/hidrolavadoras/150-bar/": {
+    "image": "/assets/productos/niwahdnw7001040700-83ad50b7c0.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 13646,
+    "source": "https://www.agrosolucionesgarcia.com.ar/productos/hidrolavadora-electrica-hdnw-700-niwa/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Niwa HDNW-700"
+  },
+  "/hidrolavadoras/200-bar/": {
+    "image": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 37914,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/hidrolavadoras.webp",
+    "alt": "Ilustración contextual de Hidrolavadoras de 200 bar: cuándo convienen"
+  },
+  "/hidrolavadoras/niwa/": {
+    "image": "/assets/productos/niwahdnw3001040300-4945537d99.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 20328,
+    "source": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-300-1040300",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Niwa HDNW-300"
+  },
+  "/hidrolavadoras/karcher/": {
+    "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15164,
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K2 Basic Black"
+  },
+  "/hidrolavadoras/para-autos/": {
+    "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15164,
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kärcher K2 Basic Black"
+  },
+  "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/": {
+    "image": "/assets/productos/wipcoolc30s-f315e9227a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 41832,
+    "source": "https://www.wipcool.com/steam-cleaning-machine-c30s-product/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "WIPCOOL C30S"
+  },
+  "/sierras/circulares/": {
+    "image": "/assets/productos/boschgks150-9003def49f.webp",
+    "width": 628,
+    "height": 422,
+    "bytes": 40566,
+    "source": "https://www.bosch-professional.com/ar/es/products/gks-150-06016B30H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GKS 150"
+  },
+  "/sierras/sensitivas/": {
+    "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 17904,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/CM-14K",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff CM-14K"
+  },
+  "/sierras/sable/": {
+    "image": "/assets/portadas/sierras-b6913ab51d.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 32112,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/sierras.webp",
+    "alt": "Ilustración contextual de Sierra sable: para qué sirve y cuál elegir"
+  },
+  "/sierras/caladoras/": {
+    "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+    "width": 500,
+    "height": 439,
+    "bytes": 13148,
+    "source": "https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Black+Decker BES603"
+  },
+  "/sierras/sierra-sin-fin-para-madera/": {
+    "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 19098,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SFL300-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SFL300-8"
+  },
+  "/sierras/de-banco/": {
+    "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 24562,
+    "source": "https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-TS 2025/2 U"
+  },
+  "/sierras/sin-fin-metal/": {
+    "image": "/assets/productos/btatools646003-e51900b70b.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 12796,
+    "source": "https://elsoldador.com.ar/producto/sierra-sinfin-bta-para-metal-115mm-vertical-horizontal-646003/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "BTA Tools 646003"
+  },
+  "/sierras/ingletadoras-einhell/": {
+    "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 29870,
+    "source": "https://www.einhell.com.ar/p/4300295-tc-ms-2112/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-MS 2112"
+  },
+  "/sierras/de-banco-einhell/": {
+    "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 24562,
+    "source": "https://www.einhell.com.ar/p/4340490-tc-ts-2025-2-u/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-TS 2025/2 U"
+  },
+  "/sierras/caladoras-skil/": {
+    "image": "/assets/productos/skil4380-262e48e9e6.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 11000,
+    "source": "https://www.ferrepat.com/detalles-landing/sierra-caladora-de-380-w-skil-4380/7877",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "SKIL 4380"
+  },
+  "/sierras/guia-para-sierra-circular/": {
+    "image": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
+    "width": 140,
+    "height": 140,
+    "bytes": 2252,
+    "source": "https://www.kregtool.com/support/faqs-product-info/discontinued-products/rip-cut/KMA2685.html",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Kreg Rip-Cut KMA2685"
+  },
+  "/sierras/sensitivas-dewalt/": {
+    "image": "/assets/productos/completada-2ZwgGLw-8d31e0bbb1.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15728,
+    "source": "https://asia.dewalt.global/product/d28720-b1/chop-saw",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt D28720"
+  },
+  "/sierras/ingletadoras-dewalt/": {
+    "image": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
+    "width": 611,
+    "height": 640,
+    "bytes": 30908,
+    "source": "https://www.dewalt.com/en-us/product/dws713/15a-10-single-bevel-compound-miter-saw?bvstate=pg%3A2%2Fct%3Ar",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DWS713"
+  },
+  "/sierras/ingletadoras-total/": {
+    "image": "/assets/productos/totalts42142107-4fb8c64816.webp",
+    "width": 549,
+    "height": 640,
+    "bytes": 56790,
+    "source": "https://tiendatotal.es/producto/ingletadora-cable-total-1400w-210mm-ts42142107/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "TOTAL TS42142107"
+  },
+  "/sierras/disco-para-sierra-circular/": {
+    "image": "/assets/productos/diablod0760xultrafinish714in60dientes-ef53168cbf.webp",
+    "width": 500,
+    "height": 499,
+    "bytes": 37266,
+    "source": "https://www.itools.pe/product/disco-7-1-4-60-dientes-corte-madera-acabado-ultra-fino-d0760x-diablo",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Diablo D0760X Ultra Finish 7 1/4 in, 60 dientes"
+  },
+  "/sierras/bosch-gks-150/": {
+    "image": "/assets/productos/boschgks150-9003def49f.webp",
+    "width": 628,
+    "height": 422,
+    "bytes": 40566,
+    "source": "https://www.bosch-professional.com/ar/es/products/gks-150-06016B30H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GKS 150"
+  },
+  "/sierras/circulares-black-decker/": {
+    "image": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 18264,
+    "source": "https://ar.blackanddecker.global/producto/cs1004-ar/sierra-circular-1400-w",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Black+Decker CS1004-AR"
+  },
+  "/sierras/caladoras-einhell/": {
+    "image": "/assets/productos/einhelltcjs85-94a2df091c.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 18320,
+    "source": "https://www.einhell.com.ar/p/4321140-tc-js-85/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-JS 85"
+  },
+  "/sierras/sierra-sable-inalambrica/": {
+    "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+    "width": 640,
+    "height": 412,
+    "bytes": 26602,
+    "source": "https://www.bosch-professional.com/ar/es/products/gsa-18v-24-06016A51E0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GSA 18V-24"
+  },
+  "/sierras/circulares-lusqtoff/": {
+    "image": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 31012,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/CSL1500-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff CSL1500-8"
+  },
+  "/sierras/ingletadoras/": {
+    "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 29870,
+    "source": "https://www.einhell.com.ar/p/4300295-tc-ms-2112/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-MS 2112"
+  },
+  "/sierras/sierra-caladora-bosch/": {
+    "image": "/assets/productos/boschgst650-15aadfa845.webp",
+    "width": 251,
+    "height": 422,
+    "bytes": 24030,
+    "source": "https://www.bosch-professional.com/ar/es/products/gst-650-06015A80H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GST 650"
+  },
+  "/sierras/sierra-circular-dewalt-dwe560/": {
+    "image": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
+    "width": 640,
+    "height": 533,
+    "bytes": 23844,
+    "source": "https://www.dewalt.com.ar/es-ar/producto/dwe560-ar/sierra-circular-electrica-de-7-14-pulg-185mm",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DWE560"
+  },
+  "/sierras/stanley-sc16/": {
+    "image": "/assets/productos/stanleysc16-83cc2adbdc.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 20512,
+    "source": "https://ar.stanleytools.global/producto/sc16-ar/sierra-circular-7-14-pulg-180mm-1600w",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Stanley SC16"
+  },
+  "/sierras/caladoras-black-decker/": {
+    "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+    "width": 500,
+    "height": 439,
+    "bytes": 13148,
+    "source": "https://www.mercadolibre.com.ar/sierra-caladora-black-decker-bes603-400w-3000-rpm/p/MLA39008702",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Black+Decker BES603"
+  },
+  "/sierras/de-banco-lusqtoff/": {
+    "image": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 21210,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML2000-9",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML2000-9"
+  },
+  "/sierras/sensitivas-lusqtoff/": {
+    "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 17904,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/CM-14K",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff CM-14K"
+  },
+  "/sierras/sin-fin-lusqtoff/": {
+    "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 19098,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SFL300-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SFL300-8"
+  },
+  "/sierras/sensitivas-total/": {
+    "image": "/assets/productos/totalts2235584-ba61612a34.webp",
+    "width": 481,
+    "height": 640,
+    "bytes": 26062,
+    "source": "https://buloneriasantafe.odoo.com/shop/1mecorts14t-sensitiva-2200-w-3800-rpm-14-355mm-ts223558-4-total-117057",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Total TS223558-4"
+  },
+  "/sierras/sierra-circular-inalambrica/": {
+    "image": "/assets/productos/einhelltpcs18190liblsolo-5812794fbc.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 19208,
+    "source": "https://www.einhell.com.ar/p/4331211-tp-cs-18-190-li-bl-solo/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TP-CS 18/190 Li BL-Solo"
+  },
+  "/soldadoras/": {
+    "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+    "width": 500,
+    "height": 418,
+    "bytes": 24848,
+    "source": "https://meli.la/1p8rvV8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Soldadora Inverter Mega Iron 100 + Mascara Soldar Naranja/negro"
+  },
+  "/soldadoras/electrodo-7018/": {
+    "image": "/assets/productos/oferta-2fBaR3k-b8ab4ac7ba.webp",
+    "width": 500,
+    "height": 374,
+    "bytes": 21062,
+    "source": "https://meli.la/2fBaR3k",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Electrodo 7018 Conarco 2,5 Mm X 1 Kg Basico Punta Verde Verde"
+  },
+  "/soldadoras/lusqtoff/": {
+    "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+    "width": 500,
+    "height": 418,
+    "bytes": 24848,
+    "source": "https://meli.la/1p8rvV8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Soldadora Inverter Mega Iron 100 + Mascara Soldar Naranja/negro"
+  },
+  "/soldadoras/soldadora-de-punto/": {
+    "image": "/assets/portadas/soldadoras-9d555a6f51.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 38882,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadoras.webp",
+    "alt": "Ilustración contextual de Soldadora de punto: tipos, usos y cuál elegir"
+  },
+  "/soldadoras/soldadora-mig-con-gas/": {
+    "image": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
+    "width": 550,
+    "height": 367,
+    "bytes": 16312,
+    "source": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB HandyArc MIG 160i"
+  },
+  "/soldadoras/guantes/": {
+    "image": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+    "width": 375,
+    "height": 374,
+    "bytes": 13106,
+    "source": "https://esab.com/pe/sam_es/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-black-gloves/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB Heavy Duty Black"
+  },
+  "/soldadoras/tig/": {
+    "image": "/assets/productos/lusqtoffprotig1808-1b06cfdb6b.webp",
+    "width": 640,
+    "height": 456,
+    "bytes": 18464,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/PROTIG180-8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff PROTIG180-8"
+  },
+  "/soldadoras/mig-sin-gas/": {
+    "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14358,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML120-8DK"
+  },
+  "/soldadoras/alambre-para-soldadura-mig/": {
+    "image": "/assets/productos/completada-1RwSNLU-8c76cd41f8.webp",
+    "width": 546,
+    "height": 640,
+    "bytes": 11564,
+    "source": "https://www.brementools.com/alambre-mig-mag/p",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bremen ER70S-6 8240 · 0,8 mm × 5 kg"
+  },
+  "/soldadoras/mascaras-fotosensibles/": {
+    "image": "/assets/productos/lusqtoffst1n-8da3055de5.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 15632,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/ST-1N",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff ST-1N"
+  },
+  "/soldadoras/electrodo-6013/": {
+    "image": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
+    "width": 500,
+    "height": 373,
+    "bytes": 22184,
+    "source": "https://meli.la/1Xxa67E",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Electrodo Soldar Conarco 6013 13a Punta Azul 2,50mm. X 5 Kg Azul"
+  },
+  "/soldadoras/soldadora-inverter-200-amp/": {
+    "image": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 29582,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SLCEL200-9",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SLCEL200-9"
+  },
+  "/soldadoras/electrodo-para-fundicion/": {
+    "image": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
+    "width": 357,
+    "height": 500,
+    "bytes": 18458,
+    "source": "https://meli.la/1mXhaLW",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Electrodo Fundicion Lima Esab 92.18 3,2mm Niquel 1kg Ni100 Plateado"
+  },
+  "/soldadoras/alambre-flux/": {
+    "image": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 20198,
+    "source": "https://www.hierrostorrent.com.ar/productos/alambre-soldar-mig-sin-gas-0-8mm-5kg-esab-gas-free-autoprotegido-e71t-gs-1po35/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB Gas Free E71T-GS · 0,8 mm × 5 kg"
+  },
+  "/soldadoras/soldadora-dogo-180/": {
+    "image": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
+    "width": 499,
+    "height": 386,
+    "bytes": 11862,
+    "source": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Dogo Dogostar 180 Moderna"
+  },
+  "/soldadoras/esab/": {
+    "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 24724,
+    "source": "https://revendapjba.ferimport.com.br/maquina-de-solda-inversora-esab-handyarc-162i-220v/p",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB HandyArc 162i"
+  },
+  "/soldadoras/electrodo-para-acero-inoxidable/": {
+    "image": "/assets/productos/oferta-lastrade-308l-e25ec4637c.webp",
+    "width": 373,
+    "height": 500,
+    "bytes": 15796,
+    "source": "https://www.mercadolibre.com.ar/electrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg/up/MLAU3927244096",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Electrodo Soldar Acero Inoxidable E308l-16 Caja Por 2 Kg"
+  },
+  "/soldadoras/para-aluminio/": {
+    "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+    "width": 375,
+    "height": 375,
+    "bytes": 12716,
+    "source": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB ET 200i AC/DC"
+  },
+  "/soldadoras/lusqtoff-iron-250/": {
+    "image": "/assets/productos/oferta-26R9o7z-eeef90ef2a.webp",
+    "width": 500,
+    "height": 474,
+    "bytes": 29968,
+    "source": "https://meli.la/26R9o7z",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Soldadora Inverter Lusqtoff Megairon250 180a + Mascara + Kit"
+  },
+  "/soldadoras/soldadora-tig-ac-dc/": {
+    "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+    "width": 375,
+    "height": 375,
+    "bytes": 12716,
+    "source": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB ET 200i AC/DC"
+  },
+  "/soldadoras/soldadora-inverter-160-amp/": {
+    "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 24724,
+    "source": "https://revendapjba.ferimport.com.br/maquina-de-solda-inversora-esab-handyarc-162i-220v/p",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB HandyArc 162i"
+  },
+  "/soldadoras/lusqtoff-iron-100/": {
+    "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+    "width": 500,
+    "height": 418,
+    "bytes": 24848,
+    "source": "https://meli.la/1p8rvV8",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Soldadora Inverter Mega Iron 100 + Mascara Soldar Naranja/negro"
+  },
+  "/soldadoras/mig-lusqtoff/": {
+    "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14358,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML120-8DK"
+  },
+  "/soldadoras/lusqtoff-sml150-8/": {
+    "image": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 27656,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML150-8D",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML150-8D"
+  },
+  "/soldadoras/lusqtoff-sml120-8d/": {
+    "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14358,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML120-8DK"
+  },
+  "/soldadoras/carro-para-soldadora-mig/": {
+    "image": "/assets/portadas/soldadoras-9d555a6f51.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 38882,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadoras.webp",
+    "alt": "Ilustración contextual de Carro para soldadora MIG: medidas, tubo y capacidad"
+  },
+  "/soldadoras/esab-handyarc-162i/": {
+    "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 24724,
+    "source": "https://revendapjba.ferimport.com.br/maquina-de-solda-inversora-esab-handyarc-162i-220v/p",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "ESAB HandyArc 162i"
+  },
+  "/soldadoras/mascara-lusqtoff-st-1x/": {
+    "image": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
+    "width": 640,
+    "height": 595,
+    "bytes": 27688,
+    "source": "https://www.arcomaquinarias.com/index.php/producto/50005410-mascara-fotosensible-lusqtoff-st-1x-compacta",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff ST-1X"
+  },
+  "/soldadoras/lusqtoff-sml130-7/": {
+    "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 14358,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff SML120-8DK"
+  },
+  "/soldadura-electronica/kit-soldador-de-estano/": {
+    "image": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 29792,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadura-electronica.webp",
+    "alt": "Ilustración contextual de Kit soldador de estaño: qué debe incluir y cuál elegir"
+  },
+  "/soldadura-electronica/estacion-de-soldadura/": {
+    "image": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 29792,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadura-electronica.webp",
+    "alt": "Ilustración contextual de Estación de soldadura electrónica: cautín o aire caliente"
+  },
+  "/soldadura-electronica/gadnic-878d/": {
+    "image": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 29792,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadura-electronica.webp",
+    "alt": "Ilustración contextual de Gadnic 878D: estación de cautín y aire caliente"
+  },
+  "/soldadura-electronica/yihua-898d/": {
+    "image": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 29792,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadura-electronica.webp",
+    "alt": "Ilustración contextual de Yihua 898D: estación de aire caliente y cautín"
+  },
+  "/soldadura-electronica/soporte-para-soldar-con-lupa/": {
+    "image": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 29792,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/soldadura-electronica.webp",
+    "alt": "Ilustración contextual de Soporte para soldar con lupa: pinzas, base y luz"
+  },
+  "/taladros/inalambricos/": {
+    "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 43576,
+    "source": "https://ingcotools.com.ar/producto/taladro-percutor-20v-13mm-20v-66nm-sin-carbones-mandril-metalico-cidli20668-4-ingco/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Ingco CIDLI20668-4"
+  },
+  "/taladros/rotomartillos/": {
+    "image": "/assets/portadas/taladros-a33087af2e.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 33924,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/taladros.webp",
+    "alt": "Ilustración contextual de Rotomartillo: cuál elegir para concreto y obra"
+  },
+  "/taladros/percutores/": {
+    "image": "/assets/productos/boschgsb550re-501dd8929c.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 21608,
+    "source": "https://www.homedepot.com.mx/p/bosch-combo-rotomartillo-gsb-550-re-550w-y-mini-esmeril-gws-850-850w-209027-209027",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GSB 550 RE"
+  },
+  "/taladros/taladro-de-banco/": {
+    "image": "/assets/productos/lusqtofftbl167-56f428bd34.webp",
+    "width": 402,
+    "height": 640,
+    "bytes": 21836,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/TBL16-7",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff TBL16-7"
+  },
+  "/taladros/atornilladores-de-impacto/": {
+    "image": "/assets/portadas/taladros-a33087af2e.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 33924,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/taladros.webp",
+    "alt": "Ilustración contextual de Atornillador de impacto: cuál elegir y para qué sirve"
+  },
+  "/taladros/rotomartillo-bosch/": {
+    "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 21202,
+    "source": "https://tienda.reginato.com.ar/producto/88192/rotomartillo-bosch-gbh220-720w/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GBH 220"
+  },
+  "/taladros/taladro-percutor-inalambrico/": {
+    "image": "/assets/portadas/taladros-a33087af2e.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 33924,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/taladros.webp",
+    "alt": "Ilustración contextual de Taladro percutor inalámbrico: modelos y comparativa"
+  },
+  "/taladros/para-durlock/": {
+    "image": "/assets/productos/boschgtb650-02c8496d60.webp",
+    "width": 357,
+    "height": 422,
+    "bytes": 24204,
+    "source": "https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GTB 650"
+  },
+  "/taladros/black-decker/": {
+    "image": "/assets/productos/blackdeckerbcd702c1ar-c1e6002218.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 14014,
+    "source": "https://ar.blackanddecker.global/producto/bcd702c1-ar/taladro-inalambrico-20v-max-litio",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Black+Decker BCD702C1-AR"
+  },
+  "/taladros/rotomartillo-einhell/": {
+    "image": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 17444,
+    "source": "https://www.einhell.de/en/p/4257990/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TC-RH 620 4F"
+  },
+  "/taladros/rotomartillo-dewalt/": {
+    "image": "/assets/productos/dewaltdch273b-2385011480.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 38960,
+    "source": "https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-brushless-cordless-1-25mm-sds-plus-l-shape-rotary-hammer-tool-only",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DCH273B"
+  },
+  "/taladros/einhell-inalambrico/": {
+    "image": "/assets/productos/einhelltecd1840lisolo-b7e735daa5.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 17396,
+    "source": "https://www.einhell.de/en/p/4513925-te-cd-18-40-li-solo/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Einhell TE-CD 18/40 Li Solo"
+  },
+  "/taladros/dewalt-inalambrico/": {
+    "image": "/assets/productos/dewaltdcd796d2-fce7e90882.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 49896,
+    "source": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DCD796D2"
+  },
+  "/taladros/mecha-porcelanato/": {
+    "image": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
+    "width": 120,
+    "height": 640,
+    "bytes": 7128,
+    "source": "https://www.bosch-professional.com/es/es/broca-expert-hex-9-hard-ceramic-2867225-ocs-ac/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch EXPERT HEX-9 HardCeramic · 6 mm"
+  },
+  "/taladros/milwaukee/": {
+    "image": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
+    "width": 256,
+    "height": 256,
+    "bytes": 9644,
+    "source": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Milwaukee M12 FUEL 3404-20"
+  },
+  "/taladros/lusqtoff-inalambrico/": {
+    "image": "/assets/productos/lusqtofftil238b-366900275b.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 17118,
+    "source": "https://www.lusqtoff.com.ar/ver-producto/TIL23-8B",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Lüsqtoff TIL23-8B"
+  },
+  "/taladros/brocas-ceramica/": {
+    "image": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
+    "width": 120,
+    "height": 640,
+    "bytes": 4100,
+    "source": "https://www.bosch-professional.com/es/es/broca-cyl-9-soft-ceramic-7724656-ocs-ac/",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch CYL-9 · 6 mm · cerámica/azulejo"
+  },
+  "/taladros/stanley/": {
+    "image": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 15904,
+    "source": "https://pe.stanleytools.global/producto/sdh700/taladro-de-martillo-de-700-w-13-mm",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Stanley SDH700"
+  },
+  "/taladros/atornillador-impacto-dewalt/": {
+    "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 42668,
+    "source": "https://www.dewalt.com/en-us/node/32266",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "DeWalt DCF887B"
+  },
+  "/taladros/bosch-inalambrico/": {
+    "image": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
+    "width": 333,
+    "height": 422,
+    "bytes": 23580,
+    "source": "https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch GSR 120-LI"
+  },
+  "/taladros/mechas-escalonadas/": {
+    "image": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
+    "width": 317,
+    "height": 630,
+    "bytes": 5054,
+    "source": "https://www.sanitino.it/bosch-accessori-trapano-a-gradini-diametro-4-20-mm-2608597519",
+    "kind": "product",
+    "label": "Modelo citado",
+    "alt": "Bosch HSS escalonada 4–20 mm"
+  },
+  "/taladros/mecha-forstner-35-mm/": {
+    "image": "/assets/portadas/mechas-b087a170ea.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 35916,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/mechas.webp",
+    "alt": "Ilustración contextual de Mecha Forstner 35 mm: cuál usar para bisagras cazoleta"
+  },
+  "/taladros/combo-taladro-amoladora/": {
+    "image": "/assets/portadas/taladros-a33087af2e.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 33924,
+    "kind": "context",
+    "label": "Ilustración editorial",
+    "source": "/assets/editorial/taladros.webp",
+    "alt": "Ilustración contextual de Combo taladro y amoladora: kits con cable y a batería"
+  }
+}

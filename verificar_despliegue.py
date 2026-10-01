@@ -43,9 +43,13 @@ def main():
             failures.append(dict(path=path, issues=issues))
         pages.append(dict(path=path, status=status, identical=identical, issues=issues, title=doc.titles))
     assets.update('/assets/' + p.relative_to(site.ASSETS_DIR).as_posix() for p in (site.ASSETS_DIR / 'fonts').glob('*'))
-    assets.update(['/assets/site.css?v=8', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
+    from fotos_productos import PHOTOS
+    assets.update(photo['image'] for photo in PHOTOS.values())
+    assets.update(['/assets/site.css?v=9', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
     asset_results = []
-    for path, status, body, headers in map(fetch, sorted(assets)):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        public_assets = list(pool.map(fetch, sorted(assets)))
+    for path, status, body, headers in public_assets:
         source = site.ASSETS_DIR / path.split('?', 1)[0].removeprefix('/assets/')
         expected = source.read_bytes()
         # Git normaliza los archivos de texto a LF en el checkout de Linux.
@@ -61,7 +65,7 @@ def main():
     sitemap = {n.text for n in ET.fromstring(body).findall('{*}url/{*}loc')}
     assert sitemap == {site.absolute_url(p) for p in site.INDEXABLE_PATHS}, 'Sitemap público distinto'
     report = dict(routes=len(pages), sitemap=len(sitemap), failures=failures, pages=pages, assets=asset_results)
-    Path('despliegue-verificado-2026-09-30.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    Path('despliegue-verificado-2026-10-01.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     assert not failures, failures
     print(f'OK: {len(pages)} rutas y {len(asset_results)} assets públicos coinciden con el estado aprobado; sitemap completo. Sólo se normaliza CRLF/LF en archivos de texto.')
 

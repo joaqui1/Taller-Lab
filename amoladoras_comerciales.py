@@ -336,6 +336,7 @@ CONTEXTUAL_CHOICES = {
 
 
 def render_amoladora_choice(article_url):
+    from fotos_productos import render_photo
     choice = AMOLADORA_CHOICES.get(article_url)
     if not choice:
         return ""
@@ -345,6 +346,7 @@ def render_amoladora_choice(article_url):
         checks = "".join(f"<li>{escape(value)}</li>" for value in item["checks"])
         cta_label = escape(item.get("cta_label", "Ver precio y disponibilidad en Mercado Libre"))
         rendered_items.append(f'''<article class="editorial-product-choice">
+          {render_photo(item['url'])}
           <h3>{escape(item["name"])}</h3>
           <ul class="offer-specs">{facts}</ul>
           <p>{escape(item["reason"])}</p>
@@ -362,6 +364,7 @@ def render_amoladora_choice(article_url):
 
 
 def render_contextual_choice(article_url):
+    from fotos_productos import render_photo
     item = CONTEXTUAL_CHOICES.get(article_url)
     if not item:
         return ""
@@ -372,6 +375,7 @@ def render_contextual_choice(article_url):
     checks = "".join(f"<li>{escape(value)}</li>" for value in item["checks"])
     return f'''<aside class="contextual-product-choice">
       <span class="resource-kicker">OTRA VARIANTE PARA ESTA NECESIDAD</span>
+      {render_photo(item['url'])}
       <h3>{escape(item["name"])}</h3>
       <ul class="offer-specs">{facts}</ul>
       <p>{escape(item["reason"])}</p>

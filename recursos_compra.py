@@ -356,13 +356,18 @@ BUYING_NOTES.update({
 
 
 def render_buying_note(article, product_facts):
+    from fotos_productos import render_photo
     item = BUYING_NOTES.get(article["url"])
     if not item:
         return ""
     links = []
     sources = []
+    photos = []
     for url, label in item["urls"]:
         facts = product_facts[url]
+        photo=render_photo(url,brand=facts['brand'],model=facts['model'])
+        if photo:
+            photos.append(f'<div class="buying-product-photo">{photo}<p>{escape(facts["brand"] + " " + facts["model"])}</p></div>')
         links.append(f'<a class="buying-link" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">{escape(label)} ↗</a>')
         sources.append(f'<a href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(facts["brand"] + " " + facts["model"])} · {escape(facts["source_type"])}</a>')
     alt_url, alt_label = item["alternative"]
@@ -371,6 +376,7 @@ def render_buying_note(article, product_facts):
     return f'''<aside class="buying-note" aria-labelledby="buying-title" data-buying-status="{"choice" if item["recommend"] else "check"}">
       <div class="buying-intro"><span class="resource-kicker">{badge} · TALLERLAB</span>
         <h2 id="buying-title">{escape(item["title"])}</h2><p>{escape(item["fit"])}</p></div>
+      {('<div class="buying-photo-grid">' + ''.join(photos) + '</div>') if photos else ''}
       <div class="buying-reasons"><p><strong>Motivo de la selección</strong>{escape(item["reason"])}</p>
         <p><strong>Cuándo cambia la decisión</strong>{escape(item["limits"])}</p></div>
       <div class="buying-checks"><h3>Antes de avanzar</h3><ul>{checks}</ul></div>
