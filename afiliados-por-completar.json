@@ -1,0 +1,19 @@
+{
+  "Gamma G2802AR": {
+    "affiliate_url": "",
+    "guides": ["/compresores/50-litros/", "/compresores/gamma-50-litros/"]
+  },
+  "Gamma G2802KAR": {
+    "affiliate_url": "",
+    "guides": ["/compresores/gamma-50-litros/"],
+    "configuration": "Kit G2802KAR; no sustituir por G2802AR sin accesorios"
+  },
+  "Einhell TE-AC 270/50 Silent": {
+    "affiliate_url": "",
+    "guides": ["/compresores/50-litros/", "/compresores/para-pintar/"]
+  },
+  "Einhell TE-AC 430/90/10": {
+    "affiliate_url": "",
+    "guides": ["/compresores/para-pintar/"]
+  }
+}
