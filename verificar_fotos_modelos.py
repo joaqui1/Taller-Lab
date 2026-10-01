@@ -9,6 +9,7 @@ from PIL import Image
 from app import app
 import servidor_local as s
 from fotos_productos import PHOTOS
+from portadas_guias import COVERS
 
 class Photos(HTMLParser):
     def __init__(self, text):
@@ -22,6 +23,9 @@ class Photos(HTMLParser):
 def main():
     client=app.test_client()
     assets={p['image']:p for p in PHOTOS.values() if p.get('image')}
+    model_assets=len(assets)
+    assert len(COVERS)==len(s.ALL_ARTICLES) and all(p['kind']=='product' and p['image'].startswith('/assets/productos/') for p in COVERS.values()), 'Quedan portadas ilustrativas'
+    assets.update({p['image']:p for p in COVERS.values()})
     assert PHOTOS and all(p.get('image') for p in PHOTOS.values()), 'Quedan referencias sin foto'
     for url,photo in assets.items():
         response=client.get(url)
@@ -36,6 +40,7 @@ def main():
     pages += [s.render_article_page(a) for a in s.ALL_ARTICLES]
     for document in pages:
         assert 'Imagen ilustrativa · sin foto' not in document, 'Un modelo sigue mostrando una foto ilustrativa'
+        assert '/assets/editorial/' not in document and 'Ilustración editorial' not in document, 'Queda una imagen editorial en el HTML o sus metadatos'
         for image in Photos(document).images:
             src=image.get('src','')
             if src.startswith('/assets/productos/'):
@@ -46,6 +51,7 @@ def main():
     report=dict(destinos_con_foto=sum(bool(p.get('image')) for p in PHOTOS.values()),
                 destinos_pendientes=sum(not p.get('image') for p in PHOTOS.values()),
                 fotos_unicas=len(assets), fotos_mostradas=len(shown),
+                fotos_catalogo=model_assets, portadas_reales=len(COVERS), portadas_ilustrativas=0,
                 peso_total_bytes=sum(p['bytes'] for p in assets.values()),
                 peso_medio_bytes=round(sum(p['bytes'] for p in assets.values())/len(assets)),
                 peso_maximo_bytes=max(p['bytes'] for p in assets.values()),

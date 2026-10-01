@@ -422,7 +422,7 @@ def render_50l_models():
         local_photo = photo_for(brand=brand, model=model)
         if local_photo:
             image, image_source = local_photo['image'], local_photo['source']
-        photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'/assets/editorial/compresores.webp\';this.alt=\'Imagen ilustrativa de compresor\';this.parentElement.classList.add(\'fallback-photo\')">' if image else '<div class="illustrative-product"><img src="/assets/editorial/compresores.webp" alt="Imagen ilustrativa de compresor" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo</span></div>'
+        photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async">' if image else '<span class="offer-no-photo">Foto no disponible</span>'
         photo_source = f'<a class="offer-source" href="{escape(image_source, quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if image_source else ''
         search_url = 'https://listado.mercadolibre.com.ar/' + urllib.parse.quote(f'compresor {brand} {model}', safe='')
         cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p><a class="offer-source" href="{escape(source, quote=True)}" target="_blank" rel="noopener noreferrer">Ficha que respalda estos datos ↗</a>{photo_source}<div class="offer-actions"><a class="offer-button" href="{escape(search_url, quote=True)}" target="_blank" rel="nofollow noopener noreferrer">Buscar modelo en Mercado Libre ↗</a></div></article>'
@@ -915,13 +915,16 @@ def canonical_tag(path):
     title, description = editorial.get(path, (CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
     if article:
         title, description = article["h1"], article["description"]
-    image_path = f"/assets/editorial/{section}.webp" if (ASSETS_DIR / "editorial" / f"{section}.webp").is_file() else LOGO_SRC
+    from portadas_guias import guide_cover
+    cover_article = article or next((a for a in ALL_ARTICLES if a['section'] == section and '/comparativa-general/' in a['url']), None) or next((a for a in ALL_ARTICLES if a['section'] == section), None)
+    cover = guide_cover(cover_article) if cover_article else {}
+    image_path = cover.get('image', LOGO_SRC)
     image_url = absolute_url(image_path)
     tags = {
         "og:type": "article" if article else "website", "og:locale": "es_AR",
         "og:site_name": "TallerLab", "og:title": title, "og:description": description,
         "og:url": absolute_url(path), "og:image": image_url,
-        "og:image:alt": f"Ilustración editorial de {CATEGORY_META[section]['name']}" if section in CATEGORY_META else "TallerLab",
+        "og:image:alt": cover.get('alt', 'TallerLab'),
         "twitter:card": "summary_large_image", "twitter:title": title,
         "twitter:description": description, "twitter:image": image_url,
     }
@@ -981,12 +984,10 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
         power = facts["power"] if facts else "Alimentación a verificar"
         specs = facts["specs"] if facts else UNVERIFIED_SPECS.get(category, ["Ficha técnica no informada"])
         includes = facts["includes"] if facts else "Contenido del kit a confirmar en la publicación"
-        if facts and facts.get("illustrative"):
-            media = f'<div class="illustrative-product"><img src="{escape(facts["image"], quote=True)}" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
-        elif facts and facts.get("image"):
-            media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'/assets/editorial/{category}.webp\';this.alt=\'Imagen ilustrativa de {category}\';this.parentElement.classList.add(\'fallback-photo\')">'
+        if facts and facts.get("image") and not facts.get("illustrative"):
+            media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
         else:
-            media = f'<div class="illustrative-product"><img src="/assets/editorial/{category}.webp" alt="Imagen ilustrativa de {escape(category, quote=True)}" width="1200" height="800" loading="lazy" decoding="async"><span>Imagen ilustrativa · sin foto del modelo exacto</span></div>'
+            media = '<span class="offer-no-photo">Foto no disponible</span>'
         source = ((f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts.get("evidence_label") else '') + f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
         compare_type = COMPARE_TYPES.get(url, category)
         compare_labels = escape(json.dumps(COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional"))), ensure_ascii=False), quote=True)
@@ -2280,9 +2281,8 @@ def article_schema_tag(article):
     }
     if article.get("reviewed"):
         article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
-    image = ASSETS_DIR / "editorial" / f"{article['section']}.webp"
-    if image.is_file():
-        article_schema["image"] = absolute_url(f"/assets/editorial/{article['section']}.webp")
+    from portadas_guias import guide_cover
+    article_schema["image"] = absolute_url(guide_cover(article)['image'] if article['url'] in INDEXABLE_PATH_SET else LOGO_SRC)
     return '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
 
 def render_not_found(path):

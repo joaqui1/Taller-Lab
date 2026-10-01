@@ -12,7 +12,7 @@ const fs=require('fs');
    const result=await page.evaluate(async()=>{
     const photos=[...document.querySelectorAll('img[src*="/assets/productos/"],img[src*="/assets/portadas/"]')];
     await Promise.all(photos.map(async i=>{i.loading='eager';if(!i.complete)await new Promise(resolve=>{i.addEventListener('load',resolve,{once:true});i.addEventListener('error',resolve,{once:true});});await i.decode().catch(()=>{i.dataset.decodeError='true';});}));
-    return {overflow:document.documentElement.scrollWidth>innerWidth+1,photos:photos.length,broken:photos.filter(i=>!i.naturalWidth||i.dataset.decodeError).map(i=>i.src),fallbacks:document.querySelectorAll('.fallback-photo,.illustrative-product,.graphic-thumb,.thumb-symbol').length};
+    return {overflow:document.documentElement.scrollWidth>innerWidth+1,photos:photos.length,broken:photos.filter(i=>!i.naturalWidth||i.dataset.decodeError).map(i=>i.src),fallbacks:document.querySelectorAll('.fallback-photo,.illustrative-product,.graphic-thumb,.thumb-symbol,.context-guide-thumb,.offer-no-photo,img[src*="/assets/editorial/"],img[src*="/assets/portadas/"]').length};
    });
    page.off('pageerror',listener);
    const row={width,path,status:response.status(),errors,...result};results.push(row);
