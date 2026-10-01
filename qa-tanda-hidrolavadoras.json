@@ -1,12 +1,12 @@
 {
   "section": "hidrolavadoras",
-  "checked": "2026-10-01T20:41:00.807416+00:00",
+  "checked": "2026-10-01T21:04:25.654275+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
     {
       "url": "https://abastecedoradelsur.com.ar/productos/hidrolavadora-k3-black-9398-3550-krc015/",
-      "checked": "2026-10-01T20:25:23.239074+00:00",
+      "checked": "2026-10-01T21:03:39.341554+00:00",
       "status": 200,
       "final_url": "https://abastecedoradelsur.com.ar/productos/hidrolavadora-k3-black-9398-3550-krc015/",
       "content_type": "text/html; charset=UTF-8",
@@ -14,11 +14,12 @@
       "headings": [
         "HIDROLAVADORA K3 BLACK 9.398-355.0"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://abastecedoradelsur.com.ar/productos/hidrolavadora-k5-powercontrol-karcher-1603-5010-krc501",
-      "checked": "2026-10-01T20:25:23.239867+00:00",
+      "checked": "2026-10-01T21:03:39.343136+00:00",
       "status": 200,
       "final_url": "https://abastecedoradelsur.com.ar/productos/hidrolavadora-k5-powercontrol-karcher-1603-5010-krc501",
       "content_type": "text/html; charset=UTF-8",
@@ -26,11 +27,12 @@
       "headings": [
         "HIDROLAVADORA K5 POWERCONTROL KARCHER 1.603-501.0"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/centros-servicio",
-      "checked": "2026-10-01T20:25:23.240519+00:00",
+      "checked": "2026-10-01T21:03:39.343913+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/centros-servicio",
       "content_type": "text/html; charset=UTF-8",
@@ -38,11 +40,12 @@
       "headings": [
         "Centros de Servicio"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/producto/bepw1520-ar/hidrolavora-1520-psi-1400w",
-      "checked": "2026-10-01T20:25:23.330990+00:00",
+      "checked": "2026-10-01T21:03:39.344501+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/producto/bepw1520-ar/hidrolavora-1520-psi-1400w",
       "content_type": "text/html; charset=UTF-8",
@@ -50,11 +53,12 @@
       "headings": [
         "Hidrolavora 1520 PSI 1400W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar",
-      "checked": "2026-10-01T20:25:23.344554+00:00",
+      "checked": "2026-10-01T21:03:39.345300+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar",
       "content_type": "text/html; charset=UTF-8",
@@ -62,11 +66,12 @@
       "headings": [
         "Hidrolavadora 1810 PSI | 125 BAR"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/producto/bepw2200-ar/hidrolavadora-2175-psi-150-bar",
-      "checked": "2026-10-01T20:25:23.344957+00:00",
+      "checked": "2026-10-01T21:03:39.548915+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/producto/bepw2200-ar/hidrolavadora-2175-psi-150-bar",
       "content_type": "text/html; charset=UTF-8",
@@ -74,11 +79,12 @@
       "headings": [
         "Hidrolavadora 2175 PSI | 150 BAR"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/productos/exteriores/hidrolavadoras-bombas-y-mangueras/hidrolavadoras",
-      "checked": "2026-10-01T20:25:24.486699+00:00",
+      "checked": "2026-10-01T21:03:40.332464+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/productos/exteriores/hidrolavadoras-bombas-y-mangueras/hidrolavadoras",
       "content_type": "text/html; charset=UTF-8",
@@ -86,11 +92,12 @@
       "headings": [
         "Hidrolavadoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.blackanddecker.global/soporte",
-      "checked": "2026-10-01T20:25:24.563829+00:00",
+      "checked": "2026-10-01T21:03:40.510156+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/soporte",
       "content_type": "text/html; charset=UTF-8",
@@ -98,11 +105,12 @@
       "headings": [
         "Soporte"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://aranduhogar.com.ar/tienda/herramientas/electricas/karcher-hidrolav-k2-basic-black-1-994-322-0/",
-      "checked": "2026-10-01T20:25:25.283414+00:00",
+      "checked": "2026-10-01T21:03:40.655696+00:00",
       "status": 200,
       "final_url": "https://aranduhogar.com.ar/tienda/herramientas/electricas/karcher-hidrolav-k2-basic-black-1-994-322-0/",
       "content_type": "text/html; charset=UTF-8",
@@ -110,11 +118,12 @@
       "headings": [
         "Hidrolavadora Kärcher K2 Basic Black"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://bermaq.mitiendanube.com/",
-      "checked": "2026-10-01T20:25:26.026152+00:00",
+      "checked": "2026-10-01T21:03:40.749221+00:00",
       "status": 200,
       "final_url": "https://bermaq.mitiendanube.com/",
       "content_type": "text/html; charset=UTF-8",
@@ -122,11 +131,12 @@
       "headings": [
         "BERMAQ"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://buloneriasantafe.odoo.com/shop/1bohidro150d2100wb-hidrolavadora-2100-w-150-bar-bosch-ghp-220-0600910eh0-000-135592",
-      "checked": "2026-10-01T20:25:26.054528+00:00",
+      "checked": "2026-10-01T21:03:40.915745+00:00",
       "status": 200,
       "final_url": "https://buloneriasantafe.odoo.com/shop/1bohidro150d2100wb-hidrolavadora-2100-w-150-bar-bosch-ghp-220-0600910eh0-000-135592",
       "content_type": "text/html; charset=utf-8",
@@ -134,18 +144,20 @@
       "headings": [
         "Hidrolavadora 2100 w 150 bar bosch GHP 220 (0600910EH0-000)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://cdn.rumbosrl.com.ar/uploads/products/pdfs/despieces/1040550_DESPIECE_2024.pdf",
-      "checked": "2026-10-01T20:25:26.799908+00:00",
+      "checked": "2026-10-01T21:03:41.051953+00:00",
       "status": 200,
       "final_url": "https://cdn.rumbosrl.com.ar/uploads/products/pdfs/despieces/1040550_DESPIECE_2024.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios",
-      "checked": "2026-10-01T20:25:27.209358+00:00",
+      "checked": "2026-10-01T21:03:41.112616+00:00",
       "status": 200,
       "final_url": "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios",
       "content_type": "text/html; charset=utf-8",
@@ -153,25 +165,28 @@
       "headings": [
         "HIDROLAVADORA EMONA F 200 BAR / 21 LTS X MIN – TRIF. 10 HP – COMPLETA C/ACCESORIOS"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2023/05/Manual_G2516AR.pdf",
-      "checked": "2026-10-01T20:25:27.290209+00:00",
+      "checked": "2026-10-01T21:03:41.254185+00:00",
       "status": 200,
       "final_url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2023/05/Manual_G2516AR.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2024/07/G2521AR_MANUAL.pdf",
-      "checked": "2026-10-01T20:25:27.301406+00:00",
+      "checked": "2026-10-01T21:03:41.317056+00:00",
       "status": 200,
       "final_url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2024/07/G2521AR_MANUAL.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://hyundaiherramientas.com.ar/categoria-producto/hidrolavadoras/",
-      "checked": "2026-10-01T20:25:27.358733+00:00",
+      "checked": "2026-10-01T21:03:41.350073+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/categoria-producto/hidrolavadoras/",
       "content_type": "text/html; charset=UTF-8",
@@ -179,11 +194,12 @@
       "headings": [
         "Hidrolavadoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600-w-hyew65/",
-      "checked": "2026-10-01T20:25:27.366455+00:00",
+      "checked": "2026-10-01T21:03:41.581449+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600-w-hyew65/",
       "content_type": "text/html; charset=UTF-8",
@@ -191,11 +207,12 @@
       "headings": [
         "Hidrolavadora 1600 W – HYEW65"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600w-120-bar/",
-      "checked": "2026-10-01T20:25:27.369499+00:00",
+      "checked": "2026-10-01T21:03:41.740797+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1600w-120-bar/",
       "content_type": "text/html; charset=UTF-8",
@@ -203,11 +220,12 @@
       "headings": [
         "Hidrolavadora 1600W 105 Bar"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1700-w-hyew100/",
-      "checked": "2026-10-01T20:25:27.510937+00:00",
+      "checked": "2026-10-01T21:03:42.025400+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1700-w-hyew100/",
       "content_type": "text/html; charset=UTF-8",
@@ -215,11 +233,12 @@
       "headings": [
         "Hidrolavadora 1700 W – 810H"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1800-w-hyew100/",
-      "checked": "2026-10-01T20:25:27.630748+00:00",
+      "checked": "2026-10-01T21:03:42.657382+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-1800-w-hyew100/",
       "content_type": "text/html; charset=UTF-8",
@@ -227,11 +246,12 @@
       "headings": [
         "Hidrolavadora 1800 W – HYEW100"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-2500w-hyew125/",
-      "checked": "2026-10-01T20:25:28.080108+00:00",
+      "checked": "2026-10-01T21:03:42.877847+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-2500w-hyew125/",
       "content_type": "text/html; charset=UTF-8",
@@ -239,11 +259,12 @@
       "headings": [
         "Hidrolavadora 1800W  820H"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-a-nafta-13hp-840h/",
-      "checked": "2026-10-01T20:25:28.509636+00:00",
+      "checked": "2026-10-01T21:03:43.008702+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/producto/hidrolavadora-a-nafta-13hp-840h/",
       "content_type": "text/html; charset=UTF-8",
@@ -251,21 +272,23 @@
       "headings": [
         "Hidrolavadora A Nafta 13HP – 840H"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/quienes-somos-2/",
-      "checked": "2026-10-01T20:25:29.219840+00:00",
+      "checked": "2026-10-01T21:03:43.140193+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/quienes-somos-2/",
       "content_type": "text/html; charset=UTF-8",
       "title": "Quines Somos - Hyundai Herramientas",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://hyundaiherramientas.com.ar/servicio-tecnico/",
-      "checked": "2026-10-01T20:25:29.590030+00:00",
+      "checked": "2026-10-01T21:03:43.456044+00:00",
       "status": 200,
       "final_url": "https://hyundaiherramientas.com.ar/servicio-tecnico/",
       "content_type": "text/html; charset=UTF-8",
@@ -273,69 +296,77 @@
       "headings": [
         "Servicio técnico en todo el país"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://listado.mercadolibre.com.ar/gamma-pro-wash-2000",
-      "checked": "2026-10-01T20:25:29.726715+00:00",
+      "checked": "2026-10-01T21:03:43.854750+00:00",
       "status": 200,
-      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fgamma-pro-wash-2000&tid=cf411822-e6e7-46b9-beab-70d42b8fad19",
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fgamma-pro-wash-2000&tid=3d5a0bd3-df39-4781-88c7-acd4ed1a30e0",
       "content_type": "text/html; charset=utf-8",
       "title": "Mercado Libre",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://listado.mercadolibre.com.ar/hidrolavadora-gamma-master-wash-2400",
-      "checked": "2026-10-01T20:25:29.821065+00:00",
+      "checked": "2026-10-01T21:03:44.027664+00:00",
       "status": 200,
-      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2400&tid=16536044-0552-495b-80bd-24d13d396b12",
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2400&tid=f104069b-39ca-4449-ab97-cfde6719e81b",
       "content_type": "text/html; charset=utf-8",
       "title": "Mercado Libre",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://listado.mercadolibre.com.ar/karcher-k2",
-      "checked": "2026-10-01T20:25:29.882311+00:00",
+      "checked": "2026-10-01T21:03:44.147386+00:00",
       "status": 200,
-      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkarcher-k2&tid=91d827ef-2132-4359-a2ec-ceba84a10c79",
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkarcher-k2&tid=4f1b5c76-53ec-4f2f-b176-7d2ff442f477",
       "content_type": "text/html; charset=utf-8",
       "title": "Mercado Libre",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf",
-      "checked": "2026-10-01T20:25:30.354110+00:00",
+      "checked": "2026-10-01T21:03:44.263424+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf",
-      "checked": "2026-10-01T20:25:30.358319+00:00",
+      "checked": "2026-10-01T21:03:44.292169+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf",
-      "checked": "2026-10-01T20:25:30.362252+00:00",
+      "checked": "2026-10-01T21:03:44.345620+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
-      "checked": "2026-10-01T20:25:30.405261+00:00",
+      "checked": "2026-10-01T21:03:44.354261+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/posventa",
-      "checked": "2026-10-01T20:25:30.421061+00:00",
+      "checked": "2026-10-01T21:03:44.402465+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/posventa",
       "content_type": "text/html; charset=UTF-8",
@@ -343,11 +374,12 @@
       "headings": [
         "Posventa"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/RHL11092R16",
-      "checked": "2026-10-01T20:25:30.438242+00:00",
+      "checked": "2026-10-01T21:03:44.420607+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/RHL11092R16",
       "content_type": "text/html; charset=UTF-8",
@@ -355,11 +387,12 @@
       "headings": [
         "MANGUERA PARA HIDROLAVADORA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/RHL120BR34",
-      "checked": "2026-10-01T20:25:30.466435+00:00",
+      "checked": "2026-10-01T21:03:44.572347+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/RHL120BR34",
       "content_type": "text/html; charset=UTF-8",
@@ -367,11 +400,12 @@
       "headings": [
         "LANZA COMPLETA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/RHL120BR35",
-      "checked": "2026-10-01T20:25:30.541459+00:00",
+      "checked": "2026-10-01T21:03:44.615277+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/RHL120BR35",
       "content_type": "text/html; charset=UTF-8",
@@ -379,11 +413,12 @@
       "headings": [
         "MANGUERA DE ALTA PRESIÓN"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/RHL13092R18",
-      "checked": "2026-10-01T20:25:30.581073+00:00",
+      "checked": "2026-10-01T21:03:44.619586+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/RHL13092R18",
       "content_type": "text/html; charset=UTF-8",
@@ -391,11 +426,12 @@
       "headings": [
         "LANZA COMPLETA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/RHL13092R19",
-      "checked": "2026-10-01T20:25:30.620821+00:00",
+      "checked": "2026-10-01T21:03:44.741557+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/RHL13092R19",
       "content_type": "text/html; charset=UTF-8",
@@ -403,11 +439,12 @@
       "headings": [
         "MANGUERA PARA HIDROLAVADORA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://mall.icbc.com.ar/maquinaria/104997835-hidrolavadora-karcher-k4-9-398-294-0-1700w-1880229-7891374107098.html",
-      "checked": "2026-10-01T20:25:30.654933+00:00",
+      "checked": "2026-10-01T21:03:44.847500+00:00",
       "status": 200,
       "final_url": "https://mall.icbc.com.ar/maquinaria/104997835-hidrolavadora-karcher-k4-9-398-294-0-1700w-1880229-7891374107098.html",
       "content_type": "text/html; charset=utf-8",
@@ -415,11 +452,12 @@
       "headings": [
         "Hidrolavadora Karcher k4 9.398-294.0 1700w"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://nogalpark.com/productos/ver/Hidrolavadora-K5-POWER-CONTROL-KARCHER",
-      "checked": "2026-10-01T20:25:30.708429+00:00",
+      "checked": "2026-10-01T21:03:44.847910+00:00",
       "status": 200,
       "final_url": "https://nogalpark.com/productos/ver/Hidrolavadora-K5-POWER-CONTROL-KARCHER",
       "content_type": "text/html",
@@ -427,11 +465,12 @@
       "headings": [
         "Producto"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://onlinestore.com.ar/products/hidrolavadora-bosch-ghp-200-1700w-2000-psi-300-l-h-220v-0600910dh0",
-      "checked": "2026-10-01T20:25:30.752030+00:00",
+      "checked": "2026-10-01T21:03:44.870478+00:00",
       "status": 200,
       "final_url": "https://onlinestore.com.ar/products/hidrolavadora-bosch-ghp-200-1700w-2000-psi-300-l-h-220v-0600910dh0",
       "content_type": "text/html; charset=utf-8",
@@ -439,11 +478,12 @@
       "headings": [
         "Hidrolavadora Bosch GHP 200 1700W 2000 PSI 300 L/H 220V - 0600910DH0"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://puntogardenia.com.ar/productos/hidrolavadora-k-5-power-control-ar-karcher-1-603-501-0/",
-      "checked": "2026-10-01T20:25:30.798975+00:00",
+      "checked": "2026-10-01T21:03:44.897448+00:00",
       "status": 200,
       "final_url": "https://puntogardenia.com.ar/productos/hidrolavadora-k-5-power-control-ar-karcher-1-603-501-0/",
       "content_type": "text/html; charset=UTF-8",
@@ -451,25 +491,28 @@
       "headings": [
         "Hidrolavadora K 5 Power Control *ar Karcher 1.603-501.0"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5811717-000-00.pdf",
-      "checked": "2026-10-01T20:25:30.841231+00:00",
+      "checked": "2026-10-01T21:03:44.949319+00:00",
       "status": 200,
       "final_url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5811717-000-00.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5886564-000-00.pdf",
-      "checked": "2026-10-01T20:25:30.912731+00:00",
+      "checked": "2026-10-01T21:03:44.994681+00:00",
       "status": 200,
       "final_url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5886564-000-00.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://siglo21myh.com.ar/tienda-online/niwa-hidrolavadora-elec-2500w-160bar/",
-      "checked": "2026-10-01T20:25:31.220948+00:00",
+      "checked": "2026-10-01T21:03:45.283085+00:00",
       "status": 200,
       "final_url": "https://siglo21myh.com.ar/tienda-online/niwa-hidrolavadora-elec-2500w-160bar/",
       "content_type": "text/html; charset=UTF-8",
@@ -478,11 +521,12 @@
         "Hidrolavadora 2500W 160bar Niwa HDNW-750 10-40-750",
         "Hidrolavadora 2500W 160bar Niwa HDNW-750 10-40-750"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://sites.google.com/simpa.com.ar/despiecesgamma/gamma",
-      "checked": "2026-10-01T20:25:31.346952+00:00",
+      "checked": "2026-10-01T21:03:45.445462+00:00",
       "status": 200,
       "final_url": "https://sites.google.com/simpa.com.ar/despiecesgamma/gamma",
       "content_type": "text/html; charset=utf-8",
@@ -490,11 +534,12 @@
       "headings": [
         "DESPIECES"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.miguelangelpapa.com.ar/productos/hidrolavadora-karcher-k-2-car-black/",
-      "checked": "2026-10-01T20:25:31.618336+00:00",
+      "checked": "2026-10-01T21:03:45.526468+00:00",
       "status": 200,
       "final_url": "https://tienda.miguelangelpapa.com.ar/productos/hidrolavadora-karcher-k-2-car-black/",
       "content_type": "text/html; charset=UTF-8",
@@ -502,11 +547,12 @@
       "headings": [
         "HIDROLAVADORA KARCHER K 2 CAR BLACK"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.reginato.com.ar/producto/87911/hidrolavadora-karcher-k4-power-control-limpieza-de-alta-presion-domestica/",
-      "checked": "2026-10-01T20:25:31.773242+00:00",
+      "checked": "2026-10-01T21:03:45.708402+00:00",
       "status": 200,
       "final_url": "https://tienda.reginato.com.ar/producto/87911/hidrolavadora-karcher-k4-power-control-limpieza-de-alta-presion-domestica/",
       "content_type": "text/html; charset=utf-8",
@@ -514,11 +560,12 @@
       "headings": [
         "Hidrolavadora KÄRCHER K4 Power Control: Limpieza de Alta Presión Doméstica"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150",
-      "checked": "2026-10-01T20:25:31.933845+00:00",
+      "checked": "2026-10-01T21:03:45.802891+00:00",
       "status": 200,
       "final_url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150",
       "content_type": "text/html; charset=utf-8",
@@ -528,11 +575,12 @@
         "Promos con Tarjeta SPS",
         "Promos con Tarjeta First Data"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70",
-      "checked": "2026-10-01T20:25:31.945185+00:00",
+      "checked": "2026-10-01T21:03:45.818715+00:00",
       "status": 200,
       "final_url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70",
       "content_type": "text/html; charset=utf-8",
@@ -542,11 +590,12 @@
         "Promos con Tarjeta SPS",
         "Promos con Tarjeta First Data"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500",
-      "checked": "2026-10-01T20:25:32.308555+00:00",
+      "checked": "2026-10-01T21:03:45.895591+00:00",
       "status": 200,
       "final_url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500",
       "content_type": "text/html; charset=utf-8",
@@ -556,11 +605,12 @@
         "Promos con Tarjeta SPS",
         "Promos con Tarjeta First Data"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700",
-      "checked": "2026-10-01T20:25:32.448260+00:00",
+      "checked": "2026-10-01T21:03:46.039418+00:00",
       "status": 200,
       "final_url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700",
       "content_type": "text/html; charset=utf-8",
@@ -570,11 +620,12 @@
         "Promos con Tarjeta SPS",
         "Promos con Tarjeta First Data"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10",
-      "checked": "2026-10-01T20:25:33.172851+00:00",
+      "checked": "2026-10-01T21:03:46.410936+00:00",
       "status": 200,
       "final_url": "https://tienda.rumbosrl.com.ar/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10",
       "content_type": "text/html; charset=utf-8",
@@ -584,11 +635,12 @@
         "Promos con Tarjeta SPS",
         "Promos con Tarjeta First Data"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://tienda.stihl.com.ar/garantia",
-      "checked": "2026-10-01T20:25:33.484529+00:00",
+      "checked": "2026-10-01T21:03:47.298840+00:00",
       "status": 200,
       "final_url": "https://tienda.stihl.com.ar/garantia",
       "content_type": "text/html; charset=utf-8",
@@ -598,7 +650,7 @@
     },
     {
       "url": "https://tienda.stihl.com.ar/hidrolavadora-rca20/p",
-      "checked": "2026-10-01T20:25:34.850187+00:00",
+      "checked": "2026-10-01T21:03:48.417100+00:00",
       "status": 200,
       "final_url": "https://tienda.stihl.com.ar/hidrolavadora-rca20/p",
       "content_type": "text/html; charset=utf-8",
@@ -608,7 +660,7 @@
     },
     {
       "url": "https://tienda.stihl.com.ar/hidrolavadora-re120/p",
-      "checked": "2026-10-01T20:25:34.937970+00:00",
+      "checked": "2026-10-01T21:03:48.557783+00:00",
       "status": 200,
       "final_url": "https://tienda.stihl.com.ar/hidrolavadora-re120/p",
       "content_type": "text/html; charset=utf-8",
@@ -618,7 +670,7 @@
     },
     {
       "url": "https://tienda.stihl.com.ar/hidrolavadora-re150/p",
-      "checked": "2026-10-01T20:25:35.276748+00:00",
+      "checked": "2026-10-01T21:03:48.748445+00:00",
       "status": 200,
       "final_url": "https://tienda.stihl.com.ar/hidrolavadora-re150/p",
       "content_type": "text/html; charset=utf-8",
@@ -628,7 +680,7 @@
     },
     {
       "url": "https://tienda.stihl.com.ar/manuales",
-      "checked": "2026-10-01T20:25:35.643987+00:00",
+      "checked": "2026-10-01T21:03:48.754687+00:00",
       "status": 200,
       "final_url": "https://tienda.stihl.com.ar/manuales",
       "content_type": "text/html; charset=utf-8",
@@ -638,7 +690,7 @@
     },
     {
       "url": "https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-150-bar-black-decker-2000w-bepw2200-2175-psi-naranja-50-hz60-hz-159609.html",
-      "checked": "2026-10-01T20:25:36.142115+00:00",
+      "checked": "2026-10-01T21:03:49.145751+00:00",
       "status": 200,
       "final_url": "https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-150-bar-black-decker-2000w-bepw2200-2175-psi-naranja-50-hz60-hz-159609.html",
       "content_type": "text/html; charset=UTF-8",
@@ -646,11 +698,12 @@
       "headings": [
         "Hidrolavadora 150 Bar Black Decker 2000w Bepw2200 2175 Psi Naranja 50 Hz/60 Hz"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html",
-      "checked": "2026-10-01T20:25:36.399221+00:00",
+      "checked": "2026-10-01T21:03:49.460589+00:00",
       "status": 200,
       "final_url": "https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html",
       "content_type": "text/html; charset=UTF-8",
@@ -658,11 +711,12 @@
       "headings": [
         "Hidrolavadora Agua Fria Comet K250 190bar Trifasica Italiana Gris 50hz"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.agrosolucionesgarcia.com.ar/productos/hidrolavadora-electrica-hdnw-700-niwa/",
-      "checked": "2026-10-01T20:25:36.733080+00:00",
+      "checked": "2026-10-01T21:03:50.329944+00:00",
       "status": 200,
       "final_url": "https://www.agrosolucionesgarcia.com.ar/productos/hidrolavadora-electrica-hdnw-700-niwa/",
       "content_type": "text/html; charset=UTF-8",
@@ -670,11 +724,12 @@
       "headings": [
         "HIDROLAVADORA ELECTRICA HDNW-700 NIWA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/hidrolavadoras-209514-ocs-c/",
-      "checked": "2026-10-01T20:25:36.836298+00:00",
+      "checked": "2026-10-01T21:03:50.675671+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/hidrolavadoras-209514-ocs-c/",
       "content_type": "text/html;charset=UTF-8",
@@ -682,11 +737,12 @@
       "headings": [
         "Hidrolavadoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/ghp-180-0600910CH0",
-      "checked": "2026-10-01T20:25:37.553581+00:00",
+      "checked": "2026-10-01T21:03:50.688371+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/ghp-180-0600910CH0",
       "content_type": "text/html;charset=UTF-8",
@@ -694,11 +750,12 @@
       "headings": [
         "PRO GHP 180"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/ghp-200-0600910DH0",
-      "checked": "2026-10-01T20:25:37.653584+00:00",
+      "checked": "2026-10-01T21:03:50.709488+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/ghp-200-0600910DH0",
       "content_type": "text/html;charset=UTF-8",
@@ -706,11 +763,12 @@
       "headings": [
         "PRO GHP 200"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0",
-      "checked": "2026-10-01T20:25:37.710337+00:00",
+      "checked": "2026-10-01T21:03:50.825338+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0",
       "content_type": "text/html;charset=UTF-8",
@@ -718,11 +776,12 @@
       "headings": [
         "GHP 220"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0",
-      "checked": "2026-10-01T20:25:38.122389+00:00",
+      "checked": "2026-10-01T21:03:51.590549+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0",
       "content_type": "text/html;charset=UTF-8",
@@ -730,18 +789,20 @@
       "headings": [
         "GHP 4-50"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/binary/manualsmedia/o485788v21_F016L94691_202408.pdf",
-      "checked": "2026-10-01T20:25:38.632358+00:00",
+      "checked": "2026-10-01T21:03:51.873884+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o485788v21_F016L94691_202408.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.buloneraluro.com.ar/productos/einhell-4140160-hypresso-36-105-hidrolavadora-inalambrica-alta-presion/",
-      "checked": "2026-10-01T20:25:38.918958+00:00",
+      "checked": "2026-10-01T21:03:52.727570+00:00",
       "status": 200,
       "final_url": "https://www.buloneraluro.com.ar/productos/einhell-4140160-hypresso-36-105-hidrolavadora-inalambrica-alta-presion/",
       "content_type": "text/html; charset=UTF-8",
@@ -749,11 +810,12 @@
       "headings": [
         "Einhell 4140160 HYPRESSO 36/105, Hidrolavadora inalámbrica alta presión"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/",
-      "checked": "2026-10-01T20:25:39.432245+00:00",
+      "checked": "2026-10-01T21:03:52.761648+00:00",
       "status": 200,
       "final_url": "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-maintenance/air-conditioner-coil-cleaning/",
       "content_type": "text/html; charset=utf-8",
@@ -761,11 +823,12 @@
       "headings": [
         "How To Clean AC Coils: AC Coil Cleaner Tips"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.centrodemateriales.com.ar/producto/1113940360-bosch-hidrolavadora-170-bar-2200-watts-ghp-4-50",
-      "checked": "2026-10-01T20:25:39.445159+00:00",
+      "checked": "2026-10-01T21:03:52.823608+00:00",
       "status": 200,
       "final_url": "https://www.centrodemateriales.com.ar/producto/1113940360-bosch-hidrolavadora-170-bar-2200-watts-ghp-4-50",
       "content_type": "text/html; charset=UTF-8",
@@ -773,11 +836,12 @@
       "headings": [
         "Bosch Hidrolavadora 170 Bar 2200 Watts Ghp 4-50"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.centrodemateriales.com.ar/producto/1624401598-bosch-hidrolavadora-124-bar-1500-watts-ghp-180",
-      "checked": "2026-10-01T20:25:39.605024+00:00",
+      "checked": "2026-10-01T21:03:52.943921+00:00",
       "status": 200,
       "final_url": "https://www.centrodemateriales.com.ar/producto/1624401598-bosch-hidrolavadora-124-bar-1500-watts-ghp-180",
       "content_type": "text/html; charset=UTF-8",
@@ -785,11 +849,12 @@
       "headings": [
         "Bosch Hidrolavadora 124 Bar 1500 Watts Ghp 180"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.cetrogar.com.ar/hidrolavadora-bepw1800t-ar-125-bar-he1590/p",
-      "checked": "2026-10-01T20:25:39.741617+00:00",
+      "checked": "2026-10-01T21:03:52.944960+00:00",
       "status": 200,
       "final_url": "https://www.cetrogar.com.ar/hidrolavadora-bepw1800t-ar-125-bar-he1590/p",
       "content_type": "text/html; charset=utf-8",
@@ -797,11 +862,12 @@
       "headings": [
         "Hidrolavadora BEPW1800T-AR 125 bar"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.coniferaltienda.com.ar/productos/hidrolavadora-hyundai-2500w-200bar-820h-1mlmt/",
-      "checked": "2026-10-01T20:25:39.852377+00:00",
+      "checked": "2026-10-01T21:03:53.045235+00:00",
       "status": 200,
       "final_url": "https://www.coniferaltienda.com.ar/productos/hidrolavadora-hyundai-2500w-200bar-820h-1mlmt/",
       "content_type": "text/html; charset=UTF-8",
@@ -809,18 +875,20 @@
       "headings": [
         "Hidrolavadora Hyundai 2500W 200BAR 820H"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf",
-      "checked": "2026-10-01T20:25:39.999348+00:00",
+      "checked": "2026-10-01T21:03:53.133097+00:00",
       "status": 200,
       "final_url": "https://www.daikin.eu/content/dam/document-library/installation-manuals/ac/rooftop/uatya-bbay1/UATYA_BBAY1_BFC2Y1_BFC3Y1_Installation%20use%20and%20maintenance%20manual_4PEN645202-2%20_English.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.einhell.com.ar/c/hidrolavadoras/",
-      "checked": "2026-10-01T20:25:40.257637+00:00",
+      "checked": "2026-10-01T21:03:53.310577+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/c/hidrolavadoras/",
       "content_type": "text/html; charset=utf-8",
@@ -828,18 +896,20 @@
       "headings": [
         "Hidrolavadoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf",
-      "checked": "2026-10-01T20:25:40.304448+00:00",
+      "checked": "2026-10-01T21:03:53.440742+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/",
-      "checked": "2026-10-01T20:25:40.325684+00:00",
+      "checked": "2026-10-01T21:03:53.475033+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4140130-hypresso-18-24-li/",
       "content_type": "text/html; charset=utf-8",
@@ -847,11 +917,12 @@
       "headings": [
         "HYPRESSO 18/24 Li"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4140135-hypresso-18-24-1/",
-      "checked": "2026-10-01T20:25:40.435660+00:00",
+      "checked": "2026-10-01T21:03:53.501601+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4140135-hypresso-18-24-1/",
       "content_type": "text/html; charset=utf-8",
@@ -859,11 +930,12 @@
       "headings": [
         "HYPRESSO 18/24-1"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4140160-hypresso-36-105/",
-      "checked": "2026-10-01T20:25:40.611135+00:00",
+      "checked": "2026-10-01T21:03:53.682265+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4140160-hypresso-36-105/",
       "content_type": "text/html; charset=utf-8",
@@ -871,11 +943,12 @@
       "headings": [
         "HYPRESSO 36/105"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4140740-tc-hp-90/",
-      "checked": "2026-10-01T20:25:40.630752+00:00",
+      "checked": "2026-10-01T21:03:53.847540+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4140740-tc-hp-90/",
       "content_type": "text/html; charset=utf-8",
@@ -883,11 +956,12 @@
       "headings": [
         "TC-HP 90"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/servicio/servicios-tecnicos-autorizados/",
-      "checked": "2026-10-01T20:25:40.892982+00:00",
+      "checked": "2026-10-01T21:03:53.886017+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/servicio/servicios-tecnicos-autorizados/",
       "content_type": "text/html; charset=utf-8",
@@ -895,11 +969,12 @@
       "headings": [
         "Servicio Técnico autorizado, cerca tuyo!"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.gammaherramientas.com.ar/categoria-producto/hidrolavadoras-comet/",
-      "checked": "2026-10-01T20:25:40.967130+00:00",
+      "checked": "2026-10-01T21:03:54.145195+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/categoria-producto/hidrolavadoras-comet/",
       "content_type": "text/html; charset=UTF-8",
@@ -909,7 +984,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/categoria-producto/hidrolavadoras/",
-      "checked": "2026-10-01T20:25:41.324523+00:00",
+      "checked": "2026-10-01T21:03:54.345658+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/categoria-producto/hidrolavadoras/",
       "content_type": "text/html; charset=UTF-8",
@@ -919,7 +994,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/la-empresa/",
-      "checked": "2026-10-01T20:25:41.340113+00:00",
+      "checked": "2026-10-01T21:03:54.395694+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/la-empresa/",
       "content_type": "text/html; charset=UTF-8",
@@ -929,7 +1004,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/annovi-935/",
-      "checked": "2026-10-01T20:25:41.397301+00:00",
+      "checked": "2026-10-01T21:03:54.444738+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/annovi-935/",
       "content_type": "text/html; charset=UTF-8",
@@ -939,7 +1014,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/",
-      "checked": "2026-10-01T20:25:41.474623+00:00",
+      "checked": "2026-10-01T21:03:54.654861+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-130-elite/",
       "content_type": "text/html; charset=UTF-8",
@@ -949,7 +1024,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/",
-      "checked": "2026-10-01T20:25:43.446325+00:00",
+      "checked": "2026-10-01T21:03:54.657446+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/",
       "content_type": "text/html; charset=UTF-8",
@@ -959,7 +1034,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-1600/",
-      "checked": "2026-10-01T20:25:44.488368+00:00",
+      "checked": "2026-10-01T21:03:56.187511+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-1600/",
       "content_type": "text/html; charset=UTF-8",
@@ -969,7 +1044,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-170-elite/",
-      "checked": "2026-10-01T20:25:44.880423+00:00",
+      "checked": "2026-10-01T21:03:56.534366+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-170-elite/",
       "content_type": "text/html; charset=UTF-8",
@@ -979,7 +1054,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-10-150-classic/",
-      "checked": "2026-10-01T20:25:45.243661+00:00",
+      "checked": "2026-10-01T21:03:56.752845+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-10-150-classic/",
       "content_type": "text/html; charset=UTF-8",
@@ -989,7 +1064,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/",
-      "checked": "2026-10-01T20:25:45.939903+00:00",
+      "checked": "2026-10-01T21:03:57.001346+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/",
       "content_type": "text/html; charset=UTF-8",
@@ -999,7 +1074,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/",
-      "checked": "2026-10-01T20:25:46.228561+00:00",
+      "checked": "2026-10-01T21:03:57.121485+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/",
       "content_type": "text/html; charset=UTF-8",
@@ -1009,7 +1084,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-kp-pro-classic-3-10-10-150-m/",
-      "checked": "2026-10-01T20:25:47.208329+00:00",
+      "checked": "2026-10-01T21:03:58.026480+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-kp-pro-classic-3-10-10-150-m/",
       "content_type": "text/html; charset=UTF-8",
@@ -1019,7 +1094,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-duo-clean-1600/",
-      "checked": "2026-10-01T20:25:48.476319+00:00",
+      "checked": "2026-10-01T21:03:58.626616+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-duo-clean-1600/",
       "content_type": "text/html; charset=UTF-8",
@@ -1029,7 +1104,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-master-wash-1500-1200w/",
-      "checked": "2026-10-01T20:25:48.877635+00:00",
+      "checked": "2026-10-01T21:04:00.054996+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-master-wash-1500-1200w/",
       "content_type": "text/html; charset=UTF-8",
@@ -1039,7 +1114,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-masterwash-2400/",
-      "checked": "2026-10-01T20:25:49.044606+00:00",
+      "checked": "2026-10-01T21:04:00.086003+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-masterwash-2400/",
       "content_type": "text/html; charset=UTF-8",
@@ -1049,7 +1124,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-masterwash-2800/",
-      "checked": "2026-10-01T20:25:49.114856+00:00",
+      "checked": "2026-10-01T21:04:00.201232+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-masterwash-2800/",
       "content_type": "text/html; charset=UTF-8",
@@ -1059,7 +1134,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-omega-hynox-200/",
-      "checked": "2026-10-01T20:25:49.213629+00:00",
+      "checked": "2026-10-01T21:04:00.212272+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-omega-hynox-200/",
       "content_type": "text/html; charset=UTF-8",
@@ -1069,7 +1144,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-premiumwash-3000/",
-      "checked": "2026-10-01T20:25:50.375409+00:00",
+      "checked": "2026-10-01T21:04:00.481393+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-premiumwash-3000/",
       "content_type": "text/html; charset=UTF-8",
@@ -1079,7 +1154,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-prowash-1500/",
-      "checked": "2026-10-01T20:25:51.013050+00:00",
+      "checked": "2026-10-01T21:04:01.219818+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-prowash-1500/",
       "content_type": "text/html; charset=UTF-8",
@@ -1089,7 +1164,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-prowash-2000/",
-      "checked": "2026-10-01T20:25:51.532929+00:00",
+      "checked": "2026-10-01T21:04:03.121863+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-prowash-2000/",
       "content_type": "text/html; charset=UTF-8",
@@ -1099,7 +1174,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
-      "checked": "2026-10-01T20:25:51.720482+00:00",
+      "checked": "2026-10-01T21:04:03.409787+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
       "content_type": "text/html; charset=UTF-8",
@@ -1109,45 +1184,50 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/05/ManualG2518.pdf",
-      "checked": "2026-10-01T20:25:51.969544+00:00",
+      "checked": "2026-10-01T21:04:03.574210+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/05/ManualG2518.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-127-gamma-elite_G2509AR-102-manual.pdf",
-      "checked": "2026-10-01T20:25:51.996542+00:00",
+      "checked": "2026-10-01T21:04:03.606301+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-127-gamma-elite_G2509AR-102-manual.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf",
-      "checked": "2026-10-01T20:25:52.028171+00:00",
+      "checked": "2026-10-01T21:04:03.650359+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-130-elite_G2513AR-102-manual.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf",
-      "checked": "2026-10-01T20:25:52.081065+00:00",
+      "checked": "2026-10-01T21:04:03.685930+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/hidrolavadoras-para-agua-fria_hidrolavadora-150-elite_G2514AR-102-manual.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.herramientaseinhell.com.ar/",
-      "checked": "2026-10-01T20:25:52.111945+00:00",
+      "checked": "2026-10-01T21:04:03.733843+00:00",
       "status": 200,
       "final_url": "https://www.herramientaseinhell.com.ar/",
       "content_type": "text/html; charset=UTF-8",
       "title": "Herramientas Einhell",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.herramientaseinhell.com.ar/producto/hidrolavadora-inalambrica-hypresso-36-105/",
-      "checked": "2026-10-01T20:25:53.216970+00:00",
+      "checked": "2026-10-01T21:04:03.745636+00:00",
       "status": 200,
       "final_url": "https://www.herramientaseinhell.com.ar/producto/hidrolavadora-inalambrica-hypresso-36-105/",
       "content_type": "text/html; charset=UTF-8",
@@ -1155,11 +1235,12 @@
       "headings": [
         "Hidrolavadora inalámbrica HYPRESSO 36/105"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.herramientaseinhell.com.ar/producto/hidrolavadora-te-hp-140/",
-      "checked": "2026-10-01T20:25:53.462854+00:00",
+      "checked": "2026-10-01T21:04:03.998908+00:00",
       "status": 200,
       "final_url": "https://www.herramientaseinhell.com.ar/producto/hidrolavadora-te-hp-140/",
       "content_type": "text/html; charset=UTF-8",
@@ -1167,11 +1248,12 @@
       "headings": [
         "Hidrolavadora TE-HP 140"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.herramientaseinhell.com.ar/producto/lavadora-a-presion-hypresso-18-24-li-a-bateria/",
-      "checked": "2026-10-01T20:25:53.600656+00:00",
+      "checked": "2026-10-01T21:04:04.030470+00:00",
       "status": 200,
       "final_url": "https://www.herramientaseinhell.com.ar/producto/lavadora-a-presion-hypresso-18-24-li-a-bateria/",
       "content_type": "text/html; charset=UTF-8",
@@ -1179,11 +1261,12 @@
       "headings": [
         "Hidrolavadora a bateria HYPRESSO 18/24-1 Li"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.hogarhermanos.ar/productos/hidrolavadora-gamma-pro-wash-1500-g-2516-ar/",
-      "checked": "2026-10-01T20:25:53.735387+00:00",
+      "checked": "2026-10-01T21:04:05.445061+00:00",
       "status": 200,
       "final_url": "https://www.hogarhermanos.ar/productos/hidrolavadora-gamma-pro-wash-1500-g-2516-ar/",
       "content_type": "text/html; charset=UTF-8",
@@ -1191,11 +1274,12 @@
       "headings": [
         "Hidrolavadora Gamma Pro Wash 1500 G-2516 Ar"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/accesorios/fj-3-boquilla-para-espuma-47642790.html",
-      "checked": "2026-10-01T20:25:54.107177+00:00",
+      "checked": "2026-10-01T21:04:05.654765+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/accesorios/fj-3-boquilla-para-espuma-47642790.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1203,11 +1287,12 @@
       "headings": [
         "FJ 3 boquilla para espuma"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html",
-      "checked": "2026-10-01T20:25:54.537694+00:00",
+      "checked": "2026-10-01T21:04:05.728597+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/accesorios/manguera-de-alta-presion-12mpa-4-40-c-nq-63965250.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1215,11 +1300,12 @@
       "headings": [
         "Manguera de alta presión 12MPa/4 40°C NQ"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/consejos-de-utilizacion/limpieza-de-vehiculos.html",
-      "checked": "2026-10-01T20:25:54.600451+00:00",
+      "checked": "2026-10-01T21:04:05.761971+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/consejos-de-utilizacion/limpieza-de-vehiculos.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1227,11 +1313,12 @@
       "headings": [
         "Limpieza de vehículos"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html",
-      "checked": "2026-10-01T20:25:54.658542+00:00",
+      "checked": "2026-10-01T21:04:05.862624+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-2-basic-black-19943220.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1239,11 +1326,12 @@
       "headings": [
         "Hidrolavadora                                            K 2 Basic Black"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html",
-      "checked": "2026-10-01T20:25:54.711157+00:00",
+      "checked": "2026-10-01T21:04:05.890500+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1251,11 +1339,12 @@
       "headings": [
         "Hidrolavadora                                            K 3 Black Edition"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html",
-      "checked": "2026-10-01T20:25:55.127460+00:00",
+      "checked": "2026-10-01T21:04:06.309555+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1263,11 +1352,12 @@
       "headings": [
         "Hidrolavadora                                            K 4 Power Control"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-5-93982950.html",
-      "checked": "2026-10-01T20:25:55.249984+00:00",
+      "checked": "2026-10-01T21:04:06.849174+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-5-93982950.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1275,11 +1365,12 @@
       "headings": [
         "Hidrolavadora                                            K 5"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k4-93982940.html",
-      "checked": "2026-10-01T20:25:55.304503+00:00",
+      "checked": "2026-10-01T21:04:06.884570+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k4-93982940.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1287,11 +1378,12 @@
       "headings": [
         "Hidrolavadora                                            K 4"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/servicios/asistencia.html",
-      "checked": "2026-10-01T20:25:55.659467+00:00",
+      "checked": "2026-10-01T21:04:06.944030+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/servicios/asistencia.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1299,11 +1391,12 @@
       "headings": [
         "SOPORTE"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/servicios/asistencia/faq.html",
-      "checked": "2026-10-01T20:25:55.791483+00:00",
+      "checked": "2026-10-01T21:04:07.003462+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/servicios/asistencia/faq.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1311,11 +1404,12 @@
       "headings": [
         "FAQ Kärcher"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion.html",
-      "checked": "2026-10-01T20:25:55.900122+00:00",
+      "checked": "2026-10-01T21:04:07.205322+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1323,11 +1417,12 @@
       "headings": [
         "REPARACIONES Y CONDICIONES DE GARANTÍA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion/repuestos-originales.html",
-      "checked": "2026-10-01T20:25:56.007239+00:00",
+      "checked": "2026-10-01T21:04:07.241962+00:00",
       "status": 200,
       "final_url": "https://www.kaercher.com/ar/servicios/home-garden/garantia-y-reparacion/garantia-y-reparacion/repuestos-originales.html",
       "content_type": "text/html; charset=UTF-8",
@@ -1335,11 +1430,12 @@
       "headings": [
         "Repuestos originales Kärcher"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.karcheronline.com.ar/equipos/hidrolavadoras",
-      "checked": "2026-10-01T20:25:56.030961+00:00",
+      "checked": "2026-10-01T21:04:07.422190+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/equipos/hidrolavadoras",
       "content_type": "text/html; charset=utf-8",
@@ -1349,7 +1445,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k2-basic-black/p",
-      "checked": "2026-10-01T20:25:56.258493+00:00",
+      "checked": "2026-10-01T21:04:07.564553+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k2-basic-black/p",
       "content_type": "text/html; charset=utf-8",
@@ -1359,7 +1455,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k2-basic-boquilla-de-espuma-03-l-/p",
-      "checked": "2026-10-01T20:25:56.288594+00:00",
+      "checked": "2026-10-01T21:04:07.596050+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k2-basic-boquilla-de-espuma-03-l-/p",
       "content_type": "text/html; charset=utf-8",
@@ -1369,7 +1465,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k2-car-black/p",
-      "checked": "2026-10-01T20:25:56.375161+00:00",
+      "checked": "2026-10-01T21:04:07.620660+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k2-car-black/p",
       "content_type": "text/html; charset=utf-8",
@@ -1379,7 +1475,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k3-black-edition/p",
-      "checked": "2026-10-01T20:25:56.486874+00:00",
+      "checked": "2026-10-01T21:04:07.647744+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k3-black-edition/p",
       "content_type": "text/html; charset=utf-8",
@@ -1389,7 +1485,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k4-br/p",
-      "checked": "2026-10-01T20:25:56.744346+00:00",
+      "checked": "2026-10-01T21:04:07.763663+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k4-br/p",
       "content_type": "text/html; charset=utf-8",
@@ -1399,7 +1495,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k4-power-control/p",
-      "checked": "2026-10-01T20:25:58.664312+00:00",
+      "checked": "2026-10-01T21:04:09.998516+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k4-power-control/p",
       "content_type": "text/html; charset=utf-8",
@@ -1409,7 +1505,7 @@
     },
     {
       "url": "https://www.karcheronline.com.ar/hidrolavadora-k5-br/p",
-      "checked": "2026-10-01T20:26:00.371728+00:00",
+      "checked": "2026-10-01T21:04:10.084529+00:00",
       "status": 200,
       "final_url": "https://www.karcheronline.com.ar/hidrolavadora-k5-br/p",
       "content_type": "text/html; charset=utf-8",
@@ -1419,7 +1515,7 @@
     },
     {
       "url": "https://www.logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/",
-      "checked": "2026-10-01T20:26:00.435564+00:00",
+      "checked": "2026-10-01T21:04:10.411675+00:00",
       "status": 200,
       "final_url": "https://www.logus.com.ar/productos/hidrolavadora-105-bar-1200w-hl-105/",
       "content_type": "text/html; charset=UTF-8",
@@ -1427,25 +1523,28 @@
       "headings": [
         "Hidrolavadora 105 Bar 1200w HL-105"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "checked": "2026-10-01T20:26:00.665965+00:00",
+      "checked": "2026-10-01T21:04:10.584282+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf",
-      "checked": "2026-10-01T20:26:00.713844+00:00",
+      "checked": "2026-10-01T21:04:10.599526+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/catalogos",
-      "checked": "2026-10-01T20:26:00.717495+00:00",
+      "checked": "2026-10-01T21:04:10.633761+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/catalogos",
       "content_type": "text/html; charset=UTF-8",
@@ -1453,18 +1552,20 @@
       "headings": [
         "Catálogos"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/files/catalogo-lusqtoff-2023-2024.pdf",
-      "checked": "2026-10-01T20:26:00.735194+00:00",
+      "checked": "2026-10-01T21:04:10.654564+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/files/catalogo-lusqtoff-2023-2024.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk",
-      "checked": "2026-10-01T20:26:00.761904+00:00",
+      "checked": "2026-10-01T21:04:10.716661+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk",
       "content_type": "text/html; charset=UTF-8",
@@ -1472,11 +1573,12 @@
       "headings": [
         "HIDROLAVADORA A BATERÍA"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/HL-120",
-      "checked": "2026-10-01T20:26:00.786287+00:00",
+      "checked": "2026-10-01T21:04:10.802715+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/HL-120",
       "content_type": "text/html; charset=UTF-8",
@@ -1484,11 +1586,12 @@
       "headings": [
         "HIDROLAVADORA ELÉCTRICA • 1200 W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/HL100-7",
-      "checked": "2026-10-01T20:26:00.915214+00:00",
+      "checked": "2026-10-01T21:04:10.942144+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/HL100-7",
       "content_type": "text/html; charset=UTF-8",
@@ -1496,11 +1599,12 @@
       "headings": [
         "HIDROLAVADORA ALTA PRESIÓN • 1200 W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoffbera.com.ar/productos/hidrolavadora-electrica-1500-w-90-bar-lusqtoff-hl-150/",
-      "checked": "2026-10-01T20:26:00.995757+00:00",
+      "checked": "2026-10-01T21:04:10.983036+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoffbera.com.ar/productos/hidrolavadora-electrica-1500-w-90-bar-lusqtoff-hl-150/",
       "content_type": "text/html; charset=UTF-8",
@@ -1508,11 +1612,12 @@
       "headings": [
         "Hidrolavadora Eléctrica 1500 W 90 bar Lüsqtoff HL-150"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.macrofer.com.ar/hidrolavadora-lusqtoff-hl-100-8-alta-presion-2000w-7-5lt-m",
-      "checked": "2026-10-01T20:26:01.033986+00:00",
+      "checked": "2026-10-01T21:04:11.160283+00:00",
       "status": 200,
       "final_url": "https://www.macrofer.com.ar/hidrolavadora-lusqtoff-hl-100-8-alta-presion-2000w-7-5lt-m",
       "content_type": "text/html; charset=UTF-8",
@@ -1520,11 +1625,12 @@
       "headings": [
         "HIDROLAVADORA LUSQTOFF 2000W 7.5LT ALTA PRESIÓN - (HL100-8)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.provinciacompras.com.ar/hidrolavadora-black-decker-2175psi-150bar-bepw2200-ar-262593/p?idsku=418385",
-      "checked": "2026-10-01T20:26:01.115450+00:00",
+      "checked": "2026-10-01T21:04:11.177305+00:00",
       "status": 200,
       "final_url": "https://www.provinciacompras.com.ar/hidrolavadora-black-decker-2175psi-150bar-bepw2200-ar-262593/p?idsku=418385",
       "content_type": "text/html; charset=utf-8",
@@ -1534,7 +1640,7 @@
     },
     {
       "url": "https://www.ruggerihogar.com.ar/productos/hidrolavadora-gamma-g2513ar-elite130-1600w/",
-      "checked": "2026-10-01T20:26:01.280686+00:00",
+      "checked": "2026-10-01T21:04:11.281097+00:00",
       "status": 200,
       "final_url": "https://www.ruggerihogar.com.ar/productos/hidrolavadora-gamma-g2513ar-elite130-1600w/",
       "content_type": "text/html; charset=UTF-8",
@@ -1542,118 +1648,130 @@
       "headings": [
         "La tienda fue momentáneamente suspendida"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion",
-      "checked": "2026-10-01T20:26:01.665231+00:00",
+      "checked": "2026-10-01T21:04:11.636746+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadoras a combustión Niwa - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150-1040130",
-      "checked": "2026-10-01T20:26:01.701898+00:00",
+      "checked": "2026-10-01T21:04:11.913424+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150-1040130",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora a combustión Niwa LNW-150 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-300-1040300",
-      "checked": "2026-10-01T20:26:02.480583+00:00",
+      "checked": "2026-10-01T21:04:12.295417+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-300-1040300",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora eléctrica Niwa HDNW-300 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700-1040700",
-      "checked": "2026-10-01T20:26:02.566763+00:00",
+      "checked": "2026-10-01T21:04:12.431261+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700-1040700",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora eléctrica Niwa HDNW-700 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10-1040900",
-      "checked": "2026-10-01T20:26:02.590546+00:00",
+      "checked": "2026-10-01T21:04:12.806280+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10-1040900",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora eléctrica Niwa HDNW PRO-10 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-65-1040065",
-      "checked": "2026-10-01T20:26:03.182066+00:00",
+      "checked": "2026-10-01T21:04:13.219713+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-65-1040065",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora a combustión Niwa LNW-65 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70-1040070",
-      "checked": "2026-10-01T20:26:03.361897+00:00",
+      "checked": "2026-10-01T21:04:13.292920+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70-1040070",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora a combustión Niwa LNW-70 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas",
-      "checked": "2026-10-01T20:26:03.382932+00:00",
+      "checked": "2026-10-01T21:04:13.677973+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadoras eléctricas - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-200-1040200",
-      "checked": "2026-10-01T20:26:03.442582+00:00",
+      "checked": "2026-10-01T21:04:13.873827+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-200-1040200",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora eléctrica Niwa HDNW-200 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500-1040550",
-      "checked": "2026-10-01T20:26:03.490146+00:00",
+      "checked": "2026-10-01T21:04:14.049364+00:00",
       "status": 200,
       "final_url": "https://www.rumbosrl.com.ar/productos/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500-1040550",
       "content_type": "text/html; charset=UTF-8",
       "title": "Hidrolavadora eléctrica Niwa HDNW-500 - Grupo Rumbo SRL",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/content/dam/stihl/vu/ar/es/download-files/pdf-files/Argentina_spanish.pdf",
-      "checked": "2026-10-01T20:26:04.135370+00:00",
+      "checked": "2026-10-01T21:04:14.104722+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/content/dam/stihl/vu/ar/es/download-files/pdf-files/Argentina_spanish.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.stihl.com.ar/es/ap/re-110-81523",
-      "checked": "2026-10-01T20:26:04.270748+00:00",
+      "checked": "2026-10-01T21:04:14.172029+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/ap/re-110-81523",
       "content_type": "text/html;charset=utf-8",
@@ -1661,11 +1779,12 @@
       "headings": [
         "RE 110"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/ap/re-80-x-141950",
-      "checked": "2026-10-01T20:26:04.342288+00:00",
+      "checked": "2026-10-01T21:04:14.537304+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/ap/re-80-x-141950",
       "content_type": "text/html;charset=utf-8",
@@ -1673,11 +1792,12 @@
       "headings": [
         "RE 80 X"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/c/hidrolavadoras-98132",
-      "checked": "2026-10-01T20:26:04.393012+00:00",
+      "checked": "2026-10-01T21:04:14.706560+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/c/hidrolavadoras-98132",
       "content_type": "text/html;charset=utf-8",
@@ -1685,11 +1805,12 @@
       "headings": [
         "Hidrolavadoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/c/servicios-tiendas-especialistas-98122",
-      "checked": "2026-10-01T20:26:04.414379+00:00",
+      "checked": "2026-10-01T21:04:14.770808+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/c/servicios-tiendas-especialistas-98122",
       "content_type": "text/html;charset=utf-8",
@@ -1697,11 +1818,12 @@
       "headings": [
         "MS 201"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-rb-200-1003184",
-      "checked": "2026-10-01T20:26:04.432545+00:00",
+      "checked": "2026-10-01T21:04:14.918854+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-rb-200-1003184",
       "content_type": "text/html;charset=utf-8",
@@ -1709,11 +1831,12 @@
       "headings": [
         "RB 200"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-rb-600-78573",
-      "checked": "2026-10-01T20:26:04.776452+00:00",
+      "checked": "2026-10-01T21:04:15.782519+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-rb-600-78573",
       "content_type": "text/html;charset=utf-8",
@@ -1721,11 +1844,12 @@
       "headings": [
         "RB 600"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-120-81512",
-      "checked": "2026-10-01T20:26:06.968126+00:00",
+      "checked": "2026-10-01T21:04:16.840609+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-120-81512",
       "content_type": "text/html;charset=utf-8",
@@ -1733,11 +1857,12 @@
       "headings": [
         "RE 120"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-145-167165",
-      "checked": "2026-10-01T20:26:07.289710+00:00",
+      "checked": "2026-10-01T21:04:17.049457+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-145-167165",
       "content_type": "text/html;charset=utf-8",
@@ -1745,11 +1870,12 @@
       "headings": [
         "RE 145"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-150-109158",
-      "checked": "2026-10-01T20:26:09.014878+00:00",
+      "checked": "2026-10-01T21:04:18.954344+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-150-109158",
       "content_type": "text/html;charset=utf-8",
@@ -1757,11 +1883,12 @@
       "headings": [
         "RE 150"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963",
-      "checked": "2026-10-01T20:26:09.389448+00:00",
+      "checked": "2026-10-01T21:04:19.681136+00:00",
       "status": 200,
       "final_url": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963",
       "content_type": "text/html;charset=utf-8",
@@ -1769,11 +1896,12 @@
       "headings": [
         "RE 90"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.tienda.pintureriaespana.com.ar/productos/hidrolavadora-gamma-elite-150-bar-1700w-g2514ar/",
-      "checked": "2026-10-01T20:26:09.683100+00:00",
+      "checked": "2026-10-01T21:04:19.740372+00:00",
       "status": 200,
       "final_url": "https://www.tienda.pintureriaespana.com.ar/productos/hidrolavadora-gamma-elite-150-bar-1700w-g2514ar/",
       "content_type": "text/html; charset=UTF-8",
@@ -1781,11 +1909,12 @@
       "headings": [
         "Hidrolavadora Gamma Elite 150 Bar 1700w G2514ar"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.todomaq.com.ar/shop/kr16034020-hidrolavadora-karcher-k4-power-control-15521",
-      "checked": "2026-10-01T20:26:10.528193+00:00",
+      "checked": "2026-10-01T21:04:20.396922+00:00",
       "status": 200,
       "final_url": "https://www.todomaq.com.ar/shop/kr16034020-hidrolavadora-karcher-k4-power-control-15521",
       "content_type": "text/html; charset=utf-8",
@@ -1793,11 +1922,12 @@
       "headings": [
         "Hidrolavadora Kärcher K4 POWER CONTROL"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.todomaq.com.ar/shop/kr93982950-hidrolavadora-karcher-k5-15950",
-      "checked": "2026-10-01T20:26:10.758986+00:00",
+      "checked": "2026-10-01T21:04:20.512224+00:00",
       "status": 200,
       "final_url": "https://www.todomaq.com.ar/shop/kr93982950-hidrolavadora-karcher-k5-15950",
       "content_type": "text/html; charset=utf-8",
@@ -1805,24 +1935,26 @@
       "headings": [
         "Hidrolavadora Kärcher K5"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.toolminator.com.ar/productos/hidrolavadora-einhell-tc-hp-130-390l-h-130bar-1500w/",
-      "checked": "2026-10-01T20:26:12.123572+00:00",
+      "checked": "2026-10-01T21:04:20.599213+00:00",
       "status": null,
       "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1081)>"
     },
     {
       "url": "https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/AR/BEPW2200/1/Instruction_Manual/EN/NA090017_BEPW_1600_1600L_1750_1800_2200-T1-LA.pdf",
-      "checked": "2026-10-01T20:26:12.301978+00:00",
+      "checked": "2026-10-01T21:04:20.681192+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/AR/BEPW2200/1/Instruction_Manual/EN/NA090017_BEPW_1600_1600L_1750_1800_2200-T1-LA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.wipcool.com/portable-hvac-ac-condenser-evaporator-coils-service-cleaning-machine-product/",
-      "checked": "2026-10-01T20:26:12.309454+00:00",
+      "checked": "2026-10-01T21:04:20.729549+00:00",
       "status": 200,
       "final_url": "https://www.wipcool.com/portable-hvac-ac-condenser-evaporator-coils-service-cleaning-machine-product/",
       "content_type": "text/html; charset=UTF-8",
@@ -1830,11 +1962,12 @@
       "headings": [
         "WIPCOOL Portable Coil Cleaning Machine C10 Professional indoor/outdoor AC fin cleaning for efficiency"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.wipcool.com/steam-cleaning-machine-c30s-product/",
-      "checked": "2026-10-01T20:26:12.933144+00:00",
+      "checked": "2026-10-01T21:04:21.186071+00:00",
       "status": 200,
       "final_url": "https://www.wipcool.com/steam-cleaning-machine-c30s-product/",
       "content_type": "text/html; charset=UTF-8",
@@ -1842,11 +1975,12 @@
       "headings": [
         "WIPCOOL Steam Cleaning Machine C30S Versatile steam solution for home cleaning needs"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.zentienda.com.ar/productos/hidrolavadora-einhell-hypresso-18-24-1-sin-bateria-4140135/",
-      "checked": "2026-10-01T20:26:13.233982+00:00",
+      "checked": "2026-10-01T21:04:22.100850+00:00",
       "status": 200,
       "final_url": "https://www.zentienda.com.ar/password/",
       "content_type": "text/html; charset=UTF-8",
@@ -1855,6 +1989,7 @@
       "generic_redirect": false
     }
   ],
+  "source_history": [],
   "rows": [
     {
       "path": "/hidrolavadoras/comparativa-general/",

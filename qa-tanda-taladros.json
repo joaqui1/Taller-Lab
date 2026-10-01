@@ -1,12 +1,12 @@
 {
   "section": "taladros",
-  "checked": "2026-10-01T20:25:54.288354+00:00",
+  "checked": "2026-10-01T21:03:29.810481+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
     {
       "url": "https://ar.blackanddecker.global/producto/bcd702c1-ar/taladro-inalambrico-20v-max-litio",
-      "checked": "2026-10-01T20:25:26.681147+00:00",
+      "checked": "2026-10-01T21:02:34.051452+00:00",
       "status": 200,
       "final_url": "https://ar.blackanddecker.global/producto/bcd702c1-ar/taladro-inalambrico-20v-max-litio",
       "content_type": "text/html; charset=UTF-8",
@@ -14,11 +14,12 @@
       "headings": [
         "Taladro Inalambrico 20V MAX* Litio"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/sbd710c2k-ar/taladro-atornillador-13mm-20v-sin-carbones-brushless-2-baterias-y-maleta",
-      "checked": "2026-10-01T20:25:26.682086+00:00",
+      "checked": "2026-10-01T21:02:34.052465+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/sbd710c2k-ar/taladro-atornillador-13mm-20v-sin-carbones-brushless-2-baterias-y-maleta",
       "content_type": "text/html; charset=UTF-8",
@@ -26,11 +27,12 @@
       "headings": [
         "Taladro Atornillador 13mm 20V Sin Carbones / Brushless + 2 Baterías Y Maleta"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/sbd715c2k-ar/taladro-percutor-13mm-20v-brushless-2-baterias-y-maleta",
-      "checked": "2026-10-01T20:25:26.682629+00:00",
+      "checked": "2026-10-01T21:02:34.053090+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/sbd715c2k-ar/taladro-percutor-13mm-20v-brushless-2-baterias-y-maleta",
       "content_type": "text/html; charset=UTF-8",
@@ -38,11 +40,12 @@
       "headings": [
         "Taladro Percutor 13mm 20V Brushless + 2 Baterías Y Maleta"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/sistemas-soluciones/sistema-v20/productos",
-      "checked": "2026-10-01T20:25:26.683331+00:00",
+      "checked": "2026-10-01T21:02:34.053776+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/sistemas-soluciones/sistema-v20/productos",
       "content_type": "text/html; charset=UTF-8",
@@ -50,39 +53,44 @@
       "headings": [
         "NUEVO SISTEMA STANLEY FATMAX V20"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_qv8gbkvg3h41l3lg9j0rh59j64/4257239_21023_002_SPK7-1.pdf",
-      "checked": "2026-10-01T20:25:26.825890+00:00",
+      "checked": "2026-10-01T21:02:34.080052+00:00",
       "status": 200,
       "final_url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_qv8gbkvg3h41l3lg9j0rh59j64/4257239_21023_002_SPK7-1.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://ddr456.saas.contentserv.com/admin/ImageServer.php?ID=bd3684bdb97d785fa6f0bf6e0588004c03b3a93ca8e5eb869d30570457e314d3%3A26251%40ddr456&download=true&downloadname=RUKO_Step_drills_en.pdf&rand=ac093ee023aefb64f663f2d7cfb37059",
-      "checked": "2026-10-01T20:25:26.835553+00:00",
+      "checked": "2026-10-01T21:02:34.267868+00:00",
       "status": 200,
       "final_url": "https://ddr456.saas.contentserv.com/admin/ImageServer.php?ID=bd3684bdb97d785fa6f0bf6e0588004c03b3a93ca8e5eb869d30570457e314d3%3A26251%40ddr456&download=true&downloadname=RUKO_Step_drills_en.pdf&rand=ac093ee023aefb64f663f2d7cfb37059",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://documents.milwaukeetool.com/58-14-9945d2.pdf",
-      "checked": "2026-10-01T20:25:26.987230+00:00",
+      "checked": "2026-10-01T21:02:34.490897+00:00",
       "status": 200,
       "final_url": "https://documents.milwaukeetool.com/58-14-9945d2.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-      "checked": "2026-10-01T20:25:27.094179+00:00",
+      "checked": "2026-10-01T21:02:34.496057+00:00",
       "status": 200,
       "final_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://en.hoegert.com/product/step-drill-4-32-mm/",
-      "checked": "2026-10-01T20:25:27.581930+00:00",
+      "checked": "2026-10-01T21:02:35.064554+00:00",
       "status": 200,
       "final_url": "https://en.hoegert.com/product/step-drill-4-32-mm/",
       "content_type": "text/html; charset=UTF-8",
@@ -90,11 +98,12 @@
       "headings": [
         "Step drill 4-32 mm"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://espacio-industria.com/products/taladro-percutor-inalambrico-fuel-m18-milwaukee-2904-259-color-rojo",
-      "checked": "2026-10-01T20:25:27.647784+00:00",
+      "checked": "2026-10-01T21:02:35.116613+00:00",
       "status": 200,
       "final_url": "https://espacio-industria.com/products/taladro-percutor-inalambrico-fuel-m18-milwaukee-2904-259-color-rojo",
       "content_type": "text/html; charset=utf-8",
@@ -102,11 +111,12 @@
       "headings": [
         "Kit Taladro Percutor Atornillador M18 Fuel Milwaukee 2904-259A (4 Gen)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/productos/TIL45131-8BK",
-      "checked": "2026-10-01T20:25:27.707589+00:00",
+      "checked": "2026-10-01T21:02:35.210862+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/productos/TIL45131-8BK",
       "content_type": "text/html; charset=UTF-8",
@@ -114,11 +124,12 @@
       "headings": [
         "TALADRO PERCUTOR A BATERÍA • 18 V"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LBC1820-8",
-      "checked": "2026-10-01T20:25:27.777813+00:00",
+      "checked": "2026-10-01T21:02:35.252033+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LBC1820-8",
       "content_type": "text/html; charset=UTF-8",
@@ -126,11 +137,12 @@
       "headings": [
         "SET CARGADOR + BATERÍA 18 V • 2 AH"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery",
-      "checked": "2026-10-01T20:25:27.805613+00:00",
+      "checked": "2026-10-01T21:02:35.312896+00:00",
       "status": 200,
       "final_url": "https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery",
       "content_type": "text/html; charset=UTF-8",
@@ -138,11 +150,12 @@
       "headings": [
         "How to Choose a Milwaukee Tool REDLITHIUM™ Battery"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://publications.blum.com/2024/catalogue/en/65/",
-      "checked": "2026-10-01T20:25:27.864974+00:00",
+      "checked": "2026-10-01T21:02:35.398327+00:00",
       "status": 200,
       "final_url": "https://publications.blum.com/2024/catalogue/en/65/",
       "content_type": "text/html",
@@ -150,11 +163,12 @@
       "headings": [
         "Catalogue and technical manual 2024-2025 en"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://publications.blum.com/2024/catalogue/en/671/",
-      "checked": "2026-10-01T20:25:27.998428+00:00",
+      "checked": "2026-10-01T21:02:35.399288+00:00",
       "status": 200,
       "final_url": "https://publications.blum.com/2024/catalogue/en/671/",
       "content_type": "text/html",
@@ -162,11 +176,12 @@
       "headings": [
         "Catalogue and technical manual 2024-2025 en"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ruko.de/en/products/step-drills/step-drill-hss/",
-      "checked": "2026-10-01T20:25:28.118873+00:00",
+      "checked": "2026-10-01T21:02:35.432277+00:00",
       "status": 200,
       "final_url": "https://ruko.de/en/products/step-drills/step-drill-hss/",
       "content_type": "text/html; charset=UTF-8",
@@ -174,51 +189,56 @@
       "headings": [
         "Step drill HSS, cross-grinding, Type C"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://service.dewalt.ie/i/DEWALT/GLOBALBOM/GB/DCF850D2T/1/Instruction_Manual/EN/NA648507_DCF850_T1_GB_XE.pdf",
-      "checked": "2026-10-01T20:25:28.345229+00:00",
+      "checked": "2026-10-01T21:02:35.748345+00:00",
       "status": 200,
       "final_url": "https://service.dewalt.ie/i/DEWALT/GLOBALBOM/GB/DCF850D2T/1/Instruction_Manual/EN/NA648507_DCF850_T1_GB_XE.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://shop.hettich.com/mt_EN/Hinges/Concealed-hinges/Intermat-fast-assembly-concealed-hinges/Hinges/110%C2%B0-Intermat-hinge-%28Intermat-9943%29%2C-overlay%2C-Opening-angle-110%C2%B0%2C-TH-drilling-pattern-52-x-5-5-mm%2C-for-screwing-on-%28-%29/p/48049",
-      "checked": "2026-10-01T20:25:28.654277+00:00",
+      "checked": "2026-10-01T21:02:35.812344+00:00",
       "status": null,
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
     },
     {
       "url": "https://static.rubi.com/Castellano_2024_v2_7f412bdac6.pdf",
-      "checked": "2026-10-01T20:25:28.669742+00:00",
+      "checked": "2026-10-01T21:02:35.851958+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://support.blackanddecker.com/hc/es/article_attachments/115004285093",
-      "checked": "2026-10-01T20:25:29.076693+00:00",
+      "checked": "2026-10-01T21:02:36.268296+00:00",
       "status": 200,
       "final_url": "https://support.blackanddecker.com/hc/es/article_attachments/115004285093",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://support.stanleytools.com/hc/es/article_attachments/115004351114",
-      "checked": "2026-10-01T20:25:29.338635+00:00",
+      "checked": "2026-10-01T21:02:36.410501+00:00",
       "status": 200,
       "final_url": "https://support.stanleytools.com/hc/es/article_attachments/115004351114",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://support.stanleytools.com/hc/es/article_attachments/115004351134",
-      "checked": "2026-10-01T20:25:29.431445+00:00",
+      "checked": "2026-10-01T21:02:36.558030+00:00",
       "status": 200,
       "final_url": "https://support.stanleytools.com/hc/es/article_attachments/115004351134",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://tienda.reginato.com.ar/producto/88192/rotomartillo-bosch-gbh220-720w/",
-      "checked": "2026-10-01T20:25:29.459496+00:00",
+      "checked": "2026-10-01T21:02:36.650005+00:00",
       "status": 200,
       "final_url": "https://tienda.reginato.com.ar/producto/88192/rotomartillo-bosch-gbh220-720w/",
       "content_type": "text/html; charset=utf-8",
@@ -226,11 +246,12 @@
       "headings": [
         "Rotomartillo BOSCH GBH220 720w"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.blackanddecker.com/products/bcd702c1",
-      "checked": "2026-10-01T20:25:29.509471+00:00",
+      "checked": "2026-10-01T21:02:36.706523+00:00",
       "status": 200,
       "final_url": "https://www.blackanddecker.com/products/bcd702c1",
       "content_type": "text/html; charset=utf-8",
@@ -238,11 +259,12 @@
       "headings": [
         "20V MAX* POWERCONNECT™ Cordless Drill/Driver, Battery and Charger Included"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.blackanddecker.com/products/bld783d1",
-      "checked": "2026-10-01T20:25:29.521081+00:00",
+      "checked": "2026-10-01T21:02:36.832411+00:00",
       "status": 200,
       "final_url": "https://www.blackanddecker.com/products/bld783d1",
       "content_type": "text/html; charset=utf-8",
@@ -250,11 +272,12 @@
       "headings": [
         "20V MAX* POWERCONNECT™ Cordless Brushless ½-in. Hammer Drill Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.blackanddecker.com/products/dr260c",
-      "checked": "2026-10-01T20:25:29.936888+00:00",
+      "checked": "2026-10-01T21:02:36.848146+00:00",
       "status": 200,
       "final_url": "https://www.blackanddecker.com/products/dr260c",
       "content_type": "text/html; charset=utf-8",
@@ -262,11 +285,12 @@
       "headings": [
         "Corded Drill, 5.5-Amp, 3/8-Inch"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.blum.com/us/en/products/hingesystems/clip-top-blumotion/assembly/",
-      "checked": "2026-10-01T20:25:30.145222+00:00",
+      "checked": "2026-10-01T21:02:36.968482+00:00",
       "status": 200,
       "final_url": "https://www.blum.com/us/en/products/hingesystems/clip-top-blumotion/assembly/",
       "content_type": "text/html",
@@ -274,21 +298,23 @@
       "headings": [
         "CLIP top BLUMOTION"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-diy.com/in/en/frequently-asked-questions",
-      "checked": "2026-10-01T20:25:30.222056+00:00",
+      "checked": "2026-10-01T21:02:37.057968+00:00",
       "status": 200,
       "final_url": "https://www.bosch-diy.com/in/en/frequently-asked-questions",
       "content_type": "text/html; charset=utf-8",
       "title": "Frequently asked questions | Bosch DIY",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/18v-cordless-system/",
-      "checked": "2026-10-01T20:25:30.266897+00:00",
+      "checked": "2026-10-01T21:02:37.431449+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/18v-cordless-system/",
       "content_type": "text/html; charset=utf-8",
@@ -296,11 +322,12 @@
       "headings": [
         "Professional 18V System"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/atornilladores-con-limitador-de-profundidad-131443-ocs-c/",
-      "checked": "2026-10-01T20:25:30.491395+00:00",
+      "checked": "2026-10-01T21:02:37.527617+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/atornilladores-con-limitador-de-profundidad-131443-ocs-c/",
       "content_type": "text/html;charset=UTF-8",
@@ -308,11 +335,12 @@
       "headings": [
         "Atornilladores con limitador de profundidad"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gbh-18v-26-d-0611916001",
-      "checked": "2026-10-01T20:25:31.309388+00:00",
+      "checked": "2026-10-01T21:02:37.597258+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gbh-18v-26-d-0611916001",
       "content_type": "text/html;charset=UTF-8",
@@ -320,11 +348,12 @@
       "headings": [
         "PRO GBH 18V-26 D"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gbh-2-26-dre-06112537H0",
-      "checked": "2026-10-01T20:25:31.607213+00:00",
+      "checked": "2026-10-01T21:02:37.763231+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gbh-2-26-dre-06112537H0",
       "content_type": "text/html;charset=UTF-8",
@@ -332,11 +361,12 @@
       "headings": [
         "PRO GBH 2-26 DRE"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0",
-      "checked": "2026-10-01T20:25:32.014445+00:00",
+      "checked": "2026-10-01T21:02:37.918739+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0",
       "content_type": "text/html;charset=UTF-8",
@@ -344,11 +374,12 @@
       "headings": [
         "PRO GBH 220"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gbh-8-45-dv-06112650H0",
-      "checked": "2026-10-01T20:25:32.376036+00:00",
+      "checked": "2026-10-01T21:02:38.276701+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gbh-8-45-dv-06112650H0",
       "content_type": "text/html;charset=UTF-8",
@@ -356,11 +387,12 @@
       "headings": [
         "PRO GBH 8-45 DV"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
-      "checked": "2026-10-01T20:25:32.797786+00:00",
+      "checked": "2026-10-01T21:02:39.660071+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
       "content_type": "text/html;charset=UTF-8",
@@ -368,11 +400,12 @@
       "headings": [
         "PRO GDX 18V-200"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2",
-      "checked": "2026-10-01T20:25:33.239848+00:00",
+      "checked": "2026-10-01T21:02:39.773964+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2",
       "content_type": "text/html;charset=UTF-8",
@@ -380,11 +413,12 @@
       "headings": [
         "PRO GSB 18V-50"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gsb-550-06011B60H0",
-      "checked": "2026-10-01T20:25:33.292445+00:00",
+      "checked": "2026-10-01T21:02:39.950372+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gsb-550-06011B60H0",
       "content_type": "text/html;charset=UTF-8",
@@ -392,11 +426,12 @@
       "headings": [
         "PRO GSB 550"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gsr-120-li-06019G80E5",
-      "checked": "2026-10-01T20:25:33.607987+00:00",
+      "checked": "2026-10-01T21:02:40.121088+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gsr-120-li-06019G80E5",
       "content_type": "text/html;charset=UTF-8",
@@ -404,11 +439,12 @@
       "headings": [
         "PRO GSR 120-LI"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0",
-      "checked": "2026-10-01T20:25:34.082139+00:00",
+      "checked": "2026-10-01T21:02:40.158949+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0",
       "content_type": "text/html;charset=UTF-8",
@@ -416,11 +452,12 @@
       "headings": [
         "PRO GTB 650"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/es/taladros-percutores-atornilladores-inalambricos-131417-ocs-c/",
-      "checked": "2026-10-01T20:25:34.276948+00:00",
+      "checked": "2026-10-01T21:02:40.305682+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/es/taladros-percutores-atornilladores-inalambricos-131417-ocs-c/",
       "content_type": "text/html;charset=UTF-8",
@@ -428,25 +465,28 @@
       "headings": [
         "Taladros percutores atornilladores inalámbricos"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_5_es_220v_-_ind_metal_-_web.pdf",
-      "checked": "2026-10-01T20:25:34.763287+00:00",
+      "checked": "2026-10-01T21:02:41.669457+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_5_es_220v_-_ind_metal_-_web.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.bosch-professional.com/binary/manualsmedia/o484077v21_160992AA01_202409.pdf",
-      "checked": "2026-10-01T20:25:35.242447+00:00",
+      "checked": "2026-10-01T21:02:41.757925+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o484077v21_160992AA01_202409.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0",
-      "checked": "2026-10-01T20:25:35.371581+00:00",
+      "checked": "2026-10-01T21:02:41.936914+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0",
       "content_type": "text/html;charset=UTF-8",
@@ -454,11 +494,12 @@
       "headings": [
         "PRO GBH 2-26 DRE"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/cz/cs/akumulatorova-vrtaci-kladiva-131421-ocs-c/",
-      "checked": "2026-10-01T20:25:35.479174+00:00",
+      "checked": "2026-10-01T21:02:42.049346+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/cz/cs/akumulatorova-vrtaci-kladiva-131421-ocs-c/",
       "content_type": "text/html;charset=UTF-8",
@@ -467,11 +508,12 @@
         "Akumulátorová vrtací kladiva",
         "Výkonné aku vrtací kladivo: skvělý pomocník při každé práci"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ec/es/brocas-para-madera-forstner-2907460-ocs-ac/",
-      "checked": "2026-10-01T20:25:35.635129+00:00",
+      "checked": "2026-10-01T21:02:42.140675+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ec/es/brocas-para-madera-forstner-2907460-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -479,11 +521,12 @@
       "headings": [
         "Broca Forstner"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0",
-      "checked": "2026-10-01T20:25:35.987419+00:00",
+      "checked": "2026-10-01T21:02:42.241081+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0",
       "content_type": "text/html;charset=UTF-8",
@@ -491,11 +534,12 @@
       "headings": [
         "PRO GSR 120-LI"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/broca-cyl-9-soft-ceramic-7724656-ocs-ac/",
-      "checked": "2026-10-01T20:25:36.070957+00:00",
+      "checked": "2026-10-01T21:02:42.645313+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/broca-cyl-9-soft-ceramic-7724656-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -503,11 +547,12 @@
       "headings": [
         "Broca CYL-9 Soft Ceramic"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/broca-expert-hex-9-hard-ceramic-2867225-ocs-ac/",
-      "checked": "2026-10-01T20:25:36.188934+00:00",
+      "checked": "2026-10-01T21:02:42.727793+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/broca-expert-hex-9-hard-ceramic-2867225-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -515,11 +560,12 @@
       "headings": [
         "Broca EXPERT HEX-9 Hard Ceramic"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/broca-forstner-expert-wood-7427439-ocs-ac/",
-      "checked": "2026-10-01T20:25:37.193903+00:00",
+      "checked": "2026-10-01T21:02:43.594828+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/broca-forstner-expert-wood-7427439-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -527,11 +573,12 @@
       "headings": [
         "Broca Forstner EXPERT Wood"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/cinceles-2865192-ocs-ac/",
-      "checked": "2026-10-01T20:25:37.674289+00:00",
+      "checked": "2026-10-01T21:02:44.002349+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/cinceles-2865192-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -539,11 +586,12 @@
       "headings": [
         "Cinceles"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/innovation/tile-drilling/",
-      "checked": "2026-10-01T20:25:38.005905+00:00",
+      "checked": "2026-10-01T21:02:44.194407+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/innovation/tile-drilling/",
       "content_type": "text/html; charset=utf-8",
@@ -551,11 +599,12 @@
       "headings": [
         "LA MEJOR BROCA PARA TALADRAR AZULEJOS"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/martillos-perforadores-y-demoledores-101339-ocs-c/",
-      "checked": "2026-10-01T20:25:38.210706+00:00",
+      "checked": "2026-10-01T21:02:44.622800+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/martillos-perforadores-y-demoledores-101339-ocs-c/",
       "content_type": "text/html;charset=UTF-8",
@@ -563,11 +612,12 @@
       "headings": [
         "Martillos perforadores y demoledores"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/products/gdr-18v-200-06019J2107",
-      "checked": "2026-10-01T20:25:38.884101+00:00",
+      "checked": "2026-10-01T21:02:45.219179+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/products/gdr-18v-200-06019J2107",
       "content_type": "text/html;charset=UTF-8",
@@ -575,11 +625,12 @@
       "headings": [
         "PRO GDR 18V-200"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/es/es/products/gsb-20-2-060117B401",
-      "checked": "2026-10-01T20:25:39.168797+00:00",
+      "checked": "2026-10-01T21:02:45.758171+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/es/es/products/gsb-20-2-060117B401",
       "content_type": "text/html;charset=UTF-8",
@@ -587,11 +638,12 @@
       "headings": [
         "PRO GSB 20-2"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/",
-      "checked": "2026-10-01T20:25:40.027270+00:00",
+      "checked": "2026-10-01T21:02:46.167931+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -599,11 +651,12 @@
       "headings": [
         "HSS Step Drill Bit, Hex Shank"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/gb/en/products/gtb-185-li-06019K7000",
-      "checked": "2026-10-01T20:25:40.822941+00:00",
+      "checked": "2026-10-01T21:02:47.020515+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/gb/en/products/gtb-185-li-06019K7000",
       "content_type": "text/html;charset=UTF-8",
@@ -611,11 +664,12 @@
       "headings": [
         "PRO GTB 18V-45"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/hr/hr/products/kombinirani-komplet-akumulatorski-busaci-cekic-gbh-180-li-akumulatorska-busilica-izvijac-gsr-18v-50-akumulatorska-kutna-brusilica-gws-180-li-2-x-gba-18v-5-0ah-akumulatora-vrecica-za-alat-u-kartonskoj-kutiji-0615990M32",
-      "checked": "2026-10-01T20:25:41.079693+00:00",
+      "checked": "2026-10-01T21:02:47.671748+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/hr/hr/products/kombinirani-komplet-akumulatorski-busaci-cekic-gbh-180-li-akumulatorska-busilica-izvijac-gsr-18v-50-akumulatorska-kutna-brusilica-gws-180-li-2-x-gba-18v-5-0ah-akumulatora-vrecica-za-alat-u-kartonskoj-kutiji-0615990M32",
       "content_type": "text/html;charset=UTF-8",
@@ -623,18 +677,20 @@
       "headings": [
         "Kombinirani komplet: akumulatorski bušaći čekić GBH 180-LI + akumulatorska bušilica-izvijač GSR 18V-50 + akumulatorska kutna brusilica GWS 180-LI + 2 x GBA 18V 5.0Ah akumulatora + vrećica za alat u kartonskoj kutiji"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/kw/media/country_content/bosch_professional_power_tools_quick_reference_guide.pdf",
-      "checked": "2026-10-01T20:25:41.149599+00:00",
+      "checked": "2026-10-01T21:02:47.753989+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/kw/media/country_content/bosch_professional_power_tools_quick_reference_guide.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.bosch-professional.com/middle-east/en/products/gsr-18v-50-06019H5006",
-      "checked": "2026-10-01T20:25:41.318217+00:00",
+      "checked": "2026-10-01T21:02:48.146292+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/middle-east/en/products/gsr-18v-50-06019H5006",
       "content_type": "text/html;charset=UTF-8",
@@ -642,11 +698,12 @@
       "headings": [
         "PRO GSR 18V-50"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/mx/es/punta-pro-phillips-impact-3095561-ocs-ac/",
-      "checked": "2026-10-01T20:25:41.458844+00:00",
+      "checked": "2026-10-01T21:02:48.290018+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/mx/es/punta-pro-phillips-impact-3095561-ocs-ac/",
       "content_type": "text/html;charset=UTF-8",
@@ -654,18 +711,20 @@
       "headings": [
         "Puntas de atornillar PRO Impact PH"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/pe/media/country_content/service/download/catalogue/6343_trade_-_3_es_220v_-_instalador_-_web.pdf",
-      "checked": "2026-10-01T20:25:41.965860+00:00",
+      "checked": "2026-10-01T21:02:48.431288+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/pe/media/country_content/service/download/catalogue/6343_trade_-_3_es_220v_-_instalador_-_web.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.bosch-professional.com/sa/en/products/gws-180-li-06019H9020",
-      "checked": "2026-10-01T20:25:42.151693+00:00",
+      "checked": "2026-10-01T21:02:48.719122+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/sa/en/products/gws-180-li-06019H9020",
       "content_type": "text/html;charset=UTF-8",
@@ -673,11 +732,12 @@
       "headings": [
         "PRO GWS 180-LI"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-professional.com/ua/uk/products/kombinovanyy-nabir-akumulyatornyy-dryl-shurupokrut-gsr-18v-50-akumulyatorna-kutova-shlifuval-na-mashyna-gws-180-li-1-akumulyator-2-0-ah-1-akumulyator-5-0-ah-u-xl-boxx-0615990M47",
-      "checked": "2026-10-01T20:25:42.731041+00:00",
+      "checked": "2026-10-01T21:02:49.406244+00:00",
       "status": 200,
       "final_url": "https://www.bosch-professional.com/ua/uk/products/kombinovanyy-nabir-akumulyatornyy-dryl-shurupokrut-gsr-18v-50-akumulyatorna-kutova-shlifuval-na-mashyna-gws-180-li-1-akumulyator-2-0-ah-1-akumulyator-5-0-ah-u-xl-boxx-0615990M47",
       "content_type": "text/html;charset=UTF-8",
@@ -685,18 +745,20 @@
       "headings": [
         "Комбінований набір: акумуляторний дриль-шурупокрут GSR 18V-50 + акумуляторна кутова шліфувальна машина GWS 180-LI + 1 акумулятор 2.0 Ah + 1 акумулятор 5.0 Ah у XL-BOXX"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.bosch-pt.com/download/ACC_0910_DRILLING_GB-en.pdf",
-      "checked": "2026-10-01T20:25:43.236018+00:00",
+      "checked": "2026-10-01T21:02:49.598442+00:00",
       "status": 200,
       "final_url": "https://www.bosch-pt.com/download/ACC_0910_DRILLING_GB-en.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.dewalt.co.uk/en-gb/product/dcf887p2-gb/18v-xr-brushless-impact-driver-2-5ah-batteries",
-      "checked": "2026-10-01T20:25:43.363982+00:00",
+      "checked": "2026-10-01T21:02:50.223573+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.co.uk/en-gb/product/dcf887p2-gb/18v-xr-brushless-impact-driver-2-5ah-batteries",
       "content_type": "text/html; charset=utf-8",
@@ -704,11 +766,12 @@
       "headings": [
         "18V XR ® Brushless Impact Driver with (2) 5Ah Batteries"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
-      "checked": "2026-10-01T20:25:43.424637+00:00",
+      "checked": "2026-10-01T21:02:50.323988+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
       "content_type": "text/html; charset=utf-8",
@@ -716,11 +779,12 @@
       "headings": [
         "Taladro percutor / atornillador  Ion-Li 20V MAX* -13mm - Brushless - Mandril autoajustable"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com.ar/es-ar/producto/dcf809b/atornillador-de-impacto-de-14-pulg-6mm-20v-max-atomic-no-incluye-bateria",
-      "checked": "2026-10-01T20:25:44.029364+00:00",
+      "checked": "2026-10-01T21:02:50.332869+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com.ar/es-ar/producto/dcf809b/atornillador-de-impacto-de-14-pulg-6mm-20v-max-atomic-no-incluye-bateria",
       "content_type": "text/html; charset=utf-8",
@@ -728,11 +792,12 @@
       "headings": [
         "Atornillador de Impacto de 1/4 pulg. (6mm) 20V MAX* ATOMIC (no incluye bateria)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com.ar/es-ar/soporte/como-encuentro-el-numero-de-modelo-y-numero-de-serie-en-mi-herramienta",
-      "checked": "2026-10-01T20:25:44.066951+00:00",
+      "checked": "2026-10-01T21:02:50.564980+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com.ar/es-ar/soporte/como-encuentro-el-numero-de-modelo-y-numero-de-serie-en-mi-herramienta",
       "content_type": "text/html; charset=utf-8",
@@ -740,11 +805,12 @@
       "headings": [
         "Encontrar Los Detalles De Tu Modelo"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcd794b/atomic-20v-max-brushless-cordless-12-drilldriver-tool-only",
-      "checked": "2026-10-01T20:25:44.171922+00:00",
+      "checked": "2026-10-01T21:02:50.645887+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcd794b/atomic-20v-max-brushless-cordless-12-drilldriver-tool-only",
       "content_type": "text/html; charset=utf-8",
@@ -752,11 +818,12 @@
       "headings": [
         "ATOMIC™ 20V MAX* Brushless Cordless 1/2-in Drill/Driver (Tool Only)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcd805b/20v-max-xr-brushless-cordless-12-hammer-drilldriver-tool-only",
-      "checked": "2026-10-01T20:25:44.410396+00:00",
+      "checked": "2026-10-01T21:02:50.679608+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcd805b/20v-max-xr-brushless-cordless-12-hammer-drilldriver-tool-only",
       "content_type": "text/html; charset=utf-8",
@@ -764,11 +831,12 @@
       "headings": [
         "20V MAX* XR ® Brushless Cordless 1/2-in Hammer Drill/Driver (Tool Only)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcd805d2/20v-max-xr-brushless-cordless-12-hammer-drilldriver-kit",
-      "checked": "2026-10-01T20:25:44.519609+00:00",
+      "checked": "2026-10-01T21:02:50.715946+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcd805d2/20v-max-xr-brushless-cordless-12-hammer-drilldriver-kit",
       "content_type": "text/html; charset=utf-8",
@@ -776,11 +844,12 @@
       "headings": [
         "20V MAX* XR ® Brushless Cordless 1/2-in Hammer Drill/Driver Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcf6202/collated-drywall-screw-gun-attachment",
-      "checked": "2026-10-01T20:25:44.713905+00:00",
+      "checked": "2026-10-01T21:02:51.023090+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcf6202/collated-drywall-screw-gun-attachment",
       "content_type": "text/html; charset=utf-8",
@@ -788,11 +857,12 @@
       "headings": [
         "Collated Drywall Screw Gun Attachment"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcf850b/atomic-20v-max-14-3-speed-brushless-impact-driver-tool-only",
-      "checked": "2026-10-01T20:25:44.784818+00:00",
+      "checked": "2026-10-01T21:02:51.047969+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcf850b/atomic-20v-max-14-3-speed-brushless-impact-driver-tool-only",
       "content_type": "text/html; charset=utf-8",
@@ -800,11 +870,12 @@
       "headings": [
         "ATOMIC™ 20V MAX* 1/4-in 3-Speed Brushless Impact Driver (Tool Only)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dcf850p1/20v-max-atomic-brushless-cordless-3-speed-14-impact-driver-kit",
-      "checked": "2026-10-01T20:25:44.885480+00:00",
+      "checked": "2026-10-01T21:02:51.088869+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dcf850p1/20v-max-atomic-brushless-cordless-3-speed-14-impact-driver-kit",
       "content_type": "text/html; charset=utf-8",
@@ -812,11 +883,12 @@
       "headings": [
         "20V MAX* ATOMIC™ Brushless Cordless 3-Speed 1/4-in Impact Driver Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dch133b/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-tool-only",
-      "checked": "2026-10-01T20:25:44.905516+00:00",
+      "checked": "2026-10-01T21:02:51.208712+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dch133b/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-tool-only",
       "content_type": "text/html; charset=utf-8",
@@ -824,11 +896,12 @@
       "headings": [
         "20V MAX* 1-in Brushless Cordless SDS PLUS D-Handle Rotary Hammer (Tool Only)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dch133m2/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-kit",
-      "checked": "2026-10-01T20:25:44.971444+00:00",
+      "checked": "2026-10-01T21:02:51.329033+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dch133m2/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-kit",
       "content_type": "text/html; charset=utf-8",
@@ -836,11 +909,12 @@
       "headings": [
         "20V MAX* 1-in Brushless Cordless SDS PLUS D-Handle Rotary Hammer Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-brushless-cordless-1-25mm-sds-plus-l-shape-rotary-hammer-tool-only",
-      "checked": "2026-10-01T20:25:45.025106+00:00",
+      "checked": "2026-10-01T21:02:51.457648+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-sds-plus-brushless-1-l-shape-rotary-hammer-tool-only",
       "content_type": "text/html; charset=utf-8",
@@ -848,11 +922,12 @@
       "headings": [
         "20V MAX* XR ® SDS PLUS Brushless 1-in L-Shape Rotary Hammer (Tool Only)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.com/en-us/product/dch273p2/20v-max-xr-1-brushless-sds-plus-l-shape-rotary-hammer-kit",
-      "checked": "2026-10-01T20:25:45.174788+00:00",
+      "checked": "2026-10-01T21:02:51.501362+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.com/en-us/product/dch273p2/20v-max-xr-1-brushless-sds-plus-l-shape-rotary-hammer-kit",
       "content_type": "text/html; charset=utf-8",
@@ -860,11 +935,12 @@
       "headings": [
         "20V MAX* XR ® 1-in Brushless SDS PLUS L-Shape Rotary Hammer Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j",
-      "checked": "2026-10-01T20:25:45.318228+00:00",
+      "checked": "2026-10-01T21:02:51.794326+00:00",
       "status": 200,
       "final_url": "https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j",
       "content_type": "text/html; charset=utf-8",
@@ -872,11 +948,12 @@
       "headings": [
         "Perforateur burineur SDS-Plus - 950 W - 3,5 J"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.ch/p/4257972-te-rh-28-1-5f/",
-      "checked": "2026-10-01T20:25:45.363941+00:00",
+      "checked": "2026-10-01T21:02:51.833452+00:00",
       "status": 200,
       "final_url": "https://www.einhell.ch/p/4257972-te-rh-28-1-5f/",
       "content_type": "text/html; charset=utf-8",
@@ -884,11 +961,12 @@
       "headings": [
         "TE-RH 28/1 5F"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com/sustainability/",
-      "checked": "2026-10-01T20:25:45.540621+00:00",
+      "checked": "2026-10-01T21:02:51.875446+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com/sustainability/",
       "content_type": "text/html; charset=utf-8",
@@ -896,11 +974,12 @@
       "headings": [
         "Sustainability at Einhell"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/c/batteries/",
-      "checked": "2026-10-01T20:25:45.599684+00:00",
+      "checked": "2026-10-01T21:02:52.005714+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/c/batteries/",
       "content_type": "text/html; charset=utf-8",
@@ -908,11 +987,12 @@
       "headings": [
         "Batteries"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/p/4257970/",
-      "checked": "2026-10-01T20:25:45.640955+00:00",
+      "checked": "2026-10-01T21:02:52.334752+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/p/4257970/",
       "content_type": "text/html; charset=utf-8",
@@ -920,11 +1000,12 @@
       "headings": [
         "TE-RH 28 5F"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/p/4257990/",
-      "checked": "2026-10-01T20:25:45.768637+00:00",
+      "checked": "2026-10-01T21:02:52.374369+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/p/4257990/",
       "content_type": "text/html; charset=utf-8",
@@ -932,11 +1013,12 @@
       "headings": [
         "TC-RH 620 4F"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/p/4513925-te-cd-18-40-li-solo/",
-      "checked": "2026-10-01T20:25:46.758382+00:00",
+      "checked": "2026-10-01T21:02:52.453882+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/p/4513925-te-cd-18-40-li-solo/",
       "content_type": "text/html; charset=utf-8",
@@ -944,11 +1026,12 @@
       "headings": [
         "TE-CD 18/40 Li-Solo"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/p/4513942-tp-cd-18-50-li-i-bl-solo",
-      "checked": "2026-10-01T20:25:46.978138+00:00",
+      "checked": "2026-10-01T21:02:53.311944+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/p/4513942-tp-cd-18-50-li-i-bl-solo",
       "content_type": "text/html; charset=utf-8",
@@ -956,11 +1039,12 @@
       "headings": [
         "TP-CD 18/50 Li-i BL-Solo"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/en/p/4514260-te-hd-18-20-li-solo/",
-      "checked": "2026-10-01T20:25:47.064704+00:00",
+      "checked": "2026-10-01T21:02:53.394885+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/en/p/4514260-te-hd-18-20-li-solo/",
       "content_type": "text/html; charset=utf-8",
@@ -968,32 +1052,36 @@
       "headings": [
         "TE-HD 18/20 Li - Solo"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-de/einhell-services-catalogue-tools-diy-2026-de.pdf",
-      "checked": "2026-10-01T20:25:47.310843+00:00",
+      "checked": "2026-10-01T21:02:53.788695+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-de/einhell-services-catalogue-tools-diy-2026-de.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf",
-      "checked": "2026-10-01T20:25:47.589078+00:00",
+      "checked": "2026-10-01T21:02:53.889051+00:00",
       "status": 200,
       "final_url": "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.einhell.no/fileadmin/NO/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-en.pdf",
-      "checked": "2026-10-01T20:25:47.655291+00:00",
+      "checked": "2026-10-01T21:02:53.907711+00:00",
       "status": 200,
       "final_url": "https://www.einhell.no/fileadmin/NO/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-en.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668",
-      "checked": "2026-10-01T20:25:47.802972+00:00",
+      "checked": "2026-10-01T21:02:53.926982+00:00",
       "status": 200,
       "final_url": "https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668",
       "content_type": "text/html; charset=utf-8",
@@ -1001,25 +1089,28 @@
       "headings": [
         "CIDLI20668 Compact Brushless Cordless Impact Drill"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "checked": "2026-10-01T20:25:47.929291+00:00",
+      "checked": "2026-10-01T21:02:54.040955+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/TB-16/MANUAL/TB-16.pdf",
-      "checked": "2026-10-01T20:25:48.006368+00:00",
+      "checked": "2026-10-01T21:02:54.086734+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/TB-16/MANUAL/TB-16.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/productos/KATL-9BK",
-      "checked": "2026-10-01T20:25:48.020985+00:00",
+      "checked": "2026-10-01T21:02:54.198761+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/productos/KATL-9BK",
       "content_type": "text/html; charset=UTF-8",
@@ -1027,11 +1118,12 @@
       "headings": [
         "KIT AMOLADORA ANGULAR + TALADRO INALÁMBRICO"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/productos/taladro-atornillador-a-bateria-o-12-v-til23-8b",
-      "checked": "2026-10-01T20:25:48.079999+00:00",
+      "checked": "2026-10-01T21:02:54.199695+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/productos/taladro-atornillador-a-bateria-o-12-v-til23-8b",
       "content_type": "text/html; charset=UTF-8",
@@ -1039,11 +1131,12 @@
       "headings": [
         "TALADRO ATORNILLADOR A BATERÍA • 12 V"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/TAL60-9B",
-      "checked": "2026-10-01T20:25:48.185789+00:00",
+      "checked": "2026-10-01T21:02:54.200514+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/TAL60-9B",
       "content_type": "text/html; charset=UTF-8",
@@ -1051,11 +1144,12 @@
       "headings": [
         "TALADRO ATORNILLADOR A BATERÍA • 18 V"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/TB-16",
-      "checked": "2026-10-01T20:25:48.246608+00:00",
+      "checked": "2026-10-01T21:02:54.345024+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/TB-16",
       "content_type": "text/html; charset=UTF-8",
@@ -1063,11 +1157,12 @@
       "headings": [
         "TALADRO DE BANCO - 16 MM • 5/8\""
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/TBL710-9D",
-      "checked": "2026-10-01T20:25:48.374899+00:00",
+      "checked": "2026-10-01T21:02:54.405972+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/TBL710-9D",
       "content_type": "text/html; charset=UTF-8",
@@ -1075,18 +1170,20 @@
       "headings": [
         "TALADRO DE BANCO DIGITAL"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "checked": "2026-10-01T20:25:48.379999+00:00",
+      "checked": "2026-10-01T21:02:54.444684+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.milwaukeetool.com/2904-20",
-      "checked": "2026-10-01T20:25:48.459434+00:00",
+      "checked": "2026-10-01T21:02:54.485599+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/2904-20",
       "content_type": "text/html; charset=utf-8",
@@ -1094,11 +1191,12 @@
       "headings": [
         "M18 FUEL™ 1/2\" Hammer Drill/Driver - Cordless Power Tool"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/2904-22",
-      "checked": "2026-10-01T20:25:48.474492+00:00",
+      "checked": "2026-10-01T21:02:54.526974+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/2904-22",
       "content_type": "text/html; charset=utf-8",
@@ -1106,11 +1204,12 @@
       "headings": [
         "M18 FUEL™ 1/2\" Hammer Drill/Driver Kit"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/3601-20",
-      "checked": "2026-10-01T20:25:48.566398+00:00",
+      "checked": "2026-10-01T21:02:54.569067+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/3601-20",
       "content_type": "text/html; charset=utf-8",
@@ -1118,11 +1217,12 @@
       "headings": [
         "M18™ Compact Brushless 1/2\" Drill/ Driver"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/Innovations/M18-Fuel",
-      "checked": "2026-10-01T20:25:48.689864+00:00",
+      "checked": "2026-10-01T21:02:54.606059+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/Innovations/M18-Fuel",
       "content_type": "text/html; charset=utf-8",
@@ -1130,11 +1230,12 @@
       "headings": [
         "Driven to Outperform"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
-      "checked": "2026-10-01T20:25:48.792939+00:00",
+      "checked": "2026-10-01T21:02:54.607081+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
       "content_type": "text/html; charset=utf-8",
@@ -1142,11 +1243,12 @@
       "headings": [
         "M12 FUEL™ 1/2\" Drill/Driver"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20",
-      "checked": "2026-10-01T20:25:49.761717+00:00",
+      "checked": "2026-10-01T21:02:55.708392+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20",
       "content_type": "text/html; charset=utf-8",
@@ -1154,11 +1256,12 @@
       "headings": [
         "M12 FUEL™ 1/2\" Hammer Drill/Driver"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
-      "checked": "2026-10-01T20:25:49.910821+00:00",
+      "checked": "2026-10-01T21:02:55.822649+00:00",
       "status": 200,
       "final_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
       "content_type": "text/html; charset=utf-8",
@@ -1166,11 +1269,12 @@
       "headings": [
         "M18 FUEL™ 1/2\" Hammer Drill/Driver - Cordless Power Tool"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.ofertools.com.ar/productos/rotomartillo-bosch-con-sds-plus-720w-20j-23kg-22mm-en-maletin-gbh-220/",
-      "checked": "2026-10-01T20:25:50.066888+00:00",
+      "checked": "2026-10-01T21:02:56.979330+00:00",
       "status": 200,
       "final_url": "https://www.ofertools.com.ar/productos/rotomartillo-bosch-con-sds-plus-720w-20j-23kg-22mm-en-maletin-gbh-220/",
       "content_type": "text/html; charset=UTF-8",
@@ -1178,11 +1282,12 @@
       "headings": [
         "Rotomartillo BOSCH con SDS PLUS 720W 2,0J 2,3KG 22mm en Maletín GBH 220"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rubi.com/es/blog/nuevas-brocas-diamantadas-drygres-4drill/",
-      "checked": "2026-10-01T20:25:50.981360+00:00",
+      "checked": "2026-10-01T21:02:57.790484+00:00",
       "status": 200,
       "final_url": "https://www.rubi.com/es/blog/nuevas-brocas-diamantadas-drygres-4drill/",
       "content_type": "text/html; charset=UTF-8",
@@ -1190,11 +1295,12 @@
       "headings": [
         "Nuevas Brocas Diamantadas DRYGRES 4DRILL"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rubi.com/es/producto/brocas-drygres",
-      "checked": "2026-10-01T20:25:51.167497+00:00",
+      "checked": "2026-10-01T21:02:57.892983+00:00",
       "status": 200,
       "final_url": "https://www.rubi.com/es/producto/brocas-drygres",
       "content_type": "text/html;charset=utf-8",
@@ -1202,11 +1308,12 @@
       "headings": [
         "Brocas Diamante Drygres RUBI"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.rubi.com/es/producto/kits-brocas-easygres-o-6-12-mm",
-      "checked": "2026-10-01T20:25:51.923975+00:00",
+      "checked": "2026-10-01T21:02:58.070133+00:00",
       "status": 200,
       "final_url": "https://www.rubi.com/es/producto/kits-brocas-easygres-o-6-12-mm",
       "content_type": "text/html;charset=utf-8",
@@ -1214,11 +1321,12 @@
       "headings": [
         "Kits brocas EASYGRES Ø 6 - 12 mm."
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-2j-sds-plus-brushless-gbh-180-li-bosch/",
-      "checked": "2026-10-01T20:25:51.992293+00:00",
+      "checked": "2026-10-01T21:02:58.096863+00:00",
       "status": 200,
       "final_url": "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-2j-sds-plus-brushless-gbh-180-li-bosch/",
       "content_type": "text/html; charset=UTF-8",
@@ -1226,11 +1334,12 @@
       "headings": [
         "Rotomartillo A Bateria 18V 2J SDS-Plus Brushless GBH 180-Li - Bosch"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-sds-plus-brushless-2-bat-maletin-gbh-180-li-bosch/",
-      "checked": "2026-10-01T20:25:52.137832+00:00",
+      "checked": "2026-10-01T21:02:58.218735+00:00",
       "status": 200,
       "final_url": "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-sds-plus-brushless-2-bat-maletin-gbh-180-li-bosch/",
       "content_type": "text/html; charset=UTF-8",
@@ -1238,58 +1347,67 @@
       "headings": [
         "Rotomartillo A Batería 18V SDS Plus Brushless + 2 Bat. + Maletín GBH 180-LI - Bosch"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
-      "checked": "2026-10-01T20:25:52.245333+00:00",
+      "checked": "2026-10-01T21:02:58.364014+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
-      "checked": "2026-10-01T20:25:52.546217+00:00",
+      "checked": "2026-10-01T21:02:58.432656+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
-      "checked": "2026-10-01T20:25:53.053509+00:00",
+      "checked": "2026-10-01T21:02:58.463359+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
-      "checked": "2026-10-01T20:25:53.057133+00:00",
+      "checked": "2026-10-01T21:02:58.496582+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
-      "checked": "2026-10-01T20:25:53.227783+00:00",
+      "checked": "2026-10-01T21:02:58.530657+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
-      "checked": "2026-10-01T20:25:53.378101+00:00",
+      "checked": "2026-10-01T21:02:58.560953+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/BR/SBD715C2KA/1/Instruction_Manual/EN/SBD715_T1_ASIA.pdf",
-      "checked": "2026-10-01T20:25:53.667469+00:00",
+      "checked": "2026-10-01T21:02:58.574822+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/BR/SBD715C2KA/1/Instruction_Manual/EN/SBD715_T1_ASIA.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     }
   ],
+  "source_history": [],
   "rows": [
     {
       "path": "/taladros/inalambricos/",

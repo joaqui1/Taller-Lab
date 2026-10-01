@@ -21,16 +21,31 @@ import servidor_local as site
 ROOT = Path(__file__).parent
 
 
+def unavailable_page(title, headings):
+    labels = [title] + headings
+    return any(label.strip() == '404' for label in labels) or bool(re.search(
+        r'\b(?:error\s*404|404\s*(?:not\s+found|no\s+encontrad[oa])|p[aá]gina\s+no\s+encontrada|page\s+not\s+found|producto\s+no\s+encontrado)\b',
+        ' '.join(labels), re.I))
+
+
 def probe(url):
     result = dict(url=url, checked=datetime.now(timezone.utc).isoformat())
     try:
         with urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0 TallerLab-source-QA'}), timeout=18) as response:
             result.update(status=response.status, final_url=response.url, content_type=response.headers.get('Content-Type', ''))
-            if 'html' in result['content_type']:
-                data = response.read(1500000)
+            expected_pdf = bool(re.search(r'\.pdf(?:$|[?&#])', unquote(url), re.I))
+            prefix = b''
+            if expected_pdf or 'pdf' in result['content_type'].lower():
+                prefix = response.read(256)
+                result['document_signature_valid'] = b'%PDF' in prefix
+                if expected_pdf:
+                    result['unexpected_document_type'] = not result['document_signature_valid']
+            if 'html' in result['content_type'] and result.get('document_signature_valid') is not True:
+                data = prefix + response.read(1500000 - len(prefix))
                 soup = BeautifulSoup(data, 'html.parser')
                 result['title'] = soup.title.get_text(' ', strip=True) if soup.title else ''
                 result['headings'] = [h.get_text(' ', strip=True) for h in soup.select('h1')][:3]
+                result['soft_not_found'] = unavailable_page(result['title'], result['headings'])
                 result['generic_redirect'] = urlsplit(response.url).path.rstrip('/') in ('', '/products', '/productos', '/herramientas') and urlsplit(url).path.rstrip('/') != urlsplit(response.url).path.rstrip('/')
     except HTTPError as error:
         result.update(status=error.code, error=str(error))
@@ -81,12 +96,21 @@ def main():
         status = 'revisión editorial registrada' if review and review.get('body_sha256') == digest else 'pendiente de revisión editorial actual'
         rows.append(dict(path=path, file=str(article['path']), body_sha256=digest, title=article['h1'], issues=issues, sources=sources, tables=len(source_doc.select('table')), offer_cards=len(doc.select('.offer-card')), editorial_status=status, editorial_review=review))
     sources = previous.get('sources', [])
+    history = previous.get('source_history', [])
+    known = {source['url']: source for source in sources}
+    retired = {source['url']: source for source in history}
+    retired.update({url: source for url, source in known.items() if url not in urls})
+    history = list(retired.values())
+    sources = [source for source in sources if source['url'] in urls]
     if args.external:
         with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
             sources = list(pool.map(probe, sorted(urls)))
-    report = dict(section=args.section, checked=datetime.now(timezone.utc).isoformat(), articles=len(rows), structural_failures=[r for r in rows if r['issues']], sources=sources, rows=rows)
+        for source in sources:
+            if known.get(source['url'], {}).get('access_review'):
+                source['access_review'] = known[source['url']]['access_review']
+    report = dict(section=args.section, checked=datetime.now(timezone.utc).isoformat(), articles=len(rows), structural_failures=[r for r in rows if r['issues']], sources=sources, source_history=history, rows=rows)
     destination.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps(dict(section=args.section, articles=len(rows), structural_failures=report['structural_failures'], sources=len(sources), source_alerts=[r for r in sources if r.get('status') != 200 or r.get('generic_redirect')]), ensure_ascii=False))
+    print(json.dumps(dict(section=args.section, articles=len(rows), structural_failures=report['structural_failures'], sources=len(sources), source_alerts=[r for r in sources if r.get('status') != 200 or r.get('generic_redirect') or r.get('soft_not_found') or r.get('unexpected_document_type') or r.get('document_signature_valid') is False]), ensure_ascii=False))
     if report['structural_failures']:
         raise SystemExit(1)
 

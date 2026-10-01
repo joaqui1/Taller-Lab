@@ -13,25 +13,25 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Skil 9004 de 830 W y 9002 de 700 W: códigos argentinos, tensión, contenido por publicación y estado de oferta sin confirmación oficial de discontinuación."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
 # Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W
 
 
-La **Skil 9004** es la variante de 830 W para disco de 115 mm; el manual identifica las versiones argentinas **9004AR y 9002AR**, ambas de **220 V**, y especifica 700 W para 9002AR.
+El manual Skil de **febrero de 2015, documento 1 600 A00 9XF**, identifica las versiones argentinas **9004AR y 9002AR** y publica **830 W y 700 W**, respectivamente, para discos de 115 mm. Su tabla contempla consumos a 127 y 220 V sin asignar allí una tensión a cada sufijo: confirmá la placa de la unidad ofrecida para la red local.
 
 En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del manual. Para esa unidad, confirmá placa y código con el vendedor; no tomamos los 650 W del aviso como especificación confirmada. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontramos una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
 
-| Dato del manual Skil 9002/9004 | 9002AR | 9004AR |
+| Dato del manual Skil 9002/9004 de 2015 | 9002AR | 9004AR |
 |---|---:|---:|
 | Potencia absorbida | 700 W | 830 W |
 | Disco máximo | 115 mm (4½") | 115 mm (4½") |
 | Velocidad en vacío | 11.000 rpm | 11.000 rpm |
-| Tensión/ frecuencia indicadas para Argentina | 220 V; 50/60 Hz | 220 V; 50/60 Hz |
+| Tensión / frecuencia | Tabla con consumos a 127/220 V; confirmar placa. 50/60 Hz | Tabla con consumos a 127/220 V; confirmar placa. 50/60 Hz |
 | Rosca del eje | M14 × 2 | M14 × 2 |
-| Peso según EPTA en el manual | 1,7 kg | 2,0 kg |
+| Peso según EPTA en el manual | 1,7 kg | No informado (guion en la tabla) |
 
 **Análisis TallerLab:** los 130 W de diferencia equivalen al 18,6 % de la potencia nominal de 700 W. El diámetro y las RPM en vacío coinciden en el manual, pero eso no prueba que la 9004 corte más rápido ni que pueda sostener más carga en cualquier tarea; no se hizo una prueba comparativa.
 
@@ -39,13 +39,13 @@ En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del man
 
 ## Estado actual de los modelos
 
-La documentación primaria que encontramos para estos códigos es antigua: el manual compartido de Skil está fechado en 2015 y el catálogo argentino es de 2019. En las búsquedas actuales siguen apareciendo ofertas locales de la 9004 —a veces publicada como **9004JR** o **9004JV**— y de la 9002, pero el fabricante no publica una ficha argentina vigente que confirme stock, estado de catálogo o sucesor directo. Una publicación de Sodimac consultada marcaba ambos productos sin disponibilidad momentánea; otros comercios mostraban ofertas. Eso describe publicaciones, no el inventario general del mercado.
+La documentación primaria consultada es antigua: el manual compartido de Skil está fechado en febrero de 2015. El catálogo argentino de 2019 se conserva como referencia histórica; su enlace dejó de entregar el PDF al comprobarlo el 01/10/2026. En las búsquedas actuales siguen apareciendo ofertas locales de la 9004 —a veces publicada como **9004JR** o **9004JV**— y de la 9002, pero el fabricante no publica una ficha argentina vigente que confirme stock, estado de catálogo o sucesor directo. Una publicación de Sodimac consultada marcaba ambos productos sin disponibilidad momentánea; otros comercios mostraban ofertas. Eso describe publicaciones, no el inventario general del mercado.
 
 Por ahora, la conclusión precisa es **“modelo con ofertas comerciales actuales, continuidad oficial no confirmada”**, no “vigente” ni “discontinuado”. Tampoco encontramos un reemplazo directo declarado por Skil. Si querés una alternativa actual, compará equipos de 115 y 125 mm por tensión, potencia, RPM, peso y contenido, sin asumir que otro Skil o Bosch es sucesor equivalente.
 
 ## Código y tensión: revisar la unidad, no solo el título
 
-El manual da los tipos base **F012 9002…** y **F012 9004…**, y señala expresamente que para Argentina las versiones son **9002AR / 9004AR**, de **220 V**. Las ofertas pueden agregar sufijos comerciales como JR o JV. Antes de pagar, pedí foto de la placa de características y confirmá que la tensión sea compatible con la instalación local; no compres una unidad de 127 V por coincidir el nombre “9004”.
+El manual da los tipos base **F012 9002…** y **F012 9004…**, y señala las versiones argentinas **9002AR / 9004AR**. La tabla de consumos incluye 127 y 220 V; el nombre y ese cuadro no sustituyen la tensión grabada en la unidad. Las ofertas pueden agregar sufijos comerciales como JR o JV. Antes de pagar, pedí foto de la placa de características y confirmá que la tensión sea compatible con la instalación local; no compres una unidad de 127 V por coincidir el nombre “9004”.
 
 ## Qué trae: depende de la publicación
 
@@ -55,7 +55,7 @@ El manual advierte que los accesorios ilustrados o descriptos pueden no venir in
 |---|---|
 | Accesorios | Empuñadura, guarda, bridas/tuerca, llave y si incluye discos; no asumir que un kit se repite entre vendedores |
 | Variante | Código completo, placa de 220 V y manual que corresponda a esa unidad |
-| Peso | Si el valor es de herramienta sola o embalaje; el manual publica 1,7 kg para 9002AR y 2,0 kg para 9004AR |
+| Peso | Si el valor es de herramienta sola o embalaje; el manual publica 1,7 kg para 9002, pero deja sin cifra 9004. No atribuimos al manual un peso de 2 kg para esta última. |
 
 ## Garantía y reemplazo actual
 
@@ -65,7 +65,7 @@ Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está d
 
 ## Lectura de la evidencia de esta comparación
 
-**Dato documentado:** El manual histórico Skil 9002/9004 y el catálogo argentino enlazados distinguen 9002AR de 9004AR, con tensión, potencia, diámetro y peso para esas referencias. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
+**Dato documentado:** El manual histórico Skil 9002/9004 de febrero de 2015 identifica las versiones argentinas y respalda potencia, frecuencia, diámetro, rosca y el peso publicado de 9002. Deja sin peso 9004 y no asigna en esa tabla una tensión única a cada sufijo. Las referencias están identificadas en [Fuentes consultadas](#fuentes-consultadas).
 
 **Análisis TallerLab:** El cálculo de diferencia nominal de potencia no representa una mejora medida de corte. La contradicción del título comercial de 9002 y las diferencias de kits requieren confirmación de placa y caja; no se certifica vigencia del catálogo ni stock actual.
 
@@ -73,7 +73,7 @@ Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está d
 
 ## Fuentes consultadas
 
-- **Documentación primaria histórica:** [manual Skil 9002/9004, edición 2015](https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf); [catálogo Skil Argentina 2019](https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf).
+- **Documentación primaria histórica:** [manual del fabricante Skil 9002/9004, 1 600 A00 9XF, febrero de 2015, tabla en página 12](https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf), reproducido por Home Depot México; la nota de la tabla identifica las versiones argentinas. Catálogo Skil Argentina 2019: referencia histórica, enlace original no disponible al 01/10/2026.
 - **Contraste comercial, no fuente de especificación definitiva:** [publicación Sodimac 9004](https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/), [publicación Sodimac 9002](https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/) y [publicación de 9004JR](https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

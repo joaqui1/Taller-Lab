@@ -1,0 +1,93 @@
+{
+  "checked": "2026-10-01",
+  "records": [
+    {
+      "source": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf",
+      "document": "SKIL 1 600 A00 9XF, febrero de 2015",
+      "page": 12,
+      "visual_inspection": true,
+      "findings": {
+        "models": [
+          "9002AR",
+          "9004AR"
+        ],
+        "power_w": [
+          700,
+          830
+        ],
+        "no_load_rpm": [
+          11000,
+          11000
+        ],
+        "disc_mm": [
+          115,
+          115
+        ],
+        "thread": [
+          "M14x2",
+          "M14x2"
+        ],
+        "frequency_hz": "50/60",
+        "current_voltage_rows": [
+          127,
+          220
+        ],
+        "voltage_per_argentine_suffix": "not specified in this table",
+        "weight_kg": [
+          1.7,
+          null
+        ]
+      },
+      "sha256": "f7a8ebbf9d35f8b18b8476a90cc1f5f0be1bb34293e6025f895b86dc24d45061",
+      "bytes": 886150
+    },
+    {
+      "source": "https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf",
+      "document": "SKIL F 000 622 318, pie 2009.11",
+      "page": 19,
+      "visual_inspection": false,
+      "findings": {
+        "models": [
+          "9002",
+          "9004"
+        ],
+        "power_w": [
+          600,
+          700
+        ],
+        "no_load_rpm": [
+          10000,
+          11000
+        ],
+        "weight_kg": [
+          2.4,
+          2.4
+        ],
+        "decision": "No respalda la tabla 700/830 W; enlace sustituido por la edición 2015."
+      },
+      "sha256": "ce4b8119c863da93e67f779ab666009aa3d78fa073e087e41111e966a385dd44",
+      "bytes": 1243295
+    },
+    {
+      "source": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025.pdf",
+      "document": "Makita Argentina catálogo 2025",
+      "page": 49,
+      "visual_inspection": true,
+      "findings": {
+        "model": "GB801",
+        "power_w": 550,
+        "disc_mm": 205,
+        "width_mm": 19,
+        "bore_mm": 15.88,
+        "rpm": [
+          2850,
+          3450
+        ],
+        "frequency_mapping": "not specified in this table",
+        "decision": "Retirada la asignación de RPM a frecuencias que el catálogo no explicita."
+      },
+      "sha256": "08806a1906eceff5894f96147c6a018c8a8a0abbcf1cba7fc245413f1e972675",
+      "bytes": 23148174
+    }
+  ]
+}

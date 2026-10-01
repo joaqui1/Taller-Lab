@@ -29,13 +29,14 @@ def main():
         lines.append(f"| [{row['path']}](https://www.tallerlab.com.ar{row['path']}) | {structural} | {status} |")
     probes = [source for report in reports for source in report.get('sources', [])]
     unique = len({source['url'] for source in probes})
+    historical = sum(len(report.get('source_history', [])) for report in reports)
     lines += ['', '## Fuentes externas por categoría', '',
-              f'Los informes conservan {len(probes)} sondeos de {unique} direcciones distintas. Incluyen el historial de direcciones sustituidas. Un sondeo verifica acceso y destino, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.', '',
+              f'Los informes conservan {len(probes)} sondeos de {unique} direcciones distintas y {historical} registros de direcciones retiradas o sustituidas en source_history. Un sondeo verifica acceso, destino y tipo de documento, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.', '',
               '| Categoría | Sondeos | Alertas de acceso o destino conservadas |',
               '| --- | --- | --- |']
     for report in reports:
         sources = report.get('sources', [])
-        alerts = sum(source.get('status') != 200 or source.get('generic_redirect', False) for source in sources)
+        alerts = sum(source.get('status') != 200 or source.get('generic_redirect', False) or source.get('soft_not_found', False) or source.get('unexpected_document_type', False) or source.get('document_signature_valid') is False for source in sources)
         lines.append(f"| {report['section']} | {len(sources)} | {alerts} |")
     lines += ['', 'Se corrigió la dirección oficial Makita DHS710Z y se retiró el enlace comercial Hyundai HHY9500LE que redirigía a una portada. Su precio queda identificado como histórico, sin confirmar stock actual. El folleto Norton fue sustituido por la URL oficial completa. Las alertas originales se mantienen como evidencia del sondeo.', '',
               '## Próxima tanda', '',

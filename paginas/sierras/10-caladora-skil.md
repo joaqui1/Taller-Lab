@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "SKIL 4380 y 4550: prestaciones y vigencia por verificar"
 asset_status: "verificado"
-reviewed: "29/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -82,7 +82,7 @@ Para ampliar criterios, consultá [cómo elegir una sierra caladora](/sierras/ca
 ## Fuentes consultadas
 
 - **Documentación del fabricante:** [manual SKIL/Bosch 4380/4400 con especificaciones y compatibilidad de hojas de la 4380](https://s3.sa-east-1.amazonaws.com/bd-sp.canaldapeca.com.br/BOSCH/11032020/4380_4400.pdf); [catálogo oficial Bosch/Skil de repuestos con códigos y variantes 4380/4550](https://www.bosch-professional.com/br/media/country_content/service/after_sales_service/catalogues/catalogo_reposicao2_verso_final.pdf); [búsqueda oficial de manuales y repuestos SKIL](https://www.skil.com/pages/owners-manuals-and-parts-lists).
-- **Referencias secundarias o copias de documentos para la 4550:** [ficha técnica atribuida a Robert Bosch LLC alojada en Grainger](https://www.grainger.com.mx/static/ft/20028399_TD.PDF); [copia del manual 4550 alojada en Scribd](https://es.scribd.com/document/1014405248/serra-tico-tico-profissional-skil-4550-550-watts-manual); [catálogo histórico SKIL 2019 alojado por un distribuidor](https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf). Se usan para describir lo que esas fuentes reportan, no para confirmar disponibilidad o especificaciones vigentes del fabricante.
+- **Referencias secundarias o copias de documentos para la 4550:** [ficha técnica atribuida a Robert Bosch LLC alojada en Grainger](https://www.grainger.com.mx/static/ft/20028399_TD.PDF); [copia del manual 4550 alojada en Scribd](https://es.scribd.com/document/1014405248/serra-tico-tico-profissional-skil-4550-550-watts-manual); catálogo histórico SKIL 2019 alojado por un distribuidor (referencia histórica: el enlace dejó de entregar el PDF al comprobarlo el 01/10/2026). Se usan para describir lo que esas fuentes reportan, no para confirmar disponibilidad o especificaciones vigentes del fabricante.
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

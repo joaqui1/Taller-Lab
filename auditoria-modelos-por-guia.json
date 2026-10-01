@@ -1046,7 +1046,7 @@
           "Potencia absorbida",
           "Disco máximo",
           "Velocidad en vacío",
-          "Tensión/ frecuencia indicadas para Argentina",
+          "Tensión / frecuencia",
           "Rosca del eje",
           "Peso según EPTA en el manual"
         ]
@@ -1063,12 +1063,8 @@
     "cards": [],
     "model_sources": [
       {
-        "label": "manual Skil 9002/9004, edición 2015",
-        "url": "https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf"
-      },
-      {
-        "label": "catálogo Skil Argentina 2019",
-        "url": "https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf"
+        "label": "manual del fabricante Skil 9002/9004, 1 600 A00 9XF, febrero de 2015, tabla en página 12",
+        "url": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf"
       },
       {
         "label": "publicación Sodimac 9004",
@@ -1431,7 +1427,7 @@
     "section": "amoladoras",
     "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\18-amoladora-velocidad-variable.md",
     "title": "Amoladoras de velocidad variable: usos y modelos para comparar",
-    "description": "Qué cambia al regular las RPM, qué revisar en los accesorios y cuatro amoladoras con tensión 220–240 V documentada.",
+    "description": "Compará cinco amoladoras de velocidad variable por tensión, RPM, diámetro y montaje; distingue fichas de fabricante y datos comerciales.",
     "headings": [
       "Qué cambia frente a velocidad fija",
       "Qué accesorios justifican regulación",
@@ -1452,6 +1448,7 @@
       {
         "heading": "Rangos documentados",
         "rows": [
+          "[Bosch GWS 9-125 S, cód. 0 601 396 1H0](/amoladoras/bosch/) ([ficha Bosch 220 V](https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0)) [Ver precio en Mercado Libre](https://meli.la/2gxfffm){:target=\"_blank\" rel=\"sponsored noopener\"}",
           "[Bosch GWS 12-125 S, cód. 0 601 3A6 0H0](/amoladoras/bosch/) ([ficha Bosch](https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0)) [Ver precio en Mercado Libre](https://meli.la/1jco51q){:target=\"_blank\" rel=\"sponsored noopener\"}",
           "[Dowen Pagio 9993224.2](/amoladoras/dowen-pagio/) ([ficha Dowen Pagio](https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm)) [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target=\"_blank\" rel=\"sponsored noopener\"}",
           "[Total TG109125565-4](/amoladoras/total/), aviso de Mercado Libre",
@@ -1461,6 +1458,10 @@
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "ficha Bosch 220 V",
+        "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0"
+      },
       {
         "label": "ficha Bosch",
         "url": "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0"
@@ -1472,6 +1473,10 @@
       {
         "label": "Hamilton HAA002-A",
         "url": "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/"
+      },
+      {
+        "label": "Bosch Professional Argentina, GWS 9-125 S H0 de 220 V",
+        "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0"
       },
       {
         "label": "Bosch Professional Argentina, GWS 12-125 S",
@@ -1496,7 +1501,7 @@
     "section": "amoladoras",
     "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\19-amoladora-7-pulgadas.md",
     "title": "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas",
-    "description": "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar.",
+    "description": "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y cuatro modelos documentados para comparar.",
     "headings": [
       "Cuándo tiene sentido 180 mm",
       "Diferencias frente a 115/125 y 230 mm",
@@ -1875,7 +1880,7 @@
       {
         "heading": "Cuál elegir entre 9993220.7, 9993220.9 y 9993224.2",
         "rows": [
-          "Menor costo de entrada entre estos tres",
+          "Menor precio en el relevamiento del 28/09/2026",
           "Más potencia nominal sin pasar a otra medida de disco",
           "Elegir entre 115 y 125 mm o regular velocidad"
         ]
@@ -9056,10 +9061,6 @@
       {
         "label": "copia del manual 4550 alojada en Scribd",
         "url": "https://es.scribd.com/document/1014405248/serra-tico-tico-profissional-skil-4550-550-watts-manual"
-      },
-      {
-        "label": "catálogo histórico SKIL 2019 alojado por un distribuidor",
-        "url": "https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf"
       }
     ]
   },

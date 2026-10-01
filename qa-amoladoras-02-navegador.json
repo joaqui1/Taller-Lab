@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "width": 320,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "width": 320,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "width": 320,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "width": 390,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "width": 390,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "width": 390,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "width": 1440,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "width": 1440,
+      "overflow": false,
+      "content": true
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "width": 1440,
+      "overflow": false,
+      "content": true
+    }
+  ],
+  "errors": []
+}

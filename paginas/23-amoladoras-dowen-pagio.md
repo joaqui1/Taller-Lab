@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: potencia no es la única diferencia"
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -29,7 +29,7 @@ published: true
 | 9993224.2 / AA125SPL [Ver precio en Mercado Libre](https://meli.la/1x65DAe){:target="_blank" rel="sponsored noopener"} | 1.250 W | 115/125 mm | 4.000–12.000 rpm | Variable | M14 (5/8–11) |
 
 
-**Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. El título AA115SP2 presenta 1050 W con disco de 115 mm, aunque la tabla del fabricante nombra 115 mm; se usa esa medida documentada y no se infiere un disco de 125 mm.
+**Dato documentado:** el catálogo Dowen Pagio 2025 publica esos códigos y valores. También indica 220 V~50 Hz para los modelos. AA115SP2 declara 1.050 W y disco de 115 mm; no se infiere compatibilidad con 125 mm.
 
 **Aclaración de montaje:** “M14 (5/8–11)” no es una equivalencia técnica. M14 designa una rosca métrica; 5/8–11 UNC pertenece al sistema unificado en pulgadas. Son estándares distintos y no se debe asumir que una pieza roscada de uno sirve en el otro. La ficha oficial actual de cada modelo y el catálogo oficial 2025 repiten la notación doble, pero no encontramos un manual de usuario que identifique por separado la rosca física de cada código. Por eso queda sin resolver qué rosca equipa cada unidad; no compres plato de respaldo, cepillo u otro accesorio roscado hasta comprobar el manual específico o la rosca de la máquina.
 
@@ -43,11 +43,11 @@ published: true
 
 | Tu prioridad | Modelo a comparar | Diferencia documentada |
 | :--- | :--- | :--- |
-| Menor costo de entrada entre estos tres | 9993220.7 | 900 W, disco de 115 mm, 12.000 rpm en la ficha del fabricante. |
+| Menor precio en el relevamiento del 28/09/2026 | 9993220.7 | 900 W, disco de 115 mm, 12.000 rpm en la ficha del fabricante. |
 | Más potencia nominal sin pasar a otra medida de disco | 9993220.9 | 1.050 W, 115 mm y 12.000 rpm; son 150 W más que la 9993220.7, sin prueba comparativa de rendimiento bajo carga. |
 | Elegir entre 115 y 125 mm o regular velocidad | 9993224.2 | 1.250 W; acepta 115/125 mm y declara 4.000–12.000 rpm. |
 
-La 9993220.7 y la 9993220.9 comparten diámetro máximo y velocidad publicada; la diferencia demostrable es la potencia nominal y el costo de compra. La 9993224.2 suma funciones y tamaños admitidos, que solo compensan si vas a usarlos. No hay pruebas de taller que permitan declarar una ganadora.
+La 9993220.7 y la 9993220.9 comparten diámetro máximo y velocidad publicada; la diferencia documentada es la potencia nominal y el precio observado en la fecha del relevamiento. Para comparar el costo actual, pedí nuevas cotizaciones. La 9993224.2 suma funciones y tamaños admitidos, que solo compensan si vas a usarlos. No hay pruebas de taller que permitan declarar una ganadora.
 
 <!-- EDITORIAL-COMMERCE-SECONDARY -->
 

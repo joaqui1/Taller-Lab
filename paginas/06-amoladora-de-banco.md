@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de selección de amoladoras de banco con ejemplos comparables de 150 y 200 mm"
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -51,7 +51,7 @@ Los 150 mm (aprox. 6 pulgadas) son comunes en amoladoras compactas de banco. Una
 
 Como ejemplo de 200 mm exactos, el manual oficial en español de Bosch GBG 60-20 documenta dos muelas de 200 × 25 × 32 mm, grano 24 y 60, 600 W y modo S2 (60 min). A 50 Hz especifica 3.000 rpm; a 60 Hz, 3.600 rpm. Es una referencia internacional documentada, no confirmación de disponibilidad o variante comercial argentina.
 
-Makita Argentina publica otra referencia de 8 pulgadas, la GB801: el diámetro especificado es **205 mm**, no 200 mm exactos. Su catálogo local indica 550 W, ancho 19 mm, agujero 15,88 mm y 2.850 rpm a 50 Hz. Sirve para comparar el tamaño nominal de 8 pulgadas y muestra por qué hay que mirar la medida real en milímetros.
+Makita Argentina publica otra referencia de 8 pulgadas, la GB801: el diámetro especificado es **205 mm**, no 200 mm exactos. Su catálogo local indica 550 W, ancho 19 mm, agujero 15,88 mm y dos velocidades en vacío: 2.850/3.450 rpm. Esa tabla no asigna explícitamente cada velocidad a una frecuencia o variante; confirmá placa y manual de la unidad. Sirve para comparar el tamaño nominal de 8 pulgadas y muestra por qué hay que mirar la medida real en milímetros.
 
 ## Potencia y régimen de trabajo
 
@@ -79,7 +79,7 @@ La velocidad máxima admitida por la muela debe ser igual o superior a la veloci
 | Bosch GBG 35-15 | 150 × 20 mm; agujero 12,7/20 mm según variante/manual | 3.000 rpm a 50 Hz |
 | Lusqtoff AB-375 [Ver precio en Mercado Libre](https://meli.la/25xDSzM){:target="_blank" rel="sponsored noopener"} | 150 × 16 × 12,7 mm | 2.950 rpm |
 | Bosch GBG 60-20 | 200 × 25 × 32 mm | 3.000 rpm a 50 Hz; 3.600 rpm a 60 Hz |
-| Makita GB801 | 205 × 19 × 15,88 mm | 2.850 rpm a 50 Hz; 3.450 rpm a 60 Hz |
+| Makita GB801 | 205 × 19 × 15,88 mm | 2.850/3.450 rpm; el catálogo no asigna cada cifra a una frecuencia o variante |
 
 
 ## Apoyo de pieza y protectores

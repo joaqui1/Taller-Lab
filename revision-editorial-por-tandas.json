@@ -28,7 +28,7 @@
     "batch": "amoladoras-01",
     "body_sha256": "95de2630479762284b72afa5b5364c75fe9ab7a879bd541cde4451d8b7bf11f2",
     "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
-    "notes": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Continúa pendiente reconfirmar DWE4212/DWE4314 y el combo. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
+    "notes": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Las fichas oficiales DWE4212-AR y DWE4314-AR confirman 1200/1500 W, 115/125 mm y 11000 rpm. El combo DCK2225MP2T-AR describe DCF99M, DCG45M, dos DCB184 de 5 Ah, cargador DCB1104 y TSTAK; no se deduce el diámetro de la amoladora. Queda pendiente contrastar tensión/frecuencia de todas las variantes. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
     "full_claim_verification": "pendiente",
     "evidence": [
       {
@@ -82,10 +82,10 @@
   "/amoladoras/de-banco/": {
     "checked": "2026-10-01",
     "batch": "amoladoras-01",
-    "body_sha256": "903201c87673edab27c3baf9f7adc639739b2a7f1143b1ab1e5b47926a19e7e9",
+    "body_sha256": "f05d7419a36e6a14b914b16f9c89ad00f7abc3aab211e7ba599f8d62f91e2d0f",
     "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
-    "notes": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje de muela. Corregido enlace a la guía de amoladora recta. Pendiente reconfirmar cada campo numérico contra el manual.",
-    "full_claim_verification": "pendiente"
+    "notes": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje. Contrastados manuales Bosch GBG 35-15 y 60-20 (350/600 W, S2 60 min, 150x20 y 200x25x32, 3000/3600 rpm), ficha AB-375 (375 W, 150x16x12,7, 2950 rpm) y catálogo Makita 2025 p.49 (GB801: 550 W, 205x19x15,88, 2850/3450 rpm). Corregida la asignación de las rpm Makita a frecuencias que esa tabla no explicita. El régimen de Makita y AB-375 sigue desconocido; no se extrapola S2 Bosch.",
+    "full_claim_verification": "tablas principales contrastadas; variantes y campos no publicados quedan explícitos"
   },
   "/amoladoras/makita/": {
     "checked": "2026-10-01",
@@ -166,5 +166,133 @@
     "scope": "lectura completa; evaluación de selección por uso; contrastes selectivos de fabricante",
     "notes": "Lectura completa: dos alternativas pertinentes C10 de enjuague y C30S con vapor; no agregar domésticas de alta presión. Presión, temperatura, boquilla y drenaje dependen del procedimiento del aire acondicionado. Mantener dos tarjetas y variantes de tensión separadas.",
     "full_claim_verification": "contrastes selectivos documentados; cotización y régimen continuo pendientes de proveedor"
+  },
+  "/amoladoras/bosch/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "2f1ccfbf4a15b3fc513a9c720178ec9a8da30fa0774be72022af320b764a0425",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: compara compactas GWS 700/850, regulación GWS 9-125 S y batería GWS 180-LI; GWS 770 queda como referencia brasileña. Contrastadas fichas 700 (710 W/12000 rpm/115 mm/1,7 kg), 850 (850 W/11000 rpm/220 V/2 kg) y 9-125 S H0 (220 V/900 W/2800–11000 rpm). Mantiene la discrepancia de peso del catálogo y no confunde H0 con D0 de 127 V. Los enlaces a velocidad variable e inalámbricas funcionan.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/lusqtoff/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "7720ddec2c957bcaae49345c74f76a28602c7b30e63305f76f793d8faa330e50",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: cuatro códigos corresponden a 115 mm fijo, 125 mm variable, cuerpo 18 V y kit 18 V. Fichas AML1010-8 y AML115-9BK contrastadas: 1010 W/125 mm/0–11000 rpm y kit de dos baterías de 4 Ah/6500–7000–8500 rpm. Mantener las cuatro configuraciones, distinguir pesos de cuerpo/kit y garantía por código.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/9-pulgadas/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "ebd62b14ac49d3c26c35fe3867347bdf0a76c8a5105f64dc2cb02b8745e02ff4",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: cuatro alternativas de 230 mm Bosch GWS 25-230/30-230 PB, Makita GA9020 y Stanley STGL2223-AR. Conserva campos desconocidos Stanley y rango de peso Makita. No deduce 25 mm adicionales de corte desde la diferencia con 180 mm; accesorios de 230 mm necesitan su máquina y montaje.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/skil-830w/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/disco-diamantado-segmentado/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "8b7d93dce8a62389462a97a6cb600dc11c96289ca336cd64a4dc70897483c80f",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: cuatro referencias Bosch separadas por aplicación y diámetro 115/230 mm. Segmentado, turbo y continuo no autorizan materiales por sí solos; régimen seco/húmedo depende del código. Mantener referencias en tabla y no ofrecer 230 mm como reemplazo de 115 mm. El slug antiguo se explica; la identidad debe corresponder a EXPERT Multi Material.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/stanley/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "d84d08cf87fcb59c523b0e5472cbe4dee4a04257213b06e2696ce3e2cf1cc9b1",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: tres compactas argentinas STGS7115/8115/9115 y referencias SCG400 regionales de cuerpo/kit. Mantener sufijos y fuentes separadas: SCG400-AR comercial no acredita el contenido B3/M2K-B2 extranjero. La garantía de dos años local no se traslada a otras variantes; SG7115 y STGS7115 no se mezclan.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/disco-de-corte/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "878b3693a687f852fc9393eb7998bb46e33ccf3ede9b9ff10eaa477aa2668e06",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: comparar accesorios por material, espesor, diámetro y fijación. Metal e inoxidable no son familias universales; X-Lock requiere interfaz compatible. El disco de desbaste 2608600218 aparece como contraste, no como candidato de corte. Mantener ejemplos 115/125 y derivaciones a cerámica, hormigón y vidrio.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/ingco/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "a4106c912eb9b0e48322866200a70d34760ce6d50d19abcef5e132ecb4aa80ef",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: elección por diámetro, sufijo local, cable y plataforma P20S; no generalizar datos regionales ni stock próximo. Corregida la afirmación de mayor capacidad instalada del kit: dos baterías de 4 Ah se alternan y no garantizan más autonomía. Mantener cuerpo y kit separados y declarar las cifras máximas como tales.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/velocidad-variable/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "f82b3ca0eb61cf043b303745e730e5e278c2bba128bbfa24eb9e17013116d51d",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: añadida GWS 9-125 S H0 de 220 V, previamente descartada por confundirla con D0 de 127 V. Ahora cinco alternativas y fichas enlazadas; diferencia 900/1200 W no acredita rendimiento. Metadatos distinguen cuatro modelos con fichas de fabricante y Total de fuente comercial. Rosca Dowen no queda confirmada como M14: su notación M14 (5/8–11) es ambigua, igual que en la guía de marca.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/7-pulgadas/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "d77476f89fcbe9ddafbdf69395f50c50a3268847ffb4824779a435306bc83e87",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: cuatro modelos de 180 mm, no tres; corregida la descripción. Bosch 2200-180, Makita GA7010C/GA7020 y DeWalt DWE4557 tienen diferencias propias de peso, funciones y tensión documentada o desconocida. La oferta GA7010C de 2000 W no sustituye 1800 W de la ficha; conserva la discrepancia.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/115-o-125/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "09a3c08a40027804f1a6044232016bc79f3c931db53cc3bf5960d08205704893",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: comparación controlada de dos GWS 9 de 900 W/1,9 kg y referencias argentinas separadas. La profundidad de la caperuza GDE no se atribuye a modelos no enumerados compatibles. Mantener precios de discos fechados y explicar que una promoción no demuestra menor costo recurrente de 125 mm.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/gamma/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "b9714808a9775b408c67a81e61b39fdbeb6d714bdb1315380b44333fd2f01b1a",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: cinco códigos de 115 mm y diferencia real de máquina/kit G1910AR/G1910KAR. La potencia no cambia por incluir diez discos y maletín; advertencia de 710/850 W en G1917AR conservada. Mantener opciones de 500–850 W y pedir especificación de los discos que la ficha no identifica.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/total/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "d372c1d3b887e178f1bcfac0d85d8ba0470fac013813563d3c21d9a760bdf22a",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: tres SKUs -4 de 115, 125 variable y 180 mm, diferenciados de familias extranjeras sin sufijo. El catálogo 2025 es referencia histórica sin enlace disponible; la tensión, máximo de rpm, stock y garantía del lote deben cotejarse. Mantener la discrepancia internacional 11000/12000 sin atribuirla automáticamente al sufijo.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/dowen-pagio/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "62729421d61d4f0c82daaff3c74c89ad449fced37d96f4ba7d41dab51e7e463b",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: tres referencias 900/1050/1250 W y regulación sólo en 9993224.2. Confirmada ficha actual con M14 (5/8–11), 220 V/50 Hz, 4000–12000 rpm y disco 115/125; la ambigüedad de rosca sigue sin resolver. Corregida frase redundante de medida y comparación de costo para que se atribuya al relevamiento fechado, sin prometer el precio actual.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/amoladoras/discos-vidrio/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-02",
+    "body_sha256": "b86c1a32fc4721390eb58c2fab28e1b889eb9827c285932bb18a7c5594630645",
+    "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+    "notes": "Lectura completa: dos Tork Craft, Husqvarna para azulejo de vidrio y Lüsqtoff local no habilitan cualquier vidrio o montaje húmedo. Contrastada ficha TCDB80115 (115/22,23 mm/13300 rpm; seco/húmedo condicionado a la máquina). Mantener variantes concretas, procedencia de medidas comerciales DVC115-9 y límites para templado/laminado.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+  },
+  "/sierras/caladoras-skil/": {
+    "checked": "2026-10-01",
+    "batch": "fuentes-generales-02",
+    "body_sha256": "d87bf80cfe61681f3b75d36c6d6e48fa1f0562b0f552c7f8c8da6cf83172820f",
+    "scope": "lectura completa; elección por material y control; revisión de fuentes",
+    "notes": "Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.",
+    "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
   }
 }

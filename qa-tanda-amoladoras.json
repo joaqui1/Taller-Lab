@@ -1,12 +1,12 @@
 {
   "section": "amoladoras",
-  "checked": "2026-10-01T20:36:14.956209+00:00",
+  "checked": "2026-10-01T21:11:45.710857+00:00",
   "articles": 25,
   "structural_failures": [],
   "sources": [
     {
       "url": "https://ar.ingco.com/ar-en/product/angle-grinder/AG900285-4",
-      "checked": "2026-10-01T20:12:42.204244+00:00",
+      "checked": "2026-10-01T21:01:25.484742+00:00",
       "status": 200,
       "final_url": "https://ar.ingco.com/ar-en/product/angle-grinder/AG900285-4",
       "content_type": "text/html; charset=utf-8",
@@ -14,11 +14,12 @@
       "headings": [
         "AG900285-4 Angle grinder"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/centros-servicios",
-      "checked": "2026-10-01T20:12:42.205294+00:00",
+      "checked": "2026-10-01T21:01:25.485336+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/centros-servicios",
       "content_type": "text/html; charset=UTF-8",
@@ -26,11 +27,12 @@
       "headings": [
         "Centros de Servicio"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/sgs1045-ar/amoladora-angular-4-12-pulg-115mm-1050w",
-      "checked": "2026-10-01T20:12:42.205836+00:00",
+      "checked": "2026-10-01T21:01:25.486255+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/sgs1045-ar/amoladora-angular-4-12-pulg-115mm-1050w",
       "content_type": "text/html; charset=UTF-8",
@@ -38,11 +40,12 @@
       "headings": [
         "Amoladora Angular 4-1/2 pulg. (115mm) 1050W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/sta47902l/disco-diamante-segmentada-9-x-78-230-x-2223-mm",
-      "checked": "2026-10-01T20:12:42.206414+00:00",
+      "checked": "2026-10-01T21:01:25.486841+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/sta47902l/disco-diamante-segmentada-9-x-78-230-x-2223-mm",
       "content_type": "text/html; charset=UTF-8",
@@ -50,11 +53,12 @@
       "headings": [
         "Disco Diamante SEGMENTADA 9\" x 7/8\" (230 x 22,23 mm)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/stgl2223-ar/amoladora-angular-9-pulg-230mm-2200w",
-      "checked": "2026-10-01T20:12:42.207037+00:00",
+      "checked": "2026-10-01T21:01:25.487488+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/stgl2223-ar/amoladora-angular-9-pulg-230mm-2200w",
       "content_type": "text/html; charset=UTF-8",
@@ -62,11 +66,12 @@
       "headings": [
         "Amoladora Angular 9 pulg. (230mm) 2200W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/stgs7115-ar/amoladora-angular-4-12-pulg-115mm-710w",
-      "checked": "2026-10-01T20:12:42.289249+00:00",
+      "checked": "2026-10-01T21:01:25.524413+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/stgs7115-ar/amoladora-angular-4-12-pulg-115mm-710w",
       "content_type": "text/html; charset=UTF-8",
@@ -74,11 +79,12 @@
       "headings": [
         "Amoladora Angular 4-1/2 pulg. (115mm) 710W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/stgs8115-ar/amoladora-angular-4-12-pulg-115mm-850w",
-      "checked": "2026-10-01T20:12:44.153441+00:00",
+      "checked": "2026-10-01T21:01:26.987391+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/stgs8115-ar/amoladora-angular-4-12-pulg-115mm-850w",
       "content_type": "text/html; charset=UTF-8",
@@ -86,11 +92,12 @@
       "headings": [
         "Amoladora Angular 4-1/2 pulg. (115mm) 850W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/producto/stgs9115-ar/amoladora-angular-4-12-pulg-115mm-900-w",
-      "checked": "2026-10-01T20:12:44.222043+00:00",
+      "checked": "2026-10-01T21:01:27.078137+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/producto/stgs9115-ar/amoladora-angular-4-12-pulg-115mm-900-w",
       "content_type": "text/html; charset=UTF-8",
@@ -98,11 +105,12 @@
       "headings": [
         "Amoladora Angular 4-1/2 pulg. (115mm) 900 W"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/productos/herramientas-electricas/esmeriles-y-pulidoras",
-      "checked": "2026-10-01T20:12:44.275098+00:00",
+      "checked": "2026-10-01T21:01:27.131782+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/productos/herramientas-electricas/esmeriles-y-pulidoras",
       "content_type": "text/html; charset=UTF-8",
@@ -110,11 +118,12 @@
       "headings": [
         "Esmeriles y Pulidoras"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://ar.stanleytools.global/soporte",
-      "checked": "2026-10-01T20:12:45.207563+00:00",
+      "checked": "2026-10-01T21:01:27.210510+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/soporte",
       "content_type": "text/html; charset=UTF-8",
@@ -122,18 +131,1816 @@
       "headings": [
         "SERVICIO Y SOPORTE TÉCNICO"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM",
-      "checked": "2026-10-01T20:12:45.353869+00:00",
+      "checked": "2026-10-01T21:01:27.700885+00:00",
       "status": 200,
-      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM&tid=edcf339f-336c-4a23-ab23-2e11cb31f6f3",
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM&tid=210f1858-c3a6-4b68-9ca2-d3b48b1187ea",
       "content_type": "text/html; charset=utf-8",
       "title": "Mercado Libre",
       "headings": [],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf",
+      "checked": "2026-10-01T21:01:27.781644+00:00",
+      "status": 200,
+      "final_url": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm",
+      "checked": "2026-10-01T21:01:27.963099+00:00",
+      "status": 200,
+      "final_url": "https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladoras Amoladora angular TOTAL Industrial 710W 115 mm | DINET",
+      "headings": [
+        "Amoladoras Amoladora angular TOTAL Industrial 710W 115 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://dowenpagioweb.com.ar/garantia",
+      "checked": "2026-10-01T21:01:27.963595+00:00",
+      "status": 200,
+      "final_url": "https://dowenpagioweb.com.ar/garantia",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Sobre las Garantías de los productos | Dowen Pagio",
+      "headings": [
+        "Sobre la Garantía"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm",
+      "checked": "2026-10-01T21:01:28.108971+00:00",
+      "status": 200,
+      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora Angular - 115/125 mm - 9993224.2 | Dowen Pagio",
+      "headings": [
+        "Amoladora Angular - 115/125 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-1050-w",
+      "checked": "2026-10-01T21:01:28.230307+00:00",
+      "status": 200,
+      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-1050-w",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora Angular - 115 mm - 9993220.9 | Dowen Pagio",
+      "headings": [
+        "Amoladora Angular - 115 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-900-w",
+      "checked": "2026-10-01T21:01:28.345785+00:00",
+      "status": 200,
+      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-900-w",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora Angular - 115 mm - 9993220.7 | Dowen Pagio",
+      "headings": [
+        "Amoladora Angular - 115 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://dowenpagioweb.com.ar/servicios-tecnicos",
+      "checked": "2026-10-01T21:01:28.403524+00:00",
+      "status": 200,
+      "final_url": "https://dowenpagioweb.com.ar/servicios-tecnicos",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Centros de Servicio Técnico Autorizados | Dowen Pagio",
+      "headings": [
+        "MÁS DE 250 CENTROS DE SERVICIO",
+        "ENCONTRÁ TU CENTRO MÁS CERCANO",
+        "¿En dónde puedo comprar repuestos?"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf",
+      "checked": "2026-10-01T21:01:28.489047+00:00",
+      "status": 200,
+      "final_url": "https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/",
+      "checked": "2026-10-01T21:01:28.495184+00:00",
+      "status": 200,
+      "final_url": "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular - Hamilton Professional Brand",
+      "headings": [
+        "Producto / Corte / Eléctricas",
+        "Amoladora Angular",
+        "Amoladora Angular"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://impexproshop.com/garantia/",
+      "checked": "2026-10-01T21:01:28.609467+00:00",
+      "status": 200,
+      "final_url": "https://impexproshop.com/garantia/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Garantía",
+      "headings": [
+        "Garantía",
+        "Período de garantía",
+        "Qué cubre la garantía"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://impexproshop.com/quienes-somos/",
+      "checked": "2026-10-01T21:01:29.051485+00:00",
+      "status": 200,
+      "final_url": "https://impexproshop.com/quienes-somos/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Quiénes Somos",
+      "headings": [
+        "Quiénes Somos"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://ingcostore.ar/",
+      "checked": "2026-10-01T21:01:29.182951+00:00",
+      "status": 200,
+      "final_url": "https://ingcostore.ar/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "IngcoStore Argentina | Experiencia INGCO en tiendas fisicas",
+      "headings": [
+        "Veni, conoce el producto, probalo y compralo."
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w/",
+      "checked": "2026-10-01T21:01:29.183644+00:00",
+      "status": 200,
+      "final_url": "https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w-ag7118-4-ingco/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora 115M – 4 1/2″ – 710W AG7118-4 Ingco – Ingco Tools Argentina",
+      "headings": [],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/posventa",
+      "checked": "2026-10-01T21:01:29.623245+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/posventa",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Posventa",
+      "headings": [
+        "Posventa"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/DVC115-9",
+      "checked": "2026-10-01T21:01:29.770653+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/DVC115-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "DISCO DE CORTE PARA VIDRIO"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/AML1010-8",
+      "checked": "2026-10-01T21:01:29.808408+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/categorias",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Productos"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/AML115-9B",
+      "checked": "2026-10-01T21:01:29.948700+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/AML115-9B",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "AMOLADORA ANGULAR INALÁMBRICA • 18 V"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
+      "checked": "2026-10-01T21:01:30.125415+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "VISITÁ NUESTROS SERVICES OFICIALES | Makita Argentina",
+      "headings": [
+        "VISITÁ NUESTROS SERVICES OFICIALES"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/",
+      "checked": "2026-10-01T21:01:30.180533+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 115mm - 4 1/2\" 720 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 115mm – 4 1/2\" 720 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/387-amoladora-makita-115mm-4-1-2-840-w/",
+      "checked": "2026-10-01T21:01:30.216263+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/387-amoladora-makita-115mm-4-1-2-840-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 115mm - 4 1/2\" 840 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 115mm – 4 1/2\" 840 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/",
+      "checked": "2026-10-01T21:01:30.518676+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita Inalámbrica 18V 115mm - 4 1/2\" 3000 - 8500 RPM | Makita Argentina",
+      "headings": [
+        "Amoladora Makita Inalámbrica 18V 115mm – 4 1/2\" 3000 – 8500 RPM"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/",
+      "checked": "2026-10-01T21:01:31.005519+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 125mm - 5\" 1450 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 125mm –  5\" 1450 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/",
+      "checked": "2026-10-01T21:01:31.110716+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 180mm - 7\" 2200 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 180mm – 7\" 2200 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/",
+      "checked": "2026-10-01T21:01:31.165875+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 180mm - 7\" 1800 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 180mm – 7\" 1800 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/418-amoladora-makita-inalmbrica-180mm-7-18v-x-2/",
+      "checked": "2026-10-01T21:01:31.431215+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/418-amoladora-makita-inalmbrica-180mm-7-18v-x-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita Inalámbrica 180mm - 7\" 18V X 2 | Makita Argentina",
+      "headings": [
+        "Amoladora Makita Inalámbrica 180mm – 7\" 18V X 2"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/",
+      "checked": "2026-10-01T21:01:31.876048+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Makita 230mm - 9\" 2200 W | Makita Argentina",
+      "headings": [
+        "Amoladora Makita 230mm – 9\" 2200 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/433-amoladora-de-banco-makita-205-mm-8/",
+      "checked": "2026-10-01T21:01:31.918299+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/433-amoladora-de-banco-makita-205-mm-8/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora de Banco Makita 205 mm - 8 | Makita Argentina",
+      "headings": [
+        "Amoladora de Banco Makita 205 mm – 8"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/",
+      "checked": "2026-10-01T21:01:32.000183+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Recta Makita 400 W | Makita Argentina",
+      "headings": [
+        "Amoladora Recta Makita 400 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/soporte/",
+      "checked": "2026-10-01T21:01:32.294053+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/soporte/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Servicio Técnico y Repuestos Oficiales Makita Argentina",
+      "headings": [
+        "Servicio Técnico y Repuestos"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
+      "checked": "2026-10-01T21:01:32.693358+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025.pdf",
+      "checked": "2026-10-01T21:01:32.712388+00:00",
+      "status": 200,
+      "final_url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://makitalatinamerica.com/es/producto/110-esmeriladora-angular",
+      "checked": "2026-10-01T21:01:32.829998+00:00",
+      "status": 200,
+      "final_url": "https://makitalatinamerica.com/es/producto/110-esmeriladora-angular",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Makita GA4530 Esmeriladora Angular | Makita Latinamerica",
+      "headings": [
+        "Makita Latin America"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makitalatinamerica.com/es/producto/112-esmeriladora-angular",
+      "checked": "2026-10-01T21:01:32.833819+00:00",
+      "status": 200,
+      "final_url": "https://makitalatinamerica.com/es/producto/112-esmeriladora-angular",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Makita GA4534 Esmeriladora Angular | Makita Latinamerica",
+      "headings": [
+        "Makita Latin America"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://makitatools.com/products/details/GA4590",
+      "checked": "2026-10-01T21:01:32.874024+00:00",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+      "access_review": "Ficha localizada en búsqueda del fabricante; el fetch directo falló por certificado. No se elimina la fuente por ese fallo."
+    },
+    {
+      "url": "https://media.saint-gobain.com/Abrasives/Norton/Nordics/2025/SURFACE-SOLUTIONS-INDUSTRIAL-APPLICATIONS/239/",
+      "checked": "2026-10-01T21:01:33.071495+00:00",
+      "status": 200,
+      "final_url": "https://media.saint-gobain.com/Abrasives/Norton/Nordics/2025/SURFACE-SOLUTIONS-INDUSTRIAL-APPLICATIONS/239/",
+      "content_type": "text/html",
+      "title": "SURFACE SOLUTIONS INDUSTRIAL APPLICATIONS – Page 239",
+      "headings": [
+        "SURFACE SOLUTIONS INDUSTRIAL APPLICATIONS"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/1065384O/flap-disc-selection-guide.pdf",
+      "checked": "2026-10-01T21:01:33.256933+00:00",
+      "status": 200,
+      "final_url": "https://multimedia.3m.com/mws/media/1065384O/flap-disc-selection-guide.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://mx.stanleytools.global/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20",
+      "checked": "2026-10-01T21:01:33.341017+00:00",
+      "status": 200,
+      "final_url": "https://www.stanleytools.com.mx/es-mx/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm). Sistema V20",
+      "headings": [
+        "Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm). Sistema V20"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://neomat.com.ar/productos/disco-de-corte-115x1-0x22-231/",
+      "checked": "2026-10-01T21:01:33.557382+00:00",
+      "status": 200,
+      "final_url": "https://neomat.com.ar/productos/disco-de-corte-115x1-0x22-231/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Disco de Corte 115x1.0x22.23 - Comprar en Neomat",
+      "headings": [
+        "Disco de Corte 115x1.0x22.23"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20",
+      "checked": "2026-10-01T21:01:33.752486+00:00",
+      "status": 200,
+      "final_url": "https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Combo Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm) + 2 Baterías 4 Ah + Cargador 2 A + Maleta. Sistema V20 | STANLEY",
+      "headings": [
+        "Combo Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm) + 2 Baterías 4 Ah + Cargador 2 A + Maleta. Sistema V20"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://shop.ingcostore.ar/productos/AG24008-4/",
+      "checked": "2026-10-01T21:01:33.836016+00:00",
+      "status": 200,
+      "final_url": "https://shop.ingcostore.ar/productos/AG24008-4/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular Ingco 2400W 230mm 6400rpm con Cable",
+      "headings": [
+        "Amoladora Angular Super Ingco - 230Mm(9\") 2400W 220-240V C/Cable C/Carton C/Accs - Ag24008-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://shop.ingcostore.ar/productos/AG7118-4/",
+      "checked": "2026-10-01T21:01:34.183538+00:00",
+      "status": 200,
+      "final_url": "https://shop.ingcostore.ar/productos/AG7118-4/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular Super Ingco 115Mm(4.5\") - 710W 220-240V C/Cable C/Carton - Ag7118-4",
+      "headings": [
+        "Amoladora Angular Super Ingco 115Mm(4.5\") - 710W 220-240V C/Cable C/Carton - Ag7118-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://shop.ingcostore.ar/productos/CAGLI211156/",
+      "checked": "2026-10-01T21:01:34.216867+00:00",
+      "status": 200,
+      "final_url": "https://shop.ingcostore.ar/productos/CAGLI211156/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max S/Bateria C/Carton - Cagli211156",
+      "headings": [
+        "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max S/Bateria C/Carton - Cagli211156"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://shop.ingcostore.ar/productos/CAGLI2111561-4/",
+      "checked": "2026-10-01T21:01:34.220222+00:00",
+      "status": 200,
+      "final_url": "https://shop.ingcostore.ar/productos/CAGLI2111561-4/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max C/1xBateria C/Cargador C/Maletin - Cagli2111561-4",
+      "headings": [
+        "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max C/1xBateria C/Cargador C/Maletin - Cagli2111561-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://shop.ingcostore.ar/productos/CAGLI271532-4/",
+      "checked": "2026-10-01T21:01:34.357912+00:00",
+      "status": 200,
+      "final_url": "https://shop.ingcostore.ar/productos/CAGLI271532-4/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular Super Ingco - P20S 115Mm 1000W Max C/2xBateria C/Cargador C/Maletin - Cagli271532-4",
+      "headings": [
+        "Amoladora Angular Super Ingco - P20S 115Mm 1000W Max C/2xBateria C/Cargador C/Maletin - Cagli271532-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://siglo21myh.com.ar/tienda-online/disco-corte-vidrio-lusqtoff-dvc115-9-115mm/",
+      "checked": "2026-10-01T21:01:34.385362+00:00",
+      "status": 200,
+      "final_url": "https://siglo21myh.com.ar/tienda-online/disco-corte-vidrio-lusqtoff-dvc115-9-115mm/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm",
+      "headings": [
+        "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm Continuo",
+        "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm Continuo"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://support.dewalt.com/hc/pt/article_attachments/360019232453",
+      "checked": "2026-10-01T21:01:34.418237+00:00",
+      "status": 200,
+      "final_url": "https://support.dewalt.com/hc/pt/article_attachments/360019232453",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://support.dewalt.com/hc/pt/article_attachments/360019232853",
+      "checked": "2026-10-01T21:01:34.517518+00:00",
+      "status": 200,
+      "final_url": "https://support.dewalt.com/hc/pt/article_attachments/360019232853",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html",
+      "checked": "2026-10-01T21:01:34.744666+00:00",
+      "status": 200,
+      "final_url": "https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Todoferreteria - Amoladora Angular 180MM Total TG12018026-4",
+      "headings": [
+        "Todoferreteria",
+        "Amoladora Angular 180MM Total TG12018026-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://tools.cp.com/en-in/products/grinders/cp872-skuT025373",
+      "checked": "2026-10-01T21:01:34.797238+00:00",
+      "status": 200,
+      "final_url": "https://tools.cp.com/en-in/products/grinders/cp872-skuT025373",
+      "content_type": "text/html; charset=utf-8",
+      "title": "CP872 | Smart Portal",
+      "headings": [
+        "CP872"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://tools.cp.com/es_mx/products/grinders/diegrinders/cp9104q",
+      "checked": "2026-10-01T21:01:34.900004+00:00",
+      "status": 200,
+      "final_url": "https://tools.cp.com/es_mx/products/grinders/diegrinders/cp9104q",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "CP9104Q - Chicago Pneumatic",
+      "headings": [
+        "CP9104Q"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/",
+      "checked": "2026-10-01T21:01:34.951326+00:00",
+      "status": 200,
+      "final_url": "https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Total Tools Angle grinder (TG10711576) - Total Tools Namibia",
+      "headings": [],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://totaltunisia.com/products/meule-ang-115-710w-tg10711576",
+      "checked": "2026-10-01T21:01:34.952724+00:00",
+      "status": 200,
+      "final_url": "https://totaltunisia.com/products/meule-ang-115-710w-tg10711576",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Meule Angulaire 115 710W Outil Meulage Puissant TG10711576 — Total Tunisia",
+      "headings": [
+        "Meule Angulaire 115 710W Outil Meulage Puissant TG10711576"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b1-1-unified-inch-screw-threads-un-unr-thread-form",
+      "checked": "2026-10-01T21:01:35.144167+00:00",
+      "status": 200,
+      "final_url": "https://www.asme.org/codes-standards/find-codes-standards/b1-1-unified-inch-screw-threads-un-unr-thread-form",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unified Inch Screw Threads (UN UNR and UNJ Thread Forms) - ASME",
+      "headings": [
+        "B1.1 - Unified Inch Screw Threads (UN, UNR, and UNJ Thread Forms)"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-grandes-orificio-de-22-23-mm-osa-3090751-ocs-ac/",
+      "checked": "2026-10-01T21:01:35.481179+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-grandes-orificio-de-22-23-mm-osa-3090751-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte acoplado PRO Metal - Bosch Professional",
+      "headings": [
+        "Disco de corte acoplado PRO Metal"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/",
+      "checked": "2026-10-01T21:01:35.615996+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte acoplado PRO Metal - Bosch Professional",
+      "headings": [
+        "Disco de corte acoplado PRO Metal"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/?sku=2608900659",
+      "checked": "2026-10-01T21:01:36.050366+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/?sku=2608900659",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte con diamante EXPERT Multi Material - Bosch Professional",
+      "headings": [
+        "Disco de corte con diamante EXPERT Multi Material"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/",
+      "checked": "2026-10-01T21:01:37.275515+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte con diamante PRO Ceramic - Bosch Professional",
+      "headings": [
+        "Disco de corte con diamante PRO Ceramic"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-pro-stainless-steel-and-metal-abrasivo-y-de-larga-duracion-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3090743-ocs-ac/",
+      "checked": "2026-10-01T21:01:38.074292+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-pro-stainless-steel-and-metal-abrasivo-y-de-larga-duracion-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3090743-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte acoplado PRO Stainless Steel and Metal - Bosch Professional",
+      "headings": [
+        "Disco de corte acoplado PRO Stainless Steel and Metal"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/",
+      "checked": "2026-10-01T21:01:38.358462+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de desbaste acoplado PRO Metal - Bosch Professional",
+      "headings": [
+        "Disco de desbaste acoplado PRO Metal"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-metal-x571-para-amoladoras-angulares-pequenas-version-en-angulo-fibra-3065169-ocs-ac/",
+      "checked": "2026-10-01T21:01:38.591650+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-metal-x571-para-amoladoras-angulares-pequenas-version-en-angulo-fibra-3065169-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco flap PRO X571, en ángulo - Bosch Professional",
+      "headings": [
+        "Disco flap PRO X571, en ángulo"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/",
+      "checked": "2026-10-01T21:01:38.717099+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco flap PRO X571, recto - Bosch Professional",
+      "headings": [
+        "Disco flap PRO X571, recto"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/",
+      "checked": "2026-10-01T21:01:39.549898+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Discos EXPERT HardCeramic - Bosch Professional",
+      "headings": [
+        "Discos EXPERT HardCeramic"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/?sku=2608900653",
+      "checked": "2026-10-01T21:01:40.554984+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/?sku=2608900653",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Discos EXPERT HardCeramic - Bosch Professional",
+      "headings": [
+        "Discos EXPERT HardCeramic"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-multimaterial-2868971-ocs-ac/",
+      "checked": "2026-10-01T21:01:40.676014+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-multimaterial-2868971-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte con diamante EXPERT Multi Material - Bosch Professional",
+      "headings": [
+        "Disco de corte con diamante EXPERT Multi Material"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/ggs-28-l-06012240H0",
+      "checked": "2026-10-01T21:01:40.813705+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/ggs-28-l-06012240H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GGS 28 L Rectificadora | Bosch Professional",
+      "headings": [
+        "PRO GGS 28 L"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0",
+      "checked": "2026-10-01T21:01:41.301785+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 12-125 S Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 12-125 S"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-180-li-06019H90E0",
+      "checked": "2026-10-01T21:01:41.887233+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-180-li-06019H90E0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 180-LI Amoladoras angulares inalámbricas | Bosch Professional",
+      "headings": [
+        "PRO GWS 180-LI"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-pc-06019G3E0B",
+      "checked": "2026-10-01T21:01:42.660845+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-pc-06019G3E0B",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 18V-10 PC Amoladoras angulares inalámbricas | Bosch Professional",
+      "headings": [
+        "PRO GWS 18V-10 PC"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0",
+      "checked": "2026-10-01T21:01:42.784662+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 2200-180 Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 2200-180"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0",
+      "checked": "2026-10-01T21:01:42.881538+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 25-230 Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 25-230"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1",
+      "checked": "2026-10-01T21:01:43.218980+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 25-180 LVI R Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 25-180 LVI R"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-30-230-pb-06018G11H0",
+      "checked": "2026-10-01T21:01:43.756834+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-30-230-pb-06018G11H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 30-230 PB Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 30-230 PB"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-700-06013A30H0",
+      "checked": "2026-10-01T21:01:44.640696+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-700-06013A30H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 700 Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 700"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0",
+      "checked": "2026-10-01T21:01:44.738892+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 850 Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 850"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0",
+      "checked": "2026-10-01T21:01:44.846698+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 9-125 Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 9-125"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961D0",
+      "checked": "2026-10-01T21:01:45.114800+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961D0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 9-125 S"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0",
+      "checked": "2026-10-01T21:01:45.579709+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 9-125 S"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/es/servicios/garantia-de-productos/informacion/",
+      "checked": "2026-10-01T21:01:46.464801+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/es/servicios/garantia-de-productos/informacion/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Garantía Bosch | Bosch Professional",
+      "headings": [
+        "REGISTRESE Y OBTÉN UNA GARANTÍA ADICIONAL DE 1 AÑO EN TUS HERRAMIENTAS"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf",
+      "checked": "2026-10-01T21:01:46.621878+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_1_es_220v_-_empreiteiro_-_web.pdf",
+      "checked": "2026-10-01T21:01:46.888755+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_1_es_220v_-_empreiteiro_-_web.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o424644v21_160992A8T6_202306.pdf",
+      "checked": "2026-10-01T21:01:46.991127+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o424644v21_160992A8T6_202306.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o518745v21_160992AA24_202411.pdf",
+      "checked": "2026-10-01T21:01:47.440545+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o518745v21_160992AA24_202411.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o521654v21_160992AA25_202412.pdf",
+      "checked": "2026-10-01T21:01:47.588897+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o521654v21_160992AA25_202412.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf",
+      "checked": "2026-10-01T21:01:47.639208+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/br/pt/products/gws-770-06013980E0",
+      "checked": "2026-10-01T21:01:47.879816+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/br/pt/products/gws-770-06013980E0",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 770 Esmerilhadeira angular | Bosch Professional",
+      "headings": [
+        "PRO GWS 770"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-osa-3090750-ocs-ac/",
+      "checked": "2026-10-01T21:01:47.947334+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-osa-3090750-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte abrasivo PRO Metal - Bosch Professional",
+      "headings": [
+        "Disco de corte abrasivo PRO Metal"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-grandes-diametro-interior-de-22-23-mm-3088612-ocs-ac/",
+      "checked": "2026-10-01T21:01:48.316498+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-grandes-diametro-interior-de-22-23-mm-3088612-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte con diamante PRO Concrete - Bosch Professional",
+      "headings": [
+        "Disco de corte con diamante PRO Concrete"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/",
+      "checked": "2026-10-01T21:01:48.377259+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Disco de corte con diamante PRO Concrete - Bosch Professional",
+      "headings": [
+        "Disco de corte con diamante PRO Concrete"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/products/gbg-35-15-060127A300",
+      "checked": "2026-10-01T21:01:48.533951+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/products/gbg-35-15-060127A300",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GBG 35-15 Esmeriladora doble | Bosch Professional",
+      "headings": [
+        "PRO GBG 35-15"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK",
+      "checked": "2026-10-01T21:01:48.595211+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GDE 115/125 FC-T Accesorio de sistema | Bosch Professional",
+      "headings": [
+        "PRO GDE 115/125 FC-T"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103",
+      "checked": "2026-10-01T21:01:50.357675+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 9-115 S Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 9-115 S"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104",
+      "checked": "2026-10-01T21:01:50.543583+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
+      "headings": [
+        "PRO GWS 9-125 S"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/gb/en/expert-multi-material-turbo-diamond-cutting-disc-3009595-ocs-ac/",
+      "checked": "2026-10-01T21:01:50.736456+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/gb/en/expert-multi-material-turbo-diamond-cutting-disc-3009595-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "EXPERT Multi Material turbo Diamond Cutting Disc - Bosch Professional",
+      "headings": [
+        "EXPERT Multi Material turbo Diamond Cutting Disc"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/",
+      "checked": "2026-10-01T21:01:51.256841+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "PRO Metal Bonded Grinding Disc - Bosch Professional",
+      "headings": [
+        "PRO Metal Bonded Grinding Disc"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf",
+      "checked": "2026-10-01T21:01:51.750249+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/pa/media/country_content/service/download/catalogue/catalogo_accesorios_argentina_2015-2016_lowres.pdf",
+      "checked": "2026-10-01T21:01:51.760236+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/pa/media/country_content/service/download/catalogue/catalogo_accesorios_argentina_2015-2016_lowres.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.bosch-professional.com/za/en/products/gbg-60-20-060127A400",
+      "checked": "2026-10-01T21:01:52.625519+00:00",
+      "status": 200,
+      "final_url": "https://www.bosch-professional.com/za/en/products/gbg-60-20-060127A400",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "GBG 60-20 PROFESSIONAL | Bosch Professional SA",
+      "headings": [
+        "PRO GBG 60-20"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.cp.com/content/dam/pim/itba/cp/technical-documents/8940168669.pdf",
+      "checked": "2026-10-01T21:01:52.735887+00:00",
+      "status": 200,
+      "final_url": "https://www.cp.com/content/dam/pim/itba/cp/technical-documents/8940168669.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dck2225mp2t-ar/dewalt-x-mclaren-kit-de-valor-agregado-taladro-combinado-20v-xr-con-2",
+      "checked": "2026-10-01T21:01:52.766380+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dck2225mp2t-ar/dewalt-x-mclaren-kit-de-valor-agregado-taladro-combinado-20v-xr-con-2",
+      "content_type": "text/html; charset=utf-8",
+      "title": "DEWALT X MCLAREN KIT DE VALOR AGREGADO TALADRO COMBINADO 20V XR - CON 2 BATERÍAS DE 5AH",
+      "headings": [
+        "DEWALT X MCLAREN KIT DE VALOR AGREGADO TALADRO COMBINADO 20V XR - CON 2 BATERÍAS DE 5AH"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm",
+      "checked": "2026-10-01T21:01:52.779660+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular 4-1/2 pulg. @ 115mm",
+      "headings": [
+        "Amoladora angular 4-1/2 pulg. @ 115mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4212-ar/amoladora-angular-5-pulg-125mm",
+      "checked": "2026-10-01T21:01:53.021139+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4212-ar/amoladora-angular-5-pulg-125mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular 5 pulg. @ 125mm",
+      "headings": [
+        "Amoladora angular 5 pulg. @ 125mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4314-ar/amoladora-angular-5-pulg-125mm",
+      "checked": "2026-10-01T21:01:53.047245+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4314-ar/amoladora-angular-5-pulg-125mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular 5 pulg. @ 125mm",
+      "headings": [
+        "Amoladora angular 5 pulg. @ 125mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm",
+      "checked": "2026-10-01T21:01:53.129901+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular 7 pulg. @ 180mm",
+      "headings": [
+        "Amoladora angular 7 pulg. @ 180mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com.ar/es-ar/soporte",
+      "checked": "2026-10-01T21:01:53.365439+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com.ar/es-ar/soporte",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Soporte",
+      "headings": [
+        "Servicio y Ayuda"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
+      "checked": "2026-10-01T21:01:53.404024+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
+      "content_type": "text/html; charset=utf-8",
+      "title": "20V MAX* XR® 4-1/2-in Paddle Switch Small Angle Grinder With KICKBACK BRAKE™ (Tool Only)",
+      "headings": [
+        "20V MAX* XR ® 4-1/2-in Paddle Switch Small Angle Grinder With KICKBACK BRAKE™ (Tool Only)"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com/en-us/product/dwe402/4-12-115mm-small-angle-grinder",
+      "checked": "2026-10-01T21:01:53.434761+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com/en-us/product/dwe402/4-12-115mm-small-angle-grinder",
+      "content_type": "text/html; charset=utf-8",
+      "title": "4-1/2-in. (115mm) Small Angle Grinder",
+      "headings": [
+        "4-1/2-in. (115mm) Small Angle Grinder"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.dewalt.com/en-us/product/dwe4120/angle-grinder-tool-4-12-paddle-switch",
+      "checked": "2026-10-01T21:01:53.521127+00:00",
+      "status": 200,
+      "final_url": "https://www.dewalt.com/en-us/product/dwe4120/angle-grinder-tool-4-12-paddle-switch",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Angle Grinder Tool, 4-1/2-in., Paddle Switch",
+      "headings": [
+        "Angle Grinder Tool, 4-1/2-in., Paddle Switch"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/",
+      "checked": "2026-10-01T21:01:53.755139+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
       "generic_redirect": false
     },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/",
+      "checked": "2026-10-01T21:01:53.790719+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
+      "checked": "2026-10-01T21:01:54.010760+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/",
+      "checked": "2026-10-01T21:01:54.095456+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/",
+      "checked": "2026-10-01T21:01:54.318950+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
+      "checked": "2026-10-01T21:01:54.534689+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-125-mm/",
+      "checked": "2026-10-01T21:01:56.418600+00:00",
+      "status": 200,
+      "final_url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-125-mm/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Disco de Corte 125 mm - Herramientas Einhell",
+      "headings": [
+        "Disco de Corte 125 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-para-acero-115mm/",
+      "checked": "2026-10-01T21:01:56.706495+00:00",
+      "status": 200,
+      "final_url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-para-acero-115mm/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Disco de Corte para Metales 115mm - Herramientas Einhell",
+      "headings": [
+        "Disco de Corte para Metales 115mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.hook.ar/store/2152",
+      "checked": "2026-10-01T21:01:57.092615+00:00",
+      "status": 200,
+      "final_url": "https://www.hook.ar/store/2152",
+      "content_type": "text/html",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.husqvarnaconstruction.com/ae/diamond-tools/diamond-blades/vari-cut-s4/",
+      "checked": "2026-10-01T21:01:57.630401+00:00",
+      "status": 200,
+      "final_url": "https://www.husqvarnaconstruction.com/ae/diamond-tools/diamond-blades/vari-cut-s4/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Husqvarna VARI-CUT™ S4 | Angle grinder blades | Husqvarna AE",
+      "headings": [
+        "Husqvarna VARI-CUT™ S4",
+        "Husqvarna VARI-CUT™ S4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.impexpro.com.ar/servicio-tecnico/",
+      "checked": "2026-10-01T21:01:57.719056+00:00",
+      "status": 200,
+      "final_url": "https://www.impexpro.com.ar/servicio-tecnico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Servicio Técnico - ImpexPro",
+      "headings": [
+        "SeRvicio Técnico"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com.ar/herramientas-electricas",
+      "checked": "2026-10-01T21:01:57.771428+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com.ar/herramientas-electricas",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Herramientas Eléctricas",
+      "headings": [
+        "Herramientas Eléctricas"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html",
+      "checked": "2026-10-01T21:01:57.884439+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "AMOLADORA ANGULAR INDUSTRIAL 2000W 180 MM",
+      "headings": [
+        "AMOLADORA ANGULAR INDUSTRIAL 2000W 180 MM"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html",
+      "checked": "2026-10-01T21:01:57.983215+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "AMOLADORA ANGULAR INDUSTRIAL 960W 115 MM",
+      "headings": [
+        "AMOLADORA ANGULAR INDUSTRIAL 960W 115 MM"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com/cl-en/product/angle-grinder/AG8508",
+      "checked": "2026-10-01T21:01:58.236676+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com/cl-en/product/angle-grinder/AG8508",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Power tools Angle grinder AG8508 - INGCO Chile",
+      "headings": [
+        "AG8508 Angle grinder"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com/cl-en/products/cordless-tools",
+      "checked": "2026-10-01T21:01:59.093965+00:00",
+      "status": null,
+      "final_url": "https://www.ingco.com/cl-en/products/cordless-tools",
+      "content_type": "text/html; charset=utf-8",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.ingco.com/eg-en/product/cordless-angle-grinder/CAGLI271532",
+      "checked": "2026-10-01T21:01:59.146834+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com/eg-en/product/cordless-angle-grinder/CAGLI271532",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Cordless tools Cordless angle grinder CAGLI271532 - INGCO Egypt",
+      "headings": [
+        "CAGLI271532 Cordless angle grinder"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com/md/product/cordless-angle-grinder/CAGLI2111561",
+      "checked": "2026-10-01T21:01:59.275289+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com/md/product/cordless-angle-grinder/CAGLI2111561",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unelte fără fir Polizor unghiular fără fir CAGLI2111561 - INGCO Moldova",
+      "headings": [
+        "CAGLI2111561 Polizor unghiular pe accumulator 20V/1*4Ah INGCO"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingco.com/product/cordless-angle-grinder/CAGLI1151",
+      "checked": "2026-10-01T21:02:00.126610+00:00",
+      "status": 200,
+      "final_url": "https://www.ingco.com/product/cordless-angle-grinder/CAGLI1151",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Cordless angle grinder CAGLI1151 - INGCO",
+      "headings": [
+        "CAGLI1151 Cordless angle grinder"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.ingcoargentina.com/index.php",
+      "checked": "2026-10-01T21:02:00.988714+00:00",
+      "status": 200,
+      "final_url": "https://www.ingcoargentina.com/index.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "INGCO Argentina - Herramientas Industriales de Calidad Premium",
+      "headings": [
+        "MOTOGUADAÑA",
+        "CORTADORA CESPED",
+        "HACHA 1250G"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3A965%3A-2%3Adis%3Aed-4%3Av1%3Aen",
+      "checked": "2026-10-01T21:02:02.722951+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "access_review": "Contenido consultado en web; acceso directo 403."
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "checked": "2026-10-01T21:02:02.758622+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/productos/amoladora-de-banco-o-375-w-ab-375",
+      "checked": "2026-10-01T21:02:02.797296+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/productos/amoladora-de-banco-o-375-w-ab-375",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "AMOLADORA DE BANCO • 375 W"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/AML115-9BK",
+      "checked": "2026-10-01T21:02:02.957571+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/AML115-9BK",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "AMOLADORA ANGULAR INALÁMBRICA • 115 MM. (4 1/2”)"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.nortonabrasives.com/en-us/grinding-wheel-basics",
+      "checked": "2026-10-01T21:02:03.116839+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "access_review": "Contenido consultado en web; acceso directo 403."
+    },
+    {
+      "url": "https://www.nortonabrasives.com/en-us/resources/expertise/dos-and-donts-flap-discs",
+      "checked": "2026-10-01T21:02:03.708046+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "access_review": "Contenido consultado en web; ángulos T27/T29 verificados."
+    },
+    {
+      "url": "https://www.nortonabrasives.com/es-es/productos/clipper-para-desbaste-con-amoladora-angular-en-metal-e-inox",
+      "checked": "2026-10-01T21:02:03.934630+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "access_review": "Contenido consultado en web; acceso directo 403."
+    },
+    {
+      "url": "https://www.nortonabrasives.com/sites/mac3-acs-norton/files/2024-03/Brochure-Discs-Flap-Family-Norton-8392.pdf-196153.pdf",
+      "checked": "2026-10-01T21:02:03.988409+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "access_review": "Documento oficial completo de cinco páginas consultado mediante web; el sondeo directo devolvió 403. No se considera un documento inexistente."
+    },
+    {
+      "url": "https://www.ofertools.com.ar/productos/amoladora-dewalt-dcg413h2-ar-2-baterias-cargador/",
+      "checked": "2026-10-01T21:02:04.045562+00:00",
+      "status": 200,
+      "final_url": "https://www.ofertools.com.ar/productos/amoladora-dewalt-dcg413h2-ar-2-baterias-cargador/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora DEWALT DCG413H2-AR +2 Baterías +Cargador",
+      "headings": [
+        "Amoladora DEWALT DCG413H2-AR +2 Baterías +Cargador"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/",
+      "checked": "2026-10-01T21:02:04.919777+00:00",
+      "status": 200,
+      "final_url": "https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular 900W 125mm Velocidad Variable INDUSTRIAL TOTAL TG109125565-4",
+      "headings": [
+        "Amoladora Angular 900W 125mm Velocidad Variable INDUSTRIAL TOTAL TG109125565-4"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/",
+      "checked": "2026-10-01T21:02:05.143115+00:00",
+      "status": 200,
+      "final_url": "https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular eléctrica 700 w 115 mm - Sodimac.com.ar",
+      "headings": [
+        "Amoladora angular eléctrica 700 w 115 mm"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/",
+      "checked": "2026-10-01T21:02:06.175171+00:00",
+      "status": 200,
+      "final_url": "https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Amoladora angular eléctrica 830 W con 5 discos - Sodimac.com.ar",
+      "headings": [
+        "Amoladora angular eléctrica 830 W con 5 discos"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.todoferreteria.com/products/view/4815-amoladora-angular-125mm-dowen-pagio-aa125spl-9993224.2.html",
+      "checked": "2026-10-01T21:02:07.468891+00:00",
+      "status": 200,
+      "final_url": "https://www.todoferreteria.com/products/view/4815-amoladora-angular-125mm-dowen-pagio-aa125spl-9993224.2.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Todoferreteria - Amoladora Angular 125MM Dowen Pagio AA125SPL 9993224.2",
+      "headings": [
+        "Todoferreteria",
+        "Amoladora Angular 125MM Dowen Pagio AA125SPL 9993224.2"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf",
+      "checked": "2026-10-01T21:02:08.790806+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+      "checked": "2026-10-01T21:02:10.030135+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf",
+      "checked": "2026-10-01T21:02:11.037491+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf",
+      "checked": "2026-10-01T21:02:11.657112+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf",
+      "checked": "2026-10-01T21:02:12.313422+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+      "checked": "2026-10-01T21:02:12.898408+00:00",
+      "status": 200,
+      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true
+    },
+    {
+      "url": "https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial",
+      "checked": "2026-10-01T21:02:13.583953+00:00",
+      "status": 200,
+      "final_url": "https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Diamond Blade 115mm Honeycomb Glass & Tile Hot Pressed Industrial",
+      "headings": [
+        "Diamond Blade 115mm Honeycomb Glass & Tile Hot Pressed Industrial"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING",
+      "checked": "2026-10-01T21:02:16.890154+00:00",
+      "status": 200,
+      "final_url": "https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Diamond Blade 115mm Cont. Thin Rim Glass Tile Stone Cladding",
+      "headings": [
+        "Diamond Blade 115mm Cont. Thin Rim Glass Tile Stone Cladding"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades",
+      "checked": "2026-10-01T21:02:17.264615+00:00",
+      "status": 200,
+      "final_url": "https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades",
+      "content_type": "text/html; charset=utf-8",
+      "title": "TORK CRAFT DIAMOND BLADES CUT GLASS, CERAMICS",
+      "headings": [
+        "Tork Craft Diamond Blades"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-1050-w-dowen-pagio-9993220-9-d3k9n/",
+      "checked": "2026-10-01T21:02:20.111917+00:00",
+      "status": 200,
+      "final_url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-1050-w-dowen-pagio-9993220-9-d3k9n/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular Dowen Pagio 115mm 1050W Potente y Precisa",
+      "headings": [
+        "Amoladora Angular 115 Mm 1050 W Dowen Pagio 9993220.9"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    },
+    {
+      "url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/",
+      "checked": "2026-10-01T21:02:20.448023+00:00",
+      "status": 200,
+      "final_url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Amoladora Angular 115mm 900W Dowen Pagio - Potencia y Precisión",
+      "headings": [
+        "Amoladora Angular 115 Mm 900 W Dowen Pagio 9993220.7"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
+    }
+  ],
+  "source_history": [
     {
       "url": "https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf",
       "checked": "2026-10-01T20:12:45.745118+00:00",
@@ -152,1658 +1959,11 @@
       "generic_redirect": false
     },
     {
-      "url": "https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm",
-      "checked": "2026-10-01T20:12:45.819895+00:00",
-      "status": 200,
-      "final_url": "https://dinet.com.ar/catalogo/amoladora-angular-total-industrial-710w-115-mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladoras Amoladora angular TOTAL Industrial 710W 115 mm | DINET",
-      "headings": [
-        "Amoladoras Amoladora angular TOTAL Industrial 710W 115 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://dowenpagioweb.com.ar/garantia",
-      "checked": "2026-10-01T20:12:45.938619+00:00",
-      "status": 200,
-      "final_url": "https://dowenpagioweb.com.ar/garantia",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Sobre las Garantías de los productos | Dowen Pagio",
-      "headings": [
-        "Sobre la Garantía"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm",
-      "checked": "2026-10-01T20:12:46.074359+00:00",
-      "status": 200,
-      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora Angular - 115/125 mm - 9993224.2 | Dowen Pagio",
-      "headings": [
-        "Amoladora Angular - 115/125 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-1050-w",
-      "checked": "2026-10-01T20:12:46.121760+00:00",
-      "status": 200,
-      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-1050-w",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora Angular - 115 mm - 9993220.9 | Dowen Pagio",
-      "headings": [
-        "Amoladora Angular - 115 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-900-w",
-      "checked": "2026-10-01T20:12:46.241866+00:00",
-      "status": 200,
-      "final_url": "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-mm-900-w",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora Angular - 115 mm - 9993220.7 | Dowen Pagio",
-      "headings": [
-        "Amoladora Angular - 115 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://dowenpagioweb.com.ar/servicios-tecnicos",
-      "checked": "2026-10-01T20:12:46.318943+00:00",
-      "status": 200,
-      "final_url": "https://dowenpagioweb.com.ar/servicios-tecnicos",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Centros de Servicio Técnico Autorizados | Dowen Pagio",
-      "headings": [
-        "MÁS DE 250 CENTROS DE SERVICIO",
-        "ENCONTRÁ TU CENTRO MÁS CERCANO",
-        "¿En dónde puedo comprar repuestos?"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf",
-      "checked": "2026-10-01T20:12:46.324755+00:00",
-      "status": 200,
-      "final_url": "https://ec.stanleytools.global/GLOBALBOM/AR/STGS8115/1/Instruction_Manual/EN/N411819_STGS8115.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/",
-      "checked": "2026-10-01T20:12:46.422305+00:00",
-      "status": 200,
-      "final_url": "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular - Hamilton Professional Brand",
-      "headings": [
-        "Producto / Corte / Eléctricas",
-        "Amoladora Angular",
-        "Compresor de Aire"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://impexproshop.com/garantia/",
-      "checked": "2026-10-01T20:12:46.507355+00:00",
-      "status": 200,
-      "final_url": "https://impexproshop.com/garantia/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Garantía",
-      "headings": [
-        "Garantía",
-        "Período de garantía",
-        "Qué cubre la garantía"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://impexproshop.com/quienes-somos/",
-      "checked": "2026-10-01T20:12:46.574232+00:00",
-      "status": 200,
-      "final_url": "https://impexproshop.com/quienes-somos/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Quiénes Somos",
-      "headings": [
-        "Quiénes Somos"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://ingcostore.ar/",
-      "checked": "2026-10-01T20:12:47.084495+00:00",
-      "status": 200,
-      "final_url": "https://ingcostore.ar/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "IngcoStore Argentina | Experiencia INGCO en tiendas fisicas",
-      "headings": [
-        "Veni, conoce el producto, probalo y compralo."
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w/",
-      "checked": "2026-10-01T20:12:47.220343+00:00",
-      "status": 200,
-      "final_url": "https://ingcotools.com.ar/producto/amoladora-115m-4-1-2-710w-ag7118-4-ingco/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora 115M – 4 1/2″ – 710W AG7118-4 Ingco – Ingco Tools Argentina",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://lusqtoff.com.ar/posventa",
-      "checked": "2026-10-01T20:12:47.855119+00:00",
-      "status": 200,
-      "final_url": "https://lusqtoff.com.ar/posventa",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Posventa",
-      "headings": [
-        "Posventa"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://lusqtoff.com.ar/productos/DVC115-9",
-      "checked": "2026-10-01T20:12:48.019818+00:00",
-      "status": 200,
-      "final_url": "https://lusqtoff.com.ar/productos/DVC115-9",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Nuestros productos",
-      "headings": [
-        "DISCO DE CORTE PARA VIDRIO"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://lusqtoff.com.ar/ver-producto/AML1010-8",
-      "checked": "2026-10-01T20:12:48.064494+00:00",
-      "status": 200,
-      "final_url": "https://lusqtoff.com.ar/categorias",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Nuestros productos",
-      "headings": [
-        "Productos"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://lusqtoff.com.ar/ver-producto/AML115-9B",
-      "checked": "2026-10-01T20:12:48.181406+00:00",
-      "status": 200,
-      "final_url": "https://lusqtoff.com.ar/ver-producto/AML115-9B",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Nuestros productos",
-      "headings": [
-        "AMOLADORA ANGULAR INALÁMBRICA • 18 V"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
-      "checked": "2026-10-01T20:12:48.282061+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "VISITÁ NUESTROS SERVICES OFICIALES | Makita Argentina",
-      "headings": [
-        "VISITÁ NUESTROS SERVICES OFICIALES"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/",
-      "checked": "2026-10-01T20:12:48.339199+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/386-amoladora-makita-115mm-4-1-2-720-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 115mm - 4 1/2\" 720 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 115mm – 4 1/2\" 720 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/387-amoladora-makita-115mm-4-1-2-840-w/",
-      "checked": "2026-10-01T20:12:48.715733+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/387-amoladora-makita-115mm-4-1-2-840-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 115mm - 4 1/2\" 840 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 115mm – 4 1/2\" 840 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/",
-      "checked": "2026-10-01T20:12:48.801883+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/401-amoladora-makita-inalmbrica-18v-115mm-4-1-2-3000-8500-rpm/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita Inalámbrica 18V 115mm - 4 1/2\" 3000 - 8500 RPM | Makita Argentina",
-      "headings": [
-        "Amoladora Makita Inalámbrica 18V 115mm – 4 1/2\" 3000 – 8500 RPM"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/",
-      "checked": "2026-10-01T20:12:49.439825+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/404-amoladora-makita-125mm-5-1450-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 125mm - 5\" 1450 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 125mm –  5\" 1450 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/",
-      "checked": "2026-10-01T20:12:49.473004+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/408-amoladora-makita-180mm-7-2200-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 180mm - 7\" 2200 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 180mm – 7\" 2200 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/",
-      "checked": "2026-10-01T20:12:49.506053+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/409-amoladora-makita-180mm-7-1800-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 180mm - 7\" 1800 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 180mm – 7\" 1800 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/418-amoladora-makita-inalmbrica-180mm-7-18v-x-2/",
-      "checked": "2026-10-01T20:12:49.764269+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/418-amoladora-makita-inalmbrica-180mm-7-18v-x-2/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita Inalámbrica 180mm - 7\" 18V X 2 | Makita Argentina",
-      "headings": [
-        "Amoladora Makita Inalámbrica 180mm – 7\" 18V X 2"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/",
-      "checked": "2026-10-01T20:12:49.806630+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/420-amoladora-makita-230mm-9-2200-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Makita 230mm - 9\" 2200 W | Makita Argentina",
-      "headings": [
-        "Amoladora Makita 230mm – 9\" 2200 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/433-amoladora-de-banco-makita-205-mm-8/",
-      "checked": "2026-10-01T20:12:49.836629+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/433-amoladora-de-banco-makita-205-mm-8/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora de Banco Makita 205 mm - 8 | Makita Argentina",
-      "headings": [
-        "Amoladora de Banco Makita 205 mm – 8"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/",
-      "checked": "2026-10-01T20:12:50.541360+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/producto/434-amoladora-recta-makita-400-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Recta Makita 400 W | Makita Argentina",
-      "headings": [
-        "Amoladora Recta Makita 400 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/soporte/",
-      "checked": "2026-10-01T20:12:50.654617+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/soporte/",
-      "content_type": "text/html",
-      "title": "Servicio Técnico y Repuestos Oficiales Makita Argentina",
-      "headings": [
-        "Servicio Técnico y Repuestos"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
-      "checked": "2026-10-01T20:12:50.701880+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025.pdf",
-      "checked": "2026-10-01T20:12:50.832229+00:00",
-      "status": 200,
-      "final_url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://makitalatinamerica.com/es/producto/110-esmeriladora-angular",
-      "checked": "2026-10-01T20:12:50.954479+00:00",
-      "status": 200,
-      "final_url": "https://makitalatinamerica.com/es/producto/110-esmeriladora-angular",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Makita GA4530 Esmeriladora Angular | Makita Latinamerica",
-      "headings": [
-        "Makita Latin America"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makitalatinamerica.com/es/producto/112-esmeriladora-angular",
-      "checked": "2026-10-01T20:12:51.069108+00:00",
-      "status": 200,
-      "final_url": "https://makitalatinamerica.com/es/producto/112-esmeriladora-angular",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Makita GA4534 Esmeriladora Angular | Makita Latinamerica",
-      "headings": [
-        "Makita Latin America"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://makitatools.com/products/details/GA4590",
-      "checked": "2026-10-01T20:12:51.090227+00:00",
-      "status": null,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
-      "access_review": "Ficha localizada en búsqueda del fabricante; el fetch directo falló por certificado. No se elimina la fuente por ese fallo."
-    },
-    {
-      "url": "https://media.saint-gobain.com/Abrasives/Norton/Nordics/2025/SURFACE-SOLUTIONS-INDUSTRIAL-APPLICATIONS/239/",
-      "checked": "2026-10-01T20:12:51.117719+00:00",
-      "status": 200,
-      "final_url": "https://media.saint-gobain.com/Abrasives/Norton/Nordics/2025/SURFACE-SOLUTIONS-INDUSTRIAL-APPLICATIONS/239/",
-      "content_type": "text/html",
-      "title": "SURFACE SOLUTIONS INDUSTRIAL APPLICATIONS – Page 239",
-      "headings": [
-        "SURFACE SOLUTIONS INDUSTRIAL APPLICATIONS"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://multimedia.3m.com/mws/media/1065384O/flap-disc-selection-guide.pdf",
-      "checked": "2026-10-01T20:12:51.214369+00:00",
-      "status": 200,
-      "final_url": "https://multimedia.3m.com/mws/media/1065384O/flap-disc-selection-guide.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://mx.stanleytools.global/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20",
-      "checked": "2026-10-01T20:12:51.300909+00:00",
-      "status": 200,
-      "final_url": "https://www.stanleytools.com.mx/es-mx/producto/scg400-b3/esmeriladora-angular-inalambrica-4-12-pulg-115mm-sistema-v20",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm). Sistema V20",
-      "headings": [
-        "Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm). Sistema V20"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://neomat.com.ar/productos/disco-de-corte-115x1-0x22-231/",
-      "checked": "2026-10-01T20:12:51.563884+00:00",
-      "status": 200,
-      "final_url": "https://neomat.com.ar/productos/disco-de-corte-115x1-0x22-231/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Disco de Corte 115x1.0x22.23 - Comprar en Neomat",
-      "headings": [
-        "Disco de Corte 115x1.0x22.23"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20",
-      "checked": "2026-10-01T20:12:51.582281+00:00",
-      "status": 200,
-      "final_url": "https://pe.stanleytools.global/producto/scg400m2k-b2/combo-esmeriladora-angular-inalambrica-4-12-pulg-115mm-2-baterias-4-ah-cargador-2-maleta-sistema-v20",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Combo Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm) + 2 Baterías 4 Ah + Cargador 2 A + Maleta. Sistema V20 | STANLEY",
-      "headings": [
-        "Combo Esmeriladora angular inalámbrica 4 1/2 pulg. (115mm) + 2 Baterías 4 Ah + Cargador 2 A + Maleta. Sistema V20"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://shop.ingcostore.ar/productos/AG24008-4/",
-      "checked": "2026-10-01T20:12:51.812429+00:00",
-      "status": 200,
-      "final_url": "https://shop.ingcostore.ar/productos/AG24008-4/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular Ingco 2400W 230mm 6400rpm con Cable",
-      "headings": [
-        "Amoladora Angular Super Ingco - 230Mm(9\") 2400W 220-240V C/Cable C/Carton C/Accs - Ag24008-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://shop.ingcostore.ar/productos/AG7118-4/",
-      "checked": "2026-10-01T20:12:52.085206+00:00",
-      "status": 200,
-      "final_url": "https://shop.ingcostore.ar/productos/AG7118-4/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular Super Ingco 115Mm(4.5\") - 710W 220-240V C/Cable C/Carton - Ag7118-4",
-      "headings": [
-        "Amoladora Angular Super Ingco 115Mm(4.5\") - 710W 220-240V C/Cable C/Carton - Ag7118-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://shop.ingcostore.ar/productos/CAGLI211156/",
-      "checked": "2026-10-01T20:12:52.369136+00:00",
-      "status": 200,
-      "final_url": "https://shop.ingcostore.ar/productos/CAGLI211156/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max S/Bateria C/Carton - Cagli211156",
-      "headings": [
-        "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max S/Bateria C/Carton - Cagli211156"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://shop.ingcostore.ar/productos/CAGLI2111561-4/",
-      "checked": "2026-10-01T20:12:52.522133+00:00",
-      "status": 200,
-      "final_url": "https://shop.ingcostore.ar/productos/CAGLI2111561-4/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max C/1xBateria C/Cargador C/Maletin - Cagli2111561-4",
-      "headings": [
-        "Amoladora Angular C/Gatillo Seguridad Super Ingco - P20S 115Mm 1000W Max C/1xBateria C/Cargador C/Maletin - Cagli2111561-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://shop.ingcostore.ar/productos/CAGLI271532-4/",
-      "checked": "2026-10-01T20:12:52.547331+00:00",
-      "status": 200,
-      "final_url": "https://shop.ingcostore.ar/productos/CAGLI271532-4/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular Super Ingco - P20S 115Mm 1000W Max C/2xBateria C/Cargador C/Maletin - Cagli271532-4",
-      "headings": [
-        "Amoladora Angular Super Ingco - P20S 115Mm 1000W Max C/2xBateria C/Cargador C/Maletin - Cagli271532-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://siglo21myh.com.ar/tienda-online/disco-corte-vidrio-lusqtoff-dvc115-9-115mm/",
-      "checked": "2026-10-01T20:12:53.633634+00:00",
-      "status": 200,
-      "final_url": "https://siglo21myh.com.ar/tienda-online/disco-corte-vidrio-lusqtoff-dvc115-9-115mm/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm",
-      "headings": [
-        "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm Continuo",
-        "Disco de Corte para Vidrio Lusqtoff DVC115-9 115 mm Continuo"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://support.dewalt.com/hc/pt/article_attachments/360019232453",
-      "checked": "2026-10-01T20:12:53.793417+00:00",
-      "status": 200,
-      "final_url": "https://support.dewalt.com/hc/pt/article_attachments/360019232453",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://support.dewalt.com/hc/pt/article_attachments/360019232853",
-      "checked": "2026-10-01T20:12:54.164322+00:00",
-      "status": 200,
-      "final_url": "https://support.dewalt.com/hc/pt/article_attachments/360019232853",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html",
-      "checked": "2026-10-01T20:12:54.284286+00:00",
-      "status": 200,
-      "final_url": "https://todoferreteria.com/products/view/4841-amoladora-angular-180mm-total-tg12018026-4.html",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Todoferreteria - Amoladora Angular 180MM Total TG12018026-4",
-      "headings": [
-        "Todoferreteria",
-        "Amoladora Angular 180MM Total TG12018026-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://tools.cp.com/en-in/products/grinders/cp872-skuT025373",
-      "checked": "2026-10-01T20:12:54.357646+00:00",
-      "status": 200,
-      "final_url": "https://tools.cp.com/en-in/products/grinders/cp872-skuT025373",
-      "content_type": "text/html; charset=utf-8",
-      "title": "CP872 | Smart Portal",
-      "headings": [
-        "CP872"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://tools.cp.com/es_mx/products/grinders/diegrinders/cp9104q",
-      "checked": "2026-10-01T20:12:54.713020+00:00",
-      "status": 200,
-      "final_url": "https://tools.cp.com/es_mx/products/grinders/diegrinders/cp9104q",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "CP9104Q - Chicago Pneumatic",
-      "headings": [
-        "CP9104Q"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/",
-      "checked": "2026-10-01T20:12:55.124895+00:00",
-      "status": 200,
-      "final_url": "https://totaltools.com.na/shop/total-tools/power-tools-cordless-total-tools/angle-grinder-tg10711576/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Total Tools Angle grinder (TG10711576) - Total Tools Namibia",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://totaltunisia.com/products/meule-ang-115-710w-tg10711576",
-      "checked": "2026-10-01T20:12:55.658673+00:00",
-      "status": 200,
-      "final_url": "https://totaltunisia.com/products/meule-ang-115-710w-tg10711576",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Meule Angulaire 115 710W Outil Meulage Puissant TG10711576 — Total Tunisia",
-      "headings": [
-        "Meule Angulaire 115 710W Outil Meulage Puissant TG10711576"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.asme.org/codes-standards/find-codes-standards/b1-1-unified-inch-screw-threads-un-unr-thread-form",
-      "checked": "2026-10-01T20:12:55.829340+00:00",
-      "status": 200,
-      "final_url": "https://www.asme.org/codes-standards/find-codes-standards/b1-1-unified-inch-screw-threads-un-unr-thread-form",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Unified Inch Screw Threads (UN UNR and UNJ Thread Forms) - ASME",
-      "headings": [
-        "B1.1 - Unified Inch Screw Threads (UN, UNR, and UNJ Thread Forms)"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-grandes-orificio-de-22-23-mm-osa-3090751-ocs-ac/",
-      "checked": "2026-10-01T20:12:56.238002+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-grandes-orificio-de-22-23-mm-osa-3090751-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte acoplado PRO Metal - Bosch Professional",
-      "headings": [
-        "Disco de corte acoplado PRO Metal"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/",
-      "checked": "2026-10-01T20:12:57.128651+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-x-lock-3090752-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte acoplado PRO Metal - Bosch Professional",
-      "headings": [
-        "Disco de corte acoplado PRO Metal"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/?sku=2608900659",
-      "checked": "2026-10-01T20:12:57.513262+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamante-expert-hard-ceramic-de-larga-vida-util-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-2867632-ocs-ac/?sku=2608900659",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte con diamante EXPERT Multi Material - Bosch Professional",
-      "headings": [
-        "Disco de corte con diamante EXPERT Multi Material"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/",
-      "checked": "2026-10-01T20:12:57.955847+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte con diamante PRO Ceramic - Bosch Professional",
-      "headings": [
-        "Disco de corte con diamante PRO Ceramic"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-corte-pro-stainless-steel-and-metal-abrasivo-y-de-larga-duracion-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3090743-ocs-ac/",
-      "checked": "2026-10-01T20:12:58.511074+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-corte-pro-stainless-steel-and-metal-abrasivo-y-de-larga-duracion-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3090743-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte acoplado PRO Stainless Steel and Metal - Bosch Professional",
-      "headings": [
-        "Disco de corte acoplado PRO Stainless Steel and Metal"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/",
-      "checked": "2026-10-01T20:12:58.689655+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-de-desbaste-abrasivo-pro-metal-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-osa-3090771-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de desbaste acoplado PRO Metal - Bosch Professional",
-      "headings": [
-        "Disco de desbaste acoplado PRO Metal"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-metal-x571-para-amoladoras-angulares-pequenas-version-en-angulo-fibra-3065169-ocs-ac/",
-      "checked": "2026-10-01T20:12:59.464598+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-metal-x571-para-amoladoras-angulares-pequenas-version-en-angulo-fibra-3065169-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco flap PRO X571, en ángulo - Bosch Professional",
-      "headings": [
-        "Disco flap PRO X571, en ángulo"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/",
-      "checked": "2026-10-01T20:12:59.750976+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/disco-flap-pro-x571-para-amoladoras-angulares-pequenas-version-recta-fibra-3065170-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco flap PRO X571, recto - Bosch Professional",
-      "headings": [
-        "Disco flap PRO X571, recto"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/",
-      "checked": "2026-10-01T20:13:00.024459+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Discos EXPERT HardCeramic - Bosch Professional",
-      "headings": [
-        "Discos EXPERT HardCeramic"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/?sku=2608900653",
-      "checked": "2026-10-01T20:13:00.570958+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/?sku=2608900653",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Discos EXPERT HardCeramic - Bosch Professional",
-      "headings": [
-        "Discos EXPERT HardCeramic"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-multimaterial-2868971-ocs-ac/",
-      "checked": "2026-10-01T20:13:00.710369+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-multimaterial-2868971-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte con diamante EXPERT Multi Material - Bosch Professional",
-      "headings": [
-        "Disco de corte con diamante EXPERT Multi Material"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/ggs-28-l-06012240H0",
-      "checked": "2026-10-01T20:13:01.483189+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/ggs-28-l-06012240H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GGS 28 L Rectificadora | Bosch Professional",
-      "headings": [
-        "PRO GGS 28 L"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0",
-      "checked": "2026-10-01T20:13:01.623082+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 12-125 S Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 12-125 S"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-180-li-06019H90E0",
-      "checked": "2026-10-01T20:13:02.632203+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-180-li-06019H90E0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 180-LI Amoladoras angulares inalámbricas | Bosch Professional",
-      "headings": [
-        "PRO GWS 180-LI"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-pc-06019G3E0B",
-      "checked": "2026-10-01T20:13:02.745663+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-pc-06019G3E0B",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 18V-10 PC Amoladoras angulares inalámbricas | Bosch Professional",
-      "headings": [
-        "PRO GWS 18V-10 PC"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0",
-      "checked": "2026-10-01T20:13:02.853041+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-2200-180-06018F11H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 2200-180 Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 2200-180"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0",
-      "checked": "2026-10-01T20:13:03.461971+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-06018F41H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 25-230 Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 25-230"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1",
-      "checked": "2026-10-01T20:13:03.547695+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-25-180-lvi-r-06018F71H1",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 25-180 LVI R Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 25-180 LVI R"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-30-230-pb-06018G11H0",
-      "checked": "2026-10-01T20:13:04.512005+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-30-230-pb-06018G11H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 30-230 PB Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 30-230 PB"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-700-06013A30H0",
-      "checked": "2026-10-01T20:13:04.714171+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-700-06013A30H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 700 Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 700"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0",
-      "checked": "2026-10-01T20:13:04.915434+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-850-06013775H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 850 Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 850"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0",
-      "checked": "2026-10-01T20:13:05.354516+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-06013A90H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 9-125 Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 9-125"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961D0",
-      "checked": "2026-10-01T20:13:05.450601+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961D0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 9-125 S"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0",
-      "checked": "2026-10-01T20:13:06.235654+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 9-125 S"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/es/servicios/garantia-de-productos/informacion/",
-      "checked": "2026-10-01T20:13:06.437679+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/es/servicios/garantia-de-productos/informacion/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Garantía Bosch | Bosch Professional",
-      "headings": [
-        "REGISTRESE Y OBTÉN UNA GARANTÍA ADICIONAL DE 1 AÑO EN TUS HERRAMIENTAS"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf",
-      "checked": "2026-10-01T20:13:06.522731+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_1_es_220v_-_empreiteiro_-_web.pdf",
-      "checked": "2026-10-01T20:13:06.974029+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_1_es_220v_-_empreiteiro_-_web.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/binary/manualsmedia/o424644v21_160992A8T6_202306.pdf",
-      "checked": "2026-10-01T20:13:07.368585+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o424644v21_160992A8T6_202306.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/binary/manualsmedia/o518745v21_160992AA24_202411.pdf",
-      "checked": "2026-10-01T20:13:07.546631+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o518745v21_160992AA24_202411.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/binary/manualsmedia/o521654v21_160992AA25_202412.pdf",
-      "checked": "2026-10-01T20:13:07.675293+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o521654v21_160992AA25_202412.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf",
-      "checked": "2026-10-01T20:13:07.819153+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/binary/manualsmedia/o606197v21_160992AD3S_202509.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/br/pt/products/gws-770-06013980E0",
-      "checked": "2026-10-01T20:13:08.156152+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/br/pt/products/gws-770-06013980E0",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 770 Esmerilhadeira angular | Bosch Professional",
-      "headings": [
-        "PRO GWS 770"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-osa-3090750-ocs-ac/",
-      "checked": "2026-10-01T20:13:08.261748+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-abrasivo-pro-metal-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-osa-3090750-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte abrasivo PRO Metal - Bosch Professional",
-      "headings": [
-        "Disco de corte abrasivo PRO Metal"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-grandes-diametro-interior-de-22-23-mm-3088612-ocs-ac/",
-      "checked": "2026-10-01T20:13:08.359810+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-grandes-diametro-interior-de-22-23-mm-3088612-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte con diamante PRO Concrete - Bosch Professional",
-      "headings": [
-        "Disco de corte con diamante PRO Concrete"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/",
-      "checked": "2026-10-01T20:13:08.360831+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/disco-de-corte-con-diamante-pro-concrete-para-amoladoras-pequenas-diametro-interior-de-22-23-mm-3089216-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "Disco de corte con diamante PRO Concrete - Bosch Professional",
-      "headings": [
-        "Disco de corte con diamante PRO Concrete"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/products/gbg-35-15-060127A300",
-      "checked": "2026-10-01T20:13:08.464985+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/products/gbg-35-15-060127A300",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GBG 35-15 Esmeriladora doble | Bosch Professional",
-      "headings": [
-        "PRO GBG 35-15"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK",
-      "checked": "2026-10-01T20:13:08.605473+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/products/gde-115-125-fc-t-1600A003DK",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GDE 115/125 FC-T Accesorio de sistema | Bosch Professional",
-      "headings": [
-        "PRO GDE 115/125 FC-T"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103",
-      "checked": "2026-10-01T20:13:10.414286+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/products/gws-9-115-s-0601396103",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 9-115 S Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 9-115 S"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104",
-      "checked": "2026-10-01T20:13:10.731308+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/es/es/products/gws-9-125-s-0601396104",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO GWS 9-125 S Amoladora | Bosch Professional",
-      "headings": [
-        "PRO GWS 9-125 S"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/gb/en/expert-multi-material-turbo-diamond-cutting-disc-3009595-ocs-ac/",
-      "checked": "2026-10-01T20:13:10.802762+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/gb/en/expert-multi-material-turbo-diamond-cutting-disc-3009595-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "EXPERT Multi Material turbo Diamond Cutting Disc - Bosch Professional",
-      "headings": [
-        "EXPERT Multi Material turbo Diamond Cutting Disc"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/",
-      "checked": "2026-10-01T20:13:10.970158+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/gb/en/pro-metal-bonded-grinding-disc-for-large-angle-grinders-bore-22-23-mm-osa-3090772-ocs-ac/",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "PRO Metal Bonded Grinding Disc - Bosch Professional",
-      "headings": [
-        "PRO Metal Bonded Grinding Disc"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf",
-      "checked": "2026-10-01T20:13:11.166563+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/media/professional/service/downloads/catalogs/rmi/ac_smi_catalogue_2020.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/pa/media/country_content/service/download/catalogue/catalogo_accesorios_argentina_2015-2016_lowres.pdf",
-      "checked": "2026-10-01T20:13:12.040384+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/pa/media/country_content/service/download/catalogue/catalogo_accesorios_argentina_2015-2016_lowres.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.bosch-professional.com/za/en/products/gbg-60-20-060127A400",
-      "checked": "2026-10-01T20:13:12.856219+00:00",
-      "status": 200,
-      "final_url": "https://www.bosch-professional.com/za/en/products/gbg-60-20-060127A400",
-      "content_type": "text/html;charset=UTF-8",
-      "title": "GBG 60-20 PROFESSIONAL | Bosch Professional SA",
-      "headings": [
-        "PRO GBG 60-20"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.cp.com/content/dam/pim/itba/cp/technical-documents/8940168669.pdf",
-      "checked": "2026-10-01T20:13:12.966853+00:00",
-      "status": 200,
-      "final_url": "https://www.cp.com/content/dam/pim/itba/cp/technical-documents/8940168669.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/producto/dck2225mp2t-ar/dewalt-x-mclaren-kit-de-valor-agregado-taladro-combinado-20v-xr-con-2",
-      "checked": "2026-10-01T20:13:13.359652+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dck2225mp2t-ar/dewalt-x-mclaren-kit-de-valor-agregado-taladro-combinado-20v-xr-con-2",
-      "content_type": "text/html; charset=utf-8",
-      "title": "DEWALT X MCLAREN KIT DE VALOR AGREGADO TALADRO COMBINADO 20V XR - CON 2 BATERÍAS DE 5AH",
-      "headings": [
-        "DEWALT X MCLAREN KIT DE VALOR AGREGADO TALADRO COMBINADO 20V XR - CON 2 BATERÍAS DE 5AH"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm",
-      "checked": "2026-10-01T20:13:13.556523+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4120-ar/amoladora-angular-4-12-pulg-115mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular 4-1/2 pulg. @ 115mm",
-      "headings": [
-        "Amoladora angular 4-1/2 pulg. @ 115mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4212-ar/amoladora-angular-5-pulg-125mm",
-      "checked": "2026-10-01T20:13:13.638734+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4212-ar/amoladora-angular-5-pulg-125mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular 5 pulg. @ 125mm",
-      "headings": [
-        "Amoladora angular 5 pulg. @ 125mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4314-ar/amoladora-angular-5-pulg-125mm",
-      "checked": "2026-10-01T20:13:13.804845+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4314-ar/amoladora-angular-5-pulg-125mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular 5 pulg. @ 125mm",
-      "headings": [
-        "Amoladora angular 5 pulg. @ 125mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm",
-      "checked": "2026-10-01T20:13:14.049338+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/producto/dwe4557-ar/amoladora-angular-7-pulg-180mm",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular 7 pulg. @ 180mm",
-      "headings": [
-        "Amoladora angular 7 pulg. @ 180mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com.ar/es-ar/soporte",
-      "checked": "2026-10-01T20:13:14.110988+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com.ar/es-ar/soporte",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Soporte",
-      "headings": [
-        "Servicio y Ayuda"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
-      "checked": "2026-10-01T20:13:14.171157+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
-      "content_type": "text/html; charset=utf-8",
-      "title": "20V MAX* XR® 4-1/2-in Paddle Switch Small Angle Grinder With KICKBACK BRAKE™ (Tool Only)",
-      "headings": [
-        "20V MAX* XR ® 4-1/2-in Paddle Switch Small Angle Grinder With KICKBACK BRAKE™ (Tool Only)"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com/en-us/product/dwe402/4-12-115mm-small-angle-grinder",
-      "checked": "2026-10-01T20:13:14.185296+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com/en-us/product/dwe402/4-12-115mm-small-angle-grinder",
-      "content_type": "text/html; charset=utf-8",
-      "title": "4-1/2-in. (115mm) Small Angle Grinder",
-      "headings": [
-        "4-1/2-in. (115mm) Small Angle Grinder"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.dewalt.com/en-us/product/dwe4120/angle-grinder-tool-4-12-paddle-switch",
-      "checked": "2026-10-01T20:13:14.224138+00:00",
-      "status": 200,
-      "final_url": "https://www.dewalt.com/en-us/product/dwe4120/angle-grinder-tool-4-12-paddle-switch",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Angle Grinder Tool, 4-1/2-in., Paddle Switch",
-      "headings": [
-        "Angle Grinder Tool, 4-1/2-in., Paddle Switch"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/",
-      "checked": "2026-10-01T20:13:14.560419+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-500-w-gamma-select/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/",
-      "checked": "2026-10-01T20:13:14.696461+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-710-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
-      "checked": "2026-10-01T20:13:14.719437+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-750-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/",
-      "checked": "2026-10-01T20:13:14.758682+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-angular-850w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/",
-      "checked": "2026-10-01T20:13:14.836013+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/producto/amoladora-electrica-angular-750-w/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
-      "checked": "2026-10-01T20:13:14.936777+00:00",
-      "status": 200,
-      "final_url": "https://www.gammaherramientas.com.ar/servicio-tecnico/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-125-mm/",
-      "checked": "2026-10-01T20:13:16.821047+00:00",
-      "status": 200,
-      "final_url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-125-mm/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Disco de Corte 125 mm - Herramientas Einhell",
-      "headings": [
-        "Disco de Corte 125 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-para-acero-115mm/",
-      "checked": "2026-10-01T20:13:16.828037+00:00",
-      "status": 200,
-      "final_url": "https://www.herramientaseinhell.com.ar/producto/disco-de-corte-para-acero-115mm/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Disco de Corte para Metales 115mm - Herramientas Einhell",
-      "headings": [
-        "Disco de Corte para Metales 115mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.hook.ar/store/2152",
-      "checked": "2026-10-01T20:13:16.883336+00:00",
-      "status": 200,
-      "final_url": "https://www.hook.ar/store/2152",
-      "content_type": "text/html",
-      "title": "",
-      "headings": [],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.husqvarnaconstruction.com/ae/diamond-tools/diamond-blades/vari-cut-s4/",
-      "checked": "2026-10-01T20:13:16.888077+00:00",
-      "status": 200,
-      "final_url": "https://www.husqvarnaconstruction.com/ae/diamond-tools/diamond-blades/vari-cut-s4/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Husqvarna VARI-CUT™ S4 | Angle grinder blades | Husqvarna AE",
-      "headings": [
-        "Husqvarna VARI-CUT™ S4",
-        "Husqvarna VARI-CUT™ S4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.impexpro.com.ar/servicio-tecnico/",
-      "checked": "2026-10-01T20:13:16.981944+00:00",
-      "status": 200,
-      "final_url": "https://www.impexpro.com.ar/servicio-tecnico/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Servicio Técnico - ImpexPro",
-      "headings": [
-        "SeRvicio Técnico"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com.ar/herramientas-electricas",
-      "checked": "2026-10-01T20:13:17.012284+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com.ar/herramientas-electricas",
-      "content_type": "text/html; charset=ISO-8859-1",
-      "title": "Herramientas Eléctricas",
-      "headings": [
-        "Herramientas Eléctricas"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html",
-      "checked": "2026-10-01T20:13:17.833131+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com.ar/herramientas-electricas/amoladora-angular-industrial-2000w-180-mm.html",
-      "content_type": "text/html; charset=ISO-8859-1",
-      "title": "AMOLADORA ANGULAR INDUSTRIAL 2000W 180 MM",
-      "headings": [
-        "AMOLADORA ANGULAR INDUSTRIAL 2000W 180 MM"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html",
-      "checked": "2026-10-01T20:13:18.194710+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com.ar/proximamente/amoladora-angular-industrial-960w-115-mm.html",
-      "content_type": "text/html; charset=ISO-8859-1",
-      "title": "AMOLADORA ANGULAR INDUSTRIAL 960W 115 MM",
-      "headings": [
-        "AMOLADORA ANGULAR INDUSTRIAL 960W 115 MM"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com/cl-en/product/angle-grinder/AG8508",
-      "checked": "2026-10-01T20:13:18.237679+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com/cl-en/product/angle-grinder/AG8508",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Power tools Angle grinder AG8508 - INGCO Chile",
-      "headings": [
-        "AG8508 Angle grinder"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com/cl-en/products/cordless-tools",
-      "checked": "2026-10-01T20:13:18.362864+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com/cl-en/products/cordless-tools",
-      "content_type": "text/html; charset=utf-8",
-      "title": "INGCO Cordless tools - INGCO Chile",
-      "headings": [
-        "INGCO Cordless tools"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com/eg-en/product/cordless-angle-grinder/CAGLI271532",
-      "checked": "2026-10-01T20:13:18.781076+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com/eg-en/product/cordless-angle-grinder/CAGLI271532",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Cordless tools Cordless angle grinder CAGLI271532 - INGCO Egypt",
-      "headings": [
-        "CAGLI271532 Cordless angle grinder"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com/md/product/cordless-angle-grinder/CAGLI2111561",
-      "checked": "2026-10-01T20:13:19.149869+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com/md/product/cordless-angle-grinder/CAGLI2111561",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Unelte fără fir Polizor unghiular fără fir CAGLI2111561 - INGCO Moldova",
-      "headings": [
-        "CAGLI2111561 Polizor unghiular pe accumulator 20V/1*4Ah INGCO"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingco.com/product/cordless-angle-grinder/CAGLI1151",
-      "checked": "2026-10-01T20:13:19.233259+00:00",
-      "status": 200,
-      "final_url": "https://www.ingco.com/product/cordless-angle-grinder/CAGLI1151",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Cordless angle grinder CAGLI1151 - INGCO",
-      "headings": [
-        "CAGLI1151 Cordless angle grinder"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.ingcoargentina.com/index.php",
-      "checked": "2026-10-01T20:13:19.507715+00:00",
-      "status": 200,
-      "final_url": "https://www.ingcoargentina.com/index.php",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "INGCO Argentina - Herramientas Industriales de Calidad Premium",
-      "headings": [
-        "MOTOGUADAÑA",
-        "CORTADORA CESPED",
-        "HACHA 1250G"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3A965%3A-2%3Adis%3Aed-4%3Av1%3Aen",
-      "checked": "2026-10-01T20:13:21.577021+00:00",
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "access_review": "Contenido consultado en web; acceso directo 403."
-    },
-    {
-      "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "checked": "2026-10-01T20:13:21.635685+00:00",
-      "status": 200,
-      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.lusqtoff.com.ar/productos/amoladora-de-banco-o-375-w-ab-375",
-      "checked": "2026-10-01T20:13:21.727067+00:00",
-      "status": 200,
-      "final_url": "https://www.lusqtoff.com.ar/productos/amoladora-de-banco-o-375-w-ab-375",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Nuestros productos",
-      "headings": [
-        "AMOLADORA DE BANCO • 375 W"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.lusqtoff.com.ar/ver-producto/AML115-9BK",
-      "checked": "2026-10-01T20:13:21.925602+00:00",
-      "status": 200,
-      "final_url": "https://www.lusqtoff.com.ar/ver-producto/AML115-9BK",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Lüsqtoff - Nuestros productos",
-      "headings": [
-        "AMOLADORA ANGULAR INALÁMBRICA • 115 MM. (4 1/2”)"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.nortonabrasives.com/en-us/grinding-wheel-basics",
-      "checked": "2026-10-01T20:13:22.100282+00:00",
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "access_review": "Contenido consultado en web; acceso directo 403."
-    },
-    {
-      "url": "https://www.nortonabrasives.com/en-us/resources/expertise/dos-and-donts-flap-discs",
-      "checked": "2026-10-01T20:13:22.495731+00:00",
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "access_review": "Contenido consultado en web; ángulos T27/T29 verificados."
-    },
-    {
-      "url": "https://www.nortonabrasives.com/es-es/productos/clipper-para-desbaste-con-amoladora-angular-en-metal-e-inox",
-      "checked": "2026-10-01T20:13:22.566614+00:00",
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden",
-      "access_review": "Contenido consultado en web; acceso directo 403."
-    },
-    {
       "url": "https://www.nortonabrasives.com/sites/mac3-acs-norton/files/2024-03/Brochure-Discs-Flap-Family-Norton-8392.pdf",
       "checked": "2026-10-01T20:13:22.616181+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden",
       "access_review": "Reemplazado por URL oficial terminada en .pdf-196153.pdf; PDF de cinco páginas consultado en web."
-    },
-    {
-      "url": "https://www.ofertools.com.ar/productos/amoladora-dewalt-dcg413h2-ar-2-baterias-cargador/",
-      "checked": "2026-10-01T20:13:22.864771+00:00",
-      "status": 200,
-      "final_url": "https://www.ofertools.com.ar/productos/amoladora-dewalt-dcg413h2-ar-2-baterias-cargador/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora DEWALT DCG413H2-AR +2 Baterías +Cargador",
-      "headings": [
-        "Amoladora DEWALT DCG413H2-AR +2 Baterías +Cargador"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/",
-      "checked": "2026-10-01T20:13:23.137571+00:00",
-      "status": 200,
-      "final_url": "https://www.s2herramientas.com.ar/productos/amoladora-angular-900w-125mm-velocidad-variable-industrial-total-tg109125565-4/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular 900W 125mm Velocidad Variable INDUSTRIAL TOTAL TG109125565-4",
-      "headings": [
-        "Amoladora Angular 900W 125mm Velocidad Variable INDUSTRIAL TOTAL TG109125565-4"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/",
-      "checked": "2026-10-01T20:13:23.368373+00:00",
-      "status": 200,
-      "final_url": "https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular eléctrica 700 w 115 mm - Sodimac.com.ar",
-      "headings": [
-        "Amoladora angular eléctrica 700 w 115 mm"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/",
-      "checked": "2026-10-01T20:13:23.631900+00:00",
-      "status": 200,
-      "final_url": "https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Amoladora angular eléctrica 830 W con 5 discos - Sodimac.com.ar",
-      "headings": [
-        "Amoladora angular eléctrica 830 W con 5 discos"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.todoferreteria.com/products/view/4815-amoladora-angular-125mm-dowen-pagio-aa125spl-9993224.2.html",
-      "checked": "2026-10-01T20:13:24.333160+00:00",
-      "status": 200,
-      "final_url": "https://www.todoferreteria.com/products/view/4815-amoladora-angular-125mm-dowen-pagio-aa125spl-9993224.2.html",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Todoferreteria - Amoladora Angular 125MM Dowen Pagio AA125SPL 9993224.2",
-      "headings": [
-        "Todoferreteria",
-        "Amoladora Angular 125MM Dowen Pagio AA125SPL 9993224.2"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf",
-      "checked": "2026-10-01T20:13:24.379929+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
-      "checked": "2026-10-01T20:13:24.572057+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4212/4/Instruction_Manual/EN/NA085728_DWE4212_DWE4214_DWE4227_DWE4314_DWE4315_DWE4336_T4_LA.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf",
-      "checked": "2026-10-01T20:13:24.573529+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/AR/STGS9115/3/Instruction_Manual/EN/N845772_STGS9115.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf",
-      "checked": "2026-10-01T20:13:24.611516+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SCG400M2K/1/Instruction_Manual/EN/NA028460_SCG400-T1-LAG.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf",
-      "checked": "2026-10-01T20:13:24.612339+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SG7115KD/1/Instruction_Manual/EN/NA007921_SG6115_SG7115.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
-      "checked": "2026-10-01T20:13:24.711780+00:00",
-      "status": 200,
-      "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STGS7115/1/Instruction_Manual/EN/N411818_STGS7115.pdf",
-      "content_type": "application/pdf"
-    },
-    {
-      "url": "https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial",
-      "checked": "2026-10-01T20:13:24.713013+00:00",
-      "status": 200,
-      "final_url": "https://www.torkcraft.com/TCDB1240115_Diamond-Blade-115mm-Honeycomb-Glass-_and_-Tile-Hot-Pressed-Industrial",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Diamond Blade 115mm Honeycomb Glass & Tile Hot Pressed Industrial",
-      "headings": [
-        "Diamond Blade 115mm Honeycomb Glass & Tile Hot Pressed Industrial"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING",
-      "checked": "2026-10-01T20:13:24.769552+00:00",
-      "status": 200,
-      "final_url": "https://www.torkcraft.com/TCDB80115_DIAMOND-BLADE-115MM-CONT_-THIN-RIM-GLASS-TILE-STONE-CLADDING",
-      "content_type": "text/html; charset=utf-8",
-      "title": "Diamond Blade 115mm Cont. Thin Rim Glass Tile Stone Cladding",
-      "headings": [
-        "Diamond Blade 115mm Cont. Thin Rim Glass Tile Stone Cladding"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades",
-      "checked": "2026-10-01T20:13:25.480442+00:00",
-      "status": 200,
-      "final_url": "https://www.torkcraft.com/blog/press-03-06-2025-tc-diamond-blades",
-      "content_type": "text/html; charset=utf-8",
-      "title": "TORK CRAFT DIAMOND BLADES CUT GLASS, CERAMICS",
-      "headings": [
-        "Tork Craft Diamond Blades"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-1050-w-dowen-pagio-9993220-9-d3k9n/",
-      "checked": "2026-10-01T20:13:25.704261+00:00",
-      "status": 200,
-      "final_url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-1050-w-dowen-pagio-9993220-9-d3k9n/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular Dowen Pagio 115mm 1050W Potente y Precisa",
-      "headings": [
-        "Amoladora Angular 115 Mm 1050 W Dowen Pagio 9993220.9"
-      ],
-      "generic_redirect": false
-    },
-    {
-      "url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/",
-      "checked": "2026-10-01T20:13:25.935910+00:00",
-      "status": 200,
-      "final_url": "https://www.tumaquina.com.ar/productos/amoladora-angular-115-mm-900-w-dowen-pagio-9993220-7-1go2l/",
-      "content_type": "text/html; charset=UTF-8",
-      "title": "Amoladora Angular 115mm 900W Dowen Pagio - Potencia y Precisión",
-      "headings": [
-        "Amoladora Angular 115 Mm 900 W Dowen Pagio 9993220.7"
-      ],
-      "generic_redirect": false
     }
   ],
   "rows": [
@@ -1911,7 +2071,7 @@
         "batch": "amoladoras-01",
         "body_sha256": "95de2630479762284b72afa5b5364c75fe9ab7a879bd541cde4451d8b7bf11f2",
         "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
-        "notes": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Continúa pendiente reconfirmar DWE4212/DWE4314 y el combo. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
+        "notes": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Las fichas oficiales DWE4212-AR y DWE4314-AR confirman 1200/1500 W, 115/125 mm y 11000 rpm. El combo DCK2225MP2T-AR describe DCF99M, DCG45M, dos DCB184 de 5 Ah, cargador DCB1104 y TSTAK; no se deduce el diámetro de la amoladora. Queda pendiente contrastar tensión/frecuencia de todas las variantes. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
         "full_claim_verification": "pendiente",
         "evidence": [
           {
@@ -2001,7 +2161,7 @@
     {
       "path": "/amoladoras/de-banco/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\06-amoladora-de-banco.md",
-      "body_sha256": "903201c87673edab27c3baf9f7adc639739b2a7f1143b1ab1e5b47926a19e7e9",
+      "body_sha256": "f05d7419a36e6a14b914b16f9c89ad00f7abc3aab211e7ba599f8d62f91e2d0f",
       "title": "Amoladoras de banco: cuál elegir para afilar y desbastar",
       "issues": [],
       "sources": [
@@ -2021,10 +2181,10 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "amoladoras-01",
-        "body_sha256": "903201c87673edab27c3baf9f7adc639739b2a7f1143b1ab1e5b47926a19e7e9",
+        "body_sha256": "f05d7419a36e6a14b914b16f9c89ad00f7abc3aab211e7ba599f8d62f91e2d0f",
         "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
-        "notes": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje de muela. Corregido enlace a la guía de amoladora recta. Pendiente reconfirmar cada campo numérico contra el manual.",
-        "full_claim_verification": "pendiente"
+        "notes": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje. Contrastados manuales Bosch GBG 35-15 y 60-20 (350/600 W, S2 60 min, 150x20 y 200x25x32, 3000/3600 rpm), ficha AB-375 (375 W, 150x16x12,7, 2950 rpm) y catálogo Makita 2025 p.49 (GB801: 550 W, 205x19x15,88, 2850/3450 rpm). Corregida la asignación de las rpm Makita a frecuencias que esa tabla no explicita. El régimen de Makita y AB-375 sigue desconocido; no se extrapola S2 Bosch.",
+        "full_claim_verification": "tablas principales contrastadas; variantes y campos no publicados quedan explícitos"
       }
     },
     {
@@ -2128,8 +2288,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "2f1ccfbf4a15b3fc513a9c720178ec9a8da30fa0774be72022af320b764a0425",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: compara compactas GWS 700/850, regulación GWS 9-125 S y batería GWS 180-LI; GWS 770 queda como referencia brasileña. Contrastadas fichas 700 (710 W/12000 rpm/115 mm/1,7 kg), 850 (850 W/11000 rpm/220 V/2 kg) y 9-125 S H0 (220 V/900 W/2800–11000 rpm). Mantiene la discrepancia de peso del catálogo y no confunde H0 con D0 de 127 V. Los enlaces a velocidad variable e inalámbricas funcionan.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/lusqtoff/",
@@ -2146,8 +2313,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "7720ddec2c957bcaae49345c74f76a28602c7b30e63305f76f793d8faa330e50",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: cuatro códigos corresponden a 115 mm fijo, 125 mm variable, cuerpo 18 V y kit 18 V. Fichas AML1010-8 y AML115-9BK contrastadas: 1010 W/125 mm/0–11000 rpm y kit de dos baterías de 4 Ah/6500–7000–8500 rpm. Mantener las cuatro configuraciones, distinguir pesos de cuerpo/kit y garantía por código.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/9-pulgadas/",
@@ -2166,26 +2340,39 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "ebd62b14ac49d3c26c35fe3867347bdf0a76c8a5105f64dc2cb02b8745e02ff4",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: cuatro alternativas de 230 mm Bosch GWS 25-230/30-230 PB, Makita GA9020 y Stanley STGL2223-AR. Conserva campos desconocidos Stanley y rango de peso Makita. No deduce 25 mm adicionales de corte desde la diferencia con 180 mm; accesorios de 230 mm necesitan su máquina y montaje.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/skil-830w/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\13-amoladora-skil-830w.md",
-      "body_sha256": "32f81c9cbcba73545ebe66b0801890513fe9fae897bb8d83674bfe40ceff9d70",
+      "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
       "title": "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W",
       "issues": [],
       "sources": [
         "https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM",
-        "https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf",
-        "https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf",
+        "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf",
         "https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/",
         "https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/"
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/disco-diamantado-segmentado/",
@@ -2204,8 +2391,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "8b7d93dce8a62389462a97a6cb600dc11c96289ca336cd64a4dc70897483c80f",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: cuatro referencias Bosch separadas por aplicación y diámetro 115/230 mm. Segmentado, turbo y continuo no autorizan materiales por sí solos; régimen seco/húmedo depende del código. Mantener referencias en tabla y no ofrecer 230 mm como reemplazo de 115 mm. El slug antiguo se explica; la identidad debe corresponder a EXPERT Multi Material.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/stanley/",
@@ -2231,8 +2425,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "d84d08cf87fcb59c523b0e5472cbe4dee4a04257213b06e2696ce3e2cf1cc9b1",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: tres compactas argentinas STGS7115/8115/9115 y referencias SCG400 regionales de cuerpo/kit. Mantener sufijos y fuentes separadas: SCG400-AR comercial no acredita el contenido B3/M2K-B2 extranjero. La garantía de dos años local no se traslada a otras variantes; SG7115 y STGS7115 no se mezclan.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/disco-de-corte/",
@@ -2249,13 +2450,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "878b3693a687f852fc9393eb7998bb46e33ccf3ede9b9ff10eaa477aa2668e06",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: comparar accesorios por material, espesor, diámetro y fijación. Metal e inoxidable no son familias universales; X-Lock requiere interfaz compatible. El disco de desbaste 2608600218 aparece como contraste, no como candidato de corte. Mantener ejemplos 115/125 y derivaciones a cerámica, hormigón y vidrio.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/ingco/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\17-amoladoras-ingco.md",
-      "body_sha256": "9775a373fc6a5d0f9eaede6973f1089ddd93abb868f38e807249d649a32745ac",
+      "body_sha256": "a4106c912eb9b0e48322866200a70d34760ce6d50d19abcef5e132ecb4aa80ef",
       "title": "Qué amoladora Ingco elegir según el uso",
       "issues": [],
       "sources": [
@@ -2275,25 +2483,40 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "a4106c912eb9b0e48322866200a70d34760ce6d50d19abcef5e132ecb4aa80ef",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: elección por diámetro, sufijo local, cable y plataforma P20S; no generalizar datos regionales ni stock próximo. Corregida la afirmación de mayor capacidad instalada del kit: dos baterías de 4 Ah se alternan y no garantizan más autonomía. Mantener cuerpo y kit separados y declarar las cifras máximas como tales.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/velocidad-variable/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\18-amoladora-velocidad-variable.md",
-      "body_sha256": "8bb388d15784cdc36ef0ee0435f992fb287a8a22a3c3dffd0f87856a1a1e0639",
+      "body_sha256": "f82b3ca0eb61cf043b303745e730e5e278c2bba128bbfa24eb9e17013116d51d",
       "title": "Amoladoras de velocidad variable: usos y modelos para comparar",
       "issues": [],
       "sources": [
         "https://dowenpagioweb.com.ar/producto/amoladora-angular-115-125-mm",
         "https://hamilton.com.ar/producto/haa002-a-amoladora-angular-1200w-hamilton/",
         "https://makitatools.com/products/details/GA4590",
-        "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0"
+        "https://www.bosch-professional.com/ar/es/products/gws-12-125-s-06013A60H0",
+        "https://www.bosch-professional.com/ar/es/products/gws-9-125-s-06013961H0"
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "f82b3ca0eb61cf043b303745e730e5e278c2bba128bbfa24eb9e17013116d51d",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: añadida GWS 9-125 S H0 de 220 V, previamente descartada por confundirla con D0 de 127 V. Ahora cinco alternativas y fichas enlazadas; diferencia 900/1200 W no acredita rendimiento. Metadatos distinguen cuatro modelos con fichas de fabricante y Total de fuente comercial. Rosca Dowen no queda confirmada como M14: su notación M14 (5/8–11) es ambigua, igual que en la guía de marca.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/7-pulgadas/",
@@ -2310,8 +2533,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "d77476f89fcbe9ddafbdf69395f50c50a3268847ffb4824779a435306bc83e87",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: cuatro modelos de 180 mm, no tres; corregida la descripción. Bosch 2200-180, Makita GA7010C/GA7020 y DeWalt DWE4557 tienen diferencias propias de peso, funciones y tensión documentada o desconocida. La oferta GA7010C de 2000 W no sustituye 1800 W de la ficha; conserva la discrepancia.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/115-o-125/",
@@ -2331,8 +2561,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "09a3c08a40027804f1a6044232016bc79f3c931db53cc3bf5960d08205704893",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: comparación controlada de dos GWS 9 de 900 W/1,9 kg y referencias argentinas separadas. La profundidad de la caperuza GDE no se atribuye a modelos no enumerados compatibles. Mantener precios de discos fechados y explicar que una promoción no demuestra menor costo recurrente de 125 mm.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/gamma/",
@@ -2350,8 +2587,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "b9714808a9775b408c67a81e61b39fdbeb6d714bdb1315380b44333fd2f01b1a",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: cinco códigos de 115 mm y diferencia real de máquina/kit G1910AR/G1910KAR. La potencia no cambia por incluir diez discos y maletín; advertencia de 710/850 W en G1917AR conservada. Mantener opciones de 500–850 W y pedir especificación de los discos que la ficha no identifica.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/total/",
@@ -2371,13 +2615,20 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "d372c1d3b887e178f1bcfac0d85d8ba0470fac013813563d3c21d9a760bdf22a",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: tres SKUs -4 de 115, 125 variable y 180 mm, diferenciados de familias extranjeras sin sufijo. El catálogo 2025 es referencia histórica sin enlace disponible; la tensión, máximo de rpm, stock y garantía del lote deben cotejarse. Mantener la discrepancia internacional 11000/12000 sin atribuirla automáticamente al sufijo.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/dowen-pagio/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\23-amoladoras-dowen-pagio.md",
-      "body_sha256": "78e6e7abe1c93492bb9aae19f2ab71bb9adad51db63fb7cd3c76b649988b42b4",
+      "body_sha256": "62729421d61d4f0c82daaff3c74c89ad449fced37d96f4ba7d41dab51e7e463b",
       "title": "Amoladoras Dowen Pagio: qué revisar en la 9993220.7",
       "issues": [],
       "sources": [
@@ -2395,8 +2646,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "62729421d61d4f0c82daaff3c74c89ad449fced37d96f4ba7d41dab51e7e463b",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: tres referencias 900/1050/1250 W y regulación sólo en 9993224.2. Confirmada ficha actual con M14 (5/8–11), 220 V/50 Hz, 4000–12000 rpm y disco 115/125; la ambigüedad de rosca sigue sin resolver. Corregida frase redundante de medida y comparación de costo para que se atribuya al relevamiento fechado, sin prometer el precio actual.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     },
     {
       "path": "/amoladoras/discos-vidrio/",
@@ -2416,8 +2674,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "amoladoras-02",
+        "body_sha256": "b86c1a32fc4721390eb58c2fab28e1b889eb9827c285932bb18a7c5594630645",
+        "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
+        "notes": "Lectura completa: dos Tork Craft, Husqvarna para azulejo de vidrio y Lüsqtoff local no habilitan cualquier vidrio o montaje húmedo. Contrastada ficha TCDB80115 (115/22,23 mm/13300 rpm; seco/húmedo condicionado a la máquina). Mantener variantes concretas, procedencia de medidas comerciales DVC115-9 y límites para templado/laminado.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
+      }
     }
   ]
 }

@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Modelos INGCO Argentina comparados por diámetro, alimentación, configuración y documentación local"
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -71,7 +71,7 @@ Para comparar estas configuraciones con plataformas y kits de otras marcas, segu
 - **Trabajos generales con cable y disco compacto:** compará AG7118-4 y AG8508-4 por potencia publicada, peso/contenido verificable, garantía y disponibilidad. No hay una prueba nuestra que permita declarar una como superior.
 - **Necesitás 125 mm y ajustar rpm:** revisá la AG900285-4; la ficha local especifica regulación de 5.000 a 12.000 rpm. Para elegir entre diámetros compactos, consultá la [comparación de 115 o 125 mm](/amoladoras/115-o-125/).
 - **Piezas y accesorios de mayor diámetro:** compará AG200018-4 de 180 mm ([guía de 7 pulgadas](/amoladoras/7-pulgadas/)) con AG24008-4 de 230 mm ([guía de 9 pulgadas](/amoladoras/9-pulgadas/)) y verificá peso, guarda, rpm, rosca, discos y servicio de la variante exacta.
-- **Movilidad y plataforma ya iniciada:** compará CAGLI211156 solo con el costo del sistema completo y CAGLI271532-4 como kit. El kit tiene más capacidad nominal de batería instalada, pero autonomía y duración dependen de la carga, material y tarea; no publicamos una duración sin ensayo.
+- **Movilidad y plataforma ya iniciada:** compará CAGLI211156 solo con el costo del sistema completo y CAGLI271532-4 como kit. El kit incluye dos baterías de 4 Ah, que podés alternar; no implica tener ambas instaladas ni garantiza más autonomía que otra configuración. La duración depende de batería compatible, carga, material y tarea; no publicamos minutos de uso sin condiciones comparables.
 
 ## Código, tensión y garantía local
 

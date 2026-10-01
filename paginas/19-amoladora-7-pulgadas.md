@@ -2,7 +2,7 @@
 title: "Amoladora de 7 pulgadas: cómo elegir una de 180 mm"
 h1: "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas"
 url: "/amoladoras/7-pulgadas/"
-description: "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar."
+description: "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y cuatro modelos documentados para comparar."
 author: "Joaquín Vallasciani"
 category: "Tipos de amoladoras"
 keywords: ["amoladora 7 pulgadas", "amoladora 180 mm", "amoladora grande"]
@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía para elegir una amoladora de 180 mm y comparar potencia, peso y funciones de cuatro modelos de tres fabricantes."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 

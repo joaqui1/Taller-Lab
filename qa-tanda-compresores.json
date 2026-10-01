@@ -1,12 +1,12 @@
 {
   "section": "compresores",
-  "checked": "2026-10-01T20:24:37.030356+00:00",
+  "checked": "2026-10-01T21:03:01.841536+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
     {
       "url": "https://ar.stanleytools.global/soporte/contacto",
-      "checked": "2026-10-01T20:24:17.649508+00:00",
+      "checked": "2026-10-01T21:02:45.123947+00:00",
       "status": 200,
       "final_url": "https://ar.stanleytools.global/soporte/contacto",
       "content_type": "text/html; charset=UTF-8",
@@ -14,21 +14,23 @@
       "headings": [
         "Contacto"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM",
-      "checked": "2026-10-01T20:24:17.650536+00:00",
+      "checked": "2026-10-01T21:02:45.125349+00:00",
       "status": 200,
-      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM&tid=ef27a37d-bdb3-4124-b8a9-3d22205701d4",
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM&tid=b141ad8f-8082-47f2-bd77-6f57eaa9c43a",
       "content_type": "text/html; charset=utf-8",
       "title": "Mercado Libre",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/aerografo-profesional",
-      "checked": "2026-10-01T20:24:17.651109+00:00",
+      "checked": "2026-10-01T21:02:45.125897+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/aerografo-profesional",
       "content_type": "text/html; charset=utf-8",
@@ -36,11 +38,12 @@
       "headings": [
         "Aerógrafo Profesional"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/arenador-portatil-alta-presion",
-      "checked": "2026-10-01T20:24:17.651880+00:00",
+      "checked": "2026-10-01T21:02:45.126542+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/arenador-portatil-alta-presion",
       "content_type": "text/html; charset=utf-8",
@@ -48,11 +51,12 @@
       "headings": [
         "Arenador Portátil Alta Presión 76 Litros"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-2-0-hp",
-      "checked": "2026-10-01T20:24:17.782192+00:00",
+      "checked": "2026-10-01T21:02:45.127190+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-2-0-hp",
       "content_type": "text/html; charset=utf-8",
@@ -60,11 +64,12 @@
       "headings": [
         "Compresor De Aire 100 Litros - 2.0 Hp"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp",
-      "checked": "2026-10-01T20:24:17.799078+00:00",
+      "checked": "2026-10-01T21:02:45.247549+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp",
       "content_type": "text/html; charset=utf-8",
@@ -72,11 +77,12 @@
       "headings": [
         "Compresor De Aire 100 Litros - 3.0 Hp"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp-bicilindrico",
-      "checked": "2026-10-01T20:24:17.916094+00:00",
+      "checked": "2026-10-01T21:02:45.399505+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp-bicilindrico",
       "content_type": "text/html; charset=utf-8",
@@ -84,11 +90,12 @@
       "headings": [
         "Compresor De Aire 100 Litros - 3.0 Hp - Bicilíndrico"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
-      "checked": "2026-10-01T20:24:18.032831+00:00",
+      "checked": "2026-10-01T21:02:45.459699+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
       "content_type": "text/html; charset=utf-8",
@@ -96,11 +103,12 @@
       "headings": [
         "Compresor De Aire 24 Litros - 2.0 Hp - Portátil - Sin Aceite"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
-      "checked": "2026-10-01T20:24:18.079467+00:00",
+      "checked": "2026-10-01T21:02:45.516731+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
       "content_type": "text/html; charset=utf-8",
@@ -108,11 +116,12 @@
       "headings": [
         "Compresor De Aire 25 Litros - 2.0 Hp"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite",
-      "checked": "2026-10-01T20:24:18.136032+00:00",
+      "checked": "2026-10-01T21:02:45.644790+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite",
       "content_type": "text/html; charset=utf-8",
@@ -120,11 +129,12 @@
       "headings": [
         "Compresor De Aire 50 Litros - 1.5 Hp - Silenciado - Sin Aceite"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
-      "checked": "2026-10-01T20:24:18.186663+00:00",
+      "checked": "2026-10-01T21:02:45.693348+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
       "content_type": "text/html; charset=utf-8",
@@ -132,11 +142,12 @@
       "headings": [
         "Compresor De Aire 50 Litros - 2.0 Hp"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2",
-      "checked": "2026-10-01T20:24:18.244183+00:00",
+      "checked": "2026-10-01T21:02:45.757121+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2",
       "content_type": "text/html; charset=utf-8",
@@ -144,11 +155,12 @@
       "headings": [
         "Filtro, Regulador Y Lubricador De Aire 1/2\""
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
-      "checked": "2026-10-01T20:24:18.298107+00:00",
+      "checked": "2026-10-01T21:02:45.811833+00:00",
       "status": 200,
       "final_url": "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
       "content_type": "text/html; charset=utf-8",
@@ -156,77 +168,87 @@
       "headings": [
         "Pistola Para Pintar Baja Presión"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_3099r71elt6e3d5v79flck1u6h?attachment%3Bfilename=4020420_21011_001_SPK13.pdf",
-      "checked": "2026-10-01T20:24:18.360717+00:00",
+      "checked": "2026-10-01T21:02:45.867983+00:00",
       "status": 200,
       "final_url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_3099r71elt6e3d5v79flck1u6h?attachment%3Bfilename=4020420_21011_001_SPK13.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_c7bjdn248d2dret4jdk27m9377/4138950_21022_002_SPK2.pdf",
-      "checked": "2026-10-01T20:24:18.413110+00:00",
+      "checked": "2026-10-01T21:02:45.928591+00:00",
       "status": 200,
       "final_url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_c7bjdn248d2dret4jdk27m9377/4138950_21022_002_SPK2.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_ngovue839t5o7dugodnovh8q57/4137790_11018_001_SPK2.pdf",
-      "checked": "2026-10-01T20:24:18.458025+00:00",
+      "checked": "2026-10-01T21:02:46.000991+00:00",
       "status": 200,
       "final_url": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_ngovue839t5o7dugodnovh8q57/4137790_11018_001_SPK2.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
-      "checked": "2026-10-01T20:24:18.518380+00:00",
+      "checked": "2026-10-01T21:02:46.066980+00:00",
       "status": 200,
       "final_url": "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
       "content_type": "text/html; charset=utf-8",
       "title": "Catálogo BTA 2026-27.pdf - Google Drive",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "checked": "2026-10-01T20:24:18.570383+00:00",
+      "checked": "2026-10-01T21:02:46.110134+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-2550BK/MANUAL/LC-2550BK.pdf",
-      "checked": "2026-10-01T20:24:18.620546+00:00",
+      "checked": "2026-10-01T21:02:46.158382+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-2550BK/MANUAL/LC-2550BK.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
-      "checked": "2026-10-01T20:24:18.656233+00:00",
+      "checked": "2026-10-01T21:02:46.210410+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
-      "checked": "2026-10-01T20:24:18.696098+00:00",
+      "checked": "2026-10-01T21:02:46.215014+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
-      "checked": "2026-10-01T20:24:18.732861+00:00",
+      "checked": "2026-10-01T21:02:46.259906+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/AA-5000K",
-      "checked": "2026-10-01T20:24:18.763586+00:00",
+      "checked": "2026-10-01T21:02:46.268564+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/AA-5000K",
       "content_type": "text/html; charset=UTF-8",
@@ -234,11 +256,12 @@
       "headings": [
         "KIT PARA COMPRESOR • 5 PIEZAS"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-0122",
-      "checked": "2026-10-01T20:24:18.764906+00:00",
+      "checked": "2026-10-01T21:02:46.295258+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LC-0122",
       "content_type": "text/html; charset=UTF-8",
@@ -246,11 +269,12 @@
       "headings": [
         "COMPRESOR DE AIRE SIN ACEITE • 24 L"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-2024",
-      "checked": "2026-10-01T20:24:18.787773+00:00",
+      "checked": "2026-10-01T21:02:46.317403+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LC-2024",
       "content_type": "text/html; charset=UTF-8",
@@ -258,11 +282,12 @@
       "headings": [
         "COMPRESOR DE AIRE MONOFÁSICO • 40 L (DISCONTINUADO)"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
-      "checked": "2026-10-01T20:24:18.893217+00:00",
+      "checked": "2026-10-01T21:02:46.439723+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
       "content_type": "text/html; charset=UTF-8",
@@ -270,11 +295,12 @@
       "headings": [
         "COMPRESOR DE AIRE MONOFÁSICO"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-3550BK",
-      "checked": "2026-10-01T20:24:18.937513+00:00",
+      "checked": "2026-10-01T21:02:46.478825+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LC-3550BK",
       "content_type": "text/html; charset=UTF-8",
@@ -282,11 +308,12 @@
       "headings": [
         "COMPRESOR DE AIRE CON KIT • 3.5 HP - 50 L"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/MCL150-8",
-      "checked": "2026-10-01T20:24:18.980879+00:00",
+      "checked": "2026-10-01T21:02:46.527013+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/MCL150-8",
       "content_type": "text/html; charset=UTF-8",
@@ -294,11 +321,12 @@
       "headings": [
         "MINI COMPRESOR 12 V • 150 PSI"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
-      "checked": "2026-10-01T20:24:19.008976+00:00",
+      "checked": "2026-10-01T21:02:46.535204+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
       "content_type": "text/html; charset=UTF-8",
@@ -306,11 +334,12 @@
       "headings": [
         "Compresores de aire"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://makita.com.ar/producto/978-inflador-inalambrico/",
-      "checked": "2026-10-01T20:24:19.087849+00:00",
+      "checked": "2026-10-01T21:02:46.579127+00:00",
       "status": 200,
       "final_url": "https://makita.com.ar/producto/978-inflador-inalambrico/",
       "content_type": "text/html; charset=UTF-8",
@@ -318,18 +347,20 @@
       "headings": [
         "Inflador Inalámbrico"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
-      "checked": "2026-10-01T20:24:19.132552+00:00",
+      "checked": "2026-10-01T21:02:46.612378+00:00",
       "status": 200,
       "final_url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres",
-      "checked": "2026-10-01T20:24:19.171417+00:00",
+      "checked": "2026-10-01T21:02:46.676926+00:00",
       "status": 200,
       "final_url": "https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres",
       "content_type": "text/html; charset=utf-8",
@@ -337,11 +368,12 @@
       "headings": [
         "How to inflate tyres?"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://paascheairbrush.com/products/dc150",
-      "checked": "2026-10-01T20:24:19.244572+00:00",
+      "checked": "2026-10-01T21:02:46.721758+00:00",
       "status": 200,
       "final_url": "https://paascheairbrush.com/products/dc150",
       "content_type": "text/html; charset=utf-8",
@@ -349,11 +381,12 @@
       "headings": [
         "DC150"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://paascheairbrush.com/products/h-100d",
-      "checked": "2026-10-01T20:24:19.279168+00:00",
+      "checked": "2026-10-01T21:02:46.829104+00:00",
       "status": 200,
       "final_url": "https://paascheairbrush.com/products/h-100d",
       "content_type": "text/html; charset=utf-8",
@@ -361,11 +394,12 @@
       "headings": [
         "H-100D"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://paascheairbrush.com/products/jm-1s",
-      "checked": "2026-10-01T20:24:19.401662+00:00",
+      "checked": "2026-10-01T21:02:46.829342+00:00",
       "status": 200,
       "final_url": "https://paascheairbrush.com/products/jm-1s",
       "content_type": "text/html; charset=utf-8",
@@ -373,11 +407,12 @@
       "headings": [
         "JM-1S"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://paascheairbrush.com/products/tg-100d",
-      "checked": "2026-10-01T20:24:19.436529+00:00",
+      "checked": "2026-10-01T21:02:46.915013+00:00",
       "status": 200,
       "final_url": "https://paascheairbrush.com/products/tg-100d",
       "content_type": "text/html; charset=utf-8",
@@ -385,11 +420,12 @@
       "headings": [
         "TG-100D"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://saemobilus.sae.org/standards/j300_202405-engine-oil-viscosity-classification",
-      "checked": "2026-10-01T20:24:19.638477+00:00",
+      "checked": "2026-10-01T21:02:47.412860+00:00",
       "status": 200,
       "final_url": "https://saemobilus.sae.org/standards/j300_202405-engine-oil-viscosity-classification",
       "content_type": "text/html; charset=utf-8",
@@ -397,11 +433,12 @@
       "headings": [
         "J300_202405 Engine Oil Viscosity Classification"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186",
-      "checked": "2026-10-01T20:24:20.073748+00:00",
+      "checked": "2026-10-01T21:02:47.506424+00:00",
       "status": 200,
       "final_url": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186",
       "content_type": "text/html; charset=utf-8",
@@ -409,11 +446,12 @@
       "headings": [
         "Airbrush Hobby Kompressor mit Druckbehälter Fengda® AS-186"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196",
-      "checked": "2026-10-01T20:24:20.097859+00:00",
+      "checked": "2026-10-01T21:02:47.807178+00:00",
       "status": 200,
       "final_url": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196",
       "content_type": "text/html; charset=utf-8",
@@ -421,11 +459,12 @@
       "headings": [
         "Airbrush Hobby Zweikolben Kompressor mit Druckbehälter Fengda® AS-196"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.airbrush-fengda.de/fen-FD186K",
-      "checked": "2026-10-01T20:24:20.290947+00:00",
+      "checked": "2026-10-01T21:02:47.978219+00:00",
       "status": 200,
       "final_url": "https://www.airbrush-fengda.de/fen-FD186K",
       "content_type": "text/html; charset=utf-8",
@@ -433,11 +472,12 @@
       "headings": [
         "Airbrush Complete Starter Set Fengda FD-186K"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.airex.it/en/catalog/attacchi-rapidi/universal-series-quick-couplings-and-fittings/",
-      "checked": "2026-10-01T20:24:20.653367+00:00",
+      "checked": "2026-10-01T21:02:48.135034+00:00",
       "status": 200,
       "final_url": "https://www.airex.it/en/catalog/attacchi-rapidi/universal-series-quick-couplings-and-fittings/",
       "content_type": "text/html; charset=UTF-8",
@@ -447,7 +487,7 @@
     },
     {
       "url": "https://www.cejn.com/guides-support/toolbox/compressed-air-nipple-guide/",
-      "checked": "2026-10-01T20:24:20.684375+00:00",
+      "checked": "2026-10-01T21:02:48.176474+00:00",
       "status": 200,
       "final_url": "https://www.cejn.com/guides-support/toolbox/compressed-air-nipple-guide/",
       "content_type": "text/html; charset=utf-8",
@@ -455,11 +495,12 @@
       "headings": [
         "Compressed air nipple identification guide"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4007375-tc-ac-190-24-8-i-of/",
-      "checked": "2026-10-01T20:24:21.253367+00:00",
+      "checked": "2026-10-01T21:02:48.731700+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4007375-tc-ac-190-24-8-i-of/",
       "content_type": "text/html; charset=utf-8",
@@ -467,11 +508,12 @@
       "headings": [
         "TC-AC 190/24/8 I OF"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/",
-      "checked": "2026-10-01T20:24:21.908090+00:00",
+      "checked": "2026-10-01T21:02:49.433709+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/",
       "content_type": "text/html; charset=utf-8",
@@ -479,11 +521,12 @@
       "headings": [
         "TE-AC 270/50 Silent"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4010800-te-ac-430-90-10/",
-      "checked": "2026-10-01T20:24:21.998313+00:00",
+      "checked": "2026-10-01T21:02:49.515868+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4010800-te-ac-430-90-10/",
       "content_type": "text/html; charset=utf-8",
@@ -491,11 +534,12 @@
       "headings": [
         "TE-AC 430/90/10"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4020420-pressito-18-25/",
-      "checked": "2026-10-01T20:24:22.661321+00:00",
+      "checked": "2026-10-01T21:02:49.634266+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4020420-pressito-18-25/",
       "content_type": "text/html; charset=utf-8",
@@ -503,11 +547,12 @@
       "headings": [
         "PRESSITO 18/25"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4020467-pressito-18-21/",
-      "checked": "2026-10-01T20:24:22.755975+00:00",
+      "checked": "2026-10-01T21:02:49.683810+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4020467-pressito-18-21/",
       "content_type": "text/html; charset=utf-8",
@@ -515,11 +560,12 @@
       "headings": [
         "PRESSITO 18/21"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4133030-prof-paint-spray-gun/",
-      "checked": "2026-10-01T20:24:23.173392+00:00",
+      "checked": "2026-10-01T21:02:50.112395+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4133030-prof-paint-spray-gun/",
       "content_type": "text/html; charset=utf-8",
@@ -527,11 +573,12 @@
       "headings": [
         "Pistola profesional para pintar"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.einhell.com.ar/p/4133330-tc-pe-150/",
-      "checked": "2026-10-01T20:24:23.219831+00:00",
+      "checked": "2026-10-01T21:02:50.179185+00:00",
       "status": 200,
       "final_url": "https://www.einhell.com.ar/p/4133330-tc-pe-150/",
       "content_type": "text/html; charset=utf-8",
@@ -539,11 +586,12 @@
       "headings": [
         "TC-PE 150"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna",
-      "checked": "2026-10-01T20:24:23.320994+00:00",
+      "checked": "2026-10-01T21:02:50.471438+00:00",
       "status": 200,
       "final_url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna",
       "content_type": "text/html; charset=utf-8",
@@ -551,11 +599,12 @@
       "headings": [
         "Compresor 12v Doble cilindro Gadnic AV37-TY Digital Auto Linterna"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min",
-      "checked": "2026-10-01T20:24:23.440094+00:00",
+      "checked": "2026-10-01T21:02:50.557535+00:00",
       "status": 200,
       "final_url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min",
       "content_type": "text/html; charset=utf-8",
@@ -563,11 +612,12 @@
       "headings": [
         "Compresor De Aire Gadnic Para Auto 12V 150 PSI 85 Lts/Min Portátil Incluye Bolso y Kit de Accesorios"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-85l-min",
-      "checked": "2026-10-01T20:24:23.688277+00:00",
+      "checked": "2026-10-01T21:02:50.570668+00:00",
       "status": 200,
       "final_url": "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-85l-min",
       "content_type": "text/html; charset=utf-8",
@@ -575,11 +625,12 @@
       "headings": [
         "Compresor Gadnic 12v Portátil 60Ltmin 150psi Doble Pistón Inflador Multipropósito"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
-      "checked": "2026-10-01T20:24:23.737048+00:00",
+      "checked": "2026-10-01T21:02:50.616132+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
       "content_type": "text/html; charset=UTF-8",
@@ -589,7 +640,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
-      "checked": "2026-10-01T20:24:24.616329+00:00",
+      "checked": "2026-10-01T21:02:50.675087+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
       "content_type": "text/html; charset=UTF-8",
@@ -599,7 +650,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/",
-      "checked": "2026-10-01T20:24:24.732668+00:00",
+      "checked": "2026-10-01T21:02:51.893003+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/",
       "content_type": "text/html; charset=UTF-8",
@@ -609,7 +660,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/",
-      "checked": "2026-10-01T20:24:25.004022+00:00",
+      "checked": "2026-10-01T21:02:52.008949+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/",
       "content_type": "text/html; charset=UTF-8",
@@ -619,7 +670,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-de-alta-recuperacion-en-25-l/",
-      "checked": "2026-10-01T20:24:25.441250+00:00",
+      "checked": "2026-10-01T21:02:52.104203+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-de-alta-recuperacion-en-25-l/",
       "content_type": "text/html; charset=UTF-8",
@@ -629,7 +680,7 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/producto/compresor-sin-aceite-24-l-2-hp/",
-      "checked": "2026-10-01T20:24:25.877294+00:00",
+      "checked": "2026-10-01T21:02:53.121915+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/producto/compresor-sin-aceite-24-l-2-hp/",
       "content_type": "text/html; charset=UTF-8",
@@ -639,14 +690,15 @@
     },
     {
       "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
-      "checked": "2026-10-01T20:24:27.467469+00:00",
+      "checked": "2026-10-01T21:02:53.135023+00:00",
       "status": 200,
       "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.graco.com/us/en/contractor/solutions/articles/selecting-the-right-hvlp-needle-nozzle-set.html",
-      "checked": "2026-10-01T20:24:27.594071+00:00",
+      "checked": "2026-10-01T21:02:53.172500+00:00",
       "status": 200,
       "final_url": "https://www.graco.com/us/en/contractor/solutions/articles/selecting-the-right-hvlp-needle-nozzle-set.html",
       "content_type": "text/html;charset=utf-8",
@@ -654,93 +706,105 @@
       "headings": [
         "Selecting The right HVLP Needle Nozzle Set"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.iso.org/committee/51882/x/catalogue/",
-      "checked": "2026-10-01T20:24:28.510517+00:00",
-      "status": 403,
-      "error": "HTTP Error 403: Forbidden"
+      "checked": "2026-10-01T21:02:53.489460+00:00",
+      "status": 200,
+      "final_url": "https://www.iso.org/committee/51882/x/catalogue/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "ISO/TC 118/SC 4 - Compressed air treatment technology",
+      "headings": [
+        "Standards by ISO/TC 118/SC 4 Compressed air treatment technology"
+      ],
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.iso.org/standard/8774.html",
-      "checked": "2026-10-01T20:24:28.561153+00:00",
+      "checked": "2026-10-01T21:02:53.604385+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/airbrush-basics.html",
-      "checked": "2026-10-01T20:24:28.604528+00:00",
+      "checked": "2026-10-01T21:02:53.651526+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/airbrush-compressors.html",
-      "checked": "2026-10-01T20:24:28.653597+00:00",
+      "checked": "2026-10-01T21:02:53.828407+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/equipment-setup.html",
-      "checked": "2026-10-01T20:24:28.701395+00:00",
+      "checked": "2026-10-01T21:02:53.865381+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/hp-bh-hi-line-airbrush.html",
-      "checked": "2026-10-01T20:24:28.730560+00:00",
+      "checked": "2026-10-01T21:02:53.896599+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/iwata-airbrush-beginner-set.html",
-      "checked": "2026-10-01T20:24:28.772295+00:00",
+      "checked": "2026-10-01T21:02:53.943140+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/iwata-smart-jet-pro.html",
-      "checked": "2026-10-01T20:24:28.817512+00:00",
+      "checked": "2026-10-01T21:02:53.971503+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.iwata-airbrush.com/revolution-single-action.html",
-      "checked": "2026-10-01T20:24:28.873927+00:00",
+      "checked": "2026-10-01T21:02:54.003181+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-0122/MANUAL/LC-0122.pdf",
-      "checked": "2026-10-01T20:24:28.905584+00:00",
+      "checked": "2026-10-01T21:02:54.030088+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-0122/MANUAL/LC-0122.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC-2550VS/MANUAL/LC-2550VS.pdf",
-      "checked": "2026-10-01T20:24:28.964105+00:00",
+      "checked": "2026-10-01T21:02:54.089881+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC-2550VS/MANUAL/LC-2550VS.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf",
-      "checked": "2026-10-01T20:24:29.021212+00:00",
+      "checked": "2026-10-01T21:02:54.159606+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf",
-      "checked": "2026-10-01T20:24:29.080840+00:00",
+      "checked": "2026-10-01T21:02:54.160546+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk",
-      "checked": "2026-10-01T20:24:29.135512+00:00",
+      "checked": "2026-10-01T21:02:54.208575+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk",
       "content_type": "text/html; charset=UTF-8",
@@ -748,11 +812,12 @@
       "headings": [
         "COMPRESOR DE AIRE CON KIT • 2.5 HP - 50 L"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8",
-      "checked": "2026-10-01T20:24:29.300854+00:00",
+      "checked": "2026-10-01T21:02:54.214155+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8",
       "content_type": "text/html; charset=UTF-8",
@@ -760,11 +825,12 @@
       "headings": [
         "COMPRESOR DE AIRE • 2.5 HP - 50 LTS."
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.lusqtoff.com.ar/ver-producto/LC-0122",
-      "checked": "2026-10-01T20:24:29.439378+00:00",
+      "checked": "2026-10-01T21:02:54.339291+00:00",
       "status": 200,
       "final_url": "https://www.lusqtoff.com.ar/ver-producto/LC-0122",
       "content_type": "text/html; charset=UTF-8",
@@ -772,11 +838,12 @@
       "headings": [
         "COMPRESOR DE AIRE SIN ACEITE • 24 L"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-coaxial-lubrifie-50l-2hp",
-      "checked": "2026-10-01T20:24:29.583099+00:00",
+      "checked": "2026-10-01T21:02:54.348186+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-coaxial-lubrifie-50l-2hp",
       "content_type": "text/html; charset=utf-8",
@@ -785,11 +852,12 @@
         "COMPRESSEUR COAXIAL LUBRIFIE 50L 2HP",
         "COMPRESSEUR COAXIAL LUBRIFIE 50L 2HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-100l-3hp",
-      "checked": "2026-10-01T20:24:30.817716+00:00",
+      "checked": "2026-10-01T21:02:54.354153+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-100l-3hp",
       "content_type": "text/html; charset=utf-8",
@@ -798,11 +866,12 @@
         "COMPRESSEUR V LUBRIFIE 100L 3HP",
         "COMPRESSEUR V LUBRIFIE 100L 3HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-50l-3hp",
-      "checked": "2026-10-01T20:24:31.125891+00:00",
+      "checked": "2026-10-01T21:02:54.394966+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-50l-3hp",
       "content_type": "text/html; charset=utf-8",
@@ -811,11 +880,12 @@
         "COMPRESSEUR V LUBRIFIE 50L 3HP",
         "COMPRESSEUR V LUBRIFIE 50L 3HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-vertical-100l-25hp",
-      "checked": "2026-10-01T20:24:31.517294+00:00",
+      "checked": "2026-10-01T21:02:54.506961+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-vertical-100l-25hp",
       "content_type": "text/html; charset=utf-8",
@@ -824,11 +894,12 @@
         "COMPRESSEUR VERTICAL 100L 2,5HP",
         "COMPRESSEUR VERTICAL 100L 2,5HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-24l-2hp",
-      "checked": "2026-10-01T20:24:32.188924+00:00",
+      "checked": "2026-10-01T21:02:54.574457+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-24l-2hp",
       "content_type": "text/html; charset=utf-8",
@@ -837,11 +908,12 @@
         "COMPRESSEUR VERTICAL FUTURA LUBRIFIE 24L 2HP",
         "COMPRESSEUR VERTICAL FUTURA LUBRIFIE 24L 2HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-50l-2hp",
-      "checked": "2026-10-01T20:24:32.244648+00:00",
+      "checked": "2026-10-01T21:02:55.195987+00:00",
       "status": 200,
       "final_url": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-50l-2hp",
       "content_type": "text/html; charset=utf-8",
@@ -850,11 +922,12 @@
         "COMPRESSEUR VERTICAL FUTURA LUBRIFIE 50L 2HP",
         "COMPRESSEUR VERTICAL FUTURA LUBRIFIE 50L 2HP"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/",
-      "checked": "2026-10-01T20:24:32.934399+00:00",
+      "checked": "2026-10-01T21:02:59.174001+00:00",
       "status": 200,
       "final_url": "https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/",
       "content_type": "text/html; charset=UTF-8",
@@ -862,55 +935,58 @@
       "headings": [
         "Inflador Compresor De Aire Portátil Batería Powerbank Ie01 Gris"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.nuair.pl/images/katalogi/Catalogo_STANLEY_2020_EN_9990220_LR.pdf",
-      "checked": "2026-10-01T20:24:33.302110+00:00",
+      "checked": "2026-10-01T21:02:59.299272+00:00",
       "status": 200,
       "final_url": "https://www.nuair.pl/images/katalogi/Catalogo_STANLEY_2020_EN_9990220_LR.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.nuair.pt/images/katalogi/Catalogo-STANLEY-2017.pdf",
-      "checked": "2026-10-01T20:24:34.123129+00:00",
+      "checked": "2026-10-01T21:02:59.337137+00:00",
       "status": 200,
       "final_url": "https://www.nuair.pt/images/katalogi/Catalogo-STANLEY-2017.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.osha.gov/otm/section-8-ppe/chapter-2",
-      "checked": "2026-10-01T20:24:34.270833+00:00",
+      "checked": "2026-10-01T21:02:59.464749+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.parker.com/content/dam/Parker-com/Divisions-2011/Quick-Coupling-Division/SupportAssets/PneuInterchgChart.pdf",
-      "checked": "2026-10-01T20:24:34.385754+00:00",
+      "checked": "2026-10-01T21:02:59.473696+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.parker.com/content/dam/Parker-com/Literature/LPCE/New-PDFs/CAT_0550_UK_BD.pdf",
-      "checked": "2026-10-01T20:24:34.504786+00:00",
+      "checked": "2026-10-01T21:02:59.536918+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/UPD_2010/Catalog_0726-E.pdf",
-      "checked": "2026-10-01T20:24:34.715047+00:00",
+      "checked": "2026-10-01T21:02:59.664770+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.parker.com/static_content/parkerimages/euro_hpd/CAT_4401UK.pdf",
-      "checked": "2026-10-01T20:24:34.721443+00:00",
+      "checked": "2026-10-01T21:02:59.919988+00:00",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.rolair.com/accessories/accessories/hybrid-air-hose",
-      "checked": "2026-10-01T20:24:34.752285+00:00",
+      "checked": "2026-10-01T21:03:00.114638+00:00",
       "status": 200,
       "final_url": "https://www.rolair.com/accessories/accessories/hybrid-air-hose",
       "content_type": "text/html; charset=UTF-8",
@@ -918,52 +994,58 @@
       "headings": [
         "Hybrid Air Hose Accessories"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.sparmaxair.com/compressor-legend-1/tc-610h",
-      "checked": "2026-10-01T20:24:34.792943+00:00",
+      "checked": "2026-10-01T21:03:00.448964+00:00",
       "status": 200,
       "final_url": "https://www.sparmaxair.com/compressor-legend-1/tc-610h",
       "content_type": "text/html; charset=UTF-8",
       "title": "TC-610H",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.sparmaxair.com/compressor-master-1/tc-501n",
-      "checked": "2026-10-01T20:24:34.843952+00:00",
+      "checked": "2026-10-01T21:03:00.742159+00:00",
       "status": 200,
       "final_url": "https://www.sparmaxair.com/compressor-master-1/tc-501n",
       "content_type": "text/html; charset=UTF-8",
       "title": "TC-501N",
       "headings": [],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     },
     {
       "url": "https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx",
-      "checked": "2026-10-01T20:24:35.080824+00:00",
+      "checked": "2026-10-01T21:03:00.779349+00:00",
       "status": 200,
       "final_url": "https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STC24/1/Instruction_Manual/EN/STC24_STC50.pdf",
-      "checked": "2026-10-01T20:24:35.148120+00:00",
+      "checked": "2026-10-01T21:03:00.845468+00:00",
       "status": 200,
       "final_url": "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STC24/1/Instruction_Manual/EN/STC24_STC50.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.wurth.com.ar/img/productos/351701-ficha-tecnica-pistola-pintura-premium-hvlp-1-3mm.pdf",
-      "checked": "2026-10-01T20:24:35.162458+00:00",
+      "checked": "2026-10-01T21:03:00.867444+00:00",
       "status": 200,
       "final_url": "https://www.wurth.com.ar/img/productos/351701-ficha-tecnica-pistola-pintura-premium-hvlp-1-3mm.pdf",
-      "content_type": "application/pdf"
+      "content_type": "application/pdf",
+      "document_signature_valid": true
     },
     {
       "url": "https://www.wurth.com.ar/tienda/pistola-pintura-prof-lvlp-1-3mm.html",
-      "checked": "2026-10-01T20:24:35.200086+00:00",
+      "checked": "2026-10-01T21:03:00.895385+00:00",
       "status": 200,
       "final_url": "https://www.wurth.com.ar/tienda/pistola-pintura-prof-lvlp-1-3mm.html",
       "content_type": "text/html; charset=UTF-8",
@@ -971,9 +1053,11 @@
       "headings": [
         "PISTOLA PINTURA PROFESIONAL LVLP 1.3"
       ],
-      "generic_redirect": false
+      "generic_redirect": false,
+      "soft_not_found": false
     }
   ],
+  "source_history": [],
   "rows": [
     {
       "path": "/compresores/para-auto/",
