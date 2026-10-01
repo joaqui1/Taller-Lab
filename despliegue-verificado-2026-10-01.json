@@ -49,15 +49,6 @@
       ]
     },
     {
-      "path": "/amoladoras/",
-      "status": 200,
-      "identical": true,
-      "issues": [],
-      "title": [
-        "Cómo elegir una amoladora: tipos, medidas y marcas · TallerLab"
-      ]
-    },
-    {
       "path": "/soldadoras/",
       "status": 200,
       "identical": true,
@@ -67,12 +58,12 @@
       ]
     },
     {
-      "path": "/taladros/",
+      "path": "/amoladoras/",
       "status": 200,
       "identical": true,
       "issues": [],
       "title": [
-        "Taladros y atornilladores · TallerLab"
+        "Cómo elegir una amoladora: tipos, medidas y marcas · TallerLab"
       ]
     },
     {
@@ -94,6 +85,15 @@
       ]
     },
     {
+      "path": "/compresores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores · TallerLab"
+      ]
+    },
+    {
       "path": "/soldadura-electronica/",
       "status": 200,
       "identical": true,
@@ -112,12 +112,12 @@
       ]
     },
     {
-      "path": "/compresores/",
+      "path": "/taladros/",
       "status": 200,
       "identical": true,
       "issues": [],
       "title": [
-        "Compresores · TallerLab"
+        "Taladros y atornilladores · TallerLab"
       ]
     },
     {
@@ -1825,7 +1825,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/blackdeckerbepw1520ar-a9c4d061b8.webp",
@@ -1846,7 +1846,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/blackdeckerbld783d1-f4849eb027.webp",
@@ -1874,7 +1874,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgbh226dre-1137970a00.webp",
@@ -1888,7 +1888,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschghp200-aa8e38eb49.webp",
@@ -1916,7 +1916,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgsb18v50-abde91bb81.webp",
@@ -1930,14 +1930,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgst185li-386101f0ac.webp",
@@ -1951,7 +1951,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgst680-eb63575d4d.webp",
@@ -1965,42 +1965,42 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgws30230pb-fc54309c9e.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgws770-537a72f385.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschgws850-ac6f1144fb.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
@@ -2021,21 +2021,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/btaasp1070-2639a99c3b.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/btaaspm1070-6db4e437cd.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/btacsa241-bd01728064.webp",
@@ -2056,7 +2056,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/btadca2506-effbf316e1.webp",
@@ -2070,7 +2070,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/cometk25010150classicc2582ar-5854528a02.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/cometk250tsr13190tclassicc2583ar-b805b49576.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-127ZaQu-6b52071b44.webp",
@@ -2084,7 +2098,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
@@ -2119,14 +2133,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-2XwX5wy-bb873f231f.webp",
@@ -2140,24 +2154,31 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/completada-2z7Capd-4dc39f08b2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/dewaltd25333kqs-fbffe18cb1.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -2175,7 +2196,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdcd805bsinbateria-b337c27dfd.webp",
@@ -2199,11 +2220,18 @@
       "vercel_cache": "MISS"
     },
     {
-      "path": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "path": "/assets/productos/dewaltdch133b-9bf3f779e5.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
       "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdcs380b-f83dd7a811.webp",
@@ -2224,7 +2252,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
@@ -2238,28 +2266,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdwe4557ar-88c026a990.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltdws780-f9ed62e42e.webp",
@@ -2273,7 +2301,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dogodogostarstar160dog50044-b8930b98e7.webp",
@@ -2322,10 +2350,17 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhelltchp130-6954bbb50b.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -2336,7 +2371,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcjs18lisolo-125ba5bc2f.webp",
@@ -2350,28 +2385,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcms2112-601880ca11.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/einhelltcts2225u-e146160aca.webp",
@@ -2385,6 +2420,13 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/einhellteac4309010-a3e50b349d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
       "vercel_cache": "MISS"
     },
     {
@@ -2392,10 +2434,10 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
-      "path": "/assets/productos/einhelltehp1404140760-677876f277.webp",
+      "path": "/assets/productos/einhelltehp140-a9f3886d25.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -2427,38 +2469,52 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/elegi125mm-59293db74a.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/esabet200iacdc-13101c9e00.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/esabheavydutyexl07005004320700500433-743af0c67f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/esabtigbasic0700500460-664bc407f4.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -2469,7 +2525,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gadnicav37ty-5c6437797c.webp",
@@ -2490,28 +2546,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammag2802ar-d8048734ac.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammag2858ar-7b40cd31f8.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammag2860ar-807a31316c.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammage3480ar-92a1479fb7.webp",
@@ -2525,7 +2581,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammage3482ar-de20080edd.webp",
@@ -2539,21 +2595,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammage3497ar-8065289e35.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/gammapremiumwash3000g2520ar-a286a03f05.webp",
@@ -2567,6 +2623,13 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/hogertht6d323-9d15c018a3.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
       "vercel_cache": "MISS"
     },
     {
@@ -2574,7 +2637,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/hondaet12000-adeea7de08.webp",
@@ -2616,7 +2679,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
@@ -2630,28 +2693,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/jdextreme107-f5b93022f7.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/karcherk2carblack19940520-f5459f1eed.webp",
@@ -2665,10 +2728,17 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/karcherk4powercontrol16034020-f8f5455736.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/karcherk593982950-0d61bf9c4f.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -2679,7 +2749,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/kitboschprofessional18v1600a015td-884a061c25.webp",
@@ -2700,7 +2770,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/logusghl150-79fb8d72a1.webp",
@@ -2728,7 +2798,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffaml10108-0c788cd8d8.webp",
@@ -2756,14 +2826,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffhl1007-7521d3a50c.webp",
@@ -2777,7 +2847,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffhl150-08a87f1a6b.webp",
@@ -2798,21 +2868,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflc2550bk8-e67abf0182.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
@@ -2833,7 +2903,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflg3000-4ce50bc801.webp",
@@ -2847,14 +2917,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflgi558-c3357cf9a5.webp",
@@ -2875,28 +2945,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofflqdflap80-6f56253f77.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffmegairon1008-9c0c5a14a7.webp",
@@ -2917,7 +2987,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffscl22008-2c5868374e.webp",
@@ -2938,14 +3008,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffsmarttigacdc20-a162867912.webp",
@@ -2959,21 +3029,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffsml2000b9-dd713c36c7.webp",
@@ -3001,7 +3071,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofftal609b-89134f3c4a.webp",
@@ -3015,7 +3085,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofftbl7109d-b1b12b6f7a.webp",
@@ -3036,7 +3106,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtofftil451318bk-10b3f4a88c.webp",
@@ -3050,7 +3120,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/makitaga4534-235dbd4cb8.webp",
@@ -3064,21 +3134,21 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/makitagd0600-28ffb034a0.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/milwaukeem18fuel2904259a-3f975f85fc.webp",
@@ -3099,7 +3169,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/niwagnw70er-70ebc80546.webp",
@@ -3113,7 +3183,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/niwahdnw5001040550-6f727778b5.webp",
@@ -3127,14 +3197,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-1AYv6rw-dd35e91252.webp",
@@ -3169,28 +3239,28 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
@@ -3211,14 +3281,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-2Ut4FSd-af35a221c9.webp",
@@ -3232,7 +3302,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/oferta-2r7eRux-cdfd0565e7.webp",
@@ -3253,7 +3323,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/omahaab550161k-6145d317f3.webp",
@@ -3288,7 +3358,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-compresores-kits-aerografo-7d58077f10.webp",
@@ -3302,7 +3372,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-compresores-para-aerografo-692d5ee21f.webp",
@@ -3316,42 +3386,42 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-hidrolavadoras-gamma-150-2b3244e2b6.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-hidrolavadoras-hyundai-13e89a1679.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-soldadoras-carro-para-soldadora-mig-56cfc152c4.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-soldadoras-soldadora-de-punto-52635ce000.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp",
@@ -3365,7 +3435,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-soldadura-electronica-kit-soldador-de-estano-133ff0953c.webp",
@@ -3379,49 +3449,49 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-soldadura-electronica-yihua-898d-e5023a28b2.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/portada-real-taladros-mecha-forstner-35-mm-9970dc5cd1.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-1khPuL9-64ab01263e.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-1uvMFdz-8d48296a28.webp",
@@ -3442,49 +3512,49 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2W1Y9Zs-a8120324de.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/ronixrh3534-150decdc06.webp",
@@ -3505,14 +3575,14 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/skil4380-262e48e9e6.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/skil4550-fce1cd0067.webp",
@@ -3520,6 +3590,27 @@
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
       "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/productos/stanleyd27010100v-1584b80cd9.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stanleyfatmaxfhy2271024v-f74ee50880.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stanleyfatmaxfhy2271050v-594ab6078b.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/stanleysbd715c2k-cdcf5ccbdb.webp",
@@ -3533,7 +3624,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
@@ -3550,21 +3641,63 @@
       "vercel_cache": "HIT"
     },
     {
+      "path": "/assets/productos/stihlre110-9fc13f9ff5.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stihlre120-8024fb689f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stihlre145-a333d0759f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stihlre150-42173c6999.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
       "path": "/assets/productos/stihlre80x-569c6db0f3.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/stihlre90-4e3b91480d.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/totalts2235584-ba61612a34.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/totalts42142107-4fb8c64816.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/wipcoolc10-4e0a11dc55.webp",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
@@ -3575,7 +3708,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/site.css?v=12",

@@ -1,5 +1,7 @@
 # Revisión de modelos por artículo — 01/10/2026
 
+Publicado y verificado en producción: las 190 rutas y 286 archivos coinciden con el estado aprobado. El navegador comprobó 570 vistas (320, 390 y 1440 px) sin imágenes rotas, deformadas o cortadas, y probó las interacciones de las 190 páginas sin fallas ni errores de JavaScript.
+
 Se contrastaron el propósito, las tablas y los enlaces de las 179 guías. Se amplían 18 selecciones con 51 tarjetas: 25 enlaces comerciales ya suministrados y 26 referencias documentadas de fabricante. La disponibilidad local de las fichas extranjeras queda explícitamente pendiente.
 
 ## Selecciones ampliadas
