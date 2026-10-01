@@ -50,7 +50,11 @@ def main():
             assert next_heading < 0 or shelf < next_heading, path
             if config['mode'] == 'table':
                 table_end = html.index('</table>', start) + len('</table>')
-                assert not html[table_end:shelf].strip(), path
+                # Las tablas con fotos llevan un contenedor de desplazamiento móvil.
+                if '<div class="model-table-scroll"' in html[start:table_end]:
+                    assert html[table_end:shelf].strip() == '</div>', path
+                else:
+                    assert not html[table_end:shelf].strip(), path
         for link in doc.links:
             href = link.get('href', '')
             if href.startswith('/') and not href.startswith('/assets/'):

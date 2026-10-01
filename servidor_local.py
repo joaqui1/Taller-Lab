@@ -1554,7 +1554,7 @@ HTML_SHELL = """<!DOCTYPE html>
     }}
     
     /* CTA Mercado Libre */
-    .btn-mercado-libre, a[href*="mercadolibre.com.ar"] {{
+    .btn-mercado-libre {{
       display: inline-flex;
       align-items: center;
       gap: 0.6rem;
@@ -1569,7 +1569,7 @@ HTML_SHELL = """<!DOCTYPE html>
       transition: all 0.2s ease;
       box-shadow: 0 4px 15px rgba(255, 230, 0, 0.25);
     }}
-    .btn-mercado-libre:hover, a[href*="mercadolibre.com.ar"]:hover {{
+    .btn-mercado-libre:hover {{
       background: linear-gradient(135deg, #fff033 0%, #ffd000 100%);
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 230, 0, 0.4);
@@ -1612,7 +1612,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=9">
+  <link rel="stylesheet" href="/assets/site.css?v=10">
   <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>

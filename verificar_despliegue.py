@@ -45,7 +45,7 @@ def main():
     assets.update('/assets/' + p.relative_to(site.ASSETS_DIR).as_posix() for p in (site.ASSETS_DIR / 'fonts').glob('*'))
     from fotos_productos import PHOTOS
     assets.update(photo['image'] for photo in PHOTOS.values())
-    assets.update(['/assets/site.css?v=9', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
+    assets.update(['/assets/site.css?v=10', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
     asset_results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         public_assets = list(pool.map(fetch, sorted(assets)))

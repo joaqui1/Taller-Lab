@@ -52,3 +52,10 @@ assert.doesNotMatch(checkReadiness(checks, [true,false]).body, /Pendientes: Pres
 assert.match(checkReadiness(checks, [true,true]).body, /No certifica compatibilidad/);
 assert.match(checkReadiness(checks, ['true',true]).title, /1 de 2/);
 console.log('OK: cálculos, límites, pendientes, materiales de caladora y ausencia de certificación automática.');
+
+assert.match(calculate('combo-cost',{bundle:200,drill:100,grinder:120,batteries:0,charger:0}).title,/200.*220/);
+assert.match(calculate('combo-cost',{bundle:200,drill:100,grinder:120,batteries:0,charger:0}).body,/20 por debajo/);
+assert.match(calculate('diesel-cost',{rate:2,fuelPrice:1000,oil:1000,filters:500,labor:500,interval:100}).title,/2.020/);
+assert.match(calculate('station-runtime',{capacity:1000,load:100,depth:80,efficiency:90,idle:20}).title,/6 h/);
+assert.match(calculate('station-runtime',{capacity:1000,load:100,depth:101,efficiency:90,idle:20}).title,/Revisá/);
+console.log('OK: costos de combo y diésel; autonomía con pérdidas y reserva.');

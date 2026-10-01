@@ -86,7 +86,7 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .markdown-body h2 { color: #242c2e; border-bottom-color: var(--border); font-size: 1.65rem; letter-spacing: -.04em; }
 .markdown-body h2::before { content: ''; display: inline-block; width: 5px; height: .8em; background: var(--orange); margin-right: .65rem; vertical-align: -.03em; }
 .markdown-body h3 { color: #2a3234; }
-.markdown-body a:not(.btn-mercado-libre):not([href*="mercadolibre.com.ar"]) { color: #bf4708; text-decoration: underline; text-decoration-color: #ffc2a3; text-underline-offset: 3px; }
+.markdown-body a:not(.btn-mercado-libre) { color: #bf4708; text-decoration: underline; text-decoration-color: #ffc2a3; text-underline-offset: 3px; }
 .markdown-body a:hover { text-decoration-color: var(--orange); }
 .markdown-body table { display: block; overflow-x: auto; background: white; border-color: var(--border); border-radius: 4px; }
 .markdown-body th, .markdown-body td { border-color: var(--border); }
@@ -95,7 +95,7 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .markdown-body code { background: #eeeae3; color: #8d3a0a; }
 .markdown-body pre { max-width: 100%; overflow-x: auto; }
 .markdown-body { overflow-wrap: anywhere; }
-.btn-mercado-libre, a[href*="mercadolibre.com.ar"] { border-radius: 4px; box-shadow: none; }
+.btn-mercado-libre { border-radius: 4px; box-shadow: none; }
 .trust-footer { background: #ebe8e1; border: 1px solid #dedbd3; border-left: 4px solid var(--orange); border-radius: 3px; color: #5b6465; margin-top: 2.5rem; }
 .trust-footer strong { color: #293134; }
 .affiliate-shelf { margin: 2rem 0 3.6rem; }
