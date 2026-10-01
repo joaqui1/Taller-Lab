@@ -14,12 +14,12 @@ Rendimiento móvil local de inicio, categoría, guía y guía con más fotograf�
 - guia: 98/100; LCP 2.19 s; CLS 0.
 - mas-fotos: 97/100; LCP 2.28 s; CLS 0.
 
-Son mediciones de laboratorio local. El cambio se publicó en https://www.tallerlab.com.ar el 1 de octubre de 2026 (commit 1f2aa1f). Se verificaron las 190 rutas y 268 recursos públicos frente al contenido local, además de capturas de las ocho categorías en celular y escritorio.
+Son mediciones de laboratorio anteriores al reemplazo final de las ilustraciones. La versión definitiva con cero portadas ilustrativas se publicó en https://www.tallerlab.com.ar el 1 de octubre de 2026 (commit d3ab43e). Se verificaron las 190 rutas y 267 recursos públicos frente al contenido local, además de capturas de las ocho categorías en celular y escritorio.
 
-Lighthouse móvil de producción: inicio 100/100, categoría de taladros 99/100 y ambas guías 97/100; LCP entre 1.24 y 1.39 s y CLS 0. Son mediciones de laboratorio sobre el dominio público, no datos de usuarios reales. Evidencia: despliegue-verificado-2026-10-01.json y produccion-rendimiento-fotos-resumen.json.
+Lighthouse móvil de la versión anterior de producción: inicio 100/100, categoría de taladros 99/100 y ambas guías 97/100; LCP entre 1.24 y 1.39 s y CLS 0. Son mediciones de laboratorio sobre el dominio público, no datos de usuarios reales. Evidencia: produccion-rendimiento-fotos-resumen.json.
 
 Asignaciones: portadas-guias.json; fotografías adicionales y fuentes: fotos-portadas-reales.json. Regeneración manual: python preparar_portadas_guias.py, antes de python preparar_assets_publicos.py. El generador y el renderer rechazan una guía indexable sin foto real. El despliegue sólo copia los archivos preparados, sin descargar fotos ni necesitar PIL para generarlas.
 
 Evidencia: qa-fotos-navegador.json, rendimiento-fotos-resumen.json y vista-fotos/portadas-*.png.
 
-La revisión de navegador en producción pasó en las 570 vistas (190 rutas en tres anchos), sin fallas. Registro: qa-fotos-produccion-2026-10-01.json. Capturas de producción: vista-fotos/produccion-portadas-*.png.
+La revisión de navegador de la versión sin ilustraciones pasó en las 570 vistas (190 rutas en tres anchos), sin fallas. Registro: qa-portadas-reales-produccion.json. Capturas de producción: vista-fotos/produccion-reales-portadas-*.png y vista-fotos/produccion-tarjeta-hidrolavadoras-real.png.

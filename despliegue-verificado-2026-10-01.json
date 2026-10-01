@@ -49,12 +49,12 @@
       ]
     },
     {
-      "path": "/soldadoras/",
+      "path": "/hidrolavadoras/",
       "status": 200,
       "identical": true,
       "issues": [],
       "title": [
-        "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab · TallerLab"
+        "Hidrolavadoras: guías, marcas y comparativas"
       ]
     },
     {
@@ -67,39 +67,12 @@
       ]
     },
     {
-      "path": "/compresores/",
+      "path": "/sierras/",
       "status": 200,
       "identical": true,
       "issues": [],
       "title": [
-        "Compresores · TallerLab"
-      ]
-    },
-    {
-      "path": "/generadores/",
-      "status": 200,
-      "identical": true,
-      "issues": [],
-      "title": [
-        "Generadores · TallerLab"
-      ]
-    },
-    {
-      "path": "/hidrolavadoras/",
-      "status": 200,
-      "identical": true,
-      "issues": [],
-      "title": [
-        "Hidrolavadoras: guías, marcas y comparativas"
-      ]
-    },
-    {
-      "path": "/soldadura-electronica/",
-      "status": 200,
-      "identical": true,
-      "issues": [],
-      "title": [
-        "Soldadura electrónica · TallerLab"
+        "Sierras: tipos y cómo elegir según el trabajo · TallerLab"
       ]
     },
     {
@@ -112,12 +85,39 @@
       ]
     },
     {
-      "path": "/sierras/",
+      "path": "/soldadura-electronica/",
       "status": 200,
       "identical": true,
       "issues": [],
       "title": [
-        "Sierras: tipos y cómo elegir según el trabajo · TallerLab"
+        "Soldadura electrónica · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab · TallerLab"
       ]
     },
     {
@@ -1737,62 +1737,6 @@
       "vercel_cache": "HIT"
     },
     {
-      "path": "/assets/editorial/amoladoras.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/compresores.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/generadores.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/hidrolavadoras.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/sierras.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/soldadoras.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/soldadura-electronica.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
-      "path": "/assets/editorial/taladros.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=86400",
-      "vercel_cache": "MISS"
-    },
-    {
       "path": "/assets/fonts/caveat-OFL.txt",
       "status": 200,
       "identical": true,
@@ -1874,69 +1818,6 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=86400",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/compresores-675f2a6860.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/generadores-fc8463dffc.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/hidrolavadoras-1f2abc3cad.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/mechas-b087a170ea.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/neumaticos-f7c9ddfa76.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/sierras-b6913ab51d.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/soldadoras-9d555a6f51.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/soldadura-electronica-02a6fa7ade.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "HIT"
-    },
-    {
-      "path": "/assets/portadas/taladros-a33087af2e.webp",
-      "status": 200,
-      "identical": true,
-      "cache": "public, max-age=31536000, immutable",
       "vercel_cache": "HIT"
     },
     {
@@ -2280,7 +2161,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/dewaltd28730-1c9badec77.webp",
@@ -2889,7 +2770,7 @@
       "status": 200,
       "identical": true,
       "cache": "public, max-age=31536000, immutable",
-      "vercel_cache": "MISS"
+      "vercel_cache": "HIT"
     },
     {
       "path": "/assets/productos/lusqtoffhl120-89281b0422.webp",
@@ -3403,6 +3284,118 @@
       "vercel_cache": "MISS"
     },
     {
+      "path": "/assets/productos/portada-real-compresores-acoples-rapidos-b7a6f1d9d6.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-compresores-kits-aerografo-7d58077f10.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-compresores-manguera-ff6748c266.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-compresores-para-aerografo-692d5ee21f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-generadores-diesel-87f24ec838.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-hidrolavadoras-gamma-150-2b3244e2b6.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-hidrolavadoras-hyundai-13e89a1679.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadoras-carro-para-soldadora-mig-56cfc152c4.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadoras-soldadora-de-punto-52635ce000.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadura-electronica-gadnic-878d-645287796f.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadura-electronica-kit-soldador-de-estano-133ff0953c.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadura-electronica-soporte-para-soldar-con-lupa-b41a249913.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-soldadura-electronica-yihua-898d-e5023a28b2.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
+      "path": "/assets/productos/portada-real-taladros-mecha-forstner-35-mm-9970dc5cd1.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "HIT"
+    },
+    {
       "path": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
       "status": 200,
       "identical": true,
@@ -3585,7 +3578,7 @@
       "vercel_cache": "HIT"
     },
     {
-      "path": "/assets/site.css?v=9",
+      "path": "/assets/site.css?v=10",
       "status": 200,
       "identical": true,
       "cache": "public, max-age=86400",

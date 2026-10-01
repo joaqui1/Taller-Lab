@@ -1,15 +1,15 @@
 # Revisión final de TallerLab — 1 de octubre de 2026
 
-Versión publicada: commit `68cc7c5`, https://www.tallerlab.com.ar, CSS v10.
+Versión publicada: commit `d3ab43e`, https://www.tallerlab.com.ar, CSS v10.
 
 Se corrigió el problema de la captura adjunta: las citas de Mercado Libre heredaban el estilo del botón comercial. El estilo de botón ahora se aplica a `.btn-mercado-libre`; las fuentes conservan su presentación de enlace de texto. Comprobado en producción en celular y escritorio, y en los 340 enlaces de fuentes presentes en las rutas revisadas.
 
 | Control | Resultado y evidencia |
 |---|---|
-| Publicación | 190 rutas y 268 recursos iguales a la versión local; sitemap de 190 URLs. `despliegue-verificado-2026-10-01.json` |
-| Fotos | 243 referencias con foto, 235 WebP únicos, sin pendientes. Media 22.2 KB; máximo 58.6 KB. `verificacion-fotos-modelos.json` |
+| Publicación | 190 rutas y 267 recursos iguales a la versión local; sitemap de 190 URLs. `despliegue-verificado-2026-10-01.json` |
+| Fotos | 243 referencias con foto, 235 WebP del catálogo y 16 adicionales para las guías, sin pendientes. Media 22.2 KB; máximo 58.6 KB. `verificacion-fotos-modelos.json` |
 | Portadas | Corregida la decisión anterior: las 179 guías en ocho categorías usan fotos reales, cero ilustraciones. `portadas-guias.json` |
-| Visual en producción | 570 vistas: 190 rutas a 320, 390 y 1440 px, sin imágenes rotas, desbordes, errores JS o portadas genéricas. `qa-fotos-produccion-2026-10-01.json` |
+| Visual en producción | 570 vistas: 190 rutas a 320, 390 y 1440 px, sin imágenes rotas, desbordes, errores JS o imágenes ilustrativas. `qa-portadas-reales-produccion.json` |
 | Interacciones en producción | 190 rutas, 74 recursos, 108 filtros y 36 comparadores; sin fallas ni errores JS. `qa-interacciones-produccion-2026-10-01.json` |
 | Buscador | Recuperación tras HTTP 503, resultados, ver más, búsqueda vacía y limpieza comprobados en navegador. Mismo registro de interacciones |
 | Enlaces y estructura | 7.314 enlaces HTML; canonical, fuentes, H1, anclas, redirecciones con query, robots, sitemap, 404, HEAD y rechazo de rutas inválidas. `verificar_enlaces_publicados.py`, `verificar_hubs.py`, `verificar_produccion.py` |
