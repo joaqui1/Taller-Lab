@@ -2,9 +2,11 @@
 import concurrent.futures
 import hashlib
 import json
+import os
 from pathlib import Path
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
+os.environ['SITE_URL'] = 'https://www.tallerlab.com.ar'
 from app import app
 import servidor_local as site
 from auditoria_seo_consultor import Doc, inspect
@@ -38,7 +40,7 @@ def main():
             failures.append(dict(path=path, issues=issues))
         pages.append(dict(path=path, status=status, identical=identical, issues=issues, title=doc.titles))
     assets.update('/assets/' + p.relative_to(site.ASSETS_DIR).as_posix() for p in (site.ASSETS_DIR / 'fonts').glob('*'))
-    assets.update(['/assets/site.css?v=7', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
+    assets.update(['/assets/site.css?v=8', '/assets/home.js', '/assets/commerce.js', '/assets/decision-tools.js'])
     asset_results = []
     for path, status, body, headers in map(fetch, sorted(assets)):
         source = site.ASSETS_DIR / path.split('?', 1)[0].removeprefix('/assets/')

@@ -1607,7 +1607,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=7">
+  <link rel="stylesheet" href="/assets/site.css?v=8">
   <script src="/assets/commerce.js?v=3" defer></script>
 </head>
 <body>

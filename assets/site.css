@@ -58,7 +58,7 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .category-strip-item:hover { background: var(--orange-bg); color: #bd4100; }
 .section-header { border-bottom: 1px solid var(--border); padding-bottom: 1rem; gap: 1rem; }
 .section-title { color: #20272b; font-size: 1.6rem; letter-spacing: -.04em; }
-.section-subtitle { color: #697174; }
+.section-subtitle { color: #5b6467; }
 .section-link { color: #d54b00; }
 .article-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
 .card-media { background: #fffefa; border-color: var(--border); border-radius: 5px; box-shadow: 0 4px 12px rgba(32, 38, 42, .035); }
@@ -68,10 +68,10 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .card-body { padding: 1.15rem 1.2rem; }
 .card-title { color: #242b2d; font-size: 1.03rem; }
 .card-desc { color: #626b6e; }
-.card-footer { color: #d34b05; font-size: .79rem; text-transform: uppercase; letter-spacing: .04em; }
+.card-footer { color: #b84004; font-size: .79rem; text-transform: uppercase; letter-spacing: .04em; }
 .featured-hero-card { background: #252d30; border: 0; border-left: 5px solid var(--orange); border-radius: 4px; box-shadow: none; padding: 2.4rem; }
 .featured-hero-card:hover { box-shadow: 0 14px 28px rgba(32, 38, 42, .15); }
-.breadcrumb { color: #687174; font-size: .77rem; text-transform: uppercase; letter-spacing: .065em; margin-bottom: 1.5rem; }
+.breadcrumb { color: #5b6467; font-size: .77rem; text-transform: uppercase; letter-spacing: .065em; margin-bottom: 1.5rem; }
 .breadcrumb span[style*="color: #ffffff"] { color: #323b3d !important; }
 .category-hero { background: #252d30; padding: 2.5rem 3rem !important; margin: 0 0 3rem !important; border: 0 !important; border-left: 5px solid var(--orange) !important; border-radius: 4px; }
 .category-hero > div:first-child { flex-wrap: wrap; }
@@ -100,19 +100,20 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .trust-footer strong { color: #293134; }
 .affiliate-shelf { margin: 2rem 0 3.6rem; }
 .affiliate-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 1rem; }
-.section-kicker { display: block; color: #bb4408; font-size: .69rem; font-weight: 800; letter-spacing: .16em; margin-bottom: .35rem; }
+.section-kicker { display: block; color: #9e3905; font-size: .69rem; font-weight: 800; letter-spacing: .16em; margin-bottom: .35rem; }
 .affiliate-heading h2 { color: #252d30; font-size: clamp(1.5rem, 2.5vw, 2.05rem); letter-spacing: -.05em; line-height: 1.12; }
 .affiliate-heading p { color: #677072; font-size: .78rem; line-height: 1.5; max-width: 360px; }
 .offer-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
 .offer-card { background: #fffefa; border: 1px solid var(--border); border-top: 3px solid #ff6b1c; border-radius: 3px; padding: 1.2rem; display: flex; flex-direction: column; min-height: 210px; box-shadow: 0 5px 16px rgba(24, 31, 33, .035); }
 .offer-card-top { display: flex; justify-content: space-between; gap: .5rem; color: #a14a1d; font-size: .61rem; font-weight: 800; letter-spacing: .09em; }
-.offer-card-top span:last-child { color: #8a9495; text-align: right; }
+.offer-card-top span:last-child { color: #5e686a; text-align: right; }
 .offer-card h3 { color: #242c2e; font-size: 1.12rem; line-height: 1.3; letter-spacing: -.025em; margin: 1.1rem 0 .3rem; }
 .offer-card p { color: #677173; font-size: .81rem; margin-bottom: 1.25rem; }
 .offer-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .55rem 1rem; margin-top: auto; }
-.offer-button { display: inline-flex; justify-content: center; align-items: center; background: var(--orange); color: white; font-size: .77rem; font-weight: 800; padding: .7rem .85rem; border-radius: 3px; }
-.offer-button:hover { background: var(--orange-hover); color: white; }
-.markdown-body .affiliate-shelf a.offer-button { color: white; text-decoration: none; }
+.offer-button { display: inline-flex; justify-content: center; align-items: center; background: var(--orange); color: #182023; font-size: .77rem; font-weight: 800; padding: .7rem .85rem; border-radius: 3px; }
+.offer-button:hover { background: var(--orange-hover); color: #182023; }
+.markdown-body a.offer-button { color: #182023 !important; text-decoration: none !important; }
+.article-header .thumb-badge { color: #ffad78 !important; }
 .offer-guide { color: #9e410e; font-size: .75rem; font-weight: 800; }
 .offer-guide:hover { text-decoration: underline; text-underline-offset: 3px; }
 .article-container > .affiliate-shelf { margin: 0; padding: 2rem; background: #eeebe5; border: 1px solid var(--border); border-top: 0; }
