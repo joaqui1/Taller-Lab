@@ -1,0 +1,90 @@
+{
+  "section": "soldadura-electronica",
+  "checked": "2026-10-01T20:18:38.156003+00:00",
+  "articles": 5,
+  "structural_failures": [],
+  "sources": [],
+  "rows": [
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\01-kit-soldador-de-estano.md",
+      "body_sha256": "ec1e45c790a00c591134410aae013047ed95e4ca4ef0fd4bd9b397552cd742d7",
+      "title": "Kit soldador de estaño: elegí el equipo según la reparación",
+      "issues": [],
+      "sources": [
+        "https://listado.mercadolibre.com.ar/kit-soldador-estano",
+        "https://www.proskit.com/Product/PK-916G?hl=en-US",
+        "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en",
+        "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\02-estacion-de-soldadura.md",
+      "body_sha256": "fe2824c36d19bd95b3515fcd41c46d71e1ba1322277932c41fd9d9f6a8992fde",
+      "title": "Estación de soldadura electrónica: cuál comprar para tu mesa",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
+        "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+        "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+        "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\03-gadnic-878d.md",
+      "body_sha256": "d4b5ff3ac0ee7ff7bb4354646b209c4db80f4a7642aafe69620ad84f6d8b4f12",
+      "title": "Gadnic 878D: qué revisar antes de comprar la estación",
+      "issues": [],
+      "sources": [
+        "https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w",
+        "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+        "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\04-yihua-898d.md",
+      "body_sha256": "761c216eb174c8119a3077f661c6cbb7d37f5606ab171fabfb5932cfd0c9b8ca",
+      "title": "Yihua 898D: qué incluye y para qué trabajos sirve",
+      "issues": [],
+      "sources": [
+        "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+        "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\05-soporte-para-soldar-con-lupa.md",
+      "body_sha256": "216c31dc7a6acde9bf6147cf6e1f86e6d49e8324775e3c09a1752d285458af79",
+      "title": "Soporte para soldar con lupa: qué revisar antes de comprar",
+      "issues": [],
+      "sources": [
+        "https://cdn.velleman.eu/downloads/doc/1950001-vthh3n_ce.pdf",
+        "https://www.proskit.com/Product/608-391E?hl=en-US",
+        "https://www.weller-tools.com/us/en/consumer/products/soldering-accessories/helping-hands-magnifier"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    }
+  ]
+}

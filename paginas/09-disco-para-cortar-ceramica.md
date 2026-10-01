@@ -21,7 +21,7 @@ published: true
 
 Para cortar azulejo o baldosa cerámica con una amoladora, empezá por el material que declara el fabricante para el **código exacto** del disco. Después comprobá diseño del borde, ancho de corte, diámetro, agujero o fijación y velocidad máxima. Que un disco diga “cerámica” no resuelve automáticamente su compatibilidad con porcelanato ni con cualquier baldosa.
 
-Esta guía se concentra en discos para cerámica. **No extiende una ficha a todo porcelanato:** algunas referencias de fabricante incluyen porcelana o baldosas duras de forma explícita; otras solo nombran cerámica o azulejos. La futura guía de discos para porcelanato debe resolver por separado las referencias que el fabricante habilite expresamente para ese material.
+Esta guía se concentra en discos para cerámica. **No extiende una ficha a todo porcelanato:** algunas referencias de fabricante incluyen porcelana o baldosas duras de forma explícita; otras solo nombran cerámica o azulejos. Para una pieza de porcelanato, buscá esa aplicación en la ficha de la referencia exacta y comprobá el proceso permitido en los manuales del disco y de la máquina.
 
 <!-- EDITORIAL-COMMERCE -->
 
@@ -30,7 +30,7 @@ Esta guía se concentra en discos para cerámica. **No extiende una ficha a todo
 
 “Cerámica” se usa para revestimientos con propiedades y durezas distintas. El porcelanato suele ser una baldosa más densa, pero el nombre comercial del material no alcanza para elegir un accesorio. Revisá el envase o ficha del **modelo y código exactos**: buscá si menciona porcelanato, porcelana dura, gres porcelánico o baldosas duras, y respetá las instrucciones y límites que acompañan esa aplicación.
 
-En la documentación consultada, Bosch describe el **PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"}** para corte de azulejos, y su catálogo de accesorios también enumera porcelana dura y gres fino extremadamente duro para esa familia. El **EXPERT HardCeramic 2 608 900 654** se presenta para baldosas duras y su borde continuo; esa descripción no convierte a todos los discos de cerámica en adecuados para porcelanato. La futura guía de porcelanato debe comparar referencias cuyo fabricante nombre ese material de manera explícita.
+En la documentación consultada, Bosch describe el **PRO Ceramic [2 608 602 478 · Ver precio en Mercado Libre](https://meli.la/1khPuL9){:target="_blank" rel="sponsored noopener"}** para corte de azulejos, y su catálogo de accesorios también enumera porcelana dura y gres fino extremadamente duro para esa familia. El **EXPERT HardCeramic 2 608 900 654** se presenta para baldosas duras y su borde continuo; esa descripción no convierte a todos los discos de cerámica en adecuados para porcelanato. Compará únicamente las referencias cuya documentación incluya el material de tu pieza; no decidas por la palabra «cerámica» ni por el aspecto del borde.
 
 <!-- EDITORIAL-COMMERCE-SECONDARY -->
 
@@ -100,5 +100,3 @@ Las dimensiones permiten distinguir estas variantes de catálogo; no prueban cu�
 - **Documentación primaria:** [Bosch PRO Ceramic, Argentina](https://www.bosch-professional.com/ar/es/disco-de-corte-con-diamantes-pro-ceramic-para-amoladoras-angulares-pequenas-orificio-de-22-23-mm-3088608-ocs-ac/); [Bosch EXPERT HardCeramic, Argentina](https://www.bosch-professional.com/ar/es/discos-de-corte-de-diamante-expert-hardceramic-2868235-ocs-ac/); [catálogo argentino de accesorios Bosch 2024](https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/2024_catalogo_ac_latam_1_argentina_v8.pdf).
 - No se realizaron pruebas de corte, astillado, velocidad, vibración ni durabilidad. Las descripciones de acabado y rendimiento se atribuyen a Bosch.
 - Para una matriz general por operación y material, consultá [discos para amoladora](/amoladoras/discos/); para identificar formatos de segmentado, [disco diamantado segmentado](/amoladoras/disco-diamantado-segmentado/).
-
-<!-- ENLACE_PENDIENTE: agregar enlace visible a /amoladoras/discos-porcelanato/ cuando exista la página destino. -->

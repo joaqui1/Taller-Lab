@@ -1,0 +1,459 @@
+{
+  "section": "compresores",
+  "checked": "2026-10-01T20:18:05.395104+00:00",
+  "articles": 23,
+  "structural_failures": [],
+  "sources": [],
+  "rows": [
+    {
+      "path": "/compresores/para-auto/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\01-compresor-de-aire-para-auto.md",
+      "body_sha256": "91c84b960076a77ee96f5954508010692cfc32172a542b77cec2f1bd17fe87b4",
+      "title": "Compresor de aire para auto: cuál elegir",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/ver-producto/MCL150-8",
+        "https://middle-east.michelin.com/en/auto/advice/tyre-pressure/inflate-tyres",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min",
+        "https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\02-compresor-de-50-litros.md",
+      "body_sha256": "c1f412d85faf3bb1012089dda2d8dc0e5fc488ff5516a53bb856bcfd3b5a23cb",
+      "title": "Compresores de 50 litros: cuál conviene según el uso",
+      "issues": [],
+      "sources": [
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_c7bjdn248d2dret4jdk27m9377/4138950_21022_002_SPK2.pdf",
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_ngovue839t5o7dugodnovh8q57/4137790_11018_001_SPK2.pdf",
+        "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/",
+        "https://www.einhell.com.ar/p/4133030-prof-paint-spray-gun/",
+        "https://www.einhell.com.ar/p/4133330-tc-pe-150/",
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/",
+        "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
+        "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"
+      ],
+      "tables": 4,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/manguera/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\03-manguera-para-compresor-de-aire.md",
+      "body_sha256": "372af06bf38c5b0207c237c84c070cb9f443521e89531cb450bdb25688834f2e",
+      "title": "Cómo elegir una manguera para compresor de aire",
+      "issues": [],
+      "sources": [
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_c7bjdn248d2dret4jdk27m9377/4138950_21022_002_SPK2.pdf",
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_ngovue839t5o7dugodnovh8q57/4137790_11018_001_SPK2.pdf",
+        "https://www.einhell.com.ar/p/4133330-tc-pe-150/",
+        "https://www.parker.com/content/dam/Parker-com/Literature/LPCE/New-PDFs/CAT_0550_UK_BD.pdf",
+        "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/UPD_2010/Catalog_0726-E.pdf",
+        "https://www.parker.com/static_content/parkerimages/euro_hpd/CAT_4401UK.pdf",
+        "https://www.rolair.com/accessories/accessories/hybrid-air-hose"
+      ],
+      "tables": 3,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\04-aerografo-con-compresor.md",
+      "body_sha256": "f5e4c714257452aa49d081780b6caff6e01355d00613e2d91b548ddaf8b48086",
+      "title": "Kits de aerógrafo con compresor: guía para principiantes",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/aerografo-profesional",
+        "https://paascheairbrush.com/products/dc150",
+        "https://paascheairbrush.com/products/h-100d",
+        "https://paascheairbrush.com/products/jm-1s",
+        "https://paascheairbrush.com/products/tg-100d",
+        "https://www.airbrush-fengda.de/fen-FD186K",
+        "https://www.iwata-airbrush.com/airbrush-basics.html",
+        "https://www.iwata-airbrush.com/airbrush-compressors.html",
+        "https://www.iwata-airbrush.com/equipment-setup.html",
+        "https://www.iwata-airbrush.com/iwata-airbrush-beginner-set.html"
+      ],
+      "tables": 3,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\05-pistola-para-pintar-con-compresor.md",
+      "body_sha256": "6016ad78827a6857811e6393c01680ce62259f9e6460f674b7e1dcd8792a2e28",
+      "title": "Cómo elegir una pistola para pintar con compresor",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.graco.com/us/en/contractor/solutions/articles/selecting-the-right-hvlp-needle-nozzle-set.html"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\06-acople-rapido-para-compresor.md",
+      "body_sha256": "50234855c016f2c5110314a504b6577ea856cf6386b79dc9756ae111b6c4b12f",
+      "title": "Acople rápido para compresor: perfiles, roscas y medidas",
+      "issues": [],
+      "sources": [
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.airex.it/en/catalog/attacchi-rapidi/universal-series-quick-couplings-and-fittings/",
+        "https://www.cejn.com/guides-support/toolbox/compressed-air-nipple-guide/",
+        "https://www.parker.com/content/dam/Parker-com/Divisions-2011/Quick-Coupling-Division/SupportAssets/PneuInterchgChart.pdf",
+        "https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx"
+      ],
+      "tables": 3,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\07-compresor-para-aerografo.md",
+      "body_sha256": "0378d8ba94f938ace9e2b124c91a940acb376d5aa062a48ade3fcfd168c616e2",
+      "title": "Qué compresor comprar para tu aerógrafo",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/aerografo-profesional",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186",
+        "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196",
+        "https://www.iwata-airbrush.com/airbrush-compressors.html",
+        "https://www.iwata-airbrush.com/hp-bh-hi-line-airbrush.html",
+        "https://www.iwata-airbrush.com/iwata-smart-jet-pro.html",
+        "https://www.iwata-airbrush.com/revolution-single-action.html",
+        "https://www.sparmaxair.com/compressor-legend-1/tc-610h",
+        "https://www.sparmaxair.com/compressor-master-1/tc-501n"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/aceite/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\08-aceite-para-compresor-de-aire.md",
+      "body_sha256": "3850beda4fc24542a3238fc3edd8ec690b81d0d621ae0350e652354e7cff8140",
+      "title": "Qué aceite lleva un compresor de aire",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
+        "https://saemobilus.sae.org/standards/j300_202405-engine-oil-viscosity-classification",
+        "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
+        "https://www.iso.org/standard/8774.html"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\09-compresor-lusqtoff-50-litros.md",
+      "body_sha256": "4c2af596691647b7507c879ecb8439d6ed9eb067615ec8e727c12c2927bf3b51",
+      "title": "Compresor Lusqtoff de 50 litros: cuál elegir",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-2550BK/MANUAL/LC-2550BK.pdf",
+        "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+        "https://lusqtoff.com.ar/ver-producto/LC-3550BK",
+        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC-2550VS/MANUAL/LC-2550VS.pdf",
+        "https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk",
+        "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/filtros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\10-filtro-de-aire-para-compresor.md",
+      "body_sha256": "1f24f77c023a02b19a1f1ff6809b478acf9778783bf2ea87397ba7407c723938",
+      "title": "Filtro de aire para compresor: cómo elegir el repuesto",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\11-compresor-de-100-litros.md",
+      "body_sha256": "ea9b8fdffc0560342ec3bbceccd2d232d30f8863454265df37d4566f6ea90661",
+      "title": "Qué compresor de 100 litros elegir para tu taller",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/arenador-portatil-alta-presion",
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
+        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
+        "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
+        "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
+        "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\12-compresor-gamma-50-litros.md",
+      "body_sha256": "816a4aba435c0925aa82b09c0c1134cc2d181f1da7eb02c8b4b721c4fa3a8bab",
+      "title": "Compresor Gamma de 50 litros: guía de compra",
+      "issues": [],
+      "sources": [
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/",
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/",
+        "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf",
+        "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\13-kit-para-compresor-de-aire.md",
+      "body_sha256": "2c5e20985cf4f43fb4b53ef6e9a4ce111482cb38d94c2ecb51c767a690381246",
+      "title": "Qué kit de accesorios comprar para un compresor",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://lusqtoff.com.ar/ver-producto/AA-5000K",
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros-en-kit/",
+        "https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\14-compresor-lusqtoff-100-litros.md",
+      "body_sha256": "43db54afe790087b0451b6b3327821fcd6e4ae5e6fb25819271c6f46cbd68584",
+      "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/arenador-portatil-alta-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
+        "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
+        "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf",
+        "https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\15-compresor-sin-aceite.md",
+      "body_sha256": "981cf881baa7e78d70e929deb119135d0df52c49bcf6af509a1f3dd787ae0c1d",
+      "title": "Compresores sin aceite: cuándo convienen",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+        "https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.iso.org/committee/51882/x/catalogue/",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-0122/MANUAL/LC-0122.pdf",
+        "https://www.lusqtoff.com.ar/ver-producto/LC-0122",
+        "https://www.osha.gov/otm/section-8-ppe/chapter-2"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\16-compresor-de-200-litros.md",
+      "body_sha256": "4d9d4da32924f72706ac064f62d2658342609f28bacd1011c6ea5590a1451cd3",
+      "title": "Compresores de 200 litros: guía de compra para taller",
+      "issues": [],
+      "sources": [
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+        "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\17-compresor-bta-25-litros.md",
+      "body_sha256": "0c1cd3989fba135f86f4c43ef0cb17a8c61b6879e3c57f847c1a446114b58a2a",
+      "title": "Compresor BTA de 25 litros: para quién conviene",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+        "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+        "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\18-compresor-de-24-litros.md",
+      "body_sha256": "1927fed208c4f05f0e6c49931c1976f7cf91f51eb0b91a50f96c63921469855d",
+      "title": "Compresor de 24 litros: para qué sirve y cuál elegir",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+        "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+        "https://btatools.com.ar/producto/compresor-de-aire-50-litros-1-5-hp-silenciado-sin-aceite",
+        "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://lusqtoff.com.ar/ver-producto/LC-0122",
+        "https://lusqtoff.com.ar/ver-producto/LC-2024",
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-alta-recuperacion-en-25-l/",
+        "https://www.gammaherramientas.com.ar/producto/compresor-sin-aceite-24-l-2-hp/"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\19-compresor-inalambrico.md",
+      "body_sha256": "06335b1457448b383fb09a21a59c00a032acd98277186f4f569c070d18ac1d9b",
+      "title": "Cómo elegir un compresor inalámbrico a batería",
+      "issues": [],
+      "sources": [
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_3099r71elt6e3d5v79flck1u6h?attachment%3Bfilename=4020420_21011_001_SPK13.pdf",
+        "https://makita.com.ar/producto/978-inflador-inalambrico/",
+        "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
+        "https://www.einhell.com.ar/p/4020420-pressito-18-25/",
+        "https://www.einhell.com.ar/p/4020467-pressito-18-21/"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/stanley/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\20-compresor-stanley.md",
+      "body_sha256": "4366240063ff08caa4b1f7bffe2e604bace69223ae095e93bf68aedea2d51b4a",
+      "title": "Compresores Stanley: comparativa y guía de compra",
+      "issues": [],
+      "sources": [
+        "https://ar.stanleytools.global/soporte/contacto",
+        "https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM",
+        "https://www.mecafer.com/compresseurs/compresseur-coaxial-lubrifie-50l-2hp",
+        "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-100l-3hp",
+        "https://www.mecafer.com/compresseurs/compresseur-v-lubrifie-50l-3hp",
+        "https://www.mecafer.com/compresseurs/compresseur-vertical-100l-25hp",
+        "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-24l-2hp",
+        "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-50l-2hp",
+        "https://www.nuair.pl/images/katalogi/Catalogo_STANLEY_2020_EN_9990220_LR.pdf",
+        "https://www.nuair.pt/images/katalogi/Catalogo-STANLEY-2017.pdf",
+        "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/STC24/1/Instruction_Manual/EN/STC24_STC50.pdf"
+      ],
+      "tables": 2,
+      "offer_cards": 4,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\21-compresor-para-pintar.md",
+      "body_sha256": "c9ceda8b294f33fee571dfe151ce4059cd37ec0d89b3c0a82e842e39e12b9eab",
+      "title": "Qué compresor elegir para pintar",
+      "issues": [],
+      "sources": [
+        "https://btatools.com.ar/producto/compresor-de-aire-100-litros-2-0-hp",
+        "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp",
+        "https://btatools.com.ar/producto/compresor-de-aire-100-litros-3-0-hp-bicilindrico",
+        "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+        "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+        "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
+        "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
+        "https://www.einhell.com.ar/p/4007375-tc-ac-190-24-8-i-of/",
+        "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/",
+        "https://www.einhell.com.ar/p/4010800-te-ac-430-90-10/",
+        "https://www.wurth.com.ar/img/productos/351701-ficha-tecnica-pistola-pintura-premium-hvlp-1-3mm.pdf",
+        "https://www.wurth.com.ar/tienda/pistola-pintura-prof-lvlp-1-3mm.html"
+      ],
+      "tables": 5,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\22-inflador-de-neumaticos-portatil.md",
+      "body_sha256": "443b6f7f34275e2d169a366e6278878658860a07be586912458bfabb96c229dc",
+      "title": "Inflador de neumáticos portátil: cuál conviene según el uso",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/ver-producto/MCL150-8",
+        "https://makita.com.ar/producto/978-inflador-inalambrico/",
+        "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
+        "https://www.einhell.com.ar/p/4020420-pressito-18-25/",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\23-compresor-12v-doble-piston.md",
+      "body_sha256": "7a169ad88e473cc728b78e2f3b96529ec9999c46e606c3a92167c9f5fec2aaab",
+      "title": "Compresor 12V doble pistón: guía para elegirlo",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/ver-producto/MCL150-8",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min",
+        "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-85l-min"
+      ],
+      "tables": 1,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    }
+  ]
+}

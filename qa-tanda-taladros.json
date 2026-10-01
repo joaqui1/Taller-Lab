@@ -1,0 +1,438 @@
+{
+  "section": "taladros",
+  "checked": "2026-10-01T20:18:44.063319+00:00",
+  "articles": 23,
+  "structural_failures": [],
+  "sources": [],
+  "rows": [
+    {
+      "path": "/taladros/inalambricos/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\01-taladro-inalambrico.md",
+      "body_sha256": "a0fe4c6b8fe3f9e897704ed9c5c762a1dafda94a1dbe202b40fba0732f8b9f0b",
+      "title": "Cómo elegir un taladro inalámbrico para tu trabajo",
+      "issues": [],
+      "sources": [
+        "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_qv8gbkvg3h41l3lg9j0rh59j64/4257239_21023_002_SPK7-1.pdf",
+        "https://support.blackanddecker.com/hc/es/article_attachments/115004285093",
+        "https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0",
+        "https://www.einhell.com/sustainability/",
+        "https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668"
+      ],
+      "tables": 4,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\02-rotomartillo.md",
+      "body_sha256": "d4532cc7b9e51588f0273c03e2f595f3b1e241c6d5bbc772c9e5d5e49496f509",
+      "title": "Qué rotomartillo comprar según el trabajo",
+      "issues": [],
+      "sources": [
+        "https://tienda.reginato.com.ar/producto/88192/rotomartillo-bosch-gbh220-720w/",
+        "https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0",
+        "https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0",
+        "https://www.bosch-professional.com/cz/cs/akumulatorova-vrtaci-kladiva-131421-ocs-c/",
+        "https://www.bosch-professional.com/es/es/cinceles-2865192-ocs-ac/",
+        "https://www.bosch-professional.com/es/es/martillos-perforadores-y-demoledores-101339-ocs-c/",
+        "https://www.einhell.de/en/p/4257970/",
+        "https://www.ofertools.com.ar/productos/rotomartillo-bosch-con-sds-plus-720w-20j-23kg-22mm-en-maletin-gbh-220/",
+        "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-2j-sds-plus-brushless-gbh-180-li-bosch/",
+        "https://www.telmoherramientas.com.ar/productos/rotomartillo-a-bateria-18v-sds-plus-brushless-2-bat-maletin-gbh-180-li-bosch/"
+      ],
+      "tables": 4,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/percutores/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\03-taladro-percutor.md",
+      "body_sha256": "a480188cd479a35b6bb2f3e62567cc28ba913d59e7a041e4f49a7004c43b196c",
+      "title": "Cómo elegir un taladro percutor",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2",
+        "https://www.bosch-professional.com/ar/es/products/gsb-550-06011B60H0",
+        "https://www.bosch-professional.com/es/es/products/gsb-20-2-060117B401"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\04-taladro-de-banco.md",
+      "body_sha256": "027e539c0443fbf1b8d6efef3328bec3fe9b3d1c7deb07a193631810529e6a9a",
+      "title": "Qué taladro de banco comprar para tu taller",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-diy.com/in/en/frequently-asked-questions",
+        "https://www.bosch-pt.com/download/ACC_0910_DRILLING_GB-en.pdf",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/12.%20HERRAMIENTAS%20DE%20PIE%20Y%20BANCO/TB-16/MANUAL/TB-16.pdf",
+        "https://www.lusqtoff.com.ar/ver-producto/TB-16",
+        "https://www.lusqtoff.com.ar/ver-producto/TBL710-9D",
+        "https://www.lusqtoff.com/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf"
+      ],
+      "tables": 4,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\05-atornillador-de-impacto.md",
+      "body_sha256": "f98b0bc7369fbf9f0b77f9e265a77c43487c57b30849ac73f9f7412ad0eea566",
+      "title": "Cómo elegir un atornillador de impacto",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+        "https://www.bosch-professional.com/ar/media/country_content/service/download/catalogue/6343_trade_-_5_es_220v_-_ind_metal_-_web.pdf",
+        "https://www.bosch-professional.com/es/es/products/gdr-18v-200-06019J2107",
+        "https://www.bosch-professional.com/mx/es/punta-pro-phillips-impact-3095561-ocs-ac/",
+        "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887B/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf"
+      ],
+      "tables": 3,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\06-rotomartillo-bosch.md",
+      "body_sha256": "5284a8b03cf37750f3a3fccc074b941e7ecb970acf8cd627ad2ac3dfde7ac0e1",
+      "title": "Qué rotomartillo Bosch elegir",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/products/gbh-18v-26-d-0611916001",
+        "https://www.bosch-professional.com/ar/es/products/gbh-2-26-dre-06112537H0",
+        "https://www.bosch-professional.com/ar/es/products/gbh-220-06112A60H0",
+        "https://www.bosch-professional.com/ar/es/products/gbh-8-45-dv-06112650H0",
+        "https://www.bosch-professional.com/bo/es/products/gbh-2-26-dre-06112537E0"
+      ],
+      "tables": 1,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\07-taladro-percutor-inalambrico.md",
+      "body_sha256": "ccf427a13f75d427129b94ef08a056e952a1afd93a463791f496e81e4d8266eb",
+      "title": "Qué taladro percutor inalámbrico comprar",
+      "issues": [],
+      "sources": [
+        "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
+        "https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2",
+        "https://www.bosch-professional.com/binary/manualsmedia/o484077v21_160992AA01_202409.pdf",
+        "https://www.dewalt.com/en-us/product/dcd805b/20v-max-xr-brushless-cordless-12-hammer-drilldriver-tool-only",
+        "https://www.einhell.de/en/p/4513942-tp-cd-18-50-li-i-bl-solo",
+        "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+        "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD805D2/1/Instruction_Manual/EN/DCD800_DCD805_T1_QU.pdf"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\08-atornillador-para-durlock.md",
+      "body_sha256": "21f8b4871d3996f64149c8531454b404ffbab9a6961f362e30adb9b4058ca04b",
+      "title": "Cómo elegir un atornillador para Durlock",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/atornilladores-con-limitador-de-profundidad-131443-ocs-c/",
+        "https://www.bosch-professional.com/ar/es/products/gtb-650-06014A20H0",
+        "https://www.bosch-professional.com/gb/en/products/gtb-185-li-06019K7000",
+        "https://www.bosch-professional.com/pe/media/country_content/service/download/catalogue/6343_trade_-_3_es_220v_-_instalador_-_web.pdf",
+        "https://www.dewalt.com/en-us/product/dcf6202/collated-drywall-screw-gun-attachment",
+        "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF620B/1/Instruction_Manual/EN/N418744_DCF620.pdf"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\09-taladro-black-decker.md",
+      "body_sha256": "89bea65e2f79ce0707fb2f6a22c8116f88b732a68ade58f9f73da4512bc92cba",
+      "title": "Qué taladro Black+Decker elegir para casa",
+      "issues": [],
+      "sources": [
+        "https://ar.blackanddecker.global/producto/bcd702c1-ar/taladro-inalambrico-20v-max-litio",
+        "https://support.blackanddecker.com/hc/es/article_attachments/115004285093",
+        "https://www.blackanddecker.com/products/bcd702c1",
+        "https://www.blackanddecker.com/products/bld783d1",
+        "https://www.blackanddecker.com/products/dr260c"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\10-rotomartillo-einhell.md",
+      "body_sha256": "128f212ae46b8a89755b0021afd9369cd5e4abe733e7adb470d056043ce57587",
+      "title": "Qué rotomartillo Einhell comprar",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/products/gbh-2-26-dre-06112537H0",
+        "https://www.einhell.ch/p/4257972-te-rh-28-1-5f/",
+        "https://www.einhell.de/en/p/4257970/",
+        "https://www.einhell.de/en/p/4257990/",
+        "https://www.einhell.de/en/p/4514260-te-hd-18-20-li-solo/",
+        "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-2025-en.pdf",
+        "https://www.einhell.no/fileadmin/NO/services/catalogues/pdf-en/einhell-services-catalogue-power-tools-en.pdf"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\11-rotomartillo-dewalt.md",
+      "body_sha256": "7f1f8d8f2567fb55cd4fa2c62b9f0f75fbb8823e0572e8869fd880cce5d1d4db",
+      "title": "Cómo elegir un rotomartillo DeWalt",
+      "issues": [],
+      "sources": [
+        "https://www.dewalt.com/en-us/product/dch133b/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-tool-only",
+        "https://www.dewalt.com/en-us/product/dch133m2/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-kit",
+        "https://www.dewalt.com/en-us/product/dch273b/20v-max-xr-brushless-cordless-1-25mm-sds-plus-l-shape-rotary-hammer-tool-only",
+        "https://www.dewalt.com/en-us/product/dch273p2/20v-max-xr-1-brushless-sds-plus-l-shape-rotary-hammer-kit",
+        "https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j"
+      ],
+      "tables": 1,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\12-taladro-inalambrico-einhell.md",
+      "body_sha256": "37b20d5296ff29cedbfba569a9bdff9e6d15fd8d394ea614bf57fc7401fb215f",
+      "title": "Qué taladro inalámbrico Einhell elegir",
+      "issues": [],
+      "sources": [
+        "https://www.einhell.de/en/c/batteries/",
+        "https://www.einhell.de/en/p/4513925-te-cd-18-40-li-solo/",
+        "https://www.einhell.de/en/p/4513942-tp-cd-18-50-li-i-bl-solo",
+        "https://www.einhell.de/fileadmin/corporate-media/services/catalogues/pdf-de/einhell-services-catalogue-tools-diy-2026-de.pdf"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\13-taladro-inalambrico-dewalt.md",
+      "body_sha256": "dfccf070a28262cb3ea978c448400490c9676cadcec9551054566fb1dd8a745a",
+      "title": "Qué taladro inalámbrico DeWalt comprar",
+      "issues": [],
+      "sources": [
+        "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+        "https://www.dewalt.com/en-us/product/dcd794b/atomic-20v-max-brushless-cordless-12-drilldriver-tool-only",
+        "https://www.dewalt.com/en-us/product/dcd805d2/20v-max-xr-brushless-cordless-12-hammer-drilldriver-kit"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\14-mecha-para-porcelanato.md",
+      "body_sha256": "5a612604d50a61e00661cb5f7ac611a9d92c1d821719c9a3719fcd5d09890af3",
+      "title": "Qué mecha usar para perforar porcelanato",
+      "issues": [],
+      "sources": [
+        "https://static.rubi.com/Castellano_2024_v2_7f412bdac6.pdf",
+        "https://www.bosch-professional.com/es/es/broca-expert-hex-9-hard-ceramic-2867225-ocs-ac/",
+        "https://www.bosch-professional.com/es/es/innovation/tile-drilling/",
+        "https://www.rubi.com/es/blog/nuevas-brocas-diamantadas-drygres-4drill/",
+        "https://www.rubi.com/es/producto/brocas-drygres",
+        "https://www.rubi.com/es/producto/kits-brocas-easygres-o-6-12-mm"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\15-taladro-milwaukee.md",
+      "body_sha256": "a7acbc27134d8c1fbc3cc5407a17ef91bcbd895d1194f148b91c99a5dcc7badd",
+      "title": "Qué taladro Milwaukee comprar según el uso",
+      "issues": [],
+      "sources": [
+        "https://documents.milwaukeetool.com/58-14-9945d2.pdf",
+        "https://espacio-industria.com/products/taladro-percutor-inalambrico-fuel-m18-milwaukee-2904-259-color-rojo",
+        "https://onekeyresources.milwaukeetool.com/en/how-to-choose-a-milwaukee-tool-battery",
+        "https://www.milwaukeetool.com/2904-20",
+        "https://www.milwaukeetool.com/2904-22",
+        "https://www.milwaukeetool.com/3601-20",
+        "https://www.milwaukeetool.com/Innovations/M18-Fuel",
+        "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
+        "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\16-taladro-inalambrico-lusqtoff.md",
+      "body_sha256": "df6147a4291d9f8849e1dfd35aa4e7bb50fc1fe30dd5f448729bbe77ffd30718",
+      "title": "Cómo elegir un taladro inalámbrico Lusqtoff",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/productos/TIL45131-8BK",
+        "https://lusqtoff.com.ar/ver-producto/LBC1820-8",
+        "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+        "https://www.lusqtoff.com.ar/productos/taladro-atornillador-a-bateria-o-12-v-til23-8b",
+        "https://www.lusqtoff.com.ar/ver-producto/TAL60-9B"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\17-brocas-para-ceramica.md",
+      "body_sha256": "8226ffb27b1bd7b21ba5c84e85244f19fd452621c88ec0ddcbaa0c0555c48faf",
+      "title": "Cómo elegir mechas para cerámica y azulejos",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/es/es/broca-cyl-9-soft-ceramic-7724656-ocs-ac/",
+        "https://www.bosch-professional.com/es/es/broca-expert-hex-9-hard-ceramic-2867225-ocs-ac/",
+        "https://www.bosch-professional.com/es/es/innovation/tile-drilling/"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/stanley/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\18-taladro-stanley.md",
+      "body_sha256": "bfb6098d21142bccc64aa0491c958ad6040311c8ad85d3dddf644089616b441b",
+      "title": "Qué taladro Stanley elegir",
+      "issues": [],
+      "sources": [
+        "https://ar.stanleytools.global/producto/sbd710c2k-ar/taladro-atornillador-13mm-20v-sin-carbones-brushless-2-baterias-y-maleta",
+        "https://ar.stanleytools.global/producto/sbd715c2k-ar/taladro-percutor-13mm-20v-brushless-2-baterias-y-maleta",
+        "https://ar.stanleytools.global/sistemas-soluciones/sistema-v20/productos",
+        "https://support.stanleytools.com/hc/es/article_attachments/115004351114",
+        "https://support.stanleytools.com/hc/es/article_attachments/115004351134",
+        "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/B3/SBD710C2K/1/Instruction_Manual/EN/NA486812_SBD710_T1_LA.pdf",
+        "https://www.toolservicenet.com/i/STANLEY/GLOBALBOM/BR/SBD715C2KA/1/Instruction_Manual/EN/SBD715_T1_ASIA.pdf"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\19-atornillador-de-impacto-dewalt.md",
+      "body_sha256": "5e663cda9126739e1085de9b6f5194cf28e24218bcf6efcd0b7f361b23668095",
+      "title": "Qué atornillador de impacto DeWalt elegir",
+      "issues": [],
+      "sources": [
+        "https://service.dewalt.ie/i/DEWALT/GLOBALBOM/GB/DCF850D2T/1/Instruction_Manual/EN/NA648507_DCF850_T1_GB_XE.pdf",
+        "https://www.dewalt.co.uk/en-gb/product/dcf887p2-gb/18v-xr-brushless-impact-driver-2-5ah-batteries",
+        "https://www.dewalt.com.ar/es-ar/producto/dcf809b/atornillador-de-impacto-de-14-pulg-6mm-20v-max-atomic-no-incluye-bateria",
+        "https://www.dewalt.com.ar/es-ar/soporte/como-encuentro-el-numero-de-modelo-y-numero-de-serie-en-mi-herramienta",
+        "https://www.dewalt.com/en-us/product/dcf850b/atomic-20v-max-14-3-speed-brushless-impact-driver-tool-only",
+        "https://www.dewalt.com/en-us/product/dcf850p1/20v-max-atomic-brushless-cordless-3-speed-14-impact-driver-kit",
+        "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF809C2/12/Instruction_Manual/EN/NA156061_DCF809_NA.pdf",
+        "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCF887D2/3/Instruction_Manual/EN/NA454905_DCF887_T2_T3_NA.pdf"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\20-taladro-inalambrico-bosch.md",
+      "body_sha256": "85c41786fb332ffb065a1f4ee0f1dfe6617ff56a9260bc7e326eb40f7df3c9e6",
+      "title": "Qué taladro inalámbrico Bosch comprar",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/ar/es/18v-cordless-system/",
+        "https://www.bosch-professional.com/ar/es/products/gsb-18v-50-06019H51E2",
+        "https://www.bosch-professional.com/ar/es/products/gsr-120-li-06019G80E5",
+        "https://www.bosch-professional.com/ar/es/taladros-percutores-atornilladores-inalambricos-131417-ocs-c/"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\21-mechas-escalonadas.md",
+      "body_sha256": "1b5288650c77d334513ccc0a1f85b4bc5eafe238b16cea13b37e2232d920909e",
+      "title": "Qué mecha escalonada elegir y cómo usarla",
+      "issues": [],
+      "sources": [
+        "https://ddr456.saas.contentserv.com/admin/ImageServer.php?ID=bd3684bdb97d785fa6f0bf6e0588004c03b3a93ca8e5eb869d30570457e314d3%3A26251%40ddr456&download=true&downloadname=RUKO_Step_drills_en.pdf&rand=ac093ee023aefb64f663f2d7cfb37059",
+        "https://en.hoegert.com/product/step-drill-4-32-mm/",
+        "https://ruko.de/en/products/step-drills/step-drill-hss/",
+        "https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\22-mecha-forstner-35-mm.md",
+      "body_sha256": "5b1ef697575f8a7b3bbd8c4f2ac78f7e8526ef3dc2ad9b62f9e75b1388beed22",
+      "title": "Cómo elegir una mecha Forstner de 35 mm para bisagras",
+      "issues": [],
+      "sources": [
+        "https://publications.blum.com/2024/catalogue/en/65/",
+        "https://publications.blum.com/2024/catalogue/en/671/",
+        "https://shop.hettich.com/mt_EN/Hinges/Concealed-hinges/Intermat-fast-assembly-concealed-hinges/Hinges/110%C2%B0-Intermat-hinge-%28Intermat-9943%29%2C-overlay%2C-Opening-angle-110%C2%B0%2C-TH-drilling-pattern-52-x-5-5-mm%2C-for-screwing-on-%28-%29/p/48049",
+        "https://www.blum.com/us/en/products/hingesystems/clip-top-blumotion/assembly/",
+        "https://www.bosch-professional.com/ec/es/brocas-para-madera-forstner-2907460-ocs-ac/",
+        "https://www.bosch-professional.com/es/es/broca-forstner-expert-wood-7427439-ocs-ac/"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\taladros\\23-combo-taladro-amoladora.md",
+      "body_sha256": "7954c0d828ad256e491986d25e1d06d55891bc2c13766b55fdbe785f51c031d9",
+      "title": "Qué combo de taladro y amoladora conviene comprar",
+      "issues": [],
+      "sources": [
+        "https://www.bosch-professional.com/hr/hr/products/kombinirani-komplet-akumulatorski-busaci-cekic-gbh-180-li-akumulatorska-busilica-izvijac-gsr-18v-50-akumulatorska-kutna-brusilica-gws-180-li-2-x-gba-18v-5-0ah-akumulatora-vrecica-za-alat-u-kartonskoj-kutiji-0615990M32",
+        "https://www.bosch-professional.com/kw/media/country_content/bosch_professional_power_tools_quick_reference_guide.pdf",
+        "https://www.bosch-professional.com/middle-east/en/products/gsr-18v-50-06019H5006",
+        "https://www.bosch-professional.com/sa/en/products/gws-180-li-06019H9020",
+        "https://www.bosch-professional.com/ua/uk/products/kombinovanyy-nabir-akumulyatornyy-dryl-shurupokrut-gsr-18v-50-akumulyatorna-kutova-shlifuval-na-mashyna-gws-180-li-1-akumulyator-2-0-ah-1-akumulyator-5-0-ah-u-xl-boxx-0615990M47",
+        "https://www.lusqtoff.com.ar/productos/KATL-9BK",
+        "https://www.lusqtoff.com.ar/ver-producto/TAL60-9B"
+      ],
+      "tables": 1,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    }
+  ]
+}

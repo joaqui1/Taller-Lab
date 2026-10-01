@@ -1,0 +1,564 @@
+{
+  "section": "soldadoras",
+  "checked": "2026-10-01T20:18:31.216930+00:00",
+  "articles": 29,
+  "structural_failures": [],
+  "sources": [],
+  "rows": [
+    {
+      "path": "/soldadoras/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\00-soldadoras.md",
+      "body_sha256": "64393e3e45be8a32531311999bfc5194e4880cf08ae2960dc4ddd8e1a106830e",
+      "title": "Soldadoras: cuál elegir según el trabajo",
+      "issues": [],
+      "sources": [
+        "https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/"
+      ],
+      "tables": 1,
+      "offer_cards": 4,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\01-electrodo-7018.md",
+      "body_sha256": "3ac3c3bab5ad8ae643fb185a08af88138ba8cf550099160453c5962226c7de67",
+      "title": "Electrodo 7018: cómo elegirlo según el trabajo",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-6013-sv/",
+        "https://esab.com/sites/eur_en/assets/Support/XA00232420.pdf",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-7018/"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\02-soldadora-lusqtoff.md",
+      "body_sha256": "b26951f4d5041a0dae1a1d24870fe23768dc4d16404ac42b755c292a11f82885",
+      "title": "Qué soldadora Lusqtoff elegir para casa o taller",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf",
+        "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://lusqtoff.com.ar/ver-producto/SML130-7",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8",
+        "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+        "https://www.lusqtoff.com.ar/ver-producto/SML150-8D"
+      ],
+      "tables": 4,
+      "offer_cards": 4,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\03-soldadora-de-punto.md",
+      "body_sha256": "4a9c0cf2d8786db19ba258f125673ed6faac7447a3b4a0d5c254ad3133b63c49",
+      "title": "Soldadora de punto: cuál elegir para baterías o chapa",
+      "issues": [],
+      "sources": [
+        "https://malectrics.eu/arduino-spot-welder-quick-start-guide-v4_0_3/",
+        "https://malectrics.eu/product/diy-arduino-battery-spot-welder-prebuilt-kit-v3/",
+        "https://www.sunstonewelders.com/collections/battery-welding",
+        "https://www.sunstonewelders.com/collections/battery-welding/products/micro-resistance-advanced-dual-pulse-cd-spot-welder",
+        "https://www.telwin.com/ExternalAssets/risc6000/954534_L.PDF",
+        "https://www.telwin.com/intl/en/products/repair-systems/823232-digital-car-spotter-5500-400v",
+        "https://www.telwin.com/intl/en/products/spot-welding-machines/823195-digital-spotter-9000"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\04-soldadora-mig-con-gas.md",
+      "body_sha256": "346b9d789df51d201979ffa9c2b9b0cb387d573d210223c96b417aec52dac915",
+      "title": "Qué soldadora MIG con gas comprar",
+      "issues": [],
+      "sources": [
+        "https://assets.esab.com/asset-bank/assetfile/131055",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/",
+        "https://lusqtoff.com.ar/ver-producto/MIGDUAL200-9",
+        "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+        "https://www.millerwelds.com/en-us/resources/knowledge-hub/mig-welding/how-to/solid-wire-versus-flux-cored-wire-when-to-use-them-and-why"
+      ],
+      "tables": 3,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\05-guantes-para-soldar.md",
+      "body_sha256": "1cdd5918d92511a835057487a6b1b22b0d49516ba3b1ec40864585a56b19332f",
+      "title": "Cómo elegir guantes para soldar según el proceso",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-exl/",
+        "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/tig-basic-glove/",
+        "https://esab.com/pe/sam_es/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-black-gloves/",
+        "https://na-email.esab.com/hubfs/ESAB_June2022/pdfs/0-5596%20GB.pdf",
+        "https://www.osha.gov/training/library/personal-protective-equipment/assessment"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\06-soldadora-tig.md",
+      "body_sha256": "27ce4bc04479ecc7d15af9a04f7183d613d83acefb6ec739b7b1d8e69ebe860b",
+      "title": "Soldadoras TIG: guía para elegir tu equipo",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+        "https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/",
+        "https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf",
+        "https://lusqtoff.com.ar/ver-producto/PROTIG180-8",
+        "https://lusqtoff.com.ar/ver-producto/ST-200",
+        "https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\07-soldadora-mig-sin-gas.md",
+      "body_sha256": "20fdb02aa1498da33a407a175f1f02d4054552a18df8f822ac4e1cc94a555dab",
+      "title": "Qué soldadora MIG sin gas conviene comprar",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/coreshield-11/",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://lusqtoff.com.ar/ver-producto/SML130-7",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8D",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+        "https://www.millerwelds.com/en-US/resources/knowledge-hub/field-welding/jobsite-productivity/column-splice-and-moment-weld-connections-in-field-welding",
+        "https://www.millerwelds.com/en-US/resources/knowledge-hub/mig-welding/how-to/flux-cored-welding-the-basics-for-mild-steel",
+        "https://www.millerwelds.com/en-US/resources/knowledge-hub/welding-basics/flux-cored-welding-the-basics-for-mild-steel"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\08-alambre-para-soldadura-mig.md",
+      "body_sha256": "289d17a00e413fd4195005b111632b946a531d87a584e736568809ff45e2adea",
+      "title": "Alambre para soldadura MIG: tipos, diámetros y compatibilidad",
+      "issues": [],
+      "sources": [
+        "https://assets.esab.com/asset-bank/assetfile/131055",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/32d2422304c343af925caac9019e4b1e?v=12199ce2",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/",
+        "https://esab.com/pe/sam_es/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/migfil-404/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/IRONMIG-100/MANUAL%20IRON%20MIG-100.pdf",
+        "https://lusqtoff.com.ar/ver-producto/MIGDUAL200-9",
+        "https://www.millerwelds.com/en-US/resources/knowledge-hub/mig-welding/how-to/flux-cored-welding-the-basics-for-mild-steel"
+      ],
+      "tables": 3,
+      "offer_cards": 1,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\09-mascara-de-soldar-fotosensible.md",
+      "body_sha256": "b084810a82a0dcce8133f2c9704238376b45ab5c42464532ec631b390eeac730",
+      "title": "Cómo elegir una máscara de soldar fotosensible",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1B/ST-1B.pdf",
+        "https://lusqtoff.com.ar/ver-producto/ST-1B",
+        "https://lusqtoff.com.ar/ver-producto/ST-1E",
+        "https://lusqtoff.com.ar/ver-producto/ST-1N",
+        "https://lusqtoff.com.ar/ver-productos/14-mascaras-fotosensibles",
+        "https://webstore.ansi.org/standards/isea/ansiiseaz872025",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\10-electrodo-6013.md",
+      "body_sha256": "f76108d38402f630edb793612aa77456b7d65ccb5cea85398ae0ca8dad003f75",
+      "title": "Electrodo 6013: usos, medidas y qué elegir",
+      "issues": [],
+      "sources": [
+        "https://esab.com/au/apc_en/esab-university/blogs/storing-and-redrying-stick-electrodes-the-right-way/",
+        "https://esab.com/au/apc_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/weld-6013/",
+        "https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/",
+        "https://esab.com/br/sam_pt/esab-university/articles/como-identificar-o-eletrodo-e-a-corrente-corretos-para-soldagem/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-6013-sv/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\11-soldadora-inverter-200-amp.md",
+      "body_sha256": "4027c23b89f18fc2ed91ca29e52374032aaa223d134e3d16cfc1c63c6df10242",
+      "title": "Qué soldadora inverter de 200 amperios comprar",
+      "issues": [],
+      "sources": [
+        "https://dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+        "https://lusqtoff.com.ar/ver-producto/SLCEL200-9",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SLCEL200-9/MANUAL/Manual%20SLCEL200-9curvas_compressed.pdf"
+      ],
+      "tables": 4,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\12-electrodo-para-fundicion.md",
+      "body_sha256": "d3f5b61cda0f126f007d76a42c5f9652b83d3ccb28f7538991dbc0c4bdf701a4",
+      "title": "Cómo elegir un electrodo para fundición",
+      "issues": [],
+      "sources": [
+        "https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+        "https://www.castolin.com/en-US/product/eutectroder-244",
+        "https://www.twi-global.com/technical-knowledge/faqs/faq-what-are-the-different-types-of-cast-iron-which-can-be-welded"
+      ],
+      "tables": 3,
+      "offer_cards": 1,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\13-alambre-flux.md",
+      "body_sha256": "876b52627e49a47bf95c000fe6fd44f5763404623fb8f0a437b64a9d24008c95",
+      "title": "Cómo elegir alambre flux para tu soldadora",
+      "issues": [],
+      "sources": [
+        "https://ch-delivery.lincolnelectric.com/api/public/content/1249e1096b6542c18ae63e7e28056477?v=b459a9f2",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/5b1a00933782415e98e56639deb63f45?v=405651b4",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/7ced52781f354fde8bad8431deefb134?v=7e3cd2a7",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af",
+        "https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\14-soldadora-dogo-180.md",
+      "body_sha256": "28849a75e962b5ad8e0c9bc7157e60e97662d4b8da7f431f6fda34d08a122358",
+      "title": "Soldadora Dogo 180: guía antes de comprar",
+      "issues": [],
+      "sources": [
+        "https://www.dogoherramientas.com.ar/Pubs/Public/Catalogo/DOGO-LABOR%20FINAL%2001-09%20B.pdf",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/torchas-tig"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\15-soldadora-esab.md",
+      "body_sha256": "020f6f8f58b47fd176a7f036ad219dd3a5c6d625360e24e35a2636057d71c32d",
+      "title": "Qué soldadora ESAB elegir según tu trabajo",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/categories/welding-equipment/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/rogue-em-180/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-202i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-242i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+        "https://esab.com/ar/sam_es/support/warranty/warranty-coverage/"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\16-electrodo-para-acero-inoxidable.md",
+      "body_sha256": "385e2e2a2fa06a31110706c299e2f946b65249b0c7ed5e23d87394c892725657",
+      "title": "Cómo elegir electrodos para acero inoxidable",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-67-61-n/",
+        "https://esab.com/au/apc_en/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-308l/",
+        "https://esab.com/co/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/cromarco-316l-16-premium/",
+        "https://standards-board.water.org.uk/wp-content/uploads/2023/08/IGN-4-25-02-Issue-2-August-2023-published-version-1.pdf"
+      ],
+      "tables": 4,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\17-soldadora-para-aluminio.md",
+      "body_sha256": "b30360a94f5fdef1886454f194af266da05e250a4d1d506dd9fc7589f26ccb5c",
+      "title": "Qué soldadora necesitás para soldar aluminio",
+      "issues": [],
+      "sources": [
+        "https://ch-delivery.lincolnelectric.com/api/public/content/9d3e3c30cbe14e449aab15c4ffb3b016?v=b128a11c",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+        "https://esab.com/ee/eur_en/esab-university/articles/mig-vs-tig-for-aluminium-process-selection-guide/",
+        "https://esab.com/lv/eur_en/esab-university/blogs/should-i-use-4043-or-5356-filler-alloy/",
+        "https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9",
+        "https://www.millerwelds.com/en-us/resources/knowledge-hub/aluminum-welding/mig/mig-aluminum-diy-selecting-the-right-welder-spool-gun-and-filler-wire"
+      ],
+      "tables": 4,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\18-soldadora-lusqtoff-iron-250.md",
+      "body_sha256": "3d89e6be58f9bd2b335beb691955ff794179a1388c5b2854359f556aa2997a7d",
+      "title": "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\19-soldadora-tig-ac-dc.md",
+      "body_sha256": "ab1dfb040f822d8d694d772535aae3d63b63b365e7dff1cdff628519d3a0ef07",
+      "title": "Cómo elegir una soldadora TIG AC/DC",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+        "https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20",
+        "https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9",
+        "https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch",
+        "https://www.millerwelds.com/files/owners-manuals/O281426C_MIL.pdf"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\20-soldadora-inverter-160-amp.md",
+      "body_sha256": "8c19d8e6b0538fd944c468f30afd94189eed757fca3970efe01967a27288b20a",
+      "title": "Qué soldadora inverter de 160 amperios elegir",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\21-soldadora-lusqtoff-iron-100.md",
+      "body_sha256": "6841844727d71c25cd4dbb1af0ff0045d3f3bc072ca73cffd6c467fb2cc1c679",
+      "title": "Soldadora Lusqtoff Iron 100: qué incluye y para quién sirve",
+      "issues": [],
+      "sources": [
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8"
+      ],
+      "tables": 2,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\22-soldadora-mig-lusqtoff.md",
+      "body_sha256": "55392039cdf8d48d8e8cf750dae3f2606bdb94ab9a5c7cd9f42bca71c4a22ac8",
+      "title": "Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SML130-7",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML120-8D/SML120-8D.pdf",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://www.lusqtoff.com.ar/ver-producto/SML150-8D"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\23-soldadora-lusqtoff-sml150-8.md",
+      "body_sha256": "fb32ce155d9fb9003ee9b8d8dc48a48a5f018097f69ccd6d717597b18872cea5",
+      "title": "Soldadora Lusqtoff SML150-8: guía antes de comprar",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf",
+        "https://www.lusqtoff.com.ar/ver-producto/SML150-8D"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\24-soldadora-lusqtoff-sml120-8d.md",
+      "body_sha256": "7eee624b0f48847bcfb6ed50508b20bb06917f66ade27f8f764a2ec8d74cc01c",
+      "title": "Lusqtoff SML120-8D: qué revisar en la soldadora y el kit",
+      "issues": [],
+      "sources": [
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML120-8D/SML120-8D.pdf",
+        "https://www.lusqtoff.com.ar/productos/soldadora-inverter-flux-dual-con-kit-sml120-8dk",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+        "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://www.lusqtoffbera.com.ar/productos/soldadora-inverter-dual-mig-mma-flux-electrodo-120a-lusqtoff/"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\25-carro-para-soldadora-mig.md",
+      "body_sha256": "832cdbd3c53fdddd69e0e7c746100b0f28a52b66305bd1f8b2ae6a4afedfadfa",
+      "title": "Carro para soldadora MIG: cómo elegir uno que entre en tu taller",
+      "issues": [],
+      "sources": [
+        "https://ch-delivery.lincolnelectric.com/api/public/content/0543dfa0438b451096025e84d666a015?v=a71a7ecf",
+        "https://www.telwin.com/intl/en/products/trolleys/803091-trolley-federal"
+      ],
+      "tables": 2,
+      "offer_cards": 0,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\26-esab-handyarc-162i.md",
+      "body_sha256": "6838050612bc5fd25442684bd5046b504016ebd37be08c8a3d98df052643d0fd",
+      "title": "ESAB HandyArc 162i: qué ofrece y qué comprobar",
+      "issues": [],
+      "sources": [
+        "https://assets.esab.com/assetbank-esab/assetfile/41560.pdf",
+        "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+        "https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/",
+        "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/",
+        "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/"
+      ],
+      "tables": 3,
+      "offer_cards": 3,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\27-mascara-lusqtoff-st-1x.md",
+      "body_sha256": "20bc815e69a0f7e813f2f2d316f7767fdffa7a981c9769c45d5233b29e014e92",
+      "title": "Máscara fotosensible Lusqtoff ST-1X: guía de compra",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://lusqtoff.com.ar/ver-producto/ST-1B",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1l/ST-1L.pdf",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf",
+        "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf",
+        "https://www.lusqtoff.com.ar/categorias/mascaras-fotosensibles",
+        "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250",
+        "https://www.lusqtoff.com.ar/ver-producto/SML150-8D"
+      ],
+      "tables": 1,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\28-soldadora-lusqtoff-sml130-7.md",
+      "body_sha256": "a584ebe5d3ca31b09096e0d868d5b73cc7c65e22dfceda5005bae962a0111c37",
+      "title": "Soldadora Lusqtoff SML130-7: comprobaciones de compra",
+      "issues": [],
+      "sources": [
+        "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+        "https://lusqtoff.com.ar/servicios-tecnicos",
+        "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+        "https://lusqtoff.com.ar/ver-producto/SML130-7",
+        "https://lusqtoff.com.ar/ver-producto/SML150-8D",
+        "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+        "https://www.lusqtoff.com.ar/posventa"
+      ],
+      "tables": 2,
+      "offer_cards": 2,
+      "editorial_status": "pendiente de revisión editorial actual",
+      "editorial_review": null
+    }
+  ]
+}

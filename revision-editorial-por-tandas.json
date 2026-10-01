@@ -1,0 +1,82 @@
+{
+  "/amoladoras/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "df936a10a39a92be1f0f05b121828b76476b9c391cb6e980d08395229c21ad61",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de matriz por tarea, diámetro y alimentación; mantiene compactas, grandes, banco y rectas separadas. No deduce profundidad de corte de diámetro ni funciones por marca.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/disco-flap/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "0a1752eb56af0a22bcecf83659fca05b89c9a6c026dff93763fa5b1d002b0ac0",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de granos, formas y abrasivos. Contrastados ángulos T27/T29 en Norton. Actualizado el folleto oficial a la URL completa disponible.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/discos/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "a29f79e32af0934a6d774cc98aaf0615d8745f79fa1de3becc0abc7b43965b38",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de tabla por operación y compatibilidad. Contrastada referencia Bosch 2608619252 en ficha primaria. Añadidos enlaces a las cinco guías de accesorios y vidrio.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/dewalt/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "95de2630479762284b72afa5b5364c75fe9ab7a879bd541cde4451d8b7bf11f2",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de variantes regionales, tablas y límites: DWE402 y DWE4020-AR no se equiparan; las ofertas DWE4214/DWE4314N conservan advertencia de identidad. Continúa pendiente reconfirmar todas las cifras en manuales.",
+    "full_claim_verification": "pendiente"
+  },
+  "/amoladoras/disco-de-desbaste/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "85f9e588085a21162a546661bb507a852b26d20a45f7d2fed397337592aa9136",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de dimensiones, abrasivo y comparación corte/desbaste. Fuente Norton Metal-Inox accesible mediante consulta web aunque el sondeo devuelve 403. No traslada rendimiento ni montaje entre familias.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/recta/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "14b5acfb022a1e9ad3764bd69b2fae51dd30097258db3caaf633627f73923f6f",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de fichas eléctricas y requisitos de aire. Confirmados 500 W/33000 rpm para GGS 28 L en Bosch Argentina. Conversiones 3,2 l/s a 192 l/min y 12 l/s a 720 l/min correctas; mantiene distinta condición de consumo promedio.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/de-banco/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "903201c87673edab27c3baf9f7adc639739b2a7f1143b1ab1e5b47926a19e7e9",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje de muela. Corregido enlace a la guía de amoladora recta. Pendiente reconfirmar cada campo numérico contra el manual.",
+    "full_claim_verification": "pendiente"
+  },
+  "/amoladoras/makita/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "90d1ddbb3880ea73e7c7687ccf3badc608175f500f500eeb7ddad61e47758dbe",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de códigos, interruptores, variantes y kit. Contrastadas fichas locales GA4534/9557HPG: 720/840 W, 115 mm, 11000 rpm y rangos de peso coinciden. Discrepancia DGA467RFE/Z sigue explícita.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/amoladoras/inalambricas/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "f1a9af197dc635d9e7363fa6ec83b58a8c6018cd4e6d50f3addb33e9509e0bc9",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de plataformas, costos fechados y autonomía. No deduce autonomía de Ah ni mezcla voltaje nominal/máximo; kits y cuerpo solo diferenciados. Pendiente reconfirmar todas las fichas de plataformas.",
+    "full_claim_verification": "pendiente"
+  },
+  "/amoladoras/discos-ceramica/": {
+    "checked": "2026-10-01",
+    "batch": "amoladoras-01",
+    "body_sha256": "dbd8f5d92379f33aa9ef031256ce487ea27d1a1d3a258c8920e113215f2f2da8",
+    "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
+    "notes": "Lectura de geometría, materiales, montaje y uso húmedo. Eliminada remisión a una futura guía inexistente: el criterio para porcelanato queda expresado en esta página.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  }
+}
