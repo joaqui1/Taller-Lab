@@ -1,6 +1,6 @@
 {
   "section": "amoladoras",
-  "checked": "2026-10-01T21:11:45.710857+00:00",
+  "checked": "2026-10-01T21:27:46.794193+00:00",
   "articles": 25,
   "structural_failures": [],
   "sources": [
@@ -2353,7 +2353,7 @@
     {
       "path": "/amoladoras/skil-830w/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\13-amoladora-skil-830w.md",
-      "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
+      "body_sha256": "0fa3fbf912b8e034b0f34bdae0fdb43986697eead1dc73cbdd9c4e919d4e3233",
       "title": "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W",
       "issues": [],
       "sources": [
@@ -2368,9 +2368,9 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "amoladoras-02",
-        "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
+        "body_sha256": "0fa3fbf912b8e034b0f34bdae0fdb43986697eead1dc73cbdd9c4e919d4e3233",
         "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
-        "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.",
+        "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Se usa ese manual válido y se elimina del texto público la referencia rota al catálogo 2019.",
         "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
       }
     },

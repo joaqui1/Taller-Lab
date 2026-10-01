@@ -194,9 +194,9 @@
   "/amoladoras/skil-830w/": {
     "checked": "2026-10-01",
     "batch": "amoladoras-02",
-    "body_sha256": "e01d64c7b359275e05cac7fc326036d5cbf79717b5361254747695670e07c9ad",
+    "body_sha256": "0fa3fbf912b8e034b0f34bdae0fdb43986697eead1dc73cbdd9c4e919d4e3233",
     "scope": "lectura completa por URL; evaluación de alternativas y consistencia entre guías; contrastes selectivos de fuentes",
-    "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.",
+    "notes": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Se usa ese manual válido y se elimina del texto público la referencia rota al catálogo 2019.",
     "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras, rendimiento ni stock"
   },
   "/amoladoras/disco-diamantado-segmentado/": {
@@ -290,9 +290,9 @@
   "/sierras/caladoras-skil/": {
     "checked": "2026-10-01",
     "batch": "fuentes-generales-02",
-    "body_sha256": "d87bf80cfe61681f3b75d36c6d6e48fa1f0562b0f552c7f8c8da6cf83172820f",
+    "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
     "scope": "lectura completa; elección por material y control; revisión de fuentes",
-    "notes": "Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.",
+    "notes": "Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.",
     "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
   },
   "/compresores/50-litros/": {

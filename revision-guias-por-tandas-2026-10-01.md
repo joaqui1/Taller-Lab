@@ -22,7 +22,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/amoladoras/bosch/](https://www.tallerlab.com.ar/amoladoras/bosch/): Lectura completa: compara compactas GWS 700/850, regulación GWS 9-125 S y batería GWS 180-LI; GWS 770 queda como referencia brasileña. Contrastadas fichas 700 (710 W/12000 rpm/115 mm/1,7 kg), 850 (850 W/11000 rpm/220 V/2 kg) y 9-125 S H0 (220 V/900 W/2800–11000 rpm). Mantiene la discrepancia de peso del catálogo y no confunde H0 con D0 de 127 V. Los enlaces a velocidad variable e inalámbricas funcionan.
 - [/amoladoras/lusqtoff/](https://www.tallerlab.com.ar/amoladoras/lusqtoff/): Lectura completa: cuatro códigos corresponden a 115 mm fijo, 125 mm variable, cuerpo 18 V y kit 18 V. Fichas AML1010-8 y AML115-9BK contrastadas: 1010 W/125 mm/0–11000 rpm y kit de dos baterías de 4 Ah/6500–7000–8500 rpm. Mantener las cuatro configuraciones, distinguir pesos de cuerpo/kit y garantía por código.
 - [/amoladoras/9-pulgadas/](https://www.tallerlab.com.ar/amoladoras/9-pulgadas/): Lectura completa: cuatro alternativas de 230 mm Bosch GWS 25-230/30-230 PB, Makita GA9020 y Stanley STGL2223-AR. Conserva campos desconocidos Stanley y rango de peso Makita. No deduce 25 mm adicionales de corte desde la diferencia con 180 mm; accesorios de 230 mm necesitan su máquina y montaje.
-- [/amoladoras/skil-830w/](https://www.tallerlab.com.ar/amoladoras/skil-830w/): Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.
+- [/amoladoras/skil-830w/](https://www.tallerlab.com.ar/amoladoras/skil-830w/): Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Se usa ese manual válido y se elimina del texto público la referencia rota al catálogo 2019.
 - [/amoladoras/disco-diamantado-segmentado/](https://www.tallerlab.com.ar/amoladoras/disco-diamantado-segmentado/): Lectura completa: cuatro referencias Bosch separadas por aplicación y diámetro 115/230 mm. Segmentado, turbo y continuo no autorizan materiales por sí solos; régimen seco/húmedo depende del código. Mantener referencias en tabla y no ofrecer 230 mm como reemplazo de 115 mm. El slug antiguo se explica; la identidad debe corresponder a EXPERT Multi Material.
 - [/amoladoras/stanley/](https://www.tallerlab.com.ar/amoladoras/stanley/): Lectura completa: tres compactas argentinas STGS7115/8115/9115 y referencias SCG400 regionales de cuerpo/kit. Mantener sufijos y fuentes separadas: SCG400-AR comercial no acredita el contenido B3/M2K-B2 extranjero. La garantía de dos años local no se traslada a otras variantes; SG7115 y STGS7115 no se mezclan.
 - [/amoladoras/disco-de-corte/](https://www.tallerlab.com.ar/amoladoras/disco-de-corte/): Lectura completa: comparar accesorios por material, espesor, diámetro y fijación. Metal e inoxidable no son familias universales; X-Lock requiere interfaz compatible. El disco de desbaste 2608600218 aparece como contraste, no como candidato de corte. Mantener ejemplos 115/125 y derivaciones a cerámica, hormigón y vidrio.
@@ -53,7 +53,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 
 ## Tanda fuentes-generales-02
 
-- [/sierras/caladoras-skil/](https://www.tallerlab.com.ar/sierras/caladoras-skil/): Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.
+- [/sierras/caladoras-skil/](https://www.tallerlab.com.ar/sierras/caladoras-skil/): Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.
 
 ## Tanda hidrolavadoras-01
 
@@ -248,7 +248,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 
 ## Fuentes externas por categoría
 
-Los informes conservan 920 sondeos de 901 direcciones distintas y 6 registros de direcciones retiradas o sustituidas en source_history. Un sondeo verifica acceso, destino y tipo de documento, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.
+Los informes conservan 921 sondeos de 902 direcciones distintas y 6 registros de direcciones retiradas o sustituidas en source_history. Un sondeo verifica acceso, destino y tipo de documento, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.
 
 | Categoría | Sondeos | Alertas de acceso o destino conservadas |
 | --- | --- | --- |
@@ -256,7 +256,7 @@ Los informes conservan 920 sondeos de 901 direcciones distintas y 6 registros de
 | compresores | 97 | 13 |
 | generadores | 136 | 4 |
 | hidrolavadoras | 171 | 1 |
-| sierras | 107 | 3 |
+| sierras | 108 | 3 |
 | soldadoras | 115 | 3 |
 | soldadura-electronica | 13 | 0 |
 | taladros | 119 | 2 |

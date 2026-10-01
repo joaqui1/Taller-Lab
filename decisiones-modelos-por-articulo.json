@@ -476,7 +476,7 @@
     "path": "/amoladoras/skil-830w/",
     "title": "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W",
     "decision": "Lectura registrada",
-    "reason": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Catálogo 2019 retirado del enlace activo porque ahora entrega HTML.",
+    "reason": "Lectura completa y contraste visual del manual: el enlace anterior llevaba al documento 2009 de 600/700 W, ajeno a la tabla de 700/830 W. Sustituido por 1 600 A00 9XF (02.2015), p.12: 700/830 W, 115 mm, 11000 rpm, M14x2, 50/60 Hz y nota 9002AR/9004AR. Peso 9004 queda sin cifra y tensión exacta requiere placa; el cuadro no asigna tensión a cada sufijo. Se usa ese manual válido y se elimina del texto público la referencia rota al catálogo 2019.",
     "tables": [
       {
         "heading": "",
@@ -3660,7 +3660,7 @@
     "path": "/sierras/caladoras-skil/",
     "title": "Cómo elegir una caladora Skil",
     "decision": "Lectura registrada",
-    "reason": "Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.",
+    "reason": "Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.",
     "tables": [
       {
         "heading": "Consultá estas opciones en Mercado Libre",

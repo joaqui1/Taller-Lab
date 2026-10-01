@@ -22,7 +22,7 @@ published: true
 
 El manual Skil de **febrero de 2015, documento 1 600 A00 9XF**, identifica las versiones argentinas **9004AR y 9002AR** y publica **830 W y 700 W**, respectivamente, para discos de 115 mm. Su tabla contempla consumos a 127 y 220 V sin asignar allí una tensión a cada sufijo: confirmá la placa de la unidad ofrecida para la red local.
 
-En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del manual. Para esa unidad, confirmá placa y código con el vendedor; no tomamos los 650 W del aviso como especificación confirmada. Son referencias de una generación con documentación de 2015 y 2019: hoy aparecen en publicaciones comerciales locales, pero no encontramos una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
+En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del manual. Para esa unidad, confirmá placa y código con el vendedor; no tomamos los 650 W del aviso como especificación confirmada. Son referencias con documentación de 2015: aparecen en publicaciones comerciales locales, pero no encontramos una ficha actual del fabricante ni un aviso oficial que confirme que sigan en catálogo o que hayan sido discontinuadas.
 
 | Dato del manual Skil 9002/9004 de 2015 | 9002AR | 9004AR |
 |---|---:|---:|
@@ -39,7 +39,7 @@ En la publicación de 9002, el título anuncia 650 W, frente a los 700 W del man
 
 ## Estado actual de los modelos
 
-La documentación primaria consultada es antigua: el manual compartido de Skil está fechado en febrero de 2015. El catálogo argentino de 2019 se conserva como referencia histórica; su enlace dejó de entregar el PDF al comprobarlo el 01/10/2026. En las búsquedas actuales siguen apareciendo ofertas locales de la 9004 —a veces publicada como **9004JR** o **9004JV**— y de la 9002, pero el fabricante no publica una ficha argentina vigente que confirme stock, estado de catálogo o sucesor directo. Una publicación de Sodimac consultada marcaba ambos productos sin disponibilidad momentánea; otros comercios mostraban ofertas. Eso describe publicaciones, no el inventario general del mercado.
+El manual compartido de Skil está fechado en febrero de 2015. Las ofertas locales de la 9004 pueden usar sufijos como **9004JR** o **9004JV**: compará la placa y el código completo con el documento enlazado. La presencia de una publicación comercial no confirma continuidad del catálogo del fabricante ni identifica un sucesor directo.
 
 Por ahora, la conclusión precisa es **“modelo con ofertas comerciales actuales, continuidad oficial no confirmada”**, no “vigente” ni “discontinuado”. Tampoco encontramos un reemplazo directo declarado por Skil. Si querés una alternativa actual, compará equipos de 115 y 125 mm por tensión, potencia, RPM, peso y contenido, sin asumir que otro Skil o Bosch es sucesor equivalente.
 
@@ -73,7 +73,7 @@ Como reemplazo, no aparece un sucesor oficial inequívoco. Si la 9004 no está d
 
 ## Fuentes consultadas
 
-- **Documentación primaria histórica:** [manual del fabricante Skil 9002/9004, 1 600 A00 9XF, febrero de 2015, tabla en página 12](https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf), reproducido por Home Depot México; la nota de la tabla identifica las versiones argentinas. Catálogo Skil Argentina 2019: referencia histórica, enlace original no disponible al 01/10/2026.
+- **Documentación primaria histórica:** [manual del fabricante Skil 9002/9004, 1 600 A00 9XF, febrero de 2015, tabla en página 12](https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf), reproducido por Home Depot México; la nota de la tabla identifica las versiones argentinas.
 - **Contraste comercial, no fuente de especificación definitiva:** [publicación Sodimac 9004](https://www.sodimac.com.ar/sodimac-ar/product/2355264/amoladora-angular-electrica-830-w-con-5-discos/2355264/), [publicación Sodimac 9002](https://www.sodimac.com.ar/sodimac-ar/product/2153394/amoladora-angular-electrica-700-w-115-mm/2153394/) y [publicación de 9004JR](https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

@@ -1,0 +1,21 @@
+{
+  "source": "https://bgp.ar/files/catalogos/Catalogo_Skil_2015.pdf",
+  "sha256": "2b3caeaf3487358dd3a01db13c0a8d4c1b8502e2b079f78e250ee96643e9f0a5",
+  "pdf_page": 23,
+  "visually_checked": true,
+  "model": "SKIL 4550 F 012 455 0AA",
+  "fields": {
+    "power_w": 550,
+    "strokes_per_minute": [
+      800,
+      3000
+    ],
+    "pendular_positions": 3,
+    "capacity_mm": {
+      "wood": 75,
+      "aluminium": 10,
+      "steel": 5
+    }
+  },
+  "replaces": "https://descargas.bulonfer.com.ar/otros/SkilCat%C3%A1logo_2019.pdf"
+}

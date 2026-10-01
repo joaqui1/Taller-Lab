@@ -1,6 +1,6 @@
 {
   "section": "sierras",
-  "checked": "2026-10-01T21:11:52.328370+00:00",
+  "checked": "2026-10-01T21:27:53.994460+00:00",
   "articles": 30,
   "structural_failures": [],
   "sources": [
@@ -1183,6 +1183,15 @@
       ],
       "generic_redirect": false,
       "soft_not_found": false
+    },
+    {
+      "url": "https://bgp.ar/files/catalogos/Catalogo_Skil_2015.pdf",
+      "checked": "2026-10-01T21:27:40.691369+00:00",
+      "status": 200,
+      "final_url": "https://bgp.ar/files/catalogos/Catalogo_Skil_2015.pdf",
+      "content_type": "application/pdf",
+      "document_signature_valid": true,
+      "unexpected_document_type": false
     }
   ],
   "source_history": [
@@ -1379,10 +1388,11 @@
     {
       "path": "/sierras/caladoras-skil/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\10-caladora-skil.md",
-      "body_sha256": "d87bf80cfe61681f3b75d36c6d6e48fa1f0562b0f552c7f8c8da6cf83172820f",
+      "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
       "title": "Cómo elegir una caladora Skil",
       "issues": [],
       "sources": [
+        "https://bgp.ar/files/catalogos/Catalogo_Skil_2015.pdf",
         "https://es.scribd.com/document/1014405248/serra-tico-tico-profissional-skil-4550-550-watts-manual",
         "https://s3.sa-east-1.amazonaws.com/bd-sp.canaldapeca.com.br/BOSCH/11032020/4380_4400.pdf",
         "https://www.bosch-professional.com/br/media/country_content/service/after_sales_service/catalogues/catalogo_reposicao2_verso_final.pdf",
@@ -1395,9 +1405,9 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "fuentes-generales-02",
-        "body_sha256": "d87bf80cfe61681f3b75d36c6d6e48fa1f0562b0f552c7f8c8da6cf83172820f",
+        "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
         "scope": "lectura completa; elección por material y control; revisión de fuentes",
-        "notes": "Lectura completa: mantiene dos opciones 4380/4550 y diferencia el manual de 4380 de los datos secundarios e históricos de 4550. Retirado enlace al catálogo 2019 que entrega HTML de página no encontrada. No se deduce vigencia de modelos desde el catálogo de repuestos, ni acabado desde potencia; verificar tensión, encastre y controles de la unidad.",
+        "notes": "Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.",
         "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
       }
     },

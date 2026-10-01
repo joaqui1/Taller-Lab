@@ -1,0 +1,290 @@
+[
+  {
+    "model": "Gamma G2802AR",
+    "guides": [
+      "/compresores/50-litros/",
+      "/compresores/gamma-50-litros/"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Einhell TE-AC 270/50 Silent",
+    "guides": [
+      "/compresores/50-litros/",
+      "/compresores/para-pintar/"
+    ],
+    "source": "https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Stanley Fatmax FHY227/10/24V",
+    "guides": [
+      "/compresores/stanley/"
+    ],
+    "source": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-24l-2hp",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Stanley Fatmax FHY227/10/50V",
+    "guides": [
+      "/compresores/stanley/"
+    ],
+    "source": "https://www.mecafer.com/compresseurs/compresseur-vertical-futura-lubrifie-50l-2hp",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Stanley D270/10/100V",
+    "guides": [
+      "/compresores/stanley/"
+    ],
+    "source": "https://www.mecafer.com/compresseurs/compresseur-vertical-100l-25hp",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Einhell TE-AC 430/90/10",
+    "guides": [
+      "/compresores/para-pintar/"
+    ],
+    "source": "https://www.einhell.com.ar/p/4010800-te-ac-430-90-10/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "STIHL RE 90",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "source": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963",
+    "requirement": "El título indica 60 Hz: confirmar placa compatible con la instalación argentina de 50 Hz."
+  },
+  {
+    "model": "STIHL RE 110",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "source": "https://www.stihl.com.ar/es/ap/re-110-81523",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "STIHL RE 120",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "source": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-120-81512",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "STIHL RE 145",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "source": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-145-167165",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "STIHL RE 150",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "source": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-150-109158",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Kärcher K5 · 9.398-295.0",
+    "guides": [
+      "/hidrolavadoras/karcher-k5/",
+      "/hidrolavadoras/karcher/"
+    ],
+    "source": "https://www.kaercher.com/ar/home-garden/hidrolavadora/k-5-93982950.html",
+    "requirement": "El título suministrado dice 380 L/h: falta confirmar el código 9.398-295.0 y la variante."
+  },
+  {
+    "model": "Gamma 150 Elite · G2514AR",
+    "guides": [
+      "/hidrolavadoras/gamma-130/",
+      "/hidrolavadoras/gamma-150/",
+      "/hidrolavadoras/150-bar/"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-150-elite/",
+    "requirement": "Falta enlace de Gamma 150 Elite G2514AR."
+  },
+  {
+    "model": "Comet K 250 10/150 Classic · C2582AR",
+    "guides": [
+      "/hidrolavadoras/profesionales/"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-10-150-classic/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Comet K 250 TSR 13/190 T Classic · C2583AR",
+    "guides": [
+      "/hidrolavadoras/profesionales/",
+      "/hidrolavadoras/200-bar/"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-k-250-tsr-13-190-t-classic/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Comet KM Extra 8.16 · C2586AR",
+    "guides": [
+      "/hidrolavadoras/profesionales/",
+      "/hidrolavadoras/200-bar/"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/producto/hidrolavadora-comet-km-extra-8-16-16-200-t/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Emona F 200 · SKU 49292",
+    "guides": [
+      "/hidrolavadoras/200-bar/"
+    ],
+    "source": "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "WIPCOOL C10",
+    "guides": [
+      "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/"
+    ],
+    "source": "https://www.wipcool.com/portable-hvac-ac-condenser-evaporator-coils-service-cleaning-machine-product/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "DeWalt DCH133B",
+    "guides": [
+      "/taladros/rotomartillo-dewalt/"
+    ],
+    "source": "https://www.dewalt.com/en-us/product/dch133b/20v-max-1-brushless-cordless-sds-plus-d-handle-rotary-hammer-tool-only",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "DeWalt D25333K-QS",
+    "guides": [
+      "/taladros/rotomartillo-dewalt/"
+    ],
+    "source": "https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Högert HT6D323",
+    "guides": [
+      "/taladros/mechas-escalonadas/"
+    ],
+    "source": "https://en.hoegert.com/product/step-drill-4-32-mm/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "ESAB TIG Basic · 0700500460",
+    "guides": [
+      "/soldadoras/guantes/"
+    ],
+    "source": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/tig-basic-glove/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "ESAB Heavy Duty EXL · 0700500432 / 0700500433",
+    "guides": [
+      "/soldadoras/guantes/"
+    ],
+    "source": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-exl/",
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Fengda FD-186K",
+    "guides": [
+      "/compresores/kits-aerografo/"
+    ],
+    "source": "",
+    "requirement": "Enlace afiliado al modelo exacto."
+  },
+  {
+    "model": "Fengda AS-186",
+    "guides": [
+      "/compresores/para-aerografo/"
+    ],
+    "source": "",
+    "requirement": "Enlace afiliado al modelo exacto."
+  },
+  {
+    "model": "Fengda AS-196",
+    "guides": [
+      "/compresores/para-aerografo/"
+    ],
+    "source": "",
+    "requirement": "Enlace afiliado al modelo exacto."
+  },
+  {
+    "model": "Gamma G2802KAR",
+    "guides": [
+      "/compresores/gamma-50-litros/"
+    ],
+    "source": "",
+    "requirement": "Enlace afiliado al modelo exacto."
+  },
+  {
+    "model": "Bosch GHP 220 · 0 600 910 EH0",
+    "guides": [
+      "/hidrolavadoras/bosch/",
+      "/hidrolavadoras/profesionales/"
+    ],
+    "source": "",
+    "requirement": "Falta acreditar código argentino 0600910EH0 y frecuencia de placa; el título dice 50/60 Hz."
+  },
+  {
+    "model": "Black+Decker BEPW1800T-AR",
+    "guides": [
+      "/hidrolavadoras/black-decker/"
+    ],
+    "source": "",
+    "requirement": "Falta enlace de BEPW1800T-AR."
+  },
+  {
+    "model": "Lüsqtoff HL100-8",
+    "guides": [
+      "/hidrolavadoras/150-bar/"
+    ],
+    "source": "",
+    "requirement": "Falta enlace de Lüsqtoff HL100-8."
+  },
+  {
+    "model": "Bosch GSA 1100 E · 1100 W",
+    "guides": [
+      "/sierras/sable/"
+    ],
+    "source": "",
+    "requirement": "Pendiente: retirar la publicación cuyo título dice 110 W; falta una oferta activa con título y datos consistentes."
+  },
+  {
+    "model": "Bosch PRO Multi Material · 190 mm · 54 dientes HLTCG",
+    "guides": [
+      "/sierras/disco-para-sierra-circular/"
+    ],
+    "source": "",
+    "requirement": "Falta enlace; monetización de discos sin urgencia."
+  },
+  {
+    "model": "ESAB/Conarco WELD ER70S-6 · 0,8 mm · 5 kg",
+    "guides": [
+      "/soldadoras/soldadora-mig-con-gas/"
+    ],
+    "source": "",
+    "requirement": "Falta referido específico ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg para esta ubicación."
+  },
+  {
+    "model": "ESAB OK Autrod 12.51 · 0,8 mm · 5 kg",
+    "guides": [
+      "/soldadoras/alambre-para-soldadura-mig/"
+    ],
+    "source": "",
+    "requirement": "Referido retirado: el destino consultado el 30/09/2026 anuncia 1,6 mm × 18 kg, no la presentación 0,8 mm × 5 kg de esta comparación."
+  },
+  {
+    "model": "ESAB Gas Free E71T-GS · 1,0 mm · 1 kg",
+    "guides": [
+      "/soldadoras/alambre-flux/"
+    ],
+    "source": "",
+    "requirement": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; la referencia disponible es E71T-GS de 0,8 mm × 5 kg."
+  }
+]
