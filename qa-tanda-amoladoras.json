@@ -1,6 +1,6 @@
 {
   "section": "amoladoras",
-  "checked": "2026-10-01T20:17:59.258632+00:00",
+  "checked": "2026-10-01T20:21:54.515356+00:00",
   "articles": 25,
   "structural_failures": [],
   "sources": [
@@ -1911,8 +1911,40 @@
         "batch": "amoladoras-01",
         "body_sha256": "95de2630479762284b72afa5b5364c75fe9ab7a879bd541cde4451d8b7bf11f2",
         "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
-        "notes": "Lectura de variantes regionales, tablas y límites: DWE402 y DWE4020-AR no se equiparan; las ofertas DWE4214/DWE4314N conservan advertencia de identidad. Continúa pendiente reconfirmar todas las cifras en manuales.",
-        "full_claim_verification": "pendiente"
+        "notes": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Continúa pendiente reconfirmar DWE4212/DWE4314 y el combo. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWE4020/1/Instruction_Manual/EN/N149185_DWE4020.pdf",
+            "pdf_page": 19,
+            "fields": [
+              "voltage",
+              "frequency",
+              "power",
+              "speed"
+            ]
+          },
+          {
+            "source": "https://support.dewalt.com/hc/pt/article_attachments/360019232853",
+            "pdf_page": 22,
+            "fields": [
+              "voltage",
+              "frequency",
+              "power",
+              "speed"
+            ]
+          },
+          {
+            "source": "https://support.dewalt.com/hc/pt/article_attachments/360019232453",
+            "pdf_page": 25,
+            "fields": [
+              "voltage",
+              "frequency",
+              "power",
+              "speed"
+            ]
+          }
+        ]
       }
     },
     {
