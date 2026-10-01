@@ -1,0 +1,4839 @@
+{
+  "base": "https://www.tallerlab.com.ar",
+  "rows": [
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "image": "/assets/productos/lusqtoffhl1007-7521d3a50c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/inalambricas/",
+      "image": "/assets/productos/lusqtofflapl368bk-7bcc8c6725.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma/",
+      "image": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/stihl/",
+      "image": "/assets/productos/stihlre80x-569c6db0f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/bosch/",
+      "image": "/assets/productos/boschghp180-2c785d8b82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/black-decker/",
+      "image": "/assets/productos/revision-1zzNj8Z-4102eaab55.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "image": "/assets/productos/karcherk5powercontrol16035010-cc6cb22cc7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma-150/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-gamma-150-2b3244e2b6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/profesionales/",
+      "image": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "image": "/assets/productos/karcherk3blackedition93983550-6bd5c64f82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/einhell/",
+      "image": "/assets/productos/einhelltchp1304140750-40e628d48f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/gamma-130/",
+      "image": "/assets/productos/completada-2SuGMdL-76ec1dec11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/hyundai/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-hyundai-13e89a1679.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "image": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/150-bar/",
+      "image": "/assets/productos/niwahdnw7001040700-83ad50b7c0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/200-bar/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/niwa/",
+      "image": "/assets/productos/niwahdnw3001040300-4945537d99.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/para-autos/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "image": "/assets/productos/wipcoolc30s-f315e9227a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-auto/",
+      "image": "/assets/productos/nictomie01-06ac504f73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/manguera/",
+      "image": "/assets/productos/portada-real-compresores-manguera-ff6748c266.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/kits-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-kits-aerografo-7d58077f10.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/pistola-para-pintar/",
+      "image": "/assets/productos/btaas1021-adc05c8711.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/acoples-rapidos/",
+      "image": "/assets/productos/portada-real-compresores-acoples-rapidos-b7a6f1d9d6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-para-aerografo-692d5ee21f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/aceite/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/filtros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/gamma-50-litros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/kits-accesorios/",
+      "image": "/assets/productos/lusqtoffaa5000k-3d25dcd60a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/sin-aceite/",
+      "image": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/200-litros/",
+      "image": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/bta-25-litros/",
+      "image": "/assets/productos/btadca1256-a19ab14272.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/24-litros/",
+      "image": "/assets/productos/gammag2860ar-807a31316c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/inalambricos/",
+      "image": "/assets/productos/einhellpressito1825-1952c2d4c2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/stanley/",
+      "image": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/para-pintar/",
+      "image": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "image": "/assets/productos/gadnicav000009-ed85ac108e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/compresores/12v-doble-piston/",
+      "image": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/inalambricos/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillos/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/percutores/",
+      "image": "/assets/productos/boschgsb550re-501dd8929c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/taladro-de-banco/",
+      "image": "/assets/productos/lusqtofftbl167-56f428bd34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-bosch/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/para-durlock/",
+      "image": "/assets/productos/boschgtb650-02c8496d60.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/black-decker/",
+      "image": "/assets/productos/blackdeckerbcd702c1ar-c1e6002218.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-einhell/",
+      "image": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "image": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/einhell-inalambrico/",
+      "image": "/assets/productos/einhelltecd1840lisolo-b7e735daa5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/dewalt-inalambrico/",
+      "image": "/assets/productos/dewaltdcd796d2-fce7e90882.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mecha-porcelanato/",
+      "image": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/milwaukee/",
+      "image": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "image": "/assets/productos/lusqtofftil238b-366900275b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/brocas-ceramica/",
+      "image": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/stanley/",
+      "image": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/bosch-inalambrico/",
+      "image": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mechas-escalonadas/",
+      "image": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "image": "/assets/productos/portada-real-taladros-mecha-forstner-35-mm-9970dc5cd1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "image": "/assets/productos/completada-2z7Capd-4dc39f08b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-flap/",
+      "image": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/dewalt/",
+      "image": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "image": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/recta/",
+      "image": "/assets/productos/makitagd0600-28ffb034a0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/de-banco/",
+      "image": "/assets/productos/lusqtoffab375-c0df1812e7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/makita/",
+      "image": "/assets/productos/makitaga4534-235dbd4cb8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/inalambricas/",
+      "image": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos-ceramica/",
+      "image": "/assets/productos/ronixrh3534-150decdc06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/bosch/",
+      "image": "/assets/productos/boschgws850-ac6f1144fb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffaml8508-79bb71a188.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/9-pulgadas/",
+      "image": "/assets/productos/makitaga9020-f1228627b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/skil-830w/",
+      "image": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "image": "/assets/productos/hamiltonds115-016d58cc2f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/stanley/",
+      "image": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/disco-de-corte/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/ingco/",
+      "image": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/velocidad-variable/",
+      "image": "/assets/productos/revision-1x65DAe-0365b0ad8f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/7-pulgadas/",
+      "image": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/115-o-125/",
+      "image": "/assets/productos/elegi125mm-59293db74a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/gamma/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/total/",
+      "image": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/dowen-pagio/",
+      "image": "/assets/productos/dowenpagio99932207-23d3964a5e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/amoladoras/discos-vidrio/",
+      "image": "/assets/productos/oferta-1XvFwQP-d938d32818.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sable/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sin-fin-metal/",
+      "image": "/assets/productos/btatools646003-e51900b70b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-einhell/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco-einhell/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-skil/",
+      "image": "/assets/productos/skil4380-262e48e9e6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "image": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-dewalt/",
+      "image": "/assets/productos/completada-2ZwgGLw-8d31e0bbb1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "image": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras-total/",
+      "image": "/assets/productos/totalts42142107-4fb8c64816.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "image": "/assets/productos/diablod0760xultrafinish714in60dientes-ef53168cbf.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/bosch-gks-150/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares-black-decker/",
+      "image": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-einhell/",
+      "image": "/assets/productos/einhelltcjs85-94a2df091c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/ingletadoras/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "image": "/assets/productos/boschgst650-15aadfa845.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "image": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/stanley-sc16/",
+      "image": "/assets/productos/stanleysc16-83cc2adbdc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/caladoras-black-decker/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sensitivas-total/",
+      "image": "/assets/productos/totalts2235584-ba61612a34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "image": "/assets/productos/einhelltpcs18190liblsolo-5812794fbc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-7018/",
+      "image": "/assets/productos/oferta-2fBaR3k-b8ab4ac7ba.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "image": "/assets/productos/portada-real-soldadoras-soldadora-de-punto-52635ce000.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "image": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/guantes/",
+      "image": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/tig/",
+      "image": "/assets/productos/lusqtoffprotig1808-1b06cfdb6b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mig-sin-gas/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "image": "/assets/productos/completada-1RwSNLU-8c76cd41f8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "image": "/assets/productos/lusqtoffst1n-8da3055de5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-6013/",
+      "image": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "image": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "image": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-flux/",
+      "image": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "image": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/esab/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "image": "/assets/productos/oferta-lastrade-308l-e25ec4637c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/para-aluminio/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "image": "/assets/productos/oferta-26R9o7z-eeef90ef2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "image": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "image": "/assets/productos/portada-real-soldadoras-carro-para-soldadora-mig-56cfc152c4.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "image": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-kit-soldador-de-estano-133ff0953c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-gadnic-878d-645287796f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-yihua-898d-e5023a28b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-soporte-para-soldar-con-lupa-b41a249913.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/comparativa-general/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/precios/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/honda/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/honda-6500/",
+      "image": "/assets/productos/hondaeg6500cxs-ab1e8def5c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/para-casa/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/inverter/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/trifasicos/",
+      "image": "/assets/productos/lusqtofflg7500ext-b15e57b4a2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/a-nafta/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/hyundai/",
+      "image": "/assets/productos/hyundaihy7500le-0c27e4300d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma-6500/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/lusqtoff/",
+      "image": "/assets/productos/lusqtofflgis388-5e02458b07.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma/",
+      "image": "/assets/productos/gammage3497ar-8065289e35.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/monofasicos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/diesel/",
+      "image": "/assets/productos/portada-real-generadores-diesel-87f24ec838.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/portatiles/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/silenciosos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/gamma-950/",
+      "image": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/niwa/",
+      "image": "/assets/productos/niwagnw55e-de4b1fab06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/a-gas/",
+      "image": "/assets/productos/gammage3491artf10000-c3b01a1dab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "image": "/assets/productos/ecoflowdelta2max-7013906c82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 320,
+      "path": "/generadores/chicos/",
+      "image": "/assets/productos/konankge800-2cf298b748.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "image": "/assets/productos/lusqtoffhl1007-7521d3a50c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/inalambricas/",
+      "image": "/assets/productos/lusqtofflapl368bk-7bcc8c6725.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma/",
+      "image": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/stihl/",
+      "image": "/assets/productos/stihlre80x-569c6db0f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/bosch/",
+      "image": "/assets/productos/boschghp180-2c785d8b82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/black-decker/",
+      "image": "/assets/productos/revision-1zzNj8Z-4102eaab55.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "image": "/assets/productos/karcherk5powercontrol16035010-cc6cb22cc7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma-150/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-gamma-150-2b3244e2b6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/profesionales/",
+      "image": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "image": "/assets/productos/karcherk3blackedition93983550-6bd5c64f82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/einhell/",
+      "image": "/assets/productos/einhelltchp1304140750-40e628d48f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/gamma-130/",
+      "image": "/assets/productos/completada-2SuGMdL-76ec1dec11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/hyundai/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-hyundai-13e89a1679.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "image": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/150-bar/",
+      "image": "/assets/productos/niwahdnw7001040700-83ad50b7c0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/200-bar/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/niwa/",
+      "image": "/assets/productos/niwahdnw3001040300-4945537d99.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/para-autos/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "image": "/assets/productos/wipcoolc30s-f315e9227a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-auto/",
+      "image": "/assets/productos/nictomie01-06ac504f73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/manguera/",
+      "image": "/assets/productos/portada-real-compresores-manguera-ff6748c266.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/kits-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-kits-aerografo-7d58077f10.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/pistola-para-pintar/",
+      "image": "/assets/productos/btaas1021-adc05c8711.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/acoples-rapidos/",
+      "image": "/assets/productos/portada-real-compresores-acoples-rapidos-b7a6f1d9d6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-para-aerografo-692d5ee21f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/aceite/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/filtros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/gamma-50-litros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/kits-accesorios/",
+      "image": "/assets/productos/lusqtoffaa5000k-3d25dcd60a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/sin-aceite/",
+      "image": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/200-litros/",
+      "image": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/bta-25-litros/",
+      "image": "/assets/productos/btadca1256-a19ab14272.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/24-litros/",
+      "image": "/assets/productos/gammag2860ar-807a31316c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/inalambricos/",
+      "image": "/assets/productos/einhellpressito1825-1952c2d4c2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/stanley/",
+      "image": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/para-pintar/",
+      "image": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "image": "/assets/productos/gadnicav000009-ed85ac108e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/compresores/12v-doble-piston/",
+      "image": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/inalambricos/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillos/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/percutores/",
+      "image": "/assets/productos/boschgsb550re-501dd8929c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/taladro-de-banco/",
+      "image": "/assets/productos/lusqtofftbl167-56f428bd34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-bosch/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/para-durlock/",
+      "image": "/assets/productos/boschgtb650-02c8496d60.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/black-decker/",
+      "image": "/assets/productos/blackdeckerbcd702c1ar-c1e6002218.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-einhell/",
+      "image": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "image": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/einhell-inalambrico/",
+      "image": "/assets/productos/einhelltecd1840lisolo-b7e735daa5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/dewalt-inalambrico/",
+      "image": "/assets/productos/dewaltdcd796d2-fce7e90882.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mecha-porcelanato/",
+      "image": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/milwaukee/",
+      "image": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "image": "/assets/productos/lusqtofftil238b-366900275b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/brocas-ceramica/",
+      "image": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/stanley/",
+      "image": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/bosch-inalambrico/",
+      "image": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mechas-escalonadas/",
+      "image": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "image": "/assets/productos/portada-real-taladros-mecha-forstner-35-mm-9970dc5cd1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "image": "/assets/productos/completada-2z7Capd-4dc39f08b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-flap/",
+      "image": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/dewalt/",
+      "image": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "image": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/recta/",
+      "image": "/assets/productos/makitagd0600-28ffb034a0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/de-banco/",
+      "image": "/assets/productos/lusqtoffab375-c0df1812e7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/makita/",
+      "image": "/assets/productos/makitaga4534-235dbd4cb8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/inalambricas/",
+      "image": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos-ceramica/",
+      "image": "/assets/productos/ronixrh3534-150decdc06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/bosch/",
+      "image": "/assets/productos/boschgws850-ac6f1144fb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffaml8508-79bb71a188.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/9-pulgadas/",
+      "image": "/assets/productos/makitaga9020-f1228627b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/skil-830w/",
+      "image": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "image": "/assets/productos/hamiltonds115-016d58cc2f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/stanley/",
+      "image": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/disco-de-corte/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/ingco/",
+      "image": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/velocidad-variable/",
+      "image": "/assets/productos/revision-1x65DAe-0365b0ad8f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/7-pulgadas/",
+      "image": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/115-o-125/",
+      "image": "/assets/productos/elegi125mm-59293db74a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/gamma/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/total/",
+      "image": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/dowen-pagio/",
+      "image": "/assets/productos/dowenpagio99932207-23d3964a5e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/amoladoras/discos-vidrio/",
+      "image": "/assets/productos/oferta-1XvFwQP-d938d32818.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sable/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sin-fin-metal/",
+      "image": "/assets/productos/btatools646003-e51900b70b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-einhell/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco-einhell/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-skil/",
+      "image": "/assets/productos/skil4380-262e48e9e6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "image": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-dewalt/",
+      "image": "/assets/productos/completada-2ZwgGLw-8d31e0bbb1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "image": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras-total/",
+      "image": "/assets/productos/totalts42142107-4fb8c64816.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "image": "/assets/productos/diablod0760xultrafinish714in60dientes-ef53168cbf.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/bosch-gks-150/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares-black-decker/",
+      "image": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-einhell/",
+      "image": "/assets/productos/einhelltcjs85-94a2df091c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/ingletadoras/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "image": "/assets/productos/boschgst650-15aadfa845.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "image": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/stanley-sc16/",
+      "image": "/assets/productos/stanleysc16-83cc2adbdc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/caladoras-black-decker/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sensitivas-total/",
+      "image": "/assets/productos/totalts2235584-ba61612a34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "image": "/assets/productos/einhelltpcs18190liblsolo-5812794fbc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-7018/",
+      "image": "/assets/productos/oferta-2fBaR3k-b8ab4ac7ba.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "image": "/assets/productos/portada-real-soldadoras-soldadora-de-punto-52635ce000.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "image": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/guantes/",
+      "image": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/tig/",
+      "image": "/assets/productos/lusqtoffprotig1808-1b06cfdb6b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mig-sin-gas/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "image": "/assets/productos/completada-1RwSNLU-8c76cd41f8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "image": "/assets/productos/lusqtoffst1n-8da3055de5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-6013/",
+      "image": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "image": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "image": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-flux/",
+      "image": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "image": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/esab/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "image": "/assets/productos/oferta-lastrade-308l-e25ec4637c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/para-aluminio/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "image": "/assets/productos/oferta-26R9o7z-eeef90ef2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "image": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "image": "/assets/productos/portada-real-soldadoras-carro-para-soldadora-mig-56cfc152c4.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "image": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-kit-soldador-de-estano-133ff0953c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-gadnic-878d-645287796f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-yihua-898d-e5023a28b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-soporte-para-soldar-con-lupa-b41a249913.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/comparativa-general/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/precios/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/honda/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/honda-6500/",
+      "image": "/assets/productos/hondaeg6500cxs-ab1e8def5c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/para-casa/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/inverter/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/trifasicos/",
+      "image": "/assets/productos/lusqtofflg7500ext-b15e57b4a2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/a-nafta/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/hyundai/",
+      "image": "/assets/productos/hyundaihy7500le-0c27e4300d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma-6500/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/lusqtoff/",
+      "image": "/assets/productos/lusqtofflgis388-5e02458b07.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma/",
+      "image": "/assets/productos/gammage3497ar-8065289e35.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/monofasicos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/diesel/",
+      "image": "/assets/productos/portada-real-generadores-diesel-87f24ec838.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/portatiles/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/silenciosos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/gamma-950/",
+      "image": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/niwa/",
+      "image": "/assets/productos/niwagnw55e-de4b1fab06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/a-gas/",
+      "image": "/assets/productos/gammage3491artf10000-c3b01a1dab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "image": "/assets/productos/ecoflowdelta2max-7013906c82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 390,
+      "path": "/generadores/chicos/",
+      "image": "/assets/productos/konankge800-2cf298b748.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/comparativa-general/",
+      "image": "/assets/productos/lusqtoffhl1007-7521d3a50c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/inalambricas/",
+      "image": "/assets/productos/lusqtofflapl368bk-7bcc8c6725.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma/",
+      "image": "/assets/productos/gammamasterwash1500g2521ar-c5b2980840.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/stihl/",
+      "image": "/assets/productos/stihlre80x-569c6db0f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/bosch/",
+      "image": "/assets/productos/boschghp180-2c785d8b82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/black-decker/",
+      "image": "/assets/productos/revision-1zzNj8Z-4102eaab55.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k2/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "image": "/assets/productos/karcherk5powercontrol16035010-cc6cb22cc7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma-150/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-gamma-150-2b3244e2b6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/profesionales/",
+      "image": "/assets/productos/niwahdnwpro101040900-d90ae91efb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k3/",
+      "image": "/assets/productos/karcherk3blackedition93983550-6bd5c64f82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/einhell/",
+      "image": "/assets/productos/einhelltchp1304140750-40e628d48f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/gamma-130/",
+      "image": "/assets/productos/completada-2SuGMdL-76ec1dec11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/hyundai/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-hyundai-13e89a1679.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "image": "/assets/productos/lusqtoffhl120-89281b0422.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k4/",
+      "image": "/assets/productos/revision-2SvkJCm-6d8aad854e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/150-bar/",
+      "image": "/assets/productos/niwahdnw7001040700-83ad50b7c0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/200-bar/",
+      "image": "/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/niwa/",
+      "image": "/assets/productos/niwahdnw3001040300-4945537d99.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/para-autos/",
+      "image": "/assets/productos/karcherk2basicblack19943220-f70b435c7c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "image": "/assets/productos/wipcoolc30s-f315e9227a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-auto/",
+      "image": "/assets/productos/nictomie01-06ac504f73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/manguera/",
+      "image": "/assets/productos/portada-real-compresores-manguera-ff6748c266.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/kits-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-kits-aerografo-7d58077f10.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/pistola-para-pintar/",
+      "image": "/assets/productos/btaas1021-adc05c8711.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/acoples-rapidos/",
+      "image": "/assets/productos/portada-real-compresores-acoples-rapidos-b7a6f1d9d6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-aerografo/",
+      "image": "/assets/productos/portada-real-compresores-para-aerografo-692d5ee21f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/aceite/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "image": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/filtros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/gamma-50-litros/",
+      "image": "/assets/productos/gammag2802ar-d8048734ac.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/kits-accesorios/",
+      "image": "/assets/productos/lusqtoffaa5000k-3d25dcd60a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "image": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/sin-aceite/",
+      "image": "/assets/productos/lusqtofflc0122-ebea27e9ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/200-litros/",
+      "image": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/bta-25-litros/",
+      "image": "/assets/productos/btadca1256-a19ab14272.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/24-litros/",
+      "image": "/assets/productos/gammag2860ar-807a31316c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/inalambricos/",
+      "image": "/assets/productos/einhellpressito1825-1952c2d4c2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/stanley/",
+      "image": "/assets/productos/oferta-26gU4mL-9e91df8511.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/para-pintar/",
+      "image": "/assets/productos/einhelltcac190248iof-f694c05fe3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "image": "/assets/productos/gadnicav000009-ed85ac108e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/12v-doble-piston/",
+      "image": "/assets/productos/lusqtoffmcl1508-8edc981a18.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/inalambricos/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillos/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/percutores/",
+      "image": "/assets/productos/boschgsb550re-501dd8929c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/taladro-de-banco/",
+      "image": "/assets/productos/lusqtofftbl167-56f428bd34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/atornilladores-de-impacto/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-bosch/",
+      "image": "/assets/productos/boschgbh220-4b74a6d44e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "image": "/assets/productos/ingcocidli206684-962e2fdef9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/para-durlock/",
+      "image": "/assets/productos/boschgtb650-02c8496d60.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/black-decker/",
+      "image": "/assets/productos/blackdeckerbcd702c1ar-c1e6002218.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-einhell/",
+      "image": "/assets/productos/einhelltcrh6204f-6ff2c6e86b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/rotomartillo-dewalt/",
+      "image": "/assets/productos/dewaltdch273b-2385011480.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/einhell-inalambrico/",
+      "image": "/assets/productos/einhelltecd1840lisolo-b7e735daa5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/dewalt-inalambrico/",
+      "image": "/assets/productos/dewaltdcd796d2-fce7e90882.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mecha-porcelanato/",
+      "image": "/assets/productos/completada-2XU7X44-b787bfe493.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/milwaukee/",
+      "image": "/assets/productos/milwaukeem12fuel340420-b42c7a5449.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "image": "/assets/productos/lusqtofftil238b-366900275b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/brocas-ceramica/",
+      "image": "/assets/productos/completada-2wKN4UX-82342b37df.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/stanley/",
+      "image": "/assets/productos/revision-1b2mqhW-38f09a297a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "image": "/assets/productos/revision-1hh4SkK-6e84939e41.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/bosch-inalambrico/",
+      "image": "/assets/productos/boschgsr120li-8c5b6ddb66.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mechas-escalonadas/",
+      "image": "/assets/productos/boschhssescalonada420mm2608597519-1f108ae92c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "image": "/assets/productos/portada-real-taladros-mecha-forstner-35-mm-9970dc5cd1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/taladros/combo-taladro-amoladora/",
+      "image": "/assets/productos/completada-2z7Capd-4dc39f08b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-flap/",
+      "image": "/assets/productos/lusqtofflqdflap60-e87ea0cc73.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/dewalt/",
+      "image": "/assets/productos/dewaltdwe4120ar-3880c9e8f3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-de-desbaste/",
+      "image": "/assets/productos/oferta-1tL91SZ-6302733ba9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/recta/",
+      "image": "/assets/productos/makitagd0600-28ffb034a0.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/de-banco/",
+      "image": "/assets/productos/lusqtoffab375-c0df1812e7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/makita/",
+      "image": "/assets/productos/makitaga4534-235dbd4cb8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/inalambricas/",
+      "image": "/assets/productos/boschprofessionalgws180li-06d3c18175.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos-ceramica/",
+      "image": "/assets/productos/ronixrh3534-150decdc06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/bosch/",
+      "image": "/assets/productos/boschgws850-ac6f1144fb.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/lusqtoff/",
+      "image": "/assets/productos/lusqtoffaml8508-79bb71a188.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/9-pulgadas/",
+      "image": "/assets/productos/makitaga9020-f1228627b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/skil-830w/",
+      "image": "/assets/productos/revision-1ruBvJN-e868b722b3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "image": "/assets/productos/hamiltonds115-016d58cc2f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/stanley/",
+      "image": "/assets/productos/stanleystgs8115ar-44f7b53dd3.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/disco-de-corte/",
+      "image": "/assets/productos/completada-2GzTkmk-6bb8675ef1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/ingco/",
+      "image": "/assets/productos/ingcoag71184-3fd23cf3ab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/velocidad-variable/",
+      "image": "/assets/productos/revision-1x65DAe-0365b0ad8f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/7-pulgadas/",
+      "image": "/assets/productos/boschgws2200180-4b0dfa554f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/115-o-125/",
+      "image": "/assets/productos/elegi125mm-59293db74a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/gamma/",
+      "image": "/assets/productos/gammag1910kar-778d56325b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/total/",
+      "image": "/assets/productos/completada-1WnXJFJ-7b0e445082.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/dowen-pagio/",
+      "image": "/assets/productos/dowenpagio99932207-23d3964a5e.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/amoladoras/discos-vidrio/",
+      "image": "/assets/productos/oferta-1XvFwQP-d938d32818.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sable/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sin-fin-metal/",
+      "image": "/assets/productos/btatools646003-e51900b70b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-einhell/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco-einhell/",
+      "image": "/assets/productos/einhelltcts20252u-a188f9dd62.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-skil/",
+      "image": "/assets/productos/skil4380-262e48e9e6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/guia-para-sierra-circular/",
+      "image": "/assets/productos/revision-2zYHZrk-e7f44cf8b7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-dewalt/",
+      "image": "/assets/productos/completada-2ZwgGLw-8d31e0bbb1.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-dewalt/",
+      "image": "/assets/productos/dewaltdws713-ca04f7e0ae.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras-total/",
+      "image": "/assets/productos/totalts42142107-4fb8c64816.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/disco-para-sierra-circular/",
+      "image": "/assets/productos/diablod0760xultrafinish714in60dientes-ef53168cbf.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/bosch-gks-150/",
+      "image": "/assets/productos/boschgks150-9003def49f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares-black-decker/",
+      "image": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-einhell/",
+      "image": "/assets/productos/einhelltcjs85-94a2df091c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "image": "/assets/productos/boschgsa18v24-9ffd61a0c6.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcsl15008-2587c0a03a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/ingletadoras/",
+      "image": "/assets/productos/einhelltcms2112-601880ca11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-caladora-bosch/",
+      "image": "/assets/productos/boschgst650-15aadfa845.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "image": "/assets/productos/dewaltdwe560-40a8fb62d7.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/stanley-sc16/",
+      "image": "/assets/productos/stanleysc16-83cc2adbdc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/caladoras-black-decker/",
+      "image": "/assets/productos/blackdeckerbes603-3ed205c975.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/de-banco-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml20009-cb8254e95d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "image": "/assets/productos/lusqtoffcm14k-62ee1eac2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsfl3008-1bafda5107.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sensitivas-total/",
+      "image": "/assets/productos/totalts2235584-ba61612a34.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "image": "/assets/productos/einhelltpcs18190liblsolo-5812794fbc.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-7018/",
+      "image": "/assets/productos/oferta-2fBaR3k-b8ab4ac7ba.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-de-punto/",
+      "image": "/assets/productos/portada-real-soldadoras-soldadora-de-punto-52635ce000.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "image": "/assets/productos/esabhandyarcmig160i-f44797603c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/guantes/",
+      "image": "/assets/productos/esabheavydutyblack-1fc1844484.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/tig/",
+      "image": "/assets/productos/lusqtoffprotig1808-1b06cfdb6b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mig-sin-gas/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "image": "/assets/productos/completada-1RwSNLU-8c76cd41f8.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "image": "/assets/productos/lusqtoffst1n-8da3055de5.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-6013/",
+      "image": "/assets/productos/oferta-1Xxa67E-649c7c7144.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "image": "/assets/productos/lusqtoffslcel2009blackseries-03b9c6595a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "image": "/assets/productos/oferta-1mXhaLW-41ec485995.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-flux/",
+      "image": "/assets/productos/completada-2x4GdMW-f5943b1e7a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "image": "/assets/productos/revision-2KQQEjE-885dfadf3b.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/esab/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "image": "/assets/productos/oferta-lastrade-308l-e25ec4637c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/para-aluminio/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "image": "/assets/productos/oferta-26R9o7z-eeef90ef2a.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "image": "/assets/productos/esabet200iacdc-13101c9e00.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "image": "/assets/productos/oferta-1p8rvV8-0fbd7b4636.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mig-lusqtoff/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "image": "/assets/productos/lusqtoffsml1508d-0a51d4f74d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "image": "/assets/productos/portada-real-soldadoras-carro-para-soldadora-mig-56cfc152c4.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "image": "/assets/productos/esabhandyarc162i-3f1299f1f9.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "image": "/assets/productos/revision-2uoDsq6-18c843aba2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "image": "/assets/productos/lusqtoffsml1208dk-3764bfc294.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-kit-soldador-de-estano-133ff0953c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-gadnic-878d-645287796f.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/yihua-898d/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-yihua-898d-e5023a28b2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "image": "/assets/productos/portada-real-soldadura-electronica-soporte-para-soldar-con-lupa-b41a249913.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/comparativa-general/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/precios/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/honda/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/honda-6500/",
+      "image": "/assets/productos/hondaeg6500cxs-ab1e8def5c.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/para-casa/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/inverter/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/trifasicos/",
+      "image": "/assets/productos/lusqtofflg7500ext-b15e57b4a2.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/a-nafta/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/hyundai/",
+      "image": "/assets/productos/hyundaihy7500le-0c27e4300d.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma-6500/",
+      "image": "/assets/productos/gammage3481ar-991fce0931.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/lusqtoff/",
+      "image": "/assets/productos/lusqtofflgis388-5e02458b07.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma/",
+      "image": "/assets/productos/gammage3497ar-8065289e35.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/monofasicos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/diesel/",
+      "image": "/assets/productos/portada-real-generadores-diesel-87f24ec838.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/portatiles/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/silenciosos/",
+      "image": "/assets/productos/hondaeu22i-b12a98be11.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/gamma-950/",
+      "image": "/assets/productos/lusqtofflg950p-39a4b28185.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/niwa/",
+      "image": "/assets/productos/niwagnw55e-de4b1fab06.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/a-gas/",
+      "image": "/assets/productos/gammage3491artf10000-c3b01a1dab.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "image": "/assets/productos/ecoflowdelta2max-7013906c82.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/chicos/",
+      "image": "/assets/productos/konankge800-2cf298b748.webp",
+      "fit": "contain",
+      "broken": false,
+      "overlaps": false,
+      "outside": false
+    }
+  ],
+  "failures": []
+}
