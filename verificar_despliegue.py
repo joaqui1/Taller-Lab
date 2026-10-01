@@ -5,6 +5,7 @@ import json
 import os
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 os.environ['SITE_URL'] = 'https://www.tallerlab.com.ar'
 from app import app
@@ -31,6 +32,8 @@ def main():
         if not identical:
             issues.append('HTML público distinto del aprobado localmente')
         doc = Doc(html)
+        if doc.meta.get('og:image'):
+            assets.add(urlsplit(doc.meta['og:image']).path)
         if not doc.meta.get('og:title') or doc.meta.get('twitter:card') != 'summary_large_image':
             issues.append('Metadatos sociales incompletos')
         for img in doc.images:

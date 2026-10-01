@@ -1,0 +1,1887 @@
+{
+  "routes": 190,
+  "sitemap": 190,
+  "failures": [],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Comparativas y calculadoras de herramientas en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/como-trabajamos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo trabajamos · TallerLab"
+      ]
+    },
+    {
+      "path": "/autor/joaquin-vallasciani/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Joaquín Vallasciani — Editor e investigador de TallerLab · TallerLab"
+      ]
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Contacto y correcciones · TallerLab"
+      ]
+    },
+    {
+      "path": "/privacidad/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Privacidad y datos · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladros y atornilladores · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo elegir una amoladora: tipos, medidas y marcas · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadura electrónica · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras: guías, marcas y comparativas"
+      ]
+    },
+    {
+      "path": "/sierras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierras: tipos y cómo elegir según el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-flap/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco flap: para qué sirve y qué grano elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Discos para amoladora: tipos, usos y compatibilidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras DeWalt: modelos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-desbaste/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco de desbaste: cómo elegirlo para metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/recta/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora recta: eléctrica o neumática, cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de banco: cómo elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/makita/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Makita: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/inalambricas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras inalámbricas: cómo elegir batería y modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-ceramica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para cortar cerámica: cómo elegirlo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Bosch: modelos y diferencias para elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Lusqtoff: modelos y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/9-pulgadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 9 pulgadas: cuándo conviene una de 230 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora Skil de 830 W: qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco diamantado segmentado: usos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Stanley: cómo elegir el modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/disco-de-corte/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco de corte para amoladora: cuál elegir según el material · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/ingco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Ingco: modelos con cable y a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de velocidad variable: cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/7-pulgadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 7 pulgadas: cómo elegir una de 180 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/115-o-125/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladora de 115 o 125 mm: diferencias y elección · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Gamma: modelos y qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Total: modelos de 115, 125 y 180 mm · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/dowen-pagio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Amoladoras Dowen Pagio: 9993220.7, 9993220.9 y 9993224.2 · TallerLab"
+      ]
+    },
+    {
+      "path": "/amoladoras/discos-vidrio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para cortar vidrio: tipos, compatibilidad y límites · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de aire para auto: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de 50 litros: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/manguera/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Manguera para compresor de aire: medidas y materiales · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Aerógrafo con compresor: qué kit comprar para empezar · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Pistola para pintar con compresor: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Acople rápido para compresor: perfiles, roscas y medidas · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor para aerógrafo: cómo elegir el adecuado · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/aceite/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Aceite para compresor de aire: cuál lleva y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Lusqtoff de 50 litros: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/filtros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Filtro de aire para compresor: cómo elegir el repuesto · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué compresor de 100 litros elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Gamma de 50 litros: guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué kit de accesorios comprar para un compresor · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor Lusqtoff de 100 litros: prestaciones y usos · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores sin aceite: cuándo convienen · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores de 200 litros: guía de compra para taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor BTA de 25 litros: para quién conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor de 24 litros: para qué sirve y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Cómo elegir un compresor inalámbrico a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresores Stanley: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor para pintar: cómo elegirlo según la pistola y el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Inflador de neumáticos portátil: cómo elegirlo para auto, moto o bicicleta · TallerLab"
+      ]
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Compresor 12 V doble pistón: qué revisar antes de elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/comparativa-general/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupos electrógenos: cómo elegir y comparar modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/precios/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupo electrógeno: precios por potencia y cómo comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/honda/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupos electrógenos Honda: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/honda-6500/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Grupo electrógeno Honda 6500: potencia y precio · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/para-casa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador eléctrico para casa: qué potencia necesitás · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador inverter: cómo funciona y cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/trifasicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador trifásico: cómo dimensionarlo y elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/a-nafta/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador a nafta: consumo, autonomía y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Hyundai: modelos, potencia y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-6500/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 6500 usado: versiones, potencia y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Lüsqtoff: cuál elegir según potencia y tecnología · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Gamma: modelos vigentes, usos y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/monofasicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador monofásico: cómo elegir por potencia y uso · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/diesel/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador diésel: cuándo conviene, consumo y mantenimiento · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/portatiles/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores portátiles: cómo elegir para camping, viaje o trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/silenciosos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador silencioso: modelos y cómo comparar el ruido · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/gamma-950/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generador Gamma 950: qué puede alimentar · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/niwa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores Niwa: modelos, diferencias y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/a-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores a gas: GN, GLP, equipos duales y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Estación de energía portátil: cómo elegir y estimar autonomía · TallerLab"
+      ]
+    },
+    {
+      "path": "/generadores/chicos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Generadores chicos: Pektra GPK980 frente a Konan KGE/800 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras: cuál comprar según uso y presupuesto · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora inalámbrica: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Lusqtoff: modelos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Gamma: comparativa de modelos y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Stihl: modelos, diferencias y precios · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Bosch: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Black+Decker: cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K2: versiones, prestaciones y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K5: prestaciones y cuándo conviene comprarla · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 150: características, uso y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora profesional: cómo elegir para trabajar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K3: versiones y diferencias con K2 y K4 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Einhell: modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gamma 130: prestaciones y diferencias con Gamma 150 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hyundai/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Hyundai: modelos y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff HL 120: prestaciones y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kärcher K4: versiones y diferencias con K3 y K5 · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras de 150 bar: comparativa y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras de 200 bar: cuándo convienen · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Niwa: modelos, opiniones y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras Kärcher: modelos K2 a K5 y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadoras para autos: equipos y combos para elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Hidrolavadora para aire acondicionado: qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular: cuál elegir según trabajo y capacidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva: qué es y cuál comprar para cortar metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sable: para qué sirve y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra caladora: cómo elegir y qué modelos comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin para madera: cómo elegir la adecuada · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco: cuál elegir para tu taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-metal/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin para metal: tipos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora Einhell: modelos y cuál conviene elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco Einhell: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-skil/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Skil: modelos, diferencias y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/guia-para-sierra-circular/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Guía para sierra circular: tipos y compatibilidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva DeWalt: comparación de modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora DeWalt: modelos regionales y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras-total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadora Total: modelos y qué revisar al comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/disco-para-sierra-circular/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Disco para sierra circular: cuál usar para cada corte · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/bosch-gks-150/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Bosch GKS 150: características y cuándo conviene · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular Black+Decker: qué modelo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Einhell: modelos con cable y a batería · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Qué sierra sable inalámbrica comprar: guía y comparación · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/circulares-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular Lusqtoff: modelos y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/ingletadoras/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Ingletadoras: cómo elegir entre fija y telescópica · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-caladora-bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra caladora Bosch: comparativa de modelos en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "DeWalt DWE560: ficha y guía de compra en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/stanley-sc16/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Stanley SC16: ficha y qué comprobar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/caladoras-black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Caladora Black+Decker BES603: capacidad y usos · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/de-banco-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra de banco Lusqtoff: SML2000-8 y otras variantes · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva Lusqtoff: CM-14K y qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra sin fin Lusqtoff: modelos compactos y de taller · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sensitivas-total/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sensitiva Total: cómo elegir y comprobar el modelo · TallerLab"
+      ]
+    },
+    {
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Sierra circular inalámbrica: cómo elegir según el trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo 7018: usos, amperaje y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras Lusqtoff: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora de punto: tipos, usos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG con gas: guía para elegir y comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Guantes para soldar: cuáles elegir para MIG y TIG · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora TIG: qué es y qué equipo conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG sin gas: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Alambre para soldadura MIG: tipos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Máscara de soldar fotosensible: criterios y modelos · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo 6013: para qué sirve y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora inverter 200 A: modelos y cómo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo para fundición: tipos y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Alambre flux: tipos, medidas y cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora Dogo 180: características y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadoras ESAB: modelos, diferencias y qué elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Electrodo para acero inoxidable: cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora para aluminio: TIG o MIG, cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff Iron 250: características y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora TIG AC/DC: funciones y qué modelo elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora inverter 160 A: comparativa y qué elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff Iron 100: ficha del kit con máscara y escuadras · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soldadora MIG Lusqtoff: modelos Flux y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML150-8: diferencias, kit y qué comprobar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML120-8D: ficha de la MIG Flux dual · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Carro para soldadora MIG: medidas, tubo y capacidad · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "ESAB HandyArc 162i: corriente, ciclo de trabajo y compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Máscara Lusqtoff ST-1X: qué revisar antes de comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Lusqtoff SML130-7: modelo, alambre y qué revisar · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Kit soldador de estaño: qué debe incluir y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Estación de soldadura electrónica: cautín o aire caliente · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Gadnic 878D: estación de cautín y aire caliente · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Yihua 898D: estación de aire caliente y cautín · TallerLab"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Soporte para soldar con lupa: pinzas, base y luz · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/inalambricos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico: cuál comprar en Argentina · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo: cuál elegir para concreto y obra · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/percutores/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro percutor: cuál comprar y cómo elegirlo · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro de banco: guía para elegir y comparar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador de impacto: cuál elegir y para qué sirve · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo Bosch: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro percutor inalámbrico: modelos y comparativa · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador para Durlock: cuál comprar y por qué · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Black+Decker: qué modelo conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo Einhell: comparativa y guía de compra · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Rotomartillo DeWalt: cuál elegir para tu trabajo · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Einhell: cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico DeWalt: modelos y diferencias · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha para porcelanato: cuál elegir y cómo usarla · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Milwaukee: M12, M18 y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Lusqtoff: cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Brocas para cerámica: cuáles usar y cómo perforar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/stanley/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro Stanley: modelos y cuál conviene comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Atornillador de impacto DeWalt: cuál comprar · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Taladro inalámbrico Bosch: GSR, GSB y cuál elegir · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha escalonada: cuál comprar para chapa y metal · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Mecha Forstner 35 mm: cuál usar para bisagras cazoleta · TallerLab"
+      ]
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "status": 200,
+      "identical": true,
+      "issues": [],
+      "title": [
+        "Combo taladro y amoladora: kits con cable y a batería · TallerLab"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/commerce.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/decision-tools.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/drill_hero.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/compresores.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/hidrolavadoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/caveat-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/fonts.css",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/jetbrains-mono-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/jetbrains-mono-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/jetbrainsmono-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/plus-jakarta-sans-latin-ext-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/plus-jakarta-sans-latin-v1.woff2",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=31536000, immutable",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/fonts/plusjakartasans-OFL.txt",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/home.js",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/logo_cropped.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/site.css?v=8",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/amoladoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/generadores.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/sierras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/soldadoras.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/soldadura-electronica.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    },
+    {
+      "path": "/assets/editorial/taladros.webp",
+      "status": 200,
+      "identical": true,
+      "cache": "public, max-age=86400",
+      "vercel_cache": "MISS"
+    }
+  ]
+}
