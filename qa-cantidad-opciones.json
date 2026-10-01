@@ -1,84 +1,7 @@
 {
   "pages": 190,
-  "shelves": 89,
+  "shelves": 91,
   "singletons": [
-    {
-      "path": "/compresores/50-litros/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/compresores/bta-25-litros/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/compresores/stanley/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/compresores/para-pintar/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/stihl/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/karcher-k5/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/profesionales/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/karcher-k3/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/gamma-130/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/lusqtoff-hl-120/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
-    },
     {
       "path": "/soldadoras/lusqtoff/",
       "count": 1,
@@ -90,13 +13,6 @@
       "path": "/soldadoras/lusqtoff/",
       "count": 1,
       "heading": "Opción Flux Lüsqtoff: distinguí equipo y kit",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/soldadoras/guantes/",
-      "count": 1,
-      "heading": "Consultá talle y protección del guante",
       "filters": 0,
       "checks": 0
     },
@@ -169,34 +85,6 @@
       "heading": "Consultá HandyArc 162i: verificá código 0409616",
       "filters": 0,
       "checks": 0
-    },
-    {
-      "path": "/taladros/percutores/",
-      "count": 1,
-      "heading": "Consultá el percutor Bosch con cable",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/taladros/rotomartillo-dewalt/",
-      "count": 1,
-      "heading": "Consultá el rotomartillo DeWalt DCH273B",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/taladros/brocas-ceramica/",
-      "count": 1,
-      "heading": "Consultá la mecha CYL-9 para cerámica blanda",
-      "filters": 0,
-      "checks": 0
-    },
-    {
-      "path": "/taladros/mechas-escalonadas/",
-      "count": 1,
-      "heading": "Consultá la referencia Bosch HSS 4–20 mm",
-      "filters": 0,
-      "checks": 0
     }
   ],
   "rows": [
@@ -216,10 +104,10 @@
     },
     {
       "path": "/compresores/50-litros/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/compresores/pistola-para-pintar/",
@@ -272,10 +160,10 @@
     },
     {
       "path": "/compresores/bta-25-litros/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/compresores/24-litros/",
@@ -293,17 +181,17 @@
     },
     {
       "path": "/compresores/stanley/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 4,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 4
     },
     {
       "path": "/compresores/para-pintar/",
-      "count": 1,
-      "heading": "Publicación disponible en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/compresores/inflador-neumaticos-portatil/",
@@ -349,10 +237,10 @@
     },
     {
       "path": "/hidrolavadoras/stihl/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 6,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 6
     },
     {
       "path": "/hidrolavadoras/bosch/",
@@ -377,24 +265,31 @@
     },
     {
       "path": "/hidrolavadoras/karcher-k5/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/hidrolavadoras/profesionales/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 4,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 4
     },
     {
       "path": "/hidrolavadoras/karcher-k3/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/hidrolavadoras/einhell/",
@@ -405,17 +300,17 @@
     },
     {
       "path": "/hidrolavadoras/gamma-130/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/hidrolavadoras/lusqtoff-hl-120/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/hidrolavadoras/karcher-k4/",
@@ -428,6 +323,13 @@
       "path": "/hidrolavadoras/150-bar/",
       "count": 2,
       "heading": "Compará estas opciones en Mercado Libre",
+      "filters": 3,
+      "checks": 2
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
       "filters": 3,
       "checks": 2
     },
@@ -454,10 +356,10 @@
     },
     {
       "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
-      "count": 1,
-      "heading": "Consultá esta publicación en Mercado Libre",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/soldadoras/electrodo-7018/",
@@ -496,10 +398,10 @@
     },
     {
       "path": "/soldadoras/guantes/",
-      "count": 1,
-      "heading": "Consultá talle y protección del guante",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/soldadoras/tig/",
@@ -706,10 +608,10 @@
     },
     {
       "path": "/taladros/percutores/",
-      "count": 1,
-      "heading": "Consultá el percutor Bosch con cable",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/taladros/taladro-de-banco/",
@@ -748,10 +650,10 @@
     },
     {
       "path": "/taladros/rotomartillo-dewalt/",
-      "count": 1,
-      "heading": "Consultá el rotomartillo DeWalt DCH273B",
-      "filters": 0,
-      "checks": 0
+      "count": 3,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 3
     },
     {
       "path": "/taladros/einhell-inalambrico/",
@@ -790,10 +692,10 @@
     },
     {
       "path": "/taladros/brocas-ceramica/",
-      "count": 1,
-      "heading": "Consultá la mecha CYL-9 para cerámica blanda",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     },
     {
       "path": "/taladros/stanley/",
@@ -818,10 +720,10 @@
     },
     {
       "path": "/taladros/mechas-escalonadas/",
-      "count": 1,
-      "heading": "Consultá la referencia Bosch HSS 4–20 mm",
-      "filters": 0,
-      "checks": 0
+      "count": 2,
+      "heading": "Compará los modelos de esta guía",
+      "filters": 3,
+      "checks": 2
     }
   ]
 }

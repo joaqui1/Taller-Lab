@@ -30,7 +30,8 @@ def main():
         html = s.render_article_page(article)
         doc = Document(html)
         assert 'HIDROLAVADORAS-OFERTAS' not in html
-        assert html.count('class="offer-card"') == len(config['models']), path
+        selected=s.guide_comparison_selection(path,'hidrolavadoras',s.PRODUCT_FACTS)
+        assert html.count('class="offer-card"') == (len(selected) if selected else len(config['models'])), path
         if config['models']:
             anchor = re.search(r'(?m)^## ' + re.escape(config['anchor']) + r'.*$', body)
             marker = body.index('<!-- HIDROLAVADORAS-OFERTAS -->')

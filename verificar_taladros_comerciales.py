@@ -81,9 +81,13 @@ def main():
         without = text[:block.start()].rstrip() + '\n\n' + text[block.end():].lstrip('\n')
         position = insertion(without, config['anchor'], config['position'])
         assert without[:position].rstrip() == text[:block.start()].rstrip(), ('Ubicación', path)
-        assert len(page.ctas) == len(config['offers']), path
+        selected=s.guide_comparison_selection(path,'taladros',s.PRODUCT_FACTS)
+        selected_affiliates=[item[2] for _,item in selected if item[2] in s.AFFILIATE_URLS] if selected else [o['url'] for o in config['offers']]
+        assert len(page.ctas) == len(selected_affiliates), path
         actual = {link['href']: label.strip() for link, label in page.ctas}
-        assert actual == {o['url']: o['cta'] + ' ↗' for o in config['offers']}, ('CTA o destino', path)
+        expected={o['url']:o['cta']+' ↗' for o in config['offers']}
+        expected.update({url:'Ver precio en Mercado Libre ↗' for url in selected_affiliates if url not in expected})
+        assert actual == expected, ('CTA o destino', path)
         for link, _ in page.ctas:
             assert link['target'] == '_blank'
             assert set(link['rel'].split()) == {'nofollow', 'sponsored', 'noopener', 'noreferrer'}
@@ -98,7 +102,8 @@ def main():
         assert actual_short == legacy | {u for u in actual if u.startswith('https://meli.la/')}, path
         seen.update(actual)
         count += len(actual)
-    assert seen == expected_urls and count == 32
+    extra=sum(len([item for _,item in s.guide_comparison_selection(path,'taladros',s.PRODUCT_FACTS) if item[2] in s.AFFILIATE_URLS])-len(config['offers']) for path,config in s.TALADROS_OFFERS.items() if path in s.GUIDE_COMPARISON_PLANS)
+    assert seen == expected_urls and count == 32+extra
     assert client.post('/api/affiliate-click', json=dict(product='https://example.org/', page='/taladros/', placement='taladros-contextual')).status_code == 400
     hub = Page(client.get('/taladros/').get_data(as_text=True))
     assert set(articles) <= {a.get('href') for a in hub.links}

@@ -33,6 +33,9 @@ def main():
         html = s.render_article_page(article)
         doc = Document(html)
         expected = [offer['url'] for offer in config['offers']]
+        selected=s.guide_comparison_selection(path,'compresores',s.PRODUCT_FACTS)
+        if selected:
+            expected=[item[2] for _,item in selected]
         assert doc.cards == expected, (path, doc.cards, expected)
         assert doc.shelves == int(bool(expected)), path
         assert '<!-- COMPRESORES-OFFERS -->' not in html, path

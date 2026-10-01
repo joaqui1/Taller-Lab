@@ -348,6 +348,8 @@ TALADROS_OFFERS = json.loads((ROOT_DIR / 'taladros-ofertas.json').read_text(enco
 install_drill_catalog(AFFILIATE_PRODUCTS, PRODUCT_FACTS, TALADROS_OFFERS)
 from fotos_productos import apply_photos, photo_for, render_photo, add_photos_to_cards
 apply_photos(PRODUCT_FACTS)
+from comparaciones_por_guia import PLANS as GUIDE_COMPARISON_PLANS, install_models as install_comparison_models, selection as guide_comparison_selection, editorial_config as guide_comparison_config
+install_comparison_models(PRODUCT_FACTS)
 # Las cards de estas guías se insertan en su marcador editorial, sin repetirlas al pie.
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in COMPRESORES_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in GENERADORES_OFFERS})
@@ -969,14 +971,14 @@ def validate_affiliate_click(data):
         raise ValueError("Invalid click event")
     return {"at": datetime.now(timezone.utc).isoformat(), "product": product, "page": page, "placement": placement}
 
-def render_affiliate_shelf(section_id, products=None, ctas=None):
+def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None):
     """Muestra publicaciones concretas ya enlazadas en las guías del sitio."""
     selected = products if products is not None else [(section_id, item) for item in AFFILIATE_PRODUCTS.get(section_id, [])]
     if not selected:
         return ""
     type_counts = {}
     for category, (_, _, url, _) in selected:
-        kind = COMPARE_TYPES.get(url, category)
+        kind = category if editorial else COMPARE_TYPES.get(url, category)
         type_counts[kind] = type_counts.get(kind, 0) + 1
     has_comparison = any(count >= 2 for count in type_counts.values())
     cards = ""
@@ -989,17 +991,22 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
         power = facts["power"] if facts else "Alimentación a verificar"
         specs = facts["specs"] if facts else UNVERIFIED_SPECS.get(category, ["Ficha técnica no informada"])
         includes = facts["includes"] if facts else "Contenido del kit a confirmar en la publicación"
+        affiliate = url in AFFILIATE_URLS
+        action_rel = 'nofollow sponsored noopener noreferrer' if affiliate else 'noopener noreferrer'
+        placement_name = (editorial or {}).get('placement', 'shelf-'+section_id)
+        placement = f' data-affiliate-placement="{escape(placement_name, quote=True)}"' if affiliate else ''
         if facts and facts.get("image") and not facts.get("illustrative"):
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
         else:
             media = '<span class="offer-no-photo">Foto no disponible</span>'
         source = ((f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts.get("evidence_label") else '') + f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
-        compare_type = COMPARE_TYPES.get(url, category)
-        compare_labels = escape(json.dumps(COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional"))), ensure_ascii=False), quote=True)
-        compare_details = escape(json.dumps(COMPARE_DETAILS.get(url, specs[:3]), ensure_ascii=False), quote=True)
+        compare_type = category if editorial else COMPARE_TYPES.get(url, category)
+        labels = (editorial or {}).get('labels') or COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional")))
+        compare_labels = escape(json.dumps(labels, ensure_ascii=False), quote=True)
+        compare_details = escape(json.dumps(specs[:3] if editorial else COMPARE_DETAILS.get(url, specs[:3]), ensure_ascii=False), quote=True)
         cards += f"""
         <article class="offer-card" data-brand="{escape(brand, quote=True)}" data-use="{escape(use, quote=True)}" data-power="{escape(power, quote=True)}" data-product="{escape(url, quote=True)}" data-compare-type="{escape(compare_type, quote=True)}" data-compare-labels="{compare_labels}" data-compare-details="{compare_details}">
-          <div class="offer-card-top"><span>{index:02d} / {escape(category_name)}</span><span>PUBLICACIÓN CONCRETA</span></div>
+          <div class="offer-card-top"><span>{index:02d} / {escape(category_name)}</span><span>{'PUBLICACIÓN CONCRETA' if affiliate else 'MODELO DOCUMENTADO'}</span></div>
           <div class="offer-photo">{media}</div>
           <h3>{escape(brand)} · {escape(model)}</h3>
           <p class="offer-description">{escape(detail)} · {escape(name)}</p>
@@ -1009,7 +1016,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
           <p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p>
           {source}
           <div class="offer-actions">
-            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="shelf-{escape(section_id, quote=True)}">{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre')))} ↗</a>
+            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="{action_rel}"{placement}>{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre') if affiliate else 'Ver ficha del fabricante'))} ↗</a>
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
           {'<label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>' if type_counts[compare_type] >= 2 else ''}
@@ -1018,21 +1025,25 @@ def render_affiliate_shelf(section_id, products=None, ctas=None):
     title = "Publicación disponible en Mercado Libre" if len(selected) == 1 else ("Publicaciones para comparar" if has_comparison else "Publicaciones disponibles")
     if section_id == "inicio" and len(selected) > 1:
         title = "Del taller a la compra"
+    if editorial:
+        title = 'Compará los modelos de esta guía' if len(selected) > 1 else 'Modelo documentado para esta guía'
+    explanation = (editorial or {}).get('reason', 'Datos declarados en la fuente indicada, sin medición propia. La presión máxima no equivale a presión de trabajo; el caudal sin condición de medición no acredita caudal entregado. Revisá código, kit y vendedor.')
     filters = '''<div class="offer-filters" aria-label="Filtrar productos">
         <label>Marca <select class="filter-brand"><option value="">Todas</option></select></label>
         <label>Uso <select class="filter-use"><option value="">Todos</option></select></label>
         <label>Alimentación <select class="filter-power"><option value="">Todas</option></select></label>
       </div>''' if len(selected) > 1 else ''
     return f"""
-    <section class="affiliate-shelf" aria-label="Publicaciones con enlace de afiliado">
+    <section class="affiliate-shelf" aria-label="{'Modelos y enlaces de esta guía' if editorial else 'Publicaciones con enlace de afiliado'}"{(' data-guide-comparison="true"' if editorial else '')}>
       <div class="affiliate-heading">
         <div><span class="section-kicker">SELECCIÓN DE PRODUCTOS</span><h2>{title}</h2></div>
-        <p>Datos declarados en la fuente indicada, sin medición propia. La presión máxima no equivale a presión de trabajo; el caudal sin condición de medición no acredita caudal entregado. Revisá código, kit y vendedor.</p>
+        <p>{escape(explanation)}</p>
       </div>
       {filters}
       <div class="offer-grid">{cards}</div>
       {'<p class="offer-empty" hidden>No hay productos con esos filtros.</p>' if filters else ''}
       {'<div class="compare-panel" hidden aria-live="polite"></div>' if has_comparison else ''}
+      {'<p class="buying-disclosure">Comparación documental, sin prueba física. Las fichas de fabricante no confirman stock. En los enlaces de afiliado TallerLab puede recibir una comisión, sin costo adicional para vos.</p>' if editorial else ''}
     </section>
     """
 
@@ -2083,25 +2094,38 @@ def render_article_page(article, embedded=False):
         return tag[:-1] + f' target="_blank" rel="{rel}">'
 
     compressor_config = COMPRESORES_OFFERS.get(article['url'])
+    guide_selection = guide_comparison_selection(article['url'], article['section'], PRODUCT_FACTS)
+    guide_editorial = guide_comparison_config(article['url'], article['section']) if guide_selection else None
     if compressor_config:
         selected = [
             ('compresores', (offer['model'], next(item[1] for item in AFFILIATE_PRODUCTS['compresores'] if item[2] == offer['url']), offer['url'], article['url']))
             for offer in compressor_config['offers']
         ]
-        contextual_shelf = render_affiliate_shelf('compresores', selected, {offer['url']: offer['cta'] for offer in compressor_config['offers']})
+        contextual_shelf = render_affiliate_shelf('compresores', guide_selection or selected, {offer['url']: offer['cta'] for offer in compressor_config['offers']}, editorial=guide_editorial)
         rendered_body = rendered_body.replace('<!-- COMPRESORES-OFFERS -->', contextual_shelf)
     washer_config = HIDROLAVADORAS_OFFERS.get(article['url'])
-    if washer_config and washer_config['offers']:
+    if washer_config and (washer_config['offers'] or guide_selection):
         catalog = {item[2]: item for item in AFFILIATE_PRODUCTS['hidrolavadoras']}
         selected = [('hidrolavadoras', (*catalog[offer['url']][:3], article['url'])) for offer in washer_config['offers']]
         ctas = {offer['url']: 'Ver precio de ' + catalog[offer['url']][0] for offer in washer_config['offers']}
-        contextual_shelf = render_affiliate_shelf('hidrolavadoras', selected, ctas)
+        contextual_shelf = render_affiliate_shelf('hidrolavadoras', guide_selection or selected, ctas, editorial=guide_editorial)
         title = ('Consultá esta publicación en Mercado Libre' if len(selected) == 1 else
                  'Nuestra selección según el uso' if article['url'] == '/hidrolavadoras/comparativa-general/' else
                  'Compará estas opciones en Mercado Libre')
         contextual_shelf = contextual_shelf.replace('<h2>Publicaciones para comparar</h2>', '<h3>' + title + '</h3>')
         contextual_shelf = contextual_shelf.replace('<h2>Publicación disponible en Mercado Libre</h2>', '<h3>' + title + '</h3>')
         rendered_body = rendered_body.replace('<!-- HIDROLAVADORAS-OFERTAS -->', contextual_shelf)
+        if guide_selection and '<!-- HIDROLAVADORAS-OFERTAS -->' not in article['body']:
+            anchor = 'Gamma 150 G2514AR: prestaciones y contenido' if article['url']=='/hidrolavadoras/gamma-150/' else 'Equipos publicados en Argentina cerca de 200 bar'
+            section = re.search(r'(<h2>'+re.escape(anchor)+r'</h2>.*?)(?=<h2>|$)',rendered_body,re.S)
+            if not section:
+                raise ValueError('Falta la sección para comparar modelos: '+article['url'])
+            rendered_body = rendered_body[:section.end()] + contextual_shelf + rendered_body[section.end():]
+    if guide_selection and article['section'] not in {'hidrolavadoras','compresores'}:
+        config = (TALADROS_OFFERS if article['section']=='taladros' else SOLDADORAS_OFFERS).get(article['url'],{})
+        guide_ctas = {offer['url']:offer['cta'] for offer in config.get('offers',[]) if offer.get('cta')}
+        comparison = render_affiliate_shelf(article['section'], guide_selection, guide_ctas, editorial=guide_editorial)
+        rendered_body = re.sub(r'<!-- (TALADROS|SOLDADORAS)-OFERTAS -->.*?<!-- /\1-OFERTAS -->', comparison, rendered_body, flags=re.S)
     rendered_body = add_photos_to_cards(rendered_body)
     rendered_body = re.sub(r'<a\b[^>]*>', normalize_commercial_anchor, rendered_body)
     if article["url"] in AMOLADORA_CHOICES:
@@ -2222,7 +2246,7 @@ def render_article_page(article, embedded=False):
       {render_resource(article) if article["section"] != "amoladoras" else ""}
       {render_buying_note(article, PRODUCT_FACTS) if article["section"] != "amoladoras" and article['url'] not in HIDROLAVADORAS_OFFERS and article['url'] not in SIERRAS_OFFERS and article['url'] not in SOLDADORAS_OFFERS and article['url'] not in TALADROS_OFFERS else ""}
       {render_quick_guide(article) if article["section"] != "amoladoras" else ""}
-      {render_50l_models() if article["url"] == "/compresores/50-litros/" else ""}
+      {render_50l_models() if article["url"] == "/compresores/50-litros/" and not guide_selection else ""}
       {affiliate_shelf}
 
       <div id="markdown-target" class="markdown-body">

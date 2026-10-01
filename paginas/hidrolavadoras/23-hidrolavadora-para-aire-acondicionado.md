@@ -70,6 +70,12 @@ Las instrucciones dependen del diseño de la unidad. Carrier recomienda para su 
 
 ## Equipo específico para limpieza de aire acondicionado
 
+### C30S con vapor o C10 para enjuague
+
+La C30S y la C10 cubren métodos distintos. La [WIPCOOL C10](https://www.wipcool.com/portable-hvac-ac-condenser-evaporator-coils-service-cleaning-machine-product/) es una lavadora HVAC de agua con dos rangos de presión de trabajo seleccionables, **3–5 y 7–10 bar**, caudal máximo de **4 L/min**, manguera de salida de **5 m** y peso de **3,7 kg**. No tiene el sistema de vapor de la C30S. El fabricante ofrece una variante de 230 V/50–60 Hz y otra de 100–120 V: confirmá la placa de la unidad y disponibilidad local.
+
+Para enjuague con agua, compará el control y el alcance de C10; si el procedimiento admite vapor o agua caliente, revisá las funciones y límites de C30S. Estas son opciones documentadas para contrastar métodos, no una validación para todos los serpentines. La presión, temperatura, boquilla, químicos y recogida de agua deben respetar el procedimiento del fabricante del aire acondicionado.
+
 ### WIPCOOL C30S: máquina de limpieza a vapor para HVAC
 
 WIPCOOL clasifica el **C30S** como una máquina de limpieza a vapor dentro de su línea de mantenimiento HVAC; no es una hidrolavadora doméstica convencional. La ficha publica cinco modos: vapor, agua caliente, agua fría, pulso y tratamiento con ozono. El uso en cada unidad depende de las instrucciones del fabricante del aire acondicionado: elegí el modo compatible con sus materiales, componentes y procedimiento de mantenimiento.

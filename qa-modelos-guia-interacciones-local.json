@@ -1,0 +1,1534 @@
+{
+  "base": "http://127.0.0.1:5058",
+  "pages": 190,
+  "errors": [],
+  "failures": [],
+  "search": {
+    "retry": true,
+    "more": true,
+    "empty": true,
+    "clear": true
+  },
+  "rows": [
+    {
+      "path": "/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/como-trabajamos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/autor/joaquin-vallasciani/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/contacto/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/privacidad/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/disco-flap/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/discos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/dewalt/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/disco-de-desbaste/",
+      "failures": [],
+      "sources": 1,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/recta/",
+      "failures": [],
+      "sources": 1,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/de-banco/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/makita/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/inalambricas/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/discos-ceramica/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/bosch/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/lusqtoff/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/9-pulgadas/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/skil-830w/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/disco-diamantado-segmentado/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/stanley/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/disco-de-corte/",
+      "failures": [],
+      "sources": 1,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/ingco/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/velocidad-variable/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/7-pulgadas/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/115-o-125/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/gamma/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/total/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/dowen-pagio/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/amoladoras/discos-vidrio/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "failures": [],
+      "sources": 11,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/50-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/manguera/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/kits-aerografo/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/pistola-para-pintar/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/acoples-rapidos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/aceite/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/filtros/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/gamma-50-litros/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/kits-accesorios/",
+      "failures": [],
+      "sources": 9,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/sin-aceite/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/bta-25-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/24-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/stanley/",
+      "failures": [],
+      "sources": 8,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/para-pintar/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "failures": [],
+      "sources": 9,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/generadores/comparativa-general/",
+      "failures": [],
+      "sources": 7,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/precios/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/honda/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/honda-6500/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/para-casa/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/inverter/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/trifasicos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/a-nafta/",
+      "failures": [],
+      "sources": 5,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/gamma-6500/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/gamma/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/monofasicos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/diesel/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/portatiles/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/silenciosos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/gamma-950/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/niwa/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/a-gas/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/estacion-de-energia-portatil/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/chicos/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/comparativa-general/",
+      "failures": [],
+      "sources": 8,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/gamma/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "failures": [],
+      "sources": 12,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k2/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/gamma-150/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/profesionales/",
+      "failures": [],
+      "sources": 8,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k3/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/einhell/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/gamma-130/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/hyundai/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/lusqtoff-hl-120/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/200-bar/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/niwa/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/karcher/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/para-autos/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/sierras/circulares/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sensitivas/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sable/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/caladoras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sierra-sin-fin-para-madera/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/de-banco/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sin-fin-metal/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/ingletadoras-einhell/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/de-banco-einhell/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/caladoras-skil/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/guia-para-sierra-circular/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sensitivas-dewalt/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/ingletadoras-dewalt/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/ingletadoras-total/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/disco-para-sierra-circular/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/bosch-gks-150/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/caladoras-einhell/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sierra-sable-inalambrica/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/circulares-lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/ingletadoras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sierra-caladora-bosch/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sierra-circular-dewalt-dwe560/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/stanley-sc16/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/caladoras-black-decker/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/de-banco-lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sensitivas-lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sin-fin-lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sensitivas-total/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sierra-circular-inalambrica/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-7018/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-de-punto/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/guantes/",
+      "failures": [],
+      "sources": 6,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/soldadoras/tig/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/mig-sin-gas/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/mascaras-fotosensibles/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-6013/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-200-amp/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-para-fundicion/",
+      "failures": [],
+      "sources": 1,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-dogo-180/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/esab/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/electrodo-para-acero-inoxidable/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/para-aluminio/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-250/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-tig-ac-dc/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-inverter-160-amp/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-iron-100/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/mig-lusqtoff/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml150-8/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml120-8d/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/carro-para-soldadora-mig/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/esab-handyarc-162i/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/mascara-lusqtoff-st-1x/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/lusqtoff-sml130-7/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/kit-soldador-de-estano/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/estacion-de-soldadura/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/gadnic-878d/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/yihua-898d/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/inalambricos/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/rotomartillos/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/percutores/",
+      "failures": [],
+      "sources": 4,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/taladros/taladro-de-banco/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/atornilladores-de-impacto/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-bosch/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/taladro-percutor-inalambrico/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/para-durlock/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/black-decker/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-einhell/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/rotomartillo-dewalt/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/taladros/einhell-inalambrico/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/dewalt-inalambrico/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/mecha-porcelanato/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/milwaukee/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/lusqtoff-inalambrico/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/brocas-ceramica/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/taladros/stanley/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/atornillador-impacto-dewalt/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/bosch-inalambrico/",
+      "failures": [],
+      "sources": 2,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/mechas-escalonadas/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/taladros/mecha-forstner-35-mm/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/taladros/combo-taladro-amoladora/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    }
+  ]
+}
