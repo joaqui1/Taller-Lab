@@ -3217,6 +3217,18 @@
       "source": "https://www.dewalt.fr/fr-fr/produit/d25333k-qs/perforateur-burineur-sds-plus-950-w-35-j",
       "status": "verified",
       "checked": "2026-10-01"
+    },
+    "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios": {
+      "image": "/assets/productos/emonaf20049292-389bc99439.webp",
+      "width": 310,
+      "height": 270,
+      "bytes": 6054,
+      "original_image": "https://www.guiastodo.com.ar/minisitios/001621/productos/9653/cat-alquiler-310x270jpg.jpg",
+      "brand": "Emona",
+      "model": "F 200 · SKU 49292",
+      "source": "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios",
+      "status": "verified",
+      "checked": "2026-10-01"
     }
   }
 }

@@ -96,7 +96,7 @@ Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional 
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Einhell Argentina TP-CS 18/190 Li BL-Solo](https://www.einhell.com.ar/p/4331211-tp-cs-18-190-li-bl-solo/); [manual Einhell TP-CS 18/190 Li BL-Solo](https://einhell.com.br/downloads/arquivos/te-cs-18-190-li-bl-solo_manual.pdf); [Bosch Professional Brasil GKS 185-LI, pedido 0 601 6C1 2E1](https://www.bosch-professional.com/br/pt/products/gks-185-li-06016C12E1); [DeWalt DCS570B-B3](https://www.dewalt.com.br/pt-br/produto/dcs570b-b3/serra-circular-de-7-1-184mm-sem-fio-de-20v-max-xr-sem-bateria-e-sem-carregador); [manual DeWalt DCS570](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf); [Makita DHS710Z Argentina](https://makita.com.ar/producto/351-sierra-circular-inalambrica-18v-4800-rpm/).
+- **Documentación primaria:** [Einhell Argentina TP-CS 18/190 Li BL-Solo](https://www.einhell.com.ar/p/4331211-tp-cs-18-190-li-bl-solo/); [manual Einhell TP-CS 18/190 Li BL-Solo](https://einhell.com.br/downloads/arquivos/te-cs-18-190-li-bl-solo_manual.pdf); [Bosch Professional Brasil GKS 185-LI, pedido 0 601 6C1 2E1](https://www.bosch-professional.com/br/pt/products/gks-185-li-06016C12E1); [DeWalt DCS570B-B3](https://www.dewalt.com.br/pt-br/produto/dcs570b-b3/serra-circular-de-7-1-184mm-sem-fio-de-20v-max-xr-sem-bateria-e-sem-carregador); [manual DeWalt DCS570](https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCS570B/2/Instruction_Manual/EN/N529996_DCS570.pdf); [Makita DHS710Z Argentina](https://makita.com.ar/producto/351-sierra-circular-inalmbrica-18v-4800-rpm/).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de sierras](/sierras/).

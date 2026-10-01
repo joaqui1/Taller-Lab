@@ -1,9 +1,153 @@
 {
   "section": "soldadura-electronica",
-  "checked": "2026-10-01T20:18:38.156003+00:00",
+  "checked": "2026-10-01T20:25:20.505031+00:00",
   "articles": 5,
   "structural_failures": [],
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://cdn.velleman.eu/downloads/doc/1950001-vthh3n_ce.pdf",
+      "checked": "2026-10-01T20:25:16.301791+00:00",
+      "status": 200,
+      "final_url": "https://cdn.velleman.eu/downloads/doc/1950001-vthh3n_ce.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://listado.mercadolibre.com.ar/kit-soldador-estano",
+      "checked": "2026-10-01T20:25:16.302957+00:00",
+      "status": 200,
+      "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkit-soldador-estano&tid=12f2c243-fe3f-407d-8ddd-6fe15fad147d",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Mercado Libre",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
+      "checked": "2026-10-01T20:25:16.303635+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "ESTACIÓN DE SOLDADO • 120 X 193 X 170 mm"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+      "checked": "2026-10-01T20:25:16.304282+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Soldadoras Inverter"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w",
+      "checked": "2026-10-01T20:25:16.484335+00:00",
+      "status": 200,
+      "final_url": "https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Estación de Soldado Gadnic 878D SMD 370w Aire Caliente Cautín Control PID 3 Boquillas | Gadnic",
+      "headings": [
+        "Estación de Soldado Gadnic 878D SMD 370w Aire Caliente Cautín Control PID 3 Boquillas"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.proskit.com/Product/608-391E?hl=en-US",
+      "checked": "2026-10-01T20:25:16.514987+00:00",
+      "status": 200,
+      "final_url": "https://www.proskit.com/Product/608-391E?hl=en-US",
+      "content_type": "text/html; charset=utf-8",
+      "title": "608-391E Helping Hands | Pro'sKit Official Website",
+      "headings": [
+        "Helping Hands"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.proskit.com/Product/PK-916G?hl=en-US",
+      "checked": "2026-10-01T20:25:16.655527+00:00",
+      "status": 200,
+      "final_url": "https://www.proskit.com/Product/PK-916G?hl=en-US",
+      "content_type": "text/html; charset=utf-8",
+      "title": "PK-916G 6 piece soldering iron kit | Pro'sKit Official Website",
+      "headings": [
+        "6 piece soldering iron kit"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en",
+      "checked": "2026-10-01T20:25:16.717159+00:00",
+      "status": 200,
+      "final_url": "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Velleman K/SOLD2N: Soldering set, soldering iron 25 W, desoldering pump, soldering iron holder, soldering tin – Velleman – Wholesaler and developer of electronics",
+      "headings": [
+        "Soldering set, soldering iron 25 W, desoldering pump, soldering iron holder, soldering tin"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us",
+      "checked": "2026-10-01T20:25:17.409673+00:00",
+      "status": 200,
+      "final_url": "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Soldering iron kit 60W/120V, US | Weller Tools",
+      "headings": [
+        "Soldering iron kit 60W/120V, US"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.weller-tools.com/us/en/consumer/products/soldering-accessories/helping-hands-magnifier",
+      "checked": "2026-10-01T20:25:17.427773+00:00",
+      "status": 200,
+      "final_url": "https://www.weller-tools.com/us/en/consumer/products/soldering-accessories/helping-hands-magnifier",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Helping Hands with Magnifier | Weller Tools",
+      "headings": [
+        "Helping Hands with Magnifier"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+      "checked": "2026-10-01T20:25:17.867876+00:00",
+      "status": 200,
+      "final_url": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+      "content_type": "text/html",
+      "title": "Hot Air Rework Station with Soldering Iron | 878A/878D | YiHua",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+      "checked": "2026-10-01T20:25:18.830497+00:00",
+      "status": 200,
+      "final_url": "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+      "content_type": "text/html",
+      "title": "estación de soldadura y desoldadura de aire caliente con soldador YIHUA-878| YiHua",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/",
+      "checked": "2026-10-01T20:25:19.016177+00:00",
+      "status": 200,
+      "final_url": "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/",
+      "content_type": "text/html",
+      "title": "Hot Air Rework Station with Soldering Iron | 898D | YiHua",
+      "headings": [],
+      "generic_redirect": false
+    }
+  ],
   "rows": [
     {
       "path": "/soldadura-electronica/kit-soldador-de-estano/",

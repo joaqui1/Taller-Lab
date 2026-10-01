@@ -138,7 +138,7 @@
       },
       {
         "label": "Norton, guía de discos flap y minerales",
-        "url": "https://www.nortonabrasives.com/sites/mac3-acs-norton/files/2024-03/Brochure-Discs-Flap-Family-Norton-8392.pdf"
+        "url": "https://www.nortonabrasives.com/sites/mac3-acs-norton/files/2024-03/Brochure-Discs-Flap-Family-Norton-8392.pdf-196153.pdf"
       },
       {
         "label": "3M, guía de selección de discos flap",
@@ -2151,8 +2151,7 @@
     "cards": [
       "Lüsqtoff · LC2550B-8",
       "Gamma · G2802AR",
-      "Einhell · TE-AC 270/50 Silent",
-      "Lüsqtoff · LC2550B-8"
+      "Einhell · TE-AC 270/50 Silent"
     ],
     "model_sources": [
       {
@@ -3335,7 +3334,9 @@
       }
     ],
     "cards": [
-      "BTA · D-CA1-25-6"
+      "BTA · D-CA1-25-6",
+      "BTA · CSA-24-1",
+      "BTA · D-CA2-50-6"
     ],
     "model_sources": [
       {
@@ -3562,7 +3563,10 @@
       }
     ],
     "cards": [
-      "Stanley · FCCC404STC005"
+      "Stanley · FCCC404STC005",
+      "Stanley Fatmax · FHY227/10/24V",
+      "Stanley Fatmax · FHY227/10/50V",
+      "Stanley · D270/10/100V"
     ],
     "model_sources": [
       {
@@ -3696,7 +3700,9 @@
       }
     ],
     "cards": [
-      "Einhell · TC-AC 190/24/8 I OF"
+      "Einhell · TC-AC 190/24/8 I OF",
+      "Einhell · TE-AC 270/50 Silent",
+      "Einhell · TE-AC 430/90/10"
     ],
     "model_sources": [
       {
@@ -4947,10 +4953,6 @@
         "url": "https://tienda.reginato.com.ar/producto/88066/generador-hyundai-7000w-hy7500le-3/"
       },
       {
-        "label": "Cetrogar / vendedor Todo Todo",
-        "url": "https://www.cetrogar.com.ar/generador-hyundai-hhy9500le-monofasico-7200-w.html"
-      },
-      {
         "label": "categoría de generadores",
         "url": "https://hyundaiherramientas.com.ar/categoria-producto/generadores/"
       },
@@ -5005,10 +5007,6 @@
       {
         "label": "Reginato HY7500LE-3",
         "url": "https://tienda.reginato.com.ar/producto/88066/generador-hyundai-7000w-hy7500le-3/"
-      },
-      {
-        "label": "Cetrogar / Todo Todo HHY9500LE",
-        "url": "https://www.cetrogar.com.ar/generador-hyundai-hhy9500le-monofasico-7200-w.html"
       },
       {
         "label": "catálogo Reginato con HIG10501 inverter",
@@ -6694,7 +6692,12 @@
       }
     ],
     "cards": [
-      "STIHL · RE 80 X"
+      "STIHL · RE 80 X",
+      "STIHL · RE 90",
+      "STIHL · RE 110",
+      "STIHL · RE 120",
+      "STIHL · RE 145",
+      "STIHL · RE 150"
     ],
     "model_sources": [
       {
@@ -7067,7 +7070,9 @@
       }
     ],
     "cards": [
-      "Kärcher · K5 Power Control · 1.603-501.0"
+      "Kärcher · K5 Power Control · 1.603-501.0",
+      "Kärcher · K5 · 9.398-295.0",
+      "Kärcher · K4 Power Control · 1.603-402.0"
     ],
     "model_sources": [
       {
@@ -7143,7 +7148,10 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Gamma · 150 Elite · G2514AR",
+      "Gamma · 130 Elite Red Line · G2513AR"
+    ],
     "model_sources": [
       {
         "label": "Pinturería España mostraba $165.246,41",
@@ -7214,6 +7222,9 @@
       }
     ],
     "cards": [
+      "Comet · K 250 10/150 Classic · C2582AR",
+      "Comet · K 250 TSR 13/190 T Classic · C2583AR",
+      "Comet · KM Extra 8.16 · C2586AR",
       "Niwa · HDNW PRO-10 · 1040900"
     ],
     "model_sources": [
@@ -7291,7 +7302,9 @@
       }
     ],
     "cards": [
-      "Kärcher · K3 Black Edition · 9.398-355.0"
+      "Kärcher · K3 Black Edition · 9.398-355.0",
+      "Kärcher · K2 Basic Black · 1.994-322.0",
+      "Kärcher · K4 Power Control · 1.603-402.0"
     ],
     "model_sources": [
       {
@@ -7519,7 +7532,8 @@
       }
     ],
     "cards": [
-      "Gamma · 130 Elite Red Line · G2513AR"
+      "Gamma · 130 Elite Red Line · G2513AR",
+      "Gamma · 150 Elite · G2514AR"
     ],
     "model_sources": [
       {
@@ -7723,7 +7737,8 @@
       }
     ],
     "cards": [
-      "Lüsqtoff · HL-120"
+      "Lüsqtoff · HL-120",
+      "Lüsqtoff · HL-150"
     ],
     "model_sources": [
       {
@@ -7990,7 +8005,11 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Comet · K 250 TSR 13/190 T Classic · C2583AR",
+      "Comet · KM Extra 8.16 · C2586AR",
+      "Emona · F 200 · SKU 49292"
+    ],
     "model_sources": [
       {
         "label": "$4.739.280 efectivo o transferencia en Vagolnet",
@@ -8381,9 +8400,14 @@
       }
     ],
     "cards": [
-      "WIPCOOL · C30S"
+      "WIPCOOL · C30S",
+      "WIPCOOL · C10"
     ],
     "model_sources": [
+      {
+        "label": "WIPCOOL C10",
+        "url": "https://www.wipcool.com/portable-hvac-ac-condenser-evaporator-coils-service-cleaning-machine-product/"
+      },
       {
         "label": "ficha oficial del C30S",
         "url": "https://www.wipcool.com/steam-cleaning-machine-c30s-product/"
@@ -10232,7 +10256,7 @@
       },
       {
         "label": "Makita DHS710Z Argentina",
-        "url": "https://makita.com.ar/producto/351-sierra-circular-inalambrica-18v-4800-rpm/"
+        "url": "https://makita.com.ar/producto/351-sierra-circular-inalmbrica-18v-4800-rpm/"
       }
     ]
   },
@@ -10635,7 +10659,9 @@
       }
     ],
     "cards": [
-      "ESAB Heavy Duty Black"
+      "ESAB · Heavy Duty Black",
+      "ESAB · TIG Basic · 0700500460",
+      "ESAB · Heavy Duty EXL · 0700500432 / 0700500433"
     ],
     "model_sources": [
       {
@@ -10908,9 +10934,9 @@
       {
         "heading": "Gas y tamaño de bobina",
         "rows": [
-          "ESAB Weld 70S-6, acero al carbono",
-          "ESAB Sureweld 308LSi, inoxidable",
-          "ESAB OK Autrod 4043, aluminio"
+          "[ESAB Weld 70S-6](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/), acero al carbono",
+          "[ESAB Sureweld 308LSi](https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/), inoxidable",
+          "[ESAB OK Autrod 4043](https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/), aluminio"
         ]
       }
     ],
@@ -10949,6 +10975,18 @@
       {
         "label": "HandyArc MIG 160i",
         "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/"
+      },
+      {
+        "label": "ESAB Weld 70S-6",
+        "url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/"
+      },
+      {
+        "label": "ESAB Sureweld 308LSi",
+        "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/"
+      },
+      {
+        "label": "ESAB OK Autrod 4043",
+        "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/"
       },
       {
         "label": "ESAB Weld 70S-6, clasificación, diámetro, parámetros y gas",
@@ -11272,8 +11310,8 @@
       {
         "heading": "Compatibilidad y ficha técnica",
         "rows": [
-          "OK Ni-CI, AWS A5.15 ENi-CI",
-          "OK NiFe-CI, AWS A5.15 ENiFe-CI"
+          "[OK Ni-CI](https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/), AWS A5.15 ENi-CI",
+          "[OK NiFe-CI](https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/), AWS A5.15 ENiFe-CI"
         ]
       }
     ],
@@ -11288,6 +11326,14 @@
       {
         "label": "Ficha Castolin EutecTrode 244",
         "url": "https://www.castolin.com/en-US/product/eutectroder-244"
+      },
+      {
+        "label": "OK Ni-CI",
+        "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/"
+      },
+      {
+        "label": "OK NiFe-CI",
+        "url": "https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/"
       },
       {
         "label": "ESAB OK Ni-CI",
@@ -12804,7 +12850,8 @@
       }
     ],
     "cards": [
-      "Bosch GSB 550 RE"
+      "Bosch · GSB 550 RE",
+      "Bosch · GSB 18V-50"
     ],
     "model_sources": [
       {
@@ -13272,7 +13319,9 @@
       }
     ],
     "cards": [
-      "DeWalt DCH273B"
+      "DeWalt · DCH273B",
+      "DeWalt · DCH133B",
+      "DeWalt · D25333K-QS"
     ],
     "model_sources": [
       {
@@ -13639,7 +13688,8 @@
       }
     ],
     "cards": [
-      "Bosch CYL-9 · 6 mm · cerámica/azulejo"
+      "Bosch · CYL-9 · 6 mm · cerámica/azulejo",
+      "Bosch · EXPERT HEX-9 HardCeramic · 6 mm"
     ],
     "model_sources": [
       {
@@ -13877,7 +13927,8 @@
       }
     ],
     "cards": [
-      "Bosch HSS escalonada 4–20 mm · 2608597519"
+      "Bosch · HSS escalonada 4–20 mm · 2608597519",
+      "Högert · HT6D323"
     ],
     "model_sources": [
       {

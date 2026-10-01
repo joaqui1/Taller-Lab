@@ -1,9 +1,1441 @@
 {
   "section": "generadores",
-  "checked": "2026-10-01T20:18:11.753866+00:00",
+  "checked": "2026-10-01T20:35:56.433302+00:00",
   "articles": 21,
   "structural_failures": [],
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://attain.com.ar/shop/5991-generador-portatil-grupo-electrogeno-konan-800w-2hp-2t-220v-1137",
+      "checked": "2026-10-01T20:24:43.649042+00:00",
+      "status": 200,
+      "final_url": "https://attain.com.ar/shop/5991-generador-portatil-grupo-electrogeno-konan-800w-2hp-2t-220v-1137",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Generador Portatil Grupo Electrogeno Konan 800w 2hp 2t 220v | Grupo Attain",
+      "headings": [
+        "Generador Portatil Grupo Electrogeno Konan 800w 2hp 2t 220v"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://bosquetec.com.ar/producto/konan-generador-electrico-kge800/",
+      "checked": "2026-10-01T20:24:43.650398+00:00",
+      "status": 200,
+      "final_url": "https://bosquetec.com.ar/producto/konan-generador-electrico-kge800/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Konan Generador Electrico – Kge800 – Bosquetec",
+      "headings": [
+        "Konan Generador Electrico – Kge800",
+        "Konan Generador Electrico – Kge800"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://br.bluettipower.com/products/ac70-estacao-de-energia-portatil",
+      "checked": "2026-10-01T20:24:43.651137+00:00",
+      "status": 200,
+      "final_url": "https://br.bluettipower.com/products/ac70-estacao-de-energia-portatil",
+      "content_type": "text/html; charset=utf-8",
+      "title": "BLUETTI AC70 Estação de Energia Portátil | 1000 W 768 Wh\n      \n      \n      \n       - BLUETTI BR",
+      "headings": [
+        "BLUETTI AC70 Estação de Energia Portátil | 1000 W 768 Wh"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://cdn.rumbosrl.com.ar/uploads/products/pdfs/manuales/1025552_om.pdf",
+      "checked": "2026-10-01T20:24:43.651793+00:00",
+      "status": 200,
+      "final_url": "https://cdn.rumbosrl.com.ar/uploads/products/pdfs/manuales/1025552_om.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://cupra.com.ar/grupos-electrogenos-generadores/10672-grupo-electrogeno-gamma-8500-ve-85-kw-trifuel-nafta-glp-y-gn-4t-nafta-iva-105-arrelectrico.html",
+      "checked": "2026-10-01T20:24:43.712503+00:00",
+      "status": 200,
+      "final_url": "https://cupra.com.ar/grupos-electrogenos-generadores/10672-grupo-electrogeno-gamma-8500-ve-85-kw-trifuel-nafta-glp-y-gn-4t-nafta-iva-105-arrelectrico.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Grupo  Electrogeno  \" Gamma \"  8500 Ve  8.5 Kw   *trifuel Nafta, Glp Y Gn-  4t  Nafta (iva 10.5%) Arr.electrico",
+      "headings": [
+        "Grupo  Electrogeno  \" Gamma \"  8500 Ve  8.5 Kw   *trifuel Nafta, Glp Y Gn-  4t  Nafta (iva 10.5%) Arr.electrico"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://ecoflow.com.ar/",
+      "checked": "2026-10-01T20:24:43.751779+00:00",
+      "status": 200,
+      "final_url": "https://ecoflow.com.ar/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EcoFlow Argentina | FOXBOX Group",
+      "headings": [
+        "DELTA",
+        "RIVER",
+        "Estaciones de energía portátiles"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2020/10/GE3470AR_MANUAL.pdf",
+      "checked": "2026-10-01T20:24:44.279476+00:00",
+      "status": 200,
+      "final_url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2020/10/GE3470AR_MANUAL.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2025/12/GE3493AR_GE3494AR_MANUAL_web.pdf",
+      "checked": "2026-10-01T20:24:44.317315+00:00",
+      "status": 200,
+      "final_url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2025/12/GE3493AR_GE3494AR_MANUAL_web.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://honda.com.ar/honda-presenta-generador-EU70iS.php",
+      "checked": "2026-10-01T20:24:44.370035+00:00",
+      "status": 200,
+      "final_url": "https://honda.com.ar/honda-presenta-generador-EU70iS.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Honda presenta el generador EU70iS | Novedades | Honda Argentina",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/categoria-producto/generadores/",
+      "checked": "2026-10-01T20:24:44.380348+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/categoria-producto/generadores/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generadores archivos - Hyundai Herramientas",
+      "headings": [
+        "Generadores"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/faqs/",
+      "checked": "2026-10-01T20:24:44.393188+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/faqs/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "FAQs - Hyundai Herramientas",
+      "headings": [
+        "Preguntas & Respuestas"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-12000w-hhy12000fe/",
+      "checked": "2026-10-01T20:24:44.412451+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-12000w-hhy12000fe/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador 12000W - HHY12000FE - Hyundai Herramientas",
+      "headings": [
+        "Generador 12000W – HHY12000FE"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-2200-w-hhy2200f/",
+      "checked": "2026-10-01T20:24:44.681130+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-2200-w-hhy2200f/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador 2200 W - HHY2200F - Hyundai Herramientas",
+      "headings": [
+        "Generador 2200 W – HHY2200F"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-7000w-hy7500le/",
+      "checked": "2026-10-01T20:24:44.823943+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-7000w-hy7500le/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador 7000W HY7500LE - Hyundai Herramientas",
+      "headings": [
+        "Generador 7000W HY7500LE"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-800-w-hyh960a/",
+      "checked": "2026-10-01T20:24:45.623822+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-800-w-hyh960a/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador 800 W - HYH960A - Hyundai Herramientas",
+      "headings": [
+        "Generador  800 W – HYH960A"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-8kw-hy95000-monofasico/",
+      "checked": "2026-10-01T20:24:45.812674+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-8kw-hy95000-monofasico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador 8KW HY95000LE MONOFÁSICO - Hyundai Herramientas",
+      "headings": [
+        "Generador 8KW HY95000LE MONOFÁSICO"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-diesel-monofasico-8kva-070g/",
+      "checked": "2026-10-01T20:24:45.861715+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-diesel-monofasico-8kva-070g/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Diesel Monofásico 8KVA - 070G - Hyundai Herramientas",
+      "headings": [
+        "Generador Diesel Monofásico 8KVA – 070G"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-diesel-trifasico-con-arranque-electrico-8-kva-080g/",
+      "checked": "2026-10-01T20:24:45.982362+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-diesel-trifasico-con-arranque-electrico-8-kva-080g/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Diesel Trifásico Con Arranque Eléctrico 8 KVA - 080G - Hyundai Herramientas",
+      "headings": [
+        "Generador Diesel Trifásico Con Arranque Eléctrico 8 KVA – 080G"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-071g/",
+      "checked": "2026-10-01T20:24:46.114700+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-071g/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Insonorizado 8 KVA - 071G - Hyundai Herramientas",
+      "headings": [
+        "Generador Insonorizado 8 KVA – 071G"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-073g",
+      "checked": "2026-10-01T20:24:46.354689+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/producto/generador-insonorizado-8-kva-073g/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Insonorizado 8 KVA - 073G - Hyundai Herramientas",
+      "headings": [
+        "Generador Insonorizado 8 KVA – 073G"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/quienes-somos-2/",
+      "checked": "2026-10-01T20:24:47.466283+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/quienes-somos-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Quines Somos - Hyundai Herramientas",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/servicio-tecnico/",
+      "checked": "2026-10-01T20:24:47.786349+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/servicio-tecnico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Servicio técnico en todo el país - Hyundai Herramientas",
+      "headings": [
+        "Servicio técnico en todo el país"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://hyundaiherramientas.com.ar/wp-content/uploads/Manuales_Fichas/019-0010.pdf",
+      "checked": "2026-10-01T20:24:47.944331+00:00",
+      "status": 200,
+      "final_url": "https://hyundaiherramientas.com.ar/wp-content/uploads/Manuales_Fichas/019-0010.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://impulsorepuestos.com.ar/herramientas-niwa/generadores/",
+      "checked": "2026-10-01T20:24:48.007183+00:00",
+      "status": 200,
+      "final_url": "https://impulsorepuestos.com.ar/herramientas-niwa/generadores/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Comprar Generadores en Impulso Repuestos",
+      "headings": [
+        "Generadores"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3493ar-13-kw/",
+      "checked": "2026-10-01T20:24:48.171399+00:00",
+      "status": 200,
+      "final_url": "https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3493ar-13-kw/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Estacionario Gamma GE3493AR 13kW a Gas Automático",
+      "headings": [
+        "Generador Estacionario Gamma GE3493AR – 13 kW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3494ar-17kw-185ra/",
+      "checked": "2026-10-01T20:24:48.576236+00:00",
+      "status": 200,
+      "final_url": "https://indupro.mitiendanube.com/productos/generador-estacionario-gamma-ge3494ar-17kw-185ra/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Estacionario Gamma GE3494AR 17kW Automático Gas",
+      "headings": [
+        "Generador Estacionario Gamma GE3494AR 17kW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://legacy.genconnect.generac.com/Media/vwDoc.axd?d=08d4c3d6-258a-4f62-98d1-218e72bdec3d",
+      "checked": "2026-10-01T20:24:48.619692+00:00",
+      "status": 200,
+      "final_url": "https://legacy.genconnect.generac.com/Media/vwDoc.axd?d=08d4c3d6-258a-4f62-98d1-218e72bdec3d",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/9.%20GRUPOS%20ELECTR%C3%93GENOS/LG2500/LG2500.pdf",
+      "checked": "2026-10-01T20:24:48.756523+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/9.%20GRUPOS%20ELECTR%C3%93GENOS/LG2500/LG2500.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/categorias/grupos-electrogenos",
+      "checked": "2026-10-01T20:24:48.807059+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/categorias/grupos-electrogenos",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Grupos Electrógenos"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/donde-comprar",
+      "checked": "2026-10-01T20:24:48.974698+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/donde-comprar",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - ¿Dónde comprar?",
+      "headings": [
+        "Dónde comprar"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/posventa",
+      "checked": "2026-10-01T20:24:49.032083+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/posventa",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Posventa",
+      "headings": [
+        "Posventa"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/generador-inverter-35-kva-lgi35-8",
+      "checked": "2026-10-01T20:24:49.160682+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/generador-inverter-35-kva-lgi35-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 3.5 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LG3500EX",
+      "checked": "2026-10-01T20:24:49.365805+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LG3500EX",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO 3500 W • EXTREME"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LG7500EX",
+      "checked": "2026-10-01T20:24:49.440272+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LG7500EX",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO • 6500 W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LG7500EXT",
+      "checked": "2026-10-01T20:24:49.485453+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LG7500EXT",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO TRIFÁSICO • 6500 W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LG950P",
+      "checked": "2026-10-01T20:24:49.555811+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LG950P",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO • 950 W - 2T"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGD8000-8",
+      "checked": "2026-10-01T20:24:49.643403+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGD8000-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR DIESEL • 6,5 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "checked": "2026-10-01T20:24:49.662826+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 11 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGI3.8-8",
+      "checked": "2026-10-01T20:24:49.710089+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGI3.8-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 3.5 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGI5.0-9",
+      "checked": "2026-10-01T20:24:49.711072+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGI5.0-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 4.2 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGI5.5-8",
+      "checked": "2026-10-01T20:24:49.790727+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGI5.5-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER INSONORIZADO • 5.2 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGI7.5-8",
+      "checked": "2026-10-01T20:24:49.840109+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGI7.5-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER INSONORIZADO • 5.5 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/LGIS3.8-8",
+      "checked": "2026-10-01T20:24:49.879287+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/LGIS3.8-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR MOTOSOLDADORA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES",
+      "checked": "2026-10-01T20:24:49.927919+00:00",
+      "status": 200,
+      "final_url": "https://manuals.ecoflow.com/eu/product/delta-2-portable-power-station?lang=es_ES",
+      "content_type": "text/html; charset=utf-8",
+      "title": "",
+      "headings": [
+        ""
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://mercadocordoba.com.ar/producto/163",
+      "checked": "2026-10-01T20:24:50.006374+00:00",
+      "status": 200,
+      "final_url": "https://mercadocordoba.com.ar/producto/163",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Grupo Electrógeno 720W Pektra 0,72kva 3/4hp 980 Nafta Generador 2T | MercadoCórdoba",
+      "headings": [
+        "Grupo Electrógeno 720W Pektra 0,72kva 3/4hp 980 Nafta Generador 2T"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/categoria-producto/generadores",
+      "checked": "2026-10-01T20:24:50.038147+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/categoria-producto/generadores",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Categoria: Generadores - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/concesionarios-y-servicios",
+      "checked": "2026-10-01T20:24:50.075918+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/concesionarios-y-servicios",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Todos Los Concesionarios y Servicios Honda - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EG6500CXS.pdf",
+      "checked": "2026-10-01T20:24:50.115263+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EG6500CXS.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://pf.honda.com.ar/descargar/ficha_tecnica/ET12000.pdf",
+      "checked": "2026-10-01T20:24:50.162994+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/descargar/ficha_tecnica/ET12000.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf",
+      "checked": "2026-10-01T20:24:50.173542+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EU22i.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EZ6500CXS.pdf",
+      "checked": "2026-10-01T20:24:50.204264+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/descargar/ficha_tecnica/EZ6500CXS.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EG1000",
+      "checked": "2026-10-01T20:24:50.213895+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EG1000",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EG1000 - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EG6500CXS",
+      "checked": "2026-10-01T20:24:50.228731+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EG6500CXS",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EG6500CXS - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/ET12000",
+      "checked": "2026-10-01T20:24:50.248170+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/ET12000",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "ET12000 - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EU22i",
+      "checked": "2026-10-01T20:24:50.364091+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EU22i",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EU22i - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EU30is",
+      "checked": "2026-10-01T20:24:50.376057+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EU30is",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EU30is - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EU70is",
+      "checked": "2026-10-01T20:24:50.416647+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EU70is",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EU70is - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EZ3000CX",
+      "checked": "2026-10-01T20:24:50.440354+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EZ3000CX",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EZ3000CX - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pf.honda.com.ar/producto/EZ6500CXS",
+      "checked": "2026-10-01T20:24:50.453594+00:00",
+      "status": 200,
+      "final_url": "https://pf.honda.com.ar/producto/EZ6500CXS",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EZ6500CXS - Honda",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://pramac.com/file/51089",
+      "checked": "2026-10-01T20:24:50.469435+00:00",
+      "status": 200,
+      "final_url": "https://pramac.com/file/51089",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://s4.bluettipower.com/bluetti_lgf/support/2025/05/64b84129-bc32-4821-9066-016fcc7c6366.pdf",
+      "checked": "2026-10-01T20:24:50.528659+00:00",
+      "status": 200,
+      "final_url": "https://s4.bluettipower.com/bluetti_lgf/support/2025/05/64b84129-bc32-4821-9066-016fcc7c6366.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://s4.bluettipower.com/bluetti_lgf/support/2025/06/c7116c12-6152-460d-8380-f044baa7c75f.pdf",
+      "checked": "2026-10-01T20:24:50.543469+00:00",
+      "status": 200,
+      "final_url": "https://s4.bluettipower.com/bluetti_lgf/support/2025/06/c7116c12-6152-460d-8380-f044baa7c75f.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://static.weg.net/medias/downloadcenter/h40/hc6/WEG-maniobra-y-proteccion-de-motores-y-circuitos-electricos-50112294-es.pdf",
+      "checked": "2026-10-01T20:24:50.559523+00:00",
+      "status": 200,
+      "final_url": "https://static.weg.net/medias/downloadcenter/h40/hc6/WEG-maniobra-y-proteccion-de-motores-y-circuitos-electricos-50112294-es.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://support.ankersolix.com/s/article/Anker-SOLIX-C1000-C1000X-Portable-Power-Station-GU%C3%8DA-DEL-USUARIO-A1761",
+      "checked": "2026-10-01T20:24:50.702616+00:00",
+      "status": 200,
+      "final_url": "https://support.ankersolix.com/s/article/Anker-SOLIX-C1000-C1000X-Portable-Power-Station-GU%C3%8DA-DEL-USUARIO-A1761",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Anker SOLIX",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.reginato.com.ar/catalogo/?marca_id=3968",
+      "checked": "2026-10-01T20:24:50.870501+00:00",
+      "status": 200,
+      "final_url": "https://tienda.reginato.com.ar/catalogo/?marca_id=3968",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Catálogo de Productos | HYUNDAI | Reginato",
+      "headings": [
+        "Catálogo"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.reginato.com.ar/producto/88066/generador-hyundai-7000w-hy7500le-3/",
+      "checked": "2026-10-01T20:24:50.894300+00:00",
+      "status": 200,
+      "final_url": "https://tienda.reginato.com.ar/producto/88066/generador-hyundai-7000w-hy7500le-3/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Generador HYUNDAI 7000W HY7500LE-3 | Reginato",
+      "headings": [
+        "Generador HYUNDAI 7000W HY7500LE-3"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.reginato.com.ar/producto/88068/generador-hyundai-7000w-hy7500le/",
+      "checked": "2026-10-01T20:24:51.021663+00:00",
+      "status": 200,
+      "final_url": "https://tienda.reginato.com.ar/producto/88068/generador-hyundai-7000w-hy7500le/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Generador HYUNDAI 7000W HY7500LE | Reginato",
+      "headings": [
+        "Generador HYUNDAI 7000W HY7500LE"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.rumbosrl.com.ar/tienda/ferreteria/productos-de-fuerza/generacion",
+      "checked": "2026-10-01T20:24:51.415552+00:00",
+      "status": 200,
+      "final_url": "https://tienda.rumbosrl.com.ar/tienda/ferreteria/productos-de-fuerza/generacion",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Generación - Grupo Rumbo",
+      "headings": [
+        "Generación",
+        "Generación"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.rumbosrl.com.ar/tienda/ferreteria/productos-de-fuerza/generacion/grupos-electrogenos-nafteros",
+      "checked": "2026-10-01T20:24:52.425473+00:00",
+      "status": 200,
+      "final_url": "https://tienda.rumbosrl.com.ar/tienda/ferreteria/productos-de-fuerza/generacion/grupos-electrogenos-nafteros",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Grupos electrógenos nafteros - Grupo Rumbo",
+      "headings": [
+        "Grupos electrógenos nafteros",
+        "Grupos electrógenos nafteros"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tienda.rumbosrl.com.ar/tienda/terminos-y-condiciones",
+      "checked": "2026-10-01T20:24:52.464229+00:00",
+      "status": 200,
+      "final_url": "https://tienda.rumbosrl.com.ar/tienda/terminos-y-condiciones",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Grupo Rumbo-Términos y Condiciones",
+      "headings": [
+        "Términos y Condiciones"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://tiendasoymat.com.ar/productos/grupo-electrogeno-6000v-gamma/",
+      "checked": "2026-10-01T20:24:52.690148+00:00",
+      "status": 200,
+      "final_url": "https://tiendasoymat.com.ar/productos/grupo-electrogeno-6000v-gamma/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Grupo Electrógeno 6000V Gamma - TiendaSoyMat",
+      "headings": [
+        "Grupo Electrógeno 6000V Gamma"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://wandel.com.ar/productos/generador-ez6500cxs/",
+      "checked": "2026-10-01T20:24:52.730331+00:00",
+      "status": 200,
+      "final_url": "https://wandel.com.ar/productos/generador-ez6500cxs/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "GENERADOR EZ6500CXS 6,5KVA ARR/ELEC C/RUEDAS HONDA",
+      "headings": [
+        "GENERADOR EZ6500CXS 6,5KVA ARR/ELEC C/RUEDAS HONDA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.agronline.com.ar/generador-hhy3000fe-hyundai.html",
+      "checked": "2026-10-01T20:24:53.272761+00:00",
+      "status": 200,
+      "final_url": "https://www.agronline.com.ar/generador-hhy3000fe-hyundai.html",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Hhy3000Fe Hyundai   | Agronline",
+      "headings": [
+        "Generador Hhy3000Fe Hyundai"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.agronline.com.ar/grupo-elec-2-0-2-2kva-110-220v-hyundai.html",
+      "checked": "2026-10-01T20:24:53.587960+00:00",
+      "status": 200,
+      "final_url": "https://www.agronline.com.ar/grupo-elec-2-0-2-2kva-110-220v-hyundai.html",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Grupo Elec 2,0-2,2Kva 110-220V Hyundai  | Agronline",
+      "headings": [
+        "Grupo Elec 2,0-2,2Kva 110-220V Hyundai"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.ankersolix.com/eu/products/a1761-c1000",
+      "checked": "2026-10-01T20:24:53.669027+00:00",
+      "status": 200,
+      "final_url": "https://www.ankersolix.com/eu/products/a1761-c1000",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Anker SOLIX C1000 | UltraFast Recharging, Long-Lasting Power - Anker SOLIX EU",
+      "headings": [
+        "Anker SOLIX C1000 Portable Power Station - 1056Wh | 1800W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.bluettipower.com/products/ac70",
+      "checked": "2026-10-01T20:24:54.076285+00:00",
+      "status": 200,
+      "final_url": "https://www.bluettipower.com/products/ac70",
+      "content_type": "text/html; charset=utf-8",
+      "title": "BLUETTI AC70 Portable Power Station | 1,000W 768Wh - BLUETTI US",
+      "headings": [
+        "BLUETTI AC70 Portable Power Station | 1,000W 768Wh"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.bulonerapatagonica.com.ar/herramientas-industriales/generadores/",
+      "checked": "2026-10-01T20:24:54.538712+00:00",
+      "status": 200,
+      "final_url": "https://www.bulonerapatagonica.com.ar/herramientas-industriales/generadores/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Concesionario oficial de grupo electrógeno HONDA y FMT",
+      "headings": [
+        "Generadores"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.cetrogar.com.ar/generador-hyundai-hhy9500le-monofasico-7200-w.html",
+      "checked": "2026-10-01T20:24:54.879971+00:00",
+      "status": 200,
+      "final_url": "https://www.cetrogar.com.ar/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Electrodomésticos, tecnología y artículos de hogar | Cetrogar | Cetrogar",
+      "headings": [],
+      "generic_redirect": true
+    },
+    {
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Guides/Carbon-Monoxide-Home/Generators-and-Engine-Driven-Tools",
+      "checked": "2026-10-01T20:24:54.983974+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cpsc.gov/s3fs-public/pdfs/foia_PortableGenerators.pdf",
+      "checked": "2026-10-01T20:24:55.064437+00:00",
+      "status": 200,
+      "final_url": "https://www.cpsc.gov/s3fs-public/pdfs/foia_PortableGenerators.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.ecoflow.com/eu/delta-2-portable-power-station",
+      "checked": "2026-10-01T20:24:55.522631+00:00",
+      "status": 200,
+      "final_url": "https://www.ecoflow.com/eu/delta-2-portable-power-station",
+      "content_type": "text/html; charset=utf-8",
+      "title": "New EcoFlow DELTA 2 Portable Power Station | EcoFlow EU",
+      "headings": [
+        "EcoFlow DELTA 2"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.ecoflow.com/us/delta-2-max-portable-power-station",
+      "checked": "2026-10-01T20:24:55.531170+00:00",
+      "status": 200,
+      "final_url": "https://www.ecoflow.com/us/delta-2-max-portable-power-station",
+      "content_type": "text/html; charset=utf-8",
+      "title": "EcoFlow DELTA 2 Max | Max Power Anywhere | Portable Power Station | EcoFlow US",
+      "headings": [
+        "EcoFlow DELTA 2 Max"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.enargas.gob.ar/secciones/seguridad-en-el-hogar/preguntas-frecuentes.php",
+      "checked": "2026-10-01T20:24:55.565537+00:00",
+      "status": 200,
+      "final_url": "https://www.enargas.gob.ar/secciones/seguridad-en-el-hogar/preguntas-frecuentes.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "ENReGE",
+      "headings": [
+        "ENReGE Ente Nacional Regulador del Gas y la Electricidad",
+        "Preguntas frecuentes sobre instalaciones internas de gas"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/categoria-producto/discontinuos/",
+      "checked": "2026-10-01T20:24:55.623694+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/categoria-producto/discontinuos/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/categoria-producto/grupos-electrogenos/",
+      "checked": "2026-10-01T20:24:56.092318+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/categoria-producto/grupos-electrogenos/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/como-elegir-correctamente-un-grupo-electrogeno-adecuado/",
+      "checked": "2026-10-01T20:24:56.348344+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/como-elegir-correctamente-un-grupo-electrogeno-adecuado/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/",
+      "checked": "2026-10-01T20:24:56.469317+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-3000v-ge3480ar/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/",
+      "checked": "2026-10-01T20:24:58.028779+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6000v/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6500-v-2/",
+      "checked": "2026-10-01T20:24:58.238259+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-6500-v-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/",
+      "checked": "2026-10-01T20:24:58.291214+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-950/",
+      "checked": "2026-10-01T20:24:58.348669+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-950/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-elite-6500-e/",
+      "checked": "2026-10-01T20:24:58.566070+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-elite-6500-e/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/",
+      "checked": "2026-10-01T20:24:59.288757+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/",
+      "checked": "2026-10-01T20:25:07.480065+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf10000/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf8500/",
+      "checked": "2026-10-01T20:25:09.122440+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-trifuel-tf8500/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogenos-4500v/",
+      "checked": "2026-10-01T20:25:09.129215+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogenos-4500v/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-13kw/",
+      "checked": "2026-10-01T20:25:09.609938+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-13kw/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-17kw/",
+      "checked": "2026-10-01T20:25:09.680415+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-17kw/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-8-5kw/",
+      "checked": "2026-10-01T20:25:10.451292+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/producto/grupo-estacionario-8-5kw/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf",
+      "checked": "2026-10-01T20:25:12.364597+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/11/MANUAL-GE-OK_compressed.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2025/03/GE3490AR-GE3491AR_MANUAL-web.pdf",
+      "checked": "2026-10-01T20:25:12.406674+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2025/03/GE3490AR-GE3491AR_MANUAL-web.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-102-manual.pdf",
+      "checked": "2026-10-01T20:25:12.453666+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-102-manual.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-103-despiece.pdf",
+      "checked": "2026-10-01T20:25:12.514080+00:00",
+      "status": 200,
+      "final_url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/grupos-electrogenos_grupo-electrogeno-950_GE3441AR-103-despiece.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.gammamarket.com.ar/grupos-electrogenos",
+      "checked": "2026-10-01T20:25:12.545826+00:00",
+      "status": 200,
+      "final_url": "https://www.gammamarket.com.ar/grupos-electrogenos",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Gamma Market | Grupos electrógenos - Para luz de emergencia o uso eventual",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.generac.com.ar/_files/ugd/31f31b_3460fa12940846e3b3cb0df69786d423.pdf",
+      "checked": "2026-10-01T20:25:12.644231+00:00",
+      "status": 200,
+      "final_url": "https://www.generac.com.ar/_files/ugd/31f31b_3460fa12940846e3b3cb0df69786d423.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.generac.com.ar/_files/ugd/31f31b_9cff5ef12d254821821a6e3f00a01f49.pdf",
+      "checked": "2026-10-01T20:25:12.744318+00:00",
+      "status": 200,
+      "final_url": "https://www.generac.com.ar/_files/ugd/31f31b_9cff5ef12d254821821a6e3f00a01f49.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.generac.com.ar/instaladores",
+      "checked": "2026-10-01T20:25:12.879078+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.generac.com/globalassets/products/business/stationary-generators/diesel-industrial-generators/spec-sheets/sd050-50kw-diesel-generator-specsheet.pdf",
+      "checked": "2026-10-01T20:25:13.011344+00:00",
+      "status": 200,
+      "final_url": "https://www.generac.com/globalassets/products/business/stationary-generators/diesel-industrial-generators/spec-sheets/sd050-50kw-diesel-generator-specsheet.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.honda.com.ar/aviso-importante.php",
+      "checked": "2026-10-01T20:25:13.072571+00:00",
+      "status": 200,
+      "final_url": "https://www.honda.com.ar/aviso-importante.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "HONDA AVISO IMPORTANTE",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.honda.com.ar/informacion-legal.php",
+      "checked": "2026-10-01T20:25:13.073658+00:00",
+      "status": 200,
+      "final_url": "https://www.honda.com.ar/informacion-legal.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Información Legal de la Empresa | Honda Argentina",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.konan.com.ar/productos/generador-electrico-kge-800",
+      "checked": "2026-10-01T20:25:13.131973+00:00",
+      "status": 200,
+      "final_url": "https://www.konan.com.ar/productos/generador-electrico-kge-800",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Generador eléctrico monofásico 800W Konan KGE/800 - KONAN Máquinas y Herramienta",
+      "headings": [
+        "Generador eléctrico monofásico 800W Konan",
+        "Accesorios y Complementos",
+        "Te puede interesar"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lg.com/ar/aire-acondicionado/lg-US-W096WSG3-inverter",
+      "checked": "2026-10-01T20:25:13.139926+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/catalogos",
+      "checked": "2026-10-01T20:25:13.140709+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/catalogos",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - CATÁLOGOS",
+      "headings": [
+        "Catálogos"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/productos/K1",
+      "checked": "2026-10-01T20:25:13.314061+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/productos/K1",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "KIT DE CONVERSIÓN A GAS PARA GENERADOR • 3500 WATSS"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/productos/generador-diesel-trifasico-9kw",
+      "checked": "2026-10-01T20:25:13.321717+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/productos/generador-diesel-trifasico-9kw",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR DIESEL TRIFÁSICO • 9 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/servicios-tecnicos",
+      "checked": "2026-10-01T20:25:13.354069+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/servicios-tecnicos",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Servicios técnicos",
+      "headings": [
+        "Servicios Técnicos"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/10GF-4",
+      "checked": "2026-10-01T20:25:13.471688+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/10GF-4",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO 4 T • 10.000 W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LG3000",
+      "checked": "2026-10-01T20:25:13.512897+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LG3000",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR DE CORRIENTE CON MOTOR A EXPLOSIÓN •  ENCENDIDO MANUAL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LG3000E",
+      "checked": "2026-10-01T20:25:13.756496+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LG3000E",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR DE CORRIENTE CON MOTOR A EXPLOSIÓN • ENCENDIDO ELÉCTRICO"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LG3500EX",
+      "checked": "2026-10-01T20:25:13.801748+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LG3500EX",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO 3500 W • EXTREME"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LG3500EXI",
+      "checked": "2026-10-01T20:25:13.836191+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LG3500EXI",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 3500 W •  EXTREME"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LG7500EXT",
+      "checked": "2026-10-01T20:25:13.950467+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LG7500EXT",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR NAFTERO TRIFÁSICO • 6500 W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "checked": "2026-10-01T20:25:13.982915+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 11 KVA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8",
+      "checked": "2026-10-01T20:25:14.033803+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LGI2.5-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 2.2 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8",
+      "checked": "2026-10-01T20:25:14.053680+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 3.5 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com/ver-producto/LGI8.0-9",
+      "checked": "2026-10-01T20:25:14.163201+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com/ver-producto/LGI8.0-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "GENERADOR INVERTER 7.5 KW"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.mobimotos.com.ar/productos/generador-honda-eg6500cxs-ra-5500w-4t-electrico-monofasico/",
+      "checked": "2026-10-01T20:25:14.201470+00:00",
+      "status": 200,
+      "final_url": "https://www.mobimotos.com.ar/productos/generador-honda-eg6500cxs-ra-5500w-4t-electrico-monofasico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Honda EG6500CXS-RA 5500W 4T Eléctrico Monofásico",
+      "headings": [
+        "Generador Honda EG6500CXS-RA 5500W 4T Eléctrico Monofásico"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.mobimotos.com.ar/productos/generador-honda-ez6500cxs-ra-5500w-monofasico-4t-electrico/",
+      "checked": "2026-10-01T20:25:14.259314+00:00",
+      "status": 200,
+      "final_url": "https://www.mobimotos.com.ar/productos/generador-honda-ez6500cxs-ra-5500w-monofasico-4t-electrico/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Generador Honda EZ6500CXS 6500W AVR 220V",
+      "headings": [
+        "Generador Honda EZ6500CXS 6500W Monofásico 220V AVR",
+        "Generador Honda EZ6500CXS"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+      "checked": "2026-10-01T20:25:14.270521+00:00",
+      "status": 200,
+      "final_url": "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Honda EU22i EU2200i 2,2 kW – Generador Inverter portátil, súper si",
+      "headings": [
+        "GENERADOR HONDA INVERTER EU22I 2200W"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.pramac.com/es_ES/product?folder=74&product=2423",
+      "checked": "2026-10-01T20:25:14.349894+00:00",
+      "status": 200,
+      "final_url": "https://www.pramac.com/es_ES/product?folder=74&product=2423",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Pramac - S6500 (24L) 230V 50Hz #IPP",
+      "headings": [
+        "Serie S - Generadores profesionales de alta gama"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.pramac.com/product?folder=74&product=2438",
+      "checked": "2026-10-01T20:25:14.391431+00:00",
+      "status": 200,
+      "final_url": "https://www.pramac.com/product?folder=74&product=2438",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Pramac - S6000 (24L) 400V  #IPP",
+      "headings": [
+        "S Series - Premium Professional Generators"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.provinciacompras.com.ar/generador-portatil-grupo-electrogeno-deluxe-hyundai-800w-293308/p",
+      "checked": "2026-10-01T20:25:14.480758+00:00",
+      "status": 200,
+      "final_url": "https://www.provinciacompras.com.ar/generador-portatil-grupo-electrogeno-deluxe-hyundai-800w-293308/p",
+      "content_type": "text/html; charset=utf-8",
+      "title": "",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.rumbosrl.com.ar/printficha.php?product_id=124",
+      "checked": "2026-10-01T20:25:14.559421+00:00",
+      "status": 200,
+      "final_url": "https://www.rumbosrl.com.ar/printficha.php?product_id=124",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.rumbosrl.com.ar/printficha.php?product_id=127",
+      "checked": "2026-10-01T20:25:14.860935+00:00",
+      "status": 200,
+      "final_url": "https://www.rumbosrl.com.ar/printficha.php?product_id=127",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.rumbosrl.com.ar/printficha.php?product_id=128",
+      "checked": "2026-10-01T20:25:14.879125+00:00",
+      "status": 200,
+      "final_url": "https://www.rumbosrl.com.ar/printficha.php?product_id=128",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.rumbosrl.com.ar/uploads/resources/Niwa-catalogo-prod-de-fuerza-4002-ED202209-01.pdf",
+      "checked": "2026-10-01T20:25:15.501606+00:00",
+      "status": 200,
+      "final_url": "https://www.rumbosrl.com.ar/uploads/resources/Niwa-catalogo-prod-de-fuerza-4002-ED202209-01.pdf",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://www.yanmar.com/eu/industrial/wp-content/uploads/sites/11/2021/06/YANMAR-Operation-Manual-YDG-Series.pdf",
+      "checked": "2026-10-01T20:25:15.653935+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
   "rows": [
     {
       "path": "/generadores/comparativa-general/",
@@ -190,7 +1622,7 @@
     {
       "path": "/generadores/hyundai/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\09-generadores-hyundai.md",
-      "body_sha256": "5354e01eee8534b7cb8ceb2cb4475731329a3230eab9ec72c6ddd55aece282a9",
+      "body_sha256": "25608345edfe01ff428586e69bfcc2a35727153ce9ea599675116f8f2d77e49d",
       "title": "Qué generador Hyundai elegir según tu consumo",
       "issues": [],
       "sources": [
@@ -209,13 +1641,19 @@
         "https://tienda.reginato.com.ar/producto/88068/generador-hyundai-7000w-hy7500le/",
         "https://www.agronline.com.ar/generador-hhy3000fe-hyundai.html",
         "https://www.agronline.com.ar/grupo-elec-2-0-2-2kva-110-220v-hyundai.html",
-        "https://www.cetrogar.com.ar/generador-hyundai-hhy9500le-monofasico-7200-w.html",
         "https://www.provinciacompras.com.ar/generador-portatil-grupo-electrogeno-deluxe-hyundai-800w-293308/p"
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "fuentes-generales-01",
+        "body_sha256": "25608345edfe01ff428586e69bfcc2a35727153ce9ea599675116f8f2d77e49d",
+        "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+        "notes": "Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+      }
     },
     {
       "path": "/generadores/gamma-6500/",

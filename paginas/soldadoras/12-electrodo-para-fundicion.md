@@ -58,8 +58,8 @@ La clasificación es un filtro inicial, no un procedimiento ni una recomendació
 
 | Producto / clasificación | Familia de aleación publicada | Aplicación que indica ESAB | Corriente publicada por diámetro |
 | :--- | :--- | :--- | :--- |
-| OK Ni-CI, AWS A5.15 ENi-CI | Base níquel; análisis típico 94 % Ni en ficha | Reparación/unión de fundiciones grises, dúctiles y maleables; también hierro fundido con acero | 2,5 mm: 55–110 A; 3,2 mm: 80–140 A |
-| OK NiFe-CI, AWS A5.15 ENiFe-CI | Níquel-hierro; análisis típico 53 % Ni y 44 % Fe en ficha | ESAB documenta fundición normal y unión con acero; la ficha estadounidense también nombra fundición maleable, nodular y aleada | 2,5 mm: 60–100 A; 3,2 mm: 80–150 A |
+| [OK Ni-CI](https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/), AWS A5.15 ENi-CI | Base níquel; análisis típico 94 % Ni en ficha | Reparación/unión de fundiciones grises, dúctiles y maleables; también hierro fundido con acero | 2,5 mm: 55–110 A; 3,2 mm: 80–140 A |
+| [OK NiFe-CI](https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/), AWS A5.15 ENiFe-CI | Níquel-hierro; análisis típico 53 % Ni y 44 % Fe en ficha | ESAB documenta fundición normal y unión con acero; la ficha estadounidense también nombra fundición maleable, nodular y aleada | 2,5 mm: 60–100 A; 3,2 mm: 80–150 A |
 
 **Dato documentado:** ESAB clasifica OK Ni-CI como ENi-CI y OK NiFe-CI como ENiFe-CI. Sus páginas informan composiciones típicas y rangos de corriente específicos para cada diámetro. ESAB describe OK Ni-CI para ciertos grados normales de fundición y uniones con acero; esas indicaciones corresponden a ese producto.
 
@@ -79,6 +79,8 @@ Antes de comprar, cotejá en la ficha vigente y en el envase:
 - Presentación, peso/cantidad, empaque y condición del electrodo. Las páginas citadas son de mercados distintos y no confirman stock, equivalencia de SKU ni precio vigente en Argentina.
 
 **Opciones documentadas en esta comparación:** OK Ni-CI y OK NiFe-CI son ejemplos concretos, no las únicas alternativas del mercado. Solicitá al fabricante o distribuidor que confirme la compatibilidad con el grado identificado y el servicio real antes de comprar.
+
+La publicación de compra de abajo corresponde a una referencia de níquel. Para comparar con níquel-hierro, abrí la ficha OK NiFe-CI de la tabla y pedí una cotización de su código, diámetro y presentación exactos. No contamos con una publicación de compra verificada de esa segunda alternativa.
 
 <!-- SOLDADORAS-OFERTAS -->
 

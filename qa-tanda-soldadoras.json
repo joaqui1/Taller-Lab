@@ -1,9 +1,1231 @@
 {
   "section": "soldadoras",
-  "checked": "2026-10-01T20:18:31.216930+00:00",
+  "checked": "2026-10-01T20:36:08.719234+00:00",
   "articles": 29,
   "structural_failures": [],
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://assets.esab.com/asset-bank/assetfile/131055",
+      "checked": "2026-10-01T20:24:52.524147+00:00",
+      "status": 200,
+      "final_url": "https://assets.esab.com/assetbank-esab/assetfile/131055",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://assets.esab.com/assetbank-esab/assetfile/41560.pdf",
+      "checked": "2026-10-01T20:24:52.525930+00:00",
+      "status": 200,
+      "final_url": "https://assets.esab.com/assetbank-esab/assetfile/41560.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/0543dfa0438b451096025e84d666a015?v=a71a7ecf",
+      "checked": "2026-10-01T20:24:52.526693+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/0543dfa0438b451096025e84d666a015?v=a71a7ecf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/1249e1096b6542c18ae63e7e28056477?v=b459a9f2",
+      "checked": "2026-10-01T20:24:52.527558+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/1249e1096b6542c18ae63e7e28056477?v=b459a9f2",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/32d2422304c343af925caac9019e4b1e?v=12199ce2",
+      "checked": "2026-10-01T20:24:52.528357+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/32d2422304c343af925caac9019e4b1e?v=12199ce2",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd",
+      "checked": "2026-10-01T20:24:52.647733+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/4b116c2b3b5f46fdaa024bac101c8e4b?v=e32391fd",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/5b1a00933782415e98e56639deb63f45?v=405651b4",
+      "checked": "2026-10-01T20:24:53.427352+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/5b1a00933782415e98e56639deb63f45?v=405651b4",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/7ced52781f354fde8bad8431deefb134?v=7e3cd2a7",
+      "checked": "2026-10-01T20:24:53.821761+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/7ced52781f354fde8bad8431deefb134?v=7e3cd2a7",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af",
+      "checked": "2026-10-01T20:24:53.997879+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/8725df5f87204365b9a7e07f0b8abd94?v=d3c3b1af",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/9d3e3c30cbe14e449aab15c4ffb3b016?v=b128a11c",
+      "checked": "2026-10-01T20:24:53.998654+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/9d3e3c30cbe14e449aab15c4ffb3b016?v=b128a11c",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da",
+      "checked": "2026-10-01T20:24:54.022277+00:00",
+      "status": 200,
+      "final_url": "https://ch-delivery.lincolnelectric.com/api/public/content/f5e38ae6ebf441829d73d7b1a404818b?v=84bee2da",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+      "checked": "2026-10-01T20:24:54.047274+00:00",
+      "status": 200,
+      "final_url": "https://dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+      "content_type": "text/html; charset=utf-8",
+      "title": "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA - Dogo",
+      "headings": [
+        "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA",
+        "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-exl/",
+      "checked": "2026-10-01T20:24:54.106184+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-exl/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Heavy duty EXL - ESAB MEA",
+      "headings": [
+        "Heavy duty EXL",
+        "Heavy duty EXL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/tig-basic-glove/",
+      "checked": "2026-10-01T20:24:54.315004+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ae/mea_en/products-solutions/product/ppe-safety/hands-and-body/tig-basic-glove/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "TIG Basic Glove - ESAB MEA",
+      "headings": [
+        "TIG Basic Glove",
+        "TIG Basic Glove"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/categories/welding-equipment/",
+      "checked": "2026-10-01T20:24:54.467537+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/categories/welding-equipment/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Equipos para Soldadura | ESAB South America Spanish",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-67-61-n/",
+      "checked": "2026-10-01T20:24:54.490282+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-67-61-n/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK 67.61 - ESAB South America Spanish",
+      "headings": [
+        "OK 67.61",
+        "OK 67.61"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+      "checked": "2026-10-01T20:24:54.581935+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/handyarc-mig-160i/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "HandyArc MIG 160i - ESAB South America Spanish",
+      "headings": [
+        "HandyArc MIG 160i",
+        "HandyArc MIG 160i"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/rogue-em-180/",
+      "checked": "2026-10-01T20:24:54.638090+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/mig-welders-gmaw/rogue-em-180/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Rogue EM 180 - ESAB South America Spanish",
+      "headings": [
+        "Rogue EM 180",
+        "Rogue EM 180"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
+      "checked": "2026-10-01T20:24:54.956967+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Rebel™ EMP 215ic - ESAB South America Spanish",
+      "headings": [
+        "Rebel™ EMP 215ic",
+        "Rebel™ EMP 215ic"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+      "checked": "2026-10-01T20:24:55.050799+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/handyarc-132i-dv-142i-162i/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "HandyArc 142i/162i - ESAB South America Spanish",
+      "headings": [
+        "HandyArc 142i/162i",
+        "HandyArc 142i/162i"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-202i/",
+      "checked": "2026-10-01T20:24:55.382462+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-202i/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Rogue LHN 202i - ESAB South America Spanish",
+      "headings": [
+        "Rogue LHN 202i",
+        "Rogue LHN 202i"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-242i/",
+      "checked": "2026-10-01T20:24:55.527696+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/stick-welders-smaw/lhn-242i/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Rogue LHN 242i - ESAB South America Spanish",
+      "headings": [
+        "Rogue LHN 242i",
+        "Rogue LHN 242i"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+      "checked": "2026-10-01T20:24:55.626596+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/products-solutions/product/welding-equipment/tig-welders-gtaw/et-200i-ac-dc/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "ET 200i AC/DC - ESAB South America Spanish",
+      "headings": [
+        "ET 200i AC/DC",
+        "ET 200i AC/DC"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ar/sam_es/support/warranty/warranty-coverage/",
+      "checked": "2026-10-01T20:24:55.929271+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ar/sam_es/support/warranty/warranty-coverage/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Cobertura de garantía | ESAB South America Spanish",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/au/apc_en/esab-university/blogs/storing-and-redrying-stick-electrodes-the-right-way/",
+      "checked": "2026-10-01T20:24:56.030229+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/au/apc_en/esab-university/blogs/storing-and-redrying-stick-electrodes-the-right-way/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Storing and redrying stick electrodes | ESAB APAC",
+      "headings": [
+        "Storing and Redrying Stick Electrodes the Right Way"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/au/apc_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/weld-6013/",
+      "checked": "2026-10-01T20:24:56.104739+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/au/apc_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/weld-6013/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Weld 6013 - ESAB APAC",
+      "headings": [
+        "Weld 6013",
+        "Weld 6013"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/au/apc_en/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-308l/",
+      "checked": "2026-10-01T20:24:56.256528+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/au/apc_en/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/ok-308l/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK 308L - ESAB APAC",
+      "headings": [
+        "OK 308L",
+        "OK 308L"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/",
+      "checked": "2026-10-01T20:24:56.465254+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/bd/ind_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/lbl-bw-e6013/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "LBL BW E6013 - ESAB (বাংলা)",
+      "headings": [
+        "LBL BW E6013",
+        "LBL BW E6013"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/br/sam_pt/esab-university/articles/como-identificar-o-eletrodo-e-a-corrente-corretos-para-soldagem/",
+      "checked": "2026-10-01T20:24:56.682836+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/br/sam_pt/esab-university/articles/como-identificar-o-eletrodo-e-a-corrente-corretos-para-soldagem/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Como escolher o eletrodo e a corrente adequados para soldagem? | ESAB Brasil",
+      "headings": [
+        "Como identificar o Eletrodo e a Corrente corretos para soldagem?"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/co/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/cromarco-316l-16-premium/",
+      "checked": "2026-10-01T20:24:56.781785+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/co/sam_es/products-solutions/product/filler-metals/stainless-steel/stick-electrodes-smaw/cromarco-316l-16-premium/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Cromarco 316L-16 Premium - ESAB Colombia",
+      "headings": [
+        "Cromarco 316L-16 Premium",
+        "Cromarco 316L-16 Premium"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/",
+      "checked": "2026-10-01T20:24:56.980741+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/dk/eur_en/esab-university/articles/tig-welding-guide-process-equipment-best-practices/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "TIG Welding (GTAW) Process Guide | ESAB Danmark",
+      "headings": [
+        "TIG Welding Guide - Process, Equipment & Best Practices"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/ee/eur_en/esab-university/articles/mig-vs-tig-for-aluminium-process-selection-guide/",
+      "checked": "2026-10-01T20:24:57.042796+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/ee/eur_en/esab-university/articles/mig-vs-tig-for-aluminium-process-selection-guide/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "MIG vs TIG: best process for aluminium? | ESAB Eesti",
+      "headings": [
+        "MIG vs TIG for Aluminium: Process Selection Guide"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+      "checked": "2026-10-01T20:24:57.488937+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK NiFe-CI - ESAB España",
+      "headings": [
+        "OK NiFe-CI",
+        "OK NiFe-CI"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/",
+      "checked": "2026-10-01T20:24:57.535316+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/gb/eur_en/products-solutions/product/accessories-and-consumables/welding-equipment-accessories/t1-foot-can/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "T1 Foot CAN - ESAB UK",
+      "headings": [
+        "T1 Foot CAN",
+        "T1 Foot CAN"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/lv/eur_en/esab-university/blogs/should-i-use-4043-or-5356-filler-alloy/",
+      "checked": "2026-10-01T20:24:57.602302+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/lv/eur_en/esab-university/blogs/should-i-use-4043-or-5356-filler-alloy/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Aluminium Filler Alloy Guide: 4043 vs 5356 vs 4047 | ESAB Latvija",
+      "headings": [
+        "Aluminium Filler Alloy Selection Guide: 4043 vs 5356 vs 4047"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/",
+      "checked": "2026-10-01T20:24:58.047253+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Weld 70S-6 - ESAB Mexico",
+      "headings": [
+        "Weld 70S-6",
+        "Weld 70S-6"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/",
+      "checked": "2026-10-01T20:24:58.279944+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/atom-arc-7018/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Atom Arc 7018 - ESAB Mexico",
+      "headings": [
+        "Atom Arc 7018",
+        "Atom Arc 7018"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-6013-sv/",
+      "checked": "2026-10-01T20:24:58.338906+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-6013-sv/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "ESAB 6013 SV - ESAB Mexico",
+      "headings": [
+        "ESAB 6013 SV",
+        "ESAB 6013 SV"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/pe/sam_es/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/migfil-404/",
+      "checked": "2026-10-01T20:24:58.448236+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/pe/sam_es/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/migfil-404/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "MIGFIL 404 - ESAB Perú",
+      "headings": [
+        "MIGFIL 404",
+        "MIGFIL 404"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/pe/sam_es/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-black-gloves/",
+      "checked": "2026-10-01T20:24:58.693250+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/pe/sam_es/products-solutions/product/ppe-safety/hands-and-body/heavy-duty-black-gloves/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Guantes HD Black - ESAB Perú",
+      "headings": [
+        "Guantes HD Black",
+        "Guantes HD Black"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/sites/eur_en/assets/Support/XA00232420.pdf",
+      "checked": "2026-10-01T20:24:58.777766+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/sites/eur_en/assets/Support/XA00232420.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/",
+      "checked": "2026-10-01T20:24:58.856572+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK Autrod 4043 - ESAB United States",
+      "headings": [
+        "OK Autrod 4043",
+        "OK Autrod 4043"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/coreshield-11/",
+      "checked": "2026-10-01T20:24:58.938395+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/coreshield-11/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Coreshield 11 - ESAB United States",
+      "headings": [
+        "Coreshield 11",
+        "Coreshield 11"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-7018/",
+      "checked": "2026-10-01T20:24:59.018111+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/esab-7018/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "ESAB 7018 - ESAB United States",
+      "headings": [
+        "ESAB 7018",
+        "ESAB 7018"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/",
+      "checked": "2026-10-01T20:24:59.170960+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/mild-steel/stick-electrodes-smaw/sureweld-6013/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Sureweld 6013 - ESAB United States",
+      "headings": [
+        "Sureweld 6013",
+        "Sureweld 6013"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/",
+      "checked": "2026-10-01T20:24:59.190002+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK Ni-CI - ESAB United States",
+      "headings": [
+        "OK Ni-CI",
+        "OK Ni-CI"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+      "checked": "2026-10-01T20:24:59.458547+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "OK NiFe-CI - ESAB United States",
+      "headings": [
+        "OK NiFe-CI",
+        "OK NiFe-CI"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/",
+      "checked": "2026-10-01T20:24:59.541777+00:00",
+      "status": 200,
+      "final_url": "https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Sureweld 308LSi - ESAB United States",
+      "headings": [
+        "Sureweld 308LSi",
+        "Sureweld 308LSi"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf",
+      "checked": "2026-10-01T20:24:59.839612+00:00",
+      "status": 200,
+      "final_url": "https://ldgsesabwe.blob.core.windows.net/instructionmanuals/UniqueRangeSA/ET%20200%20AC-DC_User%20Manual_es_co.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "checked": "2026-10-01T20:25:00.444443+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/IRONMIG-100/MANUAL%20IRON%20MIG-100.pdf",
+      "checked": "2026-10-01T20:25:00.635936+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/IRONMIG-100/MANUAL%20IRON%20MIG-100.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+      "checked": "2026-10-01T20:25:00.686926+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML130-7/MANUAL%20FOR%20SML130-7.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf",
+      "checked": "2026-10-01T20:25:00.732782+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/SML150-8/SML150-8.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf",
+      "checked": "2026-10-01T20:25:00.782100+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/13.%20SOLDADORAS%20INVERTER/ST-200/ST-200.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1B/ST-1B.pdf",
+      "checked": "2026-10-01T20:25:00.882747+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1B/ST-1B.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf",
+      "checked": "2026-10-01T20:25:00.882999+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SMARTTIG-ACDC-20/MANUAL/Manual%20SMART%20TING-ACDC-20curvas_compressed.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+      "checked": "2026-10-01T20:25:00.890454+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://lusqtoff.com.ar/servicios-tecnicos",
+      "checked": "2026-10-01T20:25:00.890918+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/servicios-tecnicos",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Servicios técnicos",
+      "headings": [
+        "Servicios Técnicos"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/MIGDUAL200-9",
+      "checked": "2026-10-01T20:25:00.906130+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/MIGDUAL200-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER • MIG DUAL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/PROTIG180-8",
+      "checked": "2026-10-01T20:25:00.941850+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/PROTIG180-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER TIG"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SLCEL200-9",
+      "checked": "2026-10-01T20:25:00.946320+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SLCEL200-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER CELULÓSICA • 200 A"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20",
+      "checked": "2026-10-01T20:25:00.951233+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SMARTTIG-ACDC-20",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER DUAL MMA/TIG"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+      "checked": "2026-10-01T20:25:01.068310+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SML120-8DK",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER FLUX DUAL CON KIT"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SML130-7",
+      "checked": "2026-10-01T20:25:01.069425+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SML130-7",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA MIG FLUX 130 + ROLLO DE ALAMBRE FLUX (DISCONTINUADA)"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SML150-8",
+      "checked": "2026-10-01T20:25:01.116721+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SML150-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA MIG FLUX150 + ROLLO DE ALAMBRE + ESCUADRAS + MÁSCARA (DISCONTINUADA)"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/SML150-8D",
+      "checked": "2026-10-01T20:25:01.249343+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/SML150-8D",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER FLUX • 18A DUAL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/ST-1B",
+      "checked": "2026-10-01T20:25:01.504619+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/ST-1B",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "MÁSCARA FOTOSENSIBLE PARA SOLDAR"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/ST-1E",
+      "checked": "2026-10-01T20:25:01.555644+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/ST-1E",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "MÁSCARA FOTOSENSIBLE PARA SOLDAR"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/ST-1N",
+      "checked": "2026-10-01T20:25:01.595713+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/ST-1N",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "MÁSCARA FOTOSENSIBLE PARA SOLDAR"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/ST-200",
+      "checked": "2026-10-01T20:25:01.629511+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/ST-200",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER • DUAL TIG / DC-MMA (DISCONTINUADA)"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9",
+      "checked": "2026-10-01T20:25:01.673816+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-producto/TIG350ACDC-9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER TIG AC/DC TRIFÁSICA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+      "checked": "2026-10-01T20:25:01.705472+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Soldadoras Inverter"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/ver-productos/14-mascaras-fotosensibles",
+      "checked": "2026-10-01T20:25:01.744342+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/ver-productos/14-mascaras-fotosensibles",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Máscaras fotosensibles"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://malectrics.eu/arduino-spot-welder-quick-start-guide-v4_0_3/",
+      "checked": "2026-10-01T20:25:01.779175+00:00",
+      "status": 200,
+      "final_url": "https://malectrics.eu/arduino-spot-welder-quick-start-guide-v4_0_3/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Arduino Spot Welder Quick Start Guide V4 - Malectrics",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://malectrics.eu/product/diy-arduino-battery-spot-welder-prebuilt-kit-v3/",
+      "checked": "2026-10-01T20:25:01.849134+00:00",
+      "status": 200,
+      "final_url": "https://malectrics.eu/product/diy-arduino-battery-spot-welder-prebuilt-kit-v3/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "DIY Arduino Battery Spot Welder Prebuilt Kit V4 - Malectrics",
+      "headings": [
+        "DIY Arduino Battery Spot Welder Prebuilt Kit V4"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://na-email.esab.com/hubfs/ESAB_June2022/pdfs/0-5596%20GB.pdf",
+      "checked": "2026-10-01T20:25:01.889807+00:00",
+      "status": 200,
+      "final_url": "https://na-email.esab.com/hubfs/ESAB_June2022/pdfs/0-5596%20GB.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://standards-board.water.org.uk/wp-content/uploads/2023/08/IGN-4-25-02-Issue-2-August-2023-published-version-1.pdf",
+      "checked": "2026-10-01T20:25:01.957581+00:00",
+      "status": 200,
+      "final_url": "https://standards-board.water.org.uk/wp-content/uploads/2023/08/IGN-4-25-02-Issue-2-August-2023-published-version-1.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://webstore.ansi.org/standards/isea/ansiiseaz872025",
+      "checked": "2026-10-01T20:25:02.027636+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.castolin.com/en-US/product/eutectroder-244",
+      "checked": "2026-10-01T20:25:02.102657+00:00",
+      "status": 200,
+      "final_url": "https://www.castolin.com/en-US/product/eutectroder-244",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EutecTrode® 244",
+      "headings": [
+        "EutecTrode® 244"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.dogoherramientas.com.ar/Pubs/Public/Catalogo/DOGO-LABOR%20FINAL%2001-09%20B.pdf",
+      "checked": "2026-10-01T20:25:02.119213+00:00",
+      "status": 200,
+      "final_url": "https://www.dogoherramientas.com.ar/Pubs/Public/Catalogo/DOGO-LABOR%20FINAL%2001-09%20B.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma",
+      "checked": "2026-10-01T20:25:02.128623+00:00",
+      "status": 200,
+      "final_url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-160-moderna-mma",
+      "content_type": "text/html; charset=utf-8",
+      "title": "SOLDADORA INVERTER DOGOSTAR 160 MODERNA MMA - Dogo",
+      "headings": [
+        "SOLDADORA INVERTER DOGOSTAR 160 MODERNA MMA",
+        "SOLDADORA INVERTER DOGOSTAR 160 MODERNA MMA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma",
+      "checked": "2026-10-01T20:25:02.185407+00:00",
+      "status": 200,
+      "final_url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-180-moderna-mma",
+      "content_type": "text/html; charset=utf-8",
+      "title": "SOLDADORA INVERTER DOGOSTAR 180 MODERNA MMA - Dogo",
+      "headings": [
+        "SOLDADORA INVERTER DOGOSTAR 180 MODERNA MMA",
+        "SOLDADORA INVERTER DOGOSTAR 180 MODERNA MMA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+      "checked": "2026-10-01T20:25:02.731810+00:00",
+      "status": 200,
+      "final_url": "https://www.dogoherramientas.com.ar/tienda/soldadura/inverter/soldadora-inverter-dogostar-200-moderna-mma",
+      "content_type": "text/html; charset=utf-8",
+      "title": "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA - Dogo",
+      "headings": [
+        "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA",
+        "SOLDADORA INVERTER DOGOSTAR 200 MODERNA MMA"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.dogoherramientas.com.ar/tienda/soldadura/torchas-tig",
+      "checked": "2026-10-01T20:25:03.852249+00:00",
+      "status": 200,
+      "final_url": "https://www.dogoherramientas.com.ar/tienda/soldadura/torchas-tig",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Torchas TIG - Dogo",
+      "headings": [
+        "Torchas TIG"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "checked": "2026-10-01T20:25:03.923086+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1l/ST-1L.pdf",
+      "checked": "2026-10-01T20:25:03.962248+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/14.%20M%C3%81SCARAS%20FOTOSENSIBLES/ST-1l/ST-1L.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SLCEL200-9/MANUAL/Manual%20SLCEL200-9curvas_compressed.pdf",
+      "checked": "2026-10-01T20:25:04.029320+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/SLCEL200-9/MANUAL/Manual%20SLCEL200-9curvas_compressed.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf",
+      "checked": "2026-10-01T20:25:04.094090+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/MEGAIRON100-8/manual%20MEGAIRON100-8_compressed%20%281%29.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML120-8D/SML120-8D.pdf",
+      "checked": "2026-10-01T20:25:04.201443+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML120-8D/SML120-8D.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf",
+      "checked": "2026-10-01T20:25:04.201807+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/SOLDADORAS_INVERTER/SML150-8D/SML150-8D.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/categorias/mascaras-fotosensibles",
+      "checked": "2026-10-01T20:25:04.253585+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/categorias/mascaras-fotosensibles",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "Máscaras fotosensibles"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/posventa",
+      "checked": "2026-10-01T20:25:04.271656+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/posventa",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Posventa",
+      "headings": [
+        "Posventa"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/productos/soldadora-inverter-flux-dual-con-kit-sml120-8dk",
+      "checked": "2026-10-01T20:25:04.425929+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/productos/soldadora-inverter-flux-dual-con-kit-sml120-8dk",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER FLUX DUAL CON KIT"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8",
+      "checked": "2026-10-01T20:25:04.518552+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON100-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "MEGA KIT SOLDADOR INVERTER"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250",
+      "checked": "2026-10-01T20:25:04.616633+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/MEGAIRON250",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "MEGA KIT SOLDADOR"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+      "checked": "2026-10-01T20:25:04.674878+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/SML120-8D",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER DUAL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+      "checked": "2026-10-01T20:25:04.803856+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/SML120-8DK",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER FLUX DUAL CON KIT"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoff.com.ar/ver-producto/SML150-8D",
+      "checked": "2026-10-01T20:25:04.837331+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoff.com.ar/ver-producto/SML150-8D",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "SOLDADORA INVERTER FLUX • 18A DUAL"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.lusqtoffbera.com.ar/productos/soldadora-inverter-dual-mig-mma-flux-electrodo-120a-lusqtoff/",
+      "checked": "2026-10-01T20:25:04.886624+00:00",
+      "status": 200,
+      "final_url": "https://www.lusqtoffbera.com.ar/productos/soldadora-inverter-dual-mig-mma-flux-electrodo-120a-lusqtoff/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Soldadora Inverter Dual Mig MMA Flux 120A Lusqtoff Ligera",
+      "headings": [
+        "Soldadora Inverter Dual Mig Mma Flux Electrodo 120a Lüsqtoff"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/field-welding/jobsite-productivity/column-splice-and-moment-weld-connections-in-field-welding",
+      "checked": "2026-10-01T20:25:04.940686+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/field-welding/jobsite-productivity/column-splice-and-moment-weld-connections-in-field-welding",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Column Splice and Moment Weld Connections in Field Welding | MillerWelds",
+      "headings": [
+        "Column Splice and Moment Weld Connections in Field Welding"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/mig-welding/how-to/flux-cored-welding-the-basics-for-mild-steel",
+      "checked": "2026-10-01T20:25:05.005517+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/mig-welding/how-to/flux-cored-welding-the-basics-for-mild-steel",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Flux-Cored Welding: The Basics for Mild Steel | MillerWelds",
+      "headings": [
+        "Flux-Cored Welding: The Basics for Mild Steel"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/welding-basics/flux-cored-welding-the-basics-for-mild-steel",
+      "checked": "2026-10-01T20:25:05.052252+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/welding-basics/flux-cored-welding-the-basics-for-mild-steel",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Flux-Cored Welding: The Basics for Mild Steel | MillerWelds",
+      "headings": [
+        "Flux-Cored Welding: The Basics for Mild Steel"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/aluminum-welding/mig/mig-aluminum-diy-selecting-the-right-welder-spool-gun-and-filler-wire",
+      "checked": "2026-10-01T20:25:05.365361+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/aluminum-welding/mig/mig-aluminum-diy-selecting-the-right-welder-spool-gun-and-filler-wire",
+      "content_type": "text/html; charset=utf-8",
+      "title": "MIG Aluminum DIY Selecting the Right Welder, Spool Gun and Filler Wire for Success in Your Shop | MillerWelds",
+      "headings": [
+        "MIG Aluminum DIY Selecting the Right Welder, Spool Gun and Filler Wire for Success in Your Shop"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/mig-welding/how-to/solid-wire-versus-flux-cored-wire-when-to-use-them-and-why",
+      "checked": "2026-10-01T20:25:05.393928+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/mig-welding/how-to/solid-wire-versus-flux-cored-wire-when-to-use-them-and-why",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Solid Wire Versus Flux-Cored Wire When to Use Them and Why | MillerWelds",
+      "headings": [
+        "Solid Wire Versus Flux-Cored Wire: When to Use Them and Why"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch",
+      "checked": "2026-10-01T20:25:05.519730+00:00",
+      "status": 200,
+      "final_url": "https://www.millerwelds.com/en-us/resources/knowledge-hub/tig-welding/filler-metal-equipment-setup/factors-to-consider-before-making-your-purchase-of-a-mig-gun-or-tig-torch",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Factors to Consider Before Making Your Purchase of a MIG Gun or TIG Torch | MillerWelds",
+      "headings": [
+        "Factors to Consider Before Making Your Purchase of a MIG Gun or TIG Torch"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.millerwelds.com/files/owners-manuals/O281426C_MIL.pdf",
+      "checked": "2026-10-01T20:25:05.670229+00:00",
+      "status": 200,
+      "final_url": "https://contenthub.itwwelding.com/api/public/content/miller-electric-mfg-llc/owners-manual/9ccd60-o281426c_mil.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133",
+      "checked": "2026-10-01T20:25:05.929882+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.osha.gov/training/library/personal-protective-equipment/assessment",
+      "checked": "2026-10-01T20:25:06.024791+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.sunstonewelders.com/collections/battery-welding",
+      "checked": "2026-10-01T20:25:06.233020+00:00",
+      "status": 200,
+      "final_url": "https://www.sunstonewelders.com/collections/battery-welding",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Battery Welding — Sunstone Welders",
+      "headings": [
+        "Battery Welding",
+        "Battery Tab Welding"
+      ],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.sunstonewelders.com/collections/battery-welding/products/micro-resistance-advanced-dual-pulse-cd-spot-welder",
+      "checked": "2026-10-01T20:25:06.263151+00:00",
+      "status": 200,
+      "final_url": "https://www.sunstonewelders.com/collections/battery-welding/products/micro-resistance-advanced-dual-pulse-cd-spot-welder",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Micro Resistance - Advanced Dual Pulse CD Spot Welder — Sunstone Welders",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.telwin.com/ExternalAssets/risc6000/954534_L.PDF",
+      "checked": "2026-10-01T20:25:06.286816+00:00",
+      "status": 200,
+      "final_url": "https://www.telwin.com/ExternalAssets/risc6000/954534_L.PDF",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.telwin.com/intl/en/products/repair-systems/823232-digital-car-spotter-5500-400v",
+      "checked": "2026-10-01T20:25:06.336071+00:00",
+      "status": 200,
+      "final_url": "https://www.telwin.com/intl/en/products/repair-systems/823232-digital-car-spotter-5500-400v",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "DIGITAL CAR SPOTTER 5500 400V + ACC. | Telwin",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.telwin.com/intl/en/products/spot-welding-machines/823195-digital-spotter-9000",
+      "checked": "2026-10-01T20:25:06.418164+00:00",
+      "status": 200,
+      "final_url": "https://www.telwin.com/intl/en/products/spot-welding-machines/823195-digital-spotter-9000",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "DIGITAL SPOTTER 9000 | Telwin",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.telwin.com/intl/en/products/trolleys/803091-trolley-federal",
+      "checked": "2026-10-01T20:25:07.181133+00:00",
+      "status": 200,
+      "final_url": "https://www.telwin.com/intl/en/products/trolleys/803091-trolley-federal",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "TROLLEY - FEDERAL | Telwin",
+      "headings": [],
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.twi-global.com/technical-knowledge/faqs/faq-what-are-the-different-types-of-cast-iron-which-can-be-welded",
+      "checked": "2026-10-01T20:25:07.307888+00:00",
+      "status": 200,
+      "final_url": "https://www.twi-global.com/technical-knowledge/faqs/faq-what-are-the-different-types-of-cast-iron-which-can-be-welded",
+      "content_type": "text/html; charset=utf-8",
+      "title": "What are the different types of cast iron which can be welded? - TWI",
+      "headings": [
+        "What are the different types of cast iron which can be welded?"
+      ],
+      "generic_redirect": false
+    }
+  ],
   "rows": [
     {
       "path": "/soldadoras/",
@@ -170,7 +1392,7 @@
     {
       "path": "/soldadoras/alambre-para-soldadura-mig/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\08-alambre-para-soldadura-mig.md",
-      "body_sha256": "289d17a00e413fd4195005b111632b946a531d87a584e736568809ff45e2adea",
+      "body_sha256": "fa265e7197c380394186fc802d9ad68486815450972c7fb4c66344f9ad056068",
       "title": "Alambre para soldadura MIG: tipos, diámetros y compatibilidad",
       "issues": [],
       "sources": [
@@ -187,8 +1409,15 @@
       ],
       "tables": 3,
       "offer_cards": 1,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "consumibles-01",
+        "body_sha256": "fa265e7197c380394186fc802d9ad68486815450972c7fb4c66344f9ad056068",
+        "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+        "notes": "Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+      }
     },
     {
       "path": "/soldadoras/mascaras-fotosensibles/",
@@ -248,7 +1477,7 @@
     {
       "path": "/soldadoras/electrodo-para-fundicion/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadoras\\12-electrodo-para-fundicion.md",
-      "body_sha256": "d3f5b61cda0f126f007d76a42c5f9652b83d3ccb28f7538991dbc0c4bdf701a4",
+      "body_sha256": "7b7b313a447166dff682392a18c4949c716c60ed9af17d56725c7e47a2c082b3",
       "title": "Cómo elegir un electrodo para fundición",
       "issues": [],
       "sources": [
@@ -260,8 +1489,15 @@
       ],
       "tables": 3,
       "offer_cards": 1,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "consumibles-01",
+        "body_sha256": "7b7b313a447166dff682392a18c4949c716c60ed9af17d56725c7e47a2c082b3",
+        "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+        "notes": "Lectura completa: diferencia ENi-CI y ENiFe-CI según reparación, material y mecanizado. Se enlazan ambos ESAB desde la tabla técnica. La oferta OK 92.18 es una referencia de níquel, no una alternativa NiFe; se explica cómo cotizar esta segunda ficha sin inventar una publicación.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+      }
     },
     {
       "path": "/soldadoras/alambre-flux/",

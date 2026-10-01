@@ -4,7 +4,7 @@ const base=process.env.QA_BASE_URL||'http://127.0.0.1:5058';
  const browser=await chromium.launch({headless:true,channel:'msedge'});
  try{
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
-  for(const [slug,path] of [['profesionales','/hidrolavadoras/profesionales/'],['bta25','/compresores/bta-25-litros/'],['stihl','/hidrolavadoras/stihl/']]){
+  for(const [slug,path] of [['200-bar','/hidrolavadoras/200-bar/'],['profesionales','/hidrolavadoras/profesionales/'],['bta25','/compresores/bta-25-litros/'],['stihl','/hidrolavadoras/stihl/']]){
    await page.goto(base+path,{waitUntil:'load'});
    const shelf=page.locator('[data-guide-comparison]');
    await shelf.locator('img').evaluateAll(async imgs=>{for(const img of imgs){img.loading='eager';await img.decode();}});

@@ -62,9 +62,9 @@ Para comparar una fuente y los componentes de un conjunto MIG/MAG con gas, revis
 
 | Ejemplo documentado | Gas | Bobina / presentación indicada |
 | :--- | :--- | :--- |
-| ESAB Weld 70S-6, acero al carbono | C1 o M21 | La página consultada lista varias presentaciones industriales, incluidas 15 kg; no confirma disponibilidad argentina ni adaptación a un equipo chico. |
-| ESAB Sureweld 308LSi, inoxidable | M12 o M13 | ESAB lista referencias en bobinas de 2 lb y 11 lb, entre otras; validar mercado y carrete admitido por la fuente. |
-| ESAB OK Autrod 4043, aluminio | I1 o I3 | ESAB lista, entre otras, presentaciones de 1 lb y carretes de 7/25 kg; confirmar carrete, antorcha y alimentación compatibles. |
+| [ESAB Weld 70S-6](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/), acero al carbono | C1 o M21 | La página consultada lista varias presentaciones industriales, incluidas 15 kg; no confirma disponibilidad argentina ni adaptación a un equipo chico. |
+| [ESAB Sureweld 308LSi](https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/), inoxidable | M12 o M13 | ESAB lista referencias en bobinas de 2 lb y 11 lb, entre otras; validar mercado y carrete admitido por la fuente. |
+| [ESAB OK Autrod 4043](https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/), aluminio | I1 o I3 | ESAB lista, entre otras, presentaciones de 1 lb y carretes de 7/25 kg; confirmar carrete, antorcha y alimentación compatibles. |
 
 ## Opciones de compra
 
@@ -75,6 +75,8 @@ Para comparar una fuente y los componentes de un conjunto MIG/MAG con gas, revis
 5. Pedí la lista exacta de lo incluido y cotizá aparte lo que falte: carrete, gas, regulador/caudalímetro, antorcha o consumibles de repuesto. No tomamos precios de catálogo como cotización vigente.
 
 **Análisis TallerLab:** conviene comprar el sistema completo por compatibilidad documentada y reposición disponible, no por precio por kilo aislado. Una bobina grande puede bajar el costo unitario, pero no sirve si excede el porta rollo o el rango del alimentador.
+
+Para acero al carbono, contrastá el Bremen ER70S-6 de la publicación de abajo con la ficha ESAB Weld 70S-6 de la tabla: verificá el mismo diámetro, presentación, gas y carrete antes de comparar precios. Sureweld 308LSi y OK Autrod 4043 responden a otros metales; elegilos según el material de la unión. Las fichas de fabricante permiten consultar esas alternativas, aunque no contamos con publicaciones de compra verificadas para todas ellas.
 
 **Desconocido:** las fichas enlazadas corresponden a varios mercados y referencias comerciales; no demuestran stock argentino, precio actual ni que el vendedor entregue la misma presentación. No determinamos una combinación universal de consumible, diámetro o gas para una junta específica.
 

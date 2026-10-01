@@ -1,8 +1,8 @@
 {
   "articles_reviewed": 179,
   "expanded": 18,
-  "cards": 51,
-  "documented_cards": 26,
+  "cards": 52,
+  "documented_cards": 27,
   "failures": [],
   "rows": [
     {
@@ -143,12 +143,13 @@
       "path": "/hidrolavadoras/200-bar/",
       "models": [
         "Comet · K 250 TSR 13/190 T Classic · C2583AR",
-        "Comet · KM Extra 8.16 · C2586AR"
+        "Comet · KM Extra 8.16 · C2586AR",
+        "Emona · F 200 · SKU 49292"
       ],
       "original_offers": 0,
-      "count": 2,
-      "reason": "190 bar de agua fría y agua caliente con presión condicionada por temperatura: elegí por proceso, caudal e instalación, no por un máximo aislado.",
-      "documented": 2
+      "count": 3,
+      "reason": "Los tres equipos desarrollados en la tabla: Comet de agua fría, Comet con caldera y Emona F 200 de 21 L/min. Compará proceso, caudal e instalación; las fichas no usan la misma condición de presión.",
+      "documented": 3
     },
     {
       "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",

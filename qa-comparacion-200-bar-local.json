@@ -1,0 +1,144 @@
+{
+  "base": "http://127.0.0.1:5065",
+  "failures": [],
+  "rows": [
+    {
+      "width": 320,
+      "models": 3,
+      "images": [
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/cometk250tsr13190tclassicc2583ar-b805b49576.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            207,
+            208
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            207,
+            208
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/emonaf20049292-389bc99439.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            207,
+            208
+          ],
+          "natural": [
+            310,
+            270
+          ]
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "width": 390,
+      "models": 3,
+      "images": [
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/cometk250tsr13190tclassicc2583ar-b805b49576.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            277,
+            208
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            277,
+            208
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/emonaf20049292-389bc99439.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            277,
+            208
+          ],
+          "natural": [
+            310,
+            270
+          ]
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "width": 1440,
+      "models": 3,
+      "images": [
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/cometk250tsr13190tclassicc2583ar-b805b49576.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            246,
+            168
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/portada-real-hidrolavadoras-200-bar-e78163b7f2.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            246,
+            168
+          ],
+          "natural": [
+            640,
+            640
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:5065/assets/productos/emonaf20049292-389bc99439.webp",
+          "loaded": true,
+          "fit": "contain",
+          "box": [
+            246,
+            168
+          ],
+          "natural": [
+            310,
+            270
+          ]
+        }
+      ],
+      "comparison": true
+    }
+  ]
+}

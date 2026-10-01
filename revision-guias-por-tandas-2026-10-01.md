@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 10. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 17. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -16,6 +16,23 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/amoladoras/makita/](https://www.tallerlab.com.ar/amoladoras/makita/): Lectura de códigos, interruptores, variantes y kit. Contrastadas fichas locales GA4534/9557HPG: 720/840 W, 115 mm, 11000 rpm y rangos de peso coinciden. Discrepancia DGA467RFE/Z sigue explícita.
 - [/amoladoras/inalambricas/](https://www.tallerlab.com.ar/amoladoras/inalambricas/): Lectura de plataformas, costos fechados y autonomía. No deduce autonomía de Ah ni mezcla voltaje nominal/máximo; kits y cuerpo solo diferenciados. Pendiente reconfirmar todas las fichas de plataformas.
 - [/amoladoras/discos-ceramica/](https://www.tallerlab.com.ar/amoladoras/discos-ceramica/): Lectura de geometría, materiales, montaje y uso húmedo. Eliminada remisión a una futura guía inexistente: el criterio para porcelanato queda expresado en esta página.
+
+## Tanda consumibles-01
+
+- [/soldadoras/alambre-para-soldadura-mig/](https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/): Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.
+- [/soldadoras/electrodo-para-fundicion/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/): Lectura completa: diferencia ENi-CI y ENiFe-CI según reparación, material y mecanizado. Se enlazan ambos ESAB desde la tabla técnica. La oferta OK 92.18 es una referencia de níquel, no una alternativa NiFe; se explica cómo cotizar esta segunda ficha sin inventar una publicación.
+
+## Tanda fuentes-generales-01
+
+- [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/): Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.
+- [/sierras/sierra-circular-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/): Lectura completa: cuatro modelos por plataforma, disco y kit; conserva discrepancia Einhell 184/190 y no inventa autonomía comparable. Se corrige la URL oficial DHS710Z; la ficha confirma LXT 2 x 18 V, 4800 rpm y herramienta sin batería/cargador.
+
+## Tanda hidrolavadoras-01
+
+- [/hidrolavadoras/profesionales/](https://www.tallerlab.com.ar/hidrolavadoras/profesionales/): Lectura completa: comparar por proceso y jornada, no por nombre profesional. Las tres configuraciones Comet y Niwa son cuatro referencias distintas por frío/caliente, alimentación y caudal. Mantener cuatro tarjetas; pedir ciclo sostenido, suministro y soporte por código, sin confundir máximos con trabajo continuo.
+- [/hidrolavadoras/200-bar/](https://www.tallerlab.com.ar/hidrolavadoras/200-bar/): Lectura completa: tres equipos principales, pero el comparador tenía sólo dos. Añadida Emona F 200 SKU 49292 con fuente y foto oficiales; 200 bar de salida no se equiparan a presión nominal, 21 L/min y 380 V trifásicos requieren instalación. KP Pro 150 queda como escalón menor; Annovi discontinuada y Omega Hynox 200 de 150 bar no son candidatos actuales de 200 bar. Corregida la disponibilidad de una oferta histórica cuyo enlace desapareció.
+- [/hidrolavadoras/hidrolavadora-para-aire-acondicionado/](https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/): Lectura completa: dos alternativas pertinentes C10 de enjuague y C30S con vapor; no agregar domésticas de alta presión. Presión, temperatura, boquilla y drenaje dependen del procedimiento del aire acondicionado. Mantener dos tarjetas y variantes de tensión separadas.
+
 
 ## Inventario por URL
 
@@ -77,7 +94,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/generadores/inverter/](https://www.tallerlab.com.ar/generadores/inverter/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/generadores/trifasicos/](https://www.tallerlab.com.ar/generadores/trifasicos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/generadores/a-nafta/](https://www.tallerlab.com.ar/generadores/a-nafta/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/) | Sin fallas detectadas | revisión editorial registrada |
 | [/generadores/gamma-6500/](https://www.tallerlab.com.ar/generadores/gamma-6500/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/generadores/lusqtoff/](https://www.tallerlab.com.ar/generadores/lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/generadores/gamma/](https://www.tallerlab.com.ar/generadores/gamma/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -100,7 +117,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/hidrolavadoras/karcher-k2/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/karcher-k5/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/gamma-150/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/profesionales/](https://www.tallerlab.com.ar/hidrolavadoras/profesionales/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/hidrolavadoras/profesionales/](https://www.tallerlab.com.ar/hidrolavadoras/profesionales/) | Sin fallas detectadas | revisión editorial registrada |
 | [/hidrolavadoras/karcher-k3/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/einhell/](https://www.tallerlab.com.ar/hidrolavadoras/einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/gamma-130/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -108,11 +125,11 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/hidrolavadoras/lusqtoff-hl-120/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/karcher-k4/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/150-bar/](https://www.tallerlab.com.ar/hidrolavadoras/150-bar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/200-bar/](https://www.tallerlab.com.ar/hidrolavadoras/200-bar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/hidrolavadoras/200-bar/](https://www.tallerlab.com.ar/hidrolavadoras/200-bar/) | Sin fallas detectadas | revisión editorial registrada |
 | [/hidrolavadoras/niwa/](https://www.tallerlab.com.ar/hidrolavadoras/niwa/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/karcher/](https://www.tallerlab.com.ar/hidrolavadoras/karcher/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/hidrolavadoras/para-autos/](https://www.tallerlab.com.ar/hidrolavadoras/para-autos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/hidrolavadora-para-aire-acondicionado/](https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/hidrolavadoras/hidrolavadora-para-aire-acondicionado/](https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/) | Sin fallas detectadas | revisión editorial registrada |
 | [/sierras/circulares/](https://www.tallerlab.com.ar/sierras/circulares/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/sierras/sensitivas/](https://www.tallerlab.com.ar/sierras/sensitivas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/sierras/sable/](https://www.tallerlab.com.ar/sierras/sable/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -142,7 +159,7 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/sierras/sensitivas-lusqtoff/](https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/sierras/sin-fin-lusqtoff/](https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/sierras/sensitivas-total/](https://www.tallerlab.com.ar/sierras/sensitivas-total/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sierra-circular-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/sierras/sierra-circular-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadoras/](https://www.tallerlab.com.ar/soldadoras/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/electrodo-7018/](https://www.tallerlab.com.ar/soldadoras/electrodo-7018/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/lusqtoff/](https://www.tallerlab.com.ar/soldadoras/lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -151,11 +168,11 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/soldadoras/guantes/](https://www.tallerlab.com.ar/soldadoras/guantes/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/tig/](https://www.tallerlab.com.ar/soldadoras/tig/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/mig-sin-gas/](https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/alambre-para-soldadura-mig/](https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/soldadoras/alambre-para-soldadura-mig/](https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadoras/mascaras-fotosensibles/](https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/electrodo-6013/](https://www.tallerlab.com.ar/soldadoras/electrodo-6013/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/soldadora-inverter-200-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/electrodo-para-fundicion/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/soldadoras/electrodo-para-fundicion/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadoras/alambre-flux/](https://www.tallerlab.com.ar/soldadoras/alambre-flux/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/soldadora-dogo-180/](https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/soldadoras/esab/](https://www.tallerlab.com.ar/soldadoras/esab/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -201,10 +218,23 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/taladros/mecha-forstner-35-mm/](https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/taladros/combo-taladro-amoladora/](https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 
-## Fuentes externas de amoladoras
+## Fuentes externas por categoría
 
-Se sondearon 163 direcciones únicas. No se detectaron respuestas 404. Seis consultas dieron bloqueo HTTP 403 o error de certificado: cinco fichas fueron localizadas mediante consulta web; el folleto Norton se sustituyó por la dirección oficial completa que entrega el documento de cinco páginas. El resultado del sondeo y la resolución de cada caso están en qa-tanda-amoladoras.json. Los bloqueos de acceso no se interpretan como prueba de que un producto o documento no existe.
+Los informes conservan 923 sondeos de 903 direcciones distintas. Incluyen el historial de direcciones sustituidas. Un sondeo verifica acceso y destino, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.
+
+| Categoría | Sondeos | Alertas de acceso o destino conservadas |
+| --- | --- | --- |
+| amoladoras | 163 | 6 |
+| compresores | 97 | 14 |
+| generadores | 137 | 5 |
+| hidrolavadoras | 171 | 1 |
+| sierras | 108 | 4 |
+| soldadoras | 115 | 3 |
+| soldadura-electronica | 13 | 0 |
+| taladros | 119 | 2 |
+
+Se corrigió la dirección oficial Makita DHS710Z y se retiró el enlace comercial Hyundai HHY9500LE que redirigía a una portada. Su precio queda identificado como histórico, sin confirmar stock actual. El folleto Norton fue sustituido por la URL oficial completa. Las alertas originales se mantienen como evidencia del sondeo.
 
 ## Próxima tanda
 
-Completar los contrastes pendientes de DeWalt, banco e inalámbricas; después continuar con Bosch, Lusqtoff, diámetros grandes, Skil y accesorios. El registro usa una huella del cuerpo de cada artículo: una modificación posterior invalida la coincidencia con la lectura registrada.
+Continuar la lectura por artículo y contrastar las alternativas con su finalidad, material, instalación y compatibilidad. Completar las cifras pendientes antes de declarar terminada la revisión editorial. El registro usa una huella del cuerpo de cada artículo: una modificación posterior invalida la coincidencia con la lectura registrada.

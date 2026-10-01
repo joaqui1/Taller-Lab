@@ -110,5 +110,61 @@
     "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
     "notes": "Lectura de geometría, materiales, montaje y uso húmedo. Eliminada remisión a una futura guía inexistente: el criterio para porcelanato queda expresado en esta página.",
     "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/soldadoras/alambre-para-soldadura-mig/": {
+    "checked": "2026-10-01",
+    "batch": "consumibles-01",
+    "body_sha256": "fa265e7197c380394186fc802d9ad68486815450972c7fb4c66344f9ad056068",
+    "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+    "notes": "Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+  },
+  "/soldadoras/electrodo-para-fundicion/": {
+    "checked": "2026-10-01",
+    "batch": "consumibles-01",
+    "body_sha256": "7b7b313a447166dff682392a18c4949c716c60ed9af17d56725c7e47a2c082b3",
+    "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+    "notes": "Lectura completa: diferencia ENi-CI y ENiFe-CI según reparación, material y mecanizado. Se enlazan ambos ESAB desde la tabla técnica. La oferta OK 92.18 es una referencia de níquel, no una alternativa NiFe; se explica cómo cotizar esta segunda ficha sin inventar una publicación.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+  },
+  "/generadores/hyundai/": {
+    "checked": "2026-10-01",
+    "batch": "fuentes-generales-01",
+    "body_sha256": "25608345edfe01ff428586e69bfcc2a35727153ce9ea599675116f8f2d77e49d",
+    "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+    "notes": "Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+  },
+  "/sierras/sierra-circular-inalambrica/": {
+    "checked": "2026-10-01",
+    "batch": "fuentes-generales-01",
+    "body_sha256": "05005d5b1a5388008196c5ad0e268f2d6caeacad057259376bad7760b14e8147",
+    "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
+    "notes": "Lectura completa: cuatro modelos por plataforma, disco y kit; conserva discrepancia Einhell 184/190 y no inventa autonomía comparable. Se corrige la URL oficial DHS710Z; la ficha confirma LXT 2 x 18 V, 4800 rpm y herramienta sin batería/cargador.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+  },
+  "/hidrolavadoras/200-bar/": {
+    "checked": "2026-10-01",
+    "batch": "hidrolavadoras-01",
+    "body_sha256": "c69dde79794f009010bd9442dc8e17804d9c8dabd11577e705174d5994e1ff81",
+    "scope": "lectura completa; evaluación de selección por uso; contrastes selectivos de fabricante",
+    "notes": "Lectura completa: tres equipos principales, pero el comparador tenía sólo dos. Añadida Emona F 200 SKU 49292 con fuente y foto oficiales; 200 bar de salida no se equiparan a presión nominal, 21 L/min y 380 V trifásicos requieren instalación. KP Pro 150 queda como escalón menor; Annovi discontinuada y Omega Hynox 200 de 150 bar no son candidatos actuales de 200 bar. Corregida la disponibilidad de una oferta histórica cuyo enlace desapareció.",
+    "full_claim_verification": "contrastes selectivos documentados; cotización y régimen continuo pendientes de proveedor"
+  },
+  "/hidrolavadoras/profesionales/": {
+    "checked": "2026-10-01",
+    "batch": "hidrolavadoras-01",
+    "body_sha256": "ada3efbcaba93c95204ac86035d9873659cd8279ed55f56d8dbb73d591f84649",
+    "scope": "lectura completa; evaluación de selección por uso; contrastes selectivos de fabricante",
+    "notes": "Lectura completa: comparar por proceso y jornada, no por nombre profesional. Las tres configuraciones Comet y Niwa son cuatro referencias distintas por frío/caliente, alimentación y caudal. Mantener cuatro tarjetas; pedir ciclo sostenido, suministro y soporte por código, sin confundir máximos con trabajo continuo.",
+    "full_claim_verification": "contrastes selectivos documentados; cotización y régimen continuo pendientes de proveedor"
+  },
+  "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/": {
+    "checked": "2026-10-01",
+    "batch": "hidrolavadoras-01",
+    "body_sha256": "0ad4ec9845c8cb1d384f353971774852588d4584aa9fcd34ff9848147e28a460",
+    "scope": "lectura completa; evaluación de selección por uso; contrastes selectivos de fabricante",
+    "notes": "Lectura completa: dos alternativas pertinentes C10 de enjuague y C30S con vapor; no agregar domésticas de alta presión. Presión, temperatura, boquilla y drenaje dependen del procedimiento del aire acondicionado. Mantener dos tarjetas y variantes de tensión separadas.",
+    "full_claim_verification": "contrastes selectivos documentados; cotización y régimen continuo pendientes de proveedor"
   }
 }

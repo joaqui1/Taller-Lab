@@ -1,7 +1,7 @@
 """Deja una decisión trazable por artículo, además de las selecciones ampliadas."""
 import json
 from pathlib import Path
-from comparaciones_por_guia import PLANS
+from comparaciones_por_guia import PLANS, EXISTING
 
 ROOT=Path(__file__).parent
 EXCEPTIONS={
@@ -32,8 +32,11 @@ EXCEPTIONS={
 
 def main():
     rows=json.loads((ROOT/'auditoria-modelos-por-guia.json').read_text(encoding='utf-8'))
+    ledger=json.loads((ROOT/'revision-editorial-por-tandas.json').read_text(encoding='utf-8'))
+    count=sum(len(plan['models']) for plan in PLANS.values())
+    commercial=sum(key in EXISTING for plan in PLANS.values() for key in plan['models'])
     lines=['# Revisión de modelos por artículo — 01/10/2026','',
-           'Se contrastaron el propósito, las tablas y los enlaces de las 179 guías. Se amplían 18 selecciones con 51 tarjetas: 25 enlaces comerciales ya suministrados y 26 referencias documentadas de fabricante. La disponibilidad local de las fichas extranjeras queda explícitamente pendiente.', '',
+           f'El inventario contiene las {len(rows)} guías; inventariar tablas y enlaces no equivale a leer y evaluar cada artículo. Se amplían {len(PLANS)} selecciones explícitas con {count} tarjetas: {commercial} enlaces comerciales ya suministrados y {count-commercial} referencias documentadas de fabricante. La lectura editorial por URL se registra aparte y continúa en curso. La disponibilidad local de las fichas extranjeras queda pendiente.', '',
            '## Selecciones ampliadas','']
     results=[]
     for row in rows:
@@ -41,18 +44,20 @@ def main():
         if path in PLANS:
             decision='Ampliar';reason=PLANS[path]['reason']
         elif path in EXCEPTIONS:
-            decision='Conservar';reason=EXCEPTIONS[path]
+            decision='Criterio propuesto';reason=EXCEPTIONS[path]
         else:
-            decision='Conservar';reason='Mantener las referencias y criterios documentados para este alcance: '+row['description']
+            decision='Pendiente';reason='Evaluar las alternativas del artículo según su alcance: '+row['description']
+        if path in ledger and path not in PLANS:
+            decision='Lectura registrada';reason=ledger[path]['notes']
         results.append(dict(path=path,title=row['title'],decision=decision,reason=reason,tables=row['tables'],cards_before=row['cards']))
         if decision=='Ampliar':
             lines.append('- ['+row['title']+'](https://www.tallerlab.com.ar'+path+'): '+reason)
-    lines+=['','## Decisión individual de las demás guías','']
+    lines+=['','## Evaluación y pendientes de las demás guías','']
     for row in results:
-        if row['decision']=='Conservar':
-            lines.append('- ['+row['title']+'](https://www.tallerlab.com.ar'+row['path']+'): '+row['reason'])
+        if row['decision']!='Ampliar':
+            lines.append('- ['+row['title']+'](https://www.tallerlab.com.ar'+row['path']+'): **'+row['decision']+'**. '+row['reason'])
     (ROOT/'revision-modelos-por-articulo-2026-10-01.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     (ROOT/'decisiones-modelos-por-articulo.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
-    print('179 decisiones individuales; 18 selecciones ampliadas.')
+    print('179 guías inventariadas; 18 selecciones ampliadas. Las evaluaciones pendientes se mantienen explícitas.')
 
 if __name__=='__main__':main()

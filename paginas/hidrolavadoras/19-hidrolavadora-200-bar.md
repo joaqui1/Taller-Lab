@@ -52,7 +52,7 @@ Las fichas no usan una etiqueta de presión uniforme: Comet distingue nominal y 
 
 | Modelo y código | Referencia comercial | Disponibilidad informada |
 | :--- | :--- | :--- |
-| Comet KM Extra 8.16 16/200 T (C2586AR) | $14.374.117,20 en Punto Gardenia (referencia documental histórica; enlace original no disponible al 30/09/2026). | La publicación señala **última unidad**. Confirmá modelo, configuración y entrega al cotizar. |
+| Comet KM Extra 8.16 16/200 T (C2586AR) | $14.374.117,20 en Punto Gardenia (referencia documental histórica; enlace original no disponible al 30/09/2026). | La publicación consultada indicaba **última unidad**; el enlace dejó de estar disponible. No permite confirmar stock actual. Pedí una nueva cotización del código exacto. |
 | Comet K 250 TSR 13/190 T Classic (C2583AR) | [$4.739.280 efectivo o transferencia en Vagolnet](https://vagolnet.com.ar/herramientas-electricas/hidrolavadoras/hidrolavadora-agua-fria-comet-k250-190bar-trifasica-italiana-gris-50hz-192720.html). | El comercio informa **en stock**; consultá instalación trifásica, accesorios y fecha de entrega. |
 | Emona F 200, 10 HP | [Cotización directa con Emona](https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios). | No publica precio ni stock; la ficha invita a consultar por configuración fija o con carrito. |
 

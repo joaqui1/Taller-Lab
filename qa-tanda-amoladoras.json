@@ -1,6 +1,6 @@
 {
   "section": "amoladoras",
-  "checked": "2026-10-01T20:21:54.515356+00:00",
+  "checked": "2026-10-01T20:36:14.956209+00:00",
   "articles": 25,
   "structural_failures": [],
   "sources": [
@@ -2113,7 +2113,7 @@
     {
       "path": "/amoladoras/bosch/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\10-amoladoras-bosch.md",
-      "body_sha256": "3866a49acaf5822f484336480bbb77366f22471c414624282284b353a7863702",
+      "body_sha256": "2f1ccfbf4a15b3fc513a9c720178ec9a8da30fa0774be72022af320b764a0425",
       "title": "Qué amoladora Bosch elegir según el trabajo",
       "issues": [],
       "sources": [

@@ -2,8 +2,8 @@
   {
     "path": "/amoladoras/",
     "title": "Qué amoladora comprar según el trabajo y el presupuesto",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir amoladora por trabajo, tipo, diámetro y alimentación, con enlaces a comparativas de medidas, batería y marcas.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de matriz por tarea, diámetro y alimentación; mantiene compactas, grandes, banco y rectas separadas. No deduce profundidad de corte de diámetro ni funciones por marca.",
     "tables": [
       {
         "heading": "",
@@ -30,8 +30,8 @@
   {
     "path": "/amoladoras/disco-flap/",
     "title": "Disco flap: cómo elegir grano, medida y abrasivo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de discos flap: usos, granos 40 a 120, abrasivos, formas T27/T29 y comprobación de medida, eje y rpm.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de granos, formas y abrasivos. Contrastados ángulos T27/T29 en Norton. Actualizado el folleto oficial a la URL completa disponible.",
     "tables": [
       {
         "heading": "",
@@ -83,8 +83,8 @@
   {
     "path": "/amoladoras/discos/",
     "title": "Discos para amoladora: cuál usar según el trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí un disco para amoladora por operación y material; comprobá tipo, medida, montaje y rpm antes de comprar o instalarlo.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de tabla por operación y compatibilidad. Contrastada referencia Bosch 2608619252 en ficha primaria. Añadidos enlaces a las cinco guías de accesorios y vidrio.",
     "tables": [
       {
         "heading": "",
@@ -124,8 +124,8 @@
   {
     "path": "/amoladoras/dewalt/",
     "title": "Qué amoladora DeWalt elegir según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará amoladoras DeWalt regionales de 115, 125 y 180 mm por código, alimentación y datos de ficha; verificá tensión, kit y garantía.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de variantes regionales y límites. Contrastados manuales DWE4020-AR (p.19: 220 V, 50 Hz, 800 W, 12000/min), DWE4120-AR (p.22: 220 V, 50 Hz, 900 W, 12000/rpm) y DWE4557-AR (p.25: 220 V, 50 Hz, 2400 W, 8500/min): coinciden con la tabla. Continúa pendiente reconfirmar DWE4212/DWE4314 y el combo. Las ofertas DWE4214/DWE4314N conservan advertencia de identidad.",
     "tables": [
       {
         "heading": "",
@@ -164,8 +164,8 @@
   {
     "path": "/amoladoras/disco-de-desbaste/",
     "title": "Discos de desbaste para metal: usos, medidas y elección",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué revisar al elegir un disco de desbaste: aplicación, medida, abrasivo, montaje y diferencias con flap y corte.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de dimensiones, abrasivo y comparación corte/desbaste. Fuente Norton Metal-Inox accesible mediante consulta web aunque el sondeo devuelve 403. No traslada rendimiento ni montaje entre familias.",
     "tables": [
       {
         "heading": "115 vs 125 mm y otras medidas",
@@ -189,8 +189,8 @@
   {
     "path": "/amoladoras/recta/",
     "title": "Amoladoras rectas: usos y diferencias entre eléctricas y neumáticas",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará amoladoras rectas eléctricas y neumáticas por aplicación, rpm, pinza y requisitos de alimentación y compresor.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de fichas eléctricas y requisitos de aire. Confirmados 500 W/33000 rpm para GGS 28 L en Bosch Argentina. Conversiones 3,2 l/s a 192 l/min y 12 l/s a 720 l/min correctas; mantiene distinta condición de consumo promedio.",
     "tables": [
       {
         "heading": "Recta vs angular vs minitorno",
@@ -229,8 +229,8 @@
   {
     "path": "/amoladoras/de-banco/",
     "title": "Amoladoras de banco: cuál elegir para afilar y desbastar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir amoladora de banco por diámetro, potencia, régimen, muela, apoyos y tipo de uso, con ejemplos de 150, 200 y 205 mm.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de medidas reales 150/200/205 mm, régimen S2 y montaje de muela. Corregido enlace a la guía de amoladora recta. Pendiente reconfirmar cada campo numérico contra el manual.",
     "tables": [
       {
         "heading": "",
@@ -268,8 +268,8 @@
   {
     "path": "/amoladoras/makita/",
     "title": "Qué amoladora Makita elegir: modelos y diferencias de uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará amoladoras Makita de 115 a 230 mm, con cable y a batería, y revisá los códigos, accesorios y garantía local antes de elegir.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de códigos, interruptores, variantes y kit. Contrastadas fichas locales GA4534/9557HPG: 720/840 W, 115 mm, 11000 rpm y rangos de peso coinciden. Discrepancia DGA467RFE/Z sigue explícita.",
     "tables": [
       {
         "heading": "Qué modelos se comparan",
@@ -303,8 +303,8 @@
   {
     "path": "/amoladoras/inalambricas/",
     "title": "Amoladoras inalámbricas: qué conviene comprar y qué incluye el kit",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir amoladora a batería por trabajo, diámetro, plataforma, batería, kit y costo total de entrada.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de plataformas, costos fechados y autonomía. No deduce autonomía de Ah ni mezcla voltaje nominal/máximo; kits y cuerpo solo diferenciados. Pendiente reconfirmar todas las fichas de plataformas.",
     "tables": [
       {
         "heading": "Elegí primero por trabajo",
@@ -341,8 +341,8 @@
   {
     "path": "/amoladoras/discos-ceramica/",
     "title": "Qué disco elegir para cortar cerámica con amoladora",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de discos diamantados para cerámica: borde continuo o turbo, ancho de corte, montaje, RPM y límites de uso.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura de geometría, materiales, montaje y uso húmedo. Eliminada remisión a una futura guía inexistente: el criterio para porcelanato queda expresado en esta página.",
     "tables": [
       {
         "heading": "Borde continuo o turbo",
@@ -364,8 +364,8 @@
   {
     "path": "/amoladoras/bosch/",
     "title": "Qué amoladora Bosch elegir según el trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará amoladoras Bosch por trabajo, diámetro, alimentación, tensión, variante y contenido del paquete.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará amoladoras Bosch por trabajo, diámetro, alimentación, tensión, variante y contenido del paquete.",
     "tables": [
       {
         "heading": "Cómo se ordena la gama",
@@ -403,8 +403,8 @@
   {
     "path": "/amoladoras/lusqtoff/",
     "title": "Amoladoras Lusqtoff: cómo comparar modelos con cable y batería",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos las amoladoras Lusqtoff AML850-8, AML1010-8 y AML115-9B: potencia, medidas, Iron Volt, kits, garantía y para qué uso tiene sentido cada una.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos las amoladoras Lusqtoff AML850-8, AML1010-8 y AML115-9B: potencia, medidas, Iron Volt, kits, garantía y para qué uso tiene sentido cada una.",
     "tables": [
       {
         "heading": "",
@@ -448,8 +448,8 @@
   {
     "path": "/amoladoras/9-pulgadas/",
     "title": "Amoladoras de 9 pulgadas y 230 mm: usos y elección",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cuándo elegir una amoladora de 230 mm, qué cambia frente a 180 mm y qué modelos documentados comparar en Argentina.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cuándo elegir una amoladora de 230 mm, qué cambia frente a 180 mm y qué modelos documentados comparar en Argentina.",
     "tables": [
       {
         "heading": "",
@@ -475,8 +475,8 @@
   {
     "path": "/amoladoras/skil-830w/",
     "title": "Amoladora Skil de 830 W: prestaciones y diferencias frente a 700 W",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Datos de las Skil 9004 y 9002, códigos argentinos, tensión, contenido de publicación y qué se sabe hoy de su disponibilidad y garantía.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Datos de las Skil 9004 y 9002, códigos argentinos, tensión, contenido de publicación y qué se sabe hoy de su disponibilidad y garantía.",
     "tables": [
       {
         "heading": "",
@@ -503,8 +503,8 @@
   {
     "path": "/amoladoras/disco-diamantado-segmentado/",
     "title": "Disco diamantado segmentado: para qué sirve y cuándo elegirlo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué significa segmentado, diferencias con turbo y continuo, materiales, medidas de 115 y 230 mm y compatibilidad del disco diamantado.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué significa segmentado, diferencias con turbo y continuo, materiales, medidas de 115 y 230 mm y compatibilidad del disco diamantado.",
     "tables": [
       {
         "heading": "",
@@ -529,8 +529,8 @@
   {
     "path": "/amoladoras/stanley/",
     "title": "Amoladoras Stanley: modelos, usos y qué revisar antes de comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Modelos Stanley documentados en Argentina y LatAm: angulares con cable de 115 mm, opciones V20 inalámbricas, diferencias de códigos y garantía.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Modelos Stanley documentados en Argentina y LatAm: angulares con cable de 115 mm, opciones V20 inalámbricas, diferencias de códigos y garantía.",
     "tables": [
       {
         "heading": "",
@@ -556,8 +556,8 @@
   {
     "path": "/amoladoras/disco-de-corte/",
     "title": "Cómo elegir un disco de corte para amoladora",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cómo elegir un disco de corte para metal, chapa o inoxidable: material, espesor, diámetro, eje, fijación y rpm.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cómo elegir un disco de corte para metal, chapa o inoxidable: material, espesor, diámetro, eje, fijación y rpm.",
     "tables": [
       {
         "heading": "Qué disco según material",
@@ -594,8 +594,8 @@
   {
     "path": "/amoladoras/ingco/",
     "title": "Qué amoladora Ingco elegir según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación de amoladoras INGCO documentadas para Argentina: 115, 125, 180 y 230 mm, modelos a cable y kits 20 V.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de amoladoras INGCO documentadas para Argentina: 115, 125, 180 y 230 mm, modelos a cable y kits 20 V.",
     "tables": [
       {
         "heading": "",
@@ -622,8 +622,8 @@
   {
     "path": "/amoladoras/velocidad-variable/",
     "title": "Amoladoras de velocidad variable: usos y modelos para comparar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué cambia al regular las RPM, qué revisar en los accesorios y cuatro amoladoras con tensión 220–240 V documentada.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué cambia al regular las RPM, qué revisar en los accesorios y cuatro amoladoras con tensión 220–240 V documentada.",
     "tables": [
       {
         "heading": "Qué cambia frente a velocidad fija",
@@ -647,8 +647,8 @@
   {
     "path": "/amoladoras/7-pulgadas/",
     "title": "Amoladoras de 7 pulgadas y 180 mm: cuándo elegirlas",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar.",
     "tables": [
       {
         "heading": "",
@@ -691,8 +691,8 @@
   {
     "path": "/amoladoras/115-o-125/",
     "title": "Amoladora de 115 o 125 mm: cuál elegir para tu trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación de amoladoras de 115 y 125 mm: profundidad, compatibilidad, modelos disponibles en Argentina y diferencias de consumibles.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de amoladoras de 115 y 125 mm: profundidad, compatibilidad, modelos disponibles en Argentina y diferencias de consumibles.",
     "tables": [
       {
         "heading": "Comparación de dos variantes de la misma serie",
@@ -727,8 +727,8 @@
   {
     "path": "/amoladoras/gamma/",
     "title": "Amoladoras Gamma: cómo elegir entre máquina y kit",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Gama Gamma publicada en Argentina, diferencias entre modelos de 750 y 850 W, contenido del kit G1910KAR y garantía oficial.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Gama Gamma publicada en Argentina, diferencias entre modelos de 750 y 850 W, contenido del kit G1910KAR y garantía oficial.",
     "tables": [
       {
         "heading": "Modelos publicados por Gamma en Argentina",
@@ -755,8 +755,8 @@
   {
     "path": "/amoladoras/total/",
     "title": "Amoladoras Total: modelos para comparar según medida y uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos tres amoladoras Total con códigos completos documentados en Argentina: 115 mm, 125 mm con velocidad variable y 180 mm.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos tres amoladoras Total con códigos completos documentados en Argentina: 115 mm, 125 mm con velocidad variable y 180 mm.",
     "tables": [
       {
         "heading": "",
@@ -772,8 +772,8 @@
   {
     "path": "/amoladoras/dowen-pagio/",
     "title": "Amoladoras Dowen Pagio: qué revisar en la 9993220.7",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos las Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: diferencias, costo inicial y la ambigua rosca del eje.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos las Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: diferencias, costo inicial y la ambigua rosca del eje.",
     "tables": [
       {
         "heading": "",
@@ -805,8 +805,8 @@
   {
     "path": "/amoladoras/discos-vidrio/",
     "title": "Disco para cortar vidrio: tipos, compatibilidad y límites",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Discos para vidrio documentados por Tork Craft, Husqvarna y Lusqtoff: códigos, compatibilidad y límites de uso.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Discos para vidrio documentados por Tork Craft, Husqvarna y Lusqtoff: códigos, compatibilidad y límites de uso.",
     "tables": [
       {
         "heading": "",
@@ -823,8 +823,8 @@
   {
     "path": "/compresores/para-auto/",
     "title": "Compresor de aire para auto: cuál elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí un compresor para auto según alimentación, corriente, ciclo de trabajo y alcance. Compará opciones 12 V e inalámbricas sin confundir PSI máximo con presión del neumático.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí un compresor para auto según alimentación, corriente, ciclo de trabajo y alcance. Compará opciones 12 V e inalámbricas sin confundir PSI máximo con presión del neumático.",
     "tables": [
       {
         "heading": "Qué cambia según la alimentación",
@@ -905,14 +905,13 @@
     "cards_before": [
       "Lüsqtoff · LC2550B-8",
       "Gamma · G2802AR",
-      "Einhell · TE-AC 270/50 Silent",
-      "Lüsqtoff · LC2550B-8"
+      "Einhell · TE-AC 270/50 Silent"
     ]
   },
   {
     "path": "/compresores/manguera/",
     "title": "Cómo elegir una manguera para compresor de aire",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar criterios de diámetro interior, longitud y caudal. La conexión roscada no identifica una manguera compatible para todos los equipos.",
     "tables": [
       {
@@ -952,7 +951,7 @@
   {
     "path": "/compresores/kits-aerografo/",
     "title": "Kits de aerógrafo con compresor: guía para principiantes",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "La elección combina aerógrafo, compresor y conexiones por tarea; conservar ejemplos documentados sin inventar un kit completo.",
     "tables": [
       {
@@ -994,8 +993,8 @@
   {
     "path": "/compresores/pistola-para-pintar/",
     "title": "Cómo elegir una pistola para pintar con compresor",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal de salida a presión de trabajo del compresor. Incluye datos BTA documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal de salida a presión de trabajo del compresor. Incluye datos BTA documentados.",
     "tables": [
       {
         "heading": "Qué pistola elegir según el trabajo",
@@ -1025,7 +1024,7 @@
   {
     "path": "/compresores/acoples-rapidos/",
     "title": "Acople rápido para compresor: perfiles, roscas y medidas",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar comparación de perfiles, roscas y medidas; no añadir conectores sin identificar el perfil de ambas mitades.",
     "tables": [
       {
@@ -1061,7 +1060,7 @@
   {
     "path": "/compresores/para-aerografo/",
     "title": "Qué compresor comprar para tu aerógrafo",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Mantener los cinco modelos documentados y sus requisitos; los referidos Fengda pendientes no acreditan un kit comprable.",
     "tables": [
       {
@@ -1091,7 +1090,7 @@
   {
     "path": "/compresores/aceite/",
     "title": "Qué aceite lleva un compresor de aire",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar los ejemplos por código y manual; no presentar aceites como sustitutos universales.",
     "tables": [
       {
@@ -1108,8 +1107,8 @@
   {
     "path": "/compresores/lusqtoff-50-litros/",
     "title": "Compresor Lusqtoff de 50 litros: cuál elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos las variantes Lüsqtoff de 50 L por lubricación, caudal publicado, accesorios y uso documentado; señalamos qué datos todavía hay que confirmar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos las variantes Lüsqtoff de 50 L por lubricación, caudal publicado, accesorios y uso documentado; señalamos qué datos todavía hay que confirmar.",
     "tables": [
       {
         "heading": "Variantes Lüsqtoff de 50 litros",
@@ -1140,7 +1139,7 @@
   {
     "path": "/compresores/filtros/",
     "title": "Filtro de aire para compresor: cómo elegir el repuesto",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar la separación entre admisión y línea; la compra depende del código, micronaje y drenaje.",
     "tables": [
       {
@@ -1168,8 +1167,8 @@
   {
     "path": "/compresores/100-litros/",
     "title": "Qué compresor de 100 litros elegir para tu taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para dimensionar un compresor de 100 L según las herramientas, transmisión, caudal publicado, alimentación y mantenimiento del taller.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para dimensionar un compresor de 100 L según las herramientas, transmisión, caudal publicado, alimentación y mantenimiento del taller.",
     "tables": [
       {
         "heading": "Qué compresor de 100 L conviene según el uso del taller",
@@ -1210,7 +1209,7 @@
   {
     "path": "/compresores/gamma-50-litros/",
     "title": "Compresor Gamma de 50 litros: guía de compra",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya contrasta G2802AR y G2802KAR en el documento. Los referidos siguen pendientes; no convertir el compresor en un kit sin acreditar contenido.",
     "tables": [
       {
@@ -1239,8 +1238,8 @@
   {
     "path": "/compresores/kits-accesorios/",
     "title": "Qué kit de accesorios comprar para un compresor",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara kits de aire por uso, piezas incluidas, tipo de pistola, manguera, conexiones y consumo antes de comprar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara kits de aire por uso, piezas incluidas, tipo de pistola, manguera, conexiones y consumo antes de comprar.",
     "tables": [
       {
         "heading": "Kits documentados: qué trae cada presentación",
@@ -1280,8 +1279,8 @@
   {
     "path": "/compresores/lusqtoff-100-litros/",
     "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos LC-30100, LC-40100 y LCS100-8 por tecnología, presión y caudal documentados, y explicamos qué falta para elegirlos según el uso del taller.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos LC-30100, LC-40100 y LCS100-8 por tecnología, presión y caudal documentados, y explicamos qué falta para elegirlos según el uso del taller.",
     "tables": [
       {
         "heading": "Prestaciones documentadas: qué cambia entre modelos",
@@ -1318,8 +1317,8 @@
   {
     "path": "/compresores/sin-aceite/",
     "title": "Compresores sin aceite: cuándo convienen",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué significa que un compresor sea oil-free, qué mantenimiento requiere y cuándo conviene para tareas domésticas, aerografía o aplicaciones sensibles.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué significa que un compresor sea oil-free, qué mantenimiento requiere y cuándo conviene para tareas domésticas, aerografía o aplicaciones sensibles.",
     "tables": [
       {
         "heading": "Cuándo conviene un compresor sin aceite",
@@ -1360,8 +1359,8 @@
   {
     "path": "/compresores/200-litros/",
     "title": "Compresores de 200 litros: guía de compra para taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cuándo pasar de 100 a 200 L, cómo cruzar caudal, presión y simultaneidad, y qué revisar en tres compresores de taller documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cuándo pasar de 100 a 200 L, cómo cruzar caudal, presión y simultaneidad, y qué revisar en tres compresores de taller documentados.",
     "tables": [
       {
         "heading": "Tres modelos documentados de 200 L",
@@ -1447,14 +1446,16 @@
       }
     ],
     "cards_before": [
-      "BTA · D-CA1-25-6"
+      "BTA · D-CA1-25-6",
+      "BTA · CSA-24-1",
+      "BTA · D-CA2-50-6"
     ]
   },
   {
     "path": "/compresores/24-litros/",
     "title": "Compresor de 24 litros: para qué sirve y cuál elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
     "tables": [
       {
         "heading": "Para qué sirve un compresor de 24 litros",
@@ -1493,8 +1494,8 @@
   {
     "path": "/compresores/inalambricos/",
     "title": "Cómo elegir un compresor inalámbrico a batería",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué mirar en un inflador a batería: plataforma, batería, presión, caudal, accesorios y diferencias entre inflar neumáticos y objetos de gran volumen.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué mirar en un inflador a batería: plataforma, batería, presión, caudal, accesorios y diferencias entre inflar neumáticos y objetos de gran volumen.",
     "tables": [
       {
         "heading": "Presión, caudal y uso: qué dato mirar",
@@ -1553,7 +1554,10 @@
       }
     ],
     "cards_before": [
-      "Stanley · FCCC404STC005"
+      "Stanley · FCCC404STC005",
+      "Stanley Fatmax · FHY227/10/24V",
+      "Stanley Fatmax · FHY227/10/50V",
+      "Stanley · D270/10/100V"
     ]
   },
   {
@@ -1619,14 +1623,16 @@
       }
     ],
     "cards_before": [
-      "Einhell · TC-AC 190/24/8 I OF"
+      "Einhell · TC-AC 190/24/8 I OF",
+      "Einhell · TE-AC 270/50 Silent",
+      "Einhell · TE-AC 430/90/10"
     ]
   },
   {
     "path": "/compresores/inflador-neumaticos-portatil/",
     "title": "Inflador de neumáticos portátil: cuál conviene según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara infladores portátiles de 12 V y a batería según uso, caudal a presión, autonomía, tamaño, manguera, cable y accesorios.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara infladores portátiles de 12 V y a batería según uso, caudal a presión, autonomía, tamaño, manguera, cable y accesorios.",
     "tables": [
       {
         "heading": "12 V conectado al vehículo o batería inalámbrica",
@@ -1669,8 +1675,8 @@
   {
     "path": "/compresores/12v-doble-piston/",
     "title": "Compresor 12V doble pistón: guía para elegirlo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir un compresor portátil 12 V de doble pistón por corriente, conexión a batería, caudal a presión, ciclo, temperatura y alcance.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir un compresor portátil 12 V de doble pistón por corriente, conexión a batería, caudal a presión, ciclo, temperatura y alcance.",
     "tables": [
       {
         "heading": "Cuatro modelos 12 V doble pistón documentados",
@@ -1691,8 +1697,8 @@
   {
     "path": "/generadores/comparativa-general/",
     "title": "Grupos electrógenos: guía para elegir el adecuado",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Calculá la carga simultánea, elegí tipo y combustible, y compará ocho grupos electrógenos por escala de potencia y configuración.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Calculá la carga simultánea, elegí tipo y combustible, y compará ocho grupos electrógenos por escala de potencia y configuración.",
     "tables": [
       {
         "heading": "Elegí según tu necesidad",
@@ -1742,8 +1748,8 @@
   {
     "path": "/generadores/precios/",
     "title": "Cuánto cuesta un grupo electrógeno en Argentina",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Precios publicados de ocho grupos electrógenos en Argentina, consultados el 28/09/2026, separados por potencia y cuotas; compará costo final y qué revisar antes de comprar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Precios publicados de ocho grupos electrógenos en Argentina, consultados el 28/09/2026, separados por potencia y cuotas; compará costo final y qué revisar antes de comprar.",
     "tables": [
       {
         "heading": "Precios por potencia",
@@ -1781,8 +1787,8 @@
   {
     "path": "/generadores/honda/",
     "title": "Qué grupo electrógeno Honda elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará generadores Honda por potencia nominal, tipo de salida, peso, tanque y regulación; elegí una escala según tus cargas y la fase requerida.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará generadores Honda por potencia nominal, tipo de salida, peso, tanque y regulación; elegí una escala según tus cargas y la fase requerida.",
     "tables": [
       {
         "heading": "Comparativa de modelos Honda",
@@ -1800,8 +1806,8 @@
   {
     "path": "/generadores/honda-6500/",
     "title": "Honda 6500: qué puede alimentar y qué revisar al comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Diferencias entre Honda EG6500CXS y EZ6500CXS, potencia nominal y máxima, escenarios de carga calculados y precios observados por código.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Diferencias entre Honda EG6500CXS y EZ6500CXS, potencia nominal y máxima, escenarios de carga calculados y precios observados por código.",
     "tables": [
       {
         "heading": "Potencia nominal y máxima",
@@ -1831,8 +1837,8 @@
   {
     "path": "/generadores/para-casa/",
     "title": "Cómo elegir un generador eléctrico para tu casa",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Calculá las cargas simultáneas y sus arranques, compará generadores por escala de potencia y revisá las medidas de seguridad para una vivienda.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Calculá las cargas simultáneas y sus arranques, compará generadores por escala de potencia y revisá las medidas de seguridad para una vivienda.",
     "tables": [
       {
         "heading": "Cómo calcular la potencia",
@@ -1869,8 +1875,8 @@
   {
     "path": "/generadores/inverter/",
     "title": "Generadores inverter: cómo funcionan y cuál comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué hace la tecnología inverter, cuándo elegirla, cómo comparar potencia de marcha y picos, y modelos con precios observados por escalón.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué hace la tecnología inverter, cuándo elegirla, cómo comparar potencia de marcha y picos, y modelos con precios observados por escalón.",
     "tables": [
       {
         "heading": "Inverter frente a convencional",
@@ -1896,8 +1902,8 @@
   {
     "path": "/generadores/trifasicos/",
     "title": "Cómo elegir un generador trifásico",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Aprendé a calcular kVA y kW, dimensionar el arranque de un motor trifásico y distribuir cargas por fase antes de comparar generadores.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Aprendé a calcular kVA y kW, dimensionar el arranque de un motor trifásico y distribuir cargas por fase antes de comparar generadores.",
     "tables": [
       {
         "heading": "Modelos según el uso",
@@ -1913,8 +1919,8 @@
   {
     "path": "/generadores/a-nafta/",
     "title": "Generador a nafta: consumo, autonomía y cuál elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cómo leer el consumo y la autonomía de un generador a nafta, comparar modelos con condiciones publicadas y decidir cuándo conviene nafta, diésel o gas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cómo leer el consumo y la autonomía de un generador a nafta, comparar modelos con condiciones publicadas y decidir cuándo conviene nafta, diésel o gas.",
     "tables": [
       {
         "heading": "Cuánto combustible consume un generador a nafta",
@@ -1965,8 +1971,8 @@
   {
     "path": "/generadores/hyundai/",
     "title": "Qué generador Hyundai elegir según tu consumo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparativa de generadores Hyundai comercializados en Argentina: rangos de carga por potencia nominal, autonomía con sus condiciones y precios locales fechados.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.",
     "tables": [
       {
         "heading": "Potencia nominal y arranque: compará tu inventario",
@@ -2017,7 +2023,7 @@
   {
     "path": "/generadores/gamma-6500/",
     "title": "Gamma 6500: versiones, potencia y usos",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar comparación histórica y actuales 6000V/7500V. No convertir referencias discontinuadas en ofertas actuales.",
     "tables": [
       {
@@ -2051,8 +2057,8 @@
   {
     "path": "/generadores/lusqtoff/",
     "title": "Generadores Lüsqtoff: cuál elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Mapa de generadores Lüsqtoff convencionales e inverter por potencia publicada, fases y precio de lista; criterios para elegir, verificar el equipo y consultar garantía y servicio.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Mapa de generadores Lüsqtoff convencionales e inverter por potencia publicada, fases y precio de lista; criterios para elegir, verificar el equipo y consultar garantía y servicio.",
     "tables": [
       {
         "heading": "Generadores convencionales",
@@ -2094,8 +2100,8 @@
   {
     "path": "/generadores/gamma/",
     "title": "Qué generador Gamma comprar según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para distinguir los generadores Gamma vigentes de los discontinuados, dimensionar la potencia según la carga y consultar precios fechados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para distinguir los generadores Gamma vigentes de los discontinuados, dimensionar la potencia según la carga y consultar precios fechados.",
     "tables": [
       {
         "heading": "Gama Gamma vigente: modelos y diferencias",
@@ -2154,8 +2160,8 @@
   {
     "path": "/generadores/monofasicos/",
     "title": "Grupos electrógenos monofásicos: potencia y usos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Aprendé qué significan 220 V, W, VA y amperios, calculá una carga monofásica y compará generadores por escala sin confundirlos con trifásicos.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Aprendé qué significan 220 V, W, VA y amperios, calculá una carga monofásica y compará generadores por escala sin confundirlos con trifásicos.",
     "tables": [
       {
         "heading": "Modelos monofásicos para hogares y comercios",
@@ -2173,8 +2179,8 @@
   {
     "path": "/generadores/diesel/",
     "title": "Cómo elegir un generador diésel",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir un generador diésel por horas de uso, carga, fase, consumo publicado y mantenimiento, con referencias de equipos portátiles e industriales.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir un generador diésel por horas de uso, carga, fase, consumo publicado y mantenimiento, con referencias de equipos portátiles e industriales.",
     "tables": [
       {
         "heading": "Modelos diésel disponibles actualmente en Argentina",
@@ -2219,8 +2225,8 @@
   {
     "path": "/generadores/portatiles/",
     "title": "Generadores portátiles para camping, viajes y trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará generadores portátiles por potencia, autonomía, peso, dimensiones, transporte y ruido según el uso, sin confundir un equipo tipo valija con uno pesado asistido.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará generadores portátiles por potencia, autonomía, peso, dimensiones, transporte y ruido según el uso, sin confundir un equipo tipo valija con uno pesado asistido.",
     "tables": [
       {
         "heading": "Peso, tamaño y transporte",
@@ -2266,8 +2272,8 @@
   {
     "path": "/generadores/silenciosos/",
     "title": "Cómo elegir un generador eléctrico silencioso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué mirar en decibeles, carga y distancia, cómo distinguir inverter de insonorizado y qué modelos tienen mediciones de ruido útiles para decidir.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué mirar en decibeles, carga y distancia, cómo distinguir inverter de insonorizado y qué modelos tienen mediciones de ruido útiles para decidir.",
     "tables": [
       {
         "heading": "Modelos actuales: ruido según carga y distancia",
@@ -2286,7 +2292,7 @@
   {
     "path": "/generadores/gamma-950/",
     "title": "Gamma 950: potencia nominal, autonomía y consumo estimado",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar la ficha específica y la discrepancia de potencia. No sustituir una unidad 2T por un generador de otra escala sin calcular cargas.",
     "tables": [
       {
@@ -2306,8 +2312,8 @@
   {
     "path": "/generadores/niwa/",
     "title": "Qué generador Niwa elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará GNW-28-E, GNW-55-ER y GNW-70-ER por potencia útil, autonomía publicada, equipo y precios en Argentina.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará GNW-28-E, GNW-55-ER y GNW-70-ER por potencia útil, autonomía publicada, equipo y precios en Argentina.",
     "tables": [
       {
         "heading": "Comparativa de la gama",
@@ -2342,8 +2348,8 @@
   {
     "path": "/generadores/a-gas/",
     "title": "Generadores a gas: opciones para respaldo eléctrico",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara generadores residenciales a GN y GLP, equipos duales y trifuel, potencia y consumo por combustible, instalación y kits de conversión.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara generadores residenciales a GN y GLP, equipos duales y trifuel, potencia y consumo por combustible, instalación y kits de conversión.",
     "tables": [
       {
         "heading": "Modelos de respaldo publicados en Argentina",
@@ -2379,8 +2385,8 @@
   {
     "path": "/generadores/estacion-de-energia-portatil/",
     "title": "Cómo elegir una estación de energía portátil",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Calculá autonomía con consumo y pérdidas, compará recarga de red y solar, y revisá capacidad, salida, batería, EPS, expansión y tensión regional.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Calculá autonomía con consumo y pérdidas, compará recarga de red y solar, y revisá capacidad, salida, batería, EPS, expansión y tensión regional.",
     "tables": [
       {
         "heading": "Recarga solar y desde la red",
@@ -2415,8 +2421,8 @@
   {
     "path": "/generadores/chicos/",
     "title": "Grupos electrógenos chicos: Pektra 720 W y Konan 800 W",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación del Pektra GPK980 y el Konan KGE/800 por potencia, combustible, autonomía, traslado y datos de toma, con el nivel de evidencia de cada ficha.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación del Pektra GPK980 y el Konan KGE/800 por potencia, combustible, autonomía, traslado y datos de toma, con el nivel de evidencia de cada ficha.",
     "tables": [
       {
         "heading": "Dos opciones de baja potencia",
@@ -2437,8 +2443,8 @@
   {
     "path": "/hidrolavadoras/comparativa-general/",
     "title": "Cómo elegir una hidrolavadora para tu casa o trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Matriz para elegir hidrolavadora según tarea, con presión de trabajo, caudal, manguera, alimentación, peso y accesorios. Compara modelos de varias marcas y precios relevados con fecha.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Matriz para elegir hidrolavadora según tarea, con presión de trabajo, caudal, manguera, alimentación, peso y accesorios. Compara modelos de varias marcas y precios relevados con fecha.",
     "tables": [
       {
         "heading": "Cómo interpretar las especificaciones",
@@ -2472,8 +2478,8 @@
   {
     "path": "/hidrolavadoras/inalambricas/",
     "title": "Qué hidrolavadora inalámbrica comprar y para qué sirve",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué limpiadora a batería conviene según la tarea: distingue una portátil de 30 bar de una hidrolavadora Bosch de 100 bar, con guía de uso, batería, autonomía y toma de agua.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué limpiadora a batería conviene según la tarea: distingue una portátil de 30 bar de una hidrolavadora Bosch de 100 bar, con guía de uso, batería, autonomía y toma de agua.",
     "tables": [
       {
         "heading": "Inalámbrica o eléctrica con cable",
@@ -2536,8 +2542,8 @@
   {
     "path": "/hidrolavadoras/lusqtoff/",
     "title": "Qué hidrolavadora Lusqtoff elegir según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí una hidrolavadora Lüsqtoff por tarea: compara HL-120, HL100-8, HL110-9 y HL130-9 por presión de trabajo, caudal, peso, alimentación y accesorios documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí una hidrolavadora Lüsqtoff por tarea: compara HL-120, HL100-8, HL110-9 y HL130-9 por presión de trabajo, caudal, peso, alimentación y accesorios documentados.",
     "tables": [
       {
         "heading": "Comparativa de la gama Lüsqtoff",
@@ -2577,8 +2583,8 @@
   {
     "path": "/hidrolavadoras/gamma/",
     "title": "Qué hidrolavadora Gamma comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara modelos Gamma Elite y la línea actual por tarea, especificaciones verificadas y precios relevados con fecha.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara modelos Gamma Elite y la línea actual por tarea, especificaciones verificadas y precios relevados con fecha.",
     "tables": [
       {
         "heading": "Elite histórica / línea actual",
@@ -2669,14 +2675,19 @@
       }
     ],
     "cards_before": [
-      "STIHL · RE 80 X"
+      "STIHL · RE 80 X",
+      "STIHL · RE 90",
+      "STIHL · RE 110",
+      "STIHL · RE 120",
+      "STIHL · RE 145",
+      "STIHL · RE 150"
     ]
   },
   {
     "path": "/hidrolavadoras/bosch/",
     "title": "Qué hidrolavadora Bosch elegir para casa y auto",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparativa de Bosch GHP 180, GHP 200, GHP 220 y GHP 4-50 de la gama Professional Argentina: códigos locales, presión de trabajo y máxima, caudal y manguera.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparativa de Bosch GHP 180, GHP 200, GHP 220 y GHP 4-50 de la gama Professional Argentina: códigos locales, presión de trabajo y máxima, caudal y manguera.",
     "tables": [
       {
         "heading": "Comparación de la gama Bosch Argentina",
@@ -2705,8 +2716,8 @@
   {
     "path": "/hidrolavadoras/black-decker/",
     "title": "Qué hidrolavadora Black+Decker elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué Black+Decker elegir para casa, auto o patio: compara los códigos argentinos BEPW1300-AR, BEPW1520, BEPW1800T-AR y BEPW2200-AR con datos locales.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué Black+Decker elegir para casa, auto o patio: compara los códigos argentinos BEPW1300-AR, BEPW1520, BEPW1800T-AR y BEPW2200-AR con datos locales.",
     "tables": [
       {
         "heading": "Modelos y diferencias documentadas",
@@ -2738,8 +2749,8 @@
   {
     "path": "/hidrolavadoras/karcher-k2/",
     "title": "Hidrolavadora Kärcher K2: cuál elegir y para qué sirve",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué K2 argentina conviene según el trabajo: Basic Black y el kit Car ofrecido localmente, accesorios, manguera, detergente, diagnóstico de falta de presión y comparación final con K3.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué K2 argentina conviene según el trabajo: Basic Black y el kit Car ofrecido localmente, accesorios, manguera, detergente, diagnóstico de falta de presión y comparación final con K3.",
     "tables": [
       {
         "heading": "Qué K2 conviene para cada trabajo",
@@ -2808,7 +2819,9 @@
       }
     ],
     "cards_before": [
-      "Kärcher · K5 Power Control · 1.603-501.0"
+      "Kärcher · K5 Power Control · 1.603-501.0",
+      "Kärcher · K5 · 9.398-295.0",
+      "Kärcher · K4 Power Control · 1.603-402.0"
     ]
   },
   {
@@ -2844,7 +2857,10 @@
         ]
       }
     ],
-    "cards_before": []
+    "cards_before": [
+      "Gamma · 150 Elite · G2514AR",
+      "Gamma · 130 Elite Red Line · G2513AR"
+    ]
   },
   {
     "path": "/hidrolavadoras/profesionales/",
@@ -2879,6 +2895,9 @@
       }
     ],
     "cards_before": [
+      "Comet · K 250 10/150 Classic · C2582AR",
+      "Comet · K 250 TSR 13/190 T Classic · C2583AR",
+      "Comet · KM Extra 8.16 · C2586AR",
       "Niwa · HDNW PRO-10 · 1040900"
     ]
   },
@@ -2898,14 +2917,16 @@
       }
     ],
     "cards_before": [
-      "Kärcher · K3 Black Edition · 9.398-355.0"
+      "Kärcher · K3 Black Edition · 9.398-355.0",
+      "Kärcher · K2 Basic Black · 1.994-322.0",
+      "Kärcher · K4 Power Control · 1.603-402.0"
     ]
   },
   {
     "path": "/hidrolavadoras/einhell/",
     "title": "Qué hidrolavadora Einhell comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de la gama Einhell publicada para Argentina: modelos eléctricos TC/TE y opciones a batería HYPRESSO 18/24 y 36/105, usos, presión de trabajo y accesorios.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de la gama Einhell publicada para Argentina: modelos eléctricos TC/TE y opciones a batería HYPRESSO 18/24 y 36/105, usos, presión de trabajo y accesorios.",
     "tables": [
       {
         "heading": "Selector por uso",
@@ -3000,14 +3021,15 @@
       }
     ],
     "cards_before": [
-      "Gamma · 130 Elite Red Line · G2513AR"
+      "Gamma · 130 Elite Red Line · G2513AR",
+      "Gamma · 150 Elite · G2514AR"
     ]
   },
   {
     "path": "/hidrolavadoras/hyundai/",
     "title": "Qué hidrolavadora Hyundai elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara la gama Hyundai publicada en Argentina por código, presión de servicio y máxima, alimentación y potencia; revisa usos, accesorios, stock y servicio local.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara la gama Hyundai publicada en Argentina por código, presión de servicio y máxima, alimentación y potencia; revisa usos, accesorios, stock y servicio local.",
     "tables": [
       {
         "heading": "Gama Hyundai publicada en Argentina",
@@ -3080,14 +3102,15 @@
       }
     ],
     "cards_before": [
-      "Lüsqtoff · HL-120"
+      "Lüsqtoff · HL-120",
+      "Lüsqtoff · HL-150"
     ]
   },
   {
     "path": "/hidrolavadoras/karcher-k4/",
     "title": "Hidrolavadora Kärcher K4: guía de compra",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara K3, las dos versiones argentinas K4 y K5 para decidir cuándo conviene el escalón K4: caudal, presión publicada, manguera, peso y accesorios.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara K3, las dos versiones argentinas K4 y K5 para decidir cuándo conviene el escalón K4: caudal, presión publicada, manguera, peso y accesorios.",
     "tables": [
       {
         "heading": "Precio local por versión (29/09/2026)",
@@ -3124,8 +3147,8 @@
   {
     "path": "/hidrolavadoras/150-bar/",
     "title": "Qué hidrolavadora de 150 bar comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara cuatro hidrolavadoras rotuladas 150 bar por presión de servicio, caudal y alimentación; identifica dos opciones con enlace comercial y cuándo alcanza una de menor presión.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara cuatro hidrolavadoras rotuladas 150 bar por presión de servicio, caudal y alimentación; identifica dos opciones con enlace comercial y cuándo alcanza una de menor presión.",
     "tables": [
       {
         "heading": "Comparación: presión de trabajo, caudal y alimentación",
@@ -3155,7 +3178,7 @@
     "path": "/hidrolavadoras/200-bar/",
     "title": "Cómo elegir una hidrolavadora de 200 bar",
     "decision": "Ampliar",
-    "reason": "190 bar de agua fría y agua caliente con presión condicionada por temperatura: elegí por proceso, caudal e instalación, no por un máximo aislado.",
+    "reason": "Los tres equipos desarrollados en la tabla: Comet de agua fría, Comet con caldera y Emona F 200 de 21 L/min. Compará proceso, caudal e instalación; las fichas no usan la misma condición de presión.",
     "tables": [
       {
         "heading": "Equipos publicados en Argentina cerca de 200 bar",
@@ -3174,13 +3197,17 @@
         ]
       }
     ],
-    "cards_before": []
+    "cards_before": [
+      "Comet · K 250 TSR 13/190 T Classic · C2583AR",
+      "Comet · KM Extra 8.16 · C2586AR",
+      "Emona · F 200 · SKU 49292"
+    ]
   },
   {
     "path": "/hidrolavadoras/niwa/",
     "title": "Qué hidrolavadora Niwa elegir y qué revisar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía Niwa para Argentina: compara eléctricas y a combustión con códigos actuales de Grupo Rumbo, usos, presión de trabajo, caudal y opiniones verificables.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía Niwa para Argentina: compara eléctricas y a combustión con códigos actuales de Grupo Rumbo, usos, presión de trabajo, caudal y opiniones verificables.",
     "tables": [
       {
         "heading": "Gama Niwa publicada por Grupo Rumbo: eléctricas",
@@ -3229,8 +3256,8 @@
   {
     "path": "/hidrolavadoras/karcher/",
     "title": "Qué hidrolavadora Kärcher comprar: comparativa de modelos K2 a K5",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Selector central de Kärcher K2, K3, K4 y K5 argentinos: qué modelo conviene por tarea, qué cambia en motor, caudal y accesorios, precios relevados y enlaces a cada guía detallada.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Selector central de Kärcher K2, K3, K4 y K5 argentinos: qué modelo conviene por tarea, qué cambia en motor, caudal y accesorios, precios relevados y enlaces a cada guía detallada.",
     "tables": [
       {
         "heading": "Selector rápido: cuál Kärcher elegir según el trabajo",
@@ -3271,8 +3298,8 @@
   {
     "path": "/hidrolavadoras/para-autos/",
     "title": "Qué hidrolavadora comprar para lavar el auto",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir hidrolavadora y combos para lavar el auto: qué revisar en boquilla, manguera, caudal, espuma, peso y alcance, con opciones argentinas por uso y frecuencia.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir hidrolavadora y combos para lavar el auto: qué revisar en boquilla, manguera, caudal, espuma, peso y alcance, con opciones argentinas por uso y frecuencia.",
     "tables": [
       {
         "heading": "Qué revisar antes de elegir",
@@ -3326,14 +3353,15 @@
       }
     ],
     "cards_before": [
-      "WIPCOOL · C30S"
+      "WIPCOOL · C30S",
+      "WIPCOOL · C10"
     ]
   },
   {
     "path": "/sierras/circulares/",
     "title": "Cómo elegir una sierra circular para tus trabajos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de selección documental: disco admitido, eje y profundidad de corte publicados por modelo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de selección documental: disco admitido, eje y profundidad de corte publicados por modelo.",
     "tables": [
       {
         "heading": "Qué sierra circular elegir según el trabajo",
@@ -3366,8 +3394,8 @@
   {
     "path": "/sierras/sensitivas/",
     "title": "Cómo elegir una sensitiva para cortar metal",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación documental de sensitivas de 355 mm por capacidad de corte según geometría del perfil.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación documental de sensitivas de 355 mm por capacidad de corte según geometría del perfil.",
     "tables": [
       {
         "heading": "Sensitiva o sierra sin fin para metal",
@@ -3401,8 +3429,8 @@
   {
     "path": "/sierras/sable/",
     "title": "Sierra sable: guía de usos y compra",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Usos de la sierra sable y elección de hoja según el material, espesor y tipo de corte.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Usos de la sierra sable y elección de hoja según el material, espesor y tipo de corte.",
     "tables": [
       {
         "heading": "Cómo elegir la hoja",
@@ -3418,8 +3446,8 @@
   {
     "path": "/sierras/caladoras/",
     "title": "Cómo elegir una sierra caladora para madera y metal",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí hoja, control de velocidad, acción pendular y capacidad para el material y trabajo de tu caladora.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí hoja, control de velocidad, acción pendular y capacidad para el material y trabajo de tu caladora.",
     "tables": [
       {
         "heading": "La hoja importa tanto como la máquina",
@@ -3462,8 +3490,8 @@
   {
     "path": "/sierras/sierra-sin-fin-para-madera/",
     "title": "Qué sierra sin fin para madera comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí sierra sin fin por altura, garganta, cinta y tipo de corte; compará modelos compactos y de taller.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí sierra sin fin por altura, garganta, cinta y tipo de corte; compará modelos compactos y de taller.",
     "tables": [
       {
         "heading": "Consultá estas opciones en Mercado Libre",
@@ -3494,8 +3522,8 @@
   {
     "path": "/sierras/de-banco/",
     "title": "Cómo elegir una sierra de banco para madera",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cómo elegir una sierra de banco según el tipo de corte, el ancho de rasgado, la guía, la mesa, la hoja y el apoyo de las piezas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cómo elegir una sierra de banco según el tipo de corte, el ancho de rasgado, la guía, la mesa, la hoja y el apoyo de las piezas.",
     "tables": [
       {
         "heading": "Qué sierra de banco elegir según el tamaño de pieza",
@@ -3529,8 +3557,8 @@
   {
     "path": "/sierras/sin-fin-metal/",
     "title": "Cómo elegir una sierra sin fin para metal",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí una sierra sin fin para metal según formato, sección, velocidad de cinta, dentado y sujeción; compará modelos horizontales y portátiles documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí una sierra sin fin para metal según formato, sección, velocidad de cinta, dentado y sujeción; compará modelos horizontales y portátiles documentados.",
     "tables": [
       {
         "heading": "Portátil o de banco",
@@ -3570,8 +3598,8 @@
   {
     "path": "/sierras/ingletadoras-einhell/",
     "title": "Qué ingletadora Einhell elegir según tus trabajos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí entre las ingletadoras Einhell fija y deslizante según el ancho y alto de la pieza, el doble bisel, el espacio de trabajo y los datos que debés revisar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí entre las ingletadoras Einhell fija y deslizante según el ancho y alto de la pieza, el doble bisel, el espacio de trabajo y los datos que debés revisar.",
     "tables": [
       {
         "heading": "TC-MS 2112 o TC-SM 2131/2 Dual: cuál tiene sentido",
@@ -3597,8 +3625,8 @@
   {
     "path": "/sierras/de-banco-einhell/",
     "title": "Qué sierra de banco Einhell elegir para tu taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará las sierras de banco Einhell TC-TS 2025/2 U y 2225 U por mesa, extensiones, guía, aspiración, accesorios y capacidad publicada.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará las sierras de banco Einhell TC-TS 2025/2 U y 2225 U por mesa, extensiones, guía, aspiración, accesorios y capacidad publicada.",
     "tables": [
       {
         "heading": "Cuál elegir según tamaño de pieza y espacio",
@@ -3630,8 +3658,8 @@
   {
     "path": "/sierras/caladoras-skil/",
     "title": "Cómo elegir una caladora Skil",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará las caladoras SKIL 4380 y 4550 por capacidad en madera y metal, velocidad, movimiento pendular y hojas compatibles.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará las caladoras SKIL 4380 y 4550 por capacidad en madera y metal, velocidad, movimiento pendular y hojas compatibles.",
     "tables": [
       {
         "heading": "Consultá estas opciones en Mercado Libre",
@@ -3653,8 +3681,8 @@
   {
     "path": "/sierras/guia-para-sierra-circular/",
     "title": "Cómo elegir una guía para sierra circular",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Aprendé a calcular el desplazamiento de una regla externa, elegir la longitud de guía y revisar compatibilidad por modelo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Aprendé a calcular el desplazamiento de una regla externa, elegir la longitud de guía y revisar compatibilidad por modelo.",
     "tables": [
       {
         "heading": "Guía paralela, regla y riel: no son lo mismo",
@@ -3685,8 +3713,8 @@
   {
     "path": "/sierras/sensitivas-dewalt/",
     "title": "Sensitiva DeWalt: qué modelo elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará las sensitivas DeWalt D28720-AR y D28730-AR por capacidad según perfil, disco, guía, morsa, peso y uso.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará las sensitivas DeWalt D28720-AR y D28730-AR por capacidad según perfil, disco, guía, morsa, peso y uso.",
     "tables": [
       {
         "heading": "D28720 o D28730: cuál tiene sentido según el trabajo",
@@ -3725,8 +3753,8 @@
   {
     "path": "/sierras/ingletadoras-dewalt/",
     "title": "Qué ingletadora DeWalt elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará las ingletadoras DeWalt regionales DWS713-AR y DWS780-AR por capacidad, disco, bisel, peso y espacio de trabajo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará las ingletadoras DeWalt regionales DWS713-AR y DWS780-AR por capacidad, disco, bisel, peso y espacio de trabajo.",
     "tables": [
       {
         "heading": "Fija o telescópica: cuándo compensa la DWS780",
@@ -3757,8 +3785,8 @@
   {
     "path": "/sierras/ingletadoras-total/",
     "title": "Cómo elegir una ingletadora Total",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación de los códigos Total TS42142107 y TS42182553 con capacidades y discos publicados en catálogo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de los códigos Total TS42142107 y TS42182553 con capacidades y discos publicados en catálogo.",
     "tables": [
       {
         "heading": "Qué cambia realmente entre los dos modelos",
@@ -3793,8 +3821,8 @@
   {
     "path": "/sierras/disco-para-sierra-circular/",
     "title": "Cómo elegir un disco para sierra circular",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Cómo elegir un disco para madera, tableros, MDF y aluminio, y comprobar diámetro, eje y RPM compatibles.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Cómo elegir un disco para madera, tableros, MDF y aluminio, y comprobar diámetro, eje y RPM compatibles.",
     "tables": [
       {
         "heading": "Qué disco usar según el corte",
@@ -3835,8 +3863,8 @@
   {
     "path": "/sierras/bosch-gks-150/",
     "title": "Sierra circular Bosch GKS 150: guía antes de comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Ficha y manual de la Bosch GKS 150: potencia, disco, eje, corte a 90 grados y compatibilidad con guías.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Ficha y manual de la Bosch GKS 150: potencia, disco, eje, corte a 90 grados y compatibilidad con guías.",
     "tables": [
       {
         "heading": "GKS 150 frente a alternativas similares",
@@ -3858,8 +3886,8 @@
   {
     "path": "/sierras/circulares-black-decker/",
     "title": "Cómo elegir una sierra circular Black+Decker",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará sierras circulares Black+Decker regionales de 220 V por capacidad, disco, bisel, peso y accesorios documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará sierras circulares Black+Decker regionales de 220 V por capacidad, disco, bisel, peso y accesorios documentados.",
     "tables": [
       {
         "heading": "Qué Black+Decker elegir según el trabajo",
@@ -3888,8 +3916,8 @@
   {
     "path": "/sierras/caladoras-einhell/",
     "title": "Qué caladora Einhell elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará TC-JS 85, TE-JS 100 y TC-JS 18 Li Solo por capacidades publicadas, peso y alimentación.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará TC-JS 85, TE-JS 100 y TC-JS 18 Li Solo por capacidades publicadas, peso y alimentación.",
     "tables": [
       {
         "heading": "Tres caladoras Einhell según alimentación y capacidad",
@@ -3921,8 +3949,8 @@
   {
     "path": "/sierras/sierra-sable-inalambrica/",
     "title": "Qué sierra sable inalámbrica comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí una sierra sable a batería según plataforma, kit, hoja, capacidad de corte y peso con batería.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí una sierra sable a batería según plataforma, kit, hoja, capacidad de corte y peso con batería.",
     "tables": [
       {
         "heading": "Cuándo conviene inalámbrica frente a cable",
@@ -3967,8 +3995,8 @@
   {
     "path": "/sierras/circulares-lusqtoff/",
     "title": "Qué sierra circular Lusqtoff elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Datos documentados de las circulares Lusqtoff CSL1500-8 y SCL2200-8, con diferencias de capacidad y código.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Datos documentados de las circulares Lusqtoff CSL1500-8 y SCL2200-8, con diferencias de capacidad y código.",
     "tables": [
       {
         "heading": "CSL1500-8 y SCL2200-8: capacidades documentadas",
@@ -3993,8 +4021,8 @@
   {
     "path": "/sierras/ingletadoras/",
     "title": "Ingletadoras: cuál elegir según el corte y el material",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir una ingletadora en Argentina: diferencias entre fija y telescópica, capacidad de corte, disco, bisel y modelos a comparar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir una ingletadora en Argentina: diferencias entre fija y telescópica, capacidad de corte, disco, bisel y modelos a comparar.",
     "tables": [
       {
         "heading": "Fija o telescópica",
@@ -4036,8 +4064,8 @@
   {
     "path": "/sierras/sierra-caladora-bosch/",
     "title": "Sierra caladora Bosch: comparativa de modelos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará GST 650, GST 680 y GST 185-LI por capacidad, carrera, velocidad, hoja, peso y kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará GST 650, GST 680 y GST 185-LI por capacidad, carrera, velocidad, hoja, peso y kit.",
     "tables": [
       {
         "heading": "Comparación de GST 650, GST 680 y GST 185-LI",
@@ -4070,8 +4098,8 @@
   {
     "path": "/sierras/sierra-circular-dewalt-dwe560/",
     "title": "Sierra circular DeWalt DWE560: qué revisar antes de comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Qué revisar en la DeWalt DWE560-AR: disco y eje, bisel, profundidad de corte, guía, extracción de aserrín y trabajos adecuados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Qué revisar en la DeWalt DWE560-AR: disco y eje, bisel, profundidad de corte, guía, extracción de aserrín y trabajos adecuados.",
     "tables": [
       {
         "heading": "DWE560 frente a GKS150 y SC16",
@@ -4096,8 +4124,8 @@
   {
     "path": "/sierras/stanley-sc16/",
     "title": "Sierra circular Stanley SC16: guía de compra",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de la Stanley SC16-AR de 1.600 W: disco, capacidad de corte, accesorios y datos que conviene verificar en la variante argentina.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de la Stanley SC16-AR de 1.600 W: disco, capacidad de corte, accesorios y datos que conviene verificar en la variante argentina.",
     "tables": [
       {
         "heading": "Capacidad y datos para elegir la SC16-AR",
@@ -4135,8 +4163,8 @@
   {
     "path": "/sierras/caladoras-black-decker/",
     "title": "Sierra caladora Black+Decker BES603: capacidad y usos",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Conocé la Black+Decker BES603: 400 W, velocidad variable, capacidad, bisel, hojas y variante que conviene confirmar antes de comprar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Conocé la Black+Decker BES603: 400 W, velocidad variable, capacidad, bisel, hojas y variante que conviene confirmar antes de comprar.",
     "tables": [
       {
         "heading": "BES603: capacidad, velocidad y variante",
@@ -4166,8 +4194,8 @@
   {
     "path": "/sierras/de-banco-lusqtoff/",
     "title": "Sierra de banco Lusqtoff: qué modelo conviene para tu taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará las sierras de banco Lüsqtoff SML2000-8, SML2000-9 y SML2000B-9 por mesa, capacidad longitudinal, bisel, disco, extracción y espacio de taller.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará las sierras de banco Lüsqtoff SML2000-8, SML2000-9 y SML2000B-9 por mesa, capacidad longitudinal, bisel, disco, extracción y espacio de taller.",
     "tables": [
       {
         "heading": "Tres códigos de banco y una discrepancia documental",
@@ -4217,8 +4245,8 @@
   {
     "path": "/sierras/sensitivas-lusqtoff/",
     "title": "Sierra sensitiva Lusqtoff: guía de la CM-14K",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Capacidades por geometría, tensión, RPM, eje, peso y disco de la sensitiva Lusqtoff CM-14K, con advertencias para verificar variantes y publicaciones antiguas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Capacidades por geometría, tensión, RPM, eje, peso y disco de la sensitiva Lusqtoff CM-14K, con advertencias para verificar variantes y publicaciones antiguas.",
     "tables": [
       {
         "heading": "Capacidades y datos publicados de la CM-14K",
@@ -4249,8 +4277,8 @@
   {
     "path": "/sierras/sin-fin-lusqtoff/",
     "title": "Sierra sin fin Lusqtoff: SFL250-8, SFL300-8 o SFL1100-9",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compará lo que está documentado de las sierras sin fin Lusqtoff SFL250-8, SFL300-8 y SFL1100-9, y qué confirmar sobre cintas y repuestos.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compará lo que está documentado de las sierras sin fin Lusqtoff SFL250-8, SFL300-8 y SFL1100-9, y qué confirmar sobre cintas y repuestos.",
     "tables": [
       {
         "heading": "SFL250-8 vs SFL300-8 vs SFL1100-9",
@@ -4297,8 +4325,8 @@
   {
     "path": "/sierras/sensitivas-total/",
     "title": "Sierra sensitiva Total: qué revisar en una de 355 mm",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Datos de fábrica de la sensitiva Total TS223558 y comprobaciones para distinguir el sufijo de la oferta local.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Datos de fábrica de la sensitiva Total TS223558 y comprobaciones para distinguir el sufijo de la oferta local.",
     "tables": [
       {
         "heading": "Capacidad según forma del material",
@@ -4330,8 +4358,8 @@
   {
     "path": "/sierras/sierra-circular-inalambrica/",
     "title": "Cómo elegir una sierra circular inalámbrica",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí una sierra circular inalámbrica por capacidad, hoja, batería y kit; compará sus límites con el trabajo y la variante exacta.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: cuatro modelos por plataforma, disco y kit; conserva discrepancia Einhell 184/190 y no inventa autonomía comparable. Se corrige la URL oficial DHS710Z; la ficha confirma LXT 2 x 18 V, 4800 rpm y herramienta sin batería/cargador.",
     "tables": [
       {
         "heading": "¿Cuándo conviene una circular inalámbrica?",
@@ -4348,8 +4376,8 @@
   {
     "path": "/soldadoras/",
     "title": "Soldadoras: cuál elegir según el trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Matriz de elección que enlaza proceso, consumible, gas y datos que debe confirmar la ficha: separa MMA, MIG/MAG, tubular autoprotegido, TIG y resistencia por alcance documental.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Matriz de elección que enlaza proceso, consumible, gas y datos que debe confirmar la ficha: separa MMA, MIG/MAG, tubular autoprotegido, TIG y resistencia por alcance documental.",
     "tables": [
       {
         "heading": "Qué soldadora elegir según el trabajo",
@@ -4373,8 +4401,8 @@
   {
     "path": "/soldadoras/electrodo-7018/",
     "title": "Electrodo 7018: cómo elegirlo según el trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Tabla de corriente ESAB Atom Arc 7018 por diámetro y contraste con la corriente nominal de HandyArc 162i por ciclo de trabajo; separa consumible, fuente y almacenamiento sin generalizar los valores.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Tabla de corriente ESAB Atom Arc 7018 por diámetro y contraste con la corriente nominal de HandyArc 162i por ciclo de trabajo; separa consumible, fuente y almacenamiento sin generalizar los valores.",
     "tables": [
       {
         "heading": "Cuándo conviene usar 7018",
@@ -4401,7 +4429,7 @@
   {
     "path": "/soldadoras/lusqtoff/",
     "title": "Qué soldadora Lusqtoff elegir para casa o taller",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar alternativas MMA, MIG/MAG y Flux separadas por proceso. La selección MMA ya permite contrastar kits; no comparar fuentes distintas solo por amperios.",
     "tables": [
       {
@@ -4445,8 +4473,8 @@
   {
     "path": "/soldadoras/soldadora-de-punto/",
     "title": "Soldadora de punto: cuál elegir para baterías o chapa",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Distingue soldadoras por puntos para pestañas de baterías de los spotters de chapa Telwin; compara materiales, pulsos, capacidad, alimentación y formato con unidades separadas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Distingue soldadoras por puntos para pestañas de baterías de los spotters de chapa Telwin; compara materiales, pulsos, capacidad, alimentación y formato con unidades separadas.",
     "tables": [
       {
         "heading": "Equipos específicos para pestañas de baterías",
@@ -4468,8 +4496,8 @@
   {
     "path": "/soldadoras/soldadora-mig-con-gas/",
     "title": "Qué soldadora MIG con gas comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir MIG con gas como sistema completo: cuándo preferirlo a FLUX, potencia y ciclo, consumibles, accesorios incluidos y componentes a cotizar con ESAB HandyArc MIG 160i o Lüsqtoff MIGDUAL200-9.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir MIG con gas como sistema completo: cuándo preferirlo a FLUX, potencia y ciclo, consumibles, accesorios incluidos y componentes a cotizar con ESAB HandyArc MIG 160i o Lüsqtoff MIGDUAL200-9.",
     "tables": [
       {
         "heading": "Potencia y ciclo de trabajo",
@@ -4534,14 +4562,16 @@
       }
     ],
     "cards_before": [
-      "ESAB Heavy Duty Black"
+      "ESAB · Heavy Duty Black",
+      "ESAB · TIG Basic · 0700500460",
+      "ESAB · Heavy Duty EXL · 0700500432 / 0700500433"
     ]
   },
   {
     "path": "/soldadoras/tig/",
     "title": "Soldadoras TIG: guía para elegir tu equipo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir TIG por material, corriente AC/DC, encendido, ciclo de trabajo y alimentación; compara equipos ESAB y Lüsqtoff documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir TIG por material, corriente AC/DC, encendido, ciclo de trabajo y alimentación; compara equipos ESAB y Lüsqtoff documentados.",
     "tables": [
       {
         "heading": "TIG DC vs AC/DC: elegí según el material",
@@ -4580,8 +4610,8 @@
   {
     "path": "/soldadoras/mig-sin-gas/",
     "title": "Qué soldadora MIG sin gas conviene comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de alambre tubular autoprotegido: funcionamiento, escoria, exterior, polaridad y consumibles; compara equipos FLUX y kits documentados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de alambre tubular autoprotegido: funcionamiento, escoria, exterior, polaridad y consumibles; compara equipos FLUX y kits documentados.",
     "tables": [
       {
         "heading": "Ventajas y limitaciones",
@@ -4612,8 +4642,8 @@
   {
     "path": "/soldadoras/alambre-para-soldadura-mig/",
     "title": "Alambre para soldadura MIG: tipos, diámetros y compatibilidad",
-    "decision": "Conservar",
-    "reason": "La guía compara clasificación, diámetro, gas y sistema de arrastre. Conservar la referencia ER70S-6 de 0,8 mm sin presentar diámetros o aleaciones distintos como reemplazos directos.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.",
     "tables": [
       {
         "heading": "",
@@ -4635,9 +4665,9 @@
       {
         "heading": "Gas y tamaño de bobina",
         "rows": [
-          "ESAB Weld 70S-6, acero al carbono",
-          "ESAB Sureweld 308LSi, inoxidable",
-          "ESAB OK Autrod 4043, aluminio"
+          "[ESAB Weld 70S-6](https://esab.com/mx/nam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/), acero al carbono",
+          "[ESAB Sureweld 308LSi](https://esab.com/us/nam_en/products-solutions/product/filler-metals/stainless-steel/mig-wires-tig-rods-gmaw-gtaw/sureweld-308lsi/), inoxidable",
+          "[ESAB OK Autrod 4043](https://esab.com/us/nam_en/products-solutions/product/filler-metals/aluminum/mig-wires-tig-rods-gmaw-gtaw/ok-autrod-4043/), aluminio"
         ]
       }
     ],
@@ -4648,8 +4678,8 @@
   {
     "path": "/soldadoras/mascaras-fotosensibles/",
     "title": "Cómo elegir una máscara de soldar fotosensible",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de máscaras fotosensibles por proceso y sombra, sensores, sensibilidad, retardo, campo visual, alimentación, marcado y repuestos, con tres modelos documentados como ejemplos.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de máscaras fotosensibles por proceso y sombra, sensores, sensibilidad, retardo, campo visual, alimentación, marcado y repuestos, con tres modelos documentados como ejemplos.",
     "tables": [
       {
         "heading": "",
@@ -4695,8 +4725,8 @@
   {
     "path": "/soldadoras/electrodo-6013/",
     "title": "Electrodo 6013: usos, medidas y qué elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía E6013 para acero al carbono: usos de fabricante, posiciones, corriente y polaridad documentadas, comparación de rangos por diámetro, conservación y compra.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía E6013 para acero al carbono: usos de fabricante, posiciones, corriente y polaridad documentadas, comparación de rangos por diámetro, conservación y compra.",
     "tables": [
       {
         "heading": "Usos del E6013 y cuándo elegirlo frente al E7018",
@@ -4723,8 +4753,8 @@
   {
     "path": "/soldadoras/soldadora-inverter-200-amp/",
     "title": "Qué soldadora inverter de 200 amperios comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara fuentes MMA con máximo declarado de 200 A por uso, ciclo de trabajo, electrodos, alimentación y funciones documentadas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara fuentes MMA con máximo declarado de 200 A por uso, ciclo de trabajo, electrodos, alimentación y funciones documentadas.",
     "tables": [
       {
         "heading": "200 A máximos no significan 200 A continuos",
@@ -4768,8 +4798,8 @@
   {
     "path": "/soldadoras/electrodo-para-fundicion/",
     "title": "Cómo elegir un electrodo para fundición",
-    "decision": "Conservar",
-    "reason": "La tabla ya contrasta OK Ni-CI y OK NiFe-CI. La oferta de OK 92.18 exige cotejar clasificación y no acredita stock de NiFe; conservar esa distinción.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: diferencia ENi-CI y ENiFe-CI según reparación, material y mecanizado. Se enlazan ambos ESAB desde la tabla técnica. La oferta OK 92.18 es una referencia de níquel, no una alternativa NiFe; se explica cómo cotizar esta segunda ficha sin inventar una publicación.",
     "tables": [
       {
         "heading": "Orientación inicial: tipo de fundición y reparación",
@@ -4789,8 +4819,8 @@
       {
         "heading": "Compatibilidad y ficha técnica",
         "rows": [
-          "OK Ni-CI, AWS A5.15 ENi-CI",
-          "OK NiFe-CI, AWS A5.15 ENiFe-CI"
+          "[OK Ni-CI](https://esab.com/us/nam_en/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-ni-ci/), AWS A5.15 ENi-CI",
+          "[OK NiFe-CI](https://esab.com/es/eur_es/products-solutions/product/filler-metals/other/repair-and-maintenance/ok-nife-ci/), AWS A5.15 ENiFe-CI"
         ]
       }
     ],
@@ -4801,8 +4831,8 @@
   {
     "path": "/soldadoras/alambre-flux/",
     "title": "Cómo elegir alambre flux para tu soldadora",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir alambre flux: distingue autoprotegido y con gas, compara E71T-GS y E71T-11, calibres 0,8/0,9 mm, polaridad, rodillos y bobinas.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir alambre flux: distingue autoprotegido y con gas, compara E71T-GS y E71T-11, calibres 0,8/0,9 mm, polaridad, rodillos y bobinas.",
     "tables": [
       {
         "heading": "0,8 vs. 0,9 mm: compará todo el sistema",
@@ -4827,7 +4857,7 @@
   {
     "path": "/soldadoras/soldadora-dogo-180/",
     "title": "Soldadora Dogo 180: guía antes de comprar",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya compara Dogo 160, 180 y 200 en la sección contextual. Conservar la oferta individual de 180 y las alternativas, sin duplicarlas en el mismo bloque.",
     "tables": [
       {
@@ -4868,7 +4898,7 @@
   {
     "path": "/soldadoras/esab/",
     "title": "Qué soldadora ESAB elegir según tu trabajo",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar las secciones MMA, MIG/MAG y TIG y las referencias de gama. Un enlace de compra por proceso no equivale a una comparación entre procesos intercambiables.",
     "tables": [
       {
@@ -4907,8 +4937,8 @@
   {
     "path": "/soldadoras/electrodo-para-acero-inoxidable/",
     "title": "Cómo elegir electrodos para acero inoxidable",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para identificar metal base y unión, comparar electrodos 308L, 316L y 309L según fichas concretas, revisar diámetro y evitar contaminación antes de comprar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para identificar metal base y unión, comparar electrodos 308L, 316L y 309L según fichas concretas, revisar diámetro y evitar contaminación antes de comprar.",
     "tables": [
       {
         "heading": "Metal base o unión → familia de aporte orientativa",
@@ -4951,8 +4981,8 @@
   {
     "path": "/soldadoras/para-aluminio/",
     "title": "Qué soldadora necesitás para soldar aluminio",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación de TIG AC/DC y MIG con spool gun para aluminio: criterios por espesor y trabajo, gas, aporte, alimentación del alambre y costo del sistema completo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de TIG AC/DC y MIG con spool gun para aluminio: criterios por espesor y trabajo, gas, aporte, alimentación del alambre y costo del sistema completo.",
     "tables": [
       {
         "heading": "TIG vs MIG para aluminio",
@@ -5001,7 +5031,7 @@
   {
     "path": "/soldadoras/lusqtoff-iron-250/",
     "title": "Soldadora Lusqtoff Iron 250: qué revisar antes de comprar",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya ofrece Iron 250, Dogo 180 y HandyArc 162i con diferencias y límites. La tarjeta individual del kit se conserva dentro de ese recorrido.",
     "tables": [
       {
@@ -5035,8 +5065,8 @@
   {
     "path": "/soldadoras/soldadora-tig-ac-dc/",
     "title": "Cómo elegir una soldadora TIG AC/DC",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir TIG AC/DC: cuándo usar AC, qué hacen balance, frecuencia y pulso, y cómo comparar red, ciclo, torcha, pedal y refrigeración.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir TIG AC/DC: cuándo usar AC, qué hacen balance, frecuencia y pulso, y cómo comparar red, ciclo, torcha, pedal y refrigeración.",
     "tables": [
       {
         "heading": "Balance, frecuencia y pulso",
@@ -5075,7 +5105,7 @@
   {
     "path": "/soldadoras/soldadora-inverter-160-amp/",
     "title": "Qué soldadora inverter de 160 amperios elegir",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya compara MMA HandyArc 162i y Dogo 160. La MIG 160i se conserva como alternativa de otro proceso, separada de la comparación MMA.",
     "tables": [
       {
@@ -5113,7 +5143,7 @@
   {
     "path": "/soldadoras/lusqtoff-iron-100/",
     "title": "Soldadora Lusqtoff Iron 100: qué incluye y para quién sirve",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya contrasta Iron 100, Iron 250 y HandyArc 162i, distinguiendo generaciones y kits. Mantener esas alternativas.",
     "tables": [
       {
@@ -5140,8 +5170,8 @@
   {
     "path": "/soldadoras/mig-lusqtoff/",
     "title": "Soldadora MIG Lusqtoff: cómo elegir una Flux sin gas",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparativa de la familia Lüsqtoff SML120, SML130 y SML150: procesos, ciclo publicado, bobina, estado comercial y diferencias de kit, con enlaces a cada ficha.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparativa de la familia Lüsqtoff SML120, SML130 y SML150: procesos, ciclo publicado, bobina, estado comercial y diferencias de kit, con enlaces a cada ficha.",
     "tables": [
       {
         "heading": "Comparativa de la familia SML",
@@ -5160,8 +5190,8 @@
   {
     "path": "/soldadoras/lusqtoff-sml150-8/",
     "title": "Soldadora Lusqtoff SML150-8: guía antes de comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes.",
     "tables": [
       {
         "heading": "Comparación de variantes documentadas",
@@ -5184,8 +5214,8 @@
   {
     "path": "/soldadoras/lusqtoff-sml120-8d/",
     "title": "Lusqtoff SML120-8D: qué revisar en la soldadora y el kit",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base.",
     "tables": [
       {
         "heading": "SML120-8D vs SML120-8DK",
@@ -5207,8 +5237,8 @@
   {
     "path": "/soldadoras/carro-para-soldadora-mig/",
     "title": "Carro para soldadora MIG: cómo elegir uno que entre en tu taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para medir base, conectores, cilindro, carga y recorrido antes de elegir un carro MIG; compara Telwin Federal 803091 y Lincoln K520/K520-1 y ofrece una ficha imprimible.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para medir base, conectores, cilindro, carga y recorrido antes de elegir un carro MIG; compara Telwin Federal 803091 y Lincoln K520/K520-1 y ofrece una ficha imprimible.",
     "tables": [
       {
         "heading": "",
@@ -5230,7 +5260,7 @@
   {
     "path": "/soldadoras/esab-handyarc-162i/",
     "title": "ESAB HandyArc 162i: qué ofrece y qué comprobar",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya contrasta HandyArc 162i, Dogo 160 y Dogo 180. Mantener límites de corriente por ciclo y accesorios.",
     "tables": [
       {
@@ -5277,8 +5307,8 @@
   {
     "path": "/soldadoras/mascara-lusqtoff-st-1x/",
     "title": "Máscara fotosensible Lusqtoff ST-1X: guía de compra",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia.",
     "tables": [
       {
         "heading": "Qué comprobar antes de comprar una ST-1X",
@@ -5296,7 +5326,7 @@
   {
     "path": "/soldadoras/lusqtoff-sml130-7/",
     "title": "Soldadora Lusqtoff SML130-7: comprobaciones de compra",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "El modelo principal está discontinuado; conservar la explicación y las alternativas SML120/SML150 sin simular stock del SML130.",
     "tables": [
       {
@@ -5326,8 +5356,8 @@
   {
     "path": "/soldadura-electronica/kit-soldador-de-estano/",
     "title": "Kit soldador de estaño: elegí el equipo según la reparación",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller.",
     "tables": [
       {
         "heading": "",
@@ -5343,8 +5373,8 @@
   {
     "path": "/soldadura-electronica/estacion-de-soldadura/",
     "title": "Estación de soldadura electrónica: cuál comprar para tu mesa",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño.",
     "tables": [
       {
         "heading": "Cómo investigamos esta guía",
@@ -5360,7 +5390,7 @@
   {
     "path": "/soldadura-electronica/gadnic-878d/",
     "title": "Gadnic 878D: qué revisar antes de comprar la estación",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar la discrepancia entre potencias y la distinción respecto de YiHUA. El nombre 878D no acredita equivalencia entre fabricantes.",
     "tables": [
       {
@@ -5377,7 +5407,7 @@
   {
     "path": "/soldadura-electronica/yihua-898d/",
     "title": "Yihua 898D: qué incluye y para qué trabajos sirve",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Ya distingue 898D, 898D+ y 878D por funciones y variante. Mantener las referencias de fabricante sin mezclar sus kits.",
     "tables": [
       {
@@ -5397,8 +5427,8 @@
   {
     "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
     "title": "Soporte para soldar con lupa: qué revisar antes de comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante.",
     "tables": [
       {
         "heading": "",
@@ -5414,8 +5444,8 @@
   {
     "path": "/taladros/inalambricos/",
     "title": "Cómo elegir un taladro inalámbrico para tu trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí un taladro inalámbrico según la tarea, el mandril, el torque, la batería y el contenido del kit. Comparamos referencias Bosch, Einhell y Black+Decker.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí un taladro inalámbrico según la tarea, el mandril, el torque, la batería y el contenido del kit. Comparamos referencias Bosch, Einhell y Black+Decker.",
     "tables": [
       {
         "heading": "Modelos según uso y nivel de exigencia",
@@ -5461,8 +5491,8 @@
   {
     "path": "/taladros/rotomartillos/",
     "title": "Qué rotomartillo comprar según el trabajo",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí rotomartillo según diámetro, frecuencia, cincelado y acceso a corriente. Compará SDS Plus y SDS Max, cable y batería, con precios consultados y fechados.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí rotomartillo según diámetro, frecuencia, cincelado y acceso a corriente. Compará SDS Plus y SDS Max, cable y batería, con precios consultados y fechados.",
     "tables": [
       {
         "heading": "Joules, encastre y modos de trabajo",
@@ -5525,14 +5555,15 @@
       }
     ],
     "cards_before": [
-      "Bosch GSB 550 RE"
+      "Bosch · GSB 550 RE",
+      "Bosch · GSB 18V-50"
     ]
   },
   {
     "path": "/taladros/taladro-de-banco/",
     "title": "Qué taladro de banco comprar para tu taller",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí taladro de banco por material, velocidad, recorrido, garganta, espacio de mesa y repetibilidad. Comparamos datos publicados y señalamos lo que falta verificar.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí taladro de banco por material, velocidad, recorrido, garganta, espacio de mesa y repetibilidad. Comparamos datos publicados y señalamos lo que falta verificar.",
     "tables": [
       {
         "heading": "Potencia, velocidades y capacidad del mandril",
@@ -5576,8 +5607,8 @@
   {
     "path": "/taladros/atornilladores-de-impacto/",
     "title": "Cómo elegir un atornillador de impacto",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Elegí entre atornillador de impacto hexagonal, llave de impacto y Bosch GDX híbrido. Compará usos, control, puntas compatibles y costo del kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí entre atornillador de impacto hexagonal, llave de impacto y Bosch GDX híbrido. Compará usos, control, puntas compatibles y costo del kit.",
     "tables": [
       {
         "heading": "Diferencias con un taladro atornillador",
@@ -5612,8 +5643,8 @@
   {
     "path": "/taladros/rotomartillo-bosch/",
     "title": "Qué rotomartillo Bosch elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía documental para elegir un rotomartillo Bosch SDS Plus o SDS Max según diámetro, alimentación y tipo de trabajo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía documental para elegir un rotomartillo Bosch SDS Plus o SDS Max según diámetro, alimentación y tipo de trabajo.",
     "tables": [
       {
         "heading": "Comparativa de modelos por trabajo",
@@ -5634,8 +5665,8 @@
   {
     "path": "/taladros/taladro-percutor-inalambrico/",
     "title": "Qué taladro percutor inalámbrico comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir un taladro percutor inalámbrico según la capacidad en cada material, el motor y la configuración de batería y cargador.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir un taladro percutor inalámbrico según la capacidad en cada material, el motor y la configuración de batería y cargador.",
     "tables": [
       {
         "heading": "Modelos con percusión: capacidad, plataforma y configuración",
@@ -5652,8 +5683,8 @@
   {
     "path": "/taladros/para-durlock/",
     "title": "Cómo elegir un atornillador para Durlock",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir atornillador para Durlock: velocidad, tope de profundidad, alimentación, alimentador y accesorios.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir atornillador para Durlock: velocidad, tope de profundidad, alimentación, alimentador y accesorios.",
     "tables": [
       {
         "heading": "",
@@ -5672,8 +5703,8 @@
   {
     "path": "/taladros/black-decker/",
     "title": "Qué taladro Black+Decker elegir para casa",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos los taladros BLACK+DECKER BCD702C1, BLD783D1 y DR260C, y sumamos la referencia oficial argentina BCD702C1-AR.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos los taladros BLACK+DECKER BCD702C1, BLD783D1 y DR260C, y sumamos la referencia oficial argentina BCD702C1-AR.",
     "tables": [
       {
         "heading": "Modelos con cable e inalámbricos",
@@ -5692,8 +5723,8 @@
   {
     "path": "/taladros/rotomartillo-einhell/",
     "title": "Qué rotomartillo Einhell comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparativa de rotomartillos Einhell: TC-RH 620 4F, TE-RH 28 5F, TE-RH 28/1 5F y TE-HD 18/20 Li, con cable o batería.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparativa de rotomartillos Einhell: TC-RH 620 4F, TE-RH 28 5F, TE-RH 28/1 5F y TE-HD 18/20 Li, con cable o batería.",
     "tables": [
       {
         "heading": "Diferencias entre modelos",
@@ -5726,14 +5757,16 @@
       }
     ],
     "cards_before": [
-      "DeWalt DCH273B"
+      "DeWalt · DCH273B",
+      "DeWalt · DCH133B",
+      "DeWalt · D25333K-QS"
     ]
   },
   {
     "path": "/taladros/einhell-inalambrico/",
     "title": "Qué taladro inalámbrico Einhell elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir taladro inalámbrico Einhell por trabajo, percusión, plataforma Power X-Change y costo del kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir taladro inalámbrico Einhell por trabajo, percusión, plataforma Power X-Change y costo del kit.",
     "tables": [
       {
         "heading": "TE-CD 18/40 y TP-CD 18/50: sin y con percusión",
@@ -5756,8 +5789,8 @@
   {
     "path": "/taladros/dewalt-inalambrico/",
     "title": "Qué taladro inalámbrico DeWalt comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Guía para elegir taladro inalámbrico DeWalt: compara modelos de uso general y percutores por motor, kit y plataforma.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir taladro inalámbrico DeWalt: compara modelos de uso general y percutores por motor, kit y plataforma.",
     "tables": [
       {
         "heading": "Modelos para uso doméstico y profesional",
@@ -5776,8 +5809,8 @@
   {
     "path": "/taladros/mecha-porcelanato/",
     "title": "Qué mecha usar para perforar porcelanato",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara brocas de carburo, diamante seco y diamante húmedo para porcelanato; elegí por diámetro, herramienta y refrigeración.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara brocas de carburo, diamante seco y diamante húmedo para porcelanato; elegí por diámetro, herramienta y refrigeración.",
     "tables": [
       {
         "heading": "Tipos de broca para porcelanato",
@@ -5817,8 +5850,8 @@
   {
     "path": "/taladros/milwaukee/",
     "title": "Qué taladro Milwaukee comprar según el uso",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara taladros Milwaukee M12 y M18 con y sin percusión, entiende la línea FUEL y elige plataforma y kit según tu trabajo.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara taladros Milwaukee M12 y M18 con y sin percusión, entiende la línea FUEL y elige plataforma y kit según tu trabajo.",
     "tables": [
       {
         "heading": "Diferencias entre M12 y M18",
@@ -5857,8 +5890,8 @@
   {
     "path": "/taladros/lusqtoff-inalambrico/",
     "title": "Cómo elegir un taladro inalámbrico Lusqtoff",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Compara taladros Lusqtoff de 12 y 18 V, con y sin percusión, y calcula el costo de empezar con Iron Volt según el kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Compara taladros Lusqtoff de 12 y 18 V, con y sin percusión, y calcula el costo de empezar con Iron Volt según el kit.",
     "tables": [
       {
         "heading": "Comparativa de modelos y prestaciones",
@@ -5900,14 +5933,15 @@
       }
     ],
     "cards_before": [
-      "Bosch CYL-9 · 6 mm · cerámica/azulejo"
+      "Bosch · CYL-9 · 6 mm · cerámica/azulejo",
+      "Bosch · EXPERT HEX-9 HardCeramic · 6 mm"
     ]
   },
   {
     "path": "/taladros/stanley/",
     "title": "Qué taladro Stanley elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos los Stanley SDH600/700 con cable y V20 SBD710/SBD715, según percusión, capacidades y configuración de kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos los Stanley SDH600/700 con cable y V20 SBD710/SBD715, según percusión, capacidades y configuración de kit.",
     "tables": [
       {
         "heading": "Modelos con cable e inalámbricos",
@@ -5935,8 +5969,8 @@
   {
     "path": "/taladros/atornillador-impacto-dewalt/",
     "title": "Qué atornillador de impacto DeWalt elegir",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparamos los DeWalt DCF809, DCF887 y DCF850 por control, tamaño y configuración de kit para elegir un atornillador de impacto.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos los DeWalt DCF809, DCF887 y DCF850 por control, tamaño y configuración de kit para elegir un atornillador de impacto.",
     "tables": [
       {
         "heading": "Diferencias entre modelos",
@@ -5955,8 +5989,8 @@
   {
     "path": "/taladros/bosch-inalambrico/",
     "title": "Qué taladro inalámbrico Bosch comprar",
-    "decision": "Conservar",
-    "reason": "Mantener las referencias y criterios documentados para este alcance: Comparación Bosch GSR 120-LI y GSB 18V-50: familias GSR y GSB, plataformas de 12 y 18 V, compatibilidad de baterías y variantes de kit.",
+    "decision": "Pendiente",
+    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación Bosch GSR 120-LI y GSB 18V-50: familias GSR y GSB, plataformas de 12 y 18 V, compatibilidad de baterías y variantes de kit.",
     "tables": [
       {
         "heading": "Diferencias entre GSR y GSB",
@@ -6007,13 +6041,14 @@
       }
     ],
     "cards_before": [
-      "Bosch HSS escalonada 4–20 mm · 2608597519"
+      "Bosch · HSS escalonada 4–20 mm · 2608597519",
+      "Högert · HT6D323"
     ]
   },
   {
     "path": "/taladros/mecha-forstner-35-mm/",
     "title": "Cómo elegir una mecha Forstner de 35 mm para bisagras",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "La decisión se basa en el herraje y sus cotas: conservar diámetro, profundidad y borde sin añadir otra medida como sustituto.",
     "tables": [
       {
@@ -6042,7 +6077,7 @@
   {
     "path": "/taladros/combo-taladro-amoladora/",
     "title": "Qué combo de taladro y amoladora conviene comprar",
-    "decision": "Conservar",
+    "decision": "Criterio propuesto",
     "reason": "Conservar los kits regionales explícitos; no presentar herramientas sueltas como combo ni trasladar disponibilidad de kits europeos a Argentina.",
     "tables": [
       {
