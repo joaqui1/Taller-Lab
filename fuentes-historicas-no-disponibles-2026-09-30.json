@@ -115,5 +115,15 @@
       "paginas/taladros/21-mechas-escalonadas.md"
     ],
     "action": "Conservar cita histórica y explicitar indisponibilidad; retirar hipervínculo roto. No equivale a revalidación técnica."
+  },
+  {
+    "url": "https://ftp.makitalatinamerica.com/catalogos/Pocket%2022%20esp.pdf",
+    "checked": "30/09/2026",
+    "status": null,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+    "files": [
+      "paginas/07-amoladoras-makita.md"
+    ],
+    "action": "Conservar cita histórica y explicitar indisponibilidad; retirar hipervínculo roto. No equivale a revalidación técnica."
   }
 ]

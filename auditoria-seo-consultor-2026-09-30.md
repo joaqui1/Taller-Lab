@@ -1,5 +1,7 @@
 # Auditoría SEO de publicación de TallerLab
 
+> Diagnóstico inicial anterior a las correcciones. Consultá el estado actualizado en [cierre-seo-produccion-2026-09-30.md](cierre-seo-produccion-2026-09-30.md).
+
 Fecha: 30/09/2026. Dominio: https://www.tallerlab.com.ar.
 
 ## Veredicto

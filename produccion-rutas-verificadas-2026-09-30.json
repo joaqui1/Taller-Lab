@@ -59,10 +59,20 @@
       ]
     },
     {
-      "path": "/compresores/",
+      "path": "/hidrolavadoras/",
       "status": 200,
-      "title": "Compresores · TallerLab",
-      "description": "Partí del consumo de aire de tu tarea. Compará caudal declarado/documentado a la presión de uso, volumen del tanque y alimentación; la admisión no equivale al aire entregado.",
+      "title": "Hidrolavadoras: guías, marcas y comparativas",
+      "description": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/sierras/",
+      "status": 200,
+      "title": "Sierras: tipos y cómo elegir según el trabajo · TallerLab",
+      "description": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
@@ -90,20 +100,10 @@
       ]
     },
     {
-      "path": "/hidrolavadoras/",
+      "path": "/soldadura-electronica/",
       "status": 200,
-      "title": "Hidrolavadoras: guías, marcas y comparativas",
-      "description": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
-      "schemas": [
-        "Organization",
-        "BreadcrumbList"
-      ]
-    },
-    {
-      "path": "/sierras/",
-      "status": 200,
-      "title": "Sierras: tipos y cómo elegir según el trabajo · TallerLab",
-      "description": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
+      "title": "Soldadura electrónica · TallerLab",
+      "description": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
@@ -120,10 +120,10 @@
       ]
     },
     {
-      "path": "/soldadura-electronica/",
+      "path": "/compresores/",
       "status": 200,
-      "title": "Soldadura electrónica · TallerLab",
-      "description": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
+      "title": "Compresores · TallerLab",
+      "description": "Partí del consumo de aire de tu tarea. Compará caudal declarado/documentado a la presión de uso, volumen del tanque y alimentación; la admisión no equivale al aire entregado.",
       "schemas": [
         "Organization",
         "BreadcrumbList"

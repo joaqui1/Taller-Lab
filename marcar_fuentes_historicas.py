@@ -10,7 +10,7 @@ def main():
     rows = json.loads(Path('destinos-produccion-2026-09-30.json').read_text(encoding='utf-8'))
     records = []
     for row in rows:
-        if row.get('status') != 404:
+        if row.get('status') != 404 and 'certificate has expired' not in row.get('error', ''):
             continue
         url = row['url']
         if 'meli.la/' in url:
@@ -24,7 +24,7 @@ def main():
                 file.write_text(updated, encoding='utf-8')
                 changed.append(file.as_posix())
         if changed:
-            records.append(dict(url=url, checked='30/09/2026', status=404, files=changed, action='Conservar cita histórica y explicitar indisponibilidad; retirar hipervínculo roto. No equivale a revalidación técnica.'))
+            records.append(dict(url=url, checked='30/09/2026', status=row.get('status'), error=row.get('error'), files=changed, action='Conservar cita histórica y explicitar indisponibilidad; retirar hipervínculo roto. No equivale a revalidación técnica.'))
     output = Path('fuentes-historicas-no-disponibles-2026-09-30.json')
     previous = json.loads(output.read_text(encoding='utf-8')) if output.exists() else []
     merged = {r['url']:r for r in previous + records}

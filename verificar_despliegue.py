@@ -44,7 +44,13 @@ def main():
     asset_results = []
     for path, status, body, headers in map(fetch, sorted(assets)):
         source = site.ASSETS_DIR / path.split('?', 1)[0].removeprefix('/assets/')
-        identical = body == source.read_bytes()
+        expected = source.read_bytes()
+        # Git normaliza los archivos de texto a LF en el checkout de Linux.
+        # No se normalizan fuentes, imágenes ni otros binarios.
+        if source.suffix in ('.css', '.js', '.txt'):
+            identical = body.replace(b'\r\n', b'\n') == expected.replace(b'\r\n', b'\n')
+        else:
+            identical = body == expected
         if not identical:
             failures.append(dict(path=path, issues=['Asset público distinto']))
         asset_results.append(dict(path=path, status=status, identical=identical, cache=headers.get('Cache-Control'), vercel_cache=headers.get('X-Vercel-Cache')))
@@ -54,7 +60,7 @@ def main():
     report = dict(routes=len(pages), sitemap=len(sitemap), failures=failures, pages=pages, assets=asset_results)
     Path('despliegue-verificado-2026-09-30.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     assert not failures, failures
-    print(f'OK: {len(pages)} rutas y {len(asset_results)} assets públicos idénticos al estado aprobado; sitemap completo.')
+    print(f'OK: {len(pages)} rutas y {len(asset_results)} assets públicos coinciden con el estado aprobado; sitemap completo. Sólo se normaliza CRLF/LF en archivos de texto.')
 
 
 if __name__ == '__main__':

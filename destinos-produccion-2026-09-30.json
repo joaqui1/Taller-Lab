@@ -1056,13 +1056,6 @@
     ]
   },
   {
-    "url": "https://ftp.makitalatinamerica.com/catalogos/Pocket%2022%20esp.pdf",
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
-    "pages": [
-      "/amoladoras/makita/"
-    ]
-  },
-  {
     "url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
     "status": 200,
     "final_url": "https://makita.com.ar/blog/visita-nuestros-services-oficiales/",
@@ -1722,14 +1715,14 @@
   {
     "url": "https://articulo.mercadolibre.com.ar/MLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM&tid=d1dd655f-9b49-4df9-87f2-0f5f1045f127",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-885031603-amoladora-angular-skil-9004-830w-chica-115-mm-220v-11000-rpm-_JM&tid=0307f70a-948e-45c1-8d1b-a425c1fb9ebc",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.83,
+    "seconds": 1.13,
     "pages": [
       "/amoladoras/skil-830w/"
     ]
@@ -2854,7 +2847,7 @@
     "description": "Buy Meule Angulaire 115 710W Outil Meulage Puissant TG10711576 for only TND103.000 at TOTAL TOOLS TUNISIA Site officiel | Station d'outils!",
     "canonical_hint": "https://totaltunisia.com/products/meule-ang-115-710w-tg10711576",
     "challenge": true,
-    "seconds": 0.59,
+    "seconds": 0.56,
     "pages": [
       "/amoladoras/total/"
     ]
@@ -3268,14 +3261,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/compresor-de-aire-portatil-jd-extreme-de-150-psi-con-doble-piston-para-auto-y-moto/p/MLA45403244",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-portatil-jd-extreme-de-150-psi-con-doble-piston-para-auto-y-moto%2Fp%2FMLA45403244&tid=6d37b6ae-e0e4-4c91-9953-06a34430179d",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-portatil-jd-extreme-de-150-psi-con-doble-piston-para-auto-y-moto%2Fp%2FMLA45403244&tid=49dd92b2-cebb-4fdd-ab39-1519ac22a6f0",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.53,
+    "seconds": 0.72,
     "pages": [
       "/compresores/12v-doble-piston/",
       "/compresores/para-auto/"
@@ -3333,7 +3326,7 @@
     "description": "Einhell Original Pistola pulverizadora de pintura para compresor (presión de trabajo de máx. 3,5 bar | vaso de 600 ml | regulador aire | regulador pintura | regulador de chorro puntual/amplio)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.9,
+    "seconds": 0.67,
     "pages": [
       "/compresores/50-litros/"
     ]
@@ -3359,7 +3352,7 @@
     "description": "Einhell Lijadora excéntrica de aire comprimido TC-PE 150 (Plato de lijado de Ø 150 mm | palanca de regulación continua | 6 hojas de papel de lija | racor | llave de sujeción)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.88,
+    "seconds": 0.89,
     "pages": [
       "/compresores/50-litros/",
       "/compresores/manguera/"
@@ -3375,7 +3368,7 @@
     "description": "Einhell Compresor TE-AC 270/50 Silent (1650 W | 10 bar | depósito 50 l | aspiración 270 l/min | presión acústica 70 dB(A) | 2 manómetros | sin aceite)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.62,
+    "seconds": 0.56,
     "pages": [
       "/compresores/50-litros/",
       "/compresores/para-pintar/"
@@ -3504,7 +3497,7 @@
     "description": "The Juvel is a gravity feed airbrush used for Spraying makeup and painting nails.  The kits comes with the JM#2 airbrush, 6 ft braided air hose, basic lessons book, maintenance tools and manual.  Recommended compressor is DC150 or D500SR.  It will spray any brand of airbrush makeup or airbrush nail paints.",
     "canonical_hint": "https://paascheairbrush.com/products/jm-1s",
     "challenge": true,
-    "seconds": 0.51,
+    "seconds": 0.57,
     "pages": [
       "/compresores/kits-aerografo/"
     ]
@@ -3543,7 +3536,7 @@
     "description": "H-100D Airbrush Package: This airbrushing kit is a well-rounded solution suitable for both hobbyists and professional artists. Its versatile spray capabilities, quiet and reliable compressor, and essential cleaning tools are the perfect airbrushing setup. Included in Kit: Paasche H-3AS Airbrush Kit Components: Paasche ",
     "canonical_hint": "https://paascheairbrush.com/products/h-100d",
     "challenge": true,
-    "seconds": 0.54,
+    "seconds": 0.43,
     "pages": [
       "/compresores/kits-aerografo/"
     ]
@@ -3712,7 +3705,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.7,
+    "seconds": 0.76,
     "pages": [
       "/compresores/acoples-rapidos/"
     ]
@@ -3782,7 +3775,7 @@
     "description": null,
     "canonical_hint": "https://www.sparmaxair.com/compressor-master-1/tc-501n",
     "challenge": true,
-    "seconds": 0.48,
+    "seconds": 0.46,
     "pages": [
       "/compresores/para-aerografo/"
     ]
@@ -4540,7 +4533,7 @@
     "description": "Einhell Compresor con batería PRESSITO 18/25 (PXC | 18 V | 11 bar | manguera alta presión 71 cm | Tubo baja presión de 1,6 m | Set de adaptadores 3 piezas | Sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.39,
+    "seconds": 0.38,
     "pages": [
       "/compresores/inalambricos/",
       "/compresores/inflador-neumaticos-portatil/"
@@ -4566,7 +4559,7 @@
     "description": "Einhell Compresor con batería PRESSITO 18/21 (PXC | 18 V | 10,5 bar | Potencia de aspiración de 21 l/min | Velocidad del motor de 18 000 rpm | sin aceite | sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.42,
+    "seconds": 0.4,
     "pages": [
       "/compresores/inalambricos/"
     ]
@@ -4590,14 +4583,14 @@
   {
     "url": "https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM&tid=0fffcb53-2503-4774-aae4-c991ed008b65",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM&tid=b5e8737b-4772-49ce-8a39-f309970dd82b",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.75,
+    "seconds": 0.73,
     "pages": [
       "/compresores/stanley/"
     ]
@@ -4725,14 +4718,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/compresor-de-aire-stanley-24-litros-2-hp-116psi-8-bar/p/MLA21818637",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-stanley-24-litros-2-hp-116psi-8-bar%2Fp%2FMLA21818637&tid=f6ffca90-5898-4852-a0aa-ac3e077a2550",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-stanley-24-litros-2-hp-116psi-8-bar%2Fp%2FMLA21818637&tid=1fcc96d5-ca0c-4b9b-93f6-e1bc9121892c",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.93,
+    "seconds": 0.41,
     "pages": [
       "/compresores/stanley/"
     ]
@@ -4787,7 +4780,7 @@
     "description": "Einhell compresor TC-AC 190/24/8 I OF (1100 W, máx. 8 bar, depósito 24 l, potencia de aspiración 190 l/min, sin aceite, bajo mantenimiento, manómetro, reductor de presión)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.48,
+    "seconds": 0.59,
     "pages": [
       "/compresores/para-pintar/"
     ]
@@ -4802,7 +4795,7 @@
     "description": "Einhell Compresor TE-AC 430/90/10 (3000 W | 10 bar | depósito 90 l | aspiración 430 l/min | Régimen del motor: 2850 rpm | regulador presión | Sin aceite)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.48,
+    "seconds": 0.51,
     "pages": [
       "/compresores/para-pintar/"
     ]
@@ -5236,14 +5229,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-720w-pektra-072kva-34hp-980-nafta-generador-2t/p/MLA26044602",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-720w-pektra-072kva-34hp-980-nafta-generador-2t%2Fp%2FMLA26044602&tid=510d35e1-ef9a-4535-8e32-6779fbbccb54",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-720w-pektra-072kva-34hp-980-nafta-generador-2t%2Fp%2FMLA26044602&tid=a603967e-6ed7-4765-a158-3ecda4895f3c",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.46,
+    "seconds": 0.42,
     "pages": [
       "/generadores/chicos/",
       "/generadores/comparativa-general/"
@@ -5252,14 +5245,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-generador-pektra-22kva-55-hp-nafta/p/MLA20005447",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-pektra-22kva-55-hp-nafta%2Fp%2FMLA20005447&tid=edb90c69-c765-45c4-be06-ad356542440f",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-pektra-22kva-55-hp-nafta%2Fp%2FMLA20005447&tid=325a1240-b0aa-4fcd-88ac-10f4d180e1dd",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.45,
+    "seconds": 0.42,
     "pages": [
       "/generadores/a-nafta/",
       "/generadores/comparativa-general/"
@@ -5268,14 +5261,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/generador-electrico-philco-2500w-65hp-196cc-tanque-15l/p/MLA29450496",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-philco-2500w-65hp-196cc-tanque-15l%2Fp%2FMLA29450496&tid=7f1bd565-9d3c-485d-aa2a-c966b185dab7",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-philco-2500w-65hp-196cc-tanque-15l%2Fp%2FMLA29450496&tid=6cdec518-54bf-40bc-8a0c-83a5a12aed67",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.15,
+    "seconds": 0.49,
     "pages": [
       "/generadores/a-nafta/",
       "/generadores/comparativa-general/"
@@ -5314,14 +5307,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/generador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v/p/MLA10743915",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v%2Fp%2FMLA10743915&tid=92aafa39-1091-4f8b-8f9b-43e41af32482",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-portatil-honda-eg1000-1-kw-con-tecnologia-avr-220v%2Fp%2FMLA10743915&tid=f6f2a2e2-607d-420e-af31-52bc0923732e",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.16,
+    "seconds": 0.6,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5329,14 +5322,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr/p/MLA21251497",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr%2Fp%2FMLA21251497&tid=15d160b0-0930-43ab-9928-3eae2889af35",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-3000-watts-3kva-220v-114-amp-nafta-avr%2Fp%2FMLA21251497&tid=bf483c3e-3e51-447f-8df4-5e98f066c5d1",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.89,
+    "seconds": 0.72,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5359,14 +5352,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/generador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v/p/MLA15958687",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v%2Fp%2FMLA15958687&tid=fd51c001-e5f7-47bf-8ea1-bc8159a6fbba",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-portatil-honda-ez3000cx-3-kw-monofasico-con-tecnologia-avr-220v%2Fp%2FMLA15958687&tid=5b0daf03-37c0-4ec9-915d-fa06b3529001",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.16,
+    "seconds": 0.73,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5374,14 +5367,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil/p/MLA49298058",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil%2Fp%2FMLA49298058&tid=cd04aecd-124e-4f52-8929-94d87ce4ab10",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-inverter-5500w-dyllu-dtgeab08-4-monofasico-portatil%2Fp%2FMLA49298058&tid=41ca92b2-5560-4a4e-bc3c-64b07b08196e",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.85,
+    "seconds": 0.76,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5405,14 +5398,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-generador-electrico-monofasico-konan-6500w/up/MLAU3623879031",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-electrico-monofasico-konan-6500w%2Fup%2FMLAU3623879031&tid=8f39ef8e-f269-4a5c-989e-3527fcc871bd",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-electrico-monofasico-konan-6500w%2Fup%2FMLAU3623879031&tid=2c624cb2-341a-4935-9967-781c4fab7179",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.2,
+    "seconds": 0.57,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5420,14 +5413,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman/p/MLA50165960",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman%2Fp%2FMLA50165960&tid=d70f58ac-409f-4091-b428-6dd4cf070bad",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-nebraska-nege06500e-6500w-avr-4t-elecman%2Fp%2FMLA50165960&tid=0a3895dc-c8cc-4bc0-b102-37ccd5dc86d1",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.18,
+    "seconds": 0.42,
     "pages": [
       "/generadores/precios/"
     ]
@@ -5435,7 +5428,7 @@
   {
     "url": "https://www.mercadolibre.com.ar/grupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc/p/MLA51973346",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc%2Fp%2FMLA51973346&tid=8cd75f01-b240-4a25-b145-81d8cefeed77",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgrupo-electrogeno-generador-inverter-lusqtoff-lgi80-9-10kva-8kw-ruedas-420cc%2Fp%2FMLA51973346&tid=b706d333-cb66-4d7e-aa54-d278aae4e084",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
@@ -5465,14 +5458,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/generador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v/up/MLAU166723439",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v%2Fup%2FMLAU166723439&tid=f185e3ea-c7f4-44fe-be3b-1ab3e42e6c69",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-grupo-electrogeno-nafta-gamma-8500w-220v%2Fup%2FMLAU166723439&tid=e40f797b-5339-4fb5-a774-3a5676b4ec41",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.42,
+    "seconds": 0.74,
     "pages": [
       "/generadores/precios/"
     ]
@@ -7121,7 +7114,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.62,
+    "seconds": 2.46,
     "pages": [
       "/generadores/niwa/"
     ]
@@ -7136,7 +7129,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.58,
+    "seconds": 2.6,
     "pages": [
       "/generadores/niwa/"
     ]
@@ -7184,14 +7177,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/generador-electrico-niwa-gnw-55-er-6kva-silencioso-nafta-220v-avr/p/MLA36180484",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-niwa-gnw-55-er-6kva-silencioso-nafta-220v-avr%2Fp%2FMLA36180484&tid=b40b925d-ba80-4a83-a177-fe1746b804b6",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fgenerador-electrico-niwa-gnw-55-er-6kva-silencioso-nafta-220v-avr%2Fp%2FMLA36180484&tid=3c4e7670-862a-4c26-b86f-e80efa52fa9d",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.15,
+    "seconds": 0.9,
     "pages": [
       "/generadores/niwa/"
     ]
@@ -7206,7 +7199,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.14,
+    "seconds": 1.21,
     "pages": [
       "/generadores/niwa/"
     ]
@@ -7331,7 +7324,7 @@
     "description": "Instalaciones llave en mano o realizadas por el cliente con nuestra supervisión y puesta en marcha final.  ",
     "canonical_hint": "https://www.generac.com.ar/instaladores",
     "challenge": true,
-    "seconds": 0.4,
+    "seconds": 0.36,
     "pages": [
       "/generadores/a-gas/"
     ]
@@ -7446,7 +7439,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.46,
+    "seconds": 2.49,
     "pages": [
       "/generadores/estacion-de-energia-portatil/"
     ]
@@ -7544,14 +7537,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/karcher-k2",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkarcher-k2&tid=b7943dd9-67ed-4f87-98d4-f8c7b71adbbf",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkarcher-k2&tid=777aa970-5225-4328-84be-470d3e58fc4f",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.69,
+    "seconds": 0.4,
     "pages": [
       "/hidrolavadoras/comparativa-general/"
     ]
@@ -7559,14 +7552,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-karcher-k2-basic-black/up/MLAU278914440",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-karcher-k2-basic-black%2Fup%2FMLAU278914440&tid=a26f36a3-70a8-4227-8f13-45f25985c111",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-karcher-k2-basic-black%2Fup%2FMLAU278914440&tid=d7756402-5952-4f3d-b4cb-0edf6da0c959",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.63,
+    "seconds": 0.43,
     "pages": [
       "/hidrolavadoras/comparativa-general/"
     ]
@@ -7589,14 +7582,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl100-7-100-bar-1200w/p/MLA29665124?forceInApp=true",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-lusqtoff-hl100-7-100-bar-1200w%2Fp%2FMLA29665124%3FforceInApp%3Dtrue&tid=cd6c1d1f-75b2-435d-bc28-13347bec05e8",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-lusqtoff-hl100-7-100-bar-1200w%2Fp%2FMLA29665124%3FforceInApp%3Dtrue&tid=82e0818d-33a5-4640-8de3-842a3c437104",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.86,
+    "seconds": 0.43,
     "pages": [
       "/hidrolavadoras/comparativa-general/"
     ]
@@ -7619,14 +7612,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-logus-105-bar-presion-1200w-pistola-lanza-logus-hl-105-azul-marino/p/MLA15900120?offer_type=BEST_PRICE",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-logus-105-bar-presion-1200w-pistola-lanza-logus-hl-105-azul-marino%2Fp%2FMLA15900120%3Foffer_type%3DBEST_PRICE&tid=1adfbb48-cb2c-48d7-bbc0-1affc9c2858b",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-logus-105-bar-presion-1200w-pistola-lanza-logus-hl-105-azul-marino%2Fp%2FMLA15900120%3Foffer_type%3DBEST_PRICE&tid=2e872a27-f445-426a-99b7-ea4eabe46dcf",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.83,
+    "seconds": 0.45,
     "pages": [
       "/hidrolavadoras/comparativa-general/"
     ]
@@ -7634,14 +7627,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-nafta-logus-154-bar-65hp-a-explosion-uso-intensivo/p/MLA52112649",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-nafta-logus-154-bar-65hp-a-explosion-uso-intensivo%2Fp%2FMLA52112649&tid=1cd83554-2154-426a-b7aa-8646dae8d144",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-nafta-logus-154-bar-65hp-a-explosion-uso-intensivo%2Fp%2FMLA52112649&tid=23c3edc3-1728-4275-b8fe-e618236cd2cb",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.58,
+    "seconds": 0.43,
     "pages": [
       "/hidrolavadoras/comparativa-general/"
     ]
@@ -7765,14 +7758,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-todo-en-uno-de-lusqtoff-hl-120/p/MLA13121234",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-todo-en-uno-de-lusqtoff-hl-120%2Fp%2FMLA13121234&tid=3a83b62b-48e9-4af1-a8c5-de285328b205",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-todo-en-uno-de-lusqtoff-hl-120%2Fp%2FMLA13121234&tid=a0faf138-bd56-4520-b3ba-30e6a75bb33a",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.89,
+    "seconds": 0.58,
     "pages": [
       "/hidrolavadoras/lusqtoff-hl-120/",
       "/hidrolavadoras/lusqtoff/"
@@ -7781,14 +7774,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-alta-presion-2100-w-110-bar-lusqtoff-hl1109/up/MLAU447157719",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-alta-presion-2100-w-110-bar-lusqtoff-hl1109%2Fup%2FMLAU447157719&tid=feced1ba-5392-4dbf-9e38-74b6105667cb",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-alta-presion-2100-w-110-bar-lusqtoff-hl1109%2Fup%2FMLAU447157719&tid=f0304710-db1e-47b4-bdc4-12f38f250a12",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.44,
+    "seconds": 0.41,
     "pages": [
       "/hidrolavadoras/lusqtoff/"
     ]
@@ -7796,14 +7789,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl-150-naranja-y-negro-1500w-135-bar-50hz/p/MLA6066861",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-lusqtoff-hl-150-naranja-y-negro-1500w-135-bar-50hz%2Fp%2FMLA6066861&tid=98ce6bf7-9213-4aa8-a4ff-0c6658b670e1",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-lusqtoff-hl-150-naranja-y-negro-1500w-135-bar-50hz%2Fp%2FMLA6066861&tid=daf41f6d-69db-42e7-80d1-646cbadfe7fa",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.43,
+    "seconds": 0.42,
     "pages": [
       "/hidrolavadoras/lusqtoff/"
     ]
@@ -7923,14 +7916,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-alta-presion-lusqtoff-2500w-130-bar-hl130-9-color-naranja/p/MLA20542666",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-alta-presion-lusqtoff-2500w-130-bar-hl130-9-color-naranja%2Fp%2FMLA20542666&tid=2d22f60c-72da-4c1a-9af8-0b55dc693d55",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-alta-presion-lusqtoff-2500w-130-bar-hl130-9-color-naranja%2Fp%2FMLA20542666&tid=ccad5865-1ccd-4fad-affa-d1172a3f9718",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.92,
+    "seconds": 0.41,
     "pages": [
       "/hidrolavadoras/lusqtoff/"
     ]
@@ -7938,14 +7931,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-gamma-130-red-line-elite-g2513ar-motor-1600-w-celeste/p/MLA9273077",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-130-red-line-elite-g2513ar-motor-1600-w-celeste%2Fp%2FMLA9273077&tid=4f57d430-7fd7-479a-a79d-7dbada6f499d",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-130-red-line-elite-g2513ar-motor-1600-w-celeste%2Fp%2FMLA9273077&tid=64b60740-db3f-4081-9a09-d7cc9d91aef9",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.89,
+    "seconds": 0.56,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -7968,14 +7961,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/gamma-pro-wash-2000",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fgamma-pro-wash-2000&tid=447cf4bd-c377-492f-b497-0ba8ab94293a",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fgamma-pro-wash-2000&tid=4a66f039-c0b6-4a62-b166-9be40da56c4a",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.9,
+    "seconds": 0.73,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -7983,14 +7976,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/hidrolavadora-gamma-master-wash-2400",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2400&tid=55e1674f-520f-45fa-932f-f348d39950dd",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2400&tid=b41e56c0-1922-4c29-9aeb-ff7543b02f9a",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.46,
+    "seconds": 0.44,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -7998,14 +7991,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-gamma-master-wash-2800-g2519ar-2200w/p/MLA24614561",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2800-g2519ar-2200w%2Fp%2FMLA24614561&tid=20b0fd55-0ede-4e84-a63f-da31bdcc24ef",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-master-wash-2800-g2519ar-2200w%2Fp%2FMLA24614561&tid=04fff387-f5fd-4bb1-8ad1-d27547a8c2f3",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.61,
+    "seconds": 0.87,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -8028,14 +8021,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-aspiradora-1600w-130bar-duo-clean-2-en-1-gamma-azul-50-hz/p/MLA66944822",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-aspiradora-1600w-130bar-duo-clean-2-en-1-gamma-azul-50-hz%2Fp%2FMLA66944822&tid=9d4cd166-7df5-46b2-afad-82d5926ba243",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-aspiradora-1600w-130bar-duo-clean-2-en-1-gamma-azul-50-hz%2Fp%2FMLA66944822&tid=70f75e5d-5b25-4edc-80bc-9c095ab33a67",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.16,
+    "seconds": 0.55,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -8043,14 +8036,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-electrica-gamma-g2523ar-130-bar-1600w/up/MLAU3924412699",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-electrica-gamma-g2523ar-130-bar-1600w%2Fup%2FMLAU3924412699&tid=ee3d32f7-eaa2-4fe0-8194-837a280c4109",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-electrica-gamma-g2523ar-130-bar-1600w%2Fup%2FMLAU3924412699&tid=f87e3e3d-8afa-485f-b782-4de84c6f9b06",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.7,
+    "seconds": 0.43,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -8058,14 +8051,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-gamma-2500w-185-bar-premium-wash-3000-g2520ar/up/MLAU3969187805",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-2500w-185-bar-premium-wash-3000-g2520ar%2Fup%2FMLAU3969187805&tid=5423c2a8-fb8c-42bf-b105-43e01988b427",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-gamma-2500w-185-bar-premium-wash-3000-g2520ar%2Fup%2FMLAU3969187805&tid=95090cad-bbfa-4618-aa85-d6057dc986cf",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.91,
+    "seconds": 0.7,
     "pages": [
       "/hidrolavadoras/gamma/"
     ]
@@ -8260,7 +8253,7 @@
     "description": "Limpiar superficies de forma rápida con las hidrolavadoras STIHL ✔ Una gran variedad de modelos",
     "canonical_hint": "https://www.stihl.com.ar/es/c/hidrolavadoras-98132",
     "challenge": true,
-    "seconds": 2.62,
+    "seconds": 3.01,
     "pages": [
       "/hidrolavadoras/stihl/"
     ]
@@ -8300,7 +8293,7 @@
     "description": "Limpiador eléctrico de alta presión STIHL RE 90: ligero y compacto ✓ con boquilla rotativa y de chorro plano ✓",
     "canonical_hint": "https://www.stihl.com.ar/es/p/hidrolavadoras-re-90-141963",
     "challenge": true,
-    "seconds": 4.16,
+    "seconds": 2.61,
     "pages": [
       "/hidrolavadoras/stihl/"
     ]
@@ -8510,7 +8503,7 @@
     "description": "La motosierra profesional más ligera de STIHL ✓ ¡También disponible como motosierra para el cuidado de árboles MS 201 TC-M!",
     "canonical_hint": "https://www.stihl.com.ar/es/c/ms-201-98122",
     "challenge": true,
-    "seconds": 3.75,
+    "seconds": 3.81,
     "pages": [
       "/hidrolavadoras/stihl/"
     ]
@@ -8698,14 +8691,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/blackdecker-bepw1300-ar-negro-50/p/MLA75243818",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fblackdecker-bepw1300-ar-negro-50%2Fp%2FMLA75243818&tid=7b2a3caf-5898-45cc-a64e-0e0ba1181747",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fblackdecker-bepw1300-ar-negro-50%2Fp%2FMLA75243818&tid=76bc27b2-d5ec-453a-b29c-bd97da6c1f6a",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.43,
+    "seconds": 0.88,
     "pages": [
       "/hidrolavadoras/black-decker/"
     ]
@@ -8713,14 +8706,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-black-decker-bepw1520-portatil-1520psi-1400w/p/MLA68623021",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-black-decker-bepw1520-portatil-1520psi-1400w%2Fp%2FMLA68623021&tid=e0b01693-b8d8-499c-9a13-8bd83f30249b",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-black-decker-bepw1520-portatil-1520psi-1400w%2Fp%2FMLA68623021&tid=9fe33fbf-d268-4ef0-acde-112968729bee",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.42,
+    "seconds": 0.59,
     "pages": [
       "/hidrolavadoras/black-decker/"
     ]
@@ -8906,7 +8899,7 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-karcher-k2-car-kit-lava-autos-1200w-6-cuotas/up/MLAU128965905",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-karcher-k2-car-kit-lava-autos-1200w-6-cuotas%2Fup%2FMLAU128965905&tid=d68e42a8-61ba-48fc-a007-896adcc49e9c",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-karcher-k2-car-kit-lava-autos-1200w-6-cuotas%2Fup%2FMLAU128965905&tid=d4fa1267-5b9a-4dcd-9cd4-d95270c46f51",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
@@ -9151,7 +9144,7 @@
     "description": "Comprá productos de BERMAQ por internet. Tenemos hidrolavadoras, aspiradora y más. Hacé tu pedido y pagalo online.",
     "canonical_hint": "https://bermaq.mitiendanube.com",
     "challenge": true,
-    "seconds": 0.34,
+    "seconds": 0.38,
     "pages": [
       "/hidrolavadoras/profesionales/"
     ]
@@ -9299,7 +9292,7 @@
     "description": "Einhell Limpiadora de alta presión TC-HP 90 (1200 W | 90 bar | máx. 372 l/h | asa de transporte | conexión de agua | filtro integrado | pistola)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.0,
+    "seconds": 0.64,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9314,7 +9307,7 @@
     "description": "Potencia para cualquier tarea. Descubrí las potentes hidrolavadoras Einhell y eliminá incluso la suciedad más difícil.",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.92,
+    "seconds": 0.87,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9339,7 +9332,7 @@
     "description": "Pistola limpiadora a presión con batería Hypresso 18/24 Li-Solo Power X-Change (18 V, 24 bar, para limpieza y riego móviles, 240 L/h, incl. accesorios, sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.64,
+    "seconds": 0.82,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9354,7 +9347,7 @@
     "description": "Einhell Pistola de limpieza a presión a batería HYPRESSO 18/24-1 (PXC | 18 V | 24 bar | limpieza y riego móviles | 240 l/h | accesorios | sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.83,
+    "seconds": 0.69,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9369,7 +9362,7 @@
     "description": "Einhell Limpiadora de alta presión a batería HYPRESSO 36/105 (PXC | 36 V | 105 bar | 270 l/h | manguera presión 4 m | manguera aspiración 5 m | 2 boquillas | cepillo | Lanza | Sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.0,
+    "seconds": 0.92,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9436,7 +9429,7 @@
     "description": "Entra en contacto con nuestros servicios. Descubre tu servicio técnico mas cercano.",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.92,
+    "seconds": 0.83,
     "pages": [
       "/hidrolavadoras/einhell/"
     ]
@@ -9817,7 +9810,7 @@
     "description": "Empresa de Motores Nacionales, fabrica elementos para lubricación, lavado, aire, aspiración, combustibles, hidrolavadoras, equipos centralizados de aspiración y más...",
     "canonical_hint": "https://www.emona.com.ar",
     "challenge": true,
-    "seconds": 5.17,
+    "seconds": 0.71,
     "pages": [
       "/hidrolavadoras/200-bar/"
     ]
@@ -9971,14 +9964,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/hidrolavadora-electrica-150bar-2200w-niwa-hdnw-700-color-negro-con-naranja/p/MLA9311285/",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-electrica-150bar-2200w-niwa-hdnw-700-color-negro-con-naranja%2Fp%2FMLA9311285%2F&tid=e6c418e5-0893-4570-9e05-314b3cc2fbce",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fhidrolavadora-electrica-150bar-2200w-niwa-hdnw-700-color-negro-con-naranja%2Fp%2FMLA9311285%2F&tid=9ca244dd-b932-4cd1-a6c3-de026d2c33e8",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.51,
+    "seconds": 0.42,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10008,7 +10001,7 @@
     "description": null,
     "canonical_hint": "/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-500",
     "challenge": true,
-    "seconds": 2.62,
+    "seconds": 2.64,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10023,7 +10016,7 @@
     "description": null,
     "canonical_hint": "/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700",
     "challenge": true,
-    "seconds": 2.78,
+    "seconds": 2.79,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10038,7 +10031,7 @@
     "description": null,
     "canonical_hint": "/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-pro-10",
     "challenge": true,
-    "seconds": 2.73,
+    "seconds": 2.55,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10053,7 +10046,7 @@
     "description": null,
     "canonical_hint": "/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-70",
     "challenge": true,
-    "seconds": 2.75,
+    "seconds": 2.58,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10068,7 +10061,7 @@
     "description": null,
     "canonical_hint": "/tienda/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-a-combustion/hidrolavadora-a-combustion-niwa-lnw-150",
     "challenge": true,
-    "seconds": 2.73,
+    "seconds": 2.59,
     "pages": [
       "/hidrolavadoras/niwa/"
     ]
@@ -10610,7 +10603,7 @@
     "description": "La TC-JS 85 es un modelo potente para trabajos de serrado ambiciosos en cualquier material. El péndulo ajustable en 4 niveles y la electrónica de control del número de carreras permiten un…",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.43,
+    "seconds": 0.4,
     "pages": [
       "/sierras/caladoras-einhell/",
       "/sierras/caladoras/"
@@ -10860,7 +10853,7 @@
     "description": "Einhell Sierra circular de mesa TC-TS 2025/2 U (2000 W | Altura de corte de 85 mm | Hoja de sierra de Ø 250 mm | Ampliación de la mesa | Tope angular | Tope paralelo)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.66,
+    "seconds": 0.43,
     "pages": [
       "/sierras/de-banco-einhell/",
       "/sierras/de-banco/"
@@ -11034,7 +11027,7 @@
     "description": "Einhell Sierra ingletadora y tronzadora TC-MS 2112 (1600 W | Profundidad de corte/anchura de corte: 55 x 120 mm | 1 hoja de sierra de Ø 210 mm | Cabezal de sierra inclinable)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.84,
+    "seconds": 0.54,
     "pages": [
       "/sierras/ingletadoras-einhell/",
       "/sierras/ingletadoras/"
@@ -11050,7 +11043,7 @@
     "description": "Einhell Sierra de tracción, vaivén e inglete TC-SM 2131/2 Dual (1800 W | Profundidad de corte/anchura de corte: 62 x 310 mm | 1 hoja Ø 210 mm | cabezal inclinable bilateral | tracción)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.85,
+    "seconds": 0.42,
     "pages": [
       "/sierras/ingletadoras-einhell/",
       "/sierras/ingletadoras/"
@@ -11081,7 +11074,7 @@
     "description": "Einhell Sierra circular de mesa TC-TS 2225 U (2200 W | Altura de corte de 80 mm | Hoja de sierra de Ø 254 mm | Ampliación de mesa | Tope angular | Tope paralelo)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.53,
+    "seconds": 0.45,
     "pages": [
       "/sierras/de-banco-einhell/"
     ]
@@ -11673,7 +11666,7 @@
     "description": "Einhell Sierra de calar con batería TC-JS 18 Li (PXC | 18 V | corte 70 mm | carrera 20 mm | máx. 2700 carreras/min | cortes oblicuos de 45° | 1 hoja de sierra | sin batería)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.58,
+    "seconds": 0.42,
     "pages": [
       "/sierras/caladoras-einhell/"
     ]
@@ -12046,14 +12039,14 @@
   {
     "url": "https://articulo.mercadolibre.com.ar/MLA-1469785943-sierra-sensitiva-total-355mm-2200w-incluye-disco-ts223558-4-_JM",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1469785943-sierra-sensitiva-total-355mm-2200w-incluye-disco-ts223558-4-_JM&tid=99ed78f7-4dbd-4134-89fb-25c1d5e3c1f3",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1469785943-sierra-sensitiva-total-355mm-2200w-incluye-disco-ts223558-4-_JM&tid=3bf2160c-0e76-47d6-b175-15835809dad5",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.14,
+    "seconds": 0.73,
     "pages": [
       "/sierras/sensitivas-total/"
     ]
@@ -12061,14 +12054,14 @@
   {
     "url": "https://articulo.mercadolibre.com.ar/MLA-859712828-sierra-sensitiva-total-disco-14-2200w-355mm-industrial-_JM",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-859712828-sierra-sensitiva-total-disco-14-2200w-355mm-industrial-_JM&tid=98810bc3-3b10-417d-81a4-b366486cc5fb",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-859712828-sierra-sensitiva-total-disco-14-2200w-355mm-industrial-_JM&tid=50939284-95a3-4a09-9a57-4375ada33f4b",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.87,
+    "seconds": 0.91,
     "pages": [
       "/sierras/sensitivas-total/"
     ]
@@ -12173,7 +12166,7 @@
     "description": "Potente miembro de la familia Power X-Change con motor sin escobillas para más potencia y autonomía. Ajuste sin herramientas de profundidad e inclinación, cambio de hoja fácil con bloqueo…",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.4,
+    "seconds": 0.45,
     "pages": [
       "/sierras/sierra-circular-inalambrica/"
     ]
@@ -13528,7 +13521,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.64,
+    "seconds": 2.73,
     "pages": [
       "/soldadoras/soldadora-inverter-200-amp/"
     ]
@@ -13737,7 +13730,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.34,
+    "seconds": 2.57,
     "pages": [
       "/soldadoras/lusqtoff-iron-250/",
       "/soldadoras/soldadora-dogo-180/"
@@ -13753,7 +13746,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.32,
+    "seconds": 2.33,
     "pages": [
       "/soldadoras/soldadora-dogo-180/",
       "/soldadoras/soldadora-inverter-160-amp/"
@@ -13769,7 +13762,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.41,
+    "seconds": 2.32,
     "pages": [
       "/soldadoras/soldadora-dogo-180/"
     ]
@@ -13794,7 +13787,7 @@
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 2.61,
+    "seconds": 2.25,
     "pages": [
       "/soldadoras/soldadora-dogo-180/"
     ]
@@ -13911,14 +13904,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/electrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg/up/MLAU3927244096",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Felectrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg%2Fup%2FMLAU3927244096&tid=e9bb7e15-f34e-4b14-9df6-da118bfddd72",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Felectrodo-soldar-acero-inoxidable-e308l16-caja-por-2-kg%2Fup%2FMLAU3927244096&tid=af328400-f7b5-46e0-8f12-afae298f1e48",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.56,
+    "seconds": 0.46,
     "pages": [
       "/soldadoras/electrodo-para-acero-inoxidable/"
     ]
@@ -14569,7 +14562,7 @@
     "description": "Find out more about Einhell's commitment to sustainability.",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.57,
+    "seconds": 1.48,
     "pages": [
       "/taladros/inalambricos/"
     ]
@@ -14592,14 +14585,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fatornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0%2Fp%2FMLA42241463&tid=495fc71d-f002-4b6c-925f-d34fa47137c2",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fatornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0%2Fp%2FMLA42241463&tid=319a3ba2-afe8-4d91-a02c-87a120918ca4",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.54,
+    "seconds": 0.43,
     "pages": [
       "/taladros/inalambricos/",
       "/taladros/taladro-percutor-inalambrico/"
@@ -14638,14 +14631,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/rotomartillo-bosch-professional-gbh-226-dre--800w--potencia/up/MLAU227331696",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Frotomartillo-bosch-professional-gbh-226-dre--800w--potencia%2Fup%2FMLAU227331696&tid=ff200553-61bc-4bdc-be29-9af187a86ac6",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Frotomartillo-bosch-professional-gbh-226-dre--800w--potencia%2Fup%2FMLAU227331696&tid=9077ce43-7bd8-4d96-a714-59d041354cb2",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.73,
+    "seconds": 0.44,
     "pages": [
       "/taladros/rotomartillos/"
     ]
@@ -14707,7 +14700,7 @@
     "description": "Einhell Rotary Hammer TE-RH 28 5F (950 W | impact rate 4,500/min | screwing/drilling/impact drilling/chiselling with/without rotation stop)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.47,
+    "seconds": 0.68,
     "pages": [
       "/taladros/rotomartillo-einhell/",
       "/taladros/rotomartillos/"
@@ -14838,14 +14831,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/taladro-agujereadora-de-banco-16mm-550w-34-hp-5-vel-morsa/p/MLA68679095",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Ftaladro-agujereadora-de-banco-16mm-550w-34-hp-5-vel-morsa%2Fp%2FMLA68679095&tid=c4d9217a-1594-4493-9f22-f380511240a2",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Ftaladro-agujereadora-de-banco-16mm-550w-34-hp-5-vel-morsa%2Fp%2FMLA68679095&tid=b3efe7d4-7a77-4767-879d-09b0594022ac",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.6,
+    "seconds": 0.42,
     "pages": [
       "/taladros/taladro-de-banco/"
     ]
@@ -15151,7 +15144,7 @@
     "description": "Einhell Professional cordless impact drill TP-CD 18/50 Li-i BL Solo (PXC | 18 V | Brushless | 50 Nm | impact drilling function | 13-mm metal chuck | 2-speed | without battery)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.64,
+    "seconds": 0.82,
     "pages": [
       "/taladros/einhell-inalambrico/",
       "/taladros/taladro-percutor-inalambrico/"
@@ -15337,7 +15330,7 @@
     "description": "The BLACK+DECKER® 20V MAX* cordless drill/driver offers an 11-position clutch and maximize torque. An integrated LED light and built-in bit storage is included.",
     "canonical_hint": "https://www.blackanddecker.com/products/bcd702c1",
     "challenge": true,
-    "seconds": 0.73,
+    "seconds": 0.74,
     "pages": [
       "/taladros/black-decker/"
     ]
@@ -15352,7 +15345,7 @@
     "description": "Build, mount, and drill with confidence using the BLACK+DECKER® 20V MAX* brushless hammer drill—powerful, long-lasting, and ideal for everyday DIY tasks.",
     "canonical_hint": "https://www.blackanddecker.com/products/bld783d1",
     "challenge": true,
-    "seconds": 0.87,
+    "seconds": 0.52,
     "pages": [
       "/taladros/black-decker/"
     ]
@@ -15367,7 +15360,7 @@
     "description": "The BLACK+DECKER® 5.5 Amp 3/8 inch electric drill/driver features a variable speed trigger for control while drilling through a variety of materials.",
     "canonical_hint": "https://www.blackanddecker.com/products/dr260c",
     "challenge": true,
-    "seconds": 0.66,
+    "seconds": 0.51,
     "pages": [
       "/taladros/black-decker/"
     ]
@@ -15412,7 +15405,7 @@
     "description": "Einhell rotary hammer TC-RH 620 4F (620 W | 2.2 J | SDS-Plus | 20 mm drilling capacity in concrete | pneumatic impact mechanism | 4 functions)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.71,
+    "seconds": 0.44,
     "pages": [
       "/taladros/rotomartillo-einhell/"
     ]
@@ -15427,7 +15420,7 @@
     "description": "Einhell Bohrhammer TE-RH 28/1 5F (950W, Schlagzahl 4500/Min, Schrauben/Bohren/Hammerbohren/Meißeln mit/ohne Fixierung, Dauerlaufarretierung, pneum. Schlagwerk, SDS-plus, Drehzahl-Elektronik)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.72,
+    "seconds": 1.53,
     "pages": [
       "/taladros/rotomartillo-einhell/"
     ]
@@ -15452,7 +15445,7 @@
     "description": "Einhell cordless rotary hammer TE-HD 18/20 Li-Solo (PXC | 18 V | 1.8 J | SDS-plus | 20-mm drilling capacity in concrete | 4 functions | LED light | without battery)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.68,
+    "seconds": 0.49,
     "pages": [
       "/taladros/rotomartillo-einhell/"
     ]
@@ -15597,7 +15590,7 @@
     "description": "Einhell cordless drill TE-CD 18/40 Li-Solo (PXC | 18 V | 40 Nm | 13-mm metal chuck | 2-speed | 21+1 torque settings | without battery)",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.96,
+    "seconds": 0.56,
     "pages": [
       "/taladros/einhell-inalambrico/"
     ]
@@ -15622,7 +15615,7 @@
     "description": "Discover wireless freedom thanks to powerful and flexible Power X-Change batteries | Take a look now!",
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 1.37,
+    "seconds": 1.31,
     "pages": [
       "/taladros/einhell-inalambrico/"
     ]
@@ -16352,14 +16345,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/up/MLAU364309887?pdp_filters=item_id:MLA1755860026",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fup%2FMLAU364309887%3Fpdp_filters%3Ditem_id%253AMLA1755860026&tid=2284dd23-6959-45de-a556-0c87e00d2c95",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fup%2FMLAU364309887%3Fpdp_filters%3Ditem_id%253AMLA1755860026&tid=016171c3-83f3-467a-9f47-8df3c933fdde",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.43,
+    "seconds": 0.42,
     "pages": [
       "/taladros/bosch-inalambrico/"
     ]
@@ -16740,14 +16733,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/kit-soldador-estano",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkit-soldador-estano&tid=fee1b0d9-e353-4de6-afed-57dc3b2a7bd0",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fkit-soldador-estano&tid=3448f8a4-a785-4158-9c3c-0ed5ad78a6b4",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.44,
+    "seconds": 0.53,
     "pages": [
       "/soldadura-electronica/kit-soldador-de-estano/"
     ]
@@ -17070,14 +17063,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/compresor-de-aire-lusqtoff-lc2550b-8-50-lts-25-hp-1750w/p/MLA57291244",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-lusqtoff-lc2550b-8-50-lts-25-hp-1750w%2Fp%2FMLA57291244&tid=ed2012db-13ae-4065-beaa-2b769088858d",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcompresor-de-aire-lusqtoff-lc2550b-8-50-lts-25-hp-1750w%2Fp%2FMLA57291244&tid=2fe43011-5318-42d6-b192-dcefa4a2e7d0",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.57,
+    "seconds": 0.46,
     "pages": [
       "/compresores/50-litros/"
     ]
@@ -17085,14 +17078,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/compresor%20L%C3%BCsqtoff%20LC2550B-8",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520L%25C3%25BCsqtoff%2520LC2550B-8&tid=4fc88adc-691f-4cb4-ae6d-12f592290688",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520L%25C3%25BCsqtoff%2520LC2550B-8&tid=d06944ed-5780-4f57-b284-e1f7012afa39",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.54,
+    "seconds": 0.75,
     "pages": [
       "/compresores/50-litros/"
     ]
@@ -17100,14 +17093,14 @@
   {
     "url": "https://listado.mercadolibre.com.ar/compresor%20Gamma%20G2802AR",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520Gamma%2520G2802AR&tid=ee3d5875-270e-467b-a565-8b7f4f43c31e",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520Gamma%2520G2802AR&tid=28a0edd4-d914-46f7-ac69-396e85015779",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.48,
+    "seconds": 0.39,
     "pages": [
       "/compresores/50-litros/"
     ]
@@ -17115,7 +17108,7 @@
   {
     "url": "https://listado.mercadolibre.com.ar/compresor%20Einhell%20TE-AC%20270%2F50%20Silent",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520Einhell%2520TE-AC%2520270%252F50%2520Silent&tid=bd3698cc-e033-4c45-9110-01ef611e357a",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fcompresor%2520Einhell%2520TE-AC%2520270%252F50%2520Silent&tid=f468ae54-b6b2-401e-96aa-dd5bdbe44409",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
@@ -17145,14 +17138,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/kit-compresor-aire-lusqtoff-5-piezas-pintar-set-acc-inflador/up/MLAU161535782",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fkit-compresor-aire-lusqtoff-5-piezas-pintar-set-acc-inflador%2Fup%2FMLAU161535782&tid=5e74772a-bf8a-42df-85d5-0a1cb9cf802f",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fkit-compresor-aire-lusqtoff-5-piezas-pintar-set-acc-inflador%2Fup%2FMLAU161535782&tid=5026a33c-f899-451f-88ce-f3dacb8da640",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.98,
+    "seconds": 0.4,
     "pages": [
       "/compresores/kits-accesorios/"
     ]
@@ -17590,14 +17583,14 @@
   {
     "url": "https://www.mercadolibre.com.ar/kit-kommberg-amoladora-angular-820w-taladro-650w/p/MLA59099749",
     "status": 200,
-    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fkit-kommberg-amoladora-angular-820w-taladro-650w%2Fp%2FMLA59099749&tid=552d1ccd-b5ef-41e0-8bbb-b51b12dc6902",
+    "final_url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fkit-kommberg-amoladora-angular-820w-taladro-650w%2Fp%2FMLA59099749&tid=3cb36239-0ebb-4297-a1c1-58e44f8ca2d0",
     "content_type": "text/html; charset=utf-8",
     "title": "Mercado Libre",
     "og_title": null,
     "description": null,
     "canonical_hint": null,
     "challenge": true,
-    "seconds": 0.87,
+    "seconds": 0.45,
     "pages": [
       "/taladros/combo-taladro-amoladora/"
     ]
