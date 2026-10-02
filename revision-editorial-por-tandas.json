@@ -382,5 +382,29 @@
     "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
     "notes": "Lectura completa y contraste de fichas actuales LC30200-8, LC40200-8 y Schulz 922.9303-0. Actualizado LC40200 a 458 L/min frente a 700 históricos; retirado afiliado sin identidad del modelo y sustituido por ficha exacta. Recuperada ficha Schulz: 60 Hz, régimen intermitente, 172,8 L, 133,1 kg, medidas embaladas 165×60×114 cm. Tres tarjetas documentadas con fotos reales; no se presupone compatibilidad de la variante brasileña con 50 Hz.",
     "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/compresores/manguera/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-04",
+    "body_sha256": "308149511f6e3bf0874607571711f58ac8084030a8fce8fb83f7c1d49e8fbc69",
+    "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+    "notes": "Lectura completa: separa DI, conexión, perfil, longitud y condiciones de trabajo. Contrastados TC-PN 50 (manual PDF p.41: 0,66 L/disparo, 6,3 bar, manguera 9 mm), TC-PW 340 (p.38: 142 L/min, 6,3 bar, 9 mm) y TC-PE 150 (ficha: 100 L/min, 6,3 bar, 9 mm). Tabla Parker contrastada con texto primario de p.5: corregido contexto AirGuard, límites de aplicación y requisito de DI mayor por debajo de la presión mínima. Descarga y captura visual de Parker bloqueadas; no se declara contraste visual de ese PDF. Materiales conservados como criterios dependientes de cada producto; no se agregan modelos sin compatibilidad definida.",
+    "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+  },
+  "/compresores/acoples-rapidos/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-04",
+    "body_sha256": "e5ed69f822b4bc96d3b70bcc7b9531b119f41d9341ba5e93e5e66eb1549ae7e9",
+    "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+    "notes": "Lectura completa y contraste con CEJN (identificación por marcado, código, calibre y perfil), Airex (series multiperfil concretas) y Swagelok (PDF p.6: identificación cilíndrica/cónica; p.36: BSPP y sellado). Corregida expresión flancos paralelos: BSPP es rosca cilíndrica de diámetro constante. No se agregan conectores incompatibles como alternativas genéricas. Matriz Parker y código BTA quedan para contraste visual adicional.",
+    "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+  },
+  "/compresores/filtros/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-04",
+    "body_sha256": "5731abd144267904061b74c0326454b69a7dd4b3d3ae114c0e3d5610b957e089",
+    "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+    "notes": "Lectura completa; manual Gamma G2802AR PDF p.8 confirma revisar cartucho regularmente y cambiar cuando sea necesario, sin intervalo universal. Ficha BTA FRL 802834.1 confirma conexión, presión, micronaje y rótulos distintos de caudal. Se identifica el FRL por 802834.1: BTA reutiliza AA-2040I en un arenador 279001, que no es ese repuesto. Se mantiene la separación entre admisión y línea y no se añade un filtro universal sin referencia compatible.",
+    "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
   }
 }

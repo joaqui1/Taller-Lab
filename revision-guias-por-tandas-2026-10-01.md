@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 44. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 47. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -55,6 +55,12 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/): Lectura completa; nueva ficha LCS100-8: 100 L, 220 V–50 Hz, 1280 W × 3, 255 L/min sin condiciones, 50,5 kg netos. Tres alternativas con foto exacta y fuente. Eliminada la atribución de admisión sin respaldo. Completada viscosidad LC30100 según manual ya verificado. Ruido en dB, ciclo y FAD siguen sin publicarse en las fuentes citadas.
 - [/compresores/200-litros/](https://www.tallerlab.com.ar/compresores/200-litros/): Lectura completa y contraste de fichas actuales LC30200-8, LC40200-8 y Schulz 922.9303-0. Actualizado LC40200 a 458 L/min frente a 700 históricos; retirado afiliado sin identidad del modelo y sustituido por ficha exacta. Recuperada ficha Schulz: 60 Hz, régimen intermitente, 172,8 L, 133,1 kg, medidas embaladas 165×60×114 cm. Tres tarjetas documentadas con fotos reales; no se presupone compatibilidad de la variante brasileña con 50 Hz.
 
+## Tanda compresores-04
+
+- [/compresores/manguera/](https://www.tallerlab.com.ar/compresores/manguera/): Lectura completa: separa DI, conexión, perfil, longitud y condiciones de trabajo. Contrastados TC-PN 50 (manual PDF p.41: 0,66 L/disparo, 6,3 bar, manguera 9 mm), TC-PW 340 (p.38: 142 L/min, 6,3 bar, 9 mm) y TC-PE 150 (ficha: 100 L/min, 6,3 bar, 9 mm). Tabla Parker contrastada con texto primario de p.5: corregido contexto AirGuard, límites de aplicación y requisito de DI mayor por debajo de la presión mínima. Descarga y captura visual de Parker bloqueadas; no se declara contraste visual de ese PDF. Materiales conservados como criterios dependientes de cada producto; no se agregan modelos sin compatibilidad definida.
+- [/compresores/acoples-rapidos/](https://www.tallerlab.com.ar/compresores/acoples-rapidos/): Lectura completa y contraste con CEJN (identificación por marcado, código, calibre y perfil), Airex (series multiperfil concretas) y Swagelok (PDF p.6: identificación cilíndrica/cónica; p.36: BSPP y sellado). Corregida expresión flancos paralelos: BSPP es rosca cilíndrica de diámetro constante. No se agregan conectores incompatibles como alternativas genéricas. Matriz Parker y código BTA quedan para contraste visual adicional.
+- [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/): Lectura completa; manual Gamma G2802AR PDF p.8 confirma revisar cartucho regularmente y cambiar cuando sea necesario, sin intervalo universal. Ficha BTA FRL 802834.1 confirma conexión, presión, micronaje y rótulos distintos de caudal. Se identifica el FRL por 802834.1: BTA reutiliza AA-2040I en un arenador 279001, que no es ese repuesto. Se mantiene la separación entre admisión y línea y no se añade un filtro universal sin referencia compatible.
+
 ## Tanda consumibles-01
 
 - [/soldadoras/alambre-para-soldadura-mig/](https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/): Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.
@@ -107,14 +113,14 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/amoladoras/discos-vidrio/](https://www.tallerlab.com.ar/amoladoras/discos-vidrio/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/para-auto/](https://www.tallerlab.com.ar/compresores/para-auto/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/50-litros/](https://www.tallerlab.com.ar/compresores/50-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
-| [/compresores/manguera/](https://www.tallerlab.com.ar/compresores/manguera/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/manguera/](https://www.tallerlab.com.ar/compresores/manguera/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/kits-aerografo/](https://www.tallerlab.com.ar/compresores/kits-aerografo/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/pistola-para-pintar/](https://www.tallerlab.com.ar/compresores/pistola-para-pintar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/acoples-rapidos/](https://www.tallerlab.com.ar/compresores/acoples-rapidos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/acoples-rapidos/](https://www.tallerlab.com.ar/compresores/acoples-rapidos/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/para-aerografo/](https://www.tallerlab.com.ar/compresores/para-aerografo/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/) | Sin fallas detectadas | revisión editorial registrada |
-| [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/kits-accesorios/](https://www.tallerlab.com.ar/compresores/kits-accesorios/) | Sin fallas detectadas | pendiente de revisión editorial actual |

@@ -912,8 +912,8 @@
   {
     "path": "/compresores/manguera/",
     "title": "Cómo elegir una manguera para compresor de aire",
-    "decision": "Criterio propuesto",
-    "reason": "Conservar criterios de diámetro interior, longitud y caudal. La conexión roscada no identifica una manguera compatible para todos los equipos.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa: separa DI, conexión, perfil, longitud y condiciones de trabajo. Contrastados TC-PN 50 (manual PDF p.41: 0,66 L/disparo, 6,3 bar, manguera 9 mm), TC-PW 340 (p.38: 142 L/min, 6,3 bar, 9 mm) y TC-PE 150 (ficha: 100 L/min, 6,3 bar, 9 mm). Tabla Parker contrastada con texto primario de p.5: corregido contexto AirGuard, límites de aplicación y requisito de DI mayor por debajo de la presión mínima. Descarga y captura visual de Parker bloqueadas; no se declara contraste visual de ese PDF. Materiales conservados como criterios dependientes de cada producto; no se agregan modelos sin compatibilidad definida.",
     "tables": [
       {
         "heading": "Material: PVC, PU, goma o híbrida",
@@ -936,7 +936,7 @@
         ]
       },
       {
-        "heading": "Tabla Parker de dimensionamiento",
+        "heading": "Referencia de dimensionamiento Parker AirGuard",
         "rows": [
           "1/4″",
           "1/4″",
@@ -1025,8 +1025,8 @@
   {
     "path": "/compresores/acoples-rapidos/",
     "title": "Acople rápido para compresor: perfiles, roscas y medidas",
-    "decision": "Criterio propuesto",
-    "reason": "Conservar comparación de perfiles, roscas y medidas; no añadir conectores sin identificar el perfil de ambas mitades.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste con CEJN (identificación por marcado, código, calibre y perfil), Airex (series multiperfil concretas) y Swagelok (PDF p.6: identificación cilíndrica/cónica; p.36: BSPP y sellado). Corregida expresión flancos paralelos: BSPP es rosca cilíndrica de diámetro constante. No se agregan conectores incompatibles como alternativas genéricas. Matriz Parker y código BTA quedan para contraste visual adicional.",
     "tables": [
       {
         "heading": "Perfil del acople: qué encastra con qué",
@@ -1142,8 +1142,8 @@
   {
     "path": "/compresores/filtros/",
     "title": "Filtro de aire para compresor: cómo elegir el repuesto",
-    "decision": "Criterio propuesto",
-    "reason": "Conservar la separación entre admisión y línea; la compra depende del código, micronaje y drenaje.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa; manual Gamma G2802AR PDF p.8 confirma revisar cartucho regularmente y cambiar cuando sea necesario, sin intervalo universal. Ficha BTA FRL 802834.1 confirma conexión, presión, micronaje y rótulos distintos de caudal. Se identifica el FRL por 802834.1: BTA reutiliza AA-2040I en un arenador 279001, que no es ese repuesto. Se mantiene la separación entre admisión y línea y no se añade un filtro universal sin referencia compatible.",
     "tables": [
       {
         "heading": "Cómo identificar el filtro de admisión correcto",

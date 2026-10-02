@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de selección por uso, caudal, largo, diámetro, material y conexiones, con tabla Parker de dimensionamiento."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "02/10/2026"
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 Para elegir entre **1/4″ y 3/8″**, mirá primero qué conexión y qué caudal pide la herramienta; luego confirmá el **diámetro interior real** de la manguera. Esas medidas no son equivalentes: 1/4″ puede describir una rosca, un acople o el diámetro interno, según cómo esté redactada la publicación. Pedí que te indiquen cuál de las tres es.
 
-Como referencia de dimensionamiento, la tabla Parker de abajo indica para una conexión de 1/4″ un diámetro interior mínimo de 7 mm en un tramo de hasta 10 m y 8 mm entre 10 y 20 m. Para conexión de 3/8″ indica 10 y 12 mm, respectivamente. Son mínimos de esa tabla y no una regla universal: la elección final depende del consumo de la herramienta, la presión, el largo y el paso de los acoples.
+Como referencia, la tabla del catálogo **Parker AirGuard** indica para una conexión de 1/4″ un diámetro interior mínimo de 7 mm en un tramo de hasta 10 m y 8 mm entre 10 y 20 m. Para conexión de 3/8″ indica 10 y 12 mm, respectivamente. Son criterios de ese sistema y no una regla universal: la elección final depende del consumo de la herramienta, la presión, el largo y el paso de los acoples.
 
 En la práctica, comprá la conexión de 1/4″ o 3/8″ que coincida con el compresor y la herramienta, y elegí aparte el DI que pide el manual. Si una herramienta recomienda manguera de 9 mm, como algunos modelos Einhell, buscá ese DI aunque el aviso describa la rosca o el acople como 1/4″. Pasar a conexión de 3/8″ sirve cuando el recorrido necesita más sección y los extremos admiten ese paso; un adaptador reductor puede volver a limitar el conjunto.
 
@@ -36,7 +36,7 @@ En la práctica, comprá la conexión de 1/4″ o 3/8″ que coincida con el com
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 28/09/2026
+- Última revisión: 02/10/2026
 
 ## Qué revisar antes de elegir
 
@@ -87,7 +87,9 @@ Si trabajás al aire libre o con frío, revisá la temperatura mínima y si el f
 | Cualquier herramienta con recorrido de 10–20 m | 10–20 m | Recalcular DI: la referencia Parker aumenta 1–2 mm sus mínimos según la conexión. Revisar también acoples, enrollador y adaptadores intermedios |
 | Pintura o lijado continuo / mayor consumo | El mínimo que permita trabajar; si se extiende a 10–20 m, dimensionar el tramo completo | Consumo de la herramienta a la presión de uso, salida real del compresor, DI y ciclo de trabajo. No resolver falta de caudal agregando solo longitud o tanque |
 
-## Tabla Parker de dimensionamiento
+## Referencia de dimensionamiento Parker AirGuard
+
+La tabla corresponde al catálogo 0726-E de **AirGuard**, un dispositivo de seguridad para líneas neumáticas. Distingue tamaño de conexión, largo y diámetro interior de la manguera. Sus valores de caudal a 6 bar no certifican la capacidad de cualquier manguera o acople comercial del mismo tamaño. Parker indica que, si la presión es menor que la mínima de la tabla, debe usarse un diámetro interior mayor; seguí también las indicaciones de la herramienta y del sistema instalado.
 
 | Conexión indicada por Parker | Largo de manguera | Diámetro interno mínimo | Presión mínima de la tabla | Caudal a 6 bar publicado |
 | :--- | :--- | ---: | ---: | ---: |

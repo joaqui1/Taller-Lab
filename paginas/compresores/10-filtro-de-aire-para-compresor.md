@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía para identificar el filtro de admisión por modelo, referencia, rosca y dimensiones, con una sección separada de tratamiento de línea."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "02/10/2026"
 published: true
 ---
 
@@ -67,9 +67,9 @@ Para elegir una unidad de línea, cotejá:
 - **Drenaje:** confirmá si es manual o automático, cómo se vacía y qué mantenimiento requiere. El drenaje de una taza no elimina el agua que pueda seguir como vapor en la línea.
 - **Lubricador:** agregalo solo si la herramienta lo requiere y usa el lubricante indicado por su fabricante. No toda instalación neumática necesita lubricación en línea.
 
-### Ejemplo documentado: FRL BTA AA-2040I
+### Ejemplo documentado: FRL BTA 802834.1
 
-El **BTA AA-2040I**, código 802834.1, es una unidad de filtro, regulador y lubricador para la línea; no es el filtro de admisión de un compresor. BTA publica conexión de 1/2″, filtración de 5–40 µm, drenaje automático/manual, presión máxima de 145 PSI y presión de operación de 102 PSI.
+El **BTA 802834.1** es una unidad de filtro, regulador y lubricador para la línea; no es el filtro de admisión de un compresor. Pedí ese código y verificá que la descripción sea filtro-regulador-lubricador de 1/2″. BTA publica filtración de 5–40 µm, drenaje automático/manual, presión máxima de 145 PSI y presión de operación de 102 PSI.
 
 La ficha presenta además 50 NI/min bajo “pulverizado (caudal)” y 4.000 NI/min bajo “mínimo flujo goteo”. Como esos valores tienen rótulos distintos y no se aclaran condiciones comunes, no los tratamos como una capacidad única ni extrapolamos una caída de presión. Este ejemplo sirve para mostrar qué datos mirar en un filtro de línea, no para recomendarlo como repuesto de admisión.
 

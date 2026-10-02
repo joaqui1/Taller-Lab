@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Secuencia de identificación de acoples rápidos que distingue perfil, rosca, diámetro nominal y género; conserva las referencias de intercambio Parker y CEJN."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "02/10/2026"
 published: true
 ---
 
@@ -58,7 +58,7 @@ El número de una rosca en pulgadas es un **tamaño nominal**, no una lectura di
 
 | Tipo | Forma general | Qué verificar |
 | :--- | :--- | :--- |
-| BSPP (paralela, suele marcarse G) | Flancos paralelos; el diámetro no se afina a lo largo de la rosca | El tipo de asiento o junta que realiza el sellado, además del diámetro y el paso |
+| BSPP (paralela, suele marcarse G) | Rosca cilíndrica; el diámetro permanece constante a lo largo de la rosca | El tipo de asiento o junta que realiza el sellado, además del diámetro y el paso |
 | BSPT (cónica; la designación depende del extremo) | Rosca cónica | Norma, medida, paso y sellador especificado para la conexión |
 | NPT (cónica) | Rosca cónica con geometría y paso propios | No asumir que coincide con BSPT aunque el diámetro nominal parezca cercano |
 

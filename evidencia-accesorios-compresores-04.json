@@ -1,0 +1,114 @@
+[
+  {
+    "document": "gamma",
+    "checked": "2026-10-02",
+    "sha256": "32c71a441bdbfd3b4b3a879a151d65547f77457265f4de027e1c70011b0448c6",
+    "visual_pdf_page": 8,
+    "fields": [
+      "cartucho de filtro: inspección regular y reemplazo cuando necesario"
+    ],
+    "source": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/compresores_compresor-de-50-litros_G2802AR-102-manual.pdf"
+  },
+  {
+    "document": "pn50",
+    "checked": "2026-10-02",
+    "sha256": "2af5de3ecafd3c6bf9ec7a6fcb58c81e92e9eee03db8b6524f142f97e92777ad",
+    "visual_pdf_page": 41,
+    "fields": [
+      "0,66 L/disparo",
+      "6,3 bar recomendados",
+      "9 mm de manguera"
+    ],
+    "source": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_ngovue839t5o7dugodnovh8q57/4137790_11018_001_SPK2.pdf"
+  },
+  {
+    "document": "pw340",
+    "checked": "2026-10-02",
+    "sha256": "e585854101985947c90ea259bc1bdaa43dc0f8c866281b3a0276139ea4a981e1",
+    "visual_pdf_page": 38,
+    "fields": [
+      "142 L/min",
+      "6,3 bar",
+      "9 mm de manguera"
+    ],
+    "source": "https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_c7bjdn248d2dret4jdk27m9377/4138950_21022_002_SPK2.pdf"
+  },
+  {
+    "document": "roscas",
+    "checked": "2026-10-02",
+    "sha256": "3e467946816d3bb66d50c61968838dd95e671a41b42495adc6793f10c61aadf2",
+    "visual_pdf_page": 6,
+    "fields": [
+      "diámetro constante: rosca cilíndrica",
+      "diámetro variable: cónica"
+    ],
+    "source": "https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx"
+  },
+  {
+    "document": "Swagelok MS-13-77",
+    "visual_pdf_page": 36,
+    "fields": [
+      "BSPP cilíndrica",
+      "sellado según conexión"
+    ],
+    "source": "https://www.swagelok.com/-/media/distributor-media/a-b/bangalore/services/thread-and-endconnection-identification-guide.ashx"
+  },
+  {
+    "source": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/UPD_2010/Catalog_0726-E.pdf",
+    "checked": "2026-10-02",
+    "pdf_page": 5,
+    "verification": "texto primario obtenido por herramienta web; descarga HTTP 403 y captura cache miss; verificación visual pendiente",
+    "fields": [
+      "AirGuard",
+      "tabla de dimensionamiento",
+      "presión menor al mínimo exige DI mayor"
+    ]
+  },
+  {
+    "source": "https://www.cejn.com/guides-support/toolbox/compressed-air-nipple-guide/",
+    "checked": "2026-10-02",
+    "verification": "ficha primaria leída y contrastada",
+    "fields": [
+      "marcado y serie",
+      "calibre y perfil",
+      "confirmación del estándar"
+    ]
+  },
+  {
+    "source": "https://www.airex.it/en/catalog/attacchi-rapidi/universal-series-quick-couplings-and-fittings/",
+    "checked": "2026-10-02",
+    "verification": "ficha primaria leída y contrastada",
+    "fields": [
+      "compatibilidad multiperfil declarada por serie"
+    ]
+  },
+  {
+    "source": "https://btatools.com.ar/producto/filtro-regulador-y-lubricador-de-aire-1-2",
+    "checked": "2026-10-02",
+    "verification": "ficha primaria leída y contrastada",
+    "fields": [
+      "código 802834.1",
+      "micronaje y presiones",
+      "rótulos distintos de caudal"
+    ]
+  },
+  {
+    "source": "https://btatools.com.ar/producto/arenador-portatil-alta-presion",
+    "checked": "2026-10-02",
+    "verification": "ficha primaria leída y contrastada",
+    "fields": [
+      "código 279001",
+      "mismo alias AA-2040I que el FRL"
+    ]
+  },
+  {
+    "source": "https://www.einhell.com.ar/p/4133330-tc-pe-150/",
+    "checked": "2026-10-02",
+    "verification": "ficha primaria leída y contrastada",
+    "fields": [
+      "100 L/min",
+      "6,3 bar",
+      "DI 9 mm"
+    ]
+  }
+]

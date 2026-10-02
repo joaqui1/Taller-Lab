@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-01T21:51:37.956992+00:00",
+  "checked": "2026-10-02T03:50:43.723279+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1172,7 +1172,7 @@
     {
       "path": "/compresores/manguera/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\03-manguera-para-compresor-de-aire.md",
-      "body_sha256": "372af06bf38c5b0207c237c84c070cb9f443521e89531cb450bdb25688834f2e",
+      "body_sha256": "308149511f6e3bf0874607571711f58ac8084030a8fce8fb83f7c1d49e8fbc69",
       "title": "Cómo elegir una manguera para compresor de aire",
       "issues": [],
       "sources": [
@@ -1186,8 +1186,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-04",
+        "body_sha256": "308149511f6e3bf0874607571711f58ac8084030a8fce8fb83f7c1d49e8fbc69",
+        "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+        "notes": "Lectura completa: separa DI, conexión, perfil, longitud y condiciones de trabajo. Contrastados TC-PN 50 (manual PDF p.41: 0,66 L/disparo, 6,3 bar, manguera 9 mm), TC-PW 340 (p.38: 142 L/min, 6,3 bar, 9 mm) y TC-PE 150 (ficha: 100 L/min, 6,3 bar, 9 mm). Tabla Parker contrastada con texto primario de p.5: corregido contexto AirGuard, límites de aplicación y requisito de DI mayor por debajo de la presión mínima. Descarga y captura visual de Parker bloqueadas; no se declara contraste visual de ese PDF. Materiales conservados como criterios dependientes de cada producto; no se agregan modelos sin compatibilidad definida.",
+        "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+      }
     },
     {
       "path": "/compresores/kits-aerografo/",
@@ -1231,7 +1238,7 @@
     {
       "path": "/compresores/acoples-rapidos/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\06-acople-rapido-para-compresor.md",
-      "body_sha256": "50234855c016f2c5110314a504b6577ea856cf6386b79dc9756ae111b6c4b12f",
+      "body_sha256": "e5ed69f822b4bc96d3b70bcc7b9531b119f41d9341ba5e93e5e66eb1549ae7e9",
       "title": "Acople rápido para compresor: perfiles, roscas y medidas",
       "issues": [],
       "sources": [
@@ -1243,8 +1250,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-04",
+        "body_sha256": "e5ed69f822b4bc96d3b70bcc7b9531b119f41d9341ba5e93e5e66eb1549ae7e9",
+        "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+        "notes": "Lectura completa y contraste con CEJN (identificación por marcado, código, calibre y perfil), Airex (series multiperfil concretas) y Swagelok (PDF p.6: identificación cilíndrica/cónica; p.36: BSPP y sellado). Corregida expresión flancos paralelos: BSPP es rosca cilíndrica de diámetro constante. No se agregan conectores incompatibles como alternativas genéricas. Matriz Parker y código BTA quedan para contraste visual adicional.",
+        "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+      }
     },
     {
       "path": "/compresores/para-aerografo/",
@@ -1325,7 +1339,7 @@
     {
       "path": "/compresores/filtros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\10-filtro-de-aire-para-compresor.md",
-      "body_sha256": "1f24f77c023a02b19a1f1ff6809b478acf9778783bf2ea87397ba7407c723938",
+      "body_sha256": "5731abd144267904061b74c0326454b69a7dd4b3d3ae114c0e3d5610b957e089",
       "title": "Filtro de aire para compresor: cómo elegir el repuesto",
       "issues": [],
       "sources": [
@@ -1335,8 +1349,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-04",
+        "body_sha256": "5731abd144267904061b74c0326454b69a7dd4b3d3ae114c0e3d5610b957e089",
+        "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
+        "notes": "Lectura completa; manual Gamma G2802AR PDF p.8 confirma revisar cartucho regularmente y cambiar cuando sea necesario, sin intervalo universal. Ficha BTA FRL 802834.1 confirma conexión, presión, micronaje y rótulos distintos de caudal. Se identifica el FRL por 802834.1: BTA reutiliza AA-2040I en un arenador 279001, que no es ese repuesto. Se mantiene la separación entre admisión y línea y no se añade un filtro universal sin referencia compatible.",
+        "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+      }
     },
     {
       "path": "/compresores/100-litros/",
