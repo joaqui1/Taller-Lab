@@ -7,6 +7,11 @@ from sierras_comerciales import OFFERS, PENDING, UNMONETIZED, PLACEMENTS, INLINE
 
 ROOT = Path(__file__).parent
 MARKER = re.compile(r'\n*<!-- SIERRAS-OFERTAS -->.*?<!-- /SIERRAS-OFERTAS -->\n*', re.S)
+DOCUMENTED_ROWS = {
+ 8: '| Einhell TC-SM 2131/2 Dual · 4300390 | Deslizante: 310 × 62 mm a 90°. Confirmá código y espacio de recorrido. | [Ver ficha del fabricante →](https://www.einhell.com.ar/p/4300390-tc-sm-2131-2-dual/) |',
+ 14: '| TOTAL TS42182553 | 75 × 130 mm a 90°; disco 254 × 30 mm. No sustituir por TS42182552. | [Ver catálogo del fabricante →](https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures) |',
+ 17: '| Black+Decker CS1350P · variante AR | 220 V / 50 Hz; disco 184 mm y eje 15,9 mm. Confirmá sufijo y kit. | [Ver manual del fabricante →](https://support.blackanddecker.com/hc/pt/article_attachments/360018582394) |',
+}
 
 def insertion(text, heading, mode):
     anchor = re.search(r'(?m)^(#{2,3}) ' + re.escape(heading) + r'\s*$', text)
@@ -46,8 +51,11 @@ def main(pages=None):
             for key in keys:
                 name, _, note = OFFERS[key]
                 rows.append(f'| {name} | {note} | [{cta(key)}]({url(key)}) |')
-            block = '\n\n<!-- SIERRAS-OFERTAS -->\n\n### Consultá estas opciones en Mercado Libre\n\n' + '\n'.join(rows)
-            if any(not url(key).startswith('https://meli.la/') for key in keys):
+            if number in DOCUMENTED_ROWS:
+                rows.append(DOCUMENTED_ROWS[number])
+            title = 'Compará los modelos y consultá sus enlaces' if len(rows)>3 else 'Consultá precio y disponibilidad del modelo'
+            block = '\n\n<!-- SIERRAS-OFERTAS -->\n\n### ' + title + '\n\n' + '\n'.join(rows)
+            if number in DOCUMENTED_ROWS or any(not url(key).startswith('https://meli.la/') for key in keys):
                 disclosure = 'Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional. Consultá precio, stock y condiciones de cada publicación.'
             else:
                 disclosure = 'Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.'

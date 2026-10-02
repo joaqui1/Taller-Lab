@@ -1,6 +1,6 @@
 {
   "section": "soldadoras",
-  "checked": "2026-10-01T21:02:15.235708+00:00",
+  "checked": "2026-10-02T14:20:59.307207+00:00",
   "articles": 29,
   "structural_failures": [],
   "sources": [
@@ -1355,8 +1355,15 @@
       ],
       "tables": 1,
       "offer_cards": 4,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "64393e3e45be8a32531311999bfc5194e4880cf08ae2960dc4ddd8e1a106830e",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué soldadora elegir según el trabajo. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff SML120-8DK; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/electrodo-7018/",
@@ -1373,8 +1380,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "3ac3c3bab5ad8ae643fb185a08af88138ba8cf550099160453c5962226c7de67",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Cuándo conviene usar 7018; Diámetros y amperaje según fabricante. Opciones de compra: Conarco 7018 Punta Verde · 2,5 mm × 1 kg; Conarco 7018 Punta Verde · 3,2 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff/",
@@ -1398,8 +1412,15 @@
       ],
       "tables": 4,
       "offer_cards": 4,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "b26951f4d5041a0dae1a1d24870fe23768dc4d16404ac42b755c292a11f82885",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: MMA; MIG/MAG con gas; Flux; TIG. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; Lüsqtoff MIGDUAL200-9; Lüsqtoff SML120-8DK. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-de-punto/",
@@ -1418,8 +1439,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "4a9c0cf2d8786db19ba258f125673ed6faac7447a3b4a0d5c254ad3133b63c49",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Equipos específicos para pestañas de baterías; Equipos para chapa y carrocería. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-mig-con-gas/",
@@ -1437,8 +1465,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "346b9d789df51d201979ffa9c2b9b0cb387d573d210223c96b417aec52dac915",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Potencia y ciclo de trabajo; Gas, alambre y accesorios necesarios; Comparativa y costo del equipo completo. Opciones de compra: ESAB HandyArc MIG 160i; Lüsqtoff MIGDUAL200-9. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/guantes/",
@@ -1455,8 +1490,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "1cdd5918d92511a835057487a6b1b22b0d49516ba3b1ec40864585a56b19332f",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Prioridad según el proceso; Materiales y protección. Opciones de compra: ESAB · Heavy Duty Black; ESAB · TIG Basic · 0700500460; ESAB · Heavy Duty EXL · 0700500432 / 0700500433. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/tig/",
@@ -1475,8 +1517,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "27ce4bc04479ecc7d15af9a04f7183d613d83acefb6ec739b7b1d8e69ebe860b",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Comparación DC/ACDC y red220/380. ST200 discontinuado conserva referencia documental; SmartTIG alternativaACDC. No inferir AC desde palabraTIG.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/mig-sin-gas/",
@@ -1499,8 +1548,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "20fdb02aa1498da33a407a175f1f02d4054552a18df8f822ac4e1cc94a555dab",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Ventajas y limitaciones; Comparativa de equipos y kits. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/alambre-para-soldadura-mig/",
@@ -1549,8 +1605,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "b084810a82a0dcce8133f2c9704238376b45ab5c42464532ec631b390eeac730",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Oscurecimiento y compatibilidad con el proceso; Modelos y qué comparar. Opciones de compra: Lüsqtoff ST-1N; Lüsqtoff ST-1E; Lüsqtoff ST-1B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/electrodo-6013/",
@@ -1568,8 +1631,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "f76108d38402f630edb793612aa77456b7d65ccb5cea85398ae0ca8dad003f75",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Usos del E6013 y cuándo elegirlo frente al E7018; Diámetro y amperaje según fabricante. Opciones de compra: Conarco 6013 13A Punta Azul · 2,50 mm × 5 kg; Conarco 6013 13A Punta Azul · 3,25 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-inverter-200-amp/",
@@ -1584,8 +1654,15 @@
       ],
       "tables": 4,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "4027c23b89f18fc2ed91ca29e52374032aaa223d134e3d16cfc1c63c6df10242",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: 200 A máximos no significan 200 A continuos; Qué trabajos permite cada equipo; Amperaje declarado y ciclo de trabajo; Modelos y qué comparar. Opciones de compra: Lüsqtoff SLCEL200-9 Black Series; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/electrodo-para-fundicion/",
@@ -1628,8 +1705,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "876b52627e49a47bf95c000fe6fd44f5763404623fb8f0a437b64a9d24008c95",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: 0,8 vs. 0,9 mm: compará todo el sistema; Opciones de compra y bobinas. Opciones de compra: ESAB Gas Free E71T-GS · 0,8 mm × 5 kg; Bremen 7992 AWS E71T-GS · 0,8 mm × 1 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-dogo-180/",
@@ -1646,8 +1730,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "28849a75e962b5ad8e0c9bc7157e60e97662d4b8da7f431f6fda34d08a122358",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Ficha técnica y ciclo de trabajo; Para qué usos conviene; Comparación contextual con Dogo 160 y 200. Opciones de compra: Dogo Dogostar 180 Moderna; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/esab/",
@@ -1668,8 +1759,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "020f6f8f58b47fd176a7f036ad219dd3a5c6d625360e24e35a2636057d71c32d",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: MMA; MIG; TIG. Opciones de compra: ESAB HandyArc 162i; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/electrodo-para-acero-inoxidable/",
@@ -1685,8 +1783,15 @@
       ],
       "tables": 4,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "385e2e2a2fa06a31110706c299e2f946b65249b0c7ed5e23d87394c892725657",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Metal base o unión → familia de aporte orientativa; Diferencias entre clasificaciones; Diámetro y compatibilidad; Comparativa de referencias documentadas. Opciones de compra: Lastrade Infinity E308L-16 · 3,2 mm × 2 kg; AWS A5.4 E316L-16 · 3,2 mm × 2 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/para-aluminio/",
@@ -1704,8 +1809,15 @@
       ],
       "tables": 4,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "b30360a94f5fdef1886454f194af266da05e250a4d1d506dd9fc7589f26ccb5c",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: TIG vs MIG para aluminio; Equipo según espesor y trabajo; Referencias de equipo documentadas; Comparativa del costo completo. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff-iron-250/",
@@ -1721,8 +1833,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "3d89e6be58f9bd2b335beb691955ff794179a1388c5b2854359f556aa2997a7d",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Versión y especificaciones verificadas; Accesorios, alternativas y qué comparar. Opciones de compra: Lüsqtoff MEGAIRON250 + máscara + kit; Dogo Dogostar 180 Moderna; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-tig-ac-dc/",
@@ -1741,8 +1860,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "ab1dfb040f822d8d694d772535aae3d63b63b365e7dff1cdff628519d3a0ef07",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Balance, frecuencia y pulso; Modelos y qué comparar; Modelos y qué comparar. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff Smart TIG-ACDC-20; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/soldadora-inverter-160-amp/",
@@ -1757,8 +1883,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "8c19d8e6b0538fd944c468f30afd94189eed757fca3970efe01967a27288b20a",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Electrodos y ciclo de trabajo; Cuándo conviene pasar a 200 A; Modelos, kits y qué comparar. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff-iron-100/",
@@ -1774,8 +1907,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "6841844727d71c25cd4dbb1af0ff0045d3f3bc072ca73cffd6c467fb2cc1c679",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Comparación con Iron 250 y HandyArc 162i. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/mig-lusqtoff/",
@@ -1796,8 +1936,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "55392039cdf8d48d8e8cf750dae3f2606bdb94ab9a5c7cd9f42bca71c4a22ac8",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Comparativa de la familia SML. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff-sml150-8/",
@@ -1813,8 +1960,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "fb32ce155d9fb9003ee9b8d8dc48a48a5f018097f69ccd6d717597b18872cea5",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "SML150-8/8D por proceso, ciclo y discontinuación; compra 8D y alternativa120DK sin atribuirle la generación8.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff-sml120-8d/",
@@ -1831,8 +1985,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "7eee624b0f48847bcfb6ed50508b20bb06917f66ade27f8f764a2ec8d74cc01c",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: SML120-8D vs SML120-8DK. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/carro-para-soldadora-mig/",
@@ -1846,8 +2007,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "832cdbd3c53fdddd69e0e7c746100b0f28a52b66305bd1f8b2ae6a4afedfadfa",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: cuadro inicial; cuadro inicial. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/esab-handyarc-162i/",
@@ -1864,8 +2032,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "6838050612bc5fd25442684bd5046b504016ebd37be08c8a3d98df052643d0fd",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Especificaciones técnicas y ciclo de trabajo; Qué revisar antes de comprar; Cruce práctico con electrodos 6013 y 7018. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 180 Moderna. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/mascara-lusqtoff-st-1x/",
@@ -1886,8 +2061,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "20bc815e69a0f7e813f2f2d316f7767fdffa7a981c9769c45d5233b29e014e92",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué comprobar antes de comprar una ST-1X. Opciones de compra: Lüsqtoff ST-1B; Lüsqtoff ST-1X. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/soldadoras/lusqtoff-sml130-7/",
@@ -1906,8 +2088,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadoras-comparaciones-02",
+        "body_sha256": "a584ebe5d3ca31b09096e0d868d5b73cc7c65e22dfceda5005bae962a0111c37",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Cuándo conviene pasar a una alternativa actual. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     }
   ]
 }

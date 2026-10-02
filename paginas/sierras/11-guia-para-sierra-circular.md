@@ -56,7 +56,7 @@ La guía debe cubrir toda la trayectoria de corte y sostener la base antes de qu
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

@@ -41,9 +41,11 @@ La diferencia publicada entre ambos máximos es de 80 W, pero no alcanza para de
 | Tensión / tomas | 220 V monofásicos según vendedor; cantidad, formato y protección de las tomas no verificados | 220 V, 50 Hz según fabricante; la ficha oficial no detalla cantidad ni formato de tomas | Verificar físicamente el panel, manual y ficha del código que se entrega |
 | Garantía / procedencia | No identificadas de forma primaria en la documentación reunida | El sitio Konan identifica a Morano Máquinas y Herramientas como representante exclusivo en Argentina; garantía y país de origen de esta unidad no aparecen en la ficha consultada | Pedir condiciones por escrito y conservar factura, código y manual |
 | Nivel de evidencia | Bajo: publicación comercial reproduce datos atribuidos a un vendedor de Mercado Libre; falta documento del fabricante | Más alto para potencia, motor, tanque y tensión: ficha del fabricante y catálogo Konan | El nivel de evidencia no es una prueba de rendimiento real |
-| Oferta | — | [Ver precio →](https://meli.la/19gLhpz) | — |
+| Oferta | [Ver precio →](https://meli.la/2jcLSy1) | [Ver precio →](https://meli.la/19gLhpz) | — |
 
 **Qué cambia al leer la tabla:** el KGE/800 ofrece 800 W máximos publicados por fabricante frente a 720 W informados para el GPK980 en una publicación comercial. Ambos comparten 650 W nominales en las fuentes disponibles, pero esa cifra del Pektra todavía no tiene confirmación primaria. No usamos 800 W ni 720 W como potencia continua.
+
+<!-- GENERADORES-COMPARACION -->
 
 <!-- GENERADORES-EXTRAS -->
 

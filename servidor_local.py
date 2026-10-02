@@ -2121,7 +2121,20 @@ def render_article_page(article, embedded=False):
             if not section:
                 raise ValueError('Falta la sección para comparar modelos: '+article['url'])
             rendered_body = rendered_body[:section.end()] + contextual_shelf + rendered_body[section.end():]
-    if guide_selection and article['section'] not in {'hidrolavadoras','compresores'}:
+    if guide_selection and article['section']=='generadores':
+        config = GENERADORES_OFFERS.get(article['url'],{})
+        guide_ctas = {offer['url']:offer['cta'] for offer in config.get('offers',[]) if offer.get('cta')}
+        selected_urls = {item[2] for _,item in guide_selection}
+        # One purchase action per model; tables retain their technical data.
+        def generator_table_label(match):
+            return match.group(2) if match.group(1) in selected_urls and match.group(1) in AFFILIATE_URLS else match.group(0)
+        rendered_body = re.sub(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>',generator_table_label,rendered_body,flags=re.S)
+        comparison = render_affiliate_shelf('generadores',guide_selection,guide_ctas,editorial=guide_editorial)
+        marker='<!-- GENERADORES-COMPARACION -->'
+        if marker not in rendered_body:
+            raise ValueError('Falta ubicación de comparación: '+article['url'])
+        rendered_body=rendered_body.replace(marker,comparison)
+    if guide_selection and article['section'] not in {'hidrolavadoras','compresores','generadores'}:
         config = (TALADROS_OFFERS if article['section']=='taladros' else SOLDADORAS_OFFERS).get(article['url'],{})
         guide_ctas = {offer['url']:offer['cta'] for offer in config.get('offers',[]) if offer.get('cta')}
         comparison = render_affiliate_shelf(article['section'], guide_selection, guide_ctas, editorial=guide_editorial)
@@ -2180,7 +2193,7 @@ def render_article_page(article, embedded=False):
         facts = PRODUCT_FACTS.get(product[2])
         if facts:
             cited_sources.append((facts["brand"] + " " + facts["model"] + ": ficha del producto mostrado", facts["source"]))
-    buying_urls = [] if article['url'] in HIDROLAVADORAS_OFFERS or article['url'] in SIERRAS_OFFERS or article['url'] in SOLDADORAS_OFFERS or article['url'] in TALADROS_OFFERS else BUYING_NOTES.get(article["url"], {}).get("urls", [])
+    buying_urls = [] if guide_selection or article['url'] in HIDROLAVADORAS_OFFERS or article['url'] in SIERRAS_OFFERS or article['url'] in SOLDADORAS_OFFERS or article['url'] in TALADROS_OFFERS else BUYING_NOTES.get(article["url"], {}).get("urls", [])
     for url, label in buying_urls:
         facts = PRODUCT_FACTS[url]
         cited_sources.append((label + ": " + facts["source_type"], facts["source"]))
@@ -2244,7 +2257,7 @@ def render_article_page(article, embedded=False):
       </div>
 
       {render_resource(article) if article["section"] != "amoladoras" else ""}
-      {render_buying_note(article, PRODUCT_FACTS) if article["section"] != "amoladoras" and article['url'] not in HIDROLAVADORAS_OFFERS and article['url'] not in SIERRAS_OFFERS and article['url'] not in SOLDADORAS_OFFERS and article['url'] not in TALADROS_OFFERS else ""}
+      {render_buying_note(article, PRODUCT_FACTS) if not guide_selection and article["section"] != "amoladoras" and article['url'] not in HIDROLAVADORAS_OFFERS and article['url'] not in SIERRAS_OFFERS and article['url'] not in SOLDADORAS_OFFERS and article['url'] not in TALADROS_OFFERS else ""}
       {render_quick_guide(article) if article["section"] != "amoladoras" else ""}
       {render_50l_models() if article["url"] == "/compresores/50-litros/" and not guide_selection else ""}
       {affiliate_shelf}

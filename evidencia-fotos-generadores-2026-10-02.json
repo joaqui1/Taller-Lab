@@ -1,0 +1,36 @@
+[
+  {
+    "status": "verified",
+    "model": "LGI3.8-8",
+    "brand": "Lüsqtoff",
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/lusqtofflgi388-f93f6a1594.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 43476,
+    "original_image": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/GRUPOS_ELECTROGENOS/LGI38-8/LGI3-8-8_8_web.jpg",
+    "html_sha256": "010cc84980654736cdcfb381bbf48a148ab311079350623b50d1625edb251d56",
+    "original_size": [
+      1000,
+      1000
+    ]
+  },
+  {
+    "status": "verified",
+    "model": "LGI11.0-9",
+    "brand": "Lüsqtoff",
+    "source": "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/lusqtofflgi1109-3f62067850.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 30324,
+    "original_image": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/LGI110-9/LGI11-0-9%20-%20LUSQTOFF%20BLACK%20SERIES%20-%20FOTO%20BARCODE.png",
+    "html_sha256": "e64ad678c82031a8177af992d3a60a7e473fd5f5e2e5da41c2c40d6240f8b83a",
+    "original_size": [
+      1000,
+      750
+    ]
+  }
+]

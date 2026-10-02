@@ -1,13 +1,13 @@
 {
-  "destinos_con_foto": 276,
+  "destinos_con_foto": 282,
   "destinos_pendientes": 0,
-  "fotos_unicas": 281,
-  "fotos_mostradas": 268,
-  "fotos_catalogo": 266,
+  "fotos_unicas": 287,
+  "fotos_mostradas": 274,
+  "fotos_catalogo": 272,
   "portadas_reales": 179,
   "portadas_ilustrativas": 0,
-  "peso_total_bytes": 6238170,
-  "peso_medio_bytes": 22200,
+  "peso_total_bytes": 6368166,
+  "peso_medio_bytes": 22189,
   "peso_maximo_bytes": 58558,
   "paginas_verificadas": 187
 }

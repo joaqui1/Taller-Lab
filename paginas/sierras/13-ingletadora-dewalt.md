@@ -42,7 +42,7 @@ Para comparar una fija con una telescópica, tomamos dos códigos regionales doc
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

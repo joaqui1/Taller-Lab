@@ -43,13 +43,14 @@ La tabla compara dos códigos incluidos en el catálogo TOTAL 2026. Para elegir,
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | TOTAL TS42142107 | Confirmá código, tensión y capacidad al ángulo que necesitás. | [Ver precio →](https://meli.la/1ci9crb) |
+| TOTAL TS42182553 | 75 × 130 mm a 90°; disco 254 × 30 mm. No sustituir por TS42182552. | [Ver catálogo del fabricante →](https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures) |
 
-*Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
+*Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional. Consultá precio, stock y condiciones de cada publicación.*
 
 <!-- /SIERRAS-OFERTAS -->
 

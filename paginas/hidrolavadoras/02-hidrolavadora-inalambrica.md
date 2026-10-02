@@ -113,7 +113,7 @@ Precios consultados el **29/09/2026**. Son referencias de publicaciones con cód
 ## Fuentes consultadas
 
 - [Lüsqtoff LAPL3.6-8BK, ficha oficial argentina](https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk).
-- Bosch UniversalAquatak 36V-100, ficha oficial Bosch DIY España (referencia documental histórica; enlace original no disponible al 30/09/2026) — códigos de kit, plataforma, batería, autonomía, autosucción, manguera y peso. Los códigos y paquetes descritos son de esa ficha regional; confirmá los ofrecidos localmente.
+- [Bosch UniversalAquatak 36V-100, kit 06008C7002, ficha oficial Bosch DIY Alemania](https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002) — plataforma, batería de 4 Ah, cargador, autonomía anunciada, autosucción y manguera. Ficha del código exacto contrastada el 02/10/2026; el kit es una referencia regional y requiere confirmar disponibilidad argentina.
 - Precios y contenido de caja Einhell: [HYPRESSO 18/24-1 Li, SKU 4140135](https://www.herramientaseinhell.com.ar/producto/lavadora-a-presion-hypresso-18-24-li-a-bateria/); [ficha de HYPRESSO 36/105, SKU 4140160](https://www.herramientaseinhell.com.ar/producto/hidrolavadora-inalambrica-hypresso-36-105/) y su [oferta publicada](https://www.herramientaseinhell.com.ar/).
 - **Opiniones de compradores:** no se revisó una muestra verificable.
 

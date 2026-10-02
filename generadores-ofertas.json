@@ -196,8 +196,7 @@
       "EU22i",
       "GE3497AR",
       "EU30is",
-      "LGI5.5-8",
-      "DTGEAB08-4"
+      "LGI5.5-8"
     ],
     "offers": [
       {
@@ -219,11 +218,6 @@
         "model": "LGI5.5-8",
         "url": "https://meli.la/1pJFrBq",
         "cta": "Ver precio del Lüsqtoff LGI5.5-8"
-      },
-      {
-        "model": "DTGEAB08-4",
-        "url": "https://meli.la/221u1rq",
-        "cta": "Ver precio del Dyllu DTGEAB08-4"
       }
     ]
   },
@@ -560,10 +554,16 @@
   "/generadores/chicos/": {
     "file": "21-grupos-electrogenos-chicos.md",
     "models": [
+      "GPK980",
       "KGE/800",
       "LG950P"
     ],
     "offers": [
+      {
+        "model": "GPK980",
+        "url": "https://meli.la/2jcLSy1",
+        "cta": "Ver precio del Pektra GPK980"
+      },
       {
         "model": "KGE/800",
         "url": "https://meli.la/19gLhpz",

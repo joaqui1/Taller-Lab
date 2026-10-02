@@ -10,7 +10,7 @@ def main():
     rows = [row for report in reports for row in report['rows']]
     reviewed = [row for row in rows if row['editorial_status'] == 'revisión editorial registrada']
     lines = ['# Revisión de guías por tandas — 01/10/2026', '',
-             f'Inventario técnico actual: {len(rows)} guías. Lectura editorial registrada en esta ronda: {len(reviewed)}. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.', '',
+             f'Inventario técnico actual: {len(rows)} guías. Evaluación registrada de selección y comparación: {len(reviewed)}. Cada registro indica su alcance: lectura editorial o evaluación de tablas y modelos. No equivale a certificar todas las cifras ni el stock; los controles de imágenes e interacciones se conservan por separado.', '',
              'Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.', '',
              ]
     batches = sorted({row['editorial_review']['batch'] for row in reviewed})
@@ -39,10 +39,10 @@ def main():
         alerts = sum(source.get('status') != 200 or source.get('generic_redirect', False) or source.get('soft_not_found', False) or source.get('unexpected_document_type', False) or source.get('document_signature_valid') is False for source in sources)
         lines.append(f"| {report['section']} | {len(sources)} | {alerts} |")
     lines += ['', 'Se corrigió la dirección oficial Makita DHS710Z y se retiró el enlace comercial Hyundai HHY9500LE que redirigía a una portada. Su precio queda identificado como histórico, sin confirmar stock actual. El folleto Norton fue sustituido por la URL oficial completa. Las alertas originales se mantienen como evidencia del sondeo.', '',
-              '## Próxima tanda', '',
-              'Continuar la lectura por artículo y contrastar las alternativas con su finalidad, material, instalación y compatibilidad. Completar las cifras pendientes antes de declarar terminada la revisión editorial. El registro usa una huella del cuerpo de cada artículo: una modificación posterior invalida la coincidencia con la lectura registrada.', '']
+              '## Alcance y seguimiento', '',
+              'La revisión de selección y comparaciones cubre las 179 guías. Los registros de evaluación de tablas no afirman lectura integral de todos los párrafos. Los contrastes completos de especificaciones señalados como pendientes conservan ese estado. El registro usa una huella del cuerpo de cada artículo para detectar cambios posteriores.', '']
     (ROOT / 'revision-guias-por-tandas-2026-10-01.md').write_text('\n'.join(lines), encoding='utf-8')
-    print(f'{len(rows)} URLs registradas; {len(reviewed)} lecturas editoriales. Revisión completa pendiente.')
+    print(f'{len(rows)} URLs; {len(reviewed)} evaluaciones registradas con alcance individual. Los contrastes de cifras pendientes conservan su estado.')
 
 
 if __name__ == '__main__':

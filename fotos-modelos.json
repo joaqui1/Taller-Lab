@@ -3359,6 +3359,78 @@
       "bytes": 49184,
       "original_image": "http://paascheairbrush.com/cdn/shop/files/402bac11-8413-469f-85bb-4556aae0d5fd.jpg?v=1754681665",
       "verification": "Foto de la ficha del código exacto; conjunto inspeccionado visualmente el 02/10/2026, proporciones preservadas"
+    },
+    "https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8": {
+      "status": "verified",
+      "model": "LGI3.8-8",
+      "brand": "Lüsqtoff",
+      "source": "https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtofflgi388-f93f6a1594.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 43476,
+      "original_image": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/GRUPOS_ELECTROGENOS/LGI38-8/LGI3-8-8_8_web.jpg"
+    },
+    "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9": {
+      "status": "verified",
+      "model": "LGI11.0-9",
+      "brand": "Lüsqtoff",
+      "source": "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtofflgi1109-3f62067850.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 30324,
+      "original_image": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/LGI110-9/LGI11-0-9%20-%20LUSQTOFF%20BLACK%20SERIES%20-%20FOTO%20BARCODE.png"
+    },
+    "https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0": {
+      "status": "verified",
+      "model": "GHP 220",
+      "brand": "Bosch",
+      "source": "https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/boschghp220-fbaf1c2bae.webp",
+      "width": 600,
+      "height": 600,
+      "bytes": 13298,
+      "original_image": "https://www.bosch-professional.com/ar/es/ocsmedia/458070-54/application-image/1434x828/hidrolavadora-ghp-220-0600910eh0.png"
+    },
+    "https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0": {
+      "status": "verified",
+      "model": "GHP 4-50",
+      "brand": "Bosch",
+      "source": "https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/boschghp450-8aed6ee83f.webp",
+      "width": 600,
+      "height": 600,
+      "bytes": 21742,
+      "original_image": "https://www.bosch-professional.com/ar/es/ocsmedia/458071-54/application-image/1434x828/hidrolavadora-ghp-4-50-0600910fh0.png"
+    },
+    "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf": {
+      "status": "verified",
+      "model": "HL100-8",
+      "brand": "Lüsqtoff",
+      "source": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtoffhl1008-2a91b742af.webp",
+      "width": 468,
+      "height": 640,
+      "bytes": 14898,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf#page=1"
+    },
+    "https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002": {
+      "status": "verified",
+      "model": "UniversalAquatak 36V-100",
+      "brand": "Bosch",
+      "source": "https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/boschuniversalaquatak36v100-e5e8fca368.webp",
+      "width": 640,
+      "height": 320,
+      "bytes": 6258,
+      "original_image": "https://www.bosch-diy.com/imagestorage/de-de/universalaquatak-36v-100-100057349-hires-png-rgb-oneux-415782_w_1600_h_800.png?imgWidth=1600&imgHeight=800"
     }
   }
 }

@@ -1,0 +1,55 @@
+[
+  {
+    "status": "verified",
+    "model": "GHP 220",
+    "brand": "Bosch",
+    "source": "https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/boschghp220-fbaf1c2bae.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 13298,
+    "original_image": "https://www.bosch-professional.com/ar/es/ocsmedia/458070-54/application-image/1434x828/hidrolavadora-ghp-220-0600910eh0.png",
+    "html_sha256": "80c209fda030a66dc3451eb7a8f1a1826b06ca93d0d3f6b8591df6a4480481e7"
+  },
+  {
+    "status": "verified",
+    "model": "GHP 4-50",
+    "brand": "Bosch",
+    "source": "https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/boschghp450-8aed6ee83f.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 21742,
+    "original_image": "https://www.bosch-professional.com/ar/es/ocsmedia/458071-54/application-image/1434x828/hidrolavadora-ghp-4-50-0600910fh0.png",
+    "html_sha256": "ca9878552d51e0e6a392eed3caf351e81ff1ebbd2a3aa4de468e01c751702ca5"
+  },
+  {
+    "status": "verified",
+    "model": "HL100-8",
+    "brand": "Lüsqtoff",
+    "source": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/lusqtoffhl1008-2a91b742af.webp",
+    "width": 468,
+    "height": 640,
+    "bytes": 14898,
+    "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf#page=1",
+    "pdf_sha256": "2a91b742af4fe5a7244b7e9995c0272fbbb2ae586d7f7774a54d7a95cc3d944d",
+    "pdf_page": 1,
+    "embedded_image": "X0"
+  },
+  {
+    "status": "verified",
+    "model": "UniversalAquatak 36V-100",
+    "brand": "Bosch",
+    "source": "https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/boschuniversalaquatak36v100-e5e8fca368.webp",
+    "width": 640,
+    "height": 320,
+    "bytes": 6258,
+    "original_image": "https://www.bosch-diy.com/imagestorage/de-de/universalaquatak-36v-100-100057349-hires-png-rgb-oneux-415782_w_1600_h_800.png?imgWidth=1600&imgHeight=800"
+  }
+]

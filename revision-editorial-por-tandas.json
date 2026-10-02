@@ -128,12 +128,12 @@
     "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
   },
   "/generadores/hyundai/": {
-    "checked": "2026-10-01",
-    "batch": "fuentes-generales-01",
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
     "body_sha256": "25608345edfe01ff428586e69bfcc2a35727153ce9ea599675116f8f2d77e49d",
-    "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
-    "notes": "Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.",
-    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída Hyundai por potencia continua, variantes, precios fechados, servicio y fichas incompletas. HHY2200F oficial confirma 2000/2200 W; el enlace HHY2200 sin sufijo permanece apartado. No se atribuye la oferta HY7500LE a todos los modelos de su tramo.",
+    "full_claim_verification": "pendiente"
   },
   "/sierras/sierra-circular-inalambrica/": {
     "checked": "2026-10-01",
@@ -290,10 +290,11 @@
   "/sierras/caladoras-skil/": {
     "checked": "2026-10-01",
     "batch": "fuentes-generales-02",
-    "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
+    "body_sha256": "c46cae0ebd43ecec9f21e1aa25e00ffbd726ca618a1bf0a0f0799a597ba4b8d4",
     "scope": "lectura completa; elección por material y control; revisión de fuentes",
     "notes": "Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.",
-    "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
+    "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente",
+    "commercial_followup": "2026-10-02: bloque comercial regenerado; tablas y encabezados técnicos preservados, enlaces y plural de comparación verificados."
   },
   "/compresores/50-litros/": {
     "checked": "2026-10-01",
@@ -572,5 +573,949 @@
         "checked": "2026-10-02"
       }
     ]
+  },
+  "/generadores/precios/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "df4baa69155a6f82247e9a00b3ddf12c4ad139745628193403954ac42aea1a13",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos precios históricos, cuotas y modelos; corregido el pie que afirmaba que el enlace llevaba al precio capturado. La publicación muestra el precio vigente, que puede diferir del 28/09. No se actualizan capturas históricas como si fueran cotizaciones actuales.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/honda/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "e761eaf01c86428218ae688bd4128c2ec4dda630231d9a1451dde6df9b204d22",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos cinco Honda por tecnología, potencia, peso y autonomía. Contrastadas fichas EU22i, EU30is, EG6500CXS, EZ6500CXS y ET12000; conservar kVA, nominal/máximo y discrepancia 150/162 kg del ET12000. Especificaciones de las tarjetas centralizadas con fuentes primarias.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/honda-6500/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "e68ca3a25e85e0c77332a657115759e619e2edb845948d396a1312153581822e",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída comparación EG6500CXS frente a EZ6500CXS, cálculos de marcha y arranque, regulación y autonomías. Fichas oficiales confirman 5/5,5 y 5,5/6,5 kVA; los ejemplos no garantizan arranque de una carga real.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/para-casa/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "f5a854eba0e1f48ff6fffbe854d125af6999c3630c380199d46926ef623a3c46",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos inventario doméstico, ejemplos de heladera y aire, cargas, ubicación y transferencia. Datos de marcha y arranque permanecen separados. Pendiente contraste completo del ejemplo LG, manual LG2500 y referencias de seguridad.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/inverter/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "dd791a84bece3221712a9412e9d2539cd715617f27e7cd054fa2f77987162a1e",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída guía inverter completa. Comparador ampliado a seis modelos pertinentes: cuatro de la tabla más Gamma y EU30is. Fotos oficiales LGI3.8-8 y LGI11.0-9 incorporadas sin deformación. Dyllu retirado de esta guía porque solo era referencia de precio sin tecnología documentada; conserva su enlace en precios. Dos espacios de afiliado preparados.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/trifasicos/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "5679449a8bb9af0ddd6904a5806caaa231af086ffd0747fdd8d5c9a8e7a51387",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos trifásicos, fórmulas, motor WEG, reparto por fase y tres referencias según uso. Honda ET12000 contrastado: 10/11 kVA trifásicos y 3×2,7/3,0 kVA monofásicos. Pendiente contraste completo de WEG, Generac MGG100M y Gamma por combustible.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/a-nafta/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "1e8aaf33f16fb728695f0e792f40431abc504ac333eb8bf242e37589a523a59d",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos consumo, autonomía, combustibles y seis modelos a nafta. Corregida identidad LG3000/LG3000E: ambos sitios imprimen 4,8 kW además de 2,5/2,8 kVA, con arranques diferentes. Datos Honda y LGI3.8 contrastados; no se comparan horas sin carga común.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/gamma-6500/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "3af61f615bf992a1dd11e4c62e54a8093c522cfbcdaa4dff1618f29bf8461d8a",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída guía de usados Gamma 6500 completa. Corregida contradicción sobre GE3481AR: el manual citado sí aporta 5,5 kW nominales y 6 kW máximos. Se mantienen separados GE3458 y GE3466AR; un solo enlace de alternativa nueva no se titula comparación plural.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "8f6b8896ea366faf41a8822366edc95da035fb97ce133baeebb5d96366074e36",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leído mapa de gama convencional/inverter, tecnologías, garantía y precios históricos. Se distinguen LGI3.8 y LGIS3.8 motosoldadora. Contrastadas fichas LG3000 y LG3000E: corregidos tabla y texto, pues la discrepancia de 4,8 kW existe en ambos. Pendiente contraste completo de los demás códigos.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/gamma/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "1fa3e88229ffa7cb0e8ddd9e8a79e6caa8f62cafca9372040772105257ecd839",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída Gamma vigente/discontinuada, matriz de cargas, mantenimiento, precios y combustibles. No se equiparan kVA con kW ni potencia máxima con continua; pendiente contraste completo de trifuel, estacionarios e intervalos de manual.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/monofasicos/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "ab2c088391733782dbd98df73a53623c8f3fcf2014919c661f06e4fbc948c789",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos monofásicos, ejemplo PF, marcha/arranque, cinco modelos, tomas y límites. Cálculos 2420 VA/2112 W y 2800/220≈12,7 A consistentes; corriente global no autoriza cualquier toma. Fichas Honda contrastadas; Gamma pendiente de revisión completa de manual.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/diesel/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "1d821f87f7dbf7b72681d43c6d1d79ce1f0b69957210cc8fdd83bb267068c0d2",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos diésel locales, curvas Pramac/Generac, mantenimiento y mono/tri. Retirado botón Daihatsu duplicado; conserva oferta en su fila. Dos fichas locales y referencias documentales comparan configuraciones distintas sin inventar stock. Pendiente contrastar manuales, curvas e identidad de variante.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/portatiles/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "c9ae469e80bb6b1d127396a47ab1ba677c9c666b5f1762cd072a5148d224d545",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos portátiles por peso, dimensiones, autonomía, traslado y aplicación. 17/21/28/59/118 kg no implican transporte manual común. Fichas EU22i, EU30is, Gamma inverter y LGI3.8 contrastadas. Pendiente contraste EU70is completo.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/silenciosos/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "32e8813012628340f77f9756aa5b0ddaff3f7b273ec6a468eeb2780e4fa67370",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leído ruido por unidad, distancia, carga y presión/potencia acústica. Gamma publica dB sin ponderación; EU22i dB(A) a 7 m plena carga. No se construye ranking con protocolos distintos. Pendiente EU70is, LGI7.5 y referencia histórica completa.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/gamma-950/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "7a05b20b6bb833d2b8e5a8bcccea6fc733abb08abc31be02722e257865fe1bb1",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leído Gamma 950 usado: nominal de manual, ficha ambigua, cargas, mezcla y cálculo de 1,5 L/h derivado sin ensayo. La alternativa LG950P es un modelo distinto. Pendiente contraste integral de manual GE3441AR y proporciones 2T.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/niwa/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "12fa4fd55882bf9286de80f66835c38c57fbd22daf99311dcd0dd0bbbb49d5ed",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída Niwa 28-E/55-ER/70-ER, potencia, tomas, peso bruto, autonomía y precios. Diferencia 50490 pesos/4,3% y +20% nominal consistentes. El enlace 55-E sigue separado de 55-ER; no se traslada la foto ni potencia del ER al E. Pendiente contraste completo del catálogo y manual.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/a-gas/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "ac75cee82df7cbc00311b01d34936cbd2ff7cb39169e112e656585b98524928a",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídos gas GN/GLP, siete modelos, consumo por combustible, instalación y kit K1. Trifuel, estacionarios y conversión no se presentan como equivalentes. Pendiente contraste completo de Generac, manuales Gamma y caudales/presiones.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/estacion-de-energia-portatil/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "29308ff165f43c17b752ffa66a99d88b273899b691b0d0a1a10a1e02e5886e4a",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leídas estaciones Delta2/AC70/C1000 y variantes Max/P. Wh y W, pérdidas, EPS, entrada solar y región separados. Las ofertas Max y P no se atribuyen a Delta2 y AC70 de la tabla. Pendiente contraste completo de manuales y fichas regionales; no reutilizar sus fotos entre variantes.",
+    "full_claim_verification": "pendiente"
+  },
+  "/generadores/chicos/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-02",
+    "body_sha256": "787a2e9c14c3f511b53dd240983fd12256c82d014f02993e115a994b590cec95",
+    "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+    "notes": "Leída comparación Pektra/Konan y alternativa LG950P. Recuperado enlace Pektra GPK980 ya suministrado; comparación de tres modelos con fotos y datos de evidencia propios. Konan y LG950P contrastados en fichas oficiales; Pektra conserva atribución comercial. Cada oferta aparece una vez.",
+    "full_claim_verification": "pendiente"
+  },
+  "/hidrolavadoras/comparativa-general/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "4ec9296ea85dc266a07b3e456fe8af262428e1837294b1fa382a425edbf17fec",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída matriz general por tarea, presión/caudal y alimentación. Corregido information_asset ajeno al contenido.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/inalambricas/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "265b67da9036fbe608d2c90c6ffc024afcc7e77ae317834b97d4e6123f6bd81a",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída comparación LAPL3.6-8BK/UniversalAquatak 36V-100 y HYPRESSO. Incorporada Bosch al comparador con foto oficial de 6 KB; reemplazado enlace español 404 por ficha alemana del código 06008C7002 que responde 200. Plataformas, kit y región separados.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "7ef41359b3ca6c1169fda37cad5aedf63e6265b56d95e18f84184b241b336fc1",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída gama HL-120/HL100-8/HL110-9/HL130-9 y alternativas. HL100-8 contrastado en manual oficial, p.5: 100/150 bar y 6/7,5 L/min; foto extraída de portada. Corregida derivación HL130-9 para no atribuirle 150 bar máximos.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/gamma/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "cf2f0913459754abc75947ca3872d986abbadd42770c51486ecd0f375d573098",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leídas familias Gamma Elite, Master y Premium y matriz por tarea. Los modelos de compra representan escalones concretos, sin atribuirles accesorios de otros códigos.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/stihl/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "6db17ce16febaadcd7f263d7c40552ec285cbe0efda76b0495f417241df90ed6",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leídos STIHL RE eléctricos y a batería. Comparador existente reúne RE80X/90/110/120/145/150 con fotos de sus fichas; RE90 afiliado de 60 Hz sigue separado del código argentino documentado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/bosch/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "f0d229f6930711022e537ed0ed81ad4f76ba607ceb3b2c59f3c560aaa35f3fe8",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leídos cuatro códigos Bosch argentinos. Completadas tarjetas GHP180/200/220/4-50 con sus fotos. Fichas oficiales contrastadas por presión de trabajo/máxima, caudal nominal/máximo, motor y manguera.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/black-decker/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "f4bf65be56199f3c69c20065214eec231d8ee323248daa9345f3ff58da6deda7",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída Black+Decker BEPW1300/1520/1520L/1800T/2200. Códigos PSI no se tratan como watts; variantes argentinas y manual regional separados. Pendiente enlace BEPW1800T exacto.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/karcher-k2/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "5834b9fc8e53260689389f56311d440d1395fb8e02ef2b4eff99ad3e1c99865e",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída K2 Basic/Car por referencia, alcance, contenido y comparación K3. Fotos y ofertas Basic y Car separadas; no trasladar kit Home de otro mercado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/karcher-k5/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "83759a0ce507b7ee9c5915fdf2e4c66c08d877ba4f513bf73d8870afcaf77888",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída K5 base/Power Control frente a K4 PC. Comparador existente incluye tres códigos; diferencias de caudal, manguera, precios y stock fechados.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/gamma-150/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "20cda09b546f27f7e2c8e8710912134c06af90e9ab02886610a60933d13a8530",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída Gamma150 G2514AR frente a G2513AR. Comparador de dos modelos con ficha y foto exactas; enlace Gamma150 pendiente.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/karcher-k3/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "bb5b6022db2f351b7f2c6c335a99dc0b34b4a3a0b99fc13e2798991712f5c57c",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída K3 entre K2 y K4PC. Comparador existente incluye los tres equipos; manguera de repuesto no se atribuye al contenido de caja.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/einhell/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "7aed07465615aa61cb07c2de24627bc06eb60613010e4b2fc3cb593cfffa1179",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída Einhell TC/TE e HYPRESSO. Separadas máquinas cableadas, presión media y Twin-Pack; máximo/permitido/trabajo y kit Solo diferenciados.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/gamma-130/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "9856b62298ecf4fdbe9132a4e5b30e6d7a972a83ffe87de8b00f93283aa2df78",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída Gamma130 G2513AR, usos, mantenimiento y salto a Gamma150. Dos opciones pertinentes; cifras de trabajo y admisibles separadas.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/hyundai/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "1c410ab3d5c6885baeae103c14aaeccc5641184ef6381f3f3acb075e22cf6372",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leídos siete Hyundai y alternativas BEPW2200/HDNW750. Identidad por título/SKU frente a slugs inconsistentes. Corregido texto erróneo presión de caudal promedio. Comparación documental múltiple en tablas, sin inventar ofertas.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/lusqtoff-hl-120/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "032af44338b31462e2c14c14c9b997de8aa3106d4900dfab27bea686d0c52637",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída HL120 frente a HL150 eléctrica; no confundir con HL1500P. Dos tarjetas, fotos y fuentes propias; no inferir alcance incluido desde el repuesto.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/karcher-k4/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "091abbe9e51459f4daffbb4287b3ebb6fdf756a7f1bc6de1a98723ed4a82df4c",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída K4 estándar/PC frente a K3/K5. Comparador ampliado a los cuatro códigos de la tabla, con fotos propias. Potencia del PC no publicada en ficha local permanece separada de comercios.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/150-bar/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "651a6cd6f06028110125c929a30a7322859d1a43393fa7dfb5b30025ba33b9a8",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída guía150bar completa: Gamma150,HL100-8,HDNW700,BEPW2200. Completado comparador de los cuatro con datos de trabajo/máximos; fotos oficiales nuevas y enlaces documentales activos.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/niwa/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "299282ece4263a9de14ca22e99c81104df98e1dbfc7d5222b128947b33a40acd",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída Niwa doméstica/profesional/nafta, peso bruto, cambios de código y caudales inconsistentes HDNW750. Selección de compra HDNW300/500/700 corresponde al escalón doméstico; otras clases conservan fichas en tablas.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/karcher/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "22880f5bc0a64cfef9e58cccb19c8107f32d37e7d0cd9cedfd370a50be1ac62e",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leída matriz central Kärcher K2–K5 y kits. Fotos/códigos distinguidos; K5 base documental separado de afiliado sin código. No extrapolar manguera de PC a base.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/hidrolavadoras/para-autos/": {
+    "checked": "2026-10-02",
+    "batch": "hidrolavadoras-02",
+    "body_sha256": "c66819aa41e68f537cf8ce61bde809b271aa39f81a1106515ce5a3daa2878c13",
+    "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+    "notes": "Leídos equipos y combos para auto: K2Basic/Car/bundle/K3/HDNW500. No atribuir prestaciones del Basic a bundle distinto sin ficha; comparaciones y enlaces de tablas activos.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/generadores/comparativa-general/": {
+    "checked": "2026-10-02",
+    "batch": "generadores-comparaciones-02",
+    "body_sha256": "eb29b61831dd3f1ba9a0d42480b1a5a886dcc787ded43e982f6a2d1db9fdce2e",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Elegí según tu necesidad; Tipos de generadores: qué comparar; Comparativa de marcas y modelos por escala de carga; Ofertas comerciales: datos que faltan confirmar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/circulares/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "5b28a50cc7e325c4f8f177d1785bd7f74b6b18ffb5a534a82691504d3105f036",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué sierra circular elegir según el trabajo; Compará los modelos y consultá sus enlaces; Capacidades documentadas de tres modelos. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sensitivas/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "9f1297065662f590a5e3d9c12421446861853cc02fb7be811a0e56e16af1a2cb",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Sensitiva o sierra sin fin para metal; Qué capacidad necesitás según la forma del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sable/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "0f9333387ba0cc431e66b92074c104000eb53b446b0709d0f1b0f8700fa3df0e",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Cómo elegir la hoja. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/caladoras/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "43f0275ad83725f9dacaafbb67aa0df22059159789c588c34bb96bf0df5234d7",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: La hoja importa tanto como la máquina; Qué caladora elegir según el trabajo; Capacidad publicada de tres modelos; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sierra-sin-fin-para-madera/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "c9f68bb83532abf548319e93c23df1ed01d59d84b3b8d48a22b9b47f1034495f",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Compará los modelos y consultá sus enlaces; Qué cinta necesitás según el trabajo; Sierra sin fin o sierra de banco. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/de-banco/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "ed40e0f188b0160d623ec085d6044fd71dd6bbc5caaf8111c453bfd85a9debfc",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué sierra de banco elegir según el tamaño de pieza; Compará los modelos y consultá sus enlaces; Sierra de banco, circular o ingletadora. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sin-fin-metal/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "e07849b7742e9ba7c22baee42b16ef9302f550dad48b84f57f9d4993ee447a00",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Portátil o de banco; Compará los modelos y consultá sus enlaces; Capacidad según perfil; Velocidad y dientes de cinta. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/ingletadoras-einhell/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "28b090c003a7d85a0e85b6c01ee9b1f04e63d5bcfd380cf086376c7faa8122af",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Dos modelos fija/deslizante; se agregó TC-SM2131/2 Dual 4300390 al bloque con enlace oficial. Espacio de afiliado preparado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/de-banco-einhell/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "93c61ec18057db1796403d067fb27db5d196b42e096bff7a04ca048f7e621e4a",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Cuál elegir según tamaño de pieza y espacio; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/guia-para-sierra-circular/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "e2b593007f07d3a48c6a8609a32d62a8f25af014a2b6ff925ac6db1d27bedfad",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Guía paralela, regla y riel: no son lo mismo; Compatibilidad con GKS150, DWE560 y SC16; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sensitivas-dewalt/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "7fed08063c3c2dc680323fc93f8eb117b7ee5954d4a73bce0e929af59f918cb2",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: D28720 o D28730: cuál tiene sentido según el trabajo; Capacidad según la geometría del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/ingletadoras-dewalt/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "c58e5d276f5b37ec67de9d3276deced711a95cb80196abd421ee310ecce17265",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Fija o telescópica: cuándo compensa la DWS780; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/ingletadoras-total/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "b6c1ae279c735d22ac0e45822679733afac5a1adcbb6ec5cd2a432f8bfc3bca6",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Dos códigos distintos TS42142107/TS42182553; segundo modelo agregado con catálogo. No sustituir por TS42182552. Espacio de afiliado preparado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/disco-para-sierra-circular/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "4abfcd5df454ef9e522dc1d76e19b189968cae873b5ee9d19b873486f5fa712e",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué disco usar según el corte; Consultá precio y disponibilidad del modelo; Qué disco usar para cortar melamina; Compatibilidad: diámetro, eje y RPM. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/bosch-gks-150/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "76e909dfb75794d820bd49762723fc67c4634f81d7c7db7fcce48501d5487e68",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Tres modelos del cuadro ahora tienen oferta: GKS150/DWE560/SC16. Diámetro y eje específicos; no intercambiables.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/circulares-black-decker/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "e22abf2094698d4d66075012b19ede784363292a8bc0ac95c2d0169f9ffbcbf5",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "CS1004-AR/CS1350P-AR; segundo modelo agregado con manual regional. No confundir con variantes BR de127V. Espacio de afiliado preparado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/caladoras-einhell/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "e85326136643f95737e547a0a4725a7ad21ee5f7ffabc183db9e4ca9900aa54c",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Tres caladoras Einhell según alimentación y capacidad; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sierra-sable-inalambrica/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "296fd8f63d0f743723c504233c982e57418dac6a82dc22d2c6455d63e4b21ff0",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Cuándo conviene inalámbrica frente a cable; Compará los modelos y consultá sus enlaces; Máquina sola o kit; Qué hoja y capacidad necesitás. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/circulares-lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "17be4105d6a140db4aefc9664913b9d88a3175acef22e2ffa4307e685c6a2dd6",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: CSL1500-8 y SCL2200-8: capacidades documentadas; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/ingletadoras/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "0808290be16d5ad1ec25628349c9b25ffea508f46d5520d367b5e475034a7ab1",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Fija o telescópica; Qué disco necesita cada material; Metal ≠ lo mismo: ingletadora y sensitiva; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sierra-caladora-bosch/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "0af8aa7714bf784bf1c454d3a0eda00bac920f1b83448b71ef5efd6849d57a38",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Comparación de GST 650, GST 680 y GST 185-LI; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sierra-circular-dewalt-dwe560/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "a4fb7f59e04abea2e791f73ba5388ed73fc20bba656c341efe8a69ea2aa5170d",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Tres modelos del cuadro ahora tienen oferta: DWE560/GKS150/SC16; capacidades desconocidas del DWE no se completan desde otra variante.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/stanley-sc16/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "27f53ebcce255609f8bd58de34232b9741b6c34ed04ec39f5cacb63b68f740bb",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Tres modelos del cuadro ahora tienen oferta: SC16/GKS150/DWE560; discrepancia180/190mm permanece atribuida a documentos, sin montar un disco por inferencia.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/caladoras-black-decker/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "f745f33633285801b53b8c9ef814f3ab672fbe19fe638104bdfd6fd329e73ca3",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: BES603: capacidad, velocidad y variante; Consultá precio y disponibilidad del modelo. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/de-banco-lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "fb90719b3e7e97363065fb11eb614944dbca25c02a17db42b2adbb3f88ef5e33",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Tres códigos de banco y una discrepancia documental; Compará los modelos y consultá sus enlaces; Qué está confirmado, contradicho y no informado; Si tu prioridad es X, qué dato tenés que mirar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sensitivas-lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "f2066b34121d8167135919e08d8677d45881aec8a255949059270348b59e3d1c",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Añadida alternativa TOTAL de355mm para comparar geometría y consumible. CM14K-9 discontinuada no recibe kit/peso CM-14K.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sin-fin-lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "9c0a4cf92834be510f847150e2da672fe0f390a99899e5be885be509904287b6",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: SFL250-8 vs SFL300-8 vs SFL1100-9; Compará los modelos y consultá sus enlaces; Cuál elegir según altura y garganta; Modelos actuales y discontinuados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/sierras/sensitivas-total/": {
+    "checked": "2026-10-02",
+    "batch": "sierras-comparaciones-02",
+    "body_sha256": "d99e986f419681ffef62551250594665c94c8b4c680326f5c8a4c01ae1722557",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Añadida alternativa CM-14K de355mm; código base TS223558 no se equipara al sufijo-4 sin placa. Ambas ofertas y fotos ya registradas.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "64393e3e45be8a32531311999bfc5194e4880cf08ae2960dc4ddd8e1a106830e",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué soldadora elegir según el trabajo. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff SML120-8DK; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/electrodo-7018/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "3ac3c3bab5ad8ae643fb185a08af88138ba8cf550099160453c5962226c7de67",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Cuándo conviene usar 7018; Diámetros y amperaje según fabricante. Opciones de compra: Conarco 7018 Punta Verde · 2,5 mm × 1 kg; Conarco 7018 Punta Verde · 3,2 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "b26951f4d5041a0dae1a1d24870fe23768dc4d16404ac42b755c292a11f82885",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: MMA; MIG/MAG con gas; Flux; TIG. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; Lüsqtoff MIGDUAL200-9; Lüsqtoff SML120-8DK. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-de-punto/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "4a9c0cf2d8786db19ba258f125673ed6faac7447a3b4a0d5c254ad3133b63c49",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Equipos específicos para pestañas de baterías; Equipos para chapa y carrocería. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-mig-con-gas/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "346b9d789df51d201979ffa9c2b9b0cb387d573d210223c96b417aec52dac915",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Potencia y ciclo de trabajo; Gas, alambre y accesorios necesarios; Comparativa y costo del equipo completo. Opciones de compra: ESAB HandyArc MIG 160i; Lüsqtoff MIGDUAL200-9. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/guantes/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "1cdd5918d92511a835057487a6b1b22b0d49516ba3b1ec40864585a56b19332f",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Prioridad según el proceso; Materiales y protección. Opciones de compra: ESAB · Heavy Duty Black; ESAB · TIG Basic · 0700500460; ESAB · Heavy Duty EXL · 0700500432 / 0700500433. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/tig/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "27ce4bc04479ecc7d15af9a04f7183d613d83acefb6ec739b7b1d8e69ebe860b",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Comparación DC/ACDC y red220/380. ST200 discontinuado conserva referencia documental; SmartTIG alternativaACDC. No inferir AC desde palabraTIG.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/mig-sin-gas/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "20fdb02aa1498da33a407a175f1f02d4054552a18df8f822ac4e1cc94a555dab",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Ventajas y limitaciones; Comparativa de equipos y kits. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/mascaras-fotosensibles/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "b084810a82a0dcce8133f2c9704238376b45ab5c42464532ec631b390eeac730",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Oscurecimiento y compatibilidad con el proceso; Modelos y qué comparar. Opciones de compra: Lüsqtoff ST-1N; Lüsqtoff ST-1E; Lüsqtoff ST-1B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/electrodo-6013/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "f76108d38402f630edb793612aa77456b7d65ccb5cea85398ae0ca8dad003f75",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Usos del E6013 y cuándo elegirlo frente al E7018; Diámetro y amperaje según fabricante. Opciones de compra: Conarco 6013 13A Punta Azul · 2,50 mm × 5 kg; Conarco 6013 13A Punta Azul · 3,25 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-inverter-200-amp/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "4027c23b89f18fc2ed91ca29e52374032aaa223d134e3d16cfc1c63c6df10242",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: 200 A máximos no significan 200 A continuos; Qué trabajos permite cada equipo; Amperaje declarado y ciclo de trabajo; Modelos y qué comparar. Opciones de compra: Lüsqtoff SLCEL200-9 Black Series; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/alambre-flux/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "876b52627e49a47bf95c000fe6fd44f5763404623fb8f0a437b64a9d24008c95",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: 0,8 vs. 0,9 mm: compará todo el sistema; Opciones de compra y bobinas. Opciones de compra: ESAB Gas Free E71T-GS · 0,8 mm × 5 kg; Bremen 7992 AWS E71T-GS · 0,8 mm × 1 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-dogo-180/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "28849a75e962b5ad8e0c9bc7157e60e97662d4b8da7f431f6fda34d08a122358",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Ficha técnica y ciclo de trabajo; Para qué usos conviene; Comparación contextual con Dogo 160 y 200. Opciones de compra: Dogo Dogostar 180 Moderna; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/esab/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "020f6f8f58b47fd176a7f036ad219dd3a5c6d625360e24e35a2636057d71c32d",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: MMA; MIG; TIG. Opciones de compra: ESAB HandyArc 162i; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/electrodo-para-acero-inoxidable/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "385e2e2a2fa06a31110706c299e2f946b65249b0c7ed5e23d87394c892725657",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Metal base o unión → familia de aporte orientativa; Diferencias entre clasificaciones; Diámetro y compatibilidad; Comparativa de referencias documentadas. Opciones de compra: Lastrade Infinity E308L-16 · 3,2 mm × 2 kg; AWS A5.4 E316L-16 · 3,2 mm × 2 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/para-aluminio/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "b30360a94f5fdef1886454f194af266da05e250a4d1d506dd9fc7589f26ccb5c",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: TIG vs MIG para aluminio; Equipo según espesor y trabajo; Referencias de equipo documentadas; Comparativa del costo completo. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff-iron-250/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "3d89e6be58f9bd2b335beb691955ff794179a1388c5b2854359f556aa2997a7d",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Versión y especificaciones verificadas; Accesorios, alternativas y qué comparar. Opciones de compra: Lüsqtoff MEGAIRON250 + máscara + kit; Dogo Dogostar 180 Moderna; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-tig-ac-dc/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "ab1dfb040f822d8d694d772535aae3d63b63b365e7dff1cdff628519d3a0ef07",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Balance, frecuencia y pulso; Modelos y qué comparar; Modelos y qué comparar. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff Smart TIG-ACDC-20; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/soldadora-inverter-160-amp/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "8c19d8e6b0538fd944c468f30afd94189eed757fca3970efe01967a27288b20a",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Electrodos y ciclo de trabajo; Cuándo conviene pasar a 200 A; Modelos, kits y qué comparar. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff-iron-100/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "6841844727d71c25cd4dbb1af0ff0045d3f3bc072ca73cffd6c467fb2cc1c679",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Comparación con Iron 250 y HandyArc 162i. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/mig-lusqtoff/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "55392039cdf8d48d8e8cf750dae3f2606bdb94ab9a5c7cd9f42bca71c4a22ac8",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Comparativa de la familia SML. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff-sml150-8/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "fb32ce155d9fb9003ee9b8d8dc48a48a5f018097f69ccd6d717597b18872cea5",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "SML150-8/8D por proceso, ciclo y discontinuación; compra 8D y alternativa120DK sin atribuirle la generación8.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff-sml120-8d/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "7eee624b0f48847bcfb6ed50508b20bb06917f66ade27f8f764a2ec8d74cc01c",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: SML120-8D vs SML120-8DK. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/carro-para-soldadora-mig/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "832cdbd3c53fdddd69e0e7c746100b0f28a52b66305bd1f8b2ae6a4afedfadfa",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: cuadro inicial; cuadro inicial. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/esab-handyarc-162i/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "6838050612bc5fd25442684bd5046b504016ebd37be08c8a3d98df052643d0fd",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Especificaciones técnicas y ciclo de trabajo; Qué revisar antes de comprar; Cruce práctico con electrodos 6013 y 7018. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 180 Moderna. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/mascara-lusqtoff-st-1x/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "20bc815e69a0f7e813f2f2d316f7767fdffa7a981c9769c45d5233b29e014e92",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué comprobar antes de comprar una ST-1X. Opciones de compra: Lüsqtoff ST-1B; Lüsqtoff ST-1X. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/soldadoras/lusqtoff-sml130-7/": {
+    "checked": "2026-10-02",
+    "batch": "soldadoras-comparaciones-02",
+    "body_sha256": "a584ebe5d3ca31b09096e0d868d5b73cc7c65e22dfceda5005bae962a0111c37",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: cuadro inicial; Cuándo conviene pasar a una alternativa actual. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/inalambricos/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "a0fe4c6b8fe3f9e897704ed9c5c762a1dafda94a1dbe202b40fba0732f8b9f0b",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Modelos según uso y nivel de exigencia; Comparar por marca/plataforma; Referencias para comparar especificaciones; Qué incluye cada kit y dónde comprar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/rotomartillos/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "d4532cc7b9e51588f0273c03e2f595f3b1e241c6d5bbc772c9e5d5e49496f509",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Joules, encastre y modos de trabajo; Modelos para casa y obra; Comparativas por marca; Comparativa de equipos y precios. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/percutores/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "a480188cd479a35b6bb2f3e62567cc28ba913d59e7a041e4f49a7004c43b196c",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Qué elegir para ladrillo, madera y metal; Modelos con cable y a batería. Opciones de compra: Bosch · GSB 550 RE; Bosch · GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/taladro-de-banco/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "027e539c0443fbf1b8d6efef3328bec3fe9b3d1c7deb07a193631810529e6a9a",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "TB-16 y TBL710-9D por recorrido, rpm, mesa y régimen S2; la oferta TBL16-7 requiere su código propio, no se equipara sin placa.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/atornilladores-de-impacto/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "f98b0bc7369fbf9f0b77f9e265a77c43487c57b30849ac73f9f7412ad0eea566",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Diferencias con un taladro atornillador; Puntas compatibles y accesorios; Comparativa de modelos y kits. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/rotomartillo-bosch/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "5284a8b03cf37750f3a3fccc074b941e7ecb970acf8cd627ad2ac3dfde7ac0e1",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "GBH220/2-26/18V26/8-45 por energía y encastre. GBH180-LI es otra alternativa a batería; no recibe los 2,5 J del GBH18V26.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/taladro-percutor-inalambrico/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "ccf427a13f75d427129b94ef08a056e952a1afd93a463791f496e81e4d8266eb",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Modelos con percusión: capacidad, plataforma y configuración. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/para-durlock/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "21f8b4871d3996f64149c8531454b404ffbab9a6961f362e30adb9b4058ca04b",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: cuadro inicial. Opciones de compra: Bosch GTB 650; DeWalt DCF620B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/black-decker/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "89bea65e2f79ce0707fb2f6a22c8116f88b732a68ade58f9f73da4512bc92cba",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos. Opciones de compra: Black+Decker BCD702C1-AR; Black+Decker BLD783D1. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/rotomartillo-einhell/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "128f212ae46b8a89755b0021afd9369cd5e4abe733e7adb470d056043ce57587",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: Einhell TC-RH 620 4F; Einhell TE-RH 28/1 5F. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/rotomartillo-dewalt/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "7f1f8d8f2567fb55cd4fa2c62b9f0f75fbb8823e0572e8869fd880cce5d1d4db",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Modelos según exigencia. Opciones de compra: DeWalt · DCH273B; DeWalt · DCH133B; DeWalt · D25333K-QS. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/einhell-inalambrico/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "37b20d5296ff29cedbfba569a9bdff9e6d15fd8d394ea614bf57fc7401fb215f",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: TE-CD 18/40 y TP-CD 18/50: sin y con percusión. Opciones de compra: Einhell TE-CD 18/40 Li Solo; Einhell TP-CD 18/50 Li- BL Solo · sufijo a confirmar. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/dewalt-inalambrico/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "dfccf070a28262cb3ea978c448400490c9676cadcec9551054566fb1dd8a745a",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "DCD794B, DCD796D2-AR y DCD805D2 por percusión, kit y región. Oferta DCD805B es cuerpo, no kit D2.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/mecha-porcelanato/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "5a612604d50a61e00661cb5f7ac611a9d92c1d821719c9a3719fcd5d09890af3",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Tipos de broca para porcelanato; Diámetro y compatibilidad: cuál elegir; Refrigeración y errores frecuentes. Opciones de compra: Bosch EXPERT HEX-9 HardCeramic · 6 mm; RUBI EASYGRES · 6 mm · corte húmedo. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/milwaukee/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "a7acbc27134d8c1fbc3cc5407a17ef91bcbd895d1194f148b91c99a5dcc7badd",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "M12 3403/3404 y M18 3601/2904 por percusión, plataforma y peso. 2904-259A es bundle del 2904-20; no atribuirle otro cuerpo.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/lusqtoff-inalambrico/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "df6147a4291d9f8849e1dfd35aa4e7bb50fc1fe30dd5f448729bbe77ffd30718",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Comparativa de modelos y prestaciones; Para qué trabajos conviene cada opción. Opciones de compra: Lüsqtoff TIL23-8B; Lüsqtoff TAL60-9B; Lüsqtoff TIL45131-8BK. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/brocas-ceramica/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "8226ffb27b1bd7b21ba5c84e85244f19fd452621c88ec0ddcbaa0c0555c48faf",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Tipos de punta y materiales compatibles. Opciones de compra: Bosch · CYL-9 · 6 mm · cerámica/azulejo; Bosch · EXPERT HEX-9 HardCeramic · 6 mm. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/stanley/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "bfb6098d21142bccc64aa0491c958ad6040311c8ad85d3dddf644089616b441b",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos; Comparativa de kits y configuraciones. Opciones de compra: Stanley SDH700; Stanley SBD715C2K. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/atornillador-impacto-dewalt/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "5e663cda9126739e1085de9b6f5194cf28e24218bcf6efcd0b7f361b23668095",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: DeWalt DCF887B; DeWalt DCF850B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/bosch-inalambrico/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "85c41786fb332ffb065a1f4ee0f1dfe6617ff56a9260bc7e326eb40f7df3c9e6",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Diferencias entre GSR y GSB; GSR vs GSB vs GBH; Comparativa de modelos y kits. Opciones de compra: Bosch GSR 120-LI; Bosch GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/mechas-escalonadas/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "1b5288650c77d334513ccc0a1f85b4bc5eafe238b16cea13b37e2232d920909e",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Bosch 2608597524 y Högert HT6D323; afiliado Bosch 2608597519 conserva SKU diferente, sin asignarle los nueve pasos del 7524.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/mecha-forstner-35-mm/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "5b1ef697575f8a7b3bbd8c4f2ac78f7e8526ef3dc2ad9b62f9e75b1388beed22",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Producto para este trabajo; Qué revisar antes de perforar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+  },
+  "/taladros/combo-taladro-amoladora/": {
+    "checked": "2026-10-02",
+    "batch": "taladros-comparaciones-02",
+    "body_sha256": "7954c0d828ad256e491986d25e1d06d55891bc2c13766b55fdbe785f51c031d9",
+    "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+    "notes": "Evaluadas las selecciones y tablas: Combos documentados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
   }
 }

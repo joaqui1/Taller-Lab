@@ -54,7 +54,7 @@ Los watts publicados describen potencia eléctrica absorbida o anunciada según 
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

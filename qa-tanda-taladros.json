@@ -1,6 +1,6 @@
 {
   "section": "taladros",
-  "checked": "2026-10-01T21:03:29.810481+00:00",
+  "checked": "2026-10-02T14:21:15.558193+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1424,8 +1424,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "a0fe4c6b8fe3f9e897704ed9c5c762a1dafda94a1dbe202b40fba0732f8b9f0b",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Modelos según uso y nivel de exigencia; Comparar por marca/plataforma; Referencias para comparar especificaciones; Qué incluye cada kit y dónde comprar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/rotomartillos/",
@@ -1447,8 +1454,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "d4532cc7b9e51588f0273c03e2f595f3b1e241c6d5bbc772c9e5d5e49496f509",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Joules, encastre y modos de trabajo; Modelos para casa y obra; Comparativas por marca; Comparativa de equipos y precios. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/percutores/",
@@ -1463,8 +1477,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "a480188cd479a35b6bb2f3e62567cc28ba913d59e7a041e4f49a7004c43b196c",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué elegir para ladrillo, madera y metal; Modelos con cable y a batería. Opciones de compra: Bosch · GSB 550 RE; Bosch · GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/taladro-de-banco/",
@@ -1482,8 +1503,15 @@
       ],
       "tables": 4,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "027e539c0443fbf1b8d6efef3328bec3fe9b3d1c7deb07a193631810529e6a9a",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "TB-16 y TBL710-9D por recorrido, rpm, mesa y régimen S2; la oferta TBL16-7 requiere su código propio, no se equipara sin placa.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/atornilladores-de-impacto/",
@@ -1500,8 +1528,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "f98b0bc7369fbf9f0b77f9e265a77c43487c57b30849ac73f9f7412ad0eea566",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Diferencias con un taladro atornillador; Puntas compatibles y accesorios; Comparativa de modelos y kits. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/rotomartillo-bosch/",
@@ -1518,8 +1553,15 @@
       ],
       "tables": 1,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "5284a8b03cf37750f3a3fccc074b941e7ecb970acf8cd627ad2ac3dfde7ac0e1",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "GBH220/2-26/18V26/8-45 por energía y encastre. GBH180-LI es otra alternativa a batería; no recibe los 2,5 J del GBH18V26.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/taladro-percutor-inalambrico/",
@@ -1538,8 +1580,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "ccf427a13f75d427129b94ef08a056e952a1afd93a463791f496e81e4d8266eb",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Modelos con percusión: capacidad, plataforma y configuración. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/para-durlock/",
@@ -1557,8 +1606,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "21f8b4871d3996f64149c8531454b404ffbab9a6961f362e30adb9b4058ca04b",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: cuadro inicial. Opciones de compra: Bosch GTB 650; DeWalt DCF620B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/black-decker/",
@@ -1575,8 +1631,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "89bea65e2f79ce0707fb2f6a22c8116f88b732a68ade58f9f73da4512bc92cba",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos. Opciones de compra: Black+Decker BCD702C1-AR; Black+Decker BLD783D1. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/rotomartillo-einhell/",
@@ -1595,8 +1658,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "128f212ae46b8a89755b0021afd9369cd5e4abe733e7adb470d056043ce57587",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: Einhell TC-RH 620 4F; Einhell TE-RH 28/1 5F. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/rotomartillo-dewalt/",
@@ -1613,8 +1683,15 @@
       ],
       "tables": 1,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "7f1f8d8f2567fb55cd4fa2c62b9f0f75fbb8823e0572e8869fd880cce5d1d4db",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Modelos según exigencia. Opciones de compra: DeWalt · DCH273B; DeWalt · DCH133B; DeWalt · D25333K-QS. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/einhell-inalambrico/",
@@ -1630,8 +1707,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "37b20d5296ff29cedbfba569a9bdff9e6d15fd8d394ea614bf57fc7401fb215f",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: TE-CD 18/40 y TP-CD 18/50: sin y con percusión. Opciones de compra: Einhell TE-CD 18/40 Li Solo; Einhell TP-CD 18/50 Li- BL Solo · sufijo a confirmar. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/dewalt-inalambrico/",
@@ -1646,8 +1730,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "dfccf070a28262cb3ea978c448400490c9676cadcec9551054566fb1dd8a745a",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "DCD794B, DCD796D2-AR y DCD805D2 por percusión, kit y región. Oferta DCD805B es cuerpo, no kit D2.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/mecha-porcelanato/",
@@ -1665,8 +1756,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "5a612604d50a61e00661cb5f7ac611a9d92c1d821719c9a3719fcd5d09890af3",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Tipos de broca para porcelanato; Diámetro y compatibilidad: cuál elegir; Refrigeración y errores frecuentes. Opciones de compra: Bosch EXPERT HEX-9 HardCeramic · 6 mm; RUBI EASYGRES · 6 mm · corte húmedo. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/milwaukee/",
@@ -1687,8 +1785,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "a7acbc27134d8c1fbc3cc5407a17ef91bcbd895d1194f148b91c99a5dcc7badd",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "M12 3403/3404 y M18 3601/2904 por percusión, plataforma y peso. 2904-259A es bundle del 2904-20; no atribuirle otro cuerpo.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/lusqtoff-inalambrico/",
@@ -1705,8 +1810,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "df6147a4291d9f8849e1dfd35aa4e7bb50fc1fe30dd5f448729bbe77ffd30718",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Comparativa de modelos y prestaciones; Para qué trabajos conviene cada opción. Opciones de compra: Lüsqtoff TIL23-8B; Lüsqtoff TAL60-9B; Lüsqtoff TIL45131-8BK. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/brocas-ceramica/",
@@ -1721,8 +1833,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "8226ffb27b1bd7b21ba5c84e85244f19fd452621c88ec0ddcbaa0c0555c48faf",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Tipos de punta y materiales compatibles. Opciones de compra: Bosch · CYL-9 · 6 mm · cerámica/azulejo; Bosch · EXPERT HEX-9 HardCeramic · 6 mm. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/stanley/",
@@ -1741,8 +1860,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "bfb6098d21142bccc64aa0491c958ad6040311c8ad85d3dddf644089616b441b",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos; Comparativa de kits y configuraciones. Opciones de compra: Stanley SDH700; Stanley SBD715C2K. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/atornillador-impacto-dewalt/",
@@ -1762,8 +1888,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "5e663cda9126739e1085de9b6f5194cf28e24218bcf6efcd0b7f361b23668095",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: DeWalt DCF887B; DeWalt DCF850B. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/bosch-inalambrico/",
@@ -1779,8 +1912,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "85c41786fb332ffb065a1f4ee0f1dfe6617ff56a9260bc7e326eb40f7df3c9e6",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Diferencias entre GSR y GSB; GSR vs GSB vs GBH; Comparativa de modelos y kits. Opciones de compra: Bosch GSR 120-LI; Bosch GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/mechas-escalonadas/",
@@ -1796,8 +1936,15 @@
       ],
       "tables": 1,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "1b5288650c77d334513ccc0a1f85b4bc5eafe238b16cea13b37e2232d920909e",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Bosch 2608597524 y Högert HT6D323; afiliado Bosch 2608597519 conserva SKU diferente, sin asignarle los nueve pasos del 7524.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/mecha-forstner-35-mm/",
@@ -1815,8 +1962,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "5b1ef697575f8a7b3bbd8c4f2ac78f7e8526ef3dc2ad9b62f9e75b1388beed22",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Producto para este trabajo; Qué revisar antes de perforar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/taladros/combo-taladro-amoladora/",
@@ -1835,8 +1989,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "taladros-comparaciones-02",
+        "body_sha256": "7954c0d828ad256e491986d25e1d06d55891bc2c13766b55fdbe785f51c031d9",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Combos documentados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     }
   ]
 }

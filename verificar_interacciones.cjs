@@ -8,7 +8,7 @@ const base=process.env.QA_BASE_URL||'http://127.0.0.1:5058';
  try {
   const page=await browser.newPage({viewport:{width:390,height:900}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  for(const path of JSON.parse(fs.readFileSync('rutas-qa-fotos.json','utf8'))){
+  for(const path of JSON.parse(fs.readFileSync(process.env.QA_PATHS_FILE||'rutas-qa-fotos.json','utf8'))){
    await page.goto(base+path,{waitUntil:'load'});
    const result=await page.evaluate(()=>{
     const failures=[];let sources=0,resources=0,filters=0,comparisons=0;

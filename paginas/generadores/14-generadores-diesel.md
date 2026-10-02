@@ -87,10 +87,6 @@ La fase debe coincidir con las cargas y la instalación. No alcanza con que el t
 | Pramac S10000 | Trifásico; aplicación estacionaria según ficha | COP 8,4 kW / 10,5 kVA; ESP 9,4 kW / 11,8 kVA | 2,44 L/h al 75 % | Instalación y disponibilidad local; la ficha señala que no tiene motor Stage V | — |
 | Hyundai 073G | La ficha local consultada no especifica la fase | Continua: 5.800 W; máxima: 6.400 W | No publicado por carga | Fase, tanque, autonomía y consumo por carga | — |
 
-**Daihatsu GES7500ED**
-
-[Ver precio del Daihatsu GES7500ED](https://meli.la/1JHeiwp)
-
 **Importante:** en un generador trifásico, no supongas que toda la potencia total queda disponible para una sola carga monofásica. Revisá el límite monofásico y el balance de fases publicados por el fabricante. Para motores y otras cargas de arranque, dimensioná con potencia de marcha y pico de arranque.
 
 En Hyundai 071G, la ficha local lo presenta como insonorizado y publica 8.000 W máximos, además de “uso continuo 6,5 h” sin condición de carga. No permite inferir fase, potencia continua ni L/h. La ficha del 080G, por su parte, usa rótulos de kVA y kW de forma inconsistente; verificá los datos en la placa y el manual antes de comparar.

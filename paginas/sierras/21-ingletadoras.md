@@ -81,7 +81,7 @@ Si tu trabajo principal es metal, no compres una ingletadora convencional por su
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

@@ -62,7 +62,7 @@ La alimentación publicada para los cuatro códigos es 220 V ~ 50 Hz. El salto e
 
 HL-150 es otro código de la línea, no el HL130-9. En el catálogo Lüsqtoff 2024–2025, HL-150 figura con 1.500 W, 90 bar de trabajo, 7,5 L/min de trabajo y 8 kg; incluye manguera de alta presión, ruedas y botella de detergente. Por contraste, HL-120 publica 70 bar, 5,5 L/min y 5,2 kg. HL-150 puede interesarte si buscás ese punto intermedio de caudal/peso y confirmás que la oferta corresponde exactamente al código; «150» no significa 150 bar de trabajo.
 
-No confundir HL-150 con HL130-9: este último declara 150 bar de trabajo, 225 bar máximos permitidos y 25 kg. Por esa especificación sí corresponde compararlo con [hidrolavadoras de 150 bar](/hidrolavadoras/150-bar/). Para una oferta, verificá la placa del equipo y no decidas sólo por el número del nombre.
+No confundir HL-150 con HL130-9: este último declara 150 bar de trabajo, 225 bar máximos permitidos y 25 kg. Tiene un rango distinto al de las [hidrolavadoras rotuladas 150 bar máximos](/hidrolavadoras/150-bar/). Si buscás ese rango de trabajo, compará también bomba, ciclo y servicio según la [guía de uso profesional](/hidrolavadoras/profesionales/); la presión por sí sola no acredita una jornada continua. Para una oferta, verificá la placa del equipo y no decidas sólo por el número del nombre.
 
 ## Repuestos, accesorios y garantía
 
@@ -89,6 +89,7 @@ Precios consultados el **29/09/2026**. Son importes de publicaciones de vendedor
 ## Fuentes consultadas
 
 - [Lüsqtoff HL-120, ficha oficial](https://www.lusqtoff.com.ar/ver-producto/HL-120) y [manual HL-120](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf).
+- [Manual oficial HL100-8](https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf): portada identifica el código; página 3 impresa (página 5 del PDF) confirma 100/150 bar, 6/7,5 L/min, 2.000 W y 220 V / 50 Hz.
 - Precios consultados el 29/09/2026: [HL-120](https://www.mercadolibre.com.ar/hidrolavadora-todo-en-uno-de-lusqtoff-hl-120/p/MLA13121234), [HL110-9](https://www.mercadolibre.com.ar/hidrolavadora-alta-presion-2100-w-110-bar-lusqtoff-hl1109/up/MLAU447157719) y [HL-150](https://www.mercadolibre.com.ar/hidrolavadora-lusqtoff-hl-150-naranja-y-negro-1500w-135-bar-50hz/p/MLA6066861).
 - [Catálogo Lüsqtoff 2024–2025](https://www.lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf) — códigos HL-150, HL100-8, HL110-9 y HL130-9, características y usos recomendados.
 - [Catálogo oficial de accesorios 2024](https://lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf); [lanza compatible HL-120](https://lusqtoff.com.ar/productos/RHL120BR34); [manguera compatible HL-120](https://lusqtoff.com.ar/productos/RHL120BR35); [manguera compatible HL130-9](https://lusqtoff.com.ar/productos/RHL13092R19); [lanza compatible HL130-9](https://lusqtoff.com.ar/productos/RHL13092R18).

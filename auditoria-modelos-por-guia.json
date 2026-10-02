@@ -2358,7 +2358,11 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Fengda · FD-186K",
+      "Paasche · H-100D",
+      "Paasche · TG-100D"
+    ],
     "model_sources": [
       {
         "label": "guía de conceptos básicos",
@@ -2592,7 +2596,10 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Fengda · AS-186",
+      "Fengda · AS-196"
+    ],
     "model_sources": [
       {
         "label": "Fengda AS-186",
@@ -4594,7 +4601,14 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Honda · EU22i",
+      "Gamma · GE3497AR",
+      "Honda · EU30is",
+      "Lüsqtoff · LGI3.8-8",
+      "Lüsqtoff · LGI5.5-8",
+      "Lüsqtoff · LGI11.0-9"
+    ],
     "model_sources": [
       {
         "label": "Mobimotos",
@@ -4718,7 +4732,7 @@
       "Autonomía según la carga",
       "Nafta frente a diésel y gas",
       "Comparativa de modelos a nafta",
-      "El LG3000: dato a verificar",
+      "LG3000 y LG3000E: cotejá el código y la potencia",
       "Fuentes consultadas"
     ],
     "tables": [
@@ -4831,6 +4845,14 @@
       {
         "label": "ficha Gamma",
         "url": "https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-8500v/"
+      },
+      {
+        "label": "LG3000",
+        "url": "https://www.lusqtoff.com.ar/ver-producto/LG3000"
+      },
+      {
+        "label": "LG3000E",
+        "url": "https://www.lusqtoff.com.ar/ver-producto/LG3000E"
       },
       {
         "label": "Honda EU22i",
@@ -6138,7 +6160,11 @@
         ]
       }
     ],
-    "cards": [],
+    "cards": [
+      "Pektra · GPK980",
+      "Konan · KGE/800",
+      "Lüsqtoff · LG950P"
+    ],
     "model_sources": [
       {
         "label": "ficha oficial de Lüsqtoff",
@@ -6319,12 +6345,17 @@
     ],
     "cards": [
       "Lüsqtoff · LAPL3.6-8BK",
+      "Bosch · UniversalAquatak 36V-100 · 06008C7002",
       "Einhell · HYPRESSO 18/24-1 Li · 4140135"
     ],
     "model_sources": [
       {
         "label": "Lüsqtoff LAPL3.6-8BK, ficha oficial argentina",
         "url": "https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk"
+      },
+      {
+        "label": "Bosch UniversalAquatak 36V-100, kit 06008C7002, ficha oficial Bosch DIY Alemania",
+        "url": "https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002"
       },
       {
         "label": "HYPRESSO 18/24-1 Li, SKU 4140135",
@@ -6409,6 +6440,10 @@
       {
         "label": "manual HL-120",
         "url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf"
+      },
+      {
+        "label": "Manual oficial HL100-8",
+        "url": "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf"
       },
       {
         "label": "HL-120",
@@ -6848,7 +6883,9 @@
     ],
     "cards": [
       "Bosch · GHP 180",
-      "Bosch · GHP 200"
+      "Bosch · GHP 200",
+      "Bosch · GHP 220 · 0600910EH0",
+      "Bosch · GHP 4-50 · 0600910FH0"
     ],
     "model_sources": [
       {
@@ -7871,8 +7908,10 @@
       }
     ],
     "cards": [
+      "Kärcher · K3 Black Edition · 9.398-355.0",
       "Kärcher · K4 · 9.398-294.0",
-      "Kärcher · K4 Power Control · 1.603-402.0"
+      "Kärcher · K4 Power Control · 1.603-402.0",
+      "Kärcher · K5 · 9.398-295.0"
     ],
     "model_sources": [
       {
@@ -7943,6 +7982,8 @@
       }
     ],
     "cards": [
+      "Gamma · 150 Elite · G2514AR",
+      "Lüsqtoff · HL100-8",
       "Niwa · HDNW-700 · 1040700",
       "BLACK+DECKER · BEPW2200-AR"
     ],
@@ -8492,7 +8533,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Bosch GKS 150",
           "Stanley SC16",
@@ -8562,7 +8603,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Lüsqtoff CM-14K",
           "TOTAL TS223558-4"
@@ -8679,7 +8720,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Black+Decker BES603",
           "Einhell TC-JS 85",
@@ -8732,7 +8773,7 @@
     ],
     "tables": [
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Lüsqtoff SFL300-8",
           "Lüsqtoff SFL1100-9"
@@ -8818,7 +8859,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Einhell TC-TS 2025/2 U",
           "Lüsqtoff SML2000-9"
@@ -8885,7 +8926,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "BTA Tools 646003",
           "BTA Tools 646001"
@@ -8961,14 +9002,19 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "Einhell TC-MS 2112"
+          "Einhell TC-MS 2112",
+          "Einhell TC-SM 2131/2 Dual · 4300390"
         ]
       }
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "Ver ficha del fabricante →",
+        "url": "https://www.einhell.com.ar/p/4300390-tc-sm-2131-2-dual/"
+      },
       {
         "label": "TC-MS 2112",
         "url": "https://www.einhell.com.ar/p/4300295-tc-ms-2112/"
@@ -9016,7 +9062,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Einhell TC-TS 2025/2 U",
           "Einhell TC-TS 2225 U"
@@ -9060,7 +9106,7 @@
     ],
     "tables": [
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "SKIL 4380",
           "SKIL 4550"
@@ -9131,7 +9177,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Kreg Rip-Cut KMA2685",
           "Surplee compatible con DW3278"
@@ -9202,7 +9248,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "DeWalt D28720",
           "DeWalt D28730"
@@ -9265,7 +9311,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "DeWalt DWS713",
           "DeWalt DWS780"
@@ -9321,9 +9367,10 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "TOTAL TS42142107"
+          "TOTAL TS42142107",
+          "TOTAL TS42182553"
         ]
       },
       {
@@ -9337,6 +9384,10 @@
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "Ver catálogo del fabricante →",
+        "url": "https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures"
+      },
       {
         "label": "catálogo TOTAL 2026, códigos TS42142107 y TS42182553",
         "url": "https://amig.es/export_fr/downloadcatalogues/download?id=TOTAL+2026+FR.pdf&type=Catalogues+et+brochures"
@@ -9372,7 +9423,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Consultá precio y disponibilidad del modelo",
         "rows": [
           "Diablo D0760X Ultra Finish 7 1/4 in, 60 dientes"
         ]
@@ -9440,9 +9491,11 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "Bosch GKS 150"
+          "Bosch GKS 150",
+          "DeWalt DWE560",
+          "Stanley SC16"
         ]
       }
     ],
@@ -9501,14 +9554,19 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "Black+Decker CS1004-AR"
+          "Black+Decker CS1004-AR",
+          "Black+Decker CS1350P · variante AR"
         ]
       }
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "Ver manual del fabricante →",
+        "url": "https://support.blackanddecker.com/hc/pt/article_attachments/360018582394"
+      },
       {
         "label": "ficha Black+Decker Argentina CS1004-AR",
         "url": "https://ar.blackanddecker.global/producto/cs1004-ar/sierra-circular-1400-w"
@@ -9557,7 +9615,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Einhell TC-JS 85",
           "Einhell TE-JS 100",
@@ -9605,7 +9663,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Bosch GSA 18V-24",
           "DeWalt DCS380B"
@@ -9669,7 +9727,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Lüsqtoff CSL1500-8",
           "Lüsqtoff SCL2200-8"
@@ -9744,7 +9802,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Einhell TC-MS 2112",
           "DeWalt DWS713",
@@ -9794,7 +9852,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Bosch GST 650",
           "Bosch GST 680",
@@ -9856,9 +9914,11 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "DeWalt DWE560"
+          "DeWalt DWE560",
+          "Bosch GKS 150",
+          "Stanley SC16"
         ]
       }
     ],
@@ -9913,9 +9973,11 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "Stanley SC16"
+          "Stanley SC16",
+          "Bosch GKS 150",
+          "DeWalt DWE560"
         ]
       }
     ],
@@ -9960,7 +10022,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Consultá precio y disponibilidad del modelo",
         "rows": [
           "Black+Decker BES603"
         ]
@@ -10007,7 +10069,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Lüsqtoff SML2000-9",
           "Lüsqtoff SML2000B-9"
@@ -10087,9 +10149,10 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "Lüsqtoff CM-14K"
+          "Lüsqtoff CM-14K",
+          "TOTAL TS223558-4"
         ]
       }
     ],
@@ -10141,7 +10204,7 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
           "Lüsqtoff SFL300-8",
           "Lüsqtoff SFL1100-9"
@@ -10225,9 +10288,10 @@
         ]
       },
       {
-        "heading": "Consultá estas opciones en Mercado Libre",
+        "heading": "Compará los modelos y consultá sus enlaces",
         "rows": [
-          "TOTAL TS223558-4"
+          "TOTAL TS223558-4",
+          "Lüsqtoff CM-14K"
         ]
       }
     ],
@@ -12507,7 +12571,7 @@
         "rows": [
           "Pro’sKit PK-916G, mercado de China",
           "Velleman K/SOLD2N",
-          "Weller WLC100K, versión estadounidense"
+          "Weller WLIRK6012A, versión estadounidense"
         ]
       }
     ],
@@ -12522,7 +12586,7 @@
         "url": "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en"
       },
       {
-        "label": "Weller WLC100K, 120 V",
+        "label": "Weller WLIRK6012A, 120 V",
         "url": "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us"
       },
       {
@@ -12553,6 +12617,10 @@
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "página española de la misma serie",
+        "url": "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/"
+      },
       {
         "label": "YiHUA 878/878A/878AD/878D",
         "url": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/"
@@ -12633,6 +12701,10 @@
     ],
     "cards": [],
     "model_sources": [
+      {
+        "label": "ficha inglesa de la serie 878D",
+        "url": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/"
+      },
       {
         "label": "Yihua 898D/898D+",
         "url": "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"

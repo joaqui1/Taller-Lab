@@ -362,7 +362,9 @@
   "/sierras/bosch-gks-150/": {
     "file": "16-sierra-circular-bosch-gks-150.md",
     "models": [
-      "GKS150"
+      "GKS150",
+      "DWE560",
+      "SC16"
     ],
     "anchor": "Para quién tiene sentido la GKS150",
     "position": "section",
@@ -370,6 +372,16 @@
       {
         "model": "GKS150",
         "url": "https://meli.la/1Chp49C",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWE560",
+        "url": "https://meli.la/2zyLxUA",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SC16",
+        "url": "https://meli.la/1WX3aEo",
         "cta": "Ver precio →"
       }
     ],
@@ -539,7 +551,9 @@
   "/sierras/sierra-circular-dewalt-dwe560/": {
     "file": "23-sierra-circular-dewalt-dwe560.md",
     "models": [
-      "DWE560"
+      "DWE560",
+      "GKS150",
+      "SC16"
     ],
     "anchor": "Para quién tiene sentido la DWE560",
     "position": "section",
@@ -547,6 +561,16 @@
       {
         "model": "DWE560",
         "url": "https://meli.la/2zyLxUA",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "GKS150",
+        "url": "https://meli.la/1Chp49C",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "SC16",
+        "url": "https://meli.la/1WX3aEo",
         "cta": "Ver precio →"
       }
     ],
@@ -556,7 +580,9 @@
   "/sierras/stanley-sc16/": {
     "file": "24-stanley-sc16.md",
     "models": [
-      "SC16"
+      "SC16",
+      "GKS150",
+      "DWE560"
     ],
     "anchor": "Para qué espesores tiene sentido",
     "position": "section",
@@ -564,6 +590,16 @@
       {
         "model": "SC16",
         "url": "https://meli.la/1WX3aEo",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "GKS150",
+        "url": "https://meli.la/1Chp49C",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "DWE560",
+        "url": "https://meli.la/2zyLxUA",
         "cta": "Ver precio →"
       }
     ],
@@ -618,7 +654,8 @@
   "/sierras/sensitivas-lusqtoff/": {
     "file": "27-sensitiva-lusqtoff.md",
     "models": [
-      "CM-14K"
+      "CM-14K",
+      "TS223558-4"
     ],
     "anchor": "Capacidades y datos publicados de la CM-14K",
     "position": "table",
@@ -626,6 +663,11 @@
       {
         "model": "CM-14K",
         "url": "https://meli.la/28Unx3L",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "TS223558-4",
+        "url": "https://meli.la/194gVdS",
         "cta": "Ver precio →"
       }
     ],
@@ -658,7 +700,8 @@
   "/sierras/sensitivas-total/": {
     "file": "29-sensitiva-total.md",
     "models": [
-      "TS223558-4"
+      "TS223558-4",
+      "CM-14K"
     ],
     "anchor": "TS223558 vs TS223558-4: qué sabemos realmente",
     "position": "section",
@@ -666,6 +709,11 @@
       {
         "model": "TS223558-4",
         "url": "https://meli.la/194gVdS",
+        "cta": "Ver precio →"
+      },
+      {
+        "model": "CM-14K",
+        "url": "https://meli.la/28Unx3L",
         "cta": "Ver precio →"
       }
     ],

@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 61. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Evaluación registrada de selección y comparación: 179. Cada registro indica su alcance: lectura editorial o evaluación de tablas y modelos. No equivale a certificar todas las cifras ni el stock; los controles de imágenes e interacciones se conservan por separado.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -80,18 +80,128 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 
 ## Tanda fuentes-generales-01
 
-- [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/): Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.
 - [/sierras/sierra-circular-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/): Lectura completa: cuatro modelos por plataforma, disco y kit; conserva discrepancia Einhell 184/190 y no inventa autonomía comparable. Se corrige la URL oficial DHS710Z; la ficha confirma LXT 2 x 18 V, 4800 rpm y herramienta sin batería/cargador.
 
 ## Tanda fuentes-generales-02
 
 - [/sierras/caladoras-skil/](https://www.tallerlab.com.ar/sierras/caladoras-skil/): Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.
 
+## Tanda generadores-02
+
+- [/generadores/precios/](https://www.tallerlab.com.ar/generadores/precios/): Leídos precios históricos, cuotas y modelos; corregido el pie que afirmaba que el enlace llevaba al precio capturado. La publicación muestra el precio vigente, que puede diferir del 28/09. No se actualizan capturas históricas como si fueran cotizaciones actuales.
+- [/generadores/honda/](https://www.tallerlab.com.ar/generadores/honda/): Leídos cinco Honda por tecnología, potencia, peso y autonomía. Contrastadas fichas EU22i, EU30is, EG6500CXS, EZ6500CXS y ET12000; conservar kVA, nominal/máximo y discrepancia 150/162 kg del ET12000. Especificaciones de las tarjetas centralizadas con fuentes primarias.
+- [/generadores/honda-6500/](https://www.tallerlab.com.ar/generadores/honda-6500/): Leída comparación EG6500CXS frente a EZ6500CXS, cálculos de marcha y arranque, regulación y autonomías. Fichas oficiales confirman 5/5,5 y 5,5/6,5 kVA; los ejemplos no garantizan arranque de una carga real.
+- [/generadores/para-casa/](https://www.tallerlab.com.ar/generadores/para-casa/): Leídos inventario doméstico, ejemplos de heladera y aire, cargas, ubicación y transferencia. Datos de marcha y arranque permanecen separados. Pendiente contraste completo del ejemplo LG, manual LG2500 y referencias de seguridad.
+- [/generadores/inverter/](https://www.tallerlab.com.ar/generadores/inverter/): Leída guía inverter completa. Comparador ampliado a seis modelos pertinentes: cuatro de la tabla más Gamma y EU30is. Fotos oficiales LGI3.8-8 y LGI11.0-9 incorporadas sin deformación. Dyllu retirado de esta guía porque solo era referencia de precio sin tecnología documentada; conserva su enlace en precios. Dos espacios de afiliado preparados.
+- [/generadores/trifasicos/](https://www.tallerlab.com.ar/generadores/trifasicos/): Leídos trifásicos, fórmulas, motor WEG, reparto por fase y tres referencias según uso. Honda ET12000 contrastado: 10/11 kVA trifásicos y 3×2,7/3,0 kVA monofásicos. Pendiente contraste completo de WEG, Generac MGG100M y Gamma por combustible.
+- [/generadores/a-nafta/](https://www.tallerlab.com.ar/generadores/a-nafta/): Leídos consumo, autonomía, combustibles y seis modelos a nafta. Corregida identidad LG3000/LG3000E: ambos sitios imprimen 4,8 kW además de 2,5/2,8 kVA, con arranques diferentes. Datos Honda y LGI3.8 contrastados; no se comparan horas sin carga común.
+- [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/): Leída Hyundai por potencia continua, variantes, precios fechados, servicio y fichas incompletas. HHY2200F oficial confirma 2000/2200 W; el enlace HHY2200 sin sufijo permanece apartado. No se atribuye la oferta HY7500LE a todos los modelos de su tramo.
+- [/generadores/gamma-6500/](https://www.tallerlab.com.ar/generadores/gamma-6500/): Leída guía de usados Gamma 6500 completa. Corregida contradicción sobre GE3481AR: el manual citado sí aporta 5,5 kW nominales y 6 kW máximos. Se mantienen separados GE3458 y GE3466AR; un solo enlace de alternativa nueva no se titula comparación plural.
+- [/generadores/lusqtoff/](https://www.tallerlab.com.ar/generadores/lusqtoff/): Leído mapa de gama convencional/inverter, tecnologías, garantía y precios históricos. Se distinguen LGI3.8 y LGIS3.8 motosoldadora. Contrastadas fichas LG3000 y LG3000E: corregidos tabla y texto, pues la discrepancia de 4,8 kW existe en ambos. Pendiente contraste completo de los demás códigos.
+- [/generadores/gamma/](https://www.tallerlab.com.ar/generadores/gamma/): Leída Gamma vigente/discontinuada, matriz de cargas, mantenimiento, precios y combustibles. No se equiparan kVA con kW ni potencia máxima con continua; pendiente contraste completo de trifuel, estacionarios e intervalos de manual.
+- [/generadores/monofasicos/](https://www.tallerlab.com.ar/generadores/monofasicos/): Leídos monofásicos, ejemplo PF, marcha/arranque, cinco modelos, tomas y límites. Cálculos 2420 VA/2112 W y 2800/220≈12,7 A consistentes; corriente global no autoriza cualquier toma. Fichas Honda contrastadas; Gamma pendiente de revisión completa de manual.
+- [/generadores/diesel/](https://www.tallerlab.com.ar/generadores/diesel/): Leídos diésel locales, curvas Pramac/Generac, mantenimiento y mono/tri. Retirado botón Daihatsu duplicado; conserva oferta en su fila. Dos fichas locales y referencias documentales comparan configuraciones distintas sin inventar stock. Pendiente contrastar manuales, curvas e identidad de variante.
+- [/generadores/portatiles/](https://www.tallerlab.com.ar/generadores/portatiles/): Leídos portátiles por peso, dimensiones, autonomía, traslado y aplicación. 17/21/28/59/118 kg no implican transporte manual común. Fichas EU22i, EU30is, Gamma inverter y LGI3.8 contrastadas. Pendiente contraste EU70is completo.
+- [/generadores/silenciosos/](https://www.tallerlab.com.ar/generadores/silenciosos/): Leído ruido por unidad, distancia, carga y presión/potencia acústica. Gamma publica dB sin ponderación; EU22i dB(A) a 7 m plena carga. No se construye ranking con protocolos distintos. Pendiente EU70is, LGI7.5 y referencia histórica completa.
+- [/generadores/gamma-950/](https://www.tallerlab.com.ar/generadores/gamma-950/): Leído Gamma 950 usado: nominal de manual, ficha ambigua, cargas, mezcla y cálculo de 1,5 L/h derivado sin ensayo. La alternativa LG950P es un modelo distinto. Pendiente contraste integral de manual GE3441AR y proporciones 2T.
+- [/generadores/niwa/](https://www.tallerlab.com.ar/generadores/niwa/): Leída Niwa 28-E/55-ER/70-ER, potencia, tomas, peso bruto, autonomía y precios. Diferencia 50490 pesos/4,3% y +20% nominal consistentes. El enlace 55-E sigue separado de 55-ER; no se traslada la foto ni potencia del ER al E. Pendiente contraste completo del catálogo y manual.
+- [/generadores/a-gas/](https://www.tallerlab.com.ar/generadores/a-gas/): Leídos gas GN/GLP, siete modelos, consumo por combustible, instalación y kit K1. Trifuel, estacionarios y conversión no se presentan como equivalentes. Pendiente contraste completo de Generac, manuales Gamma y caudales/presiones.
+- [/generadores/estacion-de-energia-portatil/](https://www.tallerlab.com.ar/generadores/estacion-de-energia-portatil/): Leídas estaciones Delta2/AC70/C1000 y variantes Max/P. Wh y W, pérdidas, EPS, entrada solar y región separados. Las ofertas Max y P no se atribuyen a Delta2 y AC70 de la tabla. Pendiente contraste completo de manuales y fichas regionales; no reutilizar sus fotos entre variantes.
+- [/generadores/chicos/](https://www.tallerlab.com.ar/generadores/chicos/): Leída comparación Pektra/Konan y alternativa LG950P. Recuperado enlace Pektra GPK980 ya suministrado; comparación de tres modelos con fotos y datos de evidencia propios. Konan y LG950P contrastados en fichas oficiales; Pektra conserva atribución comercial. Cada oferta aparece una vez.
+
+## Tanda generadores-comparaciones-02
+
+- [/generadores/comparativa-general/](https://www.tallerlab.com.ar/generadores/comparativa-general/): Evaluadas las selecciones y tablas: Elegí según tu necesidad; Tipos de generadores: qué comparar; Comparativa de marcas y modelos por escala de carga; Ofertas comerciales: datos que faltan confirmar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+
 ## Tanda hidrolavadoras-01
 
 - [/hidrolavadoras/profesionales/](https://www.tallerlab.com.ar/hidrolavadoras/profesionales/): Lectura completa: comparar por proceso y jornada, no por nombre profesional. Las tres configuraciones Comet y Niwa son cuatro referencias distintas por frío/caliente, alimentación y caudal. Mantener cuatro tarjetas; pedir ciclo sostenido, suministro y soporte por código, sin confundir máximos con trabajo continuo.
 - [/hidrolavadoras/200-bar/](https://www.tallerlab.com.ar/hidrolavadoras/200-bar/): Lectura completa: tres equipos principales, pero el comparador tenía sólo dos. Añadida Emona F 200 SKU 49292 con fuente y foto oficiales; 200 bar de salida no se equiparan a presión nominal, 21 L/min y 380 V trifásicos requieren instalación. KP Pro 150 queda como escalón menor; Annovi discontinuada y Omega Hynox 200 de 150 bar no son candidatos actuales de 200 bar. Corregida la disponibilidad de una oferta histórica cuyo enlace desapareció.
 - [/hidrolavadoras/hidrolavadora-para-aire-acondicionado/](https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/): Lectura completa: dos alternativas pertinentes C10 de enjuague y C30S con vapor; no agregar domésticas de alta presión. Presión, temperatura, boquilla y drenaje dependen del procedimiento del aire acondicionado. Mantener dos tarjetas y variantes de tensión separadas.
+
+## Tanda hidrolavadoras-02
+
+- [/hidrolavadoras/comparativa-general/](https://www.tallerlab.com.ar/hidrolavadoras/comparativa-general/): Leída matriz general por tarea, presión/caudal y alimentación. Corregido information_asset ajeno al contenido.
+- [/hidrolavadoras/inalambricas/](https://www.tallerlab.com.ar/hidrolavadoras/inalambricas/): Leída comparación LAPL3.6-8BK/UniversalAquatak 36V-100 y HYPRESSO. Incorporada Bosch al comparador con foto oficial de 6 KB; reemplazado enlace español 404 por ficha alemana del código 06008C7002 que responde 200. Plataformas, kit y región separados.
+- [/hidrolavadoras/lusqtoff/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff/): Leída gama HL-120/HL100-8/HL110-9/HL130-9 y alternativas. HL100-8 contrastado en manual oficial, p.5: 100/150 bar y 6/7,5 L/min; foto extraída de portada. Corregida derivación HL130-9 para no atribuirle 150 bar máximos.
+- [/hidrolavadoras/gamma/](https://www.tallerlab.com.ar/hidrolavadoras/gamma/): Leídas familias Gamma Elite, Master y Premium y matriz por tarea. Los modelos de compra representan escalones concretos, sin atribuirles accesorios de otros códigos.
+- [/hidrolavadoras/stihl/](https://www.tallerlab.com.ar/hidrolavadoras/stihl/): Leídos STIHL RE eléctricos y a batería. Comparador existente reúne RE80X/90/110/120/145/150 con fotos de sus fichas; RE90 afiliado de 60 Hz sigue separado del código argentino documentado.
+- [/hidrolavadoras/bosch/](https://www.tallerlab.com.ar/hidrolavadoras/bosch/): Leídos cuatro códigos Bosch argentinos. Completadas tarjetas GHP180/200/220/4-50 con sus fotos. Fichas oficiales contrastadas por presión de trabajo/máxima, caudal nominal/máximo, motor y manguera.
+- [/hidrolavadoras/black-decker/](https://www.tallerlab.com.ar/hidrolavadoras/black-decker/): Leída Black+Decker BEPW1300/1520/1520L/1800T/2200. Códigos PSI no se tratan como watts; variantes argentinas y manual regional separados. Pendiente enlace BEPW1800T exacto.
+- [/hidrolavadoras/karcher-k2/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/): Leída K2 Basic/Car por referencia, alcance, contenido y comparación K3. Fotos y ofertas Basic y Car separadas; no trasladar kit Home de otro mercado.
+- [/hidrolavadoras/karcher-k5/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/): Leída K5 base/Power Control frente a K4 PC. Comparador existente incluye tres códigos; diferencias de caudal, manguera, precios y stock fechados.
+- [/hidrolavadoras/gamma-150/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/): Leída Gamma150 G2514AR frente a G2513AR. Comparador de dos modelos con ficha y foto exactas; enlace Gamma150 pendiente.
+- [/hidrolavadoras/karcher-k3/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/): Leída K3 entre K2 y K4PC. Comparador existente incluye los tres equipos; manguera de repuesto no se atribuye al contenido de caja.
+- [/hidrolavadoras/einhell/](https://www.tallerlab.com.ar/hidrolavadoras/einhell/): Leída Einhell TC/TE e HYPRESSO. Separadas máquinas cableadas, presión media y Twin-Pack; máximo/permitido/trabajo y kit Solo diferenciados.
+- [/hidrolavadoras/gamma-130/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/): Leída Gamma130 G2513AR, usos, mantenimiento y salto a Gamma150. Dos opciones pertinentes; cifras de trabajo y admisibles separadas.
+- [/hidrolavadoras/hyundai/](https://www.tallerlab.com.ar/hidrolavadoras/hyundai/): Leídos siete Hyundai y alternativas BEPW2200/HDNW750. Identidad por título/SKU frente a slugs inconsistentes. Corregido texto erróneo presión de caudal promedio. Comparación documental múltiple en tablas, sin inventar ofertas.
+- [/hidrolavadoras/lusqtoff-hl-120/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/): Leída HL120 frente a HL150 eléctrica; no confundir con HL1500P. Dos tarjetas, fotos y fuentes propias; no inferir alcance incluido desde el repuesto.
+- [/hidrolavadoras/karcher-k4/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/): Leída K4 estándar/PC frente a K3/K5. Comparador ampliado a los cuatro códigos de la tabla, con fotos propias. Potencia del PC no publicada en ficha local permanece separada de comercios.
+- [/hidrolavadoras/150-bar/](https://www.tallerlab.com.ar/hidrolavadoras/150-bar/): Leída guía150bar completa: Gamma150,HL100-8,HDNW700,BEPW2200. Completado comparador de los cuatro con datos de trabajo/máximos; fotos oficiales nuevas y enlaces documentales activos.
+- [/hidrolavadoras/niwa/](https://www.tallerlab.com.ar/hidrolavadoras/niwa/): Leída Niwa doméstica/profesional/nafta, peso bruto, cambios de código y caudales inconsistentes HDNW750. Selección de compra HDNW300/500/700 corresponde al escalón doméstico; otras clases conservan fichas en tablas.
+- [/hidrolavadoras/karcher/](https://www.tallerlab.com.ar/hidrolavadoras/karcher/): Leída matriz central Kärcher K2–K5 y kits. Fotos/códigos distinguidos; K5 base documental separado de afiliado sin código. No extrapolar manguera de PC a base.
+- [/hidrolavadoras/para-autos/](https://www.tallerlab.com.ar/hidrolavadoras/para-autos/): Leídos equipos y combos para auto: K2Basic/Car/bundle/K3/HDNW500. No atribuir prestaciones del Basic a bundle distinto sin ficha; comparaciones y enlaces de tablas activos.
+
+## Tanda sierras-comparaciones-02
+
+- [/sierras/circulares/](https://www.tallerlab.com.ar/sierras/circulares/): Evaluadas las selecciones y tablas: Qué sierra circular elegir según el trabajo; Compará los modelos y consultá sus enlaces; Capacidades documentadas de tres modelos. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sensitivas/](https://www.tallerlab.com.ar/sierras/sensitivas/): Evaluadas las selecciones y tablas: Sensitiva o sierra sin fin para metal; Qué capacidad necesitás según la forma del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sable/](https://www.tallerlab.com.ar/sierras/sable/): Evaluadas las selecciones y tablas: Cómo elegir la hoja. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/caladoras/](https://www.tallerlab.com.ar/sierras/caladoras/): Evaluadas las selecciones y tablas: La hoja importa tanto como la máquina; Qué caladora elegir según el trabajo; Capacidad publicada de tres modelos; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sierra-sin-fin-para-madera/](https://www.tallerlab.com.ar/sierras/sierra-sin-fin-para-madera/): Evaluadas las selecciones y tablas: Compará los modelos y consultá sus enlaces; Qué cinta necesitás según el trabajo; Sierra sin fin o sierra de banco. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/de-banco/](https://www.tallerlab.com.ar/sierras/de-banco/): Evaluadas las selecciones y tablas: Qué sierra de banco elegir según el tamaño de pieza; Compará los modelos y consultá sus enlaces; Sierra de banco, circular o ingletadora. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sin-fin-metal/](https://www.tallerlab.com.ar/sierras/sin-fin-metal/): Evaluadas las selecciones y tablas: Portátil o de banco; Compará los modelos y consultá sus enlaces; Capacidad según perfil; Velocidad y dientes de cinta. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/ingletadoras-einhell/](https://www.tallerlab.com.ar/sierras/ingletadoras-einhell/): Dos modelos fija/deslizante; se agregó TC-SM2131/2 Dual 4300390 al bloque con enlace oficial. Espacio de afiliado preparado.
+- [/sierras/de-banco-einhell/](https://www.tallerlab.com.ar/sierras/de-banco-einhell/): Evaluadas las selecciones y tablas: Cuál elegir según tamaño de pieza y espacio; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/guia-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/guia-para-sierra-circular/): Evaluadas las selecciones y tablas: Guía paralela, regla y riel: no son lo mismo; Compatibilidad con GKS150, DWE560 y SC16; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sensitivas-dewalt/](https://www.tallerlab.com.ar/sierras/sensitivas-dewalt/): Evaluadas las selecciones y tablas: D28720 o D28730: cuál tiene sentido según el trabajo; Capacidad según la geometría del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/ingletadoras-dewalt/](https://www.tallerlab.com.ar/sierras/ingletadoras-dewalt/): Evaluadas las selecciones y tablas: Fija o telescópica: cuándo compensa la DWS780; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/ingletadoras-total/](https://www.tallerlab.com.ar/sierras/ingletadoras-total/): Dos códigos distintos TS42142107/TS42182553; segundo modelo agregado con catálogo. No sustituir por TS42182552. Espacio de afiliado preparado.
+- [/sierras/disco-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/disco-para-sierra-circular/): Evaluadas las selecciones y tablas: Qué disco usar según el corte; Consultá precio y disponibilidad del modelo; Qué disco usar para cortar melamina; Compatibilidad: diámetro, eje y RPM. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/bosch-gks-150/](https://www.tallerlab.com.ar/sierras/bosch-gks-150/): Tres modelos del cuadro ahora tienen oferta: GKS150/DWE560/SC16. Diámetro y eje específicos; no intercambiables.
+- [/sierras/circulares-black-decker/](https://www.tallerlab.com.ar/sierras/circulares-black-decker/): CS1004-AR/CS1350P-AR; segundo modelo agregado con manual regional. No confundir con variantes BR de127V. Espacio de afiliado preparado.
+- [/sierras/caladoras-einhell/](https://www.tallerlab.com.ar/sierras/caladoras-einhell/): Evaluadas las selecciones y tablas: Tres caladoras Einhell según alimentación y capacidad; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sierra-sable-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-sable-inalambrica/): Evaluadas las selecciones y tablas: Cuándo conviene inalámbrica frente a cable; Compará los modelos y consultá sus enlaces; Máquina sola o kit; Qué hoja y capacidad necesitás. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/circulares-lusqtoff/](https://www.tallerlab.com.ar/sierras/circulares-lusqtoff/): Evaluadas las selecciones y tablas: CSL1500-8 y SCL2200-8: capacidades documentadas; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/ingletadoras/](https://www.tallerlab.com.ar/sierras/ingletadoras/): Evaluadas las selecciones y tablas: Fija o telescópica; Qué disco necesita cada material; Metal ≠ lo mismo: ingletadora y sensitiva; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sierra-caladora-bosch/](https://www.tallerlab.com.ar/sierras/sierra-caladora-bosch/): Evaluadas las selecciones y tablas: Comparación de GST 650, GST 680 y GST 185-LI; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sierra-circular-dewalt-dwe560/](https://www.tallerlab.com.ar/sierras/sierra-circular-dewalt-dwe560/): Tres modelos del cuadro ahora tienen oferta: DWE560/GKS150/SC16; capacidades desconocidas del DWE no se completan desde otra variante.
+- [/sierras/stanley-sc16/](https://www.tallerlab.com.ar/sierras/stanley-sc16/): Tres modelos del cuadro ahora tienen oferta: SC16/GKS150/DWE560; discrepancia180/190mm permanece atribuida a documentos, sin montar un disco por inferencia.
+- [/sierras/caladoras-black-decker/](https://www.tallerlab.com.ar/sierras/caladoras-black-decker/): Evaluadas las selecciones y tablas: BES603: capacidad, velocidad y variante; Consultá precio y disponibilidad del modelo. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/de-banco-lusqtoff/](https://www.tallerlab.com.ar/sierras/de-banco-lusqtoff/): Evaluadas las selecciones y tablas: Tres códigos de banco y una discrepancia documental; Compará los modelos y consultá sus enlaces; Qué está confirmado, contradicho y no informado; Si tu prioridad es X, qué dato tenés que mirar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sensitivas-lusqtoff/](https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/): Añadida alternativa TOTAL de355mm para comparar geometría y consumible. CM14K-9 discontinuada no recibe kit/peso CM-14K.
+- [/sierras/sin-fin-lusqtoff/](https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/): Evaluadas las selecciones y tablas: SFL250-8 vs SFL300-8 vs SFL1100-9; Compará los modelos y consultá sus enlaces; Cuál elegir según altura y garganta; Modelos actuales y discontinuados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/sierras/sensitivas-total/](https://www.tallerlab.com.ar/sierras/sensitivas-total/): Añadida alternativa CM-14K de355mm; código base TS223558 no se equipara al sufijo-4 sin placa. Ambas ofertas y fotos ya registradas.
+
+## Tanda soldadoras-comparaciones-02
+
+- [/soldadoras/](https://www.tallerlab.com.ar/soldadoras/): Evaluadas las selecciones y tablas: Qué soldadora elegir según el trabajo. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff SML120-8DK; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/electrodo-7018/](https://www.tallerlab.com.ar/soldadoras/electrodo-7018/): Evaluadas las selecciones y tablas: Cuándo conviene usar 7018; Diámetros y amperaje según fabricante. Opciones de compra: Conarco 7018 Punta Verde · 2,5 mm × 1 kg; Conarco 7018 Punta Verde · 3,2 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/lusqtoff/](https://www.tallerlab.com.ar/soldadoras/lusqtoff/): Evaluadas las selecciones y tablas: MMA; MIG/MAG con gas; Flux; TIG. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; Lüsqtoff MIGDUAL200-9; Lüsqtoff SML120-8DK. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-de-punto/](https://www.tallerlab.com.ar/soldadoras/soldadora-de-punto/): Evaluadas las selecciones y tablas: Equipos específicos para pestañas de baterías; Equipos para chapa y carrocería. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-mig-con-gas/](https://www.tallerlab.com.ar/soldadoras/soldadora-mig-con-gas/): Evaluadas las selecciones y tablas: Potencia y ciclo de trabajo; Gas, alambre y accesorios necesarios; Comparativa y costo del equipo completo. Opciones de compra: ESAB HandyArc MIG 160i; Lüsqtoff MIGDUAL200-9. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/guantes/](https://www.tallerlab.com.ar/soldadoras/guantes/): Evaluadas las selecciones y tablas: Prioridad según el proceso; Materiales y protección. Opciones de compra: ESAB · Heavy Duty Black; ESAB · TIG Basic · 0700500460; ESAB · Heavy Duty EXL · 0700500432 / 0700500433. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/tig/](https://www.tallerlab.com.ar/soldadoras/tig/): Comparación DC/ACDC y red220/380. ST200 discontinuado conserva referencia documental; SmartTIG alternativaACDC. No inferir AC desde palabraTIG.
+- [/soldadoras/mig-sin-gas/](https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/): Evaluadas las selecciones y tablas: Ventajas y limitaciones; Comparativa de equipos y kits. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/mascaras-fotosensibles/](https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/): Evaluadas las selecciones y tablas: cuadro inicial; Oscurecimiento y compatibilidad con el proceso; Modelos y qué comparar. Opciones de compra: Lüsqtoff ST-1N; Lüsqtoff ST-1E; Lüsqtoff ST-1B. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/electrodo-6013/](https://www.tallerlab.com.ar/soldadoras/electrodo-6013/): Evaluadas las selecciones y tablas: Usos del E6013 y cuándo elegirlo frente al E7018; Diámetro y amperaje según fabricante. Opciones de compra: Conarco 6013 13A Punta Azul · 2,50 mm × 5 kg; Conarco 6013 13A Punta Azul · 3,25 mm × 5 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-inverter-200-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/): Evaluadas las selecciones y tablas: 200 A máximos no significan 200 A continuos; Qué trabajos permite cada equipo; Amperaje declarado y ciclo de trabajo; Modelos y qué comparar. Opciones de compra: Lüsqtoff SLCEL200-9 Black Series; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/alambre-flux/](https://www.tallerlab.com.ar/soldadoras/alambre-flux/): Evaluadas las selecciones y tablas: 0,8 vs. 0,9 mm: compará todo el sistema; Opciones de compra y bobinas. Opciones de compra: ESAB Gas Free E71T-GS · 0,8 mm × 5 kg; Bremen 7992 AWS E71T-GS · 0,8 mm × 1 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-dogo-180/](https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/): Evaluadas las selecciones y tablas: Ficha técnica y ciclo de trabajo; Para qué usos conviene; Comparación contextual con Dogo 160 y 200. Opciones de compra: Dogo Dogostar 180 Moderna; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 200 Moderna DOG50046. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/esab/](https://www.tallerlab.com.ar/soldadoras/esab/): Evaluadas las selecciones y tablas: MMA; MIG; TIG. Opciones de compra: ESAB HandyArc 162i; ESAB HandyArc MIG 160i; ESAB ET 200i AC/DC. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/electrodo-para-acero-inoxidable/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-acero-inoxidable/): Evaluadas las selecciones y tablas: Metal base o unión → familia de aporte orientativa; Diferencias entre clasificaciones; Diámetro y compatibilidad; Comparativa de referencias documentadas. Opciones de compra: Lastrade Infinity E308L-16 · 3,2 mm × 2 kg; AWS A5.4 E316L-16 · 3,2 mm × 2 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/para-aluminio/](https://www.tallerlab.com.ar/soldadoras/para-aluminio/): Evaluadas las selecciones y tablas: TIG vs MIG para aluminio; Equipo según espesor y trabajo; Referencias de equipo documentadas; Comparativa del costo completo. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/lusqtoff-iron-250/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-250/): Evaluadas las selecciones y tablas: Versión y especificaciones verificadas; Accesorios, alternativas y qué comparar. Opciones de compra: Lüsqtoff MEGAIRON250 + máscara + kit; Dogo Dogostar 180 Moderna; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-tig-ac-dc/](https://www.tallerlab.com.ar/soldadoras/soldadora-tig-ac-dc/): Evaluadas las selecciones y tablas: Balance, frecuencia y pulso; Modelos y qué comparar; Modelos y qué comparar. Opciones de compra: ESAB ET 200i AC/DC; Lüsqtoff Smart TIG-ACDC-20; Lüsqtoff TIG350ACDC-9 Black Series. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/soldadora-inverter-160-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-160-amp/): Evaluadas las selecciones y tablas: Electrodos y ciclo de trabajo; Cuándo conviene pasar a 200 A; Modelos, kits y qué comparar. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; ESAB HandyArc MIG 160i. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/lusqtoff-iron-100/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-100/): Evaluadas las selecciones y tablas: cuadro inicial; Comparación con Iron 250 y HandyArc 162i. Opciones de compra: Lüsqtoff Mega Iron 100 + máscara; Lüsqtoff MEGAIRON250 + máscara + kit; ESAB HandyArc 162i. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/mig-lusqtoff/](https://www.tallerlab.com.ar/soldadoras/mig-lusqtoff/): Evaluadas las selecciones y tablas: Comparativa de la familia SML. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/lusqtoff-sml150-8/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml150-8/): SML150-8/8D por proceso, ciclo y discontinuación; compra 8D y alternativa120DK sin atribuirle la generación8.
+- [/soldadoras/lusqtoff-sml120-8d/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml120-8d/): Evaluadas las selecciones y tablas: SML120-8D vs SML120-8DK. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/carro-para-soldadora-mig/](https://www.tallerlab.com.ar/soldadoras/carro-para-soldadora-mig/): Evaluadas las selecciones y tablas: cuadro inicial; cuadro inicial. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/esab-handyarc-162i/](https://www.tallerlab.com.ar/soldadoras/esab-handyarc-162i/): Evaluadas las selecciones y tablas: Especificaciones técnicas y ciclo de trabajo; Qué revisar antes de comprar; Cruce práctico con electrodos 6013 y 7018. Opciones de compra: ESAB HandyArc 162i; Dogo Dogostar STAR 160 · DOG50044; Dogo Dogostar 180 Moderna. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/mascara-lusqtoff-st-1x/](https://www.tallerlab.com.ar/soldadoras/mascara-lusqtoff-st-1x/): Evaluadas las selecciones y tablas: Qué comprobar antes de comprar una ST-1X. Opciones de compra: Lüsqtoff ST-1B; Lüsqtoff ST-1X. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/soldadoras/lusqtoff-sml130-7/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml130-7/): Evaluadas las selecciones y tablas: cuadro inicial; Cuándo conviene pasar a una alternativa actual. Opciones de compra: Lüsqtoff SML120-8DK; Lüsqtoff SML150-8D. La elección conserva clases, variantes y aplicaciones documentadas por separado.
 
 ## Tanda soldadura-electronica-01
 
@@ -100,6 +210,32 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/soldadura-electronica/gadnic-878d/](https://www.tallerlab.com.ar/soldadura-electronica/gadnic-878d/): Lectura completa y contraste GadnicSOLD0002actual: título/tablapotencia370W, descripciónsetecientoscincuentawatts,220V100–450°Caire200–480°Ccautín120L/min2,3kg. Discrepancia externa sigue real; no trasladar datoYiHUA. Los accesorios de ficha coinciden. Mantener oferta de Gadnic separada de YiHUA por identidad; revisión visual/lectura completa de manual para resolución pendiente.
 - [/soldadura-electronica/yihua-898d/](https://www.tallerlab.com.ar/soldadura-electronica/yihua-898d/): Lectura completa y contraste de todos los parámetros tabulados con fabricante:730W,220V±10%50Hz,650Waire,50/75Wcautín,100–480/200–480°C,120L/min,2,65kg,±5°Cestática y accesorios5/8/10mm. Corregida inferencia universal de mayor rango que878D: páginas española/inglesa878Ddiscrepan450/480°C. Preservar variantes898D/898D+ y no prometer térmica real/kit vendedor.
 - [/soldadura-electronica/soporte-para-soldar-con-lupa/](https://www.tallerlab.com.ar/soldadura-electronica/soporte-para-soldar-con-lupa/): Lectura completa y contraste Proskit608391E60mm3X8Dbase55×55×35vidriohierrofundido y dosbrazos; WellerWLACCHHB02dos pinzas4way4X. VellemanVTHH3N3AAAsegún declaración, sin atribuir aumento no publicado. Pendiente visualPDFdeclaración por fallo de screenshot. Oferta genérica anterior no identificada por modelo: conservar separación sin atribuirle características de estos tres productos.
+
+## Tanda taladros-comparaciones-02
+
+- [/taladros/inalambricos/](https://www.tallerlab.com.ar/taladros/inalambricos/): Evaluadas las selecciones y tablas: Modelos según uso y nivel de exigencia; Comparar por marca/plataforma; Referencias para comparar especificaciones; Qué incluye cada kit y dónde comprar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/rotomartillos/](https://www.tallerlab.com.ar/taladros/rotomartillos/): Evaluadas las selecciones y tablas: Joules, encastre y modos de trabajo; Modelos para casa y obra; Comparativas por marca; Comparativa de equipos y precios. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/percutores/](https://www.tallerlab.com.ar/taladros/percutores/): Evaluadas las selecciones y tablas: Qué elegir para ladrillo, madera y metal; Modelos con cable y a batería. Opciones de compra: Bosch · GSB 550 RE; Bosch · GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/taladro-de-banco/](https://www.tallerlab.com.ar/taladros/taladro-de-banco/): TB-16 y TBL710-9D por recorrido, rpm, mesa y régimen S2; la oferta TBL16-7 requiere su código propio, no se equipara sin placa.
+- [/taladros/atornilladores-de-impacto/](https://www.tallerlab.com.ar/taladros/atornilladores-de-impacto/): Evaluadas las selecciones y tablas: Diferencias con un taladro atornillador; Puntas compatibles y accesorios; Comparativa de modelos y kits. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/rotomartillo-bosch/](https://www.tallerlab.com.ar/taladros/rotomartillo-bosch/): GBH220/2-26/18V26/8-45 por energía y encastre. GBH180-LI es otra alternativa a batería; no recibe los 2,5 J del GBH18V26.
+- [/taladros/taladro-percutor-inalambrico/](https://www.tallerlab.com.ar/taladros/taladro-percutor-inalambrico/): Evaluadas las selecciones y tablas: Modelos con percusión: capacidad, plataforma y configuración. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/para-durlock/](https://www.tallerlab.com.ar/taladros/para-durlock/): Evaluadas las selecciones y tablas: cuadro inicial. Opciones de compra: Bosch GTB 650; DeWalt DCF620B. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/black-decker/](https://www.tallerlab.com.ar/taladros/black-decker/): Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos. Opciones de compra: Black+Decker BCD702C1-AR; Black+Decker BLD783D1. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/rotomartillo-einhell/](https://www.tallerlab.com.ar/taladros/rotomartillo-einhell/): Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: Einhell TC-RH 620 4F; Einhell TE-RH 28/1 5F. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/rotomartillo-dewalt/](https://www.tallerlab.com.ar/taladros/rotomartillo-dewalt/): Evaluadas las selecciones y tablas: Modelos según exigencia. Opciones de compra: DeWalt · DCH273B; DeWalt · DCH133B; DeWalt · D25333K-QS. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/einhell-inalambrico/](https://www.tallerlab.com.ar/taladros/einhell-inalambrico/): Evaluadas las selecciones y tablas: TE-CD 18/40 y TP-CD 18/50: sin y con percusión. Opciones de compra: Einhell TE-CD 18/40 Li Solo; Einhell TP-CD 18/50 Li- BL Solo · sufijo a confirmar. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/dewalt-inalambrico/](https://www.tallerlab.com.ar/taladros/dewalt-inalambrico/): DCD794B, DCD796D2-AR y DCD805D2 por percusión, kit y región. Oferta DCD805B es cuerpo, no kit D2.
+- [/taladros/mecha-porcelanato/](https://www.tallerlab.com.ar/taladros/mecha-porcelanato/): Evaluadas las selecciones y tablas: Tipos de broca para porcelanato; Diámetro y compatibilidad: cuál elegir; Refrigeración y errores frecuentes. Opciones de compra: Bosch EXPERT HEX-9 HardCeramic · 6 mm; RUBI EASYGRES · 6 mm · corte húmedo. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/milwaukee/](https://www.tallerlab.com.ar/taladros/milwaukee/): M12 3403/3404 y M18 3601/2904 por percusión, plataforma y peso. 2904-259A es bundle del 2904-20; no atribuirle otro cuerpo.
+- [/taladros/lusqtoff-inalambrico/](https://www.tallerlab.com.ar/taladros/lusqtoff-inalambrico/): Evaluadas las selecciones y tablas: Comparativa de modelos y prestaciones; Para qué trabajos conviene cada opción. Opciones de compra: Lüsqtoff TIL23-8B; Lüsqtoff TAL60-9B; Lüsqtoff TIL45131-8BK. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/brocas-ceramica/](https://www.tallerlab.com.ar/taladros/brocas-ceramica/): Evaluadas las selecciones y tablas: Tipos de punta y materiales compatibles. Opciones de compra: Bosch · CYL-9 · 6 mm · cerámica/azulejo; Bosch · EXPERT HEX-9 HardCeramic · 6 mm. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/stanley/](https://www.tallerlab.com.ar/taladros/stanley/): Evaluadas las selecciones y tablas: Modelos con cable e inalámbricos; Comparativa de kits y configuraciones. Opciones de compra: Stanley SDH700; Stanley SBD715C2K. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/atornillador-impacto-dewalt/](https://www.tallerlab.com.ar/taladros/atornillador-impacto-dewalt/): Evaluadas las selecciones y tablas: Diferencias entre modelos. Opciones de compra: DeWalt DCF887B; DeWalt DCF850B. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/bosch-inalambrico/](https://www.tallerlab.com.ar/taladros/bosch-inalambrico/): Evaluadas las selecciones y tablas: Diferencias entre GSR y GSB; GSR vs GSB vs GBH; Comparativa de modelos y kits. Opciones de compra: Bosch GSR 120-LI; Bosch GSB 18V-50. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/mechas-escalonadas/](https://www.tallerlab.com.ar/taladros/mechas-escalonadas/): Bosch 2608597524 y Högert HT6D323; afiliado Bosch 2608597519 conserva SKU diferente, sin asignarle los nueve pasos del 7524.
+- [/taladros/mecha-forstner-35-mm/](https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/): Evaluadas las selecciones y tablas: Producto para este trabajo; Qué revisar antes de perforar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
+- [/taladros/combo-taladro-amoladora/](https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/): Evaluadas las selecciones y tablas: Combos documentados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.
 
 
 ## Inventario por URL
@@ -154,137 +290,137 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/compresores/para-pintar/](https://www.tallerlab.com.ar/compresores/para-pintar/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/inflador-neumaticos-portatil/](https://www.tallerlab.com.ar/compresores/inflador-neumaticos-portatil/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/12v-doble-piston/](https://www.tallerlab.com.ar/compresores/12v-doble-piston/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
-| [/generadores/comparativa-general/](https://www.tallerlab.com.ar/generadores/comparativa-general/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/precios/](https://www.tallerlab.com.ar/generadores/precios/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/honda/](https://www.tallerlab.com.ar/generadores/honda/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/honda-6500/](https://www.tallerlab.com.ar/generadores/honda-6500/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/para-casa/](https://www.tallerlab.com.ar/generadores/para-casa/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/inverter/](https://www.tallerlab.com.ar/generadores/inverter/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/trifasicos/](https://www.tallerlab.com.ar/generadores/trifasicos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/a-nafta/](https://www.tallerlab.com.ar/generadores/a-nafta/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/) | Sin fallas detectadas | revisión editorial registrada |
-| [/generadores/gamma-6500/](https://www.tallerlab.com.ar/generadores/gamma-6500/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/lusqtoff/](https://www.tallerlab.com.ar/generadores/lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/gamma/](https://www.tallerlab.com.ar/generadores/gamma/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/monofasicos/](https://www.tallerlab.com.ar/generadores/monofasicos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/diesel/](https://www.tallerlab.com.ar/generadores/diesel/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/portatiles/](https://www.tallerlab.com.ar/generadores/portatiles/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/silenciosos/](https://www.tallerlab.com.ar/generadores/silenciosos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/gamma-950/](https://www.tallerlab.com.ar/generadores/gamma-950/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/niwa/](https://www.tallerlab.com.ar/generadores/niwa/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/a-gas/](https://www.tallerlab.com.ar/generadores/a-gas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/estacion-de-energia-portatil/](https://www.tallerlab.com.ar/generadores/estacion-de-energia-portatil/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/generadores/chicos/](https://www.tallerlab.com.ar/generadores/chicos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/comparativa-general/](https://www.tallerlab.com.ar/hidrolavadoras/comparativa-general/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/inalambricas/](https://www.tallerlab.com.ar/hidrolavadoras/inalambricas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/lusqtoff/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/gamma/](https://www.tallerlab.com.ar/hidrolavadoras/gamma/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/stihl/](https://www.tallerlab.com.ar/hidrolavadoras/stihl/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/bosch/](https://www.tallerlab.com.ar/hidrolavadoras/bosch/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/black-decker/](https://www.tallerlab.com.ar/hidrolavadoras/black-decker/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/karcher-k2/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/karcher-k5/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/gamma-150/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/generadores/comparativa-general/](https://www.tallerlab.com.ar/generadores/comparativa-general/) | Sin fallas detectadas | revisión editorial registrada |
+| [/generadores/precios/](https://www.tallerlab.com.ar/generadores/precios/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/honda/](https://www.tallerlab.com.ar/generadores/honda/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/honda-6500/](https://www.tallerlab.com.ar/generadores/honda-6500/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/para-casa/](https://www.tallerlab.com.ar/generadores/para-casa/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/inverter/](https://www.tallerlab.com.ar/generadores/inverter/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/trifasicos/](https://www.tallerlab.com.ar/generadores/trifasicos/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/a-nafta/](https://www.tallerlab.com.ar/generadores/a-nafta/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/hyundai/](https://www.tallerlab.com.ar/generadores/hyundai/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/gamma-6500/](https://www.tallerlab.com.ar/generadores/gamma-6500/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/lusqtoff/](https://www.tallerlab.com.ar/generadores/lusqtoff/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/gamma/](https://www.tallerlab.com.ar/generadores/gamma/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/monofasicos/](https://www.tallerlab.com.ar/generadores/monofasicos/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/diesel/](https://www.tallerlab.com.ar/generadores/diesel/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/portatiles/](https://www.tallerlab.com.ar/generadores/portatiles/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/silenciosos/](https://www.tallerlab.com.ar/generadores/silenciosos/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/gamma-950/](https://www.tallerlab.com.ar/generadores/gamma-950/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/niwa/](https://www.tallerlab.com.ar/generadores/niwa/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/a-gas/](https://www.tallerlab.com.ar/generadores/a-gas/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/estacion-de-energia-portatil/](https://www.tallerlab.com.ar/generadores/estacion-de-energia-portatil/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/generadores/chicos/](https://www.tallerlab.com.ar/generadores/chicos/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
+| [/hidrolavadoras/comparativa-general/](https://www.tallerlab.com.ar/hidrolavadoras/comparativa-general/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/inalambricas/](https://www.tallerlab.com.ar/hidrolavadoras/inalambricas/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/lusqtoff/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/gamma/](https://www.tallerlab.com.ar/hidrolavadoras/gamma/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/stihl/](https://www.tallerlab.com.ar/hidrolavadoras/stihl/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/bosch/](https://www.tallerlab.com.ar/hidrolavadoras/bosch/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/black-decker/](https://www.tallerlab.com.ar/hidrolavadoras/black-decker/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/karcher-k2/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k2/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/karcher-k5/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k5/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/gamma-150/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-150/) | Sin fallas detectadas | revisión editorial registrada |
 | [/hidrolavadoras/profesionales/](https://www.tallerlab.com.ar/hidrolavadoras/profesionales/) | Sin fallas detectadas | revisión editorial registrada |
-| [/hidrolavadoras/karcher-k3/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/einhell/](https://www.tallerlab.com.ar/hidrolavadoras/einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/gamma-130/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/hyundai/](https://www.tallerlab.com.ar/hidrolavadoras/hyundai/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/lusqtoff-hl-120/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/karcher-k4/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/150-bar/](https://www.tallerlab.com.ar/hidrolavadoras/150-bar/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/hidrolavadoras/karcher-k3/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k3/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/einhell/](https://www.tallerlab.com.ar/hidrolavadoras/einhell/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/gamma-130/](https://www.tallerlab.com.ar/hidrolavadoras/gamma-130/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/hyundai/](https://www.tallerlab.com.ar/hidrolavadoras/hyundai/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/lusqtoff-hl-120/](https://www.tallerlab.com.ar/hidrolavadoras/lusqtoff-hl-120/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/karcher-k4/](https://www.tallerlab.com.ar/hidrolavadoras/karcher-k4/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/150-bar/](https://www.tallerlab.com.ar/hidrolavadoras/150-bar/) | Sin fallas detectadas | revisión editorial registrada |
 | [/hidrolavadoras/200-bar/](https://www.tallerlab.com.ar/hidrolavadoras/200-bar/) | Sin fallas detectadas | revisión editorial registrada |
-| [/hidrolavadoras/niwa/](https://www.tallerlab.com.ar/hidrolavadoras/niwa/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/karcher/](https://www.tallerlab.com.ar/hidrolavadoras/karcher/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/hidrolavadoras/para-autos/](https://www.tallerlab.com.ar/hidrolavadoras/para-autos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/hidrolavadoras/niwa/](https://www.tallerlab.com.ar/hidrolavadoras/niwa/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/karcher/](https://www.tallerlab.com.ar/hidrolavadoras/karcher/) | Sin fallas detectadas | revisión editorial registrada |
+| [/hidrolavadoras/para-autos/](https://www.tallerlab.com.ar/hidrolavadoras/para-autos/) | Sin fallas detectadas | revisión editorial registrada |
 | [/hidrolavadoras/hidrolavadora-para-aire-acondicionado/](https://www.tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/) | Sin fallas detectadas | revisión editorial registrada |
-| [/sierras/circulares/](https://www.tallerlab.com.ar/sierras/circulares/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sensitivas/](https://www.tallerlab.com.ar/sierras/sensitivas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sable/](https://www.tallerlab.com.ar/sierras/sable/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/caladoras/](https://www.tallerlab.com.ar/sierras/caladoras/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sierra-sin-fin-para-madera/](https://www.tallerlab.com.ar/sierras/sierra-sin-fin-para-madera/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/de-banco/](https://www.tallerlab.com.ar/sierras/de-banco/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sin-fin-metal/](https://www.tallerlab.com.ar/sierras/sin-fin-metal/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/ingletadoras-einhell/](https://www.tallerlab.com.ar/sierras/ingletadoras-einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/de-banco-einhell/](https://www.tallerlab.com.ar/sierras/de-banco-einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/sierras/circulares/](https://www.tallerlab.com.ar/sierras/circulares/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sensitivas/](https://www.tallerlab.com.ar/sierras/sensitivas/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sable/](https://www.tallerlab.com.ar/sierras/sable/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/caladoras/](https://www.tallerlab.com.ar/sierras/caladoras/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sierra-sin-fin-para-madera/](https://www.tallerlab.com.ar/sierras/sierra-sin-fin-para-madera/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/de-banco/](https://www.tallerlab.com.ar/sierras/de-banco/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sin-fin-metal/](https://www.tallerlab.com.ar/sierras/sin-fin-metal/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/ingletadoras-einhell/](https://www.tallerlab.com.ar/sierras/ingletadoras-einhell/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/de-banco-einhell/](https://www.tallerlab.com.ar/sierras/de-banco-einhell/) | Sin fallas detectadas | revisión editorial registrada |
 | [/sierras/caladoras-skil/](https://www.tallerlab.com.ar/sierras/caladoras-skil/) | Sin fallas detectadas | revisión editorial registrada |
-| [/sierras/guia-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/guia-para-sierra-circular/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sensitivas-dewalt/](https://www.tallerlab.com.ar/sierras/sensitivas-dewalt/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/ingletadoras-dewalt/](https://www.tallerlab.com.ar/sierras/ingletadoras-dewalt/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/ingletadoras-total/](https://www.tallerlab.com.ar/sierras/ingletadoras-total/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/disco-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/disco-para-sierra-circular/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/bosch-gks-150/](https://www.tallerlab.com.ar/sierras/bosch-gks-150/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/circulares-black-decker/](https://www.tallerlab.com.ar/sierras/circulares-black-decker/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/caladoras-einhell/](https://www.tallerlab.com.ar/sierras/caladoras-einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sierra-sable-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-sable-inalambrica/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/circulares-lusqtoff/](https://www.tallerlab.com.ar/sierras/circulares-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/ingletadoras/](https://www.tallerlab.com.ar/sierras/ingletadoras/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sierra-caladora-bosch/](https://www.tallerlab.com.ar/sierras/sierra-caladora-bosch/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sierra-circular-dewalt-dwe560/](https://www.tallerlab.com.ar/sierras/sierra-circular-dewalt-dwe560/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/stanley-sc16/](https://www.tallerlab.com.ar/sierras/stanley-sc16/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/caladoras-black-decker/](https://www.tallerlab.com.ar/sierras/caladoras-black-decker/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/de-banco-lusqtoff/](https://www.tallerlab.com.ar/sierras/de-banco-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sensitivas-lusqtoff/](https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sin-fin-lusqtoff/](https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/sierras/sensitivas-total/](https://www.tallerlab.com.ar/sierras/sensitivas-total/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/sierras/guia-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/guia-para-sierra-circular/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sensitivas-dewalt/](https://www.tallerlab.com.ar/sierras/sensitivas-dewalt/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/ingletadoras-dewalt/](https://www.tallerlab.com.ar/sierras/ingletadoras-dewalt/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/ingletadoras-total/](https://www.tallerlab.com.ar/sierras/ingletadoras-total/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/disco-para-sierra-circular/](https://www.tallerlab.com.ar/sierras/disco-para-sierra-circular/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/bosch-gks-150/](https://www.tallerlab.com.ar/sierras/bosch-gks-150/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/circulares-black-decker/](https://www.tallerlab.com.ar/sierras/circulares-black-decker/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/caladoras-einhell/](https://www.tallerlab.com.ar/sierras/caladoras-einhell/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sierra-sable-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-sable-inalambrica/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/circulares-lusqtoff/](https://www.tallerlab.com.ar/sierras/circulares-lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/ingletadoras/](https://www.tallerlab.com.ar/sierras/ingletadoras/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sierra-caladora-bosch/](https://www.tallerlab.com.ar/sierras/sierra-caladora-bosch/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sierra-circular-dewalt-dwe560/](https://www.tallerlab.com.ar/sierras/sierra-circular-dewalt-dwe560/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/stanley-sc16/](https://www.tallerlab.com.ar/sierras/stanley-sc16/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/caladoras-black-decker/](https://www.tallerlab.com.ar/sierras/caladoras-black-decker/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/de-banco-lusqtoff/](https://www.tallerlab.com.ar/sierras/de-banco-lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sensitivas-lusqtoff/](https://www.tallerlab.com.ar/sierras/sensitivas-lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sin-fin-lusqtoff/](https://www.tallerlab.com.ar/sierras/sin-fin-lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/sierras/sensitivas-total/](https://www.tallerlab.com.ar/sierras/sensitivas-total/) | Sin fallas detectadas | revisión editorial registrada |
 | [/sierras/sierra-circular-inalambrica/](https://www.tallerlab.com.ar/sierras/sierra-circular-inalambrica/) | Sin fallas detectadas | revisión editorial registrada |
-| [/soldadoras/](https://www.tallerlab.com.ar/soldadoras/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/electrodo-7018/](https://www.tallerlab.com.ar/soldadoras/electrodo-7018/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff/](https://www.tallerlab.com.ar/soldadoras/lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-de-punto/](https://www.tallerlab.com.ar/soldadoras/soldadora-de-punto/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-mig-con-gas/](https://www.tallerlab.com.ar/soldadoras/soldadora-mig-con-gas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/guantes/](https://www.tallerlab.com.ar/soldadoras/guantes/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/tig/](https://www.tallerlab.com.ar/soldadoras/tig/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/mig-sin-gas/](https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/soldadoras/](https://www.tallerlab.com.ar/soldadoras/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/electrodo-7018/](https://www.tallerlab.com.ar/soldadoras/electrodo-7018/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff/](https://www.tallerlab.com.ar/soldadoras/lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-de-punto/](https://www.tallerlab.com.ar/soldadoras/soldadora-de-punto/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-mig-con-gas/](https://www.tallerlab.com.ar/soldadoras/soldadora-mig-con-gas/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/guantes/](https://www.tallerlab.com.ar/soldadoras/guantes/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/tig/](https://www.tallerlab.com.ar/soldadoras/tig/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/mig-sin-gas/](https://www.tallerlab.com.ar/soldadoras/mig-sin-gas/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadoras/alambre-para-soldadura-mig/](https://www.tallerlab.com.ar/soldadoras/alambre-para-soldadura-mig/) | Sin fallas detectadas | revisión editorial registrada |
-| [/soldadoras/mascaras-fotosensibles/](https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/electrodo-6013/](https://www.tallerlab.com.ar/soldadoras/electrodo-6013/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-inverter-200-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/soldadoras/mascaras-fotosensibles/](https://www.tallerlab.com.ar/soldadoras/mascaras-fotosensibles/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/electrodo-6013/](https://www.tallerlab.com.ar/soldadoras/electrodo-6013/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-inverter-200-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-200-amp/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadoras/electrodo-para-fundicion/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-fundicion/) | Sin fallas detectadas | revisión editorial registrada |
-| [/soldadoras/alambre-flux/](https://www.tallerlab.com.ar/soldadoras/alambre-flux/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-dogo-180/](https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/esab/](https://www.tallerlab.com.ar/soldadoras/esab/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/electrodo-para-acero-inoxidable/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-acero-inoxidable/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/para-aluminio/](https://www.tallerlab.com.ar/soldadoras/para-aluminio/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff-iron-250/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-250/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-tig-ac-dc/](https://www.tallerlab.com.ar/soldadoras/soldadora-tig-ac-dc/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/soldadora-inverter-160-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-160-amp/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff-iron-100/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-100/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/mig-lusqtoff/](https://www.tallerlab.com.ar/soldadoras/mig-lusqtoff/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff-sml150-8/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml150-8/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff-sml120-8d/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml120-8d/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/carro-para-soldadora-mig/](https://www.tallerlab.com.ar/soldadoras/carro-para-soldadora-mig/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/esab-handyarc-162i/](https://www.tallerlab.com.ar/soldadoras/esab-handyarc-162i/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/mascara-lusqtoff-st-1x/](https://www.tallerlab.com.ar/soldadoras/mascara-lusqtoff-st-1x/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/soldadoras/lusqtoff-sml130-7/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml130-7/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/soldadoras/alambre-flux/](https://www.tallerlab.com.ar/soldadoras/alambre-flux/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-dogo-180/](https://www.tallerlab.com.ar/soldadoras/soldadora-dogo-180/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/esab/](https://www.tallerlab.com.ar/soldadoras/esab/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/electrodo-para-acero-inoxidable/](https://www.tallerlab.com.ar/soldadoras/electrodo-para-acero-inoxidable/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/para-aluminio/](https://www.tallerlab.com.ar/soldadoras/para-aluminio/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff-iron-250/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-250/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-tig-ac-dc/](https://www.tallerlab.com.ar/soldadoras/soldadora-tig-ac-dc/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/soldadora-inverter-160-amp/](https://www.tallerlab.com.ar/soldadoras/soldadora-inverter-160-amp/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff-iron-100/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-iron-100/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/mig-lusqtoff/](https://www.tallerlab.com.ar/soldadoras/mig-lusqtoff/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff-sml150-8/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml150-8/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff-sml120-8d/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml120-8d/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/carro-para-soldadora-mig/](https://www.tallerlab.com.ar/soldadoras/carro-para-soldadora-mig/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/esab-handyarc-162i/](https://www.tallerlab.com.ar/soldadoras/esab-handyarc-162i/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/mascara-lusqtoff-st-1x/](https://www.tallerlab.com.ar/soldadoras/mascara-lusqtoff-st-1x/) | Sin fallas detectadas | revisión editorial registrada |
+| [/soldadoras/lusqtoff-sml130-7/](https://www.tallerlab.com.ar/soldadoras/lusqtoff-sml130-7/) | Sin fallas detectadas | revisión editorial registrada |
 | [/soldadura-electronica/kit-soldador-de-estano/](https://www.tallerlab.com.ar/soldadura-electronica/kit-soldador-de-estano/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/soldadura-electronica/estacion-de-soldadura/](https://www.tallerlab.com.ar/soldadura-electronica/estacion-de-soldadura/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/soldadura-electronica/gadnic-878d/](https://www.tallerlab.com.ar/soldadura-electronica/gadnic-878d/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/soldadura-electronica/yihua-898d/](https://www.tallerlab.com.ar/soldadura-electronica/yihua-898d/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/soldadura-electronica/soporte-para-soldar-con-lupa/](https://www.tallerlab.com.ar/soldadura-electronica/soporte-para-soldar-con-lupa/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
-| [/taladros/inalambricos/](https://www.tallerlab.com.ar/taladros/inalambricos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/rotomartillos/](https://www.tallerlab.com.ar/taladros/rotomartillos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/percutores/](https://www.tallerlab.com.ar/taladros/percutores/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/taladro-de-banco/](https://www.tallerlab.com.ar/taladros/taladro-de-banco/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/atornilladores-de-impacto/](https://www.tallerlab.com.ar/taladros/atornilladores-de-impacto/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/rotomartillo-bosch/](https://www.tallerlab.com.ar/taladros/rotomartillo-bosch/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/taladro-percutor-inalambrico/](https://www.tallerlab.com.ar/taladros/taladro-percutor-inalambrico/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/para-durlock/](https://www.tallerlab.com.ar/taladros/para-durlock/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/black-decker/](https://www.tallerlab.com.ar/taladros/black-decker/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/rotomartillo-einhell/](https://www.tallerlab.com.ar/taladros/rotomartillo-einhell/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/rotomartillo-dewalt/](https://www.tallerlab.com.ar/taladros/rotomartillo-dewalt/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/einhell-inalambrico/](https://www.tallerlab.com.ar/taladros/einhell-inalambrico/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/dewalt-inalambrico/](https://www.tallerlab.com.ar/taladros/dewalt-inalambrico/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/mecha-porcelanato/](https://www.tallerlab.com.ar/taladros/mecha-porcelanato/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/milwaukee/](https://www.tallerlab.com.ar/taladros/milwaukee/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/lusqtoff-inalambrico/](https://www.tallerlab.com.ar/taladros/lusqtoff-inalambrico/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/brocas-ceramica/](https://www.tallerlab.com.ar/taladros/brocas-ceramica/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/stanley/](https://www.tallerlab.com.ar/taladros/stanley/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/atornillador-impacto-dewalt/](https://www.tallerlab.com.ar/taladros/atornillador-impacto-dewalt/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/bosch-inalambrico/](https://www.tallerlab.com.ar/taladros/bosch-inalambrico/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/mechas-escalonadas/](https://www.tallerlab.com.ar/taladros/mechas-escalonadas/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/mecha-forstner-35-mm/](https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/taladros/combo-taladro-amoladora/](https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/taladros/inalambricos/](https://www.tallerlab.com.ar/taladros/inalambricos/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/rotomartillos/](https://www.tallerlab.com.ar/taladros/rotomartillos/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/percutores/](https://www.tallerlab.com.ar/taladros/percutores/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/taladro-de-banco/](https://www.tallerlab.com.ar/taladros/taladro-de-banco/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/atornilladores-de-impacto/](https://www.tallerlab.com.ar/taladros/atornilladores-de-impacto/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/rotomartillo-bosch/](https://www.tallerlab.com.ar/taladros/rotomartillo-bosch/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/taladro-percutor-inalambrico/](https://www.tallerlab.com.ar/taladros/taladro-percutor-inalambrico/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/para-durlock/](https://www.tallerlab.com.ar/taladros/para-durlock/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/black-decker/](https://www.tallerlab.com.ar/taladros/black-decker/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/rotomartillo-einhell/](https://www.tallerlab.com.ar/taladros/rotomartillo-einhell/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/rotomartillo-dewalt/](https://www.tallerlab.com.ar/taladros/rotomartillo-dewalt/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/einhell-inalambrico/](https://www.tallerlab.com.ar/taladros/einhell-inalambrico/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/dewalt-inalambrico/](https://www.tallerlab.com.ar/taladros/dewalt-inalambrico/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/mecha-porcelanato/](https://www.tallerlab.com.ar/taladros/mecha-porcelanato/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/milwaukee/](https://www.tallerlab.com.ar/taladros/milwaukee/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/lusqtoff-inalambrico/](https://www.tallerlab.com.ar/taladros/lusqtoff-inalambrico/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/brocas-ceramica/](https://www.tallerlab.com.ar/taladros/brocas-ceramica/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/stanley/](https://www.tallerlab.com.ar/taladros/stanley/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/atornillador-impacto-dewalt/](https://www.tallerlab.com.ar/taladros/atornillador-impacto-dewalt/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/bosch-inalambrico/](https://www.tallerlab.com.ar/taladros/bosch-inalambrico/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/mechas-escalonadas/](https://www.tallerlab.com.ar/taladros/mechas-escalonadas/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/mecha-forstner-35-mm/](https://www.tallerlab.com.ar/taladros/mecha-forstner-35-mm/) | Sin fallas detectadas | revisión editorial registrada |
+| [/taladros/combo-taladro-amoladora/](https://www.tallerlab.com.ar/taladros/combo-taladro-amoladora/) | Sin fallas detectadas | revisión editorial registrada |
 
 ## Fuentes externas por categoría
 
@@ -303,6 +439,6 @@ Los informes conservan 926 sondeos de 907 direcciones distintas y 6 registros de
 
 Se corrigió la dirección oficial Makita DHS710Z y se retiró el enlace comercial Hyundai HHY9500LE que redirigía a una portada. Su precio queda identificado como histórico, sin confirmar stock actual. El folleto Norton fue sustituido por la URL oficial completa. Las alertas originales se mantienen como evidencia del sondeo.
 
-## Próxima tanda
+## Alcance y seguimiento
 
-Continuar la lectura por artículo y contrastar las alternativas con su finalidad, material, instalación y compatibilidad. Completar las cifras pendientes antes de declarar terminada la revisión editorial. El registro usa una huella del cuerpo de cada artículo: una modificación posterior invalida la coincidencia con la lectura registrada.
+La revisión de selección y comparaciones cubre las 179 guías. Los registros de evaluación de tablas no afirman lectura integral de todos los párrafos. Los contrastes completos de especificaciones señalados como pendientes conservan ese estado. El registro usa una huella del cuerpo de cada artículo para detectar cambios posteriores.

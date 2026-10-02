@@ -1,5 +1,6 @@
 """Ofertas suministradas: códigos exactos y distribución editorial autorizada."""
 OFFERS = {
+    'GPK980': ('Pektra GPK980', '2jcLSy1', 'Pektra GPK980'),
     'EU22i': ('Honda EU22i', '2AwxqaH', 'Honda EU22i'),
     'GE3497AR': ('Gamma GE3497AR', '1B4sjDN', 'Gamma Inverter 2 kW'),
     'LGIS3.8-8': ('Lüsqtoff LGIS3.8-8', '2TcYRTK', 'Lüsqtoff LGIS3.8-8'),
@@ -35,7 +36,7 @@ PLACEMENTS = {
     3: ['EU22i', 'EU30is', 'EG6500CXS', 'EZ6500CXS', 'ET12000'],
     4: ['EG6500CXS', 'EZ6500CXS'],
     5: ['EU22i', 'GE3480AR', 'GE3481AR', 'EU30is', 'EG6500CXS'],
-    6: ['EU22i', 'GE3497AR', 'EU30is', 'LGI5.5-8', 'DTGEAB08-4'],
+    6: ['EU22i', 'GE3497AR', 'EU30is', 'LGI5.5-8'],
     7: ['LG7500EXT', 'ET12000'],
     8: ['EU22i', 'GE3497AR', 'GE3480AR', 'GE3481AR', 'EG6500CXS', 'EZ6500CXS', 'LG3000', 'GE3482AR'],
     9: ['HY7500LE'],
@@ -50,7 +51,7 @@ PLACEMENTS = {
     18: ['GNW-55-E', 'GNW-70-ER'],
     19: ['GE3491AR'],
     20: ['DELTA 2 Max', 'AC70P'],
-    21: ['KGE/800', 'LG950P'],
+    21: ['GPK980', 'KGE/800', 'LG950P'],
 }
 
 def url(key):

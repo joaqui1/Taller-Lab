@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:5198",
+  "base": "http://127.0.0.1:5201",
   "pages": 190,
   "errors": [],
   "failures": [],
@@ -309,7 +309,7 @@
     {
       "path": "/compresores/para-auto/",
       "failures": [],
-      "sources": 11,
+      "sources": 6,
       "resources": 1,
       "filters": 3,
       "comparisons": 1
@@ -485,7 +485,7 @@
     {
       "path": "/compresores/12v-doble-piston/",
       "failures": [],
-      "sources": 9,
+      "sources": 6,
       "resources": 1,
       "filters": 3,
       "comparisons": 1
@@ -533,10 +533,10 @@
     {
       "path": "/generadores/inverter/",
       "failures": [],
-      "sources": 0,
+      "sources": 12,
       "resources": 1,
-      "filters": 0,
-      "comparisons": 0
+      "filters": 3,
+      "comparisons": 1
     },
     {
       "path": "/generadores/trifasicos/",
@@ -653,10 +653,10 @@
     {
       "path": "/generadores/chicos/",
       "failures": [],
-      "sources": 3,
+      "sources": 6,
       "resources": 1,
-      "filters": 0,
-      "comparisons": 0
+      "filters": 3,
+      "comparisons": 1
     },
     {
       "path": "/hidrolavadoras/comparativa-general/",
@@ -669,7 +669,7 @@
     {
       "path": "/hidrolavadoras/inalambricas/",
       "failures": [],
-      "sources": 4,
+      "sources": 6,
       "resources": 1,
       "filters": 3,
       "comparisons": 1
@@ -701,7 +701,7 @@
     {
       "path": "/hidrolavadoras/bosch/",
       "failures": [],
-      "sources": 4,
+      "sources": 8,
       "resources": 0,
       "filters": 3,
       "comparisons": 1
@@ -789,7 +789,7 @@
     {
       "path": "/hidrolavadoras/karcher-k4/",
       "failures": [],
-      "sources": 4,
+      "sources": 8,
       "resources": 0,
       "filters": 3,
       "comparisons": 1
@@ -797,7 +797,7 @@
     {
       "path": "/hidrolavadoras/150-bar/",
       "failures": [],
-      "sources": 4,
+      "sources": 8,
       "resources": 1,
       "filters": 3,
       "comparisons": 1

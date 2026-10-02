@@ -1,6 +1,6 @@
 {
   "section": "sierras",
-  "checked": "2026-10-01T21:27:53.994460+00:00",
+  "checked": "2026-10-02T14:21:55.538883+00:00",
   "articles": 30,
   "structural_failures": [],
   "sources": [
@@ -1222,7 +1222,7 @@
     {
       "path": "/sierras/circulares/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\01-sierra-circular.md",
-      "body_sha256": "10dc527f7e727098f864f9ceea1522a52403b2ecb3eb05bdfe0da7e5ea6dda0c",
+      "body_sha256": "5b28a50cc7e325c4f8f177d1785bd7f74b6b18ffb5a534a82691504d3105f036",
       "title": "Cómo elegir una sierra circular para tus trabajos",
       "issues": [],
       "sources": [
@@ -1233,13 +1233,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "5b28a50cc7e325c4f8f177d1785bd7f74b6b18ffb5a534a82691504d3105f036",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué sierra circular elegir según el trabajo; Compará los modelos y consultá sus enlaces; Capacidades documentadas de tres modelos. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sensitivas/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\02-sensitiva.md",
-      "body_sha256": "6cc1203d372937aef4d206b8c38c345fc011af7b4d70265426b5be09939331dc",
+      "body_sha256": "9f1297065662f590a5e3d9c12421446861853cc02fb7be811a0e56e16af1a2cb",
       "title": "Cómo elegir una sensitiva para cortar metal",
       "issues": [],
       "sources": [
@@ -1253,8 +1260,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "9f1297065662f590a5e3d9c12421446861853cc02fb7be811a0e56e16af1a2cb",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Sensitiva o sierra sin fin para metal; Qué capacidad necesitás según la forma del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sable/",
@@ -1269,13 +1283,20 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "0f9333387ba0cc431e66b92074c104000eb53b446b0709d0f1b0f8700fa3df0e",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Cómo elegir la hoja. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/caladoras/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\04-sierra-caladora.md",
-      "body_sha256": "7a99ef4d6c5a5dfbb2e240c7fa5ae1e941be0ba9aad8e40eddf189bf73173a34",
+      "body_sha256": "43f0275ad83725f9dacaafbb67aa0df22059159789c588c34bb96bf0df5234d7",
       "title": "Cómo elegir una sierra caladora para madera y metal",
       "issues": [],
       "sources": [
@@ -1289,13 +1310,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "43f0275ad83725f9dacaafbb67aa0df22059159789c588c34bb96bf0df5234d7",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: La hoja importa tanto como la máquina; Qué caladora elegir según el trabajo; Capacidad publicada de tres modelos; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sierra-sin-fin-para-madera/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\05-sierra-sin-fin-para-madera.md",
-      "body_sha256": "02e1d303e064c0a542f345397add7c2b1f639582de3e6929abab747a6dbfd957",
+      "body_sha256": "c9f68bb83532abf548319e93c23df1ed01d59d84b3b8d48a22b9b47f1034495f",
       "title": "Qué sierra sin fin para madera comprar",
       "issues": [],
       "sources": [
@@ -1311,13 +1339,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "c9f68bb83532abf548319e93c23df1ed01d59d84b3b8d48a22b9b47f1034495f",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Compará los modelos y consultá sus enlaces; Qué cinta necesitás según el trabajo; Sierra sin fin o sierra de banco. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/de-banco/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\06-sierra-de-banco.md",
-      "body_sha256": "9d83730dd5d10c05b745b15bb30e0fa2a92640e0be6e363244de31eb17f5dd7d",
+      "body_sha256": "ed40e0f188b0160d623ec085d6044fd71dd6bbc5caaf8111c453bfd85a9debfc",
       "title": "Cómo elegir una sierra de banco para madera",
       "issues": [],
       "sources": [
@@ -1330,13 +1365,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "ed40e0f188b0160d623ec085d6044fd71dd6bbc5caaf8111c453bfd85a9debfc",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué sierra de banco elegir según el tamaño de pieza; Compará los modelos y consultá sus enlaces; Sierra de banco, circular o ingletadora. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sin-fin-metal/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\07-sierra-sin-fin-para-metal.md",
-      "body_sha256": "a361ac1a117c8dd5bcf8506a7ae4e5f3be8ee71db2e509823146c6ab7c914e14",
+      "body_sha256": "e07849b7742e9ba7c22baee42b16ef9302f550dad48b84f57f9d4993ee447a00",
       "title": "Cómo elegir una sierra sin fin para metal",
       "issues": [],
       "sources": [
@@ -1349,13 +1391,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "e07849b7742e9ba7c22baee42b16ef9302f550dad48b84f57f9d4993ee447a00",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Portátil o de banco; Compará los modelos y consultá sus enlaces; Capacidad según perfil; Velocidad y dientes de cinta. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/ingletadoras-einhell/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\08-ingletadora-einhell.md",
-      "body_sha256": "2b0f17e6ff0161eecd40f496f790e0f4a9964ec65752a0cfe1fd3b0e5e35b2c3",
+      "body_sha256": "28b090c003a7d85a0e85b6c01ee9b1f04e63d5bcfd380cf086376c7faa8122af",
       "title": "Qué ingletadora Einhell elegir según tus trabajos",
       "issues": [],
       "sources": [
@@ -1364,13 +1413,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "28b090c003a7d85a0e85b6c01ee9b1f04e63d5bcfd380cf086376c7faa8122af",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Dos modelos fija/deslizante; se agregó TC-SM2131/2 Dual 4300390 al bloque con enlace oficial. Espacio de afiliado preparado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/de-banco-einhell/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\09-sierra-de-banco-einhell.md",
-      "body_sha256": "b7e7ecd1041bdc6886e56837b7a572b529aaf5ac996d24dd13e48ad5108ecbab",
+      "body_sha256": "93c61ec18057db1796403d067fb27db5d196b42e096bff7a04ca048f7e621e4a",
       "title": "Qué sierra de banco Einhell elegir para tu taller",
       "issues": [],
       "sources": [
@@ -1382,13 +1438,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "93c61ec18057db1796403d067fb27db5d196b42e096bff7a04ca048f7e621e4a",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Cuál elegir según tamaño de pieza y espacio; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/caladoras-skil/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\10-caladora-skil.md",
-      "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
+      "body_sha256": "c46cae0ebd43ecec9f21e1aa25e00ffbd726ca618a1bf0a0f0799a597ba4b8d4",
       "title": "Cómo elegir una caladora Skil",
       "issues": [],
       "sources": [
@@ -1405,16 +1468,17 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "fuentes-generales-02",
-        "body_sha256": "474943a6094f79939214fae159cbbb5389a9aee98b160905e77448ca4d494352",
+        "body_sha256": "c46cae0ebd43ecec9f21e1aa25e00ffbd726ca618a1bf0a0f0799a597ba4b8d4",
         "scope": "lectura completa; elección por material y control; revisión de fuentes",
         "notes": "Lectura completa: compara 4380 y 4550. Reemplazada referencia rota al catálogo 2019 por catálogo Skil 2015 reproducido por BGP, PDF validado y tabla inspeccionada visualmente en p.23. Confirma 4550 F0124550AA: 550 W, 800–3000 carreras/min, tres posiciones pendulares, madera 75/aluminio 10/acero 5 mm. Carrera de 18 mm sigue atribuida a ficha técnica Grainger. Se mantiene manual de 4380 y variantes eléctricas por catálogo de servicio; dos enlaces afiliados ya recibidos. Pendiente contraste completo de encastre y variantes de 4550.",
-        "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente"
+        "full_claim_verification": "4550 conserva cifras atribuidas a fuentes secundarias; confirmación por unidad pendiente",
+        "commercial_followup": "2026-10-02: bloque comercial regenerado; tablas y encabezados técnicos preservados, enlaces y plural de comparación verificados."
       }
     },
     {
       "path": "/sierras/guia-para-sierra-circular/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\11-guia-para-sierra-circular.md",
-      "body_sha256": "1ef7f4d27cacb51a29d5251f7221c9c5677c90538f25919822377fc785514b74",
+      "body_sha256": "e2b593007f07d3a48c6a8609a32d62a8f25af014a2b6ff925ac6db1d27bedfad",
       "title": "Cómo elegir una guía para sierra circular",
       "issues": [],
       "sources": [
@@ -1427,13 +1491,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "e2b593007f07d3a48c6a8609a32d62a8f25af014a2b6ff925ac6db1d27bedfad",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Guía paralela, regla y riel: no son lo mismo; Compatibilidad con GKS150, DWE560 y SC16; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sensitivas-dewalt/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\12-sensitiva-dewalt.md",
-      "body_sha256": "e950ea3c9a5fb6233d9e857563e4781b554841f3be958b744e662c879629a327",
+      "body_sha256": "7fed08063c3c2dc680323fc93f8eb117b7ee5954d4a73bce0e929af59f918cb2",
       "title": "Sensitiva DeWalt: qué modelo elegir",
       "issues": [],
       "sources": [
@@ -1446,13 +1517,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "7fed08063c3c2dc680323fc93f8eb117b7ee5954d4a73bce0e929af59f918cb2",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: D28720 o D28730: cuál tiene sentido según el trabajo; Capacidad según la geometría del perfil; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/ingletadoras-dewalt/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\13-ingletadora-dewalt.md",
-      "body_sha256": "900a31464bf843b4abd13fddc344bfdbcadeef9bb3294a0c6291549719acda70",
+      "body_sha256": "c58e5d276f5b37ec67de9d3276deced711a95cb80196abd421ee310ecce17265",
       "title": "Qué ingletadora DeWalt elegir",
       "issues": [],
       "sources": [
@@ -1464,13 +1542,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "c58e5d276f5b37ec67de9d3276deced711a95cb80196abd421ee310ecce17265",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Fija o telescópica: cuándo compensa la DWS780; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/ingletadoras-total/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\14-ingletadora-total.md",
-      "body_sha256": "d0be29c050a99518f2a45bd64e0e377c36c6d52033b4e34d4d909db7671f3bf1",
+      "body_sha256": "b6c1ae279c735d22ac0e45822679733afac5a1adcbb6ec5cd2a432f8bfc3bca6",
       "title": "Cómo elegir una ingletadora Total",
       "issues": [],
       "sources": [
@@ -1479,13 +1564,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "b6c1ae279c735d22ac0e45822679733afac5a1adcbb6ec5cd2a432f8bfc3bca6",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Dos códigos distintos TS42142107/TS42182553; segundo modelo agregado con catálogo. No sustituir por TS42182552. Espacio de afiliado preparado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/disco-para-sierra-circular/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\15-disco-para-sierra-circular.md",
-      "body_sha256": "0ae5ad11c1d20cb2d8242e71589a05cdd24dfa4fb549caa1a89a1dbc769d8c9f",
+      "body_sha256": "4abfcd5df454ef9e522dc1d76e19b189968cae873b5ee9d19b873486f5fa712e",
       "title": "Cómo elegir un disco para sierra circular",
       "issues": [],
       "sources": [
@@ -1497,13 +1589,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "4abfcd5df454ef9e522dc1d76e19b189968cae873b5ee9d19b873486f5fa712e",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Qué disco usar según el corte; Consultá precio y disponibilidad del modelo; Qué disco usar para cortar melamina; Compatibilidad: diámetro, eje y RPM. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/bosch-gks-150/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\16-sierra-circular-bosch-gks-150.md",
-      "body_sha256": "ac6e55e182786d701281a37104ddd7cf3d66daf18541b560706f2acf078da2b5",
+      "body_sha256": "76e909dfb75794d820bd49762723fc67c4634f81d7c7db7fcce48501d5487e68",
       "title": "Sierra circular Bosch GKS 150: guía antes de comprar",
       "issues": [],
       "sources": [
@@ -1516,13 +1615,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "76e909dfb75794d820bd49762723fc67c4634f81d7c7db7fcce48501d5487e68",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Tres modelos del cuadro ahora tienen oferta: GKS150/DWE560/SC16. Diámetro y eje específicos; no intercambiables.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/circulares-black-decker/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\17-sierra-circular-black-and-decker.md",
-      "body_sha256": "911393a2807358216fc6bf41eac3e65ce40c9d1cfa88be8380a27336c3d1b6d8",
+      "body_sha256": "e22abf2094698d4d66075012b19ede784363292a8bc0ac95c2d0169f9ffbcbf5",
       "title": "Cómo elegir una sierra circular Black+Decker",
       "issues": [],
       "sources": [
@@ -1533,13 +1639,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "e22abf2094698d4d66075012b19ede784363292a8bc0ac95c2d0169f9ffbcbf5",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "CS1004-AR/CS1350P-AR; segundo modelo agregado con manual regional. No confundir con variantes BR de127V. Espacio de afiliado preparado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/caladoras-einhell/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\18-caladora-einhell.md",
-      "body_sha256": "179a3966541340bf597026a7e354ea065b3d88ddd30fb3aa1a8adffa1a92a28b",
+      "body_sha256": "e85326136643f95737e547a0a4725a7ad21ee5f7ffabc183db9e4ca9900aa54c",
       "title": "Qué caladora Einhell elegir",
       "issues": [],
       "sources": [
@@ -1549,13 +1662,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "e85326136643f95737e547a0a4725a7ad21ee5f7ffabc183db9e4ca9900aa54c",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Tres caladoras Einhell según alimentación y capacidad; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sierra-sable-inalambrica/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\19-sierra-sable-inalambrica.md",
-      "body_sha256": "73c712fce8adeb83ef7c9a53f3eee32bd31dd2d8ffe370ef255d68ee05f84ccc",
+      "body_sha256": "296fd8f63d0f743723c504233c982e57418dac6a82dc22d2c6455d63e4b21ff0",
       "title": "Qué sierra sable inalámbrica comprar",
       "issues": [],
       "sources": [
@@ -1565,13 +1685,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "296fd8f63d0f743723c504233c982e57418dac6a82dc22d2c6455d63e4b21ff0",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Cuándo conviene inalámbrica frente a cable; Compará los modelos y consultá sus enlaces; Máquina sola o kit; Qué hoja y capacidad necesitás. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/circulares-lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\20-sierra-circular-lusqtoff.md",
-      "body_sha256": "4dd72c0995052695bd044b7ecf6c8e180236a4d9935159e91b0e07f9afad76eb",
+      "body_sha256": "17be4105d6a140db4aefc9664913b9d88a3175acef22e2ffa4307e685c6a2dd6",
       "title": "Qué sierra circular Lusqtoff elegir",
       "issues": [],
       "sources": [
@@ -1584,13 +1711,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "17be4105d6a140db4aefc9664913b9d88a3175acef22e2ffa4307e685c6a2dd6",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: CSL1500-8 y SCL2200-8: capacidades documentadas; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/ingletadoras/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\21-ingletadoras.md",
-      "body_sha256": "7a900e1f555c268efe9b595a3fde9ba335c6f789751f84607a2aadf26ceaaf9d",
+      "body_sha256": "0808290be16d5ad1ec25628349c9b25ffea508f46d5520d367b5e475034a7ab1",
       "title": "Ingletadoras: cuál elegir según el corte y el material",
       "issues": [],
       "sources": [
@@ -1599,13 +1733,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "0808290be16d5ad1ec25628349c9b25ffea508f46d5520d367b5e475034a7ab1",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Fija o telescópica; Qué disco necesita cada material; Metal ≠ lo mismo: ingletadora y sensitiva; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sierra-caladora-bosch/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\22-caladoras-bosch.md",
-      "body_sha256": "3976a87b18c1872201ac0b351ac0c2ed93c5df0c6020f22cab366365d1e64848",
+      "body_sha256": "0af8aa7714bf784bf1c454d3a0eda00bac920f1b83448b71ef5efd6849d57a38",
       "title": "Sierra caladora Bosch: comparativa de modelos",
       "issues": [],
       "sources": [
@@ -1618,13 +1759,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "0af8aa7714bf784bf1c454d3a0eda00bac920f1b83448b71ef5efd6849d57a38",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Comparación de GST 650, GST 680 y GST 185-LI; Compará los modelos y consultá sus enlaces. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sierra-circular-dewalt-dwe560/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\23-sierra-circular-dewalt-dwe560.md",
-      "body_sha256": "8cd434671224dd4b5a6563625b536fad67bde6a71c1e08e1adcd1bca2d593e7f",
+      "body_sha256": "a4fb7f59e04abea2e791f73ba5388ed73fc20bba656c341efe8a69ea2aa5170d",
       "title": "Sierra circular DeWalt DWE560: qué revisar antes de comprar",
       "issues": [],
       "sources": [
@@ -1633,13 +1781,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "a4fb7f59e04abea2e791f73ba5388ed73fc20bba656c341efe8a69ea2aa5170d",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Tres modelos del cuadro ahora tienen oferta: DWE560/GKS150/SC16; capacidades desconocidas del DWE no se completan desde otra variante.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/stanley-sc16/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\24-stanley-sc16.md",
-      "body_sha256": "2904ff4f89e90e5f967a1c64f6f7a52b2d90f3fabe0a2edb320ac555cc2c0a43",
+      "body_sha256": "27f53ebcce255609f8bd58de34232b9741b6c34ed04ec39f5cacb63b68f740bb",
       "title": "Sierra circular Stanley SC16: guía de compra",
       "issues": [],
       "sources": [
@@ -1648,13 +1803,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "27f53ebcce255609f8bd58de34232b9741b6c34ed04ec39f5cacb63b68f740bb",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Tres modelos del cuadro ahora tienen oferta: SC16/GKS150/DWE560; discrepancia180/190mm permanece atribuida a documentos, sin montar un disco por inferencia.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/caladoras-black-decker/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\25-caladoras-black-decker.md",
-      "body_sha256": "3842b02d0349ddd76daa7852b7aeadb885da37220dfe981306bc65b35a3058a8",
+      "body_sha256": "f745f33633285801b53b8c9ef814f3ab672fbe19fe638104bdfd6fd329e73ca3",
       "title": "Sierra caladora Black+Decker BES603: capacidad y usos",
       "issues": [],
       "sources": [
@@ -1663,13 +1825,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "f745f33633285801b53b8c9ef814f3ab672fbe19fe638104bdfd6fd329e73ca3",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: BES603: capacidad, velocidad y variante; Consultá precio y disponibilidad del modelo. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/de-banco-lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\26-sierra-de-banco-lusqtoff.md",
-      "body_sha256": "20f01ed91a1a58fa6b395e74ddd6fd0a5554a9098c8d2c0c492ccc572bacc07f",
+      "body_sha256": "fb90719b3e7e97363065fb11eb614944dbca25c02a17db42b2adbb3f88ef5e33",
       "title": "Sierra de banco Lusqtoff: qué modelo conviene para tu taller",
       "issues": [],
       "sources": [
@@ -1681,13 +1850,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "fb90719b3e7e97363065fb11eb614944dbca25c02a17db42b2adbb3f88ef5e33",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Tres códigos de banco y una discrepancia documental; Compará los modelos y consultá sus enlaces; Qué está confirmado, contradicho y no informado; Si tu prioridad es X, qué dato tenés que mirar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sensitivas-lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\27-sensitiva-lusqtoff.md",
-      "body_sha256": "397dd823cbb1426553fe036faf62200475e3d2cadc205dd68df14ad0edf8cabf",
+      "body_sha256": "f2066b34121d8167135919e08d8677d45881aec8a255949059270348b59e3d1c",
       "title": "Sierra sensitiva Lusqtoff: guía de la CM-14K",
       "issues": [],
       "sources": [
@@ -1698,13 +1874,20 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "f2066b34121d8167135919e08d8677d45881aec8a255949059270348b59e3d1c",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Añadida alternativa TOTAL de355mm para comparar geometría y consumible. CM14K-9 discontinuada no recibe kit/peso CM-14K.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sin-fin-lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\28-sierra-sin-fin-lusqtoff.md",
-      "body_sha256": "d86bd36785d3ef717722c4561882290cd3f459c32ac4f1abf1692bf74e415535",
+      "body_sha256": "9c0a4cf92834be510f847150e2da672fe0f390a99899e5be885be509904287b6",
       "title": "Sierra sin fin Lusqtoff: SFL250-8, SFL300-8 o SFL1100-9",
       "issues": [],
       "sources": [
@@ -1716,13 +1899,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "9c0a4cf92834be510f847150e2da672fe0f390a99899e5be885be509904287b6",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: SFL250-8 vs SFL300-8 vs SFL1100-9; Compará los modelos y consultá sus enlaces; Cuál elegir según altura y garganta; Modelos actuales y discontinuados. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sensitivas-total/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\sierras\\29-sensitiva-total.md",
-      "body_sha256": "5554fe4ab1a637d10733602f67755257ec69f6f50e8ea23198b0ef35d89281d6",
+      "body_sha256": "d99e986f419681ffef62551250594665c94c8b4c680326f5c8a4c01ae1722557",
       "title": "Sierra sensitiva Total: qué revisar en una de 355 mm",
       "issues": [],
       "sources": [
@@ -1732,8 +1922,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "sierras-comparaciones-02",
+        "body_sha256": "d99e986f419681ffef62551250594665c94c8b4c680326f5c8a4c01ae1722557",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Añadida alternativa CM-14K de355mm; código base TS223558 no se equipara al sufijo-4 sin placa. Ambas ofertas y fotos ya registradas.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/sierras/sierra-circular-inalambrica/",

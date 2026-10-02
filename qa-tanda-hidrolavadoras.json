@@ -1,6 +1,6 @@
 {
   "section": "hidrolavadoras",
-  "checked": "2026-10-01T21:04:25.654275+00:00",
+  "checked": "2026-10-02T14:20:43.285126+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -2008,35 +2008,51 @@
       ],
       "tables": 2,
       "offer_cards": 4,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "4ec9296ea85dc266a07b3e456fe8af262428e1837294b1fa382a425edbf17fec",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída matriz general por tarea, presión/caudal y alimentación. Corregido information_asset ajeno al contenido.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/inalambricas/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\02-hidrolavadora-inalambrica.md",
-      "body_sha256": "c7f11d45feecd6a0ec876448839ae7f4bdf0c0fafd6158a430bccf2f2f331e44",
+      "body_sha256": "265b67da9036fbe608d2c90c6ffc024afcc7e77ae317834b97d4e6123f6bd81a",
       "title": "Qué hidrolavadora inalámbrica comprar y para qué sirve",
       "issues": [],
       "sources": [
+        "https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002",
         "https://www.herramientaseinhell.com.ar/",
         "https://www.herramientaseinhell.com.ar/producto/hidrolavadora-inalambrica-hypresso-36-105/",
         "https://www.herramientaseinhell.com.ar/producto/lavadora-a-presion-hypresso-18-24-li-a-bateria/",
         "https://www.lusqtoff.com.ar/productos/hidrolavadora-a-bateria-lapl36-8bk"
       ],
       "tables": 5,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 3,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "265b67da9036fbe608d2c90c6ffc024afcc7e77ae317834b97d4e6123f6bd81a",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída comparación LAPL3.6-8BK/UniversalAquatak 36V-100 y HYPRESSO. Incorporada Bosch al comparador con foto oficial de 6 KB; reemplazado enlace español 404 por ficha alemana del código 06008C7002 que responde 200. Plataformas, kit y región separados.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\03-hidrolavadoras-lusqtoff.md",
-      "body_sha256": "7974c9a9768503a0ebaaea9fcb117fb3fe973f6cd552e279c816542393dee2dc",
+      "body_sha256": "7ef41359b3ca6c1169fda37cad5aedf63e6265b56d95e18f84184b241b336fc1",
       "title": "Qué hidrolavadora Lusqtoff elegir según el uso",
       "issues": [],
       "sources": [
         "https://lusqtoff.com.ar/2023/uploads/Catalogos/Catalogo%20Accesorios%202024_ok.pdf",
         "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL-120/MANUAL/Manual%20HL-120curvas_compressed.pdf",
+        "https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf",
         "https://lusqtoff.com.ar/posventa",
         "https://lusqtoff.com.ar/productos/RHL11092R16",
         "https://lusqtoff.com.ar/productos/RHL120BR34",
@@ -2049,8 +2065,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "7ef41359b3ca6c1169fda37cad5aedf63e6265b56d95e18f84184b241b336fc1",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída gama HL-120/HL100-8/HL110-9/HL130-9 y alternativas. HL100-8 contrastado en manual oficial, p.5: 100/150 bar y 6/7,5 L/min; foto extraída de portada. Corregida derivación HL130-9 para no atribuirle 150 bar máximos.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/gamma/",
@@ -2083,8 +2106,15 @@
       ],
       "tables": 4,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "cf2f0913459754abc75947ca3872d986abbadd42770c51486ecd0f375d573098",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leídas familias Gamma Elite, Master y Premium y matriz por tarea. Los modelos de compra representan escalones concretos, sin atribuirles accesorios de otros códigos.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/stihl/",
@@ -2114,8 +2144,15 @@
       ],
       "tables": 3,
       "offer_cards": 6,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "6db17ce16febaadcd7f263d7c40552ec285cbe0efda76b0495f417241df90ed6",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leídos STIHL RE eléctricos y a batería. Comparador existente reúne RE80X/90/110/120/145/150 con fotos de sus fichas; RE90 afiliado de 60 Hz sigue separado del código argentino documentado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/bosch/",
@@ -2135,9 +2172,16 @@
         "https://www.centrodemateriales.com.ar/producto/1624401598-bosch-hidrolavadora-124-bar-1500-watts-ghp-180"
       ],
       "tables": 2,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 4,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "f0d229f6930711022e537ed0ed81ad4f76ba607ceb3b2c59f3c560aaa35f3fe8",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leídos cuatro códigos Bosch argentinos. Completadas tarjetas GHP180/200/220/4-50 con sus fotos. Fichas oficiales contrastadas por presión de trabajo/máxima, caudal nominal/máximo, motor y manguera.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/black-decker/",
@@ -2158,8 +2202,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "f4bf65be56199f3c69c20065214eec231d8ee323248daa9345f3ff58da6deda7",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída Black+Decker BEPW1300/1520/1520L/1800T/2200. Códigos PSI no se tratan como watts; variantes argentinas y manual regional separados. Pendiente enlace BEPW1800T exacto.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/karcher-k2/",
@@ -2178,8 +2229,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "5834b9fc8e53260689389f56311d440d1395fb8e02ef2b4eff99ad3e1c99865e",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída K2 Basic/Car por referencia, alcance, contenido y comparación K3. Fotos y ofertas Basic y Car separadas; no trasladar kit Home de otro mercado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/karcher-k5/",
@@ -2198,8 +2256,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "83759a0ce507b7ee9c5915fdf2e4c66c08d877ba4f513bf73d8870afcaf77888",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída K5 base/Power Control frente a K4 PC. Comparador existente incluye tres códigos; diferencias de caudal, manguera, precios y stock fechados.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/gamma-150/",
@@ -2216,8 +2281,15 @@
       ],
       "tables": 2,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "20cda09b546f27f7e2c8e8710912134c06af90e9ab02886610a60933d13a8530",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída Gamma150 G2514AR frente a G2513AR. Comparador de dos modelos con ficha y foto exactas; enlace Gamma150 pendiente.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/profesionales/",
@@ -2265,8 +2337,15 @@
       ],
       "tables": 1,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "bb5b6022db2f351b7f2c6c335a99dc0b34b4a3a0b99fc13e2798991712f5c57c",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída K3 entre K2 y K4PC. Comparador existente incluye los tres equipos; manguera de repuesto no se atribuye al contenido de caja.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/einhell/",
@@ -2289,8 +2368,15 @@
       ],
       "tables": 4,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "7aed07465615aa61cb07c2de24627bc06eb60613010e4b2fc3cb593cfffa1179",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída Einhell TC/TE e HYPRESSO. Separadas máquinas cableadas, presión media y Twin-Pack; máximo/permitido/trabajo y kit Solo diferenciados.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/gamma-130/",
@@ -2307,13 +2393,20 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "9856b62298ecf4fdbe9132a4e5b30e6d7a972a83ffe87de8b00f93283aa2df78",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída Gamma130 G2513AR, usos, mantenimiento y salto a Gamma150. Dos opciones pertinentes; cifras de trabajo y admisibles separadas.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/hyundai/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\hidrolavadoras\\15-hidrolavadoras-hyundai.md",
-      "body_sha256": "cb55a3ecd4c6707e1b22f516c3a427a6d4f5e7ca0e83f9623b6bed93efc9d2d8",
+      "body_sha256": "1c410ab3d5c6885baeae103c14aaeccc5641184ef6381f3f3acb075e22cf6372",
       "title": "Qué hidrolavadora Hyundai elegir",
       "issues": [],
       "sources": [
@@ -2332,8 +2425,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "1c410ab3d5c6885baeae103c14aaeccc5641184ef6381f3f3acb075e22cf6372",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leídos siete Hyundai y alternativas BEPW2200/HDNW750. Identidad por título/SKU frente a slugs inconsistentes. Corregido texto erróneo presión de caudal promedio. Comparación documental múltiple en tablas, sin inventar ofertas.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/lusqtoff-hl-120/",
@@ -2352,8 +2452,15 @@
       ],
       "tables": 3,
       "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "032af44338b31462e2c14c14c9b997de8aa3106d4900dfab27bea686d0c52637",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída HL120 frente a HL150 eléctrica; no confundir con HL1500P. Dos tarjetas, fotos y fuentes propias; no inferir alcance incluido desde el repuesto.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/karcher-k4/",
@@ -2371,9 +2478,16 @@
         "https://www.kaercher.com/ar/servicios/asistencia/faq.html"
       ],
       "tables": 3,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 4,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "091abbe9e51459f4daffbb4287b3ebb6fdf756a7f1bc6de1a98723ed4a82df4c",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída K4 estándar/PC frente a K3/K5. Comparador ampliado a los cuatro códigos de la tabla, con fotos propias. Potencia del PC no publicada en ficha local permanece separada de comercios.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/150-bar/",
@@ -2396,9 +2510,16 @@
         "https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/AR/BEPW2200/1/Instruction_Manual/EN/NA090017_BEPW_1600_1600L_1750_1800_2200-T1-LA.pdf"
       ],
       "tables": 2,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 4,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "651a6cd6f06028110125c929a30a7322859d1a43393fa7dfb5b30025ba33b9a8",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída guía150bar completa: Gamma150,HL100-8,HDNW700,BEPW2200. Completado comparador de los cuatro con datos de trabajo/máximos; fotos oficiales nuevas y enlaces documentales activos.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/200-bar/",
@@ -2453,8 +2574,15 @@
       ],
       "tables": 4,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "299282ece4263a9de14ca22e99c81104df98e1dbfc7d5222b128947b33a40acd",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída Niwa doméstica/profesional/nafta, peso bruto, cambios de código y caudales inconsistentes HDNW750. Selección de compra HDNW300/500/700 corresponde al escalón doméstico; otras clases conservan fichas en tablas.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/karcher/",
@@ -2477,8 +2605,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "22880f5bc0a64cfef9e58cccb19c8107f32d37e7d0cd9cedfd370a50be1ac62e",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leída matriz central Kärcher K2–K5 y kits. Fotos/códigos distinguidos; K5 base documental separado de afiliado sin código. No extrapolar manguera de PC a base.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/para-autos/",
@@ -2497,8 +2632,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "hidrolavadoras-02",
+        "body_sha256": "c66819aa41e68f537cf8ce61bde809b271aa39f81a1106515ce5a3daa2878c13",
+        "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
+        "notes": "Leídos equipos y combos para auto: K2Basic/Car/bundle/K3/HDNW500. No atribuir prestaciones del Basic a bundle distinto sin ficha; comparaciones y enlaces de tablas activos.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/hidrolavadoras/hidrolavadora-para-aire-acondicionado/",

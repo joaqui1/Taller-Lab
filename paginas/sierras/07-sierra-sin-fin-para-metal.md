@@ -38,7 +38,7 @@ Hay máquinas combinadas: por ejemplo, el fabricante describe el BTA 646003 como
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

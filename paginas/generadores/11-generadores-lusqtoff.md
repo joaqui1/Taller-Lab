@@ -41,7 +41,7 @@ Para comparar consumo, formato y autonomía de esta familia, consultá [generado
 | Modelo | Potencia nominal | Potencia máxima publicada | Alimentación / datos útiles | PVP oficial visto el 28/09/2026 | Oferta |
 | :--- | ---: | ---: | :--- | ---: | :--- |
 | [LG950P](https://lusqtoff.com.ar/ver-producto/LG950P) | 0,65 kVA | 0,8 kVA | Nafta/mezcla, motor 2T; 220 V, monofásico; tanque 4 L; 16,2 kg. | $286.199 | [Ver precio →](https://meli.la/2oCYsWY) |
-| [LG3000](https://www.lusqtoff.com.ar/ver-producto/LG3000) | 2,5 kVA | 2,8 kVA | Nafta, 4T; 220 V; arranque manual; tanque 15 L. | $614.399 | [Ver precio →](https://meli.la/2fhftj7) |
+| [LG3000](https://www.lusqtoff.com.ar/ver-producto/LG3000) | 2,5 kVA | 2,8 kVA | Nafta, 4T; 220 V; arranque manual; tanque 15 L. La ficha imprime también 4,8 kW en otro campo; cotejá placa y manual. | $614.399 | [Ver precio →](https://meli.la/2fhftj7) |
 | [LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E) | 2,5 kVA | 2,8 kVA | Nafta, 4T; arranque eléctrico; tanque 15 L. La ficha también muestra “potencia máxima de salida 4,8 kW”, dato que no coincide con el campo 2,8 kVA y hay que aclarar por código/placa. | $745.299 | — |
 | [LG3500EX](https://www.lusqtoff.com.ar/ver-producto/LG3500EX) | 2.450 W | 3.500 W | Nafta, 4T; monofásico; tanque 15 L; incluye ruedas y manija. | $875.199 | — |
 | [LG7500EX](https://lusqtoff.com.ar/ver-producto/LG7500EX) | No publicada en la ficha consultada | 6.500 W | Nafta, 4T; monofásico; tanque 25 L; arranque manual/eléctrico; peso publicado 82 kg. Autonomía anunciada: 8 h, sin carga definida. | $1.747.699 | — |
@@ -67,7 +67,7 @@ La tabla sirve para armar un mapa, no para declarar disponibilidad. El [catálog
 ### Lectura rápida por escalón
 
 - Para una carga pequeña, el **LG950P** publica 0,65 kVA nominales y el **LGI2.5-8** publica 2,2 kW nominales y tecnología inverter. Como kVA y kW no son intercambiables sin conocer el factor de potencia, cotejá cada unidad con el dato de placa de tus aparatos.
-- Cerca de la escala nominal publicada para el **LG3000/LG3000E** (2,5 kVA), podés comparar también el **LGI2.5-8** (2,2 kW), pero no como cifras equivalentes sin factor de potencia. En el LG3000E pedí aclaración por la cifra suelta de 4,8 kW.
+- Cerca de la escala nominal publicada para el **LG3000/LG3000E** (2,5 kVA), podés comparar también el **LGI2.5-8** (2,2 kW), pero no como cifras equivalentes sin factor de potencia. Ambos LG3000 imprimen además 4,8 kW en otro campo; verificá qué representa en el manual del código exacto.
 - Para un equipo con alrededor de 3 kW de carga continua, el **LGI3.8-8** publica 3,5 kW nominales. El **LG3500EX** lleva “3500” en el nombre y publica 3.500 W máximos, pero su nominal es 2.450 W; no los compares usando solo el máximo.
 - En el tramo superior, el **LGI5.0-9** sí declara 4,2 kW nominales. El **LG7500EX** anuncia 6.500 W máximos, pero su ficha no da nominal: falta un dato clave para una carga sostenida. El **LG7500EXT** además es trifásico; elegilo solo si la tensión y distribución por fase coinciden con las cargas.
 - El **LGI11.0-9** publica 10 kVA nominales y salida 220/380 V. Antes de decidir, cotejá factor de potencia, fase y potencia requerida, además del límite de cada salida.
@@ -104,7 +104,7 @@ La marca organiza su categoría también en generadores nafteros, a gas, diésel
 4. En equipos trifásicos, distribuí las cargas por fase según el manual; no dividas automáticamente la cifra total por tres para asumir la capacidad monofásica.
 5. Para conectar un generador a una instalación fija, definí transferencia y protecciones con un profesional.
 
-Las fichas Lüsqtoff no publican la potencia nominal para todos los modelos. En esos casos no es posible concluir por la potencia máxima qué carga sostendrán continuamente. La inconsistencia puntual del LG3000E (2,8 kVA como máxima y 4,8 kW en otro campo) requiere confirmar la placa/manual del código vendido antes de dimensionar.
+Las fichas Lüsqtoff no publican la potencia nominal para todos los modelos. En esos casos no es posible concluir por la potencia máxima qué carga sostendrán continuamente. LG3000 y LG3000E publican 2,8 kVA máximos y 4,8 kW en otro campo: no uses esos 4,8 kW para aumentar la capacidad eléctrica de la tabla; cotejá placa y manual del código vendido.
 
 ## Qué verificar antes de comprar un generador Lüsqtoff
 

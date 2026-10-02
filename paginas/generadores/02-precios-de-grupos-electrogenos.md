@@ -108,7 +108,7 @@ Esta tabla conserva una captura del **27/09/2026** en el sitio del fabricante. E
 
 Son precios publicados para códigos concretos, no cotizaciones ni un promedio de plaza. No calculamos precio por watt máximo: estas fichas no siempre publican una potencia nominal comparable.
 
-*Algunos enlaces comerciales pueden generar una comisión para TallerLab, sin costo adicional para vos. El enlace de cada publicación lleva al precio observado el 28/09/2026; confirmá que siga vigente.*
+*Algunos enlaces comerciales pueden generar una comisión para TallerLab, sin costo adicional para vos. Cada enlace lleva a la publicación; el precio actual puede diferir de la captura del 28/09/2026.*
 
 ## Fuentes consultadas
 

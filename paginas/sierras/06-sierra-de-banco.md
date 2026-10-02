@@ -38,7 +38,7 @@ Elegí una sierra de banco a partir del tamaño y la forma de tus piezas. La alt
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

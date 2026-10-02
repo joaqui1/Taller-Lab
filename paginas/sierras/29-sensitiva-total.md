@@ -66,11 +66,12 @@ El sufijo **-4** aparece en una publicación argentina de vendedor, mientras la 
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | TOTAL TS223558-4 | Confirmá sufijo -4 y RPM en placa/manual; no trasladés datos del código base. | [Ver precio →](https://meli.la/194gVdS) |
+| Lüsqtoff CM-14K | Confirmá código y capacidad según la forma del perfil. | [Ver precio →](https://meli.la/28Unx3L) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 

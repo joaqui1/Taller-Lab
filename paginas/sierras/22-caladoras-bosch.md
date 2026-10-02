@@ -40,7 +40,7 @@ Comparamos tres variantes publicadas para Argentina: dos con cable y una de 18 V
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

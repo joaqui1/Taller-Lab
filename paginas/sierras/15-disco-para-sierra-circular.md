@@ -42,7 +42,7 @@ Las recomendaciones de corte fino o reducción de astillado son declaraciones de
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Consultá precio y disponibilidad del modelo
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

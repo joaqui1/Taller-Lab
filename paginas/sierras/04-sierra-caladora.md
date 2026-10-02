@@ -72,7 +72,7 @@ El resumen de capacidades incluye BES603-B2 y Einhell; para ampliar opciones, co
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

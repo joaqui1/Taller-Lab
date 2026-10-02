@@ -39,7 +39,7 @@ Para elegir entre estas sierras, primero cotejá la mesa y el espacio que tenés
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

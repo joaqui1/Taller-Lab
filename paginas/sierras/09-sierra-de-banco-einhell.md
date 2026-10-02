@@ -43,7 +43,7 @@ La descripción histórica mencionaba la TE-CC 250 UF; esta comparativa se limit
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

@@ -70,5 +70,143 @@
       "/compresores/para-aerografo/"
     ],
     "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
+  },
+  "Lüsqtoff LGI3.8-8": {
+    "affiliate_url": "",
+    "guides": [
+      "/generadores/inverter/"
+    ],
+    "configuration": "Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS."
+  },
+  "Lüsqtoff LGI11.0-9": {
+    "affiliate_url": "",
+    "guides": [
+      "/generadores/inverter/"
+    ],
+    "configuration": "Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS."
+  },
+  "Gamma 150 Elite G2514AR": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/150-bar/",
+      "/hidrolavadoras/gamma-150/",
+      "/hidrolavadoras/gamma-130/"
+    ],
+    "configuration": "Código G2514AR; ficha y foto oficiales activas"
+  },
+  "Lüsqtoff HL100-8": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/150-bar/",
+      "/hidrolavadoras/lusqtoff/"
+    ],
+    "configuration": "HL100-8 exacto; no sustituir por HL-150"
+  },
+  "Bosch GHP 220 0600910EH0": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/bosch/"
+    ],
+    "configuration": "Reemplazo o acreditación del enlace recibido 13efsmG: falta código y frecuencia de placa"
+  },
+  "Bosch GHP 4-50 0600910FH0": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/bosch/"
+    ],
+    "configuration": "Código argentino 0600910FH0; ficha y foto oficiales activas"
+  },
+  "Bosch UniversalAquatak 36V-100 06008C7002": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/inalambricas/"
+    ],
+    "configuration": "Kit 36 V 4 Ah con cargador; confirmar disponibilidad argentina"
+  },
+  "BLACK+DECKER BEPW1800T-AR": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/black-decker/"
+    ],
+    "configuration": "Variante argentina, kit y código exactos"
+  },
+  "Einhell TC-SM 2131/2 Dual 4300390": {
+    "affiliate_url": "",
+    "guides": [
+      "/sierras/ingletadoras-einhell/",
+      "/sierras/ingletadoras/"
+    ],
+    "configuration": "No sustituir por TE-SM 2131 Dual; ficha oficial activa"
+  },
+  "TOTAL TS42182553": {
+    "affiliate_url": "",
+    "guides": [
+      "/sierras/ingletadoras-total/"
+    ],
+    "configuration": "No sustituir por TS42182552; catálogo enlazado y comparación de dos códigos activa"
+  },
+  "BLACK+DECKER CS1350P-AR": {
+    "affiliate_url": "",
+    "guides": [
+      "/sierras/circulares-black-decker/"
+    ],
+    "configuration": "Variante AR de220V; manual enlazado. No sustituir por BR127V"
+  },
+  "ESAB OK NiFe-CI 3,2 mm": {
+    "affiliate_url": "",
+    "guides": [
+      "/soldadoras/electrodo-para-fundicion/"
+    ],
+    "configuration": "ENiFe-CI, código92603230L0 según ficha europea; confirmar presentación local y código"
+  },
+  "STIHL RE 90 · RE020114544 · 50 Hz": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/stihl/"
+    ],
+    "configuration": "Reemplazar el referido recibido de 60 Hz o acreditar placa del código argentino."
+  },
+  "Kärcher K5 · 9.398-295.0": {
+    "affiliate_url": "",
+    "guides": [
+      "/hidrolavadoras/karcher-k5/"
+    ],
+    "configuration": "El referido anterior no acredita este código. Confirmar versión y caudal."
+  },
+  "Bosch GSA 1100 E": {
+    "affiliate_url": "",
+    "guides": [
+      "/sierras/sable/"
+    ],
+    "configuration": "Reemplazo del referido retirado: publicación activa con código y potencia consistentes."
+  },
+  "Bosch PRO Multi Material · 190 mm · 54 dientes · eje 30 mm": {
+    "affiliate_url": "",
+    "guides": [
+      "/sierras/disco-para-sierra-circular/"
+    ],
+    "configuration": "Disco para sierra manual; confirmar referencia, geometría y material."
+  },
+  "ESAB/Conarco WELD ER70S-6 · 0,8 mm × 5 kg": {
+    "affiliate_url": "",
+    "guides": [
+      "/soldadoras/soldadora-mig-con-gas/",
+      "/soldadoras/alambre-para-soldadura-mig/"
+    ],
+    "configuration": "Macizo para acero al carbono; no sustituir por aluminio o inoxidable ni por 18 kg."
+  },
+  "ESAB Gas Free E71T-GS · 1,0 mm × 1 kg": {
+    "affiliate_url": "",
+    "guides": [
+      "/soldadoras/alambre-flux/"
+    ],
+    "configuration": "Presentación y diámetro exactos; la oferta de 0,8 mm × 5 kg es otra alternativa."
+  },
+  "Hyundai HHY2200F": {
+    "affiliate_url": "",
+    "guides": [
+      "/generadores/hyundai/"
+    ],
+    "configuration": "Sufijo F documentado; no asignar automáticamente el referido HHY2200 sin sufijo."
   }
 }

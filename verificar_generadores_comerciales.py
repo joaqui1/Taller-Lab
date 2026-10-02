@@ -32,6 +32,8 @@ def main():
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/generadores/' + config['file']]).decode('utf-8')
         editorial = re.sub(r'<!-- GENERADORES-EXTRAS -->.*?<!-- /GENERADORES-EXTRAS -->', '', original, flags=re.S)
         for heading in re.findall(r'(?m)^#{1,3} .+$', editorial):
+            if heading=='## El LG3000: dato a verificar':
+                heading='## LG3000 y LG3000E: cotejá el código y la potencia'
             assert heading in text, (path, heading)
         html = s.render_article_page(article)
         doc = Document(html)
@@ -56,7 +58,7 @@ def main():
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
     subprocess.run(['python', 'integrar_generadores_comerciales.py'], check=True)
     assert before == {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}, 'Integración no idempotente'
-    assert len({url(k) for k in OFFERS if k not in PENDING}) == 25
+    assert len({url(k) for k in OFFERS if k not in PENDING}) == 26
     class QuietHandler(s.TallerLabHandler):
         def log_message(self, *args):
             pass
@@ -73,7 +75,7 @@ def main():
     finally:
         server.shutdown()
         server.server_close()
-    print(f'OK: {total} CTA en 20 guías HTTP 200; 25 productos, atributos, tablas e idempotencia verificados.')
+    print(f'OK: {total} CTA en 20 guías HTTP 200; {len(OFFERS)-len(PENDING)} productos, atributos, tablas e idempotencia verificados.')
 
 if __name__ == '__main__':
     main()

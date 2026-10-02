@@ -37,7 +37,7 @@ La CSL1500-8 publica 63,5 mm a 90° y 46 mm a 45°. La SCL2200-8 declara 84 mm a
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

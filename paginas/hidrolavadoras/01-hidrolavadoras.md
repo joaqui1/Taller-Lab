@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Comparativa derivada de cuatro manuales Gamma: separa presión máxima admisible y presión de servicio, y cuantifica los cambios de potencia/caudal entre códigos 127, 130, 150 y 170."
+information_asset: "Matriz de elección por tarea y comparación documental de modelos domésticos y a nafta; distingue presión de trabajo, máxima, caudal y alcance con las fuentes de cada modelo."
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true

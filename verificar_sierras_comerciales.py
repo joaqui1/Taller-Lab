@@ -10,6 +10,7 @@ from threading import Thread
 from urllib.request import urlopen
 from sierras_comerciales import OFFERS, PENDING, UNMONETIZED, url
 import servidor_local as s
+from integrar_sierras_comerciales import DOCUMENTED_ROWS
 
 class Links(HTMLParser):
     def __init__(self, html):
@@ -43,6 +44,7 @@ def main(pages=None):
         text = file.read_text(encoding='utf-8')
         original = subprocess.check_output(['git', 'show', 'HEAD:paginas/sierras/' + config['file']]).decode('utf-8')
         headings = re.findall(r'(?m)^#{1,3} .+$', original)
+        headings = [h for h in headings if h != '### Consultá estas opciones en Mercado Libre']
         if config['file'] == '25-caladoras-black-decker.md' and 'BES602' in re.sub(r'https://[^)\s]+', '', original):
             headings = [heading.replace('Sierra caladora Black+Decker: cómo elegir entre modelos', 'Sierra caladora Black+Decker BES603: capacidad y usos').replace('BES603 y BES602: velocidad variable y variante', 'BES603: capacidad, velocidad y variante').replace('BES602 o BES603: cuándo aporta la velocidad variable', 'BES603: cuándo aporta la velocidad variable') for heading in headings]
         assert all(heading in text for heading in headings), path
@@ -84,6 +86,15 @@ def main(pages=None):
             assert len({len(row.split('|')) for row in table.splitlines()}) == 1, path
         html = s.render_article_page(articles[path])
         doc = Links(html)
+        number = int(config['file'][:2])
+        if number in DOCUMENTED_ROWS:
+            documented_url = re.search(r'\]\((https://[^)]+)\)', DOCUMENTED_ROWS[number])[1]
+            documented = [link for link in doc.links if link.get('href') == documented_url]
+            assert documented and all('sponsored' not in link.get('rel', '').split() for link in documented), (path, 'Enlace documental tratado como afiliado')
+            assert DOCUMENTED_ROWS[number] in text, (path, 'Alternativa documental ausente')
+        if config['position'] != 'inline':
+            block = re.search(r'<!-- SIERRAS-OFERTAS -->(.*?)<!-- /SIERRAS-OFERTAS -->', text, re.S)[1]
+            assert ('Compará los modelos' in block) == (len(config['offers']) + (number in DOCUMENTED_ROWS) >= 2), (path, 'Comparación plural sin alternativas')
         for offer in config['offers']:
             matches = [link for link in doc.links if link.get('href') == offer['url']]
             assert len(matches) == 1, (path, offer['model'], len(matches))

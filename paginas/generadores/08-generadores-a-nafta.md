@@ -129,9 +129,9 @@ La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno
 
 <!-- /GENERADORES-EXTRAS -->
 
-## El LG3000: dato a verificar
+## LG3000 y LG3000E: cotejá el código y la potencia
 
-La página consultada para el Lüsqtoff LG3000E publica 2,5 kVA nominales y 2,8 kVA máximos, pero también imprime 4,8 kW como “potencia máxima de salida”, además de 15 L de tanque y 12 horas de autonomía sin condición de carga. Las unidades y cifras de potencia no encajan como una sola especificación inequívoca. Lo dejamos como un dato a verificar con Lüsqtoff o el manual correspondiente, no como referencia para comparar consumos o dimensionar cargas.
+Las páginas oficiales de [LG3000](https://www.lusqtoff.com.ar/ver-producto/LG3000) y [LG3000E](https://www.lusqtoff.com.ar/ver-producto/LG3000E) publican 2,5 kVA nominales y 2,8 kVA máximos, pero ambas imprimen también 4,8 kW como “potencia máxima de salida”, además de 15 L de tanque y 12 horas de autonomía sin condición de carga. LG3000 tiene arranque manual y LG3000E eléctrico: no son el mismo código. Para comparar salida eléctrica usá los campos nominal/máximo en kVA y cotejalos con el manual y la placa; la cifra suelta de 4,8 kW no reemplaza esos campos ni demuestra una capacidad continua mayor.
 
 ## Fuentes consultadas
 

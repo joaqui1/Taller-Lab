@@ -45,11 +45,12 @@ Que una sensitiva use un disco de 355 mm no determina por sí solo el tamaño de
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | Lüsqtoff CM-14K | Confirmá código y capacidad según la forma del perfil. | [Ver precio →](https://meli.la/28Unx3L) |
+| TOTAL TS223558-4 | Confirmá sufijo -4 y RPM en placa/manual; no trasladés datos del código base. | [Ver precio →](https://meli.la/194gVdS) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 

@@ -1,6 +1,6 @@
 {
   "section": "generadores",
-  "checked": "2026-10-01T21:03:32.551120+00:00",
+  "checked": "2026-10-02T14:20:35.615870+00:00",
   "articles": 21,
   "structural_failures": [],
   "sources": [
@@ -1575,13 +1575,20 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-comparaciones-02",
+        "body_sha256": "eb29b61831dd3f1ba9a0d42480b1a5a886dcc787ded43e982f6a2d1db9fdce2e",
+        "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
+        "notes": "Evaluadas las selecciones y tablas: Elegí según tu necesidad; Tipos de generadores: qué comparar; Comparativa de marcas y modelos por escala de carga; Ofertas comerciales: datos que faltan confirmar. Opciones de compra: enlaces en tablas o fichas por modelo; no se fuerza un bloque de tarjetas. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+      }
     },
     {
       "path": "/generadores/precios/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\02-precios-de-grupos-electrogenos.md",
-      "body_sha256": "e639e709343536826fcc80623b1df875075d2455abc0ea502497c312bb3af758",
+      "body_sha256": "df4baa69155a6f82247e9a00b3ddf12c4ad139745628193403954ac42aea1a13",
       "title": "Cuánto cuesta un grupo electrógeno en Argentina",
       "issues": [],
       "sources": [
@@ -1598,8 +1605,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "df4baa69155a6f82247e9a00b3ddf12c4ad139745628193403954ac42aea1a13",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos precios históricos, cuotas y modelos; corregido el pie que afirmaba que el enlace llevaba al precio capturado. La publicación muestra el precio vigente, que puede diferir del 28/09. No se actualizan capturas históricas como si fueran cotizaciones actuales.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/honda/",
@@ -1620,8 +1634,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "e761eaf01c86428218ae688bd4128c2ec4dda630231d9a1451dde6df9b204d22",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos cinco Honda por tecnología, potencia, peso y autonomía. Contrastadas fichas EU22i, EU30is, EG6500CXS, EZ6500CXS y ET12000; conservar kVA, nominal/máximo y discrepancia 150/162 kg del ET12000. Especificaciones de las tarjetas centralizadas con fuentes primarias.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/honda-6500/",
@@ -1640,8 +1661,15 @@
       ],
       "tables": 2,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "e68ca3a25e85e0c77332a657115759e619e2edb845948d396a1312153581822e",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída comparación EG6500CXS frente a EZ6500CXS, cálculos de marcha y arranque, regulación y autonomías. Fichas oficiales confirman 5/5,5 y 5,5/6,5 kVA; los ejemplos no garantizan arranque de una carga real.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/para-casa/",
@@ -1662,13 +1690,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "f5a854eba0e1f48ff6fffbe854d125af6999c3630c380199d46926ef623a3c46",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos inventario doméstico, ejemplos de heladera y aire, cargas, ubicación y transferencia. Datos de marcha y arranque permanecen separados. Pendiente contraste completo del ejemplo LG, manual LG2500 y referencias de seguridad.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/inverter/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\06-generadores-inverter.md",
-      "body_sha256": "989e77c34cce94b5814d5367f5a448bd233524860c7b319337890ae165339f9a",
+      "body_sha256": "dd791a84bece3221712a9412e9d2539cd715617f27e7cd054fa2f77987162a1e",
       "title": "Generadores inverter: cómo funcionan y cuál comprar",
       "issues": [],
       "sources": [
@@ -1683,9 +1718,16 @@
         "https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/"
       ],
       "tables": 2,
-      "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 6,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "dd791a84bece3221712a9412e9d2539cd715617f27e7cd054fa2f77987162a1e",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída guía inverter completa. Comparador ampliado a seis modelos pertinentes: cuatro de la tabla más Gamma y EU30is. Fotos oficiales LGI3.8-8 y LGI11.0-9 incorporadas sin deformación. Dyllu retirado de esta guía porque solo era referencia de precio sin tecnología documentada; conserva su enlace en precios. Dos espacios de afiliado preparados.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/trifasicos/",
@@ -1704,13 +1746,20 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "5679449a8bb9af0ddd6904a5806caaa231af086ffd0747fdd8d5c9a8e7a51387",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos trifásicos, fórmulas, motor WEG, reparto por fase y tres referencias según uso. Honda ET12000 contrastado: 10/11 kVA trifásicos y 3×2,7/3,0 kVA monofásicos. Pendiente contraste completo de WEG, Generac MGG100M y Gamma por combustible.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/a-nafta/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\08-generadores-a-nafta.md",
-      "body_sha256": "37eb40b3a4a1b9be62c098d1cec0af9c2aa5804a2bcef2bfeca17b3e3bcbb7b0",
+      "body_sha256": "1e8aaf33f16fb728695f0e792f40431abc504ac333eb8bf242e37589a523a59d",
       "title": "Generador a nafta: consumo, autonomía y cuál elegir",
       "issues": [],
       "sources": [
@@ -1734,8 +1783,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "1e8aaf33f16fb728695f0e792f40431abc504ac333eb8bf242e37589a523a59d",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos consumo, autonomía, combustibles y seis modelos a nafta. Corregida identidad LG3000/LG3000E: ambos sitios imprimen 4,8 kW además de 2,5/2,8 kVA, con arranques diferentes. Datos Honda y LGI3.8 contrastados; no se comparan horas sin carga común.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/hyundai/",
@@ -1765,18 +1821,18 @@
       "offer_cards": 0,
       "editorial_status": "revisión editorial registrada",
       "editorial_review": {
-        "checked": "2026-10-01",
-        "batch": "fuentes-generales-01",
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
         "body_sha256": "25608345edfe01ff428586e69bfcc2a35727153ce9ea599675116f8f2d77e49d",
-        "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
-        "notes": "Lectura completa: conserva potencia nominal y máxima separadas, discrepancias regionales y autonomía con condiciones. La oferta Cetrogar HHY9500LE redirige a la portada; se retira su enlace y su precio se identifica como histórico. Los siete modelos no son intercambiables sin calcular las cargas.",
-        "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída Hyundai por potencia continua, variantes, precios fechados, servicio y fichas incompletas. HHY2200F oficial confirma 2000/2200 W; el enlace HHY2200 sin sufijo permanece apartado. No se atribuye la oferta HY7500LE a todos los modelos de su tramo.",
+        "full_claim_verification": "pendiente"
       }
     },
     {
       "path": "/generadores/gamma-6500/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\10-gamma-6500.md",
-      "body_sha256": "fef6f513d5ca99f9f2b006c30fc6c34d94c45114f9ffdbb9350d0c1b098cfea7",
+      "body_sha256": "3af61f615bf992a1dd11e4c62e54a8093c522cfbcdaa4dff1618f29bf8461d8a",
       "title": "Gamma 6500: versiones, potencia y usos",
       "issues": [],
       "sources": [
@@ -1788,13 +1844,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "3af61f615bf992a1dd11e4c62e54a8093c522cfbcdaa4dff1618f29bf8461d8a",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída guía de usados Gamma 6500 completa. Corregida contradicción sobre GE3481AR: el manual citado sí aporta 5,5 kW nominales y 6 kW máximos. Se mantienen separados GE3458 y GE3466AR; un solo enlace de alternativa nueva no se titula comparación plural.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\11-generadores-lusqtoff.md",
-      "body_sha256": "46e636f836ef4ddf717914e87a0e6bc31516e0740bedffce95562b165d90fa4c",
+      "body_sha256": "8f6b8896ea366faf41a8822366edc95da035fb97ce133baeebb5d96366074e36",
       "title": "Generadores Lüsqtoff: cuál elegir",
       "issues": [],
       "sources": [
@@ -1821,8 +1884,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "8f6b8896ea366faf41a8822366edc95da035fb97ce133baeebb5d96366074e36",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leído mapa de gama convencional/inverter, tecnologías, garantía y precios históricos. Se distinguen LGI3.8 y LGIS3.8 motosoldadora. Contrastadas fichas LG3000 y LG3000E: corregidos tabla y texto, pues la discrepancia de 4,8 kW existe en ambos. Pendiente contraste completo de los demás códigos.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/gamma/",
@@ -1846,8 +1916,15 @@
       ],
       "tables": 5,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "1fa3e88229ffa7cb0e8ddd9e8a79e6caa8f62cafca9372040772105257ecd839",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída Gamma vigente/discontinuada, matriz de cargas, mantenimiento, precios y combustibles. No se equiparan kVA con kW ni potencia máxima con continua; pendiente contraste completo de trifuel, estacionarios e intervalos de manual.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/monofasicos/",
@@ -1866,13 +1943,20 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "ab2c088391733782dbd98df73a53623c8f3fcf2014919c661f06e4fbc948c789",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos monofásicos, ejemplo PF, marcha/arranque, cinco modelos, tomas y límites. Cálculos 2420 VA/2112 W y 2800/220≈12,7 A consistentes; corriente global no autoriza cualquier toma. Fichas Honda contrastadas; Gamma pendiente de revisión completa de manual.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/diesel/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\14-generadores-diesel.md",
-      "body_sha256": "35441a97a2e316525922f8d05bdb1f8fc14878e497fdee0763f965678f072b57",
+      "body_sha256": "1d821f87f7dbf7b72681d43c6d1d79ce1f0b69957210cc8fdd83bb267068c0d2",
       "title": "Cómo elegir un generador diésel",
       "issues": [],
       "sources": [
@@ -1891,8 +1975,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "1d821f87f7dbf7b72681d43c6d1d79ce1f0b69957210cc8fdd83bb267068c0d2",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos diésel locales, curvas Pramac/Generac, mantenimiento y mono/tri. Retirado botón Daihatsu duplicado; conserva oferta en su fila. Dos fichas locales y referencias documentales comparan configuraciones distintas sin inventar stock. Pendiente contrastar manuales, curvas e identidad de variante.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/portatiles/",
@@ -1912,8 +2003,15 @@
       ],
       "tables": 4,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "c9ae469e80bb6b1d127396a47ab1ba677c9c666b5f1762cd072a5148d224d545",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos portátiles por peso, dimensiones, autonomía, traslado y aplicación. 17/21/28/59/118 kg no implican transporte manual común. Fichas EU22i, EU30is, Gamma inverter y LGI3.8 contrastadas. Pendiente contraste EU70is completo.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/silenciosos/",
@@ -1936,8 +2034,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "32e8813012628340f77f9756aa5b0ddaff3f7b273ec6a468eeb2780e4fa67370",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leído ruido por unidad, distancia, carga y presión/potencia acústica. Gamma publica dB sin ponderación; EU22i dB(A) a 7 m plena carga. No se construye ranking con protocolos distintos. Pendiente EU70is, LGI7.5 y referencia histórica completa.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/gamma-950/",
@@ -1953,8 +2058,15 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "7a05b20b6bb833d2b8e5a8bcccea6fc733abb08abc31be02722e257865fe1bb1",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leído Gamma 950 usado: nominal de manual, ficha ambigua, cargas, mezcla y cálculo de 1,5 L/h derivado sin ensayo. La alternativa LG950P es un modelo distinto. Pendiente contraste integral de manual GE3441AR y proporciones 2T.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/niwa/",
@@ -1975,8 +2087,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "12fa4fd55882bf9286de80f66835c38c57fbd22daf99311dcd0dd0bbbb49d5ed",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída Niwa 28-E/55-ER/70-ER, potencia, tomas, peso bruto, autonomía y precios. Diferencia 50490 pesos/4,3% y +20% nominal consistentes. El enlace 55-E sigue separado de 55-ER; no se traslada la foto ni potencia del ER al E. Pendiente contraste completo del catálogo y manual.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/a-gas/",
@@ -2002,8 +2121,15 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "ac75cee82df7cbc00311b01d34936cbd2ff7cb39169e112e656585b98524928a",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídos gas GN/GLP, siete modelos, consumo por combustible, instalación y kit K1. Trifuel, estacionarios y conversión no se presentan como equivalentes. Pendiente contraste completo de Generac, manuales Gamma y caudales/presiones.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/estacion-de-energia-portatil/",
@@ -2024,13 +2150,20 @@
       ],
       "tables": 3,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "29308ff165f43c17b752ffa66a99d88b273899b691b0d0a1a10a1e02e5886e4a",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leídas estaciones Delta2/AC70/C1000 y variantes Max/P. Wh y W, pérdidas, EPS, entrada solar y región separados. Las ofertas Max y P no se atribuyen a Delta2 y AC70 de la tabla. Pendiente contraste completo de manuales y fichas regionales; no reutilizar sus fotos entre variantes.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/generadores/chicos/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\21-grupos-electrogenos-chicos.md",
-      "body_sha256": "4b5382a2bc760f8983a227a30e9088c9943c5dbdedee3687132c53bea75c9a03",
+      "body_sha256": "787a2e9c14c3f511b53dd240983fd12256c82d014f02993e115a994b590cec95",
       "title": "Grupos electrógenos chicos: Pektra 720 W y Konan 800 W",
       "issues": [],
       "sources": [
@@ -2041,9 +2174,16 @@
         "https://www.konan.com.ar/productos/generador-electrico-kge-800"
       ],
       "tables": 1,
-      "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 3,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "generadores-02",
+        "body_sha256": "787a2e9c14c3f511b53dd240983fd12256c82d014f02993e115a994b590cec95",
+        "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
+        "notes": "Leída comparación Pektra/Konan y alternativa LG950P. Recuperado enlace Pektra GPK980 ya suministrado; comparación de tres modelos con fotos y datos de evidencia propios. Konan y LG950P contrastados en fichas oficiales; Pektra conserva atribución comercial. Cada oferta aparece una vez.",
+        "full_claim_verification": "pendiente"
+      }
     }
   ]
 }

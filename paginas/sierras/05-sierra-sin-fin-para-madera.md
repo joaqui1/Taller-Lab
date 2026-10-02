@@ -34,7 +34,7 @@ Ejemplos: para volver a aserrar una tabla de 180 mm de alto necesitás más de 1
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

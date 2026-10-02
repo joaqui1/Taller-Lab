@@ -42,7 +42,7 @@ La BES603 es una caladora de 400 W con velocidad variable hasta 3.000 carreras p
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Consultá precio y disponibilidad del modelo
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |

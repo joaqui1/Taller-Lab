@@ -46,11 +46,13 @@ Si necesitás comparar otras fichas, consultá la [DeWalt DWE560](/sierras/sierr
 
 <!-- SIERRAS-OFERTAS -->
 
-### Consultá estas opciones en Mercado Libre
+### Compará los modelos y consultá sus enlaces
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | Bosch GKS 150 | Confirmá código 0 601 6B3 0H0 y contenido del kit. | [Ver precio →](https://meli.la/1Chp49C) |
+| DeWalt DWE560 | Confirmá variante DWE560-AR y tensión de la unidad ofrecida. | [Ver precio →](https://meli.la/2zyLxUA) |
+| Stanley SC16 | Confirmá variante SC16-AR, tensión y disco admitido en placa/manual. | [Ver precio →](https://meli.la/1WX3aEo) |
 
 *Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Consultá precio, stock y condiciones de la publicación.*
 

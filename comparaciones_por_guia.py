@@ -8,6 +8,12 @@ def documented(brand, model, source, use, power, specs, warning='', includes='Co
                 cta='Ver ficha del fabricante')
 
 MODELS = {
+ 'aquatak36': documented('Bosch','UniversalAquatak 36V-100 · 06008C7002','https://www.bosch-diy.com/de/de/p/universalaquatak-36v-100-06008c7002','Limpieza móvil con modos ECO y High','36 V POWER FOR ALL',['Hasta 100 bar; trabajo no separado en la ficha','Hasta 3,1 L/min; autosucción hasta 0,5 m','Manguera de presión de 4 m; batería 4 Ah y cargador'],'Referencia europea: confirmá código, accesorios de aspiración y disponibilidad local.'),
+ 'ghp220': documented('Bosch','GHP 220 · 0600910EH0','https://www.bosch-professional.com/ar/es/products/ghp-220-0600910EH0','Patios y suciedad adherida; motor de inducción','220 V',['101,2 bar de trabajo / 151,8 bar máximos','6,1 L/min nominales / 7,4 L/min máximos','Manguera PVC de 8 m; motor de inducción']),
+ 'ghp450': documented('Bosch','GHP 4-50 · 0600910FH0','https://www.bosch-professional.com/ar/es/products/ghp-4-50-0600910FH0','Mayor alcance y bomba de cuatro pistones','220 V',['115,5 bar de trabajo / 173,2 bar máximos','7,3 L/min nominales y máximos','Manguera reforzada de 9 m; motor de inducción']),
+ 'hl1008': documented('Lüsqtoff','HL100-8','https://lusqtoff.com.ar/2023/uploads/Productos/4.%20HIDROLAVADORAS/HL100-8/MANUAL/Manual%20HL100-8-pdf%20curvas_compressed.pdf','Equipo doméstico de 100 bar de trabajo','220 V / 50 Hz',['100 bar de trabajo / 150 bar permitidos','6 L/min de trabajo / 7,5 L/min máximos','2.000 W; cotejá manguera y kit de la unidad'],'No equivale al HL-150: el código y la imagen corresponden al manual HL100-8.'),
+ 'lgi38': documented('Lüsqtoff','LGI3.8-8','https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8','Escalón inverter de 3–4 kW','50 Hz; confirmar tensión en placa',['3,5 kW nominales / 3,8 kW máximos','Inverter; arranque manual','28 kg; tanque de 8 L'],'El campo Tensión de la ficha web imprime 50 Hz; no acredita voltaje. No corresponde al LGIS3.8-8 motosoldadora.'),
+ 'lgi11': documented('Lüsqtoff','LGI11.0-9','https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9','Escalón inverter de mayor capacidad','220 / 380 V; 50 Hz',['10 kVA nominales / 11 kVA máximos','Inverter; arranque eléctrico; PF 1,0 / 0,8','86 kg; tanque de 35 L'],'Confirmá potencia por salida, reparto de fases y corriente de arranque admisible para tus cargas.'),
  'fd186kit': documented('Fengda','FD-186K','https://www.airbrush-fengda.de/fen-FD186K','Kit de doble acción con compresor y limpieza','Confirmar variante 220–240 V / 50 Hz',['BD-130 de doble acción; boquilla 0,3 mm','Compresor FD-186; 23 L/min sin presión asociada','Manguera 1,8 m; soporte, frascos y limpieza'],'La ficha presenta también 110–120 V / 60 Hz; confirmá tensión y contenido de la oferta local.'),
  'as186': documented('Fengda','AS-186','https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186','Aerografía ocasional con tanque de 3 L','220–240 V / 50 Hz',['Tanque 3 L; 20–23 L/min sin carga','Ciclo automático de 3 a 4 bar; salida G1/8','Regulador, filtro, manómetro; 47 dB a 1 m'],'El proveedor excluye uso continuo industrial; confirmar distribución, garantía y variante local.'),
  'as196': documented('Fengda','AS-196','https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196','Aerografía ocasional con doble pistón','220–240 V / 50 Hz',['Tanque 3,5 L; 35–40 L/min sin carga','Modo automático entre 3 y 4 bar; salida G1/8','Regulador, filtro y manómetro; protección térmica'],'El segundo modo hasta 6 bar no tiene corte automático. No acredita trabajo continuo ni caudal útil a presión.'),
@@ -45,6 +51,15 @@ MODELS = {
 
 # URL comerciales ya suministradas. No se crean referidos ni se confirman stocks.
 EXISTING = {
+ 'lapl36':'https://meli.la/1YbCQgP', 'hypresso18':'https://meli.la/1TRSxkF',
+ 'k4base':'https://meli.la/2SvkJCm',
+ 'ghp180':'https://meli.la/1wNMwSL', 'ghp200':'https://meli.la/1zrcYor',
+ 'n700':'https://meli.la/2dFtHcP', 'b2200':'https://meli.la/2MJE81D',
+ 'pektra980':'https://meli.la/2jcLSy1', 'konan800':'https://meli.la/19gLhpz', 'lg950':'https://meli.la/2oCYsWY',
+ 'gammainverter':'https://meli.la/1B4sjDN',
+ 'eu22':'https://meli.la/2AwxqaH', 'eu30':'https://meli.la/2X86187',
+ 'eg6500':'https://meli.la/1sxNfJ5', 'ez6500':'https://meli.la/2Kt6i6Y',
+ 'et12000':'https://meli.la/2WRqiZR', 'lgi55':'https://meli.la/1pJFrBq',
  'mcl150':'https://meli.la/2r8uZXD', 'gadnic9':'https://meli.la/2MHTmab',
  'av37':'https://meli.la/2aSkmx1', 'nictom':'https://meli.la/2Xv53zX',
  'pressito25':'https://meli.la/14u7fCt', 'pressito21':'https://meli.la/1iNDq73',
@@ -73,6 +88,12 @@ def plan(models, reason):
     return dict(models=models, reason=reason)
 
 PLANS = {
+ '/hidrolavadoras/karcher-k4/': plan(['k3','k4base','k4pc','k5base'], 'Los cuatro códigos de la tabla: K3, K4 estándar, K4 Power Control y K5 base. Compará caudal, alcance y kit sin mezclar las dos K4.'),
+ '/hidrolavadoras/inalambricas/': plan(['lapl36','aquatak36','hypresso18'], 'Las dos clases comparadas en la guía y la alternativa Einhell de presión media. Compará presión, autonomía y kit: Bosch usa 36 V; Einhell se ofrece sin batería ni cargador.'),
+ '/hidrolavadoras/bosch/': plan(['ghp180','ghp200','ghp220','ghp450'], 'Los cuatro códigos argentinos de la guía: compará presión de trabajo, caudal nominal, largo de manguera y motor. GHP 220 y GHP 4-50 conservan ficha y foto oficiales mientras se completa su publicación de compra.'),
+ '/hidrolavadoras/150-bar/': plan(['gamma150','hl1008','n700','b2200'], 'Los cuatro modelos de la tabla. El rótulo de 150 bar es máximo o permitido; compará presión de trabajo y caudal bajo la condición publicada. Gamma y HL100-8 tienen enlace documental y foto del modelo exacto.'),
+ '/generadores/chicos/': plan(['pektra980','konan800','lg950'], 'Los dos modelos de la comparación y la alternativa LG950P desarrollada en la guía. Contrastá nominal, máximo, unidades y mezcla del manual propio; el Pektra conserva datos de vendedor.'),
+ '/generadores/inverter/': plan(['eu22','gammainverter','eu30','lgi38','lgi55','lgi11'], 'Compará los cuatro modelos de la tabla y los dos inverter adicionales de la guía. Conservamos kW y kVA en sus unidades publicadas; el LGI5.5-8 necesita potencia nominal confirmada para dimensionar marcha.'),
  '/compresores/kits-aerografo/': plan(['fd186kit','paaschehkit','paaschetgkit'], 'Compará los tres paquetes completos de la tabla: acción simple por succión frente a doble acción por gravedad, compresor y accesorios incluidos. Son fichas documentales; tensión y disponibilidad argentina requieren confirmación.'),
  '/compresores/para-aerografo/': plan(['as186','as196'], 'Compará los dos Fengda de la guía por tanque, pistones, caudal sin carga y modos de control. No equivalen a kits con aerógrafo ni autorizan uso continuo.'),
  '/compresores/para-auto/': plan(['nictom','mcl150','gadnic9'], 'Compará batería integrada con dos equipos conectados a 12 V: corriente, controles, alcance y ciclo publicado. Los caudales sin presión asociada no forman un ranking de velocidad.'),
@@ -105,6 +126,19 @@ PLANS = {
 # Datos de las fichas ya citadas en cada artículo. Se conserva cualquier
 # advertencia sobre la identidad de la publicación suministrada.
 DETAILS = {
+ 'k4base': ('https://www.kaercher.com/ar/home-garden/hidrolavadora/k4-93982940.html', ['1.885 PSI publicados; ≈130 bar convertidos','360 L/h publicados','Manguera de 6 m; motor de inducción; 1.700 W']),
+ 'ghp180': ('https://www.bosch-professional.com/ar/es/products/ghp-180-0600910CH0', ['83 bar de trabajo / 124,5 bar máximos','4 L/min nominales / 5,6 L/min máximos','Manguera PVC de 5 m; aplicador de 450 ml']),
+ 'ghp200': ('https://www.bosch-professional.com/ar/es/products/ghp-200-0600910DH0', ['92 bar de trabajo / 138 bar máximos','5,1 L/min nominales / 7,7 L/min máximos','Manguera PVC de 6 m; aplicador de 450 ml']),
+ 'n700': ('https://www.rumbosrl.com.ar/marcas/niwa/productos-de-limpieza/hidrolavadoras-y-accesorios/hidrolavadoras-electricas/hidrolavadora-electrica-niwa-hdnw-700-1040700', ['120 bar promedio / 150 bar máximos','390 L/h nominales / 450 L/h máximos','Manguera de 5 m; 2.200 W; 220 V / 50 Hz']),
+ 'konan800': ('https://www.konan.com.ar/productos/generador-electrico-kge-800', ['650 W nominales / 800 W máximos','220 V / 50 Hz; arranque manual; motor 2T','Tanque de 4 L; masa no publicada por fabricante']),
+ 'lg950': ('https://www.lusqtoff.com.ar/ver-producto/LG950P', ['0,65 kVA nominales / 0,8 kVA máximos','220 V / 50 Hz; arranque manual; motor 2T','16,2 kg; tanque de 4 L']),
+ 'gammainverter': ('https://www.gammaherramientas.com.ar/producto/grupo-electrogeno-inverter-2kw/', ['2 kW nominales / 2,2 kW de pico','Inverter; 220 V / 50 Hz; arranque manual','17 kg; tanque de 4 L']),
+ 'eu22': ('https://pf.honda.com.ar/producto/EU22i', ['1,8 kVA nominales / 2,2 kVA máximos','Inverter; 220 V / 50 Hz; arranque manual','21 kg en seco; tanque de 3,6 L']),
+ 'eu30': ('https://pf.honda.com.ar/producto/EU30is', ['2,8 kVA nominales / 3 kVA máximos','Inverter; 220 V / 50 Hz; arranque eléctrico','59 kg en seco; tanque de 13 L']),
+ 'eg6500': ('https://pf.honda.com.ar/producto/EG6500CXS', ['5 kVA nominales / 5,5 kVA máximos','D-AVR; 220 V / 50 Hz; arranque eléctrico y manual','87 kg en seco; tanque de 24 L']),
+ 'ez6500': ('https://pf.honda.com.ar/producto/EZ6500CXS', ['5,5 kVA nominales / 6,5 kVA máximos','AVR; 220 V / 50 Hz; arranque eléctrico y manual','80 kg en seco; tanque de 15,5 L']),
+ 'et12000': ('https://pf.honda.com.ar/producto/ET12000', ['10 / 11 kVA nominales / máximos; trifásica 3 × 2,7 / 3 × 3 kVA','220 / 380 V; 50 Hz; AVR; arranque eléctrico','Tanque de 31 L; ficha discrepa entre 150 y 162 kg en seco']),
+ 'lgi55': ('https://lusqtoff.com.ar/ver-producto/LGI5.5-8', ['5,2 kVA máximos; nominal no publicada en la ficha','Inverter; 220 V / 50 Hz; arranque manual y eléctrico','30 kg; tanque de 10 L; 62 dB sin condiciones publicadas']),
  'mcl150': ('https://lusqtoff.com.ar/ver-producto/MCL150-8', ['150 PSI máx.; 60 L/min sin presión asociada','275 W; 2,63 kg; incluye pinzas y extensión de 5 m','Manómetro digital, corte automático y luz; ciclo no publicado']),
  'gadnic9': ('https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min', ['150 PSI máx.; 85 L/min de desplazamiento sin presión asociada','12 V; máx. 23 A; conexión directa a batería','30 min recomendados / 40 min máximos; cable 3 m y manguera 0,25 + 5 m']),
  'av37': ('https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna', ['150 PSI máx.; 35 L/min sin presión asociada','12 V por toma o pinzas; corriente y ciclo no publicados','Digital con corte automático; cable 2,6 m; manguera 0,60 + 3 m']),
@@ -145,6 +179,8 @@ DETAILS = {
 def install_models(facts):
     for key, model in MODELS.items():
         fact = dict(model)
+        if key == 'hl1008':
+            fact.update(cta='Ver manual del fabricante')
         if key in {'fd186kit','as186','as196'}:
             fact.update(source_type='proveedor de marca', evidence_label='Ficha del proveedor de marca; variante y disponibilidad local a confirmar', cta='Ver ficha del proveedor')
         photo = photo_for(model['source']) or photo_for(brand=model['brand'],model=model['model'])
@@ -154,10 +190,22 @@ def install_models(facts):
     for key,(source,specs) in DETAILS.items():
         fact=facts[EXISTING[key]]
         fact.update(source=source, specs=specs, source_type='ficha citada en la guía', evidence_label='Datos del modelo documentado; confirmá que la oferta corresponda al código y kit')
+    facts[EXISTING['lapl36']].update(specs=['30 bar máximos','3,6 L/min máximos','Dos baterías 18 V / 2 Ah y cargador'],power='18 V a batería',use='Enjuague y limpieza ligera desde recipiente')
+    facts[EXISTING['hypresso18']].update(specs=['24 bar máximos','240 L/h máximos','Succión de 5 m; sin batería ni cargador'],power='18 V Power X-Change',use='Presión media para enjuagar y regar')
     for key, use, power in [
+        ('eu22', 'Inverter portátil de 1,8 kVA nominales', '220 V / 50 Hz monofásica'),
+        ('eu30', 'Inverter de 2,8 kVA nominales', '220 V / 50 Hz monofásica'),
+        ('eg6500', 'D-AVR de 5 kVA nominales', '220 V / 50 Hz monofásica'),
+        ('ez6500', 'AVR de 5,5 kVA nominales', '220 V / 50 Hz monofásica'),
+        ('et12000', 'Dimensionar cada fase y el modo de salida', '220 / 380 V; 50 Hz'),
+        ('lgi55', 'Inverter; confirmar potencia nominal', '220 V / 50 Hz'),
         ('mcl150', 'Inflado 12 V con controles digitales', '12 V del vehículo; incluye pinzas'),
         ('gadnic9', 'Inflado 12 V con ciclo publicado', '12 V directo a batería; máx. 23 A'),
         ('av37', 'Inflado 12 V con conexión dual', '12 V por toma o pinzas'),
+        ('pektra980', 'Carga pequeña; datos de vendedor', '220 V monofásica; confirmar frecuencia'),
+        ('konan800', 'Carga pequeña; salida documentada en W', '220 V / 50 Hz monofásica'),
+        ('lg950', 'Carga pequeña; salida documentada en kVA', '220 V / 50 Hz monofásica'),
+        ('gammainverter', 'Inverter compacto de 2 kW nominales', '220 V / 50 Hz monofásica'),
         ('nictom', 'Inflador compacto con batería integrada', 'Batería integrada recargable'),
         ('pressito25', 'Alta y baja presión; caudal publicado por presión', 'Power X-Change 18 V'),
         ('pressito21', 'Alta y baja presión; caudal publicado por presión', 'Power X-Change 18 V'),
@@ -170,6 +218,7 @@ def install_models(facts):
         ('lc30200', '200 L bicilíndrico a correa', '220 V / 50 Hz monofásica'),
     ]:
         facts[EXISTING[key]].update(use=use, power=power)
+    facts[EXISTING['pektra980']].update(source='https://mercadocordoba.com.ar/producto/163', source_type='publicación comercial', evidence_label='Datos de vendedor; sin ficha primaria', specs=['650 W nominales / 720 W máximos según vendedor','220 V monofásica; motor 2T según vendedor','16 kg según vendedor; tanque no verificado'],warning='Potencia y masa sin confirmación primaria; cotejá placa y manual del GPK980.',includes='Confirmá manual, configuración y contenido de la publicación.')
     facts[EXISTING['stanleylocal']]['specs']=['24 L en la fuente histórica / 50 L en el título recibido','FAD no confirmado para este SKU','2 HP anunciados; confirmar placa y manual']
     facts[EXISTING['boschstep']]['specs']=['4–20 mm anunciados; SKU 2608597519','Espesor máximo no confirmado para esta referencia','No atribuir los nueve pasos de 2608597524 sin verificar código']
     facts[EXISTING['boschstep']].update(source='https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/',source_type='familia Bosch; confirmar SKU exacto')
@@ -180,6 +229,7 @@ def install_models(facts):
             fact['warning']=((fact.get('warning') or '')+' '+extra).strip()
 
 LABELS = {
+ 'generadores': ['Potencia nominal / máxima','Salida / tecnología / arranque','Peso / tanque'],
  'hidrolavadoras': ['Presión declarada','Caudal declarado','Alcance / configuración'],
  'compresores': ['Tanque','Aire publicado','Potencia / construcción'],
  'taladros': ['Encastre / diámetro','Prestación / material','Kit / límites'],

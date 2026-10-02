@@ -74,6 +74,8 @@ El precio del EU22i es el publicado por un comercio; los otros tres son PVP visi
 
 **THD:** las páginas del fabricante consultadas para estos modelos no dan una cifra de distorsión armónica total. Por eso no se asigna ni se compara un valor numérico. Si tu equipo conectado establece un límite de THD, pedí el informe o certificación del modelo exacto.
 
+<!-- GENERADORES-COMPARACION -->
+
 ### Nota metodológica sobre el ruido
 
 Las cifras de ruido sirven solo con distancia y condición de medición. Honda publica 57 dB(A) para EU22i a 7 m y plena carga; la página de Lüsqtoff para LGI3.5-8 publica 68 dB sin especificar distancia ni carga; para LGI3.8-8 publica 75 dB a 7 m, pero no indica la carga usada. La ficha del LGI5.5-8 informa 62 dB sin esos detalles. No se pueden ordenar estos cuatro valores como si fueran mediciones comparables ni suponer que el uso real repetirá el dato de catálogo.
@@ -91,12 +93,6 @@ La [ficha Gamma](https://www.gammaherramientas.com.ar/producto/grupo-electrogeno
 Honda publica 2,8 kVA nominales y 3 kVA máximos, con salida monofásica de 220 V. Compará la carga de marcha y sus picos por separado. [Ficha Honda](https://pf.honda.com.ar/producto/EU30is).
 
 [Ver precio del Honda EU30is](https://meli.la/2X86187)
-
-### Referencia comercial de precio: Dyllu DTGEAB08-4
-
-La [guía de precios](/generadores/precios/) incluye una publicación comercial del Dyllu DTGEAB08-4 como referencia de precio. No contamos aquí con documentación primaria para respaldar sus prestaciones, así que no usamos los datos del anuncio para comparar capacidad ni recomendarlo; confirmá placa y manual de la unidad ofrecida.
-
-[Ver precio del Dyllu DTGEAB08-4](https://meli.la/221u1rq)
 
 <!-- /GENERADORES-EXTRAS -->
 

@@ -36,6 +36,8 @@ def main():
             original=[offer['url'] for offer in site.COMPRESORES_OFFERS[path]['offers']]
         elif path.startswith('/hidrolavadoras/'):
             original=[offer['url'] for offer in site.HIDROLAVADORAS_OFFERS[path]['offers']]
+        elif path.startswith('/generadores/'):
+            original=[offer['url'] for offer in site.GENERADORES_OFFERS[path]['offers']]
         else:
             original=[offer['url'] for offer in (site.TALADROS_OFFERS if path.startswith('/taladros/') else site.SOLDADORAS_OFFERS)[path]['offers']]
         assert set(original)<=set(expected),(path,'Oferta anterior retirada')

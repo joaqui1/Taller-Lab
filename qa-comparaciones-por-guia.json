@@ -1,10 +1,88 @@
 {
   "articles_reviewed": 179,
-  "expanded": 27,
-  "cards": 82,
-  "documented_cards": 37,
+  "expanded": 33,
+  "cards": 106,
+  "documented_cards": 45,
   "failures": [],
   "rows": [
+    {
+      "path": "/hidrolavadoras/karcher-k4/",
+      "models": [
+        "Kärcher · K3 Black Edition · 9.398-355.0",
+        "Kärcher · K4 · 9.398-294.0",
+        "Kärcher · K4 Power Control · 1.603-402.0",
+        "Kärcher · K5 · 9.398-295.0"
+      ],
+      "original_offers": 2,
+      "count": 4,
+      "reason": "Los cuatro códigos de la tabla: K3, K4 estándar, K4 Power Control y K5 base. Compará caudal, alcance y kit sin mezclar las dos K4.",
+      "documented": 1
+    },
+    {
+      "path": "/hidrolavadoras/inalambricas/",
+      "models": [
+        "Lüsqtoff · LAPL3.6-8BK",
+        "Bosch · UniversalAquatak 36V-100 · 06008C7002",
+        "Einhell · HYPRESSO 18/24-1 Li · 4140135"
+      ],
+      "original_offers": 2,
+      "count": 3,
+      "reason": "Las dos clases comparadas en la guía y la alternativa Einhell de presión media. Compará presión, autonomía y kit: Bosch usa 36 V; Einhell se ofrece sin batería ni cargador.",
+      "documented": 1
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "models": [
+        "Bosch · GHP 180",
+        "Bosch · GHP 200",
+        "Bosch · GHP 220 · 0600910EH0",
+        "Bosch · GHP 4-50 · 0600910FH0"
+      ],
+      "original_offers": 2,
+      "count": 4,
+      "reason": "Los cuatro códigos argentinos de la guía: compará presión de trabajo, caudal nominal, largo de manguera y motor. GHP 220 y GHP 4-50 conservan ficha y foto oficiales mientras se completa su publicación de compra.",
+      "documented": 2
+    },
+    {
+      "path": "/hidrolavadoras/150-bar/",
+      "models": [
+        "Gamma · 150 Elite · G2514AR",
+        "Lüsqtoff · HL100-8",
+        "Niwa · HDNW-700 · 1040700",
+        "BLACK+DECKER · BEPW2200-AR"
+      ],
+      "original_offers": 2,
+      "count": 4,
+      "reason": "Los cuatro modelos de la tabla. El rótulo de 150 bar es máximo o permitido; compará presión de trabajo y caudal bajo la condición publicada. Gamma y HL100-8 tienen enlace documental y foto del modelo exacto.",
+      "documented": 2
+    },
+    {
+      "path": "/generadores/chicos/",
+      "models": [
+        "Pektra · GPK980",
+        "Konan · KGE/800",
+        "Lüsqtoff · LG950P"
+      ],
+      "original_offers": 3,
+      "count": 3,
+      "reason": "Los dos modelos de la comparación y la alternativa LG950P desarrollada en la guía. Contrastá nominal, máximo, unidades y mezcla del manual propio; el Pektra conserva datos de vendedor.",
+      "documented": 0
+    },
+    {
+      "path": "/generadores/inverter/",
+      "models": [
+        "Honda · EU22i",
+        "Gamma · GE3497AR",
+        "Honda · EU30is",
+        "Lüsqtoff · LGI3.8-8",
+        "Lüsqtoff · LGI5.5-8",
+        "Lüsqtoff · LGI11.0-9"
+      ],
+      "original_offers": 4,
+      "count": 6,
+      "reason": "Compará los cuatro modelos de la tabla y los dos inverter adicionales de la guía. Conservamos kW y kVA en sus unidades publicadas; el LGI5.5-8 necesita potencia nominal confirmada para dimensionar marcha.",
+      "documented": 2
+    },
     {
       "path": "/compresores/kits-aerografo/",
       "models": [

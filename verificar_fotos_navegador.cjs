@@ -3,7 +3,7 @@ const fs=require('fs');
 (async()=>{
  const browser=await chromium.launch({headless:true,channel:'msedge'});
  const page=await browser.newPage();const results=[];const failures=[];
- const paths=JSON.parse(fs.readFileSync('rutas-qa-fotos.json','utf8'));
+ const paths=JSON.parse(fs.readFileSync(process.env.QA_PATHS_FILE||'rutas-qa-fotos.json','utf8'));
  for(const width of [320,390,1440]){
   await page.setViewportSize({width,height:900});
   for(const path of paths){

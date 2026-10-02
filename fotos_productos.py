@@ -10,12 +10,21 @@ ROOT = Path(__file__).resolve().parent
 MANIFEST = ROOT / 'fotos-modelos.json'
 PHOTOS = json.loads(MANIFEST.read_text(encoding='utf-8')).get('products', {}) if MANIFEST.exists() else {}
 
+def source_key(url):
+    parsed=urlsplit(url or '')
+    host=(parsed.hostname or '').lower()
+    if host.startswith('www.'):
+        host=host[4:]
+    return (parsed.scheme,host,parsed.port,parsed.path.rstrip('/'),parsed.query)
+
+SOURCE_PHOTOS={source_key(url):photo for url,photo in PHOTOS.items()}
+
 def model_key(brand, model):
     text = unicodedata.normalize('NFKD', brand + model).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]', '', text)
 
 def photo_for(url=None, brand='', model=''):
-    photo = PHOTOS.get(url, {})
+    photo = PHOTOS.get(url, {}) or SOURCE_PHOTOS.get(source_key(url),{})
     if not photo.get('image') and brand and model:
         key = model_key(brand, model)
         photo = next((p for p in PHOTOS.values() if p.get('image') and model_key(p.get('brand', ''), p.get('model', '')) == key), {})
