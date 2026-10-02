@@ -1,10 +1,83 @@
 {
   "articles_reviewed": 179,
-  "expanded": 21,
-  "cards": 63,
-  "documented_cards": 32,
+  "expanded": 27,
+  "cards": 82,
+  "documented_cards": 37,
   "failures": [],
   "rows": [
+    {
+      "path": "/compresores/kits-aerografo/",
+      "models": [
+        "Fengda · FD-186K",
+        "Paasche · H-100D",
+        "Paasche · TG-100D"
+      ],
+      "original_offers": 0,
+      "count": 3,
+      "reason": "Compará los tres paquetes completos de la tabla: acción simple por succión frente a doble acción por gravedad, compresor y accesorios incluidos. Son fichas documentales; tensión y disponibilidad argentina requieren confirmación.",
+      "documented": 3
+    },
+    {
+      "path": "/compresores/para-aerografo/",
+      "models": [
+        "Fengda · AS-186",
+        "Fengda · AS-196"
+      ],
+      "original_offers": 0,
+      "count": 2,
+      "reason": "Compará los dos Fengda de la guía por tanque, pistones, caudal sin carga y modos de control. No equivalen a kits con aerógrafo ni autorizan uso continuo.",
+      "documented": 2
+    },
+    {
+      "path": "/compresores/para-auto/",
+      "models": [
+        "Nictom · IE01",
+        "Lüsqtoff · MCL150-8",
+        "Gadnic · AV000009"
+      ],
+      "original_offers": 3,
+      "count": 3,
+      "reason": "Compará batería integrada con dos equipos conectados a 12 V: corriente, controles, alcance y ciclo publicado. Los caudales sin presión asociada no forman un ranking de velocidad.",
+      "documented": 0
+    },
+    {
+      "path": "/compresores/inalambricos/",
+      "models": [
+        "Einhell · PRESSITO 18/25",
+        "Einhell · PRESSITO 18/21",
+        "Makita · DMP180Z"
+      ],
+      "original_offers": 3,
+      "count": 3,
+      "reason": "Los tres infladores de la tabla: compará plataforma, caudal a presión y salida de baja presión. Confirmá el contenido de cada SKU y las pausas de su manual.",
+      "documented": 0
+    },
+    {
+      "path": "/compresores/inflador-neumaticos-portatil/",
+      "models": [
+        "Gadnic · AV000009",
+        "Lüsqtoff · MCL150-8",
+        "Gadnic · AV37-TY",
+        "Makita · DMP180Z",
+        "Einhell · PRESSITO 18/25"
+      ],
+      "original_offers": 3,
+      "count": 5,
+      "reason": "Los cinco modelos desarrollados: conexión directa a batería, conexión dual o batería de herramientas; alta presión y bomba separada de alto volumen cuando corresponde.",
+      "documented": 0
+    },
+    {
+      "path": "/compresores/12v-doble-piston/",
+      "models": [
+        "Lüsqtoff · MCL150-8",
+        "Gadnic · AV000009",
+        "Gadnic · AV37-TY"
+      ],
+      "original_offers": 3,
+      "count": 3,
+      "reason": "Compará conexión, corriente, corte automático, alcance y ciclo entre los tres modelos con publicación suministrada. El número de pistones no acredita caudal útil ni velocidad.",
+      "documented": 0
+    },
     {
       "path": "/compresores/200-litros/",
       "models": [

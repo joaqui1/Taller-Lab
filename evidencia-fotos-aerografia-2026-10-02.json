@@ -1,0 +1,42 @@
+[
+  {
+    "source": "https://www.airbrush-fengda.de/fen-FD186K",
+    "checked": "2026-10-02",
+    "html_sha256": "093d5d66794bdc445e0bb9c3e3672bd45bcadca92348a0e29c1102aa81f01748",
+    "original_image": "https://www.airbrush-fengda.de/WebRoot/Store3/Shops/17680069/5FBF/D774/B2B4/D818/F57F/0A0C/6D0E/5C0C/fen-AS186K.jpg",
+    "local_image": "fengdafd186k-064063c567.webp",
+    "bytes": 20508
+  },
+  {
+    "source": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186",
+    "checked": "2026-10-02",
+    "html_sha256": "45295d606d5e9dcc4a2e0d48f135de8e1c0ee58c7bc4f0c5e464232fb2ab37ae",
+    "original_image": "https://www.airbrush-fengda.de/WebRoot/Store3/Shops/17680069/51D3/F864/18F8/D5F1/4E85/C0A8/29C3/6102/fen-AS186-fengda-RGB.jpg",
+    "local_image": "fengdaas186-8c569495ce.webp",
+    "bytes": 25528
+  },
+  {
+    "source": "https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196",
+    "checked": "2026-10-02",
+    "html_sha256": "198412a877dde8a50f23e7cf634d42edceb3885511de54230502c8519ccbc2c1",
+    "original_image": "https://www.airbrush-fengda.de/WebRoot/Store3/Shops/17680069/51D3/F87A/4712/1B3B/C7F0/C0A8/29C3/6106/fen-AS196-fengda1.jpg",
+    "local_image": "fengdaas196-973864df76.webp",
+    "bytes": 23230
+  },
+  {
+    "source": "https://paascheairbrush.com/products/h-100d",
+    "checked": "2026-10-02",
+    "html_sha256": "669dfbfb8107b51470e6524afc6c1564f9870a148632527b57d4bd04a26b7e52",
+    "original_image": "http://paascheairbrush.com/cdn/shop/files/46771993-e391-4fa8-8baa-8f5150dd5169.jpg?v=1754679606",
+    "local_image": "paascheh100d-144c1428e5.webp",
+    "bytes": 40406
+  },
+  {
+    "source": "https://paascheairbrush.com/products/tg-100d",
+    "checked": "2026-10-02",
+    "html_sha256": "214dbf621160125ea9c0858c39736f24deaf7af538ccb963dcc09eb9c11f78d1",
+    "original_image": "http://paascheairbrush.com/cdn/shop/files/402bac11-8413-469f-85bb-4556aae0d5fd.jpg?v=1754681665",
+    "local_image": "paaschetg100d-f2ffad3853.webp",
+    "bytes": 49184
+  }
+]

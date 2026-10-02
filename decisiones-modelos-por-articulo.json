@@ -824,8 +824,8 @@
   {
     "path": "/compresores/para-auto/",
     "title": "Compresor de aire para auto: cuál elegir",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí un compresor para auto según alimentación, corriente, ciclo de trabajo y alcance. Compará opciones 12 V e inalámbricas sin confundir PSI máximo con presión del neumático.",
+    "decision": "Ampliar",
+    "reason": "Compará batería integrada con dos equipos conectados a 12 V: corriente, controles, alcance y ciclo publicado. Los caudales sin presión asociada no forman un ranking de velocidad.",
     "tables": [
       {
         "heading": "Qué cambia según la alimentación",
@@ -952,8 +952,8 @@
   {
     "path": "/compresores/kits-aerografo/",
     "title": "Kits de aerógrafo con compresor: guía para principiantes",
-    "decision": "Criterio propuesto",
-    "reason": "La elección combina aerógrafo, compresor y conexiones por tarea; conservar ejemplos documentados sin inventar un kit completo.",
+    "decision": "Ampliar",
+    "reason": "Compará los tres paquetes completos de la tabla: acción simple por succión frente a doble acción por gravedad, compresor y accesorios incluidos. Son fichas documentales; tensión y disponibilidad argentina requieren confirmación.",
     "tables": [
       {
         "heading": "Qué debe traer un kit completo",
@@ -994,8 +994,8 @@
   {
     "path": "/compresores/pistola-para-pintar/",
     "title": "Cómo elegir una pistola para pintar con compresor",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Elegí una pistola para pintar según el trabajo, la alimentación, la boquilla y el caudal de salida a presión de trabajo del compresor. Incluye datos BTA documentados.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa por tarea, sistema/alimentación, boquilla, copa, presión dinámica y consumo. Las tres alternativas BTA son pistolas, no compresores. Contrastada AS-1021 actual: 85L/minaprox,10–40PSI,1L. Pendiente confirmar todas las cifras ASP1070/ASPM1070 contra el catálogo actual; no se deduce compatibilidad por2HP.",
     "tables": [
       {
         "heading": "Qué pistola elegir según el trabajo",
@@ -1061,8 +1061,8 @@
   {
     "path": "/compresores/para-aerografo/",
     "title": "Qué compresor comprar para tu aerógrafo",
-    "decision": "Criterio propuesto",
-    "reason": "Mantener los cinco modelos documentados y sus requisitos; los referidos Fengda pendientes no acreditan un kit comprable.",
+    "decision": "Ampliar",
+    "reason": "Compará los dos Fengda de la guía por tanque, pistones, caudal sin carga y modos de control. No equivalen a kits con aerógrafo ni autorizan uso continuo.",
     "tables": [
       {
         "heading": "Cinco compresores diseñados para aerografía",
@@ -1241,8 +1241,8 @@
   {
     "path": "/compresores/kits-accesorios/",
     "title": "Qué kit de accesorios comprar para un compresor",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Compara kits de aire por uso, piezas incluidas, tipo de pistola, manguera, conexiones y consumo antes de comprar.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa de tres kits independientes y dos presentaciones de compresor con accesorios. Mantener comparador de kits independientes sin mezclar compresor más kit como sustituto. Contrastada AA-5000K: recipiente600ml,boquilla1,5mm,manguera5m,lavado1000ml,2,2kg. Pendiente contraste de catálogo BTA para279010/279013 y contenido Gamma. No asignar el consumo AS-1021 a pistolas no identificadas.",
     "tables": [
       {
         "heading": "Kits documentados: qué trae cada presentación",
@@ -1499,8 +1499,8 @@
   {
     "path": "/compresores/inalambricos/",
     "title": "Cómo elegir un compresor inalámbrico a batería",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Qué mirar en un inflador a batería: plataforma, batería, presión, caudal, accesorios y diferencias entre inflar neumáticos y objetos de gran volumen.",
+    "decision": "Ampliar",
+    "reason": "Los tres infladores de la tabla: compará plataforma, caudal a presión y salida de baja presión. Confirmá el contenido de cada SKU y las pausas de su manual.",
     "tables": [
       {
         "heading": "Presión, caudal y uso: qué dato mirar",
@@ -1636,8 +1636,8 @@
   {
     "path": "/compresores/inflador-neumaticos-portatil/",
     "title": "Inflador de neumáticos portátil: cuál conviene según el uso",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Compara infladores portátiles de 12 V y a batería según uso, caudal a presión, autonomía, tamaño, manguera, cable y accesorios.",
+    "decision": "Ampliar",
+    "reason": "Los cinco modelos desarrollados: conexión directa a batería, conexión dual o batería de herramientas; alta presión y bomba separada de alto volumen cuando corresponde.",
     "tables": [
       {
         "heading": "12 V conectado al vehículo o batería inalámbrica",
@@ -1673,6 +1673,8 @@
     ],
     "cards_before": [
       "Gadnic · AV000009",
+      "Lüsqtoff · MCL150-8",
+      "Gadnic · AV37-TY",
       "Makita · DMP180Z",
       "Einhell · PRESSITO 18/25"
     ]
@@ -1680,8 +1682,8 @@
   {
     "path": "/compresores/12v-doble-piston/",
     "title": "Compresor 12V doble pistón: guía para elegirlo",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Guía para elegir un compresor portátil 12 V de doble pistón por corriente, conexión a batería, caudal a presión, ciclo, temperatura y alcance.",
+    "decision": "Ampliar",
+    "reason": "Compará conexión, corriente, corte automático, alcance y ciclo entre los tres modelos con publicación suministrada. El número de pistones no acredita caudal útil ni velocidad.",
     "tables": [
       {
         "heading": "Cuatro modelos 12 V doble pistón documentados",
@@ -5361,8 +5363,8 @@
   {
     "path": "/soldadura-electronica/kit-soldador-de-estano/",
     "title": "Kit soldador de estaño: elegí el equipo según la reparación",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Guía de kits para soldar estaño con comparación de componentes, potencia y tensión declaradas por Pro’sKit, Velleman y Weller.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste de los tres kits en fuentes oficiales. Corregido código Weller WLC100K a WLIRK6012A, apoyo integrado y LED; ficha60W120V frente a descripción genérica30W. ProskitPK916Gtabla30W220–240V460°C±10%GplugChina, texto genérico40W distinguido. Velleman25W420°C220–240V50HzE/F y componentes coinciden. No hay oferta exacta suministrada para estos tres kits ni se atribuye el contenido a una búsqueda general.",
     "tables": [
       {
         "heading": "",
@@ -5378,8 +5380,8 @@
   {
     "path": "/soldadura-electronica/estacion-de-soldadura/",
     "title": "Estación de soldadura electrónica: cuál comprar para tu mesa",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste de funciones, potencia, temperatura y aire de fichas YiHUA878D/898D y LüsqtoffES3L45. Añadida diferencia878Dinglés100–480°C/español100–450°C, evitando promesa comparativa entre revisiones no identificadas. ES3L45regulación200–480°C220V50Hzsin pistola de aire; entrada0.045/45sin unidad no convertida a watts. Tabla responde a cautín frente a aire+cautín; pendiente resolver versión exacta de ofertas locales.",
     "tables": [
       {
         "heading": "Cómo investigamos esta guía",
@@ -5395,8 +5397,8 @@
   {
     "path": "/soldadura-electronica/gadnic-878d/",
     "title": "Gadnic 878D: qué revisar antes de comprar la estación",
-    "decision": "Criterio propuesto",
-    "reason": "Conservar la discrepancia entre potencias y la distinción respecto de YiHUA. El nombre 878D no acredita equivalencia entre fabricantes.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste GadnicSOLD0002actual: título/tablapotencia370W, descripciónsetecientoscincuentawatts,220V100–450°Caire200–480°Ccautín120L/min2,3kg. Discrepancia externa sigue real; no trasladar datoYiHUA. Los accesorios de ficha coinciden. Mantener oferta de Gadnic separada de YiHUA por identidad; revisión visual/lectura completa de manual para resolución pendiente.",
     "tables": [
       {
         "heading": "",
@@ -5412,8 +5414,8 @@
   {
     "path": "/soldadura-electronica/yihua-898d/",
     "title": "Yihua 898D: qué incluye y para qué trabajos sirve",
-    "decision": "Criterio propuesto",
-    "reason": "Ya distingue 898D, 898D+ y 878D por funciones y variante. Mantener las referencias de fabricante sin mezclar sus kits.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste de todos los parámetros tabulados con fabricante:730W,220V±10%50Hz,650Waire,50/75Wcautín,100–480/200–480°C,120L/min,2,65kg,±5°Cestática y accesorios5/8/10mm. Corregida inferencia universal de mayor rango que878D: páginas española/inglesa878Ddiscrepan450/480°C. Preservar variantes898D/898D+ y no prometer térmica real/kit vendedor.",
     "tables": [
       {
         "heading": "",
@@ -5432,8 +5434,8 @@
   {
     "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
     "title": "Soporte para soldar con lupa: qué revisar antes de comprar",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Comparación de soportes para soldar con lupa por aumento declarado, brazos, pinzas, base y luz, con especificaciones atribuidas a cada fabricante.",
+    "decision": "Lectura registrada",
+    "reason": "Lectura completa y contraste Proskit608391E60mm3X8Dbase55×55×35vidriohierrofundido y dosbrazos; WellerWLACCHHB02dos pinzas4way4X. VellemanVTHH3N3AAAsegún declaración, sin atribuir aumento no publicado. Pendiente visualPDFdeclaración por fallo de screenshot. Oferta genérica anterior no identificada por modelo: conservar separación sin atribuirle características de estos tres productos.",
     "tables": [
       {
         "heading": "",

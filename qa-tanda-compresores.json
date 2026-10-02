@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-02T03:50:43.723279+00:00",
+  "checked": "2026-10-02T04:15:24.945677+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1127,7 +1127,7 @@
     {
       "path": "/compresores/para-auto/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\01-compresor-de-aire-para-auto.md",
-      "body_sha256": "91c84b960076a77ee96f5954508010692cfc32172a542b77cec2f1bd17fe87b4",
+      "body_sha256": "c25b1facba411ebf1e9bfe95ed9e700b271cfa38edcdd7a29957453c6a80d8e1",
       "title": "Compresor de aire para auto: cuál elegir",
       "issues": [],
       "sources": [
@@ -1138,8 +1138,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "c25b1facba411ebf1e9bfe95ed9e700b271cfa38edcdd7a29957453c6a80d8e1",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de alimentación, corriente, conexión, ciclo y alcance. Corregida batería integrada como definición universal: puede ser extraíble. Contrastadas fichas actuales MCL150-8 y AV000009: añadidas pinzas/fusible, conexión directa, corriente, longitudes y ciclo publicados. Tres tarjetas concretas con datos y filtros de alimentación. La cuarta referencia JD permanece en la tabla sin trasladarle datos de otra marca; contraste de su publicación pendiente.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/50-litros/",
@@ -1199,7 +1206,7 @@
     {
       "path": "/compresores/kits-aerografo/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\04-aerografo-con-compresor.md",
-      "body_sha256": "f5e4c714257452aa49d081780b6caff6e01355d00613e2d91b548ddaf8b48086",
+      "body_sha256": "8f301f7cb4e2eaa339d102a193e7966477cc0022f3bd16c210ce8e2e1f61a636",
       "title": "Kits de aerógrafo con compresor: guía para principiantes",
       "issues": [],
       "sources": [
@@ -1215,9 +1222,16 @@
         "https://www.iwata-airbrush.com/iwata-airbrush-beginner-set.html"
       ],
       "tables": 3,
-      "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 3,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "8f301f7cb4e2eaa339d102a193e7966477cc0022f3bd16c210ce8e2e1f61a636",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de componentes, acción simple/doble, boquillas, tanque y aplicaciones. Añadidas tres alternativas completas ya tratadas: FD-186K, H-100D y TG-100D, con fotos identificadas en sus fichas y CTA funcional documental. Contrastada lista Fengda. Corregida atribución de tres cabezales incluidos en TG-100D: la lista enumera1y3, aunque la tabla técnica describe tres; H-100D también distingue lista de paquete de descripción general. Pendientes variantes eléctricas/locales e Iwata.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/pistola-para-pintar/",
@@ -1232,8 +1246,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "6016ad78827a6857811e6393c01680ce62259f9e6460f674b7e1dcd8792a2e28",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa por tarea, sistema/alimentación, boquilla, copa, presión dinámica y consumo. Las tres alternativas BTA son pistolas, no compresores. Contrastada AS-1021 actual: 85L/minaprox,10–40PSI,1L. Pendiente confirmar todas las cifras ASP1070/ASPM1070 contra el catálogo actual; no se deduce compatibilidad por2HP.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/acoples-rapidos/",
@@ -1263,7 +1284,7 @@
     {
       "path": "/compresores/para-aerografo/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\07-compresor-para-aerografo.md",
-      "body_sha256": "0378d8ba94f938ace9e2b124c91a940acb376d5aa062a48ade3fcfd168c616e2",
+      "body_sha256": "4e535a42e82ecfda06378813a6ba7229abcd074bfa2aeabb719e27574b86a750",
       "title": "Qué compresor comprar para tu aerógrafo",
       "issues": [],
       "sources": [
@@ -1279,9 +1300,16 @@
         "https://www.sparmaxair.com/compressor-master-1/tc-501n"
       ],
       "tables": 2,
-      "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 2,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "4e535a42e82ecfda06378813a6ba7229abcd074bfa2aeabb719e27574b86a750",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de cinco modelos, ajuste con flujo, conexiones, ciclo y filtrado. Contrastadas fichas AS-186/AS-196, Sparmax TC-501N/TC-610H e Iwata Smart Jet Pro. Añadida comparación visual de ambos Fengda: 3/3,5L, flujo sin carga y modos distintos, no kits con aerógrafo. Conservada discrepancia Iwata20L/mina60PSIconmax50PSI. Completar manuales y presiones de los aerógrafos citados.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/aceite/",
@@ -1427,8 +1455,15 @@
       ],
       "tables": 3,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "2c5e20985cf4f43fb4b53ef6e9a4ce111482cb38d94c2ecb51c767a690381246",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de tres kits independientes y dos presentaciones de compresor con accesorios. Mantener comparador de kits independientes sin mezclar compresor más kit como sustituto. Contrastada AA-5000K: recipiente600ml,boquilla1,5mm,manguera5m,lavado1000ml,2,2kg. Pendiente contraste de catálogo BTA para279010/279013 y contenido Gamma. No asignar el consumo AS-1021 a pistolas no identificadas.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/lusqtoff-100-litros/",
@@ -1582,8 +1617,15 @@
       ],
       "tables": 2,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "06335b1457448b383fb09a21a59c00a032acd98277186f4f569c070d18ac1d9b",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa por plataforma, alta/baja presión, caudal a presión y autonomía. Tres tarjetas de los modelos tratados con datos específicos, sin usar el filtro genérico de alimentación. Contrastadas fichas Einhell 18/25 y 18/21. El catálogo Makita y los ciclos de todos los modelos requieren completar contraste independiente; la duración por batería no se presenta como uso continuo.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/stanley/",
@@ -1606,8 +1648,15 @@
       ],
       "tables": 2,
       "offer_cards": 4,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "4366240063ff08caa4b1f7bffe2e604bace69223ae095e93bf68aedea2d51b4a",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de gama actual, referencias históricas y SKUlocal. Comparador existente de cuatro referencias coherente con tabla y advertencias de mercado. Diferencia de tanque no se interpreta como mayor caudal. Discrepancia24/50LdelSKUlocal y pertenenciaD210no acreditada permanecen diferenciadas. Completar contraste de todas las fichas Mecafer/catálogos y título del destino comercial antes de certificar cifras.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/para-pintar/",
@@ -1656,9 +1705,16 @@
         "https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min"
       ],
       "tables": 3,
-      "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 5,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "443b6f7f34275e2d169a366e6278878658860a07be586912458bfabb96c229dc",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de las cinco opciones y usos por vehículo/objeto. Comparador ampliado de tres a cinco modelos de la propia tabla: Gadnic AV000009, MCL150-8, AV37-TY, DMP180Z y PRESSITO18/25. Contrastadas conexión/cable/manguera/controles y caudal de Gadnic/Lüsqtoff y entrega por presión de Einhell. Conservadas condiciones distintas de caudal; pendiente contraste íntegro del catálogo Makita.",
+        "full_claim_verification": "pendiente"
+      }
     },
     {
       "path": "/compresores/12v-doble-piston/",
@@ -1674,8 +1730,15 @@
       ],
       "tables": 1,
       "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "compresores-05",
+        "body_sha256": "7a169ad88e473cc728b78e2f3b96529ec9999c46e606c3a92167c9f5fec2aaab",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+        "notes": "Lectura completa de arquitectura, conexión, cálculo eléctrico, ciclo y discrepancia AV000012. Datos concretos de las tres tarjetas y alimentación diferenciada, contrastados MCL150-8, AV000009 y AV37-TY. No se inventa afiliado AV000012 ni se usa el máximo caudal como prueba de velocidad; completar contraste actual de AV000012 y su manual.",
+        "full_claim_verification": "pendiente"
+      }
     }
   ]
 }

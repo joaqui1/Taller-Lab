@@ -406,5 +406,171 @@
     "scope": "lectura editorial completa; contraste selectivo de fuentes primarias y manuales",
     "notes": "Lectura completa; manual Gamma G2802AR PDF p.8 confirma revisar cartucho regularmente y cambiar cuando sea necesario, sin intervalo universal. Ficha BTA FRL 802834.1 confirma conexión, presión, micronaje y rótulos distintos de caudal. Se identifica el FRL por 802834.1: BTA reutiliza AA-2040I en un arenador 279001, que no es ese repuesto. Se mantiene la separación entre admisión y línea y no se añade un filtro universal sin referencia compatible.",
     "full_claim_verification": "contrastes selectivos documentados; documentación adicional pendiente"
+  },
+  "/compresores/para-auto/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "c25b1facba411ebf1e9bfe95ed9e700b271cfa38edcdd7a29957453c6a80d8e1",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de alimentación, corriente, conexión, ciclo y alcance. Corregida batería integrada como definición universal: puede ser extraíble. Contrastadas fichas actuales MCL150-8 y AV000009: añadidas pinzas/fusible, conexión directa, corriente, longitudes y ciclo publicados. Tres tarjetas concretas con datos y filtros de alimentación. La cuarta referencia JD permanece en la tabla sin trasladarle datos de otra marca; contraste de su publicación pendiente.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/inalambricos/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "06335b1457448b383fb09a21a59c00a032acd98277186f4f569c070d18ac1d9b",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa por plataforma, alta/baja presión, caudal a presión y autonomía. Tres tarjetas de los modelos tratados con datos específicos, sin usar el filtro genérico de alimentación. Contrastadas fichas Einhell 18/25 y 18/21. El catálogo Makita y los ciclos de todos los modelos requieren completar contraste independiente; la duración por batería no se presenta como uso continuo.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/inflador-neumaticos-portatil/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "443b6f7f34275e2d169a366e6278878658860a07be586912458bfabb96c229dc",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de las cinco opciones y usos por vehículo/objeto. Comparador ampliado de tres a cinco modelos de la propia tabla: Gadnic AV000009, MCL150-8, AV37-TY, DMP180Z y PRESSITO18/25. Contrastadas conexión/cable/manguera/controles y caudal de Gadnic/Lüsqtoff y entrega por presión de Einhell. Conservadas condiciones distintas de caudal; pendiente contraste íntegro del catálogo Makita.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/12v-doble-piston/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "7a169ad88e473cc728b78e2f3b96529ec9999c46e606c3a92167c9f5fec2aaab",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de arquitectura, conexión, cálculo eléctrico, ciclo y discrepancia AV000012. Datos concretos de las tres tarjetas y alimentación diferenciada, contrastados MCL150-8, AV000009 y AV37-TY. No se inventa afiliado AV000012 ni se usa el máximo caudal como prueba de velocidad; completar contraste actual de AV000012 y su manual.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/kits-aerografo/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "8f301f7cb4e2eaa339d102a193e7966477cc0022f3bd16c210ce8e2e1f61a636",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de componentes, acción simple/doble, boquillas, tanque y aplicaciones. Añadidas tres alternativas completas ya tratadas: FD-186K, H-100D y TG-100D, con fotos identificadas en sus fichas y CTA funcional documental. Contrastada lista Fengda. Corregida atribución de tres cabezales incluidos en TG-100D: la lista enumera1y3, aunque la tabla técnica describe tres; H-100D también distingue lista de paquete de descripción general. Pendientes variantes eléctricas/locales e Iwata.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/para-aerografo/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "4e535a42e82ecfda06378813a6ba7229abcd074bfa2aeabb719e27574b86a750",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de cinco modelos, ajuste con flujo, conexiones, ciclo y filtrado. Contrastadas fichas AS-186/AS-196, Sparmax TC-501N/TC-610H e Iwata Smart Jet Pro. Añadida comparación visual de ambos Fengda: 3/3,5L, flujo sin carga y modos distintos, no kits con aerógrafo. Conservada discrepancia Iwata20L/mina60PSIconmax50PSI. Completar manuales y presiones de los aerógrafos citados.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/pistola-para-pintar/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "6016ad78827a6857811e6393c01680ce62259f9e6460f674b7e1dcd8792a2e28",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa por tarea, sistema/alimentación, boquilla, copa, presión dinámica y consumo. Las tres alternativas BTA son pistolas, no compresores. Contrastada AS-1021 actual: 85L/minaprox,10–40PSI,1L. Pendiente confirmar todas las cifras ASP1070/ASPM1070 contra el catálogo actual; no se deduce compatibilidad por2HP.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/kits-accesorios/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "2c5e20985cf4f43fb4b53ef6e9a4ce111482cb38d94c2ecb51c767a690381246",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de tres kits independientes y dos presentaciones de compresor con accesorios. Mantener comparador de kits independientes sin mezclar compresor más kit como sustituto. Contrastada AA-5000K: recipiente600ml,boquilla1,5mm,manguera5m,lavado1000ml,2,2kg. Pendiente contraste de catálogo BTA para279010/279013 y contenido Gamma. No asignar el consumo AS-1021 a pistolas no identificadas.",
+    "full_claim_verification": "pendiente"
+  },
+  "/compresores/stanley/": {
+    "checked": "2026-10-02",
+    "batch": "compresores-05",
+    "body_sha256": "4366240063ff08caa4b1f7bffe2e604bace69223ae095e93bf68aedea2d51b4a",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas; fotos e interacciones",
+    "notes": "Lectura completa de gama actual, referencias históricas y SKUlocal. Comparador existente de cuatro referencias coherente con tabla y advertencias de mercado. Diferencia de tanque no se interpreta como mayor caudal. Discrepancia24/50LdelSKUlocal y pertenenciaD210no acreditada permanecen diferenciadas. Completar contraste de todas las fichas Mecafer/catálogos y título del destino comercial antes de certificar cifras.",
+    "full_claim_verification": "pendiente"
+  },
+  "/soldadura-electronica/kit-soldador-de-estano/": {
+    "checked": "2026-10-02",
+    "batch": "soldadura-electronica-01",
+    "body_sha256": "9c0aef5a2c6cd2f948653eb12e83586443b1b94d7c033ad4c3033ab12f04a71e",
+    "scope": "lectura editorial completa y contrastes de fichas primarias",
+    "notes": "Lectura completa y contraste de los tres kits en fuentes oficiales. Corregido código Weller WLC100K a WLIRK6012A, apoyo integrado y LED; ficha60W120V frente a descripción genérica30W. ProskitPK916Gtabla30W220–240V460°C±10%GplugChina, texto genérico40W distinguido. Velleman25W420°C220–240V50HzE/F y componentes coinciden. No hay oferta exacta suministrada para estos tres kits ni se atribuye el contenido a una búsqueda general.",
+    "full_claim_verification": "pendiente",
+    "evidence": [
+      {
+        "source": "https://www.proskit.com/Product/PK-916G?hl=en-US",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en",
+        "checked": "2026-10-02"
+      }
+    ]
+  },
+  "/soldadura-electronica/estacion-de-soldadura/": {
+    "checked": "2026-10-02",
+    "batch": "soldadura-electronica-01",
+    "body_sha256": "dc44a8a6ca4487ae51b0f137ca73c6e1b0cd8b4171c444dc750efce235d80f0a",
+    "scope": "lectura editorial completa y contrastes de fichas primarias",
+    "notes": "Lectura completa y contraste de funciones, potencia, temperatura y aire de fichas YiHUA878D/898D y LüsqtoffES3L45. Añadida diferencia878Dinglés100–480°C/español100–450°C, evitando promesa comparativa entre revisiones no identificadas. ES3L45regulación200–480°C220V50Hzsin pistola de aire; entrada0.045/45sin unidad no convertida a watts. Tabla responde a cautín frente a aire+cautín; pendiente resolver versión exacta de ofertas locales.",
+    "full_claim_verification": "pendiente",
+    "evidence": [
+      {
+        "source": "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+        "checked": "2026-10-02"
+      }
+    ]
+  },
+  "/soldadura-electronica/gadnic-878d/": {
+    "checked": "2026-10-02",
+    "batch": "soldadura-electronica-01",
+    "body_sha256": "d4b5ff3ac0ee7ff7bb4354646b209c4db80f4a7642aafe69620ad84f6d8b4f12",
+    "scope": "lectura editorial completa y contrastes de fichas primarias",
+    "notes": "Lectura completa y contraste GadnicSOLD0002actual: título/tablapotencia370W, descripciónsetecientoscincuentawatts,220V100–450°Caire200–480°Ccautín120L/min2,3kg. Discrepancia externa sigue real; no trasladar datoYiHUA. Los accesorios de ficha coinciden. Mantener oferta de Gadnic separada de YiHUA por identidad; revisión visual/lectura completa de manual para resolución pendiente.",
+    "full_claim_verification": "pendiente",
+    "evidence": [
+      {
+        "source": "https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w",
+        "checked": "2026-10-02"
+      }
+    ]
+  },
+  "/soldadura-electronica/yihua-898d/": {
+    "checked": "2026-10-02",
+    "batch": "soldadura-electronica-01",
+    "body_sha256": "d6dccf225eaa85efc4952cc51b5a8768465cc198252aeced2ecc2fda2ed6235b",
+    "scope": "lectura editorial completa y contrastes de fichas primarias",
+    "notes": "Lectura completa y contraste de todos los parámetros tabulados con fabricante:730W,220V±10%50Hz,650Waire,50/75Wcautín,100–480/200–480°C,120L/min,2,65kg,±5°Cestática y accesorios5/8/10mm. Corregida inferencia universal de mayor rango que878D: páginas española/inglesa878Ddiscrepan450/480°C. Preservar variantes898D/898D+ y no prometer térmica real/kit vendedor.",
+    "full_claim_verification": "pendiente",
+    "evidence": [
+      {
+        "source": "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+        "checked": "2026-10-02"
+      }
+    ]
+  },
+  "/soldadura-electronica/soporte-para-soldar-con-lupa/": {
+    "checked": "2026-10-02",
+    "batch": "soldadura-electronica-01",
+    "body_sha256": "216c31dc7a6acde9bf6147cf6e1f86e6d49e8324775e3c09a1752d285458af79",
+    "scope": "lectura editorial completa y contrastes de fichas primarias",
+    "notes": "Lectura completa y contraste Proskit608391E60mm3X8Dbase55×55×35vidriohierrofundido y dosbrazos; WellerWLACCHHB02dos pinzas4way4X. VellemanVTHH3N3AAAsegún declaración, sin atribuir aumento no publicado. Pendiente visualPDFdeclaración por fallo de screenshot. Oferta genérica anterior no identificada por modelo: conservar separación sin atribuirle características de estos tres productos.",
+    "full_claim_verification": "pendiente",
+    "evidence": [
+      {
+        "source": "https://www.proskit.com/Product/608-391E?hl=en-US",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://www.weller-tools.com/us/en/consumer/products/soldering-accessories/helping-hands-magnifier",
+        "checked": "2026-10-02"
+      },
+      {
+        "source": "https://cdn.velleman.eu/downloads/doc/1950001-vthh3n_ce.pdf",
+        "checked": "2026-10-02"
+      }
+    ]
   }
 }

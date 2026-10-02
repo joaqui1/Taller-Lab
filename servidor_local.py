@@ -1016,7 +1016,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
           <p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p>
           {source}
           <div class="offer-actions">
-            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="{action_rel}"{placement}>{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre') if affiliate else 'Ver ficha del fabricante'))} ↗</a>
+            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="{action_rel}"{placement}>{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre') if affiliate else (facts or {}).get('cta', 'Ver ficha del fabricante')))} ↗</a>
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
           {'<label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>' if type_counts[compare_type] >= 2 else ''}

@@ -29,7 +29,7 @@ def main():
             action=card.select_one('.offer-button')
             assert action['href']==url,(path,url)
             if url not in site.AFFILIATE_URLS:
-                assert 'Ver ficha del fabricante' in action.get_text(),(path,url)
+                assert site.PRODUCT_FACTS[url]['cta'] in action.get_text(),(path,url)
                 assert not action.get('data-affiliate-placement') and 'sponsored' not in action.get('rel',[]),(path,url)
                 assert 'MODELO DOCUMENTADO' in card.get_text(),(path,url)
         if path.startswith('/compresores/'):

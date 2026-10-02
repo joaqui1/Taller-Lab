@@ -36,6 +36,8 @@ published: true
 
 **Análisis TallerLab:** frente a la 878D, la tabla del fabricante eleva el rango superior de aire de 450 a 480 °C y la potencia de máquina de 700 W ±10% máximo a 730 W. Esa diferencia describe lo publicado, no prueba una mejora de rendimiento en una reparación. Para una compra, cotejá el sufijo, la tensión de placa, el mango/calentador, las boquillas y la garantía local. No confundas el máximo de 120 L/min con una recomendación de caudal.
 
+El rango de 100–450 °C de la 878D procede de la página española enlazada. La [ficha inglesa de la serie 878D](https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/) publica 100–480 °C; por esa discrepancia, no se puede afirmar que toda 898D tenga un rango mayor que toda 878D sin identificar sus revisiones.
+
 **Desconocido:** la ficha conjunta no permite atribuir automáticamente a una unidad 898D todas las opciones enumeradas para 898D+. No confirmamos disponibilidad de repuestos, contenido de una oferta argentina ni resultados térmicos reales. No se revisaron opiniones de compradores.
 
 ## Cómo investigamos esta guía

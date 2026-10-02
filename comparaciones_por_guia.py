@@ -8,6 +8,11 @@ def documented(brand, model, source, use, power, specs, warning='', includes='Co
                 cta='Ver ficha del fabricante')
 
 MODELS = {
+ 'fd186kit': documented('Fengda','FD-186K','https://www.airbrush-fengda.de/fen-FD186K','Kit de doble acción con compresor y limpieza','Confirmar variante 220–240 V / 50 Hz',['BD-130 de doble acción; boquilla 0,3 mm','Compresor FD-186; 23 L/min sin presión asociada','Manguera 1,8 m; soporte, frascos y limpieza'],'La ficha presenta también 110–120 V / 60 Hz; confirmá tensión y contenido de la oferta local.'),
+ 'as186': documented('Fengda','AS-186','https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-186','Aerografía ocasional con tanque de 3 L','220–240 V / 50 Hz',['Tanque 3 L; 20–23 L/min sin carga','Ciclo automático de 3 a 4 bar; salida G1/8','Regulador, filtro, manómetro; 47 dB a 1 m'],'El proveedor excluye uso continuo industrial; confirmar distribución, garantía y variante local.'),
+ 'as196': documented('Fengda','AS-196','https://www.airbrush-fengda.de/Hobby-Kompressor-mit-dem-Druckbehaelter-Fengda-AS-196','Aerografía ocasional con doble pistón','220–240 V / 50 Hz',['Tanque 3,5 L; 35–40 L/min sin carga','Modo automático entre 3 y 4 bar; salida G1/8','Regulador, filtro y manómetro; protección térmica'],'El segundo modo hasta 6 bar no tiene corte automático. No acredita trabajo continuo ni caudal útil a presión.'),
+ 'paaschehkit': documented('Paasche','H-100D','https://paascheairbrush.com/products/h-100d','Kit de acción simple y alimentación por succión','Confirmar tensión y frecuencia',['H-3AS de acción simple; mezcla externa','D500SR con regulador y trampa de humedad','Manguera 6 pies; adaptador 1/8 BSP; limpieza AC-7'],'La lista de contenido y la descripción general discrepan en cabezales. Confirmá paquete, tensión y disponibilidad local.'),
+ 'paaschetgkit': documented('Paasche','TG-100D','https://paascheairbrush.com/products/tg-100d','Kit de doble acción y alimentación por gravedad','Confirmar tensión y frecuencia',['TG-3AS de doble acción; mezcla interna','D500SR con regulador y trampa de humedad','Manguera 6 pies; adaptador 1/8 BSP; limpieza AC-7'],'La lista de contenido enumera cabezales 1 y 3; la tabla describe también el 2. Confirmá cabezales, tensión y disponibilidad local.'),
  'lc40200doc': documented('Lüsqtoff','LC40200-8','https://lusqtoff.com.ar/productos/LC40200-8','Reserva de 200 L y bomba tricilíndrica a correa','380 V / 50 Hz trifásica',['200 L; 130 kg','458 L/min en ficha actual; condición no indicada','3.000 W / 4 HP; máx. 115 PSI']),
  'schulz200': documented('Schulz','MAX CSV 20/200 · 922.9303-0','https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0','Referencia de dos etapas y régimen intermitente','220 V / 60 Hz monofásica',['172,8 L; 133,1 kg netos','566 L/min de desplazamiento teórico; no FAD','5 cv / 3,7 kW; máx. 175 PSI'],'Ficha brasileña de 60 Hz; no acredita compatibilidad con 50 Hz ni disponibilidad argentina. Exigí variante y placa para la instalación local.'),
  'lcvs': documented('Lüsqtoff','LC-2550VS','https://lusqtoff.com.ar/ver-producto/LC-2550VS','Alternativa vertical sin aceite de 50 L','220 V / 50 Hz',['50 L; sin aceite','230 L/min; condición de medición no indicada','1.750 W / 2,5 HP; 72 dB sin condiciones acústicas']),
@@ -40,6 +45,10 @@ MODELS = {
 
 # URL comerciales ya suministradas. No se crean referidos ni se confirman stocks.
 EXISTING = {
+ 'mcl150':'https://meli.la/2r8uZXD', 'gadnic9':'https://meli.la/2MHTmab',
+ 'av37':'https://meli.la/2aSkmx1', 'nictom':'https://meli.la/2Xv53zX',
+ 'pressito25':'https://meli.la/14u7fCt', 'pressito21':'https://meli.la/1iNDq73',
+ 'dmp180':'https://meli.la/2uRPKYD',
  'lc30200':'https://meli.la/2vfnWE7',
  'lc50kit':'https://meli.la/2FtyGQc', 'lc3550':'https://meli.la/21xNVUN',
  'lc30100':'https://meli.la/2r6QkaT', 'lc40100':'https://meli.la/127ZaQu',
@@ -64,6 +73,12 @@ def plan(models, reason):
     return dict(models=models, reason=reason)
 
 PLANS = {
+ '/compresores/kits-aerografo/': plan(['fd186kit','paaschehkit','paaschetgkit'], 'Compará los tres paquetes completos de la tabla: acción simple por succión frente a doble acción por gravedad, compresor y accesorios incluidos. Son fichas documentales; tensión y disponibilidad argentina requieren confirmación.'),
+ '/compresores/para-aerografo/': plan(['as186','as196'], 'Compará los dos Fengda de la guía por tanque, pistones, caudal sin carga y modos de control. No equivalen a kits con aerógrafo ni autorizan uso continuo.'),
+ '/compresores/para-auto/': plan(['nictom','mcl150','gadnic9'], 'Compará batería integrada con dos equipos conectados a 12 V: corriente, controles, alcance y ciclo publicado. Los caudales sin presión asociada no forman un ranking de velocidad.'),
+ '/compresores/inalambricos/': plan(['pressito25','pressito21','dmp180'], 'Los tres infladores de la tabla: compará plataforma, caudal a presión y salida de baja presión. Confirmá el contenido de cada SKU y las pausas de su manual.'),
+ '/compresores/inflador-neumaticos-portatil/': plan(['gadnic9','mcl150','av37','dmp180','pressito25'], 'Los cinco modelos desarrollados: conexión directa a batería, conexión dual o batería de herramientas; alta presión y bomba separada de alto volumen cuando corresponde.'),
+ '/compresores/12v-doble-piston/': plan(['mcl150','gadnic9','av37'], 'Compará conexión, corriente, corte automático, alcance y ciclo entre los tres modelos con publicación suministrada. El número de pistones no acredita caudal útil ni velocidad.'),
  '/compresores/200-litros/': plan(['lc30200','lc40200doc','schulz200'], 'Los tres modelos documentados en el artículo, con alimentación y frecuencia explícitas. El Schulz de 60 Hz requiere acreditar una variante compatible para compra local; tanque y caudal teórico no prueban rendimiento sostenido.'),
  '/compresores/lusqtoff-50-litros/': plan(['lc50','lc50kit','lc3550','lcvs','lcs50'], 'Las cinco variantes desarrolladas en la guía: básico, kits y dos alternativas sin aceite. Compará accesorios y mantenimiento; los caudales no tienen condiciones comunes de medición.'),
  '/compresores/lusqtoff-100-litros/': plan(['lc30100','lc40100','lcs100'], 'Correa lubricada, mando directo lubricado y sin aceite. Son los tres modelos de la guía; confirmá entrega de aire a presión y ciclo para la herramienta prevista.'),
@@ -90,6 +105,13 @@ PLANS = {
 # Datos de las fichas ya citadas en cada artículo. Se conserva cualquier
 # advertencia sobre la identidad de la publicación suministrada.
 DETAILS = {
+ 'mcl150': ('https://lusqtoff.com.ar/ver-producto/MCL150-8', ['150 PSI máx.; 60 L/min sin presión asociada','275 W; 2,63 kg; incluye pinzas y extensión de 5 m','Manómetro digital, corte automático y luz; ciclo no publicado']),
+ 'gadnic9': ('https://www.gadnic.com.ar/infladores-y-compresores/compresor-de-aire-12v-85l-min', ['150 PSI máx.; 85 L/min de desplazamiento sin presión asociada','12 V; máx. 23 A; conexión directa a batería','30 min recomendados / 40 min máximos; cable 3 m y manguera 0,25 + 5 m']),
+ 'av37': ('https://www.gadnic.com.ar/infladores-y-compresores/compresor-12v-doble-cilindro-gadnic-av37-ty-digital-auto-linterna', ['150 PSI máx.; 35 L/min sin presión asociada','12 V por toma o pinzas; corriente y ciclo no publicados','Digital con corte automático; cable 2,6 m; manguera 0,60 + 3 m']),
+ 'nictom': ('https://www.nictom.com.ar/productos/inflador-compresor-de-aire-portatil-bateria-powerbank-ie01-gris/', ['Batería integrada; 16 L/min máximos anunciados','Pantalla digital, luz y función PowerBank anunciadas','Autonomía bajo carga, presión máxima y ciclo a confirmar en manual']),
+ 'pressito25': ('https://www.einhell.com.ar/p/4020420-pressito-18-25/', ['11 bar máx.; 17 / 11 / 9 L/min a 0 / 4 / 7 bar','Power X-Change 18 V; batería y cargador aparte','Alta y baja presión; 2,28 kg sin batería; manual: 5 min de uso / 5 min de enfriamiento']),
+ 'pressito21': ('https://www.einhell.com.ar/p/4020467-pressito-18-21/', ['10,5 bar máx.; 14 / 9 / 6 L/min a 0 / 4 / 7 bar','Power X-Change 18 V; batería y cargador aparte','Alta y baja presión, succión, pantalla y corte automático']),
+ 'dmp180': ('https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf', ['830 kPa máx.; 12 / 8 / 7 L/min a 200 / 700 / 830 kPa','Makita LXT 18 V; confirmar contenido del SKU ofrecido','Manguera de 65 cm; pantalla, luz y corte automático']),
  'lc30200': ('https://lusqtoff.com.ar/productos/LC30200-8', ['200 L; a correa; bicilíndrico','335 L/min; condición de medición no indicada','2.200 W / 3 HP; 220 V / 50 Hz']),
  'lc50kit': ('https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk', ['50 L; lubricado','206 L/min; condición de medición no indicada','2,5 HP; confirmar sufijo -8 y kit']),
  'lc3550': ('https://lusqtoff.com.ar/ver-producto/LC-3550BK', ['50 L; lubricado; bicilíndrico','300 L/min; condición de medición no indicada','3,5 HP; kit con manguera de 5 m']),
@@ -123,6 +145,8 @@ DETAILS = {
 def install_models(facts):
     for key, model in MODELS.items():
         fact = dict(model)
+        if key in {'fd186kit','as186','as196'}:
+            fact.update(source_type='proveedor de marca', evidence_label='Ficha del proveedor de marca; variante y disponibilidad local a confirmar', cta='Ver ficha del proveedor')
         photo = photo_for(model['source']) or photo_for(brand=model['brand'],model=model['model'])
         if photo:
             fact.update(image=photo['image'],image_source=photo['source'],image_width=photo['width'],image_height=photo['height'],illustrative=False)
@@ -131,6 +155,13 @@ def install_models(facts):
         fact=facts[EXISTING[key]]
         fact.update(source=source, specs=specs, source_type='ficha citada en la guía', evidence_label='Datos del modelo documentado; confirmá que la oferta corresponda al código y kit')
     for key, use, power in [
+        ('mcl150', 'Inflado 12 V con controles digitales', '12 V del vehículo; incluye pinzas'),
+        ('gadnic9', 'Inflado 12 V con ciclo publicado', '12 V directo a batería; máx. 23 A'),
+        ('av37', 'Inflado 12 V con conexión dual', '12 V por toma o pinzas'),
+        ('nictom', 'Inflador compacto con batería integrada', 'Batería integrada recargable'),
+        ('pressito25', 'Alta y baja presión; caudal publicado por presión', 'Power X-Change 18 V'),
+        ('pressito21', 'Alta y baja presión; caudal publicado por presión', 'Power X-Change 18 V'),
+        ('dmp180', 'Alta presión; caudal publicado por presión', 'Makita LXT 18 V'),
         ('lc50', 'Versión básica de 50 L', '220 V monofásica'),
         ('lc50kit', '50 L lubricado con kit documentado', '220 V monofásica'),
         ('lc3550', '50 L bicilíndrico con kit documentado', '220 V monofásica'),
@@ -156,7 +187,13 @@ LABELS = {
 }
 
 def editorial_config(path, category):
-    return dict(PLANS[path],labels=LABELS[category], placement=category+'-contextual' if category in {'taladros','soldadoras'} else 'shelf-'+category)
+    labels = ['Presión / aire publicado','Alimentación / configuración','Controles / alcance / ciclo'] if path in {
+        '/compresores/para-auto/', '/compresores/inalambricos/',
+        '/compresores/inflador-neumaticos-portatil/', '/compresores/12v-doble-piston/',
+    } else LABELS[category]
+    if path == '/compresores/kits-aerografo/':
+        labels = ['Aerógrafo / acción','Compresor incluido','Manguera / accesorios']
+    return dict(PLANS[path],labels=labels, placement=category+'-contextual' if category in {'taladros','soldadoras'} else 'shelf-'+category)
 
 def selection(path, category, facts):
     config = PLANS.get(path)

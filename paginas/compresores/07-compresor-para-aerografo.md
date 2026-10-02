@@ -65,6 +65,8 @@ La medición de ruido solo aparece para algunos equipos y no con condiciones com
 
 Las fichas Sparmax enlazadas no indican tensión y frecuencia. En Argentina, confirmá en la etiqueta de la unidad que sea la variante de 220 V/50 Hz antes de comprar. No uses un transformador o adaptador de enchufe para resolver una diferencia de tensión sin autorización expresa del fabricante.
 
+<!-- COMPRESORES-OFFERS -->
+
 ## Caudal sin carga y consumo real
 
 El Fengda AS-186 y el AS-196 publican valores explícitos **sin carga**. Esos números describen el flujo de la bomba en una condición indicada por la ficha; no demuestran cuánto aire entregan a la presión requerida por tu aerógrafo. En el caso de Sparmax, las páginas consultadas publican “airflow” pero no explican allí la condición de ensayo. Ninguno de estos datos debe tratarse automáticamente como aire efectivo a la salida.

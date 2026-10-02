@@ -40,6 +40,8 @@ published: true
 
 **Dato documentado:** YiHUA publica estaciones 878D y 898D con pistola de aire y cautín; Lüsqtoff presenta ES3L45-8 como estación con regulación de temperatura de cautín. Se indican rangos y potencia según la fuente del fabricante, sin convertirlos en mediciones independientes.
 
+La tabla usa la página inglesa de YiHUA 878D, que publica aire de 100–480 °C. La [página española de la misma serie](https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/) publica 100–450 °C. Esa diferencia entre fichas no acredita una revisión del equipo: confirmá rango y versión con la placa/manual de la unidad ofrecida.
+
 **Análisis TallerLab:** si la tarea requiere retirar componentes SMD con aire, el tipo de herramienta incluida es una diferencia funcional que se puede verificar antes de comprar. Para soldadura puntual con cautín, comparar puntas, repuestos y control térmico del modelo exacto. Una lectura de temperatura de ficha no describe estabilidad real en la punta bajo carga.
 
 **Desconocido:** la página YiHUA agrupa variantes; no confirma qué versión llega en cada oferta argentina, enchufe local, garantía ni disponibilidad de boquillas/puntas. La ficha ES3L45-8 publica datos de entrada ambiguos; no se convierten a watts sin manual legible. No se verificó precisión térmica con instrumentos.

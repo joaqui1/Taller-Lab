@@ -49,5 +49,26 @@
     "guides": [
       "/compresores/200-litros/"
     ]
+  },
+  "Fengda FD-186K": {
+    "affiliate_url": "",
+    "guides": [
+      "/compresores/kits-aerografo/"
+    ],
+    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
+  },
+  "Fengda AS-186": {
+    "affiliate_url": "",
+    "guides": [
+      "/compresores/para-aerografo/"
+    ],
+    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
+  },
+  "Fengda AS-196": {
+    "affiliate_url": "",
+    "guides": [
+      "/compresores/para-aerografo/"
+    ],
+    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
   }
 }

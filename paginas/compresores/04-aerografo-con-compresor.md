@@ -86,10 +86,12 @@ Estos ejemplos aparecen como paquetes completos en páginas de sus marcas o dist
 | :--- | :--- | :--- |
 | [Fengda FD-186K](https://www.airbrush-fengda.de/fen-FD186K) | BD-130 de doble acción, boquilla de 0,3 mm, manguera de 1,8 m, soporte, frascos de prueba y set de limpieza | Incluye compresor FD-186; la ficha del paquete publica 23 L/min y presión máxima de 4 bar. Identifica versiones eléctricas de 220–240 V/50 Hz o 110–120 V/60 Hz: confirmar cuál se vende |
 | [Iwata Beginner Kit IW125 con NEO CN](https://www.iwata-airbrush.com/iwata-airbrush-beginner-set.html) | NEO CN de doble acción y alimentación por gravedad; incluye bote de limpieza, manguera y materiales didácticos/de práctica | Incluye compresor Ninja Jet con regulador y soporte integrado; la página declara **110–120 V**, así que esa configuración publicada no se conecta directamente a una red de otra tensión |
-| [Paasche H-100D](https://paascheairbrush.com/products/h-100d) | H-3AS de acción simple, cabezales de 0,45 y 1,05 mm, copa y frascos, soporte, manguera, adaptador, herramientas y set de limpieza | Incluye compresor D500SR con regulador y trampa de humedad. La ficha consultada no especifica su tensión eléctrica |
-| [Paasche TG-100D](https://paascheairbrush.com/products/tg-100d) | TG-3AS de doble acción, gravedad, cabezales de 0,25, 0,38 y 0,66 mm, manguera, adaptador y manual | Incluye compresor D500SR, regulador y trampa de humedad; la ficha consultada no especifica tensión eléctrica |
+| [Paasche H-100D](https://paascheairbrush.com/products/h-100d) | H-3AS de acción simple por succión; la lista del paquete enumera cabezales de 0,45 y 1,05 mm. Copa y frascos, soporte, manguera, adaptador, herramientas y limpieza AC-7 | Incluye compresor D500SR con regulador y trampa de humedad. La descripción general del aerógrafo también enumera 0,65 mm: confirmar cuáles trae el paquete. La ficha no especifica tensión eléctrica |
+| [Paasche TG-100D](https://paascheairbrush.com/products/tg-100d) | TG-3AS de doble acción por gravedad; la lista del paquete enumera cabezales 1 y 3; manguera, adaptador, manual y limpieza AC-7 | Incluye D500SR, regulador y trampa de humedad. La tabla del aerógrafo enumera 0,25 / 0,38 / 0,66 mm, pero no confirma que los tres estén en el paquete; verificar contenido y tensión eléctrica |
 
 En el paquete Fengda, la fuente consultada enumera los accesorios incluidos. En los Paasche, la descripción presenta el aerógrafo, el compresor y el set de limpieza bajo un mismo código. En Iwata, el fabricante lo llama opción de caja única e identifica compresor, aerógrafo y accesorios. Para cada compra, volvé a cotejar la lista de la publicación concreta: el contenido puede variar por versión o vendedor.
+
+<!-- COMPRESORES-OFFERS -->
 
 ## Un ejemplo útil: BTA AP8 no incluye compresor
 

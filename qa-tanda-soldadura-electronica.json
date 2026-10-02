@@ -1,6 +1,6 @@
 {
   "section": "soldadura-electronica",
-  "checked": "2026-10-01T21:02:27.459177+00:00",
+  "checked": "2026-10-02T04:15:30.647390+00:00",
   "articles": 5,
   "structural_failures": [],
   "sources": [
@@ -166,7 +166,7 @@
     {
       "path": "/soldadura-electronica/kit-soldador-de-estano/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\01-kit-soldador-de-estano.md",
-      "body_sha256": "ec1e45c790a00c591134410aae013047ed95e4ca4ef0fd4bd9b397552cd742d7",
+      "body_sha256": "9c0aef5a2c6cd2f948653eb12e83586443b1b94d7c033ad4c3033ab12f04a71e",
       "title": "Kit soldador de estaño: elegí el equipo según la reparación",
       "issues": [],
       "sources": [
@@ -177,25 +177,64 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadura-electronica-01",
+        "body_sha256": "9c0aef5a2c6cd2f948653eb12e83586443b1b94d7c033ad4c3033ab12f04a71e",
+        "scope": "lectura editorial completa y contrastes de fichas primarias",
+        "notes": "Lectura completa y contraste de los tres kits en fuentes oficiales. Corregido código Weller WLC100K a WLIRK6012A, apoyo integrado y LED; ficha60W120V frente a descripción genérica30W. ProskitPK916Gtabla30W220–240V460°C±10%GplugChina, texto genérico40W distinguido. Velleman25W420°C220–240V50HzE/F y componentes coinciden. No hay oferta exacta suministrada para estos tres kits ni se atribuye el contenido a una búsqueda general.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://www.proskit.com/Product/PK-916G?hl=en-US",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://www.weller-tools.com/us/en/consumer/products/corded-soldering-irons/soldering-iron-kit-60w120v-us",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://www.velleman.eu/products/view/electric-soldering-set-k-sold2n/?id=353840&lang=en",
+            "checked": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "path": "/soldadura-electronica/estacion-de-soldadura/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\02-estacion-de-soldadura.md",
-      "body_sha256": "fe2824c36d19bd95b3515fcd41c46d71e1ba1322277932c41fd9d9f6a8992fde",
+      "body_sha256": "dc44a8a6ca4487ae51b0f137ca73c6e1b0cd8b4171c444dc750efce235d80f0a",
       "title": "Estación de soldadura electrónica: cuál comprar para tu mesa",
       "issues": [],
       "sources": [
         "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
         "https://lusqtoff.com.ar/ver-productos/13-soldadoras-inverter",
         "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+        "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
         "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadura-electronica-01",
+        "body_sha256": "dc44a8a6ca4487ae51b0f137ca73c6e1b0cd8b4171c444dc750efce235d80f0a",
+        "scope": "lectura editorial completa y contrastes de fichas primarias",
+        "notes": "Lectura completa y contraste de funciones, potencia, temperatura y aire de fichas YiHUA878D/898D y LüsqtoffES3L45. Añadida diferencia878Dinglés100–480°C/español100–450°C, evitando promesa comparativa entre revisiones no identificadas. ES3L45regulación200–480°C220V50Hzsin pistola de aire; entrada0.045/45sin unidad no convertida a watts. Tabla responde a cautín frente a aire+cautín; pendiente resolver versión exacta de ofertas locales.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://lusqtoff.com.ar/ver-producto/ES3L45-8",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
+            "checked": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "path": "/soldadura-electronica/gadnic-878d/",
@@ -210,23 +249,54 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadura-electronica-01",
+        "body_sha256": "d4b5ff3ac0ee7ff7bb4354646b209c4db80f4a7642aafe69620ad84f6d8b4f12",
+        "scope": "lectura editorial completa y contrastes de fichas primarias",
+        "notes": "Lectura completa y contraste GadnicSOLD0002actual: título/tablapotencia370W, descripciónsetecientoscincuentawatts,220V100–450°Caire200–480°Ccautín120L/min2,3kg. Discrepancia externa sigue real; no trasladar datoYiHUA. Los accesorios de ficha coinciden. Mantener oferta de Gadnic separada de YiHUA por identidad; revisión visual/lectura completa de manual para resolución pendiente.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://www.gadnic.com.ar/soldadoras/estacion-de-soldado-smd-750w",
+            "checked": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "path": "/soldadura-electronica/yihua-898d/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\soldadura-electronica\\04-yihua-898d.md",
-      "body_sha256": "761c216eb174c8119a3077f661c6cbb7d37f5606ab171fabfb5932cfd0c9b8ca",
+      "body_sha256": "d6dccf225eaa85efc4952cc51b5a8768465cc198252aeced2ecc2fda2ed6235b",
       "title": "Yihua 898D: qué incluye y para qué trabajos sirve",
       "issues": [],
       "sources": [
+        "https://www.yihua-soldering.com/product-1-2-1-hot-air-rework-station-en/147657/",
         "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
         "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/"
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadura-electronica-01",
+        "body_sha256": "d6dccf225eaa85efc4952cc51b5a8768465cc198252aeced2ecc2fda2ed6235b",
+        "scope": "lectura editorial completa y contrastes de fichas primarias",
+        "notes": "Lectura completa y contraste de todos los parámetros tabulados con fabricante:730W,220V±10%50Hz,650Waire,50/75Wcautín,100–480/200–480°C,120L/min,2,65kg,±5°Cestática y accesorios5/8/10mm. Corregida inferencia universal de mayor rango que878D: páginas española/inglesa878Ddiscrepan450/480°C. Preservar variantes898D/898D+ y no prometer térmica real/kit vendedor.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://yihua-soldering.com/product-1-2-3-hot-air-rework-station-en/147659/",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://www.yihuasoldering.com/product-1-2-1-hot-air-rework-station/147657/",
+            "checked": "2026-10-02"
+          }
+        ]
+      }
     },
     {
       "path": "/soldadura-electronica/soporte-para-soldar-con-lupa/",
@@ -241,8 +311,29 @@
       ],
       "tables": 1,
       "offer_cards": 0,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-02",
+        "batch": "soldadura-electronica-01",
+        "body_sha256": "216c31dc7a6acde9bf6147cf6e1f86e6d49e8324775e3c09a1752d285458af79",
+        "scope": "lectura editorial completa y contrastes de fichas primarias",
+        "notes": "Lectura completa y contraste Proskit608391E60mm3X8Dbase55×55×35vidriohierrofundido y dosbrazos; WellerWLACCHHB02dos pinzas4way4X. VellemanVTHH3N3AAAsegún declaración, sin atribuir aumento no publicado. Pendiente visualPDFdeclaración por fallo de screenshot. Oferta genérica anterior no identificada por modelo: conservar separación sin atribuirle características de estos tres productos.",
+        "full_claim_verification": "pendiente",
+        "evidence": [
+          {
+            "source": "https://www.proskit.com/Product/608-391E?hl=en-US",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://www.weller-tools.com/us/en/consumer/products/soldering-accessories/helping-hands-magnifier",
+            "checked": "2026-10-02"
+          },
+          {
+            "source": "https://cdn.velleman.eu/downloads/doc/1950001-vthh3n_ce.pdf",
+            "checked": "2026-10-02"
+          }
+        ]
+      }
     }
   ]
 }
