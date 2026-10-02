@@ -63,6 +63,12 @@ Para completar el sistema, cada pieza tiene que corresponder al material, diáme
 
 “No aparece en la lista de suministro” no demuestra que cada vendedor entregue exactamente lo mismo ni que un accesorio no pueda ofrecerse aparte. Pedí el detalle del paquete cerrado, código de producto y fotos de los componentes antes de comprar.
 
+<!-- SOLDADORAS-OFERTAS -->
+
+<section class="affiliate-shelf" aria-label="Opciones de compra"><div class="affiliate-heading"><h3>Alambre macizo para MIG/MAG con gas</h3></div><div class="offer-grid"><article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div><h3>ESAB/Conarco WELD 70S-6 · 0,8 mm × 5 kg</h3><p class="offer-description">Alambre macizo ER70S-6 para acero al carbono y MIG/MAG con gas. Compará diámetro, medidas del carrete y precio por kilo; no es tubular sin gas.</p><a class="offer-source" href="https://esab.com/cl/sam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/" target="_blank" rel="noopener noreferrer">Ficha del consumible ESAB ↗</a><div class="offer-actions"><a class="offer-button" href="https://meli.la/22SmE5r" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="soldadoras-contextual">Ver precio y disponibilidad ↗</a></div></article></div><p>Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos. Confirmá código, contenido, precio y stock en la publicación antes de aplicar los datos de la guía a esa unidad.</p></section>
+
+<!-- /SOLDADORAS-OFERTAS -->
+
 ## Comparativa y costo del equipo completo
 
 No hay un precio total fiable que se pueda calcular solo desde estas fichas: no detallan una cotización vigente del alambre, cilindro, carga/recambio del gas y regulador para cada comprador. Para comparar sin dejar costos ocultos, armá el total con la fuente y lo que realmente falta:

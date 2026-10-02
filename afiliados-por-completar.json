@@ -184,38 +184,52 @@
     "guides": [
       "/soldadoras/electrodo-para-fundicion/"
     ],
-    "configuration": "ENiFe-CI, código92603230L0 según ficha europea; confirmar presentación local y código"
+    "configuration": "ENiFe-CI, código92603230L0 según ficha europea; confirmar presentación local y código",
+    "availability_review": "2026-10-02: el usuario no encuentra el modelo exacto; conserva ficha documental y espacio de referido."
   },
   "STIHL RE 90 · RE020114544 · 50 Hz": {
     "affiliate_url": "",
     "guides": [
       "/hidrolavadoras/stihl/"
     ],
-    "configuration": "Reemplazar el referido recibido de 60 Hz o acreditar placa del código argentino."
+    "configuration": "Reemplazar el referido recibido de 60 Hz o acreditar placa del código argentino.",
+    "candidate_review": {
+      "url": "https://meli.la/1fBYuUY",
+      "decision": "La oferta sigue identificada como 60 Hz, no corresponde a la variante local de 50 Hz."
+    }
   },
   "Kärcher K5 · 9.398-295.0": {
     "affiliate_url": "",
     "guides": [
       "/hidrolavadoras/karcher-k5/"
     ],
-    "configuration": "El referido anterior no acredita este código. Confirmar versión y caudal."
+    "configuration": "El referido anterior no acredita este código. Confirmar versión y caudal.",
+    "candidate_review": {
+      "url": "https://meli.la/13vEAhr",
+      "decision": "Recibido como K5 Power Control: 1,9 kW y 380 L/h difieren de Power Control AR 1.603-501.0; falta código/frecuencia. No asociar a K5 básica."
+    }
   },
   "Bosch GSA 1100 E": {
     "affiliate_url": "",
     "guides": [
       "/sierras/sable/"
     ],
-    "configuration": "Reemplazo del referido retirado: publicación activa con código y potencia consistentes."
+    "configuration": "Reemplazo del referido retirado: publicación activa con código y potencia consistentes.",
+    "candidate_review": {
+      "url": "https://meli.la/2cEAQKh",
+      "decision": "Es el mismo enlace con título 110 W ya retirado. Modelo oficial 1100 W; pendiente código, voltaje y potencia de la publicación."
+    }
   },
   "Bosch PRO Multi Material · 190 mm · 54 dientes · eje 30 mm": {
     "affiliate_url": "",
     "guides": [
       "/sierras/disco-para-sierra-circular/"
     ],
-    "configuration": "Disco para sierra manual; confirmar referencia, geometría y material."
+    "configuration": "Disco para sierra manual; confirmar referencia, geometría y material.",
+    "availability_review": "2026-10-02: el usuario no encuentra el modelo exacto; conserva ficha documental y espacio de referido."
   },
   "ESAB/Conarco WELD ER70S-6 · 0,8 mm × 5 kg": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/22SmE5r",
     "guides": [
       "/soldadoras/soldadora-mig-con-gas/",
       "/soldadoras/alambre-para-soldadura-mig/"
@@ -227,14 +241,19 @@
     "guides": [
       "/soldadoras/alambre-flux/"
     ],
-    "configuration": "Presentación y diámetro exactos; la oferta de 0,8 mm × 5 kg es otra alternativa."
+    "configuration": "Publicación común recibida e incorporada. Falta referido para esta misma presentación de 1,0 mm × 1 kg; ESAB código 0750333.",
+    "publication_url": "https://www.mercadolibre.com.ar/p/MLA44478426?pdp_filters=item_id:MLA3903819884"
   },
   "Hyundai HHY2200F": {
     "affiliate_url": "",
     "guides": [
       "/generadores/hyundai/"
     ],
-    "configuration": "Sufijo F documentado; no asignar automáticamente el referido HHY2200 sin sufijo."
+    "configuration": "Sufijo F documentado; no asignar automáticamente el referido HHY2200 sin sufijo.",
+    "candidate_review": {
+      "url": "https://meli.la/11Ddx34",
+      "decision": "Título HY2200F; verificar modelo de características antes de aplicar datos HHY2200F de catálogo argentino."
+    }
   },
   "Gamma G2801AR": {
     "affiliate_url": "https://meli.la/1vR4xKe",

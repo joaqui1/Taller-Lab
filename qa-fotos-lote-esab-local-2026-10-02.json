@@ -1,0 +1,275 @@
+{
+  "pages": 8,
+  "viewports": [
+    320,
+    390,
+    1440
+  ],
+  "results": [
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 5,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/alambre-flux/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/soldadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 32,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/karcher-k5/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 6,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/stihl/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/hyundai/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/sable/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 3,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    }
+  ],
+  "failures": []
+}

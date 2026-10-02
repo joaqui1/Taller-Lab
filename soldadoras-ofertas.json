@@ -145,7 +145,8 @@
     "file": "04-soldadora-mig-con-gas.md",
     "models": [
       "ESABMIG160",
-      "MIGDUAL200"
+      "MIGDUAL200",
+      "ESABWIRE5"
     ],
     "offers": [
       {
@@ -156,6 +157,11 @@
       {
         "model": "MIGDUAL200",
         "url": "https://meli.la/252cwEq",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABWIRE5",
+        "url": "https://meli.la/22SmE5r",
         "cta": "Ver precio y disponibilidad"
       }
     ],
@@ -168,14 +174,17 @@
         "anchor": "Comparativa y costo del equipo completo",
         "position": "table",
         "title": "Máquinas MIG con gas para comparar"
+      },
+      {
+        "models": [
+          "ESABWIRE5"
+        ],
+        "anchor": "Gas, alambre y accesorios necesarios",
+        "position": "section",
+        "title": "Alambre macizo para MIG/MAG con gas"
       }
     ],
-    "pending": [
-      {
-        "model": "ESABWIRE5",
-        "reason": "Falta referido específico ESAB/Conarco WELD ER70S-6 0,8 mm × 5 kg para esta ubicación."
-      }
-    ]
+    "pending": []
   },
   "/soldadoras/guantes/": {
     "file": "05-guantes-para-soldar.md",
@@ -280,31 +289,33 @@
   "/soldadoras/alambre-para-soldadura-mig/": {
     "file": "08-alambre-para-soldadura-mig.md",
     "models": [
-      "BREMEN8240"
+      "BREMEN8240",
+      "ESABWIRE5"
     ],
     "offers": [
       {
         "model": "BREMEN8240",
         "url": "https://meli.la/1RwSNLU",
         "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABWIRE5",
+        "url": "https://meli.la/22SmE5r",
+        "cta": "Ver precio y disponibilidad"
       }
     ],
     "placements": [
       {
         "models": [
-          "BREMEN8240"
+          "BREMEN8240",
+          "ESABWIRE5"
         ],
         "anchor": "Opciones de compra",
         "position": "section",
         "title": "Alambre MIG macizo · 0,8 mm × 5 kg"
       }
     ],
-    "pending": [
-      {
-        "model": "ESABAUTROD5",
-        "reason": "Referido retirado: el destino consultado el 30/09/2026 anuncia 1,6 mm × 18 kg, no la presentación 0,8 mm × 5 kg de esta comparación."
-      }
-    ]
+    "pending": []
   },
   "/soldadoras/mascaras-fotosensibles/": {
     "file": "09-mascara-de-soldar-fotosensible.md",
@@ -434,7 +445,8 @@
     "file": "13-alambre-flux.md",
     "models": [
       "GASFREE5",
-      "BREMENFLUX"
+      "BREMENFLUX",
+      "ESABFLUX1"
     ],
     "offers": [
       {
@@ -446,25 +458,26 @@
         "model": "BREMENFLUX",
         "url": "https://meli.la/1XfEzR2",
         "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "ESABFLUX1",
+        "url": "https://www.mercadolibre.com.ar/p/MLA44478426?pdp_filters=item_id:MLA3903819884",
+        "cta": "Ver publicación y disponibilidad"
       }
     ],
     "placements": [
       {
         "models": [
           "GASFREE5",
-          "BREMENFLUX"
+          "BREMENFLUX",
+          "ESABFLUX1"
         ],
         "anchor": "Opciones de compra y bobinas",
         "position": "section",
-        "title": "E71T-GS de 0,8 mm: compará bobinas de 1 kg y 5 kg"
+        "title": "E71T-GS: compará 0,8 y 1,0 mm, bobinas de 1 y 5 kg"
       }
     ],
-    "pending": [
-      {
-        "model": "ESABFLUX1",
-        "reason": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; la referencia disponible es E71T-GS de 0,8 mm × 5 kg."
-      }
-    ]
+    "pending": []
   },
   "/soldadoras/soldadora-dogo-180/": {
     "file": "14-soldadora-dogo-180.md",

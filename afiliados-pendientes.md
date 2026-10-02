@@ -24,6 +24,5 @@ Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar
 | Kärcher K5 · 9.398-295.0 |  | El referido anterior no acredita este código. Confirmar versión y caudal. |
 | Bosch GSA 1100 E |  | Reemplazo del referido retirado: publicación activa con código y potencia consistentes. |
 | Bosch PRO Multi Material · 190 mm · 54 dientes · eje 30 mm |  | Disco para sierra manual; confirmar referencia, geometría y material. |
-| ESAB/Conarco WELD ER70S-6 · 0,8 mm × 5 kg |  | Macizo para acero al carbono; no sustituir por aluminio o inoxidable ni por 18 kg. |
-| ESAB Gas Free E71T-GS · 1,0 mm × 1 kg |  | Presentación y diámetro exactos; la oferta de 0,8 mm × 5 kg es otra alternativa. |
+| ESAB Gas Free E71T-GS · 1,0 mm × 1 kg |  | Publicación común recibida e incorporada. Falta referido para esta misma presentación de 1,0 mm × 1 kg; ESAB código 0750333. |
 | Hyundai HHY2200F |  | Sufijo F documentado; no asignar automáticamente el referido HHY2200 sin sufijo. |

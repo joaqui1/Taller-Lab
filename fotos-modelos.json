@@ -3590,6 +3590,32 @@
       "height": 530,
       "bytes": 10140,
       "original_image": "https://ar.blackanddecker.global/LAG/PRODUCT/IMAGES/HIRES/BEPW1800T_1.jpg?resize=530x530"
+    },
+    "https://meli.la/22SmE5r": {
+      "status": "verified",
+      "brand": "ESAB",
+      "model": "WELD 70S-6 · 0,8 mm × 5 kg",
+      "source": "https://www.lfmaquinaseferramentas.com.br/arame-mig-080mm-esab-weld-70s6-5kg/p",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/esab-weld5kg-011be86e58.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 17988,
+      "original_image": "https://lfmaquinaseferramentas.vtexassets.com/arquivos/ids/200592-800-800?aspect=true&height=800&v=637916963799930000&width=800",
+      "technical_source": "https://esab.com/cl/sam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/"
+    },
+    "https://www.mercadolibre.com.ar/p/MLA44478426?pdp_filters=item_id:MLA3903819884": {
+      "status": "verified",
+      "brand": "ESAB",
+      "model": "Gas Free E71T-GS · 1,0 mm × 1 kg",
+      "source": "https://esab.com/ar/sam_es/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/esab-gas-free/",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/esab-gasfree-142642-e919f0a68c.webp",
+      "width": 550,
+      "height": 550,
+      "bytes": 18156,
+      "original_image": "https://d363suj4pdptk4.cloudfront.net/externalApps/c7efbbab-3f6a-497d-9dae-cbb24f5f4774/conversion/PIM/assets/142642",
+      "technical_source": "https://esab.com/ar/sam_es/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/esab-gas-free/"
     }
   }
 }

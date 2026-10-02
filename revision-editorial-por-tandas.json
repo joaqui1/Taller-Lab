@@ -114,10 +114,11 @@
   "/soldadoras/alambre-para-soldadura-mig/": {
     "checked": "2026-10-01",
     "batch": "consumibles-01",
-    "body_sha256": "fa265e7197c380394186fc802d9ad68486815450972c7fb4c66344f9ad056068",
+    "body_sha256": "71caaf0c515fb923f64c687e19829f88e19dbfbc8298ffa5aa46245b7b140eaf",
     "scope": "lectura editorial completa; evaluación de alternativas; contrastes selectivos",
     "notes": "Lectura completa: compara ER70S-6 para acero, ER308LSi para inoxidable y ER4043/ER5356 para aluminio; diámetro, gas y carrete condicionan la selección. La única oferta Bremen no cubre los otros metales. Se enlazan las tres fichas desde la tabla de presentaciones y se explica cómo compararlas sin atribuirles stock local.",
-    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock"
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de todas las cifras ni stock",
+    "commercial_followup": "2026-10-02: revisión de los consumibles recibidos por clasificación, diámetro y bobina. WELD 0,8 mm × 5 kg con referido; Gas Free 1,0 mm × 1 kg con publicación común. Fotos y fichas específicas; sin nueva lectura integral."
   },
   "/soldadoras/electrodo-para-fundicion/": {
     "checked": "2026-10-01",
@@ -1161,10 +1162,11 @@
   "/soldadoras/soldadora-mig-con-gas/": {
     "checked": "2026-10-02",
     "batch": "soldadoras-comparaciones-02",
-    "body_sha256": "346b9d789df51d201979ffa9c2b9b0cb387d573d210223c96b417aec52dac915",
+    "body_sha256": "6dde7cd4b11f8a9114d5ce3861cf31846bd5eab50bff745b3116b773156ecfa2",
     "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
     "notes": "Evaluadas las selecciones y tablas: Potencia y ciclo de trabajo; Gas, alambre y accesorios necesarios; Comparativa y costo del equipo completo. Opciones de compra: ESAB HandyArc MIG 160i; Lüsqtoff MIGDUAL200-9. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
-    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock",
+    "commercial_followup": "2026-10-02: revisión de los consumibles recibidos por clasificación, diámetro y bobina. WELD 0,8 mm × 5 kg con referido; Gas Free 1,0 mm × 1 kg con publicación común. Fotos y fichas específicas; sin nueva lectura integral."
   },
   "/soldadoras/guantes/": {
     "checked": "2026-10-02",
@@ -1217,10 +1219,11 @@
   "/soldadoras/alambre-flux/": {
     "checked": "2026-10-02",
     "batch": "soldadoras-comparaciones-02",
-    "body_sha256": "876b52627e49a47bf95c000fe6fd44f5763404623fb8f0a437b64a9d24008c95",
+    "body_sha256": "f0f153f6419e2dce68a2180b1e1a9af9c9b41e1766670fad43ee50979a8cf3b0",
     "scope": "evaluación individual de tablas, modelos, selección y opciones; no lectura integral de todos los párrafos",
     "notes": "Evaluadas las selecciones y tablas: 0,8 vs. 0,9 mm: compará todo el sistema; Opciones de compra y bobinas. Opciones de compra: ESAB Gas Free E71T-GS · 0,8 mm × 5 kg; Bremen 7992 AWS E71T-GS · 0,8 mm × 1 kg. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
-    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+    "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock",
+    "commercial_followup": "2026-10-02: revisión de los consumibles recibidos por clasificación, diámetro y bobina. WELD 0,8 mm × 5 kg con referido; Gas Free 1,0 mm × 1 kg con publicación común. Fotos y fichas específicas; sin nueva lectura integral."
   },
   "/soldadoras/soldadora-dogo-180/": {
     "checked": "2026-10-02",

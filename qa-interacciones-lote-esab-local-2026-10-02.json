@@ -1,0 +1,78 @@
+{
+  "base": "http://127.0.0.1:5205",
+  "pages": 8,
+  "errors": [],
+  "failures": [],
+  "search": {
+    "retry": true,
+    "more": true,
+    "empty": true,
+    "clear": true
+  },
+  "rows": [
+    {
+      "path": "/soldadoras/alambre-para-soldadura-mig/",
+      "failures": [],
+      "sources": 2,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/alambre-flux/",
+      "failures": [],
+      "sources": 3,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/soldadora-mig-con-gas/",
+      "failures": [],
+      "sources": 3,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/soldadoras/",
+      "failures": [],
+      "sources": 4,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/karcher-k5/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/hidrolavadoras/stihl/",
+      "failures": [],
+      "sources": 12,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/generadores/hyundai/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/sable/",
+      "failures": [],
+      "sources": 0,
+      "resources": 1,
+      "filters": 0,
+      "comparisons": 0
+    }
+  ]
+}
