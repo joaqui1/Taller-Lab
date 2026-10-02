@@ -4,8 +4,6 @@ Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar
 
 | Modelo y presentación | Enlace de afiliado | Qué confirmar |
 | --- | --- | --- |
-| Gamma G2802AR |  | Código y contenido de la publicación. |
-| Gamma G2802KAR |  | Kit G2802KAR; no sustituir por G2802AR sin accesorios |
 | Einhell TE-AC 270/50 Silent |  | Código y contenido de la publicación. |
 | Einhell TE-AC 430/90/10 |  | Código y contenido de la publicación. |
 | Lüsqtoff LC-2550VS |  | Código y contenido de la publicación. |

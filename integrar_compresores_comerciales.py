@@ -55,8 +55,9 @@ def main():
             matched = set()
             for index, row in enumerate(rows):
                 cells = [cell.strip() for cell in row.strip().strip('|').split('|')]
+                previous_offer = None
                 if has_offer_column:
-                    cells.pop()
+                    previous_offer = cells.pop()
                 model = next((model for model in available if model.split(' ', 1)[1] in cells[0]), None) if index > 1 else None
                 if model:
                     matched.add(model)
@@ -69,7 +70,8 @@ def main():
                         cells = [re.sub(r'\s*·?\s*\[[^\]]+\]\(' + re.escape(url) + r'\)', '', cell) for cell in cells]
                         cells.append(f'[{label}]({url})')
                 elif number != 1:
-                    cells.append('Oferta' if index == 0 else ':---' if index == 1 else '—')
+                    documentary = previous_offer if previous_offer and '](https://' in previous_offer and 'meli.la/' not in previous_offer and 'mercadolibre.com' not in previous_offer else '—'
+                    cells.append('Oferta' if index == 0 else ':---' if index == 1 else documentary)
                 result.append('| ' + ' | '.join(cells) + ' |')
             if matched != set(available):
                 raise ValueError(f'Fila ausente: {file.name} / {set(available) - matched}')

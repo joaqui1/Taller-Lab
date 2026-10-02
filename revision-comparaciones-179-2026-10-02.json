@@ -1180,6 +1180,7 @@
     "models_in_cards": [
       "Lüsqtoff · LC-30100",
       "Lüsqtoff · LC-40100",
+      "Gamma · G2803AR",
       "Gamma · G2858AR"
     ],
     "comparison_tables": [
@@ -1213,7 +1214,7 @@
         ]
       }
     ],
-    "decision": "Evaluadas las selecciones y tablas: Qué compresor de 100 L conviene según el uso del taller; Qué herramientas puede alimentar: consumos publicados; Qué compresor buscar según el trabajo. Opciones de compra: Lüsqtoff · LC-30100; Lüsqtoff · LC-40100; Gamma · G2858AR. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "decision": "Evaluadas las selecciones y tablas: Qué compresor de 100 L conviene según el uso del taller; Qué herramientas puede alimentar: consumos publicados; Qué compresor buscar según el trabajo. Opciones de compra: Lüsqtoff · LC-30100; Lüsqtoff · LC-40100; Gamma · G2803AR; Gamma · G2858AR. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
     "scope": "selección y comparación de modelos; fotos, enlaces e interacciones verificados por pruebas separadas"
   },
   {
@@ -1467,6 +1468,7 @@
     "path": "/compresores/24-litros/",
     "section": "compresores",
     "models_in_cards": [
+      "Gamma · G2801AR",
       "Gamma · G2860AR",
       "Lüsqtoff · LC-0122",
       "BTA · CSA-24-1"
@@ -1487,6 +1489,7 @@
       {
         "heading": "Cuál compresor de 24 litros elegir",
         "rows": [
+          "**Gamma G2801AR**",
           "**Gamma G2860AR**",
           "**Lüsqtoff LC-0122**",
           "**BTA CSA-24-1**, código 272005"
@@ -1500,7 +1503,7 @@
         ]
       }
     ],
-    "decision": "Evaluadas las selecciones y tablas: Para qué sirve un compresor de 24 litros; Cuál compresor de 24 litros elegir; 24 frente a 25 litros: importa más que un litro. Opciones de compra: Gamma · G2860AR; Lüsqtoff · LC-0122; BTA · CSA-24-1. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
+    "decision": "Evaluadas las selecciones y tablas: Para qué sirve un compresor de 24 litros; Cuál compresor de 24 litros elegir; 24 frente a 25 litros: importa más que un litro. Opciones de compra: Gamma · G2801AR; Gamma · G2860AR; Lüsqtoff · LC-0122; BTA · CSA-24-1. La elección conserva clases, variantes y aplicaciones documentadas por separado.",
     "scope": "selección y comparación de modelos; fotos, enlaces e interacciones verificados por pruebas separadas"
   },
   {

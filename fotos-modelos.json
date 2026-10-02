@@ -3431,6 +3431,54 @@
       "height": 320,
       "bytes": 6258,
       "original_image": "https://www.bosch-diy.com/imagestorage/de-de/universalaquatak-36v-100-100057349-hires-png-rgb-oneux-415782_w_1600_h_800.png?imgWidth=1600&imgHeight=800"
+    },
+    "https://meli.la/1vR4xKe": {
+      "status": "verified",
+      "brand": "Gamma",
+      "model": "G2801AR",
+      "source": "https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/gammag2801ar-60b75799a1.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25652,
+      "original_image": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2024/09/compresores_compresor-de-25-litros_G2801AR-00.jpg"
+    },
+    "https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/": {
+      "status": "verified",
+      "brand": "Gamma",
+      "model": "G2801AR",
+      "source": "https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/gammag2801ar-60b75799a1.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25652,
+      "original_image": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2024/09/compresores_compresor-de-25-litros_G2801AR-00.jpg"
+    },
+    "https://meli.la/1jaQvxd": {
+      "status": "verified",
+      "brand": "Gamma",
+      "model": "G2803AR",
+      "source": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/gammag2803ar-3e14d82c8c.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 34340,
+      "original_image": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2024/09/compresores_compresor-bicilindrico-de-100-litros_G2803AR-00.jpg"
+    },
+    "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/": {
+      "status": "verified",
+      "brand": "Gamma",
+      "model": "G2803AR",
+      "source": "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/gammag2803ar-3e14d82c8c.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 34340,
+      "original_image": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2024/09/compresores_compresor-bicilindrico-de-100-litros_G2803AR-00.jpg"
     }
   }
 }

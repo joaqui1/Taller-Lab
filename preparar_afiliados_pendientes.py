@@ -5,7 +5,13 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 path = ROOT / 'afiliados-por-completar.json'
 slots = json.loads(path.read_text(encoding='utf-8'))
+# El usuario no encuentra G2802 en su catálogo: pedir los modelos disponibles
+# para las guías de su capacidad, sin reutilizar las especificaciones del de 50 L.
+for unavailable in ('Gamma G2802AR', 'Gamma G2802KAR'):
+    slots.pop(unavailable, None)
 for model, guides, detail in [
+    ('Gamma G2801AR', ['/compresores/24-litros/'], 'Oferta de 24 L; Gamma lo presenta como 25 L. Confirmar código, placa y kit; no corresponde a G2802 de 50 L.'),
+    ('Gamma G2803AR', ['/compresores/100-litros/'], '100 L; código exacto G2803AR. No confundir con G2858AR ni trasladar datos del G2802.'),
     ('STIHL RE 90 · RE020114544 · 50 Hz', ['/hidrolavadoras/stihl/'], 'Reemplazar el referido recibido de 60 Hz o acreditar placa del código argentino.'),
     ('Kärcher K5 · 9.398-295.0', ['/hidrolavadoras/karcher-k5/'], 'El referido anterior no acredita este código. Confirmar versión y caudal.'),
     ('Bosch GSA 1100 E', ['/sierras/sable/'], 'Reemplazo del referido retirado: publicación activa con código y potencia consistentes.'),
@@ -16,9 +22,15 @@ for model, guides, detail in [
 ]:
     slot = slots.setdefault(model, dict(affiliate_url='', guides=guides, configuration=detail))
     slot['guides'] = guides
+# Enlaces recibidos: se conservan como registro, fuera de la lista de pendientes.
+received = {'Gamma G2801AR':'https://meli.la/1vR4xKe', 'Gamma G2803AR':'https://meli.la/1jaQvxd'}
+for model, url in received.items():
+    slots[model]['affiliate_url'] = url
 path.write_text(json.dumps(slots, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 lines = ['# Enlaces de afiliado para completar', '', 'Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar modelo, variante y kit. Este archivo administrativo no muestra botones vacíos en la web.', '', '| Modelo y presentación | Enlace de afiliado | Qué confirmar |', '| --- | --- | --- |']
 for model, slot in slots.items():
+    if slot['affiliate_url']:
+        continue
     lines.append(f"| {model} | {slot['affiliate_url']} | {slot.get('configuration', 'Código y contenido de la publicación.')} |")
 (ROOT/'afiliados-pendientes.md').write_text('\n'.join(lines)+'\n', encoding='utf-8')
-print(len(slots), 'espacios de afiliado preparados')
+print(sum(not slot['affiliate_url'] for slot in slots.values()), 'espacios pendientes; 2 Gamma recibidos')

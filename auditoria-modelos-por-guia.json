@@ -2886,6 +2886,7 @@
     "cards": [
       "Lüsqtoff · LC-30100",
       "Lüsqtoff · LC-40100",
+      "Gamma · G2803AR",
       "Gamma · G2858AR"
     ],
     "model_sources": [
@@ -3410,7 +3411,7 @@
     "section": "compresores",
     "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\18-compresor-de-24-litros.md",
     "title": "Compresor de 24 litros: para qué sirve y cuál elegir",
-    "description": "Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
+    "description": "Usos y límites de un compresor de 24/25 L, comparación de Gamma G2801 lubricado y tres modelos sin aceite, y cuándo conviene 50 litros.",
     "headings": [
       "Para qué sirve un compresor de 24 litros",
       "Cuál compresor de 24 litros elegir",
@@ -3438,6 +3439,7 @@
       {
         "heading": "Cuál compresor de 24 litros elegir",
         "rows": [
+          "**Gamma G2801AR**",
           "**Gamma G2860AR**",
           "**Lüsqtoff LC-0122**",
           "**BTA CSA-24-1**, código 272005"
@@ -3452,6 +3454,7 @@
       }
     ],
     "cards": [
+      "Gamma · G2801AR",
       "Gamma · G2860AR",
       "Lüsqtoff · LC-0122",
       "BTA · CSA-24-1"
@@ -3496,6 +3499,10 @@
       {
         "label": "ficha oficial del LC-2024",
         "url": "https://lusqtoff.com.ar/ver-producto/LC-2024"
+      },
+      {
+        "label": "Ficha Gamma G2801AR",
+        "url": "https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/"
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-02T14:20:27.772674+00:00",
+  "checked": "2026-10-02T15:39:00.042191+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1390,7 +1390,7 @@
     {
       "path": "/compresores/100-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\11-compresor-de-100-litros.md",
-      "body_sha256": "ea9b8fdffc0560342ec3bbceccd2d232d30f8863454265df37d4566f6ea90661",
+      "body_sha256": "1d2f382f4605e21fb68965c05b6652014f3d15f5ef9a0cf0aacb693fb05d9d10",
       "title": "Qué compresor de 100 litros elegir para tu taller",
       "issues": [],
       "sources": [
@@ -1405,15 +1405,16 @@
         "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf"
       ],
       "tables": 3,
-      "offer_cards": 3,
+      "offer_cards": 4,
       "editorial_status": "revisión editorial registrada",
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "compresores-01",
-        "body_sha256": "ea9b8fdffc0560342ec3bbceccd2d232d30f8863454265df37d4566f6ea90661",
+        "body_sha256": "1d2f382f4605e21fb68965c05b6652014f3d15f5ef9a0cf0aacb693fb05d9d10",
         "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
         "notes": "Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.",
-        "full_claim_verification": "pendiente"
+        "full_claim_verification": "pendiente",
+        "affiliate_followup": "2026-10-02: integrado afiliado Gamma recibido, ficha y foto oficiales; capacidad y variante separadas de G2802."
       }
     },
     {
@@ -1576,7 +1577,7 @@
     {
       "path": "/compresores/24-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\18-compresor-de-24-litros.md",
-      "body_sha256": "1927fed208c4f05f0e6c49931c1976f7cf91f51eb0b91a50f96c63921469855d",
+      "body_sha256": "9accef415600d4dbf5c77fcc621121229c95f5d3f1b655ca9f989142a4fd1562",
       "title": "Compresor de 24 litros: para qué sirve y cuál elegir",
       "issues": [],
       "sources": [
@@ -1587,19 +1588,21 @@
         "https://btatools.com.ar/producto/pistola-para-pintar-baja-presion",
         "https://lusqtoff.com.ar/ver-producto/LC-0122",
         "https://lusqtoff.com.ar/ver-producto/LC-2024",
+        "https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/",
         "https://www.gammaherramientas.com.ar/producto/compresor-de-alta-recuperacion-en-25-l/",
         "https://www.gammaherramientas.com.ar/producto/compresor-sin-aceite-24-l-2-hp/"
       ],
       "tables": 3,
-      "offer_cards": 3,
+      "offer_cards": 4,
       "editorial_status": "revisión editorial registrada",
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "compresores-02",
-        "body_sha256": "1927fed208c4f05f0e6c49931c1976f7cf91f51eb0b91a50f96c63921469855d",
+        "body_sha256": "9accef415600d4dbf5c77fcc621121229c95f5d3f1b655ca9f989142a4fd1562",
         "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
         "notes": "Lectura completa: conservar tres modelos de 24 L Gamma G2860AR, LC-0122 y BTA CSA-24-1. Contrastadas sus fichas y las alternativas Gamma 25 L/BTA 25 y 50 L: las cifras y métricas coinciden. LC-2024 es 40 L y discontinuado en la ficha, no candidato de 24 L. Las tres fotos cargan y usan contain a 320/390/1440. Enriquecidas las tarjetas Gamma y Lüsqtoff con tanque, caudal atribuido y potencia; no convierte flujo continuo o caudal sin presión en FAD.",
-        "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+        "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo",
+        "affiliate_followup": "2026-10-02: integrado afiliado Gamma recibido, ficha y foto oficiales; capacidad y variante separadas de G2802."
       }
     },
     {

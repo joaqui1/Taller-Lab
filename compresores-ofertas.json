@@ -151,6 +151,7 @@
     "models": [
       "Lüsqtoff LC-30100",
       "Lüsqtoff LC-40100",
+      "Gamma G2803AR",
       "Gamma G2858AR"
     ],
     "offers": [
@@ -162,6 +163,11 @@
       {
         "model": "Lüsqtoff LC-40100",
         "url": "https://meli.la/127ZaQu",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Gamma G2803AR",
+        "url": "https://meli.la/1jaQvxd",
         "cta": "Ver precio y disponibilidad"
       },
       {
@@ -288,9 +294,7 @@
         "cta": "Ver precio del LC-30200"
       }
     ],
-    "pending": [
-      "Lüsqtoff LC40200-8"
-    ]
+    "pending": []
   },
   "/compresores/bta-25-litros/": {
     "number": 17,
@@ -317,11 +321,17 @@
     "cards_heading": "Cuál compresor de 24 litros elegir",
     "mode": "table",
     "models": [
+      "Gamma G2801AR",
       "Gamma G2860AR",
       "Lüsqtoff LC-0122",
       "BTA CSA-24-1"
     ],
     "offers": [
+      {
+        "model": "Gamma G2801AR",
+        "url": "https://meli.la/1vR4xKe",
+        "cta": "Ver precio y disponibilidad"
+      },
       {
         "model": "Gamma G2860AR",
         "url": "https://meli.la/14tM2Xh",

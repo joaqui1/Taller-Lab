@@ -2,7 +2,7 @@
 title: "Compresor de 24 litros: para qué sirve y cuál elegir"
 h1: "Compresor de 24 litros: para qué sirve y cuál elegir"
 url: "/compresores/24-litros/"
-description: "Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros."
+description: "Usos y límites de un compresor de 24/25 L, comparación de Gamma G2801 lubricado y tres modelos sin aceite, y cuándo conviene 50 litros."
 author: "Joaquín Vallasciani"
 category: "Compresores y Neumática"
 keywords: ["compresor de 24 litros", "compresor 24 litros sirve para pintar", "compresor 2 hp 24l", "compresor 24 o 25 litros"]
@@ -11,7 +11,7 @@ physical_test: "no"
 specifications_contrasted: "sí"
 buyer_opinions: "no"
 primary_sources: "sí"
-information_asset: "Guía de usos y elección de compresores de 24 L; compara tres modelos, su movilidad y sistema sin aceite, y explica cuándo conviene 25 o 50 L."
+information_asset: "Guía de usos y elección de compresores de 24/25 L; compara un Gamma lubricado y tres modelos sin aceite, movilidad y reserva."
 asset_status: "verificado"
 reviewed: "28/09/2026"
 published: true
@@ -49,10 +49,11 @@ Una cifra de **admisión** indica cuánto aire toma la bomba; no dice por sí so
 
 ## Cuál compresor de 24 litros elegir
 
-Estas tres opciones identifican con claridad tanque de 24 L y se presentan como sin aceite. La ficha del Gamma es la más detallada para uso de taller pequeño; BTA destaca transporte y accesorios; Lüsqtoff es la opción publicada de menor potencia. No son un ranking de caudal efectivo, porque las marcas no describen una medición común.
+Las tres opciones sin aceite se comparan con el **Gamma G2801 lubricado**. La publicación recibida lo identifica como G2801 de 2 HP; Gamma titula su G2801AR como 25 L y 2,2 HP, pero su tabla técnica indica 2 HP. Confirmá capacidad y código en placa antes de elegir entre 24 y 25 L. No son un ranking de caudal efectivo, porque las marcas no describen una medición común.
 
 | Modelo | Datos publicados | Portabilidad y equipo | Qué considerar al elegir | Oferta |
 | :--- | :--- | :--- | :--- | :--- |
+| **Gamma G2801AR** | 24 L en la publicación recibida / 25 L en el título de Gamma; 2 HP en la tabla técnica; 220 V–50 Hz; 2.850 rpm; 27 kg | Lubricado; motor de inducción con protector térmico | Alternativa a los tres modelos sin aceite. Confirmá placa, capacidad y mantenimiento; la ficha no publica FAD a presión | [Ver precio y disponibilidad](https://meli.la/1vR4xKe) |
 | **Gamma G2860AR** | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 2.850 rpm; 8 bar máx.; conexión a 6 bar y corte a 8 bar; 236 L/min que Gamma denomina “flujo continuo”; 21,3 kg | Sin aceite; Gamma dice que admite accesorios como clavadoras, engrampadoras, pistolas de pintar e infladores | Tiene los datos de uso más completos de las tres fichas. El nivel sonoro no está publicado en dB y “flujo continuo” no viene acompañado por condición de ensayo o FAD comparable | [Ver precio y disponibilidad](https://meli.la/14tM2Xh) |
 | **Lüsqtoff LC-0122** | 24 L; 1 HP / 750 W; 220 V–50 Hz; 115 PSI máx.; 180 L/min publicados; 24 kg | Sin aceite, monocilíndrico y mando directo; ruedas, salida simple y doble manómetro. El fabricante lo llama trasladable, no portátil | Elegilo si 1 HP y su reserva responden al uso previsto; confirmá caudal a presión, ya que el “caudal” publicado no viene definido como FAD | [Ver precio y disponibilidad](https://meli.la/19aFAKp) |
 | **BTA CSA-24-1**, código 272005 | 24 L; 1.500 W / 2 HP; 220 V–50 Hz; 3.750 rpm; 8 bar máx.; admisión 170 L/min | Sin aceite; BTA lo anuncia como portátil e incluye regulador, doble manómetro y empuñadura | Es el que la marca describe más claramente para mover. La ficha no publica peso, ruido, FAD ni ciclo de trabajo | [Ver precio y disponibilidad](https://meli.la/2kTMPof) |
@@ -117,3 +118,4 @@ Para explorar la categoría: [guías de compresores](/compresores/).
 ## Historial de correcciones
 
 - **27/09/2026 — Capacidad del Lüsqtoff LC-2024:** se corrigió su inclusión como ejemplo de 24 L. La [ficha oficial del LC-2024](https://lusqtoff.com.ar/ver-producto/LC-2024) declara un tanque de 40 L; el código no permite deducir la capacidad. La comparación de 24 L utiliza LC-0122 y Gamma G2860AR. Corrección registrada en la revisión documental de esa fecha.
+- **Equipo lubricado de la familia G2801:** compará el mantenimiento y la placa con las opciones sin aceite; la diferencia de un litro anunciada no demuestra por sí sola más aire útil. [Ficha Gamma G2801AR](https://www.gammaherramientas.com.ar/producto/compresor-de-25-litros/).

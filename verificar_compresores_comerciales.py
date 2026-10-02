@@ -51,7 +51,7 @@ def main():
             shelf = html.index('<section class="affiliate-shelf"', start)
             next_heading = html.find('<h2>', start + len(heading))
             assert next_heading < 0 or shelf < next_heading, path
-            if config['mode'] == 'table':
+            if config['mode'] == 'table' and not selected:
                 table_end = html.index('</table>', start) + len('</table>')
                 # Las tablas con fotos llevan un contenedor de desplazamiento móvil.
                 if '<div class="model-table-scroll"' in html[start:table_end]:
@@ -72,6 +72,12 @@ def main():
     assert s.PRODUCT_FACTS['https://meli.la/2aSkmx1']['model'] == 'AV37-TY'
     assert s.PRODUCT_FACTS['https://meli.la/2MHTmab']['model'] == 'AV000009'
     assert 'https://meli.la/1nobM6T' not in articles['/compresores/sin-aceite/']['body']
+    for path, url, model in [('/compresores/24-litros/','https://meli.la/1vR4xKe','G2801AR'),('/compresores/100-litros/','https://meli.la/1jaQvxd','G2803AR')]:
+        assert url in s.render_article_page(articles[path])
+        assert s.PRODUCT_FACTS[url]['model'] == model
+        assert s.PRODUCT_FACTS[url]['source'].startswith('https://www.gammaherramientas.com.ar/producto/')
+        assert url not in s.render_article_page(articles['/compresores/50-litros/'])
+        assert '50 MHz' not in s.render_article_page(articles[path])
     stanley = s.render_article_page(articles['/compresores/stanley/'])
     assert stanley.index('Disponibilidad local, garantía y servicio') < stanley.index('data-product="https://meli.la/26gU4mL"')
     assert 'la publicación histórica citada en la guía indica 24 L' in stanley

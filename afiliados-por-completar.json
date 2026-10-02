@@ -1,18 +1,4 @@
 {
-  "Gamma G2802AR": {
-    "affiliate_url": "",
-    "guides": [
-      "/compresores/50-litros/",
-      "/compresores/gamma-50-litros/"
-    ]
-  },
-  "Gamma G2802KAR": {
-    "affiliate_url": "",
-    "guides": [
-      "/compresores/gamma-50-litros/"
-    ],
-    "configuration": "Kit G2802KAR; no sustituir por G2802AR sin accesorios"
-  },
   "Einhell TE-AC 270/50 Silent": {
     "affiliate_url": "",
     "guides": [
@@ -208,5 +194,19 @@
       "/generadores/hyundai/"
     ],
     "configuration": "Sufijo F documentado; no asignar automáticamente el referido HHY2200 sin sufijo."
+  },
+  "Gamma G2801AR": {
+    "affiliate_url": "https://meli.la/1vR4xKe",
+    "guides": [
+      "/compresores/24-litros/"
+    ],
+    "configuration": "Oferta de 24 L; Gamma lo presenta como 25 L. Confirmar código, placa y kit; no corresponde a G2802 de 50 L."
+  },
+  "Gamma G2803AR": {
+    "affiliate_url": "https://meli.la/1jaQvxd",
+    "guides": [
+      "/compresores/100-litros/"
+    ],
+    "configuration": "100 L; código exacto G2803AR. No confundir con G2858AR ni trasladar datos del G2802."
   }
 }
