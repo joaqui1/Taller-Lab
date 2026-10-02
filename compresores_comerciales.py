@@ -9,6 +9,9 @@ from pathlib import Path
 DESTINATIONS = json.loads((Path(__file__).parent / 'compresores-destinos-consultados.json').read_text(encoding='utf-8'))
 # modelo: (referido, descripción del título recibido)
 OFFERS = {
+    'Lüsqtoff LC-2550VS': ('1Rjz39S', 'Vertical de 50 L; confirmar código LC-2550VS'),
+    'Lüsqtoff LCS50-8': ('27nVFRy', 'Sin aceite; 50 L; 2 HP anunciados'),
+    'Lüsqtoff LCS100-8': ('21fBeVj', 'Sin aceite; 100 L; 5,1 HP anunciados'),
     'Gamma G2801AR': ('1vR4xKe', 'G2801 de 2 HP monofásico; confirmar código completo y capacidad de placa'),
     'Gamma G2803AR': ('1jaQvxd', 'G2803AR de 100 L y 3 HP; confirmar revisión y transmisión de la unidad'),
     'Nictom IE01': ('2Xv53zX', 'Inflador a batería; color negro anunciado'),
@@ -20,7 +23,7 @@ OFFERS = {
     'Lüsqtoff LC2550BK-8': ('2FtyGQc', 'Oferta titulada LC-2550BK, 50 L monofásico; confirmar sufijo -8 y kit'),
     'Lüsqtoff LC-3550BK': ('21xNVUN', 'Bicilíndrico de 50 L con kit y 3,5 HP anunciados'),
     'Lüsqtoff LC-30100': ('2r6QkaT', 'Bicilíndrico de 100 L y 2200 W anunciados'),
-    'Lüsqtoff LC-40100': ('127ZaQu', 'Mando directo de 100 L; oferta titulada LC40100-8'),
+    'Lüsqtoff LC-40100': ('1GRiWbV', 'Mando directo de 100 L; oferta titulada LC40100-8'),
     'Gamma G2858AR': ('2TdnN1F', 'Compresor de 100 L y 3 HP anunciados'),
     'Lüsqtoff AA-5000K': ('1xhuQgp', 'Kit de cinco piezas; no incluye compresor'),
     'BTA 279010': ('2W1Y9Zs', 'Kit de aire y pintura de cinco piezas'),
@@ -53,11 +56,11 @@ PLACEMENTS = [
     (4, 'Kits reales con contenido publicado', None, ['Fengda FD-186K'], 'table'),
     (5, 'Comparación documentada: tres pistolas BTA', None, ['BTA AS-1021', 'BTA ASP1070', 'BTA ASPM1070'], 'table'),
     (7, 'Cinco compresores diseñados para aerografía', None, ['Fengda AS-186', 'Fengda AS-196'], 'table'),
-    (9, 'Variantes Lüsqtoff de 50 litros', 'Qué modelo considerar según tu prioridad', ['Lüsqtoff LC2550B-8', 'Lüsqtoff LC2550BK-8', 'Lüsqtoff LC-3550BK'], 'section'),
+    (9, 'Variantes Lüsqtoff de 50 litros', 'Qué modelo considerar según tu prioridad', ['Lüsqtoff LC2550B-8', 'Lüsqtoff LC2550BK-8', 'Lüsqtoff LC-3550BK', 'Lüsqtoff LC-2550VS'], 'section'),
     (11, 'Qué compresor de 100 L conviene según el uso del taller', None, ['Lüsqtoff LC-30100', 'Lüsqtoff LC-40100', 'Gamma G2803AR', 'Gamma G2858AR'], 'table'),
     (12, 'G2802AR y G2802KAR: qué cambia', None, ['Gamma G2802AR', 'Gamma G2802KAR'], 'table'),
     (13, 'Kits documentados: qué trae cada presentación', None, ['Lüsqtoff AA-5000K', 'BTA 279010', 'BTA 279013'], 'table'),
-    (14, 'Prestaciones documentadas: qué cambia entre modelos', 'Qué compresor Lüsqtoff de 100 L buscar según el uso', ['Lüsqtoff LC-30100', 'Lüsqtoff LC-40100'], 'section'),
+    (14, 'Prestaciones documentadas: qué cambia entre modelos', 'Qué compresor Lüsqtoff de 100 L buscar según el uso', ['Lüsqtoff LC-30100', 'Lüsqtoff LC-40100', 'Lüsqtoff LCS100-8'], 'section'),
     (15, 'Modelos sin aceite con datos publicados', None, ['Lüsqtoff LC-0122', 'BTA CSA-24-1', 'BTA CSA-50-2'], 'table'),
     (16, 'Tres modelos documentados de 200 L', None, ['Lüsqtoff LC-30200'], 'table'),
     (17, 'Ficha del BTA 272057.1', None, ['BTA D-CA1-25-6'], 'section'),
@@ -82,6 +85,8 @@ def install_catalog(products, facts, placements):
     for model, (code, description) in OFFERS.items():
         url = 'https://meli.la/' + code
         guide = next((path for path, config in placements.items() if model in config['models']), '/compresores/50-litros/')
+        if model == 'Lüsqtoff LCS50-8':
+            guide = '/compresores/lusqtoff-50-litros/'
         products['compresores'].append((model, description, url, guide))
         brand, identifier = model.split(' ', 1)
         facts[url] = dict(brand=brand, model=identifier, use='Según consumo y ciclo de trabajo',

@@ -1,0 +1,209 @@
+{
+  "pages": 6,
+  "viewports": [
+    320,
+    390,
+    1440
+  ],
+  "results": [
+    {
+      "width": 320,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-50-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 12,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/lusqtoff-100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/100-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/compresores/200-litros/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 8,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    }
+  ],
+  "failures": []
+}

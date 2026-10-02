@@ -23,9 +23,12 @@ for model, guides, detail in [
     slot = slots.setdefault(model, dict(affiliate_url='', guides=guides, configuration=detail))
     slot['guides'] = guides
 # Enlaces recibidos: se conservan como registro, fuera de la lista de pendientes.
-received = {'Gamma G2801AR':'https://meli.la/1vR4xKe', 'Gamma G2803AR':'https://meli.la/1jaQvxd'}
+received = {'Gamma G2801AR':'https://meli.la/1vR4xKe', 'Gamma G2803AR':'https://meli.la/1jaQvxd', 'Lüsqtoff LC-2550VS':'https://meli.la/1Rjz39S', 'Lüsqtoff LCS50-8':'https://meli.la/27nVFRy', 'Lüsqtoff LCS100-8':'https://meli.la/21fBeVj'}
 for model, url in received.items():
     slots[model]['affiliate_url'] = url
+slots['Lüsqtoff LC40100-8'] = dict(affiliate_url='https://meli.la/1GRiWbV',guides=['/compresores/100-litros/','/compresores/lusqtoff-100-litros/'],configuration='100 L, 220 V, mando directo; distinto de LC40200-8 de 200 L y 380 V.')
+for model in ('Einhell TE-AC 270/50 Silent','Einhell TE-AC 430/90/10'):
+    slots[model]['availability_review']='2026-10-02: no se encontró publicación activa exacta confirmada en Mercado Libre Argentina. Conserva ficha documental.'
 path.write_text(json.dumps(slots, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 lines = ['# Enlaces de afiliado para completar', '', 'Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar modelo, variante y kit. Este archivo administrativo no muestra botones vacíos en la web.', '', '| Modelo y presentación | Enlace de afiliado | Qué confirmar |', '| --- | --- | --- |']
 for model, slot in slots.items():
@@ -33,4 +36,4 @@ for model, slot in slots.items():
         continue
     lines.append(f"| {model} | {slot['affiliate_url']} | {slot.get('configuration', 'Código y contenido de la publicación.')} |")
 (ROOT/'afiliados-pendientes.md').write_text('\n'.join(lines)+'\n', encoding='utf-8')
-print(sum(not slot['affiliate_url'] for slot in slots.values()), 'espacios pendientes; 2 Gamma recibidos')
+print(sum(not slot['affiliate_url'] for slot in slots.values()), 'espacios pendientes;',sum(bool(slot['affiliate_url']) for slot in slots.values()),'recibidos')

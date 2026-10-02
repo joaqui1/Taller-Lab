@@ -2885,11 +2885,19 @@
     ],
     "cards": [
       "Lüsqtoff · LC-30100",
-      "Lüsqtoff · LC-40100",
+      "Lüsqtoff · LC40100-8",
       "Gamma · G2803AR",
       "Gamma · G2858AR"
     ],
     "model_sources": [
+      {
+        "label": "ficha actual LC40100-8",
+        "url": "https://lusqtoff.com.ar/productos/LC40100-8"
+      },
+      {
+        "label": "LC40200-8",
+        "url": "https://lusqtoff.com.ar/productos/LC40200-8"
+      },
       {
         "label": "manual Lüsqtoff LC-30100",
         "url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf"
@@ -3101,13 +3109,13 @@
     ],
     "cards": [
       "Lüsqtoff · LC-30100",
-      "Lüsqtoff · LC-40100",
+      "Lüsqtoff · LC40100-8",
       "Lüsqtoff · LCS100-8"
     ],
     "model_sources": [
       {
-        "label": "Ver ficha LCS100-8",
-        "url": "https://lusqtoff.com.ar/productos/LCS100-8"
+        "label": "ficha actual del código",
+        "url": "https://lusqtoff.com.ar/productos/LC40100-8"
       },
       {
         "label": "manual LC-30100",

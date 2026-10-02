@@ -2,6 +2,8 @@
 import re
 from html.parser import HTMLParser
 from pathlib import Path
+import hashlib
+import subprocess
 from http.server import ThreadingHTTPServer
 from threading import Thread
 from urllib.request import urlopen
@@ -72,6 +74,16 @@ def main():
     assert s.PRODUCT_FACTS['https://meli.la/2aSkmx1']['model'] == 'AV37-TY'
     assert s.PRODUCT_FACTS['https://meli.la/2MHTmab']['model'] == 'AV000009'
     assert 'https://meli.la/1nobM6T' not in articles['/compresores/sin-aceite/']['body']
+    for path, urls in [('/compresores/lusqtoff-50-litros/', ['https://meli.la/1Rjz39S','https://meli.la/27nVFRy']),('/compresores/lusqtoff-100-litros/',['https://meli.la/21fBeVj','https://meli.la/1GRiWbV'])]:
+        html = s.render_article_page(articles[path])
+        assert all(url in html for url in urls), (path, 'Afiliado recibido ausente')
+    updated = s.PRODUCT_FACTS['https://meli.la/1GRiWbV']
+    assert updated['model'] == 'LC40100-8' and updated['source'].endswith('/productos/LC40100-8')
+    assert 'https://meli.la/1GRiWbV' not in s.render_article_page(articles['/compresores/200-litros/'])
+    files = list(Path('paginas/compresores').glob('*.md'))+[Path('compresores-ofertas.json')]
+    before = {p:hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+    subprocess.run(['python','integrar_compresores_comerciales.py'],check=True)
+    assert before == {p:hashlib.sha256(p.read_bytes()).hexdigest() for p in files}, 'Regeneración no idempotente'
     for path, url, model in [('/compresores/24-litros/','https://meli.la/1vR4xKe','G2801AR'),('/compresores/100-litros/','https://meli.la/1jaQvxd','G2803AR')]:
         assert url in s.render_article_page(articles[path])
         assert s.PRODUCT_FACTS[url]['model'] == model

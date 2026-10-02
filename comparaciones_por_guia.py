@@ -51,6 +51,7 @@ MODELS = {
 
 # URL comerciales ya suministradas. No se crean referidos ni se confirman stocks.
 EXISTING = {
+ 'lcvs':'https://meli.la/1Rjz39S', 'lcs50':'https://meli.la/27nVFRy', 'lcs100':'https://meli.la/21fBeVj',
  'lapl36':'https://meli.la/1YbCQgP', 'hypresso18':'https://meli.la/1TRSxkF',
  'k4base':'https://meli.la/2SvkJCm',
  'ghp180':'https://meli.la/1wNMwSL', 'ghp200':'https://meli.la/1zrcYor',
@@ -66,7 +67,7 @@ EXISTING = {
  'dmp180':'https://meli.la/2uRPKYD',
  'lc30200':'https://meli.la/2vfnWE7',
  'lc50kit':'https://meli.la/2FtyGQc', 'lc3550':'https://meli.la/21xNVUN',
- 'lc30100':'https://meli.la/2r6QkaT', 'lc40100':'https://meli.la/127ZaQu',
+ 'lc30100':'https://meli.la/2r6QkaT', 'lc40100':'https://meli.la/1GRiWbV',
  'k2':'https://meli.la/2izv76H', 'k3':'https://meli.la/1LYmDeG',
  'k4pc':'https://meli.la/149NjG2', 'k5pc':'https://meli.la/1wCKV4R',
  'g130':'https://meli.la/2SuGMdL', 'hl120':'https://meli.la/1qPbvWX',
@@ -150,7 +151,7 @@ DETAILS = {
  'lc50kit': ('https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk', ['50 L; lubricado','206 L/min; condición de medición no indicada','2,5 HP; confirmar sufijo -8 y kit']),
  'lc3550': ('https://lusqtoff.com.ar/ver-producto/LC-3550BK', ['50 L; lubricado; bicilíndrico','300 L/min; condición de medición no indicada','3,5 HP; kit con manguera de 5 m']),
  'lc30100': ('https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf', ['100 L; a correa; lubricado','335 L/min; condición de medición no indicada','2.200 W / 3 HP; 220 V / 50 Hz']),
- 'lc40100': ('https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf', ['100 L; mando directo; lubricado','360 L/min según manual; condición no indicada','4 HP; 220 V / 50 Hz']),
+ 'lc40100': ('https://lusqtoff.com.ar/productos/LC40100-8', ['100 L; mando directo; bicilíndrico lubricado','356 L/min en ficha actual; condición no indicada','4 HP / 3.000 W; 220 V / 50 Hz; 76 kg']),
  'k3': ('https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html', ['120 bar publicados','330 L/h publicados','Manguera incluida: largo no publicado; 7,3 kg']),
  'k4pc': ('https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html', ['20–130 bar máximos','420 L/h máximos','Manguera de 8 m; inducción refrigerada por agua']),
  'k5pc': ('https://puntogardenia.com.ar/productos/hidrolavadora-k-5-power-control-ar-karcher-1-603-501-0/', ['20–145 bar máximos','480 L/h en esta ficha; otras publican 500 L/h','Manguera de 10 m; 2.100 W']),
@@ -187,9 +188,12 @@ def install_models(facts):
         if photo:
             fact.update(image=photo['image'],image_source=photo['source'],image_width=photo['width'],image_height=photo['height'],illustrative=False)
         facts[model['source']] = fact
+        if key in {'lcvs','lcs50','lcs100'}:
+            facts[EXISTING[key]] = dict(fact,cta='Ver precio y disponibilidad',evidence_label='Ficha y foto oficiales; enlace suministrado por el usuario')
     for key,(source,specs) in DETAILS.items():
         fact=facts[EXISTING[key]]
         fact.update(source=source, specs=specs, source_type='ficha citada en la guía', evidence_label='Datos del modelo documentado; confirmá que la oferta corresponda al código y kit')
+    facts[EXISTING['lc40100']].update(model='LC40100-8',warning='Ficha actual de LC40100-8: 356 L/min y 76 kg. El manual anterior LC-40100 publica 360 L/min y 58 kg; confirmar revisión de placa. No corresponde al LC40200-8 de 200 L y 380 V.')
     facts[EXISTING['lapl36']].update(specs=['30 bar máximos','3,6 L/min máximos','Dos baterías 18 V / 2 Ah y cargador'],power='18 V a batería',use='Enjuague y limpieza ligera desde recipiente')
     facts[EXISTING['hypresso18']].update(specs=['24 bar máximos','240 L/h máximos','Succión de 5 m; sin batería ni cargador'],power='18 V Power X-Change',use='Presión media para enjuagar y regar')
     for key, use, power in [

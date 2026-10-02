@@ -6,9 +6,6 @@ Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar
 | --- | --- | --- |
 | Einhell TE-AC 270/50 Silent |  | Código y contenido de la publicación. |
 | Einhell TE-AC 430/90/10 |  | Código y contenido de la publicación. |
-| Lüsqtoff LC-2550VS |  | Código y contenido de la publicación. |
-| Lüsqtoff LCS50-8 |  | Código y contenido de la publicación. |
-| Lüsqtoff LCS100-8 |  | Código y contenido de la publicación. |
 | Lüsqtoff LC40200-8 |  | Código y contenido de la publicación. |
 | Fengda FD-186K |  | Confirmar código, contenido y variante eléctrica local; enlace documental activo |
 | Fengda AS-186 |  | Confirmar código, contenido y variante eléctrica local; enlace documental activo |

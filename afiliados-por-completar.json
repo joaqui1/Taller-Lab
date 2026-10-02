@@ -4,28 +4,30 @@
     "guides": [
       "/compresores/50-litros/",
       "/compresores/para-pintar/"
-    ]
+    ],
+    "availability_review": "2026-10-02: no se encontró publicación activa exacta confirmada en Mercado Libre Argentina. Conserva ficha documental."
   },
   "Einhell TE-AC 430/90/10": {
     "affiliate_url": "",
     "guides": [
       "/compresores/para-pintar/"
-    ]
+    ],
+    "availability_review": "2026-10-02: no se encontró publicación activa exacta confirmada en Mercado Libre Argentina. Conserva ficha documental."
   },
   "Lüsqtoff LC-2550VS": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/1Rjz39S",
     "guides": [
       "/compresores/lusqtoff-50-litros/"
     ]
   },
   "Lüsqtoff LCS50-8": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/27nVFRy",
     "guides": [
       "/compresores/lusqtoff-50-litros/"
     ]
   },
   "Lüsqtoff LCS100-8": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/21fBeVj",
     "guides": [
       "/compresores/lusqtoff-100-litros/"
     ]
@@ -208,5 +210,13 @@
       "/compresores/100-litros/"
     ],
     "configuration": "100 L; código exacto G2803AR. No confundir con G2858AR ni trasladar datos del G2802."
+  },
+  "Lüsqtoff LC40100-8": {
+    "affiliate_url": "https://meli.la/1GRiWbV",
+    "guides": [
+      "/compresores/100-litros/",
+      "/compresores/lusqtoff-100-litros/"
+    ],
+    "configuration": "100 L, 220 V, mando directo; distinto de LC40200-8 de 200 L y 380 V."
   }
 }

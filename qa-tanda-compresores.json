@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-02T15:39:00.042191+00:00",
+  "checked": "2026-10-02T15:50:30.286377+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -1339,7 +1339,7 @@
     {
       "path": "/compresores/lusqtoff-50-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\09-compresor-lusqtoff-50-litros.md",
-      "body_sha256": "30ac2a9a7707c606f11b0b7b54510fff3c571cc37132fa04e3cea664fc5659f7",
+      "body_sha256": "ae9bb450dd0a7cca117ff2023658bd7bfe7a34f2103801d04ca69bc33fa89370",
       "title": "Compresor Lusqtoff de 50 litros: cuál elegir",
       "issues": [],
       "sources": [
@@ -1358,10 +1358,11 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "compresores-03",
-        "body_sha256": "30ac2a9a7707c606f11b0b7b54510fff3c571cc37132fa04e3cea664fc5659f7",
+        "body_sha256": "ae9bb450dd0a7cca117ff2023658bd7bfe7a34f2103801d04ca69bc33fa89370",
         "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
         "notes": "Lectura completa y contraste de fichas LC-2550VS y LCS50-8. Corregida la falta de datos del LCS50-8 con ficha individual actual. Cinco alternativas con fotos reales y tres detalles comparables por tarjeta. Manual LC2550BK verificado visualmente: ISO VG 100, cambio inicial a 50 h y periódico cada seis meses o 50 h; retirada la supuesta contradicción. Los enlaces afiliados de las dos alternativas sin aceite quedan solicitados por código en el registro privado.",
-        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo",
+        "affiliate_followup": "2026-10-02: afiliados Lüsqtoff recibidos y fotos por código; LC40100-8 usa ficha actual 356 L/min y 76 kg, separado del manual antiguo y del LC40200-8 de 200 L."
       }
     },
     {
@@ -1390,7 +1391,7 @@
     {
       "path": "/compresores/100-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\11-compresor-de-100-litros.md",
-      "body_sha256": "1d2f382f4605e21fb68965c05b6652014f3d15f5ef9a0cf0aacb693fb05d9d10",
+      "body_sha256": "a4df51887f2fa7e04fc294480791be9f9dda970ff9f975700a09ad2ea3d278fe",
       "title": "Qué compresor de 100 litros elegir para tu taller",
       "issues": [],
       "sources": [
@@ -1399,6 +1400,8 @@
         "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
+        "https://lusqtoff.com.ar/productos/LC40100-8",
+        "https://lusqtoff.com.ar/productos/LC40200-8",
         "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
         "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-100-l-3-hp/",
         "https://www.gammaherramientas.com.ar/producto/compresor-bicilindrico-de-100-litros/",
@@ -1410,11 +1413,11 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "compresores-01",
-        "body_sha256": "1d2f382f4605e21fb68965c05b6652014f3d15f5ef9a0cf0aacb693fb05d9d10",
+        "body_sha256": "a4df51887f2fa7e04fc294480791be9f9dda970ff9f975700a09ad2ea3d278fe",
         "scope": "lectura editorial; contrastes selectivos de fuentes; navegación y estructura",
         "notes": "Lectura completa: ya compara cuatro referencias LC-30100, LC-40100, G2803AR y G2858AR, con alternativas de transmisión y límites propios; mantener la comparación sin añadir un 90 L como supuesto modelo de 100 L. Contrastada ficha G2858AR: 220 V/50 Hz, 2200 W, 100 L, 316 L/min llamados flujo continuo sin condición de FAD, SAE30 y 45,4 kg. Conserva discrepancia de peso LC-30100 y no deriva ciclo sostenido del tanque ni del nombre profesional. Los manuales y consumos restantes requieren contraste completo.",
         "full_claim_verification": "pendiente",
-        "affiliate_followup": "2026-10-02: integrado afiliado Gamma recibido, ficha y foto oficiales; capacidad y variante separadas de G2802."
+        "affiliate_followup": "2026-10-02: afiliados Lüsqtoff recibidos y fotos por código; LC40100-8 usa ficha actual 356 L/min y 76 kg, separado del manual antiguo y del LC40200-8 de 200 L."
       }
     },
     {
@@ -1469,7 +1472,7 @@
     {
       "path": "/compresores/lusqtoff-100-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\14-compresor-lusqtoff-100-litros.md",
-      "body_sha256": "114d86ee6567b7587ac3bca1692959897b799414fb61082e11ecb80b3b4ef42a",
+      "body_sha256": "837f8ae0805e03a5b54980454595b66dee6523f54f26b57244d92e269d333e81",
       "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
       "issues": [],
       "sources": [
@@ -1478,6 +1481,7 @@
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
         "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/productos/LC40100-8",
         "https://lusqtoff.com.ar/productos/LCS100-8",
         "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
         "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf",
@@ -1489,10 +1493,11 @@
       "editorial_review": {
         "checked": "2026-10-01",
         "batch": "compresores-03",
-        "body_sha256": "114d86ee6567b7587ac3bca1692959897b799414fb61082e11ecb80b3b4ef42a",
+        "body_sha256": "837f8ae0805e03a5b54980454595b66dee6523f54f26b57244d92e269d333e81",
         "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
         "notes": "Lectura completa; nueva ficha LCS100-8: 100 L, 220 V–50 Hz, 1280 W × 3, 255 L/min sin condiciones, 50,5 kg netos. Tres alternativas con foto exacta y fuente. Eliminada la atribución de admisión sin respaldo. Completada viscosidad LC30100 según manual ya verificado. Ruido en dB, ciclo y FAD siguen sin publicarse en las fuentes citadas.",
-        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo",
+        "affiliate_followup": "2026-10-02: afiliados Lüsqtoff recibidos y fotos por código; LC40100-8 usa ficha actual 356 L/min y 76 kg, separado del manual antiguo y del LC40200-8 de 200 L."
       }
     },
     {

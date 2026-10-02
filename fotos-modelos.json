@@ -3479,6 +3479,69 @@
       "height": 640,
       "bytes": 34340,
       "original_image": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2024/09/compresores_compresor-bicilindrico-de-100-litros_G2803AR-00.jpg"
+    },
+    "https://meli.la/1Rjz39S": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LC-2550VS",
+      "source": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtoff-lcvs-a42bbe5c0c.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25594,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC-2550VS/LC-2550VS.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://meli.la/27nVFRy": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LCS50-8",
+      "source": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtoff-lcs50-e041849a95.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 35482,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LCS50-8/LC550-8_2_web.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://meli.la/21fBeVj": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LCS100-8",
+      "source": "https://lusqtoff.com.ar/productos/LCS100-8",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtoff-lcs100-db7f99a6f4.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 33430,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LCS100-8/LCS100-8_9_web.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://lusqtoff.com.ar/productos/LC40100-8": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LC40100-8",
+      "source": "https://lusqtoff.com.ar/productos/LC40100-8",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtofflc401008-162c134a7b.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 30624,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC40100-8/LC40100-8_web.jpg"
+    },
+    "https://meli.la/1GRiWbV": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LC40100-8",
+      "source": "https://lusqtoff.com.ar/productos/LC40100-8",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtofflc401008-162c134a7b.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 30624,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC40100-8/LC40100-8_web.jpg"
     }
   }
 }

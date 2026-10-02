@@ -32,8 +32,8 @@ En la gama Lüsqtoff aparecen configuraciones distintas: el LC-30100 es a correa
 | Modelo | Configuración y datos publicados | Qué permite comparar | Qué falta confirmar en la unidad ofrecida | Oferta |
 | :--- | :--- | :--- | :--- | :--- |
 | **LC-30100 / LC30100-8** | Bicilíndrico a correa, lubricado; 100 L; 3 HP / 2.200 W; 220 V–50 Hz; 115 PSI; 335 L/min publicados | Opción a correa con tanque de 100 L y caudal nominal declarado | FAD/caudal entregado a la presión de la herramienta, ciclo de trabajo y peso de la revisión concreta | [Ver precio del LC-30100](https://meli.la/2r6QkaT) |
-| **LC-40100 / LC40100-8** | Bicilíndrico de mando directo, lubricado; 100 L; 4 HP; 220 V–50 Hz; 115 PSI; 360 L/min en manual | Opción de mando directo con cifras de manual identificables | Caudal efectivo comparable, ciclo de trabajo y correspondencia entre revisión del equipo y manual | [Ver precio del LC-40100](https://meli.la/127ZaQu) |
-| **LCS100-8** | Sin aceite; 100 L; 220 V–50 Hz; 1.280 W × 3 / 1,7 HP × 3; máx. 8 bar / 116 PSI; 255 L/min; 50,5 kg | Alternativa sin aceite con arranque secuenciado; incluye cuatro ruedas y seis filtros | Caudal a presión y método de medición, ciclo permitido y ruido medido en dB | [Ver ficha LCS100-8](https://lusqtoff.com.ar/productos/LCS100-8) |
+| **LC-40100 / LC40100-8** | Ficha actual LC40100-8: bicilíndrico de mando directo, lubricado; 100 L; 4 HP / 3.000 W; 220 V–50 Hz; 8 bar / 115 PSI; 356 L/min; 76 kg | Opción lubricada de mando directo; la oferta recibida identifica LC40100-8 | Confirmar caudal efectivo, ciclo y revisión. El manual anterior LC-40100 publica 360 L/min y 58 kg; no trasladar esos datos a cualquier variante | [Ver precio del LC-40100](https://meli.la/1GRiWbV) |
+| **LCS100-8** | Sin aceite; 100 L; 220 V–50 Hz; 1.280 W × 3 / 1,7 HP × 3; máx. 8 bar / 116 PSI; 255 L/min; 50,5 kg | Alternativa sin aceite con arranque secuenciado; incluye cuatro ruedas y seis filtros | Caudal a presión y método de medición, ciclo permitido y ruido medido en dB | [Ver precio del LCS100-8](https://meli.la/21fBeVj) |
 
 **Análisis TallerLab:** 335 y 360 L/min son valores publicados para LC-30100 y LC-40100, pero las fuentes no documentan un método común ni confirman que sean caudal efectivo (FAD) a una misma presión. No se deben usar para afirmar que uno sostiene mejor una herramienta. Pedí el caudal de salida/FAD a la presión requerida y el ciclo de trabajo de la revisión que vas a comprar.
 
@@ -101,6 +101,8 @@ El LC-40100 también tiene una diferencia menor entre fuentes: **58 kg** en el m
 - Última revisión: 01/10/2026
 
 ## Fuentes consultadas
+
+Para la oferta LC40100-8 se utiliza la [ficha actual del código](https://lusqtoff.com.ar/productos/LC40100-8). Es de 100 L y 220 V; el LC40200-8 de 200 L y 380 V trifásico corresponde a la [guía de 200 litros](/compresores/200-litros/).
 
 - **Lüsqtoff:** [manual LC-30100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf); [manual LC-40100](https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf); [catálogo Lüsqtoff 2020/21](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [catálogo Lüsqtoff 2022/23](https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf); [catálogo Lüsqtoff 2023/24](https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf); [ficha LCS100-8](https://lusqtoff.com.ar/productos/LCS100-8); [gama actual de compresores](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
 - **Herramientas, ejemplos de consumo:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view); [arenador BTA AA-2040I](https://btatools.com.ar/producto/arenador-portatil-alta-presion).

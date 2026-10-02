@@ -121,7 +121,8 @@
     "models": [
       "Lüsqtoff LC2550B-8",
       "Lüsqtoff LC2550BK-8",
-      "Lüsqtoff LC-3550BK"
+      "Lüsqtoff LC-3550BK",
+      "Lüsqtoff LC-2550VS"
     ],
     "offers": [
       {
@@ -137,6 +138,11 @@
       {
         "model": "Lüsqtoff LC-3550BK",
         "url": "https://meli.la/21xNVUN",
+        "cta": "Ver precio y disponibilidad"
+      },
+      {
+        "model": "Lüsqtoff LC-2550VS",
+        "url": "https://meli.la/1Rjz39S",
         "cta": "Ver precio y disponibilidad"
       }
     ],
@@ -162,7 +168,7 @@
       },
       {
         "model": "Lüsqtoff LC-40100",
-        "url": "https://meli.la/127ZaQu",
+        "url": "https://meli.la/1GRiWbV",
         "cta": "Ver precio y disponibilidad"
       },
       {
@@ -232,7 +238,8 @@
     "mode": "section",
     "models": [
       "Lüsqtoff LC-30100",
-      "Lüsqtoff LC-40100"
+      "Lüsqtoff LC-40100",
+      "Lüsqtoff LCS100-8"
     ],
     "offers": [
       {
@@ -242,8 +249,13 @@
       },
       {
         "model": "Lüsqtoff LC-40100",
-        "url": "https://meli.la/127ZaQu",
+        "url": "https://meli.la/1GRiWbV",
         "cta": "Ver precio del LC-40100"
+      },
+      {
+        "model": "Lüsqtoff LCS100-8",
+        "url": "https://meli.la/21fBeVj",
+        "cta": "Ver precio del LCS100-8"
       }
     ],
     "pending": []

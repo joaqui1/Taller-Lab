@@ -1,0 +1,62 @@
+{
+  "base": "http://127.0.0.1:5203",
+  "pages": 6,
+  "errors": [],
+  "failures": [],
+  "search": {
+    "retry": true,
+    "more": true,
+    "empty": true,
+    "clear": true
+  },
+  "rows": [
+    {
+      "path": "/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "failures": [],
+      "sources": 10,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/100-litros/",
+      "failures": [],
+      "sources": 8,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/compresores/200-litros/",
+      "failures": [],
+      "sources": 6,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    }
+  ]
+}
