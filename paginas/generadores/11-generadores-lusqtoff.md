@@ -58,7 +58,7 @@ Para comparar consumo, formato y autonomía de esta familia, consultá [generado
 | [LGI5.0-9](https://lusqtoff.com.ar/ver-producto/LGI5.0-9) | 4,2 kW | 4,5 kW | Nafta, 4T; arranque manual; tanque 12 L; frecuencia publicada: 50 Hz; ruido: 75 dB a 7 m; 43 kg. | $1.591.999 | — |
 | [LGI5.5-8](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | No publicada en la ficha consultada | 5,2 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque manual/eléctrico; tanque 10 L; ruido publicado: 62 dB; 30 kg. | $1.824.399 | [Ver precio →](https://meli.la/1pJFrBq) |
 | [LGI7.5-8](https://lusqtoff.com.ar/ver-producto/LGI7.5-8) | No publicada en la ficha consultada | 5,5 kVA | Nafta, 4T; frecuencia publicada: 50 Hz; arranque eléctrico; tanque 11 L; ruido publicado: 63 dB; 30 kg. | $2.278.099 | — |
-| [LGI11.0-9](https://lusqtoff.com.ar/ver-producto/LGI11.0-9) | 10 kVA | 11 kVA | Nafta, 4T; salida 220/380 V; factor de potencia 1,0/0,8; arranque eléctrico; tanque 35 L; 86 kg. | $2.721.399 | — |
+| [LGI11.0-9](https://lusqtoff.com.ar/ver-producto/LGI11.0-9) | 10 kVA | 11 kVA | Nafta, 4T; salida 220/380 V; factor de potencia 1,0/0,8; arranque eléctrico; tanque 35 L; 86 kg. | $2.721.399 | [Ver precio →](https://meli.la/25pcKkk) |
 
 El nombre del modelo no siempre coincide con la potencia nominal: por ejemplo, LGI5.5-8 publica un máximo de 5,2 kVA y LGI7.5-8 uno de 5,5 kVA. Compará cada placa y ficha por separado, no el orden de los códigos.
 

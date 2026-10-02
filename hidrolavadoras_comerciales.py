@@ -1,5 +1,6 @@
 """Enlaces suministrados y posiciones editoriales del clúster de limpieza."""
 OFFERS = {
+    'B1800': ('BLACK+DECKER', 'BEPW1800T-AR', '1D4gf5k', 'Auto y uso doméstico; manguera de 6 m'),
     'K2': ('Kärcher', 'K2 Basic Black · 1.994-322.0', '2izv76H', 'Limpieza ocasional y suciedad ligera'),
     'K2CAR': ('Kärcher', 'K2 Car Black · 1.994-052.0', '2Cq2ivp', 'Kit para auto; confirmar accesorios y stock'),
     'K3': ('Kärcher', 'K3 Black Edition · 9.398-355.0', '1LYmDeG', 'Más frecuencia de uso que la K2'),
@@ -37,7 +38,6 @@ PENDING = {
     'RE90': 'El título indica 60 Hz: confirmar placa compatible con la instalación argentina de 50 Hz.',
     'G150': 'Falta enlace de Gamma 150 Elite G2514AR.',
     'HL1008': 'Falta enlace de Lüsqtoff HL100-8.',
-    'B1800': 'Falta enlace de BEPW1800T-AR.',
     'HYUNDAI_LIST': 'Falta lista afiliada Hyundai.',
     '200BAR_LIST': 'Falta lista afiliada de 200 bar.',
 }
@@ -72,6 +72,10 @@ REPEATS = {10: 'Precio de Gamma 150', 12: 'Precio y stock', 14: 'Precio y stock'
 # Fichas editoriales usadas por las cards; los límites evitan que la card
 # reduzca el modelo a una referencia de catálogo sin contexto de compra.
 CARD_FACTS = {
+    'B1800': dict(specs=['83,5 bar nominales / 125 bar máximos','5,5 L/min nominales / 6,8 L/min máximos','1.700 W; variante AR 220 V / 50 Hz'],
+        includes='Manguera de 6 m, pistola, lanza ajustable, filtro, conexión rápida y botella de espuma según documentación local.',
+        warning='El título de la oferta mezcla 50/60 Hz: confirmá BEPW1800T-AR y 220 V / 50 Hz en placa; no trasladar cifras a otra variante.',
+        source='https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar'),
     'K2': dict(specs=['110 bar máximos', '280 L/h', 'Manguera HP de 3 m'],
         includes='Manguera HP de 3 m; revisá el kit y la variante regional.',
         warning='Alcance corto para rodear un vehículo grande.',

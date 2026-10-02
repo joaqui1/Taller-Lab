@@ -1,0 +1,86 @@
+{
+  "base": "http://127.0.0.1:5204",
+  "pages": 9,
+  "errors": [],
+  "failures": [],
+  "search": {
+    "retry": true,
+    "more": true,
+    "empty": true,
+    "clear": true
+  },
+  "rows": [
+    {
+      "path": "/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/sierras/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/generadores/inverter/",
+      "failures": [],
+      "sources": 12,
+      "resources": 1,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/generadores/lusqtoff/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/black-decker/",
+      "failures": [],
+      "sources": 8,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    },
+    {
+      "path": "/sierras/circulares-black-decker/",
+      "failures": [],
+      "sources": 0,
+      "resources": 0,
+      "filters": 0,
+      "comparisons": 0
+    },
+    {
+      "path": "/hidrolavadoras/bosch/",
+      "failures": [],
+      "sources": 8,
+      "resources": 0,
+      "filters": 3,
+      "comparisons": 1
+    }
+  ]
+}

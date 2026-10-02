@@ -1,6 +1,6 @@
 {
   "section": "generadores",
-  "checked": "2026-10-02T14:20:35.615870+00:00",
+  "checked": "2026-10-02T16:07:41.822770+00:00",
   "articles": 21,
   "structural_failures": [],
   "sources": [
@@ -1703,7 +1703,7 @@
     {
       "path": "/generadores/inverter/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\06-generadores-inverter.md",
-      "body_sha256": "dd791a84bece3221712a9412e9d2539cd715617f27e7cd054fa2f77987162a1e",
+      "body_sha256": "d5b5eae65a7579542b1af086ca1b040f7db612572a894ddeb5a27c2644db32ae",
       "title": "Generadores inverter: cómo funcionan y cuál comprar",
       "issues": [],
       "sources": [
@@ -1723,10 +1723,11 @@
       "editorial_review": {
         "checked": "2026-10-02",
         "batch": "generadores-02",
-        "body_sha256": "dd791a84bece3221712a9412e9d2539cd715617f27e7cd054fa2f77987162a1e",
+        "body_sha256": "d5b5eae65a7579542b1af086ca1b040f7db612572a894ddeb5a27c2644db32ae",
         "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
         "notes": "Leída guía inverter completa. Comparador ampliado a seis modelos pertinentes: cuatro de la tabla más Gamma y EU30is. Fotos oficiales LGI3.8-8 y LGI11.0-9 incorporadas sin deformación. Dyllu retirado de esta guía porque solo era referencia de precio sin tecnología documentada; conserva su enlace en precios. Dos espacios de afiliado preparados.",
-        "full_claim_verification": "pendiente"
+        "full_claim_verification": "pendiente",
+        "commercial_followup": "2026-10-02: enlaces recibidos asociados al modelo correspondiente; revisión de identidad, foto y bloque comercial, sin nueva lectura integral."
       }
     },
     {
@@ -1857,7 +1858,7 @@
     {
       "path": "/generadores/lusqtoff/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\generadores\\11-generadores-lusqtoff.md",
-      "body_sha256": "8f6b8896ea366faf41a8822366edc95da035fb97ce133baeebb5d96366074e36",
+      "body_sha256": "614e0bdf72097d2d15a44430df7073e46226778f1563eccb323774d2c736a55b",
       "title": "Generadores Lüsqtoff: cuál elegir",
       "issues": [],
       "sources": [
@@ -1888,10 +1889,11 @@
       "editorial_review": {
         "checked": "2026-10-02",
         "batch": "generadores-02",
-        "body_sha256": "8f6b8896ea366faf41a8822366edc95da035fb97ce133baeebb5d96366074e36",
+        "body_sha256": "614e0bdf72097d2d15a44430df7073e46226778f1563eccb323774d2c736a55b",
         "scope": "lectura editorial individual; identidad, selección y comparación de modelos; contrastes selectivos de fuentes",
         "notes": "Leído mapa de gama convencional/inverter, tecnologías, garantía y precios históricos. Se distinguen LGI3.8 y LGIS3.8 motosoldadora. Contrastadas fichas LG3000 y LG3000E: corregidos tabla y texto, pues la discrepancia de 4,8 kW existe en ambos. Pendiente contraste completo de los demás códigos.",
-        "full_claim_verification": "pendiente"
+        "full_claim_verification": "pendiente",
+        "commercial_followup": "2026-10-02: enlaces recibidos asociados al modelo correspondiente; revisión de identidad, foto y bloque comercial, sin nueva lectura integral."
       }
     },
     {

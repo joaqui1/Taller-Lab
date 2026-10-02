@@ -196,7 +196,8 @@
       "EU22i",
       "GE3497AR",
       "EU30is",
-      "LGI5.5-8"
+      "LGI5.5-8",
+      "LGI11.0-9"
     ],
     "offers": [
       {
@@ -218,6 +219,11 @@
         "model": "LGI5.5-8",
         "url": "https://meli.la/1pJFrBq",
         "cta": "Ver precio del Lüsqtoff LGI5.5-8"
+      },
+      {
+        "model": "LGI11.0-9",
+        "url": "https://meli.la/25pcKkk",
+        "cta": "Ver precio del Lüsqtoff LGI11.0-9"
       }
     ]
   },
@@ -328,7 +334,8 @@
       "LG950P",
       "LGI5.5-8",
       "LG7500EXT",
-      "LG3000"
+      "LG3000",
+      "LGI11.0-9"
     ],
     "offers": [
       {
@@ -355,6 +362,11 @@
         "model": "LG3000",
         "url": "https://meli.la/2fhftj7",
         "cta": "Ver precio del Lüsqtoff LG3000"
+      },
+      {
+        "model": "LGI11.0-9",
+        "url": "https://meli.la/25pcKkk",
+        "cta": "Ver precio del Lüsqtoff LGI11.0-9"
       }
     ]
   },

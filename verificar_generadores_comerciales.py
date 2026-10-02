@@ -58,7 +58,7 @@ def main():
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
     subprocess.run(['python', 'integrar_generadores_comerciales.py'], check=True)
     assert before == {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}, 'Integración no idempotente'
-    assert len({url(k) for k in OFFERS if k not in PENDING}) == 26
+    assert len({url(k) for k in OFFERS if k not in PENDING}) == 27
     class QuietHandler(s.TallerLabHandler):
         def log_message(self, *args):
             pass

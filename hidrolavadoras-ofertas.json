@@ -144,6 +144,7 @@
     "models": [
       "B1300",
       "B1520",
+      "B1800",
       "B2200"
     ],
     "offers": [
@@ -156,13 +157,15 @@
         "url": "https://meli.la/1iVgFke"
       },
       {
+        "model": "B1800",
+        "url": "https://meli.la/1D4gf5k"
+      },
+      {
         "model": "B2200",
         "url": "https://meli.la/2MJE81D"
       }
     ],
-    "pending": {
-      "B1800": "Falta enlace de BEPW1800T-AR."
-    },
+    "pending": {},
     "repeat": false
   },
   "/hidrolavadoras/karcher-k2/": {

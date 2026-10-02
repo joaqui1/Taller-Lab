@@ -1,5 +1,6 @@
 """Ofertas suministradas: códigos exactos y distribución editorial autorizada."""
 OFFERS = {
+    'LGI11.0-9': ('Lüsqtoff LGI11.0-9', '25pcKkk', 'Lüsqtoff LGI11.0-9'),
     'GPK980': ('Pektra GPK980', '2jcLSy1', 'Pektra GPK980'),
     'EU22i': ('Honda EU22i', '2AwxqaH', 'Honda EU22i'),
     'GE3497AR': ('Gamma GE3497AR', '1B4sjDN', 'Gamma Inverter 2 kW'),
@@ -36,12 +37,12 @@ PLACEMENTS = {
     3: ['EU22i', 'EU30is', 'EG6500CXS', 'EZ6500CXS', 'ET12000'],
     4: ['EG6500CXS', 'EZ6500CXS'],
     5: ['EU22i', 'GE3480AR', 'GE3481AR', 'EU30is', 'EG6500CXS'],
-    6: ['EU22i', 'GE3497AR', 'EU30is', 'LGI5.5-8'],
+    6: ['EU22i', 'GE3497AR', 'EU30is', 'LGI5.5-8', 'LGI11.0-9'],
     7: ['LG7500EXT', 'ET12000'],
     8: ['EU22i', 'GE3497AR', 'GE3480AR', 'GE3481AR', 'EG6500CXS', 'EZ6500CXS', 'LG3000', 'GE3482AR'],
     9: ['HY7500LE'],
     10: ['GE3481AR'],
-    11: ['LGIS3.8-8', 'LG950P', 'LGI5.5-8', 'LG7500EXT', 'LG3000'],
+    11: ['LGIS3.8-8', 'LG950P', 'LGI5.5-8', 'LG7500EXT', 'LG3000', 'LGI11.0-9'],
     12: ['GE3497AR', 'GE3480AR', 'GE3481AR', 'GE3491AR', 'GE3482AR'],
     13: ['EU22i', 'GE3480AR', 'GE3481AR', 'EU30is', 'EG6500CXS'],
     14: [],

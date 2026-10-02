@@ -11,13 +11,11 @@ Pegá el enlace junto al modelo. Los enlaces se incorporan después de comprobar
 | Fengda AS-186 |  | Confirmar código, contenido y variante eléctrica local; enlace documental activo |
 | Fengda AS-196 |  | Confirmar código, contenido y variante eléctrica local; enlace documental activo |
 | Lüsqtoff LGI3.8-8 |  | Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS. |
-| Lüsqtoff LGI11.0-9 |  | Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS. |
 | Gamma 150 Elite G2514AR |  | Código G2514AR; ficha y foto oficiales activas |
 | Lüsqtoff HL100-8 |  | HL100-8 exacto; no sustituir por HL-150 |
-| Bosch GHP 220 0600910EH0 |  | Reemplazo o acreditación del enlace recibido 13efsmG: falta código y frecuencia de placa |
-| Bosch GHP 4-50 0600910FH0 |  | Código argentino 0600910FH0; ficha y foto oficiales activas |
+| Bosch GHP 220 0600910EH0 |  | Buscar código EH0 de 50 Hz; el referido 2BRPsKf identifica EG0, de 60 Hz según manual Bosch página 12. |
+| Bosch GHP 4-50 0600910FH0 |  | Buscar código FH0 de 50 Hz; el referido 1gVPfjo declara 60 Hz y no acredita el código argentino. |
 | Bosch UniversalAquatak 36V-100 06008C7002 |  | Kit 36 V 4 Ah con cargador; confirmar disponibilidad argentina |
-| BLACK+DECKER BEPW1800T-AR |  | Variante argentina, kit y código exactos |
 | Einhell TC-SM 2131/2 Dual 4300390 |  | No sustituir por TE-SM 2131 Dual; ficha oficial activa |
 | TOTAL TS42182553 |  | No sustituir por TS42182552; catálogo enlazado y comparación de dos códigos activa |
 | BLACK+DECKER CS1350P-AR |  | Variante AR de220V; manual enlazado. No sustituir por BR127V |

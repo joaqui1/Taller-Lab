@@ -2,7 +2,7 @@
   "articles_reviewed": 179,
   "expanded": 33,
   "cards": 106,
-  "documented_cards": 42,
+  "documented_cards": 41,
   "failures": [],
   "rows": [
     {
@@ -78,10 +78,10 @@
         "Lüsqtoff · LGI5.5-8",
         "Lüsqtoff · LGI11.0-9"
       ],
-      "original_offers": 4,
+      "original_offers": 5,
       "count": 6,
       "reason": "Compará los cuatro modelos de la tabla y los dos inverter adicionales de la guía. Conservamos kW y kVA en sus unidades publicadas; el LGI5.5-8 necesita potencia nominal confirmada para dimensionar marcha.",
-      "documented": 2
+      "documented": 1
     },
     {
       "path": "/compresores/kits-aerografo/",

@@ -1,0 +1,308 @@
+{
+  "pages": 9,
+  "viewports": [
+    320,
+    390,
+    1440
+  ],
+  "results": [
+    {
+      "width": 320,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 320,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 390,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 0,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 21,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 23,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 30,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/inverter/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 11,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/generadores/lusqtoff/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 9,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/sierras/circulares-black-decker/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 4,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    },
+    {
+      "width": 1440,
+      "path": "/hidrolavadoras/bosch/",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "photos": 7,
+      "broken": [],
+      "frames": [],
+      "fallbacks": 0
+    }
+  ],
+  "failures": []
+}

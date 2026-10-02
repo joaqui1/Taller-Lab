@@ -1,6 +1,6 @@
 {
   "section": "hidrolavadoras",
-  "checked": "2026-10-02T14:20:43.285126+00:00",
+  "checked": "2026-10-02T16:07:48.115567+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -2201,7 +2201,7 @@
         "https://www.toolservicenet.com/i/BLACK_DECKER/GLOBALBOM/AR/BEPW2200/1/Instruction_Manual/EN/NA090017_BEPW_1600_1600L_1750_1800_2200-T1-LA.pdf"
       ],
       "tables": 2,
-      "offer_cards": 3,
+      "offer_cards": 4,
       "editorial_status": "revisión editorial registrada",
       "editorial_review": {
         "checked": "2026-10-02",
@@ -2209,7 +2209,8 @@
         "body_sha256": "f4bf65be56199f3c69c20065214eec231d8ee323248daa9345f3ff58da6deda7",
         "scope": "lectura editorial individual; identidad y selección de modelos; contrastes selectivos",
         "notes": "Leída Black+Decker BEPW1300/1520/1520L/1800T/2200. Códigos PSI no se tratan como watts; variantes argentinas y manual regional separados. Pendiente enlace BEPW1800T exacto.",
-        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock"
+        "full_claim_verification": "contrastes selectivos; no ensayo ni certificación de stock",
+        "commercial_followup": "2026-10-02: enlaces recibidos asociados al modelo correspondiente; revisión de identidad, foto y bloque comercial, sin nueva lectura integral."
       }
     },
     {

@@ -1,0 +1,23 @@
+{
+  "integrated": [
+    "https://meli.la/25pcKkk",
+    "https://meli.la/1D4gf5k",
+    "https://meli.la/1FVSrCT"
+  ],
+  "pending_bosch": [
+    "https://meli.la/2BRPsKf",
+    "https://meli.la/1gVPfjo"
+  ],
+  "photo": {
+    "status": "verified",
+    "brand": "BLACK+DECKER",
+    "model": "BEPW1800T-AR",
+    "source": "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar",
+    "checked": "2026-10-02",
+    "image": "/assets/productos/blackdeckerbepw1800tar-7a28bcae12.webp",
+    "width": 530,
+    "height": 530,
+    "bytes": 10140,
+    "original_image": "https://ar.blackanddecker.global/LAG/PRODUCT/IMAGES/HIRES/BEPW1800T_1.jpg?resize=530x530"
+  }
+}

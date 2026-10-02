@@ -51,6 +51,7 @@ MODELS = {
 
 # URL comerciales ya suministradas. No se crean referidos ni se confirman stocks.
 EXISTING = {
+ 'lgi11':'https://meli.la/25pcKkk',
  'lcvs':'https://meli.la/1Rjz39S', 'lcs50':'https://meli.la/27nVFRy', 'lcs100':'https://meli.la/21fBeVj',
  'lapl36':'https://meli.la/1YbCQgP', 'hypresso18':'https://meli.la/1TRSxkF',
  'k4base':'https://meli.la/2SvkJCm',
@@ -188,7 +189,7 @@ def install_models(facts):
         if photo:
             fact.update(image=photo['image'],image_source=photo['source'],image_width=photo['width'],image_height=photo['height'],illustrative=False)
         facts[model['source']] = fact
-        if key in {'lcvs','lcs50','lcs100'}:
+        if key in {'lcvs','lcs50','lcs100','lgi11'}:
             facts[EXISTING[key]] = dict(fact,cta='Ver precio y disponibilidad',evidence_label='Ficha y foto oficiales; enlace suministrado por el usuario')
     for key,(source,specs) in DETAILS.items():
         fact=facts[EXISTING[key]]

@@ -12,7 +12,7 @@ OFFERS = {
     'BES603': ('Black+Decker BES603', '2azLzTF', 'Confirmá sufijo BES603-AR y 220 V; la tabla documental B2 no identifica la variante ofrecida.'),
     'TC-JS85': ('Einhell TC-JS 85', '1PmtLAQ', 'Consultá código, hojas y accesorios incluidos.'),
     'TE-JS100': ('Einhell TE-JS 100', '2N5KYMc', 'Consultá código, hojas y accesorios incluidos.'),
-    'CS1004-AR': ('Black+Decker CS1004-AR', '2oUJyrQ', 'Confirmá variante CS1004-AR, 220 V y disco incluido.'),
+    'CS1004-AR': ('Black+Decker CS1004-AR', '1FVSrCT', 'La oferta identifica CS1004; confirmá sufijo AR, 220 V y disco incluido. Es distinto de CS1350P.'),
     'TC-JS18': ('Einhell TC-JS 18 Li-Solo', '2wgYnKe', 'Versión Solo: herramienta sin batería ni cargador. Confirmá código y compatibilidad Power X-Change de 18 V.'),
     'GST650': ('Bosch GST 650', '1qHMrQ3', 'La publicación recibida anuncia hoja para madera. Confirmá código, encastre y hoja incluida.'),
     'GST680': ('Bosch GST 680', '1X2VNJN', 'Confirmá modelo GST 680, 220 V y accesorios incluidos.'),

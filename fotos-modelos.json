@@ -3542,6 +3542,54 @@
       "height": 640,
       "bytes": 30624,
       "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC40100-8/LC40100-8_web.jpg"
+    },
+    "https://meli.la/25pcKkk": {
+      "status": "verified",
+      "model": "LGI11.0-9",
+      "brand": "Lüsqtoff",
+      "source": "https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/lusqtofflgi1109-3f62067850.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 30324,
+      "original_image": "https://www.lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/BLACK_SERIES/LGI110-9/LGI11-0-9%20-%20LUSQTOFF%20BLACK%20SERIES%20-%20FOTO%20BARCODE.png"
+    },
+    "https://meli.la/1FVSrCT": {
+      "status": "review",
+      "brand": "Black+Decker",
+      "model": "CS1004-AR",
+      "source": "https://ar.blackanddecker.global/producto/cs1004-ar/sierra-circular-1400-w",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/revision-2oUJyrQ-73239a6e38.webp",
+      "width": 530,
+      "height": 530,
+      "bytes": 18264,
+      "original_image": "https://ar.blackanddecker.global/LAG/PRODUCT/IMAGES/HIRES/CS1004_1.jpg?resize=530x530"
+    },
+    "https://meli.la/1D4gf5k": {
+      "status": "verified",
+      "brand": "BLACK+DECKER",
+      "model": "BEPW1800T-AR",
+      "source": "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/blackdeckerbepw1800tar-7a28bcae12.webp",
+      "width": 530,
+      "height": 530,
+      "bytes": 10140,
+      "original_image": "https://ar.blackanddecker.global/LAG/PRODUCT/IMAGES/HIRES/BEPW1800T_1.jpg?resize=530x530"
+    },
+    "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar": {
+      "status": "verified",
+      "brand": "BLACK+DECKER",
+      "model": "BEPW1800T-AR",
+      "source": "https://ar.blackanddecker.global/producto/bepw1800t-ar/hidrolavadora-1810-psi-125-bar",
+      "checked": "2026-10-02",
+      "image": "/assets/productos/blackdeckerbepw1800tar-7a28bcae12.webp",
+      "width": 530,
+      "height": 530,
+      "bytes": 10140,
+      "original_image": "https://ar.blackanddecker.global/LAG/PRODUCT/IMAGES/HIRES/BEPW1800T_1.jpg?resize=530x530"
     }
   }
 }

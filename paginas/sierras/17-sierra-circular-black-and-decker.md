@@ -49,7 +49,7 @@ Primero identificá el código exacto: CS1004-AR y CS1350P (variante AR) son las
 
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
-| Black+Decker CS1004-AR | Confirmá variante CS1004-AR, 220 V y disco incluido. | [Ver precio de Black+Decker CS1004-AR →](https://meli.la/2oUJyrQ) |
+| Black+Decker CS1004-AR | La oferta identifica CS1004; confirmá sufijo AR, 220 V y disco incluido. Es distinto de CS1350P. | [Ver precio de Black+Decker CS1004-AR →](https://meli.la/1FVSrCT) |
 | Black+Decker CS1350P · variante AR | 220 V / 50 Hz; disco 184 mm y eje 15,9 mm. Confirmá sufijo y kit. | [Ver manual del fabricante →](https://support.blackanddecker.com/hc/pt/article_attachments/360018582394) |
 
 *Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional. Consultá precio, stock y condiciones de cada publicación.*

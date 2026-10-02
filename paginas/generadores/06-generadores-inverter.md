@@ -66,7 +66,7 @@ Los modelos siguientes ilustran distintos escalones de salida. Las fichas usan *
 | **Alrededor de 2 kVA — Honda EU22i** | 1,8 kVA | 2,2 kVA | 21 kg en seco | 57 dB(A) a 7 m y plena carga | 3,6 L | $2.799.999 en [Mobimotos](https://www.mobimotos.com.ar/productos/generador-honda-inverter-eu22i-2200w/); 10% menos por transferencia/efectivo según publicación | [Ver precio →](https://meli.la/2AwxqaH) |
 | **3–4 kW — Lüsqtoff LGI3.8-8** | 3,5 kW | 3,8 kW | 28 kg | 75 dB a 7 m; carga de medición no especificada | 8 L | PVP de fabricante: $1.023.099 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI3.8-8) | — |
 | **Alrededor de 5 kVA — Lüsqtoff LGI5.5-8** | No localizada en la página técnica de fabricante consultada | 5,2 kVA | 30 kg | 62 dB; distancia/carga no especificadas | 10 L | PVP de fabricante: $1.811.599 en [Lüsqtoff](https://lusqtoff.com.ar/ver-producto/LGI5.5-8) | [Ver precio →](https://meli.la/1pJFrBq) |
-| **Alrededor de 10 kVA — Lüsqtoff LGI11.0-9** | 10 kVA | 11 kVA | 86 kg | No publicado en la ficha consultada | 35 L | PVP de fabricante: $2.721.399 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9) | — |
+| **Alrededor de 10 kVA — Lüsqtoff LGI11.0-9** | 10 kVA | 11 kVA | 86 kg | No publicado en la ficha consultada | 35 L | PVP de fabricante: $2.721.399 en [Lüsqtoff](https://www.lusqtoff.com.ar/ver-producto/LGI11.0-9) | [Ver precio →](https://meli.la/25pcKkk) |
 
 El precio del EU22i es el publicado por un comercio; los otros tres son PVP visible en la página del fabricante. La modalidad de precio y el canal no son equivalentes: verificá stock, cuotas, descuento, envío y valor final antes de comprar. La fecha identifica cuándo se consultaron estas publicaciones, no garantiza que sigan vigentes.
 

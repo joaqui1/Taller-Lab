@@ -43,14 +43,23 @@
     "guides": [
       "/compresores/kits-aerografo/"
     ],
-    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
+    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo",
+    "candidate_review": {
+      "model": "Fengda FE-180",
+      "affiliate_url": "https://meli.la/1etbTNk",
+      "checked": "2026-10-02",
+      "decision": "No sustituye al kit FD-186K: la publicación identifica un aerógrafo, sin acreditar compresor incluido. Se conserva para evaluar como componente independiente.",
+      "source": "https://www.mercadolibre.com.ar/aerografo-fengda-fe180-de-doble-accion-precision-de-0008/up/MLAU3956571910",
+      "identity_note": "Título doble acción y atributo acción simple contradictorios; no atribuir boquilla ni unidad de 0.008 sin ficha exacta."
+    }
   },
   "Fengda AS-186": {
     "affiliate_url": "",
     "guides": [
       "/compresores/para-aerografo/"
     ],
-    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo"
+    "configuration": "Confirmar código, contenido y variante eléctrica local; enlace documental activo",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "Fengda AS-196": {
     "affiliate_url": "",
@@ -64,10 +73,15 @@
     "guides": [
       "/generadores/inverter/"
     ],
-    "configuration": "Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS."
+    "configuration": "Código exacto; enlace documental y foto oficial activos. No sustituir LGI por LGIS.",
+    "candidate_review": {
+      "affiliate_url": "https://meli.la/2TcYRTK",
+      "model": "LGIS3.8-8",
+      "decision": "Motosoldadora distinta del LGI3.8-8; enlace ya integrado en la guía de gama Lüsqtoff, no sustituye al generador inverter solo."
+    }
   },
   "Lüsqtoff LGI11.0-9": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/25pcKkk",
     "guides": [
       "/generadores/inverter/"
     ],
@@ -80,7 +94,11 @@
       "/hidrolavadoras/gamma-150/",
       "/hidrolavadoras/gamma-130/"
     ],
-    "configuration": "Código G2514AR; ficha y foto oficiales activas"
+    "configuration": "Código G2514AR; ficha y foto oficiales activas",
+    "candidate_review": {
+      "url": "https://www.mercadolibre.com.ar/up/MLAU3371988530?pdp_filters=item_id:MLA1515656193",
+      "decision": "Bomba de repuesto, no hidrolavadora completa. No usar como oferta del equipo."
+    }
   },
   "Lüsqtoff HL100-8": {
     "affiliate_url": "",
@@ -88,31 +106,49 @@
       "/hidrolavadoras/150-bar/",
       "/hidrolavadoras/lusqtoff/"
     ],
-    "configuration": "HL100-8 exacto; no sustituir por HL-150"
+    "configuration": "HL100-8 exacto; no sustituir por HL-150",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "Bosch GHP 220 0600910EH0": {
     "affiliate_url": "",
     "guides": [
       "/hidrolavadoras/bosch/"
     ],
-    "configuration": "Reemplazo o acreditación del enlace recibido 13efsmG: falta código y frecuencia de placa"
+    "configuration": "Buscar código EH0 de 50 Hz; el referido 2BRPsKf identifica EG0, de 60 Hz según manual Bosch página 12.",
+    "candidate_review": {
+      "affiliate_url": "https://meli.la/2BRPsKf",
+      "offered_code": "0600910EG0",
+      "listing_frequency": "50 Hz / 60 Hz",
+      "manufacturer_frequency": "60 Hz",
+      "source": "https://www.bosch-professional.com/binary/manualsmedia/o485788v21_F016L94691_202408.pdf",
+      "source_page": 12,
+      "decision": "No asociar a EH0 de 50 Hz: Bosch identifica EG0 como 60 Hz. Los datos de frecuencia del catálogo contradicen el manual."
+    }
   },
   "Bosch GHP 4-50 0600910FH0": {
     "affiliate_url": "",
     "guides": [
       "/hidrolavadoras/bosch/"
     ],
-    "configuration": "Código argentino 0600910FH0; ficha y foto oficiales activas"
+    "configuration": "Buscar código FH0 de 50 Hz; el referido 1gVPfjo declara 60 Hz y no acredita el código argentino.",
+    "candidate_review": {
+      "affiliate_url": "https://meli.la/1gVPfjo",
+      "listing_frequency": "60 Hz",
+      "listing_voltage": "220 V",
+      "offered_code": null,
+      "decision": "No asociar a FH0 de 50 Hz: la publicación declara 60 Hz y no aporta código de producto."
+    }
   },
   "Bosch UniversalAquatak 36V-100 06008C7002": {
     "affiliate_url": "",
     "guides": [
       "/hidrolavadoras/inalambricas/"
     ],
-    "configuration": "Kit 36 V 4 Ah con cargador; confirmar disponibilidad argentina"
+    "configuration": "Kit 36 V 4 Ah con cargador; confirmar disponibilidad argentina",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "BLACK+DECKER BEPW1800T-AR": {
-    "affiliate_url": "",
+    "affiliate_url": "https://meli.la/1D4gf5k",
     "guides": [
       "/hidrolavadoras/black-decker/"
     ],
@@ -124,21 +160,24 @@
       "/sierras/ingletadoras-einhell/",
       "/sierras/ingletadoras/"
     ],
-    "configuration": "No sustituir por TE-SM 2131 Dual; ficha oficial activa"
+    "configuration": "No sustituir por TE-SM 2131 Dual; ficha oficial activa",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "TOTAL TS42182553": {
     "affiliate_url": "",
     "guides": [
       "/sierras/ingletadoras-total/"
     ],
-    "configuration": "No sustituir por TS42182552; catálogo enlazado y comparación de dos códigos activa"
+    "configuration": "No sustituir por TS42182552; catálogo enlazado y comparación de dos códigos activa",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "BLACK+DECKER CS1350P-AR": {
     "affiliate_url": "",
     "guides": [
       "/sierras/circulares-black-decker/"
     ],
-    "configuration": "Variante AR de220V; manual enlazado. No sustituir por BR127V"
+    "configuration": "Variante AR de220V; manual enlazado. No sustituir por BR127V",
+    "availability_review": "2026-10-02: el usuario no encuentra la publicación exacta; conservar referencia documental sin atribuirle otra oferta."
   },
   "ESAB OK NiFe-CI 3,2 mm": {
     "affiliate_url": "",
@@ -218,5 +257,12 @@
       "/compresores/lusqtoff-100-litros/"
     ],
     "configuration": "100 L, 220 V, mando directo; distinto de LC40200-8 de 200 L y 380 V."
+  },
+  "BLACK+DECKER CS1004-AR": {
+    "affiliate_url": "https://meli.la/1FVSrCT",
+    "guides": [
+      "/sierras/circulares-black-decker/"
+    ],
+    "configuration": "CS1004; no sustituye a CS1350P. Confirmar sufijo AR y disco incluido."
   }
 }
