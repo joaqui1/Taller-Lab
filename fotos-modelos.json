@@ -3229,6 +3229,71 @@
       "source": "https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios",
       "status": "verified",
       "checked": "2026-10-01"
+    },
+    "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LCS50-8",
+      "source": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+      "checked": "2026-10-01",
+      "image": "/assets/productos/lusqtoff-lcs50-e041849a95.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 35482,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LCS50-8/LC550-8_2_web.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://lusqtoff.com.ar/productos/LCS100-8": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LCS100-8",
+      "source": "https://lusqtoff.com.ar/productos/LCS100-8",
+      "checked": "2026-10-01",
+      "image": "/assets/productos/lusqtoff-lcs100-db7f99a6f4.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 33430,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LCS100-8/LCS100-8_9_web.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://lusqtoff.com.ar/productos/LC40200-8": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LC40200-8",
+      "source": "https://lusqtoff.com.ar/productos/LC40200-8",
+      "checked": "2026-10-01",
+      "image": "/assets/productos/lusqtoff-lc40200doc-c99492d8d4.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 24906,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40200/LC-40200_Web.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://lusqtoff.com.ar/ver-producto/LC-2550VS": {
+      "status": "verified",
+      "brand": "Lüsqtoff",
+      "model": "LC-2550VS",
+      "source": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+      "checked": "2026-10-01",
+      "image": "/assets/productos/lusqtoff-lcvs-a42bbe5c0c.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25594,
+      "original_image": "https://lusqtoff.com.ar/2023/uploads/Productos/NUEVOS/COMPRESORES_DE_AIRE/LC-2550VS/LC-2550VS.jpg",
+      "verification": "Foto principal de la ficha oficial del código exacto; proporción conservada."
+    },
+    "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0": {
+      "status": "verified",
+      "brand": "Schulz",
+      "model": "MAX CSV 20/200 · 922.9303-0",
+      "source": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+      "checked": "2026-10-01",
+      "image": "/assets/productos/schulz-csv20200-362d65a878.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 32306,
+      "original_image": "https://www.schulz.com.br/cnp/922.9303-0_1.jpg",
+      "verification": "Foto de la ficha oficial 922.9303-0; variante monofásica brasileña de 60 Hz."
     }
   }
 }

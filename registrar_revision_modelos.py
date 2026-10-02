@@ -58,6 +58,6 @@ def main():
             lines.append('- ['+row['title']+'](https://www.tallerlab.com.ar'+row['path']+'): **'+row['decision']+'**. '+row['reason'])
     (ROOT/'revision-modelos-por-articulo-2026-10-01.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     (ROOT/'decisiones-modelos-por-articulo.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
-    print('179 guías inventariadas; 18 selecciones ampliadas. Las evaluaciones pendientes se mantienen explícitas.')
+    print(f'{len(rows)} guías inventariadas; {len(PLANS)} selecciones ampliadas. Las evaluaciones pendientes se mantienen explícitas.')
 
 if __name__=='__main__':main()

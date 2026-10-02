@@ -8,6 +8,11 @@ def documented(brand, model, source, use, power, specs, warning='', includes='Co
                 cta='Ver ficha del fabricante')
 
 MODELS = {
+ 'lc40200doc': documented('Lüsqtoff','LC40200-8','https://lusqtoff.com.ar/productos/LC40200-8','Reserva de 200 L y bomba tricilíndrica a correa','380 V / 50 Hz trifásica',['200 L; 130 kg','458 L/min en ficha actual; condición no indicada','3.000 W / 4 HP; máx. 115 PSI']),
+ 'schulz200': documented('Schulz','MAX CSV 20/200 · 922.9303-0','https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0','Referencia de dos etapas y régimen intermitente','220 V / 60 Hz monofásica',['172,8 L; 133,1 kg netos','566 L/min de desplazamiento teórico; no FAD','5 cv / 3,7 kW; máx. 175 PSI'],'Ficha brasileña de 60 Hz; no acredita compatibilidad con 50 Hz ni disponibilidad argentina. Exigí variante y placa para la instalación local.'),
+ 'lcvs': documented('Lüsqtoff','LC-2550VS','https://lusqtoff.com.ar/ver-producto/LC-2550VS','Alternativa vertical sin aceite de 50 L','220 V / 50 Hz',['50 L; sin aceite','230 L/min; condición de medición no indicada','1.750 W / 2,5 HP; 72 dB sin condiciones acústicas']),
+ 'lcs50': documented('Lüsqtoff','LCS50-8','https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l','Alternativa actual sin aceite de 50 L','220 V / 50 Hz',['50 L; sin aceite','105 L/min; condición de medición no indicada','1.600 W / 2 HP; 30 kg']),
+ 'lcs100': documented('Lüsqtoff','LCS100-8','https://lusqtoff.com.ar/productos/LCS100-8','Reserva de 100 L con bomba sin aceite','220 V / 50 Hz',['100 L; sin aceite','255 L/min; condición de medición no indicada','1.280 W × 3; 50,5 kg netos']),
  'emona200': documented('Emona','F 200 · SKU 49292','https://emona.com.ar/catalogo/agua-fria/hidrolavadora-emona-f-200-bar-21-lts-x-min-trif-10-hp-completa-caccesorios', 'Agua fría con mayor caudal publicado','380 V trifásica', ['200 bar de salida; condición nominal/máxima no separada','21 L/min publicados; confirmar caudal sostenido','Interpump WS 202; manguera de 10 m'], 'Confirmá ciclo de trabajo, suministro mínimo de agua y versión fija o con carrito. La ficha no publica precio ni stock.', 'La ficha lista manguera de 10 m, lanza, pico, pistola automática y salvamotor; confirmá configuración cotizada.'),
  'gamma50': documented('Gamma','G2802AR','https://www.gammaherramientas.com.ar/producto/compresor-de-50-litros/', 'Reserva de 50 L para trabajo intermitente','220 V', ['50 L','203 L/min de desplazamiento; no FAD','2,5 HP según manual'], 'La página comercial y el manual discrepan en potencia. Confirmá variante y FAD antes de elegir.'),
  'einhell50': documented('Einhell','TE-AC 270/50 Silent','https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/', 'Comparar caudal de salida y ruido publicado','220–240 V', ['50 L','135 L/min a 4 bar; 98 L/min a 7 bar','1.650 W']),
@@ -35,6 +40,9 @@ MODELS = {
 
 # URL comerciales ya suministradas. No se crean referidos ni se confirman stocks.
 EXISTING = {
+ 'lc30200':'https://meli.la/2vfnWE7',
+ 'lc50kit':'https://meli.la/2FtyGQc', 'lc3550':'https://meli.la/21xNVUN',
+ 'lc30100':'https://meli.la/2r6QkaT', 'lc40100':'https://meli.la/127ZaQu',
  'k2':'https://meli.la/2izv76H', 'k3':'https://meli.la/1LYmDeG',
  'k4pc':'https://meli.la/149NjG2', 'k5pc':'https://meli.la/1wCKV4R',
  'g130':'https://meli.la/2SuGMdL', 'hl120':'https://meli.la/1qPbvWX',
@@ -56,6 +64,9 @@ def plan(models, reason):
     return dict(models=models, reason=reason)
 
 PLANS = {
+ '/compresores/200-litros/': plan(['lc30200','lc40200doc','schulz200'], 'Los tres modelos documentados en el artículo, con alimentación y frecuencia explícitas. El Schulz de 60 Hz requiere acreditar una variante compatible para compra local; tanque y caudal teórico no prueban rendimiento sostenido.'),
+ '/compresores/lusqtoff-50-litros/': plan(['lc50','lc50kit','lc3550','lcvs','lcs50'], 'Las cinco variantes desarrolladas en la guía: básico, kits y dos alternativas sin aceite. Compará accesorios y mantenimiento; los caudales no tienen condiciones comunes de medición.'),
+ '/compresores/lusqtoff-100-litros/': plan(['lc30100','lc40100','lcs100'], 'Correa lubricada, mando directo lubricado y sin aceite. Son los tres modelos de la guía; confirmá entrega de aire a presión y ciclo para la herramienta prevista.'),
  '/compresores/50-litros/': plan(['lc50','gamma50','einhell50'], 'Compará los tres modelos desarrollados en la guía: reserva, aire publicado y ruido. Desplazamiento y caudal de salida son datos distintos.'),
  '/compresores/bta-25-litros/': plan(['bta25','bta24','bta50'], 'La decisión es entre 25 L, 24 L sin aceite y más reserva de 50 L; duplicar tanque no aumenta por sí solo la producción de aire.'),
  '/compresores/stanley/': plan(['stanleylocal','stanley24','stanley50','stanley100'], 'Separá el SKU local de las referencias europeas: compará reserva, lubricación y salida a presión. Las fichas europeas no confirman stock argentino.'),
@@ -79,6 +90,11 @@ PLANS = {
 # Datos de las fichas ya citadas en cada artículo. Se conserva cualquier
 # advertencia sobre la identidad de la publicación suministrada.
 DETAILS = {
+ 'lc30200': ('https://lusqtoff.com.ar/productos/LC30200-8', ['200 L; a correa; bicilíndrico','335 L/min; condición de medición no indicada','2.200 W / 3 HP; 220 V / 50 Hz']),
+ 'lc50kit': ('https://www.lusqtoff.com.ar/productos/compresor-de-aire-con-kit-o-25-hp-50-l-lc-2550bk', ['50 L; lubricado','206 L/min; condición de medición no indicada','2,5 HP; confirmar sufijo -8 y kit']),
+ 'lc3550': ('https://lusqtoff.com.ar/ver-producto/LC-3550BK', ['50 L; lubricado; bicilíndrico','300 L/min; condición de medición no indicada','3,5 HP; kit con manguera de 5 m']),
+ 'lc30100': ('https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf', ['100 L; a correa; lubricado','335 L/min; condición de medición no indicada','2.200 W / 3 HP; 220 V / 50 Hz']),
+ 'lc40100': ('https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf', ['100 L; mando directo; lubricado','360 L/min según manual; condición no indicada','4 HP; 220 V / 50 Hz']),
  'k3': ('https://www.kaercher.com/ar/home-garden/hidrolavadora/k-3-black-edition-93983550.html', ['120 bar publicados','330 L/h publicados','Manguera incluida: largo no publicado; 7,3 kg']),
  'k4pc': ('https://www.kaercher.com/ar/home-garden/hidrolavadora/k-4-power-control-16034020.html', ['20–130 bar máximos','420 L/h máximos','Manguera de 8 m; inducción refrigerada por agua']),
  'k5pc': ('https://puntogardenia.com.ar/productos/hidrolavadora-k-5-power-control-ar-karcher-1-603-501-0/', ['20–145 bar máximos','480 L/h en esta ficha; otras publican 500 L/h','Manguera de 10 m; 2.100 W']),
@@ -114,6 +130,15 @@ def install_models(facts):
     for key,(source,specs) in DETAILS.items():
         fact=facts[EXISTING[key]]
         fact.update(source=source, specs=specs, source_type='ficha citada en la guía', evidence_label='Datos del modelo documentado; confirmá que la oferta corresponda al código y kit')
+    for key, use, power in [
+        ('lc50', 'Versión básica de 50 L', '220 V monofásica'),
+        ('lc50kit', '50 L lubricado con kit documentado', '220 V monofásica'),
+        ('lc3550', '50 L bicilíndrico con kit documentado', '220 V monofásica'),
+        ('lc30100', '100 L lubricado a correa', '220 V / 50 Hz monofásica'),
+        ('lc40100', '100 L lubricado de mando directo', '220 V / 50 Hz monofásica'),
+        ('lc30200', '200 L bicilíndrico a correa', '220 V / 50 Hz monofásica'),
+    ]:
+        facts[EXISTING[key]].update(use=use, power=power)
     facts[EXISTING['stanleylocal']]['specs']=['24 L en la fuente histórica / 50 L en el título recibido','FAD no confirmado para este SKU','2 HP anunciados; confirmar placa y manual']
     facts[EXISTING['boschstep']]['specs']=['4–20 mm anunciados; SKU 2608597519','Espesor máximo no confirmado para esta referencia','No atribuir los nueve pasos de 2608597524 sin verificar código']
     facts[EXISTING['boschstep']].update(source='https://www.bosch-professional.com/gb/en/hss-step-drill-bits-with-hex-shank-2868008-ocs-ac/',source_type='familia Bosch; confirmar SKU exacto')

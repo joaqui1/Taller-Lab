@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Guía de dimensionamiento para taller que compara depósito, caudal nominal, presión, alimentación y peso sin confundirlos con el aire efectivo disponible."
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "01/10/2026"
 published: true
 ---
 
@@ -31,9 +31,9 @@ Antes de pasar de 100 a 200 L, anotá qué herramientas se usarán juntas, duran
 
 | Modelo | Configuración publicada | Potencia y alimentación | Presión y caudal publicado | Peso publicado | Oferta |
 | :--- | :--- | :--- | :--- | ---: | :--- |
-| **Lüsqtoff LC-30200** | Tanque 200 L; bicilíndrico a correa | 3 HP; 220 V–50 Hz; monofásico | Máx. 115 PSI; 335 L/min en catálogo 2024–25 | 95 kg | [Ver precio del LC-30200](https://meli.la/2vfnWE7) |
-| **Lüsqtoff LC-40200** | Tanque 200 L; tricilíndrico a correa | 4 HP; 380 V–50 Hz; trifásico | Máx. 115 PSI; 700 L/min en catálogo 2024–25 | 130 kg | [Ver precio del LC-40200](https://meli.la/2sTx6pa) |
-| **Schulz MAX CSV 20/200**, código 922.9303-0 | Dos etapas, pistones en V; depósito publicado de 172,8 L | 5 HP; 220 V monofásico en catálogo | Máx. 175 PSI; desplazamiento teórico 566 L/min | 133,1 kg netos | — |
+| **Lüsqtoff LC-30200** | Tanque 200 L; bicilíndrico a correa | 3 HP; 220 V–50 Hz; monofásico | Máx. 115 PSI; 335 L/min en ficha actual | 95 kg | [Ver precio del LC-30200](https://meli.la/2vfnWE7) |
+| **Lüsqtoff LC-40200** | Tanque 200 L; tricilíndrico a correa | 4 HP; 380 V–50 Hz; trifásico | Máx. 115 PSI; 458 L/min en ficha actual | 130 kg | [Ver ficha LC40200-8](https://lusqtoff.com.ar/productos/LC40200-8) |
+| **Schulz MAX CSV 20/200**, código 922.9303-0 | Dos etapas, pistones en V; depósito publicado de 172,8 L | 5 cv / 3,7 kW; 220 V monofásico, **60 Hz**, en ficha brasileña | Máx. 175 PSI; desplazamiento teórico 566 L/min | 133,1 kg netos | — |
 
 <!-- COMPRESORES-OFFERS -->
 
@@ -44,7 +44,7 @@ Los Lüsqtoff LC-30200 y LC-40200 son configuraciones a correa según su catálo
 
 ### Cómo leer caudal y presión
 
-Los Lüsqtoff publican 335 L/min para LC-30200 y 700 L/min para LC-40200 en el catálogo 2024–25. Un catálogo 2020–21 publicaba **415 L/min** para ambos códigos. No encontramos una explicación para el cambio de LC-30200 ni un método común para comparar estos caudales con los **566 L/min de desplazamiento teórico** del Schulz. No son cifras de FAD garantizado a la herramienta ni forman por sí solas un ranking de rendimiento. **FAD** es el caudal de aire libre que el compresor realmente entrega bajo las condiciones de medición indicadas; pedí el dato a la presión de uso si la ficha solo informa admisión o desplazamiento teórico.
+Las fichas actuales publican **335 L/min para LC30200-8** y **458 L/min para LC40200-8**, sin condiciones de medición. El catálogo 2024–25 indicaba 335 y 700 L/min respectivamente; el de 2020–21 publicaba 415 L/min para ambos. Para la compra se identifica el código y se consulta la ficha de esa revisión; las cifras históricas no se trasladan como rendimiento actual. Tampoco hay un método común publicado para compararlas con los **566 L/min de desplazamiento teórico** del Schulz. No son cifras de FAD garantizado a la herramienta ni forman por sí solas un ranking de rendimiento. **FAD** es el caudal de aire libre que el compresor realmente entrega bajo las condiciones de medición indicadas; pedí el dato a la presión de uso si la ficha solo informa admisión o desplazamiento teórico.
 
 La presión máxima tampoco es la presión que exige cada tarea. LC-30200 y LC-40200 publican 115 PSI; Schulz publica un rango de operación de 135 a 175 PSI. Si una herramienta trabaja, por ejemplo, a 90 PSI, revisá que el regulador, la instalación y el caudal disponible sostengan ese valor mientras la herramienta consume aire. Una presión máxima mayor no compensa un caudal insuficiente.
 
@@ -81,11 +81,11 @@ Si el compresor de 100 L ya mantiene presión y la tarea es ocasional, quizás n
 
 Los dos Lüsqtoff de la comparación son a correa: LC-30200 con 3 HP y motor monofásico de 220 V; LC-40200 con 4 HP y alimentación trifásica de 380 V. Una correa añade un punto de inspección —estado, tensión y guarda— que se mantiene según el manual. No deduzcas el caudal real solo por HP, cantidad de cilindros o transmisión.
 
-La alimentación puede decidir la compra antes que la potencia. LC-30200 y Schulz 922.9303-0 se publican como monofásicos de 220 V; LC-40200 requiere 380 V trifásico. Confirmá que la instalación del taller dispone de esa alimentación y que protección, cableado y corriente de arranque correspondan a la placa/manual. No elijas una térmica o sección de cable solo por los HP impresos: pedí dimensionamiento a un electricista habilitado según normativa local.
+La alimentación puede decidir la compra antes que la potencia. LC30200-8 se publica para 220 V–50 Hz monofásico y LC40200-8 para 380 V–50 Hz trifásico. La ficha brasileña Schulz 922.9303-0 indica **220 V–60 Hz**, régimen intermitente y bomba lubricada: compartir tensión no acredita compatibilidad con una instalación argentina de 50 Hz. Para compra local, exigí variante, placa y manual que autoricen la frecuencia disponible; no conectes la variante documentada suponiendo equivalencia. Confirmá que la instalación del taller dispone de esa alimentación y que protección, cableado y corriente de arranque correspondan a la placa/manual. No elijas una térmica o sección de cable solo por los HP impresos: pedí dimensionamiento a un electricista habilitado según normativa local.
 
 ## Instalación física, ventilación y mantenimiento
 
-Un compresor cargado con tanque de 200 L es un equipo pesado y trasladable, no portátil. Los ejemplos documentados pesan **95 kg**, **130 kg** y **133,1 kg netos**; considerá el peso real al moverlo, instalarlo o ubicarlo sobre una superficie. El catálogo Schulz publica dimensiones de 140 × 60 × 119,5 cm para la referencia; confirmá con el proveedor si corresponden a la unidad o al conjunto embalado y pedí las dimensiones exteriores de la variante entregada.
+Un compresor cargado con tanque de 200 L es un equipo pesado y trasladable, no portátil. Los ejemplos documentados pesan **95 kg**, **130 kg** y **133,1 kg netos**; considerá el peso real al moverlo, instalarlo o ubicarlo sobre una superficie. La ficha actual del Schulz 922.9303-0 publica **165 × 60 × 114 cm del producto embalado** y 174,9 kg brutos. Para ubicarlo en el taller, pedí las dimensiones exteriores sin embalaje de la variante entregada; no uses las medidas de caja como dimensiones de instalación.
 
 Antes de instalar, comprobá en el manual del modelo:
 
@@ -118,12 +118,12 @@ Si el vendedor solo puede confirmar tanque, HP, presión máxima y desplazamient
 - Especificaciones contrastadas: sí
 - Opiniones de compradores: no
 - Fuentes primarias: sí
-- Última revisión: 28/09/2026
+- Última revisión: 01/10/2026
 
 ## Fuentes consultadas
 
-- **Lüsqtoff:** [catálogo 2024–2025](https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [catálogo 2020–2021](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [gama actual de compresores](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
-- **Schulz:** catálogo general, CSV 20/200, código 922.9303-0 (referencia documental histórica; enlace original no disponible al 30/09/2026).
+- **Lüsqtoff:** [catálogo 2024–2025](https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf); [catálogo 2020–2021](https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf); [ficha LC30200-8](https://lusqtoff.com.ar/productos/LC30200-8); [ficha LC40200-8](https://lusqtoff.com.ar/productos/LC40200-8); [gama actual de compresores](https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire).
+- **Schulz:** [ficha oficial CSV 20/200, código 922.9303-0](https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0), variante brasileña monofásica de 60 Hz. Se usan sus cifras actuales de reservorio, peso y dimensiones embaladas.
 - **Consumo de herramientas:** [catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060](https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view).
 - **Seguridad:** dimensionamiento eléctrico, instalación del tanque y mantenimiento deben seguir placa, manual y normativa local aplicable.
 - **Opiniones de compradores:** no se revisó una muestra verificable.

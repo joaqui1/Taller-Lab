@@ -279,22 +279,18 @@
     "cards_heading": "Tres modelos documentados de 200 L",
     "mode": "table",
     "models": [
-      "Lüsqtoff LC-30200",
-      "Lüsqtoff LC-40200"
+      "Lüsqtoff LC-30200"
     ],
     "offers": [
       {
         "model": "Lüsqtoff LC-30200",
         "url": "https://meli.la/2vfnWE7",
         "cta": "Ver precio del LC-30200"
-      },
-      {
-        "model": "Lüsqtoff LC-40200",
-        "url": "https://meli.la/2sTx6pa",
-        "cta": "Ver precio del LC-40200"
       }
     ],
-    "pending": []
+    "pending": [
+      "Lüsqtoff LC40200-8"
+    ]
   },
   "/compresores/bta-25-litros/": {
     "number": 17,

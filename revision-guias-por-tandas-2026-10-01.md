@@ -1,6 +1,6 @@
 # Revisión de guías por tandas — 01/10/2026
 
-Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 41. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
+Inventario técnico actual: 179 guías. Lectura editorial registrada en esta ronda: 44. La revisión completa sigue en curso; un HTTP 200 y una tabla visible no certifican las especificaciones ni el stock de un producto.
 
 Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de cada modelo, el montaje y las condiciones de uso, la procedencia de cifras, la navegación, las imágenes y las interacciones. Los controles técnicos generales previos se conservan como evidencia separada.
 
@@ -48,6 +48,12 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 - [/compresores/sin-aceite/](https://www.tallerlab.com.ar/compresores/sin-aceite/): Lectura completa: tres modelos BTA CSA-24-1/CSA-50-2 y LC-0122 con distintas reservas y cifras de aire. Corregido LC-0122: fabricante llama caudal a 180 L/min, no admisión. Contrastadas fichas BTA y manual LC-0122 p.3: limpieza del tanque dos veces por semana, válvula y silenciador a 500 h, anillo a 1500 h. Fotos completas a tres anchos. Tarjetas ahora muestran datos primarios. La etiqueta sin aceite no certifica calidad de aire ni uso médico; contraste completo de normas queda pendiente.
 - [/compresores/bta-25-litros/](https://www.tallerlab.com.ar/compresores/bta-25-litros/): Lectura completa y contraste de fichas BTA 272057.1/272005/272057.2: 25 L y 50 L publican 206 L/min de admisión y 2 HP; CSA-24-1 publica 170 L/min y oil-free. Mantener esas tres alternativas, no afirmar lubricación del 25 L desde la foto o desde las instrucciones SAE30 del 50 L. Fotos completas y sin desborde en tres anchos. Los afiliados ya recibidos corresponden a las tres referencias registradas; esta ronda no reconfirma stock de Mercado Libre.
 - [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/): Lectura completa: conservar tres modelos de 24 L Gamma G2860AR, LC-0122 y BTA CSA-24-1. Contrastadas sus fichas y las alternativas Gamma 25 L/BTA 25 y 50 L: las cifras y métricas coinciden. LC-2024 es 40 L y discontinuado en la ficha, no candidato de 24 L. Las tres fotos cargan y usan contain a 320/390/1440. Enriquecidas las tarjetas Gamma y Lüsqtoff con tanque, caudal atribuido y potencia; no convierte flujo continuo o caudal sin presión en FAD.
+
+## Tanda compresores-03
+
+- [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/): Lectura completa y contraste de fichas LC-2550VS y LCS50-8. Corregida la falta de datos del LCS50-8 con ficha individual actual. Cinco alternativas con fotos reales y tres detalles comparables por tarjeta. Manual LC2550BK verificado visualmente: ISO VG 100, cambio inicial a 50 h y periódico cada seis meses o 50 h; retirada la supuesta contradicción. Los enlaces afiliados de las dos alternativas sin aceite quedan solicitados por código en el registro privado.
+- [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/): Lectura completa; nueva ficha LCS100-8: 100 L, 220 V–50 Hz, 1280 W × 3, 255 L/min sin condiciones, 50,5 kg netos. Tres alternativas con foto exacta y fuente. Eliminada la atribución de admisión sin respaldo. Completada viscosidad LC30100 según manual ya verificado. Ruido en dB, ciclo y FAD siguen sin publicarse en las fuentes citadas.
+- [/compresores/200-litros/](https://www.tallerlab.com.ar/compresores/200-litros/): Lectura completa y contraste de fichas actuales LC30200-8, LC40200-8 y Schulz 922.9303-0. Actualizado LC40200 a 458 L/min frente a 700 históricos; retirado afiliado sin identidad del modelo y sustituido por ficha exacta. Recuperada ficha Schulz: 60 Hz, régimen intermitente, 172,8 L, 133,1 kg, medidas embaladas 165×60×114 cm. Tres tarjetas documentadas con fotos reales; no se presupone compatibilidad de la variante brasileña con 50 Hz.
 
 ## Tanda consumibles-01
 
@@ -107,14 +113,14 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 | [/compresores/acoples-rapidos/](https://www.tallerlab.com.ar/compresores/acoples-rapidos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/para-aerografo/](https://www.tallerlab.com.ar/compresores/para-aerografo/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/aceite/](https://www.tallerlab.com.ar/compresores/aceite/) | Sin fallas detectadas | revisión editorial registrada |
-| [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/lusqtoff-50-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-50-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/filtros/](https://www.tallerlab.com.ar/compresores/filtros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
 | [/compresores/100-litros/](https://www.tallerlab.com.ar/compresores/100-litros/) | Sin fallas detectadas | revisión editorial registrada; contraste completo de cifras pendiente |
 | [/compresores/gamma-50-litros/](https://www.tallerlab.com.ar/compresores/gamma-50-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/kits-accesorios/](https://www.tallerlab.com.ar/compresores/kits-accesorios/) | Sin fallas detectadas | pendiente de revisión editorial actual |
-| [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/lusqtoff-100-litros/](https://www.tallerlab.com.ar/compresores/lusqtoff-100-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/sin-aceite/](https://www.tallerlab.com.ar/compresores/sin-aceite/) | Sin fallas detectadas | revisión editorial registrada |
-| [/compresores/200-litros/](https://www.tallerlab.com.ar/compresores/200-litros/) | Sin fallas detectadas | pendiente de revisión editorial actual |
+| [/compresores/200-litros/](https://www.tallerlab.com.ar/compresores/200-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/bta-25-litros/](https://www.tallerlab.com.ar/compresores/bta-25-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/24-litros/](https://www.tallerlab.com.ar/compresores/24-litros/) | Sin fallas detectadas | revisión editorial registrada |
 | [/compresores/inalambricos/](https://www.tallerlab.com.ar/compresores/inalambricos/) | Sin fallas detectadas | pendiente de revisión editorial actual |
@@ -256,12 +262,12 @@ Se revisan por URL la respuesta a la consulta, las alternativas, la identidad de
 
 ## Fuentes externas por categoría
 
-Los informes conservan 921 sondeos de 902 direcciones distintas y 6 registros de direcciones retiradas o sustituidas en source_history. Un sondeo verifica acceso, destino y tipo de documento, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.
+Los informes conservan 926 sondeos de 907 direcciones distintas y 6 registros de direcciones retiradas o sustituidas en source_history. Un sondeo verifica acceso, destino y tipo de documento, no todas las afirmaciones del artículo. Los bloqueos HTTP o de certificado requieren comprobación independiente; no prueban que el producto o documento no exista.
 
 | Categoría | Sondeos | Alertas de acceso o destino conservadas |
 | --- | --- | --- |
 | amoladoras | 162 | 7 |
-| compresores | 97 | 13 |
+| compresores | 102 | 13 |
 | generadores | 136 | 4 |
 | hidrolavadoras | 171 | 1 |
 | sierras | 108 | 3 |

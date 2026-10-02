@@ -286,5 +286,45 @@
     ],
     "source": "",
     "requirement": "Falta referido ESAB Gas Free E71T-GS 1,0 mm × 1 kg; la referencia disponible es E71T-GS de 0,8 mm × 5 kg."
+  },
+  {
+    "model": "Lüsqtoff LC-2550VS",
+    "source": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+    "guides": [
+      "/compresores/lusqtoff-50-litros/"
+    ],
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Lüsqtoff LCS50-8",
+    "source": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+    "guides": [
+      "/compresores/lusqtoff-50-litros/"
+    ],
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Lüsqtoff LCS100-8",
+    "source": "https://lusqtoff.com.ar/productos/LCS100-8",
+    "guides": [
+      "/compresores/lusqtoff-100-litros/"
+    ],
+    "requirement": "Enlace afiliado al código exacto; verificar variante y contenido."
+  },
+  {
+    "model": "Lüsqtoff LC40200-8",
+    "source": "https://lusqtoff.com.ar/productos/LC40200-8",
+    "guides": [
+      "/compresores/200-litros/"
+    ],
+    "requirement": "La oferta 2sTx6pa no identifica marca ni código; enviar enlace afiliado que acredite LC40200-8."
+  },
+  {
+    "model": "Schulz MAX CSV 20/200 · 922.9303-0",
+    "source": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+    "guides": [
+      "/compresores/200-litros/"
+    ],
+    "requirement": "Referencia brasileña de 60 Hz; para oferta argentina exigir variante autorizada para 50 Hz, sin trasladar automáticamente estos datos."
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "source": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+    "sha256": "a1fbcdc53d8964c708211b1e5d072050044f919469516e91085d89c796fcf35e",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://lusqtoff.com.ar/productos/LCS100-8",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://lusqtoff.com.ar/productos/LCS100-8",
+    "sha256": "eaef9419c5d071940878fd24bb1ba0814fa834e69da7a3ce13050aaf8a82b732",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://lusqtoff.com.ar/productos/LC30200-8",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://lusqtoff.com.ar/productos/LC30200-8",
+    "sha256": "240d8e167de061da11c3bed4233aed6b8c14f848d837dc8565632361cdf15506",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://lusqtoff.com.ar/productos/LC40200-8",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://lusqtoff.com.ar/productos/LC40200-8",
+    "sha256": "5ec9bc2356acedb193b85c94bcca934f38d11a58d4a845bd7c1ab0582aa3ad4c",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
+    "sha256": "6ba1186f5139ea4cdcae9b29a27c6b50248cbc6ffee899ca9324c57b60359f4f",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+    "checked": "2026-10-01",
+    "status": 200,
+    "destination": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+    "sha256": "16b04bd79f2dab4ef1d723ed1c6e80d011c209a61e83803b8c92e55ad5f84cc7",
+    "kind": "ficha primaria HTML"
+  },
+  {
+    "source": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-2550BK/MANUAL/LC-2550BK.pdf",
+    "sha256": "23efb87c965f0df4d365a1a468c1d0601671cbcf3f33a4bb6896b36dd2bc0eeb",
+    "checked": "2026-10-01",
+    "kind": "manual PDF",
+    "visual_pdf_page": 5,
+    "printed_page": 5,
+    "fields": [
+      "ISO VG 100",
+      "cambio tras 50 horas",
+      "periódico: seis meses o 50 horas",
+      "purga semanal",
+      "inspección mensual de filtro"
+    ]
+  }
+]

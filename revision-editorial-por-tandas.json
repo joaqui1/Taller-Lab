@@ -358,5 +358,29 @@
     "scope": "lectura completa; fichas de fabricante y contraste visual de manuales; fotos y navegación",
     "notes": "Lectura completa: G2802AR y G2802KAR comparten 50 L/2,5 HP/203 L/min desplazados en manual p.2. Ficha KIT confirma pistolas y manguera. Corregido mantenimiento para incluir todas las indicaciones del manual: 20W40 p.5 frente a SAE30/10 p.6/8 y L-DAB100/68, cambio inicial10 h/luego500 h. Se conserva diferencia de potencia 2/2,5 HP en página del AR. Dos espacios de afiliados ya preparados; no usar una oferta del AR como KIT. Contraste de variantes y lubricante que rige cada unidad requiere respuesta del fabricante.",
     "full_claim_verification": "contrastes principales documentados; sin certificación de stock ni ensayo"
+  },
+  "/compresores/lusqtoff-50-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-03",
+    "body_sha256": "30ac2a9a7707c606f11b0b7b54510fff3c571cc37132fa04e3cea664fc5659f7",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+    "notes": "Lectura completa y contraste de fichas LC-2550VS y LCS50-8. Corregida la falta de datos del LCS50-8 con ficha individual actual. Cinco alternativas con fotos reales y tres detalles comparables por tarjeta. Manual LC2550BK verificado visualmente: ISO VG 100, cambio inicial a 50 h y periódico cada seis meses o 50 h; retirada la supuesta contradicción. Los enlaces afiliados de las dos alternativas sin aceite quedan solicitados por código en el registro privado.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/compresores/lusqtoff-100-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-03",
+    "body_sha256": "114d86ee6567b7587ac3bca1692959897b799414fb61082e11ecb80b3b4ef42a",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+    "notes": "Lectura completa; nueva ficha LCS100-8: 100 L, 220 V–50 Hz, 1280 W × 3, 255 L/min sin condiciones, 50,5 kg netos. Tres alternativas con foto exacta y fuente. Eliminada la atribución de admisión sin respaldo. Completada viscosidad LC30100 según manual ya verificado. Ruido en dB, ciclo y FAD siguen sin publicarse en las fuentes citadas.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+  },
+  "/compresores/200-litros/": {
+    "checked": "2026-10-01",
+    "batch": "compresores-03",
+    "body_sha256": "43c5553c8a45d131a5660acfd1ba5fbe669824efe28e8ea0d543866e1ec49e05",
+    "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+    "notes": "Lectura completa y contraste de fichas actuales LC30200-8, LC40200-8 y Schulz 922.9303-0. Actualizado LC40200 a 458 L/min frente a 700 históricos; retirado afiliado sin identidad del modelo y sustituido por ficha exacta. Recuperada ficha Schulz: 60 Hz, régimen intermitente, 172,8 L, 133,1 kg, medidas embaladas 165×60×114 cm. Tres tarjetas documentadas con fotos reales; no se presupone compatibilidad de la variante brasileña con 50 Hz.",
+    "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
   }
 }

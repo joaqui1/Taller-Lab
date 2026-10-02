@@ -1,6 +1,6 @@
 {
   "section": "compresores",
-  "checked": "2026-10-01T21:37:34.324868+00:00",
+  "checked": "2026-10-01T21:51:37.956992+00:00",
   "articles": 23,
   "structural_failures": [],
   "sources": [
@@ -287,7 +287,7 @@
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
-      "checked": "2026-10-01T21:02:46.439723+00:00",
+      "checked": "2026-10-02T03:45:11.243355+00:00",
       "status": 200,
       "final_url": "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
       "content_type": "text/html; charset=UTF-8",
@@ -295,8 +295,8 @@
       "headings": [
         "COMPRESOR DE AIRE MONOFÁSICO"
       ],
-      "generic_redirect": false,
-      "soft_not_found": false
+      "soft_not_found": false,
+      "generic_redirect": false
     },
     {
       "url": "https://lusqtoff.com.ar/ver-producto/LC-3550BK",
@@ -1055,6 +1055,71 @@
       ],
       "generic_redirect": false,
       "soft_not_found": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+      "checked": "2026-10-02T03:45:10.781203+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "COMPRESOR DE AIRE SIN ACEITE • 50 L"
+      ],
+      "soft_not_found": false,
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/LCS100-8",
+      "checked": "2026-10-02T03:45:10.782061+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/LCS100-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "COMPRESOR DE AIRE SIN ACEITE • 100 L"
+      ],
+      "soft_not_found": false,
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/LC30200-8",
+      "checked": "2026-10-02T03:45:10.783748+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/LC30200-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "COMPRESOR DE AIRE • 200 L"
+      ],
+      "soft_not_found": false,
+      "generic_redirect": false
+    },
+    {
+      "url": "https://lusqtoff.com.ar/productos/LC40200-8",
+      "checked": "2026-10-02T03:45:10.784397+00:00",
+      "status": 200,
+      "final_url": "https://lusqtoff.com.ar/productos/LC40200-8",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lüsqtoff - Nuestros productos",
+      "headings": [
+        "COMPRESOR DE AIRE • 200 L"
+      ],
+      "soft_not_found": false,
+      "generic_redirect": false
+    },
+    {
+      "url": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+      "checked": "2026-10-02T03:45:11.308816+00:00",
+      "status": 200,
+      "final_url": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Compressor Max CSV 20/200 - 20 pcm 200 litros 5 hp",
+      "headings": [
+        "Compressor Max CSV 20/200 - 20 pcm 200 litros 5 hp"
+      ],
+      "soft_not_found": false,
+      "generic_redirect": false
     }
   ],
   "source_history": [],
@@ -1232,11 +1297,12 @@
     {
       "path": "/compresores/lusqtoff-50-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\09-compresor-lusqtoff-50-litros.md",
-      "body_sha256": "4c2af596691647b7507c879ecb8439d6ed9eb067615ec8e727c12c2927bf3b51",
+      "body_sha256": "30ac2a9a7707c606f11b0b7b54510fff3c571cc37132fa04e3cea664fc5659f7",
       "title": "Compresor Lusqtoff de 50 litros: cuál elegir",
       "issues": [],
       "sources": [
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-2550BK/MANUAL/LC-2550BK.pdf",
+        "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l",
         "https://lusqtoff.com.ar/ver-producto/LC-2550VS",
         "https://lusqtoff.com.ar/ver-producto/LC-3550BK",
         "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
@@ -1245,9 +1311,16 @@
         "https://www.lusqtoff.com.ar/productos/compresor-de-aire-o-25-hp-50-lts-lc2550b-8"
       ],
       "tables": 2,
-      "offer_cards": 3,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 5,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-03",
+        "body_sha256": "30ac2a9a7707c606f11b0b7b54510fff3c571cc37132fa04e3cea664fc5659f7",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+        "notes": "Lectura completa y contraste de fichas LC-2550VS y LCS50-8. Corregida la falta de datos del LCS50-8 con ficha individual actual. Cinco alternativas con fotos reales y tres detalles comparables por tarjeta. Manual LC2550BK verificado visualmente: ISO VG 100, cambio inicial a 50 h y periódico cada seis meses o 50 h; retirada la supuesta contradicción. Los enlaces afiliados de las dos alternativas sin aceite quedan solicitados por código en el registro privado.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+      }
     },
     {
       "path": "/compresores/filtros/",
@@ -1339,7 +1412,7 @@
     {
       "path": "/compresores/lusqtoff-100-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\14-compresor-lusqtoff-100-litros.md",
-      "body_sha256": "43db54afe790087b0451b6b3327821fcd6e4ae5e6fb25819271c6f46cbd68584",
+      "body_sha256": "114d86ee6567b7587ac3bca1692959897b799414fb61082e11ecb80b3b4ef42a",
       "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
       "issues": [],
       "sources": [
@@ -1348,14 +1421,22 @@
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf",
         "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-40100/MANUAL/LC-40100.pdf",
         "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
+        "https://lusqtoff.com.ar/productos/LCS100-8",
         "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
         "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf",
         "https://www.lusqtoff.com.ar/files/catalogo-lq-2022-2023.pdf"
       ],
       "tables": 3,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 3,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-03",
+        "body_sha256": "114d86ee6567b7587ac3bca1692959897b799414fb61082e11ecb80b3b4ef42a",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+        "notes": "Lectura completa; nueva ficha LCS100-8: 100 L, 220 V–50 Hz, 1280 W × 3, 255 L/min sin condiciones, 50,5 kg netos. Tres alternativas con foto exacta y fuente. Eliminada la atribución de admisión sin respaldo. Completada viscosidad LC30100 según manual ya verificado. Ruido en dB, ciclo y FAD siguen sin publicarse en las fuentes citadas.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+      }
     },
     {
       "path": "/compresores/sin-aceite/",
@@ -1387,19 +1468,29 @@
     {
       "path": "/compresores/200-litros/",
       "file": "C:\\Users\\joaqu\\Desktop\\Taller Lab\\paginas\\compresores\\16-compresor-de-200-litros.md",
-      "body_sha256": "4d9d4da32924f72706ac064f62d2658342609f28bacd1011c6ea5590a1451cd3",
+      "body_sha256": "43c5553c8a45d131a5660acfd1ba5fbe669824efe28e8ea0d543866e1ec49e05",
       "title": "Compresores de 200 litros: guía de compra para taller",
       "issues": [],
       "sources": [
         "https://drive.google.com/file/d/1DyTARerK_VdMZmHHSjoT3NJL1KkfBhOz/view",
         "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf",
         "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf",
-        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire"
+        "https://lusqtoff.com.ar/productos/LC30200-8",
+        "https://lusqtoff.com.ar/productos/LC40200-8",
+        "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire",
+        "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0"
       ],
       "tables": 3,
-      "offer_cards": 2,
-      "editorial_status": "pendiente de revisión editorial actual",
-      "editorial_review": null
+      "offer_cards": 3,
+      "editorial_status": "revisión editorial registrada",
+      "editorial_review": {
+        "checked": "2026-10-01",
+        "batch": "compresores-03",
+        "body_sha256": "43c5553c8a45d131a5660acfd1ba5fbe669824efe28e8ea0d543866e1ec49e05",
+        "scope": "lectura editorial completa; contrastes selectivos de fichas primarias y manual; identidad de modelos, fotos, navegación y comparaciones",
+        "notes": "Lectura completa y contraste de fichas actuales LC30200-8, LC40200-8 y Schulz 922.9303-0. Actualizado LC40200 a 458 L/min frente a 700 históricos; retirado afiliado sin identidad del modelo y sustituido por ficha exacta. Recuperada ficha Schulz: 60 Hz, régimen intermitente, 172,8 L, 133,1 kg, medidas embaladas 165×60×114 cm. Tres tarjetas documentadas con fotos reales; no se presupone compatibilidad de la variante brasileña con 50 Hz.",
+        "full_claim_verification": "contrastes selectivos documentados; no certificación de stock ni ensayo"
+      }
     },
     {
       "path": "/compresores/bta-25-litros/",

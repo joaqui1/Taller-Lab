@@ -1,0 +1,612 @@
+{
+  "checked": "2026-10-02",
+  "results": [
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc2550bk8-e67abf0182.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc3550bk-0008247cd1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcvs-a42bbe5c0c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs50-e041849a95.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC2550B-8",
+        "Lüsqtoff · LC2550BK-8",
+        "Lüsqtoff · LC-3550BK",
+        "Lüsqtoff · LC-2550VS",
+        "Lüsqtoff · LCS50-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-50-litros/",
+      "width": 320,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc2550bk8-e67abf0182.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc3550bk-0008247cd1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcvs-a42bbe5c0c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs50-e041849a95.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC2550B-8",
+        "Lüsqtoff · LC2550BK-8",
+        "Lüsqtoff · LC-3550BK",
+        "Lüsqtoff · LC-2550VS",
+        "Lüsqtoff · LCS50-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-50-litros/",
+      "width": 390,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc2550b8-ed19d06e8e.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc2550bk8-e67abf0182.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtofflc3550bk-0008247cd1.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcvs-a42bbe5c0c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs50-e041849a95.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC2550B-8",
+        "Lüsqtoff · LC2550BK-8",
+        "Lüsqtoff · LC-3550BK",
+        "Lüsqtoff · LC-2550VS",
+        "Lüsqtoff · LCS50-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-50-litros/",
+      "width": 1440,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            576
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/completada-127ZaQu-6b52071b44.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs100-db7f99a6f4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30100",
+        "Lüsqtoff · LC-40100",
+        "Lüsqtoff · LCS100-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-100-litros/",
+      "width": 320,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            576
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/completada-127ZaQu-6b52071b44.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs100-db7f99a6f4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30100",
+        "Lüsqtoff · LC-40100",
+        "Lüsqtoff · LCS100-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-100-litros/",
+      "width": 390,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30100-7a335fffdb.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            576
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/completada-127ZaQu-6b52071b44.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lcs100-db7f99a6f4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30100",
+        "Lüsqtoff · LC-40100",
+        "Lüsqtoff · LCS100-8"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/lusqtoff-100-litros/",
+      "width": 1440,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lc40200doc-c99492d8d4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/schulz-csv20200-362d65a878.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            207,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30200",
+        "Lüsqtoff · LC40200-8",
+        "Schulz · MAX CSV 20/200 · 922.9303-0"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/200-litros/",
+      "width": 320,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lc40200doc-c99492d8d4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        },
+        {
+          "src": "/assets/productos/schulz-csv20200-362d65a878.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            277,
+            208
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30200",
+        "Lüsqtoff · LC40200-8",
+        "Schulz · MAX CSV 20/200 · 922.9303-0"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/200-litros/",
+      "width": 390,
+      "errors": []
+    },
+    {
+      "overflow": false,
+      "images": [
+        {
+          "src": "/assets/productos/lusqtofflc30200-f0fa35863c.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/lusqtoff-lc40200doc-c99492d8d4.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        },
+        {
+          "src": "/assets/productos/schulz-csv20200-362d65a878.webp",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            640,
+            640
+          ],
+          "box": [
+            246,
+            168
+          ]
+        }
+      ],
+      "models": [
+        "Lüsqtoff · LC-30200",
+        "Lüsqtoff · LC40200-8",
+        "Schulz · MAX CSV 20/200 · 922.9303-0"
+      ],
+      "interactions": {
+        "compareTwo": true,
+        "compareThree": true,
+        "filterOne": true,
+        "selectionClearedOnFilter": true
+      },
+      "path": "/compresores/200-litros/",
+      "width": 1440,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

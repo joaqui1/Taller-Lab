@@ -57,7 +57,7 @@ PLACEMENTS = [
     (13, 'Kits documentados: qué trae cada presentación', None, ['Lüsqtoff AA-5000K', 'BTA 279010', 'BTA 279013'], 'table'),
     (14, 'Prestaciones documentadas: qué cambia entre modelos', 'Qué compresor Lüsqtoff de 100 L buscar según el uso', ['Lüsqtoff LC-30100', 'Lüsqtoff LC-40100'], 'section'),
     (15, 'Modelos sin aceite con datos publicados', None, ['Lüsqtoff LC-0122', 'BTA CSA-24-1', 'BTA CSA-50-2'], 'table'),
-    (16, 'Tres modelos documentados de 200 L', None, ['Lüsqtoff LC-30200', 'Lüsqtoff LC-40200'], 'table'),
+    (16, 'Tres modelos documentados de 200 L', None, ['Lüsqtoff LC-30200'], 'table'),
     (17, 'Ficha del BTA 272057.1', None, ['BTA D-CA1-25-6'], 'section'),
     (18, 'Cuál compresor de 24 litros elegir', None, ['Gamma G2860AR', 'Lüsqtoff LC-0122', 'BTA CSA-24-1'], 'table'),
     (19, 'Presión, caudal y uso: qué dato mirar', None, ['Einhell PRESSITO 18/25', 'Einhell PRESSITO 18/21', 'Makita DMP180Z'], 'table'),

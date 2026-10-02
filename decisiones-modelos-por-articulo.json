@@ -1108,8 +1108,8 @@
   {
     "path": "/compresores/lusqtoff-50-litros/",
     "title": "Compresor Lusqtoff de 50 litros: cuál elegir",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos las variantes Lüsqtoff de 50 L por lubricación, caudal publicado, accesorios y uso documentado; señalamos qué datos todavía hay que confirmar.",
+    "decision": "Ampliar",
+    "reason": "Las cinco variantes desarrolladas en la guía: básico, kits y dos alternativas sin aceite. Compará accesorios y mantenimiento; los caudales no tienen condiciones comunes de medición.",
     "tables": [
       {
         "heading": "Variantes Lüsqtoff de 50 litros",
@@ -1134,7 +1134,9 @@
     "cards_before": [
       "Lüsqtoff · LC2550B-8",
       "Lüsqtoff · LC2550BK-8",
-      "Lüsqtoff · LC-3550BK"
+      "Lüsqtoff · LC-3550BK",
+      "Lüsqtoff · LC-2550VS",
+      "Lüsqtoff · LCS50-8"
     ]
   },
   {
@@ -1280,8 +1282,8 @@
   {
     "path": "/compresores/lusqtoff-100-litros/",
     "title": "Compresor Lusqtoff de 100 litros: prestaciones y usos",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Comparamos LC-30100, LC-40100 y LCS100-8 por tecnología, presión y caudal documentados, y explicamos qué falta para elegirlos según el uso del taller.",
+    "decision": "Ampliar",
+    "reason": "Correa lubricada, mando directo lubricado y sin aceite. Son los tres modelos de la guía; confirmá entrega de aire a presión y ciclo para la herramienta prevista.",
     "tables": [
       {
         "heading": "Prestaciones documentadas: qué cambia entre modelos",
@@ -1312,7 +1314,8 @@
     ],
     "cards_before": [
       "Lüsqtoff · LC-30100",
-      "Lüsqtoff · LC-40100"
+      "Lüsqtoff · LC-40100",
+      "Lüsqtoff · LCS100-8"
     ]
   },
   {
@@ -1360,8 +1363,8 @@
   {
     "path": "/compresores/200-litros/",
     "title": "Compresores de 200 litros: guía de compra para taller",
-    "decision": "Pendiente",
-    "reason": "Evaluar las alternativas del artículo según su alcance: Cuándo pasar de 100 a 200 L, cómo cruzar caudal, presión y simultaneidad, y qué revisar en tres compresores de taller documentados.",
+    "decision": "Ampliar",
+    "reason": "Los tres modelos documentados en el artículo, con alimentación y frecuencia explícitas. El Schulz de 60 Hz requiere acreditar una variante compatible para compra local; tanque y caudal teórico no prueban rendimiento sostenido.",
     "tables": [
       {
         "heading": "Tres modelos documentados de 200 L",
@@ -1398,7 +1401,8 @@
     ],
     "cards_before": [
       "Lüsqtoff · LC-30200",
-      "Compresor trifásico · código por confirmar · 200 L · 4 HP"
+      "Lüsqtoff · LC40200-8",
+      "Schulz · MAX CSV 20/200 · 922.9303-0"
     ]
   },
   {

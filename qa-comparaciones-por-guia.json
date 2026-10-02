@@ -1,10 +1,48 @@
 {
   "articles_reviewed": 179,
-  "expanded": 18,
-  "cards": 52,
-  "documented_cards": 27,
+  "expanded": 21,
+  "cards": 63,
+  "documented_cards": 32,
   "failures": [],
   "rows": [
+    {
+      "path": "/compresores/200-litros/",
+      "models": [
+        "Lüsqtoff · LC-30200",
+        "Lüsqtoff · LC40200-8",
+        "Schulz · MAX CSV 20/200 · 922.9303-0"
+      ],
+      "original_offers": 1,
+      "count": 3,
+      "reason": "Los tres modelos documentados en el artículo, con alimentación y frecuencia explícitas. El Schulz de 60 Hz requiere acreditar una variante compatible para compra local; tanque y caudal teórico no prueban rendimiento sostenido.",
+      "documented": 2
+    },
+    {
+      "path": "/compresores/lusqtoff-50-litros/",
+      "models": [
+        "Lüsqtoff · LC2550B-8",
+        "Lüsqtoff · LC2550BK-8",
+        "Lüsqtoff · LC-3550BK",
+        "Lüsqtoff · LC-2550VS",
+        "Lüsqtoff · LCS50-8"
+      ],
+      "original_offers": 3,
+      "count": 5,
+      "reason": "Las cinco variantes desarrolladas en la guía: básico, kits y dos alternativas sin aceite. Compará accesorios y mantenimiento; los caudales no tienen condiciones comunes de medición.",
+      "documented": 2
+    },
+    {
+      "path": "/compresores/lusqtoff-100-litros/",
+      "models": [
+        "Lüsqtoff · LC-30100",
+        "Lüsqtoff · LC-40100",
+        "Lüsqtoff · LCS100-8"
+      ],
+      "original_offers": 2,
+      "count": 3,
+      "reason": "Correa lubricada, mando directo lubricado y sin aceite. Son los tres modelos de la guía; confirmá entrega de aire a presión y ciclo para la herramienta prevista.",
+      "documented": 1
+    },
     {
       "path": "/compresores/50-litros/",
       "models": [

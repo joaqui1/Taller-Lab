@@ -2742,7 +2742,9 @@
     "cards": [
       "Lüsqtoff · LC2550B-8",
       "Lüsqtoff · LC2550BK-8",
-      "Lüsqtoff · LC-3550BK"
+      "Lüsqtoff · LC-3550BK",
+      "Lüsqtoff · LC-2550VS",
+      "Lüsqtoff · LCS50-8"
     ],
     "model_sources": [
       {
@@ -2768,6 +2770,10 @@
       {
         "label": "ficha Lüsqtoff LC-3550BK",
         "url": "https://lusqtoff.com.ar/ver-producto/LC-3550BK"
+      },
+      {
+        "label": "ficha LCS50-8",
+        "url": "https://lusqtoff.com.ar/productos/compresor-de-aire-sin-aceite-50l"
       },
       {
         "label": "gama actual de compresores Lüsqtoff",
@@ -3087,9 +3093,14 @@
     ],
     "cards": [
       "Lüsqtoff · LC-30100",
-      "Lüsqtoff · LC-40100"
+      "Lüsqtoff · LC-40100",
+      "Lüsqtoff · LCS100-8"
     ],
     "model_sources": [
+      {
+        "label": "Ver ficha LCS100-8",
+        "url": "https://lusqtoff.com.ar/productos/LCS100-8"
+      },
       {
         "label": "manual LC-30100",
         "url": "https://lusqtoff.com.ar/2023/uploads/Productos/16.%20COMPRESORES/LC-30100/MANUAL/LC-30100.pdf"
@@ -3109,6 +3120,10 @@
       {
         "label": "catálogo Lüsqtoff 2023/24",
         "url": "https://www.lusqtoff.com.ar/files/catalog-lusqtoff-2023-2024.pdf"
+      },
+      {
+        "label": "ficha LCS100-8",
+        "url": "https://lusqtoff.com.ar/productos/LCS100-8"
       },
       {
         "label": "gama actual de compresores",
@@ -3260,9 +3275,14 @@
     ],
     "cards": [
       "Lüsqtoff · LC-30200",
-      "Compresor trifásico · código por confirmar · 200 L · 4 HP"
+      "Lüsqtoff · LC40200-8",
+      "Schulz · MAX CSV 20/200 · 922.9303-0"
     ],
     "model_sources": [
+      {
+        "label": "Ver ficha LC40200-8",
+        "url": "https://lusqtoff.com.ar/productos/LC40200-8"
+      },
       {
         "label": "catálogo 2024–2025",
         "url": "https://lusqtoff.com.ar/2023/uploads/Catalogos/CAT%C3%81LOGO%20LQ%202024-2025%20-%20web%20%281%29.pdf"
@@ -3272,8 +3292,20 @@
         "url": "https://lusqtoff.com.ar/files/Catalogo_Lusqtoff_2020.pdf"
       },
       {
+        "label": "ficha LC30200-8",
+        "url": "https://lusqtoff.com.ar/productos/LC30200-8"
+      },
+      {
+        "label": "ficha LC40200-8",
+        "url": "https://lusqtoff.com.ar/productos/LC40200-8"
+      },
+      {
         "label": "gama actual de compresores",
         "url": "https://lusqtoff.com.ar/ver-productos/16-compresores-de-aire"
+      },
+      {
+        "label": "ficha oficial CSV 20/200, código 922.9303-0",
+        "url": "https://www.schulz.com.br/pt_BR/produtos/ver/922.9303-0"
       },
       {
         "label": "catálogo BTA 2026/27, lijadora HN7310, llave HN7049 y pistola HVLP ASP1060",
