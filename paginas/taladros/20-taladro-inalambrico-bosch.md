@@ -66,7 +66,7 @@ El número de voltaje no permite cruzar las baterías: Professional 12 V y Profe
 
 ## Compatibilidad de baterías y cargadores
 
-Si ya tenés baterías, buscá primero herramientas del mismo sistema: Professional 12 V para el GSR 120-LI o Professional 18 V para el GSB 18V-50. Bosch indica que las baterías y cargadores Professional son compatibles con herramientas de su misma gama de voltaje, incluso entre generaciones del sistema. Aun así, verificá el tipo de batería y el cargador admitidos por el modelo y variante exactos antes de comprar.
+Si ya tenés baterías, buscá primero herramientas del mismo sistema: Professional 12 V para el GSR 120-LI o Professional 18 V para el GSB 18V-50. Bosch indica que las baterías y cargadores Professional son compatibles con herramientas de su misma gama de voltaje, incluso entre generaciones del sistema. Para revisar la lista completa de baterías homologadas, cargadores compatibles y excepciones con la línea Home & Garden, consultá la ficha técnica de [Bosch Professional 18V System](/plataformas/bosch-professional-18v/) en nuestra base de compatibilidad. Aun así, verificá el tipo de batería y el cargador admitidos por el modelo y variante exactos antes de comprar.
 
 Bosch también ofrece baterías 18 V de distintas capacidades, incluidas ProCORE. La plataforma compartida permite reutilizar baterías compatibles, pero el Ah afecta el tiempo de trabajo y el peso del conjunto; no cambia la tensión de la plataforma. Si partís de cero, sumá el costo de batería y cargador al de la máquina antes de comparar un modelo de 12 V con uno de 18 V.
 

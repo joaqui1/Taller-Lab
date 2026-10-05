@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "makita-dhp453", "base_key": "torque_maximo", "spec_key": "torque_duro",
+    "name": "Torque duro declarado", "raw_value": "42 N·m", "raw_unit": "Nm",
+    "normalized_value": 42, "normalized_unit": "Nm", "condition": "Torque duro del catálogo; no ensayo propio",
+    "source_url": "https://makita.com.ar/wp-content/uploads/2024/03/CATALOGO-2024.pdf",
+    "source_name": "Catálogo Makita Argentina 2024 — DHP453", "notes": "Valor separado del torque suave de 27 N·m; no compararlo con impacto de giro. El catálogo no identifica todos los kits por sufijo."
+  },
+  {
+    "slug": "makita-dhp453", "base_key": "torque_maximo", "spec_key": "torque_blando",
+    "name": "Torque suave declarado", "raw_value": "27 N·m", "raw_unit": "Nm",
+    "normalized_value": 27, "normalized_unit": "Nm", "condition": "Torque blando (suave) del catálogo; no ensayo propio",
+    "source_url": "https://makita.com.ar/wp-content/uploads/2024/03/CATALOGO-2024.pdf",
+    "source_name": "Catálogo Makita Argentina 2024 — DHP453", "notes": "El catálogo lo denomina suave. No representa el torque duro de 42 N·m ni el torque de bloqueo de 38 N·m."
+  },
+  {
+    "slug": "makita-dhp453", "base_key": "peso", "spec_key": "peso_catalogo",
+    "name": "Rango de peso neto del catálogo", "raw_value": "1,70 - 2,00 kg", "raw_unit": "kg",
+    "normalized_value": null, "normalized_unit": "kg", "condition": "Peso neto; configuración individual no especificada en esta tabla",
+    "source_url": "https://makita.com.ar/wp-content/uploads/2024/03/CATALOGO-2024.pdf",
+    "source_name": "Catálogo Makita Argentina 2024 — DHP453", "notes": "Se conserva el intervalo completo, sin elegir arbitrariamente su extremo inferior. No se atribuye a un kit argentino concreto."
+  },
+  {
+    "slug": "makita-hr2470", "base_key": "peso", "spec_key": "peso_catalogo",
+    "name": "Rango de peso neto del catálogo", "raw_value": "2,90 - 3,30 kg", "raw_unit": "kg",
+    "normalized_value": null, "normalized_unit": "kg", "condition": "Peso neto; configuración individual no especificada en esta tabla",
+    "source_url": "https://makita.com.ar/wp-content/uploads/2024/03/CATALOGO-2024.pdf",
+    "source_name": "Catálogo Makita Argentina 2024 — HR2470", "notes": "El catálogo publica un intervalo; la ficha web publica 3.3 kg sin precisar aquí la configuración. No se tratan como un peso único."
+  },
+  {
+    "slug": "makita-hr2470", "base_key": "peso", "spec_key": "peso_ficha_web",
+    "name": "Peso publicado en ficha web", "raw_value": "3.3 kg", "raw_unit": "kg",
+    "normalized_value": 3.3, "normalized_unit": "kg", "condition": "Configuración de peso no especificada en la ficha web",
+    "source_url": "https://makita.com.ar/producto/183-rotomartillo-makita-3-3-kg-780w/",
+    "source_name": "Ficha Makita Argentina HR2470", "notes": "No sustituye el intervalo 2,90–3,30 kg del catálogo ni acredita peso con una configuración de accesorios determinada."
+  }
+]

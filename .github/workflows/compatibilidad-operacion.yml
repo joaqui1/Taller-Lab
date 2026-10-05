@@ -1,0 +1,20 @@
+name: Compatibilidad - supervision documental
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 11 * * *'
+permissions:
+  contents: read
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Verificar disponibilidad, persistencia y vigencia
+        run: python -m compatibilidad.operations monitor
+        env:
+          SITE_URL: https://www.tallerlab.com.ar

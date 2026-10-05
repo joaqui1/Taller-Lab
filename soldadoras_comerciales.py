@@ -92,13 +92,9 @@ def render_block(keys, title, number):
     cards = []
     for key in keys:
         name, _, note = OFFERS[key]
-        source_link = ''
-        if key in {'ESABWIRE5', 'ESABFLUX1'}:
-            source = ('https://esab.com/ar/sam_es/products-solutions/product/filler-metals/mild-steel/self-shielded-flux-cored-wires-fcaw/esab-gas-free/' if key == 'ESABFLUX1' else 'https://esab.com/cl/sam_es/products-solutions/product/filler-metals/mild-steel/mig-wires-tig-rods-gmaw-gtaw/weld-70s-6/')
-            source_link = f'<a class="offer-source" href="{source}" target="_blank" rel="noopener noreferrer">Ficha del consumible ESAB ↗</a>'
         link_rel = 'nofollow noopener noreferrer' if not url(key).startswith('https://meli.la/') else 'nofollow sponsored noopener noreferrer'
         cards.append(f'<article class="offer-card"><div class="offer-card-top"><span>MERCADO LIBRE</span></div>'
-                     f'<h3>{escape(name)}</h3><p class="offer-description">{escape(note)}</p>{source_link}'
+                     f'<h3>{escape(name)}</h3><p class="offer-description">{escape(note)}</p>'
                      f'<div class="offer-actions"><a class="offer-button" href="{url(key)}" target="_blank" '
                      f'rel="{link_rel}" data-affiliate-placement="soldadoras-contextual">{escape(cta(key, number))} ↗</a></div></article>')
     disclosure = ('Enlaces de afiliado: TallerLab puede recibir una comisión, sin costo adicional para vos.'

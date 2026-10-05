@@ -1,2 +1,2 @@
-markdown-it-py>=4.2,<5
-Flask>=3.1,<4
+# Versiones verificadas por la suite y compartidas por CI y Vercel.
+-r requirements.lock

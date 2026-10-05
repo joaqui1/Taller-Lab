@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2026-10-03T19:06:59.925748+00:00",
+  "published_products_count": 101,
+  "published_platforms_count": 8,
+  "published_evidences_count": 13,
+  "sources_checked": [
+    {
+      "source_id": "src_bosch_ar",
+      "name": "Bosch Professional Argentina",
+      "domain": "www.bosch-professional.com",
+      "url": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+      "checked_at": "2026-10-03T19:06:59.925322+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_einhell_ar",
+      "name": "Einhell Argentina",
+      "domain": "www.einhell.com.ar",
+      "url": "https://www.einhell.com.ar/c/baterias/",
+      "checked_at": "2026-10-03T19:06:59.925336+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_dewalt_ar",
+      "name": "DeWalt Argentina",
+      "domain": "www.dewalt.com.ar",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcb115-ar/cargador-12v20v-max-40",
+      "checked_at": "2026-10-03T19:06:59.925340+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_makita_ar",
+      "name": "Makita Argentina",
+      "domain": "makita.com.ar",
+      "url": "https://makita.com.ar/wp-content/uploads/2025/09/CATALOGO-2025-v2.pdf",
+      "checked_at": "2026-10-03T19:06:59.925343+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_gamma_ar",
+      "name": "Gamma Herramientas Argentina",
+      "domain": "www.gammaherramientas.com.ar",
+      "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12491ar/",
+      "checked_at": "2026-10-03T19:06:59.925346+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_bosch_ampshare",
+      "name": "AMPShare Global FAQ",
+      "domain": "www.bosch-professional.com",
+      "url": "https://www.bosch-professional.com/gb/en/ampshare/landingpage.html",
+      "checked_at": "2026-10-03T19:06:59.925348+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_dewalt_support",
+      "name": "DeWalt Support Knowledge Base",
+      "domain": "support.dewalt.com",
+      "url": "https://support.dewalt.com/hc/en-gb/articles/360061433671-Can-I-run-an-XR-FLEXVOLT-tool-on-an-18V-battery",
+      "checked_at": "2026-10-03T19:06:59.925350+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    },
+    {
+      "source_id": "src_makita_faq",
+      "name": "Makita USA Support & FAQ",
+      "domain": "makitatools.com",
+      "url": "https://makitatools.com/service/faq",
+      "checked_at": "2026-10-03T19:06:59.925352+00:00",
+      "status": "activa",
+      "http_status": 200,
+      "notes": "Acceso verificado documentalmente"
+    }
+  ],
+  "candidates_summary": {
+    "approved": 0,
+    "pending": 2,
+    "rejected": 0
+  },
+  "alerts": []
+}

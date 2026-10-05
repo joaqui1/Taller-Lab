@@ -1,11 +1,66 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "python preparar_assets_publicos.py",
+  "functions": {
+    "app.py": {
+      "maxDuration": 300
+    }
+  },
   "headers": [
-    {"source": "/assets/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
-    {"source": "/assets/fonts/(.*).woff2", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
-    {"source": "/assets/productos/(.*).webp", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
-    {"source": "/assets/portadas/(.*).webp", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]}
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/assets/fonts/(.*).woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/productos/(.*).webp",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/portadas/(.*).webp",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/alertas/ejecutar",
+      "schedule": "0 12 * * *"
+    },
+    {
+      "path": "/api/alertas/historico",
+      "schedule": "0 13 * * 0"
+    },
+    {
+      "path": "/api/compatibilidad/ejecutar",
+      "schedule": "30 10 * * *"
+    },
+    {
+      "path": "/api/comunidad/resumen",
+      "schedule": "0 11 * * *"
+    }
   ],
   "env": {
     "SITE_URL": "https://www.tallerlab.com.ar"

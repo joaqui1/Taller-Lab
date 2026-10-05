@@ -1,0 +1,31 @@
+{% macro hidden(csrf, action, request_id='') -%}
+<input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="action" value="{{ action }}">
+{% if request_id %}<input type="hidden" name="request_id" value="{{ request_id }}">{% endif %}
+{%- endmacro %}
+{% macro author_fields(prefix) -%}
+<label for="{{ prefix }}-alias">Nombre público o seudónimo</label>
+<input id="{{ prefix }}-alias" name="alias" required minlength="2" maxlength="40" autocomplete="nickname" value="{{ request.form.get('alias', '') }}">
+<div class="co-trap" aria-hidden="true"><label>No completar<input name="website" tabindex="-1" autocomplete="off"></label></div>
+{%- endmacro %}
+{% macro permissions(prefix) -%}
+<div class="co-permissions">
+<label><input type="checkbox" name="consent" value="yes" required {% if request.form.get('consent') == 'yes' %}checked{% endif %}> Autorizo publicar este aporte y mi nombre público según los <a href="/comunidad/criterios/">criterios y privacidad de la comunidad</a>.</label>
+</div>
+<p class="co-small">Revisamos los aportes antes de publicarlos. No incluyas teléfonos, direcciones ni datos de otras personas.</p>
+{%- endmacro %}
+{% macro back_fields(question_id) -%}{% if question_id %}<input type="hidden" name="volver" value="pregunta"><input type="hidden" name="pregunta" value="{{ question_id }}">{% endif %}{%- endmacro %}
+{% macro post_card(post, csrf, action_url, question_id='') -%}
+<article class="co-post" id="aporte-{{ post.id }}">
+<div class="co-post-head"><strong>{% if post.editor %}<a href="/autor/joaquin-vallasciani/">{{ post.alias }}</a>{% else %}{{ post.alias }}{% endif %}</strong><time datetime="{{ post.created_at }}">{{ post.created_at[:10] }}</time></div>
+<p class="co-badge{% if post.editor %} co-badge-editor{% endif %}">{% if post.editor %}Respuesta del editor de TallerLab{% elif post.kind == 'question' %}Pregunta de usuario{% else %}Experiencia declarada{% endif %}{% if post.accepted %} · Ayudó a quien preguntó{% endif %}</p>
+{% if post.kind == 'review' and post.context.get('rating') in ratings %}<p class="co-rating" aria-label="Puntuación {{ post.context.rating }} de 5">{% for i in range(5) %}{% if i < post.context.rating|int %}★{% else %}☆{% endif %}{% endfor %} <span>{{ post.context.rating }}/5 · {{ ratings[post.context.rating] }}</span></p>{% endif %}
+{% if post.kind == 'review' %}<p class="co-context">{{ usages.get(post.context.usage, '') }} · {{ durations.get(post.context.duration, '') }} · {{ frequencies.get(post.context.frequency, '') }}</p><p><strong>Trabajo:</strong> {{ post.context.task }}</p>{% endif %}
+<p class="co-body">{{ post.body }}</p>
+{% if post.kind == 'review' %}
+{% for key, label in [('advantages','Lo mejor'),('problems','Limitaciones'),('repair','Reparación')] %}{% if post.context.get(key) %}<p><strong>{{ label }}:</strong> {{ post.context.get(key) }}</p>{% endif %}{% endfor %}
+<p class="co-small">¿Volvería a comprarla? {{ {'si':'Sí','no':'No','depende':'Depende'}.get(post.context.repurchase, '') }}</p>
+{% endif %}
+<div class="co-post-actions"><span>{{ post.helpful }} {% if post.helpful == 1 %}persona lo encontró útil{% else %}personas lo encontraron útil{% endif %}</span>
+{% if opened and not post.own %}<form method="post" action="{{ action_url }}">{{ hidden(csrf,'helpful') }}{{ back_fields(question_id) }}<input type="hidden" name="post_id" value="{{ post.id }}"><button class="co-link" {% if post.voted %}disabled{% endif %}>{% if post.voted %}Marcaste que te sirvió{% else %}Me sirvió{% endif %}</button></form>{% endif %}</div>
+</article>
+{%- endmacro %}

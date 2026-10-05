@@ -361,7 +361,6 @@ def render_buying_note(article, product_facts):
     if not item:
         return ""
     links = []
-    sources = []
     photos = []
     for url, label in item["urls"]:
         facts = product_facts[url]
@@ -369,7 +368,6 @@ def render_buying_note(article, product_facts):
         if photo:
             photos.append(f'<div class="buying-product-photo">{photo}<p>{escape(facts["brand"] + " " + facts["model"])}</p></div>')
         links.append(f'<a class="buying-link" href="{escape(url, quote=True)}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-placement="editorial-choice">{escape(label)} ↗</a>')
-        sources.append(f'<a href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(facts["brand"] + " " + facts["model"])} · {escape(facts["source_type"])}</a>')
     alt_url, alt_label = item["alternative"]
     badge = "ELECCIÓN POR CONFIGURACIÓN" if item["recommend"] else "OFERTA PARA CONTRASTAR"
     checks = "".join(f'<li>{escape(check)}</li>' for check in item["checks"])
@@ -381,6 +379,5 @@ def render_buying_note(article, product_facts):
         <p><strong>Cuándo cambia la decisión</strong>{escape(item["limits"])}</p></div>
       <div class="buying-checks"><h3>Antes de avanzar</h3><ul>{checks}</ul></div>
       <div class="buying-actions">{"".join(links)}<a class="buying-alternative" href="{escape(alt_url, quote=True)}">{escape(alt_label)} →</a></div>
-      <p class="buying-sources">Respaldo de la referencia comercial: {" · ".join(sources)}. <a href="#fuentes-consultadas">Documentación de la comparación</a>.</p>
       <p class="buying-disclosure">Enlace de afiliado: TallerLab puede recibir una comisión. Priorizamos la opción enlazada cuando encaja con tu uso y su documentación; precio, stock, variante y vendedor se comprueban en la publicación.</p>
     </aside>'''

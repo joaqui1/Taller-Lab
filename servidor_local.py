@@ -16,8 +16,8 @@ from datetime import datetime, timezone
 from threading import Lock
 from markdown_it import MarkdownIt
 from validacion_enlaces import validar_html
-from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_EDITORIAL, HUB_STEPS
-from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY
+from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_COVER_COPY, HUB_EDITORIAL, HUB_STEPS
+from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY, HOME_CATEGORY_IMAGES
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
 from amoladoras_comerciales import AMOLADORA_CHOICES, CONTEXTUAL_CHOICES, render_amoladora_choice, render_contextual_choice
@@ -27,6 +27,121 @@ from hidrolavadoras_comerciales import install_catalog as install_pressure_washe
 from sierras_comerciales import install_catalog as install_saw_catalog
 from soldadoras_comerciales import install_catalog as install_welder_catalog
 from taladros_comerciales import install_catalog as install_drill_catalog
+from observatorio.catalog import CATALOG_PRODUCTS
+from observatorio.enlaces import render_guide_prices, render_category_prices
+from observatorio.export_csv import export_observations_to_csv
+from observatorio.views import (
+    get_dataset_schema_json,
+    render_model_price_widget,
+    render_observatory_category_html,
+    render_observatory_hub_html,
+    render_observatory_methodology_html,
+)
+from relevamiento_piloto import (
+    ADMIN_KEY as RELEVAMIENTO_ADMIN_KEY,
+    actualizar_estado_moderacion,
+    exportar_dataset,
+    get_admin_key,
+    registrar_abandono,
+    render_admin_dashboard,
+    render_metodologia_page,
+    render_relevamiento_callout,
+    render_relevamiento_page,
+    validar_y_procesar_formulario,
+)
+
+OBSERVATORY_PATHS = (
+    "/datos/precios-herramientas-argentina/",
+    "/datos/precios/compresores/",
+    "/datos/precios/hidrolavadoras/",
+    "/datos/precios/generadores/",
+    "/datos/precios/metodologia/",
+)
+OBSERVATORY_DOWNLOAD_PATHS = (
+    "/datos/precios/compresores/descargar-csv",
+    "/datos/precios/hidrolavadoras/descargar-csv",
+    "/datos/precios/generadores/descargar-csv",
+)
+
+RELEVAMIENTO_PATHS = (
+    "/relevamiento-2027/",
+    "/relevamiento-2027/metodologia/",
+)
+
+from alertas_datos import obtener_todos_los_slugs, obtener_expediente
+from render_alertas import render_alerts_hub_page, render_model_dossier_page, dossier_schema
+from alertas_seo import render_aviso_guia
+
+ALERTAS_HUB_PATH = "/alertas/"
+ALERTAS_DOSSIER_PATHS = tuple(f"/alertas/{slug}/" for slug in obtener_todos_los_slugs())
+ALERTAS_PATHS = (ALERTAS_HUB_PATH,) + ALERTAS_DOSSIER_PATHS
+
+from compatibilidad.views import (
+    COMPATIBILITY_PATHS,
+    COMPATIBILITY_SEARCH_PATH,
+    COMPATIBILITY_DOWNLOAD_PATHS,
+    get_compatibility_meta,
+    render_compatibility_page_content,
+)
+from compatibilidad.export import (
+    export_compatibility_to_csv,
+    export_compatibility_to_json,
+)
+from compatibilidad.telemetry import track_event
+from compatibilidad.pipeline import MaintenancePipeline
+
+from tallerlab_data import (
+    get_all_tools,
+    get_tool_by_slug,
+    get_editorial_comparison,
+    get_all_editorial_comparisons,
+)
+from tallerlab_data.research_study import generate_study_csv
+from tallerlab_data.guide_links import render_guide_technical_tools_block
+from comunidad.components import render_guide_community, render_guide_community_entry
+from tallerlab_data.views import (
+    render_tools_hub_page,
+    render_tool_detail_page,
+    render_tool_comparator_page,
+    render_editorial_comparisons_list_page,
+    render_editorial_comparison_page,
+    render_data_methodology_page,
+    render_corrections_log_page,
+    render_research_study_page,
+    get_tool_product_schema,
+    get_tool_page_schema,
+    get_research_study_schema,
+)
+
+TALLERLAB_DATA_HUB_PATH = "/herramientas/"
+TALLERLAB_DATA_COMPARATOR_PATH = "/herramientas/comparar/"
+TALLERLAB_DATA_EDITORIAL_LIST_PATH = "/herramientas/comparaciones/"
+TALLERLAB_DATA_METHODOLOGY_PATH = "/herramientas/metodologia/"
+TALLERLAB_DATA_CORRECTIONS_PATH = "/herramientas/correcciones/"
+TALLERLAB_DATA_RESEARCH_PATH = "/herramientas/investigacion/brecha-especificaciones-argentina/"
+TALLERLAB_DATA_DOWNLOAD_PATHS = (
+    "/herramientas/investigacion/descargar-datos.csv",
+    "/herramientas/investigacion/descargar-datos.json",
+    "/herramientas/investigacion/fuentes.json",
+)
+
+TALLERLAB_DATA_TOOL_PATHS = tuple(f"/herramientas/{t.slug}/" for t in get_all_tools())
+TALLERLAB_DATA_EDITORIAL_PATHS = tuple(f"/herramientas/comparar/{c['slug'] if isinstance(c, dict) else c.slug}/" for c in get_all_editorial_comparisons())
+
+TALLERLAB_DATA_STATIC_PATHS = (
+    TALLERLAB_DATA_HUB_PATH,
+    TALLERLAB_DATA_COMPARATOR_PATH,
+    TALLERLAB_DATA_EDITORIAL_LIST_PATH,
+    TALLERLAB_DATA_METHODOLOGY_PATH,
+    TALLERLAB_DATA_CORRECTIONS_PATH,
+    TALLERLAB_DATA_RESEARCH_PATH,
+)
+
+TALLERLAB_DATA_PATHS = (
+    TALLERLAB_DATA_STATIC_PATHS
+    + TALLERLAB_DATA_EDITORIAL_PATHS
+    + TALLERLAB_DATA_TOOL_PATHS
+)
 
 ROOT_DIR = Path(__file__).parent
 PAGES_DIR = ROOT_DIR / "paginas"
@@ -407,7 +522,10 @@ def render_quick_guide(article):
         rows = QUICK_BY_SECTION.get(article["section"], [])
     if not rows:
         return ""
-    cards = "".join(f'<article><span>{escape(need)}</span><h3>{escape(choice)}</h3><p><strong>Ventaja:</strong> {escape(advantage)}</p><p><strong>Límite:</strong> {escape(limit)}</p><a href="{escape(path, quote=True)}"{(" target=\"_blank\" rel=\"noopener noreferrer\"" if path.startswith("https://") else "")}>{"Ver fuente ↗" if path.startswith("https://") else "Ver guía →"}</a></article>' for need, choice, advantage, limit, path in rows)
+    cards = ""
+    for need, choice, advantage, limit, path in rows:
+        link = f'<a href="{escape(path, quote=True)}">Ver guía →</a>' if not path.startswith(('https://', 'http://')) else ''
+        cards += f'<article><span>{escape(need)}</span><h3>{escape(choice)}</h3><p><strong>Ventaja:</strong> {escape(advantage)}</p><p><strong>Límite:</strong> {escape(limit)}</p>{link}</article>'
     has_product_sources = bool(rows) and all(path.startswith("https://") for *_, path in rows)
     kicker = 'MODELOS CON FICHA CONSULTADA' if has_product_sources else 'ORIENTACIÓN POR TAREA'
     return f'<section class="quick-guide" aria-label="Recomendación rápida"><span class="section-kicker">ANTES DE LEER · {kicker}</span><h2>Elegí según tu tarea</h2><div class="quick-grid">{cards}</div></section>'
@@ -425,9 +543,8 @@ def render_50l_models():
         if local_photo:
             image, image_source = local_photo['image'], local_photo['source']
         photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async">' if image else '<span class="offer-no-photo">Foto no disponible</span>'
-        photo_source = f'<a class="offer-source" href="{escape(image_source, quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if image_source else ''
         search_url = 'https://listado.mercadolibre.com.ar/' + urllib.parse.quote(f'compresor {brand} {model}', safe='')
-        cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p><a class="offer-source" href="{escape(source, quote=True)}" target="_blank" rel="noopener noreferrer">Ficha que respalda estos datos ↗</a>{photo_source}<div class="offer-actions"><a class="offer-button" href="{escape(search_url, quote=True)}" target="_blank" rel="nofollow noopener noreferrer">Buscar modelo en Mercado Libre ↗</a></div></article>'
+        cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p><div class="offer-actions"><a class="offer-button" href="{escape(search_url, quote=True)}" target="_blank" rel="nofollow noopener noreferrer">Buscar modelo en Mercado Libre ↗</a></div></article>'
     return f'<section class="documented-models" aria-label="Modelos de compresor de 50 litros"><div class="affiliate-heading"><div><span class="section-kicker">OPCIONES PARA ESTA GUÍA</span><h2>Compará compresores de 50 litros</h2></div><p>Modelos y datos de fichas de fabricante. Comprobá la variante, el caudal útil y el contenido del aviso antes de comprar.</p></div><div class="offer-grid">{cards}</div></section>'
 
 TAXONOMY_MAP = {
@@ -862,13 +979,28 @@ ALL_ARTICLES = [
     and "Dato documentado" in a["body"]
     and "Análisis TallerLab" in a["body"]
 ]
+def get_published_observatory_paths():
+    from observatorio.estatico import published_observatory_paths
+    static_paths = published_observatory_paths()
+    if static_paths:
+        return static_paths
+    categories = [c for c in ('compresores','hidrolavadoras','generadores') if category_has_published_data(c)]
+    if not categories:
+        return []
+    return ['/datos/precios-herramientas-argentina/','/datos/precios/metodologia/'] + [f'/datos/precios/{c}/' for c in categories]
+
 PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
 INDEXABLE_PATHS = tuple(dict.fromkeys(
-    ["/", "/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"]
+    ["/", "/comunidad/", "/comunidad/criterios/", "/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"]
+    + list(RELEVAMIENTO_PATHS)
+    + list(ALERTAS_PATHS)
+    + ['/alertas/metodologia/']
+    + list(COMPATIBILITY_PATHS)
+    + list(TALLERLAB_DATA_PATHS)
     + [f"/{section}/" for section in PUBLIC_SECTIONS]
     + [article["url"] for article in ALL_ARTICLES]
 ))
-INDEXABLE_PATH_SET = set(INDEXABLE_PATHS)
+INDEXABLE_PATH_SET = set(INDEXABLE_PATHS) | set(OBSERVATORY_PATHS) | set(OBSERVATORY_DOWNLOAD_PATHS) | set(COMPATIBILITY_DOWNLOAD_PATHS) | set(TALLERLAB_DATA_DOWNLOAD_PATHS) | {COMPATIBILITY_SEARCH_PATH}
 
 def validate_published_links():
     """Falla al iniciar si cualquier artículo publicado contiene una ruta inválida."""
@@ -902,7 +1034,99 @@ def organization_schema():
         "description": "Guías de herramientas y equipamiento para Argentina basadas en investigación documental, comparación de fuentes y cálculos explicados.",
     }
 
-def canonical_tag(path):
+def get_tallerlab_data_meta(path):
+    if path == TALLERLAB_DATA_HUB_PATH:
+        return "Base de Datos Técnica de Herramientas en Argentina", "Fichas técnicas normalizadas, condiciones de medición, variantes regionales de 220V 50Hz y comparador documental de herramientas en Argentina."
+    if path == TALLERLAB_DATA_COMPARATOR_PATH:
+        return "Comparador Técnico de Herramientas en Argentina", "Compará especificaciones técnicas de herramientas en Argentina lado a lado, con alertas de condiciones de medición no comparables."
+    if path == TALLERLAB_DATA_EDITORIAL_LIST_PATH:
+        return "Comparativas Técnicas de Herramientas Documentadas", "Comparaciones de valores declarados, fuentes enlazadas y condiciones registradas entre modelos de herramientas."
+    if path == TALLERLAB_DATA_METHODOLOGY_PATH:
+        return "Metodología Técnica de TallerLab Data", "Criterios de extracción documental, jerarquía de fuentes primarias, estados de especificación y política de exclusión de datos."
+    if path == TALLERLAB_DATA_CORRECTIONS_PATH:
+        return "Registro Público de Correcciones Técnicas", "Historial cronológico de rectificaciones, actualizaciones de manuales y ajustes documentales en la base de datos TallerLab Data."
+    if path == TALLERLAB_DATA_RESEARCH_PATH:
+        return "Cobertura de Especificaciones del Catálogo TallerLab", "Cobertura de especificaciones registradas en TallerLab: fuentes, variantes y datos descargables para reproducir los indicadores."
+    if path in TALLERLAB_DATA_EDITORIAL_PATHS:
+        slug = path.strip("/").split("/")[-1]
+        comp = get_editorial_comparison(slug)
+        if comp:
+            return f"{comp.title} — Comparativa Técnica", "Comparación de especificaciones registradas, fuentes y condiciones entre dos modelos."
+        return "Comparativa Técnica", "Comparativa técnica de herramientas."
+    if path in TALLERLAB_DATA_TOOL_PATHS:
+        slug = path.strip("/").split("/")[-1]
+        tool = get_tool_by_slug(slug)
+        if tool:
+            return f"{tool.brand} {tool.model_name}: ficha técnica y fuentes", tool_meta_description(tool)
+        return "Ficha Técnica", "Ficha técnica de herramienta."
+    return "TallerLab Data", "Base de datos técnica de herramientas en Argentina."
+
+def tool_meta_description(tool):
+    from tallerlab_data.quality import backed_specs
+    name = f"{tool.brand} {tool.model_name}"
+    backed = backed_specs(tool)
+    if not backed:
+        return f"{name}: referencias registradas y por qué todavía no se usan para comparar. Fuentes enlazadas y fecha de consulta."
+    parts = ", ".join(f"{s.name.lower()} {s.original_value}" for s in backed[:3])
+    text = f"{name}: {parts}. Datos localizados en documentación del fabricante, con fuente y fecha de consulta."
+    if len(text) > 165:
+        parts = ", ".join(f"{s.name.lower()} {s.original_value}" for s in backed[:2])
+        text = f"{name}: {parts}. Con fuente del fabricante y fecha de consulta."
+    return text
+
+
+MIN_INDEXABLE_COMPARABLE_ROWS = 3
+
+
+def _editorial_comparable_rows(slug):
+    from tallerlab_data.comparator import compare_tools
+    comp = get_editorial_comparison(slug)
+    if not comp:
+        return 0
+    slugs = getattr(comp, 'tool_slugs', None) or [v for k, v in vars(comp).items() if 'slug' in k and k != 'slug']
+    return sum(1 for row in compare_tools(list(slugs)).rows if row.is_comparable)
+
+
+def tool_path_is_indexable(path):
+    """Model pages and curated comparisons are only offered to search engines
+    when they carry enough backed data to answer the query on their own."""
+    if path in TALLERLAB_DATA_EDITORIAL_PATHS:
+        return _editorial_comparable_rows(path.strip("/").split("/")[-1]) >= MIN_INDEXABLE_COMPARABLE_ROWS
+    if path == "/herramientas/comparaciones/":
+        return any(tool_path_is_indexable(p) for p in TALLERLAB_DATA_EDITORIAL_PATHS)
+    if path not in TALLERLAB_DATA_TOOL_PATHS:
+        return True
+    from tallerlab_data.quality import tool_is_indexable
+    tool = get_tool_by_slug(path.strip("/").split("/")[-1])
+    return bool(tool and tool_is_indexable(tool))
+
+
+def category_has_published_data(category: str) -> bool:
+    try:
+        from observatorio.db import query_one
+        row = query_one(
+            """
+            SELECT COUNT(o.id) AS c
+            FROM observations o
+            JOIN catalog_products cp ON o.product_id = cp.id
+            JOIN offers off ON o.offer_id = off.id
+            JOIN sources src ON off.source_id = src.id
+            WHERE cp.category = ?
+              AND o.is_published = 1
+              AND o.is_synthetic = 0
+              AND o.validation_status='valido'
+              AND src.capture_allowed=1 AND src.redistribution_allowed=1 AND src.terms_verified_date IS NOT NULL
+              AND src.status = 'habilitada'
+              AND off.enabled = 1;
+            """,
+            (category,)
+        )
+        return bool(row and row["c"] > 0)
+    except Exception:
+        return False
+
+def canonical_tag(path, title=None, description=None, og_type=None, robots=None):
+    title_override, description_override = title, description
     organization = {"@context": "https://schema.org", **organization_schema()}
     schema = '<script type="application/ld+json">' + json.dumps(organization, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     article = next((a for a in ALL_ARTICLES if a["url"] == path), None)
@@ -913,17 +1137,32 @@ def canonical_tag(path):
         AUTHOR_PATH: (AUTHOR_NAME, "Investigación documental y edición de las guías de TallerLab."),
         "/contacto/": ("Contacto y correcciones", "Cómo enviar consultas y reportar errores en las guías de TallerLab."),
         "/privacidad/": ("Privacidad y datos", "Qué datos se registran al visitar TallerLab y usar sus enlaces comerciales."),
+        "/datos/precios-herramientas-argentina/": ("Observatorio de Precios de Herramientas en Argentina", "Relevamiento diario de precios, disponibilidad y condiciones comerciales en Argentina."),
+        "/datos/precios/compresores/": ("Precios de Compresores de Aire en Argentina", "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."),
+        "/datos/precios/hidrolavadoras/": ("Precios de Hidrolavadoras en Argentina", "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."),
+        "/datos/precios/metodologia/": ("Metodología del Observatorio de Precios", "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."),
+        "/relevamiento-2027/": ("Relevamiento TallerLab 2027: herramientas y oficios en Argentina", "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina."),
+        "/relevamiento-2027/metodologia/": ("Borrador de Metodología: Relevamiento TallerLab 2027", "Diseño de investigación, reclutamiento voluntario, controles de calidad y límites estadísticos del estudio."),
     }
-    title, description = editorial.get(path, (CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
+    if path in TALLERLAB_DATA_PATHS:
+        title, description = get_tallerlab_data_meta(path)
+    elif path in COMPATIBILITY_PATHS or path == COMPATIBILITY_SEARCH_PATH or (path.startswith('/compatibilidad/') and '-con-' in path):
+        title, description, _ = get_compatibility_meta(path, SITE_URL)
+    else:
+        title, description = editorial.get(path, (CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
     if article:
         title, description = article["h1"], article["description"]
+    if title_override is not None:
+        title = title_override
+    if description_override is not None:
+        description = description_override
     from portadas_guias import guide_cover
     cover_article = article or next((a for a in ALL_ARTICLES if a['section'] == section and '/comparativa-general/' in a['url']), None) or next((a for a in ALL_ARTICLES if a['section'] == section), None)
     cover = guide_cover(cover_article) if cover_article else {}
     image_path = cover.get('image', LOGO_SRC)
     image_url = absolute_url(image_path)
     tags = {
-        "og:type": "article" if article else "website", "og:locale": "es_AR",
+        "og:type": og_type or ("article" if article else "website"), "og:locale": "es_AR",
         "og:site_name": "TallerLab", "og:title": title, "og:description": description,
         "og:url": absolute_url(path), "og:image": image_url,
         "og:image:alt": cover.get('alt', 'TallerLab'),
@@ -937,12 +1176,271 @@ def canonical_tag(path):
         category_path = f"/{section}/"
         if section in CATEGORY_META and path != category_path:
             items.append({"@type": "ListItem", "position": 2, "name": CATEGORY_META[section]["name"], "item": absolute_url(category_path)})
+        elif path.startswith("/datos/precios/"):
+            items.append({"@type": "ListItem", "position": 2, "name": "Observatorio", "item": absolute_url("/datos/precios-herramientas-argentina/")})
+        elif path == "/relevamiento-2027/metodologia/":
+            items.append({"@type": "ListItem", "position": 2, "name": "Relevamiento 2027", "item": absolute_url("/relevamiento-2027/")})
+        elif path in COMPATIBILITY_PATHS or path == COMPATIBILITY_SEARCH_PATH or (path.startswith('/compatibilidad/') and '-con-' in path):
+            if path != "/compatibilidad/":
+                items.append({"@type": "ListItem", "position": 2, "name": "Compatibilidad", "item": absolute_url("/compatibilidad/")})
+        elif path.startswith("/alertas/") and path != "/alertas/":
+            items.append({"@type": "ListItem", "position": 2, "name": "Documentación y alertas", "item": absolute_url("/alertas/")})
+        elif path.startswith("/herramientas/"):
+            items.append({"@type": "ListItem", "position": 2, "name": "TallerLab Data", "item": absolute_url("/herramientas/")})
+            if path.startswith("/herramientas/comparar/") and path != "/herramientas/comparar/":
+                items.append({"@type": "ListItem", "position": 3, "name": "Comparaciones", "item": absolute_url("/herramientas/comparaciones/")})
         items.append({"@type": "ListItem", "position": len(items) + 1, "name": title, "item": absolute_url(path)})
         breadcrumb = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
-    return f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema + social + breadcrumb
+
+    dataset_schema = ""
+    robots_meta = ""
+    if path.startswith("/datos/precios/"):
+        cat = path.strip("/").split("/")[-1]
+        if cat in ("compresores", "hidrolavadoras", "generadores"):
+            if category_has_published_data(cat):
+                dataset_schema = get_dataset_schema_json(cat)
+            else:
+                robots_meta = '<meta name="robots" content="noindex, follow">'
+    elif path == "/datos/precios-herramientas-argentina/":
+        if not any(category_has_published_data(c) for c in ("compresores", "hidrolavadoras", "generadores")):
+            robots_meta = '<meta name="robots" content="noindex, follow">'
+
+    tallerlab_schema = ""
+    if path in TALLERLAB_DATA_TOOL_PATHS:
+        tool_slug = path.strip("/").split("/")[-1]
+        tool_obj = get_tool_by_slug(tool_slug)
+        if tool_obj:
+            tallerlab_schema = get_tool_product_schema(tool_obj, absolute_url(path)) + get_tool_page_schema(tool_obj, absolute_url(path))
+            if not tool_path_is_indexable(path):
+                robots_meta = '<meta name="robots" content="noindex, follow">'
+    elif path == TALLERLAB_DATA_RESEARCH_PATH:
+        tallerlab_schema = get_research_study_schema(absolute_url(path), absolute_url("/herramientas/investigacion/descargar-datos.csv"))
+    elif (path in TALLERLAB_DATA_EDITORIAL_PATHS or path == "/herramientas/comparaciones/") and not tool_path_is_indexable(path):
+        robots_meta = '<meta name="robots" content="noindex, follow">'
+
+    if robots:
+        robots_meta = f'<meta name="robots" content="{escape(robots, quote=True)}">'
+    return robots_meta + f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema + dataset_schema + tallerlab_schema + social + breadcrumb
+
+def render_observatory_page(path):
+    if path == "/datos/precios-herramientas-argentina/":
+        content = render_observatory_hub_html()
+        title = "Observatorio de Precios de Herramientas en Argentina"
+        desc = "Relevamiento diario de precios, disponibilidad y condiciones comerciales en Argentina."
+    elif path == "/datos/precios/compresores/":
+        content = render_observatory_category_html("compresores")
+        title = "Precios de Compresores de Aire en Argentina"
+        desc = "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."
+    elif path == "/datos/precios/hidrolavadoras/":
+        content = render_observatory_category_html("hidrolavadoras")
+        title = "Precios de Hidrolavadoras en Argentina"
+        desc = "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."
+    elif path == "/datos/precios/metodologia/":
+        content = render_observatory_methodology_html()
+        title = "Metodología del Observatorio de Precios"
+        desc = "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."
+    elif path == '/datos/precios/generadores/':
+        content = render_observatory_category_html('generadores')
+        title = 'Precios de Generadores en Argentina'
+        desc = 'Ofertas observadas e historial por modelo exacto.'
+    else:
+        return render_not_found(path)
+
+    return HTML_SHELL.format(
+        PAGE_TITLE=title,
+        CANONICAL_TAG=canonical_tag(path),
+        PAGE_DESC=escape(desc, quote=True),
+        PORT=PORT,
+        CONTENT=content,
+        LOGO_SRC=LOGO_SRC,
+    )
+
+def render_relevamiento_view(kind, query_params=None):
+    if kind == "formulario":
+        path = "/relevamiento-2027/"
+        title = "Relevamiento TallerLab 2027: herramientas y oficios en Argentina"
+        desc = "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina."
+        content = render_relevamiento_page(query_params)
+        return HTML_SHELL.format(
+            PAGE_TITLE=title,
+            PAGE_DESC=escape(desc, quote=True),
+            CANONICAL_TAG=canonical_tag(path),
+            PORT=PORT,
+            CONTENT=content,
+            LOGO_SRC=LOGO_SRC,
+        )
+    elif kind == "metodologia":
+        path = "/relevamiento-2027/metodologia/"
+        title = "Borrador de Metodología: Relevamiento TallerLab 2027"
+        desc = "Diseño de investigación, reclutamiento voluntario, controles de calidad y límites estadísticos del estudio."
+        content = render_metodologia_page()
+        return HTML_SHELL.format(
+            PAGE_TITLE=title,
+            PAGE_DESC=escape(desc, quote=True),
+            CANONICAL_TAG=canonical_tag(path),
+            PORT=PORT,
+            CONTENT=content,
+            LOGO_SRC=LOGO_SRC,
+        )
+    elif kind == "admin":
+        title = "Panel Privado: Relevamiento 2027"
+        desc = "Panel de moderación y estadísticas."
+        content = render_admin_dashboard(query_params)
+        return HTML_SHELL.format(
+            PAGE_TITLE=title,
+            PAGE_DESC=escape(desc, quote=True),
+            CANONICAL_TAG='<meta name="robots" content="noindex, nofollow">',
+            PORT=PORT,
+            CONTENT=content,
+            LOGO_SRC=LOGO_SRC,
+        )
+    return render_not_found("/relevamiento-2027/")
+
+def render_alertas_page(path):
+    from alertas_seo import HUB_TITULO, HUB_DESCRIPCION, dossier_meta, expediente_indexable, hub_schema
+    from alertas_datos import cargar_expedientes, expediente_publico
+    if path == "/alertas/":
+        content = render_alerts_hub_page()
+        title, desc = HUB_TITULO, HUB_DESCRIPCION
+        schema = hub_schema(cargar_expedientes(), absolute_url("/alertas/"), organization_schema())
+        schema_tag = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+        return HTML_SHELL.format(
+            PAGE_TITLE=title,
+            CANONICAL_TAG=canonical_tag("/alertas/", title=title, description=desc) + schema_tag,
+            PAGE_DESC=escape(desc, quote=True),
+            PORT=PORT,
+            CONTENT=content,
+            LOGO_SRC=LOGO_SRC,
+        )
+    elif path.startswith("/alertas/") and path.endswith("/"):
+        slug = path[len("/alertas/"):-1]
+        exp = obtener_expediente(slug)
+        if exp is None:
+            return render_not_found(path)
+        content = render_model_dossier_page(exp)
+        publico = expediente_publico(exp)
+        title, desc = dossier_meta(publico)
+        robots = None if expediente_indexable(publico) else "noindex, follow"
+        schema = dossier_schema(publico, absolute_url(path))
+        schema_tag = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+        return HTML_SHELL.format(
+            PAGE_TITLE=title,
+            CANONICAL_TAG=canonical_tag(path, title=title, description=desc, og_type="article", robots=robots) + schema_tag,
+            PAGE_DESC=escape(desc, quote=True),
+            PORT=PORT,
+            CONTENT=content,
+            LOGO_SRC=LOGO_SRC,
+        )
+    return render_not_found(path)
+
+def render_compatibility_page(path, query_params=None):
+    from compatibilidad.catalog import refresh_published_state
+    refresh_published_state()
+    content = render_compatibility_page_content(path, query_params)
+    if content is None:
+        return render_not_found(path)
+    content='<link rel="stylesheet" href="/assets/compatibilidad.css"><link rel="stylesheet" href="/assets/compatibilidad-navegacion.css">'+content+'<script defer src="/assets/compatibilidad.js"></script>'
+    title, desc, extra_schema = get_compatibility_meta(path, SITE_URL)
+    if path == COMPATIBILITY_SEARCH_PATH:
+        canonical_meta = '<meta name="robots" content="noindex, follow">\n  <link rel="canonical" href="' + escape(absolute_url('/compatibilidad/'), quote=True) + '">'
+    else:
+        canonical_meta = canonical_tag(path)
+        if extra_schema:
+            canonical_meta += extra_schema
+
+    return HTML_SHELL.format(
+        PAGE_TITLE=title,
+        CANONICAL_TAG=canonical_meta,
+        PAGE_DESC=escape(desc, quote=True),
+        PORT=PORT,
+        CONTENT=content,
+        LOGO_SRC=LOGO_SRC,
+    )
+
+def render_tallerlab_data_page(path, query_params=None):
+    if path == TALLERLAB_DATA_HUB_PATH:
+        cat = (query_params or {}).get("categoria")
+        content = render_tools_hub_page(cat)
+    elif path == TALLERLAB_DATA_COMPARATOR_PATH:
+        params = query_params or {}
+        selected = [params.get(f"m{number}") for number in range(1, 5) if params.get(f"m{number}")] or None
+        content = render_tool_comparator_page(selected, params.get('categoria'), params.get('familia'))
+    elif path == TALLERLAB_DATA_EDITORIAL_LIST_PATH:
+        content = render_editorial_comparisons_list_page()
+    elif path in TALLERLAB_DATA_EDITORIAL_PATHS:
+        slug = path.strip("/").split("/")[-1]
+        comp = get_editorial_comparison(slug)
+        if not comp:
+            return render_not_found(path)
+        content = render_editorial_comparison_page(slug)
+    elif path == TALLERLAB_DATA_METHODOLOGY_PATH:
+        content = render_data_methodology_page()
+    elif path == TALLERLAB_DATA_CORRECTIONS_PATH:
+        content = render_corrections_log_page()
+    elif path == TALLERLAB_DATA_RESEARCH_PATH:
+        content = render_research_study_page()
+    elif path in TALLERLAB_DATA_TOOL_PATHS:
+        slug = path.strip("/").split("/")[-1]
+        tool = get_tool_by_slug(slug)
+        if not tool:
+            return render_not_found(path)
+        content = render_tool_detail_page(tool)
+    else:
+        return render_not_found(path)
+
+    title, desc = get_tallerlab_data_meta(path)
+    return HTML_SHELL.format(
+        PAGE_TITLE=title,
+        CANONICAL_TAG=('<meta name="robots" content="noindex, follow">\n' if path == TALLERLAB_DATA_COMPARATOR_PATH and query_params else "") + canonical_tag(path),
+        PAGE_DESC=escape(desc, quote=True),
+        PORT=PORT,
+        CONTENT=content,
+        LOGO_SRC=LOGO_SRC,
+    )
 
 def render_sitemap():
-    entries = "".join(f"  <url><loc>{escape(absolute_url(path))}</loc></url>\n" for path in INDEXABLE_PATHS)
+    paths = tuple(dict.fromkeys([p for p in INDEXABLE_PATHS if p not in OBSERVATORY_PATHS]+get_published_observatory_paths()))
+    from compatibilidad.catalog import refresh_published_state, PRODUCTS_BY_SLUG, CATALOG_PRODUCTS
+    from compatibilidad.presentation import relationship_paths
+    refresh_published_state()
+    paths=tuple(dict.fromkeys(paths+relationship_paths()+('/compatibilidad/cambios/',)))
+    def compatibility_indexable(path):
+        if path.startswith(('/baterias/','/cargadores/','/herramientas-bateria/')):
+            product=PRODUCTS_BY_SLUG.get(path.rstrip('/').split('/')[-1])
+            return bool(product and product.status=='publicado')
+        if path.startswith('/plataformas/'):
+            platform=path.rstrip('/').split('/')[-1]
+            return any(p.platform_id==platform and p.status=='publicado' for p in CATALOG_PRODUCTS)
+        return True
+    paths=tuple(p for p in paths if compatibility_indexable(p) and tool_path_is_indexable(p))
+    from alertas_seo import sitemap_alertas
+    try:
+        alertas_lastmod, alertas_excluidas = sitemap_alertas()
+    except Exception:
+        alertas_lastmod, alertas_excluidas = {}, set()
+    paths=tuple(dict.fromkeys(paths+tuple(alertas_lastmod) ))
+    paths=tuple(p for p in paths if p not in alertas_excluidas)
+    # Comunidad: solo modelos y preguntas con contenido suficiente, con su fecha de última actividad.
+    try:
+        from comunidad.components import community_sitemap_lastmod, community_sitemap_excluded
+        comunidad_lastmod = community_sitemap_lastmod()
+        comunidad_excluidas = community_sitemap_excluded()
+    except Exception:
+        comunidad_lastmod, comunidad_excluidas = {}, set()
+    paths=tuple(dict.fromkeys(paths+tuple(comunidad_lastmod)))
+    # La portada de la comunidad no va al sitemap mientras sea «noindex» (todavía sin páginas de modelo con contenido).
+    paths=tuple(p for p in paths if p not in comunidad_excluidas)
+    alertas_lastmod = {**comunidad_lastmod, **alertas_lastmod}
+    try:
+        from compatibilidad.presentation import compatibility_lastmod
+        alertas_lastmod = {**compatibility_lastmod(), **alertas_lastmod}
+    except Exception:
+        pass
+    def sitemap_entry(path):
+        lastmod = alertas_lastmod.get(path)
+        extra = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
+        return f"  <url><loc>{escape(absolute_url(path))}</loc>{extra}</url>\n"
+    entries = "".join(sitemap_entry(path) for path in paths)
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + entries + '</urlset>\n'
 
 def render_robots():
@@ -999,7 +1497,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
         else:
             media = '<span class="offer-no-photo">Foto no disponible</span>'
-        source = ((f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts.get("evidence_label") else '') + f'<a class="offer-source" href="{escape(facts["source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente: {escape(facts["source_type"])} ↗</a>' + (f'<a class="offer-source" href="{escape(facts["image_source"], quote=True)}" target="_blank" rel="noopener noreferrer">Fuente de la foto ↗</a>' if facts.get("image_source") else '') if facts else '<span class="offer-source">Datos no informados</span>')
+        source = (f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts and facts.get("evidence_label") else '')
         compare_type = category if editorial else COMPARE_TYPES.get(url, category)
         labels = (editorial or {}).get('labels') or COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional")))
         compare_labels = escape(json.dumps(labels, ensure_ascii=False), quote=True)
@@ -1054,7 +1552,7 @@ HTML_SHELL = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{PAGE_TITLE} · TallerLab</title>
   <meta name="description" content="{PAGE_DESC}">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
   {CANONICAL_TAG}
   <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-v1.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/fonts/fonts.css?v=1">
@@ -1088,7 +1586,7 @@ HTML_SHELL = """<!DOCTYPE html>
     a {{ color: inherit; text-decoration: none; transition: all 0.15s ease; }}
     
     /* Header & Nav */
-    header {{
+    body > header {{
       background: rgba(13, 17, 23, 0.96);
       backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
@@ -1632,21 +2130,23 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=12">
+  <link rel="stylesheet" href="/assets/site.css?v=21">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
   <header>
     <div class="nav-container">
+      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/comunidad/">Comunidad</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
       <a href="/" class="logo">
         <img src="{LOGO_SRC}" alt="TallerLab" class="logo-img" width="952" height="284">
       </a>
       <nav class="nav-links">
         <a href="/" class="nav-btn">Inicio</a>
-        <a href="/compresores/" class="nav-btn">Compresores</a>
+        <a href="/herramientas/" class="nav-btn">Herramientas</a>
+        <a href="/datos/precios-herramientas-argentina/" class="nav-btn">Precios</a>
+        <a href="/comunidad/" class="nav-btn">Comunidad</a>
         <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
-        <a href="/autor/joaquin-vallasciani/" class="nav-btn">Autor</a>
       </nav>
     </div>
   </header>
@@ -1660,12 +2160,16 @@ HTML_SHELL = """<!DOCTYPE html>
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
-      <p><a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a></p>
+      <p><a href="/comunidad/">Comunidad</a> · <a href="/compatibilidad/">Compatibilidad de baterías</a> · <a href="/alertas/">Documentación y alertas</a> · <a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a></p>
     </div>
   </footer>
 </body>
 </html>
 """
+
+from contenido_publico import PublicTemplate
+HTML_SHELL = PublicTemplate(HTML_SHELL)
+
 
 def render_thumb_svg(section_id, badge_label="GUÍA", reading_time="5 min"):
     """Genera miniaturas visuales dinámicas con estética técnica y oscura para las tarjetas."""
@@ -1872,6 +2376,29 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
                 links = "".join(f'<li><a href="{escape(a["url"], quote=True)}">{escape(a["h1"])}</a></li>' for a in guides)
                 guide_groups.append(f'<details class="author-guides"><summary>{escape(meta["name"])} · {len(guides)} guías</summary><ul>{links}</ul></details>')
         members_html = '<section class="markdown-body"><h2>Guías de Joaquín Vallasciani</h2>' + "".join(guide_groups) + '</section>'
+        perfil = author_profile()
+        extra = []
+        if perfil["experiencia"]:
+            extra.append(f'<h2>Experiencia</h2><p>{escape(perfil["experiencia"])}</p>')
+        if perfil["formacion"]:
+            extra.append(f'<h2>Formación</h2><p>{escape(perfil["formacion"])}</p>')
+        if perfil["perfiles"] or perfil["email"]:
+            enlaces = [f'<li><a href="{escape(u, quote=True)}" rel="me noopener" target="_blank">{escape(urllib.parse.urlsplit(u).hostname or u)}</a></li>' for u in perfil["perfiles"]]
+            if perfil["email"]:
+                enlaces.append(f'<li><a href="mailto:{escape(perfil["email"], quote=True)}">{escape(perfil["email"])}</a></li>')
+            extra.append('<h2>Perfiles y contacto</h2><ul>' + "".join(enlaces) + '</ul>')
+        try:
+            from alertas_datos import cargar_expedientes
+            from alertas_seo import expediente_indexable
+            fichas = [e for e in cargar_expedientes() if expediente_indexable(e)]
+        except Exception:
+            fichas = []
+        if fichas:
+            extra.append('<h2>Expedientes de documentación y alertas</h2><ul>' + "".join(
+                f'<li><a href="/alertas/{escape(e["slug"], quote=True)}/">{escape(e["marca"])} {escape(e["modelo_base"])}</a> · revisión {escape(str(e.get("fecha_revision", "")))}</li>'
+                for e in fichas) + '</ul>')
+        if extra:
+            members_html = '<section class="markdown-body">' + "".join(extra) + '</section>' + members_html
     content = f'<div class="article-container"><div class="article-header"><h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
     schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": author_schema()}, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path) + schema, PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
@@ -1889,7 +2416,7 @@ def render_home_page():
     }
     website_tag = '<script type="application/ld+json">' + json.dumps(website, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     articles = {a["url"]: a for a in ALL_ARTICLES}
-    categories = "".join(f'''<a class="home-category" href="/{key}/"><span class="home-category-number">{i:02d}</span><div><h3>{escape(meta["name"])}</h3><p>{escape(HOME_CATEGORY_COPY[key])}</p></div><span aria-hidden="true">↗</span></a>''' for i, (key, meta) in enumerate(CATEGORY_META.items(), 1))
+    categories = "".join(f'''<a class="home-category" href="/{key}/"><img src="/assets/productos/{image}" alt="" width="160" height="120" loading="lazy"><div><h3>{escape(label)}</h3><span aria-hidden="true">→</span></div></a>''' for key, (label, image) in HOME_CATEGORY_IMAGES.items())
     comparisons = []
     for url, title, description in HOME_COMPARISONS:
         article = articles.get(url)
@@ -1903,16 +2430,20 @@ def render_home_page():
             continue
         tools.append(f'''<a class="home-tool" href="{url}#resource-title"><span class="home-tool-unit" aria-hidden="true">{escape(unit)}</span><div><span class="home-kicker">{kind}</span><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Usar {kind.lower()} <span aria-hidden="true">→</span></span></div></a>''')
     tools_section = f'''<section id="herramientas" class="home-section home-tools-section" aria-labelledby="home-tools-title"><div class="home-section-heading"><div><span class="home-kicker">03 / RESOLVÉ TU DUDA</span><h2 id="home-tools-title">Menos suposiciones. Más números.</h2></div><p>Calculadoras y selectores con sus supuestos explicados.</p></div><div class="home-tool-grid">{"".join(tools)}</div></section>''' if tools else ""
-    tools_action = '<a class="home-secondary" href="#herramientas">Usar calculadoras ↗</a>' if tools else '<a class="home-secondary" href="#categorias">Explorar categorías ↗</a>'
+    tools_action = '<a class="home-secondary" href="#herramientas"><svg width="18" height="20" viewBox="0 0 20 22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="2" width="14" height="18" rx="1.5"/><path d="M6 6h8M6 10h2m4 0h2M6 13h2m4 0h2M6 16h2m4 0h2"/></svg>Usar calculadoras</a>' if tools else '<a class="home-secondary" href="#categorias">Explorar categorías ↗</a>'
     content = f'''<div class="home-page">
-      <section class="home-hero" aria-labelledby="home-title"><div class="home-hero-copy"><span class="home-kicker">TALLERLAB / HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Comparativas de herramientas <br><span>para elegir mejor en Argentina</span></h1><p>Compará modelos, entendé qué cambia y calculá lo que necesitás antes de comprar. Guías basadas en fichas y manuales, con opciones para consultar precios.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a>{tools_action}</div><a class="home-method" href="/como-trabajamos/">Fuentes identificadas · Conocé cómo comparamos →</a></div><div class="home-hero-media"><img src="/assets/drill_hero.webp" alt="" width="500" height="200" fetchpriority="high"><span>LA COMPRA EMPIEZA POR LA TAREA.</span></div></section>
-      <section class="home-search" aria-labelledby="search-title"><div><h2 id="search-title">¿Ya sabés qué buscar?</h2><p>Una herramienta, una marca o un modelo.</p></div><form id="home-search-form" role="search"><label class="sr-only" for="home-query">Buscar guías de herramientas</label><input id="home-query" type="search" placeholder="Ej.: taladro inalámbrico, Bosch, compresor…" autocomplete="off" maxlength="120" aria-controls="home-search-results"><button type="submit">Buscar <span aria-hidden="true">→</span></button></form><noscript><p>Para buscar activá JavaScript, o explorá las categorías de abajo.</p></noscript></section>
-      <section id="home-search-results" class="home-results" aria-labelledby="home-results-title" hidden><div class="home-section-heading"><div><h2 id="home-results-title">Resultados de búsqueda</h2><p id="home-search-status" role="status" aria-live="polite"></p></div><button id="home-search-clear" type="button">Cerrar búsqueda ×</button></div><div id="home-search-grid" class="article-grid"></div><button id="home-search-more" type="button" hidden>Ver más resultados ↓</button></section>
-      <section id="categorias" class="home-section" aria-labelledby="home-categories-title"><div class="home-section-heading"><div><span class="home-kicker">01 / EXPLORÁ POR EQUIPO</span><h2 id="home-categories-title">Encontrá tu categoría</h2></div><p>Del trabajo que tenés al equipo que necesitás.</p></div><div class="home-category-grid">{categories}</div></section>
+      <section class="home-hero" aria-labelledby="home-title">
+        <div class="home-hero-inner"><div class="home-hero-copy"><span class="home-kicker"><span class="home-status-dot" aria-hidden="true"></span> HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Herramientas <span class="home-title-prefix">para</span><br> <span class="home-title-accent">trabajar <span class="home-title-last">mejor.</span></span></h1><p>Comparativas y calculadoras para elegir el equipo que tu trabajo necesita. Con datos, fuentes y criterio.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a>{tools_action}</div></div>
+        <img class="home-scene" src="/assets/hero-taller-claro-v3.webp" alt="" width="1774" height="887" fetchpriority="high">
+        <section class="home-search" aria-label="Buscador de herramientas"><form id="home-search-form" role="search"><label class="sr-only" for="home-query">Buscar guías de herramientas</label><svg class="home-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="home-query" type="search" placeholder="Ej.: taladro inalámbrico, Bosch, compresor…" autocomplete="off" maxlength="120" aria-controls="home-search-results"><button type="submit">Buscar <span aria-hidden="true">→</span></button></form><p>Ej.: taladro inalámbrico, Bosch, compresor…</p><noscript><p>Para buscar activá JavaScript, o explorá las categorías de abajo.</p></noscript></section></div>
+      </section>
+      <section id="home-search-results" class="home-results" aria-labelledby="home-results-title" hidden><div class="home-section-heading"><div><h2 id="home-results-title">Resultados de búsqueda</h2><span id="home-search-status" role="status" aria-live="polite"></span></div><button id="home-search-clear" type="button">Cerrar búsqueda ×</button></div><div id="home-search-grid" class="article-grid"></div><button id="home-search-more" type="button" hidden>Ver más resultados ↓</button></section>
+      <section id="categorias" class="home-section" aria-labelledby="home-categories-title"><div class="home-section-heading"><div><span class="home-kicker">01 / CATEGORÍAS</span><h2 id="home-categories-title">Explorá por categoría</h2></div><p>Del trabajo que tenés al equipo que necesitás.</p></div><div class="home-category-grid">{categories}</div></section>
       <section id="comparativas" class="home-section" aria-labelledby="home-comparisons-title"><div class="home-section-heading"><div><span class="home-kicker">02 / ANTES DE COMPRAR</span><h2 id="home-comparisons-title">Comparativas para empezar</h2></div><p>Opciones, diferencias y límites para decidir.</p></div><div class="home-comparison-grid">{"".join(comparisons)}</div></section>
       {tools_section}
+      <section id="precios" class="home-section" aria-labelledby="home-prices-title"><div class="home-section-heading"><div><span class="home-kicker">04 / PRECIOS</span><h2 id="home-prices-title">Antes de comprar, mirá el precio</h2></div><p>Seguimos todos los días el precio publicado y el stock de herramientas concretas en comercios argentinos, con historial descargable.</p></div><p><a class="home-secondary" href="/datos/precios-herramientas-argentina/">Ver precios e historial →</a></p></section>
       <aside class="home-trust"><strong>La fuente también importa.</strong><p>Contrastamos documentación de modelos concretos y señalamos lo que falta confirmar. Algunos enlaces de productos pueden generar una comisión para TallerLab.</p><a href="/como-trabajamos/">Nuestro método →</a></aside>
-    </div><script src="/assets/home.js?v=1" defer></script>'''
+    </div><script src="/assets/home.js?v=2" defer></script>'''
     return HTML_SHELL.format(PAGE_TITLE="Comparativas y calculadoras de herramientas en Argentina", CANONICAL_TAG=canonical_tag("/") + website_tag, PAGE_DESC="Elegí herramientas para tu trabajo: explorá 8 categorías, compará modelos y usá calculadoras de potencia, caudal y costos antes de comprar en Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
@@ -1952,9 +2483,12 @@ def render_category_page(section_id):
     )
     criteria = "".join(f'<li>{escape(item)}</li>' for item in editorial["criteria"])
     start_links = ""
-    if editorial.get("start_links"):
-        links = "".join(f'<a href="{url}">{escape(label)} <span aria-hidden="true">→</span></a>' for label, url in editorial["start_links"])
-        start_links = f'<aside class="hub-start"><strong>Empezá por acá</strong><nav aria-label="Accesos rápidos">{links}</nav></aside>'
+    cover_links = editorial.get("start_links") or [
+        (step_labels.get(key, label), f"#{anchor}")
+        for key, anchor, label, _ in visible_steps[:3]
+    ]
+    links = "".join(f'<a href="{url}"><span class="hub-start-index" aria-hidden="true">{i:02d}</span><span class="hub-start-label">{escape(label)}</span><span class="hub-start-arrow" aria-hidden="true">→</span></a>' for i, (label, url) in enumerate(cover_links, 1))
+    start_links = f'<aside class="hub-start"><strong><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5v16M12 5C8 2 4 3 2 4v15c3-1 7-1 10 2 3-3 7-3 10-2V4c-2-1-6-2-10 1Z"/></svg>Empezá por acá</strong><nav aria-label="Accesos rápidos">{links}</nav></aside>'
     separate_category_html = ""
     if separate_category and separate_article:
         card = render_article_card(separate_article, badge_text="ALTERNATIVA", action_text="Ver guía")
@@ -2000,17 +2534,35 @@ def render_category_page(section_id):
             extra = '<ul class="hub-checklist">' + "".join(f'<li>{escape(item)}</li>' for item in editorial["accessories"]) + '</ul>'
             extra += f'<p class="hub-note">Consultá los accesorios documentados en la <a href="{groups["general"][0]["url"]}">guía principal</a> y en las fichas de modelos de esta categoría.</p>'
         sections.append(f'<section id="{anchor}" class="hub-section" aria-labelledby="{anchor}-title"><div class="hub-section-heading"><span class="hub-step">{i:02d}</span><div><h2 id="{anchor}-title">{label}</h2><p>{desc}</p></div></div>{extra}<div class="article-grid">{cards}</div></section>')
-    headline = trunk["h1"] if trunk else meta["name"]
+    headline = meta["name"]
+    cover_name, cover_file = HOME_CATEGORY_IMAGES[section_id]
+    first_anchor = visible_steps[0][1]
     content = f'''<div class="article-container category-hub">
       <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
-      <div class="category-hero"><div class="category-hero-copy"><span class="section-kicker">GUÍAS DE {escape(meta["name"].upper())}</span><h1>{escape(headline)}</h1><p>{escape(editorial["intro"])}</p><p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a> · {len(articles)} guías documentales</p></div><span class="category-hero-symbol" aria-hidden="true">{meta["icon"]}</span></div>
+      <header class="category-hero category-cover">
+        <div class="category-hero-copy">
+          <span class="section-kicker">TALLERLAB / GUÍAS DE COMPRA</span>
+          <h1>{escape(headline)}</h1>
+          {render_guide_community_entry({'url': '/' + section_id + '/', 'section': section_id})}
+          <div class="category-cover-rule" aria-hidden="true"></div>
+          <p class="category-cover-intro">{escape(HUB_COVER_COPY[section_id])}</p>
+          <a class="category-cover-action" href="#{first_anchor}">Explorar guías <span aria-hidden="true">→</span></a>
+          <p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a></p>
+        </div>
+        <figure class="category-cover-media">
+          <img src="/assets/productos/{escape(cover_file, quote=True)}" alt="Equipo de la categoría {escape(cover_name, quote=True)}" width="640" height="640" fetchpriority="high" decoding="async">
+          <figcaption><span class="category-cover-count"><strong>{len(articles):02d}</strong> guías</span></figcaption>
+        </figure>
+      </header>
+      {start_links}
       {task_selector}
       {main_guide}
-      {start_links}
       {separate_category_html}
       <nav class="hub-nav" aria-label="Recorrido de la categoría">{nav}</nav>
       <aside class="hub-criteria"><strong>Antes de comparar</strong><ul>{criteria}</ul><a href="/como-trabajamos/">Cómo documentamos las guías →</a></aside>
       {"".join(sections)}
+      {render_category_prices(section_id)}
+      {render_guide_community({'url': '/' + section_id + '/', 'section': section_id})}
     </div>'''
     schema = article_schema_tag(trunk) if trunk else ""
     page = HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
@@ -2080,6 +2632,9 @@ def render_article_page(article, embedded=False):
             <p><strong>Criterio editorial:</strong> Esta guía reúne criterios de elección y, cuando corresponde, datos identificados de fichas oficiales del fabricante.</p>
             <p style="margin-top: 0.5rem;"><strong>Aviso de afiliación:</strong> TallerLab participa en el programa de afiliados de Mercado Libre. Algunos enlaces de productos son de afiliado; también hay enlaces a búsquedas generales. Consultá precio, stock y condiciones vigentes en Mercado Libre.</p>
             """
+    if re.search(r'href=["\']https://meli\.la/', rendered_body):
+        trust_html += '<p class="buying-disclosure"><strong>Enlaces de afiliado:</strong> TallerLab puede recibir una comisión si comprás desde los enlaces de Mercado Libre identificados en esta guía. La comisión no acredita compatibilidad: comprobá el código exacto, la variante, el vendedor y las condiciones de la publicación.</p>'
+
     def normalize_commercial_anchor(match):
         tag = match.group(0)
         href_match = re.search(r'href="(https://[^\"]+)"', tag)
@@ -2254,18 +2809,26 @@ def render_article_page(article, embedded=False):
         </div>
         <h1>{article['h1']}</h1>
         <p class="article-lead">{article['description']}</p>
+        {render_guide_community_entry(article) if not embedded else ""}
       </div>
+
+      {render_aviso_guia(article["url"], article["body"]) if not embedded else ""}
 
       {render_resource(article) if article["section"] != "amoladoras" else ""}
       {render_buying_note(article, PRODUCT_FACTS) if not guide_selection and article["section"] != "amoladoras" and article['url'] not in HIDROLAVADORAS_OFFERS and article['url'] not in SIERRAS_OFFERS and article['url'] not in SOLDADORAS_OFFERS and article['url'] not in TALADROS_OFFERS else ""}
       {render_quick_guide(article) if article["section"] != "amoladoras" else ""}
       {render_50l_models() if article["url"] == "/compresores/50-litros/" and not guide_selection else ""}
       {affiliate_shelf}
+      {next((w for p in CATALOG_PRODUCTS if p.guide_url == article["url"] for w in [render_model_price_widget(p.id)] if w), "")}
 
       <div id="markdown-target" class="markdown-body">
         {rendered_body}
       </div>
 
+      {render_guide_prices(article["url"]) if not embedded else ""}
+      {render_guide_community(article) if not embedded else ""}
+      {render_guide_technical_tools_block(article["url"])}
+      {__import__("compatibilidad.presentation", fromlist=["x"]).guide_compatibility_block(article["url"]) if not embedded else ""}
       {render_resource(article) if article["section"] == "amoladoras" else ""}
       {render_quick_guide(article) if article["section"] == "amoladoras" else ""}
 
@@ -2281,6 +2844,8 @@ def render_article_page(article, embedded=False):
         </div>
         {sources_footer}
       </div>
+
+      {render_relevamiento_callout()}
 
       <!-- Guías Relacionadas por Relevancia -->
       <div style="margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2.25rem;">
@@ -2308,8 +2873,21 @@ def render_article_page(article, embedded=False):
     )
 
 
+def author_profile():
+    """Datos reales del autor cargados por el editor en perfil_autor.json (vacíos = no se muestran)."""
+    try:
+        data = json.loads((Path(__file__).with_name("perfil_autor.json")).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        data = {}
+    perfiles = [u for u in data.get("perfiles", []) if isinstance(u, str) and re.fullmatch(r"https://[^\s<>\"]+", u)]
+    email = str(data.get("email_publico", "")).strip()
+    email = email if re.fullmatch(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+", email) else ""
+    return {"experiencia": str(data.get("experiencia", "")).strip(), "formacion": str(data.get("formacion", "")).strip(),
+            "perfiles": perfiles, "email": email}
+
+
 def author_schema(name=AUTHOR_NAME):
-    return {
+    schema = {
         "@type": "Person",
         "@id": absolute_url(AUTHOR_PATH) + "#joaquin-vallasciani",
         "name": name,
@@ -2317,6 +2895,12 @@ def author_schema(name=AUTHOR_NAME):
         "jobTitle": AUTHOR_ROLE,
         "worksFor": {"@id": absolute_url("/") + "#organization"},
     }
+    perfil = author_profile()
+    if perfil["perfiles"]:
+        schema["sameAs"] = perfil["perfiles"]
+    if perfil["email"]:
+        schema["email"] = "mailto:" + perfil["email"]
+    return schema
 
 
 def article_schema_tag(article):
@@ -2353,25 +2937,102 @@ def render_not_found(path):
     )
 
 class TallerLabHandler(BaseHTTPRequestHandler):
-    def do_POST(self):
-        if urllib.parse.urlparse(self.path).path != "/api/affiliate-click":
-            self.send_error(404)
+    def _serve_relevamiento(self):
+        from app import app
+        size = int(self.headers.get('Content-Length', '0'))
+        if size > 65536:
+            self.send_error(413)
             return
-        try:
-            size = int(self.headers.get("Content-Length", "0"))
-            if not 0 < size <= 2048:
-                raise ValueError("Invalid body size")
-            data = json.loads(self.rfile.read(size))
-            event = validate_affiliate_click(data)
-            with CLICK_LOCK:
-                with CLICK_LOG.open("a", encoding="utf-8") as log:
-                    log.write(json.dumps(event, ensure_ascii=False) + "\n")
-        except (ValueError, TypeError, json.JSONDecodeError):
-            self.send_error(400)
-            return
-        self.send_response(204)
-        self.send_header("Cache-Control", "no-store")
+        body = self.rfile.read(size) if size else None
+        headers = {k: v for k, v in self.headers.items() if k.lower() not in ('content-length', 'host')}
+        with app.test_client(use_cookies=False) as client:
+            response = client.open(self.path, method=self.command, data=body, headers=headers, environ_overrides={'REMOTE_ADDR': self.client_address[0]})
+        self.send_response(response.status_code)
+        for key, value in response.headers:
+            self.send_header(key, value)
         self.end_headers()
+        if self.command != 'HEAD':
+            self.wfile.write(response.get_data())
+
+    def do_POST(self):
+        url_path = urllib.parse.urlparse(self.path).path
+        if url_path.startswith(('/api/relevamiento/', '/relevamiento-2027/', '/comunidad/')):
+            return self._serve_relevamiento()
+        if url_path == "/api/affiliate-click":
+            try:
+                size = int(self.headers.get("Content-Length", "0"))
+                if not 0 < size <= 2048:
+                    raise ValueError("Invalid body size")
+                data = json.loads(self.rfile.read(size))
+                event = validate_affiliate_click(data)
+                with CLICK_LOCK:
+                    with CLICK_LOG.open("a", encoding="utf-8") as log:
+                        log.write(json.dumps(event, ensure_ascii=False) + "\n")
+            except (ValueError, TypeError, json.JSONDecodeError):
+                self.send_error(400)
+                return
+            self.send_response(204)
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            return
+
+        elif url_path == "/api/compatibilidad/evento":
+            try:
+                size = int(self.headers.get("Content-Length", "0"))
+                if not 0 < size <= 4096:
+                    raise ValueError("Invalid body size")
+                data = json.loads(self.rfile.read(size))
+                track_event(
+                    event_type=data.get("event_type", ""),
+                    query_text=data.get("query_text"),
+                    model_a=data.get("model_a"),
+                    model_b=data.get("model_b"),
+                    verdict=data.get("verdict"),
+                )
+                self.send_response(204)
+                self.send_header("Cache-Control", "no-store")
+                self.end_headers()
+                return
+            except Exception as e:
+                self.send_response(400)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
+                return
+
+        elif url_path == "/api/compatibilidad/ejecutar":
+            try:
+                import hmac
+                auth_header = self.headers.get("Authorization", "")
+                token = auth_header.replace("Bearer ", "").strip() if "Bearer " in auth_header else ""
+                expected_token = os.environ.get("COMPATIBILITY_MAINTENANCE_TOKEN") or os.environ.get("CRON_SECRET")
+                if not (expected_token and token and hmac.compare_digest(token, expected_token)):
+                    self.send_response(401)
+                    self.send_header("Content-Type", "application/json; charset=utf-8")
+                    self.end_headers()
+                    self.wfile.write(b'{"error": "No autorizado"}')
+                    return
+                dry_run = data.get("dry_run", True)
+                if not isinstance(dry_run, bool):
+                    self.send_response(400)
+                    self.end_headers()
+                    self.wfile.write(b'{"error":"dry_run debe ser booleano"}')
+                    return
+                pipeline = MaintenancePipeline()
+                summary = pipeline.execute_maintenance(dry_run=dry_run)
+                self.send_response(200 if summary['status']=='OK' else 503)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps(summary, ensure_ascii=False).encode("utf-8"))
+                return
+            except Exception as e:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
+                return
+
+        self.send_error(404)
 
     def do_HEAD(self):
         self.do_GET()
@@ -2379,6 +3040,21 @@ class TallerLabHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
+        from observatorio.estatico import static_observatory_file
+        static_price_file = static_observatory_file(path)
+        if static_price_file:
+            body = static_price_file.read_bytes()
+            is_csv = static_price_file.name in ('descargar-csv', 'historial.csv')
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/csv; charset=utf-8' if is_csv else 'text/html; charset=utf-8')
+            self.send_header('Cache-Control', 'public, max-age=300, must-revalidate')
+            self.send_header('Content-Length', str(len(body)))
+            if is_csv: self.send_header('Content-Disposition', 'attachment; filename="precios-herramientas.csv"')
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        if path.startswith(("/api/relevamiento/", "/relevamiento-2027", "/comunidad/")):
+            return self._serve_relevamiento()
 
         if path == "/robots.txt":
             body = render_robots().encode("utf-8")
@@ -2423,7 +3099,7 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "image/svg+xml")
             self.end_headers()
-            self.wfile.write(b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">&#x1F527;</text></svg>')
+            self.wfile.write((ASSETS_DIR / "favicon.svg").read_bytes())
             return
         
         # 1. Servir archivos estáticos (assets/...)
@@ -2462,7 +3138,117 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(render_editorial_page(kind).encode("utf-8"))
             return
-            
+
+        # Observatorio de precios: descarga de CSV
+        if path.startswith("/datos/precios/") and path.endswith("/descargar-csv"):
+            parts = path.strip("/").split("/")
+            cat = parts[2] if len(parts) >= 3 else None
+            csv_data = export_observations_to_csv(category=cat if cat in ("compresores", "hidrolavadoras", "generadores") else None)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", f'attachment; filename="tallerlab-precios-{cat or "catalogo"}.csv"')
+            self.end_headers()
+            self.wfile.write(csv_data.encode("utf-8"))
+            return
+
+        # Observatorio de precios: páginas HTML
+        if path in OBSERVATORY_PATHS:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_observatory_page(path).encode("utf-8"))
+            return
+
+        # Documentación y alertas de herramientas
+        if path in ALERTAS_PATHS:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_alertas_page(path).encode("utf-8"))
+            return
+
+        if path == '/api/compatibilidad/estado':
+            from compatibilidad.operations import capture_health
+            health = capture_health()
+            self.send_response(200 if health['status']=='ok' else 503)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Cache-Control', 'no-store')
+            self.end_headers()
+            self.wfile.write(json.dumps(health, ensure_ascii=False).encode('utf-8'))
+            return
+
+        # Base de compatibilidad: descarga de CSV y JSON
+        if path == "/datos/compatibilidad/baterias.csv":
+            csv_data = export_compatibility_to_csv()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="tallerlab-compatibilidad-baterias.csv"')
+            self.end_headers()
+            self.wfile.write(csv_data.encode("utf-8"))
+            return
+
+        if path == "/datos/compatibilidad/baterias.json":
+            json_data = export_compatibility_to_json()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="tallerlab-compatibilidad-baterias.json"')
+            self.end_headers()
+            self.wfile.write(json_data.encode("utf-8"))
+            return
+
+        # Base de compatibilidad: buscador y comprobador de par
+        if path == COMPATIBILITY_SEARCH_PATH:
+            query_params = dict(urllib.parse.parse_qsl(parsed.query))
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("X-Robots-Tag", "noindex, follow")
+            self.end_headers()
+            self.wfile.write(render_compatibility_page(path, query_params).encode("utf-8"))
+            return
+
+        # Base de compatibilidad: páginas HTML indexables
+        from compatibilidad.presentation import resolve_relationship
+        if path in COMPATIBILITY_PATHS or resolve_relationship(path) is not None:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_compatibility_page(path).encode("utf-8"))
+            return
+
+        # TallerLab Data: descarga de CSV de investigación
+        if path == "/herramientas/investigacion/descargar-datos.csv":
+            csv_data = generate_study_csv()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="tallerlab-datos-investigacion-herramientas.csv"')
+            self.end_headers()
+            self.wfile.write(csv_data.encode("utf-8"))
+            return
+
+        if path in TALLERLAB_DATA_DOWNLOAD_PATHS and path.endswith('.json'):
+            from tallerlab_data.documentary import export_snapshot, sources
+            if path.endswith('fuentes.json'):
+                fields = {'url', 'checked_at', 'http_status', 'final_url', 'status', 'sha256', 'text_sha256', 'title', 'format', 'pages', 'reason', 'publisher_url'}
+                payload = {'scope': 'Recuperación documental; no acredita ensayo ni validación automática de todas las especificaciones', 'sources': [{k: v for k, v in r.items() if k in fields} for r in sources().values()]}
+            else:
+                payload = export_snapshot()
+                payload.pop('candidates', None)
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Content-Disposition', 'attachment; filename="tallerlab-data.json"')
+            self.end_headers()
+            self.wfile.write(json.dumps(payload, ensure_ascii=False).encode('utf-8'))
+            return
+
+        # TallerLab Data: páginas HTML indexables
+        if path in TALLERLAB_DATA_PATHS:
+            query_params = dict(urllib.parse.parse_qsl(parsed.query))
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_tallerlab_data_page(path, query_params).encode("utf-8"))
+            return
+
         # Los ocho hubs tienen prioridad; sus guías troncales conservan Article.
         if path[1:-1] in PUBLIC_SECTIONS and path.endswith("/"):
             self.send_response(200)

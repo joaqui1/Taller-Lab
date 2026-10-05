@@ -3,6 +3,10 @@
   const form = document.getElementById('home-search-form');
   if (!form) return;
   const input = document.getElementById('home-query');
+  const compact = window.matchMedia('(max-width: 600px)');
+  const setPlaceholder = () => { input.placeholder = compact.matches ? 'Buscá una herramienta…' : 'Ej.: taladro inalámbrico, Bosch, compresor…'; };
+  setPlaceholder();
+  compact.addEventListener('change', setPlaceholder);
   const results = document.getElementById('home-search-results');
   const status = document.getElementById('home-search-status');
   const grid = document.getElementById('home-search-grid');
