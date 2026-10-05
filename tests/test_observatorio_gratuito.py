@@ -1,5 +1,6 @@
 """Contratos de captura y publicación. Sin red, secretos ni base productiva."""
 import csv
+import io
 import json
 import tempfile
 import unittest
@@ -214,6 +215,23 @@ class FreeObservatoryTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, 'captura inválida'):
                     build.main(root)
                 self.assertFalse((root / 'assets/datos/observatorio-publicacion.json').exists())
+
+    def test_http_downloads_and_generated_json_do_not_need_legacy_database(self):
+        import app as module
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            build_site(DEFAULT_HISTORY, root / 'public', standalone=False)
+            with patch('observatorio.estatico.ROOT', root), patch.object(module, 'ASSETS_DIR', root / 'assets'), patch.object(module, 'export_observations_to_csv', side_effect=RuntimeError('La base anterior no está disponible')):
+                client = module.app.test_client()
+                for category in CATEGORIES:
+                    for name in ('descargar-csv', 'historial.csv'):
+                        with client.get('/datos/precios/' + category + '/' + name) as response:
+                            self.assertEqual(response.status_code, 200)
+                            self.assertEqual(response.mimetype, 'text/csv')
+                            self.assertTrue(list(csv.DictReader(io.StringIO(response.get_data(as_text=True).lstrip('\ufeff')))))
+                with client.get('/assets/datos/precios-observatorio-publico.json') as dataset:
+                    self.assertEqual(dataset.status_code, 200)
+                    self.assertIsInstance(dataset.get_json(), dict)
 
     def test_expired_build_keeps_history_and_removes_current_prices(self):
         manifest=json.loads(MANIFEST.read_text(encoding='utf-8'));history=json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
