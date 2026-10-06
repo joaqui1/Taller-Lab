@@ -222,17 +222,17 @@ def collect(history_path=DEFAULT_HISTORY, manifest_path=MANIFEST):
                 html = fetch_page(sessions[origin], model)
                 result = extract_public_product(html, model)
                 previous = [o for o in data['observations'] if o['model_id'] == model['id'] and o['availability'] == 'disponible'][-7:]
-                # Una revisión humana aceptada inicia una nueva referencia de precios.
-                reviewed = [i for i, o in enumerate(previous) if o.get('jump_reviewed')]
+                # Los cambios corroborados en la ficha comienzan una nueva referencia.
+                reviewed = [i for i, o in enumerate(previous) if o.get('jump_reviewed') or o.get('jump_verified')]
                 if reviewed: previous = previous[reviewed[-1]:]
                 if previous and result['price_ars'] is not None:
                     import statistics
                     median = statistics.median(Decimal(o['price_ars']) for o in previous)
                     if abs(Decimal(result['price_ars']) - median) / median >= Decimal('0.35'):
-                        approval = model.get('price_review') or {}
-                        if approval.get('day_art') != today or str(approval.get('price_ars')) != result['price_ars']:
-                            raise ValueError('Variación de 35% o más: dato retenido para revisión')
-                        result['jump_reviewed'] = True
+                        # extract_public_product ya verificó identidad, variante, ARS
+                        # y coincidencia del precio estructurado con el visible.
+                        result['jump_verified'] = True
+                        print(model['id'], 'Cambio de precio corroborado automáticamente', flush=True)
                 observed = datetime.now(timezone.utc).isoformat()
                 observation = dict(result, model_id=model['id'], observed_at=observed, day_art=today)
                 data['observations'].append(observation); existing.add((model['id'], today))

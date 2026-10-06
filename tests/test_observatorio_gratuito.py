@@ -109,37 +109,41 @@ class FreeObservatoryTests(unittest.TestCase):
             with patch('observatorio.gratuito.get_allowed_robots',return_value=robots),patch('observatorio.gratuito.fetch_page',side_effect=ValueError('HTTP 429')) as fetch,patch('observatorio.gratuito.time.sleep'):
                 self.assertEqual(collect(path,manifest)['failed'],2);self.assertEqual(fetch.call_count,1)
 
-    def test_large_price_jump_requires_review(self):
-        html,m,_=fixture();now=datetime.now(timezone.utc).isoformat()
+    def test_corroborated_price_jumps_are_automatic_and_reset_baseline(self):
+        now=datetime.now(timezone.utc).isoformat()
+        for price, visible in [('173452.00', '$ 173.452,00'), ('60000.00', '$ 60.000,00')]:
+            with self.subTest(price=price), tempfile.TemporaryDirectory() as tmp:
+                html,m,_=fixture(price=price,visible=visible)
+                path=Path(tmp)/'history.json';manifest=Path(tmp)/'manifest.json'
+                atomic_json(manifest,{'models':[m],'sources':{'megastore':{'domain':'store.example'}}})
+                atomic_json(path,{'version':1,'observations':[{'model_id':m['id'],'day_art':'2000-01-01','observed_at':now,'availability':'disponible','price_ars':'112744.00'}],'latest_attempts':{},'run':{}})
+                robots=Mock();robots.can_fetch.return_value=True;robots.crawl_delay.return_value=0
+                with patch('observatorio.gratuito.get_allowed_robots',return_value=robots),patch('observatorio.gratuito.fetch_page',return_value=html),patch('observatorio.gratuito.time.sleep'):
+                    run=collect(path,manifest)
+                    self.assertEqual(run['captured'],1);self.assertEqual(run['failed'],0)
+                    data=json.loads(path.read_text())
+                    self.assertEqual(data['observations'][-1]['price_ars'],price)
+                    self.assertTrue(data['observations'][-1]['jump_verified'])
+                    self.assertNotIn('jump_reviewed',data['observations'][-1])
+                    data['observations'][-1]['day_art']='2000-01-02';atomic_json(path,data)
+                    self.assertEqual(collect(path,manifest)['captured'],1)
+                    data=json.loads(path.read_text())
+                    self.assertNotIn('jump_verified',data['observations'][-1])
+
+    def test_large_jump_with_contradictory_visible_price_stays_hidden(self):
+        html,m,_=fixture(price='173452.00',visible='$ 112.744,00')
+        now=datetime.now(timezone.utc).isoformat()
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/'history.json';manifest=Path(tmp)/'manifest.json'
             atomic_json(manifest,{'models':[m],'sources':{'megastore':{'domain':'store.example'}}})
-            atomic_json(path,{'version':1,'observations':[{'model_id':m['id'],'day_art':'2000-01-01','observed_at':now,'availability':'disponible','price_ars':'10000.00'}],'latest_attempts':{},'run':{}})
+            old={'model_id':m['id'],'day_art':'2000-01-01','observed_at':now,'availability':'disponible','price_ars':'112744.00'}
+            atomic_json(path,{'version':1,'observations':[old],'latest_attempts':{},'run':{}})
             robots=Mock();robots.can_fetch.return_value=True;robots.crawl_delay.return_value=0
             with patch('observatorio.gratuito.get_allowed_robots',return_value=robots),patch('observatorio.gratuito.fetch_page',return_value=html),patch('observatorio.gratuito.time.sleep'):
                 self.assertEqual(collect(path,manifest)['failed'],1)
-            data=json.loads(path.read_text());self.assertEqual(len(data['observations']),1);self.assertIn('35%',data['latest_attempts'][m['id']]['reason'])
-
-    def test_reviewed_jump_is_exact_dated_and_resets_baseline(self):
-        from zoneinfo import ZoneInfo
-        html,m,_=fixture();now=datetime.now(timezone.utc).isoformat()
-        today=datetime.now(timezone.utc).astimezone(ZoneInfo('America/Argentina/Buenos_Aires')).date().isoformat()
-        with tempfile.TemporaryDirectory() as tmp:
-            path=Path(tmp)/'history.json';manifest=Path(tmp)/'manifest.json'
-            def save_model():atomic_json(manifest,{'models':[m],'sources':{'megastore':{'domain':'store.example'}}})
-            atomic_json(path,{'version':1,'observations':[{'model_id':m['id'],'day_art':'2000-01-01','observed_at':now,'availability':'disponible','price_ars':'10000.00'}],'latest_attempts':{},'run':{}})
-            robots=Mock();robots.can_fetch.return_value=True;robots.crawl_delay.return_value=0
-            with patch('observatorio.gratuito.get_allowed_robots',return_value=robots),patch('observatorio.gratuito.fetch_page',return_value=html),patch('observatorio.gratuito.time.sleep'):
-                m['price_review']={'day_art':'2000-01-01','price_ars':'123456.20'};save_model()
-                self.assertEqual(collect(path,manifest)['failed'],1)
-                m['price_review']={'day_art':today,'price_ars':'123457.00'};save_model()
-                self.assertEqual(collect(path,manifest)['failed'],1)
-                m['price_review']['price_ars']='123456.20';save_model()
-                self.assertEqual(collect(path,manifest)['captured'],1)
-                data=json.loads(path.read_text());self.assertTrue(data['observations'][-1]['jump_reviewed'])
-                data['observations'][-1]['day_art']='2000-01-02';atomic_json(path,data)
-                del m['price_review'];save_model()
-                self.assertEqual(collect(path,manifest)['captured'],1)
+            data=json.loads(path.read_text())
+            self.assertEqual(data['observations'],[old])
+            self.assertEqual(current_state(old,data['latest_attempts'][m['id']],datetime.now(timezone.utc)),'error')
 
     def test_pages_prefix_downloads_and_main_home_preserved(self):
         with tempfile.TemporaryDirectory() as tmp:

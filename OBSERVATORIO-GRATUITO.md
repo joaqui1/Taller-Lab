@@ -23,7 +23,7 @@ GitHub documenta [la gratuidad de los runners estándar en repositorios público
 ## Cómo funciona
 
 - `observatorio/piloto_gratuito.json`: modelos, variantes, URLs y reglas de identidad. 24 fichas de Mega Store Lüsqtoff Hurlingham, 18 de DGM Maquinarias y 2 de Bulonfer. Selección editorial por tareas y gamas; no ranking de ventas ni todo el mercado.
-- `observatorio/gratuito.py`: revisa robots, identidad, moneda, precio principal y stock. Espacia solicitudes y pausa el dominio ante 403/429/503. No evade CAPTCHA ni bloqueos. Retiene saltos de 35% o más frente a la mediana de hasta siete observaciones disponibles para revisión.
+- `observatorio/gratuito.py`: revisa robots, identidad, moneda, precio principal y stock. Espacia solicitudes y pausa el dominio ante 403/429/503. No evade CAPTCHA ni bloqueos. Acepta automáticamente los cambios corroborados con el precio visible del mismo producto y variante. Registra los saltos de 35% o más frente a la mediana de hasta siete observaciones disponibles con `jump_verified` y comienza una nueva referencia.
 - `assets/datos/precios-observatorio.json`: primera captura pública real. Sin HTML, cookies o credenciales. Los centavos estructurados de DGM deben coincidir exactamente con el redondeo visible al peso.
 - Rama `observatorio-datos`: guarda el historial durable de hasta 365 días. **No borrarla**. El workflow no modifica `main` diariamente.
 - `observatorio/estatico.py`: genera hub, siete categorías, metodología, CSV por categoría, JSON, sitemap y estado. Una oferta por modelo/variante; no compara todos los vendedores.
@@ -67,15 +67,15 @@ La ficha GHP 4-50 declara 60 Hz: confirmar antes de comprar. Las propiedades té
 
 ## Si falla una captura
 
-Revisar el workflow y `estado.json`. Los errores se publican como «sin verificación» y conservan el historial. El workflow marca fallo después de publicar el estado degradado. Para un cambio real de SKU/variante o un salto extraordinario, confirmar la ficha, actualizar el manifiesto y documentar la revisión. Una variante nueva requiere un identificador nuevo; no mezclar kits.
+Revisar el workflow y `estado.json`. Los errores se publican como «sin verificación» y conservan el historial. Una falla parcial genera un aviso después de publicar; el siguiente ciclo vuelve a intentar el producto afectado. Los cambios de precio corroborados son automáticos. Para un cambio real de SKU/variante, confirmar la ficha, actualizar el manifiesto y documentar la revisión. Una variante nueva requiere un identificador nuevo; no mezclar kits.
 
 Las fallas de permisos de Pages o de la rama de datos se resuelven en GitHub. Ante bloqueos del vendedor, revisar la fuente sin aumentar solicitudes ni eludir restricciones.
 
-Para aprobar un salto real conservando el mismo modelo y variante, agregar a ese modelo en el manifiesto un campo `price_review` con `day_art` (fecha argentina de la captura aprobada, formato AAAA-MM-DD) y `price_ars` (importe exacto con dos decimales, por ejemplo `"123456.20"`). La aprobación solo vale para ese importe y día; no relaja identidad, moneda, robots o precio visible. La observación queda marcada `jump_reviewed` y comienza una nueva referencia para detectar saltos posteriores. Después de capturar, retirar ese campo del manifiesto y conservar una nota de revisión en el commit.
+No se necesita `price_review` para cambios de precio. Se conservan las marcas históricas `jump_reviewed`, pero las nuevas verificaciones automáticas usan `jump_verified`. La comprobación de Pages exige el identificador temporal de esta ejecución y reintenta mientras se propaga la publicación. Una publicación inaccesible, vencida, incompleta o sin ningún producto capturado sigue marcando error.
 
 ## Verificación local
 
-Suite de observatorio: 48 pruebas ejecutadas, 47 aprobadas y una de PostgreSQL omitida por falta de instancia de prueba (este sistema no la necesita). Incluye identidad, precio principal/cuotas, redondeo DGM, agotado/cero, vigencia, fallas posteriores, robots, bloqueo HTTP, saltos anómalos y su aprobación acotada, idempotencia, historial durable, siete categorías, CSV y subruta de Pages. El contrato HTTP del sistema anterior está aislado del piloto nuevo.
+Suite de observatorio: 48 pruebas ejecutadas, 47 aprobadas y una de PostgreSQL omitida por falta de instancia de prueba (este sistema no la necesita). Incluye identidad, precio principal/cuotas, redondeo DGM, agotado/cero, vigencia, fallas posteriores, robots, bloqueo HTTP, saltos de precio corroborados automáticamente y rechazo de precios contradictorios, idempotencia, historial durable, siete categorías, CSV y subruta de Pages. El contrato HTTP del sistema anterior está aislado del piloto nuevo.
 
 Verificación adicional: las nueve rutas HTML devolvieron 200, los ocho CSV contienen las filas correspondientes y el sitemap incluye las siete categorías. Se ensayó guardar/recuperar el historial y avanzar su rama en repositorios temporales de Git. Búsqueda, orden por precio e historial comprobados en el navegador; vista de celular de 390 px sin desborde horizontal.
 
