@@ -40,7 +40,7 @@ Comparamos códigos argentinos exactos TC-MS 2112 y TC-SM 2131/2 Dual. La varian
 | Producto de la oferta | Qué confirmar | Precio y disponibilidad |
 | :--- | :--- | :--- |
 | Einhell TC-MS 2112 | Confirmá capacidad al ángulo previsto y disco adecuado al material. | [Ver precio →](https://meli.la/1SD2tF3) |
-| Einhell TC-SM 2131/2 Dual · 4300390 | Deslizante: 310 × 62 mm a 90°. Confirmá código y espacio de recorrido. | [Ver ficha del fabricante →](https://www.einhell.com.ar/p/4300390-tc-sm-2131-2-dual/) |
+| Einhell TC-SM 2131/2 Dual · 4300390 | Deslizante: 310 × 62 mm a 90°. Confirmá código y espacio de recorrido. | — |
 
 *Algunos enlaces son de afiliado: TallerLab puede recibir una comisión, sin costo adicional. Consultá precio, stock y condiciones de cada publicación.*
 

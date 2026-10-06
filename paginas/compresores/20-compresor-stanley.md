@@ -80,7 +80,7 @@ La presión máxima también debe superar la presión que necesita la herramient
 
 Una publicación comercial argentina identifica como **Stanley FCCC404STC005** un compresor lubricado de 24 L. Informa 2 HP, alimentación de 220/230 V y 50 Hz, presión máxima de 8 bar, 2.850 rpm y desplazamiento de 222 L/min. La publicación también presenta un peso de 23 kg. Estos datos son los declarados en la oferta consultada; antes de comprar, cotejá el código de la placa y el manual de la unidad concreta.
 
-El código FCCC404STC005 es la identificación de esa publicación local. Aunque algunas características coinciden con las del D210/8/24 del catálogo Stanley 2017, las fuentes consultadas no confirman que sean el mismo modelo o revisión. **No atribuyas al FCCC404STC005 el caudal restituido publicado para otros modelos.** [Ver la publicación argentina del Stanley FCCC404STC005 en Mercado Libre](https://articulo.mercadolibre.com.ar/MLA-1402979591-compresor-24lts-2hp-accesorios-stanley-prestigio-_JM).
+El código FCCC404STC005 es la identificación de esa publicación local. Aunque algunas características coinciden con las del D210/8/24 del catálogo Stanley 2017, las fuentes consultadas no confirman que sean el mismo modelo o revisión. **No atribuyas al FCCC404STC005 el caudal restituido publicado para otros modelos.**
 
 No encontramos la misma confirmación local para las variantes Stanley de 50 y 100 L incluidas en las fichas europeas.
 

@@ -1,5 +1,39 @@
 """Redacción pública sin notas administrativas de enlaces o tareas internas."""
 import re
+from html.parser import HTMLParser
+from urllib.parse import urlsplit
+
+
+def es_enlace_afiliado(url):
+    """Los enlaces de afiliado recibidos usan el dominio corto de Mercado Libre."""
+    try:
+        parsed = urlsplit(url)
+        return (parsed.scheme == 'https' and parsed.netloc.lower() == 'meli.la'
+                and re.fullmatch(r'/[A-Za-z0-9]+', parsed.path) is not None)
+    except ValueError:
+        return False
+
+
+class _AtributosEnlace(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.attrs = dict(attrs)
+
+
+def quitar_enlaces_compra_sin_afiliacion(html):
+    """Quita botones comerciales; conserva fuentes, manuales y navegación interna."""
+    def filtrar(match):
+        parser = _AtributosEnlace()
+        parser.feed(match.group(1))
+        attrs = getattr(parser, 'attrs', {})
+        href = attrs.get('href') or ''
+        clases = set((attrs.get('class') or '').split())
+        comercial = clases.intersection({'offer-button', 'buying-link', 'btn-mercado-libre', 'catalog-link'})
+        if comercial and href.startswith(('https://', 'http://', '//')) and not es_enlace_afiliado(href):
+            return ''
+        return match.group(0)
+    html = re.sub(r'(<a\b[^>]*>).*?</a\s*>', filtrar, html, flags=re.S | re.I)
+    return re.sub(r'<div\b[^>]*class="offer-actions"[^>]*>\s*</div>', '', html)
 
 REPLACEMENTS = {
     'Afiliación y correcciones': 'Correcciones',
@@ -30,6 +64,7 @@ REPLACEMENTS = {
 }
 
 def limpiar_contenido_publico(html):
+    html = quitar_enlaces_compra_sin_afiliacion(html)
     # Las tarjetas antiguas en Markdown también pueden incluir botones de fuente.
     html=re.sub(r'<a\b[^>]*class="[^"]*\boffer-source\b[^"]*"[^>]*>.*?</a>', '', html, flags=re.S)
     for before, after in REPLACEMENTS.items():
