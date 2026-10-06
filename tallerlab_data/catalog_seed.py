@@ -115,7 +115,7 @@ def seed_database() -> None:
             save_tool(tool)
 
     from tallerlab_data.storage import list_candidates
-    existing_candidates = {c['candidate_code'] for c in list_candidates()}
+    existing_candidates = {c['candidate_code'] for c in list_candidates(include_test=True)}
     for cand in PENDING_CANDIDATES:
         if cand['code'] in existing_candidates:
             continue

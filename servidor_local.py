@@ -47,6 +47,7 @@ from relevamiento_piloto import (
     render_metodologia_page,
     render_relevamiento_callout,
     render_relevamiento_page,
+    relevamiento_abierto,
     validar_y_procesar_formulario,
 )
 
@@ -1227,6 +1228,18 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
     elif (path in TALLERLAB_DATA_EDITORIAL_PATHS or path == "/herramientas/comparaciones/") and not tool_path_is_indexable(path):
         robots_meta = '<meta name="robots" content="noindex, follow">'
 
+    elif path == AUTHOR_PATH:
+        profile_page = {"@context": "https://schema.org", "@type": "ProfilePage",
+                        "url": absolute_url(AUTHOR_PATH),
+                        "mainEntity": {**author_schema(), "knowsAbout": [meta["name"] for meta in CATEGORY_META.values()]}}
+        perfil = author_profile()
+        if perfil["experiencia"] or perfil["formacion"]:
+            profile_page["mainEntity"]["description"] = " ".join(x for x in (perfil["experiencia"], perfil["formacion"]) if x)
+        tallerlab_schema = '<script type="application/ld+json">' + json.dumps(profile_page, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    elif path in RELEVAMIENTO_PATHS and not relevamiento_abierto():
+        # Mientras el relevamiento no recibe respuestas, su aviso no compite en buscadores.
+        robots_meta = '<meta name="robots" content="noindex, follow">'
+
     if robots:
         robots_meta = f'<meta name="robots" content="{escape(robots, quote=True)}">'
     return robots_meta + f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema + dataset_schema + tallerlab_schema + social + breadcrumb
@@ -1435,10 +1448,13 @@ def render_sitemap():
         comunidad_lastmod = community_sitemap_lastmod()
         comunidad_excluidas = community_sitemap_excluded()
     except Exception:
-        comunidad_lastmod, comunidad_excluidas = {}, set()
+        # Si no se puede confirmar que la portada sea indexable, no se declara (nunca sitemap + noindex).
+        comunidad_lastmod, comunidad_excluidas = {}, {'/comunidad/'}
     paths=tuple(dict.fromkeys(paths+tuple(comunidad_lastmod)))
     # La portada de la comunidad no va al sitemap mientras sea «noindex» (todavía sin páginas de modelo con contenido).
     paths=tuple(p for p in paths if p not in comunidad_excluidas)
+    if not relevamiento_abierto():
+        paths=tuple(p for p in paths if p not in RELEVAMIENTO_PATHS)
     alertas_lastmod = {**comunidad_lastmod, **alertas_lastmod}
     try:
         from compatibilidad.presentation import compatibility_lastmod
@@ -2311,14 +2327,12 @@ def render_search_cards():
 
 def render_editorial_page(kind):
     if kind in ("contacto", "privacidad"):
-        from paginas_institucionales import CONTACT, PRIVACY
+        from paginas_institucionales import PRIVACY, contact_markdown
         path = f"/{kind}/"
         title = "Contacto y correcciones" if kind == "contacto" else "Privacidad y datos"
         desc = "Consultas y correcciones de las guías documentales de TallerLab." if kind == "contacto" else "Registros de navegación, clics comerciales y servicios externos de TallerLab."
-        email = os.environ.get("CONTACT_EMAIL", "").strip()
-        email_link = f'<p>Consultas: <a href="mailto:{escape(email, quote=True)}">{escape(email)}</a>.</p>' if kind == "contacto" and re.fullmatch(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+", email) else ""
         breadcrumbs = f'<nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>{title}</span></nav>'
-        content = f'<article class="markdown-body">{breadcrumbs}<h1>{title}</h1>{email_link}{MARKDOWN.render(CONTACT if kind == "contacto" else PRIVACY)}</article>'
+        content = f'<article class="markdown-body">{breadcrumbs}<h1>{title}</h1>{MARKDOWN.render(contact_markdown() if kind == "contacto" else PRIVACY)}</article>'
         return HTML_SHELL.format(PAGE_TITLE=title, PAGE_DESC=desc, CANONICAL_TAG=canonical_tag(path), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
     members_html = ""
     if kind == "metodologia":

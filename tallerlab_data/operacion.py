@@ -101,7 +101,7 @@ def close_edition():
         tool.last_reviewed = date
         storage.save_tool(tool)
     with storage.get_connection() as conn:
-        for candidate in storage.list_candidates():
+        for candidate in storage.list_candidates(include_test=True):
             if candidate['status'] in {'pendiente', 'validado_para_revision'}:
                 reason = 'Excluido de esta edición: ' + candidate['rejection_or_pending_reason'].replace('Pendiente de verificación de lote físico importado en Argentina.', 'No se establece correspondencia documental con un lote argentino; el catálogo no realiza ensayos físicos.')
                 conn.execute('UPDATE candidates SET status=?, rejection_or_pending_reason=? WHERE id=?', ('excluido', reason, candidate['id']))
@@ -122,7 +122,7 @@ def verify():
                 issues.append(f'{tool.slug}:{spec.spec_key}: decisión documental ausente')
             if spec.documentary_status == 'concordancia_textual' and (not spec.evidence_reference or not spec.evidence_excerpt):
                 issues.append(f'{tool.slug}:{spec.spec_key}: falta evidencia')
-    if any(c['status'] == 'pendiente' for c in storage.list_candidates()):
+    if any(c['status'] == 'pendiente' for c in storage.list_candidates(include_test=True)):
         issues.append('Hay decisiones de incorporación sin cerrar')
     if any(o.verification_status == 'pendiente_relevamiento' for t in tools for o in t.offers):
         issues.append('Hay cotizaciones sin decisión editorial')

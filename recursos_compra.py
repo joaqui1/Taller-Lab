@@ -304,14 +304,8 @@ BUYING_NOTES.update({
         ["HL100-7 y 220 V–50 Hz en placa", "Manguera y accesorios del kit", "Manual, repuestos y garantía de esa unidad"],
         [("https://meli.la/1cZXqxL", "Consultar HL100-7")],
         ("/hidrolavadoras/comparativa-general/", "Contrastar otras eléctricas")),
-    "/taladros/inalambricos/": note(
-        "Ingco: compará el costo de empezar con el kit",
-        "Para quien busca una opción anunciada con percusión, dos baterías y cargador.",
-        "El contenido del kit cambia la compra frente a una herramienta sola; la tabla separa sus datos comerciales de las fichas Bosch, Einhell y Black+Decker.",
-        "CIDLI20668-4 sigue condicionado a identificar la variante y los packs. Los 66 Nm anunciados no demuestran superioridad frente a torques de otras fichas.",
-        ["CIDLI20668-4 en placa y caja", "Ah, código y cantidad de baterías", "Cargador, manual del sufijo -4 y garantía"],
-        [("https://meli.la/2xvJRJp", "Consultar kit Ingco CIDLI20668-4")],
-        ("/taladros/taladro-percutor-inalambrico/", "Revisar el percutor inalámbrico")),
+    # /taladros/inalambricos/: sin destacado comercial hasta verificar variante -4, Ah y
+    # contenido del kit Ingco (auditoría 2026-10-06). El ejemplo en el texto queda como referencia.
     "/taladros/percutores/": note(
         "Una opción percutora a batería para contrastar",
         "Para evaluar un kit con mandril convencional, después de decidir si necesitás percusión o SDS.",

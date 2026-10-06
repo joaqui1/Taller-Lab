@@ -198,9 +198,13 @@ def community_sitemap_lastmod():
 
 
 def community_sitemap_excluded():
-    """Rutas fijas de la comunidad que no deben ir al sitemap. Si la base no responde, no se excluye nada."""
+    """Rutas fijas de la comunidad que no deben ir al sitemap.
+
+    La portada solo se declara cuando se confirma que es indexable. Si la base no responde,
+    se omite: quitarla un rato del sitemap no la desindexa, pero declarar una página
+    «noindex» en el sitemap envía señales contradictorias."""
     overview = db.overview_or_none()
-    if overview is None or hub_indexable(overview):
+    if overview is not None and hub_indexable(overview):
         return set()
     return {'/comunidad/'}
 

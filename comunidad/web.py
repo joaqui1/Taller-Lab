@@ -94,6 +94,14 @@ def rate_key(prefix):
     return prefix + ':' + hmac.new(current_app.secret_key.encode(), identity.encode(), hashlib.sha256).hexdigest()
 
 
+def _contact_email():
+    try:
+        from paginas_institucionales import contact_email
+        return contact_email()
+    except Exception:
+        return ''
+
+
 def page(template, title, path, **context):
     from servidor_local import HTML_SHELL, LOGO_SRC, PORT, absolute_url
     from html import escape
@@ -105,14 +113,15 @@ def page(template, title, path, **context):
         opened=db.enabled(), readable=db.readable(), new_id=lambda: str(uuid.uuid4()),
         usages=db.USAGES, durations=db.DURATIONS, frequencies=db.FREQUENCIES,
         poll_options=db.POLL_OPTIONS, ratings=db.RATINGS, poll_min=cc.POLL_MIN,
-        notify_available=avisos.email_ready(), **context)
+        notify_available=avisos.email_ready(), contact_email=_contact_email(), **context)
     canonical = '<link rel="canonical" href="' + escape(absolute_url(path), quote=True) + '">'
     # Personalized pages and empty model discussions do not enter the index.
     if context.get('noindex') or request.query_string:
         canonical += '<meta name="robots" content="noindex, follow">'
     canonical += context.get('head_extra', '')
-    html = str(HTML_SHELL).format(PAGE_TITLE=escape(title), PAGE_DESC=escape(description, quote=True),
-        CANONICAL_TAG=canonical, PORT=PORT, CONTENT=body, LOGO_SRC=LOGO_SRC)
+    from contenido_publico import apply_community_nav
+    html = apply_community_nav(str(HTML_SHELL).format(PAGE_TITLE=escape(title), PAGE_DESC=escape(description, quote=True),
+        CANONICAL_TAG=canonical, PORT=PORT, CONTENT=body, LOGO_SRC=LOGO_SRC))
     response = Response(html, content_type='text/html; charset=utf-8', status=context.get('status', 200))
     if response.status_code == 503:
         # Una caída temporal nunca debe parecer una página sin contenido (evita desindexar).

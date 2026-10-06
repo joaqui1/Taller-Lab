@@ -82,9 +82,28 @@ def limpiar_contenido_publico(html):
     html=re.sub(r'<p\b[^>]*>\s*(?:<em>\s*</em>)?\s*</p>', '', html)
     return html
 
+COMMUNITY_NAV_LINK = '<a href="/comunidad/" class="nav-btn">Comunidad</a>'
+
+
+def community_open():
+    try:
+        from comunidad import storage
+        return bool(storage.enabled())
+    except Exception:
+        return False
+
+
+def apply_community_nav(html):
+    """La comunidad solo ocupa lugar en el menú principal cuando acepta participación;
+    mientras está cerrada sigue enlazada desde el pie de página."""
+    if community_open():
+        return html
+    return html.replace('\n        ' + COMMUNITY_NAV_LINK, '', 1)
+
+
 class PublicTemplate(str):
     def format(self, *args, **kwargs):
         for key in ('CONTENT','PAGE_DESC'):
             if isinstance(kwargs.get(key),str):
                 kwargs[key]=limpiar_contenido_publico(kwargs[key])
-        return super().format(*args,**kwargs)
+        return apply_community_nav(super().format(*args,**kwargs))

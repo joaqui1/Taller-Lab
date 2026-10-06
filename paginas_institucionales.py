@@ -1,21 +1,83 @@
 """Contenido de contacto y privacidad acorde al funcionamiento del sitio."""
-CONTACT = '''
-TallerLab es editado por [Joaquín Vallasciani](/autor/joaquin-vallasciani/). Podés reportar un dato incorrecto, una fuente que dejó de funcionar o una oferta cuyo modelo no coincide con la guía.
+import json
+import os
+import re
+from pathlib import Path
 
-## Enviar una corrección
+_EMAIL = re.compile(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+")
+
+
+def contact_email():
+    """Correo editorial que realmente recibe: CONTACT_EMAIL (entorno) o email_publico de perfil_autor.json."""
+    email = os.environ.get("CONTACT_EMAIL", "").strip()
+    if not _EMAIL.fullmatch(email):
+        try:
+            data = json.loads(Path(__file__).with_name("perfil_autor.json").read_text(encoding="utf-8"))
+            email = str(data.get("email_publico", "")).strip()
+        except (OSError, ValueError):
+            email = ""
+    return email if _EMAIL.fullmatch(email) else ""
+
+
+def private_mailbox_available():
+    """El buzón privado solo se anuncia si puede guardar mensajes (misma condición que su formulario)."""
+    try:
+        from comunidad import storage
+        return bool(storage.readable())
+    except Exception:
+        return False
+
+
+CONTACT_INTRO = '''
+TallerLab es editado por [Joaquín Vallasciani](/autor/joaquin-vallasciani/). Podés reportar un dato incorrecto, una fuente que dejó de funcionar o una oferta cuyo modelo no coincide con la guía.
+'''
+
+CONTACT_PUBLIC = '''
+## Enviar una corrección pública
 
 [Abrir un reporte en el repositorio de TallerLab](https://github.com/joaqui1/Taller-Lab/issues/new).
 
 Indicá la URL de la guía, el dato que querés corregir y, si la tenés, una ficha o manual del fabricante. GitHub requiere una cuenta y los reportes son públicos: no incluyas datos personales, comprobantes de compra ni información privada.
+'''
 
-## Comunidad y consultas privadas
-
-Para reportar un aporte, solicitar su retiro o enviar información que no querés publicar, usá el [buzón privado de comunidad](/comunidad/contacto/). Recibimos el correo y mensaje para atender esa solicitud; no te suscribe a comunicaciones. La atención es manual.
-
+CONTACT_SCOPE = '''
 ## Alcance de las consultas
 
 TallerLab publica investigación documental y no vende las herramientas enlazadas. Para envíos, pagos, devoluciones o garantías de una compra, contactá al vendedor o fabricante. Una guía no reemplaza el manual de la unidad ni una evaluación profesional de la instalación.
 '''
+
+
+def contact_markdown(email=None, mailbox=None):
+    """Arma Contacto solo con canales que funcionan hoy; nunca promete un buzón deshabilitado."""
+    email = contact_email() if email is None else email
+    mailbox = private_mailbox_available() if mailbox is None else mailbox
+    parts = [CONTACT_INTRO]
+    if email:
+        parts.append(f"""
+## Escribir al editor
+
+Para correcciones, consultas privadas, solicitudes de retiro o sobre tus datos: [{email}](mailto:{email}). La atención es manual; usamos tu correo solo para responder y no te suscribe a comunicaciones.
+""")
+    parts.append(CONTACT_PUBLIC)
+    if mailbox:
+        parts.append("""
+## Comunidad y consultas privadas
+
+Para reportar un aporte de la comunidad, solicitar su retiro o enviar información que no querés publicar, usá el [buzón privado de comunidad](/comunidad/contacto/). La atención es manual y no te suscribe a comunicaciones.
+""")
+    elif not email:
+        parts.append("""
+## Consultas privadas
+
+Por ahora no hay un canal privado habilitado. Si necesitás enviar información que no querés publicar, abrí un reporte sin datos personales indicando que preferís contacto privado y te indicaremos cómo seguir.
+""")
+    parts.append(CONTACT_SCOPE)
+    return "\n".join(p.strip("\n") + "\n" for p in parts)
+
+
+# Compatibilidad: texto estático con los canales disponibles al importar.
+CONTACT = contact_markdown(email="", mailbox=False)
+
 PRIVACY = '''
 TallerLab es un sitio de guías documentales editado por [Joaquín Vallasciani](/autor/joaquin-vallasciani/). Esta página describe el funcionamiento del sitio; no asegura que los servicios externos tengan la misma política.
 
@@ -29,7 +91,7 @@ El proveedor de alojamiento, Vercel, puede procesar datos técnicos de las solic
 
 Las experiencias, preguntas y respuestas se guardan para revisión antes de publicar el alias, el texto y el contexto de uso autorizado. Una cookie de sesión permite reconocer tus aportes desde ese navegador y retirarlos; no es una cuenta ni verifica identidad o compra. Los sondeos registran una elección por navegador y pueden reemplazarse. Se conserva un identificador derivado de la conexión para limitar envíos; no se guarda la dirección IP en esas tablas. El alojamiento puede mantener sus propios registros técnicos.
 
-Los borradores se guardan en el almacenamiento de sesión del navegador y pueden descartarse desde el formulario. El buzón privado recibe correo y mensaje para atención manual, y permite al editor borrarlos al dar la solicitud por atendida. Consultá los [criterios de publicación y datos de comunidad](/comunidad/criterios/) para conocer el alcance y solicitar el retiro cuando ya no conservás la sesión. Los motivos de moderación son privados.
+Los borradores se guardan en el almacenamiento de sesión del navegador y pueden descartarse desde el formulario. Cuando está habilitado, el buzón privado recibe correo y mensaje para atención manual, y permite al editor borrarlos al dar la solicitud por atendida. Consultá los [criterios de publicación y datos de comunidad](/comunidad/criterios/) para conocer el alcance y solicitar el retiro cuando ya no conservás la sesión. Los motivos de moderación son privados.
 
 ## Recursos y enlaces de terceros
 

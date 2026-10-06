@@ -464,16 +464,16 @@ TALADROS_TOOLS = [
         primary_use="Construcción, obra y carpintería",
         power_source="Batería 20 V Li-Ion",
         specs={
-            "torque_maximo": make_spec("torque_maximo", "Torque máximo", "66 Nm", "Nm", 66.0, "Nm", "Declarado en ficha del fabricante", "CIDLI20668-4", "Ficha técnica SuperTools Ingco", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
-            "capacidad_mandril": make_spec("capacidad_mandril", "Mandril metálico", "13 mm (1/2\")", "mm", 13.0, "mm", "Metálico autoajustable", "CIDLI20668-4", "Ficha técnica SuperTools Ingco", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
-            "velocidad_vacio": make_spec("velocidad_vacio", "Velocidad sin carga", "0–500 / 0–2.000 rpm", "rpm", 2000.0, "rpm", "2 velocidades", "CIDLI20668-4", "Ficha técnica SuperTools Ingco", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
+            "torque_maximo": make_spec("torque_maximo", "Torque máximo", "66 Nm", "Nm", 66.0, "Nm", "Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante", "CIDLI20668-4", "Comercio Super Tools Bangladesh (modelo base CIDLI20668)", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
+            "capacidad_mandril": make_spec("capacidad_mandril", "Mandril metálico", "13 mm (1/2\")", "mm", 13.0, "mm", "Metálico autoajustable · Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante", "CIDLI20668-4", "Comercio Super Tools Bangladesh (modelo base CIDLI20668)", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
+            "velocidad_vacio": make_spec("velocidad_vacio", "Velocidad sin carga", "0–500 / 0–2.000 rpm", "rpm", 2000.0, "rpm", "2 velocidades · Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante", "CIDLI20668-4", "Comercio Super Tools Bangladesh (modelo base CIDLI20668)", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
         },
         variants=[RegionalVariant("CIDLI20668-4", "Argentina", "20 V CC", "Ingco 20V", "Brushless")],
-        kits=[KitOption("CIDLI20668-4-KIT", "Kit con 2 baterías de 2.0Ah, cargador y juego de mechas/puntas", "2x 20V 2.0 Ah", "Cargador rápido 220V", ["2 baterías 2.0Ah", "Cargador", "Accesorios"])],
+        kits=[KitOption("CIDLI20668-4-KIT", "Kit anunciado con 2 baterías, cargador y accesorios; Ah y códigos de batería sin confirmar", "2 baterías 20 V anunciadas (Ah sin confirmar)", "Cargador anunciado (tensión sin confirmar)", ["2 baterías anunciadas", "Cargador", "Accesorios"])],
         commercial_offers=[CommercialOffer("Distribuidor Ingco", "Mercado Libre", "https://meli.la/2xvJRJp", 265000.0, "2026-10-01", "nuevo", "pendiente_relevamiento")],
         contradictions=[],
-        limits_and_warnings=["Sufijo -4 difiere del -3 en la electrónica del gatillo y configuración del cargador; no tratar como intercambiables."],
-        primary_sources=[{"label": "Ficha oficial Ingco CIDLI20668", "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"}],
+        limits_and_warnings=["Los datos provienen de un comercio que publica el modelo base CIDLI20668; no se confirmó la equivalencia con el sufijo -4 ni el contenido del kit."],
+        primary_sources=[{"label": "Comercio Super Tools Bangladesh · modelo base CIDLI20668 (no es ficha del fabricante)", "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"}],
         last_reviewed="2026-10-01"
     )
 ]

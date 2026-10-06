@@ -1,6 +1,7 @@
 """Capa de almacenamiento y persistencia para TallerLab Data."""
 
 import json
+import re
 import sqlite3
 import os
 import tempfile
@@ -475,12 +476,29 @@ class ItemRecord(dict):
         return ""
 
 
-def list_candidates(db_path: Optional[Path] = None) -> List[Any]:
+_TEST_NAME = re.compile(r'^\s*test[\s_-]*\d*\s*$', re.IGNORECASE)
+_TEST_BRANDS = {'modelo incompleto', 'test', 'prueba'}
+
+
+def is_test_candidate(candidate: Any) -> bool:
+    """Registros creados por suites de verificación: nunca deben publicarse."""
+    brand = str(candidate.get('brand', '') or '').strip().lower()
+    model = str(candidate.get('model_name', '') or '')
+    code = str(candidate.get('candidate_code', '') or '')
+    return (brand in _TEST_BRANDS or bool(_TEST_NAME.match(model))
+            or code.upper().startswith('TEST-'))
+
+
+def list_candidates(db_path: Optional[Path] = None, include_test: bool = False) -> List[Any]:
+    """Candidatos registrados. Por defecto excluye los registros de prueba
+    para que nunca lleguen al snapshot ni a la metodología pública."""
     conn = get_connection(db_path)
     cur = conn.cursor()
     cur.execute("SELECT * FROM candidates ORDER BY id ASC")
     rows = [ItemRecord(dict(r)) for r in cur.fetchall()]
     conn.close()
+    if not include_test:
+        rows = [r for r in rows if not is_test_candidate(r)]
     return rows
 
 

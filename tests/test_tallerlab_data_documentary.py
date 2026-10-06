@@ -59,7 +59,7 @@ class DocumentaryChecks(unittest.TestCase):
                 decision = resolve_candidate('TEST-CODE', 'excluir', 'Excluido: documento sin código de producto')
                 self.assertEqual(decision['status'], 'excluido')
                 self.assertFalse(decision['accepted'])
-                self.assertEqual(next(c['status'] for c in storage.list_candidates() if c['candidate_code'] == 'TEST-CODE'), 'excluido')
+                self.assertEqual(next(c['status'] for c in storage.list_candidates(include_test=True) if c['candidate_code'] == 'TEST-CODE'), 'excluido')
 
 
 if __name__ == '__main__':

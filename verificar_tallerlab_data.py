@@ -97,7 +97,7 @@ def test_database_integrity():
 
 def test_candidates_and_corrections():
     print("-> Verificando decisiones documentales y registro de correcciones...")
-    candidates = list_candidates()
+    candidates = list_candidates(include_test=True)
     assert len(candidates) >= 7, f"Se esperaban al menos 7 candidatos en cuarentena, hay {len(candidates)}"
     for c in candidates:
         assert c['status'] in {'aceptado', 'excluido'}, f"Decisión sin cerrar: {c['candidate_code']}"

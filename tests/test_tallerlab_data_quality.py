@@ -112,7 +112,7 @@ class TestQuality(unittest.TestCase):
         self.assertFalse(result['accepted'])
         self.assertEqual(result['status'], 'validado_para_revision')
         self.assertIsNone(storage.get_tool('review-only'))
-        self.assertTrue(any(row['candidate_code']=='TEST-Q' for row in storage.list_candidates()))
+        self.assertTrue(any(row['candidate_code']=='TEST-Q' for row in storage.list_candidates(include_test=True)))
         payload['primary_sources'] = [{'url':'not-a-url'}]
         self.assertEqual(process_candidate_ingestion(payload)['status'], 'aislado_en_staging')
 

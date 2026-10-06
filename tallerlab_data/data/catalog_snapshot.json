@@ -14710,11 +14710,11 @@
           "raw_unit": "Nm",
           "normalized_value": 66.0,
           "normalized_unit": "Nm",
-          "condition": "Declarado en ficha del fabricante",
+          "condition": "Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante",
           "applicable_variant": "CIDLI20668-4",
           "applicable_market": "Argentina · 220 V 50 Hz",
           "source_type": "comercio",
-          "source_name": "Ficha técnica SuperTools Ingco",
+          "source_name": "Comercio Super Tools Bangladesh (modelo base CIDLI20668)",
           "source_url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/",
           "document_page": null,
           "consultation_date": "2026-10-01",
@@ -14732,11 +14732,11 @@
           "raw_unit": "mm",
           "normalized_value": null,
           "normalized_unit": "mm",
-          "condition": "Metálico autoajustable",
+          "condition": "Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante",
           "applicable_variant": "CIDLI20668-4",
           "applicable_market": "Argentina · 220 V 50 Hz",
           "source_type": "comercio",
-          "source_name": "Ficha técnica SuperTools Ingco",
+          "source_name": "Comercio Super Tools Bangladesh (modelo base CIDLI20668)",
           "source_url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/",
           "document_page": null,
           "consultation_date": "2026-10-01",
@@ -14754,11 +14754,11 @@
           "raw_unit": "rpm",
           "normalized_value": null,
           "normalized_unit": "rpm",
-          "condition": "2 velocidades",
+          "condition": "Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante",
           "applicable_variant": "CIDLI20668-4",
           "applicable_market": "Argentina · 220 V 50 Hz",
           "source_type": "comercio",
-          "source_name": "Ficha técnica SuperTools Ingco",
+          "source_name": "Comercio Super Tools Bangladesh (modelo base CIDLI20668)",
           "source_url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/",
           "document_page": null,
           "consultation_date": "2026-10-01",
@@ -14782,11 +14782,11 @@
       "kits": [
         {
           "kit_code": "CIDLI20668-4-KIT",
-          "description": "Kit con 2 baterías de 2.0Ah, cargador y juego de mechas/puntas",
-          "battery_included": "2x 20V 2.0 Ah",
-          "charger_included": "Cargador rápido 220V",
+          "description": "Kit anunciado con 2 baterías, cargador y accesorios; Ah y códigos de batería sin confirmar",
+          "battery_included": "2 baterías 20 V anunciadas (Ah sin confirmar)",
+          "charger_included": "Cargador anunciado (tensión sin confirmar)",
           "accessories": [
-            "2 baterías 2.0Ah",
+            "2 baterías anunciadas",
             "Cargador",
             "Accesorios"
           ]
@@ -14816,7 +14816,7 @@
       ],
       "primary_sources": [
         {
-          "label": "Ficha oficial Ingco CIDLI20668",
+          "label": "Comercio Super Tools Bangladesh · modelo base CIDLI20668 (no es ficha del fabricante)",
           "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"
         }
       ],
@@ -16000,105 +16000,6 @@
       "rejection_or_pending_reason": "Excluido de esta edición: La ficha B2 no desglosa acero dulce vs inoxidable en el espesor de 6 mm en metal. Pendiente confirmación de garantía de lote argentino.",
       "created_at": "2026-10-03 19:04:17",
       "status": "excluido"
-    },
-    {
-      "id": 8,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:33:28",
-      "status": "excluido"
-    },
-    {
-      "id": 9,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:33:47",
-      "status": "excluido"
-    },
-    {
-      "id": 10,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:34:08",
-      "status": "excluido"
-    },
-    {
-      "id": 11,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:34:30",
-      "status": "excluido"
-    },
-    {
-      "id": 12,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:34:46",
-      "status": "excluido"
-    },
-    {
-      "id": 13,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:35:08",
-      "status": "excluido"
-    },
-    {
-      "id": 14,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:35:31",
-      "status": "excluido"
-    },
-    {
-      "id": 15,
-      "candidate_code": "SIN-CODIGO",
-      "brand": "Modelo Incompleto",
-      "model_name": "Test100",
-      "category": "compresores",
-      "raw_payload_json": "{\"brand\": \"Modelo Incompleto\", \"commercial_name\": \"Test100\", \"category\": \"compresores\", \"mpn\": \"\", \"voltage\": \"110 V / 60 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Falta código de fabricante o MPN oficial; Frecuencia '110 V / 60 Hz' incompatible con la red eléctrica argentina (50 Hz requeridos); Debe incluir al menos una fuente primaria oficial (manual o ficha oficial); Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 19:35:51",
-      "status": "excluido"
-    },
-    {
-      "id": 16,
-      "candidate_code": "Test",
-      "brand": "Test",
-      "model_name": "Test",
-      "category": "taladros",
-      "raw_payload_json": "{\"brand\": \"Test\", \"commercial_name\": \"Test\", \"mpn\": \"Test\", \"category\": \"taladros\", \"primary_sources\": [{\"url\": \"https://example.com\"}], \"specs\": {}, \"slug\": \"audit-nonexistent\", \"voltage\": \"220 V / 50 Hz\"}",
-      "rejection_or_pending_reason": "Excluido de esta edición: Debe incluir especificaciones técnicas comprobables (mínimo 2 parámetros)",
-      "created_at": "2026-10-03 23:51:26",
-      "status": "excluido"
     }
   ],
   "corrections": [
@@ -16413,5 +16314,5 @@
       "source": "Manual Gamma G2802AR pág. 2 y web oficial gammaherramientas.com.ar"
     }
   ],
-  "version": "e6a271efa387a05154ee51b275c6cdd852b539d4a4275914fead3ef2ae4d26d3"
+  "version": "daf8d15eaae36cbd1314d77a0632d321dd112a39af02a12ac90be2a60bbfe4bb"
 }

@@ -319,7 +319,7 @@ def resolve_candidate(candidate_code: str, decision: str, editorial_note: str, r
     from tallerlab_data import storage
     if decision not in {'aceptar', 'excluir'} or not editorial_note.strip():
         raise ValueError('Indicar aceptar/excluir y justificar la decisión documental')
-    matches = [c for c in storage.list_candidates() if c['candidate_code'] == candidate_code]
+    matches = [c for c in storage.list_candidates(include_test=True) if c['candidate_code'] == candidate_code]
     if not matches:
         raise ValueError('Candidato inexistente')
     if decision == 'aceptar':
