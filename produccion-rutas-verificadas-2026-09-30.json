@@ -1,11 +1,8 @@
 {
-  "routes": 190,
+  "routes": 369,
   "articles": 179,
-  "assets": 10,
-  "external_images": [
-    "https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_qid1e9h9vd42rb1sou1jcfh14q/-FJPG-FWEBP-B800",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_813264-MLA110043387697_042026-O.webp"
-  ],
+  "assets": 282,
+  "external_images": [],
   "pages": [
     {
       "path": "/",
@@ -21,7 +18,7 @@
       "path": "/como-trabajamos/",
       "status": 200,
       "title": "Cómo trabajamos · TallerLab",
-      "description": "Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab.",
+      "description": "Fuentes, variables de comparación, precios, opiniones y revisión documental de TallerLab.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
@@ -59,30 +56,1965 @@
       ]
     },
     {
-      "path": "/hidrolavadoras/",
+      "path": "/relevamiento-2027/",
       "status": 200,
-      "title": "Hidrolavadoras: guías, marcas y comparativas",
-      "description": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+      "title": "Relevamiento TallerLab 2027: herramientas y oficios en Argentina · TallerLab",
+      "description": "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
       ]
     },
     {
-      "path": "/sierras/",
+      "path": "/relevamiento-2027/metodologia/",
       "status": 200,
-      "title": "Sierras: tipos y cómo elegir según el trabajo · TallerLab",
-      "description": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
+      "title": "Borrador de Metodología: Relevamiento TallerLab 2027 · TallerLab",
+      "description": "Diseño de investigación, reclutamiento voluntario, controles de calidad y límites estadísticos del estudio.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
       ]
     },
     {
-      "path": "/taladros/",
+      "path": "/alertas/",
       "status": 200,
-      "title": "Taladros y atornilladores · TallerLab",
-      "description": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
+      "title": "Documentación y alertas de herramientas en Argentina | TallerLab · TallerLab",
+      "description": "Expedientes técnicos por modelo: manuales oficiales, despieces, soporte en Argentina y alertas de seguridad con alcance delimitado.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/alertas/dewalt-dw8307/",
+      "status": 200,
+      "title": "DeWalt DW8307 — Documentación y alertas de seguridad | TallerLab · TallerLab",
+      "description": "Expediente técnico de DeWalt DW8307: variantes identificadas, manuales oficiales, garantía en Argentina y alertas regulatorias.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "TechArticle"
+      ]
+    },
+    {
+      "path": "/alertas/dewalt-dws713/",
+      "status": 200,
+      "title": "DeWalt DWS713 — Documentación y alertas de seguridad | TallerLab · TallerLab",
+      "description": "Expediente técnico de DeWalt DWS713: variantes identificadas, manuales oficiales, garantía en Argentina y alertas regulatorias.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "TechArticle"
+      ]
+    },
+    {
+      "path": "/alertas/dewalt-dws780/",
+      "status": 200,
+      "title": "DeWalt DWS780 — Documentación y alertas de seguridad | TallerLab · TallerLab",
+      "description": "Expediente técnico de DeWalt DWS780: variantes identificadas, manuales oficiales, garantía en Argentina y alertas regulatorias.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "TechArticle"
+      ]
+    },
+    {
+      "path": "/alertas/makita-dgp180/",
+      "status": 200,
+      "title": "Makita DGP180 — Documentación y alertas de seguridad | TallerLab · TallerLab",
+      "description": "Expediente técnico de Makita DGP180: variantes identificadas, manuales oficiales, garantía en Argentina y alertas regulatorias.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "TechArticle"
+      ]
+    },
+    {
+      "path": "/compatibilidad/",
+      "status": 200,
+      "title": "Base argentina de compatibilidad de baterías y cargadores · TallerLab",
+      "description": "Verificación documental técnica de baterías, cargadores y herramientas en Argentina. Reglas de plataforma, excepciones y fuentes oficiales.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Dataset"
+      ]
+    },
+    {
+      "path": "/compatibilidad/matriz-imprimible/",
+      "status": 200,
+      "title": "Matriz imprimible de compatibilidad de baterías · TallerLab",
+      "description": "Tabla de referencia técnica para taller sobre plataformas inalámbricas de 18V y 20V MAX en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/compatibilidad/metodologia/",
+      "status": 200,
+      "title": "Metodología de compatibilidad y canal de correcciones · TallerLab",
+      "description": "Criterios de validación documental, escala de 5 veredictos, proceso de mantenimiento y canal de reporte de discrepancias.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Dataset"
+      ]
+    },
+    {
+      "path": "/plataformas/bosch-professional-18v/",
+      "status": 200,
+      "title": "Bosch Professional 18V System · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Bosch Professional 18V System en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/einhell-power-x-change/",
+      "status": 200,
+      "title": "Einhell Power X-Change · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Einhell Power X-Change en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/dewalt-20v-max/",
+      "status": 200,
+      "title": "DeWalt 20V MAX · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para DeWalt 20V MAX en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/makita-lxt/",
+      "status": 200,
+      "title": "Makita LXT 18V · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Makita LXT 18V en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/gamma-multi-energy/",
+      "status": 200,
+      "title": "Gamma Multi Energy · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Gamma Multi Energy en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/dewalt-12v-max/",
+      "status": 200,
+      "title": "DeWalt 12V MAX · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para DeWalt 12V MAX en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/gamma-21v/",
+      "status": 200,
+      "title": "Gamma 21 Vcc (Línea Independiente) · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Gamma 21 Vcc (Línea Independiente) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/bosch-power-for-all-18v/",
+      "status": 200,
+      "title": "Bosch POWER FOR ALL 18V · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Bosch POWER FOR ALL 18V en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/makita-xgt/",
+      "status": 200,
+      "title": "Makita XGT 40V max · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para Makita XGT 40V max en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/plataformas/dewalt-60v-max/",
+      "status": 200,
+      "title": "DeWalt 60V MAX (FLEXVOLT Dedicado) · Compatibilidad en Argentina · TallerLab",
+      "description": "Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para DeWalt 60V MAX (FLEXVOLT Dedicado) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-procore18v-4-0ah-1600a016gb/",
+      "status": 200,
+      "title": "Bosch ProCORE18V 4.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch ProCORE18V 4.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-procore18v-8-0ah-1600a016gk/",
+      "status": 200,
+      "title": "Bosch ProCORE18V 8.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch ProCORE18V 8.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-gba-18v-2-0ah-1600z00036/",
+      "status": 200,
+      "title": "Bosch GBA 18V 2.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch GBA 18V 2.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-gba-18v-4-0ah-1600z00038/",
+      "status": 200,
+      "title": "Bosch GBA 18V 4.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch GBA 18V 4.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-gba-18v-5-0ah-1600a002u5/",
+      "status": 200,
+      "title": "Bosch GBA 18V 5.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch GBA 18V 5.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-2-0ah-4511513/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 2.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 2.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-2-5ah-4511516/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 2.5Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 2.5Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-3-0ah-plus-4511501/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 3.0Ah Plus · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 3.0Ah Plus en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-4-0ah-4511396/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 4.0Ah · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 4.0Ah en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-5-2ah-plus-4511437/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 5.2Ah Plus · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 5.2Ah Plus en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/einhell-pxc-18v-4-6ah-multi-ah-4511502/",
+      "status": 200,
+      "title": "Einhell Power X-Change 18V 4-6Ah Multi-Ah Plus · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Einhell Power X-Change 18V 4-6Ah Multi-Ah Plus en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb203-20v-max-2-0ah/",
+      "status": 200,
+      "title": "DeWalt DCB203 (20V MAX 2.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB203 (20V MAX 2.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb204-20v-max-4-0ah/",
+      "status": 200,
+      "title": "DeWalt DCB204 (20V MAX 4.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB204 (20V MAX 4.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb205-20v-max-5-0ah/",
+      "status": 200,
+      "title": "DeWalt DCB205 (20V MAX 5.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB205 (20V MAX 5.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcbp034-powerstack-1-7ah/",
+      "status": 200,
+      "title": "DeWalt DCBP034 (POWERSTACK 20V 1.7Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCBP034 (POWERSTACK 20V 1.7Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcbp520-powerstack-5-0ah/",
+      "status": 200,
+      "title": "DeWalt DCBP520 (POWERSTACK 20V 5.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCBP520 (POWERSTACK 20V 5.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb606-flexvolt-6-0ah/",
+      "status": 200,
+      "title": "DeWalt DCB606 (FLEXVOLT 20V/60V MAX 6.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB606 (FLEXVOLT 20V/60V MAX 6.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb609-flexvolt-9-0ah/",
+      "status": 200,
+      "title": "DeWalt DCB609 (FLEXVOLT 20V/60V MAX 9.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB609 (FLEXVOLT 20V/60V MAX 9.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl1815n-18v-lxt-1-5ah/",
+      "status": 200,
+      "title": "Makita BL1815N (18V LXT 1.5Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL1815N (18V LXT 1.5Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl1830b-18v-lxt-3-0ah/",
+      "status": 200,
+      "title": "Makita BL1830B (18V LXT 3.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL1830B (18V LXT 3.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl1840b-18v-lxt-4-0ah/",
+      "status": 200,
+      "title": "Makita BL1840B (18V LXT 4.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL1840B (18V LXT 4.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl1850b-18v-lxt-5-0ah/",
+      "status": 200,
+      "title": "Makita BL1850B (18V LXT 5.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL1850B (18V LXT 5.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl1860b-18v-lxt-6-0ah/",
+      "status": 200,
+      "title": "Makita BL1860B (18V LXT 6.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL1860B (18V LXT 6.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl4025-40v-max-xgt-2-5ah/",
+      "status": 200,
+      "title": "Makita BL4025 (40V max XGT 2.5Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL4025 (40V max XGT 2.5Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/makita-bl4040-40v-max-xgt-4-0ah/",
+      "status": 200,
+      "title": "Makita BL4040 (40V max XGT 4.0Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Makita BL4040 (40V max XGT 4.0Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/gamma-g12490ar-bateria-multi-energy-2-0ah/",
+      "status": 200,
+      "title": "Gamma G12490AR (Multi Energy 2.0 Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Gamma G12490AR (Multi Energy 2.0 Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/gamma-g12491ar-bateria-multi-energy-4-0ah/",
+      "status": 200,
+      "title": "Gamma G12491AR (Multi Energy 4.0 Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Gamma G12491AR (Multi Energy 4.0 Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/bosch-pba-18v-2-5ah-power-for-all/",
+      "status": 200,
+      "title": "Bosch (Home & Garden) PBA 18V 2.5Ah W-B (POWER FOR ALL) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería Bosch (Home & Garden) PBA 18V 2.5Ah W-B (POWER FOR ALL) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/baterias/dewalt-dcb120-b2-12v-max/",
+      "status": 200,
+      "title": "DeWalt DCB120-B2 (12V MAX 1.5Ah) · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica, especificaciones y herramientas compatibles con la batería DeWalt DCB120-B2 (12V MAX 1.5Ah) en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/bosch-gal-18v-40-1600a019rj/",
+      "status": 200,
+      "title": "Bosch GAL 18V-40 · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Bosch GAL 18V-40 en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/bosch-gal-1880-cv-1600a00b8g/",
+      "status": 200,
+      "title": "Bosch GAL 1880 CV · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Bosch GAL 1880 CV en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/bosch-gax-18v-30-1600a00nx2/",
+      "status": 200,
+      "title": "Bosch GAX 18V-30 · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Bosch GAX 18V-30 en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/einhell-power-x-charger-3a-4512011/",
+      "status": 200,
+      "title": "Einhell Power X-Charger 3A · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Einhell Power X-Charger 3A en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/einhell-power-x-fastcharger-4a-4512103/",
+      "status": 200,
+      "title": "Einhell Power X-Fastcharger 4A · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Einhell Power X-Fastcharger 4A en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/einhell-power-x-twincharger-3a-4512069/",
+      "status": 200,
+      "title": "Einhell Power X-Twincharger 3A · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Einhell Power X-Twincharger 3A en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/einhell-power-x-boostcharger-6a-4512064/",
+      "status": 200,
+      "title": "Einhell Power X-Boostcharger 6A · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Einhell Power X-Boostcharger 6A en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/dewalt-dcb115-ar-220v-4a/",
+      "status": 200,
+      "title": "DeWalt DCB115-AR · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador DeWalt DCB115-AR en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/dewalt-dcb1106-ar-220v-6a/",
+      "status": 200,
+      "title": "DeWalt DCB1106-AR · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador DeWalt DCB1106-AR en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/dewalt-dcb118-flexvolt-8a/",
+      "status": 200,
+      "title": "DeWalt DCB118 Fast Charger · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador DeWalt DCB118 Fast Charger en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/dewalt-dcb107-ar-220v-1-25a/",
+      "status": 200,
+      "title": "DeWalt DCB107-AR · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador DeWalt DCB107-AR en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/makita-dc18rc-cargador-rapido-220v/",
+      "status": 200,
+      "title": "Makita DC18RC Cargador Rápido · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Makita DC18RC Cargador Rápido en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/makita-dc18rd-cargador-doble-220v/",
+      "status": 200,
+      "title": "Makita DC18RD Cargador Doble · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Makita DC18RD Cargador Doble en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/makita-dc18sd-cargador-estandar-220v/",
+      "status": 200,
+      "title": "Makita DC18SD Cargador Estándar · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Makita DC18SD Cargador Estándar en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/makita-dc40ra-cargador-xgt-40v/",
+      "status": 200,
+      "title": "Makita DC40RA Cargador Rápido XGT · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Makita DC40RA Cargador Rápido XGT en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/makita-adp10-adaptador-carga-lxt-a-xgt/",
+      "status": 200,
+      "title": "Makita ADP10 Adaptador de Carga LXT para Cargador XGT · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Makita ADP10 Adaptador de Carga LXT para Cargador XGT en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/gamma-g12492ar-cargador-multi-energy-220v/",
+      "status": 200,
+      "title": "Gamma G12492AR Cargador Multi Energy · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Gamma G12492AR Cargador Multi Energy en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/cargadores/gamma-g12493ar-cargador-rapido-multi-energy-220v/",
+      "status": 200,
+      "title": "Gamma G12493AR Cargador Rápido Multi Energy · Compatibilidad y ficha técnica · TallerLab",
+      "description": "Ficha técnica y baterías admitidas por el cargador Gamma G12493AR Cargador Rápido Multi Energy en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList",
+        "Product"
+      ]
+    },
+    {
+      "path": "/herramientas/",
+      "status": 200,
+      "title": "Base de Datos Técnica de Herramientas en Argentina · TallerLab",
+      "description": "Fichas técnicas normalizadas, condiciones de medición, variantes regionales de 220V 50Hz y comparador documental de herramientas en Argentina.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/",
+      "status": 200,
+      "title": "Comparador Técnico de Herramientas en Argentina · TallerLab",
+      "description": "Compará especificaciones técnicas de herramientas en Argentina lado a lado, con alertas de condiciones de medición no comparables.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparaciones/",
+      "status": 200,
+      "title": "Comparativas Técnicas de Herramientas Documentadas · TallerLab",
+      "description": "Análisis técnicos profundos y contrastados entre modelos populares de herramientas disponibles en el mercado argentino.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/metodologia/",
+      "status": 200,
+      "title": "Metodología Técnica de TallerLab Data · TallerLab",
+      "description": "Criterios de extracción documental, jerarquía de fuentes primarias, estados de especificación y política de exclusión de datos.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/correcciones/",
+      "status": 200,
+      "title": "Registro Público de Correcciones Técnicas · TallerLab",
+      "description": "Historial cronológico de rectificaciones, actualizaciones de manuales y ajustes documentales en la base de datos TallerLab Data.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/investigacion/brecha-especificaciones-argentina/",
+      "status": 200,
+      "title": "La Brecha de Comparabilidad en Herramientas en Argentina · TallerLab",
+      "description": "Estudio documental sobre 100 modelos: omisión de caudal efectivo (FAD), presiones de alivio engañosas y contradicciones de catálogo.",
+      "schemas": [
+        "Organization",
+        "Dataset",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/lusqtoff-lc2550b-vs-gamma-g2802ar/",
+      "status": 200,
+      "title": "Lüsqtoff LC2550B-8 vs Gamma G2802AR: comparativa de 50 litros — Comparativa Técnica Documentada · TallerLab",
+      "description": "Comparativa técnica entre los dos compresores de 50 litros más populares de Argentina: potencia documentada, discrepancias de catálogo y caudal.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/einhell-te-ac-270-50-vs-lusqtoff-lc2550b/",
+      "status": 200,
+      "title": "Einhell TE-AC 270/50 Silent vs Lüsqtoff LC2550B-8: silencioso o tradicional — Comparativa Técnica Documentada · TallerLab",
+      "description": "Comparativa entre un compresor libre de aceite de bajo nivel sonoro (70 dB(A) LpA) con entrega calibrada (Einhell) y un equipo tradicional lubricado de 2,5 HP (Lüsqtoff).",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/karcher-k4-vs-bosch-ghp-220/",
+      "status": 200,
+      "title": "Kärcher K4 Power Control vs Bosch GHP 220: comparativa de hidrolavadoras — Comparativa Técnica Documentada · TallerLab",
+      "description": "Contraste técnico entre la hidrolavadora residencial de inducción Kärcher K4 y la máquina profesional compacta Bosch GHP 220.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/dewalt-dch273-vs-bosch-gbh-180-li/",
+      "status": 200,
+      "title": "DeWalt DCH273 vs Bosch GBH 180-LI: rotomartillos SDS Plus a batería — Comparativa Técnica Documentada · TallerLab",
+      "description": "Comparativa de rotomartillos inalámbricos SDS Plus de 18V y 20V: energía de impacto, amortiguación y costo por perforación.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/esab-handyarc-162i-vs-lusqtoff-sml120-8dk/",
+      "status": 200,
+      "title": "ESAB HandyArc 162i vs Lüsqtoff SML120-8DK: electrodo o alambre flux — Comparativa Técnica Documentada · TallerLab",
+      "description": "Comparación técnica entre una inverter MMA para electrodos de 3,25 mm y una máquina multiproceso con alambre tubular flux.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comparar/honda-eu22i-vs-gamma-inverter-2kw/",
+      "status": 200,
+      "title": "Honda EU22i vs Gamma Inverter 2 kW: generadores inverter portátiles — Comparativa Técnica Documentada · TallerLab",
+      "description": "Comparativa entre el estándar industrial Honda EU22i y la alternativa nacional Gamma Inverter de 2 kW.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gws-25-180-lvi-r/",
+      "status": 200,
+      "title": "Bosch GWS 25-180 LVI R (180 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GWS 25-180 LVI R (180 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gws-25-230/",
+      "status": 200,
+      "title": "Bosch GWS 25-230 Professional (230 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GWS 25-230 Professional (230 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gws-770/",
+      "status": 200,
+      "title": "Bosch GWS 770 Professional (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GWS 770 Professional (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gws-850/",
+      "status": 200,
+      "title": "Bosch GWS 850 Professional (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GWS 850 Professional (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gws-9-115-s/",
+      "status": 200,
+      "title": "Bosch GWS 9-115 S Velocidad Variable: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GWS 9-115 S Velocidad Variable: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dcg412/",
+      "status": 200,
+      "title": "DeWalt DeWalt DCG412B Inalámbrica 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DCG412B Inalámbrica 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dwe4010/",
+      "status": 200,
+      "title": "DeWalt DeWalt DWE4010 (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DWE4010 (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dwe4120/",
+      "status": 200,
+      "title": "DeWalt DeWalt DWE4120 Paleta (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DWE4120 Paleta (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dowen-pagio-9993220-7/",
+      "status": 200,
+      "title": "Dowen Pagio Dowen Pagio 9993220.7 (900W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Dowen Pagio Dowen Pagio 9993220.7 (900W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-g1910kar/",
+      "status": 200,
+      "title": "Gamma Gamma G1910KAR (750W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma Gamma G1910KAR (750W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-ga4530/",
+      "status": 200,
+      "title": "Makita Makita GA4530 (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita GA4530 (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-gb801/",
+      "status": 200,
+      "title": "Makita Makita GB801 de Banco (205 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita GB801 de Banco (205 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-m0901/",
+      "status": 200,
+      "title": "Makita Makita MT M0901B (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita MT M0901B (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/skil-9002ar/",
+      "status": 200,
+      "title": "Skil Skil 9002AR (115 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Skil Skil 9002AR (115 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stanley-sg7115/",
+      "status": 200,
+      "title": "Stanley Stanley SG7115 Small Angle (750W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Stanley Stanley SG7115 Small Angle (750W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bta-24-oilfree/",
+      "status": 200,
+      "title": "BTA BTA 24 Litros Oil-Free Silent: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de BTA BTA 24 Litros Oil-Free Silent: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bta-25-litros/",
+      "status": 200,
+      "title": "BTA BTA 25 Litros Monofásico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de BTA BTA 25 Litros Monofásico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bta-50-litros/",
+      "status": 200,
+      "title": "BTA BTA 50 Litros Monofásico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de BTA BTA 50 Litros Monofásico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-pressito-18-21/",
+      "status": 200,
+      "title": "Einhell Pressito 18/21 Inalámbrico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell Pressito 18/21 Inalámbrico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-pressito-18-25/",
+      "status": 200,
+      "title": "Einhell Pressito 18/25 Inalámbrico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell Pressito 18/25 Inalámbrico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-te-ac-270-50-silent/",
+      "status": 200,
+      "title": "Einhell TE-AC 270/50 Silent: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell TE-AC 270/50 Silent: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-te-ac-430-90-10/",
+      "status": 200,
+      "title": "Einhell TE-AC 430/90/10 a Correa (90L): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell TE-AC 430/90/10 a Correa (90L): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-th-ac-240-24/",
+      "status": 200,
+      "title": "Einhell TH-AC 240/24 /1 OF: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell TH-AC 240/24 /1 OF: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/fengda-as-186/",
+      "status": 200,
+      "title": "Fengda AS-186 para Aerógrafo: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Fengda AS-186 para Aerógrafo: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gadnic-av37/",
+      "status": 200,
+      "title": "Gadnic Gadnic AV37 Doble Pistón (12V): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gadnic Gadnic AV37 Doble Pistón (12V): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-g2801ar/",
+      "status": 200,
+      "title": "Gamma G2801AR (24 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma G2801AR (24 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-g2802ar/",
+      "status": 200,
+      "title": "Gamma G2802AR (50 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma G2802AR (50 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc0122/",
+      "status": 200,
+      "title": "Lüsqtoff LC-0122 (24 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC-0122 (24 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc2550vs/",
+      "status": 200,
+      "title": "Lüsqtoff LC-2550VS (50L Vertical): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC-2550VS (50L Vertical): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc30100/",
+      "status": 200,
+      "title": "Lüsqtoff LC-30100 a Correa (100 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC-30100 a Correa (100 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc3550bk/",
+      "status": 200,
+      "title": "Lüsqtoff LC-3550BK Bicilíndrico (50L): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC-3550BK Bicilíndrico (50L): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc2024b/",
+      "status": 200,
+      "title": "Lüsqtoff LC2024B (24 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC2024B (24 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc2550b-8/",
+      "status": 200,
+      "title": "Lüsqtoff LC2550B-8 (50 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC2550B-8 (50 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc30200-8/",
+      "status": 200,
+      "title": "Lüsqtoff LC30200-8 Monofásico (200 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC30200-8 Monofásico (200 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc40100-8/",
+      "status": 200,
+      "title": "Lüsqtoff LC40100-8 Directo (100 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC40100-8 Directo (100 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lc40200-8/",
+      "status": 200,
+      "title": "Lüsqtoff LC40200-8 Trifásico (200 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LC40200-8 Trifásico (200 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lcs100-8/",
+      "status": 200,
+      "title": "Lüsqtoff LCS100-8 Silent (100 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LCS100-8 Silent (100 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lcs50-8/",
+      "status": 200,
+      "title": "Lüsqtoff LCS50-8 Silent (50 Litros): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff LCS50-8 Silent (50 Litros): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-mcl150-8/",
+      "status": 200,
+      "title": "Lüsqtoff MCL150-8 Digital (12V): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff MCL150-8 Digital (12V): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-dmp180/",
+      "status": 200,
+      "title": "Makita DMP180 Inalámbrico 18V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita DMP180 Inalámbrico 18V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-inverter-2kw/",
+      "status": 200,
+      "title": "Gamma Gamma Inverter 2 kW G2301AR: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma Gamma Inverter 2 kW G2301AR: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/honda-eg6500cxs/",
+      "status": 200,
+      "title": "Honda Honda EG6500CXS D-AVR (5,5 kVA): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Honda Honda EG6500CXS D-AVR (5,5 kVA): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/honda-eu22i/",
+      "status": 200,
+      "title": "Honda Honda EU22i Inverter Portátil: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Honda Honda EU22i Inverter Portátil: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/honda-eu30is/",
+      "status": 200,
+      "title": "Honda Honda EU30is Inverter Eléctrico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Honda Honda EU30is Inverter Eléctrico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-lgi3-8/",
+      "status": 200,
+      "title": "Lüsqtoff Lüsqtoff LGI3.8-8 Inverter (3,8 kW): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff Lüsqtoff LGI3.8-8 Inverter (3,8 kW): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/pektra-gpk980/",
+      "status": 200,
+      "title": "Pektra Pektra GPK980 (720W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Pektra Pektra GPK980 (720W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/philco-ge-ph2500alp/",
+      "status": 200,
+      "title": "Philco Philco GE-PH2500ALP (2500W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Philco Philco GE-PH2500ALP (2500W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-ghp-180/",
+      "status": 200,
+      "title": "Bosch GHP 180 Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GHP 180 Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-ghp-200/",
+      "status": 200,
+      "title": "Bosch GHP 200 Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GHP 200 Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-ghp-220/",
+      "status": 200,
+      "title": "Bosch GHP 220 Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GHP 220 Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-ghp-4-50/",
+      "status": 200,
+      "title": "Bosch GHP 4-50 Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GHP 4-50 Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-universalaquatak-36v-100/",
+      "status": 200,
+      "title": "Bosch UniversalAquatak 36V-100: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch UniversalAquatak 36V-100: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comet-k-250-10-150/",
+      "status": 200,
+      "title": "Comet Comet K 250 10/150 Classic: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Comet Comet K 250 10/150 Classic: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/comet-k-250-13-190/",
+      "status": 200,
+      "title": "Comet Comet K 250 TSR 13/190 T Classic: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Comet Comet K 250 TSR 13/190 T Classic: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-130-elite/",
+      "status": 200,
+      "title": "Gamma 130 Elite G2513AR: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma 130 Elite G2513AR: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-150-elite/",
+      "status": 200,
+      "title": "Gamma 150 Elite G2514AR: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma 150 Elite G2514AR: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k2-basic/",
+      "status": 200,
+      "title": "Kärcher K2 Basic Car: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K2 Basic Car: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k3-black-edition/",
+      "status": 200,
+      "title": "Kärcher K3 Black Edition: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K3 Black Edition: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k4-power-control/",
+      "status": 200,
+      "title": "Kärcher K4 Power Control: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K4 Power Control: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k4-standard/",
+      "status": 200,
+      "title": "Kärcher K4 Standard 9.398-294.0: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K4 Standard 9.398-294.0: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k5-power-control/",
+      "status": 200,
+      "title": "Kärcher K5 Power Control: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K5 Power Control: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/karcher-k5-base/",
+      "status": 200,
+      "title": "Kärcher K5 Standard 9.398-295.0: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Kärcher K5 Standard 9.398-295.0: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/logus-hl-105/",
+      "status": 200,
+      "title": "Logus Logus HL-105 (105 bar): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Logus Logus HL-105 (105 bar): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-hl-120/",
+      "status": 200,
+      "title": "Lüsqtoff HL-120 (105 bar máx.): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff HL-120 (105 bar máx.): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-hl-150/",
+      "status": 200,
+      "title": "Lüsqtoff HL-150 (150 bar máx.): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff HL-150 (150 bar máx.): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-hl100-7/",
+      "status": 200,
+      "title": "Lüsqtoff HL100-7 Compacta (100 bar): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff HL100-7 Compacta (100 bar): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-hl100-8/",
+      "status": 200,
+      "title": "Lüsqtoff HL100-8 (150 bar máx.): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff HL100-8 (150 bar máx.): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stihl-re-110/",
+      "status": 200,
+      "title": "STIHL STIHL RE 110: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de STIHL STIHL RE 110: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stihl-re-120/",
+      "status": 200,
+      "title": "STIHL STIHL RE 120: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de STIHL STIHL RE 120: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stihl-re-150/",
+      "status": 200,
+      "title": "STIHL STIHL RE 150 Semiprofesional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de STIHL STIHL RE 150 Semiprofesional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stihl-re-80-x/",
+      "status": 200,
+      "title": "STIHL STIHL RE 80 X: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de STIHL STIHL RE 80 X: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/stihl-re-90/",
+      "status": 200,
+      "title": "STIHL STIHL RE 90: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de STIHL STIHL RE 90: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/esab-handyarc-132i/",
+      "status": 200,
+      "title": "ESAB HandyArc 132i Inverter MMA: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de ESAB HandyArc 132i Inverter MMA: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/esab-handyarc-142i/",
+      "status": 200,
+      "title": "ESAB HandyArc 142i Inverter MMA: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de ESAB HandyArc 142i Inverter MMA: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/esab-handyarc-162i/",
+      "status": 200,
+      "title": "ESAB HandyArc 162i Inverter MMA: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de ESAB HandyArc 162i Inverter MMA: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/gamma-elite-200/",
+      "status": 200,
+      "title": "Gamma Gamma Elite 200 G2462AR: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Gamma Gamma Elite 200 G2462AR: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-iron-250/",
+      "status": 200,
+      "title": "Lüsqtoff Iron 250 Inverter MMA: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff Iron 250 Inverter MMA: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-mig-195/",
+      "status": 200,
+      "title": "Lüsqtoff Lüsqtoff MIG-195 Con y Sin Gas: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff Lüsqtoff MIG-195 Con y Sin Gas: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-iron-100/",
+      "status": 200,
+      "title": "Lüsqtoff MEGAIRON100-8 Inverter: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff MEGAIRON100-8 Inverter: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-sml120-8dk/",
+      "status": 200,
+      "title": "Lüsqtoff SML120-8DK MIG Flux Multiproceso: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff SML120-8DK MIG Flux Multiproceso: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gbh-180-li/",
+      "status": 200,
+      "title": "Bosch GBH 180-LI Brushless (18V): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GBH 180-LI Brushless (18V): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gbh-2-26-dre/",
+      "status": 200,
+      "title": "Bosch GBH 2-26 DRE Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GBH 2-26 DRE Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gbh-220/",
+      "status": 200,
+      "title": "Bosch GBH 220 Professional (SDS Plus): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GBH 220 Professional (SDS Plus): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gdr-120-li/",
+      "status": 200,
+      "title": "Bosch GDR 120-LI Impact Driver: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GDR 120-LI Impact Driver: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gsb-18v-50/",
+      "status": 200,
+      "title": "Bosch GSB 18V-50 Brushless: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GSB 18V-50 Brushless: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/bosch-gsb-550-re/",
+      "status": 200,
+      "title": "Bosch GSB 550 RE Professional: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Bosch GSB 550 RE Professional: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-d25333/",
+      "status": 200,
+      "title": "DeWalt DeWalt D25333K SDS Plus 950W: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt D25333K SDS Plus 950W: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dcd776/",
+      "status": 200,
+      "title": "DeWalt DeWalt DCD776 Percutor 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DCD776 Percutor 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dcf887/",
+      "status": 200,
+      "title": "DeWalt DeWalt DCF887B XR 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DCF887B XR 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dch133/",
+      "status": 200,
+      "title": "DeWalt DeWalt DCH133B D-Handle 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DCH133B D-Handle 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/dewalt-dch273/",
+      "status": 200,
+      "title": "DeWalt DeWalt DCH273B SDS Plus XR 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de DeWalt DeWalt DCH273B SDS Plus XR 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-te-cd-18-40/",
+      "status": 200,
+      "title": "Einhell TE-CD 18/40 Li Inalámbrico: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell TE-CD 18/40 Li Inalámbrico: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/einhell-te-hd-18-li/",
+      "status": 200,
+      "title": "Einhell TE-HD 18 Li SDS Plus (18V): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Einhell TE-HD 18 Li SDS Plus (18V): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/ingco-cidli20668-4/",
+      "status": 200,
+      "title": "Ingco Ingco CIDLI20668-4 Brushless 20V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Ingco Ingco CIDLI20668-4 Brushless 20V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-tbl16-7/",
+      "status": 200,
+      "title": "Lüsqtoff TBL16-7 de Banco (16 mm): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff TBL16-7 de Banco (16 mm): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/lusqtoff-tbl710-9d/",
+      "status": 200,
+      "title": "Lüsqtoff TBL710-9D Digital de Banco: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Lüsqtoff TBL710-9D Digital de Banco: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-dhp453/",
+      "status": 200,
+      "title": "Makita Makita DHP453 18V LXT: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita DHP453 18V LXT: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-hp333d/",
+      "status": 200,
+      "title": "Makita Makita HP333D CXT 12V: Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita HP333D CXT 12V: especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/makita-hr2470/",
+      "status": 200,
+      "title": "Makita Makita HR2470 SDS Plus (780W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Makita Makita HR2470 SDS Plus (780W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/herramientas/omaha-ab550161k/",
+      "status": 200,
+      "title": "Omaha Omaha AB550161K (550W): Ficha Técnica y Variantes en Argentina · TallerLab",
+      "description": "Ficha técnica documentada de Omaha Omaha AB550161K (550W): especificaciones de manual, variantes 220V 50Hz, kits y ofertas observadas en Argentina.",
+      "schemas": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/generadores/",
+      "status": 200,
+      "title": "Generadores · TallerLab",
+      "description": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
@@ -100,20 +2032,20 @@
       ]
     },
     {
-      "path": "/soldadura-electronica/",
+      "path": "/taladros/",
       "status": 200,
-      "title": "Soldadura electrónica · TallerLab",
-      "description": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
+      "title": "Taladros y atornilladores · TallerLab",
+      "description": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
       ]
     },
     {
-      "path": "/generadores/",
+      "path": "/sierras/",
       "status": 200,
-      "title": "Generadores · TallerLab",
-      "description": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
+      "title": "Sierras: tipos y cómo elegir según el trabajo · TallerLab",
+      "description": "Elegí la familia por material y geometría del corte: recto, curvo, longitudinal o a inglete. Compará capacidad documentada y compatibilidad de la hoja.",
       "schemas": [
         "Organization",
         "BreadcrumbList"
@@ -138,6 +2070,26 @@
         "Organization",
         "BreadcrumbList",
         "Article"
+      ]
+    },
+    {
+      "path": "/soldadura-electronica/",
+      "status": 200,
+      "title": "Soldadura electrónica · TallerLab",
+      "description": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/hidrolavadoras/",
+      "status": 200,
+      "title": "Hidrolavadoras: guías, marcas y comparativas",
+      "description": "Elegí por tarea y compará presión declarada/documentada, caudal declarado/documentado y accesorios del código exacto. Separá presión de trabajo de presión máxima.",
+      "schemas": [
+        "Organization",
+        "BreadcrumbList"
       ]
     },
     {
@@ -331,7 +2283,7 @@
       "path": "/amoladoras/velocidad-variable/",
       "status": 200,
       "title": "Amoladora de velocidad variable: cuándo conviene · TallerLab",
-      "description": "Qué cambia al regular las RPM, qué revisar en los accesorios y cuatro amoladoras con tensión 220–240 V documentada.",
+      "description": "Compará cinco amoladoras de velocidad variable por tensión, RPM, diámetro y montaje; distingue fichas de fabricante y datos comerciales.",
       "schemas": [
         "Organization",
         "BreadcrumbList",
@@ -342,7 +2294,7 @@
       "path": "/amoladoras/7-pulgadas/",
       "status": 200,
       "title": "Amoladora de 7 pulgadas: cómo elegir una de 180 mm · TallerLab",
-      "description": "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y tres modelos documentados para comparar.",
+      "description": "Cuándo conviene una amoladora de 180 mm, qué cambia frente a 115/125 y 230 mm, y cuatro modelos documentados para comparar.",
       "schemas": [
         "Organization",
         "BreadcrumbList",
@@ -595,7 +2547,7 @@
       "path": "/compresores/24-litros/",
       "status": 200,
       "title": "Compresor de 24 litros: para qué sirve y cuál elegir · TallerLab",
-      "description": "Usos y límites de un compresor de 24 L, comparación de tres modelos oil-free y criterios para elegir entre 24, 25 y 50 litros.",
+      "description": "Usos y límites de un compresor de 24/25 L, comparación de Gamma G2801 lubricado y tres modelos sin aceite, y cuándo conviene 50 litros.",
       "schemas": [
         "Organization",
         "BreadcrumbList",
@@ -628,7 +2580,7 @@
       "path": "/compresores/para-pintar/",
       "status": 200,
       "title": "Compresor para pintar: cómo elegirlo según la pistola y el trabajo · TallerLab",
-      "description": "Guía para cruzar consumo y presión de la pistola con caudal entregado, tanque y ciclo del compresor; incluye ejemplos documentados para retoques, muebles, rejas, paredes y autos.",
+      "description": "Elegí un compresor para pintar por consumo y presión de la pistola, caudal entregado y ciclo: ejemplos para retoques, muebles, rejas, paredes y autos.",
       "schemas": [
         "Organization",
         "BreadcrumbList",

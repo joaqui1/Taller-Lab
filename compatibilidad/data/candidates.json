@@ -1,0 +1,31 @@
+[
+  {
+    "id": "CAND-BOSCH-GAL18V40",
+    "product_type": "cargador",
+    "brand": "Bosch",
+    "model_name": "GAL 18V-40",
+    "mpn": "1600A019RJ",
+    "platform_id": "bosch-professional-18v",
+    "official_url": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A019RJ",
+    "excerpt": "Cargador compacto GAL 18V-40 compatible con todas las baterías Bosch Professional 18V.",
+    "date_observed": "2026-10-03",
+    "reviewer": "Joaquín Vallasciani",
+    "review_method": "extraccion_documental",
+    "status": "pendiente"
+  },
+  {
+    "id": "CAND-INGCO-FBCPK1214",
+    "product_type": "bateria",
+    "brand": "Ingco",
+    "model_name": "P20S Kit FBCPK1214",
+    "mpn": "FBCPK1214",
+    "platform_id": "ingco-p20s",
+    "official_url": "https://www.ingco.com/in/product/p20s-lithium-ion-battery-and-charger-kit/FBCPK1214",
+    "excerpt": "P20S battery kit documentation for India region.",
+    "date_observed": "2026-10-03",
+    "reviewer": "Joaquín Vallasciani",
+    "review_method": "extraccion_documental",
+    "status": "rechazado",
+    "rejection_reason": "Dominio no autorizado como fuente oficial de fabricante: www.ingco.com"
+  }
+]

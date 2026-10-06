@@ -45,13 +45,9 @@ def render_photo(url=None, brand='', model=''):
     if not photo:
         return ''
     label = (brand + ' ' + model).strip() or (photo.get('brand', '') + ' ' + photo.get('model', '')).strip()
-    host = urlsplit(photo['source']).hostname or ''
-    source_rel = 'noopener noreferrer sponsored' if host=='meli.la' or host.endswith('mercadolibre.com.ar') else 'noopener noreferrer'
     return (f'<div class="offer-photo"><img src="{escape(photo["image"], quote=True)}" '
             f'alt="{escape(label, quote=True)}" width="{photo["width"]}" height="{photo["height"]}" '
-            'loading="lazy" decoding="async"></div>'
-            f'<a class="offer-source" href="{escape(photo["source"], quote=True)}" '
-            f'target="_blank" rel="{source_rel}">Fuente de la foto ↗</a>')
+            'loading="lazy" decoding="async"></div>')
 
 def add_photos_to_cards(document):
     """Completa las tarjetas comerciales históricas guardadas dentro del Markdown."""

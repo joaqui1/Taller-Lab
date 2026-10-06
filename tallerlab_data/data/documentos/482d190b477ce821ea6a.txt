@@ -1,0 +1,2303 @@
+
+[PÁGINA 1]
+DWE4010
+Esmeriladora angular de 4-1/2" (115 mm)
+Esmerilhadeira angular 4-1/2" (115 mm)
+4-1/2" (115 mm) angle grinder
+MANUAL DE INSTRUCCIONES
+MANUAL DE INSTRUÇÕES
+INSTRUCTION MANUAL
+INSTRUÇÕES DE OPERAÇÃO, CENTRO DE SERVIÇOS E CERTIFICADO 
+DE GARANTIA. ADVERTÊNCIA: LEIA ESTAS INSTRUÇÕES ANTES DE 
+UTILIZAR O PRODUTO.
+¿Dudas? Visítenos en Internet: www.dewalt.com
+Dúvidas? Visite-nos na Internet em www.dewalt.com.br
+Questions? See us on the World Wide Web at www.dewalt.com
+INSTRUCTIVO DE OPERACIÓN, CENTROS DE SERVICIO Y PÓLIZA DE 
+GARANTÍA. ADVERTENCIA: LÉASE ESTE INSTRUCTIVO ANTES DE USAR EL 
+PRODUCTO. 
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+1
+Español
+Deﬁ niciones: Normas 
+de seguridad
+Las siguientes definiciones describen el nivel de gravedad de cada 
+advertencia. Lea el manual y preste atención a estos símbolos.
+ PELIGRO: Indica una situación de peligro inminente que, si no se 
+evita, provocará la muerte o lesiones graves.
+ ADVERTENCIA: Indica una situación de peligro potencial que, si 
+no se evita, podría provocar la muerte o lesiones graves.
+ ATENCIÓN: Indica una situación de peligro potencial que, si no 
+se evita, puede provocar lesiones leves o moderadas.
+AVISO: Se reﬁ  ere a una práctica no relacionada a lesiones 
+corporales que de no evitarse puede resultar en daños a la 
+propiedad.
+ADVERTENCIA: para reducir el riesgo de lesiones, lea el 
+manual de instrucciones.
+Advertencias generales de seguridad 
+para las herramientas eléctricas
+ ADVERTENCIA: Lea todas las advertencias de seguridad 
+e instrucciones. El incumplimiento de las advertencias o 
+instrucciones puede provocar descargas eléctricas, incendios o 
+lesiones graves.
+GUARDE LAS ADVERTENCIAS E 
+INSTRUCCIONES PARA PODER 
+CONSULTARLAS EN EL FUTURO
+El término “herramienta eléctrica” incluido en todas las advertencias se 
+refiere a su herramienta eléctrica conectada a la red (cable eléctrico) 
+o a su herramienta eléctrica accionada con baterías (inalámbrica).
+1) SEGURIDAD DEL ÁREA DE TRABAJO
+a) Mantenga el área de trabajo limpia y bien iluminada. Las 
+áreas desordenadas u oscuras propician accidentes.
+b) No opere las herramientas eléctricas en atmósferas 
+explosivas, como ambientes donde haya polvo, gases 
+o líquidos inflamables. Las herramientas eléctricas originan 
+chispas que pueden encender el polvo o producir humo.
+c) Mantenga alejados a los niños y a los espectadores 
+de la herramienta eléctrica en funcionamiento. Las 
+distracciones pueden provocar la pérdida de control.
+2) SEGURIDAD ELÉCTRICA
+a) Los enchufes de la herramienta eléctrica deben 
+adaptarse a la toma de corriente. Nunca modifique el 
+enchufe de ninguna manera. No utilice ningún enchufe 
+adaptador con herramientas eléctricas con conexión a 
+tierra. Los enchufes no modificados y que se adaptan a las 
+tomas de corrientes reducirán el riesgo de descarga eléctrica.
+b) Evite el contacto corporal con superficies con toma de 
+tierra como, por ejemplo, tuberías, radiadores, cocinas 
+y refrigeradores. Existe mayor riesgo de descarga eléctrica 
+si su cuerpo está puesto a tierra.
+c) No exponga las herramientas eléctricas a la lluvia ni a 
+condiciones de humedad. Si entra agua en una herramienta 
+eléctrica, aumentará el riesgo de descarga eléctrica.
+d) No use el cable indebidamente. Nunca utilice el cable 
+para transportar, tirar o desenchufar la herramienta 
+eléctrica. Mantenga el cable alejado del calor, el aceite, 
+los bordes afilados o las piezas móviles.  Los cables 
+dañados o enredados aumentan el riesgo de descarga 
+eléctrica. 
+e) Al operar una herramienta eléctrica en exteriores, utilice 
+un cable de extensión adecuado para tal uso. Utilice un 
+cable adecuado para uso en exteriores a fin de reducir el 
+riesgo de descarga eléctrica. 
+
+[PÁGINA 4]
+2
+Español
+f) Si no se puede evitar el uso de una herramienta eléctrica 
+en una zona húmeda, utilice un dispositivo de corriente 
+residual (residual current device, RCD) de seguridad. 
+El uso de un RCD reduce el riesgo de sufrir una descarga 
+eléctrica.
+3) SEGURIDAD PERSONAL
+a) Permanezca alerta, controle lo que está haciendo y 
+utilice el sentido común cuando emplee una herramienta 
+eléctrica. No utilice una herramienta eléctrica si 
+está cansado o bajo el efecto de drogas, alcohol o 
+medicamentos. Un momento de descuido mientras se opera 
+una herramienta eléctrica puede provocar lesiones personales 
+graves. 
+b) Utilice equipo de seguridad personal. Utilice siempre 
+protección ocular. El uso de equipo de seguridad, como 
+mascarillas para polvo, calzado de seguridad antideslizante, 
+cascos o protección auditiva en las condiciones adecuadas 
+reducirá las lesiones personales.
+c) Evite poner en marcha la herramienta involuntariamente. 
+Asegúrese de que el interruptor está apagado antes de 
+conectar la fuente de alimentación y/o la batería, agarrar 
+o transportar la herramienta. Transportar herramientas 
+eléctricas con su dedo apoyado sobre el interruptor o enchufar 
+herramientas eléctricas con el interruptor en la posición de 
+encendido puede ocasionar accidentes.
+d) Retire la herramienta de ajuste o la llave de tuercas 
+antes de encender la herramienta eléctrica. Una llave de 
+tuercas o una herramienta de ajuste que quede conectada a 
+una pieza giratoria de la herramienta eléctrica puede provocar 
+lesiones personales.
+e) No se estire demasiado. Conserve el equilibrio y 
+posiciónese adecuadamente en todo momento. Esto 
+permite un mejor control de la herramienta eléctrica en 
+situaciones inesperadas.
+f) Use la vestimenta adecuada. No use ropas holgadas ni 
+joyas. Mantenga el cabello, la ropa y los guantes alejados 
+de las piezas en movimiento. Las ropas holgadas, las joyas 
+o el cabello largo pueden quedar atrapados en las piezas 
+en movimiento. 
+g) Si se suministran dispositivos para la conexión de 
+accesorios con fines de recolección y extracción de 
+polvo, asegúrese de que estén conectados y que se 
+utilicen correctamente. El uso del extractor de polvo puede 
+reducir los riesgos relacionados con el polvo.
+4)  USO Y MANTENIMIENTO DE LA HERRAMIENTA 
+ELÉCTRICA
+a) No fuerce la herramienta eléctrica. Utilice la herramienta 
+eléctrica correcta para el trabajo que realizará. La 
+herramienta eléctrica correcta hará el trabajo mejor, y de un 
+modo más seguro, a la velocidad para la que fue diseñada.
+b) No utilice la herramienta eléctrica si no puede encenderla 
+o apagarla con el interruptor. Las herramientas que no 
+puedan ser controladas con el interruptor constituyen un 
+peligro y deben repararse.
+c) Desconecte el enchufe de la fuente de alimentación o 
+la batería de la herramienta eléctrica antes de realizar 
+cualquier ajuste, cambio de accesorios o almacenar 
+las herramientas eléctricas. Estas medidas de seguridad 
+preventivas reducen el riesgo de encender la herramienta 
+eléctrica de forma accidental.
+d) Guarde la herramienta eléctrica que no esté en uso fuera 
+del alcance de los niños y no permita que otras personas 
+no familiarizadas con ella o con estas instrucciones 
+operen la herramienta. Las herramientas eléctricas son 
+peligrosas si son operadas por usuarios que no tienen 
+formación.
+
+[PÁGINA 5]
+3
+Español
+e) Mantenimiento de las herramientas eléctricas. Revise 
+que no haya piezas en movimiento mal alineadas o 
+trabadas, piezas rotas o cualquier otra situación que 
+pueda afectar el funcionamiento de las herramientas 
+eléctricas. Si encuentra daños, haga reparar la 
+herramienta eléctrica antes de utilizarla. Se producen 
+muchos accidentes a causa de las herramientas eléctricas que 
+carecen de un mantenimiento adecuado.
+f) Mantenga las herramientas de corte afiladas y limpias. 
+Los accesorios de corte de estas herramientas deben estar 
+limpios y con los bordes de corte afilados. De esta manera son 
+menos propensas a trabarse y son más fáciles de controlar.
+g) Utilice las herramientas eléctricas, sus accesorios y 
+piezas, etc. de acuerdo con las presentes instrucciones, 
+teniendo siempre en cuenta las condiciones de trabajo y 
+el trabajo que deba llevar a cabo. El uso de la herramienta 
+eléctrica para operaciones diferentes de aquellas para las que 
+fue diseñada podría originar una situación peligrosa.
+5)  MANTENIMIENTO
+a) Solicite a una persona calificada en reparaciones que 
+realice el mantenimiento de su herramienta eléctrica 
+y que solo utilice piezas de repuesto originales. Esto 
+garantizará la seguridad de la herramienta eléctrica.
+INSTRUCCIONES DE SEGURIDAD PARA 
+TODAS LAS OPERACIONES
+Advertencias de seguridad comunes para 
+todas las operaciones de esmerilado, 
+lijado, cepillado con cepillo de alambre 
+y pulido, y para operaciones de corte y 
+desbaste con disco abrasivo
+a) Esta herramienta eléctrica está diseñada para 
+utilizarse como esmeriladora, lijadora, cepillo de 
+alambre, pulidora o desbastadora. Lea todas las 
+advertencias de seguridad, instrucciones, ilustraciones 
+y especificaciones provistas con esta herramienta 
+eléctrica. El incumplimiento de todas las instrucciones 
+enumeradas a continuación puede provocar una descarga 
+eléctrica, un incendio o lesiones graves.
+b) No utilice accesorios que no estén diseñados y 
+recomendados específicamente por el fabricante de la 
+herramienta. El hecho que el accesorio pueda conectarse a 
+la herramienta eléctrica no garantiza un funcionamiento seguro.
+c) La velocidad nominal del accesorio debe ser equivalente 
+a la velocidad máxima indicada en la herramienta 
+eléctrica, como mínimo. Los accesorios que funcionen 
+más rápido que su velocidad nominal pueden romperse y 
+desprenderse.
+d) El diámetro externo y el grosor del accesorio deben 
+estar dentro del rango de capacidad de la herramienta 
+eléctrica. Los accesorios de tamaño incorrecto no pueden 
+protegerse ni controlarse adecuadamente.
+e) El tamaño del eje de los discos, las bridas, las almohadillas 
+de respaldo y cualquier otro accesorio debe adaptarse 
+correctamente al eje de la herramienta eléctrica. Los 
+accesorios con orificios que no coincidan con el sistema de 
+montaje de la herramienta eléctrica se desequilibrarán, vibrarán 
+excesivamente y podrán producir la pérdida de control de la 
+herramienta.
+f) No utilice un accesorio dañado. Inspeccione el accesorio 
+antes de cada uso; por ejemplo, el disco abrasivo para 
+verificar que no tenga astillas ni grietas; la almohadilla 
+de respaldo para ver si hay grietas, desprendimientos 
+o desgaste excesivo y el cepillo de alambre para ver si 
+tiene alambres sueltos o quebrados. Si la herramienta 
+eléctrica o el accesorio sufre una caída, inspeccione 
+para ver si hay daños o instale un accesorio en buen 
+
+[PÁGINA 6]
+4
+Español
+estado. Después de inspeccionar e instalar un accesorio, 
+ubíquese y ubique a los espectadores lejos del plano 
+del accesorio giratorio y haga funcionar la herramienta 
+a velocidad máxima sin carga durante un minuto. Los 
+accesorios dañados generalmente se romperán durante esta 
+prueba.
+g) Utilice equipos de protección personal. Según la 
+aplicación, debe usar protector facial, anteojos de 
+seguridad o lentes de seguridad. Según corresponda, 
+utilice máscara para polvo, protectores auditivos, 
+guantes y delantal de taller para protegerse de los 
+pequeños fragmentos abrasivos y de los fragmentos 
+de la pieza de trabajo. La protección para los ojos debe ser 
+capaz de detener los residuos volátiles que se generan en las 
+diferentes operaciones. La máscara para polvo o respirador 
+debe ser capaz de filtrar las partículas generadas por el 
+funcionamiento de la herramienta. La exposición prolongada al 
+ruido intenso puede provocar pérdida de la audición.
+h) Mantenga a los espectadores a una distancia segura 
+del área de trabajo. Toda persona que ingrese al área 
+de trabajo debe utilizar equipos de protección personal. 
+Los fragmentos de una pieza de trabajo o de un accesorio 
+roto pueden volar y provocar lesiones más allá del área de 
+operaciones cercana.
+i) Cuando realice una operación en que el accesorio 
+de corte pueda tocar cables eléctricos ocultos o su 
+propio cable, sostenga la herramienta solamente por las 
+superficies de agarre aisladas. El contacto con un cable con 
+"corriente eléctrica" hará que las partes metálicas expuestas 
+de la herramienta también tengan "corriente eléctrica" y el 
+operador sufra una descarga.
+j) Coloque el cable lejos del accesorio giratorio. Si pierde el 
+control de la herramienta, el cable puede cortarse o enredarse 
+y jalarle la mano o el brazo hacia el accesorio giratorio.
+k) Nunca apoye la herramienta hasta que el accesorio se 
+haya detenido completamente. El accesorio giratorio puede 
+enganchar la superficie y producir la pérdida de control de la 
+herramienta.
+l) No haga funcionar la herramienta eléctrica mientras la 
+está transportando. El contacto accidental con el accesorio 
+giratorio puede hacer que éste se le enganche en la ropa y 
+lance el accesorio hacia su cuerpo.
+m) Limpie frecuentemente los orificios de ventilación de 
+la herramienta eléctrica. El ventilador del motor atraerá el 
+polvo dentro de la cubierta, y la acumulación excesiva de polvo 
+metálico puede producir riesgos eléctricos.
+n) No use la herramienta eléctrica cerca de materiales 
+inflamables. Las chispas pueden encender estos materiales.
+o) No utilice accesorios que requieran refrigerantes 
+líquidos. El uso de agua u otros refrigerantes líquidos puede 
+producir una electrocución o descarga eléctrica.
+Causas del retroceso y su prevención por 
+parte del operador
+ El retroceso es una reacción repentina al pellizco o atascamiento 
+de un disco giratorio, una almohadilla de respaldo, un cepillo o 
+cualquier otro accesorio. El pellizco o el atascamiento hacen que el 
+accesorio giratorio se trabe rápidamente, lo que a su vez provoca 
+que la herramienta eléctrica fuera de control vaya en sentido 
+opuesto al giro del accesorio en el punto del atascamiento.
+ Por ejemplo, si la pieza de trabajo atasca o pellizca el disco 
+abrasivo, el borde del disco que ingresa en el punto de pliegue 
+puede clavarse en la superficie del material y provocar que el 
+disco salte o patee repentinamente hacia atrás (retroceso). El 
+disco puede saltar hacia el operador o en sentido contrario, 
+según la dirección del movimiento del disco en el punto de 
+pellizco. Los discos abrasivos también se pueden romper en estas 
+condiciones.
+
+[PÁGINA 7]
+5
+Español
+ El retroceso es el resultado del mal uso de la herramienta eléctrica 
+o de procedimientos o condiciones de operación incorrectos 
+y puede ser evitado si se toman las precauciones debidas, 
+expuestas a continuación:
+a) Sostenga la herramienta eléctrica con firmeza y ubique 
+el cuerpo y el brazo para poder resistir las fuerzas de 
+retroceso. Siempre utilice el mango lateral, en caso de 
+tenerlo, para lograr el máximo control sobre el retroceso 
+o la reacción de torsión durante el encendido. El operador 
+puede controlar la reacción de torsión o las fuerzas de 
+retroceso si toma las precauciones adecuadas.
+b) Nunca coloque la mano cerca del accesorio giratorio, ya 
+que éste puede hacer un retroceso sobre la mano.
+c)  No ubique el cuerpo en el área hacia donde la herramienta 
+eléctrica se desplazará si se produce un retroceso.  El 
+retroceso impulsará la herramienta en la dirección opuesta al 
+movimiento del disco en el punto de atascamiento.
+d) Tenga especial cuidado al trabajar en esquinas, bordes 
+filosos, etc. Evite chocar o forzar el accesorio. Las 
+esquinas, los bordes filosos o el choque tienden a atascar 
+el accesorio giratorio y producir la pérdida de control o el 
+retroceso de la unidad.
+e) No instale una hoja de sierra para carpintería, para sierra 
+de cadena ni una hoja de sierra dentada. Estas hojas 
+puede producir el retroceso y la pérdida de control frecuentes.
+Advertencias de seguridad especíﬁ cas 
+para operaciones de esmerilado y cortes 
+con discos abrasivos
+a) Utilice sólo los tipos de disco recomendados para 
+su herramienta eléctrica y el protector específico 
+para el disco seleccionado. Los discos para los que la 
+herramienta eléctrica no está diseñada no pueden protegerse 
+adecuadamente y son inseguros.
+b) La guarda protectora debe fijarse en forma segura a la 
+herramienta eléctrica y ubicarse para brindar la máxima 
+seguridad, de manera que una mínima parte del disco 
+quede expuesta hacia el operador. La guarda protectora 
+ayuda a proteger al operador de los fragmentos despedidos 
+por discos rotos, del contacto accidental con el disco y de 
+chispas que podrían prender fuego a la ropa.
+c) Los discos sólo deben utilizarse para las aplicaciones 
+recomendadas. Por ejemplo: no esmerile con el borde 
+del disco de corte. Los discos abrasivos para corte están 
+diseñados para esmerilados periféricos, si se aplican fuerzas 
+laterales a estos discos, pueden romperse.
+d) Siempre utilice bridas de disco en buen estado, con la 
+forma y el tamaño apropiados para el disco seleccionado. 
+Las bridas de disco adecuadas brindan soporte al disco, 
+además de reducir la posibilidad de que el disco se rompa. Las 
+bridas de los discos de corte pueden ser diferentes a las bridas 
+de discos de esmerilado.
+e) No utilice discos desgastados de herramientas eléctricas 
+más grandes. Los discos diseñados para herramientas 
+eléctricas más grandes no son apropiados para la mayor 
+velocidad de una herramienta más pequeña y pueden estallar.
+Advertencias de seguridad adicionales 
+especíﬁ cas para operaciones de corte 
+con discos abrasivos
+a) No “atasque” el disco de corte ni aplique una presión 
+excesiva. No intente realizar una profundidad de corte 
+excesiva. La sobrecarga de tensión sobre el disco aumenta la 
+carga y la posibilidad de que el disco se tuerza o trabe durante 
+el corte y se produzca un retroceso o la rotura del disco.
+b) No ubique su cuerpo ni atrás ni adelante de la línea 
+de acción del disco giratorio. Cuando el disco, en 
+funcionamiento, se aleja de su cuerpo, el posible retroceso 
+
+[PÁGINA 8]
+6
+Español
+puede despedir el disco giratorio y la herramienta eléctrica irá 
+directamente hacia usted.
+c) Cuando el disco se atasque o deba interrumpir el corte 
+por algún motivo, apague la herramienta eléctrica y 
+manténgala inmóvil hasta que el disco se detenga 
+completamente. Nunca intente retirar el disco del corte 
+mientras está en movimiento, ya que se puede producir 
+un retroceso. Investigue y tome las medidas correctivas para 
+eliminar la causa del atascamiento del disco.
+d) No vuelva a iniciar la operación de corte en la pieza de 
+trabajo. Deje que el disco alcance la velocidad máxima 
+y vuelva a entrar cuidadosamente en el corte.  El disco 
+puede atascarse, saltarse del trabajo o producir un retroceso si 
+la herramienta eléctrica se vuelve a encender dentro de la pieza 
+de trabajo.
+e) Sostenga los paneles o cualquier pieza de trabajo con 
+alto espesor/grosor para minimizar el riesgo de que el 
+disco se atasque o se produzca un retroceso. Las piezas 
+de trabajo grandes tienden a caer o doblarse por su propio 
+peso. Los apoyos deben colocarse debajo de la pieza de 
+trabajo, cerca de la línea de corte y cerca del borde de la pieza 
+de trabajo, a ambos lados del disco.
+f) Sea muy cuidadoso cuando realice un "corte interno" 
+en paredes existentes o en otras zonas ciegas.  El disco 
+que sobresale puede cortar cañerías de gas o agua, cables 
+eléctricos u objetos que pueden producir un retroceso.
+Advertencias de seguridad especíﬁ cas 
+para operaciones de lijado
+a) No utilice disco de lijar con un tamaño excesivo. Siga las 
+recomendaciones del fabricante al seleccionar el papel 
+de lija. Los papeles de lija más grandes que el tamaño de la 
+almohadilla de lijado representan un peligro de laceración y 
+pueden provocar el retroceso o que el disco se atasque o se 
+rompa.
+Advertencias de seguridad especíﬁ cas 
+para operaciones de cepillado con cepillo 
+de alambre
+a) Tenga en cuenta que las cerdas de alambre se desprenden 
+del cepillo incluso durante el funcionamiento común. No 
+sobrecargue los alambres al aplicar una carga excesiva 
+al cepillo. Las cerdas de alambre pueden penetrar fácilmente 
+la ropa liviana y la piel.
+b) Si se recomienda la utilización de un protector para el 
+cepillado con cepillo de alambre, no permita ninguna 
+interferencia entre el disco o cepillo de alambre y el 
+protector. La rueda o escobilla de alambre puede expandirse 
+en diámetro debido a la carga de trabajo y a las fuerzas 
+centrífugas.
+Normas de seguridad adicionales para 
+esmeriladoras
+ADVERTENCIA: El disco o accesorio para esmerilar puede 
+aflojarse cuando la herramienta esté girando por inercia una 
+vez apagada. Si el disco o accesorio para esmerilar se afloja, puede 
+desmontarse de la máquina y ocasionar una lesión corporal grave.
+• No se recomienda el uso de accesorios no especificados en 
+este manual, que constituyen un riesgo. El uso de elevadores 
+de tensión que pueden provocar que la herramienta opere a 
+velocidades mayores que su velocidad nominal constituye mal 
+uso.
+• Utilice prensas, mordazas u otra forma práctica para 
+asegurar y sostener la pieza de trabajo sobre una plataforma 
+estable. Sostener el trabajo con la mano o contra el cuerpo no 
+brinda la estabilidad requerida y puede llevar a la pérdida del 
+control.
+• Evite chocar o golpear al disco o forzarlo.  Si esto sucede, 
+detenga la herramienta e inspeccione el disco para detectar 
+grietas o defectos.
+
+[PÁGINA 9]
+7
+Español
+• Maneje y guarde siempre los discos con cuidado.
+• Nunca corte en un área que pueda contener cables 
+eléctricos o cañerías. Puede causar lesiones graves.
+• No haga funcionar esta herramienta durante períodos 
+prolongados. La vibración que produce el funcionamiento de 
+esta herramienta puede provocar lesiones permanentes en dedos, 
+manos y brazos. Use guantes para proveer amortiguación extra, 
+tome descansos frecuentes y limite el tiempo diario de uso.
+• No utilice discos Tipo 11 (copas cónicas) en esta herramienta. 
+El uso de accesorios incorrectos puede producir lesiones.
+• Siempre utilice el mango lateral.  Ajuste el mango con 
+firmeza. Se debe utilizar siempre el mango lateral para mantener 
+el control de la herramienta en todo momento.
+• Los orificios de ventilación suelen cubrir piezas en 
+movimiento, por lo que también se deben evitar. Las piezas 
+en movimiento pueden atrapar prendas de vestir sueltas, joyas o 
+el cabello largo.
+• Los cables de extensión deben ser de un calibre apropiado 
+para su seguridad. Un cable de un calibre insuficiente causará 
+una caída en la tensión de la línea dando por resultado una 
+pérdida de energía y sobrecalentamiento. Cuando se utilice 
+más de una extensión para completar el largo total, asegúrese 
+que cables conductores de cada extensión tengan el calibre 
+mínimo. La tabla siguiente muestra el tamaño correcto a utilizar, 
+dependiendo de la longitud del cable y del amperaje nominal de 
+la placa de identificación de la herramienta. Si tiene dudas sobre 
+cuál calibre usar, use un calibre mayor.
+Tensión (Voltios) Longitud del cable en metros (m)
+120–127 V 0–7 7–15 15–30 30–50
+220–240 V 0–15 15–30 30–60 60–100
+Corriente 
+nominal 
+(Amperios)
+Sección nominal mínima del cable en 
+milímetros cuadrados (mm2)
+0–6 A 1,0 1,5 1,5 2,5
+6–10 A 1,0 1,5 2,5 4,0
+10–12 A 1,5 1,5 2,5 4,0
+12–16 A 2,5 4,0 No recomendado
+ADVERTENCIA: Si el enchufe o el cable de alimentación están 
+dañados lo debe reemplazar el fabricante o su representante o por 
+una persona igualmente calificada para evitar peligro.
+ADVERTENCIA: Parte del polvo generado al lijar, cortar, esmerilar 
+y taladrar, así como al realizar otras actividades del sector de la 
+construcción, contienen productos químicos que pueden producir 
+cáncer, defectos congénitos u otras afecciones reproductivas. 
+Algunos ejemplos de estos químicos son:
+• plomo de algunas pinturas en base a plomo,
+• polvo de sílice proveniente de ladrillos y cemento y otros 
+productos de albañilería, y 
+• arsénico y cromo provenientes de madera tratada 
+químicamente.
+Su riesgo de exposición a estos químicos varía, dependiendo de la 
+frecuencia con la cual realiza usted este tipo de trabajo. Para reducir 
+la exposición a esas sustancias químicas: trabaje en una zona 
+bien ventilada y llevando equipos de seguridad aprobados, como 
+mascarillas antipolvo especialmente diseñadas para filtrar partículas 
+microscópicas.
+• Evite el contacto prolongado con polvo generado por el 
+lijado, corte, esmerilado, taladrado y otras actividades de 
+construcción. Vista ropas protectoras y lave las áreas de 
+
+[PÁGINA 10]
+8
+Español
+la piel expuestas con agua y jabón. Si permite que el polvo 
+se introduzca en la boca u ojos o quede sobre la piel, puede 
+favorecer la absorción de productos químicos peligrosos.  
+ADVERTENCIA: La utilización de esta herramienta puede 
+generar polvo o dispersarlo, lo que podría causar daños graves y 
+permanentes al sistema respiratorio, así como otras lesiones. 
+Siempre use protección respiratoria aprobada por NIOSH (Instituto 
+Nacional de Seguridad y Salud en el Trabajo) u OSHA (Administración 
+de Seguridad y Salud en el Trabajo) apropiada para la exposición al 
+polvo. Dirija las partículas en dirección contraria a la cara y el 
+cuerpo.
+ADVERTENCIA: Use SIEMPRE lentes de seguridad. Los 
+anteojos de diario NO SON lentes de seguridad. Utilice además una 
+cubrebocas o mascarilla antipolvo si la aplicación genera demasiado 
+polvo. SIEMPRE LLEVE EQUIPO DE SEGURIDAD CERTIFICADO:
+• Protección ocular ANSI Z87.1 (CAN/CSA Z94.3),
+• Protección auditiva ANSI S12.6 (S3.19),
+• Protección respiratoria NIOSH/OSHA/MSHA.
+• La etiqueta de su herramienta puede incluir los siguientes 
+símbolos. Estos símbolos y sus definiciones son:
+V ...................voltios A .....................amperios
+Hz .................hercios W ....................vatios
+min ...............minutos 
+ o AC .........corriente
+o DC ....corriente directa  .......................alterna
+ .................Construcción  o AC/DC ... corriente 
+ .....................Clase I (tierra)  .......................alterna
+ .................Construcción  .......................o directa
+ .....................Clase II n ...................... velocidad
+(doble aislamiento)  .......................nominal
+IPM ..............impactos por no ...................velocidad sin
+ .....................minuto  .......................carga
+sfpm .............pies de superficie  .................... conexión de
+ ....................por minuto (sfpm)  ....................... tierra
+…/min ..........revoluciones o,  ....................símbolo de
+ .....................carreras o golpes  .......................advertencia
+BPM .............golpes por minuto   ......................de seguridad
+SPM .............carreras por minuto
+DESCRIPCIÓN (FIG. 1)
+ADVERTENCIA: Nunca modifique la herramienta eléctrica ni 
+ninguna pieza de esta. Puede producir daños o lesiones corporales.
+ A. Interruptor de marcha/parada
+ B. Traba del eje
+ C. Protector
+ D. Empuñadura lateral
+ 
+B
+A
+D
+C
+FIG. 1
+
+[PÁGINA 11]
+9
+Español
+USO PREVISTO
+Esta esmeriladora está diseñada para aplicaciones profesionales de 
+esmerilado, lijado, cepillado metálico o corte.
+NO use la herramienta bajo condiciones de humedad o en presencia 
+de gases o líquidos inflamables.
+Esta esmeriladora es una máquina herramienta profesional. NO 
+permita que los niños tengan contacto con la herramienta. Cuando 
+la hagan funcionar operarios sin experiencia, es necesaria su 
+supervisión.  
+MONTAJE Y AJUSTES
+ADVERTENCIA: Para minimizar el riesgo de graves lesiones 
+personales, apague la herramienta y desconecte la batería 
+antes de realizar ajuste o quitar/instalar los acoples o 
+accesorios. Un encendido accidental puede causar lesiones.
+ADVERTENCIA: Desenchufe la herramienta antes de proceder 
+con el montaje y los ajustes.
+Montaje de la empuñadura lateral (ﬁ g. 2)
+Atornille con fuerza la empuñadura lateral (D) en uno de los orificios 
+(E) de cualquiera de los lados de la caja de engranajes.
+D
+E
+FIG. 2
+E
+Montaje y desmontaje del protector
+(ﬁ g. 3a-3d)
+ 1. Alinee la orejeta del protector con la ranura del soporte fijado a la 
+base de la caja de engranajes (Fig. 3a).
+ 2. Presione el protector hacia abajo, hacia la caja de engranajes, y 
+luego gírelo en el sentido de la flecha (Fig. 3b).
+ 3. En esta posición, la clavija de bloqueo del protector ubicada en la 
+ranura evita que el protector se afloje, pero permite una rotación 
+de hasta 105°. 
+  Para desmontar el protector:
+ 1. Coloque la herramienta boca abajo sobre una superficie plana.
+ 2. Sujete la herramienta, y con el pulgar, gire el protector en el sentido 
+de la flecha (Fig. 3c). Al mismo tiempo, con un destornillador u otro 
+instrumento con punta, presione la clavija de bloqueo en la ranura 
+de manera que la orejeta del protector esté a la vista (Fig. 3d).
+ 3. La clavija de bloqueo no sujeta el protector, y éste puede 
+empujarse para extraerse.
+a b
+c d
+FIG. 3
+
+[PÁGINA 12]
+10
+Español
+Montaje y desmontaje de una muela o un 
+disco de corte (ﬁ g. 1, 4–5)
+ 1. Coloque la herramienta en una mesa, con el protector hacia 
+arriba.
+ 2. Encaje la brida interior (J) correctamente en el eje (K) (fig. 4).
+ 3. Coloque el disco (L) sobre la brida (J). Cuando instale un disco 
+con el centro elevado, asegúrese de que el centro elevado (M) 
+quede hacia la brida (J).
+K
+L
+J
+FIG. 4 N
+M
+ 4. Enrosque la brida roscada (N) en el eje (K):
+  a.  el aro de la brida roscada (N) debe quedar hacia el disco 
+cuando se instala una muela (5A);
+  b.  el aro de la brida roscada (N) debe quedar hacia e
+ lado contrario al disco cuando se instala un disco de corte 
+(fig. 5B);
+ 5. Presione el bloqueo del eje (B) y haga girar el eje (K) hasta que 
+encaje en su posición.
+ 6. Apriete la brida roscada (N) con la llave doble para tuercas 
+suministrada.
+ 7. Suelte el bloqueo del eje.
+ 8. Para retirar el disco, afloje la brida roscada (N) con la llave doble 
+para tuercas. 
+ADVERTENCIA: No utilice el disco si está dañado. 
+FIG. 5A N
+L
+J
+K
+N
+J
+L
+K
+FIG. 5B
+
+[PÁGINA 13]
+11
+Español
+Montaje de un cepillo de alambre 
+esférico
+Enrosque el cepillo de alambre esférico directamente sobre el eje 
+portamuelas sin utilizar ni el separador ni la brida conducida.
+Montaje y extracción de la almohadilla de 
+soporte de goma (ﬁ g. 1, 6)
+La almohadilla de soporte de goma puede solicitarse como accesorio 
+opcional.
+ 1. Retire el protector de la
+K
+P
+Q
+FIG. 6
+O
+ 
+herramienta.
+ 2. Retire la brida interior (J).
+ 3. Presione la almohadilla de 
+soporte (O) sobre el eje (K). 
+ 4. Coloque el disco abrasivo 
+(P) sobre la almohadilla.
+ 5. Atornille la brida roscada 
+(Q) en el eje portamuelas 
+(K).
+ 6. Presione el bloqueo 
+del eje (B) y haga girar 
+la almohadilla hasta que 
+encaje en su posición.
+ 7. Apriete la brida (Q) con la 
+llave doble para tuercas suministrada.
+ 8. Suelte el bloqueo del eje.
+ 9. Para retirar el disco, afloje la brida (Q) con la llave doble para 
+tuercas.
+FUNCIONAMIENTO
+ADVERTENCIA: Para minimizar el riesgo de graves lesiones 
+personales, apague la herramienta y desconecte la batería 
+antes de realizar ajuste o quitar/instalar los acoples o 
+accesorios. Un encendido accidental puede causar lesiones.
+ADVERTENCIA: Respete siempre las instrucciones de seguridad 
+y la reglamentación aplicable.
+• Respete siempre las instrucciones de seguridad y las normas 
+de aplicación.
+• Asegúrese de que todos los materiales que se vayan a amolar 
+o cortar estén sujetos en su posición.
+• Sólo se debe ejercer una ligera presión sobre la herramienta. 
+No ejerza presión lateral sobre el disco.
+• Evite la sobrecarga. En caso de calentamiento de la herramienta, 
+hágala funcionar unos minutos sin carga.
+Antes de trabajar:
+• Montar el protector adecuado y un disco o una muela. No use 
+discos o muelas excesivamente desgastados.
+• Asegúrese de que las bridas interior y exterior estén 
+correctamente instaladas.
+• Asegúrese de que el disco o la muela gira en el sentido 
+indicado por las flechas en el accesorio y la herramienta.
+Interruptores
+ATENCIÓN: Sostenga el mango lateral y el cuerpo de la 
+herramienta con firmeza para mantener el control de la misma al 
+encenderla y mientras la utiliza, y hasta que el disco o el accesorio deje 
+de girar. Asegúrese de que el disco se ha detenido completamente 
+antes de colocar la herramienta sobre una superficie.
+
+[PÁGINA 14]
+12
+Español
+NOTA: Para reducir los movimientos inesperados de la herramienta, 
+no la encienda ni la apague en condiciones de carga. Permita que 
+la esmeriladora alcance la velocidad máxima antes de aplicarla a la 
+superficie a esmerilar. Levante la herramienta de la superficie antes 
+de apagarla. Permita que la herramienta deje de girar antes de 
+depositarla sobre una superficie.
+INTERRUPTOR DESLIZANTE (FIG. 1)
+ADVERTENCIA: Antes de conectar la herramienta a la toma 
+de corriente, asegúrese de que el interruptor deslizante esté en 
+posición de apagado presionando la parte trasera del interruptor 
+y soltando. Asegúrese de que el interruptor deslizante esté en 
+posición de apagado, como se describe más arriba, después de 
+cualquier interrupción de la alimentación eléctrica a la herramienta, 
+como por ejemplo la activación de un interruptor diferencial de tierra, 
+la activación de un cortacircuitos, el desenchufe accidental o la 
+interrupción del suministro eléctrico. Si el interruptor deslizante está 
+posición de encendido al enchufar la herramienta, ésta se pondrá en 
+marcha súbitamente.
+Para poner en funcionamiento la herramienta, deslice el interruptor 
+de encendido/apagado (ON/OFF) (A) hacia la parte delantera de 
+la herramienta. Para apagar la herramienta, suelte el interruptor 
+deslizador de encendido/apagado.
+Para un funcionamiento continuo, deslice el interruptor hacia la parte 
+delantera de la herramienta y apriete la parte delantera del interruptor 
+hacia adentro. Para parar la herramienta mientras está funcionando 
+en modo continuo, apriete la parte trasera del interruptor deslizante 
+y suéltela.
+MANTENIMIENTO
+ADVERTENCIA: Para reducir el riesgo de lesiones corporales 
+graves, coloque el botón de avance y reversa en la posición de 
+bloqueo, o apague la herramienta y desconecte la unidad de 
+batería antes de realizar cualesquier ajuste o quitar o instalar 
+aditamentos o accesorios.
+Su herramienta D
+EWALT ha sido diseñada para funcionar durante un 
+largo período con un mínimo de mantenimiento. Un funcionamiento 
+continuo satisfactorio depende del cuidado adecuado de la 
+herramienta y de una limpieza periódica.
+Lubricación
+La herramienta eléctrica no requiere lubricación adicional
+Limpieza
+ADVERTENCIA: Sople la suciedad y el polvo de la carcasa 
+principal con aire seco siempre que vea acumularse el polvo 
+alrededor de los respiraderos. Utilice protección ocular y mascarillas 
+antipolvo aprobadas cuando realice este procedimiento. 
+ADVERTENCIA: no use nunca disolventes ni otros agentes 
+químicos agresivos para limpiar las piezas no metálicas de la 
+herramienta. Estos agentes químicos pueden debilitar los materiales 
+de dichas piezas. Use un trapo humedecido sólo con agua y jabón 
+suave. No deje que penetre ningún líquido dentro de la herramienta y 
+no sumerja ninguna pieza de la herramienta en líquidos.
+Reparaciones
+Para garantizar la SEGURIDAD y la CONFIABILIDAD, deberán 
+hacerse reparaciones, mantenimiento y ajustes de esta herramienta 
+en los centros autorizados de servicio D
+EWALT u otras organizaciones 
+autorizadas. Estas organizaciones prestan servicio a las herramientas 
+D
+EWALT y emplean siempre refacciones legitimas DEWALT.
+
+[PÁGINA 15]
+13
+Español
+Accesorios
+ADVERTENCIA: Dado que algunos accesorios, diferentes de los 
+ofrecidos por D EWALT, no se han probado con este producto, el 
+empleo de tales accesorios podría constituir un riesgo. Para reducir 
+el riesgo de lesiones, sólo deben usarse con el producto los 
+accesorios recomendados D
+EWALT.
+Si desea más información sobre los accesorios adecuados, consulte 
+a su distribuidor.
+Protección del Medio Ambiente
+  No deseche este producto con la basura normal del hogar o 
+sitio de trabajo.
+Si llegase el día en que su producto DEWALT necesita reemplazo, o si 
+no es de utilidad para usted, no lo deseche junto con otros residuos.
+  Este producto puede ser reciclado para prevenir la 
+contaminación del medio ambiente y reducir la demanda de 
+materias primas. 
+Le sugerimos llevar el producto a un centro de servicio autorizado 
+D
+EWALT o a un centro de reciclaje, donde expertos podrán reciclar y 
+reutilizar los materiales. 
+Revise las normativas locales para reciclaje de productos eléctricos 
+tales como herramientas y electrodomésticos, allí podrá encontrar 
+centros de reciclaje municipales.
+ESPECIFICACIONES
+DWE4010-AR DWE4010-B2 DWE4010-B3
+Voltaje 220 V~ 220 V~ 120 V~ 
+Frecuencia 50 Hz 50-60 Hz 50-60 Hz
+Potencia 700 W 700 W 700 W
+Velocidad 11 000/min 11 000/min 11 000/min
+
+[PÁGINA 16]
+14
+Português
+Deﬁ nições: diretrizes 
+de segurança
+As definições abaixo apresentadas descrevem o grau de 
+gravidade correspondente a cada palavra de advertência. Leia 
+cuidadosamente o manual e preste atenção a estes símbolos.
+PERIGO: Indica uma situação de risco iminente que, se não 
+for evitada, resultará em morte ou ferimentos graves.
+ATENÇÃO: Indica uma situação de risco potencial que, se 
+não evitada, poderá resultar em morte ou ferimentos graves.
+CUIDADO: Indica uma situação de risco potencial que, 
+se não evitada, poderá resultar em ferimentos leves ou 
+moderados.
+AVISO: Se refere a uma prática não relacionada a lesões 
+corporais que se não evitadas podem resultar em danos 
+materiais. 
+ ATENÇÃO: Para reduzir o risco de ferimentos, leia o manual de 
+instruções.
+Regras Gerais de Segurança
+ ATENÇÃO! Leia todas as instruções.  O descumprimento 
+das advertências e instruções listadas abaixo pode resultar em 
+choque elétrico, fogo e/ou em ferimento sério. 
+GUARDE ESTAS INSTRUÇÕES
+O termo “ferramenta” em todos os avisos listados abaixo referem-se 
+a ferramenta alimentada através de cabo elétrico ou a ferramenta 
+operada a bateria (sem cabo elétrico).
+1) ÁREA DE TRABALHO 
+a) Mantenha a área de trabalho limpa e iluminada. As áreas 
+desorganizadas e escuras são um convite aos acidentes. 
+b) Não opere ferramentas em atmosferas explosivas, como 
+na presença de líquidos inflamáveis, gases ou poeira. As 
+ferramentas criam faíscas que podem inflamar a poeira ou os 
+vapores.
+c) Mantenha crianças e visitantes afastados ao operar 
+uma ferramenta. As distrações podem fazer você perder o 
+controle.
+2) SEGURANÇA ELÉTRICA
+a) Os plugues da ferramenta devem ser compatíveis com 
+as tomadas. Nunca modifique o plugue. Não use nenhum 
+plugue adaptador com as ferramentas aterradas.  Os 
+plugues sem modificações aliados a utilização de tomadas 
+compatíveis reduzirão o risco de choque elétrico
+b) Evite o contato do corpo com superfícies ligadas ao 
+terra ou aterradas tais como as tubulações, radiadores, 
+escalas e refrigeradores . Há um aumento no risco de 
+choque elétrico se seu corpo for ligado ao terra ou aterramento.
+c) Não exponha as ferramentas à chuva ou às condições 
+úmidas. O contato da água com a ferramenta aumentará o 
+risco de choque elétrico. 
+d) Não force o cabo elétrico. Nunca use o cabo elétrico 
+para carregar, puxar ou para desconectar a ferramenta 
+da tomada. Mantenha o cabo elétrico longe do calor, 
+óleo, bordas afiadas ou das partes em movimentos.  Os 
+cabos danificados ou emaranhados aumentam o risco de 
+choque elétrico. 
+e) Ao operar uma ferramenta ao ar livre, use um cabo de 
+extensão apropriado para o uso ao ar livre. O uso de um 
+cabo apropriado ao ar livre reduz o risco de choque elétrico.
+f) Se não for possível evitar trabalhar com uma ferramenta 
+elétrica num local úmido, utilize uma alimentação 
+protegida por um dispositivo de corrente residual (DCR). 
+A utilização de um DCR reduz o risco de choque elétrico.
+
+[PÁGINA 17]
+15
+Português
+3) SEGURANÇA PESSOAL
+a) Fique atento, olhe o que você está fazendo e use o bom 
+senso ao operar uma ferramenta. Não use a ferramenta 
+quando você estiver cansado ou sob a influência de 
+drogas, álcool ou de medicamentos.  Um momento de 
+desatenção enquanto opera uma ferramenta pode resultar em 
+grave ferimento pessoal. 
+b) Use equipamento de segurança. Sempre use óculos de 
+segurança. O equipamento de segurança tais como a máscara 
+contra a poeira, sapatos de segurança antiderrapantes, 
+capacete de segurança, e protetor auricular usados em 
+condições apropriadas reduzirão os ferimentos pessoais.
+c) Evite acidente inicial. Assegure que o interruptor está 
+na posição desligada antes de conectar o plugue na 
+tomada. Carregar a ferramentas com seu dedo no interruptor 
+ou conectar a ferramenta que apresenta o interruptor na 
+posição “ ligado” são um convite à acidentes.
+d)  Remova qualquer chave de ajuste antes de ligar a 
+ferramenta. Uma chave de boca ou de ajuste unida a uma 
+parte rotativa da ferramenta pode resultar em ferimento 
+pessoal.
+e) Não force além do limite. Mantenha o apoio e o equilíbrio 
+adequado todas as vezes que utilizar a ferramenta.  
+Isto permite melhor controle da ferramenta em situações 
+inesperadas.
+f) Vista-se apropriadamente. Não use roupas 
+demasiadamente largas ou jóias. Mantenha seus cabelos, 
+roupas e luvas longe das peças móveis. A roupa folgada, 
+jóias ou cabelos longos podem ser presos pelas partes em 
+movimento.
+g) Se os dispositivos são fornecidos com conexão para 
+extração e coleta de pó, assegure que estes estão 
+conectados e usados corretamente.  O uso destes 
+dispositivos pode reduzir riscos relacionados a poeira.
+4) USO E CUIDADOS DA FERRAMENTA 
+a) Não force a ferramenta. Use a ferramenta correta para 
+sua aplicação. A ferramenta correta fará o trabalho melhor 
+e mais seguro se utilizada dentro daquilo para a qual foi 
+projetada.
+b) Não use a ferramenta se o interruptor não ligar e 
+desligar. Qualquer ferramenta que não pode ser controlada 
+com o interruptor é perigosa e deve ser reparada.
+c) Desconecte o plugue da tomada antes de fazer qualquer 
+tipo de ajuste, mudança de acessórios ou armazenamento 
+de ferramentas.  Tais medidas de segurança preventivas 
+reduzem o risco de se ligar a ferramenta acidentalmente.
+d) Guarde as ferramentas fora do alcance das crianças 
+e não permitam que pessoas não familiarizadas com 
+a ferramenta ou com estas instruções operem a 
+ferramenta. As ferramentas são perigosas nas mãos de 
+usuários não treinados. 
+e) Manutenção das ferramentas. Cheque o desalinhamento 
+ou coesão das partes móveis, rachaduras e qualquer outra 
+condição que possa afetar a operação da ferramenta. Se 
+danificada, a ferramenta deve ser reparada antes do 
+uso. Muitos acidentes são causados pela falta de manutenção 
+das ferramentas.
+f) Mantenha ferramentas de corte afiadas e limpas. A 
+manutenção apropriada das ferramentas de corte com lâminas 
+afiadas, tornam estas menos prováveis ao emperramento e 
+são mais fáceis de controlar.
+g) Use a ferramenta, e seus acessórios de acordo com as 
+instruções e na maneira designada para o tipo particular 
+da ferramenta, levando em consideração as condições 
+e o trabalho a ser desempenhado.  O uso da ferramenta 
+em operações diferentes das designadas podem resultar em 
+situações de risco.
+
+[PÁGINA 18]
+16
+Português
+5) REPAROS
+a) Tenha sua ferramenta reparada por um agente de 
+reparos qualificado e que somente use peças originais. 
+Isto irá assegurar que a segurança da ferramenta seja mantida.
+INSTRUÇÕES DE SEGURANÇA PARA 
+TODAS AS OPERAÇÕES
+Advertências de segurança comuns a 
+todos os trabalhos de esmerilhamento, 
+lixamento, limpeza com escova de 
+arame, polimento, desbaste abrasivo e 
+corte
+a) Esta ferramenta elétrica foi fabricada para ser utilizada 
+como esmerilhadeira, lixadeira, escova de arame, 
+politriz ou desbastadora. Leia e consulte todas as 
+instruções de segurança, recomendações, ilustrações 
+e especificações que acompanham a ferramenta. O 
+não seguimento das instruções abaixo pode causar choques 
+elétricos, incêndios e/ou ferimentos graves.
+b) Nunca use acessórios que não foram especificamente 
+fabricados e recomendados pelo fabricante da 
+ferramenta. O fato de que o acessório pode ser conectado 
+à sua ferramenta não garante uma operação segura.
+c) A velocidade nominal do acessório deve ser pelo menos 
+igual à velocidade máxima indicada na ferramenta. 
+Fazer funcionar um acessório a uma velocidade maior do 
+que sua velocidade nominal pode fazer com que o acessório 
+quebre e seja projetado no ar. 
+d) O diâmetro exterior e a espessura do acessório devem 
+estar dentro da capacidade nominal da sua ferramenta 
+elétrica. Os acessórios de tamanho inapropriado não podem 
+ser adequadamente controlados ou protegidos. 
+e) O tamanho do mandril dos discos, flanges, almofadas 
+de suporte ou qualquer outro acessório deve adaptar-
+se corretamente ao eixo da ferramenta elétrica. Os 
+acessórios com orifícios de mandril que não correspondem 
+aos acessórios de montagem da ferramenta elétrica ficarão 
+desequilibrados, vibrarão excessivamente e poderão causar 
+a perda de controle da ferramenta.
+f) Nunca use acessórios danificados. Por exemplo, 
+verifique se os discos abrasivos não estão rachados ou 
+quebrados. Verifique a almofada de suporte para ver 
+se não há rachaduras, rasgões ou desgaste excessivo. 
+Inspecione a escova de arame para ver se não há 
+arames soltos ou partidos. Se a ferramenta ou um 
+acessório tiver sofrido uma queda, verifique se há 
+danos ou instale um acessório em bom estado. Após 
+verificar e instalar um acessório, se afaste e afaste as 
+demais pessoas do plano do acessório giratório e faça 
+funcionar a ferramenta à velocidade máxima sem carga 
+durante um minuto. Os acessórios danificados geralmente 
+quebrarão durante este teste.
+g) Use equipamentos de proteção pessoal. Dependendo 
+do trabalho a ser feito com o aparelho, use um escudo 
+facial, óculos de segurança ou luvas de segurança. 
+Caso necessário, use uma máscara anti-pó, protetores 
+auditivos, luvas e um avental de trabalho capaz de 
+deter pequenos fragmentos de material abrasivo ou 
+da peça sendo trabalhada.  A proteção ocular deve ser 
+capaz de deter os fragmentos projetados durante as diversas 
+operações. A máscara anti-pó ou o respirador devem ser 
+capazes de filtrar as partículas geradas pelo trabalho sendo 
+feito. A exposição prolongada a ruídos de alta intensidade 
+pode causar perda de audição.
+
+[PÁGINA 19]
+17
+Português
+h) Mantenha os espectadores a uma distância segura 
+da área de trabalho. Toda pessoa que entre na área 
+de trabalho deve usar um equipamento de proteção 
+pessoal. Os fragmentos da peça sendo trabalhada ou de um 
+acessório quebrado podem ser projetados e causar danos 
+bem mais longe da área imediata onde o trabalho está sendo 
+feito. 
+i) Segure sempre uma ferramenta elétrica usando as 
+empunhaduras isoladas ao fazer um trabalho onde 
+a ferramenta de corte possa entrar em contato com 
+uma fiação oculta ou com o fio elétrico da própria 
+ferramenta. O contato do acessório de corte da ferramenta 
+com um fio “energizado” carregará as partes metálicas 
+expostas da ferramenta e causará um choque elétrico no 
+operador.
+j) Posicione o cabo ou fio elétrico longe do acessório 
+giratório. Caso você perca o controle da ferramenta, o fio 
+pode ser cortado ou ficar enganchado, e sua mão ou seu 
+braço podem ser puxados em direção ao acessório giratório.
+k) Nunca deite a ferramenta antes que a broca tenha 
+parado completamente de funcionar. O acessório em 
+rotação pode chegar a tocar a superfície e puxar a ferramenta 
+elétrica para longe de seu controle.
+l) Nunca faça a ferramenta elétrica funcionar quando 
+você estiver carregando-a a seu lado. O contato acidental 
+com o acessório em rotação poderia beliscar sua roupa e 
+puxar o acessório em direção ao seu corpo.
+m) Limpe periodicamente os orifícios de ventilação da 
+ferramenta. O ventilador do motor sugará a poeira para 
+dentro da caixa da ferramenta e o pó de metal acumulado 
+pode criar um risco de choque elétrico.
+n) Nunca use a ferramenta elétrica na proximidade de 
+substâncias inflamáveis.  As faíscas produzidas pelo 
+aparelho podem fazer com que estas substâncias peguem 
+fogo.
+o) Nunca use acessórios que precisem ser resfriados com 
+líquidos. O uso de água ou outros líquidos pode provocar 
+uma eletrocussão ou descarga elétrica.
+Causas de contragolpes e como evitá-los
+ O contragolpe é uma reação repentina a um disco, almofada de 
+suporte, escova ou qualquer outro acessório em rotação quando 
+o acessório é beliscado ou fica enganchado. A rotação fica 
+impedida causando a perda de controle da ferramenta elétrica. 
+Assim, a ferramenta é forçada na direção oposta à rotação do 
+acessório no ponto onde ele foi beliscado ou ficou enganchado.
+ Por exemplo, se um disco abrasivo é beliscado ou fica 
+enganchado na peça sendo trabalhada, a beira do disco que 
+está entrando no ponto que foi beliscado pode penetrar na 
+superfície do material, fazendo com que o disco salte ou recue. 
+O disco pode pular para a frente ou para longe do operador, 
+dependendo da direção do movimento no ponto onde o 
+acessório foi beliscado. Além disso, os discos abrasivos podem 
+quebrar nestas condições.
+ O contragolpe é o resultado do uso incorreto da ferramenta e/ou 
+de procedimentos ou condições de operação incorretas. Tome 
+as seguintes precauções para evitar sofrer contragolpes com 
+sua ferramenta: 
+a) Segure firmemente a ferramenta elétrica e posicione 
+seu corpo e braço de tal maneira que você possa 
+resistir à força de um possível contragolpe. Sempre use 
+a empunhadura auxiliar, caso sua ferramenta esteja 
+equipada com uma, para obter um controle máximo 
+em caso de contragolpe ou reação de torção ao iniciar 
+a operação da ferramenta. Ao tomar as precauções 
+adequadas, o operador pode controlar as forças de reação 
+ao esforço de torção ou de contragolpe.
+
+[PÁGINA 20]
+18
+Português
+b) Nunca coloque a mão perto do acessório quando ele 
+estiver girando. O contragolpe do acessório pode atingir 
+sua mão.
+c) Nunca posicione seu corpo na zona onde a ferramenta 
+elétrica possa se dirigir em caso de contragolpe.  O 
+contragolpe impulsionará a ferramenta na direção oposta 
+ao movimento do disco no ponto onde o acessório ficou 
+enganchado.
+d) Tenha muito cuidado ao trabalhar em cantos, beiras 
+afiadas, etc. Evite que o acessório sofra um contragolpe 
+e salte. Os cantos, as beiras afiadas ou o salto do aparelho 
+tendem a enganchar o acessório giratório e causar um 
+contragolpe e a perda de controle do aparelho.
+e) Nunca prenda ao aparelho uma lâmina para motosserra 
+nem uma lâmina de serra dentada. Estas lâminas têm 
+uma tendência ao contragolpe e à perda de controle.
+Advertências de segurança especíﬁ cas 
+para trabalhos de esmerilhamento e 
+corte abrasivo
+a) Use somente os tipos de disco recomendados para 
+sua ferramenta elétrica e para o protetor fabricado 
+especificamente para o disco selecionado. Os discos 
+para os quais a ferramenta elétrica não foi fabricada não 
+oferecem uma proteção adequada e são inseguros.
+b) O protetor deve ser preso firmemente à ferramenta 
+elétrica e posicionado para proporcionar a máxima 
+segurança de maneira que somente uma mínima parte 
+do disco fique exposta ao operador. O protetor ajuda a 
+proteger o operador contra fragmentos de discos quebrados, 
+um contato acidental com o disco, e faíscas que poderiam 
+fazer a roupa pegar fogo. 
+c) Use os discos somente para as aplicações 
+recomendadas. Por exemplo: não esmerilhe com o lado 
+de um disco de corte. Os discos para cortes abrasivos 
+são fabricados para esmerilhamento periférico. As forças 
+laterais aplicadas a estes discos podem fazer com que eles 
+se estilhacem. 
+d) Sempre use flanges de disco em bom estado, com a 
+forma e o tamanho adequados para o disco selecionado. 
+Os flanges de disco adequados oferecem suporte ao disco 
+reduzindo assim a possibilidade de quebra do disco. Os 
+flanges para discos de corte podem ser diferentes dos 
+flanges para discos de esmerilhamento.
+e) Nunca utilize discos desgastados usados em 
+ferramentas elétricas de maior porte. Os discos 
+fabricados para ferramentas elétricas de maior porte não 
+são adequados para a maior velocidade de uma ferramenta 
+menor e podem quebrar. 
+Advertências de segurança adicionais 
+especíﬁ cas para trabalhos de corte 
+abrasivo
+a) Nunca “comprima” o disco de corte nem aplique uma 
+pressão excessiva sobre ele. Nunca tente fazer um 
+corte demasiadamente profundo. A tensão excessiva 
+sobre o disco aumenta a carga e a possibilidade de que 
+o disco torça ou trave durante o corte e provoque um 
+contragolpe ou a quebra do disco. 
+b) Não posicione seu corpo em linha reta e atrás do disco 
+quando ele estiver girando. O disco no ponto de operação 
+está se afastando do seu corpo de modo que o possível 
+contragolpe pode projetar o disco em rotação e a ferramenta 
+elétrica diretamente até onde você se encontra. 
+c) Se o disco emperrar ou interromper o corte por 
+qualquer motivo, desligue a ferramenta elétrica e a 
+mantenha imóvel até que o disco pare completamente. 
+Nunca tente retirar o disco do corte enquanto o disco 
+
+[PÁGINA 21]
+19
+Português
+estiver em movimento, pois isto pode provocar um 
+contragolpe. Procure entender o problema e tome as 
+medidas corretivas necessárias para eliminar a causa do 
+emperramento do disco. 
+d) Não recomece a operação de corte na peça que 
+estava sendo trabalhada. Deixe que o disco alcance a 
+velocidade máxima e volte cuidadosamente a penetrar 
+no corte. O disco pode emperrar, pular para fora do corte ou 
+provocar um contragolpe, caso a ferramenta seja acionada 
+novamente dentro da peça sendo trabalhada. 
+e) Apoie os painéis ou qualquer peça de grandes 
+dimensões sendo trabalhada a fim de minimizar o 
+risco de que o disco belisque a peça ou provoque 
+um contragolpe.  As peças de trabalho grandes têm uma 
+tendência a arquear sob a ação do próprio peso. Os suportes 
+devem ser colocados sob a peça sendo trabalhada, perto 
+da linha de corte e da beira da peça, em ambos os lados do 
+disco. 
+f) Seja ainda mais cuidadoso ao fazer um “corte em 
+bolso” em paredes existentes ou numa área oculta.  A 
+parte exposta do disco pode cortar tubulações de gás ou 
+água ocultas, fios elétricos ou outros objetos provocando um 
+contragolpe.
+Instruções de segurança especíﬁ cas para 
+operações de lixamento
+a) Nunca use papel para disco de lixamento grande 
+demais. Siga as recomendações do fabricante ao 
+escolher o papel de lixamento.  O uso de papel de 
+lixamento maior do que a almofada de lixamento cria um risco 
+de laceração e pode causar um bloqueio, quebra do disco ou 
+contragolpe.
+Advertências de segurança especíﬁ cas 
+para trabalhos de limpeza com escova de 
+arame
+a) Esteja ciente de que as cerdas de arame podem se 
+soltar da escova mesmo durante um trabalho simples. 
+Por isto, não sobrecarregue os arames aplicando uma 
+pressão excessiva sobre a escova.  As cerdas de arame 
+podem penetrar facilmente numa roupa leve ou na pele. 
+b) Caso a utilização de um protetor seja recomendada 
+para os trabalhos de limpeza com escova de arame, 
+não permita nenhuma interferência entre o disco ou 
+a escova de arame e o protetor. O diâmetro do disco 
+ou da escova de arame pode se expandir devido às forças 
+centrífuga e a carga de trabalho. 
+Regras de segurança adicionais para 
+esmerilhadeiras
+  ATENÇÃO: O disco de esmerilhamento pode se afrouxar 
+enquanto a ferramenta estiver se imobilizando depois de ter 
+sido desligada.  Se o disco de esmerilhamento ou acessório se 
+afrouxar, ele poderá se soltar da ferramenta e causar lesões 
+corporais graves. 
+• O uso de acessórios não especificados neste manual 
+não é recomendado e pode ser perigoso.  A utilização de 
+dispositivos para aumentar a tensão para fazer a ferramenta 
+funcionar a velocidades mais altas que a velocidade nominal 
+constitui um uso indevido da ferramenta. 
+• Use morsas, braçadeiras ou qualquer maneira prática para 
+prender e apoiar a peça a ser trabalhada numa bancada 
+estável. Segurar a peça com as mãos ou contra seu corpo faz 
+com que a peça fique instável e pode fazer com que você perca 
+o controle dela.
+
+[PÁGINA 22]
+20
+Português
+• Evite dar golpes no disco ou manuseá-lo sem cuidado.  
+Caso isto aconteça, pare a ferramenta e inspecione o disco para 
+ver se há rachaduras ou defeitos. 
+• Sempre manuseie e guarde cuidadosamente os discos. 
+• Nunca faça trabalhos de corte em áreas que possam ter 
+fios elétricos ou tubulações. Caso contrário, podem ocorrer 
+lesões graves. 
+• Não trabalhe com esta ferramenta durante períodos muito 
+longos. A vibração criada pela operação desta ferramenta 
+pode causar lesões permanentes a seus dedos, suas mãos e 
+seus braços. Use luvas para ajudar a amortizar as vibrações, 
+descanse com frequência, e limite seu tempo de uso diário da 
+ferramenta. 
+• Muitas vezes, os orifícios de ventilação cobrem peças 
+móveis e, por isso, devem ser evitados.  As roupas folgadas, 
+adereços ou cabelos compridos podem ficar presos às partes 
+móveis.
+• Nunca use discos de Tipo 11 (cônicos) com esta ferramenta. 
+O uso de acessórios inadequados pode resultar em lesões 
+corporais.
+• Use sempre a empunhadura lateral. Aperte a firmemente a 
+empunhadura. A empunhadura lateral deve ser sempre usada 
+para que o usuário mantenha sempre o controle da ferramenta. 
+• Muitas vezes, os orifícios de ventilação cobrem peças 
+móveis e, por isso, devem ser evitados.  As roupas folgadas, 
+adereços ou cabelos compridos podem ficar presos às partes 
+móveis
+• Para sua segurança, os cabos de extensão devem ter um 
+calibre adequado. Uma extensão de menor calibre causará 
+uma queda de tensão o que resultará em perda de potência e 
+superaquecimento da ferramenta. Ao usar mais de uma extensão 
+para completar o comprimento total, tenha certeza de que os 
+fios de cada extensão têm pelo menos o calibre mínimo. A tabela 
+a seguir indica o tamanho que deve ser usado em função do 
+comprimento do cabo e da amperagem nominal. Em caso de 
+dúvida, use um fio de maior capacidade. Quanto menor o número 
+do calibre, maior será a capacidade do cabo.
+Tensão
+(Volts)
+Comprimento do cabo de extensão 
+em metros (m)
+120–127V 0–7 7–15 15–30 30–50
+220–240V 0–15 15–30 30–60 60–100
+Faixa de 
+Corrente nominal 
+(Amperes)
+Secção mínima do cabo de extensão 
+em milímetros quadrados (mm2)
+0–6A 1,0 1,5 1,5 2,5
+6–10A 1,0 1,5 2,5 4,0
+10–12A 1,5 1,5 2,5 4,0
+12–16A 2,5 4,0 Não Recomendado
+ATENÇÃO: É possível que uma parte da poeira criada por algumas 
+ferramentas elétricas de lixamento, serragem, esmerilhamento, 
+perfuração e outras atividades de construção contenha substâncias 
+químicas que comprovadamente causam câncer, defeitos congênitos 
+ou problemas reprodutivos. Os seguintes são alguns exemplos 
+desses produtos químicos: 
+• chumbo nas tintas à base de chumbo,
+• sílica cristalina em tijolos, cimento e outros produtos de 
+alvenaria, e
+• arsênio e cromo em madeiras tratadas quimicamente.
+O risco de exposição a esses produtos varia dependendo da 
+freqüência de execução desse tipo de trabalho. A fim de reduzir sua 
+exposição a essas substâncias químicas: trabalhe em áreas bem 
+ventiladas e usando equipamentos de segurança aprovados como, 
+por exemplo, máscaras contra pó fabricadas especialmente para 
+impedir a passagem de partículas microscópicas.
+
+[PÁGINA 23]
+21
+Português
+• Evite o contato prolongado com o pó produzido por 
+lixamento, serragem, esmerilhagem, perfuração e outras 
+atividades de construção. Vista roupas protetoras e lave 
+com sabão e água as partes do corpo expostas. Permitir 
+que o pó entre em contato com a boca, os olhos ou a pele pode 
+provocar a absorção de produtos químicos nocivos pelo corpo. 
+ATENÇÃO: O uso desta ferramenta pode criar e/ou espalhar pó 
+que pode causar lesões respiratórias e de outros tipos sérias e 
+permanentes. Use sempre equipamentos adequados de proteção 
+respiratória contra pó aprovados pelo NIOSH ou pela OSHA. 
+Direcione as partículas para longe do rosto e do corpo.
+ATENÇÃO: Use SEMPRE óculos de segurança. Seus óculos 
+de uso diário NÃO são óculos de segurança. Além disso, caso o 
+trabalho de corte possa criar muito pó, use sempre uma máscara 
+facial ou máscara contra pó. USE SEMPRE EQUIPAMENTOS DE 
+SEGURANÇA CERTIFICADOS:
+• Proteção para os olhos ANSI Z87.1 (CAN/CSA Z94.3),
+• Proteção para os ouvidos ANSI S12.6 (S3.19),
+• Proteção respiratória NIOSH/OSHA/MSHA.
+• A etiqueta de sua ferramenta pode incluir os seguintes símbolos. 
+As definições de cada um deles são as seguintes:
+V ...................volts A ......................amperios
+Hz .................hertz W .....................watts
+min ...............minutos 
+or AC ..........corrente 
+or DC ... corrente contínuat alternada 
+ .................Construção de or AC/DC ...alternada
+ .....................Classe I (aterrado)  ........................ou contínuat
+ .................Construção de corrente
+Classe II  no ....................nenhuma
+ ......................(isolamento duplo)  ........................velocidade
+…/min .......... per minute   ........................de carga
+BPM .............batidas por minuto  n ......................velocidade 
+IPM ............... impactos por minuto  ........................nominal
+…/min ...........revoluções ou por  .....................terminal de
+minuto  aterramento
+sfpm ............. pés de área por  .....................símbolo de 
+ .....................minuto (sfpm) alerta de
+SPM ............. golpes por minuto  ........................segurança 
+DESCRIÇÃO (FIG. 1)
+ATENÇÃO: nunca modifique a ferramenta elétrica ou qualquer 
+uma das suas peças. Podem ocorrer danos ou lesões.
+ A. Interruptor de ligar/desligar
+ B. Bloqueio dos fusos
+ C. Protecção
+ D. Punho lateral 
+USO DEVIDO DA FERRAMENTA
+Esta ferramenta foi fabricada para trabalhos profissionais de 
+esmerilhamento, lixamento, polimento com escova de arame, ou 
+corte.
+NUNCA use o aparelho na presença de umidade nem de líquidos 
+ou gases inflamáveis. 
+Esta esmerilhadeira é uma ferramenta elétrica de uso profissional.  
+NUNCA deixe que nenhuma criança se aproxime da ferramenta. Os 
+usuários que não tenham experiência com esta ferramenta devem 
+sempre ser supervisados.
+
+[PÁGINA 24]
+22
+Português
+B
+A
+D
+C
+FIG. 1
+MONTAGEM E AJUSTES
+ATENÇÃO: Para reduzir o risco de lesões graves, desligue a 
+ferramenta e desligue a bateria antes de proceder a quaisquer 
+ajustes ou de remover/instalar instrumentos ou acessórios.  
+Um arranque acidental pode causar lesões.
+ATENÇÃO: Antes da montagem de acessórios e da afinação 
+retire sempre a ficha da tomada.
+Fixar o punho lateral (ﬁ g. 2)
+Enrosque o punho lateral (D) com firmeza num dos orifícios (E) em 
+cada lado da caixa do motor.
+D
+E
+FIG. 2
+E
+Montagem e desmontagem da guarda de 
+proteção (Figuras 3a-3d)
+ Alinhe o ressalto na guarda com a fenda do suporte fixo da base da 
+caixa de engrenagem (Figura 3a). 
+ 2. Pressione a guarda na direção da caixa de engrenagem e depois 
+gire-a na direção da seta (Figura 3b). 
+ 3. Nesta posição, o pino de travamento localizado na fenda impede 
+que a guarda fique solta, mas permite a rotação através de 105°. 
+  Para remover a guarda: 
+ 1. Coloque a ferramenta de cabeça para baixo em uma superfície 
+plana. 
+ 2. Segure a ferramenta e, usando o polegar, gire a guarda na direção 
+da seta (Figura 3c).  Ao mesmo tempo, usando uma chave de 
+fendas ou outro instrumento pontiagudo, pressione o pino de 
+bloqueio na fenda de modo que o ressalto na guarda fique visível 
+(Figura 3d).
+
+[PÁGINA 25]
+23
+Português
+ 3. O pino de travamento não prende a guarda e esta pode ser 
+empurrada sem impedimento. 
+a b
+c d
+FIG. 3
+Instalar e retirar um disco de desbaste
+(ﬁ g. 1, 4–5)
+ 1. Coloque a ferramenta em cima de uma mesa com a protecção 
+virada para cima.
+ 2. Insira o encaixe de apoio (J) correctamente no veio (K) (fig. 4).
+ 3. Coloque o disco (L) no encaixe de apoio (J). Ao instalar um disco 
+com o centro levantado, certifique-se de que o centro levantado 
+(M) está virado para o encaixe de apoio (J).
+K
+L
+J
+FIG. 4 N
+M
+ 4. Enrosque a porca de fixação roscada (N) no veio (K): 
+  a.  O anel na porca de fixação roscada (N) tem de estar virado 
+para o disco ao instalar um disco de desbaste (fig. 5A);
+  b.  O anel na porca de fixação roscada (N) tem de estar virado 
+para o lado oposto do disco ao instalar um disco de corte 
+(fig. 5B).
+ 5. Prima o botão de bloqueio do veio (B) e rode o veio (K) até este 
+ficar fixo.
+ 6. Aperte a porca de fixação roscada (N) com a chave de dois pinos 
+fornecida.
+ 7. Solte o bloqueio do veio.
+ 8. Para retirar o disco, desaperte a porca de fixação roscada (N) 
+com a chave de dois pinos.
+ATENÇÃO: não utilize discos danificados.
+
+[PÁGINA 26]
+24
+Português
+ 1. Remover a protecção.
+ 2. Retire o encaixe de 
+apoio (J).
+ 3. Coloque o disco de 
+apoio de borracha 
+(O) correctamente no 
+veio (K).
+ 4. Coloque a folha de lixa 
+(P) no disco de apoio de 
+borracha .
+ 5. Enrosque a porca de 
+fixação roscada (Q) no 
+veio (K). 
+ 6. Prima o botão de bloqueio 
+do veio (B) e rode o veio 
+(K) até este ficar fixo.
+ 7. Aperte a porca de fixação roscada (Q) com a chave de dois 
+pinos.
+ 8. Solte o bloqueio do veio
+ 9. Para retirar o disco de apoio de borracha, desaperte a porca de 
+fixação roscada (Q) com a chave de dois pinos.
+FUNCIONAMENTO
+ATENÇÃO: Para reduzir o risco de lesões graves, desligue a 
+ferramenta e desligue a bateria antes de proceder a quaisquer 
+ajustes ou de remover/instalar instrumentos ou acessórios.  
+Um arranque acidental pode causar lesões.
+ATENÇÃO: Respeite sempre as instruções de segurança e os 
+regulamentos aplicáveis.
+FIG. 5A N
+L
+J
+K
+N
+J
+L
+K
+FIG. 5B
+Encaixe de uma escova metálica em 
+forma de taça
+Aparafuse a escova metálica em forma de taça directamente na 
+haste sem utilizar o espacejador e a patilha de fixação.
+Instalar e remover um 
+disco de apoio/folha de lixa  (ﬁ g. 1, 6)
+A disco de apoio está disponível a um custo extra de seu revendedor 
+local ou centro de serviço autorizado.
+K
+P
+Q
+FIG. 6
+O
+
+[PÁGINA 27]
+25
+Português
+ •   Certifique-se de que todos os materiais a serem desbastados 
+estão fixos com firmeza.
+ •   Aplique apenas uma pressão ligeira sobre a ferramenta. Não 
+exerça qualquer pressão lateral no disco.
+ •  Evite exceder a capacidade de trabalho da ferramenta. Se a 
+ferramenta começar a ficar quente, deixe-a funcionar durante 
+alguns minutos em vazio para arrefecer o acessório. 
+Antes de qualquer utilização
+ • Instale a protecção e o disco apropriado. Não utilize discos excessivamente 
+gastos.
+• Certifique-se de que os encaixes interior e exterior são montados 
+correctamente. 
+ • Assegure-se de que o disco roda na direcção das setas no acessório e na 
+ferramenta.
+Interruptores
+CUIDADO: Segure firmemente a empunhadura lateral e o corpo 
+da ferramenta para manter o controle da ferramenta ao iniciar 
+um trabalho e enquanto a ferramenta estiver sendo usada, e até 
+que o disco ou o acessório pare de girar. Deixe que o disco pare 
+completamente de girar antes de colocar a ferramenta sobre uma 
+superfície para descansar.
+NOTA: Para reduzir o risco de movimentos inesperados da 
+ferramenta, não ligue nem desligue a ferramenta quando ela estiver 
+sob carga. Deixe que a esmerilhadeira alcance a velocidade máxima 
+antes de tocar a superfície de trabalho. Retire a ferramenta da 
+superfície de trabalho antes de desligá-la. Deixe que a ferramenta 
+pare completamente de girar antes de colocá-la sobre uma 
+superfície para descansar. 
+INTERRUPTOR DESLIZANTE (FIG. 1)
+ATENÇÃO: Antes de ligar a ferramenta à fonte de alimentação 
+elétrica, certifique-se de que o interruptor deslizante esteja na 
+posição desligado (“off”) apertando e soltando a parte traseira do 
+interruptor. Certifique-se de que o interruptor deslizante esteja na 
+posição desligado (“off”), tal como explicado acima, após qualquer 
+interrupção da alimentação elétrica à ferramenta como, por 
+exemplo, a ativação de um interruptor de terra, a ativação de um 
+disjuntor, o desligamento acidental ou a interrupção do fornecimento 
+de energia elétrica. Caso o interruptor deslizante esteja na posição 
+ligado (“on”) quando a ferramenta for ligada à corrente elétrica, ela 
+entrará subitamente em funcionamento. 
+Para por a ferramenta em funcionamento, deslize o interruptor 
+liga/desliga (A) até a parte dianteira da ferramenta. Para parar o 
+funcionamento a ferramenta, solte o interruptor deslizante liga/
+desliga. 
+Para manter a ferramenta em funcionamento contínuo, deslize o 
+interruptor para a parte dianteira da ferramenta e aperte a parte 
+dianteira do interruptor para dentro. Para parar a ferramenta 
+enquanto ela está funcionando em modo contínuo, aperte e solte a 
+parte traseira do interruptor deslizante. 
+MANUTENÇÃO
+ATENÇÃO: Para reduzir o risco de lesões graves, desligue a 
+ferramenta e desligue a bateria antes de proceder a quaisquer 
+ajustes ou de remover/instalar instrumentos ou acessórios . 
+Um arranque acidental pode causar lesões.
+Esta ferramenta elétrica D
+EWALT foi concebida para o servir durante 
+muito tempo com um mínimo de manutenção. Um funcionamento 
+satisfatório e longo depende de cuidados adequados e de uma 
+limpeza regular.
+Lubriﬁ cação
+Esta ferramenta elétrica não requer lubrificação adicional.
+
+[PÁGINA 28]
+26
+Português
+Limpeza
+ATENÇÃO: Injetar ar seco para retirar a sujidade e o pó do 
+alojamento principal, sempre que notar uma acumulação de sujidade 
+nos respiradores ou em torno dos mesmos. Utilize uma proteção 
+adequada para os olhos e uma máscara para o pó quando realizar 
+esta operação. 
+ATENÇÃO: Nunca utilize solventes ou outros químicos agressivos 
+para limpar as partes não metálicas da ferramenta. Estes químicos 
+podem enfraquecer os materiais utilizados nestas partes. Utilize um 
+pano umedecido apenas com água e detergente suave. Nunca 
+permita que entre nenhum líquido na ferramenta; nunca mergulhe 
+qualquer parte da ferramenta em líquido.
+Reparos
+Para assegurar a SEGURANÇA e a CONFIABILIDADE da ferramenta, 
+os reparos, a manutenção e os ajustes (incluindo inspeção e 
+substituição da escova) devem ser realizados por um centro 
+de serviços autorizados da D
+EWALT ou outro pessoal técnico 
+qualificado. Use sempre peças de reposição idênticas.
+A D EWALT possui uma das maiores Redes de Serviços do País, 
+Ligue: 0800-7034644 ou consulte nosso site: www.dewalt.com.br, 
+para saber qual é a mais próxima de sua localidade.
+Acessórios
+ATENÇÃO: Uma vez que os acessórios que não sejam os 
+disponibilizados pela DEWALT não foram testados com este produto, 
+a utilização de tais acessórios nesta ferramenta poderá ser perigosa. 
+Para reduzir o risco de lesão, deverão utilizar-se apenas os acessórios 
+recomendados pela D
+EWALT com este produto.
+Consulte o seu revendedor para mais informações acerca dos 
+acessórios adequados.
+Protegendo o Meio Ambiente Coleta 
+seletiva
+  Este produto não deve ser descartado com o lixo doméstico 
+normal.
+Se você constatar que seu produto D EWALT necessita de troca, ou 
+não é mais viável ao uso, não elimine em lixo doméstico.
+   Este produto pode ser reciclado para evitar a poluição do 
+meio ambiente e reduzir a demanda por matérias-primas. 
+Sugerimos que você leve o produto para um centro de serviços 
+autorizado DEWALT ou centro de reciclagem.
+Consulte as regulamentações locais para reciclagem de produtos 
+elétricos, e onde você pode encontrar centros de reciclagem local.
+ESPECIFICAÇÕES
+DWE4010-B2 DWE4010-BR
+Tensão 220 V~ 127 V~ 
+Freqüencia 50–60 Hz 60 Hz
+Potencia 700 W 700 W
+Velocidade 11 000/min 11 000/min
+
+[PÁGINA 29]
+27
+English
+Deﬁ nitions: Safety Guidelines 
+The definitions below describe the level of severity for each 
+signal word. Please read the manual and pay attention to these 
+symbols.
+DANGER: Indicates an imminently hazardous situation which, 
+if not avoided, will result in death or serious injury.
+WARNING: Indicates a potentially hazardous situation which, 
+if not avoided, could result in death or serious injury.
+CAUTION: Indicates a potentially hazardous situation which, if 
+not avoided, may result in minor or moderate injury.
+NOTICE: indicates a practice not related to personal injury 
+which, if not avoided, may result in property damage.
+WARNING: To reduce the risk of injury, read the instruction 
+manual.
+General Power Tool Safety Warnings
+WARNING! Read all safety warnings and all instructions 
+Failure to follow the warnings and instructions may result in 
+electric shock, fire and/or serious injury.
+SAVE ALL WARNINGS AND INSTRUCTIONS 
+FOR FUTURE REFERENCE
+The term “power tool” in the warnings refers to your mains-operated 
+(corded) power tool or battery-operated (cordless) power tool.
+1) WORK AREA SAFETY
+a) Keep work area clean and well lit. Cluttered or dark areas 
+invite accidents.
+b) Do not operate power tools in explosive atmospheres, 
+such as in the presence of flammable liquids, gases or 
+dust. Power tools create sparks which may ignite the dust or 
+fumes.
+c) Keep children and bystanders away while operating a 
+power tool. Distractions can cause you to lose control.
+2) ELECTRICAL SAFETY
+a) Power tool plugs must match the outlet. Never modify 
+the plug in any way. Do not use any adapter plugs with 
+earthed (grounded) power tools. Unmodified plugs and 
+matching outlets will reduce risk of electric shock.
+b) Avoid body contact with earthed or grounded surfaces 
+such as pipes, radiators, ranges and refrigerators. There 
+is an increased risk of electric shock if your body is earthed or 
+grounded.
+c) Do not expose power tools to rain or wet conditions. 
+Water entering a power tool will increase the risk of electric 
+shock.
+d) Do not abuse the cord. Never use the cord for carrying, 
+pulling or unplugging the power tool. Keep cord away 
+from heat, oil, sharp edges or moving parts. Damaged or 
+entangled cords increase the risk of electric shock. 
+e) When operating a power tool outdoors, use an extension 
+cord suitable for outdoor use. Use of a cord suitable for 
+outdoor use reduces the risk of electric shock. 
+f) If operating a power tool in a damp location is unavoidable, 
+use a residual current device (RCD) protected supply.  
+Use of an RCD reduces the risk of electric shock.
+3) PERSONAL SAFETY
+a) Stay alert, watch what you are doing and use common 
+sense when operating a power tool. Do not use a power 
+tool while you are tired or under the influence of drugs, 
+alcohol or medication.  A moment of inattention while 
+operating power tools may result in serious personal injury.
+b) Use personal protective equipment. Always wear eye 
+protection. Protective equipment such as dust mask, non-
+
+[PÁGINA 30]
+28
+English
+skid safety shoes, hard hat, or hearing protection used for 
+appropriate conditions will reduce personal injuries.
+c) Prevent unintentional starting. Ensure the switch is in 
+the off position before connecting to power source and/
+or battery pack, picking up or carrying the tool. Carrying 
+power tools with your finger on the switch or energising power 
+tools that have the switch on invites accidents.
+d) Remove any adjusting key or wrench before turning the 
+power tool on. A wrench or a key left attached to a rotating 
+part of the power tool may result in personal injury.
+e) Do not overreach. Keep proper footing and balance at 
+all times. This enables better control of the power tool in 
+unexpected situations.
+f) Dress properly. Do not wear loose clothing or jewellery. 
+Keep your hair, clothing and gloves away from moving 
+parts. Loose clothes, jewellery or long hair can be caught in 
+moving parts. 
+g) If devices are provided for the connection of dust 
+extraction and collection facilities, ensure these are 
+connected and properly used. Use of dust collection can 
+reduce dust-related hazards.
+4) POWER TOOL USE AND CARE
+a) Do not force the power tool. Use the correct power tool 
+for your application. The correct power tool will do the job 
+better and safer at the rate for which it was designed.
+b) Do not use the power tool if the switch does not turn it 
+on and off. Any power tool that cannot be controlled with the 
+switch is dangerous and must be repaired.
+c) Disconnect the plug from the power source and/or the 
+battery pack from the power tool before making any 
+adjustments, changing accessories, or storing power 
+tools. Such preventive safety measures reduce the risk of 
+starting the power tool accidentally.
+d) Store idle power tools out of the reach of children and 
+do not allow persons unfamiliar with the power tool or 
+these instructions to operate the power tool. Power tools 
+are dangerous in the hands of untrained users.
+e) Maintain power tools. Check for misalignment or binding 
+of moving parts, breakage of parts and any other 
+condition that may affect the power tool’s operation. If 
+damaged, have the power tool repaired before use. Many 
+accidents are caused by poorly maintained power tools.
+f) Keep cutting tools sharp and clean. Properly maintained 
+cutting tools with sharp cutting edges are less likely to bind and 
+are easier to control.
+g) Use the power tool, accessories and tool bits etc., in 
+accordance with these instructions taking into account 
+the working conditions and the work to be performed. 
+Use of the power tool for operations different from those 
+intended could result in a hazardous situation.
+5) SERVICE
+a) Have your power tool serviced by a qualified repair 
+person using only identical replacement parts.  This will 
+ensure that the safety of the power tool is maintained.
+SAFETY INSTRUCTIONS FOR 
+ALL OPERATIONS
+Safety Warnings Common for Grinding, 
+Sanding, Wire Brushing, Polishing or 
+Abrasive, Cutting-Off Operations
+a) This power tool is intended to function as a grinder, 
+sander, wire brush, polisher or cut-off tool. Read all safety 
+warnings, instructions, illustrations and specifications 
+provided with this power tool. Failure to follow all instructions 
+listed below may result in electric shock, fire and/or serious 
+injury.
+
+[PÁGINA 31]
+29
+English
+b) Do not use accessories which are not specifically 
+designed and recommended by the tool manufacturer. 
+Just because the accessory can be attached to your power 
+tool, it does not assure safe operation.
+c) The rated speed of the accessory must be at least 
+equal to the maximum speed marked on the power tool. 
+Accessories running faster than their rated speed can break 
+and fly apart.
+d) The outside diameter and the thickness of your accessory 
+must be within the capacity rating of your power tool.  
+Incorrectly sized accessories cannot be adequately guarded or 
+controlled.
+e) The arbor size of wheels, flanges, backing pads or 
+any other accessory must properly fit the spindle of 
+the power tool. Accessories with arbor holes that do not 
+match the mounting hardware of the power tool will run out of 
+balance, vibrate excessively and may cause loss of control.
+f) Do not use a damaged accessory. Before each use 
+inspect the accessory such as abrasive wheels for chips 
+and cracks, backing pad for cracks, tear or excess wear, 
+wire brush for loose or cracked wires. If power tool or 
+accessory is dropped, inspect for damage or install an 
+undamaged accessory. After inspecting and installing an 
+accessory, position yourself and bystanders away from 
+the plane of the rotating accessory and run the power 
+tool at maximum no-load speed for one minute. Damaged 
+accessories will normally break apart during this test time.
+g) Wear personal protective equipment. Depending on 
+application, use face shield, safety goggles or safety 
+glasses. As appropriate, wear dust mask, hearing 
+protectors, gloves and workshop apron capable of 
+stopping small abrasive or workpiece fragments. The eye 
+protection must be capable of stopping flying debris generated 
+by various operations. The dust mask or respirator must be 
+capable of filtrating particles generated by your operation. 
+Prolonged exposure to high intensity noise may cause hearing 
+loss.
+h) Keep bystanders a safe distance away from work area. 
+Anyone entering the work area must wear personal 
+protective equipment. Fragments of workpiece or of a 
+broken accessory may fly away and cause injury beyond 
+immediate area of operation.
+i) Hold power tool by insulated gripping surfaces only, 
+when performing an operation where the cutting 
+accessory may contact hidden wiring or its own cord. 
+Cutting accessory contacting a "live" wire may make exposed 
+metal parts of the power tool "live" and could give the operator 
+an electrical shock.
+j) Position the cord clear of the spinning accessory. If you 
+lose control, the cord may be cut or snagged and your hand or 
+arm may be pulled into the spinning accessory.
+k) Never lay the power tool down until the accessory has 
+come to a complete stop. The spinning accessory may grab 
+the surface and pull the power tool out of your control.
+l) Do not run the power tool while carrying it at your side. 
+Accidental contact with the spinning accessory could snag 
+your clothing, pulling the accessory into your body.
+m) Regularly clean the power tool’s air vents. The motor’s 
+fan will draw the dust inside the housing and excessive 
+accumulation of powdered metal may cause electrical hazards.
+n) Do not operate the power tool near flammable materials. 
+Sparks could ignite these materials.
+o) Do not use accessories that require liquid coolants.  
+Using water or other liquid coolants may result in electrocution 
+or shock.
+
+[PÁGINA 32]
+30
+English
+Causes and Operator Prevention 
+of Kickback
+ Kickback is a sudden reaction to a pinched or snagged rotating 
+wheel, backing pad, brush or any other accessory. Pinching or 
+snagging causes rapid stalling of the rotating accessory which 
+in turn causes the uncontrolled power tool to be forced in the 
+direction opposite of the accessory’s rotation at the point of the 
+binding.
+ For example, if an abrasive wheel is snagged or pinched by the 
+workpiece, the edge of the wheel that is entering into the pinch 
+point can dig into the surface of the material causing the wheel 
+to climb out or kick out. The wheel may either jump toward or 
+away from the operator, depending on direction of the wheel’s 
+movement at the point of pinching. Abrasive wheels may also 
+break under these conditions.
+ Kickback is the result of power tool misuse and/or incorrect 
+operating procedures or conditions and can be avoided by taking 
+proper precautions as given below:
+a) Maintain a firm grip on the power tool and position your 
+body and arm to allow you to resist kickback forces. 
+Always use auxiliary handle, if provided, for maximum 
+control over kickback or torque reaction during start up. 
+The operator can control torque reaction or kickback forces, if 
+proper precautions are taken.
+b) Never place your hand near the rotating accessory. 
+Accessory may kickback over your hand.
+c)  Do not position your body in the area where power tool 
+will move if kickback occurs.  Kickback will propel the tool 
+in direction opposite to the wheel’s movement at the point of 
+snagging.
+d) Use special care when working corners, sharp edges etc. 
+Avoid bouncing and snagging the accessory. Corners, 
+sharp edges or bouncing have a tendency to snag the rotating 
+accessory and cause loss of control or kickback.
+e) Do not attach a saw chain woodcarving blade or toothed 
+saw blade. Such blades create frequent kickback and loss of 
+control.
+Safety Warnings Speciﬁ c for Grinding and 
+Abrasive Cutting-Off Operations
+a) Use only wheel types that are recommended for your 
+power tool and the specific guard designed for the 
+selected wheel. Wheels for which the power tool was not 
+designed cannot be adequately guarded and are unsafe.
+b) The guard must be securely attached to the power tool 
+and positioned for maximum safety, so the least amount 
+of wheel is exposed towards the operator. The guard helps 
+to protect operator from broken wheel fragments, accidental 
+contact with wheel, and sparks that could ignite clothing.
+c) Wheels must be used only for recommended applications. 
+For example: do not grind with the side of cut-off wheel. 
+Abrasive cut-off wheels are intended for peripheral grinding, 
+side forces applied to these wheels may cause them to shatter.
+d) Always use undamaged wheel flanges that are of correct 
+size and shape for your selected wheel. Proper wheel 
+flanges support the wheel thus reducing the possibility of wheel 
+breakage. Flanges for cut-off wheels may be different from 
+grinding wheel flanges.
+e) Do not use worn down wheels from larger power tools. 
+Wheel intended for larger power tool is not suitable for the 
+higher speed of a smaller tool and may burst.
+Additional Safety Warnings Speciﬁ c for 
+Abrasive Cutting-Off Operations
+a) Do not “jam” the cut-off wheel or apply excessive 
+pressure. Do not attempt to make an excessive depth 
+of cut. Overstressing the wheel increases the loading and 
+susceptibility to twisting or binding of the wheel in the cut and 
+the possibility of kickback or wheel breakage.
+
+[PÁGINA 33]
+31
+English
+Safety Warnings Speciﬁ c for Wire 
+Brushing Operations
+a) Be aware that wire bristles are thrown by the brush even 
+during ordinary operation. Do not overstress the wires 
+by applying excessive load to the brush. The wire bristles 
+can easily penetrate light clothing and/or skin.
+b) If the use of a guard is recommended for wire brushing, 
+do not allow any interference of the wire wheel or brush 
+with the guard. Wire wheel or brush may expand in diameter 
+due to work load and centrifugal forces.
+Additional Safety Rules for Grinders
+ WARNING: The grinding wheel or accessory may loosen 
+during coast-down of the tool when shut off.  If grinding wheel 
+or accessory loosens, it may dismount from the machine and may 
+cause serious personal injury.
+• Use of accessories not specified in this manual is not 
+recommended and may be hazardous. Use of power boosters 
+that would cause the tool to be driven at speeds greater than its 
+rated speed constitutes misuse.
+• Use clamps or another practical way to secure and support 
+the workpiece to a stable platform. Holding the work by hand 
+or against your body leaves it unstable and may lead to loss of 
+control.
+• Avoid bouncing the wheel or giving it rough treatment. If this 
+occurs, stop the tool and inspect the wheel for cracks or flaws.
+• Always handle and store wheels in a careful manner.
+• Never cut into area that may contain electrical wiring or 
+piping. Serious injury may result.
+• Do not operate this tool for long periods of time. Vibration 
+caused by the operating action of this tool may cause permanent 
+injury to fingers, hands, and arms. Use gloves to provide extra 
+cushion, take frequent rest periods, and limit daily time of use.
+b) Do not position your body in line with and behind the 
+rotating wheel. When the wheel, at the point of operation, is 
+moving away from your body, the possible kickback may propel 
+the spinning wheel and the power tool directly at you.
+c) When wheel is binding or when interrupting a cut for any 
+reason, switch off the power tool and hold the power 
+tool motionless until the wheel comes to a complete 
+stop. Never attempt to remove the cut-off wheel from 
+the cut while the wheel is in motion otherwise kickback 
+may occur. Investigate and take corrective action to eliminate 
+the cause of wheel binding.
+d) Do not restart the cutting operation in the workpiece. 
+Let the wheel reach full speed and carefully reenter the 
+cut. The wheel may bind, walk up or kickback if the power tool 
+is restarted in the workpiece.
+e) Support panels or any oversized workpiece to minimize 
+the risk of wheel pinching and kickback. Large workpieces 
+tend to sag under their own weight. Supports must be placed 
+under the workpiece near the line of cut and near the edge of 
+the workpiece on both sides of the wheel.
+f) Use extra caution when making a "pocket cut" into 
+existing walls or other blind areas.  The protruding wheel 
+may cut gas or water pipes, electrical wiring or objects that can 
+cause kickback.
+Safety Warnings Speciﬁ c for Sanding 
+Operations
+a) Do not use excessively oversized sanding disc paper. 
+Follow manufacturers recommendations, when selecting 
+sanding paper. Larger sanding paper extending beyond the 
+sanding pad presents a laceration hazard and may cause 
+snagging, tearing of the disc or kickback.
+
+[PÁGINA 34]
+32
+English
+• Do not use Type 11 (flaring cup) wheels on this tool.  Using 
+inappropriate accessories can result in injury.
+• Always use side handle.  Tighten the handle securely. The 
+side handle should always be used to maintain control of the tool 
+at all times.
+• Air vents often cover moving parts and should be avoided. 
+Loose clothes, jewelry or long hair can be caught in moving parts.
+• An extension cord must have adequate wire size for safety. 
+An undersized cord will cause a drop in line voltage resulting in loss 
+of power and overheating. When using more than one extension 
+to make up the total length, be sure each individual extension 
+contains at least the minimum wire size. The following table shows 
+the correct size to use depending on cord length and nameplate 
+ampere rating. If in doubt, use the next heavier gauge. The smaller 
+the gauge number, the heavier the cord
+Voltage (Volts)  Total length of cord in meters (m)
+120–127V 0–7 7–15 15–30 30–50
+220–240V 0–15 15–30 30–60 60–100
+Rated Ampere 
+range
+Minimal cross-sectional area of the
+cord in meters (mm2 )
+0–6A 1.0 1.5 1.5 2.5
+6–10A 1.0 1.5 2.5 4.0
+10–12A 1.5 1.5 2.5 4.0
+12–16A 2.5 4.0 Not Recommended
+WARNING: Some dust created by power sanding, sawing, 
+grinding, drilling, and other construction activities contains chemicals 
+known to cause cancer, birth defects or other reproductive harm. 
+Some examples of these chemicals are:
+• lead from lead-based paints,
+• crystalline silica from bricks and cement and other masonry 
+products, and 
+• arsenic and chromium from chemically-treated lumber.
+Your risk from these exposures varies, depending on how often you 
+do this type of work. To reduce your exposure to these chemicals: 
+work in a well ventilated area, and work with approved safety 
+equipment, such as those dust masks that are specially designed to 
+filter out microscopic particles.
+• Avoid prolonged contact with dust from power sanding, 
+sawing, grinding, drilling, and other construction activities. 
+Wear protective clothing and wash exposed areas with 
+soap and water. Allowing dust to get into your mouth, eyes, or 
+lay on the skin may promote absorption of harmful chemicals. 
+WARNING: Use of this tool can generate and/or disburse dust, 
+which may cause serious and permanent respiratory or other injury. 
+Always use NIOSH/OSHA approved respiratory protection appropriate 
+for the dust exposure. Direct particles away from face and body.
+WARNING: ALWAYS USE SAFETY GLASSES. Everyday 
+eyeglasses are NOT safety glasses.  Also use face or dust mask if 
+cutting operation is dusty. ALL USERS AND BYSTANDERS MUST 
+ALWAYS WEAR CERTIFIED SAFETY EQUIPMENT:
+• ANSI Z87.1 eye protection (CAN/CSA Z94.3),
+• ANSI S12.6 (S3.19) hearing protection,
+• NIOSH/OSHA/MSHA respiratory protection.
+• The label on your tool may include the following symbols. The 
+symbols and their definitions are as follows:
+V ................... volts A ......................amperes
+Hz ................. hertz W .....................watts
+min ............... minutes 
+or AC ..........alternating 
+or DC ... direct current current
+ ................. Class I Construction or AC/DC ...alternating 
+ .....................(grounded)  ........................or direct
+
+[PÁGINA 35]
+33
+English
+ ................. Class II Construction current
+(double insulated) no ....................no load 
+…/min .......... revolutions per minute  ....................... speed
+BPM ............. beats per minute 
+  n ......................rated 
+IPM ............... impacts per minute  ........................speed
+SPM ............. strokes per minute  .....................earthing 
+sfpm ............. surface feet  terminal
+ .....................per minute  .....................safety alert 
+ ..................... symbol
+DESCRIPTION (FIG. 1)
+WARNING: Never modify the power tool or any part of it. Damage 
+or personal injury could result.
+ A. ON/OFF-switch
+ B. Spindle lock
+ C. Guard
+ D. Side handle 
+INTENDED USE
+This grinder is designed for professional grinder, sander, wire brush or 
+cut-off applications. 
+DO NOT  use under wet conditions or in presence of flammable 
+liquids or gases.
+This grinder is a professional power tool. DO NOT let children come 
+into contact with the tool. Supervision is required when inexperienced 
+operators use this tool.
+ASSEMBLY AND ADJUSTMENTS
+WARNING: To reduce the risk of injury, turn unit off and 
+disconnect tool from power source before installing and 
+removing accessories, before making any adjustments or 
+removing/installing attachments or accessories. An accidental 
+start-up can cause injury.
+WARNING: Prior to assembly and adjustment, always unplug tool.
+B
+A
+D
+C
+FIG. 1
+Fitting the side handle (ﬁ g. 2)
+Tightly screw side grip (D) in one of the holes (E) of either side of the 
+gearbox.
+D
+E
+FIG. 2
+E
+
+[PÁGINA 36]
+34
+English
+Mounting and Removing the Guard
+(ﬁ g. 3a-3d)
+ 1. Align the lug on the guard with the slot in the bracket fixed to the 
+base of the gear case (Fig. 3a).
+ 2. Press the guard down toward the gear case, and then rotate the 
+guard in the direction of the arrow (Fig. 3b).
+ 3. In this position, the guard locking pin located in the slot prevents 
+the guard from coming loose, but allows rotation through 105°.
+  To remove the guard:
+ 1. Place the tool upside down on a flat surface.
+ 2. Hold the tool, and using your thumb, rotate the guard in the 
+direction of the arrow (Fig. 3c). At the same time, using a 
+screwdriver or other pointed instrument, press the locking pin in 
+the slot so the lug on the guard comes into view (Fig. 3d).
+ 3. The locking pin does not hold the guard, and the guard can be 
+pushed free.
+a b
+c d
+FIG. 3
+Fitting and Removing a Grinding Disc 
+(ﬁ g. 1, 4–5)
+ 1. Place the tool on a table, guard up.
+ 2. Fit the inner flange (J) correctly onto the spindle (K) (fig. 4).
+ 3. Place the disc (L) on the flange (J). When fitting a disc with a 
+raised center, make sure that the raised centre (M) is facing the 
+flange (J).
+K
+L
+J
+FIG. 4 N
+M
+ 4. Screw the threaded clamp nut (N) onto the spindle (K)
+  a.  The ring on the threaded clamp nut (N) must face towards the 
+disc when fitting a grinding disc (fig. 5A);
+  b.  The ring on the threaded clamp nut (N) must face away from 
+the disc when fitting a cutting disc (fig. 5B).
+
+[PÁGINA 37]
+35
+English
+ 5. Press the spindle lock (B) and rotate the spindle (K) until it locks 
+in position.
+ 6. Tighten the threaded clamp nut (N) with the two-pin spanner 
+supplied.
+ 7. Release the spindle lock.
+ 8. To remove the disc, loosen the flange (N) with the two-pin 
+spanner.
+WARNING: Do not use a damaged disc.
+FIG. 5A N
+L
+J
+K
+N
+J
+L
+K
+FIG. 5B
+Fitting a Wire Cup Brush
+Screw the wire cup brush directly onto the spindle without the use of 
+the spacer and threaded flange.
+Fitting and Removing a Backing 
+Pad/Sanding Sheet (ﬁ g. 1, 6)
+The backing pad is available at extra cost from your local dealer or 
+authorized service center.
+ 1. Remove the guard from
+K
+P
+Q
+FIG. 6
+O
+ 
+the tool.
+ 2. Remove the backing flange 
+(J).
+ 3. Place the rubber backing 
+pad (O) correctly onto the 
+spindle (K).
+ 4. Place the sanding sheet (P) 
+on the rubber backing pad.
+ 5. Screw the threaded clamp 
+nut (Q) onto the spindle (K). 
+ 6. Press the spindle lock 
+button (B) and rotate the 
+spindle (K) until it locks in 
+position.
+ 7. Tighten the threaded 
+clamp nut (Q) with the two-pin spanner.
+ 8. Release the spindle lock
+ 9. To remove the rubber backing pad, loosen the threaded clamp 
+nut (Q) wih the two-pin spanner.
+
+[PÁGINA 38]
+36
+English
+OPERATION
+WARNING: To reduce the risk of injury, turn unit off and 
+disconnect tool from power source before installing and 
+removing accessories, before making any adjustments or 
+removing/installing attachments or accessories. An accidental 
+start-up can cause injury.
+WARNING: Always observe the safety instructions and applicable 
+regulations.
+ •  Ensure all materials to be ground are secured in place.
+ •  Apply only a gentle pressure to the tool. Do not exert side 
+pressure on the disc.
+ •  Avoid overloading. Should the tool become hot, let it run a few 
+minutes under no load condition to cool the accessory. 
+Prior to Operation
+ • Install the guard and appropriate disc or wheel. Do not use excessively 
+worn discs or wheels.
+ • Be sure the inner and outer flange are mounted correctly. 
+ • Make sure the disc or wheel rotates in the direction of the arrows on the 
+accessory and the tool.
+Switches
+CAUTION: Hold the side handle and body of the tool firmly to 
+maintain control of the tool at start up and during use and until the 
+wheel or accessory stops rotating. Make sure the wheel has come to 
+a complete stop be fore laying the tool down.
+NOTE: To reduce unexpected tool movement, do not switch the 
+tool on or off while under load conditions. Allow the grinder to run 
+up to full speed before touching the work surface. Lift the tool from 
+the surface before turning the tool off. Allow the tool to stop rotating 
+before putting it down.
+SLIDER SWITCH (FIG. 1)
+WARNING: Before connecting the tool to a power supply, be sure 
+the slider switch is in the off position by pressing the rear part of the 
+switch and releasing. Ensure the slider switch is in the off position as 
+described above after any interruption in power supply to the tool, 
+such as the activation of a ground fault interrupter, throwing of a 
+circuit breaker, accidental unplugging, or power failure. If the slider 
+switch is locked on when the power is connected, the tool will start 
+unexpectedly.
+To start the tool, slide the ON/OFF slider switch (A) toward the front of 
+the tool. To stop the tool, release the ON/OFF slider switch.
+For continuous operation, slide the switch toward the front of the 
+tool and press the forward part of the switch inward. To stop the tool 
+while operating in continuous mode, press the rear part of the slider 
+switch and release.
+MAINTENANCE
+WARNING: To reduce the risk of injury, turn unit off and 
+disconnect tool from power source before installing and 
+removing accessories, before making any adjustments or 
+removing/installing attachments or accessories. An accidental 
+start-up can cause injury.
+Your D
+EWALT power tool has been designed to operate over a 
+long period of time with a minimum of maintenance. Continuous 
+satisfactory operation depends upon proper tool care and regular 
+cleaning.
+Lubrication
+Your power tool requires no additional lubrication.
+Cleaning
+WARNING: Blow dirt and dust out of the main housing with dry air 
+as often as dirt is seen collecting in and around the air vents. Wear 
+approved eye protection and approved dust mask when performing 
+this procedure. 
+
+[PÁGINA 39]
+37
+English
+WARNING: Never use solvents or other harsh chemicals for 
+cleaning the non-metallic parts of the tool. These chemicals may 
+weaken the materials used in these parts. Use a cloth dampened only 
+with water and mild soap. Never let any liquid get inside the tool; 
+never immerse any part of the tool into a liquid.
+Repairs
+To assure product SAFETY and RELIABILITY, repairs, maintenance 
+and adjustment (including brush inspection and replacement) should 
+be performed by authorized service centers or other qualified service 
+personnel, always using identical replacement parts.
+Accessories
+WARNING: Since accessories, other than those offered by 
+DEWALT, have not been tested with this product, use of such 
+accessories with this tool could be hazardous. To reduce the risk of 
+injury, only D
+EWALT, recommended accessories should be used with 
+this product.
+Recommended accessories for use with your tool are available at extra 
+cost from your local dealer or authorized service center. 
+Protecting the Environment
+  Separate collection. This product must not be disposed of 
+with normal household waste.
+Should you ﬁnd one day that your D EWALT product needs 
+replacement, or if it is of no further use to you, do not dispose of it 
+with household waste.
+   Separate collection of used products and packaging allows 
+materials to be recycled and used again. Re-use of recycled 
+materials helps prevent environmental pollution and reduces 
+the demand for raw materials. 
+Local regulations may provide for separate collection of electrical 
+products from the household, at municipal waste sites or by the 
+retailer when you purchase a new product. 
+D
+EWALT provides a facility for the collection and recycling of DEWALT 
+products once they have reached the end of their working life. To take 
+advantage of this service please return your product to any authorized 
+service center that will collect them on our behalf. 
+You can check the location of your nearest authorized service center  
+by contacting your local D
+EWALT office. Alternatively, a service center 
+listing is included in the packaging of this product.
+SPECIFICATIONS
+DWE4010-B3
+Voltage 120 V~ 
+Frequency 50–60 Hz
+Power 700 W
+Speed 11 000/min 
+
+[PÁGINA 40]
+DEWALT Industrial Tool Co., 701 East Joppa Road, Baltimore, MD 21286
+(JAN14)               Part No. N383286           DWE4010             Copyright © 2014 DEWALT
+The following are trademarks for one or more D EWALT power tools: the yellow and black color scheme; the “D” shaped air intake grill; the 
+array of pyramids on the handgrip; the kit box configuration; and the array of lozenge-shaped humps on the surface of the tool.
+HECHO EN CHINA
+FABRICADO NA CHINA
+MADE IN CHINA
+SOLAMENTE PARA PROPÓSITO DE ARGENTINA:
+IMPORTADO POR: BLACK & DECKER ARGENTINA S.A.
+PACHECO TRADE CENTER
+COLECTORA ESTE DE RUTA PANAMERICANA
+KM. 32.0 EL TALAR DE PACHECO
+PARTIDO DE TIGRE
+BUENOS AIRES (B1618FBQ)
+REPÚBLICA DE ARGENTINA 
+NO. DE IMPORTADOR: 1146/66
+TEL. (011) 4726-4400
+IMPORTED BY/IMPORTADO POR:
+BLACK & DECKER DO BRASIL LTDA.
+ROD. BR 050, S/N° - KM 167
+DIST. INDUSTRIAL II
+UBERABA – MG – CEP: 38064-750
+CNPJ: 53.296.273/0001-91
+INSC. EST.: 701.948.711.00-98
+S.A.C.: 0800-703-4644
+MAQUINAS Y HERRAMIENTAS BLACK & DECKER CHILE S.A.
+AVDA. EDUARDO FREI M. #6001 EDIFICIO 67
+CONCHALI-SANTIAGO
+CHILE
+FONO: 56-2-26871706
+SOLAMENTE PARA PROPÓSITO DE MÉXICO:
+IMPORTADO POR: BLACK & DECKER S.A. DE C.V.
+AVENIDA ANTONIO DOVALI JAIME, # 70 TORRE B PISO 9
+COLONIA, SANTA FÉ
+DELEGACIÓN ALVARO OBREGÓN 
+MÉXICO D. F.: 01210
+TEL. (52) 555-326-7100
+R.F.C.: BDE810626-1W7

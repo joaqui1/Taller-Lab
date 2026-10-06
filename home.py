@@ -32,3 +32,15 @@ HOME_CATEGORY_COPY = {
     "soldadura-electronica": "Estaciones y reparación de placas",
     "generadores": "Energía y respaldo para tu uso",
 }
+
+# Fotos existentes del catálogo para las entradas visuales de portada.
+HOME_CATEGORY_IMAGES = {
+    "taladros": ("Taladros", "ingcocidli206684-962e2fdef9.webp"),
+    "compresores": ("Compresores", "lusqtofflc2550b8-ed19d06e8e.webp"),
+    "sierras": ("Sierras", "dewaltdwe560-40a8fb62d7.webp"),
+    "amoladoras": ("Amoladoras", "lusqtoffaml8508-79bb71a188.webp"),
+    "hidrolavadoras": ("Hidrolavadoras", "lusqtoffhl120-89281b0422.webp"),
+    "generadores": ("Generadores", "lusqtofflg3000-4ce50bc801.webp"),
+    "soldadoras": ("Soldadoras", "lusqtoffmegairon1008-9c0c5a14a7.webp"),
+    "soldadura-electronica": ("Soldadura electrónica", "portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp"),
+}

@@ -53,7 +53,7 @@ Los tres códigos identifican motores brushless en las fichas consultadas. DeWal
 
 ## Qué significan 18 V y 20 V MAX
 
-DeWalt explica que 20 V MAX es la tensión máxima inicial medida sin carga y que la tensión nominal bajo carga es 18 V. En estas referencias, 20 V MAX no significa una plataforma distinta a la batería nominal de 18 V. Al comprar, identificá la batería y el cargador compatibles con el sistema DeWalt 20 V MAX y revisá su capacidad en Ah, especialmente si ya tenés otras herramientas de la plataforma.
+DeWalt explica que 20 V MAX es la tensión máxima inicial medida sin carga y que la tensión nominal bajo carga es 18 V. En estas referencias, 20 V MAX no significa una plataforma distinta a la batería nominal de 18 V. Al comprar, identificá la batería y el cargador compatibles con el sistema DeWalt 20 V MAX y revisá su capacidad en Ah, especialmente si ya tenés otras herramientas de la plataforma. Para verificar qué baterías estándar, POWERSTACK y FLEXVOLT alimentan cada herramienta y las condiciones de los cargadores con sufijo -AR para Argentina, consultá la ficha del sistema [DeWalt 20V MAX](/plataformas/dewalt-20v-max/) en nuestra base de compatibilidad.
 
 ## Baterías incluidas y precio del kit
 

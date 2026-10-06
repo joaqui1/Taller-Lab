@@ -1,0 +1,607 @@
+{
+  "bosch-gws-25-180-lvi-r": {
+    "summary": "Amoladora angular grande de 2500 W para disco de 180 mm con KickBack Control y empuñadura Vibration Control.",
+    "limits_and_warnings": [
+      "La velocidad de 8.500 rpm está calibrada para disco de 180 mm; nunca montar discos de 230 mm en una máquina de 180 mm."
+    ]
+  },
+  "bosch-gws-25-230": {
+    "summary": "Amoladora angular pesada de 2500 W para disco de 230 mm (9\") y 6.500 rpm.",
+    "limits_and_warnings": [
+      "Máquina pesada de 5,9 kg; exige sujeción a dos manos y desconexión segura en cambio de disco."
+    ]
+  },
+  "bosch-gws-770": {
+    "summary": "Amoladora angular compacta de 770 W para discos de 115 mm con 1,37 kg de peso.",
+    "limits_and_warnings": [
+      "Fuente Bosch Brasil para 06013980E0; no confirma por sí sola la variante, el kit ni la garantía de una oferta importada no oficial."
+    ]
+  },
+  "bosch-gws-850": {
+    "summary": "Amoladora angular de 850 W con 11.000 rpm y motor optimizado para uso continuo en taller.",
+    "limits_and_warnings": [
+      "No cuenta con protección contra rearranque tras corte de luz como los modelos de mayor gama."
+    ]
+  },
+  "bosch-gws-9-115-s": {
+    "summary": "Amoladora de 900 W con dial selector de velocidad (2.800 a 11.000 rpm) para amolado, decapado y pulido fino.",
+    "limits_and_warnings": [
+      "Al trabajar a bajas revoluciones (2.800 rpm) el ventilador refrigera menos el motor; no aplicar sobrecarga continua en baja velocidad."
+    ]
+  },
+  "dewalt-dcg412": {
+    "summary": "Amoladora angular a batería de 20V MAX con 8.000 rpm y embrague de seguridad Quick-Change.",
+    "limits_and_warnings": [
+      "Amolar o desbastar metal consume rápidamente la batería; se sugiere usar paquetes de 5.0 Ah o superior."
+    ]
+  },
+  "dewalt-dwe4010": {
+    "summary": "Amoladora angular compacta de 750 W con 12.000 rpm y cuerpo estilizado para mayor comodidad.",
+    "limits_and_warnings": [
+      "Interruptor deslizante con bloqueo; verificar desbloqueo antes de conectar a la red."
+    ]
+  },
+  "dewalt-dwe4120": {
+    "summary": "Amoladora de 900 W con interruptor tipo paleta (paddle switch) para mayor seguridad en uso industrial.",
+    "limits_and_warnings": [
+      "El gatillo paleta previene accidentes pero puede resultar fatigoso en tareas prolongadas de pulido estático."
+    ]
+  },
+  "dowen-pagio-9993220-7": {
+    "summary": "Amoladora angular con cable de 900 W para disco de 115 mm y 12.000 rpm.",
+    "limits_and_warnings": [
+      "Verificar si el aviso incluye disco de corte o solo la herramienta desnuda."
+    ]
+  },
+  "gamma-g1910kar": {
+    "summary": "Amoladora de 750 W con disco de 115 mm en kit con maletín y discos de corte.",
+    "limits_and_warnings": [
+      "Configuración del kit de accesorios sujeta a confirmación en el aviso de venta."
+    ]
+  },
+  "makita-ga4530": {
+    "summary": "Amoladora angular de 720 W con cuerpo ultra delgado de 56 mm de diámetro para máxima maniobrabilidad.",
+    "limits_and_warnings": [
+      "Carcasa de reductora metálica orientable a 90 grados para zurdos."
+    ]
+  },
+  "makita-gb801": {
+    "summary": "Amoladora de banco de 550 W con dos piedras de 205 mm (8\") y visores protectores con lupa.",
+    "limits_and_warnings": [
+      "En Argentina (red 50 Hz) la velocidad real de sincronismo es de 2.850 rpm; las 3.450 rpm corresponden a redes de 60 Hz."
+    ]
+  },
+  "makita-m0901": {
+    "summary": "Amoladora de la serie Makita MT de 540 W orientada a tareas estándar de taller.",
+    "limits_and_warnings": [
+      "Línea MT simplificada con motor de 540 W; menor reserva de potencia ante aprietes bruscos."
+    ]
+  },
+  "skil-9002ar": {
+    "summary": "Amoladora angular con contradicción documentada de potencia entre ediciones de manual oficial (700 W vs 600 W).",
+    "limits_and_warnings": [
+      "Discrepancia histórica entre manuales; verificar placa del lote importado."
+    ]
+  },
+  "stanley-sg7115": {
+    "summary": "Amoladora angular de 750 W con diseño de engranajes helicoidales para menor vibración.",
+    "limits_and_warnings": [
+      "Diseño de ventilación lateral; evitar obstruir las ranuras con guantes gruesos durante el trabajo."
+    ]
+  },
+  "bta-24-oilfree": {
+    "summary": "Compresor sin aceite de 24 L con bajo nivel de ruido.",
+    "limits_and_warnings": [
+      "Baja producción de aire; indicado para grapas, clavos o inflado."
+    ]
+  },
+  "bta-25-litros": {
+    "summary": "Compresor de 25 L lubricado con 2,0 HP para taller liviano.",
+    "limits_and_warnings": [
+      "145 L/min aspirado no representa entrega continua a presión de lijado o pintura."
+    ]
+  },
+  "bta-50-litros": {
+    "summary": "Compresor de 50 L con motor de 2,5 HP para pintura y soplado en taller.",
+    "limits_and_warnings": [
+      "Duplicar el tanque de 25 a 50 L amplía la reserva inicial, pero la bomba repone al ritmo de 195 L/min aspirados."
+    ]
+  },
+  "einhell-pressito-18-21": {
+    "summary": "Versión de 10,5 bar de la línea Pressito a batería 18V para inflado en carretera y hogar.",
+    "limits_and_warnings": [
+      "Caudal moderado para inflado ocasional; no sustituye compresor de taller."
+    ]
+  },
+  "einhell-pressito-18-25": {
+    "summary": "Compresor híbrido portátil de batería 18V Power X-Change con bombas independientes de alta y baja presión.",
+    "limits_and_warnings": [
+      "No apto para herramientas neumáticas ni pintura continua; diseñado para inflado."
+    ]
+  },
+  "einhell-te-ac-270-50-silent": {
+    "summary": "Compresor silencioso (70 dB(A) LpA) libre de aceite con tanque de 50 L y datos de caudal efectivo a presiones calibradas (4 y 7 bar).",
+    "limits_and_warnings": [
+      "El caudal a 7 bar es de 98 L/min; no debe compararse directamente con herramientas neumáticas que consumen a 6,3 bar sin solicitar la entrega intermedia.",
+      "Régimen de motor S3 50% intermitente; no está diseñado para servicio continuo industrial 100% ininterrumpido."
+    ]
+  },
+  "einhell-te-ac-430-90-10": {
+    "summary": "Compresor a correa con tanque de 90 L, 10 bar de presión máxima y caudal de salida de 200 L/min a 7 bar.",
+    "limits_and_warnings": [
+      "Salida de 200 L/min a 7 bar valida pistolas de pintura HVLP de consumo medio/alto, pero requiere verificar ciclo y diámetro de manguera (mínimo 9 mm ID)."
+    ]
+  },
+  "einhell-th-ac-240-24": {
+    "summary": "Compresor sin aceite de 24 L compacto con salida a presión calibrada y motor sin mantenimiento de aceite.",
+    "limits_and_warnings": [
+      "Régimen S3 25% exige ciclos de pausa para evitar sobrecalentamiento en trabajos continuados."
+    ]
+  },
+  "fengda-as-186": {
+    "summary": "Compresor de pistón seco libre de aceite con calderín de 3 L, regulador y filtro de humedad para aerografía.",
+    "limits_and_warnings": [
+      "No apto para pistolas de pintura de automoción ni clavadoras; caudal diseñado exclusivamente para aerógrafos de boquilla 0,2 a 0,5 mm.",
+      "El fabricante excluye el uso continuo industrial sin pausas térmicas."
+    ]
+  },
+  "gadnic-av37": {
+    "summary": "Compresor de 12 V con doble cilindro, pantalla digital de corte y linterna LED incorporada.",
+    "limits_and_warnings": [
+      "Tener dos pistones no garantiza mayor caudal que un solo pistón de mayor diámetro si el motor tiene la misma potencia eléctrica."
+    ]
+  },
+  "gamma-g2801ar": {
+    "summary": "Compresor monofásico de 24 L lubricado por aceite con 2 HP declarados.",
+    "limits_and_warnings": [
+      "El caudal desplazado es un cálculo teórico de cilindrada y rpm; no refleja FAD bajo carga."
+    ]
+  },
+  "gamma-g2802ar": {
+    "summary": "Compresor de aire monofásico con tanque de 50 L, cabezal lubricado y discrepancia documentada de potencia entre manual y catálogo.",
+    "limits_and_warnings": [
+      "Discrepancia documentada de potencia: confirmar código en la placa antes de dimensionar circuito eléctrico.",
+      "Desplazamiento de 203 L/min no equivale a caudal a 6 bar de trabajo."
+    ]
+  },
+  "lusqtoff-lc0122": {
+    "summary": "Compresor compacto de 24 L y 1,5 HP para inflado, soplado y clavado intermitente.",
+    "limits_and_warnings": [
+      "El tanque de 24 L se agota rápidamente en soplado continuo o pistolas de pintura de alto consumo."
+    ]
+  },
+  "lusqtoff-lc2550vs": {
+    "summary": "Compresor vertical de 50 L sin aceite pensado para talleres con superficie de suelo reducida.",
+    "limits_and_warnings": [
+      "El formato vertical ahorra espacio pero eleva el centro de gravedad en traslados."
+    ]
+  },
+  "lusqtoff-lc30100": {
+    "summary": "Compresor a correa con cabezal de 2 cilindros en línea, tanque de 100 L y motor de 3 HP.",
+    "limits_and_warnings": [
+      "Mando a correa reduce rpm del cabezal y temperatura de trabajo, pero requiere tensión periódica de correa."
+    ]
+  },
+  "lusqtoff-lc3550bk": {
+    "summary": "Compresor de alta recuperación con cabezal bicilíndrico en V de 3,5 HP y tanque de 50 L.",
+    "limits_and_warnings": [
+      "Mayor corriente de arranque por cabezal bicilíndrico; requiere instalación eléctrica adecuada sin cables alargadores finos."
+    ]
+  },
+  "lusqtoff-lc2024b": {
+    "summary": "Compresor de 24 L lubricado con motor de 2,0 HP y mayor capacidad de recuperación.",
+    "limits_and_warnings": [
+      "Comprobar nivel de aceite periódicamente antes de cada jornada."
+    ]
+  },
+  "lusqtoff-lc2550b-8": {
+    "summary": "Compresor de pistón lubricado por aceite con tanque horizontal de 50 L y motor de 2,5 HP monovoltaje.",
+    "limits_and_warnings": [
+      "El caudal de 206 L/min es aspirado; no debe interpretarse como caudal continuo entregado a 6 o 7 bar.",
+      "Requiere control de aceite previo al primer arranque y asentamiento inicial según manual."
+    ]
+  },
+  "lusqtoff-lc30200-8": {
+    "summary": "Compresor a correa con reserva de 200 L y motor monofásico de 3 HP.",
+    "limits_and_warnings": [
+      "Misma bomba de 335 L/min que el LC-30100 pero con 200 L de tanque: el tiempo de carga completa desde cero es el doble."
+    ]
+  },
+  "lusqtoff-lc40100-8": {
+    "summary": "Compresor de 100 L con mando directo bicilíndrico de 4 HP para rápida recuperación.",
+    "limits_and_warnings": [
+      "Elevado consumo en arranque (motor 4 HP monofásico); exige línea independiente de 20 A."
+    ]
+  },
+  "lusqtoff-lc40200-8": {
+    "summary": "Compresor industrial tricilíndrico a correa con tanque de 200 L y motor trifásico de 4 HP.",
+    "limits_and_warnings": [
+      "No funciona con instalación monofásica estándar 220 V. Exige verificar rotación de fases en conexionado."
+    ]
+  },
+  "lusqtoff-lcs100-8": {
+    "summary": "Compresor de 100 L sin aceite con 3 motores silenciosos independientes (3 x 1280 W).",
+    "limits_and_warnings": [
+      "Los 3 motores arrancan secuencialmente; comprobar que la tensión de red no caiga por debajo de 205 V en carga."
+    ]
+  },
+  "lusqtoff-lcs50-8": {
+    "summary": "Compresor silencioso libre de aceite de 50 L con cabezal de pistones de baja fricción.",
+    "limits_and_warnings": [
+      "105 L/min representa un caudal moderado; comprobar consumo de herramienta antes de conectar."
+    ]
+  },
+  "lusqtoff-mcl150-8": {
+    "summary": "Compresor de 12 V para toma de encendedor de auto o pinzas a batería con manómetro digital y corte automático.",
+    "limits_and_warnings": [
+      "Los 60 L/min son sin carga; el tiempo de inflado de un neumático de camioneta cambia notablemente con la contrapresión."
+    ]
+  },
+  "makita-dmp180": {
+    "summary": "Inflador compacto a batería Makita 18V LXT con parada automática a la presión fijada en pantalla.",
+    "limits_and_warnings": [
+      "No cuenta con modo de succión para desinflado rápido como otros modelos con bomba de bajo volumen."
+    ]
+  },
+  "gamma-inverter-2kw": {
+    "summary": "Grupo electrógeno inverter de 2,0 kW nominales y 17 kg para camping y emergencias.",
+    "limits_and_warnings": [
+      "Generador monofásico 220 V; no conectar herramientas que requieran onda trifásica."
+    ]
+  },
+  "honda-eg6500cxs": {
+    "summary": "Generador profesional de 5,0 kVA continuos con regulador digital D-AVR y motor GX390.",
+    "limits_and_warnings": [
+      "No es insonorizado; nivel sonoro propio de motor 4T de 390 cc en escape abierto."
+    ]
+  },
+  "honda-eu22i": {
+    "summary": "Grupo electrógeno inverter ultra insonorizado de 1,8 kVA continuos con motor GXR120 de 4 tiempos.",
+    "limits_and_warnings": [
+      "Potencia continua de 1,8 kVA; no conectar motores de inducción con corriente de arranque superior a 2,2 kVA sin calcular pico."
+    ]
+  },
+  "honda-eu30is": {
+    "summary": "Generador inverter insonorizado de 2,8 kVA continuos con arranque eléctrico y tanque de 13 L.",
+    "limits_and_warnings": [
+      "Peso de 59 kg en seco; requiere ruedas o dos personas para su transporte."
+    ]
+  },
+  "lusqtoff-lgi3-8": {
+    "summary": "Generador inverter de 3,5 kW continuos y 3,8 kW de pico con tanque de 8 L y 28 kg.",
+    "limits_and_warnings": [
+      "No confundir con el modelo LGIS3.8-8 motosoldadora."
+    ]
+  },
+  "pektra-gpk980": {
+    "summary": "Grupo electrógeno ultraliviano de 2 tiempos con 650 W nominales y 720 W de pico.",
+    "limits_and_warnings": [
+      "Motor 2 tiempos: exige mezcla exacta de aceite 2T; no apto para heladeras o bombas con alto consumo de arranque."
+    ]
+  },
+  "philco-ge-ph2500alp": {
+    "summary": "Generador naftero 4T de 2500 W continuos con tanque de 15 L y regulación AVR.",
+    "limits_and_warnings": [
+      "Regulación por AVR estándar; apto para electrodomésticos convencionales; para electrónica muy delicada se aconseja tecnología inverter."
+    ]
+  },
+  "bosch-ghp-180": {
+    "summary": "Hidrolavadora profesional compacta con valores de presión de trabajo y nominal explícitamente separados.",
+    "limits_and_warnings": [
+      "Bosch separa rigurosamente 83 bar de trabajo de 124,5 bar máximos; no comparar el valor máximo de Bosch con el valor de trabajo de otra marca."
+    ]
+  },
+  "bosch-ghp-200": {
+    "summary": "Hidrolavadora profesional de 92 bar de trabajo con manguera de 6 m y 2000 W.",
+    "limits_and_warnings": [
+      "La presión de 92 bar es la referencia de trabajo; los 138 bar corresponden a la válvula de descarga."
+    ]
+  },
+  "bosch-ghp-220": {
+    "summary": "Hidrolavadora con motor de inducción, 101,2 bar de trabajo, 6,1 L/min nominales y manguera de 8 m.",
+    "limits_and_warnings": [
+      "Motor de inducción requiere al menos 10 A de línea sin caída de tensión."
+    ]
+  },
+  "bosch-ghp-4-50": {
+    "summary": "Hidrolavadora de alto rendimiento con bomba de cuatro pistones y 115,5 bar de trabajo continuo.",
+    "limits_and_warnings": [
+      "Manguera con malla de acero y bomba pesada; equipo destinado a puesto fijo o arrastre por ruedas reforzadas."
+    ]
+  },
+  "bosch-universalaquatak-36v-100": {
+    "summary": "Hidrolavadora a batería de 36V con modos ECO y High para limpieza sin tomas de corriente.",
+    "limits_and_warnings": [
+      "Autonomía limitada por carga de batería; para lavado completo de camioneta se aconseja disponer de dos baterías."
+    ]
+  },
+  "comet-k-250-10-150": {
+    "summary": "Hidrolavadora profesional de agua fría monofásica con bomba de tres pistones cerámicos a 1400 rpm.",
+    "limits_and_warnings": [
+      "1400 rpm asegura régimen continuo pero requiere suministro continuo de agua de al menos 750 L/h sin burbujas."
+    ]
+  },
+  "comet-k-250-13-190": {
+    "summary": "Hidrolavadora industrial trifásica de 190 bar con caudal de 13 L/min y sistema Total Stop Retardado.",
+    "limits_and_warnings": [
+      "Exige conexión trifásica 400 V y suministro mínimo de 970 L/h; no funciona con canillas residenciales estándar."
+    ]
+  },
+  "gamma-130-elite": {
+    "summary": "Hidrolavadora de 1600 W con 90 bar de servicio y 130 bar de presión admisible.",
+    "limits_and_warnings": [
+      "Presión admisible de 130 bar no debe interpretarse como presión continua de lavado."
+    ]
+  },
+  "gamma-150-elite": {
+    "summary": "Hidrolavadora de 1800 W con 100 bar de servicio y 150 bar de presión admisible.",
+    "limits_and_warnings": [
+      "No corresponde a Master Wash ni a Premium Wash: verificar código G2514AR en placa."
+    ]
+  },
+  "karcher-k2-basic": {
+    "summary": "Hidrolavadora de entrada para limpieza ligera de bicicletas, veredas y muebles de jardín.",
+    "limits_and_warnings": [
+      "Manguera de 3 metros limita el radio de acción en vehículos grandes sin mover la máquina."
+    ]
+  },
+  "karcher-k3-black-edition": {
+    "summary": "Hidrolavadora de 120 bar con ruedas de transporte y manguera de mayor alcance para patios.",
+    "limits_and_warnings": [
+      "El caudal es de 330 L/h; menor que otras variantes de la serie K2 pero con mayor presión pico."
+    ]
+  },
+  "karcher-k4-power-control": {
+    "summary": "Hidrolavadora de 130 bar con motor de inducción refrigerado por agua y lanza con regulación en gatillo.",
+    "limits_and_warnings": [
+      "No equivale al código K4 estándar 9.398-294.0: cambian motor, manguera y bomba."
+    ]
+  },
+  "karcher-k4-standard": {
+    "summary": "Versión K4 de inducción con manguera de 6 m y 1885 PSI publicados para el mercado argentino.",
+    "limits_and_warnings": [
+      "Tiene 6 metros de manguera frente a 8 m del Power Control y caudal de 360 L/h vs 420 L/h."
+    ]
+  },
+  "karcher-k5-power-control": {
+    "summary": "Hidrolavadora de 145 bar con motor de 2100 W y 500 L/h de caudal para suciedad adherida severa.",
+    "limits_and_warnings": [
+      "Peso cercano a 13 kg; se recomienda transportar siempre sobre sus ruedas."
+    ]
+  },
+  "karcher-k5-base": {
+    "summary": "Versión estándar de K5 con manguera de 6 m y 2100 PSI publicados.",
+    "limits_and_warnings": [
+      "Manguera de 6m frente a 10m de la Power Control; confirmar código exacto antes de adquirir."
+    ]
+  },
+  "logus-hl-105": {
+    "summary": "Hidrolavadora compacta de 1200 W con 105 bar declarados para limpieza hogareña.",
+    "limits_and_warnings": [
+      "Caudal bajo condición no precisada; los 105 bar representan presión máxima pico sin carga de salida prolongada."
+    ]
+  },
+  "lusqtoff-hl-120": {
+    "summary": "Hidrolavadora intermedia de 1600 W con 70 bar de trabajo y 105 bar máximos permitidos.",
+    "limits_and_warnings": [
+      "Verificar manguera y kit; publicaciones pueden incluir dosificador de espuma o lanza básica."
+    ]
+  },
+  "lusqtoff-hl-150": {
+    "summary": "Hidrolavadora de 2000 W con ruedas de transporte y 100 bar de trabajo continuo.",
+    "limits_and_warnings": [
+      "150 bar es el valor máximo permitido de descarga; el trabajo sostenido es de 100 bar."
+    ]
+  },
+  "lusqtoff-hl100-7": {
+    "summary": "Hidrolavadora de 1200 W con 70 bar nominales y 100 bar máximos para lavado ocasional.",
+    "limits_and_warnings": [
+      "HL100-7 tiene ficha propia y no hereda datos del HL100-8; motor de 1200 W frente a 2000 W del -8."
+    ]
+  },
+  "lusqtoff-hl100-8": {
+    "summary": "Hidrolavadora de 2000 W con 100 bar de trabajo continuo y 150 bar máximos permitidos en manual.",
+    "limits_and_warnings": [
+      "No equivale al HL-150: el sufijo -8 tiene despiece y curvas propias en el manual oficial."
+    ]
+  },
+  "stihl-re-110": {
+    "summary": "Hidrolavadora con motor de inducción silencioso, 110 bar de trabajo y bomba de aluminio.",
+    "limits_and_warnings": [
+      "Peso de 17,6 kg por motor de inducción y cabezal de aluminio; mayor durabilidad pero menor portabilidad manual."
+    ]
+  },
+  "stihl-re-120": {
+    "summary": "Hidrolavadora de 160 bar máximos con motor de inducción y manguera de malla de acero de 8 m.",
+    "limits_and_warnings": [
+      "Presión de trabajo nominal no publicada en ficha web de referencia; solo consta el máximo de 160 bar."
+    ]
+  },
+  "stihl-re-150": {
+    "summary": "Hidrolavadora semiprofesional con cabezal de latón, pistones cerámicos y 140 bar de trabajo continuo.",
+    "limits_and_warnings": [
+      "Equipo de 30 kg; requiere toma eléctrica reforzada de 16 A protegida."
+    ]
+  },
+  "stihl-re-80-x": {
+    "summary": "Hidrolavadora compacta sin ruedas para fácil transporte y almacenamiento.",
+    "limits_and_warnings": [
+      "Diseño sin carro de ruedas; debe trasladarse levantándola de la empuñadura integrada."
+    ]
+  },
+  "stihl-re-90": {
+    "summary": "Hidrolavadora de 100 bar de trabajo con ruedas de transporte integradas y boquillas de cambio rápido.",
+    "limits_and_warnings": [
+      "Se toma la variante argentina RE020114544 de 50 Hz; ofertas extranjeras de 60 Hz no son compatibles."
+    ]
+  },
+  "esab-handyarc-132i": {
+    "summary": "Soldadora inverter ultra compacta de 3,5 kg para electrodos revestidos de hasta 2,5 mm.",
+    "limits_and_warnings": [
+      "Ciclo continuo de 58 A; apto para electrodos de 2,0 mm en continuo y 2,5 mm con pausas."
+    ]
+  },
+  "esab-handyarc-142i": {
+    "summary": "Soldadora inverter de 140 A para electrodos de 2,5 mm continuo y 3,25 mm intermitente.",
+    "limits_and_warnings": [
+      "Para electrodo 3,25 mm E6013 trabajar en cordones cortos para no disparar la protección térmica."
+    ]
+  },
+  "esab-handyarc-162i": {
+    "summary": "Soldadora inverter de 160 A para electrodos de hasta 3,25 mm continuos con panel analógico de ajuste preciso.",
+    "limits_and_warnings": [
+      "Corriente máxima (160 A al 20%) y corriente continua (72 A al 100%) son magnitudes distintas; para cordones largos sin interrupción respetar el ciclo al 100%."
+    ]
+  },
+  "gamma-elite-200": {
+    "summary": "Inverter para electrodos y TIG Lift con corriente máxima de 180 A al 40% de ciclo.",
+    "limits_and_warnings": [
+      "La denominación 'Elite 200' es comercial; la corriente máxima declarada por el fabricante es de 180 A."
+    ]
+  },
+  "lusqtoff-iron-250": {
+    "summary": "Soldadora inverter de 200 A con ciclo de trabajo del 60% para electrodos pesados de 3,25 y 4 mm.",
+    "limits_and_warnings": [
+      "Exige ficha macho IRAM de 20 A y circuito con termomagnética adecuada en instalación de taller."
+    ]
+  },
+  "lusqtoff-mig-195": {
+    "summary": "Soldadora MIG/MAG tradicional monofásica de 180 A con euroconector y regulación de 6 puntos.",
+    "limits_and_warnings": [
+      "Equipo electromecánico con transformador tradicional (35 kg); no es tecnología inverter ligera."
+    ]
+  },
+  "lusqtoff-iron-100": {
+    "summary": "Soldadora inverter compacta de entrada con hasta 105 A declarados para electrodos de 1,6 a 2,5 mm.",
+    "limits_and_warnings": [
+      "105 A al 30% exige pausas de 7 minutos por cada 3 minutos de soldadura al amperaje máximo."
+    ]
+  },
+  "lusqtoff-sml120-8dk": {
+    "summary": "Soldadora multiproceso (MIG Flux, MMA, Lift TIG) con discrepancia de tensión documentada en ficha web oficial.",
+    "limits_and_warnings": [
+      "120 A corresponde únicamente al modo FLUX; en electrodo revestido y TIG la corriente máxima es de 100 A.",
+      "Torcha MIG incorporada fija al chasis; no cuenta con conector Euroconector extraíble."
+    ]
+  },
+  "bosch-gbh-180-li": {
+    "summary": "Rotomartillo a batería 18V SDS Plus con 2,0 J y motor Brushless libre de mantenimiento.",
+    "limits_and_warnings": [
+      "Para rendimiento óptimo continuo en brocas de 16–20 mm se recomienda usar baterías ProCORE18V de 4.0 Ah o superior."
+    ]
+  },
+  "bosch-gbh-2-26-dre": {
+    "summary": "Rotomartillo SDS Plus de 800 W y 2,7 Joules con embrague de seguridad y tres modos de trabajo.",
+    "limits_and_warnings": [
+      "Incluye función de bloqueo de giro para cincelar (DRE); no confundir con modelo DFR que incluye mandril intercambiable cilíndrico."
+    ]
+  },
+  "bosch-gbh-220": {
+    "summary": "Rotomartillo electroneumático de 720 W con 2,0 Joules de impacto para hormigón hasta 22 mm.",
+    "limits_and_warnings": [
+      "Para cincelado prolongado o apertura de zanjas pesadas en hormigón de losa se recomienda subir al segmento de 3 Joules (GBH 2-26 o 2-28)."
+    ]
+  },
+  "bosch-gdr-120-li": {
+    "summary": "Atornillador de impacto compacto de 12V con 100 Nm de torque y encastre hexagonal de 1/4\".",
+    "limits_and_warnings": [
+      "No tiene embrague de torque regulable para durlock o tornillos pequeños; el apriete se controla por gatillo sensible."
+    ]
+  },
+  "bosch-gsb-18v-50": {
+    "summary": "Taladro percutor a batería de 18V con motor sin escobillas y mandril metálico de 13 mm.",
+    "limits_and_warnings": [
+      "El torque de 50 Nm corresponde a atornillado duro bajo norma ISO 5393; el torque blando sostenido es de 28 Nm."
+    ]
+  },
+  "bosch-gsb-550-re": {
+    "summary": "Taladro percutor con cable de 550 W, mandril de 13 mm (1/2\") con llave y velocidad variable reversible.",
+    "limits_and_warnings": [
+      "La percusión mecánica es adecuada para ladrillo macizo y hueco; no sustituye un rotomartillo electroneumático en vigas de hormigón armado."
+    ]
+  },
+  "dewalt-d25333": {
+    "summary": "Rotomartillo demoledor con cable de 950 W con 3,5 Joules de impacto para perforaciones de hasta 30 mm.",
+    "limits_and_warnings": [
+      "Variante europea QS de 230 V; no trasladar capacidades a otro sufijo regional sin contrastar manual."
+    ]
+  },
+  "dewalt-dcd776": {
+    "summary": "Taladro percutor de 20V MAX con mandril autoajustable de 13 mm y 42 Nm de torque.",
+    "limits_and_warnings": [
+      "Motor con carbones reemplazables; no es la línea Brushless XR."
+    ]
+  },
+  "dewalt-dcf887": {
+    "summary": "Atornillador de impacto 20V MAX XR Brushless de 205 Nm con selector de 3 velocidades.",
+    "limits_and_warnings": [
+      "Exige puntas de atornillar de calidad Impact Ready; las puntas estándar de acero al cromo se fracturan por el golpe de 205 Nm."
+    ]
+  },
+  "dewalt-dch133": {
+    "summary": "Rotomartillo 20V MAX Brushless con empuñadura trasera en D y 2,6 Joules de impacto.",
+    "limits_and_warnings": [
+      "Ficha estadounidense: confirmar código exacto, kit y garantía del importador local en Argentina."
+    ]
+  },
+  "dewalt-dch273": {
+    "summary": "Rotomartillo a batería 20V MAX XR Brushless con 2,1 J de impacto y control de vibraciones SHOCKS.",
+    "limits_and_warnings": [
+      "Sufijo B indica 'Bare tool' (herramienta sola); verificar disponibilidad de batería y cargador en la publicación."
+    ]
+  },
+  "einhell-te-cd-18-40": {
+    "summary": "Taladro atornillador a batería 18V Power X-Change de 40 Nm con engranajes de 2 velocidades.",
+    "limits_and_warnings": [
+      "No cuenta con función de percusión mecánica; apto para atornillado y perforación en madera/metal sin percusión."
+    ]
+  },
+  "einhell-te-hd-18-li": {
+    "summary": "Rotomartillo electro-neumático ultra compacto a batería de 18V con 1,2 Joules para fijaciones rápidas.",
+    "limits_and_warnings": [
+      "1,2 Joules son suficientes para tacos de 6 y 8 mm; no indicado para anclajes pesados de 14 mm o demolición."
+    ]
+  },
+  "ingco-cidli20668-4": {
+    "summary": "Taladro percutor de 20V con motor Brushless de 66 Nm de torque y mandril metálico.",
+    "limits_and_warnings": [
+      "Sufijo -4 difiere del -3 en la electrónica del gatillo y configuración del cargador; no tratar como intercambiables."
+    ]
+  },
+  "lusqtoff-tbl16-7": {
+    "summary": "Taladro de banco vertical con motor de 375 W (0,5 HP), mandril de 16 mm y 5 velocidades mecánicas por polea.",
+    "limits_and_warnings": [
+      "Para cambiar velocidad hay que aflojar el tensor de la correa manualmente y moverla de escalón."
+    ]
+  },
+  "lusqtoff-tbl710-9d": {
+    "summary": "Taladro de banco con motor de 710 W, display digital de velocidad y luz láser de centrado.",
+    "limits_and_warnings": [
+      "Motor universal con escobillas: mayor ruido en altas revoluciones comparado con motores a inducción tradicionales de polea."
+    ]
+  },
+  "makita-dhp453": {
+    "summary": "Taladro percutor a batería de 18V LXT con mandril de 13 mm y 42 Nm de torque.",
+    "limits_and_warnings": [
+      "Modelo de motor con escobillas tradicionales de carbón; no es la línea Brushless BL."
+    ]
+  },
+  "makita-hp333d": {
+    "summary": "Taladro atornillador percutor compacto a batería de 12V con mandril de 10 mm y 30 Nm de torque.",
+    "limits_and_warnings": [
+      "Mandril de 10 mm no acepta mechas con zanco cilíndrico superior a esa medida sin rebajar."
+    ]
+  },
+  "makita-hr2470": {
+    "summary": "Rotomartillo electroneumático de 780 W con 2,4 Joules de impacto y tres modos de operación.",
+    "limits_and_warnings": [
+      "Mecanismo de cambio de sentido por puente de carbones que mantiene la misma potencia en reversa."
+    ]
+  },
+  "omaha-ab550161k": {
+    "summary": "Taladro de banco de 550 W (3/4 HP) con mandril de 16 mm y morsa plana de 3\" incluida.",
+    "limits_and_warnings": [
+      "Verificar que la morsa plana asiente correctamente sin juegos en las ranuras de la mesa."
+    ]
+  }
+}

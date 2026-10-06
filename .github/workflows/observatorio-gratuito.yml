@@ -1,0 +1,132 @@
+name: Observatorio gratuito - captura y publicación
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:17 de Argentina; GitHub puede demorar los cron.
+    - cron: '17 10 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'observatorio/gratuito.py'
+      - 'observatorio/estatico.py'
+      - 'observatorio/piloto_gratuito.json'
+      - 'observatorio/guias_por_modelo.json'
+      - 'observatorio/requirements-gratuito.txt'
+      - 'observatorio/extractors/base.py'
+      - 'assets/observatorio-gratuito.*'
+      - 'assets/datos/precios-observatorio.json'
+      - 'tests/test_observatorio_gratuito.py'
+      - '.github/workflows/observatorio-gratuito.yml'
+
+concurrency:
+  group: observatorio-gratuito
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # Nunca consumir minutos pagos de un repositorio privado.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Instalar solo las dependencias gratuitas
+        run: python -m pip install -r observatorio/requirements-gratuito.txt
+      - name: Probar la captura y publicación
+        run: python -m unittest discover -s tests -p test_observatorio_gratuito.py -v
+      - name: Recuperar el historial durable
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _state
+          if git ls-remote --exit-code --heads origin observatorio-datos >/dev/null; then
+            git fetch --no-tags origin observatorio-datos
+            git show FETCH_HEAD:precios-observatorio.json > _state/precios-observatorio.json
+          else
+            cp assets/datos/precios-observatorio.json _state/precios-observatorio.json
+          fi
+      - name: Capturar y generar las páginas
+        env:
+          PYTHONUNBUFFERED: '1'
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: |
+          python -m observatorio.gratuito --history _state/precios-observatorio.json --output _site --base-path "/$REPOSITORY_NAME" --site-url "https://$REPOSITORY_OWNER.github.io" --canonical-url "https://www.tallerlab.com.ar"
+      - name: Guardar solo el historial público en su rama
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'TallerLab Observatorio'
+          git config user.email 'observatorio@users.noreply.github.com'
+          blob=$(git hash-object -w _state/precios-observatorio.json)
+          tree=$(printf '100644 blob %s\tprecios-observatorio.json\n' "$blob" | git mktree)
+          parent=$(git ls-remote --heads origin observatorio-datos | cut -f1)
+          if [ -n "$parent" ]; then
+            previous=$(git rev-parse "$parent^{tree}")
+            if [ "$tree" = "$previous" ]; then exit 0; fi
+            commit=$(printf 'Captura diaria del observatorio\n' | git commit-tree "$tree" -p "$parent")
+          else
+            commit=$(printf 'Historial inicial del observatorio\n' | git commit-tree "$tree")
+          fi
+          git push origin "$commit:refs/heads/observatorio-datos"
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v6
+      - name: Preparar la publicación (retención de un día)
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar incluso los estados agotados o sin verificación
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Actualizar www.tallerlab.com.ar (opcional, sin costo)
+        # Pages queda como copia noindex: la versión indexable vive en www. Si existe el secreto
+        # VERCEL_DEPLOY_HOOK_URL, se pide un deploy y el build de www lee el historial de la rama
+        # observatorio-datos. Sin el secreto, www actualiza los precios en el navegador desde Pages.
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            echo "Sin VERCEL_DEPLOY_HOOK_URL: www conserva el HTML del último deploy."
+            exit 0
+          fi
+          curl -fsS -X POST --max-time 30 "$VERCEL_DEPLOY_HOOK_URL" > /dev/null
+          echo "Deploy de www solicitado."
+      - name: Verificar el resultado publicado
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          from datetime import datetime, timezone
+          url = os.environ['PAGE_URL'].rstrip('/') + '/estado.json'
+          with urllib.request.urlopen(url, timeout=30) as response:
+              report = json.load(response)
+          run = report['run']
+          age = (datetime.now(timezone.utc) - datetime.fromisoformat(run['finished_at'])).total_seconds()
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          if run['status'] != 'ok' or report['unverified'] or report['stale'] or age > 48*3600:
+              raise SystemExit('Publicado con datos degradados: revisar los errores de captura. Los precios sin verificación se ocultan.')
+          PY

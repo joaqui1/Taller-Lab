@@ -63,7 +63,7 @@ El recorrido es simple: sin percusión para montaje, percusión para mamposterí
 
 ## Kit según presupuesto
 
-Si ya tenés una batería y un cargador Power X-Change compatibles, una versión Solo puede reducir el costo de entrada: pagás la herramienta y aprovechás el equipo que ya usás. El ahorro depende de que la batería y el cargador sean compatibles y estén disponibles para la tarea.
+Si ya tenés una batería y un cargador Power X-Change compatibles, una versión Solo puede reducir el costo de entrada: pagás la herramienta y aprovechás el equipo que ya usás. El ahorro depende de que la batería y el cargador sean compatibles y estén disponibles para la tarea. Para consultar las reglas de compatibilidad de la plataforma, baterías PXC homologadas y el funcionamiento de herramientas 36V Twin-Pack, consultá la ficha de [Einhell Power X-Change](/plataformas/einhell-power-x-change/) en nuestra base de compatibilidad.
 
 Si empezás desde cero, no compares el precio Solo con un kit completo. Sumá al costo de la herramienta una batería y un cargador; considerá una segunda batería si necesitás continuidad de trabajo. Einhell ofrece kits de inicio PXC de distintas capacidades y cargadores; en las fichas consultadas, el TE-CD Solo ofrece starter kits de batería/cargador de 2,5, 4 y 5,2 Ah, y el TP-CD Solo ofrece como opción el starter kit 4512042 de 4 Ah con cargador. Una versión Solo puede terminar costando más que un conjunto que ya incluya batería/cargador: compará el total de los componentes para empezar, no solo el precio de la máquina.
 

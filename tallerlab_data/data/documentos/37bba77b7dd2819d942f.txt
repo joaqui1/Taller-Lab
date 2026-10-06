@@ -1,0 +1,2746 @@
+
+[PÁGINA 1]
+¿Dudas? Visítenos en Internet: www.dewalt.com
+Dúvidas? Visite-nos na Internet em www.dewalt.com.br
+Questions? See us on the World Wide Web at www.dewalt.com
+DCD771
+Taladro/Atornillador compacto inalámbrico de 1/2" (13 mm) 20 V Max*
+Parafusadeira / Furadeira de 13 mm (1/2") compacta sem fio de 20 V Max*
+20V Max* Cordless Compact 1/2" (13 mm) Drill/Driver
+DCD776
+Taladro Percutor/Atornillador Inalambrico de 13mm (1/2") 20v max*
+Parafusadeira/furadeira de Impacto de 13mm (1/2") sem fio de 20v max*
+20V max* Cordless 1/2" (13mm) Hammerdrill/drill Driver
+Final Page Size: 8.5 x 5.5in 
+MANUAL DE INSTRUCCIONES
+MANUAL DE INSTRUÇÕES
+INSTRUCTION MANUAL
+INSTRUÇÕES DE OPERAÇÃO, CENTRO DE SERVIÇOS E CERTIFICADO DE GARANTIA. 
+ADVERTÊNCIA: LEIA ESTAS INSTRUÇÕES ANTES DE  UTILIZAR O PRODUTO.
+INSTRUCTIVO DE OPERACIÓN, CENTROS DE SERVICIO Y PÓLIZA DE GARANTÍA. 
+ADVERTENCIA: LÉASE ESTE INSTRUCTIVO ANTES DE USAR EL PRODUCTO. 
+INSTRUCTION MANUAL, SERVICE CENTER LISTINGS, AND WARRANTY CARD. 
+WARNING: READ THE INSTRUCTION MANUAL BEFORE USING THE PRODUCT.
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+1
+Español
+Definiciones: Normas  
+de seguridad
+Las siguientes definiciones describen el nivel de gravedad de 
+cada advertencia. Lea el manual y preste atención a estos 
+símbolos.
+ PELIGRO: Indica una situación de peligro inminente que, si no 
+se evita, provocará la muerte o lesiones graves.
+ ADVERTENCIA: Indica una situación de peligro potencial que, 
+si no se evita, podría provocar la muerte o lesiones graves.
+ ATENCIÓN: Indica una situación de peligro potencial que, si no 
+se evita, puede provocar lesiones leves o moderadas.
+AVISO: Se refiere a una práctica no relacionada a lesiones 
+corporales que de no evitarse puede resultar en daños a la 
+propiedad.
+ADVERTENCIA: para reducir el riesgo de lesiones, lea el 
+manual de instrucciones.
+Advertencias generales de seguridad 
+para las herramientas eléctricas
+ ADVERTENCIA: Lea todas las advertencias de seguridad 
+e instrucciones. El incumplimiento de las advertencias o 
+instrucciones puede provocar descargas eléctricas, incendios o 
+lesiones graves.
+GUARDE LAS ADVERTENCIAS E 
+INSTRUCCIONES PARA PODER 
+CONSULTARLAS EN EL FUTURO
+El término “herramienta eléctrica” incluido en todas las advertencias se 
+refiere a su herramienta eléctrica conectada a la red (cable eléctrico) 
+o a su herramienta eléctrica accionada con baterías (inalámbrica).
+1) SEGURIDAD DEL ÁREA DE TRABAJO
+a) Mantenga el área de trabajo limpia y bien iluminada. Las 
+áreas desordenadas u oscuras propician accidentes.
+b) No opere las herramientas eléctricas en atmósferas 
+explosivas, como ambientes donde haya polvo, gases 
+o líquidos inflamables. Las herramientas eléctricas originan 
+chispas que pueden encender el polvo o producir humo.
+c) Mantenga alejados a los niños y a los espectadores 
+de la herramienta eléctrica en funcionamiento. Las 
+distracciones pueden provocar la pérdida de control.
+2) SEGURIDAD ELÉCTRICA
+a) Los enchufes de la herramienta eléctrica deben 
+adaptarse a la toma de corriente. Nunca modifique el 
+enchufe de ninguna manera. No utilice ningún enchufe 
+adaptador con herramientas eléctricas con conexión a 
+tierra. Los enchufes no modificados y que se adaptan a las 
+tomas de corrientes reducirán el riesgo de descarga eléctrica.
+b) Evite el contacto corporal con superficies con toma de 
+tierra como, por ejemplo, tuberías, radiadores, cocinas 
+y refrigeradores. Existe mayor riesgo de descarga eléctrica 
+si su cuerpo está puesto a tierra.
+c) No exponga las herramientas eléctricas a la lluvia ni a 
+condiciones de humedad. Si entra agua en una herramienta 
+eléctrica, aumentará el riesgo de descarga eléctrica.
+d) No use el cable indebidamente. Nunca utilice el cable 
+para transportar, tirar o desenchufar la herramienta 
+eléctrica. Mantenga el cable alejado del calor, el aceite, 
+los bordes afilados o las piezas móviles.  Los cables 
+dañados o enredados aumentan el riesgo de descarga 
+eléctrica. 
+e) Al operar una herramienta eléctrica en exteriores, utilice 
+un cable de extensión adecuado para tal uso. Utilice un 
+cable adecuado para uso en exteriores a fin de reducir el 
+riesgo de descarga eléctrica. 
+
+[PÁGINA 4]
+2
+Español
+f) Si no se puede evitar el uso de una herramienta eléctrica 
+en una zona húmeda, utilice un dispositivo de corriente 
+residual (residual current device, RCD) de seguridad. 
+El uso de un RCD reduce el riesgo de sufrir una descarga 
+eléctrica.
+3) SEGURIDAD PERSONAL
+a) Permanezca alerta, controle lo que está haciendo y 
+utilice el sentido común cuando emplee una herramienta 
+eléctrica. No utilice una herramienta eléctrica si 
+está cansado o bajo el efecto de drogas, alcohol o 
+medicamentos. Un momento de descuido mientras se opera 
+una herramienta eléctrica puede provocar lesiones personales 
+graves. 
+b) Utilice equipo de seguridad personal. Utilice siempre 
+protección ocular. El uso de equipo de seguridad, como 
+mascarillas para polvo, calzado de seguridad antideslizante, 
+cascos o protección auditiva en las condiciones adecuadas 
+reducirá las lesiones personales.
+c) Evite poner en marcha la herramienta involuntariamente. 
+Asegúrese de que el interruptor está apagado antes de 
+conectar la fuente de alimentación y/o la batería, agarrar 
+o transportar la herramienta. Transportar herramientas 
+eléctricas con su dedo apoyado sobre el interruptor o enchufar 
+herramientas eléctricas con el interruptor en la posición de 
+encendido puede ocasionar accidentes.
+d) Retire la herramienta de ajuste o la llave de tuercas 
+antes de encender la herramienta eléctrica. Una llave de 
+tuercas o una herramienta de ajuste que quede conectada a 
+una pieza giratoria de la herramienta eléctrica puede provocar 
+lesiones personales.
+e) No se estire demasiado. Conserve el equilibrio y 
+posiciónese adecuadamente en todo momento. Esto 
+permite un mejor control de la herramienta eléctrica en 
+situaciones inesperadas.
+f) Use la vestimenta adecuada. No use ropas holgadas ni 
+joyas. Mantenga el cabello, la ropa y los guantes alejados 
+de las piezas en movimiento. Las ropas holgadas, las joyas 
+o el cabello largo pueden quedar atrapados en las piezas  
+en movimiento. 
+g) Si se suministran dispositivos para la conexión de 
+accesorios con fines de recolección y extracción de 
+polvo, asegúrese de que estén conectados y que se 
+utilicen correctamente. El uso del extractor de polvo puede 
+reducir los riesgos relacionados con el polvo.
+4)  USO Y MANTENIMIENTO DE LA HERRAMIENTA 
+ELÉCTRICA
+a) No fuerce la herramienta eléctrica. Utilice la herramienta 
+eléctrica correcta para el trabajo que realizará. La 
+herramienta eléctrica correcta hará el trabajo mejor, y de un 
+modo más seguro, a la velocidad para la que fue diseñada.
+b) No utilice la herramienta eléctrica si no puede encenderla 
+o apagarla con el interruptor. Las herramientas que no 
+puedan ser controladas con el interruptor constituyen un 
+peligro y deben repararse.
+c) Desconecte el enchufe de la fuente de alimentación o 
+la batería de la herramienta eléctrica antes de realizar 
+cualquier ajuste, cambio de accesorios o almacenar 
+las herramientas eléctricas. Estas medidas de seguridad 
+preventivas reducen el riesgo de encender la herramienta 
+eléctrica de forma accidental.
+d) Guarde la herramienta eléctrica que no esté en uso fuera 
+del alcance de los niños y no permita que otras personas 
+no familiarizadas con ella o con estas instrucciones 
+operen la herramienta. Las herramientas eléctricas son 
+peligrosas si son operadas por usuarios que no tienen 
+formación.
+
+[PÁGINA 5]
+3
+Español
+e) Mantenimiento de las herramientas eléctricas. Revise 
+que no haya piezas en movimiento mal alineadas o 
+trabadas, piezas rotas o cualquier otra situación que 
+pueda afectar el funcionamiento de las herramientas 
+eléctricas. Si encuentra daños, haga reparar la 
+herramienta eléctrica antes de utilizarla. Se producen 
+muchos accidentes a causa de las herramientas eléctricas que 
+carecen de un mantenimiento adecuado.
+f) Mantenga las herramientas de corte afiladas y limpias. 
+Los accesorios de corte de estas herramientas deben estar 
+limpios y con los bordes de corte afilados. De esta manera son 
+menos propensas a trabarse y son más fáciles de controlar.
+g) Utilice las herramientas eléctricas, sus accesorios y 
+piezas, etc. de acuerdo con las presentes instrucciones, 
+teniendo siempre en cuenta las condiciones de trabajo y 
+el trabajo que deba llevar a cabo. El uso de la herramienta 
+eléctrica para operaciones diferentes de aquellas para las que 
+fue diseñada podría originar una situación peligrosa.
+5)  USO Y MANTENIMIENTO DE LA HERRAMIENTA CON 
+BATERÍAS
+a) Recargue solamente con el cargador especificado por el 
+fabricante. Un cargador adecuado para un tipo de paquete 
+de baterías puede originar riesgo de incendio si se utiliza con 
+otro paquete de baterías.
+b)  Utilice herramientas eléctricas sólo con paquetes de 
+baterías específicamente diseñados. El uso de cualquier 
+otro paquete de baterías puede producir riesgo de incendio y 
+lesiones.
+c) Cuando no utilice el paquete de baterías, manténgalo 
+lejos de otros objetos metálicos como sujetapapeles, 
+monedas, llaves, clavos, tornillos u otros objetos 
+metálicos pequeños que puedan realizar una conexión 
+desde un terminal al otro. Los cortocircuitos en los terminales 
+de la batería pueden provocar quemaduras o incendio.
+d) En condiciones abusivas, el líquido puede ser expulsado 
+de la batería. Evite su contacto. Si entra en contacto 
+accidentalmente, enjuague con agua. Si el líquido entra 
+en contacto con los ojos, busque atención médica. El 
+líquido expulsado de la batería puede provocar irritación o 
+quemaduras.
+6)  MANTENIMIENTO
+a) Solicite a una persona calificada en reparaciones que 
+realice el mantenimiento de su herramienta eléctrica 
+y que solo utilice piezas de repuesto originales. Esto 
+garantizará la seguridad de la herramienta eléctrica.
+Normas de seguridad específicas 
+adicionales para los atornilladores/
+taladros/percutores
+• Lleve protección auditiva al realizar operaciones de 
+perforación con percusión. La exposición ante ruidos podrá 
+provocar una pérdida de su audición.
+• Utilice el (los) mango(s) auxiliares, si alguno viene con la 
+herramienta. Perder el control de la herramienta podría causar 
+lesiones corporales.
+• Sujete la herramienta eléctrica de sus superficies aislantes 
+cuando lleve a cabo una operación en que el accesorio de 
+corte pudiera entrar en contacto con un hilo eléctrico 
+oculto. Los accesorios de corte que entren en contacto con un 
+hilo eléctrico activo podrían hacer que las partes metálicas de la 
+herramienta eléctrica también se activen con electricidad y que 
+el operador sufra una descarga eléctrica.
+• Utilice mordazas, prensas u otra forma práctica para 
+asegurar y sostener la pieza de trabajo en una plataforma 
+estable. Sostener el trabajo con la mano o contra el cuerpo no 
+brinda la estabilidad requerida y puede llevar a la pérdida del 
+control.
+
+[PÁGINA 6]
+4
+Español
+• Use lentes de seguridad u otra protección similar para los 
+ojos. Al martillar o taladrar se producen astillas. Las partículas 
+volátiles pueden provocar lesiones oculares permanentes.
+• Agarre firmemente la herramienta en todo momento. No 
+intente utilizar esta herramienta sin sujetarla con ambas manos. 
+• Los accesorios y la herramienta pueden calentarse durante 
+la operación. Use guantes si realizará aplicaciones que generan 
+calor, como el taladrado con percusión y el taladrado de metales.
+• No opere esta herramienta durante períodos largos de 
+tiempo. La vibración provocada por la acción de la percusión 
+puede ser peligrosa para sus manos y brazos. Utilice guantes 
+para mayor amortiguación y descanse con frecuencia para 
+limitar el riesgo de exposición.
+• Los orificios de ventilación suelen cubrir piezas en 
+movimiento, por lo que también se deben evitar. Las piezas 
+en movimiento pueden atrapar prendas de vestir sueltas, joyas o 
+el cabello largo.
+ADVERTENCIA: Si el enchufe o el cable de alimentación están 
+dañados lo debe reemplazar el fabricante o su representante o por 
+una persona igualmente calificada para evitar peligro.
+ADVERTENCIA: Use SIEMPRE lentes de seguridad. Los anteojos 
+formulados NO SON lentes de seguridad. Utilice además una 
+cubrebocas o mascarilla antipolvo si la aplicación genera demasiado 
+polvo. SIEMPRE LLEVE EQUIPO DE SEGURIDAD CERTIFICADO:
+• Protección ocular ANSI Z87.1 (CAN/CSA Z94.3),
+• Protección auditiva ANSI S12.6 (S3.19),
+• Protección respiratoria NIOSH/OSHA/MSHA.
+ADVERTENCIA: Parte del polvo generado al lijar, cortar, esmerilar 
+y taladrar, así como al realizar otras actividades del sector de la 
+construcción, contienen productos químicos que pueden producir 
+cáncer, defectos congénitos u otras afecciones reproductivas. 
+Algunos ejemplos de estos químicos son:
+• plomo de algunas pinturas en base a plomo,
+• polvo de sílice proveniente de ladrillos y cemento y otros 
+productos de albañilería, y 
+• arsénico y cromo provenientes de madera tratada 
+químicamente.
+Su riesgo de exposición a estos químicos varía, dependiendo de la 
+frecuencia con la cual realiza usted este tipo de trabajo. Para reducir 
+su exposición a estas sustancias químicas: trabaje en una zona 
+bien ventilada y llevando equipos de seguridad aprobados, como 
+mascarillas antipolvo especialmente diseñadas para filtrar partículas 
+microscópicas.
+• Evite el contacto prolongado con polvo generado por el 
+lijado, corte, esmerilado, taladrado y otras actividades de 
+construcción. Vista ropas protectoras y lave las áreas de 
+la piel expuestas con agua y jabón. Si permite que el polvo 
+se introduzca en la boca u ojos o quede sobre la piel, puede 
+favorecer la absorción de productos químicos peligrosos. 
+ADVERTENCIA: La utilización de esta herramienta puede 
+generar polvo o dispersarlo, lo que podría causar daños graves 
+y permanentes al sistema respiratorio, así como otras lesiones. 
+Siempre use protección respiratoria aprobada por NIOSH (Instituto 
+Nacional de Seguridad y Salud en el Trabajo) u OSHA (Administración 
+de Seguridad y Salud en el Trabajo) apropiada para la exposición al 
+polvo. Dirija las partículas en dirección contraria a la cara y el cuerpo.
+ADVERTENCIA: Siempre lleve la debida protección auditiva 
+personal en conformidad con ANSI S12.6 (S3.19) durante el 
+uso de esta herramienta. Bajo algunas condiciones y duraciones 
+de uso, el ruido producido por este producto puede contribuir a la 
+pérdida auditiva.
+ATENCIÓN: Cuando no esté en uso, coloque la herramienta 
+apoyada sobre su costado en una superficie estable, donde no 
+obstaculice el paso o provoque una caída. Algunas herramientas 
+con paquetes de baterías de gran tamaño pueden colocarse paradas 
+sobre el paquete de baterías, pero pueden caerse fácilmente. 
+
+[PÁGINA 7]
+5
+Español
+• La etiqueta de su herramienta puede incluir los siguientes 
+símbolos. Los símbolos y sus definiciones son los siguientes:
+V ...................voltios A  .....................amperios
+Hz .................hercios W  ....................vatios
+min ...............minutos  o AC ......... corriente
+o DC ....corriente directa  .......................alterna
+ .................Construcción  o AC/DC ... corriente 
+ .....................Clase I (tierra)  .......................alterna
+ .................Construcción  .......................o directa
+ .....................Clase II n......................velocidad
+(doble aislamiento)  .......................nominal
+IPM ..............impactos por no ...................velocidad sin
+ .....................minuto  .......................carga
+sfpm .............pies de superficie  ....................conexión de
+ ....................por minuto (sfpm)  ....................... tierra
+…/min  ..........revoluciones o,  ....................símbolo de
+ .....................carreras o golpes  .......................advertencia
+BPM .............golpes por minuto   ......................de seguridad
+SPM .............carreras por  ...................radiación visible
+ .....................minuto
+Instrucciones de seguridad importantes 
+para todas las unidades de batería
+Cuando solicite unidades de batería de repuesto, no olvide indicar el 
+número de catálogo y el voltaje. 
+La unidad de batería no viene completamente cargada de fábrica. 
+Antes de usar la unidad de batería y el cargador, lea las siguientes 
+instrucciones de seguridad. Luego, siga los procedimientos de carga 
+indicados.
+LEA TODAS LAS INSTRUCCIONES
+ADVERTENCIA:
+• No cargue o use la unidad de batería en atmósferas 
+explosivas, como en presencia de líquidos, gases o polvos 
+inflamables. Puede que al insertar o sacar la unidad de batería  
+del cargador se inflamen el polvo o los gases.
+• NUNCA fuerce la unidad de batería para que entre en el 
+cargador. NO modifique la unidad de batería en ninguna 
+forma para que entre en un cargador no compatible, pues 
+puede producir una ruptura en la unidad de batería y 
+causar lesiones corporales graves. 
+• Cargue las unidades de batería sólo en los cargadores 
+designados por DeWALT.
+• NO salpique con ni sumerja en agua u otros líquidos.
+• No guarde ni use la herramienta y unidad de batería en 
+lugares donde la temperatura pueda alcanzar o superar los 
+40 °C (104 °F), tales como cobertizos o construcciones de 
+metal durante el verano). Almacene las unidades de batería en 
+lugares frescos y secos para maximizar su vida útil.
+ NOTA: No almacene las unidades de batería en la 
+herramienta con el interruptor de gatillo en posición fija 
+de encendido. Nunca use cinta adhesiva para mantener el 
+interruptor de gatillo en posición de ENCENDIDO.
+ADVERTENCIA: Peligro de incendio. Nunca intente abrir la unidad 
+de batería por ningún motivo. Si la caja exterior de la unidad de 
+batería se triza o daña, no la introduzca en el cargador. No triture, deje 
+caer o dañe la unidad de batería. No use una unidad de batería o un 
+cargador que haya sido golpeado, dejado caer, atropellado o dañado 
+en cualquier forma (por ejemplo, perforado por un clavo, golpeado 
+con un martillo, pisado). Lleve sus unidades de batería dañadas al 
+centro de servicio para que sean recicladas.
+
+[PÁGINA 8]
+6
+Español
+INSTRUCCIONES DE SEGURIDAD ESPECÍFICAS PARA 
+BATERÍAS DE ION DE LITIO (Li-Ion)
+• NO incinere la unidad de batería, aunque esté completamente 
+dañada o descargada. La unidad de batería puede explotar 
+si se quema. Cuando se queman unidades de batería de iones 
+de litio, se producen gases y materiales tóxicos.
+• Si el contenido de la batería entra en contacto con la piel, 
+lave el área de inmediato con agua y un jabón suave.  Si el 
+líquido de la batería entra en contacto con sus ojos, enjuáguelos 
+con agua y los ojos abiertos por 15 minutos o hasta que cese la 
+irritación. Si se requiere de asistencia médica, el electrolito de la 
+batería está compuesto por una mezcla de carbonatos orgánicos 
+líquidos y sales de litio.
+• El contenido de los elementos abiertos de la batería puede 
+causar irritación en el tracto respiratorio. Salga al aire fresco. 
+Si los síntomas persisten, busque asistencia médica.
+ADVERTENCIA: Peligro de quemaduras. El líquido de la batería 
+puede ser inflamable si se expone a chispas o llamas. 
+Instrucciones importantes de seguridad 
+para todos los cargadores de baterías
+GUARDE ESTAS INSTRUCCIONES: Este manual contiene 
+instrucciones de seguridad y operación importantes para los 
+cargadores de baterías.
+• Antes de usar el cargador, lea todas las instrucciones y 
+advertencias que se encuentren en el cargador, la unidad de 
+batería y el producto que usa la unidad de batería.
+ADVERTENCIA: Peligro de descarga eléctrica. No permita 
+que ningún líquido se introduzca en el cargador. Puede producir 
+descargas eléctricas.
+ATENCIÓN: Peligro de quemaduras. Para reducir el riesgo 
+de lesiones, sólo cargue unidades de batería recargables marca 
+DeWALT . Otros tipos de batería podrían sobrecalentarse y reventar lo 
+que podría resultar en lesiones corporales y daños a su propiedad.
+AVISO: Bajo ciertas condiciones, cuando el cargador está enchufado 
+a una toma de corriente, el cargador puede hacer cortocircuito si 
+entra en contacto con algún material ajeno. Los materiales ajenos 
+de naturaleza conductora, como el polvo de esmerilado, las placas 
+de metal, la lana de acero, el papel de aluminio y otros, o cualquier 
+acumulación de partículas metálicas deberían mantenerse alejados 
+de las cavidades del cargador. Desenchufe siempre el cargador 
+cuando no haya una unidad de batería en su cavidad. Desenchufe el 
+cargador antes de intentar limpiarlo.
+ADVERTENCIA:
+• NO intente cargar la unidad de batería con otros cargadores 
+que no sean los descritos en este manual. El cargador y la 
+unidad de batería fueron específicamente diseñados para trabajar 
+en conjunto. 
+• Estos cargadores no fueron diseñados para ser utilizados 
+para más que cargar las baterías recargables DeWALT. 
+Cualquier otro uso puede producir riesgo de incendios, descargas 
+eléctricas o electrocución.
+• No exponga el cargador a la lluvia o a la nieve.
+• Tire del enchufe y no del cable cuando desconecte el 
+cargador. De esta forma se reduce el riesgo de daño al enchufe 
+y cable.
+• Asegúrese de que el cable no sea ubicado de manera que 
+podría ser pisado, causar que alguien tropiece con él o ser 
+expuesto a otro tipo de daños y desgastes.
+• No use un cable de extensión a menos que sea 
+absolutamente necesario.  El uso de un cable de extensión 
+incorrecto podría producir riesgo de incendios, descargas 
+eléctricas o electrocución. 
+• Cuando opere un cargador en exteriores, hágalo siempre 
+en un lugar seco y use un cable de extensión apropiado 
+
+[PÁGINA 9]
+7
+Español
+para uso en exteriores.  El uso de un cable de extensión 
+apropiado para uso al exterior reduce el riesgo de descarga 
+eléctrica. 
+• El cable de extensión debe ser de un calibre apropiado para 
+su seguridad. Un cable de un calibre insuficiente causará una 
+caída en la tensión de la línea dando por resultado una pérdida 
+de energía y sobrecalentamiento. Cuando se utilice más de una 
+extensión para completar el largo total, asegúrese que cables 
+conductores de cada extensión  tengan el calibre mínimo. La 
+tabla siguiente muestra el tamaño correcto a utilizar, dependiendo 
+de la longitud del cable y del amperaje nominal de la placa de 
+identificación de la herramienta. Si tiene dudas sobre cuál calibre 
+usar, use un calibre mayor.
+Tensión (Voltios) Longitud del cable en metros (m)
+120–127 V 0–7 7–15 15–30 30–50
+220–240 V 0–15 15–30 30–60 60–100
+Corriente 
+nominal 
+(Amperios)
+Sección nominal mínima del cable en  
+milímetros cuadrados (mm2)
+0–6 A 1,0 1,5 1,5 2,5
+6–10 A 1,0 1,5 2,5 4,0
+10–12 A 1,5 1,5 2,5 4,0
+12–16 A 2,5 4,0 No recomendado
+• No coloque ningún objeto encima del cargador ni coloque 
+a este sobre una superficie blanda que pudiera bloquear 
+las ranuras de ventilación y resultar en un calor interno 
+excesivo. Coloque el cargador en un lugar alejado de cualquier 
+fuente de calor. El cargador se ventila a través de las ranuras que 
+se encuentran en la parte superior e inferior de la caja protectora.
+• No opere el cargador si su cable o enchufe están dañados.
+• No opere el cargador si ha recibido un golpe severo, si se 
+ha caído o si ha sido dañado de alguna otra forma. Llévelo a 
+un centro de servicio autorizado.
+• No desarme el cargador; llévelo a un centro de servicio 
+autorizado cuando deba ser reparado.  Si es reensamblado 
+incorrectamente, puede causar descargas eléctricas, electrocución 
+o incendios.
+• Desenchufe el cargador antes de intentar limpiarlo. Esto 
+reducirá el riesgo de descargas eléctricas. El retirar solamente 
+el paquete de baterías no reducirá este riesgo.
+• NUNCA intente conectar 2 cargadores entre sí.
+• El cargador está diseñado para operar con una corriente 
+eléctrica estándar residencial de 120 V. No intente usarlo 
+con ningún otro voltaje. Esto no aplica al cargador vehicular.
+Cargadores 
+Su herramienta utiliza un cargador DeWALT . Asegúrese de leer todas 
+las instrucciones de seguridad antes de utilizar su cargador.
+Procedimiento de carga (Fig. 1)
+ 1. Enchufe el cargador en una
+HFIG. 1  
+toma de corriente 
+apropiada antes de insertar 
+la unidad de batería. 
+ 2. Inserte la unidad de 
+batería (H) en el cargador, 
+como se muestra en la 
+Figura 1, comprobando 
+que quede bien colocado 
+dentro del mismo. La luz 
+roja (de carga) parpadeará 
+continuamente para indicar 
+que se ha iniciado el proceso de carga. 
+ 3. La luz roja se quedará ENCENDIDA continuamente cuando 
+se haya completado el proceso de carga. La unidad estará 
+entonces completamente cargada y podrá ser utilizado de 
+inmediato o dejarse en el cargador.
+
+[PÁGINA 10]
+8
+Español
+Operación de la luz indicadora
+DCB107, DCB112, DCB115
+Indicadores de carga 
+Este cargador ha sido diseñado para detectar ciertos problemas 
+que pudieran surgir. Estos problemas se indican mediante una luz 
+roja intermitente rápida. Si esto ocurre, vuelva a colocar la unidad 
+de batería en el cargador. Si el problema persiste, pruebe con otra 
+unidad de batería para determinar si el cargador está funcionando 
+debidamente. Si la segunda unidad de batería carga correctamente, 
+significa que la primera está fallada y debería ser llevada a un centro 
+de servicio u otro lugar de colección para su reciclaje. Si la segunda 
+unidad de batería hace que el cargador indique el mismo problema 
+que la primera, lleve el cargador y la unidad de batería a un centro 
+de servicio autorizado para su examinación. 
+RETRASO POR PAQUETE CALIENTE/FRÍO
+DCB107, DCB112, DCB115
+Estos cargadores tienen una función de retardo por batería caliente/
+fría. Cuando el cargador detecta una batería que está demasiado 
+caliente o demasiado fría, automáticamente comienza un retardo y 
+suspende la carga. La luz roja continuará parpadeando, pero la luz 
+indicadora amarilla estará iluminada durante esta suspensión. 
+Una vez que la batería ha alcanzado una temperatura óptima, la luz 
+amarilla se apagará y el cargador automáticamente reanudará el 
+procedimiento de carga. Esta función garantiza la máxima duración 
+de la batería.
+PERMANENCIA DE LA UNIDAD DE BATERÍA EN EL 
+CARGADOR
+El cargador y la unidad de batería pueden dejarse conectados con 
+la luz del cargador indicando que la unidad está cargada. 
+UNIDADES DE BATERÍA DESGASTADAS:  Las baterías 
+desgastadas seguirán funcionando pero no debe esperarse que 
+tengan capacidad para la misma cantidad de trabajo. 
+UNIDADES DE BATERÍA DEFECTUOSAS:  Este cargador no 
+cargará una unidad de batería defectuosa. El cargador indicará 
+que la unidad de batería es defectuosa al no iluminarse o al indicar 
+que existe un problema con la unidad o el cargador. NOTA: Esto 
+también puede significar que hay un problema con el cargador.
+Montaje en la pared
+DCB107, DCB112, DCB115
+Estos cargadores están diseñados para montarse en la pared o 
+colocarse en posición vertical sobre una mesa o superficie de trabajo.
+Si se monta en la pared, ubicar el cargador al alcance de una toma 
+de corriente. Montar el cargador firmemente utilizando tornillos para 
+muro seco de un mínimo de 25,4 mm (1") de largo, atornillados en 
+madera hasta una profundidad óptima dejando el tornillo expuesto 
+aproximadamente 5,5 mm (7/32").
+Notas importantes sobre la carga
+ 1. Se puede obtener una mayor duración y un mejor rendimiento 
+si la unidad de batería se carga a una temperatura ambiente 
+de 18 – 24 °C (65 °C – 75 °F). NO cargue la unidad de batería a 
+una temperatura ambiental inferior a +4.5 °C (+40 °F) o superior 
+a +40 °C (+104 °F). Esto es importante y evitará causar daños 
+graves a la batería.
+ 2. Puede que el cargador y la unidad de batería se calienten 
+ligeramente durante el proceso de carga. Esto es normal y no 
+
+[PÁGINA 11]
+9
+Español
+representa ningún problema. Para facilitar el enfriamiento de la 
+unidad de batería después del uso, evite colocar el cargador 
+o la unidad de batería en un lugar cálido, como un cobertizo 
+metálico o un remolque sin aislamiento térmico.
+ 3. Una unidad de batería fría se demora el doble del tiempo en 
+cargarse que una unidad de batería caliente. La unidad de 
+batería se cargará a ese ritmo más lento durante todo el ciclo de 
+carga y no volverá a cargarse a la velocidad de carga máxima 
+aún cuando la unidad de batería se caliente.
+ 4.  Si la unidad de batería no se carga correctamente:
+  a.  Verifique el funcionamiento de la toma enchufando una 
+lámpara u otro aparato;
+  b.  Revise que la toma de corriente no esté conectada a un 
+interruptor de luz que corte la corriente cuando se corte la 
+luz;
+  c.  Mueva el cargador y la unidad de batería a un lugar donde la 
+temperatura ambiental sea aproximadamente 18 °C – 24 °C 
+(65 °F– 75 °F); 
+  d.  Si el problema de carga continúa, lleve la herramienta, unidad 
+de batería y el cargador a su centro de servicio local.
+ 5. La unidad de batería debería ser recargada cuando no sea 
+capaz de producir suficiente potencia para trabajos que eran 
+fácilmente realizados antes. NO CONTINÚE usándola bajo 
+estas circunstancias. Siga el procedimiento de carga. También 
+puede cargar una unidad de batería que haya sido usada 
+parcialmente cuando lo desee, sin dañarla.
+ 6. No solamente materiales conductores extraños, sino otros 
+comunes tales como el polvo del esmerilado, las virutas 
+metálicas, la lana de acero, el papel de aluminio o cualquier 
+acumulación de partículas metálicas deberían mantenerse 
+alejados de las cavidades del cargador. Desenchufe siempre el 
+cargador de la toma de corriente cuando no haya una unidad 
+de batería en su cavidad. Desenchufe el cargador antes de 
+intentar limpiarlo.
+ 7. No congele ni sumerja el cargador en agua o cualquier otro 
+líquido.
+ADVERTENCIA: Peligro de descarga eléctrica. No permita 
+que ningún líquido se introduzca en el cargador. Puede producir 
+descargas eléctricas. 
+ADVERTENCIA: Peligro de quemaduras. No sumerja la unidad de 
+batería en líquido de ningún tipo ni permita que se introduzca ningún 
+tipo de líquido a la unidad de batería. Nunca intente abrir la unidad de 
+batería por ningún motivo. Si la caja plástica de la unidad de batería 
+se triza o rompe, llévela a un centro de servicio para su reciclaje
+Recomendaciones de almacenamiento
+ 1. El mejor lugar de almacenamiento es uno que sea fresco y seco, 
+lejos de la luz solar directa y del exceso de calor o frío.
+ 2. Para resultados óptimos durante tiempos prolongados de 
+almacenamiento, se recomienda almacenar la unidad de batería 
+completamente cargada en un lugar fresco y seco fuera del 
+cargador.
+NOTA: Las unidades de batería no deberían almacenarse 
+completamente descargadas. La unidad de batería deberá recargarse 
+antes de ser usada.
+ GUARDE ESTAS INSTRUCCIONES PARA 
+VOLVER A CONSULTAR EN EL FUTURO
+COMPONENTES (Fig. 2)
+ADVERTENCIA: Nunca modifique la herramienta eléctrica, ni 
+tampoco ninguna de sus piezas. Podría producir lesiones corporales 
+o daños.
+
+[PÁGINA 12]
+10
+Español
+ A. Interruptor de gatillo 
+ B. Botón de control de avance/
+reversa
+ C. Anillo selector de torque
+ D. Selector de velocidades
+ E. Luz de trabajo
+ F. Portabrocas sin llave
+ G. Botón de liberación de la 
+batería
+ H. Unidad de batería
+A
+B
+C
+FIG. 2
+D
+F
+E
+G
+H
+USO PREVISTO
+Estos atornilladores/taladros percutores están diseñados para 
+aplicaciones profesionales de taladrado, taladrado con percusión y 
+atornillado.
+NO use la herramienta bajo condiciones de humedad o en presencia 
+de gases o líquidos inflamables.
+Estos taladros/atornilladores/taladros percutores son herramientas 
+profesionales. NO  permita que los niños tengan contacto con la 
+herramienta. Cuando la hagan funcionar operarios sin experiencia, es 
+necesaria su supervisión.  
+Interruptor de gatillo de velocidad 
+variable (Fig. 2)
+Para encender la herramienta, oprima el interruptor de gatillo (A). Para 
+apagar la herramienta, suelte el interruptor de gatillo. La herramienta 
+está equipada con un freno. El portabrocas se detendrá cuando 
+suelte completamente el interruptor de gatillo. 
+NOTA: No se recomienda el uso continuo de la velocidad variable. 
+Puede dañar el interruptor y debe evitarse.
+Botón de control de avance/reversa  
+(Fig. 2)
+Un botón de control de avance y reversa (B) determina la dirección 
+de rotación de la herramienta y también sirve como botón de 
+bloqueo.
+Para seleccionar la rotación de avance, libere el interruptor disparador 
+y oprima el botón de control de avance/reversa que se encuentra en 
+el costado derecho de la herramienta. 
+Para seleccionar la rotación de reversa, presione el botón de control 
+de avance y reversa en el lado izquierdo de la herramienta.
+La posición central del botón de control bloquea la herramienta en 
+la posición de apagado. Al cambiar la posición del botón de control, 
+asegúrese de que el interruptor de gatillo esté liberado. 
+NOTA: La primera vez que haga funcionar la herramienta luego 
+de cambiar la dirección de la rotación tal vez escuche un “clic” al 
+encenderla. Esto es normal y no indica un problema. 
+
+[PÁGINA 13]
+11
+Español
+Selector de Ajuste de Torque (Fig. 2)
+Su herramienta tiene un mecanismo de destornillado con un par de 
+torsión ajustable para poder atornillar y destornillar una gran variedad 
+de tornillos de diferentes formas y tamaños. Alrededor del anillo 
+selector de torque (C) encontrará números y el símbolo de una broca. 
+Estos números se utilizan para fijar el embrague para que produzca 
+un rango de torsión. Cuanto mayor el número del anillo, mayor será 
+la torsión y mayor el sujetador que se puede colocar. Para seleccionar 
+cualquiera de los números, gire hasta que el número deseado se 
+alinee con la flecha.
+Engranaje de dos velocidades (Fig. 2)
+La característica de dos velocidades de su taladro/atornillador le 
+permite seleccionar la velocidad para una mayor versatilidad.
+ 1. Para seleccionar la velocidad 1 (con el par de torsión más alto), 
+apague la herramienta y deje que se detenga. Deslice el selector 
+de velocidades (D) hacia adelante (hacia el portabrocas). 
+ 2. Para seleccionar la velocidad 2 (con el par de torsión más bajo), 
+apague la herramienta y deje que se detenga. Deslice el selector 
+de velocidades hacia atrás (en sentido contrario al portabrocas).
+NOTA: No cambie de velocidad mientras la herramienta esté 
+funcionando. Siempre permita que el taladro se detenga por 
+completo antes de cambiar de velocidad. Si tiene problemas 
+para cambiar de velocidad, compruebe que el selector de dos 
+velocidades esté en una de las dos posiciones: completamente 
+hacia adelante o completamente hacia atrás.
+Luz de trabajo (Fig. 2)
+ ATENCIÓN: No mire fijamente hacia la luz de trabajo.  
+Podrían producirse lesiones oculares graves.
+Hay una luz de trabajo (E) justo encima del interruptor tipo gatillo 
+(A). La luz de trabajo se activa cuando se presiona el interruptor 
+tipo gatillo, y se apagará automáticamente 20 segundos después 
+de soltarse el interruptor. Si el interruptor de gatillo se mantiene 
+presionado, la luz de trabajo se mantiene encendida.
+NOTA: La luz de trabajo sirve para iluminar la superficie de trabajo 
+cercana y no fue diseñada para utilizarse como linterna. 
+Portabrocas sin llave con seguro de 
+manguito (Fig. 3–5)
+ADVERTENCIA: No intente ajustar brocas (ni ningún otro 
+accesorio) sujetando la parte frontal del mandril y encendiendo 
+la herramienta. Esto podría dañar el mandril y causar lesiones 
+corporales. Siempre bloquee el interruptor y desenchufe la 
+herramienta de la fuente de alimentación cuando cambie sus 
+accesorios.
+ADVERTENCIA: Siempre verifique que la broca esté bien 
+instalada antes de arrancar la herramienta. Una broca suelta podría 
+salir disparada de la herramienta posiblemente causando lesiones 
+corporales.
+La herramienta cuenta con un portabrocas sin llave (F), con un 
+manguito giratorio que permite operar el portabrocas con una sola 
+mano. Para insertar una broca u otro accesorio, siga estos pasos.
+ 1. Apague la herramienta y desconéctela de la fuente de alimentación.
+ 2. Sujete el manguito negro del portabrocas con una mano y utilice 
+la otra para asegurar la herramienta. Gire el manguito en sentido 
+contrario a las agujas del reloj, hasta que pueda insertar el 
+accesorio deseado.
+FIG. 4 FIG. 5
+F
+FIG. 3  
+
+[PÁGINA 14]
+12
+Español
+3. Inserte el accesorio unos 19 mm (3/4") dentro del portabrocas 
+y ajústelo bien, girando el manguito del portabrocas en sentido de 
+las agujas del reloj con una mano y sosteniendo la herramienta 
+con la otra. La herramienta está equipada con un mecanismo 
+automático de bloqueo del eje. Así podrá abrir y cerrar el 
+portabrocas con una sola mano.
+Asegúrese de ajustar el portabrocas con una mano en el manguito 
+del portabrocas y la otra sosteniendo la herramienta lo más 
+firmemente posible.
+Para soltar el accesorio, repita los pasos 1 y 2 indicados con 
+anterioridad.
+OPERACIÓN
+ADVERTENCIA: Respete siempre las instrucciones de seguridad 
+y la reglamentación aplicable.
+ADVERTENCIA: Para reducir el riesgo de lesiones corporales 
+graves, apague la herramienta y desconéctela de la fuente de 
+alimentación antes de realizar ajustes o de quitar o poner 
+accesorios. Un encendido accidental puede causar lesiones
+Cómo instalar y retirar la unidad de 
+batería (Fig. 6)
+NOTA: Para mejores resultados, verifique que su unidad de batería 
+esté completamente cargada. 
+Para instalar la unidad de batería (H) en el mango de la herramienta, 
+alinee la unidad de batería con los rieles en el interior del mango 
+de la herramienta y deslícela en el mango hasta que la unidad de 
+batería quede firmemente insertada en la herramienta; verifique que 
+ésta no se salga sola.
+Para retirar la unidad de batería de la herramienta, presione los 
+botones de liberación (G) y tire firmemente de la unidad de batería 
+para sacarla del mango de la herramienta. Insértela en el cargador 
+tal como se describe en la sección del cargador de este manual.
+I
+H
+G
+FIG. 6
+UNIDADES DE ALIMENTACIÓN CON INDICADOR DE 
+CARGA (FIG. 6)
+Algunas unidades de alimentación D eWALT incluyen un indicador 
+de carga que consiste de tres luces LED verdes que indican el nivel 
+de carga que queda en la unidad de alimentación. 
+El indicador de carga es una indicación de niveles aproximados de 
+carga que quedan en la batería según los indicadores siguientes:
+75–100% cargada
+51–74% cargada
+< 50% cargada
+La batería tiene que cargarse
+Para activar el indicador de carga, presione y sostenga el botón del 
+indicador (I). Se iluminará una combinación de las tres luces LED 
+verdes, que indicará el nivel de carga que queda. Cuando el nivel 
+de carga esté por debajo del nivel útil, el indicador no se iluminará, 
+y la batería deberá recargarse.
+
+[PÁGINA 15]
+13
+Español
+NOTA:  El indicador de carga es sólo eso: un indicador de la carga 
+de la unidad de alimentación. No indica el nivel de funcionalidad de 
+la herramienta y puede variar de acuerdo a las piezas del producto, 
+la temperatura y la aplicación que el usuario le dé.
+Para mayor información sobre unidades de batería con indicadores 
+de carga, por favor dirígase a su centro de servicio local.
+Taladrado (Fig. 7)
+AVISO: Si va a taladrar un material FIG. 7
+C
+ 
+delgado, utilice un bloque de madera 
+“de respaldo” para evitar dañarlo.
+ 1. Seleccione la velocidad/el par 
+de torsión con el selector de 
+velocidades para adecuar la 
+velocidad y el par de torsión a 
+la operación planeada. Rote el 
+collarín (C) hasta que indique el 
+símbolo de taladro.
+ 2. Use solamente brocas para taladro afiladas.
+ 3. Aplique siempre presión en línea recta con la broca. Utilice la 
+presión suficiente para mantener la broca funcionando, pero no 
+tanta como para ahogar el motor o ladear la broca.
+ 4. Sostenga firmemente la herramienta con ambas manos para 
+controlar la torsión del taladro . Si el modelo no está equipado 
+con mango lateral, sujete el taladro con una mano en el mango y 
+la otra sobre el paquete de baterías.
+ADVERTENCIA: El taladro podría atascarse causando un giro 
+repentino. Siempre espere el atascamiento. Tome el taladro 
+firmemente para controlar la acción de giro y evitar lesiones.
+ 5. SI EL TALADRO SE ATASCA, probablemente se deba a una 
+sobrecarga o al uso inadecuado de la herramienta. SUELTE 
+EL INTERRUPTOR INMEDIATAMENTE, retire la broca de la 
+pieza de trabajo, y determine la causa del atascamiento. NO 
+OPRIMA EL INTERRUPTOR PARA INTENTAR DESTRABAR 
+EL TALADRO – PODRÍA DAÑARLO.
+ 6. Para minimizar los atascamientos o las roturas del material, 
+reduzca la presión y deje ir suavemente la broca hacia el final del 
+orificio.
+ 7. Mantenga el motor en funcionamiento cuando retire la broca de 
+un orificio taladrado. Esto ayudará a prevenir atascamientos.
+Destornillado (Fig. 8)
+ 1. Seleccione la velocidad/el par FIG. 8
+C
+ 
+de torsión con el selector de 
+velocidades para acoplar la 
+velocidad y el par de torsión a la 
+función planeada.
+ 2. Gire el anillo selector de torque 
+(C) hasta la posición deseada.
+  NOTA: Use el número de par 
+de torsión mínimo requerido 
+para atornillar el tornillo hasta la 
+profundidad deseada. Mientras 
+menor el número, menor será el par de torsión.
+ 3. Inserte el accesorio de sujeción deseado en el portabrocas como 
+lo haría con cualquier broca.
+ 4. Practique su uso en material de desecho o en un lugar poco 
+notorio de la pieza de trabajo para determinar la posición 
+correcta del collarín de ajuste del par de torsión. 
+ 5. Comience siempre con configuraciones de torsión menores y 
+vaya aumentando la torsión, para evitar daños a la pieza de 
+trabajo o al sujetador.
+Funcionamiento del taladro percutor  
+(Fig. 9)
+DCD776
+ 1. Gire el anillo (C) hasta el símbolo del martillo.
+ 2. Seleccione la alta velocidad deslizando el selector hacia atrás 
+(dirección opuesta al portabrocas).
+
+[PÁGINA 16]
+14
+Español
+  IMPORTANTE: Utilice brocas con punta de carburo o de 
+mampostería únicamente.
+ 3. Taladre utilizando sólo la fuerza
+FIG. 9
+C  
+suficiente sobre el percutor para 
+evitar que rebote demasiado o se 
+“levante” la broca. Demasiada 
+fuerza puede provocar menores 
+velocidades de perforación, el 
+recalentamiento de la herramienta 
+y la disminución del avance de 
+perforación.
+ 4. Taladre de forma recta, manteniendo el taladro en ángulo recto 
+con respecto al a la pieza de trabajo. No ejerza presión lateral 
+sobre la broca cuando taladre ya que esto podría provocar la 
+obstrucción de las estrías de la broca y disminuir la velocidad de 
+perforación.
+ 5. Cuando perfore grandes orificios, si la velocidad del taladro 
+comienza a disminuir, saque la broca parcialmente del orificio 
+con la herramienta aún funcionando para ayudar a eliminar los 
+residuos del orificio.
+NOTA: El flujo de polvo suave y parejo del orificio indica la velocidad 
+de perforación adecuada.
+MANTENIMIENTO
+ADVERTENCIA: Para reducir el riesgo de lesiones corporales 
+graves, apague la herramienta y desconéctela de la fuente de 
+alimentación antes de realizar ajustes o de quitar o poner 
+accesorios. Un encendido accidental puede causar lesiones
+Su herramienta DeWAL T ha sido diseñada para funcionar durante un 
+largo período con un mínimo de mantenimiento. Un funcionamiento 
+continuo satisfactorio depende del cuidado adecuado de la 
+herramienta y de una limpieza periódica.
+Lubricación
+La herramienta eléctrica no requiere lubricación adicional. 
+Limpieza
+ADVERTENCIA: Sople la suciedad y el polvo de la carcasa 
+principal con aire seco siempre que vea acumularse el polvo 
+alrededor de los respiraderos. Utilice protección ocular y mascarillas 
+antipolvo aprobadas cuando realice este procedimiento. 
+ADVERTENCIA: Nunca utilice disolventes u otros productos 
+químicos abrasivos para limpiar las piezas no metálicas de la 
+herramienta. Estos productos químicos pueden debilitar los materiales 
+plásticos utilizados en estas piezas. Utilice un paño humedecido sólo 
+con agua y jabón neutro. Nunca permita que penetre líquido dentro 
+de la herramienta y nunca sumerja las piezas de la herramienta en un 
+líquido.
+INSTRUCCIONES PARA LA LIMPIEZA DEL CARGADOR 
+ADVERTENCIA: Riesgo de descarga eléctrica. Desconecte el 
+cargador del tomacorriente de CA antes de limpiarlo. Se puede usar 
+un paño o un cepillo suave, que no sea metálico, para quitar la 
+suciedad y la grasa de la parte externa del cargador. No use agua ni 
+cualquier otra solución de limpieza.
+Accesorios
+ADVERTENCIA: Dado que algunos accesorios, diferentes de los 
+ofrecidos por D eWALT, no se han probado con este producto, el 
+empleo de tales accesorios podría constituir un riesgo. Para reducir 
+el riesgo de lesiones, sólo deben usarse con el producto los 
+accesorios recomendados DeWA LT.
+Si desea más información sobre los accesorios adecuados, consulte 
+a su distribuidor. 
+CAPACIDADES MÁXIMAS RECOMENDADAS
+MADERA 25 mm (1")
+METAL 13 mm (1/2")
+
+[PÁGINA 17]
+15
+Español
+Reparaciones
+El cargador y las unidades de batería no pueden ser reparados.   
+Para garantizar la SEGURIDAD y la CONFIABILIDAD del producto, 
+deberán hacerse reparaciones, mantenimiento y ajustes de esta 
+herramienta en los centros autorizados de servicio D eWALT u otras 
+organizaciones autorizadas. Estas organizaciones prestan servicio a 
+las herramientas D eWALT y emplean siempre refacciones legitimas 
+DeWA LT.
+Protección del Medio Ambiente
+  Recogida selectiva. Los productos y las baterías marcadas 
+con este símbolo no deben desecharse junto con los 
+residuos domésticos normales.
+Los productos y las baterías contienen materiales que pueden ser 
+recuparados y reciclados, reduciendo la demanda de materias 
+primas. Recicle los productos eléctricos y las baterías de acuerdo con 
+las disposiciones locales. 
+ESPECIFICACIONES
+DCD771               0–450 / 0–1 500 RPM
+DCD776 0–450 / 0–1 500 RPM 0–7 650 / 0–25 500 IPM
+*  El máximo voltaje inicial de la batería (medido sin carga de trabajo) 
+es 20 voltios. El voltaje nominal es de 18 V.
+
+[PÁGINA 18]
+16
+Português
+Definições: diretrizes  
+de segurança
+As definições abaixo apresentadas descrevem o grau de 
+gravidade correspondente a cada palavra de advertência. Leia 
+cuidadosamente o manual e preste atenção a estes símbolos.
+PERIGO: Indica uma situação de risco iminente que, se 
+não for evitada, resultará em morte ou ferimentos graves.
+ATENÇÃO: Indica uma situação de risco potencial que, 
+se não evitada, poderá resultar em morte ou ferimentos 
+graves.
+CUIDADO: Indica uma situação de risco potencial que, 
+se não evitada, poderá resultar em ferimentos leves ou 
+moderados.
+AVISO: Se refere a uma prática não relacionada a lesões 
+corporais que se não evitadas podem resultar em danos 
+materiais. 
+ ATENÇÃO: para reduzir o risco de ferimentos, leia o manual de 
+instruções.
+Regras Gerais de Segurança
+ ATENÇÃO! Leia todas as instruções. O descumprimento das 
+advertências e instruções listadas abaixo pode resultar em 
+choque elétrico, fogo e/ou em ferimento sério. 
+GUARDE AS INSTRUÇÕES A SEGUIR  
+PARA REFERÊNCIA FUTURA
+O termo "ferramenta" em todos os avisos listados abaixo referem-se 
+a ferramenta alimentada através de cabo elétrico ou a ferramenta 
+operada a bateria (sem cabo elétrico).
+1) ÁREA DE TRABALHO 
+a) Mantenha a área de trabalho limpa e iluminada. As áreas 
+desorganizadas e escuras são um convite aos acidentes. 
+b) Não opere ferramentas em atmosferas explosivas, como 
+na presença de líquidos inflamáveis, gases ou poeira. As 
+ferramentas criam faíscas que podem inflamar a poeira ou os 
+vapores.
+c) Mantenha crianças e visitantes afastados ao operar 
+uma ferramenta. As distrações podem fazer você perder o 
+controle.
+2) SEGURANÇA ELÉTRICA
+a) Os plugues da ferramenta devem ser compatíveis com 
+as tomadas. Nunca modifique o plugue. Não use nenhum 
+plugue adaptador com as ferramentas aterradas.  Os 
+plugues sem modificações aliados a utilização de tomadas 
+compatíveis reduzirão o risco de choque elétrico
+b) Evite o contato do corpo com superfícies ligadas ao 
+terra ou aterradas tais como as tubulações, radiadores, 
+escalas e refrigeradores . Há um aumento no risco de 
+choque elétrico se seu corpo for ligado ao terra ou aterramento.
+c) Não exponha as ferramentas à chuva ou às condições 
+úmidas. O contato da água com a ferramenta aumentará o 
+risco de choque elétrico. 
+d) Não force o cabo elétrico. Nunca use o cabo elétrico 
+para carregar, puxar ou para desconectar a ferramenta 
+da tomada. Mantenha o cabo elétrico longe do calor, 
+óleo, bordas afiadas ou das partes em movimentos.  Os 
+cabos danificados ou emaranhados aumentam o risco de 
+choque elétrico. 
+e) Ao operar uma ferramenta ao ar livre, use um cabo de 
+extensão apropriado para o uso ao ar livre. O uso de um 
+cabo apropriado ao ar livre reduz o risco de choque elétrico.
+f) Se não for possível evitar trabalhar com uma ferramenta 
+elétrica num local úmido, utilize uma alimentação 
+protegida por um dispositivo de corrente residual (DCR). 
+A utilização de um DCR reduz o risco de choque elétrico.
+
+[PÁGINA 19]
+17
+Português
+3) SEGURANÇA PESSOAL
+a) Fique atento, olhe o que você está fazendo e use o bom 
+senso ao operar uma ferramenta. Não use a ferramenta 
+quando você estiver cansado ou sob a influência de 
+drogas, álcool ou de medicamentos.  Um momento de 
+desatenção enquanto opera uma ferramenta pode resultar em 
+grave ferimento pessoal. 
+b) Use equipamento de segurança. Sempre use óculos de 
+segurança. O equipamento de segurança tais como a máscara 
+contra a poeira, sapatos de segurança antiderrapantes, 
+capacete de segurança, e protetor auricular usados em 
+condições apropriadas reduzirão os ferimentos pessoais.
+c) Evite acidente inicial. Assegure que o interruptor está 
+na posição desligada antes de conectar o plugue na 
+tomada. Carregar a ferramentas com seu dedo no interruptor 
+ou conectar a ferramenta que apresenta o interruptor na 
+posição “ ligado” são um convite à acidentes.
+d)  Remova qualquer chave de ajuste antes de ligar a 
+ferramenta. Uma chave de boca ou de ajuste unida a uma 
+parte rotativa da ferramenta pode resultar em ferimento 
+pessoal.
+e) Não force além do limite. Mantenha o apoio e o equilíbrio 
+adequado todas as vezes que utilizar a ferramenta.  
+Isto permite melhor controle da ferramenta em situações 
+inesperadas.
+f) Vista-se apropriadamente. Não use roupas 
+demasiadamente largas ou jóias. Mantenha seus cabelos, 
+roupas e luvas longe das peças móveis. A roupa folgada, 
+jóias ou cabelos longos podem ser presos pelas partes em 
+movimento.
+g) Se os dispositivos são fornecidos com conexão para 
+extração e coleta de pó, assegure que estes estão 
+conectados e usados corretamente.  O uso destes 
+dispositivos pode reduzir riscos relacionados a poeira.
+4) USO E CUIDADOS DA FERRAMENTA 
+a) Não force a ferramenta. Use a ferramenta correta para 
+sua aplicação. A ferramenta correta fará o trabalho melhor 
+e mais seguro se utilizada dentro daquilo para a qual foi 
+projetada.
+b) Não use a ferramenta se o interruptor não ligar e 
+desligar. Qualquer ferramenta que não pode ser controlada 
+com o interruptor é perigosa e deve ser reparada.
+c) Desconecte o plugue da tomada antes de fazer qualquer 
+tipo de ajuste, mudança de acessórios ou armazenamento 
+de ferramentas.  Tais medidas de segurança preventivas 
+reduzem o risco de se ligar a ferramenta acidentalmente.
+d) Guarde as ferramentas fora do alcance das crianças 
+e não permitam que pessoas não familiarizadas com 
+a ferramenta ou com estas instruções operem a 
+ferramenta. As ferramentas são perigosas nas mãos de 
+usuários não treinados. 
+e) Manutenção das ferramentas. Cheque o desalinhamento 
+ou coesão das partes móveis, rachaduras e qualquer outra 
+condição que possa afetar a operação da ferramenta. Se 
+danificada, a ferramenta deve ser reparada antes do 
+uso. Muitos acidentes são causados pela falta de manutenção 
+das ferramentas.
+f) Mantenha ferramentas de corte afiadas e limpas. A 
+manutenção apropriada das ferramentas de corte com lâminas 
+afiadas, tornam estas menos prováveis ao emperramento e 
+são mais fáceis de controlar.
+g) Use a ferramenta, e seus acessórios de acordo com as 
+instruções e na maneira designada para o tipo particular 
+da ferramenta, levando em consideração as condições 
+e o trabalho a ser desempenhado.  O uso da ferramenta 
+em operações diferentes das designadas podem resultar em 
+situações de risco.
+
+[PÁGINA 20]
+18
+Português
+5) COMO USAR E CUIDAR DA BATERIA
+a) Recarregue a bateria usando somente o carregador 
+especificado pelo fabricante. Um carregador adequado 
+para um tipo de módulo de bateria pode criar um risco de 
+incêndio ao ser usado com um tipo de módulo de bateria 
+diferente.
+b) Use a ferramenta elétrica somente com o módulo 
+de bateria especificado para a ferramenta. O uso de 
+qualquer outro módulo de bateria pode criar um risco de 
+lesões corporais e incêndios.
+c) Sempre que o módulo de bateria não estiver em uso, 
+mantenha-o longe de outros objetos metálicos tais 
+como grampos de papel, moedas, chaves, pregos, 
+parafusos e objetos metálicos semelhantes que possam 
+criar uma conexão entre os dois terminais. Um curto-
+circuito nos terminais da bateria pode provocar queimaduras 
+ou um incêndio.
+d) Se a ferramenta for utilizada em condições abusivas, é 
+possível que líquido seja expelido da bateria; evite tocar. 
+Em caso de contato acidental, lave a parte exposta com 
+água. Caso o líquido entre em contato com os olhos, 
+procure assistência médica. O líquido expelido pela bateria 
+pode provocar irritação ou queimaduras.
+6) REPAROS
+a) Tenha sua ferramenta reparada por um agente de 
+reparos qualificado e que somente use peças originais. 
+Isto irá assegurar que a segurança da ferramenta seja mantida.
+Regras de segurança específicas 
+adicionais para parafusadeira/furadeira/
+furadeira de impacto
+• Use proteção auricular durante a perfuração de impacto A 
+exposição ao ruído pode causar perda auditiva.
+• Utilize a(s) pega(s) auxiliar(es), se fornecida(s) com a 
+ferramenta. A perda de controle pode causar lesões pessoais.
+• Segure a ferramenta elétrica apenas pelas superfícies 
+isoladas específicas para o efeito ao efetuar uma operação 
+em que o acessório de corte possa entrar em contato com 
+fios ocultos. O acessório de corte que entre em contato com um 
+fio com tensão elétrica poderão fazer com que as peças de metal 
+expostas da ferramenta conduzam electricidade e electrocutem o 
+utilizador.
+• Utilize grampos ou outro sistema para fixar e apoiar a peça 
+numa plataforma estável. Segurar a peça com a mão ou contra 
+o corpo pode causar instabilidade e perda de controle.
+• Use óculos de segurança ou outra proteção ocular. As 
+operações de batimento com o martelo ou de perfuração podem 
+causar a projecção de aparas. As partículas projetadas podem 
+causar danos oculares permanentes.
+• Mantenha sempre a ferramenta sob um controle firme. Não 
+tente operar a ferramenta sem segurá-la com as duas mãos.
+• Os acessórios e a ferramenta podem ficar quentes durante 
+a operação. Use luvas quando os utilizar se efetuar aplicações 
+de produção de calor, tais como perfuração com martelo e 
+perfuração de metais.
+• Não utilize esta ferramenta durante longos períodos de 
+tempo. A vibração causada pela acção do martelo pode ser 
+prejudicial às suas mãos e braços. Use luvas para proporcionar 
+uma proteção adicional e limite a exposição, fazendo pausas 
+frequentes.
+• Muitas vezes, os orifícios de ventilação cobrem peças 
+móveis e, por isso, devem ser evitados.  As roupas folgadas, 
+adereços ou cabelos compridos podem ficar presos às partes 
+móveis.
+ATENÇÃO: Use SEMPRE óculos de segurança. Seus óculos 
+de uso diário NÃO são óculos de segurança. Além disso, caso o 
+trabalho de corte possa criar muito pó, use sempre uma máscara 
+
+[PÁGINA 21]
+19
+Português
+facial ou máscara contra pó. USE SEMPRE EQUIPAMENTOS DE 
+SEGURANÇA CERTIFICADOS:
+• Proteção para os olhos ANSIZ87.1(CAN/CSA Z94.3),
+• Proteção para os ouvidos ANSI S12.6 (S3.19),
+• Proteção respiratória NIOSH/OSHA/MSHA.
+ATENÇÃO: É possível que uma parte da poeira criada por algumas 
+ferramentas elétricas de lixamento, serragem, esmerilhamento, 
+perfuração e outras atividades de construção contenha substâncias 
+químicas que comprovadamente causam câncer, defeitos congênitos 
+ou problemas reprodutivos. Os seguintes são alguns exemplos 
+desses produtos químicos:  
+• chumbo nas tintas à base de chumbo,
+• sílica cristalina em tijolos, cimento e outros produtos de retirar 
+e
+• arsênio e cromo em madeiras tratadas quimicamente.
+O risco de exposição a esses produtos varia dependendo da 
+freqüência de execução desse tipo de trabalho. A fim de reduzir sua 
+exposição a essas substâncias químicas: trabalhe em áreas bem 
+ventiladas e usando equipamentos de segurança aprovados como, 
+por exemplo, máscaras contra pó fabricadas especialmente para 
+impedir a passagem de partículas microscópicas.
+• Evite o contato prolongado com o pó produzido por 
+lixamento, serragem, esmerilhamento, perfuração e outras 
+atividades de construção. Vista roupas protetoras e lave 
+com sabão e água as partes do corpo expostas.Permitir que 
+o pó entre em contato com a boca, os olhos ou a pele pode 
+provocar a absorção de produtos químicos nocivos pelo corpo. 
+ATENÇÃO: O uso desta ferramenta pode criar e/ou espalhar 
+pó que pode causar lesões respiratórias e de outros tipos sérias e 
+permanentes. Use sempre equipamentos adequados de proteção 
+respiratória contra pó aprovados pelo NIOSH ou pela OSHA. 
+Direcione as partículas para longe do rosto e do corpo.
+ATENÇÃO: Ao trabalhar com esta ferramenta, use sempre 
+uma proteção adequada para seus ouvidos em conformidade 
+com a norma ANSI S12.6 (S3.19). Sob algumas condições e 
+dependendo do tempo de uso contínuo, o ruído produzido pela 
+ferramenta pode contribuir para a perda da audição.
+CUIDADO: Quando a ferramenta não estiver em uso, 
+mantenha-a deitada numa superfície estável onde ninguém 
+possa tropeçar nela nem ela possa sofrer uma queda. As 
+baterias grandes de alguns tipos de ferramentas podem ser 
+mantidas sobre o módulo de bateria. Isto, porém, pode criar um 
+risco maior de queda.
+• A etiqueta na ferramenta pode incluir os seguintes símbolos. Estes 
+símbolos e suas definições são as seguintes:
+V ...................volts A  ......................ampères
+Hz .................hertz W  .....................watts
+min ...............minutos or AC ..........corrente 
+or DC ...corrente contínuat alternada 
+ .................Construção de or AC/DC ...alternada
+Classe I (aterrado)  ........................ou contínuat
+ .................Construção de corrente
+Classe II  no ....................nenhuma
+ ......................(isolamento duplo)  ........................velocidade
+…/min  ..........per minute   ........................de carga
+BPM .............batidas por minuto n ......................velocidade 
+IPM ...............impactos por minuto  ........................nominal
+…/min  ...........revoluções ou por  .....................terminal de
+minuto  aterramento
+sfpm .............pés de área por  .....................símbolo de 
+ .....................minuto (sfpm) alerta de
+SPM .............golpes por minuto  ........................segurança
+ .................radiação visível
+
+[PÁGINA 22]
+20
+Português
+Instruções de segurança importantes 
+para todos os módulos de bateria
+Ao encomendar módulos de bateria de reposição, não esqueça 
+indicar o número de catálogo e a tensão. 
+O módulo de bateria não vem completamente carregado da fábrica. 
+Antes de usar o módulo de bateria e o carregador, leia as instruções 
+de segurança abaixo e siga os procedimentos recomendados para 
+o carregamento. 
+LEIA TODAS AS INSTRUÇÕES
+ATENÇÃO:
+• Não carregue nem use a bateria em atmosferas explosivas 
+como, por exemplo, na presença de líquidos, gases ou 
+poeiras inflamáveis. Colocar a bateria no carregador ou retirá-
+la dele pode fazer com que a poeira ou os gases presentes no 
+ar se inflamem.
+• NUNCA force o módulo de bateria para que entre no 
+carregador. NÃO faça nenhuma alteração no módulo de 
+bateria para que ele caiba num carregador não compatível 
+com o módulo. Isto poderia fazer com que a bateria se 
+quebre e cause lesões corporais graves. 
+• Carregue os módulos de bateria somente em carregadores de 
+marca DeWALT.
+• NÃO salpique água ou qualquer outro líquido no módulo nem 
+submerja o módulo em água ou outro líquido.
+• Não armazene nem use a ferramenta e o módulo de 
+bateria num local onde a temperatura possa alcançar ou 
+ultrapassar 40 °C  (104 °F) (por exemplo, tendas e barracas 
+ao ar livre ou construções de metal durante o verão).  Para 
+prolongar a vida útil do módulo de bateria, guarde-o num local 
+fresco e seco. 
+ NOTA: Nunca guarde o módulo de bateria conectado a 
+uma ferramenta cujo gatilho interruptor esteja travado na 
+posição de funcionamento (“ON”). Nunca prenda com fita 
+adesiva o gatilho interruptor da ferramenta na posição de 
+funcionamento (“ON”).
+ATENÇÃO: Perigo de incêndio. Nunca tente abrir o módulo 
+de bateria por nenhum motivo. Se o módulo de bateria estiver 
+rachado ou tiver sido danificado, não o coloque no carregador. Não 
+esmague, não comprima, não deixe cair, nem danifique o módulo 
+de bateria. Não use um módulo de bateria ou um carregador que 
+tenha sofrido uma pancada ou queda, ou que tenha sido pisado, 
+esmagado ou danificado de qualquer maneira (por exemplo, furado 
+com um prego, golpeado com um martelo, pisado, etc.). Os 
+módulos de bateria danificados devem ser devolvidos a um centro 
+de assistência técnica para serem reciclados.
+INSTRUÇÕES DE SEGURANÇA ESPECÍFICAS PARA 
+BATERIAS DE ÍON DE LÍTIO (Li-Ion)
+• Não incinere o módulo de bateria, mesmo se ele estiver 
+completamente danificado ou gasto.  O módulo de bateria 
+poderá explodir ao ser queimado. A queima de um módulo de 
+bateria de íons de lítio cria gases e substâncias tóxicas.
+• Se o conteúdo da bateria entrar em contato com a pele, 
+lave imediatamente a área afetada com água e sabão 
+suave. Se o líquido da bateria entrar em contato com seus 
+olhos, lave os com água durante 15 minutos ou até não 
+sentir mais nenhuma irritação. Caso seja necessário recorrer 
+assistência médica, o eletrólito da bateria é composto de uma 
+mistura de carbonatos orgânicos líquidos e sais de lítio.
+• O conteúdo das células da bateria aberta pode causar 
+irritação às vias respiratórias. Neste caso, saia ao ar livre. Se 
+os sintomas continuarem, procure assistência médica. 
+
+[PÁGINA 23]
+21
+Português
+ATENÇÃO: Perigo de queimadura. O líquido da bateria pode se 
+inflamar caso seja exposto a faíscas ou chamas. 
+Instruções de segurança importantes 
+para todos os carregadores de baterias
+GUARDE AS INSTRUÇÕES A SEGUIR: Este manual contém 
+instruções de segurança e operação importantes para os 
+carregadores de baterias.
+• Antes de usar o carregador, leia todas as instruções e 
+advertências que se encontram no carregador, no módulo da 
+bateria e no aparelho que usa o módulo de bateria.
+ATENÇÃO: Perigo de choque elétrico. Nunca deixe que um 
+líquido caia dentro do carregador. Isto poderia causar um choque 
+elétrico.
+CUIDADO: Perigo de queimadura. Para reduzir o risco de lesões, 
+somente carregue baterias recarregáveis de marca DeWALT . Outros 
+tipos de baterias podem explodir e causar danos físicos e materiais.
+AVISO: Sob determinadas condições, quando o carregador está 
+conectado à corrente elétrica, ele pode sofrer um curto-circuito 
+caso entre em contato com algum corpo estranho. O usuário 
+deve manter os orifícios do carregador longe de corpos estranhos  
+de natureza condutora como, por exemplo, poeira causada por 
+esmerilhamento, lascas de metal, lã de aço, papel de alumínio 
+ou qualquer acumulação de partículas metálicas. Desligue o 
+carregador da corrente elétrica sempre que não houver nenhuma 
+bateria na base. Desligue o carregador antes de tentar limpá-lo.
+ATENÇÃO:
+• NÃO tente carregar o módulo de bateria usando um 
+carregador de tipo diferente dos carregadores descritos 
+neste manual.  O carregador e o módulo de bateria foram 
+fabricados especificamente para serem usados em conjunto. 
+• Estes carregadores foram fabricados para serem usados 
+para carregar somente as baterias recarregáveis de marca 
+DeWALT. Qualquer outro uso pode criar um risco de incêndios, 
+choques elétricos ou eletrocussão.
+• Não exponha o carregador à chuva ou nem à neve.
+• Para desconectar o carregador da corrente elétrica, retire 
+o plugue da tomada, em vez de puxar o fio elétrico do 
+aparelho. Isto diminuirá o risco de danos ao plugue e ao fio 
+elétrico.
+• Não deixe que o fio fique numa posição onde alguém 
+possa pisar ou tropeçar nele nem que ele possa sofrer 
+danos ou desgaste.
+• Não use um fio de extensão a menos que isto seja 
+absolutamente necessário.  O uso de um fio de extensão 
+inadequado poderia criar um risco de incêndio, choque elétrico 
+ou eletrocussão.
+• Ao utilizar um carregador ao ar livre, sempre o faça num 
+local seco e sempre use um fio de extensão adequado 
+para o ar livre. O uso de um fio adequado para o ar livre reduz 
+o risco de choque elétrico 
+• Para sua segurança, os cabos de extensão devem ter um 
+calibre adequado. Uma extensão de menor calibre causará 
+uma queda de tensão o que resultará em perda de potência e 
+superaquecimento da ferramenta. Ao usar mais de uma extensão 
+para completar o comprimento total, tenha certeza de que os 
+fios de cada extensão têm pelo menos o calibre mínimo. A tabela 
+a seguir indica o tamanho que deve ser usado em função do 
+comprimento do cabo e da amperagem nominal. Em caso de 
+dúvida, use um fio de maior capacidade. Quanto menor o número 
+do calibre, maior será a capacidade do cabo.
+
+[PÁGINA 24]
+22
+Português
+Tensão 
+(Volts)
+Comprimento do cabo de extensão  
+em metros (m)
+120–127V 0–7 7–15 15–30 30–50
+220–240V 0–15 15–30 30–60 60–100
+Faixa de 
+Corrente nominal 
+(Amperes)
+Secção mínima do cabo de extensão 
+em milímetros quadrados (mm2)
+0–6A 1,0 1,5 1,5 2,5
+6–10A 1,0 1,5 2,5 4,0
+10–12A 1,5 1,5 2,5 4,0
+12–16A 2,5 4,0 Não Recomendado
+• Não coloque nenhum objeto em cima do carregador nem 
+coloque o carregador numa superfície macia que poderia 
+bloquear as ranhuras de ventilação e fazer com que o 
+interior do aparelho se aqueça demasiadamente. Mantenha 
+sempre o carregador longe de fontes de calor. A ventilação 
+do carregador é feita através das ranhuras na parte superior e 
+inferior do aparelho.
+• Não ponha o carregador para funcionar se o fio elétrico do 
+aparelho ou o plugue estiverem danificados.
+• Não ponha o carregador para funcionar se ele tiver 
+recebido uma pancada forte ou se tiver sido danificado.  
+Leve-o a um centro de assistência técnica autorizado.
+• Não desmonte o carregador. Sempre que for necessário 
+fazer um conserto ou a manutenção do aparelho, leve-o a 
+um centro de assistência técnica autorizado. A remontagem 
+incorreta do aparelho pode criar riscos de choque elétrico, 
+eletrocussão ou incêndio.
+• Desligue sempre o carregador antes de tentar limpá-lo. 
+Isto reduzirá o risco de choque elétrico.  Retirar as baterias 
+não reduzirá o risco.
+• NUNCA tente conectar dois carregadores entre si.
+• O carregador foi fabricado para ser operado com uma 
+corrente elétrica residencial normal de 127 V ou 220 V. Não 
+tente usá-lo com nenhuma outra tensão. Porém, isto não se 
+aplica aos carregadores para baterias de veículos.
+Carregadores
+Sua ferramenta utiliza um carregador fabricado pela D eWALT . 
+Certifique-se de ler todas as instruções de segurança antes de usar 
+o carregador. 
+Procedimento de carregamento (Fig. 1)
+ 1. Conecte o carregador a
+HFIG. 1  
+uma tomada elétrica 
+adequada antes de inserir 
+o módulo de bateria. 
+ 2. Insira o módulo de 
+bateria ( H) no carregador 
+tal como mostrado na 
+Figura 1. Certifique-se 
+de que o módulo está 
+completamente inserido no 
+carregador. A luz vermelha 
+(de carregamento) piscará 
+continuamente indicando que o carregamento foi iniciado. 
+ 3. Quando o carregamento tiver terminado, a luz vermelha 
+permanecerá ACESA indefinidamente. O módulo estará 
+completamente carregado e poderá ser usado imediatamente 
+ou deixado no carregador.
+
+[PÁGINA 25]
+23
+Português
+Indicador operação de luz 
+DCB107, DCB112, DCB115
+Indicadores de recarga 
+Este carregador foi concebido para detectar certos problemas que 
+podem ocorrer. Os problemas são indicados com uma luz vermelha 
+piscando em um ritmo rápido. Se isso ocorrer, reinsira a bateria no 
+carregador. Se o problema persistir, tente uma bateria diferente para 
+determinar se o carregador está funcionando corretamente. Se a 
+nova bateria carregar corretamente, então a bateria original está com 
+defeito e deve ser devolvida a um centro de atendimento técnico ou 
+outro local de coleta para reciclagem. Se a nova bateria provocar a 
+mesma indicação de problema da original, teste o carregador e a 
+bateria em um centro de atendimento técnico autorizado. 
+ATRASO QUENTE/FRIO DA BATERIA
+DCB107, DCB112, DCB115
+Este carregador contém um recurso de atraso quente/frio. Quando 
+o carregador detectar uma bateria que está muito quente ou muito 
+fria, ela começa automaticamente com um atraso, suspendendo 
+o carregamento. A luz vermelha continuará a piscar, mas a luz do 
+indicador amarelo acenderá durante esta suspensão. 
+Uma vez que a bateria atingiu a temperatura ideal, a luz amarela 
+apagará e o carregador continuará automaticamente a recarregar. 
+Este recurso assegura a vida máxima da bateria.
+DEIXAR O MÓDULO DE BATERIA NO CARREGADOR
+Você pode deixar o carregador e o módulo de bateria conectados. 
+Neste caso, o indicador de carga indicará que o módulo está 
+carregado. 
+MÓDULOS DE BATERIA GASTOS: Um módulo de bateria gasto 
+continuará funcionando, porém não terá o mesmo rendimento. 
+MÓDULOS DE BATERIA DEFEITUOSOS:  Este carregador não 
+carregará um módulo de bateria defeituoso. O carregador indicará 
+que o módulo de bateria está defeituoso se recusando a acender 
+ou indicando que existe um problema com o módulo de bateria ou 
+com o carregador. 
+NOTA: Isto também pode indicar um problema com o carregador.
+Montagem na parede
+DCB107, DCB112, DCB115
+Estes carregadores são concebidos para montagem na parede ou 
+ficar na posição vertical em uma mesa ou superfície de trabalho.
+Se a montar na parede, coloque o carregador próximo de uma 
+tomada elétrica. Monte o carregador firmemente com parafusos de 
+gesso com pelo menos 25,4 mm (1”) de comprimento, aparafusado 
+na madeira com uma profundidade ideal deixando aproximadamente 
+5,5 mm (7/32”) do parafuso exposta.
+Notas importantes sobre o carregamento
+ 1. Para obter uma maior duração e melhor rendimento, carregue 
+o módulo de bateria a uma temperatura ambiente de 18 °C a  
+24 °C (65 °F a 75 °F). NÃO carregue o módulo de bateria a uma 
+temperatura ambiente menor do que +4,5 °C (+40 °F) ou maior 
+do que +40 °C (+104 °F). Isto é importante para evitar danos 
+graves ao módulo de bateria.
+ 2. É possível que o carregador e o módulo de bateria esquentem 
+ligeiramente durante o carregamento. Isto é normal e não indica 
+
+[PÁGINA 26]
+24
+Português
+nenhum problema. Para facilitar o resfriamento do módulo de 
+bateria após o uso, evite colocar o carregador ou o módulo de 
+bateria num local quente como, por exemplo, um depósito com 
+uma cobertura metálica ou um local não isolado contra o calor.
+ 3. Um módulo de bateria frio carregará a um ritmo de quase a 
+metade do ritmo de carregamento de um módulo de bateria 
+morno. O módulo de bateria continuará carregando a um 
+ritmo mais lento durante todo o ciclo de carregamento e não 
+voltará ao ritmo máximo de carregamento mesmo depois que o 
+módulo de bateria tiver esquentado.
+ 4. Se o módulo de bateria não estiver carregando corretamente:
+  a.  Verifique o funcionamento da tomada elétrica com uma 
+lâmpada ou outro aparelho;
+  b.  Verifique se a tomada não está conectada a um interruptor de 
+luz que corta a corrente quando a luz é apagada; 
+  c.  Transfira o carregador e o módulo de bateria para um local 
+onde a temperatura ambiente esteja entre 18 °C e 24 °C  
+(65 °F e 74 °F); 
+  d.  Se o problema continua, leve o aparelho, o módulo de 
+bateria e o carregador ao centro de assistência técnica mais 
+próximo.
+ 5. O módulo de bateria deve ser recarregado quando não for 
+mais capaz de gerar uma potência suficiente para trabalhos 
+que antes eram feitos facilmente. NÃO CONTINUE a usar o 
+módulo de bateria nessas condições. Siga o procedimento 
+de carregamento. Você pode também carregar um módulo 
+de bateria que foi usado parcialmente sempre que quiser, sem 
+danificá-lo. 
+ 6. O usuário deve manter os orifícios do carregador longe de 
+corpos estranhos de natureza condutora como, por exemplo, 
+poeira causada por esmerilhamento, lascas de metal, lã de 
+aço, papel de alumínio ou qualquer acumulação de partículas 
+metálicas. Desligue o carregador da corrente elétrica sempre 
+que não houver nenhuma bateria na base. Desligue o carregador 
+antes de tentar limpá-lo.
+ 7. Não congele nem submerja o carregador em água nem 
+qualquer outro líquido.
+ATENÇÃO: Perigo de choque elétrico. Não deixe que nenhum 
+líquido entre no carregador. Isto poderia causar um choque elétrico. 
+ATENÇÃO: Perigo de queimadura. Nunca submerja o módulo 
+de bateria em nenhum líquido nem deixe que nenhum líquido entre 
+no módulo de bateria. Nunca tente abrir o módulo de bateria por 
+nenhum motivo. Se a caixa plástica do módulo de bateria sofrer 
+uma quebra ou rachadura, leve-a a um centro de assistência 
+técnica para ser reciclada.
+Recomendações de armazenamento
+ 1. O melhor local para armazenamento é num ambiente fresco e 
+seco, longe da luz do sol direta e de calor ou frio excessivo.
+ 2. Para obter um melhor desempenho no caso de uma 
+armazenagem de longa duração, recomendamos que o 
+módulo de bateria seja armazenado completamente carregado, 
+separado do carregador, num local fresco. 
+NOTA: Nunca armazene um módulo de bateria completamente 
+descarregado. Será necessário recarregar o módulo de bateria 
+antes de usá-lo. 
+GUARDE AS INSTRUÇÕES A SEGUIR  
+PARA REFERÊNCIA FUTURA
+COMPONENTES (Fig. 2)
+ATENÇÃO: Nunca faça nenhuma alteração na ferramenta 
+elétrica nem em nenhuma parte dela. Isto poderia causar ferimentos 
+e danos materiais.
+
+[PÁGINA 27]
+25
+Português
+ A. Interruptor de acionamento
+ B. Botão de controle de 
+avanço/recuo
+ C. Anel de ajuste do binário
+ D. Sistema de mudança de 
+velocidade
+ E. Indicador luminoso
+ F. Mandril sem chave
+ G. Compartimento das pilhas
+ H. Patilha de libertação das 
+baterias
+A
+B
+C
+FIG. 2
+D
+F
+E
+G
+H
+USO DEVIDO DA FERRAMENTA
+Estes(as) berbequins/aparafusadoras/martelos perfuradores foram 
+concebidos(as) para trabalhos profissionais de perfuração, perfuração 
+com percussão e aparafusamento.
+NUNCA use o aparelho na presença de umidade nem de líquidos 
+ou gases inflamáveis. 
+Estes aparafusadores/berbequins/martelos electropneumáticos são 
+ferramentas elétricas profissionais.  NUNCA deixe que nenhuma 
+criança se aproxime da ferramenta. Os usuários que não tenham 
+experiência com esta ferramenta devem sempre ser supervisados.
+Interruptor de pressão de velocidade 
+variável (fig. 2)
+Para ligar a ferramenta, prima o interruptor de pressão (A). Para 
+desligar a ferramenta, liberte o interruptor de acionamento. A sua 
+ferramenta está equipada com um travão. O mandril pára de rodar, 
+assim que o interruptor de pressão for libertado por completo.  
+NOTA: o uso contínuo na gama de velocidade variável não é 
+recomendada. Pode danificar o interruptor, devendo assim evitar 
+utilizar este sistema.
+Botão de controle de avanço/recuo  
+(fig. 2)
+O botão de controle de avanço/recuo (B) determina a direcção da 
+ferramenta e funciona também como botão de desbloqueio. 
+Para seleccionar a marcha directa, liberte o interruptor de pressão 
+e prima o botão de controle de avanço/recuo no lado direita da 
+ferramenta. 
+Para seleccionar a rotação inversa, prima o botão de controle de 
+avanço/recuo no lado esquerdo da ferramenta. 
+A posição central do botão de controle bloqueia a ferramenta 
+na posição Desligar. Se alterar a posição do botão de controle, 
+certifique-se de que liberta o interruptor. 
+
+[PÁGINA 28]
+26
+Português
+NOTA: Quando a ferramenta é ligada pela primeira vez depois 
+de alterar a direcção da rotação, ouve-se um estalido durante o 
+arranque. Isto é normal e não representa um problema. 
+Anel de ajuste do binário (fig. 2)
+A sua ferramenta tem um mecanismo ajustável de chave de fendas 
+dinamométrica para a inserção e remoção de uma vasta gama de 
+formas e tamanhos de fixação e, nalguns modelos, um mecanismo 
+com martelo para perfuração em alvenaria. Em torno do anel (C) 
+existe uma série de números, um símbolo de broca e, nalguns 
+modelos, um símbolo de martelo. Estes números são utilizados para 
+regular a embraiagem de modo a fornecer um gama de binários. 
+Quanto maior for o número no anel, maior é o binário e maior será 
+o ajuste do parafuso de fixação. Para seleccionar um dos números, 
+rode o selector até o número pretendido ficar alinhado com a seta.
+Mudança de velocidade dupla (fig. 2)
+A função de duas velocidades do furadeira/parafusadeira permite 
+mudar de velocidade para uma maior versatilidade.
+ 1. Para seleccionar a velocidade 1 (regulação de binário elevado), 
+desligue a ferramenta e deixe-a a rodar até parar. Faça deslizar o 
+sistema de mudança de velocidade (D) para a frente (na direcção 
+do mandril). 
+ 2. Para seleccionar a velocidade 2 (regulação de binário baixo), 
+desligue a ferramenta e deixe-a a rodar até parar. Faça deslizar 
+o sistema de mudança de velocidade (no sentido oposto ao do 
+mandril).
+NOTA: não altere a velocidade quando a ferramenta estiver em 
+funcionamento. Antes de mudar de velocidade, aguarde até que 
+o furadeira pare por completo. Se tiver dificuldade em mudar de 
+velocidade, certifique-se de que o sistema de mudança de velocidade 
+dupla está totalmente empurrado para a frente ou para trás.
+Indicadores luminosos de funcionamento 
+(fig. 2)
+ CUIDADO: Não olhe fixamente para a luz de trabalho. Pode 
+causar lesão corporal grave.
+Existe um indicador luminoso de funcionamento (E) imediatamente 
+acima do interruptor de acionamento (A). A luz de funcionamento é 
+activada quando o interruptor de acionamento é premido. Quando 
+o interruptor é libertado, o indicador luminoso permanece aceso 
+durante um máximo de 20 segundos.
+NOTA: o indicador luminoso permite iluminar a superfície de trabalho 
+imediata e não foi concebida como uma lanterna. 
+FIG. 4 FIG. 5
+F
+FIG. 3
+Mandril com manga única sem chave 
+(fig. 3–5)
+ATENÇÃO: Não tente apertar as brocas (ou qualquer outro 
+acessório) segurando na parte frontal do mandril e ligando a 
+ferramenta. Podem ocorrer danos no mandril e lesões pessoais. 
+Bloqueie sempre o interruptor de acionamento e desligue a ferramenta 
+da fonte de alimentação quando mudar de acessório.
+ATENÇÃO: Certifique-se sempre de que a fixa está fixa antes de 
+ligar a ferramenta. Uma broca solta pode soltar-se da ferramenta, 
+causando possíveis ferimentos.
+
+[PÁGINA 29]
+27
+Português
+A ferramenta está equipada com um mandril sem chave (F) com uma 
+manga de rotação para uma operação com uma mão do mandril. 
+Para inserir uma broca ou outro acessório, siga os seguintes passos.
+ 1. Desligue a ferramenta e retire o plugue da fonte de alimentação.
+ 2. Agarre na manga preta do mandril com uma mão e, com a 
+outra, agarre com firmeza na ferramenta. Rode a manga para 
+a esquerda o suficiente até encaixar o acessório pretendido.
+ 3. Insira o acessório cerca de 19 mm no mandril e aperte com 
+firmeza, fazendo rodar para a direita a manga do mandril com 
+uma mão e segure a ferramenta com a outra. A ferramenta está 
+equipada com um mecanismo de bloqueio automático do veio. 
+Isto permite abrir e fechar o mandril com uma mão.
+Certifique-se de que aperta o mandril, colocando uma mão na manga 
+do mandril e segurança a ferramenta com a outra mão para uma 
+máxima fixação.
+Para libertar o acessório, repita o passo 1 e 2 indicados acima.
+FUNCIONAMENTO
+ATENÇÃO:  Respeite sempre as instruções de segurança e os 
+regulamentos aplicáveis.
+ATENÇÃO: Para reduzir o risco de lesões corporais graves, 
+sempre desligue a ferramenta e retire-a da corrente elétrica 
+antes de fazer ajustes ou de retirar ou colocar acessórios.  Um 
+arranque acidental pode causar lesões. 
+Como instalar e remover o módulo de 
+bateria (Fig. 6)
+NOTA: Para obter o melhor desempenho, assegure-se de que o 
+módulo de bateria esteja completamente carregado. 
+Para instalar o módulo de bateria (H) na empunhadura da 
+ferramenta, alinhe o módulo com as ranhuras na empunhadura e 
+deslize-o para dentro da empunhadura até que o módulo esteja 
+posicionado firmemente dentro da ferramenta. Assegure-se de que 
+o módulo não se soltará da ferramenta.
+Para retirar o módulo de bateria da ferramenta, aperte o botão 
+de destrava (G) e puxe firmemente o módulo de bateria para fora 
+da empunhadura da ferramenta. Insira-a no carregador tal como 
+explicado na seção do carregador neste manual.
+I
+H
+G
+FIG. 6
+BATERIAS DE NÍVEL DE CARGA (FIG. 6)
+Algumas baterias DeWALT incluem um nível de carga que consiste 
+em três luzes LED verde que indicam o nível de carga restante da 
+bateria. 
+O indicador de nível de carga (D) é uma indicação dos níveis de carga 
+restante da bateria de acordo com os seguintes indicadores:
+75–100% carregado
+51-74% carregado
+< 50% carregado
+O pacote deve ser recarregado
+
+[PÁGINA 30]
+28
+Português
+Para acionar o medidor de carga, pressione e segure o botão 
+de medidor de carga (I). A combinação das três luzes LED verde 
+acenderá mostrando o nível de carga restante. Quando o nível de 
+carga da bateria for inferior ao limite utilizável, o indicador de carga 
+não acenderá e a bateria deve ser recarregada.
+NOTA: O indicador de carga é apenas uma indicação da carga 
+restante da bateria. Ele não indica a funcionalidade da ferramenta 
+e está sujeita a variação com base em componentes de produtos, 
+temperatura e aplicação do usuário final.
+Para mais informações sobre os módulos de bateria equipados com 
+um indicador de nível de carga, converse com seu centro de serviços 
+local.
+Funcionamento do furadeira (fig. 7)
+AVISO: Se for perfurar material fino, FIG. 7
+C
+ 
+utilize um bloco de “apoio” em 
+madeira para evitar danos no material.
+ 1. Seleccione o intervalo de 
+velocidade/binário adequado para 
+a operação planeada utilizando o 
+selector de velocidade. Rode o 
+anel (C) para o símbolo de broca. 
+ 2. Use apenas brocas afiadas
+ 3. Aplique sempre pressão numa 
+linha recta com a broca. Utilize 
+pressão suficiente para continuar a furar, mas não empurre com 
+demasiada força, pois pode fazer o motor parar ou empenar a 
+broca.
+ 4. Segure a ferramenta com firmeza com as duas mãos para 
+controlar a acção de rotação da broca. Se o modelo não estiver 
+equipado com pega lateral, segure a ferramenta colocando uma 
+mão na pega e outra na bateria.
+ATENÇÃO: A broca pode parar de estiver sobrecarregada 
+provocando um movimento súbito de torção. Esteja sempre à espera 
+de uma paragem. Agarre a ferramenta com firmeza para controlar a 
+acção de torção e para evitar ferimentos.
+ 5.  SE A BROCA PARAR, provavelmente está em sobrecarga ou está 
+a ser utilizada de modo inadequado. SOLTE IMEDIATAMENTE 
+O GATILHO, remova a broca do trabalho e determine a causa da 
+paragem. NÃO VOLTE A CLICAR NO GATILHO DE LIGAR E 
+DESLIGAR NUMA TENTATIVA DE ACCIONAR UMA BROCA 
+PARADA — ISTO PODE DANIFICAR O FURADEIRA.
+ 6. Para minimizar a paragem ou travagem no material, reduza a 
+pressão na broca e dê alguma folga à broca na última parte 
+fraccional do orifício.
+ 7. Mantenha o motor a trabalhar quando puxar a broca para a retirar 
+de um orifício perfurado. Isto irá ajudar a evitar encravamentos.
+Funcionamento da chave de fendas  
+(fig. 8)
+ 1. Seleccione a velocidade/binário
+FIG. 8
+C
+ 
+pretendido utilizando o selector 
+das engrenagens de duplo 
+alcance para fazer corresponder 
+a velocidade e o binário da 
+operação planeada.
+ 2. Rode o anel (C) de ajuste de 
+binário para a posição desejada. 
+NOTA: Use a configuração de 
+torque mais baixa necessária 
+para encaixar o fixador na profundidade desejada. Quanto menor 
+o número mais baixo é o rendimento de torque.
+ 3. Insira o acessório de fixação pretendido no mandril tal como faria 
+com qualquer broca.
+
+[PÁGINA 31]
+29
+Português
+ 4. Execute alguns ensaios num pedaço velho de madeira ou em 
+áreas ocultas para determinar a posição adequada do anel da 
+garra. 
+ 5. Comece sempre com definições de binário mais baixas, 
+avançando posteriormente para definições de binário mais 
+elevadas para evitar danificar a peça de trabalho ou a fixação.
+Funcionamento do martelo 
+electropneumático (fig. 9)
+DCD776
+ 1. Rode o anel (C) para o símbolo FIG. 9
+C
+ 
+do martelo electropneumático.
+ 2. Seleccione a definição de alta 
+velocidade deslizando o selector 
+para trás (afastado do mandril).
+  IMPORTANTE:  utilize apenas 
+brocas de ponta de carboneto 
+ou brocas para alvenaria.
+ 3. Perfure fazendo apenas a força 
+suficiente no martelo para evitar 
+que ressalte excessivamente ou que “levante” a bronca. Se 
+utilizar demasiada força vai diminuir as velocidades de perfuração, 
+sobreaquecendo e diminuindo a velocidade de perfuração.
+ 4. Perfure a direito, mantendo a broca num ângulo recto 
+relativamente ao trabalho. Não exerça qualquer pressão lateral 
+na broca quando perfurar pois pode provocar o entupimento das 
+estrias da broca e uma velocidade mais baixa de perfuração.
+ 5. Quando fizer orifícios mais fundos, se a velocidade do martelo 
+começar a baixar, puxe parcialmente a broca para fora do orifício 
+com a ferramenta ainda a trabalhar para ajudar a limpar os 
+resíduos do orifício.
+NOTA: se observar um fluxo suave e regular de pó proveniente do 
+orifício, isto significa que está a utilizar uma velocidade de perfuração 
+adequada.
+MANUTENÇÃO
+ATENÇÃO: Para reduzir o risco de lesões corporais graves, 
+sempre desligue a ferramenta e retire-a da corrente elétrica 
+antes de fazer ajustes ou de retirar ou colocar acessórios.  Um 
+arranque acidental pode causar lesões. 
+Esta ferramenta elétrica DeWAL T foi concebida para o servir durante 
+muito tempo com um mínimo de manutenção. Um funcionamento 
+satisfatório e longo depende de cuidados adequados e de uma 
+limpeza regular.
+Lubrificação
+Esta ferramenta elétrica não requer lubrificação adicional.
+Limpeza
+ATENÇÃO: Injetar ar seco para retirar a sujidade e o pó do 
+alojamento principal, sempre que notar uma acumulação de sujidade 
+nos respiradores ou em torno dos mesmos. Utilize uma proteção 
+adequada para os olhos e uma máscara para o pó quando realizar 
+esta operação. 
+ATENÇÃO: Nunca utilize solventes ou outros químicos agressivos 
+para limpar as partes não metálicas da ferramenta. Estes químicos 
+podem enfraquecer os materiais utilizados nestas partes. Utilize um 
+pano umedecido apenas com água e detergente suave. Nunca 
+permita que entre nenhum líquido na ferramenta; nunca mergulhe 
+qualquer parte da ferramenta em líquido.
+INSTRUÇÕES DE LIMPEZA DO CARREGADOR
+ATENÇÃO: Perigo de choque elétrico. Desconecte o carregador 
+da tomada de corrente alternada antes de limpá-lo. Para limpar a 
+sujeira e graxa do exterior do carregador, use um pano ou uma 
+escova suave não metálica. Não utilize água nem líquidos de 
+limpeza. 
+
+[PÁGINA 32]
+30
+Português
+Acessórios
+ATENÇÃO: Uma vez que os acessórios que não sejam os 
+disponibilizados pela DeWALT não foram testados com este produto, 
+a utilização de tais acessórios nesta ferramenta poderá ser perigosa. 
+Para reduzir o risco de lesão, deverão utilizar-se apenas os acessórios 
+recomendados pela DeWALT com este produto.
+Consulte o seu revendedor para mais informações acerca dos 
+acessórios adequados.
+MAXIMUM RECOMMENDED CAPACITIES
+WOOD 25 mm (1")
+STEEL 13 mm (1/2")
+Reparos
+Não há nenhuma peça consertável dentro do carregador ou do 
+módulo de bateria. 
+Para assegurar a SEGURANÇA e CONFIABILIDADE do produto, os 
+reparos, a manutenção e os ajustes (incluindo inspeção e substituição 
+da escova) devem ser realizados por um centro de serviços 
+autorizados da D eWALT ou outro pessoal técnico qualificado. Use 
+sempre peças de reposição idênticas.
+A D eWALT possui uma das maiores Redes de Serviços do País, 
+Ligue: 0800-7034644 ou consulte nosso site: www.dewalt.com.br, 
+para saber qual é a mais próxima de sua localidade.
+Protegendo o Meio Ambiente Coleta 
+seletiva
+  Coleta separada. Baterias e produtos marcados com este 
+símbolo não devem ser descartados com o lixo doméstico 
+normal.
+Produtos e baterias contêm materiais que podem ser recuperados 
+ou reciclados, reduzindo a demanda por matérias-primas. Recicle 
+baterias e produtos elétricos de acordo com as disposições locais. 
+ESPECIFICAÇÕES
+DCD771               0–450 / 0–1 500 RPM
+DCD776 0–450 / 0–1 500 RPM 0–7 650 / 0–25 500 IPM
+*  A tensão inicial máxima da bateria (sem carga de trabalho) é  
+20 volts. A tensão nominal é de 18 volts.
+
+[PÁGINA 33]
+31
+English
+Definitions: Safety Guidelines 
+The definitions below describe the level of severity for each 
+signal word. Please read the manual and pay attention to these 
+symbols.
+DANGER: Indicates an imminently hazardous situation which, if 
+not avoided, will result in death or serious injury.
+WARNING: Indicates a potentially hazardous situation which, 
+if not avoided, could result in death or serious injury.
+CAUTION: Indicates a potentially hazardous situation which, if 
+not avoided, may result in minor or moderate injury.
+NOTICE: indicates a practice not related to personal injury  
+which, if not avoided, may result in property damage.
+ WARNING: To reduce the risk of injury, read the instruction 
+manual.
+General Power Tool Safety Warnings
+WARNING! Read all safety warnings and all instructions 
+Failure to follow the warnings and instructions may result in 
+electric shock, fire and/or serious injury.
+SAVE ALL WARNINGS AND INSTRUCTIONS 
+FOR FUTURE REFERENCE
+The term “power tool”in the warnings refers to your mains-operated 
+(corded) power tool or battery-operated (cordless) power tool.
+1) WORK AREA SAFETY
+a) Keep work area clean and well lit. Cluttered or dark areas 
+invite accidents.
+b) Do not operate power tools in explosive atmospheres, 
+such as in the presence of flammable liquids, gases or 
+dust. Power tools create sparks which may ignite the dust or 
+fumes.
+c) Keep children and bystanders away while operating a 
+power tool. Distractions can cause you to lose control.
+2) ELECTRICAL SAFETY
+a) Power tool plugs must match the outlet. Never modify 
+the plug in any way. Do not use any adapter plugs with 
+earthed (grounded) power tools. Unmodified plugs and 
+matching outlets will reduce risk of electric shock.
+b) Avoid body contact with earthed or grounded surfaces 
+such as pipes, radiators, ranges and refrigerators. There 
+is an increased risk of electric shock if your body is earthed or 
+grounded.
+c) Do not expose power tools to rain or wet conditions. 
+Water entering a power tool will increase the risk of electric 
+shock.
+d) Do not abuse the cord. Never use the cord for carrying, 
+pulling or unplugging the power tool. Keep cord away 
+from heat, oil, sharp edges or moving parts. Damaged or 
+entangled cords increase the risk of electric shock. 
+e) When operating a power tool outdoors, use an extension 
+cord suitable for outdoor use. Use of a cord suitable for 
+outdoor use reduces the risk of electric shock. 
+f) If operating a power tool in a damp location is unavoidable, 
+use a residual current device (RCD) protected supply.  
+Use of an RCD reduces the risk of electric shock.
+3) PERSONAL SAFETY
+a) Stay alert, watch what you are doing and use common 
+sense when operating a power tool. Do not use a power 
+tool while you are tired or under the influence of drugs, 
+alcohol or medication.  A moment of inattention while 
+operating power tools may result in serious personal injury.
+b) Use personal protective equipment. Always wear eye 
+protection. Protective equipment such as dust mask, non-
+skid safety shoes, hard hat, or hearing protection used for 
+appropriate conditions will reduce personal injuries.
+
+[PÁGINA 34]
+32
+English
+c) Prevent unintentional starting. Ensure the switch is in 
+the off position before connecting to power source and/
+or battery pack, picking up or carrying the tool. Carrying 
+power tools with your finger on the switch or energising power 
+tools that have the switch on invites accidents.
+d) Remove any adjusting key or wrench before turning the 
+power tool on. A wrench or a key left attached to a rotating 
+part of the power tool may result in personal injury.
+e) Do not overreach. Keep proper footing and balance at 
+all times. This enables better control of the power tool in 
+unexpected situations.
+f) Dress properly. Do not wear loose clothing or jewellery. 
+Keep your hair, clothing and gloves away from moving 
+parts. Loose clothes, jewellery or long hair can be caught in 
+moving parts. 
+g) If devices are provided for the connection of dust 
+extraction and collection facilities, ensure these are 
+connected and properly used. Use of dust collection can 
+reduce dust-related hazards.
+4) POWER TOOL USE AND CARE
+a) Do not force the power tool. Use the correct power tool 
+for your application. The correct power tool will do the job 
+better and safer at the rate for which it was designed.
+b) Do not use the power tool if the switch does not turn it 
+on and off. Any power tool that cannot be controlled with the 
+switch is dangerous and must be repaired.
+c) Disconnect the plug from the power source and/or the 
+battery pack from the power tool before making any 
+adjustments, changing accessories, or storing power 
+tools. Such preventive safety measures reduce the risk of 
+starting the power tool accidentally.
+d) Store idle power tools out of the reach of children and 
+do not allow persons unfamiliar with the power tool or 
+these instructions to operate the power tool. Power tools 
+are dangerous in the hands of untrained users.
+e) Maintain power tools. Check for misalignment or binding 
+of moving parts, breakage of parts and any other 
+condition that may affect the power tool’s operation. If 
+damaged, have the power tool repaired before use. Many 
+accidents are caused by poorly maintained power tools.
+f) Keep cutting tools sharp and clean. Properly maintained 
+cutting tools with sharp cutting edges are less likely to bind and 
+are easier to control.
+g) Use the power tool, accessories and tool bits etc., in 
+accordance with these instructions taking into account 
+the working conditions and the work to be performed. 
+Use of the power tool for operations different from those 
+intended could result in a hazardous situation.
+5) BATTERY TOOL USE AND CARE
+a) Recharge only with the charger specified by the 
+manufacturer. A charger that is suitable for one type of 
+battery pack may create a risk of fire when used with another 
+battery pack.
+b) Use power tools only with specifically designated battery 
+packs. Use of any other battery packs may create a risk of 
+injury and fire.
+c) When battery pack is not in use, keep it away from other 
+metal objects like paper clips, coins, keys, nails, screws, 
+or other small metal objects that can make a connection 
+from one terminal to another. Shorting the battery terminals 
+together may cause burns or a fire.
+d) Under abusive conditions, liquid may be ejected from 
+the battery; avoid contact. If contact accidentally occurs, 
+flush with water. If liquid contacts eyes, additionally seek 
+medical help. Liquid ejected from the battery may cause 
+irritation or burns.
+
+[PÁGINA 35]
+33
+English
+6) SERVICE
+a) Have your power tool serviced by a qualified repair 
+person using only identical replacement parts.  This will 
+ensure that the safety of the power tool is maintained.
+Additional Specific Safety Rules for Drill/
+Driver/Hammerdrill
+• Wear ear protectors when impact drilling. Exposure to noise 
+can cause hearing loss.
+• Use auxiliary handle(s), if supplied with the tool.  Loss of 
+control can cause personal injury.
+• Hold power tool by insulated gripping surfaces, when 
+performing an operation where the cutting accessory may 
+contact hidden wiring. Cutting accessory contacting a “live” 
+wire may make exposed metal parts of the power tool “live” and 
+could give the operator an electric shock.
+• Use clamps or other practical way to secure and support 
+the workpiece to a stable platform. Holding the work by hand 
+or against your body is unstable and may lead to loss of control.
+• Wear safety goggles or other eye protection. Hammering and 
+drilling operations cause chips to fly. Flying particles can cause 
+permanent eye damage.
+• Keep a firm grip on the tool at all times.  Do not attempt to 
+operate this tool without holding it with both hands.
+• Accessories and tool may get hot during operation.  
+Wear gloves when handling them if performing heat producing 
+applications such as hammerdrilling and drilling metals.
+• Do not operate this tool for long periods of time.  Vibration 
+caused by hammer action may be harmful to your hands and 
+arms. Use gloves to provide extra cushion and limit exposure by 
+taking frequent rest periods.
+• Air vents often cover moving parts and should be avoided. 
+Loose clothes, jewelry or long hair can be caught in moving parts.
+WARNING: ALWAYS USE SAFETY GLASSES. Everyday 
+eyeglasses are NOT safety glasses. Also use face or dust mask if 
+cutting operation is dusty. ALL USERS AND BYSTANDERS MUST 
+ALWAYS WEAR CERTIFIED SAFETY EQUIPMENT:
+• ANSI Z87.1 eye protection (CAN/CSA Z94.3),
+• ANSI S12.6 (S3.19) hearing protection,
+• NIOSH/OSHA/MSHA respiratory protection.
+WARNING: Some dust created by power sanding, sawing, 
+grinding, drilling, and other construction activities contains chemicals 
+known to cause cancer, birth defects or other reproductive harm. 
+Some examples of these chemicals are:
+• lead from lead-based paints,
+• crystalline silica from bricks and cement and other masonry 
+products, and 
+• arsenic and chromium from chemically-treated lumber.
+Your risk from these exposures varies, depending on how often you 
+do this type of work. To reduce your exposure to these chemicals: 
+work in a well ventilated area, and work with approved safety 
+equipment, such as those dust masks that are specially designed to 
+filter out microscopic particles.
+• Avoid prolonged contact with dust from power sanding, 
+sawing, grinding, drilling, and other construction activities. 
+Wear protective clothing and wash exposed areas with 
+soap and water. Allowing dust to get into your mouth, eyes, or 
+lay on the skin may promote absorption of harmful chemicals. 
+WARNING: Use of this tool can generate and/or disburse dust, 
+which may cause serious and permanent respiratory or other injury. 
+Always use NIOSH/OSHA approved respiratory protection appropriate 
+for the dust exposure. Direct particles away from face and body.
+WARNING: Always wear proper personal hearing protection 
+that conforms to ANSI S12.6 (S3.19) during use. Under some 
+conditions and duration of use, noise from this product may 
+contribute to hearing loss.
+
+[PÁGINA 36]
+34
+English
+CAUTION: When not in use, place tool on its side on a stable 
+surface where it will not cause a tripping or falling hazard. 
+Some tools with large battery packs will stand upright on the battery 
+pack but may be easily knocked over.
+• The label on your tool may include the following symbols. The 
+symbols and their definitions are as follows:
+V ...................volts A  ......................amperes
+Hz .................hertz W  .....................watts
+min ...............minutes or AC ..........alternating 
+or DC ...direct current current
+ .................Class I Construction or AC/DC ...alternating 
+(grounded)  ........................or direct
+ .................Class II Construction current
+(double insulated) no ....................no load 
+…/min  ..........revolutions per minute  ....................... speed
+BPM .............beats per minute  n ......................rated 
+IPM ...............impacts per minute  ........................speed
+SPM .............strokes per minute  .....................earthing 
+sfpm .............surface feet  terminal
+ .....................per minute  .....................safety alert 
+ .................visible radiation symbol
+Important Safety Instructions for All 
+Battery Packs
+When ordering replacement battery packs, be sure to include the 
+catalog number and voltage. 
+The battery pack is not fully charged out of the carton. Before using 
+the battery pack and charger, read the safety instructions below and 
+then follow charging procedures outlined.
+READ ALL INSTRUCTIONS
+WARNING:
+• Do not charge or use the battery pack in explosive 
+atmospheres, such as in the presence of flammable liquids, 
+gases or dust. Inserting or removing the battery pack from the 
+charger may ignite the dust or fumes.
+• NEVER force the battery pack into the charger. DO NOT 
+modify the battery pack in any way to fit into a non-
+compatible charger as battery pack may rupture causing 
+serious personal injury. 
+• Charge the battery packs only in designated DeWALT chargers.
+• DO NOT splash or immerse in water or other liquids.
+• Do not store or use the tool and battery pack in locations 
+where the temperature may reach or exceed 104 °F (40 °C) 
+(such as outside sheds or metal buildings in summer).  For 
+best life store battery packs in a cool, dry location. 
+ NOTE: Do not store the battery packs in a tool with the 
+trigger switch locked on. Never tape the trigger switch in 
+the ON position.
+WARNING: Fire hazard. Never attempt to open the battery pack 
+for any reason. If the battery pack case is cracked or damaged, do 
+not insert into the charger. Do not crush, drop or damage the battery 
+pack. Do not use a battery pack or charger that has received a sharp 
+blow, been dropped, run over or damaged in any way (e.g., pierced 
+with a nail, hit with a hammer, stepped on). Damaged battery packs 
+should be returned to the service center for recycling.
+SPECIFIC SAFETY INSTRUCTIONS FOR LITHIUM ION (Li-Ion)
+• Do not incinerate the battery pack even if it is severely 
+damaged or is completely worn out.  The battery pack can 
+explode in a fire. Toxic fumes and materials are created when 
+lithium ion battery packs are burned.
+
+[PÁGINA 37]
+35
+English
+• If battery contents come into contact with the skin, 
+immediately wash area with mild soap and water. If battery 
+liquid gets into the eye, rinse water over the open eye for 15 
+minutes or until irritation ceases. If medical attention is needed, 
+the battery electrolyte is composed of a mixture of liquid organic 
+carbonates and lithium salts.
+• Contents of opened battery cells may cause respiratory 
+irritation. Provide fresh air. If symptoms persist, seek medical 
+attention.
+WARNING: Burn hazard. Battery liquid may be flammable if 
+exposed to spark or flame. 
+Important Safety Instructions for All 
+Battery Chargers
+SAVE THESE INSTRUCTIONS: This manual contains important 
+safety and operating instructions for battery chargers.
+• Before using the charger, read all instructions and cautionary 
+markings on the charger, battery pack and product using the 
+battery pack.
+WARNING: Shock hazard. Do not allow any liquid to get inside the 
+charger. Electric shock may result.
+CAUTION: Burn hazard. To reduce the risk of injury, charge only 
+DeWALT rechargeable battery packs. Other types of batteries may 
+overheat and burst resulting in personal injury and property damage.
+NOTICE: Under certain conditions, with the charger plugged into the 
+power supply, the charger can be shorted by foreign material. Foreign 
+materials of a conductive nature, such as, but not limited to, grinding 
+dust, metal chips, steel wool, aluminum foil or any buildup of metallic 
+particles should be kept away from the charger cavities. Always 
+unplug the charger from the power supply when there is no battery 
+pack in the cavity. Unplug the charger before attempting to clean.
+WARNING:
+• DO NOT attempt to charge the battery pack with any 
+chargers other than the ones in this manual. The charger and 
+battery pack are specifically designed to work together. 
+• These chargers are not intended for any uses other than 
+charging D eWALT rechargeable batteries. Any other uses 
+may result in risk of fire, electric shock or electrocution.
+• Do not expose the charger to rain or snow.
+• Pull by the plug rather than the cord when disconnecting 
+the charger. This will reduce the risk of damage to the electric 
+plug and cord.
+• Make sure that the cord is located so that it will not be 
+stepped on, tripped over or otherwise subjected to damage 
+or stress.
+• Do not use an extension cord unless it is absolutely 
+necessary. Use of improper extension cord could result in risk of 
+fire, electric shock or electrocution.
+• When operating a charger outdoors, always provide a dry 
+location and use an extension cord suitable for outdoor 
+use. Use of a cord suitable for outdoor use reduces the risk of 
+electric shock. 
+• An extension cord must have adequate wire size for safety. 
+An undersized cord will cause a drop in line voltage resulting in loss 
+of power and overheating. When using more than one extension 
+to make up the total length, be sure each individual extension 
+contains at least the minimum wire size. The following table shows 
+the correct size to use depending on cord length and nameplate 
+ampere rating. If in doubt, use the next heavier gauge. The smaller 
+the gauge number, the heavier the cord.
+
+[PÁGINA 38]
+36
+English
+Voltage (Volts)  Total length of cord in meters (m)
+120–127V 0–7 7–15 15–30 30–50
+220–240V 0–15 15–30 30–60 60–100
+Rated Ampere  
+range
+Minimal cross-sectional area of the 
+cord in meters (mm2 )
+0–6A 1.0 1.5 1.5 2.5
+6–10A 1.0 1.5 2.5 4.0
+10–12A 1.5 1.5 2.5 4.0
+12–16A 2.5 4.0 Not Recommended
+• Do not place any object on top of the charger or place the 
+charger on a soft surface that might block the ventilation 
+slots and result in excessive internal heat. Place the charger 
+in a position away from any heat source. The charger is ventilated 
+through slots in the top and the bottom of the housing.
+• Do not operate the charger with a damaged cord or plug.
+• Do not operate the charger if it has received a sharp blow, 
+been dropped or otherwise damaged in any way.  Take it to 
+an authorized service center.
+• Do not disassemble the ch arger; take it to an authorized 
+service center when service or repair is required.  Incorrect 
+reassembly may result in a risk of electric shock, electrocution or fire.
+• Disconnect the charger from the outlet before attempting 
+any cleaning. This will reduce the risk of electric shock.  
+Removing the battery pack will not reduce this risk.
+• NEVER attempt to connect 2 chargers together.
+• The charger is designed to operate on standard 120V 
+household electrical power. Do not attempt to use it on any 
+other voltage. This does not apply to the vehicular charger.
+Chargers 
+Your tool uses a D eWALT charger. Be sure to read all safety 
+instructions before using your charger. 
+Charging Procedure (Fig. 1)
+ 1. Plug the charger into an
+HFIG. 1  
+appropriate outlet before 
+inserting the battery pack. 
+ 2. Insert the battery pack (H) 
+into the charger, as shown 
+in Figure 1, making sure 
+the pack is fully seated in 
+charger. The red (charging) 
+light will blink continuously, 
+indicating that the charging 
+process has started. 
+ 3. The completion of charge 
+will be indicated by the red light remaining ON continuously. The 
+pack is fully charged and may be used at this time or left in the 
+charger.
+Indicator Light Operation
+DCB107, DCB112, DCB115
+PACK CHARGING
+PACK CHARGED
+HOT/COLD DELAY
+Charge Indicators 
+This charger is designed to detect certain problems that can arise. 
+Problems are indicated by the red light flashing at a fast rate. If this 
+occurs, re-insert the battery pack into the charger. If the problem 
+persists, try a different battery pack to determine if the charger is 
+
+[PÁGINA 39]
+37
+English
+working properly. If the new pack charges correctly, then the original 
+pack is defective and should be returned to a service center or other 
+collection site for recycling. If the new battery pack elicits the same 
+trouble indication as the original, have the charger and the battery 
+pack tested at an authorized service center. 
+HOT/COLD PACK DELAY 
+DCB107, DCB112, DCB115
+These chargers have a hot/cold delay feature. When the charger 
+detects a battery that is too hot or too cold, it automatically starts a 
+delay, suspending charging. The red light will continue to blink, but a 
+yellow indicator light will be illuminated during this suspension. 
+Once the battery has reached an optimum temperature, the yellow 
+light will turn off and the charger will automatically resume the 
+charging procedure. This feature ensures maximum battery life.
+LEAVING THE BATTERY PACK IN THE CHARGER
+The charger and battery pack can be left connected with the charge 
+indicator showing Pack Charged.
+WEAK BATTERY PACKS: Weak batteries will continue to function 
+but should not be expected to perform as much work. 
+FAULTY BATTERY PACKS: This charger will not charge a faulty 
+battery pack. The charger will indicate faulty battery pack by refusing 
+to light or by displaying problem pack or charger. 
+NOTE: This could also mean a problem with a charger.
+Wall Mounting
+DCB107, DCB112, DCB115
+These chargers are designed to be wall mountable or to sit upright on 
+a table or work surface.
+If wall mounting, locate the charger within reach of an electrical outlet. 
+Mount the charger securely using drywall screws at least 1" (25.4 mm) 
+long, screwed into wood to an optimal depth leaving approximately 
+7/32" (5.5 mm) of the screw exposed.
+Important Charging Notes
+ 1. Longest life and best performance can be obtained if the battery 
+pack is charged when the air temperature is between 65 °F 
+and 75 °F (18 °C – 24 °C). DO NOT charge the battery pack in 
+an air temperature below +40 °F (+4.5 °C), or above +104 °F  
+(+40 °C). This is important and will prevent serious damage to 
+the battery pack.
+ 2. The charger and battery pack may become warm to the touch 
+while charging. This is a normal condition, and does not indicate 
+a problem. To facilitate the cooling of the battery pack after use, 
+avoid placing the charger or battery pack in a warm environment 
+such as in a metal shed or an uninsulated trailer.
+ 3. A cold battery pack will charge at about half the rate of a warm 
+battery pack. The battery pack will charge at that slower rate 
+throughout the entire charging cycle and will not return to 
+maximum charge rate even if the battery pack warms.
+ 4. If the battery pack does not charge properly:
+  a.  Check operation of receptacle by plugging in a lamp or other 
+appliance;
+  b.  Check to see if receptacle is connected to a light switch which 
+turns power off when you turn out the lights; 
+  c.  Move the charger and battery pack to a location where the 
+surrounding air temperature is approximately 65 °F – 75 °F  
+(18 °C– 24 °C); 
+  d.  If charging problems persist, take the tool, battery pack and 
+charger to your local service center.
+ 5. The battery pack should be recharged when it fails to produce 
+sufficient power on jobs which were easily done previously. DO 
+NOT CONTINUE to use under these conditions. Follow the 
+charging procedure. You may also charge a partially used pack 
+whenever you desire with no adverse effect on the battery pack.
+ 6. Foreign materials of a conductive nature such as, but not limited 
+to, grinding dust, metal chips, steel wool, aluminum foil, or any 
+
+[PÁGINA 40]
+38
+English
+buildup of metallic particles should be kept away from charger 
+cavities. Always unplug the charger from the power supply when 
+there is no battery pack in the cavity. Unplug the charger before 
+attempting to clean.
+ 7. Do not freeze or immerse the charger in water or any other liquid.
+WARNING: Shock hazard. Don’t allow any liquid to get inside the 
+charger. Electric shock may result. 
+WARNING: Burn hazard. Do not submerge the battery pack in 
+any liquid or allow any liquid to enter the battery pack. Never attempt 
+to open the battery pack for any reason. If the plastic housing of the 
+battery pack breaks or cracks, return to a service center for recycling.
+Storage Recommendations
+ 1. The best storage place is one that is cool and dry, away from 
+direct sunlight and excess heat or cold.
+ 2. For long storage, it is recommended to store a fully charged 
+battery pack in a cool dry place out of the charger for optimal 
+results.
+NOTE: Battery packs should not be stored completely depleted of 
+charge. The battery pack will need to be recharged before use. 
+SAVE THESE INSTRUCTIONS  
+FOR FUTURE USE
+DESCRIPTION (FIG. 2)
+WARNING: Never modify the power tool or any part of it. Damage 
+or personal injury could result.
+ A. Trigger switch 
+ B. Forward/reverse control 
+button
+ C. Torque adjustment collar
+ D. Gear shifter
+ E. Worklight
+ F. Keyless chuck
+ G. Battery release button
+ H. Battery pack
+A
+B
+C
+FIG. 2
+D
+F
+E
+G
+H
+INTENDED USE
+These drills/drivers/hammerdrills are designed for professional drilling, 
+percussion drilling and screwdriving applications.
+DO NOT  use under wet conditions or in presence of flammable 
+liquids or gases.
+These drills/drivers/hammerdrills are professional power tools. DO 
+NOT let children come into contact with the tool. Supervision is 
+required when inexperienced operators use this tool.
+
+[PÁGINA 41]
+39
+English
+Variable Speed Trigger Switch (Fig. 2)
+To turn the tool on, squeeze the trigger switch (A). To turn the tool 
+off, release the trigger switch. Your tool is equipped with a brake. The 
+chuck will stop as soon as the trigger switch is fully released. 
+NOTE: Continuous use in variable speed range is not recommended. 
+It may damage the switch and should be avoided.
+Forward/Reverse Control Button (Fig. 2)
+A forward/reverse control button (B) determines the rotational 
+direction of the tool and also serves as a lock-off button. 
+To select forward rotation, release the trigger switch and depress the 
+forward/reverse control button on the right side of the tool. 
+To select reverse rotation, depress the forward/reverse control button 
+on the left side of the tool. 
+The center position of the control button locks the tool in the off 
+position. When changing the position of the control button, be sure 
+the trigger is released. 
+NOTE: The first time the tool is run after changing the direction of 
+rotation, you may hear a click on start up. This is normal and does not 
+indicate a problem. 
+Torque Adjustment Collar (Fig. 2)
+Your tool has an adjustable torque screwdriver mechanism for driving 
+and removing a wide array of fastener shapes and sizes. Circling the 
+collar (C) are numbers and a drill bit symbol. These numbers are used 
+to set the clutch to deliver a torque range. The higher the number 
+on the collar, the higher the torque and the larger the fastener which 
+can be driven. To select any of the numbers, rotate until the desired 
+number aligns with the arrow.
+Dual Range Gearing (Fig. 2)
+The dual range feature of your drill/driver allows you to shift gears for 
+greater versatility.
+ 1. To select speed 1 (high torque setting), turn the tool off and permit 
+it to stop. Slide the gear shifter (D) forward (towards the chuck). 
+ 2. To select speed 2 (low torque setting), turn the tool off and permit 
+it to stop. Slide the gear shifter back (away from the chuck).
+NOTE: Do not change gears when the tool is running. Always allow 
+the drill to come to a complete stop before changing gears. If you are 
+having trouble changing gears, make sure that the dual range gear 
+shifter is either completely pushed forward or completely pushed 
+back.
+Worklight (Fig. 2)
+CAUTION: Do not stare into worklight. Serious eye injury could 
+result.
+There is a worklight (E) located just above the trigger switch (A). The 
+worklight is activated when the trigger switch is depressed, and will 
+automatically turn off 20 seconds after the trigger switch is released. 
+If the trigger switch remains depressed, the worklight will remain on.
+NOTE: The worklight is for lighting the immediate work surface and is 
+not intended to be used as a flashlight. 
+Keyless Single Sleeve Chuck (Fig. 3–5)
+WARNING: Do not attempt to tighten drill bits (or any other 
+accessory) by gripping the front part of the chuck and turning the 
+tool on. Damage to the chuck and personal injury may result. Always 
+lock off trigger switch and disconnect tool from power source when 
+changing acces sories.
+WARNING: Always ensure the bit is secure before starting the 
+tool. A loose bit may eject from tool causing possible personal injury.
+Your tool features a keyless chuck (F) with one rotating sleeve for one-
+handed operation of the chuck. To insert a drill bit or other accessory, 
+follow these steps.
+ 1. Turn tool off and disconnect tool from power source.
+ 2. Grasp the black sleeve of the chuck with one hand and 
+use the other hand to secure the tool. Rotate the sleeve 
+counterclockwise far enough to accept the desired accessory.
+
+[PÁGINA 42]
+40
+English
+FIG. 4 FIG. 5
+F
+FIG. 3
+ 3. Insert the accessory about 3/4" (19 mm) into the chuck and 
+tighten securely by rotating the chuck sleeve clockwise with one 
+hand while holding the tool with the other. Your tool is equipped 
+with an automatic spindle lock mechanism. This allows you to 
+open and close the chuck with one hand.
+Be sure to tighten chuck with one hand on the chuck sleeve and one 
+hand holding the tool for maximum tightness.
+To release the accessory, repeat steps 1 and 2 above.
+OPERATION
+WARNING: Always observe the safety instructions and applicable 
+regulations.
+ WARNING: To reduce the risk of serious  personal injury, 
+turn tool off and remove the battery pack before making any 
+adjustments or removing/installing attachments or accessories. 
+An accidental start-up can cause injury.
+Installing and Removing the Battery Pack 
+(Fig. 6)
+NOTE: For best results, make sure your battery pack is fully charged. 
+To install the battery pack (H) into the tool handle, align the battery 
+pack with the rails inside the tool’s handle and slide it into the handle 
+until the battery pack is firmly seated in the tool and ensure that it 
+does not disengage.
+To remove the battery pack from the tool, press the release button (G)
+and firmly pull the battery pack out of the tool handle. Insert it into the 
+charger as described in the charger section of this manual.
+I
+H
+G
+FIG. 6
+FUEL GAUGE BATTERY PACKS (FIG. 6)
+Some DeWALT battery packs include a fuel gauge which consists of 
+three green LED lights that indicate the level of charge remaining in 
+the battery pack. 
+The fuel gauge is an indication of approximate levels of charge 
+remaining in the battery pack according to the following indicators:
+75–100% charged
+51–74% charged
+< 50% charged
+Pack needs to be charged
+
+[PÁGINA 43]
+41
+English
+To actuate the fuel gauge, press and hold the fuel gauge button (I). A 
+combination of the three green LED lights will illuminate designating 
+the level of charge left. When the level of charge in the battery is below 
+the usable limit, the fuel gauge will not illuminate and the battery will 
+need to be recharged.
+NOTE: The fuel gauge is only an indication of the charge left on the 
+battery pack. It does not indicate tool functionality and is subject to 
+variation based on product components, temperature and end-user 
+application.
+For more information regarding fuel gauge battery packs, please 
+contact your local service center.
+Drilling (Fig. 7)
+NOTICE: If drilling thin material, use a FIG. 7
+C
+ 
+wood “back-up” block to prevent 
+damage to the material.
+ 1. Select the desired speed/torque 
+range using the gear shifter to 
+match the speed and torque to 
+the planned operation. Turn the 
+collar (C) to the drill symbol.
+ 2. Use sharp drill bits only.
+ 3. Always apply pressure in a straight 
+line with the bit. Use enough pressure to keep drill biting, but do 
+not push hard enough to stall the motor or deflect the bit.
+ 4. Hold tool firmly with both hands to control the twisting action of 
+the drill. If model is not equipped with side handle, grip drill with 
+one hand on the handle and one hand on the battery pack.
+WARNING: Drill may stall if overloaded causing a sudden twist. 
+Always expect the stall. Grip the drill firmly to control the twisting 
+action and avoid injury.
+ 5. IF DRILL STALLS, it is usually because it is being overloaded 
+or improperly used. RELEASE TRIGGER IMMEDIATELY , 
+remove drill bit from work, and determine cause of stalling. DO 
+NOT DEPRESS TRIGGER ON AND OFF IN AN ATTEMPT 
+TO START A STALLED DRILL — THIS CAN DAMAGE THE 
+DRILL.
+ 6. To minimize stalling or breaking through the material, reduce 
+pressure on drill and ease the bit through the last fractional part 
+of the hole.
+ 7. Keep the motor running when pulling the bit back out of a drilled 
+hole. This will help prevent jamming.
+Screwdriving (Fig. 8)
+ 1. Select the desired speed/torque FIG. 8
+C
+ 
+range using the gear shifter to 
+match the speed and torque to 
+the planned operation.
+ 2. Turn the torque adjustment 
+collar (C) to the desired position. 
+  NOTE: Use the lowest torque 
+setting required to seat the 
+fastener at the desired depth. 
+The lower the number, the lower 
+the torque output.
+ 3. Insert the desired fastener accessory into the chuck as you would 
+any drill bit.
+ 4. Make some practice runs in scrap or on unseen areas of 
+the workpiece to determine the proper position of the torque 
+adjustment collar. 
+ 5. Always start with lower torque settings, then advance to higher 
+torque settings to avoid damage to the workpiece or fastener.
+
+[PÁGINA 44]
+42
+English
+Hammerdrill Operation (Fig. 9)
+DCD776
+ 1. Turn the collar (C) to the
+FIG. 9
+C
+ 
+hammerdrill symbol.
+ 2. Select the high speed setting by 
+sliding the selector back (away 
+from the chuck).
+  IMPORTANT: Use carbide-
+tipped or masonry bits only.
+ 3. Drill with just enough force on the 
+hammer to keep it from bouncing 
+excessively or “rising” off the bit. Too much force will cause slower 
+drilling speeds, overheating and lower drilling rate.
+ 4. Drill straight, keeping the bit at a right angle to the work. Do not 
+exert side pressure on the bit when drillling as this will cause 
+clogging of the bit flutes and a slower drilling speed.
+ 5. When drilling deep holes, if the hammer speed starts to drop off, 
+pull the bit partially out of the hole with tool stil running to help 
+clear debris from the hole.
+NOTE: A smooth, even flow of dust from the hole indicates proper 
+drilling rate.
+MAINTENANCE
+ WARNING: To reduce the risk of serious  personal injury, 
+turn tool off and remove the battery pack before making any 
+adjustments or removing/installing attachments or accessories. 
+An accidental start-up can cause injury.
+Your DeWAL T power tool has been designed to operate over a 
+long period of time with a minimum of maintenance. Continuous 
+satisfactory operation depends upon proper tool care and regular 
+cleaning.
+Lubrication
+Your power tool requires no additional lubrication.
+Cleaning
+WARNING: Blow dirt and dust out of the main housing with dry air 
+as often as dirt is seen collecting in and around the air vents. Wear 
+approved eye protection and approved dust mask when performing 
+this procedure. 
+WARNING: Never use solvents or other harsh chemicals for 
+cleaning the non-metallic parts of the tool. These chemicals may 
+weaken the materials used in these parts. Use a cloth dampened only 
+with water and mild soap. Never let any liquid get inside the tool; 
+never immerse any part of the tool into a liquid.
+CHARGER CLEANING INSTRUCTIONS
+WARNING: Shock hazard. Disconnect the charger from the AC 
+outlet before cleaning. Dirt and grease may be removed from the 
+exterior of the charger using a cloth or s oft non-metallic brush. Do 
+not use water or any cleaning solutions.
+Accessories
+WARNING: Since accessories, other than those offered by 
+DeWALT, have not been tested with this product, use of such 
+accessories with this tool could be hazardous. To reduce the risk of 
+injury, only DeWALT, recommended accessories should be used with 
+this product.
+Recommended accessories for use with your tool are available at extra 
+cost from your local dealer or authorized service center.
+MAXIMUM RECOMMENDED CAPACITIES
+WOOD 1" (25 mm)
+STEEL 1/2" (13 mm)
+
+[PÁGINA 45]
+43
+English
+Repairs
+The charger and battery pack are not serviceable. 
+To assure product SAFETY and RELIABILITY, repairs, maintenance 
+and adjustment (including brush inspection and replacement) should 
+be performed by authorized service centers or other qualified service 
+personnel, always using identical replacement parts.
+Protecting the Environment
+  Separate collection. Products and batteries marked with 
+this symbol must not be disposed of with normal household 
+waste.
+Products and batteries contain materials that can be recovered or 
+recycled reducing the demand for raw materials. Please recycle 
+electrical products and batteries according to local provisions. 
+SPECIFICATIONS
+DCD771               0–450 / 0–1 500 RPM
+DCD776 0–450 / 0–1 500 RPM 0–7 650 / 0–25 500 IPM
+*  Maximum initial battery voltage (measured without a workload) is 
+20 volts. Nominal voltage is 18V. 
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+DeWALT Industrial T ool Co., 701 East Joppa Road, Baltimore, MD 21286
+(JUN16)               Part No. N481393           DCD771, DCD776        Copyright © 2013, 2016 D eWALT
+The following are trademarks for one or more D eWALT power tools: the yellow and black color scheme; the “D” shaped air intake grill; the 
+array of pyramids on the handgrip; the kit box configuration; and the array of lozenge-shaped humps on the surface of the tool.
+HECHO EN CHINA
+FABRICADO NA CHINA
+MADE IN CHINA
+SOLAMENTE PARA PROPÓSITO DE ARGENTINA:
+IMPORTADO POR: BLACK & DECKER ARGENTINA S.A.
+PACHECO TRADE CENTER
+COLECTORA ESTE DE RUTA PANAMERICANA
+KM. 32.0 EL TALAR DE PACHECO
+PARTIDO DE TIGRE
+BUENOS AIRES (B1618FBQ)
+REPÚBLICA DE ARGENTINA 
+NO. DE IMPORTADOR: 1146/66
+TEL. (011) 4726-4400
+IMPORTED BY/IMPORTADO POR:
+BLACK & DECKER DO BRASIL LTDA.
+ROD. BR 050, S/N° - KM 167
+DIST . INDUSTRIAL II
+UBERABA – MG – CEP: 38064-750
+CNPJ: 53.296.273/0001-91
+INSC. EST .: 701.948.711.00-98
+S.A.C.: 0800-703-4644
+SOLAMENTE PARA PROPÓSITO DE MÉXICO:
+IMPORTADO POR: BLACK & DECKER S.A. DE C.V .
+AVENIDA ANTONIO DOVALI JAIME, # 70 TORRE B PISO 9
+COLONIA SANTA FÉ
+DELEGACIÓN ALVARO OBREGÓN 
+MÉXICO D. F .: 01210
+TEL. (52) 555-326-7100
+R.F .C.: BDE810626-1W7
+MAQUINAS Y HERRAMIENTAS BLACK & DECKER CHILE S.A.
+AVDA. EDUARDO FREI M. #6001 EDIFICIO 67
+CONCHALI-SANTIAGO
+CHILE
+TEL: 56-2-26871706
+IMPORTADO POR:
+BLACK & DECKER DEL PERÚ S.A.
+AV . CIRCUNVALACIÓN DEL CLUB GOLF LOS INCAS
+N° 152 - 154, LOTE 4, OFICINAS 601 – 602
+URB. CLUB GOLF LOS INCAS – SANTIAGO DE SURCO
+LIMA – PERÚ
+RUC: 20266596805

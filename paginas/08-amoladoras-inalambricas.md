@@ -56,7 +56,7 @@ Antes de pagar, confirmá por escrito:
 
 Comprar la primera máquina también puede significar elegir un ecosistema. Las baterías suelen compartirse entre herramientas de una misma plataforma y generación, pero no entre marcas; tampoco conviene asumir compatibilidad entre todos los productos de una misma marca sin verificar el modelo y el manual.
 
-El valor de la plataforma depende de qué otras herramientas vas a usar, cuántas baterías ya tenés y cuánto cuesta sumar packs y cargadores. La etiqueta **18 V** o **20 V** por sí sola no permite comparar potencia ni autonomía: puede reflejar convenciones de tensión nominal o máxima distintas. Por ejemplo, DeWalt aclara que “20V MAX” es la tensión inicial máxima medida sin carga y que la nominal es 18 V.
+El valor de la plataforma depende de qué otras herramientas vas a usar, cuántas baterías ya tenés y cuánto cuesta sumar packs y cargadores. La etiqueta **18 V** o **20 V** por sí sola no permite comparar potencia ni autonomía: puede reflejar convenciones de tensión nominal o máxima distintas. Por ejemplo, DeWalt aclara que “20V MAX” es la tensión inicial máxima medida sin carga y que la nominal es 18 V. Para contrastar modelos exactos y reglas de pertenencia entre marcas de 18V/20V, podés consultar nuestra [base argentina de compatibilidad de baterías](/compatibilidad/).
 
 ## Ah y autonomía: qué sabemos y qué no
 
