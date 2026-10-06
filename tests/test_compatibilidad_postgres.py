@@ -2,7 +2,7 @@
 import os
 import unittest
 import uuid
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 
 
 @unittest.skipUnless(os.environ.get('TALLERLAB_TEST_DATABASE_URL'), 'Falta PostgreSQL aislado de pruebas')
@@ -23,7 +23,7 @@ class CompatibilityPostgresTests(unittest.TestCase):
             try:
                 query = dict(parse_qsl(parsed.query))
                 query['options'] = '-c search_path=' + schema
-                isolated = urlunsplit(parsed._replace(query=urlencode(query)))
+                isolated = urlunsplit(parsed._replace(query=urlencode(query, quote_via=quote)))
                 store = StateStore(database_url=isolated)
                 self.assertIsNone(store.current())
                 first = store.publish(baseline_state())

@@ -2,7 +2,7 @@
 import os
 import unittest
 import uuid
-from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, quote, urlencode
 from unittest.mock import patch
 
 @unittest.skipUnless(os.environ.get('OBSERVATORY_TEST_DATABASE_URL'), 'Falta una instancia PostgreSQL de pruebas')
@@ -24,7 +24,7 @@ class TestPostgresObservatorio(unittest.TestCase):
                 parsed=urlsplit(url)
                 parameters=dict(parse_qsl(parsed.query))
                 parameters['options']=parameters.get('options','')+' -c search_path='+schema
-                config.DATABASE_URL=urlunsplit((parsed.scheme,parsed.netloc,parsed.path,urlencode(parameters),parsed.fragment))
+                config.DATABASE_URL=urlunsplit((parsed.scheme,parsed.netloc,parsed.path,urlencode(parameters, quote_via=quote),parsed.fragment))
                 config.STORAGE_MODE='postgres'
                 init_db(); init_db(); cmd_seed_catalog(None)
                 self.assertTrue(_acquire_run_lock('one',_now()))
