@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>TallerLab Reels · motor de render</title>
+<style>
+@font-face { font-family: 'Plus Jakarta Sans'; src: url('fonts/PlusJakartaSans[wght].ttf') format('truetype'); font-weight: 200 800; font-style: normal; }
+@font-face { font-family: 'Plus Jakarta Sans'; src: url('fonts/PlusJakartaSans-Italic[wght].ttf') format('truetype'); font-weight: 200 800; font-style: italic; }
+@font-face { font-family: 'Caveat'; src: url('fonts/Caveat[wght].ttf') format('truetype'); font-weight: 400 700; }
+@font-face { font-family: 'JetBrains Mono'; src: url('fonts/JetBrainsMono[wght].ttf') format('truetype'); font-weight: 100 800; }
+
+:root {
+  --graphite: #20272b;
+  --graphite-2: #252d30;
+  --graphite-3: #161c1f;
+  --cream: #f4f2ed;
+  --cream-2: #fffefa;
+  --cream-3: #eeebe5;
+  --ink: #20262a;
+  --muted: #626a6c;
+  --muted-light: #c9d0cf;
+  --border: #dcdcd5;
+  --orange: #ff5a0a;
+  --orange-light: #ff874b;
+  --orange-deep: #e84b00;
+  --orange-bg: #fff0e5;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--graphite); }
+body { font-family: 'Plus Jakarta Sans', sans-serif; color: #fff; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+#stage { position: absolute; inset: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--graphite); }
+#world { position: absolute; inset: 0; will-change: transform; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+.abs { position: absolute; }
+.hidden { visibility: hidden; }
+
+/* Texturas de marca */
+.diag { background: repeating-linear-gradient(125deg, transparent 0 60px, rgba(255,255,255,.022) 61px 62px); }
+.vignette { background: radial-gradient(ellipse 80% 70% at 50% 45%, transparent 55%, rgba(0,0,0,.55) 100%); }
+.photo { position: absolute; inset: -6%; width: 112%; height: 112%; object-fit: cover; transform-origin: 50% 50%; }
+.photo-grade { background: linear-gradient(180deg, rgba(22,28,31,.92) 0%, rgba(22,28,31,.55) 32%, rgba(22,28,31,.35) 55%, rgba(22,28,31,.94) 100%); }
+
+/* Tipografía */
+.eyebrow { font-size: 30px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: var(--orange-light); display: inline-flex; align-items: center; gap: 18px; }
+.eyebrow::before { content: ''; display: inline-block; width: 44px; height: 5px; background: var(--orange); }
+.headline { font-weight: 800; letter-spacing: -.045em; line-height: .98; color: #fff; }
+.headline .w { display: inline-block; white-space: pre; will-change: transform, opacity, filter; }
+.headline .hl { color: var(--orange); }
+.headline .dim { color: #8f9a9c; }
+.sub { font-size: 40px; font-weight: 500; line-height: 1.35; color: var(--muted-light); letter-spacing: -.01em; }
+.mono { font-family: 'JetBrains Mono', monospace; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.caveat { font-family: 'Caveat', cursive; font-weight: 700; }
+
+/* Panel grafito con borde naranja (article-header) */
+.panel { position: absolute; background: var(--graphite-2); border-left: 14px solid var(--orange); border-radius: 6px; box-shadow: 0 30px 70px rgba(0,0,0,.45); }
+.panel-cream { position: absolute; background: var(--cream-2); border-radius: 6px; color: var(--ink); box-shadow: 0 30px 70px rgba(0,0,0,.35); border-top: 8px solid var(--orange); }
+
+/* Sticker manuscrito */
+.sticker { position: absolute; background: rgba(28,34,37,.92); border: 2px solid rgba(255,115,40,.75); border-radius: 10px; padding: 18px 30px; font-family: 'Caveat', cursive; font-weight: 700; font-size: 58px; line-height: 1.1; color: #fff; text-align: center; box-shadow: 0 16px 40px rgba(0,0,0,.45); white-space: nowrap; }
+.sticker.light { background: rgba(255,254,250,.96); color: var(--ink); border-color: var(--orange); }
+
+/* Tabla de specs */
+.spec { position: absolute; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 0 28px; padding: 22px 34px; border-bottom: 2px solid rgba(255,255,255,.08); }
+.spec .k { font-size: 30px; font-weight: 600; color: #b5bfbd; letter-spacing: -.01em; }
+.spec .v { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 38px; text-align: right; min-width: 240px; white-space: nowrap; }
+.spec .v.same { color: #8f9a9c; }
+.spec .v.diff { color: var(--orange); }
+.spec.cream { border-bottom-color: var(--border); }
+.spec.cream .k { color: #4e595b; }
+.spec.cream .v.same { color: #6a7476; }
+.spec.cream .v.diff { color: #c2410c; }
+
+/* Chips */
+.chip { display: inline-flex; align-items: center; gap: 14px; padding: 14px 24px; border-radius: 6px; font-size: 30px; font-weight: 800; letter-spacing: .02em; white-space: nowrap; }
+.chip.orange { background: var(--orange); color: #182023; }
+.chip.ghost { background: rgba(255,255,255,.07); border: 2px solid rgba(255,255,255,.14); color: #fff; }
+.chip.cream { background: var(--cream-3); color: #7a310b; border: 2px solid #ddd8cf; }
+
+/* Botón */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 18px; background: var(--orange); color: #182023; font-weight: 800; font-size: 34px; letter-spacing: .07em; text-transform: uppercase; padding: 30px 48px; border-radius: 8px; white-space: nowrap; }
+
+/* Lista de verificación */
+.check { display: flex; align-items: flex-start; gap: 24px; font-size: 40px; font-weight: 600; line-height: 1.2; letter-spacing: -.02em; }
+.check .box { flex: 0 0 auto; width: 54px; height: 54px; border: 4px solid var(--orange); border-radius: 8px; display: grid; place-items: center; margin-top: 2px; }
+.check .box svg { width: 34px; height: 34px; }
+.check.bad .box { border-color: #e11d48; }
+
+/* Barra de progreso y marca */
+#progress { position: absolute; left: 0; top: 0; height: 10px; background: var(--orange); width: 0; z-index: 50; box-shadow: 0 0 24px rgba(255,90,10,.6); }
+#brand { position: absolute; left: 72px; right: 72px; top: 150px; display: flex; align-items: center; justify-content: space-between; z-index: 40; }
+#brand img { height: 64px; display: block; filter: drop-shadow(0 6px 18px rgba(0,0,0,.5)); }
+#brand .url { font-size: 28px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #cfd6d5; }
+#brand .url b { color: var(--orange); }
+
+#flash { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 60; }
+#grain { position: absolute; inset: -200px; opacity: .085; z-index: 55; background-repeat: repeat; mix-blend-mode: overlay; }
+#wipe { position: absolute; inset: -40% -60%; z-index: 45; background: var(--orange); transform: translateX(-200%) skewX(-18deg); }
+#wipe2 { position: absolute; inset: -40% -60%; z-index: 44; background: var(--graphite-3); transform: translateX(-200%) skewX(-18deg); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="world"></div>
+  <div id="wipe2"></div>
+  <div id="wipe"></div>
+  <div id="grain"></div>
+  <div id="flash"></div>
+  <div id="progress"></div>
+  <div id="brand"><img id="brand-logo" alt=""><div class="url">tallerlab<b>.com.ar</b></div></div>
+</div>
+<script type="module">
+import { Engine } from './engine.js';
+import { REELS } from './reels.mjs';
+window.__engine = new Engine(document.getElementById('stage'));
+window.REELS = REELS;
+window.loadReel = async (id) => {
+  const def = REELS.find(r => r.id === id);
+  if (!def) throw new Error('reel desconocido: ' + id);
+  await window.__engine.load(def);
+  return { duration: def.duration, fps: def.fps || 30, events: window.__engine.events, music: def.music, title: def.title };
+};
+window.seek = (t) => window.__engine.seek(t);
+window.listReels = () => REELS.map(r => ({ id: r.id, title: r.title, duration: r.duration }));
+window.__ready = true;
+</script>
+</body>
+</html>
