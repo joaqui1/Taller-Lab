@@ -10,6 +10,7 @@ on:
     paths:
       - 'observatorio/gratuito.py'
       - 'observatorio/estatico.py'
+      - 'observatorio/publication_health.py'
       - 'observatorio/piloto_gratuito.json'
       - 'observatorio/guias_por_modelo.json'
       - 'observatorio/requirements-gratuito.txt'
@@ -17,6 +18,7 @@ on:
       - 'assets/observatorio-gratuito.*'
       - 'assets/datos/precios-observatorio.json'
       - 'tests/test_observatorio_gratuito.py'
+      - 'tests/test_observatorio_publication_health.py'
       - '.github/workflows/observatorio-gratuito.yml'
 
 concurrency:
@@ -28,6 +30,8 @@ permissions:
 
 jobs:
   build:
+    outputs:
+      finished_at: ${{ steps.capture.outputs.finished_at }}
     # Nunca consumir minutos pagos de un repositorio privado.
     if: github.event.repository.private == false
     runs-on: ubuntu-latest
@@ -43,7 +47,9 @@ jobs:
       - name: Instalar solo las dependencias gratuitas
         run: python -m pip install -r observatorio/requirements-gratuito.txt
       - name: Probar la captura y publicación
-        run: python -m unittest discover -s tests -p test_observatorio_gratuito.py -v
+        run: |
+          python -m unittest discover -s tests -p test_observatorio_gratuito.py -v
+          python -m unittest discover -s tests -p test_observatorio_publication_health.py -v
       - name: Recuperar el historial durable
         shell: bash
         run: |
@@ -56,12 +62,20 @@ jobs:
             cp assets/datos/precios-observatorio.json _state/precios-observatorio.json
           fi
       - name: Capturar y generar las páginas
+        id: capture
         env:
           PYTHONUNBUFFERED: '1'
           REPOSITORY_NAME: ${{ github.event.repository.name }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
           python -m observatorio.gratuito --history _state/precios-observatorio.json --output _site --base-path "/$REPOSITORY_NAME" --site-url "https://$REPOSITORY_OWNER.github.io" --canonical-url "https://www.tallerlab.com.ar"
+          python - <<'PY'
+          import json, os
+          with open('_site/estado.json') as source:
+              report = json.load(source)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('finished_at=' + report['run']['finished_at'] + '\n')
+          PY
       - name: Guardar solo el historial público en su rama
         shell: bash
         run: |
@@ -98,6 +112,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v7
       - name: Publicar incluso los estados agotados o sin verificación
         id: deployment
         uses: actions/deploy-pages@v5
@@ -117,16 +132,24 @@ jobs:
       - name: Verificar el resultado publicado
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_FINISHED_AT: ${{ needs.build.outputs.finished_at }}
         run: |
           python - <<'PY'
-          import json, os, urllib.request
-          from datetime import datetime, timezone
-          url = os.environ['PAGE_URL'].rstrip('/') + '/estado.json'
-          with urllib.request.urlopen(url, timeout=30) as response:
-              report = json.load(response)
-          run = report['run']
-          age = (datetime.now(timezone.utc) - datetime.fromisoformat(run['finished_at'])).total_seconds()
-          print(json.dumps(report, ensure_ascii=False, indent=2))
-          if run['status'] != 'ok' or report['unverified'] or report['stale'] or age > 48*3600:
-              raise SystemExit('Publicado con datos degradados: revisar los errores de captura. Los precios sin verificación se ocultan.')
+          import json, os, time, urllib.request, urllib.parse
+          from observatorio.publication_health import publication_warning
+          expected = os.environ['EXPECTED_FINISHED_AT']
+          url = os.environ['PAGE_URL'].rstrip('/') + '/estado.json?run=' + urllib.parse.quote(expected)
+          for attempt in range(6):
+              try:
+                  with urllib.request.urlopen(url, timeout=30) as response:
+                      report = json.load(response)
+                  warning = publication_warning(report, expected)
+                  print(json.dumps(report, ensure_ascii=False, indent=2))
+                  if warning:
+                      print('::warning::' + warning)
+                  break
+              except (ValueError, KeyError, OSError) as error:
+                  if attempt == 5:
+                      raise SystemExit('No se verificó la publicación actual: ' + str(error))
+                  time.sleep(5)
           PY
