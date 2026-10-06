@@ -473,7 +473,9 @@ ARTICLE_AFFILIATE_SHELVES.update({path: () for path in SIERRAS_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in SOLDADORAS_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({path: () for path in TALADROS_OFFERS})
 ARTICLE_AFFILIATE_SHELVES.update({f'/compresores/{slug}/': () for slug in ('manguera', 'acoples-rapidos', 'aceite', 'filtros')})
-AFFILIATE_URLS = {item[2] for group in AFFILIATE_PRODUCTS.values() for item in group}
+from contenido_publico import es_enlace_afiliado
+AFFILIATE_URLS = {item[2] for group in AFFILIATE_PRODUCTS.values() for item in group
+                  if es_enlace_afiliado(item[2])}
 CLICK_LOG = ROOT_DIR / "affiliate-clicks.jsonl"
 CLICK_LOCK = Lock()
 
@@ -543,8 +545,7 @@ def render_50l_models():
         if local_photo:
             image, image_source = local_photo['image'], local_photo['source']
         photo = f'<img src="{escape(image, quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="800" height="800" loading="lazy" decoding="async">' if image else '<span class="offer-no-photo">Foto no disponible</span>'
-        search_url = 'https://listado.mercadolibre.com.ar/' + urllib.parse.quote(f'compresor {brand} {model}', safe='')
-        cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p><div class="offer-actions"><a class="offer-button" href="{escape(search_url, quote=True)}" target="_blank" rel="nofollow noopener noreferrer">Buscar modelo en Mercado Libre ↗</a></div></article>'
+        cards += f'<article class="offer-card model-card"><div class="offer-card-top"><span>COMPRESOR DE 50 L</span><span>MODELO DOCUMENTADO</span></div><div class="offer-photo">{photo}</div><h3>{escape(brand)} · {escape(model)}</h3><p class="offer-description">{escape(use)}</p><ul class="offer-specs">{"".join(f"<li>{escape(spec)}</li>" for spec in specs)}</ul><p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p></article>'
     return f'<section class="documented-models" aria-label="Modelos de compresor de 50 litros"><div class="affiliate-heading"><div><span class="section-kicker">OPCIONES PARA ESTA GUÍA</span><h2>Compará compresores de 50 litros</h2></div><p>Modelos y datos de fichas de fabricante. Comprobá la variante, el caudal útil y el contenido del aviso antes de comprar.</p></div><div class="offer-grid">{cards}</div></section>'
 
 TAXONOMY_MAP = {
@@ -1497,10 +1498,14 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
         power = facts["power"] if facts else "Alimentación a verificar"
         specs = facts["specs"] if facts else UNVERIFIED_SPECS.get(category, ["Ficha técnica no informada"])
         includes = facts["includes"] if facts else "Contenido del kit a confirmar en la publicación"
-        affiliate = url in AFFILIATE_URLS
+        affiliate = url in AFFILIATE_URLS and es_enlace_afiliado(url)
         action_rel = 'nofollow sponsored noopener noreferrer' if affiliate else 'noopener noreferrer'
         placement_name = (editorial or {}).get('placement', 'shelf-'+section_id)
         placement = f' data-affiliate-placement="{escape(placement_name, quote=True)}"' if affiliate else ''
+        cta_label = (ctas or {}).get(url, (facts or {}).get('cta',
+                     f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre'))
+        purchase_button = (f'<a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="{action_rel}"{placement}>{escape(cta_label)} ↗</a>'
+                           if affiliate else '')
         if facts and facts.get("image") and not facts.get("illustrative"):
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
         else:
@@ -1522,7 +1527,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
           <p class="offer-includes"><strong>Incluye:</strong> {escape(includes)}</p>
           {source}
           <div class="offer-actions">
-            <a class="offer-button" href="{escape(url, quote=True)}" target="_blank" rel="{action_rel}"{placement}>{escape((ctas or {}).get(url, (facts or {}).get('cta', f'Ver precio de {brand} {model}' if category == 'hidrolavadoras' else 'Ver precio en Mercado Libre') if affiliate else (facts or {}).get('cta', 'Ver ficha del fabricante')))} ↗</a>
+            {purchase_button}
             <a class="offer-guide" href="{escape(guide, quote=True)}">Leer guía →</a>
           </div>
           {'<label class="compare-select"><input type="checkbox" class="compare-checkbox"> Comparar</label>' if type_counts[compare_type] >= 2 else ''}
