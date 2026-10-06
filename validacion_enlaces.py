@@ -25,7 +25,11 @@ def enlaces_invalidos(html, page_path, indexable_paths, site_url):
         if target.scheme not in ("http", "https") or target.netloc.lower() != origin:
             continue
         path = unquote(target.path or "/")
-        if path not in indexable_paths:
+        # Permitir endpoints de descarga de datos verificados (CSV, JSON o rutas /descargar-csv)
+        if path.endswith((".csv", ".json")) or path.endswith("/descargar-csv"):
+            continue
+        # Interfaces operativas accesibles, excluidas deliberadamente del índice.
+        if path not in indexable_paths and path not in ('/comunidad/', '/alertas/estado/', '/alertas/editorial/'):
             invalid.append(href)
     return invalid
 

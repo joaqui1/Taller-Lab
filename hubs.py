@@ -49,6 +49,17 @@ COMPRESSOR_HUB_FILES = {
     ],
 }
 
+HUB_COVER_COPY = {
+    "generadores": "Energía para tus proyectos. Compará potencia, arranque y combustible, y encontrá el equipo adecuado para las cargas que necesitás alimentar.",
+    "compresores": "Aire para cada trabajo. Compará caudal, capacidad y alimentación para elegir un compresor que acompañe a tus herramientas.",
+    "hidrolavadoras": "Encontrá tu próxima hidrolavadora. Compará presión de trabajo, caudal y accesorios según lo que necesitás limpiar.",
+    "amoladoras": "Del material al disco adecuado. Explorá equipos para cortar, desbastar y pulir, y compará sus medidas y funciones.",
+    "taladros": "La herramienta adecuada para cada material. Compará taladros, percutores y atornilladores según tu próximo trabajo.",
+    "sierras": "Cada corte empieza con una buena elección. Explorá tipos de sierras, capacidades y hojas para trabajar madera o metal.",
+    "soldadoras": "Elegí el proceso para tu proyecto. Compará equipos, corriente y ciclo de trabajo, y encontrá los consumibles compatibles.",
+    "soldadura-electronica": "Equipá tu mesa de reparación. Compará cautines, estaciones de aire caliente y accesorios para trabajar sobre placas.",
+}
+
 HUB_EDITORIAL = {
     "hidrolavadoras": {
         "page_title": "Hidrolavadoras: guías, marcas y comparativas",

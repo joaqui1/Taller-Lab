@@ -1,0 +1,1761 @@
+
+[PÁGINA 1]
+       | 2
+1 600 A00 9XF |  02.2015                               Skill Tools
+  1 | En
+1 600 A00 9XF |  02.2015                               Skill Tools
+ESMERILHADEIRA ANGULAR 9002 / 9004
+AMOLADORA ANGULAR 9002 / 9004
+DE GARANTIA
+24 MESESpt  Manual de instruções 
+es   Instrucciones de servicio
+Robert Bosch Limitada
+Divisão de Ferramentas Elétricas
+Via Anhanguera, km 98
+CEP 13065-900 – Campinas – SP
+Brasil
+www.skil-la.com
+1 600 A00 9XF  (2015.02)
+Gabarito_Ferrramentas Elétricas.indd   1-2 13/02/15   17:16
+
+
+[PÁGINA 2]
+  2 | 
+1 600 A00 9XF |  02.2015                               Skil tools
+A
+B
+ 
+E
+B  
+C 
+F  
+G
+ 
+D
+ 
+H
+ 
+J
+  
+J
+I
+ 
+K 
+1
+Manual IB 9002-9004 Skil.indd   2 12/03/15   16:20
+
+[PÁGINA 3]
+       | 3
+1 600 A00 9XF |  02.2015                               Skil tools
+ 
+K 
+E 
+ 
+ 
+2
+4
+3
+Manual IB 9002-9004 Skil.indd   3 12/03/15   16:20
+
+[PÁGINA 4]
+  4 | 
+1 600 A00 9XF |  02.2015                               Skil tools
+9004.indd 4 11:39:03 
+30º-40º
+ 
+ 
+a
+ 
+b
+  
+c
+ 
+ 
+  
+ 
+ 
+STOPSTOP
+5
+6
+8
+9
+7
+Manual IB 9002-9004 Skil.indd   4 12/03/15   16:20
+
+[PÁGINA 5]
+       Pt | 5
+1 600 A00 9XF |  02.2015                               Skil tools
+Português
+Intodução
+As esmerilhadeiras SKIL são ferramentas d esenvolvidas 
+para executar os mais variados tipos de serviços de 
+desbaste e corte em materiais fer rosos, não ferrosos 
+e cortes em materiais de alv enaria (tijolo, materiais 
+cerâmicos, piso, porcelan ato, etc..). Madeira e materiais 
+plásticos não são perm itidos para serem executados com 
+esta ferramenta. As esmerilhadeiras, mediante a ad aptação 
+de acessórios especiais, presta -se ainda a serviços de lixar 
+Esta ferramenta deve ser ut ilizada somente para trabalhos 
+à seco.
+Para sua segurança na re alização das operações 
+de corte, d eve ser utilizada a capa de proteção 
+adequada, onde somente a parte da área do di sco de 
+Leia e guarde este manual de instruç ões.. 
+Simbolos
+ u Leitura obrigatória
+ u Simbolo para classe de proteção II 
+(Completamente iso lada).
+ u Usar uma máscara de 
+proteção contra pó.
+ u Usar óculos de proteção.
+ u Usar proteção auricular. Ruídos 
+podem provocar surdez.
+Simbolo
+Esmerilhadeira 9002* 9004*
+Tipo nº
+Potência
+Frequência
+Rotação em vazio
+Consumo  127 V
+                 220 V
+[W]
+[Hz]
+[A]
+[A]
+[/min]
+F0129002...
+700 830
+50/60 50 /60
+5,8 6,8
+3,3 3,9
+11.000 11 .000
+F0129004...
+Eixo de trabalho - rosca*
+Classe de proteção
+Peso Conforme EPTA
+01/2003
+Capacidade do disco ø
+Desbaste/corte
+[mm]
+[mm]
+[Kg]
+115(4 1/2”) 115(4 1/2”)
+M 14x2
+1,7 ---
+M 14x2
+/|| /||
+* Para países Amér ica Central, eixo de traba lho com rosca 5 /8”.
+* Para versão Arge ntina  9002AR / 9004AR
+Esmerilhadeira 9002* 9004*
+Elementos da ferramenta (Figura 1)
+A  Interruptor Liga/Desliga com função trava
+B  Aberturas de ve ntilação
+C  Empunhadeira auxiliar
+D  Capa de Proteção
+E  Botão Trava do Eixo
+F  Fuso
+G  Flange de apoio
+H  Disco de desbaste*
+I    Disco de corte*
+J   Porca de aperto
+K   Chave de dois pinos
+L
+M  Chave Philips*
+* Acessórios apresenta dos ou descritos podem não acompanhar 
+o produto.
+Instruções gerais de segurança para
+ferramentas elétricas
+ATENÇÃO! Leia todos os avisos de segurança e 
+todas as instruções. Falha em seguir todos os avisos e 
+instruções listados abaixo pode resultar em choque elétrico, 
+fogo e/ou em ferimento sério.
+Guarde todos os avisos e instruções para futuras consultas.
+O termo “ferramenta” em todos os avisos listados abaixo 
+referem-se a ferramenta alimentada através de seu cordão de 
+alimentação ou a ferramenta operada a bateria (sem cordão).
+Segurança da área de trabalho
+ u Mantenha a área de t rabalho limpa e ilumina da. As 
+áreas  desorganizadas e escuras são um convite aos 
+acidentes.
+ u Não opere ferramentas em at mosferas explosivas, 
+poeira. As ferramentas criam faí scas que podem 
+ u Mantenha cria nças e visitantes afasta dos ao operar 
+uma ferramenta. As distrações podem fazer você 
+perder o controle.
+Segurança elétrica
+ u Os plugues da fe rramenta devem ser compatíveis 
+Não use 
+nenhum plugue adaptador com as ferramentas 
+utilização de tomadas compatíveis reduzem o risco de 
+choque elétrico.
+Manual IB 9002-9004 Skil.indd   5 12/03/15   16:20
+
+[PÁGINA 6]
+  6 | Pt
+1 600 A00 9XF |  02.2015                               Skil tools
+ u Evite o contato do corpo com superfícies ligadas à 
+terra ou aterradas tais como as tubulações, 
+radiadores, fornos e refrigeradores. Há um aumento 
+no risco de choque elétrico se seu corpo for ligado à 
+terra ou aterramento.
+ u Não exponha a ferramentas à chuva ou às condições 
+úmidas. A água entrando na ferramenta aumenta o 
+risco de choque elétrico.
+ u Não force o cordão de alimentação. Nunca use o 
+cordão de alimentação para carregar, puxar ou o 
+para desconectar a ferramenta da tomada. 
+Mantenha o cabo elétrico longe do calor, óleo, 
+bordas afiadas ou das partes em movimentos.  Os 
+cabos danificados ou emaranhados aumentam o risco 
+de choque elétrico.
+ u Ao operar uma ferramenta ao ar livre, use um cabo 
+de extensão apropriado para o uso ao ar livre.  O uso 
+de um cabo apropriado ao ar livre reduz o risco de 
+choque elétrico.
+ u Se a operação de uma ferramenta em um local 
+seguro não for possível, use alimentação protegida 
+por um dispositivo de corrente residual (DR).  O uso 
+de um DR reduz o risco de choque elétrico.
+Segurança pessoal
+ u Fique atento, olhe o que você está fazendo e use o 
+bom senso ao operar uma ferramenta. Não use a 
+ferramenta quando você estiver cansado ou sob a 
+influência de drogas, álcool ou de medicamentos. 
+Um momento de desatenção enquanto opera uma 
+ferramenta pode resultar em grave ferimento pessoal.
+ u Use equipamento de segurança. Sempre use óculos 
+de segurança. O equipamento de segurança tal como a 
+máscara contra a poeira, sapatos de segurança 
+antiderrapantes, capacete de segurança, ou protetor 
+auricular utilizados em condições apropriadas reduzirão 
+os riscos de ferimentos pessoais .
+ u Evite a partida não intencional. Assegure que o 
+interruptor está na posição desligada antes de 
+conectar o plugue na tomada e/ou bateria, pegar ou 
+carregar a ferramenta. Carregar as ferramentas com 
+seu dedo no interruptor ou conectar as ferramentas que 
+apresentam interruptor na posição “ligado” são convites 
+a acidentes.
+ u Remova qualquer chave de ajuste antes de ligar a 
+ferramenta.  Uma chave de boca ou de ajuste 
+conectada a uma parte rotativa da ferramenta pode 
+resultar em ferimento pessoal.
+ u Não force além do limite. Mantenha o apoio e o 
+equilíbrio adequado toda vez que utilizar a 
+ferramenta. Isto permite melhor controle da ferramenta 
+em situações inesperadas.
+ u Vista-se apropriadamente. Não use roupas 
+demasiadamente largas ou jóias. Mantenha seus 
+cabelos, roupas e luvas longe das peças móveis. A 
+roupa folgada, jóias ou cabelos longos podem ser 
+presos pelas partes em movimento.
+ u Se os dispositivos são fornecidos com conexão para 
+extração e coleta de pó, assegure que estes estão 
+conectados e utilizados corretamente. O uso destes 
+dispositivos pode reduzir riscos relacionados a poeira.
+Uso e cuidados da ferramenta
+ u Não force a ferramenta. Use a ferramenta correta 
+para sua aplicação. A ferramenta correta faz o 
+trabalho melhor e mais seguro se utilizada dentro 
+daquilo para a qual foi projetada.
+ u Não use a ferramenta se o interruptor não ligar e 
+desligar. Qualquer ferramenta que não pode ser 
+controlada com o interruptor é perigosa e deve ser 
+reparada.
+ u Desconecte o plugue da tomada antes de fazer 
+qualquer tipo de ajuste, mudança de acessórios ou 
+armazenamento de ferramentas.  Tais medidas de 
+segurança preventivas reduzem o risco de se ligar a 
+ferramenta acidentalmente.
+ u Guarde as ferramentas fora do alcance das crianças 
+e não permita que pessoas não familiarizadas com 
+a ferramenta ou com estas instruções operem a 
+ferramenta ou com estas instruções operem a 
+ferramenta. As ferramentas são perigosas nas mãos 
+de usuários não treinados.
+ u Manutenção das ferramentas. Cheque o 
+desalinhamento ou coesão das partes móveis, 
+rachaduras e qualquer outra condição que possa 
+afetar a operação da ferramenta. Se danificada, a 
+ferramenta deve ser reparada antes do uso.  Muitos 
+acidentes são causados pela inadequada manutenção 
+das ferramentas.
+ u Mantenha ferramentas de corte afiadas e limpas.  A 
+manutenção apropriada das ferramentas de corte com 
+lâminas afiadas tornam estas menos prováveis ao 
+emperramento e são mais fáceis de controlar.
+ u Use a ferramenta, acessórios, suas partes etc. de 
+acordo com as instruções e na maneira designada 
+para o tipo particular da ferramenta, levando em 
+consideração as condições e o trabalho a ser 
+desempenhado.  O uso da ferramenta em operações 
+diferentes das designadas podem resultar em situações 
+de risco. 
+Reparos
+ u Tenha sua ferramenta reparada por uma assistência 
+técnica autorizada e somente use peças originais. 
+Isto assegura que a segurança da ferramenta s e j a 
+mantida.
+ u Em caso de desgaste da escovas de carvão, enviar a 
+ferramenta a uma assistência técnica autorizada 
+para substituição. Escovas de carvão fora das 
+especificações causam danos ao motor da ferramenta e 
+redução da vida útil.
+ u Se o cabo de alimentação se encontra danificado, 
+deve ser substituído pelo fabricante, através de seu 
+serviço técnico autorizado ou pessoa devidamente 
+qualificada para prevenir risco de choque elétrico.
+Manual IB 9002-9004 Skil.indd   6 12/03/15   16:20
+
+[PÁGINA 7]
+       Pt | 7
+1 600 A00 9XF |  02.2015                               Skil tools
+Avisos de Segurança
+Avisos de segurança comuns para esmerilhamento, 
+lixamento, escovação com escova de fios de aço, ou 
+operações de corte abrasivo:
+ u Esta ferramenta é prevista para funcionar como 
+uma esmerilhadeira, lixadeira, escovadeira com 
+escova de fios de aço tipo copo, ou ferramenta de 
+corte. Leia todos os avisos de segurança, instruções, 
+ilustrações e especificações fornecidas com esta 
+ferramenta. A  falha em não seguir todas as instruções 
+listadas abaixo pode resultar em choque elétrico, fogo 
+e/ou ferimentos sérios.
+ u Operações de polimento, corte em concreto , corte 
+em madeira e corte de materiais plásticos não são 
+recomendadas para ser executada com esta 
+ferramenta. Operações para as quais a ferramenta não 
+foi projetada podem gerar risco e causar ferimento 
+pessoal.
+ u Não use acessórios de trabalho que não foram 
+especificamente projetados e recomendados pelo 
+fabricante da ferramenta.  O fato de o acessório de 
+trabalho poder ser montado em sua ferramenta não 
+assegura uma operação segura.
+ u A velocidade nominal do acessório de trabalho deve 
+ser pelo menos igual à máxima velocidade marcada 
+na ferramenta. Acessórios de trabalho funcionando em 
+uma velocidade acima de sua velocidade nominal 
+podem quebrar e serem arremessados.
+ u A diâmetro externo e a espessura de seu acessório 
+de trabalho devem estar dentro da capacidade 
+nominal da ferramenta.  Acessórios de trabalho de 
+tamanhos incorretos podem não ser protegidos e 
+controlados adequadamente.
+ u Montagem de acessórios roscados devem ser 
+compatíveis com a rosca do fuso.Para acessórios 
+montados por flanges, a dimensão do alojamento dos 
+acessórios de trabalho, devem ser compatíveis com 
+o eixo da ferramenta. Acessórios de trabalho com furos 
+dos alojamentos incompatíveis com a montagem física da 
+ferramenta girarão desbalanceados, vibrarão 
+excessivamente e podem causar perda de controle.
+ u Não use um acessório de trabalho danificado. Antes 
+de cada uso inspecione o acessório de trabalho, 
+verifique lascas e trincas nos rebolos ou discos, 
+trincas e rasgos ou desgaste excessivos nos discos 
+de apoio, afrouxamento ou fios trincados nas 
+escovas de fios de aço. Se a ferramenta ou o 
+acessório de trabalho sofreu queda, inspecione se 
+há danos ou instale um acessório de trabalho não 
+danificado. Após inspecionar e instalar um 
+acessório se posicione e mantenha observadores 
+longe do plano do acessório de trabalho rotativo e 
+opere a ferramenta na máxima velocidade sem 
+carga por um minuto.  Acessórios danificados 
+normalmente quebrarão durante este tempo de ensaio.
+ u Use equipamento de proteção individual. 
+Dependendo da aplicação, use protetor facial, luvas 
+de segurança e óculos de segurança. Quando 
+apropriado, use mascara contra pó, protetores 
+auriculares, luvas e avental capaz de bloquear 
+pequenos abrasivos ou fragmentos da peça de 
+trabalho. O protetor ocular deve ser capaz de bloquear 
+fragmentos arremessados gerados pelas várias 
+operações. A mascara contra pó ou respirador deve 
+capaz de filtrar as partículas geradas pela operação. A 
+exposição prolongada a altos níveis de ruído pode 
+causar perda auditiva.
+ u Mantenha os observadores a uma distancia segura 
+da área de trabalho. Qualquer pessoa que entre na 
+área de trabalho deve usar equipamento de proteção 
+individual. Fragmentos da peça de trabalho ou de um 
+acessório de trabalho quebrado podem ser arremessados 
+além da área de operação e causar ferimentos.
+ u Segure a ferramenta elétrica somente pelas 
+superfícies isoladas da empunhadura ao executar 
+uma operação onde o acessório de corte pode 
+entrar em contato com uma fiação oculta ou seu 
+próprio cordão de alimentação. Acessório de corte 
+que entra em contato com um fio energizado pode 
+tornar “vivas” partes metálicas expostas da ferramenta 
+e pode causar choque elétrico ao operador.
+ u Posicione o cordão afastado do acessório rotativo.  
+Se você perder o controle, o cordão pode ser cortado ou 
+enroscado e sua mão ou braço pode ser puxado ao 
+encontro do acessório rotativo.
+ u Nunca repouse a ferramenta até que o acessório de 
+trabalho pare completamente. O acessório de 
+trabalho rotativo pode agarrar na superfície e causar a 
+perda de controle da ferramenta .
+ u Não ligue a ferramenta enquanto estiver 
+tranportando- a. O contato acidental com o acessório 
+de trabalho rotativo pode enroscar sua roupa, puxando 
+o acessório de trabalho de encontro ao seu corpo.
+ u Limpe regularmente os orifícios de ventilação da 
+ferramenta. A ventoinha do motor carrega a poeira 
+para dentro da carcaça e o acúmulo excessivo de pó 
+metálico pode causar riscos elétricos.
+ u Não opere a ferramenta próximo a materiais 
+inflamáveis. Faíscas podem inflamar esses materiais.
+ u Não use acessórios de trabalho que requerem 
+líquidos para resfriamento. O uso de água ou outro 
+liquido para resfriamento pode resultar em eletrocussão 
+ou choque elétrico.
+Contra-Golpe e Avisos Relacionados
+O contra-golpe é uma reação repentina à compressão ou 
+bloqueio de um rebolo ou disco rotativo, disco de apoio, 
+escova de fios de aço ou qualquer outro acessório. O 
+travamento ou bloqueio levam a uma parada abrupta 
+do acessório em rotação, desta forma, uma ferramenta 
+descontrolada é forçada na direção oposta do acessório 
+rotativo no ponto de contato.
+Por exemplo, se um rebolo ou disco abrasivo é comprimido 
+Manual IB 9002-9004 Skil.indd   7 12/03/15   16:20
+
+[PÁGINA 8]
+  8 | Pt
+1 600 A00 9XF |  02.2015                               Skil tools
+ou bloqueado numa peça de trabalho, a borda do rebolo ou 
+disco abrasivo que está entrando no ponto de compressão 
+pode cavar a superfície do material levando o rebolo ou 
+disco abrasivo a subir ou rebater. O rebolo ou disco abrasivo 
+pode tanto pular na direção do operador ou oposto a ele, 
+dependendo da direção de movimento do rebolo ou disco 
+abrasivo no ponto de bloqueio. Rebolos ou discos abrasivos 
+podem também quebrar-se nestas condições.
+O contra-golpe é o resultado do mau uso e/ou rocedimentos
+ou condições de operação incorretas e pode ser evitado
+tomando precações adequadas como dadas abaixo:
+ u Segurar firmemente a ferramenta elétrica e 
+posicionar seu corpo e braço de forma a permitir 
+que você resista às forças de contra-golpe. Sempre 
+use empunhadura auxiliar, se fornecida, para o 
+máximo controle sobre as forças de contra-golpe 
+ou reações pelo torque durante a partida.  O operador 
+pode controlar as reações de torque ou forças de 
+contra-golpe, se precauções adequadas são tomadas.
+ u Nunca posicione sua mão próxima ao acessório de 
+trabalho em rotação.  O acessório de trabalho pode 
+contra-golpear sobre sua mão.
+ u Não posicione seu corpo na área onde a ferramenta 
+elétrica irá se deslocar no caso de um contra-golpe.  
+O contra-golpe levará a ferramenta na direção oposta 
+ao movimento do rebolo ou disco abrasivo no momento 
+do bloqueio.
+ u Cuidado especial ao trabalhar cantos, quinas, etc. 
+Evite ricochetear e bloquear o acessório de 
+trabalho. Cantos, quinas ou ricocheteamento tem a 
+tendência de bloquear o acessório de trabalho rotativo e 
+causar a perda de controle ou contra-golpe.
+ u Não acople uma lamina de serra para entalhar madeira 
+ou lamina de serra dentada. Tais lâminas levam 
+freqüentemente ao contra-golpe e perda de controle.
+Avisos de Segurança Específicos para Operações de
+Esmerilhamento e Corte Abrasivo
+ u Use somente tipos de disco abrasivos que são 
+recomendados para sua ferramenta elétrica e a 
+capa de proteção específica para o disco abrasivo 
+selecionado. Discos abrasivos para os quais a 
+ferramenta elétrica não foi projetada não podem ser 
+adequadamente protegidos e não são seguros.
+ u A superficie de desbaste do centro inferior deve ser 
+montada abaixo da borda da capa de proteção. Um 
+disco montado de forma inadequada se projeta através 
+da borda da capa de proteção e protege o usuário 
+adequadamente.
+ u A capa de proteção deve estar corretam ente fixada 
+na ferramenta elétrica e posicionada para a máxima 
+segurança, dessa forma a menor área do disco 
+abrasivo é exposta ao operador. A capa de proteção 
+ajuda a proteger o operador contra fragmentos quebrados 
+do disco abrasivo, contato acidental com o disco abrasivo 
+e faíscas que podem incendiar a vestimenta.
+ u Os discos abrasivos devem ser utilizados somente 
+para as aplicações recomendadas. Por exemplo: 
+Não esmerilhe com a face lateral do disco de corte.  
+Discos abrasivos de corte são previstos para 
+esmerilhamento periférico, forças laterais aplicadas a 
+estes discos podem estilhaçar-se.
+ u Sempre use flanges de discos abrasivos não 
+danificadas de dimensão e formato correto para o 
+seu disco selecionado.  Flanges de discos abrasivos 
+adequadas suportam o disco abrasivo de forma a reduzir 
+a possibilidade de quebra do disco abrasivo. Flanges para 
+discos abrasivos de corte podem ser diferentes das 
+flanges de discos abrasivos de esmerilhar.
+ u Não use discos abrasivos desgastados de 
+ferramentas maiores.  O disco abrasivo previsto para 
+uma ferramenta maior não é adequado para a 
+velocidade mais alta de uma ferramenta menor e pode 
+romper-se.
+Avisos de Segurança Adicionais Específicos para
+Operações de Corte Abrasivo
+ u Não bloqueie ou aplique pressão excessiva no disco 
+abrasivo de corte. Não tente fazer um corte de 
+profundidade excessiva. Sobrecarregando o disco 
+abrasivo, aumenta a carga e a probabilidade de torção 
+ou puxamento do disco no corte e a possibilidade de 
+contra-golpe ou quebra do disco abrasivo.
+ u Não posicione seu corpo em linha ou atrás do disco 
+abrasivo em rotação.  Quando o disco, no ponto de 
+operação, está se distanciando do seu corpo, o possível 
+contra-golpe pode impulsionar o disco em rotação e a 
+ferramenta elétrica diretamente a você.
+ u Quando o disco abrasivo está puxando ou quando 
+interromper o corte por qualquer razão, desligue a 
+ferramenta elétrica e segure-a sem movê-la até que 
+o disco abrasivo pare completamente. Nunca tente 
+remover o disco do corte enquanto o disco está em 
+movimento, caso contrário pode ocorrer o contra-golpe. 
+Investigue e tenha ação corretiva para eliminar a causa 
+do puxamento do disco.
+ u Não reinicie a operação de corte na peça de 
+trabalho. Deixe o disco atingir a velocidade plena e 
+cuidadosamente reinicie o corte. O disco pode puxar, 
+subir ou ocasionar o contra-golpe se a ferramenta é 
+religada na peça de trabalho. 
+ u Apóie os painéis ou peças de trabalho de grandes 
+dimensões par a minimizar o risco de compressão do 
+disco abrasivo ou contra-golpe. Peças de trabalho 
+grandes tendem a vergar pelo seu próprio peso. Os 
+suportes de apoio devem estar localizados abaixo da 
+peça de trabalho, próximos a linha de corte e próximos as 
+bordas da peça de trabalho em ambos os lados do disco.
+ u Use precaução extra ao fazer um “corte de bolso” 
+em paredes ou qualquer outra área sem visão.  O 
+avanço do disco pode cortar o encanamento de gás ou 
+água, fiação elétrica ou objetos que podem causar o 
+contra-golpe.
+Manual IB 9002-9004 Skil.indd   8 12/03/15   16:20
+
+[PÁGINA 9]
+       Pt | 9
+1 600 A00 9XF |  02.2015                               Skil tools
+Avisos de Segurança Específicos para Operações
+de Lixamento
+ u Não use um disco de lixa de papel excessivamente 
+grande. Siga as recomendações do fabricante ao 
+selecionar as lixas de papel. Lixas grandes de papel que se 
+estendem além do suporte apresentam um risco de 
+dilaceração e podem causar bloqueios, rasgo do disco ou 
+contra-golpe.
+Avisos de Segurança Específicos para Operações
+de Escovação
+ u Esteja ciente que fragmentos de fios são lançados 
+pela escova mesmo durante operações comuns. Não 
+sobrecarregue os fios aplicando carga excessiva à 
+escova. Os fragmentos dos fios podem facilmente 
+penetrar nas roupas finas e/ou pele.
+ u Se o uso de uma capa de proteção for recomendado 
+para a escovação, não permita qualquer interferência 
+do disco ou escova de fios com a capa de proteção. 
+Discos e escovas de fios podem expandir seu diâmetro 
+devido acarga de trabalho e força centrífuga.
+Instruções Adicionais
+ u Utilize aparelhos detectores apropriados para 
+encontrar cabos elétricos, tubulação de água ou 
+gás, ou peça auxílio da empresa concessionária 
+local ou responsável pela obra. O contato com cabos 
+elétricos pode provocar incêndio e choque elétrico. O 
+dano de uma linha de gás pode levar a uma explosão. 
+Uma perfuração de um tubo de água provoca um dano 
+material ou pode provocar um choque elétrico.
+ u Destravar o interruptor de ligar/desligar e colocá-lo 
+na posição desligado se a alimentação de rede for 
+interrompida, devido a uma falha de corrente ou se 
+o plugue da rede tiver sido puxado da tomada. Assim 
+é evitado um rearranque descontrolado da ferramenta.
+Informação
+ u Utilize apenas as flanges fornecidos com a ferramenta.
+ u Esta ferramenta não deve ser utilizada por pessoas 
+menores de 16 anos.
+ u Desligue sempre a plugue da tomada antes de proceder 
+a qualquer ajustamento ou troca de acessório.
+Acessórios
+ u Para montar/usar acessórios de outras marcas que não 
+sejam SKIL, respeite as instruções do respectivo 
+fabricante.
+ u Nunca utilize redutores ou adaptadores para montar discos 
+de desbaste ou corte com um diâmetro do furo maior.
+ u Nunca utilize acessórios com uma abertura “interna” de 
+rosca inferior ao especificado.
+ u Este produto não foi projetado para utilizar disco com 
+diâmetros superiores ao 115mm.
+ u Discos de desbaste não devem possuir diâmetros 
+superiores a 115mm e espessura superior à 6mm.
+Utilização no Exterior
+ u Ligue a ferramenta utilizando um disjuntor de corrente de 
+falha (FI) com uma corrente de disparo de 30 mA no 
+máximo.
+Antes da Utilização
+ u Recomenda-se que, antes de usar a ferramenta pela 
+primeira vez, o utilizador receba informação prática.
+ u Não processar material que contenha amianto 
+(amianto é considerado como sendo cancerígeno).
+ u O pó do material, como tinta com chumbo, algumas 
+espécies de madeira, minerais e metais, pode ser 
+prejudicial (contato ou inalação do pó pode provocar 
+reações alérgicas e/ou doenças respiratórias ao operador 
+ou às pessoas presentes); use máscara respiratória e 
+trabalhe com um dispositivo de extração de pó com 
+acionamento automático ao ligar a ferramenta.
+ u Determinados tipos de pó são classificados como 
+substâncias cancerígenas (como pó de carvalho e faia), 
+em especial, juntamente com aditivos para conservação 
+da madeira. Use máscara respiratória e trabalhe com 
+um dispositivo de extração de pó com acionamento 
+automático ao ligar a ferramenta.
+ u Siga o regulamento nacional quanto a extração de pó, em 
+função dos materiais que serão utilizados.
+ u Tenha cuidado ao abrir ranhuras, especialmente em 
+paredes de apoio (as aberturas em paredes de apoio 
+estão sujeitas a regulamentações que variam de país 
+para país; tais regulamentações deverão ser respeitadas 
+em todas as circunstâncias). Este tipo de aplicação 
+destina-se apenas para o modelo 9004 e não aplicável ao 
+modelo 9002.
+ u Fixe a peça a trabalhar, caso ela não se mantenha 
+estacionária em virtude do seu próprio peso.
+ u Não fixe a ferramenta em uma morsa.
+ u Utilize extensões completamente desenroladas e seguras, 
+com uma capacidade compatível a corrente de utlização 
+do produto.
+Durante a Utilização
+ u Se o fio for danificado ou cortado durante o trabalho, não 
+toque no fio, mas retire imediatamente o plugue da 
+tomada; nunca utilize a ferramenta com o fio danificado.
+ u Em caso de anomalias elétricas ou mecânicas, desligue 
+imediatamente a ferramenta e retire o plugue da tomada.
+ u Em caso de interrupção na corrente ou se o plugue for 
+retirado da tomada por engano, destrave imediatamente 
+o interruptor on/off A (figura 1) de forma a impedir que a 
+ferramenta volte a ligar descontroladamente.
+Após a Utilização
+ u Depois de desligar a ferramenta, nunca pare o acessório 
+em rotação exercendo pressão lateral sobre o mesmo.
+Montagem
+Retirar o plugue da tomada antes de realizar qualquer 
+trabalho na ferramenta.
+Discos de Desbaste e Corte (Figura 2)
+Utilizar apenas acessórios com um número de 
+rotações que tenha no mínimo o número de rotações 
+em vazio da ferramenta.  A SKIL não se responsabiliza por 
+problemas que possam advir de uso inadequado ou 
+adaptações de acessórios, dispositivos ou outros não 
+Manual IB 9002-9004 Skil.indd   9 12/03/15   16:20
+
+[PÁGINA 10]
+  10 | Pt
+1 600 A00 9XF |  02.2015                               Skil tools
+especificados, desenvolvidos por terceiros para atender as 
+necessidades do consumidor.
+Nunca utilize um disco de desbaste/corte sem a 
+etiqueta de identificação que lhe está colada.
+Os discos de desbaste e de corte tornam-se muito 
+quentes durante o trabalho, não toque neles, antes que 
+tenham se esfriado.  
+– Limpe o fuso F e todas as peças que vão ser montadas. 
+Pressione o botão trava do eixo E. 
+– Aperte a porca de aperto J com a chave K.
+Quando o fuso F estiver bloqueado, o interruptor A 
+não deverá acionado.
+Nunca pressione a o botão trava do eixo E com o 
+motor em funcionamento porque danifica o sistema de 
+transmissão.  Para a desmontagem dos acessórios, 
+proceda ao inverso.
+Monte sempre um disco de borracha quando 
+utilizar acessórios como discos de lixa.  Verifique se o 
+acessório está em perfeitas condições de uso. Acessórios 
+gastos ou deteriorados não dão rendimento e danificam a 
+ferramenta. 
+Empunhadeira Auxiliar (Figura 3)
+ u Use empunhadeira auxiliar fornecida com a 
+ferramenta. A perda do controle pode causar danos 
+pessoais. Por questões de segurança é obrigatório o uso 
+de empunhadeira auxiliar C que acompanha a ferramenta. 
+A empunhadeira auxiliar C pode ser colocada em três 
+posições diferentes proporcionando maior segurança e 
+facilidade no manuseio da ferramenta. Parafuse a 
+empunhadeira auxiliar no cabeçote da ferramenta de 
+acordo com o tipo de trabalho.
+Capa de Proteção (Figura 4)
+Abra a capa de proteção D soltando o parafuso L, coloque a 
+capa de proteção D no anel do flange do eixo da ferramenta 
+e gire colocando-a na posição desejada (dependendo 
+do trabalho que vá efetuar) e fixe a capa de proteção D 
+apertando o parafuso L com a chave com a chave tipo 
+Philips até que a mesma fique fixa e segura.
+Certifique-se de que o lado fechado da capa de 
+proteção fica sempre voltado para o operador. Ajustar a 
+capa de proteção D de modo a evitar que voem 
+centelhas na direção do operador.
+Nota: Os ressaltos de codificação na capa de proteção D 
+garantem que só possa ser montada uma capa de  roteção 
+apropriada para a ferramenta elétrica. Observar sempre se 
+a capa de proteção D está fixada firmemente e posicionada 
+corretamente sobre o flange do eixo.
+Funcionamento
+Colocação em Funcionamento
+ u Observar a tensão de rede! A tensão da fonte de 
+corrente deve coincidir com a indicada na chapa de 
+identificação da ferramenta elétrica. Ferramentas 
+elétricas marcadas para 230 V também podem ser 
+operadas com 220 V, e ferramentas elétricas 
+marcadas para 127 V também podem ser operadas 
+em 115V.
+ u Segure a ferramenta elétrica somente pelas 
+superfícies isoladas da empunhadura (Figura 8), ao 
+executar uma operação em que o acessório de corte 
+pode entrar em contato com uma fiação oculta ou 
+seu próprio cabo de alimentação. Acessório de corte 
+que entra em contato com um fio energizado pode tornar 
+“vivas” partes metálicas expostas da ferramenta e 
+causar choque elétrico ao operador.
+ u Conferir o acessório antes de utilizá-lo. O acessório 
+deve ser montado de forma correta e deve 
+movimentar-se livremente. Executar um teste, sem 
+carga, de no mínimo 1 minuto. Não utilizar acessórios 
+danificados, descentrados ou a vibrando. Acessórios 
+danificados podem estourar e causar lesões. Se a 
+ferramenta elétrica for alimentada através de geradores 
+de corrente móveis (geradores), que não possuam 
+suficientes reservas de potência nem uma apropriada 
+regulação de tensão (com reforço de corrente de partida), 
+poderão ocorrer reduções de potência ou comportamentos 
+anormais ao ligar o aparelho. Observe a adequação do 
+gerador de corrente aplicado, especialmente quanto à 
+tensão e à frequência da rede elétrica.
+Ligar/Desligar (Figura 5)
+Para ligar a ferramenta elétrica, empurrar o interruptor 
+de ligar-desligar A para frente. Para fixar o interruptor 
+ligar-desligar A, deve-se pressionar o lado da frente do 
+interruptor de ligar-desligar  A até este engatar.
+Para desligar a ferramenta elétrica, deve-se soltar o 
+interruptor de ligar - desligar A, ou se estiver travado, 
+pressionar por instantes o interruptor de ligar-desligar A no 
+lado de trás e soltá-lo novamente.
+Tenha cuidado com o contragolpe originado ao 
+ligar a ferramenta.
+A ferramenta deverá trabalhar na velocidade 
+máxima antes de alcançar a peça a trabalhar.
+Antes de desligar a ferramenta, retire e ferramenta 
+da peça de trabalho.
+O acessório continua a sua rotação durante um 
+curto período de tempo, mesmo depois da ferramenta 
+ter sido desligada.
+Utilização
+ u Fixar a peça a ser trabalhada, caso esta não esteja 
+firme devido ao próprio peso.
+ u A ferramenta não deve ser demasiadamente 
+forçada, de modo que possa parar.
+ u Os discos abrasivos tornam-se muito quentes 
+durante o trabalho, não toque neles, antes que 
+tenham se esfriado.
+Desbastar (Figura 6)
+Movimente a ferramenta para frente e para trás utilizando 
+uma pressão moderada. Obtém-se um melhor rendimento 
+obedecendo a uma inclinação de 30º à 40º do disco em 
+relação à peça a ser trabalhada.
+Jamais utilize disco de corte para desbastar.
+Cortar (Figura 7)
+Manual IB 9002-9004 Skil.indd   10 12/03/15   16:20
+
+[PÁGINA 11]
+       Pt | 11
+1 600 A00 9XF |  02.2015                               Skil tools
+Apoiar o disco perpendicularmente sobre o material. 
+Aconselha-se o uso de capa de proteção com guia de 
+profundidade que proporciona um apoio perfeito, além de 
+permitir dimensionar a profundidade de corte.
+Não pressionar os discos de corte lateralmente.
+Para a realização de operações de cortes, para sua 
+segurança, deve ser utilizada a capa de proteção adequada, 
+ 9.
+ u Não incline a ferramenta durante o corte.
+ u Desloque sempre a ferramenta na direção da seta que 
+se encontra na cabeça da mesma, para im pedir que a 
+ferramenta seja em purrada para fora do ponto de corte 
+de forma descontrolada.
+ u Não aplique a pressão na ferramenta, deixe que a 
+velocidade de trabalho do disco de corte realize o trabalho.
+ u A velocidade de trabalho do disco de corte depende do 
+material que está sendo cortado.
+Segurar e Guiar a Fe rramenta (Figura 8)
+Durante o trabalho, segure se mpre a ferramenta 
+na(s) área(s) de cor(es) cinza(s).
+ambas as mãos, de forma a ter sempre o controle total da 
+ferramenta. Tenha atenção ao se ntido de rotação, segure 
+sempre a ferramenta de forma que as faí scas e a limalha ou 
+o pó saltem no sentido contrário à do corpo.
+Mantenha uma posição segura.
+Manutenção e Limpeza
+Retirar o plugue da tomada antes de re alizar 
+qualquer trabalho na fe rramenta. 
+Manter a ferramenta elétrica e as aberturas de ve ntilação B 
+sempre limpas, para trabalhar bem e de forma se gura.
+Evite utilizar objetos pontiagudos na limpeza das 
+ranhuras de venti lação.
+Caso a máquina venha a apresentar falhas, apesar de 
+cuidadosos proces sos de fabricação e de controle de 
+qualidade, deve ser reparada em uma assistência técnica 
+autorizada Bosch para ferramentas elétricas. Co nsulte 
+nosso serviço de atendimento ao co nsumidor (SAC).
+Garantia
+Prestamos garantia para ferramentas SKIL de acordo com as 
+de garantia devidamente preenchido).
+A Skil não se responsabiliza por Avarias provenientes 
+de desgaste natural, sobrecarga ou uso inadequado da 
+ferramenta (adaptações de acessórios e/ou dispositivos) e 
+não são abrangidas pela garantia. Em caso de reclamação 
+de garantia, deve-se enviar a ferramenta, sem ser 
+desmontada, a um serviço de assistência técnica autorizada 
+Bosch Ferramentas Elétricas. Consulte nosso serviço de 
+atendimento ao consumidor (SAC).
+Atenção! As despesas com fretes e seguros correm por 
+conta e risco do consumidor, mesmo nos casos de 
+reclamações de garantia.
+Serviço a As sistência ao Cliente
+O serviço de pós -venda responde às suas perguntas a 
+respeito de serviços de reparação e de manutenção do seu 
+produto, assim c omo das peças sobressalent es. A nossa 
+equipe de consultores Skil escl arece com prazer todas as 
+suas dúvidas a respeito da compra, aplicação e ajuste dos 
+produtos e acessórios.
+Serviço de Atendimento 
+ao Consumidor Skill.
+0800 704 5446
+www.skill.com.br/contatp.asp
+Brasil
+Proteção do Meio Ambiente
+Reciclagem das matérias-primas em vez de elimi nação 
+no lixo. As ferramentas elétricas e acessórios que não 
+servem mais para utilização devem ser encaminhadas 
+separadamente a uma reciclagem ec ológica. No caso 
+de descarte de sua ferramenta elétrica e acessório não 
+jogue em lixo comum, leve a uma rede de assistência 
+técnica autorizada Bosch que ela dará o destino adequado, 
+seguindo critérios de não agressão ao meio ambiente, 
+reciclando as partes e cumprindo com a legis lação local 
+peças de plástico dispõem de uma respectiva marcação.
+Vibrações
+“Valores totais de vibração (soma d os vetores das três 
+direções) determinados conforme EN 60745:
+Desbaste com disco abrasivo: valor de emissão de vibrações:
+Modelo 9002: ah=2,535 m/s², incerteza K=1,5 m/s². 
+Modelo 9004:ah=x,x m/s², incerteza K=x,x m/s².
+. O nível de vibrações indicado neste manual de 
+instruções foi medido de acordo com um processo de medição 
+normalizado pela norma EN 60745 e pode ser utilizado para a 
+comparação de aparelhos. Ele também é apropriado para uma 
+avaliação provisória da carga de vibrações.
+O nível de vibrações indicado representa as aplicaç ões 
+principais da ferramenta elétrica. Se a ferra menta elétrica 
+for utilizada para o utras aplicações, com outros acessórios 
+vibrações seja diferente. Isto pode aumentar sensivelmente 
+a carga de vibrações para o período completo de trabalho.
+Para uma estimação exata da carga de vibraç ões, também 
+deveriam ser considerados os períodos nos quais o ap arelho 
+está desligado ou funciona, mas não está sendo utilizado.
+Isto pode reduzir a carga de vibrações durante o completo 
+período de trabalho.
+Além disso também deverão ser estipuladas medidas de 
+segurança para pro teger o operador contra o efeito de 
+vibrações, como por exemplo: manutenção de
+ferramentas elétricas e de acessórios, manter as mãos 
+quentes e organização dos proces sos de trabalho.”
+Manual IB 9002-9004 Skil.indd   11 12/03/15   16:20
+
+[PÁGINA 12]
+  12 | Es
+1 600 A00 9XF |  02.2015                               Skil tools
+Español
+Introducción
+Las amoladoras SKIL son herramientas desarrolladas para 
+ejecutar los más variados tipos de servicios de de sbaste 
+y corte en materiales férricos, no férricos y  cortes en 
+materiales de albañilería (l adrillos, materiales cerámicos, 
+pisos, porcelanas, etc..). Ma dera y materiales plásticos no 
+son permitidos para ser ejecutados con esta herramienta. 
+Las amoladoras, mediante la ad aptación de accesorios 
+especiales, se prestan todavía a servicios de lijar con cepillo 
+de hilos de acero.
+Esta herramienta debe ser utilizada solamente para trabajos 
+a seco.
+El tronzado con di scos de cortar abrasivos s ólo se 
+puede realizar cuando se ut iliza un protector de 
+tronzado como mostra la fgura 9.
+Lea y conserve este manual de ins trucciones.
+Símbolos
+Amolador 9002* 9004*
+Tipo nº
+Potencia
+Frecuencia
+Rotacióm em vacio
+Eje trabajo - rosca*
+Capacidad del disco ø
+Desbaste/corte
+Consumo  127 V
+                 220 V
+[W]
+[Hz]
+[A]
+[A]
+[/min]
+[mm]
+[mm]
+F0129002...
+700 830
+50/60 50 /60
+5,8 6,8
+3,3 3,9
+11.000 11 .000
+115(4 1/2”) 11 5(4 1/2”)
+M 14x2 M 14x2
+F0129004...
+Classe de prote cción
+Peso Conforme EPTA
+01/2003
+[Kg] 1,7 ---
+/|| /||
+* Para los paises de la América Central rosca del Husillo 5 /8”.
+* Para Argentina version 9002AR / 9004AR
+Amola dor 9002* 9004*
+Tipo nº F0129002... F0129004...
+Caracteristicas Tecnicas
+A Interruptor de encendido/apagado de bloqueo
+B Ranuras de ventilación 
+C Empuñadura auxiliar *
+D Protector de se guridad
+E Botón de bloqueo del eje
+F Eje
+G Brida de montaje *
+H Disco de desbaste*
+I Disco de corte*
+J Brida de sujeción *
+K Llave de dos pinos *
+L
+M Llave Allen*
+* Accesorios presentados o descriptos no acompañan el producto.
+Instrucciones generales de seguridad 
+para herramientas eléctricas
+ATENCIÓN! Lea íntegramente estas advert encias de 
+peligro e instr ucciones. En caso de no atenerse a las 
+advertencias de pel igro e instrucciones siguientes, ello 
+puede ocasionar una descarga eléctrica, un i ncendio y/o 
+lesión grave.
+Guardar todas las advertencias de peligro e 
+instrucciones para futuras consultas.
+El término “herramienta eléctrica” empleado en las 
+siguientes advertencias de pel igro se refere a herramientas 
+eléctricas de conexión a la red (con cable de red) y a 
+herramientas eléctricas accionadas por ac umulador (o sea, 
+sin cable de red).
+Seguridad del puesto de trabajo
+ u Mantenga el área de trabajo limpia e iluminada. Las 
+áreas desorganizadas y oscuras son una invitación a los 
+accidentes.
+ u No opere herramientas en atmósferas explosivas, 
+o polvo. Las herramientas generan chispas que pue den 
+ u Mantenga a los niños y visitantes aleja dos al operar 
+una herramienta. Las distracciones pue den hacerlo 
+perder el control.
+Seguridad eléctrica
+ u Los clavijas de la herramienta deben ser 
+clavija. No use ninguna clavija adaptadora con las 
+herramientas con conexión a t ierra. Los clavijas sin 
+compatibles reducen el riesgo de choque eléctrico.
+ u
+con la tierra o con conexión a tierra, tales como 
+ u Lecturas obligatorias
+ u Símbolo para la clase de protección 
+II (aislamiento completo).
+ u Use una máscara 
+protectora de pol vo.
+ u Utilice gafas de prot ección.
+ u Use protectores auditivos.  El 
+ruido puede causar sor dera.
+Símbolo
+Manual IB 9002-9004 Skil.indd   12 12/03/15   16:20
+
+[PÁGINA 13]
+  Es | 13
+1 600 A00 9XF |  02.2015                               Skil tools
+tuberías, radiadores, hornillos y refrigeradores.  Hay 
+un aumento del riesgo de choque eléctrico si su cuerpo 
+está en contacto con la tierra o con una conexión a tierra.
+ u No exponga la herramienta a la lluvia o a 
+condiciones húmedas.  Al entrar agua en la 
+herramienta aumenta el riesgo de choque eléctrico.
+ u No fuerce el cable eléctrico. Nunca use el cable 
+eléctrico para cargar, jalar o para desconectar la 
+herramienta del enchufe. Mantenga el cable eléctrico 
+lejos del calor, óleo, bordes afilados o de partes en 
+movimiento. Los cables dañados o enredados aumentan 
+el riesgo de choque eléctrico.
+ u Al operar una herramienta al aire libre, use un cable 
+de extensión apropiado para ese caso. El uso de un 
+cable apropiado al aire libre reduce el riesgo de choque 
+eléctrico.
+ u Si fuese imprescindible utilizar la herramienta 
+eléctrica en un entorno húmedo, es necesario 
+conectarla a través de un fusible diferencial. La 
+aplicación de un fusible diferencial reduce el riesgo a 
+exponerse a una descarga eléctrica.
+Seguridad personal
+ u Esté atento, observe lo que está haciendo y use el 
+sentido común al operar una herramienta. No use la 
+herramienta cuando esté cansado o bajo la 
+influencia de drogas, alcohol o de medicamentos. 
+Un momento de distracción mientras opera una 
+herramienta puede causar graves heridas.
+ u Use equipamento de segurança. Sempre use óculos 
+de segurança. Equipos de seguridad como máscara 
+contra polvo, zapatos de seguridad antideslizantes, 
+casco de seguridad o protector auricular usados en 
+condiciones apropiadas reducirán lesiones.
+ u Evite accidentes al comenzar. Asegúrese que el 
+interruptor esté en la posición de apagado antes de 
+conectar la clavija en el enchufe.  Cargar la 
+herramientas con el dedo en el interruptor o conectar la 
+herramienta con el interruptor en la posición 
+“encendido” son una invitación a los accidentes.
+ u Retire cualquier llave de ajuste antes de encender la 
+herramienta.  Una llave de boca o de ajuste unida a una 
+parte rotativa de la herramienta puede causar heridas.
+ u No fuerce más que el límite. Mantenga el apoyo y el 
+equilibrio adecuado todas las veces que utilice la 
+herramienta.  Esto permite un mejor control de la 
+herramienta en situaciones inesperadas.
+ u Vístase apropiadamente.  No use ropas demasiado 
+sueltas o joyas. Mantenga su cabello, ropas y guantes 
+lejos de las partes móviles. La ropa holgada, joyas o 
+cabello largo pueden ser aprisionadas por las partes en 
+movimiento. 
+ u Si los dispositivos poseen conexión para la 
+extracción y colección de polvo, asegúrese que los 
+mismos están conectados y se utilicen 
+correctamente.  El uso de estos dispositivos puede 
+reducir riesgos relacionados con el polvo.
+Uso y cuidados de la herramienta
+ u No fuerce la herramienta. Use la herramienta 
+correcta para su aplicación.  La herramienta correcta 
+hará el trabajo mejor y con más seguridad si se utiliza 
+para aquello para lo que se proyectó.
+ u No use la herramienta si el interruptor no enciende 
+o no se apaga. Cualquier herramienta que no puede 
+controlarse con el interruptor es peligrosa y debe 
+repararse.
+ u Desconecte la clavija del enchufe antes de hacer 
+cualquier tipo de ajuste, cambio de accesorios o al 
+guardar la herramienta.  Tales medidas preventivas de 
+seguridad reducen el riesgo de conectar la herramienta 
+accidentalmente.
+ u Guarde las herramientas fuera del alcance de los 
+niños y no permita que personas no familiarizadas 
+con ellas o con estas instrucciones operen la 
+mismas. Las herramientas son peligrosas en las manos 
+de usuarios no entrenados.
+ u Mantenimiento de las herramientas. Cheque la 
+desalineación y ligaduras de las partes móviles, 
+cuarteaduras y cualquier otra situación que pueda 
+afectar la operación de la herramienta. Si está 
+dañada, la herramienta debe repararse antes de su 
+uso. Muchos accidentes son causados por 
+mantenimiento insuficiente de las herramientas.
+ u Mantenga las herramientas de corte afiladas y 
+limpias. El mantenimiento apropiado de las 
+herramientas de corte con hojas afiladas reduce la 
+posibilidad de trabarse y facilita su control.
+ u Use la herramienta, accesorios, sus partes etc., de 
+acuerdo con las instrucciones y de la manera 
+designada para el tipo particular de la herramienta, 
+considerando las condiciones y el trabajo a 
+ejecutarse.  El uso de la herramienta en operaciones 
+diferentes de las designadas puede resultar en 
+situaciones de riesgo.
+Reparaciones
+ u Las reparaciones de su herramienta deben 
+efectuarse por un agente calificado y que solamente 
+use partes originales. Esto irá a garantizar que la 
+seguridad de la herramienta se mantenga.
+ u En caso de necesidad de substitución de los 
+carbones debe dirigir la herramienta para un taller 
+de servicio autorizado técnico de herramientas 
+eléctricas. Carbones fuera de especificación danifica el 
+motor de la herramienta.
+ u Si el cordón de alimentación se encuentra dañado, 
+debe ser reemplazado por el fabricante, su servicio 
+técnico o personal igualmente calificado para 
+prevenir riesgos.
+Avisos de Seguridad
+Advertencias de Peligro Generales al Realizar Trabajos 
+De Amolado, Lijado, Con Cepillos de Alambre Y Tronzado.
+ u Esta herramienta eléctrica ha sido concebida para 
+amolar, lijar, trabajar con cepillos de alambre, y 
+Manual IB 9002-9004 Skil.indd   13 12/03/15   16:20
+
+[PÁGINA 14]
+  14 | Es
+1 600 A00 9XF |  02.2015                               Skil tools
+tronzar. Observe todas las advertencias de peligro, 
+instrucciones, ilustraciones y especificaciones 
+técnicas que se suministran con la herramienta 
+eléctrica.  En caso de no atenerse a las instrucciones 
+siguientes, ello puede provocar una electrocución, 
+incendio y/o lesiones serias.
+ u Esta herramienta eléctrica no es apropiada pulir. La 
+utilización de la herramienta eléctrica en trabajos para los 
+que no ha sido prevista puede provocar un accidente.
+ u No emplee accesorios diferentes de aquellos que el 
+fabricante haya previsto o recomenda-do 
+especialmente para esta herramienta eléctrica.  El 
+mero hecho de que sea acoplable un accesorio a su 
+herramienta eléctrica no implica que su utilización 
+resulte segura.
+ u Las revoluciones admisibles del útil deberán ser  
+como mínimo iguales a las revoluciones máximas 
+indicadas en la herramienta eléctrica. Aquellos 
+accesorios que giren a unas revoluciones mayores a las 
+admisibles pueden llegar a romperse.
+ u El diámetro exterior y el grosor del útil deberán 
+corresponder con las medidas indicadas para su 
+herramienta eléctrica. Los útiles de dimensiones 
+incorrectas no pueden protegerse ni controlarse con 
+suficiente seguridad. 
+ u Los orificios de los discos amoladores, bridas, platos 
+lijadores u otros útiles deberán alojar exactamente 
+sobre el husillo de su herramienta eléctrica. Los útiles 
+que no ajusten correctamente sobre el husillo de la 
+herramienta eléctrica, al girar descentrados, generan 
+unas vibraciones excesivas y pueden hacerle perder el 
+control sobre el aparato.
+ u No use útiles dañados. Antes de cada uso 
+inspeccione el estado de los útiles con el fin de 
+detectar, p. ej. , si están desportillados o fisurados 
+los útiles de amolar, si está agrietado o muy 
+desgastado el plato lijador, o si las púas de los 
+cepillos de alambre están flojas o rotas. Si se le cae 
+la herramienta eléctrica o el útil, inspeccione si han 
+sufrido algún daño o monte otro útil en correctas 
+condiciones. Una vez controlado y montado el útil 
+sitúese Vd. y las personas circundantes fuera del 
+plano de rotación del útil y deje funcionar la 
+herramienta eléctrica en vacío, a las revoluciones 
+máximas, durante un minuto. Por lo regular, aquellos 
+útiles que estén dañados suelen romperse al realizar 
+esta comprobación.
+ u Utilice un equipo de protección personal. 
+Dependiendo del trabajo a realizar use una Careta, 
+una protección para los ojos, o unas gafas de 
+protección. Dependiendo del trabajo a realizar, 
+emplee una mascarilla antipolvo, protectores 
+auditivos, guantes de protección o un mandil 
+especial adecuado para protegerle de los pequeños 
+fragmentos que pudieran salir proyectados. Las gafas 
+de protección deberán ser indicadas para protegerle de 
+los fragmentos que pudieran salir despedidos al trabajar. 
+La mascarilla antipolvo o respiratoria deberá ser apta 
+para filtrar las partículas producidas al trabajar. La 
+exposición prolongada al ruido puede provocarle sordera.
+ u Cuide que las personas en las inmediaciones se 
+mantengan a suficiente distancia de la zona de 
+trabajo. Toda persona que acceda a la zona de 
+trabajo deberá utilizar un equipo de protección 
+personal. Podrían ser lesionadas, incluso fuera del área 
+de trabajo inmediato, al salir proyecta dos fragmentos 
+de la pieza de trabajo o del útil.
+ u Únicamente sujete el aparato por las empuñaduras 
+aisladas al realizar trabajos en los que el útil pueda 
+tocar conductores eléctricos ocultos o el propio cable 
+del aparato. El contacto con conductores portadores de 
+tensión puede hacer que las partes metálicas del 
+aparato le provoquen una descarga eléctrica.
+ u Mantenga el cable de red alejado del útil en 
+funcionamiento. En caso de que Vd. pierda el control 
+sobre la herramienta eléctrica puede llegar a cortarse o 
+enredarse el cable de red con el útil y lesionarle su 
+mano o brazo.
+ u Jamás deposite la herramienta eléctrica antes de 
+que el útil se haya detenido por completo. El útil en 
+funcionamiento puede llegar a tocar la base de apoyo y 
+hacerle perder el control sobre la herramienta eléctrica.
+ u No deje funcionar la herramienta eléctrica mientras 
+la transporta. El útil en funcionamiento podría 
+lesionarle al engancharse accidentalmente con su 
+vestimenta o pelo.
+ u Limpie periódicamente las rejillas de refrigeración 
+de su herramienta eléctrica. El ventilador del motor 
+aspira polvo hacia el interior de la carcasa, y en caso de 
+una acumulación fuerte de polvo metálico ello le puede 
+provocar una descarga eléctrica.
+ u No utilice la herramienta eléctrica cerca de 
+materiales combustibles.  Las chispas producidas al 
+trabajar pueden llegar a incendiar estos materiales.
+ u No emplee útiles que requieran ser refrigerados con 
+líquidos. La aplicación de agu u otros refrigerantes 
+líquidos puede comportar una descarga eléctrica.
+Rechazos y Avisos Relacionados
+El rechazo es un reacción brusca que se produce al 
+atascarse o engancharse el útil, como un disco de amolar, 
+plato lijador, cepillo de alambre, etc. Al atascarse o 
+engancharse el útil en funcionamiento, éste es frenado 
+bruscamente. Ello puede hacerle perder el control sobre 
+la herramienta eléctrica y hacer que ésta salga impulsada 
+en dirección opuesta al sentido de giro que tenía el útil. 
+En el caso de que, p. ej., un disco amolador se atasque o 
+bloquee en la pieza de trabajo, puede suceder que el canto 
+del útil que penetra en el material se enganche, provocando 
+la rotura del útil o el rechazo del aparato. Según el sentido 
+de giro y la posición del útil en el momento de bloquearse 
+puede que éste resulte despedido hacia, o en sentido 
+Manual IB 9002-9004 Skil.indd   14 12/03/15   16:20
+
+[PÁGINA 15]
+  Es | 15
+1 600 A00 9XF |  02.2015                               Skil tools
+opuesto al Usuario. En estos casos puede suceder que el útil 
+incluso llegue a romperse. El rechazo es ocasionado por la 
+aplicación o manejo incorrecto de la herramienta eléctrica. 
+Es posible evitarlo ateniéndose a las medidas preventivas 
+que a continuación se detallan.
+ u Sujete con firmeza la herramienta eléctrica y 
+mantenga su es 13 cuerpo y brazos en una posición 
+propicia para resistir las fuerzas de reacción. Si 
+forma parte del aparato, utilice siempre la 
+empuñadura adicional para poder soportar mejor 
+las fuerzas derivadas del rechazo y los pares de 
+reacción en la puesta en marcha.  El usuario puede 
+controlar la fuerza de rechazo y de reacción si toma 
+unas medidas preventivas oportunas.
+ u Jamás aproxime su mano al útil en funcionamiento. 
+En caso de un rechazo el útil podría lesionarle la mano.
+ u No se sitúe dentro del área hacia el que se movería 
+la herramienta eléctrica al ser rechazada.  Al resultar 
+rechazada la herramienta eléctrica saldrá despedida 
+desde el punto de bloqueo en dirección opuesta al 
+sentido de giro del útil.
+ u Tenga especial precaución al trabajar esquinas, 
+cantos afilados, etc. Evite que el Útil de amolar 
+rebote contra la pieza de trabajo o que se atasque. 
+En las esquinas, cantos afilados, o al rebotar, el útil en 
+funcionamiento tiende a atascarse. Ello puede hacerle 
+perder el control o causar un rechazo del útil.
+ u No utilice hojas de sierra para madera ni otros 
+útiles dentados. Estos útiles son propensos al rechazo 
+y pueden hacerle perder el control sobre la herramienta 
+eléctrica.
+Avisos de Seguridad Específicos para Operaciones de
+Amolar y Corte Abrasivo 
+ u Siempre emplee la caperuza protectora prevista 
+para el útil que va a usar. La caperuza protectora 
+deberá montarse firmemente en la herramienta 
+eléctrica cuidando que quede orientada ofreciendo 
+una seguridad máxima, o sea, cubriendo al máximo 
+la parte del útil a la que queda expuesta el usuario.  
+La misión de la caperuza protectora es proteger al 
+usuario de los fragmentos que puedan desprenderse del 
+útil y del contacto accidental con éste.
+ u Use exclusivamente útiles homologados para su 
+herramienta eléctrica en combinación con la 
+caperuza protectora prevista.  Los útiles que no fueron 
+diseñados para esta herramienta eléctrica pueden quedar 
+insuficientemente protegidos y suponen un riesgo.
+ u Solamente emplee el útil para aquellos trabajos 
+para los que fue concebido.  Por ejemplo, no emplee 
+las caras de los discos tronzadores para amolar. En los 
+útiles de tronzar el arranque de material se lleva a cabo 
+con los bordes del disco. Si estos útiles son sometidos a 
+un esfuerzo lateral ello puede provocar su rotura.
+ u Siempre use para el útil seleccionado una brida en 
+perfecto estado con las dimensiones y forma 
+correctas. Una brida adecuada soporta 
+convenientemente el útil reduciendo así el peligro de 
+rotura. Las bridas para discos tronzadores pueden ser 
+diferentes de aquellas para los discos de amolar.
+ u No intente aprovechar los discos amoladores de 
+otras herramientas eléctricas más grandes aunque 
+cuyo diámetro exterior se haya reducido 
+suficientemente por el desgaste. Los discos 
+amoladores destinados para herramientas eléctricas 
+grandes no son aptos para soportar las velocidades 
+periféricas más altas a las que trabajan las herramientas 
+eléctricas más pequeñas y pueden llegar a romperse.
+Avisos de Seguridad Adicionales Específicos para
+Operaciones de Corte Abrasivo 
+ u Evite que se bloquee el disco tronzador y una presión 
+de aplicación excesiva. No intente realizar cortes 
+demasiado profundos. Al solicitar en exceso el disco 
+tronzador éste es más propenso a ladearse, bloquearse, a 
+ser rechazado o a romperse.
+ u No se coloque delante o detrás del disco tronzador en 
+funcionamiento, alineado con la trayectoria del corte. 
+Mientras que al cortar, el disco tronzador es guiado en 
+sentido opuesto a su cuerpo, en caso de un rechazo el 
+disco tronzador y la herramienta eléctrica son impulsados 
+directamente contra Vd.
+ u Si el disco tronzador se bloquea, o si tuviese que 
+interrumpir su trabajo, desconecte la herramienta 
+eléctrica y manténgala en esa posición, sin moverla, 
+hasta que el disco tronzador se haya detenido por 
+completo. Jamás intente sacar el disco tronzador en 
+marcha de la ranura de corte, ya que ello podría provocar 
+un rechazo. Investigue y subsane la causa del bloqueo.
+ u No intente proseguir el corte con el disco tronzador 
+insertado en la ranura de corte. Una vez fuera, 
+conecte la herramienta eléctrica y espere a que el 
+disco tronzador haya alcanzado las revoluciones 
+máximas y aproxímelo entonces con cautela a la 
+ranura de corte. En caso contrario el disco tronzador 
+podría bloquearse, salirse de la ranura de corte, o resultar 
+rechazado.
+ u Soporte las planchas u otras piezas de trabajo 
+grandes para reducir el riesgo de bloqueo o rechazo 
+del disco tronzador. Las piezas de trabajo extensas 
+tienden a combarse por su propio peso. La pieza de 
+trabajo deberá apoyarse desde abajo a ambos lados tanto 
+cerca de la línea de corte como a sus extremos.
+ u Proceda con especial cautela al realizar recortes 
+“por inmersión” en paredes o superficies similares.  
+El disco tronzador puede ser rechazado al tocar tuberías 
+de gas o agua, conductores eléctricos, u otros objetos.
+Avisos de Seguridad Específicos para Operaciones de 
+Amolar
+ u No use hojas lijadoras más grandes que el soporte, 
+ateniéndose para ello a las dimensiones que el 
+fabricante recomienda. Las hojas lijadoras de un 
+diámetro mayor que el plato lijador pueden provocar un 
+accidente, fisurarse, o provocar un rechazo.
+Manual IB 9002-9004 Skil.indd   15 12/03/15   16:20
+
+[PÁGINA 16]
+  16 | Es
+1 600 A00 9XF |  02.2015                               Skil tools
+Avisos de Seguridad Específicos para Operaciones de 
+Cepillado
+ u Considere que las púas de los cepillos de alambre 
+pueden desprenderse también durante un uso 
+normal. No fuerce las púas ejerciendo una fuerza de 
+aplicación excesiva. Las púas desprendidas pueden 
+traspasar muy fácilmente tela delgada y/o la piel.
+ u En caso de recomendarse el uso de una caperuza 
+protectora, evite que el cepillo de alambre alcance a 
+rozar contra la caperuza protectora. Los cepillos de 
+plato y de vaso pueden aumentar su diámetro por efecto 
+de la presión de aplicación y de la fuerza centrífuga.
+Instrucciones Adicionales 
+ u Utilice unos instrumentos de exploración adecuados 
+para detectar tuberías y cables ocultos, o consulte a 
+su compañía abastecedora local. El contacto con 
+cables eléctricos puede provocar un incendio o descarga 
+eléctrica. El deterioro de tuberías de gas puede producir 
+una explosión. La perforación de una tubería de agua 
+puede causar daños materiales o una descarga eléctrica.
+ u Desenclave el interruptor de conexión/ desconexión 
+y colóquelo en la posición de desconexión en caso de 
+cortarse la alimentación de la herramienta eléctrica, 
+p. ej. Debido a un corte del fluido eléctrico o al sacar 
+el enchufe con la herramienta en funcionamiento. De 
+esta manera se evita una puesta en marcha accidental de 
+la herramienta eléctrica.
+Información
+ u Utilice únicamente las bridas que se entregan con esta 
+herramienta.
+ u Esta herramienta no debe utilizarse por personas 
+menores de 16 años.
+ u Desenchufar siempre la herramienta antes de 
+realizar cualquier ajuste o cambiar algún accesorio.
+Accesorios
+ u Cuando monte/utilice accesorios distintos de la marca 
+SKIL, respete las instrucciones del fabricante.
+ u Nunca utilice reductores o adaptadores para ajustar 
+agujeros más grandes que los discos de amolar/tronzar.
+ u Nunca utilice accesorios con un agujero “ciego” roscado 
+inferior ao especificado.
+ u Este producto no fue proyectado para utilizar discos con 
+diámetro superior a 115mm.
+ u Discos de desbaste no deben poseer diámetros 
+superiores a 115mm y grosor superior a 6mm.
+Utilización en el Exterior
+ u Conecte la herramienta mediante un interruptor (FI) a 
+una corriente de disparo de 30 mA como máximo.
+Antes de la Utilización
+ u Antes de utilizar la herramienta por primera vez, es 
+recomendable saber cierta información práctica.
+ u No trabaje materiales que contengan amianto (el 
+amianto es cancerígeno).
+ u Utilice aparatos de detección adecuados para 
+localizar posibles conductores o tuberías ocultas, o 
+consulte a su compañía abastecedora (el contacto con 
+conductores eléctricos puede provocar una descarga 
+eléctrica e incluso un incendio; al dañar una tubería de 
+gas puede producirse una explosión; la perforación de 
+una tubería de agua pueden causar daños materiales o 
+una descarga eléctrica).
+ u El polvo del material, como por ejemplo la pintura que 
+contiene plomo, algunas especies de madera, minerales y 
+metal podrían ser dañinos (el contacto o inhalación del 
+polvo podría producir reacciones alérgicas y/o transtornos 
+respiratorios al operador u otras personas cerca); utilice 
+una máscara contra el polvo y trabaje con un 
+dispositivo de extracción de polvo cuando lo conecte.
+ u Ciertos tipos de polvo están catalogados como 
+cancerígenos (por ejemplo el polvo de roble y de haya) 
+especialmente junto con aditivos para el 
+acondicionamiento de la madera;  utilice una máscara y 
+trabaje con un dispositivo de extracción de polvo 
+cuando lo conecte.
+ u Siga la normativa nacional en cuanto a extracción de polvo, 
+en función de los materiales que vayan a ser utilizados.
+ u Tenga cuidado cuando tronze sotobosque, especialmente 
+en muros de soporte (las aberturas de los muros de 
+soporte están sujetas a regulaciones específicas de cada 
+país; estas regulaciones deben respetarse bajo cualquier 
+circunstancia).
+ u Si la pieza sobre la que está trabajando se moviera, 
+sujétela.
+ u No sujete la herramienta a un banco.
+ u Utilice cables de extensión seguros y completamente 
+desenrollados con una capacidad de 16 amperios.
+Durante su Utilización
+ u Si mientras trabaja, el cable sufre algún desperfecto o 
+corte, no lo toque; desconecte inmediatamente el enchufe; 
+nunca utilice la herramienta con un cable dañado.
+ u En el caso de que se produjera un mal funcionamiento 
+eléctrico o mecánico, apague inmediatamente la 
+herramienta y desconecte el enchufe.
+ u En caso de producirse un corte de corriente o cuando el 
+enchufe se desconecta accidentalmente, desbloquee el 
+interruptor de encendido/ apagado A 1 de manera 
+inmediata con el fin de prevenir que se vuelva a poner en 
+marcha de manera descontrolada.
+Después de Utilizar la Herramienta
+Después de apagar la herramienta, nunca detenga la rotación 
+del accesorio ejerciendo una fuerza lateral contra él.
+Montaje
+Antes de cualquier manipulación en el aparato extraer 
+el enchufe de la red.
+Discos de Desbaste e Corte (Figura 2)
+Usar solamente útiles de lijar/amolar cuyas 
+revoluciones admisibles sean como mínimo igual a 
+las revoluciones en vacío del aparato.  A SKIL no se 
+responsabiliza por problemas ocurridos por uso inadecuado 
+o adaptación de accesorios/dispositivos o otros no 
+específicados, dessarollados por terceros para atender a las 
+necesidades específicas del consumidor.
+Manual IB 9002-9004 Skil.indd   16 12/03/15   16:20
+
+[PÁGINA 17]
+  Es | 17
+1 600 A00 9XF |  02.2015                               Skil tools
+Nunca utilice un disco de amolar/tronzar sin la 
+etiqueta, que se encuentra pegada sobre el disco.
+El discos se ponen muy calientes al trabajar con 
+ellos. Antes de tocar los discos de desbastar y tronzar 
+esperar a que se enfríen. No los toque hasta que se hayan 
+enfriado. Limpie el eje F y todas las piezas que vaya a montar.
+– Oprima el botón del bloqueo del eje E.
+– Apriete la brida de sujeción G con la llave K.
+Si el eje F esté bloqueado, el interruptor A no podrá 
+ser activado .
+Nunca oprima el botón si el motor estea 
+funcionando, porque eso va a damnificar el sistema de 
+transmisión.
+Para desmontar los accesorios, proceda de modo inverso.
+Monte siempre una almohadilla de apoyo cuando 
+utilice accesorios de lijado.
+Compruebe que el accesorio estea en perfecto estado de
+funcionamiento. Accesorios gastados o deteriorados no dan 
+buenos rendimientos y damnifican el trabajo.
+Empuñadura Auxiliar (Figura 3)
+ u Use los puños auxiliares suministrados con la 
+herramienta. La pérdida del control puede causar daños. 
+Por medida de seguridad, la utilización de la empuñadura 
+auxiliar C suministrada con la herramienta es obligatoria, 
+le proporcionando a Ud: Más estabilidad e mayor facilidad 
+de manuseo Montar la empuñadura adicional C al cabezal 
+del aparato de acuerdo al tipo de trabajo.
+Caperuza Protectora (Figura 4)
+Abra el protector de seguridad D aflojando el tornillo L. 
+Coloque el protector de seguridad D en la abrazadera 
+del cabezal de la herramienta y gírelo hasta la posición 
+requerida (según el trabajo que vaya a llevar a cabo). Sujete 
+el protector de seguridad D apretando el tornillo L con una 
+llave macho hexagonal.
+ Asegúrese de que la parte cerrada del protector de 
+seguridad siempre está orientada hacia el operador. 
+Ajuste la caperuza protectora D de manera que las 
+chispas producidas no sean proyectadas contra Vd.
+Observación:  Los resaltes de la caperuza protectora D 
+aseguram que solamente pueda montarse una caperuza 
+protectora adecuada a la herramienta eléctrica.
+Funcionamiento
+Antes de Utilizar la Herramienta
+ u Observe la tensión de red! La tensión alimentación 
+deberá coincidir con las indicaciones en la placa de 
+características de la herramienta eléctrica. Las 
+herramientas eléctricas marcadas con 230 V puedem 
+funcionar también a 220 V, y herramientas eléctricas 
+marcadas con 127 V puedem funcionar también a 115 V.
+ u Únicamente sujete el aparato por las empunãduras 
+aisladas (Figura 8) al realizar trabajos en los que el 
+útil pueda tocar conductores eléctricos ocultos o el 
+propio cable del aparato. El contacto con conductores 
+portadores de tensión puede hacer que las partes 
+metálicas del aparato le provoquen una descarga eléctrica.
+ u Verifique los útiles de amolar antes de su uso. Los 
+útiles de amolar deberán estar correctamente 
+montados, sin rozar en ningún lado. Deje funcionar 
+el útil en vacío, al menos un minuto. No emplee 
+útiles de amolar danãdos, de giro excéntrico, o que 
+vibre. Los útiles de amolar dañados puedem romperse y 
+causar accidentes.  Em caso de alimentar la 
+herramienta eléctrica a través de um grupo electrógeno 
+(generador) que no disponga de reservas de potencia 
+suficientes, o que incorpore un regulador de tensión 
+adequado (con refuerzo de la corriente de arranque), 
+ello puede provocar una merma de la potencia o 
+conducir a un comportamiento desacostumbrado en la 
+conexión. Compruebe si su grupo electrógeno es 
+adecuado, especialmente en lo concerniente a la tensión 
+y frecuencia de alimentación.
+Conexión/Desconexión
+Para la puesta en marcha de la herramienta eléctrica 
+empuja hacia delante el interruptor de conexión/
+desconexión A. Pra enclavar el interruptor de conexión/
+desconexión A presione delante, hacia abajo, el interruptor 
+de conexión/desconexión A hasta enclavarlo.
+Para desconectar la herramienta eléctrica suelte el 
+interruptor de conexión/desconexión A, o en caso de 
+estar enclavado, presiónelo brevemente atrás, y suelte a 
+continuación el interruptor de conexión/desconexión  A.
+Tenga cuidado con la reacción súbita de la 
+herramienta, al conectarla.
+Antes de trabajar sobre una pieza, la herramienta 
+deberá alcanzar su velocidad máxima.
+Antes de desactivar la herramienta, debe retirarla 
+de la pieza de trabajo.
+Después de haber apagado la herramienta el 
+accesorio continuará girando durante un corte período 
+de tiempo.
+Utilización
+ u Fijar la pieza de trabajo, a no ser que se mantenga 
+en posición firme por su propio peso.
+ u No presionar el aparato de tal manera que llegue a 
+detenerse.
+ u Antes de tocar los discos de desbastar y tronzar 
+esperar a que se enfríen, ya se ponen muy calientes 
+al trabajar con ellos.
+Amolar (Figura 6)
+Mueva la herramienta hacia delante y atrás ejerciendo una 
+presión moderada. Los mejores resultados de desbaste son 
+obtenidos manteniéndose una inclinación de 30º a 40º entre 
+el disco y la superficie de trabajo.
+No usar jamás discos tronzadores para desbastar.
+Tronzar (Figura 7)
+Apoyar el disco perpendicularmente sobre el material a cortar.
+Se recomienda el uso de caperuza de protección con 
+tope de profundidad lo cual le ofrece un apoyo perfecto, aun 
+le permite ajustar la profundidad de corte.Manual IB 9002-9004 Skil.indd   17 12/03/15   16:20
+
+[PÁGINA 18]
+  18 | Es
+1 600 A00 9XF |  02.2015                               Skil tools
+No someter los discos tronzadores con una presión 
+lateral.
+Al ejecutar trabajos de corte, para su seguridad, se debe 
+utilizar la capa de protección adecuada (figura 9), la cual 
+solamente deja expuesta la área del disco que ejecuta el 
+corte, de acuerdo a la figura ao lado:
+ u No incline la herramienta al tronzar.
+ u Mueva siempre la herramienta en la dirección de la 
+flecha situada sobre el cabezal de la herramienta para 
+prevenir que empuje la herramienta fuera del corte de 
+una forma descontrolada.
+ u No presione la herramienta, deje que la velocidade de la 
+muela tronzadora haga el trabajo.
+ u La velocidad de trabalo de la muela tronzadora depende 
+del material que esté cortando.
+Sujeción y Manejo de la Herramienta (Figura 8)
+Durante el trabajo, sujete siempre la herramienta 
+por la(s) zona(s) de empuñadura de color gris (figura 8).
+Sujete siempre firmemente la herramienta con ambas 
+manos para tener el control todo el tiempo.
+Preste atención a la dirección de rotación; sostenga 
+siempre la herramienta de modo que las chispas y el polvo 
+procedentes de la herramienta salten lejos del cuerpo.
+Adopte una postura segura.
+Mantenimiento y Limpieza
+Antes de cualquier manipulación en el aparato 
+extraer la enchufe de la red.
+Mantener siempre limpios el aparato y las rejillas de 
+refrigeración para poder trabajar con seguridad.
+No intentar limpiar insertando objetos puntiagudos 
+a través de las ranuras de ventilación.
+Si a pesar de los esmerados procesos de fabricación y 
+controle de la cualidad, la máquina llegase a averiarse, 
+la reparación deberá encargarse a un taller de servicio 
+autorizado Servicio Técnico SKIL de Herramientas Eléctricas.
+Garantía
+Prestamos garantía para herramientas SKIL de acuerdo 
+con las disposiciones legales y con lo especificado en el 
+certificado de garantía (comprobación a través de la factura 
+de compra y del certificado de garantía debidamente 
+completado).
+Skil no se responsabiliza y no son cubiertas por la garantía las 
+averías provenientes del desgaste natural, sobrecarga o uso 
+inadecuado de la herramienta (adaptaciones de accesorios 
+y/o dispositivos). En caso de reclamación de garantía, se 
+debe enviar la herramienta, sin ser desmontada, para un 
+servicio de asistencia técnica autorizada Bosch Herramientas 
+Eléctricas. Consulte nuestro servicio de atendimiento al 
+consumidor (SAC).
+¡Atención! Los gastos con fletes y seguros corren por 
+cuenta y riesgo del consumidor, mismo en los casos de 
+reclamaciones de garantía. 
+Servicio Técnico y Atención al Cliente
+El equipo de post-venta responderá sus preguntas con 
+relación a servicios de reparación y mantenimiento de su 
+producto, así como de las piezas de repuesto. Nuestro equipo 
+de consultores Skil esclarecerá con placer todas las sus 
+dudas con respecto a la compra, aplicación y ajuste de los 
+productos y accesorios.
+Argentina
+Robert Bosch Argentina S.A.
+Av. Córdoba 5160 C1414BAW Ciudad Autónoma de Buenos 
+Aires.
+Argentina
+Atención al Cliente
+Tel.: 0800-4444-26724
+Bolivia
+Hansa Ltda. Calle Yanacocha esq. Mercado # 1004 - La Paz, 
+Bolivia
+Tel.: +591 (2) 214 980
+Línea Gratuita: 800 10 0014
+Chile
+Robert Bosch S.A .
+Calle El Cacique 0258, Providencia – Santiago
+Atencion al Cliente
+Tel.: 800 400 008
+Colombia
+Robert Bosch Ltda.
+Av. Cra 45 # 108A-50
+Tel.: +57(1)658-5010
+Costa Rica
+Consorcio Ferretero San José
+200m Pozos de Santa Ana, Este de Hu, 1000 12247
+City Santa Ana
+Cuba
+NSV S.L.
+Edificio Alameda de Paula. Calles, Desamparados #
+166.,00000000
+Habana Vieja, La Habana.
+Ecuador
+Robert Bosch Sociedad Anónima Ecuabosch
+Av. Las Monjas #10 y Carlos J. Arosemena
+Guayaquil-Ecuador
+Atencion al Cliente
+Tel.: +593 (04) 220 4000
+El Salvador
+Heacsa,
+Boulevard Venezuela, 1146. San Salvador.
+Guatemala
+Electro Diesel de Guatemala S.A
+8va. Calle 6-60 Zona 4
+Honduras
+Indufesa
+Do it Center Pedregal. Col. El Pedregal, Calle Principal,
+Tegucigalpa.
+Mexico
+Robert Bosch, S. de R.L. de C.V.
+Calle Robert Bosch 405
+Zona Industrial, Toluca, Edo. de México.
+C.P. 5 0 071
+Tel.: +52 (55) 5284 3000
+Manual IB 9002-9004 Skil.indd   18 12/03/15   16:20
+
+[PÁGINA 19]
+  Es | 19
+1 600 A00 9XF |  02.2015                               Skil tools
+Nicaragua
+Madinisa Magneto Diesel
+Apartado 2774, Ciudad Jar din G-19 Managua
+Panamá
+Zentrum Auto Parts
+Urbanización Costa del Este, área industrial vía principal
+Paraguay
+Chispa S.A.
+Dirección: Dr. Osvaldo Chávez 1988 C/ José Rivera
+Tel: (+595 21) 553 315
+Perú
+Robert Bosch S.A.C.
+Avenida Primavera, 781 piso 2
+Urbanización Chacarilla – San Borja
+Lima – Peru
+CP: LIMA 41
+Tel.:+511 219-0332
+República Dominicana
+Mercmar
+Autopista Duarte Km 7, Esq. Av. Hispanoamericana,
+Canabacoa, Santiango.
+Uruguay
+Epicentro S.A
+Vilardebó 1173
+Montevideo
+Tel.: +598 2200 62 25
+Venezuela
+Robert Bosch S.A.
+Calle B, Av. Santatorio del Avila, Centro Empresarial Ciudad 
+Center, Torre D,
+Piso 3, Caracas
+Protección del Medio Ambiente
+Reciclamiento de las materias-primas en vez de su 
+eliminación en la basura. Las herramientas eléctricas y los 
+accesorios que no sirven más para su utilización deben ser 
+encaminados separadamente para un local de reciclamiento 
+ecológico. En el caso de descarte de su herramienta eléctrica 
+y sus accesorios, no los tire con la basura común, llévelos 
+a una red de asistencia técnica autorizada Bosch que ella 
+les dará el destino adecuado, siguiendo los criterios de 
+no agresión al medio ambiente, reciclando las partes y 
+cumpliendo con la legislación local vigente.
+plástico disponen de una respectiva marcación.
+Vibraciones 
+“Valores totales de vibración (suma de los vectores de las 
+tres direcciones) determinados de ac uerdo con la norma EN 
+60745:
+Desbaste con disco abrasivo: valor de emisión de vibraciones: 
+Modelo 9002: ah=2,535 m/s², incertidumbre K=1,5 m/s².
+Modelo 9004: ah=x,x m/s², incertidumbre K=x,x m/s² . El  
+nivel de vibraciones indicado en este manual de ins truccio-  
+-nes fue medido de acuerdo con un proceso de medición 
+normalizado por la norma EN 60745 y puede ser utilizado 
+para la comparación de apar atos. Él también es apropiado 
+para una evaluación provisoria de la carga de vibraciones.
+El nivel de vibraciones indicado repr esenta las aplicaciones 
+principales de la herramienta eléctrica. Si la herramienta 
+eléctrica es utilizada para otras aplicacion es, con otros 
+que el nivel de vibraciones sea diferente. Esto puede 
+aumentar sensiblemente la carga de vibraciones para el 
+período completo de trabajo. Para una estimación exacta de 
+la carga de vibracion es, también deberían ser considerados 
+los períodos en los cuales el apar ato está apagado o 
+funciona, pero no está siendo utilizado. Esto puede reducir 
+la carga de vibraciones durante el período completo de 
+trabajo. Además también deberán ser estipuladas medidas 
+de seguridad para pro teger al operador contra el efecto 
+de las vibraciones, como por ejemplo: mantenimiento de 
+herramientas eléctricas y de accesorios, mant ener las 
+manos calientes y orga nización de los proce sos de trabajo.”
+Manual IB 9002-9004 Skil.indd   19 12/03/15   16:20

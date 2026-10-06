@@ -1,0 +1,23 @@
+[
+  {"slug": "bosch-gws-850", "spec_key": "peso", "from": "1,7 kg", "raw_value": "2 kg", "normalized_value": 2.0,
+   "reason": "La ficha Bosch Argentina recuperada declara «Peso 2 kg» para el código 06013775H0."},
+  {"slug": "bosch-gbh-2-26-dre", "spec_key": "peso", "from": "2,7 kg", "raw_value": "2,9 kg", "normalized_value": 2.9,
+   "reason": "La ficha Bosch Argentina recuperada declara «Peso 2,9 kg» para el código 06112537H0."},
+  {"slug": "honda-eu22i", "spec_key": "peso_seco", "from": "21,1 kg", "raw_value": "21 kg", "normalized_value": 21.0,
+   "reason": "La ficha Honda Argentina recuperada declara «Peso en seco 21 kg»."},
+  {"slug": "karcher-k3-black-edition", "spec_key": "potencia", "from": "1600 W", "raw_value": "1500 W", "normalized_value": 1500.0,
+   "reason": "La ficha Kärcher Argentina recuperada declara «Potencia nominal de entrada (W) 1500» para 9.398-355.0."},
+  {"slug": "karcher-k4-power-control", "spec_key": "peso", "from": "11,5 kg", "raw_value": "12,4 kg", "normalized_value": 12.4,
+   "reason": "La ficha Kärcher Argentina recuperada declara «Peso sin accesorios (kg) 12,4» para 1.603-402.0."},
+  {"slug": "lusqtoff-tbl16-7", "spec_key": "potencia", "from": "375 W (0,5 HP)", "raw_value": "450 W", "normalized_value": 450.0,
+   "reason": "La ficha Lüsqtoff recuperada declara «Potencia: 450 W» para TBL16-7."},
+  {"slug": "lusqtoff-tbl16-7", "spec_key": "peso", "from": "19 kg", "raw_value": "17,2 kg", "normalized_value": 17.2,
+   "reason": "La ficha Lüsqtoff recuperada declara «Peso: 17,2 kg» para TBL16-7."},
+  {"slug": "lusqtoff-tbl16-7", "spec_key": "capacidad_mandril", "from": "3–16 mm (B16)", "raw_value": "16 mm", "normalized_value": 16.0,
+   "reason": "La ficha Lüsqtoff recuperada declara «Mandril: 16 mm»; no publica el mínimo de 3 mm."},
+  {"slug": "lusqtoff-iron-100", "spec_key": "corriente_maxima", "from": "105 A al 30% declarado", "raw_value": "105 A", "normalized_value": 105.0,
+   "condition": "Ciclo de trabajo MMA 30 %",
+   "reason": "La ficha Lüsqtoff recuperada declara «Ciclo de trabajo MMA: 30% @ 105 A»; el ciclo pasa a la condición del valor."},
+  {"slug": "lusqtoff-tbl710-9d", "spec_key": "velocidad_variable", "from": "500–2.600 rpm", "raw_value": "170–880 / 490–2.600 rpm", "normalized_value": null,
+   "reason": "La ficha Lüsqtoff recuperada declara dos rangos por posición de correa: 170-880 r/min y 490-2600 r/min."}
+]

@@ -1,0 +1,342 @@
+
+[PÁGINA 1]
+MANUAL DE USUARIO
+LC-0122
+COMPRESOR DE AIRE
+
+[PÁGINA 2]
+ACEITE DE COMPRESOR DE AIRE
+1 .Con las características de bajo nivel de ruido, ahorro de energía, protec-
+ción del medio ambiente y utilizado de forma segura, esta máquina es 
+ampliamente utilizado en los campos de la medicina, el saneamiento, 
+materia de comida, pruebas científicas y así sucesivamente.
+2. Uso del interruptor de presión:
+1) interruptor de presión .Gire con estado "encendido" o "auto", conecte la 
+alimentacióna continuación, la máquina podría comenzar. Si no es así, 
+reducir la presión del tanque hasta 0.4Mpa inferior.
+2) Interruptor de presión .Gire con "off", corte la electricidad, se detendrá 
+trabajando normalmente.
+3) Con una válvula de seguridad en el interruptor de presión. Cuando el 
+tanque de aire
+0.9Mpa presión supera, la válvula de seguridad será advertido con 
+zumbidos y la presión de descarga de forma automática. Cuando se 
+produce esta condición, por favor, comprobar y reparar el interruptor de 
+presión, asegúrese de que su trabajo, presión sin exceder el uno clasificado.
+4) Una vez al día fuera de trabajo, por favor tire un cartucho del sepetator 
+por dedo, asegurado agotar todo el agua de ella por completo. (Puede ser 
+algún cliente hubiera llevado el compresor de aire sin aceite-separador, 
+por lo que es innecesario para dar cumplimiento a la exigencia 
+mencionadamentos).
+5)  El dado de alta presión del aire puede ser ajustado por el mando de la
+separador de aceite, con giro a la derecha, se le aumentará descargada
+presión, con el máximo. uno está arriba a la presión del tanque de aire,
+ y viceversa.
+6) Si es necesario, ajuste la presión de trabajo de la presión Interruptor, 
+en primer lugar, retire la cubierta del interruptor de presión, ajustar el 
+tornillo M6 u otras herramientas adecuadas, por ejemplo la llave. Con el 
+sentido de la hora  para aumentar la presión de trabajo, y viceversa.
+ADVERTENCIAS: 
+Para garantizar a operar con seguridad, por favor cortan
+desconecte la alimentación antes de los procedimientos mencionados anteriormente.
+
+[PÁGINA 3]
+02
+Requisitos para el uso
+1) El entorno de almacenamiento y transporte debe ser controlado betw
+een-40c y 50º C, el humidity≤ relativa del 95%.
+2) El entorno de trabajo debe mantenerse seco, limpio y bien ventilado,
+la temperatura ambiente de entre-5ºC y 40ºC, la humedad ≤80%.
+3) Mantener la máquina fuera de la wed, inflamables, polvoriento 
+condiciones.
+4)  Mantener la máquina en la tierra plana y sin ninguna inclinación.
+5)  El voltaje no debe reducir o superar el 10% de la nominal.
+6)  En. Para evitar cualquier lesiona, está prohibido tocar ninguno de alto
+partes de temperatura una vez en el curso del trabajo, tales como el 
+cilindro cabeza, tubo de escape, válvula de una vía y así sucesivamente.
+7)  Por favor, mantenga la sección transversal de cable≥1.5mm² eléctrica, 
+y con la longitud adecuada.
+8)  El uso se limita a suministrar cualquier fuente de aire para herramien-
+tas de aire, no debe señalar a nadie ni otros animales directamente.
+9)  Por favor, garantizar la máquina en el estado "OFF" antes de encender. 
+10) Prohibido cualquier choque. Con el fin de evitar cualquier movimientos 
+contra cualquier presión exteriores, se deben adoptar medidas eficaces 
+prácticas con prontitud.
+ Mantenimiento:
+Atención especial: Con el fin de evitar cualquier lesión, todo el manteni-
+miento debe usarse con la energía apagada y asegurarse de que no hay 
+presión en el tanque.
+1) Para mantener el compresor de aire limpio siempre.
+2)Limpie el tanque por lo menos dos veces por semana.
+Una vez operativo, debe asegurarse de que la presión del tanque de aire 
+por debajo 0.1Mpa.
+3) Para mantener la válvula de seguridad precisa en cualquier condición, 
+cuando el tanque de airealcance la presión de entre 0,5 y 0.7Mpa, por 
+favor tire de la válvula de seguridad, se podrá descargar libremente, si el 
+eje de prensa, que se pondrá a cero.
+4) Limpie la válvula de aire por cada 500 horas de uso, y sustituir el
+elemento silenciador. Vuelva a colocar el anillo de pistón por cada 1500 
+horas.
+
+[PÁGINA 4]
+03
+5) tome la prueba de presión para el tanque de aire por cada 2 años y se 
+les la superficie doble anualmente. Si presenta oxidación, chocan o falla 
+la prueba, debe ser descartado como inútil.
+6) Para liberar toda tanque de presión del tanque de aire, y luego moverlo 
+libremente.
+Solución de problemas de gráfico
+
+
+[PÁGINA 5]
+04
+TABLA DE SOLUCIONES 
+PROBLEMA POSIBLES CAUSAS SOLUCIÓN 
+El compresor no funciona. 1.No hay energía  
+2.saltó un fusible 
+3.El interruptor está abierto. 
+4.térmica abierta. 
+5.La presión es mala. 
+1.Enchufar/compruebe el fusible. 
+2.Reemplace el fusible. 
+3.Reestableces el interruptor 
+4.El motor volverá a arrancar 
+cuando esté frío. 
+5.Contacto con el servicio técnico 
+El motor Zumba pero no arranca. 1.voltaje bajo. 
+2.Cortocircuito. 
+3.Válvula de interruptor 
+defectuosa 
+4.Aire comprimido. 
+1.Chequear con 
+voltímetro(105v.min.) 
+2.Contacto con servicio técnico 
+3.Contacto con servcio técnico 
+4.Apague por 15segundos y 
+vuélvalo a prender. 
+Fusibles interruptor de 
+soplado / circuito 
+se dispara repetidamente 
+¡¡PRECAUCIÓN!! 
+NO USAR UNA 
+EXTENSIÓN 
+CABLE CON ESTE 
+PRODUCTO! 
+ 
+1.Tamaño incorrecto, circuito 
+sobrecargado. 
+2.Válvula defectuosa. 
+1.Compruebe si el fusible es el 
+adecuado. Desconectar los 
+aparatos eléctricos u operar el 
+compresor en su propio circuito. 
+2.Contactar al servicio técnico. 
+Protector de sobrecarga térmica. 1.Conexiones sueltas, accesorios, 
+tubos.  
+2. Grifo de desague abierto 
+3.Chequear si la válvula tiene 
+fuga. 
+1.Verificar que no haya fuga de 
+aire,uso de sellado, cinta en todas 
+las conexiones. 
+2.Apriete el grifo de purge. 
+3. Desmontar la válvula de 
+chequeo.Limpiar o 
+reemplazar.¡¡PELIGRO!! 
+NO DESARME ,VERIFICAR LA 
+VALVULA CON AIRE EN EL 
+TANQUE. 
+ 
+Exceso de humedad, 
+sobrealimentación. 
+1.Excesiva agua en el tanque. 
+2.Humedad alta. 
+3.Filtro de entrada obstruido. 
+1.Escurrir.  
+2.Mover el compresor a un área 
+de menos humedad. Usar una 
+línea de filtro. 
+3.Limpiar o reemplazar el filtro. 
+El compresor funciona 
+continuamente. 
+1.Presión de encendido 
+defectuso. 
+2.Uso excesivo de aire. 
+1.Reemplazar. 
+2.El compresor no es lo 
+suficientemente largo. CFM 
+requisito o herramienta neumática 
+El compresor vibra. 1.Pernos de montajes flojos. 
+2.Pies de tanque de goma 
+desgastados/faltantes. 
+1.Apretar. 
+2.Remplazar. 
+Salida de aire baja 1.Abrir el grifo de purga. 
+2Filtro sucio. 
+3.Conexiones de fuga. 
+1.Apretar el grifo de purga. 
+2.Limpiar o reemplazar el filtro. 
+3.Ajustar las conexiones. 
+ 
+
+[PÁGINA 6]
+05
+DESPIECES
+NO DESCRIPTION Q.TY NO DESCRIPTION Q.TY 
+1 SIDE COVER 2 18 VALVE PLATE 2 
+2 LEFT FAN 1 19 INTAKE VALVE 2 
+3 LEFT CRANKCASE 1 20 METAL CUSHION 2 
+4 CONNECT ROD 2 21 RIGHT FAN 1 
+5 PISTON RING 2 22 CRANK 2 
+6 FASTEN PLATE 2 23 BEARING 6006-2Z 2 
+7 SCREW M6*16 2 24 SCREW M6*8 4 
+8 CYLINDER 2 25 SCREW M5*20 2 
+9 CYLINDER SEAL RING 2 26 RIGHT CRANKCASE 1 
+10 CYLINDER COVER SEAL RING 2 27 WIRE FASTEN RING 1 
+11 CYLINDER COVER 2 28 BOLT M5*152 2 
+12 SCREW M5*25 12 29 SCREW M5*120 2 
+13 “O” SEAL RING 4 30 SPRING CUSHION Ô5 4 
+14 CONNECT PIPE 2 31 STATOR 1 
+15 SCREW M4*6 4 32 BOLT 2 
+16 FASTEN PART 2 33 ROTOR 1 
+17 EXHAUST VALVE 2  BEARING 6203-2Z  
+ 
+CUBIERTA DE LADO
+VENTILADOR IZQUIERDO
+CARTER IZQUIERDO
+CAJA DEL SIGUÑAL
+ANILLO DE PISTÓN
+PLACA DE PRENDA
+TORNILLO M6 * 16
+CILINDRO
+CILINDRO SELLO ANILLO
+CILINDRO CUBIERTA SELLO ANILLO
+CILINDRO CUBIERTA
+TORNILLO M5 * 25
+"O" anillo de sello
+CONEXIÓN DE TUBO
+TORNLLO M4 * 6S
+SUJETAR
+VÁLVULA DE ESCAPE
+PLACA DE LA VÁLVULA
+VÁLVULA DE ADMISIÓN
+COJIN METAL
+VENTILADOR DERECHO
+MANIVELA
+TENIENDO 6006-2Z
+TORNILLO M6 * 8
+TORNILLO M5 * 20
+CÁRTER DERECHO
+CABLE DE PRENDA ANILLO
+TORNILLO M5 * 152
+TORNILLOT M5 * 120
+MUELLE AMORTIGUADOR O5
+ESTÁTOR
+TORNILLO
+ROTOR
+
+[PÁGINA 7]
+06
+NO DESCRIPTION Q.TY NO DESCRIPTION Q.TY 
+1 SCREW ST4.2 4 20 SCREW M4*6 4 
+2 SIDE COVER 2 21 FASTEN PART 2 
+3 LEFT FAN 1 22 EXHAUST VALVE 2 
+4 SCREW M5 4 23 VALVE PLATE 2 
+5 LEFT CRANKCASE 1 24 INTAKE VALVE 2 
+6 ADJUSTABLE HOLDER 12 25 METAL CUSHION 2 
+7 SCREW M5*20 2 26 FAN 1 
+8 CONNECT ROD 2 27 CRANK 2 
+9 PISTON RING 2 28 BEARING 6908-2Z 2 
+10 FASTEN PLATE 2 29 SCREW M6*8 4 
+11 SCREW M6*16 2 30 BEARING RING Ô 40 2 
+12 CYLINDER 2 31 RIGHT CRANKCASE 1 
+13 CYLINDER SEAL RING 2 32 WIRE FASTEN RING 1 
+14 CYLINDER COVER SEAL RING 2 33 SCREW M5*182 4 
+15 CYLINDER COVER 2 34 SPRING CUSHION Ô5 4 
+16 SCREW M6*65 12 35 STATOR 1 
+17 SPRING CUSHION Ô6 12 36 ROTOR 1 
+18 “O” SEAL RING 4 37 BEARING 6204-2Z 2 
+19 CONNECT PIPE 2    
+ 
+DESPIECES
+ST4.2 TORNILLO
+CUBIERTA LATERAL
+VENTILADOR IZQUIERDO
+TORILLO M5
+CARTER IZQUIERDO
+SOPORTE AJUSTABLE
+TORNILLO M5 * 20
+CONECTOR ROD
+ANILLO DE PISTÓN
+PLACA DE PRENDA
+TORILLO M6 * 16
+CILINDRO
+CILINDRO SELLO ANILLO
+CILINDRO CUBIERTA SELLO ANILLO
+CILINDRO CUBIERTA
+TORNILLO M6 * 65
+MUELLE AMORTIGUADOR O6
+"O" anillo de sello
+CONECTOR DE TUBO
+TORNILLO M4 * 6
+FIJAR LA PARTE
+VÁLVULA DE ESCAPE
+PLACA DE LA VÁLVULA
+VÁLVULA DE ADMISIÓN
+COJIN METAL
+VENTILADOR
+MANIVELA
+TORNILLO M6 * 8
+TENIENDO JUNTA TÓRICA 40
+CÁRTER DERECHO
+CABLE DE PRENDA ANILLO
+TORNILLO M5 * 182
+MUELLE AMORTIGUADOR O5
+ESTÁTOR
+ROTOR
+
+[PÁGINA 8]
+¡ESTAMOS EN CONTACTO!
+Para consultas, reclamos o asesoramiento envianos un 
+correo electrónico a: asistenciatecnica@lusqtoff.com.ar 
+Podés encontrar todos los repuestos de nuestras herramientas 
+en los  Servicios Técnicos Oﬁciales: www.lusqtoff.com.ar/service
+8. GARANTÍA
+LUSQTOFF garantiza este producto por el término de 2 (dos) años, contados a partir de la 
+fecha de la compra, asentada en la factura que deberá preservar ante cualquier reclamo o 
+reparación ante el Servicio Técnico Oﬁcial.
+PRESCRIPCIONES DE LA GARANTÍA 
+1. Los productos marca LUSQTOFF están garantizadas contra eventuales defectos de 
+fabricación debidamente comprobados.
+2. Dentro del período de garantía de las piezas o componentes que se compruebe, a juicio 
+exclusivo de nuestros técnicos, que presenten defectos de fabricación, serán reparados o 
+sustituidos en forma gratuita por los Servicios Técnicos Oﬁciales con la presentación de la 
+factura de compra. 
+3. Para efectivizar el cumplimiento de la garantía, el comprador podrá optar por presentar 
+el producto junto con su factura de compra en cualquiera de nuestros Servicios Técnicos 
+Oﬁciales especializados en cada producto. Para consultar la lista de service oﬁciales
+ingresá a nuestro sitio web: www.lusqtoff.com.ar/service
+NO ESTÁN INCLUÍDOS EN LA GARANTÍA 
+Los defectos originados por: 
+1. Uso inadecuado de la herramienta.
+2. Falta de mantenimiento y cuidado del producto. 
+3. Instalaciones eléctricas deﬁcientes.
+4. Conexión de las herramientas en voltajes inadecuados.
+5. Desgaste natural de las piezas. 
+6. Los daños ocasionados por aguas duras o sucias en hidrolavadoras y bombas de agua. 
+7. Daños por golpes, aplastamiento o abrasión. 
+8. En los motores nafteros, los daños ocasionados por mezclas incorrectas nafta-aceite en 
+los motores 2T y falta de lubricación en los motores 4T; y en los motores diésel, combusti-
+ble de mala calidad.  
+ATENCIÓN 
+1. Esta garantía caduca automáticamente si la herramienta fue abierta por terceros. 
+2. Este producto sólo deberá ser utilizado bajo las especiﬁcaciones que ﬁguran en el 
+manual de uso de dicho producto. En caso contrario se perderá la garantía del producto. 
+3. Conserve la factura de compra para futuros reclamos. 
+
+[PÁGINA 9]
+¡CAPACITATE CON NOSOTROS!
+Sumate a nuestro grupo de Facebook
+ "Capacitaciones LUSQTOFF" 
+¡DESCARGÁ
+CONTENIDO EXCLUSIVO!
+ www.lusqtoff.com.ar/comunidadlusqtoff

@@ -1,0 +1,499 @@
+[
+  {
+    "slug": "dewalt-dws780",
+    "marca": "DeWalt",
+    "modelo_base": "DWS780",
+    "nombre_comercial": "Sierra ingletadora telescópica de 12 pulgadas (305 mm)",
+    "categoria": "sierras",
+    "guia_url": "/sierras/ingletadoras-dewalt/",
+    "estado_general": "ALERTA_OFICIAL",
+    "revisado_por": "TallerLab · revisión documental asistida",
+    "fecha_revision": "2026-10-03",
+    "resumen_editorial": "Expediente con campañas de seguridad emitidas en Argentina, Chile y EE. UU. por problema en la guarda posterior de plástico. Las fuentes consultadas difieren en el nivel de detalle: el recall estadounidense especifica rangos de códigos de fecha y excepciones por puntos de color; la notificación chilena incluye el código DWS780-AR en su alcance de distribución; y la notificación argentina registra los modelos sin detallar series ni procedimiento de gratuidad en su planilla oficial.",
+    "variantes": [
+      {
+        "codigo": "DWS780-AR",
+        "tipo_revision": "Tipo 20",
+        "alimentacion": "220 V / 50 Hz",
+        "codigo_barras": "885911235112",
+        "mercado": "Argentina",
+        "notas": "Versión comercializada en Argentina con enchufe local IRAM y motor de 1.675 W. Código de barras EAN 885911235112 listado en el reporte de Black & Decker de Chile a SERNAC."
+      },
+      {
+        "codigo": "DWS780-B2",
+        "tipo_revision": "Tipo 20",
+        "alimentacion": "220 V / 50 Hz",
+        "codigo_barras": "885911235105",
+        "mercado": "Chile y Latinoamérica",
+        "notas": "Versión de 220 V comercializada en mercados regionales fuera de Argentina."
+      },
+      {
+        "codigo": "DWS780",
+        "tipo_revision": "Tipo 1 a 20",
+        "alimentacion": "110-120 V / 60 Hz",
+        "codigo_barras": "88591123160",
+        "mercado": "Estados Unidos y Canadá",
+        "notas": "Versión norteamericana de 15 A. Requiere transformador si se utiliza en Argentina; no unificar con la variante regional -AR."
+      }
+    ],
+    "documentacion": {
+      "manual_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS780/20/Instruction_Manual/EN/N141264_DWS780.pdf",
+      "manual_rotulo": "Manual regional oficial DeWalt DWS780-AR Tipo 20 (220 V / 50 Hz)",
+      "despiece_url": "https://www.toolservicenet.com/",
+      "despiece_rotulo": "Buscador de despieces en Toolservicenet (ingresar modelo DWS780 y Tipo 20)",
+      "ficha_url": "https://www.adbarbieri.com/hubfs/WEB2018/especificaciones-tecnicas/Dewalt-catalogo.pdf?hsLang=es",
+      "ficha_rotulo": "Catálogo técnico 2018 DeWalt Argentina (archivo alojado por distribuidor AD Barbieri)",
+      "garantia_meses": null,
+      "garantia_detalle": "Plazo y condiciones pendientes de cotejo con la póliza del fabricante aplicable a esta variante y al mercado argentino.",
+      "servicio_oficial": "Consultar la red vigente de talleres autorizados en el portal oficial del fabricante para Argentina.",
+      "baterias_compatibles": "No aplica (herramienta eléctrica de banco alimentada por red de 220 V con cable)."
+    },
+    "alertas": [
+      {
+        "id_aviso": "tl-arg-dnc-dws780",
+        "organismo": "Defensa del Consumidor",
+        "pais_mercado": "Argentina",
+        "fecha": "2023-05-09",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Notificación oficial de alerta y retiro",
+        "modelos_afectados": "DWS780, DWS779 y DHS790 de 12 pulgadas",
+        "identificacion_lotes_series": "No informado en la planilla oficial de Defensa del Consumidor (la fila registra la fecha de notificación y los modelos sin rangos de número de serie).",
+        "periodo_comercializacion": "No informado en la planilla oficial de Defensa del Consumidor.",
+        "ubicacion_identificador": "Placa de identificación del equipo.",
+        "unidades_involucradas": "No informado en el registro nacional.",
+        "excepciones_expresas": "No documentadas en el registro oficial nacional argentino. (Las marcas de punto verde o negro corresponden al recall de CPSC en EE. UU. y no figuran en la fila oficial argentina).",
+        "defecto_riesgo": "Posible problema de seguridad con el protector trasero de plástico que puede derivar en un riesgo de dañar a alguien. Clasificación oficial de riesgos en la planilla: muerte, lesiones y laceración.",
+        "accion_oficial": "Notificación registrada en el sistema oficial de alertas. La planilla oficial no detalla el procedimiento de retiro ni la gratuidad del reemplazo; contactar a Stanley Black & Decker Argentina / red de servicios técnicos autorizados para verificar la campaña local.",
+        "enlace_original": "https://www.argentina.gob.ar/produccion/defensadelconsumidor/alertas-de-productos",
+        "evidencia_fuente": {
+          "url": "https://docs.google.com/spreadsheets/d/1eUlKJFk-TYgZcmNd1-OMkMKSpeIOyNIgL4frzkKUnWs/gviz/tq?tqx=out:csv",
+          "extracto_oficial": "Fila 284: Fecha: 2023/05/09 | Marca: Dewalt | Producto: DWS780, DWS779 y DHS790 de 12 pulgadas | Defecto: Las sierras ingleteadoras deslizantes de doble bisel marca DEWALT modelos DWS780, DWS779 y DHS790 de 12 pulgadas por el posible problema de seguridad con el protector trasero que puede derivar en un riesgo de dañar a alguien. | Riesgos: Muerte, lesiones y laceración",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "2f91448962e3dd73ba124883a9e13561b0cb976351910e7e166d14bdb39de2f4",
+          "captura_respuesta": "f0b8927c193fba8f87a56b0d211a3d5af4f66860d5c4179b385f4f826581687b",
+          "tipo_captura": "Aviso obtenido de la fuente oficial; aprobación de la versión publicada pendiente de cotejo"
+        },
+        "referencia_ingestion": {
+          "fuente": "defensa_consumidor_ar",
+          "id_externo": "arg-dnc-890b8da4d7c4"
+        }
+      },
+      {
+        "id_aviso": "SNC-23030H03",
+        "organismo": "SERNAC",
+        "pais_mercado": "Chile",
+        "fecha": "2023-04-11",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Alerta de seguridad",
+        "modelos_afectados": "Sierras ingleteadoras telescópicas 12'' Dewalt DWS780, DWS779 y DHS790 comercializadas en Chile.",
+        "identificacion_lotes_series": "Códigos informados por la empresa: DWS780 (88591123160), DWS780-AR (885911235112), DWS780-B2 (885911235105), DHS790AB (885911461900).",
+        "periodo_comercializacion": "Abril 2019 a octubre 2022 en Chile.",
+        "ubicacion_identificador": "Placa de identificación y códigos de barra de producto.",
+        "unidades_involucradas": "2.365 unidades en Chile (2.035 en consumidores, 328 en stock, 2 en distribución).",
+        "excepciones_expresas": "El aviso SERNAC no detalla excepciones por puntos de color (esas excepciones pertenecen al recall estadounidense de CPSC). La inclusión del código DWS780-AR acredita que ese código se distribuyó en Chile, pero no sustituye las instrucciones locales para unidades en Argentina.",
+        "defecto_riesgo": "Problema de seguridad con el protector trasero (guarda posterior de plástico) que podría romperse con el uso, implicando riesgo de lesiones al utilizar la herramienta.",
+        "accion_oficial": "Reemplazo gratuito del protector trasero en la red de servicio técnico de Chile informada por Máquinas y Herramientas Black & Decker de Chile S.A.",
+        "enlace_original": "https://www.sernac.cl/portal/619/w3-article-71696.html",
+        "evidencia_fuente": {
+          "url": "https://www.sernac.cl/portal/619/w3-article-71696.html",
+          "extracto_oficial": "Código campaña SERNAC: 23030H03. Período de ventas: abril 2019 a octubre 2022. Códigos: DWS780: 88591123160, DWS780-AR: 885911235112, DWS780-B2: 885911235105, DHS790AB: 885911461900. Defecto: protector trasero (guarda posterior de plástico) podría romperse con el uso.",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "ac7daf12b80056ad232993a466aaad8a111b6f5441786dc7f2e629a938e6fb15",
+          "fecha_captura": "2026-10-04T00:23:10.529441+00:00",
+          "tipo_captura": "Página oficial consultada; cotejo editorial de campos conservado por separado"
+        }
+      },
+      {
+        "id_aviso": "CPSC-22196",
+        "organismo": "CPSC",
+        "pais_mercado": "Estados Unidos y Canadá",
+        "fecha": "2022-08-04",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Retiro voluntario (Recall)",
+        "modelos_afectados": "DeWALT Models DWS779, DWS780 and DHS790 Miter Saws.",
+        "identificacion_lotes_series": "Date codes 2019 04 through 2022 04.",
+        "periodo_comercializacion": "April 2019 through May 2022 in the United States and Canada.",
+        "ubicacion_identificador": "Tapa de plástico negra del extremo del motor adyacente a la placa de serie (para DWS779 y DWS780); carcasa plástica exterior amarilla adyacente a las baterías (para DHS790).",
+        "unidades_involucradas": "Aprox. 1.364.000 unidades en EE. UU. y aprox. 118.600 en Canadá.",
+        "excepciones_expresas": "Only saws without a green dot on the name plate or a black dot on the arm of the saw are included in this recall.",
+        "defecto_riesgo": "The miter saw's rear safety guard can break or detach, posing an injury hazard due to projectiles and a laceration hazard.",
+        "accion_oficial": "Consumers should immediately stop using the recalled miter saws and contact DeWALT for details on how to receive a free repair kit or take their saw to a DeWALT service center for a free repair in the United States and Canada.",
+        "enlace_original": "https://www.cpsc.gov/Recalls/2022/DeWALT-Recalls-Nearly-1-4-Million-Miter-Saws-Due-to-Injury-and-Laceration-Hazards",
+        "evidencia_fuente": {
+          "url": "https://www.cpsc.gov/Recalls/2022/DeWALT-Recalls-Nearly-1-4-Million-Miter-Saws-Due-to-Injury-and-Laceration-Hazards",
+          "extracto_oficial": "Recall date: August 4, 2022. Recall number: 22-196. Date codes: 2019 04 through 2022 04. Only saws without a green dot on the name plate or a black dot on the arm are included.",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "63162413e5d97e6b2e57660523a751dca417292ead729ad61670078d2ca4310e",
+          "captura_respuesta": "a4dd39fcb0bcdae3b7558a81c5308d6973d8dddc03233d5b3fdb5c6063e85965",
+          "tipo_captura": "Aviso obtenido de la fuente oficial; aprobación de la versión publicada pendiente de cotejo"
+        }
+      }
+    ],
+    "fuentes_consultadas": [
+      {
+        "fuente": "Defensa del Consumidor (Argentina)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Notificación oficial confirmada en planilla nacional (Fila 284: DWS780, DWS779 y DHS790; protector trasero)."
+      },
+      {
+        "fuente": "SERNAC (Chile)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Campaña 23030H03 confirmada (código DWS780-AR documentado en reporte de distribución en Chile)."
+      },
+      {
+        "fuente": "CPSC API (Estados Unidos)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Recall #22196 confirmado en API SaferProducts (date codes 2019 04 a 2022 04)."
+      },
+      {
+        "fuente": "Toolservicenet (Stanley Black & Decker)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Manual regional Tipo 20 en 220 V verificado; buscador oficial de despiece identificado."
+      }
+    ]
+  },
+  {
+    "slug": "dewalt-dw8307",
+    "marca": "DeWalt",
+    "modelo_base": "DW8307",
+    "nombre_comercial": "Disco de lija traslapado (Flap) 4-1/2 pulgadas",
+    "categoria": "amoladoras",
+    "guia_url": "/amoladoras/disco-flap/",
+    "estado_general": "ALERTA_OFICIAL",
+    "revisado_por": "TallerLab · revisión documental asistida",
+    "fecha_revision": "2026-10-03",
+    "resumen_editorial": "La alerta chilena SERNAC retira el lote #3531 del modelo DW8307 y excluye expresamente DW8307-AR. Las consultas negativas de otras fuentes están pendientes de revalidación documental.",
+    "variantes": [
+      {
+        "codigo": "DW8307",
+        "tipo_revision": "Grano 60 / 115 mm",
+        "alimentacion": "Accesorio para amoladora",
+        "codigo_barras": "No especificado en aviso chileno",
+        "mercado": "Chile",
+        "notas": "Unidades vendidas individualmente o en pack DW8306 SET en Chile (agosto a septiembre 2016), correspondientes al lote de producción #3531."
+      },
+      {
+        "codigo": "DW8307-AR",
+        "tipo_revision": "Grano 60 / 115 mm regional",
+        "alimentacion": "Accesorio para amoladora",
+        "codigo_barras": "Variante para Argentina",
+        "mercado": "Argentina",
+        "notas": "EXCLUIDO EXPRESAMENTE del retiro oficial chileno según la Nota 2 del aviso de SERNAC ('Los discos modelo DW8307-AR no son parte del retiro')."
+      }
+    ],
+    "documentacion": {
+      "manual_url": null,
+      "manual_rotulo": "Consumible abrasivo: indicaciones de uso y revoluciones máximas impresas en el rotulado del disco (normas ANSI B7.1 / EN 13743)",
+      "despiece_url": null,
+      "despiece_rotulo": "No aplica (accesorio monobloque sin despiece de partes)",
+      "ficha_url": null,
+      "ficha_rotulo": "Ficha comercial estándar de abrasivos (no hay documento técnico individual público)",
+      "garantia_meses": null,
+      "garantia_detalle": "Plazo y condiciones pendientes de cotejo con la póliza del fabricante aplicable a esta variante y al mercado argentino.",
+      "servicio_oficial": "Consultar la red vigente de talleres autorizados en el portal oficial del fabricante para Argentina.",
+      "baterias_compatibles": "No aplica (accesorio para amoladoras angulares de 115 mm / eje estándar M14)."
+    },
+    "alertas": [
+      {
+        "id_aviso": "SNC-5107",
+        "organismo": "SERNAC",
+        "pais_mercado": "Chile",
+        "fecha": "2016-12-01",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Alerta de seguridad con exclusión específica",
+        "modelos_afectados": "Discos de lija traslapados DeWalt DW8307 y Pack de ahorro DW8306 SET vendidos en Chile.",
+        "identificacion_lotes_series": "Lote de producción # 3531.",
+        "periodo_comercializacion": "Agosto 2016 a septiembre 2016 en Chile.",
+        "ubicacion_identificador": "Impreso en el centro / respaldo del disco abrasivo.",
+        "unidades_involucradas": "4.080 unidades en Chile (920 en consumidores).",
+        "excepciones_expresas": "EXCLUSIÓN EXPLÍCITA TEXTUAL: '*Nota 2: Los discos modelo DW8307-AR no son parte del retiro*'. El disco DW8309 tampoco está alcanzado.",
+        "defecto_riesgo": "Defecto en el proceso térmico de curado en horno: el adhesivo no pegó correctamente en las unidades del lote #3531. Aletas de papel de lija pueden desprenderse a 11.000–13.000 rpm con riesgo de heridas leves y laceraciones.",
+        "accion_oficial": "Retiro del producto defectuoso coordinado por correo con Black & Decker Chile; opción de disco nuevo de reemplazo o devolución del dinero pagado en Chile.",
+        "enlace_original": "https://www.sernac.cl/portal/618/w3-article-5107.html",
+        "evidencia_fuente": {
+          "url": "https://www.sernac.cl/portal/618/w3-article-5107.html",
+          "extracto_oficial": "Identificación: Disco de lija traslapado DeWalt DW8307... Nota 2: Los discos modelo DW8307-AR no son parte del retiro. Lote: # 3531. Comercialización en Chile: Agosto 2016 - Septiembre 2016.",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "e3578a0a8fef9523a2b6171aa2450d789f8c0eb654959c25f98cd56749dac696",
+          "fecha_captura": "2026-10-04T00:23:11.989834+00:00",
+          "tipo_captura": "Página oficial consultada; cotejo editorial de campos conservado por separado"
+        }
+      }
+    ],
+    "fuentes_consultadas": [
+      {
+        "fuente": "SERNAC (Chile)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Alerta 5107 confirmada para lote #3531 con exclusión expresa de DW8307-AR."
+      },
+      {
+        "fuente": "Defensa del Consumidor (Argentina)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "PENDIENTE",
+        "resultado": "Revisión declarada en el registro anterior sin captura ni parámetros archivados. Pendiente de revalidación para este modelo.",
+        "resultado_legacy": "Registro nacional consultado (532 filas); sin alertas para DW8307 ni DW8307-AR. Esto no acredita ausencia de incidentes no reportados al organismo.",
+        "evidencia_consulta": false
+      },
+      {
+        "fuente": "CPSC API (Estados Unidos)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "PENDIENTE",
+        "resultado": "Revisión declarada en el registro anterior sin captura ni parámetros archivados. Pendiente de revalidación para este modelo.",
+        "resultado_legacy": "API SaferProducts consultada; sin alertas registradas para DW8307.",
+        "evidencia_consulta": false
+      }
+    ]
+  },
+  {
+    "slug": "makita-dgp180",
+    "marca": "Makita",
+    "modelo_base": "DGP180",
+    "nombre_comercial": "Engrasadora inalámbrica 18V LXT",
+    "categoria": "mantenimiento",
+    "guia_url": null,
+    "estado_general": "ALERTA_OFICIAL",
+    "revisado_por": "TallerLab · revisión documental asistida",
+    "fecha_revision": "2026-10-03",
+    "resumen_editorial": "Campaña de seguridad confirmada en Argentina (notificada por Makita Herramientas de Argentina S.A.) y en Chile por perforación en la manguera flexible de engrase con riesgo de inyección de fluido a alta presión. En EE. UU. la plataforma equivalente XPG01 cuenta con recall CPSC #25455 por rotura de mangueras de la misma serie.",
+    "variantes": [
+      {
+        "codigo": "DGP180",
+        "tipo_revision": "18 V LXT",
+        "alimentacion": "Batería 18 V Li-Ion",
+        "codigo_barras": "0088381883313",
+        "mercado": "Argentina, Chile e internacional",
+        "notas": "Modelo completo con manguera flexible original de 1,2 metros y acople hidráulico."
+      },
+      {
+        "codigo": "DGP180ZB",
+        "tipo_revision": "18 V LXT (Solo herramienta)",
+        "alimentacion": "Batería 18 V Li-Ion",
+        "codigo_barras": "0088381883320",
+        "mercado": "Argentina",
+        "notas": "Versión suministrada sin batería ni cargador. Mencionada expresamente en la notificación argentina de Defensa del Consumidor."
+      },
+      {
+        "codigo": "XPG01Z / XPG01SR1 / XPG01S1",
+        "tipo_revision": "18 V LXT (Plataforma EE. UU.)",
+        "alimentacion": "Batería 18 V Li-Ion",
+        "codigo_barras": "Códigos norteamericanos",
+        "mercado": "Estados Unidos y Canadá",
+        "notas": "Plataforma equivalente para el mercado estadounidense alcanzada por el recall CPSC #25455 (mangueras 191A79-9, 191A80-4, 191W58-9, 191W59-7)."
+      }
+    ],
+    "documentacion": {
+      "manual_url": "https://www.makita.com.ar/",
+      "manual_rotulo": "Buscador oficial de manuales en Makita Argentina (ingresar DGP180)",
+      "despiece_url": "https://www.makita.com.ar/",
+      "despiece_rotulo": "Buscador oficial de despieces en Makita Argentina (ingresar DGP180)",
+      "ficha_url": null,
+      "ficha_rotulo": "Ficha técnica individual pendiente de localizar en la fuente oficial.",
+      "garantia_meses": null,
+      "garantia_detalle": "Plazo y condiciones pendientes de cotejo con la póliza del fabricante aplicable a esta variante y al mercado argentino.",
+      "servicio_oficial": "Consultar la red vigente de talleres autorizados en el portal oficial del fabricante para Argentina.",
+      "baterias_compatibles": "Compatibilidad de baterías pendiente de cotejo con el manual oficial de la variante exacta; consultar a Makita Argentina."
+    },
+    "alertas": [
+      {
+        "id_aviso": "tl-arg-dnc-dgp180",
+        "organismo": "Defensa del Consumidor",
+        "pais_mercado": "Argentina",
+        "fecha": "2025-04-14",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Notificación oficial de alerta y retiro",
+        "modelos_afectados": "Pistola de grasa recargable DGP180/DGP180ZB",
+        "identificacion_lotes_series": "No informado en la planilla oficial de Defensa del Consumidor (la fila registra la fecha de notificación y los modelos sin rangos de número de serie).",
+        "periodo_comercializacion": "No informado en la planilla oficial de Defensa del Consumidor.",
+        "ubicacion_identificador": "Placa de características de la herramienta.",
+        "unidades_involucradas": "No informado en el registro nacional.",
+        "excepciones_expresas": "No informadas en la planilla oficial de Defensa del Consumidor.",
+        "defecto_riesgo": "La manguera se rompió mientras usaban el producto, causándoles lesiones leves en los dedos. Como resultado de la inspección, descubrieron que doblar repetidamente la punta de la manguera e inyectar grasa en un espacio estrecho provocaba que se formara un agujero cerca de la punta de la manguera, haciendo que la grasa saliera disparada. Clasificación oficial de riesgos: lesiones y daños materiales.",
+        "accion_oficial": "Notificación registrada por Makita Herramientas de Argentina S.A. en el registro nacional. La planilla no detalla el procedimiento de retiro ni la gratuidad del reemplazo; consultar con Makita Argentina para verificar el procedimiento local.",
+        "enlace_original": "https://www.argentina.gob.ar/produccion/defensadelconsumidor/alertas-de-productos",
+        "evidencia_fuente": {
+          "url": "https://docs.google.com/spreadsheets/d/1eUlKJFk-TYgZcmNd1-OMkMKSpeIOyNIgL4frzkKUnWs/gviz/tq?tqx=out:csv",
+          "extracto_oficial": "Fila 411: Fecha: 2025/04/14 | Marca: Makita Herramientas de Argentina S.A | Producto: Pistola de grasa recargable DGP180/DGP180ZB | Defecto: La manguera se rompió mientras usaban el producto, causándoles lesiones Leves en los dedos... perforación cerca de la punta de la manguera... | Riesgos: Lesiones, daños materiales",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "dc8e639917e7e9c473a9dd93c519b0bfc35dc459ff75f3ce9d172702a1ec7012",
+          "captura_respuesta": "f0b8927c193fba8f87a56b0d211a3d5af4f66860d5c4179b385f4f826581687b",
+          "tipo_captura": "Aviso obtenido de la fuente oficial; aprobación de la versión publicada pendiente de cotejo"
+        },
+        "referencia_ingestion": {
+          "fuente": "defensa_consumidor_ar",
+          "id_externo": "arg-dnc-63ffb655e0c4"
+        }
+      },
+      {
+        "id_aviso": "SNC-25075H03",
+        "organismo": "SERNAC",
+        "pais_mercado": "Chile",
+        "fecha": "2025-06-04",
+        "estado_alcance": "ALERTA_OFICIAL",
+        "tipo_aviso": "Alerta de seguridad",
+        "modelos_afectados": "Engrasadora Inalámbrica Makita DGP180 comercializada en Chile.",
+        "identificacion_lotes_series": "Todos los productos distribuidos en Chile hasta el 31 de enero de 2025.",
+        "periodo_comercializacion": "Febrero de 2021 a enero de 2025 en Chile.",
+        "ubicacion_identificador": "Placa de características de la herramienta y lista de distribuidores autorizados en Chile.",
+        "unidades_involucradas": "1.352 unidades en Chile (1.260 en consumidores, 92 en stock).",
+        "excepciones_expresas": "El aviso alcanza productos distribuidos hasta el 31/01/2025. No se identificó una exclusión expresa por reparación previa; verificar el caso con Makita Chile.",
+        "defecto_riesgo": "Defecto en la manguera que se manifiesta como una perforación resultando en expulsión a alta presión de grasa. Riesgo significativo de lesión por inyección en dedos o tejidos corporales.",
+        "accion_oficial": "Reemplazo gratuito del flexible en servicio técnico autorizado Makita en Chile (intervención de 15 minutos).",
+        "enlace_original": "https://www.sernac.cl/portal/619/w3-article-86105.html",
+        "evidencia_fuente": {
+          "url": "https://www.sernac.cl/portal/619/w3-article-86105.html",
+          "extracto_oficial": "Código campaña SERNAC: 25075H03. Período de ventas: Febrero del año 2021 a enero del año 2025. Totales: 1.352 unidades. Defecto: perforación en la manguera, expulsión a alta presión de grasa. Medida: Reemplazo gratuito del flexible (15 minutos).",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "e3bb79d3ac7337cbe8a093bf53ecf9d34f28b9785f9ae4d0ca41950924cd663e",
+          "fecha_captura": "2026-10-04T00:23:13.917153+00:00",
+          "tipo_captura": "Página oficial consultada; cotejo editorial de campos conservado por separado"
+        }
+      },
+      {
+        "id_aviso": "CPSC-25455",
+        "organismo": "CPSC",
+        "pais_mercado": "Estados Unidos",
+        "fecha": "2025-09-04",
+        "estado_alcance": "POSIBLE_COINCIDENCIA",
+        "tipo_aviso": "Recall voluntario en EE. UU. (Plataforma equivalente)",
+        "modelos_afectados": "Makita Professional Cordless Grease Guns XPG01S1, XPG01SR1, XPG01Z y mangueras 191A79-9, 191A80-4, 191W58-9, 191W59-7.",
+        "identificacion_lotes_series": "Rangos de números de serie detallados por modelo en la base CPSC (ubicados en el puerto de montaje de la batería).",
+        "periodo_comercializacion": "June 2020 through January 2025 en EE. UU.",
+        "ubicacion_identificador": "Puerto de montaje de la batería en la engrasadora; extremo con resorte en la manguera.",
+        "unidades_involucradas": "Aprox. 62.927 unidades en EE. UU.",
+        "excepciones_expresas": "Manguera de reemplazo identificada con código 1916V6-0 (sin resorte).",
+        "defecto_riesgo": "The flexible grease gun hose can develop a hole allowing grease to be ejected while using the grease gun, posing a laceration hazard.",
+        "accion_oficial": "Consumers should immediately stop using the recalled Makita Cordless Grease Guns and Makita Grease Gun Hoses and contact Makita for a free replacement hose (Model 1916V6-0) in the United States.",
+        "enlace_original": "https://www.cpsc.gov/Recalls/2025/Makita-USA-Inc-Recalls-Cordless-Grease-Guns-and-Grease-Gun-Hoses-Due-to-Laceration-Hazard",
+        "evidencia_fuente": {
+          "url": "https://www.cpsc.gov/Recalls/2025/Makita-USA-Inc-Recalls-Cordless-Grease-Guns-and-Grease-Gun-Hoses-Due-to-Laceration-Hazard",
+          "extracto_oficial": "Recall date: September 4, 2025. Recall number: 25-455. Products: Models XPG01S1, XPG01SR1, XPG01Z and hoses 191A79-9, 191A80-4, 191W58-9, 191W59-7. Hazard: flexible hose can develop a hole allowing grease to be ejected. Remedy: free replacement hose.",
+          "fecha_extraccion": "2026-10-03",
+          "revisado_por": "TallerLab · revisión documental asistida",
+          "captura_consultada": "e65950c8676f856bdf9da5d491fc22151c3ea3e030a999b9946de27f3c0c9443",
+          "captura_respuesta": "2f68177f9e16dcd58fb8b0c10de36db4321c484649418cb62ec5976a4f3f6135",
+          "tipo_captura": "Aviso obtenido de la fuente oficial; aprobación de la versión publicada pendiente de cotejo"
+        }
+      }
+    ],
+    "fuentes_consultadas": [
+      {
+        "fuente": "Defensa del Consumidor (Argentina)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Notificación oficial confirmada en planilla nacional (Fila 411: Makita Argentina, DGP180/DGP180ZB; perforación en manguera de alta presión)."
+      },
+      {
+        "fuente": "SERNAC (Chile)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Campaña 25075H03 confirmada (reemplazo gratuito de manguera flexible en Chile)."
+      },
+      {
+        "fuente": "CPSC API (Estados Unidos)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Recall #25455 confirmado en API SaferProducts para plataforma estadounidense equivalente XPG01."
+      },
+      {
+        "fuente": "Makita Argentina",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Buscadores oficiales de manuales y despieces identificados; red oficial verificada."
+      }
+    ]
+  },
+  {
+    "slug": "dewalt-dws713",
+    "marca": "DeWalt",
+    "modelo_base": "DWS713",
+    "nombre_comercial": "Sierra ingletadora compacta de 10 pulgadas (254 mm)",
+    "categoria": "sierras",
+    "guia_url": "/sierras/ingletadoras-dewalt/",
+    "estado_general": "NO_REVISADO",
+    "revisado_por": "TallerLab · revisión documental asistida",
+    "fecha_revision": "2026-10-03",
+    "resumen_editorial": "Modelo pendiente de completar la revisión de antecedentes. Los resultados negativos del registro anterior no cuentan con capturas y parámetros archivados; requieren revalidación.",
+    "variantes": [
+      {
+        "codigo": "DWS713-AR",
+        "tipo_revision": "Tipo 20",
+        "alimentacion": "220 V / 50 Hz",
+        "codigo_barras": "7798089201991",
+        "mercado": "Argentina",
+        "notas": "Versión comercializada en Argentina de 2.200 W con cabezal fijo y disco de 254 mm (eje 16 mm)."
+      },
+      {
+        "codigo": "DWS713",
+        "tipo_revision": "Tipo 1 y Tipo 20",
+        "alimentacion": "110-120 V / 60 Hz",
+        "codigo_barras": "Variante norteamericana",
+        "mercado": "Estados Unidos e internacional",
+        "notas": "Versión de 15 A de 110 V para EE. UU."
+      },
+      {
+        "codigo": "DW713-AR",
+        "tipo_revision": "Predecesor (sin 'S')",
+        "alimentacion": "220 V / 50 Hz",
+        "codigo_barras": "Catálogo argentino 2018",
+        "mercado": "Argentina",
+        "notas": "Modelo anterior de 1.600 W. No transferir especificaciones ni repuestos entre ambas versiones."
+      }
+    ],
+    "documentacion": {
+      "manual_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/AR/DWS713/20/Instruction_Manual/EN/NA423966_DWS713_AR.pdf",
+      "manual_rotulo": "Manual oficial DeWalt DWS713-AR Tipo 20 (220 V / 50 Hz)",
+      "despiece_url": "https://www.toolservicenet.com/",
+      "despiece_rotulo": "Buscador de despieces en Toolservicenet (ingresar modelo DWS713 y Tipo 20)",
+      "ficha_url": "https://www.adbarbieri.com/hubfs/WEB2018/especificaciones-tecnicas/Dewalt-catalogo.pdf?hsLang=es",
+      "ficha_rotulo": "Catálogo técnico 2018 DeWalt Argentina (archivo alojado por distribuidor AD Barbieri)",
+      "garantia_meses": null,
+      "garantia_detalle": "Plazo y condiciones pendientes de cotejo con la póliza del fabricante aplicable a esta variante y al mercado argentino.",
+      "servicio_oficial": "Consultar la red vigente de talleres autorizados en el portal oficial del fabricante para Argentina.",
+      "baterias_compatibles": "No aplica (herramienta eléctrica fija con cable 220 V)."
+    },
+    "alertas": [],
+    "fuentes_consultadas": [
+      {
+        "fuente": "Defensa del Consumidor (Argentina)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "PENDIENTE",
+        "resultado": "Revisión declarada en el registro anterior sin captura ni parámetros archivados. Pendiente de revalidación para este modelo.",
+        "resultado_legacy": "Registro oficial consultado (532 filas); sin alertas para DWS713 ni DWS713-AR. La ausencia de registros no acredita seguridad absoluta.",
+        "evidencia_consulta": false
+      },
+      {
+        "fuente": "SERNAC (Chile)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "PENDIENTE",
+        "resultado": "Revisión declarada en el registro anterior sin captura ni parámetros archivados. Pendiente de revalidación para este modelo.",
+        "resultado_legacy": "Registro oficial chileno consultado; sin alertas para DWS713.",
+        "evidencia_consulta": false
+      },
+      {
+        "fuente": "CPSC API (Estados Unidos)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "PENDIENTE",
+        "resultado": "Revisión declarada en el registro anterior sin captura ni parámetros archivados. Pendiente de revalidación para este modelo.",
+        "resultado_legacy": "Base oficial SaferProducts consultada; sin recalls para DWS713.",
+        "evidencia_consulta": false
+      },
+      {
+        "fuente": "Toolservicenet (Stanley Black & Decker)",
+        "fecha_consulta": "2026-10-03",
+        "estado": "EXITOSA",
+        "resultado": "Manual regional Tipo 20 en 220 V verificado; buscador oficial de despiece identificado."
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="/assets/comunidad.css?v=3"><script src="/assets/comunidad.js?v=2" defer></script>
+{% if notice %}<div class="co-notice" id="participacion" role="status" {% if clear_draft %}data-clear-draft="{{ clear_draft }}"{% endif %}>{{ notice }}</div>{% endif %}
+{% if error %}<div class="co-error" role="alert" tabindex="-1">{{ error }}</div>{% endif %}

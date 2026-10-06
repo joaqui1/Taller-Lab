@@ -10,6 +10,10 @@ __pycache__/
 .consultor-seo-deps/
 .seo-tools/
 public/assets/
+public/
+_site/
+_state/
+.observatorio-deps/
 venv/
 .env
 .env.*
@@ -17,3 +21,35 @@ venv/
 .vercel/
 affiliate-clicks.jsonl
 .fotos-cache/
+datos_relevamiento/
+datos_comunidad/
+*.db
+*.sqlite
+tmp/
+.compatibilidad-state/
+
+# Archivos de coordinación local; recuperar el diario antes de publicar.
+datos_alertas/.lock
+datos_alertas/*.tmp
+datos_alertas/transaccion.json
+.qa-alertas-*/
+# Observatorio: datos locales, respaldos y resultados de auditoría privados
+observatorio/*.db
+observatorio/*.db-*
+observatorio/*.bak
+backup_observatorio_*
+*.dump
+*.dump.gpg
+
+.vercel
+.env*
+
+# Dependencias de Node (no versionar)
+node_modules/
+
+# Generado y verificado en cada build; se incluye en la función de Vercel.
+assets/datos/observatorio-publicacion.json
+
+# Copia del observatorio generada en cada build (la sirve la función en Vercel).
+observatorio_publicado/
+assets/datos/precios-observatorio-publico.json

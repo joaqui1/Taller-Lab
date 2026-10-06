@@ -1,0 +1,23 @@
+{% from 'macros.html' import hidden, author_fields, permissions, post_card, back_fields with context %}
+{% include 'top.html' %}
+{% set action_url = '/comunidad/modelos/' ~ tool.slug ~ '/participar' %}
+{% set model_url = '/comunidad/modelos/' ~ tool.slug ~ '/' %}
+<div class="co-page" data-model="{{ tool.slug }}">
+<nav class="co-breadcrumb" aria-label="Ubicación"><a href="/comunidad/">Comunidad</a><span>/</span><a href="{{ model_url }}">{{ tool.brand }} {{ tool.model_name }}</a><span>/</span><span>Pregunta</span></nav>
+<div class="co-layout"><div>
+<article class="co-thread">
+<header class="co-question-hero"><p class="co-kicker">Pregunta sobre {{ tool.brand }} {{ tool.model_name }}</p><h1>{{ question.title }}</h1></header>
+{{ post_card(question, csrf, action_url, question.id) }}
+<section id="respuestas"><div class="co-section-head"><h2>{% if answers %}{{ answers|length }} {% if answers|length == 1 %}respuesta{% else %}respuestas{% endif %}{% else %}Todavía sin respuestas{% endif %}</h2></div>
+{% for a in answers %}<div class="co-answer">{{ post_card(a, csrf, action_url, question.id) }}{% if question.own and opened and not a.accepted %}<form action="{{ action_url }}" method="post">{{ hidden(csrf,'accept') }}{{ back_fields(question.id) }}<input type="hidden" name="post_id" value="{{ question.id }}"><input type="hidden" name="answer_id" value="{{ a.id }}"><button class="co-link">Esta respuesta resolvió mi consulta</button></form>{% endif %}</div>
+{% else %}<div class="co-empty"><h3>¿Usás este modelo?</h3><p>Una respuesta con tu tarea y tu experiencia puede resolverle la duda a otra persona.</p></div>{% endfor %}
+{% if opened %}<details class="co-compose" id="responder"{% if not answers %} open{% endif %}><summary>Responder esta pregunta</summary><form method="post" action="{{ action_url }}" data-draft="{{ tool.slug }}:answer:{{ question.id }}">{{ hidden(csrf,'answer',new_id()) }}{{ back_fields(question.id) }}<input type="hidden" name="parent_id" value="{{ question.id }}">{{ author_fields('answer-' ~ question.id) }}<label for="answer-{{ question.id }}">Tu respuesta y su contexto</label><textarea id="answer-{{ question.id }}" name="body" rows="4" required minlength="20" maxlength="2000">{% if request.form.get('parent_id') == question.id %}{{ request.form.get('body','') }}{% endif %}</textarea>{{ permissions('answer-' ~ question.id) }}<button class="co-button">Enviar respuesta para revisión</button></form></details>{% endif %}
+</section>
+</article>
+</div><aside>
+<section class="co-note"><h2>{{ tool.brand }} {{ tool.model_name }}</h2><p>Antes de seguir una indicación de compatibilidad o seguridad, contrastala con la documentación del fabricante.</p><ul><li><a href="/herramientas/{{ tool.slug }}/">Ficha técnica y fuentes</a></li><li><a href="{{ model_url }}">Opiniones y experiencias de usuarios</a></li><li><a href="{{ model_url }}#preguntar">Hacer otra pregunta</a></li></ul></section>
+{% if others %}<nav class="co-note" aria-label="Otras preguntas"><h2>Otras preguntas sobre este modelo</h2><ul>{% for q in others %}<li><a href="{{ q.path }}">{{ q.title }}</a></li>{% endfor %}</ul></nav>{% endif %}
+{% if related_guides %}<nav class="co-note co-related-guides" aria-label="Guías relacionadas con este modelo"><h2>Guías sobre este modelo</h2><ul>{% for guide in related_guides %}<li><a href="{{ guide.url }}">{{ guide.h1 }}</a></li>{% endfor %}</ul></nav>{% endif %}
+<section class="co-note"><h2>Leé el contexto</h2><p>Las respuestas son experiencias declaradas. «Ayudó a quien preguntó» indica que resolvió esa consulta, no una certificación técnica.</p><a href="/comunidad/criterios/">Criterios de publicación →</a></section>
+</aside></div>
+</div>
