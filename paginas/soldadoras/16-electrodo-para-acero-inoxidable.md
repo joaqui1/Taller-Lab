@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Matriz de selección orientativa por metal base y unión con referencias documentadas ESAB; incluye clasificación, compatibilidad, limpieza y compra."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

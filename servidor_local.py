@@ -162,6 +162,7 @@ MARKDOWN = MarkdownIt("commonmark", {"html": True}).enable("table")
 
 # Cargar imagen de logo en Base64 para garantizar carga 100% instantánea sin fallos
 LOGO_SRC = "/assets/logo_cropped.webp"
+FAVICON_ICO = (ASSETS_DIR / "icons" / "favicon.ico").read_bytes()
 
 AUTHOR_NAME = "Joaquín Vallasciani"
 AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
@@ -916,6 +917,7 @@ def load_all_articles():
             "description": fm.get("description", ""),
             "author": fm.get("author", AUTHOR_NAME),
             "reviewed": fm.get("reviewed", ""),
+            "published_on": fm.get("published_on", ""),
             "published": fm.get("published", ""),
             "research_type": fm.get("research_type", ""),
             "physical_test": fm.get("physical_test", ""),
@@ -950,6 +952,7 @@ def load_all_articles():
                     "description": fm.get("description", ""),
                     "author": fm.get("author", AUTHOR_NAME),
                     "reviewed": fm.get("reviewed", ""),
+                    "published_on": fm.get("published_on", ""),
                     "published": fm.get("published", ""),
                     "research_type": fm.get("research_type", ""),
                     "physical_test": fm.get("physical_test", ""),
@@ -1157,7 +1160,7 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
     elif path in COMPATIBILITY_PATHS or path == COMPATIBILITY_SEARCH_PATH or (path.startswith('/compatibilidad/') and '-con-' in path):
         title, description, _ = get_compatibility_meta(path, SITE_URL)
     else:
-        title, description = editorial.get(path, (CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
+        title, description = editorial.get(path, (HUB_EDITORIAL.get(section, {}).get("page_title") or CATEGORY_META.get(section, {}).get("name", "TallerLab"), CATEGORY_META.get(section, {}).get("intro", "Guías documentales de herramientas.")))
     if article:
         title, description = article["h1"], article["description"]
     if title_override is not None:
@@ -1406,6 +1409,65 @@ def render_tallerlab_data_page(path, query_params=None):
         LOGO_SRC=LOGO_SRC,
     )
 
+def iso_date(value):
+    """Convierte una fecha dd/mm/aaaa del frontmatter a ISO 8601; vacío si no hay fecha."""
+    return datetime.strptime(value, "%d/%m/%Y").date().isoformat() if value else ""
+
+
+def last_reviewed(path):
+    """Última revisión documental registrada para una guía, un hub o la portada; vacío para otras rutas."""
+    if path == "/":
+        candidates = ALL_ARTICLES
+    elif path[1:-1] in PUBLIC_SECTIONS:
+        candidates = [a for a in ALL_ARTICLES if a["section"] == path[1:-1]]
+    else:
+        candidates = [a for a in ALL_ARTICLES if a["url"] == path]
+    dates = [iso_date(a["reviewed"]) for a in candidates if a["reviewed"]]
+    return max(dates) if dates else ""
+
+
+def rfc822(iso):
+    return datetime.strptime(iso, "%Y-%m-%d").replace(tzinfo=timezone.utc).strftime("%a, %d %b %Y 00:00:00 +0000")
+
+
+def render_feed():
+    """RSS 2.0 con las guías publicadas, ordenadas por última revisión documental."""
+    def cdata(text):
+        return "<![CDATA[" + text.replace("]]>", "]]]]><![CDATA[>") + "]]>"
+    articles = sorted(ALL_ARTICLES, key=lambda a: (iso_date(a["reviewed"]), a["title"]), reverse=True)
+    items = ""
+    for a in articles:
+        url = absolute_url(a["url"])
+        date = iso_date(a["reviewed"]) or iso_date(a["published_on"])
+        items += ("<item><title>" + cdata(a["title"]) + f"</title><link>{escape(url)}</link><guid isPermaLink=\"true\">{escape(url)}</guid>"
+                  + f"<category>{escape(CATEGORY_META[a['section']]['name'])}</category>"
+                  + (f"<pubDate>{rfc822(date)}</pubDate>" if date else "")
+                  + "<description>" + cdata(a["description"]) + "</description></item>\n")
+    newest = max((iso_date(a["reviewed"]) for a in ALL_ARTICLES if a["reviewed"]), default="")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
+            f'<title>TallerLab · guías de herramientas</title><link>{escape(absolute_url("/"))}</link>'
+            '<description>Guías documentales y comparativas para elegir herramientas en Argentina. Cada entrada corresponde a la última revisión documental registrada de una guía.</description>'
+            f'<language>es-AR</language><atom:link href="{escape(absolute_url("/feed.xml"))}" rel="self" type="application/rss+xml"/>'
+            + (f"<lastBuildDate>{rfc822(newest)}</lastBuildDate>" if newest else "")
+            + items + '</channel></rss>\n')
+
+
+def render_llms():
+    """Índice en texto plano para rastreadores de modelos de lenguaje (llms.txt)."""
+    lines = ["# TallerLab", "", "> Guías documentales y comparativas de herramientas para Argentina, basadas en fichas, manuales y catálogos de fabricantes, con cálculos explicados. No se realizan pruebas físicas; cada guía indica sus fuentes y límites.", "",
+             "## Categorías", ""]
+    lines += [f"- [{meta['name']}]({absolute_url('/' + section + '/')}): {meta['intro']}" for section, meta in CATEGORY_META.items() if section in PUBLIC_SECTIONS]
+    lines += ["", "## Datos y comunidad", "",
+              f"- [Base técnica de modelos]({absolute_url('/herramientas/')})",
+              f"- [Observatorio de precios]({absolute_url('/datos/precios-herramientas-argentina/')})",
+              f"- [Compatibilidad de baterías]({absolute_url('/compatibilidad/')})",
+              f"- [Documentación y alertas]({absolute_url('/alertas/')})",
+              "", "## Sobre el sitio", "", f"- [Cómo trabajamos]({absolute_url('/como-trabajamos/')}): fuentes, método de comparación, límites y afiliación.",
+              f"- [Autor]({absolute_url(AUTHOR_PATH)}): {AUTHOR_NAME}, {AUTHOR_ROLE.lower()}.",
+              f"- [Contacto]({absolute_url('/contacto/')})", f"- [Sitemap]({absolute_url('/sitemap.xml')})", f"- [Feed RSS]({absolute_url('/feed.xml')})", ""]
+    return "\n".join(lines)
+
+
 def render_sitemap():
     paths = tuple(dict.fromkeys([p for p in INDEXABLE_PATHS if p not in OBSERVATORY_PATHS]+get_published_observatory_paths()))
     from compatibilidad.catalog import refresh_published_state, PRODUCTS_BY_SLUG, CATALOG_PRODUCTS
@@ -1445,7 +1507,8 @@ def render_sitemap():
     except Exception:
         pass
     def sitemap_entry(path):
-        lastmod = alertas_lastmod.get(path)
+        # Guías, hubs y portada toman la fecha de revisión documental del frontmatter.
+        lastmod = alertas_lastmod.get(path) or last_reviewed(path)
         extra = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""
         return f"  <url><loc>{escape(absolute_url(path))}</loc>{extra}</url>\n"
     entries = "".join(sitemap_entry(path) for path in paths)
@@ -1560,7 +1623,12 @@ HTML_SHELL = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{PAGE_TITLE} · TallerLab</title>
   <meta name="description" content="{PAGE_DESC}">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="icon" href="/assets/icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="alternate" type="application/rss+xml" title="TallerLab · guías revisadas" href="/feed.xml">
   {CANONICAL_TAG}
   <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-v1.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/fonts/fonts.css?v=1">
@@ -2137,8 +2205,58 @@ HTML_SHELL = """<!DOCTYPE html>
       background: #090c10;
       margin-top: 4rem;
     }}
+    .footer-grid {{
+      max-width: 1100px;
+      margin: 0 auto 2rem;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1.75rem 2rem;
+      text-align: left;
+    }}
+    .footer-col h2 {{
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.6rem;
+    }}
+    .footer-col ul {{ list-style: none; }}
+    .footer-col li {{ margin: 0.3rem 0; }}
+    .footer-col a:hover {{ text-decoration: underline; }}
+    .footer-note {{ max-width: 700px; margin: 0 auto; }}
+    .related-hub-link {{ margin-top: 1.25rem; font-weight: 600; }}
+    .related-hub-link a:hover {{ text-decoration: underline; }}
+    /* Barra de categorías bajo el encabezado: enlaza los ocho hubs desde todas las páginas sin tocar el menú principal. */
+    .category-bar {{
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0.6rem 1.25rem;
+      display: flex;
+      gap: 0.4rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }}
+    .category-bar::-webkit-scrollbar {{ display: none; }}
+    .category-bar a {{
+      flex-shrink: 0;
+      padding: 0.35rem 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }}
+    .category-bar a:hover {{ color: var(--text); border-color: var(--orange); }}
+    body:has(.home-page) .category-bar {{ display: none; }}
+    @media (max-width: 900px) {{
+      .footer-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }}
+    }}
+    @media (max-width: 520px) {{
+      .footer-grid {{ grid-template-columns: 1fr; gap: 1.5rem; }}
+    }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=21">
+  <link rel="stylesheet" href="/assets/site.css?v=22">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
@@ -2160,15 +2278,73 @@ HTML_SHELL = """<!DOCTYPE html>
   </header>
 
   <main id="contenido-principal" tabindex="-1">
+    <nav class="category-bar" aria-label="Categorías de guías">
+      <a href="/hidrolavadoras/">Hidrolavadoras</a>
+      <a href="/compresores/">Compresores</a>
+      <a href="/amoladoras/">Amoladoras</a>
+      <a href="/taladros/">Taladros</a>
+      <a href="/sierras/">Sierras</a>
+      <a href="/soldadoras/">Soldadura</a>
+      <a href="/soldadura-electronica/">Soldadura electrónica</a>
+      <a href="/generadores/">Generadores</a>
+    </nav>
     {CONTENT}
   </main>
 
   <footer>
-    <div style="max-width: 700px; margin: 0 auto;">
+    <div class="footer-grid">
+      <nav class="footer-col" aria-labelledby="footer-categorias">
+        <h2 id="footer-categorias">Categorías</h2>
+        <ul>
+          <li><a href="/hidrolavadoras/">Hidrolavadoras</a></li>
+          <li><a href="/compresores/">Compresores</a></li>
+          <li><a href="/amoladoras/">Amoladoras</a></li>
+          <li><a href="/taladros/">Taladros y atornilladores</a></li>
+          <li><a href="/sierras/">Sierras</a></li>
+          <li><a href="/soldadoras/">Soldadura</a></li>
+          <li><a href="/soldadura-electronica/">Soldadura electrónica</a></li>
+          <li><a href="/generadores/">Generadores</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-labelledby="footer-guias">
+        <h2 id="footer-guias">Guías para empezar</h2>
+        <ul>
+          <li><a href="/generadores/comparativa-general/">Grupos electrógenos: cuál elegir</a></li>
+          <li><a href="/generadores/para-casa/">Generador eléctrico para casa</a></li>
+          <li><a href="/hidrolavadoras/inalambricas/">Hidrolavadoras inalámbricas</a></li>
+          <li><a href="/hidrolavadoras/comparativa-general/">Comparativa de hidrolavadoras</a></li>
+          <li><a href="/compresores/50-litros/">Compresores de 50 litros</a></li>
+          <li><a href="/amoladoras/de-banco/">Amoladora de banco</a></li>
+          <li><a href="/amoladoras/disco-flap/">Discos flap</a></li>
+          <li><a href="/taladros/taladro-percutor-inalambrico/">Taladro percutor inalámbrico</a></li>
+          <li><a href="/soldadoras/mig-sin-gas/">Soldadora MIG sin gas</a></li>
+          <li><a href="/sierras/sierra-sin-fin-para-madera/">Sierra sin fin para madera</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-labelledby="footer-datos">
+        <h2 id="footer-datos">Datos y comunidad</h2>
+        <ul>
+          <li><a href="/herramientas/">Base técnica de modelos</a></li>
+          <li><a href="/datos/precios-herramientas-argentina/">Observatorio de precios</a></li>
+          <li><a href="/compatibilidad/">Compatibilidad de baterías</a></li>
+          <li><a href="/alertas/">Documentación y alertas</a></li>
+          <li><a href="/comunidad/">Comunidad</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-labelledby="footer-sitio">
+        <h2 id="footer-sitio">TallerLab</h2>
+        <ul>
+          <li><a href="/como-trabajamos/">Cómo trabajamos</a></li>
+          <li><a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a></li>
+          <li><a href="/contacto/">Contacto y correcciones</a></li>
+          <li><a href="/privacidad/">Privacidad y datos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-note">
       <img src="{LOGO_SRC}" alt="TallerLab" width="952" height="284" style="height: 28px; width: auto; opacity: 0.7; margin-bottom: 0.75rem;">
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
-      <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
-      <p><a href="/comunidad/">Comunidad</a> · <a href="/compatibilidad/">Compatibilidad de baterías</a> · <a href="/alertas/">Documentación y alertas</a> · <a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a></p>
+      <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Investigación documental sobre fichas y manuales de fabricantes; sin pruebas físicas.</p>
       <p>Seguinos: <a href="https://www.instagram.com/tallerlabarg/" rel="me noopener" target="_blank">Instagram</a> · <a href="https://www.tiktok.com/@tallerlab" rel="me noopener" target="_blank">TikTok</a> · <a href="https://www.youtube.com/channel/UCOUGV2YAHP6joTT00_2hjIg" rel="me noopener" target="_blank">YouTube</a></p>
     </div>
   </footer>
@@ -2422,6 +2598,11 @@ def render_home_page():
         "url": absolute_url("/"),
         "inLanguage": "es-AR",
         "publisher": {"@id": absolute_url("/") + "#organization"},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {"@type": "EntryPoint", "urlTemplate": absolute_url("/") + "?q={search_term_string}"},
+            "query-input": "required name=search_term_string",
+        },
     }
     website_tag = '<script type="application/ld+json">' + json.dumps(website, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     articles = {a["url"]: a for a in ALL_ARTICLES}
@@ -2452,7 +2633,7 @@ def render_home_page():
       {tools_section}
       <section id="precios" class="home-section" aria-labelledby="home-prices-title"><div class="home-section-heading"><div><span class="home-kicker">04 / PRECIOS</span><h2 id="home-prices-title">Antes de comprar, mirá el precio</h2></div><p>Seguimos todos los días el precio publicado y el stock de herramientas concretas en comercios argentinos, con historial descargable.</p></div><p><a class="home-secondary" href="/datos/precios-herramientas-argentina/">Ver precios e historial →</a></p></section>
       <aside class="home-trust"><strong>La fuente también importa.</strong><p>Contrastamos documentación de modelos concretos y señalamos lo que falta confirmar. Algunos enlaces de productos pueden generar una comisión para TallerLab.</p><a href="/como-trabajamos/">Nuestro método →</a></aside>
-    </div><script src="/assets/home.js?v=2" defer></script>'''
+    </div><script src="/assets/home.js?v=3" defer></script>'''
     return HTML_SHELL.format(PAGE_TITLE="Comparativas y calculadoras de herramientas en Argentina", CANONICAL_TAG=canonical_tag("/") + website_tag, PAGE_DESC="Elegí herramientas para tu trabajo: explorá 8 categorías, compará modelos y usá calculadoras de potencia, caudal y costos antes de comprar en Argentina.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
@@ -2574,10 +2755,24 @@ def render_category_page(section_id):
       {render_guide_community({'url': '/' + section_id + '/', 'section': section_id})}
     </div>'''
     schema = article_schema_tag(trunk) if trunk else ""
-    page = HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
-    if section_id == "hidrolavadoras":
-        page = page.replace(f'<title>{editorial["page_title"]} · TallerLab</title>', f'<title>{editorial["page_title"]}</title>', 1)
-    return page
+    listed = [a for key, _, _, _ in visible_steps for a in groups[key] if a != trunk] + ([separate_article] if separate_article else [])
+    collection = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": absolute_url(f"/{section_id}/"),
+        "name": trunk["title"] if trunk else editorial.get("page_title", meta["name"]),
+        "description": editorial["intro"],
+        "url": absolute_url(f"/{section_id}/"),
+        "inLanguage": "es-AR",
+        "isPartOf": {"@id": absolute_url("/") + "#website"},
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": len(listed),
+            "itemListElement": [{"@type": "ListItem", "position": i, "name": a["h1"], "url": absolute_url(a["url"])} for i, a in enumerate(listed, 1)],
+        },
+    }
+    schema += '<script type="application/ld+json">' + json.dumps(collection, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    return HTML_SHELL.format(PAGE_TITLE=trunk["title"] if trunk else editorial.get("page_title", meta["name"]), CANONICAL_TAG=canonical_tag(f"/{section_id}/") + schema, PAGE_DESC=escape(editorial["intro"], quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
 def render_article_page(article, embedded=False):
@@ -2867,6 +3062,7 @@ def render_article_page(article, embedded=False):
         <div class="article-grid">
           {related_html}
         </div>
+        <p class="related-hub-link"><a href="/{article['section']}/">Ver todas las guías de {sec_meta['name']} <span aria-hidden="true">→</span></a></p>
       </div>
     </div>
 
@@ -2922,6 +3118,8 @@ def article_schema_tag(article):
         "author": author_schema(article["author"]),
         "publisher": {"@id": absolute_url("/") + "#organization"},
     }
+    if article.get("published_on"):
+        article_schema["datePublished"] = iso_date(article["published_on"])
     if article.get("reviewed"):
         article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
     from portadas_guias import guide_cover
@@ -3081,6 +3279,22 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.wfile.write(body)
             return
 
+        if path == "/feed.xml":
+            body = render_feed().encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "application/rss+xml; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(body)
+            return
+
+        if path == "/llms.txt":
+            body = render_llms().encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(body)
+            return
+
         if path == "/search-cards.html":
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -3103,8 +3317,15 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.end_headers()
             return
         
-        # Favicon
-        if path in ("/favicon.ico", "/favicon.svg"):
+        # Favicon: ICO real (16/32/48) generado desde la marca del logo; el SVG sigue disponible.
+        if path == "/favicon.ico":
+            self.send_response(200)
+            self.send_header("Content-Type", "image/x-icon")
+            self.send_header("Cache-Control", "public, max-age=86400")
+            self.end_headers()
+            self.wfile.write(FAVICON_ICO)
+            return
+        if path == "/favicon.svg":
             self.send_response(200)
             self.send_header("Content-Type", "image/svg+xml")
             self.end_headers()

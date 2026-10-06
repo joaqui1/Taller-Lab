@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra de DOG50045 que relaciona la versión exacta con su factor de servicio por diámetro, escenarios de uso, kit listado y modelos Dogo vecinos de 160 y 200 A."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

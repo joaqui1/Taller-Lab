@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra para identificar las K5 argentinas por SKU y decidir si su caudal, alcance, kit y precio justifican el salto frente a una K4 Power Control."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación aplicada de variantes Lüsqtoff actuales de 50 L, lubricación, accesorios y límites de documentación."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparativa de TIL23-8B, TAL60-9B y taladro percutor Iron Volt con opciones de kit"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

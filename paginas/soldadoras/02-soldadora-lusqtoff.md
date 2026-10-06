@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Hub de soldadoras Lüsqtoff organizado por MMA, MIG/MAG con gas, Flux autoprotegido y TIG, con enlaces a modelos y guías de cada proceso."
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

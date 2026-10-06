@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Hub de decisión de accesorios por operación, material y compatibilidad con ejemplos Bosch documentados"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

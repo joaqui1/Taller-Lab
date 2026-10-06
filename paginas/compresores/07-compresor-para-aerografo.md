@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de cinco compresores para aerografía y método para cotejar presión, caudal, tanque, regulación, filtrado, protección, ciclo y conexiones."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

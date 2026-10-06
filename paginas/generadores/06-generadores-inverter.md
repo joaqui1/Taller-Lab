@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de funcionamiento, aplicaciones y dimensionamiento inverter con fichas, ruido bajo condición publicada y precios observados por modelo."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

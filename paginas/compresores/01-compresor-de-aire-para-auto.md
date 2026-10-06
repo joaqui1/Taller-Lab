@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación documental de infladores 12 V y a batería, con criterios de selección por alimentación, conexión, uso y presión del vehículo."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

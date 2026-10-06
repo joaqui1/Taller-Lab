@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Matriz de selección de guantes para electrodo, MIG y TIG según riesgos y destreza, con criterios de cuero, puño, costuras, ajuste, inspección, reemplazo y normas precisas de tres modelos ESAB."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

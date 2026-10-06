@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparativa separada de equipos para soldar pestañas de baterías y spotters para chapa/carrocería, con criterios de capacidad, material, portabilidad, alimentación y datos técnicos en unidades propias de cada aplicación."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación práctica de los modelos Lüsqtoff de 100 L con datos disponibles y límites explícitos para evaluar herramientas."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Gama de amoladoras angulares Gamma con cable en Argentina, comparación de potencia y configuración, y contenido documentado del G1910KAR."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

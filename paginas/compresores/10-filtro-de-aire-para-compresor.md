@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía para identificar el filtro de admisión por modelo, referencia, rosca y dimensiones, con una sección separada de tratamiento de línea."
 asset_status: "verificado"
 reviewed: "02/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de hidrolavadoras rotuladas 150 bar según presión de trabajo, caudal, alimentación y uso, con ofertas verificables de Niwa y BLACK+DECKER y una alternativa Gamma G2513AR de menor presión de servicio."
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

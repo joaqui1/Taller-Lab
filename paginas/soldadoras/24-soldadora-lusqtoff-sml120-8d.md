@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Compara soldadora individual SML120-8D y kit SML120-8DK con diferencias de peso, procesos y accesorios publicadas por Lüsqtoff para el mismo equipo base."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

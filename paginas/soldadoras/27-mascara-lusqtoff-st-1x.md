@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Compara especificaciones históricas publicadas para máscara Lüsqtoff ST-1X con la ST-1B actual: visor, sensores, tono y velocidad nominal; documenta cambio de versión y límites de vigencia."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

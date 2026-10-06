@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de Comet KM Extra 8.16, K 250 TSR 13/190 y Emona F 200, con Comet KP Pro 150 como referencia y Omega Hynox 200 como advertencia de nombre comercial."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

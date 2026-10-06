@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "DCF809, DCF887 y DCF850: elegir por control, tamaño y kit"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

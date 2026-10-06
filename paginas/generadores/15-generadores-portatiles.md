@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de cinco generadores portátiles en escalones de potencia distintos, con peso, tamaño, traslado, ruido y autonomía cuando la ficha los documenta."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

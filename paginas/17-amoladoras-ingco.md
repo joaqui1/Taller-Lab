@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Modelos INGCO Argentina comparados por diámetro, alimentación, configuración y documentación local"
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

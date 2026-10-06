@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía centrada en la decisión alrededor de K3: compara los SKU argentinos K2 Basic Black, K3 Black Edition y K4 Power Control y explica su frecuencia de uso, kit, mantenimiento y repuestos."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

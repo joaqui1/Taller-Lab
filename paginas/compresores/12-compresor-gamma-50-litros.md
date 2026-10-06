@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra de los Gamma G2802AR y G2802KAR con datos de manual, contenido del kit, mantenimiento y límites de compatibilidad."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía práctica que separa limpiadoras portátiles de baja/media presión de hidrolavadoras a batería de mayor presión y orienta la elección por tarea, kit de batería y fuente de agua."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

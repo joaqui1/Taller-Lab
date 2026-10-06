@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de modelos Makita angulares de 115 a 230 mm, con cable y a batería, basada en fichas oficiales"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

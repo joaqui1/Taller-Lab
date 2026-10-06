@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Tabla de mediciones de ruido publicadas por Gamma, Honda y Lüsqtoff, con protocolos y límites de comparabilidad; caso histórico Gamma discontinuado y alternativa de energía almacenada sin motor."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

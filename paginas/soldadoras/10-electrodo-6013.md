@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Criterios E6013 de uso, posición, polaridad, amperaje, conservación y compra, con contraste de tres fichas ESAB y dos rangos distintos para 3,2 mm."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

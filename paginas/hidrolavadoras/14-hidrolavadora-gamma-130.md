@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Ayuda a decidir si la Gamma 130 G2513AR alcanza para tareas domésticas y cuándo conviene el escalón de Gamma 150 G2514AR, con prestaciones y usos oficiales."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "TC-TS 2025/2 U y 2225 U: diferencias publicadas"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de usos y elección de compresores de 24/25 L; compara un Gamma lubricado y tres modelos sin aceite, movilidad y reserva."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

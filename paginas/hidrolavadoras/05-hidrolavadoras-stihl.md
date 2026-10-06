@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparativa de la gama STIHL RE eléctrica y de los segmentos RCA a batería y RB a gasolina, con presión, caudal, alcance y límites de los datos publicados."
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

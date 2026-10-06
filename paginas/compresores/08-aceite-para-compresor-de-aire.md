@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía para identificar lubricante, nivel e intervalo por modelo, con contraste de manuales Gamma y Lüsqtoff y aclaración entre SAE e ISO VG."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de selección TIG AC/DC: explica cuándo usar AC, cómo funcionan balance, frecuencia y pulso, y compara alimentación, ciclo, torcha, pedal y refrigeración con datos de fabricantes."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

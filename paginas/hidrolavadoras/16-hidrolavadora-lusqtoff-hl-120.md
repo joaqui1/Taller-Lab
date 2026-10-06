@@ -5,6 +5,7 @@ url: "/hidrolavadoras/lusqtoff-hl-120/"
 description: "Guía de compra Lüsqtoff HL-120: usos, kit, peso, manguera, mantenimiento, precio actualizado y comparación con la HL-150 eléctrica."
 author: "Joaquín Vallasciani"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 research_type: "documental"
 physical_test: "no"

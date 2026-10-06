@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación documentada de amoladoras rectas eléctricas y neumáticas, con requisitos de aire y accesorios"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "tabla documental de parámetros y accesorios declarados para Yihua 898D/898D+ frente a la serie Yihua 878D, con límites entre variantes"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

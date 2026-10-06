@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Mecha Forstner 35 mm: adaptar el agujero al herraje"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

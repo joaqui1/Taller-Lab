@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de equipos diésel monofásicos y trifásicos con consumos publicados bajo condiciones identificadas y una herramienta para estimar costo variable por hora."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

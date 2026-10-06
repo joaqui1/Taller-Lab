@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Calculadora de cargas simultáneas con escenarios basados en manuales y fichas, referencias de equipos por escala y seguridad de instalación."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

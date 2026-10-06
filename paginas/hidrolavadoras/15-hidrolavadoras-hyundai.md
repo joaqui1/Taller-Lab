@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra basada en los siete modelos listados por Hyundai Herramientas Argentina, con comparación de prestaciones locales y comprobaciones de kit, disponibilidad y repuestos."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

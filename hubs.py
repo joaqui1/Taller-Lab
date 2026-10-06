@@ -75,6 +75,7 @@ HUB_EDITORIAL = {
         "accessories": ["Confirmá el encastre de pistola, lanza y boquillas en el manual del código exacto.", "Revisá longitud y presión admisible de la manguera, y si el kit incluye dosificador.", "No deduzcas compatibilidad entre gamas por compartir marca."],
     },
     "compresores": {
+        "page_title": "Compresores de aire: cuál elegir según caudal, tanque y uso",
         "intro": "Partí del consumo de aire de tu tarea. Compará caudal declarado/documentado a la presión de uso, volumen del tanque y alimentación; la admisión no equivale al aire entregado.",
         "criteria": ["Caudal de salida y presión de referencia", "Tanque, alimentación y ciclo documentado", "Mangueras, acoples y consumo de la herramienta"],
     },
@@ -83,6 +84,7 @@ HUB_EDITORIAL = {
         "criteria": ["Diámetro, eje y rpm del disco", "Tipo de corte o desbaste y material", "Código, alimentación y guarda indicada"],
     },
     "taladros": {
+        "page_title": "Taladros, rotomartillos y atornilladores: cuál elegir",
         "intro": "Distinguí perforación, percusión y atornillado. Elegí función y encastre antes de comparar torque declarado, plataforma de batería y contenido del kit.",
         "main": "01-taladro-inalambrico.md",
         "criteria": ["Función y material de trabajo", "Mandril o encastre SDS", "Plataforma y baterías incluidas por código"],
@@ -118,10 +120,12 @@ HUB_EDITORIAL = {
         "criteria": ["Proceso y consumible compatible", "Corriente a cada ciclo de trabajo", "Tensión, conexiones y contenido del kit"],
     },
     "soldadura-electronica": {
+        "page_title": "Soldadura electrónica: estaciones, cautines y aire caliente",
         "intro": "Separá cautín, aire caliente y accesorios de sujeción. Compará funciones, temperatura declarada, tensión y variantes exactas sin trasladar cifras entre estaciones parecidas.",
         "criteria": ["Cautín, aire caliente o ambos", "Tensión y rango de temperatura declarado", "Puntas, boquillas y soporte compatibles"],
     },
     "generadores": {
+        "page_title": "Grupos electrógenos y generadores eléctricos: cuál elegir",
         "intro": "Partí de las cargas y sus arranques. Distinguí potencia nominal de máxima, kW de kVA, fases y combustible; una cifra máxima no describe el suministro continuo.",
         "criteria": ["Potencia nominal, máxima y unidad", "Fases, tensión y cargas previstas", "Combustible y autonomía con su condición"],
         "separate_category": {

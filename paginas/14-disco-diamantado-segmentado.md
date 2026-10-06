@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía para elegir discos diamantados segmentados por perfil, material, diámetro, uso seco/húmedo e interfaz compatible."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

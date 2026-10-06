@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Dos modelos Einhell con capacidades publicadas"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Skil 9004 de 830 W y 9002 de 700 W: códigos argentinos, tensión, contenido por publicación y estado de oferta sin confirmación oficial de discontinuación."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

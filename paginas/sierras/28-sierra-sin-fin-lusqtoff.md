@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "SFL250-8, SFL300-8 y SFL1100-9: qué está documentado"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

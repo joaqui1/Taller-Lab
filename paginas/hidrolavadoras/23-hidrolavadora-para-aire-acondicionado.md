@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Selector que distingue hidrolavadoras domésticas, equipos HVAC de baja presión, limpiadoras a vapor HVAC y portátiles genéricas; incluye requisitos para unidades interiores y exteriores."
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

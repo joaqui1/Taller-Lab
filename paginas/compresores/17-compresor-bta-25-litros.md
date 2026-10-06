@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía práctica del BTA 272057.1 con su ficha publicada, comparación con el CSA-24 oil-free y criterios para pasar a 50 L."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Contrasta ficha comercial y manual del modelo discontinuado SML130-7: ciclo, entrada, capacidad de alambre, dimensiones y discrepancia en cómo el fabricante expresa los puntos de corriente."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

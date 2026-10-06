@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de la gama Einhell publicada para Argentina: compara modelos eléctricos TC/TE y a batería HYPRESSO por tipo de uso, presión de trabajo, caudal, autonomía, alimentación, accesorios y contenido del kit."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

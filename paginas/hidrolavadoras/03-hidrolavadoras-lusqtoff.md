@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Selector por uso de cuatro hidrolavadoras Lüsqtoff eléctricas, con comparación de presión de trabajo, caudal, peso, alimentación, mangueras, accesorios y condiciones documentadas de posventa."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

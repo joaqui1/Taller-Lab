@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de dimensionamiento que cruza el consumo y la presión publicados por pistolas reales con el caudal de salida publicado por compresores, y señala los casos que requieren validación adicional."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

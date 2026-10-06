@@ -5,6 +5,7 @@ url: "/amoladoras/115-o-125/"
 description: "Comparación de amoladoras de 115 y 125 mm: profundidad, compatibilidad, modelos disponibles en Argentina y diferencias de consumibles."
 author: "Joaquín Vallasciani"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 research_type: "documental"
 physical_test: "no"

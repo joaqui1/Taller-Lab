@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "CM-14K: código, capacidad y contenido de caja"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

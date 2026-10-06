@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de modelos Stanley documentados en fichas actuales del fabricante y catálogos técnicos anteriores, con alcance de disponibilidad local explícito."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

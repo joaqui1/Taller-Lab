@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Captura fechada de ocho publicaciones por escala de potencia, con cuotas visibles, ejemplos de presupuesto y criterios para comparar el costo final."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

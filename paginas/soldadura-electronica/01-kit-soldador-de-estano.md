@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "tabla comparativa de tres kits documentados por herramientas incluidas, potencia, tensión y límite de mercado; guía de elección según alcance"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

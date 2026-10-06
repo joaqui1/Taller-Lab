@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de taladros M12 y M18 con y sin percusión, línea FUEL y configuraciones de kit"
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

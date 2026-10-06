@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía práctica de selección con cálculo de carga, matriz de tipos y ocho referencias verificadas agrupadas por escala de potencia."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

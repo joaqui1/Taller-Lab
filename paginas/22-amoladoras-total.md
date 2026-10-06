@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de tres modelos Total con SKU regional completo, especificaciones de catálogo y oferta local identificable."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

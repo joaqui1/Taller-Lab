@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía práctica de ventajas, límites, mantenimiento y usos de compresores sin aceite, con modelos identificados y datos cotejables."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

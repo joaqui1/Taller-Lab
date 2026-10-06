@@ -73,4 +73,10 @@
     input.focus();
   });
   more.addEventListener('click', () => { limit += 12; render(); });
+  /* Permite enlazar una búsqueda (/?q=...) y respalda el SearchAction declarado en el JSON-LD de la portada. */
+  const initial = new URLSearchParams(location.search).get('q');
+  if (initial) {
+    input.value = initial.slice(0, 120);
+    search();
+  }
 })();

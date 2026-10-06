@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de tres taladros BLACK+DECKER: básico inalámbrico, percutor y con cable"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

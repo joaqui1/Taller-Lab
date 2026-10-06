@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de decisión para amoladoras de 230 mm, diferencias con 180 mm y modelos con documentación del fabricante aplicable al mercado argentino."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

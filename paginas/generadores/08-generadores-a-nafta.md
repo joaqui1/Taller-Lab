@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de consumo y autonomía con condición declarada, junto con una guía de combustible según el tipo de uso."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

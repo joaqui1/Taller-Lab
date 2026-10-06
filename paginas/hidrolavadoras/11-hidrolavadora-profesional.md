@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía para distinguir equipos domésticos, profesionales e industriales y dimensionar una hidrolavadora para un lavadero por jornada, demanda de agua, instalación, bomba, repuestos y servicio."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

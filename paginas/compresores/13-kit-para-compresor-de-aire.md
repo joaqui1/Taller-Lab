@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de kits BTA, Lüsqtoff y Gamma según tareas, contenido, conexiones y límites de caudal documentado."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

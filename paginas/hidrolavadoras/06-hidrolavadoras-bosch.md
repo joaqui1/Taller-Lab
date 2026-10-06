@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Selector para casa y auto de la gama local Bosch Professional Argentina, con comparación de los códigos GHP 180, 200, 220 y 4-50 por presión de trabajo/máxima, caudal, manguera y equipamiento."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

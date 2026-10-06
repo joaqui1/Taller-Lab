@@ -1,5 +1,5 @@
 ---
-title: "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto | Taller Lab"
+title: "Soldadoras: cómo elegir entre inverter, MIG, TIG y punto"
 h1: "Soldadoras: cuál elegir según el trabajo"
 url: "/soldadoras/"
 description: "Matriz de elección que enlaza proceso, consumible, gas y datos que debe confirmar la ficha: separa MMA, MIG/MAG, tubular autoprotegido, TIG y resistencia por alcance documental."
@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Matriz de elección que enlaza proceso, consumible, gas y datos que debe confirmar la ficha: separa MMA, MIG/MAG, tubular autoprotegido, TIG y resistencia por alcance documental."
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

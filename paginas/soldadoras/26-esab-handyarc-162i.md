@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Tabla de ESAB HandyArc 162i, código 0409616: corriente MMA por ciclo de trabajo, rango, tensión, potencia aparente y generador recomendado; distingue máximo intermitente de salida continua."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

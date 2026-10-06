@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Dowen Pagio 9993220.7, 9993220.9 y 9993224.2: potencia no es la única diferencia"
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

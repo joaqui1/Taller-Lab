@@ -5,6 +5,7 @@ url: "/compresores/50-litros/"
 description: "Compará compresores de 50 litros Lüsqtoff, Gamma y Einhell: potencia, caudal declarado, salida a presión de trabajo y límites según el uso."
 author: "Joaquín Vallasciani"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 research_type: "documental"
 physical_test: "no"

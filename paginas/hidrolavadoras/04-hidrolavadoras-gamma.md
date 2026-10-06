@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra Gamma por tarea que separa la familia Elite 127/130/150/170 de los modelos actuales y presenta precios observados con fecha."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

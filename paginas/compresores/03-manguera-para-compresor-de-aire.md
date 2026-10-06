@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de selección por uso, caudal, largo, diámetro, material y conexiones, con tabla Parker de dimensionamiento."
 asset_status: "verificado"
 reviewed: "02/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

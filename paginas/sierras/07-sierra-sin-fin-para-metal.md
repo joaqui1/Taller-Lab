@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Formato, sección y cinta para elegir una sierra sin fin para metal"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

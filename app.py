@@ -30,6 +30,8 @@ from servidor_local import (
     render_tallerlab_data_page,
     render_home_page,
     render_editorial_page,
+    render_feed,
+    render_llms,
     render_not_found,
     render_observatory_page,
     render_relevamiento_view,
@@ -39,6 +41,7 @@ from servidor_local import (
     track_event,
     validate_affiliate_click,
     MaintenancePipeline,
+    FAVICON_ICO,
 )
 from relevamiento_piloto import (
     ADMIN_KEY as RELEVAMIENTO_ADMIN_KEY,
@@ -358,9 +361,15 @@ def page(path):
         return Response(render_robots(), content_type="text/plain; charset=utf-8")
     if url_path == "/sitemap.xml":
         return Response(render_sitemap(), content_type="application/xml; charset=utf-8")
+    if url_path == "/feed.xml":
+        return Response(render_feed(), content_type="application/rss+xml; charset=utf-8")
+    if url_path == "/llms.txt":
+        return Response(render_llms(), content_type="text/plain; charset=utf-8")
     if url_path == "/search-cards.html":
         return Response(render_search_cards(), content_type="text/html; charset=utf-8", headers={"X-Robots-Tag": "noindex"})
-    if url_path in ("/favicon.ico", "/favicon.svg"):
+    if url_path == "/favicon.ico":
+        return Response(FAVICON_ICO, content_type="image/x-icon", headers={"Cache-Control": "public, max-age=86400"})
+    if url_path == "/favicon.svg":
         return Response(FAVICON, content_type="image/svg+xml")
 
     if url_path in ("/equipo-editorial", "/equipo-editorial/"):

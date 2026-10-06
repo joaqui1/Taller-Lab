@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "comparación de potencia, rangos térmicos y contenido declarado para Gadnic 878D y Yihua 878D/898D, con discrepancia 750 W frente a 370 W visible"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

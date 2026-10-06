@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía por trabajo y alimentación, con tabla de pistolas BTA, boquillas, presión, consumo y control de compatibilidad con el compresor."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

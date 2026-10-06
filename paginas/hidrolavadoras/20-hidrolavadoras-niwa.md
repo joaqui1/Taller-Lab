@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Selector de gama Niwa Argentina entre eléctricas domésticas, profesionales y a combustión; corrige el código HDNW-500 y analiza una muestra declarada de opiniones HDNW-700."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

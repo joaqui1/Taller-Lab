@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparativa del sistema MIG con gas completo que une fuente, ciclo, alambre, rodillo, punta, torcha, regulador/caudalímetro, cilindro y accesorios según las listas documentadas de ESAB HandyArc MIG 160i y Lüsqtoff MIGDUAL200-9."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

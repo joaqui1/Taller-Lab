@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de selección de alambre flux por tipo de protección, clasificación, diámetro, polaridad, alimentación del alambre y bobina compatible con la máquina."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

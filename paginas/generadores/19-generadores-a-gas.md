@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de configuraciones GN/GLP de fábrica y conversiones con kits, modelos residenciales publicados en Argentina, potencias y consumos por combustible y criterios seguros de instalación."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

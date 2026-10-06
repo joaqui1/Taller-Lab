@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de percutores con cable y modelos inalámbricos V20 con y sin percusión"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

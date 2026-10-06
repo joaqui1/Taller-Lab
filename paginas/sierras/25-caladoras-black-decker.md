@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "BES603: capacidad, velocidad y variante"
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

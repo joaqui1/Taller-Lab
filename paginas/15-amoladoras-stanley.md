@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación de tres amoladoras Stanley con cable incluidas en el catálogo argentino y una opción V20 inalámbrica documentada en México/Perú."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

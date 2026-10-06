@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Escenarios de compra Einhell TE-CD 18/40 y TP-CD 18/50 con y sin batería Power X-Change"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía para elegir una amoladora de 180 mm y comparar potencia, peso y funciones de cuatro modelos de tres fabricantes."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

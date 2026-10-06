@@ -5,6 +5,7 @@ url: "/soldadoras/lusqtoff-sml150-8/"
 description: "Comparación documental SML150-8 y SML150-8D: procesos, corriente declarada, ciclo de trabajo, kit y diferencias entre variantes."
 author: "Joaquín Vallasciani"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 research_type: "documental"
 physical_test: "no"

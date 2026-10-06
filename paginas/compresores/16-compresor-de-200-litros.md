@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de dimensionamiento para taller que compara depósito, caudal nominal, presión, alimentación y peso sin confundirlos con el aire efectivo disponible."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

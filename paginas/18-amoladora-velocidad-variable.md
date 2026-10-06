@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de selección de amoladoras con velocidad variable y comparación de cinco modelos 220–240 V; distingue documentación de fabricante y datos de una publicación comercial."
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

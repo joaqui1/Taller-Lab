@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra de la K2 argentina por código y contenido del paquete, con tareas apropiadas, accesorios, detergente, diagnóstico según manual y comparación local K2/K3."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

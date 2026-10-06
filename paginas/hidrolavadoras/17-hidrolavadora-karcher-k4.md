@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de decisión argentina alrededor de K4: compara K3, K4 estándar, K4 Power Control y K5, con diferencias de uso, equipo y mantenimiento."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Secuencia de identificación de acoples rápidos que distingue perfil, rosca, diámetro nominal y género; conserva las referencias de intercambio Parker y CEJN."
 asset_status: "verificado"
 reviewed: "02/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

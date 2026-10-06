@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Criterios de elección de filtro fotosensible por proceso, sombra, funciones, ergonomía, alimentación, marcado y repuestos, con matriz de modelos como ejemplos."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

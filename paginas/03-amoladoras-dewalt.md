@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparación regional DeWalt 220 V: variantes con cable, 115/125/180 mm, más referencia inalámbrica de kit"
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

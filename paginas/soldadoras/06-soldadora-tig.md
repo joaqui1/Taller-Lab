@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Criterios de elección TIG por material, funciones, ciclo y alimentación, con matriz de necesidades y comparación documentada de equipos."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

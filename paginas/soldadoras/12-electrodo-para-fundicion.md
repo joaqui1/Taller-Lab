@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Compara dos electrodos ESAB clasificados ENi-CI y ENiFe-CI con porcentaje de níquel, unión descrita y rangos por diámetro; aporta criterios de clasificación sin reemplazar un procedimiento de reparación."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

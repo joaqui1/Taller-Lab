@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra condicional para dos fuentes MMA de hasta 200 A: relaciona consumibles, ciclo publicado, red y funciones sin presentar el máximo como corriente continua."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

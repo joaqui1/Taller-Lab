@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de selección de amoladoras de banco con ejemplos comparables de 150 y 200 mm"
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

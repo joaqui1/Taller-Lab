@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Compara estaciones YiHUA 878D y 898D de aire caliente con cautín frente a Lüsqtoff ES3L45-8 de cautín regulado; especifica funciones, rango térmico y límites de ficha para distinguir retrabajo SMD de soldadura con estaño."
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

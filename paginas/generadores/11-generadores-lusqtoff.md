@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Mapa comparativo de modelos Lüsqtoff convencionales e inverter con datos oficiales localizados, decisión por tipo de uso y consultas de precio, garantía y servicio."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

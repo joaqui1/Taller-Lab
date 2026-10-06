@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Calculadora de autonomía con consumo, descarga útil, eficiencia y consumo propio, más comparación regional de EcoFlow, BLUETTI y Anker."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

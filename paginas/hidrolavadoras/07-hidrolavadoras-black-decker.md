@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía por uso de los códigos Black+Decker que aparecen en el catálogo argentino, con presión de trabajo/máxima, caudal, manguera, accesorios, repuestos y garantía local cuando se publican."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

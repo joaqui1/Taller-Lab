@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "SKIL 4380 y 4550: prestaciones y vigencia por verificar"
 asset_status: "verificado"
 reviewed: "01/10/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

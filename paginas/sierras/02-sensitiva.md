@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Capacidad por perfil: no la deduzcas del diámetro"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

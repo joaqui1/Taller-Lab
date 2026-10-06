@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Comparativa de la gama Hyundai local en varios escalones de potencia, con autonomías sin condición identificadas como tales, precios fechados y opciones de posventa local."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

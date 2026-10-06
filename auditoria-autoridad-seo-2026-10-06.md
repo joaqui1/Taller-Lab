@@ -277,7 +277,28 @@ El archivo `analisis-semrush-prioridades.md` ya tiene 100 consultas más por med
 
 ---
 
-## 10. Para volver a auditar en vivo
+## 10. Aplicado el 06/10/2026 (mismo día de la auditoría)
+
+Correcciones deterministas implementadas en el código y verificadas con `verificar_hubs.py`, `verificar_produccion.py` y `verificar_enlaces_publicados.py` (los tres en OK) más rastreo local de las 190 rutas. **Ningún H1 fue modificado.** Las pruebas físicas quedan fuera por decisión editorial.
+
+| Cambio | Dónde | Efecto medido |
+|---|---|---|
+| Barra de categorías con los 8 hubs bajo el encabezado de todas las páginas (el menú principal de `main` queda intacto; oculta en la portada, que ya tiene la grilla) | `HTML_SHELL` | Enlaces entrantes al hub de hidrolavadoras: 25 → 364; soldadura electrónica: 7 → 328 (sobre 317 rutas) |
+| Footer con 4 columnas: categorías, 10 guías de mayor demanda, datos y comunidad (base técnica, observatorio, compatibilidad, alertas, comunidad), páginas del sitio y redes | `HTML_SHELL` | `/amoladoras/de-banco/`: 5 → 321 entrantes; `/hidrolavadoras/inalambricas/`: 10 → 325 |
+| Enlace “Ver todas las guías de {categoría}” al final de cada guía | `render_article_page` | +179 enlaces contextuales a hubs |
+| `<title>` de 6 hubs con término de cabecera (H1 intacto) | `hubs.py`, `00-soldadoras.md` | Ej.: “Generadores · TallerLab” → “Grupos electrógenos y generadores eléctricos: cuál elegir · TallerLab”; doble marca de soldadoras eliminada; sufijo de marca unificado |
+| `og:title` de hubs alineado con el `<title>` | `canonical_tag` | — |
+| `lastmod` en el sitemap desde la fecha de revisión | `render_sitemap` | 186 de 190 URLs con `lastmod` |
+| `datePublished` en `Article` | frontmatter `published_on` (179 guías) + `article_schema_tag` | Fecha 30/09/2026, respaldada por `despliegue-verificado-2026-09-30.json` (190 rutas en producción ese día) |
+| `CollectionPage` + `ItemList` en los 8 hubs | `render_category_page` | Lista ordenada de las guías de cada categoría |
+| `SearchAction` en `WebSite` y soporte de `/?q=` en el buscador | `render_home_page`, `home.js` | Verificado: `/?q=compresor 50` muestra 6 guías |
+| Feed RSS `/feed.xml` (179 ítems, ordenados por revisión) y `<link rel="alternate">` | `render_feed`, `app.py`, servidor local | XML válido |
+| `/llms.txt` | `render_llms`, `app.py`, servidor local | — |
+| Favicon real: `.ico` 16/32/48 + PNG 192 + `apple-touch-icon` + `theme-color`, generados desde la marca del logo | `assets/icons/`, `HTML_SHELL` | Reemplaza el emoji SVG |
+
+Pendiente que requiere decisión o datos del editor: `sameAs` (perfiles reales), correo de contacto (`CONTACT_EMAIL`), Search Console y analítica, FAQ por guía, recorte de títulos y descripciones de guías, canibalizaciones (son decisiones editoriales), calculadoras con URL propia (nueva funcionalidad).
+
+## 11. Para volver a auditar en vivo
 
 La política de red de este entorno bloqueó `tallerlab.com.ar` y `www.tallerlab.com.ar`. Para que una próxima sesión rastree producción directamente, agregar esos dos hosts en “Network access” del entorno (Custom → Allowed domains). Guía: https://code.claude.com/docs/en/cloud-environments#network-access.
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Tabla de corriente ESAB Atom Arc 7018 por diámetro y contraste con la corriente nominal de HandyArc 162i por ciclo de trabajo; separa consumible, fuente y almacenamiento sin generalizar los valores."
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

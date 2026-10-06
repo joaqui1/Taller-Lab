@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Compara equipos TIG AC/DC y MIG preparados para spool gun con criterios por trabajo, sistema de alimentación de aluminio, gas, aporte y accesorios incluidos o por comprar."
 asset_status: "verificado"
 reviewed: "28/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

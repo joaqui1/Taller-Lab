@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Guía de compra del código G2514AR con distinción entre presión de servicio y admisible, usos, comparación con G2513AR, conexión, mantenimiento y relevamiento de precio."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

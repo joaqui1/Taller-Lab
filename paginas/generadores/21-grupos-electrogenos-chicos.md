@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Matriz Pektra–Konan que separa los datos oficiales del KGE/800 de las cifras comerciales todavía no confirmadas por fabricante para GPK980."
 asset_status: "verificado"
 reviewed: "29/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "comparación documental entre Pro'sKit 608-391E, Weller WLACCHHB-02 y Velleman VTHH3N por aumento, pinzas, base o luz; dimensiones faltantes señaladas"
 asset_status: "verificado"
 reviewed: "27/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 

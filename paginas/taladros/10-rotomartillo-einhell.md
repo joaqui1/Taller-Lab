@@ -14,6 +14,7 @@ primary_sources: "sí"
 information_asset: "Cuatro modelos y códigos de rotomartillo Einhell: opciones con cable y Power X-Change"
 asset_status: "verificado"
 reviewed: "30/09/2026"
+published_on: "30/09/2026"
 published: true
 ---
 
