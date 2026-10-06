@@ -515,10 +515,28 @@ def write_wav(path, st):
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(data)
 
 
+def read_wav(path):
+    with wave.open(path, 'rb') as w:
+        n = w.getnframes(); x = np.frombuffer(w.readframes(n), '<i2').reshape(-1, 2).T / 32768.0
+    return x
+
+
+def master(path, gain_db, ceiling_db=-2.0):
+    """Aplica la ganancia medida (hacia -14 LUFS) y limita a un techo por muestra."""
+    x = read_wav(path) * 10 ** (gain_db / 20)
+    x = limiter(x, ceiling=10 ** (ceiling_db / 20))
+    write_wav(path, x)
+    print('master', path, f'gain {gain_db:+.2f} dB', 'pico', round(float(np.max(np.abs(x))), 3))
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--reel', type=int, required=True)
+    ap.add_argument('--reel', type=int)
+    ap.add_argument('--master', help='wav a masterizar')
+    ap.add_argument('--gain-db', type=float, default=0.0)
     a = ap.parse_args()
+    if a.master:
+        master(a.master, a.gain_db); return
     with open(os.path.join(TMP, f'reel-{a.reel}-events.json')) as f:
         d = json.load(f)
     meta, events = d['meta'], d['events']
