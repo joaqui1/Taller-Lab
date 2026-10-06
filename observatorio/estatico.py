@@ -391,7 +391,11 @@ def static_observatory_file(path):
     elif path in ('/datos/precios/'+(c+'/' if c else '')+'descargar-csv' for c in (None,*CATEGORIES)) or path in ('/datos/precios/'+(c+'/' if c else '')+'historial.csv' for c in (None,*CATEGORIES)):
         target = ROOT/'public'/path.lstrip('/')
     else: return None
-    return target if target.is_file() else None
+    if target.is_file():
+        return target
+    # En Vercel, public/ no entra en la función: el build deja una copia aquí.
+    copy = ROOT/'observatorio_publicado'/target.relative_to(ROOT/'public')
+    return copy if copy.is_file() else None
 
 
 def expected_observatory_paths():

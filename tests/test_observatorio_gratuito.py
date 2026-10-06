@@ -216,6 +216,8 @@ class FreeObservatoryTests(unittest.TestCase):
                     build.main(root)
                 self.assertFalse((root / 'assets/datos/observatorio-publicacion.json').exists())
 
+    # El workflow de captura instala solo requests y bs4; la suite completa sí incluye Flask.
+    @unittest.skipUnless(__import__('importlib.util').util.find_spec('flask'), 'Flask no instalado en el workflow de captura')
     def test_http_downloads_and_generated_json_do_not_need_legacy_database(self):
         import app as module
         with tempfile.TemporaryDirectory() as tmp:

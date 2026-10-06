@@ -49,3 +49,7 @@ node_modules/
 
 # Generado y verificado en cada build; se incluye en la función de Vercel.
 assets/datos/observatorio-publicacion.json
+
+# Copia del observatorio generada en cada build (la sirve la función en Vercel).
+observatorio_publicado/
+assets/datos/precios-observatorio-publico.json

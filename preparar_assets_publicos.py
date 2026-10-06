@@ -31,7 +31,29 @@ def main(root=None):
     target = source / 'datos' / manifest.name
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(manifest, target)
+    # Vercel (Flask) toma public/ antes de ejecutar este build: lo generado aquí no llega al CDN.
+    # Se copia a una carpeta que sí entra en la función, que sirve las páginas y descargas.
+    published = root / 'observatorio_publicado'
+    shutil.rmtree(published, ignore_errors=True)
+    shutil.copytree(root / 'public' / 'datos', published / 'datos')
+    dataset = root / 'public' / 'assets' / 'datos' / 'precios-observatorio-publico.json'
+    shutil.copy2(dataset, source / 'datos' / dataset.name)
+    verify_publication_copy(root / 'public', published, source / 'datos' / dataset.name)
     print(f"OK: observatorio con {summary['observations']} observaciones y {len(summary['routes'])} páginas verificadas.")
+
+
+def verify_publication_copy(public, published, dataset):
+    """Detiene el build si la copia servida por la función no es idéntica a lo generado."""
+    origin = public / 'datos'
+    files = [f for f in origin.rglob('*') if f.is_file()]
+    if not files:
+        raise RuntimeError('El observatorio no generó archivos para publicar')
+    for file in files:
+        copy = published / 'datos' / file.relative_to(origin)
+        if not copy.is_file() or copy.read_bytes() != file.read_bytes():
+            raise RuntimeError(f'Copia incompleta del observatorio: {copy}')
+    if dataset.read_bytes() != (public / 'assets' / 'datos' / dataset.name).read_bytes():
+        raise RuntimeError('Copia incompleta del dataset público del observatorio')
 
 
 HISTORY_URL = os.environ.get('OBSERVATORIO_HISTORY_URL', 'https://raw.githubusercontent.com/joaqui1/Taller-Lab/observatorio-datos/precios-observatorio.json')
