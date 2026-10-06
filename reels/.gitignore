@@ -1,0 +1,7 @@
+# intermedios del render: se regeneran con ./build.sh
+salida/preview-*/
+salida/*.wav
+salida/*.video.mp4
+salida/*.log
+salida/dbg.png
+salida/spec-*.png

@@ -1,0 +1,149 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Reel 01 · Heladera</title><link rel="stylesheet" href="base.css"></head>
+<body><div id="stage"></div>
+<script src="engine.js"></script>
+<script>
+R.dur = 16; R.title = 'Tu heladera no consume 150 W al arrancar';
+R.music = { bpm: 104, root: 'D', mode: 'minor', sections: [[0, 3.2, 'hook'], [3.2, 10.4, 'build'], [10.4, 13.1, 'full'], [13.1, 16, 'outro']] };
+chrome({ tag: 'Generadores · Casa', foot: 'Dato de manual', lightAt: t => t >= 6.6 && t < 10.4 });
+
+/* S1 · HOOK */
+scene({ t0: 0, t1: 3.2,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '420px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '40px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '132px';
+    const ws = buildWords(h, [['Tu', 'heladera'], ['dice'], [{ w: '150 W', o: false }]]);
+    const big = el('div', 'hook', '<span class="w o" style="font-size:230px;line-height:.9">750 VA</span>', c); big.style.marginTop = '70px';
+    const stk = el('div', 'sticker', 'al arrancar ✍', r); stk.style.cssText += 'left:560px;top:1265px;transform-origin:left center';
+    R.ev(0.0, 'impact', { gain: .9 }); R.ev(0.02, 'typing', { n: 20 });
+    R.ev(0.62, 'impact', { gain: .7, hi: true }); R.ev(1.15, 'strike'); R.ev(1.2, 'riser', { len: .5 });
+    R.ev(1.7, 'impact', { gain: 1.2 }); R.ev(2.15, 'pop');
+    return { k, ws, big, stk, h };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Generador para casa', t, 0.02, 34);
+    wordsAnim(s.ws.slice(0, 3), t, 0.08, .12, .8, 'rise');
+    wordsAnim([s.ws[3]], t, 0.62, 0, .55, 'slam');
+    strike(s.ws[3], t, 1.15, .4);
+    const u = tw(t, 1.7, .6, 'outExpo');
+    st(q('.w', s.big), { s: L(2.6, 1, u), o: Math.min(1, u * 4), blur: (1 - u) * 30 });
+    const v = tw(t, 2.15, .6, 'outBack'); st(s.stk, { r: L(-14, -6, v), s: v, o: v });
+    // shake de cámara en el impacto
+    const sh = Math.max(0, 1 - (t - 1.7) / .35) * (t >= 1.7 ? 1 : 0);
+    st(q('#stage'), { x: Math.sin(t * 90) * 14 * sh, y: Math.cos(t * 70) * 10 * sh, s: 1 + .02 * sh });
+    if (t > 3.0) st(q('#stage'), {});
+  }
+});
+addWipe(3.05, .5);
+
+/* S2 · MARCHA VS ARRANQUE */
+scene({ t0: 3.2, t1: 6.6,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Marcha'], [{ w: 'vs.', o: true }, 'arranque']]);
+    const sub = el('p', 'sub', 'Motores, heladeras y bombas piden <b>más potencia al arrancar</b> que funcionando.', c); sub.style.marginTop = '36px';
+    const wrap = el('div', '', null, c); wrap.style.marginTop = '80px';
+    const l1 = el('div', 'kicker', 'En marcha', wrap); l1.style.cssText = 'font-size:24px;margin-bottom:16px';
+    const b1 = el('div', 'bar', '<i class="g"></i><span class="lbl">Heladera</span><span class="val cnt">0 VA</span>', wrap);
+    const l2 = el('div', 'kicker', 'Al arrancar', wrap); l2.style.cssText = 'font-size:24px;margin:44px 0 16px';
+    const b2 = el('div', 'bar', '<i></i><span class="lbl">Heladera</span><span class="val cnt">0 VA</span>', wrap);
+    const b3 = el('div', 'bar', '<i style="opacity:.55"></i><span class="lbl"></span><span class="val cnt" style="color:#ff874b">hasta 750 VA</span>', wrap); b3.style.cssText = 'margin-top:14px;height:40px;background:transparent;border:0';
+    const stk = el('div', 'sticker', 'ejemplo del manual Lüsqtoff LG2500', r); stk.style.cssText += 'left:72px;top:1500px;font-size:38px;transform-origin:left center';
+    R.ev(3.25, 'typing', { n: 18 }); R.ev(3.5, 'impact', { gain: .55, hi: true }); R.ev(3.78, 'impact', { gain: .55, hi: true });
+    R.ev(4.4, 'ticks', { len: .7, rate: 22 }); R.ev(5.1, 'riser', { len: .6 }); R.ev(5.3, 'ticks', { len: .9, rate: 30 }); R.ev(5.3, 'impact', { gain: .8 }); R.ev(6.2, 'pop');
+    return { k, ws, sub, b1, b2, b3, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Lo que pide el motor', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.sub, t, .7, .9, { from: { y: 40, o: 0 } });
+    enter(s.b1.parentElement, t, 1.0, .9, { from: { y: 50, o: 0 } });
+    bar(s.b1, t, 1.2, 1.0, 40); counter(q('.val', s.b1), t, 1.2, 1.0, 0, 300, v => fmtInt(v) + ' VA');
+    bar(s.b2, t, 2.1, 1.1, 60); counter(q('.val', s.b2), t, 2.1, 1.1, 0, 450, v => fmtInt(v) + ' VA');
+    bar(s.b3, t, 2.5, 1.0, 100); 
+    const u = tw(t, 2.1, 1.1, 'outExpo'); st(q('.val', s.b3), { o: u, x: L(30, 0, u) });
+    const sk = tw(t, 3.0, .5, 'outBack'); st(s.stk, { o: sk, r: L(6, -3, sk), s: L(.8, 1, sk) });
+  }
+});
+addWipe(6.45, .5, 'cream');
+
+/* S3 · LA CUENTA (fondo crema) */
+scene({ t0: 6.6, t1: 10.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '340px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '30px';
+    const h = el('div', 'h sm', null, c);
+    const ws = buildWords(h, [['Sumá lo que estará'], ['encendido', { w: 'a la vez', o: true }]]);
+    const mk = (y, cap, big, small, extra) => { const d = el('div', 'card', `<div style="padding:34px 40px"><div class="cap">${cap}</div><div class="big" style="margin-top:14px"><span class="cnt">${big}</span><small>${small}</small></div>${extra || ''}</div>`, r); d.style.cssText += `left:72px;width:936px;top:${y}px`; return d; };
+    const c1 = mk(700, '3 lámparas × 100 VA', '0', 'VA');
+    const c2 = mk(930, 'Heladera en marcha', '0', 'VA');
+    const eq = el('div', 'h', '=', r); eq.style.cssText += 'position:absolute;left:72px;top:1140px;color:#ff5a0a;font-size:120px';
+    const c3 = mk(1180, 'Marcha simultánea', '0', 'VA', '<div class="desc" style="margin-top:12px">Pico al arrancar la heladera: <b class="num" style="color:#bd4100">750 – 1.050 VA</b></div>');
+    c3.style.borderTopColor = '#20272b'; c3.style.background = '#fffefa';
+    const stk = el('div', 'sticker cream', 'reemplazá por los datos de placa', r); stk.style.cssText += 'left:430px;top:1440px;font-size:36px;transform-origin:left center';
+    R.ev(6.65, 'typing', { n: 14 }); R.ev(6.9, 'impact', { gain: .5, hi: true });
+    R.ev(7.3, 'ticks', { len: .6, rate: 24 }); R.ev(7.9, 'ticks', { len: .6, rate: 24 }); R.ev(8.5, 'blip'); R.ev(8.7, 'ticks', { len: .8, rate: 28 }); R.ev(8.7, 'impact', { gain: .7 }); R.ev(9.5, 'pop'); R.ev(9.6, 'blip', { up: true });
+    return { k, ws, c1, c2, c3, eq, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'La cuenta', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .1, .8, 'rise');
+    enter(s.c1, t, .7, .9, { from: { y: 80, o: 0, rx: 12 } }); counter(q('.cnt', s.c1), t, .7, .7, 0, 300);
+    enter(s.c2, t, 1.3, .9, { from: { y: 80, o: 0, rx: 12 } }); counter(q('.cnt', s.c2), t, 1.3, .7, 0, 300);
+    const e = tw(t, 1.9, .5, 'outBack'); st(s.eq, { s: e, o: e, r: L(-90, 0, e) });
+    enter(s.c3, t, 2.1, 1.0, { from: { y: 90, o: 0, s: .94 } }); counter(q('.cnt', s.c3), t, 2.1, .9, 0, 600);
+    const v = tw(t, 2.95, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+  }
+});
+addWipe(10.25, .5, 'dark');
+
+/* S4 · NOMINAL VS MÁXIMA */
+scene({ t0: 10.4, t1: 13.1,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '116px';
+    const ws = buildWords(h, [['Elegí', 'por'], ['potencia'], [{ w: 'nominal.', o: true }]]);
+    const cl = el('div', 'callout', '<div class="cap">Regla TallerLab</div><p>La potencia <b>máxima</b> es para el pico breve del arranque. <b>No</b> es capacidad continua.</p>', r); cl.style.cssText += 'left:72px;width:936px;top:900px';
+    const list = el('div', '', null, r); list.style.cssText = 'position:absolute;left:72px;top:1230px;display:flex;flex-direction:column;gap:30px';
+    const items = [['Nominal', 'carga sostenida durante horas', 'check'], ['Máxima', 'solo arranques breves, según el manual', 'check'], ['Transferencia', 'instalada por un profesional', 'check']]
+      .map(([a, b, ic]) => el('div', 'check', `<span class="ic ${ic === 'x' ? 'x' : ''}">${ICON[ic]}</span><span>${a}<small>${b}</small></span>`, list));
+    R.ev(10.45, 'typing', { n: 12 }); R.ev(10.7, 'impact', { gain: .6, hi: true }); R.ev(10.95, 'impact', { gain: .7, hi: true }); R.ev(11.2, 'impact', { gain: 1 });
+    R.ev(11.6, 'whoosh', { len: .35, soft: true }); [11.85, 12.1, 12.35].forEach(x => R.ev(x, 'blip', { up: true }));
+    return { k, ws, cl, items };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Para casa', t, .05, 36);
+    wordsAnim(s.ws.slice(0, 3), t, .3, .12, .8, 'rise'); wordsAnim([s.ws[3]], t, .8, 0, .6, 'slam');
+    enter(s.cl, t, 1.2, .9, { from: { x: -80, o: 0 } });
+    s.items.forEach((it, i) => enter(it, t, 1.45 + i * .25, .7, { from: { x: 60, o: 0 } }));
+  }
+});
+addFlash(13.1, .4);
+
+/* S5 · CTA */
+scene({ t0: 13.1, t1: 16,
+  build(r) {
+    const logo = el('img', '', null, r); logo.src = '../../assets/logo_dark.png'; logo.style.cssText = 'position:absolute;left:50%;top:560px;width:700px;margin-left:-350px';
+    const h = el('div', 'h', null, r); h.style.cssText += 'position:absolute;left:72px;right:72px;top:820px;text-align:center;font-size:84px';
+    const ws = buildWords(h, [['Calculadora de'], ['cargas', { w: 'gratis', o: true }]]);
+    const sub = el('p', 'sub', 'Completá la hoja con los datos de placa y compará marcha, pico y potencia nominal.', r); sub.style.cssText += 'position:absolute;left:120px;right:120px;top:1040px;text-align:center;font-size:34px';
+    const btn = el('div', 'btn', `tallerlab.com.ar/generadores/para-casa ${ICON.arrow}`, r); btn.style.cssText += 'left:50%;top:1250px;transform-origin:center;font-size:30px;white-space:nowrap';
+    const stk = el('div', 'sticker', 'sin registro, sin vueltas', r); stk.style.cssText += 'left:600px;top:1370px;transform-origin:left center';
+    const ring = el('div', '', null, r); ring.style.cssText = 'position:absolute;left:50%;top:640px;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;border:3px solid #ff5a0a;opacity:0';
+    R.ev(13.1, 'sting'); R.ev(13.55, 'impact', { gain: .5, hi: true }); R.ev(13.8, 'impact', { gain: .5, hi: true }); R.ev(14.35, 'pop'); R.ev(14.8, 'blip', { up: true });
+    return { logo, ws, sub, btn, stk, ring };
+  },
+  frame(t, T, s) {
+    const u = tw(t, 0, 1.0, 'outExpo'); st(s.logo, { s: L(1.6, 1, u), o: u, blur: (1 - u) * 20 });
+    const rr = tw(t, 0, 1.4, 'outCubic'); const d = L(10, 1700, rr); s.ring.style.width = s.ring.style.height = d + 'px'; s.ring.style.margin = `${-d/2}px 0 0 ${-d/2}px`; s.ring.style.opacity = (1 - rr) * .9;
+    wordsAnim(s.ws, t, .45, .12, .8, 'rise');
+    enter(s.sub, t, .9, .8, { from: { y: 30, o: 0 } });
+    const b = tw(t, 1.25, .7, 'outBack'); s.btn.style.transform = `translateX(-50%) scale(${b})`; s.btn.style.opacity = b;
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.stk, { o: v, r: L(10, -5, v), s: L(.7, 1, v) });
+    const pulse = 1 + Math.sin(Math.max(0, t - 2) * 7) * .025 * (t > 2 ? 1 : 0); if (t > 2) s.btn.style.transform = `translateX(-50%) scale(${pulse})`;
+  }
+});
+</script></body></html>

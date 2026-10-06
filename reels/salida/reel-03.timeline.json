@@ -1,0 +1,252 @@
+{
+ "dur": 17,
+ "fps": 30,
+ "events": [
+  {
+   "t": 0,
+   "kind": "riser",
+   "len": 0.35
+  },
+  {
+   "t": 0.02,
+   "kind": "typing",
+   "n": 20
+  },
+  {
+   "t": 0.35,
+   "kind": "impact",
+   "gain": 1.2
+  },
+  {
+   "t": 1,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 1.35,
+   "kind": "impact",
+   "gain": 1
+  },
+  {
+   "t": 1.95,
+   "kind": "pop"
+  },
+  {
+   "t": 1.95,
+   "kind": "warn"
+  },
+  {
+   "t": 3.25,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 3.45,
+   "kind": "typing",
+   "n": 14
+  },
+  {
+   "t": 3.7,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 4,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 4.5,
+   "kind": "engine",
+   "len": 3.8,
+   "ramp": [
+    4.5,
+    5.6,
+    6.6,
+    7.6
+   ]
+  },
+  {
+   "t": 4.6,
+   "kind": "ticks",
+   "len": 1,
+   "rate": 26
+  },
+  {
+   "t": 5.6,
+   "kind": "blip"
+  },
+  {
+   "t": 6.6,
+   "kind": "riser",
+   "len": 0.4
+  },
+  {
+   "t": 6.7,
+   "kind": "ticks",
+   "len": 0.8,
+   "rate": 30
+  },
+  {
+   "t": 7,
+   "kind": "impact",
+   "gain": 0.8
+  },
+  {
+   "t": 7.7,
+   "kind": "pop"
+  },
+  {
+   "t": 8.25,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 8.45,
+   "kind": "typing",
+   "n": 12
+  },
+  {
+   "t": 8.7,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 9,
+   "kind": "impact",
+   "gain": 0.7,
+   "hi": true
+  },
+  {
+   "t": 9.25,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 9.6,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 9.9,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 10.2,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 10.5,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 10.9,
+   "kind": "pop"
+  },
+  {
+   "t": 11.25,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 11.45,
+   "kind": "typing",
+   "n": 12
+  },
+  {
+   "t": 11.7,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 11.95,
+   "kind": "impact",
+   "gain": 0.9
+  },
+  {
+   "t": 12.2,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 12.5,
+   "kind": "whoosh",
+   "len": 0.3,
+   "soft": true
+  },
+  {
+   "t": 12.75,
+   "kind": "whoosh",
+   "len": 0.3,
+   "soft": true
+  },
+  {
+   "t": 13.2,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 14.1,
+   "kind": "sting"
+  },
+  {
+   "t": 14.55,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 14.8,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 15.35,
+   "kind": "pop"
+  },
+  {
+   "t": 15.8,
+   "kind": "blip",
+   "up": true
+  }
+ ],
+ "music": {
+  "bpm": 100,
+  "root": "A",
+  "mode": "minor",
+  "sections": [
+   [
+    0,
+    3.4,
+    "hook"
+   ],
+   [
+    3.4,
+    8.4,
+    "build"
+   ],
+   [
+    8.4,
+    14.1,
+    "full"
+   ],
+   [
+    14.1,
+    17,
+    "outro"
+   ]
+  ]
+ },
+ "title": "63 dB no te dice nada"
+}

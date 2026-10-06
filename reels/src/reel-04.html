@@ -1,0 +1,154 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Reel 04 · Honda 6500</title><link rel="stylesheet" href="base.css">
+<style>
+.two{position:absolute;left:72px;top:660px;width:936px;display:flex;gap:24px;perspective:1600px}
+.two .card{position:relative;flex:1;border-top-width:6px}
+.two .card .img{height:300px;padding:18px}
+.two .card .body{padding:22px 26px 28px}
+.two .card .name{font-weight:800;font-size:34px;letter-spacing:-.03em;margin-bottom:14px}
+.two .card .row{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:24px;color:#626a6c;padding:10px 0;border-top:1px solid var(--border)}
+.two .card .row b{font-size:40px;color:var(--ink);font-weight:600;letter-spacing:-.03em}
+.two .card .row b.o{color:#d54b00}
+.two .card .row small{font-size:22px;margin-left:4px}
+.vs{position:absolute;left:50%;top:1000px;width:100px;height:100px;margin-left:-50px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:38px;box-shadow:0 10px 40px rgba(255,90,10,.5);z-index:3}
+</style></head>
+<body><div id="stage"></div>
+<script src="engine.js"></script>
+<script>
+R.dur = 17; R.title = 'Dice 6500, entrega 5,0 kVA';
+R.music = { bpm: 110, root: 'E', mode: 'minor', sections: [[0, 3.4, 'hook'], [3.4, 8.6, 'build'], [8.6, 14.1, 'full'], [14.1, 17, 'outro']] };
+chrome({ tag: 'Generadores · Honda', foot: 'Ficha Honda', lightAt: t => t >= 8.6 && t < 11.6 });
+
+/* S1 · HOOK */
+scene({ t0: 0, t1: 3.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '430px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '36px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '150px';
+    const ws = buildWords(h, [['Dice', { w: '6500.', o: false }], ['Entrega', { w: '5,0 kVA.', o: true }]]);
+    const stk = el('div', 'sticker', 'nominales, no 6.500 W', r); stk.style.cssText += 'left:72px;top:1050px;transform-origin:left center';
+    const p = el('p', 'sub', 'Honda publica la potencia en <b>kVA</b>: nominal y máxima. El nombre comercial no es la capacidad continua.', c); p.style.marginTop = '220px';
+    R.ev(0, 'impact', { gain: .8 }); R.ev(0.02, 'typing', { n: 16 }); R.ev(.5, 'impact', { gain: 1.0 }); R.ev(1.1, 'impact', { gain: .6, hi: true }); R.ev(1.4, 'riser', { len: .3 }); R.ev(1.7, 'impact', { gain: 1.2 });
+    R.ev(2.2, 'pop'); R.ev(2.5, 'whoosh', { len: .3, soft: true });
+    return { k, ws, stk, p };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Honda EG / EZ 6500', t, .02, 34);
+    wordsAnim([s.ws[0]], t, .1, 0, .7, 'rise'); wordsAnim([s.ws[1]], t, .5, 0, .55, 'slam');
+    wordsAnim([s.ws[2]], t, 1.1, 0, .7, 'rise'); wordsAnim([s.ws[3]], t, 1.7, 0, .6, 'slam');
+    const sh = t >= 1.7 ? Math.max(0, 1 - (t - 1.7) / .3) : 0; st(q('#stage'), { x: Math.sin(t * 95) * 14 * sh, y: Math.cos(t * 72) * 10 * sh, s: 1 + .02 * sh });
+    const v = tw(t, 2.2, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+    enter(s.p, t, 2.5, .8, { from: { y: 40, o: 0 } });
+  }
+});
+addWipe(3.25, .5);
+
+/* S2 · FICHAS */
+scene({ t0: 3.4, t1: 8.6,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Dos modelos,'], ['dos', { w: 'potencias', o: true }]]);
+    const two = el('div', 'two', null, r);
+    const mk = (img, name, nom, max, tank, aut) => el('div', 'card', `<div class="img"><img src="../../assets/productos/${img}"></div><div class="body"><div class="name">${name}</div>
+      <div class="row"><span>Nominal</span><span><b class="cnt o">0</b><small>kVA</small></span></div>
+      <div class="row"><span>Máxima</span><span><b class="cnt">0</b><small>kVA</small></span></div>
+      <div class="row"><span>Tanque</span><span><b style="font-size:30px">${tank}</b><small>L</small></span></div>
+      <div class="row"><span>Uso continuo</span><span><b style="font-size:30px">${aut}</b><small>h</small></span></div></div>`, two);
+    const c1 = mk('hondaeg6500cxs-ab1e8def5c.webp', 'EG6500CXS', 5.0, 5.5, '24', '8,1');
+    const c2 = mk('hondaez6500cxs-9d25a23812.webp', 'EZ6500CXS', 5.5, 6.5, '15,5', '5,8');
+    const vs = el('div', 'vs', 'vs', r);
+    const stk = el('div', 'sticker', 'mismo motor GX390 · 3,5 L/h a 3.600 rpm', r); stk.style.cssText += 'left:72px;top:1470px;font-size:36px;transform-origin:left center';
+    R.ev(3.45, 'typing', { n: 14 }); R.ev(3.7, 'impact', { gain: .5, hi: true }); R.ev(4.0, 'impact', { gain: .6, hi: true });
+    R.ev(4.4, 'whoosh', { len: .4, soft: true }); R.ev(4.65, 'whoosh', { len: .4, soft: true }); R.ev(5.1, 'pop');
+    R.ev(5.4, 'ticks', { len: .8, rate: 24 }); R.ev(6.2, 'ticks', { len: .8, rate: 24 }); R.ev(6.2, 'impact', { gain: .6 }); R.ev(7.2, 'pop');
+    return { k, ws, c1, c2, vs, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Ficha técnica', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.c1, t, 1.0, .9, { from: { x: -160, o: 0, ry: 30 } }); enter(s.c2, t, 1.25, .9, { from: { x: 160, o: 0, ry: -30 } });
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.vs, { s: v, o: v, r: L(-120, 0, v) });
+    counter(qa('.cnt', s.c1)[0], t, 2.0, .8, 0, 5.0, fmtDec(1)); counter(qa('.cnt', s.c1)[1], t, 2.8, .8, 0, 5.5, fmtDec(1));
+    counter(qa('.cnt', s.c2)[0], t, 2.0, .8, 0, 5.5, fmtDec(1)); counter(qa('.cnt', s.c2)[1], t, 2.8, .8, 0, 6.5, fmtDec(1));
+    const sk = tw(t, 3.8, .6, 'outBack'); st(s.stk, { o: sk, r: L(6, -3, sk), s: L(.8, 1, sk) });
+  }
+});
+addWipe(8.45, .5, 'cream');
+
+/* S3 · NOMINAL = HORAS (crema) */
+scene({ t0: 8.6, t1: 11.6,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '124px';
+    const ws = buildWords(h, [['Nominal', '=', { w: 'horas.', o: true }], ['Máxima', '=', { w: 'pico.', o: true }]]);
+    const card = el('div', 'card', `<div style="padding:36px 40px"><div class="cap">Ejemplo de cuenta · cargas resistivas</div>
+      <div class="desc" style="margin-top:16px;font-size:32px">2 calefactores de 1.500 W + 200 W</div>
+      <div class="big" style="margin-top:14px"><span class="cnt">0</span><small>kVA de marcha</small></div>
+      <div class="desc" style="margin-top:14px">Queda por debajo de los <b class="num" style="color:#bd4100">5,0 kVA nominales</b> del EG6500CXS.</div></div>`, r); card.style.cssText += 'left:72px;width:936px;top:900px';
+    const stk = el('div', 'sticker cream', 'verificá también toma, circuito y cableado', r); stk.style.cssText += 'left:300px;top:1300px;font-size:36px;transform-origin:left center';
+    R.ev(8.65, 'typing', { n: 10 }); R.ev(8.95, 'impact', { gain: .6, hi: true }); R.ev(9.3, 'impact', { gain: .9 }); R.ev(9.55, 'impact', { gain: .6, hi: true }); R.ev(9.9, 'impact', { gain: .9 });
+    R.ev(10.3, 'ticks', { len: .7, rate: 24 }); R.ev(11.0, 'blip', { up: true }); R.ev(11.15, 'pop');
+    return { k, ws, card, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'La regla', t, .05, 36);
+    wordsAnim(s.ws.slice(0, 2), t, .3, .12, .7, 'rise'); wordsAnim([s.ws[2]], t, .7, 0, .5, 'slam');
+    wordsAnim(s.ws.slice(3, 5), t, .95, .12, .7, 'rise'); wordsAnim([s.ws[5]], t, 1.3, 0, .5, 'slam');
+    enter(s.card, t, 1.6, .9, { from: { y: 80, o: 0, rx: 10 } }); counter(q('.cnt', s.card), t, 1.7, .7, 0, 3.2, fmtDec(1));
+    const v = tw(t, 2.5, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+  }
+});
+addWipe(11.45, .5, 'dark');
+
+/* S4 · CÓDIGO COMPLETO */
+scene({ t0: 11.6, t1: 14.1,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Buscá el'], [{ w: 'código completo', o: true }], ['en la placa.']]);
+    const pills = el('div', '', null, r); pills.style.cssText = 'position:absolute;left:72px;top:800px;display:flex;gap:18px;flex-wrap:wrap;width:936px';
+    const ps = ['EG6500CXS', 'EZ6500CXS'].map(x => el('span', 'pill o', x, pills)); ps[0].style.fontSize = ps[1].style.fontSize = '34px';
+    const cl = el('div', 'callout', '<div class="cap">Por qué importa</div><p>En una publicación, <b>“6500”</b> puede aludir al pico comercial del EZ. No uses la ficha de un código parecido para completar datos.</p>', r); cl.style.cssText += 'left:72px;width:936px;top:960px';
+    const list = el('div', '', null, r); list.style.cssText = 'position:absolute;left:72px;top:1270px;display:flex;flex-direction:column;gap:26px';
+    const items = [['Regulación', 'EG: D-AVR · EZ: AVR'], ['Peso en seco', 'EG: 87 kg · EZ: 80 kg']].map(([a, b]) => el('div', 'check', `<span class="ic">${ICON.check}</span><span>${a}<small>${b}</small></span>`, list));
+    R.ev(11.65, 'typing', { n: 12 }); R.ev(11.9, 'impact', { gain: .5, hi: true }); R.ev(12.15, 'impact', { gain: .9 }); R.ev(12.4, 'impact', { gain: .5, hi: true });
+    R.ev(12.6, 'tick'); R.ev(12.75, 'tick'); R.ev(12.9, 'whoosh', { len: .3, soft: true }); R.ev(13.3, 'blip', { up: true }); R.ev(13.55, 'blip', { up: true });
+    return { k, ws, ps, cl, items };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Antes de comprar', t, .05, 36);
+    wordsAnim([s.ws[0]], t, .25, 0, .8, 'rise'); wordsAnim([s.ws[1]], t, .5, 0, .55, 'slam'); wordsAnim([s.ws[2]], t, .8, 0, .8, 'rise');
+    s.ps.forEach((p, i) => enter(p, t, 1.0 + i * .15, .6, { from: { y: 30, o: 0, s: .8 }, ease: 'outBack' }));
+    enter(s.cl, t, 1.3, .8, { from: { x: -80, o: 0 } });
+    s.items.forEach((it, i) => enter(it, t, 1.7 + i * .25, .7, { from: { x: 60, o: 0 } }));
+  }
+});
+addFlash(14.1, .4);
+
+/* S5 · CTA */
+scene({ t0: 14.1, t1: 17,
+  build(r) {
+    const logo = el('img', '', null, r); logo.src = '../../assets/logo_dark.png'; logo.style.cssText = 'position:absolute;left:50%;top:560px;width:700px;margin-left:-350px';
+    const h = el('div', 'h', null, r); h.style.cssText += 'position:absolute;left:72px;right:72px;top:820px;text-align:center;font-size:84px';
+    const ws = buildWords(h, [['Honda 6500:'], ['qué puede', { w: 'alimentar', o: true }]]);
+    const sub = el('p', 'sub', 'Tres cuentas de ejemplo, ficha completa de ambos modelos y qué revisar antes de comprar.', r); sub.style.cssText += 'position:absolute;left:120px;right:120px;top:1040px;text-align:center;font-size:34px';
+    const btn = el('div', 'btn', `tallerlab.com.ar/generadores/honda-6500 ${ICON.arrow}`, r); btn.style.cssText += 'left:50%;top:1250px;transform-origin:center;font-size:29px;white-space:nowrap';
+    const stk = el('div', 'sticker', 'con precio observado', r); stk.style.cssText += 'left:620px;top:1370px;transform-origin:left center';
+    const ring = el('div', '', null, r); ring.style.cssText = 'position:absolute;left:50%;top:640px;border-radius:50%;border:3px solid #ff5a0a;opacity:0';
+    R.ev(14.1, 'sting'); R.ev(14.55, 'impact', { gain: .5, hi: true }); R.ev(14.8, 'impact', { gain: .5, hi: true }); R.ev(15.35, 'pop'); R.ev(15.8, 'blip', { up: true });
+    return { logo, ws, sub, btn, stk, ring };
+  },
+  frame(t, T, s) {
+    const u = tw(t, 0, 1.0, 'outExpo'); st(s.logo, { s: L(1.6, 1, u), o: u, blur: (1 - u) * 20 });
+    const rr = tw(t, 0, 1.4, 'outCubic'); const d = L(10, 1700, rr); s.ring.style.width = s.ring.style.height = d + 'px'; s.ring.style.margin = `${-d / 2}px 0 0 ${-d / 2}px`; s.ring.style.opacity = (1 - rr) * .9;
+    wordsAnim(s.ws, t, .45, .12, .8, 'rise');
+    enter(s.sub, t, .9, .8, { from: { y: 30, o: 0 } });
+    const b = tw(t, 1.25, .7, 'outBack'); s.btn.style.transform = `translateX(-50%) scale(${b})`; s.btn.style.opacity = b;
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.stk, { o: v, r: L(10, -5, v), s: L(.7, 1, v) });
+    if (t > 2) s.btn.style.transform = `translateX(-50%) scale(${1 + Math.sin((t - 2) * 7) * .025})`;
+  }
+});
+</script></body></html>

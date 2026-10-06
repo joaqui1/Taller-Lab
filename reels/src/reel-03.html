@@ -1,0 +1,160 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Reel 03 · Silencioso</title><link rel="stylesheet" href="base.css">
+<style>
+.gauge{position:absolute;left:72px;top:700px;width:936px;height:560px;border-radius:10px;background:#161c1f;border:1px solid #2f3a3e;overflow:hidden}
+.gauge canvas{position:absolute;left:0;top:0}
+.gauge .big{position:absolute;left:0;right:0;top:300px;text-align:center;font-family:var(--mono);font-weight:600;font-size:150px;letter-spacing:-.05em;color:#fff;line-height:1}
+.gauge .big small{font-size:48px;color:#ff874b;letter-spacing:0;margin-left:10px}
+.gauge .cond{position:absolute;left:0;right:0;top:470px;text-align:center;font-family:var(--mono);font-size:26px;letter-spacing:.14em;text-transform:uppercase;color:#aab2b4;font-weight:600}
+.gauge .cond b{color:#fff}
+.two{position:absolute;left:72px;top:720px;width:936px;display:flex;gap:24px}
+.two .card{position:relative;flex:1;padding:36px 34px;min-height:520px;border-top-width:6px}
+.two .card.dk{background:#252d30;border-color:#3b464a;color:#fff;border-top-color:#8e9799}
+.two .card .title{font-size:44px;margin:10px 0 18px}
+.two .card .desc{font-size:27px}
+.two .card.dk .desc{color:#c9d0d2}
+.two .card .ic{width:84px;height:84px;border-radius:18px;background:var(--orange-bg);display:flex;align-items:center;justify-content:center}
+.two .card.dk .ic{background:#343d40}
+.two .card .ic svg{width:48px;height:48px}
+</style></head>
+<body><div id="stage"></div>
+<script src="engine.js"></script>
+<script>
+R.dur = 17; R.title = '63 dB no te dice nada';
+R.music = { bpm: 100, root: 'A', mode: 'minor', sections: [[0, 3.4, 'hook'], [3.4, 8.4, 'build'], [8.4, 14.1, 'full'], [14.1, 17, 'outro']] };
+chrome({ tag: 'Generadores · Ruido', foot: 'Fichas oficiales', lightAt: t => t >= 8.4 && t < 11.4 });
+
+/* S1 · HOOK */
+scene({ t0: 0, t1: 3.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '430px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '30px';
+    const big = el('div', 'hook num', '<span class="w o" style="font-size:300px;line-height:.9;letter-spacing:-.06em">63<span style="font-size:120px;letter-spacing:0"> dB</span></span>', c);
+    const h = el('div', 'hook', null, c); h.style.cssText = 'font-size:124px;margin-top:40px';
+    const ws = buildWords(h, [['no te dice'], ['nada.']]);
+    const stk = el('div', 'sticker', '…sin distancia ni carga', r); stk.style.cssText += 'left:72px;top:1230px;transform-origin:left center';
+    R.ev(0, 'riser', { len: .35 }); R.ev(0.35, 'impact', { gain: 1.2 }); R.ev(0.02, 'typing', { n: 20 }); R.ev(1.0, 'impact', { gain: .6, hi: true }); R.ev(1.35, 'impact', { gain: 1 });
+    R.ev(1.95, 'pop'); R.ev(1.95, 'warn');
+    return { k, big, ws, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Generador silencioso', t, .02, 34);
+    const u = tw(t, .35, .6, 'outExpo'); st(q('.w', s.big), { s: L(2.4, 1, u), o: Math.min(1, u * 4), blur: (1 - u) * 28 });
+    wordsAnim([s.ws[0]], t, 1.0, 0, .7, 'rise'); wordsAnim([s.ws[1]], t, 1.35, 0, .6, 'slam');
+    const sh = t >= .35 ? Math.max(0, 1 - (t - .35) / .3) : 0; st(q('#stage'), { x: Math.sin(t * 95) * 14 * sh, y: Math.cos(t * 72) * 10 * sh, s: 1 + .02 * sh });
+    const v = tw(t, 1.95, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+  }
+});
+addWipe(3.25, .5);
+
+/* S2 · MEDIDOR */
+scene({ t0: 3.4, t1: 8.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Mismo equipo,'], ['distinta', { w: 'carga', o: true }]]);
+    const g = el('div', 'gauge', '<canvas width="936" height="560"></canvas><div class="big"><span class="cnt">0</span><small>dB</small></div><div class="cond">a <b>7 m</b> · carga <b class="pc">50 %</b></div>', r);
+    const sub = el('p', 'sub', 'Gamma GE3497AR: la ficha publica <b>63 dB al 50 %</b> y <b>69 dB al 100 %</b>, medidos a 7 metros.', r); sub.style.cssText += 'position:absolute;left:72px;top:1300px;width:936px';
+    const stk = el('div', 'sticker', 'dice dB, no dB(A): ojo al comparar', r); stk.style.cssText += 'left:330px;top:1470px;font-size:36px;transform-origin:left center';
+    R.ev(3.45, 'typing', { n: 14 }); R.ev(3.7, 'impact', { gain: .5, hi: true }); R.ev(4.0, 'impact', { gain: .6, hi: true });
+    R.ev(4.5, 'engine', { len: 3.8, ramp: [4.5, 5.6, 6.6, 7.6] }); R.ev(4.6, 'ticks', { len: 1.0, rate: 26 }); R.ev(5.6, 'blip'); R.ev(6.6, 'riser', { len: .4 }); R.ev(6.7, 'ticks', { len: .8, rate: 30 }); R.ev(7.0, 'impact', { gain: .8 }); R.ev(7.7, 'pop');
+    return { k, ws, g, cv: q('canvas', g), sub, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Leé la condición', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.g, t, .7, .9, { from: { y: 60, o: 0 } });
+    // valor: 0→63 (1.2s..2.2), hold, 63→69 (3.3..4.1)
+    let v = L(0, 63, tw(t, 1.2, 1.0, 'outCubic')); if (t > 3.3) v = L(63, 69, tw(t, 3.3, .8, 'outExpo'));
+    q('.cnt', s.g).textContent = Math.round(v);
+    q('.pc', s.g).textContent = t > 3.3 ? '100 %' : '50 %';
+    q('.pc', s.g).style.color = t > 3.3 ? '#ff874b' : '#fff';
+    const ctx = s.cv.getContext('2d'); ctx.clearRect(0, 0, 936, 560);
+    const cx = 468, cy = 360, R0 = 300, a0 = Math.PI * 1.15, a1 = Math.PI * 1.85;
+    ctx.lineCap = 'round'; ctx.lineWidth = 26; ctx.strokeStyle = 'rgba(255,255,255,.08)'; ctx.beginPath(); ctx.arc(cx, cy, R0, a0, a1); ctx.stroke();
+    const frac = v / 100; const grad = ctx.createLinearGradient(cx - R0, 0, cx + R0, 0); grad.addColorStop(0, '#ff874b'); grad.addColorStop(1, '#ff5a0a');
+    ctx.strokeStyle = grad; ctx.shadowColor = 'rgba(255,90,10,.7)'; ctx.shadowBlur = 24; ctx.beginPath(); ctx.arc(cx, cy, R0, a0, a0 + (a1 - a0) * frac); ctx.stroke(); ctx.shadowBlur = 0;
+    // ticks
+    ctx.strokeStyle = 'rgba(255,255,255,.35)'; ctx.lineWidth = 3; for (let i = 0; i <= 10; i++) { const a = a0 + (a1 - a0) * i / 10; ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * (R0 - 40), cy + Math.sin(a) * (R0 - 40)); ctx.lineTo(cx + Math.cos(a) * (R0 - 56), cy + Math.sin(a) * (R0 - 56)); ctx.stroke(); }
+    // aguja
+    const a = a0 + (a1 - a0) * frac + Math.sin(t * 40) * .004 * (t > 1.2 ? 1 : 0); ctx.strokeStyle = '#fff'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * (R0 - 70), cy + Math.sin(a) * (R0 - 70)); ctx.lineTo(cx + Math.cos(a) * (R0 - 130), cy + Math.sin(a) * (R0 - 130)); ctx.stroke();
+    // vibración del gauge con la carga
+    const vib = (t > 3.3 ? .9 : .35) * (t > 1.2 ? 1 : 0); st(s.g, { x: Math.sin(t * 80) * vib, y: Math.cos(t * 63) * vib, o: 1 });
+    enter(s.sub, t, 2.2, .9, { from: { y: 40, o: 0 } });
+    const sk = tw(t, 4.3, .6, 'outBack'); st(s.stk, { o: sk, r: L(6, -3, sk), s: L(.8, 1, sk) });
+  }
+});
+addWipe(8.25, .5, 'cream');
+
+/* S3 · CHECKLIST (crema) */
+scene({ t0: 8.4, t1: 11.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '112px';
+    const ws = buildWords(h, [['Compará'], ['con la', { w: 'misma', o: true }], ['condición.']]);
+    const list = el('div', '', null, r); list.style.cssText = 'position:absolute;left:72px;top:860px;display:flex;flex-direction:column;gap:30px';
+    const items = [['Unidad', 'dB o dB(A): no son lo mismo'], ['Distancia', '1 m y 7 m no se comparan entre sí'], ['Carga de ensayo', '25 %, 50 % o 100 %: cambia el número'], ['Escala logarítmica', 'una diferencia numérica no es un porcentaje']]
+      .map(([a, b]) => el('div', 'check', `<span class="ic">${ICON.check}</span><span>${a}<small>${b}</small></span>`, list));
+    const stk = el('div', 'sticker cream', 'la etiqueta "silencioso" no alcanza', r); stk.style.cssText += 'left:380px;top:1420px;font-size:36px;transform-origin:left center';
+    R.ev(8.45, 'typing', { n: 12 }); R.ev(8.7, 'impact', { gain: .5, hi: true }); R.ev(9.0, 'impact', { gain: .7, hi: true }); R.ev(9.25, 'impact', { gain: .6, hi: true });
+    [9.6, 9.9, 10.2, 10.5].forEach(x => R.ev(x, 'blip', { up: true })); R.ev(10.9, 'pop');
+    return { k, ws, items, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Checklist', t, .05, 36);
+    wordsAnim(s.ws.slice(0, 2), t, .3, .12, .8, 'rise'); wordsAnim([s.ws[2]], t, .6, 0, .6, 'slam'); wordsAnim([s.ws[3]], t, .85, 0, .8, 'rise');
+    s.items.forEach((it, i) => enter(it, t, 1.2 + i * .3, .7, { from: { x: 60, o: 0 } }));
+    const v = tw(t, 2.5, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+  }
+});
+addWipe(11.25, .5, 'dark');
+
+/* S4 · INVERTER ≠ INSONORIZADO */
+scene({ t0: 11.4, t1: 14.1,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Inverter', { w: '≠', o: true }], ['insonorizado']]);
+    const two = el('div', 'two', null, r);
+    const c1 = el('div', 'card', `<div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#ff5a0a" stroke-width="1.8" stroke-linecap="round"><path d="M2 12c2-6 4-6 6 0s4 6 6 0 4-6 6 0"/></svg></div><div class="title">Inverter</div><div class="desc">Describe <b>cómo se regula</b> la salida eléctrica. Puede bajar vueltas con poca carga si el modelo lo incluye.</div>`, two);
+    const c2 = el('div', 'card dk', `<div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10v4M12 9v6M17 10v4"/></svg></div><div class="title">Insonorizado</div><div class="desc">Describe una <b>solución acústica</b>: gabinete y escape. El ruido final depende del diseño, la carga y el protocolo.</div>`, two);
+    const cl = el('div', 'callout', '<div class="cap">Puede ser ambas · Honda EU22i</div><p>Aun así, verificá <b>dB(A), distancia y carga</b>. Las palabras comerciales no aseguran un nivel.</p>', r); cl.style.cssText += 'left:72px;width:936px;top:1300px';
+    R.ev(11.45, 'typing', { n: 12 }); R.ev(11.7, 'impact', { gain: .5, hi: true }); R.ev(11.95, 'impact', { gain: .9 }); R.ev(12.2, 'impact', { gain: .5, hi: true });
+    R.ev(12.5, 'whoosh', { len: .3, soft: true }); R.ev(12.75, 'whoosh', { len: .3, soft: true }); R.ev(13.2, 'blip', { up: true });
+    return { k, ws, c1, c2, cl };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Dos cosas distintas', t, .05, 36);
+    wordsAnim([s.ws[0]], t, .25, 0, .8, 'rise'); wordsAnim([s.ws[1]], t, .55, 0, .5, 'slam'); wordsAnim([s.ws[2]], t, .8, 0, .8, 'rise');
+    enter(s.c1, t, 1.1, .8, { from: { x: -120, o: 0, ry: 25 } }); enter(s.c2, t, 1.35, .8, { from: { x: 120, o: 0, ry: -25 } });
+    enter(s.cl, t, 1.8, .8, { from: { y: 50, o: 0 } });
+  }
+});
+addFlash(14.1, .4);
+
+/* S5 · CTA */
+scene({ t0: 14.1, t1: 17,
+  build(r) {
+    const logo = el('img', '', null, r); logo.src = '../../assets/logo_dark.png'; logo.style.cssText = 'position:absolute;left:50%;top:560px;width:700px;margin-left:-350px';
+    const h = el('div', 'h', null, r); h.style.cssText += 'position:absolute;left:72px;right:72px;top:820px;text-align:center;font-size:84px';
+    const ws = buildWords(h, [['Tabla de ruido'], ['por', { w: 'modelo', o: true }]]);
+    const sub = el('p', 'sub', 'Gamma, Honda y Lüsqtoff con unidad, distancia y carga declaradas, y qué se puede comparar.', r); sub.style.cssText += 'position:absolute;left:120px;right:120px;top:1040px;text-align:center;font-size:34px';
+    const btn = el('div', 'btn', `tallerlab.com.ar/generadores/silenciosos ${ICON.arrow}`, r); btn.style.cssText += 'left:50%;top:1250px;transform-origin:center;font-size:29px;white-space:nowrap';
+    const stk = el('div', 'sticker', 'con fuente en cada fila', r); stk.style.cssText += 'left:600px;top:1370px;transform-origin:left center';
+    const ring = el('div', '', null, r); ring.style.cssText = 'position:absolute;left:50%;top:640px;border-radius:50%;border:3px solid #ff5a0a;opacity:0';
+    R.ev(14.1, 'sting'); R.ev(14.55, 'impact', { gain: .5, hi: true }); R.ev(14.8, 'impact', { gain: .5, hi: true }); R.ev(15.35, 'pop'); R.ev(15.8, 'blip', { up: true });
+    return { logo, ws, sub, btn, stk, ring };
+  },
+  frame(t, T, s) {
+    const u = tw(t, 0, 1.0, 'outExpo'); st(s.logo, { s: L(1.6, 1, u), o: u, blur: (1 - u) * 20 });
+    const rr = tw(t, 0, 1.4, 'outCubic'); const d = L(10, 1700, rr); s.ring.style.width = s.ring.style.height = d + 'px'; s.ring.style.margin = `${-d / 2}px 0 0 ${-d / 2}px`; s.ring.style.opacity = (1 - rr) * .9;
+    wordsAnim(s.ws, t, .45, .12, .8, 'rise');
+    enter(s.sub, t, .9, .8, { from: { y: 30, o: 0 } });
+    const b = tw(t, 1.25, .7, 'outBack'); s.btn.style.transform = `translateX(-50%) scale(${b})`; s.btn.style.opacity = b;
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.stk, { o: v, r: L(10, -5, v), s: L(.7, 1, v) });
+    if (t > 2) s.btn.style.transform = `translateX(-50%) scale(${1 + Math.sin((t - 2) * 7) * .025})`;
+  }
+});
+</script></body></html>

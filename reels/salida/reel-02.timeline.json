@@ -1,0 +1,249 @@
+{
+ "dur": 17,
+ "fps": 30,
+ "events": [
+  {
+   "t": 0,
+   "kind": "impact",
+   "gain": 1.1
+  },
+  {
+   "t": 0.02,
+   "kind": "typing",
+   "n": 16
+  },
+  {
+   "t": 0.55,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 0.95,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 1.35,
+   "kind": "impact",
+   "gain": 1
+  },
+  {
+   "t": 1.9,
+   "kind": "pop"
+  },
+  {
+   "t": 2.3,
+   "kind": "whoosh",
+   "len": 0.3,
+   "soft": true
+  },
+  {
+   "t": 3.25,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 3.45,
+   "kind": "typing",
+   "n": 14
+  },
+  {
+   "t": 3.7,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 3.95,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 4.5,
+   "kind": "engine",
+   "len": 3.6
+  },
+  {
+   "t": 4.5,
+   "kind": "blip",
+   "up": false
+  },
+  {
+   "t": 5.1,
+   "kind": "blip",
+   "up": false
+  },
+  {
+   "t": 5.7,
+   "kind": "blip",
+   "up": false
+  },
+  {
+   "t": 6.3,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 6.3,
+   "kind": "impact",
+   "gain": 0.7
+  },
+  {
+   "t": 7.4,
+   "kind": "pop"
+  },
+  {
+   "t": 8.15,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 8.35,
+   "kind": "typing",
+   "n": 14
+  },
+  {
+   "t": 8.6,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 8.85,
+   "kind": "impact",
+   "gain": 0.7,
+   "hi": true
+  },
+  {
+   "t": 9.1,
+   "kind": "hum",
+   "len": 2.1
+  },
+  {
+   "t": 9.6,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 9.95,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 10.3,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 11.05,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 11.25,
+   "kind": "typing",
+   "n": 12
+  },
+  {
+   "t": 11.5,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 11.8,
+   "kind": "warn"
+  },
+  {
+   "t": 12.1,
+   "kind": "impact",
+   "gain": 0.9
+  },
+  {
+   "t": 12.5,
+   "kind": "whoosh",
+   "len": 0.35,
+   "soft": true
+  },
+  {
+   "t": 12.9,
+   "kind": "tick"
+  },
+  {
+   "t": 13.02,
+   "kind": "tick"
+  },
+  {
+   "t": 13.14,
+   "kind": "tick"
+  },
+  {
+   "t": 13.26,
+   "kind": "tick"
+  },
+  {
+   "t": 13.38,
+   "kind": "tick"
+  },
+  {
+   "t": 13.5,
+   "kind": "tick"
+  },
+  {
+   "t": 14.1,
+   "kind": "sting"
+  },
+  {
+   "t": 14.55,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 14.8,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 15.35,
+   "kind": "pop"
+  },
+  {
+   "t": 15.8,
+   "kind": "blip",
+   "up": true
+  }
+ ],
+ "music": {
+  "bpm": 108,
+  "root": "F",
+  "mode": "minor",
+  "sections": [
+   [
+    0,
+    3.4,
+    "hook"
+   ],
+   [
+    3.4,
+    8.3,
+    "build"
+   ],
+   [
+    8.3,
+    14.1,
+    "full"
+   ],
+   [
+    14.1,
+    17,
+    "outro"
+   ]
+  ]
+ },
+ "title": "Inverter no significa silencioso"
+}

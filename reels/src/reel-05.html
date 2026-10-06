@@ -1,0 +1,154 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Reel 05 · Nafta</title><link rel="stylesheet" href="base.css">
+<style>
+.fuel{position:absolute;left:72px;top:700px;width:936px;height:520px;border-radius:10px;background:#161c1f;border:1px solid #2f3a3e;overflow:hidden}
+.fuel canvas{position:absolute;left:0;top:0}
+.fuel .val{position:absolute;left:420px;top:90px;font-family:var(--mono);font-weight:600;font-size:140px;letter-spacing:-.05em;color:#fff;line-height:1}
+.fuel .val small{font-size:44px;color:#ff874b;letter-spacing:0;margin-left:8px}
+.fuel .cond{position:absolute;left:424px;top:245px;font-family:var(--mono);font-size:26px;letter-spacing:.14em;text-transform:uppercase;color:#aab2b4;font-weight:600;line-height:1.7}
+.fuel .cond b{color:#fff}
+.fuel .src{position:absolute;left:424px;top:352px;font-size:26px;color:#8e9799;width:480px;line-height:1.3}
+.fuel img{position:absolute;left:30px;top:60px;width:340px;height:340px;object-fit:contain;mix-blend-mode:screen;filter:drop-shadow(0 20px 40px rgba(0,0,0,.6))}
+.fuel .ph{position:absolute;left:30px;top:60px;width:340px;height:340px;border-radius:12px;background:#fff;overflow:hidden}
+.fuel .ph img{position:static;mix-blend-mode:multiply;width:100%;height:100%;filter:none}
+.formula{position:absolute;left:72px;top:760px;width:936px;display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
+.formula .box{font-family:var(--mono);font-weight:600;font-size:46px;letter-spacing:-.02em;color:#fff;background:#252d30;border:2px solid #3b464a;border-radius:10px;padding:26px 30px;will-change:transform,opacity}
+.formula .box.o{border-color:var(--orange);background:rgba(255,90,10,.14)}
+.formula .op{font-size:70px;font-weight:800;color:var(--orange);will-change:transform,opacity}
+</style></head>
+<body><div id="stage"></div>
+<script src="engine.js"></script>
+<script>
+R.dur = 17; R.title = 'El tanque no te dice cuánto gasta';
+R.music = { bpm: 102, root: 'G', mode: 'minor', sections: [[0, 3.4, 'hook'], [3.4, 8.6, 'build'], [8.6, 14.1, 'full'], [14.1, 17, 'outro']] };
+chrome({ tag: 'Generadores · Nafta', foot: 'Manual y ficha', lightAt: t => t >= 8.6 && t < 11.6 });
+
+/* S1 · HOOK */
+scene({ t0: 0, t1: 3.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '430px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '36px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '140px';
+    const ws = buildWords(h, [['El tanque'], ['no te dice'], [{ w: 'cuánto', o: true }, { w: 'gasta.', o: true }]]);
+    const stk = el('div', 'sticker', '25 L ≠ consumo por hora', r); stk.style.cssText += 'left:72px;top:1060px;transform-origin:left center';
+    const p = el('p', 'sub', 'El consumo cambia con la <b>carga</b>. Si la ficha no dice a qué carga midió, el número no sirve para presupuestar.', c); p.style.marginTop = '230px';
+    R.ev(0, 'impact', { gain: .9 }); R.ev(0.02, 'typing', { n: 16 }); R.ev(.5, 'impact', { gain: .55, hi: true }); R.ev(1.0, 'riser', { len: .35 }); R.ev(1.35, 'impact', { gain: 1.1 }); R.ev(1.6, 'impact', { gain: .9 });
+    R.ev(2.1, 'pop'); R.ev(2.45, 'whoosh', { len: .3, soft: true });
+    return { k, ws, stk, p };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Generador a nafta', t, .02, 34);
+    wordsAnim(s.ws.slice(0, 2), t, .1, .4, .7, 'rise'); wordsAnim(s.ws.slice(2), t, 1.35, .25, .55, 'slam');
+    const sh = t >= 1.35 ? Math.max(0, 1 - (t - 1.35) / .3) : 0; st(q('#stage'), { x: Math.sin(t * 95) * 14 * sh, y: Math.cos(t * 72) * 10 * sh, s: 1 + .02 * sh });
+    const v = tw(t, 2.1, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+    enter(s.p, t, 2.45, .8, { from: { y: 40, o: 0 } });
+  }
+});
+addWipe(3.25, .5);
+
+/* S2 · CONSUMO SEGÚN CARGA */
+scene({ t0: 3.4, t1: 8.6,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Litros por hora'], ['según la', { w: 'carga', o: true }]]);
+    const f = el('div', 'fuel', `<canvas width="936" height="520"></canvas><div class="ph"><img src="../../assets/productos/gammage3481ar-991fce0931.webp"></div><div class="val"><span class="cnt">0,0</span><small>L/h</small></div><div class="cond">carga <b class="pc">50 %</b><br>Gamma <b>GE3481AR</b> 6000V</div><div class="src">Dato del manual, por porcentaje de carga</div>`, r);
+    const b1 = el('div', 'bar', '<i class="g"></i><span class="lbl">al 50 %</span><span class="val cnt">0,0 L/h</span>', r); b1.style.cssText += 'position:absolute;left:72px;top:1260px;width:936px';
+    const b2 = el('div', 'bar', '<i></i><span class="lbl">al 100 %</span><span class="val cnt">0,0 L/h</span>', r); b2.style.cssText += 'position:absolute;left:72px;top:1370px;width:936px';
+    const stk = el('div', 'sticker', 'la página dice 10 h al 50 % y 6 h al 100 %', r); stk.style.cssText += 'left:72px;top:1490px;font-size:34px;transform-origin:left center';
+    R.ev(3.45, 'typing', { n: 14 }); R.ev(3.7, 'impact', { gain: .5, hi: true }); R.ev(4.0, 'impact', { gain: .6, hi: true });
+    R.ev(4.5, 'engine', { len: 4.0, ramp: [4.5, 5.4, 6.6, 7.8] }); R.ev(4.6, 'ticks', { len: .9, rate: 24 }); R.ev(5.5, 'blip'); R.ev(6.5, 'riser', { len: .4 }); R.ev(6.6, 'ticks', { len: .8, rate: 30 }); R.ev(6.9, 'impact', { gain: .8 }); R.ev(7.7, 'pop');
+    return { k, ws, f, cv: q('canvas', f), b1, b2, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Consumo', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.f, t, .7, .9, { from: { y: 60, o: 0 } });
+    let v = L(0, 2.2, tw(t, 1.2, .9, 'outCubic')); if (t > 3.2) v = L(2.2, 3.6, tw(t, 3.2, .8, 'outExpo'));
+    q('.cnt', s.f).textContent = fmtDec(1)(v); q('.pc', s.f).textContent = t > 3.2 ? '100 %' : '50 %'; q('.pc', s.f).style.color = t > 3.2 ? '#ff874b' : '#fff';
+    // gotas / llama animada en canvas: nivel de combustible que baja más rápido con carga
+    const ctx = s.cv.getContext('2d'); ctx.clearRect(0, 0, 936, 520);
+    const rate = t > 3.2 ? 1.0 : .55; const lvl = Math.max(0, 1 - ((t - 1.2) * .06 * rate)) * (t > 1.2 ? 1 : 0);
+    ctx.fillStyle = 'rgba(255,255,255,.06)'; ctx.fillRect(420, 450, 480, 30);
+    const g = ctx.createLinearGradient(420, 0, 900, 0); g.addColorStop(0, '#ff874b'); g.addColorStop(1, '#ff5a0a'); ctx.fillStyle = g; ctx.shadowColor = 'rgba(255,90,10,.6)'; ctx.shadowBlur = 16; ctx.fillRect(420, 450, 480 * Math.max(.1, lvl), 30); ctx.shadowBlur = 0;
+    enter(s.b1, t, 1.0, .8, { from: { y: 40, o: 0 } }); enter(s.b2, t, 1.15, .8, { from: { y: 40, o: 0 } });
+    bar(s.b1, t, 1.2, 1.0, 55); counter(q('.val', s.b1), t, 1.2, .9, 0, 2.2, v => fmtDec(1)(v) + ' L/h');
+    bar(s.b2, t, 3.2, 1.0, 90); counter(q('.val', s.b2), t, 3.2, .8, 0, 3.6, v => fmtDec(1)(v) + ' L/h');
+    const sk = tw(t, 4.3, .6, 'outBack'); st(s.stk, { o: sk, r: L(6, -2, sk), s: L(.8, 1, sk) });
+  }
+});
+addWipe(8.45, .5, 'cream');
+
+/* S3 · EL DATO INCOMPLETO (crema) */
+scene({ t0: 8.6, t1: 11.6,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '150px';
+    const ws = buildWords(h, [[{ w: '3,5 L/h', o: false }], ['a 3.600 rpm']]);
+    const q2 = el('div', 'hook', '<span class="w o" style="font-size:124px">¿a qué carga?</span>', c); q2.style.marginTop = '30px';
+    const list = el('div', '', null, r); list.style.cssText = 'position:absolute;left:72px;top:1040px;display:flex;flex-direction:column;gap:28px';
+    const items = [['L/h con % de carga', 'permite comparar dos escenarios', 'check'], ['Autonomía al 50 % o 100 %', 'con tanque declarado', 'check'], ['“hasta 8 horas”', 'sin condición de ensayo: solo referencia', 'x']]
+      .map(([a, b, ic]) => el('div', 'check', `<span class="ic ${ic === 'x' ? 'x' : ''}">${ICON[ic]}</span><span>${a}<small>${b}</small></span>`, list));
+    const stk = el('div', 'sticker cream', 'Honda EG6500CXS: carga no informada', r); stk.style.cssText += 'left:330px;top:1400px;font-size:34px;transform-origin:left center';
+    R.ev(8.65, 'typing', { n: 12 }); R.ev(8.95, 'impact', { gain: .9 }); R.ev(9.3, 'impact', { gain: .5, hi: true }); R.ev(9.7, 'warn'); R.ev(9.7, 'impact', { gain: .9 });
+    R.ev(10.2, 'blip', { up: true }); R.ev(10.5, 'blip', { up: true }); R.ev(10.8, 'warn'); R.ev(11.1, 'pop');
+    return { k, ws, q2, items, stk };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'El dato incompleto', t, .05, 36);
+    wordsAnim([s.ws[0]], t, .3, 0, .6, 'slam'); wordsAnim([s.ws[1]], t, .65, 0, .7, 'rise');
+    const u = tw(t, 1.1, .6, 'outExpo'); st(q('.w', s.q2), { s: L(1.9, 1, u), o: Math.min(1, u * 3), blur: (1 - u) * 18 });
+    s.items.forEach((it, i) => enter(it, t, 1.6 + i * .3, .7, { from: { x: 60, o: 0 } }));
+    const v = tw(t, 2.5, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+  }
+});
+addWipe(11.45, .5, 'dark');
+
+/* S4 · FÓRMULA */
+scene({ t0: 11.6, t1: 14.1,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Cómo'], [{ w: 'presupuestar', o: true }]]);
+    const f = el('div', 'formula', `<span class="box o">L/h de tu carga</span><span class="op">×</span><span class="box">horas</span><span class="op">+</span><span class="box">margen</span>`, r);
+    const parts = qa('.box,.op', f);
+    const cl = el('div', 'callout', '<div class="cap">Análisis TallerLab</div><p>El consumo real varía con la <b>carga</b>, los arranques, el mantenimiento, la temperatura y la altitud. Si el fabricante no informa consumo con carga, <b>pedilo</b>.</p>', r); cl.style.cssText += 'left:72px;width:936px;top:1120px';
+    R.ev(11.65, 'typing', { n: 12 }); R.ev(11.9, 'impact', { gain: .5, hi: true }); R.ev(12.15, 'impact', { gain: .9 });
+    parts.forEach((_, i) => R.ev(12.45 + i * .14, i % 2 ? 'tick' : 'blip', { up: true })); R.ev(13.3, 'whoosh', { len: .3, soft: true });
+    return { k, ws, parts, cl };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'La cuenta', t, .05, 36);
+    wordsAnim([s.ws[0]], t, .25, 0, .8, 'rise'); wordsAnim([s.ws[1]], t, .55, 0, .55, 'slam');
+    s.parts.forEach((p, i) => enter(p, t, .85 + i * .14, .6, { from: { y: 40, o: 0, s: .7 }, ease: 'outBack' }));
+    enter(s.cl, t, 1.7, .8, { from: { y: 50, o: 0 } });
+  }
+});
+addFlash(14.1, .4);
+
+/* S5 · CTA */
+scene({ t0: 14.1, t1: 17,
+  build(r) {
+    const logo = el('img', '', null, r); logo.src = '../../assets/logo_dark.png'; logo.style.cssText = 'position:absolute;left:50%;top:560px;width:700px;margin-left:-350px';
+    const h = el('div', 'h', null, r); h.style.cssText += 'position:absolute;left:72px;right:72px;top:820px;text-align:center;font-size:84px';
+    const ws = buildWords(h, [['Consumo y'], [{ w: 'autonomía', o: true }, 'reales']]);
+    const sub = el('p', 'sub', 'Gamma, Honda y Lüsqtoff comparados con la condición de cada dato, y cuáles no se pueden comparar.', r); sub.style.cssText += 'position:absolute;left:120px;right:120px;top:1040px;text-align:center;font-size:34px';
+    const btn = el('div', 'btn', `tallerlab.com.ar/generadores/a-nafta ${ICON.arrow}`, r); btn.style.cssText += 'left:50%;top:1250px;transform-origin:center;font-size:30px;white-space:nowrap';
+    const stk = el('div', 'sticker', 'precios observados por modelo', r); stk.style.cssText += 'left:540px;top:1370px;transform-origin:left center';
+    const ring = el('div', '', null, r); ring.style.cssText = 'position:absolute;left:50%;top:640px;border-radius:50%;border:3px solid #ff5a0a;opacity:0';
+    R.ev(14.1, 'sting'); R.ev(14.55, 'impact', { gain: .5, hi: true }); R.ev(14.8, 'impact', { gain: .5, hi: true }); R.ev(15.35, 'pop'); R.ev(15.8, 'blip', { up: true });
+    return { logo, ws, sub, btn, stk, ring };
+  },
+  frame(t, T, s) {
+    const u = tw(t, 0, 1.0, 'outExpo'); st(s.logo, { s: L(1.6, 1, u), o: u, blur: (1 - u) * 20 });
+    const rr = tw(t, 0, 1.4, 'outCubic'); const d = L(10, 1700, rr); s.ring.style.width = s.ring.style.height = d + 'px'; s.ring.style.margin = `${-d / 2}px 0 0 ${-d / 2}px`; s.ring.style.opacity = (1 - rr) * .9;
+    wordsAnim(s.ws, t, .45, .12, .8, 'rise');
+    enter(s.sub, t, .9, .8, { from: { y: 30, o: 0 } });
+    const b = tw(t, 1.25, .7, 'outBack'); s.btn.style.transform = `translateX(-50%) scale(${b})`; s.btn.style.opacity = b;
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.stk, { o: v, r: L(10, -5, v), s: L(.7, 1, v) });
+    if (t > 2) s.btn.style.transform = `translateX(-50%) scale(${1 + Math.sin((t - 2) * 7) * .025})`;
+  }
+});
+</script></body></html>

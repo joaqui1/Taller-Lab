@@ -1,0 +1,166 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Reel 02 · Inverter</title><link rel="stylesheet" href="base.css">
+<style>
+.flow{position:absolute;left:72px;top:760px;width:936px}
+.node{position:absolute;width:200px;height:200px;border-radius:18px;background:#252d30;border:2px solid #3b464a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 20px 50px rgba(0,0,0,.4);will-change:transform,opacity}
+.node.o{border-color:var(--orange);box-shadow:0 0 0 6px rgba(255,90,10,.18),0 20px 50px rgba(0,0,0,.4)}
+.node .t{font-family:var(--mono);font-size:22px;letter-spacing:.12em;text-transform:uppercase;color:#cfd6d7;font-weight:600;text-align:center;line-height:1.3}
+.node.o .t{color:#fff}
+.node svg{width:70px;height:70px}
+.wave{position:absolute;left:72px;width:936px;height:300px;border-radius:8px;background:#161c1f;border:1px solid #2f3a3e;overflow:hidden}
+.wave .lab{position:absolute;left:28px;top:22px;font-family:var(--mono);font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:#aab2b4;font-weight:600}
+.wave .lab b{color:var(--orange-soft)}
+</style></head>
+<body><div id="stage"></div>
+<script src="engine.js"></script>
+<script>
+R.dur = 17; R.title = 'Inverter no significa silencioso';
+R.music = { bpm: 108, root: 'F', mode: 'minor', sections: [[0, 3.4, 'hook'], [3.4, 8.3, 'build'], [8.3, 14.1, 'full'], [14.1, 17, 'outro']] };
+chrome({ tag: 'Generadores · Inverter', foot: 'Ficha y manual', lightAt: t => t >= 11.2 && t < 14.1 });
+
+/* S1 · HOOK */
+scene({ t0: 0, t1: 3.4,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '440px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '40px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '150px';
+    const ws = buildWords(h, [[{ w: 'Inverter', o: true }], ['no', 'significa'], ['silencioso.']]);
+    const stk = el('div', 'sticker', 'son dos cosas distintas', r); stk.style.cssText += 'left:72px;top:990px;transform-origin:left center';
+    const p = el('p', 'sub', 'Una describe <b>cómo regula la electricidad</b>. La otra, <b>cuánto ruido hace</b>.', c); p.style.marginTop = '230px';
+    R.ev(0, 'impact', { gain: 1.1 }); R.ev(0.02, 'typing', { n: 16 }); R.ev(.55, 'impact', { gain: .6, hi: true }); R.ev(.95, 'impact', { gain: .6, hi: true }); R.ev(1.35, 'impact', { gain: 1.0 });
+    R.ev(1.9, 'pop'); R.ev(2.3, 'whoosh', { len: .3, soft: true });
+    return { k, ws, stk, p };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Mito frecuente', t, .02, 34);
+    wordsAnim([s.ws[0]], t, .05, 0, .6, 'slam');
+    wordsAnim(s.ws.slice(1, 3), t, .55, .4, .7, 'rise');
+    wordsAnim([s.ws[3]], t, 1.35, 0, .6, 'slam');
+    const sh = t >= 1.35 ? Math.max(0, 1 - (t - 1.35) / .3) : 0; st(q('#stage'), { x: Math.sin(t * 95) * 12 * sh, y: Math.cos(t * 72) * 8 * sh });
+    const v = tw(t, 1.9, .6, 'outBack'); st(s.stk, { o: v, r: L(8, -4, v), s: L(.7, 1, v) });
+    enter(s.p, t, 2.3, .8, { from: { y: 40, o: 0 } });
+  }
+});
+addWipe(3.25, .5);
+
+/* S2 · CÓMO FUNCIONA (flujo) */
+scene({ t0: 3.4, t1: 8.3,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Qué hace'], ['un', { w: 'inverter', o: true }]]);
+    const sub = el('p', 'sub', 'Convierte la energía en etapas y entrega <b>tensión y frecuencia controladas</b>.', c); sub.style.marginTop = '30px';
+    const flow = el('div', 'flow', null, r);
+    const svgIc = {
+      motor: '<svg viewBox="0 0 24 24" fill="none" stroke="#ff874b" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="7" width="13" height="10" rx="2"/><path d="M16 10h3l2 2v2h-5M6 17v2M13 17v2M3 11H1M3 13H1"/></svg>',
+      alt: '<svg viewBox="0 0 24 24" fill="none" stroke="#ff874b" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 4v2M12 18v2M4 12h2M18 12h2"/></svg>',
+      dc: '<svg viewBox="0 0 24 24" fill="none" stroke="#ff874b" stroke-width="1.8" stroke-linecap="round"><path d="M3 10h18M3 14h4M10 14h4M17 14h4"/></svg>',
+      ac: '<svg viewBox="0 0 24 24" fill="none" stroke="#ff874b" stroke-width="1.8" stroke-linecap="round"><path d="M2 12c2-6 4-6 6 0s4 6 6 0 4-6 6 0"/></svg>',
+    };
+    const defs = [['Motor', 'motor', 0, 0], ['Alternador', 'alt', 1, 0], ['Rectifica a CC', 'dc', 0, 1], ['Inversor → CA controlada', 'ac', 1, 1]];
+    const pos = [[0, 0], [736, 0], [0, 300], [736, 300]];
+    const nodes = defs.map(([t, ic], i) => { const n = el('div', 'node' + (i === 3 ? ' o' : ''), `${svgIc[ic]}<span class="t">${t}</span>`, flow); n.style.left = pos[i][0] + 'px'; n.style.top = pos[i][1] + 'px'; n.style.width = '200px'; if (i === 3) n.style.width = '200px'; return n; });
+    // conectores svg
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); svg.setAttribute('viewBox', '0 0 936 500'); svg.style.cssText = 'position:absolute;left:0;top:0;width:936px;height:500px;overflow:visible';
+    const paths = [[200, 100, 736, 100], [836, 200, 836, 300, 200, 400], [200, 400, 736, 400]].map(() => null);
+    const d = ['M200 100 H736', 'M836 200 V250 Q836 275 811 275 H225 Q200 275 200 300 V300', 'M200 400 H736'];
+    const lines = d.map(dd => { const p = document.createElementNS('http://www.w3.org/2000/svg', 'path'); p.setAttribute('d', dd); p.setAttribute('fill', 'none'); p.setAttribute('stroke', '#ff5a0a'); p.setAttribute('stroke-width', '5'); p.setAttribute('stroke-linecap', 'round'); p.setAttribute('stroke-dasharray', '14 14'); svg.appendChild(p); return p; });
+    flow.insertBefore(svg, flow.firstChild);
+    const dots = [0, 1, 2].map(() => { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('r', '9'); c.setAttribute('fill', '#fff'); svg.appendChild(c); return c; });
+    const lens = lines.map(p => p.getTotalLength());
+    const stk = el('div', 'sticker', 'la etiqueta no certifica THD ni compatibilidad', r); stk.style.cssText += 'left:72px;top:1340px;font-size:36px;transform-origin:left center';
+    R.ev(3.45, 'typing', { n: 14 }); R.ev(3.7, 'impact', { gain: .5, hi: true }); R.ev(3.95, 'impact', { gain: .6, hi: true });
+    R.ev(4.5, 'engine', { len: 3.6 }); [4.5, 5.1, 5.7, 6.3].forEach((x, i) => R.ev(x, 'blip', { up: i === 3 })); R.ev(6.3, 'impact', { gain: .7 }); R.ev(7.4, 'pop');
+    return { k, ws, sub, nodes, lines, lens, dots, stk, svg };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Cómo funciona', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.sub, t, .6, .9, { from: { y: 40, o: 0 } });
+    s.nodes.forEach((n, i) => enter(n, t, 1.1 + i * .6, .7, { from: { s: .6, o: 0 }, ease: 'outBack' }));
+    s.lines.forEach((p, i) => { const u = tw(t, 1.4 + i * .6, .6, 'outCubic'); p.setAttribute('stroke-dashoffset', (1 - u) * s.lens[i]); p.style.opacity = u > 0 ? 1 : 0; p.setAttribute('stroke-dasharray', `${s.lens[i]} ${s.lens[i]}`); });
+    s.dots.forEach((c, i) => { const on = t > 1.4 + i * .6 + .6; const u = ((t * .9 + i * .33) % 1); const pt = s.lines[i].getPointAtLength(u * s.lens[i]); c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.style.opacity = on ? 1 : 0; });
+    // motor "vibra"
+    const m = s.nodes[0]; if (t > 1.1 + .7) st(m, { x: Math.sin(t * 60) * 1.5, y: Math.cos(t * 47) * 1.5 });
+    const v = tw(t, 4.0, .6, 'outBack'); st(s.stk, { o: v, r: L(6, -3, v), s: L(.8, 1, v) });
+  }
+});
+addWipe(8.15, .5);
+
+/* S3 · ONDA: para qué sirve */
+scene({ t0: 8.3, t1: 11.2,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'h', null, c);
+    const ws = buildWords(h, [['Cuándo'], [{ w: 'conviene', o: true }]]);
+    const w1 = el('div', 'wave', '<span class="lab">Salida · <b>tensión y frecuencia controladas</b></span><canvas width="936" height="300"></canvas>', r); w1.style.top = '700px';
+    const list = el('div', '', null, r); list.style.cssText = 'position:absolute;left:72px;top:1080px;display:flex;flex-direction:column;gap:28px';
+    const items = [['Electrónica y equipos sensibles', 'revisá tensión, frecuencia, onda y THD de la ficha', 'check'], ['Carga variable, muchas horas', 'con modo económico, el motor baja vueltas', 'check'], ['Traslado y formato compacto', 'compará peso, dB, distancia y carga de medición', 'check']]
+      .map(([a, b]) => el('div', 'check', `<span class="ic">${ICON.check}</span><span>${a}<small>${b}</small></span>`, list));
+    R.ev(8.35, 'typing', { n: 14 }); R.ev(8.6, 'impact', { gain: .5, hi: true }); R.ev(8.85, 'impact', { gain: .7, hi: true }); R.ev(9.1, 'hum', { len: 2.1 });
+    [9.6, 9.95, 10.3].forEach(x => R.ev(x, 'blip', { up: true }));
+    return { k, ws, w1, items, cv: q('canvas', w1) };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Para qué sirve', t, .05, 36);
+    wordsAnim(s.ws, t, .25, .14, .8, 'rise');
+    enter(s.w1, t, .6, .9, { from: { y: 60, o: 0 } });
+    const ctx = s.cv.getContext('2d'); ctx.clearRect(0, 0, 936, 300);
+    const prog = tw(t, .9, 1.2, 'outCubic');
+    ctx.lineWidth = 5; ctx.strokeStyle = '#ff5a0a'; ctx.shadowColor = 'rgba(255,90,10,.8)'; ctx.shadowBlur = 18; ctx.beginPath();
+    for (let x = 0; x <= 936 * prog; x += 3) { const y = 165 + Math.sin((x / 936) * Math.PI * 2 * 4.5 - t * 6) * 80; x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+    ctx.stroke();
+    ctx.shadowBlur = 0; ctx.strokeStyle = 'rgba(255,255,255,.12)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(0, 165); ctx.lineTo(936, 165); ctx.stroke();
+    s.items.forEach((it, i) => enter(it, t, 1.3 + i * .35, .7, { from: { x: 60, o: 0 } }));
+  }
+});
+addWipe(11.05, .5, 'cream');
+
+/* S4 · LA TRAMPA (crema) */
+scene({ t0: 11.2, t1: 14.1,
+  build(r) {
+    const c = el('div', 'col', null, r); c.style.top = '360px';
+    const k = el('div', 'kicker', '', c); k.style.marginBottom = '34px';
+    const h = el('div', 'hook', null, c); h.style.fontSize = '112px';
+    const ws = buildWords(h, [['No elimina'], ['el', { w: 'pico', o: true }, 'de'], ['arranque.']]);
+    const cl = el('div', 'callout', '<div class="cap">Motores, bombas, heladeras</div><p>Una salida estable <b>no</b> significa capacidad de arranque. Dimensioná con <b>potencia nominal</b> y el pico documentado.</p>', r); cl.style.cssText += 'left:72px;width:936px;top:900px';
+    const pills = el('div', '', null, r); pills.style.cssText = 'position:absolute;left:72px;top:1250px;display:flex;flex-wrap:wrap;gap:18px;width:936px';
+    const ps = ['Tensión', 'Frecuencia', 'Forma de onda', 'THD', 'Nominal', 'Pico admitido'].map((x, i) => el('span', 'pill' + (i >= 4 ? ' o' : ''), x, pills));
+    R.ev(11.25, 'typing', { n: 12 }); R.ev(11.5, 'impact', { gain: .5, hi: true }); R.ev(11.8, 'warn'); R.ev(12.1, 'impact', { gain: .9 });
+    R.ev(12.5, 'whoosh', { len: .35, soft: true }); ps.forEach((_, i) => R.ev(12.9 + i * .12, 'tick'));
+    return { k, ws, cl, ps };
+  },
+  frame(t, T, s) {
+    typeText(s.k, 'Lo que no hace', t, .05, 36);
+    wordsAnim(s.ws.slice(0, 2), t, .3, .12, .8, 'rise'); wordsAnim([s.ws[2]], t, .6, 0, .6, 'slam'); wordsAnim(s.ws.slice(3), t, .75, .12, .8, 'rise');
+    enter(s.cl, t, 1.3, .9, { from: { x: -80, o: 0 } });
+    s.ps.forEach((p, i) => enter(p, t, 1.7 + i * .12, .6, { from: { y: 30, o: 0, s: .8 }, ease: 'outBack' }));
+  }
+});
+addFlash(14.1, .4);
+
+/* S5 · CTA */
+scene({ t0: 14.1, t1: 17,
+  build(r) {
+    const logo = el('img', '', null, r); logo.src = '../../assets/logo_dark.png'; logo.style.cssText = 'position:absolute;left:50%;top:560px;width:700px;margin-left:-350px';
+    const h = el('div', 'h', null, r); h.style.cssText += 'position:absolute;left:72px;right:72px;top:820px;text-align:center;font-size:84px';
+    const ws = buildWords(h, [['Guía inverter'], ['con', { w: 'fichas reales', o: true }]]);
+    const sub = el('p', 'sub', 'Funcionamiento, cuándo elegirlo, marcha vs. picos y modelos con precios observados.', r); sub.style.cssText += 'position:absolute;left:120px;right:120px;top:1040px;text-align:center;font-size:34px';
+    const btn = el('div', 'btn', `tallerlab.com.ar/generadores/inverter ${ICON.arrow}`, r); btn.style.cssText += 'left:50%;top:1250px;transform-origin:center;font-size:30px;white-space:nowrap';
+    const stk = el('div', 'sticker', 'sin prueba física: lo decimos', r); stk.style.cssText += 'left:560px;top:1370px;transform-origin:left center';
+    const ring = el('div', '', null, r); ring.style.cssText = 'position:absolute;left:50%;top:640px;border-radius:50%;border:3px solid #ff5a0a;opacity:0';
+    R.ev(14.1, 'sting'); R.ev(14.55, 'impact', { gain: .5, hi: true }); R.ev(14.8, 'impact', { gain: .5, hi: true }); R.ev(15.35, 'pop'); R.ev(15.8, 'blip', { up: true });
+    return { logo, ws, sub, btn, stk, ring };
+  },
+  frame(t, T, s) {
+    const u = tw(t, 0, 1.0, 'outExpo'); st(s.logo, { s: L(1.6, 1, u), o: u, blur: (1 - u) * 20 });
+    const rr = tw(t, 0, 1.4, 'outCubic'); const d = L(10, 1700, rr); s.ring.style.width = s.ring.style.height = d + 'px'; s.ring.style.margin = `${-d / 2}px 0 0 ${-d / 2}px`; s.ring.style.opacity = (1 - rr) * .9;
+    wordsAnim(s.ws, t, .45, .12, .8, 'rise');
+    enter(s.sub, t, .9, .8, { from: { y: 30, o: 0 } });
+    const b = tw(t, 1.25, .7, 'outBack'); s.btn.style.transform = `translateX(-50%) scale(${b})`; s.btn.style.opacity = b;
+    const v = tw(t, 1.7, .6, 'outBack'); st(s.stk, { o: v, r: L(10, -5, v), s: L(.7, 1, v) });
+    if (t > 2) s.btn.style.transform = `translateX(-50%) scale(${1 + Math.sin((t - 2) * 7) * .025})`;
+  }
+});
+</script></body></html>

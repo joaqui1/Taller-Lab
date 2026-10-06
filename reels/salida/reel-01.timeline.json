@@ -1,0 +1,241 @@
+{
+ "dur": 16,
+ "fps": 30,
+ "events": [
+  {
+   "t": 0,
+   "kind": "impact",
+   "gain": 0.9
+  },
+  {
+   "t": 0.02,
+   "kind": "typing",
+   "n": 20
+  },
+  {
+   "t": 0.62,
+   "kind": "impact",
+   "gain": 0.7,
+   "hi": true
+  },
+  {
+   "t": 1.15,
+   "kind": "strike"
+  },
+  {
+   "t": 1.2,
+   "kind": "riser",
+   "len": 0.5
+  },
+  {
+   "t": 1.7,
+   "kind": "impact",
+   "gain": 1.2
+  },
+  {
+   "t": 2.15,
+   "kind": "pop"
+  },
+  {
+   "t": 3.05,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 3.25,
+   "kind": "typing",
+   "n": 18
+  },
+  {
+   "t": 3.5,
+   "kind": "impact",
+   "gain": 0.55,
+   "hi": true
+  },
+  {
+   "t": 3.78,
+   "kind": "impact",
+   "gain": 0.55,
+   "hi": true
+  },
+  {
+   "t": 4.4,
+   "kind": "ticks",
+   "len": 0.7,
+   "rate": 22
+  },
+  {
+   "t": 5.1,
+   "kind": "riser",
+   "len": 0.6
+  },
+  {
+   "t": 5.3,
+   "kind": "ticks",
+   "len": 0.9,
+   "rate": 30
+  },
+  {
+   "t": 5.3,
+   "kind": "impact",
+   "gain": 0.8
+  },
+  {
+   "t": 6.2,
+   "kind": "pop"
+  },
+  {
+   "t": 6.45,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 6.65,
+   "kind": "typing",
+   "n": 14
+  },
+  {
+   "t": 6.9,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 7.3,
+   "kind": "ticks",
+   "len": 0.6,
+   "rate": 24
+  },
+  {
+   "t": 7.9,
+   "kind": "ticks",
+   "len": 0.6,
+   "rate": 24
+  },
+  {
+   "t": 8.5,
+   "kind": "blip"
+  },
+  {
+   "t": 8.7,
+   "kind": "ticks",
+   "len": 0.8,
+   "rate": 28
+  },
+  {
+   "t": 8.7,
+   "kind": "impact",
+   "gain": 0.7
+  },
+  {
+   "t": 9.5,
+   "kind": "pop"
+  },
+  {
+   "t": 9.6,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 10.25,
+   "kind": "whoosh",
+   "len": 0.5
+  },
+  {
+   "t": 10.45,
+   "kind": "typing",
+   "n": 12
+  },
+  {
+   "t": 10.7,
+   "kind": "impact",
+   "gain": 0.6,
+   "hi": true
+  },
+  {
+   "t": 10.95,
+   "kind": "impact",
+   "gain": 0.7,
+   "hi": true
+  },
+  {
+   "t": 11.2,
+   "kind": "impact",
+   "gain": 1
+  },
+  {
+   "t": 11.6,
+   "kind": "whoosh",
+   "len": 0.35,
+   "soft": true
+  },
+  {
+   "t": 11.85,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 12.1,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 12.35,
+   "kind": "blip",
+   "up": true
+  },
+  {
+   "t": 13.1,
+   "kind": "sting"
+  },
+  {
+   "t": 13.55,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 13.8,
+   "kind": "impact",
+   "gain": 0.5,
+   "hi": true
+  },
+  {
+   "t": 14.35,
+   "kind": "pop"
+  },
+  {
+   "t": 14.8,
+   "kind": "blip",
+   "up": true
+  }
+ ],
+ "music": {
+  "bpm": 104,
+  "root": "D",
+  "mode": "minor",
+  "sections": [
+   [
+    0,
+    3.2,
+    "hook"
+   ],
+   [
+    3.2,
+    10.4,
+    "build"
+   ],
+   [
+    10.4,
+    13.1,
+    "full"
+   ],
+   [
+    13.1,
+    16,
+    "outro"
+   ]
+  ]
+ },
+ "title": "Tu heladera no consume 150 W al arrancar"
+}
