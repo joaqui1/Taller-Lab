@@ -14,7 +14,7 @@ class StateStore:
     def __init__(self, path=None, database_url=None):
         self.url = database_url if database_url is not None else (
             os.getenv('COMPATIBILITY_DATABASE_URL') or os.getenv('DATABASE_URL')
-            or os.getenv('ALERTAS_DATABASE_DATABASE_URL'))
+            or os.getenv('ALERTAS_DATABASE_DATABASE_URL') or os.getenv('ALERTAS_DATABASE_URL'))
         self.path = Path(path or os.getenv('COMPATIBILITY_STATE_PATH') or Path(__file__).parents[1] / '.compatibilidad-state' / 'state.sqlite3')
         if os.getenv('VERCEL') and not self.url and path is None:
             raise RuntimeError('Compatibilidad requiere PostgreSQL en Vercel')

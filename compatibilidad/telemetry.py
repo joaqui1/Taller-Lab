@@ -9,7 +9,7 @@ VALID_EVENTS={'busqueda_resuelta','modelo_no_encontrado','resultado_desconocido'
               'visita_hub','visita_ficha','visita_plataforma','consulta_modelo','clic_fuente','clic_comercial','error_evidencia'}
 
 def _store():
-    return StateStore() if os.getenv('VERCEL') or os.getenv('COMPATIBILITY_DATABASE_URL') or os.getenv('DATABASE_URL') else StateStore(path=DB_PATH,database_url='')
+    return StateStore() if os.getenv('VERCEL') or os.getenv('COMPATIBILITY_DATABASE_URL') or os.getenv('DATABASE_URL') or os.getenv('ALERTAS_DATABASE_DATABASE_URL') or os.getenv('ALERTAS_DATABASE_URL') else StateStore(path=DB_PATH,database_url='')
 
 def init_telemetry_db():
     # Kept for CLI compatibility: creation is lazy, only when an event is sent.
