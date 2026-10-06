@@ -32,3 +32,32 @@ Elegí uno de los ganchos para el texto en pantalla de la portada si la app lo p
 **Caption:** 50 litros dicen cuánto guarda, no cuánto entrega. Compará el caudal (L/min) con el consumo de tu herramienta a la misma presión. El tanque es el punto de partida, no el ranking. Calculadora en tallerlab.com.ar/compresores/50-litros/
 **Gancho:** "Tanque ≠ caudal."
 **Hashtags:** #compresor #aire #neumática #herramientas #tallerlab
+
+---
+
+# Serie premium (07–11) · con música propia a 96 BPM
+
+## 07 · 154 bar, ¿y?
+**Caption:** El número grande de la hidrolavadora es el máximo permitido. El que limpia es el de trabajo: Lüsqtoff HL100-8, 100 bar de trabajo y 150 máximos; HL-120, 70 y 105. Y sin caudal, la presión es media ficha (Bosch GHP 180: 83 bar sostenidos y 4,0 L/min). "154 bar anunciados" sin condición de trabajo no ordena nada. tallerlab.com.ar/hidrolavadoras/comparativa-general/
+**Gancho:** "154 bar. ¿Y qué limpia eso?"
+**Hashtags:** #hidrolavadora #limpieza #presión #herramientas #tallerlab
+
+## 08 · 6.000, ¿de qué?
+**Caption:** ¿Nominal o máxima? Gamma GE3481AR: 5,5 kW nominales, 6 kW máximos. Honda EG6500CXS: 5,0 kVA nominales, 5,5 kVA máximos. Y kW no es kVA: sumá tus cargas en unidades compatibles y cotejá los picos con el manual. tallerlab.com.ar/generadores/comparativa-general/
+**Gancho:** "6.000. ¿Nominal o máxima?"
+**Hashtags:** #generador #grupoelectrógeno #potencia #cortedeluz #tallerlab
+
+## 09 · ¿115 o 125?
+**Caption:** La grande no es más potente. Bosch GWS 9-115 S y GWS 9-125 S: mismos 900 W, mismo peso declarado. La única diferencia comprobable son 10 mm de disco. La profundidad depende del accesorio (caperuza GDE 115/125: 20 mm vs 25 mm). Elegí por el disco que vas a usar. tallerlab.com.ar/amoladoras/115-o-125/
+**Gancho:** "¿115 o 125? La grande no es más potente."
+**Hashtags:** #amoladora #discos #herrería #bricolaje #tallerlab
+
+## 10 · 120 A, solo en un modo
+**Caption:** Una soldadora, tres procesos, dos corrientes máximas. Lüsqtoff SML120-8DK: 120 A solo en Flux; electrodo y TIG, 100 A. Y la ficha web declara 200 V donde la red argentina es 220 V: confirmá la placa metálica antes de operar. Fichas con contradicciones señaladas en tallerlab.com.ar/soldadoras/
+**Gancho:** "120 A. Solo en un modo."
+**Hashtags:** #soldadora #mig #flux #soldadura #tallerlab
+
+## 11 · Nadie lee la ficha
+**Caption:** Nadie lee la ficha. Nosotros sí. Modelos concretos, cada dato con su fuente enlazada y lo que falta confirmar, señalado. Algunos enlaces pueden generar una comisión: el criterio no cambia. 179 guías, 8 categorías, precios todos los días. tallerlab.com.ar/como-trabajamos/
+**Gancho:** "Nadie lee la ficha. Nosotros sí."
+**Hashtags:** #herramientas #argentina #comprarbien #taller #tallerlab

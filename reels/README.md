@@ -6,8 +6,8 @@ JetBrains Mono para los "kickers", Caveat para los stickers manuscritos) y los m
 (panel oscuro con borde naranja, tarjetas claras, chips, punto de estado).
 
 Cada reel es un HTML animado con CSS. El renderizador recorre la línea de tiempo cuadro por cuadro,
-saca una captura con Chromium y arma el MP4 con ffmpeg. Al no haber audio, la pista musical se
-agrega al publicar (Instagram/TikTok) con la biblioteca de la propia app.
+saca una captura con Chromium y arma el MP4 con ffmpeg. Los reels 01–06 son mudos (la música se agrega al publicar);
+la serie 07–11 lleva música propia, generada por código.
 
 ## Reels
 
@@ -20,6 +20,35 @@ agrega al publicar (Instagram/TikTok) con la biblioteca de la propia app.
 | `05-taladro-checklist.html` | Tres preguntas antes de comprar un taladro inalámbrico | 15 s | /taladros/inalambricos/ |
 | `06-compresor-tanque.html` | Tanque (L) vs caudal (L/min) a la misma presión | 15 s | /compresores/50-litros/ |
 
+### Serie premium (07–11), con música
+
+| Archivo | Gancho | CTA |
+| --- | --- | --- |
+| `07-hidrolavadora-bar.html` | "154 bar. ¿Y qué limpia eso?" · máxima vs. trabajo, caudal | /hidrolavadoras/comparativa-general/ |
+| `08-generador-nominal.html` | "6.000. ¿Nominal o máxima?" · kW ≠ kVA | /generadores/comparativa-general/ |
+| `09-amoladora-115-125.html` | "¿115 o 125? La grande no es más potente." | /amoladoras/115-o-125/ |
+| `10-soldadora-dos-corrientes.html` | "120 A. Solo en un modo." · 200 V vs 220 V | /soldadoras/ |
+| `11-metodo.html` | "Nadie lee la ficha. Nosotros sí." | /como-trabajamos/ |
+
+Duran 15,5 s y están cortados al compás: 96 BPM, un compás = 2,5 s. Gancho en el compás 1,
+revelación en 2–3, detalle en 4–5, cierre en 6. La música se declara con
+`<meta name="reel-music" content="pista-01.m4a">` y el renderizador la mezcla al final.
+
+## Música
+
+Las pistas de `reels/musica/` las sintetiza `generar_musica.py` (numpy + ffmpeg): beat
+electrónico cinemático a 96 BPM con impacto en el gancho, risers y crash en cada cambio de escena
+y fundido final. Son generadas por código, sin muestras de terceros, así que no tienen problemas
+de derechos en Instagram, TikTok ni YouTube. Se regeneran con:
+
+```bash
+python3 reels/musica/generar_musica.py          # seis pistas de 15,5 s
+python3 reels/musica/generar_musica.py 16 2     # duración y nº de pista
+```
+
+Si preferís usar un tema de la biblioteca de la app, publicá el MP4 y silenciá la pista original
+al subirlo, o renderizá sin la meta `reel-music`.
+
 Todos los datos que aparecen salen de fichas ya documentadas en el sitio
 (`tallerlab_data/catalog_data/soldadoras_generadores.py`, `lote_generadores_06.py`, `home.py`).
 La curva del reel 04 está marcada como ilustrativa y no representa un precio real.
@@ -31,7 +60,7 @@ Un clic reinicia la reproducción.
 
 ## Renderizar
 
-Requiere Node 18+, Playwright con Chromium y ffmpeg en el PATH.
+Requiere Node 18+, Playwright con Chromium, ffmpeg en el PATH y Python 3 con numpy para la música.
 
 ```bash
 npm i -D playwright && npx playwright install chromium   # una sola vez

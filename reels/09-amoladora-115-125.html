@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 09 · ¿115 o 125?</title>
+<meta name="reel-duration" content="15.5">
+<meta name="reel-poster" content="1.5">
+<meta name="reel-music" content="pista-03.m4a">
+<link rel="stylesheet" href="base.css">
+<style>
+  .hookbox{position:absolute;left:84px;right:84px;bottom:470px}
+  .b .discs{display:flex;align-items:flex-end;justify-content:center;gap:70px;margin:34px 0 0}
+  .b .disc{display:flex;flex-direction:column;align-items:center;gap:18px}
+  .b .disc svg{display:block}
+  .b .disc .ring{fill:#2b3438;stroke:#aab4b7;stroke-width:10}
+  .b .disc.hot .ring{stroke:var(--orange)}
+  .b .disc .hole{fill:var(--bg-dark-2);stroke:#aab4b7;stroke-width:6}
+  .b .disc.hot .hole{stroke:var(--orange)}
+  .b .disc .arc{fill:none;stroke:rgba(255,255,255,.12);stroke-width:2;stroke-dasharray:8 10}
+  .b .disc b{font-size:60px;font-weight:800;letter-spacing:-.05em}
+  .b .disc.hot b{color:var(--orange)}
+  .b .disc span{font:600 23px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted-dark-2)}
+  .b table{width:100%;border-collapse:collapse;margin-top:14px;font-size:30px}
+  .b td,.b th{padding:14px 10px;border-bottom:1px solid var(--border-dark);text-align:left}
+  .b th{font:600 22px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted-dark-2)}
+  .b td:not(:first-child){font-weight:800;text-align:right;letter-spacing:-.03em;font-size:36px}
+  .b tr.diff td{color:var(--orange)}
+  .b td:first-child{color:var(--muted-dark)}
+  .c .depth{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="stage dark">
+  <div class="progress"><i style="--total:15.5s"></i></div>
+  <header class="brand in-down" style="--d:.3s"><img src="../assets/logo_dark.png" alt="TallerLab"><span class="status"><i class="dot"></i>Amoladoras</span></header>
+  <footer class="url in-fade" style="--d:2.6s"><div><b>tallerlab</b>.com.ar/amoladoras/115-o-125/</div><span>115 · 125 mm</span></footer>
+
+  <section class="scene" style="--s:0s;--e:2.3s;padding:0">
+    <div class="bg-photo product" style="--e:2.3s"><img src="../assets/productos/lusqtoffaml8508-79bb71a188.webp" alt=""></div>
+    <div class="flash" style="--d:0s"></div>
+    <div class="hookbox">
+      <div class="hook in-punch" style="--d:.05s"><span class="xl">¿115 <span class="accent">o</span> 125?</span></div>
+      <div class="hook in-up" style="--d:.9s;font-size:110px">La grande <span class="accent">no es</span> más potente.</div>
+    </div>
+  </section>
+
+  <section class="scene b" style="--s:2.5s;--e:7.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:2.6s">Misma serie, misma potencia</span>
+      <div class="h2 in-up" style="--d:2.75s">La diferencia comprobable:<br><span class="accent">10 mm de disco.</span></div>
+      <div class="discs">
+        <div class="disc in-pop" style="--d:3.3s"><svg width="285" height="285" viewBox="0 0 375 375"><circle class="ring" cx="187.5" cy="187.5" r="172.5"/><circle class="hole" cx="187.5" cy="187.5" r="34"/></svg><b>115 mm</b><span>GWS 9-115 S</span></div>
+        <div class="disc hot in-pop" style="--d:3.6s"><svg width="310" height="310" viewBox="0 0 375 375"><circle class="arc" cx="187.5" cy="187.5" r="172.5"/><circle class="ring" cx="187.5" cy="187.5" r="187"/><circle class="hole" cx="187.5" cy="187.5" r="34"/></svg><b>125 mm</b><span>GWS 9-125 S</span></div>
+      </div>
+      <table>
+        <tr class="in-up" style="--d:4.4s"><th>Ficha Bosch</th><th style="text-align:right">9-115 S</th><th style="text-align:right">9-125 S</th></tr>
+        <tr class="in-up" style="--d:4.6s"><td>Potencia</td><td>900 W</td><td>900 W</td></tr>
+        <tr class="in-up" style="--d:4.8s"><td>Peso declarado</td><td>igual</td><td>igual</td></tr>
+        <tr class="diff in-up" style="--d:5s"><td>Diámetro máx. del disco</td><td>115 mm</td><td>125 mm</td></tr>
+      </table>
+      <p class="source in-up" style="--d:5.8s;margin-top:22px"><b>Fichas oficiales Bosch.</b> Radio 5 mm mayor: eso es todo lo que el número garantiza.</p>
+    </div>
+  </section>
+
+  <section class="scene c" style="--s:7.5s;--e:12.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:7.6s">¿Y la profundidad de corte?</span>
+      <div class="h2 in-up" style="--d:7.75s">Depende del accesorio,<br>no del número.</div>
+      <div class="depth">
+        <div class="card stat in-up" style="--d:8.2s"><span class="lab">Caperuza GDE 115/125 · disco 115</span><div class="big"><span data-count="0,20,8.4,9.3">0</span> <small>mm</small></div><span class="foot">Profundidad máxima declarada.</span></div>
+        <div class="card stat hot in-up" style="--d:8.45s"><span class="lab">Caperuza GDE 115/125 · disco 125</span><div class="big"><span data-count="0,25,8.6,9.5">0</span> <small>mm</small></div><span class="foot">Dato de ese accesorio, no de toda amoladora.</span></div>
+      </div>
+      <div class="callout in-up" style="--d:9.9s">Elegí por el disco que vas a usar y el modelo concreto que lo admite. No por “la más grande”.<small>Un Bosch GWS 9-125 publica menos peso que un GWS 850 de 115 mm: son series distintas.</small></div>
+    </div>
+  </section>
+
+  <section class="scene d cta" style="--s:12.5s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:12.6s;background:#2b3438">
+        <span class="kicker">Guía</span>
+        <div class="h2 in-up" style="--d:12.85s">115 o 125 mm:<br>cuál para tu trabajo.</div>
+        <p class="lead in-up" style="--d:13.1s">Diferencias reales, consumibles y modelos disponibles en Argentina.</p>
+        <div class="in-up" style="--d:13.35s"><span class="btn">Leer la guía <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:13.6s"><b>tallerlab</b>.com.ar<small>/amoladoras/115-o-125/</small></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

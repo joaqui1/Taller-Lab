@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 10 · 120 A, solo en un modo</title>
+<meta name="reel-duration" content="15.5">
+<meta name="reel-poster" content="1.5">
+<meta name="reel-music" content="pista-04.m4a">
+<link rel="stylesheet" href="base.css">
+<style>
+  .hookbox{position:absolute;left:84px;right:84px;bottom:470px}
+  .b .modes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}
+  .b .mode{padding:30px 24px 26px;text-align:center}
+  .b .mode .lab{font:600 24px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted-dark-2)}
+  .b .mode .big{font-size:92px;line-height:1;font-weight:800;letter-spacing:-.06em;margin:18px 0 10px;white-space:nowrap}
+  .b .mode .big small{font-size:40px;color:var(--muted-dark)}
+  .b .mode.hot .big{color:var(--orange)}
+  .b .mode .track{height:14px;background:rgba(255,255,255,.08);border-radius:7px;overflow:hidden;margin-top:14px}
+  .b .mode .fill{height:100%;background:#aab4b7;border-radius:7px}
+  .b .mode.hot .fill{background:var(--orange)}
+  .c .volts{display:flex;align-items:center;justify-content:center;gap:40px;margin:26px 0 10px}
+  .c .volts b{font-size:150px;line-height:1;font-weight:800;letter-spacing:-.07em}
+  .c .volts b small{font-size:60px;color:var(--muted-dark);letter-spacing:-.02em}
+  .c .volts i{font-style:normal;font-size:110px;color:var(--orange);font-weight:800}
+  .c .volts span{display:block;font:600 22px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted-dark-2);text-align:center;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="stage dark">
+  <div class="progress"><i style="--total:15.5s"></i></div>
+  <header class="brand in-down" style="--d:.3s"><img src="../assets/logo_dark.png" alt="TallerLab"><span class="status"><i class="dot"></i>Soldadoras</span></header>
+  <footer class="url in-fade" style="--d:2.6s"><div><b>tallerlab</b>.com.ar/soldadoras/</div><span>MIG · Flux · MMA</span></footer>
+
+  <section class="scene" style="--s:0s;--e:2.3s;padding:0">
+    <div class="bg-photo product" style="--e:2.3s"><img src="../assets/productos/lusqtoffsml1208dk-3764bfc294.webp" alt=""></div>
+    <div class="flash" style="--d:0s"></div>
+    <div class="hookbox">
+      <div class="hook in-punch" style="--d:.05s"><span class="xl">120 <span class="accent">A.</span></span></div>
+      <div class="hook in-up" style="--d:.9s;font-size:118px">Solo en <span class="accent">un</span> modo.</div>
+    </div>
+  </section>
+
+  <section class="scene b" style="--s:2.5s;--e:7.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:2.6s">Una máquina, tres procesos</span>
+      <div class="h2 in-up" style="--d:2.75s">La corriente del título<br>vale para <span class="accent">un solo proceso.</span></div>
+      <div class="modes">
+        <div class="card mode hot in-up" style="--d:3.3s"><span class="lab">Flux</span><div class="big"><span data-count="0,120,3.5,4.5">0</span><small> A</small></div><div class="track"><div class="fill grow-x" style="--d:3.5s;--dur:1s;width:100%"></div></div></div>
+        <div class="card mode in-up" style="--d:3.6s"><span class="lab">Electrodo</span><div class="big"><span data-count="0,100,3.8,4.8">0</span><small> A</small></div><div class="track"><div class="fill grow-x" style="--d:3.8s;--dur:1s;width:83.3%"></div></div></div>
+        <div class="card mode in-up" style="--d:3.9s"><span class="lab">TIG</span><div class="big"><span data-count="0,100,4.1,5.1">0</span><small> A</small></div><div class="track"><div class="fill grow-x" style="--d:4.1s;--dur:1s;width:83.3%"></div></div></div>
+      </div>
+      <div class="callout in-up" style="--d:5.3s">120 A corresponde únicamente al modo Flux. En electrodo revestido y TIG, la máxima es 100 A.<small>Lüsqtoff SML120-8DK · Ficha oficial del fabricante.</small></div>
+    </div>
+  </section>
+
+  <section class="scene c" style="--s:7.5s;--e:12.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:7.6s">Y un dato que no cierra</span>
+      <div class="h2 in-up" style="--d:7.75s">La ficha dice una tensión.<br>La red, <span class="accent">otra.</span></div>
+      <div class="volts">
+        <div class="in-pop" style="--d:8.2s"><b>200 <small>V</small></b><span>Ficha web del modelo</span></div>
+        <i class="in-pop" style="--d:8.6s">≠</i>
+        <div class="in-pop" style="--d:8.9s"><b style="color:var(--orange)">220 <small>V</small></b><span>Red eléctrica argentina</span></div>
+      </div>
+      <div class="callout in-up" style="--d:9.9s">Antes de operar, confirmá la placa metálica de la máquina y su rango de tolerancia de entrada.<small>Contradicción registrada y señalada en la ficha de TallerLab.</small></div>
+    </div>
+  </section>
+
+  <section class="scene d cta" style="--s:12.5s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:12.6s;background:#2b3438">
+        <span class="kicker">Fichas técnicas</span>
+        <div class="h2 in-up" style="--d:12.85s">Lo que la ficha dice.<br>Y lo que no cierra.</div>
+        <p class="lead in-up" style="--d:13.1s">Corriente por proceso, ciclo de trabajo y contradicciones señaladas, modelo por modelo.</p>
+        <div class="in-up" style="--d:13.35s"><span class="btn">Ver soldadoras <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:13.6s"><b>tallerlab</b>.com.ar<small>/soldadoras/</small></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

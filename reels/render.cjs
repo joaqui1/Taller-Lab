@@ -34,7 +34,9 @@ async function renderOne(browser, file) {
   const posterAt = Number(process.env.POSTER_AT || await page.evaluate(() => { const m = document.querySelector('meta[name="reel-poster"]'); return m ? m.content : 1.6; }));
   const frames = Math.round(duration / 1000 * FPS);
   const mp4 = path.join(OUT, name + '.mp4');
-  const enc = ffmpeg(mp4);
+  const music = await page.evaluate(() => { const m = document.querySelector('meta[name="reel-music"]'); return m ? m.content : ''; });
+  const videoOnly = music ? path.join(OUT, name + '.video-tmp.mp4') : mp4;
+  const enc = ffmpeg(videoOnly);
   const done = new Promise((res, rej) => enc.on('close', (c) => (c === 0 ? res() : rej(new Error('ffmpeg salió con ' + c)))));
   const t0 = Date.now();
   for (let i = 0; i < frames; i++) {
@@ -46,6 +48,16 @@ async function renderOne(browser, file) {
   }
   enc.stdin.end();
   await done;
+  if (music) {
+    const audio = path.join(DIR, 'musica', music);
+    if (!fs.existsSync(audio)) throw new Error('No existe la pista ' + audio + ' (ejecutá python3 reels/musica/generar_musica.py)');
+    await new Promise((res, rej) => {
+      const p = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-i', videoOnly, '-i', audio, '-map', '0:v:0', '-map', '1:a:0',
+        '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', mp4], { stdio: 'inherit' });
+      p.on('close', (c) => (c === 0 ? res() : rej(new Error('ffmpeg (audio) salió con ' + c))));
+    });
+    fs.unlinkSync(videoOnly);
+  }
   await page.evaluate((t) => window.__seek(t), posterAt * 1000);
   await page.screenshot({ type: 'jpeg', quality: 92, path: path.join(OUT, name + '-portada.jpg') });
   await page.close();
