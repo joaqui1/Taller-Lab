@@ -20,7 +20,7 @@ Las correcciones de código y la versión reproducible quedaron preparadas local
 - Recorrido local: 1.079 solicitudes, 760 respuestas HTML examinadas, 370 rutas de sitemap y **cero hallazgos** de enlaces, recursos o metadatos. El 503 de compatibilidad es esperado en ese entorno aislado sin base; el único 404 corresponde a una ruta inexistente usada para comprobar la respuesta.
 - Build desde una copia limpia del commit: 384 assets, 44 observaciones y 53 páginas verificadas. Se comprobó el fallback al historial versionado cuando la red no está disponible.
 
-Las versiones exactas están en [requirements.lock](<C:/Users/joaqu/Desktop/Taller Lab/requirements.lock>). El historial versionado es una copia de respaldo: la actualización diaria necesita activar la operación remota.
+Las versiones exactas están en [requirements.txt](<C:/Users/joaqu/Desktop/Taller Lab/requirements.txt>). El historial versionado es una copia de respaldo: la actualización diaria necesita activar la operación remota.
 
 ## Aplicación futura, cuando se autorice publicar
 
