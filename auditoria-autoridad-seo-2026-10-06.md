@@ -296,6 +296,15 @@ Correcciones deterministas implementadas en el código y verificadas con `verifi
 | `/llms.txt` | `render_llms`, `app.py`, servidor local | — |
 | Favicon real: `.ico` 16/32/48 + PNG 192 + `apple-touch-icon` + `theme-color`, generados desde la marca del logo | `assets/icons/`, `HTML_SHELL` | Reemplaza el emoji SVG |
 
+Segunda tanda, tras revisar las secciones nuevas de `main` (comunidad, base técnica, observatorio, compatibilidad, alertas, relevamiento):
+
+| Cambio | Dónde | Motivo |
+|---|---|---|
+| Descarga CSV del observatorio responde 503 con `Retry-After` cuando no hay base, en vez de 500 | `app.py` | Un 500 repetido en URLs enlazadas se interpreta como sitio inestable |
+| `/relevamiento-2027/` en `noindex, follow` y fuera del sitemap mientras `RELEVAMIENTO_HABILITADO` no esté activo | `render_relevamiento_view`, `render_sitemap` | Página de 76 palabras; la metodología sigue indexable |
+| Plataformas de baterías sin modelos publicados en `noindex, follow` (misma regla que ya usaba el sitemap) | `render_compatibility_page` | Evita fichas de plataforma vacías en el índice |
+| Títulos de las secciones nuevas sin mayúsculas tipo inglés (solo `<title>`; los H1 no se tocaron) | `servidor_local.py` | Coherencia con las guías |
+
 Pendiente que requiere decisión o datos del editor: `sameAs` (perfiles reales), correo de contacto (`CONTACT_EMAIL`), Search Console y analítica, FAQ por guía, recorte de títulos y descripciones de guías, canibalizaciones (son decisiones editoriales), calculadoras con URL propia (nueva funcionalidad).
 
 ## 11. Para volver a auditar en vivo

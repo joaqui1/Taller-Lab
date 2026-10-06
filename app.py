@@ -156,7 +156,13 @@ def affiliate_click():
 def observatory_csv(category):
     if category not in ("compresores", "hidrolavadoras", "generadores"):
         return Response('Categoría desconocida',status=404,content_type='text/plain; charset=utf-8')
-    csv_data = export_observations_to_csv(category=category)
+    try:
+        csv_data = export_observations_to_csv(category=category)
+    except Exception as error:
+        # Sin esquema o conexión del observatorio la descarga no existe todavía: responder 503, no un error interno.
+        print(json.dumps({"type": "observatory_csv_unavailable", "category": category, "error": type(error).__name__}), flush=True)
+        return Response('La descarga de precios no está disponible por el momento.', status=503,
+                        content_type='text/plain; charset=utf-8', headers={"Cache-Control": "no-store", "Retry-After": "3600"})
     return Response(
         csv_data,
         content_type="text/csv; charset=utf-8",

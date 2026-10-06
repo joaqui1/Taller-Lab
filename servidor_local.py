@@ -43,6 +43,7 @@ from relevamiento_piloto import (
     exportar_dataset,
     get_admin_key,
     registrar_abandono,
+    relevamiento_abierto,
     render_admin_dashboard,
     render_metodologia_page,
     render_relevamiento_callout,
@@ -1047,13 +1048,13 @@ def organization_schema():
 
 def get_tallerlab_data_meta(path):
     if path == TALLERLAB_DATA_HUB_PATH:
-        return "Base de Datos Técnica de Herramientas en Argentina", "Fichas técnicas normalizadas, condiciones de medición, variantes regionales de 220V 50Hz y comparador documental de herramientas en Argentina."
+        return "Base de datos técnica de herramientas en Argentina", "Fichas técnicas normalizadas, condiciones de medición, variantes regionales de 220V 50Hz y comparador documental de herramientas en Argentina."
     if path == TALLERLAB_DATA_COMPARATOR_PATH:
-        return "Comparador Técnico de Herramientas en Argentina", "Compará especificaciones técnicas de herramientas en Argentina lado a lado, con alertas de condiciones de medición no comparables."
+        return "Comparador técnico de herramientas en Argentina", "Compará especificaciones técnicas de herramientas en Argentina lado a lado, con alertas de condiciones de medición no comparables."
     if path == TALLERLAB_DATA_EDITORIAL_LIST_PATH:
-        return "Comparativas Técnicas de Herramientas Documentadas", "Comparaciones de valores declarados, fuentes enlazadas y condiciones registradas entre modelos de herramientas."
+        return "Comparativas técnicas de herramientas documentadas", "Comparaciones de valores declarados, fuentes enlazadas y condiciones registradas entre modelos de herramientas."
     if path == TALLERLAB_DATA_METHODOLOGY_PATH:
-        return "Metodología Técnica de TallerLab Data", "Criterios de extracción documental, jerarquía de fuentes primarias, estados de especificación y política de exclusión de datos."
+        return "Metodología técnica de TallerLab Data", "Criterios de extracción documental, jerarquía de fuentes primarias, estados de especificación y política de exclusión de datos."
     if path == TALLERLAB_DATA_CORRECTIONS_PATH:
         return "Registro Público de Correcciones Técnicas", "Historial cronológico de rectificaciones, actualizaciones de manuales y ajustes documentales en la base de datos TallerLab Data."
     if path == TALLERLAB_DATA_RESEARCH_PATH:
@@ -1148,10 +1149,10 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
         AUTHOR_PATH: (AUTHOR_NAME, "Investigación documental y edición de las guías de TallerLab."),
         "/contacto/": ("Contacto y correcciones", "Cómo enviar consultas y reportar errores en las guías de TallerLab."),
         "/privacidad/": ("Privacidad y datos", "Qué datos se registran al visitar TallerLab y usar sus enlaces comerciales."),
-        "/datos/precios-herramientas-argentina/": ("Observatorio de Precios de Herramientas en Argentina", "Relevamiento diario de precios, disponibilidad y condiciones comerciales en Argentina."),
-        "/datos/precios/compresores/": ("Precios de Compresores de Aire en Argentina", "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."),
-        "/datos/precios/hidrolavadoras/": ("Precios de Hidrolavadoras en Argentina", "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."),
-        "/datos/precios/metodologia/": ("Metodología del Observatorio de Precios", "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."),
+        "/datos/precios-herramientas-argentina/": ("Observatorio de precios de herramientas en Argentina", "Relevamiento diario de precios, disponibilidad y condiciones comerciales en Argentina."),
+        "/datos/precios/compresores/": ("Precios de compresores de aire en Argentina", "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."),
+        "/datos/precios/hidrolavadoras/": ("Precios de hidrolavadoras en Argentina", "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."),
+        "/datos/precios/metodologia/": ("Metodología del observatorio de precios", "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."),
         "/relevamiento-2027/": ("Relevamiento TallerLab 2027: herramientas y oficios en Argentina", "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina."),
         "/relevamiento-2027/metodologia/": ("Borrador de Metodología: Relevamiento TallerLab 2027", "Diseño de investigación, reclutamiento voluntario, controles de calidad y límites estadísticos del estudio."),
     }
@@ -1236,23 +1237,23 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
 def render_observatory_page(path):
     if path == "/datos/precios-herramientas-argentina/":
         content = render_observatory_hub_html()
-        title = "Observatorio de Precios de Herramientas en Argentina"
+        title = "Observatorio de precios de herramientas en Argentina"
         desc = "Relevamiento diario de precios, disponibilidad y condiciones comerciales en Argentina."
     elif path == "/datos/precios/compresores/":
         content = render_observatory_category_html("compresores")
-        title = "Precios de Compresores de Aire en Argentina"
+        title = "Precios de compresores de aire en Argentina"
         desc = "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."
     elif path == "/datos/precios/hidrolavadoras/":
         content = render_observatory_category_html("hidrolavadoras")
-        title = "Precios de Hidrolavadoras en Argentina"
+        title = "Precios de hidrolavadoras en Argentina"
         desc = "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."
     elif path == "/datos/precios/metodologia/":
         content = render_observatory_methodology_html()
-        title = "Metodología del Observatorio de Precios"
+        title = "Metodología del observatorio de precios"
         desc = "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."
     elif path == '/datos/precios/generadores/':
         content = render_observatory_category_html('generadores')
-        title = 'Precios de Generadores en Argentina'
+        title = 'Precios de generadores en Argentina'
         desc = 'Ofertas observadas e historial por modelo exacto.'
     else:
         return render_not_found(path)
@@ -1272,10 +1273,11 @@ def render_relevamiento_view(kind, query_params=None):
         title = "Relevamiento TallerLab 2027: herramientas y oficios en Argentina"
         desc = "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina."
         content = render_relevamiento_page(query_params)
+        # Mientras la participación esté cerrada la página es un aviso breve: se sirve, pero no se ofrece al índice.
         return HTML_SHELL.format(
             PAGE_TITLE=title,
             PAGE_DESC=escape(desc, quote=True),
-            CANONICAL_TAG=canonical_tag(path),
+            CANONICAL_TAG=canonical_tag(path, robots=None if relevamiento_abierto() else "noindex, follow"),
             PORT=PORT,
             CONTENT=content,
             LOGO_SRC=LOGO_SRC,
@@ -1355,7 +1357,14 @@ def render_compatibility_page(path, query_params=None):
     if path == COMPATIBILITY_SEARCH_PATH:
         canonical_meta = '<meta name="robots" content="noindex, follow">\n  <link rel="canonical" href="' + escape(absolute_url('/compatibilidad/'), quote=True) + '">'
     else:
-        canonical_meta = canonical_tag(path)
+        robots = None
+        if path.startswith("/plataformas/"):
+            # Misma regla que el sitemap: una plataforma sin modelos publicados no se ofrece al índice.
+            from compatibilidad.catalog import CATALOG_PRODUCTS
+            platform = path[len("/plataformas/"):-1]
+            if not any(p.platform_id == platform and p.status == 'publicado' for p in CATALOG_PRODUCTS):
+                robots = "noindex, follow"
+        canonical_meta = canonical_tag(path, robots=robots)
         if extra_schema:
             canonical_meta += extra_schema
 
@@ -1470,6 +1479,8 @@ def render_llms():
 
 def render_sitemap():
     paths = tuple(dict.fromkeys([p for p in INDEXABLE_PATHS if p not in OBSERVATORY_PATHS]+get_published_observatory_paths()))
+    if not relevamiento_abierto():
+        paths = tuple(p for p in paths if p != "/relevamiento-2027/")
     from compatibilidad.catalog import refresh_published_state, PRODUCTS_BY_SLUG, CATALOG_PRODUCTS
     from compatibilidad.presentation import relationship_paths
     refresh_published_state()
