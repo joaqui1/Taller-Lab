@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 04 · Precios todos los días</title>
+<meta name="reel-duration" content="15">
+<meta name="reel-poster" content="2.4">
+<link rel="stylesheet" href="base.css">
+<style>
+  .a h1{font-size:132px}
+  .a .sub{font-size:72px;font-weight:800;letter-spacing:-.05em;color:var(--muted-dark-2)}
+  .b .card{padding:40px 40px 34px;margin-top:36px}
+  .b .chead{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .b .chead strong{font-size:36px;font-weight:800;letter-spacing:-.03em}
+  .b .badge{display:inline-flex;align-items:center;gap:12px;font:600 22px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:14px 20px;border-radius:999px;border:1px solid var(--border-dark)}
+  .b .badge i{width:12px;height:12px;border-radius:50%;background:#4ade80}
+  .b .badge.off i{background:#f87171}
+  .b .badges{position:relative;height:50px;width:230px}
+  .b .badges .badge{position:absolute;right:0;top:0;white-space:nowrap}
+  .b .badge.on{animation:inFade .3s ease 4.6s both, fadeOut .3s ease 7.1s forwards, inFade .3s ease 8.6s forwards}
+  .b .badge.off{opacity:0;animation:inFade .3s ease 7.1s forwards, fadeOut .3s ease 8.6s forwards}
+  @keyframes fadeOut{to{opacity:0}}
+  .b svg{width:100%;height:520px;display:block;overflow:visible}
+  .b .grid line{stroke:rgba(255,255,255,.08);stroke-width:2}
+  .b .area{fill:url(#g);opacity:0;animation:inFade 1s ease 6.4s both}
+  .b .line{fill:none;stroke:var(--orange);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3.2s var(--ease) 4.5s both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .b .pt{fill:#fff;stroke:var(--orange);stroke-width:8;transform-box:fill-box;transform-origin:center;animation:inPop .5s var(--ease-pop) var(--d) both}
+  .b .lbl{font:600 22px var(--mono);fill:var(--muted-dark-2);letter-spacing:.08em}
+  .b .axis{display:flex;justify-content:space-between;font:600 22px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted-dark-2);margin-top:10px}
+  .b .day{font-size:28px;color:#fff}
+  .b .chips{display:flex;flex-wrap:wrap;gap:16px;margin-top:34px}
+  .c .line{font-size:110px;font-weight:800;letter-spacing:-.06em;line-height:1.02;padding:16px 0}
+</style>
+</head>
+<body>
+<div class="stage dark">
+  <div class="topbar"></div>
+  <header class="brand in-down" style="--d:.1s"><img src="../assets/logo_dark.png" alt="TallerLab"><span class="status"><i class="dot"></i>Observatorio de precios</span></header>
+  <footer class="url in-fade" style="--d:.6s"><div><b>tallerlab</b>.com.ar/datos/</div><span>Precios en Argentina</span></footer>
+
+  <!-- A · 0–3.4 s -->
+  <section class="scene a" style="--s:0s;--e:3.1s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:.2s">04 / Precios</span>
+      <h1 class="in-up" style="--d:.45s">Antes de comprar, <span class="accent">mirá el precio.</span></h1>
+      <div class="sub in-up" style="--d:1.4s">Y cómo venía.</div>
+    </div>
+  </section>
+
+  <!-- B · 3.3–10.2 s -->
+  <section class="scene b" style="--s:3.3s;--e:9.9s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:3.45s">Relevamiento diario</span>
+      <div class="h2 in-up" style="--d:3.65s">Precio publicado<br>y stock, <span class="accent">día por día.</span></div>
+      <div class="card in-up" style="--d:4s">
+        <div class="chead"><strong>Herramienta concreta · comercio argentino</strong><div class="badges"><span class="badge on"><i></i>Con stock</span><span class="badge off"><i></i>Sin stock</span></div></div>
+        <svg viewBox="0 0 900 520" preserveAspectRatio="none">
+          <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a0a" stop-opacity=".35"/><stop offset="1" stop-color="#ff5a0a" stop-opacity="0"/></linearGradient></defs>
+          <g class="grid"><line x1="0" y1="110" x2="900" y2="110"/><line x1="0" y1="230" x2="900" y2="230"/><line x1="0" y1="350" x2="900" y2="350"/><line x1="0" y1="470" x2="900" y2="470"/></g>
+          <path class="area" d="M0 300 L120 300 L240 240 L360 240 L480 280 L600 280 L720 180 L900 180 L900 520 L0 520Z"/>
+          <path class="line" d="M0 300 L120 300 L240 240 L360 240 L480 280 L600 280 L720 180 L900 180"/>
+          <circle class="pt" cx="240" cy="240" r="13" style="--d:5.5s"/>
+          <circle class="pt" cx="480" cy="280" r="13" style="--d:6.4s"/>
+          <circle class="pt" cx="720" cy="180" r="13" style="--d:7.2s"/>
+          <text class="lbl" x="240" y="205" text-anchor="middle">sube</text>
+          <text class="lbl" x="480" y="330" text-anchor="middle">baja</text>
+          <text class="lbl" x="720" y="145" text-anchor="middle">sin stock</text>
+        </svg>
+        <div class="axis"><span>Día 1</span><span class="day">Día <span data-count="1,30,4.5,7.7">1</span></span><span>Día 30</span></div>
+        <p class="source in-up" style="--d:7.9s;margin-top:26px">Curva ilustrativa: muestra la forma del historial, no un precio real.</p>
+      </div>
+      <div class="chips">
+        <span class="chip in-up" style="--d:8.2s"><i></i>Precio publicado</span>
+        <span class="chip in-up" style="--d:8.45s"><i></i>Disponibilidad</span>
+        <span class="chip in-up" style="--d:8.7s"><i></i>Historial descargable (CSV)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- C · 10.1–12.6 s -->
+  <section class="scene c" style="--s:10.1s;--e:12.3s">
+    <div class="scene-body">
+      <div class="line in-left" style="--d:10.25s">Todos los días.</div>
+      <div class="line in-left" style="--d:10.7s">Comercios argentinos.</div>
+      <div class="line in-left accent" style="--d:11.15s">Historial descargable.</div>
+    </div>
+  </section>
+
+  <!-- D · 12.5–15 s -->
+  <section class="scene d cta" style="--s:12.5s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:12.6s;background:#2b3438">
+        <span class="kicker">Precios</span>
+        <div class="h2 in-up" style="--d:12.9s">Mirá el precio<br>y el historial.</div>
+        <p class="lead in-up" style="--d:13.15s">Seguimos el precio publicado y el stock de herramientas concretas en comercios argentinos.</p>
+        <div class="in-up" style="--d:13.4s"><span class="btn">Ver precios e historial <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:13.7s"><b>tallerlab</b>.com.ar<small>/datos/precios-herramientas-argentina/</small></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 01 · Manifiesto</title>
+<meta name="reel-duration" content="16">
+<link rel="stylesheet" href="base.css">
+<style>
+  /* Escena A: título */
+  .a .word{display:inline-block;margin-right:.22em}
+  .a h1{margin-top:44px}
+  .a .under{position:relative;display:inline-block}
+  .a .under::after{content:'';position:absolute;left:0;right:0;bottom:6px;height:16px;background:var(--orange);opacity:.25;border-radius:4px;transform:scaleX(0);transform-origin:left;animation:growX .7s var(--ease) 1.5s both}
+  /* Escena B: foto */
+  .b .photo{position:relative;height:1120px;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px rgba(24,31,33,.2)}
+  .b .photo img{width:100%;height:100%;object-fit:cover;object-position:62% center}
+  .b .photo::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(23,34,40,.85) 100%)}
+  .b .caption{position:absolute;left:52px;right:52px;bottom:56px;z-index:2;color:#fff}
+  .b .caption .h2{color:#fff;font-size:72px}
+  .b .chips{display:flex;flex-wrap:wrap;gap:16px;margin-top:30px}
+  .b .chip{background:rgba(255,254,250,.94);border-color:transparent}
+  .b .sticker{position:absolute;right:44px;top:52px;z-index:2;--rot:4deg}
+  /* Escena C: categorías */
+  .c .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:38px}
+  .c .cat{display:flex;align-items:center;gap:22px;padding:22px 26px;min-height:150px}
+  .c .cat img{width:120px;height:120px;object-fit:contain;mix-blend-mode:multiply}
+  .c .cat strong{display:block;font-size:34px;font-weight:700;letter-spacing:-.03em;line-height:1.15}
+  .c .cat span{display:block;font-size:24px;color:var(--muted);margin-top:8px;line-height:1.35}
+  .c .count{display:flex;align-items:baseline;gap:20px;margin-top:40px}
+  .c .count b{font-size:104px;font-weight:800;letter-spacing:-.06em;line-height:1;color:var(--orange)}
+  .c .count span{font-size:36px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="stage light">
+  <div class="topbar"></div>
+  <header class="brand in-down" style="--d:.1s"><img src="../assets/logo_cropped.png" alt="TallerLab"><span class="status"><i class="dot"></i>Herramientas en Argentina</span></header>
+  <footer class="url in-fade" style="--d:.6s"><div><b>tallerlab</b>.com.ar</div><span>Comparativas · Calculadoras · Precios</span></footer>
+
+  <!-- A · 0–4.4 s -->
+  <section class="scene a" style="--s:0s;--e:4.1s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:.25s">Portada</span>
+      <h1>
+        <span class="word in-up" style="--d:.5s">Herramientas</span>
+        <span class="word in-up" style="--d:.64s;color:var(--muted)">para</span><br>
+        <span class="word in-up accent" style="--d:.8s">trabajar</span>
+        <span class="word in-up accent under" style="--d:.95s">mejor.</span>
+      </h1>
+      <p class="lead in-up" style="--d:1.35s">Comparativas y calculadoras para elegir el equipo que tu trabajo necesita. Con datos, fuentes y criterio.</p>
+    </div>
+  </section>
+
+  <!-- B · 4.3–9.1 s -->
+  <section class="scene b" style="--s:4.3s;--e:8.8s">
+    <div class="scene-body">
+      <div class="photo in-clip" style="--d:4.4s;--dur:1.1s">
+        <img class="kb" style="animation-delay:4.4s" src="../assets/hero-taller-claro-v3.webp" alt="">
+        <div class="sticker in-pop" style="--d:5.5s">Con datos, fuentes<br>y criterio.</div>
+        <div class="caption">
+          <div class="h2 in-up" style="--d:5.2s">Del trabajo que tenés<br>al equipo que necesitás.</div>
+          <div class="chips">
+            <span class="chip in-up" style="--d:6.1s"><i></i>Comparativas</span>
+            <span class="chip in-up" style="--d:6.4s"><i></i>Calculadoras</span>
+            <span class="chip in-up" style="--d:6.7s"><i></i>Precios todos los días</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C · 9.0–13.3 s -->
+  <section class="scene c" style="--s:9s;--e:13s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:9.15s">01 / Categorías</span>
+      <div class="grid">
+        <div class="card cat in-up" style="--d:9.35s"><img src="../assets/productos/ingcocidli206684-962e2fdef9.webp" alt=""><div><strong>Taladros</strong><span>Perforación y atornillado</span></div></div>
+        <div class="card cat in-up" style="--d:9.47s"><img src="../assets/productos/lusqtofflc2550b8-ed19d06e8e.webp" alt=""><div><strong>Compresores</strong><span>Aire para cada herramienta</span></div></div>
+        <div class="card cat in-up" style="--d:9.59s"><img src="../assets/productos/dewaltdwe560-40a8fb62d7.webp" alt=""><div><strong>Sierras</strong><span>Madera, metal y tipos de corte</span></div></div>
+        <div class="card cat in-up" style="--d:9.71s"><img src="../assets/productos/lusqtoffaml8508-79bb71a188.webp" alt=""><div><strong>Amoladoras</strong><span>Corte, desbaste y discos</span></div></div>
+        <div class="card cat in-up" style="--d:9.83s"><img src="../assets/productos/lusqtoffhl120-89281b0422.webp" alt=""><div><strong>Hidrolavadoras</strong><span>Limpieza, caudal y presión</span></div></div>
+        <div class="card cat in-up" style="--d:9.95s"><img src="../assets/productos/lusqtofflg3000-4ce50bc801.webp" alt=""><div><strong>Generadores</strong><span>Energía y respaldo para tu uso</span></div></div>
+        <div class="card cat in-up" style="--d:10.07s"><img src="../assets/productos/lusqtoffmegairon1008-9c0c5a14a7.webp" alt=""><div><strong>Soldadoras</strong><span>Procesos, equipos y consumibles</span></div></div>
+        <div class="card cat in-up" style="--d:10.19s"><img src="../assets/productos/portada-real-soldadura-electronica-estacion-de-soldadura-fe40ab1529.webp" alt=""><div><strong>Soldadura electrónica</strong><span>Estaciones y reparación de placas</span></div></div>
+      </div>
+      <div class="count in-up" style="--d:10.6s"><b data-count="0,179,10.7,12.2">0</b><span>guías publicadas en 8 categorías</span></div>
+    </div>
+  </section>
+
+  <!-- D · 13.2–16 s -->
+  <section class="scene d cta" style="--s:13.2s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:13.3s">
+        <span class="kicker" style="color:var(--orange-light)">02 / Antes de comprar</span>
+        <div class="h2 in-up" style="--d:13.6s">Compará antes<br>de comprar.</div>
+        <p class="lead in-up" style="--d:13.85s">Opciones, diferencias y límites para decidir con el dato en la mano.</p>
+        <div class="in-up" style="--d:14.1s"><span class="btn">Ver comparativas <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:14.4s"><b>tallerlab</b>.com.ar</div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

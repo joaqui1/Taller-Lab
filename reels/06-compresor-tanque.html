@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 06 · El tanque no es el aire que entrega</title>
+<meta name="reel-duration" content="15">
+<meta name="reel-poster" content="2.3">
+<link rel="stylesheet" href="base.css">
+<style>
+  .a .layout{display:grid;grid-template-columns:1fr 380px;gap:20px;align-items:center}
+  .a h1{font-size:118px}
+  .a .photo{background:var(--bg-card);border-radius:16px;padding:20px;box-shadow:0 30px 60px rgba(0,0,0,.45);border-top:6px solid var(--orange)}
+  .a .photo img{width:340px;height:340px;object-fit:contain;mix-blend-mode:multiply}
+  .b .duo{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:40px}
+  .b .box{padding:40px 34px 34px;min-height:640px;display:flex;flex-direction:column}
+  .b .box .lab{font:600 24px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--orange-light)}
+  .b .box strong{display:block;font-size:46px;font-weight:800;letter-spacing:-.04em;line-height:1.1;margin:14px 0 24px}
+  .b .box p{font-size:28px;line-height:1.4;color:var(--muted-dark);margin-top:auto}
+  .b .tank{position:relative;width:100%;height:300px;border:6px solid rgba(255,255,255,.25);border-radius:60px;overflow:hidden;background:rgba(255,255,255,.04)}
+  .b .tank .water{position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(180deg,#ff874b,#ff5a0a);transform-origin:bottom;animation:growY 2s var(--ease) 4.7s both}
+  .b .tank .cap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:12px;white-space:nowrap;font-size:84px;font-weight:800;letter-spacing:-.06em;color:#fff;text-shadow:0 4px 20px rgba(0,0,0,.3)}
+  .b .flow{position:relative;height:300px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .b .flow .pipe{position:absolute;left:0;right:0;top:50%;height:60px;margin-top:-30px;border-radius:30px;background:rgba(255,255,255,.06);border:6px solid rgba(255,255,255,.25)}
+  .b .flow .puff{position:absolute;top:50%;width:70px;height:36px;margin-top:-18px;border-radius:18px;background:var(--orange);animation:flow 1.4s linear infinite;animation-delay:var(--d)}
+  @keyframes flow{from{left:-80px;opacity:0}15%{opacity:1}85%{opacity:1}to{left:100%;opacity:0}}
+  .b .flow .cap{position:relative;z-index:2;font-size:96px;font-weight:800;letter-spacing:-.06em;background:var(--bg-dark-2);padding:0 26px;border-radius:12px}
+  .b .flow .cap small{font-size:40px;letter-spacing:-.02em;color:var(--muted-dark)}
+  .c .line{font-size:104px;font-weight:800;letter-spacing:-.06em;line-height:1.04;padding:14px 0}
+</style>
+</head>
+<body>
+<div class="stage dark">
+  <div class="topbar"></div>
+  <header class="brand in-down" style="--d:.1s"><img src="../assets/logo_dark.png" alt="TallerLab"><span class="status"><i class="dot"></i>Compresores</span></header>
+  <footer class="url in-fade" style="--d:.6s"><div><b>tallerlab</b>.com.ar/compresores/50-litros/</div><span>Compresores</span></footer>
+
+  <!-- A · 0–3.6 s -->
+  <section class="scene a" style="--s:0s;--e:3.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:.2s">Compresores / 50 litros</span>
+      <div class="layout">
+        <h1 class="in-up" style="--d:.45s">El tanque <span class="accent">no es</span> el aire que entrega.</h1>
+        <div class="photo in-right" style="--d:.8s"><img class="float" src="../assets/productos/lusqtofflc2550b8-ed19d06e8e.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- B · 3.5–10 s -->
+  <section class="scene b" style="--s:3.5s;--e:9.7s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:3.65s">Dos números distintos</span>
+      <div class="h2 in-up" style="--d:3.85s">Cuánto guarda<br>vs. <span class="accent">cuánto entrega.</span></div>
+      <div class="duo">
+        <div class="card box in-up" style="--d:4.3s">
+          <span class="lab">Tanque</span>
+          <strong>Litros: lo que acumula.</strong>
+          <div class="tank"><div class="water"></div><div class="cap"><span data-count="0,50,4.7,6.7">0</span>&thinsp;L</div></div>
+          <p>Es el punto de partida. Un tanque grande no fabrica más aire.</p>
+        </div>
+        <div class="card box in-up" style="--d:4.6s">
+          <span class="lab">Caudal</span>
+          <strong>L/min: lo que entrega.</strong>
+          <div class="flow"><div class="pipe"></div><span class="puff" style="--d:5s"></span><span class="puff" style="--d:5.47s"></span><span class="puff" style="--d:5.93s"></span><div class="cap">L/<small>min</small></div></div>
+          <p>Compralo con el consumo de tu herramienta <b style="color:#fff">a la misma presión</b>.</p>
+        </div>
+      </div>
+      <p class="source in-up" style="--d:7.6s;margin-top:34px"><b>Regla de la guía:</b> contrastá suministro y consumo a la misma presión. El litraje solo no ordena los compresores.</p>
+    </div>
+  </section>
+
+  <!-- C · 9.9–12.4 s -->
+  <section class="scene c" style="--s:9.9s;--e:12.1s">
+    <div class="scene-body">
+      <div class="line in-left" style="--d:10.05s">Tanque ≠ caudal.</div>
+      <div class="line in-left" style="--d:10.5s">Misma presión.</div>
+      <div class="line in-left accent" style="--d:10.95s">Después, compará.</div>
+    </div>
+  </section>
+
+  <!-- D · 12.3–15 s -->
+  <section class="scene d cta" style="--s:12.3s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:12.4s;background:#2b3438">
+        <span class="kicker">Calculadora</span>
+        <div class="h2 in-up" style="--d:12.7s">Caudal del<br>compresor.</div>
+        <p class="lead in-up" style="--d:12.95s">Contrastá suministro y consumo a la misma presión antes de elegir el equipo.</p>
+        <div class="in-up" style="--d:13.2s"><span class="btn">Usar calculadora <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:13.5s"><b>tallerlab</b>.com.ar<small>/compresores/50-litros/</small></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

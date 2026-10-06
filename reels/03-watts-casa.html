@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reel 03 · Watts para tu casa</title>
+<meta name="reel-duration" content="16">
+<meta name="reel-poster" content="2.6">
+<link rel="stylesheet" href="base.css">
+<style>
+  .a h1{font-size:122px}
+  .a .sticker{margin-top:30px;--rot:-3deg}
+  .b .card{padding:44px 44px 36px;margin-top:36px}
+  .b .row{padding:30px 0;border-bottom:1px solid var(--border)}
+  .b .row:last-of-type{border:0}
+  .b .head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px}
+  .b .head strong{font-size:44px;font-weight:800;letter-spacing:-.04em}
+  .b .head span{font:600 28px/1 var(--mono);color:var(--muted)}
+  .b .bar{display:grid;grid-template-columns:200px 1fr 230px;align-items:center;gap:22px;margin-top:14px}
+  .b .bar .lab{font:600 22px/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .b .bar .track{height:30px;background:#efece6;border-radius:6px;overflow:hidden}
+  .b .bar .fill{height:100%;background:var(--text-2);border-radius:6px}
+  .b .bar.start .fill{background:var(--orange)}
+  .b .bar .v{font-size:40px;font-weight:800;letter-spacing:-.04em;text-align:right;white-space:nowrap}
+  .b .bar.start .v{color:var(--orange)}
+  .b .note{margin-top:28px;padding-top:24px;border-top:1px dashed var(--border)}
+  .c .step{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;padding:30px 0;border-bottom:1px solid var(--border)}
+  .c .step:last-child{border:0}
+  .c .step .num{font-size:48px;padding-top:12px}
+  .c .step .h3{font-size:62px}
+  .c .step p{font-size:34px;color:var(--muted);margin-top:10px;line-height:1.4}
+</style>
+</head>
+<body>
+<div class="stage light">
+  <div class="topbar"></div>
+  <header class="brand in-down" style="--d:.1s"><img src="../assets/logo_cropped.png" alt="TallerLab"><span class="status"><i class="dot"></i>Calculadoras</span></header>
+  <footer class="url in-fade" style="--d:.6s"><div><b>tallerlab</b>.com.ar/generadores/para-casa/</div><span>Generadores</span></footer>
+
+  <!-- A · 0–3.6 s -->
+  <section class="scene a" style="--s:0s;--e:3.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:.2s">Generadores / Para la casa</span>
+      <h1 class="in-up" style="--d:.45s">¿Cuántos <span class="accent">watts</span> necesita tu casa en un corte?</h1>
+      <div><span class="sticker paper in-pop" style="--d:1.5s">Marcha ≠ arranque</span></div>
+    </div>
+  </section>
+
+  <!-- B · 3.5–10.6 s -->
+  <section class="scene b" style="--s:3.5s;--e:10.3s">
+    <div class="scene-body">
+      <span class="kicker in-left" style="--d:3.65s">Ejemplo documentado</span>
+      <div class="h2 in-up" style="--d:3.85s">El pico de arranque<br><span class="accent">no sale</span> de la etiqueta.</div>
+      <div class="card top-orange in-up" style="--d:4.2s">
+        <div class="row">
+          <div class="head in-up" style="--d:4.5s"><strong>Heladera</strong><span>150 W en placa</span></div>
+          <div class="bar in-fade" style="--d:4.7s"><span class="lab">Trabajo</span><div class="track"><div class="fill grow-x" style="--d:4.8s;--dur:1.1s;width:40%"></div></div><span class="v"><span data-count="0,300,4.8,5.9">0</span> VA</span></div>
+          <div class="bar start in-fade" style="--d:5.3s"><span class="lab">Arranque</span><div class="track"><div class="fill grow-x" style="--d:5.4s;--dur:1.3s;width:100%"></div></div><span class="v"><span data-count="0,450,5.4,6.7">0</span>–<span data-count="0,750,5.4,6.7">0</span> VA</span></div>
+        </div>
+        <div class="row">
+          <div class="head in-up" style="--d:6.6s"><strong>Lámpara fluorescente</strong><span>40 W en placa</span></div>
+          <div class="bar in-fade" style="--d:6.8s"><span class="lab">Trabajo</span><div class="track"><div class="fill grow-x" style="--d:6.9s;--dur:.9s;width:8%"></div></div><span class="v"><span data-count="0,60,6.9,7.8">0</span> VA</span></div>
+          <div class="bar start in-fade" style="--d:7.2s"><span class="lab">Arranque</span><div class="track"><div class="fill grow-x" style="--d:7.3s;--dur:.9s;width:10.7%"></div></div><span class="v"><span data-count="0,80,7.3,8.2">0</span> VA</span></div>
+        </div>
+        <p class="source note in-up" style="--d:8.3s"><b>Cuadro de ejemplo del manual Lüsqtoff LG2500.</b> El propio manual lo presenta como estimado: no son valores universales de todas las heladeras o lámparas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- C · 10.5–13.4 s -->
+  <section class="scene c" style="--s:10.5s;--e:13.1s">
+    <div class="scene-body">
+      <div class="step in-left" style="--d:10.65s"><span class="num">01</span><div><div class="h3">Sumá lo que anda en simultáneo.</div><p>Potencia de marcha, aparato por aparato.</p></div></div>
+      <div class="step in-left" style="--d:11.2s"><span class="num">02</span><div><div class="h3">Prevé un arranque a la vez.</div><p>El resto queda en marcha.</p></div></div>
+      <div class="step in-left" style="--d:11.75s"><span class="num">03</span><div><div class="h3 accent">Pedí el dato de placa o manual.</div><p>Sin arranque documentado no hay pico que estimar.</p></div></div>
+    </div>
+  </section>
+
+  <!-- D · 13.3–16 s -->
+  <section class="scene d cta" style="--s:13.3s;--e:99s">
+    <div class="scene-body">
+      <div class="panel in-up" style="--d:13.4s">
+        <span class="kicker" style="color:var(--orange-light)">Calculadora</span>
+        <div class="h2 in-up" style="--d:13.7s">Potencia para<br>tu casa.</div>
+        <p class="lead in-up" style="--d:13.95s">Sumá cargas de marcha y explorá un escenario de arranque, con los supuestos explicados.</p>
+        <div class="in-up" style="--d:14.2s"><span class="btn">Usar calculadora <span class="arrow">→</span></span></div>
+        <div class="big-url in-up" style="--d:14.5s"><b>tallerlab</b>.com.ar<small>/generadores/para-casa/</small></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="reel.js"></script>
+</body>
+</html>

@@ -55,6 +55,7 @@ backup_observatorio_*
 /tests/
 /investigacion-autoridad/
 /compresor-reel*/
+/reels/
 /vista-fotos/
 /analisis-*/
 /.github/
