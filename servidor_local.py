@@ -1018,6 +1018,13 @@ validate_published_links()
 def absolute_url(path):
     return SITE_URL + path
 
+# Perfiles oficiales de la marca (sameAs y pie de página). Solo cuentas activas.
+SOCIAL_PROFILES = (
+    ("Instagram", "https://www.instagram.com/tallerlabarg/"),
+    ("TikTok", "https://www.tiktok.com/@tallerlab"),
+    ("YouTube", "https://www.youtube.com/channel/UCOUGV2YAHP6joTT00_2hjIg"),
+)
+
 def organization_schema():
     return {
         "@type": "Organization",
@@ -1032,6 +1039,7 @@ def organization_schema():
             "caption": "TallerLab",
         },
         "description": "Guías de herramientas y equipamiento para Argentina basadas en investigación documental, comparación de fuentes y cálculos explicados.",
+        "sameAs": [url for _, url in SOCIAL_PROFILES],
     }
 
 def get_tallerlab_data_meta(path):
@@ -2161,6 +2169,7 @@ HTML_SHELL = """<!DOCTYPE html>
       <p><strong>TallerLab</strong> · Guías técnicas y comparativas de especificaciones para elegir herramientas en Argentina.</p>
       <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Guías técnicas para elegir mejor cada herramienta.</p>
       <p><a href="/comunidad/">Comunidad</a> · <a href="/compatibilidad/">Compatibilidad de baterías</a> · <a href="/alertas/">Documentación y alertas</a> · <a href="/como-trabajamos/">Metodología</a> · <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani · Autor</a> · <a href="/contacto/">Contacto</a> · <a href="/privacidad/">Privacidad</a></p>
+      <p>Seguinos: <a href="https://www.instagram.com/tallerlabarg/" rel="me noopener" target="_blank">Instagram</a> · <a href="https://www.tiktok.com/@tallerlab" rel="me noopener" target="_blank">TikTok</a> · <a href="https://www.youtube.com/channel/UCOUGV2YAHP6joTT00_2hjIg" rel="me noopener" target="_blank">YouTube</a></p>
     </div>
   </footer>
 </body>
