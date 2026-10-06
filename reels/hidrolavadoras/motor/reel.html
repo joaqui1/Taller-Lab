@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>TallerLab · Reels hidrolavadoras · motor</title>
+<style>
+@font-face { font-family: 'Plus Jakarta Sans'; src: url('fonts/PlusJakartaSans.ttf') format('truetype'); font-weight: 200 800; }
+@font-face { font-family: 'JetBrains Mono'; src: url('fonts/JetBrainsMono.ttf') format('truetype'); font-weight: 100 800; }
+@font-face { font-family: 'Caveat'; src: url('fonts/Caveat.ttf') format('truetype'); font-weight: 400 700; }
+:root {
+  --ink: #20272b; --ink-2: #252d30; --ink-3: #2d3539; --paper: #f4f2ed; --paper-2: #e9e6df;
+  --orange: #ff5a0a; --orange-2: #ff874b; --orange-bg: #fff0e5; --muted: #b5bfbd; --muted-2: #8a9492;
+  --water: #cfe8ff;
+}
+html, body { margin: 0; padding: 0; background: #000; }
+body { width: 1080px; height: 1920px; overflow: hidden; font-family: 'Plus Jakarta Sans', sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+#stage { position: absolute; inset: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--ink); }
+#cam { position: absolute; inset: 0; transform-origin: 540px 960px; will-change: transform; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+#bg { background: radial-gradient(120% 80% at 50% 20%, #2a3237 0%, #20272b 45%, #171c1f 100%); }
+#photo { overflow: hidden; opacity: 0; }
+#photo img { position: absolute; left: 50%; top: 50%; width: 2880px; height: 1920px; margin: -960px 0 0 -1440px; object-fit: cover; filter: saturate(.85) brightness(.7); transform-origin: 50% 50%; }
+#photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(32,39,43,.97) 0%, rgba(32,39,43,.86) 42%, rgba(32,39,43,.55) 70%, rgba(32,39,43,.92) 100%); }
+#hatch { background: repeating-linear-gradient(125deg, transparent 0 60px, rgba(255,255,255,.022) 61px 62px); opacity: 1; }
+#leak { background: radial-gradient(closest-side, rgba(255,90,10,.26), rgba(255,90,10,0)); width: 1400px; height: 1400px; left: -160px; top: 300px; filter: blur(30px); mix-blend-mode: screen; }
+#vignette { background: radial-gradient(90% 70% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%); }
+#grain { opacity: .075; mix-blend-mode: overlay; }
+#flash { background: #fff; opacity: 0; }
+#progress { position: absolute; left: 0; bottom: 0; height: 10px; background: var(--orange); width: 0; box-shadow: 0 0 24px rgba(255,90,10,.6); }
+#meta { position: absolute; left: 80px; right: 80px; top: 262px; display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 24px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted-2); font-weight: 600; }
+#meta b { color: var(--orange-2); font-weight: 700; }
+#foot { position: absolute; left: 80px; bottom: 300px; font-family: 'JetBrains Mono', monospace; font-size: 24px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-2); font-weight: 600; }
+#foot i { display: inline-block; width: 34px; height: 4px; background: var(--orange); vertical-align: middle; margin-right: 16px; }
+.abs { position: absolute; }
+.kicker { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 28px; letter-spacing: .2em; text-transform: uppercase; color: var(--orange-2); }
+.kicker::before { content: ''; display: inline-block; width: 44px; height: 5px; background: var(--orange); vertical-align: middle; margin-right: 20px; transform: translateY(-3px); }
+.hook { position: absolute; left: 80px; right: 80px; top: 540px; }
+.hook .line { font-weight: 800; font-size: 150px; line-height: .98; letter-spacing: -.055em; white-space: nowrap; display: block; }
+.hook .line.accent { color: var(--orange); }
+.hook .w { display: inline-block; will-change: transform, opacity, filter; }
+.hook .line.small { font-size: 92px; font-weight: 700; letter-spacing: -.04em; color: #d3d8d8; }
+.title { position: absolute; left: 80px; right: 80px; }
+.title h2 { margin: 0; font-weight: 800; font-size: 96px; line-height: 1.02; letter-spacing: -.05em; }
+.title h2 .accent { color: var(--orange); }
+.title p { margin: 28px 0 0; font-size: 42px; line-height: 1.35; color: #d3d8d8; font-weight: 500; max-width: 900px; }
+.title p b { color: #fff; font-weight: 700; }
+.bar-left { position: absolute; left: 0; top: 0; bottom: 0; width: 10px; background: var(--orange); transform-origin: top; }
+.card { position: absolute; left: 80px; width: 920px; background: var(--ink-2); border-left: 10px solid var(--orange); border-radius: 6px; box-shadow: 0 40px 80px rgba(0,0,0,.45); overflow: hidden; }
+.card .ph { position: absolute; right: 30px; top: 30px; width: 380px; height: 420px; display: flex; align-items: center; justify-content: center; }
+.card .ph img { max-width: 100%; max-height: 100%; filter: drop-shadow(0 30px 40px rgba(0,0,0,.55)); }
+.card .brand { font-family: 'JetBrains Mono', monospace; font-size: 24px; letter-spacing: .18em; text-transform: uppercase; color: var(--orange-2); font-weight: 700; }
+.card .model { font-weight: 800; font-size: 54px; letter-spacing: -.04em; line-height: 1.05; margin-top: 14px; max-width: 480px; }
+.card .code { font-family: 'JetBrains Mono', monospace; font-size: 22px; color: var(--muted-2); margin-top: 12px; letter-spacing: .06em; }
+.card .body { padding: 40px 40px 40px 44px; position: relative; min-height: 420px; }
+.chips { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; max-width: 500px; }
+.chip { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; background: #1a2023; border: 1px solid #3b4549; padding: 14px 18px; border-radius: 4px; color: #e6eae9; letter-spacing: .02em; }
+.chip.accent { background: var(--orange); border-color: var(--orange); color: #182023; }
+.chip.dim { color: var(--muted-2); text-decoration: line-through; text-decoration-color: var(--orange); text-decoration-thickness: 3px; }
+.card .note { margin: 34px 44px 40px; padding: 22px 26px; background: #1a2023; border-left: 5px solid var(--orange); color: #d3d8d8; font-size: 30px; line-height: 1.35; font-weight: 500; }
+.card .note b { color: #fff; }
+.bignum { position: absolute; left: 80px; right: 80px; display: flex; gap: 40px; align-items: stretch; }
+.bignum .col { flex: 1; background: var(--ink-2); border-top: 10px solid var(--muted-2); padding: 44px 40px 48px; border-radius: 4px; }
+.bignum .col.accent { border-top-color: var(--orange); }
+.bignum .lab { font-family: 'JetBrains Mono', monospace; font-size: 25px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.bignum .col.accent .lab { color: var(--orange-2); }
+.bignum .num { font-weight: 800; font-size: 170px; letter-spacing: -.07em; line-height: 1; margin-top: 18px; font-variant-numeric: tabular-nums; }
+.bignum .num small { font-size: 48px; letter-spacing: -.02em; margin-left: 10px; color: var(--muted); font-weight: 700; }
+.bignum .col.accent .num { color: var(--orange); }
+.bignum .sub { font-size: 32px; color: #d3d8d8; margin-top: 18px; line-height: 1.3; font-weight: 500; }
+.list { position: absolute; left: 80px; right: 80px; }
+.list .row { display: flex; align-items: flex-start; gap: 30px; padding: 22px 0; border-bottom: 1px solid #3b4549; }
+.list .n { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 30px; color: var(--orange); width: 64px; flex: 0 0 64px; padding-top: 12px; letter-spacing: .05em; }
+.list .tx { font-size: 41px; font-weight: 700; letter-spacing: -.025em; line-height: 1.15; }
+.list .tx small { display: block; font-size: 28px; font-weight: 500; color: var(--muted); margin-top: 6px; letter-spacing: 0; line-height: 1.28; }
+.list .ck { flex: 0 0 64px; width: 64px; height: 64px; margin-left: auto; }
+.list.no .ck path { stroke: #ff3b3b; }
+.verdict { position: absolute; left: 80px; right: 80px; }
+.verdict .line { font-weight: 800; font-size: 86px; letter-spacing: -.05em; line-height: 1.02; margin-bottom: 34px; padding-left: 36px; border-left: 12px solid var(--orange); }
+.verdict .line.dim { color: var(--muted); font-weight: 600; font-size: 60px; border-left-color: #3b4549; }
+.verdict .line .accent { color: var(--orange); }
+.outro { position: absolute; inset: 0; }
+.outro .logo { position: absolute; left: 50%; top: 700px; width: 720px; margin-left: -360px; }
+.outro .cta { position: absolute; left: 80px; right: 80px; top: 960px; text-align: center; font-size: 46px; font-weight: 700; letter-spacing: -.02em; color: #d3d8d8; }
+.outro .url { position: absolute; left: 80px; right: 80px; top: 1060px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 34px; font-weight: 700; color: #fff; letter-spacing: .02em; }
+.outro .url span { display: inline-block; background: var(--orange); color: #182023; padding: 22px 34px; border-radius: 5px; }
+.outro .sticker { position: absolute; left: 50%; top: 1230px; transform: translateX(-50%) rotate(-3deg); font-family: 'Caveat', cursive; font-weight: 700; font-size: 60px; color: #ffd6c0; background: rgba(28,34,37,.9); border: 2px solid rgba(255,115,40,.7); padding: 18px 40px; border-radius: 6px; white-space: normal; max-width: 860px; text-align: center; line-height: 1.15; }
+.sticker-float { position: absolute; font-family: 'Caveat', cursive; font-weight: 700; font-size: 58px; color: #ffd6c0; background: rgba(28,34,37,.92); border: 2px solid rgba(255,115,40,.7); padding: 14px 32px; border-radius: 6px; white-space: nowrap; box-shadow: 0 20px 40px rgba(0,0,0,.4); }
+.split { position: absolute; left: 80px; right: 80px; display: flex; gap: 30px; }
+.split .col { flex: 1; background: var(--ink-2); border-radius: 6px; padding: 36px 34px 30px; border-top: 10px solid #2ecc71; }
+.split .col.no { border-top-color: #ff3b3b; }
+.split h3 { margin: 0 0 18px; font-size: 60px; font-weight: 800; letter-spacing: -.04em; color: #2ecc71; }
+.split .col.no h3 { color: #ff3b3b; }
+.split li { list-style: none; font-size: 34px; font-weight: 600; line-height: 1.25; padding: 16px 0; border-bottom: 1px solid #3b4549; letter-spacing: -.01em; }
+.split ul { margin: 0; padding: 0; }
+.bars { position: absolute; left: 80px; right: 80px; }
+.bars .row { margin-bottom: 36px; }
+.bars .lab { display: flex; justify-content: space-between; align-items: baseline; font-size: 36px; font-weight: 700; letter-spacing: -.02em; margin-bottom: 12px; }
+.bars .lab small { font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--muted-2); font-weight: 600; letter-spacing: .06em; }
+.bars .track { position: relative; height: 34px; background: #1a2023; border-radius: 3px; overflow: hidden; margin-bottom: 10px; }
+.bars .fill { position: absolute; left: 0; top: 0; bottom: 0; background: #7f8a8e; border-radius: 3px; transform-origin: left; }
+.bars .fill.b { background: var(--orange); }
+.bars .val { position: absolute; right: 14px; top: 0; line-height: 34px; font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 800; color: #fff; }
+.legend { position: absolute; left: 80px; right: 80px; display: flex; gap: 40px; font-family: 'JetBrains Mono', monospace; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.legend i { display: inline-block; width: 30px; height: 16px; vertical-align: middle; margin-right: 12px; background: #7f8a8e; border-radius: 2px; }
+.legend i.b { background: var(--orange); }
+canvas.fx { position: absolute; left: 0; top: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="cam">
+    <div id="bg" class="layer"></div>
+    <div id="photo" class="layer"><img src="../../../assets/editorial/hidrolavadoras.webp" alt=""></div>
+    <div id="hatch" class="layer"></div>
+    <div id="leak" class="abs"></div>
+    <canvas id="fxback" class="fx" width="1080" height="1920"></canvas>
+    <div id="content" class="layer"></div>
+    <canvas id="fxfront" class="fx" width="1080" height="1920"></canvas>
+    <div id="vignette" class="layer"></div>
+  </div>
+  <canvas id="grain" class="layer" width="270" height="480" style="width:1080px;height:1920px;"></canvas>
+  <div id="flash" class="layer"></div>
+  <div id="meta"><span>TallerLab <b>·</b> Hidrolavadoras</span><span id="metaR"></span></div>
+  <div id="foot"><i></i>tallerlab.com.ar</div>
+  <div id="progress"></div>
+</div>
+<script>
+// ------------------------------------------------------------------
+// Motor determinista: todo se calcula en función de t (segundos).
+// ------------------------------------------------------------------
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const E = {
+  lin: t => t,
+  out: t => 1 - Math.pow(1 - t, 3),
+  outQuint: t => 1 - Math.pow(1 - t, 5),
+  outExpo: t => t >= 1 ? 1 : 1 - Math.pow(2, -10 * t),
+  in: t => t * t * t,
+  inOut: t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2,
+  outBack: t => { const c = 1.70158; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); },
+};
+const ramp = (t, t0, t1, ease = E.out) => ease(clamp((t - t0) / Math.max(1e-6, t1 - t0), 0, 1));
+// vida de un elemento: entrada / salida
+const life = (t, tIn, tOut, dIn = .5, dOut = .35) => ({
+  on: t >= tIn && t <= tOut + dOut,
+  p: ramp(t, tIn, tIn + dIn, E.outQuint),
+  q: ramp(t, tOut, tOut + dOut, E.in),
+});
+function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+const $ = s => document.querySelector(s);
+const content = $('#content');
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const fmt = n => n.toLocaleString('es-AR');
+function fit(node, maxW) { // reduce font-size hasta que el contenido (no el bloque) entre
+  const width = () => { const r = document.createRange(); r.selectNodeContents(node); return r.getBoundingClientRect().width; };
+  let fs = parseFloat(getComputedStyle(node).fontSize);
+  for (let i = 0; i < 40 && width() > maxW && fs > 30; i++) { fs -= 3; node.style.fontSize = fs + 'px'; }
+}
+
+const EVENTS = [];           // para el sound design: {t, type, ...}
+const ev = (t, type, extra = {}) => EVENTS.push(Object.assign({ t: +t.toFixed(3), type }, extra));
+const SHAKES = [];           // {t, amp}
+const shake = (t, amp = 1) => SHAKES.push({ t, amp });
+const FLASHES = [];          // {t, amp}
+const flash = (t, amp = .35) => FLASHES.push({ t, amp });
+const SCENES = [];           // {t0, t1} para el push-in de cámara
+const PHOTO = [];            // {t0, t1} ventanas en las que se ve la foto editorial
+const LAYERS = [];
+const FX = [];               // dibujos en canvas: {t0, t1, draw(ctx, t, back)}
+
+// ---------------- componentes ----------------
+function hook({ t0, t1, kicker, lines, stagger = .42, spray = true, kickerDelay = 0 }) {
+  const root = el('div', 'hook'); content.appendChild(root);
+  const k = el('div', 'kicker', kicker); k.style.marginBottom = '34px'; root.appendChild(k);
+  const words = []; let ti = t0 + .08;
+  lines.forEach((ln, li) => {
+    const line = el('div', 'line' + (ln.accent ? ' accent' : '') + (ln.small ? ' small' : ''));
+    ln.text.split(' ').forEach((w, wi) => {
+      const s = el('span', 'w', w); line.appendChild(s); line.appendChild(document.createTextNode(' '));
+      words.push({ s, t: ti + wi * .09 });
+    });
+    root.appendChild(line); fit(line, 850);
+    ev(ti, 'slam', { n: li, accent: !!ln.accent }); shake(ti, ln.accent ? 1.6 : 1.0); if (ln.accent) flash(ti, .3);
+    ti += stagger + (ln.text.split(' ').length - 1) * .09;
+  });
+  const tEnd = ti;
+  if (spray) { FX.push(sprayFX({ t0: t0 - .2, t1: t1 + .4, x: 1120, y: 1500, dir: -2.35, back: true })); ev(t0, 'spray', { dur: t1 - t0 + .3, mode: 'hook' }); }
+  PHOTO.push({ t0, t1 });
+  SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1, .5, .3); if (!L.on) return false;
+    k.style.opacity = ramp(t, t0 + kickerDelay, t0 + kickerDelay + .35);
+    k.style.transform = `translateY(${lerp(20, 0, ramp(t, t0 + kickerDelay, t0 + kickerDelay + .35))}px)`;
+    words.forEach(w => {
+      const p = ramp(t, w.t, w.t + .36, E.outQuint);
+      w.s.style.opacity = p;
+      w.s.style.transform = `translateY(${lerp(60, 0, p)}px) scale(${lerp(1.5, 1, p)})`;
+      w.s.style.filter = `blur(${lerp(16, 0, p)}px)`;
+    });
+    const grow = 1 + 0.07 * ramp(t, t0, t1, E.lin);
+    root.style.transformOrigin = '0 60%';
+    root.style.opacity = 1 - L.q; root.style.transform = `translateY(${-80 * L.q}px) scale(${grow})`;
+    return true;
+  } });
+  return tEnd;
+}
+
+function title({ t0, t1, top = 520, kicker, h, p }) {
+  const root = el('div', 'title'); root.style.top = top + 'px'; content.appendChild(root);
+  const k = el('div', 'kicker', kicker || ''); root.appendChild(k);
+  const h2 = el('h2', '', h); h2.style.marginTop = '30px'; root.appendChild(h2);
+  const pe = p ? el('p', '', p) : null; if (pe) root.appendChild(pe);
+  ev(t0, 'whoosh'); SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1); if (!L.on) return false;
+    const a = ramp(t, t0, t0 + .4), b = ramp(t, t0 + .12, t0 + .6, E.outQuint), c = ramp(t, t0 + .35, t0 + .8);
+    k.style.opacity = a; k.style.transform = `translateX(${lerp(-30, 0, a)}px)`;
+    h2.style.opacity = b; h2.style.transform = `translateY(${lerp(50, 0, b)}px)`; h2.style.filter = `blur(${lerp(10, 0, b)}px)`;
+    if (pe) { pe.style.opacity = c; pe.style.transform = `translateY(${lerp(30, 0, c)}px)`; }
+    root.style.opacity = 1 - L.q; root.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+// Tarjeta de producto, estilo offer-card del sitio
+function product({ t0, t1, top = 560, img, brand, model, code, chips, note, from = 'right' }) {
+  const root = el('div', 'card'); root.style.top = top + 'px'; content.appendChild(root);
+  const body = el('div', 'body'); root.appendChild(body);
+  body.appendChild(el('div', 'brand', brand));
+  body.appendChild(el('div', 'model', model));
+  if (code) body.appendChild(el('div', 'code', code));
+  const ch = el('div', 'chips'); body.appendChild(ch);
+  const chipEls = chips.map((c, i) => { const e = el('div', 'chip' + (c.accent ? ' accent' : '') + (c.dim ? ' dim' : ''), c.t); ch.appendChild(e); return { e, t: t0 + .55 + i * .14 }; });
+  const ph = el('div', 'ph'); const im = el('img'); im.src = 'recortes/' + img; ph.appendChild(im); body.appendChild(ph);
+  const nt = note ? el('div', 'note', note) : null; if (nt) root.appendChild(nt);
+  ev(t0, 'whoosh'); ev(t0 + .3, 'thud'); chipEls.forEach(c => ev(c.t, 'tick'));
+  if (nt) ev(t0 + 1.1, 'pop');
+  SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1, .6, .3); if (!L.on) return false;
+    const p = ramp(t, t0, t0 + .6, E.outQuint);
+    const dx = from === 'right' ? 1 : -1;
+    root.style.transform = `translateX(${lerp(dx * 1100, 0, p)}px) translateY(${-50 * L.q}px) rotate(${lerp(dx * 3, 0, p)}deg)`;
+    root.style.opacity = 1 - L.q;
+    const f = ramp(t, t0 + .3, t0 + .9, E.outBack);
+    im.style.transform = `translateY(${lerp(80, 0, f) + Math.sin((t - t0) * 1.6) * 6}px) scale(${lerp(.7, 1, f)})`; im.style.opacity = ramp(t, t0 + .3, t0 + .6);
+    chipEls.forEach(c => { const q = ramp(t, c.t, c.t + .3, E.outBack); c.e.style.opacity = q; c.e.style.transform = `translateY(${lerp(18, 0, q)}px) scale(${lerp(.8, 1, q)})`; });
+    if (nt) { const q = ramp(t, t0 + 1.1, t0 + 1.5); nt.style.opacity = q; nt.style.transform = `translateY(${lerp(20, 0, q)}px)`; }
+    return true;
+  } });
+}
+
+// Dos cifras grandes enfrentadas
+function bignum({ t0, t1, top = 640, left, right, kicker, under }) {
+  const wrap = el('div', 'abs'); wrap.style.cssText = `left:0;right:0;top:${top}px`; content.appendChild(wrap);
+  const k = el('div', 'kicker', kicker || ''); k.style.cssText = 'position:absolute;left:80px;top:-80px'; wrap.appendChild(k);
+  const root = el('div', 'bignum'); root.style.top = '0px'; wrap.appendChild(root);
+  const mk = (d, cls) => { const c = el('div', 'col' + (d.accent ? ' accent' : '') + ' ' + cls); c.appendChild(el('div', 'lab', d.lab)); const n = el('div', 'num', ''); c.appendChild(n); c.appendChild(el('div', 'sub', d.sub || '')); root.appendChild(c); return { c, n, d }; };
+  const A = mk(left, 'l'), B = mk(right, 'r');
+  const un = under ? el('div', '', under) : null; if (un) { un.style.cssText = 'position:absolute;left:80px;right:80px;top:560px;font-size:40px;line-height:1.3;color:#d3d8d8;font-weight:500'; wrap.appendChild(un); }
+  ev(t0, 'whoosh'); ev(t0 + .25, 'thud'); ev(t0 + .75, 'thud'); ev(t0 + .3, 'count', { dur: .9 }); if (un) ev(t0 + 1.4, 'pop');
+  SCENES.push({ t0, t1 });
+  LAYERS.push({ el: wrap, update(t) {
+    const L = life(t, t0, t1, .6, .3); if (!L.on) return false;
+    k.style.opacity = ramp(t, t0, t0 + .3);
+    [A, B].forEach((X, i) => {
+      const p = ramp(t, t0 + i * .5, t0 + i * .5 + .5, E.outQuint);
+      X.c.style.opacity = p; X.c.style.transform = `translateY(${lerp(80, 0, p)}px)`;
+      const c = ramp(t, t0 + .3 + i * .5, t0 + 1.2 + i * .5, E.outExpo);
+      const v = X.d.from != null ? lerp(X.d.from, X.d.num, c) : X.d.num * c;
+      X.n.innerHTML = (X.d.fmt ? X.d.fmt(v) : Math.round(v)) + (X.d.unit ? `<small>${X.d.unit}</small>` : '');
+    });
+    if (un) { const q = ramp(t, t0 + 1.4, t0 + 1.8); un.style.opacity = q; un.style.transform = `translateY(${lerp(20, 0, q)}px)`; }
+    wrap.style.opacity = 1 - L.q; wrap.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+function checklist({ t0, t1, top = 540, kicker, h, items, stagger = .5, no = false }) {
+  const root = el('div', 'list' + (no ? ' no' : '')); root.style.top = top + 'px'; content.appendChild(root);
+  const k = el('div', 'kicker', kicker || ''); root.appendChild(k);
+  const h2 = el('h2', '', h || ''); h2.style.cssText = 'margin:26px 0 20px;font-weight:800;font-size:84px;line-height:1.02;letter-spacing:-.05em'; root.appendChild(h2);
+  const rows = items.map((it, i) => {
+    const r = el('div', 'row'); r.appendChild(el('div', 'n', String(i + 1).padStart(2, '0')));
+    const tx = el('div', 'tx', it.t + (it.s ? `<small>${it.s}</small>` : '')); r.appendChild(tx);
+    const ck = el('div', 'ck'); ck.innerHTML = no
+      ? `<svg viewBox="0 0 64 64" width="64" height="64"><path d="M14 14 L50 50 M50 14 L14 50" fill="none" stroke="#ff3b3b" stroke-width="7" stroke-linecap="round" stroke-dasharray="110" stroke-dashoffset="110"/></svg>`
+      : `<svg viewBox="0 0 64 64" width="64" height="64"><path d="M12 34 L26 48 L54 16" fill="none" stroke="#ff5a0a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="80" stroke-dashoffset="80"/></svg>`;
+    r.appendChild(ck); root.appendChild(r);
+    const tt = t0 + .7 + i * stagger; ev(tt, 'tick'); ev(tt + .22, no ? 'buzz' : 'ding');
+    return { r, path: ck.querySelector('path'), t: tt };
+  });
+  ev(t0, 'whoosh'); SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1, .5, .3); if (!L.on) return false;
+    const a = ramp(t, t0, t0 + .35); k.style.opacity = a; k.style.transform = `translateX(${lerp(-30, 0, a)}px)`;
+    const b = ramp(t, t0 + .1, t0 + .55, E.outQuint); h2.style.opacity = b; h2.style.transform = `translateY(${lerp(40, 0, b)}px)`;
+    rows.forEach(R => {
+      const p = ramp(t, R.t, R.t + .45, E.outQuint); R.r.style.opacity = p; R.r.style.transform = `translateX(${lerp(60, 0, p)}px)`;
+      const c = ramp(t, R.t + .22, R.t + .55, E.outQuint); R.path.style.strokeDashoffset = (no ? 110 : 80) * (1 - c);
+    });
+    root.style.opacity = 1 - L.q; root.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+function verdict({ t0, t1, top = 620, kicker, lines }) {
+  const root = el('div', 'verdict'); root.style.top = top + 'px'; content.appendChild(root);
+  const k = el('div', 'kicker', kicker || ''); k.style.marginBottom = '40px'; root.appendChild(k);
+  const ls = lines.map((l, i) => { const e = el('div', 'line' + (l.dim ? ' dim' : ''), l.t); root.appendChild(e); fit(e, 900); const tt = t0 + .35 + i * .55; ev(tt, l.dim ? 'pop' : 'slam', { n: i }); if (!l.dim) shake(tt, .8); return { e, t: tt }; });
+  ev(t0, 'whoosh'); SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1, .5, .3); if (!L.on) return false;
+    k.style.opacity = ramp(t, t0, t0 + .3);
+    ls.forEach(l => { const p = ramp(t, l.t, l.t + .45, E.outQuint); l.e.style.opacity = p; l.e.style.transform = `translateX(${lerp(-70, 0, p)}px)`; l.e.style.filter = `blur(${lerp(8, 0, p)}px)`; });
+    root.style.opacity = 1 - L.q; root.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+function split({ t0, t1, top = 600, kicker, h, yes, no }) {
+  const wrap = el('div', 'abs'); wrap.style.cssText = `left:0;right:0;top:${top}px`; content.appendChild(wrap);
+  const k = el('div', 'kicker', kicker || ''); k.style.cssText = 'position:absolute;left:80px;top:0'; wrap.appendChild(k);
+  const h2 = el('h2', '', h || ''); h2.style.cssText = 'position:absolute;left:80px;right:80px;top:60px;margin:0;font-weight:800;font-size:84px;line-height:1.02;letter-spacing:-.05em'; wrap.appendChild(h2);
+  const root = el('div', 'split'); root.style.top = '260px'; wrap.appendChild(root);
+  const mk = (d, cls) => { const c = el('div', 'col ' + cls); c.appendChild(el('h3', '', d.h)); const ul = el('ul'); d.items.forEach(x => ul.appendChild(el('li', '', x))); c.appendChild(ul); root.appendChild(c); return { c, lis: [...ul.children] }; };
+  const A = mk(yes, 'yes'), B = mk(no, 'no');
+  ev(t0, 'whoosh'); ev(t0 + .5, 'ding'); ev(t0 + 1.0, 'buzz');
+  A.lis.forEach((_, i) => ev(t0 + .7 + i * .18, 'tick')); B.lis.forEach((_, i) => ev(t0 + 1.2 + i * .18, 'tick'));
+  SCENES.push({ t0, t1 });
+  LAYERS.push({ el: wrap, update(t) {
+    const L = life(t, t0, t1, .5, .3); if (!L.on) return false;
+    k.style.opacity = ramp(t, t0, t0 + .3);
+    const b = ramp(t, t0 + .05, t0 + .5, E.outQuint); h2.style.opacity = b; h2.style.transform = `translateY(${lerp(40, 0, b)}px)`;
+    [[A, .5, -1], [B, 1.0, 1]].forEach(([X, d, s]) => { const p = ramp(t, t0 + d, t0 + d + .5, E.outQuint); X.c.style.opacity = p; X.c.style.transform = `translateX(${lerp(s * 120, 0, p)}px)`; X.lis.forEach((li, i) => { const q = ramp(t, t0 + d + .2 + i * .18, t0 + d + .5 + i * .18); li.style.opacity = q; li.style.transform = `translateY(${lerp(16, 0, q)}px)`; }); });
+    wrap.style.opacity = 1 - L.q; wrap.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+function bars({ t0, t1, top = 560, kicker, h, rows, maxA, maxB, legA, legB, under }) {
+  const wrap = el('div', 'abs'); wrap.style.cssText = `left:0;right:0;top:${top}px`; content.appendChild(wrap);
+  const k = el('div', 'kicker', kicker || ''); k.style.cssText = 'position:absolute;left:80px;top:0'; wrap.appendChild(k);
+  const h2 = el('h2', '', h || ''); h2.style.cssText = 'position:absolute;left:80px;right:80px;top:60px;margin:0;font-weight:800;font-size:76px;line-height:1.02;letter-spacing:-.05em'; wrap.appendChild(h2);
+  const leg = el('div', 'legend', `<span><i></i>${legA}</span><span><i class="b"></i>${legB}</span>`); leg.style.top = '250px'; wrap.appendChild(leg);
+  const root = el('div', 'bars'); root.style.top = '320px'; wrap.appendChild(root);
+  const R = rows.map((r, i) => {
+    const row = el('div', 'row'); row.innerHTML = `<div class="lab"><span>${r.l}</span><small>${r.s || ''}</small></div>
+      <div class="track"><div class="fill a"></div><div class="val va"></div></div>
+      <div class="track"><div class="fill b"></div><div class="val vb"></div></div>`;
+    root.appendChild(row); const tt = t0 + .6 + i * .55; ev(tt, 'tick'); ev(tt + .15, 'rise', { dur: .8 });
+    return { row, fa: row.querySelector('.fill.a'), fb: row.querySelector('.fill.b'), va: row.querySelector('.va'), vb: row.querySelector('.vb'), r, t: tt };
+  });
+  const un = under ? el('div', '', under) : null; if (un) { un.style.cssText = `position:absolute;left:80px;right:80px;top:${320 + rows.length * 160 + 10}px;font-size:40px;line-height:1.3;color:#d3d8d8;font-weight:500`; wrap.appendChild(un); ev(t0 + .6 + rows.length * .55 + .3, 'pop'); }
+  ev(t0, 'whoosh'); SCENES.push({ t0, t1 });
+  LAYERS.push({ el: wrap, update(t) {
+    const L = life(t, t0, t1, .5, .3); if (!L.on) return false;
+    k.style.opacity = ramp(t, t0, t0 + .3); const b = ramp(t, t0 + .05, t0 + .5, E.outQuint); h2.style.opacity = b; h2.style.transform = `translateY(${lerp(40, 0, b)}px)`;
+    leg.style.opacity = ramp(t, t0 + .3, t0 + .6);
+    R.forEach(x => {
+      const p = ramp(t, x.t, x.t + .4, E.outQuint); x.row.style.opacity = p; x.row.style.transform = `translateX(${lerp(40, 0, p)}px)`;
+      const g = ramp(t, x.t + .15, x.t + 1.0, E.outExpo);
+      const wa = x.r.a / maxA * g, wb = x.r.b / maxB * g;
+      x.fa.style.width = (wa * 100) + '%'; x.fb.style.width = (wb * 100) + '%';
+      x.va.textContent = Math.round(x.r.a * g) + ' ' + x.r.ua; x.vb.textContent = fmt(Math.round(x.r.b * g)) + ' ' + x.r.ub;
+    });
+    if (un) { const tt = t0 + .6 + rows.length * .55 + .3; const q = ramp(t, tt, tt + .4); un.style.opacity = q; un.style.transform = `translateY(${lerp(20, 0, q)}px)`; }
+    wrap.style.opacity = 1 - L.q; wrap.style.transform = `translateY(${-60 * L.q}px)`;
+    return true;
+  } });
+}
+
+function sticker({ t0, t1, text, x, y, rot = -4 }) {
+  const e = el('div', 'sticker-float', text); e.style.left = x + 'px'; e.style.top = y + 'px'; content.appendChild(e);
+  ev(t0, 'pop');
+  LAYERS.push({ el: e, update(t) {
+    const L = life(t, t0, t1, .4, .25); if (!L.on) return false;
+    const p = ramp(t, t0, t0 + .4, E.outBack);
+    e.style.opacity = p * (1 - L.q); e.style.transform = `rotate(${rot}deg) scale(${lerp(.6, 1, p)})`;
+    return true;
+  } });
+}
+
+function outro({ t0, t1, url, cta = 'Guía completa, con fuentes, en', sticker: st = 'Sin pruebas físicas: fichas contrastadas.' }) {
+  const root = el('div', 'outro'); content.appendChild(root);
+  const logo = el('img', 'logo'); logo.src = '../../../assets/logo_dark.png'; root.appendChild(logo);
+  const c = el('div', 'cta', cta); root.appendChild(c);
+  const u = el('div', 'url', `<span>${url}</span>`); root.appendChild(u); u.style.fontSize = url.length > 48 ? '27px' : '30px';
+  const s = el('div', 'sticker', st); root.appendChild(s);
+  PHOTO.push({ t0, t1 });
+  ev(t0, 'logo'); ev(t0 + .5, 'whoosh'); ev(t0 + .9, 'thud'); ev(t0 + 1.5, 'pop'); flash(t0, .5); shake(t0 + .05, .7);
+  SCENES.push({ t0, t1 });
+  LAYERS.push({ el: root, update(t) {
+    const L = life(t, t0, t1, .5, .5); if (!L.on) return false;
+    const a = ramp(t, t0, t0 + .7, E.outQuint); logo.style.opacity = a; logo.style.transform = `scale(${lerp(1.25, 1, a)})`; logo.style.filter = `blur(${lerp(12, 0, a)}px)`;
+    const b = ramp(t, t0 + .5, t0 + .9); c.style.opacity = b; c.style.transform = `translateY(${lerp(20, 0, b)}px)`;
+    const d = ramp(t, t0 + .9, t0 + 1.3, E.outBack); u.style.opacity = d; u.style.transform = `scale(${lerp(.8, 1, d)})`;
+    const f = ramp(t, t0 + 1.5, t0 + 1.9, E.outBack); s.style.opacity = f; s.style.transform = `translateX(-50%) rotate(${lerp(6, -3, f)}deg) scale(${lerp(.6, 1, f)})`;
+    root.style.opacity = 1 - L.q;
+    return true;
+  } });
+}
+
+// ---------------- efectos en canvas ----------------
+function sprayFX({ t0, t1, x, y, dir, back = false, n = 420, spread = .26, speed = 1500, life: lf = 1.1, color = '207,232,255' }) {
+  const rnd = mulberry32(1234 + Math.round(x + y));
+  const P = Array.from({ length: n }, (_, i) => ({ b: rnd() * lf, a: dir + (rnd() - .5) * spread, v: speed * (.6 + rnd() * .7), s: 2 + rnd() * 5, g: 900 + rnd() * 800, o: .4 + rnd() * .6 }));
+  return { t0, t1, back, draw(ctx, t) {
+    const fade = ramp(t, t0, t0 + .4) * (1 - ramp(t, t1 - .4, t1, E.in));
+    if (fade <= 0) return;
+    const T = t - t0;
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    // cono de luz
+    const g = ctx.createRadialGradient(x, y, 0, x, y, 1500); g.addColorStop(0, `rgba(${color},${.10 * fade})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, 1500, dir - spread * 1.1, dir + spread * 1.1); ctx.closePath(); ctx.fill();
+    for (const p of P) {
+      const age = ((T + p.b) % lf); const k = age / lf;
+      const px = x + Math.cos(p.a) * p.v * age, py = y + Math.sin(p.a) * p.v * age + .5 * p.g * age * age;
+      if (px < -50 || px > 1130 || py < -50 || py > 1970) continue;
+      const al = p.o * (1 - k) * fade * .9;
+      ctx.fillStyle = `rgba(${color},${al})`;
+      ctx.beginPath(); ctx.ellipse(px, py, p.s * (1 + k), p.s * .6, p.a, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.restore();
+  } };
+}
+
+function gaugeFX({ t0, t1, cx = 540, cy = 1000, r = 330, max = 200, keys, labels }) {
+  // keys: [[t, value]] -> valor interpolado; labels: {t, text, sub, accent}
+  ev(t0, 'whoosh'); keys.slice(1).forEach(k => ev(k[0], k[1] < keys[0][1] ? 'drop' : 'rise', { dur: .9 }));
+  keys.slice(1).forEach(k => { ev(k[0] + .9, 'thud'); shake(k[0] + .9, .9); });
+  const A0 = Math.PI * .78, A1 = Math.PI * 2.22; // arco
+  const val = t => { let v = keys[0][1]; for (let i = 1; i < keys.length; i++) { const [tk, vk] = keys[i]; const [tp, vp] = keys[i - 1]; v = lerp(vp, vk, ramp(t, tk, tk + .9, E.outExpo)); if (t < tk) break; } return v; };
+  SCENES.push({ t0, t1 });
+  return { t0, t1, back: false, draw(ctx, t) {
+    const L = life(t, t0, t1, .6, .35); if (!L.on) return;
+    const fade = L.p * (1 - L.q); const v = val(t);
+    ctx.save(); ctx.globalAlpha = fade; ctx.translate(0, -60 * L.q);
+    const ang = x => lerp(A0, A1, clamp(x / max, 0, 1));
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = '#1a2023'; ctx.lineWidth = 44; ctx.beginPath(); ctx.arc(cx, cy, r, A0, A1); ctx.stroke();
+    ctx.strokeStyle = '#3b4549'; ctx.lineWidth = 44; ctx.beginPath(); ctx.arc(cx, cy, r, A0, lerp(A0, A1, L.p)); ctx.stroke();
+    // marcas
+    for (let i = 0; i <= 20; i++) { const a = lerp(A0, A1, i / 20); const big = i % 5 === 0; ctx.strokeStyle = big ? '#d3d8d8' : '#6b7578'; ctx.lineWidth = big ? 5 : 3; ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * (r - 44), cy + Math.sin(a) * (r - 44)); ctx.lineTo(cx + Math.cos(a) * (r - (big ? 80 : 64)), cy + Math.sin(a) * (r - (big ? 80 : 64))); ctx.stroke();
+      if (big) { ctx.fillStyle = '#b5bfbd'; ctx.font = '700 28px JetBrains Mono'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(String(Math.round(max * i / 20)), cx + Math.cos(a) * (r - 120), cy + Math.sin(a) * (r - 120)); } }
+    // arco de valor
+    ctx.shadowColor = 'rgba(255,90,10,.8)'; ctx.shadowBlur = 30; ctx.strokeStyle = '#ff5a0a'; ctx.lineWidth = 44; ctx.beginPath(); ctx.arc(cx, cy, r, A0, ang(v)); ctx.stroke(); ctx.shadowBlur = 0;
+    // aguja
+    const a = ang(v); ctx.strokeStyle = '#fff'; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(cx - Math.cos(a) * 40, cy - Math.sin(a) * 40); ctx.lineTo(cx + Math.cos(a) * (r - 90), cy + Math.sin(a) * (r - 90)); ctx.stroke();
+    ctx.fillStyle = '#ff5a0a'; ctx.beginPath(); ctx.arc(cx, cy, 26, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = '#20272b'; ctx.beginPath(); ctx.arc(cx, cy, 10, 0, Math.PI * 2); ctx.fill();
+    // número
+    ctx.fillStyle = '#fff'; ctx.font = '800 190px Plus Jakarta Sans'; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic'; ctx.fillText(String(Math.round(v)), cx, cy + r + 112);
+    ctx.fillStyle = '#b5bfbd'; ctx.font = '700 40px JetBrains Mono'; ctx.fillText('BAR', cx, cy + r + 168);
+    // etiqueta activa
+    let lab = labels[0]; for (const l of labels) if (t >= l.t) lab = l;
+    const lp = ramp(t, lab.t, lab.t + .35, E.outQuint);
+    ctx.globalAlpha = fade * lp; ctx.fillStyle = lab.accent ? '#ff5a0a' : '#fff'; ctx.font = '800 64px Plus Jakarta Sans'; ctx.fillText(lab.text, cx, cy + r + 255 + (1 - lp) * 20);
+    ctx.fillStyle = '#d3d8d8'; ctx.font = '500 36px Plus Jakarta Sans'; ctx.fillText(lab.sub, cx, cy + r + 310 + (1 - lp) * 20);
+    ctx.restore();
+  } };
+}
+
+// Chorro concentrado vs abanico (reel 2): dos boquillas sobre una superficie
+function nozzleFX({ t0, t1, mode }) {
+  ev(t0, 'spray', { dur: t1 - t0, mode });
+  const rnd = mulberry32(99); const n = 360;
+  const P = Array.from({ length: n }, () => ({ b: rnd(), r: rnd(), s: 2 + rnd() * 4, o: .4 + rnd() * .6 }));
+  return { t0, t1, back: true, draw(ctx, t) {
+    const fade = ramp(t, t0, t0 + .4) * (1 - ramp(t, t1 - .3, t1, E.in)); if (fade <= 0) return;
+    const T = t - t0; const x0 = 540, y0 = 470, y1 = 1010; // boquilla arriba, superficie abajo
+    const spread = mode === 'narrow' ? .04 : .55; const lf = .55;
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    for (const p of P) {
+      const age = (T * 1.3 + p.b) % lf; const k = age / lf; const a = Math.PI / 2 + (p.r - .5) * spread;
+      const px = x0 + Math.cos(a) * (y1 - y0) * k * 1.05, py = y0 + Math.sin(a) * (y1 - y0) * k * 1.05;
+      if (py > y1 + 10) continue;
+      ctx.fillStyle = `rgba(207,232,255,${p.o * (1 - k * .5) * fade})`; ctx.beginPath(); ctx.ellipse(px, py, p.s, p.s * 2.4, a, 0, Math.PI * 2); ctx.fill();
+    }
+    // impacto en superficie
+    const w = mode === 'narrow' ? 70 : 720; const g = ctx.createRadialGradient(x0, y1, 0, x0, y1, w);
+    g.addColorStop(0, `rgba(207,232,255,${(mode === 'narrow' ? .9 : .35) * fade})`); g.addColorStop(1, 'rgba(207,232,255,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(x0, y1, w, w * .22, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.restore();
+    // superficie
+    ctx.save(); ctx.globalAlpha = fade; ctx.fillStyle = '#1a2023'; ctx.fillRect(80, y1, 920, 10); ctx.fillStyle = '#ff5a0a'; ctx.fillRect(80, y1, 920 * ramp(t, t0, t0 + .6), 10); ctx.restore();
+  } };
+}
+
+// ---------------- cámara, grano, flash ----------------
+const photo = $('#photo'), photoImg = photo.querySelector('img');
+const cam = $('#cam'), grain = $('#grain'), gctx = grain.getContext('2d'), flashEl = $('#flash'), leak = $('#leak'), hatch = $('#hatch'), progress = $('#progress');
+const fxb = $('#fxback').getContext('2d'), fxf = $('#fxfront').getContext('2d');
+const gimg = gctx.createImageData(270, 480);
+function drawGrain(frame) { const r = mulberry32(frame * 7919 + 17); const d = gimg.data; for (let i = 0; i < d.length; i += 4) { const v = 90 + r() * 110; d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; } gctx.putImageData(gimg, 0, 0); }
+function camTransform(t) {
+  let dx = 0, dy = 0, rot = 0;
+  for (const s of SHAKES) { const a = t - s.t; if (a < 0 || a > .6) continue; const k = Math.exp(-a * 9) * s.amp * 22; dx += Math.sin(a * 95) * k; dy += Math.cos(a * 71) * k * .8; rot += Math.sin(a * 60) * k * .012; }
+  let z = 1; for (const s of SCENES) { if (t >= s.t0 && t <= s.t1 + .3) { z = lerp(1.0, 1.05, ramp(t, s.t0, s.t1, E.lin)); break; } }
+  return `translate(${dx}px,${dy}px) rotate(${rot}deg) scale(${z})`;
+}
+let DURATION = 0; let lastFrame = -1;
+window.seek = function (t) {
+  const frame = Math.round(t * 30);
+  cam.style.transform = camTransform(t);
+  hatch.style.backgroundPosition = `${t * 12}px ${t * 6}px`;
+  let po = 0; for (const w of PHOTO) { if (t >= w.t0 - .1 && t <= w.t1 + .4) po = Math.max(po, ramp(t, w.t0 - .1, w.t0 + .6) * (1 - ramp(t, w.t1, w.t1 + .4, E.in))); }
+  photo.style.opacity = po; photoImg.style.transform = `scale(${1.04 + t * .004}) translate(${Math.sin(t * .2) * 20}px, ${Math.cos(t * .17) * 12}px)`;
+  leak.style.transform = `translate(${Math.sin(t * .35) * 220}px, ${Math.cos(t * .27) * 160}px)`;
+  let fl = 0; for (const f of FLASHES) { const a = t - f.t; if (a >= 0 && a < .4) fl = Math.max(fl, f.amp * .6 * Math.exp(-a * 20)); }
+  flashEl.style.opacity = fl;
+  progress.style.width = (clamp(t / DURATION, 0, 1) * 1080) + 'px';
+  if (frame !== lastFrame) { drawGrain(frame); lastFrame = frame; }
+  for (const L of LAYERS) { const on = L.update(t); L.el.style.display = on ? '' : 'none'; }
+  fxb.clearRect(0, 0, 1080, 1920); fxf.clearRect(0, 0, 1080, 1920);
+  for (const f of FX) { if (t >= f.t0 - .05 && t <= f.t1 + .5) f.draw(f.back ? fxb : fxf, t); }
+};
+
+// ------------------------------------------------------------------
+// Guiones. Cada reel: {dur, url, build()}
+// Fuentes: guías de tallerlab.com.ar/hidrolavadoras/ (datos documentados, sin prueba física).
+// ------------------------------------------------------------------
+const REELS = {
+  1: { dur: 27, slug: '150-bar', url: 'tallerlab.com.ar/hidrolavadoras/150-bar/', meta: 'Presión real · 01/06', build() {
+    hook({ t0: 0, t1: 4.1, kicker: 'Dato documentado', lines: [{ text: 'TU HIDROLAVADORA' }, { text: 'DE 150 BAR', accent: true }, { text: 'NO TRABAJA' }, { text: 'A 150 BAR.', accent: true }] });
+    FX.push(gaugeFX({ t0: 4.2, t1: 9.6, cx: 540, cy: 1010, r: 250, max: 200, keys: [[4.2, 0], [4.6, 150], [7.0, 100]],
+      labels: [{ t: 4.2, text: 'PRESIÓN MÁXIMA', sub: 'el límite que admite el equipo' }, { t: 7.0, text: 'PRESIÓN DE SERVICIO', sub: 'la referencia real mientras limpiás', accent: true }] }));
+    title({ t0: 4.3, t1: 9.6, top: 320, kicker: 'Qué dice la ficha', h: '150 es el <span class="accent">tope</span>.<br>No el trabajo.' });
+    product({ t0: 9.7, t1: 12.4, top: 520, img: 'gamma-150.png', brand: 'Gamma · ficha oficial', model: '150 Elite<br>G2514AR', code: '220 V · 1800 W · manguera 5 m', chips: [{ t: '150 bar máx', dim: true }, { t: '100 bar servicio', accent: true }, { t: '400 L/h' }], note: 'Uso doméstico: autos, paredes, piletas y jardín. <b>AutoStop</b> y tanque de detergente.' });
+    product({ t0: 12.5, t1: 15.2, top: 520, img: 'niwahdnw7001040700.png', brand: 'Niwa · ficha del distribuidor', model: 'HDNW-700', code: '220 V · 2200 W · bomba axial', chips: [{ t: '150 bar máx', dim: true }, { t: '120 bar promedio', accent: true }, { t: '390 L/h nominal' }], note: 'La única de las cuatro fichas que <b>identifica el tipo de bomba</b>.', from: 'left' });
+    product({ t0: 15.3, t1: 18.0, top: 520, img: 'blackdeckerbepw2200ar.png', brand: 'BLACK+DECKER · fabricante', model: 'BEPW2200-AR', code: '220 V · 2000 W · manguera 6 m', chips: [{ t: '150 bar máx', dim: true }, { t: '105 bar nominal', accent: true }, { t: '5,8 L/min nominal' }], note: 'Boquilla turbo y botella de espuma. <b>Bomba de aluminio</b>, autoaspirado.' });
+    product({ t0: 18.1, t1: 20.8, top: 520, img: 'lusqtoffhl1008.png', brand: 'Lüsqtoff · manual', model: 'HL100-8', code: '220 V · 2000 W declarados', chips: [{ t: '150 bar permitidos', dim: true }, { t: '100 bar trabajo', accent: true }, { t: '6,0 L/min trabajo' }], note: 'Las fuentes comerciales <b>discrepan</b> en potencia y presión: verificá placa y manual.', from: 'left' });
+    verdict({ t0: 20.9, t1: 24.0, top: 560, kicker: 'Criterio TallerLab', lines: [{ t: 'Compará <span class="accent">servicio</span> con servicio.' }, { t: 'Nunca el rótulo de la caja.' }, { t: 'Y el caudal, bajo la misma condición.', dim: true }] });
+    outro({ t0: 24.1, t1: 27, url: 'tallerlab.com.ar/hidrolavadoras/150-bar/', sticker: 'Leé la ficha, no la caja.' });
+  } },
+
+  2: { dur: 27, slug: 'bar-vs-caudal', url: 'tallerlab.com.ar/hidrolavadoras/comparativa-general/', meta: 'Bar vs. caudal · 02/06', build() {
+    hook({ t0: 0, t1: 3.4, kicker: 'Mito de compra', lines: [{ text: 'MÁS BAR' }, { text: 'NO LAVA', accent: true }, { text: 'MÁS RÁPIDO.' }] });
+    FX.push(nozzleFX({ t0: 3.5, t1: 7.2, mode: 'narrow' }));
+    title({ t0: 3.5, t1: 7.2, top: 1090, kicker: 'Presión · bar', h: 'Bar es <span class="accent">impacto</span>.', p: 'Despega la suciedad adherida. Concentrado, también <b>marca pintura y juntas</b>.' });
+    FX.push(nozzleFX({ t0: 7.3, t1: 11.0, mode: 'wide' }));
+    title({ t0: 7.3, t1: 11.0, top: 1090, kicker: 'Caudal · L/h', h: 'Caudal es <span class="accent">arrastre</span>.', p: 'Enjuaga, cubre superficie y se lleva el barro. <b>Es lo que te ahorra tiempo.</b>' });
+    bars({ t0: 11.1, t1: 18.6, top: 360, kicker: 'Fichas publicadas', h: 'Mismo rótulo, <span class="accent">otra máquina</span>.', legA: 'bar máx', legB: 'caudal L/h', maxA: 200, maxB: 800,
+      rows: [{ l: 'Kärcher K2 Basic', s: '1.200 W', a: 110, b: 280, ua: 'bar', ub: 'L/h' }, { l: 'Gamma 150 Elite', s: '1.800 W', a: 150, b: 400, ua: 'bar', ub: 'L/h' }, { l: 'Niwa HDNW-700', s: '2.200 W', a: 150, b: 390, ua: 'bar', ub: 'L/h' }, { l: 'Comet K 250 TSR (pro)', s: '5 kW · 400 V', a: 190, b: 780, ua: 'bar', ub: 'L/h' }],
+      under: 'La profesional tiene <b>27% más bar</b>… y <b>casi el triple de caudal</b>. Ahí está la diferencia real.' });
+    title({ t0: 18.7, t1: 21.6, top: 620, kicker: 'Y los watts', h: 'Los watts <span class="accent">no miden</span> rendimiento.', p: 'Describen consumo. Lo que dura es la <b>bomba</b>, el diseño y que haya repuestos.' });
+    verdict({ t0: 21.7, t1: 24.3, top: 520, kicker: 'Elegí por tarea', lines: [{ t: 'Auto o bici: <span class="accent">control</span> del chorro.' }, { t: 'Patio o vereda: <span class="accent">caudal</span>.' }, { t: 'Suciedad pesada: las dos, y bomba reparable.', dim: true }] });
+    outro({ t0: 24.4, t1: 27, url: 'tallerlab.com.ar/hidrolavadoras/comparativa-general/', sticker: 'Mirá bar Y litros por hora.' });
+  } },
+
+  3: { dur: 27, slug: 'para-autos', url: 'tallerlab.com.ar/hidrolavadoras/para-autos/', meta: 'Lavar el auto · 03/06', build() {
+    hook({ t0: 0, t1: 3.8, kicker: 'Guía de compra', lines: [{ text: 'PARA LAVAR' }, { text: 'EL AUTO,' }, { text: 'LA PRESIÓN ES', accent: true }, { text: 'LO QUE MENOS', small: true }, { text: 'IMPORTA.', accent: true }] });
+    checklist({ t0: 3.9, t1: 11.9, top: 340, kicker: 'Lo que sí cambia el lavado', h: 'Cinco cosas antes que los bar.', stagger: .9, items: [
+      { t: 'Boquilla regulable', s: 'Abanico amplio para pintura. Turbo, nunca en paneles.' },
+      { t: 'Caudal en L/h', s: 'Es lo que enjuaga y arrastra. Mirá el valor nominal, no el máximo.' },
+      { t: 'Largo de manguera', s: 'Con 3 m movés la máquina a cada rato. Con 5–6 m rodeás el auto.' },
+      { t: 'Espuma y detergente', s: 'Apto automotor y compatible con el método del manual.' },
+      { t: 'Peso y ruedas', s: 'Si la sacás del baúl o la guardás en un depto, importa.' },
+    ] });
+    product({ t0: 12.0, t1: 15.6, top: 520, img: 'karcherk2basicblack19943220.png', brand: 'Kärcher · ficha Argentina', model: 'K 2 Basic Black', code: 'Código 1.994-322.0', chips: [{ t: '1.200 W' }, { t: '110 bar máx' }, { t: '280 L/h', accent: true }, { t: '3,8 kg' }, { t: 'manguera 3 m', accent: true }], note: 'Para <b>lavados ocasionales</b> y suciedad liviana. La manguera corta obliga a mover la máquina.' });
+    product({ t0: 15.7, t1: 19.3, top: 520, img: 'karcherk2carblack19940520.png', brand: 'Kärcher · ficha de tienda', model: 'K 2 Car Black', code: 'Código 1.994-052.0', chips: [{ t: 'misma máquina', accent: true }, { t: '+ cepillo' }, { t: '+ espuma 0,3 L' }, { t: 'manguera 4 m' }], note: 'El kit Car <b>no suma presión ni caudal</b>. Elegilo si usás esos accesorios y el código coincide.', from: 'left' });
+    verdict({ t0: 19.4, t1: 24.0, top: 500, kicker: 'Según frecuencia', lines: [{ t: '1 o 2 lavados al mes: <span class="accent">K2 con kit</span>.' }, { t: 'Varios autos o seguido: un escalón más de <span class="accent">caudal y alcance</span>.' }, { t: 'La K3 declara 330 L/h; revisá la manguera del SKU local.', dim: true }] });
+    outro({ t0: 24.1, t1: 27, url: 'tallerlab.com.ar/hidrolavadoras/para-autos/', sticker: 'Medí dónde enchufás y dónde está la canilla.' });
+  } },
+
+  4: { dur: 27, slug: 'inalambricas', url: 'tallerlab.com.ar/hidrolavadoras/inalambricas/', meta: 'A batería · 04/06', build() {
+    hook({ t0: 0, t1: 3.9, kicker: 'Pregunta frecuente', lines: [{ text: 'UNA HIDROLAVADORA' }, { text: 'A BATERÍA' }, { text: 'TIENE 30 BAR.', accent: true }, { text: '¿SIRVE?' }] });
+    product({ t0: 4.0, t1: 8.6, top: 500, img: 'lusqtofflapl368bk.png', brand: 'Lüsqtoff · ficha oficial', model: 'LAPL3.6-8BK', code: 'Limpiadora portátil 18 V', chips: [{ t: '30 bar máx', accent: true }, { t: '3,6 L/min máx' }, { t: '4 kg' }, { t: 'aspira de un balde', accent: true }, { t: '2 baterías + cargador' }], note: 'Pensada para <b>movilidad y enjuague</b>. No reemplaza una eléctrica para barro adherido o mucho piso.' });
+    product({ t0: 8.7, t1: 13.0, top: 500, img: 'einhellhypresso18241li4140135.png', brand: 'Einhell · ficha oficial', model: 'HYPRESSO 18/24', code: 'Plataforma Power X-Change 18 V', chips: [{ t: '7 a 55 min', accent: true }, { t: 'según batería y modo' }, { t: 'sin batería', dim: true }, { t: 'sin cargador', dim: true }], note: 'La 36/105 declara <b>70 bar de trabajo</b> y 105 permitidos; hasta 45 min en ECO con dos de 8 Ah.', from: 'left' });
+    split({ t0: 13.1, t1: 20.4, top: 380, kicker: 'Dónde encaja', h: 'Sí para esto. No para esto.', yes: { h: 'Sí', items: ['Bicicleta y herramientas', 'Muebles de jardín y macetas', 'Suciedad liviana o localizada', 'Lejos de una canilla'] }, no: { h: 'No', items: ['Auto con barro adherido', 'Patio o vereda grandes', 'Sesiones largas sin recargar', 'Más caudal para cubrir piso'] } });
+    verdict({ t0: 20.5, t1: 24.0, top: 560, kicker: 'Antes de pagar', lines: [{ t: 'Si el kit no dice <span class="accent">batería y cargador</span>…' }, { t: 'no los trae.' }, { t: 'Mirá presión de trabajo, no el pico.', dim: true }] });
+    outro({ t0: 24.1, t1: 27, url: 'tallerlab.com.ar/hidrolavadoras/inalambricas/', sticker: 'Confirmá el código del kit.' });
+  } },
+
+  5: { dur: 29, slug: '200-bar', url: 'tallerlab.com.ar/hidrolavadoras/200-bar/', meta: 'Profesional · 05/06', build() {
+    hook({ t0: 0, t1: 3.8, kicker: 'Antes de cotizar', lines: [{ text: 'BUSCÁS UNA' }, { text: 'DE 200 BAR.', accent: true }, { text: 'LEÉ ESTO' }, { text: 'ANTES DE PAGAR.', accent: true }] });
+    title({ t0: 3.9, t1: 7.3, top: 600, kicker: 'Lo que encontramos en Argentina', h: 'Cerca de 200 bar es <span class="accent">equipo profesional</span>.', p: 'Red <b>trifásica</b> en varios casos, caudal de alimentación alto y bomba con repuestos.' });
+    product({ t0: 7.4, t1: 11.6, top: 500, img: '200-bar.png', brand: 'Comet · ficha del distribuidor', model: 'K 250 TSR<br>13/190 T Classic', code: 'C2583AR · agua fría', chips: [{ t: '190 bar máx', accent: true }, { t: '13 L/min' }, { t: '400 V trifásica', accent: true }, { t: '5,0 kW' }, { t: 'triplex · pistones cerámicos' }], note: 'Pide <b>970 L/h de alimentación</b> mínima. Publicada a <b>$4.739.280</b> en Vagolnet (29/09/2026), en stock.' });
+    product({ t0: 11.7, t1: 15.4, top: 500, img: '200-bar.png', brand: 'Comet · ficha del distribuidor', model: 'KM Extra 8.16<br>16/200 T', code: 'C2586AR · agua caliente', chips: [{ t: '190 nominal / 200 máx', accent: true }, { t: '16 L/min máx' }, { t: 'hasta 108 °C' }, { t: 'caldera diésel 18 L' }, { t: '6,5 kW · 400 V' }], note: 'Lavadero o taller con <b>instalación trifásica</b> y necesidad de agua caliente. Última unidad vista; pedí cotización nueva.', from: 'left' });
+    bignum({ t0: 15.5, t1: 19.6, top: 680, kicker: 'Advertencia de nombre comercial', left: { lab: 'Se llama', num: 200, unit: 'bar', sub: 'Gamma Omega Hynox <b>200</b>', from: 0 }, right: { lab: 'La ficha declara', num: 145, unit: 'bar', sub: '145 de trabajo · 150 máximos', accent: true, from: 200 }, under: 'El número del nombre <b>no es la presión</b>. Ordená por caudal sostenido, alimentación y bomba reparable.' });
+    checklist({ t0: 19.7, t1: 25.6, top: 340, kicker: 'Requisitos de instalación', h: 'Cinco chequeos antes de cotizar.', stagger: .62, items: [
+      { t: 'Tensión y fases', s: '230 V monofásica o 380/400 V trifásica.' },
+      { t: 'Nominal y máxima, separadas', s: 'Y caudal nominal y máximo, también separados.' },
+      { t: 'Tu red de agua sostiene el caudal', s: 'El fabricante pide un mínimo de alimentación.' },
+      { t: '¿Agua caliente?', s: 'Caldera = combustible, mantenimiento e instalación.' },
+      { t: 'Repuestos del código exacto', s: 'Bomba, pistones, válvulas, mangueras y service.' },
+    ] });
+    outro({ t0: 25.7, t1: 29, url: 'tallerlab.com.ar/hidrolavadoras/200-bar/', sticker: 'A combustión: Niwa LNW-70, 207 bar.' });
+  } },
+
+  6: { dur: 27, slug: 'aire-acondicionado', url: 'tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/', meta: 'Split · 06/06', build() {
+    hook({ t0: 0, t1: 3.8, kicker: 'Antes de que sea tarde', lines: [{ text: 'SI LIMPIÁS' }, { text: 'EL SPLIT CON' }, { text: 'HIDROLAVADORA', accent: true }, { text: 'LO ESTÁS', small: true }, { text: 'ROMPIENDO.', accent: true }] });
+    bignum({ t0: 3.9, t1: 9.4, top: 640, kicker: 'Dos mundos de presión', left: { lab: 'Hidrolavadora doméstica', num: 150, unit: 'bar', sub: 'rótulo típico: 100 a 150 bar', from: 0 }, right: { lab: 'Equipo HVAC · WIPCOOL C30S', num: 6, unit: 'bar', sub: '3 a 6 bar · hasta 3 L/min', accent: true, from: 0 }, under: 'Las <b>aletas de aluminio</b> del serpentín se doblan con un chorro de alta presión. Después, el equipo rinde menos.' });
+    title({ t0: 9.5, t1: 13.2, top: 620, kicker: 'El error más común', h: 'Una lanza regulable <span class="accent">no la convierte</span> en equipo HVAC.', p: '“Chorro regulable” o “varias boquillas” no demuestra que el <b>mínimo</b> sea apto para aletas.' });
+    checklist({ t0: 13.3, t1: 20.8, top: 340, kicker: 'Lo que sí sirve', h: 'Qué pedir en la publicación.', stagger: .8, items: [
+      { t: 'Baja presión regulable, documentada', s: 'Rango, control y modo de uso publicados por el fabricante.' },
+      { t: 'Rociador o lavadora de serpentines', s: 'Con caudal y patrón pensados para no doblar aletas.' },
+      { t: 'Bolsa de lavado con drenaje', s: 'Si es un split interior: recogida y salida del agua.' },
+      { t: 'Químico compatible', s: 'Aluminio, cobre y sellos. Dilución y enjuague indicados.' },
+      { t: 'El manual del aire manda', s: 'Seguí las instrucciones del fabricante de la unidad.' },
+    ] });
+    verdict({ t0: 20.9, t1: 24.0, top: 560, kicker: 'En una frase', lines: [{ t: 'Patio, auto y vereda: <span class="accent">hidrolavadora</span>.' }, { t: 'Serpentín: <span class="accent">baja presión</span> y control.' }, { t: 'No apuntes alta presión a las aletas.', dim: true }] });
+    outro({ t0: 24.1, t1: 27, url: 'tallerlab.com.ar/hidrolavadoras/hidrolavadora-para-aire-acondicionado/', sticker: 'Las aletas no se desdoblan solas.' });
+  } },
+};
+
+// ---------------- arranque ----------------
+const params = new URLSearchParams(location.search);
+const REEL = +(params.get('reel') || 1);
+window.READY = false;
+(async () => {
+  await document.fonts.load('800 100px "Plus Jakarta Sans"'); await document.fonts.load('700 30px "JetBrains Mono"'); await document.fonts.load('700 60px "Caveat"');
+  await document.fonts.ready;
+  const def = REELS[REEL]; DURATION = def.dur; $('#metaR').textContent = def.meta;
+  def.build();
+  await Promise.all([...document.images].map(im => im.complete ? null : new Promise(r => { im.onload = r; im.onerror = r; })));
+  // precalentar fuentes en canvas
+  const c = document.createElement('canvas').getContext('2d'); c.font = '800 190px Plus Jakarta Sans'; c.fillText('0', 0, 0); c.font = '700 40px JetBrains Mono'; c.fillText('0', 0, 0);
+  window.DURATION = DURATION; window.EVENTS = EVENTS; window.META = { reel: REEL, slug: def.slug, url: def.url, dur: DURATION };
+  seek(+(params.get('t') || 0));
+  window.READY = true;
+})();
+</script>
+</body>
+</html>

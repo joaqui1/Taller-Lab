@@ -53,3 +53,8 @@ assets/datos/observatorio-publicacion.json
 # Copia del observatorio generada en cada build (la sirve la función en Vercel).
 observatorio_publicado/
 assets/datos/precios-observatorio-publico.json
+
+# Reels: temporales de render (fotogramas de control, stems, video sin audio)
+reels/*/salida/tmp/
+reels/*/salida/control/
+reels/*/motor/node_modules

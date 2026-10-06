@@ -69,3 +69,4 @@ backup_observatorio_*
 # Respaldos locales de código y datos
 /respaldos/
 /respaldo-*/
+/reels/
