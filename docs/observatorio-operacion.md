@@ -29,9 +29,11 @@ El build exige todas las páginas y descargas, y comprueba que su copia en
 `observatorio_publicado/` sea idéntica. El sitemap dinámico solo anuncia rutas
 con archivo disponible. Un manifiesto de build, por sí solo, no acredita que
 una función pueda servir una página.
-La descarga del historial remoto usa una URL distinta por build y solicita
-revalidación: la caché de la URL mutable de GitHub no debe reutilizar una captura
-anterior justo después del push.
+La descarga resuelve por API el commit de `observatorio-datos` y lee el archivo
+desde ese SHA inmutable, con revalidación. Una URL de rama puede entregar una
+versión cacheada incluso al cambiar sus parámetros. Si no puede confirmar el
+historial remoto, el build de producción falla y conserva el deploy anterior;
+no lo reemplaza por la copia local más antigua.
 
 Después del deploy, el workflow verifica en www el dataset y todas las rutas
 esperadas: HTTP 200, canonical correcto y la misma versión de publicación en

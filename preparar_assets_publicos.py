@@ -56,7 +56,8 @@ def verify_publication_copy(public, published, dataset):
         raise RuntimeError('Copia incompleta del dataset público del observatorio')
 
 
-HISTORY_URL = os.environ.get('OBSERVATORIO_HISTORY_URL', 'https://raw.githubusercontent.com/joaqui1/Taller-Lab/observatorio-datos/precios-observatorio.json')
+DEFAULT_HISTORY_URL = 'https://raw.githubusercontent.com/joaqui1/Taller-Lab/observatorio-datos/precios-observatorio.json'
+HISTORY_URL = os.environ.get('OBSERVATORIO_HISTORY_URL', DEFAULT_HISTORY_URL)
 
 
 def latest_history(default):
@@ -66,15 +67,29 @@ def latest_history(default):
     dominio principal las mismas capturas que GitHub Pages. Si la descarga falla, usa la copia local.
     """
     import json
+    import re
     import tempfile
     import time
     import urllib.parse
     import urllib.request
     from observatorio.gratuito import read_history
     try:
-        # El hook corre segundos después del push. La URL mutable de raw.github
-        # puede seguir cacheada y producir un deploy correcto con datos viejos.
-        parts = urllib.parse.urlsplit(HISTORY_URL)
+        # Raw GitHub puede resolver una rama a una versión anterior incluso con
+        # query distinta. Resolver la referencia por API y descargar el commit
+        # inmutable evita publicar una ejecución anterior tras el deploy hook.
+        url = HISTORY_URL
+        if url == DEFAULT_HISTORY_URL:
+            ref_url = 'https://api.github.com/repos/joaqui1/Taller-Lab/git/ref/heads/observatorio-datos'
+            ref_request = urllib.request.Request(ref_url + '?publication=' + str(time.time_ns()),
+                                                 headers={'Cache-Control': 'no-cache', 'User-Agent': 'TallerLab-Publicacion/1.0'})
+            with urllib.request.urlopen(ref_request, timeout=20) as response:
+                ref = json.load(response)
+            sha = ref.get('object', {}).get('sha', '')
+            if ref.get('ref') != 'refs/heads/observatorio-datos' or not re.fullmatch(r'[0-9a-f]{40}', sha):
+                raise ValueError('GitHub no devolvió el commit de la rama de datos')
+            url = DEFAULT_HISTORY_URL.replace('/observatorio-datos/', '/' + sha + '/')
+            print(f'OK: historial fijado al commit {sha}.')
+        parts = urllib.parse.urlsplit(url)
         query = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
         query.append(('publication', str(time.time_ns())))
         url = urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(query)))
@@ -91,6 +106,8 @@ def latest_history(default):
             return target
         print('OK: la copia versionada del historial está al día.')
     except Exception as error:
+        if os.environ.get('VERCEL_ENV') == 'production':
+            raise RuntimeError('No se pudo confirmar el historial remoto; se conserva el despliegue anterior') from error
         print(f'Aviso: se usa el historial versionado ({type(error).__name__}: {error}).')
     return default
 

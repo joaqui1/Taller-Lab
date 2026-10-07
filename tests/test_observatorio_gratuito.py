@@ -263,17 +263,28 @@ class FreeObservatoryTests(unittest.TestCase):
                     build.main(root)
                 self.assertFalse((root / 'assets/datos/observatorio-publicacion.json').exists())
 
-    def test_build_bypasses_mutable_remote_history_cache(self):
+    def test_build_reads_history_at_immutable_commit(self):
         import preparar_assets_publicos as build
         from urllib.parse import urlsplit, parse_qs
         remote = json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
         remote['run']['finished_at'] = (datetime.fromisoformat(remote['run']['finished_at']) + timedelta(minutes=1)).isoformat()
-        with patch('urllib.request.urlopen', return_value=io.BytesIO(json.dumps(remote).encode())) as fetch:
+        sha = 'a' * 40
+        ref = {'ref':'refs/heads/observatorio-datos', 'object':{'sha':sha}}
+        responses = [io.BytesIO(json.dumps(ref).encode()), io.BytesIO(json.dumps(remote).encode())]
+        with patch.object(build, 'HISTORY_URL', build.DEFAULT_HISTORY_URL), patch('urllib.request.urlopen', side_effect=responses) as fetch:
             target = build.latest_history(DEFAULT_HISTORY)
+            self.assertIn('/git/ref/heads/observatorio-datos?', fetch.call_args_list[0].args[0].full_url)
             request = fetch.call_args.args[0]
+            self.assertIn('/'+sha+'/precios-observatorio.json', request.full_url)
             self.assertIn('publication', parse_qs(urlsplit(request.full_url).query))
             self.assertEqual(request.get_header('Cache-control'), 'no-cache')
             self.assertEqual(json.loads(target.read_text())['run'], remote['run'])
+
+    def test_production_does_not_replace_current_data_with_local_fallback(self):
+        import preparar_assets_publicos as build
+        with patch.dict('os.environ', {'VERCEL_ENV':'production'}), patch('urllib.request.urlopen', side_effect=OSError('unavailable')):
+            with self.assertRaisesRegex(RuntimeError, 'se conserva el despliegue anterior'):
+                build.latest_history(DEFAULT_HISTORY)
 
     # El workflow de captura instala solo requests y bs4; la suite completa sí incluye Flask.
     @unittest.skipUnless(__import__('importlib.util').util.find_spec('flask'), 'Flask no instalado en el workflow de captura')
