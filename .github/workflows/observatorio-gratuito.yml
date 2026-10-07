@@ -5,6 +5,8 @@ on:
   schedule:
     # 07:17 de Argentina; GitHub puede demorar los cron.
     - cron: '17 10 * * *'
+    # Respaldos a las 10:37 y 16:37 ART. La captura es idempotente por día/modelo.
+    - cron: '37 13,19 * * *'
   push:
     branches: [main]
     paths:
@@ -116,20 +118,20 @@ jobs:
       - name: Publicar incluso los estados agotados o sin verificación
         id: deployment
         uses: actions/deploy-pages@v5
-      - name: Actualizar www.tallerlab.com.ar (opcional, sin costo)
-        # Pages queda como copia noindex: la versión indexable vive en www. Si existe el secreto
-        # VERCEL_DEPLOY_HOOK_URL, se pide un deploy y el build de www lee el historial de la rama
-        # observatorio-datos. Sin el secreto, www actualiza los precios en el navegador desde Pages.
+      - name: Actualizar www.tallerlab.com.ar
+        # Pages queda como copia noindex. El hook actualiza el HTML indexable de www
+        # desde observatorio-datos; su ausencia es un fallo de publicación.
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
         run: |
           if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
-            echo "Sin VERCEL_DEPLOY_HOOK_URL: www conserva el HTML del último deploy."
-            exit 0
+            echo "::error::Falta VERCEL_DEPLOY_HOOK_URL: Pages se publicó, pero el HTML indexable de www no se actualiza."
+            exit 1
           fi
           curl -fsS -X POST --max-time 30 "$VERCEL_DEPLOY_HOOK_URL" > /dev/null
           echo "Deploy de www solicitado."
       - name: Verificar el resultado publicado
+        if: ${{ !cancelled() && steps.deployment.outcome == 'success' }}
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
           EXPECTED_FINISHED_AT: ${{ needs.build.outputs.finished_at }}
@@ -153,3 +155,8 @@ jobs:
                       raise SystemExit('No se verificó la publicación actual: ' + str(error))
                   time.sleep(5)
           PY
+      - name: Verificar las rutas y el historial en www
+        env:
+          EXPECTED_FINISHED_AT: ${{ needs.build.outputs.finished_at }}
+        run: |
+          python -m observatorio.publication_health --url https://www.tallerlab.com.ar --expected "$EXPECTED_FINISHED_AT" --wait-seconds 300
