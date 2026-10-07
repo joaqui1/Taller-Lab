@@ -16,6 +16,7 @@ on:
       - 'observatorio/piloto_gratuito.json'
       - 'observatorio/guias_por_modelo.json'
       - 'observatorio/requirements-gratuito.txt'
+      - 'preparar_assets_publicos.py'
       - 'observatorio/extractors/base.py'
       - 'assets/observatorio-gratuito.*'
       - 'assets/datos/precios-observatorio.json'
@@ -85,7 +86,9 @@ jobs:
           git config user.name 'TallerLab Observatorio'
           git config user.email 'observatorio@users.noreply.github.com'
           blob=$(git hash-object -w _state/precios-observatorio.json)
-          tree=$(printf '100644 blob %s\tprecios-observatorio.json\n' "$blob" | git mktree)
+          # Esta rama solo contiene datos, no una aplicación Python desplegable.
+          config=$(printf '%s\n' '{"git":{"deploymentEnabled":false}}' | git hash-object -w --stdin)
+          tree=$(printf '100644 blob %s\tprecios-observatorio.json\n100644 blob %s\tvercel.json\n' "$blob" "$config" | git mktree)
           parent=$(git ls-remote --heads origin observatorio-datos | cut -f1)
           if [ -n "$parent" ]; then
             previous=$(git rev-parse "$parent^{tree}")

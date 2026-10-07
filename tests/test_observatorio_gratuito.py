@@ -263,6 +263,18 @@ class FreeObservatoryTests(unittest.TestCase):
                     build.main(root)
                 self.assertFalse((root / 'assets/datos/observatorio-publicacion.json').exists())
 
+    def test_build_bypasses_mutable_remote_history_cache(self):
+        import preparar_assets_publicos as build
+        from urllib.parse import urlsplit, parse_qs
+        remote = json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
+        remote['run']['finished_at'] = (datetime.fromisoformat(remote['run']['finished_at']) + timedelta(minutes=1)).isoformat()
+        with patch('urllib.request.urlopen', return_value=io.BytesIO(json.dumps(remote).encode())) as fetch:
+            target = build.latest_history(DEFAULT_HISTORY)
+            request = fetch.call_args.args[0]
+            self.assertIn('publication', parse_qs(urlsplit(request.full_url).query))
+            self.assertEqual(request.get_header('Cache-control'), 'no-cache')
+            self.assertEqual(json.loads(target.read_text())['run'], remote['run'])
+
     # El workflow de captura instala solo requests y bs4; la suite completa sí incluye Flask.
     @unittest.skipUnless(__import__('importlib.util').util.find_spec('flask'), 'Flask no instalado en el workflow de captura')
     def test_http_downloads_and_generated_json_do_not_need_legacy_database(self):

@@ -6,6 +6,8 @@ las fichas pendientes del día de Argentina, guarda el historial, publica
 GitHub Pages y dispara el build de www mediante `VERCEL_DEPLOY_HOOK_URL`.
 El secreto debe contener la URL sin formato del deploy hook de Vercel para
 `main`. No se debe guardar en el repositorio ni pegar en logs.
+La rama de datos incluye un `vercel.json` con despliegues deshabilitados:
+Vercel debe compilar `main`, no intentar encontrar una aplicación en el historial.
 
 ## Horarios y recuperación
 
@@ -27,6 +29,9 @@ El build exige todas las páginas y descargas, y comprueba que su copia en
 `observatorio_publicado/` sea idéntica. El sitemap dinámico solo anuncia rutas
 con archivo disponible. Un manifiesto de build, por sí solo, no acredita que
 una función pueda servir una página.
+La descarga del historial remoto usa una URL distinta por build y solicita
+revalidación: la caché de la URL mutable de GitHub no debe reutilizar una captura
+anterior justo después del push.
 
 Después del deploy, el workflow verifica en www el dataset y todas las rutas
 esperadas: HTTP 200, canonical correcto y la misma versión de publicación en
@@ -75,3 +80,7 @@ no alcanza con agregar URLs parecidas ni con bajar el umbral del veredicto.
   La primera publicación falló por la URL del hook; se corrigió desde la salida
   JSON de Vercel y el reintento finalizó correctamente.
 - Los días anteriores sin captura se conservan como huecos, no se reconstruyen.
+- El control posterior a la integración detectó un build que leyó la publicación
+  de las 14:11 ART a las 14:23, posterior al nuevo push del historial. La ejecución
+  programada siguiente pasó el control completo; se corrigió además la descarga
+  cacheada para no depender de ese reintento.
