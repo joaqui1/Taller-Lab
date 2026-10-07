@@ -1,10 +1,72 @@
 /* Progressive enhancement: los modelos, enlaces e historial funcionan sin JS. */
-(() => {
+(async () => {
   'use strict';
   // El dominio principal puede seguir usando su hosting actual. Los datos y
   // las descargas se actualizan desde Pages, sin ejecutar cron de Vercel.
   const mirror = ['www.tallerlab.com.ar','tallerlab.com.ar'].includes(location.hostname);
   const remoteRoot = 'https://joaqui1.github.io/Taller-Lab';
+  // Aplicar la caducidad antes de cualquier espera de red.
+  function expireSavedPrices() {
+    for (const item of document.querySelectorAll('.product[data-observed],.model-current[data-observed]')) {
+      const at = Date.parse(item.dataset.observed);
+      if (item.dataset.state !== 'error' && item.dataset.observed &&
+          (!Number.isFinite(at) || at > Date.now() || Date.now()-at > 48*3600000)) {
+        item.dataset.state = 'vencido';
+        item.querySelector('.current-price').textContent = '—';
+        const badge = item.querySelector('.badge'); badge.className = 'badge vencido'; badge.textContent = 'Dato vencido';
+        const change = item.querySelector('.change'); if (change) change.textContent = '—';
+        const changeNote = item.querySelector('.product-change small'); if (changeNote) changeNote.textContent = 'Sin comparación vigente';
+        const caption = item.querySelector('.price-caption'); if (caption) caption.textContent = 'Dato vencido';
+        if (item.matches('.model-current')) {
+          const verdict = document.querySelector('.verdict');
+          if (verdict) {
+            verdict.className = 'verdict unknown';
+            verdict.querySelector('p').textContent = 'La captura venció: no hay un precio vigente para calificar. El historial sigue disponible abajo.';
+          }
+        }
+      }
+    }
+    for (const item of document.querySelectorAll('.moves li[data-observed]')) {
+      const at = Date.parse(item.dataset.observed);
+      if (!Number.isFinite(at) || at > Date.now() || Date.now()-at > 48*3600000) item.hidden = true;
+    }
+    const moves = document.querySelector('.moves');
+    if (moves && !moves.querySelector('li:not([hidden])')) moves.hidden = true;
+  }
+  expireSavedPrices(); setInterval(expireSavedPrices, 60000);
+  // Refrescar también ficha, estadísticas, contexto y destacados desde una misma
+  // publicación. El HTML local sigue siendo usable si Pages no responde.
+  if (mirror) {
+    try {
+      const response = await fetch(remoteRoot + location.pathname, {cache:'no-store', credentials:'omit', signal:AbortSignal.timeout(8000)});
+      if (!response.ok) throw new Error('Publicación no disponible');
+      const remote = new DOMParser().parseFromString(await response.text(), 'text/html');
+      const next = remote.querySelector('main[data-publication]');
+      const currentMain = document.querySelector('main[data-publication]');
+      const canonical = remote.querySelector('link[rel="canonical"]')?.href;
+      const at = Date.parse(next?.dataset.publication);
+      if (next && currentMain && canonical === 'https://www.tallerlab.com.ar' + location.pathname &&
+          Number.isFinite(at) && at <= Date.now() && at >= Date.parse(currentMain.dataset.publication)) {
+        // Las rutas de Pages llevan un prefijo; las páginas quedan en el dominio principal.
+        for (const link of next.querySelectorAll('a[href^="/Taller-Lab/"]')) {
+          link.setAttribute('href', link.getAttribute('href').slice('/Taller-Lab'.length));
+        }
+        currentMain.replaceWith(document.importNode(next, true));
+      }
+    } catch { /* La vigencia se valida igualmente sobre la copia local. */ }
+  }
+  expireSavedPrices();
+
+  function classifyChange(previous, current) {
+    const before = Number(previous.price_ars), after = Number(current.price_ars);
+    const oldRef = Number(previous.reference_ars), newRef = Number(current.reference_ars);
+    const oldOffer = oldRef > before, newOffer = newRef > after;
+    if (before === after) return 'Sin cambio';
+    if (oldOffer && !newOffer && after === oldRef) return 'Fin de oferta';
+    if (newOffer && !oldOffer && before === newRef) return 'Inicio de oferta';
+    if (oldOffer || newOffer) return 'Cambio de oferta';
+    return 'Cambio de precio';
+  }
   if (mirror) {
     for (const link of document.querySelectorAll('a[href]')) {
       const target = new URL(link.href);
@@ -12,19 +74,6 @@
         link.href = remoteRoot + target.pathname;
       }
     }
-  }
-  // Página de modelo: nunca mostrar como vigente un precio con más de 48 horas.
-  const current = document.querySelector('.model-current');
-  if (current) {
-    const checkModel = () => {
-      const at = Date.parse(current.dataset.observed);
-      if (current.dataset.state === 'disponible' && (!Number.isFinite(at) || at > Date.now() || Date.now()-at > 48*3600000)) {
-        current.dataset.state = 'vencido';
-        current.querySelector('.current-price').textContent = '—';
-        const badge = current.querySelector('.badge'); badge.className = 'badge vencido'; badge.textContent = 'Dato vencido';
-      }
-    };
-    checkModel(); setInterval(checkModel, 60000);
   }
   const list = document.getElementById('products');
   if (!list) return;
@@ -35,18 +84,9 @@
   const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es');
   const original = new Map(rows.map((r,i) => [r,i]));
   function refresh() {
-    const now = Date.now();
+    expireSavedPrices();
     let available = 0, unavailable = 0, unverified = 0;
     for (const row of rows) {
-      const at = Date.parse(row.dataset.observed);
-      if (row.dataset.state !== 'error' && row.dataset.observed && (!Number.isFinite(at) || at > now || now-at > 48*3600000)) {
-        row.dataset.state = 'vencido';
-        row.querySelector('.current-price').textContent = '—';
-        row.querySelector('.price-caption').textContent = 'Dato vencido';
-        const badge = row.querySelector('.badge');
-        badge.className = 'badge vencido'; badge.textContent = 'Dato vencido';
-        row.querySelector('.change').textContent = '—';
-      }
       if(row.dataset.state === 'disponible') available++;
       else if(row.dataset.state === 'agotado') unavailable++;
       else unverified++;
@@ -112,6 +152,7 @@
         const previous = series.slice(0,-1).filter(h => h.availability === 'disponible' && h.price_ars).at(-1);
         const change = state === 'disponible' && previous ? (Number(o.price_ars)/Number(previous.price_ars)-1)*100 : null;
         row.querySelector('.change').textContent = change === null ? '—' : (change>=0?'+':'')+change.toFixed(1)+'%';
+        row.querySelector('.product-change small').textContent = change === null ? 'vs. captura anterior' : classifyChange(previous, o);
         row.querySelector('.product-change').classList.toggle('down', change !== null && change < 0);
         const history = row.querySelector('.history');
         for(const old of history.querySelectorAll('.error-note,.reference-note')) old.remove();
@@ -133,7 +174,13 @@
         }
         updated++;
       }
-      if(updated && data.run?.finished_at) document.querySelector('.capture strong').textContent = date(data.run.finished_at);
+      if(updated && data.run?.finished_at) {
+        document.querySelector('.capture strong').textContent = date(data.run.finished_at);
+        // Si el JSON se adelantó al HTML, no mezclar sus precios con destacados antiguos.
+        if (Date.parse(data.run.finished_at) > Date.parse(document.querySelector('main').dataset.publication)) {
+          const moves = document.querySelector('.moves'); if (moves) moves.hidden = true;
+        }
+      }
       refresh();
     } catch {
       const warning = document.getElementById('freshness-warning');

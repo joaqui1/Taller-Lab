@@ -3,6 +3,7 @@ import csv
 import io
 import json
 import tempfile
+import shutil
 import unittest
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
@@ -208,7 +209,49 @@ class FreeObservatoryTests(unittest.TestCase):
                 atomic_json(publication, {'schema_version': 1, 'routes': expected_observatory_paths()[:-1]})
                 self.assertEqual(published_observatory_paths(), [])
                 atomic_json(publication, {'schema_version': 1, 'routes': expected_observatory_paths()})
-                self.assertEqual(published_observatory_paths(), expected_observatory_paths())
+                self.assertEqual(published_observatory_paths(), [])
+
+    def test_promotion_changes_are_not_list_price_increases(self):
+        from observatorio.estatico import classify_change, hub_body
+        previous = {'price_ars': '112744.00', 'reference_ars': '173452.00'}
+        current = {'price_ars': '173452.00', 'reference_ars': None}
+        self.assertEqual(classify_change(previous, current), 'offer_ended')
+        self.assertEqual(classify_change(current, previous), 'offer_started')
+        self.assertEqual(classify_change(previous, dict(current, price_ars='180000.00')), 'offer_changed')
+        self.assertEqual(classify_change(current, dict(current, price_ars='180000.00')), 'price_changed')
+        self.assertEqual(classify_change(previous, previous), 'unchanged')
+        manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+        model = manifest['models'][0]
+        now = datetime.now(timezone.utc)
+        series = [dict(previous, model_id=model['id'], observed_at=(now-timedelta(days=1)).isoformat(), availability='disponible'),
+                  dict(current, model_id=model['id'], observed_at=now.isoformat(), availability='disponible')]
+        rows = snapshot({'observations':series,'latest_attempts':{}}, {'models':[model]}, now)
+        html = hub_body(None, rows, rows, manifest, lambda p:p, now.isoformat(), 'https://www.tallerlab.com.ar'+HUB)
+        soup = BeautifulSoup(html, 'html.parser')
+        self.assertIn('Fin de oferta', soup.select_one('.moves').text)
+        self.assertIn('+53.8%', soup.select_one('.moves').text)
+        self.assertEqual(soup.select_one('.product-change small').text, 'Fin de oferta')
+        self.assertIn('2 días con capturas', soup.select_one('.coverage-note').text)
+
+    @unittest.skipUnless(__import__('importlib.util').util.find_spec('flask'), 'Flask no instalado')
+    def test_all_routes_work_with_only_serverless_copy_and_missing_page_is_not_indexed(self):
+        import app as module
+        from observatorio.estatico import published_observatory_paths
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            summary = build_site(DEFAULT_HISTORY, root/'public', standalone=False)
+            # Simula la función de Vercel: public/ ausente y copia generada disponible.
+            shutil.move(str(root/'public'), str(root/'observatorio_publicado'))
+            with patch('observatorio.estatico.ROOT', root):
+                client = module.app.test_client()
+                for path in summary['routes']:
+                    with self.subTest(path=path), client.get(path) as response:
+                        self.assertEqual(response.status_code, 200)
+                        soup = BeautifulSoup(response.get_data(as_text=True), 'html.parser')
+                        self.assertEqual(soup.select_one('link[rel=canonical]')['href'], 'https://www.tallerlab.com.ar'+path)
+                missing = summary['routes'][-1]
+                (root/'observatorio_publicado'/missing.strip('/')/'index.html').unlink()
+                self.assertNotIn(missing, published_observatory_paths())
 
     def test_failed_generation_fails_the_deployment(self):
         import preparar_assets_publicos as build

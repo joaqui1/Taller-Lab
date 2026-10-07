@@ -1,8 +1,13 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 
-from observatorio.publication_health import publication_warning
+from observatorio.publication_health import publication_warning, verify_live_publication
+from observatorio.estatico import build_site
+from observatorio.gratuito import DEFAULT_HISTORY
 
 
 class PublicationHealthTests(unittest.TestCase):
@@ -36,3 +41,28 @@ class PublicationHealthTests(unittest.TestCase):
                 report['run'].update(finished_at=finished, status=status, captured=captured)
                 with self.assertRaises(ValueError):
                     publication_warning(report, finished, self.now)
+
+    def test_live_verification_requires_all_routes_canonical_and_matching_html(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            history = json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
+            now = datetime.fromisoformat(history['run']['finished_at']) + timedelta(minutes=1)
+            summary = build_site(DEFAULT_HISTORY, root, now=now)
+            expected = summary['run']['finished_at']
+            def fetch(url):
+                path = root / url.removeprefix('https://www.tallerlab.com.ar/')
+                if path.is_dir(): path /= 'index.html'
+                return path.read_text(encoding='utf-8')
+            result = verify_live_publication('https://www.tallerlab.com.ar', expected, fetch, now)
+            self.assertEqual(result['routes'], 53)
+            path = root / summary['routes'][-1].strip('/') / 'index.html'
+            html = path.read_text(encoding='utf-8')
+            path.write_text('<html><h1>No encontrado</h1></html>', encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'Canonical'):
+                verify_live_publication('https://www.tallerlab.com.ar', expected, fetch, now)
+            path.write_text(html.replace('data-publication="'+expected, 'data-publication="2000-01-01'), encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'publicaciones distintas'):
+                verify_live_publication('https://www.tallerlab.com.ar', expected, fetch, now)
+            path.unlink()
+            with self.assertRaises(OSError):
+                verify_live_publication('https://www.tallerlab.com.ar', expected, fetch, now)
