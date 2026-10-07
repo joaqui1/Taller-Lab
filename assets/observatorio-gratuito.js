@@ -30,8 +30,9 @@
       const at = Date.parse(item.dataset.observed);
       if (!Number.isFinite(at) || at > Date.now() || Date.now()-at > 48*3600000) item.hidden = true;
     }
-    const moves = document.querySelector('.moves');
-    if (moves && !moves.querySelector('li:not([hidden])')) moves.hidden = true;
+    for (const moves of document.querySelectorAll('.moves')) {
+      if (!moves.querySelector('li:not([hidden])')) moves.hidden = true;
+    }
   }
   expireSavedPrices(); setInterval(expireSavedPrices, 60000);
   // Refrescar también ficha, estadísticas, contexto y destacados desde una misma
@@ -170,6 +171,11 @@
           for(const value of [date(h.observed_at), h.price_ars ? currency.format(Number(h.price_ars)) : 'Sin precio', labels[h.availability]]) {
             const td = document.createElement('td'); td.textContent = value; tr.appendChild(td);
           }
+          if(h.price_ars && /^\d+\.\d{2}$/.test(h.reference_ars || '') && Number(h.reference_ars) > Number(h.price_ars)) {
+            const tag = document.createElement('small'); tag.className = 'offer-tag';
+            tag.textContent = 'oferta · tachado '+currency.format(Number(h.reference_ars));
+            tr.children[1].append(' ', tag);
+          }
           tbody.appendChild(tr);
         }
         updated++;
@@ -178,7 +184,7 @@
         document.querySelector('.capture strong').textContent = date(data.run.finished_at);
         // Si el JSON se adelantó al HTML, no mezclar sus precios con destacados antiguos.
         if (Date.parse(data.run.finished_at) > Date.parse(document.querySelector('main').dataset.publication)) {
-          const moves = document.querySelector('.moves'); if (moves) moves.hidden = true;
+          for (const moves of document.querySelectorAll('.moves')) moves.hidden = true;
         }
       }
       refresh();
