@@ -86,6 +86,10 @@ LABELS = {'disponible':'Disponible', 'agotado':'Agotado', 'vencido':'Dato vencid
           'error':'Sin verificación', 'pendiente':'Sin captura', 'desconocido':'Stock sin confirmar'}
 
 
+def offer_tag(o):
+    return f' <small class="offer-tag">oferta · tachado {esc(peso(o["reference_ars"]))}</small>' if is_offer(o) else ''
+
+
 def render_row(row, sources, href=None):
     m = row['model']; o = row['observation']; state = row['state']; source = sources[m['source']]
     latest = o['observed_at'] if o else ''
@@ -93,7 +97,7 @@ def render_row(row, sources, href=None):
     price = peso(o['price_ars']) if active else '—'
     change = f"{row['change']:+.1f}%" if row['change'] is not None else '—'
     direction = 'down' if row['change'] is not None and row['change'] < 0 else ''
-    history = ''.join(f'<tr><td>{esc(stamp(h["observed_at"]))}</td><td>{esc(peso(h["price_ars"]))}</td><td>{esc(LABELS[h["availability"]])}</td></tr>' for h in reversed(row['series'][-30:]))
+    history = ''.join(f'<tr><td>{esc(stamp(h["observed_at"]))}</td><td>{esc(peso(h["price_ars"]))}{offer_tag(h)}</td><td>{esc(LABELS[h["availability"]])}</td></tr>' for h in reversed(row['series'][-30:]))
     if not history: history = '<tr><td colspan="3">Todavía no hay una observación válida.</td></tr>'
     reason = row['attempt'].get('reason', '')
     note = '<p class="error-note">'+esc(reason)+'</p>' if reason and state == 'error' else ''
@@ -111,7 +115,7 @@ SITE = 'https://www.tallerlab.com.ar'
 DATA_LICENSE = 'https://creativecommons.org/licenses/by/4.0/deed.es'
 VERDICT_MIN = 14
 STATS_WINDOW = 90
-ASSET_VERSION = '4'
+ASSET_VERSION = '5'
 GUIDES = Path(__file__).resolve().parent / 'guias_por_modelo.json'
 ART = ZoneInfo('America/Argentina/Buenos_Aires')
 MODEL_RE = re.compile(r'^/datos/precios/(' + '|'.join(CATEGORIES) + r')/([a-z0-9-]+)/$')
@@ -145,10 +149,24 @@ def priced(series):
     return [o for o in series if o['availability'] == 'disponible' and o['price_ars']]
 
 
+def is_offer(o):
+    """La ficha mostraba un precio tachado mayor al cobrado: un descuento visible ese día."""
+    try:
+        return bool(o.get('reference_ars')) and Decimal(o['reference_ars']) > Decimal(o['price_ars'])
+    except (ArithmeticError, TypeError, ValueError, KeyError):
+        return False
+
+
 def price_stats(series):
-    values = [Decimal(o['price_ars']) for o in priced(series)[-STATS_WINDOW:]]
+    window = priced(series)[-STATS_WINDOW:]
+    values = [Decimal(o['price_ars']) for o in window]
     if not values: return None
-    return {'n': len(values), 'min': min(values), 'max': max(values), 'median': statistics.median(values)}
+    low = min(values)
+    # Si el mínimo solo se vio con descuento visible, se aclara: no es el precio habitual.
+    min_offer = next((o for o in window if Decimal(o['price_ars']) == low and is_offer(o)), None)
+    if min_offer and any(Decimal(o['price_ars']) == low and not is_offer(o) for o in window):
+        min_offer = None
+    return {'n': len(values), 'min': low, 'max': max(values), 'median': statistics.median(values), 'min_offer': min_offer}
 
 
 def verdict(row, stats):
@@ -193,7 +211,17 @@ def movements(rows):
         if not start: continue
         change = (Decimal(last['price_ars']) / Decimal(start['price_ars']) - 1) * 100
         if abs(change) >= 1: result.append((change, r, start))
-    return sorted(result, key=lambda m: -abs(m[0]))[:6]
+    return sorted(result, key=lambda m: -abs(m[0]))
+
+
+OFFER_KINDS = ('offer_ended', 'offer_started', 'offer_changed')
+
+
+def split_movements(moves):
+    """Separa cambios del precio publicado de entradas y salidas de ofertas: no se mezclan en un mismo ranking."""
+    prices = [m for m in moves if classify_change(m[2], m[1]['observation']) not in OFFER_KINDS]
+    offers = [m for m in moves if classify_change(m[2], m[1]['observation']) in OFFER_KINDS]
+    return prices[:6], offers[:6]
 
 
 def dataset_schema(name, description, canonical, csv_url, observations, modified):
@@ -253,11 +281,14 @@ def hub_body(category, selected, rows, manifest, url, observed, canonical):
     title_html = 'Precios de herramientas<br>en Argentina.' if not category else 'Precios de ' + CATEGORIES[category].lower() + '<br>en Argentina.'
     sources = len({r['model']['source'] for r in selected})
     crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', url(HUB) if category else None)] + ([(CATEGORIES[category], None)] if category else [])
-    moves = movements(selected)
+    price_moves, offer_moves = split_movements(movements(selected))
     moves_html = ''
-    if moves:
-        items = ''.join(f'<li data-observed="{esc(r["observation"]["observed_at"])}"><a href="{url(model_path(r["model"]))}">{esc(r["model"]["brand"]+" "+r["model"]["model"])}</a><strong class="{"down" if ch < 0 else "up"}">{ch:+.1f}%</strong><small>{CHANGE_LABELS[classify_change(start, r["observation"])]} · desde {esc(day(start["observed_at"]))} · última captura {esc(short_peso(Decimal(r["observation"]["price_ars"])))}</small></li>' for ch, r, start in moves)
-        moves_html = f'<section class="moves" aria-labelledby="moves-title"><p class="eyebrow">Ventana de hasta 30 días</p><h2 id="moves-title">Cambios del precio publicado</h2><ul>{items}</ul><p class="reading-note">Comparamos la primera y la última captura disponible de la misma ficha en esa ventana. El fin de una oferta cambia el importe a pagar; no demuestra un aumento del precio de lista.</p></section>'
+    if price_moves:
+        items = ''.join(f'<li data-observed="{esc(r["observation"]["observed_at"])}"><a href="{url(model_path(r["model"]))}">{esc(r["model"]["brand"]+" "+r["model"]["model"])}</a><strong class="{"down" if ch < 0 else "up"}">{ch:+.1f}%</strong><small>{CHANGE_LABELS[classify_change(start, r["observation"])]} · desde {esc(day(start["observed_at"]))} · última captura {esc(short_peso(Decimal(r["observation"]["price_ars"])))}</small></li>' for ch, r, start in price_moves)
+        moves_html += f'<section class="moves" aria-labelledby="moves-title"><p class="eyebrow">Ventana de hasta 30 días</p><h2 id="moves-title">Cambios del precio publicado</h2><ul>{items}</ul><p class="reading-note">Comparamos la primera y la última captura disponible de la misma ficha en esa ventana. Las ofertas que empiezan o terminan se muestran aparte.</p></section>'
+    if offer_moves:
+        items = ''.join(f'<li data-observed="{esc(r["observation"]["observed_at"])}"><a href="{url(model_path(r["model"]))}">{esc(r["model"]["brand"]+" "+r["model"]["model"])}</a><strong class="neutral">{CHANGE_LABELS[classify_change(start, r["observation"])]}</strong><small>{esc(short_peso(Decimal(start["price_ars"])))} el {esc(day(start["observed_at"]))} → {esc(short_peso(Decimal(r["observation"]["price_ars"])))} en la última captura</small></li>' for ch, r, start in offer_moves)
+        moves_html += f'<section class="moves offers" aria-labelledby="offers-title"><p class="eyebrow">Ventana de hasta 30 días</p><h2 id="offers-title">Ofertas que empezaron o terminaron</h2><ul>{items}</ul><p class="reading-note">El comercio mostraba un precio tachado. Cuando una oferta termina cambia el importe a pagar, pero eso no demuestra que haya subido el precio de lista.</p></section>'
     capture_days = {day(o['observed_at']) for r in selected for o in r['series']}
     split = ', '.join(f'{sum(r["model"]["source"] == key for r in selected)} de {esc(source["name"])}' for key, source in manifest['sources'].items() if any(r['model']['source'] == key for r in selected))
     guide_link = f'<a href="{SITE}/{category}/">Leer la guía de {CATEGORIES[category].lower()} ↗</a>' if category else f'<a href="{SITE}/">Ver las guías de compra ↗</a>'
@@ -286,8 +317,10 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
         stat_cells = f'<div><strong>{esc(short_peso(stats["min"]))}</strong><span>mínimo observado</span></div><div><strong>{esc(short_peso(stats["median"]))}</strong><span>mediana</span></div><div><strong>{esc(short_peso(stats["max"]))}</strong><span>máximo observado</span></div>'
     else:
         stat_cells = '<div><strong>—</strong><span>mínimo observado</span></div><div><strong>—</strong><span>mediana</span></div><div><strong>—</strong><span>máximo observado</span></div>'
+    low = stats['min_offer'] if stats else None
+    min_offer_note = f'<p class="reference-note min-offer-note">El mínimo observado fue un precio en oferta: el {esc(day(low["observed_at"]))} la ficha mostraba {esc(peso(low["price_ars"]))} con un tachado de {esc(peso(low["reference_ars"]))}. No es el precio habitual.</p>' if low else ''
     since = day(row['series'][0]['observed_at']) if row['series'] else ''
-    history = ''.join(f'<tr><td>{esc(stamp(h["observed_at"]))}</td><td>{esc(peso(h["price_ars"]))}</td><td>{esc(LABELS.get(h["availability"], h["availability"]))}</td></tr>' for h in reversed(row['series'][-120:])) or '<tr><td colspan="3">Todavía no hay una observación válida.</td></tr>'
+    history = ''.join(f'<tr><td>{esc(stamp(h["observed_at"]))}</td><td>{esc(peso(h["price_ars"]))}{offer_tag(h)}</td><td>{esc(LABELS.get(h["availability"], h["availability"]))}</td></tr>' for h in reversed(row['series'][-120:])) or '<tr><td colspan="3">Todavía no hay una observación válida.</td></tr>'
     guide_items = ''.join(f'<li><a href="{SITE}{esc(g["url"])}">{esc(g["title"])}</a></li>' for g in guides.get(m['id'], []))
     guide_items += f'<li><a href="{SITE}/{m["category"]}/">Guía de compra de {esc(category.lower())}</a></li>'
     def other_price(r):
@@ -299,7 +332,7 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
     observed_at = o['observed_at'] if o else ''
     return f'''{breadcrumb_html(crumbs)}<section class="model-hero"><div><p class="eyebrow">Historial de precio · {esc(category)}</p><h1>Precio del {esc(m['brand'])} <span class="nw">{esc(m['model'])}</span><br>en Argentina.</h1><p class="lead">{(esc(variant) + '. ') if variant else ''}Seguimos esta ficha de {esc(source['name'])} todos los días{(' desde el ' + esc(since)) if since else ''} y guardamos cada captura: precio publicado, stock y fecha.</p></div><aside class="model-current" data-state="{row['state']}" data-observed="{esc(observed_at)}"><p class="eyebrow">Último precio observado</p><strong class="current-price">{price}</strong><span class="badge {row['state']}">{LABELS[row['state']]}</span><small>{esc(stamp(observed_at))} · {esc(source['name'])}</small><a class="button" href="{esc(m['url'])}" target="_blank" rel="nofollow noopener noreferrer">Ver la ficha en el comercio <span aria-hidden="true">↗</span></a></aside></section>
 <section class="verdict {kind}" aria-labelledby="verdict-title"><h2 id="verdict-title">¿Es buen precio hoy?</h2><p>{text}</p>{ref}</section>
-<section class="metrics" aria-label="Resumen del historial">{stat_cells}<div><strong>{stats['n'] if stats else 0:02d}</strong><span>capturas con precio</span></div></section>
+<section class="metrics" aria-label="Resumen del historial">{stat_cells}<div><strong>{stats['n'] if stats else 0:02d}</strong><span>capturas con precio</span></div></section>{min_offer_note}
 <section class="model-chart" aria-labelledby="chart-title"><h2 id="chart-title">Evolución del precio del {esc(m['model'])}</h2>{chart_svg(row['series'], 'Evolución del precio publicado del ' + name)}</section>
 <section class="model-history" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">Todas las capturas</h2><a class="download" download="precios-{m['category']}.csv" href="{url('/datos/precios/' + m['category'] + '/historial.csv')}">Descargar CSV <span aria-hidden="true">↓</span></a></div><div class="history-scroll"><table><caption>Capturas de {esc(name)}{(' (' + esc(variant) + ')') if variant else ''} en {esc(source['name'])}</caption><thead><tr><th>Captura</th><th>Precio observado (ARS)</th><th>Stock observado</th></tr></thead><tbody>{history}</tbody></table></div><p class="reading-note">Los importes históricos no son ofertas vigentes. Sin envío, cuotas ni descuentos por medio de pago. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p></section>
 <section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá en la ficha el voltaje y qué incluye la caja. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>El comercio confirma stock, envío y precio final; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div><h2>Guías relacionadas</h2><ul class="link-list">{guide_items}</ul></div></section>

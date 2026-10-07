@@ -3,10 +3,20 @@ name: Observatorio gratuito - captura y publicación
 on:
   workflow_dispatch:
   schedule:
-    # 07:17 de Argentina; GitHub puede demorar los cron.
+    # GitHub demora o descarta ejecuciones programadas (el 07/10 la de 07:17 corrió
+    # a las 14:24 y la de 10:37 no corrió). Por eso hay varios horarios a lo largo
+    # del día de Argentina, en minutos poco usados. La captura es idempotente por
+    # día/modelo: una ejecución posterior solo reintenta los modelos que fallaron.
+    # 00:43 ART: primera oportunidad del día.
+    - cron: '43 3 * * *'
+    # 04:13 ART.
+    - cron: '13 7 * * *'
+    # 07:17 ART (horario original).
     - cron: '17 10 * * *'
-    # Respaldos a las 10:37 y 16:37 ART. La captura es idempotente por día/modelo.
+    # 10:37 y 16:37 ART.
     - cron: '37 13,19 * * *'
+    # 19:23 ART: último respaldo antes de que cierre el día.
+    - cron: '23 22 * * *'
   push:
     branches: [main]
     paths:

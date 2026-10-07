@@ -11,8 +11,10 @@ Vercel debe compilar `main`, no intentar encontrar una aplicación en el histori
 
 ## Horarios y recuperación
 
-- Primera ejecución: 07:17 ART. Respaldos: 10:37 y 16:37 ART.
-- GitHub puede demorar u omitir ejecuciones programadas; tres horarios reducen
+- Ejecuciones programadas: 00:43, 04:13, 07:17, 10:37, 16:37 y 19:23 ART. GitHub
+  puede demorarlas o descartarlas; con varios horarios basta con que corra una
+  por día. Cada ejecución posterior solo reintenta los modelos que fallaron.
+- GitHub puede demorar u omitir ejecuciones programadas; seis horarios reducen
   el riesgo, pero no constituyen una garantía de disponibilidad.
 - Las ejecuciones se serializan. Una ficha ya capturada ese día no se consulta
   otra vez. Las fallidas se reintentan y nunca se rellenan días sin evidencia.
@@ -86,3 +88,13 @@ no alcanza con agregar URLs parecidas ni con bajar el umbral del veredicto.
   de las 14:11 ART a las 14:23, posterior al nuevo push del historial. La ejecución
   programada siguiente pasó el control completo; se corrigió además la descarga
   cacheada para no depender de ese reintento.
+
+## Ofertas en el hub y en las fichas
+
+- «Cambios del precio publicado» solo muestra cambios sin oferta de por medio
+  (`price_changed`). Los fines, inicios y cambios de oferta van en un bloque
+  aparte, «Ofertas que empezaron o terminaron», sin porcentaje ni color de alza.
+- En los historiales, una captura con precio tachado mayor al cobrado lleva la
+  etiqueta «oferta · tachado $…».
+- Si el mínimo observado de una ficha solo se vio con descuento visible, la
+  página del modelo lo aclara debajo de las métricas.

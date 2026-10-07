@@ -228,8 +228,26 @@ class FreeObservatoryTests(unittest.TestCase):
         rows = snapshot({'observations':series,'latest_attempts':{}}, {'models':[model]}, now)
         html = hub_body(None, rows, rows, manifest, lambda p:p, now.isoformat(), 'https://www.tallerlab.com.ar'+HUB)
         soup = BeautifulSoup(html, 'html.parser')
-        self.assertIn('Fin de oferta', soup.select_one('.moves').text)
-        self.assertIn('+53.8%', soup.select_one('.moves').text)
+        # El fin de una oferta no compite en el ranking de cambios de precio.
+        self.assertIsNone(soup.select_one('#moves-title'))
+        offers = soup.select_one('.moves.offers')
+        self.assertIn('Fin de oferta', offers.text)
+        self.assertNotIn('+53.8%', offers.text)
+        self.assertIsNone(offers.select_one('strong.up'))
+        self.assertIn('oferta · tachado', soup.select_one('.history tbody').text)
+        from observatorio.estatico import model_body, price_stats
+        stats = price_stats(rows[0]['series'])
+        self.assertEqual(stats['min_offer']['price_ars'], '112744.00')
+        page = BeautifulSoup(model_body(rows[0], rows, manifest['sources'], {}, lambda p:p, 'https://www.tallerlab.com.ar/x/', now.isoformat()), 'html.parser')
+        self.assertIn('fue un precio en oferta', page.select_one('.min-offer-note').text)
+        # Un aumento real sí aparece como cambio de precio, separado de las ofertas.
+        plain = [dict(current, model_id=model['id'], observed_at=(now-timedelta(days=1)).isoformat(), availability='disponible'),
+                 dict(current, price_ars='180000.00', model_id=model['id'], observed_at=now.isoformat(), availability='disponible')]
+        plain_rows = snapshot({'observations':plain,'latest_attempts':{}}, {'models':[model]}, now)
+        plain_soup = BeautifulSoup(hub_body(None, plain_rows, plain_rows, manifest, lambda p:p, now.isoformat(), 'https://www.tallerlab.com.ar'+HUB), 'html.parser')
+        self.assertIn('+3.8%', plain_soup.select_one('#moves-title').parent.text)
+        self.assertIsNone(plain_soup.select_one('.moves.offers'))
+        self.assertIsNone(price_stats(plain_rows[0]['series'])['min_offer'])
         self.assertEqual(soup.select_one('.product-change small').text, 'Fin de oferta')
         self.assertIn('2 días con capturas', soup.select_one('.coverage-note').text)
 
