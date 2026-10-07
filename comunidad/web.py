@@ -304,12 +304,24 @@ def question_view(tool, question_id, requested_path=None, error='', status=200):
         noindex=not answers, head_extra=head, error=error, status=status)
 
 
+def closed_page(path, tool=None):
+    """Comunidad sin almacenamiento configurado: está cerrada, no caída. 200 + noindex, nunca 503 indefinido."""
+    return page('message.html', 'La comunidad todavía no está abierta', path, noindex=True,
+                error='La participación de la comunidad todavía no está abierta.',
+                detail=('Mientras tanto podés consultar la ficha técnica documentada de este modelo.' if tool else
+                        'Mientras tanto podés consultar las fichas técnicas documentadas.'),
+                back_url=(f'/herramientas/{tool.slug}/' if tool else '/herramientas/'),
+                back_label=('Ver la ficha técnica' if tool else 'Ver las fichas técnicas'))
+
+
 @bp.get('/comunidad/modelos/<slug>/')
 def model(slug):
     tool = get_tool_by_slug(slug)
     if not tool:
         return page('message.html', 'Modelo no encontrado', '/comunidad/', noindex=True, status=404,
                     error='Ese modelo no está en el catálogo. Buscá una herramienta para participar.')
+    if not db.readable():
+        return closed_page(f'/comunidad/modelos/{tool.slug}/', tool)
     return model_view(tool)
 
 
@@ -320,7 +332,7 @@ def question(slug, qpath):
         return page('message.html', 'Modelo no encontrado', '/comunidad/', noindex=True, status=404,
                     error='Ese modelo no está en el catálogo. Buscá una herramienta para participar.')
     if not db.readable():
-        return question_view(tool, '')
+        return closed_page(f'/comunidad/modelos/{tool.slug}/', tool)
     try:
         question_id = db.find_question(slug, qpath.rsplit('-', 1)[-1])
     except Exception:

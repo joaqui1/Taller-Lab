@@ -183,9 +183,11 @@ class CommunityTests(unittest.TestCase):
         with patch.dict(os.environ, {'APP_ENV': 'production', 'COMUNIDAD_SESSION_SECRET': '', 'RELEVAMIENTO_SESSION_SECRET': ''}):
             self.assertFalse(db.readable())
             self.assertFalse(db.enabled())
+            # Sin almacenamiento configurado la comunidad está cerrada, no caída: página informativa noindex.
             res = self.client.get(URL)
-            self.assertEqual(res.status_code, 503)
-            self.assertEqual(res.headers['Retry-After'], '600')
+            self.assertEqual(res.status_code, 200)
+            self.assertIn('noindex', res.text)
+            self.assertIn('todavía no está abierta', res.text)
             self.assertEqual(self.send(**self.post()).status_code, 503)
             with self.assertRaises(RuntimeError):
                 with db.connection():

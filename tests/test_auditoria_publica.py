@@ -120,5 +120,50 @@ class PerfilDeAutor(unittest.TestCase):
         self.assertTrue(perfiles[0]['mainEntity']['knowsAbout'])
 
 
+class ComunidadCerrada(unittest.TestCase):
+    """Producción sin base de comunidad: cerrada por configuración, no caída."""
+    INVITACIONES = ('Contar mi experiencia', 'Preguntar sobre este modelo', 'Participar del sondeo', '#contar', '#preguntar')
+
+    def setUp(self):
+        from comunidad import storage as db
+        self.patches = [patch.object(db, 'readable', return_value=False), patch.object(db, 'enabled', return_value=False)]
+        for p in self.patches:
+            p.start()
+        from app import app
+        self.client = app.test_client()
+
+    def tearDown(self):
+        for p in self.patches:
+            p.stop()
+
+    def test_ficha_sin_invitaciones(self):
+        html = self.client.get('/herramientas/bosch-gsb-18v-50/').get_data(as_text=True)
+        for texto in self.INVITACIONES:
+            self.assertNotIn(texto, html)
+        self.assertNotIn('id="comunidad-modelo"', html)
+
+    def test_guia_sin_bloque_de_comunidad(self):
+        html = self.client.get('/taladros/percutores/').get_data(as_text=True)
+        self.assertNotIn('id="comunidad-guia"', html)
+        for texto in self.INVITACIONES:
+            self.assertNotIn(texto, html)
+
+    def test_paginas_de_modelo_no_devuelven_503(self):
+        res = self.client.get('/comunidad/modelos/bosch-gsb-18v-50/')
+        self.assertEqual(res.status_code, 200)
+        html = res.get_data(as_text=True)
+        self.assertIn('noindex', html)
+        self.assertIn('todavía no está abierta', html)
+        self.assertIn('/herramientas/bosch-gsb-18v-50/', html)
+        res = self.client.get('/comunidad/modelos/bosch-gsb-18v-50/preguntas/algo-123/')
+        self.assertEqual(res.status_code, 200)
+
+    def test_portada_sin_invitar_a_participar(self):
+        html = self.client.get('/comunidad/').get_data(as_text=True)
+        self.assertIn('todavía no está abierta', html)
+        self.assertNotIn('Compartí la tuya', html)
+        self.assertNotIn('class="co-model-grid"', html)
+
+
 if __name__ == '__main__':
     unittest.main()

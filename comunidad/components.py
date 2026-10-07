@@ -248,10 +248,14 @@ def render_model_community(tool):
     name = escape(tool.brand + ' ' + tool.model_name)
     base = f'/comunidad/modelos/{slug}/'
     stats = db.safe_overview().get(tool.slug)
+    opened = db.enabled()
+    # Mientras la participación está cerrada no se invita a contar, preguntar ni votar.
     actions = f'''<div class="co-teaser-actions"><a href="{base}#contar">Contar mi experiencia</a>
       <a href="{base}#preguntas">Preguntar sobre este modelo</a>
-      <a href="{base}#sondeo">Participar del sondeo</a></div>'''
+      <a href="{base}#sondeo">Participar del sondeo</a></div>''' if opened else ''
     if not stats or not (stats['reviews'] or stats['questions']):
+        if not opened:
+            return ''
         return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=3">
     <section class="co-teaser" id="comunidad-modelo" aria-label="Comunidad de este modelo">
       <p class="co-kicker">TallerLab Comunidad</p><h2>Opiniones de usuarios de {name}</h2>
@@ -323,6 +327,8 @@ def guide_community_search(article):
 
 def render_guide_community_entry(article):
     """Acceso superior solo cuando hay contenido real que leer; si no, la guía conserva su foco."""
+    if not db.enabled():
+        return ''  # apunta a #comunidad-guia, que no se muestra con la comunidad cerrada
     tools = guide_community_tools(article)
     overview = db.safe_overview()
     total = sum(overview.get(t.slug, {}).get('reviews', 0) + overview.get(t.slug, {}).get('questions', 0) for t in tools)
@@ -333,6 +339,9 @@ def render_guide_community_entry(article):
 
 
 def render_guide_community(article):
+    if not db.enabled():
+        # El bloque es una invitación a participar: no se muestra con la comunidad cerrada.
+        return ''
     tools = guide_community_tools(article)
     overview = db.safe_overview()
     items = []
