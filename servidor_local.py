@@ -1228,14 +1228,6 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
     elif (path in TALLERLAB_DATA_EDITORIAL_PATHS or path == "/herramientas/comparaciones/") and not tool_path_is_indexable(path):
         robots_meta = '<meta name="robots" content="noindex, follow">'
 
-    elif path == AUTHOR_PATH:
-        profile_page = {"@context": "https://schema.org", "@type": "ProfilePage",
-                        "url": absolute_url(AUTHOR_PATH),
-                        "mainEntity": {**author_schema(), "knowsAbout": [meta["name"] for meta in CATEGORY_META.values()]}}
-        perfil = author_profile()
-        if perfil["experiencia"] or perfil["formacion"]:
-            profile_page["mainEntity"]["description"] = " ".join(x for x in (perfil["experiencia"], perfil["formacion"]) if x)
-        tallerlab_schema = '<script type="application/ld+json">' + json.dumps(profile_page, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     elif path in RELEVAMIENTO_PATHS and not relevamiento_abierto():
         # Mientras el relevamiento no recibe respuestas, su aviso no compite en buscadores.
         robots_meta = '<meta name="robots" content="noindex, follow">'
@@ -2428,7 +2420,7 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
         if extra:
             members_html = '<section class="markdown-body">' + "".join(extra) + '</section>' + members_html
     content = f'<div class="article-container"><div class="article-header"><h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
-    schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": author_schema()}, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps(author_profile_page_schema(), ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path) + schema, PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 
@@ -2929,6 +2921,16 @@ def author_schema(name=AUTHOR_NAME):
     if perfil["email"]:
         schema["email"] = "mailto:" + perfil["email"]
     return schema
+
+
+def author_profile_page_schema():
+    """Un único ProfilePage para la página de autor, con los datos reales de perfil_autor.json."""
+    person = {**author_schema(), "knowsAbout": [meta["name"] for meta in CATEGORY_META.values()]}
+    perfil = author_profile()
+    descripcion = " ".join(x for x in (perfil["experiencia"], perfil["formacion"]) if x)
+    if descripcion:
+        person["description"] = descripcion
+    return {"@context": "https://schema.org", "@type": "ProfilePage", "url": absolute_url(AUTHOR_PATH), "mainEntity": person}
 
 
 def article_schema_tag(article):

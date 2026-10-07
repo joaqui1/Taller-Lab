@@ -109,13 +109,15 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
 
 
 class PerfilDeAutor(unittest.TestCase):
-    def test_pagina_de_autor_declara_person(self):
+    def test_pagina_de_autor_declara_un_solo_person(self):
         import servidor_local as site
-        tag = site.canonical_tag(site.AUTHOR_PATH)
-        bloques = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', tag)]
-        perfil = next(b for b in bloques if b.get('@type') == 'ProfilePage')
-        self.assertEqual(perfil['mainEntity']['@type'], 'Person')
-        self.assertEqual(perfil['mainEntity']['name'], site.AUTHOR_NAME)
+        html = site.render_editorial_page('equipo')
+        bloques = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html)]
+        perfiles = [b for b in bloques if b.get('@type') == 'ProfilePage']
+        self.assertEqual(len(perfiles), 1)
+        self.assertEqual(perfiles[0]['mainEntity']['@type'], 'Person')
+        self.assertEqual(perfiles[0]['mainEntity']['name'], site.AUTHOR_NAME)
+        self.assertTrue(perfiles[0]['mainEntity']['knowsAbout'])
 
 
 if __name__ == '__main__':
