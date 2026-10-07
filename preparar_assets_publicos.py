@@ -67,10 +67,19 @@ def latest_history(default):
     """
     import json
     import tempfile
+    import time
+    import urllib.parse
     import urllib.request
     from observatorio.gratuito import read_history
     try:
-        with urllib.request.urlopen(HISTORY_URL, timeout=20) as response:
+        # El hook corre segundos después del push. La URL mutable de raw.github
+        # puede seguir cacheada y producir un deploy correcto con datos viejos.
+        parts = urllib.parse.urlsplit(HISTORY_URL)
+        query = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+        query.append(('publication', str(time.time_ns())))
+        url = urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(query)))
+        request = urllib.request.Request(url, headers={'Cache-Control': 'no-cache'})
+        with urllib.request.urlopen(request, timeout=20) as response:
             data = response.read(20_000_000)
         target = Path(tempfile.mkdtemp()) / 'precios-observatorio.json'
         target.write_bytes(data)
