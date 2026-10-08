@@ -2118,12 +2118,12 @@
     }
   },
   "run": {
-    "started_at": "2026-10-08T10:56:36.841290+00:00",
-    "finished_at": "2026-10-08T10:58:42.743515+00:00",
+    "started_at": "2026-10-08T14:32:49.972751+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-10-08T14:32:49.975486+00:00"
   }
 }
