@@ -1,0 +1,50 @@
+# Guía para agentes de TallerLab
+
+## El sitio y las reglas editoriales
+
+TallerLab publica en español rioplatense guías de compra de herramientas para Argentina. Las guías se basan en documentación oficial de fabricantes; no se hacen pruebas físicas.
+
+- No inventes datos, credenciales, revisores ni pruebas. Separá los datos documentados de las conclusiones editoriales y enlazá las fuentes consultadas.
+- No publiques ni cambies contenido editorial que el dueño no haya cargado o autorizado. En `paginas/`, `published: "true"` y los campos documentales completos habilitan la publicación; no los agregues para hacer visible un borrador.
+- Los enlaces afiliados de Mercado Libre (`meli.la` y dominios de Mercado Libre) deben llevar `rel="sponsored"` (normalmente también `nofollow noopener noreferrer`). Conservá la identificación y el aviso de afiliación.
+- Usá las fechas `dd/mm/aaaa` del frontmatter `reviewed`; no atribuyas revisión o autoría a terceros sin respaldo.
+
+## Mapa del código
+
+- `app.py`: entrada Flask para Vercel; `app = Flask(...)` cerca de la línea 56. Tiene rutas de APIs, assets y descargas. La ruta general `page()` (líneas 352–354) despacha páginas y redirecciones. Las redirecciones están aquí, no en `vercel.json`.
+- `servidor_local.py`: render compartido con Vercel y servidor local. `PORT` es 8080 (línea 150); `extract_frontmatter()` (171), `load_all_articles()` (899), filtro de guías publicables (973) e `INDEXABLE_PATHS` (995).
+- `servidor_local.py`: `organization_schema()` (1030), `canonical_tag()` (1138), `render_sitemap()` (1415), `HTML_SHELL` (1569; menú, estructura general y pie), `render_editorial_page()` (2320), `render_home_page()` (2427), `render_article_page()` (2594), `author_schema()` (2909), `article_schema_tag()` (2936). Las líneas son aproximadas y pueden cambiar.
+- `paginas/`: guías Markdown con frontmatter. Las de amoladoras están directamente en esta carpeta; las demás, en subcarpetas por categoría. El cargador lee `title`, `h1`, `url`, `description`, `author`, `reviewed`, `published`, `research_type`, `physical_test`, `specifications_contrasted`, `buyer_opinions`, `primary_sources`, `information_asset`, `asset_status`, `category` y `keywords`.
+- `perfil_autor.json`: datos del autor. `paginas_institucionales.py`: contenido institucional que renderiza `render_editorial_page()` (metodología, autor, contacto y privacidad).
+- `tallerlab_data/`: fichas de `/herramientas/`, comparador, fuentes y enlaces a guías; `guide_links.py` define enlaces entre fichas y guías; `quality.py` contiene `tool_is_indexable()` y reglas de respaldo documental.
+- `observatorio/`: datos y publicación de precios. En producción de Vercel requiere PostgreSQL mediante `DATABASE_URL` (`observatorio/db.py`, alrededor de la línea 26). No intervengas en el trabajo en curso de este módulo.
+- `compatibilidad/`: reglas, datos, búsqueda, presentación y pipeline de compatibilidad.
+- `comunidad/`: páginas, componentes y almacenamiento de la comunidad. `relevamiento_piloto.py`: flujo de relevamiento.
+- `alertas_*.py`: alertas editoriales y sus rutas. `recursos_editoriales.py`: recursos asociados a guías. `assets/decision-tools.js`: calculadoras y herramientas interactivas embebidas en guías.
+- `vercel.json`: build `python preparar_assets_publicos.py` y cron jobs de alertas, compatibilidad y comunidad; actualmente no programa el endpoint `/api/observatorio/ejecutar`. `requirements.txt` fija Flask 3.1.3; el workflow de CI usa Python 3.12.
+
+### Agregar una ruta
+
+1. Para producción, declarala en `app.py` con Flask o agregá su despacho a `page()` (desde la línea 352), según el tipo de respuesta.
+2. Para que funcione en local, agregá el despacho equivalente en `TallerLabHandler.do_GET()` de `servidor_local.py` (desde la línea 3070); reutilizá las funciones de render compartidas cuando corresponda.
+3. Si la URL debe indexarse, añadila a `INDEXABLE_PATHS` en `servidor_local.py` (línea aproximada 995) y verificá que sitemap y canonical la incluyan. Para páginas de datos, respetá además sus reglas específicas de indexación.
+4. Si es una página editorial, el dueño debe cargar o autorizar el contenido antes de publicarla.
+
+## Desarrollo y verificaciones
+
+- Requiere Python 3.12; instalá dependencias con `python -m pip install -r requirements.txt`.
+- Iniciá el sitio local con `python servidor_local.py` y abrí `http://localhost:8080`.
+- Corré las verificaciones del proyecto:
+  - `python -m unittest discover -s tests -p 'test_*.py'`
+  - `python verificar_tallerlab_data.py`
+  - `python preparar_assets_publicos.py`
+- `.github/workflows/verificacion-produccion.yml` también ejecuta `verificar_alertas` y `verificar_relevamiento_seguro` en CI.
+
+## Flujo de trabajo
+
+- Trabajá en la rama local `mejoras-autoridad`, creada desde `main` actualizado. No hagas push ni abras pull requests hasta que el dueño lo decida.
+- Hacé un commit por tarea y limitá cada commit a los archivos de esa tarea.
+- No toques el trabajo en curso del Observatorio.
+- No modifiques ni muevas los archivos sueltos de la raíz que sean informes, JSON de QA o patches. Dejalos donde están.
+
+## Cambios recientes
