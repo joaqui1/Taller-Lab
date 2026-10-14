@@ -1,0 +1,4 @@
+{
+  "_instrucciones": "Agregar solo consultas reales enviadas a fabricantes. Fechas en formato dd/mm/aaaa. estado admite enviada, respondida, sin_respuesta o rechazada. respuesta_textual debe conservar literalmente la respuesta recibida; usar fecha_respuesta solo cuando exista una respuesta. guias es una lista de rutas públicas terminadas en /. Publicación automática a partir de cinco registros válidos. Los id deben ser únicos, minúsculos y separados por guiones.",
+  "consultas": []
+}

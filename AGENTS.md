@@ -22,6 +22,7 @@ TallerLab publica en español rioplatense guías de compra de herramientas para 
 - `comunidad/`: páginas, componentes y almacenamiento de la comunidad. `relevamiento_piloto.py`: flujo de relevamiento.
 - `alertas_*.py`: alertas editoriales y sus rutas. `recursos_editoriales.py`: recursos asociados a guías. `assets/decision-tools.js`: calculadoras y herramientas interactivas embebidas en guías.
 - `servidor_local.py`: páginas de calculadoras y embeds reutilizan `render_resource()` y `assets/decision-tools.js`. Rutas indexables: `/calculadoras/`, `/calculadoras/generador-para-casa/`, `/calculadoras/caudal-compresor/`, `/calculadoras/costo-final-oferta/` y `/calculadoras/consumo-agua-hidrolavadora/`. Rutas de inserción noindex: `/embed/calculadoras/{generador-para-casa,caudal-compresor,costo-final-oferta,consumo-agua-hidrolavadora}/`.
+- `publicaciones_autoridad.py` lee los JSON raíz `quienes_somos.json`, `consultas_fabricantes.json` y `prensa.json`. Publica condicionalmente `/quienes-somos/` (cinco apartados y `publicado: true`), `/fabricantes/respuestas/` (cinco consultas válidas; CSV en `/fabricantes/respuestas/descargar.csv`) y `/en-los-medios/` (una mención válida). Los enlaces del pie y el sitemap siguen esos mismos estados. Las guías pueden insertar una respuesta literal asociada con `{{respuesta_fabricante:id}}`; solo se muestra si el registro está respondido y enumera la ruta de esa guía en `guias`.
 - `vercel.json`: build `python preparar_assets_publicos.py` y cron jobs de alertas, compatibilidad y comunidad; actualmente no programa el endpoint `/api/observatorio/ejecutar`. `requirements.txt` fija Flask 3.1.3; el workflow de CI usa Python 3.12.
 
 ### Agregar una ruta
@@ -40,6 +41,7 @@ TallerLab publica en español rioplatense guías de compra de herramientas para 
   - `python verificar_tallerlab_data.py`
   - `python preparar_assets_publicos.py`
 - `.github/workflows/verificacion-produccion.yml` también ejecuta `verificar_alertas` y `verificar_relevamiento_seguro` en CI.
+- `tests/test_public_authority_pages.py` cubre publicación condicionada, JSON-LD Dataset, CSV y el marcador de respuestas de fabricantes.
 
 ## Flujo de trabajo
 

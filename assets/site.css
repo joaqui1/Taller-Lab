@@ -324,6 +324,18 @@ footer p[style] { color: #96a2a1 !important; }
 .resource-provenance a { text-decoration: underline; }
 .resource-alternatives { border-top: 1px solid var(--border); padding-top: 1rem; margin-bottom: 1.3rem; }
 .resource-alternatives summary, .research-detail summary { cursor: pointer; font-weight: 700; line-height: 1.6; }
+.authority-page { padding-bottom: 3rem; }
+.authority-page > .markdown-body > section { margin: 1.5rem 0 2.25rem; }
+.manufacturer-responses select { margin: .6rem 0; padding: .65rem .8rem; border: 1px solid var(--border); border-radius: 4px; background: var(--bg-card); color: var(--text); font: inherit; }
+.manufacturer-responses select:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.press-mentions { list-style: none; margin: 0; padding: 0; }
+.press-mentions > li { margin: 0 0 1.2rem; padding: 1.3rem 1.5rem; background: var(--bg-card); border-left: 3px solid var(--orange); }
+.press-mentions h2 { margin-top: 0; font-size: 1.2rem; }
+.manufacturer-response { margin: 2rem 0; padding: 1.2rem 1.5rem; background: var(--bg-card); border-left: 4px solid var(--orange); }
+.manufacturer-response h2 { margin-top: 0; font-size: 1.25rem; }
+.manufacturer-response blockquote { margin: 1rem 0; padding: .7rem 1rem; border-left: 3px solid var(--border); background: var(--bg-surface); }
+.manufacturer-response blockquote p { margin: 0; }
+.manufacturer-response > p:last-child { margin-bottom: 0; }
 .resource-alternatives p { font-size: .87rem; line-height: 1.75; margin: 1.2rem 0; }
 .resource-loads { display: grid; gap: 1rem; }
 .resource-loads fieldset { border: 1px solid var(--border); display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 1rem; padding: 1rem; }

@@ -120,6 +120,10 @@ class PublicTemplate(str):
                 kwargs[key]=limpiar_contenido_publico(kwargs[key])
         html = super().format(*args,**kwargs)
         html = apply_community_nav(html)
+        from publicaciones_autoridad import footer_authority_links
+        authority_links = footer_authority_links()
+        if authority_links:
+            html = html.replace('</footer>', f'<p class="footer-authority-links">{authority_links}</p>\n  </footer>', 1)
         from paginas_institucionales import contact_email
         email = contact_email()
         if email:

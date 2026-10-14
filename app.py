@@ -12,6 +12,7 @@ from flask import Flask, Response, redirect, request, send_from_directory
 from servidor_local import (
     ALL_ARTICLES,
     AUTHOR_PATH,
+    AUTHORITY_PAGE_PATHS,
     ASSETS_DIR,
     CATEGORY_META,
     ALERTAS_PATHS,
@@ -26,10 +27,13 @@ from servidor_local import (
     generate_study_csv,
     render_alertas_page,
     render_article_page,
+    render_authority_page,
+    render_manufacturer_responses_csv,
     render_calculator_embed,
     render_calculator_page,
     CALCULATOR_PATHS,
     CALCULATOR_EMBED_PATHS,
+    MANUFACTURER_CSV_PATH,
     render_category_page,
     render_compatibility_page,
     render_tallerlab_data_page,
@@ -44,6 +48,7 @@ from servidor_local import (
     track_event,
     validate_affiliate_click,
     MaintenancePipeline,
+    authority_page_is_published,
 )
 from relevamiento_piloto import (
     ADMIN_KEY as RELEVAMIENTO_ADMIN_KEY,
@@ -359,6 +364,11 @@ def observatory_status():
 def page(path):
     url_path = "/" + path
 
+    if url_path == MANUFACTURER_CSV_PATH:
+        if not authority_page_is_published("/fabricantes/respuestas/"):
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+        return Response(render_manufacturer_responses_csv(), content_type="text/csv; charset=utf-8", headers={"Content-Disposition": 'attachment; filename="tallerlab-consultas-fabricantes.csv"', "X-Robots-Tag": "noindex, nofollow"})
+
     if url_path in CALCULATOR_EMBED_PATHS:
         if request.method == "GET":
             referrer = request.referrer or ""
@@ -391,6 +401,11 @@ def page(path):
 
     if url_path == "/":
         html = render_home_page()
+
+    elif url_path in AUTHORITY_PAGE_PATHS:
+        html = render_authority_page(url_path)
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
 
     elif url_path in ALERTAS_PATHS:
         html = render_alertas_page(url_path)

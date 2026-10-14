@@ -1,0 +1,4 @@
+{
+  "_instrucciones": "Agregar una entrada solo cuando exista una nota, entrevista o publicación verificable que cite a TallerLab o use sus datos. fecha en formato dd/mm/aaaa; tipo admite cita, entrevista o uso de datos. url debe ser una página pública http(s). Publicación automática a partir de una entrada válida.",
+  "menciones": []
+}

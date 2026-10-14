@@ -100,6 +100,23 @@ from tallerlab_data import (
 from tallerlab_data.research_study import generate_study_csv
 from tallerlab_data.guide_links import render_guide_technical_tools_block
 from comunidad.components import render_guide_community, render_guide_community_entry
+from publicaciones_autoridad import (
+    AUTHORITY_PAGE_PATHS,
+    MANUFACTURER_CSV_PATH,
+    MANUFACTURER_PATH,
+    PRESS_PATH,
+    WHO_FIELDS,
+    WHO_PATH,
+    export_responses_csv,
+    indexable_authority_paths,
+    load_press_records,
+    load_who_data,
+    manufacturer_response_component,
+    manufacturer_summary,
+    page_is_published as authority_page_is_published,
+    response_records,
+    replace_manufacturer_response_markers,
+)
 from tallerlab_data.views import (
     render_tools_hub_page,
     render_tool_detail_page,
@@ -992,7 +1009,7 @@ def get_published_observatory_paths():
     return ['/datos/precios-herramientas-argentina/','/datos/precios/metodologia/'] + [f'/datos/precios/{c}/' for c in categories]
 
 PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
-INDEXABLE_PATHS = tuple(dict.fromkeys(
+BASE_INDEXABLE_PATHS = tuple(dict.fromkeys(
     ["/", "/comunidad/", "/comunidad/criterios/", "/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"]
     + ["/calculadoras/", "/calculadoras/generador-para-casa/", "/calculadoras/caudal-compresor/", "/calculadoras/costo-final-oferta/", "/calculadoras/consumo-agua-hidrolavadora/"]
     + list(RELEVAMIENTO_PATHS)
@@ -1003,6 +1020,11 @@ INDEXABLE_PATHS = tuple(dict.fromkeys(
     + [f"/{section}/" for section in PUBLIC_SECTIONS]
     + [article["url"] for article in ALL_ARTICLES]
 ))
+def build_indexable_paths(data_dir=None):
+    return tuple(dict.fromkeys(BASE_INDEXABLE_PATHS + indexable_authority_paths(data_dir=data_dir)))
+
+
+INDEXABLE_PATHS = build_indexable_paths()
 INDEXABLE_PATH_SET = set(INDEXABLE_PATHS) | set(OBSERVATORY_PATHS) | set(OBSERVATORY_DOWNLOAD_PATHS) | set(COMPATIBILITY_DOWNLOAD_PATHS) | set(TALLERLAB_DATA_DOWNLOAD_PATHS) | {COMPATIBILITY_SEARCH_PATH}
 
 CALCULATOR_PAGES = {
@@ -1332,6 +1354,79 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
         robots_meta = f'<meta name="robots" content="{escape(robots, quote=True)}">'
     return robots_meta + f'<link rel="canonical" href="{escape(absolute_url(path), quote=True)}">' + schema + dataset_schema + tallerlab_schema + social + breadcrumb
 
+
+def _authority_text(value):
+    return escape(str(value or "")).replace("\n", "<br>")
+
+
+def render_authority_page(path):
+    """Renderiza páginas de autoridad solo cuando sus JSON cumplen el umbral editorial."""
+    if not authority_page_is_published(path):
+        return None
+    if path == WHO_PATH:
+        data = load_who_data()
+        introduction = _authority_text(data.get("quienes_somos"))
+        sections = "".join(
+            f'<section><h2>{escape(label)}</h2><p>{_authority_text(data.get(key))}</p></section>'
+            for key, label in WHO_FIELDS if key != "quienes_somos"
+        )
+        title = "Quiénes somos"
+        description = str(data.get("quienes_somos", "")).strip()
+        content = f'<div class="article-container authority-page"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>Quiénes somos</span></nav><header class="article-header"><h1>Quiénes somos</h1></header><div class="markdown-body"><p class="article-lead">{introduction}</p>{sections}</div></div>'
+    elif path == MANUFACTURER_PATH:
+        rows = response_records()
+        summaries = manufacturer_summary(rows)
+        brands = sorted(summaries, key=str.casefold)
+        options = ''.join(f'<option value="{escape(brand.casefold(), quote=True)}">{escape(brand)}</option>' for brand in brands)
+        summary_html = ''.join(
+            f'<li><strong>{escape(brand)}:</strong> respondió {summary["respondidas"]} de {summary["total"]}</li>'
+            for brand, summary in sorted(summaries.items(), key=lambda item: item[0].casefold())
+        )
+        table_rows = []
+        for row in rows:
+            guides = ''.join(f'<a href="{escape(url, quote=True)}">{escape(url)}</a>' for url in row["guias"])
+            state = row["estado"].replace("_", " ")
+            answer_html = _authority_text(row.get("respuesta_textual")) if row["estado"] == "respondida" else ""
+            answer_date = escape(row.get("fecha_respuesta", "")) if row["estado"] == "respondida" else ""
+            table_rows.append(
+                f'<tr id="{escape(row["id"], quote=True)}" data-brand="{escape(row["marca"].casefold(), quote=True)}">'
+                f'<th scope="row"><a href="#{escape(row["id"], quote=True)}">{escape(row["id"])}</a></th>'
+                f'<td>{escape(row["marca"])}</td><td>{escape(row["modelo"])}<br><small>{escape(row["codigo"])}</small></td>'
+                f'<td>{escape(row["pregunta"])}</td><td>{escape(row["fecha_envio"])}</td><td>{escape(state)}</td>'
+                f'<td>{answer_html}</td><td>{answer_date}</td><td>{"<br>".join(guides)}</td></tr>'
+            )
+        title = "Consultas y respuestas de fabricantes"
+        description = "Consultas documentadas a fabricantes y respuestas textuales recibidas por TallerLab."
+        organization = {"@context": "https://schema.org", **organization_schema()}
+        dataset = {
+            "@context": "https://schema.org", "@type": "Dataset", "name": title,
+            "description": description, "url": absolute_url(path), "inLanguage": "es-AR",
+            "publisher": organization,
+            "distribution": {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": absolute_url(MANUFACTURER_CSV_PATH)},
+        }
+        dataset_tag = '<script type="application/ld+json">' + json.dumps(dataset, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+        content = f'''<div class="article-container authority-page manufacturer-responses"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>Respuestas de fabricantes</span></nav><header class="article-header"><h1>{escape(title)}</h1><p>{escape(description)}</p></header><div class="markdown-body"><section aria-labelledby="summary-title"><h2 id="summary-title">Resumen por marca</h2><ul>{summary_html}</ul></section><section aria-labelledby="response-table-title"><h2 id="response-table-title">Registro de consultas</h2><label for="manufacturer-filter">Filtrar por marca</label> <select id="manufacturer-filter"><option value="">Todas las marcas</option>{options}</select><p><a href="{MANUFACTURER_CSV_PATH}">Descargar registro en CSV</a></p><div class="resource-table-scroll" tabindex="0" role="region" aria-label="Consultas y respuestas de fabricantes"><table><caption>Consultas documentadas a fabricantes</caption><thead><tr><th scope="col">ID</th><th scope="col">Marca</th><th scope="col">Modelo y código</th><th scope="col">Pregunta</th><th scope="col">Fecha de envío</th><th scope="col">Estado</th><th scope="col">Respuesta textual</th><th scope="col">Fecha de respuesta</th><th scope="col">Guías</th></tr></thead><tbody>{''.join(table_rows)}</tbody></table></div></section></div><script>(function(){{var filter=document.getElementById('manufacturer-filter');if(!filter)return;filter.addEventListener('change',function(){{document.querySelectorAll('.manufacturer-responses tbody tr').forEach(function(row){{row.hidden=!!filter.value&&row.dataset.brand!==filter.value}})}})}})();</script></div>'''
+        content += dataset_tag
+    elif path == PRESS_PATH:
+        records = sorted(load_press_records(), key=lambda row: datetime.strptime(row["fecha"], "%d/%m/%Y"), reverse=True)
+        entries = ''.join(
+            f'<li><article><h2><a href="{escape(row["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(row["titulo"])} ↗</a></h2>'
+            f'<p>{escape(row["medio"])} · {escape(row["fecha"])} · {escape(row["tipo"])}</p><p>{_authority_text(row["dato_usado"])}</p></article></li>'
+            for row in records
+        )
+        title = "TallerLab en los medios"
+        description = "Citas, entrevistas y publicaciones que usan datos de TallerLab."
+        content = f'<div class="article-container authority-page press-page"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>En los medios</span></nav><header class="article-header"><h1>{escape(title)}</h1><p>{escape(description)}</p></header><div class="markdown-body"><ul class="press-mentions">{entries}</ul></div></div>'
+    else:
+        return None
+
+    head = canonical_tag(path, title=title + " | TallerLab", description=description)
+    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=head, PAGE_DESC=escape(description, quote=True), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+
+
+def render_manufacturer_responses_csv():
+    return export_responses_csv()
+
 def render_observatory_page(path):
     if path == "/datos/precios-herramientas-argentina/":
         content = render_observatory_hub_html()
@@ -1516,7 +1611,8 @@ def render_tallerlab_data_page(path, query_params=None):
     )
 
 def render_sitemap():
-    paths = tuple(dict.fromkeys([p for p in INDEXABLE_PATHS if p not in OBSERVATORY_PATHS]+get_published_observatory_paths()))
+    current_indexable = build_indexable_paths()
+    paths = tuple(dict.fromkeys([p for p in current_indexable if p not in OBSERVATORY_PATHS]+get_published_observatory_paths()))
     from compatibilidad.catalog import refresh_published_state, PRODUCTS_BY_SLUG, CATALOG_PRODUCTS
     from compatibilidad.presentation import relationship_paths
     refresh_published_state()
@@ -2300,7 +2396,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=21">
+  <link rel="stylesheet" href="/assets/site.css?v=22">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
@@ -2747,6 +2843,7 @@ def render_article_page(article, embedded=False):
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
+    clean_body = replace_manufacturer_response_markers(clean_body, article["url"])
     resource = RESOURCES.get(article["url"])
     if resource:
         # La transparencia queda una vez, en el detalle de método del pie.
@@ -3239,6 +3336,35 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
             self.wfile.write(render_calculator_page(path).encode("utf-8"))
+            return
+        if path == MANUFACTURER_CSV_PATH:
+            if not authority_page_is_published(MANUFACTURER_PATH):
+                self.send_response(404)
+                self.send_header("X-Robots-Tag", "noindex, follow")
+                self.end_headers()
+                return
+            body = render_manufacturer_responses_csv().encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="tallerlab-consultas-fabricantes.csv"')
+            self.send_header("X-Robots-Tag", "noindex, nofollow")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        if path in AUTHORITY_PAGE_PATHS:
+            html = render_authority_page(path)
+            if html is None:
+                self.send_response(404)
+                self.send_header("X-Robots-Tag", "noindex, follow")
+                self.end_headers()
+                return
+            body = html.encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
             return
         from observatorio.estatico import static_observatory_file
         static_price_file = static_observatory_file(path)
