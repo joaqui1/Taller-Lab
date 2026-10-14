@@ -124,6 +124,10 @@ class PublicTemplate(str):
         authority_links = footer_authority_links()
         if authority_links:
             html = html.replace('</footer>', f'<p class="footer-authority-links">{authority_links}</p>\n  </footer>', 1)
+        from servidor_local import REVIEWERS_PATH, public_reviewers
+        if public_reviewers():
+            reviewer_link = f'<p class="footer-reviewer-link"><a href="{REVIEWERS_PATH}">Equipo de revisión</a></p>'
+            html = html.replace('</footer>', reviewer_link + '\n  </footer>', 1)
         from paginas_institucionales import contact_email
         email = contact_email()
         if email:

@@ -12,6 +12,7 @@ from flask import Flask, Response, redirect, request, send_from_directory
 from servidor_local import (
     ALL_ARTICLES,
     AUTHOR_PATH,
+    REVIEWERS_PATH,
     AUTHORITY_PAGE_PATHS,
     ASSETS_DIR,
     CATEGORY_META,
@@ -39,6 +40,7 @@ from servidor_local import (
     render_tallerlab_data_page,
     render_home_page,
     render_editorial_page,
+    render_reviewer_page,
     render_not_found,
     render_observatory_page,
     render_relevamiento_view,
@@ -404,6 +406,11 @@ def page(path):
 
     elif url_path in AUTHORITY_PAGE_PATHS:
         html = render_authority_page(url_path)
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+
+    elif url_path == REVIEWERS_PATH or url_path.startswith(REVIEWERS_PATH):
+        html = render_reviewer_page(url_path)
         if html is None:
             return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
 

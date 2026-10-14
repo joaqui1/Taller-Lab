@@ -184,6 +184,8 @@ LOGO_SRC = "/assets/logo_cropped.webp"
 AUTHOR_NAME = "Joaquín Vallasciani"
 AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
 AUTHOR_PATH = "/autor/joaquin-vallasciani/"
+REVIEWERS_PATH = "/revisores/"
+REVIEWERS_FILE = Path(__file__).with_name("revisores.json")
 
 def extract_frontmatter(content):
     """Extrae metadatos del frontmatter YAML básico."""
@@ -1065,11 +1067,12 @@ BASE_INDEXABLE_PATHS = tuple(dict.fromkeys(
     + [article["url"] for article in ALL_ARTICLES]
 ))
 def build_indexable_paths(data_dir=None):
-    return tuple(dict.fromkeys(BASE_INDEXABLE_PATHS + indexable_authority_paths(data_dir=data_dir)))
+    return tuple(dict.fromkeys(
+        BASE_INDEXABLE_PATHS
+        + indexable_authority_paths(data_dir=data_dir)
+        + indexable_reviewer_paths()
+    ))
 
-
-INDEXABLE_PATHS = build_indexable_paths()
-INDEXABLE_PATH_SET = set(INDEXABLE_PATHS) | set(OBSERVATORY_PATHS) | set(OBSERVATORY_DOWNLOAD_PATHS) | set(COMPATIBILITY_DOWNLOAD_PATHS) | set(TALLERLAB_DATA_DOWNLOAD_PATHS) | {COMPATIBILITY_SEARCH_PATH}
 
 CALCULATOR_PAGES = {
     "generador-para-casa": {
@@ -1129,31 +1132,189 @@ def _calculator_sources(article):
     return unique
 
 
-def public_reviewer(slug):
-    """Devuelve únicamente perfiles que el registro editorial marcó como publicados."""
-    if not slug or not re.fullmatch(r"[a-z0-9-]+", str(slug)):
-        return None
+def _reviewer_is_public(reviewer):
+    return (
+        isinstance(reviewer, dict)
+        and reviewer.get("activo") is True
+        and reviewer.get("consentimiento_publicacion") is True
+        and bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(reviewer.get("slug", ""))))
+        and bool(str(reviewer.get("nombre") or reviewer.get("name") or "").strip())
+        and bool(str(reviewer.get("oficio") or reviewer.get("ocupacion") or reviewer.get("jobTitle") or "").strip())
+    )
+
+
+def public_reviewers(file_path=None):
+    """Carga una sola vez el registro y devuelve revisores con actividad y consentimiento explícitos."""
     try:
-        data = json.loads(Path(__file__).with_name("revisores.json").read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        return None
+        data = json.loads(Path(file_path or REVIEWERS_FILE).read_text(encoding="utf-8"))
+    except (OSError, ValueError, TypeError):
+        return []
     records = data.get("revisores", data.get("reviewers", [])) if isinstance(data, dict) else data
     if isinstance(records, dict):
-        record = records.get(slug)
-        candidates = [record] if isinstance(record, dict) else []
+        candidates = [dict(record, slug=record.get("slug") or key) for key, record in records.items() if isinstance(record, dict)]
     elif isinstance(records, list):
-        candidates = [record for record in records if isinstance(record, dict) and record.get("slug") == slug]
+        candidates = [record for record in records if isinstance(record, dict)]
     else:
         candidates = []
+    published = []
+    seen = set()
     for reviewer in candidates:
-        published = reviewer.get("publicado", reviewer.get("published", False))
-        if published is True or str(published).lower() == "true":
-            return reviewer
-    return None
+        slug = str(reviewer.get("slug", "")).strip()
+        if _reviewer_is_public(reviewer) and slug not in seen:
+            published.append(reviewer)
+            seen.add(slug)
+    return published
+
+
+def public_reviewer(slug):
+    """Devuelve el revisor público para una guía, usando el cargador compartido."""
+    if not slug or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(slug)):
+        return None
+    return next((reviewer for reviewer in public_reviewers() if reviewer["slug"] == slug), None)
+
+
+def indexable_reviewer_paths():
+    reviewers = public_reviewers()
+    if not reviewers:
+        return ()
+    return (REVIEWERS_PATH,) + tuple(f'{REVIEWERS_PATH}{r["slug"]}/' for r in reviewers)
+
+
+def reviewer_person_id(slug):
+    return absolute_url(f"{REVIEWERS_PATH}{slug}/") + "#person"
+
+
+def _reviewer_profiles(reviewer):
+    profiles = reviewer.get("perfiles", [])
+    if not isinstance(profiles, list):
+        return []
+    return [url.strip() for url in profiles if isinstance(url, str) and re.fullmatch(r"https://[^\s<>\"]+", url.strip())]
+
+
+def reviewer_person_schema(reviewer):
+    slug = str(reviewer.get("slug", "")).strip()
+    name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+    occupation = str(reviewer.get("oficio") or reviewer.get("ocupacion") or reviewer.get("jobTitle") or "").strip()
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": reviewer_person_id(slug),
+        "name": name,
+        "url": absolute_url(f"{REVIEWERS_PATH}{slug}/"),
+        "jobTitle": occupation,
+    }
+    bio = str(reviewer.get("bio_corta") or reviewer.get("description") or "").strip()
+    if bio:
+        schema["description"] = bio
+    photo = str(reviewer.get("foto") or reviewer.get("photo") or "").strip()
+    if photo:
+        schema["image"] = absolute_url(photo)
+    profiles = _reviewer_profiles(reviewer)
+    if profiles:
+        schema["sameAs"] = profiles
+    categories = reviewer.get("categorias", [])
+    if isinstance(categories, list):
+        categories = [str(value).strip() for value in categories if isinstance(value, str) and value.strip()]
+        if categories:
+            schema["knowsAbout"] = categories
+    return schema
+
+
+def _reviewed_guides(slug):
+    guides = []
+    for article in ALL_ARTICLES:
+        if str(article.get("revisor", "")).strip() != slug:
+            continue
+        date = _review_date(article)
+        if date:
+            guides.append((article, date))
+    return sorted(guides, key=lambda item: (item[1], item[0].get("title", "")), reverse=True)
+
+
+def render_reviewer_page(path):
+    """Renderiza el índice y los perfiles de revisores publicados."""
+    reviewers = public_reviewers()
+    if not reviewers:
+        return None
+    if path == REVIEWERS_PATH:
+        entries = []
+        for reviewer in reviewers:
+            slug = reviewer["slug"]
+            name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+            occupation = str(reviewer.get("oficio") or reviewer.get("ocupacion") or reviewer.get("jobTitle") or "").strip()
+            photo = str(reviewer.get("foto") or reviewer.get("photo") or "").strip()
+            image = f'<img src="{escape(photo, quote=True)}" alt="" width="96" height="96" loading="lazy">' if photo else ""
+            entries.append(f'<li>{image}<div><h2><a href="{REVIEWERS_PATH}{escape(slug, quote=True)}/">{escape(name)}</a></h2><p>{escape(occupation)}</p></div></li>')
+        title = "Equipo de revisión técnica"
+        description = "Perfiles y guías revisadas por el equipo técnico de TallerLab."
+        content = f'<div class="article-container"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>Equipo de revisión</span></nav><header class="article-header"><h1>{title}</h1><p class="article-lead">Los perfiles publicados identifican a quienes revisaron técnicamente cada guía, con su oficio y el alcance registrado.</p></header><section class="markdown-body"><ul class="reviewer-list">{"".join(entries)}</ul></section></div>'
+        schema = {
+            "@context": "https://schema.org", "@type": "CollectionPage",
+            "url": absolute_url(REVIEWERS_PATH), "name": title,
+            "mainEntity": {"@type": "ItemList", "itemListElement": [
+                {"@type": "ListItem", "position": index, "item": {"@id": reviewer_person_id(r["slug"]), "name": str(r.get("nombre") or r.get("name") or "").strip()}}
+                for index, r in enumerate(reviewers, 1)
+            ]},
+        }
+    else:
+        match = re.fullmatch(r"/revisores/([a-z0-9]+(?:-[a-z0-9]+)*)/", path)
+        reviewer = next((r for r in reviewers if match and r["slug"] == match.group(1)), None)
+        if not reviewer:
+            return None
+        slug = reviewer["slug"]
+        name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+        occupation = str(reviewer.get("oficio") or reviewer.get("ocupacion") or reviewer.get("jobTitle") or "").strip()
+        title = name + " · Revisión técnica"
+        description = str(reviewer.get("bio_corta") or "Perfil de revisión técnica en TallerLab.").strip()
+        photo = str(reviewer.get("foto") or reviewer.get("photo") or "").strip()
+        image = f'<img class="reviewer-photo" src="{escape(photo, quote=True)}" alt="Foto de {escape(name, quote=True)}" loading="lazy">' if photo else ""
+        sections = [f'<p><strong>Oficio:</strong> {escape(occupation)}</p>']
+        years = reviewer.get("anios_oficio")
+        if years not in (None, ""):
+            sections.append(f'<p><strong>Años de oficio:</strong> {escape(str(years))}</p>')
+        locality = str(reviewer.get("localidad") or "").strip()
+        if locality:
+            sections.append(f'<p><strong>Localidad:</strong> {escape(locality)}</p>')
+        bio = str(reviewer.get("bio_corta") or "").strip()
+        if bio:
+            sections.append(f'<p>{escape(bio)}</p>')
+        categories = reviewer.get("categorias", [])
+        if isinstance(categories, list):
+            categories = [str(value).strip() for value in categories if isinstance(value, str) and value.strip()]
+            if categories:
+                sections.append('<h2>Categorías</h2><ul>' + "".join(f'<li>{escape(value)}</li>' for value in categories) + '</ul>')
+        profiles = _reviewer_profiles(reviewer)
+        if profiles:
+            sections.append('<h2>Perfiles</h2><ul>' + "".join(f'<li><a href="{escape(url, quote=True)}" rel="me noopener noreferrer" target="_blank">{escape(urllib.parse.urlsplit(url).hostname or url)}</a></li>' for url in profiles) + '</ul>')
+        guides = _reviewed_guides(slug)
+        guide_list = ''.join(f'<li><a href="{escape(article["url"], quote=True)}">{escape(article["h1"])}</a> · revisada el {escape(date)}</li>' for article, date in guides)
+        if guide_list:
+            sections.append('<h2>Guías revisadas</h2><ul>' + guide_list + '</ul>')
+        content = f'<div class="article-container"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><a href="{REVIEWERS_PATH}">Equipo de revisión</a><span>/</span><span>{escape(name)}</span></nav><header class="article-header">{image}<h1>{escape(name)}</h1><p class="article-lead">{escape(occupation)}</p></header><section class="markdown-body">{"".join(sections)}</section></div>'
+        schema = reviewer_person_schema(reviewer)
+    schema_tag = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+    page_schema = canonical_tag(path, title=title, description=description) + schema_tag
+    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=page_schema, PAGE_DESC=description, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+
+
+INDEXABLE_PATHS = build_indexable_paths()
+INDEXABLE_PATH_SET = set(INDEXABLE_PATHS) | set(OBSERVATORY_PATHS) | set(OBSERVATORY_DOWNLOAD_PATHS) | set(COMPATIBILITY_DOWNLOAD_PATHS) | set(TALLERLAB_DATA_DOWNLOAD_PATHS) | {COMPATIBILITY_SEARCH_PATH}
 
 
 def _reviewer_for_article(article):
     return public_reviewer(article.get("revisor"))
+
+
+def _review_date(article):
+    for value in (article.get("revision_tecnica"), article.get("reviewed")):
+        if not isinstance(value, str) or not re.fullmatch(r"\d{2}/\d{2}/\d{4}", value.strip()):
+            continue
+        try:
+            datetime.strptime(value.strip(), "%d/%m/%Y")
+        except ValueError:
+            continue
+        return value.strip()
+    return ""
 
 
 def _reviewer_block(article, reviewer):
@@ -1169,7 +1330,7 @@ def _reviewer_block(article, reviewer):
     details = [escape(name)]
     if occupation:
         details.append(escape(occupation))
-    date = str(article.get("revision_tecnica") or article.get("reviewed") or "").strip()
+    date = _review_date(article)
     if date:
         details.append("Revisión técnica: " + escape(date))
     scope = str(article.get("alcance_revision") or "").strip()
@@ -1239,7 +1400,7 @@ def _method_extra_lines(article, reviewer):
     lines = []
     if reviewer:
         name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
-        date = str(article.get("revision_tecnica") or article.get("reviewed") or "").strip()
+        date = _review_date(article)
         scope = str(article.get("alcance_revision") or "").strip()
         if name:
             label = "Revisión técnica: " + escape(name)
@@ -2855,6 +3016,8 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
         members_html = '<section class="markdown-body"><h2>Guías de Joaquín Vallasciani</h2>' + "".join(guide_groups) + '</section>'
         perfil = author_profile()
         extra = []
+        if public_reviewers():
+            extra.append(f'<p><a href="{REVIEWERS_PATH}">Equipo de revisión técnica →</a></p>')
         if perfil["experiencia"]:
             extra.append(f'<h2>Experiencia</h2><p>{escape(perfil["experiencia"])}</p>')
         if perfil["formacion"]:
@@ -3424,6 +3587,9 @@ def article_schema_tag(article):
     }
     if article.get("reviewed"):
         article_schema["dateModified"] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
+    reviewer = _reviewer_for_article(article)
+    if reviewer:
+        article_schema["reviewedBy"] = {"@id": reviewer_person_id(article["revisor"])}
     from portadas_guias import guide_cover
     article_schema["image"] = absolute_url(guide_cover(article)['image'] if article['url'] in INDEXABLE_PATH_SET else LOGO_SRC)
     return '<script type="application/ld+json">' + json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
@@ -3694,6 +3860,13 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
             self.wfile.write(render_editorial_page(kind).encode("utf-8"))
+            return
+        if path == REVIEWERS_PATH or path.startswith(REVIEWERS_PATH):
+            html = render_reviewer_page(path)
+            self.send_response(200 if html is not None else 404)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write((html if html is not None else render_not_found(path)).encode("utf-8"))
             return
 
         # Observatorio de precios: descarga de CSV

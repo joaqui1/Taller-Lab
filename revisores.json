@@ -1,0 +1,4 @@
+{
+  "_instrucciones": "Cargá solo personas reales que hayan dado consentimiento expreso para publicar su perfil. Cada registro lleva slug, nombre, oficio, foto (ruta /assets/ o vacío), bio_corta, perfiles (URLs), categorias, activo y consentimiento_publicacion. anios_oficio y localidad son opcionales. El perfil y sus guías se publican únicamente cuando activo y consentimiento_publicacion son true; las guías deben incluir revisor: <slug> y una fecha revision_tecnica (dd/mm/aaaa). No cargues credenciales ni experiencia que no estén verificadas.",
+  "revisores": []
+}
