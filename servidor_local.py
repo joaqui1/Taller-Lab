@@ -117,6 +117,12 @@ from publicaciones_autoridad import (
     response_records,
     replace_manufacturer_response_markers,
 )
+from glosario_publicacion import (
+    GLOSSARY_HUB_PATH,
+    published_glossary_paths,
+    render_glossary_page,
+    render_markdown_with_glossary,
+)
 from tallerlab_data.views import (
     render_tools_hub_page,
     render_tool_detail_page,
@@ -1070,6 +1076,7 @@ BASE_INDEXABLE_PATHS = tuple(dict.fromkeys(
 def build_indexable_paths(data_dir=None):
     return tuple(dict.fromkeys(
         BASE_INDEXABLE_PATHS
+        + published_glossary_paths()
         + indexable_authority_paths(data_dir=data_dir)
         + indexable_reviewer_paths()
     ))
@@ -1472,7 +1479,8 @@ def validate_published_links():
     errors = []
     for article in ALL_ARTICLES:
         try:
-            validar_html(MARKDOWN.render(article["body"]), article["url"], INDEXABLE_PATH_SET, SITE_URL)
+            linked_html = render_markdown_with_glossary(MARKDOWN, article["body"])
+            validar_html(linked_html, article["url"], INDEXABLE_PATH_SET, SITE_URL)
         except ValueError as error:
             errors.append(f"{article['filename']}: {error}")
     if errors:
@@ -1614,6 +1622,7 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
         "/datos/precios/compresores/": ("Precios de Compresores de Aire en Argentina", "Precios observados, mínimos vigentes y series históricas de compresores en Argentina."),
         "/datos/precios/hidrolavadoras/": ("Precios de Hidrolavadoras en Argentina", "Precios observados, mínimos vigentes y series históricas de hidrolavadoras en Argentina."),
         "/datos/precios/metodologia/": ("Metodología del Observatorio de Precios", "Método de recolección, marco legal de fuentes, tratamiento de anomalías y derechos."),
+        GLOSSARY_HUB_PATH: ("Glosario de herramientas", "Definiciones breves de términos técnicos usados en las guías de TallerLab."),
         "/relevamiento-2027/": ("Relevamiento TallerLab 2027: herramientas y oficios en Argentina", "Piloto de investigación sobre herramientas, marcas, baterías y reparaciones en talleres y obras de Argentina."),
         "/relevamiento-2027/metodologia/": ("Borrador de Metodología: Relevamiento TallerLab 2027", "Diseño de investigación, reclutamiento voluntario, controles de calidad y límites estadísticos del estudio."),
     }
@@ -1658,6 +1667,8 @@ def canonical_tag(path, title=None, description=None, og_type=None, robots=None)
                 items.append({"@type": "ListItem", "position": 2, "name": "Compatibilidad", "item": absolute_url("/compatibilidad/")})
         elif path.startswith("/alertas/") and path != "/alertas/":
             items.append({"@type": "ListItem", "position": 2, "name": "Documentación y alertas", "item": absolute_url("/alertas/")})
+        elif path.startswith(GLOSSARY_HUB_PATH) and path != GLOSSARY_HUB_PATH:
+            items.append({"@type": "ListItem", "position": 2, "name": "Glosario", "item": absolute_url(GLOSSARY_HUB_PATH)})
         elif path.startswith("/herramientas/"):
             items.append({"@type": "ListItem", "position": 2, "name": "TallerLab Data", "item": absolute_url("/herramientas/")})
             if path.startswith("/herramientas/comparar/") and path != "/herramientas/comparar/":
@@ -3246,7 +3257,8 @@ def render_category_page(section_id):
 
 
 def render_article_page(article, embedded=False):
-    validar_html(MARKDOWN.render(article["body"]), article["url"], INDEXABLE_PATH_SET, SITE_URL)
+    linked_html = render_markdown_with_glossary(MARKDOWN, article["body"])
+    validar_html(linked_html, article["url"], INDEXABLE_PATH_SET, SITE_URL)
     # Pre-procesamiento de markdown:
     # 1. Quitar el H1 inicial del markdown para evitar títulos duplicados
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
@@ -3297,14 +3309,14 @@ def render_article_page(article, embedded=False):
                 clean_body,
             ),
         )
-        rendered_body = MARKDOWN.render(clean_body)
+        rendered_body = render_markdown_with_glossary(MARKDOWN, clean_body)
         body_script = ""
         trust_html = """
         <p><strong>Criterio editorial:</strong> Esta guía compara documentación de fabricantes. Las tarjetas comerciales indican su propia fuente y sus límites.</p>
         <p style="margin-top: 0.5rem;"><strong>Enlaces comerciales:</strong> Priorizamos los productos enlazados cuando encajan con el uso y su documentación. Una variante sin identificar se presenta para contrastar, con sus límites visibles.</p>
         """
     else:
-        rendered_body = MARKDOWN.render(clean_body)
+        rendered_body = render_markdown_with_glossary(MARKDOWN, clean_body)
         body_script = ""
         if article["section"] == "amoladoras":
             trust_html = """
@@ -3833,6 +3845,20 @@ class TallerLabHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
+        if path == GLOSSARY_HUB_PATH or path.startswith(GLOSSARY_HUB_PATH):
+            html = render_glossary_page(path, canonical_tag=canonical_tag, absolute_url=absolute_url)
+            if html is None:
+                self.send_error(404)
+                return
+            body = html.encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            if path.rstrip("/") == GLOSSARY_HUB_PATH.rstrip("/") and not published_glossary_paths():
+                self.send_header("X-Robots-Tag", "noindex, follow")
+            self.end_headers()
+            self.wfile.write(body)
+            return
         if path in CALCULATOR_EMBED_PATHS:
             data = CALCULATOR_EMBED_PATHS[path]
             source_domain = urllib.parse.urlsplit(self.headers.get("Referer", "")).hostname or ""

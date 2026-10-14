@@ -41,6 +41,10 @@ from servidor_local import (
     render_home_page,
     render_editorial_page,
     render_reviewer_page,
+    GLOSSARY_HUB_PATH,
+    render_glossary_page,
+    canonical_tag,
+    absolute_url,
     render_not_found,
     render_observatory_page,
     render_relevamiento_view,
@@ -412,6 +416,15 @@ def page(path):
 
     elif url_path in AUTHORITY_PAGE_PATHS:
         html = render_authority_page(url_path)
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+
+    elif url_path == GLOSSARY_HUB_PATH or url_path.startswith(GLOSSARY_HUB_PATH):
+        html = render_glossary_page(
+            url_path,
+            canonical_tag=canonical_tag,
+            absolute_url=absolute_url,
+        )
         if html is None:
             return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
 
