@@ -145,10 +145,11 @@ SITE = 'https://www.tallerlab.com.ar'
 DATA_LICENSE = 'https://creativecommons.org/licenses/by/4.0/deed.es'
 VERDICT_MIN = 14
 STATS_WINDOW = 90
-ASSET_VERSION = '6'
+ASSET_VERSION = '7'
 GUIDES = Path(__file__).resolve().parent / 'guias_por_modelo.json'
 ART = argentina_timezone()
 MODEL_RE = re.compile(r'^/datos/precios/(' + '|'.join(CATEGORIES) + r')/([a-z0-9-]+)/$')
+PRICE_EMBED_RE = re.compile(r'^/embed/precio/(' + '|'.join(CATEGORIES) + r')/([a-z0-9-]+)/$')
 
 
 def model_slug(model):
@@ -159,6 +160,10 @@ def model_slug(model):
 
 def model_path(model):
     return f"/datos/precios/{model['category']}/{model_slug(model)}/"
+
+
+def price_embed_path(model):
+    return f"/embed/precio/{model['category']}/{model_slug(model)}/"
 
 
 def day(value):
@@ -229,6 +234,45 @@ def chart_svg(series, label):
     dates = f'<text x="{L}" y="{H-8}">{day(points[0][0].isoformat())}</text><text x="{W-R}" y="{H-8}" text-anchor="end">{day(points[-1][0].isoformat())}</text>'
     t, p = points[-1]
     return f'<svg class="price-chart" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(label)}">{grid}{dates}<polyline points="{line}" class="line"/><circle cx="{x(t):.1f}" cy="{y(p):.1f}" r="4" class="dot"/></svg>'
+
+
+def price_embed_chart(series, label, now=None):
+    """Gráfico liviano del historial con precio observado en los últimos 30 días."""
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=30)
+    recent = [o for o in priced(series)
+              if cutoff <= parse_time(o['observed_at']) <= now]
+    if not recent:
+        return '<p class="empty">No hay capturas con precio en los últimos 30 días.</p>'
+    return chart_svg(recent, label)
+
+
+def render_price_embed(row, source, history_url, embed_url, now=None):
+    """HTML autónomo para insertar: sin scripts, cookies, estilos ni servicios externos."""
+    model = row['model']; observation = row['observation']; name = model['brand'] + ' ' + model['model']
+    active = row['state'] == 'disponible' and observation and observation.get('price_ars')
+    price = peso(observation['price_ars']) if active else 'Sin precio vigente'
+    source_text = source_publication(source, observation['observed_at'] if observation else '')
+    state = LABELS.get(row['state'], 'Sin verificación')
+    variant = variant_text(model)
+    description = f'{name}{", " + variant if variant else ""}'
+    chart = price_embed_chart(row['series'], f'Precio observado de {name} en los últimos 30 días', now)
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{esc(description)} · historial de precios | TallerLab</title><link rel="canonical" href="{esc(embed_url, quote=True)}"><style>
+:root{{--ink:#192823;--muted:#5d6860;--line:#d3d6c9;--accent:#ff5b26;--paper:#fffdf8}}*{{box-sizing:border-box}}body{{margin:0;padding:14px;background:var(--paper);color:var(--ink);font:14px/1.55 Arial,sans-serif}}main{{max-width:620px;margin:auto}}.top{{display:flex;justify-content:space-between;gap:16px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:10px}}.eyebrow{{margin:0 0 4px;color:var(--muted);font-size:10px;letter-spacing:.08em;text-transform:uppercase}}h1{{font-size:18px;line-height:1.2;margin:0}}.price{{font-size:22px;font-weight:700;white-space:nowrap}}.state{{color:var(--muted);font-size:11px;margin:5px 0 0}}.chart{{margin:9px 0 3px}}.chart svg{{display:block;width:100%;height:auto;max-height:156px}}.chart .grid{{stroke:var(--line);stroke-width:1}}.chart text{{font:11px Arial,sans-serif;fill:var(--muted)}}.chart .line{{fill:none;stroke:var(--accent);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}}.chart .dot{{fill:var(--ink)}}.empty{{padding:15px 0;color:var(--muted);font-size:12px}}.source{{font-size:10px;color:var(--muted);margin:5px 0}}a{{color:var(--ink);font-weight:700;text-underline-offset:3px}}@media(max-width:420px){{body{{padding:11px}}.price{{font-size:19px}}h1{{font-size:16px}}.top{{gap:8px}}}}
+</style></head><body><main><div class="top"><div><p class="eyebrow">Historial de precio · últimos 30 días</p><h1>{esc(description)}</h1></div><div><div class="price">{esc(price)}</div><p class="state">{esc(state)}</p></div></div><div class="chart">{chart}</div><p class="source">{esc(source_text)}.</p><a href="{esc(history_url, quote=True)}" target="_top" rel="noopener">Historial completo en TallerLab ↗</a></main></body></html>'''
+
+
+def price_embed_tools(model, canonical):
+    canonical_root = canonical.split('/datos/precios/', 1)[0] if '/datos/precios/' in canonical else SITE
+    embed_url = canonical_root + price_embed_path(model)
+    name = model['brand'] + ' ' + model['model']
+    title = esc('Historial de precios de ' + name, quote=True)
+    attribution = (f'<p>Fuente: <a href="{esc(canonical, quote=True)}">Historial de precios de TallerLab para {esc(name)}</a>. '
+                   f'Datos bajo licencia <a href="{DATA_LICENSE}" rel="license">CC BY 4.0</a>.</p>')
+    snippet = (f'<iframe src="{embed_url}" title="{title}" width="100%" height="320" '
+               'loading="lazy" style="border:0" referrerpolicy="strict-origin-when-cross-origin"></iframe>\n'
+               + attribution)
+    return f'''<details class="embed-tools" id="insertar-historial"><summary class="button">Insertar este historial <span aria-hidden="true">＋</span></summary><p>Copiá este código y conservá el párrafo de atribución visible debajo del iframe:</p><textarea readonly rows="5" aria-label="Código para insertar el historial">{esc(snippet)}</textarea><div class="embed-attribution">{attribution}</div></details>'''
 
 
 def movements(rows):
@@ -479,6 +523,7 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
 <section class="model-history" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">Todas las capturas</h2><a class="download" download="precios-{m['category']}.csv" href="{url('/datos/precios/' + m['category'] + '/historial.csv')}">Descargar CSV <span aria-hidden="true">↓</span></a></div><div class="history-scroll"><table><caption>Capturas de {esc(name)}{(' (' + esc(variant) + ')') if variant else ''} en {esc(source['name'])}</caption><thead><tr><th>Captura</th><th>Precio observado (ARS)</th><th>Stock observado</th></tr></thead><tbody>{history}</tbody></table></div><p class="reading-note">Los importes históricos no son ofertas vigentes. Sin envío, cuotas ni descuentos por medio de pago. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p></section>
 <section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá el voltaje y qué incluye la caja antes de comprar. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>Confirmá stock, envío e importe final antes de comprar; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div>{guides_html}{category_guide}</div></section>
 <section class="related-models" aria-labelledby="related-title"><h2 id="related-title">Otros {esc(category.lower())} que seguimos</h2><ul>{other_items}</ul><p><a href="{url('/datos/precios/' + m['category'] + '/')}">Ver la tabla de {esc(category.lower())} ↗</a></p></section>
+{price_embed_tools(m, canonical)}
 {cite_block(canonical, observed_at or observed)}'''
 
 
@@ -627,6 +672,14 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
         )))
     for row in rows:
         m = row['model']; o = row['observation']; path = model_path(m); canonical = canon_base + path
+        embed_path = price_embed_path(m)
+        embed_url = canon_base + embed_path
+        embed_html = render_price_embed(row, manifest['sources'][m['source']], canonical, embed_url, now)
+        if len(embed_html.encode('utf-8')) >= 30 * 1024:
+            raise RuntimeError(f'El iframe de {m["id"]} supera 30 KB')
+        embed_target = output / embed_path.strip('/') / 'index.html'
+        embed_target.parent.mkdir(parents=True, exist_ok=True)
+        embed_target.write_text(embed_html, encoding='utf-8')
         name = m['brand'] + ' ' + m['model']
         if row['state'] == 'disponible' and o and o['price_ars']:
             desc = f'{name}: {short_peso(Decimal(o["price_ars"]))} el {day(o["observed_at"])} en {source_name(m)}. Historial diario de precio y stock, con mínimo y máximo observados.'
@@ -661,7 +714,9 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
 
 def static_observatory_file(path):
     """Solo rutas del observatorio; no reemplaza la portada ni las otras funciones."""
-    if path == HUB or path == METHOD or path == REPORTS_HUB or path in ('/datos/precios/'+c+'/' for c in CATEGORIES) or MODEL_RE.match(path) or REPORT_RE.match(path):
+    if PRICE_EMBED_RE.match(path):
+        target = ROOT/'public'/path.strip('/')/'index.html'
+    elif path == HUB or path == METHOD or path == REPORTS_HUB or path in ('/datos/precios/'+c+'/' for c in CATEGORIES) or MODEL_RE.match(path) or REPORT_RE.match(path):
         target = ROOT/'public'/path.strip('/')/'index.html'
     elif path in ('/datos/precios/'+(c+'/' if c else '')+'descargar-csv' for c in (None,*CATEGORIES)) or path in ('/datos/precios/'+(c+'/' if c else '')+'historial.csv' for c in (None,*CATEGORIES)):
         target = ROOT/'public'/path.lstrip('/')
@@ -682,6 +737,11 @@ def expected_observatory_paths():
             + [report_path(item['month']) for item in editorial_reports(EDITORIAL_DIR)])
 
 
+def expected_price_embed_paths():
+    manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+    return [price_embed_path(model) for model in manifest['models']]
+
+
 def verify_publication(output, summary):
     """Detiene el build si falta cualquier página, descarga o dataset esperado."""
     output = Path(output)
@@ -689,6 +749,12 @@ def verify_publication(output, summary):
     if set(summary['routes']) != set(expected):
         raise RuntimeError('El observatorio no generó todas las rutas previstas')
     artifacts = [output / path.strip('/') / 'index.html' for path in expected]
+    embed_paths = expected_price_embed_paths()
+    artifacts.extend(output / path.strip('/') / 'index.html' for path in embed_paths)
+    for path in embed_paths:
+        embed = output / path.strip('/') / 'index.html'
+        if embed.is_file() and embed.stat().st_size >= 30 * 1024:
+            raise RuntimeError(f'El iframe supera 30 KB: {path}')
     for category in (None, *CATEGORIES):
         folder = output / 'datos' / 'precios'
         if category:

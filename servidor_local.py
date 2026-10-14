@@ -3889,6 +3889,9 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/csv; charset=utf-8' if is_csv else 'text/html; charset=utf-8')
             self.send_header('Cache-Control', 'public, max-age=300, must-revalidate')
+            if path.startswith('/embed/precio/'):
+                self.send_header('X-Robots-Tag', 'noindex, follow')
+                self.send_header('Content-Security-Policy', 'frame-ancestors *')
             self.send_header('Content-Length', str(len(body)))
             if is_csv: self.send_header('Content-Disposition', 'attachment; filename="' + (static_price_file.name if static_price_file.suffix.lower() == '.csv' else 'precios-herramientas.csv') + '"')
             self.end_headers()
