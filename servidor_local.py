@@ -2158,7 +2158,7 @@ HTML_SHELL = """<!DOCTYPE html>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
   <header>
     <div class="nav-container">
-      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/comunidad/">Comunidad</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
+      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
       <a href="/" class="logo">
         <img src="{LOGO_SRC}" alt="TallerLab" class="logo-img" width="952" height="284">
       </a>
@@ -2166,7 +2166,6 @@ HTML_SHELL = """<!DOCTYPE html>
         <a href="/" class="nav-btn">Inicio</a>
         <a href="/herramientas/" class="nav-btn">Herramientas</a>
         <a href="/datos/precios-herramientas-argentina/" class="nav-btn">Precios</a>
-        <a href="/comunidad/" class="nav-btn">Comunidad</a>
         <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
       </nav>
     </div>

@@ -3,6 +3,7 @@ import json
 import os
 import re
 from pathlib import Path
+from urllib.parse import quote
 
 _EMAIL = re.compile(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+")
 
@@ -53,13 +54,21 @@ def contact_markdown(email=None, mailbox=None):
     mailbox = private_mailbox_available() if mailbox is None else mailbox
     parts = [CONTACT_INTRO]
     if email:
-        parts.append(f"""
-## Escribir al editor
+        motivos = (
+            ("Prensa y uso de datos", "Para consultas de prensa, entrevistas o uso de los datos publicados."),
+            ("Fabricantes", "Para compartir documentación oficial, aclarar variantes o informar actualizaciones de productos."),
+            ("Correcciones", "Para reportar errores, enlaces caídos o diferencias entre una guía y la documentación."),
+            ("Colaboraciones y revisión técnica", "Para proponer una colaboración o una revisión técnica, indicando experiencia y alcance."),
+        )
+        for motivo, descripcion in motivos:
+            subject = quote(motivo, safe="")
+            parts.append(f"""
+## {motivo}
 
-Para correcciones, consultas privadas, solicitudes de retiro o sobre tus datos: [{email}](mailto:{email}). La atención es manual; usamos tu correo solo para responder y no te suscribe a comunicaciones.
+{descripcion} Escribí a [{email}](mailto:{email}?subject={subject}) (asunto sugerido: «{motivo}»).
 """)
     parts.append(CONTACT_PUBLIC)
-    if mailbox:
+    if mailbox and not email:
         parts.append("""
 ## Comunidad y consultas privadas
 
@@ -100,6 +109,8 @@ Las tipografías se sirven desde el alojamiento de TallerLab. Algunas imágenes 
 Cuando abrís un enlace a Mercado Libre, GitHub o una fuente externa, rigen las políticas de ese servicio. Algunos enlaces comerciales son de afiliado y pueden atribuir una compra a TallerLab; el sitio no recibe tus datos de pago. Consultá la [privacidad de Mercado Libre](https://www.mercadolibre.com.ar/privacidad), la [privacidad de Vercel](https://vercel.com/legal/privacy-policy) y la [privacidad de Google](https://policies.google.com/privacy).
 
 ## Consultas y correcciones
+
+Si recibimos un correo, usamos la dirección y el contenido del mensaje para responder la consulta; no compartimos esos correos con terceros.
 
 Los reportes enviados por GitHub son públicos. No incluyas información personal o privada en ellos. Consultá los canales disponibles en [Contacto](/contacto/).
 '''

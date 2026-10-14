@@ -48,3 +48,5 @@ TallerLab publica en español rioplatense guías de compra de herramientas para 
 - No modifiques ni muevas los archivos sueltos de la raíz que sean informes, JSON de QA o patches. Dejalos donde están.
 
 ## Cambios recientes
+
+- El email público de contacto vive en `perfil_autor.json`, campo `email_publico`; `paginas_institucionales.contact_email()` lo carga y `PublicTemplate` lo agrega al pie.

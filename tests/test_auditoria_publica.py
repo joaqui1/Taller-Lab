@@ -56,6 +56,17 @@ class Contacto(unittest.TestCase):
         from paginas_institucionales import contact_markdown
         self.assertIn('/comunidad/contacto/', contact_markdown(email='', mailbox=True))
 
+    def test_contacto_muestra_email_configurado_y_menu_no_ofrece_comunidad(self):
+        with patch.dict(os.environ, {'CONTACT_EMAIL': ''}):
+            from app import app
+            response = app.test_client().get('/contacto/')
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn('tallerlabarg@gmail.com', html)
+        header = html.split('</header>', 1)[0]
+        self.assertNotIn('/comunidad/', header)
+        self.assertIn('<a href="/comunidad/">Comunidad</a>', html)
+
 
 class IngcoSinDestacado(unittest.TestCase):
     def test_guia_inalambricos_sin_nota_de_compra_ingco(self):
@@ -98,14 +109,10 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
             self.assertNotIn('/comunidad/', self.locs())
 
     def test_menu_sin_comunidad_mientras_esta_cerrada(self):
-        import contenido_publico
-        link = contenido_publico.COMMUNITY_NAV_LINK
-        with patch.object(contenido_publico, 'community_open', return_value=False):
-            html = self.site.render_editorial_page('contacto')
-            self.assertNotIn(link, html)
-            self.assertIn('<a href="/comunidad/">Comunidad</a>', html)  # sigue en el pie
-        with patch.object(contenido_publico, 'community_open', return_value=True):
-            self.assertIn(link, self.site.render_editorial_page('contacto'))
+        html = self.site.render_editorial_page('contacto')
+        header = html.split('</header>', 1)[0]
+        self.assertNotIn('/comunidad/', header)
+        self.assertIn('<a href="/comunidad/">Comunidad</a>', html)  # sigue en el pie
 
 
 class PerfilDeAutor(unittest.TestCase):
