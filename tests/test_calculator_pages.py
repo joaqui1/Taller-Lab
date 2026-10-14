@@ -29,6 +29,12 @@ class CalculatorPagesTests(unittest.TestCase):
                 self.assertIn('applicationCategory', page)
                 self.assertIn('isAccessibleForFree', page)
                 self.assertIn('<meta name="robots" content="noindex,follow">', embed)
+                page_url = f'https://www.tallerlab.com.ar/calculadoras/{slug}/'
+                embed_url = f'https://www.tallerlab.com.ar/embed/calculadoras/{slug}/'
+                self.assertIn(json.dumps(page_url), page)
+                self.assertIn(json.dumps(embed_url), page)
+                self.assertIn("box.value='<iframe src=\"'+frame", page)
+                self.assertIn("\\n<p>Calculadora de <a href=\"'+pageUrl+'\">TallerLab</a></p>'", page)
 
     def test_embed_headers_and_sitemap_exclusion(self):
         for slug in CALCULATOR_PAGES:
@@ -39,6 +45,29 @@ class CalculatorPagesTests(unittest.TestCase):
         sitemap = render_sitemap()
         for slug in CALCULATOR_PAGES:
             self.assertNotIn(f"/embed/calculadoras/{slug}/", sitemap)
+
+    @unittest.skipUnless(shutil.which("node"), "Node.js no está disponible para probar el código de inserción")
+    def test_copied_embed_snippet_has_absolute_iframe_and_attribution_for_each_page(self):
+        node = shutil.which("node")
+        for slug, data in CALCULATOR_PAGES.items():
+            with self.subTest(slug=slug):
+                page = render_calculator_page(f"/calculadoras/{slug}/")
+                scripts = re.findall(r"<script>(.*?)</script>", page, re.S)
+                insertion_script = next(script for script in scripts if "calculator-embed-code" in script)
+                harness = (
+                    "const box={value:'',select(){}};const button={addEventListener(){}};"
+                    "global.document={querySelector(s){return s==='.calculator-embed-code'?box:button}};"
+                    f"eval({json.dumps(insertion_script)});process.stdout.write(box.value);"
+                )
+                result = subprocess.run([node, "-e", harness], check=True, capture_output=True, text=True)
+                self.assertEqual(
+                    result.stdout,
+                    f'<iframe src="https://www.tallerlab.com.ar/embed/calculadoras/{slug}/" '
+                    f'title="{data["title"]}" width="100%" height="560" loading="lazy" '
+                    'style="border:0" referrerpolicy="strict-origin-when-cross-origin"></iframe>\n'
+                    f'<p>Calculadora de <a href="https://www.tallerlab.com.ar/calculadoras/{slug}/">'
+                    'TallerLab</a></p>',
+                )
 
     def test_indexable_calculator_routes(self):
         routes = ["/calculadoras/"] + [f"/calculadoras/{slug}/" for slug in CALCULATOR_PAGES]

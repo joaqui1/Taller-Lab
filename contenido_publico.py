@@ -85,7 +85,31 @@ def limpiar_contenido_publico(html):
 
 
 def apply_community_nav(html):
-    """Conserva la llamada de las vistas de comunidad; el shell ya no tiene ese enlace en su menú."""
+    """Muestra Comunidad en los menús solo cuando la participación está habilitada."""
+    try:
+        from comunidad import storage
+        if not storage.enabled():
+            return html
+    except Exception:
+        return html
+
+    def add_link_to_menu(match):
+        def with_community(anchor_match):
+            attributes = anchor_match.group("attributes") or ""
+            return anchor_match.group(0) + f'<a href="/comunidad/"{attributes}>Comunidad</a>'
+
+        body = re.sub(
+            r'<a href="/datos/precios-herramientas-argentina/"(?P<attributes>[^>]*)>Precios</a>',
+            with_community,
+            match.group("body"),
+        )
+        return match.group("opening") + body + match.group("closing")
+
+    for menu_pattern in (
+        r'(?P<opening><nav aria-label="Menú de navegación">)(?P<body>.*?)(?P<closing></nav>)',
+        r'(?P<opening><nav class="nav-links">)(?P<body>.*?)(?P<closing></nav>)',
+    ):
+        html = re.sub(menu_pattern, add_link_to_menu, html, flags=re.S)
     return html
 
 
@@ -95,6 +119,7 @@ class PublicTemplate(str):
             if isinstance(kwargs.get(key),str):
                 kwargs[key]=limpiar_contenido_publico(kwargs[key])
         html = super().format(*args,**kwargs)
+        html = apply_community_nav(html)
         from paginas_institucionales import contact_email
         email = contact_email()
         if email:
