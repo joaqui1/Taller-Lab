@@ -321,8 +321,17 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
     min_offer_note = f'<p class="reference-note min-offer-note">El mínimo observado fue un precio en oferta: el {esc(day(low["observed_at"]))} la ficha mostraba {esc(peso(low["price_ars"]))} con un tachado de {esc(peso(low["reference_ars"]))}. No es el precio habitual.</p>' if low else ''
     since = day(row['series'][0]['observed_at']) if row['series'] else ''
     history = ''.join(f'<tr><td>{esc(stamp(h["observed_at"]))}</td><td>{esc(peso(h["price_ars"]))}{offer_tag(h)}</td><td>{esc(LABELS.get(h["availability"], h["availability"]))}</td></tr>' for h in reversed(row['series'][-120:])) or '<tr><td colspan="3">Todavía no hay una observación válida.</td></tr>'
-    guide_items = ''.join(f'<li><a href="{SITE}{esc(g["url"])}">{esc(g["title"])}</a></li>' for g in guides.get(m['id'], []))
-    guide_items += f'<li><a href="{SITE}/{m["category"]}/">Guía de compra de {esc(category.lower())}</a></li>'
+    guide_records = list(guides.get(m['id'], []))
+    from tallerlab_data.model_equivalences import tool_slug_for_related_path, guides_for_tool_slug
+    tool_slug = tool_slug_for_related_path('price_path', model_path(m))
+    if tool_slug:
+        known = {g.get('url') for g in guide_records}
+        guide_records.extend({'url': guide_url, 'title': title} for title, guide_url in guides_for_tool_slug(tool_slug)
+                             if guide_url not in known)
+    guide_items = ''.join(f'<li><a href="{SITE}{esc(g["url"])}">{esc(g["title"])}</a></li>' for g in guide_records)
+    guides_html = (f'<h2>Guías que analizan este modelo</h2><ul class="link-list">{guide_items}</ul>'
+                   if guide_records else '')
+    category_guide = f'<p><a href="{SITE}/{m["category"]}/">Guía de compra de {esc(category.lower())}</a></p>'
     def other_price(r):
         if r['state'] == 'disponible' and r['observation'] and r['observation']['price_ars']:
             return short_peso(Decimal(r['observation']['price_ars']))
@@ -335,7 +344,7 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
 <section class="metrics" aria-label="Resumen del historial">{stat_cells}<div><strong>{stats['n'] if stats else 0:02d}</strong><span>capturas con precio</span></div></section>{min_offer_note}
 <section class="model-chart" aria-labelledby="chart-title"><h2 id="chart-title">Evolución del precio del {esc(m['model'])}</h2>{chart_svg(row['series'], 'Evolución del precio publicado del ' + name)}</section>
 <section class="model-history" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">Todas las capturas</h2><a class="download" download="precios-{m['category']}.csv" href="{url('/datos/precios/' + m['category'] + '/historial.csv')}">Descargar CSV <span aria-hidden="true">↓</span></a></div><div class="history-scroll"><table><caption>Capturas de {esc(name)}{(' (' + esc(variant) + ')') if variant else ''} en {esc(source['name'])}</caption><thead><tr><th>Captura</th><th>Precio observado (ARS)</th><th>Stock observado</th></tr></thead><tbody>{history}</tbody></table></div><p class="reading-note">Los importes históricos no son ofertas vigentes. Sin envío, cuotas ni descuentos por medio de pago. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p></section>
-<section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá en la ficha el voltaje y qué incluye la caja. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>El comercio confirma stock, envío y precio final; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div><h2>Guías relacionadas</h2><ul class="link-list">{guide_items}</ul></div></section>
+<section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá en la ficha el voltaje y qué incluye la caja. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>El comercio confirma stock, envío y precio final; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div>{guides_html}{category_guide}</div></section>
 <section class="related-models" aria-labelledby="related-title"><h2 id="related-title">Otros {esc(category.lower())} que seguimos</h2><ul>{other_items}</ul><p><a href="{url('/datos/precios/' + m['category'] + '/')}">Ver la tabla de {esc(category.lower())} ↗</a></p></section>
 {cite_block(canonical, observed_at or observed)}'''
 

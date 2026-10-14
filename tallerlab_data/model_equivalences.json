@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "equivalences": {
+    "lusqtoff-lc0122": {
+      "tool_slug": "lusqtoff-lc0122",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-0122/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-lc30100": {
+      "tool_slug": "lusqtoff-lc30100",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-30100/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-lc3550bk": {
+      "tool_slug": "lusqtoff-lc3550bk",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-3550bk/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-lc2550b-8": {
+      "tool_slug": "lusqtoff-lc2550b-8",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc2550b-8/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-mcl150-8": {
+      "tool_slug": "lusqtoff-mcl150-8",
+      "price_path": "/datos/precios/compresores/lusqtoff-mcl150-8/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-hl-120": {
+      "tool_slug": "lusqtoff-hl-120",
+      "price_path": "/datos/precios/hidrolavadoras/lusqtoff-hl-120/",
+      "alert_path": null,
+      "compatibility_path": null
+    },
+    "lusqtoff-hl100-7": {
+      "tool_slug": "lusqtoff-hl100-7",
+      "price_path": "/datos/precios/hidrolavadoras/lusqtoff-hl100-7/",
+      "alert_path": null,
+      "compatibility_path": null
+    }
+  }
+}

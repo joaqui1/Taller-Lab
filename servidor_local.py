@@ -98,7 +98,7 @@ from tallerlab_data import (
     get_all_editorial_comparisons,
 )
 from tallerlab_data.research_study import generate_study_csv
-from tallerlab_data.guide_links import render_guide_technical_tools_block
+from tallerlab_data.guide_links import render_guide_technical_tools_block, render_guides_for_model_block
 from comunidad.components import render_guide_community, render_guide_community_entry
 from publicaciones_autoridad import (
     AUTHORITY_PAGE_PATHS,
@@ -1713,6 +1713,7 @@ def render_alertas_page(path):
         if exp is None:
             return render_not_found(path)
         content = render_model_dossier_page(exp)
+        content += render_guides_for_model_block_for_path(path, "alert_path")
         publico = expediente_publico(exp)
         title, desc = dossier_meta(publico)
         robots = None if expediente_indexable(publico) else "noindex, follow"
@@ -1728,12 +1729,39 @@ def render_alertas_page(path):
         )
     return render_not_found(path)
 
+
+def render_guides_for_model_block_for_path(path, equivalence_field):
+    from tallerlab_data.model_equivalences import tool_slug_for_related_path
+    tool_slug = tool_slug_for_related_path(equivalence_field, path)
+    return render_guides_for_model_block(tool_slug) if tool_slug else ""
+
+
+def render_article_calculator_link(article):
+    """Enlaza cada guía de una categoría cubierta con la herramienta correspondiente."""
+    url = article.get("url", "")
+    section = article.get("section", "")
+    if url == "/generadores/precios/":
+        slug = "costo-final-oferta"
+    else:
+        slug = {"generadores": "generador-para-casa", "compresores": "caudal-compresor",
+                "hidrolavadoras": "consumo-agua-hidrolavadora"}.get(section)
+    if not slug or slug not in CALCULATOR_PAGES:
+        return ""
+    data = CALCULATOR_PAGES[slug]
+    return f'<aside class="related-calculator"><strong>Recurso para esta categoría</strong><p><a href="/calculadoras/{escape(slug, quote=True)}/">{escape(data["title"])} →</a></p></aside>'
+
 def render_compatibility_page(path, query_params=None):
     from compatibilidad.catalog import refresh_published_state
     refresh_published_state()
     content = render_compatibility_page_content(path, query_params)
     if content is None:
         return render_not_found(path)
+    if path.startswith("/herramientas-bateria/"):
+        from compatibilidad.catalog import PRODUCTS_BY_SLUG
+        compat_slug = path.strip("/").split("/")[-1]
+        product = PRODUCTS_BY_SLUG.get(compat_slug)
+        if product:
+            content += render_guides_for_model_block(product.slug)
     content='<link rel="stylesheet" href="/assets/compatibilidad.css"><link rel="stylesheet" href="/assets/compatibilidad-navegacion.css">'+content+'<script defer src="/assets/compatibilidad.js"></script>'
     title, desc, extra_schema = get_compatibility_meta(path, SITE_URL)
     if path == COMPATIBILITY_SEARCH_PATH:
@@ -1780,6 +1808,7 @@ def render_tallerlab_data_page(path, query_params=None):
         if not tool:
             return render_not_found(path)
         content = render_tool_detail_page(tool)
+        content += render_guides_for_model_block(tool.slug)
     else:
         return render_not_found(path)
 
@@ -3290,6 +3319,7 @@ def render_article_page(article, embedded=False):
       {render_guide_prices(article["url"]) if not embedded else ""}
       {render_guide_community(article) if not embedded else ""}
       {render_guide_technical_tools_block(article["url"])}
+      {render_article_calculator_link(article) if not embedded else ""}
       {__import__("compatibilidad.presentation", fromlist=["x"]).guide_compatibility_block(article["url"]) if not embedded else ""}
       {render_resource(article) if article["section"] == "amoladoras" else ""}
       {render_quick_guide(article) if article["section"] == "amoladoras" else ""}
