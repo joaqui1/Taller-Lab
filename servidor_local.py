@@ -186,6 +186,7 @@ AUTHOR_ROLE = "Responsable de investigación documental de TallerLab"
 AUTHOR_PATH = "/autor/joaquin-vallasciani/"
 REVIEWERS_PATH = "/revisores/"
 REVIEWERS_FILE = Path(__file__).with_name("revisores.json")
+AUTHOR_PROFILE_FILE = Path(__file__).with_name("perfil_autor.json")
 
 def extract_frontmatter(content):
     """Extrae metadatos del frontmatter YAML básico."""
@@ -1267,7 +1268,7 @@ def render_reviewer_page(path):
         title = name + " · Revisión técnica"
         description = str(reviewer.get("bio_corta") or "Perfil de revisión técnica en TallerLab.").strip()
         photo = str(reviewer.get("foto") or reviewer.get("photo") or "").strip()
-        image = f'<img class="reviewer-photo" src="{escape(photo, quote=True)}" alt="Foto de {escape(name, quote=True)}" loading="lazy">' if photo else ""
+        image = f'<img class="reviewer-photo" src="{escape(photo, quote=True)}" alt="Foto de {escape(name, quote=True)}" width="160" height="160" loading="lazy">' if photo else ""
         sections = [f'<p><strong>Oficio:</strong> {escape(occupation)}</p>']
         years = reviewer.get("anios_oficio")
         if years not in (None, ""):
@@ -2945,6 +2946,7 @@ def render_editorial_page(kind):
         content = f'<article class="markdown-body">{breadcrumbs}<h1>{title}</h1>{MARKDOWN.render(contact_markdown() if kind == "contacto" else PRIVACY)}</article>'
         return HTML_SHELL.format(PAGE_TITLE=title, PAGE_DESC=desc, CANONICAL_TAG=canonical_tag(path), PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
     members_html = ""
+    author_photo_html = ""
     if kind == "metodologia":
         title = "Cómo trabajamos"
         path = "/como-trabajamos/"
@@ -3018,10 +3020,16 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
         extra = []
         if public_reviewers():
             extra.append(f'<p><a href="{REVIEWERS_PATH}">Equipo de revisión técnica →</a></p>')
+        if perfil["foto"]:
+            author_photo_html = f'<img class="author-photo" src="{escape(perfil["foto"], quote=True)}" alt="Foto de Joaquín Vallasciani" width="160" height="160" loading="lazy" style="display:block;object-fit:cover;border-radius:50%;margin-bottom:1rem">'
         if perfil["experiencia"]:
             extra.append(f'<h2>Experiencia</h2><p>{escape(perfil["experiencia"])}</p>')
         if perfil["formacion"]:
             extra.append(f'<h2>Formación</h2><p>{escape(perfil["formacion"])}</p>')
+        if perfil["que_hace"]:
+            extra.append('<h2>Qué hago</h2><ul>' + "".join(f'<li>{escape(item)}</li>' for item in perfil["que_hace"]) + '</ul>')
+        if perfil["que_no_hace"]:
+            extra.append('<h2>Qué no hago</h2><ul>' + "".join(f'<li>{escape(item)}</li>' for item in perfil["que_no_hace"]) + '</ul>')
         if perfil["perfiles"] or perfil["email"]:
             enlaces = [f'<li><a href="{escape(u, quote=True)}" rel="me noopener" target="_blank">{escape(urllib.parse.urlsplit(u).hostname or u)}</a></li>' for u in perfil["perfiles"]]
             if perfil["email"]:
@@ -3037,9 +3045,19 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
             extra.append('<h2>Expedientes de documentación y alertas</h2><ul>' + "".join(
                 f'<li><a href="/alertas/{escape(e["slug"], quote=True)}/">{escape(e["marca"])} {escape(e["modelo_base"])}</a> · revisión {escape(str(e.get("fecha_revision", "")))}</li>'
                 for e in fichas) + '</ul>')
+        metrics = author_metrics()
+        metric_labels = (
+            ("guias_publicadas", "Guías publicadas"),
+            ("fichas", "Fichas de herramientas"),
+            ("documentos_fabricante", "Documentos de fabricante citados"),
+            ("correcciones_publicadas", "Correcciones publicadas"),
+        )
+        extra.append('<h2>Métricas de TallerLab</h2><dl class="author-metrics">' + "".join(
+            f'<dt>{label}</dt><dd>{metrics[key]}</dd>' for key, label in metric_labels
+        ) + '</dl>')
         if extra:
             members_html = '<section class="markdown-body">' + "".join(extra) + '</section>' + members_html
-    content = f'<div class="article-container"><div class="article-header"><h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
+    content = f'<div class="article-container"><div class="article-header">{author_photo_html}<h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
     schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps(author_profile_page_schema(), ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path) + schema, PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
@@ -3538,14 +3556,96 @@ def render_article_page(article, embedded=False):
 def author_profile():
     """Datos reales del autor cargados por el editor en perfil_autor.json (vacíos = no se muestran)."""
     try:
-        data = json.loads((Path(__file__).with_name("perfil_autor.json")).read_text(encoding="utf-8"))
+        data = json.loads(AUTHOR_PROFILE_FILE.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         data = {}
-    perfiles = [u for u in data.get("perfiles", []) if isinstance(u, str) and re.fullmatch(r"https://[^\s<>\"]+", u)]
+    if not isinstance(data, dict):
+        data = {}
+    profile_urls = data.get("perfiles", [])
+    perfiles = [u.strip() for u in profile_urls if isinstance(u, str) and re.fullmatch(r"https://[^\s<>\"]+", u.strip())] if isinstance(profile_urls, list) else []
+    photo = str(data.get("foto", "")).strip()
+    if photo.startswith("assets/"):
+        photo = "/" + photo
+    if (not re.fullmatch(r"/assets/[A-Za-z0-9._/-]+", photo)
+            or ".." in photo.split("/") or "\\" in photo):
+        photo = ""
+
+    def text_items(key):
+        values = data.get(key, [])
+        return [item.strip() for item in values if isinstance(item, str) and item.strip()] if isinstance(values, list) else []
+
     email = str(data.get("email_publico", "")).strip()
     email = email if re.fullmatch(r"[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+", email) else ""
-    return {"experiencia": str(data.get("experiencia", "")).strip(), "formacion": str(data.get("formacion", "")).strip(),
-            "perfiles": perfiles, "email": email}
+    return {
+        "foto": photo,
+        "experiencia": str(data.get("experiencia", "")).strip(),
+        "formacion": str(data.get("formacion", "")).strip(),
+        "que_hace": text_items("que_hace"),
+        "que_no_hace": text_items("que_no_hace"),
+        "perfiles": perfiles,
+        "email": email,
+    }
+
+
+def author_metrics():
+    """Cuenta guías, fichas, fuentes oficiales y correcciones del contenido público."""
+    from tallerlab_data.quality import source_type_for
+
+    official_types = {"manual_oficial", "ficha_fabricante", "catalogo_oficial", "despiece_oficial"}
+    documents = set()
+
+    def add_document(url, label=""):
+        url = str(url or "").strip()
+        if not url:
+            return
+        try:
+            if source_type_for(url, str(label or "")) in official_types:
+                documents.add(url)
+        except (TypeError, ValueError):
+            return
+
+    for article in ALL_ARTICLES:
+        for label, url in re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", article.get("body", "")):
+            add_document(url, label)
+
+    try:
+        for tool in get_all_tools():
+            for source in getattr(tool, "primary_sources", []) or []:
+                if isinstance(source, dict):
+                    add_document(source.get("url"), source.get("label"))
+            for spec in getattr(tool, "specifications", []) or []:
+                add_document(getattr(spec, "source_url", ""), getattr(spec, "source_name", ""))
+    except Exception:
+        pass
+
+    guide_corrections = 0
+    for article in ALL_ARTICLES:
+        section = re.search(
+            r"(?ims)^##[ \t]+Historial de correcciones[ \t]*\n(.*?)(?=^##[ \t]+|\Z)",
+            article.get("body", ""),
+        )
+        if not section:
+            continue
+        for value in re.findall(r"(?m)^-[ \t]+\*\*(\d{2}/\d{2}/\d{4})\s+[—-]", section.group(1)):
+            try:
+                datetime.strptime(value, "%d/%m/%Y")
+            except ValueError:
+                continue
+            guide_corrections += 1
+
+    try:
+        from tallerlab_data.storage import list_corrections
+        corrections = list_corrections()
+        correction_count = len(corrections) + guide_corrections
+    except Exception:
+        correction_count = guide_corrections
+
+    return {
+        "guias_publicadas": len(ALL_ARTICLES),
+        "fichas": len(TALLERLAB_DATA_TOOL_PATHS),
+        "documentos_fabricante": len(documents),
+        "correcciones_publicadas": correction_count,
+    }
 
 
 def author_schema(name=AUTHOR_NAME):
@@ -3558,6 +3658,8 @@ def author_schema(name=AUTHOR_NAME):
         "worksFor": {"@id": absolute_url("/") + "#organization"},
     }
     perfil = author_profile()
+    if perfil["foto"]:
+        schema["image"] = absolute_url(perfil["foto"])
     if perfil["perfiles"]:
         schema["sameAs"] = perfil["perfiles"]
     if perfil["email"]:
