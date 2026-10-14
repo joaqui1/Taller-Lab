@@ -245,7 +245,10 @@ class FreeObservatoryTests(unittest.TestCase):
             self.assertEqual(soup.select_one('link[rel=canonical]')['href'],'https://www.tallerlab.com.ar'+HUB)
             self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex, follow')
             self.assertFalse((output/'sitemap.xml').exists())
-            self.assertEqual(len(summary['routes']),10+44)
+            self.assertEqual(len(summary['routes']),9+44)
+            self.assertNotIn('/datos/precios/informes/',summary['routes'])
+            reports=BeautifulSoup((output/'datos/precios/informes/index.html').read_text(encoding='utf-8'),'html.parser')
+            self.assertEqual(reports.select_one('meta[name=robots]')['content'],'noindex, follow')
             links=[a['href'] for a in soup.select('.product h3 a')];self.assertEqual(len(links),44)
             for link in links:self.assertTrue((output/link.removeprefix('/Taller-Lab/')/'index.html').is_file())
             for category in CATEGORIES:
@@ -268,7 +271,8 @@ class FreeObservatoryTests(unittest.TestCase):
             types=[json.loads(s.string)['@type'] for s in soup.select('script[type="application/ld+json"]')]
             self.assertEqual(types,['Dataset','BreadcrumbList'])
             self.assertTrue(soup.select('.model-context a[href^="https://www.tallerlab.com.ar/compresores/"]'))
-            sitemap=(output/'sitemap.xml').read_text(encoding='utf-8');self.assertEqual(sitemap.count('<loc>'),54)
+            sitemap=(output/'sitemap.xml').read_text(encoding='utf-8');self.assertEqual(sitemap.count('<loc>'),53)
+            self.assertNotIn('/datos/precios/informes/',sitemap)
             descriptions={BeautifulSoup((output/p.strip('/')/'index.html').read_text(encoding='utf-8'),'html.parser').select_one('meta[name=description]')['content'] for p in summary['routes']}
             self.assertEqual(len(descriptions),len(summary['routes']))
         series=[{'observed_at':f'2026-10-{d:02d}T12:00:00+00:00','availability':'disponible','price_ars':f'{100000+d*1000}.00'} for d in range(1,21)]

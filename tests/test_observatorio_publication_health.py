@@ -54,7 +54,7 @@ class PublicationHealthTests(unittest.TestCase):
                 if path.is_dir(): path /= 'index.html'
                 return path.read_text(encoding='utf-8')
             result = verify_live_publication('https://www.tallerlab.com.ar', expected, fetch, now)
-            self.assertEqual(result['routes'], 54)
+            self.assertEqual(result['routes'], 53)
             path = root / summary['routes'][-1].strip('/') / 'index.html'
             html = path.read_text(encoding='utf-8')
             path.write_text('<html><h1>No encontrado</h1></html>', encoding='utf-8')

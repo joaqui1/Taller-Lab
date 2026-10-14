@@ -601,7 +601,7 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
     pages.append((REPORTS_HUB, page(
         'Informes mensuales de precios de herramientas | TallerLab',
         'Informes mensuales del Observatorio TallerLab: variación de precios publicados, agotados, fines de oferta y límites de la muestra.',
-        report_index_canonical, [report_index_schema, breadcrumb_schema(report_crumbs)], mirror, url,
+        report_index_canonical, [report_index_schema, breadcrumb_schema(report_crumbs)], mirror or not monthly_reports, url,
         reports_index_body([item['editorial'] for item in monthly_reports], url), published_at=observed,
     )))
     latest_report_link = ''
@@ -688,7 +688,9 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
         crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', canon_base + HUB), (CATEGORIES[m['category']], canon_base + '/datos/precios/' + m['category'] + '/'), (m['model'], canonical)]
         schema = [dataset_schema('Historial de precios del ' + name, f'Precio publicado y stock observados a diario del {name}' + (f' ({variant_text(m)})' if variant_text(m) else '') + f' en {source_name(m)}, Argentina.', canonical, canon_base + '/datos/precios/' + m['category'] + '/historial.csv', row['series'], modified), breadcrumb_schema(crumbs)]
         pages.append((path, page(f'{name}: precio hoy e historial | TallerLab', desc, canonical, schema, mirror, url, model_body(row, rows, manifest['sources'], guides, url, canonical, observed), published_at=observed)))
-    routes = [p for p, _ in pages]
+    # El hub vacío se genera para conservar una respuesta útil, pero no se
+    # declara como ruta publicada hasta que exista un informe editorial.
+    routes = [p for p, _ in pages if p != REPORTS_HUB or monthly_reports]
     for path, html in pages:
         target = output/path.strip('/')/'index.html'; target.parent.mkdir(parents=True, exist_ok=True); target.write_text(html, encoding='utf-8')
         if path == HUB and standalone:
@@ -732,9 +734,13 @@ def static_observatory_file(path):
 
 def expected_observatory_paths():
     manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
-    return ([HUB] + ['/datos/precios/'+c+'/' for c in CATEGORIES] + [METHOD, REPORTS_HUB]
+    reports = editorial_reports(EDITORIAL_DIR)
+    base = [HUB] + ['/datos/precios/'+c+'/' for c in CATEGORIES] + [METHOD]
+    if reports:
+        base.append(REPORTS_HUB)
+    return (base
             + [model_path(m) for m in manifest['models']]
-            + [report_path(item['month']) for item in editorial_reports(EDITORIAL_DIR)])
+            + [report_path(item['month']) for item in reports])
 
 
 def expected_price_embed_paths():

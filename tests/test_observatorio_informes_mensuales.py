@@ -128,6 +128,9 @@ class MonthlyReportCalculationTests(unittest.TestCase):
             self.assertIn('/datos/precios/informes/', summary['routes'])
             self.assertIn('/datos/precios/informes/2026-03/', summary['routes'])
             report_html = (output / 'datos/precios/informes/2026-03/index.html').read_text(encoding='utf-8')
+            index_soup = BeautifulSoup((output / 'datos/precios/informes/index.html').read_text(encoding='utf-8'), 'html.parser')
+            self.assertEqual(index_soup.select_one('meta[name=robots]')['content'], 'index, follow, max-image-preview:large')
+            self.assertIn('/datos/precios/informes/', (output / 'sitemap.xml').read_text(encoding='utf-8'))
             report_soup = BeautifulSoup(report_html, 'html.parser')
             types = [json.loads(script.string)['@type'] for script in report_soup.select('script[type="application/ld+json"]')]
             self.assertIn('Dataset', types)
@@ -141,16 +144,31 @@ class MonthlyReportCalculationTests(unittest.TestCase):
             self.assertFalse(no_affiliate_row.select('a[href^="https://meli.la/"]'))
             self.assertIn('Precio publicado por Tienda de prueba', report_soup.get_text(' ', strip=True))
             self.assertFalse(report_soup.select('a[href*="tienda.example"]'))
-            index = BeautifulSoup((output / 'datos/precios/informes/index.html').read_text(encoding='utf-8'), 'html.parser')
-            self.assertTrue(index.select_one('a[href="/datos/precios/informes/2026-03/"]'))
+            self.assertTrue(index_soup.select_one('a[href="/datos/precios/informes/2026-03/"]'))
             hub = BeautifulSoup((output / 'datos/precios-herramientas-argentina/index.html').read_text(encoding='utf-8'), 'html.parser')
             self.assertTrue(hub.select_one('a[href="/datos/precios/informes/2026-03/"]'))
             (editorial_dir / '2026-03.json').write_text(json.dumps({
                 'mes': '2026-03', 'publicado': False, 'lectura_del_mes': 'Lectura en revisión.'
             }), encoding='utf-8')
             draft_output = root / 'draft'
-            estatico.build_site(history_path, draft_output, manifest_path=manifest_path)
+            with patch.object(estatico, 'MANIFEST', manifest_path), patch.object(estatico, 'EDITORIAL_DIR', editorial_dir):
+                draft_summary = estatico.build_site(history_path, draft_output, manifest_path=manifest_path)
+                estatico.verify_publication(draft_output, draft_summary)
+                expected_draft_paths = estatico.expected_observatory_paths()
             self.assertFalse((draft_output / 'datos/precios/informes/2026-03/index.html').exists())
+            self.assertNotIn('/datos/precios/informes/', draft_summary['routes'])
+            self.assertNotIn('/datos/precios/informes/', expected_draft_paths)
+            draft_index = BeautifulSoup((draft_output / 'datos/precios/informes/index.html').read_text(encoding='utf-8'), 'html.parser')
+            self.assertEqual(draft_index.select_one('meta[name=robots]')['content'], 'noindex, follow')
+            self.assertNotIn('/datos/precios/informes/', (draft_output / 'sitemap.xml').read_text(encoding='utf-8'))
+            linked_reports_hub = []
+            for html_file in draft_output.rglob('*.html'):
+                soup = BeautifulSoup(html_file.read_text(encoding='utf-8'), 'html.parser')
+                linked_reports_hub.extend(
+                    (html_file, link['href']) for link in soup.select('a[href]')
+                    if link['href'] == '/datos/precios/informes/'
+                )
+            self.assertEqual(linked_reports_hub, [])
             draft_hub = BeautifulSoup((draft_output / 'datos/precios-herramientas-argentina/index.html').read_text(encoding='utf-8'), 'html.parser')
             self.assertFalse(draft_hub.select_one('.latest-report'))
 
