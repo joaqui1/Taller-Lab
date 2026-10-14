@@ -57,7 +57,8 @@ class Contacto(unittest.TestCase):
         self.assertIn('/comunidad/contacto/', contact_markdown(email='', mailbox=True))
 
     def test_contacto_muestra_email_configurado_y_menu_no_ofrece_comunidad(self):
-        with patch.dict(os.environ, {'CONTACT_EMAIL': ''}):
+        from comunidad import storage as db
+        with patch.object(db, 'enabled', return_value=False), patch.dict(os.environ, {'CONTACT_EMAIL': ''}):
             from app import app
             response = app.test_client().get('/contacto/')
         self.assertEqual(response.status_code, 200)
@@ -109,7 +110,9 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
             self.assertNotIn('/comunidad/', self.locs())
 
     def test_menu_sin_comunidad_mientras_esta_cerrada(self):
-        html = self.site.render_editorial_page('contacto')
+        from comunidad import storage as db
+        with patch.object(db, 'enabled', return_value=False):
+            html = self.site.render_editorial_page('contacto')
         header = html.split('</header>', 1)[0]
         self.assertNotIn('/comunidad/', header)
         self.assertIn('<a href="/comunidad/">Comunidad</a>', html)  # sigue en el pie

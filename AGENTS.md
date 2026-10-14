@@ -55,3 +55,5 @@ TallerLab publica en español rioplatense guías de compra de herramientas para 
 ## Cambios recientes
 
 - El email público de contacto vive en `perfil_autor.json`, campo `email_publico`; `paginas_institucionales.contact_email()` lo carga y `PublicTemplate` lo agrega al pie.
+- Los perfiles de revisión técnica se cargan en `revisores.json`, con `_instrucciones` y entradas que usan `slug`, `nombre`, `oficio`, `anios_oficio` (opcional), `localidad` (opcional), `foto`, `bio_corta`, `perfiles`, `categorias`, `activo` y `consentimiento_publicacion`. Solo se muestran quienes tienen `activo: true` y `consentimiento_publicacion: true`. `servidor_local.py` comparte el render de `/revisores/` y `/revisores/{slug}/` con Flask en `app.py`; las guías los vinculan con los campos de frontmatter `revisor`, `revision_tecnica` y `alcance_revision`.
+- `perfil_autor.json` admite además `foto` (ruta dentro de `assets/`), `que_hace` y `que_no_hace` (listas). La página institucional del autor calcula sus métricas a partir de los datos del sitio.
