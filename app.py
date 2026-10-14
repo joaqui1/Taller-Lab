@@ -5,6 +5,7 @@ from datetime import timedelta
 import os
 import secrets
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from flask import Flask, Response, redirect, request, send_from_directory
 
@@ -25,6 +26,10 @@ from servidor_local import (
     generate_study_csv,
     render_alertas_page,
     render_article_page,
+    render_calculator_embed,
+    render_calculator_page,
+    CALCULATOR_PATHS,
+    CALCULATOR_EMBED_PATHS,
     render_category_page,
     render_compatibility_page,
     render_tallerlab_data_page,
@@ -112,7 +117,7 @@ ANALYTICS_SNIPPET = (b'<script>window.va=window.va||function(){(window.vaq=windo
 def vercel_web_analytics(response):
     """Vercel Web Analytics (sin cookies). Activar en el panel de Vercel y definir VERCEL_WEB_ANALYTICS=1."""
     if (os.environ.get('VERCEL_WEB_ANALYTICS') == '1' and response.status_code == 200 and response.mimetype == 'text/html'
-            and not response.direct_passthrough and not request.path.startswith(('/comunidad/admin', '/api/'))):
+            and not response.direct_passthrough and not request.path.startswith(('/comunidad/admin', '/api/', '/embed/'))):
         body = response.get_data()
         if b'/_vercel/insights/script.js' not in body and b'</body>' in body:
             response.set_data(body.replace(b'</body>', ANALYTICS_SNIPPET + b'</body>', 1))
@@ -353,6 +358,15 @@ def observatory_status():
 @app.route("/<path:path>", methods=["GET", "HEAD"], strict_slashes=False)
 def page(path):
     url_path = "/" + path
+
+    if url_path in CALCULATOR_EMBED_PATHS:
+        if request.method == "GET":
+            referrer = request.referrer or ""
+            source_domain = urlsplit(referrer).hostname or ""
+            track_event(event_type="calculator_embed_loaded", source_domain=source_domain)
+        return Response(render_calculator_embed(url_path.strip("/").split("/")[-1]), content_type="text/html; charset=utf-8", headers={"X-Robots-Tag": "noindex, follow", "Content-Security-Policy": "frame-ancestors *"})
+    if url_path == "/calculadoras/" or url_path in CALCULATOR_PATHS:
+        return Response(render_calculator_page(url_path), content_type="text/html; charset=utf-8")
 
     if url_path == "/robots.txt":
         return Response(render_robots(), content_type="text/plain; charset=utf-8")

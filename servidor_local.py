@@ -994,6 +994,7 @@ def get_published_observatory_paths():
 PUBLIC_SECTIONS = {a["section"] for a in ALL_ARTICLES}
 INDEXABLE_PATHS = tuple(dict.fromkeys(
     ["/", "/comunidad/", "/comunidad/criterios/", "/como-trabajamos/", "/autor/joaquin-vallasciani/", "/contacto/", "/privacidad/"]
+    + ["/calculadoras/", "/calculadoras/generador-para-casa/", "/calculadoras/caudal-compresor/", "/calculadoras/costo-final-oferta/", "/calculadoras/consumo-agua-hidrolavadora/"]
     + list(RELEVAMIENTO_PATHS)
     + list(ALERTAS_PATHS)
     + ['/alertas/metodologia/']
@@ -1003,6 +1004,98 @@ INDEXABLE_PATHS = tuple(dict.fromkeys(
     + [article["url"] for article in ALL_ARTICLES]
 ))
 INDEXABLE_PATH_SET = set(INDEXABLE_PATHS) | set(OBSERVATORY_PATHS) | set(OBSERVATORY_DOWNLOAD_PATHS) | set(COMPATIBILITY_DOWNLOAD_PATHS) | set(TALLERLAB_DATA_DOWNLOAD_PATHS) | {COMPATIBILITY_SEARCH_PATH}
+
+CALCULATOR_PAGES = {
+    "generador-para-casa": {
+        "title": "Calculadora de generador para tu casa",
+        "description": "Sumá cargas simultáneas y explorá el pico estimado cuando arranca un motor, con datos de placa o manual.",
+        "guide": "/generadores/para-casa/",
+        "related": [("Guía: generador eléctrico para casa", "/generadores/para-casa/"), ("Cómo elegir un grupo electrógeno", "/generadores/comparativa-general/")],
+        "formula": "Suma de marcha = suma de los watts de marcha de las cargas simultáneas. Pico explorado = suma de marcha + el mayor incremento documentado de arranque (arranque − marcha).",
+        "assumptions": "El escenario supone que arranca un motor a la vez y que las demás cargas siguen en marcha. Cada fila necesita nombre, marcha positiva y arranque documentado igual o mayor.",
+        "limits": "No convierte W a VA ni valida un generador o la conexión a la vivienda. La guía explica que la potencia nominal corresponde a marcha y que el pico debe cotejarse con lo permitido por el manual; la potencia máxima no es capacidad continua.",
+    },
+    "caudal-compresor": {
+        "title": "Calculadora de caudal para compresor",
+        "description": "Contrastá el caudal de salida y el consumo de una herramienta cuando ambos datos corresponden a la misma presión.",
+        "guide": "/compresores/50-litros/",
+        "related": [("Compresores de 50 litros", "/compresores/50-litros/"), ("Compresor para pintar", "/compresores/para-pintar/")],
+        "formula": "Diferencia de caudal = caudal de salida documentado − consumo de la herramienta, en L/min.",
+        "assumptions": "Solo se calcula si la presión informada para el suministro y la demanda coincide (tolerancia de redondeo de 0,000001 bar). Se compara caudal de salida, no aspiración.",
+        "limits": "Una diferencia positiva no valida continuidad: faltan ciclo de trabajo, pérdidas y simultaneidad. No se interpolan fichas con presiones distintas.",
+    },
+    "costo-final-oferta": {
+        "title": "Calculadora de costo final de dos ofertas",
+        "description": "Sumá precio, envío y extras necesarios en dos ofertas y compará los totales ingresados.",
+        "guide": "/generadores/precios/",
+        "related": [("Precios de grupos electrógenos", "/generadores/precios/"), ("Elegir un generador para casa", "/generadores/para-casa/")],
+        "formula": "Total de cada oferta = precio + envío + accesorios o instalación necesarios. Diferencia = valor absoluto entre los dos totales.",
+        "assumptions": "Ingresá importes de las publicaciones que comparás. Envío y extras pueden ser cero si ya están incluidos.",
+        "limits": "Revisá que ambas ofertas sean la misma variante y configuración. El cálculo no compara prestaciones ni financiación; los costos financieros se pueden cargar como extra si se quiere comparar desembolso.",
+    },
+    "consumo-agua-hidrolavadora": {
+        "title": "Calculadora de consumo de agua de una hidrolavadora",
+        "description": "Estimá el volumen teórico a partir del caudal elegido y los minutos con salida de agua activa.",
+        "guide": "/hidrolavadoras/lusqtoff/",
+        "related": [("Hidrolavadoras Lüsqtoff", "/hidrolavadoras/lusqtoff/"), ("Hidrolavadoras: comparativa general", "/hidrolavadoras/comparativa-general/")],
+        "formula": "Volumen teórico (L) = caudal (L/min) × minutos con salida de agua activa.",
+        "assumptions": "El ejemplo de la guía conserva el caudal de trabajo de HL-120. El caudal elegido debe corresponder a una condición documentada del modelo.",
+        "limits": "No equivale a autonomía ni a tiempo de limpieza de una superficie. La guía distingue entre caudales de trabajo y máximos y no asigna al HL100-7 una condición que su fuente no precisa.",
+    },
+}
+CALCULATOR_INDEX_PATH = "/calculadoras/"
+CALCULATOR_PATHS = {f"/calculadoras/{slug}/": data for slug, data in CALCULATOR_PAGES.items()}
+CALCULATOR_EMBED_PATHS = {f"/embed/calculadoras/{slug}/": data for slug, data in CALCULATOR_PAGES.items()}
+
+def _calculator_sources(article):
+    links = re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", article["body"])
+    ignored = ("mercadolibre.", "meli.la", "instagram.com", "youtube.com", "tiktok.com")
+    unique = []
+    seen = set()
+    for label, url in links:
+        host = (urllib.parse.urlsplit(url).hostname or "").lower()
+        if not host or any(part in host for part in ignored) or url in seen:
+            continue
+        seen.add(url)
+        unique.append((label, url))
+        if len(unique) == 8:
+            break
+    return unique
+
+def _calculator_article(data):
+    return next(article for article in ALL_ARTICLES if article["url"] == data["guide"])
+
+def _calculator_resource(data):
+    article = _calculator_article(data)
+    return render_resource(article), article
+
+def render_calculator_embed(slug):
+    data = CALCULATOR_PAGES.get(slug)
+    if not data:
+        return render_not_found("/embed/calculadoras/" + slug + "/")
+    resource, article = _calculator_resource(data)
+    canonical = absolute_url(f"/calculadoras/{slug}/")
+    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{escape(data["title"])}</title><link rel="canonical" href="{escape(canonical, quote=True)}"><style>
+    :root{{--ink:#17241f;--muted:#53645b;--line:#d8e1dc;--accent:#c45125;--paper:#fff;--wash:#f4f7f4;color-scheme:light}}
+    *{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}}.frame{{max-width:760px;margin:auto;padding:18px}}.editorial-resource{{border:1px solid var(--line);border-radius:14px;padding:24px;background:linear-gradient(145deg,#fff 60%,#f3f7f3)}}.resource-kicker{{font:700 .7rem/1.2 system-ui,sans-serif;letter-spacing:.12em;color:var(--accent)}}.editorial-resource h2{{font-size:clamp(1.5rem,5vw,2rem);line-height:1.13;margin:.7rem 0}}.resource-lead,.resource-method,.resource-provenance{{color:var(--muted)}}.resource-fields{{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin:20px 0}}.resource-field{{display:grid;gap:6px;font:600 .9rem system-ui,sans-serif}}.resource-field>span{{display:flex;align-items:center;border:1px solid var(--line);border-radius:8px;background:#fff;padding:0 10px}}.resource-field input,.resource-field select{{font:inherit;color:var(--ink);padding:11px 8px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff}}.resource-field>span input{{border:0;outline:0}}.resource-loads{{display:grid;gap:10px}}.resource-loads fieldset{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border:1px solid var(--line);padding:12px}}.resource-loads legend{{font:600 .82rem system-ui,sans-serif}}.resource-loads label{{display:grid;gap:4px;font:600 .8rem system-ui,sans-serif}}.resource-loads input{{width:100%;min-width:0;padding:9px;border:1px solid var(--line);border-radius:6px;font:inherit}}.resource-result{{border-left:4px solid var(--accent);background:#fff;padding:14px 16px;margin:16px 0}}.resource-result strong{{font:700 1.05rem system-ui,sans-serif}}.resource-result p{{margin:.3rem 0 0}}.resource-method{{font-size:.92rem}}.resource-provenance{{font-size:.78rem}}.resource-provenance a{{color:inherit}}.brand{{border-top:1px solid var(--line);margin:14px 0 0;padding-top:10px;font:600 .8rem system-ui,sans-serif}}a{{color:var(--accent)}}@media(max-width:520px){{.frame{{padding:10px}}.editorial-resource{{padding:17px}}.resource-loads fieldset{{grid-template-columns:1fr}}}}
+    </style></head><body><main class="frame">{resource}<p id="fuentes-consultadas" class="resource-provenance"><a href="{escape(absolute_url(article["url"]), quote=True)}" target="_blank" rel="noopener">Ver fuentes y límites en la guía relacionada</a></p><p class="brand"><a href="{escape(canonical, quote=True)}" target="_blank" rel="noopener">Calculadora de TallerLab</a></p></main><script src="/assets/decision-tools.js?v=5" defer></script></body></html>'''
+
+def render_calculator_page(path):
+    if path == CALCULATOR_INDEX_PATH:
+        cards = "".join(f'<a class="article-card" href="/calculadoras/{slug}/"><h2>{escape(data["title"])}</h2><p>{escape(data["description"])}</p><span>Usar calculadora →</span></a>' for slug, data in CALCULATOR_PAGES.items())
+        content = f'<div class="editorial-container"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>Calculadoras</span></nav><header class="article-header"><span class="article-category">RECURSOS DE DECISIÓN</span><h1>Calculadoras de herramientas</h1><p>Herramientas para estimar cargas, caudal, costos y consumo con los supuestos y límites explicados.</p></header><div class="article-grid">{cards}</div></div>'
+        return HTML_SHELL.format(PAGE_TITLE="Calculadoras de herramientas | TallerLab", CANONICAL_TAG=canonical_tag(path, title="Calculadoras de herramientas | TallerLab", description="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras."), PAGE_DESC="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    data = CALCULATOR_PATHS.get(path)
+    if not data:
+        return render_not_found(path)
+    resource, article = _calculator_resource(data)
+    sources = _calculator_sources(article)
+    source_html = "".join(f'<li><a href="{escape(url, quote=True)}" rel="noopener" target="_blank">{escape(label)}</a></li>' for label, url in sources)
+    related = " · ".join(f'<a href="{escape(url, quote=True)}">{escape(label)}</a>' for label, url in data["related"])
+    schema = {"@context": "https://schema.org", "@type": "WebApplication", "name": data["title"], "url": absolute_url(path), "description": data["description"], "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web", "isAccessibleForFree": True, "publisher": {"@id": absolute_url("/") + "#organization"}}
+    reviewed = article["reviewed"]
+    content = f'''<div class="editorial-container calculator-page"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><a href="/calculadoras/">Calculadoras</a><span>/</span><span>{escape(data["title"])}</span></nav><header class="article-header"><span class="article-category">CALCULADORA DOCUMENTAL</span><h1>{escape(data["title"])}</h1><p>{escape(data["description"])}</p></header><p class="calculator-intro">Usá valores de placa, manual o publicación que estés comparando. El resultado orienta la cuenta y conserva los límites de la documentación.</p>{resource}<section class="calculator-explanation" aria-labelledby="calculator-method-title"><h2 id="calculator-method-title">Cómo calcula</h2><p><strong>Fórmula:</strong> {escape(data["formula"])}</p><p><strong>Supuestos:</strong> {escape(data["assumptions"])}</p><p><strong>Límites:</strong> {escape(data["limits"])}</p></section><section id="fuentes-consultadas"><h2>Fuentes</h2><p>Fuentes documentales enlazadas en la guía relacionada:</p><ul>{source_html}</ul></section><section><h2>Guías relacionadas</h2><p>{related}</p></section><p class="calculator-reviewed">Revisión de fuentes: {escape(reviewed)}.</p><section class="calculator-embed-tools"><h2>Insertar en tu sitio</h2><p>Copiá el iframe y acompañalo con un enlace visible a la calculadora:</p><textarea readonly rows="3" aria-label="Código iframe" class="calculator-embed-code"></textarea><div class="calculator-embed-link"><p>Ver también la <a href="{escape(absolute_url(path), quote=True)}">{escape(data["title"].lower())} de TallerLab</a>.</p></div><button type="button" class="calculator-copy-button">Copiar código</button></section><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")}</script><script>(function(){{var origin=location.origin,slug={json.dumps(path.split('/')[-2])},frame=origin+'/embed/calculadoras/'+slug+'/',box=document.querySelector('.calculator-embed-code');box.value='<iframe src="'+frame+'" title="{escape(data["title"], quote=True)}" width="100%" height="560" loading="lazy" style="border:0" referrerpolicy="strict-origin-when-cross-origin"></iframe>';document.querySelector('.calculator-copy-button').addEventListener('click',function(){{box.select();navigator.clipboard&&navigator.clipboard.writeText(box.value).then(function(){{this.textContent='Copiado'}}.bind(this)).catch(function(){{}})}})}})();</script></div><script src="/assets/decision-tools.js?v=5" defer></script>'''
+    return HTML_SHELL.format(PAGE_TITLE=data["title"] + " | TallerLab", CANONICAL_TAG=canonical_tag(path, title=data["title"] + " | TallerLab", description=data["description"]), PAGE_DESC=data["description"], PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 def validate_published_links():
     """Falla al iniciar si cualquier artículo publicado contiene una ruta inválida."""
@@ -2211,13 +2304,14 @@ HTML_SHELL = """<!DOCTYPE html>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
   <header>
     <div class="nav-container">
-      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
+      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/calculadoras/">Calculadoras</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
       <a href="/" class="logo">
         <img src="{LOGO_SRC}" alt="TallerLab" class="logo-img" width="952" height="284">
       </a>
       <nav class="nav-links">
         <a href="/" class="nav-btn">Inicio</a>
         <a href="/herramientas/" class="nav-btn">Herramientas</a>
+        <a href="/calculadoras/" class="nav-btn">Calculadoras</a>
         <a href="/datos/precios-herramientas-argentina/" class="nav-btn">Precios</a>
         <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
       </nav>
@@ -2497,10 +2591,12 @@ def render_home_page():
         i = len(comparisons) + 1
         comparisons.append(f'''<a class="home-comparison" href="{url}"><div class="home-comparison-top"><span>{i:02d} / COMPARATIVA</span><span>{escape(CATEGORY_META[article["section"]]["name"])}</span></div><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Comparar opciones <span aria-hidden="true">→</span></span></a>''')
     tools = []
+    calculator_links = {"/generadores/para-casa/": "/calculadoras/generador-para-casa/", "/compresores/50-litros/": "/calculadoras/caudal-compresor/", "/generadores/precios/": "/calculadoras/costo-final-oferta/", "/hidrolavadoras/lusqtoff/": "/calculadoras/consumo-agua-hidrolavadora/"}
     for url, kind, title, description, unit in HOME_TOOLS:
         if url not in articles or url not in RESOURCES:
             continue
-        tools.append(f'''<a class="home-tool" href="{url}#resource-title"><span class="home-tool-unit" aria-hidden="true">{escape(unit)}</span><div><span class="home-kicker">{kind}</span><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Usar {kind.lower()} <span aria-hidden="true">→</span></span></div></a>''')
+        tool_url = calculator_links.get(url, url + "#resource-title")
+        tools.append(f'''<a class="home-tool" href="{tool_url}"><span class="home-tool-unit" aria-hidden="true">{escape(unit)}</span><div><span class="home-kicker">{kind}</span><h3>{escape(title)}</h3><p>{escape(description)}</p><span class="home-card-action">Usar {kind.lower()} <span aria-hidden="true">→</span></span></div></a>''')
     tools_section = f'''<section id="herramientas" class="home-section home-tools-section" aria-labelledby="home-tools-title"><div class="home-section-heading"><div><span class="home-kicker">03 / RESOLVÉ TU DUDA</span><h2 id="home-tools-title">Menos suposiciones. Más números.</h2></div><p>Calculadoras y selectores con sus supuestos explicados.</p></div><div class="home-tool-grid">{"".join(tools)}</div></section>''' if tools else ""
     tools_action = '<a class="home-secondary" href="#herramientas"><svg width="18" height="20" viewBox="0 0 20 22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="2" width="14" height="18" rx="1.5"/><path d="M6 6h8M6 10h2m4 0h2M6 13h2m4 0h2M6 16h2m4 0h2"/></svg>Usar calculadoras</a>' if tools else '<a class="home-secondary" href="#categorias">Explorar categorías ↗</a>'
     content = f'''<div class="home-page">
@@ -3122,6 +3218,25 @@ class TallerLabHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
+        if path in CALCULATOR_EMBED_PATHS:
+            data = CALCULATOR_EMBED_PATHS[path]
+            source_domain = urllib.parse.urlsplit(self.headers.get("Referer", "")).hostname or ""
+            track_event(event_type="calculator_embed_loaded", source_domain=source_domain)
+            body = render_calculator_embed(next(slug for slug, item in CALCULATOR_PAGES.items() if item is data)).encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("X-Robots-Tag", "noindex, follow")
+            self.send_header("Content-Security-Policy", "frame-ancestors *")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        if path == CALCULATOR_INDEX_PATH or path in CALCULATOR_PATHS:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(render_calculator_page(path).encode("utf-8"))
+            return
         from observatorio.estatico import static_observatory_file
         static_price_file = static_observatory_file(path)
         if static_price_file:

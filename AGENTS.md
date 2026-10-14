@@ -21,6 +21,7 @@ TallerLab publica en español rioplatense guías de compra de herramientas para 
 - `compatibilidad/`: reglas, datos, búsqueda, presentación y pipeline de compatibilidad.
 - `comunidad/`: páginas, componentes y almacenamiento de la comunidad. `relevamiento_piloto.py`: flujo de relevamiento.
 - `alertas_*.py`: alertas editoriales y sus rutas. `recursos_editoriales.py`: recursos asociados a guías. `assets/decision-tools.js`: calculadoras y herramientas interactivas embebidas en guías.
+- `servidor_local.py`: páginas de calculadoras y embeds reutilizan `render_resource()` y `assets/decision-tools.js`. Rutas indexables: `/calculadoras/`, `/calculadoras/generador-para-casa/`, `/calculadoras/caudal-compresor/`, `/calculadoras/costo-final-oferta/` y `/calculadoras/consumo-agua-hidrolavadora/`. Rutas de inserción noindex: `/embed/calculadoras/{generador-para-casa,caudal-compresor,costo-final-oferta,consumo-agua-hidrolavadora}/`.
 - `vercel.json`: build `python preparar_assets_publicos.py` y cron jobs de alertas, compatibilidad y comunidad; actualmente no programa el endpoint `/api/observatorio/ejecutar`. `requirements.txt` fija Flask 3.1.3; el workflow de CI usa Python 3.12.
 
 ### Agregar una ruta

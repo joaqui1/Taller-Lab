@@ -289,6 +289,18 @@ footer p[style] { color: #96a2a1 !important; }
 .hub-brand-link { display: block; padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border); color: var(--text); font-weight: 700; }
 .offer-evidence { color: var(--text-muted); font-size: .75rem; line-height: 1.6; }
 .editorial-resource { margin: 2rem 0 2.8rem; padding: 2rem; background: var(--bg-card); border-top: 4px solid var(--orange); box-shadow: 0 8px 24px rgba(25,30,31,.04); }
+.calculator-page { max-width: 900px; }
+.calculator-page > .article-header { margin-bottom: 1.4rem; }
+.calculator-page > .article-header h1 { color: #fff; }
+.calculator-page > .article-header .article-category { color: #ffad78; }
+.calculator-page > .article-header p { color: #d0d6d5; }
+.calculator-page .calculator-intro { max-width: 68ch; color: var(--text-muted); }
+.calculator-page .calculator-explanation, .calculator-page #fuentes-consultadas, .calculator-page .calculator-embed-tools { margin: 2.2rem 0; padding: 1.4rem 1.6rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; }
+.calculator-page .calculator-explanation h2, .calculator-page #fuentes-consultadas h2, .calculator-page .calculator-embed-tools h2 { margin-top: 0; }
+.calculator-page .calculator-embed-code { display: block; width: 100%; max-width: 100%; margin: 1rem 0; padding: .8rem; border: 1px solid var(--border); border-radius: 4px; background: #fffefa; color: var(--text); font: .8rem/1.5 ui-monospace, Consolas, monospace; resize: vertical; }
+.calculator-page .calculator-copy-button { padding: .7rem 1rem; border: 0; border-radius: 4px; background: var(--orange); color: white; font: 700 .85rem/1.2 system-ui, sans-serif; cursor: pointer; }
+.calculator-page .calculator-copy-button:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+.calculator-page .calculator-reviewed { color: var(--text-muted); font-size: .85rem; }
 .resource-kicker { display: block; font-family: 'JetBrains Mono', monospace; color: #a83700; font-size: .68rem; font-weight: 600; letter-spacing: .08em; margin-bottom: .7rem; }
 .editorial-resource h2 { font-size: clamp(1.5rem, 3vw, 2.15rem); letter-spacing: -.04em; line-height: 1.2; max-width: 28ch; }
 .resource-lead { line-height: 1.8; color: var(--text-muted); margin: 1rem 0 1.7rem; max-width: 78ch; }
