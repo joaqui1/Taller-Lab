@@ -86,9 +86,9 @@ def serve_free_observatory():
     if request.method in ('GET', 'HEAD') and target:
         response = send_from_directory(target.parent, target.name)
         response.headers['Cache-Control'] = 'public, max-age=300, must-revalidate'
-        if target.name in ('descargar-csv', 'historial.csv'):
+        if target.name in ('descargar-csv', 'historial.csv') or target.suffix.lower() == '.csv':
             response.headers['Content-Type'] = 'text/csv; charset=utf-8'
-            response.headers['Content-Disposition'] = 'attachment; filename="precios-herramientas.csv"'
+            response.headers['Content-Disposition'] = f'attachment; filename="{target.name if target.suffix.lower() == ".csv" else "precios-herramientas.csv"}"'
         return response
 
 @app.before_request

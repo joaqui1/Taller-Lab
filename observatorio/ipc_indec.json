@@ -1,0 +1,5 @@
+{
+  "_instrucciones": "El dueño carga los meses publicados por INDEC. No se estima ni se completa un mes ausente. Cada entrada requiere variacion_mensual_pct y el enlace directo al informe oficial.",
+  "schema_version": 1,
+  "meses": {}
+}

@@ -27,6 +27,7 @@ GitHub documenta [la gratuidad de los runners estándar en repositorios público
 - `assets/datos/precios-observatorio.json`: primera captura pública real. Sin HTML, cookies o credenciales. Los centavos estructurados de DGM deben coincidir exactamente con el redondeo visible al peso.
 - Rama `observatorio-datos`: guarda el historial durable de hasta 365 días. **No borrarla**. El workflow no modifica `main` diariamente.
 - `observatorio/estatico.py`: genera hub, siete categorías, metodología, CSV por categoría, JSON, sitemap y estado. Una oferta por modelo/variante; no compara todos los vendedores.
+- `observatorio.cli informe-mensual --mes AAAA-MM`: calcula un informe a partir del historial publicado. Las páginas del mes se generan solo si `observatorio/informes/AAAA-MM.json` tiene `publicado: true` y una lectura editorial; el IPC es opcional y se carga con su fuente en `observatorio/ipc_indec.json`. Ver el paso a paso en `docs/observatorio-operacion.md`.
 - Precio actual: disponible, verificado y con antigüedad máxima de 48 horas. Un error posterior, stock desconocido o fecha vencida lo excluye. El navegador revisa la edad al abrirse y cada minuto. Sin JavaScript se ve la instantánea fechada del último build.
 
 ## Integración con las rutas originales
@@ -152,7 +153,7 @@ Pendiente externo: subir, activar Pages/Actions y verificar la primera captura y
 
 La versión que posiciona es **www.tallerlab.com.ar**. GitHub Pages queda como copia técnica: sus páginas llevan `noindex, follow` y su canonical apunta a www, sin sitemap. Así los enlaces y la autoridad quedan en el dominio principal.
 
-- **53 páginas**: hub, 7 categorías, metodología y **una página por modelo** (`/datos/precios/<categoría>/<marca-modelo>/`) con último precio, veredicto «¿Es buen precio hoy?» (desde 14 capturas, contra la mediana de las últimas 90), mínimo/mediana/máximo, gráfico SVG sin JavaScript, todas las capturas, guías relacionadas y otros modelos de la categoría.
+- **54 rutas base**: hub, 7 categorías, metodología, índice de informes mensuales y **una página por modelo** (`/datos/precios/<categoría>/<marca-modelo>/`) con último precio, veredicto «¿Es buen precio hoy?» (desde 14 capturas, contra la mediana de las últimas 90), mínimo/mediana/máximo, gráfico SVG sin JavaScript, todas las capturas, guías relacionadas y otros modelos de la categoría. Cada mes con `publicado: true` agrega su página y CSV.
 - Títulos y descripciones únicos por página, H1 con la búsqueda real, Open Graph, `BreadcrumbList` y `Dataset` completo (licencia, cobertura temporal y geográfica, fecha de modificación).
 - Bloque «Los precios que más se movieron» (30 días; aparece solo cuando hay variaciones) y bloque «Citá estos datos» con licencia **CC BY 4.0**. Si preferís otra licencia, cambiar `DATA_LICENSE` en `observatorio/estatico.py`.
 - Metodología: nuevas secciones de independencia (reparto de fichas por comercio y política de enlaces sin afiliado) y de licencia/cita.
@@ -168,6 +169,6 @@ Después del primer deploy: enviar `https://www.tallerlab.com.ar/sitemap.xml` en
 
 - Workflows actualizados a acciones con Node 24 (`checkout@v7`, `setup-python@v7`, `configure-pages@v6`, `upload-pages-artifact@v5`, `deploy-pages@v5`, `upload-artifact@v7`): GitHub retiró Node 20 de los runners el 23/09/2026.
 - El build de páginas ya no necesita `requests`/`bs4`; si el observatorio falla, el deploy de www sigue y el log muestra `ERROR OBSERVATORIO`.
-- El sitemap de www incluye las 53 rutas aunque la función de Vercel no vea `public/`.
+- El sitemap de www incluye las 54 rutas base aunque la función de Vercel no vea `public/`; los meses publicados se agregan desde el contenido editorial.
 - `.gitignore` ahora excluye `node_modules/` (había ~530 archivos de `compresor-reel/node_modules` sin ignorar).
 - Los deploy hooks de Vercel requieren el repositorio de GitHub conectado al proyecto (Settings → Git). Si solo desplegás con `vercel --prod`, conectalo o desplegá a mano.

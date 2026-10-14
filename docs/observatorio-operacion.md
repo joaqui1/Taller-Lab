@@ -62,6 +62,43 @@ El CSV añade `precio_tachado_ars` y `tipo_cambio` al final de las columnas
 existentes. Los códigos son `offer_ended`, `offer_started`, `offer_changed`,
 `price_changed`, `unchanged`, o vacío cuando no existe comparación válida.
 
+## Informes mensuales
+
+El comando `python -m observatorio.cli informe-mensual --mes AAAA-MM` calcula
+un borrador desde el historial JSON publicado; no captura comercios ni cambia
+la publicación diaria. Con `--output tmp/informe-AAAA-MM.json` guarda además
+un CSV hermano. Si ese mes no tiene observaciones publicadas, el resultado
+expone la falta de cobertura y no inventa valores.
+
+Para preparar una publicación:
+
+1. Actualizar `observatorio/ipc_indec.json` solo con la variación mensual que
+   INDEC ya publicó y su enlace directo. Si el mes no está cargado, la
+   comparación con inflación no se incluye.
+2. Copiar `observatorio/informes/plantilla.json` a
+   `observatorio/informes/AAAA-MM.json`. Completar `mes` y `lectura_del_mes`;
+   mantener `publicado: false` durante la revisión.
+3. Calcular el borrador y revisar su CSV: `python -m observatorio.cli
+   informe-mensual --mes AAAA-MM --history RUTA_AL_HISTORIAL_PUBLICADO
+   --output tmp/informe-AAAA-MM.json`.
+4. Para una vista previa de las páginas, poner `publicado: true` solo en el
+   checkout local, generar el sitio con `python -m observatorio.gratuito
+   --skip-collection --history RUTA_AL_HISTORIAL_PUBLICADO --output tmp/site`
+   y revisar `/datos/precios/informes/` y la ruta mensual en esa salida. Volver
+   a `false` si todavía no se autoriza la publicación.
+5. Cuando esté aprobado, guardar `publicado: true`, incluir el JSON editorial
+   y el IPC verificado en el cambio del dueño y seguir el despliegue vigente
+   del Observatorio. El builder agrega las dos páginas, el CSV y el enlace al
+   último informe aprobado; los informes con `publicado: false` no se publican.
+
+La comparación usa el primer y último precio disponible del mes, y exige que
+haya al menos una captura con precio en los primeros y últimos siete días. La
+mediana excluye los cambios clasificados como oferta por
+`observatorio.estatico.classify_change`; los fines se cuentan por las
+transiciones consecutivas del mes. “Agotados” cuenta modelos cuya última
+captura del mes informa ese estado. Los comercios aparecen como fuente en
+texto, sin enlace a sus tiendas.
+
 El hub expone los días con capturas y las fichas por comercio. El umbral del
 veredicto se mantiene en 14 capturas con precio por modelo. No es una muestra
 representativa del mercado: hay una oferta por modelo y concentración por

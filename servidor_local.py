@@ -3871,12 +3871,12 @@ class TallerLabHandler(BaseHTTPRequestHandler):
         static_price_file = static_observatory_file(path)
         if static_price_file:
             body = static_price_file.read_bytes()
-            is_csv = static_price_file.name in ('descargar-csv', 'historial.csv')
+            is_csv = static_price_file.name in ('descargar-csv', 'historial.csv') or static_price_file.suffix.lower() == '.csv'
             self.send_response(200)
             self.send_header('Content-Type', 'text/csv; charset=utf-8' if is_csv else 'text/html; charset=utf-8')
             self.send_header('Cache-Control', 'public, max-age=300, must-revalidate')
             self.send_header('Content-Length', str(len(body)))
-            if is_csv: self.send_header('Content-Disposition', 'attachment; filename="precios-herramientas.csv"')
+            if is_csv: self.send_header('Content-Disposition', 'attachment; filename="' + (static_price_file.name if static_price_file.suffix.lower() == '.csv' else 'precios-herramientas.csv') + '"')
             self.end_headers()
             self.wfile.write(body)
             return

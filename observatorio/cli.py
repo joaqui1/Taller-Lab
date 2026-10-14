@@ -8,16 +8,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from observatorio.catalog import CATALOG_PRODUCTS
-from observatorio.collector import run_collection_batch
-from observatorio.config import METHODOLOGY_VERSION, SQLITE_PATH, STORAGE_MODE
-from observatorio import config
-from observatorio.db import execute_stmt, init_db, query_all, query_one
-from observatorio.export_csv import export_observations_to_csv
+from observatorio.informes_mensuales import cmd_report
 from observatorio.sources import CONFIGURED_OFFERS, SOURCES_REGISTRY
 
 
 def cmd_init_db(args):
     """Inicializa la estructura de base de datos."""
+    from observatorio.config import STORAGE_MODE
+    from observatorio.db import init_db
+
     print(f"Inicializando base de datos ({STORAGE_MODE})...")
     init_db()
     print("OK: Esquema y tablas creados exitosamente.")
@@ -25,6 +24,8 @@ def cmd_init_db(args):
 
 def cmd_seed_catalog(args):
     """Carga o actualiza el catálogo maestro, fuentes y ofertas en la base de datos."""
+    from observatorio.db import execute_stmt, init_db
+
     print("Sincronizando catálogo maestro y fuentes...")
     init_db()
 
@@ -105,9 +106,13 @@ def cmd_seed_catalog(args):
 
 def cmd_run_collector(args):
     """Ejecuta una corrida de recolección de precios."""
-    print(f"Iniciando recolección de precios (Lote máx: {args.batch_size}, Fixtures: {args.fixtures})...")
+    from observatorio.collector import run_collection_batch
+    from observatorio.config import MAX_BATCH_SIZE
+
+    batch_size = args.batch_size if args.batch_size is not None else MAX_BATCH_SIZE
+    print(f"Iniciando recolección de precios (Lote máx: {batch_size}, Fixtures: {args.fixtures})...")
     res = run_collection_batch(
-        batch_size=args.batch_size,
+        batch_size=batch_size,
         use_fixtures=args.fixtures,
     )
     print(f"Resultado corrida {res['run_id']}:")
@@ -120,6 +125,8 @@ def cmd_run_collector(args):
 
 def cmd_check_incidents(args):
     """Lista las incidencias y anomalías registradas pendientes de resolución."""
+    from observatorio.db import query_all
+
     rows = query_all(
         """
         SELECT i.id, i.offer_id, i.incident_type, i.severity, i.details, i.created_at, off.seller_name, cp.model_name
@@ -143,6 +150,8 @@ def cmd_check_incidents(args):
 
 def cmd_resolve_incident(args):
     """Marca una incidencia como resuelta documentando la auditoría."""
+    from observatorio.db import execute_stmt
+
     now_utc = datetime.now(timezone.utc).isoformat()
     affected = execute_stmt(
         """
@@ -160,6 +169,8 @@ def cmd_resolve_incident(args):
 
 def cmd_export_csv(args):
     """Exporta el dataset de observaciones a archivo o salida estándar."""
+    from observatorio.export_csv import export_observations_to_csv
+
     csv_text = export_observations_to_csv(category=args.category)
     if args.output:
         Path(args.output).write_text(csv_text, encoding="utf-8")
@@ -170,6 +181,8 @@ def cmd_export_csv(args):
 
 def cmd_backup(args):
     """Realiza una copia de respaldo de la base de datos local."""
+    from observatorio import config
+
     if config.STORAGE_MODE == "sqlite":
         dest = Path(args.dest or f"backup_observatorio_{datetime.now().strftime('%Y%m%d_%H%M%S')}.db")
         import sqlite3
@@ -196,7 +209,7 @@ def main():
 
     # run-collector
     p_run = subparsers.add_parser("run-collector", help="Ejecutar captura de precios")
-    p_run.add_argument("--batch-size", type=int, default=config.MAX_BATCH_SIZE, help="Tamaño máximo de lote (1..50)")
+    p_run.add_argument("--batch-size", type=int, help="Tamaño máximo de lote (1..50)")
     p_run.add_argument("--fixtures", action="store_true", help="Usar muestras offline")
     p_run.set_defaults(func=cmd_run_collector)
 
@@ -220,6 +233,16 @@ def main():
     p_bk = subparsers.add_parser("backup", help="Crear respaldo de datos")
     p_bk.add_argument("--dest", help="Ruta del archivo de destino")
     p_bk.set_defaults(func=cmd_backup)
+
+    p_report = subparsers.add_parser(
+        "informe-mensual", help="Calcular un informe desde el historial público ya capturado"
+    )
+    p_report.add_argument("--mes", required=True, help="Mes a informar, en formato AAAA-MM")
+    p_report.add_argument("--history", help="JSON de historial (por defecto, el publicado en assets/datos)")
+    p_report.add_argument("--manifest", help="Manifiesto del piloto (por defecto, piloto_gratuito.json)")
+    p_report.add_argument("--ipc", help="IPC manual (por defecto, observatorio/ipc_indec.json)")
+    p_report.add_argument("--output", "-o", help="Guardar el JSON calculado y su CSV hermano; sin esta opción se imprime JSON")
+    p_report.set_defaults(func=cmd_report)
 
     args = parser.parse_args()
     args.func(args)

@@ -11,9 +11,15 @@ from html import escape as esc
 from pathlib import Path
 
 from observatorio.gratuito import ROOT, MANIFEST, CATEGORIES, argentina_timezone, read_history, atomic_json
+from observatorio.informes_mensuales import (
+    DEFAULT_IPC, EDITORIAL_DIR, calculate_report, editorial_reports, load_ipc, report_csv,
+)
 
 HUB = '/datos/precios-herramientas-argentina/'
 METHOD = '/datos/precios/metodologia/'
+REPORTS_HUB = '/datos/precios/informes/'
+REPORT_RE = re.compile(r'^/datos/precios/informes/(\d{4}-(?:0[1-9]|1[0-2]))/$')
+REPORT_CSV_RE = re.compile(r'^/datos/precios/informes/(\d{4}-(?:0[1-9]|1[0-2]))\.csv$')
 FRESH_HOURS = 48
 PUBLICATION_MANIFEST = ROOT / 'assets' / 'datos' / 'observatorio-publicacion.json'
 AFFILIATES_PATH = ROOT / 'tallerlab_data' / 'afiliados_por_modelo.json'
@@ -283,6 +289,106 @@ def cite_block(canonical, observed):
     return f'''<section class="cite" id="citar"><div><p class="eyebrow">Para medios, foros y docentes</p><h2>Usá estos datos,<br>citando la fuente.</h2></div><div><p>Los precios, tablas y gráficos se pueden reproducir con atribución (<a href="{DATA_LICENSE}" rel="license">licencia CC BY 4.0</a>). Sugerimos esta cita, con enlace:</p><blockquote>Fuente: TallerLab, historial de precios de herramientas en Argentina, captura del {esc(day(observed))}. {esc(canonical)}</blockquote><p>¿Necesitás una serie o un corte que no está publicado? <a href="{SITE}/contacto/">Escribinos</a>.</p></div></section>'''
 
 
+def report_path(month):
+    return REPORTS_HUB + month + '/'
+
+
+def report_chart(categories):
+    values = [r['median_change_pct'] for r in categories if r['median_change_pct'] is not None]
+    if not values:
+        return '<p class="chart-empty">No hubo cobertura suficiente para calcular variaciones en las semanas extremas del mes.</p>'
+    maximum = max(abs(value) for value in values) or Decimal(1)
+    rows = []
+    for row in categories:
+        value = row['median_change_pct']
+        if value is None:
+            amount = '<span class="report-no-value">Sin cobertura suficiente</span>'
+        else:
+            width = max(2, float(abs(value) / maximum * 100))
+            direction = 'down' if value < 0 else 'up'
+            amount = f'<span class="report-bar-track"><i class="report-bar {direction}" style="width:{width:.1f}%"></i></span><strong>{value:+.1f}%</strong>'
+        rows.append(f'<li><span>{esc(CATEGORIES.get(row["category"], row["category"]))}</span>{amount}</li>')
+    return '<ul class="report-chart" aria-label="Variación mediana del precio publicado por categoría">' + ''.join(rows) + '</ul>'
+
+
+def monthly_report_body(report, editorial, manifest, url, canonical, affiliate_records=None):
+    month = report['month']
+    csv_path = f'/datos/precios/informes/{month}.csv'
+    affiliate_records = affiliate_records or {}
+    ipc = report.get('ipc')
+    category_rows = []
+    for row in report['categories']:
+        median = '—' if row['median_change_pct'] is None else f'{row["median_change_pct"]:+.1f}%'.replace('.', ',')
+        real = '—' if row['real_median_change_pct'] is None else f'{row["real_median_change_pct"]:+.1f}%'.replace('.', ',')
+        category_rows.append(
+            f'<tr><th scope="row">{esc(CATEGORIES.get(row["category"], row["category"]))}</th>'
+            f'<td>{row["models_in_sample"]}</td><td>{row["models_with_coverage"]}</td>'
+            f'<td>{row["models_in_median"]} · {median}</td>'
+            + (f'<td>{real}</td>' if ipc else '')
+            + f'<td>{row["out_of_stock"]}</td><td>{row["offers_ended"]}</td></tr>'
+        )
+    inflation_header = '<th scope="col">Variación real orientativa</th>' if ipc else ''
+    inflation_note = (f'<p class="reading-note">IPC mensual INDEC: {esc(ipc["variacion_mensual_pct"])}% (<a href="{esc(ipc["url"], quote=True)}" rel="noopener">fuente oficial</a>). La comparación divide la variación mediana nominal por el factor de inflación mensual.</p>' if ipc else '')
+    source_by_id = {key: value for key, value in manifest['sources'].items()}
+    model_rows = []
+    movement_labels = {
+        'price_changed': 'Cambio de precio publicado', 'unchanged': 'Sin cambio',
+        'offer_ended': 'Fin de oferta', 'offer_started': 'Inicio de oferta',
+        'offer_changed': 'Cambio de oferta',
+    }
+    model_by_id = {model['id']: model for model in manifest['models']}
+    for comparison in report['comparisons']:
+        model = model_by_id[comparison['model_id']]
+        source = source_by_id[model['source']]
+        affiliate = affiliate_records.get(comparison['model_path'])
+        if comparison['movement_kind'] in OFFER_KINDS:
+            movement = movement_labels[comparison['movement_kind']]
+        else:
+            movement = f'{comparison["change_pct"]:+.1f}%'.replace('.', ',')
+        affiliate_html = (
+            f'<a class="button" href="{esc(affiliate["url"], quote=True)}" target="_blank" '
+            f'rel="sponsored nofollow noopener" data-affiliate-placement="observatory-monthly-report">'
+            'Ver precio en Mercado Libre ↗</a>'
+            f'<small class="affiliate-disclosure">{AFFILIATE_DISCLOSURE}</small>'
+            if affiliate else ''
+        )
+        model_rows.append(
+            f'<tr><th scope="row"><a href="{url(comparison["model_path"])}">{esc(comparison["brand"])} {esc(comparison["model"])}</a>'
+            f'<small>{esc(comparison["variant"])}</small></th><td>{esc(movement)}</td>'
+            f'<td>{esc(source_publication(source, comparison["end_at"]))}</td><td>{affiliate_html}</td></tr>'
+        )
+    if model_rows:
+        model_table = ('<section class="report-models"><h2>Modelos comparables</h2><p class="reading-note">'
+                       'El porcentaje de cada modelo se muestra solo cuando el cambio no fue clasificado como movimiento de oferta. '
+                       'La tabla no cambia la cobertura de la mediana por categoría.</p>'
+                       '<div class="history-scroll"><table><thead><tr><th>Modelo y variante</th><th>Lectura</th><th>Fuente de la captura final</th><th>Enlace afiliado</th></tr></thead><tbody>'
+                       + ''.join(model_rows) + '</tbody></table></div></section>')
+    else:
+        model_table = '<section class="report-models"><h2>Modelos comparables</h2><p class="chart-empty">Este mes no hubo modelos con precio capturado en ambas semanas extremas.</p></section>'
+    stores = ', '.join(esc(source['name']) for source in manifest['sources'].values())
+    reading = '<br>'.join(esc(part) for part in editorial['reading'].splitlines())
+    observed_at = report.get('last_capture_at') or ''
+    return f'''{breadcrumb_html([('Inicio', SITE + '/'), ('Precios de herramientas', url(HUB)), ('Informes mensuales', url(REPORTS_HUB)), (month, None)])}
+<section class="monthly-hero"><p class="eyebrow">Informe mensual · muestra piloto</p><h1>Precios de herramientas<br>en Argentina · {esc(month)}</h1><p class="lead">Cambios observados en modelos concretos. La muestra no representa el mercado argentino.</p><a class="button" download="informe-precios-{esc(month)}.csv" href="{url(csv_path)}">Descargar CSV del mes ↓</a></section>
+<section class="monthly-reading"><p class="eyebrow">Lectura del mes</p><p>{reading}</p></section>
+<section class="monthly-summary"><p class="eyebrow">Cambios de precio publicado</p><h2>Variación mediana por categoría</h2>{report_chart(report['categories'])}<div class="history-scroll"><table><thead><tr><th scope="col">Categoría</th><th scope="col">Modelos en muestra</th><th scope="col">Con cobertura</th><th scope="col">En mediana · variación</th>{inflation_header}<th scope="col">Agotados</th><th scope="col">Ofertas terminadas</th></tr></thead><tbody>{''.join(category_rows)}</tbody></table></div>{inflation_note}<p class="reading-note">Las ofertas que empezaron, cambiaron o terminaron se excluyen de la mediana de precio publicado. Los fines se cuentan como transiciones entre capturas consecutivas del mes.</p></section>
+{model_table}
+<section class="monthly-method"><h2>Cómo leer este informe</h2><p>La muestra incluye {len(manifest['models'])} modelos en {len(manifest['sources'])} comercios relevados: {stores}. Hay una ficha configurada por modelo; los comercios se citan como fuente y no se enlazan.</p><p>Para entrar en la comparación, cada modelo necesita una captura con precio disponible durante los primeros siete días y otra durante los últimos siete días del mes. Se compara su primer y último precio disponible del mes. La mediana de categoría excluye movimientos de oferta según la clasificación del observatorio. Agotados y fines de oferta se informan por separado.</p><p>La muestra es pequeña, seleccionada por TallerLab y concentrada en una oferta por modelo. Puede tener días sin captura, no cubre todos los vendedores y no estima el precio mínimo del mercado. La comparación con IPC solo aparece cuando el dueño cargó el dato mensual y su fuente en el archivo correspondiente.</p></section>
+{cite_block(canonical, observed_at)}'''
+
+
+def reports_index_body(reports, url):
+    if not reports:
+        listing = '<p class="chart-empty">Todavía no hay informes mensuales publicados.</p>'
+    else:
+        listing = '<ul class="report-list">' + ''.join(
+            f'<li><a href="{url(report_path(item["month"]))}">Informe de {esc(item["month"])} <span aria-hidden="true">↗</span></a>'
+            f'<p>{esc(item["reading"])}</p></li>' for item in reversed(reports)
+        ) + '</ul>'
+    return f'''{breadcrumb_html([('Inicio', SITE + '/'), ('Precios de herramientas', url(HUB)), ('Informes mensuales', None)])}
+<section class="monthly-hero"><p class="eyebrow">Informes para citar</p><h1>Precios de herramientas<br>mes a mes.</h1><p class="lead">Síntesis de los datos publicados por el observatorio, con sus límites y método de cálculo.</p></section><section class="reports-index"><h2>Informes publicados</h2>{listing}<p class="reading-note">Muestra piloto de modelos y fuentes seleccionadas. No representa el mercado argentino.</p></section>'''
+
+
 def methodology(manifest, url, count_by_source=None):
     sources = ''.join(f'<li>{esc(s["name"])}{(", tienda oficial de " + esc(s["official_brand"])) if s.get("official", False) is True and s.get("official_brand") else ""}</li>' for s in manifest['sources'].values())
     counts = count_by_source or {}
@@ -298,7 +404,7 @@ def methodology(manifest, url, count_by_source=None):
 <section id="citar"><span class="chapter">08 / Licencia</span><h2>Citar y reutilizar</h2><p>Los datos se publican con <a href="{DATA_LICENSE}" rel="license">licencia CC BY 4.0</a>: se pueden copiar, graficar y analizar, también con fines comerciales, citando a TallerLab con un enlace a la página del modelo o a este observatorio.</p><p>Cita sugerida: «Fuente: TallerLab, historial de precios de herramientas en Argentina», con la fecha de la captura y el enlace correspondiente.</p></section></div></section>'''
 
 
-def hub_body(category, selected, rows, manifest, url, observed, canonical):
+def hub_body(category, selected, rows, manifest, url, observed, canonical, latest_report_link=''):
     count = len(rows)
     nav = ''.join(f'<a class="{"active" if c==category else ""}" href="{url("/datos/precios/"+c+"/")}">{name} <span>{sum(r["model"]["category"]==c for r in rows):02d}</span></a>' for c, name in CATEGORIES.items())
     failed = sum(r['state'] in ('error', 'vencido') for r in selected)
@@ -320,7 +426,7 @@ def hub_body(category, selected, rows, manifest, url, observed, canonical):
 <section class="metrics" aria-label="Cobertura del observatorio"><div><strong>{len(selected):02d}</strong><span>modelos monitoreados</span></div><div><strong id="available-count">{sum(r['state']=='disponible' for r in selected):02d}</strong><span>con precio actual y stock</span></div><div><strong id="unavailable-count">{sum(r['state']=='agotado' for r in selected):02d}</strong><span>agotados en la captura</span></div><div><strong>48 h</strong><span>vigencia máxima del dato</span></div></section>
 <p class="reading-note coverage-note">Muestra piloto: {len(capture_days)} días con capturas, no necesariamente consecutivos. Distribución de fichas: {split}. Una oferta por modelo; no representa el mercado argentino. El veredicto requiere {VERDICT_MIN} capturas con precio por ficha.</p>
 <nav class="categories" aria-label="Categorías de herramientas"><a class="{'active' if not category else ''}" href="{url(HUB)}">Todas <span>{count}</span></a>{nav}</nav>
-{moves_html}
+{latest_report_link}{moves_html}
 <section id="catalogo" class="catalog"><div class="section-head"><div><p class="eyebrow">El relevamiento</p><h2>{CATEGORIES[category] + ': precio por modelo' if category else 'El taller, modelo por modelo.'}</h2></div><a class="download" download="precios-herramientas.csv" href="{url('/datos/precios/'+((category+'/') if category else '')+'historial.csv')}">Descargar CSV <span aria-hidden="true">↓</span></a></div>
 <p class="reading-note">No es un mínimo del mercado: se sigue una ficha por modelo y variante. Sin envío ni promociones calculadas. Tocá un modelo para ver su historial completo. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p>
 <div class="filter-bar" hidden><label>Buscar modelo o marca<input id="search" type="search" placeholder="Ej.: Bosch, HL-120, inverter" autocomplete="off"></label><label>Disponibilidad<select id="stock"><option value="all">Todas las fichas</option><option value="disponible">Con precio actual</option><option value="agotado">Agotados</option><option value="unverified">Sin verificación / vencidos</option></select></label><label>Ordenar<select id="sort"><option value="default">Categoría y modelo</option><option value="asc">Menor precio actual</option><option value="desc">Mayor precio actual</option></select></label></div>
@@ -389,6 +495,12 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
     manifest = json.loads(Path(manifest_path).read_text(encoding='utf-8'))
     history = read_history(history_path); rows = snapshot(history, manifest, now)
     guides = json.loads(GUIDES.read_text(encoding='utf-8')) if GUIDES.is_file() else {}
+    ipc_by_month = load_ipc(DEFAULT_IPC)
+    monthly_reports = []
+    for editorial in editorial_reports(EDITORIAL_DIR):
+        monthly = calculate_report(editorial['month'], history, manifest, ipc_by_month)
+        monthly_reports.append({'editorial': editorial, 'report': monthly})
+    monthly_reports.sort(key=lambda item: item['editorial']['month'])
     paths = [model_path(m) for m in manifest['models']]
     if len(set(paths)) != len(paths): raise ValueError('Dos modelos comparten la misma URL')
     assets = output/'assets'; assets.mkdir(exist_ok=True)
@@ -426,6 +538,33 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
     date_label = day(observed)
     source_name = lambda m: manifest['sources'][m['source']]['name']
     pages = []
+    report_index_canonical = canon_base + REPORTS_HUB
+    latest_csv_url = (canon_base + f'/datos/precios/informes/{monthly_reports[-1]["editorial"]["month"]}.csv'
+                      if monthly_reports else canon_base + '/datos/precios/informes/')
+    report_index_schema = dataset_schema(
+        'Informes mensuales de precios de herramientas en Argentina',
+        'Síntesis mensual del historial de precios publicado por el Observatorio TallerLab, con cobertura y límites de la muestra.',
+        report_index_canonical, latest_csv_url, [], modified,
+    )
+    report_index_schema['variableMeasured'] = [
+        'Variación mediana del precio publicado por categoría', 'Modelos con cobertura',
+        'Modelos agotados', 'Transiciones de fin de oferta',
+    ]
+    if not monthly_reports:
+        report_index_schema.pop('distribution', None)
+    report_crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', canon_base + HUB), ('Informes mensuales', report_index_canonical)]
+    pages.append((REPORTS_HUB, page(
+        'Informes mensuales de precios de herramientas | TallerLab',
+        'Informes mensuales del Observatorio TallerLab: variación de precios publicados, agotados, fines de oferta y límites de la muestra.',
+        report_index_canonical, [report_index_schema, breadcrumb_schema(report_crumbs)], mirror, url,
+        reports_index_body([item['editorial'] for item in monthly_reports], url), published_at=observed,
+    )))
+    latest_report_link = ''
+    if monthly_reports:
+        latest_month = monthly_reports[-1]['editorial']['month']
+        latest_report_link = (f'<section class="latest-report"><p class="eyebrow">Nuevo · informe mensual</p>'
+                              f'<a class="button" href="{url(report_path(latest_month))}">Ver el informe de {esc(latest_month)} ↗</a>'
+                              '<p>Variación de precios publicada, con método, cobertura y descarga CSV.</p></section>')
     for category in (None, *CATEGORIES):
         path = HUB if not category else '/datos/precios/'+category+'/'
         selected = [r for r in rows if not category or r['model']['category']==category]
@@ -445,12 +584,47 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
             desc = f'Precio publicado, stock e historial diario de {count} herramientas en {len(manifest["sources"])} comercios de Argentina.' + (f' Última captura: {date_label}.' if date_label else '') + ' Datos abiertos en CSV.'
             crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', canonical)]
         schema = [dataset_schema(name, desc, canonical, csv_url, obs, modified), breadcrumb_schema(crumbs)]
-        pages.append((path, page(title, desc, canonical, schema, mirror, url, hub_body(category, selected, rows, manifest, url, observed, canonical), published_at=observed)))
+        pages.append((path, page(title, desc, canonical, schema, mirror, url,
+                                 hub_body(category, selected, rows, manifest, url, observed, canonical,
+                                          latest_report_link if category is None else ''),
+                                 published_at=observed)))
     counts = {}
     for m in manifest['models']: counts[m['source']] = counts.get(m['source'], 0) + 1
     method_canonical = canon_base + METHOD
     method_crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', canon_base + HUB), ('Metodología', method_canonical)]
     pages.append((METHOD, page('Cómo medimos los precios de herramientas | TallerLab', 'Metodología del historial de precios de TallerLab: qué fichas seguimos, cómo validamos precio y stock, vigencia de 48 horas, independencia y licencia de los datos.', method_canonical, [breadcrumb_schema(method_crumbs)], mirror, url, methodology(manifest, url, counts), published_at=observed)))
+    for item in monthly_reports:
+        editorial = item['editorial']; report = item['report']; month = editorial['month']
+        path = report_path(month); canonical = canon_base + path
+        csv_url = canon_base + f'/datos/precios/informes/{month}.csv'
+        csv_target = output / 'datos' / 'precios' / 'informes' / f'{month}.csv'
+        csv_target.parent.mkdir(parents=True, exist_ok=True)
+        csv_target.write_text(report_csv(report, CATEGORIES), encoding='utf-8-sig', newline='')
+        desc = f'Informe mensual {month} del Observatorio TallerLab: variación mediana del precio publicado por categoría, cobertura, agotados y fines de oferta.'
+        report_schema = dataset_schema(
+            f'Informe mensual de precios de herramientas en Argentina: {month}', desc,
+            canonical, csv_url, [], report.get('last_capture_at')[:10] or month + '-01',
+        )
+        report_schema['temporalCoverage'] = report['coverage']['first_week'][0] + '/' + report['coverage']['last_week'][1]
+        report_schema['variableMeasured'] = [
+            'Variación mediana del precio publicado por categoría', 'Modelos con captura en la primera y última semana',
+            'Modelos agotados', 'Ofertas terminadas',
+        ]
+        if report.get('ipc'):
+            report_schema['variableMeasured'].append('Variación real orientativa frente al IPC mensual INDEC')
+        crumbs = [('Inicio', SITE + '/'), ('Precios de herramientas', canon_base + HUB),
+                  ('Informes mensuales', canon_base + REPORTS_HUB), (month, canonical)]
+        affiliate_records = {
+            comparison['model_path']: affiliate_for_price_path(comparison['model_path'])
+            for comparison in report['comparisons']
+        }
+        affiliate_records = {path: record for path, record in affiliate_records.items() if record}
+        body = monthly_report_body(report, editorial, manifest, url, canonical, affiliate_records)
+        pages.append((path, page(
+            f'Informe mensual de precios de herramientas · {month} | TallerLab', desc,
+            canonical, [report_schema, breadcrumb_schema(crumbs)], mirror, url, body,
+            published_at=report.get('last_capture_at') or observed,
+        )))
     for row in rows:
         m = row['model']; o = row['observation']; path = model_path(m); canonical = canon_base + path
         name = m['brand'] + ' ' + m['model']
@@ -487,9 +661,11 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
 
 def static_observatory_file(path):
     """Solo rutas del observatorio; no reemplaza la portada ni las otras funciones."""
-    if path == HUB or path == METHOD or path in ('/datos/precios/'+c+'/' for c in CATEGORIES) or MODEL_RE.match(path):
+    if path == HUB or path == METHOD or path == REPORTS_HUB or path in ('/datos/precios/'+c+'/' for c in CATEGORIES) or MODEL_RE.match(path) or REPORT_RE.match(path):
         target = ROOT/'public'/path.strip('/')/'index.html'
     elif path in ('/datos/precios/'+(c+'/' if c else '')+'descargar-csv' for c in (None,*CATEGORIES)) or path in ('/datos/precios/'+(c+'/' if c else '')+'historial.csv' for c in (None,*CATEGORIES)):
+        target = ROOT/'public'/path.lstrip('/')
+    elif REPORT_CSV_RE.match(path):
         target = ROOT/'public'/path.lstrip('/')
     else: return None
     if target.is_file():
@@ -501,7 +677,9 @@ def static_observatory_file(path):
 
 def expected_observatory_paths():
     manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
-    return [HUB] + ['/datos/precios/'+c+'/' for c in CATEGORIES] + [METHOD] + [model_path(m) for m in manifest['models']]
+    return ([HUB] + ['/datos/precios/'+c+'/' for c in CATEGORIES] + [METHOD, REPORTS_HUB]
+            + [model_path(m) for m in manifest['models']]
+            + [report_path(item['month']) for item in editorial_reports(EDITORIAL_DIR)])
 
 
 def verify_publication(output, summary):
@@ -518,11 +696,13 @@ def verify_publication(output, summary):
         artifacts.extend(folder / name for name in ('descargar-csv', 'historial.csv'))
     artifacts.extend(output / 'assets' / 'datos' / name for name in
                      ('precios-observatorio-publico.json', 'observatorio-publicacion.json'))
+    artifacts.extend(output / 'datos' / 'precios' / 'informes' / f'{item["month"]}.csv'
+                     for item in editorial_reports(EDITORIAL_DIR))
     missing = [str(path.relative_to(output)) for path in artifacts
                if not path.is_file() or not path.stat().st_size]
     if missing:
         raise RuntimeError('Faltan artefactos del observatorio: ' + ', '.join(missing))
-    publication = json.loads(artifacts[-1].read_text(encoding='utf-8'))
+    publication = json.loads((output / 'assets' / 'datos' / 'observatorio-publicacion.json').read_text(encoding='utf-8'))
     if publication.get('schema_version') != 1 or publication.get('routes') != summary['routes']:
         raise RuntimeError('El manifiesto no corresponde al observatorio generado')
 
