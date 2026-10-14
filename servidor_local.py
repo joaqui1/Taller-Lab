@@ -17,7 +17,7 @@ from threading import Lock
 from markdown_it import MarkdownIt
 from validacion_enlaces import validar_html
 from hubs import COMPRESSOR_HUB_FILES, COMPRESSOR_HUB_STEPS, HUB_COVER_COPY, HUB_EDITORIAL, HUB_STEPS
-from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY, HOME_CATEGORY_IMAGES
+from home import HOME_COMPARISONS, HOME_TOOLS, HOME_CATEGORY_COPY, HOME_CATEGORY_IMAGES, HOME_ALERTS_SEARCH
 from recursos_editoriales import RESOURCES, render_resource
 from recursos_compra import BUYING_NOTES, render_buying_note
 from amoladoras_comerciales import AMOLADORA_CHOICES, CONTEXTUAL_CHOICES, render_amoladora_choice, render_contextual_choice
@@ -1846,11 +1846,14 @@ def render_relevamiento_view(kind, query_params=None):
         )
     return render_not_found("/relevamiento-2027/")
 
-def render_alertas_page(path):
+def render_alertas_page(path, query=""):
     from alertas_seo import HUB_TITULO, HUB_DESCRIPCION, dossier_meta, expediente_indexable, hub_schema, hub_dataset_schema
-    from alertas_datos import cargar_expedientes, expediente_publico
+    from alertas_datos import buscar_expedientes, cargar_expedientes, expediente_publico
     if path == "/alertas/":
-        content = render_alerts_hub_page()
+        query = str(query or "").strip()[:120]
+        if query and not buscar_expedientes(query):
+            track_event(event_type="alert_search_no_result", query_text=query)
+        content = render_alerts_hub_page(query)
         title, desc = HUB_TITULO, HUB_DESCRIPCION
         expedientes = cargar_expedientes()
         hub_url = absolute_url("/alertas/")
@@ -2772,14 +2775,14 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=23">
+  <link rel="stylesheet" href="/assets/site.css?v=24">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
   <header>
     <div class="nav-container">
-      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/calculadoras/">Calculadoras</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
+      <div class="home-nav-tools"><a href="/#home-search-form" aria-label="Ir al buscador"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><details class="home-mobile-menu"><summary aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></summary><nav aria-label="Menú de navegación"><a href="/">Inicio</a><a href="/herramientas/">Herramientas</a><a href="/calculadoras/">Calculadoras</a><a href="/alertas/">Alertas</a><a href="/datos/precios-herramientas-argentina/">Precios</a><a href="/como-trabajamos/">Cómo trabajamos</a></nav></details></div>
       <a href="/" class="logo">
         <img src="{LOGO_SRC}" alt="TallerLab" class="logo-img" width="952" height="284">
       </a>
@@ -2787,6 +2790,7 @@ HTML_SHELL = """<!DOCTYPE html>
         <a href="/" class="nav-btn">Inicio</a>
         <a href="/herramientas/" class="nav-btn">Herramientas</a>
         <a href="/calculadoras/" class="nav-btn">Calculadoras</a>
+        <a href="/alertas/" class="nav-btn">Alertas</a>
         <a href="/datos/precios-herramientas-argentina/" class="nav-btn">Precios</a>
         <a href="/como-trabajamos/" class="nav-btn">Cómo trabajamos</a>
       </nav>
@@ -3098,6 +3102,14 @@ def render_home_page():
         <div class="home-hero-inner"><div class="home-hero-copy"><span class="home-kicker"><span class="home-status-dot" aria-hidden="true"></span> HERRAMIENTAS EN ARGENTINA</span><h1 id="home-title">Herramientas <span class="home-title-prefix">para</span><br> <span class="home-title-accent">trabajar <span class="home-title-last">mejor.</span></span></h1><p>Comparativas y calculadoras para elegir el equipo que tu trabajo necesita. Con datos, fuentes y criterio.</p><div class="home-hero-actions"><a class="btn-orange" href="#comparativas">Ver comparativas <span aria-hidden="true">→</span></a>{tools_action}</div></div>
         <img class="home-scene" src="/assets/hero-taller-claro-v3.webp" alt="" width="1774" height="887" fetchpriority="high">
         <section class="home-search" aria-label="Buscador de herramientas"><form id="home-search-form" role="search"><label class="sr-only" for="home-query">Buscar guías de herramientas</label><svg class="home-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="home-query" type="search" placeholder="Ej.: taladro inalámbrico, Bosch, compresor…" autocomplete="off" maxlength="120" aria-controls="home-search-results"><button type="submit">Buscar <span aria-hidden="true">→</span></button></form><p>Ej.: taladro inalámbrico, Bosch, compresor…</p><noscript><p>Para buscar activá JavaScript, o explorá las categorías de abajo.</p></noscript></section></div>
+      </section>
+      <section class="home-alert-search home-section" aria-labelledby="home-alert-search-title">
+        <div><span class="home-kicker">SEGURIDAD / EXPEDIENTES POR MODELO</span><h2 id="home-alert-search-title">{escape(HOME_ALERTS_SEARCH["title"])}</h2><p>{escape(HOME_ALERTS_SEARCH["description"])}</p></div>
+        <form action="/alertas/" method="get" role="search" aria-label="Buscar alertas por modelo">
+          <label for="home-alert-model">{escape(HOME_ALERTS_SEARCH["label"])}</label>
+          <div class="home-alert-search-control"><input id="home-alert-model" name="q" type="search" maxlength="120" placeholder="{escape(HOME_ALERTS_SEARCH['placeholder'], quote=True)}"><button type="submit">{escape(HOME_ALERTS_SEARCH["button"])} <span aria-hidden="true">→</span></button></div>
+          <small>Sin JavaScript, la consulta se procesa en /alertas/.</small>
+        </form>
       </section>
       <section id="home-search-results" class="home-results" aria-labelledby="home-results-title" hidden><div class="home-section-heading"><div><h2 id="home-results-title">Resultados de búsqueda</h2><span id="home-search-status" role="status" aria-live="polite"></span></div><button id="home-search-clear" type="button">Cerrar búsqueda ×</button></div><div id="home-search-grid" class="article-grid"></div><button id="home-search-more" type="button" hidden>Ver más resultados ↓</button></section>
       <section id="categorias" class="home-section" aria-labelledby="home-categories-title"><div class="home-section-heading"><div><span class="home-kicker">01 / CATEGORÍAS</span><h2 id="home-categories-title">Explorá por categoría</h2></div><p>Del trabajo que tenés al equipo que necesitás.</p></div><div class="home-category-grid">{categories}</div></section>
@@ -3761,6 +3773,8 @@ class TallerLabHandler(BaseHTTPRequestHandler):
                 if not 0 < size <= 4096:
                     raise ValueError("Invalid body size")
                 data = json.loads(self.rfile.read(size))
+                if data.get("event_type") == "alert_search_no_result":
+                    raise ValueError("Este evento se registra solo desde la búsqueda de alertas")
                 track_event(
                     event_type=data.get("event_type", ""),
                     query_text=data.get("query_text"),
@@ -3998,7 +4012,9 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
-            self.wfile.write(render_alertas_page(path).encode("utf-8"))
+            query_params = dict(urllib.parse.parse_qsl(parsed.query))
+            query = query_params.get("q", "") if path == ALERTAS_HUB_PATH else ""
+            self.wfile.write(render_alertas_page(path, query).encode("utf-8"))
             return
 
         if path == '/api/compatibilidad/estado':

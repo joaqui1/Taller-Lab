@@ -226,8 +226,11 @@ def compatibility_event():
         return Response(status=400)
     try:
         data = json.loads(payload)
+        event_type = data.get("event_type", "")
+        if event_type == "alert_search_no_result":
+            return Response(status=400)
         track_event(
-            event_type=data.get("event_type", ""),
+            event_type=event_type,
             query_text=data.get("query_text"),
             model_a=data.get("model_a"),
             model_b=data.get("model_b"),
@@ -415,7 +418,8 @@ def page(path):
             return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
 
     elif url_path in ALERTAS_PATHS:
-        html = render_alertas_page(url_path)
+        search_query = request.args.get("q", "") if url_path == "/alertas/" else ""
+        html = render_alertas_page(url_path, search_query)
     elif url_path == COMPATIBILITY_SEARCH_PATH:
         return Response(
             render_compatibility_page(url_path, request.args),

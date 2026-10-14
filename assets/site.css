@@ -447,6 +447,27 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
 .home-page button:hover { border-color: #b54208; }
 .home-search button:hover { background: #39484f; }
 .home-page button:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.home-alert-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, .9fr);
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 2.25rem;
+  border: 1px solid #dedbd1;
+  border-left: 4px solid #ff5a0a;
+  border-radius: 8px;
+  background: linear-gradient(115deg, #f3f0e9, #fffefa 70%);
+}
+.home-alert-search h2 { color: #20272b; font-size: clamp(1.35rem, 2vw, 1.8rem); line-height: 1.25; letter-spacing: -.045em; margin: .3rem 0 .5rem; }
+.home-alert-search p { color: #5b6465; font-size: .78rem; line-height: 1.7; max-width: 540px; }
+.home-alert-search form { min-width: 0; }
+.home-alert-search label { display: block; color: #343d40; font-size: .72rem; font-weight: 700; margin: 0 0 .45rem .15rem; }
+.home-alert-search-control { display: flex; min-width: 0; gap: .45rem; padding: .3rem; border: 1px solid #d9d5ca; border-radius: 8px; background: #fff; }
+.home-alert-search-control input { min-width: 0; flex: 1; min-height: 44px; padding: .65rem .75rem; border: 0; background: transparent; color: #20272b; font: inherit; font-size: .8rem; }
+.home-alert-search-control button { display: inline-flex; align-items: center; justify-content: center; gap: .65rem; min-height: 44px; padding: .65rem 1rem; border: 0; border-radius: 6px; background: #202a2f; color: #fff; font: inherit; font-size: .75rem; font-weight: 700; white-space: nowrap; cursor: pointer; }
+.home-alert-search-control button:hover { background: #39484f; }
+.home-alert-search small { display: block; color: #69727b; font-size: .66rem; margin: .45rem .2rem 0; }
+.home-alert-search :focus-visible { outline: 3px solid #ff5a0a; outline-offset: 3px; }
 .home-section, .home-results { margin-top: 4.2rem; }
 .home-section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; margin-bottom: 1.6rem; }
 .home-section-heading h2 { color: #20272b; font-size: clamp(1.5rem, 2.4vw, 2.1rem); letter-spacing: -.05em; margin-top: .45rem; line-height: 1.25; }
@@ -506,6 +527,7 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
   .home-hero-inner { padding: 2.7rem 1.5rem 1.8rem; }
   .home-hero-copy { max-width: 430px; }
   .home-hero h1 { font-size: 2.8rem; }
+  .home-alert-search { grid-template-columns: 1fr; gap: 1.15rem; padding: 1.4rem 1.2rem; }
   .home-hero-copy > p { max-width: 350px; font-size: .9rem; }
   .home-search { max-width: 440px; }
   .home-hero::after { background: linear-gradient(90deg, #faf9f7f5 0%, #faf9f7ed 35%, #faf9f770 65%, transparent); }
@@ -525,6 +547,13 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
   .home-hero-copy > .home-kicker { font-size: .48rem; gap: .6rem; letter-spacing: .1em; }
   .home-hero h1 { font-size: clamp(2rem, 10vw, 2.85rem); line-height: 1; max-width: none; margin: .8rem 0 .7rem; }
   .home-hero-copy > p { max-width: 460px; font-size: .82rem; line-height: 1.6; }
+  .home-alert-search { gap: .9rem; padding: 1.1rem .9rem; border-left-width: 3px; }
+  .home-alert-search h2 { font-size: 1.28rem; }
+  .home-alert-search p { font-size: .74rem; }
+  .home-alert-search-control { flex-direction: column; padding: .3rem; }
+  .home-alert-search-control input { width: 100%; min-height: 42px; font-size: 16px; }
+  .home-alert-search-control button { width: 100%; min-height: 42px; font-size: .78rem; }
+  .home-alert-search small { line-height: 1.5; }
   .home-hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; margin: .9rem 0 .8rem; }
   .home-hero .btn-orange { width: 100%; gap: .4rem; padding: .7rem .65rem; min-height: 46px; font-size: .75rem; border-radius: 7px; }
   .home-secondary { justify-content: center; gap: .5rem; width: 100%; min-height: 46px; padding: .65rem; border: 1px solid #ddd8ce; border-radius: 7px; background: #ffffffe6; font-size: .73rem; }
