@@ -62,6 +62,24 @@ class AlertasSEOTests(unittest.TestCase):
             self.assertEqual(any(u.endswith(f"/alertas/{exp['slug']}/") for u in urls), expediente_indexable(exp))
         self.assertIn("Registro de alertas y recalls de herramientas", html)
 
+    def test_hub_publica_dataset_de_avisos_descargables(self):
+        html = self.client.get("/alertas/").get_data(as_text=True)
+        data = _ld(html, "Dataset")
+        self.assertIsNotNone(data)
+        self.assertEqual(data["url"], "http://localhost:8080/alertas/")
+        self.assertEqual(data["creator"]["@id"], "http://localhost:8080/#organization")
+        self.assertTrue(data["isAccessibleForFree"])
+        self.assertEqual(data["spatialCoverage"], {"@type": "Place", "name": "Argentina"})
+        self.assertRegex(data["dateModified"], r"^\d{4}-\d{2}-\d{2}$")
+        self.assertNotIn("license", data)
+        self.assertEqual(
+            {(d["encodingFormat"], d["contentUrl"]) for d in data["distribution"]},
+            {
+                ("text/csv", "http://localhost:8080/datos/alertas/avisos.csv"),
+                ("application/json", "http://localhost:8080/datos/alertas/avisos.json"),
+            },
+        )
+
     def test_aviso_en_guia_solo_si_menciona_modelo_con_alerta(self):
         con_alerta = next(e for e in self.expedientes if e.get("guia_url") and e.get("alertas"))
         self.assertIn(f"/alertas/{con_alerta['slug']}/", render_aviso_guia(con_alerta["guia_url"], ""))

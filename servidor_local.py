@@ -1311,13 +1311,20 @@ def render_relevamiento_view(kind, query_params=None):
     return render_not_found("/relevamiento-2027/")
 
 def render_alertas_page(path):
-    from alertas_seo import HUB_TITULO, HUB_DESCRIPCION, dossier_meta, expediente_indexable, hub_schema
+    from alertas_seo import HUB_TITULO, HUB_DESCRIPCION, dossier_meta, expediente_indexable, hub_schema, hub_dataset_schema
     from alertas_datos import cargar_expedientes, expediente_publico
     if path == "/alertas/":
         content = render_alerts_hub_page()
         title, desc = HUB_TITULO, HUB_DESCRIPCION
-        schema = hub_schema(cargar_expedientes(), absolute_url("/alertas/"), organization_schema())
-        schema_tag = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+        expedientes = cargar_expedientes()
+        hub_url = absolute_url("/alertas/")
+        organization = organization_schema()
+        schema = hub_schema(expedientes, hub_url, organization)
+        dataset_schema = hub_dataset_schema(expedientes, hub_url, organization["@id"])
+        schema_tag = ''.join(
+            '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+            for data in (schema, dataset_schema)
+        )
         return HTML_SHELL.format(
             PAGE_TITLE=title,
             CANONICAL_TAG=canonical_tag("/alertas/", title=title, description=desc) + schema_tag,
@@ -1453,6 +1460,52 @@ def render_sitemap():
         alertas_lastmod = {**compatibility_lastmod(), **alertas_lastmod}
     except Exception:
         pass
+
+    # Las guías publicadas muestran reviewed y article_schema_tag convierte esa
+    # fecha editorial a ISO. Mantenemos la misma fecha en el sitemap.
+    for article in ALL_ARTICLES:
+        try:
+            alertas_lastmod[article["url"]] = datetime.strptime(article["reviewed"], "%d/%m/%Y").date().isoformat()
+        except (KeyError, TypeError, ValueError):
+            continue
+
+    # Las páginas publicadas del observatorio llevan la fecha de ejecución de la
+    # última captura en data-publication. La leemos del artefacto que sirve cada
+    # URL y omitimos páginas sin ese dato.
+    observatorio_lastmod = {}
+    try:
+        from observatorio.estatico import static_observatory_file
+    except Exception:
+        static_observatory_file = lambda path: None
+    for path in paths:
+        if not path.startswith("/datos/precios/") and path != "/datos/precios-herramientas-argentina/":
+            continue
+        try:
+            artifact = static_observatory_file(path)
+            if not artifact:
+                continue
+            markup = artifact.read_text(encoding="utf-8")
+            match = re.search(r'\bdata-publication="([^"]+)"', markup)
+            if not match:
+                continue
+            captured = datetime.fromisoformat(match.group(1))
+            observatorio_lastmod[path] = captured.date().isoformat()
+        except Exception:
+            continue
+    alertas_lastmod = {**observatorio_lastmod, **alertas_lastmod}
+
+    # last_reviewed es una fecha editorial almacenada en la ficha; omitimos
+    # valores ausentes o inválidos en vez de usar la fecha del build.
+    for path in TALLERLAB_DATA_TOOL_PATHS:
+        try:
+            tool = get_tool_by_slug(path.strip("/").split("/")[-1])
+            reviewed = str(getattr(tool, "last_reviewed", "") or "")
+            if tool and re.fullmatch(r"\d{4}-\d{2}-\d{2}", reviewed):
+                datetime.strptime(reviewed, "%Y-%m-%d")
+                alertas_lastmod[path] = reviewed
+        except (TypeError, ValueError):
+            continue
+
     def sitemap_entry(path):
         lastmod = alertas_lastmod.get(path)
         extra = f"<lastmod>{escape(lastmod)}</lastmod>" if lastmod else ""

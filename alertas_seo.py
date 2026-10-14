@@ -270,6 +270,30 @@ def hub_schema(expedientes: List[Dict[str, Any]], hub_url: str, publisher: Dict[
     return schema
 
 
+def hub_dataset_schema(expedientes: List[Dict[str, Any]], hub_url: str, creator_id: str) -> Dict[str, Any]:
+    """Describe el registro público descargable que resume los expedientes del hub."""
+    base = _base(hub_url)
+    visibles = [e for e in expedientes if expediente_indexable(e)]
+    fechas = [str(e.get("fecha_revision", "")) for e in visibles if e.get("fecha_revision")]
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Avisos oficiales y expedientes de seguridad de herramientas en Argentina",
+        "description": "Registro de expedientes públicos de alertas, recalls, variantes, documentación y fuentes oficiales de herramientas comercializadas en Argentina.",
+        "url": hub_url,
+        "creator": {"@id": creator_id},
+        "isAccessibleForFree": True,
+        "spatialCoverage": {"@type": "Place", "name": "Argentina"},
+        "distribution": [
+            {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": base + "/datos/alertas/avisos.csv"},
+            {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": base + "/datos/alertas/avisos.json"},
+        ],
+    }
+    if fechas:
+        schema["dateModified"] = max(fechas)
+    return schema
+
+
 # ---------------------------------------------------------------- sitemap
 def sitemap_alertas() -> Tuple[Dict[str, Optional[str]], set]:
     """Rutas indexables con su lastmod y rutas a excluir del sitemap."""
