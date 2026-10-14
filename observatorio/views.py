@@ -186,8 +186,8 @@ def render_observatory_category_html(category: str) -> str:
         </tr>
         """)
 
-        offers_html = ''.join(f'''<tr><td>{escape(o['seller_name'])}</td><td>$ {o['price_single_payment']:,.2f}</td><td>{('$ '+format(o['price_transfer'],',.2f')) if o['price_transfer'] is not None else 'No declarado'}</td><td>{escape(format_art_date(o['observed_at']))}</td><td><a href="{escape(o['direct_url'],quote=True)}" target="_blank" rel="noopener noreferrer">Ver oferta ↗</a></td></tr>''' for o in stats['current_offers'])
-        comparison = f'''<div class="table-scroll"><table><thead><tr><th>Vendedor</th><th>Pago único ARS</th><th>Transferencia ARS</th><th>Captura</th><th>Fuente</th></tr></thead><tbody>{offers_html}</tbody></table></div>''' if offers_html else '<p class="obs-empty">Sin ofertas vigentes con stock verificado.</p>'
+        offers_html = ''.join(f'''<tr><td>$ {o['price_single_payment']:,.2f}</td><td>{('$ '+format(o['price_transfer'],',.2f')) if o['price_transfer'] is not None else 'No declarado'}</td><td>Precio publicado por {escape(o['seller_name'])} el {escape(format_art_date(o['observed_at']))}</td></tr>''' for o in stats['current_offers'])
+        comparison = f'''<div class="table-scroll"><table><thead><tr><th>Pago único ARS</th><th>Transferencia ARS</th><th>Fuente</th></tr></thead><tbody>{offers_html}</tbody></table></div>''' if offers_html else '<p class="obs-empty">Sin ofertas vigentes con stock verificado.</p>'
         chart = render_history_chart(get_product_price_history_series(prod.id),prod.brand+' '+prod.model_name)
         model_details.append(f'''<details class="obs-model" id="{escape(prod.id,quote=True)}"><summary>{escape(prod.brand)} {escape(prod.model_name)} · ofertas e historial</summary><p class="obs-variant">{escape(prod.voltage)} · {escape(prod.kit_content)} · condición: {escape(prod.item_condition)}</p>{comparison}{chart}</details>''')
     table_html = "".join(table_rows)
@@ -266,7 +266,7 @@ def render_observatory_methodology_html() -> str:
     sections = [
         ('Qué medimos', 'Precios declarados de ofertas de modelos exactos. La cobertura se limita a las tiendas efectivamente relevadas; no representa todo el mercado argentino. El piloto está en preparación hasta verificar las primeras fuentes.'),
         ('Modelo y variante', 'Se comprueban código de fabricante, tensión, condición y kit cuando están declarados. Las contradicciones se rechazan. Si no podemos identificar la oferta con certeza, no publicamos un precio.'),
-        ('Precio y condiciones', 'Comparamos el precio de pago único en ARS. Las cuotas no equivalen al precio total. Transferencia y precio tachado se muestran por separado cuando el vendedor los declara. El envío y el importe final deben comprobarse en la tienda.'),
+        ('Precio y condiciones', 'Comparamos el precio de pago único en ARS. Las cuotas no equivalen al precio total. Transferencia y precio tachado se muestran por separado cuando el vendedor los declara. Confirmá envío, condiciones e importe final antes de comprar.'),
         ('Fuentes y reutilización', 'Cada fuente requiere evaluación documentada, fecha y permisos de captura y redistribución. Las fuentes pendientes o descartadas no se consultan. Mercado Libre permanece descartada en este piloto. Esta metodología no concede derechos de terceros.'),
         ('Vigencia y anomalías', 'Los mínimos utilizan el último estado verificable de cada oferta, con hasta 48 horas de antigüedad. Un agotamiento, una anomalía o un fallo posterior retiran el valor anterior del mínimo vigente. Saltos del 35% o más respecto al historial reciente quedan retenidos.'),
         ('Históricos y gráficos', 'Mostramos el último precio publicable de cada día argentino por vendedor, hasta 365 días. Los días sin capturas interrumpen las líneas; no interpolamos precios. Las muestras y los registros retenidos están excluidos del CSV y los históricos públicos.'),
@@ -303,7 +303,7 @@ def render_model_price_widget(product_id: str) -> str:
             <span style="color: #10b981; font-size: 0.85rem; font-weight: 600;">Menor precio vigente con stock</span>
           </div>
           <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.5rem 0 0.75rem 0;">
-            Precio de pago único declarado por el vendedor entre {active_count} ofertas vigentes. Consultar envío y condiciones en origen.
+            Precio de pago único declarado en {active_count} ofertas vigentes. Confirmá envío y condiciones antes de comprar.
           </p>
           <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1e293b; pt: 0.5rem;">
             <a href="{cat_url}" style="color: #ff5500; font-size: 0.85rem; font-weight: 600; text-decoration: none;">Ver comparativa y series de precios →</a>

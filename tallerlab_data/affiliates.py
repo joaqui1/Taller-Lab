@@ -1,5 +1,9 @@
 """Explicit mappings to existing affiliate links; no matching by broad category."""
+import json
 from html import escape
+from functools import lru_cache
+from pathlib import Path
+import re
 
 # Already used in TallerLab's buying guides. A listing is not a verified offer.
 LINKS = {
@@ -17,10 +21,49 @@ LINKS = {
     'philco-ge-ph2500alp': ('GE-PH2500ALP', 'https://meli.la/1nUAUuv', '/generadores/a-nafta/'),
 }
 
+TABLE_PATH = Path(__file__).with_name("afiliados_por_modelo.json")
+DISCLOSURE = "Podemos recibir una comisión si comprás desde este enlace"
+
+
+@lru_cache(maxsize=1)
+def _table():
+    try:
+        payload = json.loads(TABLE_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return payload.get("models", {}) if isinstance(payload, dict) else {}
+
+
+def affiliate_record_for(tool):
+    record = _table().get(tool.slug)
+    if (not isinstance(record, dict) or record.get("mpn") != tool.mpn
+            or not re.fullmatch(r"https://meli\.la/[A-Za-z0-9]+", str(record.get("url", "")))):
+        return None
+    return record
+
 
 def affiliate_for(tool):
-    entry = LINKS.get(tool.slug)
-    return entry if entry and entry[0] == tool.mpn else None
+    record = affiliate_record_for(tool)
+    if not record:
+        return None
+    return (record["mpn"], record["url"], record.get("guide_url"))
+
+
+def affiliate_urls():
+    return {record["url"] for record in _table().values()
+            if isinstance(record, dict)
+            and re.fullmatch(r"https://meli\.la/[A-Za-z0-9]+", str(record.get("url", "")))}
+
+
+def render_affiliate_button(tool):
+    record = affiliate_record_for(tool)
+    if not record:
+        return ""
+    url = escape(record["url"], quote=True)
+    return (f'<div class="tl-affiliate-action"><a class="tl-nav-pill active" href="{url}" '
+            'target="_blank" rel="sponsored nofollow noopener" '
+            'data-affiliate-placement="tallerlab-data">Ver precio en Mercado Libre ↗</a>'
+            f'<small class="tl-affiliate-disclosure">{DISCLOSURE}</small></div>')
 
 
 def render_affiliate_options(tools):
@@ -30,7 +73,8 @@ def render_affiliate_options(tools):
         if not entry:
             continue
         code, url, guide = entry
-        rows.append(f'<li><strong>{escape(tool.brand)} {escape(tool.model_name)}</strong> · código de referencia {escape(code)}<br><a class="tl-nav-pill" href="{escape(url, quote=True)}" target="_blank" rel="sponsored nofollow noopener noreferrer" data-affiliate-placement="tallerlab-data">Consultar publicación de {escape(tool.brand)} {escape(tool.model_name)} ↗</a> <a href="{guide}">Leer la guía de compra</a></li>')
+        guide_link = f' <a href="{escape(guide, quote=True)}">Leer la guía de compra</a>' if guide else ""
+        rows.append(f'<li><strong>{escape(tool.brand)} {escape(tool.model_name)}</strong> · código de referencia {escape(code)}<br><a class="tl-nav-pill" href="{escape(url, quote=True)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate-placement="tallerlab-data">Ver precio en Mercado Libre ↗</a> <small class="tl-affiliate-disclosure">{DISCLOSURE}</small>{guide_link}</li>')
     if not rows:
         return ''
-    return '<section class="tl-card" id="tl-commercial-options" aria-label="Publicaciones comerciales relacionadas"><h2>Consultar una publicación del modelo</h2><p class="tl-affiliate-disclosure"><strong>Aviso comercial:</strong> si comprás mediante estos enlaces de afiliado, TallerLab puede cobrar una comisión.</p><p>Son publicaciones comerciales asociadas a las guías, sin precio ni disponibilidad verificados en esta edición.</p><ul>'+''.join(rows)+'</ul><p>Confirmá que el código completo de la unidad, la alimentación y el kit ofrecido coincidan con lo que necesitás. Una publicación puede agrupar variantes; el enlace no acredita equivalencia con la ficha ni una recomendación por rendimiento.</p></section>'
+    return '<section class="tl-card" id="tl-commercial-options" aria-label="Enlaces afiliados de Mercado Libre"><h2>Ver precio en Mercado Libre</h2><p>Publicaciones asociadas a guías de compra; el precio y la disponibilidad pueden cambiar.</p><ul>'+''.join(rows)+'</ul><p>Confirmá que el código completo, la alimentación y el kit coincidan con lo que necesitás. El enlace no acredita equivalencia con la ficha ni una recomendación por rendimiento.</p></section>'

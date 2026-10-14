@@ -2090,6 +2090,8 @@ AFFILIATE_URLS.update(item['url'] for path, choice in AMOLADORA_CHOICES.items()
                       if path in INDEXABLE_PATH_SET for item in choice['items'])
 AFFILIATE_URLS.update(item['url'] for path, item in CONTEXTUAL_CHOICES.items()
                       if path in INDEXABLE_PATH_SET)
+from tallerlab_data.affiliates import affiliate_urls
+AFFILIATE_URLS.update(affiliate_urls())
 
 def validate_affiliate_click(data):
     """Valida el evento compartido por el servidor local y la entrada Flask."""

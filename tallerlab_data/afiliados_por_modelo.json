@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "models": {
+    "bosch-gws-25-230": {
+      "tool_slug": "bosch-gws-25-230",
+      "tool_path": "/herramientas/bosch-gws-25-230/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GWS 25-230 Professional (230 mm)",
+      "mpn": "06018F41H0",
+      "url": "https://meli.la/24LpMmr",
+      "guide_url": null,
+      "sources": [
+        "Markdown:paginas/12-amoladora-de-9-pulgadas.md"
+      ]
+    },
+    "bosch-gws-770": {
+      "tool_slug": "bosch-gws-770",
+      "tool_path": "/herramientas/bosch-gws-770/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GWS 770 Professional (115 mm)",
+      "mpn": "06013980E0",
+      "url": "https://meli.la/1GRCAjZ",
+      "guide_url": "/amoladoras/bosch/",
+      "sources": [
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "bosch-gws-850": {
+      "tool_slug": "bosch-gws-850",
+      "tool_path": "/herramientas/bosch-gws-850/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GWS 850 Professional (115 mm)",
+      "mpn": "06013775H0",
+      "url": "https://meli.la/1hDoFyN",
+      "guide_url": null,
+      "sources": [
+        "AMOLADORA_CHOICES:/amoladoras/bosch/",
+        "Markdown:paginas/20-amoladora-115-o-125.md"
+      ]
+    },
+    "dewalt-dcf887": {
+      "tool_slug": "dewalt-dcf887",
+      "tool_path": "/herramientas/dewalt-dcf887/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DCF887B XR 20V",
+      "mpn": "DCF887B",
+      "url": "https://meli.la/1hh4SkK",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/taladros/19-atornillador-de-impacto-dewalt.md",
+        "PRODUCT_FACTS"
+      ]
+    },
+    "dewalt-dch273": {
+      "tool_slug": "dewalt-dch273",
+      "tool_path": "/herramientas/dewalt-dch273/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DCH273B SDS Plus XR 20V",
+      "mpn": "DCH273B",
+      "url": "https://meli.la/1uYbzCV",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/taladros/11-rotomartillo-dewalt.md",
+        "PRODUCT_FACTS"
+      ]
+    },
+    "dewalt-dwe4120": {
+      "tool_slug": "dewalt-dwe4120",
+      "tool_path": "/herramientas/dewalt-dwe4120/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DWE4120 Paleta (115 mm)",
+      "mpn": "DWE4120",
+      "url": "https://meli.la/13LHGQm",
+      "guide_url": null,
+      "sources": [
+        "AMOLADORA_CHOICES:/amoladoras/dewalt/"
+      ]
+    },
+    "dowen-pagio-9993220-7": {
+      "tool_slug": "dowen-pagio-9993220-7",
+      "tool_path": "/herramientas/dowen-pagio-9993220-7/",
+      "price_path": null,
+      "brand": "Dowen Pagio",
+      "model": "Dowen Pagio 9993220.7 (900W)",
+      "mpn": "9993220.7",
+      "url": "https://meli.la/1QUvfns",
+      "guide_url": "/amoladoras/dowen-pagio/",
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "esab-handyarc-162i": {
+      "tool_slug": "esab-handyarc-162i",
+      "tool_path": "/herramientas/esab-handyarc-162i/",
+      "price_path": null,
+      "brand": "ESAB",
+      "model": "HandyArc 162i Inverter MMA",
+      "mpn": "0409616",
+      "url": "https://meli.la/1mZhwNS",
+      "guide_url": "/soldadoras/esab-handyarc-162i/",
+      "sources": [
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "gadnic-av37": {
+      "tool_slug": "gadnic-av37",
+      "tool_path": "/herramientas/gadnic-av37/",
+      "price_path": null,
+      "brand": "Gadnic",
+      "model": "Gadnic AV37 Doble Pistón (12V)",
+      "mpn": "AV37-TY",
+      "url": "https://meli.la/2aSkmx1",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/compresores/23-compresor-12v-doble-piston.md",
+        "PRODUCT_FACTS"
+      ]
+    },
+    "gamma-130-elite": {
+      "tool_slug": "gamma-130-elite",
+      "tool_path": "/herramientas/gamma-130-elite/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "130 Elite G2513AR",
+      "mpn": "G2513AR",
+      "url": "https://meli.la/2SuGMdL",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/hidrolavadoras/14-hidrolavadora-gamma-130.md"
+      ]
+    },
+    "gamma-g1910kar": {
+      "tool_slug": "gamma-g1910kar",
+      "tool_path": "/herramientas/gamma-g1910kar/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "Gamma G1910KAR (750W)",
+      "mpn": "G1910KAR",
+      "url": "https://meli.la/12aMvrG",
+      "guide_url": "/amoladoras/gamma/",
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "AMOLADORA_CHOICES:/amoladoras/",
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "gamma-g2801ar": {
+      "tool_slug": "gamma-g2801ar",
+      "tool_path": "/herramientas/gamma-g2801ar/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "G2801AR (24 Litros)",
+      "mpn": "G2801AR",
+      "url": "https://meli.la/1vR4xKe",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/compresores/18-compresor-de-24-litros.md",
+        "PRODUCT_FACTS"
+      ]
+    },
+    "honda-eg6500cxs": {
+      "tool_slug": "honda-eg6500cxs",
+      "tool_path": "/herramientas/honda-eg6500cxs/",
+      "price_path": null,
+      "brand": "Honda",
+      "model": "Honda EG6500CXS D-AVR (5,5 kVA)",
+      "mpn": "EG6500CXS",
+      "url": "https://meli.la/1sxNfJ5",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/generadores/08-generadores-a-nafta.md",
+        "PRODUCT_FACTS",
+        "generadores-ofertas.json"
+      ]
+    },
+    "honda-eu22i": {
+      "tool_slug": "honda-eu22i",
+      "tool_path": "/herramientas/honda-eu22i/",
+      "price_path": null,
+      "brand": "Honda",
+      "model": "Honda EU22i Inverter Portátil",
+      "mpn": "EU22i",
+      "url": "https://meli.la/2AwxqaH",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/generadores/06-generadores-inverter.md",
+        "Markdown:paginas/generadores/08-generadores-a-nafta.md",
+        "Markdown:paginas/generadores/15-generadores-portatiles.md",
+        "Markdown:paginas/generadores/16-generadores-silenciosos.md",
+        "PRODUCT_FACTS",
+        "generadores-ofertas.json"
+      ]
+    },
+    "honda-eu30is": {
+      "tool_slug": "honda-eu30is",
+      "tool_path": "/herramientas/honda-eu30is/",
+      "price_path": null,
+      "brand": "Honda",
+      "model": "Honda EU30is Inverter Eléctrico",
+      "mpn": "EU30is",
+      "url": "https://meli.la/2X86187",
+      "guide_url": null,
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/generadores/06-generadores-inverter.md",
+        "Markdown:paginas/generadores/15-generadores-portatiles.md",
+        "PRODUCT_FACTS",
+        "generadores-ofertas.json"
+      ]
+    },
+    "ingco-cidli20668-4": {
+      "tool_slug": "ingco-cidli20668-4",
+      "tool_path": "/herramientas/ingco-cidli20668-4/",
+      "price_path": null,
+      "brand": "Ingco",
+      "model": "Ingco CIDLI20668-4 Brushless 20V",
+      "mpn": "CIDLI20668-4",
+      "url": "https://meli.la/2xvJRJp",
+      "guide_url": "/taladros/taladro-percutor-inalambrico/",
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/taladros/01-taladro-inalambrico.md",
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "logus-hl-105": {
+      "tool_slug": "logus-hl-105",
+      "tool_path": "/herramientas/logus-hl-105/",
+      "price_path": null,
+      "brand": "Logus",
+      "model": "Logus HL-105 (105 bar)",
+      "mpn": "HL-105",
+      "url": "https://meli.la/2Rcddpg",
+      "guide_url": "/hidrolavadoras/comparativa-general/",
+      "sources": [
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "lusqtoff-hl-120": {
+      "tool_slug": "lusqtoff-hl-120",
+      "tool_path": "/herramientas/lusqtoff-hl-120/",
+      "price_path": "/datos/precios/hidrolavadoras/lusqtoff-hl-120/",
+      "brand": "Lüsqtoff",
+      "model": "HL-120 (105 bar máx.)",
+      "mpn": "HL-120",
+      "url": "https://meli.la/1qPbvWX",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS",
+        "hidrolavadoras-ofertas.json"
+      ]
+    },
+    "lusqtoff-hl-150": {
+      "tool_slug": "lusqtoff-hl-150",
+      "tool_path": "/herramientas/lusqtoff-hl-150/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "HL-150 (150 bar máx.)",
+      "mpn": "HL-150",
+      "url": "https://meli.la/1X9cSf1",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS",
+        "hidrolavadoras-ofertas.json"
+      ]
+    },
+    "lusqtoff-hl100-7": {
+      "tool_slug": "lusqtoff-hl100-7",
+      "tool_path": "/herramientas/lusqtoff-hl100-7/",
+      "price_path": "/datos/precios/hidrolavadoras/lusqtoff-hl100-7/",
+      "brand": "Lüsqtoff",
+      "model": "HL100-7 Compacta (100 bar)",
+      "mpn": "HL100-7",
+      "url": "https://meli.la/1cZXqxL",
+      "guide_url": "/hidrolavadoras/lusqtoff/",
+      "sources": [
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "lusqtoff-iron-100": {
+      "tool_slug": "lusqtoff-iron-100",
+      "tool_path": "/herramientas/lusqtoff-iron-100/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "MEGAIRON100-8 Inverter",
+      "mpn": "MEGAIRON100-8",
+      "url": "https://meli.la/1knTbU1",
+      "guide_url": "/soldadoras/lusqtoff-iron-100/",
+      "sources": [
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "lusqtoff-iron-250": {
+      "tool_slug": "lusqtoff-iron-250",
+      "tool_path": "/herramientas/lusqtoff-iron-250/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "Iron 250 Inverter MMA",
+      "mpn": "IRON-250",
+      "url": "https://meli.la/26R9o7z",
+      "guide_url": null,
+      "sources": [
+        "soldadoras-ofertas.json"
+      ]
+    },
+    "lusqtoff-lc0122": {
+      "tool_slug": "lusqtoff-lc0122",
+      "tool_path": "/herramientas/lusqtoff-lc0122/",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-0122/",
+      "brand": "Lüsqtoff",
+      "model": "LC-0122 (24 Litros)",
+      "mpn": "LC-0122",
+      "url": "https://meli.la/19aFAKp",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lc2550b-8": {
+      "tool_slug": "lusqtoff-lc2550b-8",
+      "tool_path": "/herramientas/lusqtoff-lc2550b-8/",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc2550b-8/",
+      "brand": "Lüsqtoff",
+      "model": "LC2550B-8 (50 Litros)",
+      "mpn": "LC2550B-8",
+      "url": "https://meli.la/2dyFK5e",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lc2550vs": {
+      "tool_slug": "lusqtoff-lc2550vs",
+      "tool_path": "/herramientas/lusqtoff-lc2550vs/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LC-2550VS (50L Vertical)",
+      "mpn": "LC-2550VS",
+      "url": "https://meli.la/1Rjz39S",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lc30100": {
+      "tool_slug": "lusqtoff-lc30100",
+      "tool_path": "/herramientas/lusqtoff-lc30100/",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-30100/",
+      "brand": "Lüsqtoff",
+      "model": "LC-30100 a Correa (100 Litros)",
+      "mpn": "LC-30100",
+      "url": "https://meli.la/2r6QkaT",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lc3550bk": {
+      "tool_slug": "lusqtoff-lc3550bk",
+      "tool_path": "/herramientas/lusqtoff-lc3550bk/",
+      "price_path": "/datos/precios/compresores/lusqtoff-lc-3550bk/",
+      "brand": "Lüsqtoff",
+      "model": "LC-3550BK Bicilíndrico (50L)",
+      "mpn": "LC-3550BK",
+      "url": "https://meli.la/21xNVUN",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lc40100-8": {
+      "tool_slug": "lusqtoff-lc40100-8",
+      "tool_path": "/herramientas/lusqtoff-lc40100-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LC40100-8 Directo (100 Litros)",
+      "mpn": "LC40100-8",
+      "url": "https://meli.la/1GRiWbV",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lcs100-8": {
+      "tool_slug": "lusqtoff-lcs100-8",
+      "tool_path": "/herramientas/lusqtoff-lcs100-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LCS100-8 Silent (100 Litros)",
+      "mpn": "LCS100-8",
+      "url": "https://meli.la/21fBeVj",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-lcs50-8": {
+      "tool_slug": "lusqtoff-lcs50-8",
+      "tool_path": "/herramientas/lusqtoff-lcs50-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LCS50-8 Silent (50 Litros)",
+      "mpn": "LCS50-8",
+      "url": "https://meli.la/27nVFRy",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-mcl150-8": {
+      "tool_slug": "lusqtoff-mcl150-8",
+      "tool_path": "/herramientas/lusqtoff-mcl150-8/",
+      "price_path": "/datos/precios/compresores/lusqtoff-mcl150-8/",
+      "brand": "Lüsqtoff",
+      "model": "MCL150-8 Digital (12V)",
+      "mpn": "MCL150-8",
+      "url": "https://meli.la/2r8uZXD",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "lusqtoff-sml120-8dk": {
+      "tool_slug": "lusqtoff-sml120-8dk",
+      "tool_path": "/herramientas/lusqtoff-sml120-8dk/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "SML120-8DK MIG Flux Multiproceso",
+      "mpn": "SML120-8DK",
+      "url": "https://meli.la/26RsZRw",
+      "guide_url": "/soldadoras/mig-lusqtoff/",
+      "sources": [
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "lusqtoff-tbl16-7": {
+      "tool_slug": "lusqtoff-tbl16-7",
+      "tool_path": "/herramientas/lusqtoff-tbl16-7/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "TBL16-7 de Banco (16 mm)",
+      "mpn": "TBL16-7",
+      "url": "https://meli.la/2ehG4uD",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS",
+        "taladros-ofertas.json"
+      ]
+    },
+    "lusqtoff-tbl710-9d": {
+      "tool_slug": "lusqtoff-tbl710-9d",
+      "tool_path": "/herramientas/lusqtoff-tbl710-9d/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "TBL710-9D Digital de Banco",
+      "mpn": "TBL710-9D",
+      "url": "https://meli.la/1MCEYGV",
+      "guide_url": null,
+      "sources": [
+        "PRODUCT_FACTS"
+      ]
+    },
+    "omaha-ab550161k": {
+      "tool_slug": "omaha-ab550161k",
+      "tool_path": "/herramientas/omaha-ab550161k/",
+      "price_path": null,
+      "brand": "Omaha",
+      "model": "Omaha AB550161K (550W)",
+      "mpn": "AB550161K",
+      "url": "https://meli.la/2Znq55m",
+      "guide_url": "/taladros/taladro-de-banco/",
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/taladros/04-taladro-de-banco.md",
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "pektra-gpk980": {
+      "tool_slug": "pektra-gpk980",
+      "tool_path": "/herramientas/pektra-gpk980/",
+      "price_path": null,
+      "brand": "Pektra",
+      "model": "Pektra GPK980 (720W)",
+      "mpn": "GPK980",
+      "url": "https://meli.la/2jcLSy1",
+      "guide_url": "/generadores/chicos/",
+      "sources": [
+        "AFFILIATE_PRODUCTS",
+        "Markdown:paginas/generadores/01-grupos-electrogenos.md",
+        "PRODUCT_FACTS",
+        "generadores-ofertas.json",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "philco-ge-ph2500alp": {
+      "tool_slug": "philco-ge-ph2500alp",
+      "tool_path": "/herramientas/philco-ge-ph2500alp/",
+      "price_path": null,
+      "brand": "Philco",
+      "model": "Philco GE-PH2500ALP (2500W)",
+      "mpn": "GE-PH2500ALP",
+      "url": "https://meli.la/1nUAUuv",
+      "guide_url": "/generadores/a-nafta/",
+      "sources": [
+        "Markdown:paginas/generadores/01-grupos-electrogenos.md",
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    }
+  }
+}

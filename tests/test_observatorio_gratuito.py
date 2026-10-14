@@ -12,7 +12,7 @@ from unittest.mock import patch, Mock
 
 from bs4 import BeautifulSoup
 from observatorio.gratuito import collect, extract_public_product, atomic_json, MANIFEST, DEFAULT_HISTORY
-from observatorio.estatico import build_site, snapshot, current_state, HUB, METHOD, CATEGORIES
+from observatorio.estatico import build_site, snapshot, current_state, HUB, METHOD, CATEGORIES, model_path
 
 
 def fixture(source='megastore', price='123456.20', visible='$ 123.456,20', stock='InStock', currency='ARS'):
@@ -78,12 +78,21 @@ class FreeObservatoryTests(unittest.TestCase):
     def test_catalog_and_initial_data_are_real_and_complete(self):
         manifest=json.loads(MANIFEST.read_text(encoding='utf-8'));history=json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
         self.assertTrue(40<=len(manifest['models'])<=50)
+        self.assertTrue(all(source.get('official') is False for source in manifest['sources'].values()))
         self.assertEqual(len({m['id'] for m in manifest['models']}),len(manifest['models']))
         self.assertEqual(set(CATEGORIES),{m['category'] for m in manifest['models']})
         self.assertEqual(set(history['latest_attempts']),{m['id'] for m in manifest['models']})
         self.assertTrue(all(len(o['evidence_sha256'])==64 for o in history['observations']))
         self.assertTrue(all(o['extractor_version']=='gratuito-1.0' for o in history['observations']))
         self.assertNotIn('feed_importer',json.dumps(history))
+
+    def test_source_attribution_mentions_official_status_only_when_configured(self):
+        from observatorio.estatico import source_publication
+        captured = '2026-10-04T15:00:00+00:00'
+        plain = source_publication({'name': 'Comercio', 'official': False, 'official_brand': 'Marca'}, captured)
+        official = source_publication({'name': 'Comercio', 'official': True, 'official_brand': 'Marca'}, captured)
+        self.assertEqual(plain, 'Precio publicado por Comercio el 04/10/2026 · 12:00 ART')
+        self.assertEqual(official, 'Precio publicado por Comercio, tienda oficial de Marca el 04/10/2026 · 12:00 ART')
 
     def test_daily_idempotency_and_failure_preserves_history(self):
         html,m,_=fixture()
@@ -189,6 +198,39 @@ class FreeObservatoryTests(unittest.TestCase):
         stats=price_stats(series);self.assertEqual(stats['n'],20);self.assertEqual(verdict(row,stats)[0],'above')
         self.assertEqual(verdict(dict(row,series=series[:5]),price_stats(series[:5]))[0],'collecting')
         self.assertIn('<polyline',chart_svg(series,'x'))
+
+    def test_generated_pages_link_only_affiliated_mercado_libre_not_merchants(self):
+        from urllib.parse import urlsplit
+        from observatorio.estatico import AFFILIATES_PATH
+        affiliate_table = json.loads(AFFILIATES_PATH.read_text(encoding='utf-8'))['models']
+        by_price_path = {entry['price_path']: entry for entry in affiliate_table.values() if entry.get('price_path')}
+        manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp)
+            summary = build_site(DEFAULT_HISTORY, output)
+            linked_model = next(m for m in manifest['models'] if m['id'] == 'lusqtoff-lc2550b8')
+            unlinked_model = next(m for m in manifest['models'] if model_path(m) not in by_price_path)
+            pages = [(path, BeautifulSoup((output / path.strip('/') / 'index.html').read_text(encoding='utf-8'), 'html.parser'))
+                     for path in summary['routes']]
+            affiliate_links = []
+            source_domains = {source['domain'].lower() for source in manifest['sources'].values()}
+            page_soups = dict(pages)
+            for path, soup in pages:
+                for anchor in soup.select('a[href]'):
+                    parsed = urlsplit(anchor['href'])
+                    host = (parsed.hostname or '').lower()
+                    self.assertFalse(any(host == domain or host.endswith('.' + domain) for domain in source_domains),
+                                     f'Enlace a comercio en {path}: {anchor["href"]}')
+                    if host == 'meli.la':
+                        affiliate_links.append((path, anchor))
+                        self.assertEqual(set(anchor.get('rel', [])), {'sponsored', 'nofollow', 'noopener'})
+                        self.assertIn('Podemos recibir una comisión si comprás desde este enlace', anchor.parent.get_text(' ', strip=True))
+                self.assertNotRegex(str(soup), r'https?://(?:www\.)?(?:lusqtoffmegastore\.com\.ar|tiendadgm\.com\.ar|bulonfer\.com)')
+            self.assertEqual({path for path, _ in affiliate_links}, set(by_price_path))
+            self.assertEqual(len(affiliate_links), len(by_price_path))
+            linked_page = page_soups[model_path(linked_model)]
+            self.assertEqual(len(linked_page.select('a[href^="https://meli.la/"]')), 1)
+            self.assertEqual(len(page_soups[model_path(unlinked_model)].select('a[href^="https://meli.la/"]')), 0)
 
     def test_build_requires_all_pages_and_downloads(self):
         from observatorio.estatico import verify_publication

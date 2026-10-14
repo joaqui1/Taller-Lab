@@ -513,14 +513,15 @@ class TestObservatorio(unittest.TestCase):
         result=feed.extract(json.dumps([{'mpn':target.mpn,'price':120000,'currency':'ARS','stock':0}]),'https://example.invalid',target)
         self.assertEqual(result.availability,'agotado')
 
-    def test_chart_has_explicit_gaps_and_vendor_links(self):
+    def test_chart_has_explicit_gaps_without_merchant_links(self):
         self._insert_probe('older',when=(datetime.now(timezone.utc)-timedelta(days=2)).isoformat())
         self._insert_probe('today',price=120000)
         series=get_product_price_history_series('COMP-LUSQ-LC2550B')
         self.assertTrue(any(row['price'] is None for row in series))
         content=render_observatory_category_html('compresores')
         self.assertIn('<svg',content)
-        self.assertIn('https://www.buloneragrupo.com.ar/',content)
+        self.assertNotIn('https://www.buloneragrupo.com.ar/',content)
+        self.assertIn('Precio publicado por Bulonera Central el ',content)
         self.assertNotIn('<polyline',content)
 
     def test_upgrade_quarantines_legacy_observations(self):

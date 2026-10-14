@@ -25,7 +25,7 @@ import re
 from tallerlab_data.quality import latest_verified_offer, source_type_for, backed_specs, tool_is_indexable
 from tallerlab_data.documentary import source_record, evidence_source_label
 from tallerlab_data.selection import family, family_label, documentary_order, evidence_counts, LABELS, render_decision_guidance
-from tallerlab_data.affiliates import affiliate_for, render_affiliate_options
+from tallerlab_data.affiliates import render_affiliate_button, render_affiliate_options
 from tallerlab_data.comparator import compare_tools
 from tallerlab_data.editorial_comparisons import (
     EDITORIAL_COMPARISONS,
@@ -165,6 +165,17 @@ details.tl-hash code { word-break: break-all; }
   background: rgba(255, 85, 0, 0.15);
   border-color: #ff5500;
   color: #ff7733;
+}
+.tl-affiliate-action {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0;
+}
+.tl-affiliate-disclosure {
+  color: #94a3b8;
+  font-size: 0.78rem;
 }
 
 /* Tablas y Fichas */
@@ -1014,7 +1025,7 @@ def render_tool_detail_page(tool: TechnicalTool) -> str:
       <header class="tl-hero">
         <span class="tl-kicker">FICHA TÉCNICA · {escape(tool.category.upper())}</span>
         <h1>{escape(tool.brand)} {escape(tool.model_name)}</h1>
-        {f'<a href="#tl-commercial-options" class="tl-nav-pill">Ver publicación comercial (afiliado)</a>' if affiliate_for(tool) else ''}
+        {render_affiliate_button(tool)}
         <p class="lead">{_detail_lead(tool)}</p>
         <p class="tl-byline">Revisado por <a href="{AUTHOR_PATH}" rel="author">{AUTHOR_NAME}</a> · Fuentes consultadas el <time datetime="{escape(_sources_checked(tool))}">{escape(_human_date(_sources_checked(tool)))}</time> · <a href="/contacto/">Reportar un error</a></p>
 
@@ -1097,7 +1108,6 @@ def render_tool_detail_page(tool: TechnicalTool) -> str:
       {sources_html}
       {offers_box}
       {render_decision_guidance([tool])}
-      {render_affiliate_options([tool])}
       {render_model_community(tool)}
     </div>
     """

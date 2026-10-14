@@ -19,4 +19,4 @@
 .model-context{display:grid;grid-template-columns:1fr 1fr;gap:40px}.model-context li{font-size:13px;line-height:1.8;margin-block:6px}.link-list a{font-weight:650}
 .related-models ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0 30px}.related-models li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px}.related-models li a{font-weight:650;text-decoration:none}.related-models li span{font:11px Mono,monospace;color:var(--muted);white-space:nowrap}.related-models p{font-size:12px}
 @media(max-width:740px){.moves ul,.related-models ul{grid-template-columns:1fr}.cite,.model-hero,.model-context{grid-template-columns:1fr;gap:22px}.model-hero{padding:26px 0 30px}.model-hero h1{font-size:34px;letter-spacing:-1.4px}.model-current{padding:20px}.price-chart text{font-size:16px}}
-.nw{white-space:nowrap}
+.nw{white-space:nowrap}.product-source{font-size:10px;line-height:1.6;font-weight:650}.model-current .affiliate-disclosure{display:block;color:var(--muted);font-size:10px;line-height:1.6}

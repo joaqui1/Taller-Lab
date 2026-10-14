@@ -10,8 +10,8 @@ for folder in ['', '.qa-deps', 'tmp/auditoria-observatorio-deps']:
 from tallerlab_data.storage import get_tool, list_tools
 from tallerlab_data.selection import family, documentary_order
 from tallerlab_data.comparator import compare_tools
-from tallerlab_data.affiliates import LINKS, affiliate_for, render_affiliate_options
-from tallerlab_data.views import render_tool_comparator_page
+from tallerlab_data.affiliates import DISCLOSURE, LINKS, affiliate_for, render_affiliate_options
+from tallerlab_data.views import render_tool_comparator_page, render_tool_detail_page
 from tallerlab_data.documentary import assess
 
 
@@ -39,18 +39,34 @@ class SelectionChecks(unittest.TestCase):
             altered = copy.deepcopy(tool)
             altered.mpn += '-OTHER'
             self.assertIsNone(affiliate_for(altered))
-        self.assertEqual(render_affiliate_options([get_tool('gadnic-av37')]), '')
+        self.assertEqual(render_affiliate_options([get_tool('makita-dmp180')]), '')
         html = render_affiliate_options([get_tool('ingco-cidli20668-4')])
-        self.assertIn('sponsored nofollow noopener noreferrer', html)
-        self.assertIn('puede cobrar una comisión', html)
+        self.assertIn('rel="sponsored nofollow noopener"', html)
+        self.assertIn(DISCLOSURE, html)
         self.assertNotIn('274KM8a', html)
+
+    def test_tool_ficha_shows_only_exact_affiliate_button(self):
+        html = render_tool_detail_page(get_tool('ingco-cidli20668-4'))
+        self.assertIn('href="https://meli.la/2xvJRJp"', html)
+        self.assertIn('rel="sponsored nofollow noopener"', html)
+        self.assertIn('data-affiliate-placement="tallerlab-data"', html)
+        self.assertIn(DISCLOSURE, html)
+        self.assertNotIn('https://meli.la/', render_tool_detail_page(get_tool('makita-dmp180')))
+
+        from servidor_local import validate_affiliate_click
+        event = validate_affiliate_click({
+            'product': 'https://meli.la/1qPbvWX',
+            'page': '/herramientas/lusqtoff-hl-120/',
+            'placement': 'tallerlab-data',
+        })
+        self.assertEqual(event['product'], 'https://meli.la/1qPbvWX')
 
     def test_affiliate_disclosure_survives_final_public_renderer(self):
         from app import app
         response = app.test_client().get('/herramientas/ingco-cidli20668-4/')
         self.assertEqual(response.status_code, 200)
         html = response.get_data(as_text=True)
-        self.assertIn('enlaces de afiliado, TallerLab puede cobrar una comisión', html)
+        self.assertIn(DISCLOSURE, html)
         self.assertIn('https://meli.la/2xvJRJp', html)
 
     def test_documentary_order_does_not_depend_on_affiliate_registry(self):

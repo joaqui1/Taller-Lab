@@ -9,14 +9,38 @@ from datetime import datetime, timedelta, timezone
 from decimal import Decimal
 from html import escape as esc
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
-from observatorio.gratuito import ROOT, MANIFEST, CATEGORIES, read_history, atomic_json
+from observatorio.gratuito import ROOT, MANIFEST, CATEGORIES, argentina_timezone, read_history, atomic_json
 
 HUB = '/datos/precios-herramientas-argentina/'
 METHOD = '/datos/precios/metodologia/'
 FRESH_HOURS = 48
 PUBLICATION_MANIFEST = ROOT / 'assets' / 'datos' / 'observatorio-publicacion.json'
+AFFILIATES_PATH = ROOT / 'tallerlab_data' / 'afiliados_por_modelo.json'
+AFFILIATE_DISCLOSURE = 'Podemos recibir una comisión si comprás desde este enlace'
+
+
+def affiliate_for_price_path(path):
+    """Lee solo el JSON compartido; esta ruta también corre en el build mínimo."""
+    try:
+        records = json.loads(AFFILIATES_PATH.read_text(encoding='utf-8')).get('models', {}).values()
+    except (OSError, ValueError, AttributeError):
+        return None
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        url = str(record.get('url', ''))
+        if (record.get('price_path') == path
+                and re.fullmatch(r'https://meli\.la/[A-Za-z0-9]+', url)):
+            return record
+    return None
+
+
+def source_publication(source, observed_at):
+    name = source['name']
+    if source.get('official', False) is True and source.get('official_brand'):
+        name += ', tienda oficial de ' + str(source['official_brand'])
+    return f'Precio publicado por {name} el {stamp(observed_at)}' if observed_at else f'Precio publicado por {name}; sin captura'
 
 
 def parse_time(value):
@@ -26,7 +50,7 @@ def parse_time(value):
 
 
 def stamp(value):
-    return parse_time(value).astimezone(ZoneInfo('America/Argentina/Buenos_Aires')).strftime('%d/%m/%Y · %H:%M ART') if value else 'Sin captura'
+    return parse_time(value).astimezone(argentina_timezone()).strftime('%d/%m/%Y · %H:%M ART') if value else 'Sin captura'
 
 
 def peso(value):
@@ -102,12 +126,12 @@ def render_row(row, sources, href=None):
     reason = row['attempt'].get('reason', '')
     note = '<p class="error-note">'+esc(reason)+'</p>' if reason and state == 'error' else ''
     ref = f'<p class="reference-note">Precio tachado por el comercio en esa captura: {esc(peso(o["reference_ars"]))}. No demuestra un descuento histórico.</p>' if o and o.get('reference_ars') else ''
-    return f'''<article class="product" data-id="{esc(m['id'])}" data-brand="{esc(m['brand'])}" data-model="{esc(m['model'])}" data-variant="{esc(m['variant'])}" data-url="{esc(m['url'])}" data-category="{esc(m['category'])}" data-state="{state}" data-observed="{esc(latest)}" data-price="{esc(o['price_ars'] or '') if o else ''}" data-search="{esc(m['brand']+' '+m['model']+' '+m['variant']+' '+CATEGORIES[m['category']])}">
+    return f'''<article class="product" data-id="{esc(m['id'])}" data-brand="{esc(m['brand'])}" data-model="{esc(m['model'])}" data-variant="{esc(m['variant'])}" data-category="{esc(m['category'])}" data-state="{state}" data-observed="{esc(latest)}" data-price="{esc(o['price_ars'] or '') if o else ''}" data-search="{esc(m['brand']+' '+m['model']+' '+m['variant']+' '+CATEGORIES[m['category']])}">
 <div class="product-name"><span class="brand">{esc(m['brand'])} <span class="category-small">/ {CATEGORIES[m['category']]}</span></span><h3>{('<a href="'+href+'">'+esc(m['model'])+'</a>') if href else esc(m['model'])}</h3><p>{esc(m['variant'])}</p></div>
 <div class="product-price"><strong class="current-price">{price}</strong><span class="price-caption">{'Precio publicado · ARS' if active else LABELS[state]}</span></div>
 <div class="product-stock"><span class="badge {state}">{LABELS[state]}</span><small>{esc(stamp(latest))}</small></div>
 <div class="product-change {direction}"><span class="change">{change}</span><small>{CHANGE_LABELS.get(row.get('change_kind'), 'vs. captura anterior')}</small></div>
-<div class="product-source"><a href="{esc(m['url'])}" target="_blank" rel="noopener noreferrer">{esc(source['name'])} <span aria-hidden="true">↗</span></a><small>Ver condiciones y envío</small></div>
+<div class="product-source"><span>{esc(source_publication(source, latest))}</span></div>
 <details><summary>Ver historial <span aria-hidden="true">＋</span></summary><div class="history">{note}<p>Observaciones de esta ficha y variante. Los importes históricos no son ofertas vigentes.</p>{ref}<div class="history-scroll"><table><caption>Últimas 30 capturas de {esc(m['brand']+' '+m['model'])}</caption><thead><tr><th>Captura</th><th>Precio observado (ARS)</th><th>Stock observado</th></tr></thead><tbody>{history}</tbody></table></div></div></details></article>'''
 
 
@@ -115,9 +139,9 @@ SITE = 'https://www.tallerlab.com.ar'
 DATA_LICENSE = 'https://creativecommons.org/licenses/by/4.0/deed.es'
 VERDICT_MIN = 14
 STATS_WINDOW = 90
-ASSET_VERSION = '5'
+ASSET_VERSION = '6'
 GUIDES = Path(__file__).resolve().parent / 'guias_por_modelo.json'
-ART = ZoneInfo('America/Argentina/Buenos_Aires')
+ART = argentina_timezone()
 MODEL_RE = re.compile(r'^/datos/precios/(' + '|'.join(CATEGORIES) + r')/([a-z0-9-]+)/$')
 
 
@@ -252,7 +276,7 @@ def page(title, description, canonical, schema, noindex, url, body, og_type='web
     robots = 'noindex, follow' if noindex else 'index, follow, max-image-preview:large'
     ld = ''.join('<script type="application/ld+json">' + json.dumps(s, ensure_ascii=False).replace('<', chr(92) + 'u003c') + '</script>' for s in schema)
     v = '?v=' + ASSET_VERSION
-    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="{robots}"><meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TallerLab"><meta property="og:locale" content="es_AR"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{SITE}/assets/hero-taller-claro-v3.webp"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="{url('/assets/favicon.svg')}"><link rel="stylesheet" href="{url('/assets/observatorio-gratuito.css')}{v}"><script defer src="{url('/assets/observatorio-gratuito.js')}{v}"></script>{ld}</head><body><a class="skip" href="#main">Ir al contenido</a><header><a class="wordmark" href="{SITE}/" aria-label="TallerLab, inicio">Taller<span>Lab</span><i aria-hidden="true">▦</i></a><nav aria-label="Navegación principal"><a href="{url(HUB)}">Precios</a><a href="{url(METHOD)}">Metodología</a><a class="editorial-link" href="{SITE}/">Guías de compra</a></nav></header><main id="main" data-publication="{esc(published_at)}">{body}</main><footer><a class="wordmark" href="{SITE}/">Taller<span>Lab</span></a><p>Precios de herramientas · Argentina<br>Precios informativos. La oferta final la confirma el comercio.</p><p class="footer-links"><a href="{url(METHOD)}">Metodología</a> · <a href="{url(METHOD)}#citar">Citar los datos</a> · <a href="{url('/assets/datos/precios-observatorio-publico.json')}">Datos JSON</a> · <a href="{SITE}/como-trabajamos/">Cómo trabajamos</a></p></footer></body></html>'''
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="{robots}"><meta property="og:type" content="{og_type}"><meta property="og:site_name" content="TallerLab"><meta property="og:locale" content="es_AR"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{SITE}/assets/hero-taller-claro-v3.webp"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="{url('/assets/favicon.svg')}"><link rel="stylesheet" href="{url('/assets/observatorio-gratuito.css')}{v}"><script defer src="{url('/assets/observatorio-gratuito.js')}{v}"></script><script defer src="{url('/assets/commerce.js')}?v=4"></script>{ld}</head><body><a class="skip" href="#main">Ir al contenido</a><header><a class="wordmark" href="{SITE}/" aria-label="TallerLab, inicio">Taller<span>Lab</span><i aria-hidden="true">▦</i></a><nav aria-label="Navegación principal"><a href="{url(HUB)}">Precios</a><a href="{url(METHOD)}">Metodología</a><a class="editorial-link" href="{SITE}/">Guías de compra</a></nav></header><main id="main" data-publication="{esc(published_at)}">{body}</main><footer><a class="wordmark" href="{SITE}/">Taller<span>Lab</span></a><p>Precios de herramientas · Argentina<br>Precios informativos. Confirmá el precio final antes de comprar.</p><p class="footer-links"><a href="{url(METHOD)}">Metodología</a> · <a href="{url(METHOD)}#citar">Citar los datos</a> · <a href="{url('/assets/datos/precios-observatorio-publico.json')}">Datos JSON</a> · <a href="{SITE}/como-trabajamos/">Cómo trabajamos</a></p></footer></body></html>'''
 
 
 def cite_block(canonical, observed):
@@ -260,17 +284,17 @@ def cite_block(canonical, observed):
 
 
 def methodology(manifest, url, count_by_source=None):
-    sources = ''.join(f'<li><a href="{esc(s["home"])}" target="_blank" rel="noopener noreferrer">{esc(s["name"])}</a> · <a href="{esc(s["robots"])}" target="_blank" rel="noopener noreferrer">robots.txt</a>{(" · <a href="+chr(34)+esc(s["terms"])+chr(34)+" target="+chr(34)+"_blank"+chr(34)+" rel="+chr(34)+"noopener noreferrer"+chr(34)+">condiciones</a>") if s.get("terms") else ""}</li>' for s in manifest['sources'].values())
+    sources = ''.join(f'<li>{esc(s["name"])}{(", tienda oficial de " + esc(s["official_brand"])) if s.get("official", False) is True and s.get("official_brand") else ""}</li>' for s in manifest['sources'].values())
     counts = count_by_source or {}
     split = ', '.join(f'{counts.get(k, 0)} de {esc(s["name"])}' for k, s in manifest['sources'].items())
     return f'''<section class="methodology"><p class="eyebrow">Cómo leer los datos</p><h1>Cómo medimos los precios<br>de herramientas.</h1><p class="lead">Observamos fichas concretas de herramientas en comercios argentinos. Publicamos lo que pudimos verificar y dejamos visibles las limitaciones.</p>
 <div class="method-grid"><section><span class="chapter">01 / Alcance</span><h2>Un piloto de {len(manifest['models'])} modelos</h2><p>{esc(manifest['selection'])}</p><p>Hay una oferta configurada por modelo. No es una comparación exhaustiva de comercios ni un «mínimo del mercado». Tampoco medimos ventas o inflación oficial.</p></section>
 <section><span class="chapter">02 / Captura</span><h2>La ficha, no los recomendados</h2><p>Comprobamos URL, SKU, referencia, marca, título y propiedades de la variante. El precio estructurado debe coincidir con el precio principal de la ficha y la moneda debe ser ARS. En DGM el importe visible se redondea al peso: exigimos ese redondeo exacto y conservamos los centavos estructurados. Un cero de una ficha agotada se guarda como ausencia de precio.</p><p>Se consultan estas fuentes públicas, con al menos tres segundos entre solicitudes al mismo comercio:</p><ul>{sources}</ul><p>Revisamos robots.txt en cada ejecución. No evitamos bloqueos, CAPTCHA, límites ni accesos restringidos. Robots.txt es una regla de acceso técnico, no una licencia comercial.</p></section>
 <section><span class="chapter">03 / Vigencia</span><h2>48 horas, como máximo</h2><p>Solo se muestra como actual un precio validado, disponible y con menos de 48 horas. Un error posterior invalida su verificación actual. Los datos vencidos, agotados o sin stock confirmado permanecen en el historial y se excluyen de los precios actuales.</p><p>La página comprueba la edad al abrirse. Una captura programada puede demorarse o fallar; el horario no es una garantía.</p></section>
-<section><span class="chapter">04 / Condiciones</span><h2>Antes de pagar, confirmá</h2><p>Mostramos el importe publicado en la ficha; no sumamos envío ni calculamos cuotas o descuentos por transferencia. No damos por incluido ningún accesorio que la variante no identifique. El comercio confirma stock, impuestos, medios de pago y precio final.</p><p>La ficha Bosch GHP 4-50 declara 60 Hz: se conserva esa advertencia. Las propiedades técnicas erróneas del vendedor no se convierten en recomendaciones de uso.</p></section>
+<section><span class="chapter">04 / Condiciones</span><h2>Antes de pagar, confirmá</h2><p>Mostramos el importe publicado; no sumamos envío ni calculamos cuotas o descuentos por transferencia. No damos por incluido ningún accesorio que la variante no identifique. Confirmá stock, impuestos, medios de pago y precio final antes de comprar.</p><p>La ficha Bosch GHP 4-50 declara 60 Hz: se conserva esa advertencia. Las propiedades técnicas erróneas del vendedor no se convierten en recomendaciones de uso.</p></section>
 <section><span class="chapter">05 / Historia</span><h2>Sin rellenar los días que faltan</h2><p>Guardamos hasta 365 días, una captura válida por modelo y día de Argentina. La variación compara las dos últimas observaciones disponibles de la misma ficha, no necesariamente días consecutivos. Con una sola captura no hay variación.</p><p>Rotulamos «fin de oferta» cuando el precio vuelve exactamente al importe tachado en la captura anterior y ya no tiene descuento visible; «inicio de oferta» cuando sucede lo inverso. Si hay descuentos con otra referencia, indicamos «cambio de oferta». Es una clasificación de las fichas observadas, no una confirmación del motivo comercial ni de un aumento de lista.</p><p>Los cambios de precio se incorporan automáticamente cuando coinciden la identidad, la variante, la moneda y el precio principal visible con la oferta estructurada del comercio. Un salto de 35% o más frente a la mediana de las últimas siete observaciones disponibles queda registrado en el historial. Los datos contradictorios se ocultan; no se inventa un precio intermedio.</p><p>Cada modelo tiene su página con mínimo, mediana y máximo de sus últimas {STATS_WINDOW} capturas con precio. Solo calificamos el precio del día («por debajo», «habitual» o «por encima») desde {VERDICT_MIN} capturas, comparándolo con la mediana: con inflación, un precio puede subir y seguir siendo habitual.</p></section>
 <section><span class="chapter">06 / Descarga</span><h2>Los hechos, abiertos a revisión</h2><p>El CSV identifica modelo, comercio, variante, moneda, precio, stock y momento observado. El JSON añade estado de captura y hash SHA-256 de la evidencia. No distribuimos páginas del comercio, imágenes, cookies ni credenciales.</p><p><a class="text-link" href="{url('/datos/precios/descargar-csv')}">Descargar historial CSV ↓</a> · <a href="{url('/assets/datos/precios-observatorio-publico.json')}">Ver JSON</a></p></section>
-<section><span class="chapter">07 / Independencia</span><h2>Quién elige y quién paga</h2><p>Los modelos se eligen por tareas y gamas, para cubrir lo que analizan nuestras guías. Distribución actual de fichas: {split}. Por eso el precio de cada modelo refleja a ese comercio, no un promedio del mercado.</p><p>Algunas guías de TallerLab incluyen enlaces de compra que pueden generar una comisión. Los enlaces de estas páginas de precios van directo a la ficha del comercio, sin parámetros de afiliado, y ningún comercio paga por aparecer ni revisa los datos antes de publicarlos.</p></section>
+<section><span class="chapter">07 / Independencia</span><h2>Quién elige y quién paga</h2><p>Los modelos se eligen por tareas y gamas, para cubrir lo que analizan nuestras guías. Distribución actual de fichas: {split}. Por eso el precio de cada modelo refleja a ese comercio, no un promedio del mercado.</p><p>Algunas guías y páginas de precios incluyen enlaces afiliados de Mercado Libre. Podemos recibir una comisión si comprás desde esos enlaces. Ningún comercio relevado paga por aparecer ni revisa los datos antes de publicarlos.</p></section>
 <section id="citar"><span class="chapter">08 / Licencia</span><h2>Citar y reutilizar</h2><p>Los datos se publican con <a href="{DATA_LICENSE}" rel="license">licencia CC BY 4.0</a>: se pueden copiar, graficar y analizar, también con fines comerciales, citando a TallerLab con un enlace a la página del modelo o a este observatorio.</p><p>Cita sugerida: «Fuente: TallerLab, historial de precios de herramientas en Argentina», con la fecha de la captura y el enlace correspondiente.</p></section></div></section>'''
 
 
@@ -292,7 +316,7 @@ def hub_body(category, selected, rows, manifest, url, observed, canonical):
     capture_days = {day(o['observed_at']) for r in selected for o in r['series']}
     split = ', '.join(f'{sum(r["model"]["source"] == key for r in selected)} de {esc(source["name"])}' for key, source in manifest['sources'].items() if any(r['model']['source'] == key for r in selected))
     guide_link = f'<a href="{SITE}/{category}/">Leer la guía de {CATEGORIES[category].lower()} ↗</a>' if category else f'<a href="{SITE}/">Ver las guías de compra ↗</a>'
-    return f'''{breadcrumb_html(crumbs)}<section class="hero"><div><p class="eyebrow">Historial diario · {len(selected)} modelos · {sources} comercio{"s" if sources != 1 else ""}</p><h1>{title_html}</h1><p class="lead">Seguimos todos los días el precio publicado y el stock de cada modelo, y guardamos el historial. Antes de comprar, mirá cómo se movió.</p><a class="button" href="#catalogo">Explorar {len(selected)} modelos <span aria-hidden="true">↘</span></a></div><aside class="capture"><span class="capture-mark" aria-hidden="true">↗</span><p class="eyebrow">Última ejecución</p><strong>{esc(stamp(observed))}</strong><p>{len(manifest['sources'])} comercios · moneda ARS</p><div class="capture-note">Una ficha por modelo.<br> Confirmá el precio final en el comercio.</div></aside></section>
+    return f'''{breadcrumb_html(crumbs)}<section class="hero"><div><p class="eyebrow">Historial diario · {len(selected)} modelos · {sources} comercio{"s" if sources != 1 else ""}</p><h1>{title_html}</h1><p class="lead">Seguimos todos los días el precio publicado y el stock de cada modelo, y guardamos el historial. Antes de comprar, mirá cómo se movió.</p><a class="button" href="#catalogo">Explorar {len(selected)} modelos <span aria-hidden="true">↘</span></a></div><aside class="capture"><span class="capture-mark" aria-hidden="true">↗</span><p class="eyebrow">Última ejecución</p><strong>{esc(stamp(observed))}</strong><p>{len(manifest['sources'])} comercios · moneda ARS</p><div class="capture-note">Una ficha por modelo.<br> Confirmá el precio final antes de comprar.</div></aside></section>
 <section class="metrics" aria-label="Cobertura del observatorio"><div><strong>{len(selected):02d}</strong><span>modelos monitoreados</span></div><div><strong id="available-count">{sum(r['state']=='disponible' for r in selected):02d}</strong><span>con precio actual y stock</span></div><div><strong id="unavailable-count">{sum(r['state']=='agotado' for r in selected):02d}</strong><span>agotados en la captura</span></div><div><strong>48 h</strong><span>vigencia máxima del dato</span></div></section>
 <p class="reading-note coverage-note">Muestra piloto: {len(capture_days)} días con capturas, no necesariamente consecutivos. Distribución de fichas: {split}. Una oferta por modelo; no representa el mercado argentino. El veredicto requiere {VERDICT_MIN} capturas con precio por ficha.</p>
 <nav class="categories" aria-label="Categorías de herramientas"><a class="{'active' if not category else ''}" href="{url(HUB)}">Todas <span>{count}</span></a>{nav}</nav>
@@ -339,12 +363,15 @@ def model_body(row, rows, sources, guides, url, canonical, observed):
     other_items = ''.join(f'<li><a href="{url(model_path(r["model"]))}">{esc(r["model"]["brand"]+" "+r["model"]["model"])}</a><span>{esc(other_price(r))}</span></li>' for r in rows if r['model']['category'] == m['category'] and r is not row)
     ref = f'<p class="reference-note">Precio tachado por el comercio en la última captura: {esc(peso(o["reference_ars"]))}. No demuestra un descuento histórico.</p>' if o and o.get('reference_ars') else ''
     observed_at = o['observed_at'] if o else ''
-    return f'''{breadcrumb_html(crumbs)}<section class="model-hero"><div><p class="eyebrow">Historial de precio · {esc(category)}</p><h1>Precio del {esc(m['brand'])} <span class="nw">{esc(m['model'])}</span><br>en Argentina.</h1><p class="lead">{(esc(variant) + '. ') if variant else ''}Seguimos esta ficha de {esc(source['name'])} todos los días{(' desde el ' + esc(since)) if since else ''} y guardamos cada captura: precio publicado, stock y fecha.</p></div><aside class="model-current" data-state="{row['state']}" data-observed="{esc(observed_at)}"><p class="eyebrow">Último precio observado</p><strong class="current-price">{price}</strong><span class="badge {row['state']}">{LABELS[row['state']]}</span><small>{esc(stamp(observed_at))} · {esc(source['name'])}</small><a class="button" href="{esc(m['url'])}" target="_blank" rel="nofollow noopener noreferrer">Ver la ficha en el comercio <span aria-hidden="true">↗</span></a></aside></section>
+    affiliate = affiliate_for_price_path(model_path(m))
+    affiliate_cta = (f'<a class="button" href="{esc(affiliate["url"], quote=True)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate-placement="observatory-price">Ver precio en Mercado Libre ↗</a><small class="affiliate-disclosure">{AFFILIATE_DISCLOSURE}</small>' if affiliate else '')
+    source_line = source_publication(source, observed_at)
+    return f'''{breadcrumb_html(crumbs)}<section class="model-hero"><div><p class="eyebrow">Historial de precio · {esc(category)}</p><h1>Precio del {esc(m['brand'])} <span class="nw">{esc(m['model'])}</span><br>en Argentina.</h1><p class="lead">{(esc(variant) + '. ') if variant else ''}Seguimos esta ficha todos los días{(' desde el ' + esc(since)) if since else ''} y guardamos cada captura: precio publicado, stock y fecha.</p></div><aside class="model-current" data-state="{row['state']}" data-observed="{esc(observed_at)}"><p class="eyebrow">Último precio observado</p><strong class="current-price">{price}</strong><span class="badge {row['state']}">{LABELS[row['state']]}</span><small>{esc(source_line)}</small>{affiliate_cta}</aside></section>
 <section class="verdict {kind}" aria-labelledby="verdict-title"><h2 id="verdict-title">¿Es buen precio hoy?</h2><p>{text}</p>{ref}</section>
 <section class="metrics" aria-label="Resumen del historial">{stat_cells}<div><strong>{stats['n'] if stats else 0:02d}</strong><span>capturas con precio</span></div></section>{min_offer_note}
 <section class="model-chart" aria-labelledby="chart-title"><h2 id="chart-title">Evolución del precio del {esc(m['model'])}</h2>{chart_svg(row['series'], 'Evolución del precio publicado del ' + name)}</section>
 <section class="model-history" aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">Todas las capturas</h2><a class="download" download="precios-{m['category']}.csv" href="{url('/datos/precios/' + m['category'] + '/historial.csv')}">Descargar CSV <span aria-hidden="true">↓</span></a></div><div class="history-scroll"><table><caption>Capturas de {esc(name)}{(' (' + esc(variant) + ')') if variant else ''} en {esc(source['name'])}</caption><thead><tr><th>Captura</th><th>Precio observado (ARS)</th><th>Stock observado</th></tr></thead><tbody>{history}</tbody></table></div><p class="reading-note">Los importes históricos no son ofertas vigentes. Sin envío, cuotas ni descuentos por medio de pago. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p></section>
-<section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá en la ficha el voltaje y qué incluye la caja. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>El comercio confirma stock, envío y precio final; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div>{guides_html}{category_guide}</div></section>
+<section class="model-context"><div><h2>Antes de comprar el <span class="nw">{esc(m['model'])}</span></h2><ul><li>{('Confirmá que la variante sea esta: <strong>' + esc(variant) + '</strong>. ') if variant else 'Confirmá el voltaje y qué incluye la caja antes de comprar. '}Un kit, otra batería u otro voltaje cambian el precio.</li><li>Confirmá stock, envío e importe final antes de comprar; acá no sumamos costos de envío.</li><li>Si el precio está por encima de lo habitual, mirá la guía para comparar alternativas.</li></ul></div><div>{guides_html}{category_guide}</div></section>
 <section class="related-models" aria-labelledby="related-title"><h2 id="related-title">Otros {esc(category.lower())} que seguimos</h2><ul>{other_items}</ul><p><a href="{url('/datos/precios/' + m['category'] + '/')}">Ver la tabla de {esc(category.lower())} ↗</a></p></section>
 {cite_block(canonical, observed_at or observed)}'''
 
@@ -365,7 +392,7 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
     paths = [model_path(m) for m in manifest['models']]
     if len(set(paths)) != len(paths): raise ValueError('Dos modelos comparten la misma URL')
     assets = output/'assets'; assets.mkdir(exist_ok=True)
-    for name in ('observatorio-gratuito.css', 'observatorio-gratuito.js', 'favicon.svg'):
+    for name in ('observatorio-gratuito.css', 'observatorio-gratuito.js', 'commerce.js', 'favicon.svg'):
         shutil.copy2(ROOT/'assets'/name, assets/name)
     fonts = assets/'fonts'; fonts.mkdir(exist_ok=True)
     for name in ('plus-jakarta-sans-latin-v1.woff2', 'jetbrains-mono-latin-v1.woff2', 'plusjakartasans-OFL.txt', 'jetbrainsmono-OFL.txt'):
