@@ -301,6 +301,6 @@ def render_resource(article):
       <span class="resource-kicker">{escape({"table": "CRUCE DE DOCUMENTOS", "selector": "RECORRIDO DE ELECCIÓN", "checklist": "COMPROBACIÓN PASO A PASO"}.get(kind, "CÁLCULO CON TUS DATOS"))} · TALLERLAB</span>
       <h2 id="resource-title">{escape(resource["title"])}</h2><p class="resource-lead">{escape(resource["lead"])}</p>
       {content}<p class="resource-method">{escape(resource["note"])}</p>
-      <p class="resource-provenance">Análisis documental de TallerLab · <a href="#fuentes-consultadas">Documentos y límites de esta guía</a> · Revisión de fuentes: {escape(article["reviewed"])}. La pieza no representa una prueba física.</p>
+      <p class="resource-provenance">Análisis documental de TallerLab · <a href="#fuentes-consultadas">Documentos y límites de esta guía</a> · Revisión de fuentes: {escape(article["reviewed"])}.</p>
       <script type="application/json" class="resource-config">{config}</script>
     </section>'''

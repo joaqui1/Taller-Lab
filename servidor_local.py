@@ -194,16 +194,50 @@ def extract_frontmatter(content):
         if len(parts) >= 3:
             raw_fm = parts[1]
             body = parts[2]
-            for line in raw_fm.splitlines():
+            lines = raw_fm.splitlines()
+            index = 0
+            while index < len(lines):
+                line = lines[index]
                 if ":" in line:
                     key, val = line.split(":", 1)
                     key = key.strip()
                     val = val.strip().strip('"').strip("'")
+                    if key == "veredictos" and not val:
+                        verdicts = []
+                        current = None
+                        index += 1
+                        while index < len(lines) and (not lines[index].strip() or lines[index][:1].isspace()):
+                            item = lines[index].strip()
+                            if item.startswith("- "):
+                                if current:
+                                    verdicts.append(current)
+                                current = {}
+                                item = item[2:].strip()
+                            if current is not None and ":" in item:
+                                field, value = item.split(":", 1)
+                                current[field.strip()] = value.strip().strip('"').strip("'")
+                            index += 1
+                        if current:
+                            verdicts.append(current)
+                        fm[key] = verdicts
+                        continue
+                    if key == "respuestas_usuarios" and not val:
+                        value = {}
+                        index += 1
+                        while index < len(lines) and (not lines[index].strip() or lines[index][:1].isspace()):
+                            item = lines[index].strip()
+                            if ":" in item:
+                                field, raw_value = item.split(":", 1)
+                                value[field.strip()] = raw_value.strip().strip('"').strip("'")
+                            index += 1
+                        fm[key] = value
+                        continue
                     if val.startswith("[") and val.endswith("]"):
                         items = [x.strip().strip('"').strip("'") for x in val[1:-1].split(",") if x.strip()]
                         fm[key] = items
                     else:
                         fm[key] = val
+                index += 1
     return fm, body.strip()
 
 CATEGORY_META = {
@@ -944,6 +978,11 @@ def load_all_articles():
             "information_asset": fm.get("information_asset", ""),
             "asset_status": fm.get("asset_status", ""),
             "keywords": fm.get("keywords", []),
+            "revisor": fm.get("revisor", ""),
+            "revision_tecnica": fm.get("revision_tecnica", ""),
+            "alcance_revision": fm.get("alcance_revision", ""),
+            "veredictos": fm.get("veredictos", []),
+            "respuestas_usuarios": fm.get("respuestas_usuarios", {}),
             "body": body,
             "word_count": len(body.split()),
         })
@@ -978,6 +1017,11 @@ def load_all_articles():
                     "information_asset": fm.get("information_asset", ""),
                     "asset_status": fm.get("asset_status", ""),
                     "keywords": fm.get("keywords", []),
+                    "revisor": fm.get("revisor", ""),
+                    "revision_tecnica": fm.get("revision_tecnica", ""),
+                    "alcance_revision": fm.get("alcance_revision", ""),
+                    "veredictos": fm.get("veredictos", []),
+                    "respuestas_usuarios": fm.get("respuestas_usuarios", {}),
                     "body": body,
                     "word_count": len(body.split()),
                 })
@@ -1083,6 +1127,145 @@ def _calculator_sources(article):
         if len(unique) == 8:
             break
     return unique
+
+
+def public_reviewer(slug):
+    """Devuelve únicamente perfiles que el registro editorial marcó como publicados."""
+    if not slug or not re.fullmatch(r"[a-z0-9-]+", str(slug)):
+        return None
+    try:
+        data = json.loads(Path(__file__).with_name("revisores.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    records = data.get("revisores", data.get("reviewers", [])) if isinstance(data, dict) else data
+    if isinstance(records, dict):
+        record = records.get(slug)
+        candidates = [record] if isinstance(record, dict) else []
+    elif isinstance(records, list):
+        candidates = [record for record in records if isinstance(record, dict) and record.get("slug") == slug]
+    else:
+        candidates = []
+    for reviewer in candidates:
+        published = reviewer.get("publicado", reviewer.get("published", False))
+        if published is True or str(published).lower() == "true":
+            return reviewer
+    return None
+
+
+def _reviewer_for_article(article):
+    return public_reviewer(article.get("revisor"))
+
+
+def _reviewer_block(article, reviewer):
+    if not reviewer:
+        return ""
+    slug = str(article.get("revisor", "")).strip()
+    name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+    occupation = str(reviewer.get("oficio") or reviewer.get("ocupacion") or reviewer.get("jobTitle") or "").strip()
+    photo = str(reviewer.get("foto") or reviewer.get("photo") or "").strip()
+    if not slug or not name:
+        return ""
+    photo_html = f'<img src="{escape(photo, quote=True)}" alt="" width="48" height="48" loading="lazy">' if photo else ""
+    details = [escape(name)]
+    if occupation:
+        details.append(escape(occupation))
+    date = str(article.get("revision_tecnica") or article.get("reviewed") or "").strip()
+    if date:
+        details.append("Revisión técnica: " + escape(date))
+    scope = str(article.get("alcance_revision") or "").strip()
+    if scope:
+        details.append("Alcance: " + escape(scope))
+    return f'<div class="reviewer-attribution">{photo_html}<p><strong>Revisado por <a href="/revisores/{escape(slug, quote=True)}/">{escape(name)}</a></strong><span>{" · ".join(details[1:])}</span></p></div>'
+
+
+def _manufacturer_responses_for_article(article):
+    path = Path(__file__).with_name("consultas_fabricantes.json")
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    consultations = data.get("consultas", []) if isinstance(data, dict) else []
+    results = []
+    for item in consultations:
+        if not isinstance(item, dict) or item.get("estado") != "respondida":
+            continue
+        guides = item.get("guias", [])
+        if isinstance(guides, str):
+            guides = [guides]
+        if article.get("url") in guides and item.get("id"):
+            results.append(item)
+    return results
+
+
+def _verdict_block(article, reviewer):
+    verdicts = article.get("veredictos") or []
+    if not isinstance(verdicts, list):
+        return ""
+    entries = []
+    for verdict in verdicts:
+        if not isinstance(verdict, dict):
+            continue
+        use = str(verdict.get("uso", "")).strip()
+        recommendation = str(verdict.get("recomendacion", "")).strip()
+        condition = str(verdict.get("condicion", "")).strip()
+        if not (use and recommendation and condition):
+            continue
+        validation = ""
+        if reviewer:
+            name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+            if name:
+                validation = f'<span class="verdict-validation">Validado por {escape(name)}</span>'
+        entries.append(f'<li><strong>{escape(use)}:</strong> {escape(recommendation)} <span>{escape(condition)}</span>{validation}</li>')
+    if not entries:
+        return ""
+    return '<section class="task-verdicts"><h2>Respuesta por tarea</h2><ul>' + "".join(entries) + "</ul></section>"
+
+
+def _insert_verdicts(body, block):
+    if not block:
+        return body
+    task_heading = re.search(r"(?im)^##[ \t]+[^\n]*tarea[^\n]*\n", body)
+    if task_heading:
+        block = block.replace("<h2>Respuesta por tarea</h2>", "")
+        return body[:task_heading.end()] + "\n" + block + "\n" + body[task_heading.end():]
+    first_section = re.search(r"(?m)^##[ \t]+", body)
+    insertion = first_section.start() if first_section else len(body)
+    return body[:insertion] + "## Respuesta por tarea\n\n" + block + "\n\n" + body[insertion:]
+
+
+def _method_extra_lines(article, reviewer):
+    lines = []
+    if reviewer:
+        name = str(reviewer.get("nombre") or reviewer.get("name") or "").strip()
+        date = str(article.get("revision_tecnica") or article.get("reviewed") or "").strip()
+        scope = str(article.get("alcance_revision") or "").strip()
+        if name:
+            label = "Revisión técnica: " + escape(name)
+            if date:
+                label += " · " + escape(date)
+            if scope:
+                label += " · " + escape(scope)
+            lines.append(f"<li>{label}</li>")
+    for response in _manufacturer_responses_for_article(article):
+        brand = escape(str(response.get("marca") or "Fabricante"))
+        response_date = str(response.get("fecha_respuesta") or "").strip()
+        suffix = " · " + escape(response_date) if response_date else ""
+        response_id = urllib.parse.quote(str(response["id"]), safe="-")
+        lines.append(f'<li>Respuesta oficial del fabricante: <a href="/fabricantes/respuestas/#{escape(response_id, quote=True)}">{brand}{suffix}</a></li>')
+    user_responses = article.get("respuestas_usuarios") or {}
+    if isinstance(user_responses, dict):
+        amount = user_responses.get("cantidad", 0)
+    else:
+        amount = user_responses
+    try:
+        amount = int(amount)
+    except (TypeError, ValueError):
+        amount = 0
+    if amount > 0:
+        lines.append(f"<li>Experiencia de usuarios: {amount} respuestas registradas</li>")
+    return "".join(lines)
 
 def _calculator_article(data):
     return next(article for article in ALL_ARTICLES if article["url"] == data["guide"])
@@ -1763,7 +1946,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
             media = f'<img src="{escape(facts["image"], quote=True)}" alt="{escape(brand + " " + model, quote=True)}" width="{facts.get("image_width", 800)}" height="{facts.get("image_height", 800)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
         else:
             media = '<span class="offer-no-photo">Foto no disponible</span>'
-        source = (f'<p class="offer-evidence">{escape(facts["evidence_label"])} · sin prueba física de TallerLab</p>' if facts and facts.get("evidence_label") else '')
+        source = (f'<p class="offer-evidence">{escape(facts["evidence_label"])}</p>' if facts and facts.get("evidence_label") else '')
         compare_type = category if editorial else COMPARE_TYPES.get(url, category)
         labels = (editorial or {}).get('labels') or COMPARE_ROWS.get(compare_type, COMPARE_ROWS.get(category, ("Dato principal", "Dato secundario", "Dato adicional")))
         compare_labels = escape(json.dumps(labels, ensure_ascii=False), quote=True)
@@ -1807,7 +1990,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
       <div class="offer-grid">{cards}</div>
       {'<p class="offer-empty" hidden>No hay productos con esos filtros.</p>' if filters else ''}
       {'<div class="compare-panel" hidden aria-live="polite"></div>' if has_comparison else ''}
-      {'<p class="buying-disclosure">Comparación documental, sin prueba física. Las fichas de fabricante no confirman stock. En los enlaces de afiliado TallerLab puede recibir una comisión, sin costo adicional para vos.</p>' if editorial else ''}
+      {'<p class="buying-disclosure">Comparación documental. Las fichas de fabricante no confirman stock. En los enlaces de afiliado TallerLab puede recibir una comisión, sin costo adicional para vos.</p>' if editorial else ''}
     </section>
     """
 
@@ -2396,7 +2579,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=22">
+  <link rel="stylesheet" href="/assets/site.css?v=23">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
@@ -2845,12 +3028,20 @@ def render_article_page(article, embedded=False):
     clean_body = re.sub(r'^\s*#\s+[^\n]+\n+', '', article["body"])
     clean_body = replace_manufacturer_response_markers(clean_body, article["url"])
     resource = RESOURCES.get(article["url"])
+    reviewer = _reviewer_for_article(article)
     if resource:
         # La transparencia queda una vez, en el detalle de método del pie.
         clean_body = re.sub(r'^## Cómo investigamos esta guía\s*\n(?:[ \t]*-[^\n]*\n)+\s*', '', clean_body, flags=re.MULTILINE)
         # Retirar solo preámbulos comunes que explican las etiquetas, no datos.
         clean_body = re.sub(r'^\*\*Dato documentado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
         clean_body = re.sub(r'^- \*\*Opiniones(?: de compradores)?:\*\* no se revisó una muestra verificable\.\n?', '', clean_body, flags=re.MULTILINE)
+    # La ausencia de prueba se explica una sola vez en el bloque de método.
+    clean_body = re.sub(
+        r'(?i)(?:^|(?<=[.!?])\s+|(?<=\n))[^.!?\n]*(?:prueba física|pruebas físicas)[^.!?\n]*[.!?]',
+        ' ',
+        clean_body,
+    )
+    clean_body = _insert_verdicts(clean_body, _verdict_block(article, reviewer))
     
     # 2. Formatear botones comerciales de Mercado Libre
     def render_ml_link(match):
@@ -2885,7 +3076,7 @@ def render_article_page(article, embedded=False):
         rendered_body = MARKDOWN.render(clean_body)
         body_script = ""
         trust_html = """
-        <p><strong>Criterio editorial:</strong> Esta guía compara documentación de fabricantes; TallerLab no realizó una prueba física de los equipos. Las tarjetas comerciales indican su propia fuente y sus límites.</p>
+        <p><strong>Criterio editorial:</strong> Esta guía compara documentación de fabricantes. Las tarjetas comerciales indican su propia fuente y sus límites.</p>
         <p style="margin-top: 0.5rem;"><strong>Enlaces comerciales:</strong> Priorizamos los productos enlazados cuando encajan con el uso y su documentación. Una variante sin identificar se presenta para contrastar, con sus límites visibles.</p>
         """
     else:
@@ -3036,11 +3227,13 @@ def render_article_page(article, embedded=False):
     reviewed_label = f'Última revisión documental: {escape(article["reviewed"])}'
     physical_label = "no realizada" if article["physical_test"] == "no" else escape(article["physical_test"])
     primary_label = "Fuentes primarias consultadas" if article["primary_sources"] == "sí" else "Fuentes primarias: no documentadas"
+    method_extra_lines = _method_extra_lines(article, reviewer)
     transparency_html = f'''<section class="article-sources" aria-label="Cómo investigamos esta guía">
       <h2>Cómo investigamos esta guía</h2>
       <ul>
         <li>Tipo de análisis: {escape(article["research_type"])}</li>
         <li>Prueba física: {physical_label}</li>
+        {method_extra_lines}
         <li>Especificaciones contrastadas: {escape(article["specifications_contrasted"])}</li>
         <li>Opiniones de compradores: {escape(article["buyer_opinions"])}</li>
         <li>Fuentes primarias: {escape(article["primary_sources"])}</li>
@@ -3075,6 +3268,7 @@ def render_article_page(article, embedded=False):
           <span>·</span>
           <span>{reading_time} min de lectura</span>
         </div>
+        {_reviewer_block(article, reviewer)}
         <h1>{article['h1']}</h1>
         <p class="article-lead">{article['description']}</p>
         {render_guide_community_entry(article) if not embedded else ""}
@@ -3107,7 +3301,7 @@ def render_article_page(article, embedded=False):
         <div class="article-authorship">
           <p><strong>Investigación documental y edición: <a href="/autor/joaquin-vallasciani/">{escape(article['author'])}</a> · TallerLab</strong></p>
           <p>{AUTHOR_ROLE}</p>
-          <p>{reviewed_label} · {primary_label} · <strong>Prueba física: {physical_label}</strong></p>
+          <p>{reviewed_label} · {primary_label}</p>
           <p><a href="/como-trabajamos/">Cómo trabajamos</a></p>
         </div>
         {sources_footer}
@@ -3134,6 +3328,13 @@ def render_article_page(article, embedded=False):
     
     if embedded:
         return content.replace("<h1>", "<h3>").replace("</h1>", "</h3>")
+    commission_note = '<span class="guide-commission-note">Podemos recibir una comisión si comprás desde estos enlaces.</span> '
+    content = re.sub(
+        r'(<a\b(?=[^>]*href="https://(?:meli\.la/|(?:www\.)?mercadolibre\.com\.ar/))(?=[^>]*rel="[^"]*sponsored)[^>]*>)',
+        lambda match: commission_note + match.group(1),
+        content,
+        count=1,
+    )
     return HTML_SHELL.format(
         PAGE_TITLE=article["title"],
         CANONICAL_TAG=canonical_tag(article["url"]) + article_schema_tag(article),

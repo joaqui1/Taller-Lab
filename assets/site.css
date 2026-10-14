@@ -19,6 +19,17 @@
 
 .article-authorship { margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
 .article-authorship p { margin: .5rem 0; line-height: 1.8; }
+.reviewer-attribution { display: flex; align-items: center; gap: .8rem; margin: -.25rem 0 1.2rem; color: #eef1ef; font-size: .84rem; }
+.reviewer-attribution img { width: 48px; height: 48px; flex: 0 0 48px; border-radius: 50%; object-fit: cover; }
+.reviewer-attribution p, .reviewer-attribution span { display: block; margin: 0; }
+.reviewer-attribution span { margin-top: .2rem; color: #b5bfbd; font-size: .75rem; line-height: 1.5; }
+.reviewer-attribution a { color: #ffad78; }
+.task-verdicts { margin: 1.2rem 0; padding: 1rem 1.2rem; border-left: 3px solid var(--orange); background: #f4f0e9; }
+.task-verdicts h2 { margin: 0 0 .7rem; font-size: 1.2rem; }
+.task-verdicts ul { margin: 0; padding-left: 1.2rem; }
+.task-verdicts li + li { margin-top: .6rem; }
+.verdict-validation { display: block; color: #596461; font-size: .8rem; }
+.guide-commission-note { color: #596461; font-size: .78rem; }
 .author-guides { padding: 1rem 0; border-bottom: 1px solid var(--border); }
 .author-guides summary { cursor: pointer; font-weight: 700; line-height: 1.6; }
 .author-guides summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
