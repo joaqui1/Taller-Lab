@@ -1458,7 +1458,7 @@ def render_calculator_page(path):
     if path == CALCULATOR_INDEX_PATH:
         cards = "".join(f'<a class="article-card" href="/calculadoras/{slug}/"><h2>{escape(data["title"])}</h2><p>{escape(data["description"])}</p><span>Usar calculadora →</span></a>' for slug, data in CALCULATOR_PAGES.items())
         content = f'<div class="editorial-container"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><span>Calculadoras</span></nav><header class="article-header"><span class="article-category">RECURSOS DE DECISIÓN</span><h1>Calculadoras de herramientas</h1><p>Herramientas para estimar cargas, caudal, costos y consumo con los supuestos y límites explicados.</p></header><div class="article-grid">{cards}</div></div>'
-        return HTML_SHELL.format(PAGE_TITLE="Calculadoras de herramientas | TallerLab", CANONICAL_TAG=canonical_tag(path, title="Calculadoras de herramientas | TallerLab", description="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras."), PAGE_DESC="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+        return HTML_SHELL.format(PAGE_TITLE="Calculadoras de herramientas", CANONICAL_TAG=canonical_tag(path, title="Calculadoras de herramientas | TallerLab", description="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras."), PAGE_DESC="Calculadoras documentales de generadores, compresores, ofertas e hidrolavadoras.", PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
     data = CALCULATOR_PATHS.get(path)
     if not data:
         return render_not_found(path)
@@ -1472,7 +1472,7 @@ def render_calculator_page(path):
     page_url = "https://www.tallerlab.com.ar" + path
     insertion_script = f'''<script>(function(){{var frame={json.dumps(embed_url)},pageUrl={json.dumps(page_url)},title={json.dumps(escape(data["title"], quote=True))},box=document.querySelector('.calculator-embed-code');box.value='<iframe src="'+frame+'" title="'+title+'" width="100%" height="560" loading="lazy" style="border:0" referrerpolicy="strict-origin-when-cross-origin"></iframe>\\n<p>Calculadora de <a href="'+pageUrl+'">TallerLab</a></p>';document.querySelector('.calculator-copy-button').addEventListener('click',function(){{box.select();navigator.clipboard&&navigator.clipboard.writeText(box.value).then(function(){{this.textContent='Copiado'}}.bind(this)).catch(function(){{}})}})}})();</script>'''
     content = f'''<div class="editorial-container calculator-page"><nav class="breadcrumb" aria-label="Ubicación"><a href="/">Inicio</a><span>/</span><a href="/calculadoras/">Calculadoras</a><span>/</span><span>{escape(data["title"])}</span></nav><header class="article-header"><span class="article-category">CALCULADORA DOCUMENTAL</span><h1>{escape(data["title"])}</h1><p>{escape(data["description"])}</p></header><p class="calculator-intro">Usá valores de placa, manual o publicación que estés comparando. El resultado orienta la cuenta y conserva los límites de la documentación.</p>{resource}<section class="calculator-explanation" aria-labelledby="calculator-method-title"><h2 id="calculator-method-title">Cómo calcula</h2><p><strong>Fórmula:</strong> {escape(data["formula"])}</p><p><strong>Supuestos:</strong> {escape(data["assumptions"])}</p><p><strong>Límites:</strong> {escape(data["limits"])}</p></section><section id="fuentes-consultadas"><h2>Fuentes</h2><p>Fuentes documentales enlazadas en la guía relacionada:</p><ul>{source_html}</ul></section><section><h2>Guías relacionadas</h2><p>{related}</p></section><p class="calculator-reviewed">Revisión de fuentes: {escape(reviewed)}.</p><section class="calculator-embed-tools"><h2>Insertar en tu sitio</h2><p>Copiá el iframe y acompañalo con un enlace visible a la calculadora:</p><textarea readonly rows="3" aria-label="Código iframe" class="calculator-embed-code"></textarea><div class="calculator-embed-link"><p>Ver también la <a href="{escape(absolute_url(path), quote=True)}">{escape(data["title"].lower())} de TallerLab</a>.</p></div><button type="button" class="calculator-copy-button">Copiar código</button></section><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")}</script>{insertion_script}</div><script src="/assets/decision-tools.js?v=5" defer></script>'''
-    return HTML_SHELL.format(PAGE_TITLE=data["title"] + " | TallerLab", CANONICAL_TAG=canonical_tag(path, title=data["title"] + " | TallerLab", description=data["description"]), PAGE_DESC=data["description"], PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    return HTML_SHELL.format(PAGE_TITLE=data["title"], CANONICAL_TAG=canonical_tag(path, title=data["title"] + " | TallerLab", description=data["description"]), PAGE_DESC=data["description"], PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
 def validate_published_links():
     """Falla al iniciar si cualquier artículo publicado contiene una ruta inválida."""
@@ -3222,6 +3222,10 @@ def render_category_page(section_id):
     headline = meta["name"]
     cover_name, cover_file = HOME_CATEGORY_IMAGES[section_id]
     first_anchor = visible_steps[0][1]
+    cover_affiliate_disclosure = (
+        '<p class="buying-disclosure">Algunos enlaces de esta guía pueden generar una comisión para TallerLab, sin costo adicional para vos.</p>'
+        if section_id in {"amoladoras", "soldadoras"} else ""
+    )
     content = f'''<div class="article-container category-hub">
       <div class="breadcrumb"><a href="/">Inicio</a><span>/</span><span>{escape(meta["name"])}</span></div>
       <header class="category-hero category-cover">
@@ -3231,6 +3235,7 @@ def render_category_page(section_id):
           {render_guide_community_entry({'url': '/' + section_id + '/', 'section': section_id})}
           <div class="category-cover-rule" aria-hidden="true"></div>
           <p class="category-cover-intro">{escape(HUB_COVER_COPY[section_id])}</p>
+          {cover_affiliate_disclosure}
           <a class="category-cover-action" href="#{first_anchor}">Explorar guías <span aria-hidden="true">→</span></a>
           <p class="hub-byline">Por <a href="/autor/joaquin-vallasciani/">{escape(AUTHOR_NAME)}</a></p>
         </div>

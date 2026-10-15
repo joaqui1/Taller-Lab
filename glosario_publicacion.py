@@ -188,7 +188,7 @@ def render_glossary_page(path, *, canonical_tag, absolute_url):
         robots = None if public_terms else "noindex, follow"
         head = canonical_tag(GLOSSARY_HUB_PATH, title=title + " | TallerLab", description=description, robots=robots)
         head += _schema_script(set_schema)
-        return HTML_SHELL.format(PAGE_TITLE=title + " | TallerLab", CANONICAL_TAG=head, PAGE_DESC=description, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+        return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=head, PAGE_DESC=description, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 
     slug = normalized[len(GLOSSARY_HUB_PATH.rstrip("/")) + 1:]
     term = get_published_glossary_term(slug)
@@ -237,4 +237,4 @@ def render_glossary_page(path, *, canonical_tag, absolute_url):
     route = f'{GLOSSARY_HUB_PATH}{term["slug"]}/'
     head = canonical_tag(route, title=title + " | TallerLab", description=description)
     head += _schema_script(term_schema)
-    return HTML_SHELL.format(PAGE_TITLE=title + " | TallerLab", CANONICAL_TAG=head, PAGE_DESC=description, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
+    return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=head, PAGE_DESC=description, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)

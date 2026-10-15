@@ -39,7 +39,7 @@ def render_exact_offer(product):
 
 
 def disclosure():
-    return '<p class="compat-buy-disclosure">Precio, stock, vendedor y contenido se consultan en Mercado Libre.</p>'
+    return '<p class="compat-buy-disclosure">Este enlace de afiliado puede generar una comisión para TallerLab, sin costo adicional para vos. Precio, stock, vendedor y contenido se consultan en Mercado Libre.</p>'
 
 
 def kit_is_relevant(product):
