@@ -425,10 +425,10 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
 .home-hero::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #faf9f7f5 0%, #faf9f7d9 35%, #faf9f750 52%, transparent 65%); }
 .home-hero-inner { max-width: 1340px; margin: 0 auto; padding: 3.3rem 3rem 2.2rem; }
 .home-hero-copy { max-width: 590px; }
-.home-hero-copy > .home-kicker { display: flex; align-items: center; gap: .7rem; color: #d74800; }
+.home-hero-copy > .home-kicker { display: flex; align-items: center; gap: .7rem; color: #b53c00; }
 .home-status-dot { width: 7px; height: 7px; background: #ff5a0a; border: 2px solid #fff; outline: 1px solid #ff5a0a; border-radius: 50%; flex: 0 0 7px; }
 .home-hero h1 { font-size: clamp(2.6rem, 4.2vw, 3.8rem); font-weight: 800; line-height: 1.07; letter-spacing: -.06em; margin: 1.5rem 0 1.35rem; }
-.home-hero h1 span { color: #ff5a0a; }
+.home-hero h1 span { color: #c24100; }
 .home-hero h1 .home-title-prefix { color: inherit; }
 .home-hero-copy > p { max-width: 460px; color: #505b65; line-height: 1.65; font-size: 1rem; }
 .home-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.4rem; margin: 1.65rem 0 1.8rem; }

@@ -2786,7 +2786,7 @@ HTML_SHELL = """<!DOCTYPE html>
       margin-top: 4rem;
     }}
   </style>
-  <link rel="stylesheet" href="/assets/site.css?v=24">
+  <link rel="stylesheet" href="/assets/site.css?v=26">
   <script src="/assets/commerce.js?v=4" defer></script>
 </head>
 <body>
@@ -3265,9 +3265,10 @@ def render_article_page(article, embedded=False):
     clean_body = replace_manufacturer_response_markers(clean_body, article["url"])
     resource = RESOURCES.get(article["url"])
     reviewer = _reviewer_for_article(article)
+    if resource or not embedded:
+        # La página completa ya incluye el método común con sus fuentes y fecha.
+        clean_body = re.sub(r'^## Cómo investigamos esta guía\s*\n(?:[ \t]*-[^\n]*(?:\n|$))+\s*', '', clean_body, flags=re.MULTILINE)
     if resource:
-        # La transparencia queda una vez, en el detalle de método del pie.
-        clean_body = re.sub(r'^## Cómo investigamos esta guía\s*\n(?:[ \t]*-[^\n]*\n)+\s*', '', clean_body, flags=re.MULTILINE)
         # Retirar solo preámbulos comunes que explican las etiquetas, no datos.
         clean_body = re.sub(r'^\*\*Dato documentado:\*\* las (?:cifras|especificaciones) (?:se atribuyen|se transcriben)[^\n]*\n\s*', '', clean_body, flags=re.MULTILINE)
         clean_body = re.sub(r'^- \*\*Opiniones(?: de compradores)?:\*\* no se revisó una muestra verificable\.\n?', '', clean_body, flags=re.MULTILINE)

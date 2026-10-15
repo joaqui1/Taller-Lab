@@ -11,10 +11,45 @@ class TransparenciaDeGuiasTests(unittest.TestCase):
         for article in site.ALL_ARTICLES:
             with self.subTest(url=article["url"]):
                 html = site.render_article_page(article)
+                self.assertEqual(html.count('<h2>Cómo investigamos esta guía</h2>'), 1)
                 self.assertEqual(html.count("Prueba física: no realizada"), 1)
                 self.assertEqual(len(re.findall(r"(?i)(?:sin prueba física|no realizó una prueba física|no se realizaron pruebas físicas|no incluye prueba física|no representa una prueba física)", html)), 0)
                 method = html.split('aria-label="Cómo investigamos esta guía"', 1)[1].split("</section>", 1)[0]
                 self.assertIn("Prueba física: no realizada", method)
+
+    def test_limpiar_metodo_repetido_conserva_el_contenido_especifico_y_el_embed(self):
+        article = copy.deepcopy(next(a for a in site.ALL_ARTICLES if a["url"] not in site.RESOURCES))
+        article["reviewed"] = "15/10/2026"
+        article["body"] = """# Guía de ejemplo
+
+## Cómo investigamos esta guía
+
+- Tipo de análisis: documental
+- Prueba física de TallerLab: no
+- Especificaciones contrastadas: sí
+- Opiniones de compradores: no
+- Fuentes primarias: sí
+- Última revisión: 28/09/2026
+
+Detalle documental específico que acompaña al método.
+
+## Alcance del análisis
+
+Conclusión editorial propia de esta guía.
+"""
+        rendered = site.render_article_page(article)
+        embedded = site.render_article_page(article, embedded=True)
+        for html in (rendered, embedded):
+            self.assertEqual(html.count('<h2>Cómo investigamos esta guía</h2>'), 1)
+            self.assertIn("Detalle documental específico que acompaña al método.", html)
+            self.assertIn("Conclusión editorial propia de esta guía.", html)
+        self.assertNotIn("Última revisión: 28/09/2026", rendered)
+        self.assertIn("Última revisión: 15/10/2026", rendered)
+        self.assertIn("Última revisión: 28/09/2026", embedded)
+        article["body"] = article["body"].split("\n\nDetalle documental específico", 1)[0].rstrip()
+        rendered = site.render_article_page(article)
+        self.assertEqual(rendered.count('<h2>Cómo investigamos esta guía</h2>'), 1)
+        self.assertNotIn("Última revisión: 28/09/2026", rendered)
 
     def test_veredictos_vacios_no_agregan_bloque_y_con_revisor_se_validan(self):
         article = copy.deepcopy(next(a for a in site.ALL_ARTICLES if a["url"] == "/generadores/para-casa/"))
