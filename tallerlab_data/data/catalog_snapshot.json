@@ -2241,7 +2241,7 @@
       "commercial_name": "BTA 24 Litros Oil-Free Silent",
       "mpn": "823124",
       "category": "compresores",
-      "summary": "Ficha documental de BTA 24 Litros Oil-Free Silent. 0 de 4 observaciones tienen concordancia textual con una fuente recuperada; consultá el código de producto y la variante.",
+      "summary": "Registro anterior BTA 823124 de 24 L sin aceite; identidad y datos técnicos no corroborados.",
       "primary_use": "Aplicaciones limpias y bajo ruido",
       "power_source": "Red eléctrica (220 V)",
       "specs": {
@@ -2371,28 +2371,42 @@
           "valid_until": ""
         }
       ],
-      "contradictions": [],
+      "contradictions": [
+        {
+          "spec_key": "identidad_modelo",
+          "field_name": "Código y modelo",
+          "source_a_name": "Registro anterior de TallerLab",
+          "source_a_value": "823124; BTA 24 Litros Oil-Free Silent; 120 L/min; ficha genérica citada no recuperada",
+          "source_a_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_b_name": "Ficha oficial BTA consultada el 16/10/2026",
+          "source_b_value": "272005; CSA-24-1; tanque 24 L; admisión 170 L/min; sin aceite",
+          "source_b_url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+          "editorial_note": "La capacidad y el tipo oil-free coinciden, pero los códigos, modelo, potencia/velocidad y admisión no; no se establece que 823124 sea el mismo producto. Mantener los datos anteriores como no corroborados hasta identificar la versión exacta."
+        }
+      ],
       "limits_and_warnings": [
-        "Las especificaciones declaradas no acreditan rendimiento, durabilidad ni resultados de ensayo propios.",
-        "Confirmá alimentación, código de producto, accesorios y requisitos de instalación en el manual de tu unidad. Los registros históricos de variantes y kits no certifican esa correspondencia.",
-        "Las referencias excluidas por falta de respaldo no se utilizan para establecer equivalencias numéricas."
+        "La identidad del registro 823124 y sus cifras no se pudo confirmar. La ficha oficial actual de 24 L consultada es 272005 / CSA-24-1; no transferir sus datos a 823124 sin confirmar equivalencia."
       ],
       "primary_sources": [
         {
-          "label": "Catálogo BTA Compresores",
+          "label": "Catálogo BTA Compresores (referencia del registro anterior, no recuperada)",
           "url": "https://www.btatools.com.ar/productos/compresores"
+        },
+        {
+          "label": "Ficha BTA 272005 / CSA-24-1 (consulta 16/10/2026; identidad distinta, no se usa para completar 823124)",
+          "url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite"
         }
       ],
-      "last_reviewed": "2026-10-05",
+      "last_reviewed": "2026-10-16",
       "status": "aceptado"
     },
     {
       "slug": "bta-25-litros",
       "brand": "BTA",
-      "commercial_name": "BTA 25 Litros Monofásico",
-      "mpn": "823125",
+      "commercial_name": "BTA D-CA1-25-6 (25 Litros)",
+      "mpn": "272057.1",
       "category": "compresores",
-      "summary": "Ficha documental de BTA 25 Litros Monofásico. 0 de 4 observaciones tienen concordancia textual con una fuente recuperada; consultá el código de producto y la variante.",
+      "summary": "Compresor BTA D-CA1-25-6 de 2 HP con tanque de 25 L; la ficha declara 206 L/min de admisión.",
       "primary_use": "Bricolaje y taller",
       "power_source": "Red eléctrica (220 V)",
       "specs": {
@@ -2404,108 +2418,119 @@
           "normalized_value": 25.0,
           "normalized_unit": "L",
           "condition": "Nominal",
-          "applicable_variant": "823125",
+          "applicable_variant": "272057.1 / D-CA1-25-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+          "evidence_excerpt": "25 l",
+          "condition_status": "sin_protocolo_especifico"
         },
         "potencia_motor": {
           "spec_key": "potencia_motor",
           "name": "Potencia",
-          "raw_value": "2,0 HP (1500 W)",
-          "raw_unit": "HP",
-          "normalized_value": 2.0,
-          "normalized_unit": "HP",
+          "raw_value": "1,5 kW (2,0 HP)",
+          "raw_unit": "kW",
+          "normalized_value": 1.5,
+          "normalized_unit": "kW",
           "condition": "Nominal",
-          "applicable_variant": "823125",
+          "applicable_variant": "272057.1 / D-CA1-25-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+          "evidence_excerpt": "1,5 kw",
+          "condition_status": "sin_protocolo_especifico"
         },
-        "caudal_desplazado": {
-          "spec_key": "caudal_desplazado",
-          "name": "Caudal de aire",
-          "raw_value": "145 L/min",
-          "raw_unit": "L/min",
-          "normalized_value": 145.0,
-          "normalized_unit": "L/min",
-          "condition": "Aspirado",
-          "applicable_variant": "823125",
+        "velocidad": {
+          "spec_key": "velocidad",
+          "name": "Velocidad",
+          "raw_value": "2850 RPM",
+          "raw_unit": "RPM",
+          "normalized_value": 2850.0,
+          "normalized_unit": "RPM",
+          "condition": "Velocidad de giro declarada",
+          "applicable_variant": "272057.1 / D-CA1-25-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+          "evidence_excerpt": "2850 rpm",
+          "condition_status": "sin_protocolo_especifico"
+        },
+        "caudal_admision": {
+          "spec_key": "caudal_admision",
+          "name": "Admisión de aire",
+          "raw_value": "206 L/min",
+          "raw_unit": "L/min",
+          "normalized_value": 206.0,
+          "normalized_unit": "L/min",
+          "condition": "Admisión de aire; no indica salida a presión de trabajo",
+          "applicable_variant": "272057.1 / D-CA1-25-6",
+          "applicable_market": "Argentina · 220 V 50 Hz",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+          "document_page": null,
+          "consultation_date": "2026-10-16",
+          "status": "declarado",
+          "notes": null,
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+          "evidence_excerpt": "206 l/min",
+          "condition_status": "sin_protocolo_especifico"
         },
         "presion_maxima": {
           "spec_key": "presion_maxima",
           "name": "Presión máxima",
-          "raw_value": "8 bar (115 PSI)",
+          "raw_value": "8 bar (0,8 MPa)",
           "raw_unit": "bar",
           "normalized_value": 8.0,
           "normalized_unit": "bar",
-          "condition": "Corte",
-          "applicable_variant": "823125",
+          "condition": "Máxima declarada",
+          "applicable_variant": "272057.1 / D-CA1-25-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+          "evidence_excerpt": "8 bar",
+          "condition_status": "sin_protocolo_especifico"
         }
       },
       "variants": [
         {
-          "code": "823125",
+          "code": "272057.1",
           "market": "Argentina",
           "voltage_frequency": "220 V / 50 Hz",
-          "plug_type": "IRAM 2073",
-          "notes": "Monofásico"
+          "plug_type": null,
+          "notes": "Modelo D-CA1-25-6"
         }
       ],
-      "kits": [
-        {
-          "kit_code": "823125-STD",
-          "description": "Compresor 25L con ruedas",
-          "battery_included": "No aplica",
-          "charger_included": "No aplica",
-          "accessories": [
-            "Ruedas",
-            "Tapón"
-          ]
-        }
-      ],
+      "kits": [],
       "commercial_offers": [
         {
           "seller": "Distribuidor BTA",
@@ -2524,26 +2549,24 @@
       ],
       "contradictions": [],
       "limits_and_warnings": [
-        "Las especificaciones declaradas no acreditan rendimiento, durabilidad ni resultados de ensayo propios.",
-        "Confirmá alimentación, código de producto, accesorios y requisitos de instalación en el manual de tu unidad. Los registros históricos de variantes y kits no certifican esa correspondencia.",
-        "Las referencias excluidas por falta de respaldo no se utilizan para establecer equivalencias numéricas."
+        "Los 206 L/min son de admisión de aire; la ficha no indica la salida a presión de trabajo ni FAD."
       ],
       "primary_sources": [
         {
-          "label": "Catálogo BTA Compresores",
-          "url": "https://www.btatools.com.ar/productos/compresores"
+          "label": "Ficha BTA 272057.1 / D-CA1-25-6 (consulta 16/10/2026)",
+          "url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
         }
       ],
-      "last_reviewed": "2026-10-05",
+      "last_reviewed": "2026-10-16",
       "status": "aceptado"
     },
     {
       "slug": "bta-50-litros",
       "brand": "BTA",
-      "commercial_name": "BTA 50 Litros Monofásico",
-      "mpn": "823150",
+      "commercial_name": "BTA D-CA2-50-6 (50 Litros)",
+      "mpn": "272057.2",
       "category": "compresores",
-      "summary": "Ficha documental de BTA 50 Litros Monofásico. 0 de 4 observaciones tienen concordancia textual con una fuente recuperada; consultá el código de producto y la variante.",
+      "summary": "Compresor BTA D-CA2-50-6 de 2 HP con tanque de 50 L; la ficha declara 206 L/min de admisión.",
       "primary_use": "Taller y pintura",
       "power_source": "Red eléctrica (220 V)",
       "specs": {
@@ -2555,108 +2578,119 @@
           "normalized_value": 50.0,
           "normalized_unit": "L",
           "condition": "Nominal",
-          "applicable_variant": "823150",
+          "applicable_variant": "272057.2 / D-CA2-50-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+          "evidence_excerpt": "50 l",
+          "condition_status": "sin_protocolo_especifico"
         },
         "potencia_motor": {
           "spec_key": "potencia_motor",
           "name": "Potencia",
-          "raw_value": "2,5 HP",
-          "raw_unit": "HP",
-          "normalized_value": 2.5,
-          "normalized_unit": "HP",
+          "raw_value": "1,5 kW (2,0 HP)",
+          "raw_unit": "kW",
+          "normalized_value": 1.5,
+          "normalized_unit": "kW",
           "condition": "Nominal",
-          "applicable_variant": "823150",
+          "applicable_variant": "272057.2 / D-CA2-50-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+          "evidence_excerpt": "1,5 kw",
+          "condition_status": "sin_protocolo_especifico"
         },
-        "caudal_desplazado": {
-          "spec_key": "caudal_desplazado",
-          "name": "Caudal declarado",
-          "raw_value": "195 L/min",
-          "raw_unit": "L/min",
-          "normalized_value": 195.0,
-          "normalized_unit": "L/min",
-          "condition": "Aspirado",
-          "applicable_variant": "823150",
+        "velocidad": {
+          "spec_key": "velocidad",
+          "name": "Velocidad",
+          "raw_value": "2850 RPM",
+          "raw_unit": "RPM",
+          "normalized_value": 2850.0,
+          "normalized_unit": "RPM",
+          "condition": "Velocidad de giro declarada",
+          "applicable_variant": "272057.2 / D-CA2-50-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+          "evidence_excerpt": "2850 rpm",
+          "condition_status": "sin_protocolo_especifico"
+        },
+        "caudal_admision": {
+          "spec_key": "caudal_admision",
+          "name": "Admisión de aire",
+          "raw_value": "206 L/min",
+          "raw_unit": "L/min",
+          "normalized_value": 206.0,
+          "normalized_unit": "L/min",
+          "condition": "Admisión de aire; no indica salida a presión de trabajo",
+          "applicable_variant": "272057.2 / D-CA2-50-6",
+          "applicable_market": "Argentina · 220 V 50 Hz",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+          "document_page": null,
+          "consultation_date": "2026-10-16",
+          "status": "declarado",
+          "notes": null,
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+          "evidence_excerpt": "206 l/min",
+          "condition_status": "sin_protocolo_especifico"
         },
         "presion_maxima": {
           "spec_key": "presion_maxima",
           "name": "Presión máxima",
-          "raw_value": "8 bar",
+          "raw_value": "8 bar (0,8 MPa)",
           "raw_unit": "bar",
           "normalized_value": 8.0,
           "normalized_unit": "bar",
-          "condition": "Corte",
-          "applicable_variant": "823150",
+          "condition": "Máxima declarada",
+          "applicable_variant": "272057.2 / D-CA2-50-6",
           "applicable_market": "Argentina · 220 V 50 Hz",
-          "source_type": "catalogo_oficial",
-          "source_name": "Catálogo BTA Tools",
-          "source_url": "https://www.btatools.com.ar/productos/compresores",
+          "source_type": "ficha_fabricante",
+          "source_name": "Ficha oficial BTA",
+          "source_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
           "document_page": null,
-          "consultation_date": "2026-10-01",
+          "consultation_date": "2026-10-16",
           "status": "declarado",
           "notes": null,
-          "documentary_status": "sin_respaldo",
-          "evidence_reference": "",
-          "evidence_excerpt": "",
-          "condition_status": "sin_respaldo"
+          "documentary_status": "concordancia_textual",
+          "evidence_reference": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+          "evidence_excerpt": "8 bar",
+          "condition_status": "sin_protocolo_especifico"
         }
       },
       "variants": [
         {
-          "code": "823150",
+          "code": "272057.2",
           "market": "Argentina",
           "voltage_frequency": "220 V / 50 Hz",
-          "plug_type": "IRAM 2073",
-          "notes": "Monofásico"
+          "plug_type": null,
+          "notes": "Modelo D-CA2-50-6"
         }
       ],
-      "kits": [
-        {
-          "kit_code": "823150-STD",
-          "description": "Compresor 50L lubricado con ruedas",
-          "battery_included": "No aplica",
-          "charger_included": "No aplica",
-          "accessories": [
-            "Ruedas",
-            "Manómetro doble"
-          ]
-        }
-      ],
+      "kits": [],
       "commercial_offers": [
         {
           "seller": "Distribuidor BTA",
@@ -2675,17 +2709,15 @@
       ],
       "contradictions": [],
       "limits_and_warnings": [
-        "Las especificaciones declaradas no acreditan rendimiento, durabilidad ni resultados de ensayo propios.",
-        "Confirmá alimentación, código de producto, accesorios y requisitos de instalación en el manual de tu unidad. Los registros históricos de variantes y kits no certifican esa correspondencia.",
-        "Las referencias excluidas por falta de respaldo no se utilizan para establecer equivalencias numéricas."
+        "Los 206 L/min son de admisión de aire; la ficha no indica la salida a presión de trabajo ni FAD. Comparte el caudal de admisión declarado con el modelo de 25 L."
       ],
       "primary_sources": [
         {
-          "label": "Catálogo BTA Compresores",
-          "url": "https://www.btatools.com.ar/productos/compresores"
+          "label": "Ficha BTA 272057.2 / D-CA2-50-6 (consulta 16/10/2026)",
+          "url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
         }
       ],
-      "last_reviewed": "2026-10-05",
+      "last_reviewed": "2026-10-16",
       "status": "aceptado"
     },
     {
@@ -15993,6 +16025,136 @@
   ],
   "corrections": [
     {
+      "id": 44,
+      "correction_date": "2026-10-16",
+      "tool_slug": "skil-9002ar",
+      "field_affected": "contradictions.editorial_note",
+      "old_value": "Conservamos ambas fuentes oficiales documentadas; la versión actual comercializada en Argentina declara 700 W en placa metálica.",
+      "new_value": "Conservamos ambas fuentes oficiales; confirmá la potencia en la placa de la unidad.",
+      "reason": "No se encontró en el repositorio una foto ni una fuente que respalde qué declara la placa de la versión comercializada en Argentina; se conserva la discrepancia entre ambos manuales oficiales sin afirmar el dato de una unidad física.",
+      "source": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf; https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf"
+    },
+    {
+      "id": 43,
+      "correction_date": "2026-10-16",
+      "tool_slug": "lusqtoff-sml120-8dk",
+      "field_affected": "contradictions / limits_and_warnings",
+      "old_value": "[{\"spec_key\":\"tension_alimentacion\",\"field_name\":\"Tensión de red especificada\",\"source_a_name\":\"Ficha web Lüsqtoff SML120-8DK\",\"source_a_value\":\"200 V - 50 Hz\",\"source_a_url\":\"https://lusqtoff.com.ar/ver-producto/SML120-8DK\",\"source_b_name\":\"Estándar IRAM red eléctrica argentina\",\"source_b_value\":\"220 V - 50 Hz\",\"source_b_url\":\"https://www.enre.gov.ar\",\"editorial_note\":\"La ficha declara textualmente 200 V. Confirmar placa metálica de la máquina antes de operar para certificar rango de tolerancia de entrada.\"}]",
+      "new_value": "Advertencia: la ficha oficial declara 200 V - 50 Hz; confirmar en la placa de la unidad el rango de tensión admitido antes de conectarla. El registro se retiró de contradictions.",
+      "reason": "La comparación con la tensión nominal de red no es una discrepancia entre dos documentos del modelo; se conserva como advertencia para verificar la tolerancia de la unidad.",
+      "source": "https://lusqtoff.com.ar/ver-producto/SML120-8DK"
+    },
+    {
+      "id": 42,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-24-oilfree",
+      "field_affected": "identidad_modelo:discrepancia",
+      "old_value": "823124; BTA 24 L Oil-Free Silent; 120 L/min (registro sin fuente recuperada)",
+      "new_value": "BTA actual 272005 / CSA-24-1; 24 L; 2 HP; admisión 170 L/min; no se establece equivalencia con 823124",
+      "reason": "La ficha oficial actual de 24 L muestra código 272005 y modelo CSA-24-1, con 170 L/min de admisión. No coincide el código ni el modelo con 823124; se conserva el registro anterior como no corroborado hasta identificar su versión. Fuente anterior declarada: https://www.btatools.com.ar/productos/compresores . Fuente oficial actual consultada el 16/10/2026: ficha BTA CSA-24-1.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite"
+    },
+    {
+      "id": 41,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-50-litros",
+      "field_affected": "velocidad",
+      "old_value": "Sin observación separada",
+      "new_value": "2850 RPM",
+      "reason": "Se añade la observación separada que publica la ficha oficial para el modelo D-CA2-50-6.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+      "id": 40,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-50-litros",
+      "field_affected": "presion_maxima",
+      "old_value": "8 bar",
+      "new_value": "8 bar (0,8 MPa)",
+      "reason": "La ficha oficial BTA del 272057.2 declara presión máxima de 8 Bar (0,8 MPa).",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+      "id": 39,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-50-litros",
+      "field_affected": "caudal_admision",
+      "old_value": "195 L/min aspirado",
+      "new_value": "206 L/min; admisión de aire, no indica salida a presión de trabajo",
+      "reason": "La ficha BTA del código 272057.2 declara «Admisión De Aire 206 L/min», igual que la ficha del 25 L. No publica FAD ni caudal de salida a presión de trabajo.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+      "id": 38,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-50-litros",
+      "field_affected": "potencia_motor",
+      "old_value": "2,5 HP",
+      "new_value": "1,5 kW (2,0 HP)",
+      "reason": "La ficha oficial del 272057.2 / D-CA2-50-6 declara 1,5 kW (2,0 HP).",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+      "id": 37,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-50-litros",
+      "field_affected": "codigo_modelo",
+      "old_value": "823150",
+      "new_value": "272057.2 / D-CA2-50-6",
+      "reason": "La ficha oficial BTA identifica el equipo de 50 L por el código 272057.2 y el modelo D-CA2-50-6. La semilla citaba una página genérica que el archivo documental registra como no recuperada; no hay respaldo conservado para 823150.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+      "id": 36,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-25-litros",
+      "field_affected": "velocidad",
+      "old_value": "Sin observación separada",
+      "new_value": "2850 RPM",
+      "reason": "Se añade la observación separada que publica la ficha oficial para el modelo D-CA1-25-6.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+      "id": 35,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-25-litros",
+      "field_affected": "presion_maxima",
+      "old_value": "8 bar (115 PSI)",
+      "new_value": "8 bar (0,8 MPa)",
+      "reason": "La ficha oficial BTA del 272057.1 declara presión máxima de 8 Bar (0,8 MPa).",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+      "id": 34,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-25-litros",
+      "field_affected": "caudal_admision",
+      "old_value": "145 L/min aspirado",
+      "new_value": "206 L/min; admisión de aire, no indica salida a presión de trabajo",
+      "reason": "La ficha BTA del código 272057.1 declara «Admisión De Aire 206 L/min». No publica FAD ni caudal de salida a presión de trabajo.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+      "id": 33,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-25-litros",
+      "field_affected": "potencia_motor",
+      "old_value": "2,0 HP (1500 W)",
+      "new_value": "1,5 kW (2,0 HP)",
+      "reason": "La ficha oficial del 272057.1 / D-CA1-25-6 declara 1,5 kW (2,0 HP).",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+      "id": 32,
+      "correction_date": "2026-10-16",
+      "tool_slug": "bta-25-litros",
+      "field_affected": "codigo_modelo",
+      "old_value": "823125",
+      "new_value": "272057.1 / D-CA1-25-6",
+      "reason": "La ficha oficial BTA consultada identifica el equipo de 25 L por el código 272057.1 y el modelo D-CA1-25-6. El registro de semilla citaba una página genérica de compresores que el archivo documental registra como no recuperada; no hay respaldo conservado para 823125.",
+      "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
       "id": 31,
       "correction_date": "2026-10-05",
       "tool_slug": "lusqtoff-tbl710-9d",
@@ -16301,27 +16463,7 @@
       "new_value": "2,5 HP en manual / 2,0 HP en web oficial (estado contradictorio)",
       "reason": "Auditoría documental reveló discrepancia entre manual oficial de servicio y folleto de producto. Se preservan ambas fuentes sin suposición.",
       "source": "Manual Gamma G2802AR pág. 2 y web oficial gammaherramientas.com.ar"
-    },
-    {
-      "id": 32,
-      "correction_date": "2026-10-16",
-      "tool_slug": "lusqtoff-sml120-8dk",
-      "field_affected": "contradictions / limits_and_warnings",
-      "old_value": "[{\"spec_key\":\"tension_alimentacion\",\"field_name\":\"Tensión de red especificada\",\"source_a_name\":\"Ficha web Lüsqtoff SML120-8DK\",\"source_a_value\":\"200 V - 50 Hz\",\"source_a_url\":\"https://lusqtoff.com.ar/ver-producto/SML120-8DK\",\"source_b_name\":\"Estándar IRAM red eléctrica argentina\",\"source_b_value\":\"220 V - 50 Hz\",\"source_b_url\":\"https://www.enre.gov.ar\",\"editorial_note\":\"La ficha declara textualmente 200 V. Confirmar placa metálica de la máquina antes de operar para certificar rango de tolerancia de entrada.\"}]",
-      "new_value": "Advertencia: la ficha oficial declara 200 V - 50 Hz; confirmar en la placa de la unidad el rango de tensión admitido antes de conectarla. El registro se retiró de contradictions.",
-      "reason": "La comparación con la tensión nominal de red no es una discrepancia entre dos documentos del modelo; se conserva como advertencia para verificar la tolerancia de la unidad.",
-      "source": "https://lusqtoff.com.ar/ver-producto/SML120-8DK"
-    },
-    {
-      "id": 33,
-      "correction_date": "2026-10-16",
-      "tool_slug": "skil-9002ar",
-      "field_affected": "contradictions.editorial_note",
-      "old_value": "Conservamos ambas fuentes oficiales documentadas; la versión actual comercializada en Argentina declara 700 W en placa metálica.",
-      "new_value": "Conservamos ambas fuentes oficiales; confirmá la potencia en la placa de la unidad.",
-      "reason": "No se encontró en el repositorio una foto ni una fuente que respalde qué declara la placa de la versión comercializada en Argentina; se conserva la discrepancia entre ambos manuales oficiales sin afirmar el dato de una unidad física.",
-      "source": "https://cdn.homedepot.com.mx/productos/704443/704443-m.pdf; https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf"
     }
   ],
-  "version": "6eac92c97ac11bbb72c415a3bce08d76d02c58f01259503f82f237a2e136f8ab"
+  "version": "683c9b2e23394830646f0905e07d242051c52d1ad4b50c489cd5b9eeafeff2d0"
 }

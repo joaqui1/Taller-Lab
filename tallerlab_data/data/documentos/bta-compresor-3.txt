@@ -1,0 +1,11 @@
+272005
+Compresor De Aire 24 Litros - 2.0 Hp - Portátil - Sin Aceite
+Modelo: CSA-24-1
+Tensión: 220 V~ 50 Hz
+Potencia: 1500 W (2.0 HP)
+Velocidad: 3750 RPM
+Admisión De Aire: 170 L/min
+Presión Máxima: 8 Bar (0,8 MPa)
+Tanque: 24 Litros
+Descripción: compresor de aire sin aceite
+Consulta: 16/10/2026
