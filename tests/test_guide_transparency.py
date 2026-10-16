@@ -4,6 +4,7 @@ import unittest
 from unittest.mock import patch
 
 import servidor_local as site
+import contenido_publico as public
 
 
 class TransparenciaDeGuiasTests(unittest.TestCase):
@@ -101,10 +102,58 @@ Conclusión editorial propia de esta guía.
         for url in ("/compresores/50-litros/", "/generadores/para-casa/", "/taladros/inalambricos/"):
             article = next(a for a in site.ALL_ARTICLES if a["url"] == url)
             html = site.render_article_page(article)
-            self.assertEqual(html.count("Podemos recibir una comisión si comprás desde estos enlaces."), 1, url)
-            note = html.index("Podemos recibir una comisión si comprás desde estos enlaces.")
-            buy = html.find('rel="nofollow sponsored', note)
+            body = html.split("<footer>", 1)[0]
+            self.assertEqual(body.count("Podemos recibir una comisión si comprás desde estos enlaces."), 1, url)
+            self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, url)
+            self.assertIn('href="/como-trabajamos/#afiliacion"', html)
+            note = body.index("Podemos recibir una comisión si comprás desde estos enlaces.")
+            buy = body.find('rel="nofollow sponsored', note)
             self.assertGreater(buy, note, url)
+
+    def test_pie_solo_avisa_en_paginas_con_enlaces_afiliados_y_cubre_rutas_auditadas(self):
+        compatibility_urls = (
+            "/plataformas/bosch-professional-18v/",
+            "/baterias/bosch-gba-18v-4-0ah-1600z00038/",
+            "/herramientas-bateria/bosch-gws-18v-10-p-06019j41e0/",
+            "/compatibilidad/1600z00038-con-06019g3f0b/",
+        )
+        for url in compatibility_urls:
+            with self.subTest(url=url):
+                html = site.render_compatibility_page(url)
+                self.assertTrue(public._tiene_enlace_afiliado_publicado(html), url)
+                self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, url)
+                self.assertIn('href="/como-trabajamos/#afiliacion"', html)
+
+        for section in ("amoladoras", "soldadoras"):
+            with self.subTest(url=f"/{section}/"):
+                html = site.render_category_page(section)
+                self.assertTrue(public._tiene_enlace_afiliado_publicado(html), section)
+                self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, section)
+
+        for url in ("/compresores/para-pintar/", "/hidrolavadoras/comparativa-general/"):
+            with self.subTest(url=url):
+                article = next(a for a in site.ALL_ARTICLES if a["url"] == url)
+                html = site.render_article_page(article)
+                self.assertTrue(public._tiene_enlace_afiliado_publicado(html), url)
+                self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, url)
+
+    def test_pie_no_muestra_aviso_sin_enlace_afiliado_y_el_cuerpo_no_duplica(self):
+        html = site.HTML_SHELL.format(
+            PAGE_TITLE="Página de prueba", CANONICAL_TAG="", PAGE_DESC="Página sin enlaces afiliados",
+            PORT=site.PORT, CONTENT='<a href="https://www.mercadolibre.com.ar/">Búsqueda general</a>', LOGO_SRC=site.LOGO_SRC,
+        )
+        self.assertFalse(public._tiene_enlace_afiliado_publicado(html))
+        self.assertNotIn('class="footer-affiliate-disclosure"', html)
+
+        article = next(a for a in site.ALL_ARTICLES if a["url"] == "/compresores/50-litros/")
+        rendered = site.render_article_page(article)
+        body = rendered.split("<footer>", 1)[0]
+        self.assertLessEqual(body.count("Podemos recibir una comisión si comprás desde estos enlaces."), 1)
+        self.assertEqual(rendered.count('class="footer-affiliate-disclosure"'), 1)
+
+    def test_destino_del_aviso_tiene_ancla_afiliacion(self):
+        html = site.render_editorial_page("metodologia")
+        self.assertIn('<h2 id="afiliacion">', html)
 
     def test_veredictos_se_parsean_desde_frontmatter_yaml(self):
         frontmatter = '''---

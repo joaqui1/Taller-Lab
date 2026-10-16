@@ -3074,7 +3074,13 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
         ) + '</dl>')
         if extra:
             members_html = '<section class="markdown-body">' + "".join(extra) + '</section>' + members_html
-    content = f'<div class="article-container"><div class="article-header">{author_photo_html}<h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{MARKDOWN.render(body)}</div>{members_html}</div>'
+    rendered_body = MARKDOWN.render(body)
+    if kind == "metodologia":
+        rendered_body = rendered_body.replace(
+            "<h2>Afiliación y correcciones</h2>",
+            '<h2 id="afiliacion">Afiliación y correcciones</h2>',
+        )
+    content = f'<div class="article-container"><div class="article-header">{author_photo_html}<h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{rendered_body}</div>{members_html}</div>'
     schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps(author_profile_page_schema(), ensure_ascii=False).replace("<", "\\u003c") + '</script>'
     return HTML_SHELL.format(PAGE_TITLE=title, CANONICAL_TAG=canonical_tag(path) + schema, PAGE_DESC=desc, PORT=PORT, CONTENT=content, LOGO_SRC=LOGO_SRC)
 

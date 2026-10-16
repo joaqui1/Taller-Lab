@@ -15,6 +15,14 @@ def es_enlace_afiliado(url):
         return False
 
 
+def _antes_del_pie(html, fragmento):
+    """Inserta en el pie del sitio: el último </footer>, no los <footer> internos del contenido."""
+    inicio, separador, fin = html.rpartition('</footer>')
+    if not separador:
+        return html
+    return f'{inicio}{fragmento}\n  </footer>{fin}'
+
+
 class _AtributosEnlace(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
@@ -113,6 +121,25 @@ def apply_community_nav(html):
     return html
 
 
+def _tiene_enlace_afiliado_publicado(html):
+    """Detecta enlaces patrocinados de Mercado Libre en el HTML final de una página."""
+    for match in re.finditer(r'<a\b[^>]*>', html, flags=re.I):
+        parser = _AtributosEnlace()
+        parser.feed(match.group(0))
+        attrs = getattr(parser, 'attrs', {})
+        href = attrs.get('href') or ''
+        rel = set((attrs.get('rel') or '').lower().split())
+        try:
+            host = urlsplit(href).hostname or ''
+        except ValueError:
+            continue
+        host = host.lower().rstrip('.')
+        mercado_libre = host == 'meli.la' or host == 'mercadolibre.com.ar' or host.endswith('.mercadolibre.com.ar')
+        if mercado_libre and 'sponsored' in rel:
+            return True
+    return False
+
+
 class PublicTemplate(str):
     def format(self, *args, **kwargs):
         for key in ('CONTENT','PAGE_DESC'):
@@ -123,15 +150,19 @@ class PublicTemplate(str):
         from publicaciones_autoridad import footer_authority_links
         authority_links = footer_authority_links()
         if authority_links:
-            html = html.replace('</footer>', f'<p class="footer-authority-links">{authority_links}</p>\n  </footer>', 1)
+            html = _antes_del_pie(html, f'<p class="footer-authority-links">{authority_links}</p>')
         from servidor_local import REVIEWERS_PATH, public_reviewers
         if public_reviewers():
             reviewer_link = f'<p class="footer-reviewer-link"><a href="{REVIEWERS_PATH}">Equipo de revisión</a></p>'
-            html = html.replace('</footer>', reviewer_link + '\n  </footer>', 1)
+            html = _antes_del_pie(html, reviewer_link)
         from paginas_institucionales import contact_email
         email = contact_email()
         if email:
             address = escape(email)
             link = f'<p class="footer-email"><a href="mailto:{escape(email, quote=True)}">{address}</a></p>'
-            html = html.replace('</footer>', link + '\n  </footer>', 1)
+            html = _antes_del_pie(html, link)
+        if _tiene_enlace_afiliado_publicado(html) and 'class="footer-affiliate-disclosure"' not in html:
+            disclosure = ('<p class="footer-affiliate-disclosure">Podemos recibir una comisión si comprás desde estos enlaces. '
+                          '<a href="/como-trabajamos/#afiliacion">Cómo funciona la afiliación</a>.</p>')
+            html = _antes_del_pie(html, disclosure)
         return html
