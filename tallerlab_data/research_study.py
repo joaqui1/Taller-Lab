@@ -6,6 +6,7 @@ import json
 from typing import Any, Dict, List
 from tallerlab_data.storage import list_tools
 from tallerlab_data.quality import usable_spec, latest_verified_offer
+from tallerlab_data.selection import family
 import re
 
 
@@ -104,7 +105,7 @@ def generate_research_study_metrics() -> Dict[str, Any]:
                 hidro_solo_max_slugs.append(t.slug)
 
         # Detección de rotomartillos electroneumáticos y cumplimiento EPTA
-        if t.category == "taladros" and ("rotomartillo" in t.commercial_name.lower() or "gbh" in t.slug or "dch" in t.slug or t.slug.startswith("makita-hr")):
+        if family(t) == "rotomartillo":
             rotary_hammers_total += 1
             epta_found = has_epta_energy(t)
             if epta_found:

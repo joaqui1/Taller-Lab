@@ -21,6 +21,7 @@ from tallerlab_data.pipeline import (
 )
 from tallerlab_data.comparator import analyze_spec_comparability, compare_tools
 from tallerlab_data.storage import get_tool, list_tools, TOOL_SLUGS_ALIAS_MAP
+from tallerlab_data.selection import family
 from tallerlab_data.guide_links import GUIDE_TOOL_MAPPINGS
 from tallerlab_data.research_study import generate_research_study_metrics, get_research_study_data
 
@@ -175,6 +176,7 @@ class TestTallerLabDataCore(unittest.TestCase):
         self.assertEqual(metrics["compresores_sin_fad_count"], len(metrics["compresores_sin_fad_slugs"]))
         self.assertEqual(metrics["hidro_solo_max_count"], len(metrics["hidro_solo_max_slugs"]))
         self.assertEqual(metrics["contradictions_count"], len(metrics["contradictions_slugs"]))
+        self.assertEqual(metrics["rotary_hammers_total"], sum(family(tool) == "rotomartillo" for tool in list_tools()))
 
         # Verificar consistencia matemática de porcentajes
         self.assertAlmostEqual(metrics["pct_compresores_solo_teorico"], round(metrics["compresores_sin_fad_count"] / metrics["compresores_total"] * 100, 1))
