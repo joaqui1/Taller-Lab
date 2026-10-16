@@ -5990,12 +5990,12 @@
     }
   },
   "run": {
-    "started_at": "2026-10-16T08:31:04.515059+00:00",
-    "finished_at": "2026-10-16T08:33:12.478128+00:00",
+    "started_at": "2026-10-16T12:20:58.970326+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-10-16T12:20:58.972551+00:00"
   }
 }
