@@ -14795,7 +14795,7 @@
         {
           "code": "CIDLI20668-4",
           "market": "Argentina",
-          "voltage_frequency": "20 V CC",
+          "voltage_frequency": "20V (IRAM Plug)",
           "plug_type": "Ingco 20V",
           "notes": "Brushless"
         }
@@ -14803,13 +14803,12 @@
       "kits": [
         {
           "kit_code": "CIDLI20668-4-KIT",
-          "description": "Kit anunciado con 2 baterías, cargador y accesorios; Ah y códigos de batería sin confirmar",
-          "battery_included": "2 baterías 20 V anunciadas (Ah sin confirmar)",
-          "charger_included": "Cargador anunciado (tensión sin confirmar)",
+          "description": "Kit oficial: 2 baterías FBLI20011 de 2,0 Ah y 1 cargador FCLI2001-4. La ficha indica 220–240 V~ 50/60 Hz para el cargador y “20V (IRAM Plug)”.",
+          "battery_included": "2 × FBLI20011 · 2,0 Ah cada una",
+          "charger_included": "1 × FCLI2001-4 · 220–240 V~ 50/60 Hz",
           "accessories": [
-            "2 baterías anunciadas",
-            "Cargador",
-            "Accesorios"
+            "2 baterías FBLI20011 de 2,0 Ah",
+            "1 cargador FCLI2001-4"
           ]
         }
       ],
@@ -14831,17 +14830,19 @@
       ],
       "contradictions": [],
       "limits_and_warnings": [
-        "Las especificaciones declaradas no acreditan rendimiento, durabilidad ni resultados de ensayo propios.",
-        "Confirmá alimentación, código de producto, accesorios y requisitos de instalación en el manual de tu unidad. Los registros históricos de variantes y kits no certifican esa correspondencia.",
-        "Las referencias excluidas por falta de respaldo no se utilizan para establecer equivalencias numéricas."
+        "La ficha oficial argentina no explica el significado del sufijo -4."
       ],
       "primary_sources": [
+        {
+          "label": "Ficha oficial INGCO Argentina CIDLI20668-4 (consultada el 16/10/2026)",
+          "url": "https://ar.ingco.com/product/compact-brushless-cordless-impact-drill/CIDLI20668-4"
+        },
         {
           "label": "Comercio Super Tools Bangladesh · modelo base CIDLI20668 (no es ficha del fabricante)",
           "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"
         }
       ],
-      "last_reviewed": "2026-10-05",
+      "last_reviewed": "2026-10-16",
       "status": "aceptado"
     },
     {
@@ -16463,7 +16464,19 @@
       "new_value": "2,5 HP en manual / 2,0 HP en web oficial (estado contradictorio)",
       "reason": "Auditoría documental reveló discrepancia entre manual oficial de servicio y folleto de producto. Se preservan ambas fuentes sin suposición.",
       "source": "Manual Gamma G2802AR pág. 2 y web oficial gammaherramientas.com.ar"
+    },
+    {
+      "id": 45,
+      "correction_date": "2026-10-16",
+      "tool_slug": "ingco-cidli20668-4",
+      "field_affected": "contenido_kit_baterias_cargador",
+      "old_value": "Kit anunciado con 2 baterías, cargador y accesorios; Ah y códigos de batería sin confirmar",
+      "new_value": "2 baterías FBLI20011 de 2,0 Ah y 1 cargador FCLI2001-4 (220–240 V~ 50/60 Hz; “20V (IRAM Plug)”)",
+      "reason": "La ficha oficial argentina consultada el 16/10/2026 resuelve los códigos y la capacidad de las baterías y los datos indicados del cargador. El significado del sufijo -4 sigue sin explicación en la fuente.",
+      "source": "https://ar.ingco.com/product/compact-brushless-cordless-impact-drill/CIDLI20668-4"
     }
   ],
-  "version": "683c9b2e23394830646f0905e07d242051c52d1ad4b50c489cd5b9eeafeff2d0"
+  "version": "800e85203d1d617c42ba614405ba691e2a0703501585e79cdde2e53fc0cb293f",
+  "edition_date": "2026-10-16",
+  "dateModified": "2026-10-16"
 }

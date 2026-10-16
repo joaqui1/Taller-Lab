@@ -468,12 +468,12 @@ TALADROS_TOOLS = [
             "capacidad_mandril": make_spec("capacidad_mandril", "Mandril metálico", "13 mm (1/2\")", "mm", 13.0, "mm", "Metálico autoajustable · Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante", "CIDLI20668-4", "Comercio Super Tools Bangladesh (modelo base CIDLI20668)", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
             "velocidad_vacio": make_spec("velocidad_vacio", "Velocidad sin carga", "0–500 / 0–2.000 rpm", "rpm", 2000.0, "rpm", "2 velocidades · Declarado por un comercio para el modelo base CIDLI20668; no es documentación del fabricante", "CIDLI20668-4", "Comercio Super Tools Bangladesh (modelo base CIDLI20668)", "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/", "pág. 1", "declarado"),
         },
-        variants=[RegionalVariant("CIDLI20668-4", "Argentina", "20 V CC", "Ingco 20V", "Brushless")],
-        kits=[KitOption("CIDLI20668-4-KIT", "Kit anunciado con 2 baterías, cargador y accesorios; Ah y códigos de batería sin confirmar", "2 baterías 20 V anunciadas (Ah sin confirmar)", "Cargador anunciado (tensión sin confirmar)", ["2 baterías anunciadas", "Cargador", "Accesorios"])],
+        variants=[RegionalVariant("CIDLI20668-4", "Argentina", "20V (IRAM Plug)", "Ingco 20V", "Brushless")],
+        kits=[KitOption("CIDLI20668-4-KIT", "Kit oficial: 2 baterías FBLI20011 de 2,0 Ah y 1 cargador FCLI2001-4. La ficha indica carga 220–240 V~ 50/60 Hz y ‘20V (IRAM Plug)’.", "2 × FBLI20011 · 2,0 Ah cada una", "1 × FCLI2001-4 · 220–240 V~ 50/60 Hz", ["2 baterías FBLI20011 de 2,0 Ah", "1 cargador FCLI2001-4"])],
         commercial_offers=[CommercialOffer("Distribuidor Ingco", "Mercado Libre", "https://meli.la/2xvJRJp", 265000.0, "2026-10-01", "nuevo", "pendiente_relevamiento")],
         contradictions=[],
-        limits_and_warnings=["Los datos provienen de un comercio que publica el modelo base CIDLI20668; no se confirmó la equivalencia con el sufijo -4 ni el contenido del kit."],
-        primary_sources=[{"label": "Comercio Super Tools Bangladesh · modelo base CIDLI20668 (no es ficha del fabricante)", "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"}],
-        last_reviewed="2026-10-01"
+        limits_and_warnings=["La ficha oficial argentina no explica el significado del sufijo -4."],
+        primary_sources=[{"label": "Ficha oficial INGCO Argentina CIDLI20668-4 (consultada el 16/10/2026)", "url": "https://ar.ingco.com/product/compact-brushless-cordless-impact-drill/CIDLI20668-4"}, {"label": "Comercio Super Tools Bangladesh · modelo base CIDLI20668 (no es ficha del fabricante)", "url": "https://supertoolsbd.com/product/ingco-20v-brushless-impact-drill-66nm/"}],
+        last_reviewed="2026-10-16"
     )
 ]

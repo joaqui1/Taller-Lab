@@ -565,7 +565,7 @@
   "ingco-cidli20668-4": {
     "summary": "Taladro percutor de 20V con motor Brushless de 66 Nm de torque y mandril metálico.",
     "limits_and_warnings": [
-      "Sufijo -4 difiere del -3 en la electrónica del gatillo y configuración del cargador; no tratar como intercambiables."
+      "La ficha oficial argentina consultada el 16/10/2026 confirma 2 baterías FBLI20011 de 2,0 Ah y 1 cargador FCLI2001-4 (220–240 V~ 50/60 Hz); no explica el significado del sufijo -4."
     ]
   },
   "lusqtoff-tbl16-7": {

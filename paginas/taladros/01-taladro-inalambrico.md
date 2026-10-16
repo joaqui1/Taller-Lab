@@ -13,7 +13,7 @@ buyer_opinions: "no"
 primary_sources: "sí"
 information_asset: "Matriz de elección y criterios para comparar taladros inalámbricos"
 asset_status: "verificado"
-reviewed: "28/09/2026"
+reviewed: "16/10/2026"
 published: true
 ---
 
@@ -87,19 +87,19 @@ Los **Ah** indican capacidad eléctrica de la batería, no el torque de la herra
 
 ### Ejemplo comercial: kit Ingco anunciado
 
-Una publicación argentina ofrece el Ingco CIDLI20668-4 como taladro percutor de 20 V, 66 Nm y mandril de 13 mm, con dos baterías, cargador y accesorios. Es una referencia para revisar qué declara un kit, no una recomendación general ni una ficha verificada de todos sus componentes.
+La ficha oficial argentina del Ingco CIDLI20668-4 especifica un kit con **2 baterías FBLI20011 de 2,0 Ah** y **1 cargador FCLI2001-4**. Para el cargador indica entrada de **220–240 V~ 50/60 Hz** y la leyenda **“20V (IRAM Plug)”**. La ficha no explica qué significa el sufijo “-4”; ese punto sigue pendiente. La publicación comercial puede incluir otros accesorios: revisá la lista de contenido de la oferta concreta.
 
-[Ver precio publicado del kit Ingco CIDLI20668-4](https://meli.la/2xvJRJp){:target="_blank" rel="sponsored noopener"} y compará el contenido y la garantía con la ficha y el manual del código exacto antes de decidir.
+[Ver precio publicado del kit Ingco CIDLI20668-4](https://meli.la/2xvJRJp){:target="_blank" rel="nofollow sponsored noopener noreferrer"} y compará los accesorios y la garantía con la publicación vigente antes de decidir.
 
 ### Límites de esta comparación
 
-La tabla Bosch/Einhell/Black+Decker reúne especificaciones publicadas por cada fabricante; no se midieron autonomía, rendimiento bajo carga, vibración ni durabilidad en una prueba común. El anuncio del kit Ingco no confirma por sí solo los Ah, códigos de batería o contenido de todas las unidades. La configuración, disponibilidad, precio y garantía pueden variar según código de pedido y vendedor: verificá esos datos en la oferta vigente.
+La tabla Bosch/Einhell/Black+Decker reúne especificaciones publicadas por cada fabricante; no se midieron autonomía, rendimiento bajo carga, vibración ni durabilidad en una prueba común. La ficha oficial de INGCO resuelve los códigos y la capacidad de las baterías y el modelo del cargador para el CIDLI20668-4; no explica el significado del sufijo. La configuración de accesorios, disponibilidad, precio y garantía pueden variar según vendedor: verificá esos datos en la oferta vigente.
 
 *Algunos enlaces de compra pueden generar una comisión para TallerLab, sin costo adicional para vos.*
 
 ## Fuentes consultadas
 
-- **Documentación primaria:** [Bosch GSR 120-LI](https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0); [manual técnico Einhell TE-CD 18/40 Li](https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_qv8gbkvg3h41l3lg9j0rh59j64/4257239_21023_002_SPK7-1.pdf); [manual BLACK+DECKER LD120](https://support.blackanddecker.com/hc/es/article_attachments/115004285093); [plataforma Power X-Change de Einhell](https://www.einhell.com/sustainability/); [modelo Ingco CIDLI20668](https://www.ingco.com/in/product/compact-brushless-cordless-impact-drill/CIDLI20668); [publicación argentina del kit Ingco](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463).
+- **Documentación primaria:** [Bosch GSR 120-LI](https://www.bosch-professional.com/ec/es/products/gsr-120-li-06019G80G0); [manual técnico Einhell TE-CD 18/40 Li](https://d2c5rvsfjg2eub.cloudfront.net/asset/208244749100/document_qv8gbkvg3h41l3lg9j0rh59j64/4257239_21023_002_SPK7-1.pdf); [manual BLACK+DECKER LD120](https://support.blackanddecker.com/hc/es/article_attachments/115004285093); [plataforma Power X-Change de Einhell](https://www.einhell.com/sustainability/); [ficha oficial INGCO Argentina CIDLI20668-4 (consultada el 16/10/2026)](https://ar.ingco.com/product/compact-brushless-cordless-impact-drill/CIDLI20668-4); [publicación argentina del kit Ingco](https://www.mercadolibre.com.ar/atornillador-taladro-percutor-2-bateriasaccesorios-color-naranja-frecuencia-0/p/MLA42241463).
 - **Opiniones:** no se revisó una muestra verificable.
 
 [Ver todas las guías de taladros](/taladros/).
