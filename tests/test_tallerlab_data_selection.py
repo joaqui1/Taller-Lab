@@ -39,7 +39,10 @@ class SelectionChecks(unittest.TestCase):
             altered = copy.deepcopy(tool)
             altered.mpn += '-OTHER'
             self.assertIsNone(affiliate_for(altered))
-        self.assertEqual(render_affiliate_options([get_tool('makita-dmp180')]), '')
+        makita_options = render_affiliate_options([get_tool('makita-dmp180')])
+        self.assertIn('https://meli.la/2uRPKYD', makita_options)
+        self.assertIn('rel="sponsored nofollow noopener"', makita_options)
+        self.assertIn(DISCLOSURE, makita_options)
         html = render_affiliate_options([get_tool('ingco-cidli20668-4')])
         self.assertIn('rel="sponsored nofollow noopener"', html)
         self.assertIn(DISCLOSURE, html)
@@ -51,7 +54,7 @@ class SelectionChecks(unittest.TestCase):
         self.assertIn('rel="sponsored nofollow noopener"', html)
         self.assertIn('data-affiliate-placement="tallerlab-data"', html)
         self.assertIn(DISCLOSURE, html)
-        self.assertNotIn('https://meli.la/', render_tool_detail_page(get_tool('makita-dmp180')))
+        self.assertIn('https://meli.la/2uRPKYD', render_tool_detail_page(get_tool('makita-dmp180')))
 
         from servidor_local import validate_affiliate_click
         event = validate_affiliate_click({

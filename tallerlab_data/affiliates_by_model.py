@@ -59,6 +59,13 @@ def _source_records(tools):
 
     hits = defaultdict(lambda: defaultdict(set))
     tools_by_slug = {tool["slug"]: tool for tool in tools}
+    context_candidates = []
+
+    # La oferta anidada en una ficha tiene una asociación directa con ese
+    # registro; no se buscan coincidencias por categoría o familia.
+    for tool in tools:
+        for offer in tool.get("commercial_offers", []):
+            _add(hits, tools_by_slug, tool, offer.get("url"), "catalog_snapshot.commercial_offers")
 
     # Datos de producto ya revisados que acompañan las opciones de las guías.
     import servidor_local as server
@@ -121,12 +128,29 @@ def _source_records(tools):
             block = card.group(0)
             title_match = re.search(r"<h3\b[^>]*>(.*?)</h3>", block, re.IGNORECASE | re.DOTALL)
             title = HTML_TAG.sub(" ", title_match.group(1) if title_match else block)
-            for match in re.finditer(r"https://meli\.la/[A-Za-z0-9]+", block):
+            links = list(re.finditer(r"https://meli\.la/[A-Za-z0-9]+", block))
+            for match in links:
                 for tool in tools:
                     identity = title + " " + block[:match.start()]
                     if (_has_brand(identity, tool.get("brand", ""))
                             and _contains_identifier(identity, tool.get("mpn", ""))):
                         _add(hits, tools_by_slug, tool, match.group(0), "Markdown:" + path.relative_to(ROOT).as_posix())
+
+            # Si el modelo se reconoce en el título pero no aparece su MPN,
+            # guardar el enlace como candidato manual, nunca como asociación.
+            for tool in tools:
+                slug_model = normalize(tool.get("slug", "").split("-", 1)[-1])
+                if (slug_model and _has_brand(title, tool.get("brand", ""))
+                        and slug_model in normalize(title)
+                        and not _contains_identifier(block, tool.get("mpn", ""))):
+                    for match in links:
+                        context_candidates.append({
+                            "tool_slug": tool["slug"],
+                            "codigo": tool.get("mpn"),
+                            "candidato": match.group(0),
+                            "motivo": "El título coincide con el modelo, pero el contexto de la publicación no contiene el MPN exacto; requiere revisión y no se enlaza automáticamente.",
+                            "fuentes": ["Markdown:" + path.relative_to(ROOT).as_posix()],
+                        })
 
         remainder = HTML_CARD.sub("", body)
         for line in remainder.splitlines():
@@ -146,18 +170,22 @@ def _source_records(tools):
                     if exact_label or exact_row:
                         _add(hits, tools_by_slug, tool, match.group(2), "Markdown:" + path.relative_to(ROOT).as_posix())
 
-    return hits, CURATED_LINKS
+    context_candidates = [
+        candidate for candidate in context_candidates
+        if candidate["candidato"] not in hits.get(candidate["tool_slug"], {})
+    ]
+    return hits, CURATED_LINKS, context_candidates
 
 
 def build_files() -> tuple[dict, list]:
     """Construye modelo → enlace meli.la, con equivalencias exactas para cada ficha."""
     tools = _tools()
     tools_by_slug = {tool["slug"]: tool for tool in tools}
-    hits, curated = _source_records(tools)
+    hits, curated, context_candidates = _source_records(tools)
     equivalences, _equivalence_review = build_equivalences()
 
     chosen = {}
-    review = []
+    review = list(context_candidates)
     for slug, urls in sorted(hits.items()):
         tool = tools_by_slug[slug]
         exact_urls = sorted(urls)

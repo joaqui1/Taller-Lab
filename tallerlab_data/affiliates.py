@@ -19,6 +19,12 @@ LINKS = {
     'esab-handyarc-162i': ('0409616', 'https://meli.la/1mZhwNS', '/soldadoras/esab-handyarc-162i/'),
     'pektra-gpk980': ('GPK980', 'https://meli.la/2jcLSy1', '/generadores/chicos/'),
     'philco-ge-ph2500alp': ('GE-PH2500ALP', 'https://meli.la/1nUAUuv', '/generadores/a-nafta/'),
+    # Selecciones previas mantenidas al sumar ofertas exactas del catálogo.
+    'bosch-gws-850': ('06013775H0', 'https://meli.la/1hDoFyN', None),
+    'dewalt-dwe4120': ('DWE4120', 'https://meli.la/13LHGQm', None),
+    'dewalt-dcf887': ('DCF887B', 'https://meli.la/1hh4SkK', None),
+    'gamma-g2801ar': ('G2801AR', 'https://meli.la/1vR4xKe', None),
+    'lusqtoff-iron-250': ('IRON-250', 'https://meli.la/26R9o7z', None),
 }
 
 TABLE_PATH = Path(__file__).with_name("afiliados_por_modelo.json")

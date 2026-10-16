@@ -2,12 +2,48 @@
   "_instrucciones": "Revisar los candidatos antes de cambiar el enlace publicado. Los registros de este archivo no se enlazan automáticamente.",
   "candidates": [
     {
+      "tool_slug": "bosch-gws-850",
+      "codigo": "06013775H0",
+      "candidato": "https://meli.la/2BGWS850",
+      "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
+      "fuentes": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    {
+      "tool_slug": "dewalt-dcf887",
+      "codigo": "DCF887B",
+      "candidato": "https://meli.la/2DCF887",
+      "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
+      "fuentes": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    {
+      "tool_slug": "dewalt-dwe4120",
+      "codigo": "DWE4120",
+      "candidato": "https://meli.la/2DWE4120",
+      "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
+      "fuentes": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    {
       "tool_slug": "dowen-pagio-9993220-7",
       "codigo": "9993220.7",
       "candidato": "https://meli.la/11Nc9wu",
       "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
       "fuentes": [
         "AMOLADORA_CHOICES:/amoladoras/dowen-pagio/"
+      ]
+    },
+    {
+      "tool_slug": "einhell-te-cd-18-40",
+      "codigo": "4513887",
+      "candidato": "https://meli.la/2A1rX5b",
+      "motivo": "El título coincide con el modelo, pero el contexto de la publicación no contiene el MPN exacto; requiere revisión y no se enlaza automáticamente.",
+      "fuentes": [
+        "Markdown:paginas/taladros/12-taladro-inalambrico-einhell.md"
       ]
     },
     {
@@ -30,6 +66,24 @@
       "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
       "fuentes": [
         "AMOLADORA_CHOICES:/amoladoras/gamma/"
+      ]
+    },
+    {
+      "tool_slug": "gamma-g2801ar",
+      "codigo": "G2801AR",
+      "candidato": "https://meli.la/14tM2Xh",
+      "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
+      "fuentes": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    {
+      "tool_slug": "lusqtoff-iron-250",
+      "codigo": "IRON-250",
+      "candidato": "https://meli.la/2IRON250",
+      "motivo": "Hay otra publicación afiliada para el mismo código; se conserva solo la selección editorial existente.",
+      "fuentes": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     {

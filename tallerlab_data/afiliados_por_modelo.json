@@ -1,6 +1,149 @@
 {
   "schema_version": 1,
   "models": {
+    "bosch-gbh-180-li": {
+      "tool_slug": "bosch-gbh-180-li",
+      "tool_path": "/herramientas/bosch-gbh-180-li/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GBH 180-LI Brushless (18V)",
+      "mpn": "06119111E0",
+      "url": "https://meli.la/29WzeN7",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gbh-2-26-dre": {
+      "tool_slug": "bosch-gbh-2-26-dre",
+      "tool_path": "/herramientas/bosch-gbh-2-26-dre/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GBH 2-26 DRE Professional",
+      "mpn": "06112537H0",
+      "url": "https://meli.la/16mozwd",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gbh-220": {
+      "tool_slug": "bosch-gbh-220",
+      "tool_path": "/herramientas/bosch-gbh-220/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GBH 220 Professional (SDS Plus)",
+      "mpn": "06112A60H0",
+      "url": "https://meli.la/2cRLSJx",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gdr-120-li": {
+      "tool_slug": "bosch-gdr-120-li",
+      "tool_path": "/herramientas/bosch-gdr-120-li/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GDR 120-LI Impact Driver",
+      "mpn": "06019F00H0",
+      "url": "https://meli.la/2BGDR120",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-ghp-180": {
+      "tool_slug": "bosch-ghp-180",
+      "tool_path": "/herramientas/bosch-ghp-180/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GHP 180 Professional",
+      "mpn": "0600910CH0",
+      "url": "https://meli.la/1wNMwSL",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-ghp-200": {
+      "tool_slug": "bosch-ghp-200",
+      "tool_path": "/herramientas/bosch-ghp-200/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GHP 200 Professional",
+      "mpn": "0600910DH0",
+      "url": "https://meli.la/1zrcYor",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-ghp-220": {
+      "tool_slug": "bosch-ghp-220",
+      "tool_path": "/herramientas/bosch-ghp-220/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GHP 220 Professional",
+      "mpn": "0600910EH0",
+      "url": "https://meli.la/2BGHP220",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-ghp-4-50": {
+      "tool_slug": "bosch-ghp-4-50",
+      "tool_path": "/herramientas/bosch-ghp-4-50/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GHP 4-50 Professional",
+      "mpn": "0600910FH0",
+      "url": "https://meli.la/2BGHP450",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gsb-18v-50": {
+      "tool_slug": "bosch-gsb-18v-50",
+      "tool_path": "/herramientas/bosch-gsb-18v-50/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GSB 18V-50 Brushless",
+      "mpn": "06019H51E0",
+      "url": "https://meli.la/2GSB18V50",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gsb-550-re": {
+      "tool_slug": "bosch-gsb-550-re",
+      "tool_path": "/herramientas/bosch-gsb-550-re/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GSB 550 RE Professional",
+      "mpn": "06011A15H0",
+      "url": "https://meli.la/18iubWD",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-gws-25-180-lvi-r": {
+      "tool_slug": "bosch-gws-25-180-lvi-r",
+      "tool_path": "/herramientas/bosch-gws-25-180-lvi-r/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GWS 25-180 LVI R (180 mm)",
+      "mpn": "06018F71H1",
+      "url": "https://meli.la/2BGWS180",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
     "bosch-gws-25-230": {
       "tool_slug": "bosch-gws-25-230",
       "tool_path": "/herramientas/bosch-gws-25-230/",
@@ -11,7 +154,8 @@
       "url": "https://meli.la/24LpMmr",
       "guide_url": null,
       "sources": [
-        "Markdown:paginas/12-amoladora-de-9-pulgadas.md"
+        "Markdown:paginas/12-amoladora-de-9-pulgadas.md",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "bosch-gws-770": {
@@ -24,6 +168,7 @@
       "url": "https://meli.la/1GRCAjZ",
       "guide_url": "/amoladoras/bosch/",
       "sources": [
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -38,7 +183,125 @@
       "guide_url": null,
       "sources": [
         "AMOLADORA_CHOICES:/amoladoras/bosch/",
-        "Markdown:paginas/20-amoladora-115-o-125.md"
+        "Markdown:paginas/20-amoladora-115-o-125.md",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "bosch-gws-9-115-s": {
+      "tool_slug": "bosch-gws-9-115-s",
+      "tool_path": "/herramientas/bosch-gws-9-115-s/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "GWS 9-115 S Velocidad Variable",
+      "mpn": "0601396103",
+      "url": "https://meli.la/2BGWS9115S",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bosch-universalaquatak-36v-100": {
+      "tool_slug": "bosch-universalaquatak-36v-100",
+      "tool_path": "/herramientas/bosch-universalaquatak-36v-100/",
+      "price_path": null,
+      "brand": "Bosch",
+      "model": "UniversalAquatak 36V-100",
+      "mpn": "06008C7002",
+      "url": "https://meli.la/1YbCQgP",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bta-24-oilfree": {
+      "tool_slug": "bta-24-oilfree",
+      "tool_path": "/herramientas/bta-24-oilfree/",
+      "price_path": null,
+      "brand": "BTA",
+      "model": "BTA 24 Litros Oil-Free Silent",
+      "mpn": "823124",
+      "url": "https://meli.la/2kTMPof",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bta-25-litros": {
+      "tool_slug": "bta-25-litros",
+      "tool_path": "/herramientas/bta-25-litros/",
+      "price_path": null,
+      "brand": "BTA",
+      "model": "BTA D-CA1-25-6 (25 Litros)",
+      "mpn": "272057.1",
+      "url": "https://meli.la/14USeGB",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "bta-50-litros": {
+      "tool_slug": "bta-50-litros",
+      "tool_path": "/herramientas/bta-50-litros/",
+      "price_path": null,
+      "brand": "BTA",
+      "model": "BTA D-CA2-50-6 (50 Litros)",
+      "mpn": "272057.2",
+      "url": "https://meli.la/1nobM6T",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "comet-k-250-10-150": {
+      "tool_slug": "comet-k-250-10-150",
+      "tool_path": "/herramientas/comet-k-250-10-150/",
+      "price_path": null,
+      "brand": "Comet",
+      "model": "Comet K 250 10/150 Classic",
+      "mpn": "C2582AR",
+      "url": "https://meli.la/2COMET150",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "comet-k-250-13-190": {
+      "tool_slug": "comet-k-250-13-190",
+      "tool_path": "/herramientas/comet-k-250-13-190/",
+      "price_path": null,
+      "brand": "Comet",
+      "model": "Comet K 250 TSR 13/190 T Classic",
+      "mpn": "C2583AR",
+      "url": "https://meli.la/2COMET190",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "dewalt-d25333": {
+      "tool_slug": "dewalt-d25333",
+      "tool_path": "/herramientas/dewalt-d25333/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt D25333K SDS Plus 950W",
+      "mpn": "D25333K-QS",
+      "url": "https://meli.la/2D25333",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "dewalt-dcd776": {
+      "tool_slug": "dewalt-dcd776",
+      "tool_path": "/herramientas/dewalt-dcd776/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DCD776 Percutor 20V",
+      "mpn": "DCD776",
+      "url": "https://meli.la/2DCD776",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "dewalt-dcf887": {
@@ -53,7 +316,34 @@
       "sources": [
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/taladros/19-atornillador-de-impacto-dewalt.md",
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "dewalt-dcg412": {
+      "tool_slug": "dewalt-dcg412",
+      "tool_path": "/herramientas/dewalt-dcg412/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DCG412B Inalámbrica 20V",
+      "mpn": "DCG412B",
+      "url": "https://meli.la/2DCG412",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "dewalt-dch133": {
+      "tool_slug": "dewalt-dch133",
+      "tool_path": "/herramientas/dewalt-dch133/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DCH133B D-Handle 20V",
+      "mpn": "DCH133B",
+      "url": "https://meli.la/2DCH133",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "dewalt-dch273": {
@@ -68,7 +358,21 @@
       "sources": [
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/taladros/11-rotomartillo-dewalt.md",
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "dewalt-dwe4010": {
+      "tool_slug": "dewalt-dwe4010",
+      "tool_path": "/herramientas/dewalt-dwe4010/",
+      "price_path": null,
+      "brand": "DeWalt",
+      "model": "DeWalt DWE4010 (115 mm)",
+      "mpn": "DWE4010",
+      "url": "https://meli.la/2DWE4010",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "dewalt-dwe4120": {
@@ -81,7 +385,8 @@
       "url": "https://meli.la/13LHGQm",
       "guide_url": null,
       "sources": [
-        "AMOLADORA_CHOICES:/amoladoras/dewalt/"
+        "AMOLADORA_CHOICES:/amoladoras/dewalt/",
+        "tallerlab_data/affiliates.py"
       ]
     },
     "dowen-pagio-9993220-7": {
@@ -96,7 +401,125 @@
       "sources": [
         "AFFILIATE_PRODUCTS",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
+      ]
+    },
+    "einhell-pressito-18-21": {
+      "tool_slug": "einhell-pressito-18-21",
+      "tool_path": "/herramientas/einhell-pressito-18-21/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "Pressito 18/21 Inalámbrico",
+      "mpn": "4020467",
+      "url": "https://meli.la/1iNDq73",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-pressito-18-25": {
+      "tool_slug": "einhell-pressito-18-25",
+      "tool_path": "/herramientas/einhell-pressito-18-25/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "Pressito 18/25 Inalámbrico",
+      "mpn": "4020420",
+      "url": "https://meli.la/14u7fCt",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-te-ac-270-50-silent": {
+      "tool_slug": "einhell-te-ac-270-50-silent",
+      "tool_path": "/herramientas/einhell-te-ac-270-50-silent/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "TE-AC 270/50 Silent",
+      "mpn": "4010451",
+      "url": "https://meli.la/2EINH50S",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-te-ac-430-90-10": {
+      "tool_slug": "einhell-te-ac-430-90-10",
+      "tool_path": "/herramientas/einhell-te-ac-430-90-10/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "TE-AC 430/90/10 a Correa (90L)",
+      "mpn": "4010800",
+      "url": "https://meli.la/2EINH90",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-te-cd-18-40": {
+      "tool_slug": "einhell-te-cd-18-40",
+      "tool_path": "/herramientas/einhell-te-cd-18-40/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "TE-CD 18/40 Li Inalámbrico",
+      "mpn": "4513887",
+      "url": "https://meli.la/2EINHTECD",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-te-hd-18-li": {
+      "tool_slug": "einhell-te-hd-18-li",
+      "tool_path": "/herramientas/einhell-te-hd-18-li/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "TE-HD 18 Li SDS Plus (18V)",
+      "mpn": "4513812",
+      "url": "https://meli.la/2EINHTEHD",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "einhell-th-ac-240-24": {
+      "tool_slug": "einhell-th-ac-240-24",
+      "tool_path": "/herramientas/einhell-th-ac-240-24/",
+      "price_path": null,
+      "brand": "Einhell",
+      "model": "TH-AC 240/24 /1 OF",
+      "mpn": "4020515",
+      "url": "https://meli.la/2NsPCBP",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "esab-handyarc-132i": {
+      "tool_slug": "esab-handyarc-132i",
+      "tool_path": "/herramientas/esab-handyarc-132i/",
+      "price_path": null,
+      "brand": "ESAB",
+      "model": "HandyArc 132i Inverter MMA",
+      "mpn": "0409614",
+      "url": "https://meli.la/2ESAB132",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "esab-handyarc-142i": {
+      "tool_slug": "esab-handyarc-142i",
+      "tool_path": "/herramientas/esab-handyarc-142i/",
+      "price_path": null,
+      "brand": "ESAB",
+      "model": "HandyArc 142i Inverter MMA",
+      "mpn": "0409615",
+      "url": "https://meli.la/2ESAB142",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "esab-handyarc-162i": {
@@ -109,7 +532,21 @@
       "url": "https://meli.la/1mZhwNS",
       "guide_url": "/soldadoras/esab-handyarc-162i/",
       "sources": [
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
+      ]
+    },
+    "fengda-as-186": {
+      "tool_slug": "fengda-as-186",
+      "tool_path": "/herramientas/fengda-as-186/",
+      "price_path": null,
+      "brand": "Fengda",
+      "model": "AS-186 para Aerógrafo",
+      "mpn": "AS-186",
+      "url": "https://meli.la/2AERO186",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "gadnic-av37": {
@@ -124,7 +561,8 @@
       "sources": [
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/compresores/23-compresor-12v-doble-piston.md",
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "gamma-130-elite": {
@@ -138,7 +576,34 @@
       "guide_url": null,
       "sources": [
         "AFFILIATE_PRODUCTS",
-        "Markdown:paginas/hidrolavadoras/14-hidrolavadora-gamma-130.md"
+        "Markdown:paginas/hidrolavadoras/14-hidrolavadora-gamma-130.md",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "gamma-150-elite": {
+      "tool_slug": "gamma-150-elite",
+      "tool_path": "/herramientas/gamma-150-elite/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "150 Elite G2514AR",
+      "mpn": "G2514AR",
+      "url": "https://meli.la/2G150EL",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "gamma-elite-200": {
+      "tool_slug": "gamma-elite-200",
+      "tool_path": "/herramientas/gamma-elite-200/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "Gamma Elite 200 G2462AR",
+      "mpn": "G2462AR",
+      "url": "https://meli.la/2GELITE200",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "gamma-g1910kar": {
@@ -154,6 +619,7 @@
         "AFFILIATE_PRODUCTS",
         "AMOLADORA_CHOICES:/amoladoras/",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -169,7 +635,34 @@
       "sources": [
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/compresores/18-compresor-de-24-litros.md",
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "tallerlab_data/affiliates.py"
+      ]
+    },
+    "gamma-g2802ar": {
+      "tool_slug": "gamma-g2802ar",
+      "tool_path": "/herramientas/gamma-g2802ar/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "G2802AR (50 Litros)",
+      "mpn": "G2802AR",
+      "url": "https://meli.la/2802GMA",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "gamma-inverter-2kw": {
+      "tool_slug": "gamma-inverter-2kw",
+      "tool_path": "/herramientas/gamma-inverter-2kw/",
+      "price_path": null,
+      "brand": "Gamma",
+      "model": "Gamma Inverter 2 kW G2301AR",
+      "mpn": "G2301AR",
+      "url": "https://meli.la/1B4sjDN",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "honda-eg6500cxs": {
@@ -185,6 +678,7 @@
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/generadores/08-generadores-a-nafta.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "generadores-ofertas.json"
       ]
     },
@@ -204,6 +698,7 @@
         "Markdown:paginas/generadores/15-generadores-portatiles.md",
         "Markdown:paginas/generadores/16-generadores-silenciosos.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "generadores-ofertas.json"
       ]
     },
@@ -221,6 +716,7 @@
         "Markdown:paginas/generadores/06-generadores-inverter.md",
         "Markdown:paginas/generadores/15-generadores-portatiles.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "generadores-ofertas.json"
       ]
     },
@@ -237,7 +733,86 @@
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/taladros/01-taladro-inalambrico.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
+      ]
+    },
+    "karcher-k2-basic": {
+      "tool_slug": "karcher-k2-basic",
+      "tool_path": "/herramientas/karcher-k2-basic/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K2 Basic Car",
+      "mpn": "1.600-008.0",
+      "url": "https://meli.la/2izv76H",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "karcher-k3-black-edition": {
+      "tool_slug": "karcher-k3-black-edition",
+      "tool_path": "/herramientas/karcher-k3-black-edition/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K3 Black Edition",
+      "mpn": "9.398-355.0",
+      "url": "https://meli.la/1LYmDeG",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "karcher-k4-power-control": {
+      "tool_slug": "karcher-k4-power-control",
+      "tool_path": "/herramientas/karcher-k4-power-control/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K4 Power Control",
+      "mpn": "1.603-402.0",
+      "url": "https://meli.la/149NjG2",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "karcher-k4-standard": {
+      "tool_slug": "karcher-k4-standard",
+      "tool_path": "/herramientas/karcher-k4-standard/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K4 Standard 9.398-294.0",
+      "mpn": "9.398-294.0",
+      "url": "https://meli.la/2SvkJCm",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "karcher-k5-base": {
+      "tool_slug": "karcher-k5-base",
+      "tool_path": "/herramientas/karcher-k5-base/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K5 Standard 9.398-295.0",
+      "mpn": "9.398-295.0",
+      "url": "https://meli.la/2K5BASE",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "karcher-k5-power-control": {
+      "tool_slug": "karcher-k5-power-control",
+      "tool_path": "/herramientas/karcher-k5-power-control/",
+      "price_path": null,
+      "brand": "Kärcher",
+      "model": "K5 Power Control",
+      "mpn": "1.603-501.0",
+      "url": "https://meli.la/1wCKV4R",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "logus-hl-105": {
@@ -251,6 +826,7 @@
       "guide_url": "/hidrolavadoras/comparativa-general/",
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -265,6 +841,7 @@
       "guide_url": null,
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "hidrolavadoras-ofertas.json"
       ]
     },
@@ -279,6 +856,7 @@
       "guide_url": null,
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "hidrolavadoras-ofertas.json"
       ]
     },
@@ -293,7 +871,21 @@
       "guide_url": "/hidrolavadoras/lusqtoff/",
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
+      ]
+    },
+    "lusqtoff-hl100-8": {
+      "tool_slug": "lusqtoff-hl100-8",
+      "tool_path": "/herramientas/lusqtoff-hl100-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "HL100-8 (150 bar máx.)",
+      "mpn": "HL100-8",
+      "url": "https://meli.la/2HL1008",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-iron-100": {
@@ -307,6 +899,7 @@
       "guide_url": "/soldadoras/lusqtoff-iron-100/",
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -320,7 +913,8 @@
       "url": "https://meli.la/26R9o7z",
       "guide_url": null,
       "sources": [
-        "soldadoras-ofertas.json"
+        "soldadoras-ofertas.json",
+        "tallerlab_data/affiliates.py"
       ]
     },
     "lusqtoff-lc0122": {
@@ -333,7 +927,21 @@
       "url": "https://meli.la/19aFAKp",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "lusqtoff-lc2024b": {
+      "tool_slug": "lusqtoff-lc2024b",
+      "tool_path": "/herramientas/lusqtoff-lc2024b/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LC2024B (24 Litros)",
+      "mpn": "LC2024B",
+      "url": "https://meli.la/2024BLQ",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lc2550b-8": {
@@ -346,7 +954,8 @@
       "url": "https://meli.la/2dyFK5e",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lc2550vs": {
@@ -359,7 +968,8 @@
       "url": "https://meli.la/1Rjz39S",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lc30100": {
@@ -372,7 +982,21 @@
       "url": "https://meli.la/2r6QkaT",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "lusqtoff-lc30200-8": {
+      "tool_slug": "lusqtoff-lc30200-8",
+      "tool_path": "/herramientas/lusqtoff-lc30200-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LC30200-8 Monofásico (200 Litros)",
+      "mpn": "LC30200-8",
+      "url": "https://meli.la/2vfnWE7",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lc3550bk": {
@@ -385,7 +1009,8 @@
       "url": "https://meli.la/21xNVUN",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lc40100-8": {
@@ -398,7 +1023,21 @@
       "url": "https://meli.la/1GRiWbV",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "lusqtoff-lc40200-8": {
+      "tool_slug": "lusqtoff-lc40200-8",
+      "tool_path": "/herramientas/lusqtoff-lc40200-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "LC40200-8 Trifásico (200 Litros)",
+      "mpn": "LC40200-8",
+      "url": "https://meli.la/200TRIF",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lcs100-8": {
@@ -411,7 +1050,8 @@
       "url": "https://meli.la/21fBeVj",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-lcs50-8": {
@@ -424,7 +1064,21 @@
       "url": "https://meli.la/27nVFRy",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "lusqtoff-lgi3-8": {
+      "tool_slug": "lusqtoff-lgi3-8",
+      "tool_path": "/herramientas/lusqtoff-lgi3-8/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "Lüsqtoff LGI3.8-8 Inverter (3,8 kW)",
+      "mpn": "LGI3.8-8",
+      "url": "https://meli.la/2LGI38",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-mcl150-8": {
@@ -437,7 +1091,21 @@
       "url": "https://meli.la/2r8uZXD",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "lusqtoff-mig-195": {
+      "tool_slug": "lusqtoff-mig-195",
+      "tool_path": "/herramientas/lusqtoff-mig-195/",
+      "price_path": null,
+      "brand": "Lüsqtoff",
+      "model": "Lüsqtoff MIG-195 Con y Sin Gas",
+      "mpn": "MIG-195",
+      "url": "https://meli.la/2MIG195",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "lusqtoff-sml120-8dk": {
@@ -451,6 +1119,7 @@
       "guide_url": "/soldadoras/mig-lusqtoff/",
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -465,6 +1134,7 @@
       "guide_url": null,
       "sources": [
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "taladros-ofertas.json"
       ]
     },
@@ -478,7 +1148,99 @@
       "url": "https://meli.la/1MCEYGV",
       "guide_url": null,
       "sources": [
-        "PRODUCT_FACTS"
+        "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-dhp453": {
+      "tool_slug": "makita-dhp453",
+      "tool_path": "/herramientas/makita-dhp453/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita DHP453 18V LXT",
+      "mpn": "DHP453",
+      "url": "https://meli.la/2MDHP453",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-dmp180": {
+      "tool_slug": "makita-dmp180",
+      "tool_path": "/herramientas/makita-dmp180/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "DMP180 Inalámbrico 18V",
+      "mpn": "DMP180",
+      "url": "https://meli.la/2uRPKYD",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-ga4530": {
+      "tool_slug": "makita-ga4530",
+      "tool_path": "/herramientas/makita-ga4530/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita GA4530 (115 mm)",
+      "mpn": "GA4530",
+      "url": "https://meli.la/2MGA4530",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-gb801": {
+      "tool_slug": "makita-gb801",
+      "tool_path": "/herramientas/makita-gb801/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita GB801 de Banco (205 mm)",
+      "mpn": "GB801",
+      "url": "https://meli.la/2MGB801",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-hp333d": {
+      "tool_slug": "makita-hp333d",
+      "tool_path": "/herramientas/makita-hp333d/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita HP333D CXT 12V",
+      "mpn": "HP333D",
+      "url": "https://meli.la/2MHP333",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-hr2470": {
+      "tool_slug": "makita-hr2470",
+      "tool_path": "/herramientas/makita-hr2470/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita HR2470 SDS Plus (780W)",
+      "mpn": "HR2470",
+      "url": "https://meli.la/2MHR2470",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "makita-m0901": {
+      "tool_slug": "makita-m0901",
+      "tool_path": "/herramientas/makita-m0901/",
+      "price_path": null,
+      "brand": "Makita",
+      "model": "Makita MT M0901B (115 mm)",
+      "mpn": "M0901B",
+      "url": "https://meli.la/2MM0901",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     },
     "omaha-ab550161k": {
@@ -494,6 +1256,7 @@
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/taladros/04-taladro-de-banco.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
       ]
     },
@@ -510,6 +1273,7 @@
         "AFFILIATE_PRODUCTS",
         "Markdown:paginas/generadores/01-grupos-electrogenos.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "generadores-ofertas.json",
         "tallerlab_data/affiliates.py"
       ]
@@ -526,7 +1290,99 @@
       "sources": [
         "Markdown:paginas/generadores/01-grupos-electrogenos.md",
         "PRODUCT_FACTS",
+        "catalog_snapshot.commercial_offers",
         "tallerlab_data/affiliates.py"
+      ]
+    },
+    "skil-9002ar": {
+      "tool_slug": "skil-9002ar",
+      "tool_path": "/herramientas/skil-9002ar/",
+      "price_path": null,
+      "brand": "Skil",
+      "model": "Skil 9002AR (115 mm)",
+      "mpn": "9002AR",
+      "url": "https://meli.la/2SKIL9002",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stanley-sg7115": {
+      "tool_slug": "stanley-sg7115",
+      "tool_path": "/herramientas/stanley-sg7115/",
+      "price_path": null,
+      "brand": "Stanley",
+      "model": "Stanley SG7115 Small Angle (750W)",
+      "mpn": "SG7115",
+      "url": "https://meli.la/2STSG7115",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stihl-re-110": {
+      "tool_slug": "stihl-re-110",
+      "tool_path": "/herramientas/stihl-re-110/",
+      "price_path": null,
+      "brand": "STIHL",
+      "model": "STIHL RE 110",
+      "mpn": "49500114529",
+      "url": "https://meli.la/2SRE110",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stihl-re-120": {
+      "tool_slug": "stihl-re-120",
+      "tool_path": "/herramientas/stihl-re-120/",
+      "price_path": null,
+      "brand": "STIHL",
+      "model": "STIHL RE 120",
+      "mpn": "49500114532",
+      "url": "https://meli.la/2SRE120",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stihl-re-150": {
+      "tool_slug": "stihl-re-150",
+      "tool_path": "/herramientas/stihl-re-150/",
+      "price_path": null,
+      "brand": "STIHL",
+      "model": "STIHL RE 150 Semiprofesional",
+      "mpn": "49500114550",
+      "url": "https://meli.la/2SRE150",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stihl-re-80-x": {
+      "tool_slug": "stihl-re-80-x",
+      "tool_path": "/herramientas/stihl-re-80-x/",
+      "price_path": null,
+      "brand": "STIHL",
+      "model": "STIHL RE 80 X",
+      "mpn": "RE020114539",
+      "url": "https://meli.la/1wzSW2u",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
+      ]
+    },
+    "stihl-re-90": {
+      "tool_slug": "stihl-re-90",
+      "tool_path": "/herramientas/stihl-re-90/",
+      "price_path": null,
+      "brand": "STIHL",
+      "model": "STIHL RE 90",
+      "mpn": "RE020114544",
+      "url": "https://meli.la/2SRE90",
+      "guide_url": null,
+      "sources": [
+        "catalog_snapshot.commercial_offers"
       ]
     }
   }
