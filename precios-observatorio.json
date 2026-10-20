@@ -7926,12 +7926,12 @@
     }
   },
   "run": {
-    "started_at": "2026-10-20T08:53:19.867003+00:00",
-    "finished_at": "2026-10-20T08:55:26.607900+00:00",
+    "started_at": "2026-10-20T12:41:31.735527+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-10-20T12:41:31.738191+00:00"
   }
 }
