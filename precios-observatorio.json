@@ -8410,12 +8410,12 @@
     }
   },
   "run": {
-    "started_at": "2026-10-21T08:53:35.095032+00:00",
-    "finished_at": "2026-10-21T08:55:43.063493+00:00",
+    "started_at": "2026-10-21T12:53:58.546672+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-10-21T12:53:58.549360+00:00"
   }
 }
