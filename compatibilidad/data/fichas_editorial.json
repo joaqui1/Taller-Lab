@@ -152,7 +152,88 @@
         "archivo": "keywords_taladro.csv"
       }
     ],
-    "nota_cargadores_bosch": "No se encontraron consultas de cargador Bosch con los términos solicitados en los CSV revisados. Las FAQ de cargadores se apoyan en búsquedas relacionadas de batería Bosch 18V y se responden con documentación oficial."
+    "nota_cargadores_bosch": "No se encontraron consultas de cargador Bosch con los términos solicitados en los CSV revisados. Las FAQ de cargadores se apoyan en búsquedas relacionadas de batería Bosch 18V y se responden con documentación oficial.",
+    "dewalt": {
+      "metodologia": "Filas de Google Ads Keyword Planner de C:/Users/joaqu/Desktop/keywords que contienen DeWalt y términos de 20V, batería, cargador, kit o modelos exactos. Los volúmenes son agrupados; no representan ventas ni demanda por SKU.",
+      "volumen_google_ads": "Valores medios mensuales del Keyword Planner y correspondientes a consultas, no a modelos individuales.",
+      "consultas_google_ads": [
+        {
+          "id": "DEWALT-KW-01",
+          "consulta": "taladro dewalt 20v",
+          "volumen_mensual": 500,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-02",
+          "consulta": "atornillador dewalt 20v",
+          "volumen_mensual": 500,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-03",
+          "consulta": "taladros a bateria dewalt",
+          "volumen_mensual": 500,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-04",
+          "consulta": "bateria para taladro dewalt 20v",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-05",
+          "consulta": "taladro dewalt dcd796",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-06",
+          "consulta": "taladro dewalt dcd7781d2",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-07",
+          "consulta": "taladro dewalt sin bateria",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-08",
+          "consulta": "taladro dewalt dcb115",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-09",
+          "consulta": "precio de cargador de taladro dewalt",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-10",
+          "consulta": "atornillador de impacto dewalt dcf887",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-11",
+          "consulta": "kit taladro inalambrico dewalt 20v",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        },
+        {
+          "id": "DEWALT-KW-12",
+          "consulta": "taladro dewalt 20v max",
+          "volumen_mensual": 50,
+          "archivo": "keywords_taladro.csv"
+        }
+      ],
+      "semrush": "Los CSV de Semrush revisados no aportaron volumen comparable para los modelos seleccionados.",
+      "seleccion_modelos": "Ocho referencias del catálogo argentino y de ofertas locales: tres baterías, un cargador y cuatro herramientas. Se priorizaron taladro y atornillador DeWalt 20V (500 búsquedas/mes agrupadas), batería y modelos exactos, además de kit, sin batería y cargador (50). La presencia comercial no sustenta compatibilidad.",
+      "baterias_y_cargadores": "Consultas detectadas: batería para taladro DeWalt 20V (50), DeWalt DCB115 (50) y precio de cargador DeWalt (50)."
+    }
   },
   "fuentes": [
     { "id": "GAMMA-BAT-90", "titulo": "Batería multienergy 20V – 700W (G12490AR)", "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12490ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
@@ -366,6 +447,76 @@
       "id": "AMPSHARE",
       "titulo": "Bosch AMPShare, incompatibilidad con POWER FOR ALL 18V",
       "url": "https://www.bosch-professional.com/es/es/ampshare/",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-SYSTEM-20VMAX",
+      "titulo": "DEWALT: sistemas de herramientas inalámbricas 20V MAX",
+      "url": "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas",
+      "tipo": "catalogo_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCB201-B3",
+      "titulo": "DEWALT: batería DCB201-B3 20V MAX 1,5 Ah",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcb201-b3/bateria-de-ion-de-litio-20v-max-de-15-ah",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCB204-B3",
+      "titulo": "DEWALT: batería DCB204-B3 20V MAX XR 4,0 Ah",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcb204-b3/bateria-de-ion-de-litio-20v-max-xr-de-40-ah",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCBP520-B3",
+      "titulo": "DEWALT: batería POWERSTACK DCBP520-B3 20V MAX 5,0 Ah",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcbp520-b3/bateria-dewalt-20v-max-powerstack-50ah",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCB115-AR",
+      "titulo": "DEWALT: cargador DCB115-AR 12V/20V MAX 4,0 A",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcb115-ar/cargador-12v20v-max-40",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCB115-MANUAL",
+      "titulo": "DEWALT: manual oficial del cargador DCB115",
+      "url": "https://support.dewalt.com/hc/pt/article_attachments/360018524594",
+      "tipo": "manual_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCD7781D2-AR",
+      "titulo": "DEWALT: kit DCD7781D2-AR 20V MAX",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcd7781d2-ar/kit-de-taladro-percutoratornillador-de-12-pulg-13mm-inalambrico-20v-max",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCD796D2-AR",
+      "titulo": "DEWALT: kit DCD796D2-AR 20V MAX",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCD796B",
+      "titulo": "DEWALT: taladro DCD796B sin batería",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcd796b/taladro-percutor-de-12-13-mm-de-20v-max-no-incluye-bateria",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "DEWALT-DCF887B-AR",
+      "titulo": "DEWALT: atornillador DCF887B-AR 20V MAX",
+      "url": "https://www.dewalt.com.ar/es-ar/producto/dcf887b-ar/atornillador-de-impacto-de-14-pulg-ion-li-20v-max-brusless",
       "tipo": "ficha_fabricante",
       "consultado": "2026-10-26"
     }
@@ -2518,6 +2669,686 @@
       ],
       "notas_documentales": [
         "La ficha muestra 4 Ah en datos técnicos, pero el contenido de la variante consultada enumera solo cartón."
+      ]
+    },
+    {
+      "sku": "DCB201-B3",
+      "nombre": "Batería DEWALT 20V MAX de 1,5 Ah DCB201-B3",
+      "tipo": "bateria",
+      "identificacion": {
+        "articulo": "DCB201-B3",
+        "modelo": "DCB201-B3",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión del sistema",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCB201-B3"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "1,5 Ah",
+          "fuentes_ids": [
+            "DEWALT-DCB201-B3"
+          ]
+        },
+        {
+          "nombre": "Compatibilidad declarada",
+          "valor": "Compatible con toda la línea de herramientas 20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCB201-B3"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCB201-B3"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial indica una batería.",
+        "fuentes_ids": [
+          "DEWALT-DCB201-B3"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué capacidad tiene la DCB201-B3?",
+          "respuesta": "La ficha oficial la identifica como batería DEWALT 20V MAX de 1,5 Ah.",
+          "fuentes_ids": [
+            "DEWALT-DCB201-B3"
+          ]
+        },
+        {
+          "pregunta": "¿Sirve para herramientas DEWALT 20V MAX?",
+          "respuesta": "DeWalt declara que la DCB201 es compatible con toda la línea de herramientas 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCB201-B3"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar la DCB201-B3 con el DCB115?",
+          "respuesta": "La página del DCB115 publica 90 minutos para la DCB206, no para la DCB201. No se extrapola ese tiempo.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR",
+            "DEWALT-DCB201-B3"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCB201-B3",
+        "DEWALT-DCB115-AR"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-04"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://www.macrofer.com.ar/inalambricos-ion-li-dewalt-1994"
+      ]
+    },
+    {
+      "sku": "DCB204-B3",
+      "nombre": "Batería DEWALT 20V MAX XR de 4,0 Ah DCB204-B3",
+      "tipo": "bateria",
+      "identificacion": {
+        "articulo": "DCB204-B3",
+        "modelo": "DCB204-B3",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión del sistema",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCB204-B3"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "4,0 Ah",
+          "fuentes_ids": [
+            "DEWALT-DCB204-B3"
+          ]
+        },
+        {
+          "nombre": "Compatibilidad declarada",
+          "valor": "Compatible con toda la línea de herramientas 20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCB204-B3"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCB204-B3"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial indica una batería.",
+        "fuentes_ids": [
+          "DEWALT-DCB204-B3"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué capacidad tiene la DCB204-B3?",
+          "respuesta": "La ficha oficial la identifica como batería XR de 20V MAX y 4,0 Ah.",
+          "fuentes_ids": [
+            "DEWALT-DCB204-B3"
+          ]
+        },
+        {
+          "pregunta": "¿La DCB204-B3 sirve para herramientas DEWALT 20V MAX?",
+          "respuesta": "DeWalt declara compatibilidad con toda la línea de herramientas 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCB204-B3"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar la DCB204-B3 con el DCB115?",
+          "respuesta": "DeWalt informa 90 minutos para la DCB206; la ficha consultada no da un tiempo para la DCB204-B3.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR",
+            "DEWALT-DCB204-B3"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCB204-B3",
+        "DEWALT-DCB115-AR"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-04"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://jdminyeccion.com.ar/herramientas-de-taller/dewalt/baterias-y-cargadores1/"
+      ]
+    },
+    {
+      "sku": "DCBP520-B3",
+      "nombre": "Batería DEWALT POWERSTACK 20V MAX de 5,0 Ah DCBP520-B3",
+      "tipo": "bateria",
+      "identificacion": {
+        "articulo": "DCBP520-B3",
+        "modelo": "DCBP520-B3",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión del sistema",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCBP520-B3"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "5,0 Ah",
+          "fuentes_ids": [
+            "DEWALT-DCBP520-B3"
+          ]
+        },
+        {
+          "nombre": "Compatibilidad declarada",
+          "valor": "Compatible con todas las herramientas y cargadores 20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCBP520-B3"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCBP520-B3"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial identifica una batería POWERSTACK individual; no enumera accesorios adicionales.",
+        "fuentes_ids": [
+          "DEWALT-DCBP520-B3"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué capacidad tiene la DCBP520-B3 POWERSTACK?",
+          "respuesta": "DeWalt la identifica como batería 20V MAX POWERSTACK de 5,0 Ah.",
+          "fuentes_ids": [
+            "DEWALT-DCBP520-B3"
+          ]
+        },
+        {
+          "pregunta": "¿Con qué herramientas y cargadores es compatible?",
+          "respuesta": "DeWalt declara compatibilidad de POWERSTACK con todas las herramientas y cargadores 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCBP520-B3",
+            "DEWALT-SYSTEM-20VMAX"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar con el DCB115?",
+          "respuesta": "DeWalt publica 90 minutos para la DCB206; no publica ese tiempo para la DCBP520-B3 en las fuentes consultadas.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR",
+            "DEWALT-DCBP520-B3"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCBP520-B3",
+        "DEWALT-SYSTEM-20VMAX",
+        "DEWALT-DCB115-AR"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-04"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://www.electroandhome.com.ar/bater_a_dewalt_dcbp520_b3_ion_litio_20v_max_5_0ah_powerstack"
+      ]
+    },
+    {
+      "sku": "DCB115-AR",
+      "nombre": "Cargador DEWALT 12V/20V MAX de 4,0 A DCB115-AR",
+      "tipo": "cargador",
+      "identificacion": {
+        "articulo": "DCB115-AR",
+        "modelo": "DCB115-AR",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Sistema admitido",
+          "valor": "12V/20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR"
+          ]
+        },
+        {
+          "nombre": "Corriente indicada",
+          "valor": "4,0 A",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCB115-AR"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial indica un cargador.",
+        "fuentes_ids": [
+          "DEWALT-DCB115-AR"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué baterías carga el DCB115-AR?",
+          "respuesta": "DeWalt lo identifica como cargador 12V/20V MAX; su manual indica que carga baterías DeWalt de ion de litio de 12V MAX a 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR",
+            "DEWALT-DCB115-MANUAL"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar?",
+          "respuesta": "La ficha regional informa 90 minutos para la DCB206. No publica un tiempo para las DCB201-B3, DCB204-B3 o DCBP520-B3.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué incluye la presentación?",
+          "respuesta": "La ficha oficial indica un cargador.",
+          "fuentes_ids": [
+            "DEWALT-DCB115-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCB115-AR",
+        "DEWALT-DCB115-MANUAL"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-08",
+        "DEWALT-KW-09"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://ddr.com.ar/producto/cargador-de-bateria-dewalt-dcb115-ar/"
+      ]
+    },
+    {
+      "sku": "DCD7781D2-AR",
+      "nombre": "Kit DEWALT DCD7781D2-AR, taladro percutor/atornillador 20V MAX",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "DCD7781D2-AR",
+        "modelo": "DCD7781D2-AR",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCD7781D2-AR"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "sin carbones",
+          "fuentes_ids": [
+            "DEWALT-DCD7781D2-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCD7781D2-AR"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial lo denomina kit, pero no ofrece una lista textual del contenido de caja en la página consultada.",
+        "fuentes_ids": [
+          "DEWALT-DCD7781D2-AR"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El DCD7781D2-AR es un taladro 20V MAX?",
+          "respuesta": "La ficha oficial lo presenta como kit de taladro percutor/atornillador inalámbrico 20V MAX con motor sin carbones.",
+          "fuentes_ids": [
+            "DEWALT-DCD7781D2-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué contiene el kit DCD7781D2-AR?",
+          "respuesta": "La página oficial lo identifica como kit, pero la lista textual consultada no enumera componentes. No se asigna un modelo de batería por inferencia.",
+          "fuentes_ids": [
+            "DEWALT-DCD7781D2-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué batería corresponde a una herramienta 20V MAX?",
+          "respuesta": "DeWalt declara la DCB201 y la DCB204 compatibles con su línea de herramientas 20V MAX; confirmá el código exacto.",
+          "fuentes_ids": [
+            "DEWALT-DCD7781D2-AR",
+            "DEWALT-DCB201-B3",
+            "DEWALT-DCB204-B3"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCD7781D2-AR",
+        "DEWALT-DCB201-B3",
+        "DEWALT-DCB204-B3"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-01",
+        "DEWALT-KW-06",
+        "DEWALT-KW-11"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://spalenzaservice.com.ar/articulo.php?cod_articulo=DCD7781D2-AR"
+      ]
+    },
+    {
+      "sku": "DCD796D2-AR",
+      "nombre": "Kit DEWALT DCD796D2-AR, taladro percutor/atornillador 20V MAX",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "DCD796D2-AR",
+        "modelo": "DCD796D2-AR",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "sin carbones",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR"
+          ]
+        },
+        {
+          "nombre": "Capacidad del mandril",
+          "valor": "13 mm",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCD796D2-AR"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La página oficial enumera un cargador y dos baterías; no identifica sus códigos en el listado de contenido.",
+        "fuentes_ids": [
+          "DEWALT-DCD796D2-AR"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El DCD796D2-AR incluye baterías y cargador?",
+          "respuesta": "La ficha oficial enumera un cargador y dos baterías, sin identificar sus códigos.",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué sistema usa el DCD796D2-AR?",
+          "respuesta": "DeWalt lo identifica como taladro percutor/atornillador 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué cambia entre DCD796D2-AR y DCD796B?",
+          "respuesta": "El DCD796D2-AR incluye cargador y dos baterías; el DCD796B se publica sin batería y su lista incluye solo el taladro.",
+          "fuentes_ids": [
+            "DEWALT-DCD796D2-AR",
+            "DEWALT-DCD796B"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCD796D2-AR",
+        "DEWALT-DCD796B"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-01",
+        "DEWALT-KW-05"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://www.macrofer.com.ar/atornillador-dewalt-772"
+      ]
+    },
+    {
+      "sku": "DCD796B",
+      "nombre": "Taladro percutor DEWALT DCD796B 20V MAX, sin batería",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "DCD796B",
+        "modelo": "DCD796B",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "sin carbones",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        },
+        {
+          "nombre": "Capacidad del mandril",
+          "valor": "13 mm",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        },
+        {
+          "nombre": "Velocidad sin carga",
+          "valor": "0-550 / 0-2000 rpm",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCD796B"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial enumera un taladro percutor DCD796 20V MAX y excluye batería.",
+        "fuentes_ids": [
+          "DEWALT-DCD796B"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El DCD796B incluye batería?",
+          "respuesta": "No. DeWalt indica que no incluye batería y enumera el taladro percutor DCD796 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        },
+        {
+          "pregunta": "¿Qué velocidad declara DeWalt para el DCD796B?",
+          "respuesta": "La ficha oficial informa dos rangos: 0–550 y 0–2000 rpm.",
+          "fuentes_ids": [
+            "DEWALT-DCD796B"
+          ]
+        },
+        {
+          "pregunta": "¿Qué batería se declara compatible?",
+          "respuesta": "DeWalt declara las DCB201 y DCB204 compatibles con herramientas 20V MAX; la ficha DCD796B también lo identifica como 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCD796B",
+            "DEWALT-DCB201-B3",
+            "DEWALT-DCB204-B3"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCD796B",
+        "DEWALT-DCB201-B3",
+        "DEWALT-DCB204-B3"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-05",
+        "DEWALT-KW-07"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://www.sodimac.com.ar/sodimac-ar/product/3288471/taladro-percutor-inalambrico-20-v-dcd796b/3288471/"
+      ]
+    },
+    {
+      "sku": "DCF887B-AR",
+      "nombre": "Atornillador de impacto DEWALT DCF887B-AR 20V MAX",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "DCF887B-AR",
+        "modelo": "DCF887B-AR",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador pendiente de aprobación del dueño. La compatibilidad se limita a las declaraciones oficiales de cada modelo exacto; la ficha no publica ni habilita sincronización por sí sola.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20V MAX",
+          "fuentes_ids": [
+            "DEWALT-DCF887B-AR"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "sin carbones",
+          "fuentes_ids": [
+            "DEWALT-DCF887B-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "DEWALT-DCF887B-AR"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial consultada no ofrece una lista textual de contenido de caja.",
+        "fuentes_ids": [
+          "DEWALT-DCF887B-AR"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El DCF887B-AR es parte de 20V MAX?",
+          "respuesta": "La ficha oficial identifica el atornillador de impacto DCF887B-AR como herramienta 20V MAX y declara tres velocidades.",
+          "fuentes_ids": [
+            "DEWALT-DCF887B-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué batería DEWALT se puede usar?",
+          "respuesta": "DeWalt declara que las baterías DCB201 y DCB204 son compatibles con herramientas 20V MAX; el DCF887B-AR también está identificado como 20V MAX.",
+          "fuentes_ids": [
+            "DEWALT-DCF887B-AR",
+            "DEWALT-DCB201-B3",
+            "DEWALT-DCB204-B3"
+          ]
+        },
+        {
+          "pregunta": "¿El DCF887B-AR incluye batería?",
+          "respuesta": "La página oficial consultada no enumera el contenido de caja. No se atribuye una batería incluida o excluida por el sufijo del modelo.",
+          "fuentes_ids": [
+            "DEWALT-DCF887B-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "DEWALT-DCF887B-AR",
+        "DEWALT-DCB201-B3",
+        "DEWALT-DCB204-B3"
+      ],
+      "busquedas_ids": [
+        "DEWALT-KW-02",
+        "DEWALT-KW-10"
+      ],
+      "notas_documentales": [
+        "Presencia comercial argentina consultada el 26/10/2026; no es fuente de compatibilidad: https://www.macrofer.com.ar/especial-obra/atornillador-inalambrico-de-impacto-dewalt-dcf887b-ar-20v-205nm-sin-bateria"
       ]
     }
   ],
@@ -4851,6 +5682,12 @@
     "publicado": false
   },
   "TOOL-MAKITA-GA005GZ": {
+    "publicado": false
+  },
+  "BAT-DEWALT-DCB201": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCD796D2": {
     "publicado": false
   }
 }

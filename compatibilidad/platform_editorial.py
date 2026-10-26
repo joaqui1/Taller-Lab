@@ -118,8 +118,8 @@ def render_platform_editorial_page(platform_id: str) -> str | None:
       <header><p>{escape(platform.brand)} · {escape(platform.system_name)}</p>
         <h1>{escape(page['title'])}</h1><p class="compat-direct-answer">{escape(page['respuesta_directa'])}</p></header>
       <section><h2>Qué incluye el sistema</h2><p>{escape(page['sistema'])}</p>
-        <h3>Baterías P20S</h3>{product_list(page.get('baterias', []))}
-        <h3>Cargadores P20S</h3>{product_list(page.get('cargadores', []))}
+        <h3>Baterías {escape(platform.system_name)}</h3>{product_list(page.get('baterias', []))}
+        <h3>Cargadores {escape(platform.system_name)}</h3>{product_list(page.get('cargadores', []))}
         <h3>Herramientas documentadas</h3>{product_list(page.get('herramientas', []))}</section>
       <section><h2>{escape(page.get('tabla_titulo', 'Compatibilidad por modelo'))}</h2>
         <p>{escape(page.get('tabla_intro', ''))}</p>{compatibility_table}</section>

@@ -1191,5 +1191,515 @@
         "https://www.totalbusiness.com/my/product/lithium-ion-battery-pack/TFBLI20011",
         "https://www.totalbusiness.com/product/p20s-battery-charger/TFCLI2001"
       ]
+    },
+  {
+    "product_id": "BAT-DEWALT-DCB201",
+    "model_name": "Batería DEWALT 20V MAX de 1,5 Ah DCB201-B3",
+    "assertions": [
+      "DCB201-B3",
+      "Batería de Ion de Litio 20V MAX",
+      "1.5 Ah",
+      "compatible con toda la línea de herramientas 20V MAX"
+    ],
+    "excerpt": "compatible con toda la línea de herramientas 20V MAX",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCB201-B3",
+      "model_name": "Batería de ion de litio DEWALT 20V MAX de 1,5 Ah",
+      "product_type": "bateria",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": 1.5,
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {}
+    },
+    "compatible_target_types": [
+      "herramienta"
+    ],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcb201-b3/bateria-de-ion-de-litio-20v-max-de-15-ah"
+    ],
+    "product": {
+      "id": "BAT-DEWALT-DCB201",
+      "guide_url": null,
+      "gtin_ean": null,
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "required_packs": 1,
+      "status": "pendiente",
+      "slug": "dewalt-dcb201-b3-bateria-20v-max-1-5ah",
+      "product_type": "bateria",
+      "brand": "DeWalt",
+      "model_name": "Batería de ion de litio DEWALT 20V MAX de 1,5 Ah",
+      "mpn": "DCB201-B3",
+      "platform_id": "dewalt-20v-max",
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "capacity_ah": 1.5,
+      "specs": {},
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcb201-b3/bateria-de-ion-de-litio-20v-max-de-15-ah",
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje.",
+      "aliases": [
+        "DCB201",
+        "DCB201-B3",
+        "batería DeWalt 20V 1,5 Ah"
+      ]
     }
+  },
+  {
+    "product_id": "BAT-DEWALT-DCB204",
+    "model_name": "Batería DEWALT 20V MAX XR de 4,0 Ah DCB204-B3",
+    "assertions": [
+      "DCB204-B3",
+      "20V MAX",
+      "4.0 Ah",
+      "compatible con toda la línea de herramientas 20V MAX"
+    ],
+    "excerpt": "compatible con toda la línea de herramientas 20V MAX",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCB204-B3",
+      "model_name": "Batería de ion de litio DEWALT 20V MAX XR de 4,0 Ah",
+      "product_type": "bateria",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": 4.0,
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {}
+    },
+    "compatible_target_types": [
+      "herramienta"
+    ],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcb204-b3/bateria-de-ion-de-litio-20v-max-xr-de-40-ah"
+    ],
+    "product": {
+      "id": "BAT-DEWALT-DCB204",
+      "slug": "dewalt-dcb204-b3-bateria-20v-max-xr-4ah",
+      "product_type": "bateria",
+      "brand": "DeWalt",
+      "model_name": "Batería de ion de litio DEWALT 20V MAX XR de 4,0 Ah",
+      "mpn": "DCB204-B3",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "dcb204",
+        "bateria dewalt 20v 4ah",
+        "dcb204-b3",
+        "DCB204",
+        "DCB204-B3",
+        "batería DeWalt 20V 4 Ah"
+      ],
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "capacity_ah": 4.0,
+      "specs": {},
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": "/amoladoras/inalambricas/",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcb204-b3/bateria-de-ion-de-litio-20v-max-xr-de-40-ah",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  },
+  {
+    "product_id": "BAT-DEWALT-POWERSTACK-50",
+    "model_name": "Batería DEWALT POWERSTACK 20V MAX de 5,0 Ah DCBP520-B3",
+    "assertions": [
+      "DCBP520-B3",
+      "POWERSTACK",
+      "5.0 Ah",
+      "Compatibles con todas las herramientas y cargadores de 20V MAX"
+    ],
+    "excerpt": "Compatibles con todas las herramientas y cargadores de 20V MAX",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCBP520-B3",
+      "model_name": "Batería DEWALT POWERSTACK 20V MAX de 5,0 Ah",
+      "product_type": "bateria",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": 5.0,
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {}
+    },
+    "compatible_target_types": [
+      "herramienta",
+      "cargador"
+    ],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcbp520-b3/bateria-dewalt-20v-max-powerstack-50ah"
+    ],
+    "product": {
+      "id": "BAT-DEWALT-POWERSTACK-50",
+      "slug": "dewalt-dcbp520-b3-powerstack-20v-max-5ah",
+      "product_type": "bateria",
+      "brand": "DeWalt",
+      "model_name": "Batería DEWALT POWERSTACK 20V MAX de 5,0 Ah",
+      "mpn": "DCBP520-B3",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "powerstack 5ah",
+        "dcbp520",
+        "powerstack grande 5.0ah",
+        "DCBP520",
+        "DCBP520-B3",
+        "POWERSTACK 5 Ah",
+        "batería DeWalt 20V 5 Ah"
+      ],
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "capacity_ah": 5.0,
+      "specs": {},
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": null,
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcbp520-b3/bateria-dewalt-20v-max-powerstack-50ah",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  },
+  {
+    "product_id": "CHG-DEWALT-DCB115-AR",
+    "model_name": "Cargador DEWALT 12V/20V MAX de 4,0 A DCB115-AR",
+    "assertions": [
+      "DCB115-AR",
+      "Cargador 12V/20V MAX",
+      "4.0 A",
+      "Carga la batería (DCB206) en 90 minutos",
+      "cargar las unidades de baterías de ion de litio DeWALT 12 V Máx* a 20 V Máx*"
+    ],
+    "excerpt": "Carga la batería (DCB206) en 90 minutos",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCB115-AR",
+      "model_name": "Cargador DEWALT 12V/20V MAX de 4,0 A",
+      "product_type": "cargador",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": null,
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {
+        "output_current": "4.0 A"
+      }
+    },
+    "compatible_target_types": [
+      "bateria"
+    ],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcb115-ar/cargador-12v20v-max-40",
+      "https://support.dewalt.com/hc/pt/article_attachments/360018524594"
+    ],
+    "product": {
+      "id": "CHG-DEWALT-DCB115-AR",
+      "slug": "dewalt-dcb115-ar-cargador-12v-20v-max-4a",
+      "product_type": "cargador",
+      "brand": "DeWalt",
+      "model_name": "Cargador DEWALT 12V/20V MAX de 4,0 A",
+      "mpn": "DCB115-AR",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "dcb115",
+        "dcb115-ar",
+        "cargador dewalt 220v 4a",
+        "dcb115ar",
+        "DCB115",
+        "DCB115-AR",
+        "cargador DeWalt 20V"
+      ],
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "output_current": "4.0 A"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": null,
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcb115-ar/cargador-12v20v-max-40",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  },
+  {
+    "product_id": "TOOL-DEWALT-DCD7781",
+    "model_name": "Kit DEWALT DCD7781D2-AR, taladro percutor/atornillador 20V MAX",
+    "assertions": [
+      "DCD7781D2-AR",
+      "Kit de Taladro Percutor/Atornillador",
+      "20V MAX",
+      "Motor Sin Carbones"
+    ],
+    "excerpt": "Kit de Taladro Percutor/Atornillador",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCD7781D2-AR",
+      "model_name": "Kit DEWALT DCD7781D2-AR, taladro percutor/atornillador 20V MAX",
+      "product_type": "herramienta",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": null,
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {
+        "type": "taladro percutor/atornillador",
+        "motor": "sin carbones"
+      }
+    },
+    "compatible_target_types": [],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcd7781d2-ar/kit-de-taladro-percutoratornillador-de-12-pulg-13mm-inalambrico-20v-max",
+      "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas"
+    ],
+    "product": {
+      "id": "TOOL-DEWALT-DCD7781",
+      "slug": "dewalt-dcd7781d2-ar-kit-taladro-percutor-20v-max",
+      "product_type": "herramienta",
+      "brand": "DeWalt",
+      "model_name": "Kit DEWALT DCD7781D2-AR, taladro percutor/atornillador 20V MAX",
+      "mpn": "DCD7781D2-AR",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "dcd7781",
+        "dcd7781d2",
+        "dcd7781d2-ar",
+        "taladro percutor dewalt 20v brushless",
+        "DCD7781",
+        "DCD7781D2",
+        "DCD7781D2-AR",
+        "taladro DeWalt 20V kit"
+      ],
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "type": "taladro percutor/atornillador",
+        "motor": "sin carbones"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": "/taladros/dewalt-inalambrico/",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcd7781d2-ar/kit-de-taladro-percutoratornillador-de-12-pulg-13mm-inalambrico-20v-max",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  },
+  {
+    "product_id": "TOOL-DEWALT-DCD796D2",
+    "model_name": "Kit DEWALT DCD796D2-AR, taladro percutor/atornillador 20V MAX",
+    "assertions": [
+      "DCD796D2-AR",
+      "20V MAX",
+      "Batería de 2.0Ah ION-LI 20V MAX",
+      "(1) Cargador",
+      "(2) Baterías"
+    ],
+    "excerpt": "DCD796D2-AR",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCD796D2-AR",
+      "model_name": "Kit DEWALT DCD796D2-AR, taladro percutor/atornillador 20V MAX",
+      "product_type": "herramienta",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": null,
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {
+        "chuck_capacity": "13 mm",
+        "motor": "sin carbones"
+      }
+    },
+    "compatible_target_types": [],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+      "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas"
+    ],
+    "product": {
+      "id": "TOOL-DEWALT-DCD796D2",
+      "guide_url": null,
+      "gtin_ean": null,
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "required_packs": 1,
+      "status": "pendiente",
+      "slug": "dewalt-dcd796d2-ar-kit-taladro-percutor-20v-max",
+      "product_type": "herramienta",
+      "brand": "DeWalt",
+      "model_name": "Kit DEWALT DCD796D2-AR, taladro percutor/atornillador 20V MAX",
+      "mpn": "DCD796D2-AR",
+      "platform_id": "dewalt-20v-max",
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "chuck_capacity": "13 mm",
+        "motor": "sin carbones"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje.",
+      "aliases": [
+        "DCD796D2",
+        "DCD796D2-AR",
+        "taladro DeWalt DCD796D2"
+      ]
+    }
+  },
+  {
+    "product_id": "TOOL-DEWALT-DCD796B",
+    "model_name": "Taladro percutor DEWALT DCD796B 20V MAX, sin batería",
+    "assertions": [
+      "DCD796B",
+      "no incluye batería",
+      "20V MAX",
+      "(1) Taladro percutor DCD796 20V MAX"
+    ],
+    "excerpt": "no incluye batería",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCD796B",
+      "model_name": "Taladro percutor DEWALT DCD796B 20V MAX, sin batería",
+      "product_type": "herramienta",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": null,
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {
+        "chuck_capacity": "13 mm",
+        "no_load_speed": "0-550 / 0-2000 rpm",
+        "motor": "sin carbones"
+      }
+    },
+    "compatible_target_types": [],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcd796b/taladro-percutor-de-12-13-mm-de-20v-max-no-incluye-bateria",
+      "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas"
+    ],
+    "product": {
+      "id": "TOOL-DEWALT-DCD796B",
+      "slug": "dewalt-dcd796b-taladro-percutor-20v-max-sin-bateria",
+      "product_type": "herramienta",
+      "brand": "DeWalt",
+      "model_name": "Taladro percutor DEWALT DCD796B 20V MAX, sin batería",
+      "mpn": "DCD796B",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "dcd796",
+        "dcd796b",
+        "taladro dewalt xr brushless 70nm",
+        "DCD796B",
+        "taladro DeWalt DCD796 sin batería",
+        "taladro DeWalt 20V sin batería"
+      ],
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "chuck_capacity": "13 mm",
+        "no_load_speed": "0-550 / 0-2000 rpm",
+        "motor": "sin carbones"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": "/taladros/dewalt-inalambrico/",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcd796b/taladro-percutor-de-12-13-mm-de-20v-max-no-incluye-bateria",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  },
+  {
+    "product_id": "TOOL-DEWALT-DCF887B",
+    "model_name": "Atornillador de impacto DEWALT DCF887B-AR 20V MAX",
+    "assertions": [
+      "DCF887B-AR",
+      "Atornillador de impacto",
+      "20V MAX",
+      "3 velocidades"
+    ],
+    "excerpt": "Atornillador de impacto de 20V MAX",
+    "platform": "dewalt-20v-max",
+    "facts": {
+      "mpn": "DCF887B-AR",
+      "model_name": "Atornillador de impacto DEWALT DCF887B-AR 20V MAX",
+      "product_type": "herramienta",
+      "platform_id": "dewalt-20v-max",
+      "capacity_ah": null,
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "required_packs": 1,
+      "specs": {
+        "type": "atornillador de impacto",
+        "motor": "sin carbones",
+        "speeds": "3"
+      }
+    },
+    "compatible_target_types": [],
+    "supporting_urls": [
+      "https://www.dewalt.com.ar/es-ar/producto/dcf887b-ar/atornillador-de-impacto-de-14-pulg-ion-li-20v-max-brusless",
+      "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas"
+    ],
+    "product": {
+      "id": "TOOL-DEWALT-DCF887B",
+      "slug": "dewalt-dcf887b-ar-atornillador-impacto-20v-max",
+      "product_type": "herramienta",
+      "brand": "DeWalt",
+      "model_name": "Atornillador de impacto DEWALT DCF887B-AR 20V MAX",
+      "mpn": "DCF887B-AR",
+      "gtin_ean": null,
+      "platform_id": "dewalt-20v-max",
+      "aliases": [
+        "dcf887",
+        "dcf887b",
+        "atornillador impacto dewalt 3 velocidades",
+        "DCF887B",
+        "DCF887B-AR",
+        "atornillador de impacto DeWalt DCF887"
+      ],
+      "voltage_nominal": "18 V",
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "type": "atornillador de impacto",
+        "motor": "sin carbones",
+        "speeds": "3"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Referencia oficial argentina y oferta comercial local consultada 2026-10-26; no acredita stock futuro.",
+      "guide_url": "/taladros/atornillador-impacto-dewalt/",
+      "official_url": "https://www.dewalt.com.ar/es-ar/producto/dcf887b-ar/atornillador-de-impacto-de-14-pulg-ion-li-20v-max-brusless",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Pendiente de sincronización documental; no publicar por coincidencia de marca o voltaje."
+    }
+  }
 ]
