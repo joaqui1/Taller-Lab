@@ -1,6 +1,6 @@
 ---
 # Borrador editorial sin publicar. El dueño define el H1.
-# URL propuesta: /bosch-azul-vs-verde/
+# URL propuesta: /taladros/bosch-azul-vs-verde/
 # Title propuesto: Bosch azul o verde: diferencias entre Professional y hogar
 # Opciones de H1 pendientes de elección:
 # 1. Bosch azul y verde: diferencias entre Professional y hogar
@@ -8,9 +8,12 @@
 # 3. Bosch Professional o Bosch DIY: diferencias y baterías
 # Description propuesta: Diferencias entre Bosch Professional (azul) y Bosch DIY (verde): a quién apunta cada línea, cómo reconocerla y qué documenta Bosch sobre sus baterías.
 title: "Bosch azul o verde: diferencias entre Professional y hogar"
-url: "/bosch-azul-vs-verde/"
+h1: "PROVISORIO: Bosch azul o verde: diferencias entre Professional y hogar"
+url: "/taladros/bosch-azul-vs-verde/"
 description: "Diferencias entre Bosch Professional (azul) y Bosch DIY (verde): a quién apunta cada línea, cómo reconocerla y qué documenta Bosch sobre sus baterías."
-category: "Herramientas Bosch"
+author: "Joaquín Vallasciani"
+reviewed: "26/10/2026"
+category: "Taladros y Atornilladores"
 keywords: ["taladro bosch azul", "taladro bosch verde", "amoladora bosch verde", "taladro bosch gama azul", "taladro inalámbrico azul", "amoladora bosch"]
 research_type: "documental"
 physical_test: "no"
@@ -22,7 +25,7 @@ asset_status: "borrador"
 published: false
 ---
 
-<!-- BORRADOR EDITORIAL: revisar antes de publicar. No completar autoría ni fecha de revisión sin autorización. -->
+<!-- BORRADOR EDITORIAL: el dueño debe elegir el H1 y autorizar la publicación. -->
 
 Bosch azul suele referirse a **Bosch Professional**; Bosch verde, a **Bosch DIY & Garden**, la línea para tareas de bricolaje y hogar. Para reconocer un equipo y saber qué batería acepta, no alcanza con el color ni con que ambos digan 18 V: hay que revisar la familia y el código de pedido de esa herramienta. En las fuentes de Bosch Argentina consultadas, la compatibilidad está documentada dentro del sistema Professional 18 V y para ciertos equipos de jardinería; no encontramos una regla general que confirme o descarte el cruce entre todas las herramientas azules y verdes.
 

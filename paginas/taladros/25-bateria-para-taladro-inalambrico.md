@@ -1,6 +1,13 @@
 ---
 title: "Batería para taladro inalámbrico: compatibilidad y cómo elegir"
-h1: "PENDIENTE DE DEFINICIÓN EDITORIAL: elegir entre las opciones propuestas"
+# Opciones de H1 para elección del dueño; basadas en las keywords del archivo keywords_taladro.csv:
+# 1. Batería para taladro inalámbrico: compatibilidad y cómo elegir
+#    Keyword relacionada en el CSV: "batería para taladro inalámbrico 18v".
+# 2. Baterías para taladros inalámbricos: tipos y compatibilidad
+#    Keywords exactas: "baterías para taladros inalámbricos" y "tipos de baterías para taladros".
+# 3. ¿Existe una batería universal para taladro? Cómo comprobar la compatibilidad
+#    Keyword: "batería universal para taladro"; el cuerpo responde que no es universal entre plataformas.
+h1: "PROVISORIO: Batería para taladro inalámbrico: compatibilidad y cómo elegir"
 url: "/taladros/bateria-para-taladro-inalambrico/"
 description: "Aprendé a identificar una batería compatible con tu taladro inalámbrico: plataforma, voltaje, capacidad, química y cargador."
 author: "Joaquín Vallasciani"
@@ -25,12 +32,10 @@ keywords:
   - "batería taladro 21V"
   - "batería 2Ah vs 4Ah"
   - "cargador de batería Einhell 18V"
-published: "false"
+published: false
 ---
 
 <!-- Borrador no publicado. El H1 queda pendiente: el dueño debe elegir entre las opciones editoriales propuestas antes de autorizar la publicación. -->
-
-# H1 pendiente de definición editorial
 
 **Respuesta directa.** No hay una batería universal que sirva para cualquier taladro inalámbrico. Para reemplazarla, identificá la plataforma y el código exacto del equipo y de la batería: que dos packs indiquen 18 V o 20 V, o que parezcan encastrar, no alcanza para confirmar compatibilidad.
 
@@ -101,7 +106,7 @@ Los nombres de esta tabla sirven para orientar la búsqueda en la etiqueta y el 
 | Marca | Sistema o referencia que conviene buscar | Guía de plataforma en TallerLab |
 | :--- | :--- | :--- |
 | Bosch Professional | Professional 18V; AMPShare cuando la herramienta y la batería lo indiquen | [Bosch Professional 18V](/plataformas/bosch-professional-18v/) |
-| Total | P20S, 20 V | — |
+| Total | P20S, 20 V (catálogo oficial internacional; disponibilidad argentina no confirmada) | — |
 | DeWalt | 20V MAX; el fabricante informa 18 V nominales | — |
 | Makita | 18V LXT; confirmá receptor y modelo | — |
 | Einhell | Power X-Change, 18 V | — |
@@ -110,7 +115,7 @@ Los nombres de esta tabla sirven para orientar la búsqueda en la etiqueta y el 
 | Lüsqtoff | Iron Volt en los modelos que declaran esa compatibilidad; comprobá el código | — |
 | Bauker | Código exacto del taladro, batería y cargador; no asumir compatibilidad por marca | — |
 
-**Datos documentados:** Total identifica su familia P20S como 20 V y dice que una batería sirve para múltiples herramientas P20S en su [kit de batería y cargador](https://www.totalbusiness.com/pk/product/p20s-lithium-ion-battery-and-charger-kit/TFBCPK1222). BLACK+DECKER define POWERCONNECT para sus productos 20V MAX en esa plataforma ([documentación oficial](https://www.blackanddecker.com/pages/powerconnect)). Lüsqtoff declara compatible con la línea Iron Volt a su [taladro TIL45131-8BK](https://lusqtoff.com.ar/productos/TIL45131-8BK); esa declaración debe comprobarse para cada herramienta y batería. En un ejemplo de su línea 20V MAX, Stanley identifica las referencias de batería y cargador para el taladro SBI20 en su [manual en español](https://support.stanleytools.com/hc/es/article_attachments/115004302053).
+**Datos documentados:** el [catálogo oficial internacional de TOTAL para la serie P20S](https://totaltools.cn/products/p20s) lista herramientas inalámbricas P20S y baterías de 20 V. Esa página no confirma por sí sola todas las combinaciones entre batería y herramienta ni disponibilidad o variantes en Argentina; verificá la ficha del modelo exacto. No encontramos una ficha oficial argentina de esta plataforma. BLACK+DECKER define POWERCONNECT para sus productos 20V MAX en esa plataforma ([documentación oficial](https://www.blackanddecker.com/pages/powerconnect)). Lüsqtoff declara compatible con la línea Iron Volt a su [taladro TIL45131-8BK](https://lusqtoff.com.ar/productos/TIL45131-8BK); esa declaración debe comprobarse para cada herramienta y batería. En un ejemplo de su línea 20V MAX, Stanley identifica las referencias de batería y cargador para el taladro SBI20 en su [manual en español](https://support.stanleytools.com/hc/es/article_attachments/115004302053).
 
 ## Preguntas frecuentes
 
