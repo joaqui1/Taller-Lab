@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.tallerlab.com.ar/schemas/fichas_editorial.schema.json",
+  "title": "Fichas editoriales de productos",
+  "type": "object",
+  "required": ["version", "fecha_investigacion", "investigacion_keywords", "fuentes", "productos"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "fecha_investigacion": { "type": "string", "format": "date" },
+    "investigacion_keywords": { "type": "object" },
+    "fuentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "titulo", "url", "tipo", "consultado"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "titulo": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "tipo": { "type": "string", "enum": ["ficha_fabricante", "manual_oficial", "catalogo_oficial"] },
+          "consultado": { "type": "string", "format": "date" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "productos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sku", "nombre", "tipo", "identificacion", "publicado", "indexable", "clasificacion", "motivo", "especificaciones", "tiempos_de_carga", "peso", "contenido_de_caja", "advertencias", "preguntas_frecuentes", "fuentes_ids"],
+        "properties": {
+          "sku": { "type": "string", "minLength": 1 },
+          "nombre": { "type": "string", "minLength": 1 },
+          "tipo": { "type": "string", "enum": ["bateria", "cargador", "herramienta"] },
+          "identificacion": { "type": "object" },
+          "publicado": { "const": false },
+          "indexable": { "type": "boolean" },
+          "clasificacion": { "type": "string", "enum": ["Indexable", "Noindex"] },
+          "motivo": { "type": "string", "minLength": 1 },
+          "especificaciones": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["nombre", "valor", "fuentes_ids"],
+              "properties": {
+                "nombre": { "type": "string", "minLength": 1 },
+                "valor": { "type": "string", "minLength": 1 },
+                "fuentes_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+              },
+              "additionalProperties": false
+            }
+          },
+          "tiempos_de_carga": { "type": "array", "items": { "type": "object" } },
+          "peso": { "type": "object" },
+          "contenido_de_caja": { "type": "object" },
+          "advertencias": { "type": "array", "items": { "type": "object" } },
+          "preguntas_frecuentes": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["pregunta", "respuesta", "fuentes_ids"],
+              "properties": {
+                "pregunta": { "type": "string", "minLength": 1 },
+                "respuesta": { "type": "string", "minLength": 1 },
+                "fuentes_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+              },
+              "additionalProperties": false
+            }
+          },
+          "fuentes_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "busquedas_ids": { "type": "array", "items": { "type": "string" } },
+          "notas_documentales": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

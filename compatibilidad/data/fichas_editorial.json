@@ -1,0 +1,282 @@
+{
+  "$schema": "./fichas_editorial.schema.json",
+  "version": 1,
+  "fecha_investigacion": "2026-10-26",
+  "investigacion_keywords": {
+    "metodologia": "Búsqueda de consultas con Gamma y los términos batería, cargador o 20V en los CSV de Google Ads y Semrush disponibles en C:/Users/joaqu/Desktop/keywords. 20V se trata como tensión de batería; no se cuenta 220V como coincidencia.",
+    "volumen_google_ads": "El volumen medio informado por Keyword Planner es un valor agrupado, no una medición exacta de demanda por SKU.",
+    "consultas_google_ads": [
+      { "id": "KW-01", "consulta": "amoladora a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_amoladora.csv" },
+      { "id": "KW-02", "consulta": "atornillador a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+      { "id": "KW-03", "consulta": "atornillador gamma a batería", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+      { "id": "KW-04", "consulta": "llave de impacto a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+      { "id": "KW-05", "consulta": "taladro a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+      { "id": "KW-06", "consulta": "taladro atornillador a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+      { "id": "KW-07", "consulta": "taladro gamma a bateria", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" }
+    ],
+    "semrush": "No se encontraron consultas con Gamma que además incluyan batería, cargador o una mención exacta de 20V en los CSV revisados.",
+    "baterias_y_cargadores": "No se encontraron búsquedas específicas de baterías Gamma ni cargadores Gamma; ausencia en estos archivos no equivale a volumen cero."
+  },
+  "fuentes": [
+    { "id": "GAMMA-BAT-90", "titulo": "Batería multienergy 20V – 700W (G12490AR)", "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12490ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-BAT-91", "titulo": "Batería multienergy 20V – 900W (G12491AR)", "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12491ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-CHG-92", "titulo": "Cargador de 20V rápido (G12492AR)", "url": "https://www.gammaherramientas.com.ar/producto/cargador-g12492ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-CHG-93", "titulo": "Cargador de 20V ultrarrápido 4000 mAh (G12493AR)", "url": "https://www.gammaherramientas.com.ar/producto/cargador-g12493ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-BAT-CHG-MANUAL", "titulo": "Manual oficial de baterías y cargadores G12490AR–G12493AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12490AR-91AR-92AR-93AR.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" },
+    { "id": "GAMMA-CATALOGO-ME", "titulo": "Catálogo oficial Gamma Multi Energy", "url": "https://gammaherramientas.com.ar/web/wp-content/uploads/2023/10/CATALOGO-MULTIENERGY.pdf", "tipo": "catalogo_oficial", "consultado": "2026-10-26" },
+    { "id": "GAMMA-TOOL-14", "titulo": "Equipo para pintar a batería (G12414AR)", "url": "https://www.gammaherramientas.com.ar/producto/equipoparapintar-abateria-g12414ar-2/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-TOOL-07", "titulo": "Multitool oscilante a batería (G12407AR)", "url": "https://www.gammaherramientas.com.ar/producto/multitooloscilante-g12407/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-TOOL-07-MANUAL", "titulo": "Manual oficial de las multitool G12407AR y G12428AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12407AR-G12428AR_MANUAL_co.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" },
+    { "id": "GAMMA-TOOL-02", "titulo": "Taladro atornillador a batería con percusión – Multienergy (G12402/1AR)", "url": "https://www.gammaherramientas.com.ar/producto/atornillador-abateria-multienergy-percusion/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
+    { "id": "GAMMA-TOOL-02-MANUAL", "titulo": "Manual oficial de taladros G12401AR–G12405AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12401AR_c.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" }
+  ],
+  "productos": [
+    {
+      "sku": "G12490AR",
+      "nombre": "Batería Multi Energy 20 V, 2,0 Ah",
+      "tipo": "bateria",
+      "identificacion": { "articulo": "G12490AR", "modelo": "G12490AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha y manual oficiales identifican el SKU, aportan especificaciones, peso y tiempos de carga; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Tensión del sistema", "valor": "20 V", "fuentes_ids": ["GAMMA-BAT-90"] },
+        { "nombre": "Química", "valor": "Ion-litio", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Capacidad", "valor": "2.000 mAh (2,0 Ah)", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Potencia declarada", "valor": "700 W", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Compatibilidad declarada", "valor": "Herramientas Gamma con sistema Multi Energy", "fuentes_ids": ["GAMMA-BAT-90"] }
+      ],
+      "tiempos_de_carga": [
+        { "con_cargador": "G12493AR", "tiempo": "40 min", "condicion": "CNPT; ficha del fabricante", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL"] },
+        { "con_cargador": "G12492AR", "tiempo": "60 min", "condicion": "CNPT; ficha del fabricante", "fuentes_ids": ["GAMMA-BAT-90"] }
+      ],
+      "peso": { "valor": "0,4 kg", "fuentes_ids": ["GAMMA-CATALOGO-ME", "GAMMA-BAT-CHG-MANUAL"] },
+      "contenido_de_caja": { "declarado": "La ficha y el manual consultados no enumeran contenido adicional de caja para esta batería.", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL"] },
+      "advertencias": [
+        { "texto": "No cortocircuitar los terminales; mantener la batería lejos del agua y no cargarla fuera de 5–40 °C.", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL"], "ubicacion": "Manual, sección de precauciones para baterías y cargadores" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Qué capacidad tiene y para qué sistema sirve?", "respuesta": "Es una batería de ion-litio de 20 V y 2.000 mAh (2,0 Ah), destinada a los equipos Gamma Multi Energy.", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL"] },
+        { "pregunta": "¿Cuánto tarda en cargarse?", "respuesta": "Gamma informa 40 minutos con el cargador G12493AR y 60 minutos con el G12492AR, bajo CNPT.", "fuentes_ids": ["GAMMA-BAT-90"] },
+        { "pregunta": "¿Qué cuidados de carga documenta Gamma?", "respuesta": "Usar el cargador diseñado para estas baterías, no cortocircuitar terminales y cargar entre 5 y 40 °C.", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL"] }
+      ],
+      "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME"],
+      "busquedas_ids": [],
+      "notas_documentales": ["No hay búsquedas específicas de batería Gamma en los archivos de keywords revisados."]
+    },
+    {
+      "sku": "G12491AR",
+      "nombre": "Batería Multi Energy 20 V, 4,0 Ah",
+      "tipo": "bateria",
+      "identificacion": { "articulo": "G12491AR", "modelo": "G12491AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha, manual y catálogo oficiales identifican el SKU, aportan especificaciones, peso y tiempo de carga; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Tensión del sistema", "valor": "20 V", "fuentes_ids": ["GAMMA-BAT-91"] },
+        { "nombre": "Química", "valor": "Ion-litio", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Capacidad", "valor": "4.000 mAh (4,0 Ah)", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Potencia declarada", "valor": "900 W", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Compatibilidad declarada", "valor": "Herramientas Gamma con sistema Multi Energy", "fuentes_ids": ["GAMMA-BAT-91"] }
+      ],
+      "tiempos_de_carga": [
+        { "con_cargador": "G12493AR", "tiempo": "60 min", "condicion": "CNPT; ficha del fabricante", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL"] },
+        { "con_cargador": "G12492AR", "tiempo": "No informado para esta batería", "condicion": "La ficha confirma compatibilidad, pero no publica duración para G12491AR con este cargador.", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-CHG-92"] }
+      ],
+      "peso": { "valor": "0,7 kg", "fuentes_ids": ["GAMMA-CATALOGO-ME", "GAMMA-BAT-CHG-MANUAL"] },
+      "contenido_de_caja": { "declarado": "La ficha y el manual consultados no enumeran contenido adicional de caja para esta batería.", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL"] },
+      "advertencias": [
+        { "texto": "No cortocircuitar los terminales; mantener la batería lejos del agua y no cargarla fuera de 5–40 °C.", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL"], "ubicacion": "Manual, sección de precauciones para baterías y cargadores" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Qué capacidad tiene?", "respuesta": "Gamma declara 4.000 mAh (4,0 Ah), 20 V, ion-litio y 900 W.", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL"] },
+        { "pregunta": "¿Cuánto tarda en cargarse?", "respuesta": "La ficha informa 60 minutos con el cargador G12493AR, bajo CNPT. Confirma que G12492AR también es compatible, pero no indica el tiempo para esta batería.", "fuentes_ids": ["GAMMA-BAT-91"] },
+        { "pregunta": "¿Con qué herramientas es compatible?", "respuesta": "Gamma la declara apta para todos sus equipos con sistema Multi Energy.", "fuentes_ids": ["GAMMA-BAT-91"] }
+      ],
+      "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME", "GAMMA-CHG-92"],
+      "busquedas_ids": [],
+      "notas_documentales": ["No hay búsquedas específicas de batería Gamma en los archivos de keywords revisados."]
+    },
+    {
+      "sku": "G12492AR",
+      "nombre": "Cargador Multi Energy 20 V, rápido",
+      "tipo": "cargador",
+      "identificacion": { "articulo": "G12492AR", "modelo": "G12492AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: la ficha y el manual oficiales identifican el cargador, detallan parámetros eléctricos, peso y tiempo para la batería G12490AR; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Tensión de carga", "valor": "20 Vcc", "fuentes_ids": ["GAMMA-CATALOGO-ME"] },
+        { "nombre": "Corriente de carga", "valor": "2,2 A (Gamma también la expresa como carga 2.200 mAh)", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Alimentación declarada en ficha", "valor": "220 VCA, 50 Hz", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Tipo", "valor": "Step-down inverter", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Potencia", "valor": "47 W", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Compatibilidad declarada", "valor": "Baterías G12490AR y G12491AR", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-CHG-93"] }
+      ],
+      "tiempos_de_carga": [
+        { "bateria": "G12490AR", "tiempo": "60 min", "condicion": "Condiciones normales de presión y temperatura", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-BAT-CHG-MANUAL"] },
+        { "bateria": "G12491AR", "tiempo": "No informado", "condicion": "La marca confirma que carga ambas baterías, pero no publica el tiempo para G12491AR con G12492AR.", "fuentes_ids": ["GAMMA-CHG-92"] }
+      ],
+      "peso": { "valor": "0,4 kg", "fuentes_ids": ["GAMMA-CATALOGO-ME", "GAMMA-BAT-CHG-MANUAL"] },
+      "contenido_de_caja": { "declarado": "La ficha y el manual consultados no enumeran contenido adicional de caja para este cargador.", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-BAT-CHG-MANUAL"] },
+      "advertencias": [
+        { "texto": "No obstruir la ventilación del cargador; no permitir el ingreso de líquidos ni cortocircuitar terminales; no usar cables dañados.", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL"], "ubicacion": "Manual, sección de precauciones para cargadores" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Qué baterías carga?", "respuesta": "Gamma declara compatibilidad con las baterías G12490AR y G12491AR del sistema Multi Energy.", "fuentes_ids": ["GAMMA-CHG-92"] },
+        { "pregunta": "¿Cuánto tarda en cargar la G12490AR?", "respuesta": "60 minutos en condiciones normales de presión y temperatura. No encontré un tiempo publicado para la G12491AR con este cargador.", "fuentes_ids": ["GAMMA-CHG-92"] },
+        { "pregunta": "¿Qué alimentación requiere?", "respuesta": "La ficha de Gamma declara 220 VCA y 50 Hz; el catálogo también muestra un pictograma de 220–240 V y 50/60 Hz, por lo que esa diferencia documental debe conservarse visible.", "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-CATALOGO-ME"] }
+      ],
+      "fuentes_ids": ["GAMMA-CHG-92", "GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME"],
+      "busquedas_ids": [],
+      "notas_documentales": ["Discrepancia entre la ficha/manual (220 VCA, 50 Hz) y el pictograma de catálogo (220–240 V, 50/60 Hz); conviene resolverla antes de redactar una recomendación de compra.", "No hay búsquedas específicas de cargadores Gamma en los archivos de keywords revisados."]
+    },
+    {
+      "sku": "G12493AR",
+      "nombre": "Cargador Multi Energy 20 V, ultrarrápido 4.000 mAh",
+      "tipo": "cargador",
+      "identificacion": { "articulo": "G12493AR", "modelo": "G12493AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha, manual y catálogo oficiales identifican el cargador, detallan parámetros eléctricos, peso y tiempos de carga para ambas baterías; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Tensión de carga", "valor": "20 Vcc", "fuentes_ids": ["GAMMA-CATALOGO-ME"] },
+        { "nombre": "Corriente de carga", "valor": "4,0 A (Gamma también la expresa como carga 4.000 mAh)", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Alimentación declarada en ficha", "valor": "220 VCA, 50 Hz", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Tipo", "valor": "Step-down inverter", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-CHG-MANUAL"] },
+        { "nombre": "Potencia", "valor": "84 W", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Compatibilidad declarada", "valor": "Baterías G12490AR y G12491AR", "fuentes_ids": ["GAMMA-CHG-93"] }
+      ],
+      "tiempos_de_carga": [
+        { "bateria": "G12490AR", "tiempo": "40 min", "condicion": "Condiciones normales de presión y temperatura", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-CHG-MANUAL"] },
+        { "bateria": "G12491AR", "tiempo": "60 min", "condicion": "CNPT según ficha de batería", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-CATALOGO-ME"] }
+      ],
+      "peso": { "valor": "0,5 kg", "fuentes_ids": ["GAMMA-CATALOGO-ME", "GAMMA-BAT-CHG-MANUAL"] },
+      "contenido_de_caja": { "declarado": "La ficha y el manual consultados no enumeran contenido adicional de caja para este cargador.", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-CHG-MANUAL"] },
+      "advertencias": [
+        { "texto": "No obstruir la ventilación del cargador; no permitir el ingreso de líquidos ni cortocircuitar terminales; no usar cables dañados.", "fuentes_ids": ["GAMMA-BAT-CHG-MANUAL"], "ubicacion": "Manual, sección de precauciones para cargadores" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Qué baterías carga?", "respuesta": "La ficha de Gamma lo declara compatible con las dos baterías Multi Energy: G12490AR y G12491AR.", "fuentes_ids": ["GAMMA-CHG-93"] },
+        { "pregunta": "¿Cuánto tarda en cargar cada batería?", "respuesta": "Gamma informa 40 minutos para G12490AR y 60 minutos para G12491AR, bajo condiciones normales de presión y temperatura.", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-91"] },
+        { "pregunta": "¿Cuáles son sus parámetros eléctricos principales?", "respuesta": "La ficha declara 220 VCA, 50 Hz, 84 W y tipo step-down inverter; el catálogo añade salida de 20 Vcc a 4,0 A.", "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-CATALOGO-ME"] }
+      ],
+      "fuentes_ids": ["GAMMA-CHG-93", "GAMMA-BAT-91", "GAMMA-BAT-CHG-MANUAL", "GAMMA-CATALOGO-ME"],
+      "busquedas_ids": [],
+      "notas_documentales": ["Discrepancia entre la ficha/manual (220 VCA, 50 Hz) y el pictograma de catálogo (220–240 V, 50/60 Hz); conviene resolverla antes de redactar una recomendación de compra.", "No hay búsquedas específicas de cargadores Gamma en los archivos de keywords revisados."]
+    },
+    {
+      "sku": "G12414AR",
+      "nombre": "Equipo para pintar a batería Multi Energy",
+      "tipo": "herramienta",
+      "identificacion": { "articulo": "G12414AR", "modelo": "G12414AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha y catálogo oficiales identifican el modelo y aportan especificaciones, peso y contenido de kit (no incluye batería ni cargador); quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Sistema", "valor": "Batería Multi Energy de 20 V, ion-litio", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Presión", "valor": "0,1 / 0,2 bar", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Pico", "valor": "1,8 mm, metálico", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Recipiente", "valor": "800 ml", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Caudal máximo", "valor": "800 ml/min", "fuentes_ids": ["GAMMA-CATALOGO-ME"] },
+        { "nombre": "Viscosidad máxima", "valor": "50–60 DIN/s", "fuentes_ids": ["GAMMA-CATALOGO-ME"] },
+        { "nombre": "Peso", "valor": "1,1 kg", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Uso declarado", "valor": "Pinturas y barnices al agua o al solvente", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] }
+      ],
+      "tiempos_de_carga": [
+        { "bateria": "G12490AR", "tiempo": "40 min con G12493AR o 60 min con G12492AR", "condicion": "Tiempos publicados para la batería compatible G12490AR, bajo CNPT; no son una prueba de autonomía de la herramienta.", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-TOOL-14"] },
+        { "bateria": "G12491AR", "tiempo": "60 min con G12493AR", "condicion": "Tiempo publicado para la batería compatible G12491AR, bajo CNPT.", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-TOOL-14"] }
+      ],
+      "peso": { "valor": "1,1 kg", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+      "contenido_de_caja": { "declarado": "No incluye batería ni cargador. La ficha no enumera otros elementos incluidos.", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+      "advertencias": [
+        { "texto": "La ficha y el catálogo consultados no muestran una advertencia de seguridad específica. Gamma enlaza un manual de producto desde la ficha web, pero no se pudo recuperar su documento durante esta investigación; no se agregan precauciones inferidas.", "fuentes_ids": ["GAMMA-TOOL-14"] }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Incluye batería y cargador?", "respuesta": "No. Gamma indica que se venden aparte.", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "pregunta": "¿Qué especificaciones de aplicación publica Gamma?", "respuesta": "Presión de 0,1/0,2 bar, pico metálico de 1,8 mm, recipiente de 800 ml, caudal máximo de 800 ml/min y viscosidad máxima de 50–60 DIN/s.", "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME"] },
+        { "pregunta": "¿Qué productos declara aptos el fabricante?", "respuesta": "Pinturas y barnices al agua o al solvente; la fuente lo describe como herramienta de uso hobbista.", "fuentes_ids": ["GAMMA-TOOL-14"] }
+      ],
+      "fuentes_ids": ["GAMMA-TOOL-14", "GAMMA-CATALOGO-ME", "GAMMA-BAT-90", "GAMMA-BAT-91"],
+      "busquedas_ids": [],
+      "notas_documentales": ["No hay búsquedas Gamma relacionadas con equipo para pintar en las consultas de batería/cargador/20V halladas.", "El manual de usuario específico está enlazado en la ficha oficial, pero no se recuperó para transcribir advertencias de seguridad."]
+    },
+    {
+      "sku": "G12407AR",
+      "nombre": "Multitool oscilante a batería Multi Energy",
+      "tipo": "herramienta",
+      "identificacion": { "articulo": "G12407AR", "modelo": "G12407AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha, manual y catálogo oficiales identifican el modelo y aportan especificaciones, peso sin batería, accesorios incluidos y exclusión de batería/cargador; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Sistema", "valor": "Baterías Gamma Multi Energy G12490AR o G12491AR, 20 V", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Velocidad", "valor": "19.000 rpm", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] },
+        { "nombre": "Peso sin batería", "valor": "1,3 kg", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] },
+        { "nombre": "Funciones declaradas", "valor": "Cortar, lijar, lustrar, desbastar y perfilar metal; también perfilar madera con el accesorio y modo correctos", "fuentes_ids": ["GAMMA-TOOL-07"] },
+        { "nombre": "Nivel de presión sonora LpA", "valor": "84,6 dB(A), K=3 dB(A)", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] },
+        { "nombre": "Nivel de potencia sonora LwA", "valor": "95,6 dB(A), K=3 dB(A)", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] },
+        { "nombre": "Vibración declarada", "valor": "16,22 m/s², K=1,5 m/s²", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] }
+      ],
+      "tiempos_de_carga": [
+        { "bateria": "G12490AR", "tiempo": "40 min con G12493AR o 60 min con G12492AR", "condicion": "Tiempos publicados para la batería compatible G12490AR, bajo CNPT; no son una prueba de autonomía de la herramienta.", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-TOOL-07-MANUAL"] },
+        { "bateria": "G12491AR", "tiempo": "60 min con G12493AR", "condicion": "Tiempo publicado para la batería compatible G12491AR, bajo CNPT.", "fuentes_ids": ["GAMMA-BAT-91", "GAMMA-TOOL-07-MANUAL"] }
+      ],
+      "peso": { "valor": "1,3 kg sin batería", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] },
+      "contenido_de_caja": { "declarado": "Incluye espátula, sierra, base con velcro y lijas. No incluye batería ni cargador.", "fuentes_ids": ["GAMMA-TOOL-07"] },
+      "advertencias": [
+        { "texto": "Retirar la batería antes de guardar la herramienta; no debe almacenarse con la batería conectada.", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"], "ubicacion": "Manual, indicaciones de guardado" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Viene con batería o cargador?", "respuesta": "No. Gamma indica que no incluye ninguno de los dos; admite las baterías Multi Energy G12490AR y G12491AR según el manual.", "fuentes_ids": ["GAMMA-TOOL-07", "GAMMA-TOOL-07-MANUAL"] },
+        { "pregunta": "¿Qué accesorios incluye?", "respuesta": "Espátula, sierra, base con velcro y lijas.", "fuentes_ids": ["GAMMA-TOOL-07"] },
+        { "pregunta": "¿Cuánto pesa y a qué velocidad trabaja?", "respuesta": "El manual declara 1,3 kg sin batería y 19.000 rpm.", "fuentes_ids": ["GAMMA-TOOL-07-MANUAL"] }
+      ],
+      "fuentes_ids": ["GAMMA-TOOL-07", "GAMMA-TOOL-07-MANUAL", "GAMMA-CATALOGO-ME", "GAMMA-BAT-90", "GAMMA-BAT-91"],
+      "busquedas_ids": [],
+      "notas_documentales": ["No hay búsquedas Gamma relacionadas con multitool en las consultas de batería/cargador/20V halladas."]
+    },
+    {
+      "sku": "G12402-1AR",
+      "nombre": "Taladro atornillador a batería con percusión Multi Energy",
+      "tipo": "herramienta",
+      "identificacion": { "articulo_solicitado": "G12402-1AR", "articulo_en_ficha_web": "G12402/1AR", "articulo_en_manual": "G12402-1AR", "modelo_de_la_herramienta_en_manual": "G12402AR", "identidad_documentada": true },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Supera el mínimo documental: ficha, manual y catálogo oficiales permiten identificar el SKU de kit pese a la variación de guion/barra, aportan especificaciones, peso y contenido de caja; quedan tres preguntas respondidas con fuentes. La ficha sigue como borrador sin publicar.",
+      "especificaciones": [
+        { "nombre": "Sistema", "valor": "Batería ion-litio Multi Energy de 20 V", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL", "GAMMA-CATALOGO-ME"] },
+        { "nombre": "Velocidad", "valor": "Variable; 0–350 / 0–1.300 rpm, dos velocidades mecánicas", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+        { "nombre": "Mandril", "valor": "Autoajustable de 13 mm", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+        { "nombre": "Ajustes", "valor": "21 posiciones de torque, taladro y percusión", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+        { "nombre": "Torsión máxima", "valor": "30 Nm", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+        { "nombre": "Capacidad máxima de perforación", "valor": "Acero 10 mm; madera 25 mm", "fuentes_ids": ["GAMMA-TOOL-02-MANUAL"] },
+        { "nombre": "Peso declarado", "valor": "2,8 kg; Gamma no aclara en la ficha si incluye la batería", "fuentes_ids": ["GAMMA-TOOL-02"] }
+      ],
+      "tiempos_de_carga": [
+        { "bateria": "G12490AR incluida", "tiempo": "40 min con G12493AR o 60 min con G12492AR", "condicion": "Tiempos publicados para esa batería bajo CNPT.", "fuentes_ids": ["GAMMA-BAT-90", "GAMMA-TOOL-02-MANUAL"] }
+      ],
+      "peso": { "valor": "2,8 kg; condición de pesaje no especificada por Gamma", "fuentes_ids": ["GAMMA-TOOL-02"] },
+      "contenido_de_caja": { "declarado": "El kit G12402-1AR incluye un taladro G12402AR, una batería G12490AR de 2.000 mAh y un cargador G12492AR de 2.200 mAh. El manual nombra la variante de caja con guion y la ficha web la etiqueta con barra.", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+      "advertencias": [
+        { "texto": "Usar el cargador diseñado para baterías de ion-litio; cargar entre 5 y 40 °C; mantener ventilado el cargador y evitar cortocircuitos en los terminales.", "fuentes_ids": ["GAMMA-TOOL-02-MANUAL"], "ubicacion": "Manual, precauciones de batería y cargador" },
+        { "texto": "Desconectar la batería antes del mantenimiento y usar protección personal según la tarea.", "fuentes_ids": ["GAMMA-TOOL-02-MANUAL"], "ubicacion": "Manual, prácticas seguras de uso" }
+      ],
+      "preguntas_frecuentes": [
+        { "pregunta": "¿Qué incluye el kit?", "respuesta": "El manual indica un taladro G12402AR, una batería G12490AR de 2.000 mAh y un cargador G12492AR de 2.200 mAh.", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] },
+        { "pregunta": "¿Tiene percusión y qué torque declara Gamma?", "respuesta": "Sí. La ficha indica modo de percusión y una torsión máxima de 30 Nm.", "fuentes_ids": ["GAMMA-TOOL-02"] },
+        { "pregunta": "¿Cómo se identifica la variante?", "respuesta": "La ficha web usa G12402/1AR; el manual identifica la caja como G12402-1AR y llama G12402AR al taladro incluido. Conviene conservar esos nombres por separado al comparar etiquetas.", "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL"] }
+      ],
+      "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL", "GAMMA-CATALOGO-ME", "GAMMA-BAT-90"],
+      "busquedas_ids": ["KW-02", "KW-03", "KW-05", "KW-06", "KW-07"],
+      "notas_documentales": ["La ficha web y el manual utilizan G12402/1AR, G12402-1AR y G12402AR para el SKU de kit y la herramienta que lo compone; la identidad se considera documentada, pero no se deben colapsar las tres etiquetas.", "El peso publicado de 2,8 kg no aclara si incluye la batería."]
+    }
+  ]
+}
