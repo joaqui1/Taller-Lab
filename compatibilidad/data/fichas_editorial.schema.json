@@ -78,5 +78,27 @@
       }
     }
   },
+  "patternProperties": {
+    "^(BAT|CHG|TOOL|ADP)-[A-Z0-9-]+$": {
+      "type": "object",
+      "required": ["publicado"],
+      "properties": {
+        "publicado": {
+          "type": "boolean",
+          "default": false,
+          "description": "El render editorial permanece desactivado hasta que el dueño lo active explícitamente."
+        },
+        "compatibility": { "type": "array", "items": { "type": "object" } },
+        "specifications": { "type": "object" },
+        "charge_times": { "type": "array", "items": { "type": "object" } },
+        "tool": { "type": "object" },
+        "identification": { "type": "object" },
+        "common_errors": { "type": "array", "items": { "type": "object" } },
+        "faqs": { "type": "array", "items": { "type": "object" } },
+        "image": { "type": "object" }
+      },
+      "additionalProperties": false
+    }
+  },
   "additionalProperties": false
 }

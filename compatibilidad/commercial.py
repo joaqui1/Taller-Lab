@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from compatibilidad import catalog
 from compatibilidad.rules import evaluate_compatibility
+from compatibilidad.editorial import get_published_ficha
 from sierras_comerciales import OFFERS
 
 # Only exact offers with an explicit SKU and review belong here. No fuzzy match.
@@ -44,22 +45,29 @@ def disclosure():
 
 def kit_is_relevant(product):
     battery = catalog.PRODUCTS_BY_ID.get(KIT_REFERENCE)
-    if not battery or battery.status != 'publicado' or product.status != 'publicado':
+    if not battery or battery.status != 'publicado' or product.status != 'publicado' or product.product_type != 'herramienta':
         return False
-    return product.id == battery.id or (product.product_type == 'herramienta' and evaluate_compatibility(battery, product).is_compatible)
+    ficha = get_published_ficha(product.id)
+    packages = ficha.get('tool', {}).get('packages', []) if ficha else []
+    is_bare_tool = any(
+        isinstance(package, dict)
+        and isinstance(package.get('code'), dict)
+        and isinstance(package.get('package_type'), dict)
+        and package.get('code', {}).get('value') == product.mpn
+        and str(package.get('package_type', {}).get('value', '')).strip().casefold() == 'solo cuerpo'
+        for package in packages
+    )
+    return is_bare_tool and evaluate_compatibility(battery, product).is_compatible
 
 
 def render_related_kit(product=None, pair=None, platform_id=None):
     if pair:
         evaluation = evaluate_compatibility(*pair)
-        if not evaluation.is_compatible or evaluation.source_product.id != KIT_REFERENCE or evaluation.target_product.product_type != 'herramienta':
+        if (not evaluation.is_compatible or evaluation.source_product.id != KIT_REFERENCE
+                or evaluation.target_product.product_type != 'herramienta' or not kit_is_relevant(evaluation.target_product)):
             return ''
     elif product:
         if not kit_is_relevant(product):
-            return ''
-    elif platform_id == 'bosch-professional-18v':
-        battery = catalog.PRODUCTS_BY_ID.get(KIT_REFERENCE)
-        if not battery or battery.status != 'publicado':
             return ''
     else:
         return ''

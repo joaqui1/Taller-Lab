@@ -24,6 +24,7 @@ from compatibilidad.telemetry import track_event
 from compatibilidad.commercial import render_product_commercial, render_pair_commercial, render_related_kit
 from compatibilidad.presentation import display_name, compatible_counterparts, compatible_counterpart_pages, product_path, relation_meta, relation_schema, product_kind, guide_links
 from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path
+from compatibilidad.editorial import get_published_ficha, product_image_schema, render_published_product_page
 from compatibilidad.platform_editorial import platform_page_is_indexable, render_platform_editorial_page
 
 
@@ -75,6 +76,10 @@ def get_product_schema_json(prod: Product, site_url: str = "") -> str:
         "isPartOf": {"@type": "Dataset", "name": "Base argentina de compatibilidad de baterías, herramientas y cargadores", "url": f"{site_url}/compatibilidad/"},
         "citation": prod.official_url,
     }
+    image_url = product_image_schema(prod.id, site_url)
+    if image_url:
+        about["image"] = image_url
+        schema["primaryImageOfPage"] = {"@type": "ImageObject", "contentUrl": image_url}
     if evidence and evidence.date_reviewed:
         schema["dateModified"] = evidence.date_reviewed[:10]
     return '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + "</script>"
@@ -501,6 +506,18 @@ def render_battery_detail_page_html(slug: str) -> str:
         return render_pending_product(battery)
     track_event("visita_ficha", query_text=f"battery_{slug}")
 
+    editorial = get_published_ficha(battery.id)
+    if editorial:
+        counterparts = compatible_counterparts(battery)
+        direct_text = (
+            f"Sí: el código exacto {battery.mpn} tiene {len(counterparts)} relaciones de compatibilidad documentadas y vigentes en esta base."
+            if counterparts else
+            f"No se puede confirmar: no hay relaciones de compatibilidad vigentes registradas para el código exacto {battery.mpn}."
+        )
+        h1 = f"{display_name(battery)[0].upper()+display_name(battery)[1:]}: herramientas y cargadores compatibles"
+        direct_answer = f'<p class="compat-direct-answer">{escape(direct_text)}</p>'
+        return render_published_product_page(battery, h1, direct_answer, editorial)
+
     plat = PLATFORMS_BY_ID.get(battery.platform_id)
     plat_name = plat.name if plat else battery.platform_id
     plat_badge = plat.badge_color if plat else "#ff5500"
@@ -626,6 +643,18 @@ def render_charger_detail_page_html(slug: str) -> str:
         return render_pending_product(charger)
     track_event("visita_ficha", query_text=f"charger_{slug}")
 
+    editorial = get_published_ficha(charger.id)
+    if editorial:
+        counterparts = compatible_counterparts(charger)
+        direct_text = (
+            f"Sí: el código exacto {charger.mpn} tiene {len(counterparts)} relaciones de compatibilidad documentadas y vigentes en esta base."
+            if counterparts else
+            f"No se puede confirmar: no hay relaciones de compatibilidad vigentes registradas para el código exacto {charger.mpn}."
+        )
+        h1 = f"{display_name(charger)[0].upper()+display_name(charger)[1:]}: qué baterías carga"
+        direct_answer = f'<p class="compat-direct-answer">{escape(direct_text)}</p>'
+        return render_published_product_page(charger, h1, direct_answer, editorial)
+
     plat = PLATFORMS_BY_ID.get(charger.platform_id)
     plat_name = plat.name if plat else charger.platform_id
     plat_badge = plat.badge_color if plat else "#ff5500"
@@ -746,6 +775,12 @@ def render_tool_detail(product):
     name=display_name(product)
     lead=(f'Según la documentación oficial de {escape(product.brand)}, {escape(display_name(product,True))} ({escape(product.mpn)}) funciona con {len(batteries)} baterías verificadas en esta base: '
           + ', '.join(escape(b.model_name) for b in batteries) + '. Cada enlace abre la respuesta con el extracto del fabricante y la fecha de comprobación.') if batteries else 'Todavía no hay baterías con compatibilidad documentada vigente para este código.'
+    editorial=get_published_ficha(product.id)
+    if editorial:
+        h1=f'Baterías compatibles con {display_name(product,True)}'
+        direct_answer=(f'<p class="compat-direct-answer">{lead}</p>'
+                       f'<p>Código exacto: <code>{escape(product.mpn)}</code>. Fuente comprobada el {escape(evidence.date_reviewed)} (UTC).</p>')
+        return render_published_product_page(product,h1,direct_answer,editorial,guide_links(product))
     return f'<article style="max-width:860px;margin:auto;padding:2rem 1rem"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Herramientas</nav><h1>Baterías compatibles con {escape(display_name(product,True))}</h1><p class="compat-direct-answer">{lead}</p><p>Código exacto: <code>{escape(product.mpn)}</code>. Fuente comprobada el {escape(evidence.date_reviewed)} (UTC).</p><h2>Baterías documentadas para {escape(product.model_name)}</h2><ul>{"".join(rows)}</ul>{guide_links(product)}<p><a href="{escape(evidence.official_url)}">Ficha oficial del fabricante</a> · <a href="/compatibilidad/metodologia/">Metodología</a></p>{source_panel(product)}{render_product_commercial(product)}</article>'
 
 

@@ -986,5 +986,326 @@
   "CHG-TOTAL-TFCLI2001": {"publicado": false},
   "TOOL-TOTAL-TAGLI27153": {"publicado": false},
   "TOOL-TOTAL-TIDLI206681": {"publicado": false},
-  "TOOL-TOTAL-TIRLI2028": {"publicado": false}
+  "TOOL-TOTAL-TIRLI2028": {"publicado": false},
+  "ADP-MAKITA-ADP10": {
+    "publicado": false
+  },
+  "BAT-BOSCH-GBA-2AH": {
+    "publicado": false
+  },
+  "BAT-BOSCH-GBA-4AH": {
+    "publicado": false
+  },
+  "BAT-BOSCH-GBA-5AH": {
+    "publicado": false
+  },
+  "BAT-BOSCH-PBA-18V-P4A": {
+    "publicado": false
+  },
+  "BAT-BOSCH-PROCORE-4AH": {
+    "publicado": false
+  },
+  "BAT-BOSCH-PROCORE-8AH": {
+    "publicado": false
+  },
+  "BAT-DEWALT-DCB120": {
+    "publicado": false
+  },
+  "BAT-DEWALT-DCB203": {
+    "publicado": false
+  },
+  "BAT-DEWALT-DCB204": {
+    "publicado": false
+  },
+  "BAT-DEWALT-DCB205": {
+    "publicado": false
+  },
+  "BAT-DEWALT-FLEXVOLT-6AH": {
+    "publicado": false
+  },
+  "BAT-DEWALT-FLEXVOLT-9AH": {
+    "publicado": false
+  },
+  "BAT-DEWALT-POWERSTACK-17": {
+    "publicado": false
+  },
+  "BAT-DEWALT-POWERSTACK-50": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-25AH": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-2AH": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-3AH-PLUS": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-4AH": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-52AH-PLUS": {
+    "publicado": false
+  },
+  "BAT-EINHELL-PXC-MULTI-AH": {
+    "publicado": false
+  },
+  "BAT-GAMMA-G12490AR": {
+    "publicado": false
+  },
+  "BAT-GAMMA-G12491AR": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL1815N": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL1830B": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL1840B": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL1850B": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL1860B": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL4025": {
+    "publicado": false
+  },
+  "BAT-MAKITA-BL4040": {
+    "publicado": false
+  },
+  "CHG-BOSCH-GAL-1880CV": {
+    "publicado": false
+  },
+  "CHG-BOSCH-GAL-1880CV-1600A015TL": {
+    "publicado": false
+  },
+  "CHG-BOSCH-GAL-18V40": {
+    "publicado": false
+  },
+  "CHG-BOSCH-GAL-18V40-1600A028U0": {
+    "publicado": false
+  },
+  "CHG-BOSCH-GAX-18V30": {
+    "publicado": false
+  },
+  "CHG-DEWALT-DCB107-AR": {
+    "publicado": false
+  },
+  "CHG-DEWALT-DCB1106-AR": {
+    "publicado": false
+  },
+  "CHG-DEWALT-DCB115-AR": {
+    "publicado": false
+  },
+  "CHG-DEWALT-DCB118": {
+    "publicado": false
+  },
+  "CHG-EINHELL-PXC-3A": {
+    "publicado": false
+  },
+  "CHG-EINHELL-PXC-BOOST-6A": {
+    "publicado": false
+  },
+  "CHG-EINHELL-PXC-FAST-4A": {
+    "publicado": false
+  },
+  "CHG-EINHELL-PXC-TWIN-3A": {
+    "publicado": false
+  },
+  "CHG-GAMMA-G12492AR": {
+    "publicado": false
+  },
+  "CHG-GAMMA-G12493AR": {
+    "publicado": false
+  },
+  "CHG-MAKITA-DC18RC": {
+    "publicado": false
+  },
+  "CHG-MAKITA-DC18RD": {
+    "publicado": false
+  },
+  "CHG-MAKITA-DC18SD": {
+    "publicado": false
+  },
+  "CHG-MAKITA-DC40RA": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GAS-18V-1": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GBH-180-LI": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GDX-18V-200": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GKS-18V-57": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GSA-18V-LI": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GSB-18V-50": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GSR-18V-50": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GST-18V-LIB": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GWS-180-LI": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GWS-18V-10": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GWS-18V-10P": {
+    "publicado": false
+  },
+  "TOOL-BOSCH-GWS-18V-10PSC": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCD7781": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCD796B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCD996B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCD999B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCF887B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCG412B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCG413B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCG418B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCH133B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCS391B": {
+    "publicado": false
+  },
+  "TOOL-DEWALT-DCS578B": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-GE-CL-36-LI-E": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-GE-CM-36-37": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-GE-LC-36-35": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TC-JS-18": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-AG-18-115": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-CD-18-2-LI-I": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-CD-18-40": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-CI-18-1": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-CS-18-165": {
+    "publicado": false
+  },
+  "TOOL-EINHELL-TE-HD-18-LI": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12100AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12200AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12201AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12300AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12400AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12402-1AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12407AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12414AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12500AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12600AR": {
+    "publicado": false
+  },
+  "TOOL-GAMMA-G12700AR": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DDF485Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DGA454Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DGA504Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHP458Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHP484Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHR202Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHR280Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHS680Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DHS782Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DJR186Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DTD152Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DTM51Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-DUC353Z": {
+    "publicado": false
+  },
+  "TOOL-MAKITA-GA005GZ": {
+    "publicado": false
+  }
 }

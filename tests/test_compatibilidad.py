@@ -450,20 +450,30 @@ class CompatibilityRegression(unittest.TestCase):
     def test_related_kit_cta_is_contextual_and_disclosed(self):
         from bs4 import BeautifulSoup
         from compatibilidad.commercial import render_pair_commercial
+        from compatibilidad.editorial import EDITORIAL_FICHAS
         battery=catalog.PRODUCTS_BY_ID['BAT-BOSCH-GBA-4AH']
         tool=catalog.PRODUCTS_BY_ID['TOOL-BOSCH-GWS-18V-10']
-        soup=BeautifulSoup(render_pair_commercial(battery,tool),'html.parser')
+        solo_body={'publicado':True,'tool':{'packages':[{'code':{'value':tool.mpn},'package_type':{'value':'Solo cuerpo'}}]}}
+        with patch.dict(EDITORIAL_FICHAS,{tool.id:solo_body}):
+            soup=BeautifulSoup(render_pair_commercial(battery,tool),'html.parser')
         link=soup.select_one('.compat-buy-cta')
         self.assertEqual(link['href'],'https://meli.la/1aD8WYE')
         self.assertTrue({'sponsored','nofollow','noopener','noreferrer'} <= set(link['rel']))
         self.assertIn('precio y contenido',link.get_text())
-        self.assertNotIn('comisión',soup.get_text())
+        self.assertIn('comisión',soup.get_text())
         self.assertIn('kit distinto',soup.get_text())
         self.assertEqual(render_pair_commercial(battery,catalog.PRODUCTS_BY_ID['BAT-GAMMA-G12490AR']),'')
 
     def test_commercial_cta_not_shown_for_other_platform_or_pending_model(self):
         from compatibilidad.commercial import render_product_commercial,render_related_kit
+        from compatibilidad.editorial import EDITORIAL_FICHAS
         self.assertEqual(render_product_commercial(catalog.PRODUCTS_BY_ID['BAT-GAMMA-G12490AR']),'')
+        self.assertEqual(render_product_commercial(catalog.PRODUCTS_BY_ID['BAT-BOSCH-GBA-4AH']),'')
+        tool=catalog.PRODUCTS_BY_ID['TOOL-BOSCH-GWS-18V-10']
+        self.assertEqual(render_product_commercial(tool),'')
+        full_kit={'publicado':True,'tool':{'packages':[{'code':{'value':tool.mpn},'package_type':{'value':'Kit'}}]}}
+        with patch.dict(EDITORIAL_FICHAS,{tool.id:full_kit}):
+            self.assertEqual(render_product_commercial(tool),'')
         self.assertEqual(render_related_kit(platform_id='gamma-multienergy'),'')
         pending=next(p for p in catalog.CATALOG_PRODUCTS if p.status!='publicado')
         self.assertEqual(render_product_commercial(pending),'')

@@ -94,8 +94,56 @@ El CTA dice “Consultar precio y contenido del kit Bosch 1600A015TD” y conser
 
 Las ofertas exactas se incorporan en `data/commercial_offers.json`, bajo `exact_offers`, usando como clave el ID del producto. Cada registro necesita `brand`, `mpn`, `url`, `identity_confirmed`, `reviewed_at` con zona horaria y `contents_note`. Revisar el destino y confirmar SKU antes de marcar `identity_confirmed: true`; comprobar kit, variante y tensión. Solo se aceptan enlaces de referido `https://meli.la/`, con identidad coincidente y revisión de menos de 30 días. La fecha es de la revisión real del aviso, no de la edición del JSON. Actualmente no hay ofertas exactas recibidas para los 18 modelos: no se inventaron enlaces ni se reutilizó el de la amoladora GWS 10 sin código completo.
 
+### Plantilla editorial de las fichas de producto
+
+`data/fichas_editorial.json` reserva una clave de primer nivel por ID de producto para el render enriquecido. Los registros nuevos llevan `publicado: false`; solo el dueño activa el render cambiándolo expresamente a `true`. Las investigaciones preexistentes del mismo archivo se conservan en sus campos actuales y no se leen para renderizar. Las nuevas claves por ID no incorporan especificaciones, respuestas ni imágenes. Los bloques sin datos no se renderizan.
+
+Cada dato documentado usa `value`, `unit`, `source` (URL oficial HTTPS), `section` (sección de la ficha o manual) y `date_consulted` en formato `dd/mm/aaaa`. Se admiten unidades conocidas; para especificaciones: tensión `V`, capacidad `Ah`, energía `Wh`, peso `kg` o `g`, dimensiones `mm` o `cm` y tecnología de celdas como texto. La energía debe ser el producto numérico de tensión por capacidad y se muestra como cálculo de TallerLab. Los tiempos usan `min` o `h`.
+
+Este JSONC ilustra la forma, no es un registro para copiar ni contiene datos de un producto:
+
+```jsonc
+{
+  "ID_PRODUCTO": { // Reemplazar por un ID ya existente en el catálogo.
+    "publicado": false, // Mantenerlo así hasta la activación editorial del dueño.
+    "compatibility": [
+      {
+        "counterpart_id": "ID_CONTRAPARTE", // El nombre, código y enlace salen del catálogo.
+        "type": { "value": "DATO_DOCUMENTADO", "unit": "tipo de relación", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+        "conditions": { "value": "CONDICION_DOCUMENTADA", "unit": "condición", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } // Omitir si no existe una condición.
+      }
+    ],
+    "specifications": {
+      "voltage": { "value": 0, "unit": "V", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "capacity_ah": { "value": 0, "unit": "Ah", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "energy_wh": { "value": 0, "unit": "Wh", "source": "URL_OFICIAL_HTTPS", "section": "CALCULO_TALLERLAB_V_POR_AH", "date_consulted": "dd/mm/aaaa" }
+    },
+    "charge_times": [{ "counterpart_id": "ID_CONTRAPARTE", "time": { "value": 0, "unit": "min", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } }],
+    "tool": { "packages": [{
+      "code": { "value": "CODIGO_EXACTO", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "package_type": { "value": "DATO_DOCUMENTADO", "unit": "presentación", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "box_contents": [{ "value": "ELEMENTO_DOCUMENTADO", "unit": "elemento", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }]
+    }] },
+    "identification": { "text": { "value": "INSTRUCCION_DOCUMENTADA", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } },
+    "common_errors": [{ "value": "ERROR_DOCUMENTADO", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }],
+    "faqs": [{
+      "question": { "value": "PREGUNTA", "unit": "pregunta", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "answer": { "value": "RESPUESTA_DOCUMENTADA", "unit": "respuesta", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }
+    }],
+    "image": { // Opcional; solo se renderiza con archivo, texto alternativo y crédito.
+      "file": { "value": "/assets/ARCHIVO", "unit": "archivo", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "alt": { "value": "DESCRIPCION_DE_LA_IMAGEN", "unit": "texto alternativo", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "author_or_license": { "value": "AUTOR_O_LICENCIA", "unit": "autor o licencia", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "credit": { "value": "CREDITO_VISIBLE", "unit": "crédito visible", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }
+    }
+  }
+}
+```
+
+El bloque de herramienta registra la presentación y el contenido por código exacto. El kit Bosch 1600A015TD solo puede acompañar a una herramienta publicada cuya ficha indique `package_type.value` igual a `Solo cuerpo` y cuyo código coincida; no aparece en fichas de baterías, cargadores ni herramientas sin esa documentación. Una imagen se atribuye visiblemente y se incorpora al JSON-LD de la página; no se genera marcado `FAQPage`.
+
 - Ampliar la cobertura con fichas y manuales oficiales de las referencias pendientes. Priorizar los modelos que consultan los lectores; documentar SKU exacto, plataforma, especificaciones, condiciones y relación antes de habilitar respuestas afirmativas. La cobertura verificada actual solo corresponde a Bosch y Gamma.
 - Añadir ensayos propios reproducibles y fotografías originales si se pretende acreditar experiencia práctica: identificar unidades, procedimiento, resultado y autor de cada ensayo. La verificación documental existente no equivale a un ensayo físico.
-- Cerrar la revisión visual en escritorio y móvil con un navegador que pueda acceder al servidor local o al futuro preview de Vercel. En esta sesión el navegador no pudo llegar al servidor local; la política del navegador tampoco permite abrir archivos file://. No se certificó esa comprobación visual.
+- Cerrar la revisión visual en escritorio y móvil con un navegador que pueda acceder al servidor local o al futuro preview de Vercel. La plantilla de TAREA 6 se revisó en escritorio con un fixture sintético; todavía falta la comprobación en viewport móvil.
 
 No se aprovisionó PostgreSQL ni se desplegó el sitio: faltan esas acciones y comprobar una ejecución real de Vercel para certificar operación programada en producción. Esta entrega habilita ese camino con código y configuración verificables; no promete autoridad SEO ni ampliación automática de cualquier fabricante.
