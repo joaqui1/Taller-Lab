@@ -23,6 +23,12 @@ Configurar `CRON_SECRET` como variable privada de Vercel. El cron `30 10 * * *` 
 
 Las respuestas públicas pueden usar el corte verificado incluido si no se consigue leer PostgreSQL; esa caída se registra y el monitor falla explícitamente. La caducidad de evidencia impide que el corte siga emitiendo síes indefinidamente. La telemetría es opcional y falla sin interrumpir páginas; registra únicamente contadores por evento, nunca consultas libres, IPs o cookies.
 
+## Alertas
+
+El workflow `.github/workflows/compatibilidad-operacion.yml` compara cada día el estado público con la ejecución anterior guardada en la caché de GitHub Actions. Avisa cuando bajan los productos publicados o las relaciones, cuando un producto pasa de publicado a suspendido/pendiente, aparece una nueva fuente fallida o la evidencia más antigua supera 20 días. El mensaje incluye el modelo, el motivo y la fecha cuando se suspende un producto; la alerta de antigüedad incluye la fecha de revisión más antigua. Se avisa al dueño por los canales existentes de Comunidad: correo mediante Resend a `COMUNIDAD_AVISO_EDITOR_EMAIL` y/o Telegram al chat configurado. No cambia el vencimiento documental de 30 días.
+
+En GitHub, cargar como secretos del repositorio `RESEND_API_KEY`, `COMUNIDAD_AVISOS_REMITENTE` y `COMUNIDAD_AVISO_EDITOR_EMAIL` para correo; o `COMUNIDAD_TELEGRAM_BOT_TOKEN` y `COMUNIDAD_TELEGRAM_CHAT_ID` para Telegram. Se pueden habilitar ambos canales. Si no hay un canal configurado o falla la entrega, el workflow falla y queda sujeto a las notificaciones habituales de GitHub Actions. No se requieren variables nuevas en Vercel; el workflow consulta el endpoint público `/api/compatibilidad/estado`.
+
 ## Comandos
 
 Desde el proyecto, con requirements instalados:
@@ -64,7 +70,7 @@ Una fuente inaccesible pasa a pendiente y deja de sostener un sí; un contenido 
 
 Se ejecutó un mantenimiento real el 4 de octubre de 2026: las 18 fichas Bosch/Gamma estuvieron accesibles, se comprobó el manual complementario y se publicó una versión en SQLite aislado para verificar la persistencia. Las 32 pruebas cubren ambigüedad independiente de ambos campos, colisiones, falsos dominios, fuente retirada/modificada, aprobación explícita, caducidad en procesos calientes, especificaciones adulteradas, publicación persistida, concurrencia, rollback, exportaciones, autenticación, fallos HTTP 503, noindex de pendientes y lectura pública ante fallo de SQLite.
 
-`/api/compatibilidad/estado` devuelve HTTP 200 únicamente con almacenamiento persistido, comprobación de menos de 26 horas, fuentes accesibles y modelos verificados. Devuelve 503 si se degrada. El cron también devuelve 503 si el ciclo requiere revisión. `.github/workflows/compatibilidad-operacion.yml` prepara una comprobación externa diaria a las 08:30 Argentina; solo se activa al publicar el workflow en la rama predeterminada. Las notificaciones dependen de la configuración de GitHub del propietario.
+`/api/compatibilidad/estado` devuelve HTTP 200 únicamente con almacenamiento persistido, comprobación de menos de 26 horas, fuentes accesibles y modelos verificados. Devuelve 503 si se degrada. El cron también devuelve 503 si el ciclo requiere revisión. `.github/workflows/compatibilidad-operacion.yml` prepara una comprobación externa diaria a las 08:30 Argentina; solo se activa al publicar el workflow en la rama predeterminada. Las alertas al dueño requieren configurar los secretos indicados en la sección Alertas.
 
 ## Despliegue preparado, publicación diferida
 
