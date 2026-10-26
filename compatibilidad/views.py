@@ -24,6 +24,7 @@ from compatibilidad.telemetry import track_event
 from compatibilidad.commercial import render_product_commercial, render_pair_commercial, render_related_kit
 from compatibilidad.presentation import display_name, compatible_counterparts, compatible_counterpart_pages, product_path, relation_meta, relation_schema, product_kind, guide_links
 from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path
+from compatibilidad.platform_editorial import platform_page_is_indexable, render_platform_editorial_page
 
 
 def get_verdict_badge_html(verdict: str) -> str:
@@ -390,6 +391,10 @@ def render_platform_page_html(platform_id: str) -> str:
     if not plat:
         return ""
 
+    editorial_page = render_platform_editorial_page(platform_id)
+    if editorial_page is not None:
+        return editorial_page
+
     track_event("visita_plataforma", query_text=f"platform_{platform_id}")
 
     prods = [p for p in CATALOG_PRODUCTS if p.platform_id == plat.id and p.status=='publicado']
@@ -749,7 +754,7 @@ COMPATIBILITY_STATIC_PATHS: Tuple[str, ...] = (
     "/compatibilidad/matriz-imprimible/",
     "/compatibilidad/metodologia/",
     "/compatibilidad/cambios/",
-) + tuple(f"/plataformas/{p.id}/" for p in PLATFORMS) + tuple(
+) + tuple(f"/plataformas/{p.id}/" for p in PLATFORMS if platform_page_is_indexable(p.id)) + tuple(
     f"/baterias/{p.slug}/" for p in CATALOG_PRODUCTS if p.product_type == ProductType.BATERIA.value
 ) + tuple(
     f"/cargadores/{p.slug}/" for p in CATALOG_PRODUCTS if p.product_type in (ProductType.CARGADOR.value, ProductType.ADAPTADOR.value)

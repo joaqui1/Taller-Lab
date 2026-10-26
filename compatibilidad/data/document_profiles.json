@@ -991,4 +991,205 @@
       "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
     }
   }
+,
+    {
+      "product_id": "BAT-TOTAL-TFBLI20011",
+      "model_name": "Batería de ion-litio 20 V, 2,0 Ah",
+      "assertions": [
+        "TFBLI20011",
+        "Volts:20V",
+        "Lithium-Ion 2.0Ah battery",
+        "One battery fits all P20S multiple tools"
+      ],
+      "excerpt": "One battery fits all P20S multiple tools",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TFBLI20011",
+        "model_name": "Batería de ion-litio 20 V, 2,0 Ah",
+        "product_type": "bateria",
+        "platform_id": "total-p20s",
+        "capacity_ah": 2.0,
+        "voltage_nominal": "20 V",
+        "voltage_max": null,
+        "required_packs": 1,
+        "specs": {}
+      },
+      "compatible_target_types": [
+        "herramienta"
+      ],
+      "supporting_urls": [
+        "https://www.totalbusiness.com/pk/product/p20s-lithium-ion-battery-and-charger-kit/TFBCPK1222"
+      ]
+    },
+    {
+      "product_id": "BAT-TOTAL-TFBLI20021",
+      "model_name": "Batería de ion-litio 20 V, 4,0 Ah",
+      "assertions": [
+        "TFBLI20021",
+        "Voltaje:20V",
+        "Batería de iones de litio de 4,0 Ah",
+        "Una batería se adapta a todas las herramientas múltiples P20S"
+      ],
+      "excerpt": "Una batería se adapta a todas las herramientas múltiples P20S",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TFBLI20021",
+        "model_name": "Batería de ion-litio 20 V, 4,0 Ah",
+        "product_type": "bateria",
+        "platform_id": "total-p20s",
+        "capacity_ah": 4.0,
+        "voltage_nominal": "20 V",
+        "voltage_max": null,
+        "required_packs": 1,
+        "specs": {}
+      },
+      "compatible_target_types": [
+        "herramienta"
+      ],
+      "supporting_urls": []
+    },
+    {
+      "product_id": "CHG-TOTAL-TFCLI2001",
+      "model_name": "Cargador de batería P20S TFCLI2001, 20 V / 2 A",
+      "assertions": [
+        "TFCLI2001",
+        "Input voltage:220-240V~50/60Hz",
+        "Output voltage:20V",
+        "Output current:2A",
+        "P20S Lithium-Ion battery charger(TFCLI2001)",
+        "TFBLI20011",
+        "TFBLI20021"
+      ],
+      "excerpt": "Output current:2A",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TFCLI2001",
+        "model_name": "Cargador de batería P20S TFCLI2001, 20 V / 2 A",
+        "product_type": "cargador",
+        "platform_id": "total-p20s",
+        "capacity_ah": null,
+        "voltage_nominal": null,
+        "voltage_max": "20 V",
+        "required_packs": 1,
+        "specs": {
+          "input_voltage": "220-240 V~50/60 Hz",
+          "output_current": "2 A"
+        }
+      },
+      "compatible_target_types": [
+        "bateria"
+      ],
+      "supporting_urls": [
+        "https://www.totalbusiness.com/pk/product/p20s-lithium-ion-battery-and-charger-kit/TFBCPK1222",
+        "https://www.totalbusiness.com/gn-en/product/cordless-2-pcs-combo-kit/TCKLI20273"
+      ]
+    },
+    {
+      "product_id": "TOOL-TOTAL-TIDLI206681",
+      "model_name": "Taladro percutor inalámbrico brushless TIDLI206681",
+      "assertions": [
+        "TIDLI206681",
+        "Compact Brushless Cordless Impact Drill",
+        "Voltage: 20V",
+        "No-load speed: 0-500/0-2000rpm",
+        "Max impact rate: 30000bpm",
+        "P20S Lithium-Ion battery charger(TFCLI2001)",
+        "2 Pcs 4.0Ah battery pack(TFBLI20021)"
+      ],
+      "excerpt": "P20S Lithium-Ion battery charger(TFCLI2001)",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TIDLI206681",
+        "model_name": "Taladro percutor inalámbrico brushless TIDLI206681",
+        "product_type": "herramienta",
+        "platform_id": "total-p20s",
+        "capacity_ah": null,
+        "voltage_nominal": "20 V",
+        "voltage_max": null,
+        "required_packs": 1,
+        "specs": {
+          "no_load_speed": "0-500 / 0-2000 rpm",
+          "max_impact_rate": "30000 bpm",
+          "chuck_capacity": "13 mm"
+        }
+      },
+      "compatible_target_types": [],
+      "supporting_urls": [
+        "https://www.totalbusiness.com/gn-en/product/cordless-2-pcs-combo-kit/TCKLI20273"
+      ]
+    },
+    {
+      "product_id": "TOOL-TOTAL-TAGLI27153",
+      "model_name": "Amoladora angular inalámbrica brushless TAGLI27153, 115 mm",
+      "assertions": [
+        "TAGLI27153",
+        "Cordless angle grinder",
+        "Brushless motor",
+        "Voltaje",
+        "20V",
+        "Disc diameter:115mm",
+        "P20S Lithium-Ion battery charger(TFCLI2001)",
+        "2 Pcs 4.0Ah battery pack(TFBLI20021)"
+      ],
+      "excerpt": "TAGLI27153",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TAGLI27153",
+        "model_name": "Amoladora angular inalámbrica brushless TAGLI27153, 115 mm",
+        "product_type": "herramienta",
+        "platform_id": "total-p20s",
+        "capacity_ah": null,
+        "voltage_nominal": "20 V",
+        "voltage_max": null,
+        "required_packs": 1,
+        "specs": {
+          "max_input_power": "1000 W",
+          "no_load_speed": "3000 / 6000 / 9000 rpm",
+          "disc_diameter": "115 mm",
+          "spindle_thread": "M14"
+        }
+      },
+      "compatible_target_types": [],
+      "supporting_urls": [
+        "https://www.totalbusiness.com/gn-en/product/cordless-2-pcs-combo-kit/TCKLI20273"
+      ]
+    },
+    {
+      "product_id": "TOOL-TOTAL-TIRLI2028",
+      "model_name": "Atornillador de impacto inalámbrico TIRLI2028",
+      "assertions": [
+        "TIRLI2028",
+        "Cordless impact driver",
+        "Brushless motor",
+        "Voltage: 20V",
+        "Hex shank: 6.35mm",
+        "Max torque: 285Nm",
+        "2 Pcs 2.0Ah battery pack(TFBLI20011)",
+        "1 Pcs charger(TFCLI2001)"
+      ],
+      "excerpt": "TIRLI2028",
+      "platform": "total-p20s",
+      "facts": {
+        "mpn": "TIRLI2028",
+        "model_name": "Atornillador de impacto inalámbrico TIRLI2028",
+        "product_type": "herramienta",
+        "platform_id": "total-p20s",
+        "capacity_ah": null,
+        "voltage_nominal": "20 V",
+        "voltage_max": null,
+        "required_packs": 1,
+        "specs": {
+          "hex_shank": "6.35 mm",
+          "no_load_speed": "0-1600 / 0-1900 / 0-2600 rpm",
+          "impact_rate": "0-2100 / 0-2500 / 0-2900 bpm",
+          "max_torque": "285 Nm"
+        }
+      },
+      "compatible_target_types": [],
+      "supporting_urls": [
+        "https://www.totalbusiness.com/th/product/cordless-2-pcs-combo-kit/TCKLI20272",
+        "https://www.totalbusiness.com/my/product/lithium-ion-battery-pack/TFBLI20011",
+        "https://www.totalbusiness.com/product/p20s-battery-charger/TFCLI2001"
+      ]
+    }
 ]

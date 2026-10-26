@@ -20,6 +20,7 @@ OFFICIAL_DOMAINS = {
     'dewalt.com.ar', 'dewalt.com', 'makita.com.ar', 'makitatools.com',
     'gammaherramientas.com.ar',
     'media.bosch-pt.com', 'media.th.bosch-pt.com',
+    'totalbusiness.com', 'totaltools.cn',
 }
 
 def official_url(url):

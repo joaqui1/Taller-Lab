@@ -12,10 +12,69 @@
       { "id": "KW-04", "consulta": "llave de impacto a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
       { "id": "KW-05", "consulta": "taladro a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
       { "id": "KW-06", "consulta": "taladro atornillador a bateria gamma", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
-      { "id": "KW-07", "consulta": "taladro gamma a bateria", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" }
+      { "id": "KW-07", "consulta": "taladro gamma a bateria", "volumen_mensual": 50, "archivo": "keywords_taladro.csv" },
+    {
+      "id": "TOTAL-KW-01",
+      "consulta": "batería total 20v",
+      "volumen_mensual": 500,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-02",
+      "consulta": "taladro total 20v",
+      "volumen_mensual": 500,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-03",
+      "consulta": "taladro inalambrico total 20v",
+      "volumen_mensual": 500,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-04",
+      "consulta": "taladro percutor total",
+      "volumen_mensual": 500,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-05",
+      "consulta": "taladro percutor total 20v",
+      "volumen_mensual": 50,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-06",
+      "consulta": "amoladora inalambrica total",
+      "volumen_mensual": 500,
+      "archivo": "keywords_amoladora.csv"
+    },
+    {
+      "id": "TOTAL-KW-07",
+      "consulta": "amoladora total 20v",
+      "volumen_mensual": 50,
+      "archivo": "keywords_amoladora.csv"
+    },
+    {
+      "id": "TOTAL-KW-08",
+      "consulta": "atornillador total 20v",
+      "volumen_mensual": 500,
+      "archivo": "keywords_taladro.csv"
+    },
+    {
+      "id": "TOTAL-KW-09",
+      "consulta": "atornillador de impacto total 20v",
+      "volumen_mensual": 50,
+      "archivo": "keywords_taladro.csv"
+    }
     ],
     "semrush": "No se encontraron consultas con Gamma que además incluyan batería, cargador o una mención exacta de 20V en los CSV revisados.",
-    "baterias_y_cargadores": "No se encontraron búsquedas específicas de baterías Gamma ni cargadores Gamma; ausencia en estos archivos no equivale a volumen cero."
+    "baterias_y_cargadores": "No se encontraron búsquedas específicas de baterías Gamma ni cargadores Gamma; ausencia en estos archivos no equivale a volumen cero.",
+    "total": {
+      "metodologia": "Los volúmenes medios de los CSV de Google Ads disponibles se usan como señales por categoría, no como popularidad o ventas de un SKU.",
+      "seleccion_modelos": "Se eligieron dos baterías, un cargador y tres herramientas en categorías con consultas relevantes. La presencia local se cotejó por separado y no sustenta compatibilidad.",
+      "sin_dato": "No se encontró una fila de cargador TOTAL 20V en los CSV revisados; no se interpreta como volumen cero."
+    }
   },
   "fuentes": [
     { "id": "GAMMA-BAT-90", "titulo": "Batería multienergy 20V – 700W (G12490AR)", "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12490ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
@@ -28,7 +87,84 @@
     { "id": "GAMMA-TOOL-07", "titulo": "Multitool oscilante a batería (G12407AR)", "url": "https://www.gammaherramientas.com.ar/producto/multitooloscilante-g12407/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
     { "id": "GAMMA-TOOL-07-MANUAL", "titulo": "Manual oficial de las multitool G12407AR y G12428AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12407AR-G12428AR_MANUAL_co.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" },
     { "id": "GAMMA-TOOL-02", "titulo": "Taladro atornillador a batería con percusión – Multienergy (G12402/1AR)", "url": "https://www.gammaherramientas.com.ar/producto/atornillador-abateria-multienergy-percusion/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
-    { "id": "GAMMA-TOOL-02-MANUAL", "titulo": "Manual oficial de taladros G12401AR–G12405AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12401AR_c.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" }
+    { "id": "GAMMA-TOOL-02-MANUAL", "titulo": "Manual oficial de taladros G12401AR–G12405AR", "url": "https://www.gammaherramientas.com.ar/web/wp-content/uploads/2023/09/G12401AR_c.pdf", "tipo": "manual_oficial", "consultado": "2026-10-26" },
+    {
+      "id": "TOTAL-P20S",
+      "titulo": "TOTAL P20S Series Cordless Tools",
+      "url": "https://totaltools.cn/products/p20s",
+      "tipo": "catalogo_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TFBLI20011",
+      "titulo": "TFBLI20011 Lithium-Ion battery pack",
+      "url": "https://www.totalbusiness.com/my/product/lithium-ion-battery-pack/TFBLI20011",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TFBLI20021",
+      "titulo": "TFBLI20021 Batería De Ion De Litio",
+      "url": "https://www.totalbusiness.com/pa/product/lithium-ion-battery-pack/TFBLI20021",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TFCLI2001",
+      "titulo": "Battery charger TFCLI2001",
+      "url": "https://www.totalbusiness.com/product/p20s-battery-charger/TFCLI2001",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TFBCPK1222",
+      "titulo": "TFBCPK1222 P20S Lithium-Ion battery and charger kit",
+      "url": "https://www.totalbusiness.com/pk/product/p20s-lithium-ion-battery-and-charger-kit/TFBCPK1222",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TCKLI20273",
+      "titulo": "TCKLI20273 2 Pcs Cordless combo kit",
+      "url": "https://www.totalbusiness.com/gn-en/product/cordless-2-pcs-combo-kit/TCKLI20273",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TCKLI20272",
+      "titulo": "TCKLI20272 Cordless 2 pcs combo kit",
+      "url": "https://www.totalbusiness.com/th/product/cordless-2-pcs-combo-kit/TCKLI20272",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TIDLI206681",
+      "titulo": "TIDLI206681 Compact Brushless Cordless Impact Drill",
+      "url": "https://www.totalbusiness.com/in/product/compact-brushless-cordless-impact-drill/TIDLI206681",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TAGLI27153",
+      "titulo": "TAGLI27153 Amoladora Angular inalámbrica",
+      "url": "https://www.totalbusiness.com/cl/product/cordless-angle-grinder/TAGLI27153",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-TIRLI2028",
+      "titulo": "TIRLI2028 Cordless impact driver",
+      "url": "https://za.totalbusiness.com/za/product/cordless-impact-driver/TIRLI2028",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "TOTAL-ARG-IMPEX",
+      "titulo": "Catálogo TOTAL del representante argentino ImpexPro",
+      "url": "https://impexpro.com.ar/newsletter/catalogo_TOTAL.pdf",
+      "tipo": "catalogo_oficial",
+      "consultado": "2026-10-26"
+    }
   ],
   "productos": [
     {
@@ -277,6 +413,578 @@
       "fuentes_ids": ["GAMMA-TOOL-02", "GAMMA-TOOL-02-MANUAL", "GAMMA-CATALOGO-ME", "GAMMA-BAT-90"],
       "busquedas_ids": ["KW-02", "KW-03", "KW-05", "KW-06", "KW-07"],
       "notas_documentales": ["La ficha web y el manual utilizan G12402/1AR, G12402-1AR y G12402AR para el SKU de kit y la herramienta que lo compone; la identidad se considera documentada, pero no se deben colapsar las tres etiquetas.", "El peso publicado de 2,8 kg no aclara si incluye la batería."]
+    },
+    {
+      "sku": "TFBLI20011",
+      "nombre": "Batería TOTAL P20S de ion-litio, 20 V y 2,0 Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "articulo": "TFBLI20011",
+        "modelo": "TFBLI20011",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "2,0 Ah",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011"
+          ]
+        },
+        {
+          "nombre": "Compatibilidad declarada",
+          "valor": "Una batería sirve para herramientas múltiples P20S",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TFBLI20011"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial no enumera contenido adicional para la batería individual.",
+        "fuentes_ids": [
+          "TOTAL-TFBLI20011",
+          "TOTAL-TFCLI2001"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué capacidad tiene la TOTAL TFBLI20011?",
+          "respuesta": "La ficha oficial indica 20 V y 2,0 Ah.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011"
+          ]
+        },
+        {
+          "pregunta": "¿La TFBLI20011 pertenece a P20S?",
+          "respuesta": "Sí. TOTAL declara que esta batería sirve para herramientas múltiples P20S.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargarse?",
+          "respuesta": "Las fuentes consultadas no publican duración con el TFCLI2001; sus 2 A de salida no bastan para calcular un tiempo fiable.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20011",
+            "TOTAL-TFCLI2001"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TFBLI20011",
+        "TOTAL-TFCLI2001"
+      ],
+      "busquedas_ids": [
+        "TOTAL-KW-01"
+      ],
+      "notas_documentales": [
+        "Presencia local: oferta argentina indexada bajo TFBLI20011; solo comercialización, no compatibilidad: https://www.redferretera.com.ar/productos/"
+      ]
+    },
+    {
+      "sku": "TFBLI20021",
+      "nombre": "Batería TOTAL P20S de ion-litio, 20 V y 4,0 Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "articulo": "TFBLI20021",
+        "modelo": "TFBLI20021",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "4,0 Ah",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021"
+          ]
+        },
+        {
+          "nombre": "Compatibilidad declarada",
+          "valor": "Una batería se adapta a herramientas múltiples P20S",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TFBLI20021"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial no enumera contenido adicional para la batería individual.",
+        "fuentes_ids": [
+          "TOTAL-TFBLI20021",
+          "TOTAL-TFCLI2001"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué capacidad tiene la TOTAL TFBLI20021?",
+          "respuesta": "La ficha oficial indica 20 V y 4,0 Ah, con indicador LED.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021"
+          ]
+        },
+        {
+          "pregunta": "¿La TFBLI20021 pertenece a P20S?",
+          "respuesta": "Sí. TOTAL declara que esta batería se adapta a herramientas múltiples P20S.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargarse?",
+          "respuesta": "Las fuentes oficiales consultadas no informan duración de carga con el TFCLI2001.",
+          "fuentes_ids": [
+            "TOTAL-TFBLI20021",
+            "TOTAL-TFCLI2001"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TFBLI20021",
+        "TOTAL-TFCLI2001"
+      ],
+      "busquedas_ids": [
+        "TOTAL-KW-01"
+      ],
+      "notas_documentales": [
+        "Presencia local: oferta argentina de MYA Importaciones bajo TFBLI20021; solo comercialización, no compatibilidad: https://myaimportaciones.com/producto/total-bateria-p20s-20v-4ah-tfbli20021"
+      ]
+    },
+    {
+      "sku": "TFCLI2001",
+      "nombre": "Cargador TOTAL P20S TFCLI2001, 20 V / 2 A",
+      "tipo": "cargador",
+      "identificacion": {
+        "articulo": "TFCLI2001",
+        "modelo": "TFCLI2001",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Alimentación",
+          "valor": "220–240 V~50/60 Hz",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001"
+          ]
+        },
+        {
+          "nombre": "Tensión de salida",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001"
+          ]
+        },
+        {
+          "nombre": "Corriente de salida",
+          "valor": "2 A",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TFCLI2001"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha oficial indica empaque en caja de color, sin enumerar otros componentes.",
+        "fuentes_ids": [
+          "TOTAL-TFCLI2001",
+          "TOTAL-TFBCPK1222",
+          "TOTAL-TCKLI20273"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué salida declara el TFCLI2001?",
+          "respuesta": "TOTAL especifica 20 V y 2 A.",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001"
+          ]
+        },
+        {
+          "pregunta": "¿Se asocia con baterías de 2 Ah y 4 Ah?",
+          "respuesta": "TOTAL muestra el TFCLI2001 con la TFBLI20011 de 2,0 Ah en TFBCPK1222 y con baterías TFBLI20021 de 4,0 Ah en TCKLI20273.",
+          "fuentes_ids": [
+            "TOTAL-TFBCPK1222",
+            "TOTAL-TCKLI20273"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda la carga?",
+          "respuesta": "La ficha no publica una duración; no se estima a partir de la corriente de salida.",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TFCLI2001",
+        "TOTAL-TFBCPK1222",
+        "TOTAL-TCKLI20273"
+      ],
+      "busquedas_ids": [],
+      "notas_documentales": [
+        "Presencia local: catálogo comercial argentino lista el código TFCLI2001-4; solo comercialización, no compatibilidad: https://www.grupoferretero.com.ar/productos-total/"
+      ]
+    },
+    {
+      "sku": "TIDLI206681",
+      "nombre": "Taladro percutor TOTAL TIDLI206681",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "TIDLI206681",
+        "modelo": "TIDLI206681",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "Sin escobillas (brushless)",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681"
+          ]
+        },
+        {
+          "nombre": "Velocidad sin carga",
+          "valor": "0–500 / 0–2000 rpm",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681"
+          ]
+        },
+        {
+          "nombre": "Tasa máxima de impacto",
+          "valor": "30000 bpm",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681"
+          ]
+        },
+        {
+          "nombre": "Capacidad del mandril",
+          "valor": "13 mm",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TIDLI206681"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha individual enumera una punta Cr-V de 65 mm y tres brocas para mampostería. El kit TCKLI20273 incluye dos baterías de 4 Ah y el cargador TFCLI2001.",
+        "fuentes_ids": [
+          "TOTAL-TIDLI206681",
+          "TOTAL-TCKLI20273",
+          "TOTAL-ARG-IMPEX"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El TIDLI206681 pertenece a P20S?",
+          "respuesta": "TOTAL lo incluye en el combo oficial TCKLI20273, junto con dos baterías TFBLI20021 y un cargador identificado como P20S TFCLI2001.",
+          "fuentes_ids": [
+            "TOTAL-TCKLI20273"
+          ]
+        },
+        {
+          "pregunta": "¿La herramienta individual incluye batería y cargador?",
+          "respuesta": "La ficha individual dice que el cargador se vende por separado; el kit TCKLI20273 sí enumera baterías y cargador.",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681",
+            "TOTAL-TCKLI20273"
+          ]
+        },
+        {
+          "pregunta": "¿Qué torque tiene el TIDLI206681?",
+          "respuesta": "El dato se deja pendiente: la ficha global indica 66 Nm y el catálogo argentino de ImpexPro 60 Nm para el mismo código.",
+          "fuentes_ids": [
+            "TOTAL-TIDLI206681",
+            "TOTAL-ARG-IMPEX"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TIDLI206681",
+        "TOTAL-TCKLI20273",
+        "TOTAL-ARG-IMPEX"
+      ],
+      "busquedas_ids": [
+        "TOTAL-KW-02",
+        "TOTAL-KW-03",
+        "TOTAL-KW-04",
+        "TOTAL-KW-05"
+      ],
+      "notas_documentales": [
+        "Catálogo del representante argentino ImpexPro, p. 7; solo presencia del modelo. El catálogo no se usa para declarar compatibilidad.",
+        "Discrepancia abierta: 66 Nm en TOTAL global y 60 Nm en ImpexPro Argentina; no publicar torque hasta resolver."
+      ]
+    },
+    {
+      "sku": "TAGLI27153",
+      "nombre": "Amoladora angular TOTAL TAGLI27153",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "TAGLI27153",
+        "modelo": "TAGLI27153",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "Sin escobillas (brushless)",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        },
+        {
+          "nombre": "Potencia máxima de entrada",
+          "valor": "1000 W",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        },
+        {
+          "nombre": "Diámetro del disco",
+          "valor": "115 mm",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        },
+        {
+          "nombre": "Rosca del husillo",
+          "valor": "M14",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TAGLI27153"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha indica que el disco, la batería y el cargador se venden por separado.",
+        "fuentes_ids": [
+          "TOTAL-TAGLI27153",
+          "TOTAL-TCKLI20273",
+          "TOTAL-ARG-IMPEX"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La TAGLI27153 usa baterías TOTAL P20S?",
+          "respuesta": "El combo oficial TCKLI20273 incluye la TAGLI27153 con dos baterías TFBLI20021 y el cargador P20S TFCLI2001.",
+          "fuentes_ids": [
+            "TOTAL-TCKLI20273"
+          ]
+        },
+        {
+          "pregunta": "¿Qué disco admite?",
+          "respuesta": "La ficha oficial indica diámetro de 115 mm y rosca M14; el disco no está incluido.",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar una batería de esta amoladora?",
+          "respuesta": "No se indica una duración; TOTAL especifica salida de 2 A para el TFCLI2001, sin publicar el tiempo.",
+          "fuentes_ids": [
+            "TOTAL-TAGLI27153",
+            "TOTAL-TFCLI2001"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TAGLI27153",
+        "TOTAL-TCKLI20273",
+        "TOTAL-ARG-IMPEX"
+      ],
+      "busquedas_ids": [
+        "TOTAL-KW-06",
+        "TOTAL-KW-07"
+      ],
+      "notas_documentales": [
+        "Catálogo del representante argentino ImpexPro, p. 15; solo presencia del modelo. El catálogo no se usa para declarar compatibilidad."
+      ]
+    },
+    {
+      "sku": "TIRLI2028",
+      "nombre": "Atornillador de impacto TOTAL TIRLI2028",
+      "tipo": "herramienta",
+      "identificacion": {
+        "articulo": "TIRLI2028",
+        "modelo": "TIRLI2028",
+        "identidad_documentada": true
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental pendiente de aprobación editorial; la compatibilidad se publicará solo luego de verificar fuentes oficiales y sincronizar los perfiles.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión indicada",
+          "valor": "20 V",
+          "fuentes_ids": [
+            "TOTAL-TIRLI2028"
+          ]
+        },
+        {
+          "nombre": "Motor",
+          "valor": "Sin escobillas (brushless)",
+          "fuentes_ids": [
+            "TOTAL-TIRLI2028"
+          ]
+        },
+        {
+          "nombre": "Encastre hexagonal",
+          "valor": "6,35 mm",
+          "fuentes_ids": [
+            "TOTAL-TIRLI2028"
+          ]
+        },
+        {
+          "nombre": "Torque máximo indicado",
+          "valor": "285 Nm",
+          "fuentes_ids": [
+            "TOTAL-TIRLI2028"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "declarado": "No informado en la ficha oficial consultada; no estimado.",
+        "fuentes_ids": [
+          "TOTAL-TIRLI2028"
+        ]
+      },
+      "contenido_de_caja": {
+        "declarado": "La ficha global enumera dos baterías TFBLI20011 de 2,0 Ah y un cargador TFCLI2001.",
+        "fuentes_ids": [
+          "TOTAL-TIRLI2028",
+          "TOTAL-P20S",
+          "TOTAL-ARG-IMPEX"
+        ]
+      },
+      "advertencias": [],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿El TIRLI2028 pertenece a P20S?",
+          "respuesta": "La página oficial de P20S enumera el TIRLI2028; su ficha global también identifica batería TFBLI20011 y cargador TFCLI2001 en el kit.",
+          "fuentes_ids": [
+            "TOTAL-P20S",
+            "TOTAL-TIRLI2028"
+          ]
+        },
+        {
+          "pregunta": "¿Qué incluye el kit del fabricante?",
+          "respuesta": "La ficha global enumera dos puntas, tres bocallaves, dos baterías de 2,0 Ah y un cargador. El catálogo argentino identifica la presentación TIRLI2028-4.",
+          "fuentes_ids": [
+            "TOTAL-TIRLI2028",
+            "TOTAL-ARG-IMPEX"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar una batería?",
+          "respuesta": "Las fuentes oficiales consultadas no informan duración con el TFCLI2001; el dato disponible es salida 20 V / 2 A.",
+          "fuentes_ids": [
+            "TOTAL-TFCLI2001",
+            "TOTAL-TIRLI2028"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "TOTAL-TIRLI2028",
+        "TOTAL-P20S",
+        "TOTAL-ARG-IMPEX"
+      ],
+      "busquedas_ids": [
+        "TOTAL-KW-08",
+        "TOTAL-KW-09"
+      ],
+      "notas_documentales": [
+        "Catálogo del representante argentino ImpexPro, p. 9, set TIRLI2028-4; solo presencia del modelo. El catálogo no se usa para declarar compatibilidad."
+      ]
     }
-  ]
+  ],
+  "BAT-TOTAL-TFBLI20011": {"publicado": false},
+  "BAT-TOTAL-TFBLI20021": {"publicado": false},
+  "CHG-TOTAL-TFCLI2001": {"publicado": false},
+  "TOOL-TOTAL-TAGLI27153": {"publicado": false},
+  "TOOL-TOTAL-TIDLI206681": {"publicado": false},
+  "TOOL-TOTAL-TIRLI2028": {"publicado": false}
 }

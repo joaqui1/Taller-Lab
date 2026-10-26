@@ -3020,6 +3020,184 @@
       "evidence_identity_id": "DOC-TOOL-GAMMA-G12402-1AR",
       "evidence_platform_id": "DOC-TOOL-GAMMA-G12402-1AR",
       "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+    },
+    {
+      "id": "BAT-TOTAL-TFBLI20011",
+      "slug": "total-tfbli20011-20v-2ah",
+      "product_type": "bateria",
+      "brand": "TOTAL",
+      "model_name": "Batería de ion-litio 20 V, 2,0 Ah",
+      "mpn": "TFBLI20011",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TFBLI20011",
+        "batería TOTAL P20S 2 Ah"
+      ],
+      "voltage_nominal": "20 V",
+      "voltage_max": null,
+      "capacity_ah": 2.0,
+      "specs": {},
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Código localizado en oferta comercial argentina; no acredita stock actual.",
+      "guide_url": null,
+      "official_url": "https://www.totalbusiness.com/my/product/lithium-ion-battery-pack/TFBLI20011",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Alta pendiente de sincronización documental; no publicar por la tensión nominal."
+    },
+    {
+      "id": "BAT-TOTAL-TFBLI20021",
+      "slug": "total-tfbli20021-20v-4ah",
+      "product_type": "bateria",
+      "brand": "TOTAL",
+      "model_name": "Batería de ion-litio 20 V, 4,0 Ah",
+      "mpn": "TFBLI20021",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TFBLI20021",
+        "batería TOTAL P20S 4 Ah"
+      ],
+      "voltage_nominal": "20 V",
+      "voltage_max": null,
+      "capacity_ah": 4.0,
+      "specs": {},
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Código localizado en oferta comercial argentina; no acredita stock actual.",
+      "guide_url": null,
+      "official_url": "https://www.totalbusiness.com/pa/product/lithium-ion-battery-pack/TFBLI20021",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Alta pendiente de sincronización documental; no publicar por la tensión nominal."
+    },
+    {
+      "id": "CHG-TOTAL-TFCLI2001",
+      "slug": "total-tfcli2001-cargador-p20s-20v-2a",
+      "product_type": "cargador",
+      "brand": "TOTAL",
+      "model_name": "Cargador de batería P20S TFCLI2001, 20 V / 2 A",
+      "mpn": "TFCLI2001",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TFCLI2001",
+        "TFCLI2001-4"
+      ],
+      "voltage_nominal": null,
+      "voltage_max": "20 V",
+      "capacity_ah": null,
+      "specs": {
+        "input_voltage": "220-240 V~50/60 Hz",
+        "output_current": "2 A"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Código TFCLI2001-4 localizado en oferta comercial argentina; no acredita stock actual.",
+      "guide_url": null,
+      "official_url": "https://www.totalbusiness.com/product/p20s-battery-charger/TFCLI2001",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "El MPN global es TFCLI2001; TFCLI2001-4 es la presentación/código local. La ficha oficial informa 20 V y 2 A, no duración de carga."
+    },
+    {
+      "id": "TOOL-TOTAL-TIDLI206681",
+      "slug": "total-tidli206681-taladro-percutor-20v-brushless",
+      "product_type": "herramienta",
+      "brand": "TOTAL",
+      "model_name": "Taladro percutor inalámbrico brushless TIDLI206681",
+      "mpn": "TIDLI206681",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TIDLI206681"
+      ],
+      "voltage_nominal": "20 V",
+      "voltage_max": null,
+      "capacity_ah": null,
+      "specs": {
+        "no_load_speed": "0-500 / 0-2000 rpm",
+        "max_impact_rate": "30000 bpm",
+        "chuck_capacity": "13 mm"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Modelo y código localizados en el catálogo argentino de ImpexPro; no acredita stock actual.",
+      "guide_url": null,
+      "official_url": "https://www.totalbusiness.com/in/product/compact-brushless-cordless-impact-drill/TIDLI206681",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "Omitir el torque hasta resolver la discrepancia: ficha global TOTAL 66 Nm; catálogo argentino ImpexPro 60 Nm."
+    },
+    {
+      "id": "TOOL-TOTAL-TAGLI27153",
+      "slug": "total-tagli27153-amoladora-angular-20v-brushless",
+      "product_type": "herramienta",
+      "brand": "TOTAL",
+      "model_name": "Amoladora angular inalámbrica brushless TAGLI27153, 115 mm",
+      "mpn": "TAGLI27153",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TAGLI27153"
+      ],
+      "voltage_nominal": "20 V",
+      "voltage_max": null,
+      "capacity_ah": null,
+      "specs": {
+        "max_input_power": "1000 W",
+        "no_load_speed": "3000 / 6000 / 9000 rpm",
+        "disc_diameter": "115 mm",
+        "spindle_thread": "M14"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Modelo y código localizados en el catálogo argentino de ImpexPro; no acredita stock actual.",
+      "guide_url": null,
+      "official_url": "https://www.totalbusiness.com/cl/product/cordless-angle-grinder/TAGLI27153",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "La ficha oficial indica que batería y cargador se venden por separado."
+    },
+    {
+      "id": "TOOL-TOTAL-TIRLI2028",
+      "slug": "total-tirli2028-atornillador-impacto-20v",
+      "product_type": "herramienta",
+      "brand": "TOTAL",
+      "model_name": "Atornillador de impacto inalámbrico TIRLI2028",
+      "mpn": "TIRLI2028",
+      "gtin_ean": null,
+      "platform_id": "total-p20s",
+      "aliases": [
+        "TIRLI2028",
+        "TIRLI2028-4",
+        "atornillador de impacto TOTAL P20S"
+      ],
+      "voltage_nominal": "20 V",
+      "voltage_max": null,
+      "capacity_ah": null,
+      "specs": {
+        "hex_shank": "6.35 mm",
+        "no_load_speed": "0-1600 / 0-1900 / 0-2600 rpm",
+        "impact_rate": "0-2100 / 0-2500 / 0-2900 bpm",
+        "max_torque": "285 Nm"
+      },
+      "is_argentina_catalog": true,
+      "market_availability_notes": "Código base TIRLI2028 identificado por el representante argentino bajo el set TIRLI2028-4; sufijo local de presentación, no MPN distinto.",
+      "guide_url": null,
+      "official_url": "https://za.totalbusiness.com/za/product/cordless-impact-driver/TIRLI2028",
+      "required_packs": 1,
+      "status": "pendiente",
+      "evidence_identity_id": null,
+      "evidence_platform_id": null,
+      "notes": "El catálogo local asocia el set TIRLI2028-4 con dos baterías 2,0 Ah y un cargador."
     }
   ],
   "platforms": [
@@ -3162,6 +3340,24 @@
       "exceptions": [],
       "official_url": "https://support.dewalt.com/hc/en-gb/articles/360061433671-Can-I-run-an-XR-FLEXVOLT-tool-on-an-18V-battery",
       "badge_color": "#37474f"
+    },
+    {
+      "id": "total-p20s",
+      "name": "TOTAL P20S 20V",
+      "brand": "TOTAL",
+      "system_name": "P20S · 20 V",
+      "voltage_nominal": "20 V",
+      "voltage_max": "20 V",
+      "description": "Plataforma de herramientas inalámbricas que TOTAL denomina P20S; la compatibilidad se confirma por modelo exacto.",
+      "compatibility_rule": "Solo confirmar modelos P20S identificados y relaciones sostenidas por documentación oficial. La tensión 20 V por sí sola no acredita compatibilidad.",
+      "conditions_summary": "Las declaraciones de baterías P20S se cruzan con la identificación de cada herramienta; los kits oficiales sostienen las relaciones cargador-batería.",
+      "exceptions": [
+        "No extrapolar a herramientas TOTAL de 20 V sin una declaración P20S o un kit oficial con el código exacto.",
+        "Las fuentes oficiales consultadas no publican tiempos de carga del cargador TFCLI2001.",
+        "El catálogo argentino de ImpexPro y la ficha global discrepan en el torque del TIDLI206681; ese dato queda fuera del borrador."
+      ],
+      "official_url": "https://totaltools.cn/products/p20s",
+      "badge_color": "#008f87"
     }
   ]
 }
