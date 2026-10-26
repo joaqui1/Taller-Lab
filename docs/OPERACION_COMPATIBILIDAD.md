@@ -98,9 +98,11 @@ Las ofertas exactas se incorporan en `data/commercial_offers.json`, bajo `exact_
 
 ### Plantilla editorial de las fichas de producto
 
-`data/fichas_editorial.json` reserva una clave de primer nivel por ID de producto para el render enriquecido. Los registros nuevos llevan `publicado: false`; solo el dueño activa el render cambiándolo expresamente a `true`. Las investigaciones preexistentes del mismo archivo se conservan en sus campos actuales y no se leen para renderizar. Las nuevas claves por ID no incorporan especificaciones, respuestas ni imágenes. Los bloques sin datos no se renderizan.
+`data/fichas_editorial.json` usa una clave de primer nivel por ID de producto para el render enriquecido. No admite una lista paralela `productos`: toda ficha y su investigación quedan asociadas al ID exacto del catálogo. Los registros llevan `publicado: false`; solo el dueño activa el render cambiándolo expresamente a `true`. Los bloques sin datos no se renderizan.
 
-Cada dato documentado usa `value`, `unit`, `source` (URL oficial HTTPS), `section` (sección de la ficha o manual) y `date_consulted` en formato `dd/mm/aaaa`. Se admiten unidades conocidas; para especificaciones: tensión `V`, capacidad `Ah`, energía `Wh`, peso `kg` o `g`, dimensiones `mm` o `cm` y tecnología de celdas como texto. La energía debe ser el producto numérico de tensión por capacidad y se muestra como cálculo de TallerLab. Los tiempos usan `min` o `h`.
+Cada dato documentado usa `value`, `unit`, `source` (URL oficial HTTPS), `section` (sección de la ficha o manual), `date_consulted` en formato `dd/mm/aaaa` y `excerpt` de hasta 25 palabras. Los datos de unidades numéricas —incluidos `V`, `Ah`, `kg`, `mm` y `min`— se guardan como números. Los rangos y dimensiones usan arreglos numéricos con `value_format`; las aclaraciones van en `note` y se muestran separadas del valor. Los tiempos de carga al 80 % y al 100 % se guardan en filas numéricas separadas con su etiqueta. La energía debe ser el producto numérico de tensión por capacidad y se muestra como cálculo de TallerLab.
+
+`research` conserva la clasificación, los motivos editoriales, los SKU, los IDs de fuentes y búsquedas y las notas documentales de la investigación original sin publicarlos como afirmaciones de producto. Las fuentes oficiales siguen en `fuentes` y las búsquedas en `investigacion_keywords`.
 
 Este JSONC ilustra la forma, no es un registro para copiar ni contiene datos de un producto:
 

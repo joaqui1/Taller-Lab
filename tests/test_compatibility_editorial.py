@@ -12,14 +12,21 @@ from compatibilidad.editorial import EDITORIAL_FICHAS, render_editorial_blocks, 
 from compatibilidad.views import get_product_schema_json, render_tool_detail
 
 
-def fact(value, unit, source, consulted, section="Fixture de prueba"):
-    return {
+def fact(value, unit, source, consulted, section="Fixture de prueba", note=None, value_format=None):
+    excerpt = value if isinstance(value, str) else "Dato de prueba con valor numérico documentado"
+    result = {
         "value": value,
         "unit": unit,
         "source": source,
         "section": section,
         "date_consulted": consulted,
+        "excerpt": excerpt,
     }
+    if note:
+        result["note"] = note
+    if value_format:
+        result["value_format"] = value_format
+    return result
 
 
 def complete_fixture(product):
@@ -39,13 +46,14 @@ def complete_fixture(product):
             "voltage": fact(18, "V", source, consulted),
             "capacity_ah": fact(4, "Ah", source, consulted),
             "energy_wh": fact(72, "Wh", source, consulted, "Cálculo TallerLab: 18 V × 4 Ah"),
-            "weight": fact(1.2, "kg", source, consulted),
-            "dimensions": fact("118 × 75 × 65", "mm", source, consulted),
+            "weight": fact(1.2, "kg", source, consulted, note="Sin batería."),
+            "dimensions": fact([118, 75, 65], "mm", source, consulted, value_format="dimensions"),
             "cell_technology": fact("Ion-litio", "texto", source, consulted),
         },
         "charge_times": [{
             "counterpart_id": charger.id,
             "time": fact(35, "min", source, consulted),
+            "label": fact("Carga al 80 %", "texto", source, consulted),
         }],
         "tool": {"packages": [{
             "code": fact(product.mpn, "texto", source, consulted),
@@ -105,7 +113,7 @@ class CompatibilityEditorialTests(unittest.TestCase):
             "Tabla de compatibilidad",
             "Especificaciones con fuente",
             "Tiempos de carga",
-            "Herramienta: presentación y contenido",
+            "Presentación y contenido documentado",
             "Cómo identificar el código en la etiqueta",
             "Errores comunes",
             "Preguntas frecuentes",
@@ -117,6 +125,9 @@ class CompatibilityEditorialTests(unittest.TestCase):
         self.assertEqual(positions, sorted(positions))
         self.assertIn("72 Wh", html)
         self.assertIn("cálculo de TallerLab", html)
+        self.assertIn("Nota: Sin batería.", html)
+        self.assertIn("Carga al 80 %", html)
+        self.assertIn("118 × 75 × 65 mm", html)
         self.assertIn('href="/baterias/bosch-procore18v-4-0ah-1600a016gb/"', html)
         self.assertIn("Imagen sintética de QA", html)
         self.assertNotIn('"@type": "FAQPage"', html)
@@ -139,6 +150,20 @@ class CompatibilityEditorialTests(unittest.TestCase):
         self.assertIn("URL oficial HTTPS", joined)
         self.assertIn("dd/mm/aaaa", joined)
         self.assertIn("unidad desconocida", joined)
+
+    def test_validation_rejects_legacy_products_list(self):
+        data = {self.product.id: self.fixture, "productos": []}
+        errors = validate_fichas_editorial(data, product_ids={self.product.id})
+        self.assertTrue(any("no se admite la lista heredada" in error for error in errors))
+
+    def test_validation_requires_numeric_values_for_numeric_units_and_short_excerpt(self):
+        invalid = copy.deepcopy(self.fixture)
+        invalid["specifications"]["weight"]["value"] = "1,9"
+        invalid["specifications"]["weight"]["excerpt"] = " ".join(["palabra"] * 26)
+        errors = validate_fichas_editorial({self.product.id: invalid}, product_ids={self.product.id})
+        joined = "\n".join(errors)
+        self.assertIn("debe ser numérico para la unidad kg", joined)
+        self.assertIn("no puede superar 25 palabras", joined)
 
     def test_related_kit_cta_requires_published_bare_body_tool(self):
         from compatibilidad.commercial import render_pair_commercial, render_product_commercial
