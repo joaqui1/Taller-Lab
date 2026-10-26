@@ -22,7 +22,7 @@ from compatibilidad.rules import CompatibilityEvaluation, evaluate_compatibility
 from compatibilidad.search import GLOBAL_SEARCH_INDEX
 from compatibilidad.telemetry import track_event
 from compatibilidad.commercial import render_product_commercial, render_pair_commercial, render_related_kit
-from compatibilidad.presentation import display_name, compatible_counterparts, relation_meta, relation_schema, product_kind, guide_links
+from compatibilidad.presentation import display_name, compatible_counterparts, compatible_counterpart_pages, product_path, relation_meta, relation_schema, product_kind, guide_links
 from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path
 
 
@@ -521,13 +521,12 @@ def render_battery_detail_page_html(slug: str) -> str:
         tool_rows.append(f"""
         <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 0.85rem 1rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
           <div>
-            <strong style="color: #f8fafc; font-size: 0.95rem;">{escape(t.model_name)}</strong>
-            <span style="color: #8b949e; font-size: 0.8rem; margin-left: 0.5rem;">MPN: <code>{escape(t.mpn)}</code></span>
+            <strong style="color: #f8fafc; font-size: 0.95rem;"><a href="{product_path(t)}" style="color: #f8fafc; text-decoration: none;">{escape(t.brand)} {escape(t.model_name)} ({escape(t.mpn)})</a></strong>
             {f'<span style="background: #e6510022; color: #ff5500; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.4rem; border-radius: 4px; margin-left: 0.5rem;">Exige {t.required_packs} packs</span>' if t.required_packs > 1 else ''}
             {cond_text}
             {recom_text}
           </div>
-          <div>{badge}<br><a style="font-size:.8rem" href="{relation_path(ev.source_product,ev.target_product)}">Ver respuesta y fuentes</a></div>
+          <div>{badge}</div>
         </div>
         """)
 
@@ -545,11 +544,10 @@ def render_battery_detail_page_html(slug: str) -> str:
         charger_rows.append(f"""
         <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 0.85rem 1rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
           <div>
-            <strong style="color: #f8fafc; font-size: 0.95rem;"><a href="/cargadores/{ch.slug}/" style="color: #f8fafc; text-decoration: none;">{escape(ch.model_name)}</a></strong>
-            <span style="color: #8b949e; font-size: 0.8rem; margin-left: 0.5rem;">MPN: <code>{escape(ch.mpn)}</code></span>
+            <strong style="color: #f8fafc; font-size: 0.95rem;"><a href="{product_path(ch)}" style="color: #f8fafc; text-decoration: none;">{escape(ch.brand)} {escape(ch.model_name)} ({escape(ch.mpn)})</a></strong>
             {cond_text}
           </div>
-          <div>{badge}<br><a style="font-size:.8rem" href="{relation_path(ev.source_product,ev.target_product)}">Ver respuesta y fuentes</a></div>
+          <div>{badge}</div>
         </div>
         """)
 
@@ -641,11 +639,11 @@ def render_charger_detail_page_html(slug: str) -> str:
             battery_rows.append(f"""
             <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 0.85rem 1rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
               <div>
-                <strong style="color: #f8fafc; font-size: 0.95rem;"><a href="/baterias/{b.slug}/" style="color: #f8fafc; text-decoration: none;">{escape(b.model_name)}</a></strong>
-                <span style="color: #8b949e; font-size: 0.8rem; margin-left: 0.5rem;">MPN: <code>{escape(b.mpn)}</code> · {b.capacity_ah} Ah</span>
+                <strong style="color: #f8fafc; font-size: 0.95rem;"><a href="{product_path(b)}" style="color: #f8fafc; text-decoration: none;">{escape(b.brand)} {escape(b.model_name)} ({escape(b.mpn)})</a></strong>
+                <span style="color: #8b949e; font-size: 0.8rem; margin-left: 0.5rem;">· {b.capacity_ah} Ah</span>
                 {cond_text}
               </div>
-              <div>{badge}<br><a style="font-size:.8rem" href="{relation_path(ev.source_product,ev.target_product)}">Ver respuesta y fuentes</a></div>
+              <div>{badge}</div>
             </div>
             """)
 
@@ -733,7 +731,7 @@ def render_tool_detail(product):
         return render_pending_product(product)
     rows=[]
     batteries=[]
-    for battery,path in compatible_counterparts(product):
+    for battery,path in compatible_counterpart_pages(product):
         if battery.product_type!='bateria':
             continue
         ev=evaluate_compatibility(battery,product)

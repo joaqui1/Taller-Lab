@@ -6,6 +6,7 @@ import io
 import json
 import os
 import pathlib
+from html.parser import HTMLParser
 import sqlite3
 import tempfile
 import unittest
@@ -21,10 +22,37 @@ from compatibilidad.sources import official_url, proof_valid, OfficialRedirect
 from compatibilidad.pipeline import CompatibilityPipeline
 from compatibilidad.storage import StateStore, ConcurrentUpdate
 from compatibilidad.export import export_compatibility_to_json, export_compatibility_to_csv
-from compatibilidad.views import COMPATIBILITY_STATIC_PATHS, render_compatibility_search_results_html
+from compatibilidad.views import COMPATIBILITY_STATIC_PATHS, render_compatibility_page_content, render_compatibility_search_results_html
+from compatibilidad.presentation import compatible_counterparts, product_path, related_combinations, relationship_page, relationship_paths, resolve_relationship
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CAPTURE=json.loads((ROOT/'compatibilidad/data/verified_seed.json').read_text(encoding='utf8'))
+
+class _LinkCollector(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.hrefs=[]
+        self.links=[]
+        self._current_link=None
+        self.noindex=False
+
+    def handle_starttag(self,tag,attrs):
+        attributes=dict(attrs)
+        if tag=='a' and attributes.get('href'):
+            self.hrefs.append(attributes['href'])
+            self._current_link=[attributes['href'],[]]
+        if tag=='meta' and attributes.get('name','').lower()=='robots' and 'noindex' in attributes.get('content','').lower():
+            self.noindex=True
+
+    def handle_data(self,data):
+        if self._current_link is not None:
+            self._current_link[1].append(data)
+
+    def handle_endtag(self,tag):
+        if tag=='a' and self._current_link is not None:
+            self.links.append((self._current_link[0],''.join(self._current_link[1])))
+            self._current_link=None
+
 
 class CompatibilityRegression(unittest.TestCase):
     def setUp(self):
@@ -60,6 +88,44 @@ class CompatibilityRegression(unittest.TestCase):
         self.assertFalse(ev.conditions)
         self.assertGreaterEqual(len(ev.evidence_chain),2)
         self.assertTrue(all(proof_valid(e) for e in ev.evidence_chain))
+
+    def test_compatibility_pages_link_to_product_fiches(self):
+        indexable_count=0
+        for path in COMPATIBILITY_STATIC_PATHS:
+            html=render_compatibility_page_content(path)
+            self.assertIsNotNone(html,path)
+            links=_LinkCollector()
+            links.feed(html)
+            if links.noindex:
+                continue
+            indexable_count+=1
+            self.assertFalse([href for href in links.hrefs if '-con-' in href],path)
+
+            if path.startswith(('/baterias/','/cargadores/','/herramientas-bateria/')):
+                slug=path.rstrip('/').rsplit('/',1)[-1]
+                product=catalog.PRODUCTS_BY_SLUG[slug]
+                if product.status=='publicado':
+                    for counterpart,_ in compatible_counterparts(product):
+                        counterpart_path=product_path(counterpart)
+                        self.assertIn(counterpart_path,links.hrefs,f'{path} → {counterpart_path}')
+                        link_text=next(text for href,text in links.links if href==counterpart_path)
+                        self.assertIn(counterpart.model_name,link_text,counterpart_path)
+                        self.assertIn(counterpart.mpn,link_text,counterpart_path)
+
+        self.assertGreaterEqual(indexable_count,23)
+
+        for path in relationship_paths():
+            source,target,evaluation=resolve_relationship(path)
+            page_links=_LinkCollector()
+            page_links.feed(relationship_page(path))
+            self.assertIn(product_path(source),page_links.hrefs,path)
+            self.assertIn(product_path(target),page_links.hrefs,path)
+            self.assertFalse([href for href in page_links.hrefs if '-con-' in href],path)
+
+            related_links=_LinkCollector()
+            related_links.feed(related_combinations(source,target,path))
+            self.assertLessEqual(len(related_links.hrefs),3,path)
+            self.assertFalse([href for href in related_links.hrefs if '-con-' in href],path)
 
     def test_generic_query_requires_selection(self):
         for query in ('Bosch','bosch procore','bateria bosch 18v','DeWalt'):

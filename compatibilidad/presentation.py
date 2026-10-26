@@ -20,14 +20,24 @@ def verified_directory():
     return '<section class="compat-directory"><h2>Elegí un modelo verificado</h2><p>Entrá a su ficha para ver las baterías, herramientas o cargadores documentados para ese código.</p><div class="compat-directory-grid">'+''.join(groups)+'</div></section>'
 
 def related_combinations(source,target,current_path):
-    rows=[]
+    related_products=[]
+    seen=set()
     for relation in catalog.RELATIONS:
         a=catalog.PRODUCTS_BY_ID[relation['source_product_id']];b=catalog.PRODUCTS_BY_ID[relation['target_product_id']]
         path=relation_path(a,b)
         if path==current_path or not {a.id,b.id}.intersection({source.id,target.id}):continue
         if evaluate_compatibility(a,b).is_compatible:
-            rows.append(f'<li><a href="{path}">{escape(a.brand)} {escape(a.model_name)} ({escape(a.mpn)}) → {escape(b.model_name)} ({escape(b.mpn)})</a></li>')
-    return '<section><h2>Otras combinaciones documentadas de estos modelos</h2><ul>'+''.join(rows)+'</ul></section>' if rows else ''
+            for product in (a,b):
+                if product.id in {source.id,target.id} or product.id in seen:
+                    continue
+                seen.add(product.id)
+                related_products.append(product)
+                if len(related_products)==3:
+                    break
+        if len(related_products)==3:
+            break
+    rows=''.join(f'<li><a href="{product_path(product)}">{escape(product.brand)} {escape(product.model_name)} ({escape(product.mpn)})</a></li>' for product in related_products)
+    return '<section><h2>Otras combinaciones documentadas de estos modelos</h2><ul>'+rows+'</ul></section>' if rows else ''
 
 def relation_path(source,target):
     return '/compatibilidad/'+normalize_code(source.mpn).lower()+'-con-'+normalize_code(target.mpn).lower()+'/'
@@ -61,7 +71,9 @@ def relation_table(printable=False):
         label=source.brand+' '+source.model_name+' → '+target.model_name
         urls='; '.join(e.official_url for e in evaluation.evidence_chain)
         source_links=''.join(f'<a data-compat-event="clic_fuente" href="{escape(e.official_url)}">{escape(e.manufacturer)}: {escape(e.source_id.split("-")[-1])}</a> ' for e in evaluation.evidence_chain)
-        rows.append(f'<tr><td><a href="{relation_path(source,target)}">{escape(label)}</a><br><code>{escape(source.mpn)}</code> → <code>{escape(target.mpn)}</code></td><td>{escape(evaluation.verdict)}</td><td>{escape(r["date_reviewed"])} (UTC)</td><td>{escape(urls) if printable else source_links}</td></tr>')
+        source_link=f'<a href="{product_path(source)}">{escape(source.brand)} {escape(source.model_name)} ({escape(source.mpn)})</a>'
+        target_link=f'<a href="{product_path(target)}">{escape(target.brand)} {escape(target.model_name)} ({escape(target.mpn)})</a>'
+        rows.append(f'<tr><td>{source_link} → {target_link}</td><td>{escape(evaluation.verdict)}</td><td>{escape(r["date_reviewed"])} (UTC)</td><td>{escape(urls) if printable else source_links}</td></tr>')
     return '<div class="compat-table-scroll" tabindex="0" aria-label="Relaciones documentadas; tabla desplazable"><table class="compat-table"><caption>Compatibilidades documentadas entre modelos exactos</caption><thead><tr><th scope="col">Modelos y códigos</th><th scope="col">Respuesta</th><th scope="col">Fecha</th><th scope="col">Fuentes oficiales</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>' if rows else '<p>No hay relaciones con evidencia vigente. Consultá el historial y la metodología.</p>'
 
 def resolve_relationship(path):
@@ -128,6 +140,10 @@ def compatible_counterparts(product):
         if not evaluate_compatibility(a,b).is_compatible:continue
         items.append((b if a.id==product.id else a,relation_path(a,b)))
     return items
+
+def compatible_counterpart_pages(product):
+    """Modelos relacionados con sus fichas indexables, sin cambiar la API existente."""
+    return [(counterpart,product_path(counterpart)) for counterpart,_ in compatible_counterparts(product)]
 
 def relation_meta(source,target,evaluation):
     noun_a=display_name(source);noun_b=display_name(target)
