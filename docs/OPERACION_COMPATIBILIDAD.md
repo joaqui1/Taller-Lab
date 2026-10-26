@@ -27,6 +27,8 @@ Las respuestas públicas pueden usar el corte verificado incluido si no se consi
 
 El workflow `.github/workflows/compatibilidad-operacion.yml` compara cada día el estado público con la ejecución anterior guardada en la caché de GitHub Actions. Avisa cuando bajan los productos publicados o las relaciones, cuando un producto pasa de publicado a suspendido/pendiente, aparece una nueva fuente fallida o la evidencia más antigua supera 20 días. El mensaje incluye el modelo, el motivo y la fecha cuando se suspende un producto; la alerta de antigüedad incluye la fecha de revisión más antigua. Se avisa al dueño por los canales existentes de Comunidad: correo mediante Resend a `COMUNIDAD_AVISO_EDITOR_EMAIL` y/o Telegram al chat configurado. No cambia el vencimiento documental de 30 días.
 
+Además, compara el estado con un mínimo persistente por ejecución: 18 productos publicados y 40 relaciones documentadas. Para ajustar estos valores en GitHub, definir las variables de repositorio `COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS` y `COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS`; vacías o inválidas, se usan los valores 18 y 40. La alerta se repite mientras la cobertura observada quede por debajo del mínimo.
+
 En GitHub, cargar como secretos del repositorio `RESEND_API_KEY`, `COMUNIDAD_AVISOS_REMITENTE` y `COMUNIDAD_AVISO_EDITOR_EMAIL` para correo; o `COMUNIDAD_TELEGRAM_BOT_TOKEN` y `COMUNIDAD_TELEGRAM_CHAT_ID` para Telegram. Se pueden habilitar ambos canales. Si no hay un canal configurado o falla la entrega, el workflow falla y queda sujeto a las notificaciones habituales de GitHub Actions. No se requieren variables nuevas en Vercel; el workflow consulta el endpoint público `/api/compatibilidad/estado`.
 
 ## Comandos

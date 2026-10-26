@@ -32,6 +32,8 @@ jobs:
         run: python -m compatibilidad.operations monitor
         env:
           SITE_URL: https://www.tallerlab.com.ar
+          COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS: ${{ vars.COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS }}
+          COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS: ${{ vars.COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           COMUNIDAD_AVISOS_REMITENTE: ${{ secrets.COMUNIDAD_AVISOS_REMITENTE }}
           COMUNIDAD_AVISO_EDITOR_EMAIL: ${{ secrets.COMUNIDAD_AVISO_EDITOR_EMAIL }}

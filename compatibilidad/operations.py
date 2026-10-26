@@ -10,8 +10,17 @@ from compatibilidad import catalog
 from compatibilidad.storage import StateStore
 
 ALERT_AFTER_EVIDENCE_DAYS = 20
+MIN_EXPECTED_PUBLISHED_PRODUCTS = 18
+MIN_EXPECTED_DOCUMENTED_RELATIONS = 40
 MONITOR_STATE_PATH = Path(__file__).resolve().parents[1] / '.compatibilidad-monitor' / 'state.json'
 ARGENTINA = ZoneInfo('America/Argentina/Buenos_Aires')
+
+
+def _configured_minimum(environment_name, default):
+    try:
+        return max(0, int(os.environ.get(environment_name, default)))
+    except (TypeError, ValueError):
+        return default
 
 
 def _date_from_iso(value):
@@ -132,6 +141,11 @@ def compare_monitor_states(previous, current, as_of=None):
     now_published = current.get('published_products')
     if isinstance(prev_published, int) and isinstance(now_published, int) and now_published < prev_published:
         events.append({'type': 'products_decreased', 'before': prev_published, 'current': now_published, 'date': event_date})
+    minimum_published = _configured_minimum(
+        'COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS', MIN_EXPECTED_PUBLISHED_PRODUCTS)
+    if isinstance(now_published, int) and now_published < minimum_published:
+        events.append({'type': 'products_below_baseline', 'minimum': minimum_published,
+                       'current': now_published, 'date': event_date})
 
     if previous and prev_products and current.get('products') is not None:
         failed_by_id = {item.get('source_id'): item for item in current.get('source_failures') or []}
@@ -164,6 +178,11 @@ def compare_monitor_states(previous, current, as_of=None):
     if isinstance(prev_relations, int) and isinstance(now_relations, int) and now_relations < prev_relations:
         events.append({'type': 'relations_decreased', 'before': prev_relations, 'current': now_relations,
                        'relation_ids': removed_relations, 'date': event_date})
+    minimum_relations = _configured_minimum(
+        'COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS', MIN_EXPECTED_DOCUMENTED_RELATIONS)
+    if isinstance(now_relations, int) and now_relations < minimum_relations:
+        events.append({'type': 'relations_below_baseline', 'minimum': minimum_relations,
+                       'current': now_relations, 'date': event_date})
     if removed_relations and not (isinstance(prev_relations, int) and isinstance(now_relations, int) and now_relations < prev_relations):
         events.append({'type': 'relations_removed', 'relation_ids': removed_relations, 'date': event_date})
 
@@ -236,9 +255,13 @@ def format_alert(events, health=None):
             lines.append(f"- Producto suspendido: {product}{mpn}. Motivo: {event.get('reason', 'estado cambiado')}. Fecha: {when}.")
         elif kind == 'products_decreased':
             lines.append(f"- Productos publicados: {event['before']} → {event['current']}. Fecha: {when}.")
+        elif kind == 'products_below_baseline':
+            lines.append(f"- Productos publicados por debajo del mínimo esperado: {event['current']} (mínimo {event['minimum']}). Fecha: {when}.")
         elif kind == 'relations_decreased':
             removed = f" Retiradas: {', '.join(event.get('relation_ids') or [])}." if event.get('relation_ids') else ''
             lines.append(f"- Relaciones documentadas: {event['before']} → {event['current']}.{removed} Fecha: {when}.")
+        elif kind == 'relations_below_baseline':
+            lines.append(f"- Relaciones documentadas por debajo del mínimo esperado: {event['current']} (mínimo {event['minimum']}). Fecha: {when}.")
         elif kind == 'relations_removed':
             lines.append(f"- Relaciones retiradas: {', '.join(event['relation_ids'])}. Fecha: {when}.")
         elif kind == 'source_failed':
