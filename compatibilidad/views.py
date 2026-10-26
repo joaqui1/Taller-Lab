@@ -23,7 +23,7 @@ from compatibilidad.search import GLOBAL_SEARCH_INDEX
 from compatibilidad.telemetry import track_event
 from compatibilidad.commercial import render_product_commercial, render_pair_commercial, render_related_kit
 from compatibilidad.presentation import display_name, compatible_counterparts, relation_meta, relation_schema, product_kind, guide_links
-from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, model_picker_options, verified_directory, relation_path
+from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path
 
 
 def get_verdict_badge_html(verdict: str) -> str:
@@ -888,7 +888,11 @@ def get_compatibility_meta(path: str, site_url: str = "") -> Tuple[str, str, str
         if resolved:
             a,b,evaluation=resolved
             title, desc = relation_meta(a, b, evaluation)
-            return (title, desc, '<meta name="robots" content="noindex, follow">' if not evaluation.is_compatible else relation_schema(a, b, evaluation, path, base))
+            if not relationship_is_indexable(evaluation):
+                schema_tag = '<meta name="robots" content="noindex, follow">'
+            else:
+                schema_tag = relation_schema(a, b, evaluation, path, base) if evaluation.is_compatible else ""
+            return (title, desc, schema_tag)
     if path=="/compatibilidad/cambios/":
         return ("Historial de cambios y fuentes de compatibilidad", "Publicaciones y revisiones documentales de TallerLab por versión y fecha.", "")
     return ("Compatibilidad de herramientas", "Base de datos técnica de compatibilidad de herramientas en Argentina.", "")

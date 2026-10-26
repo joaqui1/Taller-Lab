@@ -35,6 +35,10 @@ def relation_path(source,target):
 def relationship_paths():
     return tuple(relation_path(catalog.PRODUCTS_BY_ID[r['source_product_id']],catalog.PRODUCTS_BY_ID[r['target_product_id']]) for r in catalog.RELATIONS)
 
+def relationship_is_indexable(evaluation):
+    """Las relaciones solo pueden indexarse si declaran alcance propio explícito."""
+    return bool(evaluation.conditions or evaluation.exclusions)
+
 def coverage_summary():
     active=sum(p.status=='publicado' for p in catalog.CATALOG_PRODUCTS)
     checked=catalog.CURRENT_METADATA.get('last_checked_at','')
@@ -91,7 +95,7 @@ def relationship_page(path):
     limits=''.join('<li>'+escape(text)+'</li>' for text in evaluation.conditions+evaluation.exclusions)
     conditions='<section class="compat-conditions"><h2>Condiciones y límites documentados</h2><ul>'+limits+'</ul></section>' if limits else ''
     scope='La cadena comprueba el código de cada producto, su sistema de baterías y una declaración de compatibilidad del fabricante.' if evaluation.is_compatible else 'Esta combinación no tiene una confirmación documental vigente en la base. Las fichas individuales no prueban por sí solas la relación entre ambos productos.'
-    noindex='' if evaluation.is_compatible else '<meta name="robots" content="noindex, follow">'
+    noindex=''
     return f'{noindex}<article class="compat-answer"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Consulta por modelo</nav><h1>{escape(title)}</h1><p class="compat-direct-answer">{escape(answer)}</p><p><strong>{escape(evaluation.verdict)}</strong> · Fecha más antigua de la cadena: {escape(date or "pendiente")} (UTC).</p>{conditions}<h2>Qué demuestra esta respuesta</h2><p>{scope} Se refiere a las variantes identificadas; no acredita stock, adaptadores externos ni ensayo físico.</p><p>Fichas de los modelos: <a href="{product_path(source)}">{escape(source.brand)} {escape(source.model_name)} ({escape(source.mpn)})</a> · <a href="{product_path(target)}">{escape(target.brand)} {escape(target.model_name)} ({escape(target.mpn)})</a>.</p>{guide_links(source,target)}{source_panel(source)}{source_panel(target)}{render_pair_commercial(source,target)}{related_combinations(source,target,path)}<h2>Consultar otra combinación</h2><p><a href="/compatibilidad/">Buscador y tabla completa</a> · <a href="/datos/compatibilidad/baterias.json">Descargar datos con fuentes y fechas</a>.</p></article>'
 
 

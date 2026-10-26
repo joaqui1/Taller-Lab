@@ -1942,6 +1942,8 @@ def render_compatibility_page(path, query_params=None):
     title, desc, extra_schema = get_compatibility_meta(path, SITE_URL)
     if path == COMPATIBILITY_SEARCH_PATH:
         canonical_meta = '<meta name="robots" content="noindex, follow">\n  <link rel="canonical" href="' + escape(absolute_url('/compatibilidad/'), quote=True) + '">'
+    elif path == "/compatibilidad/cambios/":
+        canonical_meta = canonical_tag(path, robots="noindex, follow")
     else:
         canonical_meta = canonical_tag(path)
         if extra_schema:
@@ -2004,8 +2006,10 @@ def render_sitemap():
     from compatibilidad.catalog import refresh_published_state, PRODUCTS_BY_SLUG, CATALOG_PRODUCTS
     from compatibilidad.presentation import relationship_paths
     refresh_published_state()
-    paths=tuple(dict.fromkeys(paths+relationship_paths()+('/compatibilidad/cambios/',)))
+    relationship_path_set = set(relationship_paths())
     def compatibility_indexable(path):
+        if path in relationship_path_set or path == "/compatibilidad/cambios/" or (path.startswith("/compatibilidad/") and "-con-" in path):
+            return False
         if path.startswith(('/baterias/','/cargadores/','/herramientas-bateria/')):
             product=PRODUCTS_BY_SLUG.get(path.rstrip('/').split('/')[-1])
             return bool(product and product.status=='publicado')
