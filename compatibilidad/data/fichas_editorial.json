@@ -74,7 +74,85 @@
       "metodologia": "Los volúmenes medios de los CSV de Google Ads disponibles se usan como señales por categoría, no como popularidad o ventas de un SKU.",
       "seleccion_modelos": "Se eligieron dos baterías, un cargador y tres herramientas en categorías con consultas relevantes. La presencia local se cotejó por separado y no sustenta compatibilidad.",
       "sin_dato": "No se encontró una fila de cargador TOTAL 20V en los CSV revisados; no se interpreta como volumen cero."
-    }
+    },
+    "consultas_bosch": [
+      {
+        "id": "KW-BOSCH-01",
+        "consulta": "amoladora bosch inalambrica 18v gws 180 li brushless",
+        "archivo": "keywords_amoladora.csv"
+      },
+      {
+        "id": "KW-BOSCH-02",
+        "consulta": "amoladora bosch bateria 18v",
+        "archivo": "keywords_amoladora.csv"
+      },
+      {
+        "id": "KW-BOSCH-03",
+        "consulta": "amoladora bateria bosch 18v",
+        "archivo": "keywords_amoladora.csv"
+      },
+      {
+        "id": "KW-BOSCH-04",
+        "consulta": "amoladora bosch 18v",
+        "archivo": "keywords_amoladora.csv"
+      },
+      {
+        "id": "KW-BOSCH-05",
+        "consulta": "amoladora bosch gws 18v 10",
+        "archivo": "keywords_amoladora.csv"
+      },
+      {
+        "id": "KW-BOSCH-06",
+        "consulta": "atornillador de impacto bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-07",
+        "consulta": "batería para taladro bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-08",
+        "consulta": "batería taladro bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-09",
+        "consulta": "batería para atornillador bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-10",
+        "consulta": "taladro batería bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-11",
+        "consulta": "atornillador a bateria bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-12",
+        "consulta": "llave de impacto bosch gdx 18v 200",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-13",
+        "consulta": "llave de impacto gdx 18v 200",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-14",
+        "consulta": "kit baterias bosch 18v",
+        "archivo": "keywords_taladro.csv"
+      },
+      {
+        "id": "KW-BOSCH-15",
+        "consulta": "taladro sin bateria",
+        "archivo": "keywords_taladro.csv"
+      }
+    ],
+    "nota_cargadores_bosch": "No se encontraron consultas de cargador Bosch con los términos solicitados en los CSV revisados. Las FAQ de cargadores se apoyan en búsquedas relacionadas de batería Bosch 18V y se responden con documentación oficial."
   },
   "fuentes": [
     { "id": "GAMMA-BAT-90", "titulo": "Batería multienergy 20V – 700W (G12490AR)", "url": "https://www.gammaherramientas.com.ar/producto/bateria-g12490ar/", "tipo": "ficha_fabricante", "consultado": "2026-10-26" },
@@ -163,6 +241,132 @@
       "titulo": "Catálogo TOTAL del representante argentino ImpexPro",
       "url": "https://impexpro.com.ar/newsletter/catalogo_TOTAL.pdf",
       "tipo": "catalogo_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "BAT-PRO4",
+      "titulo": "Bosch ProCORE18V 4.0Ah Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "BAT-PRO8",
+      "titulo": "Bosch ProCORE18V 8.0Ah Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "BAT-GBA2",
+      "titulo": "Bosch GBA 18V 2.0Ah Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "BAT-GBA4",
+      "titulo": "Bosch GBA 18V 4.0Ah Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "BAT-GBA5",
+      "titulo": "Bosch GBA 18V 5.0Ah Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL40-AR",
+      "titulo": "Bosch GAL 18V-40 Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL40-ALT",
+      "titulo": "Bosch GAL 18V-40, código 1600A019RJ",
+      "url": "https://www.bosch-professional.com/africa/en/products/gal-18v-40-1600A019RJ",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL1880-AR",
+      "titulo": "Bosch GAL 1880 CV Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL1880-ALT",
+      "titulo": "Bosch GAL 1880 CV, código 1600A00B8G",
+      "url": "https://www.bosch-professional.com/pl/pl/products/gal-1880-cv-1600A00B8G",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL40-MANUAL",
+      "titulo": "Manual Bosch GAL 18V-40, 1 609 92A 77J",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+      "tipo": "manual_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GAL1880-MANUAL",
+      "titulo": "Manual Bosch GAL 1880 CV, 1 609 92A 8NK",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o436047v21_160992A8NK_202310.pdf",
+      "tipo": "manual_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GWS10-AR",
+      "titulo": "Bosch GWS 18V-10 Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GWS10-MANUAL",
+      "titulo": "Manual Bosch GWS 18V-10, 1 609 92A 51Y",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o323426v21_160992A51Y_201909.pdf",
+      "tipo": "manual_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GWS10P-AR",
+      "titulo": "Bosch GWS 18V-10 P Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GWS10PSC-AR",
+      "titulo": "Bosch GWS 18V-10 PSC Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GDX200-AR",
+      "titulo": "Bosch GDX 18V-200 Argentina",
+      "url": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+      "tipo": "ficha_fabricante",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "GDX200-MANUAL",
+      "titulo": "Manual Bosch GDR/GDX/GDS 18V-200, 1 609 92A 6HS",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o362226v21_160992A6HS_202105.pdf",
+      "tipo": "manual_oficial",
+      "consultado": "2026-10-26"
+    },
+    {
+      "id": "AMPSHARE",
+      "titulo": "Bosch AMPShare, incompatibilidad con POWER FOR ALL 18V",
+      "url": "https://www.bosch-professional.com/es/es/ampshare/",
+      "tipo": "ficha_fabricante",
       "consultado": "2026-10-26"
     }
   ],
@@ -979,6 +1183,1342 @@
       "notas_documentales": [
         "Catálogo del representante argentino ImpexPro, p. 9, set TIRLI2028-4; solo presencia del modelo. El catálogo no se usa para declarar compatibilidad."
       ]
+    },
+    {
+      "sku": "1600A016GB",
+      "nombre": "Bosch Professional ProCORE18V 4.0Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "numero_de_pedido": "1600A016GB"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "4 Ah",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.515 kg",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        },
+        {
+          "nombre": "Dimensiones (ancho x largo x alto)",
+          "valor": "50 x 125 x 80 mm",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        },
+        {
+          "nombre": "Química y tecnología de celdas",
+          "valor": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0. texto",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "CHG-BOSCH-GAL-18V40-1600A028U0",
+          "tiempo": "48/65 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "con_cargador": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+          "tiempo": "32/51 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.515 kg",
+        "fuentes_ids": [
+          "BAT-PRO4"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "La variante de batería consultada se presenta en caja de cartón; el producto es una batería individual.",
+        "fuentes_ids": [
+          "BAT-PRO4"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La batería para taladro Bosch 18V 4 Ah sirve en herramientas Professional?",
+          "respuesta": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda ProCORE18V 4.0Ah en el GAL 18V-40?",
+          "respuesta": "Bosch informa 48/65 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda ProCORE18V 4.0Ah en el GAL 1880 CV?",
+          "respuesta": "Bosch informa 32/51 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tecnología de celdas documenta Bosch para ProCORE18V 4.0Ah?",
+          "respuesta": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+          "fuentes_ids": [
+            "BAT-PRO4"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "BAT-PRO4",
+        "GAL40-AR",
+        "GAL1880-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-09",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": []
+    },
+    {
+      "sku": "1600A016GK",
+      "nombre": "Bosch Professional ProCORE18V 8.0Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "numero_de_pedido": "1600A016GK"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "8 Ah",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.955 kg",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        },
+        {
+          "nombre": "Dimensiones (ancho x largo x alto)",
+          "valor": "77 x 117 x 70 mm",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        },
+        {
+          "nombre": "Química y tecnología de celdas",
+          "valor": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0. texto",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "CHG-BOSCH-GAL-18V40-1600A028U0",
+          "tiempo": "113/124 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "con_cargador": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+          "tiempo": "68/79 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.955 kg",
+        "fuentes_ids": [
+          "BAT-PRO8"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "La variante de batería consultada se presenta en caja de cartón; el producto es una batería individual.",
+        "fuentes_ids": [
+          "BAT-PRO8"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La batería para taladro Bosch 18V 8 Ah sirve en herramientas Professional?",
+          "respuesta": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda ProCORE18V 8.0Ah en el GAL 18V-40?",
+          "respuesta": "Bosch informa 113/124 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda ProCORE18V 8.0Ah en el GAL 1880 CV?",
+          "respuesta": "Bosch informa 68/79 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tecnología de celdas documenta Bosch para ProCORE18V 8.0Ah?",
+          "respuesta": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+          "fuentes_ids": [
+            "BAT-PRO8"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "BAT-PRO8",
+        "GAL40-AR",
+        "GAL1880-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-10",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": []
+    },
+    {
+      "sku": "1600Z00036",
+      "nombre": "Bosch Professional GBA 18V 2.0Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "numero_de_pedido": "1600Z00036"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "2 Ah",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.35 kg",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        },
+        {
+          "nombre": "Dimensiones (ancho x largo x alto)",
+          "valor": "73 x 113 x 39 mm",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        },
+        {
+          "nombre": "Química y tecnología de celdas",
+          "valor": "Iones de litio (Li-ion); tecnología COOLPACK 1.0. texto",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "CHG-BOSCH-GAL-18V40-1600A028U0",
+          "tiempo": "24/35 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "con_cargador": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+          "tiempo": "15/30 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.35 kg",
+        "fuentes_ids": [
+          "BAT-GBA2"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "La variante de batería consultada se presenta en caja de cartón; el producto es una batería individual.",
+        "fuentes_ids": [
+          "BAT-GBA2"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La batería para taladro Bosch 18V 2 Ah sirve en herramientas Professional?",
+          "respuesta": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 2.0Ah en el GAL 18V-40?",
+          "respuesta": "Bosch informa 24/35 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 2.0Ah en el GAL 1880 CV?",
+          "respuesta": "Bosch informa 15/30 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 2.0Ah?",
+          "respuesta": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "fuentes_ids": [
+            "BAT-GBA2"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "BAT-GBA2",
+        "GAL40-MANUAL",
+        "GAL1880-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-08",
+        "KW-BOSCH-09"
+      ],
+      "notas_documentales": []
+    },
+    {
+      "sku": "1600Z00038",
+      "nombre": "Bosch Professional GBA 18V 4.0Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "numero_de_pedido": "1600Z00038"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "4 Ah",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.6 kg",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        },
+        {
+          "nombre": "Dimensiones (ancho x largo x alto)",
+          "valor": "74 x 114 x 56 mm",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        },
+        {
+          "nombre": "Química y tecnología de celdas",
+          "valor": "Iones de litio (Li-ion); tecnología COOLPACK 1.0. texto",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "CHG-BOSCH-GAL-18V40-1600A028U0",
+          "tiempo": "48/65 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "con_cargador": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+          "tiempo": "25/35 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.6 kg",
+        "fuentes_ids": [
+          "BAT-GBA4"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "La variante de batería consultada se presenta en caja de cartón; el producto es una batería individual.",
+        "fuentes_ids": [
+          "BAT-GBA4"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La batería para taladro Bosch 18V 4 Ah sirve en herramientas Professional?",
+          "respuesta": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 4.0Ah en el GAL 18V-40?",
+          "respuesta": "Bosch informa 48/65 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 4.0Ah en el GAL 1880 CV?",
+          "respuesta": "Bosch informa 25/35 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 4.0Ah?",
+          "respuesta": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "fuentes_ids": [
+            "BAT-GBA4"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "BAT-GBA4",
+        "GAL40-MANUAL",
+        "GAL1880-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-08",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": []
+    },
+    {
+      "sku": "1600A002U5",
+      "nombre": "Bosch Professional GBA 18V 5.0Ah",
+      "tipo": "bateria",
+      "identificacion": {
+        "numero_de_pedido": "1600A002U5"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        },
+        {
+          "nombre": "Capacidad",
+          "valor": "5 Ah",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.62 kg",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        },
+        {
+          "nombre": "Dimensiones (ancho x largo x alto)",
+          "valor": "74 x 114 x 56 mm",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        },
+        {
+          "nombre": "Química y tecnología de celdas",
+          "valor": "Iones de litio (Li-ion); tecnología COOLPACK 1.0. texto",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "CHG-BOSCH-GAL-18V40-1600A028U0",
+          "tiempo": "60/70 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "con_cargador": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+          "tiempo": "35/45 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.62 kg",
+        "fuentes_ids": [
+          "BAT-GBA5"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "La variante de batería consultada se presenta en caja de cartón; el producto es una batería individual.",
+        "fuentes_ids": [
+          "BAT-GBA5"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿La batería para taladro Bosch 18V 5 Ah sirve en herramientas Professional?",
+          "respuesta": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 5.0Ah en el GAL 18V-40?",
+          "respuesta": "Bosch informa 60/70 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda GBA 18V 5.0Ah en el GAL 1880 CV?",
+          "respuesta": "Bosch informa 35/45 minutos (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 5.0Ah?",
+          "respuesta": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "fuentes_ids": [
+            "BAT-GBA5"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "BAT-GBA5",
+        "GAL40-MANUAL",
+        "GAL1880-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-08",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": []
+    },
+    {
+      "sku": "1600A028U0 / 1600A019RJ",
+      "nombre": "Bosch Professional GAL 18V-40",
+      "tipo": "cargador",
+      "identificacion": {
+        "numero_de_pedido": "1600A028U0 / 1600A019RJ"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "14,4–18 V",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.55 kg",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "BAT-BOSCH-PROCORE-4AH",
+          "tiempo": "48/65 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-PROCORE-8AH",
+          "tiempo": "113/124 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-2AH",
+          "tiempo": "24/35 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-4AH",
+          "tiempo": "48/65 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-5AH",
+          "tiempo": "60/70 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.55 kg",
+        "fuentes_ids": [
+          "GAL40-AR"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "Ver listado de la variante oficial; los códigos de herramienta no enumeran batería/cargador salvo que la página lo indique explícitamente.",
+        "fuentes_ids": [
+          "GAL40-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        },
+        {
+          "texto": "El manual limita la carga a acumuladores Bosch Li-ion de al menos 2,0 Ah, con tensión correspondiente, y prohíbe cargar baterías no recargables.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ],
+          "ubicacion": "Instrucciones de seguridad, español, p. 7"
+        },
+        {
+          "texto": "Los tiempos dependen de la temperatura y del tipo de batería; en la tabla, 80 % permite uso inmediato y “cargada” indica 95–100 %.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ],
+          "ubicacion": "Datos técnicos, español, p. 8; notas A), B) y C)"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué batería Bosch 18V puede cargar el GAL 18V-40?",
+          "respuesta": "Bosch declara compatibilidad con las baterías Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar una batería Bosch 18V de 2 Ah?",
+          "respuesta": "La tabla informa 24/35 min (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-MANUAL"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda una batería ProCORE18V 8 Ah?",
+          "respuesta": "Bosch informa 113/124 min (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué significa el rango 14,4–18 V?",
+          "respuesta": "Bosch lo identifica como voltaje de carga de la batería en el intervalo 14,4–18 V.",
+          "fuentes_ids": [
+            "GAL40-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GAL40-AR",
+        "GAL40-ALT",
+        "GAL40-MANUAL",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-08",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": [
+        "Los códigos regionales alternativos se identifican por páginas oficiales Bosch; no se infiere intercambiabilidad entre números de pedido.",
+        "La ficha AR publica 14,4–18 V; el manual consultado indica 10,8–18 V y advierte variaciones por país."
+      ]
+    },
+    {
+      "sku": "1600A015TL / 1600A00B8G",
+      "nombre": "Bosch Professional GAL 1880 CV",
+      "tipo": "cargador",
+      "identificacion": {
+        "numero_de_pedido": "1600A015TL / 1600A00B8G"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "14,4–18 V",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "0.7 kg",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [
+        {
+          "con_cargador": "BAT-BOSCH-PROCORE-4AH",
+          "tiempo": "32/51 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-PROCORE-8AH",
+          "tiempo": "68/79 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-2AH",
+          "tiempo": "15/30 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-4AH",
+          "tiempo": "25/35 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "con_cargador": "BAT-BOSCH-GBA-5AH",
+          "tiempo": "35/45 (80 %/100 %; aprox.)",
+          "condicion": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "peso": {
+        "valor": "0.7 kg",
+        "fuentes_ids": [
+          "GAL1880-AR"
+        ],
+        "metodo": "Datos técnicos > Peso"
+      },
+      "contenido_de_caja": {
+        "declarado": "Ver listado de la variante oficial; los códigos de herramienta no enumeran batería/cargador salvo que la página lo indique explícitamente.",
+        "fuentes_ids": [
+          "GAL1880-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        },
+        {
+          "texto": "El manual indica que la carga solo es posible entre 0 y 45 °C y que los valores dependen de temperatura y tipo de batería.",
+          "fuentes_ids": [
+            "GAL1880-MANUAL"
+          ],
+          "ubicacion": "Datos técnicos y proceso de carga, español, p. 11"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué batería Bosch 18V puede cargar el GAL 1880 CV?",
+          "respuesta": "Bosch declara compatibilidad con las baterías Professional 18V y AMPShare.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar una batería Bosch 18V de 2 Ah?",
+          "respuesta": "La tabla informa 15/30 min (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto tarda una batería ProCORE18V 8 Ah?",
+          "respuesta": "Bosch informa 68/79 min (80 %/100 %), aproximadamente.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué significa el rango 14,4–18 V?",
+          "respuesta": "Bosch lo identifica como voltaje de carga de la batería en el intervalo 14,4–18 V.",
+          "fuentes_ids": [
+            "GAL1880-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GAL1880-AR",
+        "GAL1880-ALT",
+        "GAL1880-MANUAL",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-07",
+        "KW-BOSCH-08",
+        "KW-BOSCH-14"
+      ],
+      "notas_documentales": [
+        "Los códigos regionales alternativos se identifican por páginas oficiales Bosch; no se infiere intercambiabilidad entre números de pedido.",
+        "El manual GAL 1880 CV no incluye tiempos por capacidad; los tiempos provienen de la tabla de la ficha argentina."
+      ]
+    },
+    {
+      "sku": "06019J40E0",
+      "nombre": "Bosch Professional GWS 18V-10",
+      "tipo": "herramienta",
+      "identificacion": {
+        "numero_de_pedido": "06019J40E0"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "GWS10-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "2,4–2,6 con empuñadura estándar; 2,6–2,8 con empuñadura antivibración kg",
+          "fuentes_ids": [
+            "GWS10-MANUAL"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "valor": "2,4–2,6 con empuñadura estándar; 2,6–2,8 con empuñadura antivibración kg",
+        "fuentes_ids": [
+          "GWS10-MANUAL"
+        ],
+        "metodo": "Datos técnicos > Peso según EPTA-Procedure 01:2014, manual español, pp. 10–11; depende del acumulador"
+      },
+      "contenido_de_caja": {
+        "declarado": "Variante en caja de cartón con caperuza de protección; la lista oficial no enumera batería ni cargador.",
+        "fuentes_ids": [
+          "GWS10-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        },
+        {
+          "texto": "El manual indica usar solo los cargadores enumerados en los datos técnicos de la herramienta.",
+          "fuentes_ids": [
+            "GWS10-MANUAL"
+          ],
+          "ubicacion": "Carga del acumulador, español, p. 11"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué tensión tiene la amoladora Bosch GWS 18V-10?",
+          "respuesta": "Bosch declara 18 V para el código 06019J40E0.",
+          "fuentes_ids": [
+            "GWS10-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué incluye la variante Bosch 06019J40E0?",
+          "respuesta": "La lista oficial incluye caja, brida de fijación, caperuza de protección y tuerca de sujeción rápida.",
+          "fuentes_ids": [
+            "GWS10-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuál es el peso con batería de la GWS 18V-10?",
+          "respuesta": "El manual da intervalos EPTA de 2,4–2,6 kg con empuñadura estándar o 2,6–2,8 kg con antivibración, según el acumulador. La ficha del código indica 2,1 kg sin batería.",
+          "fuentes_ids": [
+            "GWS10-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Es compatible con baterías Bosch POWER FOR ALL 18V?",
+          "respuesta": "No. Bosch declara incompatibles POWER FOR ALL 18V y AMPShare/Professional 18V.",
+          "fuentes_ids": [
+            "GWS10-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GWS10-AR",
+        "GWS10-MANUAL",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-04",
+        "KW-BOSCH-05"
+      ],
+      "notas_documentales": [
+        "Peso con batería expresado según EPTA como intervalo dependiente de empuñadura y acumulador."
+      ]
+    },
+    {
+      "sku": "06019J41E0",
+      "nombre": "Bosch Professional GWS 18V-10 P",
+      "tipo": "herramienta",
+      "identificacion": {
+        "numero_de_pedido": "06019J41E0"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "1,9 (sin batería; la ficha consultada no informa peso con batería) kg",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "valor": "1,9 (sin batería; la ficha consultada no informa peso con batería) kg",
+        "fuentes_ids": [
+          "GWS10P-AR"
+        ],
+        "metodo": "Datos técnicos > Peso sin batería"
+      },
+      "contenido_de_caja": {
+        "declarado": "Variante con empuñadura auxiliar antivibración; la lista oficial no enumera batería ni cargador.",
+        "fuentes_ids": [
+          "GWS10P-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué diferencia documenta Bosch para la GWS 18V-10 P?",
+          "respuesta": "La variante consultada se presenta con empuñadura auxiliar antivibración Vibration Control.",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuál es el peso con batería de la GWS 18V-10 P?",
+          "respuesta": "La página del código 06019J41E0 informa 1,9 kg sin batería; no ofrece un peso con batería. No se transfirió el dato de otro modelo.",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        },
+        {
+          "pregunta": "¿La GWS 18V-10 P es una amoladora Bosch 18V?",
+          "respuesta": "Sí. Bosch declara 18 V para la variante 06019J41E0.",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        },
+        {
+          "pregunta": "¿La variante incluye batería y cargador?",
+          "respuesta": "La lista incluye brida, caperuza, empuñadura auxiliar antivibración y tuerca rápida; no enumera batería ni cargador.",
+          "fuentes_ids": [
+            "GWS10P-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GWS10P-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-02",
+        "KW-BOSCH-03",
+        "KW-BOSCH-04"
+      ],
+      "notas_documentales": [
+        "La ficha exacta solo publica peso sin batería; no se transfirió un valor de otro modelo."
+      ]
+    },
+    {
+      "sku": "06019G3F0B",
+      "nombre": "Bosch Professional GWS 18V-10 PSC",
+      "tipo": "herramienta",
+      "identificacion": {
+        "numero_de_pedido": "06019G3F0B"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "2,8 (con batería incluida; Bosch no identifica capacidad para este dato) kg",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "valor": "2,8 (con batería incluida; Bosch no identifica capacidad para este dato) kg",
+        "fuentes_ids": [
+          "GWS10PSC-AR"
+        ],
+        "metodo": "Datos técnicos > Peso con batería incluida"
+      },
+      "contenido_de_caja": {
+        "declarado": "Variante en L-BOXX 136 con accesorios; no se enumera una batería ni un cargador como contenido.",
+        "fuentes_ids": [
+          "GWS10PSC-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué tensión tiene la amoladora Bosch GWS 18V-10 PSC?",
+          "respuesta": "Bosch declara una batería de 18 V para el código 06019G3F0B.",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto pesa con y sin batería?",
+          "respuesta": "La ficha informa 2,8 kg con batería incluida y 2,0 kg sin batería; no indica la capacidad usada para el primer dato.",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué trae la variante Bosch 06019G3F0B?",
+          "respuesta": "Bosch enumera L-BOXX 136, guardas, brida, empuñadura antivibración, bandeja y tuerca rápida.",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        },
+        {
+          "pregunta": "¿La bandeja para cargador significa que se incluye el cargador?",
+          "respuesta": "No: Bosch lista la bandeja L-BOXX para herramienta y cargador, pero no lista un cargador como elemento incluido.",
+          "fuentes_ids": [
+            "GWS10PSC-AR"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GWS10PSC-AR",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-04",
+        "KW-BOSCH-05"
+      ],
+      "notas_documentales": [
+        "La bandeja L-BOXX para herramienta y cargador es un accesorio; Bosch no enumera cargador en contenido."
+      ]
+    },
+    {
+      "sku": "06019J22E0",
+      "nombre": "Bosch Professional GDX 18V-200",
+      "tipo": "herramienta",
+      "identificacion": {
+        "numero_de_pedido": "06019J22E0"
+      },
+      "publicado": false,
+      "indexable": true,
+      "clasificacion": "Indexable",
+      "motivo": "Borrador documental con ficha oficial y preguntas respondidas con fuentes; la publicación queda pendiente de activación expresa del dueño.",
+      "especificaciones": [
+        {
+          "nombre": "Tensión o rango de carga",
+          "valor": "18 V",
+          "fuentes_ids": [
+            "GDX200-AR"
+          ]
+        },
+        {
+          "nombre": "Peso y método documentado",
+          "valor": "1,7 (con batería incluida; capacidad de batería de prueba no indicada) kg",
+          "fuentes_ids": [
+            "GDX200-AR"
+          ]
+        }
+      ],
+      "tiempos_de_carga": [],
+      "peso": {
+        "valor": "1,7 (con batería incluida; capacidad de batería de prueba no indicada) kg",
+        "fuentes_ids": [
+          "GDX200-AR"
+        ],
+        "metodo": "Datos técnicos > Peso con batería incluida"
+      },
+      "contenido_de_caja": {
+        "declarado": "Variante en caja de cartón; el contenido oficial enumera únicamente cartón, no batería ni cargador.",
+        "fuentes_ids": [
+          "GDX200-AR"
+        ]
+      },
+      "advertencias": [
+        {
+          "texto": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+          "fuentes_ids": [
+            "AMPSHARE"
+          ],
+          "ubicacion": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V"
+        },
+        {
+          "texto": "El manual indica usar únicamente acumuladores Bosch originales de ion-litio de la tensión indicada en la placa de características de la herramienta.",
+          "fuentes_ids": [
+            "GDX200-MANUAL"
+          ],
+          "ubicacion": "Indicaciones de seguridad, español, p. 27"
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué tensión y torque declara la llave de impacto Bosch GDX 18V-200?",
+          "respuesta": "Bosch declara 18 V y 200 Nm de torque máximo.",
+          "fuentes_ids": [
+            "GDX200-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Cuánto pesa con batería incluida?",
+          "respuesta": "La ficha informa 1,7 kg con batería incluida y 1,2 kg sin batería.",
+          "fuentes_ids": [
+            "GDX200-AR"
+          ]
+        },
+        {
+          "pregunta": "¿La caja incluye una batería de 4 Ah?",
+          "respuesta": "La ficha muestra 4 Ah en datos técnicos; el contenido de la variante consultada solo enumera la caja de cartón, sin batería ni cargador.",
+          "fuentes_ids": [
+            "GDX200-AR"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tensión de batería exige el manual del GDX?",
+          "respuesta": "Bosch indica usar acumuladores Bosch Li-ion originales de la tensión indicada en la placa de características.",
+          "fuentes_ids": [
+            "GDX200-MANUAL"
+          ]
+        }
+      ],
+      "fuentes_ids": [
+        "GDX200-AR",
+        "GDX200-MANUAL",
+        "AMPSHARE"
+      ],
+      "busquedas_ids": [
+        "KW-BOSCH-06",
+        "KW-BOSCH-12",
+        "KW-BOSCH-13"
+      ],
+      "notas_documentales": [
+        "La ficha muestra 4 Ah en datos técnicos, pero el contenido de la variante consultada enumera solo cartón."
+      ]
     }
   ],
   "BAT-TOTAL-TFBLI20011": {"publicado": false},
@@ -991,22 +2531,887 @@
     "publicado": false
   },
   "BAT-BOSCH-GBA-2AH": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "capacity_ah": {
+        "value": 2,
+        "unit": "Ah",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Datos técnicos > Capacidad de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Capacidad de la batería: 2 Ah"
+      },
+      "weight": {
+        "value": 0.35,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,35 kg"
+      },
+      "dimensions": {
+        "value": "73 x 113 x 39",
+        "unit": "mm",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Datos técnicos > Dimensiones de la batería (ancho x largo x alto)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Dimensiones: 73 x 113 x 39 mm"
+      },
+      "cell_technology": {
+        "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Product Highlights; Equipment & Application",
+        "date_consulted": "26/10/2026",
+        "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-18V40-1600A028U0",
+        "time": {
+          "value": "24/35 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 2,0 Ah: 24/35 min"
+        }
+      },
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+        "time": {
+          "value": "15/30 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 2,0 Ah: 15/30 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch identifica la variante como número de pedido 1600Z00036. La sección de repuestos muestra el código de parte 1617B000J0; contrastá el código de diez dígitos con la tarjeta informativa del equipo.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600Z00036; Código de parte 1617B000J0",
+        "source_excerpt_note": "Bosch señala el código de parte de diez dígitos del equipo y pide compararlo con la tarjeta informativa."
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿La batería para taladro Bosch 18V 2 Ah sirve en herramientas Professional?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "answer": {
+          "value": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "batería de litio (Li-ion); COOLPACK 1.0"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 2.0Ah en el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga batería 2,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 2.0Ah: 24/35 min"
+        },
+        "answer": {
+          "value": "Bosch informa 24/35 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 2.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 2.0Ah: 24/35 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 2.0Ah en el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga GBA 18V 2.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 2.0Ah: 15/30 min"
+        },
+        "answer": {
+          "value": "Bosch informa 15/30 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 2.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 2.0Ah: 15/30 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-09"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 2.0Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+          "section": "FAQ basada en keywords; Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "answer": {
+          "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-2-0ah-1600Z00036",
+          "section": "Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "BAT-BOSCH-GBA-4AH": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "capacity_ah": {
+        "value": 4,
+        "unit": "Ah",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Datos técnicos > Capacidad de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Capacidad de la batería: 4 Ah"
+      },
+      "weight": {
+        "value": 0.6,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,6 kg"
+      },
+      "dimensions": {
+        "value": "74 x 114 x 56",
+        "unit": "mm",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Datos técnicos > Dimensiones de la batería (ancho x largo x alto)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Dimensiones: 74 x 114 x 56 mm"
+      },
+      "cell_technology": {
+        "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Product Highlights; Equipment & Application",
+        "date_consulted": "26/10/2026",
+        "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-18V40-1600A028U0",
+        "time": {
+          "value": "48/65 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 4,0 Ah: 48/65 min"
+        }
+      },
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+        "time": {
+          "value": "25/35 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 4,0 Ah: 25/35 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch identifica la variante como número de pedido 1600Z00038. La sección de repuestos muestra el código de parte 2607336815; contrastá el código de diez dígitos con la tarjeta informativa del equipo.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600Z00038; Código de parte 2607336815",
+        "source_excerpt_note": "Bosch señala el código de parte de diez dígitos del equipo y pide compararlo con la tarjeta informativa."
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿La batería para taladro Bosch 18V 4 Ah sirve en herramientas Professional?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "answer": {
+          "value": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 4.0Ah en el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga batería 4,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 4.0Ah: 48/65 min"
+        },
+        "answer": {
+          "value": "Bosch informa 48/65 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 4.0Ah: 48/65 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 4.0Ah en el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga GBA 18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 4.0Ah: 25/35 min"
+        },
+        "answer": {
+          "value": "Bosch informa 25/35 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 4.0Ah: 25/35 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 4.0Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+          "section": "FAQ basada en keywords; Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "answer": {
+          "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
+          "section": "Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "BAT-BOSCH-GBA-5AH": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "capacity_ah": {
+        "value": 5,
+        "unit": "Ah",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Datos técnicos > Capacidad de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Capacidad de la batería: 5 Ah"
+      },
+      "weight": {
+        "value": 0.62,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,62 kg"
+      },
+      "dimensions": {
+        "value": "74 x 114 x 56",
+        "unit": "mm",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Datos técnicos > Dimensiones de la batería (ancho x largo x alto)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Dimensiones: 74 x 114 x 56 mm"
+      },
+      "cell_technology": {
+        "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Product Highlights; Equipment & Application",
+        "date_consulted": "26/10/2026",
+        "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-18V40-1600A028U0",
+        "time": {
+          "value": "60/70 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 5,0 Ah: 60/70 min"
+        }
+      },
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+        "time": {
+          "value": "35/45 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 5,0 Ah: 35/45 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch identifica la variante como número de pedido 1600A002U5. La sección de repuestos muestra el código de parte 2607337069; contrastá el código de diez dígitos con la tarjeta informativa del equipo.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600A002U5; Código de parte 2607337069",
+        "source_excerpt_note": "Bosch señala el código de parte de diez dígitos del equipo y pide compararlo con la tarjeta informativa."
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿La batería para taladro Bosch 18V 5 Ah sirve en herramientas Professional?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "answer": {
+          "value": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y cargadores del Bosch Professional 18V System"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 5.0Ah en el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga batería 5,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 5.0Ah: 60/70 min"
+        },
+        "answer": {
+          "value": "Bosch informa 60/70 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 5.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 5.0Ah: 60/70 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda GBA 18V 5.0Ah en el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga GBA 18V 5.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 5.0Ah: 35/45 min"
+        },
+        "answer": {
+          "value": "Bosch informa 35/45 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga GBA 18V 5.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "GBA 18V 5.0Ah: 35/45 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tecnología de celdas documenta Bosch para GBA 18V 5.0Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+          "section": "FAQ basada en keywords; Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "answer": {
+          "value": "Iones de litio (Li-ion); tecnología COOLPACK 1.0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
+          "section": "Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología COOLPACK 1.0 para mejorar la disipación del calor"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "BAT-BOSCH-PBA-18V-P4A": {
     "publicado": false
   },
   "BAT-BOSCH-PROCORE-4AH": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "capacity_ah": {
+        "value": 4,
+        "unit": "Ah",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Datos técnicos > Capacidad de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Capacidad de la batería: 4 Ah"
+      },
+      "weight": {
+        "value": 0.515,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,515 kg"
+      },
+      "dimensions": {
+        "value": "50 x 125 x 80",
+        "unit": "mm",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Datos técnicos > Dimensiones de la batería (ancho x largo x alto)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Dimensiones: 50 x 125 x 80 mm"
+      },
+      "cell_technology": {
+        "value": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Product Highlights; Equipment & Application",
+        "date_consulted": "26/10/2026",
+        "excerpt": "tecnología de celdas avanzada; COOLPACK 2.0"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-18V40-1600A028U0",
+        "time": {
+          "value": "48/65 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 48/65 min"
+        }
+      },
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+        "time": {
+          "value": "32/51 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 32/51 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch identifica la variante como número de pedido 1600A016GB. La sección de repuestos muestra el código de parte 1607A350ZK; contrastá el código de diez dígitos con la tarjeta informativa del equipo.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600A016GB; Código de parte 1607A350ZK",
+        "source_excerpt_note": "Bosch señala el código de parte de diez dígitos del equipo y pide compararlo con la tarjeta informativa."
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿La batería para taladro Bosch 18V 4 Ah sirve en herramientas Professional?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "answer": {
+          "value": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Professional 18V System"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda ProCORE18V 4.0Ah en el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 48/65 min"
+        },
+        "answer": {
+          "value": "Bosch informa 48/65 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 48/65 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda ProCORE18V 4.0Ah en el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 32/51 min"
+        },
+        "answer": {
+          "value": "Bosch informa 32/51 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 32/51 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tecnología de celdas documenta Bosch para ProCORE18V 4.0Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+          "section": "FAQ basada en keywords; Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología de celdas avanzada; COOLPACK 2.0"
+        },
+        "answer": {
+          "value": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-4-0ah-1600A016GB",
+          "section": "Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología de celdas avanzada; COOLPACK 2.0"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "BAT-BOSCH-PROCORE-8AH": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "capacity_ah": {
+        "value": 8,
+        "unit": "Ah",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Datos técnicos > Capacidad de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Capacidad de la batería: 8 Ah"
+      },
+      "weight": {
+        "value": 0.955,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,955 kg"
+      },
+      "dimensions": {
+        "value": "77 x 117 x 70",
+        "unit": "mm",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Datos técnicos > Dimensiones de la batería (ancho x largo x alto)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Dimensiones: 77 x 117 x 70 mm"
+      },
+      "cell_technology": {
+        "value": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Product Highlights; Equipment & Application",
+        "date_consulted": "26/10/2026",
+        "excerpt": "tecnología de celdas; gestión inteligente de la batería; COOLPACK 2.0"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-18V40-1600A028U0",
+        "time": {
+          "value": "113/124 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        }
+      },
+      {
+        "counterpart_id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
+        "time": {
+          "value": "68/79 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch identifica la variante como número de pedido 1600A016GK. La sección de repuestos muestra el código de parte 1607A350ZU; contrastá el código de diez dígitos con la tarjeta informativa del equipo.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600A016GK; Código de parte 1607A350ZU",
+        "source_excerpt_note": "Bosch señala el código de parte de diez dígitos del equipo y pide compararlo con la tarjeta informativa."
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿La batería para taladro Bosch 18V 8 Ah sirve en herramientas Professional?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del Bosch Professional 18V System"
+        },
+        "answer": {
+          "value": "Sí. Bosch la declara compatible con herramientas y cargadores Bosch Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda ProCORE18V 8.0Ah en el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        },
+        "answer": {
+          "value": "Bosch informa 113/124 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda ProCORE18V 8.0Ah en el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        },
+        "answer": {
+          "value": "Bosch informa 68/79 minutos (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tecnología de celdas documenta Bosch para ProCORE18V 8.0Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+          "section": "FAQ basada en keywords; Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología de celdas; gestión inteligente de la batería; COOLPACK 2.0"
+        },
+        "answer": {
+          "value": "Iones de litio (Li-ion); tecnología avanzada de celdas y COOLPACK 2.0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
+          "section": "Product Highlights; Equipment & Application",
+          "date_consulted": "26/10/2026",
+          "excerpt": "tecnología de celdas; gestión inteligente de la batería; COOLPACK 2.0"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "BAT-DEWALT-DCB120": {
     "publicado": false
@@ -1081,13 +3486,415 @@
     "publicado": false
   },
   "CHG-BOSCH-GAL-1880CV-1600A015TL": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": "14,4–18",
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+        "section": "Datos técnicos > Voltaje de carga de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+      },
+      "weight": {
+        "value": 0.7,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,7 kg"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "BAT-BOSCH-PROCORE-4AH",
+        "time": {
+          "value": "32/51 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 32/51 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-PROCORE-8AH",
+        "time": {
+          "value": "68/79 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-2AH",
+        "time": {
+          "value": "15/30 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 2,0 Ah: 15/30 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-4AH",
+        "time": {
+          "value": "25/35 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 4,0 Ah: 25/35 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-5AH",
+        "time": {
+          "value": "35/45 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 5,0 Ah: 35/45 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch Argentina muestra el número de pedido 1600A015TL; la página oficial regional adicional identifica el modelo GAL 1880 CV con número 1600A00B8G. La ficha argentina muestra código de parte 2607225941.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+        "section": "Número de pedido; Datos de repuesto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 1600A015TL; Código de parte 2607225941",
+        "supporting_sources": [
+          {
+            "source": "https://www.bosch-professional.com/pl/pl/products/gal-1880-cv-1600A00B8G",
+            "section": "Número de pedido / Order number",
+            "date_consulted": "26/10/2026",
+            "excerpt": "GAL 1880 CV; 1600A00B8G"
+          }
+        ]
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      },
+      {
+        "value": "El manual indica que la carga solo es posible entre 0 y 45 °C y que los valores dependen de temperatura y tipo de batería.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o436047v21_160992A8NK_202310.pdf",
+        "section": "Datos técnicos y proceso de carga, español, p. 11",
+        "date_consulted": "26/10/2026",
+        "excerpt": "La carga solo es posible cuando la temperatura del acumulador se encuentra dentro del margen de carga admisible (0–45 °C)"
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué batería Bosch 18V puede cargar el GAL 1880 CV?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las baterías Bosch Professional de 18 V"
+        },
+        "answer": {
+          "value": "Bosch declara compatibilidad con las baterías Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las baterías Bosch Professional de 18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda en cargar una batería Bosch 18V de 2 Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > carga de batería 2,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,0 Ah: 15/30 min"
+        },
+        "answer": {
+          "value": "La tabla informa 15/30 min (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > tiempo de carga 2,0 Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,0 Ah: 15/30 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-08"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda una batería ProCORE18V 8 Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > tiempo de carga ProCORE18V 8.0Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        },
+        "answer": {
+          "value": "Bosch informa 68/79 min (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > tiempo de carga ProCORE18V 8.0Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 68/79 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué significa el rango 14,4–18 V?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "FAQ basada en keywords; Datos técnicos > Voltaje de carga de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+        },
+        "answer": {
+          "value": "Bosch lo identifica como voltaje de carga de la batería en el intervalo 14,4–18 V.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
+          "section": "Datos técnicos > Voltaje de carga de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "CHG-BOSCH-GAL-18V40": {
     "publicado": false
   },
   "CHG-BOSCH-GAL-18V40-1600A028U0": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": "14,4–18",
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+        "section": "Datos técnicos > Voltaje de carga de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+      },
+      "weight": {
+        "value": 0.55,
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+        "section": "Datos técnicos > Peso",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso: 0,55 kg"
+      }
+    },
+    "charge_times": [
+      {
+        "counterpart_id": "BAT-BOSCH-PROCORE-4AH",
+        "time": {
+          "value": "48/65 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 4.0Ah: 48/65 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-PROCORE-8AH",
+        "time": {
+          "value": "113/124 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-2AH",
+        "time": {
+          "value": "24/35 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 2,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 2,0 Ah: 24/35 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-4AH",
+        "time": {
+          "value": "48/65 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 4,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 4,0 Ah: 48/65 min"
+        }
+      },
+      {
+        "counterpart_id": "BAT-BOSCH-GBA-5AH",
+        "time": {
+          "value": "60/70 (80 %/100 %; aprox.)",
+          "unit": "min",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > Tiempo de carga capacidad de batería de 5,0 Ah (80 %/100 %), aprox., manual español p. 8",
+          "date_consulted": "26/10/2026",
+          "excerpt": "capacidad de batería de 5,0 Ah: 60/70 min"
+        }
+      }
+    ],
+    "identification": {
+      "text": {
+        "value": "Bosch Argentina muestra el número de pedido 1600A028U0; la página oficial regional adicional identifica el modelo GAL 18V-40 con número 1600A019RJ. La ficha argentina muestra código de parte 2607226251.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/africa/en/products/gal-18v-40-1600A019RJ",
+        "section": "Order number; Part number",
+        "date_consulted": "26/10/2026",
+        "excerpt": "PRO GAL 18V-40; Order number 1 600 A01 9RJ; Part number 2607226251",
+        "supporting_sources": [
+          {
+            "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+            "section": "Datos técnicos > Número de pedido",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Número de pedido 1 600 A02 8U0"
+          }
+        ]
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      },
+      {
+        "value": "El manual limita la carga a acumuladores Bosch Li-ion de al menos 2,0 Ah, con tensión correspondiente, y prohíbe cargar baterías no recargables.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+        "section": "Instrucciones de seguridad, español, p. 7",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Cargue solamente Bosch acumuladores de iones de litio a partir de una capacidad de 2,0 Ah"
+      },
+      {
+        "value": "Los tiempos dependen de la temperatura y del tipo de batería; en la tabla, 80 % permite uso inmediato y “cargada” indica 95–100 %.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+        "section": "Datos técnicos, español, p. 8; notas A), B) y C)",
+        "date_consulted": "26/10/2026",
+        "excerpt": "dependiente de la temperatura y del tipo de acumulador; estado de carga 95 %–100 %"
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué batería Bosch 18V puede cargar el GAL 18V-40?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "FAQ basada en keywords; Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las baterías Bosch Professional de 18 V"
+        },
+        "answer": {
+          "value": "Bosch declara compatibilidad con las baterías Professional 18V y AMPShare.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Product Highlights",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Compatible con todas las baterías Bosch Professional de 18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda en cargar una batería Bosch 18V de 2 Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "FAQ basada en keywords; Datos técnicos > carga de batería 2,0 Ah (80 %/100 %), aprox.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,0 Ah: 24/35 min"
+        },
+        "answer": {
+          "value": "La tabla informa 24/35 min (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o388125v21_160992A77J_202204.pdf",
+          "section": "Datos técnicos > tiempo de carga 2,0 Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,0 Ah: 24/35 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-08"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto tarda una batería ProCORE18V 8 Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "FAQ basada en keywords; Datos técnicos > tiempo de carga ProCORE18V 8.0Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        },
+        "answer": {
+          "value": "Bosch informa 113/124 min (80 %/100 %), aproximadamente.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > tiempo de carga ProCORE18V 8.0Ah",
+          "date_consulted": "26/10/2026",
+          "excerpt": "ProCORE18V 8.0Ah: 113/124 min"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-14"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué significa el rango 14,4–18 V?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "FAQ basada en keywords; Datos técnicos > Voltaje de carga de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+        },
+        "answer": {
+          "value": "Bosch lo identifica como voltaje de carga de la batería en el intervalo 14,4–18 V.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
+          "section": "Datos técnicos > Voltaje de carga de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de carga de la batería: 14,4–18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "CHG-BOSCH-GAX-18V30": {
     "publicado": false
@@ -1141,7 +3948,172 @@
     "publicado": false
   },
   "TOOL-BOSCH-GDX-18V-200": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "weight": {
+        "value": "1,7 (con batería incluida; capacidad de batería de prueba no indicada)",
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+        "section": "Datos técnicos > Peso con batería incluida",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso con batería incluida: 1,7 kg"
+      }
+    },
+    "tool": {
+      "packages": [
+        {
+          "code": {
+            "value": "06019J22E0",
+            "unit": "texto",
+            "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+            "section": "Resumen de variantes > Número de pedido",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Número de pedido: 06019J22E0"
+          },
+          "package_type": {
+            "value": "Solo cuerpo",
+            "unit": "presentación",
+            "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+            "section": "Resumen de variantes > Incluido en esta variante; clasificación según el contenido listado por Bosch",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Caja de cartón"
+          },
+          "box_contents": [
+            {
+              "value": "Caja de cartón",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caja de cartón"
+            }
+          ]
+        }
+      ]
+    },
+    "identification": {
+      "text": {
+        "value": "Bosch identifica el pedido por el número 06019J22E0; el código de parte de diez dígitos 3601JJ22E0 aparece en la sección de repuestos y debe coincidir con la tarjeta informativa.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 06019J22E0; Código de parte 3601JJ22E0"
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      },
+      {
+        "value": "El manual indica usar únicamente acumuladores Bosch originales de ion-litio de la tensión indicada en la placa de características de la herramienta.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o362226v21_160992A6HS_202105.pdf",
+        "section": "Indicaciones de seguridad, español, p. 27",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Bosch acumuladores de iones de litio originales de la tensión indicada en la placa"
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué tensión y torque declara la llave de impacto Bosch GDX 18V-200?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Voltaje de la batería; Torque, máx.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V; Torque, máx.: 200 Nm"
+        },
+        "answer": {
+          "value": "Bosch declara 18 V y 200 Nm de torque máximo.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "Datos técnicos > Voltaje de la batería; Torque, máx.",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V; Torque, máx.: 200 Nm"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-12",
+          "KW-BOSCH-13"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto pesa con batería incluida?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Peso con batería incluida; Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso con batería incluida: 1,7 kg; Peso sin batería: 1,2 kg"
+        },
+        "answer": {
+          "value": "La ficha informa 1,7 kg con batería incluida y 1,2 kg sin batería.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "Datos técnicos > Peso con batería incluida; Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso con batería incluida: 1,7 kg; Peso sin batería: 1,2 kg"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-06"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿La caja incluye una batería de 4 Ah?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Capacidad de la batería; Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Capacidad de la batería: 4 Ah; Incluido: Caja de cartón"
+        },
+        "answer": {
+          "value": "La ficha muestra 4 Ah en datos técnicos; el contenido de la variante consultada solo enumera la caja de cartón, sin batería ni cargador.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gdx-18v-200-06019J22E0",
+          "section": "Datos técnicos > Capacidad de la batería; Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Capacidad de la batería: 4 Ah; Incluido: Caja de cartón"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-12"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué tensión de batería exige el manual del GDX?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o362226v21_160992A6HS_202105.pdf",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Indicaciones de seguridad, español, p. 27",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Bosch acumuladores de iones de litio originales de la tensión indicada en la placa"
+        },
+        "answer": {
+          "value": "Bosch indica usar acumuladores Bosch Li-ion originales de la tensión indicada en la placa de características.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/binary/manualsmedia/o362226v21_160992A6HS_202105.pdf",
+          "section": "Indicaciones de seguridad, español, p. 27",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Bosch acumuladores de iones de litio originales de la tensión indicada en la placa"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-07"
+        ]
+      }
+    ]
   },
   "TOOL-BOSCH-GKS-18V-57": {
     "publicado": false
@@ -1162,13 +4134,586 @@
     "publicado": false
   },
   "TOOL-BOSCH-GWS-18V-10": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "weight": {
+        "value": "2,4–2,6 con empuñadura estándar; 2,6–2,8 con empuñadura antivibración",
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o323426v21_160992A51Y_201909.pdf",
+        "section": "Datos técnicos > Peso según EPTA-Procedure 01:2014, manual español, pp. 10–11; depende del acumulador",
+        "date_consulted": "26/10/2026",
+        "excerpt": "2,4–2,6 kg con empuñadura estándar; 2,6–2,8 kg con empuñadura amortiguadora de vibraciones"
+      }
+    },
+    "tool": {
+      "packages": [
+        {
+          "code": {
+            "value": "06019J40E0",
+            "unit": "texto",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+            "section": "Resumen de variantes > Número de pedido",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Número de pedido: 06019J40E0"
+          },
+          "package_type": {
+            "value": "Solo cuerpo",
+            "unit": "presentación",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+            "section": "Resumen de variantes > Incluido en esta variante; clasificación según el contenido listado por Bosch",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Caja de cartón; brida de fijación; caperuza de protección; tuerca de sujeción rápida"
+          },
+          "box_contents": [
+            {
+              "value": "Caja de cartón",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caja de cartón"
+            },
+            {
+              "value": "Brida de fijación",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Brida de fijación"
+            },
+            {
+              "value": "Caperuza de protección",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caperuza de protección"
+            },
+            {
+              "value": "Tuerca de sujeción rápida",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Tuerca de sujeción rápida"
+            }
+          ]
+        }
+      ]
+    },
+    "identification": {
+      "text": {
+        "value": "Bosch identifica el pedido por el número 06019J40E0; el código de parte de diez dígitos 3601JJ40E1 aparece en la sección de repuestos y debe coincidir con la tarjeta informativa.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 06019J40E0; Código de parte 3601JJ40E1"
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      },
+      {
+        "value": "El manual indica usar solo los cargadores enumerados en los datos técnicos de la herramienta.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/binary/manualsmedia/o323426v21_160992A51Y_201909.pdf",
+        "section": "Carga del acumulador, español, p. 11",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Utilice únicamente los cargadores que se enumeran en los datos técnicos."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué tensión tiene la amoladora Bosch GWS 18V-10?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "answer": {
+          "value": "Bosch declara 18 V para el código 06019J40E0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-05"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué incluye la variante Bosch 06019J40E0?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Caja de cartón; brida de fijación; caperuza de protección; tuerca de sujeción rápida"
+        },
+        "answer": {
+          "value": "La lista oficial incluye caja, brida de fijación, caperuza de protección y tuerca de sujeción rápida.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Caja de cartón; brida de fijación; caperuza de protección; tuerca de sujeción rápida"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-05"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuál es el peso con batería de la GWS 18V-10?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Peso según EPTA-Procedure 01:2014",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,4–2,6 kg con empuñadura estándar; 2,6–2,8 kg con empuñadura antivibración"
+        },
+        "answer": {
+          "value": "El manual da intervalos EPTA de 2,4–2,6 kg con empuñadura estándar o 2,6–2,8 kg con antivibración, según el acumulador. La ficha del código indica 2,1 kg sin batería.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "Datos técnicos > Peso según EPTA-Procedure 01:2014",
+          "date_consulted": "26/10/2026",
+          "excerpt": "2,4–2,6 kg con empuñadura estándar; 2,6–2,8 kg con empuñadura antivibración"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-02",
+          "KW-BOSCH-03"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Es compatible con baterías Bosch POWER FOR ALL 18V?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+          "date_consulted": "26/10/2026",
+          "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+        },
+        "answer": {
+          "value": "No. Bosch declara incompatibles POWER FOR ALL 18V y AMPShare/Professional 18V.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-125-mm-06019J40E0",
+          "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+          "date_consulted": "26/10/2026",
+          "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-04"
+        ]
+      }
+    ]
   },
   "TOOL-BOSCH-GWS-18V-10P": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "weight": {
+        "value": "1,9 (sin batería; la ficha consultada no informa peso con batería)",
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+        "section": "Datos técnicos > Peso sin batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso sin batería: 1,9 kg"
+      }
+    },
+    "tool": {
+      "packages": [
+        {
+          "code": {
+            "value": "06019J41E0",
+            "unit": "texto",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+            "section": "Resumen de variantes > Número de pedido",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Número de pedido: 06019J41E0"
+          },
+          "package_type": {
+            "value": "Solo cuerpo",
+            "unit": "presentación",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+            "section": "Resumen de variantes > Incluido en esta variante; clasificación según el contenido listado por Bosch",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Brida de fijación; caperuza de protección; empuñadura auxiliar antivibración; tuerca de sujeción rápida"
+          },
+          "box_contents": [
+            {
+              "value": "Brida de fijación",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Brida de fijación"
+            },
+            {
+              "value": "Caperuza de protección",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caperuza de protección"
+            },
+            {
+              "value": "Empuñadura auxiliar antivibración Vibration Control",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Empuñadura auxiliar antivibración Vibration Control"
+            },
+            {
+              "value": "Tuerca de sujeción rápida",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Tuerca de sujeción rápida"
+            }
+          ]
+        }
+      ]
+    },
+    "identification": {
+      "text": {
+        "value": "Bosch identifica el pedido por el número 06019J41E0; el código de parte de diez dígitos 3601JJ41E2 aparece en la sección de repuestos y debe coincidir con la tarjeta informativa.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 06019J41E0; Código de parte 3601JJ41E2"
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué diferencia documenta Bosch para la GWS 18V-10 P?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Empuñadura auxiliar antivibración (Vibration Control)"
+        },
+        "answer": {
+          "value": "La variante consultada se presenta con empuñadura auxiliar antivibración Vibration Control.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Empuñadura auxiliar antivibración (Vibration Control)"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-02"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuál es el peso con batería de la GWS 18V-10 P?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso sin batería: 1,9 kg"
+        },
+        "answer": {
+          "value": "La página del código 06019J41E0 informa 1,9 kg sin batería; no ofrece un peso con batería. No se transfirió el dato de otro modelo.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "Datos técnicos > Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso sin batería: 1,9 kg"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-03"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿La GWS 18V-10 P es una amoladora Bosch 18V?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "answer": {
+          "value": "Sí. Bosch declara 18 V para la variante 06019J41E0.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-04"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿La variante incluye batería y cargador?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Empuñadura auxiliar antivibración; tuerca de sujeción rápida"
+        },
+        "answer": {
+          "value": "La lista incluye brida, caperuza, empuñadura auxiliar antivibración y tuerca rápida; no enumera batería ni cargador.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-p-06019J41E0",
+          "section": "Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Empuñadura auxiliar antivibración; tuerca de sujeción rápida"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-02"
+        ]
+      }
+    ]
   },
   "TOOL-BOSCH-GWS-18V-10PSC": {
-    "publicado": false
+    "publicado": false,
+    "specifications": {
+      "voltage": {
+        "value": 18,
+        "unit": "V",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+        "section": "Datos técnicos > Voltaje de la batería",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Voltaje de la batería: 18 V"
+      },
+      "weight": {
+        "value": "2,8 (con batería incluida; Bosch no identifica capacidad para este dato)",
+        "unit": "kg",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+        "section": "Datos técnicos > Peso con batería incluida",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Peso con batería incluida: 2,8 kg"
+      }
+    },
+    "tool": {
+      "packages": [
+        {
+          "code": {
+            "value": "06019G3F0B",
+            "unit": "texto",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+            "section": "Resumen de variantes > Número de pedido",
+            "date_consulted": "26/10/2026",
+            "excerpt": "Número de pedido: 06019G3F0B"
+          },
+          "package_type": {
+            "value": "Solo cuerpo",
+            "unit": "presentación",
+            "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+            "section": "Resumen de variantes > Incluido en esta variante; clasificación según el contenido listado por Bosch",
+            "date_consulted": "26/10/2026",
+            "excerpt": "L-BOXX 136; caperuza de corte; brida; caperuza; empuñadura; bandeja; tuerca rápida"
+          },
+          "box_contents": [
+            {
+              "value": "L-BOXX 136",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "L-BOXX 136"
+            },
+            {
+              "value": "Caperuza de plástico de corte con cierre rápido",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caperuza de plástico de corte con cierre rápido"
+            },
+            {
+              "value": "Brida de fijación",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Brida de fijación"
+            },
+            {
+              "value": "Caperuza de protección",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Caperuza de protección"
+            },
+            {
+              "value": "Empuñadura auxiliar antivibración Vibration Control",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Empuñadura auxiliar antivibración Vibration Control"
+            },
+            {
+              "value": "Bandeja de L-BOXX para herramienta y cargador",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Bandeja de L-BOXX para herramienta y cargador"
+            },
+            {
+              "value": "Tuerca de sujeción rápida",
+              "unit": "elemento",
+              "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+              "section": "Incluido en esta variante",
+              "date_consulted": "26/10/2026",
+              "excerpt": "Tuerca de sujeción rápida"
+            }
+          ]
+        }
+      ]
+    },
+    "identification": {
+      "text": {
+        "value": "Bosch identifica el pedido por el número 06019G3F0B; el código de parte de diez dígitos 3601JG3F01 aparece en la sección de repuestos y debe coincidir con la tarjeta informativa.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+        "section": "Número de pedido; Encontrar el repuesto correcto > Código de parte",
+        "date_consulted": "26/10/2026",
+        "excerpt": "Número de pedido 06019G3F0B; Código de parte 3601JG3F01"
+      }
+    },
+    "common_errors": [
+      {
+        "value": "No mezclar baterías Bosch Professional 18V/AMPShare con POWER FOR ALL 18V, destinado a bricolaje: Bosch declara incompatibles ambos sistemas.",
+        "unit": "texto",
+        "source": "https://www.bosch-professional.com/es/es/ampshare/",
+        "section": "Preguntas frecuentes > compatibilidad con POWER FOR ALL 18V",
+        "date_consulted": "26/10/2026",
+        "excerpt": "No. Estos dos sistemas de baterías no son compatibles."
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "value": "¿Qué tensión tiene la amoladora Bosch GWS 18V-10 PSC?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "answer": {
+          "value": "Bosch declara una batería de 18 V para el código 06019G3F0B.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "Datos técnicos > Voltaje de la batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Voltaje de la batería: 18 V"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-05"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Cuánto pesa con y sin batería?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Datos técnicos > Peso con batería incluida; Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso con batería incluida: 2,8 kg; Peso sin batería: 2 kg"
+        },
+        "answer": {
+          "value": "La ficha informa 2,8 kg con batería incluida y 2,0 kg sin batería; no indica la capacidad usada para el primer dato.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "Datos técnicos > Peso con batería incluida; Peso sin batería",
+          "date_consulted": "26/10/2026",
+          "excerpt": "Peso con batería incluida: 2,8 kg; Peso sin batería: 2 kg"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-03"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿Qué trae la variante Bosch 06019G3F0B?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "L-BOXX 136; caperuza de plástico de corte; empuñadura auxiliar antivibración"
+        },
+        "answer": {
+          "value": "Bosch enumera L-BOXX 136, guardas, brida, empuñadura antivibración, bandeja y tuerca rápida.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "L-BOXX 136; caperuza de plástico de corte; empuñadura auxiliar antivibración"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-05"
+        ]
+      },
+      {
+        "question": {
+          "value": "¿La bandeja para cargador significa que se incluye el cargador?",
+          "unit": "pregunta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "FAQ basada en keywords; Pregunta editorial basada en keywords; respuesta: Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "1/1 bandeja de L-BOXX para herramienta y cargador"
+        },
+        "answer": {
+          "value": "No: Bosch lista la bandeja L-BOXX para herramienta y cargador, pero no lista un cargador como elemento incluido.",
+          "unit": "respuesta",
+          "source": "https://www.bosch-professional.com/ar/es/products/gws-18v-10-psc-06019G3F0B",
+          "section": "Incluido en esta variante",
+          "date_consulted": "26/10/2026",
+          "excerpt": "1/1 bandeja de L-BOXX para herramienta y cargador"
+        },
+        "busquedas_ids": [
+          "KW-BOSCH-02"
+        ]
+      }
+    ]
   },
   "TOOL-DEWALT-DCD7781": {
     "publicado": false
