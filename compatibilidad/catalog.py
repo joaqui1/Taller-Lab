@@ -7,6 +7,9 @@ from compatibilidad.models import Product,Platform,Evidence,ChangeLogEntry
 
 reference=json.loads((Path(__file__).parent/'data/reference_catalog.json').read_text(encoding='utf8'))
 CATALOG_PRODUCTS=[Product(**p) for p in reference['products']]
+# Editorial navigation belongs to the static catalog, even when technical
+# snapshots are restored from persistent storage.
+_EDITORIAL_GUIDE_URLS={p.id:p.guide_url for p in CATALOG_PRODUCTS if p.guide_url}
 PLATFORMS=[Platform(**p) for p in reference['platforms']]
 EVIDENCES=[]
 CHANGELOG=[]
@@ -53,6 +56,10 @@ def baseline_state():
         known.update({p['id']: p for p in verified['products']})
         state.update(verified)
         state['products'] = list(known.values())
+        known_platforms = {p['id']: p for p in state.get('platforms', [])}
+        for platform in platforms:
+            known_platforms.setdefault(platform['id'], platform)
+        state['platforms'] = list(known_platforms.values())
     for platform in state['platforms']:
         platform.update(description='Plataforma de referencia; consultar las relaciones por modelo.',
             compatibility_rule='Solo se confirman las relaciones documentadas entre modelos exactos.',
@@ -102,6 +109,10 @@ def apply_state(state):
     validate_state(state)
     from compatibilidad.sources import proof_valid
     state=json.loads(json.dumps(state))
+    for product in state['products']:
+        guide_url=_EDITORIAL_GUIDE_URLS.get(product['id'])
+        if guide_url:
+            product['guide_url']=guide_url
     raw_state=json.loads(json.dumps(state))
     evidences={e['id']:Evidence(**e) for e in state['evidences']}
     for product in state['products']:

@@ -396,6 +396,16 @@ def render_platform_page_html(platform_id: str) -> str:
     batteries = [p for p in prods if p.product_type == ProductType.BATERIA.value]
     chargers = [p for p in prods if p.product_type == ProductType.CARGADOR.value or p.product_type == ProductType.ADAPTADOR.value]
     tools = [p for p in prods if p.product_type == ProductType.HERRAMIENTA.value]
+    other_platforms = [p for p in PLATFORMS
+                       if p.id != plat.id
+                       and p.id not in ("bosch-power-for-all-18v", "makita-xgt", "dewalt-60v-max")
+                       and any(x.platform_id == p.id and x.status == 'publicado' for x in CATALOG_PRODUCTS)]
+    platform_navigation = (
+        '<section class="compat-other-platforms"><h2>Otras plataformas documentadas</h2>'
+        '<p>Cada sistema tiene sus propios modelos y reglas. Consultar otra plataforma no implica que sus baterías sean intercambiables.</p><ul>'
+        + ''.join(f'<li><a href="/plataformas/{escape(p.id, quote=True)}/">{escape(p.name)}</a></li>' for p in other_platforms)
+        + '</ul></section>' if other_platforms else ''
+    )
 
     crumbs = [("Inicio", "/"), ("Compatibilidad", "/compatibilidad/"), (plat.name, "")]
 
@@ -463,6 +473,8 @@ def render_platform_page_html(platform_id: str) -> str:
         <h2 style="font-size: 1.4rem; color: #f8fafc; margin-bottom: 1rem;">Herramientas documentadas del sistema ({len(tools)})</h2>
         {render_prod_list(tools)}
       </section>
+
+      {platform_navigation}
 
       <!-- ENLACE METODOLOGÍA -->
       <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
