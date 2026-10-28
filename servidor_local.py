@@ -2998,9 +2998,13 @@ Las opiniones de compradores pueden señalar dudas recurrentes, pero no equivale
 
 **Prueba física: no realizada** en las guías actuales. TallerLab no realiza pruebas físicas sistemáticas de los productos.
 
-## Afiliación y correcciones
+## Afiliación
 
-Algunos enlaces a productos pueden generar una comisión para TallerLab. Cuando una opción encaja con el uso y tiene documentación suficiente, priorizamos ofrecer su enlace de afiliado. La comisión no convierte al producto en ganador ni reemplaza los criterios técnicos: conservamos alternativas y señalamos datos faltantes o contradictorios antes de recomendar. Identificamos los enlaces de afiliado como patrocinados; las búsquedas generales no llevan esa etiqueta. Corregimos una guía cuando cambia una fuente o encontramos un error; la fecha de revisión solo se actualiza después de verificar de nuevo las afirmaciones afectadas.
+Algunos enlaces a Mercado Libre son de afiliado: si comprás desde ellos, TallerLab puede recibir una comisión. No pagás más por eso.
+
+## Correcciones
+
+Corregimos una guía cuando cambia una fuente o encontramos un error; la fecha de revisión solo se actualiza después de verificar de nuevo las afirmaciones afectadas.
 
 La fecha visible corresponde a la última revisión documental registrada del artículo. Cambiar la firma, el diseño o un enlace de navegación no modifica esa fecha. Cuando corregimos un error importante, agregamos un **Historial de correcciones** en el artículo con la fecha, el dato corregido y su fuente. Los cambios menores de estilo no requieren una entrada. No reconstruimos fechas ni correcciones sin un registro que las respalde.
 
@@ -3083,8 +3087,8 @@ Consultá [Cómo trabajamos](/como-trabajamos/) para conocer el método, las fec
     rendered_body = MARKDOWN.render(body)
     if kind == "metodologia":
         rendered_body = rendered_body.replace(
-            "<h2>Afiliación y correcciones</h2>",
-            '<h2 id="afiliacion">Afiliación y correcciones</h2>',
+            "<h2>Afiliación</h2>",
+            '<h2 id="afiliacion">Afiliación</h2>',
         )
     content = f'<div class="article-container"><div class="article-header">{author_photo_html}<h1>{title}</h1><p class="article-lead">{desc}</p></div><div class="markdown-body">{rendered_body}</div>{members_html}</div>'
     schema = "" if kind == "metodologia" else '<script type="application/ld+json">' + json.dumps(author_profile_page_schema(), ensure_ascii=False).replace("<", "\\u003c") + '</script>'
