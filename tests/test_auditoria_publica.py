@@ -121,6 +121,34 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
         self.assertNotIn('/comunidad/', header)
         self.assertNotIn('<a href="/comunidad/">Comunidad</a>', html)  # cerrada: tampoco en el pie
 
+    def test_criterios_de_comunidad_noindex_y_fuera_del_sitemap_mientras_esta_cerrada(self):
+        from comunidad import components as cc, storage as db
+        from app import app
+        with patch.object(db, 'enabled', return_value=False), patch.object(db, 'overview_or_none', return_value=None):
+            self.assertIn('/comunidad/criterios/', cc.community_sitemap_excluded())
+            self.assertNotIn('/comunidad/criterios/', self.locs())
+            html = app.test_client().get('/comunidad/criterios/').get_data(as_text=True)
+            self.assertIn('noindex', html.split('</head>', 1)[0])
+        with patch.object(db, 'enabled', return_value=True), patch.object(db, 'overview_or_none', return_value=None):
+            self.assertEqual(cc.community_sitemap_excluded(), {'/comunidad/'})
+            html = app.test_client().get('/comunidad/criterios/').get_data(as_text=True)
+            self.assertNotIn('noindex', html.split('</head>', 1)[0])
+
+
+class AfiliacionEIdioma(unittest.TestCase):
+    def test_metodologia_declara_que_la_comision_no_decide_el_ganador(self):
+        import servidor_local as site
+        html = site.render_editorial_page('metodologia')
+        seccion = html.split('<h2 id="afiliacion">Afiliación</h2>', 1)[1].split('<h2', 1)[0]
+        self.assertIn('puede recibir una comisión', seccion)
+        self.assertIn('La comisión no convierte al producto en ganador', seccion)
+
+    def test_paginas_en_espanol_de_argentina(self):
+        import servidor_local as site
+        html = site.render_editorial_page('contacto')
+        self.assertIn('<html lang="es-AR">', html)
+        self.assertNotIn('<html lang="es">', html)
+
 
 class PerfilDeAutor(unittest.TestCase):
     def test_pagina_de_autor_declara_un_solo_person(self):

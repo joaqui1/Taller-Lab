@@ -735,7 +735,7 @@ def build_site(history_path, output, base_path='', site_url=SITE, manifest_path=
         lastmod = f'<lastmod>{modified}</lastmod>' if modified else ''
         sitemap = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+esc(hosted+p)+'</loc>'+lastmod+'</url>' for p in routes)+'</urlset>'
         (output/'sitemap.xml').write_text(sitemap, encoding='utf-8')
-    (output/'404.html').write_text(f'<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Página no encontrada | TallerLab</title><link rel="stylesheet" href="{url("/assets/observatorio-gratuito.css")}"><main class="methodology"><h1>Página no encontrada.</h1><a href="{url(HUB)}">Volver a los precios</a></main></html>', encoding='utf-8')
+    (output/'404.html').write_text(f'<!doctype html><html lang="es-AR"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Página no encontrada | TallerLab</title><link rel="stylesheet" href="{url("/assets/observatorio-gratuito.css")}"><main class="methodology"><h1>Página no encontrada.</h1><a href="{url(HUB)}">Volver a los precios</a></main></html>', encoding='utf-8')
     atomic_json(output/'estado.json', summary)
     return summary
 

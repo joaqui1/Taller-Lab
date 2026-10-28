@@ -203,10 +203,11 @@ def community_sitemap_excluded():
     La portada solo se declara cuando se confirma que es indexable. Si la base no responde,
     se omite: quitarla un rato del sitemap no la desindexa, pero declarar una página
     «noindex» en el sitemap envía señales contradictorias."""
+    excluidas = set() if db.enabled() else {'/comunidad/criterios/'}
     overview = db.overview_or_none()
     if overview is not None and hub_indexable(overview):
-        return set()
-    return {'/comunidad/'}
+        return excluidas
+    return excluidas | {'/comunidad/'}
 
 
 def community_sitemap_paths():

@@ -1451,7 +1451,7 @@ def render_calculator_embed(slug):
         return render_not_found("/embed/calculadoras/" + slug + "/")
     resource, article = _calculator_resource(data)
     canonical = absolute_url(f"/calculadoras/{slug}/")
-    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{escape(data["title"])}</title><link rel="canonical" href="{escape(canonical, quote=True)}"><style>
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{escape(data["title"])}</title><link rel="canonical" href="{escape(canonical, quote=True)}"><style>
     :root{{--ink:#17241f;--muted:#53645b;--line:#d8e1dc;--accent:#c45125;--paper:#fff;--wash:#f4f7f4;color-scheme:light}}
     *{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}}.frame{{max-width:760px;margin:auto;padding:18px}}.editorial-resource{{border:1px solid var(--line);border-radius:14px;padding:24px;background:linear-gradient(145deg,#fff 60%,#f3f7f3)}}.resource-kicker{{font:700 .7rem/1.2 system-ui,sans-serif;letter-spacing:.12em;color:var(--accent)}}.editorial-resource h2{{font-size:clamp(1.5rem,5vw,2rem);line-height:1.13;margin:.7rem 0}}.resource-lead,.resource-method,.resource-provenance{{color:var(--muted)}}.resource-fields{{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin:20px 0}}.resource-field{{display:grid;gap:6px;font:600 .9rem system-ui,sans-serif}}.resource-field>span{{display:flex;align-items:center;border:1px solid var(--line);border-radius:8px;background:#fff;padding:0 10px}}.resource-field input,.resource-field select{{font:inherit;color:var(--ink);padding:11px 8px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff}}.resource-field>span input{{border:0;outline:0}}.resource-loads{{display:grid;gap:10px}}.resource-loads fieldset{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border:1px solid var(--line);padding:12px}}.resource-loads legend{{font:600 .82rem system-ui,sans-serif}}.resource-loads label{{display:grid;gap:4px;font:600 .8rem system-ui,sans-serif}}.resource-loads input{{width:100%;min-width:0;padding:9px;border:1px solid var(--line);border-radius:6px;font:inherit}}.resource-result{{border-left:4px solid var(--accent);background:#fff;padding:14px 16px;margin:16px 0}}.resource-result strong{{font:700 1.05rem system-ui,sans-serif}}.resource-result p{{margin:.3rem 0 0}}.resource-method{{font-size:.92rem}}.resource-provenance{{font-size:.78rem}}.resource-provenance a{{color:inherit}}.brand{{border-top:1px solid var(--line);margin:14px 0 0;padding-top:10px;font:600 .8rem system-ui,sans-serif}}a{{color:var(--accent)}}@media(max-width:520px){{.frame{{padding:10px}}.editorial-resource{{padding:17px}}.resource-loads fieldset{{grid-template-columns:1fr}}}}
     </style></head><body><main class="frame">{resource}<p id="fuentes-consultadas" class="resource-provenance"><a href="{escape(absolute_url(article["url"]), quote=True)}" target="_blank" rel="noopener">Ver fuentes y límites en la guía relacionada</a></p><p class="brand"><a href="{escape(canonical, quote=True)}" target="_blank" rel="noopener">Calculadora de TallerLab</a></p></main><script src="/assets/decision-tools.js?v=5" defer></script></body></html>'''
@@ -2034,7 +2034,7 @@ def render_sitemap():
         comunidad_excluidas = community_sitemap_excluded()
     except Exception:
         # Si no se puede confirmar que la portada sea indexable, no se declara (nunca sitemap + noindex).
-        comunidad_lastmod, comunidad_excluidas = {}, {'/comunidad/'}
+        comunidad_lastmod, comunidad_excluidas = {}, {'/comunidad/', '/comunidad/criterios/'}
     paths=tuple(dict.fromkeys(paths+tuple(comunidad_lastmod)))
     # La portada de la comunidad no va al sitemap mientras sea «noindex» (todavía sin páginas de modelo con contenido).
     paths=tuple(p for p in paths if p not in comunidad_excluidas)
@@ -2208,7 +2208,7 @@ def render_affiliate_shelf(section_id, products=None, ctas=None, editorial=None)
     """
 
 HTML_SHELL = """<!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -3001,6 +3001,8 @@ Las opiniones de compradores pueden señalar dudas recurrentes, pero no equivale
 ## Afiliación
 
 Algunos enlaces a Mercado Libre son de afiliado: si comprás desde ellos, TallerLab puede recibir una comisión. No pagás más por eso.
+
+La comisión no convierte al producto en ganador ni reemplaza los criterios técnicos: conservamos alternativas y señalamos datos faltantes o contradictorios antes de recomendar. Identificamos los enlaces de afiliado como patrocinados; las búsquedas generales no llevan esa etiqueta.
 
 ## Correcciones
 
