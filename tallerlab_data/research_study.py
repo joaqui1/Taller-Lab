@@ -42,7 +42,14 @@ def generate_research_study_metrics() -> Dict[str, Any]:
             "pct_specs_conditioned": 0.0,
             "compresores_total": 0,
             "compresores_fad_count": 0,
+            "compresores_tanque_count": 0,
+            "infladores_count": 0,
             "compresores_sin_fad_count": 0,
+            "compresores_por_familia": {
+                "compresor-tanque": {"label": "Compresores con tanque", "total": 0, "output_flow_count": 0, "output_flow_missing_count": 0, "output_flow_pct": 0.0, "with_output_flow_slugs": [], "without_output_flow_slugs": []},
+                "inflador": {"label": "Infladores portátiles", "total": 0, "output_flow_count": 0, "output_flow_missing_count": 0, "output_flow_pct": 0.0, "with_output_flow_slugs": [], "without_output_flow_slugs": []},
+                "aerografo": {"label": "Compresores para aerógrafo", "total": 0, "output_flow_count": 0, "output_flow_missing_count": 0, "output_flow_pct": 0.0, "with_output_flow_slugs": [], "without_output_flow_slugs": []},
+            },
             "pct_compresores_solo_teorico": 0.0,
             "pct_compresores_fad": 0.0,
             "compresores_sin_fad_slugs": [],
@@ -66,8 +73,15 @@ def generate_research_study_metrics() -> Dict[str, Any]:
     total_specs = 0
 
     compresores_total = 0
+    compresores_tanque_count = 0
+    infladores_count = 0
     compresores_con_fad_slugs: List[str] = []
     compresores_sin_fad_slugs: List[str] = []
+    compressor_family_slugs: Dict[str, Dict[str, List[str]]] = {
+        "compresor-tanque": {"with_output_flow": [], "without_output_flow": []},
+        "inflador": {"with_output_flow": [], "without_output_flow": []},
+        "aerografo": {"with_output_flow": [], "without_output_flow": []},
+    }
 
     hidro_total = 0
     hidro_con_trabajo_slugs: List[str] = []
@@ -88,8 +102,16 @@ def generate_research_study_metrics() -> Dict[str, Any]:
 
         if t.category == "compresores":
             compresores_total += 1
+            if family(t) == "compresor-tanque":
+                compresores_tanque_count += 1
+            elif family(t) == "inflador":
+                infladores_count += 1
             # Verifica si publica caudal de salida efectivo bajo presión (4 bar, 7 bar, FAD)
             has_fad = has_output_flow(t)
+            application_family = family(t)
+            family_counts = compressor_family_slugs.get(application_family)
+            if family_counts is not None:
+                family_counts["with_output_flow" if has_fad else "without_output_flow"].append(t.slug)
             if has_fad:
                 compresores_con_fad_slugs.append(t.slug)
             else:
@@ -115,6 +137,25 @@ def generate_research_study_metrics() -> Dict[str, Any]:
     compresores_sin_fad_count = len(compresores_sin_fad_slugs)
     pct_compresores_fad = round((compresores_fad_count / max(compresores_total, 1)) * 100, 1)
     pct_compresores_solo_teorico = round((compresores_sin_fad_count / max(compresores_total, 1)) * 100, 1)
+    compressor_families = {}
+    family_labels = {
+        "compresor-tanque": "Compresores con tanque",
+        "inflador": "Infladores portátiles",
+        "aerografo": "Compresores para aerógrafo",
+    }
+    for family_key, family_label in family_labels.items():
+        with_flow = compressor_family_slugs[family_key]["with_output_flow"]
+        without_flow = compressor_family_slugs[family_key]["without_output_flow"]
+        family_total = len(with_flow) + len(without_flow)
+        compressor_families[family_key] = {
+            "label": family_label,
+            "total": family_total,
+            "output_flow_count": len(with_flow),
+            "output_flow_missing_count": len(without_flow),
+            "output_flow_pct": round(len(with_flow) / family_total * 100, 1) if family_total else 0.0,
+            "with_output_flow_slugs": with_flow,
+            "without_output_flow_slugs": without_flow,
+        }
 
     hidro_trabajo_separada_count = len(hidro_con_trabajo_slugs)
     hidro_solo_max_count = len(hidro_solo_max_slugs)
@@ -133,11 +174,14 @@ def generate_research_study_metrics() -> Dict[str, Any]:
         "total_specs_analyzed": total_specs,
         "pct_specs_conditioned": pct_specs_conditioned,
         "compresores_total": compresores_total,
+        "compresores_tanque_count": compresores_tanque_count,
+        "infladores_count": infladores_count,
         "compresores_fad_count": compresores_fad_count,
         "compresores_sin_fad_count": compresores_sin_fad_count,
         "pct_compresores_solo_teorico": pct_compresores_solo_teorico,
         "pct_compresores_fad": pct_compresores_fad,
         "compresores_sin_fad_slugs": compresores_sin_fad_slugs,
+        "compresores_por_familia": compressor_families,
         "hidro_total": hidro_total,
         "hidro_trabajo_separada_count": hidro_trabajo_separada_count,
         "hidro_solo_max_count": hidro_solo_max_count,
@@ -193,6 +237,26 @@ def get_research_study_data() -> Dict[str, Any]:
     """Retorna los datos y métricas exactos del estudio sin valores por defecto simulados."""
     metrics = generate_research_study_metrics()
 
+    # The exported snapshot is the canonical source for the public edition ID.
+    from tallerlab_data.documentary import export_snapshot
+    snapshot = export_snapshot()
+    dates = [
+        str(spec.get("consultation_date", ""))
+        for tool in snapshot.get("tools", [])
+        for spec in tool.get("specs", {}).values()
+        if spec.get("consultation_date")
+    ]
+    dates.extend(
+        str(correction.get("correction_date", ""))
+        for correction in snapshot.get("corrections", [])
+        if correction.get("correction_date")
+    )
+    valid_dates = [value for value in dates if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value)]
+    edition_date = max(valid_dates) if valid_dates else ""
+    from tallerlab_data.documentary import export_snapshot
+
+    snapshot = export_snapshot()
+
     # Mapeo factual a nombres de claves públicas
     total_models = metrics["sample_size"]
     comp_total = metrics["compresores_total"]
@@ -222,6 +286,11 @@ def get_research_study_data() -> Dict[str, Any]:
 
     return {
         "publication_date": "Octubre 2026",
+        "edition_date": edition_date,
+        "edition_date_display": f"{edition_date[8:10]}/{edition_date[5:7]}/{edition_date[:4]}" if edition_date else "",
+        "version": snapshot["version"],
+        "date_modified": snapshot["dateModified"],
+        "version": snapshot["version"],
         "metrics": metrics,
     }
 

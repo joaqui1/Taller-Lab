@@ -132,6 +132,7 @@ from tallerlab_data.views import (
     render_data_methodology_page,
     render_corrections_log_page,
     render_research_study_page,
+    render_research_study_coverage_svg,
     get_tool_product_schema,
     get_tool_page_schema,
     get_research_study_schema,
@@ -147,6 +148,7 @@ TALLERLAB_DATA_DOWNLOAD_PATHS = (
     "/herramientas/investigacion/descargar-datos.csv",
     "/herramientas/investigacion/descargar-datos.json",
     "/herramientas/investigacion/fuentes.json",
+    "/herramientas/investigacion/grafico-cobertura.svg",
 )
 
 TALLERLAB_DATA_TOOL_PATHS = tuple(f"/herramientas/{t.slug}/" for t in get_all_tools())
@@ -1938,7 +1940,7 @@ def render_compatibility_page(path, query_params=None):
         product = PRODUCTS_BY_SLUG.get(compat_slug)
         if product:
             content += render_guides_for_model_block(product.slug)
-    content='<link rel="stylesheet" href="/assets/compatibilidad.css"><link rel="stylesheet" href="/assets/compatibilidad-navegacion.css">'+content+'<script defer src="/assets/compatibilidad.js"></script>'
+    content='<link rel="stylesheet" href="/assets/compatibilidad.css?v=2"><link rel="stylesheet" href="/assets/compatibilidad-navegacion.css?v=2">'+content+'<script defer src="/assets/compatibilidad.js"></script>'
     title, desc, extra_schema = get_compatibility_meta(path, SITE_URL)
     if path == COMPATIBILITY_SEARCH_PATH:
         canonical_meta = '<meta name="robots" content="noindex, follow">\n  <link rel="canonical" href="' + escape(absolute_url('/compatibilidad/'), quote=True) + '">'
@@ -2780,7 +2782,7 @@ HTML_SHELL = """<!DOCTYPE html>
     }}
     
     /* Footer */
-    footer {{
+    body > footer {{
       border-top: 1px solid var(--border);
       padding: 2.5rem 1.25rem;
       text-align: center;
@@ -4111,6 +4113,15 @@ class TallerLabHandler(BaseHTTPRequestHandler):
             return
 
         # TallerLab Data: descarga de CSV de investigación
+        if path == "/herramientas/investigacion/grafico-cobertura.svg":
+            svg = render_research_study_coverage_svg()
+            self.send_response(200)
+            self.send_header("Content-Type", "image/svg+xml; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="tallerlab-grafico-cobertura.svg"')
+            self.end_headers()
+            self.wfile.write(svg.encode("utf-8"))
+            return
+
         if path == "/herramientas/investigacion/descargar-datos.csv":
             csv_data = generate_study_csv()
             self.send_response(200)

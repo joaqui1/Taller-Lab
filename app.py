@@ -210,6 +210,16 @@ def tallerlab_data_csv():
     )
 
 
+@app.route("/herramientas/investigacion/grafico-cobertura.svg", methods=["GET"])
+def tallerlab_data_coverage_chart():
+    from tallerlab_data.views import render_research_study_coverage_svg
+    return Response(
+        render_research_study_coverage_svg(),
+        content_type="image/svg+xml; charset=utf-8",
+        headers={"Content-Disposition": 'attachment; filename="tallerlab-grafico-cobertura.svg"'},
+    )
+
+
 @app.route('/herramientas/investigacion/descargar-datos.json', methods=['GET'])
 def tallerlab_data_json():
     from tallerlab_data.documentary import export_snapshot

@@ -96,7 +96,7 @@ const cases=[
  ['water',{flow:6,minutes:5},[]]
 ]; console.log(JSON.stringify(cases.map(([kind,values,loads])=>calculate(kind,values,loads))));'''
         node = shutil.which("node")
-        result = subprocess.run([node, "-e", script], check=True, capture_output=True, text=True)
+        result = subprocess.run([node, "-e", script], check=True, capture_output=True, text=True, encoding="utf-8")
         values = json.loads(result.stdout)
         self.assertEqual(len(values), 12)
         self.assertIn("Marcha: 400 W", values[0]["title"] + " " + values[0]["body"])

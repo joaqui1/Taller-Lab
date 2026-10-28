@@ -77,11 +77,15 @@ class IngcoSinDestacado(unittest.TestCase):
     def test_fuente_ingco_no_se_presenta_como_oficial(self):
         data = json.loads((ROOT / 'tallerlab_data' / 'data' / 'catalog_snapshot.json').read_text(encoding='utf-8'))
         tool = next(t for t in data['tools'] if t['slug'] == 'ingco-cidli20668-4')
-        texto = json.dumps(tool, ensure_ascii=False)
-        self.assertNotIn('Ficha oficial', texto)
-        self.assertNotIn('ficha del fabricante"', texto)
-        self.assertNotIn('2.0 Ah', texto)
-        self.assertIn('Ah sin confirmar', texto)
+        # Desde la ficha oficial INGCO Argentina, solo esa URL puede llamarse oficial;
+        # los datos tomados de comercios siguen sin presentarse como del fabricante.
+        for source in tool['primary_sources']:
+            if 'oficial' in source['label'].lower():
+                self.assertTrue(source['url'].startswith('https://ar.ingco.com/'), source)
+        for spec in tool['specs'].values():
+            if spec['source_type'] == 'comercio':
+                self.assertNotIn('oficial', spec['source_name'].lower())
+                self.assertIn('no es documentación del fabricante', spec['condition'])
 
 
 class IndexacionDeSeccionesCerradas(unittest.TestCase):
