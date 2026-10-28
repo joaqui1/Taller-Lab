@@ -309,12 +309,12 @@ def render_guide_technical_tools_block(guide_url: str) -> str:
     <div class="tl-guide-integration-callout">
       <div class="tl-guide-callout-header">
         <div>
-          <span style="font-size:0.75rem; font-weight:800; color:#ff5500; text-transform:uppercase; letter-spacing:0.06em;">TallerLab Data · Fichas documentales</span>
+          <span style="font-size:0.75rem; font-weight:800; color:#b93d00; text-transform:uppercase; letter-spacing:0.06em;">TallerLab Data · Fichas documentales</span>
           <h3 class="tl-guide-callout-title">Modelos de esta guía en nuestra Base Técnica</h3>
         </div>
-        <a href="/herramientas/comparar/" style="font-size:0.82rem; font-weight:700; color:#38bdf8;">Comparar en Matriz ↗</a>
+        <a href="/herramientas/comparar/" style="font-size:0.82rem; font-weight:700; color:#b93d00;">Comparar en Matriz ↗</a>
       </div>
-      <p style="font-size:0.86rem; color:#94a3b8; margin-bottom:0.75rem;">
+      <p style="font-size:0.86rem; color:#5b6467; margin-bottom:0.75rem;">
         Datos declarados, variantes y fuentes registradas. Consultá cada ficha para conocer su cobertura documental:
       </p>
       <div class="tl-guide-callout-grid">

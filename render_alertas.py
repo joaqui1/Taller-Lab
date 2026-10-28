@@ -168,8 +168,8 @@ ALERTAS_CSS = """
   color: #ffffff;
 }
 .alertas-chip.active {
-  background: #ff5500;
-  border-color: #ff5500;
+  background: #c24100;
+  border-color: #c24100;
   color: #ffffff;
   font-weight: 700;
 }
@@ -325,7 +325,7 @@ ALERTAS_CSS = """
   gap: 1.5rem;
   flex-wrap: wrap;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #8b949e;
   padding-top: 0.75rem;
   border-top: 1px dashed #21262d;
 }
@@ -541,7 +541,7 @@ def render_alerts_hub_page(query: str = "") -> str:
             <strong>Variantes identificadas:</strong> {escape(variantes_str)}
           </div>
           <div class="dossier-card-actions">
-            <span style="font-size: 0.78rem; color: #64748b;">{alertas_label}</span>
+            <span style="font-size: 0.78rem; color: #8b949e;">{alertas_label}</span>
             <a href="/alertas/{exp['slug']}/" class="dossier-card-link">Ver expediente técnico →</a>
           </div>
         </article>
@@ -815,7 +815,7 @@ def render_model_dossier_page(exp: Dict[str, Any]) -> str:
               </div>
               {ev_texto}
               <div class="alert-card-footer">
-                <span style="color: #64748b;">Investigación técnica independiente TallerLab</span>
+                <span style="color: #8b949e;">Investigación técnica independiente TallerLab</span>
                 <a href="{escape(al['enlace_original'], quote=True)}" target="_blank" rel="noopener noreferrer" style="color: #ff5500; font-weight: 700; text-decoration: none;">Ver publicación original en {escape(al['organismo'])} ↗</a>
               </div>
             </div>
@@ -905,7 +905,7 @@ def render_model_dossier_page(exp: Dict[str, Any]) -> str:
             <strong style="color: #ffffff; display: block; margin-bottom: 0.2rem;">¿Estás evaluando este equipo antes de comprar?</strong>
             <span style="font-size: 0.85rem; color: #94a3b8;">Consultá la comparativa técnica de capacidades, alternativas y diferencias de taller.</span>
           </div>
-          <a href="{escape(exp['guia_url'], quote=True)}" class="btn-doc" style="background: #ff5500; border-color: #ff5500;">Ver comparativa en TallerLab →</a>
+          <a href="{escape(exp['guia_url'], quote=True)}" class="btn-doc" style="background: #c24100; border-color: #c24100; color: #ffffff;">Ver comparativa en TallerLab →</a>
         </div>
         """
 

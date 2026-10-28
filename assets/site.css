@@ -12,6 +12,9 @@
   --orange-hover: #e84b00;
   --orange-glow: rgba(255, 90, 10, .18);
   --orange-bg: #fff0e5;
+  /* Naranja para fondos de botones con texto blanco (contraste 5.2:1). --orange queda para acentos. */
+  --orange-strong: #c24100;
+  --orange-strong-hover: #a33700;
 }
 
 .skip-link { position: fixed; top: .5rem; left: .5rem; z-index: 1000; padding: .8rem 1rem; background: #20262a; color: #fff; border-radius: 4px; transform: translateY(-150%); }
@@ -61,8 +64,8 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .hero-media-wrapper { height: 100%; border: 0; border-radius: 0; box-shadow: none; }
 .hero-drill-img { height: 100%; max-width: none; min-height: 440px; object-fit: cover; object-position: 52% center; }
 .handwritten-sticker { z-index: 2; top: auto; right: 1.4rem; bottom: 1.4rem; background: rgba(28, 34, 37, .9); border-color: rgba(255, 115, 40, .7); font-size: 1.15rem; border-radius: 5px; }
-.btn-orange { background: var(--orange); border-radius: 5px; padding: .8rem 1.2rem; font-size: .9rem; box-shadow: none; text-transform: uppercase; letter-spacing: .055em; }
-.btn-orange:hover { background: var(--orange-hover); box-shadow: 0 8px 20px var(--orange-glow); }
+.btn-orange { background: var(--orange-strong); border-radius: 5px; padding: .8rem 1.2rem; font-size: .9rem; box-shadow: none; text-transform: uppercase; letter-spacing: .055em; }
+.btn-orange:hover { background: var(--orange-strong-hover); box-shadow: 0 8px 20px var(--orange-glow); }
 .search-box { max-width: 530px; margin-top: 0; }
 .search-box input { background: #343d40; border-color: #566165; border-radius: 5px; font-size: .9rem; padding: .8rem 1rem .8rem 2.9rem; }
 .search-box input::placeholder { color: #bcc4c4; }
@@ -87,6 +90,7 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .featured-hero-card:hover { box-shadow: 0 14px 28px rgba(32, 38, 42, .15); }
 .breadcrumb { color: #5b6467; font-size: .77rem; text-transform: uppercase; letter-spacing: .065em; margin-bottom: 1.5rem; }
 .breadcrumb span[style*="color: #ffffff"] { color: #323b3d !important; }
+.breadcrumb a:hover { color: #b93d00; }
 .category-hero { background: #252d30; padding: 2.5rem 3rem !important; margin: 0 0 3rem !important; border: 0 !important; border-left: 5px solid var(--orange) !important; border-radius: 4px; }
 .category-hero > div:first-child { flex-wrap: wrap; }
 .category-hero h1 { color: #fff !important; font-size: clamp(2rem, 3.5vw, 3rem) !important; overflow-wrap: anywhere; }
@@ -137,10 +141,10 @@ main { max-width: 1380px; padding: 2rem 2rem 4rem; }
 .markdown-body a.catalog-link, .markdown-body a[href^="https://listado.mercadolibre.com.ar/"] { display: inline-flex; background: #f6f3ed; border: 1px solid #cbd0cd; color: #3d4b4e !important; padding: .55rem .8rem; border-radius: 3px; box-shadow: none; font-size: .85rem; font-weight: 700; text-decoration: none !important; margin: .5rem 0; }
 .markdown-body a.catalog-link:hover, .markdown-body a[href^="https://listado.mercadolibre.com.ar/"]:hover { background: #ebe7df; border-color: #9da9a7; transform: none; box-shadow: none; }
 .markdown-body a[href^="https://meli.la/"]:not(.btn-mercado-libre) { color: #bd4505; font-weight: 700; }
-footer { background: #20272b; border-top: 4px solid var(--orange); color: #c6cecd; margin-top: 0; }
-footer img { display: none; }
-footer strong { color: #fff; }
-footer p[style] { color: #96a2a1 !important; }
+body > footer { background: #20272b; border-top: 4px solid var(--orange); color: #c6cecd; margin-top: 0; }
+body > footer img { display: none; }
+body > footer strong { color: #fff; }
+body > footer p[style] { color: #96a2a1 !important; }
 @media (max-width: 1000px) { .nav-container { flex-wrap: wrap; gap: .4rem; } .nav-links { width: 100%; } .hero-col-left { padding-left: 2.2rem; } }
 @media (max-width: 860px) { main { padding: 1rem 1rem 3rem; } .hero-grid { display: block; min-height: 0; } .hero-col-left { padding: 3rem 2rem; } .hero-col-right { display: none; } .hero-title { font-size: clamp(2.4rem, 7vw, 3.5rem); } .hero-container::before { background: repeating-linear-gradient(125deg, transparent 0 60px, rgba(255,255,255,.015) 61px 62px); } .category-strip { justify-content: flex-start; } .article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .offer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .nav-container { padding: .65rem 1rem; } .logo-img { height: 32px; } .nav-btn { font-size: .75rem; padding: .4rem .5rem; } .hero-col-left { padding: 2.3rem 1.35rem; } .hero-desc { font-size: .95rem; } .hero-title { font-size: 2.35rem; } .category-strip { margin-bottom: 2.5rem; } .section-header { align-items: flex-start; } .section-header > .section-subtitle, .section-header > .section-link, .section-header > .thumb-badge { display: none; } .article-grid { grid-template-columns: 1fr; } .category-hero { padding: 2rem 1.4rem !important; } .category-hero h1 { font-size: 1.75rem !important; } .article-header { padding: 2.1rem 1.45rem; } .markdown-body { padding: 2rem 1.35rem; } .meta-bar { gap: .45rem; } }
@@ -305,14 +309,15 @@ footer p[style] { color: #96a2a1 !important; }
 .editorial-resource { margin: 2rem 0 2.8rem; padding: 2rem; background: var(--bg-card); border-top: 4px solid var(--orange); box-shadow: 0 8px 24px rgba(25,30,31,.04); }
 .calculator-page { max-width: 900px; }
 .calculator-page > .article-header { margin-bottom: 1.4rem; }
-.calculator-page > .article-header h1 { color: #fff; }
-.calculator-page > .article-header .article-category { color: #ffad78; }
-.calculator-page > .article-header p { color: #d0d6d5; }
+.calculator-page > .article-header h1, .editorial-container > .article-header h1 { color: #fff; }
+.calculator-page > .article-header .article-category, .editorial-container > .article-header .article-category { color: #ffad78; }
+.calculator-page > .article-header p, .editorial-container > .article-header > p { color: #d0d6d5; }
+.editorial-container > .article-header + .article-grid { margin-top: 2rem; }
 .calculator-page .calculator-intro { max-width: 68ch; color: var(--text-muted); }
 .calculator-page .calculator-explanation, .calculator-page #fuentes-consultadas, .calculator-page .calculator-embed-tools { margin: 2.2rem 0; padding: 1.4rem 1.6rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; }
 .calculator-page .calculator-explanation h2, .calculator-page #fuentes-consultadas h2, .calculator-page .calculator-embed-tools h2 { margin-top: 0; }
 .calculator-page .calculator-embed-code { display: block; width: 100%; max-width: 100%; margin: 1rem 0; padding: .8rem; border: 1px solid var(--border); border-radius: 4px; background: #fffefa; color: var(--text); font: .8rem/1.5 ui-monospace, Consolas, monospace; resize: vertical; }
-.calculator-page .calculator-copy-button { padding: .7rem 1rem; border: 0; border-radius: 4px; background: var(--orange); color: white; font: 700 .85rem/1.2 system-ui, sans-serif; cursor: pointer; }
+.calculator-page .calculator-copy-button { padding: .7rem 1rem; border: 0; border-radius: 4px; background: var(--orange-strong); color: white; font: 700 .85rem/1.2 system-ui, sans-serif; cursor: pointer; }
 .calculator-page .calculator-copy-button:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
 .calculator-page .calculator-reviewed { color: var(--text-muted); font-size: .85rem; }
 .resource-kicker { display: block; font-family: 'JetBrains Mono', monospace; color: #a83700; font-size: .68rem; font-weight: 600; letter-spacing: .08em; margin-bottom: .7rem; }
@@ -395,6 +400,9 @@ footer p[style] { color: #96a2a1 !important; }
 .buying-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .9rem 1.2rem; }
 .buying-link { display: inline-block; padding: .85rem 1.1rem; background: #263034; color: #fff; font-size: .84rem; font-weight: 700; line-height: 1.5; text-decoration: none; }
 .buying-link:hover { background: #3d4a4f; }
+/* El botón de Mercado Libre hereda color oscuro de .btn-mercado-libre (!important); en este bloque el fondo es oscuro. */
+.buying-link.btn-mercado-libre { color: #fff !important; background: #263034; margin: 0; padding: .85rem 1.1rem; font-size: .84rem; border-radius: 4px; box-shadow: none; }
+.buying-link.btn-mercado-libre:hover { color: #fff !important; background: #3d4a4f; transform: none; box-shadow: none; }
 .buying-link:focus-visible, .buying-alternative:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
 .buying-alternative { font-size: .83rem; font-weight: 700; line-height: 1.7; text-decoration: underline; }
 .buying-sources, .buying-disclosure { margin-top: 1rem; font-size: .76rem; line-height: 1.8; color: #515956; }
@@ -435,8 +443,8 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
 .home-hero h1 .home-title-prefix { color: inherit; }
 .home-hero-copy > p { max-width: 460px; color: #505b65; line-height: 1.65; font-size: 1rem; }
 .home-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.4rem; margin: 1.65rem 0 1.8rem; }
-.home-hero .btn-orange { display: inline-flex; justify-content: space-between; gap: 1.6rem; align-items: center; min-height: 50px; color: #fff !important; background: #ff5a0a; border-radius: 8px; text-transform: none; letter-spacing: 0; padding: .85rem 1.3rem; font-size: .83rem; font-weight: 700; box-shadow: 0 8px 20px #ff5a0a12; }
-.home-hero .btn-orange:hover { background: #e94d00; transform: translateY(-2px); }
+.home-hero .btn-orange { display: inline-flex; justify-content: space-between; gap: 1.6rem; align-items: center; min-height: 50px; color: #fff !important; background: var(--orange-strong); border-radius: 8px; text-transform: none; letter-spacing: 0; padding: .85rem 1.3rem; font-size: .83rem; font-weight: 700; box-shadow: 0 8px 20px #ff5a0a12; }
+.home-hero .btn-orange:hover { background: var(--orange-strong-hover); transform: translateY(-2px); }
 .home-secondary { display: inline-flex; align-items: center; min-height: 44px; color: #263037; font-weight: 700; font-size: .8rem; }
 .home-secondary:hover { color: #b53c00; }
 .home-search { width: 100%; max-width: 550px; }
@@ -565,7 +573,7 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
   .home-search form { border-radius: 10px; gap: .25rem; }
   .home-search input { font-size: 16px; min-height: 36px; padding: .35rem .25rem; letter-spacing: -.03em; }
   .home-search-icon { width: 17px; flex-basis: 17px; margin-left: .5rem; }
-  .home-search button { min-height: 38px; padding: .55rem .8rem; background: #ff5a0a; font-size: .7rem; border-radius: 7px; }
+  .home-search button { min-height: 38px; padding: .55rem .8rem; background: var(--orange-strong); font-size: .7rem; border-radius: 7px; }
   .home-search > p { display: none; }
   .home-page > .home-section, .home-page > .home-results, .home-page > .home-trust { width: calc(100% - 28px); }
   .home-section, .home-results { margin-top: 1.8rem; }
@@ -690,3 +698,13 @@ body:has(.home-page) .home-nav-tools { display: flex; align-items: center; order
 .compat-guide-block p { margin: .4rem 0; font-size: .92rem; }
 .compat-guide-block ul { margin: .6rem 0 .8rem 1.1rem; padding: 0; }
 .compat-guide-block li { margin: .3rem 0; font-size: .92rem; }
+
+/* Bloque de fichas TallerLab Data dentro de las guías (tema claro) */
+.article-container .tl-guide-integration-callout { background: #fffefa; border: 1px solid var(--border); border-left: 4px solid var(--orange); border-radius: 5px; padding: 1.5rem 1.75rem; margin: 2.5rem 0; }
+.article-container .tl-guide-callout-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem; }
+.article-container .tl-guide-callout-title { color: #20262a; font-size: 1.15rem; font-weight: 800; margin: .2rem 0 0; }
+.article-container .tl-guide-callout-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.article-container .tl-guide-callout-item { background: #f4f2ed; border: 1px solid var(--border); border-radius: 4px; padding: .85rem 1rem; }
+.article-container .tl-guide-callout-item h4 { color: #20262a; font-size: .95rem; margin: 0 0 .35rem; }
+.article-container .tl-guide-callout-item p { color: #5b6467; font-size: .8rem; margin: 0 0 .5rem; }
+.article-container .tl-guide-callout-item a { color: #b93d00; font-size: .8rem; font-weight: 700; }
