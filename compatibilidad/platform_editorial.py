@@ -31,9 +31,8 @@ def has_platform_editorial(platform_id: str) -> bool:
 
 
 def platform_page_is_indexable(platform_id: str) -> bool:
-    """Hide owner-unapproved draft pages from the generated sitemap paths."""
-    page = EDITORIAL_PLATFORMS.get(platform_id)
-    return page is None or page.get("publicado") is True
+    """Un borrador sin aprobar no oculta la URL: se sirve la ficha genérica."""
+    return True
 
 
 def render_platform_editorial_page(platform_id: str) -> str | None:
@@ -42,7 +41,9 @@ def render_platform_editorial_page(platform_id: str) -> str | None:
     if page is None:
         return None
     if page.get("publicado") is not True:
-        return ""
+        # Borrador sin aprobación del dueño: se conserva la ficha genérica
+        # (la URL ya existe y la enlazan guías publicadas).
+        return None
 
     from compatibilidad.catalog import CATALOG_PRODUCTS, PLATFORMS_BY_ID, RELATIONS
     from compatibilidad.presentation import product_path

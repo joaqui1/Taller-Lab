@@ -1,4 +1,5 @@
 """Citable answers with explicit scope, authorship and primary sources."""
+from datetime import date, datetime
 from html import escape
 from compatibilidad import catalog
 from compatibilidad.search import normalize_code, GLOBAL_SEARCH_INDEX
@@ -54,13 +55,31 @@ def coverage_summary():
     checked=catalog.CURRENT_METADATA.get('last_checked_at','')
     return f'<aside class="compat-coverage"><strong>{active} modelos verificados · {len(catalog.RELATIONS)} relaciones documentadas · {len(catalog.CATALOG_PRODUCTS)-active} referencias pendientes</strong><p>Última comprobación: {escape(checked[:10] or "sin fecha")} (UTC). Autor de la recopilación: <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani</a>. <a href="/compatibilidad/cambios/">Historial de cambios</a>.</p></aside>'
 
+def _date_es(value):
+    try:
+        return date.fromisoformat(str(value)[:10]).strftime('%d/%m/%Y')
+    except (TypeError, ValueError):
+        return str(value or '')
+
+def source_check_text(evidence):
+    checked=evidence.date_reviewed
+    checked_label=_date_es(checked)
+    result=(f'Comprobado automáticamente contra la ficha oficial de {escape(evidence.manufacturer)} '
+            f'el <time datetime="{escape(checked)}">{escape(checked_label)}</time>.')
+    reviewer=getattr(evidence,'source_approved_by',None)
+    approved_at=getattr(evidence,'source_approved_at',None)
+    if reviewer and approved_at:
+        result+=(f' <span>Cambio de fuente aprobado por {escape(reviewer)} el '
+                 f'<time datetime="{escape(approved_at)}">{escape(_date_es(approved_at))}</time>.</span>')
+    return result
+
 def source_panel(product):
     eid=product.evidence_identity_id
     evidence=catalog.EVIDENCES_BY_ID.get(eid)
     if product.status!='publicado' or not evidence:
         return ''
     supporting=''.join(f'<li><a data-compat-event="clic_fuente" href="{escape(url)}">Manual oficial complementario</a></li>' for url in evidence.supporting_urls)
-    return f'<section class="compat-source"><h2>Fuente y comprobación documental</h2><p>{escape(evidence.document_title)} · {escape(evidence.manufacturer)}. Comprobado el <time datetime="{escape(evidence.date_reviewed)}">{escape(evidence.date_reviewed)}</time> (UTC).</p><blockquote>{escape(evidence.excerpt)}</blockquote><p>{escape(evidence.section_or_page)}. {escape(evidence.reviewer)}.</p><ul><li><a data-compat-event="clic_fuente" href="{escape(evidence.official_url)}">Consultar ficha oficial</a></li>{supporting}</ul><p>Recopilación de <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani</a>. <a href="/compatibilidad/metodologia/">Método y límites</a> · <a href="/contacto/">Reportar una corrección con modelo y fuente</a>.</p></section>'
+    return f'<section class="compat-source"><h2>Fuente y comprobación documental</h2><p>{escape(evidence.document_title)} · {escape(evidence.manufacturer)}. {source_check_text(evidence)}</p><blockquote>{escape(evidence.excerpt)}</blockquote><p>{escape(evidence.section_or_page)}.</p><ul><li><a data-compat-event="clic_fuente" href="{escape(evidence.official_url)}">Consultar ficha oficial</a></li>{supporting}</ul><p>Recopilación de <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani</a>. <a href="/compatibilidad/metodologia/">Método y límites</a> · <a href="/contacto/">Reportar una corrección con modelo y fuente</a>.</p></section>'
 
 def relation_table(printable=False):
     rows=[]
@@ -103,12 +122,12 @@ def relationship_page(path):
     title=f'¿{display_name(source,True)} sirve con {display_name(target,True)}?'
     title=title[0]+title[1].upper()+title[2:]
     answer=f'Sí{", bajo las condiciones indicadas" if evaluation.requires_conditions else ""}. {source.brand} {source.model_name} ({source.mpn}) es compatible con {target.brand} {target.model_name} ({target.mpn}), según las fuentes oficiales indicadas abajo.' if evaluation.is_compatible else 'No se confirma esta combinación: '+evaluation.summary_text
-    date=min((e.date_reviewed for e in evaluation.evidence_chain),default='')
     limits=''.join('<li>'+escape(text)+'</li>' for text in evaluation.conditions+evaluation.exclusions)
     conditions='<section class="compat-conditions"><h2>Condiciones y límites documentados</h2><ul>'+limits+'</ul></section>' if limits else ''
     scope='La cadena comprueba el código de cada producto, su sistema de baterías y una declaración de compatibilidad del fabricante.' if evaluation.is_compatible else 'Esta combinación no tiene una confirmación documental vigente en la base. Las fichas individuales no prueban por sí solas la relación entre ambos productos.'
+    # Robots directives live in the document head, where the renderer emits them once.
     noindex=''
-    return f'{noindex}<article class="compat-answer"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Consulta por modelo</nav><h1>{escape(title)}</h1><p class="compat-direct-answer">{escape(answer)}</p><p><strong>{escape(evaluation.verdict)}</strong> · Fecha más antigua de la cadena: {escape(date or "pendiente")} (UTC).</p>{conditions}<h2>Qué demuestra esta respuesta</h2><p>{scope} Se refiere a las variantes identificadas; no acredita stock, adaptadores externos ni ensayo físico.</p><p>Fichas de los modelos: <a href="{product_path(source)}">{escape(source.brand)} {escape(source.model_name)} ({escape(source.mpn)})</a> · <a href="{product_path(target)}">{escape(target.brand)} {escape(target.model_name)} ({escape(target.mpn)})</a>.</p>{guide_links(source,target)}{source_panel(source)}{source_panel(target)}{render_pair_commercial(source,target)}{related_combinations(source,target,path)}<h2>Consultar otra combinación</h2><p><a href="/compatibilidad/">Buscador y tabla completa</a> · <a href="/datos/compatibilidad/baterias.json">Descargar datos con fuentes y fechas</a>.</p></article>'
+    return f'{noindex}<article class="compat-answer"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Consulta por modelo</nav><h1>{escape(title)}</h1><p class="compat-direct-answer">{escape(answer)}</p><p><strong>{escape(evaluation.verdict)}</strong></p>{conditions}<h2>Qué demuestra esta respuesta</h2><p>{scope} Se refiere a las variantes identificadas; no acredita stock, adaptadores externos ni ensayo físico.</p><p>Fichas de los modelos: <a href="{product_path(source)}">{escape(source.brand)} {escape(source.model_name)} ({escape(source.mpn)})</a> · <a href="{product_path(target)}">{escape(target.brand)} {escape(target.model_name)} ({escape(target.mpn)})</a>.</p>{guide_links(source,target)}{source_panel(source)}{source_panel(target)}{render_pair_commercial(source,target)}{related_combinations(source,target,path)}<h2>Consultar otra combinación</h2><p><a href="/compatibilidad/">Buscador y tabla completa</a> · <a href="/datos/compatibilidad/baterias.json">Descargar datos con fuentes y fechas</a>.</p></article>'
 
 
 # --- SEO: nombres legibles, enlaces entre fichas y datos estructurados por respuesta ---
@@ -132,7 +151,7 @@ def display_name(product,with_article=False):
     return f'{article+" " if with_article else ""}{noun} {name}'
 
 def compatible_counterparts(product):
-    """Modelos con relación compatible vigente y la URL indexable de cada respuesta."""
+    """Modelos con relación compatible vigente y la URL de su respuesta."""
     items=[]
     for relation in catalog.RELATIONS:
         a=catalog.PRODUCTS_BY_ID.get(relation['source_product_id']);b=catalog.PRODUCTS_BY_ID.get(relation['target_product_id'])
@@ -160,9 +179,9 @@ def relation_meta(source,target,evaluation):
 
 def relation_schema(source,target,evaluation,path,base):
     import json as _json
-    date=min((e.date_reviewed for e in evaluation.evidence_chain),default='')
-    latest=max((e.date_reviewed for e in evaluation.evidence_chain),default='')
     title,desc=relation_meta(source,target,evaluation)
+    relation=next((r for r in catalog.RELATIONS if r['source_product_id']==source.id and r['target_product_id']==target.id),None)
+    latest=(relation or {}).get('content_changed_at') or max((p.content_changed_at for p in (source,target)),default='')
     def thing(p):
         return {'@type':'Thing','name':f'{p.brand} {p.model_name}','identifier':p.mpn,'url':base+product_path(p),'sameAs':p.official_url}
     data={'@context':'https://schema.org','@type':'WebPage','name':title,'description':desc,'url':base+path,'inLanguage':'es-AR',
@@ -171,7 +190,6 @@ def relation_schema(source,target,evaluation,path,base):
           'publisher':{'@id':base+'/#organization'},
           'isPartOf':{'@type':'Dataset','name':'Base argentina de compatibilidad de baterías, herramientas y cargadores','url':base+'/compatibilidad/'},
           'citation':sorted({e.official_url for e in evaluation.evidence_chain}|{u for e in evaluation.evidence_chain for u in e.supporting_urls})}
-    if date:data['datePublished']=date
     if latest:data['dateModified']=latest
     return '<script type="application/ld+json">'+_json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
@@ -192,20 +210,47 @@ def guide_compatibility_block(guide_url):
     if not items:return ''
     return '<section class="compat-guide-block"><h2>Compatibilidad de baterías verificada</h2><p>Antes de comprar una batería o un cargador aparte, comprobá el código exacto. Cada ficha enlaza la documentación oficial del fabricante.</p><ul>'+''.join(items)+'</ul><p><a href="/compatibilidad/">Ver la base completa de compatibilidad</a></p></section>'
 
+def product_last_modified(product):
+    """Latest approved product-content date, including its published editorial ficha."""
+    dates=[]
+    raw=getattr(product, 'content_changed_at', '')
+    try:
+        dates.append(date.fromisoformat(str(raw)[:10]).isoformat())
+    except (TypeError, ValueError):
+        pass
+    try:
+        from compatibilidad.editorial import get_published_ficha
+        ficha=get_published_ficha(product.id)
+        raw=ficha.get('last_approved_modified_at') if ficha else None
+        if raw:
+            try:
+                normalized=date.fromisoformat(str(raw)[:10]).isoformat()
+            except ValueError:
+                normalized=datetime.strptime(str(raw), '%d/%m/%Y').date().isoformat()
+            dates.append(normalized)
+    except (ImportError, AttributeError, TypeError, ValueError):
+        pass
+    return max(dates, default='')
+
 def compatibility_lastmod():
-    """Fecha de la comprobación documental más reciente por URL pública de compatibilidad."""
+    """Fecha del último cambio de contenido por URL pública de compatibilidad."""
     dates={}
     def put(path,date):
         if date and (path not in dates or date>dates[path]):dates[path]=date[:10]
     for p in catalog.CATALOG_PRODUCTS:
         if p.status!='publicado':continue
-        ev=catalog.EVIDENCES_BY_ID.get(p.evidence_identity_id)
-        if ev:put(product_path(p),ev.date_reviewed)
-        if ev:put('/plataformas/'+p.platform_id+'/',ev.date_reviewed)
+        latest=product_last_modified(p)
+        put(product_path(p),latest)
+        put('/plataformas/'+p.platform_id+'/',latest)
     for r in catalog.RELATIONS:
         a=catalog.PRODUCTS_BY_ID.get(r['source_product_id']);b=catalog.PRODUCTS_BY_ID.get(r['target_product_id'])
-        if a and b:put(relation_path(a,b),r.get('date_reviewed',''))
+        if a and b:put(relation_path(a,b),r.get('content_changed_at',''))
     latest=max(dates.values(),default='')
     for path in ('/compatibilidad/','/compatibilidad/matriz-imprimible/','/compatibilidad/cambios/'):
         if latest:dates[path]=latest
     return dates
+
+def latest_content_changed_at():
+    dates=[product_last_modified(p) for p in catalog.CATALOG_PRODUCTS if p.status=='publicado']
+    dates.extend(r.get('content_changed_at','') for r in catalog.RELATIONS if r.get('content_changed_at'))
+    return max(dates,default='')

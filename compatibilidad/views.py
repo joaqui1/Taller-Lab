@@ -23,7 +23,7 @@ from compatibilidad.search import GLOBAL_SEARCH_INDEX
 from compatibilidad.telemetry import track_event
 from compatibilidad.commercial import render_product_commercial, render_pair_commercial, render_related_kit
 from compatibilidad.presentation import display_name, compatible_counterparts, compatible_counterpart_pages, product_path, relation_meta, relation_schema, product_kind, guide_links
-from compatibilidad.presentation import coverage_summary, source_panel, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path
+from compatibilidad.presentation import coverage_summary, source_panel, source_check_text, latest_content_changed_at, relation_table, relationship_page, resolve_relationship, relationship_paths, relationship_is_indexable, model_picker_options, verified_directory, relation_path, product_last_modified
 from compatibilidad.editorial import get_published_ficha, product_image_schema, render_published_product_page
 from compatibilidad.platform_editorial import platform_page_is_indexable, render_platform_editorial_page
 
@@ -49,10 +49,10 @@ def render_breadcrumb_html(crumbs: List[Tuple[str, str]]) -> str:
     items = []
     for i, (name, url) in enumerate(crumbs):
         if url:
-            items.append(f'<a href="{escape(url)}" style="color: #94a3b8; text-decoration: none;">{escape(name)}</a>')
+            items.append(f'<a href="{escape(url)}" style="color: #5b6467; text-decoration: none;">{escape(name)}</a>')
         else:
-            items.append(f'<span style="color: #f8fafc; font-weight: 600;">{escape(name)}</span>')
-    return '<nav aria-label="Breadcrumb" style="font-size: 0.85rem; margin-bottom: 1.5rem; color: #64748b; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">' + " <span style='color: #475569;'>/</span> ".join(items) + "</nav>"
+            items.append(f'<span style="color: #20262a; font-weight: 600;">{escape(name)}</span>')
+    return '<nav aria-label="Breadcrumb" style="font-size: 0.85rem; margin-bottom: 1.5rem; color: #5b6467; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">' + " <span style='color: #6b7375;'>/</span> ".join(items) + "</nav>"
 
 
 def get_product_schema_json(prod: Product, site_url: str = "") -> str:
@@ -80,8 +80,9 @@ def get_product_schema_json(prod: Product, site_url: str = "") -> str:
     if image_url:
         about["image"] = image_url
         schema["primaryImageOfPage"] = {"@type": "ImageObject", "contentUrl": image_url}
-    if evidence and evidence.date_reviewed:
-        schema["dateModified"] = evidence.date_reviewed[:10]
+    modified=product_last_modified(prod)
+    if modified:
+        schema["dateModified"] = modified
     return '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + "</script>"
 
 
@@ -104,7 +105,7 @@ def render_compatibility_hub_html() -> str:
         <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
           <div>
             <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
-              <span style="background: {plat.badge_color}22; color: {plat.badge_color}; border: 1px solid {plat.badge_color}55; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat.voltage_max)}</span>
+              <span style="background: {plat.badge_color}33; color: #f8fafc; border: 1px solid {plat.badge_color}; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat.voltage_max)}</span>
               <span style="font-size: 0.8rem; color: #8b949e;">{escape(plat.brand)}</span>
             </div>
             <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;"><a href="/plataformas/{plat.id}/" style="color: #f8fafc; text-decoration: none;">{escape(plat.name)}</a></h3>
@@ -128,9 +129,9 @@ def render_compatibility_hub_html() -> str:
       {render_breadcrumb_html([("Inicio", "/"), ("Compatibilidad de Baterías", "")])}
 
       <header style="margin-bottom: 2.5rem;">
-        <span style="color: #ff5500; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">TALLERLAB / BASE ARGENTINA DE COMPATIBILIDAD</span>
-        <h1 style="font-size: 2.4rem; font-weight: 900; color: #f8fafc; margin: 0.5rem 0 1rem 0; line-height: 1.2;">Base argentina de compatibilidad de baterías, herramientas y cargadores</h1>
-        <p style="font-size: 1.15rem; color: #8b949e; line-height: 1.6;">
+        <span style="color: #b93d00; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">TALLERLAB / BASE ARGENTINA DE COMPATIBILIDAD</span>
+        <h1 style="font-size: 2.4rem; font-weight: 900; color: #20262a; margin: 0.5rem 0 1rem 0; line-height: 1.2;">Base argentina de compatibilidad de baterías, herramientas y cargadores</h1>
+        <p style="font-size: 1.15rem; color: #5b6467; line-height: 1.6;">
           Encontrá qué batería sirve con tu herramienta o cargador. Cada respuesta identifica modelos exactos y enlaza las fuentes del fabricante. Los registros pendientes no confirman compatibilidad ni disponibilidad en Argentina.
         </p>
       </header>
@@ -145,7 +146,7 @@ def render_compatibility_hub_html() -> str:
         </p>
         <form action="/compatibilidad/buscar/" method="GET" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
           <input type="text" list="compat-models" name="q" aria-label="Modelo o código de fabricante" placeholder="Ej: 1600A016GB o G12491AR" required style="flex: 1 1 320px; background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem 1rem; color: #f8fafc; font-size: 1rem;" />
-          <button type="submit" style="background: #ff5500; color: #ffffff; border: none; border-radius: 6px; padding: 0.75rem 1.5rem; font-weight: 700; font-size: 1rem; cursor: pointer; transition: background 0.15s ease;">Buscar modelo →</button>
+          <button type="submit" style="background: #c24100; color: #ffffff; border: none; border-radius: 6px; padding: 0.75rem 1.5rem; font-weight: 700; font-size: 1rem; cursor: pointer; transition: background 0.15s ease;">Buscar modelo →</button>
         </form>
 
         <!-- VERIFICADOR RÁPIDO DE DOS MODELOS -->
@@ -163,10 +164,10 @@ def render_compatibility_hub_html() -> str:
       <section style="margin-bottom: 3.5rem;">
         <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 1.5rem;">
           <div>
-            <h2 style="font-size: 1.6rem; color: #f8fafc; margin: 0;">Plataformas cubiertas en el catálogo argentino</h2>
-            <p style="color: #8b949e; font-size: 0.95rem; margin-top: 0.25rem;">{sum(any(x.platform_id==p.id and x.status=='publicado' for x in CATALOG_PRODUCTS) for p in PLATFORMS)} sistemas con modelos verificados. La evidencia se limita a las combinaciones enumeradas.</p>
+            <h2 style="font-size: 1.6rem; color: #20262a; margin: 0;">Plataformas cubiertas en el catálogo argentino</h2>
+            <p style="color: #5b6467; font-size: 0.95rem; margin-top: 0.25rem;">{sum(any(x.platform_id==p.id and x.status=='publicado' for x in CATALOG_PRODUCTS) for p in PLATFORMS)} sistemas con modelos verificados. La evidencia se limita a las combinaciones enumeradas.</p>
           </div>
-          <a href="/compatibilidad/matriz-imprimible/" style="color: #ff5500; font-size: 0.9rem; font-weight: 600; text-decoration: none;">Ver matriz imprimible de referencia 🖨 →</a>
+          <a href="/compatibilidad/matriz-imprimible/" style="color: #b93d00; font-size: 0.9rem; font-weight: 600; text-decoration: none;">Ver matriz imprimible de referencia 🖨 →</a>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">
@@ -187,7 +188,7 @@ def render_compatibility_hub_html() -> str:
         </div>
         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
           <a href="/compatibilidad/metodologia/" style="background: #21262d; color: #f8fafc; border: 1px solid #30363d; padding: 0.45rem 0.85rem; border-radius: 6px; font-size: 0.85rem; text-decoration: none; font-weight: 600;">Metodología y correcciones →</a>
-          <a href="/datos/compatibilidad/baterias.csv" style="background: #ff5500; color: #ffffff; padding: 0.45rem 0.85rem; border-radius: 6px; font-size: 0.85rem; text-decoration: none; font-weight: 700;">Descargar CSV ↓</a>
+          <a href="/datos/compatibilidad/baterias.csv" style="background: #c24100; color: #ffffff; padding: 0.45rem 0.85rem; border-radius: 6px; font-size: 0.85rem; text-decoration: none; font-weight: 700;">Descargar CSV ↓</a>
           <a href="/datos/compatibilidad/baterias.json" style="background: #21262d; color: #8b949e; border: 1px solid #30363d; padding: 0.45rem 0.85rem; border-radius: 6px; font-size: 0.85rem; text-decoration: none; font-weight: 600;">JSON ↓</a>
         </div>
       </footer>
@@ -275,7 +276,7 @@ def render_compatibility_search_results_html(query: str = "", model_a: str = "",
               <li style="margin-bottom: 0.75rem; color: #8b949e; font-size: 0.85rem;">
                 <strong style="color: #f8fafc;">{escape(e.document_title)}</strong> ({escape(e.manufacturer)}) — Sección: {escape(e.section_or_page)}.<br>
                 <em style="color: #c9d1d9; display: block; margin: 0.2rem 0; padding-left: 0.5rem; border-left: 2px solid #30363d;">«{escape(e.excerpt)}»</em>
-                    <span style="font-size: 0.75rem; color: #64748b;">Revisado por {escape(e.reviewer)} el {escape(e.date_reviewed)} · <a data-compat-event="clic_fuente" href="{escape(e.official_url)}" target="_blank" rel="noopener" style="color: #ff5500;">Fuente oficial ↗</a></span>
+                    <span style="font-size: 0.75rem; color: #8b949e;">{source_check_text(e)} · <a data-compat-event="clic_fuente" href="{escape(e.official_url)}" target="_blank" rel="noopener" style="color: #ff5500;">Fuente oficial ↗</a></span>
                     {' '.join('<a data-compat-event="clic_fuente" href="'+escape(url)+'">Manual oficial complementario</a>' for url in e.supporting_urls)}
               </li>
             """ for e in ev.evidence_chain)
@@ -309,7 +310,7 @@ def render_compatibility_search_results_html(query: str = "", model_a: str = "",
                     {escape(prod_a.model_name)} <span style="color: #ff5500;">↔</span> {escape(prod_b.model_name)}
                   </h2>
                 </div>
-                <div>{badge}<br><a style="font-size:.8rem" href="{relation_path(ev.source_product,ev.target_product)}">Ver respuesta y fuentes</a></div>
+                <div>{badge}<br><a style="font-size:.8rem; color: #ff995f;" href="{relation_path(ev.source_product,ev.target_product)}">Ver respuesta y fuentes</a></div>
               </div>
 
               <p style="font-size: 1.1rem; color: #e6edf3; line-height: 1.5; margin-bottom: 1rem;">{escape(ev.summary_text)}</p>
@@ -334,7 +335,7 @@ def render_compatibility_search_results_html(query: str = "", model_a: str = "",
     search_cards = []
     for prod, score in results:
         plat = PLATFORMS_BY_ID.get(prod.platform_id)
-        plat_badge = f'<span style="background: {plat.badge_color if plat else "#666"}22; color: {plat.badge_color if plat else "#aaa"}; border: 1px solid {plat.badge_color if plat else "#666"}44; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 4px;">{escape(plat.name if plat else prod.platform_id)}</span>'
+        plat_badge = f'<span style="background: {plat.badge_color if plat else "#666"}22; color: #f8fafc; border: 1px solid {plat.badge_color if plat else "#666"}; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 4px;">{escape(plat.name if plat else prod.platform_id)}</span>'
         
         url = f"/baterias/{prod.slug}/" if prod.product_type == ProductType.BATERIA.value else (f"/cargadores/{prod.slug}/" if prod.product_type == ProductType.CARGADOR.value else f"/herramientas-bateria/{prod.slug}/")
         
@@ -356,7 +357,7 @@ def render_compatibility_search_results_html(query: str = "", model_a: str = "",
             </p>
           </div>
           <div style="border-top: 1px solid #21262d; pt: 0.75rem; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; margin-top: 0.5rem;">
-            <span style="color: #64748b;">{escape(prod.voltage_nominal or "")} {f"· {prod.capacity_ah} Ah" if prod.capacity_ah else ""}</span>
+            <span style="color: #8b949e;">{escape(prod.voltage_nominal or "")} {f"· {prod.capacity_ah} Ah" if prod.capacity_ah else ""}</span>
             <a href="{url}" style="color: #ff5500; font-weight: 600; text-decoration: none;">Ver ficha técnica →</a>
           </div>
         </div>
@@ -369,18 +370,18 @@ def render_compatibility_search_results_html(query: str = "", model_a: str = "",
       {render_breadcrumb_html(crumbs)}
 
       <div style="margin-bottom: 2rem;">
-        <h1 style="font-size: 2.2rem; color: #f8fafc; margin-top: 0;">Consulta de compatibilidad</h1>
-        <p style="color: #8b949e;">Resultados basados en documentación técnica primaria y catálogo oficial para Argentina.</p>
+        <h1 style="font-size: 2.2rem; color: #20262a; margin-top: 0;">Consulta de compatibilidad</h1>
+        <p style="color: #5b6467;">Resultados basados en documentación técnica primaria y catálogo oficial para Argentina.</p>
       </div>
 
       {pair_section}
 
       <section style="margin-bottom: 3rem;" {'hidden' if not query else ''}>
         <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; flex-wrap: wrap;">
-          <h2 style="font-size: 1.4rem; color: #f8fafc; margin: 0;">
+          <h2 style="font-size: 1.4rem; color: #20262a; margin: 0;">
             {f"Modelos encontrados para '{escape(query)}' ({len(results)})" if query else "Modelos documentados"}
           </h2>
-          <a href="/compatibilidad/" style="color: #ff5500; font-size: 0.9rem; text-decoration: none;">← Nueva búsqueda</a>
+          <a href="/compatibilidad/" style="color: #b93d00; font-size: 0.9rem; text-decoration: none;">← Nueva búsqueda</a>
         </div>
 
         {f'<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">{cards_grid}</div>' if results else '<p style="color: #8b949e; background: #161b22; padding: 1.5rem; border-radius: 8px;">No se encontraron modelos con ese término exacto. Probá buscando por código MPN de fábrica (ej. 1600A016GB, BL1850B, DCB115-AR).</p>'}
@@ -421,7 +422,7 @@ def render_platform_page_html(platform_id: str) -> str:
 
     def render_prod_list(items):
         if not items:
-            return "<p style='color: #8b949e; font-size: 0.9rem;'>No hay modelos documentados en esta categoría.</p>"
+            return "<p style='color: #5b6467; font-size: 0.9rem;'>No hay modelos documentados en esta categoría.</p>"
         rows = []
         for p in items:
             url = f"/baterias/{p.slug}/" if p.product_type == ProductType.BATERIA.value else (f"/cargadores/{p.slug}/" if p.product_type == ProductType.CARGADOR.value else f"/herramientas-bateria/{p.slug}/")
@@ -448,11 +449,11 @@ def render_platform_page_html(platform_id: str) -> str:
       {render_breadcrumb_html(crumbs)}
 
       <header style="margin-bottom: 2.5rem;">
-        <span style="background: {plat.badge_color}22; color: {plat.badge_color}; border: 1px solid {plat.badge_color}55; font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px; text-transform: uppercase;">
+        <span style="background: {plat.badge_color}1a; color: #20262a; border: 1px solid {plat.badge_color}; font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px; text-transform: uppercase;">
           {escape(plat.brand)} · {escape(plat.voltage_max)}
         </span>
-        <h1 style="font-size: 2.4rem; font-weight: 900; color: #f8fafc; margin: 0.75rem 0 0.5rem 0;">{escape(plat.name)}</h1>
-        <p style="font-size: 1.15rem; color: #8b949e; line-height: 1.6;">{escape('Registros verificados de esta plataforma y fuentes documentales.')}</p>
+        <h1 style="font-size: 2.4rem; font-weight: 900; color: #20262a; margin: 0.75rem 0 0.5rem 0;">{escape(plat.name)}</h1>
+        <p style="font-size: 1.15rem; color: #5b6467; line-height: 1.6;">{escape('Registros verificados de esta plataforma y fuentes documentales.')}</p>
       </header>
 
       <!-- REGLA DE COMPATIBILIDAD Y EXCEPCIONES -->
@@ -468,19 +469,19 @@ def render_platform_page_html(platform_id: str) -> str:
 
       <!-- BATERÍAS DOCUMENTADAS -->
       <section style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.4rem; color: #f8fafc; margin-bottom: 1rem;">Baterías documentadas en Argentina ({len(batteries)})</h2>
+        <h2 style="font-size: 1.4rem; color: #20262a; margin-bottom: 1rem;">Baterías documentadas en Argentina ({len(batteries)})</h2>
         {render_prod_list(batteries)}
       </section>
 
       <!-- CARGADORES DOCUMENTADOS -->
       <section style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.4rem; color: #f8fafc; margin-bottom: 1rem;">Cargadores con compatibilidad documentada ({len(chargers)})</h2>
+        <h2 style="font-size: 1.4rem; color: #20262a; margin-bottom: 1rem;">Cargadores con compatibilidad documentada ({len(chargers)})</h2>
         {render_prod_list(chargers)}
       </section>
 
       <!-- HERRAMIENTAS DOCUMENTADAS -->
       <section style="margin-bottom: 3rem;">
-        <h2 style="font-size: 1.4rem; color: #f8fafc; margin-bottom: 1rem;">Herramientas documentadas del sistema ({len(tools)})</h2>
+        <h2 style="font-size: 1.4rem; color: #20262a; margin-bottom: 1rem;">Herramientas documentadas del sistema ({len(tools)})</h2>
         {render_prod_list(tools)}
       </section>
 
@@ -581,11 +582,11 @@ def render_battery_detail_page_html(slug: str) -> str:
 
       <header style="margin-bottom: 2.5rem;">
         <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-          <span style="background: {plat_badge}22; color: {plat_badge}; border: 1px solid {plat_badge}55; font-size: 0.8rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat_name)}</span>
+          <span style="background: {plat_badge}1a; color: #20262a; border: 1px solid {plat_badge}; font-size: 0.8rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat_name)}</span>
           <span style="background: #1e293b; color: #94a3b8; font-size: 0.8rem; padding: 0.2rem 0.5rem; border-radius: 4px;">Código de pedido: {escape(battery.mpn)}</span>
         </div>
-        <h1 style="font-size: 2.4rem; font-weight: 900; color: #f8fafc; margin: 0.5rem 0 0.5rem 0;">{escape(display_name(battery)[0].upper()+display_name(battery)[1:])}: herramientas y cargadores compatibles</h1>
-        <p style="font-size: 1.15rem; color: #8b949e;">{escape(battery.notes)}</p>
+        <h1 style="font-size: 2.4rem; font-weight: 900; color: #20262a; margin: 0.5rem 0 0.5rem 0;">{escape(display_name(battery)[0].upper()+display_name(battery)[1:])}: herramientas y cargadores compatibles</h1>
+        <p style="font-size: 1.15rem; color: #5b6467;">{escape(battery.notes)}</p>
       </header>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
@@ -601,7 +602,7 @@ def render_battery_detail_page_html(slug: str) -> str:
               {specs_rows}
             </tbody>
           </table>
-          <p style="font-size: 0.8rem; color: #64748b; margin-top: 1rem; margin-bottom: 0;">
+          <p style="font-size: 0.8rem; color: #8b949e; margin-top: 1rem; margin-bottom: 0;">
             Fuente oficial: <a href="{escape(battery.official_url)}" target="_blank" rel="noopener" style="color: #ff5500;">Ficha técnica de fabricante ↗</a>
           </p>
         </div>
@@ -619,14 +620,14 @@ def render_battery_detail_page_html(slug: str) -> str:
 
       <!-- CARGADORES COMPATIBLES -->
       <section style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.35rem; color: #f8fafc; margin-bottom: 0.75rem;">Cargadores compatibles documentados ({len(compatible_chargers)})</h2>
-        {"".join(charger_rows) if charger_rows else "<p style='color: #8b949e; font-size: 0.9rem;'>No hay cargadores compatibles documentados.</p>"}
+        <h2 style="font-size: 1.35rem; color: #20262a; margin-bottom: 0.75rem;">Cargadores compatibles documentados ({len(compatible_chargers)})</h2>
+        {"".join(charger_rows) if charger_rows else "<p style='color: #5b6467; font-size: 0.9rem;'>No hay cargadores compatibles documentados.</p>"}
       </section>
 
       <!-- HERRAMIENTAS COMPATIBLES -->
       <section style="margin-bottom: 3rem;">
-        <h2 style="font-size: 1.35rem; color: #f8fafc; margin-bottom: 0.75rem;">Herramientas documentadas que aceptan esta batería ({len(compatible_tools)})</h2>
-        {"".join(tool_rows) if tool_rows else "<p style='color: #8b949e; font-size: 0.9rem;'>No hay herramientas compatibles documentadas en este catálogo.</p>"}
+        <h2 style="font-size: 1.35rem; color: #20262a; margin-bottom: 0.75rem;">Herramientas documentadas que aceptan esta batería ({len(compatible_tools)})</h2>
+        {"".join(tool_rows) if tool_rows else "<p style='color: #5b6467; font-size: 0.9rem;'>No hay herramientas compatibles documentadas en este catálogo.</p>"}
       </section>
     </div>
     """
@@ -689,11 +690,11 @@ def render_charger_detail_page_html(slug: str) -> str:
 
       <header style="margin-bottom: 2.5rem;">
         <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-          <span style="background: {plat_badge}22; color: {plat_badge}; border: 1px solid {plat_badge}55; font-size: 0.8rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat_name)}</span>
+          <span style="background: {plat_badge}1a; color: #20262a; border: 1px solid {plat_badge}; font-size: 0.8rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px;">{escape(plat_name)}</span>
           <span style="background: #1e293b; color: #94a3b8; font-size: 0.8rem; padding: 0.2rem 0.5rem; border-radius: 4px;">Código de pedido: {escape(charger.mpn)}</span>
         </div>
-        <h1 style="font-size: 2.4rem; font-weight: 900; color: #f8fafc; margin: 0.5rem 0 0.5rem 0;">{escape(display_name(charger)[0].upper()+display_name(charger)[1:])}: qué baterías carga</h1>
-        <p style="font-size: 1.15rem; color: #8b949e;">{escape(charger.notes)}</p>
+        <h1 style="font-size: 2.4rem; font-weight: 900; color: #20262a; margin: 0.5rem 0 0.5rem 0;">{escape(display_name(charger)[0].upper()+display_name(charger)[1:])}: qué baterías carga</h1>
+        <p style="font-size: 1.15rem; color: #5b6467;">{escape(charger.notes)}</p>
       </header>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
@@ -708,7 +709,7 @@ def render_charger_detail_page_html(slug: str) -> str:
               {specs_rows}
             </tbody>
           </table>
-          <p style="font-size: 0.8rem; color: #64748b; margin-top: 1rem; margin-bottom: 0;">
+          <p style="font-size: 0.8rem; color: #8b949e; margin-top: 1rem; margin-bottom: 0;">
             Fuente oficial: <a href="{escape(charger.official_url)}" target="_blank" rel="noopener" style="color: #ff5500;">Manual de fabricante ↗</a>
           </p>
         </div>
@@ -728,7 +729,7 @@ def render_charger_detail_page_html(slug: str) -> str:
 
       <!-- BATERÍAS ADMITIDAS -->
       <section style="margin-bottom: 3rem;">
-        <h2 style="font-size: 1.35rem; color: #f8fafc; margin-bottom: 0.75rem;">Baterías verificadas que admite este cargador ({len(battery_rows)})</h2>
+        <h2 style="font-size: 1.35rem; color: #20262a; margin-bottom: 0.75rem;">Baterías verificadas que admite este cargador ({len(battery_rows)})</h2>
         {"".join(battery_rows)}
       </section>
     </div>
@@ -779,9 +780,9 @@ def render_tool_detail(product):
     if editorial:
         h1=f'Baterías compatibles con {display_name(product,True)}'
         direct_answer=(f'<p class="compat-direct-answer">{lead}</p>'
-                       f'<p>Código exacto: <code>{escape(product.mpn)}</code>. Fuente comprobada el {escape(evidence.date_reviewed)} (UTC).</p>')
+                       f'<p>Código exacto: <code>{escape(product.mpn)}</code>. {source_check_text(evidence)}</p>')
         return render_published_product_page(product,h1,direct_answer,editorial,guide_links(product))
-    return f'<article style="max-width:860px;margin:auto;padding:2rem 1rem"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Herramientas</nav><h1>Baterías compatibles con {escape(display_name(product,True))}</h1><p class="compat-direct-answer">{lead}</p><p>Código exacto: <code>{escape(product.mpn)}</code>. Fuente comprobada el {escape(evidence.date_reviewed)} (UTC).</p><h2>Baterías documentadas para {escape(product.model_name)}</h2><ul>{"".join(rows)}</ul>{guide_links(product)}<p><a href="{escape(evidence.official_url)}">Ficha oficial del fabricante</a> · <a href="/compatibilidad/metodologia/">Metodología</a></p>{source_panel(product)}{render_product_commercial(product)}</article>'
+    return f'<article style="max-width:860px;margin:auto;padding:2rem 1rem"><nav aria-label="Migas de pan"><a href="/compatibilidad/">Base de compatibilidad</a> / Herramientas</nav><h1>Baterías compatibles con {escape(display_name(product,True))}</h1><p class="compat-direct-answer">{lead}</p><p>Código exacto: <code>{escape(product.mpn)}</code>. {source_check_text(evidence)}</p><h2>Baterías documentadas para {escape(product.model_name)}</h2><ul>{"".join(rows)}</ul>{guide_links(product)}<p><a href="{escape(evidence.official_url)}">Ficha oficial del fabricante</a> · <a href="/compatibilidad/metodologia/">Metodología</a></p>{source_panel(product)}{render_product_commercial(product)}</article>'
 
 
 COMPATIBILITY_STATIC_PATHS: Tuple[str, ...] = (
@@ -816,7 +817,7 @@ def get_compatibility_dataset_schema_json(site_url: str = "") -> str:
         "url": f"{base}/compatibilidad/",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "version": CURRENT_METADATA["version"],
-        "dateModified": CURRENT_METADATA.get("last_checked_at", "")[:10],
+        "dateModified": latest_content_changed_at(),
         "measurementTechnique": "Comprobación documental de identidad, pertenencia y declaración oficial por modelo",
         "spatialCoverage": {"@type":"Place","name":"Argentina"},
         "isAccessibleForFree": True,
@@ -893,6 +894,11 @@ def get_compatibility_meta(path: str, site_url: str = "") -> Tuple[str, str, str
                 "url": f"{base}{path}",
             }
             schema_tag = '<script type="application/ld+json">' + json.dumps(coll_schema, ensure_ascii=False).replace("<", "\\u003c") + "</script>"
+            from compatibilidad.platform_editorial import EDITORIAL_PLATFORMS
+            editorial_published = (EDITORIAL_PLATFORMS.get(plat_id) or {}).get("publicado") is True
+            if not editorial_published and not any(p.platform_id == plat_id and p.status == "publicado" for p in CATALOG_PRODUCTS):
+                # Sin modelos verificados la página es un esqueleto vacío: se sigue pero no se indexa.
+                schema_tag = '<meta name="robots" content="noindex, follow">'
             return (
                 f"{plat.name} · Compatibilidad en Argentina",
                 f"Reglas de compatibilidad, baterías, cargadores y herramientas verificadas para {plat.name} en Argentina.",

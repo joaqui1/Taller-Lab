@@ -48,6 +48,13 @@ class CompatibilityInternalLinksTests(unittest.TestCase):
                 "CHG-BOSCH-GAL-18V40-1600A028U0",
                 "CHG-BOSCH-GAL-1880CV-1600A015TL",
             },
+            "/taladros/inalambricos/": {
+                "BAT-GAMMA-G12490AR",
+                "BAT-GAMMA-G12491AR",
+                "CHG-GAMMA-G12492AR",
+                "CHG-GAMMA-G12493AR",
+            },
+            "/taladros/taladro-percutor-inalambrico/": {"TOOL-GAMMA-G12402-1AR"},
         }
         for guide_url, product_ids in expected.items():
             with self.subTest(guide_url=guide_url):
@@ -70,6 +77,8 @@ class CompatibilityInternalLinksTests(unittest.TestCase):
             "/amoladoras/inalambricas/",
             "/taladros/atornilladores-de-impacto/",
             "/taladros/bosch-inalambrico/",
+            "/taladros/inalambricos/",
+            "/taladros/taladro-percutor-inalambrico/",
         )
         articles = {article["url"]: article for article in servidor_local.ALL_ARTICLES}
         for guide_url in target_urls:

@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from compatibilidad import catalog
+from compatibilidad.content_dates import stamp_content_changed_at
 from compatibilidad.models import Evidence, Verdict
 from compatibilidad.sources import PROFILES, PROFILE_NAMES, OFFICIAL_DOMAINS, official_url, contains, fetch_source, technical_text, documented_facts
 from compatibilidad.storage import StateStore
@@ -23,7 +24,7 @@ def relation(source, target, evidence_ids):
             'verdict':Verdict.COMPATIBLE_DOCUMENTADO.value, 'conditions':[], 'exclusions':[],
             'required_packs_count':1, 'evidence_ids':evidence_ids, 'derivation_method':'documentacion_primaria',
             'notes':'Identidad, pertenencia y declaración oficial comprobadas.', 'recommendations':[],
-            'date_reviewed':datetime.now(timezone.utc).date().isoformat()}
+            'date_reviewed':datetime.now(timezone.utc).date().isoformat(), 'content_changed_at':''}
 
 def configured_relations(products):
     published={p['id'] for p in products if p['status']=='publicado'}
@@ -138,6 +139,8 @@ class CompatibilityPipeline:
         store=self.store or StateStore()
         previous=store.current()
         state=json.loads(json.dumps(previous or catalog.baseline_state()))
+        previous_state=previous or catalog.baseline_state()
+        today=datetime.now(timezone.utc).date().isoformat()
         expected=previous['metadata']['version'] if previous else None
         reports=self.run_check_sources(check_online)
         if not check_online:
@@ -153,7 +156,7 @@ class CompatibilityPipeline:
             pid=profile['product_id']; product=products[pid]
             candidate={'id':pid,'mpn':product['mpn'],'product_type':product['product_type'],
                 'platform_id':profile['platform'],'official_url':product['official_url'],
-                'excerpt':profile['excerpt'],'date_reviewed':datetime.now(timezone.utc).date().isoformat(),
+                'excerpt':profile['excerpt'],'date_reviewed':today,
                 'review_method':'declaracion_sistema_oficial'}
             valid,errors=self.validate_candidate(candidate)
             doc=self.documents.get(pid)
@@ -202,8 +205,12 @@ class CompatibilityPipeline:
                 official_url=doc['url'],document_title='Ficha oficial: '+product['model_name'],
                 section_or_page='Identificación y declaración de sistema en la ficha de producto',excerpt=profile['excerpt'],
                 date_consulted=doc['fetched_at'][:10],date_reviewed=candidate['date_reviewed'],
-                verification_method='declaracion_sistema_oficial',reviewer='TallerLab: comprobación automática de afirmaciones configuradas',
+                verification_method='declaracion_sistema_oficial',
                 evidence_hash=hashlib.sha256(doc['text'].encode('utf8')).hexdigest(),status='verificada',
+                reviewer=(old.get('reviewer','') if old else ''),
+                approved_source_hash=(old.get('approved_source_hash') or old.get('evidence_hash') if old else hashlib.sha256(doc['text'].encode('utf8')).hexdigest()),
+                source_approved_by=old.get('source_approved_by') if old else None,
+                source_approved_at=old.get('source_approved_at') if old else None,
                 product_ids=[pid],claim_types=claims,text_assertions=profile['assertions'],content_text=doc['text'],
                 product_facts={**documented_facts(profile,catalog.PRODUCTS_BY_ID[pid]),'_technical_text':doc.get('technical_text',doc['text'])},
                 supporting_urls=doc.get('supporting_urls',[]),primary_text=doc.get('primary_text',doc['text']),
@@ -214,6 +221,7 @@ class CompatibilityPipeline:
                      platforms=[p.to_dict() for p in catalog.PLATFORMS])
         state['observed_documents']={a['product_id']:self.documents[a['product_id']] for a in alerts if a['product_id'] in self.documents}
         state['metadata'].update(engine_version='2',last_checked_at=datetime.now(timezone.utc).isoformat())
+        stamp_content_changed_at(state,previous_state,today)
         state['changelog'].append({'version':'pendiente_publicacion','date':datetime.now(timezone.utc).date().isoformat(),
             'author':'TallerLab: mantenimiento documental', 'description':f'{approved} perfiles comprobados; {len(alerts)} suspendidos o pendientes.',
             'affected_records':[p['product_id'] for p in PROFILES]})
@@ -245,6 +253,8 @@ class CompatibilityPipeline:
         store=self.store or StateStore()
         previous=store.current()
         state=json.loads(json.dumps(previous or catalog.baseline_state()))
+        previous_state=previous or catalog.baseline_state()
+        today=datetime.now(timezone.utc).date().isoformat()
         profile=next((p for p in PROFILES if p['product_id']==product_id),None)
         if not profile:
             raise ValueError('Modelo sin perfil documental')
@@ -263,14 +273,16 @@ class CompatibilityPipeline:
         if not evidence:
             raise ValueError('Ejecutar mantenimiento inicial antes de aprobar cambios')
         evidence.update(content_text=doc['text'],evidence_hash=actual,status='verificada',
+            approved_source_hash=actual,source_approved_by=reviewer.strip(),source_approved_at=today,
             primary_text=doc.get('primary_text',doc['text']),supporting_documents=doc.get('supporting_documents',{}),
             product_facts={**profile['facts'],'_technical_text':doc.get('technical_text',doc['text'])},
-            date_consulted=doc['fetched_at'][:10],date_reviewed=datetime.now(timezone.utc).date().isoformat(),
-            reviewer=reviewer+' (aprobación del cambio; afirmaciones comprobadas automáticamente)')
+            date_consulted=doc['fetched_at'][:10],date_reviewed=today,
+            reviewer=reviewer.strip())
         product['status']='publicado'
         state['relations']=configured_relations(state['products'])
         state.setdefault('observed_documents',{}).pop(product_id,None)
-        state['changelog'].append({'version':'pendiente_publicacion','date':datetime.now(timezone.utc).date().isoformat(),
+        stamp_content_changed_at(state,previous_state,today)
+        state['changelog'].append({'version':'pendiente_publicacion','date':today,
             'author':reviewer,'description':note,'affected_records':[product_id]})
         catalog.validate_state(state)
         published=store.publish(state,previous['metadata']['version'] if previous else None)

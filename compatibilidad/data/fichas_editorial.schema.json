@@ -67,13 +67,22 @@
     "^(BAT|CHG|TOOL|ADP)-[A-Z0-9-]+$": {
       "type": "object",
       "required": [
-        "publicado"
+        "publicado",
+        "last_approved_modified_at"
       ],
       "properties": {
         "publicado": {
           "type": "boolean",
           "default": false,
           "description": "El render editorial permanece desactivado hasta que el dueño lo active explícitamente."
+        },
+        "last_approved_modified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "Fecha ISO de la última modificación aprobada; null mientras siga en borrador."
         },
         "compatibility": {
           "type": "array",
@@ -269,7 +278,28 @@
           "additionalProperties": true
         }
       },
-      "allOf": [],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "publicado": {
+                "const": true
+              }
+            },
+            "required": [
+              "publicado"
+            ]
+          },
+          "then": {
+            "properties": {
+              "last_approved_modified_at": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        }
+      ],
       "additionalProperties": false
     }
   },

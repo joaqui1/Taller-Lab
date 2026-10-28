@@ -225,6 +225,13 @@ def test_guide_links():
     assert "LC2550B" in widget_html
     print("   [OK] Bloque de especificaciones técnicas insertado en guías correctamente.")
 
+def test_compatibility_editorial_dates():
+    print("-> Verificando fechas de modificación aprobada de fichas de compatibilidad...")
+    from compatibilidad.editorial import validate_fichas_editorial
+    errors = validate_fichas_editorial()
+    assert not errors, "Fichas editoriales inválidas:\n" + "\n".join(errors)
+    print("   [OK] Cada ficha editorial tiene una fecha ISO aprobada válida o null en borrador.")
+
 def main():
     print("==================================================")
     print("INICIANDO SUITE DE VERIFICACIÓN TALLERLAB DATA")
@@ -236,6 +243,7 @@ def main():
     test_editorial_comparisons()
     test_research_study_and_csv()
     test_guide_links()
+    test_compatibility_editorial_dates()
     print("==================================================")
     print("TODAS LAS PRUEBAS DE TALLERLAB DATA PASARON EXITOSAMENTE (CASOS CUBIERTOS OK)")
     print("==================================================")

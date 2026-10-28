@@ -110,6 +110,7 @@ Este JSONC ilustra la forma, no es un registro para copiar ni contiene datos de 
 {
   "ID_PRODUCTO": { // Reemplazar por un ID ya existente en el catálogo.
     "publicado": false, // Mantenerlo así hasta la activación editorial del dueño.
+    "last_approved_modified_at": null, // Informar fecha ISO aprobada al publicar; null en borrador.
     "compatibility": [
       {
         "counterpart_id": "ID_CONTRAPARTE", // El nombre, código y enlace salen del catálogo.

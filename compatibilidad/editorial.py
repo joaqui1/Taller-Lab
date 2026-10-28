@@ -66,6 +66,7 @@ _SPEC_UNITS = {
 _NUMERIC_UNITS = {"V", "Ah", "Wh", "kg", "g", "mm", "cm", "min", "h", "W", "rpm", "A", "Hz", "bar", "ml", "ml/min", "DIN/s", "dB(A)", "m/s2", "Nm", "bpm", "lb"}
 _VALUE_FORMATS = {"range", "ranges", "dimensions", "list"}
 _DATE_FORMAT = "%d/%m/%Y"
+_ISO_DATE_FORMAT = "%Y-%m-%d"
 
 
 def _load_data() -> dict[str, Any]:
@@ -83,7 +84,7 @@ _ROOT_METADATA_KEYS = {
     "_schema_version", "_instructions",
 }
 _ALLOWED_FICHA_KEYS = {
-    "publicado", "compatibility", "specifications", "charge_times", "tool",
+    "publicado", "last_approved_modified_at", "compatibility", "specifications", "charge_times", "tool",
     "identification", "common_errors", "warnings", "faqs", "image", "research",
 }
 
@@ -203,6 +204,18 @@ def validate_fichas_editorial(
         if not isinstance(ficha.get("publicado"), bool):
             errors.append(f"{prefix}.publicado: debe ser booleano")
         errors.extend(f"{prefix}: bloque desconocido ({key})" for key in sorted(set(ficha) - _ALLOWED_FICHA_KEYS))
+
+        modified_at = ficha.get("last_approved_modified_at")
+        if "last_approved_modified_at" not in ficha:
+            errors.append(f"{prefix}.last_approved_modified_at: falta la fecha de modificación aprobada")
+        elif ficha.get("publicado") is True or modified_at is not None:
+            try:
+                valid_date = (isinstance(modified_at, str)
+                              and datetime.strptime(modified_at, _ISO_DATE_FORMAT).strftime(_ISO_DATE_FORMAT) == modified_at)
+            except ValueError:
+                valid_date = False
+            if not valid_date:
+                errors.append(f"{prefix}.last_approved_modified_at: debe usar AAAA-MM-DD y ser válida")
 
         for index, relation in enumerate(ficha.get("compatibility", [])):
             path = f"{prefix}.compatibility[{index}]"

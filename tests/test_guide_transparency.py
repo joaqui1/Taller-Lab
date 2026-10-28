@@ -111,18 +111,23 @@ Conclusión editorial propia de esta guía.
             self.assertGreater(buy, note, url)
 
     def test_pie_solo_avisa_en_paginas_con_enlaces_afiliados_y_cubre_rutas_auditadas(self):
-        compatibility_urls = (
-            "/plataformas/bosch-professional-18v/",
-            "/baterias/bosch-gba-18v-4-0ah-1600z00038/",
-            "/herramientas-bateria/bosch-gws-18v-10-p-06019j41e0/",
-            "/compatibilidad/1600z00038-con-06019g3f0b/",
-        )
-        for url in compatibility_urls:
+        # El kit Bosch solo se ofrece junto a herramientas "solo cuerpo" con ficha publicada.
+        from compatibilidad import editorial
+        with patch("compatibilidad.commercial.get_published_ficha", lambda product_id: editorial.EDITORIAL_FICHAS.get(product_id)):
+            for url in (
+                "/herramientas-bateria/bosch-gws-18v-10-p-06019j41e0/",
+                "/compatibilidad/1600z00038-con-06019g3f0b/",
+            ):
+                with self.subTest(url=url):
+                    html = site.render_compatibility_page(url)
+                    self.assertTrue(public._tiene_enlace_afiliado_publicado(html), url)
+                    self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, url)
+                    self.assertIn('href="/como-trabajamos/#afiliacion"', html)
+        for url in ("/plataformas/bosch-professional-18v/", "/baterias/bosch-gba-18v-4-0ah-1600z00038/"):
             with self.subTest(url=url):
                 html = site.render_compatibility_page(url)
-                self.assertTrue(public._tiene_enlace_afiliado_publicado(html), url)
-                self.assertEqual(html.count('class="footer-affiliate-disclosure"'), 1, url)
-                self.assertIn('href="/como-trabajamos/#afiliacion"', html)
+                self.assertFalse(public._tiene_enlace_afiliado_publicado(html), url)
+                self.assertNotIn('class="footer-affiliate-disclosure"', html)
 
         for section in ("amoladoras", "soldadoras"):
             with self.subTest(url=f"/{section}/"):

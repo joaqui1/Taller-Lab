@@ -624,7 +624,8 @@
   ],
   "ADP-MAKITA-ADP10": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-BOSCH-GBA-2AH": {
     "publicado": false,
@@ -864,6 +865,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600Z00036",
       "name": "Bosch Professional GBA 18V 2.0Ah",
@@ -1176,6 +1178,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600Z00038",
       "name": "Bosch Professional GBA 18V 4.0Ah",
@@ -1488,6 +1491,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600A002U5",
       "name": "Bosch Professional GBA 18V 5.0Ah",
@@ -1564,7 +1568,8 @@
   },
   "BAT-BOSCH-PBA-18V-P4A": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-BOSCH-PROCORE-4AH": {
     "publicado": false,
@@ -1804,6 +1809,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600A016GB",
       "name": "Bosch Professional ProCORE18V 4.0Ah",
@@ -2116,6 +2122,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600A016GK",
       "name": "Bosch Professional ProCORE18V 8.0Ah",
@@ -2192,14 +2199,17 @@
   },
   "BAT-DEWALT-DCB120": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-DCB203": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-DCB204": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -2368,22 +2378,27 @@
   },
   "BAT-DEWALT-DCB205": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-FLEXVOLT-6AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-FLEXVOLT-9AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-POWERSTACK-17": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-DEWALT-POWERSTACK-50": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -2543,30 +2558,37 @@
   },
   "BAT-EINHELL-PXC-25AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-EINHELL-PXC-2AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-EINHELL-PXC-3AH-PLUS": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-EINHELL-PXC-4AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-EINHELL-PXC-52AH-PLUS": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-EINHELL-PXC-MULTI-AH": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-GAMMA-G12490AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -2752,6 +2774,7 @@
   },
   "BAT-GAMMA-G12491AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -2936,34 +2959,42 @@
   },
   "BAT-MAKITA-BL1815N": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL1830B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL1840B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL1850B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL1860B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL4025": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-MAKITA-BL4040": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-BOSCH-GAL-1880CV": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "weight": {
         "value": 0.7,
@@ -3676,6 +3707,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600A015TL",
       "name": "Bosch Professional GAL 1880 CV",
@@ -3733,6 +3765,7 @@
   },
   "CHG-BOSCH-GAL-18V40": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "weight": {
         "value": 0.55,
@@ -4461,6 +4494,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "1600A028U0",
       "name": "Bosch Professional GAL 18V-40",
@@ -4526,18 +4560,22 @@
   },
   "CHG-BOSCH-GAX-18V30": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-DEWALT-DCB107-AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-DEWALT-DCB1106-AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-DEWALT-DCB115-AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "compatibility_note": {
         "value": "12V/20V MAX",
@@ -4692,26 +4730,32 @@
   },
   "CHG-DEWALT-DCB118": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-EINHELL-PXC-3A": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-EINHELL-PXC-BOOST-6A": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-EINHELL-PXC-FAST-4A": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-EINHELL-PXC-TWIN-3A": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-GAMMA-G12492AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "charge_voltage": {
         "value": 20.0,
@@ -4938,6 +4982,7 @@
   },
   "CHG-GAMMA-G12493AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "charge_voltage": {
         "value": 20.0,
@@ -5168,27 +5213,33 @@
   },
   "CHG-MAKITA-DC18RC": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-MAKITA-DC18RD": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-MAKITA-DC18SD": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "CHG-MAKITA-DC40RA": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GAS-18V-1": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GBH-180-LI": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GDX-18V-200": {
     "publicado": false,
@@ -5366,6 +5417,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "06019J22E0",
       "name": "Bosch Professional GDX 18V-200",
@@ -5412,27 +5464,33 @@
   },
   "TOOL-BOSCH-GKS-18V-57": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GSA-18V-LI": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GSB-18V-50": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GSR-18V-50": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GST-18V-LIB": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GWS-180-LI": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-BOSCH-GWS-18V-10": {
     "publicado": false,
@@ -5651,6 +5709,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "06019J40E0",
       "name": "Bosch Professional GWS 18V-10",
@@ -5885,6 +5944,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "06019J41E0",
       "name": "Bosch Professional GWS 18V-10 P",
@@ -6135,6 +6195,7 @@
         ]
       }
     ],
+    "last_approved_modified_at": null,
     "research": {
       "sku": "06019G3F0B",
       "name": "Bosch Professional GWS 18V-10 PSC",
@@ -6171,6 +6232,7 @@
   },
   "TOOL-DEWALT-DCD7781": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -6294,6 +6356,7 @@
   },
   "TOOL-DEWALT-DCD796B": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -6468,14 +6531,17 @@
   },
   "TOOL-DEWALT-DCD996B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCD999B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCF887B": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -6598,90 +6664,112 @@
   },
   "TOOL-DEWALT-DCG412B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCG413B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCG418B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCH133B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCS391B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-DEWALT-DCS578B": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-GE-CL-36-LI-E": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-GE-CM-36-37": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-GE-LC-36-35": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TC-JS-18": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-AG-18-115": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-CD-18-2-LI-I": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-CD-18-40": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-CI-18-1": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-CS-18-165": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-EINHELL-TE-HD-18-LI": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12100AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12200AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12201AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12300AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12400AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12402-1AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "compatibility_note": {
         "value": "Batería ion-litio Multi Energy de 20 V",
@@ -6968,6 +7056,7 @@
   },
   "TOOL-GAMMA-G12407AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "compatibility_note": {
         "value": "Baterías Gamma Multi Energy G12490AR o G12491AR, 20 V",
@@ -7253,6 +7342,7 @@
   },
   "TOOL-GAMMA-G12414AR": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "compatibility_note": {
         "value": "Batería Multi Energy de 20 V, ion-litio",
@@ -7488,74 +7578,92 @@
   },
   "TOOL-GAMMA-G12500AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12600AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-GAMMA-G12700AR": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DDF485Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DGA454Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DGA504Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHP458Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHP484Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHR202Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHR280Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHS680Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DHS782Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DJR186Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DTD152Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DTM51Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-DUC353Z": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "TOOL-MAKITA-GA005GZ": {
     "publicado": false,
-    "charge_times": []
+    "charge_times": [],
+    "last_approved_modified_at": null
   },
   "BAT-TOTAL-TFBLI20011": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -7683,6 +7791,7 @@
   },
   "BAT-TOTAL-TFBLI20021": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -7810,6 +7919,7 @@
   },
   "CHG-TOTAL-TFCLI2001": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "output_voltage": {
         "value": 20.0,
@@ -7957,6 +8067,7 @@
   },
   "TOOL-TOTAL-TIDLI206681": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -8153,6 +8264,7 @@
   },
   "TOOL-TOTAL-TAGLI27153": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -8302,6 +8414,7 @@
   },
   "TOOL-TOTAL-TIRLI2028": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -8505,6 +8618,7 @@
   },
   "BAT-DEWALT-DCB201": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,
@@ -8663,6 +8777,7 @@
   },
   "TOOL-DEWALT-DCD796D2": {
     "publicado": false,
+    "last_approved_modified_at": null,
     "specifications": {
       "voltage": {
         "value": 20.0,

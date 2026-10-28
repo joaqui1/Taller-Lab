@@ -37,6 +37,7 @@ def complete_fixture(product):
     charger = catalog.PRODUCTS_BY_ID["CHG-BOSCH-GAL-18V40-1600A028U0"]
     return {
         "publicado": True,
+        "last_approved_modified_at": "2026-10-26",
         "compatibility": [{
             "counterpart_id": battery.id,
             "type": fact("Batería para herramienta", "tipo de relación", source, consulted),

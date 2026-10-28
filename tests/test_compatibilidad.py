@@ -20,6 +20,7 @@ from compatibilidad.rules import evaluate_compatibility
 from compatibilidad.search import GLOBAL_SEARCH_INDEX, ProductSearchIndex
 from compatibilidad.sources import official_url, proof_valid, OfficialRedirect
 from compatibilidad.pipeline import CompatibilityPipeline
+from compatibilidad import pipeline as pipeline_module
 from compatibilidad.storage import StateStore, ConcurrentUpdate
 from compatibilidad.export import export_compatibility_to_json, export_compatibility_to_csv
 from compatibilidad.views import COMPATIBILITY_STATIC_PATHS, render_compatibility_page_content, render_compatibility_search_results_html
@@ -53,7 +54,6 @@ class _LinkCollector(HTMLParser):
             self.links.append((self._current_link[0],''.join(self._current_link[1])))
             self._current_link=None
 
-
 class CompatibilityRegression(unittest.TestCase):
     def setUp(self):
         test_root=ROOT/'tmp'
@@ -70,6 +70,12 @@ class CompatibilityRegression(unittest.TestCase):
             'fetched_at':datetime.now(timezone.utc).isoformat()} for e in CAPTURE['evidences']}
         for evidence in CAPTURE['evidences']:
             self.documents.update(copy.deepcopy(evidence.get('supporting_documents',{})))
+        # Los perfiles en investigación (TOTAL, DeWalt…) no tienen documento capturado:
+        # el ciclo de prueba cubre solo los modelos con evidencia guardada.
+        captured={pid for e in CAPTURE['evidences'] for pid in e.get('product_ids',[])}
+        self.profiles=patch('compatibilidad.pipeline.PROFILES',[p for p in pipeline_module.PROFILES if p['product_id'] in captured])
+        self.profiles.start()
+        self.addCleanup(self.profiles.stop)
         self.pipeline=CompatibilityPipeline(self.store,lambda url:copy.deepcopy(self.documents[url]))
 
     def tearDown(self):
