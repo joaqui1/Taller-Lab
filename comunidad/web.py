@@ -183,7 +183,8 @@ def hub():
 
 @bp.get('/comunidad/criterios/')
 def criteria():
-    return page('criteria.html', 'Cómo participa la comunidad', '/comunidad/criterios/')
+    # Mientras la comunidad esté cerrada, los criterios no se indexan.
+    return page('criteria.html', 'Cómo participa la comunidad', '/comunidad/criterios/', noindex=not db.enabled())
 
 
 @bp.route('/comunidad/contacto/', methods=['GET', 'POST'])

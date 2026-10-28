@@ -5,6 +5,9 @@ on:
     - cron: '30 11 * * *'
 permissions:
   contents: read
+concurrency:
+  group: compatibilidad-operacion
+  cancel-in-progress: false
 jobs:
   health:
     runs-on: ubuntu-latest
@@ -14,7 +17,36 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+      - name: Instalar cliente de avisos
+        run: python -m pip install requests
+      - name: Restaurar estado anterior del monitor
+        uses: actions/cache/restore@v4
+        with:
+          path: .compatibilidad-monitor/state.json
+          key: compatibilidad-monitor-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            compatibilidad-monitor-
       - name: Verificar disponibilidad, persistencia y vigencia
+        id: monitor
+        continue-on-error: true
         run: python -m compatibilidad.operations monitor
         env:
           SITE_URL: https://www.tallerlab.com.ar
+          COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS: ${{ vars.COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS }}
+          COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS: ${{ vars.COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          COMUNIDAD_AVISOS_REMITENTE: ${{ secrets.COMUNIDAD_AVISOS_REMITENTE }}
+          COMUNIDAD_AVISO_EDITOR_EMAIL: ${{ secrets.COMUNIDAD_AVISO_EDITOR_EMAIL }}
+          COMUNIDAD_TELEGRAM_BOT_TOKEN: ${{ secrets.COMUNIDAD_TELEGRAM_BOT_TOKEN }}
+          COMUNIDAD_TELEGRAM_CHAT_ID: ${{ secrets.COMUNIDAD_TELEGRAM_CHAT_ID }}
+      - name: Guardar estado para la próxima comparación
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .compatibilidad-monitor/state.json
+          key: compatibilidad-monitor-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Informar fallo del monitor a GitHub Actions
+        if: always()
+        env:
+          MONITOR_OUTCOME: ${{ steps.monitor.outcome }}
+        run: test "$MONITOR_OUTCOME" = "success"

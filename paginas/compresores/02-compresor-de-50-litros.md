@@ -21,7 +21,7 @@ keywords: ["compresor 50 litros", "compresor de aire 50 litros", "compresor 2 hp
 
 Un compresor de 50 litros ofrece más reserva que los [modelos compactos de 24 litros](/compresores/24-litros/) o las versiones de [compresor BTA de 25 litros](/compresores/bta-25-litros/). Que pueda alimentar una herramienta de forma continua depende del caudal que entrega a la presión de trabajo, además del tamaño del tanque.
 
-En esta guía de **Taller Lab** comparamos tres modelos identificados de 50 litros y explicamos qué datos pedir para evaluar si alcanzan para tu herramienta. La decisión entre 50 y 100 litros depende del caudal de salida, del consumo de aire y del ciclo de trabajo.
+En esta guía de **TallerLab** comparamos tres modelos identificados de 50 litros y explicamos qué datos pedir para evaluar si alcanzan para tu herramienta. La decisión entre 50 y 100 litros depende del caudal de salida, del consumo de aire y del ciclo de trabajo.
 
 ---
 

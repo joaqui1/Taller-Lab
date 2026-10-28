@@ -1,0 +1,40 @@
+{
+  "_instrucciones": "Revisar manualmente antes de agregar equivalencias. Estos candidatos no se enlazan.",
+  "candidates": [
+    {
+      "tool_slug": "lusqtoff-lc3550bk",
+      "area": "price",
+      "candidato": "/datos/precios/compresores/lusqtoff-lc-2550bk/",
+      "similitud": 0.875,
+      "motivo": "Coincidencia aproximada; requiere revisión y no se enlaza automáticamente."
+    },
+    {
+      "tool_slug": "lusqtoff-lc2550b-8",
+      "area": "price",
+      "candidato": "/datos/precios/compresores/lusqtoff-lc-2550bk/",
+      "similitud": 0.875,
+      "motivo": "Coincidencia aproximada; requiere revisión y no se enlaza automáticamente."
+    },
+    {
+      "tool_slug": "lusqtoff-lc40100-8",
+      "area": "price",
+      "candidato": "/datos/precios/compresores/lusqtoff-lc-40100/",
+      "similitud": 0.933,
+      "motivo": "Coincidencia aproximada; requiere revisión y no se enlaza automáticamente."
+    },
+    {
+      "tool_slug": "lusqtoff-hl100-8",
+      "area": "price",
+      "candidato": "/datos/precios/hidrolavadoras/lusqtoff-hl1800-8/",
+      "similitud": 0.923,
+      "motivo": "Coincidencia aproximada; requiere revisión y no se enlaza automáticamente."
+    },
+    {
+      "tool_slug": "lusqtoff-sml120-8dk",
+      "area": "price",
+      "candidato": "/datos/precios/soldadoras/lusqtoff-sml120-8d/",
+      "similitud": 0.941,
+      "motivo": "Coincidencia aproximada; requiere revisión y no se enlaza automáticamente."
+    }
+  ]
+}

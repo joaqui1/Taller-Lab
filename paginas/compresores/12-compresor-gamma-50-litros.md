@@ -73,7 +73,7 @@ No se puede garantizar trabajo continuo, nivel de ruido medido, caudal efectivo 
 
 ## Comparación acotada con otro compresor de 50 L
 
-Para no mezclar magnitudes, esta comparación se limita a datos publicados con etiquetas equivalentes. Frente al **Lüsqtoff LC2550B-8**, el Gamma comparte tanque de 50 L, alimentación monofásica de 220 V–50 Hz y presión máxima publicada de 115 PSI. El manual Gamma y la ficha Lüsqtoff atribuyen 2,5 HP a sus modelos, aunque Gamma mantiene la discrepancia de 2 HP en la tabla online.
+Para no mezclar magnitudes, esta comparación se limita a datos publicados con etiquetas equivalentes. Frente al **Lüsqtoff LC2550B-8**, el Gamma comparte tanque de 50 L, alimentación monofásica de 220 V–50 Hz y presión máxima publicada de 115 PSI. El manual Gamma y la ficha Lüsqtoff atribuyen 2,5 HP a sus modelos, aunque Gamma mantiene la discrepancia de 2 HP en la tabla online. [Ver precio del Lüsqtoff LC2550B-8](https://meli.la/2dyFK5e){:target="_blank" rel="sponsored nofollow noopener noreferrer" .btn-mercado-libre}
 
 No comparamos el flujo: Gamma publica **203 L/min de desplazamiento**, mientras Lüsqtoff informa **206 L/min de flujo de aire** sin describir un método común. Esos rótulos y condiciones no demuestran que uno entregue más aire útil. Tampoco inferimos compatibilidad con herramientas por la pequeña diferencia entre ambos números.
 

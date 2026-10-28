@@ -16,6 +16,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 try:
     import requests
@@ -32,6 +33,14 @@ USER_AGENT = 'TallerLabObservatorio/1.0 (+https://www.tallerlab.com.ar/datos/pre
 CATEGORIES = {'compresores': 'Compresores', 'hidrolavadoras': 'Hidrolavadoras',
               'generadores': 'Generadores', 'soldadoras': 'Soldadoras',
               'taladros': 'Taladros', 'amoladoras': 'Amoladoras', 'sierras': 'Sierras'}
+
+
+def argentina_timezone():
+    try:
+        return ZoneInfo('America/Argentina/Buenos_Aires')
+    except ZoneInfoNotFoundError:
+        # Python en Windows puede no tener la base IANA instalada. Argentina usa UTC−3.
+        return timezone(timedelta(hours=-3), 'ART')
 
 
 def normalized(value):
@@ -192,7 +201,7 @@ def collect(history_path=DEFAULT_HISTORY, manifest_path=MANIFEST):
     manifest = json.loads(Path(manifest_path).read_text(encoding='utf-8'))
     models = manifest['models']
     data = read_history(history_path)
-    start = datetime.now(timezone.utc).isoformat(); today = datetime.now(timezone.utc).astimezone(__import__('zoneinfo').ZoneInfo('America/Argentina/Buenos_Aires')).date().isoformat()
+    start = datetime.now(timezone.utc).isoformat(); today = datetime.now(timezone.utc).astimezone(argentina_timezone()).date().isoformat()
     existing = {(o['model_id'], o['day_art']) for o in data['observations']}
     if not models: raise ValueError('No hay modelos configurados')
     data['run'] = {'started_at': start, 'models': len(models), 'captured': 0,

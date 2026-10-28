@@ -21,8 +21,9 @@ from tallerlab_data.pipeline import (
 )
 from tallerlab_data.comparator import analyze_spec_comparability, compare_tools
 from tallerlab_data.storage import get_tool, list_tools, TOOL_SLUGS_ALIAS_MAP
+from tallerlab_data.selection import family
 from tallerlab_data.guide_links import GUIDE_TOOL_MAPPINGS
-from tallerlab_data.research_study import generate_research_study_metrics, get_research_study_data
+from tallerlab_data.research_study import generate_research_study_metrics, get_research_study_data, has_output_flow
 
 
 class TestTallerLabDataCore(unittest.TestCase):
@@ -171,10 +172,20 @@ class TestTallerLabDataCore(unittest.TestCase):
         metrics = generate_research_study_metrics()
         self.assertEqual(metrics["sample_size"], 100)
         self.assertEqual(metrics["compresores_total"], 25)
+        expected_family_flow_counts = {"compresor-tanque": 2, "inflador": 3, "aerografo": 0}
+        for family_key, expected_count in expected_family_flow_counts.items():
+            family_tools = [tool for tool in list_tools() if tool.category == "compresores" and family(tool) == family_key]
+            family_metric = metrics["compresores_por_familia"][family_key]
+            self.assertEqual(family_metric["total"], len(family_tools))
+            self.assertEqual(family_metric["output_flow_count"], sum(has_output_flow(tool) for tool in family_tools))
+            self.assertEqual(family_metric["output_flow_count"], expected_count)
+        self.assertEqual(metrics["compresores_fad_count"], 5)
+        self.assertEqual(sum(family_data["total"] for family_data in metrics["compresores_por_familia"].values()), 25)
         self.assertEqual(metrics["hidro_total"], 25)
         self.assertEqual(metrics["compresores_sin_fad_count"], len(metrics["compresores_sin_fad_slugs"]))
         self.assertEqual(metrics["hidro_solo_max_count"], len(metrics["hidro_solo_max_slugs"]))
         self.assertEqual(metrics["contradictions_count"], len(metrics["contradictions_slugs"]))
+        self.assertEqual(metrics["rotary_hammers_total"], sum(family(tool) == "rotomartillo" for tool in list_tools()))
 
         # Verificar consistencia matemática de porcentajes
         self.assertAlmostEqual(metrics["pct_compresores_solo_teorico"], round(metrics["compresores_sin_fad_count"] / metrics["compresores_total"] * 100, 1))

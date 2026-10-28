@@ -144,6 +144,27 @@ def export_snapshot():
     public = {key: value for key, value in payload.items() if key != 'candidates'}
     canonical = json.dumps(public, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
     payload['version'] = hashlib.sha256(canonical.encode()).hexdigest()
+    dates = [
+        str(spec.get('consultation_date', ''))
+        for tool in payload.get('tools', [])
+        for spec in tool.get('specs', {}).values()
+        if spec.get('consultation_date')
+    ]
+    dates.extend(str(item.get('correction_date', '')) for item in payload.get('corrections', []) if item.get('correction_date'))
+    valid_dates = [value for value in dates if re.fullmatch(r'\d{4}-\d{2}-\d{2}', value)]
+    payload['edition_date'] = max(valid_dates) if valid_dates else ''
+    dates = [
+        str(correction.get('date') or correction.get('correction_date', ''))[:10]
+        for correction in payload['corrections']
+        if correction.get('date') or correction.get('correction_date')
+    ]
+    dates.extend(
+        str(spec.get('consultation_date', ''))[:10]
+        for tool in payload['tools']
+        for spec in tool.get('specs', {}).values()
+        if spec.get('consultation_date')
+    )
+    payload['dateModified'] = max(dates, default='')
     return payload
 
 

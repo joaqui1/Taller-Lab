@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "fecha_investigacion": "2026-10-26",
+  "plataformas": [
+    {
+      "platform_id": "total-p20s",
+      "publicado": false,
+      "title": "Baterías TOTAL P20S 20V: modelos compatibles y cargadores",
+      "respuesta_directa": "TOTAL llama P20S a su sistema de herramientas inalámbricas de 20 V. Para los modelos exactos de este borrador, las baterías documentadas son TFBLI20011 (2,0 Ah) y TFBLI20021 (4,0 Ah); el cargador TFCLI2001 entrega 20 V y 2 A. TOTAL declara que ambas baterías son para herramientas múltiples P20S y muestra el TFCLI2001 en kits oficiales con esas capacidades. La compatibilidad con herramientas debe leerse por código exacto en la tabla; no se extiende a cualquier producto TOTAL de 20 V.",
+      "sistema": "TOTAL usa el nombre P20S para esta familia. Las baterías TFBLI20011 y TFBLI20021 declaran uso con múltiples herramientas P20S; TOTAL identifica el TFCLI2001 como cargador P20S. La pertenencia no se deduce solamente del voltaje.",
+      "product_ids": [
+        "BAT-TOTAL-TFBLI20011",
+        "BAT-TOTAL-TFBLI20021",
+        "CHG-TOTAL-TFCLI2001",
+        "TOOL-TOTAL-TIDLI206681",
+        "TOOL-TOTAL-TAGLI27153",
+        "TOOL-TOTAL-TIRLI2028"
+      ],
+      "baterias": [
+        "BAT-TOTAL-TFBLI20011",
+        "BAT-TOTAL-TFBLI20021"
+      ],
+      "cargadores": [
+        "CHG-TOTAL-TFCLI2001"
+      ],
+      "herramientas": [
+        "TOOL-TOTAL-TIDLI206681",
+        "TOOL-TOTAL-TAGLI27153",
+        "TOOL-TOTAL-TIRLI2028"
+      ],
+      "tabla_titulo": "Relaciones de compatibilidad documentadas por modelo",
+      "tabla_intro": "La tabla debe mostrar únicamente relaciones publicadas después de completar la sincronización documental. Cada código enlaza a su ficha; que dos productos indiquen 20 V no basta para afirmar compatibilidad.",
+      "tiempos_de_carga": "La ficha oficial del TFCLI2001 indica entrada 220–240 V~50/60 Hz, salida 20 V y corriente 2 A. Las fuentes oficiales consultadas no publican cuánto tarda cada batería; no se calcula una duración a partir de Ah y amperes.",
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué significa TOTAL P20S?",
+          "respuesta": "Es el nombre que TOTAL da a su familia de herramientas inalámbricas de 20 V. La pertenencia se comprueba por modelo y documentación del fabricante."
+        },
+        {
+          "pregunta": "¿Qué batería TOTAL 20V sirve para herramientas P20S?",
+          "respuesta": "En este alcance, TOTAL declara TFBLI20011 de 2,0 Ah y TFBLI20021 de 4,0 Ah para herramientas múltiples P20S. La tabla queda limitada a los códigos documentados."
+        },
+        {
+          "pregunta": "¿El cargador TFCLI2001 se asocia con baterías de 2 Ah y 4 Ah?",
+          "respuesta": "TOTAL presenta el cargador con TFBLI20011 de 2,0 Ah en TFBCPK1222 y con baterías TFBLI20021 de 4,0 Ah en TCKLI20273."
+        },
+        {
+          "pregunta": "¿Cuánto tarda en cargar una batería P20S?",
+          "respuesta": "No hay un tiempo publicado en las fichas oficiales consultadas para el TFCLI2001. La salida de 2 A no permite calcular una duración fiable por sí sola."
+        },
+        {
+          "pregunta": "¿Cualquier herramienta TOTAL de 20 V es compatible con P20S?",
+          "respuesta": "No se confirma por marca o voltaje solamente. Se requiere una declaración P20S o una asociación del código exacto en documentación oficial."
+        },
+        {
+          "pregunta": "¿Qué torque tiene el taladro TIDLI206681?",
+          "respuesta": "El dato queda pendiente: TOTAL global informa 66 Nm y el catálogo argentino de ImpexPro 60 Nm para el mismo código."
+        }
+      ],
+      "fuentes": [
+        {
+          "id": "TOTAL-P20S",
+          "titulo": "TOTAL P20S Series Cordless Tools",
+          "url": "https://totaltools.cn/products/p20s",
+          "uso": "Nombre del sistema y listado del fabricante."
+        },
+        {
+          "id": "TOTAL-TFBLI20011",
+          "titulo": "Batería TFBLI20011",
+          "url": "https://www.totalbusiness.com/my/product/lithium-ion-battery-pack/TFBLI20011",
+          "uso": "Identidad, capacidad y declaración P20S."
+        },
+        {
+          "id": "TOTAL-TFBLI20021",
+          "titulo": "Batería TFBLI20021",
+          "url": "https://www.totalbusiness.com/pa/product/lithium-ion-battery-pack/TFBLI20021",
+          "uso": "Identidad, capacidad y declaración P20S."
+        },
+        {
+          "id": "TOTAL-TFCLI2001",
+          "titulo": "Cargador TFCLI2001",
+          "url": "https://www.totalbusiness.com/product/p20s-battery-charger/TFCLI2001",
+          "uso": "Identidad y parámetros eléctricos."
+        },
+        {
+          "id": "TOTAL-TFBCPK1222",
+          "titulo": "Kit P20S TFBCPK1222",
+          "url": "https://www.totalbusiness.com/pk/product/p20s-lithium-ion-battery-and-charger-kit/TFBCPK1222",
+          "uso": "TFCLI2001 con batería TFBLI20011 de 2,0 Ah."
+        },
+        {
+          "id": "TOTAL-TCKLI20273",
+          "titulo": "Combo TCKLI20273",
+          "url": "https://www.totalbusiness.com/gn-en/product/cordless-2-pcs-combo-kit/TCKLI20273",
+          "uso": "TIDLI206681 y TAGLI27153 con baterías TFBLI20021 y cargador P20S TFCLI2001."
+        },
+        {
+          "id": "TOTAL-TIRLI2028",
+          "titulo": "Atornillador TIRLI2028",
+          "url": "https://za.totalbusiness.com/za/product/cordless-impact-driver/TIRLI2028",
+          "uso": "Identidad y componentes del kit del fabricante."
+        },
+        {
+          "id": "TOTAL-ARG-IMPEX",
+          "titulo": "Catálogo TOTAL de ImpexPro Argentina",
+          "url": "https://impexpro.com.ar/newsletter/catalogo_TOTAL.pdf",
+          "uso": "Presencia y denominación local; no es fuente de compatibilidad."
+        }
+      ],
+      "fuentes_mercado": [
+        {
+          "titulo": "Oferta argentina de la batería TFBLI20011",
+          "url": "https://www.redferretera.com.ar/productos/",
+          "uso": "Solo presencia comercial; no respalda compatibilidad."
+        },
+        {
+          "titulo": "Batería TFBLI20021 en oferta argentina",
+          "url": "https://myaimportaciones.com/producto/total-bateria-p20s-20v-4ah-tfbli20021",
+          "uso": "Solo presencia comercial; no respalda compatibilidad."
+        },
+        {
+          "titulo": "Cargador TFCLI2001-4 en oferta argentina",
+          "url": "https://www.grupoferretero.com.ar/productos-total/",
+          "uso": "Solo presencia comercial; no respalda compatibilidad."
+        }
+      ],
+      "seleccion_modelos": "Se eligieron seis modelos: dos baterías (TFBLI20011, TFBLI20021), un cargador (TFCLI2001) y tres herramientas (TIDLI206681, TAGLI27153, TIRLI2028). Las keywords locales muestran 500 búsquedas/mes para “batería total 20v”, “taladro total 20v”, “amoladora inalambrica total” y “atornillador total 20v”; las consultas específicas “taladro percutor total 20v”, “amoladora total 20v” y “atornillador de impacto total 20v” muestran 50 cada una. Son señales por categoría, no demanda por SKU.",
+      "nota_editorial_pendiente": "No publicar hasta aprobación del dueño. Discrepancia abierta del torque TIDLI206681: 66 Nm en la ficha global TOTAL y 60 Nm en catálogo ImpexPro Argentina. No atribuir tiempos de carga, autoría ni pruebas físicas."
+    },
+    {
+      "platform_id": "dewalt-20v-max",
+      "publicado": false,
+      "title": "Baterías DeWalt 20V MAX: compatibilidad, cargadores y modelos",
+      "respuesta_directa": "DeWalt identifica estas baterías y herramientas como parte del sistema 20V MAX por modelo. La marca declara que DCB201-B3 (1,5 Ah) y DCB204-B3 (4,0 Ah) son compatibles con su línea de herramientas 20V MAX; para POWERSTACK DCBP520-B3 (5,0 Ah), declara compatibilidad con todas las herramientas y cargadores 20V MAX. El cargador DCB115-AR está especificado para 12V/20V MAX. Revisá el código exacto: el voltaje o la marca por sí solos no alcanzan para confirmar una relación.",
+      "sistema": "DeWalt presenta 20V MAX como un sistema de herramientas inalámbricas. La marca explica que 20V es la tensión máxima inicial y que la tensión nominal es 18V. No se extienden estas relaciones a 12V MAX, FLEXVOLT u otras referencias por compartir marca o voltaje.",
+      "product_ids": [
+        "BAT-DEWALT-DCB201",
+        "BAT-DEWALT-DCB204",
+        "BAT-DEWALT-POWERSTACK-50",
+        "CHG-DEWALT-DCB115-AR",
+        "TOOL-DEWALT-DCD7781",
+        "TOOL-DEWALT-DCD796D2",
+        "TOOL-DEWALT-DCD796B",
+        "TOOL-DEWALT-DCF887B"
+      ],
+      "baterias": [
+        "BAT-DEWALT-DCB201",
+        "BAT-DEWALT-DCB204",
+        "BAT-DEWALT-POWERSTACK-50"
+      ],
+      "cargadores": [
+        "CHG-DEWALT-DCB115-AR"
+      ],
+      "herramientas": [
+        "TOOL-DEWALT-DCD7781",
+        "TOOL-DEWALT-DCD796D2",
+        "TOOL-DEWALT-DCD796B",
+        "TOOL-DEWALT-DCF887B"
+      ],
+      "tabla_titulo": "Compatibilidad documentada por modelo",
+      "tabla_intro": "La tabla de relaciones aparece cuando los perfiles exactos están sincronizados y aprobados. No se deduce compatibilidad por 20V ni por pertenecer a la marca.",
+      "tiempos_de_carga": "La página regional del DCB115-AR indica 90 minutos para la batería DCB206. No publica un tiempo para las baterías DCB201-B3, DCB204-B3 ni DCBP520-B3 seleccionadas. No se calcula una duración a partir de Ah y amperes.",
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Qué baterías DeWalt 20V MAX incluye esta selección?",
+          "respuesta": "DCB201-B3 de 1,5 Ah, DCB204-B3 XR de 4,0 Ah y DCBP520-B3 POWERSTACK de 5,0 Ah; los códigos y capacidades figuran en las fichas oficiales."
+        },
+        {
+          "pregunta": "¿La batería DeWalt 20V sirve para cualquier herramienta 20V MAX?",
+          "respuesta": "DeWalt declara que DCB201 y DCB204 son compatibles con toda su línea de herramientas 20V MAX y que POWERSTACK es compatible con todas las herramientas y cargadores 20V MAX. Confirmá el código exacto."
+        },
+        {
+          "pregunta": "¿El cargador DCB115-AR sirve para estas baterías?",
+          "respuesta": "DeWalt identifica el DCB115 como cargador 12V/20V MAX; su manual indica que carga baterías DeWalt de ion de litio de 12V MAX a 20V MAX."
+        },
+        {
+          "pregunta": "¿Cuánto tarda el DCB115 en cargar una batería?",
+          "respuesta": "La página argentina indica 90 minutos para la DCB206. No da tiempos para las DCB201-B3, DCB204-B3 o DCBP520-B3 seleccionadas."
+        },
+        {
+          "pregunta": "¿El taladro DCD796B viene con batería?",
+          "respuesta": "No. DeWalt titula la ficha “no incluye batería” y enumera únicamente el taladro percutor DCD796 20V MAX."
+        },
+        {
+          "pregunta": "¿Qué incluye el kit DCD796D2-AR?",
+          "respuesta": "La ficha oficial enumera un cargador y dos baterías, pero no identifica los códigos de esas baterías en el listado de contenido."
+        },
+        {
+          "pregunta": "¿Qué significa que DCD7781D2-AR sea un kit?",
+          "respuesta": "DeWalt lo presenta como kit 20V MAX. La ficha consultada no expone una lista textual del contenido ni los modelos de baterías."
+        },
+        {
+          "pregunta": "¿El DCF887B-AR pertenece a 20V MAX?",
+          "respuesta": "Sí. La ficha de DeWalt identifica el atornillador de impacto DCF887B-AR como herramienta 20V MAX; la compatibilidad con batería se confirma por códigos documentados."
+        }
+      ],
+      "fuentes": [
+        {
+          "id": "DEWALT-SYSTEM-20VMAX",
+          "titulo": "DEWALT: sistemas de herramientas inalámbricas 20V MAX",
+          "url": "https://www.dewalt.com.ar/es-ar/productos/sistemas/herramientas-inalambricas",
+          "uso": "sistemas de herramientas inalámbricas 20V MAX"
+        },
+        {
+          "id": "DEWALT-DCB201-B3",
+          "titulo": "DEWALT: batería DCB201-B3 20V MAX 1,5 Ah",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcb201-b3/bateria-de-ion-de-litio-20v-max-de-15-ah",
+          "uso": "batería DCB201-B3 20V MAX 1,5 Ah"
+        },
+        {
+          "id": "DEWALT-DCB204-B3",
+          "titulo": "DEWALT: batería DCB204-B3 20V MAX XR 4,0 Ah",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcb204-b3/bateria-de-ion-de-litio-20v-max-xr-de-40-ah",
+          "uso": "batería DCB204-B3 20V MAX XR 4,0 Ah"
+        },
+        {
+          "id": "DEWALT-DCBP520-B3",
+          "titulo": "DEWALT: batería POWERSTACK DCBP520-B3 20V MAX 5,0 Ah",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcbp520-b3/bateria-dewalt-20v-max-powerstack-50ah",
+          "uso": "batería POWERSTACK DCBP520-B3 20V MAX 5,0 Ah"
+        },
+        {
+          "id": "DEWALT-DCB115-AR",
+          "titulo": "DEWALT: cargador DCB115-AR 12V/20V MAX 4,0 A",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcb115-ar/cargador-12v20v-max-40",
+          "uso": "cargador DCB115-AR 12V/20V MAX 4,0 A"
+        },
+        {
+          "id": "DEWALT-DCB115-MANUAL",
+          "titulo": "DEWALT: manual oficial del cargador DCB115",
+          "url": "https://support.dewalt.com/hc/pt/article_attachments/360018524594",
+          "uso": "manual oficial del cargador DCB115"
+        },
+        {
+          "id": "DEWALT-DCD7781D2-AR",
+          "titulo": "DEWALT: kit DCD7781D2-AR 20V MAX",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcd7781d2-ar/kit-de-taladro-percutoratornillador-de-12-pulg-13mm-inalambrico-20v-max",
+          "uso": "kit DCD7781D2-AR 20V MAX"
+        },
+        {
+          "id": "DEWALT-DCD796D2-AR",
+          "titulo": "DEWALT: kit DCD796D2-AR 20V MAX",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcd796d2-ar/taladro-percutor-atornillador-ion-li-20v-max-13mm-brushless-mandril",
+          "uso": "kit DCD796D2-AR 20V MAX"
+        },
+        {
+          "id": "DEWALT-DCD796B",
+          "titulo": "DEWALT: taladro DCD796B sin batería",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcd796b/taladro-percutor-de-12-13-mm-de-20v-max-no-incluye-bateria",
+          "uso": "taladro DCD796B sin batería"
+        },
+        {
+          "id": "DEWALT-DCF887B-AR",
+          "titulo": "DEWALT: atornillador DCF887B-AR 20V MAX",
+          "url": "https://www.dewalt.com.ar/es-ar/producto/dcf887b-ar/atornillador-de-impacto-de-14-pulg-ion-li-20v-max-brusless",
+          "uso": "atornillador DCF887B-AR 20V MAX"
+        }
+      ],
+      "fuentes_mercado": [
+        {
+          "titulo": "Batería DEWALT DCB201-B3 en Macrofer",
+          "url": "https://www.macrofer.com.ar/inalambricos-ion-li-dewalt-1994",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Batería DEWALT DCB204-B3 en JDM Inyección",
+          "url": "https://jdminyeccion.com.ar/herramientas-de-taller/dewalt/baterias-y-cargadores1/",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Batería DEWALT DCBP520-B3 en Electro and Home",
+          "url": "https://www.electroandhome.com.ar/bater_a_dewalt_dcbp520_b3_ion_litio_20v_max_5_0ah_powerstack",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Cargador DEWALT DCB115-AR en DDR",
+          "url": "https://ddr.com.ar/producto/cargador-de-bateria-dewalt-dcb115-ar/",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Kit DEWALT DCD7781D2-AR en SP Soluciones",
+          "url": "https://spalenzaservice.com.ar/articulo.php?cod_articulo=DCD7781D2-AR",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Taladro DEWALT DCD796D2-AR en Macrofer",
+          "url": "https://www.macrofer.com.ar/atornillador-dewalt-772",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Taladro DEWALT DCD796B en Sodimac",
+          "url": "https://www.sodimac.com.ar/sodimac-ar/product/3288471/taladro-percutor-inalambrico-20-v-dcd796b/3288471/",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        },
+        {
+          "titulo": "Atornillador DEWALT DCF887B-AR en Macrofer",
+          "url": "https://www.macrofer.com.ar/especial-obra/atornillador-inalambrico-de-impacto-dewalt-dcf887b-ar-20v-205nm-sin-bateria",
+          "uso": "Oferta o listado comercial en Argentina consultado el 26/10/2026; solo respalda presencia comercial, no compatibilidad."
+        }
+      ],
+      "seleccion_modelos": "Se eligieron ocho referencias listadas en Argentina: tres baterías (DCB201-B3, DCB204-B3, DCBP520-B3), un cargador (DCB115-AR) y cuatro herramientas (DCD7781D2-AR, DCD796D2-AR, DCD796B, DCF887B-AR). Keyword Planner muestra 500 búsquedas/mes agrupadas para “taladro DeWalt 20V” y “atornillador DeWalt 20V”; batería para taladro 20V, DCD796/DCD7781D2, DCB115, “sin batería” y “kit” aparecen con 50. Son señales por consulta, no demanda por SKU.",
+      "nota_editorial_pendiente": "Borrador sin publicación. Los registros de productos quedan pendientes. No atribuir stock futuro, no estimar tiempos de carga ni asignar componentes a un kit cuando la fuente oficial no los especifica."
+    }
+  ]
+}

@@ -291,7 +291,7 @@ AMOLADORAS_TOOLS = [
                 source_b_name="Manual Skil 2009 (pág. 19)",
                 source_b_value="600 W",
                 source_b_url="https://cdn.leroymerlin.com.br/medias/document-89382741-user-manual-esmerilhadeira-angular-4-1-2--115mm--700w-9002-127v--110v--100percent-rolamentada-skil.pdf",
-                editorial_note="Conservamos ambas fuentes oficiales documentadas; la versión actual comercializada en Argentina declara 700 W en placa metálica."
+                editorial_note="Conservamos ambas fuentes oficiales; confirmá la potencia en la placa de la unidad."
             )
         ],
         limits_and_warnings=["Discrepancia histórica entre manuales; verificar placa del lote importado."],

@@ -9,6 +9,8 @@ from __future__ import annotations
 import json
 import os
 import copy
+import re
+import unicodedata
 from alertas_almacen import serializado, lectura_serializada, guardar_estado, captura_verificable, leer_documento
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -174,6 +176,47 @@ def obtener_todos_los_slugs() -> List[str]:
     return sorted(exp["slug"] for exp in cargar_expedientes())
 
 
+def normalizar_codigo_modelo(valor: str) -> str:
+    """Normaliza modelos y variantes para comparar códigos sin formato editorial."""
+    texto = unicodedata.normalize("NFKD", str(valor or "")).casefold()
+    return "".join(caracter for caracter in texto if caracter.isalnum())
+
+
+def claves_modelo_expediente(exp: Dict[str, Any]) -> set[str]:
+    """Devuelve códigos exactos del expediente, su modelo base y sus variantes."""
+    valores = [exp.get("modelo_base", ""), exp.get("slug", "")]
+    for variante in exp.get("variantes", []):
+        valores.extend((variante.get("codigo", ""), variante.get("codigo_barras", "")))
+    return {clave for valor in valores if (clave := normalizar_codigo_modelo(valor))}
+
+
+def coincide_busqueda_expediente(exp: Dict[str, Any], query: str) -> bool:
+    """Busca por códigos normalizados o por términos del expediente."""
+    consulta = str(query or "").strip()[:120]
+    if not consulta:
+        return True
+
+    clave_consulta = normalizar_codigo_modelo(consulta)
+    if clave_consulta and clave_consulta in claves_modelo_expediente(exp):
+        return True
+
+    textos = [
+        exp.get("marca", ""), exp.get("modelo_base", ""), exp.get("nombre_comercial", ""),
+        exp.get("categoria", ""), exp.get("slug", ""), exp.get("resumen_editorial", ""),
+    ]
+    for variante in exp.get("variantes", []):
+        textos.extend((variante.get("codigo", ""), variante.get("codigo_barras", ""),
+                       variante.get("tipo_revision", ""), variante.get("mercado", "")))
+    for alerta in exp.get("alertas", []):
+        textos.extend((alerta.get("id_aviso", ""), alerta.get("organismo", ""),
+                       alerta.get("modelos_afectados", ""), alerta.get("identificacion_lotes_series", "")))
+
+    corpus = unicodedata.normalize("NFKD", " ".join(str(texto) for texto in textos if texto).casefold())
+    corpus = "".join(caracter for caracter in corpus if not unicodedata.combining(caracter))
+    tokens = re.findall(r"[a-z0-9]+", unicodedata.normalize("NFKD", consulta.casefold()))
+    return bool(tokens) and all(token in corpus for token in tokens)
+
+
 def buscar_expedientes(
     query: Optional[str] = None,
     marca: Optional[str] = None,
@@ -200,33 +243,7 @@ def buscar_expedientes(
             resultados.append(exp)
             continue
 
-        # Campos evaluados en el corpus
-        textos = [
-            exp["marca"],
-            exp["modelo_base"],
-            exp["nombre_comercial"],
-            exp["categoria"],
-            exp["slug"],
-            exp.get("resumen_editorial", ""),
-        ]
-        for v in exp.get("variantes", []):
-            textos.extend([
-                v.get("codigo", ""),
-                v.get("codigo_barras", ""),
-                v.get("tipo_revision", ""),
-                v.get("mercado", ""),
-            ])
-        for a in exp.get("alertas", []):
-            textos.extend([
-                a.get("id_aviso", ""),
-                a.get("organismo", ""),
-                a.get("modelos_afectados", ""),
-                a.get("identificacion_lotes_series", ""),
-            ])
-
-        corpus = " ".join(t.lower() for t in textos if t)
-        # Todos los tokens deben coincidir en el corpus
-        if all(token in corpus for token in tokens):
+        if coincide_busqueda_expediente(exp, query):
             resultados.append(exp)
 
     return resultados

@@ -6,6 +6,7 @@ import io
 import json
 import os
 import pathlib
+from html.parser import HTMLParser
 import sqlite3
 import tempfile
 import unittest
@@ -19,12 +20,39 @@ from compatibilidad.rules import evaluate_compatibility
 from compatibilidad.search import GLOBAL_SEARCH_INDEX, ProductSearchIndex
 from compatibilidad.sources import official_url, proof_valid, OfficialRedirect
 from compatibilidad.pipeline import CompatibilityPipeline
+from compatibilidad import pipeline as pipeline_module
 from compatibilidad.storage import StateStore, ConcurrentUpdate
 from compatibilidad.export import export_compatibility_to_json, export_compatibility_to_csv
-from compatibilidad.views import COMPATIBILITY_STATIC_PATHS, render_compatibility_search_results_html
+from compatibilidad.views import COMPATIBILITY_STATIC_PATHS, render_compatibility_page_content, render_compatibility_search_results_html
+from compatibilidad.presentation import compatible_counterparts, product_path, related_combinations, relationship_page, relationship_paths, resolve_relationship
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CAPTURE=json.loads((ROOT/'compatibilidad/data/verified_seed.json').read_text(encoding='utf8'))
+
+class _LinkCollector(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.hrefs=[]
+        self.links=[]
+        self._current_link=None
+        self.noindex=False
+
+    def handle_starttag(self,tag,attrs):
+        attributes=dict(attrs)
+        if tag=='a' and attributes.get('href'):
+            self.hrefs.append(attributes['href'])
+            self._current_link=[attributes['href'],[]]
+        if tag=='meta' and attributes.get('name','').lower()=='robots' and 'noindex' in attributes.get('content','').lower():
+            self.noindex=True
+
+    def handle_data(self,data):
+        if self._current_link is not None:
+            self._current_link[1].append(data)
+
+    def handle_endtag(self,tag):
+        if tag=='a' and self._current_link is not None:
+            self.links.append((self._current_link[0],''.join(self._current_link[1])))
+            self._current_link=None
 
 class CompatibilityRegression(unittest.TestCase):
     def setUp(self):
@@ -42,6 +70,12 @@ class CompatibilityRegression(unittest.TestCase):
             'fetched_at':datetime.now(timezone.utc).isoformat()} for e in CAPTURE['evidences']}
         for evidence in CAPTURE['evidences']:
             self.documents.update(copy.deepcopy(evidence.get('supporting_documents',{})))
+        # Los perfiles en investigación (TOTAL, DeWalt…) no tienen documento capturado:
+        # el ciclo de prueba cubre solo los modelos con evidencia guardada.
+        captured={pid for e in CAPTURE['evidences'] for pid in e.get('product_ids',[])}
+        self.profiles=patch('compatibilidad.pipeline.PROFILES',[p for p in pipeline_module.PROFILES if p['product_id'] in captured])
+        self.profiles.start()
+        self.addCleanup(self.profiles.stop)
         self.pipeline=CompatibilityPipeline(self.store,lambda url:copy.deepcopy(self.documents[url]))
 
     def tearDown(self):
@@ -60,6 +94,44 @@ class CompatibilityRegression(unittest.TestCase):
         self.assertFalse(ev.conditions)
         self.assertGreaterEqual(len(ev.evidence_chain),2)
         self.assertTrue(all(proof_valid(e) for e in ev.evidence_chain))
+
+    def test_compatibility_pages_link_to_product_fiches(self):
+        indexable_count=0
+        for path in COMPATIBILITY_STATIC_PATHS:
+            html=render_compatibility_page_content(path)
+            self.assertIsNotNone(html,path)
+            links=_LinkCollector()
+            links.feed(html)
+            if links.noindex:
+                continue
+            indexable_count+=1
+            self.assertFalse([href for href in links.hrefs if '-con-' in href],path)
+
+            if path.startswith(('/baterias/','/cargadores/','/herramientas-bateria/')):
+                slug=path.rstrip('/').rsplit('/',1)[-1]
+                product=catalog.PRODUCTS_BY_SLUG[slug]
+                if product.status=='publicado':
+                    for counterpart,_ in compatible_counterparts(product):
+                        counterpart_path=product_path(counterpart)
+                        self.assertIn(counterpart_path,links.hrefs,f'{path} → {counterpart_path}')
+                        link_text=next(text for href,text in links.links if href==counterpart_path)
+                        self.assertIn(counterpart.model_name,link_text,counterpart_path)
+                        self.assertIn(counterpart.mpn,link_text,counterpart_path)
+
+        self.assertGreaterEqual(indexable_count,23)
+
+        for path in relationship_paths():
+            source,target,evaluation=resolve_relationship(path)
+            page_links=_LinkCollector()
+            page_links.feed(relationship_page(path))
+            self.assertIn(product_path(source),page_links.hrefs,path)
+            self.assertIn(product_path(target),page_links.hrefs,path)
+            self.assertFalse([href for href in page_links.hrefs if '-con-' in href],path)
+
+            related_links=_LinkCollector()
+            related_links.feed(related_combinations(source,target,path))
+            self.assertLessEqual(len(related_links.hrefs),3,path)
+            self.assertFalse([href for href in related_links.hrefs if '-con-' in href],path)
 
     def test_generic_query_requires_selection(self):
         for query in ('Bosch','bosch procore','bateria bosch 18v','DeWalt'):
@@ -384,20 +456,30 @@ class CompatibilityRegression(unittest.TestCase):
     def test_related_kit_cta_is_contextual_and_disclosed(self):
         from bs4 import BeautifulSoup
         from compatibilidad.commercial import render_pair_commercial
+        from compatibilidad.editorial import EDITORIAL_FICHAS
         battery=catalog.PRODUCTS_BY_ID['BAT-BOSCH-GBA-4AH']
         tool=catalog.PRODUCTS_BY_ID['TOOL-BOSCH-GWS-18V-10']
-        soup=BeautifulSoup(render_pair_commercial(battery,tool),'html.parser')
+        solo_body={'publicado':True,'tool':{'packages':[{'code':{'value':tool.mpn},'package_type':{'value':'Solo cuerpo'}}]}}
+        with patch.dict(EDITORIAL_FICHAS,{tool.id:solo_body}):
+            soup=BeautifulSoup(render_pair_commercial(battery,tool),'html.parser')
         link=soup.select_one('.compat-buy-cta')
         self.assertEqual(link['href'],'https://meli.la/1aD8WYE')
         self.assertTrue({'sponsored','nofollow','noopener','noreferrer'} <= set(link['rel']))
         self.assertIn('precio y contenido',link.get_text())
-        self.assertNotIn('comisión',soup.get_text())
+        self.assertIn('comisión',soup.get_text())
         self.assertIn('kit distinto',soup.get_text())
         self.assertEqual(render_pair_commercial(battery,catalog.PRODUCTS_BY_ID['BAT-GAMMA-G12490AR']),'')
 
     def test_commercial_cta_not_shown_for_other_platform_or_pending_model(self):
         from compatibilidad.commercial import render_product_commercial,render_related_kit
+        from compatibilidad.editorial import EDITORIAL_FICHAS
         self.assertEqual(render_product_commercial(catalog.PRODUCTS_BY_ID['BAT-GAMMA-G12490AR']),'')
+        self.assertEqual(render_product_commercial(catalog.PRODUCTS_BY_ID['BAT-BOSCH-GBA-4AH']),'')
+        tool=catalog.PRODUCTS_BY_ID['TOOL-BOSCH-GWS-18V-10']
+        self.assertEqual(render_product_commercial(tool),'')
+        full_kit={'publicado':True,'tool':{'packages':[{'code':{'value':tool.mpn},'package_type':{'value':'Kit'}}]}}
+        with patch.dict(EDITORIAL_FICHAS,{tool.id:full_kit}):
+            self.assertEqual(render_product_commercial(tool),'')
         self.assertEqual(render_related_kit(platform_id='gamma-multienergy'),'')
         pending=next(p for p in catalog.CATALOG_PRODUCTS if p.status!='publicado')
         self.assertEqual(render_product_commercial(pending),'')

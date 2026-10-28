@@ -22,8 +22,9 @@ from tallerlab_data.catalog_seed import seed_database
 from tallerlab_data.pipeline import normalize_unit_value, process_candidate_ingestion, record_price_observation
 from tallerlab_data.comparator import analyze_spec_comparability
 from tallerlab_data.quality import latest_verified_offer
-from tallerlab_data.research_study import generate_research_study_metrics, generate_study_csv
-from tallerlab_data.views import render_tool_detail_page, render_tools_hub_page, get_tool_product_schema, render_research_study_page
+from tallerlab_data.research_study import generate_research_study_metrics, generate_study_csv, get_research_study_data
+from tallerlab_data.views import render_tool_detail_page, render_tools_hub_page, get_tool_product_schema, render_research_study_page, get_research_study_schema
+from app import tallerlab_data_json, app as flask_app
 from tallerlab_data.migrate_quality import migrate_quality_metadata
 
 
@@ -148,6 +149,70 @@ class TestQuality(unittest.TestCase):
         for field in ['condicion','fuente_url','estado','variante']:
             self.assertIn(field, rows[0])
 
+    def test_research_study_groups_compressors_by_family(self):
+        metrics = generate_research_study_metrics()
+        families = metrics['compresores_por_familia']
+        rows = list(csv.DictReader(io.StringIO(generate_study_csv())))
+        compressor_rows = [row for row in rows if row['categoria'] == 'compresores']
+        self.assertIn('familia_aplicacion', compressor_rows[0])
+        self.assertEqual(len({row['slug'] for row in compressor_rows}), 25)
+        expected_counts = {'compresor-tanque': 2, 'inflador': 3, 'aerografo': 0}
+        for family_key, expected_count in expected_counts.items():
+            family_rows = [row for row in compressor_rows if row['familia_aplicacion'] == family_key]
+            self.assertEqual(families[family_key]['total'], len({row['slug'] for row in family_rows}))
+            self.assertEqual(families[family_key]['output_flow_count'], expected_count)
+        self.assertEqual(sum(item['total'] for item in families.values()), 25)
+
+        page = render_research_study_page()
+        self.assertIn(f"De {families['compresor-tanque']['total']} compresores con tanque de la base, 2 tienen caudal de salida a presión de trabajo documentado.", page)
+        self.assertLess(page.index('Compresores con tanque</td>'), page.index('Infladores portátiles</td>'))
+        self.assertNotIn('el fabricante lo omita', page)
+
+        schema = json.loads(get_research_study_schema('https://example.test/study', 'https://example.test/data.csv').split('>', 1)[1].split('</script>', 1)[0])
+        self.assertEqual(len(schema['variableMeasured']), 3)
+        self.assertEqual(schema['variableMeasured'][0]['value'], 2)
+
+    def test_press_summary_route_returns_current_counts(self):
+        from app import app
+        study = get_research_study_data()
+        metrics = study['metrics']
+        tanks = metrics['compresores_por_familia']['compresor-tanque']
+        with app.test_client() as client:
+            response = client.get('/herramientas/investigacion/brecha-especificaciones-argentina/#prensa')
+            self.assertEqual(response.status_code, 200)
+            html = response.get_data(as_text=True)
+            self.assertIn(f"{tanks['output_flow_count']} de {tanks['total']} compresores con tanque", html)
+            self.assertIn(f"{metrics['hidro_trabajo_separada_count']} tienen presión de trabajo registrada por separado", html)
+            self.assertIn(f"{metrics['rotary_hammers_epta_count']} tienen energía de impacto declarada bajo EPTA", html)
+            self.assertIn(study['version'][:8], html)
+
+            dataset = client.get('/herramientas/investigacion/descargar-datos.json').get_json()
+            self.assertEqual(dataset['version'], study['version'])
+            self.assertEqual(dataset['edition_date'], study['edition_date'])
+
+            chart = client.get('/herramientas/investigacion/grafico-cobertura.svg')
+            self.assertEqual(chart.status_code, 200)
+            self.assertIn(f"{tanks['output_flow_count']} de {tanks['total']}", chart.get_data(as_text=True))
+
+    def test_research_study_edition_matches_downloadable_json(self):
+        payload = json.loads(tallerlab_data_json().get_data(as_text=True))
+        edition_date = payload['dateModified']
+        edition_date_display = f"{edition_date[8:10]}/{edition_date[5:7]}/{edition_date[:4]}"
+        edition_version = payload['version'][:8]
+
+        page = render_research_study_page()
+        self.assertIn(f"Edición del {edition_date_display} · versión {edition_version}", page)
+        self.assertIn(f"TallerLab ({edition_date_display}). Cobertura de especificaciones en el catálogo argentino de TallerLab. Versión {edition_version}.", page)
+        self.assertIn('Cómo citar este estudio', page)
+        self.assertIn('Copiar cita', page)
+        self.assertIn('Historial de cambios', page)
+        self.assertIn('Licencia CC BY 4.0', page)
+
+        schema = json.loads(get_research_study_schema('https://example.test/study', 'https://example.test/data.csv').split('>', 1)[1].split('</script>', 1)[0])
+        self.assertEqual(schema['dateModified'], payload['dateModified'])
+        self.assertEqual(schema['version'], payload['version'])
+        self.assertEqual(schema['license'], 'https://creativecommons.org/licenses/by/4.0/')
+
     def test_public_claims(self):
         html = render_tools_hub_page()
         self.assertNotIn('100%</span>', html)
@@ -155,7 +220,27 @@ class TestQuality(unittest.TestCase):
         self.assertIn('Batería 18 V CC', html)
         study = render_research_study_page()
         self.assertNotIn('brecha promedio', study)
-        self.assertIn('no demuestra que el fabricante lo omita', study)
+        self.assertIn('no presenta una ausencia en la base como una omisión del fabricante', study)
+
+    def test_research_coverage_svg_download_uses_current_metrics(self):
+        response = flask_app.test_client().get('/herramientas/investigacion/grafico-cobertura.svg')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('image/svg+xml', response.content_type)
+        svg = response.get_data(as_text=True)
+        metrics = get_research_study_data()['metrics']
+        families = metrics['compresores_por_familia']
+        expected = [
+            (families['compresor-tanque']['output_flow_count'], families['compresor-tanque']['total']),
+            (families['inflador']['output_flow_count'], families['inflador']['total']),
+            (metrics['hidro_trabajo_separada_count'], metrics['hidro_total']),
+            (metrics['rotary_hammers_epta_count'], metrics['rotary_hammers_total']),
+            (metrics['contradictions_count'], metrics['sample_size']),
+        ]
+        for count, total in expected:
+            self.assertIn(f'>{count} de {total}</text>', svg)
+        self.assertIn('<title', svg)
+        self.assertIn('<desc', svg)
+        self.assertIn('Fuente: TallerLab, edición ', svg)
 
 
 if __name__ == '__main__':

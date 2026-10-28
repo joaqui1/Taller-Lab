@@ -203,10 +203,11 @@ def community_sitemap_excluded():
     La portada solo se declara cuando se confirma que es indexable. Si la base no responde,
     se omite: quitarla un rato del sitemap no la desindexa, pero declarar una página
     «noindex» en el sitemap envía señales contradictorias."""
+    excluidas = set() if db.enabled() else {'/comunidad/criterios/'}
     overview = db.overview_or_none()
     if overview is not None and hub_indexable(overview):
-        return set()
-    return {'/comunidad/'}
+        return excluidas
+    return excluidas | {'/comunidad/'}
 
 
 def community_sitemap_paths():
@@ -256,7 +257,7 @@ def render_model_community(tool):
     if not stats or not (stats['reviews'] or stats['questions']):
         if not opened:
             return ''
-        return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=3">
+        return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=4">
     <section class="co-teaser" id="comunidad-modelo" aria-label="Comunidad de este modelo">
       <p class="co-kicker">TallerLab Comunidad</p><h2>Opiniones de usuarios de {name}</h2>
       <p>Todavía no hay experiencias publicadas. ¿La usás? Contá para qué y cuánto tiempo: tu relato ayuda a otra persona a elegir.</p>
@@ -285,7 +286,7 @@ def render_model_community(tool):
         label = f"{q['answers']} {'respuesta' if q['answers'] == 1 else 'respuestas'}" if q['answers'] else 'Sin respuesta todavía'
         questions.append(f'<li><a href="{escape(question_path(tool.slug, q), quote=True)}">{escape(question_title(q))}</a> <span class="co-small">{label}</span></li>')
     questions_html = f'<h3>Preguntas recientes</h3><ul class="co-question-list">{"".join(questions)}</ul>' if questions else ''
-    return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=3">
+    return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=4">
     <section class="co-teaser co-model-reviews" id="comunidad-modelo" aria-label="Opiniones de usuarios">
       <p class="co-kicker">TallerLab Comunidad · experiencias declaradas</p><h2>Opiniones de usuarios de {name}</h2>
       {"".join(lines)}{"".join(cards)}{questions_html}
@@ -358,7 +359,7 @@ def render_guide_community(article):
     text = 'Elegí el modelo exacto para leer experiencias, compartir la tuya o hacer una pregunta.' if tools else (
         'Buscá tu equipo en el catálogo de la comunidad para leer experiencias, compartir la tuya o hacer una pregunta. '
         'Si no aparece, podés pedir que lo incorporemos desde el contacto privado.')
-    return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=3">
+    return f'''<link rel="stylesheet" href="/assets/comunidad.css?v=4">
         <section class="co-teaser co-guide-community" id="comunidad-guia" aria-label="Comunidad de esta guía">
         <p class="co-kicker">TallerLab Comunidad</p><h2>La experiencia de uso también cuenta</h2>
         <p>{text}</p>{selection}<div class="co-teaser-actions">

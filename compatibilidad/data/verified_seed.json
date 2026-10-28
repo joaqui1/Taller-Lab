@@ -23,7 +23,7 @@
       ],
       "voltage_nominal": "18 V",
       "voltage_max": null,
-      "capacity_ah": 4.0,
+      "capacity_ah": 4,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
@@ -33,7 +33,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-BOSCH-PROCORE-4AH",
       "evidence_platform_id": "DOC-BAT-BOSCH-PROCORE-4AH",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-BOSCH-PROCORE-8AH",
@@ -52,17 +53,18 @@
       ],
       "voltage_nominal": "18 V",
       "voltage_max": null,
-      "capacity_ah": 8.0,
+      "capacity_ah": 8,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/bosch-inalambrico/",
       "official_url": "https://www.bosch-professional.com/ar/es/products/procore18v-8-0ah-1600A016GK",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-BOSCH-PROCORE-8AH",
       "evidence_platform_id": "DOC-BAT-BOSCH-PROCORE-8AH",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-BOSCH-GBA-2AH",
@@ -80,7 +82,7 @@
       ],
       "voltage_nominal": "18 V",
       "voltage_max": null,
-      "capacity_ah": 2.0,
+      "capacity_ah": 2,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
@@ -90,7 +92,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-BOSCH-GBA-2AH",
       "evidence_platform_id": "DOC-BAT-BOSCH-GBA-2AH",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-BOSCH-GBA-4AH",
@@ -108,17 +111,18 @@
       ],
       "voltage_nominal": "18 V",
       "voltage_max": null,
-      "capacity_ah": 4.0,
+      "capacity_ah": 4,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/bosch-inalambrico/",
       "official_url": "https://www.bosch-professional.com/ar/es/products/gba-18v-4-0ah-1600Z00038",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-BOSCH-GBA-4AH",
       "evidence_platform_id": "DOC-BAT-BOSCH-GBA-4AH",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-BOSCH-GBA-5AH",
@@ -136,17 +140,18 @@
       ],
       "voltage_nominal": "18 V",
       "voltage_max": null,
-      "capacity_ah": 5.0,
+      "capacity_ah": 5,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/bosch-inalambrico/",
       "official_url": "https://www.bosch-professional.com/ar/es/products/gba-18v-5-0ah-1600A002U5",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-BOSCH-GBA-5AH",
       "evidence_platform_id": "DOC-BAT-BOSCH-GBA-5AH",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-BOSCH-GWS-18V-10",
@@ -175,7 +180,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-BOSCH-GWS-18V-10",
       "evidence_platform_id": "DOC-TOOL-BOSCH-GWS-18V-10",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-BOSCH-GWS-18V-10PSC",
@@ -204,7 +210,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-BOSCH-GWS-18V-10PSC",
       "evidence_platform_id": "DOC-TOOL-BOSCH-GWS-18V-10PSC",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-BOSCH-GWS-18V-10P",
@@ -233,7 +240,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-BOSCH-GWS-18V-10P",
       "evidence_platform_id": "DOC-TOOL-BOSCH-GWS-18V-10P",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-BOSCH-GDX-18V-200",
@@ -262,7 +270,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-BOSCH-GDX-18V-200",
       "evidence_platform_id": "DOC-TOOL-BOSCH-GDX-18V-200",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "CHG-BOSCH-GAL-18V40-1600A028U0",
@@ -286,13 +295,14 @@
       },
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/bosch-inalambrico/",
       "official_url": "https://www.bosch-professional.com/ar/es/products/gal-18v-40-1600A028U0",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-CHG-BOSCH-GAL-18V40-1600A028U0",
       "evidence_platform_id": "DOC-CHG-BOSCH-GAL-18V40-1600A028U0",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "CHG-BOSCH-GAL-1880CV-1600A015TL",
@@ -316,13 +326,14 @@
       },
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/bosch-inalambrico/",
       "official_url": "https://www.bosch-professional.com/ar/es/products/gal-1880-cv-1600A015TL",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-CHG-BOSCH-GAL-1880CV-1600A015TL",
       "evidence_platform_id": "DOC-CHG-BOSCH-GAL-1880CV-1600A015TL",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-GAMMA-G12490AR",
@@ -341,17 +352,18 @@
       ],
       "voltage_nominal": null,
       "voltage_max": "20 V",
-      "capacity_ah": 2.0,
+      "capacity_ah": 2,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/inalambricos/",
       "official_url": "https://www.gammaherramientas.com.ar/producto/bateria-g12490ar/",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-GAMMA-G12490AR",
       "evidence_platform_id": "DOC-BAT-GAMMA-G12490AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "BAT-GAMMA-G12491AR",
@@ -370,17 +382,18 @@
       ],
       "voltage_nominal": null,
       "voltage_max": "20 V",
-      "capacity_ah": 4.0,
+      "capacity_ah": 4,
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/inalambricos/",
       "official_url": "https://www.gammaherramientas.com.ar/producto/bateria-g12491ar/",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-BAT-GAMMA-G12491AR",
       "evidence_platform_id": "DOC-BAT-GAMMA-G12491AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "CHG-GAMMA-G12492AR",
@@ -406,13 +419,14 @@
       },
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/inalambricos/",
       "official_url": "https://www.gammaherramientas.com.ar/producto/cargador-g12492ar/",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-CHG-GAMMA-G12492AR",
       "evidence_platform_id": "DOC-CHG-GAMMA-G12492AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "CHG-GAMMA-G12493AR",
@@ -437,13 +451,14 @@
       },
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/inalambricos/",
       "official_url": "https://www.gammaherramientas.com.ar/producto/cargador-g12493ar/",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-CHG-GAMMA-G12493AR",
       "evidence_platform_id": "DOC-CHG-GAMMA-G12493AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-GAMMA-G12414AR",
@@ -469,7 +484,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-GAMMA-G12414AR",
       "evidence_platform_id": "DOC-TOOL-GAMMA-G12414AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-GAMMA-G12407AR",
@@ -495,7 +511,8 @@
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-GAMMA-G12407AR",
       "evidence_platform_id": "DOC-TOOL-GAMMA-G12407AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "TOOL-GAMMA-G12402-1AR",
@@ -515,13 +532,14 @@
       "specs": {},
       "is_argentina_catalog": true,
       "market_availability_notes": "Modelo identificado en documentación oficial argentina; no acredita stock.",
-      "guide_url": null,
+      "guide_url": "/taladros/taladro-percutor-inalambrico/",
       "official_url": "https://www.gammaherramientas.com.ar/producto/atornillador-abateria-multienergy-percusion/",
       "required_packs": 1,
       "status": "publicado",
       "evidence_identity_id": "DOC-TOOL-GAMMA-G12402-1AR",
       "evidence_platform_id": "DOC-TOOL-GAMMA-G12402-1AR",
-      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico."
+      "notes": "Compatibilidad documental para las combinaciones enumeradas, sin ensayo físico.",
+      "content_changed_at": "2026-10-04"
     }
   ],
   "platforms": [
@@ -678,7 +696,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "ec947a3679d9976cf4bbb075262fd91fa4f7ce8f1ff043c17b2c637bde4453b9",
       "status": "verificada",
       "product_ids": [
@@ -701,7 +719,7 @@
         "model_name": "ProCORE18V 4.0Ah",
         "product_type": "bateria",
         "platform_id": "bosch-professional-18v",
-        "capacity_ah": 4.0,
+        "capacity_ah": 4,
         "voltage_nominal": "18 V",
         "voltage_max": null,
         "required_packs": 1,
@@ -710,7 +728,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO ProCORE18V 4.0Ah Batería | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO ProCORE18V 4.0Ah PRO PRO ProCORE18V 4.0Ah Batería Número de pedido 1.600.A01.6GB La tecnología de celdas avanzada ofrece el mismo rendimiento que una batería estándar de 4,0 Ah, pero con un tamaño y peso optimizados La tecnología COOLPACK 2.0 proporciona un 135 % más de vida útil que las baterías estándar gracias a una sofisticada disipación de calor Compatible con todas las herramientas y los cargadores del Professional 18V System de Bosch y AMPShare Alliance View more Resumen de variantes Seleccionar en caja de cartón con 1 batería de iones de litio 4,0 Ah ProCORE18V Encontrar un distribuidor local en caja de cartón con 1 batería de iones de litio 4,0 Ah ProCORE18V 1 600 A01 6GB Encontrar un distribuidor local PRO ProCORE18V 4.0Ah Tu selección en caja de cartón con 1 batería de iones de litio 4,0 Ah ProCORE18V Número de pedido: 1 600 A01 6GB Encontrar un distribuidor local Incluido en esta variante Caja de cartón 1 batería ProCORE18V 4,0Ah Número de pedido: 1 600 A01 6GB Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Peso 0,515 kg Capacidad de la batería 4 Ah Dimensiones de la batería (ancho x largo x alto) 50 x 125 x 80 mm * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO ProCORE18V 4.0Ah: Further information Product Highlights La ProCORE18V 4.0Ah Professional es la más ligera y compacta de la serie ProCORE18V. Cuenta con una tecnología de celdas avanzada que ofrece el mismo rendimiento que una batería estándar de 4,0 Ah, pero con un tamaño y peso optimizados. La batería también cuenta con la tecnología COOLPACK 2.0 para una mayor disipación del calor en la batería desde el interior hacia el exterior. El calor puede dañar las celdas, por lo que la tecnología COOLPACK 2.0 ofrece una vida útil un 135 % más larga que las baterías estándares y permite que rinda durante períodos de trabajo más largos. Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V y con la alianza AMPShare. Equipment & Application La ProCORE18V 4.0Ah Professional es una batería de litio (Li-ion) con una pantalla que muestra el estado del nivel de la misma. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 1607A350ZK Nombre del producto PRO ProCORE18V 4.0Ah Descripción Batería Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Descargas Manual de usuario Manual de instrucciones | Akku-Packs, Li-Ionen-Akkus, Li-Ion Akku (PDF 1.4 MB) Insertar | Herstellergarantie,Manufacturer's guarantee (EU) (PDF 0.2 MB) Ficha técnica del producto Ficha técnica del producto | PRO ProCORE18V 4.0Ah (PDF 1.5 MB) Esto también podría interesarte GAL 12 V/18V-80 GAL 12 V/18V-80 Saber más GAL 18V-40 GAL 18V-40 Saber más Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "ec947a3679d9976cf4bbb075262fd91fa4f7ce8f1ff043c17b2c637bde4453b9",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-BOSCH-PROCORE-8AH",
@@ -723,7 +744,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "c560574294c299c07f0f2e68137fad07097254a90d8281b8985bb71ee4a17323",
       "status": "verificada",
       "product_ids": [
@@ -746,7 +767,7 @@
         "model_name": "ProCORE18V 8.0Ah",
         "product_type": "bateria",
         "platform_id": "bosch-professional-18v",
-        "capacity_ah": 8.0,
+        "capacity_ah": 8,
         "voltage_nominal": "18 V",
         "voltage_max": null,
         "required_packs": 1,
@@ -755,7 +776,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO ProCORE18V 8.0Ah Batería | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO ProCORE18V 8.0Ah PRO PRO ProCORE18V 8.0Ah Batería Número de pedido 1.600.A01.6GK La tecnología avanzada de celdas y la gestión inteligente de la batería ofrecen un 87 % más de potencia que las baterías convencionales La tecnología COOLPACK 2.0 proporciona un 135 % más de vida útil que las baterías estándar gracias a una sofisticada disipación de calor Compatible con todas las herramientas y los cargadores del Professional 18V System de Bosch y AMPShare Alliance View more Resumen de variantes Seleccionar en caja de cartón con 1 batería de iones de litio ProCORE18V 8,0 Ah Encontrar un distribuidor local en caja de cartón con 1 batería de iones de litio ProCORE18V 8,0 Ah 1 600 A01 6GK Encontrar un distribuidor local PRO ProCORE18V 8.0Ah Tu selección en caja de cartón con 1 batería de iones de litio ProCORE18V 8,0 Ah Número de pedido: 1 600 A01 6GK Encontrar un distribuidor local Incluido en esta variante Caja de cartón 1 batería ProCORE18V 8,0Ah Número de pedido: 1 600 A01 6GK Tu selección Datos técnicos Datos adicionales Capacidad de la batería 8 Ah Voltaje de la batería 18 V Peso 0,955 kg Dimensiones de la batería (ancho x largo x alto) 77 x 117 x 70 mm * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO ProCORE18V 8.0Ah: Further information Product Highlights La ProCORE18V 8.0Ah Professional es una batería de alto rendimiento que ofrece el equivalente a 2000 W de potencia con cable. Su tecnología de celdas, combinada con la gestión inteligente de la batería, ofrece un 87 % más de potencia que las baterías convencionales. La batería también cuenta con la tecnología COOLPACK 2.0 para una mayor disipación del calor en la batería desde el interior hacia el exterior. El calor puede dañar las celdas, por lo que la tecnología COOLPACK 2.0 ofrece una vida útil un 135 % más larga que las baterías estándares y permite que rinda durante períodos de trabajo más largos. Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V y con la alianza AMPShare. Equipment & Application La ProCORE18V 8.0Ah Professional es una batería de iones de litio (Li-ion) con una pantalla de indicador de carga, que muestra el estado de la misma. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 1607A350ZU Nombre del producto PRO ProCORE18V 8.0Ah Descripción Batería Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Descargas Manual de usuario Manual de instrucciones | GBA 18V 6.0 ... h M-A, GBA 18V 1.5Ah M-A (PDF 1.2 MB) Insertar | Herstellergarantie (EU),Manufacturer's guarantee (EU) (PDF 0.3 MB) Ficha técnica del producto Ficha técnica del producto | PRO ProCORE18V 8.0Ah (PDF 1.5 MB) Esto también podría interesarte GAL 12 V/18V-80 GAL 12 V/18V-80 Saber más Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "c560574294c299c07f0f2e68137fad07097254a90d8281b8985bb71ee4a17323",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-BOSCH-GBA-2AH",
@@ -768,7 +792,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "be2e47f21f039c0eb5af364cc36f1cbe1507f83eb9aaf3c139548eaf994ea3cb",
       "status": "verificada",
       "product_ids": [
@@ -791,7 +815,7 @@
         "model_name": "GBA 18V 2.0Ah",
         "product_type": "bateria",
         "platform_id": "bosch-professional-18v",
-        "capacity_ah": 2.0,
+        "capacity_ah": 2,
         "voltage_nominal": "18 V",
         "voltage_max": null,
         "required_packs": 1,
@@ -800,7 +824,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GBA 18V 2.0Ah Batería | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO GBA 18V 2.0Ah PRO PRO GBA 18V 2.0Ah Batería Número de pedido 1.600.Z00.036 La tecnología COOLPACK 1.0 mejora la disipación del calor del interior al exterior de la batería, para ofrecer una vida útil y una autonomía más largas Compatible con todas las herramientas y los cargadores del Professional 18V System de Bosch y AMPShare Alliance Diseño ligero que permite trabajar cómodamente, especialmente al usar atornilladores View more Resumen de variantes Seleccionar en caja de cartón con accesorio Encontrar un distribuidor local en caja de cartón con accesorio 1 600 Z00 036 Encontrar un distribuidor local Resumen de variantes Tu selección en caja de cartón con accesorio Número de pedido: 1 600 Z00 036 Encontrar un distribuidor local Incluido en esta variante Caja de cartón 1 batería GBA 18V 2,0Ah Número de pedido: 1 600 Z00 036 Tu selección Tu selección Número de pedido: 2 608 000 726 Encontrar un distribuidor local Incluido en esta variante 1 batería GBA 18V 2,0Ah Select Variant Datos técnicos Datos adicionales Voltaje de la batería 18 V Peso 0,35 kg Capacidad de la batería 2 Ah Dimensiones de la batería (ancho x largo x alto) 73 x 113 x 39 mm * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GBA 18V 2.0Ah: Further information Product Highlights Esta es una batería liviana en la alianza AMPShare. Su diseño liviano permite trabajar cómodamente, especialmente al usar atornilladores. Esta batería también cuenta con tecnología COOLPACK 1.0 para mejorar la disipación del calor desde el interior hasta el exterior de la misma. Como el calor puede dañar las celdas, la tecnología COOLPACK ofrece una mayor vida útil de la batería y permite que rinda durante períodos de trabajo más largos. Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V y con la alianza AMPShare. Equipment & Application Batería de iones de litio con indicador de carga, que muestra el estado del nivel de la misma. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 1617B000J0 Nombre del producto PRO GBA 18V 2.0Ah Descripción Batería Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GBA 18V 2.0Ah GAL 18V-40 Charger The compact 18 V charger GAL 1880 CV Charger The fast 18 V charger GAL 18V-20 Charger GAL 18V-20 Charger GAL 18V-20 Charger Descargas Manual de usuario Manual de instrucciones | Akku-Packs, Li-Ionen-Akkus, Li-Ion Akku (PDF 1.4 MB) Insertar | Herstellergarantie (EU),Manufacturer's guarantee (EU) (PDF 0.3 MB) Ficha técnica del producto Ficha técnica del producto | PRO GBA 18V 2.0Ah (PDF 1.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "be2e47f21f039c0eb5af364cc36f1cbe1507f83eb9aaf3c139548eaf994ea3cb",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-BOSCH-GBA-4AH",
@@ -813,7 +840,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "1bc72fca2e8f4e34a67c85726cae92ce732b6daa4de4f60122546f3f728c7461",
       "status": "verificada",
       "product_ids": [
@@ -836,7 +863,7 @@
         "model_name": "GBA 18V 4.0Ah",
         "product_type": "bateria",
         "platform_id": "bosch-professional-18v",
-        "capacity_ah": 4.0,
+        "capacity_ah": 4,
         "voltage_nominal": "18 V",
         "voltage_max": null,
         "required_packs": 1,
@@ -845,7 +872,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GBA 18V 4.0Ah Batería | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO GBA 18V 4.0Ah PRO PRO GBA 18V 4.0Ah Batería Número de pedido 1.600.Z00.038 La tecnología COOLPACK 1.0 mejora la disipación del calor del interior al exterior de la batería, para ofrecer una vida útil y una autonomía más largas Compatible con todas las herramientas y los cargadores del Professional 18V System de Bosch y AMPShare Alliance Ofrece un 100 % más de autonomía que el modelo 18V 2.0 Ah Professional gracias a su mayor capacidad de la batería View more Resumen de variantes Seleccionar en caja de cartón con accesorio Encontrar un distribuidor local en caja de cartón con accesorio 1 600 Z00 038 Encontrar un distribuidor local PRO GBA 18V 4.0Ah Tu selección en caja de cartón con accesorio Número de pedido: 1 600 Z00 038 Encontrar un distribuidor local Incluido en esta variante Caja de cartón 1 batería GBA 18V 4,0Ah Número de pedido: 1 600 Z00 038 Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Peso 0,6 kg Capacidad de la batería 4 Ah Dimensiones de la batería (ancho x largo x alto) 74 x 114 x 56 mm * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GBA 18V 4.0Ah: Further information Product Highlights Esta batería está diseñada para un tiempo de funcionamiento prolongado. Mayor capacidad de la batería, que permite que tenga un 100 % más de autonomía que el modelo 18V 2.0 Ah. Esta batería también cuenta con tecnología COOLPACK 1.0 para mejorar la disipación del calor desde el interior hasta el exterior de la misma. Como el calor puede dañar las celdas, la tecnología COOLPACK ofrece una mayor vida útil de la batería y permite que rinda durante períodos de trabajo más largos. Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V y con la alianza AMPShare. Equipment & Application Batería de iones de litio con indicador de carga, que muestra el estado del nivel de la misma. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 2607336815 Nombre del producto PRO GBA 18V 4.0Ah Descripción Batería Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GBA 18V 4.0Ah GAL 18V-40 Charger The compact 18 V charger GAL 1880 CV Charger The fast 18 V charger GAL 18V-20 Charger GAL 18V-20 Charger GAL 18V-20 Charger Descargas Manual de usuario Manual de instrucciones | Akku-Packs, Li-Ionen-Akkus, Li-Ion Akku (PDF 1.4 MB) Manual de instrucciones | GBA 18V 6.0 ... h M-A, GBA 18V 1.5Ah M-A (PDF 1.2 MB) Insertar | Akku-Packs,ROHS China (PDF 0.1 MB) Insertar | Herstellergarantie (EU),Manufacturer's guarantee (EU) (PDF 0.3 MB) Ficha técnica del producto Ficha técnica del producto | PRO GBA 18V 4.0Ah (PDF 1.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "1bc72fca2e8f4e34a67c85726cae92ce732b6daa4de4f60122546f3f728c7461",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-BOSCH-GBA-5AH",
@@ -858,7 +888,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "fa74e831dfbabb2a337fdf205e679a431b3e4a2858e2062076c1dfa36ddc7db4",
       "status": "verificada",
       "product_ids": [
@@ -881,7 +911,7 @@
         "model_name": "GBA 18V 5.0Ah",
         "product_type": "bateria",
         "platform_id": "bosch-professional-18v",
-        "capacity_ah": 5.0,
+        "capacity_ah": 5,
         "voltage_nominal": "18 V",
         "voltage_max": null,
         "required_packs": 1,
@@ -890,7 +920,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GBA 18V 5.0Ah Batería | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO GBA 18V 5.0Ah PRO PRO GBA 18V 5.0Ah Batería Número de pedido 1.600.A00.2U5 La tecnología COOLPACK 1.0 mejora la disipación del calor del interior al exterior de la batería, para ofrecer una vida útil y una autonomía más largas Compatible con todas las herramientas y los cargadores del Professional 18V System de Bosch y AMPShare Alliance Mayor capacidad de la batería, que permite que tenga un 25 % más de autonomía que el modelo 18V 4.0 Ah Professional View more Resumen de variantes Seleccionar en caja de cartón con accesorio Encontrar un distribuidor local en caja de cartón con accesorio 1 600 A00 2U5 Encontrar un distribuidor local PRO GBA 18V 5.0Ah Tu selección en caja de cartón con accesorio Número de pedido: 1 600 A00 2U5 Encontrar un distribuidor local Incluido en esta variante Caja de cartón 1 batería GBA 18V 5,0Ah Número de pedido: 1 600 A00 2U5 Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Peso 0,62 kg Capacidad de la batería 5 Ah Dimensiones de la batería (ancho x largo x alto) 74 x 114 x 56 mm * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GBA 18V 5.0Ah: Further information Product Highlights Esta batería está diseñada para un tiempo de funcionamiento más largo. Su mayor capacidad permite que tenga un 25 % más de autonomía que la 18V 4.0 Ah. Esta batería también cuenta con tecnología COOLPACK 1.0 para mejorar la disipación del calor desde el interior hasta el exterior de la misma. Como el calor puede dañar las celdas, la tecnología COOLPACK ofrece una mayor vida útil de la batería y permite que rinda durante períodos de trabajo más largos. Compatible con todas las herramientas y los cargadores del sistema Bosch Professional 18V y con la alianza AMPShare. Equipment & Application Se trata de una batería de iones de litio con indicador de carga, que muestra el estado del nivel de la misma. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 2607337069 Nombre del producto PRO GBA 18V 5.0Ah Descripción Batería Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GBA 18V 5.0Ah GAL 18V-40 Charger The compact 18 V charger GAL 1880 CV Charger The fast 18 V charger GAL 18V-20 Charger GAL 18V-20 Charger GAL 18V-20 Charger Descargas Manual de usuario Manual de instrucciones | GBA 18V 6.0 ... h M-A, GBA 18V 1.5Ah M-A (PDF 1.2 MB) Insertar | Herstellergarantie (EU),Manufacturer's guarantee (EU) (PDF 0.3 MB) Ficha técnica del producto Ficha técnica del producto | PRO GBA 18V 5.0Ah (PDF 1.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "fa74e831dfbabb2a337fdf205e679a431b3e4a2858e2062076c1dfa36ddc7db4",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-BOSCH-GWS-18V-10",
@@ -903,7 +936,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "4ffb153b0cc9f4b892d3466882ad88c754b4985f30a8facc7df7e3f2af965e6e",
       "status": "verificada",
       "product_ids": [
@@ -944,7 +977,10 @@
           "fetched_at": "2026-10-04T14:12:51.272665+00:00",
           "hash": "3d2f70ed22a876ebff7c66c3ca3903f10bafd128c6d356ecba7f2ed2cc615b1e"
         }
-      }
+      },
+      "approved_source_hash": "4ffb153b0cc9f4b892d3466882ad88c754b4985f30a8facc7df7e3f2af965e6e",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-BOSCH-GWS-18V-10PSC",
@@ -957,7 +993,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "d78f06b04d64f8639c8489d322186f4c8cec1b2b7f848692d96800a36104379a",
       "status": "verificada",
       "product_ids": [
@@ -987,7 +1023,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GWS 18V-10 PSC Amoladoras angulares inalámbricas | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Amoladoras angulares y trabajos con metal Amoladoras angulares pequeñas de 500 W a 1900 W ... PRO GWS 18V-10 PSC PRO PRO GWS 18V-10 PSC Amoladoras angulares inalámbricas Número de pedido 0.601.9G3.F0B La amoladora angular pequeña ofrece la misma potencia que una amoladora con cable de 1000 W gracias al motor Brushless sin escobillas de carbón y a la batería ProCORE18V PROtection switch (interruptor \"hombre muerto\"), KickBack Control y sistema inteligente de frenado para proporcionar la máxima comodidad y protección del usuario Módulo Bluetooth para adaptaciones a través de la aplicación Toolbox; interfaz de usuario para proporcionar información activa sobre la herramienta y selección de velocidad View more Resumen de variantes Seleccionar en L-BOXX 136 con caperuza de protección Encontrar un distribuidor local en L-BOXX 136 con caperuza de protección 0 601 9G3 F0B Encontrar un distribuidor local PRO GWS 18V-10 PSC Tu selección en L-BOXX 136 con caperuza de protección Número de pedido: 0 601 9G3 F0B Encontrar un distribuidor local Incluido en esta variante L-BOXX 136 Número de pedido: 1 600 A01 2G0 Caperuza de plástico de corte con cierre rápido Número de pedido: 2 608 000 757 Brida de fijación (número de pieza de repuesto 2 605 703 014) Caperuza de protección Número de pedido: 1 605 510 365 Empuñadura auxiliar antivibración (Vibration Control) Número de pedido: 2 602 025 171 1/1 bandeja de L-BOXX para herramienta y cargador Número de pedido: 1 600 A01 166 Tuerca de sujeción rápida Número de pedido: 2 608 000 684 Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Velocidad en vacío 4.500 – 9.000 rpm Diámetro del disco 125 mm Peso con batería incluida 2,8 kg Rosca del eje amolador M14 Tamaño de perforación, diámetro 22,23 mm Peso sin batería 2 kg Nivel total de vibraciones (Desbastar superficies (desbastado)) Valor de vibraciones generadas ah 5 m/s² Tolerancia K 1,5 m/s² Nivel total de vibraciones (Lijar con hoja de lija) Valor de vibraciones generadas ah 3,5 m/s² Tolerancia K 1,5 m/s² Desbastar superficies (desbastado) Valor de vibraciones generadas ah 5 m/s² Tolerancia K 1,5 m/s² Lijar con hoja de lija Valor de vibraciones generadas ah 3,5 m/s² Tolerancia K 1,5 m/s² mostrar más * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GWS 18V-10 PSC: Further information Product Highlights La pequeña amoladora inalámbrica GWS 18V-10 PSC ofrece un grado de potencia y un control de la herramienta mejorados para la categoría 18V. Gracias a su motor Brushless sin escobillas de carbón y a la tecnología de batería ProCORE18V, ofrece la misma potencia que una amoladora con cable de 1000 W. La amoladora se suministra con PROtection switch (interruptor de protección), KickBack Control y sistema inteligente de frenado, lo que asegura la máxima comodidad y protección al usuario. Su módulo Bluetooth Connectivity permite realizar ajustes desde la aplicación Toolbox, mientras que una interfaz de usuario con selección de velocidad permite un seguimiento activo de la herramienta para máxima comodidad. Esta herramienta está concebida para cortar y desbastar metal, piedra y concreto. Es compatible con los dispositivos de aspiración GDE 125 EA-T Professional y GDE 115 / 125 FC-T Professional, y con todas las baterías y cargadores Bosch Professional 18V (Professional 18V System). También compatible con AMPShare, la alianza de batería multimarca. Equipment & Application La GWS 18V-10 PSC Professional incluye también cubierta de protección, tuerca de conexión rápida y empuñadura con Vibration Control. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 3601JG3F01 Nombre del producto PRO GWS 18V-10 PSC Descripción Amoladoras angulares inalámbricas Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GWS 18V-10 PSC EXPERT Empuñaduras EXPERT Vibration Control M10 Para amoladoras angulares pequeñas Alto nivel de protección para usuarios de amoladoras angulares EXPERT Discos EXPERT HardCeramic Para amoladoras angulares pequeñas Corte de azulejos duros de alta precisión Material EXPERT Disco de corte con diamante EXPERT Multi Material Para amoladoras angulares pequeñas Larga duración para cortar materiales de construcción Material EXPERT Discos de corte EXPERT Carbide Multi Wheel Para amoladoras angulares pequeñas Larga duración para el corte de múltiples materiales Material Protector para extracción de polvo para lijado Para amoladoras angulares pequeñas La campana de succión es un accesorio acoplable que mantiene limpio el lugar de trabajo mediante un lijado sin polvo, es adecuado para lijar bordes Cepillo de repuesto Para amoladoras angulares pequeñas El cepillo de repuesto está diseñado para usarse con el protector de la extracción de polvo de la amoladora angular 2 605 510 224 GDE 115/125 FC-T System Accessories Full-cover dust extraction guard for a multitude of Bosch Professional angle grinders with a disc diameter of 115 mm/125 mm and tool-free adjustable protective guard Descargas Manual de usuario Manual de instrucciones | GWS 18V-10  ... S 18V-10 SC, GWS 18V-10 (PDF 19.8 MB) Insertar | GWS 18V-10 PSC (PDF 0.2 MB) Insertar | Herstellergarantie,Manufacturer's guarantee (EU) (PDF 0.2 MB) Insertar | Warranty card Bosch | Skil | Dremel (PDF 2.8 MB) Ficha técnica del producto Ficha técnica del producto | PRO GWS 18V-10 PSC (PDF 1.5 MB) Declaración jurada de certificados legales Declaración jurada de certificados legales | PRO GWS 18V-10 PSC\n                                                  (PDF 0.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "d78f06b04d64f8639c8489d322186f4c8cec1b2b7f848692d96800a36104379a",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-BOSCH-GWS-18V-10P",
@@ -1000,7 +1039,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "d3bc9e19ea60362c2f2c9c10a1a8d4ec5224687b3d953ed7838f3dc0a3a7cbbb",
       "status": "verificada",
       "product_ids": [
@@ -1030,7 +1069,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GWS 18V-10 P Amoladoras angulares inalámbricas | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Sistema de 18V ... PRO GWS 18V-10 P PRO PRO GWS 18V-10 P Amoladoras angulares inalámbricas Número de pedido 0.601.9J4.1E0 Amoladora pequeña inalámbrica con la misma potencia que una amoladora con cable de 1000 W gracias a su motor Brushless sin escobillas de carbón y batería ProCORE18V El interruptor PROtection desconecta al instante la amoladora cuando se suelta, para aumentar la protección del operador Mayor grado de protección del operador y de comodidad gracias a KickBack Control, Drop Control y el sistema de frenado inteligente View more Resumen de variantes Seleccionar con empuñadura auxiliar Encontrar un distribuidor local con empuñadura auxiliar 0 601 9J4 1E0 Encontrar un distribuidor local PRO GWS 18V-10 P Tu selección con empuñadura auxiliar Número de pedido: 0 601 9J4 1E0 Encontrar un distribuidor local Incluido en esta variante Brida de fijación (número de pieza de repuesto 2 605 703 014) Caperuza de protección Número de pedido: 1 605 510 365 Empuñadura auxiliar antivibración (Vibration Control) Número de pedido: 2 602 025 171 Tuerca de sujeción rápida Número de pedido: 2 608 000 684 Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Velocidad en vacío 9.000 rpm Diámetro del disco 125 mm Rosca del eje amolador M14 Peso sin batería 1,9 kg Nivel total de vibraciones (Desbastar superficies (desbastado)) Valor de vibraciones generadas ah 6,5 m/s² Tolerancia K 1,5 m/s² Nivel total de vibraciones (Lijar con hoja de lija) Valor de vibraciones generadas ah 3,5 m/s² Tolerancia K 1,5 m/s² Desbastar superficies (desbastado) Valor de vibraciones generadas ah 6,5 m/s² Tolerancia K 1,5 m/s² Lijar con hoja de lija Valor de vibraciones generadas ah 3,5 m/s² Tolerancia K 1,5 m/s² mostrar más * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GWS 18V-10 P: Further information Product Highlights La pequeña amoladora inalámbrica GWS 18V-10 P ofrece un grado de potencia y un control de la herramienta mejorados para la categoría de 18 V. Ofrece la misma potencia que una amoladora con cable de 1000 W gracias a su potente motor Brushless sin escobillas de carbón. Esta pequeña amoladora, dotada con las funciones KickBack Control, Drop Control y sistema de frenado inteligente, le ofrece al operador un nivel superior de protección y de comodidad. Cuenta también con un PROtection switch (interruptor de protección) que desconecta la amoladora al instante cuando se suelta, para aumentar la protección del operador. Equipment & Application Esta herramienta está hecha para cortar y amolar en aplicaciones de metal y piedra. Es compatible con todas las baterías y cargadores de 18 V de Bosch Professional (sistema profesional de 18 V). ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 3601JJ41E2 Nombre del producto PRO GWS 18V-10 P Descripción Amoladoras angulares inalámbricas Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GWS 18V-10 P EXPERT Empuñaduras EXPERT Vibration Control M10 Para amoladoras angulares pequeñas Alto nivel de protección para usuarios de amoladoras angulares EXPERT Discos EXPERT HardCeramic Para amoladoras angulares pequeñas Corte de azulejos duros de alta precisión Material EXPERT Disco de corte con diamante EXPERT Multi Material Para amoladoras angulares pequeñas Larga duración para cortar materiales de construcción Material EXPERT Discos de corte EXPERT Carbide Multi Wheel Para amoladoras angulares pequeñas Larga duración para el corte de múltiples materiales Material GDE 115/125 FC-T System Accessories Full-cover dust extraction guard for a multitude of Bosch Professional angle grinders with a disc diameter of 115 mm/125 mm and tool-free adjustable protective guard Descargas Manual de usuario Manual de instrucciones | GWS 18V-10 P (PDF 10.2 MB) Insertar | Warranty card Bosch | Skil | Dremel (PDF 2.8 MB) Ficha técnica del producto Ficha técnica del producto | PRO GWS 18V-10 P (PDF 1.5 MB) Declaración jurada de certificados legales Declaración jurada de certificados legales | PRO GWS 18V-10 P\n                                                  (PDF 0.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "d3bc9e19ea60362c2f2c9c10a1a8d4ec5224687b3d953ed7838f3dc0a3a7cbbb",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-BOSCH-GDX-18V-200",
@@ -1043,7 +1085,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "496037500f599eb6a0877cbdacd4a62955c3e56ba71c0026ffda43ce6d5854db",
       "status": "verificada",
       "product_ids": [
@@ -1073,7 +1115,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GDX 18V-200 Atornillador/llave de impacto inalámbrica | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Llaves de impacto inalámbricas ... PRO GDX 18V-200 PRO PRO GDX 18V-200 Atornillador/llave de impacto inalámbrica Número de pedido 0.601.9J2.2E0 El portaherramientas 2 en 1 con hexágono interior de ¼\" y cuadrado macho de ½\" garantiza flexibilidad para la más amplia variedad de tareas Mejor control de la velocidad y el par de giro gracias al activador de velocidad variable Motor Brushless sin escobillas con un par de apriete de 200 Nm y un par de apertura de 350 Nm, para una excelente autonomía de batería y una larga vida útil de la herramienta View more Resumen de variantes Seleccionar en caja de cartón Encontrar un distribuidor local en caja de cartón 0 601 9J2 2E0 Encontrar un distribuidor local PRO GDX 18V-200 Tu selección en caja de cartón Número de pedido: 0 601 9J2 2E0 Encontrar un distribuidor local Incluido en esta variante Caja de cartón Tu selección Datos técnicos Datos adicionales Capacidad de la batería 4 Ah Voltaje de la batería 18 V Torque, máx. 200 Nm Velocidad en vacío 0-3.400 rpm Portaherramientas Hexagonal Uni de 1/4\", 1/2'' cuadrado Torque de giro máx. (en atornillado duro) 200 Nm Peso con batería incluida 1,7 kg Torque de arranque, máx. 350 Nm Velocidad en vacío, 1.er nivel 0-3.400 rpm Peso sin batería 1,2 kg Número de impactos 0-4.200 ipm Nivel total de vibraciones (Apretar tornillos y tuercas del tamaño máximo permitido) Valor de vibraciones generadas ah 10 m/s² Tolerancia K 1,5 m/s² Apretar tornillos y tuercas del tamaño máximo permitido Valor de vibraciones generadas ah 10 m/s² Tolerancia K 1,5 m/s² mostrar más * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GDX 18V-200: Further information Product Highlights Esta herramienta combina potencia sin escobillas de carbón con un diseño compacto y un portaherramientas 2 en 1 para una máxima flexibilidad. Su portaherramientas 2 en 1 con hexágono interior de 1/4\" y cuadrado macho de 1/2\" convierte al atornillador de impacto en una herramienta versátil e ideal para una amplia variedad de aplicaciones. Incluye un motor sin escobillas, con el que se consigue un buen rendimiento: un par de giro de 200 Nm, un par de arranque de 350 Nm, una excelente autonomía de la batería y prolongada vida útil de la herramienta. Para conseguir un mejor control de la velocidad y el torque, la llave de impacto inalámbrica cuenta con un interruptor de velocidad variable. Equipment & Application Esta herramienta es la opción ideal para apretar y extraer tornillos (M 6 – M 16) en trabajos en planchas de metal, metal o madera. También es compatible con todas las baterías y cargadores Bosch Professional de 18 V (Professional 18V System). También compatible con AMPShare, la alianza de batería multimarca. Additional Information También incluye Electronic Cell Protection (ECP), una luz LED y clip de sujeción al cinturón. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 3601JJ22E0 Nombre del producto PRO GDX 18V-200 Descripción Atornillador/llave de impacto inalámbrica Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GDX 18V-200 PRO Juego de brocas de atornillar PRO Impact For impact screwdrivers Atornillado robusto PRO Juego de brocas de atornillar PRO Impact For impact screwdrivers Atornillado robusto Set de tomacorrientes Impact Control Para brocas/taladros rotativos El tomacorriente Impact Control es muy robusto para atornillar tornillos hexagonales con taladros y llaves de impacto Material Set de tomacorrientes Impact Control Para brocas/taladros rotativos El tomacorriente Impact Control es muy robusto para atornillar tornillos hexagonales con taladros y llaves de impacto Material Set de tomacorrientes Impact Control Para brocas/taladros rotativos El tomacorriente Impact Control es muy robusto para atornillar tornillos hexagonales con taladros y llaves de impacto Material Descargas Manual de usuario Manual de instrucciones | GDR 18V-200,GDS 18V-200,GDX 18V-200 (PDF 3.8 MB) Ficha técnica del producto Ficha técnica del producto | PRO GDX 18V-200 (PDF 1.5 MB) Declaración jurada de certificados legales Declaración jurada de certificados legales | PRO GDX 18V-200\n                                                  (PDF 0.5 MB) Declaración jurada de certificados legales | PRO GDX 18V-200\n                                                  (PDF 0.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "496037500f599eb6a0877cbdacd4a62955c3e56ba71c0026ffda43ce6d5854db",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-CHG-BOSCH-GAL-18V40-1600A028U0",
@@ -1086,7 +1131,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "559e4af24ea71ad59cfa65c1b6ad688a6e476ab413a32b7b4239727653273d50",
       "status": "verificada",
       "product_ids": [
@@ -1121,7 +1166,10 @@
       },
       "supporting_urls": [],
       "primary_text": "GAL 18V-40 Cargador | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... GAL 18V-40 GAL 18V-40 Cargador Número de pedido 1.600.A02.8U0 Compacto: tamaño reducido gracias a su moderno diseño Compatible con todas las baterías del Professional 18V System de Bosch y AMPShare Alliance Con su corriente de carga de 4 A, carga la batería GBA 18V 4.0Ah al 80 % en solo 48 minutos y una batería GBA 18V 2.0Ah al 80 % en 24 minutos View more Resumen de variantes Seleccionar Encontrar un distribuidor local GAL 18V-40 Professional 1 600 A02 8U0 Encontrar un distribuidor local GAL 18V-40 Tu selección Número de pedido: 1 600 A02 8U0 Encontrar un distribuidor local Tu selección Datos técnicos Datos adicionales Voltaje de carga de la batería 14,4 – 18 V Corriente de carga 4 A Peso 0,55 kg Tiempo de carga con capacidad de batería de 2,0 Ah (80 %/100 %) aprox. 24/35 min Tiempo de carga con capacidad de batería de 3,0 Ah (80 /100 %) aprox. 36/50 min Tiempo de carga con capacidad de batería de 4,0 Ah (80 %/100 %) aprox. 48/65 min Tiempo de carga con capacidad de batería de 5,0 Ah (80 %/100 %) aprox. 60/70 min Tiempo de carga con capacidad de batería de 6,0 Ah (80 %/100 %) aprox. 72/95 min Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %) aprox. 48/65 min Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %) aprox. 113/124 min Tiempo de carga ProCORE18V 12.0Ah (80 %/100 %) aprox. 162/172 min * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos GAL 18V-40: Further information Product Highlights Esta herramienta tiene un diseño moderno y un tamaño extremadamente compacto. Con su corriente de carga de 4 A, carga una batería GBA 18V 4.0Ah al 80 % en solo 48 minutos y una batería GBA 18V 2.0Ah al 80 % en 24 minutos. Este cargador compacto forma parte del Professional 18V System de Bosch y es totalmente compatible con todas las baterías Bosch Professional de 18 V. Asimismo, el GAL 18V-40 incluye también una opción de soporte de pared. También compatible con AMPShare, la alianza de batería multimarca. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte Nombre del producto GAL 18V-40 Descripción Cargador Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to GAL 18V-40 GBA 18V 2.0Ah Battery Pack Lightweight 2.0 Ah battery in the 18 V category GBA 18V 4.0Ah Battery Pack 4.0 Ah battery with extended runtime in the 18 V category GBA 18V 5.0Ah Battery Pack 5.0 Ah battery with longer runtime in the 18V category ProCORE18V 8.0Ah Battery Pack High performance battery for up to 2,000 Watt corded power ProCORE18V 12.0Ah Battery Pack High performance battery for up to 2,000 Watt corded power and 12 Ah capacity for a long runtime ProCORE18V 4.0Ah Battery Pack Performance of a standard battery in the most compact size and weight GBA 18V 2.0Ah Battery Pack Lightweight 2.0 Ah battery in the 18 V category ProCORE18V+ 8.0Ah Battery Pack Tabless high-endurance battery: more runtime and power for tools Descargas Manual de usuario Insertar | Entsorgungstext Deutschland (PDF 0.1 MB) Insertar | Herstellergarantie,Manufacturer's guarantee (EU) (PDF 0.2 MB) Manual de instrucciones | GAL 18V-40 (PDF 1.5 MB) Insertar | Warranty Card (PDF 0.6 MB) Manual de instrucciones | GAL18V-40 (PDF 1.5 MB) Manual de instrucciones | GAL18V-40 (PDF 1.6 MB) Manual de instrucciones | GAL 18V-40 (PDF 2.1 MB) Manual de instrucciones | GLL330-80CG (PDF 7.3 MB) Manual de instrucciones | GLL330-80CG (PDF 7.3 MB) Manual de instrucciones | GLL330-80CG (PDF 7.4 MB) Manual de instrucciones | GAL 18V-40 (PDF 2.1 MB) Insertar | Akku-Packs,ROHS China (PDF 0.1 MB) EU Declaration of Conformity | AL 18V-20 (PDF 0.6 MB) EU Declaration of Conformity | GAL 18V-40 (PDF 0.1 MB) EU Declaration of Conformity | GAL 18V-20 (PDF 0.1 MB) EU Declaration of Conformity | GAL 12V-40 (PDF 0.1 MB) EU Declaration of Conformity | GAL 18V-40 (PDF 0.1 MB) EU Declaration of Conformity | AL 18V-20 (PDF 0.1 MB) EU Declaration of Conformity | AL 18V-20 (PDF 0.6 MB) EU Declaration of Conformity | GAL 12V-40 (PDF 0.2 MB) EU Declaration of Conformity | GAL 18V-40 (PDF 0.2 MB) EU Declaration of Conformity | AL 18V-20 (PDF 0.2 MB) EU Declaration of Conformity | GAL 18V-20 (PDF 0.2 MB) EU Declaration of Conformity | GAL 18V-20 (PDF 0.2 MB) EU Declaration of Conformity | AL 18V-20 (PDF 0.2 MB) GB Declaration of Conformity | GAL 12V-40 (PDF 0.1 MB) GB Declaration of Conformity | GAL 18V-20 (PDF 0.1 MB) GB Declaration of Conformity | AL 18V-20 (PDF 0.1 MB) GB Declaration of Conformity | GAL 18V-40 (PDF 0.1 MB) GB Declaration of Conformity | AL 18V-20 (PDF 0.2 MB) GB Declaration of Conformity | GAL 12V-40 (PDF 0.2 MB) GB Declaration of Conformity | GAL 18V-20 (PDF 0.2 MB) GB Declaration of Conformity | GAL 18V-40 (PDF 0.2 MB) GB Declaration of Conformity | GAL 18V-20 (PDF 0.1 MB) Manual de instrucciones | GAL 18V-40 (Versión online) Manual de instrucciones | GAL 18V-40 (Versión online) Ficha técnica del producto Ficha técnica del producto | GAL 18V-40 (PDF 1.5 MB) Declaración jurada de certificados legales Declaración jurada de certificados legales | GAL 18V-40\n                                                  (PDF 0.7 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "559e4af24ea71ad59cfa65c1b6ad688a6e476ab413a32b7b4239727653273d50",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-CHG-BOSCH-GAL-1880CV-1600A015TL",
@@ -1134,7 +1182,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "04235f553f93a99a8a2b73253764fa60b14f7e108a1e182c1b0b21b30afa7633",
       "status": "verificada",
       "product_ids": [
@@ -1169,7 +1217,10 @@
       },
       "supporting_urls": [],
       "primary_text": "PRO GAL 1880 CV Cargador | Bosch Professional Buscar distribuidores Sostenibilidad Contacto Buscar Encuentre centros de servicio Inicio Herramientas eléctricas Herramientas eléctricas Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Medición Medición Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Accesorios Accesorios Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Herramientas de mano Herramientas de mano Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Servicios Servicios Garantía de productos Garantía de productos Información Servicio postventa Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Descargas Manuales de Productos Catálogos Conocimiento e innovación Conocimiento e innovación Accessories Product Finder Buscar distribuidores Sostenibilidad Contacto Atrás Clases de desempeño EXPERT ASESOR DE ACCESORIOS Sitio de trabajo interactivo Brocas Perforación con diamantes, corte y desbaste Fresas para router y cuchillos de cepillo Cinceles Accesorios para multiherramienta Hojas de sierra y sierras de corona Discos de lija, bandas de lija y hojas de lija Puntas de atornillar, llaves para tuercas y llaves tubo Discos de corte, discos de desbaste y cepillos de alambre Sets Accesorios de máquinas Asesor de accesorios Conoce más Atrás Cinceles Limas y escofinas Martillos Cuchillos Cuchillos VDE Herramientas de diseño Niveles Juegos mixtos Juegos mixtos VDE Alicates Alicates VDE Trinquetes Sierras Atornilladores Atornilladores VDE Medidas de la cinta Llaves Llaves VDE Atrás Probadores eléctricos Medidores de humedad Termohigrómetros Niveles láser Láseres giratorios Niveles láser de línea Detectores de materiales Medidores láser Detectores de temperatura y cámaras térmicas Niveles láser de puntos Receptores Niveles ópticos Ruedas de medición Cámaras de inspección Medidores de ángulos e inclinómetros Trípodes Accesorios Atrás Nuevas herramientas Ofertas Heavy Duty Herramientas inalámbricas Productos y servicios conectados Taladros, taladros percutores y atornilladores Rotomartillos y martillos demoledores Tecnología de diamante Amoladoras angulares y trabajos con metal Herramientas de mesa y bancos de trabajo Lijadoras y cepillos Fresadoras Sierras Sistemas de aspiración de polvo Pistolas de calor y pistolas de pegado Tecnología de medición Hidrolavadoras Mezcladores Maletines de transporte Vibradores de concreto Accesorios del sistema Herramientas inalámbricas para el jardín Herramientas neumáticas de servicio Sistema de movilidad Bosch Trabajos en baldosas Kits combinados Clavadoras Herramientas hidráulicas Atrás Garantía de productos Información Servicio postventa Servicio Técnico Preguntas Frecuentes Contacto Encuentre centros de servicio Descargas Manuales de Productos Catálogos Cerrar Inicio Herramientas eléctricas profesionales Herramientas inalámbricas Baterías y cargadores ... PRO GAL 1880 CV PRO PRO GAL 1880 CV Cargador Número de pedido 1.600.A01.5TL Compatible con todas las baterías del Professional 18V System de Bosch y AMPShare Alliance Cargador rápido con una corriente de carga de 8 A Mayor vida útil de las baterías de 18 V gracias a la Active Air Cooling, que está optimizada para las baterías estándar GBA View more Resumen de variantes Seleccionar en caja de cartón Encontrar un distribuidor local en caja de cartón 1 600 A01 5TL Encontrar un distribuidor local PRO GAL 1880 CV Tu selección en caja de cartón Número de pedido: 1 600 A01 5TL Encontrar un distribuidor local Incluido en esta variante Caja de cartón Tu selección Datos técnicos Datos adicionales Voltaje de la batería 18 V Voltaje de carga de la batería 14,4 – 18 V Corriente de carga 8 A Peso 0,7 kg Tiempo de carga con capacidad de batería de 1,5 Ah (80 %/100 %) aprox. 10/25 min Tiempo de carga con capacidad de batería de 2,0 Ah (80 %/100 %) aprox. 15/30 min Tiempo de carga con capacidad de batería de 3,0 Ah (80 /100 %) aprox. 20/35 min Tiempo de carga con capacidad de batería de 4,0 Ah (80 %/100 %) aprox. 25/35 min Tiempo de carga con capacidad de batería de 5,0 Ah (80 %/100 %) aprox. 35/45 min Tiempo de carga con capacidad de batería de 6,0 Ah (80 %/100 %) aprox. 35/55 min Tiempo de carga con capacidad de batería de 6,3 Ah (80 %/100 %) aprox. 41/55 min Tiempo de carga ProCORE18V 4.0Ah (80 %/100 %) aprox. 32/51 min Tiempo de carga ProCORE18V 8.0Ah (80 %/100 %) aprox. 68/79 min Tiempo de carga ProCORE18V 12.0Ah (80 %/100 %) aprox. 113/126 min * Puedes encontrar más información sobre las variaciones en este enlace: Características técnicas de productos PRO GAL 1880 CV: Further information Product Highlights Este es el cargador rápido de Bosch. Gracias a sus 8 A de corriente de carga, carga una batería ProCORE18V 5.5Ah hasta el 80 % en solo 35 minutos. La opción Active Aire Cooling integrada, optimizada para nuestras baterías estándar GBA 18 V, consigue una larga vida útil. Este cargador rápido forma parte del Professional 18V System de Bosch y es totalmente compatible con todas las baterías Bosch Professional de 18 V. También es compatible con AMPShare, la alianza de baterías multimarca. ¿Necesita algún repuesto? Aquí encontrará rápida y fácilmente los repuestos indicados para su herramienta profesional de Bosch. Seleccione un repuesto Haga el pedido en línea Pague Reciba su pedido Encontrar un repuesto Encontrar el repuesto correcto Nuestros productos pueden identificarse con claridad mediante el código de parte de diez dígitos situado en la herramienta. Asegúrese de que el código de parte a continuación coincida con el número de la tarjeta informativa de su herramienta. Si el código de parte no coincide con el de la herramienta, utilice nuestro catálogo de repuestos para buscar directamente el repuesto que necesita. Código de parte 2607225941 Nombre del producto PRO GAL 1880 CV Descripción Cargador Sí, el código de parte coincide. Busco un repuesto para este producto. Ir al repuesto No, el código de parte no coincide. Busco un repuesto para un producto diferente. Buscar en el catálogo de repuestos Fits to PRO GAL 1880 CV GBA 18V 2.0Ah Battery Pack Lightweight 2.0 Ah battery in the 18 V category GBA 18V 4.0Ah Battery Pack 4.0 Ah battery with extended runtime in the 18 V category GBA 18V 5.0Ah Battery Pack 5.0 Ah battery with longer runtime in the 18V category ProCORE18V 8.0Ah Battery Pack High performance battery for up to 2,000 Watt corded power ProCORE18V 12.0Ah Battery Pack High performance battery for up to 2,000 Watt corded power and 12 Ah capacity for a long runtime ProCORE18V 4.0Ah Battery Pack Performance of a standard battery in the most compact size and weight GBA 18V 2.0Ah Battery Pack Lightweight 2.0 Ah battery in the 18 V category ProCORE18V+ 8.0Ah Battery Pack Tabless high-endurance battery: more runtime and power for tools Descargas Manual de usuario EU Declaration of Conformity | GAL 1880 CV (PDF 0.1 MB) GB Declaration of Conformity | GAX 18V-30 (PDF 0.2 MB) EU Declaration of Conformity | GAX 18V-30 (PDF 0.2 MB) EU Declaration of Conformity | AL 1830 CV (PDF 0.2 MB) Manual de instrucciones | GAL 1880 CV, GAL 1880 CV (PDF 2.1 MB) EU Declaration of Conformity | GAL 1880 CV (PDF 0.2 MB) Manual de instrucciones | GAL 1880 CV, GAL 1880 CV (Versión online) Ficha técnica del producto Ficha técnica del producto | PRO GAL 1880 CV (PDF 1.5 MB) Servicio de Atención al Cliente Mail: contacto@ar.bosch.com Teléfono: 0800-4444-26724 Lunes - Viernes 09:00 - 19:00 Contacto Preguntas Frecuentes Obtenga respuestas para las preguntas frecuentes sobre nuestros servicios Saber más Herramientas eléctricas Professional 18V System Professional 12V System ProCORE18V+ Atornilladores Llaves y atornilladores de impacto Herramientas de medición MeasureOn Medidores láser Niveles láser Detectores Accesorios Accesorios EXPERT AC Advisor Broca Hojas de sierra de calar Sierras copa Más innovaciones Herramientas de jardinería Herramientas industriales Nuevas herramientas Acerca de Bosch Conocimiento e innovación Sostenibilidad Comunicados de prensa Ofertas de empleo y futuro profesional Centro de ayuda Ampliar garantía de 3 años Encontrar manuales de usuario Servicio de reparación online Preguntas frecuentes Síganos Cambio de vista Para que se muestre la página correctamente, se debe refrescar. Haz clic en el siguiente botón para refrescar la página. Refrescar ahora",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "04235f553f93a99a8a2b73253764fa60b14f7e108a1e182c1b0b21b30afa7633",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-GAMMA-G12490AR",
@@ -1182,7 +1233,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "21bf77ca7feae1c10f3158cf3845f2c701c47e1b092dd35bb3cf358073d58b70",
       "status": "verificada",
       "product_ids": [
@@ -1204,7 +1255,7 @@
         "model_name": "G12490AR Multi Energy 2.0 Ah",
         "product_type": "bateria",
         "platform_id": "gamma-multi-energy",
-        "capacity_ah": 2.0,
+        "capacity_ah": 2,
         "voltage_nominal": null,
         "voltage_max": "20 V",
         "required_packs": 1,
@@ -1213,7 +1264,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Batería multienergy 20V - 700W | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Batería multienergy 20V – 700W Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12490ar Batería apta para todos nuestros equipos multienergy. Dónde Comprar Características Datos Técnicos Usos Descargas Batería 20V para utilizar en todos nuestros equipos con sistema Multienergy. Tipo: Ion. Potencia: 700W Capacidad: 2000 mAh Tiempo de carga: 40 min. a condiciones normales de presión y temperatura con el cargador G12493AR *También funciona con el cargador G12492AR en 60 minutos Para herramientas multienergy de uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Aplicador de sellador a batería G12415AR Aplicador de sellador a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: G12415AR Sierra sable a batería g12411ar Sierra sable a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12411ar Taladro atornillador a batería de alto torque con percusión – Multienergy g12405ar Taladro atornillador a batería de alto torque con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12405ar Atornillador articulado a batería de Ión Litio 3,6 Vcc G12104AR Atornillador articulado a batería de Ión Litio 3,6 Vcc Producto diseñador para atornillar, con diseño compacto y ergonómico. Categoría: Herramientas a batería Etiqueta: G12104AR 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "21bf77ca7feae1c10f3158cf3845f2c701c47e1b092dd35bb3cf358073d58b70",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-BAT-GAMMA-G12491AR",
@@ -1226,7 +1280,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "40120539ae4dd8b6b96efd65b9277913c2c6d039f9e9e2b52a5bfbd9549625a7",
       "status": "verificada",
       "product_ids": [
@@ -1248,7 +1302,7 @@
         "model_name": "G12491AR Multi Energy 4.0 Ah",
         "product_type": "bateria",
         "platform_id": "gamma-multi-energy",
-        "capacity_ah": 4.0,
+        "capacity_ah": 4,
         "voltage_nominal": null,
         "voltage_max": "20 V",
         "required_packs": 1,
@@ -1257,7 +1311,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Batería multienergy 20V - 900W | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Batería multienergy 20V – 900W Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12491ar Batería apta para todos nuestros equipos multienergy. Dónde Comprar Características Datos Técnicos Usos Descargas Batería 20V para utilizar en todos nuestros equipos con sistema Multienergy. Tipo: Ion. Potencia: 900W Capacidad: 4000 mAh Tiempo de carga: 60 min. a condiciones normales de presión y temperatura con el cargador G12493AR *También funciona con el cargador G12492AR Para herramientas multienergy de uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Multitool oscilante a batería g12407ar Multitool oscilante a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12407ar Taladro atornillador a batería – Multienergy g12401/1ar Taladro atornillador a batería – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12401/1ar Taladro Atornillador a batería de Ión Litio 12 Vcc G12105AR Taladro Atornillador a batería de Ión Litio 12 Vcc Producto diseñado para perforar y atornillar. Con mango ergonómico recubierto de goma para mayor confort. Velocidad variable, con función de avance y retroceso. Categoría: Herramientas a batería Etiqueta: G12105AR Taladro Atornillador  21 Vcc G12103AR Taladro Atornillador  21 Vcc Este taladro atornillador a batería de Ión-litio ha sido diseñado para perforar y para atornillar. Categoría: Herramientas a batería Etiqueta: G12103AR 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "40120539ae4dd8b6b96efd65b9277913c2c6d039f9e9e2b52a5bfbd9549625a7",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-CHG-GAMMA-G12492AR",
@@ -1270,7 +1327,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "572198a02bef941a1ae1db384eba2ee29bc2f877127fbf2f3631ddd7269b3210",
       "status": "verificada",
       "product_ids": [
@@ -1305,7 +1362,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Cargador de 20V rápido | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Cargador de 20V rápido Categories Herramientas a batería , Herramientas a batería Multi Energy Tag G12492AR Cargador apto para ambas baterías que funcionan con todos los equipos Multienergy. Dónde Comprar Características Datos Técnicos Usos Descargas Cargador rápido de 20V para ambas baterías las cuales son aptas para toda nuestra Línea Multienergy. Tipo: Step-down inverter Alimentación: 220 VCA 50Hz Potencia: 47W Carga: 2200mAh Tiempo de carga: 60 minutos en condiciones normales de presión y temperatura para batería G12490AR Para herramientas multienergy de uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Equipo para pintar  a batería g12414ar Equipo para pintar  a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12414ar Taladro atornillador a batería de alto torque con percusión – Multienergy g12405ar Taladro atornillador a batería de alto torque con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12405ar Taladro atornillador a batería con percusión – Multienergy g12402/1ar Taladro atornillador a batería con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12402/1ar Taladro atornillador de Impacto con percutor 21 Vcc G12301AR Taladro atornillador de Impacto con percutor 21 Vcc Producto diseñado para perforar y atornillar. Con mango ergonómico recubierto de goma para mayor confort. Velocidad variable, con función de avance y retroceso. Categoría: Herramientas a batería Etiqueta: G12301AR 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "572198a02bef941a1ae1db384eba2ee29bc2f877127fbf2f3631ddd7269b3210",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-CHG-GAMMA-G12493AR",
@@ -1318,7 +1378,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "a96d9bf847726c4a29719de3cb0522d243db4eeb7bffe585ec5af2119c7bd71c",
       "status": "verificada",
       "product_ids": [
@@ -1353,7 +1413,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Cargador de 20V ultrarápido 4000 mAh | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Cargador de 20V ultrarápido 4000 mAh Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12493ar Cargador apto para ambas baterías que funcionan con todos los equipos multienergy. Dónde Comprar Características Datos Técnicos Usos Descargas Cargador de 20V ultra rápido 4000 mAh para ambas baterías las cuales son aptas para toda nuestra línea multi energy. Tipo: Step-down inverter Alimentación: 220 VCA 50Hz Potencia: 84W Carga: 4000mAh Tiempo de carga: 40 minutos en condiciones normales de presión y temperatura para batería G12490AR *Carga también la batería G12491AR Para herramientas multienergy de uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Llave crique 3/8″ a batería g12419ar Llave crique 3/8″ a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12419ar Multitool oscilante a batería g12407ar Multitool oscilante a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12407ar Taladro atornillador a batería de alto torque con percusión – Multienergy g12405ar Taladro atornillador a batería de alto torque con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12405ar Taladro atornillador de Impacto con percutor 21 Vcc G12301AR Taladro atornillador de Impacto con percutor 21 Vcc Producto diseñado para perforar y atornillar. Con mango ergonómico recubierto de goma para mayor confort. Velocidad variable, con función de avance y retroceso. Categoría: Herramientas a batería Etiqueta: G12301AR 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "a96d9bf847726c4a29719de3cb0522d243db4eeb7bffe585ec5af2119c7bd71c",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-GAMMA-G12414AR",
@@ -1366,7 +1429,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "2fbbe8d26a056aee75522e4bfe8769d879d6d9e4ff2f6e2f6c16130c6a30db62",
       "status": "verificada",
       "product_ids": [
@@ -1395,7 +1458,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Equipo para pintar a batería | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Equipo para pintar  a batería Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12414ar Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Dónde Comprar Características Datos Técnicos Usos Descargas Equipo para pintar con nuestro sistema de baterías Multi-energy. NO INCLUYE CARGADOR NI BATERÍA. Para todo tipo de superficies, con pinturas o barnices al agua o al solvente. Empuñadora ergonómica recubierta en goma para más confort. Diseño compacto y ligero. Unidad de presión de 0.1/0.2 bar Pico: 1,8mm (metal) Recipiente: 800ml Peso: 1,1KG De uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Lustradora roto-orbital a batería g12418ar Lustradora roto-orbital a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12418ar Lijadora roto orbital a batería g12412ar Lijadora roto orbital a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12412ar Multitool oscilante a batería g12407ar Multitool oscilante a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12407ar Taladro atornillador a batería de alto torque con percusión – Multienergy g12405ar Taladro atornillador a batería de alto torque con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12405ar 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "2fbbe8d26a056aee75522e4bfe8769d879d6d9e4ff2f6e2f6c16130c6a30db62",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-GAMMA-G12407AR",
@@ -1408,7 +1474,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "0815a092222f874972ee42946dffb25530bb2c033a895313b3af72771ac7429f",
       "status": "verificada",
       "product_ids": [
@@ -1437,7 +1503,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Multitool oscilante a batería | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Multitool oscilante a batería Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12407ar Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Dónde Comprar Características Datos Técnicos Usos Descargas Multitool oscilante con nuestro sistema Multi-energy de baterías. NO INCLUYE CARGADOR NI BATERÍA. Empuñadora ergonómica recubierta en goma para más confort. Diseño compacto y ligero. Incluye accesorios: Espátula, sierra, base con velcro, lijas. Herramienta multiuso: Corta, lija, lustra, desbasta, perfila metal. También perfila madera con el accesorio y modo correcto. Peso: 1,3KG De uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Mini electrosierra a batería g12420ar Mini electrosierra a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12420ar Pistola encoladora hot-melt a batería g12417ar Pistola encoladora hot-melt a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12417ar Taladro atornillador a batería de alto torque con percusión – Multienergy g12405ar Taladro atornillador a batería de alto torque con percusión – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12405ar Taladro atornillador a batería en kit  – Multienergy g12404kar Taladro atornillador a batería en kit  – Multienergy Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12404kar 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "0815a092222f874972ee42946dffb25530bb2c033a895313b3af72771ac7429f",
+      "source_approved_by": null,
+      "source_approved_at": null
     },
     {
       "id": "DOC-TOOL-GAMMA-G12402-1AR",
@@ -1450,7 +1519,7 @@
       "date_consulted": "2026-10-04",
       "date_reviewed": "2026-10-04",
       "verification_method": "declaracion_sistema_oficial",
-      "reviewer": "TallerLab: comprobación automática de afirmaciones configuradas",
+      "reviewer": "",
       "evidence_hash": "87cd1048da19042d696239c3929d0c0711618c64f5ec49c99fc895ebc7e535f5",
       "status": "verificada",
       "product_ids": [
@@ -1479,7 +1548,10 @@
       },
       "supporting_urls": [],
       "primary_text": "Taladro atornillador a batería con percusión - Multienergy | GAMMA Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Home Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas Manuales Herramientas de mecánica Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Productos Aparejos Arrancadores de baterías y cargadores Aspiradoras Calefactores Carros Multiuso Compresores Electrobombas de agua Equipos para pintar a soplete ESCALERAS Grupos electrógenos Herramientas a batería Herramientas a batería Multi Energy Herramientas de banco Herramientas de jardín Herramientas de pie Herramientas eléctricas portátiles Herramientas de mecánica Herramientas Manuales Herramientas Neumáticas Hidrolavadoras Hidrolavadoras Comet Motobombas Roscadoras Soldadoras Discontinuos Accesorios Garantía Servicio Técnico La Empresa Contacto Buscar × Taladro atornillador a batería con percusión – Multienergy Categories Herramientas a batería , Herramientas a batería Multi Energy Tag g12402/1ar Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Dónde Comprar Características Datos Técnicos Usos Descargas Taladro atornillador con percusión, posee nuestro sistema de baterías multi-energy Contiene: 1 cargador rápido 2.200 MAh y 1 batería 2.000 MA Empuñadora ergonómica recubierta en goma para más confort. Diseño compacto y ligero. Velocidad variable (0-1300 RPM) 2 velocidades mecánicas. Mandril autoajustable de 13mm. 21 posiciones de torque   taladro   percusión Torsión máxima: 30 Nm. Peso: 2,8KG. De uso hobbista. Descargar Ficha de Producto Descargar Manual de Producto Líneas de productos Equipo para pintar  a batería g12414ar Equipo para pintar  a batería Equipado con nuestro sistema Multi-energy que permite usar una misma batería en toda la línea de equipos disponibles, optimizando costo y beneficios. Categorías: Herramientas a batería , Herramientas a batería Multi Energy Etiqueta: g12414ar Atornillador articulado a batería de Ión Litio 3,6 Vcc G12104AR Atornillador articulado a batería de Ión Litio 3,6 Vcc Producto diseñador para atornillar, con diseño compacto y ergonómico. Categoría: Herramientas a batería Etiqueta: G12104AR Taladro Atornillador  21 Vcc G12103AR Taladro Atornillador  21 Vcc Este taladro atornillador a batería de Ión-litio ha sido diseñado para perforar y para atornillar. Categoría: Herramientas a batería Etiqueta: G12103AR Taladro Atornillador  a bateria de Ión Litio 12 Vcc G12101AR Taladro Atornillador  a bateria de Ión Litio 12 Vcc Producto diseñado para perforar y atornillar. Con mango ergonómico recubierto de goma para mayor confort. Velocidad variable, con función de avance y retroceso. Categoría: Herramientas a batería Etiqueta: G12101AR 24 meses de garantía en productos Gamma +150 centros de servicio en todo el país Más info GAMMA Máquinas cuenta con el respaldo del Grupo Simpa S.A., responsable de crear valor en todos sus procesos de distribución, logística, comercialización, y desarrollo marcario. Facebook X Instagram YouTube Oficina Comercial Complejo Lumina San Isidro Panamá 1221, Martínez Bloque 2 – Piso 2 Centro de Distribución Ruta Panamericana Km. 37.500 Ramal Campana, Centro Industrial Garín Calle Haendel s/n (esq. Mozart) (011) 4708 3400 PLANTA PILAR Av. Frondizi 2550, Parque Industrial Pilar © 2024 Grupo Simpa – Todos los derechos reservados Producido por Marketing y Comunicación Distribuidores Descarga de catálogo",
-      "supporting_documents": {}
+      "supporting_documents": {},
+      "approved_source_hash": "87cd1048da19042d696239c3929d0c0711618c64f5ec49c99fc895ebc7e535f5",
+      "source_approved_by": null,
+      "source_approved_at": null
     }
   ],
   "relations": [
@@ -1499,7 +1571,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-4AH-TOOL-BOSCH-GWS-18V-10PSC",
@@ -1517,7 +1590,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-4AH-TOOL-BOSCH-GWS-18V-10P",
@@ -1535,7 +1609,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-4AH-TOOL-BOSCH-GDX-18V-200",
@@ -1553,7 +1628,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-8AH-TOOL-BOSCH-GWS-18V-10",
@@ -1571,7 +1647,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-8AH-TOOL-BOSCH-GWS-18V-10PSC",
@@ -1589,7 +1666,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-8AH-TOOL-BOSCH-GWS-18V-10P",
@@ -1607,7 +1685,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-PROCORE-8AH-TOOL-BOSCH-GDX-18V-200",
@@ -1625,7 +1704,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-2AH-TOOL-BOSCH-GWS-18V-10",
@@ -1643,7 +1723,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-2AH-TOOL-BOSCH-GWS-18V-10PSC",
@@ -1661,7 +1742,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-2AH-TOOL-BOSCH-GWS-18V-10P",
@@ -1679,7 +1761,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-2AH-TOOL-BOSCH-GDX-18V-200",
@@ -1697,7 +1780,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-4AH-TOOL-BOSCH-GWS-18V-10",
@@ -1715,7 +1799,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-4AH-TOOL-BOSCH-GWS-18V-10PSC",
@@ -1733,7 +1818,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-4AH-TOOL-BOSCH-GWS-18V-10P",
@@ -1751,7 +1837,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-4AH-TOOL-BOSCH-GDX-18V-200",
@@ -1769,7 +1856,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-5AH-TOOL-BOSCH-GWS-18V-10",
@@ -1787,7 +1875,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-5AH-TOOL-BOSCH-GWS-18V-10PSC",
@@ -1805,7 +1894,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-5AH-TOOL-BOSCH-GWS-18V-10P",
@@ -1823,7 +1913,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-BOSCH-GBA-5AH-TOOL-BOSCH-GDX-18V-200",
@@ -1841,7 +1932,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-18V40-1600A028U0-BAT-BOSCH-PROCORE-4AH",
@@ -1859,7 +1951,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-18V40-1600A028U0-BAT-BOSCH-PROCORE-8AH",
@@ -1877,7 +1970,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-18V40-1600A028U0-BAT-BOSCH-GBA-2AH",
@@ -1895,7 +1989,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-18V40-1600A028U0-BAT-BOSCH-GBA-4AH",
@@ -1913,7 +2008,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-18V40-1600A028U0-BAT-BOSCH-GBA-5AH",
@@ -1931,7 +2027,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-1880CV-1600A015TL-BAT-BOSCH-PROCORE-4AH",
@@ -1949,7 +2046,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-1880CV-1600A015TL-BAT-BOSCH-PROCORE-8AH",
@@ -1967,7 +2065,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-1880CV-1600A015TL-BAT-BOSCH-GBA-2AH",
@@ -1985,7 +2084,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-1880CV-1600A015TL-BAT-BOSCH-GBA-4AH",
@@ -2003,7 +2103,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-BOSCH-GAL-1880CV-1600A015TL-BAT-BOSCH-GBA-5AH",
@@ -2021,7 +2122,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12490AR-TOOL-GAMMA-G12414AR",
@@ -2039,7 +2141,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12490AR-TOOL-GAMMA-G12407AR",
@@ -2057,7 +2160,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12490AR-TOOL-GAMMA-G12402-1AR",
@@ -2075,7 +2179,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12491AR-TOOL-GAMMA-G12414AR",
@@ -2093,7 +2198,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12491AR-TOOL-GAMMA-G12407AR",
@@ -2111,7 +2217,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-BAT-GAMMA-G12491AR-TOOL-GAMMA-G12402-1AR",
@@ -2129,7 +2236,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-GAMMA-G12492AR-BAT-GAMMA-G12490AR",
@@ -2147,7 +2255,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-GAMMA-G12492AR-BAT-GAMMA-G12491AR",
@@ -2165,7 +2274,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-GAMMA-G12493AR-BAT-GAMMA-G12490AR",
@@ -2183,7 +2293,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     },
     {
       "id": "REL-CHG-GAMMA-G12493AR-BAT-GAMMA-G12491AR",
@@ -2201,7 +2312,8 @@
       "derivation_method": "documentacion_primaria",
       "notes": "Identidad y pertenencia de ambos modelos y declaración oficial de sistema.",
       "date_reviewed": "2026-10-04",
-      "recommendations": []
+      "recommendations": [],
+      "content_changed_at": "2026-10-04"
     }
   ],
   "sources": [

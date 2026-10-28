@@ -1,0 +1,10 @@
+272057.1
+Compresor De Aire 25 Litros - 2.0 Hp
+Modelo: D-CA1-25-6
+Tensión: 220 V~ 50 Hz
+Potencia: 1,5 kW (2,0 HP)
+Velocidad: 2850 RPM
+Admisión De Aire: 206 L/min
+Presión Máxima: 8 Bar (0,8 MPa)
+Tanque: 25 Litros
+Consulta: 16/10/2026

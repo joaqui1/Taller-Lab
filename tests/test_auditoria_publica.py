@@ -56,6 +56,18 @@ class Contacto(unittest.TestCase):
         from paginas_institucionales import contact_markdown
         self.assertIn('/comunidad/contacto/', contact_markdown(email='', mailbox=True))
 
+    def test_contacto_muestra_email_configurado_y_menu_no_ofrece_comunidad(self):
+        from comunidad import storage as db
+        with patch.object(db, 'enabled', return_value=False), patch.dict(os.environ, {'CONTACT_EMAIL': ''}):
+            from app import app
+            response = app.test_client().get('/contacto/')
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn('tallerlabarg@gmail.com', html)
+        header = html.split('</header>', 1)[0]
+        self.assertNotIn('/comunidad/', header)
+        self.assertNotIn('<a href="/comunidad/">Comunidad</a>', html)  # cerrada: tampoco en el pie
+
 
 class IngcoSinDestacado(unittest.TestCase):
     def test_guia_inalambricos_sin_nota_de_compra_ingco(self):
@@ -65,11 +77,15 @@ class IngcoSinDestacado(unittest.TestCase):
     def test_fuente_ingco_no_se_presenta_como_oficial(self):
         data = json.loads((ROOT / 'tallerlab_data' / 'data' / 'catalog_snapshot.json').read_text(encoding='utf-8'))
         tool = next(t for t in data['tools'] if t['slug'] == 'ingco-cidli20668-4')
-        texto = json.dumps(tool, ensure_ascii=False)
-        self.assertNotIn('Ficha oficial', texto)
-        self.assertNotIn('ficha del fabricante"', texto)
-        self.assertNotIn('2.0 Ah', texto)
-        self.assertIn('Ah sin confirmar', texto)
+        # Desde la ficha oficial INGCO Argentina, solo esa URL puede llamarse oficial;
+        # los datos tomados de comercios siguen sin presentarse como del fabricante.
+        for source in tool['primary_sources']:
+            if 'oficial' in source['label'].lower():
+                self.assertTrue(source['url'].startswith('https://ar.ingco.com/'), source)
+        for spec in tool['specs'].values():
+            if spec['source_type'] == 'comercio':
+                self.assertNotIn('oficial', spec['source_name'].lower())
+                self.assertIn('no es documentación del fabricante', spec['condition'])
 
 
 class IndexacionDeSeccionesCerradas(unittest.TestCase):
@@ -98,14 +114,40 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
             self.assertNotIn('/comunidad/', self.locs())
 
     def test_menu_sin_comunidad_mientras_esta_cerrada(self):
-        import contenido_publico
-        link = contenido_publico.COMMUNITY_NAV_LINK
-        with patch.object(contenido_publico, 'community_open', return_value=False):
+        from comunidad import storage as db
+        with patch.object(db, 'enabled', return_value=False):
             html = self.site.render_editorial_page('contacto')
-            self.assertNotIn(link, html)
-            self.assertIn('<a href="/comunidad/">Comunidad</a>', html)  # sigue en el pie
-        with patch.object(contenido_publico, 'community_open', return_value=True):
-            self.assertIn(link, self.site.render_editorial_page('contacto'))
+        header = html.split('</header>', 1)[0]
+        self.assertNotIn('/comunidad/', header)
+        self.assertNotIn('<a href="/comunidad/">Comunidad</a>', html)  # cerrada: tampoco en el pie
+
+    def test_criterios_de_comunidad_noindex_y_fuera_del_sitemap_mientras_esta_cerrada(self):
+        from comunidad import components as cc, storage as db
+        from app import app
+        with patch.object(db, 'enabled', return_value=False), patch.object(db, 'overview_or_none', return_value=None):
+            self.assertIn('/comunidad/criterios/', cc.community_sitemap_excluded())
+            self.assertNotIn('/comunidad/criterios/', self.locs())
+            html = app.test_client().get('/comunidad/criterios/').get_data(as_text=True)
+            self.assertIn('noindex', html.split('</head>', 1)[0])
+        with patch.object(db, 'enabled', return_value=True), patch.object(db, 'overview_or_none', return_value=None):
+            self.assertEqual(cc.community_sitemap_excluded(), {'/comunidad/'})
+            html = app.test_client().get('/comunidad/criterios/').get_data(as_text=True)
+            self.assertNotIn('noindex', html.split('</head>', 1)[0])
+
+
+class AfiliacionEIdioma(unittest.TestCase):
+    def test_metodologia_declara_que_la_comision_no_decide_el_ganador(self):
+        import servidor_local as site
+        html = site.render_editorial_page('metodologia')
+        seccion = html.split('<h2 id="afiliacion">Afiliación</h2>', 1)[1].split('<h2', 1)[0]
+        self.assertIn('puede recibir una comisión', seccion)
+        self.assertIn('La comisión no convierte al producto en ganador', seccion)
+
+    def test_paginas_en_espanol_de_argentina(self):
+        import servidor_local as site
+        html = site.render_editorial_page('contacto')
+        self.assertIn('<html lang="es-AR">', html)
+        self.assertNotIn('<html lang="es">', html)
 
 
 class PerfilDeAutor(unittest.TestCase):

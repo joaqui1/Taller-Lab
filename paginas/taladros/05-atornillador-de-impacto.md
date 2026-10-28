@@ -66,7 +66,7 @@ Las puntas para impacto están diseñadas para resistir las cargas de esa herram
 | Modelo documentado | Categoría y encastre | Control o especificación destacada | Para qué compararlo |
 | :--- | :--- | :--- | :--- |
 | Bosch GDR 18V-200 | Atornillador de impacto; hexagonal de 1/4 in | 200 Nm máximo; gatillo variable; hasta 3.400 rpm | Atornillado repetitivo con puntas hexagonales. |
-| DeWalt DCF887 | Atornillador de impacto; hexagonal de 1/4 in | 205 Nm máximo; modos publicados de 27 / 170 / 205 Nm | Cuando importa elegir entre modo de precisión y modos más potentes. |
+| DeWalt DCF887 | Atornillador de impacto; hexagonal de 1/4 in | 205 Nm máximo; modos publicados de 27 / 170 / 205 Nm | Cuando importa elegir entre modo de precisión y modos más potentes. [Ver precio del DCF887B · herramienta sola](https://meli.la/1hh4SkK){:target="_blank" rel="sponsored nofollow noopener noreferrer" .btn-mercado-libre} |
 | Bosch GDS 18V-400 | Llave de impacto; cuadrado de 1/2 in | 400 Nm máximo de apriete y 650 Nm máximo en reversa, según catálogo Bosch | Tuercas y pernos que requieren dados; no es el modelo de puntas hexagonales. |
 | Bosch GDX 18V-200 | Híbrido atornillador/llave; hexagonal de 1/4 in y cuadrado macho de 1/2 in | 200 Nm de apriete y 350 Nm de arranque, publicados por Bosch | Si alternás puntas hexagonales y dados de 1/2 in y te sirve una interfaz 2 en 1. |
 

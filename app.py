@@ -5,12 +5,15 @@ from datetime import timedelta
 import os
 import secrets
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from flask import Flask, Response, redirect, request, send_from_directory
 
 from servidor_local import (
     ALL_ARTICLES,
     AUTHOR_PATH,
+    REVIEWERS_PATH,
+    AUTHORITY_PAGE_PATHS,
     ASSETS_DIR,
     CATEGORY_META,
     ALERTAS_PATHS,
@@ -25,11 +28,23 @@ from servidor_local import (
     generate_study_csv,
     render_alertas_page,
     render_article_page,
+    render_authority_page,
+    render_manufacturer_responses_csv,
+    render_calculator_embed,
+    render_calculator_page,
+    CALCULATOR_PATHS,
+    CALCULATOR_EMBED_PATHS,
+    MANUFACTURER_CSV_PATH,
     render_category_page,
     render_compatibility_page,
     render_tallerlab_data_page,
     render_home_page,
     render_editorial_page,
+    render_reviewer_page,
+    GLOSSARY_HUB_PATH,
+    render_glossary_page,
+    canonical_tag,
+    absolute_url,
     render_not_found,
     render_observatory_page,
     render_relevamiento_view,
@@ -39,6 +54,7 @@ from servidor_local import (
     track_event,
     validate_affiliate_click,
     MaintenancePipeline,
+    authority_page_is_published,
 )
 from relevamiento_piloto import (
     ADMIN_KEY as RELEVAMIENTO_ADMIN_KEY,
@@ -74,9 +90,12 @@ def serve_free_observatory():
     if request.method in ('GET', 'HEAD') and target:
         response = send_from_directory(target.parent, target.name)
         response.headers['Cache-Control'] = 'public, max-age=300, must-revalidate'
-        if target.name in ('descargar-csv', 'historial.csv'):
+        if request.path.startswith('/embed/precio/'):
+            response.headers['X-Robots-Tag'] = 'noindex, follow'
+            response.headers['Content-Security-Policy'] = 'frame-ancestors *'
+        if target.name in ('descargar-csv', 'historial.csv') or target.suffix.lower() == '.csv':
             response.headers['Content-Type'] = 'text/csv; charset=utf-8'
-            response.headers['Content-Disposition'] = 'attachment; filename="precios-herramientas.csv"'
+            response.headers['Content-Disposition'] = f'attachment; filename="{target.name if target.suffix.lower() == ".csv" else "precios-herramientas.csv"}"'
         return response
 
 @app.before_request
@@ -112,7 +131,7 @@ ANALYTICS_SNIPPET = (b'<script>window.va=window.va||function(){(window.vaq=windo
 def vercel_web_analytics(response):
     """Vercel Web Analytics (sin cookies). Activar en el panel de Vercel y definir VERCEL_WEB_ANALYTICS=1."""
     if (os.environ.get('VERCEL_WEB_ANALYTICS') == '1' and response.status_code == 200 and response.mimetype == 'text/html'
-            and not response.direct_passthrough and not request.path.startswith(('/comunidad/admin', '/api/'))):
+            and not response.direct_passthrough and not request.path.startswith(('/comunidad/admin', '/api/', '/embed/'))):
         body = response.get_data()
         if b'/_vercel/insights/script.js' not in body and b'</body>' in body:
             response.set_data(body.replace(b'</body>', ANALYTICS_SNIPPET + b'</body>', 1))
@@ -191,6 +210,16 @@ def tallerlab_data_csv():
     )
 
 
+@app.route("/herramientas/investigacion/grafico-cobertura.svg", methods=["GET"])
+def tallerlab_data_coverage_chart():
+    from tallerlab_data.views import render_research_study_coverage_svg
+    return Response(
+        render_research_study_coverage_svg(),
+        content_type="image/svg+xml; charset=utf-8",
+        headers={"Content-Disposition": 'attachment; filename="tallerlab-grafico-cobertura.svg"'},
+    )
+
+
 @app.route('/herramientas/investigacion/descargar-datos.json', methods=['GET'])
 def tallerlab_data_json():
     from tallerlab_data.documentary import export_snapshot
@@ -214,8 +243,11 @@ def compatibility_event():
         return Response(status=400)
     try:
         data = json.loads(payload)
+        event_type = data.get("event_type", "")
+        if event_type == "alert_search_no_result":
+            return Response(status=400)
         track_event(
-            event_type=data.get("event_type", ""),
+            event_type=event_type,
             query_text=data.get("query_text"),
             model_a=data.get("model_a"),
             model_b=data.get("model_b"),
@@ -354,6 +386,20 @@ def observatory_status():
 def page(path):
     url_path = "/" + path
 
+    if url_path == MANUFACTURER_CSV_PATH:
+        if not authority_page_is_published("/fabricantes/respuestas/"):
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+        return Response(render_manufacturer_responses_csv(), content_type="text/csv; charset=utf-8", headers={"Content-Disposition": 'attachment; filename="tallerlab-consultas-fabricantes.csv"', "X-Robots-Tag": "noindex, nofollow"})
+
+    if url_path in CALCULATOR_EMBED_PATHS:
+        if request.method == "GET":
+            referrer = request.referrer or ""
+            source_domain = urlsplit(referrer).hostname or ""
+            track_event(event_type="calculator_embed_loaded", source_domain=source_domain)
+        return Response(render_calculator_embed(url_path.strip("/").split("/")[-1]), content_type="text/html; charset=utf-8", headers={"X-Robots-Tag": "noindex, follow", "Content-Security-Policy": "frame-ancestors *"})
+    if url_path == "/calculadoras/" or url_path in CALCULATOR_PATHS:
+        return Response(render_calculator_page(url_path), content_type="text/html; charset=utf-8")
+
     if url_path == "/robots.txt":
         return Response(render_robots(), content_type="text/plain; charset=utf-8")
     if url_path == "/sitemap.xml":
@@ -378,8 +424,28 @@ def page(path):
     if url_path == "/":
         html = render_home_page()
 
+    elif url_path in AUTHORITY_PAGE_PATHS:
+        html = render_authority_page(url_path)
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+
+    elif url_path == GLOSSARY_HUB_PATH or url_path.startswith(GLOSSARY_HUB_PATH):
+        html = render_glossary_page(
+            url_path,
+            canonical_tag=canonical_tag,
+            absolute_url=absolute_url,
+        )
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+
+    elif url_path == REVIEWERS_PATH or url_path.startswith(REVIEWERS_PATH):
+        html = render_reviewer_page(url_path)
+        if html is None:
+            return Response(render_not_found(url_path), status=404, content_type="text/html; charset=utf-8")
+
     elif url_path in ALERTAS_PATHS:
-        html = render_alertas_page(url_path)
+        search_query = request.args.get("q", "") if url_path == "/alertas/" else ""
+        html = render_alertas_page(url_path, search_query)
     elif url_path == COMPATIBILITY_SEARCH_PATH:
         return Response(
             render_compatibility_page(url_path, request.args),

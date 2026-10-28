@@ -1704,7 +1704,7 @@ def render_metodologia_page() -> str:
       </nav>
 
       <header style="margin-bottom: 2rem;">
-        <div style="font-size: 0.8rem; font-weight: 800; color: var(--orange); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;">
+        <div style="font-size: 0.8rem; font-weight: 800; color: #b93d00; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;">
           Documento Editorial y Estadístico
         </div>
         <h1 style="font-size: 1.9rem; font-weight: 800; line-height: 1.25; margin-bottom: 0.75rem; color: var(--text);">

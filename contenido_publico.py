@@ -1,6 +1,7 @@
 """Redacción pública sin notas administrativas de enlaces o tareas internas."""
 import re
 from html.parser import HTMLParser
+from html import escape
 from urllib.parse import urlsplit
 
 
@@ -12,6 +13,14 @@ def es_enlace_afiliado(url):
                 and re.fullmatch(r'/[A-Za-z0-9]+', parsed.path) is not None)
     except ValueError:
         return False
+
+
+def _antes_del_pie(html, fragmento):
+    """Inserta en el pie del sitio: el último </footer>, no los <footer> internos del contenido."""
+    inicio, separador, fin = html.rpartition('</footer>')
+    if not separador:
+        return html
+    return f'{inicio}{fragmento}\n  </footer>{fin}'
 
 
 class _AtributosEnlace(HTMLParser):
@@ -36,7 +45,6 @@ def quitar_enlaces_compra_sin_afiliacion(html):
     return re.sub(r'<div\b[^>]*class="offer-actions"[^>]*>\s*</div>', '', html)
 
 REPLACEMENTS = {
-    'Afiliación y correcciones': 'Correcciones',
     'Dos publicaciones afiliadas: primero cerrar la potencia nominal': 'Dos opciones por potencia y uso',
     'Ofertas argentinas pendientes de verificación': 'Publicaciones comerciales en Argentina',
     'La publicación afiliada pendiente no identifica esta variante; este enlace es a la ficha del código exacto.': 'Ficha del código exacto 9.398-295.0.',
@@ -59,8 +67,6 @@ REPLACEMENTS = {
     'Foto y ficha del fabricante; enlace suministrado por el usuario': 'Foto y ficha del fabricante',
     'Publicaciones con enlace de afiliado': 'Opciones de compra',
     'Opciones con enlace de afiliado': 'Opciones de compra',
-    'Algunos enlaces comerciales son de afiliado y pueden atribuir una compra a TallerLab; el sitio no recibe tus datos de pago.': 'El servicio externo puede atribuir una compra a TallerLab mediante el enlace; el sitio no recibe tus datos de pago.',
-    'Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab.': 'Fuentes, variables de comparación, precios, opiniones y revisión documental de TallerLab.',
 }
 
 def limpiar_contenido_publico(html):
@@ -76,29 +82,60 @@ def limpiar_contenido_publico(html):
     html=re.sub(r'TallerLab puede recibir una comisión por los enlaces de afiliado[^.]*\.', '', html)
     html=html.replace('Enlaces comerciales suministrados por el usuario.', '')
     html=html.replace('; no se verificó su contenido actual', '')
-    # La página metodológica conserva su política de correcciones.
-    html=re.sub(r'Cuando una opción encaja con el uso y tiene documentación suficiente, priorizamos ofrecer su enlace de afiliado\..*?las búsquedas generales no llevan esa etiqueta\.', '', html, flags=re.S)
     html=html.replace('publicación afiliada', 'publicación').replace('referencia afiliada', 'publicación')
     html=re.sub(r'<p\b[^>]*>\s*(?:<em>\s*</em>)?\s*</p>', '', html)
     return html
 
-COMMUNITY_NAV_LINK = '<a href="/comunidad/" class="nav-btn">Comunidad</a>'
 
-
-def community_open():
-    try:
-        from comunidad import storage
-        return bool(storage.enabled())
-    except Exception:
-        return False
+FOOTER_COMMUNITY_LINK = '<a href="/comunidad/">Comunidad</a> · '
 
 
 def apply_community_nav(html):
-    """La comunidad solo ocupa lugar en el menú principal cuando acepta participación;
-    mientras está cerrada sigue enlazada desde el pie de página."""
-    if community_open():
-        return html
-    return html.replace('\n        ' + COMMUNITY_NAV_LINK, '', 1)
+    """Muestra Comunidad en los menús y el pie solo cuando la participación está habilitada."""
+    try:
+        from comunidad import storage
+        if not storage.enabled():
+            return html.replace(FOOTER_COMMUNITY_LINK, '')
+    except Exception:
+        return html.replace(FOOTER_COMMUNITY_LINK, '')
+
+    def add_link_to_menu(match):
+        def with_community(anchor_match):
+            attributes = anchor_match.group("attributes") or ""
+            return anchor_match.group(0) + f'<a href="/comunidad/"{attributes}>Comunidad</a>'
+
+        body = re.sub(
+            r'<a href="/datos/precios-herramientas-argentina/"(?P<attributes>[^>]*)>Precios</a>',
+            with_community,
+            match.group("body"),
+        )
+        return match.group("opening") + body + match.group("closing")
+
+    for menu_pattern in (
+        r'(?P<opening><nav aria-label="Menú de navegación">)(?P<body>.*?)(?P<closing></nav>)',
+        r'(?P<opening><nav class="nav-links">)(?P<body>.*?)(?P<closing></nav>)',
+    ):
+        html = re.sub(menu_pattern, add_link_to_menu, html, flags=re.S)
+    return html
+
+
+def _tiene_enlace_afiliado_publicado(html):
+    """Detecta enlaces patrocinados de Mercado Libre en el HTML final de una página."""
+    for match in re.finditer(r'<a\b[^>]*>', html, flags=re.I):
+        parser = _AtributosEnlace()
+        parser.feed(match.group(0))
+        attrs = getattr(parser, 'attrs', {})
+        href = attrs.get('href') or ''
+        rel = set((attrs.get('rel') or '').lower().split())
+        try:
+            host = urlsplit(href).hostname or ''
+        except ValueError:
+            continue
+        host = host.lower().rstrip('.')
+        mercado_libre = host == 'meli.la' or host == 'mercadolibre.com.ar' or host.endswith('.mercadolibre.com.ar')
+        if mercado_libre and 'sponsored' in rel:
+            return True
+    return False
 
 
 class PublicTemplate(str):
@@ -106,4 +143,24 @@ class PublicTemplate(str):
         for key in ('CONTENT','PAGE_DESC'):
             if isinstance(kwargs.get(key),str):
                 kwargs[key]=limpiar_contenido_publico(kwargs[key])
-        return apply_community_nav(super().format(*args,**kwargs))
+        html = super().format(*args,**kwargs)
+        html = apply_community_nav(html)
+        from publicaciones_autoridad import footer_authority_links
+        authority_links = footer_authority_links()
+        if authority_links:
+            html = _antes_del_pie(html, f'<p class="footer-authority-links">{authority_links}</p>')
+        from servidor_local import REVIEWERS_PATH, public_reviewers
+        if public_reviewers():
+            reviewer_link = f'<p class="footer-reviewer-link"><a href="{REVIEWERS_PATH}">Equipo de revisión</a></p>'
+            html = _antes_del_pie(html, reviewer_link)
+        from paginas_institucionales import contact_email
+        email = contact_email()
+        if email:
+            address = escape(email)
+            link = f'<p class="footer-email"><a href="mailto:{escape(email, quote=True)}">{address}</a></p>'
+            html = _antes_del_pie(html, link)
+        if _tiene_enlace_afiliado_publicado(html) and 'class="footer-affiliate-disclosure"' not in html:
+            disclosure = ('<p class="footer-affiliate-disclosure">Podemos recibir una comisión si comprás desde estos enlaces. '
+                          '<a href="/como-trabajamos/#afiliacion">Cómo funciona la afiliación</a>.</p>')
+            html = _antes_del_pie(html, disclosure)
+        return html

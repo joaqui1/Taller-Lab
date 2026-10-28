@@ -7,6 +7,8 @@
       "domain": "lusqtoffmegastore.com.ar",
       "home": "https://lusqtoffmegastore.com.ar/",
       "robots": "https://lusqtoffmegastore.com.ar/robots.txt",
+      "official": false,
+      "official_brand": null,
       "access_reviewed_at": "2026-10-04",
       "note": "Páginas de producto públicas; revisión de robots antes de cada captura."
     },
@@ -16,6 +18,8 @@
       "home": "https://tiendadgm.com.ar/",
       "robots": "https://tiendadgm.com.ar/robots.txt",
       "terms": "https://tiendadgm.com.ar/terminos",
+      "official": false,
+      "official_brand": null,
       "access_reviewed_at": "2026-10-04",
       "note": "Se consulta la tienda propia. No se consulta Mercado Libre."
     },
@@ -24,6 +28,8 @@
       "domain": "www.bulonfer.com",
       "home": "https://www.bulonfer.com/",
       "robots": "https://www.bulonfer.com/robots.txt",
+      "official": false,
+      "official_brand": null,
       "access_reviewed_at": "2026-10-04",
       "note": "Solo la ficha pública /p; sin búsquedas ni checkout."
     }

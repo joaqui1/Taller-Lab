@@ -12,7 +12,7 @@ from unittest.mock import patch, Mock
 
 from bs4 import BeautifulSoup
 from observatorio.gratuito import collect, extract_public_product, atomic_json, MANIFEST, DEFAULT_HISTORY
-from observatorio.estatico import build_site, snapshot, current_state, HUB, METHOD, CATEGORIES
+from observatorio.estatico import build_site, snapshot, current_state, HUB, METHOD, CATEGORIES, model_path
 
 
 def fixture(source='megastore', price='123456.20', visible='$ 123.456,20', stock='InStock', currency='ARS'):
@@ -69,21 +69,108 @@ class FreeObservatoryTests(unittest.TestCase):
         now=datetime.now(timezone.utc)
         observation={'observed_at':(now-timedelta(hours=1)).isoformat(),'availability':'disponible'}
         self.assertEqual(current_state(observation,{},now),'disponible')
+        observation['observed_at']=(now-timedelta(hours=48)).isoformat()
+        self.assertEqual(current_state(observation,{},now),'disponible')
+        observation['observed_at']=(now-timedelta(hours=48, seconds=1)).isoformat()
+        self.assertEqual(current_state(observation,{},now),'vencido')
         self.assertEqual(current_state(observation,{'status':'error','observed_at':now.isoformat()},now),'error')
         observation['observed_at']=(now-timedelta(hours=49)).isoformat()
         self.assertEqual(current_state(observation,{},now),'vencido')
         observation['observed_at']=(now+timedelta(hours=1)).isoformat()
         self.assertEqual(current_state(observation,{},now),'vencido')
 
+    def test_price_embed_shows_only_fresh_available_prices(self):
+        from observatorio.estatico import render_price_embed, price_embed_path
+        now = datetime.now(timezone.utc)
+        _, model, _ = fixture()
+        model['model'] = 'X1 actualizado'
+        source = {'name': 'Mega Store', 'official': False}
+        series = [
+            {'model_id': model['id'], 'observed_at': (now-timedelta(days=31)).isoformat(),
+             'availability': 'disponible', 'price_ars': '90000.00'},
+            {'model_id': model['id'], 'observed_at': (now-timedelta(days=15)).isoformat(),
+             'availability': 'disponible', 'price_ars': '100000.00'},
+            {'model_id': model['id'], 'observed_at': (now-timedelta(hours=1)).isoformat(),
+             'availability': 'disponible', 'price_ars': '123456.20'},
+        ]
+        row = snapshot({'observations': series, 'latest_attempts': {}}, {'models': [model]}, now)[0]
+        path = price_embed_path(model)
+        html = render_price_embed(row, source, 'https://www.tallerlab.com.ar/history/',
+                                  'https://www.tallerlab.com.ar' + path, now)
+        soup = BeautifulSoup(html, 'html.parser')
+        self.assertIn('$ 123.456,20', soup.select_one('.price').text)
+        self.assertIn('Mega Store', soup.select_one('.source').text)
+        from observatorio.estatico import stamp
+        self.assertIn(stamp(series[-1]['observed_at']), soup.select_one('.source').text)
+        self.assertIsNotNone(soup.select_one('svg polyline'))
+        from observatorio.estatico import day
+        self.assertNotIn(day((now-timedelta(days=31)).isoformat()), soup.select_one('svg').text)
+        self.assertEqual(soup.select_one('a').text, 'Historial completo en TallerLab ↗')
+        self.assertLess(len(html.encode('utf-8')), 30 * 1024)
+        self.assertEqual(soup.select_one('meta[name=robots]')['content'], 'noindex,follow')
+        self.assertFalse(soup.select('script, link[rel=stylesheet]'))
+
+        expired = [{'model_id': model['id'], 'observed_at': (now-timedelta(hours=49)).isoformat(),
+                    'availability': 'disponible', 'price_ars': '123456.20'}]
+        stale_row = snapshot({'observations': expired, 'latest_attempts': {}}, {'models': [model]}, now)[0]
+        stale_html = render_price_embed(stale_row, source, 'https://www.tallerlab.com.ar/history/',
+                                        'https://www.tallerlab.com.ar' + path, now)
+        stale_soup = BeautifulSoup(stale_html, 'html.parser')
+        self.assertEqual(stale_soup.select_one('.price').text, 'Sin precio vigente')
+        self.assertNotIn('$ 123.456,20', stale_soup.select_one('.price').text)
+        self.assertEqual(stale_row['state'], 'vencido')
+
+        sold_out = [{'model_id': model['id'], 'observed_at': (now-timedelta(hours=1)).isoformat(),
+                     'availability': 'agotado', 'price_ars': None}]
+        sold_row = snapshot({'observations': sold_out, 'latest_attempts': {}}, {'models': [model]}, now)[0]
+        sold_html = render_price_embed(sold_row, source, 'https://www.tallerlab.com.ar/history/',
+                                       'https://www.tallerlab.com.ar' + path, now)
+        self.assertIn('Sin precio vigente', BeautifulSoup(sold_html, 'html.parser').select_one('.price').text)
+
+    def test_price_embeds_are_generated_outside_the_sitemap(self):
+        from observatorio.estatico import expected_price_embed_paths
+        manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp)
+            summary = build_site(DEFAULT_HISTORY, output)
+            embeds = expected_price_embed_paths()
+            self.assertEqual(len(embeds), len(manifest['models']))
+            self.assertTrue(all(path not in summary['routes'] for path in embeds))
+            sitemap = (output / 'sitemap.xml').read_text(encoding='utf-8')
+            self.assertNotIn('/embed/precio/', sitemap)
+            for path in embeds:
+                target = output / path.strip('/') / 'index.html'
+                self.assertTrue(target.is_file())
+                self.assertLess(target.stat().st_size, 30 * 1024)
+            model = manifest['models'][0]
+            page = BeautifulSoup((output / model_path(model).strip('/') / 'index.html').read_text(encoding='utf-8'), 'html.parser')
+            self.assertFalse(page.select('iframe'))
+            insert = page.select_one('#insertar-historial')
+            self.assertEqual(insert.select_one('summary').text.strip().replace('＋', '').strip(), 'Insertar este historial')
+            code = insert.select_one('textarea').text
+            self.assertIn('<iframe src="https://www.tallerlab.com.ar/embed/precio/', code)
+            self.assertIn('<p>Fuente: <a href="https://www.tallerlab.com.ar/datos/precios/', code)
+            self.assertIsNotNone(insert.select_one('.embed-attribution a[href^="https://www.tallerlab.com.ar/"]'))
+            self.assertIsNotNone(insert.select_one('.embed-attribution a[href="https://creativecommons.org/licenses/by/4.0/deed.es"]'))
+
     def test_catalog_and_initial_data_are_real_and_complete(self):
         manifest=json.loads(MANIFEST.read_text(encoding='utf-8'));history=json.loads(DEFAULT_HISTORY.read_text(encoding='utf-8'))
         self.assertTrue(40<=len(manifest['models'])<=50)
+        self.assertTrue(all(source.get('official') is False for source in manifest['sources'].values()))
         self.assertEqual(len({m['id'] for m in manifest['models']}),len(manifest['models']))
         self.assertEqual(set(CATEGORIES),{m['category'] for m in manifest['models']})
         self.assertEqual(set(history['latest_attempts']),{m['id'] for m in manifest['models']})
         self.assertTrue(all(len(o['evidence_sha256'])==64 for o in history['observations']))
         self.assertTrue(all(o['extractor_version']=='gratuito-1.0' for o in history['observations']))
         self.assertNotIn('feed_importer',json.dumps(history))
+
+    def test_source_attribution_mentions_official_status_only_when_configured(self):
+        from observatorio.estatico import source_publication
+        captured = '2026-10-04T15:00:00+00:00'
+        plain = source_publication({'name': 'Comercio', 'official': False, 'official_brand': 'Marca'}, captured)
+        official = source_publication({'name': 'Comercio', 'official': True, 'official_brand': 'Marca'}, captured)
+        self.assertEqual(plain, 'Precio publicado por Comercio el 04/10/2026 · 12:00 ART')
+        self.assertEqual(official, 'Precio publicado por Comercio, tienda oficial de Marca el 04/10/2026 · 12:00 ART')
 
     def test_daily_idempotency_and_failure_preserves_history(self):
         html,m,_=fixture()
@@ -159,6 +246,9 @@ class FreeObservatoryTests(unittest.TestCase):
             self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex, follow')
             self.assertFalse((output/'sitemap.xml').exists())
             self.assertEqual(len(summary['routes']),9+44)
+            self.assertNotIn('/datos/precios/informes/',summary['routes'])
+            reports=BeautifulSoup((output/'datos/precios/informes/index.html').read_text(encoding='utf-8'),'html.parser')
+            self.assertEqual(reports.select_one('meta[name=robots]')['content'],'noindex, follow')
             links=[a['href'] for a in soup.select('.product h3 a')];self.assertEqual(len(links),44)
             for link in links:self.assertTrue((output/link.removeprefix('/Taller-Lab/')/'index.html').is_file())
             for category in CATEGORIES:
@@ -182,6 +272,7 @@ class FreeObservatoryTests(unittest.TestCase):
             self.assertEqual(types,['Dataset','BreadcrumbList'])
             self.assertTrue(soup.select('.model-context a[href^="https://www.tallerlab.com.ar/compresores/"]'))
             sitemap=(output/'sitemap.xml').read_text(encoding='utf-8');self.assertEqual(sitemap.count('<loc>'),53)
+            self.assertNotIn('/datos/precios/informes/',sitemap)
             descriptions={BeautifulSoup((output/p.strip('/')/'index.html').read_text(encoding='utf-8'),'html.parser').select_one('meta[name=description]')['content'] for p in summary['routes']}
             self.assertEqual(len(descriptions),len(summary['routes']))
         series=[{'observed_at':f'2026-10-{d:02d}T12:00:00+00:00','availability':'disponible','price_ars':f'{100000+d*1000}.00'} for d in range(1,21)]
@@ -189,6 +280,39 @@ class FreeObservatoryTests(unittest.TestCase):
         stats=price_stats(series);self.assertEqual(stats['n'],20);self.assertEqual(verdict(row,stats)[0],'above')
         self.assertEqual(verdict(dict(row,series=series[:5]),price_stats(series[:5]))[0],'collecting')
         self.assertIn('<polyline',chart_svg(series,'x'))
+
+    def test_generated_pages_link_only_affiliated_mercado_libre_not_merchants(self):
+        from urllib.parse import urlsplit
+        from observatorio.estatico import AFFILIATES_PATH
+        affiliate_table = json.loads(AFFILIATES_PATH.read_text(encoding='utf-8'))['models']
+        by_price_path = {entry['price_path']: entry for entry in affiliate_table.values() if entry.get('price_path')}
+        manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp)
+            summary = build_site(DEFAULT_HISTORY, output)
+            linked_model = next(m for m in manifest['models'] if m['id'] == 'lusqtoff-lc2550b8')
+            unlinked_model = next(m for m in manifest['models'] if model_path(m) not in by_price_path)
+            pages = [(path, BeautifulSoup((output / path.strip('/') / 'index.html').read_text(encoding='utf-8'), 'html.parser'))
+                     for path in summary['routes']]
+            affiliate_links = []
+            source_domains = {source['domain'].lower() for source in manifest['sources'].values()}
+            page_soups = dict(pages)
+            for path, soup in pages:
+                for anchor in soup.select('a[href]'):
+                    parsed = urlsplit(anchor['href'])
+                    host = (parsed.hostname or '').lower()
+                    self.assertFalse(any(host == domain or host.endswith('.' + domain) for domain in source_domains),
+                                     f'Enlace a comercio en {path}: {anchor["href"]}')
+                    if host == 'meli.la':
+                        affiliate_links.append((path, anchor))
+                        self.assertEqual(set(anchor.get('rel', [])), {'sponsored', 'nofollow', 'noopener'})
+                        self.assertIn('Podemos recibir una comisión si comprás desde este enlace', anchor.parent.get_text(' ', strip=True))
+                self.assertNotRegex(str(soup), r'https?://(?:www\.)?(?:lusqtoffmegastore\.com\.ar|tiendadgm\.com\.ar|bulonfer\.com)')
+            self.assertEqual({path for path, _ in affiliate_links}, set(by_price_path))
+            self.assertEqual(len(affiliate_links), len(by_price_path))
+            linked_page = page_soups[model_path(linked_model)]
+            self.assertEqual(len(linked_page.select('a[href^="https://meli.la/"]')), 1)
+            self.assertEqual(len(page_soups[model_path(unlinked_model)].select('a[href^="https://meli.la/"]')), 0)
 
     def test_build_requires_all_pages_and_downloads(self):
         from observatorio.estatico import verify_publication
@@ -254,7 +378,7 @@ class FreeObservatoryTests(unittest.TestCase):
     @unittest.skipUnless(__import__('importlib.util').util.find_spec('flask'), 'Flask no instalado')
     def test_all_routes_work_with_only_serverless_copy_and_missing_page_is_not_indexed(self):
         import app as module
-        from observatorio.estatico import published_observatory_paths
+        from observatorio.estatico import published_observatory_paths, expected_price_embed_paths
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             summary = build_site(DEFAULT_HISTORY, root/'public', standalone=False)
@@ -267,6 +391,13 @@ class FreeObservatoryTests(unittest.TestCase):
                         self.assertEqual(response.status_code, 200)
                         soup = BeautifulSoup(response.get_data(as_text=True), 'html.parser')
                         self.assertEqual(soup.select_one('link[rel=canonical]')['href'], 'https://www.tallerlab.com.ar'+path)
+                embed_path = expected_price_embed_paths()[0]
+                with client.get(embed_path) as response:
+                    self.assertEqual(response.status_code, 200)
+                    self.assertEqual(response.headers.get('X-Robots-Tag'), 'noindex, follow')
+                    self.assertEqual(response.headers.get('Content-Security-Policy'), 'frame-ancestors *')
+                    self.assertNotIn('Set-Cookie', response.headers)
+                    self.assertEqual(BeautifulSoup(response.get_data(as_text=True), 'html.parser').select_one('meta[name=robots]')['content'], 'noindex,follow')
                 missing = summary['routes'][-1]
                 (root/'observatorio_publicado'/missing.strip('/')/'index.html').unlink()
                 self.assertNotIn(missing, published_observatory_paths())

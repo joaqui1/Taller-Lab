@@ -69,6 +69,73 @@ PENDING_CANDIDATES = [
 
 INITIAL_CORRECTIONS = [
     {
+        "date": "2026-10-16", "tool_slug": "bta-25-litros", "field_affected": "codigo_modelo",
+        "old_value": "823125", "new_value": "272057.1 / D-CA1-25-6",
+        "reason": "La ficha oficial BTA consultada identifica el equipo de 25 L por el código 272057.1 y el modelo D-CA1-25-6. El registro de semilla citaba una página genérica de compresores que el archivo documental registra como no recuperada; no hay respaldo conservado para 823125.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-25-litros", "field_affected": "potencia_motor",
+        "old_value": "2,0 HP (1500 W)", "new_value": "1,5 kW (2,0 HP)",
+        "reason": "La ficha oficial del 272057.1 / D-CA1-25-6 declara 1,5 kW (2,0 HP).",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-25-litros", "field_affected": "caudal_admision",
+        "old_value": "145 L/min aspirado", "new_value": "206 L/min; admisión de aire, no indica salida a presión de trabajo",
+        "reason": "La ficha BTA del código 272057.1 declara «Admisión De Aire 206 L/min». No publica FAD ni caudal de salida a presión de trabajo.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-25-litros", "field_affected": "presion_maxima",
+        "old_value": "8 bar (115 PSI)", "new_value": "8 bar (0,8 MPa)",
+        "reason": "La ficha oficial BTA del 272057.1 declara presión máxima de 8 Bar (0,8 MPa).",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-25-litros", "field_affected": "velocidad",
+        "old_value": "Sin observación separada", "new_value": "2850 RPM",
+        "reason": "Se añade la observación separada que publica la ficha oficial para el modelo D-CA1-25-6.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-50-litros", "field_affected": "codigo_modelo",
+        "old_value": "823150", "new_value": "272057.2 / D-CA2-50-6",
+        "reason": "La ficha oficial BTA identifica el equipo de 50 L por el código 272057.2 y el modelo D-CA2-50-6. La semilla citaba una página genérica que el archivo documental registra como no recuperada; no hay respaldo conservado para 823150.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-50-litros", "field_affected": "potencia_motor",
+        "old_value": "2,5 HP", "new_value": "1,5 kW (2,0 HP)",
+        "reason": "La ficha oficial del 272057.2 / D-CA2-50-6 declara 1,5 kW (2,0 HP).",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-50-litros", "field_affected": "caudal_admision",
+        "old_value": "195 L/min aspirado", "new_value": "206 L/min; admisión de aire, no indica salida a presión de trabajo",
+        "reason": "La ficha BTA del código 272057.2 declara «Admisión De Aire 206 L/min», igual que la ficha del 25 L. No publica FAD ni caudal de salida a presión de trabajo.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-50-litros", "field_affected": "presion_maxima",
+        "old_value": "8 bar", "new_value": "8 bar (0,8 MPa)",
+        "reason": "La ficha oficial BTA del 272057.2 declara presión máxima de 8 Bar (0,8 MPa).",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-50-litros", "field_affected": "velocidad",
+        "old_value": "Sin observación separada", "new_value": "2850 RPM",
+        "reason": "Se añade la observación separada que publica la ficha oficial para el modelo D-CA2-50-6.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp"
+    },
+    {
+        "date": "2026-10-16", "tool_slug": "bta-24-oilfree", "field_affected": "identidad_modelo:discrepancia",
+        "old_value": "823124; BTA 24 L Oil-Free Silent; 120 L/min (registro sin fuente recuperada)",
+        "new_value": "BTA actual 272005 / CSA-24-1; 24 L; 2 HP; admisión 170 L/min; no se establece equivalencia con 823124",
+        "reason": "La ficha oficial actual de 24 L muestra código 272005 y modelo CSA-24-1, con 170 L/min de admisión. No coincide el código ni el modelo con 823124; se conserva el registro anterior como no corroborado hasta identificar su versión. Fuente anterior declarada: https://www.btatools.com.ar/productos/compresores . Fuente oficial actual consultada el 16/10/2026: ficha BTA CSA-24-1.",
+        "source": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite"
+    },
+    {
         "date": "2026-10-01",
         "tool_slug": "gamma-g2802ar",
         "field_affected": "potencia_motor",

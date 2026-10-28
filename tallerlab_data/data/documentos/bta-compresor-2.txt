@@ -1,0 +1,10 @@
+272057.2
+Compresor De Aire 50 Litros - 2.0 Hp
+Modelo: D-CA2-50-6
+Tensión: 220 V~ 50 Hz
+Potencia: 1,5 kW (2,0 HP)
+Velocidad: 2850 RPM
+Admisión De Aire: 206 L/min
+Presión Máxima: 8 Bar (0,8 MPa)
+Tanque: 50 Litros
+Consulta: 16/10/2026

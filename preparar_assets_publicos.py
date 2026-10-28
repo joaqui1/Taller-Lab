@@ -36,6 +36,7 @@ def main(root=None):
     published = root / 'observatorio_publicado'
     shutil.rmtree(published, ignore_errors=True)
     shutil.copytree(root / 'public' / 'datos', published / 'datos')
+    shutil.copytree(root / 'public' / 'embed', published / 'embed')
     dataset = root / 'public' / 'assets' / 'datos' / 'precios-observatorio-publico.json'
     shutil.copy2(dataset, source / 'datos' / dataset.name)
     verify_publication_copy(root / 'public', published, source / 'datos' / dataset.name)
@@ -44,12 +45,16 @@ def main(root=None):
 
 def verify_publication_copy(public, published, dataset):
     """Detiene el build si la copia servida por la función no es idéntica a lo generado."""
-    origin = public / 'datos'
-    files = [f for f in origin.rglob('*') if f.is_file()]
+    files = []
+    for tree in ('datos', 'embed'):
+        origin = public / tree
+        if not origin.is_dir():
+            raise RuntimeError(f'El observatorio no generó el directorio para publicar: {origin}')
+        files.extend((tree, file) for file in origin.rglob('*') if file.is_file())
     if not files:
         raise RuntimeError('El observatorio no generó archivos para publicar')
-    for file in files:
-        copy = published / 'datos' / file.relative_to(origin)
+    for tree, file in files:
+        copy = published / tree / file.relative_to(public / tree)
         if not copy.is_file() or copy.read_bytes() != file.read_bytes():
             raise RuntimeError(f'Copia incompleta del observatorio: {copy}')
     if dataset.read_bytes() != (public / 'assets' / 'datos' / dataset.name).read_bytes():

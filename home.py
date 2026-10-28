@@ -33,6 +33,14 @@ HOME_CATEGORY_COPY = {
     "generadores": "Energía y respaldo para tu uso",
 }
 
+HOME_ALERTS_SEARCH = {
+    "title": "¿Tu herramienta tiene un aviso de seguridad?",
+    "description": "Buscá por modelo o código para consultar los expedientes documentales de TallerLab.",
+    "label": "Modelo o código",
+    "placeholder": "Ej.: DWS780 o DWS780-AR",
+    "button": "Consultar alertas",
+}
+
 # Fotos existentes del catálogo para las entradas visuales de portada.
 HOME_CATEGORY_IMAGES = {
     "taladros": ("Taladros", "ingcocidli206684-962e2fdef9.webp"),

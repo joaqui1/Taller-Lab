@@ -10,6 +10,7 @@ from typing import Dict, List, Optional
 
 from tallerlab_data.models import TechnicalTool
 from tallerlab_data.storage import get_tool_by_slug, get_tools_by_category
+from tallerlab_data.model_equivalences import related_paths
 
 GUIDE_TOOL_MAPPINGS: Dict[str, List[str]] = {
     # Compresores
@@ -284,13 +285,22 @@ def render_guide_technical_tools_block(guide_url: str) -> str:
 
         specs_text = " · ".join(specs_snippets)
 
+        equivalents = related_paths(tool.slug)
+        links = [f'<a href="/herramientas/{escape(tool.slug, quote=True)}/">Ver ficha completa →</a>']
+        if equivalents.get("price_path"):
+            links.append(f'<a href="{escape(equivalents["price_path"], quote=True)}">Historial de precios</a>')
+        if equivalents.get("alert_path"):
+            links.append(f'<a href="{escape(equivalents["alert_path"], quote=True)}">Historial de alertas</a>')
+        if equivalents.get("compatibility_path"):
+            links.append(f'<a href="{escape(equivalents["compatibility_path"], quote=True)}">Compatibilidad</a>')
+
         items_html.append(f"""
         <div class="tl-guide-callout-item">
           <h4>{escape(tool.brand)} {escape(tool.model_name)}</h4>
           <p>{specs_text}</p>
           <div style="display:flex; justify-content:space-between; align-items:center;">
             <span class="{tool.power_badge_css}" style="font-size:0.75rem; font-weight:700;">{escape(tool.power_badge_text)}</span>
-            <a href="/herramientas/{tool.slug}/">Ver ficha completa →</a>
+            <div class="tl-model-links">{" · ".join(links)}</div>
           </div>
         </div>
         """)
@@ -299,12 +309,12 @@ def render_guide_technical_tools_block(guide_url: str) -> str:
     <div class="tl-guide-integration-callout">
       <div class="tl-guide-callout-header">
         <div>
-          <span style="font-size:0.75rem; font-weight:800; color:#ff5500; text-transform:uppercase; letter-spacing:0.06em;">TallerLab Data · Fichas documentales</span>
+          <span style="font-size:0.75rem; font-weight:800; color:#b93d00; text-transform:uppercase; letter-spacing:0.06em;">TallerLab Data · Fichas documentales</span>
           <h3 class="tl-guide-callout-title">Modelos de esta guía en nuestra Base Técnica</h3>
         </div>
-        <a href="/herramientas/comparar/" style="font-size:0.82rem; font-weight:700; color:#38bdf8;">Comparar en Matriz ↗</a>
+        <a href="/herramientas/comparar/" style="font-size:0.82rem; font-weight:700; color:#b93d00;">Comparar en Matriz ↗</a>
       </div>
-      <p style="font-size:0.86rem; color:#94a3b8; margin-bottom:0.75rem;">
+      <p style="font-size:0.86rem; color:#5b6467; margin-bottom:0.75rem;">
         Datos declarados, variantes y fuentes registradas. Consultá cada ficha para conocer su cobertura documental:
       </p>
       <div class="tl-guide-callout-grid">
@@ -312,3 +322,14 @@ def render_guide_technical_tools_block(guide_url: str) -> str:
       </div>
     </div>
     """
+
+
+def render_guides_for_model_block(tool_slug: str, heading: str = "Guías que analizan este modelo") -> str:
+    """Devuelve enlaces inversos desde una ficha de producto a sus guías."""
+    from tallerlab_data.model_equivalences import guides_for_tool_slug
+
+    guides = guides_for_tool_slug(tool_slug)
+    if not guides:
+        return ""
+    items = "".join(f'<li><a href="{escape(url, quote=True)}">{escape(title)}</a></li>' for title, url in guides)
+    return f'<section class="related-guides"><h2>{escape(heading)}</h2><ul>{items}</ul></section>'

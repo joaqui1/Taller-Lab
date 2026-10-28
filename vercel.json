@@ -43,6 +43,15 @@
       ]
     },
     {
+      "source": "/embed/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors *"
+        }
+      ]
+    },
+    {
       "source": "/assets/fonts/(.*).woff2",
       "headers": [
         {

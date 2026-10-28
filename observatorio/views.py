@@ -43,12 +43,12 @@ def render_observatory_hub_html() -> str:
     ]
 
     cat_cards = "".join(f"""
-        <div class="category-card" style="border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; background: #0f172a; margin-bottom: 1rem;">
+        <div class="category-card" style="border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; background: #0f172a; color: #e2e8f0; margin-bottom: 1rem;">
           <div style="font-size: 2rem; margin-bottom: 0.5rem;">{c['icon']}</div>
           <h3 style="margin-top: 0; color: #f8fafc;"><a href="{c['url']}" style="color: #ff5500; text-decoration: none;">{escape(c['name'])}</a></h3>
           <p style="color: #94a3b8; font-size: 0.95rem;">{escape(c['desc'])}</p>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; border-top: 1px solid #1e293b; pt: 0.75rem;">
-            <span style="font-size: 0.85rem; color: #64748b;"><strong>{c['models_count']}</strong> modelos en catálogo</span>
+            <span style="font-size: 0.85rem; color: #8b949e;"><strong>{c['models_count']}</strong> modelos en catálogo</span>
             <a href="{c['url']}" class="btn-orange" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Ver datos y series →</a>
           </div>
         </div>
@@ -86,9 +86,9 @@ def render_observatory_hub_html() -> str:
       </div>
 
       <header style="margin-bottom: 2.5rem;">
-        <span class="section-kicker" style="color: #ff5500; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em;">TALLERLAB / DATOS ABIERTOS</span>
-        <h1 style="font-size: 2.4rem; font-weight: 900; color: #f8fafc; margin: 0.5rem 0 1rem 0;">Observatorio de Precios de Herramientas en Argentina</h1>
-        <p style="font-size: 1.15rem; color: #94a3b8; line-height: 1.6;">
+        <span class="section-kicker" style="color: #b93d00; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em;">TALLERLAB / DATOS ABIERTOS</span>
+        <h1 style="font-size: 2.4rem; font-weight: 900; color: #20262a; margin: 0.5rem 0 1rem 0;">Observatorio de Precios de Herramientas en Argentina</h1>
+        <p style="font-size: 1.15rem; color: #5b6467; line-height: 1.6;">
           Relevamiento diario de precios de pago único con impuestos, disponibilidad declarada y condiciones comerciales 
           en fuentes evaluadas, con controles automáticos de identidad, moneda y disponibilidad.
           El piloto permanece en preparación hasta verificar las primeras fuentes y ofertas reales.
@@ -107,7 +107,7 @@ def render_observatory_hub_html() -> str:
       {basket_html}
 
       <section style="margin: 3rem 0;">
-        <h2 style="color: #f8fafc; font-size: 1.6rem; margin-bottom: 1.5rem;">Categorías monitoreadas</h2>
+        <h2 style="color: #20262a; font-size: 1.6rem; margin-bottom: 1.5rem;">Categorías monitoreadas</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
           {cat_cards}
         </div>
@@ -162,7 +162,7 @@ def render_observatory_category_html(category: str) -> str:
                 except Exception:
                     pass
 
-        min_price_str = f"$ {stats['min_current_price']:,.2f}" if stats["min_current_price"] else '<span style="color:#64748b;">Sin stock / sin datos</span>'
+        min_price_str = f"$ {stats['min_current_price']:,.2f}" if stats["min_current_price"] else '<span style="color:#8b949e;">Sin stock / sin datos</span>'
         median_price_str = f"$ {stats['median_current_price']:,.2f}" if stats["median_current_price"] else "-"
         hist_min_str = f"$ {stats['historical_min_price']:,.2f}" if stats["historical_min_price"] else "-"
         obs_date_str = stats["last_observed_at_display"] or "Sin registro reciente"
@@ -175,19 +175,19 @@ def render_observatory_category_html(category: str) -> str:
         <tr>
           <td>
             <strong>{escape(prod.brand)} {escape(prod.model_name)}</strong><br>
-            <span style="font-size: 0.78rem; color: #64748b;">MPN: {escape(prod.mpn)}</span>
+            <span style="font-size: 0.78rem; color: #8b949e;">MPN: {escape(prod.mpn)}</span>
           </td>
           <td style="color: #38bdf8; font-weight: 700;">{min_price_str}</td>
           <td style="color: #cbd5e1;">{median_price_str}</td>
           <td style="color: #94a3b8; font-size: 0.85rem;">{hist_min_str}</td>
           <td>{offers_count_badge}</td>
-          <td style="font-size: 0.8rem; color: #64748b;">{obs_date_str}</td>
+          <td style="font-size: 0.8rem; color: #8b949e;">{obs_date_str}</td>
           <td><a href="#{escape(prod.id,quote=True)}" style="color:#ff5500">Ofertas e historial</a><br>{guide_link}</td>
         </tr>
         """)
 
-        offers_html = ''.join(f'''<tr><td>{escape(o['seller_name'])}</td><td>$ {o['price_single_payment']:,.2f}</td><td>{('$ '+format(o['price_transfer'],',.2f')) if o['price_transfer'] is not None else 'No declarado'}</td><td>{escape(format_art_date(o['observed_at']))}</td><td><a href="{escape(o['direct_url'],quote=True)}" target="_blank" rel="noopener noreferrer">Ver oferta ↗</a></td></tr>''' for o in stats['current_offers'])
-        comparison = f'''<div class="table-scroll"><table><thead><tr><th>Vendedor</th><th>Pago único ARS</th><th>Transferencia ARS</th><th>Captura</th><th>Fuente</th></tr></thead><tbody>{offers_html}</tbody></table></div>''' if offers_html else '<p class="obs-empty">Sin ofertas vigentes con stock verificado.</p>'
+        offers_html = ''.join(f'''<tr><td>$ {o['price_single_payment']:,.2f}</td><td>{('$ '+format(o['price_transfer'],',.2f')) if o['price_transfer'] is not None else 'No declarado'}</td><td>Precio publicado por {escape(o['seller_name'])} el {escape(format_art_date(o['observed_at']))}</td></tr>''' for o in stats['current_offers'])
+        comparison = f'''<div class="table-scroll"><table><thead><tr><th>Pago único ARS</th><th>Transferencia ARS</th><th>Fuente</th></tr></thead><tbody>{offers_html}</tbody></table></div>''' if offers_html else '<p class="obs-empty">Sin ofertas vigentes con stock verificado.</p>'
         chart = render_history_chart(get_product_price_history_series(prod.id),prod.brand+' '+prod.model_name)
         model_details.append(f'''<details class="obs-model" id="{escape(prod.id,quote=True)}"><summary>{escape(prod.brand)} {escape(prod.model_name)} · ofertas e historial</summary><p class="obs-variant">{escape(prod.voltage)} · {escape(prod.kit_content)} · condición: {escape(prod.item_condition)}</p>{comparison}{chart}</details>''')
     table_html = "".join(table_rows)
@@ -208,18 +208,18 @@ def render_observatory_category_html(category: str) -> str:
 
       <header style="margin-bottom: 2rem;">
         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-          <span class="section-kicker" style="color: #ff5500; font-weight: 700; font-size: 0.85rem;">OBSERVATORIO DE PRECIOS</span>
+          <span class="section-kicker" style="color: #b93d00; font-weight: 700; font-size: 0.85rem;">OBSERVATORIO DE PRECIOS</span>
           {fresh_status_badge}
         </div>
-        <h1 style="font-size: 2.2rem; font-weight: 900; color: #f8fafc; margin: 0.25rem 0 0.75rem 0;">Precios de {escape(category_name)} en Argentina</h1>
-        <p style="font-size: 1.05rem; color: #94a3b8; line-height: 1.5;">
+        <h1 style="font-size: 2.2rem; font-weight: 900; color: #20262a; margin: 0.25rem 0 0.75rem 0;">Precios de {escape(category_name)} en Argentina</h1>
+        <p style="font-size: 1.05rem; color: #5b6467; line-height: 1.5;">
           Monitoreo estructurado de {len(category_products)} modelos exactos. Valores de pago único final en pesos con IVA incluido. 
           Mínimos vigentes relevados exclusivamente sobre unidades con disponibilidad acreditada en las últimas 48 horas.
         </p>
       </header>
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.75rem;">
-        <div style="font-size: 0.85rem; color: #64748b;">
+        <div style="font-size: 0.85rem; color: #5b6467;">
           Mostrando <strong>{len(category_products)}</strong> modelos en catálogo ({active_with_data_count} con datos vigentes)
         </div>
         <div>
@@ -227,7 +227,7 @@ def render_observatory_category_html(category: str) -> str:
         </div>
       </div>
 
-      <div class="table-scroll" style="background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; overflow-x: auto; margin-bottom: 2.5rem;">
+      <div class="table-scroll" style="background: #0f172a; color: #e2e8f0; border: 1px solid #1e293b; border-radius: 8px; overflow-x: auto; margin-bottom: 2.5rem;">
         <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
           <thead>
             <tr style="border-bottom: 2px solid #334155; background: #1e293b;">
@@ -266,7 +266,7 @@ def render_observatory_methodology_html() -> str:
     sections = [
         ('Qué medimos', 'Precios declarados de ofertas de modelos exactos. La cobertura se limita a las tiendas efectivamente relevadas; no representa todo el mercado argentino. El piloto está en preparación hasta verificar las primeras fuentes.'),
         ('Modelo y variante', 'Se comprueban código de fabricante, tensión, condición y kit cuando están declarados. Las contradicciones se rechazan. Si no podemos identificar la oferta con certeza, no publicamos un precio.'),
-        ('Precio y condiciones', 'Comparamos el precio de pago único en ARS. Las cuotas no equivalen al precio total. Transferencia y precio tachado se muestran por separado cuando el vendedor los declara. El envío y el importe final deben comprobarse en la tienda.'),
+        ('Precio y condiciones', 'Comparamos el precio de pago único en ARS. Las cuotas no equivalen al precio total. Transferencia y precio tachado se muestran por separado cuando el vendedor los declara. Confirmá envío, condiciones e importe final antes de comprar.'),
         ('Fuentes y reutilización', 'Cada fuente requiere evaluación documentada, fecha y permisos de captura y redistribución. Las fuentes pendientes o descartadas no se consultan. Mercado Libre permanece descartada en este piloto. Esta metodología no concede derechos de terceros.'),
         ('Vigencia y anomalías', 'Los mínimos utilizan el último estado verificable de cada oferta, con hasta 48 horas de antigüedad. Un agotamiento, una anomalía o un fallo posterior retiran el valor anterior del mínimo vigente. Saltos del 35% o más respecto al historial reciente quedan retenidos.'),
         ('Históricos y gráficos', 'Mostramos el último precio publicable de cada día argentino por vendedor, hasta 365 días. Los días sin capturas interrumpen las líneas; no interpolamos precios. Las muestras y los registros retenidos están excluidos del CSV y los históricos públicos.'),
@@ -294,7 +294,7 @@ def render_model_price_widget(product_id: str) -> str:
         <div class="observatory-price-box" style="background: #0f172a; border: 1px solid #ff5500; border-radius: 8px; padding: 1.25rem; margin: 2rem 0;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
             <span style="color: #ff5500; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">OBSERVATORIO TALLERLAB{f' — {escape(prod_title)}' if prod_title else ''}</span>
-            <span style="color: #64748b; font-size: 0.75rem;">Última captura: {escape(obs_date)}</span>
+            <span style="color: #8b949e; font-size: 0.75rem;">Última captura: {escape(obs_date)}</span>
           </div>
           <div style="display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap;">
             <div style="font-size: 1.8rem; font-weight: 900; color: #f8fafc;">
@@ -303,11 +303,11 @@ def render_model_price_widget(product_id: str) -> str:
             <span style="color: #10b981; font-size: 0.85rem; font-weight: 600;">Menor precio vigente con stock</span>
           </div>
           <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.5rem 0 0.75rem 0;">
-            Precio de pago único declarado por el vendedor entre {active_count} ofertas vigentes. Consultar envío y condiciones en origen.
+            Precio de pago único declarado en {active_count} ofertas vigentes. Confirmá envío y condiciones antes de comprar.
           </p>
           <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1e293b; pt: 0.5rem;">
             <a href="{cat_url}" style="color: #ff5500; font-size: 0.85rem; font-weight: 600; text-decoration: none;">Ver comparativa y series de precios →</a>
-            <a href="/datos/precios/metodologia/" style="color: #64748b; font-size: 0.78rem; text-decoration: none;">Metodología</a>
+            <a href="/datos/precios/metodologia/" style="color: #8b949e; font-size: 0.78rem; text-decoration: none;">Metodología</a>
           </div>
         </div>
         """

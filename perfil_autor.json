@@ -1,7 +1,10 @@
 {
-  "_instrucciones": "Completá con datos reales. Los campos vacíos no se muestran. 'perfiles' acepta URLs (LinkedIn, Instagram, YouTube, GitHub). 'experiencia' y 'formacion' son textos cortos en primera o tercera persona.",
+  "_instrucciones": "Completá solo con datos reales del autor; los campos vacíos no se muestran. 'foto' acepta una ruta local bajo /assets/ (por ejemplo /assets/perfil-autor.webp). 'experiencia' y 'formacion' son textos breves. 'que_hace' y 'que_no_hace' son listas de tareas o límites concretos, sin atribuir pruebas que no se realizaron. 'perfiles' acepta URLs HTTPS públicas (LinkedIn, Instagram, YouTube, GitHub). Las métricas se calculan desde las guías, fichas, fuentes y correcciones publicadas; no las cargues manualmente.",
+  "foto": "",
   "experiencia": "",
   "formacion": "",
+  "que_hace": [],
+  "que_no_hace": [],
   "perfiles": [],
-  "email_publico": ""
+  "email_publico": "tallerlabarg@gmail.com"
 }

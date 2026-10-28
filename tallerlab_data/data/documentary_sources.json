@@ -1227,6 +1227,45 @@
       "text_sha256": "9db68b4444ec9729413d9048338f015cee860bee765273aef5e00b0ef1d0f5e4",
       "characters": 3455,
       "format": "html"
+    },
+    {
+      "url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+      "checked_at": "2026-10-16T16:54:44+00:00",
+      "http_status": 200,
+      "final_url": "https://btatools.com.ar/producto/compresor-de-aire-25-litros-2-0-hp",
+      "title": "Compresor De Aire 25 Litros - 2.0 Hp - 272057.1 | BTA Tools",
+      "status": "recuperado",
+      "text_file": "documentos/bta-compresor-1.txt",
+      "sha256": "cfe1d2dabbf9f40ac485844f0233f749ebed86f4f69541a5ce028fc6e3ed561c",
+      "text_sha256": "f8244cb72c1f24b3433232ddb8bd712837da40a199ac71adcb0f592ba91639b1",
+      "characters": 232,
+      "format": "html"
+    },
+    {
+      "url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+      "checked_at": "2026-10-16T16:54:44+00:00",
+      "http_status": 200,
+      "final_url": "https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp",
+      "title": "Compresor De Aire 50 Litros - 2.0 Hp - 272057.2 | BTA Tools",
+      "status": "recuperado",
+      "text_file": "documentos/bta-compresor-2.txt",
+      "sha256": "8579d26811a33c017108889a2de269a1b333a34694efdac9a96d8984d0b10fdd",
+      "text_sha256": "b5f482fc29693e5c0be1230cadc5f4af0f4aab259c58ad957a1593f775c5f442",
+      "characters": 232,
+      "format": "html"
+    },
+    {
+      "url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+      "checked_at": "2026-10-16T16:54:44+00:00",
+      "http_status": 200,
+      "final_url": "https://btatools.com.ar/producto/compresor-de-aire-24-litros-2-0-hp-portatil-sin-aceite",
+      "title": "Compresor De Aire 24 Litros - 2.0 Hp - Portátil - Sin Aceite - 272005 | BTA Tools",
+      "status": "recuperado",
+      "text_file": "documentos/bta-compresor-3.txt",
+      "sha256": "5c164aa0f64ddaabf590e6edc85c83b44ba2023bc3ead02d7ac0309d3d30eded",
+      "text_sha256": "a00a2b0b77aa912465f8c027d5768383431a8aff623907999c5dfe6db4b0d552",
+      "characters": 294,
+      "format": "html"
     }
   ]
 }

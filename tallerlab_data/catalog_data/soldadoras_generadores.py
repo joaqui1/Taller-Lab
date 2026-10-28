@@ -106,7 +106,7 @@ SOLDADORAS_GENERADORES_TOOLS = [
         commercial_name="SML120-8DK MIG Flux Multiproceso",
         mpn="SML120-8DK",
         category="soldadoras",
-        summary="Soldadora multiproceso (MIG Flux, MMA, Lift TIG) con discrepancia de tensión documentada en ficha web oficial.",
+        summary="Soldadora multiproceso (MIG Flux, MMA, Lift TIG); la ficha oficial declara 200 V y requiere confirmar el rango admitido en la placa de la unidad.",
         primary_use="Soldadura sin gas en chapa fina y perfiles livianos",
         power_source="Red eléctrica (220 V nominal / 200 V en ficha)",
         specs={
@@ -118,22 +118,11 @@ SOLDADORAS_GENERADORES_TOOLS = [
         variants=[RegionalVariant("SML120-8DK", "Argentina", "220 V / 50 Hz", "IRAM 2073", "Multiproceso FLUX")],
         kits=[KitOption("SML120-8DK-KIT", "Kit completo con torcha MIG integrada, máscara, rollo flux y pinzas", "No aplica", "No aplica", ["Torcha MIG fija", "Pinza masa", "Rollo flux 0,8mm", "Máscara"])],
         commercial_offers=[CommercialOffer("Distribuidor Lüsqtoff", "Mercado Libre", "https://meli.la/26RsZRw", 215000.0, "2026-10-01", "nuevo", "pendiente_relevamiento")],
-        contradictions=[
-            ContradictionRecord(
-                spec_key="tension_alimentacion",
-                field_name="Tensión de red especificada",
-                source_a_name="Ficha web Lüsqtoff SML120-8DK",
-                source_a_value="200 V - 50 Hz",
-                source_a_url="https://lusqtoff.com.ar/ver-producto/SML120-8DK",
-                source_b_name="Estándar IRAM red eléctrica argentina",
-                source_b_value="220 V - 50 Hz",
-                source_b_url="https://www.enre.gov.ar",
-                editorial_note="La ficha declara textualmente 200 V. Confirmar placa metálica de la máquina antes de operar para certificar rango de tolerancia de entrada."
-            )
-        ],
+        contradictions=[],
         limits_and_warnings=[
             "120 A corresponde únicamente al modo FLUX; en electrodo revestido y TIG la corriente máxima es de 100 A.",
-            "Torcha MIG incorporada fija al chasis; no cuenta con conector Euroconector extraíble."
+            "Torcha MIG incorporada fija al chasis; no cuenta con conector Euroconector extraíble.",
+            "La ficha oficial declara 200 V - 50 Hz; confirmar en la placa de la unidad el rango de tensión admitido antes de conectarla."
         ],
         primary_sources=[{"label": "Ficha oficial Lüsqtoff SML120-8DK", "url": "https://lusqtoff.com.ar/ver-producto/SML120-8DK"}],
         last_reviewed="2026-10-01"

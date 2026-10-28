@@ -77,6 +77,9 @@ class Evidence:
     supporting_urls: List[str] = field(default_factory=list)
     primary_text: str = ""
     supporting_documents: Dict[str, Any] = field(default_factory=dict)
+    approved_source_hash: str = ""
+    source_approved_by: Optional[str] = None
+    source_approved_at: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -107,6 +110,7 @@ class Product:
     evidence_identity_id: Optional[str] = None
     evidence_platform_id: Optional[str] = None
     notes: str = ""
+    content_changed_at: str = "2026-10-04"
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -128,6 +132,7 @@ class CompatibilityRelation:
     notes: str
     date_reviewed: str
     recommendations: List[str] = field(default_factory=list)
+    content_changed_at: str = "2026-10-04"
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)

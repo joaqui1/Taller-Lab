@@ -15,6 +15,8 @@ from alertas_datos import (
     DESCARGO_NO_GARANTIA_SEGURIDAD,
     ESTADOS_ALERTA,
     cargar_expedientes,
+    claves_modelo_expediente,
+    coincide_busqueda_expediente,
     expediente_publico,
     obtener_expediente,
 )
@@ -92,6 +94,27 @@ ALERTAS_CSS = """
   position: relative;
   margin-bottom: 1.25rem;
 }
+.alertas-search-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.alertas-search-form .alertas-search-input-wrap { margin-bottom: 0; }
+.alertas-search-submit {
+  min-height: 48px;
+  padding: 0.7rem 1.15rem;
+  border: 1px solid #f97316;
+  border-radius: 10px;
+  background: #f97316;
+  color: #111827;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+.alertas-search-submit:hover { background: #fb923c; }
+.alertas-search-submit:focus-visible { outline: 3px solid #fbbf24; outline-offset: 3px; }
 .alertas-search-input {
   width: 100%;
   padding: 0.85rem 1rem 0.85rem 2.85rem;
@@ -145,8 +168,8 @@ ALERTAS_CSS = """
   color: #ffffff;
 }
 .alertas-chip.active {
-  background: #ff5500;
-  border-color: #ff5500;
+  background: #c24100;
+  border-color: #c24100;
   color: #ffffff;
   font-weight: 700;
 }
@@ -302,7 +325,7 @@ ALERTAS_CSS = """
   gap: 1.5rem;
   flex-wrap: wrap;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #8b949e;
   padding-top: 0.75rem;
   border-top: 1px dashed #21262d;
 }
@@ -452,6 +475,10 @@ ALERTAS_CSS = """
   border-color: #ff5500;
   color: #ffffff;
 }
+@media (max-width: 600px) {
+  .alertas-search-form { grid-template-columns: 1fr; gap: 0.6rem; }
+  .alertas-search-submit { width: 100%; }
+}
 </style>
 """
 
@@ -465,9 +492,12 @@ def _render_status_badge(estado_key: str) -> str:
     </span>"""
 
 
-def render_alerts_hub_page() -> str:
+def render_alerts_hub_page(query: str = "") -> str:
     """Genera la página principal (/alertas/) con buscador, filtros y tarjetas de expedientes."""
     expedientes = cargar_expedientes(forzar_recarga=True)
+    query = str(query or "").strip()[:120]
+    resultados = [exp for exp in expedientes if coincide_busqueda_expediente(exp, query)] if query else expedientes
+    result_slugs = {exp["slug"] for exp in resultados}
 
     cards_html = []
     marcas_set = set()
@@ -497,8 +527,10 @@ def render_alerts_hub_page() -> str:
                 tokens_search.append(v["tipo_revision"])
         search_corpus = " ".join(t for t in tokens_search if t).lower()
 
+        hidden_style = "display: none;" if query and exp["slug"] not in result_slugs else ""
+        model_search = " ".join(sorted(claves_modelo_expediente(exp)))
         card = f"""
-        <article class="dossier-card" data-marca="{escape(exp['marca'].lower())}" data-estado="{escape(exp['estado_general'])}" data-search="{escape(search_corpus)}">
+        <article class="dossier-card" style="{hidden_style}" data-marca="{escape(exp['marca'].lower())}" data-estado="{escape(exp['estado_general'])}" data-search="{escape(search_corpus)}" data-model-search="{escape(model_search)}">
           <div class="dossier-card-top">
             <span class="dossier-brand-tag">{escape(exp['marca'])} · {escape(exp['categoria'].capitalize())}</span>
             {_render_status_badge(exp['estado_general'])}
@@ -509,7 +541,7 @@ def render_alerts_hub_page() -> str:
             <strong>Variantes identificadas:</strong> {escape(variantes_str)}
           </div>
           <div class="dossier-card-actions">
-            <span style="font-size: 0.78rem; color: #64748b;">{alertas_label}</span>
+            <span style="font-size: 0.78rem; color: #8b949e;">{alertas_label}</span>
             <a href="/alertas/{exp['slug']}/" class="dossier-card-link">Ver expediente técnico →</a>
           </div>
         </article>
@@ -553,10 +585,13 @@ def render_alerts_hub_page() -> str:
       </section>
 
       <section class="alertas-controls" aria-label="Buscador y filtros de expedientes">
+        <form class="alertas-search-form" action="/alertas/" method="get" role="search">
         <div class="alertas-search-input-wrap">
           <svg class="alertas-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input type="search" id="alertas-query" class="alertas-search-input" placeholder="Buscar por marca, modelo, EAN o variante (ej.: DeWalt, DWS780, 885911235112, DW8307-AR, Makita DGP180)..." autocomplete="off" aria-label="Buscar herramienta en expedientes técnicos">
+          <input type="search" id="alertas-query" name="q" value="{escape(query, quote=True)}" class="alertas-search-input" placeholder="Buscar por marca, modelo, EAN o variante (ej.: DeWalt, DWS780, 885911235112, DW8307-AR, Makita DGP180)..." autocomplete="off" maxlength="120" aria-label="Buscar herramienta en expedientes técnicos">
         </div>
+        <button class="alertas-search-submit" type="submit">Buscar aviso</button>
+        </form>
         <div class="alertas-filters">
           <span class="alertas-filter-label">Estado:</span>
           <button type="button" class="alertas-chip active" data-filter-estado="TODOS" aria-pressed="true">Todos</button>
@@ -569,16 +604,17 @@ def render_alerts_hub_page() -> str:
       </section>
 
       <div id="alertas-contador" aria-live="polite" style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 1.25rem;">
-        Mostrando {len(expedientes)} expedientes técnicos disponibles
+        {f"Mostrando {len(resultados)} de {len(expedientes)} expedientes técnicos disponibles" if query else f"Mostrando {len(expedientes)} expedientes técnicos disponibles"}
       </div>
 
       <div id="alertas-grid" class="alertas-grid">
         {"".join(cards_html)}
       </div>
 
-      <div id="alertas-vacio" style="display: none; text-align: center; padding: 3rem 1rem; color: #94a3b8; background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border);">
-        <p style="font-size: 1.1rem; color: #ffffff; margin-bottom: 0.5rem;">No se encontraron expedientes para la búsqueda especificada.</p>
-        <p style="font-size: 0.9rem;">Verificá la ortografía del modelo, ingresá el código de variante o restablecé los filtros para ver todos los modelos revisados.</p>
+      <div id="alertas-vacio" style="display: {('block' if query and not resultados else 'none')}; text-align: center; padding: 2rem 1.5rem; color: #cbd5e1; background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <p style="font-size: 1.1rem; color: #ffffff; margin-bottom: 0.5rem;">No encontramos avisos para ese modelo en nuestra base</p>
+        <p style="font-size: 0.9rem;">{escape(DESCARGO_NO_GARANTIA_SEGURIDAD)}</p>
+        <p style="font-size: 0.9rem; margin-top: 0.75rem;"><a href="/alertas/metodologia/">Conocé la metodología y las fuentes consultadas</a>.</p>
       </div>
 
       {registro_html}
@@ -613,14 +649,16 @@ def render_alerts_hub_page() -> str:
       function filtrar() {{
         const rawQ = (input ? input.value : '').trim().toLowerCase();
         const tokens = rawQ.split(/\\s+/).filter(Boolean);
+        const normalizedQ = rawQ.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').replace(/[^a-z0-9]/g, '');
         let visibles = 0;
 
         cards.forEach(card => {{
           const cardSearch = card.getAttribute('data-search') || '';
+          const modelKeys = (card.getAttribute('data-model-search') || '').split(/\\s+/);
           const cardMarca = card.getAttribute('data-marca') || '';
           const cardEstado = card.getAttribute('data-estado') || '';
 
-          const matchQ = tokens.length === 0 || tokens.every(tok => cardSearch.includes(tok));
+          const matchQ = tokens.length === 0 || modelKeys.includes(normalizedQ) || tokens.every(tok => cardSearch.includes(tok));
           const matchEstado = currentEstado === 'TODOS' || cardEstado === currentEstado;
           const matchMarca = currentMarca === 'TODAS' || cardMarca === currentMarca;
 
@@ -669,6 +707,7 @@ def render_alerts_hub_page() -> str:
           filtrar();
         }});
       }});
+      filtrar();
     }})();
     </script>
     """
@@ -776,7 +815,7 @@ def render_model_dossier_page(exp: Dict[str, Any]) -> str:
               </div>
               {ev_texto}
               <div class="alert-card-footer">
-                <span style="color: #64748b;">Investigación técnica independiente TallerLab</span>
+                <span style="color: #8b949e;">Investigación técnica independiente TallerLab</span>
                 <a href="{escape(al['enlace_original'], quote=True)}" target="_blank" rel="noopener noreferrer" style="color: #ff5500; font-weight: 700; text-decoration: none;">Ver publicación original en {escape(al['organismo'])} ↗</a>
               </div>
             </div>
@@ -866,7 +905,7 @@ def render_model_dossier_page(exp: Dict[str, Any]) -> str:
             <strong style="color: #ffffff; display: block; margin-bottom: 0.2rem;">¿Estás evaluando este equipo antes de comprar?</strong>
             <span style="font-size: 0.85rem; color: #94a3b8;">Consultá la comparativa técnica de capacidades, alternativas y diferencias de taller.</span>
           </div>
-          <a href="{escape(exp['guia_url'], quote=True)}" class="btn-doc" style="background: #ff5500; border-color: #ff5500;">Ver comparativa en TallerLab →</a>
+          <a href="{escape(exp['guia_url'], quote=True)}" class="btn-doc" style="background: #c24100; border-color: #c24100; color: #ffffff;">Ver comparativa en TallerLab →</a>
         </div>
         """
 

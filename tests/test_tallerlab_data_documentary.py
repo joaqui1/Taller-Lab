@@ -39,6 +39,9 @@ class DocumentaryChecks(unittest.TestCase):
         payload = export_snapshot()
         version = payload.pop('version')
         payload.pop('candidates')
+        # Fechas derivadas del contenido: se calculan después del hash.
+        payload.pop('edition_date', None)
+        payload.pop('dateModified', None)
         encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
         self.assertEqual(hashlib.sha256(encoded).hexdigest(), version)
 

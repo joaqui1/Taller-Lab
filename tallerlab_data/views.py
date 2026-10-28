@@ -15,6 +15,9 @@ from __future__ import annotations
 
 import json
 from html import escape
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
 from typing import Any, Dict, List, Optional
 
 from markdown_it import MarkdownIt
@@ -22,10 +25,10 @@ from markdown_it import MarkdownIt
 _MD = MarkdownIt("commonmark", {"html": True})
 
 import re
-from tallerlab_data.quality import latest_verified_offer, source_type_for, backed_specs, tool_is_indexable
+from tallerlab_data.quality import latest_verified_offer, source_type_for, backed_specs, tool_is_indexable, usable_spec
 from tallerlab_data.documentary import source_record, evidence_source_label
 from tallerlab_data.selection import family, family_label, documentary_order, evidence_counts, LABELS, render_decision_guidance
-from tallerlab_data.affiliates import affiliate_for, render_affiliate_options
+from tallerlab_data.affiliates import render_affiliate_button, render_affiliate_options
 from tallerlab_data.comparator import compare_tools
 from tallerlab_data.editorial_comparisons import (
     EDITORIAL_COMPARISONS,
@@ -35,11 +38,13 @@ from tallerlab_data.editorial_comparisons import (
 )
 from tallerlab_data.models import TechnicalTool
 from comunidad.components import render_model_community
-from tallerlab_data.research_study import get_research_study_data
+from tallerlab_data.research_study import get_research_study_data, has_output_flow, has_work_pressure, has_epta_energy
+from paginas_institucionales import contact_email
 from tallerlab_data.storage import (
     get_all_categories,
     get_all_tools,
     get_tool_by_slug,
+    list_tools,
     get_tools_by_category,
     list_candidates,
     list_corrections,
@@ -63,6 +68,7 @@ TALLERLAB_DATA_CSS = """
 .tl-container .co-teaser h2 { color: #ffffff; }
 .tl-container .co-teaser p { color: #cbd5e1; }
 .tl-container .co-kicker { color: #ff9966; }
+.tl-container .co-teaser a:not(.co-button) { color: #ff9966; }
 .tl-hero {
   background: linear-gradient(135deg, rgba(22, 27, 34, 0.98) 0%, rgba(13, 17, 23, 0.98) 100%);
   border: 1px solid var(--border);
@@ -72,6 +78,8 @@ TALLERLAB_DATA_CSS = """
   position: relative;
   overflow: hidden;
 }
+.tl-hero { color: #cbd5e1; }
+.tl-hero a:not([class]) { color: #ffad78; }
 .tl-hero::before {
   content: "";
   position: absolute;
@@ -165,6 +173,17 @@ details.tl-hash code { word-break: break-all; }
   background: rgba(255, 85, 0, 0.15);
   border-color: #ff5500;
   color: #ff7733;
+}
+.tl-affiliate-action {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0;
+}
+.tl-affiliate-disclosure {
+  color: #94a3b8;
+  font-size: 0.78rem;
 }
 
 /* Tablas y Fichas */
@@ -905,7 +924,7 @@ def render_tool_detail_page(tool: TechnicalTool) -> str:
         else:
             vf_text = f"{escape(v.voltage)} ~ {escape(v.frequency)}" if v.frequency else escape(v.voltage)
 
-        motor_display = escape(v.motor_type) if v.motor_type else '<span style="color:#64748b;">—</span>'
+        motor_display = escape(v.motor_type) if v.motor_type else '<span style="color:#8b949e;">—</span>'
 
         variants_rows.append(f"""
         <tr>
@@ -1014,7 +1033,7 @@ def render_tool_detail_page(tool: TechnicalTool) -> str:
       <header class="tl-hero">
         <span class="tl-kicker">FICHA TÉCNICA · {escape(tool.category.upper())}</span>
         <h1>{escape(tool.brand)} {escape(tool.model_name)}</h1>
-        {f'<a href="#tl-commercial-options" class="tl-nav-pill">Ver publicación comercial (afiliado)</a>' if affiliate_for(tool) else ''}
+        {render_affiliate_button(tool)}
         <p class="lead">{_detail_lead(tool)}</p>
         <p class="tl-byline">Revisado por <a href="{AUTHOR_PATH}" rel="author">{AUTHOR_NAME}</a> · Fuentes consultadas el <time datetime="{escape(_sources_checked(tool))}">{escape(_human_date(_sources_checked(tool)))}</time> · <a href="/contacto/">Reportar un error</a></p>
 
@@ -1097,7 +1116,6 @@ def render_tool_detail_page(tool: TechnicalTool) -> str:
       {sources_html}
       {offers_box}
       {render_decision_guidance([tool])}
-      {render_affiliate_options([tool])}
       {render_model_community(tool)}
     </div>
     """
@@ -1149,7 +1167,7 @@ def render_tool_comparator_page(selected_slugs: Optional[List[str]] = None, cate
         for slug in slugs:
             cell = row.cells.get(slug)
             if not cell:
-                matrix_rows.append('<div class="tl-matrix-cell" style="color:#64748b;">No informado</div>')
+                matrix_rows.append('<div class="tl-matrix-cell" style="color:#8b949e;">No informado</div>')
                 continue
 
             warning_html = ""
@@ -1228,7 +1246,7 @@ def render_tool_comparator_page(selected_slugs: Optional[List[str]] = None, cate
             </select>
           </div>
           {extra_selectors}
-          <button type="submit" class="tl-nav-pill" style="cursor: pointer; padding: 0.75rem 1.25rem; background: #ff5500; border-color: #ff5500; color: #fff;">Actualizar Comparación</button>
+          <button type="submit" class="tl-nav-pill" style="cursor: pointer; padding: 0.75rem 1.25rem; background: #c24100; border-color: #c24100; color: #fff;">Actualizar Comparación</button>
         </form>
       </section>
 
@@ -1487,35 +1505,231 @@ def render_corrections_log_page() -> str:
     """
 
 
+def render_research_study_coverage_svg() -> str:
+    """Render an accessible, downloadable bar chart from the current study data."""
+    study = get_research_study_data()
+    metrics = study["metrics"]
+    compressor_families = metrics["compresores_por_familia"]
+    rows = [
+        ("Compresores con tanque", compressor_families["compresor-tanque"]["output_flow_count"], compressor_families["compresor-tanque"]["total"]),
+        ("Infladores portátiles", compressor_families["inflador"]["output_flow_count"], compressor_families["inflador"]["total"]),
+        ("Hidrolavadoras con presión de trabajo", metrics["hidro_trabajo_separada_count"], metrics["hidro_total"]),
+        ("Rotomartillos con energía EPTA", metrics["rotary_hammers_epta_count"], metrics["rotary_hammers_total"]),
+        ("Modelos con discrepancias", metrics["contradictions_count"], metrics["sample_size"]),
+    ]
+    width, height = 980, 440
+    label_x, bar_x, bar_max, value_x = 24, 410, 430, 865
+    row_start, row_step, bar_height = 82, 62, 24
+    bars = []
+    for index, (label, count, total) in enumerate(rows):
+        y = row_start + index * row_step
+        ratio = max(0, min(count / total, 1)) if total else 0
+        fill_width = round(bar_max * ratio)
+        bars.append(
+            f'<text x="{label_x}" y="{y + 18}" class="label">{escape(label)}</text>'
+            f'<rect x="{bar_x}" y="{y}" width="{bar_max}" height="{bar_height}" rx="6" class="track"/>'
+            f'<rect x="{bar_x}" y="{y}" width="{fill_width}" height="{bar_height}" rx="6" class="bar"/>'
+            f'<text x="{value_x}" y="{y + 19}" class="value">{count} de {total}</text>'
+        )
+    edition_date = study["edition_date_display"]
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="chart-title chart-desc" preserveAspectRatio="xMidYMin meet">
+  <title id="chart-title">Cobertura documental de herramientas en el catálogo TallerLab</title>
+  <desc id="chart-desc">Gráfico de barras horizontales con cinco indicadores. Cada barra muestra el número de modelos con el dato disponible sobre el total de modelos de su grupo. Los denominadores están escritos junto a las barras.</desc>
+  <style>
+    .label,.value,.source {{ font-family: Arial, sans-serif; fill: #161b22; }}
+    .label {{ font-size: 18px; }}
+    .value {{ font-size: 18px; font-weight: 700; }}
+    .track {{ fill: #d0d7de; }}
+    .bar {{ fill: #b93800; }}
+    .source {{ font-size: 15px; fill: #343b44; }}
+    @media (max-width: 640px) {{ .label {{ font-size: 17px; }} .value {{ font-size: 17px; }} }}
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  {''.join(bars)}
+  <text x="{label_x}" y="410" class="source">Fuente: TallerLab, edición {edition_date}</text>
+</svg>'''
+
+
+def _research_study_model_item(tool, indicator: str) -> str:
+    """Show the same inclusion decision used by the study's metric predicate."""
+    predicate = {
+        "output_flow": has_output_flow,
+        "work_pressure": has_work_pressure,
+        "epta_energy": has_epta_energy,
+    }.get(indicator)
+    matching = []
+    for key, spec in tool.specs.items():
+        key = key.lower()
+        if indicator == "output_flow" and ("caudal" in key or "flujo" in key):
+            matching.append(spec)
+        elif indicator == "work_pressure" and "presion" in key and any(word in key for word in ("trabajo", "servicio", "nominal")):
+            matching.append(spec)
+        elif indicator == "epta_energy" and "energia" in key:
+            matching.append(spec)
+
+    model = f'<a href="/herramientas/{escape(tool.slug, quote=True)}/">{escape(tool.brand)} {escape(tool.model_name)}</a>'
+    code = escape(tool.mpn or "no informado")
+    if indicator == "contradictions":
+        included = bool(tool.contradictions)
+        state = "con discrepancia registrada" if included else "sin discrepancia registrada"
+        return f'<li class="study-model-item" data-status="{"dato" if included else "sin-dato"}">{model} · código {code} · {state}</li>'
+
+    is_included = bool(predicate and predicate(tool))
+    if is_included:
+        usable = [spec for spec in matching if usable_spec(spec)]
+        if indicator == "output_flow":
+            eligible = [candidate for candidate in usable
+                        if not any(word in (candidate.condition or "").lower() for word in ("aspir", "teóric", "teoric"))
+                        and (any(word in candidate.spec_key.lower() for word in ("salida", "fad", "efectivo"))
+                             or bool(re.search(r"\d+(?:[.,]\d+)?\s*(bar|psi)", (candidate.condition or "").lower())))]
+        elif indicator == "epta_energy":
+            eligible = [candidate for candidate in usable if candidate.condition_status != "sin_respaldo"
+                        and "epta" in ((candidate.condition or "") + " " + (candidate.notes or "")).lower()]
+        else:
+            eligible = usable
+        spec = eligible[0] if eligible else usable[0]
+        value = (spec.raw_value or "").strip() or " ".join(str(part) for part in (spec.normalized_value, spec.normalized_unit) if part)
+        condition = (spec.condition or "").strip() or "condición no indicada"
+        unit = f" {spec.raw_unit}" if spec.raw_unit and spec.raw_unit not in value else ""
+        return f'<li class="study-model-item" data-status="dato">{model} · código {code} · con dato: {escape(value)}{escape(unit)} · {escape(condition)}</li>'
+
+    if indicator == "work_pressure" and tool.slug == "karcher-k4-power-control":
+        declared = next((spec.raw_value for spec in matching if (spec.raw_value or "").strip()), "")
+        reason = "rango declarado, no comparable como valor único" + (f" (declara {declared})" if declared else "")
+    elif not matching:
+        reason = "no encontrado"
+    elif any(getattr(spec, "documentary_status", "") == "identidad_no_coincidente" for spec in matching):
+        reason = "código no coincidente"
+    elif any(getattr(spec, "documentary_status", "") in {"sin_respaldo", "referencia_comercial"} for spec in matching):
+        reason = "sin respaldo"
+    elif indicator == "output_flow" and any(any(word in (spec.condition or "").lower() for word in ("aspir", "teóric", "teoric")) for spec in matching):
+        reason = "solo aspiración"
+    elif indicator == "epta_energy" and not any("epta" in ((spec.condition or "") + " " + (spec.notes or "")).lower() for spec in matching):
+        reason = "condición no indicada"
+    elif any(not (spec.condition or "").strip() for spec in matching):
+        reason = "condición no indicada"
+    else:
+        reason = "sin respaldo"
+    return f'<li class="study-model-item" data-status="sin-dato">{model} · código {code} · sin dato utilizable: {escape(reason)}</li>'
+
+
+def _research_study_details(tools: List[TechnicalTool], indicator: str, group: str) -> str:
+    items = "".join(_research_study_model_item(tool, indicator) for tool in tools)
+    return (f'<tr class="study-details-row"><td colspan="4"><details data-group="{escape(group)}" data-indicator="{escape(indicator)}">'
+            f'<summary>Ver los {len(tools)} modelos</summary><ul>{items}</ul></details></td></tr>')
+
+
 def render_research_study_page() -> str:
     """Report database coverage without imputing omissions to manufacturers."""
-    metrics = get_research_study_data()["metrics"]
-    rows = [
-        ("Compresores con caudal de salida registrado", metrics["compresores_fad_count"], metrics["compresores_total"]),
-        ("Hidrolavadoras con presión de trabajo registrada", metrics["hidro_trabajo_separada_count"], metrics["hidro_total"]),
-        ("Rotomartillos con energía declarada bajo EPTA", metrics["rotary_hammers_epta_count"], metrics["rotary_hammers_total"]),
-        ("Modelos con discrepancias registradas", metrics["contradictions_count"], metrics["sample_size"]),
+    study_data = get_research_study_data()
+    metrics = study_data["metrics"]
+    edition_date = study_data["date_modified"]
+    edition_date_display = f"{edition_date[8:10]}/{edition_date[5:7]}/{edition_date[:4]}" if edition_date else "fecha no disponible"
+    edition_version = study_data["version"][:8]
+    category_labels = {
+        "amoladoras": "Amoladoras",
+        "compresores": "Compresores",
+        "generadores": "Generadores",
+        "hidrolavadoras": "Hidrolavadoras",
+        "soldadoras": "Soldadoras",
+        "taladros": "Taladros",
+    }
+    category_counts = metrics["by_category"]
+    category_summary = " · ".join(
+        f"{escape(category_labels[category])}: {count}"
+        for category, count in category_labels.items()
+        if category in category_counts
+    )
+    compressor_families = metrics["compresores_por_familia"]
+    tank_compressors = compressor_families["compresor-tanque"]
+    press_facts = [
+        f"De {tank_compressors['total']} compresores con tanque de la base, {tank_compressors['output_flow_count']} tienen caudal de salida a presión de trabajo documentado.",
+        f"De {metrics['hidro_total']} hidrolavadoras de la base, {metrics['hidro_trabajo_separada_count']} tienen presión de trabajo registrada por separado.",
+        f"De {metrics['rotary_hammers_total']} rotomartillos de la base, {metrics['rotary_hammers_epta_count']} tienen energía de impacto declarada bajo EPTA.",
     ]
-    table = "".join(f"<tr><td>{escape(label)}</td><td>{count}</td><td>{total}</td><td>{round(100*count/total,1) if total else 0}%</td></tr>" for label, count, total in rows)
+    try:
+        public_email = str(json.loads((Path(__file__).resolve().parents[1] / "perfil_autor.json").read_text(encoding="utf-8")).get("email_publico", "")).strip()
+    except (OSError, ValueError):
+        public_email = ""
+    email_html = f'<a href="mailto:{escape(public_email, quote=True)}">{escape(public_email)}</a>' if public_email else ""
+    edition_date = study_data["edition_date_display"]
+    version = study_data["version"][:8]
+    all_tools = list_tools()
+    model_groups = {
+        "output_tank": [tool for tool in all_tools if tool.category == "compresores" and family(tool) == "compresor-tanque"],
+        "output_inflator": [tool for tool in all_tools if tool.category == "compresores" and family(tool) == "inflador"],
+        "output_airbrush": [tool for tool in all_tools if tool.category == "compresores" and family(tool) == "aerografo"],
+        "work_pressure": [tool for tool in all_tools if tool.category == "hidrolavadoras"],
+        "epta_energy": [tool for tool in all_tools if family(tool) == "rotomartillo"],
+        "contradictions": all_tools,
+    }
+    rows = [
+        ("output_tank", tank_compressors["label"], tank_compressors["output_flow_count"], tank_compressors["total"], "output_flow"),
+        ("output_inflator", compressor_families["inflador"]["label"], compressor_families["inflador"]["output_flow_count"], compressor_families["inflador"]["total"], "output_flow"),
+        ("output_airbrush", compressor_families["aerografo"]["label"], compressor_families["aerografo"]["output_flow_count"], compressor_families["aerografo"]["total"], "output_flow"),
+        ("work_pressure", "Hidrolavadoras con presión de trabajo registrada", metrics["hidro_trabajo_separada_count"], metrics["hidro_total"], "work_pressure"),
+        ("epta_energy", "Rotomartillos con energía declarada bajo EPTA", metrics["rotary_hammers_epta_count"], metrics["rotary_hammers_total"], "epta_energy"),
+        ("contradictions", "Modelos con discrepancias registradas", metrics["contradictions_count"], metrics["sample_size"], "contradictions"),
+    ]
+    table = "".join(
+        f'<tr><td>{escape(label)}</td><td>{count}</td><td>{total}</td><td>{round(100*count/total,1) if total else 0}%</td></tr>'
+        f'{_research_study_details(model_groups[group], indicator, group)}'
+        for group, label, count, total, indicator in rows
+    )
     return f"""{TALLERLAB_DATA_CSS}
     <div class="tl-container"><article>
       <header class="tl-hero"><span class="tl-kicker">COBERTURA DOCUMENTAL TALLERLAB DATA</span>
       <h1>Cobertura de especificaciones en el catálogo argentino de TallerLab</h1>
-      <p class="lead">{metrics['sample_size']} modelos y {metrics['total_specs_analyzed']} especificaciones registradas. Estos resultados describen nuestra base y cambian al incorporar documentación.</p></header>
+      <p><strong>Edición del {edition_date} · versión {version}</strong></p>
+      <p class="tl-study-edition">Edición del {edition_date_display} · versión {edition_version}</p>
+      <p class="lead">De {tank_compressors['total']} compresores con tanque de la base, {tank_compressors['output_flow_count']} tienen caudal de salida a presión de trabajo documentado.</p>
+      <p>{metrics['sample_size']} modelos y {metrics['total_specs_analyzed']} especificaciones registradas en esta edición. Los resultados describen la cobertura de esta base y cambian al incorporar documentación.</p></header>
+      <section class="tl-card"><h2>Qué mide esta edición</h2>
+      <p><strong>Modelos por categoría:</strong> {category_summary}.</p>
+      <p>Elegimos estos indicadores porque son datos que más cambian la elección: caudal entregado a presión, presión de trabajo frente a máxima y energía de impacto declarada según el protocolo EPTA.</p>
+      <p>Amoladoras, soldadoras y generadores están en la base, pero todavía no tienen un indicador propio en esta edición.</p></section>
+      <section class="tl-card"><h2>Visualización de cobertura</h2>
+      <p><a href="#prensa">Ir al resumen para prensa</a></p>
+      <p>Las barras comparan cada indicador con el total de su grupo en la muestra; el denominador queda visible.</p>
+      <div style="width:100%; overflow-x:auto"><div style="min-width:980px">{render_research_study_coverage_svg()}</div></div>
+      <a class="tl-nav-pill" href="/herramientas/investigacion/grafico-cobertura.svg">Descargar gráfico SVG</a></section>
       <section class="tl-card"><h2>Datos disponibles en la base</h2>
       <table class="tl-table"><thead><tr><th>Indicador</th><th>Con dato</th><th>Modelos</th><th>Porcentaje</th></tr></thead><tbody>{table}</tbody></table></section>
+      <section class="tl-card"><h2>Ejemplo: ¿alcanza este compresor para pintar?</h2>
+      <p>La pistola BTA AS-1021 (código 279064.1) declara un consumo de aire aproximado de 85 L/min y un rango de presión de 10–40 PSI. Para cotejarla, hay que mirar cuánto caudal entrega el compresor a la presión de uso, no solo la presión máxima o el tamaño del tanque. Fuente: <a href="https://btatools.com.ar/producto/pistola-para-pintar-baja-presion">ficha oficial BTA de la pistola</a>.</p>
+      <p>El Einhell TE-AC 270/50 Silent publica caudal de salida: 135 L/min a 4 bar y 98 L/min a 7 bar. Esa información permite comparar el caudal de salida a una presión indicada con el consumo de la herramienta; para una conclusión, hay que cotejar valores a una presión compatible con la de trabajo de la pistola. Fuente: <a href="https://www.einhell.com.ar/p/4010451-te-ac-270-50-silent/">ficha oficial Einhell</a>.</p>
+      <p>En el BTA 50 L (código 272057.2), la ficha declara 206 L/min de admisión, pero no informa caudal de salida a presión de trabajo. La admisión describe el aire que entra al compresor, no el caudal que llega a la pistola: con estos documentos no se puede confirmar si sirve para esta aplicación, y no estimamos su salida. Fuente: <a href="https://btatools.com.ar/producto/compresor-de-aire-50-litros-2-0-hp">ficha oficial BTA del compresor</a>.</p>
+      <p>En esta base, {tank_compressors['output_flow_count']} de {tank_compressors['total']} compresores con tanque tienen caudal de salida a presión de trabajo documentado, que permite hacer este tipo de cotejo para las presiones publicadas.</p>
+      <p>Fuentes oficiales consultadas el 16/10/2026. Más contexto: <a href="/compresores/para-pintar/">guía de compresores para pintar</a>.</p></section>
       <section class="tl-card"><h2>Cómo interpretar los resultados</h2>
       <p>Se cuenta un dato cuando hay un valor numérico finito, respaldo documental utilizable y estado declarado o calculado. Los datos no encontrados, contradictorios o excluidos por falta de respaldo no cuentan como disponibles.</p>
-      <p>Una ausencia en este catálogo significa que no hay un dato utilizable cargado: no demuestra que el fabricante lo omita. La muestra es una selección editorial de modelos y no representa estadísticamente a todo el mercado argentino.</p>
+      <p>La disponibilidad indicada describe únicamente si esta base contiene un dato utilizable para los modelos incluidos. La muestra es una selección editorial de modelos y no representa estadísticamente a todo el mercado argentino.</p>
       <p>EPTA indica el protocolo mencionado en la fuente para energía de impacto; no constituye una certificación independiente. El caudal de salida registrado tampoco acredita por sí solo un ensayo FAD normalizado. No atribuimos resultados de rendimiento ni mediciones propias a esta investigación.</p>
       <p>Los valores sin respaldo recuperable, las referencias comerciales y los códigos no coincidentes quedan fuera de los indicadores. El inventario distingue recuperación documental de concordancia textual. La edición conserva las exclusiones; no presenta una ausencia en la base como una omisión del fabricante.</p></section>
       <section class="tl-card"><h2>Datos para reproducir el cálculo</h2>
       <p>El CSV contiene una fila por especificación, con valor original, unidad, condición, variante, estado, fuente, respaldo documental y clasificación utilizada en los indicadores. Las cotizaciones sin evidencia se excluyen.</p>
-      <p>Investigación editorial: <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani</a>. Muestra editorial de seis categorías; ningún porcentaje se extrapola al mercado completo.</p>
+      <p>Investigación editorial: <a href="/autor/joaquin-vallasciani/">Joaquín Vallasciani</a>. La base reúne modelos de seis categorías; los indicadores específicos corresponden a compresores, hidrolavadoras y rotomartillos, además del recuento general de discrepancias. Ningún porcentaje se extrapola al mercado completo.</p>
       <a class="tl-nav-pill" href="/herramientas/investigacion/descargar-datos.json">Descargar edición JSON y versión</a>
       <a class="tl-nav-pill" href="/herramientas/investigacion/fuentes.json">Inventario fechado de fuentes</a>
       <a class="tl-nav-pill" href="/herramientas/investigacion/descargar-datos.csv">Descargar especificaciones y clasificaciones</a>
       <a class="tl-nav-pill" href="/herramientas/metodologia/">Consultar metodología</a></section>
+      <section class="tl-card" id="prensa"><h2>Resumen para prensa</h2>
+      <ul>{''.join(f'<li>{escape(fact)}</li>' for fact in press_facts)}</ul>
+      <p><strong>Gráfico descargable:</strong> <a href="/herramientas/investigacion/grafico-cobertura.svg">SVG de cobertura documental</a>.</p>
+      <blockquote>“En esta muestra editorial, {tank_compressors['output_flow_count']} de {tank_compressors['total']} compresores con tanque tienen caudal de salida a presión de trabajo documentado; el dato describe la cobertura de la base.”<br><cite>Joaquín Vallasciani, responsable de investigación documental de TallerLab</cite></blockquote>
+      <h3>Límites</h3><ul><li>Es una muestra editorial de modelos seleccionados.</li><li>No representa estadísticamente al mercado argentino.</li><li>TallerLab no realizó ensayos propios para esta investigación.</li></ul>
+      <h3>Descargas y referencia</h3>
+      <p><a href="/herramientas/investigacion/descargar-datos.csv">CSV de especificaciones</a> · <a href="/herramientas/investigacion/descargar-datos.json">JSON de la edición</a> · <a href="/herramientas/investigacion/fuentes.json">Inventario de fuentes</a></p>
+      <p>Edición del {edition_date} · versión {version}.</p>
+      <p><strong>Cómo citar:</strong> TallerLab ({edition_date}). Cobertura de especificaciones en el catálogo argentino de TallerLab. Versión {version}. https://www.tallerlab.com.ar/herramientas/investigacion/brecha-especificaciones-argentina/. Licencia CC BY 4.0.</p>
+      <p><strong>Contacto:</strong> {email_html}</p></section>
+      <section class="tl-card"><h2>Historial de cambios</h2>
+      <ul><li>16/10/2026: se actualizaron los datos documentales de los compresores BTA de 25 y 50 L; el caudal de admisión no cuenta como caudal de salida a presión.</li>
+      <li>16/10/2026: el denominador de rotomartillos se alineó con la clasificación familiar del catálogo.</li>
+      <li>16/10/2026: una advertencia de tensión del Lüsqtoff SML120-8DK pasó a límites y advertencias, fuera del indicador de discrepancias.</li></ul></section>
+      <section class="tl-card"><h2>Cómo citar este estudio</h2>
+      <p><button type="button" class="tl-nav-pill" onclick="navigator.clipboard.writeText(document.querySelector('.tl-study-citation').textContent)">Copiar cita</button></p>
+      <p class="tl-study-citation">TallerLab ({edition_date_display}). Cobertura de especificaciones en el catálogo argentino de TallerLab. Versión {edition_version}. https://www.tallerlab.com.ar/herramientas/investigacion/brecha-especificaciones-argentina/. Licencia CC BY 4.0.</p></section>
     </article></div>"""
 
 
@@ -1524,6 +1738,7 @@ def get_tool_product_schema(tool: TechnicalTool, page_url: str) -> str:
     schema: Dict[str, Any] = {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": page_url + "#product",
         "name": f"{tool.brand} {tool.model_name}",
         "model": tool.model_name,
         "brand": {
@@ -1587,7 +1802,8 @@ def get_tool_page_schema(tool: TechnicalTool, page_url: str) -> str:
         "isPartOf": {"@type": "WebSite", "name": "TallerLab", "url": base + "/"},
         "publisher": {"@id": base + "/#organization"},
         "author": {"@type": "Person", "name": AUTHOR_NAME, "url": base + AUTHOR_PATH},
-        "mainEntity": {"@type": "Product", "name": f"{tool.brand} {tool.model_name}", "url": page_url},
+        # Referencia al Product completo de la página (evita un segundo Product incompleto).
+        "mainEntity": {"@id": page_url + "#product"},
     }
     if tool.last_documented_date:
         page["dateModified"] = tool.last_documented_date
@@ -1600,6 +1816,18 @@ def get_tool_page_schema(tool: TechnicalTool, page_url: str) -> str:
 
 def get_research_study_schema(study_url: str, csv_download_url: str) -> str:
     """Genera schemas Article y Dataset para la página de investigación documental."""
+    study_data = get_research_study_data()
+    metrics = study_data["metrics"]
+    variable_measured = [
+        {
+            "@type": "PropertyValue",
+            "name": family_data["label"] + " con caudal de salida documentado",
+            "value": family_data["output_flow_count"],
+            "unitText": "modelos",
+            "description": f"{family_data['output_flow_count']} de {family_data['total']} modelos de esta familia en la base.",
+        }
+        for family_data in metrics["compresores_por_familia"].values()
+    ]
     dataset_schema = {
         "@context": "https://schema.org",
         "@type": "Dataset",
@@ -1607,6 +1835,11 @@ def get_research_study_schema(study_url: str, csv_download_url: str) -> str:
         "description": "Observaciones registradas, fuentes, condiciones, variantes y clasificaciones de cobertura de la base TallerLab.",
         "url": study_url,
         "license": "https://creativecommons.org/licenses/by/4.0/",
+        "version": get_research_study_data()["version"],
+        "dateModified": get_research_study_data()["edition_date"],
+        "dateModified": study_data["date_modified"],
+        "version": study_data["version"],
+        "variableMeasured": variable_measured,
         "creator": {
             "@type": "Person",
             "name": "Joaquín Vallasciani",

@@ -23,6 +23,14 @@ Configurar `CRON_SECRET` como variable privada de Vercel. El cron `30 10 * * *` 
 
 Las respuestas públicas pueden usar el corte verificado incluido si no se consigue leer PostgreSQL; esa caída se registra y el monitor falla explícitamente. La caducidad de evidencia impide que el corte siga emitiendo síes indefinidamente. La telemetría es opcional y falla sin interrumpir páginas; registra únicamente contadores por evento, nunca consultas libres, IPs o cookies.
 
+## Alertas
+
+El workflow `.github/workflows/compatibilidad-operacion.yml` compara cada día el estado público con la ejecución anterior guardada en la caché de GitHub Actions. Avisa cuando bajan los productos publicados o las relaciones, cuando un producto pasa de publicado a suspendido/pendiente, aparece una nueva fuente fallida o la evidencia más antigua supera 20 días. El mensaje incluye el modelo, el motivo y la fecha cuando se suspende un producto; la alerta de antigüedad incluye la fecha de revisión más antigua. Se avisa al dueño por los canales existentes de Comunidad: correo mediante Resend a `COMUNIDAD_AVISO_EDITOR_EMAIL` y/o Telegram al chat configurado. No cambia el vencimiento documental de 30 días.
+
+Además, compara el estado con un mínimo persistente por ejecución: 18 productos publicados y 40 relaciones documentadas. Para ajustar estos valores en GitHub, definir las variables de repositorio `COMPATIBILITY_EXPECTED_PUBLISHED_PRODUCTS` y `COMPATIBILITY_EXPECTED_DOCUMENTED_RELATIONS`; vacías o inválidas, se usan los valores 18 y 40. La alerta se repite mientras la cobertura observada quede por debajo del mínimo.
+
+En GitHub, cargar como secretos del repositorio `RESEND_API_KEY`, `COMUNIDAD_AVISOS_REMITENTE` y `COMUNIDAD_AVISO_EDITOR_EMAIL` para correo; o `COMUNIDAD_TELEGRAM_BOT_TOKEN` y `COMUNIDAD_TELEGRAM_CHAT_ID` para Telegram. Se pueden habilitar ambos canales. Si no hay un canal configurado o falla la entrega, el workflow falla y queda sujeto a las notificaciones habituales de GitHub Actions. No se requieren variables nuevas en Vercel; el workflow consulta el endpoint público `/api/compatibilidad/estado`.
+
 ## Comandos
 
 Desde el proyecto, con requirements instalados:
@@ -64,7 +72,7 @@ Una fuente inaccesible pasa a pendiente y deja de sostener un sí; un contenido 
 
 Se ejecutó un mantenimiento real el 4 de octubre de 2026: las 18 fichas Bosch/Gamma estuvieron accesibles, se comprobó el manual complementario y se publicó una versión en SQLite aislado para verificar la persistencia. Las 32 pruebas cubren ambigüedad independiente de ambos campos, colisiones, falsos dominios, fuente retirada/modificada, aprobación explícita, caducidad en procesos calientes, especificaciones adulteradas, publicación persistida, concurrencia, rollback, exportaciones, autenticación, fallos HTTP 503, noindex de pendientes y lectura pública ante fallo de SQLite.
 
-`/api/compatibilidad/estado` devuelve HTTP 200 únicamente con almacenamiento persistido, comprobación de menos de 26 horas, fuentes accesibles y modelos verificados. Devuelve 503 si se degrada. El cron también devuelve 503 si el ciclo requiere revisión. `.github/workflows/compatibilidad-operacion.yml` prepara una comprobación externa diaria a las 08:30 Argentina; solo se activa al publicar el workflow en la rama predeterminada. Las notificaciones dependen de la configuración de GitHub del propietario.
+`/api/compatibilidad/estado` devuelve HTTP 200 únicamente con almacenamiento persistido, comprobación de menos de 26 horas, fuentes accesibles y modelos verificados. Devuelve 503 si se degrada. El cron también devuelve 503 si el ciclo requiere revisión. `.github/workflows/compatibilidad-operacion.yml` prepara una comprobación externa diaria a las 08:30 Argentina; solo se activa al publicar el workflow en la rama predeterminada. Las alertas al dueño requieren configurar los secretos indicados en la sección Alertas.
 
 ## Despliegue preparado, publicación diferida
 
@@ -88,8 +96,59 @@ El CTA dice “Consultar precio y contenido del kit Bosch 1600A015TD” y conser
 
 Las ofertas exactas se incorporan en `data/commercial_offers.json`, bajo `exact_offers`, usando como clave el ID del producto. Cada registro necesita `brand`, `mpn`, `url`, `identity_confirmed`, `reviewed_at` con zona horaria y `contents_note`. Revisar el destino y confirmar SKU antes de marcar `identity_confirmed: true`; comprobar kit, variante y tensión. Solo se aceptan enlaces de referido `https://meli.la/`, con identidad coincidente y revisión de menos de 30 días. La fecha es de la revisión real del aviso, no de la edición del JSON. Actualmente no hay ofertas exactas recibidas para los 18 modelos: no se inventaron enlaces ni se reutilizó el de la amoladora GWS 10 sin código completo.
 
+### Plantilla editorial de las fichas de producto
+
+`data/fichas_editorial.json` usa una clave de primer nivel por ID de producto para el render enriquecido. No admite una lista paralela `productos`: toda ficha y su investigación quedan asociadas al ID exacto del catálogo. Los registros llevan `publicado: false`; solo el dueño activa el render cambiándolo expresamente a `true`. Los bloques sin datos no se renderizan.
+
+Cada dato documentado usa `value`, `unit`, `source` (URL oficial HTTPS), `section` (sección de la ficha o manual), `date_consulted` en formato `dd/mm/aaaa` y `excerpt` de hasta 25 palabras. Los datos de unidades numéricas —incluidos `V`, `Ah`, `kg`, `mm` y `min`— se guardan como números. Los rangos y dimensiones usan arreglos numéricos con `value_format`; las aclaraciones van en `note` y se muestran separadas del valor. Los tiempos de carga al 80 % y al 100 % se guardan en filas numéricas separadas con su etiqueta. La energía debe ser el producto numérico de tensión por capacidad y se muestra como cálculo de TallerLab.
+
+`research` conserva la clasificación, los motivos editoriales, los SKU, los IDs de fuentes y búsquedas y las notas documentales de la investigación original sin publicarlos como afirmaciones de producto. Las fuentes oficiales siguen en `fuentes` y las búsquedas en `investigacion_keywords`.
+
+Este JSONC ilustra la forma, no es un registro para copiar ni contiene datos de un producto:
+
+```jsonc
+{
+  "ID_PRODUCTO": { // Reemplazar por un ID ya existente en el catálogo.
+    "publicado": false, // Mantenerlo así hasta la activación editorial del dueño.
+    "last_approved_modified_at": null, // Informar fecha ISO aprobada al publicar; null en borrador.
+    "compatibility": [
+      {
+        "counterpart_id": "ID_CONTRAPARTE", // El nombre, código y enlace salen del catálogo.
+        "type": { "value": "DATO_DOCUMENTADO", "unit": "tipo de relación", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+        "conditions": { "value": "CONDICION_DOCUMENTADA", "unit": "condición", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } // Omitir si no existe una condición.
+      }
+    ],
+    "specifications": {
+      "voltage": { "value": 0, "unit": "V", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "capacity_ah": { "value": 0, "unit": "Ah", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "energy_wh": { "value": 0, "unit": "Wh", "source": "URL_OFICIAL_HTTPS", "section": "CALCULO_TALLERLAB_V_POR_AH", "date_consulted": "dd/mm/aaaa" }
+    },
+    "charge_times": [{ "counterpart_id": "ID_CONTRAPARTE", "time": { "value": 0, "unit": "min", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } }],
+    "tool": { "packages": [{
+      "code": { "value": "CODIGO_EXACTO", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "package_type": { "value": "DATO_DOCUMENTADO", "unit": "presentación", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "box_contents": [{ "value": "ELEMENTO_DOCUMENTADO", "unit": "elemento", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }]
+    }] },
+    "identification": { "text": { "value": "INSTRUCCION_DOCUMENTADA", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" } },
+    "common_errors": [{ "value": "ERROR_DOCUMENTADO", "unit": "texto", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }],
+    "faqs": [{
+      "question": { "value": "PREGUNTA", "unit": "pregunta", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "answer": { "value": "RESPUESTA_DOCUMENTADA", "unit": "respuesta", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }
+    }],
+    "image": { // Opcional; solo se renderiza con archivo, texto alternativo y crédito.
+      "file": { "value": "/assets/ARCHIVO", "unit": "archivo", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "alt": { "value": "DESCRIPCION_DE_LA_IMAGEN", "unit": "texto alternativo", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "author_or_license": { "value": "AUTOR_O_LICENCIA", "unit": "autor o licencia", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" },
+      "credit": { "value": "CREDITO_VISIBLE", "unit": "crédito visible", "source": "URL_OFICIAL_HTTPS", "section": "SECCION_DEL_DOCUMENTO", "date_consulted": "dd/mm/aaaa" }
+    }
+  }
+}
+```
+
+El bloque de herramienta registra la presentación y el contenido por código exacto. El kit Bosch 1600A015TD solo puede acompañar a una herramienta publicada cuya ficha indique `package_type.value` igual a `Solo cuerpo` y cuyo código coincida; no aparece en fichas de baterías, cargadores ni herramientas sin esa documentación. Una imagen se atribuye visiblemente y se incorpora al JSON-LD de la página; no se genera marcado `FAQPage`.
+
 - Ampliar la cobertura con fichas y manuales oficiales de las referencias pendientes. Priorizar los modelos que consultan los lectores; documentar SKU exacto, plataforma, especificaciones, condiciones y relación antes de habilitar respuestas afirmativas. La cobertura verificada actual solo corresponde a Bosch y Gamma.
 - Añadir ensayos propios reproducibles y fotografías originales si se pretende acreditar experiencia práctica: identificar unidades, procedimiento, resultado y autor de cada ensayo. La verificación documental existente no equivale a un ensayo físico.
-- Cerrar la revisión visual en escritorio y móvil con un navegador que pueda acceder al servidor local o al futuro preview de Vercel. En esta sesión el navegador no pudo llegar al servidor local; la política del navegador tampoco permite abrir archivos file://. No se certificó esa comprobación visual.
+- Cerrar la revisión visual en escritorio y móvil con un navegador que pueda acceder al servidor local o al futuro preview de Vercel. La plantilla de TAREA 6 se revisó en escritorio con un fixture sintético; todavía falta la comprobación en viewport móvil.
 
 No se aprovisionó PostgreSQL ni se desplegó el sitio: faltan esas acciones y comprobar una ejecución real de Vercel para certificar operación programada en producción. Esta entrega habilita ese camino con código y configuración verificables; no promete autoridad SEO ni ampliación automática de cualquier fabricante.
