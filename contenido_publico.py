@@ -45,7 +45,6 @@ def quitar_enlaces_compra_sin_afiliacion(html):
     return re.sub(r'<div\b[^>]*class="offer-actions"[^>]*>\s*</div>', '', html)
 
 REPLACEMENTS = {
-    'Afiliación y correcciones': 'Correcciones',
     'Dos publicaciones afiliadas: primero cerrar la potencia nominal': 'Dos opciones por potencia y uso',
     'Ofertas argentinas pendientes de verificación': 'Publicaciones comerciales en Argentina',
     'La publicación afiliada pendiente no identifica esta variante; este enlace es a la ficha del código exacto.': 'Ficha del código exacto 9.398-295.0.',
@@ -68,8 +67,6 @@ REPLACEMENTS = {
     'Foto y ficha del fabricante; enlace suministrado por el usuario': 'Foto y ficha del fabricante',
     'Publicaciones con enlace de afiliado': 'Opciones de compra',
     'Opciones con enlace de afiliado': 'Opciones de compra',
-    'Algunos enlaces comerciales son de afiliado y pueden atribuir una compra a TallerLab; el sitio no recibe tus datos de pago.': 'El servicio externo puede atribuir una compra a TallerLab mediante el enlace; el sitio no recibe tus datos de pago.',
-    'Fuentes, variables de comparación, precios, opiniones, pruebas propias y afiliación de TallerLab.': 'Fuentes, variables de comparación, precios, opiniones y revisión documental de TallerLab.',
 }
 
 def limpiar_contenido_publico(html):
@@ -85,8 +82,6 @@ def limpiar_contenido_publico(html):
     html=re.sub(r'TallerLab puede recibir una comisión por los enlaces de afiliado[^.]*\.', '', html)
     html=html.replace('Enlaces comerciales suministrados por el usuario.', '')
     html=html.replace('; no se verificó su contenido actual', '')
-    # La página metodológica conserva su política de correcciones.
-    html=re.sub(r'Cuando una opción encaja con el uso y tiene documentación suficiente, priorizamos ofrecer su enlace de afiliado\..*?las búsquedas generales no llevan esa etiqueta\.', '', html, flags=re.S)
     html=html.replace('publicación afiliada', 'publicación').replace('referencia afiliada', 'publicación')
     html=re.sub(r'<p\b[^>]*>\s*(?:<em>\s*</em>)?\s*</p>', '', html)
     return html
