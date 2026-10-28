@@ -87,14 +87,17 @@ def limpiar_contenido_publico(html):
     return html
 
 
+FOOTER_COMMUNITY_LINK = '<a href="/comunidad/">Comunidad</a> · '
+
+
 def apply_community_nav(html):
-    """Muestra Comunidad en los menús solo cuando la participación está habilitada."""
+    """Muestra Comunidad en los menús y el pie solo cuando la participación está habilitada."""
     try:
         from comunidad import storage
         if not storage.enabled():
-            return html
+            return html.replace(FOOTER_COMMUNITY_LINK, '')
     except Exception:
-        return html
+        return html.replace(FOOTER_COMMUNITY_LINK, '')
 
     def add_link_to_menu(match):
         def with_community(anchor_match):

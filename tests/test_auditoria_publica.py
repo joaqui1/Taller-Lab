@@ -66,7 +66,7 @@ class Contacto(unittest.TestCase):
         self.assertIn('tallerlabarg@gmail.com', html)
         header = html.split('</header>', 1)[0]
         self.assertNotIn('/comunidad/', header)
-        self.assertIn('<a href="/comunidad/">Comunidad</a>', html)
+        self.assertNotIn('<a href="/comunidad/">Comunidad</a>', html)  # cerrada: tampoco en el pie
 
 
 class IngcoSinDestacado(unittest.TestCase):
@@ -119,7 +119,7 @@ class IndexacionDeSeccionesCerradas(unittest.TestCase):
             html = self.site.render_editorial_page('contacto')
         header = html.split('</header>', 1)[0]
         self.assertNotIn('/comunidad/', header)
-        self.assertIn('<a href="/comunidad/">Comunidad</a>', html)  # sigue en el pie
+        self.assertNotIn('<a href="/comunidad/">Comunidad</a>', html)  # cerrada: tampoco en el pie
 
 
 class PerfilDeAutor(unittest.TestCase):
