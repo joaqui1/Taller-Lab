@@ -84,6 +84,21 @@
   const sort = document.getElementById('sort');
   const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es');
   const original = new Map(rows.map((r,i) => [r,i]));
+  // Grupos por disponibilidad: los agotados siempre quedan al final.
+  const groupOrder = ['disponible','sin-dato','agotado'];
+  const groupNames = {disponible:'Con precio actual','sin-dato':'Sin precio vigente',agotado:'Agotados en la última captura'};
+  const groupOf = state => state === 'disponible' || state === 'agotado' ? state : 'sin-dato';
+  const groupLabels = {};
+  for (const key of groupOrder) {
+    let label = list.querySelector('.group-label[data-group="'+key+'"]');
+    if (!label) {
+      label = document.createElement('p'); label.className = 'group-label'; label.dataset.group = key;
+      const name = document.createElement('span'); name.textContent = groupNames[key];
+      const count = document.createElement('span'); count.className = 'group-count';
+      label.append(name, count);
+    }
+    groupLabels[key] = label;
+  }
   function refresh() {
     expireSavedPrices();
     let available = 0, unavailable = 0, unverified = 0;
@@ -107,6 +122,8 @@
       return !row.hidden;
     });
     const sorted = [...rows].sort((a,b) => {
+      const ga = groupOrder.indexOf(groupOf(a.dataset.state)), gb = groupOrder.indexOf(groupOf(b.dataset.state));
+      if(ga !== gb) return ga-gb;
       if(sort.value === 'default') return original.get(a)-original.get(b);
       const ap = a.dataset.state === 'disponible' ? Number(a.dataset.price) : null;
       const bp = b.dataset.state === 'disponible' ? Number(b.dataset.price) : null;
@@ -114,7 +131,15 @@
       if(ap === null) return 1; if(bp === null) return -1;
       return sort.value === 'asc' ? ap-bp : bp-ap;
     });
-    for(const row of sorted) list.appendChild(row);
+    const visibleByGroup = Object.fromEntries(groupOrder.map(key => [key, visible.filter(row => groupOf(row.dataset.state) === key).length]));
+    const shownGroups = groupOrder.filter(key => visibleByGroup[key] > 0).length;
+    for(const key of groupOrder) {
+      const label = groupLabels[key];
+      label.hidden = shownGroups < 2 || visibleByGroup[key] === 0;
+      label.querySelector('.group-count').textContent = String(visibleByGroup[key]).padStart(2,'0');
+      list.appendChild(label);
+      for(const row of sorted) if(groupOf(row.dataset.state) === key) list.appendChild(row);
+    }
     document.getElementById('result-count').textContent = `${visible.length} de ${rows.length} modelos`;
     document.getElementById('empty').hidden = visible.length !== 0;
   }

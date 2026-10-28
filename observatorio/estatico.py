@@ -448,6 +448,32 @@ def methodology(manifest, url, count_by_source=None):
 <section id="citar"><span class="chapter">08 / Licencia</span><h2>Citar y reutilizar</h2><p>Los datos se publican con <a href="{DATA_LICENSE}" rel="license">licencia CC BY 4.0</a>: se pueden copiar, graficar y analizar, también con fines comerciales, citando a TallerLab con un enlace a la página del modelo o a este observatorio.</p><p>Cita sugerida: «Fuente: TallerLab, historial de precios de herramientas en Argentina», con la fecha de la captura y el enlace correspondiente.</p></section></div></section>'''
 
 
+STOCK_GROUPS = (
+    ('disponible', 'Con precio actual'),
+    ('sin-dato', 'Sin precio vigente'),
+    ('agotado', 'Agotados en la última captura'),
+)
+
+
+def stock_group(state):
+    """Disponibles primero, agotados al final; el resto (vencido, error, sin captura) en el medio."""
+    return state if state in ('disponible', 'agotado') else 'sin-dato'
+
+
+def render_grouped_rows(rows, sources, url):
+    """Filas ordenadas por disponibilidad, con un rótulo por grupo. El JS reordena con los mismos grupos."""
+    html = []
+    several = len({stock_group(r['state']) for r in rows}) > 1
+    for key, label in STOCK_GROUPS:
+        group = [r for r in rows if stock_group(r['state']) == key]
+        if not group:
+            continue
+        if several:
+            html.append(f'<p class="group-label" data-group="{key}"><span>{label}</span><span class="group-count">{len(group):02d}</span></p>')
+        html.extend(render_row(r, sources, url(model_path(r['model']))) for r in group)
+    return ''.join(html)
+
+
 def hub_body(category, selected, rows, manifest, url, observed, canonical, latest_report_link=''):
     count = len(rows)
     nav = ''.join(f'<a class="{"active" if c==category else ""}" href="{url("/datos/precios/"+c+"/")}">{name} <span>{sum(r["model"]["category"]==c for r in rows):02d}</span></a>' for c, name in CATEGORIES.items())
@@ -475,7 +501,7 @@ def hub_body(category, selected, rows, manifest, url, observed, canonical, lates
 <p class="reading-note">No es un mínimo del mercado: se sigue una ficha por modelo y variante. Sin envío ni promociones calculadas. Tocá un modelo para ver su historial completo. <a href="{url(METHOD)}">Cómo lo medimos ↗</a></p>
 <div class="filter-bar" hidden><label>Buscar modelo o marca<input id="search" type="search" placeholder="Ej.: Bosch, HL-120, inverter" autocomplete="off"></label><label>Disponibilidad<select id="stock"><option value="all">Todas las fichas</option><option value="disponible">Con precio actual</option><option value="agotado">Agotados</option><option value="unverified">Sin verificación / vencidos</option></select></label><label>Ordenar<select id="sort"><option value="default">Categoría y modelo</option><option value="asc">Menor precio actual</option><option value="desc">Mayor precio actual</option></select></label></div>
 <p class="result-count" id="result-count" aria-live="polite">{len(selected)} modelos</p><p id="freshness-warning" class="warning" {'hidden' if not failed else ''}>Hay fichas sin verificación actual. Se conservan sus observaciones históricas y se excluyen de los precios actuales.</p>
-<div class="table-labels" aria-hidden="true"><span>Modelo / variante</span><span>Precio observado</span><span>Disponibilidad / captura</span><span>Variación</span><span>Fuente</span></div><div id="products">{''.join(render_row(r, manifest['sources'], url(model_path(r['model']))) for r in selected)}</div><p id="empty" class="empty" hidden>No hay modelos con esos filtros. Probá otra marca o disponibilidad.</p></section>
+<div class="table-labels" aria-hidden="true"><span>Modelo / variante</span><span>Precio observado</span><span>Disponibilidad / captura</span><span>Variación</span><span>Fuente</span></div><div id="products">{render_grouped_rows(selected, manifest['sources'], url)}</div><p id="empty" class="empty" hidden>No hay modelos con esos filtros. Probá otra marca o disponibilidad.</p></section>
 <section class="closing"><div><p class="eyebrow">Datos con contexto</p><h2>El precio es una parte<br>de la compra.</h2></div><p>Revisá la variante, el voltaje y los accesorios. Los precios cambian; las fechas y las fuentes te permiten evaluar qué estás mirando.<br>{guide_link} · <a href="{url(METHOD)}">Leer la metodología ↗</a></p></section>
 {cite_block(canonical, observed)}'''
 

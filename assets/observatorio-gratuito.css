@@ -27,5 +27,21 @@
 .embed-tools{margin:38px 0;padding:22px 24px;background:#e5eadf;border-left:3px solid var(--orange)}.embed-tools summary{width:max-content;max-width:100%;cursor:pointer;list-style:none}.embed-tools summary::-webkit-details-marker{display:none}.embed-tools summary span{font-size:18px}.embed-tools>p{margin:16px 0 10px;font-size:12px;color:var(--muted)}.embed-tools textarea{display:block;width:100%;min-height:120px;padding:12px;border:1px solid var(--line);border-radius:3px;background:#fffdf8;color:var(--ink);font:11px/1.65 Mono,monospace;resize:vertical}.embed-attribution{font-size:12px;line-height:1.8}.embed-attribution a{font-weight:650}
 @media(max-width:740px){.embed-tools{padding:18px 14px}.embed-tools .button{gap:22px}}
 
+/* Lista del relevamiento: grupos por disponibilidad y filas más legibles (oct. 2026) */
+.group-label{display:flex;align-items:center;gap:12px;margin:34px 0 4px;font:10px/1.6 Mono,monospace;text-transform:uppercase;letter-spacing:1.4px;color:var(--muted)}.group-label::after{content:"";flex:1;height:1px;background:var(--line)}.group-label .group-count{order:2;padding:1px 7px;border:1px solid var(--line);border-radius:999px;color:var(--ink);letter-spacing:.4px}.group-label[data-group="disponible"]{margin-top:14px}
+.table-labels+#products>.product:first-child{border-top:0}
+.product{padding-top:22px}
+.product-name .brand{text-transform:uppercase;letter-spacing:.9px;font-size:9px;color:var(--muted)}.product-name .category-small{text-transform:none;letter-spacing:0}
+.product h3{font-size:18px;letter-spacing:-.5px;margin:5px 0 4px}
+.product-price strong{font-size:17px;font-weight:600;letter-spacing:-.3px;font-variant-numeric:tabular-nums}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:3px 9px 3px 8px;border-radius:999px;font-weight:600}.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.badge.agotado{background:#e8e6de;color:#5d6860}.badge.desconocido,.badge.pendiente{background:#ece7d8;color:#6b5a1e}
+.product-stock small{display:block;margin-top:6px;font-size:9px;color:var(--muted)}
+.product-change>span{font-variant-numeric:tabular-nums}.product-change.down>span{color:var(--green);font-weight:650}
+.product summary{display:inline-flex;align-items:center;gap:8px;max-width:none;margin:8px 0 18px;padding:5px 12px;border:1px solid var(--line);border-radius:999px;color:var(--ink);background:#fffdf8;transition:border-color .15s ease}.product summary:hover{border-color:var(--ink)}.product summary span{margin-left:0;font-size:11px;line-height:1}.product summary:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.product[data-state="agotado"] h3,.product[data-state="agotado"] h3 a{color:#4c5650}.product[data-state="agotado"] .product-price strong,.product[data-state="agotado"] .product-change>span{color:#8a918a}
+@media(max-width:740px){.product h3{font-size:17px}.product-source{font-size:10px}.product-price strong{font-size:15px}.product-price{padding-top:22px}.group-label{margin-top:26px}.product summary{margin:4px 0 16px}}
+.product-source{font-weight:500;color:#3f4a44}
+
 /* Contraste del estado sin stock. */
 .badge.agotado{color:#4b554b}
