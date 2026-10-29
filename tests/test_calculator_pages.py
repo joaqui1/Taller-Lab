@@ -26,7 +26,7 @@ class CalculatorPagesTests(unittest.TestCase):
                 for html in (guide, page, embed):
                     self.assertIn('/assets/decision-tools.js?v=5', html)
                 self.assertIn("Cómo calcula", page)
-                self.assertIn('applicationCategory', page)
+                self.assertNotIn('WebApplication', page)
                 self.assertIn('isAccessibleForFree', page)
                 self.assertIn('<meta name="robots" content="noindex,follow">', embed)
                 page_url = f'https://www.tallerlab.com.ar/calculadoras/{slug}/'

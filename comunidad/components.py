@@ -136,8 +136,8 @@ def person(post):
 
 
 def product_ref(tool):
-    return {'@type': 'Product', 'name': f'{tool.brand} {tool.model_name}', 'url': absolute(f'/herramientas/{tool.slug}/'),
-            'brand': {'@type': 'Brand', 'name': tool.brand}}
+    # Thing y no Product: un Product sin offers/review/aggregateRating es un error crítico en Search Console.
+    return {'@type': 'Thing', 'name': f'{tool.brand} {tool.model_name}', 'url': absolute(f'/herramientas/{tool.slug}/')}
 
 
 def model_page_jsonld(tool, path, stats):

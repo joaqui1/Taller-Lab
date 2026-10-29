@@ -188,7 +188,7 @@ def relation_schema(source,target,evaluation,path,base):
           'about':[thing(source),thing(target)],
           'author':{'@type':'Person','name':'Joaquín Vallasciani','url':base+'/autor/joaquin-vallasciani/'},
           'publisher':{'@id':base+'/#organization'},
-          'isPartOf':{'@type':'Dataset','name':'Base argentina de compatibilidad de baterías, herramientas y cargadores','url':base+'/compatibilidad/'},
+          'isPartOf':{'@type':'Dataset','name':'Base argentina de compatibilidad de baterías, herramientas y cargadores','description':'Dataset técnico y verificación documental de relaciones de compatibilidad para herramientas a batería de 18V y 20V comercializadas en Argentina.','url':base+'/compatibilidad/'},
           'citation':sorted({e.official_url for e in evaluation.evidence_chain}|{u for e in evaluation.evidence_chain for u in e.supporting_urls})}
     if latest:data['dateModified']=latest
     return '<script type="application/ld+json">'+_json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'

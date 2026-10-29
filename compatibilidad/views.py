@@ -73,7 +73,7 @@ def get_product_schema_json(prod: Product, site_url: str = "") -> str:
         "description": prod.notes or f"Ficha técnica y compatibilidad de {prod.model_name} en Argentina.",
         "about": about,
         "author": {"@type": "Person", "name": "Joaquín Vallasciani", "url": f"{site_url}/autor/joaquin-vallasciani/"},
-        "isPartOf": {"@type": "Dataset", "name": "Base argentina de compatibilidad de baterías, herramientas y cargadores", "url": f"{site_url}/compatibilidad/"},
+        "isPartOf": {"@type": "Dataset", "name": "Base argentina de compatibilidad de baterías, herramientas y cargadores", "description": "Dataset técnico y verificación documental de relaciones de compatibilidad para herramientas a batería de 18V y 20V comercializadas en Argentina.", "url": f"{site_url}/compatibilidad/"},
         "citation": prod.official_url,
     }
     image_url = product_image_schema(prod.id, site_url)
