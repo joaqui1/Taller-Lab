@@ -1786,7 +1786,15 @@ def get_tool_product_schema(tool: TechnicalTool, page_url: str) -> str:
         schema.update(product_review_markup(tool.slug))
     except Exception:
         pass
+    # Google exige offers, review o aggregateRating en todo Product: sin ninguno, no hay Product
+    # (la ficha queda descrita por el ItemPage con un Thing en "about").
+    if not tool_has_product_rich_data(schema):
+        return ""
     return '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c") + '</script>'
+
+
+def tool_has_product_rich_data(schema: Dict[str, Any]) -> bool:
+    return any(schema.get(key) for key in ("offers", "review", "aggregateRating"))
 
 
 def get_tool_page_schema(tool: TechnicalTool, page_url: str) -> str:
@@ -1802,9 +1810,14 @@ def get_tool_page_schema(tool: TechnicalTool, page_url: str) -> str:
         "isPartOf": {"@type": "WebSite", "name": "TallerLab", "url": base + "/"},
         "publisher": {"@id": base + "/#organization"},
         "author": {"@type": "Person", "name": AUTHOR_NAME, "url": base + AUTHOR_PATH},
-        # Referencia al Product completo de la página (evita un segundo Product incompleto).
-        "mainEntity": {"@id": page_url + "#product"},
     }
+    if get_tool_product_schema(tool, page_url):
+        # Referencia al Product completo de la página (evita un segundo Product incompleto).
+        page["mainEntity"] = {"@id": page_url + "#product"}
+    else:
+        page["about"] = {"@type": "Thing", "name": f"{tool.brand} {tool.model_name}", "url": page_url}
+        if tool.mpn:
+            page["about"]["identifier"] = tool.mpn
     if tool.last_documented_date:
         page["dateModified"] = tool.last_documented_date
     citations = sorted({s.source_url for s in backed if s.source_url})

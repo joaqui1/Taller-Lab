@@ -1468,7 +1468,9 @@ def render_calculator_page(path):
     sources = _calculator_sources(article)
     source_html = "".join(f'<li><a href="{escape(url, quote=True)}" rel="noopener" target="_blank">{escape(label)}</a></li>' for label, url in sources)
     related = " · ".join(f'<a href="{escape(url, quote=True)}">{escape(label)}</a>' for label, url in data["related"])
-    schema = {"@context": "https://schema.org", "@type": "WebApplication", "name": data["title"], "url": absolute_url(path), "description": data["description"], "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web", "isAccessibleForFree": True, "publisher": {"@id": absolute_url("/") + "#organization"}}
+    # WebPage y no WebApplication: Google exige offers con precio más review o aggregateRating en las apps;
+    # sin opiniones reales, el marcado de app es un error crítico en Search Console.
+    schema = {"@context": "https://schema.org", "@type": "WebPage", "name": data["title"], "url": absolute_url(path), "description": data["description"], "inLanguage": "es-AR", "isAccessibleForFree": True, "publisher": {"@id": absolute_url("/") + "#organization"}}
     reviewed = article["reviewed"]
     embed_url = "https://www.tallerlab.com.ar/embed/calculadoras/" + path.split("/")[-2] + "/"
     page_url = "https://www.tallerlab.com.ar" + path
