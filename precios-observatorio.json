@@ -12766,12 +12766,12 @@
     }
   },
   "run": {
-    "started_at": "2026-10-30T10:28:44.729686+00:00",
-    "finished_at": "2026-10-30T10:30:50.827725+00:00",
+    "started_at": "2026-10-30T14:03:59.155191+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-10-30T14:03:59.155519+00:00"
   }
 }
