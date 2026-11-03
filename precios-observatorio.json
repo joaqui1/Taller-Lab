@@ -14702,12 +14702,12 @@
     }
   },
   "run": {
-    "started_at": "2026-11-03T03:29:53.801565+00:00",
-    "finished_at": "2026-11-03T03:32:01.123120+00:00",
+    "started_at": "2026-11-03T11:21:54.662782+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-11-03T11:21:54.663216+00:00"
   }
 }
