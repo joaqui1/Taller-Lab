@@ -15540,7 +15540,7 @@
       "status": "ok"
     },
     "lusqtoff-lgi809": {
-      "observed_at": "2026-11-05T17:59:48.238973+00:00",
+      "observed_at": "2026-11-05T20:49:03.345783+00:00",
       "status": "error",
       "reason": "Marca contradictoria"
     },
@@ -15553,12 +15553,12 @@
       "status": "ok"
     },
     "lusqtoff-ironmig100": {
-      "observed_at": "2026-11-05T17:59:51.688621+00:00",
+      "observed_at": "2026-11-05T20:49:06.740911+00:00",
       "status": "error",
       "reason": "Marca contradictoria"
     },
     "lusqtoff-sml1208d": {
-      "observed_at": "2026-11-05T17:59:54.689578+00:00",
+      "observed_at": "2026-11-05T20:49:09.648993+00:00",
       "status": "error",
       "reason": "Marca contradictoria"
     },
@@ -15640,8 +15640,8 @@
     }
   },
   "run": {
-    "started_at": "2026-11-05T17:59:48.238456+00:00",
-    "finished_at": "2026-11-05T17:59:57.662663+00:00",
+    "started_at": "2026-11-05T20:49:03.345344+00:00",
+    "finished_at": "2026-11-05T20:49:12.640220+00:00",
     "models": 44,
     "captured": 0,
     "failed": 3,
