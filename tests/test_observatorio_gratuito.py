@@ -33,6 +33,20 @@ class FreeObservatoryTests(unittest.TestCase):
         self.assertEqual(result['price_ars'],'123456.20')
         self.assertEqual(result['availability'],'disponible')
 
+    def test_brand_accepts_equivalent_html_entities(self):
+        _, model, product = fixture()
+        plain_brand = 'LUSQTOFF & GARDEN PLUS'
+        escaped_brand = 'LUSQTOFF &amp; GARDEN PLUS'
+        for configured, observed in ((escaped_brand, plain_brand), (plain_brand, escaped_brand)):
+            with self.subTest(configured=configured, observed=observed):
+                model['schema_brand'] = configured
+                product['brand']['name'] = observed
+                html = (
+                    '<script type="application/ld+json">' + json.dumps(product) + '</script>'
+                    '<span id="price_display">$ 123.456,20</span>'
+                )
+                self.assertEqual(extract_public_product(html, model)['price_ars'], '123456.20')
+
     def test_wrong_identity_variant_currency_and_offer_refused(self):
         _, m, product = fixture()
         cases = [('sku','otro'),('name','Taladro X1 con batería'),('mpn','otra'),('brand',{'name':'otra'}),('additionalProperty',[{'name':'Incluye batería','value':'Sí'}])]

@@ -13,6 +13,7 @@ import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, ROUND_HALF_UP
+from html import unescape
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
@@ -97,7 +98,7 @@ def extract_public_product(html, model):
         raise ValueError('Título o variante cambió; requiere revisión')
     brand = product.get('brand') or {}
     brand = brand.get('name', '') if isinstance(brand, dict) else brand
-    if normalized(brand) != normalized(model['schema_brand']):
+    if normalized(unescape(str(brand))) != normalized(unescape(str(model['schema_brand']))):
         raise ValueError('Marca contradictoria')
     # Las propiedades que definen variantes tampoco pueden cambiar silenciosamente.
     props = {p.get('name'): p.get('value') for p in product.get('additionalProperty', []) if isinstance(p, dict)}
