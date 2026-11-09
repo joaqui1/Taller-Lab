@@ -16781,12 +16781,12 @@
     }
   },
   "run": {
-    "started_at": "2026-11-09T18:57:43.004393+00:00",
-    "finished_at": "2026-11-09T18:58:55.280723+00:00",
+    "started_at": "2026-11-09T20:42:04.208801+00:00",
     "models": 44,
-    "captured": 24,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 20,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-11-09T20:42:04.209287+00:00"
   }
 }
