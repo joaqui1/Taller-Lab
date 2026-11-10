@@ -16600,193 +16600,677 @@
       "model_id": "lusqtoff-scl7108",
       "observed_at": "2026-11-09T18:58:55.254634+00:00",
       "day_art": "2026-11-09"
+    },
+    {
+      "price_ars": "260356.80",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "becd95ed5f5f7a5fea3cce82af6222f78e609ce16a4d9ca85a925e358bc3b6da",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc2550b8",
+      "observed_at": "2026-11-10T04:10:42.388043+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "299415.60",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "86eab0bb0e02808348344bd43aad15b8fcd8bc368b262bab4b90ced26a0b9252",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc2550bk",
+      "observed_at": "2026-11-10T04:10:45.331562+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "488175.60",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "79f7417c8bd6dceba53a226b183a891d89380cc772a4030a23bdd15065e26233",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc3550bk",
+      "observed_at": "2026-11-10T04:10:48.332496+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "195280.80",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "0f50b7bd089222a5ae9fa9056f410a3cd0c881409052d1a17272f311ac4a3253",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc0122",
+      "observed_at": "2026-11-10T04:10:51.322912+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": null,
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "2dcb320dd962f65b3b51c669ab48805b3559bda10bc0b01a09a117f6d4f5466f",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc40100",
+      "observed_at": "2026-11-10T04:10:54.357149+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "1263512.25",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "6d1b603dc43500d99dd4e9e1addb60c26b0df777b87ebe2ccf61610c31ea2d2f",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc30100",
+      "observed_at": "2026-11-10T04:10:57.327174+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "73774.80",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "6cad7f7f967ed1cf727069a356e34eeb4b5ed0b3523e46d4aa18ff6d8b955e56",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-mcl1508",
+      "observed_at": "2026-11-10T04:11:00.330711+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "65089.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "9d9df3e9438c13d1b9b02fb51840dc9a723eb73e3b3b626d704cdec9858282cf",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lc826",
+      "observed_at": "2026-11-10T04:11:03.322436+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "121506.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "c1808868162bdea6b356b7b34b500064064f3c324a7517cece2ce48c6e191385",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-hl120",
+      "observed_at": "2026-11-10T04:11:06.324079+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "97640.40",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "4cc955ea7cf31c1474bd6fafe075231fe4fde30269fef897c4c1d9d1362aef5f",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-hl1007",
+      "observed_at": "2026-11-10T04:11:09.325208+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "271207.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "2ebbf04ccd610f72d808ab40a75fe530e303da60958d7d05d9eb747863d31384",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-hl18008",
+      "observed_at": "2026-11-10T04:11:12.322346+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "368847.60",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "b56e9f2ef6320e8726cb00f5539c685a14eb9e7a4dfcb1460cae5a4f2948f4b6",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-hl21009",
+      "observed_at": "2026-11-10T04:11:15.328198+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "930000.00",
+      "reference_ars": "1200000.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "f49786c7661491c7eaebe53c44ce1a73e12fa20605d988419df94ac04b680792",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-ghp450",
+      "observed_at": "2026-11-10T04:11:20.765984+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "173452.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "848e752a4dacd3c919f802ecdd4bccfde7e2a246b57976bab27f753024d5c47e",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "belarra-h1200",
+      "observed_at": "2026-11-10T04:11:24.920119+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "212690.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "d9602dfe0ff71b2fc4893df8a4eceb9ab468dbcd7a0600f7ea1bea6bc884f4f2",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "belarra-h1500",
+      "observed_at": "2026-11-10T04:11:28.211435+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "238656.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "933e273c0d0fe79ebb73128e46426debb02115556b4426b5aa261e6d278b6319",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lg950p",
+      "observed_at": "2026-11-10T04:11:28.335205+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "542427.60",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "69e1c36c19a3fbc4d8728ea9cc0125f1b9f78e26e04726ed9938ca177d3aad3d",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lg3000",
+      "observed_at": "2026-11-10T04:11:31.339482+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "650905.20",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "13dce09d29eef994db4a7e8d5a6e7e9397729c41b8151d8791159f3a38e9bf21",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lg3000e",
+      "observed_at": "2026-11-10T04:11:34.338047+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "1518765.60",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "bdba7f16ae859060fd582297ce343f0b756fb013e1d3ecb4da8a2c42c799b520",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lg7500ex",
+      "observed_at": "2026-11-10T04:11:37.361490+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "650905.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "21cf588d87eafffabf16f725e2803dd00827c3358f9f68a002a6957840c1b6e2",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lgi258",
+      "observed_at": "2026-11-10T04:11:40.338942+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "1779122.40",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "99d0d39bfbc40379ac4f126c6c9833b9be04dea5496391b3e93be0e1f74c1c9d",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-lgi809",
+      "observed_at": "2026-11-10T04:11:43.345284+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "83542.80",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "28d7554146b9a39eb09b6e6ab6650bc1dc4ef436c522f8b4b561a3922c2d8e20",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-iron1008",
+      "observed_at": "2026-11-10T04:11:46.335830+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": null,
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "5dcaec2626b0f84c7a2f0d13575dbd9f5f37efcb78c6c0234243c11aaee8e48f",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-iron140",
+      "observed_at": "2026-11-10T04:11:49.333393+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "312430.80",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "5fbace31f041de404588d57fd45e56566f714f4363d06c87d9d1e944817ed9c8",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-ironmig100",
+      "observed_at": "2026-11-10T04:11:52.333034+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "154044.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "9db7864e41158627ce567f8bbe32bb4f4d7c82643782d34e948f38732b1adfe1",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-sml1208d",
+      "observed_at": "2026-11-10T04:11:55.333627+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "477325.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "b764225a312e831eb4316b52fe3cd61c1db170b72186f36bf137e3fcee57cf3b",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-evomig175",
+      "observed_at": "2026-11-10T04:11:58.338855+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "170000.00",
+      "reference_ars": "217805.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "c9d743aee57f20963f3eab976dc6c070dedd6d437a9d8cb97482a9edfdd20932",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gsb13re",
+      "observed_at": "2026-11-10T04:11:58.420250+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "299999.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "194b9661b9a1e507bcdc1a0aae356fd09b94fe932665116d594b5f8c96ed5274",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gsb16re",
+      "observed_at": "2026-11-10T04:12:01.408904+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "470540.00",
+      "reference_ars": "550000.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "8a8af9627c712db013ed64b79ab764d39b14f45ef88b65c8dec19dd35a6a73ca",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gsb185li",
+      "observed_at": "2026-11-10T04:12:04.422395+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "589219.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "7559f97e1566d547bc46a95b90cd55bcccc8aa39b941ff807b7a323ce1607bd1",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gsb183li",
+      "observed_at": "2026-11-10T04:12:07.411844+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "423225.00",
+      "reference_ars": "450000.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "e8cf3f39e17edf096ee40af3b951d640280ef21eb13d4e99195aeddfc3ab5e90",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gbh185li",
+      "observed_at": "2026-11-10T04:12:10.408534+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "246000.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "9141a936d5ca9f1d52efa8cad9a6b0dc8b5b8c24f6e58f196feb38596e09494b",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-tecd1840libl",
+      "observed_at": "2026-11-10T04:12:13.423422+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "485903.78",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "dc0cca3ea33dabb59cd229c20cbf00fdfb7be949518f8b78806e6e9da7059762",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-tpcd1880liibl",
+      "observed_at": "2026-11-10T04:12:16.416892+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "143745.39",
+      "reference_ars": "166945.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "db6eb7099f211451c231dab53f960ead689363b7faea14e61d021b299ad3b58b",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gws700",
+      "observed_at": "2026-11-10T04:12:23.087654+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "365921.00",
+      "reference_ars": "400000.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "9f3a14e5c500a63a39fe325c9d61311c362ee544cea53538a0085603f01a7505",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gws18v8",
+      "observed_at": "2026-11-10T04:12:23.166425+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "209820.74",
+      "reference_ars": null,
+      "availability": "agotado",
+      "currency": "ARS",
+      "evidence_sha256": "d600da17f960d8ecb81ed3051084ec1b82e6ebb3854b1d642109b615b1eb09a8",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-teag1251010ce",
+      "observed_at": "2026-11-10T04:12:26.156060+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "243000.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "c5adc758c76171eb44ba245e8278e534ec7aacb03981b3f5a87d6d3933f1d3cd",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-teag18115qli",
+      "observed_at": "2026-11-10T04:12:29.160775+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "372000.00",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "cc60ca51b3d9ca2af78dff4f40104b656f4d33143787400f7d2fd4aeb7eba234",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-teag180dp",
+      "observed_at": "2026-11-10T04:12:32.173829+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "898215.00",
+      "reference_ars": "1100614.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "7ff2062c511b9379ec1444e3073cdea0f891b2a39d6ad5d73e58adb675e92f8e",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-tcsm254",
+      "observed_at": "2026-11-10T04:12:35.174685+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "395000.00",
+      "reference_ars": "509874.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "30de5d10c4e7b255afbd15f726421669736bd4eaad3fc3c06fd0e1a8e90d0396",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-tcms216",
+      "observed_at": "2026-11-10T04:12:38.157999+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "1135663.20",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "6c96904f8dd33587e5a0b9a19af72d5845dd7bf460fd9899c9840f9474cf7bfe",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "einhell-tesm10ldual",
+      "observed_at": "2026-11-10T04:12:41.159796+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "761120.00",
+      "reference_ars": "900000.00",
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "8f57a26dd4f0545a4601662d74958c4089c1534dfa4c05e2beaf3fe33397f4e3",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "bosch-gts254",
+      "observed_at": "2026-11-10T04:12:44.178187+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "184481.07",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "a43c4938b20f5a8ffcd87ae8916c556085564e84e01b3b9d7b6dd406412957d1",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "hamilton-hca003",
+      "observed_at": "2026-11-10T04:12:47.153247+00:00",
+      "day_art": "2026-11-10"
+    },
+    {
+      "price_ars": "123538.80",
+      "reference_ars": null,
+      "availability": "disponible",
+      "currency": "ARS",
+      "evidence_sha256": "77970d441d39b7622a38e164970b0fee2c9bd84f5719b28deb352b4889fa4f51",
+      "extractor_version": "gratuito-1.0",
+      "model_id": "lusqtoff-scl7108",
+      "observed_at": "2026-11-10T04:12:47.271173+00:00",
+      "day_art": "2026-11-10"
     }
   ],
   "latest_attempts": {
     "lusqtoff-lc2550b8": {
-      "observed_at": "2026-11-09T18:57:46.330596+00:00",
+      "observed_at": "2026-11-10T04:10:42.388043+00:00",
       "status": "ok"
     },
     "lusqtoff-lc2550bk": {
-      "observed_at": "2026-11-09T18:57:49.266298+00:00",
+      "observed_at": "2026-11-10T04:10:45.331562+00:00",
       "status": "ok"
     },
     "lusqtoff-lc3550bk": {
-      "observed_at": "2026-11-09T18:57:52.274462+00:00",
+      "observed_at": "2026-11-10T04:10:48.332496+00:00",
       "status": "ok"
     },
     "lusqtoff-lc0122": {
-      "observed_at": "2026-11-09T18:57:55.258301+00:00",
+      "observed_at": "2026-11-10T04:10:51.322912+00:00",
       "status": "ok"
     },
     "lusqtoff-lc40100": {
-      "observed_at": "2026-11-09T18:57:58.285374+00:00",
+      "observed_at": "2026-11-10T04:10:54.357149+00:00",
       "status": "ok"
     },
     "lusqtoff-lc30100": {
-      "observed_at": "2026-11-09T18:58:01.263808+00:00",
+      "observed_at": "2026-11-10T04:10:57.327174+00:00",
       "status": "ok"
     },
     "lusqtoff-mcl1508": {
-      "observed_at": "2026-11-09T18:58:04.248714+00:00",
+      "observed_at": "2026-11-10T04:11:00.330711+00:00",
       "status": "ok"
     },
     "lusqtoff-lc826": {
-      "observed_at": "2026-11-09T18:58:07.267191+00:00",
+      "observed_at": "2026-11-10T04:11:03.322436+00:00",
       "status": "ok"
     },
     "lusqtoff-hl120": {
-      "observed_at": "2026-11-09T18:58:10.251714+00:00",
+      "observed_at": "2026-11-10T04:11:06.324079+00:00",
       "status": "ok"
     },
     "lusqtoff-hl1007": {
-      "observed_at": "2026-11-09T18:58:13.290182+00:00",
+      "observed_at": "2026-11-10T04:11:09.325208+00:00",
       "status": "ok"
     },
     "lusqtoff-hl18008": {
-      "observed_at": "2026-11-09T18:58:16.257226+00:00",
+      "observed_at": "2026-11-10T04:11:12.322346+00:00",
       "status": "ok"
     },
     "lusqtoff-hl21009": {
-      "observed_at": "2026-11-09T18:58:19.252324+00:00",
+      "observed_at": "2026-11-10T04:11:15.328198+00:00",
       "status": "ok"
     },
     "bosch-ghp450": {
-      "observed_at": "2026-11-09T12:09:46.190600+00:00",
+      "observed_at": "2026-11-10T04:11:20.765984+00:00",
       "status": "ok"
     },
     "belarra-h1200": {
-      "observed_at": "2026-11-09T12:09:50.923635+00:00",
+      "observed_at": "2026-11-10T04:11:24.920119+00:00",
       "status": "ok"
     },
     "belarra-h1500": {
-      "observed_at": "2026-11-09T12:09:53.863769+00:00",
+      "observed_at": "2026-11-10T04:11:28.211435+00:00",
       "status": "ok"
     },
     "lusqtoff-lg950p": {
-      "observed_at": "2026-11-09T18:58:22.256122+00:00",
+      "observed_at": "2026-11-10T04:11:28.335205+00:00",
       "status": "ok"
     },
     "lusqtoff-lg3000": {
-      "observed_at": "2026-11-09T18:58:25.258985+00:00",
+      "observed_at": "2026-11-10T04:11:31.339482+00:00",
       "status": "ok"
     },
     "lusqtoff-lg3000e": {
-      "observed_at": "2026-11-09T18:58:28.249626+00:00",
+      "observed_at": "2026-11-10T04:11:34.338047+00:00",
       "status": "ok"
     },
     "lusqtoff-lg7500ex": {
-      "observed_at": "2026-11-09T18:58:31.245326+00:00",
+      "observed_at": "2026-11-10T04:11:37.361490+00:00",
       "status": "ok"
     },
     "lusqtoff-lgi258": {
-      "observed_at": "2026-11-09T18:58:34.252558+00:00",
+      "observed_at": "2026-11-10T04:11:40.338942+00:00",
       "status": "ok"
     },
     "lusqtoff-lgi809": {
-      "observed_at": "2026-11-09T18:58:37.286606+00:00",
+      "observed_at": "2026-11-10T04:11:43.345284+00:00",
       "status": "ok"
     },
     "lusqtoff-iron1008": {
-      "observed_at": "2026-11-09T18:58:40.246479+00:00",
+      "observed_at": "2026-11-10T04:11:46.335830+00:00",
       "status": "ok"
     },
     "lusqtoff-iron140": {
-      "observed_at": "2026-11-09T18:58:43.250131+00:00",
+      "observed_at": "2026-11-10T04:11:49.333393+00:00",
       "status": "ok"
     },
     "lusqtoff-ironmig100": {
-      "observed_at": "2026-11-09T18:58:46.252938+00:00",
+      "observed_at": "2026-11-10T04:11:52.333034+00:00",
       "status": "ok"
     },
     "lusqtoff-sml1208d": {
-      "observed_at": "2026-11-09T18:58:49.246679+00:00",
+      "observed_at": "2026-11-10T04:11:55.333627+00:00",
       "status": "ok"
     },
     "lusqtoff-evomig175": {
-      "observed_at": "2026-11-09T18:58:52.283326+00:00",
+      "observed_at": "2026-11-10T04:11:58.338855+00:00",
       "status": "ok"
     },
     "bosch-gsb13re": {
-      "observed_at": "2026-11-09T12:10:24.411175+00:00",
+      "observed_at": "2026-11-10T04:11:58.420250+00:00",
       "status": "ok"
     },
     "bosch-gsb16re": {
-      "observed_at": "2026-11-09T12:10:27.393084+00:00",
+      "observed_at": "2026-11-10T04:12:01.408904+00:00",
       "status": "ok"
     },
     "bosch-gsb185li": {
-      "observed_at": "2026-11-09T12:10:30.461164+00:00",
+      "observed_at": "2026-11-10T04:12:04.422395+00:00",
       "status": "ok"
     },
     "bosch-gsb183li": {
-      "observed_at": "2026-11-09T12:10:33.426058+00:00",
+      "observed_at": "2026-11-10T04:12:07.411844+00:00",
       "status": "ok"
     },
     "bosch-gbh185li": {
-      "observed_at": "2026-11-09T12:10:36.405826+00:00",
+      "observed_at": "2026-11-10T04:12:10.408534+00:00",
       "status": "ok"
     },
     "einhell-tecd1840libl": {
-      "observed_at": "2026-11-09T12:10:39.402619+00:00",
+      "observed_at": "2026-11-10T04:12:13.423422+00:00",
       "status": "ok"
     },
     "einhell-tpcd1880liibl": {
-      "observed_at": "2026-11-09T12:10:42.400353+00:00",
+      "observed_at": "2026-11-10T04:12:16.416892+00:00",
       "status": "ok"
     },
     "bosch-gws700": {
-      "observed_at": "2026-11-09T12:10:45.396164+00:00",
+      "observed_at": "2026-11-10T04:12:23.087654+00:00",
       "status": "ok"
     },
     "bosch-gws18v8": {
-      "observed_at": "2026-11-09T12:10:48.392288+00:00",
+      "observed_at": "2026-11-10T04:12:23.166425+00:00",
       "status": "ok"
     },
     "einhell-teag1251010ce": {
-      "observed_at": "2026-11-09T12:10:51.488430+00:00",
+      "observed_at": "2026-11-10T04:12:26.156060+00:00",
       "status": "ok"
     },
     "einhell-teag18115qli": {
-      "observed_at": "2026-11-09T12:10:54.394825+00:00",
+      "observed_at": "2026-11-10T04:12:29.160775+00:00",
       "status": "ok"
     },
     "einhell-teag180dp": {
-      "observed_at": "2026-11-09T12:10:57.393785+00:00",
+      "observed_at": "2026-11-10T04:12:32.173829+00:00",
       "status": "ok"
     },
     "einhell-tcsm254": {
-      "observed_at": "2026-11-09T12:11:00.406760+00:00",
+      "observed_at": "2026-11-10T04:12:35.174685+00:00",
       "status": "ok"
     },
     "einhell-tcms216": {
-      "observed_at": "2026-11-09T12:11:03.391683+00:00",
+      "observed_at": "2026-11-10T04:12:38.157999+00:00",
       "status": "ok"
     },
     "einhell-tesm10ldual": {
-      "observed_at": "2026-11-09T12:11:06.455153+00:00",
+      "observed_at": "2026-11-10T04:12:41.159796+00:00",
       "status": "ok"
     },
     "bosch-gts254": {
-      "observed_at": "2026-11-09T12:11:09.394474+00:00",
+      "observed_at": "2026-11-10T04:12:44.178187+00:00",
       "status": "ok"
     },
     "hamilton-hca003": {
-      "observed_at": "2026-11-09T12:11:14.535176+00:00",
+      "observed_at": "2026-11-10T04:12:47.153247+00:00",
       "status": "ok"
     },
     "lusqtoff-scl7108": {
-      "observed_at": "2026-11-09T18:58:55.254634+00:00",
+      "observed_at": "2026-11-10T04:12:47.271173+00:00",
       "status": "ok"
     }
   },
   "run": {
-    "started_at": "2026-11-09T23:08:11.731086+00:00",
+    "started_at": "2026-11-10T04:10:39.059753+00:00",
+    "finished_at": "2026-11-10T04:12:47.298779+00:00",
     "models": 44,
-    "captured": 0,
+    "captured": 44,
     "failed": 0,
-    "already_captured": 44,
-    "status": "ok",
-    "finished_at": "2026-11-09T23:08:11.731736+00:00"
+    "already_captured": 0,
+    "status": "ok"
   }
 }
