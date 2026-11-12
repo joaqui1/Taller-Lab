@@ -2,12 +2,16 @@ import copy
 import re
 import unittest
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 
 import servidor_local as site
 import contenido_publico as public
 
 
 class TransparenciaDeGuiasTests(unittest.TestCase):
+    def setUp(self):
+        use_fresh_compatibility_catalog(self)
+
     def test_cada_guia_publicada_explica_una_vez_que_no_hubo_prueba_fisica(self):
         for article in site.ALL_ARTICLES:
             with self.subTest(url=article["url"]):

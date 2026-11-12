@@ -13,6 +13,7 @@ import unittest
 from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 
 from compatibilidad import catalog
 from compatibilidad.models import Evidence
@@ -56,6 +57,7 @@ class _LinkCollector(HTMLParser):
 
 class CompatibilityRegression(unittest.TestCase):
     def setUp(self):
+        use_fresh_compatibility_catalog(self)
         test_root=ROOT/'tmp'
         test_root.mkdir(exist_ok=True)
         self.temp=tempfile.TemporaryDirectory(dir=test_root)
@@ -191,6 +193,9 @@ class CompatibilityRegression(unittest.TestCase):
 
     def test_stale_proof_blocks_without_crashing_import_or_restore(self):
         e=next(iter(catalog.EVIDENCES_BY_ID.values()))
+        today=datetime.now(timezone.utc).date()
+        self.assertTrue(proof_valid(replace(e,date_reviewed=(today-timedelta(days=30)).isoformat())))
+        self.assertFalse(proof_valid(replace(e,date_reviewed=(today+timedelta(days=1)).isoformat())))
         old=replace(e,date_reviewed=(datetime.now(timezone.utc)-timedelta(days=31)).date().isoformat())
         self.assertFalse(proof_valid(old))
         self.assertTrue(proof_valid(old,check_age=False))

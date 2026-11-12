@@ -6,6 +6,7 @@ from contextlib import contextmanager
 from xml.etree import ElementTree
 from urllib.parse import urlparse
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 
 from compatibilidad import catalog
 from compatibilidad.content_dates import product_content_signature
@@ -63,6 +64,7 @@ class _ThirtyVersionConnection:
 
 class CompatibilityDatesC2Tests(unittest.TestCase):
     def setUp(self):
+        use_fresh_compatibility_catalog(self)
         clear_migration_cache()
         self.addCleanup(clear_migration_cache)
 

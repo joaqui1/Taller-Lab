@@ -11,6 +11,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from html import unescape
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 from xml.etree import ElementTree
 
 from compatibilidad import catalog
@@ -48,6 +49,7 @@ def _sitemap_lastmod(sitemap, path):
 
 class CompatibilityContentDates(unittest.TestCase):
     def setUp(self):
+        use_fresh_compatibility_catalog(self)
         clear_migration_cache()
         self.addCleanup(clear_migration_cache)
         temp_root = ROOT / 'tmp'

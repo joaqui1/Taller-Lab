@@ -6,6 +6,7 @@ import json
 import re
 import unittest
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 
 from compatibilidad import catalog
 from compatibilidad.editorial import EDITORIAL_FICHAS, render_editorial_blocks, validate_fichas_editorial
@@ -86,6 +87,7 @@ def complete_fixture(product):
 
 class CompatibilityEditorialTests(unittest.TestCase):
     def setUp(self):
+        use_fresh_compatibility_catalog(self)
         self.product = catalog.PRODUCTS_BY_ID["TOOL-BOSCH-GWS-18V-10"]
         self.fixture = complete_fixture(self.product)
 

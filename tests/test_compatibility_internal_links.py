@@ -4,6 +4,7 @@ import copy
 import unittest
 from html.parser import HTMLParser
 from unittest.mock import patch
+from tests.compatibility_fixtures import use_fresh_compatibility_catalog
 
 from compatibilidad import catalog
 from compatibilidad.presentation import guide_compatibility_block, product_path
@@ -31,6 +32,7 @@ class LinkCollector(HTMLParser):
 
 class CompatibilityInternalLinksTests(unittest.TestCase):
     def setUp(self):
+        use_fresh_compatibility_catalog(self)
         catalog.apply_state(catalog.baseline_state())
 
     def tearDown(self):
