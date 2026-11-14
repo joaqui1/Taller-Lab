@@ -19201,12 +19201,12 @@
     }
   },
   "run": {
-    "started_at": "2026-11-14T10:57:45.066296+00:00",
-    "finished_at": "2026-11-14T10:59:51.504956+00:00",
+    "started_at": "2026-11-14T14:05:25.720458+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-11-14T14:05:25.721081+00:00"
   }
 }
