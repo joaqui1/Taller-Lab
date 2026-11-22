@@ -23073,12 +23073,12 @@
     }
   },
   "run": {
-    "started_at": "2026-11-22T11:59:49.399954+00:00",
-    "finished_at": "2026-11-22T12:01:56.255970+00:00",
+    "started_at": "2026-11-22T15:14:35.721140+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-11-22T15:14:35.721689+00:00"
   }
 }
