@@ -24525,12 +24525,12 @@
     }
   },
   "run": {
-    "started_at": "2026-11-25T04:56:27.682431+00:00",
-    "finished_at": "2026-11-25T04:58:36.994787+00:00",
+    "started_at": "2026-11-25T13:31:28.440149+00:00",
     "models": 44,
-    "captured": 44,
+    "captured": 0,
     "failed": 0,
-    "already_captured": 0,
-    "status": "ok"
+    "already_captured": 44,
+    "status": "ok",
+    "finished_at": "2026-11-25T13:31:28.441004+00:00"
   }
 }
